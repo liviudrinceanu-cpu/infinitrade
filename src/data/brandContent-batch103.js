@@ -7,20 +7,20 @@ export const brandContentBatch103 = {
     headquarters: "Llíria (Valencia), Spania",
     overview: `Power Electronics este un producător spaniol de electronică de putere, cu sediul la Llíria, lângă Valencia. Compania proiectează convertizoare de frecvență de joasă tensiune pentru automatizare industrială, convertizoare de medie tensiune pentru instalații grele și echipamente de conversie a puterii pentru energie solară, stocare în baterii și centre de date. Pentru clienți din România putem oferta din gama de variatoare industriale și din familia de sisteme pentru proiecte de energie regenerabilă.
 
-Gama de joasă tensiune cuprinde seria SD, cu variante dedicate pompelor, aplicațiilor regenerative sau centrelor de date, în timp ce familia XMV acoperă medie tensiune pentru motoare de putere mare din industria grea. Compania este prezentă și pe segmentul convertizoarelor pentru centre de date, unde concurează cu furnizori precum Danfoss pe zona de acționări industriale. Pentru stocarea energiei oferă sisteme de conversie putere (PCS) care leagă bateriile de rețea, iar pe solar produce module de electronică de putere și controlere centrale pentru parcuri fotovoltaice.
+Gama de joasă tensiune cuprinde seria SD, cu variante dedicate pompării solare, aplicațiilor regenerative sau instalațiilor compacte de putere mare, în timp ce familia XMV acoperă medie tensiune pentru motoare de putere mare din industria grea. Compania este prezentă și pe segmentul convertizoarelor pentru centre de date. Pentru stocarea energiei oferă sisteme de conversie putere (PCS) care leagă bateriile de rețea, iar pe solar produce invertoare centrale și controlere pentru parcuri fotovoltaice.
 
 Pentru piața din România, Power Electronics are sens acolo unde un proiect combină acționarea industrială clasică cu o componentă de energie regenerabilă sau stocare — de exemplu o hală cu pompe de proces care vrea și o instalație fotovoltaică pe acoperiș. Integratorii de sisteme și proiectanții de instalații electrice sunt publicul tipic pentru această gamă.`,
     whyChoose: [
       "Portofoliu dublu — acționări industriale clasice și electronică de putere pentru solar/stocare, de la același producător",
-      "Gama SD acoperă mai multe aplicații prin variante dedicate (pompe, regenerare, centre de date) în aceeași familie constructivă",
+      "Gama SD acoperă mai multe aplicații prin variante dedicate (pompare solară, regenerare, densitate mare de putere) în aceeași familie constructivă",
       "Convertizoare de medie tensiune proprii (XMV) pentru motoare mari, fără a depinde de un integrator terț",
-      "Prezență activă pe segmentul centrelor de date, unde cerințele de eficiență și fiabilitate sunt superioare celor industriale standard",
+      "Prezență pe segmentul centrelor de date, cu o gamă dedicată de convertizoare și echipamente de conversie a puterii",
       "Sisteme de conversie putere dedicate stocării în baterii, utile pentru proiecte hibride solar-baterie"
     ],
     keyProducts: [
-      { name: "Convertizoare de Frecvență Seria SD", description: "Familie de variatoare de joasă tensiune cu variante specializate: SD750SP pentru aplicații de pompare, SD750FR pentru sarcini regenerative și SD750K pentru profiluri dinamice. Folosite în automatizarea liniilor de producție, ventilație industrială și acționarea pompelor de proces. Clientul trebuie să precizeze puterea motorului, tensiunea de rețea și tipul de aplicație (constantă, variabilă, regenerativă) pentru a primi codul potrivit din familia SD." },
-      { name: "Convertizoare de Medie Tensiune Seria XMV", description: "Gamă de convertizoare pentru motoare de putere mare, unde variatoarele de joasă tensiune nu mai sunt eficiente din cauza curenților ridicați. Modelele XMV660 și XMV670 se folosesc tipic la compresoare, benzi transportoare mari sau pompe de proces din industria grea. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea nominală și tipul de sarcină acționată." },
-      { name: "Sisteme de Conversie Putere pentru Stocare (PCS)", description: "Echipamente care conectează bateriile de stocare la rețeaua electrică, disponibile în variante modulare (PCSM) și cu funcții suplimentare de gestionare a energiei (PCSK). Se integrează cu parcuri fotovoltaice sau cu instalații industriale care vor să-și tamponeze consumul de vârf. Necesită specificarea capacității bateriei, a puterii dorite și a tipului de conexiune la rețea." }
+      { name: "Convertizoare de Frecvență Seria SD", description: "Familie de variatoare de joasă tensiune cu variante specializate: SD750SP pentru pompare solară, SD750FR pentru sarcini regenerative și SD750K pentru instalații cu spațiu limitat și densitate mare de putere. Folosite în automatizarea liniilor de producție, ventilație industrială și acționarea pompelor de proces. Clientul trebuie să precizeze puterea motorului, tensiunea de rețea și tipul de aplicație (constantă, variabilă, regenerativă) pentru a primi codul potrivit din familia SD." },
+      { name: "Convertizoare de Medie Tensiune Seria XMV", description: "Gamă de convertizoare pentru motoare de putere mare, unde variatoarele de joasă tensiune nu mai sunt eficiente din cauza curenților ridicați. Modelul XMV660 (versiunea Outdoor, pentru montaj exterior) și modelul XMV670 sunt convertizoare de medie tensiune pentru aplicații industriale cu funcționare intensă. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea nominală și tipul de sarcină acționată." },
+      { name: "Sisteme de Conversie Putere pentru Stocare (PCS)", description: "Echipamente care conectează bateriile de stocare la rețeaua electrică, disponibile în variantele PCSM și PCSK; PCSK este un invertor de baterii pentru aplicații la scară utilitară, cu funcții avansate de suport al rețelei. Se integrează cu parcuri fotovoltaice sau cu instalații industriale care vor să-și tamponeze consumul de vârf. Necesită specificarea capacității bateriei, a puterii dorite și a tipului de conexiune la rețea." }
     ],
     industries: [
       "Automatizare industrială — acționarea pompelor, ventilatoarelor și benzilor transportoare",
@@ -35,33 +35,33 @@ Pentru piața din România, Power Electronics are sens acolo unde un proiect com
       { code: "SD150", description: "convertizor de frecvență joasă tensiune, gamă compactă" },
       { code: "SD300", description: "convertizor de frecvență, aplicații industriale generale" },
       { code: "SD750", description: "convertizor de frecvență, gama de putere ridicată" },
-      { code: "SD750SP", description: "variantă SD750 dedicată acționării pompelor" },
+      { code: "SD750SP", description: "variantă SD750 dedicată pompării solare" },
       { code: "SD750FR", description: "variantă SD750 pentru sarcini regenerative" },
-      { code: "SD750K", description: "variantă SD750 pentru profiluri dinamice de sarcină" },
+      { code: "SD750K", description: "variantă SD750 pentru instalații cu spațiu limitat și densitate mare de putere" },
       { code: "XMV660", description: "convertizor de medie tensiune, motoare de putere mare" },
-      { code: "XMV670", description: "convertizor de medie tensiune, putere superioară gamei XMV660" },
+      { code: "XMV670", description: "convertizor de medie tensiune, 250 kW – 5 MW, până la 13,8 kV" },
       { code: "VS70", description: "convertizor de medie tensiune, gamă VS" },
       { code: "V6", description: "variator de frecvență, serie compactă" },
       { code: "FQA", description: "variator de frecvență, aplicație dedicată" },
       { code: "FQP", description: "variator de frecvență, aplicație dedicată" },
-      { code: "PCSM", description: "sistem modular de conversie putere pentru stocare" },
-      { code: "PCSK", description: "sistem de conversie putere cu funcții extinse" },
-      { code: "HEM", description: "modul de electronică de putere pentru solar" },
-      { code: "HEMK", description: "modul de electronică de putere, variantă HEM" },
+      { code: "PCSM", description: "sistem de conversie putere pentru stocare" },
+      { code: "PCSK", description: "invertor de baterii pentru stocare la scară utilitară, cu suport avansat al rețelei" },
+      { code: "HEM", description: "invertor central pentru solar" },
+      { code: "HEMK", description: "invertor pentru solar, variantă a gamei HEM" },
       { code: "DC-DC", description: "convertizor DC-DC pentru stocare și solar" },
       { code: "PPC-Pro", description: "controler central pentru parcuri fotovoltaice" }
     ],
     faq: [
       { q: "Ce produce Power Electronics?", a: "Power Electronics produce convertizoare de frecvență de joasă și medie tensiune pentru automatizare industrială, plus echipamente de electronică de putere pentru solar, stocare în baterii și centre de date. Gama acoperă de la variatoare compacte pentru pompe și ventilatoare până la convertizoare de medie tensiune pentru motoare industriale de putere mare." },
-      { q: "Cum aleg varianta corectă din seria SD de la Power Electronics?", a: "Varianta din seria SD se alege după tipul de sarcină: SD750SP pentru pompare, SD750FR pentru aplicații cu regenerare de energie și SD750K pentru profiluri dinamice. Trimiteți puterea motorului, tensiunea de rețea și tipul de aplicație pentru a primi propunerea de cod potrivit." },
+      { q: "Cum aleg varianta corectă din seria SD de la Power Electronics?", a: "Varianta din seria SD se alege după aplicație: SD750SP pentru pompare solară, SD750FR pentru aplicații cu regenerare de energie și SD750K pentru instalații cu spațiu limitat și densitate mare de putere. Trimiteți puterea motorului, tensiunea de rețea și tipul de aplicație pentru a primi propunerea de cod potrivit." },
       { q: "Livrați echipamente Power Electronics în România și cât durează?", a: "Da, aducem la comandă convertizoare Power Electronics prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea modelului la producător și de eventuala configurare specifică cerută de proiect." },
       { q: "Ce trebuie să trimit pentru o ofertă de convertizor de medie tensiune?", a: "Pentru seria XMV trimiteți puterea motorului acționat, tensiunea nominală de rețea, tipul de sarcină (constantă, variabilă, cu pornire grea) și mediul de instalare. Aceste date permit selectarea corectă a modelului și confirmarea termenului de livrare cu producătorul." },
       { q: "Ce diferență este între convertizoarele Power Electronics și cele de la alți producători industriali?", a: "Diferența practică e portofoliul dublu: pe lângă acționările industriale clasice, Power Electronics are o gamă dedicată solar și stocării în baterii, utilă la proiecte hibride. Alegerea între producători depinde de aplicația concretă, puterea necesară și de sistemul de automatizare existent la client." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Power Electronics — site oficial", url: "https://www.power-electronics.com", publisher: "Power Electronics, S.L.", accessed: "2026-09-25" },
       { title: "Sitemap produse Power Electronics", url: "https://power-electronics.com/sitemap-0.xml", publisher: "Power Electronics, S.L.", accessed: "2026-09-25" }
@@ -73,7 +73,7 @@ Pentru piața din România, Power Electronics are sens acolo unde un proiect com
     headquarters: "Poviglio (RE), Italia",
     overview: `Zapi Group este un producător italian de controlere electronice pentru vehicule electrice și hibride, cu sediul la Poviglio, lângă Reggio Emilia. Sub brandul ZAPI, grupul dezvoltă controlere AC și DC pentru motoarele de tracțiune și de pompă ale utilajelor electrice, alături de module de intrare-ieșire, sisteme de servodirecție electrică și console de operare. Pentru clienți din România putem oferta controlere ZAPI pentru echipamente de manipulare materiale și utilaje electrice similare.
 
-Gama ZAPI acoperă atât motoare asincrone clasice (seria AC), cât și motoare brushless (seria AC/BL Evolution), plus variante combinate care controlează simultan o pompă AC și o tracțiune DC pe același șasiu (seria AC/BL + DC Combi). Pentru aplicații cu tensiuni mai mari, grupul oferă o linie separată de invertoare de înaltă tensiune. Zapi Group concurează cu alți producători de electronică pentru vehicule industriale electrice, diferența fiind portofoliul extins de la controlere pure până la sisteme complete de servodirecție și interfețe pentru operator.
+Gama ZAPI acoperă atât motoare asincrone clasice (seria AC), cât și motoare brushless (seria AC/BL Evolution), plus variante combinate AC și DC în același controler (seria AC/DC Combi). Pentru aplicații cu tensiuni mai mari, grupul oferă o linie separată de invertoare de înaltă tensiune. Zapi Group concurează cu alți producători de electronică pentru vehicule industriale electrice, diferența fiind portofoliul extins de la controlere pure până la sisteme complete de servodirecție și interfețe pentru operator.
 
 Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de manipulare materiale (stivuitoare, transpaleți electrici) sau la proiecte noi de vehicule electrice pentru zone industriale — service-urile specializate în electronica de tracțiune sunt publicul principal.`,
     whyChoose: [
@@ -84,9 +84,9 @@ Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de mani
       "Prezență industrială largă — grupul include și brandurile Schabmüller pentru motoare și alte divizii pentru încărcare"
     ],
     keyProducts: [
-      { name: "Controlere ACE4", description: "Controlere pentru motoare de tracțiune, parte din familia AC a producătorului, folosite la acționarea roților sau a pompelor hidraulice ale vehiculelor electrice industriale. Se aleg în funcție de tensiunea bateriei și curentul maxim cerut de motorul acționat. Clientul trebuie să trimită tipul de motor (AC sau BL), tensiunea sistemului și aplicația (tracțiune sau pompă) pentru a primi propunerea corectă." },
-      { name: "COMBIACEX NG", description: "Controler combinat de nouă generație care gestionează simultan o pompă hidraulică AC și o tracțiune DC pe același vehicul, util la utilaje cu funcții mixte precum stivuitoarele electrice. Reduce numărul de componente electronice separate de pe șasiu. Pentru ofertă e nevoie de configurația exactă a vehiculului: tipul motoarelor de tracțiune și de pompă și tensiunea bateriei." },
-      { name: "Module VCM Series", description: "Module de intrare-ieșire care se conectează la controlerele ZAPI pentru a extinde numărul de senzori și comenzi disponibile pe vehicul, utile la utilaje cu funcții suplimentare (lumini de lucru, senzori de siguranță, comenzi auxiliare). Se integrează cu restul familiei de controlere prin protocolul de comunicare al producătorului." }
+      { name: "Controlere ACE4", description: "Controler ZAPI din gama de invertoare AC pentru vehicule electrice industriale; aplicația exactă (tracțiune sau pompă) se confirmă pe codul solicitat. Se aleg în funcție de tensiunea bateriei și curentul maxim cerut de motorul acționat. Clientul trebuie să trimită tipul de motor (AC sau BL), tensiunea sistemului și aplicația (tracțiune sau pompă) pentru a primi propunerea corectă." },
+      { name: "COMBIACEX NG", description: "Controler combinat de nouă generație din seria AC/DC Combi, pentru tensiuni de baterie de 24 V și 36-48 V, cu interfață CAN și protecție IP65, util la utilaje cu funcții mixte. Reduce numărul de componente electronice separate de pe șasiu. Pentru ofertă e nevoie de configurația exactă a vehiculului: tipul motoarelor de tracțiune și de pompă și tensiunea bateriei." },
+      { name: "Module VCM Series", description: "Module de intrare-ieșire (VCM Standard și VCM Premium) cu interfață CAN și protecție IP65, care extind numărul de intrări și ieșiri disponibile pe vehicul." }
     ],
     industries: [
       "Manipulare materiale — stivuitoare și transpaleți electrici",
@@ -98,7 +98,7 @@ Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de mani
     infinitrade: `Pentru controlerele ZAPI lucrăm la comandă: nu avem date proprii de stoc pentru Zapi Group și pornim de la configurația exactă a vehiculului sau utilajului clientului. Transmitem cerința prin canale de aprovizionare din UE, iar termenul orientativ de livrare este de 1–4 săptămâni, confirmat după verificarea disponibilității modelului cerut. Pentru retehnologizarea unui utilaj existent, avem nevoie de tipul motorului (AC sau brushless), tensiunea bateriei și funcția controlerului (tracțiune, pompă sau ambele). Nu promitem disponibilitate din depozit pentru această gamă — fiecare comandă se configurează pe vehiculul real. Oferim și sprijin în identificarea controlerului echivalent atunci când clientul are un cod vechi neclar sau ilizibil de pe o etichetă uzată.`,
     limitation: "Nu putem confirma parametrii electrici exacți ai fiecărui model ZAPI fără fișa tehnică a configurației comandate de client.",
     productCodes: [
-      { code: "ACE4", description: "controler pentru motor de tracțiune AC" },
+      { code: "ACE4", description: "controler ZAPI din familia de invertoare AC" },
       { code: "COMBIACEX NG", description: "controler combinat AC/DC nouă generație" },
       { code: "VCM Series", description: "modul de intrare-ieșire pentru controlere ZAPI" },
       { code: "AC Series", description: "invertor pentru motoare de tracțiune asincrone" },
@@ -119,8 +119,8 @@ Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de mani
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Zapi Group — site oficial", url: "https://www.zapigroup.com", publisher: "Zapi Group", accessed: "2026-09-25" },
       { title: "ZAPI — pagina de produse controlere", url: "https://www.zapigroup.com/en/zapi", publisher: "Zapi Group", accessed: "2026-09-25" }

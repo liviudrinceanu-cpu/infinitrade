@@ -5,13 +5,13 @@ export const brandContentBatch101 = {
   'teddington-engineered-solutions': {
     name: "Teddington Engineered Solutions",
     founded: 1927,
-    overview: `Teddington Engineered Solutions este un producător britanic de burdufuri metalice și compensatoare de dilatare, format prin unirea a patru fabricanți istorici — Brockington & Scott, Vokes Genflex, MaxComp și Teddington Bellows — sub un singur nume în 1927. Gama include burdufuri din oțel inoxidabil și aliaje speciale, burdufuri din țesătură, cauciuc și PTFE, îmbinări de expansiune complexe cu mai multe elemente, furtunuri flexibile din inox și componente prelucrate CNC. Din acest portofoliu putem oferta compensatoare pentru conducte care trebuie să preia dilatarea termică, vibrațiile sau dezalinierea dintre echipamente, fără să transmită tensiuni suplimentare structurii.
+    overview: `Teddington Engineered Solutions este un producător britanic de burdufuri metalice și compensatoare de dilatare, înființat în 1927, care reunește experiența Brockington & Scott, Vokes Genflex, MaxComp și Teddington Bellows. Gama include burdufuri din oțel inoxidabil și aliaje speciale, burdufuri din țesătură, cauciuc și PTFE, îmbinări de expansiune complexe cu mai multe elemente, furtunuri flexibile din inox și componente prelucrate CNC. Din acest portofoliu putem oferta compensatoare pentru conducte care trebuie să preia dilatarea termică, vibrațiile sau dezalinierea dintre echipamente, fără să transmită tensiuni suplimentare structurii.
 
 Ce separă Teddington de un producător generic de burdufuri e paleta de materiale disponibile pe aceeași linie constructivă — de la Inconel, Incoloy, Monel, Nimonic și Hastelloy pentru medii corozive sau temperaturi extreme, până la titan pentru aplicații cu greutate redusă. Compania declară aprobări de la registre navale precum Lloyd's Register, ABS, BV și DNV, plus certificare ASME U-Stamp și aprobare pentru domeniul nuclear (F4N), ceea ce o plasează alături de nume ca Witzenmann în segmentul de compensatoare pentru industrii reglementate. Burdufurile de tip clam-shell, cu design demontabil, sunt gândite special pentru intervenții rapide fără demontarea conductei întregi.
 
 Pentru un inginer din România, Teddington are sens acolo unde o conductă rigidă nu rezistă la ciclurile termice repetate ale unei instalații — linii de abur, sisteme criogenice sau conducte de pe platforme industriale cu vibrații constante. Proiectele tipice implică dimensionare pe baza mișcării axiale și laterale așteptate, nu doar a diametrului conductei.`,
     whyChoose: [
-      "Patru fabricanți istorici de burdufuri reuniți într-o singură companie, cu un secol cumulat de proiectare",
+      "Experiența a patru fabricanți istorici de burdufuri (Brockington & Scott, Vokes Genflex, MaxComp, Teddington Bellows) reunită într-o singură companie",
       "Materiale de burduf de la inox standard până la Hastelloy, Inconel și titan, pentru medii chimice sau criogenice",
       "Aprobări de clasificare navală (Lloyd's Register, ABS, BV, DNV) pentru compensatoare montate pe nave",
       "Certificare ASME U-Stamp și aprobare pentru domeniul nuclear (F4N), pentru instalații reglementate strict",
@@ -28,7 +28,7 @@ Pentru un inginer din România, Teddington are sens acolo unde o conductă rigid
       "Petrol și gaze — compensatoare pe linii de proces cu temperaturi și presiuni variabile",
       "Marină și construcții navale — burdufuri cu aprobări de clasificare pentru sisteme de bord",
       "Energie nucleară — componente cu aprobare F4N pentru circuite reglementate",
-      "Aerospațial și apărare — compensatoare de precizie pentru sisteme critice",
+      "Industrii reglementate — compensatoare cu aprobări de clasificare navală și nucleară (F4N)",
       "Centrale electrice — îmbinări de expansiune pe conducte de abur de diametru mare",
       "Chimie și petrochimie — burdufuri PTFE și din aliaje rezistente la coroziune",
     ],
@@ -38,7 +38,7 @@ Pentru un inginer din România, Teddington are sens acolo unde o conductă rigid
       "Aprobări de clasificare navală Lloyd's Register, ABS, BV, DNV",
       "F4N — aprobare pentru aplicații din domeniul nuclear",
     ],
-    infinitrade: `Putem oferta burdufuri și compensatoare de dilatare Teddington pornind de la informațiile publicate pe site-ul producătorului, fără date proprii despre stocul fabricii din Marea Britanie. Fiecare compensator se dimensionează pe proiect, așa că aducem unitățile la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni de la confirmarea desenului tehnic; pentru garnituri sau flanșe uzuale putem verifica variante cu livrare în 24–72 h dacă un partener local le are pregătite. Pentru ofertă avem nevoie de diametrul conductei, cursa de mișcare așteptată (axială, laterală, angulară), temperatura și fluidul vehiculat, plus eventualele aprobări cerute (naval, nuclear, ASME). Nu ținem gama Teddington pe raft — fiecare compensator e proiectat pentru aplicația clientului.`,
+    infinitrade: `Putem oferta burdufuri și compensatoare de dilatare Teddington pornind de la informațiile publicate pe site-ul producătorului, fără date proprii despre stocul fabricii din Marea Britanie. Fiecare compensator se dimensionează pe proiect, așa că aducem unitățile la comandă prin canale de aprovizionare europene, cu termen de regulă peste 4 săptămâni de la confirmarea desenului tehnic; pentru garnituri sau flanșe uzuale putem verifica variante cu livrare în 24–72 h dacă un partener local le are pregătite. Pentru ofertă avem nevoie de diametrul conductei, cursa de mișcare așteptată (axială, laterală, angulară), temperatura și fluidul vehiculat, plus eventualele aprobări cerute (naval, nuclear, ASME). Nu ținem gama Teddington pe raft — fiecare compensator e proiectat pentru aplicația clientului.`,
     limitation: "Nu putem confirma termene de fabricație pentru configurații complet personalizate fără desenul tehnic aprobat de inginerie.",
     productCodes: [
       { code: "Metal Bellows", description: "burduf ondulat metalic, mai multe aliaje disponibile" },
@@ -58,16 +58,16 @@ Pentru un inginer din România, Teddington are sens acolo unde o conductă rigid
       { code: "Machined Components", description: "piese prelucrate CNC din aliaje de specialitate" },
     ],
     faq: [
-      { q: "Ce produce Teddington Engineered Solutions?", a: "Teddington fabrică burdufuri metalice, din cauciuc, țesătură și PTFE, îmbinări de expansiune și furtunuri flexibile pentru conducte, rezultat din fuzionarea a patru fabricanți britanici de compensatoare în 1927. Gama acoperă temperaturi extreme, vid sau presiune înaltă, cu aliaje de la inox standard până la Hastelloy și titan." },
-      { q: "Cum aleg materialul potrivit pentru un burduf Teddington?", a: "Alegerea depinde de fluidul vehiculat și temperatura de lucru: inoxul standard acoperă majoritatea aplicațiilor industriale, aliaje precum Hastelloy sau Inconel sunt necesare pentru medii chimice agresive sau căldură extremă, iar titanul se folosește unde greutatea contează. Trimite-ne fluidul, presiunea și temperatura pentru recomandarea corectă." },
-      { q: "Livrați compensatoare Teddington în România și în cât timp?", a: "Da, aducem compensatoare Teddington la comandă prin canale de aprovizionare europene, cu un termen orientativ de 1–4 săptămâni de la aprobarea desenului tehnic. Fiecare unitate se proiectează pe proiectul clientului, așa că termenul exact depinde de complexitatea configurației cerute." },
+      { q: "Ce produce Teddington Engineered Solutions?", a: "Teddington fabrică burdufuri metalice, din cauciuc, țesătură și PTFE, îmbinări de expansiune și furtunuri flexibile pentru conducte, care reunește experiența a patru fabricanți istorici de compensatoare; compania indică anul 1927 ca an de înființare. Gama acoperă temperaturi extreme, vid sau presiune înaltă, cu aliaje de la inox standard până la Hastelloy și titan." },
+      { q: "Cum aleg materialul potrivit pentru un burduf Teddington?", a: "Alegerea depinde de fluidul vehiculat și temperatura de lucru: inoxul standard acoperă majoritatea aplicațiilor industriale, aliaje precum Hastelloy sau Inconel sunt necesare pentru medii chimice agresive sau căldură extremă, iar titanul se folosește unde greutatea contează. Vă rugăm să ne transmiteți fluidul, presiunea și temperatura pentru o recomandare corectă." },
+      { q: "Livrați compensatoare Teddington în România și în cât timp?", a: "Da, aducem compensatoare Teddington la comandă prin canale de aprovizionare europene, cu un termen de regulă peste 4 săptămâni de la aprobarea desenului tehnic. Fiecare unitate se proiectează pe proiectul clientului, așa că termenul exact depinde de complexitatea configurației cerute." },
       { q: "Ce echivalent are un compensator Witzenmann la Teddington Engineered Solutions?", a: "Ambii producători acoperă game similare de burdufuri metalice pentru industrii reglementate, dar echivalența exactă se stabilește pe baza diametrului, cursei de mișcare și aprobărilor cerute (naval, nuclear, ASME), nu doar după denumirea comercială. Trimite-ne desenul actual pentru o comparație corectă." },
       { q: "Ce informații trebuie să trimit pentru o ofertă Teddington?", a: "Ai nevoie de diametrul conductei, tipul de mișcare așteptată (axială, laterală sau angulară), temperatura și fluidul vehiculat, presiunea de lucru și orice aprobare specifică (clasificare navală, nuclear, ASME). Cu cât desenul e mai complet, cu atât oferta poate fi mai exactă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Teddington Engineered Solutions — Home", url: "https://www.tes.uk.com", publisher: "Teddington Engineered Solutions", accessed: "2026-09-25" },
       { title: "Teddington Engineered Solutions — Products", url: "https://www.tes.uk.com/products", publisher: "Teddington Engineered Solutions", accessed: "2026-09-25" },
@@ -76,33 +76,33 @@ Pentru un inginer din România, Teddington are sens acolo unde o conductă rigid
 
   osecoelfab: {
     name: "OsecoElfab",
-    overview: `OsecoElfab este un producător american de discuri de rupere și panouri antiexplozie, format din unirea mărcilor istorice Oseco și Elfab, cu operațiuni în America de Nord, Europa și Asia. Gama include discuri de rupere cu deschidere inversă (reverse buckling), discuri crestate cu deschidere directă, cartușe de siguranță sudate și panouri de explozie sau ventile fără flacără pentru echipamente de proces. Din acest portofoliu putem oferta dispozitive de protecție la suprapresiune montate pe rezervoare, reactoare și conducte, acolo unde o supapă de siguranță clasică nu răspunde suficient de rapid.
+    overview: `OsecoElfab este un producător de soluții de protecție la suprapresiune și la explozie (discuri de rupere și panouri antiexplozie), cu contacte regionale pentru America de Nord, Europa/Orientul Mijlociu/Africa și Asia. Gama include discuri de rupere cu deschidere inversă (reverse buckling), discuri crestate cu deschidere directă, cartușe de siguranță sudate și panouri de explozie sau ventile fără flacără pentru echipamente de proces. Din acest portofoliu putem oferta dispozitive de protecție la suprapresiune montate pe rezervoare, reactoare și conducte, acolo unde o supapă de siguranță clasică nu răspunde suficient de rapid.
 
-Ce diferențiază discurile OsecoElfab e varietatea de construcții pentru situații speciale — cartușul Pure-Gard, sudat pentru medii sterile din biotehnologie, seria Milli-Gard pentru presiuni foarte joase, discurile Bio-Gard fără crevase pentru instalații sanitare și panourile Lift-Gard, dedicate elevatoarelor cu cupe pentru materiale pulverulente. Compania declară certificare CE și testare conform normelor ASME, poziționându-se alături de nume ca BS&B sau Continental Disc pe segmentul de protecție la suprapresiune. Panoul CRVC, gândit pentru colectoare de praf industriale, acoperă un tip de risc de explozie diferit de discurile clasice montate pe recipiente sub presiune.
+Ce diferențiază discurile OsecoElfab e varietatea de construcții pentru situații speciale — cartușul Pure-Gard, sudat pentru medii sterile din biotehnologie, seria Milli-Gard pentru presiuni foarte joase, discurile Bio-Gard pentru instalații aseptice și igienice și panourile Lift-Gard, dedicate elevatoarelor cu cupe pentru materiale pulverulente. Pentru gama LoKr, producătorul indică proiectare conform ASME XIII și marcaj CE. Panoul CRVC, gândit pentru colectoare de praf industriale, acoperă un tip de risc de explozie diferit de discurile clasice montate pe recipiente sub presiune.
 
 Pentru un inginer de proces din România, OsecoElfab are sens la retehnologizarea unor instalații unde discul de rupere existent trebuie înlocuit cu unul echivalent ca performanță, sau la proiecte noi din chimie, farmaceutic ori energie unde standardul de proiectare cere un dispozitiv certificat de deschidere calibrată.`,
     whyChoose: [
       "Portofoliu combinat Oseco și Elfab, cu construcții pentru presiuni de la foarte joase la ridicate",
       "Cartuș sudat Pure-Gard pentru medii sterile din biotehnologie și farmaceutic",
-      "Panouri Lift-Gard dedicate elevatoarelor cu cupe, un risc de explozie specific industriei alimentare",
-      "Discuri Bio-Gard fără crevase, gândite pentru instalații cu cerințe sanitare stricte",
+      "Panouri Lift-Gard dedicate elevatoarelor cu cupe verticale",
+      "Discuri Bio-Gard cu relief pe toată deschiderea (full-bore), pentru instalații aseptice și igienice",
       "Panoul CRVC pentru colectoare de praf, separat de gama de discuri montate pe recipiente sub presiune",
     ],
     keyProducts: [
       { name: "Discuri de Rupere Seria LoKr", description: "Discuri cu deschidere inversă (reverse buckling), gândite pentru performanță ridicată de eliberare a presiunii pe recipiente și conducte de proces. Varianta LoKr DUO folosește o construcție modulară din două piese, iar LoKr Safety Cartridge vine ca unitate etanșă sudată, pentru instalare rapidă fără ajustări suplimentare la montaj." },
-      { name: "Cartuș de Siguranță Pure-Gard", description: "Cartuș de rupere sudat, dedicat aplicațiilor din biotehnologie și industria farmaceutică, unde suprafața de contact cu produsul trebuie să rămână sterilă și fără zone greu de curățat. Construcția sudată elimină garniturile suplimentare care ar putea reține reziduuri între cicluri de producție." },
-      { name: "Discuri de Rupere Opti-Gard și PRO+/OPK+", description: "Familie de discuri cu deschidere inversă pentru aplicații generale de proces, cu variante de precizie ridicată (PLR, PSR) pentru instalații unde toleranța la presiunea de rupere trebuie să fie strânsă. Potrivite pentru rezervoare, schimbătoare de căldură și linii de conducte din chimie și petrochimie." },
+      { name: "Cartuș de Siguranță Pure-Gard", description: "Cartuș de rupere sudat, dedicat aplicațiilor din biotehnologie și industria farmaceutică, unde suprafața de contact cu produsul trebuie să rămână sterilă și fără zone greu de curățat. " },
+      { name: "Discuri de Rupere Opti-Gard și PRO+/OPK+", description: "Opti-Gard este prezentat de producător ca disc de rupere potrivit pentru izolarea supapelor de siguranță. PRO+/OPK+ este un disc cu deschidere inversă de înaltă performanță, PLR este un disc cu deschidere inversă pentru presiuni foarte joase, iar PSR (Precision Scored Reverse) este un disc cu deschidere inversă, nefragmentabil, potrivit pentru izolarea supapelor de siguranță." },
       { name: "Panouri Antiexplozie și Ventile Fără Flacără", description: "Gamă de panouri de explozie (MV, EB) și ventile flameless pentru echipamente de proces cu risc de deflagrație — silozuri, filtre și colectoare de praf. Panoul Lift-Gard e dedicat elevatoarelor cu cupe, iar panourile higienice au design fără crevase pentru instalații din industria alimentară." },
     ],
     industries: [
       "Chimie și petrochimie — discuri de rupere pentru rezervoare și conducte de proces",
       "Farmaceutic și biotehnologie — cartușe sterile Pure-Gard și discuri Bio-Gard",
       "Industria alimentară — panouri higienice fără crevase pentru linii sanitare",
-      "Gaze industriale și criogenică — discuri pentru recipiente la presiuni joase (Milli-Gard)",
+      "Gaze și vapori — discuri pentru presiuni foarte joase (Milli-Gard)",
       "Prelucrare cereale și materiale pulverulente — panouri Lift-Gard pentru elevatoare cu cupe",
       "Baterii și stocare energie (BESS) — protecție la suprapresiune pentru module industriale",
     ],
-    certifications: [ "Marcaj CE pentru dispozitivele de protecție la suprapresiune", "Testare conform normelor ASME pentru discurile de rupere" ],
+    certifications: [ "Marcaj CE (indicat de producător pentru gama LoKr)", "Proiectare conform ASME XIII (indicată de producător pentru gama LoKr)" ],
     infinitrade: `Putem furniza discuri de rupere și panouri antiexplozie OsecoElfab pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Fiecare disc se selectează pe presiunea de rupere și temperatura de lucru cerute, așa că aducem unitățile la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni; pentru garnituri sau suporturi de montaj uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener european. Pentru ofertă transmiteți diametrul, presiunea de rupere dorită, temperatura de proces și dacă recipientul are deja un suport de montaj existent. Nu ținem această gamă pe raft — fiecare disc e ales pentru aplicația exactă.`,
     limitation: "Nu putem confirma compatibilitatea unui disc nou cu un suport de montaj mai vechi, de la un alt producător, fără verificarea desenului existent.",
     productCodes: [
@@ -111,13 +111,13 @@ Pentru un inginer de proces din România, OsecoElfab are sens la retehnologizare
       { code: "LoKr Safety Cartridge", description: "cartuș de siguranță sudat, unitate etanșă" },
       { code: "Pure-Gard", description: "cartuș de rupere sudat pentru medii sterile" },
       { code: "Oseco Safety Cartridge", description: "cartuș de siguranță, montaj rapid fără ajustări" },
-      { code: "Opti-Gard", description: "disc de rupere pentru aplicații generale de proces" },
-      { code: "PRO+/OPK+", description: "variante de disc cu deschidere inversă de precizie" },
+      { code: "Opti-Gard", description: "disc de rupere pentru izolarea supapelor de siguranță" },
+      { code: "PRO+/OPK+", description: "disc cu deschidere inversă de înaltă performanță" },
       { code: "FAS", description: "disc cu deschidere directă, crestat pentru aplicații solicitante" },
       { code: "Safe-Gard", description: "disc cu crestare încrucișată pentru siguranță sporită" },
-      { code: "PLR", description: "disc cu deschidere inversă, precizie ridicată" },
-      { code: "PSR", description: "variantă de disc cu deschidere inversă, precizie ridicată" },
-      { code: "Bio-Gard", description: "disc fără crevase pentru medii aseptice și igienice" },
+      { code: "PLR", description: "disc cu deschidere inversă pentru presiuni foarte joase" },
+      { code: "PSR", description: "disc cu deschidere inversă, nefragmentabil (Precision Scored Reverse)" },
+      { code: "Bio-Gard", description: "disc cu relief full-bore pentru medii aseptice și igienice" },
       { code: "Milli-Gard", description: "disc pentru aplicații la presiuni foarte joase" },
       { code: "MV Explosion Vent Range", description: "gamă de panouri de explozie pentru aplicații comune" },
       { code: "EB Explosion Vents", description: "panouri de explozie, variante monostrat și multistrat" },
@@ -126,16 +126,16 @@ Pentru un inginer de proces din România, OsecoElfab are sens la retehnologizare
       { code: "Dual-Gard", description: "dispozitiv combinat pentru egalizare de presiune și ventilare" },
     ],
     faq: [
-      { q: "Ce produce OsecoElfab?", a: "OsecoElfab fabrică discuri de rupere și panouri antiexplozie pentru protecția la suprapresiune, formată din unirea mărcilor Oseco și Elfab. Gama acoperă de la discuri pentru presiuni foarte joase (Milli-Gard) până la cartușe sterile pentru biotehnologie (Pure-Gard) și panouri pentru elevatoare cu cupe (Lift-Gard)." },
-      { q: "Cum aleg discul de rupere OsecoElfab potrivit?", a: "Trimite-ne diametrul recipientului sau conductei, presiunea de rupere cerută, temperatura de proces și tipul de fluid sau produs vehiculat. Aplicațiile sterile din farmaceutic sau alimentar orientează alegerea spre variantele Pure-Gard sau Bio-Gard, fără crevase greu de curățat." },
+      { q: "Ce produce OsecoElfab?", a: "OsecoElfab fabrică discuri de rupere și panouri antiexplozie pentru protecția la suprapresiune. Gama acoperă de la discuri pentru presiuni foarte joase (Milli-Gard) până la cartușe sterile pentru biotehnologie (Pure-Gard) și panouri pentru elevatoare cu cupe (Lift-Gard)." },
+      { q: "Cum aleg discul de rupere OsecoElfab potrivit?", a: "Vă rugăm să ne transmiteți diametrul recipientului sau al conductei, presiunea de rupere cerută, temperatura de proces și tipul de fluid sau produs vehiculat. Aplicațiile sterile din farmaceutic sau alimentar orientează alegerea spre variantele Pure-Gard sau Bio-Gard." },
       { q: "Livrați discuri OsecoElfab în România și cât durează?", a: "Da, aducem discuri OsecoElfab la comandă prin canale de aprovizionare europene sau americane, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Nu ținem această gamă pe raft, fiecare disc fiind calibrat pe presiunea de rupere cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă OsecoElfab?", a: "Ai nevoie de diametrul nominal, presiunea de rupere dorită, temperatura de lucru, materialul de contact cu produsul și dacă există deja un suport de montaj instalat. Pentru aplicații sterile, menționează și standardul sanitar cerut." },
       { q: "Ce diferență e între discurile LoKr și Pure-Gard de la OsecoElfab?", a: "LoKr este familia generală de discuri cu deschidere inversă pentru procese industriale standard, în timp ce Pure-Gard e un cartuș sudat dedicat mediilor sterile din biotehnologie și farmaceutic, unde suprafața de contact trebuie să rămână curată între cicluri de producție." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "OsecoElfab — Rupture Discs and Explosion Vents", url: "https://www.osecoelfab.com/", publisher: "OsecoElfab", accessed: "2026-09-25" },
       { title: "OsecoElfab — Products", url: "https://www.osecoelfab.com/products", publisher: "OsecoElfab", accessed: "2026-09-25" },
@@ -147,7 +147,7 @@ Pentru un inginer de proces din România, OsecoElfab are sens la retehnologizare
     headquarters: "Liberty, Missouri, SUA",
     overview: `Continental Disc Corporation este un producător american de discuri de rupere pentru protecția la suprapresiune, cu sediul la Liberty, Missouri, și parte în prezent din grupul Baker Hughes. Gama HPX acoperă discuri cu deschidere inversă, crestate semicircular, pentru lichide, gaze sau vapori, completată de variante sanitare (SANITRX HPX), de variante rezistente la coroziune (HPX-Ta, din tantal) și de cartușe sudate (HPX-CTG) pentru medii toxice. Din acest portofoliu putem oferta discuri pentru rezervoare, reactoare și linii de proces din industrii unde suprapresiunea trebuie eliminată rapid, fără întârzierea unei supape mecanice.
 
-Ce distinge familia HPX e adaptabilitatea aceleiași platforme constructive la cerințe foarte diferite — SANITRX HPX se montează direct pe ferule sanitare pentru industria alimentară și farmaceutică, INTEGRX-HPX are design fără crevase pentru cicluri repetate de presiune, iar APX e gândit special pentru medii toxice și corozive. Compania declară certificare ASME Secțiunea VIII pentru discurile din familia HPX și acoperă un interval larg de diametre, de la conducte mici până la recipiente mari de proces, cu rapoarte de presiune de rupere reglabile procentual. Poziționarea Continental Disc e similară cu cea a OsecoElfab pe segmentul de discuri de rupere industriale.
+Ce distinge familia HPX e adaptabilitatea aceleiași platforme constructive la cerințe foarte diferite — SANITRX HPX se montează direct pe ferule sanitare pentru industria alimentară și farmaceutică, INTEGRX-HPX are design fără crevase pentru cicluri repetate de presiune, iar APX e gândit special pentru medii toxice și corozive. Compania declară certificare ASME Secțiunea VIII pentru discurile din familia HPX. Discul HPX se oferă în diametre nominale de 1″ – 12″ (25–300 mm), pentru presiuni de rupere de 10–2.000 psig (0,689–138 barg), cu raport maxim de operare de 90 sau 95% din presiunea de rupere marcată.
 
 Pentru un inginer de proces din România, Continental Disc are sens la instalații farmaceutice sau alimentare care cer un disc sanitar certificat, la rezervoare cu medii corozive unde un disc standard din inox nu ar rezista, sau la retehnologizări unde discul existent trebuie înlocuit cu un echivalent verificat tehnic.`,
     whyChoose: [
@@ -155,23 +155,23 @@ Pentru un inginer de proces din România, Continental Disc are sens la instalaț
       "Disc HPX-Ta din tantal, pentru medii puternic corozive precum brom, clor sau acid sulfuric",
       "Variante SANITRX pentru montaj direct pe ferule sanitare, folosite în alimentar și farmaceutic",
       "Certificare ASME Secțiunea VIII pentru discurile din familia HPX",
-      "Parte din grupul Baker Hughes, cu acces la rețeaua globală de suport tehnic a grupului",
+      "Parte din grupul Baker Hughes",
     ],
     keyProducts: [
       { name: "Disc de Rupere HPX", description: "Disc cu deschidere inversă, crestat semicircular, pentru eliberarea rapidă a suprapresiunii pe recipiente și conducte cu lichide, gaze sau vapori. Este platforma de bază a familiei, de la care derivă variantele specializate pentru medii sanitare, toxice sau corozive, cu rapoarte de presiune de rupere ajustabile pe proiect." },
       { name: "Disc HPX-Ta (Tantal)", description: "Variantă a discului HPX construită din tantal, destinată mediilor puternic corozive precum bromul, clorul, acidul clorhidric, acidul azotic sau acidul sulfuric, unde un disc din inox sau nichel s-ar degrada rapid. Folosit în special în chimie și petrochimie, la reactoare și linii de proces cu agenți agresivi." },
       { name: "Discuri Sanitare SANITRX HPX", description: "Familie de discuri gândite pentru industria farmaceutică, biotehnologie și alimentară, montate direct pe ferule sanitare standard. Varianta SANITRX HPX II acoperă presiuni mai ridicate decât modelul de bază, iar INTEGRX-HPX adaugă un design fără crevase, potrivit pentru cicluri repetate de presiune fără acumulare de reziduuri." },
-      { name: "Disc HPX-CTG (Cartridge)", description: "Ansamblu de tip cartuș sudat, folosit acolo unde discul trebuie izolat complet de mediul exterior pentru medii toxice sau periculoase. Vine cu holder pre-torsionat (HPX-PT) pentru montaj rapid, reducând riscul de eroare la instalare comparativ cu un disc montat separat de suport." },
+      { name: "Disc HPX-CTG (Cartridge)", description: "Ansamblu de tip cartuș sudat, folosit în aplicații chimice cu medii periculoase, pentru reducerea la minimum a potențialelor căi de scurgere. Holderul pre-torsionat HPX-PT este un produs separat, cu șuruburi de înaltă rezistență, care asigură încărcarea și etanșarea corectă a discurilor HPX." },
     ],
     industries: [
       "Chimie și petrochimie — discuri HPX-Ta pentru medii corozive precum brom, clor sau acizi tari",
       "Farmaceutic și biotehnologie — discuri sanitare SANITRX pentru linii de proces sterile",
       "Industria alimentară — discuri cu montaj pe ferule sanitare, fără crevase",
       "Petrol și gaze — protecție la suprapresiune pentru recipiente de proces",
-      "Prelucrare toxice/hazardate — cartușe sudate HPX-CTG pentru izolare completă",
+      "Prelucrare toxice/hazardate — cartușe sudate HPX-CTG pentru reducerea căilor de scurgere",
     ],
     certifications: [ "ASME Secțiunea VIII — proiectare și fabricație pentru discurile de rupere HPX" ],
-    infinitrade: `Furnizăm discuri de rupere Continental Disc din familia HPX pe baza informațiilor publicate de producător, fără date proprii de stoc pentru acest brand — Continental Disc face parte din grupul Baker Hughes, iar disponibilitatea reală se confirmă doar la comandă. Aducem discurile la comandă prin canale de aprovizionare internaționale ale grupului, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor; pentru piese conexe uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă avem nevoie de diametrul nominal, raportul de presiune de rupere, temperatura de lucru și dacă aplicația e sanitară, toxică sau corozivă.`,
+    infinitrade: `Furnizăm discuri de rupere Continental Disc din familia HPX pe baza informațiilor publicate de producător, fără date proprii de stoc pentru acest brand — Continental Disc face parte din grupul Baker Hughes, iar disponibilitatea reală se confirmă doar la comandă. Aducem discurile la comandă prin canale de aprovizionare internaționale, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor; pentru piese conexe uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă avem nevoie de diametrul nominal, raportul de presiune de rupere, temperatura de lucru și dacă aplicația e sanitară, toxică sau corozivă.`,
     limitation: "Nu putem confirma disponibilitatea variantelor din tantal sau a altor aliaje speciale fără verificarea directă a stocului producătorului.",
     productCodes: [
       { code: "HPX", description: "disc de rupere cu deschidere inversă, crestat semicircular" },
@@ -183,22 +183,20 @@ Pentru un inginer de proces din România, Continental Disc are sens la instalaț
       { code: "APX", description: "disc de rupere pentru medii toxice și corozive" },
       { code: "HPX-CTG", description: "ansamblu tip cartuș sudat pentru medii toxice" },
       { code: "HPX-PT", description: "holder pre-torsionat pentru montaj rapid al discului" },
-      { code: "CDC-DM", description: "disc compozit cu montaj direct (Direct-Mount)" },
-      { code: "CDCV-DM", description: "variantă CDC-DM cu montaj direct pe vas" },
-      { code: "Reverse-Acting Rupture Disc", description: "familie de discuri cu deschidere inversă, uz general" },
+                  { code: "Reverse-Acting Rupture Disc", description: "familie de discuri cu deschidere inversă, uz general" },
       { code: "Forward-Acting Rupture Disc", description: "disc cu deschidere directă, pentru aplicații specifice" },
     ],
     faq: [
       { q: "Ce produce Continental Disc Corporation?", a: "Continental Disc Corporation fabrică discuri de rupere pentru protecția recipientelor și conductelor la suprapresiune, sub platforma HPX, cu variante sanitare, corozive sau toxice. Compania are sediul la Liberty, Missouri, și face parte din grupul Baker Hughes." },
       { q: "Cum aleg discul HPX potrivit pentru aplicația mea?", a: "Trimite-ne diametrul nominal, presiunea de rupere cerută, temperatura de lucru și tipul de mediu vehiculat. Pentru medii corozive precum acizii tari alegem varianta HPX-Ta din tantal, pentru industria alimentară sau farmaceutică varianta SANITRX cu montaj pe ferulă sanitară." },
-      { q: "Livrați discuri Continental Disc în România și în cât timp?", a: "Da, aducem discurile la comandă prin canalele de aprovizionare ale grupului Baker Hughes, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Termenul exact depinde de varianta de material și de disponibilitatea la fabrica producătoare." },
-      { q: "Ce echivalent are un disc OsecoElfab la Continental Disc Corporation?", a: "Ambele companii oferă discuri cu deschidere inversă pentru game similare de presiuni și diametre, dar echivalența se stabilește tehnic pe baza diametrului, raportului de presiune de rupere și materialului, nu doar după numele comercial al seriei." },
+      { q: "Livrați discuri Continental Disc în România și în cât timp?", a: "Da, aducem discurile la comandă prin canale de aprovizionare internaționale, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Termenul exact depinde de varianta de material și de disponibilitatea la fabrica producătoare." },
+      { q: "Ce echivalent are un disc OsecoElfab la Continental Disc Corporation?", a: "Echivalența cu un disc de la alt producător se stabilește tehnic pe baza diametrului, raportului de presiune de rupere și materialului, nu doar după numele comercial al seriei." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de disc Continental Disc?", a: "Ai nevoie de diametrul nominal, raportul de presiune de rupere dorit, temperatura de proces, materialul de contact și dacă aplicația necesită certificare sanitară sau rezistență la coroziune specifică." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Continental Disc Corporation — Home", url: "https://www.contdisc.com/", publisher: "Continental Disc Corporation", accessed: "2026-09-25" },
       { title: "Continental Disc Corporation — HPX Rupture Disc Family", url: "https://www.contdisc.com/products/hpx-rupture-disc/", publisher: "Continental Disc Corporation", accessed: "2026-09-25" },
@@ -211,41 +209,41 @@ Pentru un inginer de proces din România, Continental Disc are sens la instalaț
     headquarters: "Arcade, New York, SUA",
     overview: `Steel & O'Brien Manufacturing este un producător american de fitinguri, valve și pompe sanitare din inox, cu sediul la Arcade, New York, fondat în 1990 și parte din grupul Flow Control Holdings din 2018. Catalogul companiei depășește 10.000 de articole — fitinguri sanitare, fitinguri BPE (Bioprocess Equipment), valve diafragmă, pompe centrifugale, vizoare de nivel, filtre și sorburi, spool-uri sanitare și accesorii de susținere pentru tubulatură. Din această gamă putem oferta componente pentru linii sanitare unde curățarea CIP/SIP și trasabilitatea materialului contează la fel de mult ca performanța hidraulică.
 
-Ce diferențiază marca TOP-FLO® e integrarea valvelor diafragmă cu propriii actuatori din seria EZ, plus o linie de pompe centrifugale sanitare (seriile C100, C114, C216, C218, C328) disponibile și ca ansamblu pompă-motor gata de montat. Compania declară conformitate cu standardele 3-A și FDA pentru echipamente sanitare, alături de certificare ISO pentru managementul calității, poziționându-se pe segmentul de echipamente sanitare alături de producători ca Alfa Laval sau Waukesha pentru anumite categorii. O parte din modelele TOP-FLO sunt promovate ca "ready-to-go", semn al unui catalog orientat spre disponibilitate rapidă la producătorul american.
+Ce diferențiază marca TOP-FLO® e integrarea valvelor diafragmă cu propriii actuatori din seria EZ, plus o linie de pompe centrifugale sanitare (seriile C100, C114, C216, C218, C328) disponibile și ca ansamblu pompă-motor gata de montat. Pe site, compania afișează certificările 3-A, CRN și ISO. O parte din modelele TOP-FLO sunt promovate ca "ready-to-go", semn al unui catalog orientat spre disponibilitate rapidă la producătorul american.
 
 Pentru un inginer sau achizitor din România, Steel & O'Brien are sens la linii de procesare alimentară, băuturi sau farmaceutic care folosesc deja fitinguri sanitare americane (Tri-Clamp) și au nevoie de piese compatibile, sau la proiecte noi unde standardul BPE e cerut explicit de client.`,
     whyChoose: [
       "Catalog de peste 10.000 de articole sanitare, de la fitinguri de bază la valve diafragmă complexe",
       "Marcă proprie TOP-FLO® cu actuatori integrați (seria EZ) pentru valve diafragmă forjate",
       "Pompe centrifugale sanitare disponibile și ca ansamblu pompă-motor complet",
-      "Conformitate declarată cu standardele 3-A și FDA pentru echipamente de contact cu produsul",
-      "Parte din grupul Flow Control Holdings, cu acces la rețeaua de distribuție a grupului din 2018",
+      "Certificări afișate de producător: 3-A, CRN și ISO",
+      "Parte din grupul Flow Control Holdings din 2018",
     ],
     keyProducts: [
       { name: "Valve Diafragmă Forjate TOP-FLO BIOPRO", description: "Valve diafragmă forjate din inox, gândite pentru linii sanitare din farmaceutic, biotehnologie și alimentar, unde suprafața de contact cu produsul trebuie să fie netedă și ușor de curățat CIP/SIP. Se montează cu actuatori din seria EZ, disponibili separat sau ca ansamblu complet valvă-actuator." },
       { name: "Actuatori TOP-FLO EZ", description: "Actuatori pneumatici pentru valvele diafragmă forjate din gama TOP-FLO, cu montaj direct pe corpul valvei. Simplifică integrarea în sisteme automatizate de proces unde ciclurile de deschidere-închidere trebuie controlate din sistemul de automatizare al liniei." },
-      { name: "Pompe Centrifugale Sanitare Seria C100/C114/C216/C218/C328", description: "Familie de pompe centrifugale din inox pentru transferul de produse sanitare — lapte, sucuri, produse farmaceutice lichide — disponibile individual sau ca ansamblu pompă-motor gata de instalat. Dimensiunea din denumire indică poziția în gamă, de la modele compacte până la debite mai mari." },
+      { name: "Pompe Centrifugale Sanitare Seria C100/C114/C216/C218/C328", description: "Familie de pompe centrifugale din inox pentru transferul de produse sanitare — lapte, sucuri, produse farmaceutice lichide — disponibile individual sau ca ansamblu pompă-motor gata de instalat. Debitul și înălțimea de pompare depind de model; le confirmăm pe cod, din documentația producătorului (Steel O Brien Manufacturing)." },
       { name: "Fitinguri BPE și Sanitare", description: "Fitinguri conforme standardului BPE (Bioprocess Equipment) și fitinguri sanitare generale — coturi, teuri, reducții, cleme Tri-Clamp — pentru asamblarea liniilor de tubulatură sanitară. Completează gama cu vizoare de nivel, filtre, sorburi și accesorii de susținere pentru conducte." },
     ],
     industries: [
       "Procesare alimentară — fitinguri și valve sanitare pentru linii de producție",
       "Farmaceutic și biotehnologie — fitinguri BPE și valve diafragmă pentru medii sterile",
-      "Băuturi (bere, vin, distilerii) — pompe și valve sanitare pentru transfer de lichide",
+      "Băuturi — pompe și valve sanitare pentru transfer de lichide",
       "Cosmetică — componente sanitare pentru linii de amestecare și umplere",
       "Semiconductori — fitinguri de înaltă puritate pentru sisteme de proces",
       "Răcire centre de date — componente sanitare pentru circuite de lichid de răcire",
     ],
-    certifications: [ "Conformitate declarată cu standardele 3-A și FDA pentru echipamente sanitare" ],
-    infinitrade: `Aducem fitinguri, valve și pompe sanitare Steel & O'Brien pe baza catalogului public al producătorului, fără date proprii despre stocul din SUA pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare americane sau prin partenerii europeni ai grupului Flow Control Holdings, cu termen orientativ de 1–4 săptămâni de la confirmarea codului de produs; pentru cleme, garnituri și fitinguri standard putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă transmiteți codul TOP-FLO sau dimensiunea și tipul de fiting/valvă/pompă cerut, plus standardul sanitar aplicabil (3-A, BPE, FDA).`,
+    certifications: [ "Certificări afișate de producător: 3-A, CRN și ISO" ],
+    infinitrade: `Aducem fitinguri, valve și pompe sanitare Steel & O'Brien pe baza catalogului public al producătorului, fără date proprii despre stocul din SUA pentru acest brand. Livrarea se face la comandă, prin canale de aprovizionare americane sau europene, cu termen orientativ de 1–4 săptămâni de la confirmarea codului de produs; pentru cleme, garnituri și fitinguri standard putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă transmiteți codul TOP-FLO sau dimensiunea și tipul de fiting/valvă/pompă cerut, plus standardul sanitar aplicabil (3-A, BPE, FDA).`,
     limitation: "Nu putem confirma echivalența exactă cu un fiting sanitar de la alt producător fără compararea directă a desenelor tehnice.",
     productCodes: [
       { code: "TOP-FLO EZ", description: "actuator pneumatic pentru valve diafragmă forjate" },
       { code: "TOP-FLO BIOPRO", description: "valvă diafragmă forjată din inox, uz sanitar" },
-      { code: "C100", description: "pompă centrifugală sanitară, model compact din gamă" },
-      { code: "C114", description: "pompă centrifugală sanitară, poziție medie în gamă" },
-      { code: "C216", description: "pompă centrifugală sanitară, debit mediu-mare" },
-      { code: "C218", description: "pompă centrifugală sanitară, variantă din familia C2xx" },
-      { code: "C328", description: "pompă centrifugală sanitară, poziție superioară în gamă" },
+      { code: "C100", description: "pompă centrifugală sanitară TOP-FLO, seria C100" },
+      { code: "C114", description: "pompă centrifugală sanitară TOP-FLO, seria C114" },
+      { code: "C216", description: "pompă centrifugală sanitară TOP-FLO, seria C216" },
+      { code: "C218", description: "pompă centrifugală sanitară TOP-FLO, seria C218" },
+      { code: "C328", description: "pompă centrifugală sanitară TOP-FLO, seria C328" },
       { code: "C100 Pump & Motor Assembly", description: "ansamblu complet pompă-motor, model C100" },
       { code: "C114 Pump & Motor Assembly", description: "ansamblu complet pompă-motor, model C114" },
       { code: "C216 Pump & Motor Assembly", description: "ansamblu complet pompă-motor, model C216" },
@@ -258,15 +256,15 @@ Pentru un inginer sau achizitor din România, Steel & O'Brien are sens la linii 
     ],
     faq: [
       { q: "Ce produce Steel & O'Brien Manufacturing?", a: "Steel & O'Brien fabrică fitinguri, valve diafragmă și pompe centrifugale sanitare din inox, cu peste 10.000 de articole în catalog, sub marca proprie TOP-FLO. Compania are sediul la Arcade, New York, și face parte din grupul Flow Control Holdings din 2018." },
-      { q: "Cum aleg pompa TOP-FLO potrivită pentru linia mea sanitară?", a: "Trimite-ne debitul necesar, produsul vehiculat (lapte, sucuri, produse farmaceutice) și dacă ai nevoie de pompă separată sau de ansamblu pompă-motor complet. Seriile C100 și C114 acoperă debite mai mici, iar C216-C328 debite mai mari." },
+      { q: "Cum aleg pompa TOP-FLO potrivită pentru linia mea sanitară?", a: "Trimite-ne debitul necesar, produsul vehiculat (lapte, sucuri, produse farmaceutice) și dacă ai nevoie de pompă separată sau de ansamblu pompă-motor complet. Debitul și înălțimea de pompare depind de model; le confirmăm pe cod, din documentația producătorului (Steel O Brien Manufacturing)." },
       { q: "Livrați produse Steel & O'Brien în România și cât durează?", a: "Da, aducem fitinguri, valve și pompe Steel & O'Brien la comandă prin canale de aprovizionare din SUA sau Europa, cu termen orientativ de 1–4 săptămâni. Pentru fitinguri și cleme standard, verificăm și opțiuni cu livrare mai rapidă la un partener local." },
       { q: "Ce este standardul BPE la fitingurile Steel & O'Brien Manufacturing?", a: "BPE (Bioprocess Equipment) e un standard american pentru fitinguri sanitare folosite în biotehnologie și farmaceutic, care specifică finisaje de suprafață și toleranțe mai stricte decât fitingurile sanitare generale. Steel & O'Brien oferă ambele categorii în catalog." },
       { q: "Ce trebuie să trimit pentru o ofertă de fitinguri Steel & O'Brien?", a: "Ai nevoie de dimensiunea nominală, tipul de conexiune (Tri-Clamp, filetat, sudat), standardul sanitar cerut (3-A, BPE) și materialul dorit. Pentru pompe, adaugă debitul și înălțimea de pompare necesară." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Steel & O'Brien Manufacturing — Home", url: "https://www.steelobrien.com/", publisher: "Steel & O'Brien Manufacturing", accessed: "2026-09-25" },
       { title: "Steel & O'Brien Manufacturing — TOP-FLO Ready-To-Go", url: "https://www.steelobrien.com/products/top-flo/", publisher: "Steel & O'Brien Manufacturing", accessed: "2026-09-25" },
@@ -279,9 +277,9 @@ Pentru un inginer sau achizitor din România, Steel & O'Brien are sens la linii 
     headquarters: "Springfield, New Jersey, SUA",
     overview: `Valcor Engineering este un producător american de electrovalve și componente de control al fluidelor pentru aplicații critice, cu sediul la Springfield, New Jersey, activ din 1951. Gama include electrovalve solenoide (de uz general, criogenice, izolate cu diafragmă sau PTFE), pompe de dozare acționate solenoid din seriile SV500 și SV600, supape de reținere, regulatoare și supape de siguranță, manifolduri și componente de control al mișcării precum ambreiaje și frâne. Din acest portofoliu putem oferta componente pentru sisteme unde fiabilitatea la temperaturi extreme sau presiuni ridicate nu are voie să cedeze.
 
-Ce diferențiază Valcor e capacitatea declarată de a proiecta o componentă sau un sistem complet în jurul ei, cu testare și integrare incluse — o abordare mai apropiată de un integrator decât de un simplu furnizor de valve standard. Compania menționează operare ca stație de reparații FAA, ceea ce indică experiență directă cu echipamente aerospațiale certificate, iar gama criogenică și de vid o apropie de nișe unde puțini producători europeni oferă echivalent direct. Industriile deservite includ rachete și aplicații spațiale, aviație, energie nucleară și vehicule militare terestre.
+Ce diferențiază Valcor e capacitatea declarată de a proiecta o componentă sau un sistem complet în jurul ei, cu testare și integrare incluse — o abordare mai apropiată de un integrator decât de un simplu furnizor de valve standard. Compania menționează operare ca stație de reparații FAA, ceea ce indică experiență directă cu echipamente aerospațiale certificate, iar gama de electrovalve criogenice (temperaturi de la -454 °F la 32 °F, adică de la -270 °C la 0 °C) acoperă aplicații speciale. Industriile deservite includ rachete și aplicații spațiale, aviație, energie nucleară și vehicule militare terestre.
 
-Pentru un inginer din România, Valcor are sens la proiecte de cercetare, testare de laborator sau echipamente specializate unde o electrovalvă standard industrială nu acoperă cerințele de temperatură criogenică, vid înalt sau certificare pentru aplicații aerospațiale.`,
+Pentru un inginer din România, Valcor are sens la proiecte de cercetare, testare de laborator sau echipamente specializate unde o electrovalvă standard industrială nu acoperă cerințele de temperatură criogenică sau certificare pentru aplicații aerospațiale.`,
     whyChoose: [
       "Componente pentru aplicații critice — spațiu, aviație, nuclear — nu doar valve industriale generale",
       "Electrovalve criogenice și izolate cu PTFE pentru medii unde etanșarea standard nu rezistă",
@@ -291,18 +289,18 @@ Pentru un inginer din România, Valcor are sens la proiecte de cercetare, testar
     ],
     keyProducts: [
       { name: "Pompe de Dozare Solenoid Seriile SV500 și SV600", description: "Pompe acționate prin solenoid pentru dispensare și dozare precisă de fluide, folosite în echipamente de laborator, instrumentație de proces sau sisteme unde volumul livrat trebuie controlat electric, fără piese mecanice suplimentare de acționare." },
-      { name: "Electrovalve Criogenice și de Vid", description: "Electrovalve proiectate pentru temperaturi extrem de joase și medii de vid înalt, folosite în echipamente aerospațiale, instalații de testare criogenică sau sisteme de laborator care manipulează gaze lichefiate. Construcția reduce pierderile termice și menține etanșarea la cicluri repetate de temperatură." },
+      { name: "Electrovalve Criogenice", description: "Electrovalve pentru fluide criogenice, cu temperaturi de lucru de la -454 °F la 32 °F (de la -270 °C la 0 °C), cu corp sudat din inox sau alamă și discuri de etanșare PTFE sau PFA la anumite serii. Producătorul indică utilizări precum transferul criogenic de volum mare, camerele termice și congelatoarele biologice." },
       { name: "Electrovalve Izolate cu Diafragmă și PTFE", description: "Electrovalve cu diafragmă sau căptușeală PTFE, care izolează complet mediul vehiculat de componentele electrice și mecanice ale valvei. Potrivite pentru fluide corozive sau de puritate ridicată, unde contactul cu metale obișnuite ar contamina produsul sau ar coroda valva." },
       { name: "Componente de Control al Mișcării — Ambreiaje și Frâne", description: "Ambreiaje și frâne electromagnetice integrate în sisteme de control al mișcării pentru echipamente militare terestre sau aplicații industriale de precizie, completând oferta de fluid control cu componente electromecanice pentru transmisia și oprirea controlată a mișcării." },
     ],
     industries: [
-      "Aerospațial și rachete — electrovalve criogenice și de vid pentru sisteme de testare",
+      "Aerospațial și rachete — componente de control al fluidelor pentru aplicații spațiale",
       "Aviație — componente certificate, cu suport printr-o stație de reparații FAA",
       "Energie nucleară — valve și componente pentru sisteme de control al fluidelor",
       "Vehicule militare terestre — ambreiaje, frâne și componente de control al mișcării",
       "Cercetare științifică și industrială — valve miniaturale și pompe de dozare de laborator",
     ],
-    infinitrade: `Furnizăm electrovalve și componente de control al fluidelor Valcor pe baza informațiilor de pe site-ul producătorului, fără date proprii de stoc pentru acest brand — Valcor produce în mare parte la cerere, pe specificația clientului. Aducem componentele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea desenului sau codului de model; pentru garnituri și piese de schimb uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă avem nevoie de aplicația exactă (criogenică, vid, uz general), presiunea și temperatura de lucru, fluidul vehiculat și eventuale certificări cerute.`,
+    infinitrade: `Furnizăm electrovalve și componente de control al fluidelor Valcor pe baza informațiilor de pe site-ul producătorului, fără date proprii de stoc pentru acest brand; disponibilitatea se confirmă la comandă. Aducem componentele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea desenului sau codului de model; pentru garnituri și piese de schimb uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă avem nevoie de aplicația exactă (criogenică, vid, uz general), presiunea și temperatura de lucru, fluidul vehiculat și eventuale certificări cerute.`,
     limitation: "Nu putem confirma termene sau capacitate de proiectare personalizată pentru sisteme complexe fără o discuție tehnică directă cu producătorul.",
     productCodes: [
       { code: "SV500 Series", description: "pompă de dozare acționată solenoid, dispensare precisă" },
@@ -326,15 +324,15 @@ Pentru un inginer din România, Valcor are sens la proiecte de cercetare, testar
     ],
     faq: [
       { q: "Ce produce Valcor Engineering?", a: "Valcor Engineering fabrică electrovalve solenoide, pompe de dozare, supape de reținere, regulatoare de presiune și componente de control al mișcării pentru aplicații critice din spațiu, aviație, nuclear și apărare, din 1951, la Springfield, New Jersey." },
-      { q: "Cum aleg electrovalva Valcor potrivită pentru o aplicație criogenică?", a: "Trimite-ne temperatura minimă de lucru, presiunea sistemului și fluidul vehiculat (gaz lichefiat, azot, oxigen). Valcor oferă variante special construite pentru vid înalt și temperaturi extrem de joase, diferite de electrovalvele standard industriale." },
-      { q: "Livrați componente Valcor în România și în cât timp?", a: "Da, aducem componente Valcor la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Multe componente sunt produse la cerere, pe desenul sau codul de model transmis de client." },
+      { q: "Cum aleg electrovalva Valcor potrivită pentru o aplicație criogenică?", a: "Trimite-ne temperatura minimă de lucru, presiunea sistemului și fluidul vehiculat (gaz lichefiat, azot, oxigen). Valcor oferă electrovalve criogenice, pentru fluide cu temperaturi de la -454 °F la 32 °F (de la -270 °C la 0 °C)." },
+      { q: "Livrați componente Valcor în România și în cât timp?", a: "Da, aducem componente Valcor la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Disponibilitatea și termenul se confirmă pe cod, la comandă." },
       { q: "Poate Valcor Engineering proiecta un sistem complet, nu doar o componentă?", a: "Producătorul declară capacitatea de a proiecta și fabrica atât o componentă individuală, cât și un sistem complet în jurul ei, cu testare inclusă. Pentru un astfel de proiect, avem nevoie de o discuție tehnică directă cu specificațiile complete ale aplicației." },
       { q: "Ce informații trebuie să trimit pentru o ofertă Valcor?", a: "Ai nevoie de tipul de aplicație (criogenică, vid, uz general), presiunea și temperatura de lucru, fluidul vehiculat, tensiunea de alimentare a solenoidului și orice certificare cerută (aerospațial, militar, nuclear)." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Valcor Engineering Corporation — Home", url: "https://www.valcor.com/", publisher: "Valcor Engineering Corporation", accessed: "2026-09-25" },
       { title: "Valcor Engineering — Scientific & Industrial", url: "https://www.valcor.com/scientific-industrial/", publisher: "Valcor Engineering Corporation", accessed: "2026-09-25" },
@@ -345,14 +343,14 @@ Pentru un inginer din România, Valcor are sens la proiecte de cercetare, testar
     name: "AS-Schneider",
     overview: `AS-Schneider (Armaturenfabrik Franz Schneider GmbH + Co. KG) este un producător german de robineți de instrumentație și manifolduri pentru procese industriale. Gama include manifolduri din seria E și seria F cu robinete multi-căi, robinete cu bilă gemelară pentru montaj de tip Double Block & Bleed (seria Taurus), monoflanșe, robinete-ac, robinete cu scaun moale și robinete miniaturale pentru instrumentație de măsură și control. Din acest portofoliu putem oferta componente pentru linii de presiune, temperatură și debit unde etanșarea la emisii fugitive contează la fel de mult ca funcția de izolare.
 
-Ce diferențiază AS-Schneider e experiența declarată de peste 20 de ani în proiecte cu hidrogen, cu produse testate pentru concentrații de până la 100% hidrogen și conforme normei ISO 15848-1 pentru emisii fugitive, plus opțiunea TA-Luft pentru instalații cu cerințe stricte de etanșeitate în Germania. Designul VariAS-Blocks combină funcțiile mai multor robinete într-un singur bloc compact, reducând numărul de conexiuni predispuse la scurgeri, o abordare comparată frecvent cu soluțiile Swagelok pe segmentul de instrumentație de proces. Seria Taurus, cu design "twin ball", oferă izolare dublă cu golire între cele două bile, utilă la verificarea etanșeității fără oprirea liniei.
+Ce diferențiază AS-Schneider e experiența declarată de peste 20 de ani în proiecte cu hidrogen, cu produse indicate de producător pentru utilizare fiabilă cu hidrogen până la 100% și conforme normei ISO 15848-1 pentru emisii fugitive, plus opțiunea TA-Luft pentru instalații cu cerințe stricte de etanșeitate în Germania. VariAS-Blocks și monoflanșele fac parte din gama de robinete de instrumentație și manifolduri a producătorului; configurația exactă se stabilește pe cod, din documentația AS-Schneider. Seria Taurus, cu design "twin ball", oferă izolare dublă cu golire între cele două bile, utilă la verificarea etanșeității fără oprirea liniei.
 
 Pentru un inginer de instrumentație din România, AS-Schneider are sens la instalații noi sau retehnologizate din petrol și gaze, chimie sau proiecte cu hidrogen, unde standardul de emisii fugitive sau cerința Double Block & Bleed sunt specificate explicit în caietul de sarcini.`,
     whyChoose: [
-      "Produse testate pentru concentrații de până la 100% hidrogen, relevante pentru proiecte noi de energie",
+      "Produse indicate de producător pentru utilizare cu hidrogen până la 100%, relevante pentru proiecte noi de energie",
       "Conformitate declarată cu ISO 15848-1 pentru emisii fugitive, cu opțiune TA-Luft",
       "Seria Taurus cu design twin ball pentru izolare dublă cu golire (Double Block & Bleed)",
-      "VariAS-Blocks combină mai multe funcții de robinet într-un singur bloc, cu mai puține conexiuni",
+      "Gamă de VariAS-Blocks și monoflanșe pentru montajul instrumentelor de măsură",
       "Manifolduri din seriile E și F pentru instrumentație de măsură cu mai multe puncte de racord",
     ],
     keyProducts: [
@@ -364,7 +362,7 @@ Pentru un inginer de instrumentație din România, AS-Schneider are sens la inst
     industries: [
       "Petrol și gaze — manifolduri și robinete de instrumentație pentru linii de proces",
       "Chimie și petrochimie — robinete cu etanșare la emisii fugitive pentru medii periculoase",
-      "Proiecte cu hidrogen — componente testate pentru concentrații ridicate de hidrogen",
+      "Proiecte cu hidrogen — componente indicate de producător pentru utilizare cu hidrogen",
       "Energie și centrale electrice — instrumentație de măsură presiune și temperatură",
       "Industrie de proces general — Double Block & Bleed pentru izolarea sigură a instrumentelor",
     ],
@@ -374,7 +372,7 @@ Pentru un inginer de instrumentație din România, AS-Schneider are sens la inst
       { code: "E Series Manifolds", description: "manifold pentru transmițătoare de presiune, izolare și golire" },
       { code: "F Series Manifolds", description: "manifold și robinete multi-căi pentru instrumentație" },
       { code: "Taurus Series", description: "robinet cu bilă gemelară, design Double Block & Bleed" },
-      { code: "VariAS-Blocks", description: "bloc combinat cu mai multe funcții de robinet integrate" },
+      { code: "VariAS-Blocks", description: "bloc de robinete pentru instrumentație din gama producătorului" },
       { code: "Monoflanges", description: "monoflanșă pentru montaj compact al instrumentului pe linie" },
       { code: "Mini Valves", description: "robinet miniatural pentru spații reduse de montaj" },
       { code: "Soft Seated Valves", description: "robinet cu scaun moale, etanșare completă la debit zero" },
@@ -385,7 +383,7 @@ Pentru un inginer de instrumentație din România, AS-Schneider are sens la inst
       { code: "Double Block & Bleed Valves", description: "robinet cu izolare dublă și golire între elemente" },
     ],
     faq: [
-      { q: "Ce produce AS-Schneider?", a: "AS-Schneider (Armaturenfabrik Franz Schneider) fabrică manifolduri, robinete de instrumentație și robinete Double Block & Bleed pentru procese industriale din petrol și gaze, chimie și energie, cu componente testate inclusiv pentru aplicații cu hidrogen." },
+      { q: "Ce produce AS-Schneider?", a: "AS-Schneider (Armaturenfabrik Franz Schneider) fabrică manifolduri, robinete de instrumentație și robinete Double Block & Bleed pentru procese industriale din petrol și gaze, chimie și energie, cu componente indicate de producător și pentru aplicații cu hidrogen." },
       { q: "Cum aleg manifoldul AS-Schneider potrivit pentru transmițătorul meu?", a: "Trimite-ne modelul transmițătorului de presiune, presiunea nominală a liniei și numărul de puncte de izolare/egalizare/golire necesare. Seria E acoperă montaje standard, iar seria F configurații cu mai multe căi pe același bloc." },
       { q: "Livrați robinete AS-Schneider în România și cât durează?", a: "Da, aducem robinete și manifolduri AS-Schneider la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației. Pentru robinete-ac și piese uzuale, verificăm și opțiuni cu livrare mai rapidă." },
       { q: "Ce înseamnă Double Block & Bleed la robinetele Taurus de la AS-Schneider?", a: "Este o configurație cu două elemente de izolare (bile) și un punct de golire între ele, care permite scoaterea în siguranță a unui instrument din linie și verificarea etanșeității fiecărei bile, fără oprirea completă a procesului." },
@@ -393,8 +391,8 @@ Pentru un inginer de instrumentație din România, AS-Schneider are sens la inst
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "AS-Schneider — Instrumentation Valves and Manifolds", url: "https://www.as-schneider.com/us/en/Products-Services/Instrumentation-Valves-and-Manifolds.html", publisher: "AS-Schneider (Armaturenfabrik Franz Schneider GmbH + Co. KG)", accessed: "2026-09-25" },
       { title: "AS-Schneider — Products & Services", url: "https://www.as-schneider.com/us/en/Products-Services.html", publisher: "AS-Schneider (Armaturenfabrik Franz Schneider GmbH + Co. KG)", accessed: "2026-09-25" },
@@ -405,19 +403,19 @@ Pentru un inginer de instrumentație din România, AS-Schneider are sens la inst
     name: "Circle Seal Controls",
     overview: `Circle Seal Controls este un producător american de supape pentru sisteme de presiune, membru al grupului CIRCOR International. Gama Atkomatic acoperă trei principii constructive de supape solenoid — direct lift, pilot-piston și semi-direct lift — completate de supape de reținere, regulatoare de presiune, supape de siguranță și supape de închidere sub marca proprie Circle Seal. Din acest portofoliu putem oferta supape pentru sisteme unde comutarea rapidă sau menținerea presiunii sunt critice, fără compromisuri de etanșeitate.
 
-Ce diferențiază familia Atkomatic e alegerea principiului de acționare în funcție de aplicație — supapele direct lift (seriile 1000, 2000, 3000) sunt gândite pentru presiuni medii spre foarte ridicate la debite mai mici, cele pilot-piston (seriile 500, 4000-8000, 12000) funcționează unde există constant o cădere minimă de presiune pentru pilotare, iar cele semi-direct lift (seriile 15400, 30400, 40000) permit funcționarea independentă de debitul din sistem. Compania declară certificare CRN canadiană pentru o parte din gamă, iar poziționarea în piață e comparabilă cu Farris Engineering pe segmentul de supape de siguranță și control al presiunii.
+Ce diferențiază familia Atkomatic e alegerea principiului de acționare în funcție de aplicație — supapele direct lift (seriile 1000, 2000, 3000) sunt gândite pentru presiuni medii spre foarte ridicate la debite mai mici, cele pilot-piston (seriile 500, 4000-8000, 12000) funcționează unde există constant o cădere minimă de presiune pentru pilotare, iar cele semi-direct lift (seriile 15400, 30400, 40000) permit funcționarea independentă de debitul din sistem. Compania declară certificare CRN canadiană pentru o parte din gamă.
 
 Pentru un inginer de proces din România, Circle Seal are sens la sisteme pneumatice sau hidraulice de presiune medie-înaltă din aerospațial, chimie sau marină, unde tipul exact de acționare al supapei (direct lift, pilot-piston, semi-direct lift) trebuie ales în funcție de condițiile reale de debit din instalație.`,
     whyChoose: [
       "Trei principii constructive de supape solenoid (direct lift, pilot-piston, semi-direct lift) în aceeași marcă",
       "Gamă Atkomatic acoperind de la presiuni medii până la foarte ridicate, în funcție de serie",
-      "Membru al grupului CIRCOR International, cu acces la rețeaua tehnică a grupului",
+      "Membru al grupului CIRCOR International",
       "Certificare CRN canadiană declarată pentru o parte din gama de supape",
-      "Aplicații validate în aerospațial, chimie și marină, sectoare cu cerințe stricte de etanșeitate",
+      "Aplicații în aerospațial, chimie și marină, sectoare pe care producătorul le menționează pe site",
     ],
     keyProducts: [
-      { name: "Supape Solenoid Direct Lift Atkomatic", description: "Supape cu acționare directă, recomandate acolo unde nu e nevoie de debite mari, iar presiunile de lucru variază de la medii la foarte ridicate. Seriile 1000, 2000, 3000, 13000, 14000, 16000 și 50000 acoperă diferite combinații de presiune și dimensiune a orificiului." },
-      { name: "Supape Solenoid Pilot-Piston Atkomatic", description: "Supape care folosesc presiunea din sistem pentru a-și pilota propria deschidere, potrivite unde există constant o cădere minimă de presiune disponibilă. Seriile 500, 4000-8000, 12000 și 35000, plus variantele HS, JJ și 15-794, acoperă game diferite de debit și presiune de pilotare." },
+      { name: "Supape Solenoid Direct Lift Atkomatic", description: "Supape cu acționare directă, recomandate acolo unde nu e nevoie de debite mari, iar presiunile de lucru variază de la medii la foarte ridicate. Seriile 1000, 2000, 3000, 14000 și 16000 sunt pentru aplicații generale, iar 13000 (3 căi) și 50000 pentru aplicații speciale, la temperaturi ridicate." },
+      { name: "Supape Solenoid Pilot-Piston Atkomatic", description: "Supape care folosesc presiunea din sistem pentru a-și pilota propria deschidere, potrivite unde există constant o cădere minimă de presiune disponibilă. Seriile 500, 4000-8000 și 12000 sunt pentru aplicații generale, 35000 pentru răspuns rapid, iar variantele HS, JJ și 15-794 pentru aplicații cu abur, aer-apă-ulei sau CO2." },
       { name: "Supape Solenoid Semi-Direct Lift Atkomatic", description: "Supape gândite pentru funcționare independentă de debitul din sistem, utile unde condițiile de curgere variază sau nu pot garanta o cădere de presiune constantă pentru pilotare. Seriile 15400, 30400, 15800, 30800 și 40000 acoperă acest principiu constructiv." },
       { name: "Supape de Reținere, Regulatoare și Supape de Siguranță", description: "Completează gama Circle Seal cu supape de reținere pentru prevenirea curgerii inverse, regulatoare de presiune pentru menținerea unui nivel constant în aval, supape de siguranță pentru limitarea suprapresiunii și supape de închidere manuală sau automată pentru izolarea rapidă a secțiunilor de sistem." },
     ],
@@ -430,38 +428,38 @@ Pentru un inginer de proces din România, Circle Seal are sens la sisteme pneuma
     infinitrade: `Putem furniza supape Circle Seal Controls din gama Atkomatic și din gama proprie de supape pe baza cataloagelor publicate de producător, fără date proprii de stoc pentru acest brand — Circle Seal face parte din grupul CIRCOR International. Aducem supapele la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei și presiunii de lucru; pentru garnituri și kituri de service uzuale putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă transmiteți seria dorită sau tipul de principiu constructiv (direct lift, pilot-piston, semi-direct lift), presiunea de lucru și fluidul vehiculat.`,
     limitation: "Nu putem confirma disponibilitatea certificării CRN pentru fiecare serie individuală fără verificare directă la producător.",
     productCodes: [
-      { code: "Series 1000", description: "supapă direct lift, presiune medie-ridicată" },
+      { code: "Series 1000", description: "supapă direct lift, aplicații generale" },
       { code: "Series 2000", description: "supapă direct lift, variantă din familia 2000" },
-      { code: "Series 3000", description: "supapă direct lift, presiune ridicată" },
-      { code: "Series 13000", description: "supapă direct lift, variantă de mare presiune" },
-      { code: "Series 14000", description: "supapă direct lift, variantă de mare presiune" },
-      { code: "Series 16000", description: "supapă direct lift, presiune foarte ridicată" },
-      { code: "Series 50000", description: "supapă direct lift, poziție superioară în gamă" },
+      { code: "Series 3000", description: "supapă direct lift, aplicații generale" },
+      { code: "Series 13000", description: "supapă direct lift cu 3 căi, aplicații speciale" },
+      { code: "Series 14000", description: "supapă direct lift, aplicații generale" },
+      { code: "Series 16000", description: "supapă direct lift, aplicații generale" },
+      { code: "Series 50000", description: "supapă direct lift pentru aplicații speciale, la temperaturi ridicate" },
       { code: "Series 500", description: "supapă pilot-piston, debit cu cădere minimă de presiune" },
       { code: "Series 4000", description: "supapă pilot-piston, variantă din familia 4000-8000" },
       { code: "Series 5000", description: "supapă pilot-piston, variantă din familia 4000-8000" },
       { code: "Series 6000", description: "supapă pilot-piston, variantă din familia 4000-8000" },
       { code: "Series 7000", description: "supapă pilot-piston, variantă din familia 4000-8000" },
       { code: "Series 8000", description: "supapă pilot-piston, variantă din familia 4000-8000" },
-      { code: "Series 12000", description: "supapă pilot-piston, presiune ridicată" },
-      { code: "Series 35000", description: "supapă pilot-piston, poziție superioară în gamă" },
-      { code: "HS Series", description: "supapă pilot-piston, variantă specială Atkomatic" },
-      { code: "15-794 Series", description: "supapă pilot-piston, cod de serie specific" },
+      { code: "Series 12000", description: "supapă pilot-piston, aplicații generale" },
+      { code: "Series 35000", description: "supapă pilot-piston cu răspuns rapid" },
+      { code: "HS Series", description: "supapă pilot-piston pentru aplicații speciale (abur, aer-apă-ulei sau CO2)" },
+      { code: "15-794 Series", description: "supapă pilot-piston pentru aplicații speciale (abur, aer-apă-ulei sau CO2)" },
       { code: "Series 15400", description: "supapă semi-direct lift, funcționare independentă de debit" },
       { code: "Series 30400", description: "supapă semi-direct lift, variantă din familia 30000" },
-      { code: "Series 40000", description: "supapă semi-direct lift, poziție superioară în gamă" },
+      { code: "Series 40000", description: "supapă semi-direct lift pentru temperaturi ridicate" },
     ],
     faq: [
       { q: "Ce produce Circle Seal Controls?", a: "Circle Seal Controls fabrică supape solenoid din gama Atkomatic, plus supape de reținere, regulatoare de presiune și supape de siguranță, ca parte a grupului CIRCOR International. Gama acoperă trei principii de acționare, alese în funcție de presiunea și debitul din sistem." },
       { q: "Cum aleg supapa Atkomatic potrivită pentru sistemul meu?", a: "Depinde de debitul disponibil pentru pilotare: dacă sistemul are constant o cădere minimă de presiune, o supapă pilot-piston e potrivită; dacă nu, alegem direct lift sau semi-direct lift. Trimite-ne presiunea de lucru și debitul pentru recomandarea corectă." },
       { q: "Livrați supape Circle Seal în România și cât durează?", a: "Da, aducem supape Circle Seal la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei. Nu ținem această gamă pe raft, fiecare supapă fiind selectată pe principiul constructiv și presiunea cerută." },
-      { q: "Ce diferență e între supapele direct lift și pilot-piston de la Circle Seal Controls?", a: "Supapele direct lift se deschid prin acțiune directă a solenoidului, potrivite pentru debite mai mici la presiuni ridicate, în timp ce supapele pilot-piston folosesc presiunea sistemului pentru pilotare, fiind mai eficiente la debite mai mari cu o cădere minimă de presiune disponibilă." },
+      { q: "Ce diferență e între supapele direct lift și pilot-piston de la Circle Seal Controls?", a: "Supapele direct lift se deschid prin acțiune directă a solenoidului, potrivite pentru debite mai mici la presiuni ridicate, în timp ce supapele pilot-piston folosesc presiunea sistemului pentru pilotare și sunt potrivite acolo unde există constant o cădere minimă de presiune în sistem." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de supapă Circle Seal?", a: "Ai nevoie de seria dorită sau tipul de principiu constructiv, presiunea de lucru, debitul necesar, fluidul vehiculat și dacă aplicația cere certificare CRN sau alte aprobări specifice sectorului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Circle Seal Controls — Home", url: "https://circleseal.circor.com/", publisher: "Circle Seal Controls (CIRCOR International)", accessed: "2026-09-25" },
       { title: "Circle Seal Controls — Atkomatic Valves", url: "https://circleseal.circor.com/products/atkomatic-valves", publisher: "Circle Seal Controls (CIRCOR International)", accessed: "2026-09-25" },
@@ -470,30 +468,30 @@ Pentru un inginer de proces din România, Circle Seal are sens la sisteme pneuma
 
   'elprom-harmanli': {
     name: "Elprom Harmanli",
-    overview: `Elprom Harmanli este un producător bulgar de motoare electrice de inducție, trifazate și monofazate, activ din anii 1970 și prezentat pe propriul site drept un fabricant important de motoare asincrone din Bulgaria. Gama include motoare IEC standard, motoare construite după norma americană NEMA, motoare cu frână integrată, motoare sincrone cu magneți permanenți, motoare pentru macarale și dispozitive de ridicare, plus motoare de eficiență ridicată IE4. Din acest portofoliu putem oferta motoare pentru puteri între 0,12 kW și 30 kW, conform standardului IEC 60034-1.
+    overview: `Elprom Harmanli este un producător bulgar de motoare electrice de inducție, trifazate și monofazate, activ din anii 1970 și prezentat pe propriul site drept un fabricant important de motoare asincrone din Bulgaria. Gama include motoare IEC standard, motoare construite după norma americană NEMA, motoare cu frână integrată, motoare sincrone cu magneți permanenți, motoare pentru macarale și dispozitive de ridicare, plus motoare cu magneți permanenți din clasa IE4. Din acest portofoliu putem oferta motoare pentru puteri între 0,12 kW și 30 kW, conform standardului IEC 60034-1.
 
-Ce diferențiază Elprom Harmanli e acoperirea simultană a două standarde constructive — IEC pentru piața europeană și NEMA pentru echipamente destinate exportului către zone care folosesc dimensiuni americane de cadru — pe lângă motoarele sincrone cu magneți permanenți, o categorie mai puțin comună la producătorii central-europeni de motoare de uz general. Motoarele pentru macarale și dispozitive de ridicare arată o specializare istorică spre aplicații cu porniri și opriri frecvente, diferite ca solicitare de un motor standard de pompă sau ventilator, poziționând compania alături de nume ca ABB pe segmentul de motoare industriale de gamă medie.
+Ce diferențiază Elprom Harmanli e acoperirea simultană a două standarde constructive — IEC pentru piața europeană și NEMA pentru echipamente destinate exportului către zone care folosesc dimensiuni americane de cadru — pe lângă motoarele sincrone cu magneți permanenți. Motoarele pentru macarale și dispozitive de ridicare arată o specializare istorică spre aplicații cu porniri și opriri frecvente, diferite ca solicitare de un motor standard de pompă sau ventilator.
 
 Pentru un inginer din România, Elprom Harmanli are sens la retehnologizarea unor instalații cu motoare mai vechi unde se caută un motor IEC standard, la echipamente cu cerințe NEMA pentru piețe de export, sau la aplicații de ridicare unde regimul de funcționare intermitent cere un motor construit special pentru acest tip de solicitare.`,
     whyChoose: [
       "Producție simultană în standard IEC și NEMA, utilă pentru echipamente destinate mai multor piețe",
-      "Motoare sincrone cu magneți permanenți, o categorie mai rar întâlnită la producători de motoare generale",
+      "Motoare sincrone cu magneți permanenți în gama producătorului",
       "Motoare specializate pentru macarale și dispozitive de ridicare, cu regim de funcționare intermitent",
-      "Gamă de eficiență ridicată IE4, pentru instalații cu cerințe stricte de consum energetic",
+      "Motoare sincrone cu magneți permanenți din clasa IE4, menționate de producător pentru aplicații cu compresoare",
       "Producție conformă normei IEC 60034-1 pentru motoare de inducție trifazate și monofazate",
     ],
     keyProducts: [
       { name: "Motoare IEC Standard", description: "Motoare de inducție trifazate conforme normei IEC 60034-1, cu puteri între 0,12 kW și 30 kW, pentru aplicații industriale generale — pompe, ventilatoare, compresoare, benzi transportoare. Reprezintă baza gamei Elprom Harmanli pentru piața europeană." },
       { name: "Motoare Construite după Standardul NEMA", description: "Variante ale gamei de motoare, construite cu dimensiuni de cadru și caracteristici conform standardului american NEMA, pentru echipamente destinate exportului sau retehnologizării unor instalații care folosesc deja componente americane." },
       { name: "Motoare pentru Macarale și Dispozitive de Ridicare", description: "Motoare cu construcție adaptată pentru regim de funcționare intermitent, cu porniri și opriri frecvente și cupluri de pornire ridicate, specifice aplicațiilor de ridicare industrială, diferite ca solicitare mecanică de motoarele standard pentru pompe sau ventilatoare." },
-      { name: "Motoare Sincrone cu Magneți Permanenți și Motoare IE4", description: "Motoare sincrone cu magneți permanenți pentru aplicații unde eficiența și controlul precis al turației contează, alături de motoare asincrone de eficiență ridicată IE4, pentru instalații cu cerințe stricte de consum energetic pe durată lungă de funcționare." },
+      { name: "Motoare Sincrone cu Magneți Permanenți și Motoare IE4", description: "Motoare sincrone cu magneți permanenți pentru aplicații unde eficiența și controlul precis al turației contează, producătorul menționând variante din clasa IE4, dezvoltate pentru aplicații cu compresoare." },
     ],
     industries: [
       "Ridicare industrială — motoare pentru macarale cu regim de funcționare intermitent",
       "Pompare hidraulică — motoare IEC standard pentru pompe industriale",
       "Compresoare — motoare de inducție pentru echipamente de aer comprimat",
       "Construcții — motoare pentru echipamente de șantier și utilaje de ridicare",
-      "Transport feroviar — motoare pentru sisteme auxiliare de transport",
+      "Infrastructură feroviară — motoare pentru macazuri",
     ],
     certifications: [ "Conformitate declarată cu norma IEC 60034-1 pentru motoare de inducție" ],
     infinitrade: `Putem oferta motoare electrice Elprom Harmanli pe baza informațiilor publicate de producătorul bulgar, fără date proprii de stoc pentru acest brand. Aducem motoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea puterii, turației și standardului constructiv dorit (IEC sau NEMA); pentru motoare de putere mică, uzuale în instalații industriale, putem verifica opțiuni cu livrare în 24–72 h la un partener local. Pentru ofertă transmiteți puterea în kW, turația, dimensiunea cadrului și dacă motorul e destinat unei aplicații de ridicare cu regim intermitent.`,
@@ -505,12 +503,10 @@ Pentru un inginer din România, Elprom Harmanli are sens la retehnologizarea uno
       { code: "Motoare Sincrone cu Magneți Permanenți", description: "motor sincron PM pentru control precis al turației" },
       { code: "Motoare pentru Macara", description: "motor pentru macarale, regim de funcționare intermitent" },
       { code: "Motoare pentru Dispozitive de Ridicare", description: "motor specializat pentru echipamente de ridicat" },
-      { code: "Motoare IE4", description: "motor asincron de eficiență energetică ridicată" },
+      { code: "Motoare IE4", description: "motor sincron cu magneți permanenți, clasa IE4" },
       { code: "Motoare Trifazate", description: "motor de inducție trifazat, uz industrial general" },
       { code: "Motoare Monofazate", description: "motor de inducție monofazat, puteri mici" },
-      { code: "Motoare Two-Speed", description: "motor trifazat cu două turații" },
-      { code: "Motoare AT", description: "serie de motoare trifazate Elprom, uz general" },
-    ],
+                ],
     faq: [
       { q: "Ce produce Elprom Harmanli?", a: "Elprom Harmanli fabrică motoare electrice de inducție trifazate și monofazate, conform normei IEC 60034-1, cu puteri între 0,12 și 30 kW, plus motoare NEMA, motoare pentru macarale și motoare sincrone cu magneți permanenți. Compania se prezintă drept un producător important de motoare asincrone din Bulgaria." },
       { q: "Cum aleg motorul Elprom Harmanli potrivit pentru aplicația mea?", a: "Trimite-ne puterea necesară în kW, turația dorită, dimensiunea cadrului (dacă o cunoști) și standardul constructiv preferat (IEC sau NEMA). Pentru aplicații de ridicare cu porniri frecvente, recomandăm gama specializată pentru macarale." },
@@ -520,8 +516,8 @@ Pentru un inginer din România, Elprom Harmanli are sens la retehnologizarea uno
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Elprom Harmanli Motors — Home", url: "https://www.elprommotors.com/en", publisher: "Elprom Harmanli", accessed: "2026-09-25" },
       { title: "Elprom Harmanli Motors — Company Info", url: "https://www.elprommotors.com/en/", publisher: "Elprom Harmanli", accessed: "2026-09-25" },
@@ -534,7 +530,7 @@ Pentru un inginer din România, Elprom Harmanli are sens la retehnologizarea uno
     headquarters: "San Giovanni in Persiceto, Italia",
     overview: `Neri Motori este un producător italian de motoare electrice asincrone trifazate, cu sediul la San Giovanni in Persiceto, lângă Bologna, activ din 1946. Gama include motoare trifazate standard, motoare de eficiență ridicată IE2 și IE3, motoare cu carcasă netedă (smooth body), motoare din inox, motoare cu două turații, motoare monofazate, motoare cu frânare automată și seria brushless NERIDRIVE cu motor-invertor integrat. Din acest portofoliu putem oferta motoare pentru puteri și turații variate, cu variante speciale pentru medii corozive sau umede.
 
-Ce diferențiază Neri Motori e seria IPM (Inverter Power supply Motors) din gama brushless — motoare compacte, disponibile în dimensiuni de cadru de la 71 la 132, alimentate direct la 230V sau 400V, cu puteri de câțiva kW până la peste 7 kW la modelele mai mari. Motoarele din inox și cele cu carcasă netedă răspund unei nișe specifice — instalații din industria alimentară sau farmaceutică unde suprafața motorului trebuie să fie ușor de curățat, fără caneluri care rețin reziduuri, o abordare mai apropiată de producători specializați pe echipamente sanitare decât de un producător generic de motoare industriale.
+Ce diferențiază Neri Motori e seria IPM din gama brushless — motoare compacte, disponibile în dimensiuni de cadru de la 71 la 132, alimentate de la un invertor trifazat la 230V sau 400V, cu puteri de câțiva kW până la peste 7 kW la modelele mai mari. Motoarele din inox și cele cu carcasă netedă răspund unei nișe specifice — instalații din industria alimentară sau farmaceutică unde suprafața motorului trebuie să fie ușor de curățat, fără caneluri care rețin reziduuri.
 
 Pentru un inginer din România, Neri Motori are sens la instalații din industria alimentară care cer motoare cu carcasă netedă sau din inox, la aplicații cu invertor integrat unde seria NERIDRIVE simplifică montajul, sau la retehnologizări unde eficiența IE3 e cerută explicit de proiect.`,
     whyChoose: [
@@ -542,18 +538,18 @@ Pentru un inginer din România, Neri Motori are sens la instalații din industri
       "Motoare din inox și cu carcasă netedă, pentru instalații din industria alimentară și farmaceutică",
       "Gamă de eficiență IE2 și IE3, pentru conformitate cu cerințele europene de eficiență energetică",
       "Seria IPM cu dimensiuni de cadru de la 71 la 132, alimentare la 230V sau 400V",
-      "Motoare cu frânare automată, trifazate și monofazate, pentru aplicații care cer oprire rapidă",
+      "Motoare trifazate cu frânare automată (seriile AT, AHE2, AHE3), pentru aplicații care cer oprire rapidă",
     ],
     keyProducts: [
-      { name: "Motoare Trifazate Standard și IE2/IE3", description: "Motoare asincrone trifazate pentru aplicații industriale generale, disponibile în variante standard, de eficiență IE2 (HE2) și IE3 (HE3), pentru instalații care trebuie să respecte cerințele europene de eficiență energetică fără a schimba dimensiunea de montaj a motorului existent." },
-      { name: "Motoare Brushless Seria IPM", description: "Motoare-invertor de tip brushless (Inverter Power supply Motors), disponibile în dimensiuni de cadru de la 71 la 132, alimentate la 230V sau 400V, cu puteri de la câțiva kW până la peste 7 kW la modelele mai mari, precum 100LB, cu turații de 1500-3000 RPM." },
+      { name: "Motoare Trifazate Standard și IE2/IE3", description: "Motoare asincrone trifazate pentru aplicații industriale generale, disponibile în variante standard, de eficiență IE2 (HE2) și IE3 (HE3), pentru instalații care trebuie să respecte cerințele europene de eficiență energetică; dimensiunile de montaj se confirmă pe cod." },
+      { name: "Motoare Brushless Seria IPM", description: "Motoare brushless sincrone din clasa IE4, pentru alimentare de la invertor, disponibile în dimensiuni de cadru de la 71 la 132, la 230V sau 400V, cu puteri de la câțiva kW până la peste 7 kW la modelele mai mari, precum 100LB, cu turații de 1500-3000 RPM." },
       { name: "Motoare din Inox și Smooth Body", description: "Motoare cu carcasă din inox sau cu suprafață netedă (smooth body), fără caneluri de răcire clasice, pentru instalații din industria alimentară, farmaceutică sau medii umede unde curățarea frecventă și rezistența la coroziune contează mai mult decât răcirea prin caneluri." },
       { name: "Serie NERIDRIVE (Motor-Invertor)", description: "Motor cu invertor integrat direct pe carcasă, pentru control de turație fără un dulap de comandă separat, util la echipamente unde spațiul de montaj sau cablarea unui invertor extern ar complica instalația." },
     ],
     industries: [
       "Industria alimentară — motoare din inox și smooth body pentru linii cu cerințe de igienă",
       "Ventilație și HVAC — motoare trifazate standard și cu invertor integrat",
-      "Agricultură și energie eoliană — motoare pentru echipamente cu cerințe speciale de mediu",
+      "Industria alimentară, HVAC și automatizări — aplicațiile indicate de producător",
       "Handling industrial — motoare cu frânare automată pentru oprire rapidă",
       "Automatizări industriale — serie brushless IPM pentru control de precizie al turației",
     ],
@@ -570,14 +566,11 @@ Pentru un inginer din România, Neri Motori are sens la instalații din industri
       { code: "IPM 71A V230", description: "motor brushless, cadru 71A, alimentare 230V" },
       { code: "IPM 80A V230", description: "motor brushless, cadru 80A, alimentare 230V" },
       { code: "IPM 90S V400", description: "motor brushless, cadru 90S, alimentare 400V" },
-      { code: "IPM 90L V400", description: "motor brushless, cadru 90L, alimentare 400V" },
-      { code: "IPM 100LA V400", description: "motor brushless, cadru 100LA, 4,0-7,5 kW" },
+            { code: "IPM 100LA V400", description: "motor brushless, cadru 100LA, alimentare 400V" },
       { code: "IPM 100LB V400", description: "motor brushless, cadru 100LB, 4,0-7,5 kW, 1500-3000 RPM" },
       { code: "IPM 112A V400", description: "motor brushless, cadru 112A, alimentare 400V" },
-      { code: "IPM 112B V400", description: "motor brushless, cadru 112B, alimentare 400V" },
-      { code: "IPM 132M V400", description: "motor brushless, cadru 132M, alimentare 400V" },
-      { code: "IPM 132ML V400", description: "motor brushless, cadru 132ML, alimentare 400V" },
-      { code: "AT (self-braking three-phase)", description: "motor trifazat cu frânare automată" },
+            { code: "IPM 132M V400", description: "motor brushless, cadru 132M, alimentare 400V" },
+            { code: "AT (self-braking three-phase)", description: "motor trifazat cu frânare automată" },
     ],
     faq: [
       { q: "Ce produce Neri Motori?", a: "Neri Motori fabrică motoare electrice asincrone trifazate, motoare din inox, motoare cu carcasă netedă și motoare brushless din seria IPM, la fabrica din San Giovanni in Persiceto, Italia, activă din 1946. Gama acoperă și motoare monofazate și cu frânare automată." },
@@ -588,8 +581,8 @@ Pentru un inginer din România, Neri Motori are sens la instalații din industri
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Neri Motori — Company History", url: "https://www.nerimotori.com/en/company/history", publisher: "Neri Motori", accessed: "2026-09-25" },
       { title: "Neri Motori — Products", url: "https://www.nerimotori.com/en/products", publisher: "Neri Motori", accessed: "2026-09-25" },
@@ -600,27 +593,27 @@ Pentru un inginer din România, Neri Motori are sens la instalații din industri
     name: "Cemp",
     founded: 1954,
     headquarters: "Senago, Milano, Italia",
-    overview: `Cemp este un producător italian de motoare electrice antideflagrante pentru zone cu risc de explozie, cu sediul la Senago, lângă Milano, specializat în motoare ATEX și IEC Ex din 1954. Gama include motoare pentru zone cu gaz (seriile E..AB/E..AC, E..DB/E..DC, E..HB/E..HC), motoare pentru zone cu praf și medii non-sparking (seria E..AN/E..AD/E..AQ) și motoare pentru zone sigure sub mărcile TCA și TCI, fabricate în Europa. Din acest portofoliu putem oferta motoare de la 0,75 kW până la 375 kW, în cadre IEC de la 80 la 355.
+    overview: `Cemp este un producător italian de motoare electrice antideflagrante pentru zone cu risc de explozie, cu sediul la Senago, lângă Milano, specializat în motoare ATEX și IEC Ex din 1954. Gama include motoare pentru zone cu gaz (seriile E..AB/E..AC, E..DB/E..DC, E..HB/E..HC), motoare pentru zone cu praf și medii non-sparking (seria E..AN/E..AD/E..AQ) și motoare pentru zone sigure din seriile TCA și TCI. Din acest portofoliu putem oferta motoare de la 0,12 kW până la 375 kW, în cadre IEC de la 63 la 355 (limitele depind de serie).
 
-Ce diferențiază Cemp e acoperirea completă a categoriilor ATEX pe aceeași platformă constructivă — de la motoare pentru gaz (categoria G) la motoare pentru praf (categoria D) și combinații G/D — plus eficiență IE3 și IE4 pe toată gama, indiferent de zona de risc. Compania menționează și mărcile asociate Marathon și ROTOR, cu aprobări maritime de la Lloyd's Register și DNV pentru variantele navale, poziționând Cemp alături de nume ca ABB pe segmentul de motoare pentru zone Ex. Seriile TCN și TCT acoperă aceleași cerințe non-sparking, dar cu producție declarată integral în Italia.
+Ce diferențiază Cemp e acoperirea completă a categoriilor ATEX pe aceeași platformă constructivă — de la motoare pentru gaz (categoria G) la motoare pentru praf (categoria D) și combinații G/D — plus eficiență IE3 și IE4 în seriile standard (IE1 și IE2 disponibile). Compania menționează și mărcile asociate Marathon și ROTOR, cu aprobări maritime de la Lloyd's Register și DNV pentru variantele navale. Seriile TCN și TCT acoperă aceleași cerințe non-sparking, dar cu producție declarată integral în Italia.
 
 Pentru un inginer din România, Cemp are sens la instalații din petrol și gaze, minerit sau industria marină unde standardul ATEX sau IEC Ex e cerut explicit pentru motorul instalat, indiferent dacă riscul provine din gaze inflamabile sau din praf combustibil.`,
     whyChoose: [
       "Acoperire completă a categoriilor ATEX — gaz, praf și combinații — pe aceeași platformă constructivă",
-      "Eficiență IE3 și IE4 disponibilă pe întreaga gamă de motoare pentru zone cu risc de explozie",
-      "Aprobări maritime Lloyd's Register și DNV pentru variantele navale, prin marca ROTOR",
+      "Eficiență IE3 și IE4 în seriile standard, cu IE1 și IE2 disponibile",
+      "Aprobări maritime Lloyd's Register și DNV pentru variantele navale, prin mărcile asociate",
       "Serii TCN/TCT cu producție declarată integral în Italia, pentru cerințe de origine europeană",
-      "Puteri de la 0,75 la 375 kW în cadre IEC de la 80 la 355, aceeași gamă pentru toate categoriile ATEX",
+      "Puteri de la 0,12 la 375 kW în cadre IEC de la 63 la 355, în funcție de serie",
     ],
     keyProducts: [
-      { name: "Motoare ATEX pentru Zone cu Gaz Seria E..AB/E..AC", description: "Motoare antideflagrante pentru zone cu risc de gaze inflamabile, eficiență IE3-IE4, puteri de la 0,75 la 375 kW, în cadre IEC de la 80 la 355, conforme standardelor IEC 60079-0, 1, 7 și 31 pentru construcție antiexplozivă." },
-      { name: "Motoare ATEX Seria E..DB/E..DC și E..HB/E..HC", description: "Variante suplimentare de motoare pentru zone cu gaz, cu grade de protecție diferite (increased safety sau flameproof), aceeași plajă de puteri și cadre ca seria de bază, pentru aplicații unde tipul de protecție cerut de instalație variază." },
+      { name: "Motoare ATEX pentru Zone cu Gaz Seria E..AB/E..AC", description: "Motoare antideflagrante pentru zone cu risc de gaze inflamabile, eficiență IE3-IE4, puteri de la 0,12 la 375 kW, în cadre IEC de la 63 la 355, conforme standardelor IEC 60079-0, 1, 7 și 31 pentru construcție antiexplozivă." },
+      { name: "Motoare ATEX Seria E..DB/E..DC și E..HB/E..HC", description: "Variante suplimentare de motoare pentru zone cu gaz; tipul de protecție, puterile și cadrele se confirmă pe cod, din documentația producătorului." },
       { name: "Motoare Non-Sparking și pentru Praf Seria E..AN/E..AD/E..AQ", description: "Motoare pentru zone cu risc de praf combustibil sau cu cerință de construcție non-sparking, categorii ATEX 3G, 2D și 3D, aceeași plajă de puteri de la 0,75 la 375 kW, pentru instalații din industria alimentară, prelucrarea lemnului sau minerit." },
-      { name: "Motoare pentru Zone Sigure TCA/TCI și Non-Sparking TCN/TCT", description: "Motoare standard pentru zone fără risc de explozie, sub mărcile TCA și TCI, plus variantele non-sparking TCN și TCT cu producție declarată integral în Europa, ambele cu eficiență IE3-IE4 și aceeași plajă de puteri ca seriile Ex." },
+      { name: "Motoare pentru Zone Sigure TCA/TCI și Non-Sparking TCN/TCT", description: "Motoare standard pentru zone fără risc de explozie din seriile TCA și TCI (aceasta din urmă marcată Made in Italy), plus variantele non-sparking TCN și TCT, marcate Made in Italy; toate au eficiență IE3-IE4 și puteri de 0,75–375 kW, în cadre IEC 80–355." },
     ],
     industries: [
       "Petrol și gaze — motoare antideflagrante pentru instalații cu risc de gaze inflamabile",
-      "Industria marină — motoare cu aprobări Lloyd's Register și DNV, prin marca ROTOR",
+      "Industria marină — motoare cu aprobări Lloyd's Register și DNV, prin mărcile asociate",
       "Minerit — motoare pentru zone cu praf combustibil",
       "Prelucrarea lemnului și industria alimentară — motoare non-sparking pentru medii cu praf",
       "Aplicații mission-critical industriale — motoare Ex pentru instalații fără toleranță la oprire",
@@ -633,13 +626,13 @@ Pentru un inginer din România, Cemp are sens la instalații din petrol și gaze
       { code: "E..AC", description: "motor ATEX pentru zone cu gaz, variantă E..AB" },
       { code: "E..DB", description: "motor ATEX pentru zone cu gaz, grad de protecție diferit" },
       { code: "E..DC", description: "motor ATEX pentru zone cu gaz, variantă E..DB" },
-      { code: "E..HB", description: "motor ATEX pentru zone cu gaz, construcție flameproof" },
+      { code: "E..HB", description: "motor ATEX pentru zone cu gaz" },
       { code: "E..HC", description: "motor ATEX pentru zone cu gaz, variantă E..HB" },
-      { code: "E..AN", description: "motor non-sparking pentru zone cu praf, categorie 3G" },
-      { code: "E..AD", description: "motor pentru zone cu praf, categorie 2D" },
-      { code: "E..AQ", description: "motor pentru zone cu praf, categorie 3D" },
+      { code: "E..AN", description: "motor non-sparking/praf, seria E..AN/E..AD/E..AQ (ATEX 3G, 2D, 3D)" },
+      { code: "E..AD", description: "motor non-sparking/praf, seria E..AN/E..AD/E..AQ (ATEX 3G, 2D, 3D)" },
+      { code: "E..AQ", description: "motor non-sparking/praf, seria E..AN/E..AD/E..AQ (ATEX 3G, 2D, 3D)" },
       { code: "TCA", description: "motor pentru zone sigure, IE3-IE4" },
-      { code: "TCI", description: "motor pentru zone sigure, producție europeană" },
+      { code: "TCI", description: "motor pentru zone sigure, marcat Made in Italy" },
       { code: "TCN", description: "motor non-sparking, producție integrală în Italia" },
       { code: "TCT", description: "motor non-sparking, variantă TCN" },
     ],
@@ -647,13 +640,13 @@ Pentru un inginer din România, Cemp are sens la instalații din petrol și gaze
       { q: "Ce produce Cemp?", a: "Cemp fabrică motoare electrice antideflagrante pentru zone cu risc de explozie, cu certificare ATEX și IEC Ex, plus motoare non-sparking și motoare pentru zone sigure, la fabrica din Senago, lângă Milano, activă din 1954." },
       { q: "Cum aleg motorul Cemp potrivit pentru zona mea Ex?", a: "Trimite-ne tipul de risc din instalație (gaze inflamabile sau praf combustibil), categoria ATEX cerută de proiect, puterea necesară în kW și cadrul IEC. Seriile E..AB/E..AC/E..DB/E..DC/E..HB/E..HC acoperă zonele cu gaz, iar E..AN/E..AD/E..AQ zonele cu praf." },
       { q: "Livrați motoare Cemp în România și în cât timp?", a: "Da, aducem motoare Cemp la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice și a categoriei ATEX cerute de instalație." },
-      { q: "Ce diferență e între motoarele Cemp TCA și TCN?", a: "TCA e o serie pentru zone fără risc de explozie (zone sigure), în timp ce TCN e o variantă non-sparking, cu construcție care reduce riscul de scânteiere, potrivită pentru medii cu praf combustibil fără a fi certificată integral ATEX ca seriile E..AN." },
+      { q: "Ce diferență e între motoarele Cemp TCA și TCN?", a: "TCA e o serie pentru zone fără risc de explozie (zone sigure), în timp ce TCN este o serie non-sparking certificată ATEX și IEC Ex (categorii II3G, II3G/II2D, II3GD), fabricată în Italia." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de motor Cemp?", a: "Ai nevoie de puterea în kW, cadrul IEC, tensiunea de alimentare, tipul de zonă cu risc (gaz sau praf) și categoria ATEX exactă cerută (de exemplu 2G, 3G, 2D, 3D) conform proiectului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Cemp — IEC Hazardous Area Motors", url: "https://www.cemp-international.it/en/tipologie/iec-hazardous-area-motors/", publisher: "Cemp S.r.l.", accessed: "2026-09-25" },
       { title: "Cemp — Safe Area Motors", url: "https://www.cemp-international.it/en/tipologie/safe-area-motors/", publisher: "Cemp S.r.l.", accessed: "2026-09-25" },
@@ -665,9 +658,9 @@ Pentru un inginer din România, Cemp are sens la instalații din petrol și gaze
     name: "Menzel Elektromotoren",
     founded: 1927,
     headquarters: "Hennigsdorf, Germania",
-    overview: `Menzel Elektromotoren este un producător german de motoare electrice industriale de joasă și medie tensiune, cu sediul la Hennigsdorf, lângă Berlin, fondat în 1927. Gama include motoare asincrone cu rotor în scurtcircuit (75 kW - 25 MW, 220V - 13.800V), motoare asincrone cu rotor bobinat (75 kW - 20 MW), motoare de curent continuu (20 kW - 2.000 kW, 160V - 1.000V) și construcții speciale — motoare IP67, motoare Ex ec/Ex tc pentru zone cu risc, motoare de macara, motoare pentru mese cu role, generatoare și grupuri convertizoare. Din acest portofoliu putem oferta motoare industriale de putere mare, unde majoritatea producătorilor de serie nu acoperă gama completă de tensiuni.
+    overview: `Menzel Elektromotoren este un producător german de motoare electrice industriale de joasă și medie tensiune, cu sediul la Hennigsdorf, lângă Berlin, fondat în 1927. Gama include motoare asincrone cu rotor în scurtcircuit (75 kW - 25 MW, 220V - 13.800V), motoare asincrone cu rotor bobinat (75 kW - 20 MW), motoare de curent continuu (20 kW - 2.000 kW, 160V - 1.000V) și construcții speciale — motoare IP67, motoare Ex ec/Ex tc pentru zone cu risc, motoare de macara, motoare pentru mese cu role, generatoare și grupuri convertizoare. Din acest portofoliu putem oferta motoare industriale de putere mare, de joasă și medie tensiune.
 
-Ce diferențiază Menzel e plaja de moduri de răcire disponibile pe aceeași platformă constructivă — de la IC 01 (autoventilat) până la variante cu răcire prin apă (IC 81W, IC 86W) sau cu schimbător aer-aer (IC 611, IC 616, IC 666), alegere care depinde de temperatura ambiantă și de spațiul disponibil pentru evacuarea căldurii. Compania se declară complet independentă și menționează filiale în Suedia, Franța, Marea Britanie, Italia, România și Spania, cu stoc declarat de motoare mari de până la 15 MW, o poziționare orientată spre motoare de putere mare, diferită de producătorii generici de motoare de uz general.
+Ce diferențiază Menzel e plaja de moduri de răcire disponibile pe aceeași platformă constructivă — de la IC 01 (autoventilat) până la variante cu schimbător aer-apă (IC 81W, IC 86W) sau cu schimbător aer-aer (IC 611, IC 616, IC 666), alegere care depinde de temperatura ambiantă și de spațiul disponibil pentru evacuarea căldurii. Compania se prezintă ca firmă familială independentă și menționează filiale în Suedia, Franța, Marea Britanie, Italia, România și Spania, cu stoc declarat de motoare mari de până la 15 MW, o poziționare orientată spre motoare de putere mare, diferită de producătorii generici de motoare de uz general.
 
 Pentru un inginer din România, Menzel are sens la instalații industriale mari — mori, laminoare, extrudere, concasoare, stații de pompare sau centrale electrice — unde puterea și tensiunea cerute depășesc gama unui motor IEC standard de catalog.`,
     whyChoose: [
@@ -675,10 +668,10 @@ Pentru un inginer din România, Menzel are sens la instalații industriale mari 
       "Plajă largă de tensiuni, de la 220V până la 13.800V, pe aceeași platformă constructivă",
       "Multiple moduri de răcire disponibile (IC 01 până la IC 86W), alese în funcție de aplicație",
       "Construcții speciale pentru zone cu risc (Ex ec/Ex tc) și pentru medii cu umiditate (IP67)",
-      "Companie declarată complet independentă, cu filiale în șase țări europene, inclusiv România",
+      "Companie familială independentă, cu filiale în șase țări europene, inclusiv România",
     ],
     keyProducts: [
-      { name: "Motoare Asincrone cu Rotor în Scurtcircuit", description: "Motoare de la 75 kW la 25 MW, cu tensiuni între 220V și 13.800V, pentru aplicații industriale de putere mare — pompe, ventilatoare, compresoare, benzi transportoare de capacitate ridicată. Disponibile în mai multe moduri de răcire, de la autoventilat la răcire prin apă." },
+      { name: "Motoare Asincrone cu Rotor în Scurtcircuit", description: "Motoare de la 75 kW la 25 MW, cu tensiuni între 220V și 13.800V, pentru aplicații industriale de putere mare — pompe, ventilatoare, compresoare, benzi transportoare de capacitate ridicată. Disponibile în mai multe moduri de răcire, de la ventilație în circuit deschis la schimbător de căldură aer-apă." },
       { name: "Motoare Asincrone cu Rotor Bobinat", description: "Motoare cu rotor bobinat, între 75 kW și 20 MW, la aceleași tensiuni ca varianta cu rotor în scurtcircuit, folosite unde cuplul de pornire ridicat sau controlul turației prin rezistențe rotorice sunt cerute de aplicație — mori, concasoare sau instalații cu sarcini de pornire mari." },
       { name: "Motoare de Curent Continuu", description: "Motoare DC între 20 kW și 2.000 kW, cu tensiuni de la 160V la 1.000V, pentru aplicații industriale unde controlul precis al turației sau cuplul constant la turație variabilă sunt esențiale — laminoare, extrudere sau echipamente mai vechi retehnologizate." },
       { name: "Construcții Speciale — IP67, Ex ec/Ex tc, Motoare de Macara", description: "Motoare cu grad de protecție IP67 pentru medii umede sau cu praf, motoare Ex ec/Ex tc pentru zone cu risc redus de explozie, motoare dedicate macaralelor și meselor cu role, plus generatoare și grupuri convertizoare pentru aplicații de conversie a energiei." },
@@ -696,15 +689,15 @@ Pentru un inginer din România, Menzel are sens la instalații industriale mari 
     limitation: "Nu putem confirma termenul de livrare pentru motoare peste 1 MW fără verificare directă a disponibilității la fabrica din Hennigsdorf.",
     productCodes: [
       { code: "IC 01", description: "mod de răcire autoventilat pentru motoare Menzel" },
-      { code: "IC 06", description: "mod de răcire cu ventilator separat" },
-      { code: "IC 411", description: "mod de răcire cu schimbător de căldură aer-aer" },
-      { code: "IC 416", description: "mod de răcire cu schimbător aer-aer, variantă IC 411" },
+      { code: "IC 06", description: "mod de răcire cu ventilație în circuit deschis" },
+      { code: "IC 411", description: "mod de răcire de suprafață, cu carcasă nervurată" },
+      { code: "IC 416", description: "mod de răcire de suprafață, cu carcasă nervurată (variantă IC 411)" },
       { code: "IC 611", description: "mod de răcire cu schimbător aer-aer, motoare mari" },
       { code: "IC 616", description: "mod de răcire cu schimbător aer-aer, variantă IC 611" },
       { code: "IC 666", description: "mod de răcire cu schimbător aer-aer, capacitate ridicată" },
-      { code: "IC 81W", description: "mod de răcire cu apă, pentru motoare de putere mare" },
-      { code: "IC 86W", description: "mod de răcire cu apă, variantă IC 81W" },
-      { code: "IC 511", description: "mod de răcire combinat pentru motoare industriale" },
+      { code: "IC 81W", description: "mod de răcire cu schimbător de căldură aer-apă" },
+      { code: "IC 86W", description: "mod de răcire cu schimbător aer-apă, variantă IC 81W" },
+      { code: "IC 511", description: "mod de răcire cu țevi (tube cooling)" },
       { code: "Squirrel Cage Motors", description: "motor asincron cu rotor în scurtcircuit" },
       { code: "Slip Ring Motors", description: "motor asincron cu rotor bobinat" },
       { code: "DC Motors", description: "motor de curent continuu, putere și tensiune variabile" },
@@ -714,16 +707,16 @@ Pentru un inginer din România, Menzel are sens la instalații industriale mari 
       { code: "Roller Table Motors", description: "motor pentru mese cu role în siderurgie" },
     ],
     faq: [
-      { q: "Ce produce Menzel Elektromotoren?", a: "Menzel Elektromotoren fabrică motoare industriale de joasă și medie tensiune — cu rotor în scurtcircuit, cu rotor bobinat și de curent continuu — cu puteri de la 20 kW până la 25 MW, la fabrica din Hennigsdorf, Germania, activă din 1927." },
+      { q: "Ce produce Menzel Elektromotoren?", a: "Menzel Elektromotoren fabrică motoare industriale de joasă și medie tensiune — cu rotor în scurtcircuit, cu rotor bobinat și de curent continuu — cu puteri de la 20 kW până la 25 MW, cu sediul la Hennigsdorf, lângă Berlin, în Germania, fondată în 1927." },
       { q: "Cum aleg motorul Menzel potrivit pentru instalația mea industrială?", a: "Trimite-ne puterea necesară, tensiunea de alimentare disponibilă, tipul de rotor preferat (scurtcircuit sau bobinat) și modul de răcire potrivit spațiului de montaj. Pentru sarcini de pornire mari, rotorul bobinat oferă control suplimentar prin rezistențe rotorice." },
       { q: "Livrează Menzel Elektromotoren motoare în România și în cât timp?", a: "Da, aducem motoare Menzel la comandă prin canale de aprovizionare din UE — compania are chiar filială declarată în România — cu termen orientativ de 1–4 săptămâni pentru configurații apropiate de gama standard de fabricație." },
-      { q: "Ce înseamnă codurile IC la motoarele Menzel?", a: "Codurile IC (International Cooling) descriu modul de răcire al motorului, de la IC 01 (autoventilat) până la variante cu răcire prin apă (IC 81W, IC 86W) sau cu schimbător aer-aer (IC 611-IC 666), alese în funcție de temperatura ambiantă și spațiul de montaj." },
+      { q: "Ce înseamnă codurile IC la motoarele Menzel?", a: "Codurile IC (International Cooling) descriu modul de răcire al motorului, de la IC 01 (autoventilat) până la variante cu schimbător aer-apă (IC 81W, IC 86W) sau aer-aer (IC 611-IC 666), alese în funcție de temperatura ambiantă și spațiul de montaj." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Menzel?", a: "Ai nevoie de puterea în kW sau MW, tensiunea de alimentare, tipul de rotor, modul de răcire dorit și dacă instalația se află într-o zonă cu risc de explozie sau necesită grad de protecție IP67." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Menzel Elektromotoren — Facts", url: "https://www.menzel-motors.com/facts/", publisher: "Menzel Elektromotoren GmbH", accessed: "2026-09-25" },
       { title: "Menzel Elektromotoren — Company", url: "https://www.menzel-motors.com/menzel-elektromotoren/", publisher: "Menzel Elektromotoren GmbH", accessed: "2026-09-25" },

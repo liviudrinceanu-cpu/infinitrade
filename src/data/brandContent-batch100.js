@@ -5,9 +5,9 @@ export const brandContentBatch100 = {
   'far-rubinetterie': {
     name: "FAR Rubinetterie",
     headquarters: "Gozzano, Italia",
-    overview: `FAR Rubinetterie e un producător italian din Gozzano, în provincia Novara, specializat în componente pentru instalații de încălzire și climatizare — valve de zonă, colectoare și racorduri press. Firma lucrează pentru instalatori și proiectanți care au nevoie de sisteme complete de distribuție a agentului termic, de la centrala termică până la fiecare corp de încălzire. Pentru piața din România putem oferta din gama FAR componente de bază ale unei instalații hidronice: valve de zonă cu actuator, colectoare simple sau termoelectrice și racorduri PRESSFAR pentru îmbinări rapide fără sudură.
+    overview: `FAR Rubinetterie e un producător italian din Gozzano, în provincia Novara, specializat în componente pentru instalații de încălzire — valve de zonă, colectoare și racorduri press. Firma lucrează pentru instalatori și proiectanți care au nevoie de sisteme complete de distribuție a agentului termic, de la centrala termică până la fiecare corp de încălzire. Pentru piața din România putem oferta din gama FAR componente de bază ale unei instalații hidronice: valve de zonă cu actuator, colectoare simple sau termoelectrice și racorduri PRESSFAR pentru îmbinări rapide fără sudură.
 
-Ce diferențiază FAR e organizarea foarte clară a gamei pe familii de catalog — de la componente de centrală termică, până la valve pentru corpuri de încălzire și termoarezuri, colectoare cu atașamente Eurokonus sau cap plat, și contorizare a căldurii. Firma concurează direct cu Giacomini, alt producător din aceeași zonă a Italiei, pe segmentul de accesorii pentru instalații de încălzire, dar pune accent pe raccorderia PRESSFAR ca alternativă la îmbinările clasice cu filet sau sudură, utilă mai ales la retrofit-uri unde timpul de montaj contează.
+Ce diferențiază FAR e organizarea foarte clară a gamei pe familii de catalog — de la componente de centrală termică, până la valve pentru corpuri de încălzire și termoarezuri, colectoare cu atașamente Eurokonus sau cap plat, și contorizare a căldurii. Firma are în catalog și racorduri PRESSFAR, sistem propriu de îmbinare prin presare.
 
 Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoare și valve de zonă compatibile cu sisteme de încălzire în pardoseală sau cu radiatoare clasice, fără să fie nevoie de o marcă premium pentru fiecare element. Piesele se pretează la lucrări de întreținere curentă și la completarea instalațiilor existente cu racorduri PRESSFAR.`,
     whyChoose: [
@@ -17,44 +17,44 @@ Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoa
       "Componente dedicate și pentru sisteme cu energie regenerabilă, nu doar pentru încălzire clasică pe combustibil",
     ],
     keyProducts: [
-      { name: "Valve de Zonă și Accesorii", description: "Valvele de zonă FAR se montează pe circuitele de distribuție ca să separe zonele de încălzire controlate independent, fiecare cu propriul termostat sau actuator. Gama include atât corpul de valvă cu filet, cât și accesoriile de montaj — actuatoare termice, cabluri de conexiune, suporturi. Sunt gândite pentru instalații rezidențiale cu mai multe zone termice, unde fiecare cameră sau etaj trebuie reglat separat, fără o centrală de amestec dedicată pentru fiecare buclă." },
-      { name: "Colectoare Termoelectrice și Simple", description: "FAR produce colectoare de distribuție în variante simple, cu montaj termoelectric pentru control automat pe fiecare circuit, și cu atașamente Eurokonus sau cap plat pentru compatibilitate cu robinete termostatice de diverse mărci. Colectoarele servesc drept punct central de unde pleacă buclele către radiatoare sau spre încălzirea în pardoseală, cu posibilitate de debitmetre pe fiecare ieșire. Accesoriile includ console de montaj, cutii de distribuție și kituri de amestec." },
-      { name: "Racorduri PRESSFAR", description: "Seria PRESSFAR e sistemul de îmbinare prin presare al FAR, gândit ca alternativă la sudură sau la filet pe conductele metalice din instalațiile de încălzire și apă. Fitingul se fixează cu o clește de presare dedicată, ceea ce reduce timpul de montaj și scade riscul de scurgeri de la lipituri executate greșit. Gama acoperă coturi, teuri, reducții și racorduri drepte, utile la extinderea unei instalații existente." },
+      { name: "Valve de Zonă și Accesorii", description: "Valvele de zonă FAR se montează pe circuitele de distribuție ca să separe zonele de încălzire controlate independent, fiecare cu propriul termostat sau actuator. Gama include valvele de zonă și accesoriile lor, conform familiei P03 din catalog. Sunt gândite pentru instalații rezidențiale cu mai multe zone termice, unde fiecare cameră sau etaj trebuie reglat separat, fără o centrală de amestec dedicată pentru fiecare buclă." },
+      { name: "Colectoare Termoelectrice și Simple", description: "FAR produce colectoare de distribuție în variante simple, cu montaj termoelectric pentru control automat pe fiecare circuit, și cu atașamente Eurokonus sau cap plat pentru compatibilitate cu robinete termostatice de diverse mărci. Colectoarele servesc drept punct central de unde pleacă buclele către radiatoare sau spre încălzirea în pardoseală, ." },
+      { name: "Racorduri PRESSFAR", description: "PRESSFAR este familia de racorduri prin presare a FAR (familia P09 din catalog). Materialul conductelor compatibile, uneltele de presare și tipurile de fitinguri disponibile se confirmă din catalogul producătorului, pe cod." },
     ],
     industries: [
       "Instalații de încălzire rezidențiale — distribuție pe zone cu colectoare și valve dedicate",
       "Renovări și retrofit — racorduri PRESSFAR pentru extinderea instalațiilor existente",
-      "Sisteme cu energie regenerabilă — componente de conectare pentru pompe de căldură și solar termic",
+      "Sisteme cu energie regenerabilă — componente pentru instalații cu energie regenerabilă",
       "Clădiri cu mai multe apartamente — contorizare a căldurii pe fiecare unitate",
       "Instalatori și proiectanți HVAC — completarea instalației de la centrală până la radiator",
     ],
-    infinitrade: `Pentru gama FAR lucrăm din surse publice ale producătorului și din canalele de distribuție B2B din UE. Nu ținem această gamă pe raft; aducem la comandă valvele, colectoarele și racordurile PRESSFAR pe baza codului de catalog transmis de client, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător. Pentru o ofertă corectă avem nevoie de codul de catalog FAR (secțiunea P din listă), diametrul racordului și, la colectoare, numărul de căi. Nu confirmăm certificări sau parametri tehnici care nu apar explicit în catalogul producătorului.`,
+    infinitrade: `Pentru gama FAR lucrăm din surse publice ale producătorului și din canalele de distribuție B2B din UE. Nu ținem această gamă pe raft; aducem la comandă valvele, colectoarele și racordurile PRESSFAR pe baza codului de catalog transmis de client, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător. Pentru o ofertă corectă avem nevoie de codul de catalog FAR (familiile P01-P14 din lista de mai jos), diametrul racordului și, la colectoare, numărul de căi. Nu confirmăm certificări sau parametri tehnici care nu apar explicit în catalogul producătorului.`,
     limitation: "Nu confirmăm coduri de produs individuale mai fine decât familiile de catalog publicate de FAR, așa că orice comandă necesită verificarea prealabilă a codului exact la producător.",
     productCodes: [
       { code: "P01 – Centrala termică", description: "componente de racordare pentru centrala termică, cf. catalogului FAR" },
-      { code: "P02 – Energie regenerabilă", description: "accesorii de conectare pentru pompe de căldură și solar termic" },
+      { code: "P02 – Energie regenerabilă", description: "componente pentru instalații cu energie regenerabilă" },
       { code: "P03 – Valvole di zona", description: "valve de zonă cu actuator pentru control independent pe circuit" },
       { code: "P04 – Collettori termoelettrici", description: "colectoare cu montaj termoelectric pentru automatizare pe fiecare buclă" },
       { code: "P05 – Collettori semplici", description: "colectoare simple de distribuție pentru circuite de încălzire" },
-      { code: "P06 – Cassette di ispezione", description: "cutii de inspecție și accesorii pentru colectoare îngropate" },
+      { code: "P06 – Cassette di ispezione", description: "cutii de inspecție și accesorii" },
       { code: "P07 – Valvole corpi scaldanti", description: "valve pentru radiatoare clasice, cu reglaj manual sau termostatic" },
       { code: "P08 – Valvole termoarredi", description: "valve dedicate pentru radiatoare de baie tip scară" },
       { code: "P09 – Raccorderia PRESSFAR", description: "sistem de îmbinare prin presare pentru conducte metalice" },
       { code: "P10 – Raccorderia generale", description: "racorduri și fitinguri generale pentru instalații de încălzire" },
       { code: "P12 – Collettori Eurokonus", description: "colectoare cu atașamente Eurokonus sau cap plat pentru robinete termostatice" },
-      { code: "P14 – Contabilizzazione calore", description: "repartitoare și contoare de energie termică pentru clădiri colective" },
+      { code: "P14 – Contabilizzazione calore", description: "componente pentru contorizarea căldurii în clădiri colective" },
     ],
     faq: [
       { q: "Ce produce FAR Rubinetterie?", a: "FAR Rubinetterie fabrică în Italia componente pentru instalații de încălzire — valve de zonă, colectoare simple și termoelectrice, racorduri de presare PRESSFAR și accesorii pentru sisteme cu energie regenerabilă. Gama acoperă tot ce ține de distribuția agentului termic de la centrală până la fiecare corp de încălzire, organizată pe familii de catalog ușor de identificat după cod." },
-      { q: "Cum aleg un colector FAR după cod de catalog?", a: "Pornești de la numărul de căi necesare și de la tipul de atașament pe care îl au robinetele termostatice montate deja — Eurokonus sau cap plat. Colectoarele FAR simple servesc pentru instalații fără automatizare pe fiecare buclă, iar variantele termoelectrice permit montarea de actuatoare individuale. Trimite-ne numărul de circuite și tipul de racord ca să identificăm codul exact." },
+      { q: "Cum aleg un colector FAR după cod de catalog?", a: "Se pornește de la numărul de căi necesare și de la tipul de atașament pe care îl au robinetele termostatice montate deja — Eurokonus sau cap plat. Colectoarele FAR simple servesc pentru instalații fără automatizare pe fiecare buclă, iar variantele termoelectrice permit montarea de actuatoare individuale. Trimiteți-ne numărul de circuite și tipul de racord, ca să identificăm codul exact." },
       { q: "Livrați produse FAR Rubinetterie în România și cât durează?", a: "Da, aducem la comandă din gama FAR prin canale de distribuție din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea la producător. Nu ținem această gamă pe raft, așa că întâi confirmăm codul și cantitatea cu dumneavoastră, apoi plasăm comanda către sursa noastră de aprovizionare." },
-      { q: "Ce trebuie să trimit pentru o ofertă de racorduri PRESSFAR?", a: "Ai nevoie să ne spui diametrul conductei, tipul de fiting — cot, teu, reducție sau racord drept — și materialul conductei pe care se montează. Dacă lucrezi la o extindere de instalație existentă, e util să menționezi dacă ai deja o clește de presare compatibilă sau ai nevoie de recomandare pentru unealta de montaj." },
-      { q: "Ce echivalent are seria de valve de zonă FAR față de alte branduri?", a: "Valvele de zonă FAR au aceeași funcție ca produsele similare de la Giacomini sau alți producători italieni din aceeași regiune — separă circuite de încălzire controlate independent. Diferența practică ține de tipul de actuator compatibil și de conexiune; trimite-ne modelul actual din instalație ca să verificăm compatibilitatea înainte de comandă." },
+      { q: "Ce trebuie să trimit pentru o ofertă de racorduri PRESSFAR?", a: "Vă rugăm să ne transmiteți diametrul conductei, tipul de fiting (cot, teu, reducție sau racord drept) și materialul conductei pe care se montează. Pentru o extindere de instalație existentă, menționați și dacă dispuneți deja de un clește de presare compatibil." },
+      { q: "Ce echivalent are seria de valve de zonă FAR față de alte branduri?", a: "Valvele de zonă FAR au aceeași funcție ca produsele similare de la Giacomini sau alți producători italieni din aceeași regiune — separă circuite de încălzire controlate independent. Diferența practică ține de tipul de actuator compatibil și de conexiune; trimiteți-ne modelul actual din instalație, ca să verificăm compatibilitatea înainte de comandă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "FAR Rubinetterie – Home", url: "https://far.eu/index_en.php", publisher: "FAR Rubinetterie S.p.A.", accessed: "2026-09-25" },
       { title: "FAR Rubinetterie – Categorie prodotto", url: "https://far.eu/categorie.php", publisher: "FAR Rubinetterie S.p.A.", accessed: "2026-09-25" },
@@ -66,19 +66,19 @@ Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoa
     headquarters: "San Maurizio d'Opaglio, Italia",
     overview: `Giacomini e un producător italian din San Maurizio d'Opaglio, aceeași zonă a Italiei cunoscută pentru robinetărie, cu peste șapte decenii de activitate în componente pentru instalații de climatizare, distribuție apă și gaz. Gama e organizată pe linii mari — sisteme radiante de încălzire/răcire în pardoseală sau tavan, managementul energiei termice, distribuția apei și a gazului, echipamente pentru surse regenerabile și protecție la incendiu. Pentru clienți din România putem oferta robinete cu bilă, colectoare, kituri de racordare pentru fan-coil-uri și separatoare de aer din gama curentă.
 
-Giacomini concurează direct cu Oventrop pe segmentul de robinetărie și componente pentru instalații hidronice, ambele firme având game largi de valve și accesorii pentru echilibrare termică. Ce distinge Giacomini e integrarea între sisteme radiante și managementul energiei — colectoarele din seria R588/R589 se cuplează cu unități de amestec și pompare pentru reglarea temperaturii pe fiecare circuit, iar kiturile KFC acoperă fan-coil-uri montate la perete, sub tavan sau pe pardoseală, cu racorduri standardizate R280.
+Giacomini oferă robinetărie și componente pentru instalații hidronice, inclusiv valve și accesorii pentru echilibrare termică. Giacomini oferă, în același catalog, sisteme radiante, colectoare, componente pentru managementul energiei termice și protecție la incendiu; codurile exacte (de exemplu R588, R589, R280KC) se confirmă din fișa tehnică a producătorului.
 
 Pentru instalatorii din România, Giacomini are sens la proiecte rezidențiale cu încălzire în pardoseală, la clădiri comerciale cu fan-coil-uri sau la instalații care combină apa, gazul și protecția la incendiu sub o singură marcă de componente.`,
     whyChoose: [
-      "Linie completă de sisteme radiante — de la colectoare până la unități de amestec și pompare",
-      "Kituri de racordare standardizate pentru fan-coil-uri, disponibile pentru montaj la perete, tavan sau pardoseală",
+      "Sisteme radiante, cu colectoare și unități hidronice în același catalog",
+      "Kituri de racordare pentru fan-coil-uri",
       "Robinetărie pentru protecție la incendiu, inclusiv valve cu bilă pentru rețele de stingere",
       "Acoperire largă de categorii — apă, gaz, energie regenerabilă și hidrogen sub aceeași marcă",
     ],
     keyProducts: [
-      { name: "Colectoare și Unități Hidronice R588/R589", description: "Colectoarele din seriile R588 și R589 servesc ca punct central de distribuție pentru instalațiile de încălzire cu mai multe circuite, cu posibilitatea de a atașa unități de amestec pentru reglarea temperaturii pe fiecare buclă în parte. Sunt gândite pentru instalații rezidențiale sau comerciale de dimensiuni medii, unde fiecare zonă termică are nevoie de reglaj independent. Montajul se face pe cutii de distribuție dedicate, cu acces facil pentru mentenanță." },
-      { name: "Kituri de Racordare Fan-Coil KFC / R280", description: "Seria KFC acoperă fan-coil-uri montate la perete, sub tavan sau pe pardoseală, fiecare variantă având kituri de racordare dedicate — printre care R280KC și R280KL pentru conexiunea rapidă la rețeaua de agent termic. Kiturile includ robinete de reglaj, filtru și racorduri flexibile, gândite să simplifice montajul în instalații comerciale cu multe unități de climatizare interioară." },
-      { name: "Separator de Aer R87FL și Valvă de Incendiu A730", description: "R87FL e un separator de aer cu conexiuni flanșate, montat pe circuitul principal al instalației pentru a elimina aerul acumulat și a preveni zgomotele sau coroziunea din sistem. A730 e o valvă cu bilă dedicată rețelelor de protecție la incendiu, unde siguranța închiderii rapide contează la fel de mult ca rezistența la presiune." },
+      { name: "Colectoare și Unități Hidronice R588/R589", description: "Giacomini oferă colectoare de distribuție pentru instalații de încălzire cu mai multe circuite și unități hidronice pentru sistemele radiante. Tipul exact al fiecărui cod (R588, R589) îl confirmăm din fișa tehnică a producătorului, înainte de ofertă." },
+      { name: "Kituri de Racordare Fan-Coil KFC / R280", description: "Giacomini oferă kituri de racordare pentru fan-coil-uri. Modelele (de exemplu KFC, R280KC, R280KL) și componența kiturilor se confirmă din fișa tehnică a producătorului, pe cod." },
+      { name: "Separator de Aer R87FL și Valvă de Incendiu A730", description: "Giacomini oferă separatoare de aer (de exemplu R87FL) și robinetărie pentru protecție la incendiu (de exemplu A730). Tipul, conexiunile și presiunea de lucru se confirmă din fișa tehnică a producătorului." },
     ],
     industries: [
       "Rezidențial — încălzire în pardoseală cu colectoare și unități de amestec",
@@ -90,33 +90,33 @@ Pentru instalatorii din România, Giacomini are sens la proiecte rezidențiale c
     infinitrade: `Pentru Giacomini lucrăm din informațiile publice disponibile pe site-ul producătorului și din rețeaua noastră de aprovizionare din UE, fără date proprii de stoc pentru această gamă. Aducem la comandă colectoare, kituri de racordare fan-coil, separatoare de aer și robinetărie de protecție la incendiu, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul exact al produsului (de exemplu R588, R280KC sau A730), diametrul de racordare și, la colectoare, numărul de circuite. Nu putem confirma parametri pe care nu i-am identificat clar în sursele citate.`,
     limitation: "Nu confirmăm parametri tehnici (debite, presiuni exacte) pentru codurile Giacomini care nu sunt detaliate în fișele tehnice publice ale producătorului.",
     productCodes: [
-      { code: "R595-1", description: "cutie din plastic pentru montaj colector, îngropată în perete" },
-      { code: "R280KC", description: "kit de racordare fan-coil, conexiune rapidă la agent termic" },
-      { code: "R280KL", description: "kit de racordare fan-coil, variantă cu robinet de reglaj" },
-      { code: "R87FL", description: "separator de aer cu conexiuni flanșate pentru circuitul principal" },
-      { code: "A730", description: "valvă cu bilă pentru rețele de protecție la incendiu" },
-      { code: "R588", description: "unitate hidronică de amestec pentru colector de distribuție" },
-      { code: "R589", description: "unitate hidronică de pompare pentru circuit de încălzire" },
-      { code: "KFC", description: "kituri de racordare pentru fan-coil, perete, tavan sau pardoseală" },
-      { code: "Radiant Systems", description: "familie de colectoare și accesorii pentru încălzire/răcire în pardoseală" },
-      { code: "Energy Management", description: "familie de echipamente pentru gestiunea energiei termice" },
-      { code: "Water Management", description: "familie de robinete și accesorii pentru distribuția apei" },
-      { code: "Gas Distribution", description: "familie de componente pentru rețele interioare de gaz" },
-      { code: "Renewable Sources", description: "familie de accesorii de conectare pentru pompe de căldură" },
-      { code: "Hydrogen Systems", description: "familie de componente pentru distribuție de hidrogen" },
-      { code: "Fire Protection", description: "familie de robinetărie pentru rețele de stingere incendiu" },
+      { code: "R595-1", description: "accesoriu pentru colector, conform catalogului producătorului" },
+      { code: "R280KC", description: "kit de racordare fan-coil" },
+      { code: "R280KL", description: "kit de racordare fan-coil" },
+      { code: "R87FL", description: "separator de aer" },
+      { code: "A730", description: "robinetărie pentru protecție la incendiu" },
+      { code: "R588", description: "unitate hidronică pentru sisteme radiante" },
+      { code: "R589", description: "unitate hidronică pentru sisteme radiante" },
+      { code: "KFC", description: "kituri de racordare pentru fan-coil" },
+      { code: "Sisteme radiante", description: "familie de colectoare și accesorii pentru încălzire/răcire în pardoseală" },
+      { code: "Managementul energiei termice", description: "familie de echipamente pentru gestiunea energiei termice" },
+      { code: "Distribuția apei", description: "familie de robinete și accesorii pentru distribuția apei" },
+      { code: "Distribuția gazului", description: "familie de componente pentru rețele interioare de gaz" },
+      { code: "Surse regenerabile", description: "familie de accesorii de conectare pentru pompe de căldură" },
+      { code: "Sisteme pentru hidrogen", description: "familie de componente pentru distribuție de hidrogen" },
+      { code: "Protecție la incendiu", description: "familie de robinetărie pentru rețele de stingere incendiu" },
     ],
     faq: [
       { q: "Ce produce Giacomini?", a: "Giacomini fabrică în Italia componente pentru instalații de climatizare, distribuție apă și gaz — colectoare și unități hidronice pentru sisteme radiante, kituri de racordare pentru fan-coil-uri, separatoare de aer și robinetărie pentru protecție la incendiu. Gama acoperă instalații rezidențiale și comerciale, de la colector până la fiecare unitate terminală." },
-      { q: "Cum aleg colectorul Giacomini potrivit pentru o instalație radiantă?", a: "Numărul de circuite de pe colector trebuie să corespundă cu numărul de bucle din pardoseală, iar dacă vrei reglaj automat pe fiecare zonă ai nevoie de o unitate de amestec din seria R588 sau R589 montată pe colector. Trimite-ne numărul de circuite și dacă instalația are nevoie de amestec pentru identificarea codului corect." },
-      { q: "Ce echivalent are gama Giacomini față de Oventrop?", a: "Giacomini și Oventrop acoperă categorii similare de robinetărie și componente hidronice, dar cu game de coduri proprii, necompatibile direct între ele. Dacă înlocuiești un colector sau o unitate de amestec Oventrop cu una Giacomini, verifică diametrele de racordare și numărul de circuite înainte de a plasa comanda." },
+      { q: "Cum aleg colectorul Giacomini potrivit pentru o instalație radiantă?", a: "Numărul de circuite de pe colector trebuie să corespundă cu numărul de bucle din pardoseală, iar pentru reglaj automat pe fiecare zonă este nevoie de o unitate hidronică de amestec, al cărei cod îl confirmăm din fișa tehnică a producătorului. Trimiteți-ne numărul de circuite și dacă instalația are nevoie de amestec pentru identificarea codului corect." },
+      { q: "Ce echivalent are gama Giacomini față de Oventrop?", a: "Giacomini și Oventrop acoperă categorii similare de robinetărie și componente hidronice, dar cu game de coduri proprii, necompatibile direct între ele. Dacă înlocuiți un colector sau o unitate de amestec Oventrop cu una Giacomini, verificați diametrele de racordare și numărul de circuite înainte de a plasa comanda." },
       { q: "Livrați produse Giacomini în România și în cât timp?", a: "Aducem la comandă din gama Giacomini prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Nu ținem această gamă pe raft, deci primul pas e să confirmăm codul exact și cantitatea, apoi plasăm comanda." },
-      { q: "Ce trebuie să trimit pentru o ofertă de kit fan-coil KFC?", a: "Ai nevoie să precizezi tipul de montaj al unității fan-coil — perete, tavan sau pardoseală — și diametrul de racordare la rețeaua de agent termic. Dacă unitatea are deja robinete montate, menționează și modelul actual, ca să verificăm compatibilitatea kitului de racordare înainte de comandă." },
+      { q: "Ce trebuie să trimit pentru o ofertă de kit fan-coil KFC?", a: "Vă rugăm să precizați tipul unității fan-coil și diametrul de racordare la rețeaua de agent termic. Dacă unitatea are deja robinete montate, menționați și modelul actual, ca să verificăm compatibilitatea kitului de racordare înainte de comandă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Giacomini – Home", url: "https://www.giacomini.com", publisher: "Giacomini S.p.A.", accessed: "2026-09-25" },
       { title: "Giacomini – Products", url: "https://www.giacomini.com/products", publisher: "Giacomini S.p.A.", accessed: "2026-09-25" },
@@ -129,25 +129,25 @@ Pentru instalatorii din România, Giacomini are sens la proiecte rezidențiale c
     headquarters: "San Maurizio d'Opaglio, Italia",
     overview: `Pettinaroli e un producător italian din San Maurizio d'Opaglio, cu activitate din 1938 și peste 300 de angajați, prezent cu produse în peste 60 de țări prin opt filiale proprii. Gama acoperă echilibrarea hidraulică pentru instalații HVAC — valve de echilibrare dinamică și statică, robinetărie pentru gaz și apă, și componente pentru pompe de căldură. Pentru piața din România putem oferta valve de echilibrare din seria EvoPICV, robinete cu bilă pentru gaz și apă, și valve fluture pentru instalații flanșate.
 
-Pettinaroli concurează cu Giacomini pe segmentul de robinetărie pentru HVAC, dar și-a construit o nișă solidă în echilibrarea hidraulică — seria EvoPICV combină funcția de valvă de echilibrare cu cea de valvă de control, cu variante pentru actuator rotativ (familiile 81, 83) sau liniar (91, 92, 93), plus seria Dynasty cu caracteristică liniară pentru aplicații unde debitul trebuie să varieze proporțional cu deschiderea. Gama de valve fluture și de echilibrare flanșate completează oferta pentru instalații de dimensiuni mai mari.
+Pettinaroli are în catalog robinetărie pentru HVAC și pentru gaz; în echilibrarea hidraulică, seria EvoPICV combină funcția de valvă de echilibrare cu cea de valvă de control, cu variante pentru actuator rotativ (familiile 81, 83) sau liniar (91 și 93), plus seria Dynasty (familia 92) cu caracteristică liniară pentru aplicații unde debitul trebuie să varieze proporțional cu deschiderea. Gama de valve fluture și de echilibrare flanșate completează oferta pentru instalații de dimensiuni mai mari.
 
 Pentru instalatorii din România, Pettinaroli are sens la proiecte HVAC cu echilibrare hidraulică pe mai multe circuite, la rețele de gaz unde sunt necesare robinete cu accesorii dedicate, sau la instalații de încălzire cu pompă de căldură.`,
     whyChoose: [
       "Peste 300 de angajați și prezență în 60+ țări, cu istorie de producție din 1938",
       "Gamă EvoPICV cu variante pentru actuator rotativ sau liniar, pentru echilibrare automată pe fiecare circuit",
       "Robinetărie pentru gaz cu accesorii dedicate de siguranță și etanșare",
-      "Opt filiale proprii, utile pentru piese de schimb și suport tehnic la nivel european",
+      "Prezență prin 8 filiale în lume",
     ],
     keyProducts: [
-      { name: "Valve de Echilibrare Dinamică EvoPICV", description: "Seria EvoPICV combină funcția clasică de valvă de echilibrare cu un mecanism de control al debitului independent de presiunea din rețea, disponibilă în variante pentru actuator rotativ (familiile 81 și 83) sau liniar (familiile 91, 92, 93). Fiecare variantă are subversiuni fără sau cu porturi de măsurare a presiunii, utile la comisionarea instalației. Sunt gândite pentru clădiri cu multe circuite de încălzire sau răcire." },
-      { name: "Robinetărie pentru Gaz și Apă", description: "Gama de robinete cu bilă pentru gaz include accesorii dedicate — mânere de siguranță, racorduri și seturi de etanșare — pentru instalații cu risc de siguranță ridicat. Robinetele pentru apă acoperă instalații sanitare și de încălzire, cu variante filetate pentru montaj rapid. Sunt produse gândite pentru instalatori care au nevoie de conformitate documentată la recepția lucrării, nu doar de o piesă funcțională." },
-      { name: "Valve Fluture și Soluții Flanșate HVAC", description: "Pentru instalații de dimensiuni mai mari, Pettinaroli oferă valve fluture cu montaj flanșat, valve de echilibrare flanșate, filtre și clapete de reținere, gândite să reziste la debite mari fără pierderi de presiune semnificative. Sunt componente tipice pentru centrale termice de bloc sau instalații comerciale, unde fiecare element trebuie să reziste la cicluri lungi de funcționare." },
+      { name: "Valve de Echilibrare Dinamică EvoPICV", description: "Seria EvoPICV combină funcția clasică de valvă de echilibrare cu un mecanism de control al debitului independent de presiunea din rețea, disponibilă în variante pentru actuator rotativ (familiile 81 și 83) sau liniar (familiile 91 și 93). Fiecare variantă are subversiuni fără sau cu porturi de măsurare a presiunii, utile la comisionarea instalației. Sunt gândite pentru clădiri cu multe circuite de încălzire sau răcire." },
+      { name: "Robinetărie pentru Gaz și Apă", description: "Pettinaroli oferă robinete cu bilă pentru gaz și accesorii pentru acestea. Tipurile de conexiune, accesoriile disponibile și normele aplicabile se confirmă din catalogul producătorului, pe cod." },
+      { name: "Valve Fluture și Soluții Flanșate HVAC", description: "Pentru instalații de dimensiuni mai mari, Pettinaroli oferă valve fluture cu montaj flanșat, valve de echilibrare flanșate, filtre și clapete de reținere, . Sunt componente tipice pentru centrale termice de bloc sau instalații comerciale." },
     ],
     industries: [
       "HVAC comercial — echilibrare hidraulică pe instalații cu mai multe circuite",
       "Rețele de gaz — robinetărie cu accesorii de siguranță dedicate",
-      "Pompe de căldură — componente de racordare și echilibrare pentru sisteme hibride",
-      "Instalații sanitare — robinete cu bilă pentru apă rece și caldă",
+      "Pompe de căldură — valve antiîngheț și componente de filtrare",
+      "Centrale termice de bloc — valve fluture, filtre și clapete de reținere flanșate",
       "Măsurare energie — echipamente de contorizare pentru clădiri cu mai mulți consumatori",
     ],
     infinitrade: `Pentru Pettinaroli lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă valve de echilibrare EvoPICV, robinetărie pentru gaz și apă și valve fluture flanșate, prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de codul exact (de exemplu 83 sau 91X), diametrul nominal și tipul de actuator dorit. Nu confirmăm coeficienți Kv sau alți parametri neverificați de noi în fișele tehnice publice.`,
@@ -156,32 +156,32 @@ Pentru instalatorii din România, Pettinaroli are sens la proiecte HVAC cu echil
       { code: "81", description: "valvă EvoPICV pentru actuator rotativ, montaj pe circuit de echilibrare" },
       { code: "83", description: "valvă EvoPICV cu caracteristică procent egal, pentru actuator rotativ" },
       { code: "83_PR", description: "variantă regională a valvei EvoPICV 83, actuator rotativ" },
-      { code: "83_JP", description: "variantă regională a valvei EvoPICV 83, piață Japonia" },
+      { code: "83_JP", description: "variantă regională a valvei EvoPICV 83, actuator rotativ" },
       { code: "91", description: "valvă EvoPICV cu caracteristică procent egal, pentru actuator liniar" },
       { code: "91_1", description: "variantă a valvei EvoPICV 91, cu predispoziție pentru porturi" },
       { code: "91X", description: "valvă EvoPICV fără porturi de presiune, actuator liniar" },
-      { code: "91X/2", description: "variantă EvoPICV 91X, a doua configurație de montaj" },
-      { code: "91X/3", description: "variantă EvoPICV 91X, a treia configurație de montaj" },
-      { code: "91X3S", description: "variantă EvoPICV 91X3, cu opțiune suplimentară de etanșare" },
+      { code: "91X/2", description: "variantă EvoPICV 91X, actuator liniar, fără porturi de presiune" },
+      { code: "91X/3", description: "variantă EvoPICV 91X, actuator liniar, fără porturi de presiune" },
+      { code: "91X3S", description: "variantă EvoPICV 91X, actuator liniar, fără porturi de presiune" },
       { code: "93", description: "valvă EvoPICV pentru actuator liniar, familia 93" },
       { code: "93_1", description: "variantă a valvei EvoPICV 93, cu predispoziție de porturi" },
-      { code: "92", description: "valvă Dynasty cu caracteristică liniară, pentru actuator liniar" },
+      { code: "92", description: "valvă Dynasty cu caracteristică liniară" },
       { code: "92_1", description: "variantă Dynasty 92 cu predispoziție pentru porturi de presiune" },
-      { code: "92X/2", description: "variantă Dynasty destinată configurațiilor fără porturi de presiune" },
+      { code: "92X/2", description: "variantă a valvei Dynasty cu caracteristică liniară" },
       { code: "94F", description: "valvă de echilibrare și control, familia 94F" },
       { code: "95F", description: "valvă de echilibrare și control, familia 95F" },
     ],
     faq: [
       { q: "Ce produce Pettinaroli?", a: "Pettinaroli fabrică în Italia valve de echilibrare hidraulică pentru instalații HVAC, robinetărie pentru gaz și apă, și componente pentru pompe de căldură. Seria EvoPICV combină funcția de echilibrare cu controlul debitului, în variante pentru actuator rotativ sau liniar, iar robinetăria pentru gaz vine cu accesorii de siguranță dedicate." },
-      { q: "Cum aleg o valvă EvoPICV Pettinaroli după cod?", a: "Familiile 81 și 83 sunt gândite pentru actuator rotativ, iar familiile 91, 92 și 93 pentru actuator liniar; sufixele X sau _1 arată dacă valva are sau nu porturi de măsurare a presiunii. Trimite-ne tipul de actuator din instalație și dacă ai nevoie de porturi de presiune pentru comisionare, ca să identificăm codul potrivit." },
+      { q: "Cum aleg o valvă EvoPICV Pettinaroli după cod?", a: "Familiile 81 și 83 sunt gândite pentru actuator rotativ, iar familiile 91 și 93 pentru actuator liniar (familia 92 este seria Dynasty); sufixele X sau _1 arată dacă valva are sau nu porturi de măsurare a presiunii. Trimiteți-ne tipul de actuator din instalație și precizați dacă aveți nevoie de porturi de presiune pentru punerea în funcțiune, ca să identificăm codul potrivit." },
       { q: "Ce diferență e între seria EvoPICV și Dynasty la Pettinaroli?", a: "EvoPICV, din familiile 81/83/91/93, are caracteristică de procent egal, potrivită pentru control fin al debitului la sarcini variabile. Dynasty, din familia 92, are caracteristică liniară, unde debitul crește proporțional cu deschiderea valvei — utilă la aplicații unde controlul trebuie să fie predictibil pe toată cursa actuatorului." },
       { q: "Livrați Pettinaroli în România și cât durează comanda?", a: "Da, aducem la comandă din gama Pettinaroli prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Nu ținem această gamă pe raft, așa că primul pas e confirmarea codului exact și a diametrului nominal necesar." },
-      { q: "Ce trebuie să trimit pentru o ofertă de robinet de gaz Pettinaroli?", a: "Ai nevoie să precizezi diametrul nominal, tipul de conexiune (filet interior sau exterior) și dacă instalația cere accesorii suplimentare precum mâner de siguranță sau set de etanșare. Menționează și dacă produsul trebuie să respecte o normă specifică de recepție la lucrarea ta." },
+      { q: "Ce trebuie să trimit pentru o ofertă de robinet de gaz Pettinaroli?", a: "Vă rugăm să precizați diametrul nominal, tipul de conexiune (filet interior sau exterior) și dacă instalația cere accesorii suplimentare. Menționați și dacă produsul trebuie să respecte o normă specifică de recepție la lucrarea dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pettinaroli – Home", url: "https://www.pettinaroli.com", publisher: "Fratelli Pettinaroli S.p.A.", accessed: "2026-09-25" },
       { title: "Pettinaroli – HVAC Catalog", url: "https://www.pettinaroli.com/catalog/hvac/", publisher: "Fratelli Pettinaroli S.p.A.", accessed: "2026-09-25" },
@@ -193,7 +193,7 @@ Pentru instalatorii din România, Pettinaroli are sens la proiecte HVAC cu echil
     headquarters: "Lumezzane, Italia",
     overview: `Itap e un producător italian din Lumezzane, provincia Brescia, cu o gamă de aproximativ 400 de articole de robinetărie, fitinguri și colectoare pentru instalații sanitare și de încălzire. Compania produce intern, cu linii proprii de transfer și asamblare automatizată, ceea ce îi permite să acopere volum mare de comenzi pentru distribuitori din peste o sută de țări. Pentru piața din România putem oferta din gama Itap valve cu bilă, robinete de distribuție, fitinguri pentru țevi multistrat sau PEX și colectoare de distribuție.
 
-Itap concurează cu Giacomini pe segmentul de robinetărie pentru încălzire și instalații sanitare, ambele firme având familii extinse de valve și fitinguri. Ce diferențiază Itap e integrarea verticală a producției — de la valve cu clapă și robinete de distribuție, până la fitinguri compatibile cu mai multe tipuri de țeavă (multistrat, PEX, polibutil, cupru, polietilenă), toate fabricate pe liniile proprii din Lumezzane. Gama de colectoare vine în variante din inox sau alamă nichelată, în funcție de cerințele instalației.
+Itap concurează cu Giacomini pe segmentul de robinetărie pentru încălzire și instalații sanitare, ambele firme având familii extinse de valve și fitinguri. Gama Itap acoperă de la valve cu clapă și robinete până la fitinguri compatibile cu mai multe tipuri de țeavă (multistrat, PEX, polibutilenă, cupru, polietilenă). Gama de colectoare vine în variante din inox sau alamă nichelată, în funcție de cerințele instalației.
 
 Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum mare de fitinguri standard sau colectoare pentru mai multe tipuri de țeavă, fără necesitatea unei mărci premium pentru fiecare componentă.`,
     whyChoose: [
@@ -203,8 +203,8 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
       "Aprobări de la peste 30 de organisme de certificare din întreaga lume, pe diverse linii de produse",
     ],
     keyProducts: [
-      { name: "Valve cu Bilă și Robinete de Distribuție", description: "Gama de valve cu bilă Itap acoperă atât aplicații sanitare, cât și rețele de gaz, cu robinete de distribuție pentru controlul manual al circuitelor. Include și dispozitive de siguranță pentru gaz, gândite să întrerupă automat alimentarea în caz de scurgere sau debit anormal. Sunt produse standard pentru instalatori care au nevoie de piese fiabile la volum mare, fără cerințe speciale de certificare pe proiect." },
-      { name: "Fitinguri Multi-Material pentru Țevi", description: "Itap produce fitinguri pentru mai multe tipuri de țeavă folosite curent în instalații — multistrat, PEX, polibutilenă, cupru și polietilenă — ceea ce simplifică aprovizionarea pe un șantier cu materiale mixte. Fitingurile acoperă coturi, teuri, reducții și racorduri de trecere între materiale diferite, utile la extinderea unei instalații existente cu o altă generație de țeavă decât cea inițială." },
+      { name: "Valve cu Bilă și Robinete de Distribuție", description: "Gama de valve cu bilă Itap acoperă atât aplicații sanitare, cât și rețele de gaz, cu robinete de erogare, conform categoriilor din catalogul producătorului. Include și valve cu bilă pentru gaz și dispozitive pentru siguranța gazului, conform categoriilor din catalogul producătorului. Sunt produse standard pentru instalatori care au nevoie de piese fiabile la volum mare, fără cerințe speciale de certificare pe proiect." },
+      { name: "Fitinguri Multi-Material pentru Țevi", description: "Itap produce fitinguri pentru mai multe tipuri de țeavă folosite curent în instalații — multistrat, PEX, polibutilenă, cupru și polietilenă — ceea ce simplifică aprovizionarea pe un șantier cu materiale mixte. Fitingurile se aleg în funcție de tipul și diametrul țevii; configurațiile exacte se confirmă din catalogul producătorului." },
       { name: "Colectoare de Distribuție Inox și Alamă Nichelată", description: "Colectoarele Itap sunt disponibile în variante din oțel inoxidabil sau alamă nichelată, cu accesorii precum termostate și robinete de reglaj pentru fiecare circuit. Se montează ca punct central de distribuție pentru instalații de încălzire cu mai multe bucle, iar alegerea materialului ține de buget și de cerințele de rezistență la coroziune ale apei din instalație." },
     ],
     industries: [
@@ -219,11 +219,11 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
     productCodes: [
       { code: "Valve cu clapă", description: "familie de valve de reținere pentru instalații sanitare și de încălzire" },
       { code: "Valve cu bilă", description: "familie de robinete cu bilă pentru apă și gaz" },
-      { code: "Robinete de distribuție", description: "familie de robinete manuale pentru controlul circuitelor" },
-      { code: "Dispozitive siguranță gaz", description: "familie de robinete cu întrerupere automată la scurgere" },
+      { code: "Robinete de distribuție", description: "familie de robinete de erogare, conform catalogului producătorului" },
+      { code: "Dispozitive siguranță gaz", description: "familie de dispozitive pentru siguranța instalațiilor de gaz" },
       { code: "Accesorii solare termice", description: "familie de racorduri pentru panouri și boilere solare" },
       { code: "Valve termostatice", description: "familie de valve cu cap termostatic pentru radiatoare" },
-      { code: "Detentori de presiune", description: "familie de regulatoare de presiune pentru circuitul de încălzire" },
+      { code: "Detentori de presiune", description: "familie de detentori, listată în catalogul producătorului la categoria de încălzire, alături de valvele termostatizabile" },
       { code: "Colectoare inox", description: "familie de colectoare din oțel inoxidabil pentru distribuție" },
       { code: "Colectoare alamă nichelată", description: "familie de colectoare din alamă nichelată pentru distribuție" },
       { code: "Termostate de ambient", description: "familie de termostate pentru reglarea instalației de încălzire" },
@@ -231,18 +231,18 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
       { code: "Fitinguri PEX", description: "familie de fitinguri pentru țeavă PEX" },
       { code: "Fitinguri polibutilenă", description: "familie de fitinguri pentru țeavă din polibutilenă" },
       { code: "Fitinguri cupru", description: "familie de fitinguri pentru țeavă din cupru" },
-      { code: "Reductoare de presiune", description: "familie de reductoare cu filtru și valvă de siguranță" },
+      { code: "Reductoare de presiune", description: "familie de reductoare de presiune și accesorii pentru centrala termică" },
     ],
     faq: [
       { q: "Ce produce Itap?", a: "Itap fabrică în Italia valve, robinetărie, fitinguri și colectoare pentru instalații sanitare și de încălzire, cu o gamă de aproximativ 400 de articole. Producția e integrată pe linii proprii de transfer și asamblare, ceea ce acoperă comenzi de volum mare pentru distribuitori din peste o sută de țări." },
-      { q: "Ce fitinguri Itap se potrivesc pentru o instalație cu țeavă multistrat?", a: "Itap are o familie dedicată de fitinguri pentru țeavă multistrat, compatibilă cu coturi, teuri și reducții standard. Dacă instalația combină multistratul cu alt material, cum ar fi cuprul, trimite-ne ambele diametre și tipurile de țeavă ca să identificăm fitingurile de trecere potrivite." },
+      { q: "Ce fitinguri Itap se potrivesc pentru o instalație cu țeavă multistrat?", a: "Itap are o familie dedicată de fitinguri pentru țeavă multistrat. Dacă instalația combină multistratul cu alt material, cum ar fi cuprul, trimite-ne ambele diametre și tipurile de țeavă ca să identificăm fitingurile de trecere potrivite." },
       { q: "Livrați Itap în România și în cât timp ajunge comanda?", a: "Aducem la comandă din gama Itap prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului. Nu ținem această gamă pe raft, deci primul pas e confirmarea tipului exact de piesă și a diametrului." },
       { q: "Ce trebuie să trimit pentru o ofertă de colector Itap?", a: "Ai nevoie să precizezi numărul de circuite, materialul preferat — inox sau alamă nichelată — și dacă îți trebuie accesorii suplimentare precum termostate sau robinete de reglaj pe fiecare ieșire. Aceste detalii ne permit să identificăm varianta corectă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ITAP S.p.A. – Home", url: "https://www.itap.it", publisher: "ITAP S.p.A.", accessed: "2026-09-25" },
       { title: "ITAP – Prodotti", url: "https://www.itap.it/prodotti/", publisher: "ITAP S.p.A.", accessed: "2026-09-25" },
@@ -251,20 +251,20 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
   },
   rbm: {
     name: "RBM",
-    overview: `RBM e un producător italian de componente pentru instalații de încălzire, răcire și distribuție hidraulică, cu o gamă amplă de filtre, separatoare hidraulice și unități de amestec sau pompare identificate prin serii numerice proprii. Firma acoperă atât tratarea apei din instalație — filtre defangatoare magnetice, produse de curățare chimică — cât și reglarea termică, prin unități de amestec de tip Multimix. Pentru piața din România putem oferta filtre defangatoare, separatoare hidraulice și unități de amestec din gama curentă RBM.
+    overview: `RBM e un producător de componente pentru instalații de încălzire, răcire și distribuție hidraulică, cu o gamă amplă de filtre, separatoare hidraulice și unități de amestec sau pompare identificate prin serii numerice proprii. Firma acoperă atât tratarea apei din instalație — filtre defangatoare magnetice, produse de curățare chimică — cât și reglarea termică, prin unități de amestec de tip Multimix. Pentru piața din România putem oferta filtre defangatoare, separatoare hidraulice și unități de amestec din gama curentă RBM.
 
-Ce diferențiază RBM e gama largă de accesorii pentru mentenanța instalației — de la filtre defangatoare magnetice seria MG, care rețin impuritățile metalice din agentul termic, până la produse de curățare chimică precum Wash Clean 400, folosite la punerea în funcțiune sau la spălarea unei instalații vechi. Seria de unități Multimix (3195, 3197, 3198, 3199) acoperă variante de amestec direct sau modulant, pentru circuite secundare cu temperatură diferită de cea a circuitului principal.
+Ce diferențiază RBM e gama largă de accesorii pentru mentenanța instalației — de la filtre defangatoare magnetice seria MG, care rețin impuritățile metalice din agentul termic, până la produse de curățare chimică precum Wash Clean 400, folosite la punerea în funcțiune sau la spălarea unei instalații vechi. Seria de unități Multimix (3195, 3197, 3198, 3199) include unități de pompare (booster) și unități de amestec pentru circuite secundare.
 
 Pentru instalatori din România, RBM are sens la lucrări de mentenanță și punere în funcțiune — spălarea chimică a unei instalații vechi, montarea unui filtru defangator la un cazan nou sau echilibrarea unui circuit secundar cu o unitate de amestec.`,
     whyChoose: [
       "Gamă amplă de filtre defangatoare magnetice pentru protecția cazanelor și pompelor de impurități metalice",
       "Produse de curățare chimică dedicate, pentru punerea în funcțiune sau spălarea instalațiilor vechi",
-      "Unități Multimix cu variante de amestec direct sau modulant pentru circuite secundare",
+      "Unități Multimix de pompare și de amestec pentru circuite secundare",
       "Separatoare hidraulice disponibile filetate sau flanșate, potrivite pentru instalații de dimensiuni diferite",
     ],
     keyProducts: [
-      { name: "Filtre Defangatoare Magnetice MG1/MG2", description: "Seriile MG1 (3070.A) și MG2 (3715.A) sunt filtre defangatoare magnetice montate sub cazan, care rețin particulele metalice rezultate din coroziunea internă a instalației înainte să ajungă la schimbătorul de căldură sau la pompă. Montajul sub cazan facilitează curățarea periodică fără demontarea altor componente. Sunt recomandate la instalații cu radiatoare din oțel vechi, unde riscul de nămol magnetic e mai mare." },
-      { name: "Unități de Amestec Multimix", description: "Familia Multimix (seriile 3195, 3197, 3198, 3199) reglează temperatura pe un circuit secundar diferit de cel principal, cu variante de pompare directă sau amestec modulant în funcție de necesarul termic. Se folosesc tipic la circuite de încălzire în pardoseală cuplate la o instalație cu radiatoare pe temperatură mai ridicată, unde amestecul reduce temperatura agentului termic la valoarea potrivită." },
+      { name: "Filtre Defangatoare Magnetice MG1/MG2", description: "Seriile MG1 (3070.A) și MG2 (3715.A) sunt filtre defangatoare magnetice montate sub cazan, care rețin particulele metalice rezultate din coroziunea internă a instalației înainte să ajungă la schimbătorul de căldură sau la pompă.  " },
+      { name: "Unități de Amestec Multimix", description: "Familia Multimix (seriile 3195, 3197, 3198, 3199) reglează temperatura pe un circuit secundar diferit de cel principal, cu unități de pompare și de amestec, în funcție de necesarul termic. Se folosesc tipic la circuite de încălzire în pardoseală cuplate la o instalație cu radiatoare pe temperatură mai ridicată, unde amestecul reduce temperatura agentului termic la valoarea potrivită." },
       { name: "Separatoare Hidraulice și Produse de Curățare", description: "Separatoarele hidraulice din seria 617 vin în variante filetate sau flanșate, pre-dimensionate pentru diverse debite, și decuplează hidraulic circuitul primar de cele secundare. Pentru punerea în funcțiune sau spălarea unei instalații vechi, RBM oferă produse de curățare chimică precum Wash Clean 400 și 400H, gândite să elimine depunerile înainte de montarea unui filtru nou." },
     ],
     industries: [
@@ -278,9 +278,9 @@ Pentru instalatori din România, RBM are sens la lucrări de mentenanță și pu
     limitation: "Nu confirmăm sediul central sau anul fondării RBM, pentru că paginile publice consultate nu le menționează explicit.",
     productCodes: [
       { code: "MG1 – Series 3070.A", description: "filtru defangator magnetic sub-cazan" },
-      { code: "MG2 – Series 3715.A", description: "filtru defangator magnetic sub-cazan, debit mai mare" },
+      { code: "MG2 – Series 3715.A", description: "filtru defangator magnetic sub-cazan" },
       { code: "MP1 – Series 3699", description: "filtru cu auto-curățare pentru circuitul pompei" },
-      { code: "MP2 – Series 3833", description: "filtru cu auto-curățare, variantă de debit mai mare" },
+      { code: "MP2 – Series 3833", description: "filtru magnetic cu auto-curățare pentru pompa de încălzire" },
       { code: "Protective 100 – 3917", description: "protecție chimică pentru sisteme de încălzire/răcire" },
       { code: "Wash Clean 400 – 3918.A", description: "detergent pentru curățarea instalației" },
       { code: "Wash Clean 400H – 3918.B", description: "detergent universal cu acțiune rapidă" },
@@ -289,26 +289,26 @@ Pentru instalatori din România, RBM are sens la lucrări de mentenanță și pu
       { code: "Series 617.A", description: "separator hidraulic filetat, pre-dimensionat" },
       { code: "Series 617.B", description: "separator hidraulic flanșat, pre-dimensionat" },
       { code: "Series 3813 Sep MG Compact", description: "separator hidraulic compact cu filtru magnetic integrat" },
-      { code: "Series 3219 Multimix S32", description: "unitate de amestec, model compact" },
-      { code: "Series 3195 Multimix", description: "unitate de amestec pentru circuit secundar" },
+      { code: "Series 3219 Multimix S32", description: "separator hidraulic Multimix S32" },
+      { code: "Series 3195 Multimix", description: "unitate de pompare (booster) Multimix" },
       { code: "Series 3197 RD Direct", description: "unitate de pompare directă fără amestec" },
-      { code: "Series 3198 RF MIX", description: "unitate de amestec cu pompă integrată" },
-      { code: "Series 3199 RM MIX", description: "unitate de amestec modulantă" },
-      { code: "Series 3223 Multimix C32", description: "accesoriu de conectare pentru unitatea Multimix" },
-      { code: "Series 3974 Thermal shell", description: "carcasă termoizolantă pentru unități de amestec" },
-      { code: "Series 3222", description: "kit de conductă izolată pentru montaj" },
-      { code: "Series 3227", description: "kit suport de perete pentru unitate de amestec" },
+      { code: "Series 3198 RF MIX", description: "unitate de amestec RF MIX" },
+      { code: "Series 3199 RM MIX", description: "unitate de amestec RM MIX" },
+      { code: "Series 3223 Multimix C32", description: "colector de zone Multimix C32" },
+      { code: "Series 3974 Thermal shell", description: "carcasă izolantă din semicarcase și polietilenă expandată" },
+      { code: "Series 3222", description: "kit de conducte izolate pentru legarea separatorului vertical S32 și a componentelor asociate" },
+      { code: "Series 3227", description: "suport de perete pentru colectorul de zone C32" },
     ],
     faq: [
-      { q: "Ce produce RBM?", a: "RBM fabrică în Italia filtre defangatoare magnetice, separatoare hidraulice și unități de amestec pentru instalații de încălzire și răcire, plus produse de curățare chimică pentru mentenanța sistemului. Gama e organizată pe serii numerice proprii, fiecare cu o funcție specifică în protecția sau reglarea instalației." },
-      { q: "Cum aleg un filtru defangator RBM potrivit?", a: "Seria MG1 (3070.A) acoperă debite mai mici, iar MG2 (3715.A) e gândită pentru instalații cu debit mai mare sau risc crescut de nămol magnetic, de exemplu la radiatoare vechi din oțel. Trimite-ne debitul instalației și diametrul conductei pe care se montează filtrul, ca să identificăm seria potrivită." },
+      { q: "Ce produce RBM?", a: "RBM fabrică filtre defangatoare magnetice, separatoare hidraulice și unități de amestec pentru instalații de încălzire și răcire, plus produse de curățare chimică pentru mentenanța sistemului. Gama e organizată pe serii numerice proprii, fiecare cu o funcție specifică în protecția sau reglarea instalației." },
+      { q: "Cum aleg un filtru defangator RBM potrivit?", a: "Seriile MG1 (3070.A) și MG2 (3715.A) sunt filtre defangatoare magnetice montate sub cazan; alegerea între ele se face pe baza fișelor tehnice ale producătorului. Vă rugăm să ne transmiteți debitul instalației și diametrul conductei pe care se montează filtrul, pentru a identifica seria potrivită." },
       { q: "Livrați RBM în România și cât durează comanda?", a: "Aducem la comandă din gama RBM prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea la producător. Nu ținem această gamă pe raft, deci primul pas e confirmarea seriei exacte și a cantității necesare." },
       { q: "Ce trebuie să trimit pentru o ofertă de unitate Multimix RBM?", a: "Ai nevoie să precizezi debitul necesar pe circuitul secundar, diferența de temperatură dorită între circuitul primar și cel secundar, și dacă îți trebuie pompare directă sau amestec modulant. Aceste date ne permit să recomandăm seria Multimix corectă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "RBM – Home", url: "https://rbm.eu/en", publisher: "RBM S.p.A.", accessed: "2026-09-25" },
       { title: "RBM – Products", url: "https://rbm.eu/en/products", publisher: "RBM S.p.A.", accessed: "2026-09-25" },
@@ -324,27 +324,27 @@ Saint-Gobain PAM concurează cu VAG pe segmentul de robinetărie pentru rețele 
 Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiecte de extindere sau reabilitare a rețelelor de apă potabilă și canalizare, unde compatibilitatea între conducte și robinetărie contează pentru durata de viață a întregii rețele.`,
     whyChoose: [
       "Gamă integrată de conducte și robinetărie din fontă ductilă, gândite să funcționeze împreună în rețea",
-      "Marca NF, certificare AFNOR, pe produse destinate rețelelor publice de apă din Franța",
-      "Soluții complete de acces stradal — capace de cămin, grătare și trapele pentru telecom",
+      "Marca NF (AFNOR Certification) pe o parte din produse, conform site-ului producătorului",
+      "Soluții de acces stradal — capace de cămin și grătare (PAMREX, KORUM, URBAMAX, GATIC, SELECTA)",
       "Peste 1.500 de referințe în catalog, cu game separate pentru apă potabilă, canalizare și soluri agresive",
     ],
     keyProducts: [
-      { name: "Robinete Fluture EUROSTOP, WAFER, LUG", description: "Familia de robinete fluture PAM acoperă montaj wafer, între flanșe, sau lug, cu găuri filetate proprii, pentru secționarea rețelelor de apă potabilă sau canalizare. EUROSTOP e gândit pentru operațiuni de izolare rapidă a unui tronson de rețea, util la lucrări de mentenanță sau reparații fără oprirea întregii distribuții. Corpul din fontă ductilă rezistă la ciclurile repetate de manevră specifice rețelelor publice." },
-      { name: "Vane cu Opercul EURO 20", description: "Vana cu opercul EURO 20 e componenta standard pentru secționarea conductelor de apă potabilă montate îngropat, cu tijă de manevră accesibilă de la suprafață printr-un cămin sau o cutie de vană. Corpul din fontă ductilă și opercul cauciucat asigură etanșare completă la închidere, fără reziduuri de lichid în zona de trecere, ceea ce simplifică intervențiile ulterioare." },
-      { name: "Conducte Natural și Optimal pentru Apă Potabilă", description: "Seriile Natural și Optimal sunt conducte din fontă ductilă pentru transportul apei potabile, cu variante de protecție interioară și exterioară adaptate la agresivitatea solului. Izifit e gândită pentru montaj rapid cu îmbinare prin fitting, utilă la extinderi de rețea unde timpul de execuție contează. Alegerea seriei depinde de tipul de sol și de presiunea de lucru din rețea." },
-      { name: "Soluții de Acces Stradal — Capace și Grătare", description: "Gama PAM Access Solutions include capace de cămin din familiile PAMREX, KORUM și URBAMAX, plus grătare din familiile GATIC și SELECTA, pentru acoperirea căminelor de vizitare din rețelele de apă, canalizare sau telecomunicații. Produsele sunt dimensionate pentru clase diferite de trafic, de la zone pietonale până la drumuri cu trafic greu." },
+      { name: "Robinete Fluture EUROSTOP, WAFER, LUG", description: "Familia de robinete fluture PAM acoperă montaj wafer, între flanșe, sau lug, cu găuri filetate proprii, pentru secționarea rețelelor de apă potabilă sau canalizare. EUROSTOP este gama de robinete fluture PAM; modelul se alege după diametrul nominal (DN) și clasa de presiune (PN). " },
+      { name: "Vane cu Opercul EURO 20", description: "Vana cu opercul EURO 20 e componenta standard pentru secționarea conductelor de apă potabilă montate îngropat, cu tijă de manevră accesibilă de la suprafață printr-un cămin sau o cutie de vană. Producătorul listează EURO 20 ca vană cu opercul cauciucat." },
+      { name: "Conducte Natural și Optimal pentru Apă Potabilă", description: "Seriile Natural și Optimal sunt conducte din fontă ductilă pentru transportul apei potabile, cu variante de protecție interioară și exterioară adaptate la agresivitatea solului. Izifit este listată de producător în gama de conducte pentru apă potabilă. Alegerea seriei depinde de tipul de sol și de presiunea de lucru din rețea." },
+      { name: "Soluții de Acces Stradal — Capace și Grătare", description: "Gama PAM Access Solutions include capace de cămin din familiile PAMREX, KORUM și URBAMAX, plus grătare din familiile GATIC și SELECTA, pentru acoperirea căminelor de vizitare. Produsele sunt dimensionate pentru clase diferite de trafic, de la zone pietonale până la drumuri cu trafic greu." },
     ],
     industries: [
       "Apă potabilă — conducte și robinetărie de secționare pentru rețele publice",
       "Canalizare — conducte și accesorii pentru colectarea apelor uzate",
       "Protecție la incendiu — hidranți și robinetărie dedicată rețelelor de stingere",
       "Infrastructură stradală — capace de cămin și grătare pentru trafic pietonal sau auto",
-      "Irigații și hidroenergetică — conducte și vane pentru transportul apei în volum mare",
+      "Rețele de apă — conducte și vane din fontă ductilă pentru transportul apei",
     ],
     infinitrade: `Pentru Saint-Gobain PAM lucrăm din informațiile publice ale producătorului; nu avem date proprii de stoc pentru această gamă. Aducem la comandă robinete fluture, vane cu opercul și conducte din fontă ductilă prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul de produs, diametrul nominal (DN) și clasa de presiune (PN) necesare pentru proiect. O certificare apare în ofertă doar dacă figurează explicit în documentația publică a producătorului pentru codul respectiv.`,
     limitation: "Nu confirmăm anul exact de fondare al Saint-Gobain PAM, pentru că pagina consultată menționează doar o vechime aproximativă, fără dată explicită.",
     productCodes: [
-      { code: "EUROSTOP", description: "robinet fluture pentru izolare rapidă a tronsonului de rețea" },
+      { code: "EUROSTOP", description: "gamă de robinete fluture" },
       { code: "WAFER", description: "robinet fluture cu montaj între flanșe" },
       { code: "LUG", description: "robinet fluture cu montaj pe găuri filetate proprii" },
       { code: "EURO 20", description: "vană cu opercul pentru secționare rețea îngropată" },
@@ -354,11 +354,11 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
       { code: "ATLAS PLUS", description: "gamă de vane pentru rețele de apă potabilă" },
       { code: "Natural", description: "conductă din fontă ductilă pentru apă potabilă" },
       { code: "Optimal", description: "conductă din fontă ductilă, variantă pentru diametre mici" },
-      { code: "Izifit", description: "conductă cu îmbinare rapidă prin fitting" },
+      { code: "Izifit", description: "conductă din gama pentru apă potabilă" },
       { code: "Integral", description: "conductă din fontă ductilă pentru canalizare" },
-      { code: "Biogan", description: "conductă pentru canalizare cu inel special anticoroziv" },
+      { code: "Biogan", description: "conductă din fontă ductilă pentru canalizare, livrată cu inel Biogan" },
       { code: "Pluvial", description: "conductă din fontă ductilă pentru ape pluviale" },
-      { code: "TT PUX", description: "conductă cu protecție dublă pentru soluri agresive chimic" },
+      { code: "TT PUX", description: "conductă din fontă ductilă pentru soluri agresive (DN 150–2000)" },
       { code: "TT PE", description: "conductă cu protecție din polietilenă pentru soluri agresive" },
       { code: "GEOFLEX", description: "conductă pentru aplicații speciale de teren" },
       { code: "ISOPAM", description: "conductă izolată termic pentru aplicații speciale" },
@@ -372,8 +372,8 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Saint-Gobain PAM – Accueil", url: "https://www.pamline.com/fr-fr", publisher: "Saint-Gobain PAM", accessed: "2026-09-25" },
       { title: "Saint-Gobain PAM – Produits", url: "https://www.pamline.com/fr-fr/produits", publisher: "Saint-Gobain PAM", accessed: "2026-09-25" },
@@ -384,24 +384,24 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
     founded: 1469,
     overview: `Düker e un producător german de armături și fitinguri din fontă ductilă pentru rețele de apă, cu rădăcini documentate din 1469 în zona Unterfranken din Bavaria. Gama acoperă vane de izolare, clapete, hidranți și fitinguri cu flanșe sau mufe pentru rețele de apă potabilă și canalizare, plus sisteme de scurgere din fontă pentru clădiri — conducte SML și MLK-protec pentru coloane de canalizare interioară. Pentru piața din România putem oferta din gama Düker vane de izolare, hidranți și fitinguri din fontă ductilă pentru rețele de apă.
 
-Düker concurează cu VAG pe segmentul de armături pentru rețele de apă, ambele firme având game largi de vane și hidranți pentru operatorii de utilități. Ce diferențiază Düker e prezența pe două piețe conexe — armăturile de rețea și sistemele de scurgere din fontă pentru clădiri, unde seriile SML și Düker NH sunt cunoscute pentru funcționare silențioasă și rezistență la foc, spre deosebire de conductele din plastic folosite curent la coloanele de canalizare. Producătorul menționează garanție de 10 ani pe liniile Flow Control și Drainage.
+Düker concurează cu VAG pe segmentul de armături pentru rețele de apă, ambele firme având game largi de vane și hidranți pentru operatorii de utilități. Ce diferențiază Düker e prezența pe două piețe conexe — armăturile de rețea și sistemele de scurgere din fontă pentru clădiri, unde producătorul propune seriile SML și Düker NH pentru coloane de canalizare interioară. Producătorul menționează garanție de 10 ani pe liniile Flow Control și Drainage.
 
 Pentru operatorii de apă și antreprenorii din România, Düker are sens la proiecte de extindere a rețelelor de apă potabilă cu vane și hidranți, sau la clădiri unde se cere o coloană de canalizare din fontă silențioasă și rezistentă la foc.`,
     whyChoose: [
-      "Rădăcini documentate din 1469, cu continuitate în producția de fontă din regiunea Unterfranken",
-      "Garanție de 10 ani pe liniile Flow Control și Drainage, conform informațiilor producătorului",
-      "Conducte din fontă pentru coloane de canalizare, mai silențioase decât variantele din plastic",
+      "Rădăcini documentate din 1469, conform istoricului companiei",
+      "Producătorul indică o garanție de 10 ani pentru liniile Flow Control și Drainage; condițiile se confirmă din documentația producătorului pentru fiecare cod",
+      "Conducte din fontă pentru coloane de canalizare interioară (SML, MLK-protec, TML, MLB, Düker NH)",
       "Gamă largă de fitinguri cu flanșe sau mufe pentru rețele de apă și canalizare",
     ],
     keyProducts: [
       { name: "Vane de Izolare și Hidranți (Flow Control)", description: "Gama Flow Control acoperă vane de izolare pentru secționarea rețelelor de apă potabilă, clapete pentru conducte de diametru mare, și hidranți pentru rețele de stingere a incendiilor. Completează gama armăturile de racord la casă, prevenitorii de reflux și ventilele cu piston inelar pentru reglarea presiunii pe conducte magistrale. Toate componentele sunt din fontă ductilă, cu protecție anticorozivă pentru montaj îngropat." },
       { name: "Fitinguri din Fontă Ductilă", description: "Fitingurile Düker acoperă conexiuni cu flanșe sau cu mufe, plus variante speciale pentru situații de montaj neobișnuite și fitinguri dedicate rețelelor de canalizare. Sunt gândite pentru rețele publice de apă și canalizare, unde durata de viață a fitingului trebuie să fie comparabilă cu cea a conductei principale, adesea de câteva decenii." },
-      { name: "Conducte din Fontă pentru Scurgere (SML, Düker NH)", description: "Seriile SML, MLK-protec, TML, MLB și Düker NH sunt conducte din fontă pentru coloane de canalizare interioară în clădiri, alese pentru funcționare silențioasă și rezistență la foc, spre deosebire de conductele din material plastic. Sunt tipice pentru clădiri înalte sau spitale, unde zgomotul de scurgere sau riscul de propagare a focului prin instalație contează în proiectare." },
+      { name: "Conducte din Fontă pentru Scurgere (SML, Düker NH)", description: "Seriile SML, MLK-protec, TML, MLB și Düker NH sunt conducte din fontă pentru coloane de canalizare interioară în clădiri. Alegerea seriei se face pe baza cerințelor proiectului și a documentației producătorului." },
     ],
     industries: [
       "Rețele publice de apă — vane de izolare și hidranți pentru distribuție",
       "Canalizare exterioară — fitinguri din fontă ductilă pentru colectoare",
-      "Clădiri înalte — coloane de canalizare din fontă, silențioase și rezistente la foc",
+      "Clădiri — coloane de canalizare interioară din fontă (SML, MLK-protec, TML, MLB, Düker NH)",
       "Stații de pompare apă uzată — componente pentru sisteme de tip STRATE",
       "Protecție la incendiu — hidranți pentru rețele de stingere",
     ],
@@ -418,24 +418,24 @@ Pentru operatorii de apă și antreprenorii din România, Düker are sens la pro
       { code: "Flanschformstücke", description: "fiting cu flanșe din fontă ductilă" },
       { code: "Muffenformstücke", description: "fiting cu mufe din fontă ductilă" },
       { code: "Sonderformstücke", description: "fiting special pentru montaje neobișnuite" },
-      { code: "KS-Formstücke", description: "fiting din fontă pentru conexiuni speciale de rețea" },
+      { code: "KS-Formstücke", description: "fiting din fontă ductilă (categoria „KS-Formstücke” din catalogul producătorului)" },
       { code: "Abwasserformstücke", description: "fiting din fontă pentru rețele de canalizare" },
       { code: "SML", description: "conductă din fontă pentru coloane de canalizare interioară" },
-      { code: "MLK-protec", description: "conductă din fontă cu protecție suplimentară pentru scurgere" },
-      { code: "TML", description: "conductă din fontă pentru sisteme de scurgere ușoare" },
-      { code: "MLB", description: "conductă din fontă pentru scurgere, variantă de diametru mic" },
-      { code: "Düker NH", description: "conductă din fontă pentru coloane de canalizare, rezistentă la foc" },
+      { code: "MLK-protec", description: "conductă din fontă pentru sisteme de scurgere (gama Drainage)" },
+      { code: "TML", description: "conductă din fontă pentru sisteme de scurgere (gama Drainage)" },
+      { code: "MLB", description: "conductă din fontă pentru sisteme de scurgere (gama Drainage)" },
+      { code: "Düker NH", description: "conductă din fontă pentru coloane de canalizare interioară" },
     ],
     faq: [
       { q: "Ce produce Düker?", a: "Düker fabrică în Germania armături din fontă ductilă pentru rețele de apă — vane de izolare, clapete, hidranți și fitinguri cu flanșe sau mufe — plus conducte din fontă pentru coloane de canalizare interioară în clădiri. Compania are rădăcini documentate din 1469 în regiunea Unterfranken." },
-      { q: "De ce să aleg conducte din fontă Düker în loc de plastic pentru coloana de canalizare?", a: "Conductele din fontă Düker, precum seria SML, reduc zgomotul de scurgere pe coloană și rezistă mai bine la foc decât variantele din material plastic, ceea ce contează la clădiri înalte sau la spații cu cerințe stricte de protecție la incendiu. Alegerea depinde de specificațiile proiectului de instalații." },
+      { q: "De ce să aleg conducte din fontă Düker în loc de plastic pentru coloana de canalizare?", a: "Düker produce conducte din fontă pentru coloane de canalizare interioară (SML, MLK-protec, TML, MLB, Düker NH). Alegerea între fontă și alt material depinde de specificațiile proiectului de instalații; proprietățile exacte se confirmă din documentația producătorului." },
       { q: "Livrați Düker în România și cât durează comanda?", a: "Aducem la comandă din gama Düker prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru diametrul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea tipului de componentă și a diametrului nominal." },
       { q: "Ce trebuie să trimit pentru o ofertă de vană Düker?", a: "Ai nevoie să precizezi diametrul nominal (DN), clasa de presiune (PN) și tipul de montaj — îngropat sau cu cutie de manevră la suprafață. Dacă proiectul cere o clapetă în loc de vană cu pană, menționează și diametrul conductei pe care se montează." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Düker – Home", url: "https://www.dueker.de", publisher: "Düker GmbH", accessed: "2026-09-25" },
       { title: "Düker – Flow Control", url: "https://www.dueker.de/flow-control/", publisher: "Düker GmbH", accessed: "2026-09-25" },
@@ -447,19 +447,19 @@ Pentru operatorii de apă și antreprenorii din România, Düker are sens la pro
     headquarters: "Altdorf, Germania",
     overview: `SIPOS Aktorik e un producător german de actuatoare electrice pentru robineți industriali, cu sediul la Altdorf, lângă Nürnberg. Gama acoperă actuatoare rotative și liniare pentru controlul vanelor, clapetelor și robinetelor cu bilă în instalații industriale, cu module de comunicație pentru integrare în sisteme de automatizare. Pentru piața din România putem oferta din gama SIPOS actuatoare din familia SEVEN și module de control compatibile cu protocoale industriale uzuale.
 
-SIPOS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, ambele firme având game de produse organizate pe generații succesive. Familia SEVEN (2SA7, 2SA78, 2SQ7) reprezintă generația curentă de actuatoare SIPOS, cu variante HiMod pentru medii dificile, completată de familiile ECOTRON și PROFITRON pentru aplicații unde costul contează mai mult decât funcțiile avansate. Modulele de control M7636, M7637 și M76348 permit integrarea actuatoarelor în bucle de automatizare existente.
+SIPOS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, ambele firme având game de produse organizate pe generații succesive. Familia SEVEN (2SA7, 2SA78, 2SQ7) reprezintă generația curentă de actuatoare SIPOS, cu varianta HiMod pentru aplicații cu cerințe ridicate de precizie a reglării, completată de familiile ECOTRON (acționare deschis-închis și poziționare simplă) și PROFITRON. Modulele de control M7636, M7637 și M76348 permit integrarea actuatoarelor în bucle de automatizare existente.
 
 Pentru operatorii industriali din România, SIPOS are sens la instalații unde robineții trebuie acționați electric de la distanță — stații de tratare a apei, rețele de gaz sau linii de proces — și unde integrarea cu un sistem de automatizare existent contează.`,
     whyChoose: [
-      "Familia SEVEN acoperă generația curentă de actuatoare, cu variante HiMod pentru medii dificile",
+      "Familia SEVEN include varianta HiMod (2SA78), pentru acționare modulantă cu precizie ridicată",
       "Module de comunicație pentru Fieldbus, Profinet, Modbus TCP și HART, pentru integrare în automatizare",
       "Sediu și producție în Germania, la Altdorf, lângă Nürnberg",
-      "Game separate ECOTRON și PROFITRON pentru aplicații unde costul actuatorului contează mai mult",
+      "Game separate ECOTRON și PROFITRON, pentru aplicații cu cerințe mai simple de acționare",
     ],
     keyProducts: [
-      { name: "Actuatoare SEVEN 2SA7 / 2SA78 HiMod", description: "Familia SEVEN reprezintă generația curentă de actuatoare electrice SIPOS pentru robineți cu rotație parțială sau completă, cu varianta HiMod (2SA78) gândită pentru medii dificile — umiditate ridicată, praf sau variații mari de temperatură. Actuatoarele controlează vane cu pană, clapete și robinete cu bilă, cu posibilitate de montaj a modulelor de comunicație pentru integrare într-un sistem SCADA existent." },
-      { name: "Actuatoare SEVEN 2SQ7, 2SP7, 2SL7", description: "Variantele 2SQ7, 2SP7 și 2SL7 completează familia SEVEN pentru aplicații specifice de acționare — de la robineți cu deschidere rapidă până la actuatoare liniare pentru vane cu tijă ascendentă. Fiecare variantă păstrează compatibilitatea cu modulele de control și comunicație din gama SIPOS, ceea ce simplifică integrarea când o instalație folosește deja actuatoare din familia SEVEN pe alți robineți." },
-      { name: "Module de Control M7636 / M7637 / M76348", description: "Modulele M7636, M7637 și M76348 gestionează funcțiile de control ale actuatoarelor SIPOS — poziționare, semnalizare stare și protecție la suprasarcină — și pot fi echipate cu interfețe pentru Fieldbus, Profinet, Modbus TCP sau HART. Sunt utile la retehnologizarea unei instalații unde actuatoarele existente trebuie conectate la un sistem modern de automatizare." },
+      { name: "Actuatoare SEVEN 2SA7 / 2SA78 HiMod", description: "Familia SEVEN reprezintă generația curentă de actuatoare electrice SIPOS pentru robineți cu rotație parțială sau completă, cu varianta HiMod (2SA78) gândită pentru aplicații cu cerințe ridicate de calitate a reglării (acționare modulantă continuă). Actuatoarele controlează vane cu pană, clapete și robinete cu bilă, cu posibilitate de montaj a modulelor de comunicație pentru integrare într-un sistem SCADA existent." },
+      { name: "Actuatoare SEVEN 2SQ7, 2SP7, 2SL7", description: "Variantele 2SQ7, 2SP7 și 2SL7 completează familia SEVEN pentru aplicații specifice de acționare — pentru variante specifice de acționare, conform fișelor producătorului. Fiecare variantă păstrează compatibilitatea cu modulele de control și comunicație din gama SIPOS, ceea ce simplifică integrarea când o instalație folosește deja actuatoare din familia SEVEN pe alți robineți." },
+      { name: "Module de Control M7636 / M7637 / M76348", description: "Modulele M7636, M7637 și M76348 sunt listate de producător în gama de module pentru actuatoarele SIPOS; interfețele disponibile (Fieldbus, Profinet, Modbus TCP, HART) se confirmă pe cod. Sunt utile la retehnologizarea unei instalații unde actuatoarele existente trebuie conectate la un sistem modern de automatizare." },
     ],
     industries: [
       "Tratarea apei — acționare electrică a vanelor din stațiile de tratare",
@@ -472,27 +472,27 @@ Pentru operatorii industriali din România, SIPOS are sens la instalații unde r
     limitation: "Nu confirmăm parametrii de cuplu și tensiune pentru fiecare model SIPOS, pentru că pagina de produse consultată nu îi detaliază per variantă.",
     productCodes: [
       { code: "ECOTRON", description: "actuator electric din gama de bază SIPOS" },
-      { code: "HiMod", description: "variantă de actuator pentru medii dificile" },
-      { code: "PROFITRON", description: "actuator electric din gama intermediară SIPOS" },
+      { code: "HiMod", description: "variantă de actuator pentru reglare modulantă de precizie" },
+      { code: "PROFITRON", description: "actuator electric din gama SIPOS" },
       { code: "SEVEN 2SA7", description: "actuator electric rotativ, generația curentă" },
-      { code: "SEVEN HiMod 2SA78", description: "actuator rotativ pentru medii dificile" },
+      { code: "SEVEN HiMod 2SA78", description: "actuator rotativ modulant de precizie (10-700 Nm)" },
       { code: "SEVEN 2SQ7", description: "actuator electric, variantă familia SEVEN" },
       { code: "2SP7", description: "actuator electric din familia SEVEN" },
       { code: "2SL7", description: "actuator liniar din familia SEVEN" },
       { code: "M7636", description: "modul de control pentru actuator SIPOS" },
       { code: "M7637", description: "modul de control pentru actuator SIPOS" },
-      { code: "M76348", description: "modul de control avansat pentru actuator SIPOS" },
+      { code: "M76348", description: "modul pentru actuator SIPOS" },
     ],
     faq: [
       { q: "Ce produce SIPOS Aktorik?", a: "SIPOS Aktorik fabrică în Germania actuatoare electrice pentru robineți industriali — vane, clapete și robinete cu bilă — organizate în familii precum SEVEN, ECOTRON și PROFITRON. Actuatoarele pot fi echipate cu module de comunicație pentru Fieldbus, Profinet, Modbus TCP sau HART, pentru integrare în sisteme de automatizare." },
-      { q: "Cum aleg un actuator SIPOS pentru un mediu dificil?", a: "Varianta HiMod, disponibilă în familia SEVEN sub codul 2SA78, e gândită pentru medii cu umiditate ridicată, praf sau variații mari de temperatură. Trimite-ne condițiile de mediu din instalație și tipul de robinet pe care se montează actuatorul, ca să verificăm compatibilitatea codului." },
+      { q: "Cum aleg un actuator SIPOS pentru reglare modulantă de precizie?", a: "Varianta HiMod, disponibilă în familia SEVEN sub codul 2SA78, este un actuator rotativ modulant pentru aplicații cu cerințe ridicate de calitate a reglării. Vă rugăm să ne transmiteți cuplul necesar, tipul de robinet pe care se montează actuatorul și condițiile de mediu, pentru a verifica compatibilitatea codului." },
       { q: "Ce echivalent are gama SIPOS față de Auma?", a: "SIPOS și Auma acoperă categorii similare de actuatoare electrice pentru robineți industriali, dar cu familii de coduri proprii fiecărei mărci. Dacă înlocuiești un actuator Auma cu unul SIPOS, verifică cuplul necesar și tipul de interfață mecanică pe robinet înainte de a plasa comanda." },
       { q: "Livrați Sipos Aktorik în România și cât durează comanda?", a: "Aducem la comandă din gama Sipos Aktorik prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru modelul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea codului actuatorului și a robinetului pe care se montează." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SIPOS Aktorik – Home", url: "https://www.sipos.de/en/", publisher: "SIPOS Aktorik GmbH", accessed: "2026-09-25" },
       { title: "SIPOS Aktorik – Product Overview", url: "https://www.sipos.de/en_GB/product/overview_products", publisher: "SIPOS Aktorik GmbH", accessed: "2026-09-25" },
@@ -500,11 +500,11 @@ Pentru operatorii industriali din România, SIPOS are sens la instalații unde r
   },
   regada: {
     name: "Regada",
-    founded: 1998,
+    
     headquarters: "Prešov, Slovacia",
     overview: `Regada e un producător slovac de actuatoare electrice și pneumatice pentru robineți industriali, cu sediul la Prešov și activitate din 1998, continuând o tradiție de producție din anii 1960. Gama acoperă actuatoare part-turn din seria SP, pentru acționarea vanelor fluture, cu bilă, poartă sau glob, plus actuatoare pneumatice și supape solenoid pentru automatizarea circuitelor de aer comprimat. Pentru piața din România putem oferta din gama Regada actuatoare electrice din seria SP și supape solenoid pentru automatizare industrială.
 
-Regada concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar acoperă o plajă de cuplu mai mică — de la 4 Nm la seria SP MIKRO, până la 575 Nm la SP 2.4-Ex, orientată spre robineți de dimensiuni mici și medii. Seria SPR, cu variante precum SPR 0PA-M, adaugă funcția Rematic pentru poziționare proporțională, utilă la reglarea debitului, nu doar la deschidere sau închidere completă. Variantele Ex din gamă sunt gândite pentru zone cu risc de explozie.
+Regada concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar acoperă o plajă de cuplu mai mică — de la 4 Nm la seria SP 0, până la 575 Nm la SP 2.4-Ex, orientată spre robineți de dimensiuni mici și medii. Seria SPR, cu variante precum SPR 0PA-M, adaugă funcția Rematic pentru poziționare proporțională, utilă la reglarea debitului, nu doar la deschidere sau închidere completă. Variantele Ex din gamă sunt gândite pentru zone cu risc de explozie.
 
 Pentru operatorii industriali din România, Regada are sens la automatizarea robineților de dimensiuni mici și medii din instalații de proces, rețele de gaz sau stații de tratare, mai ales unde bugetul nu justifică un actuator de cuplu foarte mare.`,
     whyChoose: [
@@ -514,9 +514,9 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
       "Gamă completă de supape solenoid și actuatoare pneumatice pentru automatizare pe aer comprimat",
     ],
     keyProducts: [
-      { name: "Actuatoare Electrice Seria SP", description: "Seria SP acoperă actuatoare electrice part-turn cu cuplu de la 4 Nm (SP MIKRO) până la 575 Nm (SP 2.4-Ex), pentru acționarea robineților fluture, cu bilă, poartă sau glob. Variantele -M au funcție de poziționare modulantă, iar cele -Ex sunt gândite pentru zone cu risc de explozie. Alegerea modelului depinde de cuplul necesar la robinet și de clasificarea zonei de montaj." },
+      { name: "Actuatoare Electrice Seria SP", description: "Seria SP acoperă actuatoare electrice part-turn cu cuplu de la 4 Nm (SP 0) până la 575 Nm (SP 2.4-Ex), pentru acționarea robineților fluture, cu bilă, poartă sau glob. Variantele -M au funcție de poziționare modulantă, iar cele -Ex sunt gândite pentru zone cu risc de explozie. Alegerea modelului depinde de cuplul necesar la robinet și de clasificarea zonei de montaj." },
       { name: "Actuatoare Rematic Seria SPR", description: "Seria SPR, cu modelele SPR 0PA-M și SPR 0.1PA-M, adaugă funcția Rematic peste actuatorul de bază, pentru poziționare proporțională a robinetului în funcție de un semnal de comandă continuu, nu doar deschidere sau închidere completă. Sunt utile la reglarea debitului pe circuite unde cerința variază în timp, de exemplu la amestecul a două fluxuri." },
-      { name: "Actuatoare Pneumatice și Robinete Controlate", description: "Gama pneumatică include actuatoare din aluminiu sau oțel inoxidabil, pentru robinete fluture, cu bilă, poartă sau glob acționate cu aer comprimat, plus supape coaxiale pentru aplicații de proces. Sunt alese acolo unde instalația are deja o rețea de aer comprimat și unde timpul de răspuns pneumatic e suficient de rapid pentru aplicație." },
+      { name: "Actuatoare Pneumatice și Robinete Controlate", description: "Gama pneumatică include actuatoare din aluminiu sau oțel inoxidabil, pentru robinete fluture, cu bilă, poartă sau glob acționate cu aer comprimat. Sunt alese acolo unde instalația are deja o rețea de aer comprimat și unde timpul de răspuns pneumatic e suficient de rapid pentru aplicație." },
       { name: "Supape Solenoid", description: "Supapele solenoid Regada vin în variante cu două sau trei căi, plus modele modulare pentru montaj în baterie, folosite pentru comanda actuatoarelor pneumatice sau pentru controlul direct al unui circuit de aer sau gaz. Montajul modular reduce spațiul ocupat la panourile cu mai multe circuite de comandă." },
     ],
     industries: [
@@ -551,8 +551,8 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Regada – Home", url: "https://www.regada.sk/en/", publisher: "REGADA s.r.o.", accessed: "2026-09-25" },
       { title: "Regada – Product Catalog", url: "https://www.regada.sk/en/product-catalog/list", publisher: "REGADA s.r.o.", accessed: "2026-09-25" },
@@ -564,29 +564,29 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
     headquarters: "Troisdorf, Germania",
     overview: `ARIS Stellantriebe e un producător german de actuatoare electrice și componente pentru controlul gazului, cu sediul la Troisdorf, lângă Köln, și peste 50 de ani de activitate. Din mai 2025, compania face parte din grupul britanic Kinetrol. Gama acoperă actuatoare electrice pentru robineți industriali — familiile Nano S, Tensor S, ExTensor M și PICO — plus componente complete pentru stații de reglare a gazului. Pentru piața din România putem oferta din gama ARIS actuatoare electrice și componente pentru sisteme de control al gazului.
 
-ARIS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar are o nișă suplimentară în componentele pentru controlul gazului — regulatoare de presiune, supape de siguranță, filtre de gaz și debitmetre tip Quantometer, integrabile într-o stație completă de reglare. Familia Nano S e gândită pentru aplicații compacte cu grad de protecție IP66/IP67, iar ExTensor M adaugă protecție la explozie pentru zone clasificate ATEX. Actuatoarele pneumatice provin din gama partenerului Kinetrol, cu cuplu de până la peste 40.000 Nm la variantele mari.
+ARIS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar are o nișă suplimentară în componentele pentru controlul gazului — regulatoare de presiune, supape de siguranță, filtre de gaz și debitmetre tip Quantometer, integrabile într-o stație completă de reglare. Familia Nano S e gândită pentru aplicații compacte cu grad de protecție IP66/IP67, iar ExTensor M adaugă protecție la explozie pentru zone clasificate ATEX. Actuatoarele pneumatice provin din gama Kinetrol, grupul din care face parte ARIS, cu cuplu de până la peste 40.000 Nm la variantele mari.
 
 Pentru operatorii industriali din România, ARIS are sens la automatizarea robineților în stații de reglare a gazului sau la instalații din chimie și rafinării, unde certificarea ATEX și componentele complete de măsurare-siguranță contează la recepția proiectului.`,
     whyChoose: [
       "Certificări ISO 9001:2015, ATEX și IECEx pentru actuatoare destinate zonelor cu risc de explozie",
       "Grad de protecție IP66/IP67 la familiile Nano S și Tensor S, pentru montaj în exterior",
       "Gamă completă pentru stații de reglare a gazului — regulatoare, filtre, supape de siguranță, debitmetre",
-      "Actuatoare pneumatice partenere Kinetrol cu cuplu de până la peste 40.000 Nm",
-      "Parte din grupul britanic Kinetrol din 2025, cu continuitate în producția din Troisdorf",
+      "Actuatoare pneumatice Kinetrol cu cuplu de până la peste 40.000 Nm",
+      "Parte din grupul britanic Kinetrol din 2025",
     ],
     keyProducts: [
-      { name: "Actuatoare Electrice Nano S și Tensor S", description: "Nano S e un actuator electric compact, cu grad de protecție IP66/IP67, gândit pentru robineți de dimensiuni mici în instalații industriale sau HVAC. Tensor S e actuatorul multi-turn cu control electronic complet, pentru vane cu tijă ascendentă unde poziționarea precisă contează. Ambele familii pot fi echipate cu module de comunicație pentru integrare într-un sistem de automatizare existent." },
+      { name: "Actuatoare Electrice Nano S și Tensor S", description: "Nano S face parte din seriile ARIS testate și aprobate pentru clasele de protecție IP66 și IP67. Tensor S e actuatorul multi-turn cu control electronic complet, pentru vane cu tijă ascendentă unde poziționarea precisă contează. Ambele familii pot fi echipate cu module de comunicație pentru integrare într-un sistem de automatizare existent." },
       { name: "Actuator ExTensor M pentru Zone Explozive", description: "ExTensor M e varianta cu protecție la explozie a actuatorului multi-turn ARIS, certificată ATEX și IECEx, pentru montaj în zone clasificate din industria chimică, rafinării sau instalații de biogaz. Păstrează controlul electronic complet al familiei Tensor, cu adaptări de carcasă și cablaj pentru mediile cu risc de explozie." },
       { name: "Componente pentru Stații de Reglare a Gazului", description: "Gama pentru controlul gazului include regulatoare de presiune, supape de siguranță, robinete cu bilă, filtre de gaz și debitmetre de tip Quantometer, plus sistemul de testare a etanșeității valvelor MTC10. Componentele funcționează împreună într-o stație completă de reglare-măsurare, conform standardelor europene și cu aprobări DVGW acolo unde se aplică." },
-      { name: "Actuatoare Pneumatice Kinetrol", description: "Prin parteneriatul cu Kinetrol, ARIS oferă actuatoare pneumatice cu simplă sau dublă acțiune, pentru robineți cu rotație de 70-110 grade, acoperind un cuplu de la sub 1 Nm până la peste 40.000 Nm la variantele cele mai mari. Sunt alese pentru instalații care au deja o rețea de aer comprimat și unde viteza de acționare e un avantaj față de actuatorul electric." },
+      { name: "Actuatoare Pneumatice Kinetrol", description: "Prin apartenența la grupul Kinetrol, ARIS oferă actuatoare pneumatice cu simplă sau dublă acțiune, pentru robineți cu rotație de un sfert de tură (90°), acoperind un cuplu de la sub 1 Nm până la peste 40.000 Nm la variantele cele mai mari. Sunt alese pentru instalații care au deja o rețea de aer comprimat și unde viteza de acționare e un avantaj față de actuatorul electric." },
     ],
     industries: [
       "Rețele de gaz — stații de reglare cu regulatoare, filtre și debitmetre",
       "Chimie și petrochimie — actuatoare ATEX pentru zone cu risc de explozie",
       "Biogaz — automatizare robineți în instalații de producție și transport gaz",
       "Rafinării — actuatoare multi-turn pentru vane cu tijă ascendentă",
-      "HVAC — actuatoare compacte Nano S pentru clapete și robineți de zonă",
-      "Cazane industriale — sisteme de control al arderii din seria EFC",
+      "HVAC — actuatorul PICO pentru aplicații de climatizare",
+      "Arzătoare industriale pe gaz — unități de control al flăcării din seria EFC",
     ],
     infinitrade: `Pentru ARIS Stellantriebe lucrăm din informațiile publice ale producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă actuatoare electrice și componente pentru controlul gazului prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul de actuator sau componentă, cuplul necesar și dacă zona de montaj cere certificare ATEX. Nu extindem specificațiile dincolo de ce apare în documentația publică a producătorului.`,
     limitation: "Nu confirmăm anul exact de fondare al ARIS Stellantriebe, pentru că sursele consultate menționează doar o vechime aproximativă de peste 50 de ani.",
@@ -604,7 +604,7 @@ Pentru operatorii industriali din România, ARIS are sens la automatizarea robin
       { code: "Safety relief valve", description: "supapă de siguranță pentru suprapresiune pe circuitul de gaz" },
       { code: "Gas flow meter Quantometer", description: "debitmetru pentru măsurarea consumului de gaz" },
       { code: "MTC10", description: "sistem de testare a etanșeității valvelor de gaz" },
-      { code: "EFC", description: "serie de sisteme de control al arderii pentru cazane" },
+      { code: "EFC", description: "serie de unități de control al flăcării pentru arzătoare industriale pe gaz" },
       { code: "Gas filter", description: "filtru pentru circuitul de alimentare cu gaz" },
     ],
     faq: [
@@ -616,8 +616,8 @@ Pentru operatorii industriali din România, ARIS are sens la automatizarea robin
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ARIS Stellantriebe – Home", url: "https://stellantriebe.de/en/", publisher: "ARIS Stellantriebe GmbH", accessed: "2026-09-25" },
       { title: "ARIS Stellantriebe – Produkte", url: "https://stellantriebe.de/en/produkte/", publisher: "ARIS Stellantriebe GmbH", accessed: "2026-09-25" },
@@ -627,22 +627,22 @@ Pentru operatorii industriali din România, ARIS are sens la automatizarea robin
   'schiebel-antriebstechnik': {
     name: "Schiebel Antriebstechnik",
     headquarters: "Viena, Austria",
-    overview: `Schiebel Antriebstechnik e un producător austriac de actuatoare electrice pentru robineți industriali, cu sediul la Viena și peste 60 de ani de activitate în tehnologia de acționare cu revenire pe arc (failsafe). Gama de bază, seria CM, acoperă trei dimensiuni de cuplu — CM 03, CM 06 și CM 12 — completate de seria AB pentru aplicații robuste cu cuplu mare. Pentru piața din România putem oferta din gama Schiebel actuatoare CM și AB, cu sau fără funcție failsafe.
+    overview: `Schiebel Antriebstechnik e un producător austriac de actuatoare electrice pentru robineți industriali, cu sediul la Viena și peste 60 de ani de activitate în dezvoltarea și producția de actuatoare electrice. Gama de bază, seria CM, acoperă trei dimensiuni de cuplu — CM 03, CM 06 și CM 12 — completate de seria AB, prezentată de producător ca gamă tradițională și robustă. Pentru piața din România putem oferta din gama Schiebel actuatoare CM și AB, cu sau fără funcție failsafe.
 
-Schiebel concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar și-a construit reputația pe funcția failsafe — o siguranță mecanică independentă de alimentarea electrică, prin care robinetul ajunge într-o poziție predefinită în mai puțin de o secundă la pierderea curentului. Seria FS, disponibilă pe dimensiunile CM 03, 06 și 12, acoperă atât acționare part-turn, cât și liniară prin CM Failsafe Linear. Unitatea de control Smartcon, cu firmware FW-1600, adaugă diagnosticare avansată și protocoale de comunicație industrială peste actuatorul de bază.
+Schiebel concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar oferă funcția failsafe — o siguranță mecanică independentă de alimentarea electrică, prin care robinetul ajunge într-o poziție predefinită în mai puțin de o secundă la pierderea curentului. Seria FS (Failsafe) este disponibilă pe dimensiunile CM 03, 06 și 12. Unitatea de control Smartcon, cu firmware FW-1600, adaugă diagnosticare avansată și protocoale de comunicație industrială peste actuatorul de bază.
 
 Pentru operatorii industriali din România, Schiebel are sens la robineți unde siguranța la cădere de tensiune contează — stații de gaz, instalații de proces sau linii unde o poziție greșită a vanei la o pană de curent ar fi periculoasă.`,
     whyChoose: [
       "Funcție failsafe mecanică, independentă de alimentare, cu poziționare în mai puțin de o secundă",
       "Trei dimensiuni de cuplu în seria CM — 32, 64 și 125 Nm — pentru robineți mici și medii",
-      "Seria AB pentru aplicații robuste, cu cuplu mare și tensiuni configurabile",
+      "Seria AB, prezentată de producător ca gamă tradițională și robustă",
       "Unitate de control Smartcon cu diagnosticare avansată și suport pentru mai multe protocoale industriale",
     ],
     keyProducts: [
-      { name: "Actuatoare Part-Turn Seria CM", description: "Seria CM acoperă trei dimensiuni de cuplu — CM 03 până la 32 Nm, CM 06 până la 64 Nm și CM 12 până la 125 Nm — pentru acționarea electrică a robineților cu rotație parțială, precum vane fluture sau robinete cu bilă. Actuatoarele sunt configurabile pe niveluri: protecție la explozie, tip de alimentare, protecție anticorozivă și protocol de comunicație, ceea ce permite adaptarea la cerințele specifice ale proiectului." },
-      { name: "Actuatoare Failsafe (Seria FS)", description: "Seria Failsafe combină actuatorul electric de bază cu o funcție mecanică de siguranță independentă de alimentare, disponibilă pe dimensiunile CM 03, 06 și 12, plus varianta 90° Failsafe și CM Failsafe Linear pentru acționare liniară. La întreruperea curentului, robinetul ajunge automat într-o poziție predefinită în mai puțin de o secundă, fără să depindă de o baterie de rezervă." },
-      { name: "Seria AB pentru Cuplu Mare", description: "Seria AB e gândită pentru aplicații robuste, cu cuplu mai mare decât seria CM și posibilitatea de a fi echipată cu sisteme de tensiune diverse sau convertoare de frecvență. Varianta AB CSC adaugă un modul de control suplimentar. Ca și la seria CM, funcția failsafe poate fi integrată la cerere pentru aplicații unde siguranța la pierderea alimentării e obligatorie." },
-      { name: "Unitate de Control Smartcon", description: "Smartcon e unitatea de control pentru actuatoarele Schiebel, cu afișaj LCD iluminat, comandă tactilă compatibilă cu echipament de protecție și suport pentru protocoale precum Profibus, Modbus RTU/TCP, Ethernet/IP și DeviceNet. Firmware-ul FW-1600 adaugă până la opt niveluri de utilizator cu permisiuni diferite și istoric extins de evenimente, util la mentenanța predictivă." },
+      { name: "Actuatoare Part-Turn Seria CM", description: "Seria CM acoperă trei dimensiuni de cuplu — CM 03 până la 32 Nm, CM 06 până la 64 Nm și CM 12 până la 125 Nm — pentru acționarea electrică a robineților cu rotație parțială, precum vane fluture sau robinete cu bilă. Construcția este modulară, cu extinderi individuale prin diverse componente, conform producătorului." },
+      { name: "Actuatoare Failsafe (Seria FS)", description: "Seria Failsafe combină actuatorul electric de bază cu o funcție mecanică de siguranță independentă de alimentare, disponibilă pe dimensiunile CM 03, 06 și 12,  La întreruperea curentului, robinetul ajunge automat într-o poziție predefinită în mai puțin de o secundă, fără să depindă de o baterie de rezervă." },
+      { name: "Seria AB pentru Cuplu Mare", description: "Seria AB este prezentată de producător ca gamă tradițională și robustă; cuplul, tensiunile și opțiunile (inclusiv failsafe) se confirmă din fișa tehnică a codului." },
+      { name: "Unitate de Control Smartcon", description: "Smartcon e unitatea de control pentru actuatoarele Schiebel, cu afișaj LCD iluminat, comutatoare acționabile cu echipament de protecție și suport pentru protocoale precum Profibus, Modbus RTU/TCP, Ethernet/IP și DeviceNet. Smartcon are mai multe niveluri de utilizator, cu acces protejat prin parolă, și istoric de evenimente cu marcă de timp." },
     ],
     industries: [
       "Rețele de gaz — actuatoare failsafe pentru robineți de secționare",
@@ -660,24 +660,24 @@ Pentru operatorii industriali din România, Schiebel are sens la robineți unde 
       { code: "CM Multiturn Actuator", description: "actuator electric cu rotație multiplă" },
       { code: "CM/AB Partturn Gearboxes", description: "reductor part-turn pentru montaj pe robinet" },
       { code: "CM/AB Linear Units", description: "unitate liniară pentru robineți cu tijă ascendentă" },
-      { code: "AB Series", description: "actuator robust cu cuplu mare, tensiuni configurabile" },
+      { code: "AB Series", description: "actuator din seria AB, prezentată de producător ca tradițională și robustă" },
       { code: "AB CSC", description: "variantă a seriei AB cu modul de control suplimentar" },
       { code: "Failsafe Series (FS)", description: "funcție de siguranță mecanică independentă de alimentare" },
-      { code: "90° Failsafe", description: "actuator failsafe pentru rotație de 90 de grade" },
-      { code: "CM Failsafe Linear", description: "variantă failsafe pentru unități liniare" },
+      { code: "90° Failsafe", description: "denumire din documentația producătorului; detaliile se confirmă pe cod" },
+      { code: "CM Failsafe Linear", description: "denumire din documentația producătorului; detaliile se confirmă pe cod" },
       { code: "Smartcon", description: "unitate de control inteligentă pentru actuatoare Schiebel" },
       { code: "FW-1600", description: "firmware pentru controllerul Smartcon" },
     ],
     faq: [
-      { q: "Ce produce Schiebel Antriebstechnik?", a: "Schiebel fabrică în Austria actuatoare electrice pentru robineți industriali, organizate în seria CM (cuplu mic-mediu) și seria AB (cuplu mare), ambele disponibile și cu funcție failsafe pentru siguranță la pierderea alimentării. Unitatea de control Smartcon adaugă diagnosticare și protocoale de comunicație industrială." },
-      { q: "Ce este funcția failsafe la actuatoarele Schiebel?", a: "Failsafe e o funcție mecanică independentă de alimentarea electrică, prin care actuatorul aduce robinetul într-o poziție predefinită în mai puțin de o secundă la o pană de curent, fără baterie de rezervă. E disponibilă pe seriile CM 03, 06 și 12, precum și pe unități liniare." },
-      { q: "Cum aleg un actuator Schiebel după cuplu?", a: "Seria CM acoperă cuplu de la 32 Nm (CM 03) până la 125 Nm (CM 12), iar seria AB e recomandată pentru cupluri mai mari, la robineți de dimensiuni superioare. Trimite-ne cuplul necesar la robinet și dacă instalația cere funcție failsafe, ca să identificăm modelul potrivit." },
+      { q: "Ce produce Schiebel Antriebstechnik?", a: "Schiebel fabrică în Austria actuatoare electrice pentru robineți industriali, organizate în seria CM (CM 03, 06 și 12, până la 125 Nm) și seria AB, cu funcție failsafe disponibilă pe dimensiunile CM 03, 06 și 12. Unitatea de control Smartcon adaugă diagnosticare și protocoale de comunicație industrială." },
+      { q: "Ce este funcția failsafe la actuatoarele Schiebel?", a: "Failsafe e o funcție mecanică independentă de alimentarea electrică, prin care actuatorul aduce robinetul într-o poziție predefinită în mai puțin de o secundă la o pană de curent, fără baterie de rezervă. E disponibilă pe dimensiunile CM 03, 06 și 12." },
+      { q: "Cum aleg un actuator Schiebel după cuplu?", a: "Seria CM acoperă cuplu de la 32 Nm (CM 03) până la 125 Nm (CM 12), iar pentru cupluri peste 125 Nm vă rugăm să ne cereți confirmarea seriei potrivite. Trimite-ne cuplul necesar la robinet și dacă instalația cere funcție failsafe, ca să identificăm modelul potrivit." },
       { q: "Livrați Schiebel Antriebstechnik în România și cât durează comanda?", a: "Aducem la comandă din gama Schiebel Antriebstechnik prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru modelul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea cuplului necesar și a opțiunii failsafe." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Schiebel Antriebstechnik – Home", url: "https://schiebel-actuators.com/en/", publisher: "SCHIEBEL Antriebstechnik GmbH", accessed: "2026-09-25" },
       { title: "Schiebel – CM Series", url: "https://schiebel-actuators.com/cm-series/", publisher: "SCHIEBEL Antriebstechnik GmbH", accessed: "2026-09-25" },

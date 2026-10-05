@@ -31,22 +31,22 @@ Pentru un inginer de proiect din România, Swagelok înseamnă piese compatibile
     limitation: "Nu putem confirma disponibilitatea fiecărui cod din catalogul Swagelok fără o interogare punctuală la furnizorul european.",
     productCodes: [
       { code: "VCR", description: "Fiting cu garnitură metalică pentru etanșare de puritate ridicată" },
-      { code: "VCO", description: "Fiting cu etanșare pe O-ring, montaj rapid" },
+      { code: "VCO", description: "Fiting cu etanșare frontală pe O-ring" },
       { code: "Sno-Trik 410", description: "Robinet cu ac de mare presiune" },
       { code: "Sno-Trik 445", description: "Robinet cu ac, variantă de mare presiune" },
-      { code: "Sno-Trik 645", description: "Robinet cu ac de mare presiune, debit mediu" },
-      { code: "Sno-Trik 945", description: "Robinet cu ac de foarte mare presiune" },
-      { code: "40G Series", description: "Robinet cu bilă cu secțiune redusă" },
-      { code: "60 Series", description: "Robinet cu bilă pentru presiuni medii de proces" },
-      { code: "83 Series", description: "Robinet cu bilă pentru instrumentație de proces" },
+      { code: "Sno-Trik 645", description: "Robinet cu ac de mare presiune" },
+      { code: "Sno-Trik 945", description: "Robinet cu ac de mare presiune" },
+      { code: "40G Series", description: "Robinet cu bilă dintr-o singură piesă, pentru instrumentație" },
+      { code: "60 Series", description: "Robinet cu bilă în trei piese, pentru proces și instrumentație" },
+      { code: "83 Series", description: "Robinet cu bilă tip trunnion, în trei piese" },
       { code: "GB Series", description: "Robinet cu bilă cu trecere integrală" },
-      { code: "CTB Series", description: "Robinet cu bilă tip trunnion pentru presiuni mari" },
+      { code: "CTB Series", description: "Robinet cu bilă tip trunnion pentru presiuni medii" },
       { code: "B Series", description: "Robinet cu burduf sudat, fără garnitură de tijă" },
-      { code: "H Series", description: "Robinet cu burduf sudat pentru linii de gaz toxic" },
-      { code: "C Series", description: "Robinet de reținere cu disc tip poppet" },
-      { code: "CH Series", description: "Robinet de reținere cu disc, montaj compact" },
-      { code: "ALD3", description: "Robinet pentru gaze de puritate ultra-ridicată" },
-      { code: "ALD20", description: "Robinet pentru linii de gaz de mare puritate" },
+      { code: "H Series", description: "Robinet cu burduf, pentru servicii generale" },
+      { code: "C Series", description: "Robinet de reținere cu poppet" },
+      { code: "CH Series", description: "Robinet de reținere cu poppet" },
+      { code: "ALD3", description: "Robinet cu diafragmă de puritate ultra-ridicată" },
+      { code: "ALD20", description: "Robinet cu diafragmă de puritate ultra-ridicată" },
       { code: "PGN Series", description: "Manometru conform ECE R110" },
       { code: "HF Series", description: "Regulator de presiune de puritate ridicată, debit mare" },
       { code: "FZ Series", description: "Tub metalic flexibil pentru linii de instrumentație" }
@@ -54,13 +54,13 @@ Pentru un inginer de proiect din România, Swagelok înseamnă piese compatibile
     faq: [
       { q: "Ce produce Swagelok?", a: "Swagelok fabrică fitinguri de tub, robineți, regulatoare de presiune și furtunuri pentru sisteme fluidice industriale și de laborator. Gama acoperă de la instrumentație de proces obișnuită până la linii de vid sau de puritate ridicată pentru semiconductori. Noi putem oferta din catalogul curent, pe bază de cod exact." },
       { q: "Cum aleg fitingul Swagelok corect după cod?", a: "Aveți nevoie de codul complet de pe fiting sau ambalaj, diametrul de tub în inch sau mm și materialul — inox, alamă sau oțel carbon. Trimiteți-ne aceste date sau o fotografie clară a marcajului, iar noi identificăm referința exactă din catalog înainte de a face oferta." },
-      { q: "Livrați produse Swagelok în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea la distribuitorul european și de complexitatea comenzii. Pentru coduri uzuale din gama de fitinguri, termenul poate fi mai scurt." },
+      { q: "Livrați produse Swagelok în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea la distribuitorul european și de complexitatea comenzii." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet cu ac?", a: "Trimiteți seria dorită, de exemplu Sno-Trik, diametrul de conexiune, presiunea maximă de lucru și fluidul vehiculat. Dacă aveți deja un robinet montat, o fotografie a marcajului de pe corp ne ajută să confirmăm codul exact fără ambiguitate." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Swagelok Company — pagina oficială", url: "https://www.swagelok.com", publisher: "Swagelok Company", accessed: "2026-09-25" },
       { title: "Swagelok Products", url: "https://products.swagelok.com/en", publisher: "Swagelok Company", accessed: "2026-09-25" }
@@ -68,11 +68,11 @@ Pentru un inginer de proiect din România, Swagelok înseamnă piese compatibile
   },
   hoke: {
     name: "Hoke",
-    overview: `Hoke produce robineți și fitinguri de instrumentație pentru diametre mici, sub eticheta Crane Instrumentation & Sampling, parte a grupului Crane Co. Gama țintește robineți cu bilă, cu ac, de măsurare și de gaz, plus fitinguri de tub tip compresie pentru linii de proces de până la 2 inch. Compania se poziționează pe segmentul de precizie, cu accent pe conexiuni mici, la presiuni ridicate, unde eroarea de montaj costă scump. Pentru clienții din România putem oferta robineți și fitinguri Hoke pentru panouri de instrumentație și sisteme de eșantionare.
+    overview: `Hoke produce robineți și fitinguri de instrumentație pentru diametre mici, sub eticheta Crane Instrumentation & Sampling, parte a grupului Crane Co. Gama cuprinde robineți cu bilă, cu ac, de dozare și de manometru, plus fitinguri de tub tip compresie, pentru instrumentație de diametru mic, de până la 2 inch. Compania se concentrează pe produse de instrumentație de diametru mic. Pentru clienții din România putem oferta robineți și fitinguri Hoke pentru panouri de instrumentație și sisteme de eșantionare.
 
-Familia Gyrolok de fitinguri cu compresie e piesa centrală a ofertei, cu variante standard și cu varianta MP capabilă de presiuni de până la 15.000 psi — plajă utilă la echipamentele de testare hidraulică sau la liniile de gaz comprimat. Robinetele cu bilă din seria ABV acoperă configurații pe două și trei căi, iar sistemele modulare CT76 combină robineți diafragmă cu opțiunea unui transmițător digital pentru monitorizare de proces. În segmentul robinetelor mici de instrumentație, Hoke concurează direct cu Swagelok, diferența fiind mai ales în gama de manifolduri și în varianta de mare presiune Gyrolok MP.
+Familia Gyrolok de fitinguri cu compresie e piesa centrală a ofertei, cu variante standard și cu varianta MP capabilă de presiuni de până la 15.000 psi — plajă utilă la echipamentele de testare hidraulică sau la liniile de gaz comprimat. Robinetele cu bilă din seria ABV acoperă configurații pe două și trei căi, iar sistemele modulare CT76 combină robineți diafragmă cu opțiunea unui transmițător digital pentru monitorizare de proces. În segmentul robinetelor mici de instrumentație, Hoke se compară cu Swagelok; echivalența exactă o stabilim pe codul și specificațiile fiecărei piese.
 
-Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de montaj e strâns și presiunea de lucru urcă rapid, Hoke oferă o alternativă verificată pentru robineți mici și fitinguri de tub, cu piese și accesorii ușor de identificat după codul de pe corp.`,
+Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de montaj e strâns și presiunea de lucru urcă rapid, Hoke oferă o soluție pentru robineți mici și fitinguri de tub, cu piese și accesorii ușor de identificat după codul de pe corp.`,
     whyChoose: [
       "Gyrolok MP acoperă presiuni de până la 15.000 psi, utile la testare hidraulică și linii de gaz comprimat",
       "Robineți diafragmă modulari CT76, ușor de configurat în manifolduri compacte pentru panouri de proces",
@@ -80,8 +80,8 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
       "Piese identificabile clar după codul de pe corp, utile la înlocuiri fără demontarea întregului panou"
     ],
     keyProducts: [
-      { name: "Fitinguri de Tub Gyrolok", description: "Sistem de fitinguri cu compresie pentru tuburi metalice, cu variantă standard pentru presiuni de proces obișnuite și variantă MP capabilă de până la 15.000 psi. Se folosesc la panouri de instrumentație, linii de eșantionare și echipamente de testare unde spațiul e limitat, iar diametrul liniei rămâne mic — de regulă sub 1 inch. Montajul repetat fără scurgere e cerința de bază pentru care a fost proiectată seria." },
-      { name: "Robinete cu Bilă ABV", description: "Robinete cu bilă pe două și trei căi, pentru izolare și rutare pe linii de instrumentație de diametru redus. Variantele cu trei căi permit comutare între două surse sau direcționare spre un punct de eșantionare fără robinete suplimentare pe linie. Se completează cu robinete de reținere, de măsurare și cu robinete de gaz pentru configurații complete de panou." },
+      { name: "Fitinguri de Tub Gyrolok", description: "Sistem de fitinguri cu compresie pentru tuburi metalice, cu variantă standard pentru presiuni de proces obișnuite și variantă MP capabilă de până la 15.000 psi. Se folosesc la panouri de instrumentație, linii de eșantionare și echipamente de testare unde spațiul e limitat, iar diametrul liniei rămâne mic. Montajul repetat fără scurgere e cerința de bază pentru care a fost proiectată seria." },
+      { name: "Robinete cu Bilă ABV", description: "Robinete cu bilă pe două și trei căi, pentru izolare și rutare pe linii de instrumentație de diametru redus. Variantele cu trei căi permit comutare între două surse sau direcționare spre un punct de eșantionare fără robinete suplimentare pe linie. Se completează cu robinete cu ac, de dozare și de manometru pentru configurații complete de panou." },
       { name: "Sisteme Modulare CT76", description: "Platformă de robinete diafragmă modulare, cu variante DV1 pe două căi, DV5 pe trei căi, DSS/DSV pentru referință atmosferică și DBB pentru blocare dublă cu golire. Se pot combina cu transmițătorul digital DMT 2000 pentru citirea parametrilor de proces direct pe panou, reducând numărul de conexiuni externe necesare." }
     ],
     industries: [
@@ -89,7 +89,7 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
       "Energie — sisteme de măsurare pe circuite de proces",
       "Chimie și petrochimie — robinete de izolare pe diametre mici",
       "Petrol și gaze — linii de gaz comprimat de mare presiune",
-      "Combustibili alternativi — echipamente de testare și panouri OEM"
+      "Industria de proces — panouri OEM și echipamente de testare"
     ],
     infinitrade: `Aducem robineți și fitinguri Hoke prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem această gamă pe raft, ci o comandăm punctual pentru fiecare proiect. Termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea disponibilității la nivel european pentru codul cerut. Pentru ofertă avem nevoie de codul exact de pe fiting sau robinet, diametrul liniei, materialul și presiunea maximă de lucru. La sistemele CT76 precizați și dacă e nevoie de varianta cu transmițător digital, ca să evităm o configurație incompletă la livrare.`,
     limitation: "Nu putem confirma echivalența directă între codurile Hoke și cele ale altor producători de instrumentație fără specificația tehnică completă a clientului.",
@@ -106,7 +106,7 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
       { code: "CT76 DBC", description: "Configurație manifold pe bază de robinet diafragmă" },
       { code: "CT76 DBA", description: "Configurație manifold alternativă pe robinet diafragmă" },
       { code: "DMT 2000", description: "Transmițător digital pentru sisteme modulare CT76" },
-      { code: "HQC Series", description: "Cuplaj rapid pentru deconectare fără scurgere" },
+      { code: "HQC Series", description: "Cuplaj rapid din gama Hoke" },
       { code: "Space Saver", description: "Actuator compact pentru robinete de instrumentație" },
       { code: "Actuator Electric", description: "Actuator electric pentru automatizarea robinetului" },
       { code: "Actuator Pneumatic", description: "Actuator pneumatic pentru comandă de la distanță" }
@@ -119,8 +119,8 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hoke — pagina oficială", url: "https://hoke.com", publisher: "Hoke (Crane Instrumentation & Sampling)", accessed: "2026-09-25" },
       { title: "Hoke Products", url: "https://hoke.com/products/", publisher: "Hoke (Crane Instrumentation & Sampling)", accessed: "2026-09-25" }
@@ -129,20 +129,20 @@ Pentru instalații din rafinării, platforme sau linii chimice unde spațiul de 
   'conex-banninger': {
     name: "Conex Bänninger",
     founded: 1909,
-    overview: `Conex Bänninger e un producător britanic de fitinguri de cupru și inox, cu peste un secol de activitate în spate, din 1909. Gama acoperă fitinguri de presare, de lipire, filetate și cu compresie, pentru instalații sanitare, de încălzire, climatizare și refrigerare. Marca >B< identifică majoritatea seriilor, de la presare standard până la variante pentru gaz sau energie solară. Pentru piața din România putem oferta fitinguri de presare și de lipire Conex Bänninger pentru instalații de climatizare și distribuție de apă.
+    overview: `Conex Bänninger e un producător european de fitinguri de cupru și inox, cu peste un secol de activitate în spate, din 1909. Gama acoperă fitinguri de presare, de lipire, filetate și cu compresie, pentru instalații sanitare, de încălzire, climatizare și refrigerare. Marca >B< identifică majoritatea seriilor, de la presare standard până la variante pentru gaz sau energie solară. Pentru piața din România putem oferta fitinguri de presare și de lipire Conex Bänninger pentru instalații de climatizare și distribuție de apă.
 
-Diferența tehnică ține de sistemul de presare cu inel de etanșare vizibil pentru control vizual al montajului, prezent la seriile >B< Press și ‹A› Press, în variante de cupru și inox 304 sau 316L. Seria MaxiPro, dedicată aerului condiționat și refrigerării, acoperă acum diametre de până la 2 1/8 inch, acoperind și instalații comerciale de dimensiuni mai mari. În categoria fitingurilor de presare pentru climatizare, Conex Bänninger se compară cu Viega, ambele oferind sisteme fără flacără deschisă la montaj.
+Gama de presare include seriile >B< Press (cupru) și ‹A› Press (inox 304 sau 316L), cu montaj fără flacără deschisă. Seria MaxiPro este dedicată aerului condiționat și refrigerării; diametrele disponibile se confirmă pe cod, din catalogul producătorului. În categoria fitingurilor de presare pentru climatizare, Conex Bänninger se compară cu Viega, ambele oferind sisteme fără flacără deschisă la montaj.
 
 Pentru instalatori și proiectanți din România, Conex Bänninger e relevant la lucrări de climatizare comercială, distribuție de apă potabilă și instalații de gaz medical, acolo unde montajul fără sudură reduce riscul de incendiu pe șantier și scurtează timpul de execuție.`,
     whyChoose: [
-      "Inel de etanșare vizibil la fitingurile de presare, util pentru control vizual rapid al montajului corect",
-      "Seria MaxiPro acoperă acum diametre de până la 2 1/8 inch pentru climatizare comercială",
+      "Sisteme de presare pentru cupru și inox, montate fără flacără deschisă",
+      "Seria MaxiPro este dedicată climatizării și refrigerării; diametrele se confirmă pe cod",
       "Montaj fără flacără deschisă, avantaj pe șantiere unde lucrul cu focul e restricționat",
       "Variante în inox 304 și 316L pentru medii corozive sau cerințe sanitare stricte"
     ],
     keyProducts: [
-      { name: "Fitinguri de Presare >B< Press", description: "Sistem de fitinguri de presare pentru cupru, cu variante Press Gas pentru instalații de gaz, Press Solar pentru circuite termice solare și Press Carbon pentru oțel carbon. Inelul de etanșare rămas vizibil la fitingul nepresat permite verificarea rapidă a montajului înainte de punerea sub presiune a instalației. Se folosește la distribuție de apă, încălzire și linii de gaz combustibil din clădiri rezidențiale și comerciale." },
-      { name: "Fitinguri MaxiPro pentru Climatizare", description: "Sistem de presare dedicat instalațiilor de aer condiționat și refrigerare, cu acoperire extinsă până la 2 1/8 inch diametru. Elimină brazarea clasică din instalarea unităților de climatizare comercială, reducând timpul de montaj și riscul de scurgere la conexiunile de cupru pentru agent frigorific." },
+      { name: "Fitinguri de Presare >B< Press", description: "Sistem de fitinguri de presare pentru cupru, cu variante Press Gas pentru instalații de gaz, Press Solar pentru circuite termice solare și Press Carbon pentru oțel carbon. Se folosește la distribuție de apă, încălzire și linii de gaz combustibil din clădiri rezidențiale și comerciale." },
+      { name: "Fitinguri MaxiPro pentru Climatizare", description: "Sistem de presare dedicat instalațiilor de aer condiționat și refrigerare; diametrele disponibile se confirmă pe cod. Elimină brazarea clasică din instalarea unităților de climatizare comercială, reducând timpul de montaj și riscul de scurgere la conexiunile de cupru pentru agent frigorific." },
       { name: "Fitinguri ‹A› Press Inox", description: "Sistem de presare în oțel inoxidabil 304 sau 316L, pentru linii sanitare, apă potabilă și medii cu cerințe de igienă ridicate. Presarea înlocuiește sudura sau filetul, util la instalații unde accesul pentru lucrări cu foc e restricționat sau interzis." }
     ],
     industries: [
@@ -164,28 +164,28 @@ Pentru instalatori și proiectanți din România, Conex Bänninger e relevant la
       { code: "B Press Inox XL", description: "Fiting de presare din inox, diametru mare" },
       { code: "A Press Inox 304", description: "Fiting de presare inox 304 pentru linii sanitare" },
       { code: "A Press Inox 316L", description: "Fiting de presare inox 316L pentru medii corozive" },
-      { code: "B MaxiPro", description: "Fiting de presare pentru climatizare, până la 2 1/8 inch" },
+      { code: "B MaxiPro", description: "Fiting de presare pentru climatizare și refrigerare" },
       { code: "B Push", description: "Fiting cu montaj push-fit, fără sculă de presare" },
-      { code: "B Sonic", description: "Sistem de fitinguri cu instalare tip sonic" },
+      { code: "B Sonic", description: "Fiting din gama >B< Sonic" },
       { code: "Conex Compression", description: "Fiting cu compresie pentru cupru" },
       { code: "Delcop Endfeed", description: "Fiting de lipire capilară endfeed" },
-      { code: "Delbraze", description: "Fiting de brazare pentru presiuni ridicate" },
+      { code: "Delbraze", description: "Fiting din gama Delbraze" },
       { code: "B ACR", description: "Fiting pentru aer condiționat și refrigerare" },
-      { code: "K65", description: "Fiting de brazare pentru gama extinsă de diametre" },
-      { code: "Series 3000", description: "Fiting filetat pentru instalații industriale" },
-      { code: "Series 8000", description: "Fiting filetat, variantă de gamă extinsă" },
-      { code: "B Oyster", description: "Fiting filetat cu design specific Conex" }
+      { code: "K65", description: "Fiting din gama K65" },
+      { code: "Series 3000", description: "Fiting din gama Series 3000" },
+      { code: "Series 8000", description: "Fiting din gama Series 8000" },
+      { code: "B Oyster", description: "Fiting din gama >B< Oyster" }
     ],
     faq: [
       { q: "Ce fabrică Conex Bänninger?", a: "Conex Bänninger produce fitinguri de presare, lipire, filetate și cu compresie din cupru și inox, pentru instalații sanitare, de încălzire, climatizare și refrigerare. Marca >B< acoperă majoritatea seriilor, iar ‹A› Press e dedicată variantelor din inox." },
-      { q: "Ce diferență e între seriile B Press și MaxiPro de la Conex Bänninger?", a: "B Press e sistemul general de presare pentru apă, gaz și încălzire, în timp ce MaxiPro e dedicat exclusiv climatizării și refrigerării, cu diametre de până la 2 1/8 inch pentru instalații comerciale." },
+      { q: "Ce diferență e între seriile B Press și MaxiPro de la Conex Bänninger?", a: "B Press e sistemul general de presare pentru apă, gaz și încălzire, în timp ce MaxiPro e dedicat exclusiv climatizării și refrigerării pentru instalații comerciale; diametrele disponibile se confirmă pe cod." },
       { q: "Livrați fitinguri Conex Bänninger în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria și diametrul cerut. Această gamă nu stă pe raftul nostru — o aducem la comandă." },
       { q: "Ce trebuie să precizez pentru o ofertă de fitinguri de presare?", a: "Seria exactă, diametrul fitingului, materialul țevii pe care se montează și aplicația — apă potabilă, gaz sau agent frigorific — ca să identificăm varianta corectă din catalog." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Conex Bänninger — pagina oficială", url: "https://www.conexbanninger.com", publisher: "IBP Group / Conex Bänninger", accessed: "2026-09-25" },
       { title: "Conex Bänninger — Products", url: "https://www.conexbanninger.com/uk-en/products", publisher: "IBP Group / Conex Bänninger", accessed: "2026-09-25" }
@@ -195,7 +195,7 @@ Pentru instalatori și proiectanți din România, Conex Bänninger e relevant la
     name: "Krausz Industries",
     overview: `Krausz Industries produce cuplaje și coliere de reparație pentru conducte de apă și apă uzată, parte a grupului american Mueller Water Products. Gama de bază, sub mărcile HYMAX și EZ-MAX, acoperă cuplaje cu gamă largă de diametru, coliere de reparație și soluții de restricționare axială pentru conducte deteriorate. Produsele sunt gândite pentru intervenții rapide, fără sudură și fără scoaterea completă a tronsonului de conductă. Pentru piața din România putem oferta cuplaje și coliere Krausz pentru repararea și conectarea conductelor de distribuție a apei.
 
-Elementul tehnic distinctiv e gama largă de diametru acoperită de un singur produs — cuplajele HYMAX se montează pe un interval de diametre exterioare, nu pe un diametru fix, ceea ce reduce numărul de coduri necesare pe un șantier cu conducte de vârste diferite. Seria REPAMAX, din oțel inoxidabil, țintește aceeași flexibilitate de montaj pentru rețele unde coroziunea e o preocupare suplimentară. În categoria cuplajelor cu gamă largă pentru apă, Krausz concurează cu JCM Industries, diferența ținând de designul garniturii și de numărul de variante de diametru acoperite per produs.
+Elementul tehnic distinctiv e gama largă de diametru acoperită de un singur produs — cuplajele HYMAX se montează pe un interval de diametre exterioare, nu pe un diametru fix, ceea ce reduce numărul de coduri necesare pe un șantier cu conducte de vârste diferite. Seria REPAMAX, din oțel inoxidabil, țintește aceeași flexibilitate de montaj pentru rețele unde coroziunea e o preocupare suplimentară. În categoria cuplajelor cu gamă largă pentru apă, Krausz concurează cu JCM Industries; echivalența exactă o stabilim pe baza specificațiilor fiecărui produs.
 
 Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluție de intervenție rapidă la spargeri și fisuri, utilă mai ales pe rețele vechi unde diametrul real al conductei poate diferi de cel nominal din proiect.`,
     whyChoose: [
@@ -215,7 +215,7 @@ Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluț
       "Antreprenori de infrastructură — intervenții rapide la avarii",
       "Operatori de utilități — mentenanță preventivă pe rețele vechi"
     ],
-    infinitrade: `Aducem cuplaje și coliere Krausz la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără stoc propriu pe această gamă. Termenul orientativ e de 1–4 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Pentru ofertă avem nevoie de diametrul exterior real al conductei (măsurat, nu doar cel nominal), materialul conductei și tipul intervenției — reparație punctuală sau conectare de tronson nou. La rețele cu istoricul materialului incert, recomandăm măsurarea directă înainte de comandă.`,
+    infinitrade: `Aducem cuplaje și coliere Krausz la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără stoc propriu pe această gamă. Termenul orientativ e de 1–4 săptămâni. Pentru ofertă avem nevoie de diametrul exterior real al conductei (măsurat, nu doar cel nominal), materialul conductei și tipul intervenției — reparație punctuală sau conectare de tronson nou. La rețele cu istoricul materialului incert, recomandăm măsurarea directă înainte de comandă.`,
     limitation: "Nu putem confirma acoperirea exactă de diametru pentru fiecare variantă fără specificația tehnică a conductei existente pe teren.",
     productCodes: [
       { code: "HYMAX Coupling", description: "Cuplaj cu gamă largă de diametru pentru reparație" },
@@ -233,13 +233,13 @@ Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluț
     faq: [
       { q: "Ce produce Krausz Industries?", a: "Krausz Industries fabrică cuplaje și coliere de reparație pentru conducte de apă și apă uzată, sub mărcile HYMAX și EZ-MAX. Produsele acoperă un interval de diametre exterioare cu o singură referință, utile la rețele cu conducte de vârste diferite." },
       { q: "Cum aleg cuplajul HYMAX potrivit?", a: "Aveți nevoie de diametrul exterior real al conductei, măsurat pe teren, nu doar cel nominal din proiect, plus materialul conductei. Pe baza acestor date identificăm varianta din gama HYMAX care acoperă intervalul respectiv." },
-      { q: "Livrați produse Krausz Industries în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, mai scurt pentru diametrele curente din seria EZ-MAX. Nu ținem această gamă pe raft." },
-      { q: "Ce echivalent are gama HYMAX față de alte cuplaje cu gamă largă?", a: "Din categoria cuplajelor cu gamă largă pentru apă, HYMAX se compară cu produse similare de la JCM Industries, diferența ținând de designul garniturii și de numărul exact de variante de diametru per produs." }
+      { q: "Livrați produse Krausz Industries în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni (Krausz Industries). Nu ținem această gamă pe raft." },
+      { q: "Ce echivalent are gama HYMAX față de alte cuplaje cu gamă largă?", a: "Din categoria cuplajelor cu gamă largă pentru apă, HYMAX se compară cu produse similare de la JCM Industries; echivalența exactă se stabilește pe baza specificațiilor fiecărui produs." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Krausz Industries — pagina oficială", url: "https://www.krausz.com", publisher: "Krausz Industries (Mueller Water Products)", accessed: "2026-09-25" },
       { title: "Krausz Industries — Products", url: "https://www.krausz.com/products", publisher: "Krausz Industries (Mueller Water Products)", accessed: "2026-09-25" }
@@ -247,21 +247,21 @@ Pentru operatorii de apă și antreprenorii din România, Krausz oferă o soluț
   },
   'jcm-industries': {
     name: "JCM Industries",
-    overview: `JCM Industries produce fitinguri de reparație, conectare și racordare pentru conducte, acoperind diametre de la 1/2 inch până la 144 inch și mai mult, pe materiale variate — fontă, fontă ductilă, PVC, PEID și oțel. Portofoliul e organizat pe categorii clare: fitinguri de reparație, fitinguri de conectare, fitinguri de racordare și fitinguri inginerești pentru cazuri nestandard. Compania deservește în principal rețelele de apă și apă uzată. Pentru clienții din România putem oferta cuplaje, coliere și șei de racordare JCM pentru intervenții pe conducte de diametre variate.
+    overview: `JCM Industries produce fitinguri de reparație, conectare și racordare pentru conducte, acoperind conducte din fontă, fontă ductilă, oțel, azbociment, beton cu cilindru de oțel și PEID. Portofoliul e organizat pe categorii clare: fitinguri de reparație, fitinguri de conectare, fitinguri de racordare și fitinguri inginerești pentru cazuri nestandard. Compania deservește în principal rețelele de apă și apă uzată. Pentru clienții din România putem oferta cuplaje, coliere și șei de racordare JCM pentru intervenții pe conducte de diametre variate.
 
-Ceea ce diferențiază JCM e acoperirea foarte largă de diametru și materiale dintr-un catalog structurat pe modele numerotate — de la colierul universal 101 pentru reparații punctuale, la cuplajele din oțel seria 200 pentru conectare, până la manșoanele de racordare din seria 400 pentru bratanșamente pe conductă sub presiune. Variantele din inox 304 și 316 (seriile 262, 4262, 6232) acoperă cerințele de rezistență la coroziune fără schimbarea principiului de montaj. În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries, diferența fiind mai ales în structura numerotării modelelor și în gama de fitinguri inginerești la comandă.
+Ceea ce diferențiază JCM e acoperirea foarte largă de diametru și materiale dintr-un catalog structurat pe modele numerotate — de la colierul universal 101 pentru reparații punctuale, la cuplajele din oțel seria 200 pentru conectare, până la manșoanele de racordare din seria 400 pentru bratanșamente pe conductă sub presiune. Variantele din inox (modelele 262, 4262 și 6262; 4262 în inox 304, 6262 în inox 316) acoperă cerințele de rezistență la coroziune fără schimbarea principiului de montaj. În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries; echivalența exactă se stabilește pe baza specificațiilor fiecărui model.
 
 Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluție practică pentru conducte vechi sau de diametru neobișnuit, unde un cuplaj sau un colier standard din altă gamă nu se potrivește exact.`,
     whyChoose: [
-      "Acoperire de diametru de la 1/2 inch la 144 inch și peste, pe fontă, PVC, PEID și oțel",
+      "Acoperire pentru conducte din fontă, fontă ductilă, oțel, azbociment și PEID",
       "Catalog structurat pe modele numerotate, ușor de referențiat la o comandă repetată",
       "Variante din inox 304 și 316 pentru medii corozive, fără schimbarea principiului de montaj",
       "Fitinguri inginerești la cerere pentru diametre sau configurații nestandard"
     ],
     keyProducts: [
-      { name: "Coliere și Manșoane de Reparație", description: "Colierul universal, model 101, acoperă reparații punctuale pe conducte cu o singură bandă de strângere, iar modelul 102 oferă variantă multi-bandă pentru zone extinse de deteriorare. Modelele 131 și 132, din inox, țintesc medii corozive. Manșoanele de reparație tip 114 și 118 acoperă îmbinări mecanice cu joint despicat, iar colierul pentru rosturi tip clopot, modelul 143, e dedicat conductelor de 14 inch și peste." },
-      { name: "Cuplaje de Conectare", description: "Cuplajele din oțel, modelele 201 și 202, conectează capete de conductă tăiate sau reparate, în variantă standard și lungă. Gama din fontă ductilă (210, 213, 242) acoperă conectare standard, reducere de diametru și lungime mărită. Cuplajele din inox, modelele 262, 4262 și 6232, în grad 304 sau 316, se folosesc unde coroziunea galvanică e o preocupare." },
-      { name: "Șei de Racordare și Manșoane de Bratanșament", description: "Șaua de racordare cu dublă bandă, modelul 402, permite bratanșament pe conductă fără oprirea completă a rețelei. Manșoanele de racordare din oțel fabricat (412), cu joint mecanic (414) și cu cilindru din beton armat (415) acoperă tipuri diferite de conductă principală. Variantele din inox (432, 452) și cu ieșire cu joint mecanic (439) completează gama pentru bratanșamente pe rețele corozive." }
+      { name: "Coliere și Manșoane de Reparație", description: "Colierul universal, model 101, acoperă reparații punctuale pe conducte cu o singură bandă de strângere, iar modelul 102 oferă variantă multi-bandă, cu interval extins de diametre. Modelele 131 și 132, din inox, țintesc medii corozive. Manșoanele de reparație tip 114 și 118 acoperă îmbinări mecanice cu joint despicat, iar colierul pentru rosturi tip clopot, modelul 143, e dedicat conductelor de 14 inch și peste." },
+      { name: "Cuplaje de Conectare", description: "Cuplajele din oțel, modelele 201 și 202, conectează capete de conductă tăiate sau reparate, în variantă standard și lungă. Gama din fontă ductilă (210, 213, 242) acoperă conectare standard, reducere de diametru și lungime mărită. Cuplajele din inox, modelele 262 (fabricat), 4262 (inox 304) și 6262 (inox 316), se folosesc unde coroziunea galvanică e o preocupare." },
+      { name: "Șei de Racordare și Manșoane de Bratanșament", description: "Șaua de racordare cu dublă bandă, modelul 402, permite bratanșament pe conductă fără oprirea completă a rețelei. Manșoanele de racordare din oțel fabricat (412), cu joint mecanic (414) și pentru conducte din beton cu cilindru de oțel (415) acoperă tipuri diferite de conductă principală. Variantele din inox (432, 452) și cu ieșire cu joint mecanic (439) completează gama pentru bratanșamente pe rețele corozive." }
     ],
     industries: [
       "Distribuție apă potabilă — reparații și bratanșamente pe rețea",
@@ -269,11 +269,11 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
       "Antreprenori de rețele — intervenții pe conducte de diametru neobișnuit",
       "Operatori de utilități — mentenanță pe conducte vechi din fontă"
     ],
-    infinitrade: `Aducem fitinguri JCM la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă foarte largă de diametre. Termenul orientativ e de 1–4 săptămâni, în funcție de diametru și de materialul conductei pe care se montează fitingul. Pentru ofertă avem nevoie de diametrul exterior real, materialul conductei (fontă, PVC, PEID sau oțel) și tipul intervenției — reparație, conectare sau bratanșament. La diametre neobișnuite recomandăm o măsurătoare directă înainte de a plasa comanda.`,
+    infinitrade: `Aducem fitinguri JCM la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă foarte largă de diametre. Termenul orientativ e de 1–4 săptămâni, în funcție de diametru și de materialul conductei pe care se montează fitingul. Pentru ofertă avem nevoie de diametrul exterior real, materialul conductei (de exemplu fontă, oțel sau PEID) și tipul intervenției — reparație, conectare sau bratanșament. La diametre neobișnuite recomandăm o măsurătoare directă înainte de a plasa comanda.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui model din gama inginerească la cerere fără o cerere tehnică punctuală la producător.",
     productCodes: [
       { code: "Model 101", description: "Colier universal cu bandă unică pentru reparație" },
-      { code: "Model 102", description: "Colier universal multi-bandă pentru zone extinse" },
+      { code: "Model 102", description: "Colier universal multi-bandă, interval extins de diametre" },
       { code: "Model 131", description: "Colier de reparație din inox" },
       { code: "Model 132", description: "Colier de reparație din inox, variantă" },
       { code: "Model 114", description: "Manșon de reparație cu joint mecanic despicat" },
@@ -284,25 +284,25 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
       { code: "Model 210", description: "Cuplaj din fontă ductilă standard" },
       { code: "Model 213", description: "Cuplaj din fontă ductilă cu reducere de diametru" },
       { code: "Model 242", description: "Cuplaj din fontă ductilă cu lungime mărită" },
-      { code: "Model 262", description: "Cuplaj din inox grad 304" },
-      { code: "Model 6232", description: "Cuplaj din inox grad 316" },
+      { code: "Model 262", description: "Cuplaj fabricat din oțel inoxidabil" },
+      { code: "Model 6262", description: "Cuplaj din inox grad 316" },
       { code: "Model 309", description: "Rost de demontare pentru întreținere pe conductă" },
       { code: "Model 402", description: "Șa de racordare cu dublă bandă" },
       { code: "Model 412", description: "Manșon de racordare din oțel fabricat" },
       { code: "Model 414", description: "Manșon de racordare cu joint mecanic" },
-      { code: "Model 415", description: "Manșon de racordare pentru conductă cu cilindru de beton" },
+      { code: "Model 415", description: "Manșon de racordare pentru conducte din beton cu cilindru de oțel" },
       { code: "Model 432", description: "Manșon de racordare din inox" }
     ],
     faq: [
-      { q: "Ce fabrică JCM Industries?", a: "JCM Industries produce coliere de reparație, cuplaje de conectare și șei de racordare pentru conducte de apă și apă uzată, pe diametre de la 1/2 inch la 144 inch și peste, în fontă, PVC, PEID sau oțel." },
+      { q: "Ce fabrică JCM Industries?", a: "JCM Industries produce coliere de reparație, cuplaje de conectare și șei de racordare pentru conducte de apă și apă uzată, pentru conducte din fontă, fontă ductilă, oțel sau PEID." },
       { q: "Cum aleg colierul de reparație JCM potrivit?", a: "Trimiteți diametrul exterior real al conductei, măsurat pe teren, materialul conductei și lungimea zonei deteriorate. Pe baza acestor date identificăm modelul din gama de coliere sau manșoane care acoperă intervalul respectiv." },
       { q: "Livrați fitinguri JCM Industries în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametru și material. Gama JCM Industries vine la comandă; nu o ținem pe raft." },
-      { q: "Ce echivalent are gama JCM față de cuplajele Krausz?", a: "În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries; diferența ține de structura numerotării modelelor și de gama de fitinguri inginerești disponibile la cerere pentru diametre nestandard." }
+      { q: "Ce echivalent are gama JCM față de cuplajele Krausz?", a: "În categoria fitingurilor de reparație pentru apă, JCM se compară cu Krausz Industries; echivalența exactă se stabilește pe baza specificațiilor fiecărui model." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "JCM Industries — pagina oficială", url: "https://www.jcmindustries.com", publisher: "JCM Industries", accessed: "2026-09-25" },
       { title: "JCM Industries — Products", url: "https://www.jcmindustries.com/products", publisher: "JCM Industries", accessed: "2026-09-25" }
@@ -312,38 +312,38 @@ Pentru operatorii de rețele și antreprenorii din România, JCM oferă o soluț
     name: "Metraflex",
     founded: 1958,
     headquarters: "McCook, Illinois, SUA",
-    overview: `Metraflex produce compensatoare de dilatare, racorduri flexibile pentru pompe, sorburi și robineți pentru instalații comerciale de conducte, din 1958, cu sediul lângă Chicago. Gama include compensatoare metalice și din cauciuc, sorburi Y și cu coș, robineți de reținere silențioși și sisteme de ghidare și ancorare pentru conducte suspendate. O parte din produse sunt certificate UL, cum e seria de compensatoare pentru sisteme VRF, evaluată la 700 PSI și 300°F. Pentru piața din România putem oferta compensatoare și racorduri flexibile Metraflex pentru instalații de climatizare și energie.
+    overview: `Metraflex produce compensatoare de dilatare, racorduri flexibile pentru pompe, sorburi și robineți pentru instalații comerciale de conducte, din 1958, cu sediul lângă Chicago. Gama include compensatoare metalice și din cauciuc, sorburi Y și cu coș, robineți de reținere silențioși și sisteme de ghidare și ancorare pentru conducte suspendate. Pentru sistemele VRF, producătorul indică pe site-ul său protecție „UL-Listed” și o evaluare de 700 psi la 300°F (aprox. 48 bar la 149°C) la VRF MetraLoop. Pentru piața din România putem oferta compensatoare și racorduri flexibile Metraflex pentru instalații de climatizare și energie.
 
-Marca proprie MetraLoop e centrul gamei de racorduri flexibile din cupru pentru sisteme VRF, gândită să absoarbă vibrația compresorului fără să transmită zgomot în structura clădirii. Compensatoarele metalice tip MetraGator și cele cu burduf din seria MC/MNLC acoperă mișcare axială pe conducte de diametru mare, iar sorburile Y din seriile TF, TS și S variază ca diametru și material de filtrare. Robinetele de reținere silențioase, montate wafer, completează oferta pentru circuite unde zgomotul de închidere e o problemă în spații ocupate.
+Marca proprie MetraLoop e centrul gamei de racorduri flexibile pentru sisteme VRF; varianta VRF MetraLoop folosește furtun ondulat din oțel inoxidabil cu fiting de conversie cupru–inox și preia dilatarea și contracția termică a conductei. Compensatoarele metalice tip MetraGator și cele cu burduf din seria MC/MNLC acoperă mișcare axială (MetraGator: conducte de 2–16 inch), iar sorburile Y din seriile TF, TS și S variază ca diametru și material de filtrare. Robinetele de reținere silențioase, montate wafer, completează oferta pentru circuite unde zgomotul de închidere e o problemă în spații ocupate.
 
 Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri înalte cu riser-e verticale lungi, unde dilatarea termică și mișcarea seismică a conductei trebuie compensate fără să afecteze structura, precum și la sisteme VRF de climatizare comercială.`,
     whyChoose: [
-      "MetraLoop absoarbe vibrația compresorului la sistemele VRF, fără transmiterea zgomotului în structură",
-      "Compensatoare certificate UL, evaluate la 700 PSI și 300°F pentru instalații VRF",
+      "MetraLoop pentru VRF preia dilatarea și contracția termică a conductei de agent frigorific",
+      "VRF MetraLoop cu valori nominale de 700 psi la 300°F (aprox. 48 bar la 149°C), conform producătorului",
       "Robinete de reținere silențioase montate wafer, potrivite pentru spații ocupate",
       "Gamă largă de sorburi Y și cu coș, cu variante de diametru și material de filtrare"
     ],
     keyProducts: [
-      { name: "MetraLoop pentru Sisteme VRF", description: "Racord flexibil din cupru pentru conductele de agent frigorific ale sistemelor VRF, disponibil ca variantă certificată UPC și ca variantă standard pentru gaz, conform AGA/CSA. Se montează între unitatea exterioară și rețeaua de distribuție, absorbind vibrația compresorului și mișcarea din dilatare termică fără să transmită zgomot structurii clădirii. Diametrele acoperă gama tipică de conducte de agent frigorific din instalații comerciale." },
-      { name: "Compensatoare Metalice de Dilatare", description: "Compensatoare metalice cu burduf, în variante MetraGator, MC și MNLC, pentru absorbția mișcării axiale pe conducte de diametru mare din riser-e verticale sau rețele de termoficare. Compensatoarele HP (HP2, HP3, HPFF2, HPFF3, HPD4) sunt gândite pentru presiuni mai ridicate, cu funcționare silențioasă comparativ cu compensatoarele clasice cu spirală." },
+      { name: "MetraLoop pentru Sisteme VRF", description: "Racord flexibil pentru conductele de agent frigorific ale sistemelor VRF (furtun ondulat din oțel inoxidabil cu fiting de conversie cupru–inox, în șase dimensiuni nominale de la ½ la 2 inch), disponibil și în variantele Copper MetraLoop și UPC-Listed Copper MetraLoop. Preia dilatarea și contracția termică a conductei." },
+      { name: "Compensatoare Metalice de Dilatare", description: "Compensatoare metalice cu burduf, în variante MetraGator, MC și MNLC, pentru absorbția mișcării axiale pe conducte (MetraGator: 2–16 inch) din riser-e verticale sau rețele de termoficare. Compensatoarele HP (HP2, HP3, HPFF2, HPFF3, HPD4) sunt gândite pentru presiuni mai ridicate, de tip cu presiune externă, care permit o mișcare mai mare decât compensatoarele clasice cu burduf în linie, conform producătorului." },
       { name: "Sorburi Y și Robinete de Reținere", description: "Sorburile Y din seriile TF, TS și S filtrează particule înainte de pompe sau echipamente sensibile, cu variante de diametru de la conexiuni mici până la instalații de diametru mare. Robinetele de reținere silențioase, montate wafer, se deschid și închid fără lovitura de berbec tipică robinetelor cu clapetă articulată, utile în apropierea spațiilor ocupate." }
     ],
     industries: [
       "Climatizare comercială — sisteme VRF și racorduri flexibile",
       "Clădiri înalte — compensatoare pe riser-e verticale",
-      "Centre de date — protecție seismică și absorbție de vibrație",
+      "Spații tehnice — compensatoare și racorduri flexibile, în funcție de aplicație",
       "Sănătate — instalații unde zgomotul robinetului contează",
       "Protecție la incendiu — componente pentru rețele sub presiune"
     ],
-    certifications: [ "UL — compensatoare pentru sisteme VRF certificate la 700 PSI/300°F" ],
+    certifications: [ "UL — mențiune a producătorului pentru sisteme VRF (VRF MetraLoop, 700 psi la 300°F)" ],
     infinitrade: `Furnizăm compensatoare și racorduri flexibile Metraflex pe baza informațiilor publice ale producătorului, aducându-le la comandă prin canale de aprovizionare din UE — fără stoc propriu pe această gamă. Termenul orientativ e de 1–4 săptămâni, în funcție de model și diametru. Pentru ofertă avem nevoie de modelul exact (de exemplu MetraLoop sau MetraGator), diametrul conductei, presiunea și temperatura de lucru. La sistemele VRF precizați și dacă e necesară certificarea UL, ca să confirmăm varianta potrivită din gamă.`,
-    limitation: "Nu putem confirma disponibilitatea imediată a fiecărui model din cele peste o sută de referințe listate în catalogul Metraflex.",
+    limitation: "Nu putem confirma disponibilitatea imediată a fiecărui model din referințele listate în catalogul Metraflex.",
     productCodes: [
-      { code: "MetraLoop", description: "Racord flexibil din cupru pentru sisteme VRF" },
+      { code: "MetraLoop", description: "Racord flexibil pentru sisteme VRF" },
       { code: "VRF MetraLoop", description: "Racord flexibil dedicat sistemelor de climatizare VRF" },
       { code: "Copper MetraLoop", description: "Racord flexibil din cupru, variantă standard" },
-      { code: "UPC-Listed MetraLoop", description: "Racord flexibil certificat UPC pentru apă" },
-      { code: "AGA/CSA Gas MetraLoop", description: "Racord flexibil certificat pentru linii de gaz" },
+      { code: "UPC-Listed MetraLoop", description: "Racord flexibil din cupru, cu mențiunea „UPC-Listed” a producătorului" },
+      
       { code: "MetraGator", description: "Compensator metalic de dilatare pentru conducte mari" },
       { code: "Model MC", description: "Compensator metalic cu burduf" },
       { code: "Model MNLC", description: "Compensator metalic cu burduf, variantă de lungime" },
@@ -352,7 +352,7 @@ Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri
       { code: "Model HPFF2", description: "Compensator de presiune ridicată cu flanșe fixe" },
       { code: "Model HPFF3", description: "Compensator de presiune ridicată cu flanșe fixe, variantă" },
       { code: "Model HPD4", description: "Compensator de presiune ridicată, model D4" },
-      { code: "Style TF-250 Y-Strainer", description: "Sorb Y pentru filtrare pe conductă" },
+      { code: "Style TF2-250 Y-Strainer", description: "Sorb Y pentru filtrare pe conductă" },
       { code: "Style TS-250 Y-Strainer", description: "Sorb Y, variantă de diametru mediu" },
       { code: "Style S-250 Y-Strainer", description: "Sorb Y pentru instalații comerciale" },
       { code: "Wafer Style Silent Check Valve", description: "Robinet de reținere silențios montaj wafer" },
@@ -362,14 +362,14 @@ Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri
     ],
     faq: [
       { q: "Ce produce Metraflex?", a: "Metraflex fabrică compensatoare de dilatare, racorduri flexibile pentru pompe și sisteme VRF, sorburi și robinete de reținere silențioase pentru instalații comerciale de conducte, din 1958, cu sediul lângă Chicago." },
-      { q: "Ce este MetraLoop de la Metraflex?", a: "MetraLoop e un racord flexibil din cupru montat între unitatea exterioară a unui sistem VRF și rețeaua de distribuție a agentului frigorific, absorbind vibrația compresorului fără să transmită zgomot în structura clădirii." },
+      { q: "Ce este MetraLoop de la Metraflex?", a: "MetraLoop e un racord flexibil montat pe conductele de agent frigorific ale unui sistem VRF; varianta VRF MetraLoop preia dilatarea și contracția termică a conductei, conform producătorului." },
       { q: "Livrați produse Metraflex în România?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și diametru. Nu ținem această gamă pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de compensator Metraflex?", a: "Modelul dorit, diametrul conductei, presiunea și temperatura maximă de lucru, plus tipul de mișcare pe care trebuie să o absoarbă compensatorul — axială, laterală sau seismică." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Metraflex — pagina oficială", url: "https://www.metraflex.com", publisher: "The Metraflex Company", accessed: "2026-09-25" },
       { title: "Metraflex — Products Sitemap", url: "https://www.metraflex.com/products-sitemap.xml", publisher: "The Metraflex Company", accessed: "2026-09-25" }
@@ -380,7 +380,7 @@ Pentru proiectanții și instalatorii din România, Metraflex e util la clădiri
     headquarters: "Stockton, California, SUA",
     overview: `Proco Products fabrică racorduri flexibile de dilatare și robinete de reținere din cauciuc, cu sediul în California, pentru instalații de apă, epurare și proces industrial. Gama de compensatoare cuprinde variante cu arc lat, sferice și cu arc super-lat, în cauciuc, inox sau PTFE, pentru absorbția vibrației și a mișcării axiale pe conducte. Robinetele de reținere tip duckbill, din familia ProFlex, funcționează fără mecanism mobil, doar prin flexibilitatea propriei forme din cauciuc. Pentru piața din România putem oferta compensatoare și robinete de reținere Proco pentru instalații de apă și epurare.
 
-Elementul tehnic distinctiv al robinetelor ProFlex e absența oricărei piese mobile — corpul de cauciuc se deschide sub presiunea fluidului și se închide singur prin elasticitate, fără arc sau clapetă articulată care să se poată bloca. Variantele flanșate (710, 720), sertizate (730) și cu montaj glisant (740) acoperă diferite tipuri de instalare pe conductă, iar seria 710TT respectă norma ANSI/NSF-61 pentru sisteme de apă potabilă. Compensatoarele din cauciuc, seriile 230, 240/242 și 271, se compară în categoria lor cu Metraflex, diferența ținând de materialul de bază — cauciuc la Proco față de metal la o parte din gama Metraflex.
+Elementul tehnic distinctiv al robinetelor ProFlex e absența oricărei piese mobile — corpul de cauciuc se deschide sub presiunea fluidului și se închide singur prin elasticitate, fără arc sau clapetă articulată care să se poată bloca. Variantele flanșate (710, 720), cu manșon (730) și cu montaj glisant (740) acoperă diferite tipuri de instalare pe conductă, iar seria 710TT respectă norma ANSI/NSF-61 pentru sisteme de apă potabilă. Compensatoarele din cauciuc ale producătorului sunt seriile 230 (arc lat), 240/242 (sferic) și 271 (arc super-lat).
 
 Pentru operatorii de stații de epurare și instalatorii din România, Proco e relevant acolo unde robinetul de reținere trebuie să funcționeze fără întreținere mecanică și fără sursă de energie externă, iar compensatorul trebuie să absoarbă vibrația unei pompe fără piese metalice expuse coroziunii.`,
     whyChoose: [
@@ -390,7 +390,7 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
       "Funcționare fără sursă de energie externă, potrivită pentru puncte de rețea greu accesibile"
     ],
     keyProducts: [
-      { name: "Robinete de Reținere ProFlex", description: "Robinete de reținere tip duckbill din cauciuc, fără piese mobile, disponibile flanșate (stilurile 710 și 720), sertizate în manșon (730) și cu montaj glisant în linie (740). Se deschid sub presiunea fluidului și se închid prin elasticitatea proprie, fără arc sau clapetă articulată. Stilul 710TT respectă norma ANSI/NSF-61 pentru apă potabilă, iar stilul 730CBD funcționează ca difuzor cu bule fine pentru aerare." },
+      { name: "Robinete de Reținere ProFlex", description: "Robinete de reținere tip duckbill din cauciuc, fără piese mobile, disponibile flanșate (stilurile 710 și 720), cu manșon (730) și cu montaj glisant în linie (740). Se deschid sub presiunea fluidului și se închid prin elasticitatea proprie, fără arc sau clapetă articulată. Stilul 710TT respectă norma ANSI/NSF-61 pentru apă potabilă, iar stilul 730CBD funcționează ca difuzor cu bule grosiere pentru aerare." },
       { name: "Compensatoare din Cauciuc", description: "Compensatoare de dilatare din cauciuc cu design tip arc lat (seria 230), sferic (seria 240/242) sau super-lat (seria 271), pentru absorbția vibrației pompelor și a mișcării axiale pe conducte de proces. Seria 440, din PTFE convolut, se folosește la fluide agresive chimic unde cauciucul standard nu rezistă. Modelul 540, cu design în W, oferă o cursă de mișcare extinsă pentru montaje cu deplasare axială mare." },
       { name: "Racorduri Flexibile de Furtun Metalic", description: "Furtunuri flexibile din inox 321, cu împletitură din inox 304 și capete cu flanșă sau canelură, pentru conectarea pompelor și echipamentelor vibratoare la rețeaua fixă de conducte. Variantele reductoare (seria R) conectează diametre diferite între pompă și conductă, cu plăci de flanșă din oțel carbon." }
     ],
@@ -399,20 +399,20 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
       "Distribuție apă potabilă — robinete conforme ANSI/NSF-61",
       "Proces industrial — compensatoare pentru vibrația pompelor",
       "Chimie — compensatoare din PTFE pentru fluide agresive",
-      "Marina și instalații industriale — furtunuri flexibile din inox"
+      "Instalații industriale — furtunuri flexibile din inox pentru conectarea pompelor"
     ],
-    infinitrade: `Aducem compensatoare și robinete de reținere Proco la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pe această gamă. Termenul orientativ e de 1–4 săptămâni, în funcție de stilul și materialul cerut. Pentru ofertă avem nevoie de stilul exact (de exemplu ProFlex 710 sau seria 230), diametrul conexiunii, presiunea de lucru și fluidul vehiculat, mai ales dacă e vorba de un mediu chimic agresiv care cere varianta din PTFE.`,
+    infinitrade: `Aducem compensatoare și robinete de reținere Proco la comandă, prin canale de aprovizionare din UE, nu ținem această gamă în stoc propriu. Termenul orientativ e de 1–4 săptămâni, în funcție de stilul și materialul cerut. Pentru ofertă avem nevoie de stilul exact (de exemplu ProFlex 710 sau seria 230), diametrul conexiunii, presiunea de lucru și fluidul vehiculat, mai ales dacă e vorba de un mediu chimic agresiv care cere varianta din PTFE.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui compensator cu un fluid specific fără fișa tehnică de material trimisă de client.",
     productCodes: [
       { code: "ProFlex 710", description: "Robinet de reținere duckbill flanșat" },
       { code: "ProFlex 720", description: "Robinet de reținere duckbill flanșat în linie" },
-      { code: "ProFlex 730", description: "Robinet de reținere duckbill sertizat în manșon" },
+      { code: "ProFlex 730", description: "Robinet de reținere duckbill cu manșon" },
       { code: "ProFlex 740", description: "Robinet de reținere duckbill cu montaj glisant" },
       { code: "ProFlex 710TT", description: "Robinet de reținere conform ANSI/NSF-61 pentru apă" },
       { code: "ProFlex 711", description: "Robinet de reținere cu fund înclinat, flanșat" },
       { code: "ProFlex 730M", description: "Robinet de reținere din cauciuc turnat, presiune joasă" },
-      { code: "ProFlex 731", description: "Robinet de reținere cu fund înclinat, montaj slip-on" },
-      { code: "ProFlex 730CBD", description: "Difuzor cu bule fine pentru aerare" },
+      { code: "ProFlex 731", description: "Robinet de reținere cu fund înclinat, montaj glisant" },
+      { code: "ProFlex 730CBD", description: "Difuzor cu bule grosiere pentru aerare" },
       { code: "Series 230", description: "Compensator din cauciuc tip arc lat" },
       { code: "Series 240", description: "Compensator din cauciuc tip sferic" },
       { code: "Series 242", description: "Compensator din cauciuc tip sferic, variantă" },
@@ -431,8 +431,8 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Proco Products — pagina oficială", url: "https://www.procoproducts.com", publisher: "Proco Products, Inc.", accessed: "2026-09-25" },
       { title: "Proco Products — Products", url: "https://www.procoproducts.com/products/", publisher: "Proco Products, Inc.", accessed: "2026-09-25" }
@@ -440,16 +440,16 @@ Pentru operatorii de stații de epurare și instalatorii din România, Proco e r
   },
   'senior-flexonics': {
     name: "Senior Flexonics",
-    headquarters: "Bartlett, Illinois, SUA",
-    overview: `Senior Flexonics produce burdufuri metalice, furtunuri corugate și schimbătoare de căldură pentru gestionarea termică în industrie, energie și transport, ca parte a grupului britanic Senior plc. Produsele nu sunt vândute ca modele standard de catalog, ci sunt proiectate și fabricate pe specificația clientului, pentru fiecare aplicație în parte. Gama acoperă de la burdufuri de compensare pentru turbine până la plăci de răcire pentru baterii de vehicule electrice. Pentru piața din România putem oferta componente de gestiune termică Senior Flexonics pentru proiecte industriale și energetice.
+    headquarters: "Bartlett, Illinois, SUA (unitate principală din SUA)",
+    overview: `Senior Flexonics produce burdufuri metalice, furtunuri corugate și schimbătoare de căldură pentru gestionarea termică în industrie, energie și transport, ca parte a grupului britanic Senior plc. Componentele se configurează în funcție de aplicație, pe baza desenului sau a parametrilor de proces. Gama acoperă de la burdufuri de compensare pentru turbine până la plăci de răcire pentru baterii de vehicule electrice. Pentru piața din România putem oferta componente de gestiune termică Senior Flexonics pentru proiecte industriale și energetice.
 
-Diferența tehnică e abordarea inginerească pe măsură, cu design de tip "Omega" pentru aripioarele schimbătoarelor de căldură, dezvoltat pentru densitate mare de transfer termic într-un spațiu redus. Burdufurile metalice și furtunurile corugate acoperă atât circuite de gaz cu presiuni ridicate, cât și linii de răcire pentru sisteme hibride și electrice, unde flexibilitatea trebuie combinată cu etanșeitate pe termen lung. În segmentul burdufurilor metalice pentru industrie, Senior Flexonics se compară cu Witzenmann, diferența fiind orientarea Senior mai mult spre proiecte inginerești personalizate decât spre catalog standard.
+Diferența tehnică e abordarea inginerească pe măsură, cu design de tip "Omega" pentru aripioarele schimbătoarelor de căldură, dezvoltat pentru densitate mare de transfer termic într-un spațiu redus. Burdufurile metalice și furtunurile corugate acoperă atât circuite de gaz, cât și linii de răcire pentru sisteme hibride și electrice, unde flexibilitatea trebuie combinată cu etanșeitate pe termen lung.
 
-Pentru integratori și proiectanți din România care lucrează la instalații de răcire pentru electronică de putere, sisteme hidrogen sau echipamente energetice, Senior Flexonics oferă o rută de proiectare comună, nu doar un produs de catalog cumpărat direct.`,
+Pentru integratori și proiectanți din România care lucrează la instalații de răcire pentru electronică de putere, sisteme hidrogen sau echipamente energetice, Senior Flexonics produce componente de gestiune termică și burdufuri pentru aceste domenii.`,
     whyChoose: [
-      "Proiectare pe specificația clientului, nu produse standard de catalog cu cod fix",
+      "Componente de gestiune termică pentru auto, energie, hidrogen și industrie",
       "Design de aripioare tip Omega pentru densitate mare de transfer termic în spațiu redus",
-      "Acoperă atât circuite de gaz de presiune ridicată, cât și răcire pentru vehicule electrice",
+      "Acoperă atât circuite de gaz, cât și răcire pentru vehicule electrice",
       "Experiență de fabricație de peste un secol pentru burdufuri metalice și furtunuri corugate"
     ],
     keyProducts: [
@@ -459,12 +459,12 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
     ],
     industries: [
       "Auto și vehicule electrice — plăci de răcire pentru baterii",
-      "Energie — burdufuri pentru turbine și linii de hidrogen",
+      "Energie — schimbătoare de căldură, tubulatură flexibilă și burdufuri pentru turbine și linii de hidrogen",
       "Petrol și gaze — componente pentru valve și sisteme de combustie",
       "Medical — bobine de răcire și asamblări speciale",
       "Industrie generală — furtunuri corugate și burdufuri de compensare"
     ],
-    infinitrade: `Aducem componente Senior Flexonics la comandă, din surse publice ale producătorului, fără date proprii de stoc pe acest brand, întrucât fiecare piesă e proiectată pe specificația proiectului, nu cumpărată dintr-un catalog standard. Termenul depinde de complexitatea proiectării și poate depăși intervalul orientativ de 1–4 săptămâni valabil pentru produse de catalog. Pentru o discuție inițială avem nevoie de desenul tehnic sau parametrii aplicației — presiune, temperatură, fluid vehiculat și spațiul de montaj disponibil — pe care le transmitem mai departe producătorului pentru o evaluare de fezabilitate.`,
+    infinitrade: `Aducem componente Senior Flexonics la comandă, fără stoc propriu pe acest brand, întrucât componentele se configurează în funcție de proiect. Termenul depinde de complexitatea proiectării și poate depăși intervalul orientativ de 1–4 săptămâni valabil pentru produse de catalog. Pentru o discuție inițială avem nevoie de desenul tehnic sau parametrii aplicației — presiune, temperatură, fluid vehiculat și spațiul de montaj disponibil — pe care le transmitem mai departe producătorului pentru o evaluare de fezabilitate.`,
     limitation: "Nu putem oferi un termen de livrare fix înainte de finalizarea proiectării, întrucât fiecare componentă Senior Flexonics e realizată pe specificație individuală.",
     productCodes: [
       { code: "EGR Cooler", description: "Schimbător de căldură pentru recircularea gazelor de eșapament" },
@@ -474,8 +474,8 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
       { code: "Fuel Delivery Assembly", description: "Asamblare flexibilă pentru livrarea combustibilului" },
       { code: "Battery Cooling Plate", description: "Placă de răcire pentru baterii de vehicule electrice" },
       { code: "Inverter Heat Sink", description: "Disipator termic pentru module invertor IGBT" },
-      { code: "Turbine Bellows", description: "Burduf metalic pentru compensare pe turbine" },
-      { code: "Fuel Nozzle Bellows", description: "Burduf metalic pentru duze de combustibil" },
+      { code: "Turbine Bellows", description: "Componente flexibile și schimbătoare de căldură pentru turbine" },
+      { code: "Fuel Nozzle Bellows", description: "Component metalic flexibil pentru sisteme de combustibil" },
       { code: "Corrugated Metal Hose", description: "Furtun corugat metalic pentru gaze sau lichide" },
       { code: "Corrugated Tubing", description: "Tubulatură corugată pentru circuite de răcire" },
       { code: "Medical Cooling Coil", description: "Bobină de răcire de uz medical" },
@@ -490,8 +490,8 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Senior Flexonics — pagina oficială", url: "https://www.seniorflexonics.com", publisher: "Senior Flexonics (Senior plc)", accessed: "2026-09-25" },
       { title: "Senior Flexonics — Products", url: "https://www.seniorflexonics.com/products", publisher: "Senior Flexonics (Senior plc)", accessed: "2026-09-25" }
@@ -500,9 +500,9 @@ Pentru integratori și proiectanți din România care lucrează la instalații d
   koso: {
     name: "KOSO",
     headquarters: "Tokyo, Japonia",
-    overview: `KOSO e un grup japonez de inginerie care produce robinete de control și echipamente de automatizare pentru procese industriale, cu sediul central în Tokyo și rețea de operare extinsă în Asia, America și Europa. Gama acoperă robinete de control tip glob, sertar, bilă și fluture, complet echipate cu actuatoare și poziționere pentru automatizare de proces. Compania oferă și senzori de presiune sub marca SOR, integrați în soluțiile de control. Pentru piața din România putem oferta robinete de control și accesorii KOSO pentru automatizarea liniilor de proces.
+    overview: `KOSO e un grup japonez de inginerie care produce robinete de control și echipamente de automatizare pentru procese industriale, cu sediul central în Tokyo și rețea de operare extinsă în Asia, America și Europa. Gama acoperă robinete de control tip glob, sertar, bilă și fluture, complet echipate cu actuatoare și poziționere pentru automatizare de proces. Compania oferă și întrerupătoare și traductoare de presiune sub marca SOR. Pentru piața din România putem oferta robinete de control și accesorii KOSO pentru automatizarea liniilor de proces.
 
-Punctul tehnic notabil e integrarea completă robinet-actuator-poziționer sub aceeași marcă, cu poziționere inteligente precum KGP5000, în variantă antiexplozivă, și KGP2000, cu siguranță intrinsecă, pentru zone cu risc de explozie. Actuatoarele acoperă variante diafragmă, cilindru, motorizate, electro-hidraulice și electronice cu control microprocesor, ceea ce permite alegerea tipului de acționare fără schimbarea robinetului de bază. În categoria robinetelor de control pentru proces, KOSO se compară cu Samson, diferența ținând de rețeaua de producție distribuită în Asia față de concentrarea europeană a competitorului.
+Punctul tehnic notabil e integrarea completă robinet-actuator-poziționer sub aceeași marcă, cu poziționere inteligente precum KGP5000, în variantă antiexplozivă, și KGP2000, cu siguranță intrinsecă, pentru zone cu risc de explozie. Actuatoarele acoperă variante diafragmă, cilindru, motorizate, electro-hidraulice și electronice cu control microprocesor, ceea ce permite alegerea tipului de acționare fără schimbarea robinetului de bază.
 
 Pentru instalațiile industriale din România cu bucle de automatizare pe presiune, debit sau nivel, KOSO oferă o soluție completă robinet-actuator-poziționer dintr-o singură sursă, utilă la retehnologizări unde compatibilitatea între componente contează.`,
     whyChoose: [
@@ -522,7 +522,7 @@ Pentru instalațiile industriale din România cu bucle de automatizare pe presiu
       "Energie — robinete de control pentru circuite termice",
       "Apă și epurare — reglaj de debit pe stații de tratare"
     ],
-    infinitrade: `Aducem robinete de control și accesorii KOSO la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — fără stoc propriu pe această gamă de automatizare. Termenul orientativ e de 1–4 săptămâni, mai lung pentru configurațiile complete robinet-actuator-poziționer care necesită confirmare tehnică de la producător. Pentru ofertă avem nevoie de tipul de robinet, diametrul liniei, presiunea de lucru, tipul de semnal de comandă disponibil și dacă instalația se află într-o zonă cu risc de explozie.`,
+    infinitrade: `Aducem robinete de control și accesorii KOSO la comandă, prin canale de aprovizionare din UE, nu ținem această gamă de automatizare în stoc propriu. Termenul orientativ e de 1–4 săptămâni, mai lung pentru configurațiile complete robinet-actuator-poziționer care necesită confirmare tehnică de la producător. Pentru ofertă avem nevoie de tipul de robinet, diametrul liniei, presiunea de lucru, tipul de semnal de comandă disponibil și dacă instalația se află într-o zonă cu risc de explozie.`,
     limitation: "Nu putem confirma compatibilitatea unui poziționer KOSO cu un sistem de automatizare existent de la alt producător fără specificația completă a buclei de control.",
     productCodes: [
       { code: "Model 500M", description: "Robinet de control tip glob" },
@@ -544,15 +544,15 @@ Pentru instalațiile industriale din România cu bucle de automatizare pe presiu
       { code: "HCS400", description: "Simulator de curent pentru testarea buclei" }
     ],
     faq: [
-      { q: "Ce produce grupul KOSO?", a: "KOSO fabrică robinete de control tip glob, sertar, bilă și fluture, complet echipate cu actuatoare și poziționere pentru automatizarea proceselor industriale, cu sediul în Tokyo și producție distribuită în mai multe regiuni." },
+      { q: "Ce produce grupul KOSO?", a: "KOSO fabrică robinete de control tip glob, sertar, bilă și fluture, complet echipate cu actuatoare și poziționere pentru automatizarea proceselor industriale, cu sediul în Tokyo și prezență în mai multe regiuni." },
       { q: "Ce diferență e între poziționerele KGP5000 și KGP2000 de la KOSO?", a: "KGP5000 e certificat pentru protecție antiexplozivă, iar KGP2000 folosește principiul siguranței intrinseci; alegerea depinde de clasificarea zonei cu risc de explozie din instalația unde se montează robinetul." },
       { q: "Livrați robinete KOSO în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, mai lung pentru configurațiile complete cu actuator și poziționer care necesită confirmare tehnică." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet de control KOSO?", a: "Tipul de robinet dorit, diametrul liniei, presiunea și temperatura de lucru, tipul de semnal de comandă disponibil (pneumatic sau electric) și clasificarea zonei, dacă instalația e cu risc de explozie." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "KOSO Group — pagina oficială", url: "https://www.koso.co.jp/en/", publisher: "KOSO Group", accessed: "2026-09-25" },
       { title: "KOSO Group — Products", url: "https://www.koso.co.jp/en/products/", publisher: "KOSO Group", accessed: "2026-09-25" }
@@ -562,21 +562,21 @@ Pentru instalațiile industriale din România cu bucle de automatizare pe presiu
     name: "Val-Matic",
     founded: 1966,
     headquarters: "Elmhurst, Illinois, SUA",
-    overview: `Val-Matic produce robinete pentru rețele municipale de apă și aplicații industriale, din 1966, cu sediul lângă Chicago și certificare ISO 9001:2015. Gama acoperă robinete de aerisire, robinete cu bilă sub marca Energ, robinete fluture sub marca American BFV, robinete de reținere în variante multiple și robinete cu clapetă excentrică Cam-Centric. Compania produce și sisteme de acționare pentru robinete, de la roată dințată la motor electric. Pentru piața din România putem oferta robinete Val-Matic pentru rețele de apă și aplicații industriale.
+    overview: `Val-Matic produce robinete pentru rețele municipale de apă și aplicații industriale, din 1966, cu sediul lângă Chicago și certificare ISO 9001:2015. Gama acoperă robinete de aerisire, robinete cu bilă sub marca Energ, robinete fluture sub marca American BFV, robinete de reținere în variante multiple și robinete cu dop (plug) Cam-Centric. Compania produce și sisteme de acționare pentru robinete, de la roată dințată la motor electric. Pentru piața din România putem oferta robinete Val-Matic pentru rețele de apă și aplicații industriale.
 
-Gama de robinete de reținere e cea mai diversificată din portofoliu — de la clasicul robinet cu clapetă articulată (Swing Check) la variantele fără lovitură de berbec Swing-Flex și Surgebuster, gândite pentru pompe care pornesc și opresc frecvent. Robinetul cu bilă QuadroSphere combină etanșarea de tip bilă cu o construcție compactă pentru aplicații de izolare pe conducte de diametru mare. În categoria robinetelor pentru apă municipală, Val-Matic se compară cu AVK, diferența fiind concentrarea Val-Matic pe piața nord-americană și pe familia extinsă de robinete de reținere anti-lovitură de berbec.
+Gama de robinete de reținere e cea mai diversificată din portofoliu — de la clasicul robinet cu clapetă articulată (Swing Check) la variantele Swing-Flex și Surgebuster, din aceeași familie de robinete de reținere. Robinetul cu bilă QuadroSphere este un robinet cu bilă de tip trunnion (bilă susținută pe axe).
 
 Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant la stații de pompare unde lovitura de berbec la oprirea pompei e o problemă recurentă, precum și la rețele de distribuție unde aerisirea corectă a conductei previne blocajele de aer.`,
     whyChoose: [
-      "Certificare ISO 9001:2015 pentru proiectare și fabricație de robinete",
+      "Certificare ISO 9001:2015 a companiei",
       "Familie extinsă de robinete de reținere anti-lovitură de berbec — Swing-Flex, Surgebuster",
-      "Robinetul QuadroSphere combină etanșare tip bilă cu construcție compactă la diametre mari",
+      "Robinet cu bilă QuadroSphere, de tip trunnion",
       "Sisteme de acționare variate — roată dințată, cilindru, motor electric — pentru automatizare"
     ],
     keyProducts: [
       { name: "Robinete de Aerisire pentru Apă", description: "Robinete de aerisire, de vid-aer combinate, de suprimare a suprapresiunii, de rupere a vidului și de amorsare, folosite pe rețele de distribuție a apei pentru evacuarea aerului acumulat sau prevenirea colapsului conductei la depresurizare. Se montează în puncte înalte ale rețelei sau lângă stațiile de pompare, unde acumularea de aer reduce eficiența hidraulică a sistemului." },
-      { name: "Robinete de Reținere Anti-Lovitură de Berbec", description: "Gama de robinete de reținere include varianta clasică Swing Check, varianta cu disc dublu Dual Disc, varianta silențioasă Silent Check și variantele Swing-Flex și Surgebuster, gândite să se închidă rapid înainte de inversarea completă a curgerii. Reduc lovitura de berbec la stațiile de pompare cu porniri și opriri frecvente, protejând conducta și restul echipamentelor de pe linie." },
-      { name: "Robinete cu Bilă și Robinete Fluture", description: "Robinetele cu bilă din gama Energ oferă etanșare completă pentru izolare pe conducte de apă și proces, iar robinetele fluture American BFV acoperă aceeași funcție la diametre mari, cu greutate și cost de instalare mai reduse. Robinetul QuadroSphere combină principiul de etanșare al bilei cu o construcție compactă, potrivită pentru izolare pe conducte de diametru mare fără gabaritul unui robinet cu bilă clasic." }
+      { name: "Robinete de Reținere Anti-Lovitură de Berbec", description: "Gama de robinete de reținere include varianta clasică Swing Check, varianta cu disc dublu Dual Disc, varianta silențioasă Silent Check și variantele Swing-Flex și Surgebuster. Funcționarea și domeniul de utilizare al fiecărui tip se confirmă pe cod, din documentația producătorului." },
+      { name: "Robinete cu Bilă și Robinete Fluture", description: "Robinetele cu bilă din gama Energ oferă etanșare completă pentru izolare pe conducte de apă și proces, iar robinetele fluture American BFV sunt oferite pentru rețele de apă. Robinetul QuadroSphere este un robinet cu bilă de tip trunnion." }
     ],
     industries: [
       "Distribuție apă potabilă — izolare, aerisire și protecție anti-berbec",
@@ -585,8 +585,8 @@ Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant l
       "Energie — robinete pentru circuite de răcire și proces",
       "Mining și industrie grea — izolare pe conducte de diametru mare"
     ],
-    certifications: [ "ISO 9001:2015 — management al calității pentru proiectare și fabricație" ],
-    infinitrade: `Aducem robinete Val-Matic la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă. Termenul orientativ e de 1–4 săptămâni, în funcție de diametru și de tipul robinetului cerut. Pentru ofertă avem nevoie de tipul de robinet (aerisire, reținere, bilă sau fluture), diametrul conductei, presiunea de lucru și, la robinetele de reținere, frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită.`,
+    certifications: [ "ISO 9001:2015 — sistem de management al calității" ],
+    infinitrade: `Aducem robinete Val-Matic la comandă, prin canale de aprovizionare din UE, nu ținem această gamă pe raft propriu. Termenul orientativ e de 1–4 săptămâni, în funcție de diametru și de tipul robinetului cerut. Pentru ofertă avem nevoie de tipul de robinet (aerisire, reținere, bilă sau fluture), diametrul conductei, presiunea de lucru și, la robinetele de reținere, frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită.`,
     limitation: "Nu putem confirma compatibilitatea unui robinet Val-Matic cu un sistem de acționare de la alt producător fără specificația tehnică completă a instalației.",
     productCodes: [
       { code: "Swing Check", description: "Robinet de reținere cu clapetă articulată" },
@@ -596,24 +596,24 @@ Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant l
       { code: "Surgebuster", description: "Robinet de reținere cu închidere rapidă" },
       { code: "Tilted Disc", description: "Robinet de reținere cu disc înclinat" },
       { code: "Foot Valve", description: "Robinet de fund pentru linii de aspirație" },
-      { code: "Cam-Centric", description: "Robinet cu clapetă excentrică tip plug" },
-      { code: "QuadroSphere", description: "Robinet cu bilă compact pentru diametre mari" },
+      { code: "Cam-Centric", description: "Robinet cu dop (plug)" },
+      { code: "QuadroSphere", description: "Robinet cu bilă de tip trunnion" },
       { code: "Energ Ball Valve", description: "Robinet cu bilă pentru izolare pe conductă" },
       { code: "American BFV", description: "Robinet fluture pentru rețele de apă" },
-      { code: "FloodSafe", description: "Sistem de protecție la inundare pentru cămine" },
-      { code: "FrostSafe", description: "Sistem de protecție la îngheț pentru robinete" },
-      { code: "VentSafe", description: "Sistem de aerisire securizată pentru cămine" }
+      { code: "FloodSafe", description: "Produs din linia VaultSafe" },
+      { code: "FrostSafe", description: "Produs din linia VaultSafe" },
+      { code: "VentSafe", description: "Produs din linia VaultSafe" }
     ],
     faq: [
       { q: "Ce produce Val-Matic?", a: "Val-Matic fabrică robinete de aerisire, de reținere, cu bilă și fluture pentru rețele municipale de apă și aplicații industriale, cu certificare ISO 9001:2015 și sediul lângă Chicago, din 1966." },
-      { q: "Ce robinet Val-Matic previne lovitura de berbec la o stație de pompare?", a: "Gama de robinete de reținere Swing-Flex și Surgebuster e gândită special pentru închidere rapidă, înainte de inversarea completă a curgerii, reducând lovitura de berbec la pompele cu porniri și opriri frecvente." },
+      { q: "Ce robinet Val-Matic previne lovitura de berbec la o stație de pompare?", a: "Swing-Flex și Surgebuster fac parte din gama de robinete de reținere Val-Matic; varianta potrivită pentru o stație de pompare se confirmă pe baza datelor instalației, din documentația producătorului." },
       { q: "Livrați robinete Val-Matic în România?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametru și tipul robinetului. Pentru această gamă lucrăm la comandă, fără raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă de robinet de reținere Val-Matic?", a: "Diametrul conductei, presiunea de lucru și frecvența de pornire-oprire a pompei din amonte, ca să recomandăm varianta anti-lovitură de berbec potrivită pentru aplicația dumneavoastră, plus materialul preferat al corpului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Val-Matic Valve & Manufacturing — pagina oficială", url: "https://www.valmatic.com", publisher: "Val-Matic Valve & Manufacturing Company", accessed: "2026-09-25" },
       { title: "Val-Matic — Products", url: "https://www.valmatic.com/products", publisher: "Val-Matic Valve & Manufacturing Company", accessed: "2026-09-25" }
@@ -625,14 +625,14 @@ Pentru operatorii de apă și proiectanții din România, Val-Matic e relevant l
     headquarters: "Cincinnati, Ohio, SUA",
     overview: `Powell Valves produce robinete industriale din 1846, cu sediul la Cincinnati și certificare ISO 9001 pe toate unitățile de producție. Gama acoperă robinete sertar, glob, de reținere, fluture și cu bilă, în oțel, bronz, fontă și oțel inoxidabil, plus variante criogenice pentru temperaturi foarte joase. O parte a producției respectă standardele API — 600 pentru robinete sertar din oțel turnat, 602 pentru globe forjate și 603 pentru variante rezistente la coroziune. Pentru piața din România putem oferta robinete Powell pentru instalații de proces industrial și petrochimic.
 
-Portofoliul e structurat pe standarde API și pe material, ceea ce ajută la specificarea rapidă a unui robinet echivalent — robinetele sertar cu sigiliu de presiune conform API 600 țintesc presiuni și temperaturi ridicate din rafinării, iar cele criogenice din bronz sau inox acoperă instalații de gaze lichefiate. Robinetele de reținere cu disc dublu conform API 594 oferă o alternativă mai compactă și mai ușoară decât robinetul clasic cu clapetă la aceeași presiune nominală. În categoria robinetelor industriale pe standard API, Powell se compară cu KSB, diferența ținând de concentrarea Powell pe piața americană și de istoricul lung de fabricație.
+Portofoliul e structurat pe standarde API și pe material, ceea ce ajută la specificarea rapidă a unui robinet echivalent — robinetele sertar cu sigiliu de presiune conform API 600 țintesc presiuni și temperaturi ridicate din rafinării, iar cele criogenice din bronz sau inox sunt destinate aplicațiilor cu gaze industriale. Robinetele de reținere cu disc dublu conform API 594 oferă o alternativă mai compactă și mai ușoară decât robinetul clasic cu clapetă la aceeași presiune nominală.
 
 Pentru instalațiile petrochimice și industriale din România, Powell oferă o gamă pe standarde API recunoscute, utilă la retehnologizări unde specificația de proiect cere deja conformitate cu aceste norme americane.`,
     whyChoose: [
       "Certificare ISO 9001 pe toate unitățile de producție, pentru consistență între loturi",
       "Gamă structurată pe standarde API 600, 602, 603 și 594, ușor de specificat în proiect",
-      "Robinete criogenice din bronz și inox pentru instalații de gaze lichefiate",
-      "Peste 175 de ani de fabricație continuă de robinete industriale"
+      "Robinete criogenice din bronz și inox pentru gaze industriale",
+      "Companie înființată în 1846, cu peste 175 de ani de istorie în domeniul robinetelor industriale"
     ],
     keyProducts: [
       { name: "Robinete Sertar pe Standard API", description: "Robinete sertar din oțel turnat conform API 600, pentru presiuni și temperaturi ridicate din rafinării și instalații petrochimice, plus varianta cu sigiliu de presiune (pressure seal) pentru diametre și presiuni mai mari, unde etanșarea capacului devine critică. Se folosesc la izolarea completă a liniilor de proces, nu la reglaj de debit." },
@@ -641,13 +641,13 @@ Pentru instalațiile petrochimice și industriale din România, Powell oferă o 
     ],
     industries: [
       "Petrochimie și rafinare — robinete pe standard API pentru proces",
-      "Industria gazelor — robinete criogenice pentru gaze lichefiate",
+      "Gaze industriale — robinete criogenice din bronz sau inox",
       "Industria hârtiei și celulozei — izolare pe linii de proces",
       "Construcții mecanice — robinete pentru instalații industriale",
       "Producție de energie — robinete pentru circuite de proces termic"
     ],
     certifications: [ "ISO 9001 — management al calității pe toate unitățile de producție" ],
-    infinitrade: `Aducem robinete Powell la comandă, prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului — nu ținem pe raft propriu pe această gamă industrială. Termenul orientativ e de 1–4 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune care necesită confirmare de fabricație. Pentru ofertă avem nevoie de tipul de robinet, standardul API aplicabil, diametrul, clasa de presiune și materialul cerut de specificația proiectului dumneavoastră.`,
+    infinitrade: `Aducem robinete Powell la comandă, prin canale de aprovizionare din UE, nu ținem această gamă pe raft propriu. Termenul orientativ e de 1–4 săptămâni, mai lung pentru diametre mari sau variante cu sigiliu de presiune care necesită confirmare de fabricație. Pentru ofertă avem nevoie de tipul de robinet, standardul API aplicabil, diametrul, clasa de presiune și materialul cerut de specificația proiectului dumneavoastră.`,
     limitation: "Nu putem confirma termenul de fabricație pentru variantele cu sigiliu de presiune sau criogenice fără o cerere tehnică punctuală la producător.",
     productCodes: [
       { code: "API 600 Cast Steel Gate Valve", description: "Robinet sertar din oțel turnat pentru presiune ridicată" },
@@ -660,7 +660,7 @@ Pentru instalațiile petrochimice și industriale din România, Powell oferă o 
       { code: "Stainless Steel Cryogenic Globe Valve", description: "Robinet glob criogenic din inox" },
       { code: "High Performance Butterfly Valve", description: "Robinet fluture cu disc dublu excentric" },
       { code: "Resilient Seated Butterfly Valve", description: "Robinet fluture cu sediu elastic" },
-      { code: "Bellow Seal Valve", description: "Robinet cu etanșare pe burduf, fără scurgeri la tijă" },
+      { code: "Bellow Seal Valve", description: "Robinet cu etanșare pe burduf, pentru emisii fugitive minime la tijă" },
       { code: "Threaded Ball Valve", description: "Robinet cu bilă cu conexiune filetată" },
       { code: "Socket Weld Ball Valve", description: "Robinet cu bilă cu conexiune sudată" },
       { code: "Flanged Ball Valve", description: "Robinet cu bilă cu conexiune flanșată" }
@@ -673,8 +673,8 @@ Pentru instalațiile petrochimice și industriale din România, Powell oferă o 
     ],
     evidenceClass: "market-signal-intl",
     tier: 5,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Powell Valves — pagina oficială", url: "https://www.powellvalves.com", publisher: "Powell Valves", accessed: "2026-09-25" },
       { title: "Powell Valves — sitemap produse", url: "https://www.powellvalves.com/sitemap.xml", publisher: "Powell Valves", accessed: "2026-09-25" }
