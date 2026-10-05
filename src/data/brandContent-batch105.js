@@ -7,21 +7,21 @@ export const brandContentBatch105 = {
     headquarters: "Creazzo (Vicenza), Italia",
     overview: `Mecc Alte este un producător italian de alternatoare sincrone, cu sediul la Creazzo, lângă Vicenza, specializat în generatoare pentru grupuri electrogene de la 1 până la 10.000 kVA. Gama acoperă alternatoare industriale de uz general, variante compacte pentru spații restrânse, unități de medie și înaltă tensiune și generatoare portabile. Pentru piața din România putem oferta unități individuale sau seturi complete de rebobinare/înlocuire pentru grupuri electrogene existente, pe baza codului de placă a alternatorului vechi.
 
-Ce diferențiază Mecc Alte de concurenți precum Leroy-Somer este acoperirea largă de kVA într-o singură arhitectură constructivă, de la seria NPE Space Saver de 5-36 kVA, gândită pentru gabarit redus, până la Power Products MV/HV care ajunge la 10.000 kVA pentru centrale și instalații industriale mari. Seria 400 Hz acoperă 5-200 kVA pentru aplicații aeroportuare și navale unde frecvența standard nu se potrivește, iar gama Totally Enclosed de 50-96 kVA e construită pentru medii cu praf sau umiditate ridicată. Generatoarele cu magneți permanenți, de 0,5-20 kW, sunt folosite tipic ca excitatoare sau pentru aplicații eoliene de mică putere.
+Gama Mecc Alte se întinde de la seria NPE Space Saver de 5-36 kVA până la Power Products MV/HV, care ajunge la 10.000 kVA. Seria 400 Hz acoperă 5-200 kVA, iar gama Totally Enclosed (complet închisă) acoperă 50-96 kVA. Generatoarele cu magneți permanenți acoperă 0,5-20 kW.
 
 Pentru România, alternatoarele Mecc Alte au sens acolo unde un grup electrogen existent are nevoie de un alternator de schimb compatibil ca gabarit și cuplu, la stații de telecomunicații, șantiere sau ferme unde alimentarea de rezervă e critică. Firmele de mentenanță pentru grupuri electrogene pot obține piese de schimb și unități complete prin comandă, cu parametrii tehnici confirmați direct pe baza codului alternatorului existent.`,
     whyChoose: [
       "Gamă de putere foarte largă, de la 1 kVA la generatoare portabile până la 10.000 kVA pentru centrale industriale mari",
-      "Serie dedicată 400 Hz pentru aplicații aeroportuare și navale unde frecvența de 50/60 Hz standard nu se aplică",
-      "Variante Totally Enclosed pentru medii cu praf, umiditate sau contaminanți, fără a compromite răcirea alternatorului",
+      "Serie dedicată 400 Hz, de 5-200 kVA, pentru aplicații care cer această frecvență",
+      "Variante Totally Enclosed (complet închise), de 50-96 kVA",
       "Certificare ISO 14001 pentru sistemul de management de mediu la fabricarea alternatoarelor",
-      "Gamă separată de generatoare cu magneți permanenți, utile ca excitatoare sau la turbine eoliene mici",
+      "Gamă separată de generatoare cu magneți permanenți, de 0,5-20 kW",
     ],
     keyProducts: [
       { name: "Alternatoare Industrial", description: "Familia principală de alternatoare sincrone Mecc Alte, acoperind 5-2.750 kVA, pentru grupuri electrogene de uz general în aplicații staționare și mobile. Se aleg după puterea necesară, turația motorului termic și tensiunea de ieșire cerută de tabloul de comandă." },
       { name: "NPE Space Saver", description: "Gamă compactă de 5-36 kVA, cu lungime redusă față de alternatoarele clasice de aceeași putere, utilă la grupuri electrogene montate în containere sau caroserii cu spațiu limitat pentru motor și generator." },
       { name: "Power Products MV/HV", description: "Alternatoare de medie și înaltă tensiune, 1.000-10.000 kVA, pentru centrale electrice, instalații industriale mari și aplicații unde tensiunea de generare depășește nivelul standard de joasă tensiune." },
-      { name: "Seria 400 Hz", description: "Alternatoare de 5-200 kVA la frecvența de 400 Hz, folosite la sol pentru alimentarea aeronavelor și la bordul navelor unde echipamentele cer această frecvență specială." },
+      { name: "Seria 400 Hz", description: "Alternatoare de 5-200 kVA la frecvența de 400 Hz, pentru aplicații în care echipamentele cer frecvența de 400 Hz." },
     ],
     industries: [
       "Telecomunicații — alimentare de rezervă pentru stații și centre de date",
@@ -58,8 +58,8 @@ Pentru România, alternatoarele Mecc Alte au sens acolo unde un grup electrogen 
       { q: "Ce informații trebuie să trimit pentru o ofertă de alternator Mecc Alte?", a: "Trimiteți codul de pe plăcuța alternatorului existent, dacă e o înlocuire, puterea în kVA, turația motorului termic și tensiunea de ieșire; pe baza acestor date confirmăm varianta compatibilă și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Mecc Alte – Home", url: "https://www.meccalte.com", publisher: "Mecc Alte S.p.A.", accessed: "2026-09-25" },
       { title: "Alternators – Mecc Alte", url: "https://www.meccalte.com/en/products/alternators", publisher: "Mecc Alte S.p.A.", accessed: "2026-09-25" },
@@ -71,7 +71,7 @@ Pentru România, alternatoarele Mecc Alte au sens acolo unde un grup electrogen 
     founded: 1978,
     overview: `AuCom este un producător neozeelandez de softstartere și convertizoare de frecvență pentru motoare electrice trifazate, înființat în 1978 inițial ca fabricant de amplificatoare audio, înainte de a trece la electronica de control a motoarelor. Gama actuală acoperă softstartere de joasă tensiune de la câțiva amperi până la peste 1.000 A, unități de medie tensiune pentru motoare de 2,3-13,8 kV și convertizoare de frecvență proprii. Pentru România putem oferta atât unitățile individuale, cât și panouri complete de comutație construite în jurul lor.
 
-Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care controlează motorul continuu prin variația frecvenței, softstarterele AuCom limitează curentul de pornire și opresc lin motorul, fiind soluția tipică acolo unde nu e nevoie de variație de turație permanentă, ci doar de o pornire blândă. Seria EMX4i acoperă până la 1.250 A la 690 V cu 8 moduri de pornire și 17 tipuri de protecție, iar unitățile de medie tensiune L-MVE și M-MVE merg până la 1.200 A la tensiuni de 2,3-13,8 kV, cu protecție la arc electric. Compania produce și propriile convertizoare de frecvență, seriile H1 și MVH2.0, pentru aplicațiile unde e nevoie de control continuu al turației.
+Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care controlează motorul continuu prin variația frecvenței, softstarterele AuCom limitează curentul de pornire și opresc lin motorul, fiind soluția tipică acolo unde nu e nevoie de variație de turație permanentă, ci doar de o pornire blândă. Seria EMX4i acoperă până la 1.250 A la 690 V cu 8 moduri de pornire și 17 tipuri de protecție, iar unitatea de medie tensiune L-MVE merge până la 1.200 A la tensiuni de 2,3-13,8 kV, cu rating pentru defect de arc electric, iar M-MVE până la 630 A la 2,3-7,2 kV. Compania produce și convertizoare de frecvență de joasă și medie tensiune, pentru aplicațiile unde e nevoie de control continuu al turației.
 
 În România, softstarterele AuCom sunt relevante la pompe, ventilatoare, benzi transportoare și mori unde pornirea directă ar solicita excesiv rețeaua sau mecanica instalației. Firmele de automatizare și integratorii de panouri electrice pot obține unități individuale sau soluții împachetate în panou, cu parametrii confirmați pe baza curentului motorului și a tensiunii de rețea.`,
     whyChoose: [
@@ -79,13 +79,13 @@ Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care c
       "Softstarterul EMX4i oferă 8 moduri de pornire și 17 tipuri de protecție, util la sarcini variate fără reprogramare complexă",
       "Seria L-MVE de medie tensiune are protecție la arc electric, cerută frecvent în instalații industriale mari",
       "Producător cu fabrici proprii în Noua Zeelandă, Germania și America de Nord, nu doar asamblator regional",
-      "Aplicație mobilă dedicată pentru configurarea și punerea în funcțiune a softstarterelor",
+      "Aplicația mobilă START HERE și instrumentul WinSTART, pentru asistență la alegerea softstarterului",
     ],
     keyProducts: [
       { name: "Softstartere EMX4i", description: "Softstarter de joasă tensiune pentru motoare până la 1.250 A la 200-690 V, cu 8 moduri de pornire, 17 funcții de protecție și 17 parametri de monitorizare. Potrivit pentru pompe, ventilatoare și benzi transportoare unde pornirea directă ar fi prea bruscă." },
       { name: "Softstartere CSXi", description: "Softstarter compact pentru motoare până la 200 A, 200-575 V, cu trei moduri de pornire și nouă tipuri de protecție. Variantă economică pentru aplicații mai simple, unde nu e nevoie de monitorizare extinsă." },
-      { name: "Softstartere de Medie Tensiune L-MVE/M-MVE", description: "Softstartere pentru motoare de medie tensiune, 2,3-13,8 kV, cu 20 de moduri de pornire, 21 de protecții și rating pentru defect de arc electric; L-MVE acoperă și configurații cu mai multe motoare pe aceeași unitate." },
-      { name: "Convertizoare de Frecvență H1 și MVH2.0", description: "Convertizoare pentru control continuu al turației motorului, seria H1 pentru joasă tensiune și MVH2.0 pentru aplicații de medie tensiune, completând gama de softstartere acolo unde e nevoie de variație permanentă de viteză." },
+      { name: "Softstartere de Medie Tensiune L-MVE/M-MVE", description: "Softstartere pentru motoare de medie tensiune, cu 20 de moduri de pornire și 21 de protecții; L-MVE acoperă 2,3-13,8 kV (până la 1.200 A), are rating pentru defect de arc electric și permite configurații cu mai multe motoare, iar M-MVE acoperă 2,3-7,2 kV (până la 630 A)." },
+      { name: "Convertizoare de Frecvență", description: "Convertizoare pentru control continuu al turației motorului, în variante de joasă și medie tensiune, completând gama de softstartere acolo unde e nevoie de variație permanentă de viteză." },
     ],
     industries: [
       "Apă și ape uzate — pornirea pompelor mari fără șoc hidraulic",
@@ -104,10 +104,8 @@ Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care c
       { code: "EMX4i 1200V", description: "Softstarter de tensiune ridicată, până la 1.092 A" },
       { code: "L-MVE", description: "Softstarter de medie tensiune, până la 1.200 A, 2,3-13,8 kV" },
       { code: "M-MVE", description: "Softstarter de medie tensiune, până la 630 A, 2,3-7,2 kV" },
-      { code: "H1 Series VFD", description: "Convertizor de frecvență de joasă tensiune" },
-      { code: "MVH2.0 Series VFD", description: "Convertizor de frecvență de medie tensiune" },
-      { code: "AFE Drives", description: "Convertizor cu front activ (regenerativ) pentru motoare" },
-      { code: "X-Series", description: "Panou de medie tensiune cu siguranță ridicată" },
+      { code: "VFD joasă tensiune", description: "Convertizor de frecvență de joasă tensiune; modelul exact se confirmă pe cod" },
+      { code: "VFD medie tensiune", description: "Convertizor de frecvență de medie tensiune; modelul exact se confirmă pe cod" },
       { code: "MCC/Distribution Panels", description: "Panou de comutație și distribuție pentru motoare" },
       { code: "Heater Control", description: "Sistem de control pentru încălzitoare electrice industriale" },
     ],
@@ -119,8 +117,8 @@ Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care c
       { q: "Ce trebuie să trimit pentru o ofertă de softstarter AuCom?", a: "Trimiteți curentul nominal și puterea motorului, tensiunea de alimentare, tipul de sarcină acționată și dacă aveți nevoie de monitorizare extinsă sau doar de pornire/oprire lină, ca să recomandăm modelul potrivit din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "AuCom – Home", url: "https://www.aucom.com", publisher: "AuCom Electronics", accessed: "2026-09-25" },
       { title: "Soft Starters – AuCom", url: "https://www.aucom.com/products/soft-starters", publisher: "AuCom Electronics", accessed: "2026-09-25" },
@@ -130,10 +128,10 @@ Spre deosebire de convertizoarele de frecvență, gen cele de la Danfoss, care c
 
   bezares: {
     name: "Bezares",
-    headquarters: "Alcalá de Henares, Spania",
-    overview: `Bezares este un producător spaniol de echipamente hidraulice pentru vehicule comerciale grele, cu sediul la Alcalá de Henares, specializat în prize de putere (PTO), pompe și motoare hidraulice montate pe camioane, remorci și utilaje mobile. Gama de PTO acoperă cutii de viteze de la mărci precum ZF, Mercedes-Benz, Volvo, Scania, Eaton, Iveco, Isuzu și Hino, iar pompele acoperă tehnologii cu roți dințate, palete și pistoane. Pentru România putem oferta atât priza de putere montată pe cutia de viteze, cât și pompa hidraulică acționată de aceasta, ca ansamblu compatibil.
+    headquarters: "Casarrubios del Monte (Toledo), Spania",
+    overview: `Bezares este un producător spaniol de echipamente hidraulice pentru vehicule comerciale grele, cu sediul la Casarrubios del Monte (Toledo), specializat în prize de putere (PTO), pompe și motoare hidraulice montate pe camioane, remorci și utilaje mobile. Gama de PTO acoperă cutii de viteze de la mărci precum ZF, Mercedes-Benz, Volvo, Scania, Eaton, Iveco, Isuzu și Hino, iar pompele acoperă tehnologii cu roți dințate, palete și pistoane. Pentru România putem oferta atât priza de putere montată pe cutia de viteze, cât și pompa hidraulică acționată de aceasta, ca ansamblu compatibil.
 
-Diferența față de un concurent precum Bondioli & Pavesi stă în acoperirea largă de compatibilități PTO pe mărci de cutii de viteze — Bezares listează variante dedicate pentru cel puțin 17 mărci diferite de camioane și utilaje, de la ZF și Eaton până la Hyundai și Toyota. Seriile 3300 și 3400 sunt gândite pentru piața nord-americană și Oceania, iar 4100 și 4300 pentru cutii Kenworth/Eaton. Pe partea de pompe, motoarele cu piston de tip bent-axis din familiile FR, MR și FRM completează gama alături de pompe cu roți dințate, palete simple sau duble și variante cu flux variabil, montate conform standardelor ISO-4, UNI 3 sau SAE B.
+Diferența față de un concurent precum Bondioli & Pavesi stă în acoperirea largă de compatibilități PTO pe mărci de cutii de viteze — Bezares listează variante dedicate pentru cel puțin 17 mărci diferite de camioane și utilaje, de la ZF și Eaton până la Hyundai și Toyota. Seria 3400 este o variantă mai nouă și mai compactă decât 3300, iar seria 4300 este dezvoltată pentru piața din Australia, pentru cutii Eaton. Pe partea de pompe, motoarele cu piston de tip bent-axis din familiile FR, MR și FRM completează gama alături de pompe cu roți dințate, palete simple sau duble și variante cu flux variabil, montate conform standardelor ISO-4, UNI 3 sau SAE B.
 
 Pentru piața din România, Bezares e relevant la firmele care echipează camioane basculante, cisterne, autospeciale de intervenție sau utilaje agricole cu sisteme hidraulice acționate de la cutia de viteze. Alegerea corectă a PTO-ului depinde de marca și modelul exact al cutiei de viteze, iar a pompei de cuplul disponibil la ieșirea prizei de putere.`,
     whyChoose: [
@@ -144,8 +142,8 @@ Pentru piața din România, Bezares e relevant la firmele care echipează camioa
       "Pompe manuale disponibile pentru aplicații de urgență sau sisteme fără motor hidraulic permanent",
     ],
     keyProducts: [
-      { name: "Prize de Putere Seria 3300/3400", description: "PTO gândite pentru piața nord-americană și Oceania, montate pe cutii de viteze pentru acționarea pompelor hidraulice de pe camioane și utilaje mobile. Alegerea corectă depinde de marca și modelul exact al cutiei de viteze pe care se montează." },
-      { name: "Prize de Putere Seria 4100/4300", description: "PTO dedicate cutiilor de viteze Kenworth și Eaton, pentru aplicații nord-americane grele. Se aleg după cuplul necesar la ieșire și tipul exact de cutie pe care se cuplează, informație transmisă de client la cererea de ofertă." },
+      { name: "Prize de Putere Seria 3300/3400", description: "PTO montate pe cutii de viteze pentru acționarea pompelor hidraulice de pe camioane și utilaje mobile; seria 3400 este o variantă mai nouă și mai compactă decât 3300. Alegerea corectă depinde de marca și modelul exact al cutiei de viteze pe care se montează." },
+      { name: "Prize de Putere Seria 4100/4300", description: "PTO pentru camioane și utilaje grele; seria 4300 este dezvoltată pentru piața din Australia, pentru cutii Eaton. Se aleg după cuplul necesar la ieșire și tipul exact de cutie pe care se cuplează, informație transmisă de client la cererea de ofertă." },
       { name: "Pompe cu Roți Dințate", description: "Pompe hidraulice cu roți dințate pentru acționarea basculării, macaralelor sau altor circuite hidraulice de pe vehicule comerciale, alese după debitul și presiunea necesară în circuit." },
       { name: "Motoare cu Piston Bent-Axis FR/MR/FRM", description: "Motoare hidraulice cu piston de tip bent-axis, pentru cupluri mari la turații reduse, folosite la trolii, benzi transportoare sau mecanisme de propulsie hidraulică de pe utilaje mobile." },
     ],
@@ -155,13 +153,13 @@ Pentru piața din România, Bezares e relevant la firmele care echipează camioa
       "Construcții — macarale și platforme montate pe camion",
       "Intervenție și situații de urgență — autospeciale cu circuite hidraulice auxiliare",
     ],
-    infinitrade: `La Bezares lucrăm pe principiul a spune clar ce putem și ce nu putem confirma înainte de ofertă: fără codul exact al cutiei de viteze pe care se montează priza de putere, nu putem stabili compatibilitatea mecanică a PTO-ului ales. Avem nevoie de marca și modelul cutiei de viteze, cuplul disponibil și tipul de pompă pe care vreți să o acționați. Aducem PTO-uri, pompe și motoare Bezares prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Fiecare configurație se verifică tehnic înainte de confirmare, ca să evităm o priză de putere incompatibilă cu cutia de viteze a vehiculului.`,
+    infinitrade: `Înainte de ofertă spunem clar ce putem și ce nu putem confirma: fără codul exact al cutiei de viteze pe care se montează priza de putere, nu putem stabili compatibilitatea mecanică a PTO-ului ales. Avem nevoie de marca și modelul cutiei de viteze, cuplul disponibil și tipul de pompă pe care vreți să o acționați. Aducem PTO-uri, pompe și motoare Bezares prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Fiecare configurație se verifică tehnic înainte de confirmare, ca să evităm o priză de putere incompatibilă cu cutia de viteze a vehiculului.`,
     limitation: "Nu putem confirma compatibilitatea unei prize de putere fără codul exact al cutiei de viteze pe care urmează să fie montată.",
     productCodes: [
-      { code: "PTO Seria 3300", description: "Priză de putere pentru piața nord-americană și Oceania" },
-      { code: "PTO Seria 3400", description: "Priză de putere pentru piața nord-americană și Oceania" },
-      { code: "PTO Seria 4100", description: "Priză de putere dedicată cutiilor Kenworth/Eaton" },
-      { code: "PTO Seria 4300", description: "Priză de putere dedicată cutiilor Kenworth/Eaton" },
+      { code: "PTO Seria 3300", description: "Priză de putere, serie consacrată" },
+      { code: "PTO Seria 3400", description: "Priză de putere, variantă mai nouă și mai compactă" },
+      { code: "PTO Seria 4100", description: "Priză de putere, platformă dovedită" },
+      { code: "PTO Seria 4300", description: "Priză de putere dezvoltată pentru piața din Australia, cu cutii Eaton" },
       { code: "PTO pentru ZF", description: "Priză de putere compatibilă cu cutii de viteze ZF" },
       { code: "PTO pentru Mercedes-Benz", description: "Priză de putere compatibilă cu cutii Mercedes-Benz" },
       { code: "PTO pentru Volvo", description: "Priză de putere compatibilă cu cutii de viteze Volvo" },
@@ -181,13 +179,13 @@ Pentru piața din România, Bezares e relevant la firmele care echipează camioa
     faq: [
       { q: "Ce produce Bezares?", a: "Bezares fabrică prize de putere (PTO) pentru cutii de viteze de camion, pompe hidraulice cu roți dințate, palete sau pistoane și motoare hidraulice bent-axis, toate montate pe vehicule comerciale și utilaje mobile." },
       { q: "Cum aleg priza de putere Bezares potrivită pentru camionul meu?", a: "Aveți nevoie de marca și modelul exact al cutiei de viteze pe care se montează PTO-ul, plus cuplul cerut de pompa pe care vreți să o acționați; fără aceste date nu putem confirma compatibilitatea mecanică." },
-      { q: "Ce diferență e între seriile 3300/3400 și 4100/4300 de la Bezares?", a: "Seriile 3300 și 3400 sunt gândite pentru piața nord-americană și Oceania, în timp ce 4100 și 4300 sunt dedicate special cutiilor de viteze Kenworth și Eaton; alegerea depinde de cutia de viteze exactă a vehiculului." },
+      { q: "Ce diferență e între seriile 3300/3400 și 4100/4300 de la Bezares?", a: "Seria 3400 este o variantă mai nouă și mai compactă decât 3300, iar seria 4300 este dezvoltată pentru piața din Australia, pentru cutii Eaton; alegerea depinde de cutia de viteze exactă a vehiculului." },
       { q: "Livrați echipamente Bezares în România și cât durează?", a: "Da, aducem PTO-uri, pompe și motoare Bezares la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și disponibilitate la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de PTO sau pompă Bezares?", a: "Trimiteți marca și modelul cutiei de viteze, cuplul necesar și tipul de pompă sau motor pe care vreți să îl acționați; pe baza acestor informații confirmăm varianta compatibilă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bezares – Home", url: "https://bezares.com/", publisher: "Bezares S.A.", accessed: "2026-09-25" },
       { title: "Power Take-Offs – Bezares", url: "https://bezares.com/product-family/ptos/", publisher: "Bezares S.A.", accessed: "2026-09-25" },
@@ -198,27 +196,27 @@ Pentru piața din România, Bezares e relevant la firmele care echipează camioa
   'kawasaki-precision-machinery': {
     name: "Kawasaki Precision Machinery",
     headquarters: "Plymouth, Marea Britanie",
-    overview: `Kawasaki Precision Machinery este divizia europeană de componente hidraulice a Kawasaki, cu sediul la Plymouth, în Marea Britanie, specializată în pompe și motoare cu piston axial și în motoarele cu piston radial de sub marca Staffa. Gama de pompe acoperă cilindree de la 28 la peste 280 cm³/rotație, cu presiuni continue de până la 350 bar, iar motoarele Staffa merg de la câteva sute la peste 8.000 cm³/rotație. Pentru România putem oferta unități individuale pentru utilaje mobile, mașini industriale sau aplicații marine.
+    overview: `Kawasaki Precision Machinery (UK) Ltd este un producător de componente hidraulice, cu sediul la Plymouth, în Marea Britanie, specializată în pompe și motoare cu piston axial și în motoarele cu piston radial de sub marca Staffa. Gama de pompe acoperă cilindree de la 28 la 280 cm³/rotație, cu presiuni continue de până la 350 bar, iar motoarele Staffa HMB merg de la 188 la 8.000 cm³/rotație. Pentru România putem oferta unități individuale pentru utilaje mobile, mașini industriale sau aplicații marine.
 
-Spre deosebire de o gamă generalistă precum cea Bosch Rexroth, Kawasaki concentrează oferta pe pompe cu piston axial de înaltă presiune — seriile K3V, K5V și K7V, cu cilindree de 63-212 cm³ la 350 bar continuu — și pe motoarele radiale Staffa, gândite pentru cuplu mare la turație mică. Seria HMB de motoare cu deplasare fixă acoperă 188-8.000 cm³ pe 11 mărimi de carcasă, iar familia HPC cu deplasare duală, de până la 6.555 cm³, e folosită frecvent în aplicații marine și offshore. Motorul HPC400, cu deplasare cvadruplă, ajunge la un cuplu nominal de 25.000 Nm și o putere maximă de 430 kW.
+Spre deosebire de o gamă generalistă precum cea Bosch Rexroth, Kawasaki concentrează oferta pe pompe cu piston axial de înaltă presiune — seriile K3V, K5V și K7V, cu cilindree de 63-212 cm³ la 350 bar continuu — și pe motoarele radiale Staffa, gândite pentru cuplu mare la turație mică. Seria HMB de motoare cu deplasare fixă acoperă 188-8.000 cm³ pe 11 mărimi de carcasă, iar familia HPC cu deplasare duală acoperă 1.344-6.555 cm³. Motorul HPC400, cu deplasare cvadruplă, ajunge la un cuplu nominal de 25.000 Nm și o putere maximă de 430 kW.
 
 În România, pompele și motoarele Kawasaki au sens la utilaje de construcții, echipamente agricole grele, macarale și instalații industriale unde e nevoie de cuplu mare la turație redusă sau de presiuni de lucru ridicate. Firmele de service hidraulic pot obține unități de schimb pe baza codului exact de model și a cilindreei existente pe utilaj.`,
     whyChoose: [
-      "Pompe cu piston axial până la 350 bar presiune continuă, în cilindree de la 28 la peste 280 cm³/rotație",
+      "Pompe cu piston axial până la 350 bar presiune continuă, în cilindree de la 28 la 280 cm³/rotație",
       "Motoare radiale Staffa cu deplasare fixă, duală, triplă sau cvadruplă, pentru cuplu mare la turație redusă",
-      "Motorul HPC400 oferă un cuplu nominal de 25.000 Nm, pentru aplicații de foraj sau macarale grele",
-      "Familia HPC de motoare duale e folosită frecvent în aplicații marine și offshore",
-      "Divizie europeană cu sediu propriu la Plymouth, nu doar un birou de vânzări regional",
+      "Motorul HPC400, cu deplasare cvadruplă, oferă un cuplu nominal de 25.000 Nm",
+      "Familia HPC de motoare cu deplasare duală acoperă 1.344-6.555 cm³/rotație la 250 bar",
+      "Sediu la Plymouth, Marea Britanie (Ernesettle)",
     ],
     keyProducts: [
       { name: "Pompe cu Piston Axial Seria K3V/K5V/K7V", description: "Pompe cu piston axial în cilindree de 63-212 cm³/rotație, cu presiune continuă de 350 bar, folosite la excavatoare și utilaje de construcții unde e nevoie de debit variabil controlat de un regulator de putere." },
-      { name: "Pompe Seria K3VG/K7VG", description: "Variante de pompă cu piston axial extinse la cilindree mai mari, 63-280 cm³ pentru K3VG și 180-265 cm³ pentru K7VG, tot la 350 bar presiune continuă, pentru utilaje de putere mai mare." },
-      { name: "Motoare Radiale Staffa HMB/HPB", description: "Motoare cu piston radial și deplasare fixă, 188-8.000 cm³/rotație pe 11 mărimi de carcasă, cu echilibrare hidrostatică ce reduce uzura; varianta HPB oferă turații și puteri superioare față de HMB." },
+      { name: "Pompe Seria K3VG/K7VG", description: "Variante de pompă cu piston axial extinse la cilindree mai mari, 63-280 cm³ pentru K3VG și 180 sau 265 cm³ pentru K7VG, tot la 350 bar presiune continuă, pentru utilaje de putere mai mare." },
+      { name: "Motoare Radiale Staffa HMB/HPB", description: "Motoare cu piston radial și deplasare fixă, 188-8.000 cm³/rotație pe 11 mărimi de carcasă; datele variantei HPB se confirmă pe cod, din documentația producătorului." },
       { name: "Motoare Radiale Staffa HMC/HPC", description: "Motoare cu deplasare duală, comutabile sub sarcină între două cupluri diferite; HMC acoperă 492-5.326 cm³, iar HPC, orientat spre marină și offshore, 1.344-6.555 cm³, ambele la 250 bar presiune continuă." },
     ],
     industries: [
-      "Construcții — excavatoare și utilaje de terasamente echipate KYB",
-      "Marină și offshore — motoare Staffa pentru troliile de ancorare",
+      "Construcții — excavatoare și utilaje de terasamente",
+      "Marină și offshore — motoare Staffa pentru aplicații cu cuplu mare la turație mică",
       "Agricultură — utilaje autopropulsate cu tracțiune hidrostatică",
       "Industrie — mașini staționare cu cerințe de cuplu mare",
     ],
@@ -232,17 +230,16 @@ Spre deosebire de o gamă generalistă precum cea Bosch Rexroth, Kawasaki concen
       { code: "K7V", description: "Pompă cu piston axial, 63-212 cm³/rotație, 350 bar continuu" },
       { code: "K3VG", description: "Pompă cu piston axial, 63-280 cm³/rotație, 350 bar continuu" },
       { code: "K7VG", description: "Pompă cu piston axial, 180 sau 265 cm³/rotație" },
-      { code: "K7SP", description: "Pompă cu piston axial cu flux divizat (split flow)" },
+      { code: "K7SP", description: "Pompă cu piston axial; datele se confirmă pe cod" },
       { code: "K3VLC", description: "Pompă cu piston axial cu deplasare variabilă" },
-      { code: "K-Axle", description: "Pompă compactă în dezvoltare, 50 cm³, până la 5.000 rpm" },
-      { code: "K3VLS Smart Pump", description: "Pompă cu control digital, bazată pe K3VLS85" },
+      { code: "K-Axle", description: "Pompă compactă de 50 cm³, în variantă simplă sau tandem" },
+      { code: "K3VLS Smart Pump", description: "Pompă indicată de producător ca aflată în dezvoltare" },
       { code: "HMB", description: "Motor radial Staffa, deplasare fixă, 188-8.000 cm³" },
-      { code: "HPB", description: "Motor radial Staffa, putere ridicată, deplasare fixă" },
+      { code: "HPB", description: "Motor radial Staffa, deplasare fixă" },
       { code: "HMC", description: "Motor radial Staffa, deplasare duală, 492-5.326 cm³" },
       { code: "HPC", description: "Motor radial Staffa, deplasare duală, 1.344-6.555 cm³" },
       { code: "HMF", description: "Motor radial Staffa, deplasare triplă, 1.475-5.326 cm³" },
       { code: "HPC400", description: "Motor radial Staffa, deplasare cvadruplă, cuplu 25.000 Nm" },
-      { code: "Staffa Smart Motor", description: "Motor radial cu deplasare variabilă continuă, control electronic" },
     ],
     faq: [
       { q: "Ce produce Kawasaki Precision Machinery?", a: "Kawasaki Precision Machinery fabrică pompe și motoare hidraulice cu piston axial, plus motoarele cu piston radial de sub marca Staffa, pentru utilaje de construcții, agricultură, aplicații marine și industriale." },
@@ -252,8 +249,8 @@ Spre deosebire de o gamă generalistă precum cea Bosch Rexroth, Kawasaki concen
       { q: "Ce trebuie să trimit pentru o ofertă de pompă sau motor Kawasaki?", a: "Trimiteți codul complet de pe eticheta echipamentului existent, cilindreea, presiunea de lucru și aplicația (utilaj mobil, marină sau industrial), ca să identificăm familia și varianta potrivită din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Kawasaki Precision Machinery – Home", url: "https://www.kawasakihydraulics.com/", publisher: "Kawasaki Precision Machinery (UK) Ltd", accessed: "2026-09-25" },
       { title: "Axial Piston Pumps", url: "https://www.kawasakihydraulics.com/type/axial-piston-pumps/", publisher: "Kawasaki Precision Machinery (UK) Ltd", accessed: "2026-09-25" },
@@ -263,9 +260,9 @@ Spre deosebire de o gamă generalistă precum cea Bosch Rexroth, Kawasaki concen
 
   'kyb-corporation': {
     name: "KYB Corporation",
-    overview: `KYB Corporation este un producător japonez de componente hidraulice, prezent pe piața componentelor pentru utilaje de construcții, vehicule industriale, agricultură, marină și echipament feroviar. Gama industrială include pompe cu piston de înaltă presiune, motoare de deplasare și de rotire pentru excavatoare, cilindri hidraulici și valve de control pentru șenile și braț. Pentru România putem oferta componente individuale pentru utilaje unde echipamentul original e produs de KYB sau compatibil cu gama sa.
+    overview: `KYB Corporation este un producător japonez de componente hidraulice, prezent pe piața componentelor pentru utilaje de construcții, vehicule industriale, agricultură, marină și echipament feroviar. Gama industrială include pompe cu piston de înaltă presiune, motoare de deplasare și de rotire pentru excavatoare, cilindri hidraulici și valve de control. Pentru România putem oferta componente individuale pentru utilaje unde echipamentul original e produs de KYB sau compatibil cu gama sa.
 
-Spre deosebire de o gamă generalistă precum cea Parker, KYB își construiește oferta industrială în jurul aplicației finale — motorul de deplasare (travel motor) și motorul de rotire (swing motor) pentru excavatoare, motorul de ventilator compact pentru răcirea utilajului și valvele de control dedicate acționării brațului de la șenile. Familia MMP integrează motorul electric, pompa hidraulică, valva și cilindrul într-o singură unitate compactă, gândită pentru linii de producție unde spațiul de montaj e limitat. Pompele mici cu piston axial din gama industrială sunt prezentate ca fiind printre cele mai compacte pompe de înaltă presiune de pe piață, pentru aplicații unde greutatea și gabaritul contează.
+Spre deosebire de o gamă generalistă precum cea Parker, KYB își construiește oferta industrială în jurul aplicației finale — motorul de deplasare (travel motor) și motorul de rotire (swing motor) pentru excavatoare, motorul de ventilator compact pentru răcirea utilajului și valvele de control. Familia MMP integrează motorul electric, pompa hidraulică, valva și cilindrul într-o singură unitate compactă, gândită pentru linii de producție unde spațiul de montaj e limitat. Pompele mici cu piston axial din gama industrială sunt prezentate ca fiind printre cele mai compacte pompe de înaltă presiune de pe piață, pentru aplicații unde greutatea și gabaritul contează.
 
 Pentru piața din România, componentele KYB au sens la service-urile de utilaje de construcții și agricole care lucrează cu excavatoare sau tractoare echipate original cu motoare de deplasare, de rotire sau cilindri KYB, și la firmele care caută o alternativă compatibilă pentru piese uzate. Confirmarea corectă a codului de pe componenta existentă rămâne pasul esențial înaintea oricărei oferte.`,
     whyChoose: [
@@ -277,14 +274,14 @@ Pentru piața din România, componentele KYB au sens la service-urile de utilaje
     ],
     keyProducts: [
       { name: "Motoare de Deplasare și de Rotire", description: "Motoare hidraulice pentru propulsia șenilelor (travel motor) și pentru rotirea suprastructurii (swing motor) la excavatoare și utilaje similare, alese după cuplul și turația cerute de mecanismul acționat." },
-      { name: "Pompe cu Piston de Înaltă Presiune", description: "Pompe cu piston pentru circuitul principal al excavatoarelor și utilajelor de construcții, disponibile și în variantă pentru circuit închis, compatibilă cu control electronic al debitului." },
+      { name: "Pompe cu Piston de Înaltă Presiune", description: "Pompe cu piston pentru circuitul principal al excavatoarelor și utilajelor de construcții, disponibile și în variantă pentru circuit închis." },
       { name: "MMP (Mini-Motion Package)", description: "Unitate compactă care integrează motor electric, pompă hidraulică, valvă și cilindru într-un singur ansamblu, pentru aplicații industriale unde spațiul de montaj e restrâns și cablarea trebuie simplificată." },
       { name: "Pompe Mici cu Piston Axial", description: "Pompe de înaltă presiune, printre cele mai compacte din categoria lor conform producătorului, potrivite pentru echipamente unde greutatea și gabaritul pompei contează în proiectare." },
     ],
     industries: [
       "Construcții — excavatoare și utilaje de mișcare a pământului",
-      "Agricultură — tractoare și utilaje autopropulsate",
-      "Marină — macarale de pupă pentru operațiuni de foraj și exploatare",
+      "Agricultură — utilaje agricole",
+      "Marină — echipamente hidraulice pentru aplicații marine",
       "Feroviar — echipament hidraulic pentru material rulant",
     ],
     infinitrade: `Pentru componentele KYB spunem direct ce putem și ce nu putem confirma: fără codul exact de pe pompă, motor sau cilindru, nu identificăm sigur varianta compatibilă din gama industrială. Avem nevoie de codul complet de pe plăcuța componentei, aplicația (excavator, tractor, macara) și, dacă e posibil, cilindreea sau presiunea de lucru. Aducem componente KYB prin canale de aprovizionare din UE sau direct din Japonia, cu termen orientativ de 1–4 săptămâni la comandă. Fiecare comandă se confirmă tehnic înainte de ofertă, pentru că multe piese sunt specifice unui model exact de utilaj.`,
@@ -294,14 +291,14 @@ Pentru piața din România, componentele KYB au sens la service-urile de utilaje
       { code: "Swing Motor", description: "Motor hidraulic de rotire a suprastructurii excavatorului" },
       { code: "Fan Motor", description: "Motor hidraulic compact pentru ventilatorul de răcire" },
       { code: "Piston Pump (High Pressure)", description: "Pompă cu piston de înaltă presiune pentru circuitul principal" },
-      { code: "Piston Pump (Closed Circuit)", description: "Pompă cu piston pentru circuit închis, control electronic" },
+      { code: "Piston Pump (Closed Circuit)", description: "Pompă cu piston pentru circuit închis" },
       { code: "Control Valve", description: "Valvă de control pentru acționarea brațului excavatorului" },
       { code: "Hydraulic Cylinder", description: "Cilindru hidraulic cu etanșare și placaj dedicat" },
       { code: "MMP (Mini-Motion Package)", description: "Unitate compactă motor-pompă-valvă-cilindru integrată" },
       { code: "Small Axial Piston Pump", description: "Pompă de înaltă presiune, gabarit foarte redus" },
       { code: "Oil Buffer", description: "Amortizor hidraulic pentru oprirea lină a sarcinilor mari" },
       { code: "Gas Spring", description: "Arc cu gaz, forță constantă, pentru uși și capace" },
-      { code: "Large Stern Crane", description: "Macara de pupă pentru operațiuni marine de foraj" },
+      { code: "Marine Products", description: "Echipamente hidraulice pentru aplicații marine" },
     ],
     faq: [
       { q: "Ce produce KYB Corporation?", a: "KYB fabrică motoare hidraulice de deplasare și de rotire pentru excavatoare, pompe cu piston de înaltă presiune, cilindri hidraulici, valve de control și unități compacte MMP, pentru utilaje de construcții, agricole, marine și feroviare." },
@@ -311,8 +308,8 @@ Pentru piața din România, componentele KYB au sens la service-urile de utilaje
       { q: "Ce trebuie să trimit pentru o ofertă de componentă KYB Corporation?", a: "Trimiteți codul de pe eticheta componentei existente, modelul exact al utilajului și aplicația (excavator, tractor, macara marină), plus cilindreea sau presiunea de lucru dacă le cunoașteți, ca să verificăm compatibilitatea înainte de a confirma oferta." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "KYB Corporation – Home", url: "https://www.kyb.co.jp/en/", publisher: "KYB Corporation", accessed: "2026-09-25" },
       { title: "Products – KYB", url: "https://www.kyb.co.jp/en/products/", publisher: "KYB Corporation", accessed: "2026-09-25" },
@@ -323,21 +320,21 @@ Pentru piața din România, componentele KYB au sens la service-urile de utilaje
 
   'oleodinamica-marchesini': {
     name: "Oleodinamica Marchesini",
-    headquarters: "Piacenza, Italia",
-    overview: `Oleodinamica Marchesini este un producător italian de valve hidraulice, cu rădăcini din 1982, când Ettore Marchesini a fondat compania OILVALVOLE; astăzi funcționează ca brand în cadrul grupului OM, cu producție la Piacenza. Gama acoperă valve de blocare pilotate, valve de maxim presiune, valve overcentre pentru control coborâre și cuplaje rotative, folosite pe utilaje agricole, de construcții și de ridicare. Pentru România putem oferta valve individuale pentru înlocuirea celor uzate pe cilindri hidraulici sau echipamente de ridicare.
+    headquarters: "Prevalle (Brescia), Italia",
+    overview: `Oleodinamica Marchesini este un producător italian de valve hidraulice, cu rădăcini din 1982, când Ettore Marchesini a fondat compania OILVALVOLE; astăzi funcționează ca brand în cadrul grupului OM, cu sediul principal la Prevalle (Brescia). Gama acoperă valve de blocare pilotate, valve de maxim presiune, valve overcentre pentru control coborâre și cuplaje rotative, folosite pe utilaje agricole, de construcții și de ridicare. Pentru România putem oferta valve individuale pentru înlocuirea celor uzate pe cilindri hidraulici sau echipamente de ridicare.
 
-Spre deosebire de o gamă generalistă de valve precum cea Atos, Oleodinamica Marchesini se concentrează pe valve de blocare și control pentru cilindri hidraulici — seria VBPDE de valve de blocare pilotate dublu acoperă dimensiuni de la 1/4" la 1", cu presiuni de până la 350 bar și debite de 20-100 l/min, cu raport de pilotare de 1:4 până la 1:5,5. Valvele overcentre, disponibile în variante CETOP 3 și CETOP 5 sau cu flanșă, controlează coborârea sarcinii pe cilindri cu efect simplu sau dublu, iar valvele de maxim presiune sunt oferite în variante cartuș pentru 20, 35, 80 sau 120 l/min. Cuplajele rotative, în linie sau la 90°, completează gama pentru circuite unde furtunul trebuie să se poată roti liber.
+Spre deosebire de o gamă generalistă de valve precum cea Atos, Oleodinamica Marchesini se concentrează pe valve de blocare și control pentru cilindri hidraulici — seria VBPDE de valve de blocare pilotate dublu acoperă dimensiuni de la 1/4 la 3/4 inchi, cu presiuni de până la 350 bar și debite de 20-100 l/min, cu raport de pilotare de 1:4 până la 1:5,5. Valvele overcentre, disponibile în variante CETOP 3 și CETOP 5 sau cu flanșă, controlează coborârea sarcinii pe cilindri cu efect simplu sau dublu, iar valvele de maxim presiune sunt oferite în variante cartuș pentru 20, 35, 80 sau 120 l/min. Cuplajele rotative, în linie sau la 90°, completează gama pentru circuite unde furtunul trebuie să se poată roti liber.
 
 În România, valvele Marchesini sunt relevante la utilajele agricole cu cilindri de basculare, la macarale și platforme de ridicare unde controlul coborârii sub sarcină e critic, și la constructorii de echipamente hidraulice care montează valve pe cilindri proprii. Alegerea corectă depinde de presiunea și debitul circuitului, plus tipul exact de montaj — în linie, cu flanșă sau pe cartuș.`,
     whyChoose: [
-      "Valve de blocare pilotate VBPDE în cinci dimensiuni, de la 1/4\" la 1\", cu debite de până la 100 l/min",
+      "Valve de blocare pilotate VBPDE de la 1/4 la 3/4 inchi (plus varianta M18), cu debite de până la 100 l/min",
       "Valve overcentre în variante CETOP 3, CETOP 5 și cu flanșă, pentru control coborâre pe cilindri simpli sau dubli",
       "Valve de maxim presiune disponibile în cartuș, pentru patru trepte de debit: 20, 35, 80 și 120 l/min",
       "Cuplaje rotative în linie sau la 90°, pentru circuite hidraulice cu furtun rotativ",
-      "Producție concentrată la Piacenza, în cadrul grupului OM, cu istorie din 1982",
+      "Parte din grupul OM, cu istorie din 1982",
     ],
     keyProducts: [
-      { name: "Valve de Blocare Pilotate VBPDE", description: "Valve de blocare cu dublu pilotaj, în dimensiuni de la 1/4\" la 1\", cu presiune maximă de 300-350 bar și debit de 20-100 l/min, raport de pilotare 1:4 până la 1:5,5. Se aleg după debitul circuitului și dimensiunea racordului." },
+      { name: "Valve de Blocare Pilotate VBPDE", description: "Valve de blocare cu dublu pilotaj, în dimensiuni de la 1/4 la 3/4 inchi, cu presiune maximă de 300-350 bar și debit de 20-100 l/min, raport de pilotare 1:4 până la 1:5,5. Se aleg după debitul circuitului și dimensiunea racordului." },
       { name: "Valve Overcentre", description: "Valve de control al coborârii sarcinii pe cilindri hidraulici, disponibile pentru efect simplu sau dublu, în variante CETOP 3, CETOP 5 sau cu montaj pe flanșă, cu presiune maximă de până la 350 bar." },
       { name: "Valve de Maxim Presiune (Relief)", description: "Valve de limitare a presiunii, în variante ușoare, standard, în linie sau diferențiate, disponibile ca elemente cartuș pentru 20, 35, 80 sau 120 l/min, cu presiune maximă de 300-350 bar." },
       { name: "Cuplaje Rotative Hidraulice", description: "Racorduri rotative pentru circuite hidraulice, disponibile în variantă în linie sau la 90 de grade, pentru aplicații unde furtunul sau brațul hidraulic trebuie să se poată roti fără a răsuci conducta." },
@@ -348,14 +345,13 @@ Spre deosebire de o gamă generalistă de valve precum cea Atos, Oleodinamica Ma
       "Ridicare — macarale și platforme cu valve overcentre de siguranță",
       "Industrie generală — cilindri hidraulici cu valve de blocare montate direct",
     ],
-    infinitrade: `Informațiile despre valvele Marchesini de mai jos provin din surse publice ale producătorului, în special din catalogul tehnic disponibil pe site-ul grupului OM; nu avem acces la stocul fabricii din Piacenza. Pentru ofertă avem nevoie de tipul de valvă (blocare, overcentre sau maxim presiune), dimensiunea racordului sau tipul cartuș, debitul de lucru și presiunea maximă a circuitului. Aducem valvele prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Montajul final rămâne responsabilitatea integratorului sau service-ului hidraulic care cunoaște circuitul complet al utilajului.`,
+    infinitrade: `Informațiile despre valvele Marchesini de mai jos provin din surse publice ale producătorului, în special din catalogul tehnic disponibil pe site-ul grupului OM; nu avem acces la stocul fabricii. Pentru ofertă avem nevoie de tipul de valvă (blocare, overcentre sau maxim presiune), dimensiunea racordului sau tipul cartuș, debitul de lucru și presiunea maximă a circuitului. Aducem valvele prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Montajul final rămâne responsabilitatea integratorului sau service-ului hidraulic care cunoaște circuitul complet al utilajului.`,
     limitation: "Nu confirmăm compatibilitatea unei valve cu un circuit existent fără datele de presiune, debit și tip de montaj transmise de client.",
     productCodes: [
       { code: "VBPDE 1/4\"L", description: "Valvă de blocare dublu pilotată, racord 1/4 inch" },
       { code: "VBPDE 3/8\"L", description: "Valvă de blocare dublu pilotată, racord 3/8 inch" },
       { code: "VBPDE 1/2\"L", description: "Valvă de blocare dublu pilotată, racord 1/2 inch" },
       { code: "VBPDE 3/4\"", description: "Valvă de blocare dublu pilotată, racord 3/4 inch" },
-      { code: "VBPDE 1\"L", description: "Valvă de blocare dublu pilotată, racord 1 inch" },
       { code: "Overcentre CETOP 3", description: "Valvă de control coborâre, montaj CETOP 3" },
       { code: "Overcentre CETOP 5", description: "Valvă de control coborâre, montaj CETOP 5" },
       { code: "Overcentre cu Flanșă", description: "Valvă de control coborâre, montaj pe flanșă" },
@@ -370,13 +366,13 @@ Spre deosebire de o gamă generalistă de valve precum cea Atos, Oleodinamica Ma
     faq: [
       { q: "Ce produce Oleodinamica Marchesini?", a: "Oleodinamica Marchesini fabrică valve hidraulice de blocare, valve overcentre pentru control coborâre, valve de maxim presiune și cuplaje rotative, folosite pe cilindri hidraulici din agricultură, construcții și aplicații de ridicare." },
       { q: "Ce este o valvă overcentre și când am nevoie de una de la Oleodinamica Marchesini?", a: "O valvă overcentre blochează cilindrul hidraulic împotriva coborârii necontrolate în caz de ruptură a furtunului sau pierdere de presiune; e recomandată la macarale, platforme de ridicare sau brațe hidraulice unde siguranța sarcinii suspendate contează." },
-      { q: "Cum aleg valva de blocare VBPDE potrivită?", a: "Aveți nevoie de dimensiunea racordului (de la 1/4\" la 1\"), debitul de lucru al circuitului și presiunea maximă; raportul de pilotare diferă între variante, așa că aplicația exactă contează pentru alegerea corectă." },
+      { q: "Cum aleg valva de blocare VBPDE potrivită?", a: "Aveți nevoie de dimensiunea racordului (de la 1/4 la 3/4 inchi), debitul de lucru al circuitului și presiunea maximă; raportul de pilotare diferă între variante, așa că aplicația exactă contează pentru alegerea corectă." },
       { q: "Livrați valve Oleodinamica Marchesini în România?", a: "Da, aducem valve hidraulice Marchesini la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tipul și dimensiunea exactă cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de valvă hidraulică Marchesini?", a: "Trimiteți tipul de valvă căutat, dimensiunea racordului sau a cartușului, debitul de lucru și presiunea maximă a circuitului, ca să identificăm varianta compatibilă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Oleodinamica Marchesini – OM Group", url: "https://www.groupmarchesini.com/en/brands/oleodinamica-marchesini/", publisher: "OM Group", accessed: "2026-09-25" },
       { title: "Catalogo OM – Oleodinamica Marchesini", url: "https://www.groupmarchesini.com/wp-content/uploads/2023/01/Catalogo-OM.pdf", publisher: "OM Group", accessed: "2026-09-25" },
@@ -385,58 +381,54 @@ Spre deosebire de o gamă generalistă de valve precum cea Atos, Oleodinamica Ma
 
   clippard: {
     name: "Clippard",
-    overview: `Clippard Instrument Laboratory este un producător american de componente pneumatice miniaturale, cunoscut pentru linia Minimatic, care cuprinde peste 7.000 de valve pneumatice standard. Gama include valve electronice, valve manuale, valve proporționale și valve de izolare, plus controlere electronice pentru automatizare industrială de precizie. Pentru piața din România putem oferta componente individuale pentru echipamente de laborator, dispozitive medicale sau linii de automatizare unde miniaturizarea și greutatea redusă contează mai mult decât la o instalație industrială obișnuită.
+    overview: `Clippard Instrument Laboratory este un producător american de componente pneumatice miniaturale, cunoscut pentru linia Minimatic, care cuprinde aproximativ 7.000 de valve standard. Gama include valve electronice, valve manuale, valve proporționale și valve de izolare, plus controlere electronice pentru automatizare industrială de precizie. Pentru piața din România putem oferta componente individuale pentru echipamente de laborator, dispozitive medicale sau linii de automatizare unde miniaturizarea și greutatea redusă contează mai mult decât la o instalație industrială obișnuită.
 
-Spre deosebire de o gamă generalistă de automatizare pneumatică precum cea Festo, Clippard se concentrează pe componente de dimensiuni foarte mici, potrivite pentru instrumente de laborator și echipamente medicale — seria ET de valve electronice include modele precum ET-P-05-0950-V, la 3,4 bar și 5 VDC, cu racord #10-32, mult mai mic decât o electrovalvă industrială standard. Seria NPV de valve pinch, cu modelul NPV3L-1CP-05-24, e gândită pentru fluide care nu trebuie să atingă componentele interne ale valvei, iar seriile NR și M-NR, din PEEK, cu modele precum NR4-3-12-P, sunt izolate complet de fluidul de proces. Certificarea ISO 9001:2015 acoperă fabricarea acestor componente.
+Spre deosebire de o gamă generalistă de automatizare pneumatică precum cea Festo, Clippard se concentrează pe componente de dimensiuni foarte mici, potrivite pentru instrumente de laborator și echipamente medicale — seria ET de valve electronice include modele precum ET-P-05-0950-V, la 3,4 bar și 5 VDC, cu racord #10-32, mult mai mic decât o electrovalvă industrială standard. Seria NPV de valve pinch, cu modelul NPV3L-1CP-05-24, e gândită pentru fluide care nu trebuie să atingă componentele interne ale valvei, iar valvele de izolare cu corp din PEEK și diafragmă din PTFE, precum modelul NR4-3-12-P, izolează mecanismul de acționare de fluidul de proces. Certificarea ISO 9001:2015 acoperă fabricarea acestor componente.
 
 Pentru piața din România, componentele Clippard au sens la producătorii de echipamente medicale, laboratoare de analize și integratori care lucrează cu instrumente compacte unde o electrovalvă standard nu încape sau ar introduce prea multă greutate. Alegerea corectă a valvei depinde de presiunea de lucru, tensiunea bobinei și tipul de fluid vehiculat.`,
     whyChoose: [
-      "Peste 7.000 de valve pneumatice standard în linia Minimatic, pentru aproape orice configurație de miniaturizare",
-      "Valve din PEEK, seriile NR și M-NR, complet izolate de fluidul de proces, potrivite pentru medii sensibile",
-      "Valve pinch seria NPV, unde fluidul nu atinge părțile mobile ale valvei, utile la aplicații sterile",
+      "Aproximativ 7.000 de valve standard în linia Minimatic",
+      "Valve de izolare cu corp din PEEK și diafragmă din PTFE (seria PIV), care izolează mecanismul de acționare de fluidul de proces",
+      "Valve pinch seria NPV, unde fluidul nu atinge părțile mobile ale valvei",
       "Certificare ISO 9001:2015 pentru fabricarea componentelor pneumatice miniaturale",
       "Componente folosite documentat în aplicații de cartografiere ADN și echipamente de chirurgie ortopedică",
     ],
     keyProducts: [
-      { name: "Valve Electronice Seria ET", description: "Valve electronice miniaturale, cu modele precum ET-P-05-0950-V (3,4 bar, 5 VDC, racord #10-32) sau ETO-3-24 (3 căi, montaj în linie, 24 VDC), pentru automatizare compactă în laborator sau echipamente medicale." },
-      { name: "Valve de Izolare Seria NR/M-NR", description: "Valve de izolare din PEEK, cu modele precum NR4-3-12-P din familia M-NR, unde fluidul de proces nu atinge decât materialul PEEK, potrivite pentru medii chimic agresive sau ultra-curate." },
+      { name: "Valve Electronice Seria ET", description: "Valve electronice miniaturale, cu modele precum ET-P-05-0950-V (3,4 bar, 5 VDC, racord #10-32) sau ETO-3-24 (3 căi, normal deschisă, montaj manifold, 24 VDC), pentru automatizare compactă în laborator sau echipamente medicale." },
+      { name: "Valve de Izolare Seria PIV", description: "Valve de izolare a mediului, cu corp din PEEK și diafragmă din PTFE, cu modele precum NR4-3-12-P (3 căi, 12 VDC, 0-30 psig), la care mecanismul de acționare este izolat de calea fluidului." },
       { name: "Valve Pinch Seria NPV", description: "Valve cu strangulare a unui tub flexibil, precum modelul NPV3L-1CP-05-24, montate pe panou, normal închise, la 24 VDC, unde fluidul rămâne complet izolat de mecanismul valvei." },
-      { name: "Valve Proporționale Seria DV", description: "Valve proporționale pentru controlul fin al debitului de gaz, folosite documentat în aplicații de bioreactor unde e nevoie de reglaj continuu, nu doar de comutare deschis/închis." },
+      { name: "Valve Seria DV", description: "Valve de precizie construite cu tehnologia „Spider” a producătorului; debitul și presiunea exacte se confirmă pe cod, din documentația Clippard." },
     ],
     industries: [
       "Medical și laborator — instrumente compacte pentru diagnostic și cercetare",
       "Chirurgie ortopedică — echipamente pneumatice miniaturale",
-      "Cercetare biotehnologică — cartografiere ADN și bioreactoare",
+      "Cercetare biotehnologică — cartografiere ADN",
       "Automatizare industrială de precizie — unde spațiul de montaj e limitat",
     ],
     certifications: [ "ISO 9001:2015 — sistem de management al calității pentru fabricarea componentelor pneumatice" ],
     infinitrade: `Pentru componentele Clippard lucrăm cu informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul din fabrica americană. Pentru identificarea corectă a valvei avem nevoie de codul complet de model (de exemplu ET-2M-24 sau NR4-3-12-P), tensiunea bobinei și presiunea de lucru a aplicației. Aducem componentele Clippard prin canale de aprovizionare din UE sau direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă. Pentru echipamente medicale sau de laborator recomandăm confirmarea codului exact înainte de integrare, dat fiind numărul mare de variante din linia Minimatic.`,
     limitation: "Nu putem confirma echivalența exactă între un cod Clippard și o componentă concurentă fără verificare directă a dimensiunilor și parametrilor electrici.",
     productCodes: [
-      { code: "EV Series", description: "Valve electronice, familia de bază Minimatic" },
-      { code: "ET-P-05-0950-V", description: "Valvă electronică, 3,4 bar, 5 VDC, racord #10-32" },
+      { code: "EV Series", description: "Valve electronice care convertesc semnale electrice de joasă tensiune în ieșire pneumatică de până la 100 psig" },
+      { code: "ET-P-05-0950-V", description: "Valvă proporțională 2 căi (seria EVP), normal închisă, 3,4 bar, 5 VDC, racord #10-32" },
       { code: "ET-2M-24", description: "Valvă electronică 2 căi, normal închisă, montaj manifold, 24 VDC" },
-      { code: "ETO-3-24", description: "Valvă electronică 3 căi, montaj în linie, 24 VDC" },
-      { code: "DV Series", description: "Valve proporționale pentru aplicații de bioreactor" },
-      { code: "MJV Series", description: "Valve de izolare, componente cu arc și reținere" },
-      { code: "MAV Series", description: "Valve de izolare, componente cu arc și reținere" },
+      { code: "ETO-3-24", description: "Valvă electronică 3 căi, normal deschisă, montaj manifold, 24 VDC" },
+      { code: "DV Series", description: "Valve de precizie, tehnologie „Spider”" },
       { code: "NPV Series", description: "Valve pinch, fluidul izolat de mecanismul valvei" },
       { code: "NPV3L-1CP-05-24", description: "Valvă pinch montaj panou, normal închisă, 24 VDC" },
-      { code: "NR Series", description: "Valve de izolare PEEK, rezistență chimică ridicată" },
+      { code: "PIV Series", description: "Valve de izolare a mediului, corp din PEEK, diafragmă din PTFE" },
       { code: "NR4-3-12-P", description: "Valvă PEEK 3 căi, până la 30 psig, 12 VDC" },
-      { code: "M-NR Series", description: "Valve de izolare PEEK, 2 sau 3 căi, 12 VDC" },
-      { code: "MJV/MAV Spring Kits", description: "Componente de arc și reținere pentru valve de izolare" },
     ],
     faq: [
-      { q: "Ce produce Clippard?", a: "Clippard fabrică valve pneumatice miniaturale — electronice, manuale, proporționale și de izolare — sub linia Minimatic, cu peste 7.000 de variante standard, folosite în laborator, medical și automatizare de precizie." },
-      { q: "Ce diferență e între seriile NR și M-NR de la Clippard?", a: "Ambele sunt valve de izolare din PEEK, dar diferă la numărul de căi și configurația exactă de montaj; codul complet, de exemplu NR4-3-12-P, indică presiunea maximă, numărul de căi și tensiunea bobinei direct în denumire." },
-      { q: "Cum aleg valva electronică Clippard potrivită?", a: "Aveți nevoie de presiunea de lucru, tensiunea bobinei (de obicei 12, 24 sau alte tensiuni DC) și numărul de căi cerut; modele precum ET-2M-24 sau ETO-3-24 arată exact aceste trei date direct în codul lor." },
+      { q: "Ce produce Clippard?", a: "Clippard fabrică valve pneumatice miniaturale — electronice, manuale, proporționale și de izolare — sub linia Minimatic, cu aproximativ 7.000 de variante standard, folosite în laborator, medical și automatizare de precizie." },
+      { q: "Ce este valva de izolare Clippard NR4-3-12-P?", a: "NR4-3-12-P este o valvă de izolare a mediului cu 3 căi, cu corp din PEEK și diafragmă din PTFE, pentru 12 VDC și 0-30 psig; pentru alte variante confirmăm datele pe cod, din documentația producătorului." },
+      { q: "Cum aleg valva electronică Clippard potrivită?", a: "Aveți nevoie de presiunea de lucru, tensiunea bobinei (de obicei 12, 24 sau alte tensiuni DC) și numărul de căi cerut; modele precum ET-2M-24 sau ETO-3-24 indică în cod numărul de căi și tensiunea bobinei." },
       { q: "Livrați componente Clippard în România?", a: "Da, aducem valve și componente Clippard la comandă prin canale de aprovizionare din UE sau direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și disponibilitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de valvă Clippard?", a: "Trimiteți codul complet de model dacă îl aveți, sau presiunea de lucru, tensiunea bobinei, numărul de căi și tipul de fluid vehiculat, ca să identificăm varianta compatibilă din linia Minimatic." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Clippard – Home", url: "https://www.clippard.com/", publisher: "Clippard Instrument Laboratory, Inc.", accessed: "2026-09-25" },
       { title: "Pneumatic Valves – Clippard", url: "https://www.clippard.com/products/pneumatic-valves", publisher: "Clippard Instrument Laboratory, Inc.", accessed: "2026-09-25" },
@@ -448,17 +440,17 @@ Pentru piața din România, componentele Clippard au sens la producătorii de ec
     name: "ODE",
     headquarters: "Colico (Lecco), Italia",
     founded: 1960,
-    overview: `ODE este un producător italian de electrovalve solenoidale, cu sediul la Colico, în provincia Lecco, activ din 1960 sub numele inițial Officine di Esino Lario. Gama acoperă valve de uz general, valve din tehnopolimer, valve pentru alimente, valve antiexplozie ATEX și valve de înaltă presiune, în diametre de la 1/4" până la 3" (DN10-DN100). Pentru România putem oferta electrovalve individuale pentru linii de îmbuteliere, mașini de cafea, sisteme de irigații sau instalații industriale de proces.
+    overview: `ODE este un producător italian de electrovalve solenoidale, cu sediul la Colico, în provincia Lecco, activ din 1960 sub numele inițial Officine di Esino Lario. Gama acoperă valve de uz general, valve din tehnopolimer, valve pentru alimente, valve antiexplozie ATEX și valve de înaltă presiune, în diametre de la 1/4" până la 3" (DN10-DN100). Pentru România putem oferta electrovalve individuale pentru linii de îmbuteliere, mașini de cafea, sisteme de gestiune a apei sau instalații industriale de proces.
 
 Spre deosebire de o gamă generalistă precum cea Bürkert, ODE structurează oferta pe aplicație și certificare — valvele food grade au aprobare NSF și WRAS pentru contact cu apa potabilă, cele din categoria oxigen industrial sunt curățate special pentru compatibilitate cu O2, iar cele antiexplozie ATEX acoperă zonele cu risc de explozie din industria chimică sau petrochimică. Compania oferă și valve pentru gaz combustibil, valve cu acționare proprie (self actuated) care nu au nevoie de solenoid extern, și sisteme fluidice complete pentru aplicații mai complexe decât o singură electrovalvă. Certificările CE, PED, EAC, UL-CSA și VDE acoperă diferite piețe de export.
 
-În România, electrovalvele ODE au sens la producătorii de echipamente pentru industria alimentară și a băuturilor, la firmele de irigații și la integratorii de instalații industriale unde certificarea exactă (food grade, ATEX, oxigen) contează pentru conformitate. Alegerea corectă depinde de diametrul conductei, presiunea de lucru, tensiunea bobinei și tipul de fluid vehiculat.`,
+În România, electrovalvele ODE au sens la producătorii de echipamente pentru industria alimentară și a băuturilor, la firmele din domeniul gestiunii apei și la integratorii de instalații industriale unde certificarea exactă (food grade, ATEX, oxigen) contează pentru conformitate. Alegerea corectă depinde de diametrul conductei, presiunea de lucru, tensiunea bobinei și tipul de fluid vehiculat.`,
     whyChoose: [
       "Gamă certificată pe aplicație — food grade NSF/WRAS, ATEX pentru zone explozive, curățare specială pentru oxigen industrial",
       "Diametre de la 1/4\" până la 3\" (DN10-DN100), acoperind atât instalații mici, cât și conducte industriale mari",
       "Valve cu acționare proprie (self actuated), fără nevoie de solenoid extern, pentru circuite unde spațiul electric lipsește",
       "Filtre \"Y\" și traductoare de presiune din aceeași gamă, pentru protecția și monitorizarea circuitului electrovalvei",
-      "Producător activ din 1960, cu istoric verificabil pe site-ul oficial sub numele inițial Officine di Esino Lario",
+      "Producător activ din 1960, sub numele inițial Officine di Esino Lario",
     ],
     keyProducts: [
       { name: "Electrovalve de Uz General", description: "Familia de bază de electrovalve solenoidale ODE, cu acționare directă sau indirectă, în diametre variate, pentru aplicații industriale standard unde nu e nevoie de o certificare specială." },
@@ -469,11 +461,11 @@ Spre deosebire de o gamă generalistă precum cea Bürkert, ODE structurează of
     industries: [
       "Industria alimentară și a băuturilor — mașini de cafea, linii de îmbuteliere",
       "Chimie și petrochimie — valve ATEX și pentru gaz combustibil",
-      "Industria farmaceutică și medicală — valve aseptice și food grade",
-      "Irigații și gestiunea apei — electrovalve de uz general și filtre Y",
+      "Medical — valve aseptice și food grade",
+      "Gestiunea apei — electrovalve de uz general și filtre Y",
     ],
     certifications: [ "CE", "ATEX", "PED 2014/68/UE", "EAC", "UL-CSA", "VDE", "WRAS — contact cu apă potabilă" ],
-    infinitrade: `La ODE punem accent pe ce putem și ce nu putem confirma din certificările fiecărei valve: o electrovalvă food grade sau ATEX trebuie să aibă certificarea exactă cerută de aplicație, nu doar o aprobare generică CE. Avem nevoie de diametrul conductei, presiunea de lucru, tensiunea bobinei și certificarea cerută (food grade, ATEX, oxigen etc.) pentru a identifica varianta corectă. Aducem electrovalve ODE prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru aplicații reglementate (alimentar, ATEX, farmaceutic) recomandăm confirmarea scrisă a certificării înainte de montaj.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma din certificările fiecărei valve: o electrovalvă food grade sau ATEX trebuie să aibă certificarea exactă cerută de aplicație, nu doar o aprobare generică CE. Avem nevoie de diametrul conductei, presiunea de lucru, tensiunea bobinei și certificarea cerută (food grade, ATEX, oxigen etc.) pentru a identifica varianta corectă. Aducem electrovalve ODE prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru aplicații reglementate (alimentar, ATEX, farmaceutic) recomandăm confirmarea scrisă a certificării înainte de montaj.`,
     limitation: "Nu putem confirma valabilitatea unei certificări (ATEX, NSF, PED) pentru o instalație specifică fără proiectul tehnic complet al clientului.",
     productCodes: [
       { code: "General Purpose Solenoid Valves", description: "Electrovalve de uz general, acționare directă/indirectă" },
@@ -492,7 +484,7 @@ Spre deosebire de o gamă generalistă precum cea Bürkert, ODE structurează of
       { code: "Pressure Transducer", description: "Traductor de presiune pentru monitorizarea circuitului" },
       { code: "Coils", description: "Bobine de comandă pentru electrovalve" },
       { code: "Explosion Proof Coils ATEX", description: "Bobine certificate ATEX pentru zone explozive" },
-      { code: "Vibration Pumps", description: "Pompe cu vibrație pentru dozare de lichide" },
+      { code: "Rotary Vane Pump", description: "Pompă cu palete rotative" },
     ],
     faq: [
       { q: "Ce produce ODE?", a: "ODE fabrică electrovalve solenoidale pentru aplicații industriale, de la valve de uz general și din tehnopolimer, până la variante certificate food grade, ATEX sau pentru oxigen industrial, plus filtre și traductoare de presiune complementare." },
@@ -502,8 +494,8 @@ Spre deosebire de o gamă generalistă precum cea Bürkert, ODE structurează of
       { q: "Ce trebuie să trimit pentru o ofertă de electrovalvă ODE?", a: "Trimiteți diametrul conductei, presiunea de lucru, tensiunea bobinei, tipul de fluid și certificarea necesară (ATEX, food grade, oxigen), ca să confirmăm varianta compatibilă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ODE – Home", url: "https://ode.it/en/", publisher: "ODE S.r.l.", accessed: "2026-09-25" },
       { title: "Products Catalogue – ODE", url: "https://ode.it/en/products-catalogue/", publisher: "ODE S.r.l.", accessed: "2026-09-25" },
@@ -514,22 +506,22 @@ Spre deosebire de o gamă generalistă precum cea Bürkert, ODE structurează of
     name: "Ceme",
     headquarters: "Trivolzio (Pavia), Italia",
     founded: 1974,
-    overview: `CEME este un producător italian de electrovalve solenoidale și pompe cu solenoid, cu sediul la Trivolzio, în provincia Pavia, activ din 1974. Gama de electrovalve acoperă peste 20 de serii numerotate, de la seria 52 la seria 99, plus variantele V3 și V7, în configurații 2/2 și 3/2 căi, normal închise sau normal deschise. Pentru România putem oferta electrovalve individuale pentru mașini de cafea, echipamente de sudură sau instalații de gestiune a apei.
+    overview: `CEME este un producător italian de electrovalve solenoidale și pompe cu solenoid, cu sediul la Trivolzio, în provincia Pavia, activ din 1974. Gama de electrovalve acoperă 19 serii numerotate, de la seria 52 la seria 99, plus variantele V3 și V7, în configurații 2/2 și 3/2 căi, normal închise sau normal deschise. Pentru România putem oferta electrovalve individuale pentru mașini de cafea, echipamente de sudură sau instalații de gestiune a apei.
 
-Spre deosebire de o gamă generalistă de electrovalve precum cea Bürkert, CEME acoperă în special segmentul de electrocasnice profesionale și echipamente de proces mic — seriile sale merg de la acționare directă, la pilotată și servocomandată, inclusiv variante bistabile care păstrează poziția fără alimentare continuă. Presiunea de lucru acoperă un interval de 0 până la 28 bar, cu conexiuni NPT, SAE, G (BSP), flanșe sau push-fit, în funcție de serie. Compania produce și pompe cu solenoid, atât volumetrice, cât și cu vibrație, plus pompe periferice pentru recirculare și răcire, completând gama de electrovalve cu partea de pompare.
+Spre deosebire de o gamă generalistă de electrovalve precum cea Bürkert, CEME deservește în special aplicații de cafea, băuturi, refrigerare, medical, sudură și gestiunea apei — seriile sale merg de la acționare directă, la pilotată și servocomandată, inclusiv variante bistabile care păstrează poziția fără alimentare continuă. Presiunea de lucru acoperă un interval de 0 până la 28 bar, cu conexiuni NPT, SAE, G (BSP), flanșe sau push-fit, în funcție de serie. Compania produce și pompe cu solenoid, atât volumetrice, cât și cu vibrație, plus pompe periferice pentru recirculare și răcire, completând gama de electrovalve cu partea de pompare.
 
 Pentru piața din România, electrovalvele CEME sunt relevante la producătorii de echipamente pentru cafea și băuturi, la firmele de sudură care au nevoie de electrovalve pentru gaz sau apă de răcire, și la instalațiile mici de gestiune a apei sau abur. Alegerea corectă depinde de numărul seriei, tipul de acționare și presiunea maximă a circuitului.`,
     whyChoose: [
-      "Peste 20 de serii numerotate de electrovalve, de la acționare directă la servocomandată bistabilă",
+      "19 serii numerotate de electrovalve, plus V3 și V7, cu acționare directă, pilotată sau servocomandată",
       "Presiune de lucru de până la 28 bar, cu conexiuni NPT, SAE, G (BSP), flanșe sau push-fit",
       "Pompe cu solenoid volumetrice și cu vibrație, alături de pompe periferice de recirculare",
-      "Producător cu istorie din 1974, concentrat pe electrocasnice profesionale și echipamente de proces mic",
+      "Producător cu istorie din 1974, cu aplicații în cafea, băuturi, refrigerare, medical, sudură și gestiunea apei",
       "Traductoare de presiune și valve de siguranță din aceeași gamă, pentru monitorizarea circuitului",
     ],
     keyProducts: [
-      { name: "Electrovalve Seriile 52-68", description: "Grup de serii de electrovalve cu acționare directă sau pilotată, în configurații 2/2 și 3/2 căi, pentru apă, abur sau aer, cu presiuni de lucru diferite în funcție de serie și conexiune." },
-      { name: "Electrovalve Seriile 83-99", description: "Grup de serii mai noi de electrovalve, incluzând variante servocomandate și bistabile care păstrează poziția fără alimentare electrică permanentă, utile la echipamente cu consum redus." },
-      { name: "Electrovalve V3/V7", description: "Variante de electrovalve dedicate unor aplicații specifice de proces, cu configurații 2/2 sau 3/2 căi și conexiuni adaptate la echipamentul pe care se montează." },
+      { name: "Electrovalve Seriile 52-68", description: "Seriile 52-68 din gama CEME, în configurații 2/2 și 3/2 căi; acționarea, presiunea de lucru și conexiunea diferă în funcție de serie și se confirmă pe cod." },
+      { name: "Electrovalve Seriile 83-99", description: "Seriile 83-99 din gama CEME, în configurații 2/2 și 3/2 căi; acționarea (directă, pilotată sau servocomandată, inclusiv bistabilă) diferă în funcție de serie și se confirmă pe cod." },
+      { name: "Electrovalve V3/V7", description: "Variantele V3 și V7 din gama CEME; configurația și conexiunile se confirmă pe cod, din documentația producătorului." },
       { name: "Pompe cu Solenoid", description: "Pompe volumetrice și cu vibrație acționate de un solenoid, pentru dozarea sau vehicularea de lichide în echipamente de cafea, băuturi sau curățare, alături de pompe periferice pentru recirculare." },
     ],
     industries: [
@@ -541,40 +533,40 @@ Pentru piața din România, electrovalvele CEME sunt relevante la producătorii 
     infinitrade: `Datele despre electrovalvele CEME de mai jos vin din informațiile publice disponibile pe site-ul producătorului, fără acces la stocul fabricii din Trivolzio. Pentru identificarea seriei corecte avem nevoie de numărul seriei (dacă îl aveți de pe valva veche), presiunea de lucru, tipul de fluid și configurația (2/2 sau 3/2 căi, normal închisă sau deschisă). Aducem electrovalve și pompe CEME prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru echipamente de proces recomandăm confirmarea presiunii maxime înainte de montaj, pentru că seriile diferă semnificativ între ele.`,
     limitation: "Nu putem confirma echivalența dintre o serie CEME veche, scoasă din producție, și una actuală fără verificare tehnică directă.",
     productCodes: [
-      { code: "Seria 52", description: "Electrovalvă solenoidală industrială, 2 sau 3 căi" },
-      { code: "Seria 53", description: "Electrovalvă solenoidală, configurație 2/2 sau 3/2" },
-      { code: "Seria 55", description: "Electrovalvă solenoidală pentru apă, abur sau aer" },
-      { code: "Seria 59", description: "Electrovalvă solenoidală, presiune până la 28 bar" },
-      { code: "Seria 61", description: "Electrovalvă solenoidală, acționare directă sau pilotată" },
-      { code: "Seria 62", description: "Electrovalvă solenoidală, conexiune NPT, SAE sau BSP" },
-      { code: "Seria 65", description: "Electrovalvă solenoidală, familie CEME de proces mic" },
-      { code: "Seria 66", description: "Electrovalvă solenoidală, montaj cu flanșă" },
-      { code: "Seria 67", description: "Electrovalvă solenoidală, montaj push-fit" },
-      { code: "Seria 68", description: "Electrovalvă solenoidală industrială, gamă CEME" },
-      { code: "Seria 83", description: "Electrovalvă solenoidală, variantă mai recentă din gamă" },
-      { code: "Seria 84", description: "Electrovalvă solenoidală, variantă mai recentă din gamă" },
-      { code: "Seria 85", description: "Electrovalvă solenoidală, variantă mai recentă din gamă" },
-      { code: "Seria 86", description: "Electrovalvă solenoidală, familie mai recentă CEME" },
-      { code: "Seria 87", description: "Electrovalvă solenoidală, familie mai recentă CEME" },
-      { code: "Seria 88", description: "Electrovalvă solenoidală pentru agenți frigorifici" },
-      { code: "Seria 90", description: "Electrovalvă solenoidală pentru echipamente de cafea" },
-      { code: "Seria 93", description: "Electrovalvă solenoidală compactă, presiune redusă" },
-      { code: "Seria 99", description: "Electrovalvă solenoidală miniaturală, proces mic" },
-      { code: "V3", description: "Electrovalvă solenoidală compactă, gamă CEME" },
-      { code: "V7", description: "Electrovalvă solenoidală compactă, configurație 3/2 căi" },
+      { code: "Seria 52", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 53", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 55", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 59", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 61", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 62", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 65", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 66", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 67", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 68", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 83", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 84", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 85", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 86", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 87", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 88", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 90", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 93", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "Seria 99", description: "Electrovalvă solenoidală CEME; configurația, presiunea și conexiunea se confirmă pe cod" },
+      { code: "V3", description: "Electrovalvă solenoidală CEME; datele se confirmă pe cod" },
+      { code: "V7", description: "Electrovalvă solenoidală CEME; datele se confirmă pe cod" },
       { code: "Pompe cu Solenoid Volumetrice", description: "Pompă cu solenoid pentru dozare de lichide" },
       { code: "Pompe Periferice", description: "Pompă periferică pentru recirculare și răcire" },
     ],
     faq: [
-      { q: "Ce produce CEME?", a: "CEME fabrică electrovalve solenoidale, în peste 20 de serii numerotate, plus pompe cu solenoid volumetrice sau cu vibrație și pompe periferice, pentru echipamente de cafea, băuturi, sudură și gestiunea apei." },
+      { q: "Ce produce CEME?", a: "CEME fabrică electrovalve solenoidale, în 19 serii numerotate (plus V3 și V7), plus pompe cu solenoid volumetrice sau cu vibrație și pompe periferice, pentru echipamente de cafea, băuturi, sudură și gestiunea apei." },
       { q: "Cum aleg electrovalva CEME potrivită pentru echipamentul meu?", a: "Aveți nevoie de numărul seriei de pe electrovalva existentă, dacă o înlocuiți, sau de presiunea de lucru, tipul de fluid și configurația (2/2 sau 3/2 căi) pentru o instalație nouă; aceste date ne permit să identificăm seria compatibilă." },
-      { q: "Ce diferență e între seriile mai vechi și mai noi de electrovalve CEME?", a: "Seriile mai noi, precum cele din grupul 83-99, includ variante servocomandate și bistabile, care păstrează poziția fără alimentare electrică permanentă; seriile mai vechi, 52-68, sunt în general cu acționare directă sau pilotată simplă." },
+      { q: "Ce tipuri de acționare au electrovalvele CEME?", a: "Gama CEME include electrovalve cu acționare directă, pilotată sau servocomandată (inclusiv bistabilă), în funcție de serie; ce variantă are fiecare serie confirmăm pe cod, din documentația producătorului." },
       { q: "Livrați electrovalve CEME în România?", a: "Da, aducem electrovalve și pompe CEME la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și disponibilitate la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de electrovalvă CEME?", a: "Trimiteți numărul seriei dacă îl aveți, presiunea de lucru, tipul de fluid vehiculat și tipul de conexiune (NPT, SAE, BSP sau flanșă), ca să confirmăm varianta compatibilă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "CEME Group – Home", url: "https://www.cemegroup.com/", publisher: "CEME S.p.A.", accessed: "2026-09-25" },
       { title: "Solenoid Valves – CEME", url: "https://www.cemegroup.com/solenoid-valves", publisher: "CEME S.p.A.", accessed: "2026-09-25" },
@@ -583,24 +575,24 @@ Pentru piața din România, electrovalvele CEME sunt relevante la producătorii 
 
   'groeneveld-beka': {
     name: "Groeneveld-BEKA",
-    certifications: [ "ISO 9001 — management al calității pentru toate facilitățile de producție", "ISO 14001 — management de mediu pentru toate facilitățile de producție" ],
-    overview: `Groeneveld-BEKA este un producător de sisteme de ungere centralizată automată, rezultat din fuziunea a două companii istorice — BEKA, fondată în 1927 în Germania, și Groeneveld, fondată în 1971 în Olanda — și face parte astăzi din grupul american Timken. Gama acoperă sisteme de ungere cu o linie, multi-linie, progresive și duale, plus distribuitoare progresive precum BEKA LX-4, MX-F sau SXE. Pentru România putem oferta componente individuale — pompe, distribuitoare, senzori — pentru sisteme de ungere existente pe utilaje.
+    certifications: [ "ISO 9001 — management al calității", "ISO 14001 — management de mediu" ],
+    overview: `Groeneveld-BEKA este un producător de sisteme de ungere centralizată automată, rezultat din fuziunea a două companii istorice — BEKA, fondată în 1927 în Germania, și Groeneveld, fondată în 1971 în Olanda — și face parte astăzi din grupul american Timken. Gama acoperă sisteme de ungere cu o linie, multi-linie, progresive și duale, plus distribuitoare progresive. Pentru România putem oferta componente individuale — pompe, distribuitoare, senzori — pentru sisteme de ungere existente pe utilaje.
 
-Spre deosebire de un concurent precum DropsA, Groeneveld-BEKA acoperă practic toate arhitecturile de ungere centralizată — sisteme cu o singură linie principală și distribuitoare paralele, sisteme multi-linie unde fiecare pompă alimentează direct un punct de ungere, sisteme progresive cu blocuri divizoare secvențiale și sisteme duale cu două linii alternante sub presiune. Distribuitoarele BEKA SXW-1 și SXW-2 au construcție tip sandwich, cu bază din aluminiu și elemente de dozare interschimbabile individual, iar Groeneveld Twin Metering Units permit dozare personalizată per ciclu de ungere. Compania oferă și sisteme de ungere ulei-aer și de circulație a uleiului pentru răcirea lagărelor, dincolo de unsoare clasică.
+Spre deosebire de un concurent precum DropsA, Groeneveld-BEKA acoperă practic toate arhitecturile de ungere centralizată — sisteme cu o singură linie principală și distribuitoare paralele, sisteme multi-linie unde fiecare pompă alimentează direct un punct de ungere, sisteme progresive cu blocuri divizoare secvențiale și sisteme duale cu două linii alternante sub presiune. Gama include distribuitoare progresive și blocuri de dozare; caracteristicile fiecărui model (de exemplu SXW sau Twin Metering Units) se confirmă pe cod, din documentația producătorului. Compania oferă și sisteme de ungere ulei-aer și de circulație a uleiului pentru răcirea lagărelor, dincolo de unsoare clasică.
 
 Pentru piața din România, sistemele Groeneveld-BEKA au sens la flote de transport, utilaje de construcții și echipamente miniere sau agricole unde ungerea manuală a zeci de puncte ar fi consumatoare de timp și risc de gripare. Alegerea corectă a distribuitorului depinde de numărul de puncte de ungere, tipul de lubrifiant și presiunea sistemului existent.`,
     whyChoose: [
       "Acoperă toate arhitecturile de ungere centralizată — o linie, multi-linie, progresivă și duală — sub aceeași marcă",
-      "Distribuitoare cu elemente de dozare interschimbabile individual, precum seria BEKA SXW, ușor de întreținut punctual",
-      "Certificări ISO 9001 și ISO 14001 pentru toate facilitățile de producție ale grupului",
-      "Parte din grupul Timken, cu producție în Italia de Nord, Germania, China și SUA",
+      "Distribuitoare care livrează cantitatea exactă de lubrifiant în punctul potrivit",
+      "Certificări ISO 9001 și ISO 14001",
+      "Parte din grupul Timken, cu producție în Italia de Nord și Germania și centre de asamblare în China și SUA",
       "Sisteme ulei-aer și de circulație a uleiului pentru răcirea lagărelor, dincolo de unsoare clasică",
     ],
     keyProducts: [
       { name: "Distribuitoare Progresive BEKA LX-4/MX-F", description: "Distribuitoare progresive modulare, folosite ca element principal sau secundar într-un sistem de ungere centralizată, cu elemente de dozare pentru fiecare punct de ungere conectat la linia progresivă." },
-      { name: "Distribuitoare BEKA SXE/SXW", description: "Distribuitoare progresive cu design tip disc variabil (SXE) sau sandwich cu bază de aluminiu (SXW-1, SXW-2), cu elemente de dozare interschimbabile individual, pentru sisteme unde punctele de ungere diferă ca necesar." },
+      { name: "Distribuitoare BEKA SXE/SXW", description: "Distribuitoare progresive din gama BEKA (SXE, SXW-1, SXW-2); caracteristicile constructive ale fiecărui model se confirmă pe cod, din documentația producătorului." },
       { name: "Sisteme de Ungere Progresivă și Multi-linie", description: "Arhitecturi complete de ungere automată, de la sisteme multi-linie cu pompare directă la fiecare punct, până la sisteme progresive cu blocuri divizoare secvențiale, alese în funcție de numărul de puncte și distanța dintre ele." },
-      { name: "Groeneveld Twin Metering Units", description: "Blocuri de dozare care permit cantități diferite de lubrifiant per punct și per ciclu de ungere, utile la utilaje cu puncte de ungere de dimensiuni sau sarcini foarte diferite." },
+      { name: "Groeneveld Twin Metering Units", description: "Blocuri de dozare din gama Groeneveld; funcțiile exacte se confirmă pe cod, din documentația producătorului." },
     ],
     industries: [
       "Transport rutier — ungere automată a axelor și articulațiilor la camioane",
@@ -611,12 +603,12 @@ Pentru piața din România, sistemele Groeneveld-BEKA au sens la flote de transp
     infinitrade: `Ce știm despre sistemele Groeneveld-BEKA de mai jos vine din surse publice ale producătorului și ale grupului Timken, fără date proprii despre stocul fabricilor din Germania sau Italia. Pentru o ofertă de piesă de distribuție sau pompă avem nevoie de tipul de sistem existent (o linie, multi-linie, progresiv sau dual), numărul de puncte de ungere și tipul de lubrifiant folosit. Aducem componentele prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru sisteme complet noi recomandăm proiectarea împreună cu un integrator care poate dimensiona corect numărul de distribuitoare și traseul liniilor.`,
     limitation: "Nu proiectăm sistemul complet de ungere pe utilaj, ci furnizăm componentele (pompe, distribuitoare, senzori) pe baza specificațiilor transmise de client sau integrator.",
     productCodes: [
-      { code: "BEKA LX-4", description: "Element progresiv modular, montaj principal sau secundar" },
-      { code: "BEKA MX-F", description: "Element progresiv modular, montaj principal sau secundar" },
-      { code: "BEKA SXE", description: "Element progresiv cu design de disc variabil" },
-      { code: "BEKA SXW-1", description: "Element progresiv tip sandwich, bază de aluminiu" },
-      { code: "BEKA SXW-2", description: "Element progresiv tip sandwich, bază de aluminiu" },
-      { code: "Groeneveld Twin Metering Unit", description: "Bloc de dozare cu cantități diferite per punct" },
+      { code: "BEKA LX-4", description: "Distribuitor progresiv BEKA; caracteristicile se confirmă pe cod" },
+      { code: "BEKA MX-F", description: "Distribuitor progresiv BEKA; caracteristicile se confirmă pe cod" },
+      { code: "BEKA SXE", description: "Distribuitor progresiv BEKA; caracteristicile se confirmă pe cod" },
+      { code: "BEKA SXW-1", description: "Distribuitor progresiv BEKA; caracteristicile se confirmă pe cod" },
+      { code: "BEKA SXW-2", description: "Distribuitor progresiv BEKA; caracteristicile se confirmă pe cod" },
+      { code: "Groeneveld Twin Metering Unit", description: "Bloc de dozare Groeneveld; caracteristicile se confirmă pe cod" },
       { code: "Sistem Multi-linie", description: "Arhitectură de ungere cu pompare directă per punct" },
       { code: "Sistem cu O Linie", description: "Arhitectură de ungere cu linie principală și distribuitoare" },
       { code: "Sistem Progresiv", description: "Arhitectură de ungere cu blocuri divizoare secvențiale" },
@@ -627,13 +619,13 @@ Pentru piața din România, sistemele Groeneveld-BEKA au sens la flote de transp
     faq: [
       { q: "Ce produce Groeneveld-BEKA?", a: "Groeneveld-BEKA fabrică sisteme de ungere centralizată automată — cu o linie, multi-linie, progresive sau duale — plus distribuitoare precum BEKA LX-4 sau SXW, pentru camioane, utilaje de construcții, minerit și agricultură." },
       { q: "Ce diferență e între un sistem progresiv și unul multi-linie la Groeneveld-BEKA?", a: "Sistemul progresiv folosește blocuri divizoare care distribuie lubrifiantul secvențial către fiecare punct, în timp ce sistemul multi-linie are o pompă sau un element separat pentru fiecare punct de ungere, cu pompare directă și simultană." },
-      { q: "Cum aleg distribuitorul Groeneveld-BEKA potrivit pentru utilajul meu?", a: "Aveți nevoie de tipul de sistem existent, numărul de puncte de ungere de conectat și tipul de lubrifiant folosit; distribuitoarele BEKA SXW, de exemplu, au elemente de dozare interschimbabile pentru puncte cu necesar diferit." },
+      { q: "Cum aleg distribuitorul Groeneveld-BEKA potrivit pentru utilajul meu?", a: "Aveți nevoie de tipul de sistem existent, numărul de puncte de ungere de conectat și tipul de lubrifiant folosit; alegerea exactă a modelului se confirmă pe cod, din documentația producătorului." },
       { q: "Livrați componente Groeneveld-BEKA în România?", a: "Da, aducem pompe, distribuitoare și componente Groeneveld-BEKA la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de piesă și disponibilitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de sistem de ungere Groeneveld-BEKA?", a: "Trimiteți tipul de sistem existent sau dorit, numărul de puncte de ungere, distanța aproximativă dintre ele și tipul de lubrifiant, ca să recomandăm arhitectura și distribuitoarele potrivite." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Groeneveld-BEKA – Home", url: "https://www.groeneveld-beka.com/en/", publisher: "Groeneveld-BEKA (Timken)", accessed: "2026-09-25" },
       { title: "Distributors – Groeneveld-BEKA", url: "https://www.groeneveld-beka.com/en/products/distributors/", publisher: "Groeneveld-BEKA (Timken)", accessed: "2026-09-25" },
@@ -645,23 +637,23 @@ Pentru piața din România, sistemele Groeneveld-BEKA au sens la flote de transp
     name: "Wandfluh",
     headquarters: "Frutigen, Elveția",
     founded: 1946,
-    overview: `Wandfluh este un producător elvețian de valve hidraulice, cu sediul la Frutigen, activ din 1946, specializat în distribuitoare cu sertar, valve de presiune și de debit, și valve proporționale pentru utilaje mobile. Gama acoperă dimensiuni de la NG3-Mini până la NG50, organizată în peste 20 de capitole tehnice, de la valve cu acționare manuală sau solenoidală, la valve proporționale și cartușe încorporabile. Pentru România putem oferta valve individuale pentru circuite hidraulice de pe utilaje de construcții sau instalații industriale.
+    overview: `Wandfluh este un producător elvețian de valve hidraulice, cu sediul la Frutigen, activ din 1946, specializat în distribuitoare cu sertar, valve de presiune și de debit, și valve proporționale pentru utilaje mobile. Gama este organizată în peste 20 de capitole tehnice, de la valve cu acționare manuală sau solenoidală, la valve proporționale și cartușe încorporabile. Pentru România putem oferta valve individuale pentru circuite hidraulice de pe utilaje de construcții sau instalații industriale.
 
-Spre deosebire de o gamă generalistă precum cea Atos, Wandfluh construiește catalogul pe tipul exact de acționare a distribuitorului — solenoidală cu operare directă, antiexplozie, cu comutare lină, manuală sau mecanică, pneumatică, hidraulică, controlată de presiune, pilotată sau proporțională — fiecare cu propriul capitol tehnic în catalog. Gama Proportional Mobile Valves (PMV) și Compact Mobile Valves (CMV) e dedicată utilajelor mobile, unde spațiul de montaj și rezistența la vibrații contează mai mult decât la o instalație staționară. Wandfluh menționează și aplicații subacvatice la adâncimi de 4.000-6.000 metri, un segment în care puțini producători de valve hidraulice sunt prezenți.
+Wandfluh construiește catalogul pe tipul exact de acționare a distribuitorului — solenoidală cu operare directă, antiexplozie, cu comutare lină, manuală sau mecanică, pneumatică, hidraulică, controlată de presiune, pilotată sau proporțională — fiecare cu propriul capitol tehnic în catalog. Gama Proportional Mobile Valves (PMV) și Compact Mobile Valves (CMV) e dedicată utilajelor mobile. Wandfluh menționează și aplicații subacvatice la adâncimi de 4.000-6.000 metri.
 
 În România, valvele Wandfluh au sens la constructorii de utilaje mobile, la firmele de automatizare industrială și la operatorii de echipamente subacvatice sau offshore care au nevoie de o valvă compatibilă cu un circuit existent. Alegerea corectă depinde de tipul exact de acționare, mărimea NG și presiunea/debitul de lucru al circuitului.`,
     whyChoose: [
       "Peste 20 de capitole tehnice de distribuitoare, de la acționare manuală la proporțională, pentru aproape orice tip de comandă",
-      "Dimensiuni de la NG3-Mini până la NG50, acoperind atât circuite mici, cât și instalații industriale mari",
-      "Gamă dedicată utilajelor mobile — PMV și CMV — gândită pentru vibrații și spațiu de montaj redus",
+      "Mai multe mărimi nominale (NG), alese din catalogul tehnic în funcție de debitul circuitului",
+      "Gamă dedicată utilajelor mobile — PMV și CMV",
       "Prezență documentată în aplicații subacvatice la adâncimi de 4.000-6.000 metri",
       "Producător elvețian cu sediu propriu la Frutigen, activ din 1946",
     ],
     keyProducts: [
       { name: "Distribuitoare cu Sertar (Spool Valves)", description: "Familie largă de distribuitoare cu sertar, cu acționare solenoidală directă, antiexplozie, cu comutare lină, manuală, mecanică, pneumatică, hidraulică sau proporțională, organizate pe capitole tehnice distincte în catalogul Wandfluh." },
       { name: "Valve de Presiune și Debit", description: "Valve de control și relief pentru limitarea presiunii sau reglarea debitului în circuit, disponibile în variante standard sau proporționale, pentru aplicații unde parametrul hidraulic trebuie menținut constant sau reglat fin." },
-      { name: "Valve Proporționale Mobile (PMV)", description: "Valve proporționale gândite special pentru utilaje mobile, unde vibrațiile și spațiul de montaj limitat cer o construcție mai robustă decât la o valvă industrială staționară echivalentă." },
-      { name: "Valve Compacte Mobile (CMV)", description: "Variantă compactă de valve pentru utilaje mobile, pentru aplicații unde gabaritul redus contează mai mult decât plaja completă de funcții a unei valve proporționale complete." },
+      { name: "Valve Proporționale Mobile (PMV)", description: "Valve proporționale pentru utilaje mobile, cu flexibilitate ridicată și construcție modulară, conform descrierii producătorului." },
+      { name: "Valve Compacte Mobile (CMV)", description: "Linie de valve compacte pentru utilaje mobile (Compact Mobile Valves); detaliile tehnice se confirmă din catalogul producătorului." },
     ],
     industries: [
       "Utilaje mobile — excavatoare și echipamente de construcții",
@@ -682,7 +674,7 @@ Spre deosebire de o gamă generalistă precum cea Atos, Wandfluh construiește c
       { code: "Cap. 1.8 Controlate de Presiune", description: "Distribuitoare cu acționare controlată de presiune" },
       { code: "Cap. 1.9 Pilotate", description: "Distribuitoare cu acționare pilotată" },
       { code: "Cap. 1.10 Proporționale", description: "Distribuitoare proporționale pentru reglaj fin de debit" },
-      { code: "Cap. 1.11 Valve cu Ventil (Poppet)", description: "Valve cu ventil, etanșare fără scurgeri interne" },
+      { code: "Cap. 1.11 Valve cu Ventil (Poppet)", description: "Valve cu ventil (poppet)" },
       { code: "Cap. 1.12 Valve Încorporabile 2/2", description: "Valve cartuș încorporabile, două căi" },
       { code: "Cap. 2 Valve de Presiune și Debit", description: "Valve de relief, reducere și control de debit" },
       { code: "PMV (Proportional Mobile Valves)", description: "Valve proporționale dedicate utilajelor mobile" },
@@ -690,14 +682,14 @@ Spre deosebire de o gamă generalistă precum cea Atos, Wandfluh construiește c
     ],
     faq: [
       { q: "Ce produce Wandfluh?", a: "Wandfluh fabrică distribuitoare cu sertar, valve de presiune și debit, valve proporționale și variante compacte pentru utilaje mobile, organizate în peste 20 de capitole tehnice, de la acționare manuală la proporțională." },
-      { q: "Ce diferență e între o valvă PMV și una CMV la Wandfluh?", a: "PMV (Proportional Mobile Valves) oferă reglaj fin, proporțional, al debitului pentru utilaje mobile, în timp ce CMV (Compact Mobile Valves) e o variantă mai compactă, cu funcții simplificate, pentru aplicații unde gabaritul contează mai mult." },
+      { q: "Ce diferență e între o valvă PMV și una CMV la Wandfluh?", a: "PMV (Proportional Mobile Valves) oferă reglaj fin, proporțional, al debitului pentru utilaje mobile, în timp ce CMV (Compact Mobile Valves) este o linie separată de valve compacte pentru utilaje mobile, pentru aplicații unde." },
       { q: "Cum aleg distribuitorul Wandfluh potrivit pentru circuitul meu?", a: "Aveți nevoie de tipul de acționare dorit (solenoidală, manuală, proporțională etc.), mărimea NG a distribuitorului și presiunea/debitul de lucru ale circuitului; catalogul tehnic Wandfluh organizează variantele exact după aceste criterii." },
       { q: "Livrați valve Wandfluh în România?", a: "Da, aducem valve Wandfluh la comandă prin canale de aprovizionare din UE sau direct din Elveția, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de acționare și mărimea NG cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de valvă Wandfluh?", a: "Trimiteți tipul de acționare cerut, mărimea NG, presiunea maximă și debitul de lucru ale circuitului, plus aplicația (mobilă, industrială sau subacvatică), ca să identificăm varianta compatibilă din catalog." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Wandfluh – Home", url: "https://www.wandfluh.com/", publisher: "Wandfluh AG", accessed: "2026-09-25" },
       { title: "Product Catalog – Wandfluh", url: "https://www.wandfluh.com/en/products/product-catalog/", publisher: "Wandfluh AG", accessed: "2026-09-25" },

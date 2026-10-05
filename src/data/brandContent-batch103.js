@@ -137,15 +137,15 @@ Gama de convertizoare pornește de la seria de bază AC01 și AC10 pentru aplica
 Pentru piața din România, Veichi are sens la retehnologizarea liniilor de producție unde bugetul contează și la proiecte de pompare solară agricolă, unde seria de invertoare solare (SI) e gândită special pentru acest tip de aplicație.`,
     whyChoose: [
       "Gamă completă de la convertizor de bază până la servo de înaltă performanță, sub același producător",
-      "Variantă complet etanșată AC600F (IP66) pentru medii cu praf sau umiditate ridicată, fără dulap suplimentar",
+      "Variantă complet etanșată AC600F (IP66) pentru medii cu praf, umiditate ridicată sau spălare",
       "Serie dedicată de invertoare solare pentru pompare (SI), cu monitorizare la distanță pe unele modele",
       "Certificări CE și UL menționate de producător pentru integrare mai simplă în proiecte reglementate",
       "Familie de PLC-uri și HMI proprii, utilă când proiectul cere o singură interfață de automatizare"
     ],
     keyProducts: [
-      { name: "Convertizoare de Frecvență AC600", description: "Convertizor de frecvență de înaltă performanță pentru automatizare industrială generală, disponibil și în varianta AC600F cu protecție IP66 pentru instalare directă lângă motor, fără dulap electric suplimentar. Se folosește la benzi transportoare, pompe, ventilatoare și utilaje de proces. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea de alimentare și mediul de instalare (interior, exterior, umiditate)." },
-      { name: "Servodrivere Seria SD700", description: "Familie de drivere servo de înaltă performanță, cu modelele SD710 și SD780 pentru diferite plaje de putere, destinate mișcării de precizie pe mașini de ambalat, mașini-unelte sau echipamente de asamblare. Funcționează împreună cu servomotorul V7E al producătorului. Clientul trebuie să precizeze puterea motorului și tipul de mișcare (poziționare, viteză, cuplu) pentru selectarea driverului potrivit." },
-      { name: "Invertoare Solare pentru Pompare Seria ȘI", description: "Gamă de invertoare dedicate pompelor solare, cu modelul SI23 orientat spre monitorizare la distanță prin GPRS și tehnologie MPPT, iar SI30 cu design modular și protecție IP65 pentru instalare la exterior. Folosite tipic în irigații agricole sau alimentare cu apă în zone fără rețea electrică stabilă. Pentru ofertă e nevoie de puterea pompei și tipul motorului (monofazat sau trifazat)." }
+      { name: "Convertizoare de Frecvență AC600", description: "Convertizor de frecvență de înaltă performanță pentru automatizare industrială generală, disponibil și în varianta AC600F cu protecție IP66 pentru medii umede, cu praf sau de spălare, inclusiv instalare în exterior. Se folosește la benzi transportoare, pompe, ventilatoare și utilaje de proces. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea de alimentare și mediul de instalare (interior, exterior, umiditate)." },
+      { name: "Servodrivere Seria SD700", description: "Familie de drivere servo de înaltă performanță, cu modelele SD710 și SD780 pentru diferite plaje de putere, destinate mișcării de precizie pe mașini de ambalat, mașini-unelte sau echipamente de asamblare. Clientul trebuie să precizeze puterea motorului și tipul de mișcare (poziționare, viteză, cuplu) pentru selectarea driverului potrivit." },
+      { name: "Invertoare Solare pentru Pompare Seria SI", description: "Gamă de invertoare dedicate pompelor solare, cu modelul SI23 orientat spre monitorizare la distanță și tehnologie MPPT, iar SI30 cu design modular și protecție IP65 pentru instalare la exterior. Folosite tipic în irigații agricole sau alimentare cu apă în zone fără rețea electrică stabilă. Pentru ofertă e nevoie de puterea pompei și tipul motorului (monofazat sau trifazat)." }
     ],
     industries: [
       "Energie solară — invertoare pentru pompare și sisteme fotovoltaice",
@@ -155,7 +155,7 @@ Pentru piața din România, Veichi are sens la retehnologizarea liniilor de prod
       "Poduri rulante și macarale — convertizoare pentru mecanisme de ridicare",
       "Construcții și materiale de construcție — acționarea utilajelor de proces"
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre gama Veichi înainte să facem o ofertă: parametrii electrici fini se verifică din fișa tehnică a modelului exact, nu din memorie. Aducem convertizoare, servodrivere și invertoare solare Veichi prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru un proiect de pompare solară avem nevoie de puterea pompei, tipul motorului și dacă instalația are sau nu conexiune la rețea. Pentru un convertizor industrial, trimiteți puterea motorului, tensiunea și mediul de instalare. Nu promitem disponibilitate din depozit pentru această gamă — fiecare comandă se configurează pe aplicația reală transmisă de client.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre gama Veichi înainte să facem o ofertă: parametrii electrici fini se confirmă din fișa tehnică a modelului exact. Aducem convertizoare, servodrivere și invertoare solare Veichi prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru un proiect de pompare solară avem nevoie de puterea pompei, tipul motorului și dacă instalația are sau nu conexiune la rețea. Pentru un convertizor industrial, trimiteți puterea motorului, tensiunea și mediul de instalare. Nu promitem disponibilitate din depozit pentru această gamă — fiecare comandă se configurează pe aplicația reală transmisă de client.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului în perioada de garanție pentru echipamentele Veichi, care rămâne în sarcina producătorului.",
     productCodes: [
       { code: "AC01", description: "convertizor de frecvență, serie de bază" },
@@ -165,11 +165,11 @@ Pentru piața din România, Veichi are sens la retehnologizarea liniilor de prod
       { code: "AC600F", description: "convertizor complet etanșat, protecție IP66" },
       { code: "SD710", description: "servodrive, familia SD700" },
       { code: "SD780", description: "servodrive de putere mai mare, familia SD700" },
-      { code: "V7E", description: "servomotor pentru driverele Veichi" },
+      
       { code: "VC5", description: "PLC compact pentru automatizare" },
       { code: "VH600", description: "PLC, serie extinsă" },
       { code: "VI20", description: "panou HMI pentru operator" },
-      { code: "SI01", description: "invertor solar pentru pompare, motor monofazat" },
+      { code: "SI01", description: "invertor solar compact pentru pompare, cu alimentare în curent alternativ sau continuu" },
       { code: "SI21", description: "invertor solar pentru pompare, tehnologie de conducere avansată" },
       { code: "SI23", description: "invertor solar cu MPPT și monitorizare la distanță" },
       { code: "SI30", description: "invertor solar modular, protecție IP65" }
@@ -178,13 +178,13 @@ Pentru piața din România, Veichi are sens la retehnologizarea liniilor de prod
       { q: "Ce produce Veichi?", a: "Veichi produce convertizoare de frecvență pentru automatizare industrială, servodrivere pentru mișcare de precizie, PLC-uri, panouri HMI și invertoare solare pentru pompare. Gama merge de la modele de bază (AC01, AC10) până la convertizoare de înaltă performanță (AC600) și servosisteme dedicate (SD700)." },
       { q: "Cum aleg convertizorul Veichi potrivit pentru o linie de producție?", a: "Alegerea depinde de puterea motorului acționat, tensiunea de alimentare și mediul de instalare — pentru zone cu praf sau umiditate se recomandă varianta etanșată AC600F. Trimiteți aceste date pentru a primi propunerea corectă din gama Veichi." },
       { q: "Livrați echipamente Veichi în România și cât durează?", a: "Da, aducem la comandă convertizoare și servodrivere Veichi prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea modelului la producător." },
-      { q: "Ce echivalent are seria AC600 de la Veichi față de alte convertizoare industriale?", a: "AC600 este seria de înaltă performanță a producătorului, comparabilă ca poziționare cu convertizoarele industriale de gamă medie-superioară ale altor branduri; alegerea concretă depinde de puterea, funcțiile de control cerute și bugetul proiectului." },
+      { q: "Ce echivalent are seria AC600 de la Veichi față de alte convertizoare industriale?", a: "AC600 este seria de înaltă performanță a producătorului; nu stabilim echivalențe generale cu alte mărci, iar alegerea concretă se face pe baza puterii, a funcțiilor de control cerute și a fișei tehnice a modelului." },
       { q: "Ce trebuie să trimit pentru o ofertă de invertor solar Veichi?", a: "Trimiteți puterea pompei solare, tipul motorului (monofazat sau trifazat) și dacă instalația are conexiune la rețea electrică sau funcționează independent. Aceste date permit selectarea corectă între modelele din seria SI." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "VEICHI Electric — site oficial", url: "https://www.veichi.com", publisher: "Veichi Electric Co., Ltd.", accessed: "2026-09-25" },
       { title: "VEICHI — pagina de produse", url: "https://www.veichi.com/product/", publisher: "Veichi Electric Co., Ltd.", accessed: "2026-09-25" }
@@ -196,19 +196,19 @@ Pentru piața din România, Veichi are sens la retehnologizarea liniilor de prod
     headquarters: "Ford, West Sussex, Marea Britanie",
     overview: `Sprint Electric este un producător britanic de regulatoare pentru motoare de curent continuu, cu sediul în Ford, West Sussex. Compania proiectează convertizoare digitale DC pentru motoare industriale existente, de la puteri mici de laborator până la aplicații grele din industria metalurgică sau a hârtiei. Pentru clienți din România putem oferta regulatoare Sprint Electric pentru retehnologizarea utilajelor care folosesc încă motoare de curent continuu.
 
-Gama pornește de la seria compactă SL și urcă spre familia PL/X, cea mai extinsă din portofoliu, cu variantă digitală separată PL/XD. Pentru puteri mari, producătorul oferă seria JL/X, iar pentru motoare de curent alternativ cu inel colector regenerarea se face prin drive-ul Generis. Sprint Electric concurează cu alți producători de electronică de acționare, inclusiv cu Danfoss pe segmentul general de convertizoare, diferența fiind specializarea aproape exclusivă pe motoare de curent continuu, o nișă tot mai puțin acoperită de producătorii mari.
+Gama pornește de la seria compactă SL și urcă spre familia PL/X, cu seria PL/XD. Pe lângă acestea, producătorul oferă seria JL/X, iar pentru motoare de curent alternativ cu inel colector regenerarea se face prin drive-ul Generis. Sprint Electric concurează cu alți producători de electronică de acționare, inclusiv cu Danfoss pe segmentul general de convertizoare, diferența fiind specializarea aproape exclusivă pe motoare de curent continuu, o nișă tot mai puțin acoperită de producătorii mari.
 
-Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă funcționale, unde înlocuirea completă a motorului ar fi mult mai costisitoare decât modernizarea regulatorului electronic care îl acționează.`,
+Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă funcționale, unde modernizarea regulatorului electronic poate fi o alternativă la înlocuirea motorului; decizia depinde de starea reală a motorului.`,
     whyChoose: [
       "Specializare aproape exclusivă pe motoare de curent continuu, utilă la utilaje vechi care încă folosesc astfel de motoare",
-      "Gamă largă de puteri, de la seria compactă SL până la JL/X pentru sarcini industriale grele",
+      "Gamă largă de modele, de la seria compactă SL până la familiile PL/X și JL/X",
       "Drive Generis dedicat regenerării de energie pentru motoare AC cu inel colector, o soluție de nișă",
       "Certificare ISO 9001 pentru managementul calității în proiectare și fabricație",
       "Variante de montaj atât în șasiu deschis, cât și în carcasă proprie, pentru integrare flexibilă în tablou existent"
     ],
     keyProducts: [
-      { name: "Regulatoare DC Seria PL/X", description: "Familia cea mai extinsă de regulatoare digitale pentru motoare de curent continuu ale producătorului, disponibilă și într-o variantă digitală separată (PL/XD) pentru cerințe suplimentare de comunicare. Se folosește la retehnologizarea utilajelor industriale mai vechi care păstrează motorul DC original. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea de armătură și tipul de aplicație acționată." },
-      { name: "Regulatoare DC Seria JL/X", description: "Gamă de regulatoare pentru puteri mai mari decât seria PL/X, orientată spre aplicații industriale grele precum liniile de laminare din metalurgie sau utilajele din industria hârtiei. Funcționează cu motoare de curent continuu existente, fără a impune înlocuirea acestora. Necesită puterea și tensiunea motorului acționat, plus tipul de sarcină (constantă sau variabilă) pentru selecția corectă." },
+      { name: "Regulatoare DC Seria PL/X", description: "Familie de regulatoare pentru motoare de curent continuu, prezentată de producător ca înlocuitor direct pentru acționările DC mai vechi; există și seria PL/XD. Funcțiile de comunicare se confirmă din fișa tehnică a modelului. Se folosește la retehnologizarea utilajelor industriale mai vechi care păstrează motorul DC original. Pentru ofertă, clientul trebuie să trimită puterea motorului, tensiunea de armătură și tipul de aplicație acționată." },
+      { name: "Regulatoare DC Seria JL/X", description: "Gamă de regulatoare pentru motoare de curent continuu, cu mai multe modele; puterea și aplicațiile potrivite se confirmă din fișa tehnică a modelului. Funcționează cu motoare de curent continuu existente, fără a impune înlocuirea acestora. Necesită puterea și tensiunea motorului acționat, plus tipul de sarcină (constantă sau variabilă) pentru selecția corectă." },
       { name: "Drive de Regenerare Generis", description: "Drive dedicat motoarelor de curent alternativ cu inel colector, capabil să recupereze energie în timpul frânării sau al reducerii vitezei, util în aplicații cu cicluri repetate de accelerare-decelerare precum macaralele sau liniile de printare. Se diferențiază de restul gamei, orientată în principal spre motoare DC. Pentru ofertă e nevoie de tipul motorului cu inel colector și puterea instalată." }
     ],
     industries: [
@@ -218,32 +218,32 @@ Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă 
       "Lifturi, poduri rulante și macarale — regenerare de energie la frânare",
       "Printare și industria cablurilor — acționarea liniilor de producție"
     ],
-    infinitrade: `Informațiile publice disponibile despre Sprint Electric vin direct de pe site-ul producătorului, fără completări din memorie pentru parametri electrici fini. Aducem regulatoare Sprint Electric prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru retehnologizarea unui utilaj cu motor DC existent avem nevoie de puterea și tensiunea de armătură a motorului, tipul de aplicație și dacă instalația actuală cere funcții suplimentare de comunicare digitală. Nu promitem disponibilitate din depozit pentru această gamă de nișă — fiecare regulator se selectează pe motorul real al clientului, nu pe o listă generică de echivalențe.`,
+    infinitrade: `Informațiile publice disponibile despre Sprint Electric vin direct de pe site-ul producătorului; parametrii electrici fini se confirmă din fișa tehnică a modelului. Aducem regulatoare Sprint Electric prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru retehnologizarea unui utilaj cu motor DC existent avem nevoie de puterea și tensiunea de armătură a motorului, tipul de aplicație și dacă instalația actuală cere funcții suplimentare de comunicare digitală. Nu promitem disponibilitate din depozit pentru această gamă de nișă — fiecare regulator se selectează pe motorul real al clientului, nu pe o listă generică de echivalențe.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui regulator Sprint Electric cu un motor deja instalat fără datele de pe placa acestuia.",
     productCodes: [
       { code: "Generis", description: "drive de regenerare pentru motoare AC cu inel colector" },
       { code: "PL/X Series", description: "regulator digital pentru motoare de curent continuu" },
       { code: "PL/XD Series", description: "variantă digitală extinsă a seriei PL/X" },
-      { code: "JL/X Series", description: "regulator DC pentru puteri industriale mari" },
-      { code: "340 Series", description: "regulator DC, montaj în șasiu deschis" },
-      { code: "680 Series", description: "regulator DC, montaj în șasiu deschis" },
-      { code: "1220 Series", description: "regulator DC, montaj în șasiu deschis, putere mare" },
-      { code: "XLV Series", description: "convertizor DC pentru tensiuni joase" },
+      { code: "JL/X Series", description: "regulator DC, familie cu mai multe modele" },
+      { code: "340/680/1220 Series", description: "serie de regulatoare DC" },
+      
+      
+      { code: "XLV Series", description: "regulator DC, seria XLV" },
       { code: "SL Series", description: "convertizor DC compact" },
       { code: "Open Chassis-Mount DC Drives", description: "drive DC pentru montaj direct în tablou" },
       { code: "Enclosed DC Drives", description: "drive DC livrat în carcasă proprie" }
     ],
     faq: [
       { q: "Ce produce Sprint Electric?", a: "Sprint Electric produce regulatoare digitale pentru motoare de curent continuu, de la seria compactă SL până la familia industrială JL/X, plus un drive de regenerare (Generis) pentru motoare de curent alternativ cu inel colector. Gama se adresează în special retehnologizării utilajelor cu motoare DC existente." },
-      { q: "Cum aleg regulatorul Sprint Electric potrivit pentru un motor DC vechi?", a: "Alegerea depinde de puterea motorului, tensiunea de armătură și tipul de aplicație (sarcină constantă sau variabilă). Pentru puteri mici se pretează seria PL/X, iar pentru sarcini industriale grele familia JL/X. Trimiteți datele de pe placa motorului pentru propunerea corectă." },
+      { q: "Cum aleg regulatorul Sprint Electric potrivit pentru un motor DC vechi?", a: "Alegerea depinde de puterea motorului, tensiunea de armătură și tipul de aplicație (sarcină constantă sau variabilă). Seria potrivită (PL/X, JL/X sau alta) se stabilește după fișa tehnică a modelului. Trimiteți datele de pe placa motorului pentru propunerea corectă." },
       { q: "Livrați regulatoare Sprint Electric în România și cât durează?", a: "Da, aducem la comandă regulatoare Sprint Electric prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea modelului exact la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de regulator DC Sprint Electric?", a: "Trimiteți puterea și tensiunea de armătură a motorului DC existent, tipul de aplicație acționată și, dacă e cazul, cerințele de comunicare digitală cu automatul din tablou. Aceste date permit identificarea corectă a seriei potrivite." },
-      { q: "De ce aș alege un regulator DC în loc să înlocuiesc motorul cu unul AC modern?", a: "Când motorul de curent continuu existent funcționează bine mecanic, înlocuirea doar a regulatorului electronic Sprint Electric este de obicei mai ieftină și mai rapidă decât schimbarea completă a motorului și a instalației aferente. Decizia finală depinde însă de starea reală a motorului." }
+      { q: "De ce aș alege un regulator DC în loc să înlocuiesc motorul cu unul AC modern?", a: "Când motorul de curent continuu existent funcționează bine mecanic, înlocuirea doar a regulatorului electronic Sprint Electric poate evita schimbarea completă a motorului și a instalației aferente. Decizia finală depinde însă de starea reală a motorului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sprint Electric — site oficial", url: "https://www.sprint-electric.com/", publisher: "Sprint Electric Ltd", accessed: "2026-09-25" },
       { title: "Sprint Electric — pagina de produse", url: "https://www.sprint-electric.com/products/", publisher: "Sprint Electric Ltd", accessed: "2026-09-25" }
@@ -255,7 +255,7 @@ Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă 
     headquarters: "Murr, Germania",
     overview: `Frizlen este un producător german de rezistențe de putere, cu sediul la Murr, lângă Stuttgart. Compania fabrică rezistențe tubulare, rezistențe plate, potențiometre bobinate și rezistențe cu grilă din oțel, folosite pentru frânare, sarcină, pornire sau descărcare în sisteme de acționare electrică. Pentru clienți din România putem oferta rezistențe Frizlen ca piese de completare pentru convertizoare și acționări unde producătorul principal nu acoperă gama de rezistențe.
 
-Gama tehnică e organizată pe familii constructive: seria T100 pentru rezistențe tubulare fixe, T200 pentru potențiometre rotative bobinate, T300 pentru rezistențe plate, T400 pentru rezistențe de sarcină și test, T500 pentru rezistențe tip lamelă și T600 pentru rezistențe cu grilă din oțel, cu puteri care merg de la câțiva wați până la sute de kilowați. Spre deosebire de producătorii de convertizoare, Frizlen este un furnizor complementar, ale cărui rezistențe se montează adesea alături de echipamente de la alți producători de acționare.
+Gama este organizată în șase grupe: rezistențe tubulare, potențiometre bobinate, rezistențe plate, rezistențe de sarcină și test, rezistențe lamelare și rezistențe cu grilă din oțel, cu puteri continue de la 10 W până la 500 kW. Spre deosebire de producătorii de convertizoare, Frizlen este un furnizor complementar, ale cărui rezistențe se montează adesea alături de echipamente de la alți producători de acționare.
 
 Pentru piața din România, Frizlen are sens la instalații industriale, nave sau bancuri de test unde e nevoie de o rezistență de frânare sau de sarcină dimensionată exact pe puterea și tensiunea instalației existente, nu de o soluție generică.`,
     whyChoose: [
@@ -266,9 +266,9 @@ Pentru piața din România, Frizlen are sens la instalații industriale, nave sa
       "Peste un secol de activitate în domeniul rezistențelor de putere, conform istoricului companiei"
     ],
     keyProducts: [
-      { name: "Rezistențe Tubulare Seria T100", description: "Rezistențe fixe cu construcție tubulară, potrivite pentru montaj în dulapuri electrice sau direct pe șasiul echipamentului, folosite ca rezistențe de frânare sau de pornire în acționări electrice. Puterile variază de la câțiva wați până la nivel industrial, în funcție de dimensiunea carcasei. Pentru ofertă, clientul trebuie să trimită valoarea de rezistență necesară, puterea disipată și spațiul de montaj disponibil." },
+      { name: "Rezistențe Tubulare", description: "Rezistențe fixe cu construcție tubulară, potrivite pentru montaj în dulapuri electrice sau direct pe șasiul echipamentului, folosite ca rezistențe de frânare sau de pornire în acționări electrice. Puterile variază de la câțiva wați până la nivel industrial, în funcție de dimensiunea carcasei. Pentru ofertă, clientul trebuie să trimită valoarea de rezistență necesară, puterea disipată și spațiul de montaj disponibil." },
       { name: "Rezistențe de Sarcină și Test Seria T400", description: "Rezistențe dedicate testării generatoarelor, transformatoarelor sau surselor de alimentare, capabile să disipe energie controlat pe durate lungi de test. Se folosesc în laboratoare, bancuri de probă sau la punerea în funcțiune a instalațiilor electrice noi. Necesită specificarea puterii de test, tensiunii și duratei tipice a probei pentru dimensionarea corectă." },
-      { name: "Rezistențe cu Grilă din Oțel Seria T600", description: "Rezistențe robuste cu elemente din oțel, potrivite pentru medii dure — praf, vibrații, temperaturi ridicate — unde rezistențele cu fir bobinat s-ar degrada mai repede. Folosite tipic la pornirea motoarelor mari sau ca rezistențe de frânare în instalații industriale grele. Pentru ofertă e nevoie de rezistența dorită, puterea și condițiile de mediu ale instalației." }
+      { name: "Rezistențe cu Grilă din Oțel", description: "Rezistențe robuste cu elemente din oțel, cu elemente din oțel, pentru instalații industriale; condițiile de mediu admise se confirmă din fișa tehnică. Folosite tipic la pornirea motoarelor mari sau ca rezistențe de frânare în instalații industriale grele. Pentru ofertă e nevoie de rezistența dorită, puterea și condițiile de mediu ale instalației." }
     ],
     industries: [
       "Inginerie de acționare — rezistențe de frânare pentru convertizoare și variatoare",
@@ -281,12 +281,12 @@ Pentru piața din România, Frizlen are sens la instalații industriale, nave sa
     infinitrade: `Fără date proprii de stoc pentru Frizlen, ne ghidăm după gama și codurile publicate oficial de producător pentru fiecare ofertă. Aducem rezistențe Frizlen prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de valoarea de rezistență și puterea cerută. Pentru o ofertă corectă avem nevoie de valoarea de rezistență în ohmi, puterea disipată, tensiunea de lucru și condițiile de montaj (interior, exterior, spațiu disponibil). Nu promitem disponibilitate din depozit pentru această gamă — fiecare rezistență se dimensionează pe instalația reală a clientului, nu pe un catalog generic de echivalențe.`,
     limitation: "Nu putem confirma valorile exacte de rezistență pentru variantele speciale Frizlen fără specificația tehnică transmisă de client.",
     productCodes: [
-      { code: "T100", description: "rezistență tubulară fixă" },
-      { code: "T200", description: "potențiometru rotativ bobinat" },
-      { code: "T300", description: "rezistență plată de montaj" },
+      
+      
+      
       { code: "T400", description: "rezistență de sarcină și test" },
-      { code: "T500", description: "rezistență tip lamelă" },
-      { code: "T600", description: "rezistență cu grilă din oțel" },
+      
+      
       { code: "Bremswiderstände", description: "familie de rezistențe de frânare pentru acționări" },
       { code: "Lastwiderstände", description: "familie de rezistențe de sarcină pentru instalații" },
       { code: "Anlasswiderstände", description: "rezistențe de pornire pentru motoare electrice" },
@@ -296,15 +296,15 @@ Pentru piața din România, Frizlen are sens la instalații industriale, nave sa
     ],
     faq: [
       { q: "Ce produce Frizlen?", a: "Frizlen produce rezistențe de putere în mai multe variante constructive — tubulare, plate, cu grilă din oțel sau potențiometre bobinate — folosite pentru frânare, sarcină, pornire sau descărcare în instalații electrice și de acționare. Puterile merg de la câțiva wați până la sute de kilowați." },
-      { q: "Cum aleg rezistența Frizlen potrivită pentru o instalație de frânare?", a: "Alegerea se face pe baza puterii de disipare necesare, valorii de rezistență în ohmi și condițiilor de montaj (spațiu, ventilație, mediu). Pentru medii dure se recomandă seria cu grilă din oțel, iar pentru montaj compact rezistențele tubulare din seria T100." },
+      { q: "Cum aleg rezistența Frizlen potrivită pentru o instalație de frânare?", a: "Alegerea se face pe baza puterii de disipare necesare, valorii de rezistență în ohmi și condițiilor de montaj (spațiu, ventilație, mediu). Tipul constructiv potrivit (de exemplu rezistențe tubulare sau cu grilă din oțel) se alege după fișa tehnică și condițiile de montaj." },
       { q: "Livrați rezistențe Frizlen în România și cât durează?", a: "Da, aducem la comandă rezistențe Frizlen prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de valoarea de rezistență și puterea specifică cerute de proiect." },
       { q: "Ce trebuie să trimit pentru o ofertă de rezistență de sarcină Frizlen?", a: "Trimiteți puterea de test necesară, tensiunea de lucru și durata tipică a probei. Aceste date permit selectarea corectă din seria T400, dedicată testării generatoarelor, transformatoarelor și altor surse electrice." },
       { q: "Ce echivalent Frizlen există pentru o rezistență de frânare montată pe un convertizor de la alt producător?", a: "Echivalența se stabilește pe baza valorii de rezistență în ohmi și a puterii de disipare cerute de convertizorul existent, nu pe marca originală a rezistenței vechi. Trimiteți aceste două valori pentru a primi propunerea corectă din gama Frizlen." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Frizlen — site oficial", url: "https://www.frizlen.com", publisher: "Frizlen GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Frizlen — pagina de produse", url: "https://www.frizlen.com/en/products/", publisher: "Frizlen GmbH & Co. KG", accessed: "2026-09-25" }
@@ -316,20 +316,20 @@ Pentru piața din România, Frizlen are sens la instalații industriale, nave sa
     headquarters: "Spreitenbach, Elveția",
     overview: `LinMot este un producător elvețian de motoare liniare, cu sediul la Spreitenbach, parte din grupul NTI AG (marca oficială fiind NTI AG LinMot & MagSpring). Compania proiectează motoare liniare tubulare pentru poziționare dinamică de precizie, motoare cu funcție combinată de translație și rotație, module liniare complete și gripere electrice pentru manipulare. Pentru clienți din România putem oferta motoare și module LinMot pentru linii de asamblare și mașini de ambalat.
 
-Gama de motoare liniare cuprinde seria P01 pentru aplicații compacte și seria P10, disponibilă în diametre de 54 și 70 mm, pentru forțe mai mari; există și versiuni din inox și o variantă certificată ATEX pentru zone cu risc de explozie. Motoarele cu translație și rotație combinată (seria PR) completează gama pentru aplicații de tip pick-and-place, iar modulele liniare complete (DM, FM, EM, SM, H) integrează motorul, ghidajul și senzorii într-un singur ansamblu. LinMot concurează cu alți producători de sisteme de poziționare liniară, inclusiv cu Thomson Industries pe segmentul de acționare liniară de precizie.
+Gama de motoare liniare cuprinde seria P01 pentru aplicații compacte și seria P10, cu variantele P10-54 și P10-70, pentru forțe mai mari; există și versiuni din inox și o variantă certificată ATEX pentru zone cu risc de explozie. Motoarele cu translație și rotație combinată (seria PR) completează gama pentru aplicații de tip pick-and-place, iar modulele liniare complete (DM, FM, EM, SM, H) integrează motorul, ghidajul și senzorii într-un singur ansamblu. LinMot concurează cu alți producători de sisteme de poziționare liniară, inclusiv cu Thomson Industries pe segmentul de acționare liniară de precizie.
 
 Pentru piața din România, LinMot are sens la mașini de ambalat, linii de asamblare sau echipamente de laborator unde e nevoie de mișcare liniară rapidă și repetabilă, fără jocul mecanic al unui șurub cu bile clasic.`,
     whyChoose: [
       "Motoare liniare tubulare fără mecanism intermediar, cu răspuns dinamic rapid pentru poziționare de precizie",
       "Variantă certificată ATEX (P01 ATEX) pentru instalare în zone cu risc de explozie",
-      "Funcții de siguranță integrate în drive (STO, SS1, SS2), utile la mașini cu acces frecvent al operatorului",
+      "Drivere servo cu funcții de siguranță funcțională, utile la mașini cu acces frecvent al operatorului",
       "Gamă de module liniare complete (motor, ghidaj, senzori) pentru integrare rapidă fără proiectare mecanică suplimentară",
       "Gripere electrice liniare proprii, utile la stații de preluare-depunere fără sisteme pneumatice separate"
     ],
     keyProducts: [
-      { name: "Motoare Liniare Seria P10", description: "Motoare liniare tubulare disponibile în diametre de 54 și 70 mm, pentru aplicații cu forțe mai mari decât seria compactă P01, disponibile și în variante din inox pentru medii cu cerințe de igienă. Se folosesc la stații de poziționare pe linii de asamblare sau ambalare. Pentru ofertă, clientul trebuie să trimită forța necesară, cursa de lucru și mediul de instalare (standard, inox, ATEX)." },
+      { name: "Motoare Liniare Seria P10", description: "Motoare liniare tubulare din variantele P10-54 și P10-70, pentru aplicații cu forțe mai mari decât seria compactă P01, disponibile și în variante din inox pentru medii cu cerințe de igienă. Se folosesc la stații de poziționare pe linii de asamblare sau ambalare. Pentru ofertă, clientul trebuie să trimită forța necesară, cursa de lucru și mediul de instalare (standard, inox, ATEX)." },
       { name: "Motoare Liniar-Rotative Seria PR", description: "Motoare care combină mișcarea de translație cu rotația pe același ax, disponibile în modelele PR01, PR02 și PR04, potrivite pentru aplicații de tip pick-and-place unde piesa trebuie deplasată și orientată în același ciclu. Reduc numărul de axe separate necesare pe o stație. Necesită cursa liniară, unghiul de rotație și forța/cuplul cerute pentru selecția corectă." },
-      { name: "Module Liniare Complete Seria SM/DM/FM", description: "Module care integrează motorul liniar, ghidajul și senzorii de poziție într-un singur ansamblu gata de montat, disponibile în variante compacte (SM), direct-drive (DM) și de forță mare (FM), inclusiv o versiune din inox (SM02) pentru medii cu spălare frecventă. Reduc timpul de proiectare mecanică la integrarea într-o mașină nouă. Pentru ofertă e nevoie de cursa dorită, forța și mediul de lucru." }
+      { name: "Module Liniare Complete Seria SM/DM/FM", description: "Module care integrează motorul liniar, ghidajul și senzorii de poziție într-un singur ansamblu gata de montat, din seriile direct-drive (DM), economice (EM) și FM, plus variante din inox (SM01, SM02 și H01) pentru medii cu spălare frecventă. Reduc timpul de proiectare mecanică la integrarea într-o mașină nouă. Pentru ofertă e nevoie de cursa dorită, forța și mediul de lucru." }
     ],
     industries: [
       "Ambalare și etichetare — poziționare rapidă pe linii de producție",
@@ -346,19 +346,19 @@ Pentru piața din România, LinMot are sens la mașini de ambalat, linii de asam
       { code: "P10-54", description: "motor liniar tubular, diametru 54 mm" },
       { code: "P10-70", description: "motor liniar tubular, diametru 70 mm" },
       { code: "PR01", description: "motor liniar-rotativ, gama PR" },
-      { code: "PR02", description: "motor liniar-rotativ, variantă de forță" },
-      { code: "PR04", description: "motor liniar-rotativ, variantă de cursă" },
+      { code: "PR02", description: "motor liniar-rotativ, gama PR" },
+      { code: "PR04", description: "motor liniar-rotativ, gama PR" },
       { code: "DM01", description: "modul liniar direct-drive" },
       { code: "DM03", description: "modul liniar direct-drive, gamă extinsă" },
-      { code: "FM01", description: "modul liniar de forță mare" },
+      { code: "FM01", description: "modul liniar, seria FM" },
       { code: "EM01", description: "modul liniar economic" },
-      { code: "SM01", description: "modul liniar compact" },
-      { code: "SM02", description: "modul liniar compact, variantă inox" },
-      { code: "H01", description: "modul liniar orizontal" },
+      { code: "SM01", description: "modul liniar din inox" },
+      { code: "SM02", description: "modul liniar din inox" },
+      { code: "H01", description: "modul liniar din inox" },
       { code: "GM50", description: "gripper electric liniar" },
       { code: "GM51", description: "gripper electric liniar, variantă" },
-      { code: "GM01", description: "gripper electric miniatură" },
-      { code: "GM02", description: "gripper electric miniatură, variantă" },
+      { code: "GM01", description: "gripper electric liniar" },
+      { code: "GM02", description: "gripper electric liniar" },
       { code: "M01", description: "arc magnetic pasiv (MagSpring)" }
     ],
     faq: [
@@ -370,8 +370,8 @@ Pentru piața din România, LinMot are sens la mașini de ambalat, linii de asam
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "LinMot — site oficial NTI AG", url: "https://www.linmot.com", publisher: "NTI AG LinMot & MagSpring", accessed: "2026-09-25" },
       { title: "LinMot — pagina de produse", url: "https://www.linmot.com/products/", publisher: "NTI AG LinMot & MagSpring", accessed: "2026-09-25" }
@@ -386,7 +386,7 @@ Gama include actuatoare liniare universale (seriile FTX, FTP, KX), actuatoare cu
 
 Pentru piața din România, gama Exlar are sens la utilaje din industria alimentară, procesare plastic sau linii unde contaminarea cu ulei hidraulic nu este acceptabilă, precum și la aplicații de testare sau simulare unde poziționarea precisă contează mai mult decât forța brută.`,
     whyChoose: [
-      "Actuatoare cu șurub cu role, mai robuste la sarcini de șoc decât șuruburile cu bile clasice, conform gamei producătorului",
+      "Actuatoare cu șurub cu role, tehnologie pe care producătorul o prezintă ca alternativă la soluțiile cu șurub cu bile",
       "Familia Tritex integrează drive-ul de control direct în actuator, reducând cablajul și spațiul din tablou",
       "Variante atât liniare cât și rotative, în curent alternativ sau continuu, sub aceeași marcă tehnică",
       "Alternativă curată la cilindrii hidraulici — fără ulei, utilă în industria alimentară sau farmaceutică",
@@ -404,16 +404,16 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
       "Testare și simulare — poziționare dinamică pentru bancuri de probă",
       "Apărare terestră și navală — actuatoare electromecanice pentru sisteme robuste"
     ],
-    infinitrade: `Nu avem date proprii despre stocul Exlar și lucrăm după cataloagele publicate de Curtiss-Wright pentru fiecare familie de actuatoare. Aducem actuatoare Exlar prin canale de aprovizionare din UE sau SUA, cu un termen care depinde de familia și configurația exactă cerute, orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de forța sau cuplul necesar, cursa de lucru, tipul de mișcare și protocolul de comunicare al automatului existent. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator se selectează pe aplicația reală, nu pe un cod generic din memorie.`,
+    infinitrade: `Nu avem date proprii despre stocul Exlar și lucrăm după cataloagele publicate de Curtiss-Wright pentru fiecare familie de actuatoare. Aducem actuatoare Exlar prin canale de aprovizionare din UE sau SUA, cu un termen care depinde de familia și configurația exactă cerute, orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de forța sau cuplul necesar, cursa de lucru, tipul de mișcare și protocolul de comunicare al automatului existent. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator se selectează pe aplicația reală, nu pe un cod generic.`,
     limitation: "Nu putem confirma o sub-gamă completă de actuatoare Exlar dincolo de familiile listate public pe pagina Curtiss-Wright.",
     productCodes: [
       { code: "FTX Series", description: "actuator liniar universal cu șurub cu role" },
       { code: "FTP Series", description: "actuator liniar universal, gama FT" },
-      { code: "KX Series", description: "actuator liniar compact" },
+      { code: "KX Series", description: "actuator liniar universal" },
       { code: "GTX Series", description: "actuator cu motor integrat pe corp" },
       { code: "GTW Series", description: "actuator cu motor integrat, variantă GT" },
-      { code: "GSX Series", description: "actuator cu motor integrat, gamă scurtă" },
-      { code: "GTF Series", description: "actuator cu motor integrat, forță mare" },
+      { code: "GSX Series", description: "actuator cu motor integrat" },
+      { code: "GTF Series", description: "actuator cu motor integrat" },
       { code: "Tritex TTX Series", description: "actuator inteligent cu drive integrat" },
       { code: "Tritex EVA", description: "actuator inteligent, familia Tritex" },
       { code: "Tritex T2X", description: "actuator liniar AC cu drive integrat" },
@@ -423,14 +423,14 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
     faq: [
       { q: "Ce produce Exlar?", a: "Exlar, brand din grupul Curtiss-Wright, produce actuatoare liniare și rotative electromecanice cu șurub cu role sau cu bile, gândite ca alternativă la cilindrii hidraulici și pneumatici. Gama include actuatoare universale, actuatoare cu motor integrat și familia inteligentă Tritex cu drive încorporat." },
       { q: "Cum aleg actuatorul Exlar potrivit pentru o linie de proces?", a: "Alegerea depinde de forța sau cuplul necesar, cursa de lucru, tipul de mișcare (liniară sau rotativă) și dacă aveți nevoie de drive integrat (familia Tritex) sau de un motor separat. Trimiteți aceste date pentru propunerea corectă." },
-      { q: "Livrați actuatoare Exlar în România și cât durează?", a: "Da, aducem la comandă actuatoare Exlar prin canalele de aprovizionare disponibile din grupul Curtiss-Wright. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de familia și configurația exactă cerute de proiect." },
+      { q: "Livrați actuatoare Exlar în România și cât durează?", a: "Da, aducem la comandă actuatoare Exlar prin canale de aprovizionare din UE sau SUA. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de familia și configurația exactă cerute de proiect." },
       { q: "Ce trebuie să trimit pentru o ofertă de actuator Exlar?", a: "Trimiteți forța sau cuplul necesar, cursa de lucru, tipul de mișcare (continuă sau cu poziționare punct-la-punct) și protocolul de comunicare folosit de automatul existent. Aceste date permit alegerea corectă între familiile FTX, GTX sau Tritex." },
       { q: "De ce aș înlocui un cilindru hidraulic cu un actuator Exlar?", a: "Un actuator electromecanic Exlar elimină riscul scurgerilor de ulei și reduce mentenanța hidraulică, oferind în același timp control de poziție mai precis și repetabil. Decizia depinde însă de forța necesară și de bugetul disponibil pentru conversie." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Exlar — pagina de brand", url: "https://www.exlar.com", publisher: "Curtiss-Wright Corporation", accessed: "2026-09-25" },
       { title: "Curtiss-Wright Actuation — pagina de produse Exlar", url: "https://actuation.curtisswright.com/en-gb/products", publisher: "Curtiss-Wright Corporation", accessed: "2026-09-25" }
@@ -443,18 +443,18 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
     headquarters: "Anzola dell'Emilia (Bologna), Italia",
     overview: `Servomech este un producător italian de actuatoare liniare electromecanice și martinete mecanice, cu sediul la Anzola dell'Emilia, lângă Bologna, activ din 1989. Compania proiectează actuatoare cu șurub cu bile sau trapezoidal, martinete mecanice de ridicare și componente asociate (șuruburi cu bile, piulițe, reductoare unghiulare), gândite ca alternativă electrică la cilindrii hidraulici și pneumatici. Pentru clienți din România putem oferta actuatoare și martinete Servomech pentru sisteme de poziționare și ridicare industrială.
 
-Gama de actuatoare liniare cuprinde mai multe familii — de la seriile compacte ATL și CLA până la variantele de mare capacitate HSA și HPA — fiecare cu combinații diferite de forță, cursă și viteză. Martinetele mecanice sunt împărțite după tipul de șurub: seriile MA și SJ cu șurub cu bile (mai rapide, randament mai mare) și variantele echivalente cu șurub trapezoidal (mai lente, dar cu autoblocare naturală la oprirea alimentării). Servomech concurează cu alți producători de acționare liniară, inclusiv cu Thomson Industries pe segmentul martinetelor și actuatoarelor electromecanice.
+Gama de actuatoare liniare cuprinde mai multe familii — ATL, BSA, CLA, CLB, UAL, UBA, ILA, HSA, HPA și TMA — fiecare cu combinații diferite de forță, cursă și viteză. Martinetele mecanice sunt împărțite după tipul de șurub: seriile MA și SJ cu șurub cu bile (mai rapide, randament mai mare) și variantele echivalente cu șurub trapezoidal (mai lente, dar cu autoblocare naturală la oprirea alimentării). Servomech concurează cu alți producători de acționare liniară, inclusiv cu Thomson Industries pe segmentul martinetelor și actuatoarelor electromecanice.
 
 Pentru piața din România, Servomech are sens la platforme de ridicare, mese de poziționare industrială sau instalații care vor să renunțe la un cilindru hidraulic pentru a evita mentenanța uleiului și riscul de scurgeri.`,
     whyChoose: [
       "Gamă dublă de martinete — cu șurub cu bile pentru viteză și randament, sau cu șurub trapezoidal pentru autoblocare naturală",
-      "Familie largă de actuatoare liniare, de la variante compacte până la modele de mare capacitate (HSA, HPA)",
+      "Familie largă de actuatoare liniare, cu zece serii în catalog (ATL, BSA, CLA, CLB, UAL, UBA, ILA, HSA, HPA, TMA)",
       "Activitate din 1989 exclusiv pe acționare liniară electromecanică, conform istoricului companiei",
       "Componente disponibile și separat (șuruburi cu bile, piulițe, reductoare unghiulare) pentru proiecte proprii de integrare",
       "Alternativă electrică la cilindrii hidraulici, utilă unde scurgerile de ulei nu sunt acceptabile"
     ],
     keyProducts: [
-      { name: "Actuatoare Liniare Seriile ATL/CLA/HSA", description: "Familie de actuatoare liniare electromecanice cu șurub cu bile, disponibile de la variante compacte (ATL, CLA) până la modele de capacitate mare (HSA) pentru sarcini industriale grele. Folosite la mese de poziționare, platforme de ridicare și utilaje care înlocuiesc un cilindru hidraulic. Pentru ofertă, clientul trebuie să trimită forța necesară, cursa de lucru și viteza dorită." },
+      { name: "Actuatoare Liniare Seriile ATL/CLA/HSA", description: "Familie de actuatoare liniare electromecanice, cu seria ATL cu șurub trapezoidal și seria BSA cu șurub cu bile, alături de seriile CLA, HSA și altele; forța și cursa fiecărei serii se confirmă din catalogul producătorului. Folosite la mese de poziționare, platforme de ridicare și utilaje care înlocuiesc un cilindru hidraulic. Pentru ofertă, clientul trebuie să trimită forța necesară, cursa de lucru și viteza dorită." },
       { name: "Martinete Mecanice cu Șurub cu Bile Seria MA/SJ", description: "Martinete de ridicare cu șurub cu bile, cu randament mai ridicat și viteză mai mare decât variantele cu șurub trapezoidal, disponibile în modelele MA Mod.A/B și SJ Mod.B. Folosite la platforme de nivelare, mese elevatoare sau sisteme de poziționare verticală sincronizate pe mai multe puncte. Necesită sarcina de ridicat, cursa verticală și numărul de martinete sincronizate pentru dimensionare." },
       { name: "Martinete Mecanice cu Șurub Trapezoidal", description: "Variantă a martinetelor mecanice cu șurub trapezoidal în locul celui cu bile, mai lentă dar cu autoblocare naturală la întreruperea alimentării electrice — un avantaj de siguranță la sarcini suspendate. Disponibilă în modelele MA Mod.A/B, echivalente constructiv cu varianta cu bile. Pentru ofertă e nevoie de sarcina de ridicat și cursa verticală necesară." }
     ],
@@ -465,19 +465,19 @@ Pentru piața din România, Servomech are sens la platforme de ridicare, mese de
       "Automatizare industrială — actuatoare liniare pentru linii de producție",
       "Testare și bancuri de probă — poziționare controlată electric"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma despre Servomech ține strict de informațiile publicate pe site-ul producătorului, fără completări din memorie pentru parametri de sarcină sau viteză. Aducem actuatoare și martinete Servomech prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de forța sau sarcina de ridicat, cursa de lucru, viteza dorită și dacă aplicația cere autoblocare la oprirea alimentării — caz în care se recomandă varianta cu șurub trapezoidal. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator sau martinet se dimensionează pe instalația reală a clientului.`,
+    infinitrade: `Ce putem și ce nu putem confirma despre Servomech ține strict de informațiile publicate pe site-ul producătorului, iar parametrii de sarcină sau viteză se confirmă din catalogul modelului. Aducem actuatoare și martinete Servomech prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de forța sau sarcina de ridicat, cursa de lucru, viteza dorită și dacă aplicația cere autoblocare la oprirea alimentării — caz în care se recomandă varianta cu șurub trapezoidal. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator sau martinet se dimensionează pe instalația reală a clientului.`,
     limitation: "Nu putem confirma capacitatea de sarcină exactă a fiecărui martinet Servomech fără codul complet de model transmis de client.",
     productCodes: [
-      { code: "ATL", description: "actuator liniar electromecanic, serie compactă" },
+      { code: "ATL", description: "actuator liniar cu șurub trapezoidal" },
       { code: "BSA", description: "actuator liniar cu șurub cu bile" },
       { code: "CLA", description: "actuator liniar, gamă standard" },
       { code: "CLB", description: "actuator liniar, variantă gamă standard" },
       { code: "UAL", description: "actuator liniar universal" },
       { code: "UBA", description: "actuator liniar universal, variantă" },
       { code: "ILA", description: "actuator liniar industrial" },
-      { code: "HSA", description: "actuator liniar de mare capacitate" },
-      { code: "HPA", description: "actuator liniar de forță mare" },
-      { code: "TMA", description: "actuator liniar telescopic" },
+      { code: "HSA", description: "actuator liniar electromecanic" },
+      { code: "HPA", description: "actuator liniar electromecanic" },
+      { code: "TMA", description: "actuator liniar electromecanic" },
       { code: "MA Mod.A", description: "martinet cu șurub trapezoidal, model A" },
       { code: "MA Mod.B", description: "martinet cu șurub trapezoidal, model B" },
       { code: "SJ Mod.A", description: "martinet cu șurub trapezoidal, montaj special" },
@@ -498,8 +498,8 @@ Pentru piața din România, Servomech are sens la platforme de ridicare, mese de
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Servomech — sito ufficiale", url: "https://servomech.com/it/", publisher: "Servomech S.p.A.", accessed: "2026-09-25" },
       { title: "Servomech — official site (EN)", url: "https://servomech.com/en/", publisher: "Servomech S.p.A.", accessed: "2026-09-25" }
@@ -511,19 +511,19 @@ Pentru piața din România, Servomech are sens la platforme de ridicare, mese de
     headquarters: "Freudenberg am Main, Germania",
     overview: `Haacon este un producător german de tehnică de ridicare, cu sediul la Freudenberg am Main. Compania fabrică trolii manuale și electrice, cricuri cu spindlă sau cu cremalieră, macarale mici pivotante, sisteme de manevrare a containerelor și echipamente pentru vehicule comerciale — suporturi de sprijin pentru semiremorci, suporturi pentru remorci cu oiște și sisteme pentru roata de rezervă. Pentru clienți din România putem oferta echipamente Haacon pentru manevrarea containerelor și pentru flote de vehicule comerciale.
 
-Gama pentru containere include role de manevrare, dispozitive de nivelare și sisteme complete de ridicare-rulare-încărcare, folosite acolo unde un container trebuie mutat sau nivelat fără macara. Pentru vehicule comerciale, compania produce troliuri de tip Zahnstangenwinden (cu cremalieră și pinion) și Spindelwinden (cu spindlă filetată), plus suporturi de sprijin și sisteme pentru roata de rezervă, montate direct pe șasiul remorcilor și semiremorcilor. Haacon concurează cu alți producători de tehnică de ridicare și acționare mecanică, inclusiv cu Thomson Industries pe segmentul reductoarelor și sistemelor cu șurub.
+Gama pentru containere include role de manevrare, dispozitive de nivelare și sisteme complete de ridicare-rulare-încărcare, folosite acolo unde un container trebuie mutat sau nivelat fără macara. Pentru vehicule comerciale, compania produce cricuri cu cremalieră și pinion (Zahnstangenwinden) și cricuri cu spindlă filetată (Spindelwinden), plus suporturi de sprijin și sisteme pentru roata de rezervă, montate direct pe șasiul remorcilor și semiremorcilor.
 
 Pentru piața din România, Haacon are sens la operatori de logistică și transport care manevrează containere fără macara fixă, precum și la producători și service-uri de remorci și semiremorci care au nevoie de suporturi de sprijin sau sisteme de roată de rezervă.`,
     whyChoose: [
       "Gamă completă pentru manevrarea containerelor fără macara — role, dispozitive de nivelare, sisteme de ridicare-rulare",
-      "Troliuri disponibile atât cu cremalieră și pinion, cât și cu spindlă filetată, pentru sarcini și viteze diferite",
+      "Cricuri disponibile atât cu cremalieră și pinion, cât și cu spindlă filetată",
       "Echipamente dedicate vehiculelor comerciale — suporturi de sprijin, sisteme pentru roata de rezervă, oiște",
       "Reductoare universale proprii, utile la proiecte de integrare mecanică unde clientul are nevoie de o soluție compactă",
       "Peste un secol de activitate în tehnica de ridicare, conform istoricului publicat de producător"
     ],
     keyProducts: [
       { name: "Sisteme de Manevrare Containere (Hebe-, Roll- und Ladesysteme)", description: "Ansambluri de role și dispozitive de nivelare pentru mutarea și poziționarea containerelor fără macara, folosite la depozite, terminale mici sau puncte de transbordare unde investiția într-o macara fixă nu se justifică. Sistemul cuprinde de obicei mai multe role sincronizate pentru ridicarea uniformă a containerului. Pentru ofertă, clientul trebuie să trimită tipul și greutatea containerului manevrat." },
-      { name: "Trolii Zahnstangenwinden și Spindelwinden", description: "Trolii pentru vehicule comerciale, disponibile cu mecanism de cremalieră și pinion (viteză mai mare de acționare) sau cu spindlă filetată (control mai fin al sarcinii), folosite la susținerea semiremorcilor parcate sau la ajustarea înălțimii de cuplare. Se montează direct pe șasiu. Necesită sarcina de susținut și cursa de reglaj pentru selecția corectă." },
+      { name: "Cricuri Zahnstangenwinden și Spindelwinden", description: "Cricuri disponibile cu mecanism de cremalieră și pinion sau cu spindlă filetată, folosite la ridicarea și susținerea sarcinilor în echipamente industriale; modelul potrivit se alege după fișa tehnică a producătorului. Necesită sarcina de susținut și cursa de reglaj pentru selecția corectă." },
       { name: "Suporturi de Sprijin pentru Semiremorci (Absattelstützen)", description: "Suporturi montate pe șasiul semiremorcilor pentru susținerea acestora atunci când sunt decuplate de la cap tractor, disponibile în variante manuale sau cu troliu integrat pentru ajustarea rapidă a înălțimii. Completează gama cu suporturi echivalente pentru remorci cu oiște (Deichselstützen). Pentru ofertă e nevoie de sarcina statică și tipul de cuplare al semiremorcii." }
     ],
     industries: [
@@ -542,8 +542,8 @@ Pentru piața din România, Haacon are sens la operatori de logistică și trans
       { code: "Allzweckgetriebe", description: "reductor universal cu acționare manuală" },
       { code: "Elektroseilwinden", description: "troliu electric cu cablu" },
       { code: "Handseilwinden", description: "troliu manual cu cablu" },
-      { code: "Zahnstangenwinden", description: "cric cu cremalieră și pinion pentru semiremorci" },
-      { code: "Spindelwinden", description: "cric cu spindlă filetată pentru semiremorci" },
+      { code: "Zahnstangenwinden", description: "cric cu cremalieră și pinion" },
+      { code: "Spindelwinden", description: "cric cu spindlă filetată" },
       { code: "Absattelstützen", description: "suport de sprijin pentru semiremorci parcate" },
       { code: "Deichselstützen", description: "suport de sprijin pentru remorci cu oiște" },
       { code: "Ersatzradsysteme", description: "sistem de susținere pentru roata de rezervă" },
@@ -553,15 +553,15 @@ Pentru piața din România, Haacon are sens la operatori de logistică și trans
     ],
     faq: [
       { q: "Ce produce Haacon?", a: "Haacon produce tehnică de ridicare — trolii manuale și electrice, cricuri cu spindlă sau cremalieră, macarale mici, sisteme pentru manevrarea containerelor și echipamente pentru vehicule comerciale precum suporturi de sprijin și sisteme pentru roata de rezervă." },
-      { q: "Cum aleg troliul Haacon potrivit pentru o semiremorcă?", a: "Alegerea depinde de sarcina de susținut și de tipul de acționare dorit — cremalieră și pinion pentru viteză mai mare, sau spindlă filetată pentru control mai fin al sarcinii. Trimiteți greutatea semiremorcii și tipul de cuplare pentru propunerea corectă." },
+      { q: "Cum aleg cricul Haacon potrivit pentru o aplicație de ridicare?", a: "Alegerea depinde de sarcina de susținut și de tipul de acționare dorit — cremalieră și pinion sau spindlă filetată. Trimiteți sarcina și condițiile de montaj pentru propunerea corectă." },
       { q: "Livrați echipamente Haacon în România și cât durează?", a: "Da, aducem la comandă echipamente Haacon prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de tipul de troliu sau sistem de manevrare cerut de proiect." },
       { q: "Ce trebuie să trimit pentru o ofertă de sistem de manevrare containere Haacon?", a: "Trimiteți tipul și greutatea containerului manevrat, precum și dacă aveți nevoie doar de role de ridicare sau de un sistem complet cu nivelare inclusă. Aceste date permit propunerea corectă din gama de sisteme pentru containere." },
       { q: "Ce diferență este între un suport Absattelstütze și unul Deichselstütze de la Haacon?", a: "Absattelstützen sunt suporturi pentru semiremorci decuplate de la capul tractor, în timp ce Deichselstützen susțin remorcile cu oiște atașate la vehiculul tractor. Alegerea depinde de tipul exact de remorcă folosit în flotă." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "haacon hebetechnik — site oficial", url: "https://www.haacon.com", publisher: "haacon hebetechnik gmbh", accessed: "2026-09-25" },
       { title: "haacon — pagina de produse", url: "https://www.haacon.com/en/products/", publisher: "haacon hebetechnik gmbh", accessed: "2026-09-25" }
@@ -574,20 +574,20 @@ Pentru piața din România, Haacon are sens la operatori de logistică și trans
     headquarters: "Bad Homburg, Germania",
     overview: `Ringspann este un producător german de componente de transmisie a puterii, cu sediul la Bad Homburg, fondat în 1944 de inginerul Albrecht Maurer. Compania fabrică roți libere (freewheels), frâne industriale, cuplaje de arbori și dispozitive de fixare de precizie, folosite acolo unde o transmisie mecanică are nevoie de o funcție de anti-retur, frânare controlată sau cuplare-decuplare a puterii. Pentru clienți din România putem oferta roți libere, frâne și cuplaje Ringspann pentru utilaje industriale și sisteme de transport.
 
-Gama de roți libere acoperă mai multe principii constructive — cu role, cu came sau de indexare — sub denumiri precum FGR-R, FXN sau FZ, folosite tipic ca sisteme anti-retur pe benzi transportoare înclinate sau la mecanisme unde arborele nu trebuie să se poată roti invers. Frânele industriale, din familiile EH, EV, DA sau DS, acoperă acționare electrohidraulică sau cu disc pentru oprirea controlată a mecanismelor grele. Cuplajele merg de la variante elastice cu bolțuri (seria L) până la cuplaje disc pentru transmisii de precizie. Ringspann concurează cu alți producători de frâne și cuplaje industriale, inclusiv cu Mayr pe segmentul frânelor de siguranță.
+Gama de roți libere acoperă mai multe principii constructive — cu role sau cu came — sub denumiri precum FGR-R, FXN sau FZ, folosite tipic ca sisteme anti-retur pe benzi transportoare înclinate sau la mecanisme unde arborele nu trebuie să se poată roti invers. Frânele industriale, din familiile EH, EV, DA sau DS, servesc la oprirea controlată a mecanismelor grele. Cuplajele includ cuplaje de compensare (seria L) și limitatoare de cuplu cu fricțiune (seriile RS și RT). Ringspann concurează cu alți producători de frâne și cuplaje industriale, inclusiv cu Mayr pe segmentul frânelor de siguranță.
 
 Pentru piața din România, Ringspann are sens la benzi transportoare înclinate, poduri rulante, mori sau instalații unde o roată liberă sau o frână industrială trebuie dimensionată exact pe cuplul și turația reale ale mecanismului, nu aleasă generic dintr-un catalog.`,
     whyChoose: [
-      "Familie de peste 80 de ani în transmisii mecanice, cu gamă proprie de roți libere, frâne și cuplaje",
-      "Roți libere pe mai multe principii constructive (role, came, indexare), pentru cerințe diferite de turație și cuplu",
-      "Frâne industriale disponibile atât electrohidraulic cât și cu disc, pentru oprire controlată la mecanisme grele",
-      "Gamă largă de cuplaje, de la variante elastice simple până la cuplaje disc de precizie",
+      "Companie de familie, cu peste 80 de ani în transmisii mecanice, cu gamă proprie de roți libere, frâne și cuplaje",
+      "Roți libere pe mai multe principii constructive (elemente de blocare cu role sau cu came), pentru cerințe diferite de turație și cuplu",
+      "Frâne industriale din mai multe familii (EH, EV, DA, DS), pentru oprire controlată la mecanisme grele",
+      "Gamă largă de cuplaje de compensare și limitatoare de cuplu",
       "Dispozitive de fixare de precizie proprii, utile la mașini-unelte și linii de producție cu cerințe stricte de centrare"
     ],
     keyProducts: [
       { name: "Roți Libere Seriile FGR-R/FXN/FZ", description: "Roți libere pe principii constructive diferite — cu role (FGR-R) sau cu came (FXN, FZ) — folosite ca sisteme anti-retur la benzi transportoare înclinate, mecanisme de ridicare sau linii unde arborele nu are voie să se rotească invers la oprirea motorului. Alegerea între principii depinde de turație și de cuplul de blocare necesar. Pentru ofertă, clientul trebuie să trimită cuplul de blocare, turația de lucru și diametrul arborelui." },
-      { name: "Frâne Industriale Seriile EH/DA/DS", description: "Frâne pentru oprirea controlată a mecanismelor industriale grele, cu acționare electrohidraulică (seria EH) sau cu disc (seriile DA, DS) în funcție de cuplul de frânare necesar și de viteza de răspuns cerută. Folosite la poduri rulante, macarale și mori industriale. Necesită cuplul de frânare, diametrul discului sau al tamburului și tipul de acționare dorit pentru selecția corectă." },
-      { name: "Cuplaje de Arbori Seriile L/RS", description: "Cuplaje pentru transmiterea cuplului între arbori, de la variante elastice cu bolțuri (seria L) pentru amortizarea vibrațiilor, până la cuplaje disc (seria RS) pentru transmisii de precizie fără joc unghiular. Se folosesc la conectarea motoarelor cu reductoare sau pompe. Pentru ofertă e nevoie de cuplul de transmis, turația și diametrele arborilor de conectat." }
+      { name: "Frâne Industriale Seriile EH/DA/DS", description: "Frâne pentru oprirea controlată a mecanismelor industriale grele, din seriile EH, DA și DS, în funcție de cuplul de frânare necesar și de viteza de răspuns cerută; tipul de acționare se confirmă pe codul complet. Folosite la poduri rulante, macarale și mori industriale. Necesită cuplul de frânare, diametrul discului sau al tamburului și tipul de acționare dorit pentru selecția corectă." },
+      { name: "Cuplaje și Limitatoare de Cuplu Seriile L/RS", description: "Cuplaje de compensare pentru transmiterea cuplului între arbori (seriile L, LA, LF, LK) și limitatoare de cuplu cu fricțiune (seriile RS, RSHD și RT). Se folosesc la conectarea motoarelor cu reductoare sau pompe. Pentru ofertă e nevoie de cuplul de transmis, turația și diametrele arborilor de conectat." }
     ],
     industries: [
       "Benzi transportoare și minerit — roți libere ca sisteme anti-retur",
@@ -596,7 +596,7 @@ Pentru piața din România, Ringspann are sens la benzi transportoare înclinate
       "Mașini-unelte — dispozitive de fixare de precizie",
       "Energie eoliană — roți libere și cuplaje pentru transmisii de turbine"
     ],
-    infinitrade: `Niciun fapt propriu nu apare în acest text despre Ringspann — totul vine din sursele oficiale citate mai sus, inclusiv anul fondării și gama de coduri. Aducem roți libere, frâne și cuplaje Ringspann prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de cuplul de lucru, turația, diametrul arborelui și, la frâne, cuplul de frânare necesar și diametrul discului sau tamburului. Nu promitem disponibilitate din depozit pentru această gamă — fiecare componentă se dimensionează pe mecanismul real al clientului, nu pe un cod ales din memorie.`,
+    infinitrade: `Informațiile despre Ringspann (anul fondării, sediul, gama de coduri) provin din sursele oficiale ale producătorului. Aducem roți libere, frâne și cuplaje Ringspann prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de cuplul de lucru, turația, diametrul arborelui și, la frâne, cuplul de frânare necesar și diametrul discului sau tamburului. Nu promitem disponibilitate din depozit pentru această gamă — fiecare componentă se dimensionează pe mecanismul real al clientului, nu pe un cod ales la întâmplare.`,
     limitation: "Nu putem confirma cuplurile de frânare sau de blocare exacte pentru fiecare variantă Ringspann fără codul complet de tip transmis de client.",
     productCodes: [
       { code: "EH-018", description: "frână electrohidraulică industrială" },
@@ -612,13 +612,13 @@ Pentru piața din România, Ringspann are sens la benzi transportoare înclinate
       { code: "FXN", description: "roată liberă cu came, seria FXN" },
       { code: "FZ", description: "roată liberă cu came, seria FZ" },
       { code: "FH", description: "roată liberă cu came, seria FH" },
-      { code: "FRH", description: "roată liberă de indexare" },
-      { code: "Seria L", description: "cuplaj elastic cu bolțuri" },
-      { code: "LA", description: "cuplaj elastic cu bolțuri, variantă LA" },
-      { code: "RS", description: "cuplaj disc de precizie, seria RS" },
-      { code: "RT", description: "cuplaj disc, seria RT" },
+      { code: "FRHD", description: "roată liberă pentru anti-retur la turație mică" },
+      { code: "Seria L", description: "cuplaj de compensare" },
+      { code: "LA", description: "cuplaj de compensare, seria LA" },
+      { code: "RS", description: "limitator de cuplu cu fricțiune, seria RS" },
+      { code: "RT", description: "limitator de cuplu cu fricțiune, seria RT" },
       { code: "KFDF", description: "dispozitiv de fixare de precizie" },
-      { code: "BKD", description: "mandrină de fixare de precizie" }
+      { code: "BKD", description: "bucșă conică de fixare de precizie" }
     ],
     faq: [
       { q: "Ce produce Ringspann?", a: "Ringspann produce roți libere, frâne industriale, cuplaje de arbori și dispozitive de fixare de precizie, folosite în transmisii mecanice unde e nevoie de funcție anti-retur, frânare controlată sau cuplare-decuplare a puterii. Compania este fondată în 1944 și are sediul la Bad Homburg, Germania." },
@@ -629,8 +629,8 @@ Pentru piața din România, Ringspann are sens la benzi transportoare înclinate
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ringspann — site oficial", url: "https://www.ringspann.com", publisher: "RINGSPANN GmbH", accessed: "2026-09-25" },
       { title: "Ringspann — istoria companiei", url: "https://www.ringspann.com/en/company/history/", publisher: "RINGSPANN GmbH", accessed: "2026-09-25" },

@@ -4,21 +4,21 @@
 export const brandContentBatch104 = {
   wachendorff: {
     name: "Wachendorff",
-    overview: `Wachendorff Automation este divizia de senzori de mișcare a grupului german Wachendorff, axată pe encodere rotative incrementale și absolute pentru automatizări industriale și echipamente mobile. Gama include encodere incrementale din seriile WDGI și WDGN, encodere cu impuls programabil din seria WDGP și encodere absolute din seria WDGA, disponibile cu interfețe CANopen, CANopen Lift, SAE J1939, IO-Link, SSI, RS485, PROFINET, EtherNet/IP sau EtherCAT. Din portofoliul Wachendorff putem oferta atât modele standard pentru benzi transportoare și motoare electrice, cât și variante configurabile prin NFC pentru integratori care schimbă des parametrii de ieșire.
+    overview: `Wachendorff Automation este un producător german de senzori de mișcare, axat pe encodere rotative incrementale și absolute pentru automatizări industriale și echipamente mobile. Gama include encodere incrementale din seriile WDGI și WDGN, encodere cu impuls programabil din seria WDGP și encodere absolute din seria WDGA, disponibile cu interfețe CANopen, CANopen Lift, SAE J1939, IO-Link, SSI, RS485, PROFINET, EtherNet/IP sau EtherCAT. Din portofoliul Wachendorff putem oferta atât modele standard pentru benzi transportoare și motoare electrice, cât și variante configurabile prin NFC pentru integratori care schimbă des parametrii de ieșire.
 
-Ce diferențiază encoderele Wachendorff e arhitectura mecanică unitară păstrată pe o plajă largă de diametre, de la carcase miniaturale de 24-30 mm până la variante robuste de 70-115 mm, fără schimbarea principiului de măsurare. Seria absolută WDGA folosește tehnologia proprie QuattroMag pentru citirea single-turn fără elemente optice fragile, iar tehnologia EnDra permite numărarea turelor multi-turn fără baterie de rezervă. Modelele trec prin teste HALT pentru a confirma rezistența la vibrații și șocuri repetate. În segmentul encoderelor industriale, Wachendorff concurează direct cu Kübler, mai ales pe aplicațiile unde interfața de câmp și diametrul arborelui trebuie să coincidă cu ce era deja montat pe utilaj.
+Gama Wachendorff acoperă o plajă largă de diametre, de la carcase miniaturale de 24-30 mm până la variante robuste de 70-115 mm, cu principii de măsurare optice și magnetice. Seria absolută WDGA folosește tehnologia proprie QuattroMag pentru citirea single-turn fără elemente optice fragile, iar tehnologia EnDra permite numărarea turelor multi-turn fără baterie de rezervă. În segmentul encoderelor industriale, Wachendorff concurează direct cu Kübler, mai ales pe aplicațiile unde interfața de câmp și diametrul arborelui trebuie să coincidă cu ce era deja montat pe utilaj.
 
 Pentru piața din România, Wachendorff înseamnă o alternativă la encoderele deja instalate pe linii de producție, macarale sau utilaje agricole, atunci când clientul are nevoie de un arbore sau o interfață digitală specifică. Se pretează la retrofit de motoare electrice, la sisteme de poziționare pe macarale portuare și la vehicule ghidate automat, unde fiabilitatea semnalului contează mai mult decât costul unitar.`,
     whyChoose: [
-      "Plajă de diametre de la 24 la 115 mm în aceeași familie constructivă, utilă la înlocuirea encoderelor existente fără modificarea mecanicii",
+      "Plajă de diametre de la 24 la 115 mm, utilă la identificarea unui echivalent pentru encoderele existente; compatibilitatea mecanică se confirmă pe codul complet",
       "Interfețe digitale multiple pe platforma absolută WDGA — CANopen, SSI, IO-Link, PROFINET, EtherNet/IP și EtherCAT",
       "Tehnologie QuattroMag pentru măsurare single-turn fără componente optice expuse la praf sau vibrații",
       "Tehnologie EnDra pentru numărare multi-turn fără baterie tampon, utilă la mentenanță redusă",
       "Configurare rapidă prin NFC și aplicație de smartphone la seria WDGN, fără software dedicat pe PC",
-      "Testare HALT pentru confirmarea rezistenței la șocuri și vibrații înainte de livrare",
+      
     ],
     keyProducts: [
-      { name: "Encodere Incrementale Seria WDGI", description: "Encodere incrementale cu ieșire în cuadratură, disponibile în carcase de la 24-30 mm până la 70-115 mm, cu ieșiri push-pull sau RS485. Varianta WDGI58B acoperă diametrul standard de 58 mm, cel mai cerut la retrofit de motoare și benzi transportoare." },
+      { name: "Encodere Incrementale Seria WDGI", description: "Encodere incrementale cu ieșire în cuadratură, disponibile în carcase de la 24-30 mm până la 70-115 mm, cu ieșiri push-pull sau RS485. Varianta WDGI58B are carcasă cu diametrul de 58 mm." },
       { name: "Encodere Absolute Seria WDGA", description: "Encodere absolute single-turn și multi-turn cu tehnologiile QuattroMag și EnDra, rezoluție single-turn de până la 16 biți și precizie de măsurare de ±0,09°. Interfețe SSI, CANopen, PROFINET, EtherNet/IP sau EtherCAT, în funcție de model." },
       { name: "Encodere Configurabile Seria WDGN", description: "Encoder incremental cu parametri de ieșire ajustabili prin NFC direct de pe smartphone, fără cablu de programare. Util la echipamente unde numărul de impulsuri pe rotație se schimbă frecvent între proiecte." },
       { name: "Encodere Programabile Seria WDGP", description: "Encoder incremental cu număr de impulsuri liber definibil, până la 16.384 ppr, pentru aplicații unde rezoluția standard din catalog nu acoperă cerința exactă a mașinii." },
@@ -53,8 +53,8 @@ Pentru piața din România, Wachendorff înseamnă o alternativă la encoderele 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Wachendorff Automation — Rotary Encoders", url: "https://www.wachendorff-automation.com", publisher: "Wachendorff Automation GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Wachendorff Automation — Sitemap produse", url: "https://www.wachendorff-automation.com/sitemap.xml", publisher: "Wachendorff Automation GmbH & Co. KG", accessed: "2026-09-25" },
@@ -64,14 +64,14 @@ Pentru piața din România, Wachendorff înseamnă o alternativă la encoderele 
   scancon: {
     name: "Scancon",
     headquarters: "Hillerød, Danemarca",
-    overview: `SCANCON A/S este un producător danez de encodere rotative, cu sediul la Hillerød, specializat în encodere incrementale și absolute pentru medii industriale exigente. Gama acoperă șapte familii incrementale — Micro, Mini, Standard, Heavy Duty, Ex-proof, SubSea și Stainless Steel — plus encodere absolute Mini, Standard, Ex-proof și Heavy Duty, cu protocoale SSI, CANopen, BiSS C, Modbus, EtherCAT sau Profinet. Din gama SCANCON putem oferta atât encodere miniaturale de 16-20 mm pentru instrumentație, cât și modele robuste de până la 115 mm pentru utilaje grele.
+    overview: `SCANCON A/S este un producător danez de encodere rotative, cu sediul la Hillerød, specializat în encodere incrementale și absolute pentru medii industriale exigente. Gama acoperă opt familii incrementale — Micro, Mini, Standard, Heavy Duty, Ex-proof, SubSea, Stainless Steel și Fiber Optic — plus encodere absolute Mini, Standard, Ex-proof și Heavy Duty, cu protocoale SSI, CANopen, BiSS C, Modbus, EtherCAT sau Profinet. Din gama SCANCON putem oferta atât encodere miniaturale de 16-20 mm pentru instrumentație, cât și modele robuste de până la 115 mm pentru utilaje grele.
 
-Ce diferențiază SCANCON e acoperirea completă a mediilor dificile din aceeași platformă constructivă: seria Ex-proof merge până la 108 mm pentru zone cu risc de explozie, iar seria SubSea, de 68 mm, funcționează etanș până la 6.000 metri adâncime, pentru aplicații marine și offshore. Seria Heavy Duty urcă la 12.500 ppr pe carcase de 60-115 mm, pentru medii cu vibrații și praf constant, iar familia Fiber Optic transmite semnalul optic pe distanțe unde interferența electromagnetică ar afecta un cablu obișnuit. Compania se poziționează, alături de Leine & Linde, printre furnizorii scandinavi specializați pe encodere pentru industrii grele.
+Ce diferențiază SCANCON e acoperirea completă a mediilor dificile din aceeași platformă constructivă: seria Ex-proof merge până la 115 mm pentru zone cu risc de explozie, iar seria SubSea, de 68 mm, funcționează etanș până la 6.000 metri adâncime, pentru aplicații marine și offshore. Seria Heavy Duty urcă la 12.500 ppr pe carcase de 60-115 mm, pentru medii cu vibrații și praf constant, iar familia Fiber Optic transmite semnalul optic pe distanțe unde interferența electromagnetică ar afecta un cablu obișnuit. Compania se poziționează, alături de Leine & Linde, printre furnizorii scandinavi specializați pe encodere pentru industrii grele.
 
 Pentru România, SCANCON e o opțiune atunci când aplicația cere o carcasă certificată Ex-proof, o variantă SubSea sau o rezistență la coroziune superioară celei standard — situații frecvente în energia eoliană, industria alimentară sau instalațiile offshore, unde un encoder obișnuit s-ar defecta rapid.`,
     whyChoose: [
       "Familie SubSea etanșă până la 6.000 metri adâncime, pentru aplicații marine și offshore",
-      "Variante Ex-proof pe carcase de până la 108 mm, pentru zone cu atmosferă explozivă",
+      "Variante Ex-proof pe carcase de până la 115 mm, pentru zone cu atmosferă explozivă",
       "Encodere Stainless Steel rezistente la spălare și coroziune, potrivite industriei alimentare",
       "Familie Fiber Optic cu transmisie optică a semnalului, imună la interferențe electromagnetice",
       "Rezoluții de până la 12.500 ppr la seriile Standard și Heavy Duty",
@@ -115,8 +115,8 @@ Pentru România, SCANCON e o opțiune atunci când aplicația cere o carcasă ce
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SCANCON A/S — Encoders", url: "https://www.scancon.dk", publisher: "SCANCON A/S", accessed: "2026-09-25" },
       { title: "SCANCON — Product Range", url: "https://www.scancon.dk/products/", publisher: "SCANCON A/S", accessed: "2026-09-25" },
@@ -127,15 +127,15 @@ Pentru România, SCANCON e o opțiune atunci când aplicația cere o carcasă ce
     name: "Leine & Linde",
     overview: `Leine & Linde este un producător suedez de encodere industriale, specializat în soluții personalizate pentru condiții dificile de mediu. Compania dezvoltă encodere incrementale și absolute, encodere pentru siguranță funcțională (FSI) și variante certificate pentru atmosfere explozive, alături de electronică de interfață și senzori dedicați. Din gama Leine & Linde putem oferta encodere pentru macarale, echipamente miniere și utilaje din industria hârtiei, acolo unde fiabilitatea semnalului contează mai mult decât prețul unitar.
 
-Ce diferențiază Leine & Linde e organizarea gamei pe familii numerotate după robustețe: seria 300 pentru aplicații miniaturale, seria 600 pentru encodere inductive incrementale industriale, seria 800 pentru medii heavy duty și seria 1000 pentru condiții extreme de temperatură și vibrații, plus seria 2000 fără rulmenți (bearingless) pentru montaj direct pe arbore. Compania oferă și encodere liniare din seria 4000. În segmentul encoderelor pentru medii dure, Leine & Linde concurează cu Heidenhain pe aplicațiile unde robustețea mecanică primează asupra preciziei absolute de laborator.
+Ce diferențiază Leine & Linde e organizarea gamei pe familii numerotate: seria 300 (Miniature), 500 (Robust), 600 (Industrial Incremental, cu tehnologie inductivă), 700 (Compact), 800 (Heavy Duty), 1000 (Extreme) și 2000 (Bearingless, fără rulmenți proprii). Compania oferă și encodere liniare din seria 4000. 
 
 Pentru piața din România, Leine & Linde e relevant la macarale portuare și industriale, la utilaje din industria celulozei și hârtiei și la instalații miniere, unde vibrațiile constante și praful scot rapid din uz un encoder standard neîntărit mecanic.`,
     whyChoose: [
-      "Familie de encodere numerotată după nivelul de robustețe, de la seria 300 miniaturală la seria 1000 pentru condiții extreme",
+      "Familii de encodere numerotate (300, 500, 600, 700, 800, 1000, 2000), de la seria 300 (Miniature) la seria 1000 (Extreme)",
       "Encodere fără rulmenți (seria 2000) pentru montaj direct pe arbore, fără piese mecanice suplimentare supuse uzurii",
-      "Encodere pentru siguranță funcțională (FSI), utile la macarale și utilaje cu cerințe de oprire de urgență",
+      "Encodere pentru siguranță funcțională (FSI), disponibile în gama producătorului",
       "Variante certificate pentru atmosfere explozive, folosite în industria minieră și petrochimică",
-      "Peste opt industrii deservite direct, de la energie regenerabilă la prelucrarea lemnului",
+      "Peste opt industrii deservite, conform informațiilor publicate de producător",
     ],
     keyProducts: [
       { name: "Encodere Incrementale Seria 600", description: "Familie de encodere incrementale industriale cu tehnologie inductivă, gândită pentru linii de producție unde encoderele optice clasice ar suferi de la praf sau umiditate." },
@@ -163,19 +163,19 @@ Pentru piața din România, Leine & Linde e relevant la macarale portuare și in
       { code: "1000 Extreme", description: "encoder pentru condiții extreme de temperatură și vibrații" },
       { code: "2000 Bearingless", description: "encoder fără rulmenți, montaj direct pe arbore" },
       { code: "4000 Linear", description: "sistem de măsurare liniară pentru poziționare pe axe" },
-      { code: "FSI Functional Safety", description: "encoder certificat pentru siguranță funcțională la oprire de urgență" },
+      { code: "FSI Functional Safety", description: "encoder pentru siguranță funcțională" },
       { code: "EX Hazardous Location", description: "encoder certificat pentru atmosfere explozive" },
     ],
     faq: [
-      { q: "Ce produce compania Leine & Linde?", a: "Leine & Linde dezvoltă și fabrică encodere industriale incrementale și absolute în Suedia, organizate pe familii numerotate de la 300 la 2000 după nivelul de robustețe. Compania oferă și encodere pentru siguranță funcțională și variante certificate pentru atmosfere explozive, folosite pe macarale, utilaje miniere și linii din industria hârtiei." },
+      { q: "Ce produce compania Leine & Linde?", a: "Leine & Linde dezvoltă și fabrică encodere industriale incrementale și absolute în Suedia, organizate pe familii numerotate de la 300 la 2000. Compania oferă și encodere pentru siguranță funcțională și variante certificate pentru atmosfere explozive, folosite pe macarale, utilaje miniere și linii din industria hârtiei." },
       { q: "Cum aleg seria Leine & Linde potrivită pentru macaraua mea?", a: "Depinde de condițiile de mediu: seria 800 acoperă vibrații și șocuri obișnuite la macarale industriale, iar seria 1000 e gândită pentru temperaturi și vibrații extreme. Trimiteți-ne aplicația exactă și diametrul arborelui pentru a identifica familia potrivită." },
       { q: "Ce este un encoder bearingless de la Leine & Linde?", a: "Este un encoder din seria 2000 fără rulmenți proprii, montat direct pe arborele mașinii, care elimină o piesă mecanică supusă uzurii. E util la turații mari sau unde spațiul radial pentru un encoder standard lipsește." },
       { q: "Livrați encodere Leine & Linde în România și cât durează?", a: "Da, aducem unitățile la comandă din Suedia, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei și parametrilor. Nu ținem această gamă pe raft, așa că termenul final depinde de disponibilitatea producătorului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Leine & Linde — Encoders for demanding environments", url: "https://www.leinelinde.com/", publisher: "Leine & Linde AB", accessed: "2026-09-25" },
       { title: "Leine & Linde — Incremental Encoders", url: "https://www.leinelinde.com/products/incremental-encoders/", publisher: "Leine & Linde AB", accessed: "2026-09-25" },
@@ -187,25 +187,25 @@ Pentru piața din România, Leine & Linde e relevant la macarale portuare și in
     certifications: [ "ISO 9001 — sistem de management al calității" ],
     overview: `Dynapar este un producător american de encodere rotative și rezolvere, cu o gamă largă de tehnologii optice și magnetice pentru automatizare industrială, aerospațială și echipamente off-highway. Portofoliul acoperă encodere incrementale și absolute, encodere fără rulmenți, encodere cu arbore gol (hollow-shaft), variante pentru zone periculoase și modele cu protocoale Ethernet industriale — EtherNet/IP, EtherCAT și PROFINET. Din gama Dynapar putem oferta atât modele compacte pentru servomotoare, cât și rezolvere fără carcasă pentru integrare directă în motor.
 
-Ce diferențiază Dynapar e tehnologia PulseIQ, integrată în seria HS35iQ, care raportează automat starea semnalului, tensiunea de alimentare și temperatura encoderului către automat, înainte ca defectul să oprească linia. Gama include și familii dedicate — HC25 și Qube22 pentru montaj compact, M53 pentru spații foarte restrânse, HR25 pentru arbore gol — plus rezolvere carcasate sau fără carcasă, inclusiv variante rezistente la temperaturi ridicate și la radiații pentru aplicații speciale. Compania face parte din portofoliul industrial al grupului american Fortive, alături de alte branduri de instrumentație de precizie.
+Ce diferențiază Dynapar e tehnologia PulseIQ, integrată în seria HS35iQ, care raportează automat starea semnalului, tensiunea de alimentare și temperatura encoderului către automat, înainte ca defectul să oprească linia. Gama include și familii dedicate, precum HC25, M53, HR25, HD25 și AI25, plus rezolvere carcasate (housed) sau fără carcasă (frameless); configurația exactă a fiecărei serii o confirmăm pe cod, din documentația Dynapar. Compania face parte din portofoliul industrial al grupului american Fortive, alături de alte branduri de instrumentație de precizie.
 
 Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomotoare și utilaje off-highway, precum și la rezolvere pentru echipamente unde encoderul optic clasic nu rezistă la vibrații sau temperaturi ridicate, cum sunt aplicațiile din oțelării sau industria hârtiei.`,
     whyChoose: [
       "Tehnologie PulseIQ la seria HS35iQ, cu autodiagnoză de tensiune, temperatură și calitate semnal transmisă către automat",
       "Familie largă de arhitecturi mecanice — arbore plin, arbore gol, hub-shaft și bearingless — pentru orice tip de montaj",
-      "Rezolvere carcasate și fără carcasă, inclusiv variante rezistente la temperaturi ridicate și radiații",
+      "Rezolvere carcasate (housed) și fără carcasă (frameless)",
       "Protocoale Ethernet industriale integrate — EtherNet/IP, EtherCAT și PROFINET — pe modelele mai noi",
-      "Acces prin grupul Fortive la rețeaua globală de suport tehnic și piese de schimb",
+      "Parte a grupului american Fortive",
     ],
     keyProducts: [
       { name: "Encodere Incrementale Seria HS35iQ", description: "Encoder incremental cu arbore gol și tehnologie PulseIQ, rezoluție de până la 20.000 ppr, cu autodiagnoză a stării semnalului și a temperaturii de funcționare, disponibil în variantă standard sau programabilă." },
-      { name: "Encodere Compacte Seria HC25 / Qube22", description: "Encodere incrementale de dimensiuni reduse, gândite pentru montaj pe servomotoare și axe unde spațiul radial este limitat, cu opțiuni multiple de conector." },
+      { name: "Encodere Seria HC25", description: "Familie de encodere Dynapar; dimensiunile, tipul de ieșire și conectorul se confirmă pe cod, din documentația producătorului." },
       { name: "Encodere Arbore Gol Seria HR25", description: "Encoder cu arbore gol pentru montaj direct pe axul motorului, fără cuplaj mecanic suplimentar, reducând jocul mecanic din lanțul de măsurare." },
-      { name: "Rezolvere Carcasate și Fără Carcasă", description: "Familie de rezolvere pentru feedback de poziție pe servomotoare, disponibile în variante standard, de temperatură ridicată sau rezistente la radiații, pentru aplicații industriale și speciale." },
+      { name: "Rezolvere Carcasate și Fără Carcasă", description: "Familie de rezolvere pentru feedback de poziție pe servomotoare, disponibile carcasate (housed) sau fără carcasă (frameless)." },
     ],
     industries: [
-      "Aerospațial și apărare — rezolvere rezistente la radiații pentru sisteme critice",
-      "Ascensoare — encodere de poziție pentru sisteme de siguranță",
+      "Aerospațial și apărare — rezolvere pentru sisteme critice",
+      "Ascensoare — encodere de poziție",
       "Automatizare de fabrică — feedback pe servomotoare și axe CNC",
       "Petrol și gaze — encodere pentru echipamente de foraj și pompare",
       "Siderurgie și industria hârtiei — encodere robuste pe linii cu vibrații constante",
@@ -216,12 +216,12 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
     productCodes: [
       { code: "HS35iQ", description: "encoder incremental cu tehnologie PulseIQ, până la 20.000 ppr" },
       { code: "HC25", description: "encoder incremental compact pentru montaj pe servomotoare" },
-      { code: "Qube22", description: "encoder incremental miniatural pentru spații restrânse" },
-      { code: "M53", description: "encoder incremental de dimensiune redusă pentru axe compacte" },
+      
+      { code: "M53", description: "encoder din seria M53; parametrii se confirmă pe cod" },
       { code: "HR25", description: "encoder cu arbore gol pentru montaj direct pe motor" },
       { code: "AI25", description: "encoder absolut de dimensiune compactă" },
-      { code: "HD25", description: "encoder incremental cu arbore gol, serie de uz general" },
-      { code: "AX70000", description: "encoder incremental pentru aplicații industriale generale" },
+      { code: "HD25", description: "encoder din seria HD25; parametrii se confirmă pe cod" },
+      { code: "AX70000", description: "encoder din seria AX70000; parametrii se confirmă pe cod" },
       { code: "Rezolver Carcasat (Housed)", description: "rezolver standard cu carcasă, pentru feedback pe servomotoare" },
       { code: "Rezolver Fără Carcasă (Frameless)", description: "rezolver fără carcasă, pentru integrare directă în motor" },
       { code: "Encoder Bearingless", description: "encoder fără rulmenți proprii, montaj direct pe arbore" },
@@ -230,13 +230,13 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
     faq: [
       { q: "Ce produce compania Dynapar?", a: "Dynapar fabrică encodere rotative incrementale și absolute și rezolvere pentru automatizare industrială, aerospațială și vehicule off-highway. Gama include encodere cu arbore plin sau gol, modele fără rulmenți și variante cu protocoale Ethernet industriale, sub tehnologia proprie PulseIQ pentru autodiagnoză." },
       { q: "Ce face tehnologia PulseIQ de la Dynapar?", a: "PulseIQ, integrată în seria HS35iQ, monitorizează în timp real tensiunea de alimentare, temperatura și calitatea semnalului encoderului și transmite avertismente către automat înainte ca o defecțiune să oprească linia de producție." },
-      { q: "Cum aleg un rezolver Dynapar pentru servomotorul meu?", a: "Aveți nevoie de tipul de montaj (carcasat sau fără carcasă), diametrul arborelui și, dacă aplicația e specială, cerințele de temperatură sau rezistență la radiații. Rezolverele Dynapar acoperă atât variante standard, cât și pentru medii extreme." },
+      { q: "Cum aleg un rezolver Dynapar pentru servomotorul meu?", a: "Aveți nevoie de tipul de montaj (carcasat sau fără carcasă), diametrul arborelui și, dacă aplicația e specială, cerințele de temperatură sau rezistență la radiații. Rezolverele Dynapar se oferă carcasate sau fără carcasă." },
       { q: "Livrați encodere Dynapar în România și cât durează?", a: "Da, aducem encodere și rezolvere Dynapar la comandă prin canale din SUA sau din rețeaua europeană a grupului Fortive, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea codului dorit." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dynapar — Encoders, Resolvers & Sensors", url: "https://www.dynapar.com", publisher: "Dynapar Corporation", accessed: "2026-09-25" },
       { title: "Dynapar — HS35iQ Standard Incremental Encoder", url: "https://www.dynapar.com/en/products-and-solutions/incremental-encoders/hs35iqstandard/part-details", publisher: "Dynapar Corporation", accessed: "2026-09-25" },
@@ -249,11 +249,11 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
     certifications: [ "ISO 9001:2015 — sistem de management al calității", "ISO 14001 — management de mediu certificat", "Q-Plus — certificare suplimentară de control al calității" ],
     overview: `Hohner Automation este un producător spaniol de encodere rotative, cu fabrica principală la Breda, în provincia Girona, și un birou suplimentar în Germania. Gama acoperă encodere incrementale și absolute, sisteme de măsurare liniară cu cablu retractabil (seria ENCO-METER), potențiometre și inclinometre. Din portofoliul Hohner putem oferta encodere incrementale din seria 18 și R46, encodere absolute din seriile XS1, E58K și Q58, plus encoderul programabil all-in-one PR90.
 
-Ce diferențiază Hohner e integrarea măsurării liniare alături de cea rotativă în același portofoliu: sistemele ENCO-METER, disponibile în variantele EM4, EM8 și EM10, măsoară curse de la 200 mm până la 10 metri prin cablu retractabil din oțel inoxidabil, fără șină liniară montată pe utilaj. Seria PR90 combină un encoder incremental programabil cu ieșiri configurabile fără software dedicat, util la retrofit rapid. Fabricile Hohner sunt certificate ISO 9001:2015 și ISO 14001, cu certificare suplimentară Q-Plus pentru controlul calității.
+Ce diferențiază Hohner e integrarea măsurării liniare alături de cea rotativă în același portofoliu: sistemele ENCO-METER, disponibile în variantele EM4, EM8 și EM10, măsoară curse de până la 10 metri prin cablu retractabil din oțel inoxidabil, fără șină liniară montată pe utilaj. Seria PR90 combină un encoder incremental programabil cu ieșiri configurabile fără software dedicat, util la retrofit rapid. Fabricile Hohner sunt certificate ISO 9001:2015 și ISO 14001, cu certificare suplimentară Q-Plus pentru controlul calității.
 
 Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi transportoare sau linii de ambalare, precum și pentru sisteme de măsurare a cursei prin cablu, acolo unde montarea unei rigle liniare optice ar fi impracticabilă din cauza spațiului sau prafului.`,
     whyChoose: [
-      "Sisteme de măsurare cu cablu retractabil (ENCO-METER) pentru curse de la 200 mm la 10 metri, fără șină liniară montată",
+      "Sisteme de măsurare cu cablu retractabil (ENCO-METER) pentru curse de până la 10 metri, fără șină liniară montată",
       "Encoder programabil all-in-one PR90, configurabil fără software dedicat pe PC",
       "Fabrici certificate ISO 9001:2015 și ISO 14001, cu certificare suplimentară Q-Plus",
       "Gamă completă de encodere incrementale și absolute, plus potențiometre și inclinometre",
@@ -263,7 +263,7 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
       { name: "Encodere Incrementale Seria 18 / R46", description: "Encodere incrementale de uz general, pentru montaj pe motoare și axe de automatizare, cu opțiuni multiple de rezoluție și tip de ieșire electrică." },
       { name: "Encodere Absolute Seria XS1 / E58K / Q58", description: "Familie de encodere absolute cu protocoale SSI sau BiSS, pentru poziționare directă la pornire, fără referențiere mecanică prealabilă." },
       { name: "Encoder Programabil PR90", description: "Encoder incremental all-in-one cu parametri configurabili fără software extern, util la standardizarea stocului pentru mai multe aplicații." },
-      { name: "Sisteme de Măsurare Liniară ENCO-METER (EM4/EM8/EM10)", description: "Sisteme cu cablu retractabil din oțel inoxidabil, pentru curse de la 200 mm la 10 metri, montate fără șină liniară pe utilaj." },
+      { name: "Sisteme de Măsurare Liniară ENCO-METER (EM4/EM8/EM10)", description: "Sisteme cu cablu retractabil din oțel inoxidabil, pentru curse de până la 10 metri, montate fără șină liniară pe utilaj." },
     ],
     industries: [
       "Energie eoliană — poziționare pe sisteme de orientare a turbinelor",
@@ -283,21 +283,21 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
       { code: "R46", description: "encoder incremental pentru automatizări industriale" },
       { code: "Q58 TM", description: "encoder absolut cu ieșire multiturn" },
       { code: "PR90", description: "encoder incremental programabil all-in-one" },
-      { code: "PR90H", description: "variantă PR90 cu opțiuni suplimentare de montaj" },
+      { code: "PR90H", description: "variantă a encoderului PR90; diferențele se confirmă pe cod, din documentația Hohner" },
       { code: "EM4", description: "sistem de măsurare cu cablu, cursă până la 4.000 mm" },
       { code: "EM8", description: "sistem de măsurare cu cablu, cursă până la 8.000 mm" },
       { code: "EM10", description: "sistem de măsurare cu cablu, cursă până la 10.000 mm" },
     ],
     faq: [
       { q: "Ce produce compania Hohner Automation?", a: "Hohner Automation fabrică encodere rotative incrementale și absolute, sisteme de măsurare liniară cu cablu retractabil și potențiometre, din fabrica sa din Spania. Gama acoperă seriile 18, R46, XS1, E58K, Q58 și encoderul programabil PR90, pentru energie eoliană, solară, industrie alimentară și textilă." },
-      { q: "Ce este sistemul ENCO-METER de la Hohner?", a: "Este un sistem de măsurare liniară cu cablu retractabil din oțel inoxidabil, disponibil în variantele EM4, EM8 și EM10, pentru curse de la 200 mm până la 10 metri. Se montează fără șină liniară pe utilaj, util unde spațiul sau praful exclud o riglă optică." },
+      { q: "Ce este sistemul ENCO-METER de la Hohner?", a: "Este un sistem de măsurare liniară cu cablu retractabil din oțel inoxidabil, disponibil în variantele EM4, EM8 și EM10, pentru curse de până la 10 metri. Se montează fără șină liniară pe utilaj, util unde spațiul sau praful exclud o riglă optică." },
       { q: "Cum aleg encoderul absolut Hohner potrivit?", a: "Trimiteți-ne protocolul de comunicație cerut de automat (SSI sau BiSS), diametrul arborelui și dacă aveți nevoie de ieșire single-turn sau multiturn. Seriile XS1, E58K și Q58 acoperă cerințe diferite de rezoluție și interfață." },
       { q: "Livrați encodere Hohner Automation în România și cât durează?", a: "Da, aducem encodere Hohner la comandă din Spania, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului. Nu ținem această gamă pe raft, dar putem verifica accesorii de montaj cu livrare mai rapidă din stocul unui partener local." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hohner Automation — Encoders", url: "https://www.encoderhohner.com/", publisher: "Hohner Automation S.L.", accessed: "2026-09-25" },
       { title: "Hohner Automation — ENCO-METER", url: "https://www.encoderhohner.com/en/", publisher: "Hohner Automation S.L.", accessed: "2026-09-25" },
@@ -306,10 +306,10 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
 
   zollern: {
     name: "Zollern",
-    certifications: [ "NADCAP — pentru materiale de înaltă performanță din aplicații aerospațiale" ],
-    overview: `Zollern este un grup industrial german cu tradiție de peste trei secole, activ în turnarea și forjarea metalelor, dar și în construcția de reductoare industriale și lagăre hidrostatice. Gama de transmisii acoperă reductoare planetare, reductoare pentru sisteme de deplasare și rotație la utilaje grele, reductoare pentru troliere și reductoare pentru tunelare (tunnel boring). Din portofoliul Zollern putem oferta reductoare industriale complete, cu cuplaje, frâne și motoare integrate la cerere.
+    
+    overview: `Zollern este un grup industrial german cu tradiție de peste trei secole, activ în turnarea și forjarea metalelor, dar și în construcția de reductoare industriale și lagăre hidrostatice. Gama de transmisii acoperă reductoare planetare, reductoare pentru sisteme de deplasare și rotație la utilaje grele, reductoare pentru troliere și reductoare pentru tunelare (tunnel boring). Din portofoliul Zollern putem oferta reductoare industriale, sisteme de antrenare electrică și lagăre hidrostatice.
 
-Ce diferențiază Zollern e combinația între turnătorie proprie și inginerie de transmisii: compania produce reductoare planetare din 1972, iar din 2001, prin achiziția Dorstener, a adăugat tehnologie de roți dințate cilindrice, conice și planetare. Completează gama lagărele hidrostatice — unități de vârf, lagăre centrale și ghidaje liniare — și sistemele de mese rotative pentru mașini de frezat, măsurat sau schimbat palete. În segmentul reductoarelor industriale de mare capacitate, Zollern concurează cu Flender, mai ales pe aplicații cu solicitări mecanice deosebite, cum sunt utilajele miniere sau de tunelare.
+Ce diferențiază Zollern e combinația între turnătorie proprie și inginerie de transmisii: compania produce reductoare planetare din 1972, iar din 2001, prin achiziția Dorstener, a adăugat tehnologie de roți dințate cilindrice, conice și planetare. Completează gama lagărele hidrostatice — unități de ax (spindle), lagăre centrale și ghidaje liniare — și sistemele de mese rotative pentru mașini de frezat, măsurat sau schimbat palete. 
 
 Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaje grele de construcții, macarale industriale și instalații miniere, precum și la lagăre hidrostatice pentru echipamente unde un lagăr cu rulmenți convențional nu ar rezista la sarcina radială.`,
     whyChoose: [
@@ -317,20 +317,20 @@ Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaj
       "Tehnologie de roți dințate cilindrice, conice și planetare, moștenită prin achiziția mărcii Dorstener",
       "Lagăre hidrostatice pentru sarcini radiale mari, folosite la mese rotative și utilaje de precizie",
       "Reductoare dedicate pentru tunelare (tunnel boring), un segment de nișă cu cerințe mecanice deosebite",
-      "Certificare NADCAP pentru materiale de înaltă performanță folosite în aplicații aerospațiale",
+      
     ],
     keyProducts: [
       { name: "Reductoare Planetare", description: "Reductoare planetare de mare putere, produse de Zollern din 1972, folosite la utilaje industriale grele unde raportul putere-greutate contează mai mult decât la un reductor helical clasic." },
       { name: "Reductoare pentru Deplasare și Rotație (Slewing/Travel Drives)", description: "Reductoare dedicate mecanismelor de deplasare și rotație ale macaralelor și utilajelor de construcții, gândite pentru cicluri de lucru intense și pornire-oprire frecventă." },
       { name: "Reductoare pentru Tunelare (Tunnel Boring)", description: "Reductoare de mare capacitate pentru mașini de forat tuneluri, unde solicitarea mecanică constantă și fiabilitatea pe termen lung sunt cerințe critice de proiect." },
-      { name: "Lagăre Hidrostatice", description: "Sisteme de lagăre hidrostatice pentru unități de vârf, lagăre centrale și ghidaje liniare, folosite la mese rotative de mașini-unelte și utilaje de precizie cu sarcini radiale mari." },
+      { name: "Lagăre Hidrostatice", description: "Sisteme de lagăre hidrostatice pentru unități de ax (spindle), lagăre centrale și ghidaje liniare, folosite la mese rotative de mașini-unelte și utilaje de precizie cu sarcini radiale mari." },
     ],
     industries: [
       "Construcții și utilaje grele — reductoare pentru macarale și excavatoare",
       "Minerit și tunelare — reductoare pentru mașini de forat tuneluri",
       "Industria zahărului — reductoare pentru mori de procesare",
       "Mașini-unelte — lagăre hidrostatice pentru mese rotative de precizie",
-      "Aerospațial — turnătorie de investiție certificată NADCAP",
+      
       "Energie — reductoare pentru sisteme de acționare industrială",
     ],
     infinitrade: `Furnizăm reductoare și lagăre Zollern pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru garnituri și accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de reductor sau lagăr, sarcina și turația de lucru, plus aplicația exactă. Nu ținem gama Zollern pe raft; echipamentele complete ajung la comandă, pe baza configurației transmise.`,
@@ -342,8 +342,8 @@ Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaj
       { code: "Reductoare de Troliu", description: "reductoare pentru troliere de ridicare și tracțiune" },
       { code: "Reductoare pentru Tunelare", description: "reductoare de mare capacitate pentru mașini de forat tuneluri" },
       { code: "Reductoare pentru Mori de Zahăr", description: "reductoare pentru procesarea trestiei sau sfeclei de zahăr" },
-      { code: "Sisteme de Antrenare Electrică", description: "motoare de cuplu și motoare sincrone integrate în reductor" },
-      { code: "Lagăre Hidrostatice — Unități de Vârf", description: "lagăre hidrostatice pentru sarcini axiale mari" },
+      { code: "Sisteme de Antrenare Electrică", description: "kituri de motoare de cuplu și module de motoare sincrone pentru acționări industriale" },
+      { code: "Lagăre Hidrostatice — Unități de Ax (Spindle)", description: "lagăre hidrostatice pentru unități de ax; sarcina admisă se confirmă pe model" },
       { code: "Lagăre Hidrostatice Centrale", description: "lagăre hidrostatice pentru arbori centrali de mare precizie" },
       { code: "Ghidaje Liniare Hidrostatice", description: "ghidaje pentru mișcare liniară de precizie fără frecare uscată" },
       { code: "Sisteme de Mese Rotative", description: "mese rotative pentru frezare, măsurare și schimbare de palete" },
@@ -351,13 +351,13 @@ Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaj
     faq: [
       { q: "Ce produce compania Zollern?", a: "Zollern este un grup industrial german care produce reductoare industriale, lagăre hidrostatice, sisteme de mese rotative și componente turnate sau forjate. Gama de transmisii acoperă reductoare planetare, reductoare pentru macarale, troliere și mașini de forat tuneluri, pentru construcții, minerit și industria zahărului." },
       { q: "De când produce Zollern reductoare planetare?", a: "Zollern fabrică reductoare planetare din 1972, iar din 2001, prin achiziția mărcii Dorstener, a adăugat tehnologie de roți dințate cilindrice și conice la portofoliul de transmisii." },
-      { q: "Ce este un lagăr hidrostatic de la Zollern?", a: "Este un sistem de lagăr care folosește un film de ulei sub presiune pentru a susține sarcini radiale sau axiale mari, fără contact metal-pe-metal. Zollern îl folosește la unități de vârf, lagăre centrale și mese rotative de mașini-unelte." },
+      { q: "Ce este un lagăr hidrostatic de la Zollern?", a: "Este un sistem de lagăr care folosește un film de ulei sub presiune pentru a susține sarcini radiale sau axiale mari, fără contact metal-pe-metal. Zollern îl folosește la unități de ax (spindle), lagăre centrale și mese rotative de mașini-unelte." },
       { q: "Livrați reductoare Zollern în România și cât durează?", a: "Da, aducem reductoare și lagăre Zollern la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației. Nu ținem această gamă pe raft, iar termenul depinde de complexitatea reductorului sau lagărului cerut." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ZOLLERN — Gearboxes & Hydrostatic Bearings", url: "https://www.zollern.com", publisher: "Zollern GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "ZOLLERN — Products", url: "https://www.zollern.com/en/products", publisher: "Zollern GmbH & Co. KG", accessed: "2026-09-25" },
@@ -367,22 +367,22 @@ Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaj
   "harmonic-drive": {
     name: "Harmonic Drive",
     headquarters: "Limburg an der Lahn, Germania",
-    overview: `Harmonic Drive SE este producătorul german al reductoarelor armonice (strain wave), cu sediul la Limburg an der Lahn, tehnologie folosită acolo unde jocul unghiular trebuie să fie practic zero. Gama acoperă seturi de reductoare fără rulmenți de ieșire (CSF, HFUC, HFUS), reductoare cu rulmenți de ieșire integrați (CSG, CPL, CSD, SHG, CobaltLine) și reductoare planetare de mare turație (HPN, HPG, HPGP, HPG-R). Din portofoliul Harmonic Drive putem oferta atât componente pentru integrare proprie, cât și reductoare complete gata de montat pe braț robotic.
+    overview: `Harmonic Drive SE este producătorul german al reductoarelor armonice (strain wave), cu sediul la Limburg an der Lahn, tehnologie folosită acolo unde jocul unghiular trebuie să fie practic zero. Gama acoperă seturi de componente fără rulmenți de ieșire (CSG-2A, CPL-2A, CSD-2A, SHG-2A, HFUC-2A, HFUS-2A, CobaltLine-2A), reductoare cu rulmenți de ieșire integrați (CSG-2UH, HFUC-2UH, HFUS-2UH, CPU) și reductoare planetare de mare turație (HPN, HPG, HPGP, HPG-R). Din portofoliul Harmonic Drive putem oferta atât componente pentru integrare proprie, cât și reductoare complete gata de montat pe braț robotic.
 
-Ce diferențiază Harmonic Drive e principiul strain wave, care elimină jocul unghiular prin deformarea elastică a unei roți dințate flexibile (Flexspline) între o roată rigidă (Circular Spline) și un generator de undă. Seria CSG-2A acoperă cupluri de la 7 la 6.175 Nm și rapoarte de reducere de 50-160:1, iar seria HFUC-2A urcă la 9.180 Nm și rapoarte de 30-160:1. Reductoarele funcționează în domenii de temperatură de la -60°C la +40°C, inclusiv în vid sau la temperaturi criogenice, pentru aplicații aerospațiale și medicale unde precizia trebuie păstrată constant.
+Ce diferențiază Harmonic Drive e principiul strain wave, care elimină jocul unghiular prin deformarea elastică a unei roți dințate flexibile (Flexspline) între o roată rigidă (Circular Spline) și un generator de undă. Seria CSG-2A acoperă cupluri de la 7 la 6.175 Nm și rapoarte de reducere de 50-160:1, iar seria HFUC-2A urcă la 9.180 Nm și rapoarte de 30-160:1. Există variante pentru vid și temperaturi criogenice, folosite în aplicații aerospațiale și medicale; domeniul de temperatură depinde de model și se confirmă din documentația Harmonic Drive.
 
 Pentru România, Harmonic Drive e relevant la roboți industriali, brațe de manipulare de precizie și echipamente medicale, acolo unde un reductor planetar clasic nu poate elimina complet jocul unghiular cerut de aplicație.`,
     whyChoose: [
       "Reductoare strain wave cu joc unghiular practic zero, prin deformarea elastică a unei roți dințate flexibile",
       "Plajă de cupluri de la sub 2 Nm la peste 9.000 Nm în funcție de familie, pentru orice dimensiune de robot",
-      "Variante pentru vid, criogenie și temperaturi de la -60°C la +40°C, pentru aplicații aerospațiale",
+      "Variante pentru vid și criogenie, pentru aplicații aerospațiale; domeniul de temperatură se confirmă pe model",
       "Reductoare planetare de mare turație (HPN, HPG) pentru aplicații unde viteza de intrare depășește 6.000 rpm",
       "Componente cu și fără rulmenți de ieșire integrați, pentru integrare flexibilă în design-ul clientului",
     ],
     keyProducts: [
       { name: "Seturi de Componente Strain Wave CSG-2A / SHG-2A", description: "Set de componente (Circular Spline, Flexspline, generator de undă) fără rulmenți de ieșire integrați, cu cuplu de la 7 la 6.175 Nm și raport de reducere de 50-160:1, pentru integrare proprie în structura robotului." },
       { name: "Reductoare cu Rulmenți Integrați HFUC-2UH", description: "Reductor complet cu rulment de ieșire integrat, cuplu de la 9 la 6.840 Nm, moment de răsturnare de până la 4.210 Nm și arbore gol de 12-84 mm, gata de montaj direct pe braț robotic sau axă de mașină-unealtă." },
-      { name: "Reductoare Compacte CSF-ULW", description: "Reductor compact cu rulment de ieșire, cuplu de la 1,8 la 92 Nm și arbore gol de 3-19 mm, potrivit pentru articulații mici de robot sau echipamente de manipulare de precizie." },
+      { name: "Reductoare Compacte CSF Mini", description: "Reductor compact cu rulment de ieșire, potrivit pentru articulații mici de robot sau echipamente de manipulare de precizie; cuplul și diametrul arborelui gol se confirmă pe model, din documentația Harmonic Drive." },
       { name: "Reductoare Planetare HPG / HPN", description: "Reductoare planetare de mare turație, cu viteze de intrare de până la 10.000 rpm și rapoarte de reducere de 3-50:1, pentru servomotoare unde reducerea strain wave nu e necesară." },
     ],
     industries: [
@@ -404,9 +404,9 @@ Pentru România, Harmonic Drive e relevant la roboți industriali, brațe de man
       { code: "CobaltLine-2A", description: "set componente strain wave, cuplu 23-841 Nm" },
       { code: "HFUS-2A", description: "set componente strain wave, cuplu 9-1.840 Nm" },
       { code: "CSG-2UH", description: "reductor cu rulment de ieșire, cuplu 7-6.175 Nm" },
-      { code: "CSF-ULW", description: "reductor compact cu rulment de ieșire, arbore gol 3-19 mm" },
+      { code: "CSF Mini", description: "reductor compact cu rulment de ieșire pentru articulații mici" },
       { code: "CPU-M", description: "reductor cu rulment de ieșire, variantă compactă" },
-      { code: "CPU-H", description: "reductor cu rulment de ieșire, arbore gol 14-70 mm" },
+      { code: "CPU-H", description: "reductor cu rulment de ieșire, cu variante cu arbore gol" },
       { code: "HFUC-2UH", description: "reductor cu rulment de ieșire, cuplu până la 6.840 Nm" },
       { code: "HFUS-2UH", description: "reductor cu rulment de ieșire, cuplu 9-1.840 Nm" },
       { code: "HPN", description: "reductor planetar, turație intrare 6.000-10.000 rpm" },
@@ -421,8 +421,8 @@ Pentru România, Harmonic Drive e relevant la roboți industriali, brațe de man
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Harmonic Drive SE — Precision Gear Solutions", url: "https://www.harmonicdrive.de/en", publisher: "Harmonic Drive SE", accessed: "2026-09-25" },
       { title: "Harmonic Drive SE — Products", url: "https://www.harmonicdrive.de/en/products", publisher: "Harmonic Drive SE", accessed: "2026-09-25" },
@@ -435,12 +435,12 @@ Pentru România, Harmonic Drive e relevant la roboți industriali, brațe de man
     headquarters: "Augsburg, Germania",
     overview: `RENK este un producător german de reductoare industriale, cuplaje și lagăre de alunecare, fondat în 1873 la Augsburg, unde compania își are sediul și astăzi. Gama industrială include reductoare helicale, planetare și integrale (seria MULTICOM), sisteme de reductoare pentru vid și reductoare cu ambreiaj, alături de cuplaje RAFLEX, ELCO și de siguranță HYGUARD. Din portofoliul RENK putem oferta reductoare pentru mori, extrudere și hidrocentrale, plus lagăre de alunecare pentru turbine și utilaje rotative de mare putere.
 
-Ce diferențiază RENK e acoperirea completă a lanțului de transmisie pentru instalații de mare putere: reductoarele turbo speciale din seriile HSWL 076 și HSWL 406 se folosesc la compresoare și turbine, iar lagărele de alunecare (E-bearings, lagăre verticale, orizontale și turbo) susțin arbori grei acolo unde un rulment cu bile nu ar rezista la sarcină. Cuplajele RAFLEX cu disc flexibil și ELCO torsional-elastic absorb dezalinierile și șocurile de torsiune din transmisii industriale. În segmentul reductoarelor industriale mari, RENK concurează cu Flender pe proiectele din energie și industria grea.
+Ce diferențiază RENK e acoperirea completă a lanțului de transmisie pentru instalații de mare putere: reductoarele industriale pentru mori, extrudere și hidrocentrale se completează cu lagăre de alunecare (E-bearings, lagăre verticale, orizontale și turbo) susțin arbori grei acolo unde un rulment cu bile nu ar rezista la sarcină. Cuplajele RAFLEX cu disc flexibil și ELCO torsional-elastic absorb dezalinierile și șocurile de torsiune din transmisii industriale. 
 
 Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pentru hidrocentrale, mori industriale și instalații de extrudere, precum și la cuplaje de siguranță pentru transmisii unde o suprasarcină accidentală ar putea deteriora echipamentul din aval.`,
     whyChoose: [
-      "Peste 150 de ani de fabricație continuă de reductoare, la aceeași locație din Augsburg",
-      "Reductoare turbo speciale (HSWL) pentru compresoare și turbine de mare turație",
+      "Peste 150 de ani de experiență în reductoare, cu sediul la Augsburg",
+      
       "Lagăre de alunecare pentru sarcini grele, unde un rulment cu bile nu rezistă la solicitare",
       "Cuplaje de siguranță HYGUARD, care limitează transmiterea suprasarcinilor accidentale",
       "Reductoare integrale MULTICOM pentru instalații complexe cu mai multe arbori de ieșire",
@@ -448,7 +448,7 @@ Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pent
     keyProducts: [
       { name: "Reductoare Helicale și Planetare Industriale", description: "Reductoare pentru mori, extrudere și hidrocentrale, dimensionate pe puterea și turația instalației, disponibile cu configurații de arbori multiple pentru integrare directă în linia de producție." },
       { name: "Reductoare Integrale MULTICOM", description: "Reductoare integrale pentru instalații complexe, cu mai multe trepte și arbori de ieșire într-o singură carcasă, folosite unde spațiul de montaj sau numărul de utilaje antrenate simultan e mare." },
-      { name: "Reductoare Turbo Speciale HSWL 076 / HSWL 406", description: "Reductoare de mare turație pentru compresoare și turbine industriale, construite pentru funcționare continuă la solicitări termice și mecanice ridicate." },
+      { name: "Transmisii HSWL 076 / HSWL 406 pentru platforme militare", description: "Transmisii RENK pentru vehicule și platforme militare, din domeniul de apărare al companiei; nu fac parte din gama industrială." },
       { name: "Cuplaje RAFLEX și HYGUARD", description: "Cuplaje cu disc flexibil (RAFLEX) pentru absorbția dezalinierilor și cuplaje de siguranță (HYGUARD) care limitează cuplul transmis în caz de suprasarcină accidentală." },
     ],
     industries: [
@@ -463,8 +463,8 @@ Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pent
     limitation: "Nu putem confirma dimensionarea exactă a unui reductor sau lagăr fără datele complete de sarcină și turație ale instalației.",
     productCodes: [
       { code: "MULTICOM", description: "reductor integral cu mai multe arbori de ieșire" },
-      { code: "HSWL 076", description: "reductor turbo special pentru compresoare și turbine" },
-      { code: "HSWL 406", description: "reductor turbo special, variantă de capacitate mai mare" },
+      { code: "HSWL 076", description: "transmisie RENK pentru platforme militare" },
+      { code: "HSWL 406", description: "transmisie RENK pentru platforme militare grele" },
       { code: "RAFLEX", description: "cuplaj cu disc flexibil pentru absorbția dezalinierilor" },
       { code: "ELCO", description: "cuplaj torsional-elastic pentru amortizarea șocurilor" },
       { code: "HYGUARD", description: "cuplaj de siguranță, limitează cuplul la suprasarcină" },
@@ -477,15 +477,15 @@ Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pent
       { code: "Lagăr de Alunecare Turbo", description: "lagăr de alunecare pentru arbori de turbină de mare turație" },
     ],
     faq: [
-      { q: "Ce produce compania RENK?", a: "RENK produce reductoare industriale, cuplaje și lagăre de alunecare, la Augsburg, Germania, unde compania a fost fondată în 1873. Gama acoperă reductoare helicale, planetare și integrale, reductoare turbo speciale pentru turbine, plus cuplaje RAFLEX, ELCO și de siguranță HYGUARD." },
+      { q: "Ce produce compania RENK?", a: "RENK produce reductoare industriale, cuplaje și lagăre de alunecare, la Augsburg, Germania, unde compania a fost fondată în 1873. Gama acoperă reductoare helicale, planetare și integrale, plus cuplaje RAFLEX, ELCO și de siguranță HYGUARD." },
       { q: "Ce este un cuplaj de siguranță HYGUARD de la RENK?", a: "Este un cuplaj care limitează cuplul transmis între arbori atunci când apare o suprasarcină accidentală, protejând astfel reductorul sau motorul din amonte de deteriorare. Se folosește la instalații unde blocarea bruscă a sarcinii e un risc real." },
       { q: "Din ce an fabrică RENK reductoare industriale?", a: "RENK a fost fondată în 1873 la Augsburg, unde își are sediul și astăzi. Compania a construit de-a lungul timpului o gamă largă de reductoare, cuplaje și lagăre pentru energie, industrie grea, marină și apărare." },
       { q: "Livrați reductoare RENK în România și cât durează?", a: "Da, aducem reductoare și cuplaje RENK la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației. Nu ținem această gamă pe raft, așa că termenul final depinde de complexitatea comenzii." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "RENK Group — Gearboxes, Couplings & Bearings", url: "https://www.renk.com", publisher: "RENK Group AG", accessed: "2026-09-25" },
       { title: "Renk AG", url: "https://en.wikipedia.org/wiki/Renk_AG", publisher: "Wikipedia", accessed: "2026-09-25" },
@@ -497,7 +497,7 @@ Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pent
     headquarters: "Riihimäki, Finlanda",
     overview: `Kumera este un producător finlandez de reductoare industriale, cu sediul la Riihimäki, specializat în transmisii custom pentru instalații de mare putere. Gama acoperă reductoare helicale și helical-conice în mai multe trepte, reductoare cu o treaptă helicală sau conică, reductoare pentru agitatoare, reductoare cu melc și reductoare construite integral la comandă. Din portofoliul Kumera putem oferta atât reductoare standardizate din catalog, cât și soluții proiectate pe specificațiile exacte ale utilajului antrenat.
 
-Ce diferențiază Kumera e orientarea spre reductoare construite la comandă (custom built), acolo unde puterea, turația sau configurația arborilor nu se încadrează în catalogul standard al unui producător generalist. Compania oferă și reductoare și elice pentru propulsie navală, alături de cuplaje cu roți dințate și componente angrenate individuale, plus sistemul Guard Gear pentru monitorizarea stării reductorului în funcționare. În segmentul reductoarelor industriale de mare putere, Kumera se poziționează alături de Flender și Renk, pe proiecte unde durata de viață a echipamentului se măsoară în zeci de ani.
+Ce diferențiază Kumera e orientarea spre reductoare construite la comandă (custom built), acolo unde puterea, turația sau configurația arborilor nu se încadrează în catalogul standard al unui producător generalist. Compania oferă și reductoare și elice pentru propulsie navală, alături de cuplaje cu roți dințate și componente angrenate individuale, plus sistemul Guard Gear pentru monitorizarea stării reductorului în funcționare. 
 
 Pentru piața din România, Kumera înseamnă acces la reductoare pentru instalații industriale de mare putere — mori, benzi transportoare grele, agitatoare — unde un reductor de catalog standard nu acoperă combinația exactă de putere și turație cerută de proiect.`,
     whyChoose: [
@@ -518,7 +518,7 @@ Pentru piața din România, Kumera înseamnă acces la reductoare pentru instala
       "Hârtie și celuloză — reductoare pentru agitatoare de proces",
       "Energie — reductoare pentru instalații de generare",
     ],
-    infinitrade: `Aducem reductoare Kumera pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Fiind în mare parte soluții construite la comandă, termenul orientativ de livrare e de 1–4 săptămâni de la confirmarea specificațiilor tehnice, cu posibile extinderi pentru configurațiile complexe; pentru componente și piese de schimb standard putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de intrare și ieșire, plus aplicația exactă. Nu ținem gama Kumera pe raft; fiind soluții construite la comandă, fiecare proiect pornește de la zero.`,
+    infinitrade: `Aducem reductoare Kumera pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Fiind în mare parte soluții construite la comandă, termenul de livrare depășește de regulă 4 săptămâni și se confirmă după primirea specificațiilor tehnice; pentru componente și piese de schimb standard putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de intrare și ieșire, plus aplicația exactă. Nu ținem gama Kumera pe raft; fiind soluții construite la comandă, fiecare proiect pornește de la zero.`,
     limitation: "Nu putem confirma un termen de livrare exact pentru reductoarele construite la comandă fără specificațiile tehnice complete ale proiectului.",
     productCodes: [
       { code: "Reductor Multi-Treaptă Helical-Conic", description: "reductor cu mai multe trepte, angrenaje helicale și conice" },
@@ -537,12 +537,12 @@ Pentru piața din România, Kumera înseamnă acces la reductoare pentru instala
       { q: "Ce produce compania Kumera?", a: "Kumera fabrică reductoare industriale, în mare parte construite la comandă, la fabrica sa din Riihimäki, Finlanda. Gama acoperă reductoare cu o treaptă sau multi-treaptă, helicale sau conice, reductoare pentru agitatoare, plus reductoare și elice pentru propulsie navală." },
       { q: "Ce înseamnă un reductor Kumera construit la comandă?", a: "Este un reductor proiectat specific pentru instalația clientului, atunci când puterea, turația sau configurația arborilor de ieșire nu se regăsesc într-un catalog standard. Kumera dimensionează reductorul pe baza datelor tehnice ale proiectului." },
       { q: "Ce este sistemul Guard Gear de la Kumera?", a: "Este un sistem de monitorizare a stării reductorului în timpul funcționării, care ajută la planificarea mentenanței înainte de apariția unei defecțiuni majore. Se folosește la instalații industriale de mare putere cu funcționare continuă." },
-      { q: "Livrați reductoare Kumera în România și cât durează?", a: "Da, aducem reductoare Kumera la comandă din Finlanda, cu termen orientativ de 1–4 săptămâni pentru configurațiile standard, extins pentru soluții construite la comandă. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea specificațiilor." },
+      { q: "Livrați reductoare Kumera în România și cât durează?", a: "Da, aducem reductoare Kumera la comandă din Finlanda, cu termen de regulă peste 4 săptămâni pentru soluțiile construite la comandă. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea specificațiilor." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Kumera Corporation — Industrial Gearboxes & Drives", url: "https://www.kumera.com", publisher: "Kumera Corporation", accessed: "2026-09-25" },
       { title: "Kumera — Industrial Gearboxes & Drives Products", url: "https://www.kumera.com/industrial-gearboxes-drives/products/", publisher: "Kumera Corporation", accessed: "2026-09-25" },
@@ -557,7 +557,7 @@ Ce diferențiază Radicon e moștenirea tehnică David Brown, păstrată în fam
 
 Pentru România, Radicon e relevant la retrofit de reductoare pe utilaje mai vechi construite inițial cu componente David Brown, precum și la instalații noi din energie, minerit sau industria zahărului, unde compatibilitatea dimensională cu echipamentul existent contează.`,
     whyChoose: [
-      "Moștenire tehnică David Brown Gear Systems, cu compatibilitate dimensională pentru retrofit pe utilaje mai vechi",
+      "Moștenire tehnică David Brown Gear Systems; compatibilitatea cu un reductor mai vechi se confirmă pe baza codului de pe placa de identificare",
       "Gamă largă de tipuri constructive — roți dințate, roți melcate, helicale și planetare — sub aceeași marcă",
       "Drepturi de proprietate intelectuală păstrate pe toate produsele, chiar și după integrarea în grupul Elecon",
       "Acces la rețeaua Elecon Engineering, alături de alte mărci precum Benzlers și Radicon PowerBuild",
@@ -577,30 +577,30 @@ Pentru România, Radicon e relevant la retrofit de reductoare pe utilaje mai vec
     infinitrade: `Furnizăm reductoare și motoreductoare Radicon pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă prin canale de aprovizionare din Marea Britanie sau SUA, cu termen orientativ de 1–4 săptămâni; pentru cuplaje și accesorii uzuale putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria sau codul de pe eticheta reductorului existent sau, la un proiect nou, de puterea și raportul de reducere necesare. Nu ținem gama Radicon pe raft; unitățile complete ajung la comandă, din Marea Britanie sau SUA.`,
     limitation: "Nu putem confirma echivalența exactă cu un reductor David Brown mai vechi fără codul complet de pe placa de identificare a unității.",
     productCodes: [
-      { code: "Seria M", description: "motoreductor cu roți dințate, configurație standard" },
-      { code: "Seria C", description: "motoreductor cu roți dințate, variantă compactă" },
-      { code: "Seria K", description: "motoreductor cu roți dințate, montaj pe arbore" },
-      { code: "Seria F", description: "motoreductor cu roți dințate, montaj cu flanșă" },
-      { code: "Seria ER", description: "reductor cu roți melcate, uz general" },
-      { code: "Seria AM", description: "reductor cu roți melcate, variantă industrială" },
-      { code: "Seria AJ", description: "reductor cu roți melcate, capacitate mărită" },
+      { code: "Seria M", description: "motoreductor helical coaxial (Helical Inline)" },
+      { code: "Seria C", description: "motoreductor helical-melcat (Helical Worm)" },
+      { code: "Seria K", description: "motoreductor helical-conic (Helical Bevel)" },
+      { code: "Seria F", description: "motoreductor helical cu montaj pe arbore (Shaft Mounted)" },
+      { code: "Seria ER", description: "reductor cu roți melcate, Heavy Duty" },
+      { code: "Seria AM", description: "reductor cu roți melcate, Mid Worm" },
+      { code: "Seria AJ", description: "reductor cu roți melcate, Junior Worm" },
       { code: "Seria G", description: "reductor helical industrial, uz general" },
-      { code: "Seria E-EON", description: "reductor helical de eficiență ridicată" },
-      { code: "Seria EOS", description: "reductor helical, variantă de capacitate mare" },
-      { code: "Seria P", description: "reductor planetar pentru aplicații compacte" },
+      { code: "Seria E-EON", description: "reductor industrial, seria E (EON)" },
+      { code: "Seria EOS", description: "reductor industrial, seria E (EOS)" },
+      { code: "Seria P", description: "reductor planetar" },
       { code: "Cuplaj Elflex", description: "cuplaj elastic pentru absorbția dezalinierilor" },
       { code: "Șurub de Ridicare Seria BD", description: "șurub-cric mecanic pentru sisteme de ridicare" },
     ],
     faq: [
       { q: "Ce produce compania Radicon?", a: "Radicon produce reductoare și motoreductoare industriale — cu roți dințate, roți melcate, helicale și planetare — moștenind tehnologia fostei divizii David Brown Gear Systems. Compania face parte din grupul indian Elecon Engineering și operează atât din Marea Britanie, cât și din SUA." },
-      { q: "Este Radicon același lucru cu David Brown Gear Systems?", a: "Radicon a fost o divizie a David Brown Gear Systems, vândută în noiembrie 2010 către grupul Elecon Engineering. Compania a păstrat drepturile de proprietate intelectuală asupra produselor și continuă să producă reductoare compatibile cu gama tehnică moștenită." },
+      { q: "Este Radicon același lucru cu David Brown Gear Systems?", a: "Radicon a fost o divizie a David Brown Gear Systems, vândută în noiembrie 2010 către grupul Elecon Engineering. Compania a păstrat drepturile de proprietate intelectuală asupra produselor sale." },
       { q: "Cum aleg reductorul Radicon potrivit pentru utilajul meu?", a: "Trimiteți-ne seria sau codul de pe placa de identificare a reductorului existent, ori, pentru un proiect nou, puterea instalată și raportul de reducere necesar. Familiile M, C, K și F acoperă motoreductoare, iar seriile ER, AM și AJ reductoare cu roți melcate." },
       { q: "Livrați reductoare Radicon în România și cât durează?", a: "Da, aducem reductoare Radicon la comandă prin canale de aprovizionare din Marea Britanie sau SUA, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, așa că termenul final depinde de seria și configurația solicitată." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Radicon — Gearboxes & Gear Drives", url: "https://us.radicon.com/", publisher: "Radicon (Elecon Group)", accessed: "2026-09-25" },
       { title: "Radicon — About Us", url: "https://us.radicon.com/about", publisher: "Radicon (Elecon Group)", accessed: "2026-09-25" },
@@ -635,7 +635,7 @@ Pentru piața din România, Benzlers înseamnă acces la reductoare pentru indus
       "Siderurgie — reductoare pentru mori de laminare",
       "Manipularea materialelor — reductoare pentru benzi transportoare grele",
       "Ciment — reductoare pentru mori de măcinare",
-      "Energie eoliană — reductoare pentru sisteme auxiliare de turbine",
+      "Energie eoliană — reductoare pentru turbine eoliene",
       "Zahăr — reductoare pentru linii de procesare",
     ],
     infinitrade: `Aducem reductoare și cuplaje Benzlers pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Suedia, cu termen orientativ de 1–4 săptămâni, iar pentru cuplaje și accesorii uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți puterea instalată, turația și tipul de aplicație (bobinare, laminare, agitator etc.). Nu ținem gama Benzlers pe raft, iar termenul depinde de disponibilitatea reductorului la fabrica din Suedia.`,
@@ -665,8 +665,8 @@ Pentru piața din România, Benzlers înseamnă acces la reductoare pentru indus
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Benzlers — Gear Units & Couplings", url: "https://benzlers.com/", publisher: "Benzlers AB", accessed: "2026-09-25" },
       { title: "Benzlers — Elecon Group Companies", url: "https://benzlers.com/elecon-group-companies/", publisher: "Benzlers AB", accessed: "2026-09-25" },
@@ -688,7 +688,7 @@ Pentru piața din România, Tandler e relevant la reductoare conice pentru linii
       "Reductoare de suprapunere a turației (SP2, PE2, PD2, KD) pentru combinarea a două mișcări de rotație",
       "Execuții din oțel inoxidabil pentru medii corozive sau cu cerințe de igienă ridicate",
       "Servo-reductoare planetare, conice și hipoide pentru axe de mașini-unelte și roboți",
-      "Peste 75 de ani de fabricație de reductoare și roți dințate la aceeași locație din Bremen",
+      "Peste 75 de ani de fabricație de reductoare și roți dințate la Bremen",
     ],
     keyProducts: [
       { name: "Reductoare Conice Standard și cu Flanșă (F)", description: "Reductoare conice pentru transmisii la 90°, disponibile în execuție standard sau cu flanșă de montaj, pentru integrare directă pe carcasa utilajului antrenat." },
@@ -708,9 +708,9 @@ Pentru piața din România, Tandler e relevant la reductoare conice pentru linii
     productCodes: [
       { code: "Kegelradgetriebe Standard", description: "reductor conic standard, transmisie la 90°" },
       { code: "HW", description: "reductor conic cu arbore gol" },
-      { code: "HWK", description: "reductor conic cu arbore gol, variantă compactă" },
-      { code: "HWZ", description: "reductor conic cu arbore gol, variantă întărită" },
-      { code: "HWS", description: "reductor conic cu arbore gol, execuție specială" },
+      { code: "HWK", description: "reductor conic cu arbore gol, cu butuc canelat (Keilnabe)" },
+      { code: "HWZ", description: "reductor conic cu arbore gol, cu butuc dințat (Zahnnabe)" },
+      { code: "HWS", description: "reductor conic cu arbore gol, cu disc de strângere (Schrumpfscheibe)" },
       { code: "WV", description: "reductor conic cu arbore întărit" },
       { code: "HRZ", description: "reductor conic cu pinion gol" },
       { code: "Tip F", description: "reductor conic cu flanșă de montaj" },
@@ -732,8 +732,8 @@ Pentru piața din România, Tandler e relevant la reductoare conice pentru linii
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Tandler — Getriebe und Zahnräder", url: "https://www.tandler.de", publisher: "Tandler GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Tandler — Produkte / Sitemap", url: "https://www.tandler.de/sitemap.xml", publisher: "Tandler GmbH & Co. KG", accessed: "2026-09-25" },

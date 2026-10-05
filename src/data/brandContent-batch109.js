@@ -6,21 +6,21 @@ export const brandContentBatch109 = {
     headquarters: "Shenzhen, China",
     overview: `MEGMEET este un producător chinez de electronică de putere, cu sediul la Shenzhen, specializat în convertizoare de frecvență, servomotoare, automate programabile și surse de sudură digitale pentru automatizarea proceselor industriale. Compania acoperă șase direcții de business: produse de alimentare, transport electric, automatizare industrială, control pentru electrocasnice, echipamente inteligente și fabricație de precizie magneto-electrică. Pentru piața din România putem oferta din gama de convertizoare MV și din familia de automate MC.
 
-Seria de convertizoare MV acoperă puteri mici și medii prin variantele MV520, MV810 și MV820, dedicate benzilor și pompelor, și se extinde spre ridicare prin MV600L și MV800L, gândite pentru macarale. Automatele PLC din familia MC (MC100 până la MC8000) și servomotoarele M5/M6 completează un ecosistem comparabil ca plajă de aplicații cu variatoarele Danfoss folosite pe scară largă în instalațiile industriale din România.
+Seria de convertizoare MV acoperă puteri mici și medii prin variantele MV520, MV810 și MV820, dedicate benzilor și pompelor, și se extinde spre ridicare prin MV600L și MV800L, gândite pentru macarale. Automatele PLC din familia MC (MC100 până la MC8000) și servomotoarele M5/M6 completează gama de convertizoare.
 
 Pentru integratorii din România, MEGMEET are sens la retrofit-uri de linii sau proiecte noi unde specificația tehnică permite convertizoare din gama chineză. Recomandăm gama pentru bandă, pompare și ventilație, cu mentenanță realizată de echipe locale familiarizate cu parametrizarea variatoarelor.`,
     whyChoose: [
       "Gamă largă de convertizoare, de la puteri mici MV520 până la variantele de ridicare MV800L pentru macarale",
       "Integrare hardware-firmware, cu automate PLC și servomotoare proiectate de același producător",
       "Familie de automate MC, de la controlere compacte MC100 până la unități mari MC8000",
-      "Surse de sudură digitale seria Artsen, cu invertor pentru arc stabil la curenți variabili",
-      "Producție la scară industrială din Shenzhen, pe șase direcții de business de electronică de putere",
+      "Surse de sudură digitale din seriile Artsen, Meta Tig și Dex",
+      "Producție la scară industrială, cu 8 baze de producție și șase direcții de business",
     ],
     keyProducts: [
-      { name: "Convertizoare de Frecvență Seria MV", description: "Familie de variatoare pentru motoare asincrone, de la aplicații generale de bandă și pompare (MV520, MV810, MV820) până la variante de ridicare MV600L/MV800L, cu frânare controlată pentru poduri rulante. MV200G/P și MV300G/P acoperă puterea medie, iar MV600J6/MV810J adaugă control electro-hidraulic pentru prese. Clientul trebuie să precizeze puterea motorului, tensiunea și tipul aplicației pentru oferta corectă." },
-      { name: "Sisteme Servo M5/M6", description: "Servomotoare și drivere din familia M, compatibile cu automatele MEGMEET, folosite la poziționare de precizie pe axe de mașini-unelte și ambalaj. Seria M6 și varianta M6-L extind gama spre cuplu mai mare, iar drivele DM5/iDM5 asigură controlul buclei de poziție. Pentru ofertare, transmiteți cuplul necesar, turația maximă și tipul de mișcare al axei." },
-      { name: "Automate Programabile Seria MC", description: "Familie de controlere PLC, de la modelele compacte MC100 și MC160X pentru mașini mici, până la unitățile modulare MC5000, MC6000 și MC8000 pentru linii cu mai multe stații. Seria MU acoperă module de intrare-ieșire, iar MX600 controlul multi-ax. Pentru ofertă e nevoie de numărul de intrări/ieșiri, protocolul de comunicație și numărul de axe." },
-      { name: "Surse de Sudură Artsen și Meta Tig", description: "Gama de invertoare de sudură digitale, de la Meta Tig pentru TIG de precizie până la Artsen și Artsen Plus pentru MIG/MAG industrial, cu Artsen CM500C pentru fir plin la curenți mari. Seria Dex completează oferta pentru sudură manuală simplă. Clientul trebuie să precizeze tipul de sudură, materialul de bază și curentul necesar." },
+      { name: "Convertizoare de Frecvență Seria MV", description: "Familie de variatoare pentru motoare asincrone, de la aplicații generale de bandă și pompare (MV520, MV810, MV820) până la variante de ridicare MV600L/MV800L, cu frânare controlată pentru poduri rulante. MV200G/P și MV300G/P acoperă puterea medie. Clientul trebuie să precizeze puterea motorului, tensiunea și tipul aplicației pentru oferta corectă." },
+      { name: "Sisteme Servo M5/M6", description: "Servomotoare și drivere din familia M, compatibile cu automatele MEGMEET, folosite la poziționare de precizie pe axe de mașini-unelte și ambalaj. Seria M6 completează gama, iar DM5/iDM5 sunt sisteme servo de joasă tensiune. Pentru ofertare, transmiteți cuplul necesar, turația maximă și tipul de mișcare al axei." },
+      { name: "Automate Programabile Seria MC", description: "Familie de controlere PLC, de la modelele compacte MC100 și MC160X pentru mașini mici, până la unitățile modulare MC5000, MC6000 și MC8000 pentru linii cu mai multe stații. Seria MU cuprinde automate programabile mici (MU200–MU400), iar MX600 este un automat programabil de mărime medie-mare. Pentru ofertă e nevoie de numărul de intrări/ieșiri, protocolul de comunicație și numărul de axe." },
+      { name: "Surse de Sudură Artsen și Meta Tig", description: "Gama de surse de sudură digitale a producătorului include seriile Meta Tig, Artsen, Artsen Plus și Dex; procedeul de sudură și curentul se confirmă pe fișa fiecărui model. Clientul trebuie să precizeze tipul de sudură, materialul de bază și curentul necesar." },
     ],
     industries: [
       "Producție de echipamente electrice — convertizoare pentru linii de asamblare",
@@ -39,33 +39,33 @@ Pentru integratorii din România, MEGMEET are sens la retrofit-uri de linii sau 
       { code: "MV800L", description: "Convertizor de frecvență pentru macarale și poduri rulante" },
       { code: "MV200G/P", description: "Convertizor de frecvență de putere medie, uz general" },
       { code: "MV300G/P", description: "Variator de frecvență pentru aplicații de putere medie-mare" },
-      { code: "MV600J6", description: "Convertizor de frecvență cu control electro-hidraulic" },
-      { code: "MV810J", description: "Variator de frecvență pentru prese hidraulice" },
-      { code: "M5", description: "Sistem servo pentru poziționare de precizie pe axe" },
-      { code: "M6", description: "Servomotor cu cuplu mărit pentru manipulare și ambalaj" },
-      { code: "DM5", description: "Driver servo cu control digital al buclei de poziție" },
+      
+      
+      { code: "M5", description: "Sistem servo de uz general" },
+      { code: "M6", description: "Sistem servo standard din familia M" },
+      { code: "DM5", description: "Sistem servo de joasă tensiune" },
       { code: "MC100", description: "Automat programabil compact pentru mașini mici" },
       { code: "MC200", description: "Controler PLC modular pentru linii de producție" },
       { code: "MC5000", description: "Automat programabil pentru stații multiple pe linie" },
       { code: "MC8000", description: "PLC de capacitate mare pentru fabrici cu multe axe" },
-      { code: "MX600", description: "Controler de mișcare multi-ax pentru automatizări complexe" },
+      { code: "MX600", description: "Automat programabil (PLC) de mărime medie-mare" },
       { code: "Meta Tig", description: "Sursă de sudură digitală TIG de precizie" },
       { code: "Artsen", description: "Invertor de sudură MIG/MAG pentru uz industrial" },
       { code: "Artsen Plus", description: "Variantă extinsă a sursei de sudură Artsen" },
-      { code: "Artsen CM500C", description: "Sursă de sudură cu fir plin la curenți mari" },
+      
       { code: "Dex", description: "Sursă de sudură digitală pentru aplicații manuale simple" },
     ],
     faq: [
       { q: "Ce produce MEGMEET?", a: "MEGMEET produce electronică de putere pentru automatizare: convertizoare de frecvență seria MV, automate programabile seria MC, servomotoare M5/M6 și surse de sudură digitale Artsen. Producătorul are sediul la Shenzhen, China, și acoperă atât aplicații generale de bandă și pompare, cât și nișe precum ridicarea sau sudura industrială." },
-      { q: "Cum aleg convertizorul de frecvență MEGMEND potrivit?", a: "Alegerea pornește de la puterea și tensiunea motorului, tipul aplicației și mediul de instalare. Seriile MV520/MV810/MV820 acoperă uzul general, iar MV600L/MV800L sunt gândite pentru macarale. Trimiteți-ne aceste date și vă recomandăm modelul potrivit din gama MEGMEET înainte de a face oferta." },
+      { q: "Cum aleg convertizorul de frecvență MEGMEET potrivit?", a: "Alegerea pornește de la puterea și tensiunea motorului, tipul aplicației și mediul de instalare. Seriile MV520/MV810/MV820 acoperă uzul general, iar MV600L/MV800L sunt gândite pentru macarale. Trimiteți-ne aceste date și vă recomandăm modelul potrivit din gama MEGMEET înainte de a face oferta." },
       { q: "Ce echivalent are un variator Danfoss în gama MEGMEET?", a: "Nu facem echivalențe exacte cod-la-cod, deoarece parametrii diferă între producători. Putem recomanda un model MEGMEET din seria MV cu putere și tensiune similare celui folosit anterior, pe baza datelor tehnice trimise de client, verificate în specificațiile publice ale producătorului." },
       { q: "Livrați echipamente MEGMEET în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de modelul solicitat. Nu ținem această gamă pe raft; fiecare comandă se confirmă în prealabil cu stocul disponibil la fabrică." },
       { q: "Ce trebuie să trimit pentru o ofertă MEGMEET?", a: "Trimiteți puterea și tensiunea echipamentului, tipul aplicației și, dacă îl aveți, codul modelului actual. Pentru automate PLC, precizați numărul de intrări/ieșiri și protocolul de comunicație folosit în linie, ca să identificăm rapid varianta echivalentă din gamă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Megmeet Electric Co., Ltd. — Company Profile", url: "https://www.megmeet.com", publisher: "Megmeet Electric Co., Ltd.", accessed: "2026-09-25" },
       { title: "Products — Megmeet", url: "https://www.megmeet.com/products", publisher: "Megmeet Electric Co., Ltd.", accessed: "2026-09-25" },
@@ -77,14 +77,14 @@ Pentru integratorii din România, MEGMEET are sens la retrofit-uri de linii sau 
     headquarters: "Vizzolo Predabissi, Italia",
     overview: `Waircom MBS este un producător italian de componente pneumatice, cu fabrici lângă Milano, specializat în cilindri, electrovalve și unități de tratare a aerului comprimat pentru automatizarea industrială. Gama acoperă cilindri liniari, cilindri fără tijă, electrovalve cu acționare pilot sau solenoid și grupuri de filtrare-reglare-lubrifiere pentru linii de aer comprimat. Pentru clienții din România putem oferta din întreaga gamă de componente pneumatice standard, utile la construcția și retehnologizarea liniilor de automatizare industrială.
 
-Ce diferențiază Waircom e acoperirea largă a familiei de cilindri — de la variantele compacte, ghidate sau rotative, până la cei din oțel inoxidabil pentru medii corozive — completată de electrovalve disponibile individual sau montate pe colector. Compania respectă directiva ATEX pentru echipamentele destinate zonelor cu risc de explozie. În segmentul componentelor pneumatice generale, Waircom se poziționează ca alternativă la mărci consacrate, orientată spre integratori de mașini.
+Ce diferențiază Waircom e acoperirea largă a familiei de cilindri — de la variantele compacte, ghidate sau rotative, până la cei din oțel inoxidabil pentru medii corozive — completată de electrovalve disponibile individual sau montate pe colector. Compania respectă directiva ATEX pentru echipamentele destinate zonelor cu risc de explozie. Gama Waircom este orientată spre integratori de mașini.
 
 Pentru piața din România, Waircom are sens la retehnologizarea liniilor de producție, la construcția de mașini noi sau la înlocuirea componentelor pneumatice uzate. Componentele standard se pretează la stocuri de consumabile la integratori, iar variantele ATEX la proiecte din industria de proces.`,
     whyChoose: [
       "Gamă completă de cilindri, de la variante standard la modele fără tijă, ghidate sau din oțel inoxidabil",
       "Electrovalve disponibile individual sau montate pe colector, cu acționare pilot sau solenoid",
       "Grupuri de tratare a aerului în dimensiuni variate, pentru linii de diverse debite",
-      "Variante certificate ATEX pentru zone cu risc de explozie, relevante în chimie și petrochimie",
+      "Variante conforme directivei ATEX pentru zone cu risc de explozie, relevante în chimie și petrochimie",
       "Producție italiană cu trei unități lângă Milano, pe o suprafață totală de 15.000 m²",
     ],
     keyProducts: [
@@ -97,10 +97,10 @@ Pentru piața din România, Waircom are sens la retehnologizarea liniilor de pro
       "Construcții de mașini — cilindri și electrovalve pentru linii de automatizare",
       "Ambalaj — cilindri fără tijă pentru manipulare paletizată",
       "Industrie alimentară — cilindri din oțel inoxidabil rezistenți la spălare",
-      "Chimie și petrochimie — componente certificate ATEX pentru zone cu risc",
+      "Chimie și petrochimie — componente conforme directivei ATEX pentru zone cu risc",
     ],
     certifications: ["ATEX — conformitate pentru echipamente destinate zonelor cu risc de explozie"],
-    infinitrade: `Pentru Waircom lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru componentele pneumatice italiene. Aducem la comandă cilindri, electrovalve și grupuri de tratare a aerului prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru configurațiile speciale și 24–72 h din stoc pentru câteva referințe curente de la partenerii de distribuție. Trimiteți-ne cursa și diametrul cilindrului, tensiunea bobinei electrovalvei sau debitul de aer necesar. Nu ținem această gamă pe raft în volum mare; fiecare comandă se confirmă în funcție de disponibilitatea reală la fabrică.`,
+    infinitrade: `Pentru Waircom lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru componentele pneumatice italiene. Aducem la comandă cilindri, electrovalve și grupuri de tratare a aerului prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru configurațiile speciale și 24–72 h din stoc extern pentru câteva referințe curente. Trimiteți-ne cursa și diametrul cilindrului, tensiunea bobinei electrovalvei sau debitul de aer necesar. Nu ținem această gamă pe raft în volum mare; fiecare comandă se confirmă în funcție de disponibilitatea reală la fabrică.`,
     limitation: "Nu putem confirma disponibilitatea imediată pentru toate variantele de cilindri din catalog, în special configurațiile speciale sau cu accesorii dedicate.",
     productCodes: [
       { code: "Cilindri Pneumatici Standard ISO", description: "Actuatori liniari cu tijă, montaj conform normelor ISO" },
@@ -111,8 +111,8 @@ Pentru piața din România, Waircom are sens la retehnologizarea liniilor de pro
       { code: "Cilindri din Oțel Inoxidabil", description: "Pentru medii corozive sau cu spălare frecventă" },
       { code: "Electrovalve cu Acționare Pilot", description: "Comandă la distanță prin presiune pilot" },
       { code: "Electrovalve cu Acționare Solenoid", description: "Comutare directă, montaj individual sau pe colector" },
-      { code: "Valvole Mecanice cu Rolă", description: "Acționare prin contact mecanic pe cursa cilindrului" },
-      { code: "Valvole Manuale cu Pârghie", description: "Comandă manuală locală a circuitului pneumatic" },
+      { code: "Valve Mecanice cu Rolă", description: "Acționare prin contact mecanic pe cursa cilindrului" },
+      { code: "Valve Manuale cu Pârghie", description: "Comandă manuală locală a circuitului pneumatic" },
       { code: "Grup de Tratare Aer, Debit Mic", description: "Filtru-regulator-lubrificator pentru linii de debit redus" },
       { code: "Grup de Tratare Aer, Debit Mediu", description: "Filtru-regulator-lubrificator pentru linii de debit mediu" },
       { code: "Grup de Tratare Aer, Debit Mare", description: "Filtru-regulator-lubrificator pentru linii de debit ridicat" },
@@ -120,16 +120,16 @@ Pentru piața din România, Waircom are sens la retehnologizarea liniilor de pro
       { code: "Racorduri din Alamă", description: "Fitinguri pentru presiuni ridicate și medii dure" },
     ],
     faq: [
-      { q: "Ce produce Waircom?", a: "Waircom MBS este un producător italian de componente pneumatice pentru automatizare industrială: cilindri liniari și fără tijă, electrovalve, valvole mecanice și grupuri de tratare a aerului comprimat. Fabricile companiei se află lângă Milano, iar gama acoperă atât aplicații standard, cât și variante certificate ATEX." },
+      { q: "Ce produce Waircom?", a: "Waircom MBS este un producător italian de componente pneumatice pentru automatizare industrială: cilindri liniari și fără tijă, electrovalve, valvole mecanice și grupuri de tratare a aerului comprimat. Fabricile companiei se află lângă Milano, iar gama acoperă atât aplicații standard, cât și variante conforme directivei ATEX." },
       { q: "Cum aleg cilindrul pneumatic Waircom potrivit?", a: "Trebuie să știți cursa necesară, diametrul alezajului și tipul de montaj. Pentru medii corozive sau cu spălare frecventă recomandăm varianta din oțel inoxidabil. Trimiteți-ne aceste date pentru a identifica modelul Waircom potrivit aplicației dumneavoastră." },
       { q: "Ce dimensiuni de grupuri de tratare a aerului oferă Waircom?", a: "Grupurile de filtrare-reglare-lubrifiere Waircom acoperă de la dimensiuni mici, pentru debite reduse, până la dimensiuni mari, pentru linii cu consum mare de aer comprimat. Alegerea corectă depinde de debitul de aer al instalației și de presiunea de lucru necesară în aval." },
-      { q: "Livrați componente Waircom în România și cât durează?", a: "Da, aducem la comandă cilindri, electrovalve și grupuri de tratare a aerului prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru câteva referințe curente putem confirma livrare în 24–72 h din stocul partenerilor, dar nu ținem această gamă pe raft în volum mare." },
+      { q: "Livrați componente Waircom în România și cât durează?", a: "Da, aducem la comandă cilindri, electrovalve și grupuri de tratare a aerului prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru câteva referințe curente putem confirma livrare în 24–72 h din stoc extern, dar nu ținem această gamă pe raft în volum mare." },
       { q: "Ce trebuie să trimit pentru o ofertă Waircom?", a: "Pentru cilindri trimiteți cursa, diametrul și tipul de montaj; pentru electrovalve, tensiunea bobinei și configurația; pentru grupurile de tratare a aerului, debitul și presiunea de lucru. Cu aceste date vă transmitem oferta corectă din gama Waircom." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Waircom MBS — Company Profile", url: "https://www.waircom-mbs.com", publisher: "Waircom MBS S.p.A.", accessed: "2026-09-25" },
       { title: "Products — Waircom MBS", url: "https://www.waircom-mbs.com/products", publisher: "Waircom MBS S.p.A.", accessed: "2026-09-25" },
@@ -145,13 +145,13 @@ Compania produce peste jumătate din gamă la comandă, adaptată specificațiil
 Pentru clienții din România, AB Trasmissioni are sens la retehnologizarea transmisiilor mecanice de pe compresoare, generatoare și grupuri motor-pompă, unde cuplajul elastic trebuie ales după cuplul transmis și dezalinierea admisă. Rezistențele de încălzire pentru motoare diesel sunt utile la generatoarele de rezervă expuse la temperaturi scăzute.`,
     whyChoose: [
       "Peste jumătate din producție e realizată la comandă, adaptată exact la arborii și cuplul aplicației clientului",
-      "Gamă largă de cuplaje: elastice cu tachete, cu inele din cauciuc, cardanice și centrifuge",
+      "Gamă largă de cuplaje: elastice cu elemente elastomerice, cu inele din cauciuc, cardanice și centrifuge",
       "Rezistențe de încălzire dedicate motoarelor diesel și compresoarelor, pentru pornire fiabilă la frig",
       "Componente electrice auxiliare pentru tablourile utilajelor industriale, de la relee la indicatoare digitale",
-      "Producție italiană din Cento, cu livrare declarată la nivel mondial în termene scurte",
+      "Producție italiană din Cento, cu expediere la nivel mondial, conform informațiilor producătorului",
     ],
     keyProducts: [
-      { name: "Cuplaje Elastice cu Tachete și Inele din Cauciuc", description: "Cuplaje care transmit cuplul prin elemente elastomerice interschimbabile, montate între două jumătăți metalice, pentru amortizarea vibrațiilor torsionale și compensarea micilor dezalinieri între arbori. Varianta cu inele din cauciuc oferă elasticitate mai mare, potrivită la pornirile cu șoc de sarcină. Pentru ofertare, transmiteți cuplul nominal, turația și diametrul arborilor de cuplat." },
+      { name: "Cuplaje Elastice cu Elemente Elastomerice și Inele din Cauciuc", description: "Cuplaje care transmit cuplul prin elemente elastomerice interschimbabile, montate între două jumătăți metalice, pentru amortizarea vibrațiilor torsionale și compensarea micilor dezalinieri între arbori. Varianta cu inele din cauciuc oferă elasticitate mai mare, potrivită la pornirile cu șoc de sarcină. Pentru ofertare, transmiteți cuplul nominal, turația și diametrul arborilor de cuplat." },
       { name: "Cuplaje Cardanice și Centrifuge", description: "Cuplajele cardanice compensează dezalinieri unghiulare mari între arbori, utile la transmisii cu geometrie variabilă, iar cele centrifuge decuplează automat sarcina la turații mici, protejând motorul la pornire. Ambele sunt folosite frecvent pe compresoare și grupuri motor-pompă. E necesară precizarea puterii motorului și a turației de lucru." },
       { name: "Rezistențe de Încălzire pentru Motoare Diesel și Compresoare", description: "Rezistențe electrice de imersie sau de contact, pentru preîncălzirea uleiului sau a blocului motor înainte de pornire, respectiv menținerea temperaturii uleiului din carterul compresoarelor în perioade de repaus. Reduc uzura la pornirea la rece a generatoarelor de rezervă. Precizați puterea necesară și tensiunea de alimentare disponibilă." },
       { name: "Componente Electrice pentru Tablouri Industriale", description: "Gamă de componente auxiliare pentru tablourile electrice ale utilajelor: relee de monitorizare a izolației, butoane de oprire de urgență, indicatoare digitale cu LED și transformatoare de curent. Se montează în panourile de comandă ale compresoarelor și generatoarelor. Pentru ofertare, precizați tensiunea de lucru și tipul de montaj." },
@@ -173,7 +173,7 @@ Pentru clienții din România, AB Trasmissioni are sens la retehnologizarea tran
       { code: "Rezistențe de Încălzire pentru Apă", description: "Menținere temperatură lichid de răcire la repaus" },
       { code: "Rezistențe de Încălzire pentru Aer", description: "Preîncălzire aer în incinta motorului la pornire" },
       { code: "Rezistențe de Încălzire de Contact", description: "Montaj direct pe carterul motorului sau compresorului" },
-      { code: "Electromagneți Industriali (Solenoizi)", description: "Acționare frâne, ambreiaje și supape auxiliare" },
+      { code: "Electromagneți Industriali (Solenoizi)", description: "Actuatoare electromagnetice (solenoizi) pentru aplicații industriale" },
       { code: "Pistoane Electrice", description: "Acționare liniară electrică pentru mecanisme auxiliare" },
       { code: "Controlere pentru Panouri de Comandă", description: "Control local al funcțiilor motorului sau compresorului" },
       { code: "Indicatoare Digitale cu LED", description: "Afișare parametri de funcționare pe tabloul electric" },
@@ -193,8 +193,8 @@ Pentru clienții din România, AB Trasmissioni are sens la retehnologizarea tran
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "AB Trasmissioni — Home", url: "https://www.abtrasmissioni.it", publisher: "AB Trasmissioni S.r.l.", accessed: "2026-09-25" },
       { title: "AB Trasmissioni — English", url: "https://www.abtrasmissioni.it/en", publisher: "AB Trasmissioni S.r.l.", accessed: "2026-09-25" },
@@ -217,47 +217,47 @@ Pentru clienții din România, Kendrion are sens la retehnologizarea motoarelor 
     ],
     keyProducts: [
       { name: "Frâne Industriale INTORQ", description: "Frâne cu arc și cu magnet permanent pentru motoare electrice, precum seria BFK458, proiectate pentru oprire sigură la lipsa curentului, cu design compact potrivit servomotoarelor moderne. Linia Slim PM completează gama pentru motoare de cuplu mic și mediu, acolo unde spațiul de montaj e limitat. Pentru ofertare, transmiteți cuplul de frânare necesar și diametrul arborelui." },
-      { name: "Solenoizi Liniari și Rotativi", description: "Actuatoare electromagnetice pentru mișcare liniară sau unghiulară rapidă, folosite la mecanisme de blocare, supape auxiliare și dispozitive de comutare. Gama include electromagneți de reținere, cu forță de menținere ridicată fără consum continuu semnificativ. E necesară precizarea tensiunii de alimentare și a cursei sau unghiului de acționare dorit." },
-      { name: "Cuplaje și Frâne Airflex", description: "Cuplaje și frâne pneumatice pentru cuplu mare, folosite la echipamente grele precum prese sau linii de laminare, unde acționarea trebuie să fie rapidă și repetabilă. Completate de cuplajele cu particule magnetice, pentru control fin și continuu al cuplului transmis. Clientul trebuie să indice cuplul maxim necesar și presiunea de aer disponibilă." },
+      { name: "Solenoizi Liniari și Rotativi", description: "Actuatoare electromagnetice pentru mișcare liniară sau unghiulară rapidă, folosite la mecanisme de blocare, supape auxiliare și dispozitive de comutare. Gama include electromagneți de reținere. E necesară precizarea tensiunii de alimentare și a cursei sau unghiului de acționare dorit." },
+      { name: "Cuplaje și Frâne Airflex", description: "Cuplaje și frâne pneumatice pentru cuplu mare, folosite la echipamente industriale grele. Completate de cuplajele cu particule magnetice, pentru control fin și continuu al cuplului transmis. Clientul trebuie să indice cuplul maxim necesar și presiunea de aer disponibilă." },
       { name: "Sisteme de Blocare a Ușilor și Regulatoare Pure Flow", description: "Mecanisme electromagnetice de blocare a ușilor pentru echipamente industriale, de la variante ultra-compacte până la modele rotative, alături de regulatoare de presiune Pure Flow pentru aplicații medicale ce cer precizie și compatibilitate cu fluide medicale. Pentru selecție, precizați tipul de instalație și presiunea de lucru necesară." },
     ],
     industries: [
       "Motoare electrice — frâne INTORQ integrate pentru oprire sigură",
       "Robotică și automatizare — solenoizi și cuplaje electromagnetice de precizie",
       "Echipamente medicale — regulatoare de presiune Pure Flow",
-      "Intralogistică — cuplaje Airflex pentru echipamente de manipulare grele",
+      "Intralogistică — frâne INTORQ pentru vehicule industriale și AGV",
     ],
-    certifications: ["Conformitate MDR — pentru componentele destinate dispozitivelor medicale"],
+    certifications: ["Declarații UE și certificate disponibile în centrul de descărcări al producătorului, pe produs"],
     infinitrade: `Pentru Kendrion lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru această gamă olandeză de componente electromagnetice. Aducem la comandă frâne INTORQ, solenoizi și cuplaje Airflex prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Trimiteți cuplul de frânare sau de transmis, diametrul arborelui și tensiunea de alimentare; pentru regulatoarele Pure Flow, precizați tipul de fluid și presiunea de lucru. Nu ținem această gamă pe raft; fiecare cerere se verifică direct cu disponibilitatea producătorului.`,
     limitation: "Nu putem confirma integrarea electronică a sistemelor embedded Kendrion (VIPER, PEPPER, OCTOPUS, MINT) fără o discuție tehnică prealabilă cu producătorul.",
     productCodes: [
       { code: "INTORQ BFK458", description: "Frână cu arc pentru motoare electrice moderne, design compact" },
       { code: "Slim PM Line", description: "Frâne cu magnet permanent pentru motoare de cuplu mic-mediu" },
-      { code: "Spring-Applied Brakes", description: "Frânare sigură la lipsa curentului electric" },
-      { code: "Electromagnetic Brakes", description: "Cuplare și frânare comandată electric la motoare" },
-      { code: "Linear Solenoids", description: "Actuatoare liniare de comutare rapidă" },
-      { code: "Rotary Solenoids", description: "Mișcare unghiulară pentru mecanisme de blocare" },
-      { code: "Holding Magnets", description: "Electromagneți de reținere cu forță ridicată de menținere" },
+      { code: "Frâne cu arc", description: "Frânare sigură la lipsa curentului electric" },
+      { code: "Frâne electromagnetice", description: "Cuplare și frânare comandată electric la motoare" },
+      { code: "Solenoizi liniari", description: "Actuatoare liniare de comutare rapidă" },
+      { code: "Solenoizi rotativi", description: "Mișcare unghiulară pentru mecanisme de blocare" },
+      { code: "Electromagneți de reținere", description: "Electromagneți de reținere cu forță ridicată de menținere" },
       { code: "Ultra Compact Door Lock", description: "Blocare ușă în spații reduse ale echipamentului" },
       { code: "Rotary Door Lock", description: "Mecanism rotativ de blocare pentru uși de echipamente" },
       { code: "Airflex Pneumatic Clutches & Brakes", description: "Cuplaje și frâne pneumatice pentru cuplu industrial mare" },
-      { code: "Magnetic Particle Clutches & Brakes", description: "Control fin al cuplului prin particule magnetice" },
-      { code: "Pure Flow Pressure Regulators", description: "Regulatoare de presiune pentru aplicații medicale" },
-      { code: "Pinch Valves", description: "Închidere linie prin comprimarea unui tub flexibil" },
-      { code: "Solenoid Valves", description: "Valve pneumatice cu comutare electromagnetică" },
+      { code: "Cuplaje și frâne cu particule magnetice", description: "Control fin al cuplului prin particule magnetice" },
+      { code: "Pure Flow — regulatoare de presiune", description: "Regulatoare de presiune pentru aplicații medicale" },
+      { code: "Valve cu strangulare (pinch)", description: "Închidere linie prin comprimarea unui tub flexibil" },
+      { code: "Electrovalve", description: "Valve pneumatice cu comutare electromagnetică" },
       { code: "OCTOPUS I/O Test Platform", description: "Platformă de testare intrări-ieșiri pentru linii de producție" },
     ],
     faq: [
       { q: "Ce produce Kendrion?", a: "Kendrion produce componente electromagnetice pentru automatizare: frâne industriale din linia INTORQ, solenoizi liniari și rotativi, cuplaje Airflex și cu particule magnetice, sisteme de blocare a ușilor și regulatoare de presiune pentru aplicații medicale. Compania are sediul la Amsterdam și rețea de producție în 15 locații la nivel mondial." },
       { q: "Cum aleg frâna Kendrion potrivită pentru un motor electric?", a: "Trebuie să cunoașteți cuplul de frânare necesar, diametrul arborelui și spațiul de montaj disponibil. Pentru motoare compacte recomandăm linia Slim PM, iar pentru aplicații generale, seria INTORQ BFK458. Trimiteți-ne aceste date pentru a identifica varianta potrivită." },
-      { q: "Ce cuplaj Kendrion se potrivește echipamentelor cu cuplu mare?", a: "Pentru cuplu mare recomandăm cuplajele și frânele pneumatice Airflex, folosite la prese și linii industriale grele. Dacă aveți nevoie de control fin, continuu, al cuplului transmis, cuplajele cu particule magnetice sunt varianta potrivită, cu ajustare electrică a forței de cuplare." },
+      { q: "Ce cuplaj Kendrion se potrivește echipamentelor cu cuplu mare?", a: "Pentru cuplu mare recomandăm cuplajele și frânele pneumatice Airflex, folosite la echipamente industriale grele. Dacă aveți nevoie de control fin, continuu, al cuplului transmis, cuplajele cu particule magnetice sunt varianta potrivită, cu ajustare electrică a forței de cuplare." },
       { q: "Livrați componente Kendrion în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului. Nu ținem această gamă pe raft; verificăm disponibilitatea exactă la fiecare cerere înainte de a transmite oferta finală clientului." },
       { q: "Ce trebuie să trimit pentru o ofertă Kendrion?", a: "Pentru frâne și cuplaje, trimiteți cuplul necesar și diametrul arborelui; pentru solenoizi, tensiunea de alimentare și cursa de acționare; pentru regulatoarele Pure Flow, tipul de fluid și presiunea de lucru. Cu aceste date pregătim rapid oferta din gama Kendrion." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Kendrion — Home", url: "https://www.kendrion.com", publisher: "Kendrion N.V.", accessed: "2026-09-25" },
       { title: "Products — Kendrion", url: "https://www.kendrion.com/en/products", publisher: "Kendrion N.V.", accessed: "2026-09-25" },
@@ -269,25 +269,25 @@ Pentru clienții din România, Kendrion are sens la retehnologizarea motoarelor 
     headquarters: "Latisana, Italia",
     overview: `Clint este un producător italian de chillere și pompe de căldură, cu sediul la Latisana, provincia Udine, parte din grupul G.I. Holding alături de mărcile KTK, Montair și Novair. Gama acoperă chillere răcite cu aer și cu apă, pompe de căldură dedicate, unități rooftop și fan coil-uri, pentru climatizare comercială și răcire de proces industrial. Pentru piața din România putem oferta din gama de chillere răcite cu aer, cerute la răcirea proceselor de producție.
 
-Portofoliul Clint acoperă o plajă foarte largă de puteri: seriile compacte CHA/K/A ajung la câteva zeci de kW pentru clădiri mici, în timp ce variantele cu compresor șurub, precum CHA/H/A sau CHA/Y/A, depășesc 1.000 kW pentru instalații industriale. Seriile cu compresor Turbocor (CHA/TTH, CHA/TTY) vizează eficiență ridicată la sarcină parțială, iar variantele cu free-cooling reduc consumul electric iarna. Ca plajă de aplicații, Clint se compară cu alte mărci consacrate de climatizare industrială, precum Trane.
+Portofoliul Clint acoperă o plajă foarte largă de puteri: seriile compacte CHA/K/A ajung la câteva zeci de kW pentru clădiri mici, în timp ce variantele cu compresor șurub, precum CHA/H/A sau CHA/Y/A, depășesc 1.000 kW pentru instalații industriale. Seriile cu compresor Turbocor (CHA/TTH, CHA/TTY) vizează eficiență ridicată la sarcină parțială, iar variantele cu free-cooling reduc consumul electric iarna. 
 
-Pentru instalatorii din România, Clint are sens la răcirea proceselor industriale, la climatizarea centrelor de date prin unități condenserless și la clădirile comerciale mari cu nevoie de capacitate medie-mare. Variantele cu free-cooling sunt relevante pentru reducerea costurilor de operare în sezonul rece.`,
+Pentru instalatorii din România, Clint are sens la răcirea proceselor industriale și la clădirile comerciale mari cu nevoie de capacitate medie-mare. Variantele cu free-cooling sunt relevante pentru reducerea costurilor de operare în sezonul rece.`,
     whyChoose: [
       "Plajă foarte largă de puteri frigorifice, de la aproximativ 12 kW la peste 1.500 kW în aceeași familie",
       "Serii cu compresor Turbocor pentru eficiență ridicată la sarcină parțială, utile la funcționare continuă",
       "Variante cu free-cooling care folosesc aerul exterior rece pentru a reduce consumul electric iarna",
       "Compresoare scroll inverter pentru modulare fină a puterii, la sarcini variabile de proces",
-      "Parte din grupul G.I. Holding, cu acces la inginerie comună cu mărcile KTK, Montair și Novair",
+      "Parte din grupul G.I. Holding, alături de mărcile KTK, Montair și Novair",
     ],
     keyProducts: [
       { name: "Chillere Răcite cu Aer Seria CHA/K", description: "Chillere cu compresor scroll, în game de putere de la aproximativ 48 la peste 1.000 kW, în variante standard, cu recuperare parțială de căldură sau cu free-cooling pentru economie de energie iarna. Folosite la climatizarea clădirilor comerciale și la răcirea proceselor industriale ușoare. Clientul trebuie să transmită puterea frigorifică necesară și temperatura agentului de răcire cerută." },
       { name: "Chillere cu Compresor Șurub Seria CHA/H și CHA/Y", description: "Chillere pentru puteri mari, de la aproximativ 80 până la peste 1.500 kW, cu compresor șurub, disponibile și cu inverter pentru modulare fină a capacității în funcție de sarcina de proces. Potrivite pentru instalații industriale cu necesar constant de răcire. Pentru ofertare e nevoie de puterea frigorifică, temperaturile agentului și spațiul disponibil pentru instalare." },
-      { name: "Chillere cu Compresor Turbocor Seria CHA/TT", description: "Chillere de mare putere, peste 250 kW, cu compresor centrifugal pe lagăre magnetice, fără ulei și cu eficiență ridicată la sarcină parțială, disponibile standard sau cu free-cooling. Recomandate pentru centre de date sau clădiri mari cu funcționare continuă, unde costul energiei contează pe termen lung. E necesară precizarea profilului orar de sarcină al instalației." },
+      { name: "Chillere cu Compresor Turbocor Seria CHA/TT", description: "Chillere de mare putere, de la aproximativ 250 kW, cu compresor centrifugal pe lagăre magnetice, fără ulei și cu eficiență ridicată la sarcină parțială, disponibile standard sau cu free-cooling. Recomandate pentru centre de date sau clădiri mari cu funcționare continuă, unde costul energiei contează pe termen lung. E necesară precizarea profilului orar de sarcină al instalației." },
       { name: "Chillere Inverter Seria CHA/IK și CRA/IK", description: "Chillere compacte cu compresor scroll inverter, pentru puteri de la aproximativ 12 până la 700 kW, potrivite acolo unde sarcina termică variază frecvent în timpul zilei. Modularea continuă reduce pornirile/opririle compresorului și uzura echipamentului. Clientul trebuie să indice puterea de vârf, puterea medie estimată și tipul procesului deservit." },
     ],
     industries: [
       "Producție industrială — răcirea proceselor de injecție și prelucrare",
-      "Centre de date — chillere condenserless de mare eficiență",
+      "Centre de date și săli tehnice — chillere cu funcționare continuă",
       "Clădiri comerciale — climatizare centralizată cu chillere de capacitate medie",
       "Industria alimentară — răcire de proces pentru linii de producție",
     ],
@@ -326,8 +326,8 @@ Pentru instalatorii din România, Clint are sens la răcirea proceselor industri
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Clint — Home", url: "https://www.clint.it", publisher: "Clint S.p.A.", accessed: "2026-09-25" },
       { title: "Air cooled liquid chillers and heat pumps for commercial & industrial application — Clint", url: "https://www.clint.it/en/products/europe/air-cooled-liquid-chillers-and-heat-pumps-for-commercial-industrial-application/", publisher: "Clint S.p.A.", accessed: "2026-09-25" },
@@ -338,7 +338,7 @@ Pentru instalatorii din România, Clint are sens la răcirea proceselor industri
     headquarters: "Lučko, Croația",
     overview: `Termostroj este un producător croat de cazane electrice, cu sediul la Lučko, lângă Zagreb, specializat în cazane pentru încălzire centrală, preparare apă caldă menajeră și aplicații industriale. Gama pornește de la cazane compacte de câțiva kW pentru locuințe și ajunge la unități industriale de până la 500 kW pentru hale și procese de producție. Pentru piața din România putem oferta din gama de cazane electrice de putere mică și medie, utile acolo unde nu există acces la gaz natural.
 
-Ce diferențiază cazanele Termostroj e granularitatea puterilor disponibile în aceeași serie: seria Termo Blok se găsește în trepte fine de la 4,5 kW până la 40 kW, ceea ce permite dimensionarea exactă a instalației. Seria industrială TermoMax acoperă puteri de la 120 la 500 kW, pentru hale de producție sau clădiri mari fără racord la gaz. Ca aplicație, Termostroj se compară cu soluțiile de încălzire electrică industrială oferite de alți producători europeni de echipamente termice, precum Spirax Sarco Thermal pe segmentul generatoarelor de abur.
+Ce diferențiază cazanele Termostroj e granularitatea puterilor disponibile în aceeași serie: seria Termo Blok se găsește în trepte fine de la 4,5 kW până la 40 kW, ceea ce permite dimensionarea exactă a instalației. Seria industrială TermoMax acoperă puteri de la 120 la 500 kW, pentru hale de producție sau clădiri mari fără racord la gaz. 
 
 Pentru instalatorii din România, Termostroj are sens acolo unde extinderea rețelei de gaz nu e fezabilă sau unde regulile locale limitează arderea combustibililor fosili — clădiri noi, hale industriale izolate sau clădiri publice cu cerințe de emisii reduse. Seria Termo Kombi, cu funcție de încălzire și apă caldă instant, e relevantă pentru clădiri mici și medii cu consum combinat.`,
     whyChoose: [
@@ -346,12 +346,12 @@ Pentru instalatorii din România, Termostroj are sens acolo unde extinderea reț
       "Serie industrială TermoMax de până la 500 kW, pentru hale de producție fără racord la gaz",
       "Fără ardere de combustibil fosil pe amplasament, relevant pentru clădiri cu cerințe stricte de emisii",
       "Serie Termo Kombi cu funcție combinată de încălzire și apă caldă menajeră instant",
-      "Producție din Croația, cu acces facil pentru piața din Europa Centrală și de Est",
+      "Producție în Croația, la Lučko, lângă Zagreb",
     ],
     keyProducts: [
       { name: "Cazane Electrice Seria Termo Blok", description: "Cazane electrice compacte pentru încălzire centrală, disponibile în trepte fine de putere: 4,5 până la 16 kW pentru locuințe mici, respectiv 18-24 kW și 28-40 kW pentru clădiri medii. Corpul de încălzire integrat elimină nevoia unui cazan separat pe combustibil. Pentru ofertare, transmiteți suprafața și izolația clădirii, pentru calculul necesarului termic real." },
       { name: "Cazane Electrice cu Apă Caldă Seria Termo Blok PTV", description: "Variantă a seriei Termo Blok cu funcție suplimentară de preparare a apei calde menajere, în puteri de la 6 la 40 kW, potrivită pentru locuințe și spații comerciale mici care au nevoie atât de încălzire, cât și de apă caldă dintr-o singură unitate. E necesară precizarea consumului estimat de apă caldă pentru dimensionarea corectă." },
-      { name: "Cazane Electrice Seria Termo Kombi", description: "Cazane electrice cu funcție combinată de încălzire centrală și preparare instantanee a apei calde, în puteri de la 18 la 40 kW, gândite pentru clădiri mici și medii cu consum combinat de energie termică. Funcționarea prin curgere a apei calde elimină nevoia unui boiler separat. Clientul trebuie să indice numărul de puncte de consum simultane." },
+      { name: "Cazane Electrice Seria Termo Kombi", description: "Cazane electrice cu funcție combinată de încălzire centrală și preparare instantanee a apei calde, în puteri de la 15 la 40 kW, gândite pentru clădiri mici și medii cu consum combinat de energie termică. Funcționarea prin curgere a apei calde elimină nevoia unui boiler separat. Clientul trebuie să indice numărul de puncte de consum simultane." },
       { name: "Cazane Electrice Industriale Seria TermoMax", description: "Cazane electrice de putere mare, de la 120 la 500 kW, destinate halelor de producție, clădirilor industriale sau instalațiilor care necesită căldură fără sursă de combustibil fosil pe amplasament. Pot funcționa ca sursă principală sau ca rezervă pentru un cazan pe combustibil existent. Precizați puterea termică necesară și tensiunea de alimentare disponibilă." },
     ],
     industries: [
@@ -391,8 +391,8 @@ Pentru instalatorii din România, Termostroj are sens acolo unde extinderea reț
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Termostroj — Home", url: "https://termostroj.com/", publisher: "Termostroj d.o.o.", accessed: "2026-09-25" },
       { title: "Termo Blok — Termostroj", url: "https://termostroj.com/proizvod/termo-blok/", publisher: "Termostroj d.o.o.", accessed: "2026-09-25" },
@@ -403,12 +403,12 @@ Pentru instalatorii din România, Termostroj are sens acolo unde extinderea reț
     headquarters: "Chasse-sur-Rhône, Franța",
     overview: `Condat este un producător francez de lubrifianți industriali, cu sediul la Chasse-sur-Rhône, lângă Lyon, specializat în formularea de uleiuri, unsori și fluide tehnice pentru prelucrarea și deformarea metalelor. Gama acoperă fluide pentru tăierea metalelor, uleiuri și polimeri de călire, unsori tehnice, lubrifianți pentru trefilare și lubrifianți pentru forjă, printre alte peste 15 game specializate. Pentru piața din România putem oferta din gama de lubrifianți pentru prelucrarea și deformarea metalelor.
 
-Ce diferențiază Condat e poziționarea de formulator specializat, nu de producător generalist de uleiuri: fiecare gamă e dezvoltată pentru un proces industrial anume, de la lubrifianți pentru fonderie și forjă, până la fluide dedicate industriei sticlei sau extrudării aluminiului. Compania deține medalia Platinum EcoVadis pentru performanță de mediu, un criteriu tot mai cerut la achizițiile industriale din UE. În piața lubrifianților tehnici, Condat se poziționează ca alternativă franceză independentă la marii producători globali de uleiuri industriale.
+Ce diferențiază Condat e poziționarea de formulator specializat, nu de producător generalist de uleiuri: fiecare gamă e dezvoltată pentru un proces industrial anume, de la lubrifianți pentru fonderie și forjă, până la fluide dedicate industriei sticlei sau extrudării aluminiului. Compania deține medalia Platinum EcoVadis pentru performanță în sustenabilitate, un criteriu tot mai cerut la achizițiile industriale din UE. Condat este descrisă pe site-ul oficial ca grup independent, de origine franceză, cu 170 de ani de expertiză.
 
 Pentru clienții din România, Condat are sens la liniile de prelucrare a metalelor prin așchiere, la forjă și trefilare, și la instalațiile care caută lubrifianți biodegradabili sau alimentari pentru conformitate cu normele de mediu. Gama de unsori tehnice acoperă mentenanța generală a utilajelor industriale.`,
     whyChoose: [
       "Peste 15 game specializate de lubrifianți, fiecare dezvoltată pentru un proces industrial specific",
-      "Medalia Platinum EcoVadis pentru performanță de mediu, relevantă la achiziții cu cerințe de sustenabilitate",
+      "Medalia Platinum EcoVadis pentru performanță în sustenabilitate, relevantă la achiziții cu cerințe de sustenabilitate",
       "Gamă dedicată lubrifianților biodegradabili, pentru instalații cu risc de contact cu solul sau apa",
       "Lubrifianți alimentari pentru utilaje din industria alimentară, unde contactul incidental contează",
       "Formulator independent francez, cu 170 de ani de activitate în lubrifianți tehnici",
@@ -417,7 +417,7 @@ Pentru clienții din România, Condat are sens la liniile de prelucrare a metale
       { name: "Fluide pentru Prelucrarea Metalelor prin Așchiere", description: "Uleiuri și emulsii de răcire-ungere pentru strunjire, frezare și găurire, formulate pentru stabilitate termică și protecție anticorozivă a pieselor și mașinii-unelte. Gama acoperă atât fluide miscibile în apă, cât și uleiuri nediluate pentru operații de precizie. Clientul trebuie să precizeze materialul prelucrat și tipul de operație pentru selecția corectă." },
       { name: "Uleiuri și Polimeri de Călire", description: "Fluide pentru tratamentul termic al pieselor metalice, folosite la răcirea controlată în procesul de călire, pentru a obține duritatea și structura metalografică dorită. Polimerii de călire oferă o alternativă la uleiurile minerale, cu viteză de răcire ajustabilă prin concentrație. Precizați tipul de oțel și procesul de tratament termic folosit." },
       { name: "Lubrifianți pentru Forjă și Trefilare", description: "Gamă de lubrifianți și acoperiri pentru procesele de forjare la cald și trefilare a sârmei, care reduc frecarea și uzura matrițelor la deformarea metalului sub presiune. Formulele pentru trefilare includ săpunuri tehnice aplicate direct pe sârmă înainte de tragere. Transmiteți tipul de metal deformat și temperatura procesului." },
-      { name: "Lubrifianți Biodegradabili și Alimentari", description: "Game de lubrifianți formulate pentru instalații cu cerințe de mediu ridicate sau contact incidental cu produsele alimentare, folosite la echipamente din industria alimentară sau agricultură. Performanța tehnică e menținută la un nivel comparabil cu lubrifianții minerali convenționali. E necesară precizarea aplicației și a certificării cerute." },
+      { name: "Lubrifianți Biodegradabili și Alimentari", description: "Game de lubrifianți formulate pentru instalații cu cerințe de mediu ridicate sau contact incidental cu produsele alimentare, folosite la echipamente din industria alimentară sau agricultură.  E necesară precizarea aplicației și a certificării cerute." },
     ],
     industries: [
       "Prelucrare metale prin așchiere — fluide de răcire-ungere pentru strunjire și frezare",
@@ -455,8 +455,8 @@ Pentru clienții din România, Condat are sens la liniile de prelucrare a metale
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Condat — Spécialiste du lubrifiant industriel", url: "https://www.condat.fr", publisher: "Condat S.A.S.", accessed: "2026-09-25" },
       { title: "Produits — Condat", url: "https://www.condat.fr/produits/", publisher: "Condat S.A.S.", accessed: "2026-09-25" },
@@ -466,25 +466,25 @@ Pentru clienții din România, Condat are sens la liniile de prelucrare a metale
     name: "DYMAX",
     overview: `Dymax este un producător american de adezivi cu polimerizare UV/LED, acoperiri conforme și echipamente de fotopolimerizare, folosite la asamblarea de precizie în electronică, medical și automotive. Gama include adezivi pentru lipirea substraturilor diferite, adezivi pentru materiale plastice, acoperiri de protecție și rășini de încapsulare. Pentru piața din România putem oferta din gama de adezivi fotopolimerizabili și lămpi de curare Dymax, folosite la linii de asamblare unde timpul de întărire contează.
 
-Ce diferențiază adezivii Dymax e polimerizarea rapidă la expunerea la lumină UV sau vizibilă, în câteva secunde, comparativ cu adezivii clasici care necesită ore de întărire la temperatura camerei. Gama e organizată pe aplicații: adezivi pentru lipirea substraturilor diferite, adezivi pentru materiale plastice, acoperiri conforme pentru plăci electronice și adezivi de tip OP pentru fibra optică. Sistemul de iluminare BlueWave FX completează gama, oferind sursa de lumină necesară polimerizării fiecărei formule.
+Ce diferențiază adezivii Dymax e polimerizarea rapidă la expunerea la lumină UV sau vizibilă, în câteva secunde, comparativ cu adezivii clasici care necesită ore de întărire la temperatura camerei. Gama e organizată pe aplicații: adezivi pentru lipirea substraturilor diferite, adezivi pentru materiale plastice și acoperiri conforme pentru plăci electronice. Sistemul de iluminare BlueWave FX completează gama, oferind sursa de lumină necesară polimerizării fiecărei formule.
 
 Pentru producătorii din România de electronice, dispozitive medicale sau componente auto, Dymax are sens acolo unde asamblarea cere o legătură rapidă și consistentă, fără variabilitate de la o piesă la alta, tipică adezivilor cu întărire termică sau la aer. Adezivii pentru catetere, seringi sau module de cameră auto sunt exemple tipice de aplicație.`,
     whyChoose: [
       "Polimerizare în câteva secunde la expunerea la lumină UV sau vizibilă, față de ore la adezivii clasici",
-      "Game dedicate pe aplicație: lipire substraturi diferite, materiale plastice, acoperiri conforme și fibră optică",
+      "Game dedicate pe aplicație: lipire substraturi diferite, materiale plastice și acoperiri conforme",
       "Sistem de iluminare BlueWave FX pentru sursă de lumină controlată, compatibilă cu gama de adezivi",
       "Formule cu conținut ionic redus, potrivite pentru componente electronice sensibile",
       "Aplicații confirmate în medical, electronică, automotive și aerospațial, cu cerințe stricte de calitate",
     ],
     keyProducts: [
-      { name: "Adezivi pentru Lipirea Substraturilor Diferite", description: "Adezivi cu polimerizare UV/vizibilă pentru lipirea combinată a metalului, plasticului și sticlei, precum codurile 9773, 9310 sau 1072-M-Z, folosiți la întărirea componentelor pe plăci de circuit imprimat sau fixarea pieselor mecanice mici. Oferă flexibilitate sau rigiditate, în funcție de formulă. Clientul trebuie să precizeze materialele lipite și metoda de polimerizare disponibilă." },
-      { name: "Adezivi pentru Materiale Plastice", description: "Formule optimizate pentru lipirea plasticelor tehnice, precum codurile 3013-T sau 7501-T-UR-SC-Z, cu aderență bună pe substraturi cu energie de suprafață scăzută. Folosite la asamblarea carcaselor electronice sau a componentelor auto. Este necesar tipul exact de plastic pentru recomandarea formulei potrivite din gamă." },
-      { name: "Acoperiri Conforme pentru Electronice", description: "Acoperiri de protecție cu polimerizare UV, precum codurile 9483-Z sau 9481-E-PZ, aplicate pe plăcile de circuit pentru protecție împotriva umidității, prafului și substanțelor chimice. Se usucă rapid sub lumină, reducând timpul de proces față de acoperirile clasice cu uscare la aer. Transmiteți tipul de mediu de operare al plăcii protejate." },
+      { name: "Adezivi pentru Lipirea Substraturilor Diferite", description: "Adezivi cu polimerizare UV/vizibilă pentru lipirea combinată a metalului, plasticului și sticlei, precum 9773 (rigidizarea componentelor pe plăci de circuit imprimat) sau 1072-M-Z (dispozitive medicale din plastic). Oferă flexibilitate sau rigiditate, în funcție de formulă. Clientul trebuie să precizeze materialele lipite și metoda de polimerizare disponibilă." },
+      { name: "Adezivi pentru Materiale Plastice", description: "Formule optimizate pentru lipirea plasticelor tehnice, precum codurile 3013-T (adeziv de uz general pentru plastice și metale) sau 7501-T-UR-SC-Z (rășină de protecție). Folosite la asamblarea carcaselor electronice sau a componentelor auto. Este necesar tipul exact de plastic pentru recomandarea formulei potrivite din gamă." },
+      { name: "Acoperiri Conforme pentru Electronice", description: "Acoperiri de protecție cu polimerizare UV, aplicate pe plăcile de circuit pentru protecție împotriva umidității, prafului și substanțelor chimice. Se usucă rapid sub lumină, reducând timpul de proces față de acoperirile clasice cu uscare la aer. Transmiteți tipul de mediu de operare al plăcii protejate." },
       { name: "Echipamente de Fotopolimerizare BlueWave FX", description: "Sisteme de iluminare UV/vizibilă pentru întărirea controlată a adezivilor Dymax, cu emisie calibrată pentru fiecare formulă din gamă. Se integrează pe linii de producție automate sau se folosesc manual la stații de asamblare. E necesară precizarea adezivului folosit și a timpului de ciclu dorit pentru configurarea lămpii." },
     ],
     industries: [
       "Electronică — lipirea componentelor pe plăci de circuit imprimat",
-      "Medical — asamblarea catetrelor, seringilor și dispozitivelor implantabile",
+      "Medical — asamblarea cateterelor și seringilor",
       "Automotive — module de cameră, senzori și baterii pentru vehicule electrice",
       "Aerospațial și apărare — acoperiri conforme pentru circuite și senzori critici",
     ],
@@ -492,44 +492,44 @@ Pentru producătorii din România de electronice, dispozitive medicale sau compo
     limitation: "Nu putem confirma echivalența exactă între un adeziv Dymax și un produs concurent fără fișa tehnică de siguranță și testarea pe aplicația reală a clientului.",
     productCodes: [
       { code: "9773", description: "Adeziv de rigidizare cu polimerizare UV pentru componente PCB" },
-      { code: "9310", description: "Formulă pentru lipirea substraturilor diferite, întărire prin lumină" },
+      { code: "9310", description: "Adeziv cu întărire termică secundară, pentru fixarea marginilor și întărirea componentelor CSP" },
       { code: "1072-M-Z", description: "Adeziv UV pentru asamblarea substraturilor diferite" },
       { code: "1128A-M-Z", description: "Variantă din gama de lipire a substraturilor diferite" },
       { code: "1406-M-Z", description: "Adeziv fotopolimerizabil pentru substraturi diferite" },
       { code: "1405-M-UR-SC-Z", description: "Adeziv flexibil pentru lipirea substraturilor diferite" },
       { code: "1172-M-UR-Z", description: "Formulă elastică din gama de lipire substraturi diferite" },
-      { code: "211-CTH-SC-Z", description: "Adeziv termorezistent pentru substraturi diferite" },
+      { code: "211-CTH-SC-Z", description: "Adeziv LED, fără TPO, pentru plastice, destinat dispozitivelor medicale" },
       { code: "1209-M-UR-SC-Z", description: "Adeziv UV cu întărire rapidă pentru substraturi diferite" },
       { code: "1180-M-T", description: "Variantă din seria de lipire a substraturilor diferite" },
       { code: "1045-M", description: "Adeziv fotopolimerizabil pentru asamblare de precizie" },
-      { code: "2103-MW-UR", description: "Formulă pentru lipirea substraturilor diferite, culoare deschisă" },
+      { code: "2103-MW-UR", description: "Adeziv fără IBOA pentru dispozitive medicale purtabile" },
       { code: "9204-W", description: "Adeziv UV din gama pentru substraturi diferite" },
-      { code: "9202-W", description: "Variantă a gamei de adezivi pentru substraturi diferite" },
-      { code: "9501-F", description: "Formulă fluidă din gama de lipire substraturi diferite" },
+      
+      
       { code: "3013-T", description: "Adeziv pentru lipirea materialelor plastice tehnice" },
-      { code: "7501-T-UR-SC-Z", description: "Adeziv flexibil pentru materiale plastice și metal" },
-      { code: "2101-MW-UR", description: "Formulă pentru lipirea plasticelor cu energie de suprafață scăzută" },
-      { code: "OP-81-LS", description: "Adeziv de joasă contracție pentru fibră optică" },
-      { code: "OP-60", description: "Adeziv pentru terminarea și lipirea fibrei optice" },
-      { code: "6-630", description: "Adeziv pentru lipirea metalelor de precizie" },
-      { code: "6-6302", description: "Variantă a adezivului pentru lipirea metalelor" },
-      { code: "9483-Z", description: "Acoperire conformă cu polimerizare UV pentru PCB" },
-      { code: "9481-E-PZ", description: "Acoperire conformă colorată pentru inspecție vizuală pe PCB" },
-      { code: "HLC-M-1000", description: "Adeziv de mare vâscozitate pentru lipire structurală" },
-      { code: "9210-W", description: "Rășină de încapsulare pentru protecția componentelor electronice" },
-      { code: "9201-W", description: "Rășină de potting pentru componente sensibile la mediu" },
+      { code: "7501-T-UR-SC-Z", description: "Rășină de protecție fără TPO, polimerizabilă cu LED, pentru etanșarea plasticelor și metalelor din componente auto" },
+      { code: "2101-MW-UR", description: "Adeziv de vâscozitate medie, fără IBOA, pentru dispozitive cu risc de sensibilizare a pielii" },
+      
+      
+      
+      
+      
+      
+      
+      
+      
     ],
     faq: [
       { q: "Ce produce DYMAX?", a: "Dymax produce adezivi cu polimerizare UV și LED, acoperiri conforme pentru plăci electronice și echipamente de fotopolimerizare precum lămpile BlueWave FX. Compania este americană și deservește industrii cu cerințe stricte de calitate: electronică, medical, automotive și aerospațial." },
       { q: "Cum aleg adezivul DYMAX potrivit pentru o aplicație de asamblare?", a: "Trebuie să precizați materialele lipite, metoda de polimerizare disponibilă în linia de producție și cerințele de flexibilitate sau rigiditate ale îmbinării. Cu aceste date identificăm codul potrivit din gama de adezivi pentru substraturi diferite sau materiale plastice." },
-      { q: "Ce echipament e nevoie pentru a întări adezivul DYMAX?", a: "Adezivii Dymax se întăresc cu lămpi UV/vizibile compatibile, precum sistemul BlueWave FX, calibrat pentru fiecare formulă din gamă. Fără sursa de lumină corectă, timpul și calitatea polimerizării nu pot fi garantate conform specificațiilor tehnice ale producătorului." },
+      { q: "Ce echipament e nevoie pentru a întări adezivul DYMAX?", a: "Adezivii Dymax se întăresc cu lămpi UV/vizibile compatibile, precum sistemul BlueWave FX, calibrat pentru fiecare formulă din gamă. Fără sursa de lumină corectă, timpul și calitatea polimerizării pot diferi de specificațiile tehnice ale producătorului." },
       { q: "Livrați adezivi DYMAX în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft; fiecare comandă se confirmă cu disponibilitatea reală la producător înainte de a transmite oferta finală clientului." },
       { q: "Ce informații trebuie să trimit pentru o ofertă DYMAX?", a: "Trimiteți materialele lipite, metoda de polimerizare disponibilă și, dacă aveți, codul exact al adezivului folosit anterior sau al concurentului pe care vreți să îl înlocuiți. Cu aceste date pregătim oferta corectă din gamă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Dymax — Light-Curable Adhesives, Coatings, and Equipment", url: "https://www.dymax.com", publisher: "Dymax Corporation", accessed: "2026-09-25" },
       { title: "9773 — Dymax", url: "https://dymax.com/products/formulations/light-curable-materials/bonding/dissimilar-substrate-bonding/9773", publisher: "Dymax Corporation", accessed: "2026-09-25" },

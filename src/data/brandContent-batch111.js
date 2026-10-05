@@ -3,11 +3,11 @@
 export const brandContentBatch111 = {
   elmag: {
     name: "Elmag",
-    overview: `Elmag este un producător austriac de echipamente pentru ateliere industriale, cu o gamă organizată pe cinci direcții tehnice: aer comprimat, sudură, prelucrarea metalului, prelucrarea pietrei și generatoare de curent. Oferta trece de la compresoare cu piston și cu șurub până la aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat, strunguri și generatoare pe benzină sau diesel. Pentru un atelier din România, gama Elmag înseamnă mai multe tipuri de echipamente de bază dintr-o singură sursă.
+    overview: `Elmag este un furnizor de echipamente pentru ateliere industriale, prezent în Austria prin ELMAG Österreich, cu o gamă organizată pe cinci direcții tehnice: aer comprimat, sudură, prelucrarea metalului, prelucrarea pietrei și generatoare de curent. Oferta trece de la compresoare cu piston și cu șurub până la aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat, strunguri și generatoare pe benzină sau diesel. Pentru un atelier din România, gama Elmag înseamnă mai multe tipuri de echipamente de bază dintr-o singură sursă.
 
-Catalogul e larg pe fiecare linie: la aer comprimat include compresoare insonorizate pentru hale sensibile la zgomot, uscătoare frigorifice și prin adsorbție, rezervoare de aer și zeci de scule pneumatice, de la ciocane de spart la șurubelnițe. La sudură, paleta acoperă invertoare MIG/MAG și WIG/TIG, surse cu electrod pentru șantier, instalații de tăiere cu plasmă și sisteme de aspirație a fumului. Zona de metal adaugă mașini de găurit-frezat și strunguri, iar zona de curent, generatoare și stații portabile cu acumulator.
+Catalogul e larg pe fiecare linie: la aer comprimat include compresoare insonorizate pentru hale sensibile la zgomot, uscătoare frigorifice și prin adsorbție, rezervoare de aer și scule pneumatice, de la ciocane de spart la chei cu impact. La sudură, paleta acoperă invertoare MIG/MAG și WIG/TIG, surse cu electrod pentru șantier, instalații de tăiere cu plasmă și sisteme de aspirație a fumului. Zona de metal adaugă mașini de găurit-frezat și strunguri, iar zona de curent, generatoare și stații portabile cu acumulator.
 
-Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală mică are nevoie simultan de aer comprimat, o sursă de sudură și o mașină de bază de prelucrat metal, fără mai mulți furnizori pentru echipamente din aceeași categorie de preț. Configurația se stabilește după aplicația concretă de la fața locului.`,
+Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală mică are nevoie simultan de aer comprimat, o sursă de sudură și o mașină de bază de prelucrat metal, fără mai mulți furnizori. Configurația se stabilește după aplicația concretă de la fața locului.`,
     whyChoose: [
       "Catalog pe cinci direcții tehnice — aer comprimat, sudură, prelucrare metal, prelucrare piatră, curent — de la un singur furnizor austriac",
       "Compresoare cu piston și cu șurub, inclusiv variante insonorizate pentru hale cu cerințe de zgomot redus",
@@ -46,15 +46,15 @@ Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală
       { code: "Powerstations", description: "Stații de curent portabile cu acumulator" },
     ],
     faq: [
-      { q: "Ce echipamente produce Elmag?", a: "Elmag produce echipamente de atelier industrial din Austria — compresoare cu piston și cu șurub, aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat și strunjire, plus generatoare de curent pe benzină sau diesel. Gama e organizată pe direcții tehnice clare, ceea ce ajută la acoperirea mai multor nevoi de atelier dintr-o singură sursă." },
+      { q: "Ce echipamente produce Elmag?", a: "Elmag oferă echipamente de atelier industrial prin ELMAG Österreich — compresoare cu piston și cu șurub, aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat și strunjire, plus generatoare de curent pe benzină sau diesel. Gama e organizată pe direcții tehnice clare, ceea ce ajută la acoperirea mai multor nevoi de atelier dintr-o singură sursă." },
       { q: "Cum aleg un compresor potrivit pentru atelierul meu?", a: "Alegerea pornește de la debitul de aer necesar în litri pe minut și presiunea de lucru a sculelor pneumatice folosite. Pentru consum intermitent, un compresor cu piston e suficient; pentru funcționare continuă, recomandăm un model cu șurub, eventual insonorizat dacă zgomotul contează în hală. Trimiteți-ne aceste date pentru o propunere corectă." },
       { q: "Livrați echipamente Elmag în România și cât durează?", a: "Da, aducem echipamente Elmag la comandă prin canale de aprovizionare din Austria și UE, cu un termen orientativ de 1–4 săptămâni, în funcție de model și de disponibilitatea confirmată de producător. Termenul exact se stabilește după ce identificăm modelul potrivit pentru aplicația dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă de sudură Elmag?", a: "Pentru o ofertă corectă la aparatele de sudură Elmag, trimiteți tipul de material sudat (oțel, inox, aluminiu), grosimea tablei, procesul dorit — MIG/MAG, WIG/TIG sau electrod învelit — și tipul de curent electric disponibil la punctul de lucru. Cu aceste informații putem propune modelul potrivit din gamă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ELMAG – Kompressoren, Schweißgeräte, Werkstatttechnik", url: "https://www.elmag.at", publisher: "Elmag GmbH", accessed: "2026-09-25" },
       { title: "Druckluft – Kompressoren, Trockner, Druckluftwerkzeuge", url: "https://www.elmag.at/de/druckluft", publisher: "Elmag GmbH", accessed: "2026-09-25" },
@@ -64,7 +64,7 @@ Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală
     name: "GESIPA",
     overview: `GESIPA este un producător german specializat în tehnologie de nituire — nituri oarbe, piulițe nit oarbe și mașinile de montare necesare pentru ambele, de la scule manuale până la unelte cu acumulator pentru producție de serie. Marca face parte din SFS Group, iar dezvoltarea sistemelor de nituire rămâne concentrată sub numele GESIPA. Pentru o linie de asamblare din România, gama înseamnă acces la un sistem complet — nitul, piulița și scula de montare — gândit să funcționeze împreună.
 
-Seria AccuBird Pro livrează o forță de tragere de până la 13.000 N pentru nituri curente, iar iBird Pro Gold Edition ajunge la 20.000 N pentru nituri structurale mai groase, ambele cu acumulatoare compatibile cu sistemul CAS (Cordless Alliance System). Pe consumabile, familia PolyGrip acoperă niturile din aluminiu și inox pentru uz general, MEGA GRIP e din oțel pentru găuri ușor supradimensionate, iar PolyBulb formează un cap de refulare mai mare, potrivit pentru materiale fragile.
+Seria AccuBird Pro livrează o forță de tragere de până la 13.000 N pentru nituri curente, iar iBird Pro Gold Edition ajunge la 20.000 N pentru nituri structurale mai groase, ambele cu acumulatoare compatibile cu sistemul CAS (Cordless Alliance System). Pe consumabile, familia PolyGrip acoperă niturile din aluminiu și inox pentru uz general, MEGA GRIP e din oțel pentru găuri ușor supradimensionate, iar PolyBulb este varianta din aluminiu/oțel cu cap bombat.
 
 Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier de tâmplărie metalică folosește constant nituri oarbe și are nevoie atât de consumabile curente, cât și de scule de montare fiabile pe termen lung.`,
     whyChoose: [
@@ -74,9 +74,9 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
       "Parte din SFS Group, cu certificare ISO 9001, ISO 14001 și IATF 16949 pentru fabricație",
     ],
     keyProducts: [
-      { name: "Scule de nituit cu acumulator (AccuBird, iBird Pro)", description: "Familia de scule cu acumulator GESIPA acoperă de la AccuBird (10.000 N) până la AccuBird Pro (13.000 N) și iBird Pro Gold Edition, care ajunge la 20.000 N pentru nituri structurale mai groase. Toate funcționează pe baterii compatibile CAS, cu curse de sculă de 20 sau 25 mm. Pentru ofertă, avem nevoie de diametrul și materialul nitului folosit predominant." },
-      { name: "Nituri oarbe PolyGrip și MEGA GRIP", description: "PolyGrip e seria de nituri oarbe pentru uz general, în aluminiu/inox, cap bombat, diametre de 3,2–4 mm. MEGA GRIP, din oțel/oțel, acoperă diametre de 4,8 și 6,4 mm, construită pentru găuri ușor supradimensionate. Ambele se montează cu aceleași scule GESIPA, ceea ce simplifică schimbarea diametrului de nit pe linie." },
-      { name: "Piulițe nit oarbe și nituri speciale", description: "Piulițele nit oarbe rezolvă asamblări în materiale subțiri unde un nit clasic nu oferă filet interior. PolyBulb formează un cap de refulare mai mare pentru materiale fragile, iar SolarGrip e gândită pentru structuri de fixare din instalațiile fotovoltaice. Pentru ofertă, spuneți-ne materialul găurit și grosimea totală a pachetului de strâns." },
+      { name: "Scule de nituit cu acumulator (AccuBird, iBird Pro)", description: "Familia de scule cu acumulator GESIPA acoperă de la AccuBird (10.000 N) până la AccuBird Pro (13.000 N) și iBird Pro Gold Edition, care ajunge la 20.000 N pentru nituri structurale mai groase. Modelele AccuBird Pro și iBird Pro funcționează pe baterii compatibile CAS (cu excepția modelului AccuBird); cursa sculei este de 20 mm la AccuBird și de 25 mm la AccuBird Pro și iBird Pro. Pentru ofertă, avem nevoie de diametrul și materialul nitului folosit predominant." },
+      { name: "Nituri oarbe PolyGrip și MEGA GRIP", description: "PolyGrip e seria de nituri oarbe pentru uz general, în aluminiu/inox, cu cap bombat; conform producătorului, un nit PolyGrip poate înlocui până la cinci dimensiuni de nituri standard DIN. MEGA GRIP, din oțel/oțel, acoperă diametre de 4,8 și 6,4 mm, construită pentru găuri ușor supradimensionate. Ambele se montează cu aceleași scule GESIPA, ceea ce simplifică schimbarea diametrului de nit pe linie." },
+      { name: "Piulițe nit oarbe și nituri speciale", description: "Piulițele nit oarbe rezolvă asamblări în materiale subțiri unde un nit clasic nu oferă filet interior. PolyBulb este varianta din aluminiu/oțel cu cap bombat, iar SolarGrip e gândită pentru structuri de fixare din instalațiile fotovoltaice. Pentru ofertă, spuneți-ne materialul găurit și grosimea totală a pachetului de strâns." },
     ],
     industries: [
       "Industria auto și a furnizorilor auto — asamblare caroserii din tablă și aluminiu",
@@ -86,36 +86,36 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
       "Vehicule comerciale și utilaje — asamblare caroserii și panouri",
     ],
     certifications: ["ISO 9001 — management al calității de fabricație", "ISO 14001 — management de mediu", "ISO 45001 — sănătate și securitate ocupațională", "IATF 16949 — standard specific industriei auto"],
-    infinitrade: `Pentru GESIPA lucrăm cu informațiile publicate de producător și de grupul SFS, fiind transparenți cu privire la ce putem și ce nu putem confirma din datele tehnice ale fiecărei scule. Aducem sculele de nituit și consumabilele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru cantități mai mari sau modele mai puțin curente. Pentru o ofertă corectă, spuneți-ne diametrul și materialul nitului, tipul de sculă dorit și volumul aproximativ pe lună. Fiecare comandă se confirmă în avans cu producătorul, fără o cantitate fixă rezervată dinainte pentru fiecare cod.`,
+    infinitrade: `Pentru GESIPA lucrăm cu informațiile publicate de producător și de grupul SFS, fiind transparenți cu privire la ce putem și ce nu putem confirma din datele tehnice ale fiecărei scule. Aducem sculele de nituit și consumabilele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă, spuneți-ne diametrul și materialul nitului, tipul de sculă dorit și volumul aproximativ pe lună. Fiecare comandă se confirmă în avans cu producătorul, fără o cantitate fixă rezervată dinainte pentru fiecare cod.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui cod de nit sau piuliță în cantități mici fără o verificare punctuală la producător.",
     productCodes: [
       { code: "AccuBird", description: "Sculă de nituit cu acumulator, forță de tragere 10.000 N" },
       { code: "AccuBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
-      { code: "iBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
+      { code: "iBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 20.000 N" },
       { code: "iBird Pro Gold Edition", description: "Sculă de nituit cu acumulator, forță maximă 20.000 N" },
-      { code: "iBird Pro CL", description: "Sculă de nituit cu acumulator pentru cicluri lungi" },
+      { code: "iBird Pro CL", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
       { code: "iBird Pro CL Gold Edition", description: "Sculă de nituit cu acumulator, forță 20.000 N" },
       { code: "PowerBird", description: "Sculă de nituit cu acumulator din gama profesională" },
       { code: "Birdie", description: "Sculă de nituit compactă pentru montaj curent" },
       { code: "PolyGrip", description: "Nit orb aluminiu/inox cu cap bombat, uz general" },
       { code: "MEGA GRIP", description: "Nit orb oțel/oțel pentru găuri supradimensionate" },
-      { code: "PolyBulb", description: "Nit orb aluminiu/oțel cu cap de refulare extins" },
-      { code: "e-FAST PolyGrip", description: "Nit orb pentru montaj rapid într-un singur pas" },
-      { code: "UniversalGrip", description: "Nit orb universal pentru materiale mixte" },
-      { code: "CAP", description: "Nit orb cu cap plat pentru suprafețe aliniate" },
-      { code: "G-BULB", description: "Nit orb cu cap de refulare mărit pentru materiale fragile" },
+      { code: "PolyBulb", description: "Nit orb aluminiu/oțel cu cap bombat" },
+      { code: "e-FAST PolyGrip", description: "Nit orb izolant electric, pentru tablouri de comandă" },
+      { code: "UniversalGrip", description: "Nit orb din gama GESIPA, disponibil și în variante etanșe la aer și apă" },
+      { code: "CAP", description: "Nit orb din gama GESIPA, disponibil și în variante etanșe la aer și apă" },
+      { code: "G-BULB", description: "Nit orb din gama GESIPA, varianta G-BULB" },
       { code: "SolarGrip", description: "Nit orb pentru structuri de fixare fotovoltaice" },
     ],
     faq: [
       { q: "Ce produce GESIPA?", a: "GESIPA produce nituri oarbe, piulițe nit oarbe și mașinile de montare necesare pentru ambele — de la scule manuale simple până la unelte cu acumulator pentru producție de serie. Marca face parte din SFS Group și e cunoscută pentru sistemele cu acumulator din familiile AccuBird și iBird Pro." },
       { q: "Cum aleg o sculă de nituit GESIPA potrivită?", a: "Alegerea depinde de forța de tragere necesară pentru diametrul de nit folosit și de volumul montat zilnic. Pentru nituri curente, o sculă din familia AccuBird e suficientă; pentru nituri structurale mai groase, recomandăm iBird Pro Gold Edition, cu forță de tragere de 20.000 N." },
-      { q: "Ce diferență e între PolyGrip și MEGA GRIP de la GESIPA?", a: "PolyGrip e din aluminiu/inox, cu cap bombat, gândit pentru uz general în diametre de 3,2–4 mm. MEGA GRIP e din oțel/oțel, în diametre de 4,8 și 6,4 mm, și rezistă mai bine la găuri ușor supradimensionate sau la strângeri cu toleranță mai mare." },
-      { q: "Livrați scule și nituri GESIPA în România?", a: "Da, aducem sculele de nituit și consumabilele GESIPA la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru cantități mai mari. Pentru cantități mici de nituri curente termenul poate fi mai scurt." },
+      { q: "Ce diferență e între PolyGrip și MEGA GRIP de la GESIPA?", a: "PolyGrip e din aluminiu/inox, cu cap bombat, gândit pentru uz general; conform producătorului, poate înlocui până la cinci dimensiuni de nituri standard DIN. MEGA GRIP e din oțel/oțel, în diametre de 4,8 și 6,4 mm, și rezistă mai bine la găuri ușor supradimensionate sau la strângeri cu toleranță mai mare." },
+      { q: "Livrați scule și nituri GESIPA în România?", a: "Da, aducem sculele de nituit și consumabilele GESIPA la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni, în funcție de produs și cantitate." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "GESIPA – Blind Rivets, Blind Rivet Nuts and Setting Tools", url: "https://www.gesipa.com", publisher: "GESIPA Blindniettechnik GmbH", accessed: "2026-09-25" },
       { title: "Battery-Powered Riveting Tools", url: "https://www.gesipa.com/products/battery-powered-riveting-tools/", publisher: "GESIPA Blindniettechnik GmbH", accessed: "2026-09-25" },
