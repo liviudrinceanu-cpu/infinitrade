@@ -5,7 +5,7 @@ export const brandContentBatch142 = {
     name: "Conval",
     founded: 1967,
     headquarters: "Enfield, Connecticut, SUA",
-    overview: `Conval Inc. este un producător american din Enfield, Connecticut, specializat din 1967 în robinete forjate din oțel pentru servicii severe — presiuni și temperaturi ridicate în centrale electrice, instalații nucleare și platforme navale. Gama Swivldisc de robinete sertar și Clampseal de robinete cu ventil acoperă clase de presiune ASME de la 900 până la 4500, cu dimensiuni de la 1/2 până la 4 țoli. Pentru clienții din România putem oferta atât robinetele complete, cât și supapele de reținere din aceeași gamă, pentru linii unde un robinet standard din fontă sau oțel carbon nu rezistă la condițiile de lucru.
+    overview: `Conval Inc. este un producător american din Enfield, Connecticut, specializat din 1967 în robinete forjate din oțel pentru servicii severe — presiuni și temperaturi ridicate în centrale electrice, instalații nucleare și laboratoare criogenice. Gama Swivldisc de robinete sertar și Clampseal de robinete cu ventil acoperă clase de presiune ASME de la 900 până la 4500, cu dimensiuni de la 1/2 până la 4 țoli. Pentru clienții din România putem oferta atât robinetele complete, cât și supapele de reținere din aceeași gamă, pentru linii unde un robinet standard din fontă sau oțel carbon nu rezistă la condițiile de lucru.
 
 Ce diferențiază construcția Conval este etanșarea cu capac fixat printr-o clemă (clamp), care elimină punctele slabe de scurgere ale robinetelor cu capac înșurubat clasic, o soluție căutată acolo unde etanșeitatea la presiuni de peste 900 psi contează mai mult decât costul inițial. Supapele de reținere tip Y și cele unghiulare din gama piston-check combină funcția de robinet de închidere cu cea de clapetă de reținere într-un singur corp, reducând numărul de îmbinări sudate de pe traseu. Materialele de construcție merg de la oțel carbon SA-216 până la aliaje Inconel, Incoloy, Monel și Hastelloy pentru medii corozive sau criogenice.
 
@@ -15,25 +15,25 @@ Pentru instalațiile din România, gama Conval are sens acolo unde robinetele st
       "Robinete de reținere Y și unghiulare care înlocuiesc o clapetă separată plus un cot de 90°, cu mai puține îmbinări sudate.",
       "Game construite pentru clase de presiune de la 900 până la 4500 ASME, cu dimensiuni de la 1/2 până la 4 țoli.",
       "Materiale disponibile de la oțel carbon SA-216 până la Inconel, Monel și Hastelloy pentru medii corozive sau criogenice.",
-      "Robinet de blowdown cazan proiectat pentru servicii navale, cu montaj tandem pentru siguranță suplimentară.",
+      "Robinet de blowdown (Unit Tandem) pentru purjarea cazanelor și a fundului cazanului, cu montaj tandem.",
     ],
     keyProducts: [
-      { name: "Robinete Sertar Swivldisc", description: "Robinet cu disc rotativ (swivldisc), construit pentru servicii de mare presiune și temperatură, în clase ASME nominale 900, 1500 și 2500, cu opțiuni intermediare până la 3500. Dimensiuni de la 1/2 până la 4 țoli, disponibile din oțel carbon SA-216 Gr. WCB, oțel aliat SA-217 Gr. WC9/C12A sau inox SA-351 Gr. CF8M. Discul rotativ reduce frecarea de alunecare specifică robinetelor sertar clasice, limitând uzura scaunelor la cicluri repetate de deschidere-închidere." },
-      { name: "Robinete cu Ventil Clampseal", description: "Robinet cu ventil (globe) în trei stiluri de corp, cu capac fixat prin clemă în loc de șuruburi, pentru clase ASME 900 până la 4500 și dimensiuni de la 1/2 la 4 țoli. Materialele standard sunt SA-105, SA-182 F22/F91/F92/F316, cu peste 30 de aliaje disponibile la cerere. Designul modular permite montarea diverselor tipuri de acționare pe același corp de bază, avantaj pentru linii de control unde etanșeitatea la presiune ridicată e critică." },
+      { name: "Robinete Sertar Swivldisc", description: "Robinet cu disc flexibil (Swivldisc), construit pentru servicii de mare presiune și temperatură, în clase ASME nominale 900, 1500 și 2500, cu opțiuni intermediare până la 3500. Dimensiuni de la 1/2 până la 4 țoli, disponibile din oțel carbon SA-216 Gr. WCB, oțel aliat SA-217 Gr. WC9/C12A sau inox SA-351 Gr. CF8M. Discul flexibil permite suprafețelor de etanșare să se alinieze perfect, pentru o etanșare pe care robinetele sertar clasice cu pană nu o pot atinge." },
+      { name: "Robinete cu Ventil Clampseal", description: "Robinet cu ventil (globe) în trei stiluri de corp, cu capac fixat prin clemă în loc de șuruburi, pentru clase ASME 900 până la 4500 și dimensiuni de la 1/2 la 4 țoli. Materialele standard sunt SA-105, SA-182 F22/F91/F92/F316, cu peste 30 de aliaje disponibile la cerere. Designul modular permite transformarea corpului în supapă de reținere, supapă de reținere cu închidere (stop-check) sau variante de laminare, cu piese interschimbabile." },
       { name: "Supape de Reținere Piston-Check (Y și Unghiulare)", description: "Supape de reținere cu piston, în configurație tip Y sau unghiulară, care combină funcția de robinet de închidere cu cea de clapetă de reținere. Gama acoperă zeci de combinații de dimensiune (1/2-4 țoli) și clasă de presiune (900-2500 ASME), cu coeficienți de debit (Cv) documentați individual pentru fiecare model — de la Cv 3 la dimensiunea de 1/2 țoli, clasă 2500, până la Cv 165 la 4 țoli, clasă 900." },
     ],
     industries: [
       "Energie — robinete pentru cazane de presiune înaltă și instalații de reglare abur",
       "Nuclear — componente pentru reactoare și instalații cu cerințe stricte de etanșeitate",
-      "Marină/apărare — robinet de blowdown cazan pentru servicii navale",
+      "Cazane industriale — robinet de blowdown pentru purjarea cazanelor",
       "Cercetare/laborator — robinete pentru linii criogenice",
     ],
-    infinitrade: `Spunem direct ce putem și ce nu putem confirma pentru Conval: dimensiunile, clasele de presiune și codurile Web Ref. vin din paginile oficiale citate mai jos, dar nu avem date proprii despre o rețea de distribuție în Europa — site-ul producătorului nu menționează una. Aducem robinetele Conval la comandă, prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de configurația exactă și de confirmarea producătorului. Pentru ofertă, trimiteți dimensiunea nominală, clasa de presiune ASME, materialul corpului și tipul de capete. Nu ținem această gamă pe raft — fiecare robinet e construit pe specificație.`,
-    limitation: "Nu putem confirma termene de livrare mai scurte de 1–4 săptămâni și nici disponibilitatea unei sub-game anume înainte de specificația tehnică completă.",
+    infinitrade: `Spunem direct ce putem și ce nu putem confirma pentru Conval: dimensiunile, clasele de presiune și codurile Web Ref. vin din paginile oficiale citate mai jos, dar nu avem date proprii despre o rețea de distribuție în Europa — site-ul producătorului nu menționează una. Aducem robinetele Conval la comandă, prin import direct din SUA, cu termen de regulă peste 4 săptămâni, confirmat după specificația tehnică completă. Pentru ofertă, trimiteți dimensiunea nominală, clasa de presiune ASME, materialul corpului și tipul de capete. Nu ținem această gamă pe raft — fiecare robinet e construit pe specificație.`,
+    limitation: "Nu putem confirma termenul de livrare și nici disponibilitatea unei sub-game anume înainte de specificația tehnică completă; pentru configurații complexe termenul este de regulă peste 4 săptămâni.",
     productCodes: [
       { code: "Swivldisc Gate Valve", description: "robinet sertar, Class 900-2500, 1/2-4 țoli" },
       { code: "Clampseal Globe Valve", description: "robinet cu ventil, Class 900-4500, 1/2-4 țoli" },
-      { code: "Unit Tandem Blowdown Valve", description: "robinet blowdown cazane navale, montaj tandem" },
+      { code: "Unit Tandem Blowdown Valve", description: "robinet blowdown pentru cazane, montaj tandem" },
       { code: "Web Ref. 1050", description: "reținere tip Y, 1/2 țoli, Class 900, Cv 5" },
       { code: "Web Ref. 1055", description: "reținere tip Y, 2 țoli, Class 900, Cv 53" },
       { code: "Web Ref. 1058", description: "reținere tip Y, 4 țoli, Class 900, Cv 157" },
@@ -47,13 +47,13 @@ Pentru instalațiile din România, gama Conval are sens acolo unde robinetele st
     faq: [
       { q: "Ce produce Conval?", a: "Conval fabrică robinete forjate din oțel pentru servicii severe — presiune și temperatură ridicate — sub formă de robinete sertar Swivldisc, robinete cu ventil Clampseal și supape de reținere piston-check tip Y sau unghiulare, în clase ASME de la 900 la 4500." },
       { q: "Cum aleg un robinet Conval după cod?", a: "Codul Web Ref. de pe site-ul producătorului indică o combinație fixă de dimensiune, clasă de presiune și coeficient de debit (Cv); pentru ofertă, trimiteți dimensiunea nominală, clasa ASME dorită și materialul corpului, iar noi identificăm modelul corespunzător din gama Conval." },
-      { q: "Se poate procura Conval în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul oficial Conval nu menționează o rețea de distribuție în Europa, așa că aducem robinetele la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de configurație și transport." },
-      { q: "Livrați robinete Conval în România și cât durează?", a: "Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului asupra configurației exacte — dimensiune, clasă de presiune, material — și de disponibilitatea la fabrica din SUA; nu ținem această gamă pe raft." },
+      { q: "Se poate procura Conval în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul oficial Conval nu menționează o rețea de distribuție în Europa, așa că aducem robinetele la comandă prin import direct din SUA, cu termen de regulă peste 4 săptămâni pentru configurații construite pe specificație, în funcție de configurație și transport." },
+      { q: "Livrați robinete Conval în România și cât durează?", a: "Termenul este de regulă peste 4 săptămâni, fiind vorba de configurații construite pe specificație, în funcție de confirmarea producătorului asupra configurației exacte — dimensiune, clasă de presiune, material — și de disponibilitatea la fabrica din SUA; nu ținem această gamă pe raft." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Gate Valve - Conval, Inc.", url: "https://www.conval.com/products/gate-valve/", publisher: "Conval, Inc.", accessed: "2026-09-26" },
       { title: "CLAMPSEAL® Globe Valves - Conval, Inc.", url: "https://www.conval.com/products/globe-valve/", publisher: "Conval, Inc.", accessed: "2026-09-26" },
@@ -65,58 +65,58 @@ Pentru instalațiile din România, gama Conval are sens acolo unde robinetele st
     name: "Channellock",
     founded: 1886,
     headquarters: "Meadville, Pennsylvania, SUA",
-    overview: `Channellock este un producător american de scule de mână — clești, chei, șurubelnițe și accesorii — cu sediul la Meadville, Pennsylvania, fabricate integral în Statele Unite din 1886. Gama de bază rămâne clestele limbă-și-canal (tongue & groove), inventat de companie și disponibil azi în zeci de variante de mâner și dimensiune. Pentru clienții din România putem oferta clești, chei reglabile și șurubelnițe din gama curentă, pentru ateliere de mentenanță, instalații și service auto unde contează rezistența sculei la uz intensiv.
+    overview: `Channellock este un producător american de scule de mână — clești, chei, șurubelnițe și accesorii — cu sediul la Meadville, Pennsylvania, fabricate în mare parte în Statele Unite din 1886. Gama de bază rămâne clestele limbă-și-canal (tongue & groove), inventat de companie și disponibil azi în zeci de variante de mâner și dimensiune. Pentru clienții din România putem oferta clești, chei reglabile și șurubelnițe din gama curentă, pentru ateliere de mentenanță, instalații și service auto unde contează rezistența sculei la uz intensiv.
 
-Ce ține Channellock relevant e producția pe teritoriul american, într-o fabrică de peste 260.000 de picioare pătrate din Meadville, cu certificare ISO 9001 pentru procesele de fabricație. Spre deosebire de mărcile care importă componente din mai multe țări, compania declară că doar o parte selectivă din produse provine din import, după ce trece prin controlul propriu de calitate. Gama GS de clești de prindere și tăiere completează familia de bază tongue & groove, alături de șurubelnițe de precizie din seriile P și D.
+Ce ține Channellock relevant e producția pe teritoriul american, în unități de producție însumând aproximativ 260.000 de picioare pătrate (circa 24.000 m²) la Meadville, cu certificare ISO 9001 pentru procesele de fabricație. Spre deosebire de mărcile care importă componente din mai multe țări, compania declară că doar o parte selectivă din produse provine din import, după ce trece prin controlul propriu de calitate. Seturile GS de clești completează familia de bază tongue & groove, alături de șurubelnițe profesionale din seriile P și D.
 
 Pentru piața din România, Channellock are sens acolo unde un atelier are nevoie de scule de mână robuste, cu fălci forjate și tratament termic, pentru uz zilnic în mentenanță industrială, electricitate sau service auto.`,
     whyChoose: [
       "Producție pe teritoriul Statelor Unite, la Meadville, Pennsylvania, cu certificare ISO 9001 pentru procesele de fabricație.",
       "Clește limbă-și-canal (tongue & groove) inventat de companie, disponibil în zeci de variante de mâner și dimensiune.",
-      "Gama GS de clești de prindere și tăiere, pentru service auto și electricitate, cu fălci forjate.",
-      "Șurubelnițe de precizie din seriile P și D, pentru electronică și mecanică fină.",
+      "Seturi GS de clești (de exemplu GS-3 și GS-10), din oțel forjat american.",
+      "Șurubelnițe profesionale din seriile P și D, cu lame din oțel american tratate termic în vid.",
       "Membru al Hand Tool Institute, cu peste 300 de angajați dedicați fabricației din Meadville.",
     ],
     keyProducts: [
-      { name: "Clești Limbă-și-Canal (Tongue & Groove)", description: "Gama de bază Channellock, cu fălci canelate care se ajustează pe mai multe poziții pentru a prinde piese de diametre diferite fără a schimba scula. Codurile din gamă (de exemplu 804, 806NW, 810NW, 812NW, 818, 824) diferă prin lungimea totală și tipul de mâner — neted, cu mâner WCB sau cu strat de cauciuc (SWLG). Fălcile sunt forjate și tratate termic pentru rezistență la uzură în service auto, instalații sanitare și mentenanță industrială." },
-      { name: "Clești GS de Prindere și Tăiere", description: "Familie de clești specializați pentru prindere, tăiere de sârmă și lucrări electrice, cu coduri de la GS-1 la GS-50, diferențiate prin lungime și tipul de cap — drept, curbat sau cu cuțit lateral. Folosiți frecvent de electricieni și lăcătuși pentru operațiuni repetitive unde un clește universal nu oferă suficientă precizie. Lama este tratată termic pentru a păstra muchia de tăiere la utilizare zilnică intensivă." },
-      { name: "Șurubelnițe de Precizie Seria P/D", description: "Șurubelnițe cu vârf plat sau Phillips, în gama P (de exemplu P108H, P030H, P206H) și gama D (DP206H, DS146H, DS-2H), pentru lucru la componente mici din electronică, aparatură de măsură sau mecanisme fine. Mânerele sunt proiectate pentru priză fermă la cuplu redus, iar vârfurile sunt tratate pentru a rezista la răsucire repetată fără deformare." },
+      { name: "Clești Limbă-și-Canal (Tongue & Groove)", description: "Gama de bază Channellock, cu fălci canelate care se ajustează pe mai multe poziții pentru a prinde piese de diametre diferite fără a schimba scula. Gama cuprinde mai multe lungimi și tipuri de mâner (de exemplu seturile GS-3 și GS-10 includ clești limbă-și-canal de 6,5, 9,5, 10 și 12 țoli); codul exact se confirmă din catalogul producătorului. Fălcile sunt forjate și tratate termic pentru rezistență la uzură în service auto, instalații sanitare și mentenanță industrială." },
+      { name: "Seturi GS de Clești", description: "Seturi (asortimente) de clești ale producătorului, cu coduri de tip GS-3 sau GS-10: GS-3 conține trei clești limbă-și-canal de 6,5, 9,5 și 12 țoli, iar GS-10 conține un clește de electrician XLT de 9,5 țoli și un clește limbă-și-canal de 10 țoli. Componența fiecărui set se confirmă din catalogul producătorului." },
+      { name: "Șurubelnițe Profesionale Seria P/D", description: "Șurubelnițe cu vârf plat sau Phillips, în gama P (de exemplu P108H, Phillips #1 cu lamă de 8 țoli) și gama D (de exemplu DS-2H, set de două șurubelnițe de demolare Phillips #2 și plată de 1/4 țoli, de 6 țoli), cu lame din oțel american tratate termic în vid. Mânerele au profil armat, în trei fețe, pentru priză fermă." },
     ],
     industries: [
       "Instalații sanitare și HVAC — clești și chei pentru montaj și service la conducte",
       "Automotive — scule de mână pentru ateliere de service și mentenanță",
-      "Electricitate — clești GS pentru tăiere și dezizolare de cabluri",
+      "Electricitate — clești și seturi de scule pentru instalații electrice",
       "Agricultură — scule rezistente pentru mentenanță în teren",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Channellock: codurile de model și fabricarea integrală în SUA vin din surse publice ale producătorului, dar site-ul oficial nu menționează o rețea de distribuție proprie în Europa. Aducem sculele Channellock la comandă, prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de cantitate și de confirmarea disponibilității. Pentru ofertă, e nevoie de codul exact de model — de pe scula existentă sau din catalog — și cantitatea dorită. Nu ținem această gamă pe raft; lucrăm exclusiv la comandă.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Channellock: codurile de model și informațiile despre fabricația în SUA vin din surse publice ale producătorului, dar site-ul oficial nu menționează o rețea de distribuție proprie în Europa. Aducem sculele Channellock la comandă, prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de cantitate și de confirmarea disponibilității. Pentru ofertă, e nevoie de codul exact de model — de pe scula existentă sau din catalog — și cantitatea dorită. Nu ținem această gamă pe raft; lucrăm exclusiv la comandă.`,
     limitation: "Nu putem confirma dimensiunile exacte sau tipul de mâner pentru fiecare cod de model fără accesul la catalogul tehnic complet al producătorului.",
     productCodes: [
-      { code: "612TD", description: "clește sudor cu cap îngust, gama profesională" },
-      { code: "804", description: "clește limbă-și-canal, gama standard" },
-      { code: "804N", description: "clește limbă-și-canal, variantă cu mâner neted" },
-      { code: "806NW", description: "clește limbă-și-canal, mâner neted" },
-      { code: "810NW", description: "clește limbă-și-canal, mâner neted, dimensiune mai mare" },
-      { code: "810WCB", description: "clește limbă-și-canal cu mâner WCB" },
-      { code: "812NW", description: "clește limbă-și-canal, gama de dimensiuni mari" },
-      { code: "818", description: "clește limbă-și-canal, gama de dimensiuni extinse" },
-      { code: "824", description: "clește limbă-și-canal, dimensiune mare din gama standard" },
-      { code: "830", description: "clește limbă-și-canal, dimensiune extinsă din gama standard" },
-      { code: "GS-3", description: "clește de prindere/tăiere, gama GS" },
-      { code: "GS-10", description: "clește de prindere/tăiere, gama GS, variantă compactă" },
-      { code: "GS-20", description: "clește de prindere/tăiere, gama GS, variantă extinsă" },
-      { code: "P108H", description: "șurubelniță de precizie, gama P" },
-      { code: "DS-2H", description: "șurubelniță cu vârf dublu, gama D" },
+      { code: "612TD", description: "foarfecă de tinichigerie tip cioc de rață (duckbill), 12 țoli" },
+      { code: "804", description: "cheie reglabilă de 4 țoli (4,5 in)" },
+      { code: "804N", description: "cheie reglabilă de 4 țoli, variantă N" },
+      { code: "806NW", description: "cheie reglabilă din seria 8xx; dimensiunea se confirmă din catalogul producătorului" },
+      { code: "810NW", description: "cheie reglabilă din seria 8xx; dimensiunea se confirmă din catalogul producătorului" },
+      { code: "810WCB", description: "cheie reglabilă largă de 10 țoli, mâner CODE BLUE (WCB), fabricată în Spania" },
+      { code: "812NW", description: "cheie reglabilă din seria 8xx; dimensiunea se confirmă din catalogul producătorului" },
+      { code: "818", description: "cheie reglabilă de 18 țoli, fabricată în Spania" },
+      { code: "824", description: "cheie reglabilă din seria 8xx; dimensiunea se confirmă din catalogul producătorului" },
+      { code: "830", description: "cheie reglabilă din seria 8xx; dimensiunea se confirmă din catalogul producătorului" },
+      { code: "GS-3", description: "set de 3 clești limbă-și-canal (6,5, 9,5 și 12 țoli)" },
+      { code: "GS-10", description: "set de 2 clești: clește de electrician XLT de 9,5 țoli și clește limbă-și-canal de 10 țoli" },
+      { code: "GS-20", description: "set de clești din gama GS; componența se confirmă din catalogul producătorului" },
+      { code: "P108H", description: "șurubelniță profesională Phillips #1, lamă de 8 țoli" },
+      { code: "DS-2H", description: "set de 2 șurubelnițe de demolare (Phillips #2 și plată 1/4 țoli), 6 țoli" },
     ],
     faq: [
-      { q: "Ce produce Channellock?", a: "Channellock fabrică scule de mână — clești limbă-și-canal, clești de prindere și tăiere din gama GS, chei reglabile și șurubelnițe de precizie — produse integral în Statele Unite, la Meadville, Pennsylvania, din 1886." },
-      { q: "Cum aleg un clește Channellock după cod?", a: "Codul de model indică lungimea totală a sculei și tipul de mâner — neted, cu strat de cauciuc sau cu cuțit lateral; pentru alegerea corectă, comparați lungimea din catalog cu spațiul de lucru disponibil și tipul de piesă pe care urmează să o prindeți." },
+      { q: "Ce produce Channellock?", a: "Channellock fabrică scule de mână — clești limbă-și-canal, seturi de clești din gama GS, chei reglabile și șurubelnițe profesionale — produse în mare parte în Statele Unite, la Meadville, Pennsylvania, din 1886." },
+      { q: "Cum aleg un clește Channellock după cod?", a: "Codul de model identifică produsul exact din catalogul producătorului; pentru alegerea corectă, comparați lungimea din catalog cu spațiul de lucru disponibil și tipul de piesă pe care urmează să o prindeți." },
       { q: "Se poate procura Channellock în România/Europa?", a: "Da, dar nu printr-o filială locală — site-ul Channellock nu menționează o rețea de distribuție în Europa, așa că aducem sculele la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de cantitate." },
       { q: "Ce trebuie să trimit pentru o ofertă Channellock?", a: "Codul exact de model de pe scula existentă sau din catalogul producătorului, cantitatea dorită și, dacă e cazul, aplicația — electricitate, instalații, service auto — pentru a confirma varianta potrivită de mâner." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Channellock, Inc. - American Made Hand Tools", url: "https://www.channellock.com", publisher: "Channellock, Inc.", accessed: "2026-09-26" },
       { title: "Warranty - Channellock", url: "https://www.channellock.com/warranty", publisher: "Channellock, Inc.", accessed: "2026-09-26" },
@@ -129,20 +129,20 @@ Pentru piața din România, Channellock are sens acolo unde un atelier are nevoi
     headquarters: "Compton, California, SUA",
     overview: `IPS Corporation este un producător american din Compton, California, fondat în 1954, cunoscut mai ales prin marca Weld-On — cimenturile solvente și primerii pentru sudarea la rece a conductelor din plastic, brevetate încă din 1958. Compania deservește azi peste 90 de țări și deține, pe lângă Weld-On, mărcile Water-Tite, Studor, Truebro sau adezivii structurali SCIGRIP. Pentru clienții din România putem oferta cimenturi solvente, primeri și curățitori Weld-On pentru conducte din PVC, CPVC și ABS, pe proiecte de instalații sanitare, irigații sau construcții industriale.
 
-Gama Weld-On acoperă zeci de coduri de produs, grupate pe materialul de conductă: cimenturi PVC (705, 711, 717, 721, seria ECO cu conținut redus de solvenți), cimenturi CPVC (713, 714, 724, 729), cimenturi ABS (771, 773) și formulări speciale precum 725 pentru vreme umedă sau 794 pentru tranziția ABS-PVC. Primerii P-68 și P-70, alături de curățitorul C-65, completează sistemul de sudare la rece recomandat înainte de aplicarea cimentului. Din 2022, formulările respectă limitele stricte SCAQMD Rule 1168 pentru compuși organici volatili, ceea ce poate contribui la punctajul LEED al unei clădiri.
+Gama Weld-On acoperă zeci de coduri de produs, grupate pe materialul de conductă: cimenturi PVC (705, 711, 717, 721, seria ECO cu conținut redus de solvenți), cimenturi CPVC (713, 714, 724, 729), cimenturi ABS (771, 773) și formulări speciale precum 725 pentru vreme umedă sau 794 pentru tranziția ABS-PVC. Primerii P-68 și P-70, alături de curățitorul C-65, completează sistemul de sudare la rece recomandat înainte de aplicarea cimentului. Producătorul declară că produsele Weld-On respectă cerințele SCAQMD Rule 1168 privind compușii organici volatili (VOC).
 
 Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare la rece — cement, primer, curățitor — pentru rețele de apă, canalizare sau irigații din plastic, acolo unde sudura termică nu e practică pe șantier.`,
     whyChoose: [
       "Sistem complet de sudare la rece — primer, cement, curățitor — pentru conducte PVC, CPVC și ABS.",
-      "Cimenturi cu VOC redus, conforme cu limitele SCAQMD Rule 1168, pot contribui la punctaj LEED.",
+      "Cimenturi cu VOC redus, conforme cu cerințele SCAQMD Rule 1168.",
       "Formulări dedicate pentru condiții dificile — vreme umedă (725), priză rapidă, tranziție ABS-PVC (794).",
-      "Peste 500 de brevete și mărci comerciale în portofoliul companiei, cu 70 de ani de activitate.",
-      "Fabrică proprie deschisă în 2025 în Olanda, primul punct de producție al companiei în Europa.",
+      "Peste 500 de brevete și mărci comerciale în portofoliul companiei, cu peste 70 de ani de activitate.",
+      "Prima fabrică de cimenturi solvente a companiei în Europa, deschisă în 2025 la Dinxperlo, Țările de Jos.",
     ],
     keyProducts: [
-      { name: "Cimenturi Solvente PVC (seria Weld-On 700)", description: "Familie de cimenturi pentru sudarea la rece a conductelor PVC, cu coduri diferențiate după timpul de priză și grosimea peretelui — 705 pentru uz industrial și irigații, 711 pentru uz industrial general, 717 și 721 pentru variante cu priză rapidă. Seria ECO (700 ECO, 705 ECO, 711 ECO) reduce conținutul de solvenți volatili păstrând timpul de lucru. Alegerea codului depinde de diametrul conductei și de temperatura de aplicare pe șantier." },
+      { name: "Cimenturi Solvente PVC (seria Weld-On 700)", description: "Familie de cimenturi pentru sudarea la rece a conductelor PVC, unde codurile 705, 711, 717 și 721 sunt listate de producător ca cimenturi PVC de uz general. Seria ECO (700 ECO, 705 ECO, 711 ECO) reduce conținutul de solvenți volatili păstrând timpul de lucru. Alegerea codului depinde de diametrul conductei și de temperatura de aplicare pe șantier." },
       { name: "Cimenturi CPVC și ABS", description: "Pentru conducte CPVC, gama include codurile 713, 714, 724 și 729, formulate pentru temperaturi de lucru mai ridicate decât PVC-ul standard. Pentru ABS, codurile 771 și 773 acoperă conducte de canalizare și drenaj. Cimentul 794 este destinat special tranziției între conducte ABS și PVC pe același traseu, o situație frecventă la renovări unde se combină rețele vechi și noi." },
-      { name: "Primeri și Curățitori", description: "Primerul P-70 pregătește suprafața conductei PVC/CPVC înainte de aplicarea cimentului, prin înmuierea controlată a materialului pentru o îmbinare mai puternică; P-68 e varianta cu conținut redus de VOC. Curățitorul C-65 elimină grăsimile și impuritățile de pe suprafața de îmbinare înainte de primer. Secvența curățitor-primer-cement este condiția de bază pentru o îmbinare etanșă pe termen lung." },
+      { name: "Primeri și Curățitori", description: "Primerul P-70 pregătește suprafața conductei PVC/CPVC înainte de aplicarea cimentului, prin înmuierea controlată a materialului pentru o îmbinare mai puternică; P-68 este primerul standard, iar P-70 este varianta de grad industrial; ambele au conținut redus de VOC. Curățitorul C-65 elimină grăsimile și impuritățile de pe suprafața de îmbinare înainte de primer. Secvența curățitor-primer-cement este condiția de bază pentru o îmbinare etanșă pe termen lung." },
     ],
     industries: [
       "Instalații sanitare rezidențiale/comerciale — sudare la rece pentru conducte PVC/CPVC",
@@ -153,19 +153,19 @@ Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare
     infinitrade: `Ce putem și ce nu putem confirma pentru Weld-On: fabrica europeană din Olanda, deschisă în 2025, apare în informațiile publice ale producătorului, dar site-ul oficial nu detaliază o rețea de vânzare pentru România. Aducem cimenturile și primerii Weld-On la comandă, prin canalele de aprovizionare disponibile, cu termen orientativ de 1–4 săptămâni, în funcție de cod și cantitate. Pentru ofertă, aveți nevoie de codul exact de produs, materialul conductei — PVC, CPVC sau ABS — și cantitatea. Nu ținem această gamă pe raft; fiecare comandă se confirmă în funcție de disponibilitatea codului la producător.`,
     limitation: "Nu putem confirma dacă fabrica din Olanda deservește deja piața din România sau doar rețeaua vest-europeană a producătorului.",
     productCodes: [
-      { code: "705", description: "ciment PVC uz industrial și irigații" },
-      { code: "711", description: "ciment PVC uz industrial general" },
-      { code: "717", description: "ciment PVC priză rapidă, uz general" },
-      { code: "721", description: "ciment PVC priză rapidă, variantă industrială" },
+      { code: "705", description: "ciment PVC de uz general" },
+      { code: "711", description: "ciment PVC de uz general" },
+      { code: "717", description: "ciment PVC de uz general" },
+      { code: "721", description: "ciment PVC de uz general" },
       { code: "700 ECO", description: "ciment PVC uz general, conținut redus de solvenți" },
-      { code: "710", description: "ciment PVC, gamă industrială Weld-On" },
-      { code: "718", description: "ciment PVC, gamă industrială Weld-On" },
-      { code: "713", description: "ciment CPVC, temperatură de lucru ridicată" },
-      { code: "714", description: "ciment CPVC, variantă industrială" },
-      { code: "724", description: "ciment CPVC, priză medie" },
-      { code: "729", description: "ciment CPVC, gamă industrială Weld-On" },
+      { code: "710", description: "ciment PVC de uz general" },
+      { code: "718", description: "ciment PVC de uz general" },
+      { code: "713", description: "ciment CPVC cu consistență normală (regular bodied)" },
+      { code: "714", description: "ciment CPVC cu consistență groasă (heavy bodied)" },
+      { code: "724", description: "ciment CPVC cu consistență groasă (heavy bodied)" },
+      { code: "729", description: "ciment CPVC cu consistență extra-groasă (extra heavy bodied)" },
       { code: "771", description: "ciment ABS pentru conducte de canalizare" },
-      { code: "773", description: "ciment ABS, variantă industrială" },
+      { code: "773", description: "ciment ABS cu consistență medie, pentru sisteme de canalizare interioară (DWV), conducte de protecție și canalizare" },
       { code: "725", description: "ciment PVC pentru aplicare pe suprafață umedă" },
       { code: "794", description: "ciment pentru tranziția conductă ABS-PVC" },
       { code: "P-68", description: "primer PVC/CPVC, conținut redus de VOC" },
@@ -174,14 +174,14 @@ Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare
     ],
     faq: [
       { q: "Ce produce IPS Corporation / Weld-On?", a: "IPS Corporation fabrică, sub marca Weld-On, cimenturi solvente, primeri și curățitori pentru sudarea la rece a conductelor din PVC, CPVC și ABS, folosiți în instalații sanitare, irigații și construcții industriale, cu formulă brevetată încă din 1958." },
-      { q: "Cum aleg cimentul Weld-On potrivit după cod?", a: "Alegerea depinde de materialul conductei — PVC, CPVC sau ABS — și de condițiile de aplicare; de exemplu 705 pentru uz industrial general pe PVC, 713/714 pentru CPVC sau 794 pentru tranziția ABS-PVC. Consultați fișa tehnică a codului pentru timpul de priză exact." },
+      { q: "Cum aleg cimentul Weld-On potrivit după cod?", a: "Alegerea depinde de materialul conductei — PVC, CPVC sau ABS — și de condițiile de aplicare; de exemplu 705 pentru uz general pe PVC, 713/714 pentru CPVC sau 794 pentru tranziția ABS-PVC. Consultați fișa tehnică a codului pentru timpul de priză exact." },
       { q: "Se poate procura Weld-On în România/Europa?", a: "Producătorul IPS Corporation a deschis în 2025 o fabrică în Olanda, dar site-ul oficial nu menționează o rețea de vânzare pentru România; aducem cimenturile la comandă, prin canale de aprovizionare disponibile, cu termen orientativ de 1–4 săptămâni." },
       { q: "Ce trebuie să trimit pentru o ofertă Weld-On?", a: "Codul exact de produs — de pe eticheta cutiei existente sau din fișa tehnică —, materialul conductei și cantitatea necesară, pentru a confirma disponibilitatea și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us - IPS Corporation", url: "https://www.ipscorp.com/about-us", publisher: "IPS Corporation", accessed: "2026-09-26" },
       { title: "About Us - Weld-On Adhesives, Inc.", url: "https://weldon.com/about-us/", publisher: "Weld-On Adhesives, Inc.", accessed: "2026-09-26" },
@@ -192,7 +192,7 @@ Pentru România, IPS Corporation înseamnă acces la un sistem complet de sudare
   "sun-hydraulics": {
     name: "Sun Hydraulics",
     headquarters: "Sarasota, Florida, SUA",
-    overview: `Sun Hydraulics este un producător american de valve cartuș și manifolduri hidraulice, cu sediul la Sarasota, Florida, parte din grupul Helios Technologies. Spre deosebire de multe branduri americane din acest val, Sun Hydraulics are fabrici proprii în Europa — la Coventry (Marea Britanie), Erkelenz (Germania) și Roncolo (Italia) — ceea ce înseamnă o rețea de producție și suport tehnic deja prezentă pe continent. Pentru România putem oferta valve cartuș din gama de bază — supape de blocare a sarcinii (load holding), de relief și direcționale — pentru sisteme hidraulice mobile și staționare.
+    overview: `Sun Hydraulics este un producător american de valve cartuș și manifolduri hidraulice, cu sediul la Sarasota, Florida, parte din grupul Helios Technologies. Spre deosebire de multe branduri americane, Sun Hydraulics are fabrici proprii în Europa — la Coventry (Marea Britanie), Erkelenz (Germania) și Roncolo (Italia) — ceea ce înseamnă o rețea de producție și suport tehnic deja prezentă pe continent. Pentru România putem oferta valve cartuș din gama de bază — supape de blocare a sarcinii (load holding), de relief și direcționale — pentru sisteme hidraulice mobile și staționare.
 
 Codul de model Sun Hydraulics este un identificator pe patru litere (de exemplu CBCA, CBGL, RBDA), urmat adesea de un al doilea grup de litere pentru varianta constructivă (CAN, LHN, LBN etc.). Gama de supape counterbalance, din care fac parte codurile CBCA, CBEG sau MWGA, ține o sarcină suspendată în siguranță chiar dacă presiunea din sistem scade brusc — o funcție critică la utilaje mobile cu braț hidraulic. Supapele de relief bidirecțional (RBDA, RBFA) limitează presiunea de vârf în ambele sensuri de curgere, utile la circuite cu pompă reversibilă.
 
@@ -205,9 +205,9 @@ Pentru piața din România, gama Sun Hydraulics are sens la utilaje mobile, echi
       "Parte din grupul Helios Technologies, cu acces la o gamă extinsă de manifolduri montate pe linie sau sandwich.",
     ],
     keyProducts: [
-      { name: "Supape Counterbalance (Blocare Sarcină)", description: "Familie de valve cartuș care mențin o sarcină suspendată în poziție sigură atunci când presiunea din circuitul hidraulic scade neașteptat, de exemplu la o rupere de furtun. Codurile din gamă (CBCA, CBCH, CBGL, CBEG, MWGA, MWEA, CAGL, CAIG) diferă prin raportul de pilotare și varianta de sertar, ceea ce influențează stabilitatea la sarcini variabile. Montate direct în bloc sau pe manifold, sunt tipice pentru brațe hidraulice și utilaje forestiere." },
+      { name: "Supape Counterbalance (Blocare Sarcină)", description: "Familie de valve cartuș care mențin o sarcină suspendată în poziție sigură atunci când presiunea din circuitul hidraulic scade neașteptat, de exemplu la o rupere de furtun. Codurile din gamă (CBCA, CBCH, CBGL, CBEG, MWGA, MWEA, CAGL, CAIG) diferă prin raportul de pilotare, capacitatea de debit și varianta constructivă; de exemplu CBCA are raport 3:1 și 15 gpm (60 L/min), iar MWGA are 3:1 și 60 gpm (240 L/min). Montate direct în bloc sau pe manifold, sunt tipice pentru brațe hidraulice și utilaje forestiere." },
       { name: "Supape de Relief Bidirecțional", description: "Codurile RBDA și RBFA limitează presiunea maximă din circuit indiferent de sensul de curgere, fiind potrivite pentru circuite cu pompă reversibilă sau motor hidraulic bidirecțional. Construcție cu acțiune directă, fără pilotare externă, ceea ce simplifică montajul pe manifold. Utile la protejarea componentelor din aval de vârfuri de presiune generate de șocuri de sarcină." },
-      { name: "Valve Direcționale cu Solenoid", description: "Codul DFDJ reprezintă o valvă direcțională tip poppet, cu solenoid, în două trepte de comutare, pentru controlul on/off al direcției de curgere într-un circuit hidraulic. Construcția poppet reduce scurgerile interne la valva închisă, avantaj la sisteme unde eficiența energetică contează. Se montează direct în corpuri manifold personalizate, alături de valvele de presiune din aceeași gamă." },
+      { name: "Valve Direcționale cu Solenoid", description: "Codul DFDJ reprezintă o valvă direcțională tip poppet, cu solenoid, cu 2 căi și acționare în două trepte (pilotată), disponibilă normal închisă sau normal deschisă, pentru controlul on/off al curgerii într-un circuit hidraulic. Construcția poppet reduce scurgerile interne la valva închisă, avantaj la sisteme unde eficiența energetică contează. Se montează direct în corpuri manifold personalizate, alături de valvele de presiune din aceeași gamă." },
     ],
     industries: [
       "Minerit — valve de blocare a sarcinii pentru utilaje de excavare și transport",
@@ -218,33 +218,33 @@ Pentru piața din România, gama Sun Hydraulics are sens la utilaje mobile, echi
     infinitrade: `Ce putem și ce nu putem confirma pentru Sun Hydraulics: fabricile producătorului din Marea Britanie, Germania și Italia apar pe site-ul oficial, dar nu avem date proprii despre stocul disponibil la fiecare dintre ele, la un moment dat. Furnizăm valvele cartuș Sun Hydraulics la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de codul de model și de confirmarea disponibilității la fabrica europeană relevantă. Pentru ofertă, trimiteți codul de model — de exemplu CBCA/LHN — sau parametrii funcționali: presiune, debit, tip de pilotare.`,
     limitation: "Nu putem confirma stocul disponibil la fabricile europene ale producătorului pentru un cod anume, la un moment dat.",
     productCodes: [
-      { code: "CAGL/LGN", description: "supapă counterbalance, raport pilotare standard" },
-      { code: "CBCA/CAN", description: "supapă counterbalance, variantă cu verificare integrată" },
-      { code: "CBEG/LCN", description: "supapă counterbalance, prag de deschidere extins" },
-      { code: "CBCH", description: "supapă counterbalance, gama de bază" },
+      { code: "CAGL/LGN", description: "supapă counterbalance din familia CAGL; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CBCA/CAN", description: "supapă counterbalance din familia CBCA; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CBEG/LCN", description: "supapă counterbalance din familia CBEG; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CBCH", description: "supapă counterbalance din familia CBCH; varianta exactă se confirmă pe pagina modelului" },
       { code: "CBCA/LHN", description: "supapă counterbalance, raport de pilotare 3:1" },
-      { code: "CBCA/LBN", description: "supapă counterbalance, prag de blocare redus" },
-      { code: "CBFD/LJN", description: "supapă counterbalance, gamă pentru sarcini variabile" },
-      { code: "CABN", description: "supapă counterbalance, gama compactă" },
+      { code: "CBCA/LBN", description: "supapă counterbalance din familia CBCA; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CBFD/LJN", description: "supapă counterbalance din familia CBFD; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CABN", description: "supapă counterbalance din familia CABN; varianta exactă se confirmă pe pagina modelului" },
       { code: "CBCA", description: "familie de supape counterbalance, bază pentru variante" },
-      { code: "CBGL", description: "supapă counterbalance, gamă cu blocare fină" },
+      { code: "CBGL", description: "supapă counterbalance din familia CBGL; varianta exactă se confirmă pe pagina modelului" },
       { code: "MWGA", description: "supapă counterbalance, gama MW" },
-      { code: "MWEA", description: "supapă counterbalance, variantă cu etanșare extinsă" },
-      { code: "CAIG/LGN", description: "supapă counterbalance, gama CA, prag ridicat" },
+      { code: "MWEA", description: "supapă counterbalance din familia MWEA; varianta exactă se confirmă pe pagina modelului" },
+      { code: "CAIG/LGN", description: "supapă counterbalance din familia CAIG; varianta exactă se confirmă pe pagina modelului" },
       { code: "RBDA", description: "supapă de relief bidirecțional, acțiune directă" },
-      { code: "RBFA", description: "supapă de relief bidirecțional, debit mărit" },
-      { code: "DFDJ", description: "valvă direcțională poppet, solenoid, două trepte" },
+      { code: "RBFA", description: "supapă de relief bidirecțională cu acțiune directă, 30 gpm (120 L/min)" },
+      { code: "DFDJ", description: "valvă direcțională poppet cu 2 căi, solenoid, în două trepte (pilotată), 30 gpm (120 L/min)" },
     ],
     faq: [
       { q: "Ce produce Sun Hydraulics?", a: "Sun Hydraulics fabrică valve cartuș și manifolduri hidraulice — supape de blocare a sarcinii, de relief și direcționale — folosite în utilaje mobile, echipamente de ridicat și linii hidraulice staționare, cu fabrici proprii inclusiv în Europa." },
       { q: "Cum aleg o valvă Sun Hydraulics după cod?", a: "Codul de model, format din patru litere urmate de un al doilea grup — de exemplu CBCA/LHN —, indică funcția valvei și varianta constructivă; comparați funcția necesară cu parametrii de presiune și debit ai circuitului dumneavoastră pentru alegerea corectă." },
       { q: "Se poate procura Sun Hydraulics în România/Europa?", a: "Da — producătorul are fabrici proprii în Marea Britanie, Germania și Italia, potrivit site-ului oficial, ceea ce înseamnă o rețea europeană deja existentă; aducem valvele la comandă, cu termen orientativ de 1–4 săptămâni." },
-      { q: "Ce echivalent are o supapă counterbalance Sun Hydraulics?", a: "Fiecare cod — CBCA, CBGL, MWGA etc. — are un raport de pilotare și o variantă de sertar specifice; trimiteți codul existent sau parametrii de presiune și debit, iar noi verificăm varianta potrivită din gama curentă." },
+      { q: "Ce echivalent are o supapă counterbalance Sun Hydraulics?", a: "Fiecare cod — CBCA, CBGL, MWGA etc. — are un raport de pilotare și o capacitate de debit specifice; trimiteți codul existent sau parametrii de presiune și debit, iar noi verificăm varianta potrivită din gama curentă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Sun Hydraulics - Cartridge Valves and Manifolds", url: "https://www.sunhydraulics.com", publisher: "Sun Hydraulics LLC", accessed: "2026-09-26" },
       { title: "CBCA | Cartridges » Load Holding » Counterbalance", url: "https://www.sunhydraulics.com/model/CBCA", publisher: "Sun Hydraulics LLC", accessed: "2026-09-26" },
@@ -255,22 +255,22 @@ Pentru piața din România, gama Sun Hydraulics are sens la utilaje mobile, echi
     name: "HydraForce",
     founded: 1985,
     headquarters: "Vernon Hills, Illinois, SUA",
-    overview: `HydraForce este un producător american de valve cartuș hidraulice și manifolduri compacte, cu sediul la Vernon Hills, Illinois, înființat în 1985. Din 2022, compania s-a alăturat rețelei globale Bosch Rexroth, păstrându-și gama proprie de valve, dar câștigând acces la centre tehnice europene precum cel de la Nonantola, Italia. Pentru clienții din România putem oferta valve cartuș din gamele de control direcțional, de presiune, de debit și solenoide, pentru sisteme hidraulice montate pe utilaje mobile.
+    overview: `HydraForce este un producător american de valve cartuș hidraulice și manifolduri compacte, cu sediul la Vernon Hills, Illinois, înființat în 1985. Compania face parte din rețeaua Bosch Rexroth, păstrându-și gama proprie de valve și având acces la centre tehnice europene precum cel de la Nonantola, Italia. Pentru clienții din România putem oferta valve cartuș din gamele de control direcțional, de presiune, de debit și solenoide, pentru sisteme hidraulice montate pe utilaje mobile.
 
-Gama HydraForce acoperă patru funcții de bază: control direcțional (codurile CV, DC, HCV), control de presiune — reglare (PR), relief (RV) și control (CR) —, control de debit (FR, FC) și electronice de control (EC). Fiecare cod indică dimensiunea cavității și varianta constructivă, ceea ce permite înlocuirea directă a unei valve dintr-un manifold existent fără redesenarea circuitului. Seria de module compacte de putere (K, KE, KS, ME, MR, DL, MT) integrează mai multe funcții într-un singur bloc, reducând numărul de conexiuni și punctele de scurgere potențială dintr-un sistem hidraulic mobil.
+Gama HydraForce acoperă patru funcții de bază: control direcțional (codurile CV, DC, HCV), control de presiune (coduri PR, RV, CR) —, control de debit (FR, FC) și electronice de control (EC). Fiecare cod indică dimensiunea cavității și varianta constructivă, ceea ce permite înlocuirea directă a unei valve dintr-un manifold existent fără redesenarea circuitului. Seria de module compacte de putere (K, KE, KS, ME, MR, DL, MT) integrează mai multe funcții într-un singur bloc, reducând numărul de conexiuni și punctele de scurgere potențială dintr-un sistem hidraulic mobil.
 
 Pentru piața din România, gama HydraForce are sens la utilaje mobile — agricole, de construcții sau forestiere — unde spațiul de montaj e limitat și fiecare valvă cartuș trebuie să încapă într-o cavitate standard, fără adaptări suplimentare pe șantier.`,
     whyChoose: [
       "Patru familii de bază — direcțională, presiune, debit, solenoid — cu coduri care indică dimensiunea cavității și varianta constructivă.",
-      "Din 2022, integrată în rețeaua Bosch Rexroth, cu acces la centrul tehnic european de la Nonantola, Italia.",
+      "Parte a rețelei Bosch Rexroth, cu acces la centrul tehnic european de la Nonantola, Italia.",
       "Module compacte de putere (seriile K, KE, KS, ME, MR) care combină mai multe funcții într-un singur bloc.",
       "Controlere electronice proprii (gama EC) pentru valve proporționale, utile la sisteme cu reglaj fin al debitului.",
       "Cavități standardizate care permit înlocuirea unei valve existente dintr-un manifold fără redesenare.",
     ],
     keyProducts: [
-      { name: "Valve de Control Direcțional (CV, DC, HCV)", description: "Familie de valve cartuș pentru comutarea direcției de curgere într-un circuit hidraulic, cu variante de la cavități mici (seria CV04) până la cavități mai mari pentru debite ridicate (seria HCV08). Codul DC acoperă variantele cu comandă dublă, pentru aplicații unde e nevoie de control simultan pe două căi. Alegerea corectă depinde de debitul de vârf al circuitului și de presiunea maximă de lucru." },
-      { name: "Supape de Presiune (PR, RV, CR, PS)", description: "Gamă de supape pentru reglarea, limitarea sau controlul presiunii dintr-un circuit hidraulic — PR pentru reglare proporțională, RV pentru relief, CR pentru control combinat și PS pentru comutare la un prag fix de presiune. Codurile diferă prin capacitatea de debit și plaja de presiune reglabilă. Montate direct pe manifold, alături de valvele direcționale, pentru un bloc de control complet pentru un utilaj mobil." },
-      { name: "Controlere Electronice și Valve Proporționale (EC, SP, EHPR)", description: "Valvele proporționale (SP, EHPR) permit reglarea continuă a debitului sau presiunii, nu doar comutare on/off, pilotate electronic prin controlere din gama EC. Această combinație e tipică pentru utilaje unde operatorul are nevoie de control fin — de exemplu poziționarea unui braț hidraulic. Controlerele HydraForce se integrează cu arhitectura electronică Bosch Rexroth din 2022." },
+      { name: "Valve de Control Direcțional (CV, DC, HCV)", description: "Familie de valve cartuș pentru comutarea direcției de curgere într-un circuit hidraulic, cu variante pe mai multe dimensiuni de cavitate (de exemplu CV08 sau HCV08). Alegerea corectă depinde de debitul de vârf al circuitului și de presiunea maximă de lucru." },
+      { name: "Supape de Presiune (PR, RV, CR, PS)", description: "Gamă de supape pentru reglarea, limitarea sau controlul presiunii dintr-un circuit hidraulic — codurile PR, RV, CR și PS fac parte din categoria supapelor de control al presiunii. Funcția exactă și plaja de presiune se confirmă pe codul complet, din fișa tehnică a producătorului. Montate direct pe manifold, alături de valvele direcționale, pentru un bloc de control complet pentru un utilaj mobil." },
+      { name: "Controlere Electronice și Valve Proporționale (EC, SP, EHPR)", description: "Valvele proporționale (SP, EHPR) permit reglarea continuă a debitului sau presiunii, nu doar comutare on/off, pilotate electronic prin controlere din gama EC. Această combinație e tipică pentru utilaje unde operatorul are nevoie de control fin — de exemplu poziționarea unui braț hidraulic." },
     ],
     industries: [
       "Agricultură — valve cartuș pentru sisteme hidraulice montate pe utilaje agricole",
@@ -278,37 +278,37 @@ Pentru piața din România, gama HydraForce are sens la utilaje mobile — agric
       "Silvicultură — valve direcționale pentru utilaje forestiere cu braț articulat",
       "Manipulare materiale — valve proporționale pentru control fin al mișcării",
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru HydraForce: integrarea din 2022 în rețeaua Bosch Rexroth și centrul tehnic din Italia apar pe site-ul oficial, dar nu știm dacă acesta deservește direct comenzile din România. Furnizăm valvele cartuș și modulele compacte HydraForce la comandă, prin canalele de aprovizionare din rețeaua Bosch Rexroth, cu termen orientativ de 1–4 săptămâni, în funcție de cod și cantitate. Pentru ofertă, trimiteți codul exact de model sau parametrii funcționali — presiune, debit, dimensiunea cavității. Nu ținem această gamă pe raft; fiecare comandă trece prin confirmarea codului la producător.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru HydraForce: apartenența la rețeaua Bosch Rexroth și centrul tehnic din Italia apar pe site-ul oficial, dar nu știm dacă acesta deservește direct comenzile din România. Furnizăm valvele cartuș și modulele compacte HydraForce la comandă, prin canale de aprovizionare externe, cu termen orientativ de 1–4 săptămâni, în funcție de cod și cantitate. Pentru ofertă, trimiteți codul exact de model sau parametrii funcționali — presiune, debit, dimensiunea cavității. Nu ținem această gamă pe raft; fiecare comandă trece prin confirmarea codului la producător.`,
     limitation: "Nu putem confirma parametrii exacți de presiune și debit pentru fiecare cod fără fișa tehnică completă a valvei respective.",
     productCodes: [
-      { code: "CV04-20", description: "valvă de control direcțional, cavitate mică" },
+      
       { code: "CV08-20", description: "valvă de control direcțional, cavitate mai mare" },
-      { code: "DC08-40", description: "valvă direcțională, comandă dublă" },
+      { code: "DC08-40", description: "valvă direcțională, gama DC" },
       { code: "HCV08-20", description: "valvă de control direcțional, gama HCV" },
       { code: "PR08-32", description: "supapă de reglare presiune, gama PR" },
       { code: "PR10-36", description: "supapă de reglare presiune, capacitate mai mare" },
-      { code: "PS10-30", description: "supapă de presiune, comutare la prag fix" },
+      { code: "PS10-30", description: "supapă de presiune, gama PS" },
       { code: "RV08-20", description: "supapă de relief, gama RV" },
       { code: "RV10-22", description: "supapă de relief, capacitate mai mare" },
       { code: "CR08-28", description: "supapă de control presiune, gama CR" },
       { code: "FR10-20F", description: "regulator de debit, gama FR" },
       { code: "FC10-20", description: "valvă de control debit, gama FC" },
-      { code: "EC10-30", description: "controler electronic de debit, gama EC" },
+      { code: "EC10-30", description: "control electronic, gama EC" },
       { code: "SV10-20", description: "valvă solenoid, gama SV" },
       { code: "SF08-21", description: "valvă solenoid direcțională, gama SF" },
       { code: "SP10-20", description: "valvă proporțională, gama SP" },
       { code: "EHPR08-33", description: "valvă proporțională electro-hidraulică" },
     ],
     faq: [
-      { q: "Ce produce HydraForce?", a: "HydraForce fabrică valve cartuș hidraulice și module compacte de putere pentru control direcțional, de presiune și de debit, folosite pe utilaje mobile din agricultură, construcții și silvicultură, fiind din 2022 parte din rețeaua globală Bosch Rexroth." },
+      { q: "Ce produce HydraForce?", a: "HydraForce fabrică valve cartuș hidraulice și module compacte de putere pentru control direcțional, de presiune și de debit, folosite pe utilaje mobile din agricultură, construcții și silvicultură, fiind parte din rețeaua globală Bosch Rexroth." },
       { q: "Cum aleg o valvă HydraForce după cod?", a: "Codul de model indică funcția — direcțională, presiune, debit, solenoid — și dimensiunea cavității; comparați debitul de vârf și presiunea maximă din circuitul dumneavoastră cu specificațiile din fișa tehnică a codului respectiv pentru alegerea corectă." },
-      { q: "Se poate procura HydraForce în România/Europa?", a: "Da, prin rețeaua Bosch Rexroth din care HydraForce face parte din 2022, cu un centru tehnic la Nonantola, Italia; aducem valvele la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de cod și cantitate." },
+      { q: "Se poate procura HydraForce în România/Europa?", a: "Da; HydraForce face parte din rețeaua Bosch Rexroth, cu un centru tehnic la Nonantola, Italia, iar noi aducem valvele la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de cod și cantitate." },
       { q: "Ce trebuie să trimit pentru o ofertă HydraForce?", a: "Codul exact de model sau parametrii funcționali necesari — presiune de lucru, debit, dimensiunea cavității — pentru a identifica rapid varianta potrivită din gama curentă a producătorului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "HydraForce - Hydraulic Cartridge Valves", url: "https://www.hydraforce.com", publisher: "HydraForce, Inc.", accessed: "2026-09-26" },
       { title: "About Us - HydraForce", url: "https://www.hydraforce.com/about-us", publisher: "HydraForce, Inc.", accessed: "2026-09-26" },
@@ -319,7 +319,7 @@ Pentru piața din România, gama HydraForce are sens la utilaje mobile — agric
     name: "Fabco-Air",
     founded: 1958,
     headquarters: "Gainesville, Florida, SUA",
-    overview: `Fabco-Air este un producător american de cilindri și componente pneumatice, cu sediul la Gainesville, Florida, activ din 1958. Gama de referință e seria Pancake II — cilindri cu cursă scurtă, cu profil plat, pentru montaj în spații unde un cilindru standard nu încape. Compania se descrie ca fiind susținută tehnologic de Festo, producătorul german, ceea ce oferă acces la o rețea de inginerie mai largă. Pentru România putem oferta cilindri pneumatici din gamele Pancake, F-Series și NFPA, pentru linii de automatizare și manipulare.
+    overview: `Fabco-Air este un producător american de cilindri și componente pneumatice, cu sediul la Gainesville, Florida, activ din 1958. Gama de referință e seria Pancake II — cilindri cu cursă scurtă, cu profil plat, pentru montaj în spații unde un cilindru standard nu încape. Compania precizează pe site-ul oficial că se sprijină pe expertiza globală de inginerie a Festo, producătorul german. Pentru România putem oferta cilindri pneumatici din gamele Pancake, F-Series și NFPA, pentru linii de automatizare și manipulare.
 
 Seria Pancake II acoperă diametre de la 3/4 până la 4 țoli, cu curse de până la 9 7/8 țoli, în timp ce seria F oferă curse mult mai lungi — până la 32 de țoli — pe diametre mai mici, de la 9/16 la 3 țoli. Pentru compatibilitate cu standardul NFPA, gama FCQN vine în diametre de 1 1/2 până la 8 țoli de serie, cu variante speciale până la 14 țoli la cerere. Pentru piețe care lucrează metric, gamele FJS, FAQ2R (ISO 6431) și FAE (ISO 6432) acoperă diametre de la 12 la 125 mm.
 
@@ -327,14 +327,14 @@ Pentru instalațiile din România, gama Fabco-Air are sens acolo unde spațiul d
     whyChoose: [
       "Cilindri cu profil plat (Pancake II) pentru montaj în spații unde un cilindru standard nu încape.",
       "Certificare ISO 9001:2015 și ISO 14001:2015 pentru procesele de fabricație și managementul de mediu.",
-      "Susținere tehnologică din partea Festo (Germania), cu acces la o rețea de inginerie mai largă.",
+      "Sprijin de inginerie din partea Festo (Germania), conform site-ului oficial.",
       "Game metrice (FJS, FAQ2R după ISO 6431, FAE după ISO 6432) pentru proiecte cu standarde europene.",
       "Serie NFPA/OEM-NFPA FCQN interschimbabilă cu cilindri de aceleași dimensiuni de la alți producători.",
     ],
     keyProducts: [
       { name: "Cilindri Pancake II", description: "Cilindri pneumatici cu cursă scurtă și profil plat, disponibili în diametre de la 3/4 până la 4 țoli, cu curse de până la 9 7/8 țoli. Concepuți pentru montaj în spații unde lungimea unui cilindru standard ar depăși gabaritul disponibil — de exemplu în celule de automatizare compacte sau pe echipamente de ambalare. Seria completează gama Original Pancake, cu diametre suplimentare de 1/2 și 1 5/8 țoli." },
       { name: "Cilindri F-Series", description: "Cilindri cu diametre mai mici, de la 9/16 la 3 țoli, dar cu curse considerabil mai lungi decât seria Pancake — până la 32 de țoli — pentru aplicații unde e nevoie de deplasare liniară mare într-un gabarit subțire. Utilizați frecvent la manipulare de materiale și poziționare de piese pe linii de asamblare. Construcția rămâne compactă radial, ceea ce simplifică montajul pe cadre existente." },
-      { name: "Cilindri NFPA/OEM-NFPA (FCQN) și Multi-Power", description: "Gama FCQN respectă dimensiunile standard NFPA, cu diametre de 1 1/2 până la 8 țoli de serie — până la 14 țoli la cerere —, fiind interschimbabilă cu cilindri de aceleași dimensiuni de la alți producători. Unitățile Multi-Power dezvoltă forțe de până la 22 de tone, pentru aplicații de presare sau blocare unde un cilindru standard nu ar avea suficientă forță pe același gabarit." },
+      { name: "Cilindri NFPA/OEM-NFPA (FCQN) și Multi-Power", description: "Gama FCQN respectă dimensiunile standard NFPA, cu diametre de 1 1/2 până la 8 țoli de serie — până la 14 țoli la cerere —, fiind interschimbabilă cu cilindri de aceleași dimensiuni de la alți producători. Unitățile Multi-Power dezvoltă forțe de peste 22 de tone, pentru aplicații de presare sau blocare unde un cilindru standard nu ar avea suficientă forță pe același gabarit." },
     ],
     industries: [
       "Industria alimentară — cilindri compacți pentru linii de ambalare și procesare",
@@ -369,8 +369,8 @@ Pentru instalațiile din România, gama Fabco-Air are sens acolo unde spațiul d
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Fabco-Air - Pneumatic Cylinders", url: "https://www.fabco-air.com", publisher: "Fabco-Air, Inc.", accessed: "2026-09-26" },
       { title: "Quality and Certifications - Fabco-Air", url: "https://fabco-air.com/about/quality-and-certifications/", publisher: "Fabco-Air, Inc.", accessed: "2026-09-26" },
@@ -383,18 +383,18 @@ Pentru instalațiile din România, gama Fabco-Air are sens acolo unde spațiul d
     headquarters: "Rockwall, Texas, SUA",
     overview: `Whitmore Manufacturing este un producător american de lubrifianți industriali, cu sediul la Rockwall, Texas, activ din 1893. Gama acoperă lubrifianți pentru lanțuri, angrenaje deschise, cabluri de oțel și aplicații feroviare, folosiți în industrii grele precum oțelul, cimentul sau mineritul. Compania are un birou propriu în Dunstable, Marea Britanie, pe lângă activitatea din Canada. Pentru România putem oferta lubrifianți Whitmore pentru echipamente unde un ulei sau o unsoare standard nu rezistă la temperaturi extreme sau la sarcini de impact repetate.
 
-Gama de lanțuri include Decathlon CCL, un lubrifiant sintetic pentru linii de vopsire electroforetică, rezistent până la 245°C, și Decathlon HTC, pentru lanțuri la temperatură înaltă, până la 450°C cu vârfuri intermitente la 285°C. Pentru angrenaje deschise, familia acoperă de la Decathlon Gold, eficient până la -7°C, până la Envirolube XE Extreme sau GearMate 1000 ICT, pentru servicii extreme în mori și concasoare. Pe partea feroviară, BioRail EP e formulat biodegradabil pentru curbele de cale ferată, în timp ce EZ Switch e un film uscat pentru macazuri, unde un lubrifiant lichid ar atrage praf și balast.
+Gama de lanțuri include Decathlon CCL, un lubrifiant sintetic pentru linii de vopsire electroforetică, recomandat până la 190°C și, cu lubrifiere frecventă, până la 245°C, și Decathlon HTC, pentru lanțuri la temperatură înaltă, recomandat până la 230°C în regim continuu și până la 285°C intermitent. Pentru angrenaje deschise, familia acoperă de la Decathlon Gold, eficient până la -7°C, până la Envirolube XE Extreme sau GearMate 1000 ICT, pentru servicii extreme în mori și concasoare. Pe partea feroviară, BioRail EP e formulat biodegradabil pentru curbele de cale ferată, în timp ce EZ Switch e un film uscat pentru macazuri, unde un lubrifiant lichid ar atrage praf și balast.
 
 Pentru piața din România, gama Whitmore are sens la echipamente de mentenanță grea — concasoare, mori, linii feroviare industriale sau utilaje de mină — unde un lubrifiant generic cedează mai repede decât intervalul de revizie planificat.`,
     whyChoose: [
       "Peste 130 de ani de activitate în lubrifianți industriali, cu certificare ISO 9001:2015 și ISO 14001:2015.",
       "Birou propriu în Dunstable, Marea Britanie, pentru piața europeană, pe lângă activitatea din Canada.",
-      "Lubrifianți sintetici pentru lanțuri rezistenți la temperaturi de până la 450°C, cu vârfuri intermitente mai ridicate.",
-      "Lubrifiant biodegradabil pentru curbe de cale ferată (BioRail EP), alternativă la unsorile minerale clasice.",
+      "Lubrifianți sintetici pentru lanțuri; Decathlon HTC este recomandat până la 230°C în regim continuu și până la 285°C intermitent.",
+      "Lubrifiant biodegradabil pentru curbe de cale ferată (BioRail EP).",
       "Gamă dedicată angrenajelor deschise din mori și concasoare, cu formule pentru serviciu extrem.",
     ],
     keyProducts: [
-      { name: "Lubrifianți pentru Lanțuri (Decathlon CCL/HTC)", description: "Decathlon CCL e un lubrifiant sintetic recomandat pentru lanțuri pe linii de vopsire electroforetică și cu vopsele pe bază de apă, rezistent la temperaturi de până la 245°C. Decathlon HTC acoperă temperaturi și mai ridicate — funcționare continuă până la 450°C, cu vârfuri intermitente de 285°C — pentru lanțuri de cuptor sau uscătoare industriale. Completează gama Wire Rope Lubricant, un lubrifiant penetrant pentru cabluri de oțel, în variantă aerosol." },
+      { name: "Lubrifianți pentru Lanțuri (Decathlon CCL/HTC)", description: "Decathlon CCL e un lubrifiant sintetic recomandat pentru lanțuri pe linii de vopsire electroforetică și cu vopsele pe bază de apă, recomandat până la 190°C, iar cu lubrifiere frecventă până la 245°C. Decathlon HTC acoperă lanțuri expuse la temperaturi ridicate — este recomandat pentru funcționare continuă până la 230°C (450°F) și service intermitent până la 285°C (550°F). Completează gama Wire Rope Lubricant, un lubrifiant penetrant pentru cabluri de oțel, în variantă aerosol." },
       { name: "Lubrifianți Feroviari (BioRail, EZ Switch, RailArmor, Railmaster)", description: "BioRail EP este un lubrifiant biodegradabil pentru curbele de cale ferată, cu variante de plajă de temperatură de la -25°F la 195°F. EZ Switch e un film uscat, folosit la macazuri și cabluri de oțel din sistemele feroviare, unde un lubrifiant lichid ar reține praf și balast. RailArmor EP & M All-Season e o unsoare de serviciu extrem pentru curbe, iar Railmaster LFG protejează șina și buza roții." },
       { name: "Lubrifianți pentru Angrenaje Deschise (Decathlon Gold, Envirolube, GearMate)", description: "Decathlon Gold e un lubrifiant sintetic de înaltă performanță, eficient până la -7°C, pentru angrenaje deschise expuse la temperaturi scăzute. Envirolube XE Extreme, formulă nonasfaltică, e descrisă de producător drept recomandarea principală pentru servicii extreme, iar GearMate 1000 ICT completează gama pentru aplicații severe. SurStik 800 acoperă o plajă largă de temperatură, iar Surtac 2000 e dedicat aplicațiilor pe dragline." },
     ],
@@ -430,8 +430,8 @@ Pentru piața din România, gama Whitmore are sens la echipamente de mentenanț�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Whitmore - Industrial Lubrication Products", url: "https://www.whitmores.com", publisher: "Whitmore Manufacturing", accessed: "2026-09-26" },
       { title: "Chain Lubricants - Whitmore", url: "https://www.whitmores.com/lubricants/chain-lubricants", publisher: "Whitmore Manufacturing", accessed: "2026-09-26" },

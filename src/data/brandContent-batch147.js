@@ -6,30 +6,30 @@ export const brandContentBatch147 = {
     headquarters: "Pinneberg, Germania",
     overview: `Witt & Sohn este un constructor german de ventilatoare industriale cu sediul la Pinneberg, lângă Hamburg, specializat în ventilatoare axiale, centrifugale și jet fans pentru instalații unde defecțiunea unui ventilator oprește un proces întreg. Gama publicată acoperă impelere axiale din familiile P, N, M, X și Y, ventilatoare centrifugale din seriile RNZ, RSZ, LRZ, PRZ, MRZ, HRZ și SRZ, plus jet fans pentru tuneluri, între care sistemul propriu Banana Jet®. Din acest portofoliu putem oferta atât unități de serie din familiile de mai sus, cât și variante dimensionate pentru presiuni sau temperaturi ridicate.
 
-Diferența tehnică ține de plaja acoperită: diametre de admisie între 250 și 3.550 mm la ventilatoarele axiale, puteri de motor de la 0,1 kW până la 2,0 MW, iar la seria centrifugală presiunile merg de la circa 400 Pa la seriile RNZ/RSZ de joasă presiune până la 25.000 Pa la seria SRZ, dedicată aplicațiilor ultra-înalte. Seriile LRZ, PRZ, MRZ și HRZ ating eficiențe declarate de 81–85%, cu roți cu 6 până la 10 palete curbate înapoi, alese în funcție de raportul debit-presiune cerut de instalație. Fiecare unitate se configurează pe proiect, nu se vinde ca produs de catalog fix.
+Diferența tehnică ține de plaja acoperită: diametre de admisie între 250 și 3.550 mm la ventilatoarele axiale, puteri de motor de la 0,1 kW până la 2,0 MW, iar la seria centrifugală presiunile merg de la circa 400 Pa la seriile RNZ/RSZ de joasă presiune până la 25.000 Pa la seria SRZ, dedicată aplicațiilor ultra-înalte. Seria PRZ atinge o eficiență declarată de până la 85%, iar seria HRZ de până la 81%, cu roți cu 9 sau 10 palete curbate înapoi, alese în funcție de raportul debit-presiune cerut de instalație. Fiecare unitate se configurează pe proiect, nu se vinde ca produs de catalog fix.
 
 Pentru piața din România, gama Witt & Sohn are sens la tuneluri rutiere și de metrou, pe platforme navale sau offshore și la instalații industriale unde ventilatorul trebuie să funcționeze constant la temperaturi sau presiuni ieșite din comun, nu doar la ventilație curentă de hală.`,
     whyChoose: [
       "Plajă de presiune foarte largă — de la circa 400 Pa la seriile de joasă presiune până la 25.000 Pa la seria SRZ",
-      "Impelere axiale modulare P/N/M/X/Y — configurabile pe unghi de paletă și sens de rotație pentru fiecare aplicație",
+      "Impelere axiale modulare P/N/M/X/Y — cu variante reversibile pentru inversarea sensului de curgere a aerului",
       "Certificări de sistem de management ISO 9001, ISO 14001, ISO 19443 și ISO 45001 pe fabricația proprie",
       "Serie dedicată tunel și metrou — Banana Jet® pentru ventilație longitudinală și evacuare de fum",
-      "Eficiențe declarate de până la 85% la seriile centrifugale LRZ și PRZ, relevante pentru costul de operare",
+      "Eficiență declarată de până la 85% la seria centrifugală PRZ, relevantă pentru costul de operare",
       "Acoperire de putere de motor între 0,1 kW și 2,0 MW pe aceeași familie constructivă axială"
     ],
     keyProducts: [
-      { name: "Ventilatoare Axiale P/N/M/X/Y", description: "Impelere axiale cu palete reglabile, variante reversibile PR6, PR8, NR8, MR8, cu 6–12 palete. Diametre de admisie 250–3.550 mm, cadre de motor 63–710, puteri 0,1 kW–2,0 MW. Trimiteți debitul, presiunea și diametrul canalului pentru dimensionare." },
+      { name: "Ventilatoare Axiale P/N/M/X/Y", description: "Impelere axiale din familiile P, N, M, X și Y, cu 6, 8 sau 12 palete, plus variante reversibile PR6, PR8, NR8, MR8. Diametre de admisie 250–3.550 mm, cadre de motor 63–710, puteri 0,1 kW–2,0 MW. Trimiteți debitul, presiunea și diametrul canalului pentru dimensionare." },
       { name: "Ventilatoare Centrifugale de Joasă Presiune RNZ/RSZ", description: "RNZ/RNN, 9 palete curbate înapoi, admisie 63–2.500 mm, pentru debite mari la presiune moderată. RSZ (RSZ10, RSZ10A, RSZ10B, RSZ12), 10–12 palete în S, ventilație și exhaustare generală. LQZ11 e varianta pentru particule abrazive." },
-      { name: "Ventilatoare Centrifugale Medie-Înaltă Presiune LRZ/PRZ/MRZ/HRZ", description: "LRZ, PRZ și MRZ (6–9 palete curbate) ating eficiențe de până la 85% la PRZ. HRZ (10 palete profilate) atinge 81% eficiență. Plaja de presiune merge de la câteva sute de Pa până spre 10.000 Pa." },
+      { name: "Ventilatoare Centrifugale Medie-Înaltă Presiune LRZ/PRZ/MRZ/HRZ", description: "LRZ, PRZ și MRZ (9 palete curbate) au eficiență declarată de până la 85% la PRZ. HRZ (10 palete profilate) atinge 81% eficiență." },
       { name: "Ventilatoare de Ultra-Înaltă Presiune SRZ și Libere RLN", description: "SRZ (SRZ12–SRZ12D), ultra-înaltă presiune, până la 25.000 Pa, pentru trasee cu pierderi de sarcină mari. RLN (RLN6–RLN12), 6–12 palete, montaj fără carcasă spirală. Variantele de praf poartă codurile PQZ, MQZ, HQZ, SQZ." },
-      { name: "Jet Fans și Banana Jet®", description: "Ventilație longitudinală de tunel rutier și metrou, cu unități rezistente termic pentru evacuare de fum. Banana Jet® e gândit pentru montaj în profile de tunel cu spațiu limitat la tavan. Selecția depinde de secțiunea tunelului și scenariul de incendiu." }
+      { name: "Jet Fans și Banana Jet®", description: "Ventilație longitudinală de tunel rutier și metrou, cu unități rezistente termic pentru evacuare de fum. Banana Jet® este designul propriu al producătorului, care, conform acestuia, oferă un debit cu circa 30% mai mare în tunel la același consum de energie. Selecția depinde de secțiunea tunelului și scenariul de incendiu." }
     ],
     industries: [
       "Tuneluri și metrou — ventilație longitudinală și evacuare de fum",
       "Construcții navale — ventilație de sală mașini pe nave comerciale",
       "Instalații offshore — ventilatoare pentru condiții marine",
       "Energie — răcire și ventilație de proces la putere mare",
-      "Simulare ambientală — ventilatoare pentru camere de testare climatică",
+      "Parcări subterane și hale mari — jet fans pentru deplasarea țintită a aerului",
       "Industrie de proces — transport pneumatic de particule"
     ],
     certifications: [
@@ -43,8 +43,8 @@ Pentru piața din România, gama Witt & Sohn are sens la tuneluri rutiere și de
     productCodes: [
       { code: "RNZ/RNN", description: "roată cu 9 palete curbate înapoi, admisie 63–2.500 mm" },
       { code: "RSZ10", description: "10 palete înclinate în S, ventilație de uz general" },
-      { code: "RSZ10A", description: "variantă RSZ pentru debite medii de aer" },
-      { code: "RSZ10B", description: "variantă RSZ cu configurație de paletă modificată" },
+      { code: "RSZ10A", description: "variantă RSZ cu palete scurtate" },
+      { code: "RSZ10B", description: "variantă RSZ cu palete scurtate" },
       { code: "RSZ12", description: "12 palete înclinate în S, presiune ceva mai ridicată" },
       { code: "RNZ12", description: "unghi de paletă abrupt, nu pentru laminare la debit mic" },
       { code: "VPZ", description: "design tip Scirocco, compact, eficiență mai redusă" },
@@ -56,11 +56,11 @@ Pentru piața din România, gama Witt & Sohn are sens la tuneluri rutiere și de
       { code: "MRZ9", description: "prima din șase variante MRZ9–MRZ9E" },
       { code: "MRZ9C", description: "variantă intermediară a familiei MRZ" },
       { code: "HRZ10", description: "10 palete profilate, eficiență de până la 81%" },
-      { code: "HRZ10D", description: "variantă HRZ pentru presiune ridicată constantă" },
+      { code: "HRZ10D", description: "variantă a seriei HRZ" },
       { code: "SRZ12", description: "ultra-înaltă presiune, până la 25.000 Pa" },
-      { code: "SRZ12C", description: "variantă SRZ pentru pierderi de sarcină foarte mari" },
+      { code: "SRZ12C", description: "variantă a seriei SRZ" },
       { code: "RLN6", description: "ventilator liber, montaj fără carcasă spirală, 6 palete" },
-      { code: "RLN10", description: "ventilator liber cu 10 palete pentru spații mari" },
+      { code: "RLN10", description: "ventilator liber, fără carcasă, cu 10 palete" },
       { code: "PQZ", description: "variantă de transport de praf, presiune medie" },
       { code: "SQZ", description: "variantă de transport de praf, presiune ridicată" }
     ],
@@ -73,8 +73,8 @@ Pentru piața din România, gama Witt & Sohn are sens la tuneluri rutiere și de
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Witt & Sohn – Home", url: "https://www.wittfan.de/en/", publisher: "Witt & Sohn GmbH & Co. KG", accessed: "2026-09-26" },
       { title: "Centrifugal Fans", url: "https://www.wittfan.de/en/products/centrifugal-fans", publisher: "Witt & Sohn GmbH & Co. KG", accessed: "2026-09-26" },
@@ -86,13 +86,13 @@ Pentru piața din România, gama Witt & Sohn are sens la tuneluri rutiere și de
     headquarters: "Arzignano (VI), Italia",
     overview: `Ferrari Ventilatori este un producător italian de ventilatoare industriale cu sediul la Arzignano, în provincia Vicenza, specializat pe ventilatoare centrifugale și axiale pentru linii de proces la presiuni variabile. Gama publicată include șase familii centrifugale — cu paletă negativă, cu paletă negativă de înaltă presiune, cu paletă pozitivă de înaltă presiune, cu paletă pozitivă, cu dublă aspirație și cu paletă radială deschisă pentru transport pneumatic — plus ventilatoare axiale din seriile 61-ES, 61-ET, 61-EK, 61-EFR, 61-EF, 61-EQ și 61-EP. Din acest portofoliu putem oferta atât ventilatoare de proces standard, cât și unități pentru evacuare de fum.
 
-Ce diferențiază Ferrari Ventilatori e acoperirea aplicațiilor speciale: linia de fire fans e certificată conform EN 12101-3, cu clasa de rezistență termică F400/2h regăsită în documentația producătorului, iar linia de plug fans se execută în inox AISI 304 sau 316 pentru medii corozive sau cu cerințe de igienă. Testele proprii de bancă merg până la 630 kW, ceea ce indică unități centrifugale de dimensiuni mari, dincolo de ventilația uzuală de hală. Fiecare familie are variantă cu cuplaj direct și variantă cu transmisie prin curea, alese în funcție de turația necesară rotorului.
+Ce diferențiază Ferrari Ventilatori e acoperirea aplicațiilor speciale: linia de fire fans e certificată conform EN 12101-3, cu clasa de rezistență termică F400/2h regăsită în documentația producătorului, iar linia de plug fans are materialele și execuția confirmate din documentația producătorului. Testele proprii de bancă merg până la 630 kW, ceea ce indică unități centrifugale de dimensiuni mari, dincolo de ventilația uzuală de hală. Fiecare familie are variantă cu cuplaj direct și variantă cu transmisie prin curea, cu excepția celei cu dublă aspirație, disponibilă doar cu transmisie prin curea.
 
 Pentru piața din România, gama are sens la instalații de proces din metalurgie, ciment, hârtie sau energie, unde ventilatorul trebuie dimensionat pe presiune și temperatură specifică, și la sisteme de dezafumare care cer certificare EN 12101-3, nu doar ventilație de confort.`,
     whyChoose: [
       "Bancuri de testare proprii până la 630 kW — relevant pentru ventilatoare centrifugale de proces de mari dimensiuni",
       "Fire fans certificate EN 12101-3, clasă de rezistență termică F400/2h, pentru sisteme de dezafumare",
-      "Plug fans în inox AISI 304 sau 316 — potrivite pentru medii corozive sau cu cerințe de igienă",
+      "Plug fans — materialele și execuția se confirmă din documentația producătorului",
       "Șase familii centrifugale distincte, cu paletă pozitivă sau negativă, la presiune joasă sau înaltă",
       "Certificări de sistem ISO 9001, ISO 14000 și OHSAS 18000 pe procesele de fabricație",
       "Sudură validată conform ASME IX, cu aprobări navale RINA, BV, Lloyd's Register și DNV-GL"
@@ -102,7 +102,7 @@ Pentru piața din România, gama are sens la instalații de proces din metalurgi
       { name: "Ventilatoare Centrifugale de Înaltă Presiune", description: "Două familii pentru presiuni ridicate, cu paletă negativă sau pozitivă, cuplaj direct sau prin transmisie. Pentru filtrare industrială, transport pneumatic sau uscare. Teste de bancă până la 630 kW." },
       { name: "Ventilatoare Centrifugale cu Dublă Aspirație", description: "Admisie pe ambele fețe ale carcasei, transmisie prin curea, pentru debite mari fără rotor supradimensionat. Utile unde spațiul de montaj limitează diametrul rotorului." },
       { name: "Ventilatoare Axiale Seria 61", description: "Variante 61-ES, 61-ET, 61-EK, 61-EFR, 61-EF, 61-EQ, 61-EP (cuplaj direct) și 61-EBC-TR, 61-EFC-TR (transmisie). Debite mari la presiune moderată, gabarit redus față de soluția centrifugală." },
-      { name: "Fire Fans și Plug Fans", description: "Fire fans certificate EN 12101-3, clasă F400/2h, pentru dezafumare clădiri și tuneluri. Plug fans în inox AISI 304 sau 316, pentru medii corozive sau linii cu cerințe de igienă." }
+      { name: "Fire Fans și Plug Fans", description: "Fire fans certificate EN 12101-3, clasă F400/2h, pentru sisteme de dezafumare. Plug fans, cu materialele confirmate din documentația producătorului." }
     ],
     industries: [
       "Metalurgie — exhaustare de proces",
@@ -126,10 +126,10 @@ Pentru piața din România, gama are sens la instalații de proces din metalurgi
     productCodes: [
       { code: "61-ES", description: "ventilator axial, cuplaj direct" },
       { code: "61-ET", description: "variantă axială 61, cuplaj direct" },
-      { code: "61-EK", description: "variantă axială pentru debite ridicate" },
-      { code: "61-EFR", description: "ventilator axial cu configurație specifică de rotor" },
-      { code: "61-EF", description: "variantă axială standard, cuplaj direct" },
-      { code: "61-EQ", description: "variantă axială pentru presiune moderată" },
+      { code: "61-EK", description: "ventilator axial, cuplaj direct" },
+      { code: "61-EFR", description: "ventilator axial, cuplaj direct" },
+      { code: "61-EF", description: "ventilator axial, cuplaj direct" },
+      { code: "61-EQ", description: "ventilator axial, cuplaj direct" },
       { code: "61-EP", description: "variantă axială din familia 61, cuplaj direct" },
       { code: "61-EBC-TR", description: "ventilator axial cu cuplaj prin transmisie" },
       { code: "61-EFC-TR", description: "variantă axială cu transmisie prin curea" },
@@ -144,20 +144,20 @@ Pentru piața din România, gama are sens la instalații de proces din metalurgi
       { code: "Centrifughi doppia aspiraz. trasm.", description: "admisie pe ambele fețe ale carcasei" },
       { code: "Centrifughi pale radiali aperte diretto", description: "transport pneumatic, cuplaj direct" },
       { code: "Centrifughi pale radiali aperte trasm.", description: "transport pneumatic, cuplaj prin transmisie" },
-      { code: "Plug fan AISI 304", description: "execuție inox pentru medii curate" },
-      { code: "Plug fan AISI 316", description: "execuție inox pentru medii corozive" }
+      { code: "Plug fan AISI 304", description: "ventilator de tip plug fan, materialul se confirmă din documentația producătorului" },
+      { code: "Plug fan AISI 316", description: "ventilator de tip plug fan, materialul se confirmă din documentația producătorului" }
     ],
     faq: [
       { q: "Ce tip de ventilatoare produce Ferrari Ventilatori?", a: "Ferrari Ventilatori fabrică ventilatoare centrifugale și axiale pentru linii de proces industrial, plus fire fans certificate EN 12101-3 și plug fans în inox pentru medii corozive. Gama acoperă șase familii centrifugale, cu paletă pozitivă sau negativă, la presiune joasă sau înaltă, și șapte variante axiale din seria 61. Configurația exactă se stabilește pe proiect, conform datelor publicate de producător." },
       { q: "Ce înseamnă clasa F400/2h la un fire fan Ferrari Ventilatori?", a: "F400/2h este clasa de rezistență termică menționată în documentația producătorului pentru ventilatoarele de evacuare fum, conform standardului EN 12101-3, indicând funcționare la 400°C timp de 2 ore. Detaliile complete de testare și certificare se confirmă direct cu producătorul, pentru proiectul și scenariul de incendiu specific instalației." },
       { q: "Cum aleg între un ventilator centrifugal cu paletă pozitivă și unul cu paletă negativă de la Ferrari Ventilatori?", a: "Alegerea depinde de presiunea statică necesară și de eficiența cerută la punctul de funcționare: familiile de înaltă presiune, disponibile atât cu paletă pozitivă, cât și negativă, acoperă instalații cu pierderi de sarcină mari, precum filtrarea industrială. Pentru selecția corectă trimiteți debitul de aer și presiunea statică a instalației." },
       { q: "Livrați ventilatoare Ferrari Ventilatori în România și în cât timp?", a: "Da, aducem ventilatoarele Ferrari Ventilatori la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familie și de confirmarea tehnică a producătorului. Nu ținem aceste unități pe stoc, pentru că fiecare se configurează pe proiect, conform debitului și presiunii cerute." },
-      { q: "Ce informații trebuie să trimit pentru o ofertă de ventilator industrial Ferrari?", a: "Pentru o ofertă avem nevoie de debitul de aer necesar, presiunea statică a instalației, temperatura de lucru și tipul de mediu vehiculat (curat, coroziv sau cu particule). Pentru fire fans se adaugă clasa de rezistență termică cerută de proiect, iar pentru plug fans, tipul de inox necesar." }
+      { q: "Ce informații trebuie să trimit pentru o ofertă de ventilator industrial Ferrari?", a: "Pentru o ofertă avem nevoie de debitul de aer necesar, presiunea statică a instalației, temperatura de lucru și tipul de mediu vehiculat (curat, coroziv sau cu particule). Pentru fire fans se adaugă clasa de rezistență termică cerută de proiect, iar pentru plug fans, materialul necesar." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ferrari Ventilatori – Azienda", url: "https://www.ferrariventilatori.com/it-fe/azienda/", publisher: "Ferrari Ventilatori S.r.l.", accessed: "2026-09-26" },
       { title: "Ferrari Ventilatori – Assiali", url: "https://www.ferrariventilatori.com/it-fe/assiali", publisher: "Ferrari Ventilatori S.r.l.", accessed: "2026-09-26" },
@@ -168,13 +168,13 @@ Pentru piața din România, gama are sens la instalații de proces din metalurgi
     name: "Wolong",
     founded: 1984,
     headquarters: "Shaoxing, provincia Zhejiang, China",
-    overview: `Wolong este un producător chinez de motoare electrice și sisteme de acționare, cu sediul la Shaoxing, provincia Zhejiang, fondat în 1984 și extins ulterior la peste 40 de fabrici la nivel global. Gama publicată include motoare asincrone de joasă tensiune din familiile WE, WPN și YE, motoare de înaltă tensiune din seriile TEFC, TETC, TEAAC și TEWAC, motoare verticale, plus familii dedicate zonelor cu risc de explozie — YBX, WEX3, YFB și CD. Din acest portofoliu putem oferta motoare standard și motoare antiex, conform confirmării tehnice a producătorului.
+    overview: `Wolong este un producător chinez de motoare electrice și sisteme de acționare, cu sediul la Shaoxing, provincia Zhejiang, fondat în 1984. Gama publicată include motoare asincrone de joasă tensiune din familiile WE, WPN și YE, motoare de înaltă tensiune din seriile TEFC, TETC, TEAAC și TEWAC, motoare verticale, plus familii dedicate zonelor cu risc de explozie — YBX, WEX3, YFB și CD. Din acest portofoliu putem oferta motoare standard și motoare antiex, conform confirmării tehnice a producătorului.
 
-Grupul Wolong deține și mărcile Brook Crompton și ATB, motoare de origine britanică, respectiv austriacă, integrate în același portofoliu global — un aspect util de știut la comparație, pentru că unele game se suprapun tehnic între mărci. Seriile de înaltă tensiune TEFC și TETC acoperă compresoare de aer și aplicații cu cerințe de rezistență mecanică ridicată, iar seria TEWAC, cu răcire aer-apă, e destinată motoarelor de capacitate foarte mare, unde răcirea cu aer simplu nu ar fi suficientă. Seriile antiex YBX și WEX3 sunt descrise ca motoare de eficiență ridicată pentru zone cu gaz sau praf exploziv.
+Grupul Wolong deține și mărcile Brook Crompton și ATB, motoare de origine britanică, respectiv austriacă, integrate în același portofoliu global — un aspect util de știut la comparație, pentru că unele game se suprapun tehnic între mărci. Seriile de înaltă tensiune TEFC și TETC acoperă compresoare de aer și aplicații cu cerințe de rezistență mecanică ridicată, iar seria TEWAC, cu răcire aer-apă, e destinată motoarelor de capacitate foarte mare, unde răcirea cu aer simplu nu ar fi suficientă. Seriile antiex YBX, WEX3, YFB și CD sunt destinate zonelor cu risc de explozie; clasa de protecție și certificarea se confirmă pe cod.
 
-Pentru piața din România, gama Wolong are sens acolo unde bugetul de proiect cere un motor de putere mare la un raport preț-performanță diferit de mărcile vest-europene consacrate, cu mențiunea că fiind producător chinez, documentația tehnică completă și piesele de schimb se confirmă punctual la fiecare comandă.`,
+Pentru piața din România, gama Wolong are sens acolo unde proiectul cere un motor de putere mare, cu mențiunea că fiind producător chinez, documentația tehnică completă și piesele de schimb se confirmă punctual la fiecare comandă.`,
     whyChoose: [
-      "Producător chinez cu peste 40 de fabrici la nivel global — capacitate de producție pentru motoare de putere mare",
+      "Producător chinez cu baze proprii de producție — capacitate de fabricație pentru motoare de putere mare",
       "Familii dedicate zonelor cu risc de explozie — YBX, WEX3, YFB și CD, pentru gaz sau praf exploziv",
       "Serie de înaltă tensiune cu răcire aer-apă (TEWAC) pentru motoare de capacitate foarte mare",
       "Portofoliu care include și mărcile Brook Crompton și ATB, integrate în același grup industrial",
@@ -184,8 +184,8 @@ Pentru piața din România, gama Wolong are sens acolo unde bugetul de proiect c
     keyProducts: [
       { name: "Motoare Asincrone de Joasă Tensiune WE, WPN, YE", description: "WE cu răcire optimizată și izolație avansată, WPN cu piese interschimbabile intern-extern, YE pentru puteri mari, dimensiuni conforme IEC/GB. Pentru înlocuirea unui motor existent fără modificarea bazei de montaj." },
       { name: "Motoare de Înaltă Tensiune TEFC/TETC/TEAAC/TEWAC", description: "TEFC — compact, compresoare de aer; TETC — antiex, capacitate mare; TEAAC — răcire cu aer, sarcini variate; TEWAC — răcire aer-apă, pentru capacități ultra-mari unde aerul simplu nu ar face față." },
-      { name: "Motoare pentru Zone cu Risc de Explozie YBX/WEX3/YFB/CD", description: "YBX — antiex eficiență ridicată; WEX3 — generație nouă ultra-eficientă pentru gaz; YFB — antiex la praf, carcasă de fontă; CD — antiex special, gaz și praf. Pentru chimie, petrol, prelucrarea făinii." },
-      { name: "Motoare Verticale și WPI/WPII", description: "Motoare verticale compacte pentru pompe verticale cu spațiu orizontal limitat. Seria WPI/WPII respectă NEMA MG1, design pentru piața nord-americană, dedicat compresoarelor reciprocante." }
+      { name: "Motoare pentru Zone cu Risc de Explozie YBX/WEX3/YFB/CD", description: "YBX — antiex eficiență ridicată; WEX3 — motor antiex din gama Wolong; YFB — antiex la praf, carcasă de fontă; CD — antiex special, gaz și praf. Pentru chimie, petrol, prelucrarea făinii." },
+      { name: "Motoare Verticale și WPI/WPII", description: "Motoare verticale compacte pentru pompe verticale cu spațiu orizontal limitat. Seriile WPI/WPII fac parte din gama producătorului; standardul aplicabil și domeniul de utilizare se confirmă din documentația Wolong pe cod." }
     ],
     industries: [
       "Electrocasnice — motoare de mică și medie putere",
@@ -207,24 +207,24 @@ Pentru piața din România, gama Wolong are sens acolo unde bugetul de proiect c
       { code: "TEAAC", description: "înaltă tensiune, răcire cu aer, sarcini variate" },
       { code: "TEWAC", description: "răcire aer-apă, capacități ultra-mari" },
       { code: "YBX", description: "motor antiex de eficiență ridicată" },
-      { code: "WEX3", description: "motor de joasă tensiune ultra-eficient, zone cu gaz" },
+      { code: "WEX3", description: "motor antiex din gama Wolong, de joasă tensiune" },
       { code: "YFB", description: "motor antiex la praf, carcasă din fontă" },
       { code: "CD", description: "motor antiex special, gaz și praf exploziv" },
-      { code: "WPI", description: "motor conform NEMA MG1, compresoare reciprocante" },
-      { code: "WPII", description: "variantă WPI pentru piața nord-americană" },
+      { code: "WPI", description: "motor din familia WPI, documentație confirmată pe cod" },
+      { code: "WPII", description: "variantă a familiei WPI" },
       { code: "Motoare verticale Wolong", description: "structură compactă, pentru pompe verticale" }
     ],
     faq: [
       { q: "Ce tip de motoare produce Wolong?", a: "Wolong produce motoare electrice de joasă și înaltă tensiune, motoare verticale și motoare antiex pentru zone cu risc de explozie, fiind un producător chinez cu sediul la Shaoxing. Gama include familiile WE, WPN, YE la joasă tensiune, TEFC/TETC/TEAAC/TEWAC la înaltă tensiune și YBX/WEX3/YFB/CD pentru medii explozive. Grupul deține și mărcile Brook Crompton și ATB." },
-      { q: "Wolong este producător din China — ce înseamnă asta pentru documentația tehnică?", a: "Da, Wolong are sediul central la Shaoxing, China, cu fabrici distribuite global. Documentația tehnică publică descrie familiile de motoare și principiile constructive, dar fișele complete de putere-turație pentru fiecare model se confirmă direct cu producătorul la momentul ofertei, nu se preiau din memorie sau din cataloage generice." },
+      { q: "Wolong este producător din China — ce înseamnă asta pentru documentația tehnică?", a: "Da, Wolong are sediul central la Shaoxing, China. Documentația tehnică publică descrie familiile de motoare și principiile constructive, dar fișele complete de putere-turație pentru fiecare model se confirmă direct cu producătorul la momentul ofertei, nu se preiau din memorie sau din cataloage generice." },
       { q: "Ce motor Wolong e potrivit pentru o zonă cu risc de explozie?", a: "Pentru zone cu gaz exploziv, familiile YBX și WEX3 sunt descrise ca motoare antiex de eficiență ridicată, iar pentru praf exploziv, seria YFB oferă o carcasă de fontă rezistentă. Seria CD acoperă ambele scenarii, gaz și praf. Certificarea exactă pentru zona dumneavoastră se confirmă la producător înainte de comandă." },
       { q: "Livrați motoare Wolong în România și în cât timp?", a: "Aducem motoarele Wolong la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familie și de confirmarea tehnică a puterii și certificării cerute. Nu ținem această gamă pe raft propriu, iar termenul exact se stabilește după confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Wolong?", a: "Pentru ofertă avem nevoie de puterea necesară, turația, tensiunea de alimentare, tipul de montaj (orizontal sau vertical) și, dacă instalația o cere, clasa de protecție antiex. Cu aceste date verificăm la producător familia potrivită și termenul realist de livrare pentru configurația respectivă." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Wolong Electric – Home", url: "https://www.wolong-electric.com/", publisher: "Wolong Electric Group Co., Ltd.", accessed: "2026-09-26" },
       { title: "Company Profile", url: "https://www.wolong-electric.com/about-wolong/company-profile", publisher: "Wolong Electric Group Co., Ltd.", accessed: "2026-09-26" },
@@ -235,25 +235,25 @@ Pentru piața din România, gama Wolong are sens acolo unde bugetul de proiect c
   'brook-crompton': {
     name: "Brook Crompton",
     headquarters: "Marea Britanie",
-    overview: `Brook Crompton este un producător de motoare electrice cu rădăcini britanice de peste un secol, rezultat din unirea unor nume istorice ca Brook Motors, Crompton Parkinson, Newman Electric, GEC Electrodrives, Bull Electric și Hawker Siddeley Electric Motors. Astăzi face parte din grupul chinez Wolong, alături de marca austriacă ATB, dar fabricile grupului rămân certificate ISO 9001 pentru managementul calității. Gama publicată acoperă motoare de uz general din familiile W Premium (aluminiu și fontă) și PE III Premium, motoare antiex NEMA, ATEX EExd, ATEX EExde și ATEX EEx nA Zone 2, plus motoare de frână și motoare monofazate.
+    overview: `Brook Crompton este un producător de motoare electrice cu rădăcini britanice, rezultat din unirea unor nume istorice ca Brook Motors, Crompton Parkinson, Newman Electric, GEC Electrodrives, Bull Electric și Hawker Siddeley Electric Motors. Astăzi face parte din grupul chinez Wolong, alături de marca austriacă ATB, iar fabricile sale sunt certificate ISO 9001 pentru managementul calității. Gama publicată acoperă motoare de uz general din familiile W Premium (aluminiu și fontă) și PE III Premium, motoare antiex NEMA, ATEX EExd, ATEX EExde și ATEX EEx nA Zone 2, plus motoare de frână și motoare monofazate.
 
-Ce diferențiază Brook Crompton e acoperirea dublă de standarde, NEMA și IEC, pe aceeași gamă de motoare — util pentru clienți cu echipamente proiectate după oricare din cele două norme. Familiile antiex ATEX EExd și EExde acoperă zone cu risc de explozie de diferite categorii, iar seria Premium Efficiency Close Coupled JM/JP e gândită pentru cuplare directă cu pompe, fără cuplaj intermediar. Motoarele de frână Witton Kramer completează gama pentru aplicații unde oprirea rapidă a axului contează, cum sunt benzile transportoare sau utilajele de ridicat.
+Ce diferențiază Brook Crompton e acoperirea dublă de standarde, NEMA și IEC, pe aceeași gamă de motoare — util pentru clienți cu echipamente proiectate după oricare din cele două norme. Familiile antiex ATEX EExd și EExde acoperă zone cu risc de explozie de diferite categorii, iar seria Premium Efficiency Close Coupled JM/JP e gândită pentru cuplare directă cu pompe, fără cuplaj intermediar. Frânele cu saboți magnetici Witton Kramer completează gama pentru aplicații precum macarale, transportoare, linii de proces și palane.
 
-Pentru piața din România, gama Brook Crompton are sens la înlocuirea unor motoare vechi de aceleași mărci istorice (Brook Motors, Crompton Parkinson) încă instalate în fabrici, precum și la proiecte noi care cer certificare ATEX sau compatibilitate NEMA pentru echipament importat din afara UE.`,
+Pentru piața din România, gama Brook Crompton are sens la proiecte noi care cer certificare ATEX sau compatibilitate NEMA pentru echipament importat din afara UE.`,
     whyChoose: [
-      "Fabrici certificate ISO 9001 pentru managementul calității, moștenite din mărci istorice britanice",
+      "Fabrici certificate ISO 9001 pentru managementul calității",
       "Acoperire dublă de standarde NEMA și IEC pe aceeași familie de motoare de uz general",
       "Familii antiex ATEX EExd, EExde și EEx nA Zone 2 pentru diverse categorii de zone cu risc",
-      "Motoare de frână Witton Kramer pentru aplicații cu cerință de oprire rapidă a axului",
+      "Frâne cu saboți magnetici Witton Kramer pentru macarale, transportoare, linii de proces și palane",
       "Serie de cuplare directă cu pompe JM/JP, fără cuplaj intermediar, pentru instalații compacte",
-      "Continuitate tehnică cu mărci istorice precum Brook Motors și Crompton Parkinson, utilă la înlocuiri"
+      "Gama grupează mărci istorice britanice, precum Brook Motors și Crompton Parkinson"
     ],
     keyProducts: [
       { name: "Motoare de Uz General W Premium", description: "Aluminiu sau fontă, conforme NEMA și IEC. Pentru pompe, ventilatoare și transportoare industriale, fără cerințe antiex. Alegerea carcasei depinde de mediu și greutatea admisă la montaj." },
-      { name: "Motoare de Uz General PE III Premium", description: "A doua familie de uz general, tot în aluminiu sau fontă, aceeași acoperire NEMA/IEC ca seria W Premium. Diferă prin execuția internă. Confirmați puterea și turația pentru selecție." },
+      { name: "Motoare de Uz General PE III Premium", description: "A doua familie de uz general, tot în aluminiu sau fontă, aceeași acoperire NEMA/IEC ca seria W Premium. Confirmați puterea și turația pentru selecție." },
       { name: "Motoare Antiex NEMA, ATEX EExd, EExde, EEx nA Zone 2", description: "Patru familii antiex: EExd pentru risc ridicat, EExde pentru configurație combinată, EEx nA pentru Zona 2 cu risc redus. Alegerea depinde de clasificarea zonei stabilită de proiectant." },
       { name: "Motoare Premium Efficiency Close Coupled JM/JP", description: "Cuplare directă cu pompe, fără cuplaj intermediar, gabarit redus și fără risc de dezaliniere. Pentru pompe centrifugale monobloc din industrie sau clădiri cu spațiu limitat." },
-      { name: "Motoare de Frână și Motoare Monofazate", description: "Sistem Witton Kramer pentru oprire rapidă a axului — transportoare înclinate, macarale. Gama include și motoare monofazate de uz general și de fermă (Farm Duty)." }
+      { name: "Motoare de Frână și Motoare Monofazate", description: "Frâne cu saboți magnetici Witton Kramer pentru macarale, transportoare, linii de proces și palane. Gama include și motoare monofazate de uz general și de fermă (Farm Duty)." }
     ],
     industries: [
       "Minerit — motoare de uz general și antiex",
@@ -282,19 +282,19 @@ Pentru piața din România, gama Brook Crompton are sens la înlocuirea unor mot
       { code: "Brake Motors", description: "motor cu frână integrată pentru oprire rapidă" },
       { code: "General Purpose Single Phase", description: "motor monofazat de uz general" },
       { code: "Farm Duty Single Phase", description: "motor monofazat pentru aplicații de fermă" },
-      { code: "Witton Kramer Brakes", description: "sistem de frânare pentru motoare cu ax oprit rapid" }
+      { code: "Witton Kramer Brakes", description: "frâne cu saboți magnetici pentru macarale, transportoare, linii de proces și palane" }
     ],
     faq: [
       { q: "Ce motoare produce Brook Crompton?", a: "Brook Crompton produce motoare electrice de uz general, motoare antiex (NEMA și ATEX), motoare de frână și motoare monofazate, moștenind mărci istorice britanice precum Brook Motors și Crompton Parkinson. Gama acoperă familiile W Premium și PE III Premium în aluminiu sau fontă, plus serii dedicate cuplării directe cu pompe. Compania face parte din grupul Wolong." },
       { q: "Ce diferență e între un motor Brook Crompton ATEX EExd și unul EEx nA Zone 2?", a: "EExd este o construcție antideflagrantă pentru zone cu risc mai ridicat de explozie, în timp ce EEx nA Zone 2 acoperă zone cu risc redus, unde atmosfera exploziv apare rar și pe durată scurtă. Clasificarea zonei se stabilește de proiectantul instalației, nu de client, iar motorul se alege în funcție de acea clasificare confirmată." },
       { q: "Livrați motoare Brook Crompton în România și în cât timp?", a: "Aducem motoarele Brook Crompton la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familie și de certificarea cerută (NEMA sau ATEX). Nu ținem această gamă pe raft propriu, iar termenul se confirmă exact după verificarea configurației la producător." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor Brook Crompton?", a: "Pentru ofertă avem nevoie de puterea și turația necesară, tipul de carcasă preferat (aluminiu sau fontă), standardul de referință (NEMA sau IEC) și, dacă instalația o cere, clasificarea ATEX a zonei. Pentru motoarele de frână, precizați și tipul de aplicație pentru dimensionarea corectă a sistemului Witton Kramer." },
+      { q: "Ce trebuie să trimit pentru o ofertă de motor Brook Crompton?", a: "Pentru ofertă avem nevoie de puterea și turația necesară, tipul de carcasă preferat (aluminiu sau fontă), standardul de referință (NEMA sau IEC) și, dacă instalația o cere, clasificarea ATEX a zonei. Pentru frânele Witton Kramer, precizați și tipul de aplicație pentru dimensionarea corectă." },
       { q: "Ce înseamnă că un motor Brook Crompton e Close Coupled JM sau JP?", a: "Înseamnă că motorul se cuplează direct la o pompă, fără cuplaj intermediar între ax și rotorul pompei, ceea ce reduce gabaritul ansamblului. Execuțiile JM și JP diferă prin standardul dimensional al flanșei de montaj, ales în funcție de pompa cu care se cuplează motorul." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Brook Crompton – Home", url: "https://www.brookcrompton.com/", publisher: "Brook Crompton", accessed: "2026-09-26" },
       { title: "About Us", url: "https://www.brookcrompton.com/about-us/", publisher: "Brook Crompton", accessed: "2026-09-26" },
@@ -305,23 +305,23 @@ Pentru piața din România, gama Brook Crompton are sens la înlocuirea unor mot
     name: "Motovario",
     founded: 1965,
     headquarters: "Formigine, Italia",
-    overview: `Motovario este un producător italian de motoreductoare, motovariatoare și motoare electrice, fondat în 1965 de Giancarlo Raguzzoni la Formigine, în districtul industrial al Modenei. Gama publicată acoperă reductoare elicoidale (seria H), reductoare elicoidal-conice (seria B), reductoare cu montaj pe arbore (seria S), reductoare planetare (HPL), reductoare de tip mid-heavy-duty (MHD), reductoare melcate (VSF) și reductoare elicoidal-conice pentru sarcini speciale (RW), completate de motovariatoare (VAR), motoare electrice proprii (M), drive-uri (D) și electronice de comandă (E).
+    overview: `Motovario este un producător italian de motoreductoare, motovariatoare și motoare electrice, fondat în 1965 de Giancarlo Raguzzoni la Formigine. Gama publicată acoperă reductoare elicoidale (seria H), reductoare elicoidal-conice (seria B), reductoare cu montaj pe arbore (seria S), reductoare planetare (HPL), reductoare de tip mid-heavy-duty (MHD), reductoare melcate (VSF) și reductoare elicoidal-conice (RW), completate de motovariatoare (VAR), motoare electrice proprii (M), drive-uri (D) și electronice de comandă (E).
 
-Diferența tehnică față de un simplu asamblator de reductoare stă în seria PBZ, cu reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte de reducere, gândite pentru densitate mare de putere la gabarit compact — utilă acolo unde spațiul de montaj e limitat, dar cuplul cerut e ridicat. Rețeaua proprie de centre de asamblare calificată (MAC) permite configurarea reductorului cu motorul dorit, IEC sau alt standard, mai aproape de client, ceea ce scurtează practic timpul de livrare pentru configurațiile uzuale.
+Diferența tehnică față de un simplu asamblator de reductoare stă în seria PBZ, cu reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte de reducere, gândite pentru densitate mare de putere la gabarit compact — utilă acolo unde spațiul de montaj e limitat, dar cuplul cerut e ridicat. Rețeaua de peste 30 de centre de asamblare (MAC), autorizate și certificate de Motovario, permite configurarea reductorului cu motorul dorit mai aproape de client.
 
 Pentru piața din România, gama Motovario are sens la utilaje de manipulare, linii de ambalare sau instalații de proces care cer un reductor standard, ușor de înlocuit prin dimensiuni compatibile IEC, fără a fi legat de o singură familie constructivă pentru toată durata de viață a utilajului.`,
     whyChoose: [
       "Șapte familii de reductoare (H, B, S, HPL, MHD, VSF, RW) — acoperă principii constructive elicoidale, conice, planetare și melcate",
       "Serie PBZ cu până la patru trepte de reducere — densitate mare de putere la gabarit redus",
-      "Rețea proprie de centre de asamblare calificată (MAC) — configurare motor-reductor mai aproape de client",
+      "Rețea de peste 30 de centre de asamblare (MAC) autorizate și certificate de Motovario — configurare motor-reductor mai aproape de client",
       "Portofoliu complet motor-reductor-drive (familiile M, D și E) de la același producător",
-      "Fondat în 1965, cu peste șase decenii de fabricație continuă în districtul industrial Modena",
+      "Fondat în 1965, la Formigine, Italia",
       "Motovariatoare din seria VAR pentru reglaj continuu de turație, fără invertor electronic"
     ],
     keyProducts: [
       { name: "Reductoare Elicoidale Seria H și Elicoidal-Conice Seria B", description: "Seria H acoperă reductoare cu roți dințate elicoidale, iar seria B pe cele elicoidal-conice, ambele fiind familiile de bază ale gamei Motovario pentru transmisia de putere la turații reduse. Aplicație tipică: benzi transportoare, mixere și utilaje de manipulare unde se cere un raport de reducere fix și un montaj compact. Clientul trebuie să confirme raportul de reducere, cuplul de ieșire și turația motorului pentru selecția exactă." },
       { name: "Reductoare cu Montaj pe Arbore Seria S și Planetare Seria HPL", description: "Seria S se montează direct pe arborele mașinii acționate, fără suport propriu, reducând numărul de componente din lanțul cinematic, în timp ce seria HPL folosește principiul planetar pentru cuplu ridicat la gabarit redus. Alegerea între cele două depinde de spațiul de montaj disponibil și de cuplul de ieșire cerut de aplicație." },
-      { name: "Reductoare Melcate Seria VSF și Seria PBZ pe Patru Trepte", description: "Seria VSF folosește principiul melcat, potrivit pentru rapoarte de reducere mari într-un singur etaj, cu autoblocare la anumite configurații. Seria PBZ combină reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte de reducere, pentru cupluri mari la gabarit compact, acolo unde o singură treaptă nu ar acoperi raportul de reducere necesar." },
+      { name: "Reductoare Melcate Seria VSF și Seria PBZ pe Patru Trepte", description: "Seria VSF folosește principiul melcat, potrivit pentru rapoarte de reducere mari. Seria PBZ combină reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte de reducere, pentru cupluri mari la gabarit compact, acolo unde o singură treaptă nu ar acoperi raportul de reducere necesar." },
       { name: "Motoare Electrice, Motovariatoare și Drive-uri (M, VAR, D, E)", description: "Familia M acoperă motoare electrice proprii, compatibile dimensional cu reductoarele din gamă, seria VAR oferă motovariatoare pentru reglaj continuu de turație pe cale mecanică, iar familiile D și E acoperă drive-uri și electronice de comandă pentru acționare variabilă. Combinația permite livrarea unui ansamblu motor-reductor-drive complet de la același producător, nu doar a reductorului." }
     ],
     industries: [
@@ -340,8 +340,8 @@ Pentru piața din România, gama Motovario are sens la utilaje de manipulare, li
       { code: "Seria S", description: "reductoare cu montaj pe arbore, fără suport propriu" },
       { code: "Seria HPL", description: "reductoare planetare, cuplu ridicat la gabarit redus" },
       { code: "Seria MHD", description: "reductoare de tip mid-heavy-duty" },
-      { code: "Seria VSF", description: "reductoare melcate, cu autoblocare la unele configurații" },
-      { code: "Seria RW", description: "reductoare elicoidal-conice pentru sarcini speciale" },
+      { code: "Seria VSF", description: "reductoare melcate" },
+      { code: "Seria RW", description: "reductoare elicoidal-conice" },
       { code: "Seria PBZ", description: "reductoare pe până la patru trepte de reducere" },
       { code: "Seria VAR", description: "motovariatoare pentru reglaj continuu de turație" },
       { code: "Seria M", description: "motoare electrice proprii, compatibile cu reductoarele" },
@@ -349,16 +349,16 @@ Pentru piața din România, gama Motovario are sens la utilaje de manipulare, li
       { code: "Seria E", description: "electronice de comandă pentru acționare" }
     ],
     faq: [
-      { q: "Ce produce Motovario?", a: "Motovario fabrică motoreductoare, motovariatoare, motoare electrice și drive-uri, fiind un producător italian fondat în 1965 la Formigine, în districtul industrial Modena. Gama acoperă șapte familii de reductoare (H, B, S, HPL, MHD, VSF, RW), plus seria PBZ pe patru trepte de reducere și motoare proprii din familia M." },
+      { q: "Ce produce Motovario?", a: "Motovario fabrică motoreductoare, motovariatoare, motoare electrice și drive-uri, fiind un producător italian fondat în 1965 la Formigine. Gama acoperă șapte familii de reductoare (H, B, S, HPL, MHD, VSF, RW), plus seria PBZ pe patru trepte de reducere și motoare proprii din familia M." },
       { q: "Cum aleg reductorul Motovario potrivit pentru utilajul meu?", a: "Selecția pleacă de la raportul de reducere sau turația de ieșire dorită, cuplul necesar și tipul de montaj — pe arbore (seria S), pe picioare sau cu flanșă. Pentru cupluri mari la gabarit redus, familiile HPL (planetară) sau PBZ (multi-treaptă) sunt de obicei alegerea potrivită. Trimiteți parametrii aplicației pentru selecția exactă." },
-      { q: "Ce echivalent are seria PBZ de la Motovario în gama standard?", a: "Seria PBZ combină reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte, fiind o variantă de gamă superioară față de seriile de bază H și B pentru aplicații cu cuplu ridicat și spațiu de montaj limitat. Alegerea exactă a treptei depinde de raportul de reducere total necesar." },
+      { q: "Ce echivalent are seria PBZ de la Motovario în gama standard?", a: "Seria PBZ combină reductoare elicoidale paralele și elicoidal-conice pe până la patru trepte, fiind caracterizată, conform producătorului, de densitate mare de putere, gabarit compact și modularitate. Alegerea exactă a treptei depinde de raportul de reducere total necesar." },
       { q: "Livrați reductoare Motovario în România și cât durează?", a: "Da, aducem produsele Motovario la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și configurația motor-reductor aleasă. Nu ținem această gamă pe raft propriu, iar termenul exact se confirmă după verificarea configurației la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de motoreductor Motovario?", a: "Pentru ofertă avem nevoie de raportul de reducere sau turația de ieșire dorită, cuplul necesar, puterea motorului, tensiunea de alimentare și tipul de montaj preferat. Dacă e nevoie de reglaj de turație, precizați dacă preferați un motovariator mecanic (seria VAR) sau un drive electronic (seria D)." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Motoreducers, Motovariators, Electric Motors And Power Transmissions: Motovario", url: "https://www.motovario.com/eng/", publisher: "Motovario S.p.A.", accessed: "2026-09-26" },
       { title: "Motovario, Corporate", url: "https://www.motovario.com/eng/corporate/", publisher: "Motovario S.p.A.", accessed: "2026-09-26" },

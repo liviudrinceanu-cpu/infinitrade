@@ -23,10 +23,10 @@ Pentru instalații din România unde spațiul de montaj e limitat sau precizia a
       },
       {
         name: "Angrenaje cu Cremalieră și Pinion ZR/ZTR/ZTRS",
-        description: "Familie de angrenaje liniare de precizie, cu module între 2 și 8 mm și forțe de avans între 3 și 124 kN, în funcție de serie. ZR e optimizată pentru viteză mare, ZTR pentru performanță ridicată, iar ZTRS pentru forța maximă, cu suport de lagăr înșurubat. Se folosesc la axele liniare ale mașinilor-unelte și roboților portal, unde cursa lungă contează mai mult decât la un șurub cu bile clasic.",
+        description: "Familie de angrenaje liniare de precizie, cu module între 2 și 8 mm și forțe de avans între 3 și 124 kN, în funcție de serie. Forța de avans crește de la ZR (3,1–16 kN) și ZTR (6,5–67 kN) la ZTRS (20–124 kN), conform datelor producătorului. Se folosesc la axele liniare ale mașinilor-unelte și roboților portal, unde cursa lungă contează mai mult decât la un șurub cu bile clasic.",
       },
       {
-        name: "Motoare Lean Seria LM cu Variatoare SC6/ȘI6",
+        name: "Motoare Lean Seria LM cu Variatoare SC6/SI6",
         description: "Servomotoare sincrone din clasa de eficiență IE5, cu cuplu nominal între 2,25 și 25,7 Nm, gândite să funcționeze fără traductor de poziție montat pe motor — poziția se determină prin cablul de putere, împreună cu variatoarele STÖBER SC6 sau SI6. Abaterea de turație rămâne sub 1%, iar precizia de poziționare la oprire e de circa ±1°. Clientul trebuie să precizeze cuplul de sarcină și variatorul existent în instalație.",
       },
     ],
@@ -36,38 +36,38 @@ Pentru instalații din România unde spațiul de montaj e limitat sau precizia a
       "Ambalare — motoreductoare compacte pentru linii de ambalat de mare viteză",
       "Prelucrarea materialelor plastice — acționări pentru extrudere și mașini de injecție",
     ],
-    certifications: ["IEC 62443-4-2 (nivel de securitate cibernetică 2, cerință de la producător pentru variatoarele conectate din 2027)"],
+    certifications: ["Măsuri de securitate cibernetică dezvoltate de producător cu obiectivul de a îndeplini criteriile nivelului de securitate 2 din IEC 62443-4-2 (nu o certificare confirmată)"],
     infinitrade: `Pentru gama STÖBER lucrăm din surse publice ale producătorului pentru cupluri, rapoarte de transmisie și module de angrenare — nu avem instalații proprii testate cu aceste echipamente și spunem asta direct. Aducem la comandă, prin canale de aprovizionare din UE, motoreductoarele elicoidale, angrenajele cu cremalieră și servomotoarele lean din gama STÖBER, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii de către producător. Nu promitem o disponibilitate constantă din fabrică; fiecare configurație se verifică înainte de ofertare. Pentru o ofertă corectă avem nevoie de cuplul necesar, raportul de transmisie, turația și tipul de variator din instalația dumneavoastră.`,
     limitation: "Nu putem confirma termene de fabricație la producător și nu oferim configurare software pentru variatoarele SC6/SI6 dincolo de parametrii transmiși de client.",
     productCodes: [
       { code: "C Series", description: "Motoreductor elicoidal, cuplu 21–6000 Nm, raport 2–276" },
-      { code: "F Series", description: "Reductor elicoidal offset, cuplu 44–1100 Nm, raport 4,3–552" },
+      { code: "F Series", description: "Reductor elicoidal offset, cuplu de accelerare 53–1100 Nm, raport 4,3–552" },
       { code: "FEZ Series", description: "Servomotoreductor offset, cuplu accelerare 21–1100 Nm, randament 96–97%" },
       { code: "PLM Series", description: "Motor planetar lean premium, cuplu 13–1840 Nm, raport 3–70" },
       { code: "PELM Series", description: "Motor planetar lean economic, cuplu 13–310 Nm, raport 3–20" },
       { code: "LM Series", description: "Servomotor lean IE5, cuplu nominal 2,25–25,7 Nm, fără traductor extern" },
       { code: "ZV Series", description: "Angrenaj cremalieră-pinion flexibil, modul 2–4 mm, clasă danturare 6" },
-      { code: "ZR Series", description: "Angrenaj cremalieră-pinion de mare viteză, modul 2–4 mm" },
+      { code: "ZR Series", description: "Angrenaj cremalieră-pinion, modul 2–4 mm, forță de avans 3,1–16 kN" },
       { code: "ZTR Series", description: "Angrenaj cremalieră-pinion de performanță, modul 2–6 mm" },
       { code: "ZTRS Series", description: "Angrenaj cremalieră-pinion de forță mare, modul 3–8 mm" },
       { code: "ZS Precision Racks", description: "Cremaliere de precizie, modul 2–8 mm, lungimi de 0,5–2 m" },
-      { code: "SB6", description: "Variator principal pentru servomotoare și motoreductoare STÖBER" },
+      { code: "SB6", description: "Variator pentru servomotoare sincrone liniare și rotative și pentru motoare lean" },
       { code: "SC6", description: "Variator compact pentru motoare lean fără traductor extern" },
       { code: "SI6", description: "Variator de servoacționare pentru gama de motoare lean" },
       { code: "SX6", description: "Modul de siguranță pentru variatoarele din gama STÖBER" },
-      { code: "K-Series", description: "Reductor cu roți dințate conice, sarcină dinamică până la 26 tone" },
+      { code: "K-Series", description: "Reductor elicoidal-conic, cuplu de accelerare 50–13200 Nm, raport 4–381" },
       { code: "KS", description: "Reductor unghiular pentru servomotoare, gamă extinsă de rapoarte" },
     ],
     faq: [
       { q: "Ce produce STÖBER?", a: "STÖBER produce motoreductoare industriale, angrenaje cu cremalieră și pinion pentru axe liniare, servomotoare lean și servomotoreductoare, plus variatoare și module de siguranță pentru acționarea acestora. Gama acoperă de la reductoare elicoidale de putere mare, cu cupluri de până la 6000 Nm, până la motoare compacte de precizie pentru axe de poziționare. Producătorul este german, cu sediul la Pforzheim, activ din 1934." },
       { q: "Cum aleg un motoreductor STÖBER seria C după cod?", a: "Pentru seria C trebuie precizate cuplul necesar la ieșire, raportul de transmisie dorit între 2 și 276, turația de intrare și tipul motorului electric care se cuplează la reductor. Codul complet indică mărimea carcasei și varianta de montaj, informații pe care le confirmăm împreună cu producătorul înainte de a pregăti oferta finală." },
-      { q: "Ce echivalent are un reductor elicoidal offset față de o transmisie cu șurub cu bile?", a: "Seria F de reductoare elicoidale offset, cu cupluri între 44 și 1100 Nm, înlocuiește adesea o transmisie cu șurub cu bile acolo unde spațiul axial e limitat, dar rămâne nevoie de cuplu constant și randament ridicat, de 96–97%. Alegerea finală depinde de cursă, forța necesară și spațiul de montaj disponibil pe mașină." },
+      { q: "Ce date tehnice publică STÖBER pentru reductoarele elicoidale offset seria F?", a: "Seria F de reductoare elicoidale offset are, conform producătorului, un cuplu de accelerare între 53 și 1100 Nm și un randament de 96–97%. Alegerea finală depinde de cuplul necesar, raportul de transmisie și spațiul de montaj disponibil pe mașină." },
       { q: "Livrați echipamente STÖBER în România și cât durează?", a: "Aducem la comandă motoreductoare și servomotoare STÖBER prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii cu producătorul, în funcție de configurația exactă solicitată. Nu putem promite un termen mai scurt fără această confirmare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "STÖBER Drive Technology – Home", url: "https://www.stoeber.de/en/", publisher: "STÖBER Antriebstechnik GmbH + Co. KG", accessed: "2026-09-26" },
       { title: "Rack and Pinion Gearboxes", url: "https://www.stoeber.de/en/solutions/rack-and-pinion-gearboxes/", publisher: "STÖBER Antriebstechnik GmbH + Co. KG", accessed: "2026-09-26" },
@@ -82,11 +82,11 @@ Pentru instalații din România unde spațiul de montaj e limitat sau precizia a
     headquarters: "Bonndorf im Schwarzwald, Germania",
     overview: `Dunkermotoren este un producător german de motoare electrice de mică și medie putere, înființat în 1950 și cu sediul la Bonndorf im Schwarzwald. Astăzi face parte din grupul Ametek și fabrică motoare de curent continuu cu perii, motoare fără perii (BLDC) cu sau fără controler integrat, reductoare planetare, melcate și conice, plus frâne și encodere pentru completarea acționării. Pentru clienți din România putem oferta din gama de motoare și reductoare Dunkermotoren, alese pe putere, turație și tip de comandă necesar.
 
-Ce ține gama relevantă e puterea maximă relativ mică, de până la 4000 W, combinată cu opțiunea de controler integrat direct în carcasa motorului — seria BLDC BG vine în mărimile 32, 45, 75 și 95, disponibile fie cu controler integrat, fie pentru comandă cu variator extern. Reductoarele planetare PLG ajung la 130 Nm cuplu continuu, cu rapoarte de transmisie între 4:1 și 512:1 și variante EP, HT sau LB în funcție de aplicație, completate de reductoare melcate SG și reductoare Spirotec STG pentru rapoarte de reducere mari într-un gabarit redus.
+Ce ține gama relevantă e puterea maximă relativ mică, de până la 4000 W, combinată cu opțiunea de controler integrat direct în carcasa motorului — seria BLDC BG este disponibilă în mai multe mărimi de carcasă, fie cu controler integrat, fie pentru comandă cu variator extern. Reductoarele planetare PLG ajung la 130 Nm cuplu continuu, cu rapoarte de transmisie între 4:1 și 512:1 și variante EP, HT sau LB în funcție de aplicație, completate de reductoare melcate SG și reductoare Spirotec STG pentru rapoarte de reducere mari într-un gabarit redus.
 
 Pentru instalații din România cu spațiu redus și cerințe de comandă integrată — benzi transportoare, sisteme de sortare, echipamente medicale sau de laborator — gama Dunkermotoren acoperă o nișă diferită de motoarele industriale de putere mare deja prezente în portofoliu.`,
     whyChoose: [
-      "Motoare BLDC seria BG, mărimile 32/45/75/95, disponibile cu controler integrat direct în carcasă.",
+      "Motoare BLDC seria BG, disponibile în mai multe mărimi, cu controler integrat direct în carcasă.",
       "Putere maximă de până la 4000 W, potrivită pentru echipamente compacte, nu pentru acționări industriale grele.",
       "Reductoare planetare PLG cu cuplu continuu de până la 130 Nm și rapoarte de transmisie 4:1–512:1.",
       "Gamă completă de accesorii — frâne și encodere — pentru completarea motorului fără a schimba furnizorul.",
@@ -94,15 +94,15 @@ Pentru instalații din România cu spațiu redus și cerințe de comandă integr
     keyProducts: [
       {
         name: "Motoare Fără Perii Seria BG (32/45/75/95)",
-        description: "Motoare sincrone fără perii cu magnet permanent, disponibile în patru mărimi de carcasă, fie cu controler integrat în corpul motorului, fie pentru comandă printr-un variator extern. Sunt gândite pentru randament ridicat și accelerație dinamică la o densitate de putere mare raportat la volum. Seria a fost extinsă recent cu interfață PROFINET integrată pentru comunicare directă în rețeaua de automatizare. Pentru ofertă, clientul trebuie să indice mărimea BG, tensiunea de alimentare și dacă dorește varianta cu sau fără controler integrat.",
+        description: "Motoare sincrone fără perii cu magnet permanent, disponibile în mai multe mărimi de carcasă, fie cu controler integrat în corpul motorului, fie pentru comandă printr-un variator extern. Sunt gândite pentru randament ridicat și accelerație dinamică la o densitate de putere mare raportat la volum. Pentru ofertă, clientul trebuie să indice mărimea BG, tensiunea de alimentare și dacă dorește varianta cu sau fără controler integrat.",
       },
       {
         name: "Reductoare Planetare Seria PLG",
-        description: "Reductoare planetare cu cuplu continuu de până la 130 Nm și rapoarte de transmisie între 4:1 și 512:1, disponibile în variantele EP, HT sau LB, în funcție de nivelul de precizie și de sarcina radială admisă. Se cuplează direct la motoarele BG sau la seria de motoare cu perii GR/G, formând un ansamblu compact motor-reductor. Pentru configurare, clientul trebuie să transmită cuplul de ieșire necesar și raportul de transmisie dorit.",
+        description: "Reductoare planetare cu cuplu continuu de până la 130 Nm și rapoarte de transmisie între 4:1 și 512:1, disponibile în variantele EP (durabilitate, funcționare lină), HT (densitate mare de putere, IP 65) sau LB (joc redus, IP 54), în funcție de cerințele aplicației. Se cuplează direct la motoarele BG sau la seria de motoare cu perii GR/G, formând un ansamblu compact motor-reductor. Pentru configurare, clientul trebuie să transmită cuplul de ieșire necesar și raportul de transmisie dorit.",
       },
       {
         name: "Motoare cu Perii Seria GR/G",
-        description: "Motoare de curent continuu cu perii, cu cuplu de cogging redus, construcție rugoasă și moment de inerție scăzut, potrivite pentru aplicații cu porniri și opriri frecvente. Modelul GR 63 a fost menționat de producător ca fiind folosit inclusiv în aplicații de competiție auto de mare performanță, ca dovadă a densității de putere obținute la un gabarit redus. Clientul trebuie să precizeze turația și cuplul de sarcină pentru selecția corectă a mărimii motorului.",
+        description: "Motoare de curent continuu cu perii, cu cuplu de cogging redus, construcție rugoasă și moment de inerție scăzut, potrivite pentru aplicații cu porniri și opriri frecvente. Clientul trebuie să precizeze turația și cuplul de sarcină pentru selecția corectă a mărimii motorului.",
       },
     ],
     industries: [
@@ -116,27 +116,27 @@ Pentru instalații din România cu spațiu redus și cerințe de comandă integr
     productCodes: [
       { code: "BG 32", description: "Motor BLDC compact, disponibil cu sau fără controler integrat" },
       { code: "BG 45", description: "Motor BLDC mărime medie, cu controler integrat opțional" },
-      { code: "BG 75", description: "Motor BLDC, seria dMove, intrată recent în producție de serie" },
+      { code: "BG 75", description: "Motor BLDC din familia BG" },
       { code: "BG 95", description: "Motor BLDC de putere mai mare din familia BG" },
-      { code: "BG cu interfață PROFINET", description: "Variantă BG cu comunicare PROFINET integrată" },
+      
       { code: "GR/G Series", description: "Motor de curent continuu cu perii, cogging redus" },
       { code: "GR 63", description: "Motor cu perii de putere mare la gabarit redus" },
-      { code: "PLG-EP", description: "Reductor planetar de precizie, cuplu până la 130 Nm" },
+      { code: "PLG-EP", description: "Reductor planetar durabil, cu funcționare lină, pentru toate ciclurile de lucru" },
       { code: "PLG-HT", description: "Reductor planetar de sarcină mare, raport 4:1–512:1" },
-      { code: "PLG-LB", description: "Reductor planetar economic pentru sarcini reduse" },
+      { code: "PLG-LB", description: "Reductor planetar cu joc redus, durată de viață foarte lungă, IP 54 standard" },
       { code: "SG Series", description: "Reductor melcat pentru rapoarte de reducere mari" },
       { code: "STG Series", description: "Reductor Spirotec compact pentru gabarit redus" },
     ],
     faq: [
       { q: "Ce produce Dunkermotoren?", a: "Dunkermotoren produce motoare electrice de putere mică și medie, până la 4000 W — motoare cu perii, motoare fără perii (BLDC) cu sau fără controler integrat — plus reductoare planetare, melcate și Spirotec, frâne și encodere. Compania e germană, înființată în 1950, cu sediul la Bonndorf im Schwarzwald, și face parte din grupul Ametek." },
-      { q: "Cum aleg un motor Dunkermotoren seria BG după mărime?", a: "Alegerea unei mărimi BG (32, 45, 75 sau 95) depinde de puterea și cuplul necesare la arbore, tensiunea de alimentare disponibilă și dacă instalația are deja un variator extern sau se dorește controler integrat în motor. Producătorul oferă și variante cu interfață PROFINET pentru integrare directă în rețeaua de automatizare a liniei." },
-      { q: "Ce reductor Dunkermotoren se potrivește unui motor BG pentru cuplu mare?", a: "Pentru cuplu mărit la ieșire, seria de reductoare planetare PLG, cu cuplu continuu de până la 130 Nm și rapoarte între 4:1 și 512:1, se cuplează direct la motoarele BG sau GR/G. Varianta EP, HT sau LB se alege în funcție de precizia și sarcina radială cerute de aplicație." },
+      { q: "Cum aleg un motor Dunkermotoren seria BG după mărime?", a: "Alegerea mărimii BG depinde de puterea și cuplul necesare la arbore, tensiunea de alimentare disponibilă și dacă instalația are deja un variator extern sau se dorește controler integrat în motor." },
+      { q: "Ce reductor Dunkermotoren se potrivește unui motor BG pentru cuplu mare?", a: "Pentru cuplu mărit la ieșire, seria de reductoare planetare PLG, cu cuplu continuu de până la 130 Nm și rapoarte între 4:1 și 512:1, se cuplează direct la motoarele BG sau GR/G. Varianta EP (durabilitate, funcționare lină), HT (densitate mare de putere, IP 65) sau LB (joc redus, IP 54) se alege în funcție de cerințele aplicației." },
       { q: "Livrați motoare Dunkermotoren în România?", a: "Aducem la comandă motoare și reductoare Dunkermotoren prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii cu producătorul. Termenul exact depinde de mărimea motorului și de varianta de controler solicitată." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Dunkermotoren – Home", url: "https://www.dunkermotoren.com/en/", publisher: "Dunkermotoren GmbH", accessed: "2026-09-26" },
       { title: "Products Overview", url: "https://www.dunkermotoren.com/en/products", publisher: "Dunkermotoren GmbH", accessed: "2026-09-26" },
@@ -150,14 +150,14 @@ Pentru instalații din România cu spațiu redus și cerințe de comandă integr
     founded: 1947,
     overview: `Faulhaber este un producător german de micromotoare și sisteme de acționare de mare precizie, înființat în 1947, cu o rețea internațională de dezvoltare și producție care include, potrivit propriei pagini de locații, facilități în Germania, Elveția, SUA, România și Ungaria. Portofoliul acoperă micromotoare de curent continuu, servomotoare fără perii, reductoare planetare și cu roți drepte, plus actuatoare liniare, la diametre de doar câțiva milimetri. Pentru clienți din România putem oferta din gama Faulhaber de micromotoare și reductoare, aleasă pe diametru, cuplu și turație.
 
-Ce diferențiază Faulhaber e miniaturizarea extremă combinată cu turații foarte mari — motoarele fără perii din seria B ajung la 100.000 rpm la un diametru de doar 6 mm, iar micromotoarele de curent continuu din seria S livrează cupluri de sub 1 mNm la diametre între 6 și 10 mm. Reductoarele planetare din seria /1 acoperă rapoarte de la 4:1 la 4096:1 la diametre de 6–10 mm, iar variantele de reductoare cu roți drepte din seria /2 și /3 oferă opțiunea de joc unghiular practic zero.
+Ce diferențiază Faulhaber e miniaturizarea extremă combinată cu turații foarte mari — motoarele fără perii din seria B ajung la 100.000 rpm la un diametru de doar 6 mm, iar micromotoarele de curent continuu din seria S au diametre între 6 și 10 mm. Reductoarele planetare din seria /1 acoperă rapoarte de la 4:1 la 4096:1 la diametre de 6–10 mm, iar reductoarele cu roți drepte din seria /3 sunt variante cu joc unghiular zero.
 
 Pentru aplicații din România unde spațiul de montaj se măsoară în milimetri — echipamente medicale portabile, instrumentație de laborator, robotică de precizie — gama Faulhaber acoperă o nișă de miniaturizare pe care motoarele electrice industriale standard nu o pot atinge.`,
     whyChoose: [
       "Motoare fără perii seria B, diametre de la 3 la 10 mm, turații de până la 100.000 rpm.",
-      "Micromotoare de curent continuu seria S, diametre de 6–10 mm, pentru aplicații cu spațiu extrem de redus.",
+      "Micromotoare de curent continuu seria S, diametre de 6–10 mm, pentru aplicații cu spațiu redus.",
       "Reductoare planetare seria /1, rapoarte de transmisie de la 4:1 la 4096:1, la diametre de 6–10 mm.",
-      "Actuatoare liniare seria L, forțe continue de la 3 la 40 N, pentru poziționare de precizie fără șurub extern.",
+      "Actuatoare liniare seria L, forțe axiale continue de la 3 N în variantele standard până la 200 N în variantele pentru sarcini mari, pentru poziționare de precizie fără șurub extern.",
     ],
     keyProducts: [
       {
@@ -166,11 +166,11 @@ Pentru aplicații din România unde spațiul de montaj se măsoară în milimetr
       },
       {
         name: "Reductoare Planetare Seria /1",
-        description: "Reductoare planetare cu diametre de 6, 8 și 10 mm, rapoarte de transmisie de la 4:1 până la 4096:1 și cuplu continuu de la 25 la 100 mNm, în funcție de mărime. Se cuplează direct la micromotoarele de curent continuu sau la motoarele fără perii din aceeași gamă de diametre, formând un ansamblu motor-reductor foarte compact. Clientul trebuie să indice diametrul dorit, raportul de transmisie și cuplul de sarcină la ieșire.",
+        description: "Reductoare planetare cu diametre de 6, 8 și 10 mm, rapoarte de transmisie de la 4:1 până la 4096:1 și cuplu continuu de până la 100 mNm la varianta de 10 mm. Se cuplează direct la micromotoarele de curent continuu sau la motoarele fără perii din aceeași gamă de diametre, formând un ansamblu motor-reductor foarte compact. Clientul trebuie să indice diametrul dorit, raportul de transmisie și cuplul de sarcină la ieșire.",
       },
       {
         name: "Micromotoare de Curent Continuu Seria S",
-        description: "Micromotoare de curent continuu cu diametre de 6 și 10 mm, tensiuni de alimentare între 1,5 și 12 V și turații de până la 24.000 rpm, cu cupluri de sub 2 mNm. Sunt varianta economică față de motoarele fără perii, acolo unde durata de viață și turația extremă contează mai puțin decât costul pe unitate. Pentru selecție, clientul trebuie să precizeze tensiunea disponibilă și turația de lucru dorită.",
+        description: "Micromotoare de curent continuu cu diametre de 6 și 10 mm, tensiuni de alimentare între 1,5 și 12 V și turații de până la 24.000 rpm. Sunt varianta economică față de motoarele fără perii, acolo unde durata de viață și turația extremă contează mai puțin decât costul pe unitate. Pentru selecție, clientul trebuie să precizeze tensiunea disponibilă și turația de lucru dorită.",
       },
     ],
     industries: [
@@ -192,26 +192,26 @@ Pentru aplicații din România unde spațiul de montaj se măsoară în milimetr
       { code: "0824 B", description: "Motor fără perii, diametru 8 mm, cuplu 1,1 mNm" },
       { code: "1028 B", description: "Motor fără perii, diametru 10 mm, cuplu 2,2 mNm" },
       { code: "06/1", description: "Reductor planetar, diametru 6 mm, raport 4:1–4096:1" },
-      { code: "08/1", description: "Reductor planetar, diametru 8 mm, cuplu continuu 60 mNm" },
-      { code: "10/1", description: "Reductor planetar, diametru 10 mm, cuplu 5–100 mNm" },
+      { code: "08/1", description: "Reductor planetar, diametru 8 mm" },
+      { code: "10/1", description: "Reductor planetar, diametru 10 mm, cuplu continuu până la 100 mNm" },
       { code: "03B", description: "Micro reductor planetar, diametru 3,4 mm, raport 25:1–125:1" },
       { code: "06A", description: "Micro reductor planetar, diametru 5,8 mm, cuplu 1,2–6 mNm" },
       { code: "08/2", description: "Reductor cu roți drepte, diametru 8 mm, raport 4:1–1518:1" },
       { code: "08/3", description: "Reductor cu roți drepte, joc unghiular zero, diametru 8 mm" },
       { code: "06L SL", description: "Actuator liniar, diametru 6 mm, forță continuă 3–12 N" },
-      { code: "08L SL", description: "Actuator liniar, diametru 8 mm, forță continuă 4–23 N" },
-      { code: "10L SL", description: "Actuator liniar, diametru 10 mm, forță continuă 5–40 N" },
+      { code: "08L SL", description: "Actuator liniar, diametru 8 mm" },
+      { code: "10L SL", description: "Actuator liniar, diametru 10 mm" },
     ],
     faq: [
       { q: "Ce produce Faulhaber?", a: "Faulhaber produce micromotoare de curent continuu, motoare fără perii de mare turație, reductoare planetare și cu roți drepte, plus actuatoare liniare, la diametre de la 3 la 10 mm. Este un producător german înființat în 1947, cu facilități de dezvoltare și producție inclusiv în România, potrivit paginii oficiale de locații." },
       { q: "Cum aleg un motor Faulhaber după cod?", a: "Codul indică de regulă diametrul motorului în milimetri și lungimea carcasei — de exemplu 0620 înseamnă diametru 6 mm, lungime 20 mm. Pentru alegerea corectă trebuie precizate diametrul maxim admis în aplicație, turația de lucru dorită și cuplul necesar, iar noi confirmăm varianta exactă împreună cu datele publicate de producător.", },
-      { q: "Ce reductor Faulhaber se potrivește unui micromotor cu diametru de 8 mm?", a: "Pentru motoarele de 8 mm, seria de reductoare planetare 08/1 acoperă rapoarte de transmisie de la 4:1 la 4096:1 cu cuplu continuu de 60 mNm, iar seria cu roți drepte 08/2 sau 08/3 (joc zero) e opțiunea când poziționarea fină contează mai mult decât cuplul maxim." },
+      { q: "Ce reductor Faulhaber se potrivește unui micromotor cu diametru de 8 mm?", a: "Pentru motoarele de 8 mm, seria de reductoare planetare 08/1 acoperă rapoarte de transmisie de la 4:1 la 4096:1 iar seria cu roți drepte 08/2 sau 08/3 (joc zero) e opțiunea când poziționarea fină contează mai mult decât cuplul maxim." },
       { q: "Livrați micromotoare Faulhaber în România?", a: "Aducem la comandă micromotoare, reductoare și actuatoare Faulhaber prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii cu producătorul, în funcție de diametrul și varianta exactă solicitate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "FAULHABER – Home", url: "https://www.faulhaber.com/en/", publisher: "Dr. Fritz Faulhaber GmbH & Co. KG", accessed: "2026-09-26" },
       { title: "About Us", url: "https://www.faulhaber.com/en/company/about-us/", publisher: "Dr. Fritz Faulhaber GmbH & Co. KG", accessed: "2026-09-26" },
@@ -224,16 +224,16 @@ Pentru aplicații din România unde spațiul de montaj se măsoară în milimetr
     name: "Kollmorgen",
     founded: 1916,
     headquarters: "Radford, Virginia, SUA",
-    overview: `Kollmorgen este un producător american de servomotoare, motoare pas cu pas și sisteme de mișcare pentru automatizare industrială, cu rădăcini din 1916 la înființarea companiei în New York și sediul actual la Radford, Virginia. Gama include servomotoare rotative de la câțiva Nm până la aplicații de cuplu mare, motoare cadru (frameless) pentru integrare directă în mecanism, motoare pas cu pas și sisteme de acționare directă, plus servodrivere și soluții pentru vehicule autonome de tip AGV. Pentru clienți din România putem oferta din gama Kollmorgen de servomotoare și drivere, aleasă pe cuplu, tensiune de alimentare și tip de mecanic.
+    overview: `Kollmorgen este un producător american de servomotoare, motoare pas cu pas și sisteme de mișcare pentru automatizare industrială, cu rădăcini din 1916 la înființarea companiei în New York și sediul actual la Radford, Virginia. Gama include servomotoare rotative de la câțiva Nm până la aplicații de cuplu mare, motoare cadru (frameless) pentru integrare directă în mecanism, motoare pas cu pas și sisteme de acționare directă, plus servodrivere și soluții pentru vehicule autonome de tip AGV. Pentru clienți din România putem oferta din gama Kollmorgen de servomotoare și drivere, aleasă pe cuplu, tensiune de alimentare și tipul de mecanism acționat.
 
-Dacă majoritatea brandurilor de motoreductoare sau motoare electrice standard acoperă acționări industriale de uz general, Kollmorgen se concentrează pe mișcare de precizie — seria de servomotoare AKM2G, seria de motoare cadru TBM2G și KBM pentru integrare directă în ax, plus motoarele de acționare directă din familia Cartridge DDR, unde traductorul e integrat în motor și nu mai e nevoie de reductor mecanic separat. Seria AKMH e certificată pentru spălare (washdown), iar seria EP e proiectată pentru zone cu risc de explozie.
+Dacă majoritatea brandurilor de motoreductoare sau motoare electrice standard acoperă acționări industriale de uz general, Kollmorgen se concentrează pe mișcare de precizie — seria de servomotoare AKM2G, seria de motoare cadru TBM2G și KBM pentru integrare directă în ax, plus motoarele de acționare directă din familia Cartridge DDR, unde traductorul e integrat în motor și nu mai e nevoie de reductor mecanic separat. Seria AKMH din oțel inoxidabil este destinată aplicațiilor cu spălare (washdown), iar seria EP e proiectată pentru zone cu risc de explozie.
 
 Pentru instalații din România cu cerințe de mișcare de precizie ridicată — linii de asamblare, roboți industriali, echipamente pentru industria alimentară cu spălare frecventă — gama Kollmorgen completează motoarele electrice de uz general deja disponibile în portofoliu.`,
     whyChoose: [
       "Servomotoare AKM2G și motoare cadru TBM2G/KBM pentru integrare directă în mecanismul clientului.",
       "Motoare de acționare directă Cartridge DDR, cu traductor integrat, fără reductor mecanic separat.",
       "Motoare pas cu pas seriile PMX și POWERMAX, pentru aplicații de poziționare fără buclă de control complexă.",
-      "Variantă AKMH certificată pentru spălare (washdown) și serie EP pentru zone cu risc de explozie.",
+      "Variantă AKMH destinată aplicațiilor cu spălare (washdown) și serie EP pentru zone cu risc de explozie.",
     ],
     keyProducts: [
       {
@@ -242,7 +242,7 @@ Pentru instalații din România cu cerințe de mișcare de precizie ridicată �
       },
       {
         name: "Servodrivere Seria AKD2G",
-        description: "Drivere de servoacționare pentru controlul motoarelor din familia AKM, cu suport pentru rețele de automatizare industrială și funcții de siguranță integrate. Sunt gândite pentru cuplare directă cu servomotoarele Kollmorgen, dar acceptă și configurări pentru alte motoare compatibile. Se folosesc în celule robotizate și mașini de ambalare unde e nevoie de sincronizare fină între mai multe axe. Clientul trebuie să indice puterea motorului controlat și protocolul de rețea folosit în instalație.",
+        description: "Drivere de servoacționare pentru controlul motoarelor din familia AKM, cu suport pentru rețele de automatizare industrială și funcții de siguranță integrate. Sunt gândite pentru cuplare directă cu servomotoarele Kollmorgen. Se folosesc în celule robotizate și mașini de ambalare unde e nevoie de sincronizare fină între mai multe axe. Clientul trebuie să indice puterea motorului controlat și protocolul de rețea folosit în instalație.",
       },
       {
         name: "Motoare de Acționare Directă Cartridge DDR",
@@ -252,7 +252,7 @@ Pentru instalații din România cu cerințe de mișcare de precizie ridicată �
     industries: [
       "Robotică industrială — servomotoare de precizie pentru axele roboților",
       "Ambalare și asamblare — motoare cadru și de acționare directă",
-      "Industria alimentară — motoare AKMH certificate pentru spălare",
+      "Industria alimentară — motoare AKMH destinate aplicațiilor cu spălare",
       "Zone cu risc de explozie — motoare seria EP pentru medii periculoase",
     ],
     infinitrade: `Datele tehnice despre seriile Kollmorgen provin din surse publice ale producătorului; niciun fapt propriu despre performanța pe termen lung nu apare în acest text, pentru că nu avem instalații proprii cu aceste motoare. Aducem la comandă servomotoare, drivere și motoare de acționare directă Kollmorgen prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii de către producător. Nu promitem o disponibilitate constantă din fabrică pentru fiecare configurație de motor și driver. Pentru ofertă avem nevoie de cuplul necesar, tensiunea de alimentare, tipul de traductor și protocolul de rețea din instalație.`,
@@ -261,21 +261,21 @@ Pentru instalații din România cu cerințe de mișcare de precizie ridicată �
       { code: "AKM2G", description: "Servomotor rotativ, densitate mare de cuplu, generație recentă" },
       { code: "AKM", description: "Familie de servomotoare rotative sincrone Kollmorgen" },
       { code: "Goldline", description: "Servomotor din gama istorică Kollmorgen" },
-      { code: "EKM", description: "Servomotor rotativ pentru aplicații economice" },
+      { code: "EKM", description: "Servomotor rotativ" },
       { code: "TBM2G", description: "Motor cadru (frameless) pentru integrare directă în ax" },
       { code: "KBM", description: "Motor cadru pentru montaj direct fără carcasă proprie" },
-      { code: "RBE", description: "Motor cadru pentru aplicații de cuplu ridicat" },
+      { code: "RBE", description: "Motor cadru (frameless) pentru acționare directă" },
       { code: "Cartridge DDR", description: "Motor de acționare directă cu traductor integrat" },
       { code: "PMX", description: "Motor pas cu pas pentru poziționare simplă" },
       { code: "POWERMAX M", description: "Motor pas cu pas din familia POWERMAX" },
-      { code: "POWERMAX P", description: "Motor pas cu pas de putere mai mare" },
+      { code: "POWERMAX P", description: "Motor pas cu pas din familia POWERMAX" },
       { code: "POWERPAC K", description: "Motor pas cu pas compact POWERPAC" },
       { code: "POWERPAC N", description: "Motor pas cu pas POWERPAC, variantă N" },
-      { code: "AKMH", description: "Servomotor certificat pentru spălare (washdown)" },
-      { code: "EP Series", description: "Motor certificat pentru zone cu risc de explozie" },
+      { code: "AKMH", description: "Servomotor pentru aplicații cu spălare (washdown)" },
+      { code: "EP Series", description: "Motor antiex pentru zone cu risc de explozie" },
       { code: "AKD2G", description: "Servodriver de generație recentă pentru motoarele AKM" },
-      { code: "S700", description: "Servodriver din familia S pentru aplicații complexe" },
-      { code: "S300", description: "Servodriver S de gamă medie" },
+      { code: "S700", description: "Servodriver din familia S" },
+      { code: "S300", description: "Servodriver din familia S" },
       { code: "P8000", description: "Driver pentru motoare pas cu pas, familia P" },
       { code: "P6000", description: "Driver pentru motoare pas cu pas, gamă medie" },
     ],
@@ -287,8 +287,8 @@ Pentru instalații din România cu cerințe de mișcare de precizie ridicată �
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Kollmorgen – Home", url: "https://www.kollmorgen.com/en-us/", publisher: "Kollmorgen Corporation", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.kollmorgen.com/en-us/products/", publisher: "Kollmorgen Corporation", accessed: "2026-09-26" },
