@@ -4,20 +4,20 @@ export const brandContentBatch85 = {
   'busch-vacuum-solutions': {
     name: "Busch Vacuum Solutions",
     headquarters: "Maulburg, Germania",
-    overview: `Busch Vacuum Solutions fabrică pompe de vid, suflante și compresoare pentru aplicații industriale, cu rădăcini în Germania și fabrici răspândite pe mai multe continente, între care o unitate importantă în Virginia, SUA. Gama de bază include pompe rotative cu palete seria R5, folosite atât în laborator cât și în producție, plus module de vid personalizate pentru linii de ambalare și transport pneumatic. Pentru piața din România putem oferta din gama de pompe de vid Busch acolo unde un proces are nevoie de vid stabil, nu doar de o simplă aspirație.
+    overview: `Busch Vacuum Solutions fabrică pompe de vid, suflante și compresoare pentru aplicații industriale, cu rădăcini în Germania și fabrici răspândite pe mai multe continente, între care o unitate importantă în Virginia, SUA. Gama de bază include pompe rotative cu palete seria R5, folosite în ambalare sub vid și în aplicații industriale, plus module de vid personalizate pentru linii de ambalare și transport pneumatic. Pentru piața din România putem oferta din gama de pompe de vid Busch acolo unde un proces are nevoie de vid stabil, nu doar de o simplă aspirație.
 
-Seria R5 acoperă un interval larg de debite, de la variante mici pentru mese de laborator (tip KD, KB) până la modele industriale RA cu debit mai mare, în execuții lubrifiate standard sau în variantă RE certificată pentru zone cu risc de explozie. Alături de R5, Busch produce și pompe uscate cu gheare și suflante de tip booster pentru procese unde contactul cu ulei nu este acceptat, de exemplu în ambalarea alimentelor sau în industria farmaceutică. În segmentul pompelor de vid industriale, Busch se regăsește adesea alături de Becker, cu ambele branduri prezente în aceleași linii de ambalare sau termoformare.
+Seria R5 acoperă un interval larg de debite, de la variante compacte pentru mașini de ambalare sub vid (tip KD, KB) până la modele industriale RA cu debit mai mare, în execuții lubrifiate standard sau în variantă RE certificată pentru zone cu risc de explozie. Alături de R5, Busch produce și pompe uscate cu gheare și suflante de tip booster pentru procese unde contactul cu ulei nu este acceptat, de exemplu în ambalarea alimentelor sau în industria farmaceutică.
 
 Pentru un integrator sau un producător din România, Busch Vacuum Solutions înseamnă acces la o gamă largă de tehnologii de vid — de la palete lubrifiate la soluții uscate — utilă pentru linii de ambalare sub vid, sisteme CNC cu fixare prin vacuum sau instalații de vid centralizat la nivel de hală.`,
     whyChoose: [
       "Gamă largă de tehnologii de vid — palete lubrifiate, pompe uscate cu gheare și suflante booster, pentru cerințe diferite de puritate",
-      "Seria R5 acoperă de la aplicații mici de laborator până la debite industriale, cu aceeași platformă constructivă",
-      "Variantă RE certificată pentru zone cu risc de explozie, utilă în vopsitorii sau linii cu solvenți",
+      "Seria R5 acoperă debite de la 3,6 până la 1.800 m³/h, în familiile RA, KB, KD, PB și RE",
+      "Variantă RE certificată ATEX pentru zone cu risc de explozie",
       "Rețea de producție și service pe mai multe continente, cu piese disponibile prin canale internaționale",
       "Aplicabilitate largă în industrii reglementate — alimentar, farmaceutic, semiconductori — unde puritatea vidului contează"
     ],
     keyProducts: [
-      { name: "Pompe Rotative cu Palete Seria R5", description: "Pompe de vid cu palete culisante, lubrifiate cu ulei, disponibile în mai multe familii constructive: RA pentru debite industriale mai mari, KB și KD pentru aplicații compacte de laborator sau ambalare de masă, PB pentru uz casnic sau alimentar la scară mică, și RE în variantă certificată pentru zone cu risc de explozie. Presiunea finală variază după familie, de la nivel de vid grosier până la vid înalt pentru distilare și uscare. Aplicație tipică: ambalare sub vid, degazare, filtrare, susținere piese pe mese CNC; clientul trebuie să confirme debitul necesar și dacă are nevoie de execuție antiex." },
+      { name: "Pompe Rotative cu Palete Seria R5", description: "Pompe de vid cu palete culisante, lubrifiate cu ulei, disponibile în mai multe familii constructive: RA pentru debite industriale mai mari, KB și KD pentru aplicații compacte, în special mașini de ambalare sub vid, PB pentru uz casnic sau alimentar la scară mică, și RE în variantă certificată pentru zone cu risc de explozie. Presiunea finală variază după familie, între aproximativ 0,1 și 3 mbar (0,075–2,25 Torr). Aplicație tipică: ambalare sub vid, degazare, filtrare, susținere piese pe mese CNC; clientul trebuie să confirme debitul necesar și dacă are nevoie de execuție antiex." },
       { name: "Pompe Uscate cu Gheare (tip Mink)", description: "Pompe de vid fără ulei, cu funcționare uscată prin gheare rotative, potrivite pentru procese unde contactul cu urme de ulei nu este acceptabil — ambalare alimentară, transport pneumatic de pulberi, aplicații farmaceutice. Elimină costul de mentenanță asociat schimbului periodic de ulei față de o pompă cu palete lubrifiate. Aplicație tipică: linii de ambalare unde produsul intră în contact direct cu aerul evacuat de pompă; clientul trebuie să precizeze debitul de aer necesar și dacă procesul impune certificare pentru contact alimentar." },
       { name: "Suflante și Sisteme Booster de Vid", description: "Suflante folosite ca etaj suplimentar înaintea unei pompe de vid primare, pentru a crește debitul efectiv de aspirație la presiuni intermediare, utile la instalații mari de termoformare. Se dimensionează împreună cu pompa primară, în funcție de volumul camerei de vid și de timpul de ciclu dorit. Aplicație tipică: linii de termoformare pentru ambalaje din plastic." }
     ],
@@ -34,7 +34,7 @@ Pentru un integrator sau un producător din România, Busch Vacuum Solutions în
     productCodes: [
       { code: "R5 RA 0025/0040 F", description: "pompă cu palete industrială, debit mediu-mare" },
       { code: "R5 RA 0063/0100 F", description: "pompă cu palete industrială, debit ridicat" },
-      { code: "R5 RA 0155 A", description: "pompă cu palete industrială, debitul maxim din familia RA" },
+      { code: "R5 RA 0155 A", description: "pompă cu palete industrială din familia RA" },
       { code: "R5 KB 0010/0016 E", description: "pompă compactă pentru spații înguste" },
       { code: "R5 KB 0020-0040 D/F", description: "pompă compactă, debit mediu" },
       { code: "R5 KD 0012/0020 A", description: "pompă de masă pentru ambalare la scară mică" },
@@ -42,18 +42,18 @@ Pentru un integrator sau un producător din România, Busch Vacuum Solutions în
       { code: "R5 PB 0003 D", description: "pompă mică pentru uz casnic sau alimentar" },
       { code: "R5 RE 0040/0063 C", description: "pompă certificată pentru zone cu risc de explozie" },
       { code: "Mink (familie pompe uscate cu gheare)", description: "pompe fără ulei pentru aplicații sensibile la contaminare" },
-      { code: "Panda/Puma (familie suflante booster)", description: "suflante folosite ca etaj suplimentar de vid" },
+      { code: "Panda (familie suflante booster)", description: "suflante folosite ca etaj suplimentar de vid" },
     ],
     faq: [
       { q: "Ce produce Busch Vacuum Solutions?", a: "Busch Vacuum Solutions produce pompe de vid, suflante și compresoare pentru industrie, cu game care merg de la pompe rotative cu palete lubrifiate (seria R5) până la pompe uscate cu gheare pentru procese unde urmele de ulei nu sunt acceptate. Sunt folosite în ambalare, transport pneumatic, semiconductori și farmaceutic." },
       { q: "Ce diferență e între o pompă R5 lubrifiată și una uscată Busch Vacuum Solutions?", a: "Pompa R5 lubrifiată folosește ulei pentru etanșare și răcire, are cost inițial mai mic și mentenanță programată prin schimb de ulei. Varianta uscată nu intră în contact cu ulei, fiind preferată acolo unde produsul procesat nu trebuie contaminat, de exemplu în ambalarea alimentelor, cu costuri de întreținere diferite." },
       { q: "Livrați pompe în România și în cât timp?", a: "Da, aducem pompe Busch la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității din fabrică. Nu ținem această gamă pe raft, așa că termenul exact se confirmă după plasarea comenzii pe codul specific." },
-      { q: "Ce trebuie să trimit pentru o ofertă de pompă de vid Busch Vacuum Solutions?", a: "Ai nevoie să ne spui debitul necesar în m³/h, nivelul de vid final dorit, dacă procesul acceptă contact cu ulei sau impune pompă uscată, și dacă zona de montaj are risc de explozie. Cu aceste date verificăm modelul potrivit din gama Busch și termenul de livrare." },
+      { q: "Ce trebuie să trimit pentru o ofertă de pompă de vid Busch Vacuum Solutions?", a: "Vă rugăm să ne comunicați debitul necesar în m³/h, nivelul de vid final dorit, dacă procesul acceptă contact cu ulei sau impune pompă uscată, și dacă zona de montaj are risc de explozie. Cu aceste date verificăm modelul potrivit din gama Busch și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Busch Vacuum Solutions - Home", url: "https://www.buschvacuum.com", publisher: "Busch Vacuum Solutions", accessed: "2026-09-25" },
       { title: "Busch R5 Vacuum Pumps", url: "https://www.buschvacuum.com/us/en/products/vacuum-pumps/rotary-vane/r5/", publisher: "Busch Vacuum Solutions", accessed: "2026-09-25" },
@@ -62,15 +62,15 @@ Pentru un integrator sau un producător din România, Busch Vacuum Solutions în
   'borger': {
     name: "Börger",
     headquarters: "Borken-Weseke, Germania",
-    overview: `Börger este un producător german de pompe cu lobi rotativi, cu sediul la Borken-Weseke, în vestul Germaniei. Gama principală acoperă seriile BLUEline Nova și BLUEline Legend de pompe cu lobi, alături de ONIXline pentru aplicații robuste și Variocap ca variantă cu cap de pompare interschimbabil. Pentru piața din România putem oferta din gama de pompe cu lobi Börger acolo unde produsul de transportat conține fibre, solide sau este vâscos, iar o pompă centrifugală clasică nu ține pasul.
+    overview: `Börger este un producător german de pompe cu lobi rotativi, cu sediul la Borken-Weseke, în vestul Germaniei. Gama principală acoperă seriile BLUEline Nova și BLUEline Legend de pompe cu lobi, alături de ONIXline pentru aplicații robuste și Variocap ca sistem mecanic de protecție la suprapresiune. Pentru piața din România putem oferta din gama de pompe cu lobi Börger acolo unde produsul de transportat conține fibre, solide sau este vâscos, iar o pompă centrifugală clasică nu ține pasul.
 
-Ce diferențiază pompele cu lobi rotativi de o pompă centrifugală e capacitatea de a pompa fluide cu conținut mare de solide sau fibre lungi, fără să le tocheze inutil, la debit relativ constant indiferent de contrapresiune. Seria BLUEline Nova acoperă mai multe dimensiuni de carcasă (AN, PN, QN), fiecare cu debit maxim și presiune maximă proprii, pentru a acoperi atât aplicații mici de dozare cât și transferuri mai mari de nămol. În categoria pompelor cu lobi pentru nămol și biogaz, Börger se compară direct cu Vogelsang, ambele fiind nume de referință în stațiile de epurare și instalațiile de biogaz din Europa.
+Ce diferențiază pompele cu lobi rotativi de o pompă centrifugală e capacitatea de a pompa fluide cu conținut mare de solide sau fibre lungi, fără să le tocheze inutil, la debit relativ constant indiferent de contrapresiune. Seria BLUEline Nova acoperă mai multe dimensiuni de carcasă (AN, PN, QN), fiecare cu debit maxim și presiune maximă proprii, pentru a acoperi atât aplicații mici de dozare cât și transferuri mai mari de nămol. În categoria pompelor cu lobi pentru nămol și biogaz, Börger se compară direct cu Vogelsang, ambele fiind întâlnite în stațiile de epurare și instalațiile de biogaz din Europa.
 
 Pentru un operator de stație de epurare sau o instalație de biogaz din România, Börger înseamnă acces la pompe capabile să transporte nămol, dejecții animale sau substrat de biogaz fără colmatare frecventă, cu variante scufundate pentru montaj direct în bazin acolo unde spațiul de hală e limitat.`,
     whyChoose: [
       "Pompe cu lobi rotativi pentru fluide cu conținut de fibre sau solide, fără tocare excesivă a materialului",
       "Gamă de dimensiuni AN, PN, QN în seria BLUEline Nova, pentru debite diferite de la dozare la transfer",
-      "Variantă Variocap cu cap de pompare interschimbabil, utilă când parametrii procesului se schimbă în timp",
+      "Variocap, sistem mecanic care protejează pompa la creșteri necontrolate de presiune",
       "Pompe scufundate și semi-scufundate pentru montaj direct în bazin, acolo unde spațiul de hală lipsește",
       "Configurare individuală pentru fiecare aplicație, cu piese de schimb și service post-vânzare disponibile prin producător"
     ],
@@ -97,7 +97,7 @@ Pentru un operator de stație de epurare sau o instalație de biogaz din Români
       { code: "QN 300", description: "pompă cu lobi, debit max. 110 m3/h" },
       { code: "BLUEline Legend (familie)", description: "linie clasică de pompe cu lobi rotativi" },
       { code: "ONIXline (familie)", description: "serii robuste de pompe cu lobi" },
-      { code: "Variocap (familie)", description: "pompă cu cap de pompare interschimbabil" },
+      { code: "Variocap (familie)", description: "sistem mecanic de protecție la suprapresiune" },
       { code: "Pompe scufundate/semi-scufundate", description: "montaj direct în bazin, fără cameră separată" },
     ],
     faq: [
@@ -108,8 +108,8 @@ Pentru un operator de stație de epurare sau o instalație de biogaz din Români
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Börger GmbH - Startseite", url: "https://www.boerger.com/de/", publisher: "Börger GmbH", accessed: "2026-09-25" },
       { title: "BLUEline Nova - Rotary Lobe Pumps", url: "https://www.boerger.com/en/products/rotary-lobe-pumps/blueline-nova/", publisher: "Börger GmbH", accessed: "2026-09-25" },
@@ -133,8 +133,8 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
     ],
     keyProducts: [
       { name: "Pompe Turbină Cor-Flo, Familiile DL și F", description: "Pompe turbină pentru gaze petroliere lichefiate, disponibile în familia DL (montaj direct pe motor electric, tip C-Face) și familia F (montaj pe cadru, cu cuplaj), fiecare în mai multe dimensiuni numerotate de la 10 la 19, plus variante de capacitate mai mare 060, 075 și 150. Debit de până la aproximativ 50 gpm (189 l/min) și presiune diferențială de până la 250 psi (17,2 bar). Aplicație tipică: transfer propan sau butan din cisternă în rezervor de depozitare; clientul trebuie să confirme debitul necesar și tipul de montaj (pe motor sau pe cadru)." },
-      { name: "Pompe cu Palete Culisante Coro-Vane", description: "Pompe cu palete culisante pentru gaze petroliere lichefiate, folosite acolo unde se cere o soluție compactă și robustă pentru debite moderate. Paletele glisante se auto-ajustează la uzură, menținând etanșarea internă pe durata de viață a pompei. Aplicație tipică: transfer de propan sau amoniac agricol în instalații de dimensiuni medii; clientul trebuie să transmită presiunea de lucru a instalației și tipul exact de gaz lichefiat vehiculat." },
-      { name: "Sistem de Descărcare Propane Miser", description: "Sistem dedicat descărcării vagoanelor cisternă cu propan sau butan, conceput pentru a reduce cantitatea de gaz rămasă necesar recuperată la finalul descărcării. Se integrează cu pompele turbină sau cu palete din gama Corken într-o instalație completă de descărcare. Aplicație tipică: terminale de distribuție GPL cu descărcare regulată de vagoane cisternă; clientul trebuie să precizeze capacitatea vagonului și presiunea disponibilă la punctul de descărcare." },
+      { name: "Pompe cu Palete Culisante Coro-Vane", description: "Pompe cu palete culisante pentru gaze petroliere lichefiate, folosite acolo unde se cere o soluție compactă și robustă pentru debite moderate. Aplicație tipică: transfer de propan sau amoniac agricol în instalații de dimensiuni medii; clientul trebuie să transmită presiunea de lucru a instalației și tipul exact de gaz lichefiat vehiculat." },
+      { name: "Sistem de Descărcare Propane Miser", description: "Sistem dedicat descărcării vagoanelor cisternă cu propan sau butan, conceput pentru a elimina propanul rămas în vagon, până la 0 psig. Se integrează cu pompele turbină sau cu palete din gama Corken într-o instalație completă de descărcare. Aplicație tipică: terminale de distribuție GPL cu descărcare regulată de vagoane cisternă; clientul trebuie să precizeze capacitatea vagonului și presiunea disponibilă la punctul de descărcare." },
       { name: "Compresoare Verticale și Orizontale pentru LPG", description: "Compresoare dedicate recuperării vaporilor și transferului complet de gaze petroliere lichefiate, disponibile în execuție verticală sau orizontală, folosite adesea împreună cu pompele Corken într-o instalație de îmbuteliere sau descărcare completă. Aplicație tipică: recuperarea vaporilor rămași într-o cisternă după transferul lichidului; clientul trebuie să confirme volumul de gaz de recuperat și presiunea de lucru a instalației." }
     ],
     industries: [
@@ -142,7 +142,7 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
       "Chimie — transfer amoniac agricol și alte gaze lichefiate",
       "Petrol și gaze naturale — recuperare vapori și transfer produse lichefiate",
       "Transport — descărcare vagoane cisternă și autocisterne cu gaze lichefiate",
-      "Aviație — sisteme de transfer pentru combustibili speciali lichefiați"
+      "Aviație — transfer de combustibil de aviație cu pompele industriale Corken"
     ],
     infinitrade: `Furnizăm pompe și compresoare Corken pentru gaze petroliere lichefiate pe baza informațiilor publicate de producător — nu deținem date proprii despre stocul lor și nu promitem disponibilitate imediată pentru niciun model. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, confirmat după verificarea disponibilității în fabrică. Pentru o ofertă avem nevoie de tipul de gaz lichefiat vehiculat, debitul și presiunea diferențială necesară, plus tipul de montaj dorit.`,
     limitation: "Nu putem confirma certificarea UL pentru fiecare configurație individuală de sistem fără specificațiile exacte transmise de client.",
@@ -176,8 +176,8 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Corken - LPG Pumps and Compressors", url: "https://www.corken.com", publisher: "Corken Inc.", accessed: "2026-09-25" },
       { title: "LPG Turbine Pumps", url: "https://corken.com/lpg-turbine-pumps/", publisher: "Corken Inc.", accessed: "2026-09-25" },
@@ -190,27 +190,27 @@ Pentru un operator de stație GPL sau un integrator de instalații de îmbutelie
 
 Ce diferențiază gama ROTAN e plaja largă de tipuri constructive — GP pentru aplicații generale cu ulei curat, CHD, PD, HD, ED și CD pentru variante specializate pe presiune și viscozitate — toate bazate pe principiul pompei cu roți dințate interne, care oferă debit constant indiferent de contrapresiune. Seria GP, de exemplu, acoperă debite de până la 50 m³/h și presiuni de până la 16 bar, la temperaturi de lucru de până la 150°C. Pe segmentul pompelor marine și industriale, DESMI se regăsește adesea în comparație cu Flowserve, ambele fiind furnizori de echipamente critice pentru instalații navale și industriale mari.
 
-Pentru un șantier naval, un operator portuar sau un integrator industrial din România, DESMI înseamnă acces la pompe verificate în aplicații navale reale, de la balast la sisteme de combustibil, plus o gamă industrială ROTAN pentru transferul uleiurilor și fluidelor de proces în afara sectorului naval.`,
+Pentru un șantier naval, un operator portuar sau un integrator industrial din România, DESMI înseamnă acces la pompe pentru aplicații navale, de la balast la sisteme de combustibil, plus o gamă industrială ROTAN pentru transferul uleiurilor și fluidelor de proces în afara sectorului naval.`,
     whyChoose: [
       "Gamă ROTAN cu mai multe tipuri constructive (GP, CHD, PD, HD, ED, CD), pentru viscozități și presiuni diferite",
       "Pompe cu șurub triplu seria K, dedicate transferului de combustibil și ulei de ungere pe nave",
       "Debit practic constant indiferent de contrapresiune, avantaj important la dozare și transfer de proces",
       "Sisteme complete integrate — tratare apă de balast, stins incendii, economie de energie — nu doar pompe individuale",
-      "Prezență puternică în sectorul naval, cu pompe verificate pentru aplicații critice la bordul navelor"
+      "Pompe și sisteme pentru aplicații navale, de la balast la combustibil"
     ],
     keyProducts: [
-      { name: "Pompe Interne cu Roți Dințate ROTAN Seria GP", description: "Pompe interne cu roți dințate pentru uz general, cu porturi de aspirație și refulare opuse și supradimensionate, auto-amorsante și cu capacitate mare de aspirație. Debit de până la 50 m³/h, presiune de până la 16 bar, temperatură de lucru de până la 150°C și viscozitate acceptată de până la 7.500 cSt. Disponibilă în mai multe dimensiuni (26, 33, 41, 51, 66). Aplicație tipică: transfer ulei curat, ulei uzat, glicol sau ulei vegetal în instalații industriale; clientul trebuie să confirme viscozitatea fluidului și debitul necesar." },
+      { name: "Pompe Interne cu Roți Dințate ROTAN Seria GP", description: "Pompe interne cu roți dințate pentru uz general, cu porturi de aspirație și refulare opuse și supradimensionate, auto-amorsante și cu capacitate mare de aspirație. Debit de până la 50 m³/h, presiune de până la 16 bar, temperatură de lucru de până la 150°C și viscozitate acceptată de până la 7.500 cSt. Disponibilă în mai multe dimensiuni (26, 33, 41, 51, 66). Aplicație tipică: transfer de lichide curate și neabrazive, în instalații industriale; clientul trebuie să confirme viscozitatea fluidului și debitul necesar." },
       { name: "Pompe cu Șurub Triplu Seria K", description: "Pompe cu șurub triplu pentru transferul de combustibil, ulei de ungere sau fluide hidraulice la bordul navelor, cu funcționare silențioasă și debit uniform indiferent de viscozitate. Construcție compactă, adaptată spațiilor limitate din sala mașinilor. Aplicație tipică: alimentare motoare navale cu combustibil sau ungere turbine; clientul trebuie să precizeze tipul de combustibil sau ulei și debitul necesar la bord." },
       { name: "Sistem de Tratare a Apei de Balast CompactClean", description: "Sistem complet de tratare a apei de balast, integrat cu pompele DESMI din instalația navală, conceput pentru a respecta reglementările internaționale privind evacuarea apei de balast. Aplicație tipică: nave care trebuie să dezinfecteze apa de balast înainte de evacuare în port; clientul trebuie să precizeze capacitatea de balast a navei pentru dimensionarea corectă a sistemului." }
     ],
     industries: [
       "Marină și construcții navale — balast, combustibil, ulei de ungere la bordul navelor",
       "Industrie și utilități — transfer ulei și fluide de proces cu pompe ROTAN",
-      "Energie regenerabilă — pompe pentru instalații offshore și onshore",
+      "Energie — soluții pentru tranziția energetică, inclusiv Power-to-X",
       "Acvacultură — sisteme de tratare UV a apei în fermele piscicole",
       "Apărare — echipamente de pompare pentru nave militare"
     ],
-    infinitrade: `Aducem pompe DESMI — atât gama industrială ROTAN, cât și pompele marine — prin canale de aprovizionare din UE, la comandă. Nu avem date proprii de stoc pentru acest brand și nu promitem disponibilitate imediată; ne bazăm exclusiv pe ce publică producătorul despre gama sa. Termenul orientativ de livrare e de 1–4 săptămâni, în funcție de model și de confirmarea din fabrică daneză. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, viscozitatea aproximativă, debitul și presiunea necesară, iar pentru aplicații navale și de tipul instalației de la bord.`,
+    infinitrade: `Aducem pompe DESMI — atât gama industrială ROTAN, cât și pompele marine — prin canale de aprovizionare din UE, la comandă. Nu avem date proprii de stoc pentru acest brand și nu promitem disponibilitate imediată; ne bazăm exclusiv pe ce publică producătorul despre gama sa. Termenul orientativ de livrare e de 1–4 săptămâni, în funcție de model și de confirmarea din fabrică daneză. Pentru o ofertă avem nevoie de tipul de fluid vehiculat, viscozitatea aproximativă, debitul și presiunea necesară, iar pentru aplicații navale și tipul instalației de la bord.`,
     limitation: "Nu putem confirma compatibilitatea directă cu o instalație navală existentă fără planurile tehnice ale sistemului respectiv.",
     productCodes: [
       { code: "ROTAN GP 26", description: "pompă cu roți dințate interne, dimensiune mică" },
@@ -236,8 +236,8 @@ Pentru un șantier naval, un operator portuar sau un integrator industrial din R
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "DESMI - Make life flow", url: "https://www.desmi.com", publisher: "DESMI A/S", accessed: "2026-09-25" },
       { title: "ROTAN GP Internal Gear Pump", url: "https://www.desmi.com/products-solutions-library/rotan-gp-internal-gear-pump/", publisher: "DESMI A/S", accessed: "2026-09-25" },
@@ -247,9 +247,9 @@ Pentru un șantier naval, un operator portuar sau un integrator industrial din R
     name: "Debem",
     founded: 1982,
     headquarters: "Busto Arsizio, Italia",
-    overview: `Debem este un producător italian de pompe pneumatice cu membrană și pompe centrifuge cu acționare magnetică, cu sediul la Busto Arsizio, în provincia Varese. Gama acoperă pompe cu membrană dublă acționate pneumatic din familiile Boxer, Cubic și Fullflow, o variantă Foodbaxer pentru contact alimentar, pompe centrifuge magnetice orizontale DM și KM, plus pompe de transfer din butoaie și amortizoare de pulsații. Pentru piața din România putem oferta din gama Debem acolo unde fluidul e coroziv, abraziv sau conține particule, iar o pompă centrifugală clasică nu rezistă.
+    overview: `Debem este un producător italian de pompe pneumatice cu membrană și pompe centrifuge cu acționare magnetică, cu sediul la Busto Arsizio, în provincia Varese. Gama acoperă pompe cu membrană dublă acționate pneumatic din familiile Boxer, Cubic și Fullflow, o variantă Foodboxer pentru contact alimentar, pompe centrifuge magnetice orizontale DM și KM, plus pompe de transfer din butoaie și amortizoare de pulsații. Pentru piața din România putem oferta din gama Debem acolo unde fluidul e coroziv, abraziv sau conține particule, iar o pompă centrifugală clasică nu rezistă.
 
-Avantajul unei pompe cu membrană pneumatică Debem e absența unei etanșări mecanice supuse frecării, ceea ce reduce riscul de scurgere la fluide agresive, plus auto-amorsarea la vid negativ uscat, utilă la golirea completă a unui vas. Pompele centrifuge magnetice DM și KM elimină la rândul lor etanșarea mecanică prin cuplaj magnetic, potrivite pentru chimicale periculoase unde o scurgere nu e acceptabilă. Certificările ATEX și IECEx acoperă variante pentru zone cu risc de explozie. În segmentul pompelor pneumatice cu membrană, Debem se compară cu Wilden, ambele fiind nume de referință în industria chimică și de procesare.
+Avantajul unei pompe cu membrană pneumatică Debem e absența unei etanșări mecanice supuse frecării, ceea ce reduce riscul de scurgere la fluide agresive, plus auto-amorsarea la vid negativ uscat, utilă la golirea completă a unui vas. Pompele centrifuge magnetice DM și KM elimină la rândul lor etanșarea mecanică prin cuplaj magnetic, potrivite pentru chimicale periculoase unde o scurgere nu e acceptabilă. Certificările ATEX și IECEx acoperă variante pentru zone cu risc de explozie. În segmentul pompelor pneumatice cu membrană, Debem se compară cu Wilden, ambele fiind întâlnite în industria chimică și de procesare.
 
 Pentru un operator din chimie, galvanizare sau industrie alimentară din România, Debem înseamnă acces la pompe fără etanșare mecanică clasică, utile la transferul de acizi, vopsele, adezivi sau produse alimentare vâscoase, cu variante certificate pentru zone cu atmosferă explozivă.`,
     whyChoose: [
@@ -257,12 +257,12 @@ Pentru un operator din chimie, galvanizare sau industrie alimentară din Români
       "Auto-amorsare la vid negativ uscat, utilă la golirea completă a unui vas sau butoi",
       "Pompe centrifuge magnetice DM și KM, fără etanșare mecanică, pentru chimicale periculoase",
       "Certificări ATEX și IECEx pentru variante destinate zonelor cu risc de explozie",
-      "Variantă Foodbaxer dedicată contactului cu produse alimentare, conform cerințelor FDA"
+      "Variantă Foodboxer dedicată contactului cu produse alimentare, conform cerințelor FDA"
     ],
     keyProducts: [
       { name: "Pompe cu Membrană Boxer", description: "Pompe pneumatice cu membrană dublă, auto-amorsante la vid negativ uscat, robuste și potrivite pentru condiții pretențioase de exploatare continuă. Nu au etanșare mecanică supusă frecării, ceea ce reduce riscul de scurgere la fluide corozive sau abrazive. Aplicație tipică: transfer de vopsele, adezivi, acizi diluați sau nămoluri industriale; clientul trebuie să confirme compatibilitatea chimică a materialului membranei cu fluidul vehiculat și presiunea de aer disponibilă." },
       { name: "Pompe Centrifuge Magnetice DM și KM", description: "Pompe centrifuge cu cuplaj magnetic, fără etanșare mecanică între motor și rotor, eliminând riscul de scurgere la fluide periculoase sau toxice. Seria DM și KM acoperă aplicații orizontale de transfer continuu în industria chimică. Aplicație tipică: transfer de chimicale corozive în circuit închis; clientul trebuie să precizeze debitul, presiunea necesară și compatibilitatea materialelor umede cu fluidul." },
-      { name: "Pompe cu Membrană Foodbaxer", description: "Variantă a pompei cu membrană dublă, construită din materiale compatibile cu contactul alimentar direct, conform cerințelor FDA. Păstrează principiul de funcționare auto-amorsantă al gamei Boxer, adaptat pentru igienizare și curățare frecventă. Aplicație tipică: transfer de produse alimentare vâscoase sau semi-lichide în industria de procesare; clientul trebuie să confirme tipul de produs alimentar și frecvența de curățare necesară." }
+      { name: "Pompe cu Membrană Foodboxer", description: "Variantă a pompei cu membrană dublă, construită din materiale compatibile cu contactul alimentar direct, conform cerințelor FDA. Păstrează principiul de funcționare auto-amorsantă al gamei Boxer, adaptat pentru igienizare și curățare frecventă. Aplicație tipică: transfer de produse alimentare vâscoase sau semi-lichide în industria de procesare; clientul trebuie să confirme tipul de produs alimentar și frecvența de curățare necesară." }
     ],
     industries: [
       "Chimie și galvanizare — transfer acizi, vopsele și chimicale corozive",
@@ -274,10 +274,10 @@ Pentru un operator din chimie, galvanizare sau industrie alimentară din Români
     infinitrade: `Aducem pompe Debem la comandă prin canale de aprovizionare din UE, pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru acest brand. Termenul orientativ de livrare e de 1–4 săptămâni, confirmat după verificarea disponibilității în fabrica din Italia; nu ținem pompe Debem pe raft în mod curent. Pentru o ofertă avem nevoie de tipul de fluid pompat, compatibilitatea chimică necesară pentru membrană sau piesele umede, debitul dorit și, dacă e cazul, dacă zona de montaj impune certificare ATEX.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui material de membrană cu un amestec chimic complex fără fișa tehnică de siguranță a fluidului.",
     productCodes: [
-      { code: "CUBIC", description: "pompă pneumatică cu membrană, gamă compactă" },
+      { code: "CUBIC", description: "pompă pneumatică volumetrică pentru lichide vâscoase cu particule în suspensie" },
       { code: "BOXER", description: "pompă pneumatică cu membrană dublă, uz general" },
-      { code: "FULLFLOW", description: "pompă pneumatică cu membrană, debit ridicat" },
-      { code: "FOODBAXER", description: "pompă cu membrană pentru contact alimentar, conform FDA" },
+      { code: "FULLFLOW", description: "serie de pompe pneumatice volumetrice" },
+      { code: "FOODBOXER", description: "pompă cu membrană pentru contact alimentar, conform FDA" },
       { code: "DM", description: "pompă centrifugă cu cuplaj magnetic, orizontală" },
       { code: "KM", description: "pompă centrifugă cu cuplaj magnetic, orizontală" },
       { code: "MB", description: "pompă centrifugă orizontală cu etanșare mecanică" },
@@ -286,15 +286,15 @@ Pentru un operator din chimie, galvanizare sau industrie alimentară din Români
       { code: "EQUAFLUX", description: "amortizor de pulsații pentru linia de pompare" },
     ],
     faq: [
-      { q: "Ce produce Debem?", a: "Debem produce pompe pneumatice cu membrană dublă și pompe centrifuge cu cuplaj magnetic, folosite pentru fluide corozive, abrazive sau cu conținut de particule. Gama include familiile Boxer, Cubic și Fullflow, plus varianta Foodbaxer pentru contact alimentar și pompele magnetice DM/KM pentru chimicale." },
+      { q: "Ce produce Debem?", a: "Debem produce pompe pneumatice cu membrană dublă și pompe centrifuge cu cuplaj magnetic, folosite pentru fluide corozive, abrazive sau cu conținut de particule. Gama include familiile Boxer, Cubic și Fullflow, plus varianta Foodboxer pentru contact alimentar și pompele magnetice DM/KM pentru chimicale." },
       { q: "Cum aleg o pompă cu membrană Debem după compatibilitatea chimică?", a: "Trebuie să ne trimiți tipul exact de fluid vehiculat, eventual fișa tehnică de siguranță, pentru a verifica ce material de membrană (de exemplu PTFE sau elastomeri) rezistă la contact prelungit. De asta depinde alegerea între familiile Boxer, Cubic sau Fullflow din gama Debem." },
       { q: "Livrați pompe Debem în România și cât durează?", a: "Da, aducem pompe Debem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft niciun model, deci confirmăm termenul exact după plasarea comenzii cu specificațiile tehnice ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă centrifugă magnetică Debem?", a: "Ai nevoie să precizezi tipul de fluid, debitul și presiunea necesară, temperatura de lucru și materialele compatibile cu chimicalul vehiculat. Cu aceste date verificăm dacă seria DM sau KM se potrivește aplicației tale și confirmăm termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Debem - AODD and Magnetic Drive Pumps", url: "https://www.debem.com/en/", publisher: "Debem Srl", accessed: "2026-09-25" },
       { title: "Products - Debem", url: "https://www.debem.com/en/products/", publisher: "Debem Srl", accessed: "2026-09-25" },
@@ -327,12 +327,12 @@ Pentru un integrator industrial din România care lucrează cu fluide multifazic
       "Curățare industrială — sisteme de pompare pentru procese de curățare",
       "Apă și ape uzate — pompe centrifuge pentru instalații de tratare"
     ],
-    infinitrade: `Aducem pompe EDUR prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fiind un producător care configurează fiecare pompă pe aplicație, nu ținem această gamă pe raft din gama EDUR și nu deținem date proprii despre disponibilitatea din fabrică — lucrăm cu ce confirmă producătorul pentru fiecare cerere în parte. Pentru o ofertă avem nevoie de tipul de fluid (inclusiv procentul de gaz, dacă e cazul), debitul și presiunea necesară, plus temperatura de lucru a instalației. Recomandăm contactul direct cu echipa tehnică EDUR pentru aplicații neobișnuite.`,
+    infinitrade: `Aducem pompe EDUR prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fiind un producător care configurează fiecare pompă pe aplicație, nu ținem această gamă pe raft și nu deținem date proprii despre disponibilitatea din fabrică — lucrăm cu ce confirmă producătorul pentru fiecare cerere în parte. Pentru o ofertă avem nevoie de tipul de fluid (inclusiv procentul de gaz, dacă e cazul), debitul și presiunea necesară, plus temperatura de lucru a instalației. Recomandăm contactul direct cu echipa tehnică EDUR pentru aplicații neobișnuite.`,
     limitation: "Nu putem confirma configurația exactă a unei pompe EDUR pentru o aplicație multifazică neobișnuită fără o cerere tehnică punctuală către producător.",
     productCodes: [
       { code: "PBU (familie multifază)", description: "pompă multifază, debit max. 60 m3/h" },
       { code: "LBU (familie multifază)", description: "pompă multifază, debit max. 60 m3/h" },
-      { code: "VBU (familie multifază)", description: "pompă multifază, variantă constructivă specială" },
+      
       { code: "LB (gaze lichefiate)", description: "pompă pentru gaze lichefiate, debit max. 170 m3/h" },
       { code: "NHKE-Series", description: "pompă pentru gaze lichefiate" },
       { code: "S-Series (gaze lichefiate)", description: "pompă pentru gaze lichefiate" },
@@ -349,8 +349,8 @@ Pentru un integrator industrial din România care lucrează cu fluide multifazic
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "EDUR - Centrifugal Pump Manufacturer", url: "https://www.edur.com/en/", publisher: "EDUR-Pumpenfabrik Eduard Redlien GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Multiphase Pumps", url: "https://www.edur.com/en/pumps/multiphase-pumps", publisher: "EDUR-Pumpenfabrik Eduard Redlien GmbH & Co. KG", accessed: "2026-09-25" },
@@ -361,7 +361,7 @@ Pentru un integrator industrial din România care lucrează cu fluide multifazic
     headquarters: "Mürlenbach, Germania",
     overview: `FELUWA este un producător german de pompe cu membrană cu dublu tub, cu sediul la Mürlenbach, specializat pe transportul fluidelor abrazive, agresive chimic sau toxice care ar distruge rapid o pompă centrifugală obișnuită. Gama principală, MULTISAFE, e organizată pe trei tipuri constructive — simplex (SG), triplex (TG/TGK) și quintuplex (QGK) — plus varianta EcoTrans MULTISAFE pentru presiuni joase și livrare rapidă. Pentru piața din România putem oferta din gama FELUWA acolo unde nămolul, suspensia minerală sau produsul chimic transportat impune o pompă cu izolare dublă, nu o soluție standard.
 
-Tehnologia dublu-tub a FELUWA separă fluidul de proces de sistemul hidraulic printr-un tub de cauciuc sau elastomer dublu, cu monitorizare a spațiului dintre cele două membrane pentru detectarea din timp a unei eventuale fisuri. Gama acoperă debite de până la 1.350 m³/h și presiuni de până la 350 bar, cu variante de la SG 70 pentru puteri mici până la TGK 500 și QGK 500 pentru instalații de mare capacitate, cu puteri de motor de câțiva kW până la câteva mii de kW. În categoria pompelor cu membrană pentru medii abrazive, FELUWA se compară cu Netzsch, ambele fiind furnizori de referință în minerit și tratarea nămolurilor.
+Tehnologia dublu-tub a FELUWA separă fluidul de proces de sistemul hidraulic printr-un tub de cauciuc sau elastomer dublu, cu monitorizare a spațiului dintre cele două membrane pentru detectarea din timp a unei eventuale fisuri. Gama acoperă debite de până la 1.350 m³/h și presiuni de până la 350 bar, cu variante de la SG 70 pentru puteri mici până la TGK 500 și QGK 500 pentru instalații de mare capacitate, cu puteri de motor de câțiva kW până la câteva mii de kW. În categoria pompelor cu membrană pentru medii abrazive, FELUWA se compară cu Netzsch, ambele fiind întâlnite în minerit și tratarea nămolurilor.
 
 Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din România, FELUWA înseamnă acces la pompe capabile să transporte nămoluri abrazive sau suspensii minerale la presiuni ridicate, cu siguranță suplimentară dată de izolarea dublă a fluidului de proces.`,
     whyChoose: [
@@ -373,7 +373,7 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
     ],
     keyProducts: [
       { name: "MULTISAFE Simplex, Seria SG", description: "Pompe cu membrană dublu-tub în execuție simplex, cu un singur cilindru de pompare, disponibile în mai multe dimensiuni de la SG 70 la SG 250, cu putere de acționare de la câțiva kW până la 150 kW. Recomandate pentru aplicații de capacitate mică sau medie unde un singur cilindru acoperă debitul necesar. Aplicație tipică: dozare sau transfer de suspensii minerale în instalații de capacitate redusă; clientul trebuie să confirme debitul și presiunea de refulare necesară." },
-      { name: "MULTISAFE Triplex, Seriile TG și TGK", description: "Pompe cu membrană dublu-tub în execuție triplex, cu trei cilindri de pompare pentru debit mai uniform, de la TG 70 până la TGK 500 pentru instalații de capacitate mare, cu puteri de acționare de la 15 kW la peste 2.500 kW. Aplicație tipică: transport de nămol minier sau suspensii abrazive pe distanțe lungi; clientul trebuie să precizeze debitul, presiunea și conținutul de solide al fluidului." },
+      { name: "MULTISAFE Triplex, Seriile TG și TGK", description: "Pompe cu membrană dublu-tub în execuție triplex, cu trei cilindri de pompare pentru debit mai uniform, de la TG 70 până la TGK 500 pentru instalații de capacitate mare, cu puteri de acționare de la 3 kW la 2.800 kW. Aplicație tipică: transport de nămol minier sau suspensii abrazive pe distanțe lungi; clientul trebuie să precizeze debitul, presiunea și conținutul de solide al fluidului." },
       { name: "MULTISAFE Quintuplex, Seria QGK", description: "Pompe cu membrană dublu-tub cu cinci cilindri de pompare, gândite pentru cele mai mari capacități din gama FELUWA, cu puteri de acționare de până la 3.500 kW la varianta QGK 500. Aplicație tipică: instalații industriale de mare capacitate unde debitul necesar depășește ce poate acoperi o execuție triplex; clientul trebuie să transmită parametrii completi ai instalației pentru dimensionare." }
     ],
     industries: [
@@ -382,7 +382,7 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
       "Tratarea apelor uzate — transport nămol de la stațiile de epurare",
       "Energie — aplicații industriale cu presiuni ridicate de lucru"
     ],
-    infinitrade: `Aducem pompe FELUWA prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru gama MULTISAFE standard. Nu deținem date proprii de stoc pentru acest brand — ne bazăm pe informațiile publice ale producătorului și pe confirmarea din fabrica germană pentru fiecare comandă. Pentru o ofertă avem nevoie de tipul de fluid transportat, conținutul de solide, debitul și presiunea de refulare necesară. Pentru varianta EcoTrans MULTISAFE, cu presiuni mai joase, termenul de livrare poate fi mai scurt, dar tot confirmat individual cu producătorul.`,
+    infinitrade: `Aducem pompe FELUWA prin canale de aprovizionare din UE, la comandă; termenul se confirmă individual cu producătorul și, pentru configurațiile TGK și QGK de mare capacitate, poate depăși 4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — ne bazăm pe informațiile publice ale producătorului și pe confirmarea din fabrica germană pentru fiecare comandă. Pentru o ofertă avem nevoie de tipul de fluid transportat, conținutul de solide, debitul și presiunea de refulare necesară. Pentru varianta EcoTrans MULTISAFE, cu presiuni mai joase, termenul de livrare poate fi mai scurt, dar tot confirmat individual cu producătorul.`,
     limitation: "Nu putem confirma termenul exact de livrare pentru o configurație TGK sau QGK de mare capacitate fără specificațiile complete ale instalației.",
     productCodes: [
       { code: "SG 70-DS", description: "pompă simplex, putere mică" },
@@ -406,13 +406,13 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
     faq: [
       { q: "Ce produce FELUWA?", a: "FELUWA produce pompe cu membrană dublu-tub, gândite pentru fluide abrazive, agresive chimic sau toxice care ar distruge o pompă centrifugală obișnuită. Gama MULTISAFE acoperă execuții simplex, triplex și quintuplex, cu debite de până la 1.350 m³/h și presiuni de până la 350 bar." },
       { q: "Cum aleg execuția corectă la o pompă FELUWA MULTISAFE?", a: "Alegerea între simplex, triplex sau quintuplex depinde de debitul necesar și de uniformitatea dorită a fluxului; pentru capacități mari se recomandă execuții triplex sau quintuplex. Trimite-ne debitul, presiunea de refulare și conținutul de solide al fluidului pentru verificarea modelului potrivit." },
-      { q: "Livrați pompe FELUWA în România și cât durează?", a: "Da, aducem pompe FELUWA la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru gama MULTISAFE standard. Nu ținem această gamă pe raft, deci termenul exact se confirmă după transmiterea specificațiilor tehnice ale aplicației." },
+      { q: "Livrați pompe FELUWA în România și cât durează?", a: "Da, aducem pompe FELUWA la comandă prin canale de aprovizionare din UE; termenul se confirmă individual cu producătorul și, pentru configurațiile TGK și QGK de mare capacitate, poate depăși 4 săptămâni. Nu ținem această gamă pe raft, deci termenul exact se confirmă după transmiterea specificațiilor tehnice ale aplicației." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă FELUWA pentru nămol minier?", a: "Ai nevoie să precizezi debitul dorit, presiunea de refulare, conținutul de solide și dimensiunea particulelor din nămol. Cu aceste date verificăm ce execuție din gama MULTISAFE (SG, TG/TGK sau QGK) se potrivește instalației tale." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "FELUWA - Pumps", url: "https://www.feluwa.com/pumps", publisher: "FELUWA Pumpen GmbH", accessed: "2026-09-25" },
       { title: "MULTISAFE Double Hose-Diaphragm Pumps", url: "https://www.feluwa.com/fileadmin/user_upload/downloads/FELUWA_Hose-Diaphragm_Pumps.pdf", publisher: "FELUWA Pumpen GmbH", accessed: "2026-09-25" },
@@ -423,7 +423,7 @@ Pentru un operator din minerit, tratarea apelor uzate sau industria chimică din
     headquarters: "Macerata, Italia",
     overview: `Faggiolati Pumps este un producător italian de pompe submersibile electrice, cu sediul la Macerata, activ pe segmentul pompelor pentru ape uzate, drenaj și aplicații industriale submersibile. Gama acoperă mai multe categorii hidraulice — pompe cu rotor vortex pentru fluide cu solide, pompe cu canal unic pentru randament ridicat, pompe tocător pentru materiale fibroase, pompe de drenaj și pompe de înaltă eficiență — completate de mixere și sisteme de aerare submersibile. Pentru piața din România putem oferta din gama Faggiolati acolo unde e nevoie de o pompă submersibilă rezistentă, în execuție din fontă, bronz marin sau inox.
 
-Puterea acoperită de gama Faggiolati merge de la 0,5 kW la 350 kW, în execuții cu 2 până la 12 poli, la 50 sau 60 Hz, ceea ce acoperă atât aplicații mici rezidențiale cât și stații de pompare industriale de mare capacitate. Alegerea materialului — fontă cenușie pentru aplicații standard, bronz marin pentru rezistență la coroziune sau inox AISI 316 pentru medii chimic agresive — se face în funcție de fluidul pompat și de mediul de instalare. În segmentul pompelor submersibile pentru ape uzate, Faggiolati se compară cu Tsurumi, ambele fiind prezente în stații de epurare și proiecte de infrastructură.
+Puterea acoperită de gama Faggiolati merge de la 0,5 kW la 350 kW, în mai multe configurații de poli, ceea ce acoperă atât aplicații mici rezidențiale cât și stații de pompare industriale de mare capacitate. Alegerea materialului — fontă cenușie pentru aplicații standard, bronz marin pentru rezistență la coroziune sau inox AISI 316 pentru medii chimic agresive — se face în funcție de fluidul pompat și de mediul de instalare. În segmentul pompelor submersibile pentru ape uzate, Faggiolati se compară cu Tsurumi, ambele fiind prezente în stații de epurare și proiecte de infrastructură.
 
 Pentru un operator de apă și canalizare sau un integrator industrial din România, Faggiolati Pumps înseamnă acces la pompe submersibile pentru un interval larg de puteri și materiale, de la drenaj simplu până la stații de pompare cu solide, fibre sau fluide corozive.`,
     whyChoose: [
@@ -441,7 +441,7 @@ Pentru un operator de apă și canalizare sau un integrator industrial din Româ
     industries: [
       "Apă și canalizare — stații de pompare ape uzate municipale",
       "Industrie — drenaj și transfer fluide industriale cu solide",
-      "Infrastructură — proiecte mari de pompare, inclusiv aplicații navale",
+      "Infrastructură — proiecte mari de pompare",
       "Agricultură — drenaj și irigații cu pompe submersibile",
       "Construcții — epuisment și drenaj pe șantiere"
     ],
@@ -467,8 +467,8 @@ Pentru un operator de apă și canalizare sau un integrator industrial din Româ
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Faggiolati Pumps - Submersible Electric Pumps", url: "https://www.faggiolatipumps.com/en/", publisher: "Faggiolati Pumps S.r.l.", accessed: "2026-09-25" },
       { title: "Electric Pumps", url: "https://www.faggiolatipumps.com/en/electric-pumps/", publisher: "Faggiolati Pumps S.r.l.", accessed: "2026-09-25" },
@@ -478,7 +478,7 @@ Pentru un operator de apă și canalizare sau un integrator industrial din Româ
     name: "Fristam Pumpen",
     founded: 1909,
     headquarters: "Hamburg, Germania",
-    overview: `Fristam Pumpen este un producător german de pompe centrifuge sanitare și mixere din oțel inoxidabil, cu sediul la Hamburg, activ din 1909 în echipamente pentru industria alimentară și farmaceutică. Gama acoperă pompe centrifuge FP și FPH, pompe multistadiu FM, pompe autoamorsante cu inel lichid FZ, pompe cu șurub dublu FDS și pompe cu lobi rotativi FL, alături de mixere de forfecare FSP și coloidale FCM. Pentru piața din România putem oferta din gama Fristam acolo unde procesul cere igienizare CIP/SIP și un finisaj sanitar al suprafețelor umede.
+    overview: `Fristam Pumpen este un producător german de pompe centrifuge sanitare și mixere din oțel inoxidabil, cu sediul la Hamburg, activ din 1909 în echipamente pentru industria alimentară și farmaceutică. Gama acoperă pompe centrifuge FP și FPH, pompe multistadiu FM, pompe autoamorsante cu inel lichid FZ, pompe cu șurub dublu FDS și pompe cu lobi rotativi FL, alături de mixere de forfecare FS și coloidale FCM. Pentru piața din România putem oferta din gama Fristam acolo unde procesul cere igienizare CIP/SIP și un finisaj sanitar al suprafețelor umede.
 
 Diferența unei pompe Fristam față de o pompă centrifugă industrială obișnuită stă în construcția sanitară — suprafețe șlefuite, racorduri conforme standardelor din industria alimentară și posibilitatea de curățare în circuit (CIP) fără demontare. Gama acoperă mai multe principii de pompare — centrifugă, multistadiu, autoamorsantă, șurub dublu și lobi rotativi — astfel încât aceeași marcă poate acoperi atât transferul de lapte sau bere, cât și produse mai vâscoase precum siropuri sau paste. În categoria pompelor sanitare, Fristam se compară cu Alfa Laval, ambele fiind nume întâlnite frecvent în fabricile de procesare alimentară din Europa.
 
@@ -512,7 +512,7 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
       { code: "FZ", description: "pompă autoamorsantă cu inel lichid" },
       { code: "FDS", description: "pompă cu șurub dublu pentru fluide vâscoase" },
       { code: "FL", description: "pompă cu lobi rotativi sanitară" },
-      { code: "FSP", description: "mixer de forfecare" },
+      { code: "FS", description: "mixer de forfecare" },
       { code: "FCM", description: "mixer coloidal pentru dispersie fină" },
       { code: "Fristam PL", description: "dizolvator de pulberi" },
     ],
@@ -524,8 +524,8 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fristam Pumps - Sanitary Pumps and Mixers", url: "https://www.fristam.de/en/", publisher: "Fristam Pumpen KG", accessed: "2026-09-25" },
       { title: "Products - Fristam", url: "https://www.fristam.de/product/", publisher: "Fristam Pumpen KG", accessed: "2026-09-25" },
@@ -535,9 +535,9 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
     name: "Gast Manufacturing",
     founded: 1921,
     headquarters: "Benton Harbor, Michigan, SUA",
-    overview: `Gast Manufacturing este un producător american de pompe de vid, compresoare de aer și motoare pneumatice, cu sediul la Benton Harbor, Michigan, activ din 1921 și integrat astăzi în grupul IDEX Corporation. Gama acoperă tehnologii diferite — piston oscilant, piston clasic, diafragmă, palete rotative și suflante regenerative — cu grupa de modele 0523/1023/1423 pentru pompe cu palete montate direct pe motor și familia R4-R9 de suflante regenerative Regenair. Pentru piața din România putem oferta din gama Gast acolo unde aplicația cere o pompă mică-medie de vid sau aer comprimat, nu un compresor industrial de mare capacitate.
+    overview: `Gast Manufacturing este un producător american de pompe de vid, compresoare de aer și motoare pneumatice, cu sediul la Benton Harbor, Michigan, activ din 1921 și integrat astăzi în grupul IDEX Corporation. Gama acoperă tehnologii diferite — piston oscilant, diafragmă, palete rotative și suflante regenerative — cu grupa de modele 0523/1023/1423 pentru pompe cu palete montate direct pe motor și familia R4-R9 de suflante regenerative Regenair. Pentru piața din România putem oferta din gama Gast acolo unde aplicația cere o pompă mică-medie de vid sau aer comprimat, nu un compresor industrial de mare capacitate.
 
-Grupa 0523-1023-1423 acoperă pompe cu palete rotative montate direct pe motor, folosite atât ca pompe de vid cât și ca mici compresoare, în variante lubrifiate cu suprimare a zgomotului (0523, 1023) sau fără ulei (1423). Familia de suflante regenerative Regenair, cu modele R4, R5, R6, R7 și R9 și variantele lor cu presiune (P) sau vid (H), acoperă debite și presiuni diferite pentru aplicații de la sisteme de băuturi până la echipamente medicale. În segmentul pompelor de vid mici și medii, Gast se compară cu Becker, ambele fiind furnizori întâlniți în laboratoare și echipamente OEM.
+Grupa 0523-1023-1423 acoperă pompe cu palete rotative montate direct pe motor, folosite atât ca pompe de vid cât și ca mici compresoare, în variante lubrifiate cu suprimare a zgomotului (0523, 1023) sau fără ulei (1423). Familia de suflante regenerative Regenair, cu modele R4, R5, R6, R7 și R9, acoperă debite și presiuni diferite pentru aplicații de la sisteme de băuturi până la echipamente medicale. În segmentul pompelor de vid mici și medii, Gast se compară cu Becker, ambele fiind furnizori întâlniți în laboratoare și echipamente OEM.
 
 Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manufacturing înseamnă acces la pompe de vid și compresoare compacte, verificate în aplicații de la aspirație medicală până la sisteme de dozare a băuturilor, cu piese disponibile prin rețeaua IDEX.`,
     whyChoose: [
@@ -549,30 +549,30 @@ Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manu
     ],
     keyProducts: [
       { name: "Pompe cu Palete Rotative 0523-1023-1423", description: "Grupă de pompe cu palete rotative montate direct pe motor, funcționând atât ca pompe de vid cât și ca mici compresoare de aer, gândite pentru utilizare continuă în medii sensibile la zgomot. Modelele 523 și 1023 sunt lubrifiate, cu sistem de suprimare a zgomotului, iar modelul 1423 e fără ulei. Aplicație tipică: aspirație medicală, remediere ecologică a solului, procese de laborator (distilare, uscare); clientul trebuie să confirme dacă aplicația acceptă contact cu ulei sau impune execuție fără ulei." },
-      { name: "Suflante Regenerative Regenair, Seriile R4-R9", description: "Suflante regenerative fără contact între componentele în mișcare și fluidul de lucru, disponibile în mai multe dimensiuni (R4, R5, R6, R7, R9) și variante orientate pe presiune (P) sau pe vid (H). Oferă un debit de aer continuu, fără pulsații, la presiuni sau niveluri de vid moderate. Aplicație tipică: sisteme de dozare a băuturilor, aerare, transport pneumatic ușor; clientul trebuie să precizeze dacă are nevoie de presiune sau de vid și debitul de aer necesar." },
+      { name: "Suflante Regenerative Regenair, Seriile R4-R9", description: "Suflante regenerative fără contact între componentele în mișcare și fluidul de lucru, disponibile în mai multe dimensiuni (R4, R5, R6, R7, R9). Oferă un debit de aer continuu, fără pulsații, la presiuni sau niveluri de vid moderate. Aplicație tipică: sisteme de dozare a băuturilor, aerare, transport pneumatic ușor; clientul trebuie să precizeze dacă are nevoie de presiune sau de vid și debitul de aer necesar." },
       { name: "Motoare Pneumatice și Motoare cu Angrenaje", description: "Motoare acționate cu aer comprimat, folosite pentru a transmite mișcare de rotație în medii unde un motor electric ar fi nepotrivit din cauza umidității, prafului sau riscului de explozie. Fac parte din gama de accesorii pneumatice a Gast, complementară pompelor și suflantelor. Aplicație tipică: acționarea unor unelte sau mecanisme în linii industriale cu atmosferă potențial explozivă; clientul trebuie să precizeze cuplul necesar și presiunea de aer disponibilă la punctul de montaj." }
     ],
     industries: [
       "Energie — sisteme pneumatice pentru instalații energetice",
       "Băuturi — sisteme de dozare cafea, bere și vin",
-      "Sănătate — aspirație medicală și echipamente dentare",
+      "Sănătate — aspirație medicală",
       "Industrial — automatizări și echipamente OEM cu necesar de vid sau aer"
     ],
-    infinitrade: `Furnizăm pompe și suflante Gast pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand. Aducem echipamentele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, confirmat după verificarea disponibilității la producător. Pentru o ofertă avem nevoie de tipul de aplicație (vid sau presiune), debitul de aer necesar și dacă procesul acceptă contact cu ulei. Nu ținem această gamă pe raft din gama Gast, așa că fiecare comandă se confirmă individual.`,
+    infinitrade: `Furnizăm pompe și suflante Gast pe baza informațiilor publice ale producătorului — nu avem date proprii de stoc pentru acest brand. Aducem echipamentele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, confirmat după verificarea disponibilității la producător. Pentru o ofertă avem nevoie de tipul de aplicație (vid sau presiune), debitul de aer necesar și dacă procesul acceptă contact cu ulei. Nu ținem această gamă pe raft, așa că fiecare comandă se confirmă individual.`,
     limitation: "Nu putem confirma disponibilitatea unei configurații speciale de voltaj sau frecvență a motorului fără verificare punctuală la producător.",
     productCodes: [
       { code: "0523 Series", description: "pompă cu palete lubrifiată, vid sau aer" },
       { code: "1023 Series", description: "pompă cu palete lubrifiată, debit mai mare" },
       { code: "1423 Series", description: "pompă cu palete fără ulei" },
-      { code: "R4P", description: "suflantă regenerativă orientată pe presiune" },
-      { code: "R4H", description: "suflantă regenerativă orientată pe vid" },
+      
+      
       { code: "R5", description: "suflantă regenerativă, dimensiune medie" },
       { code: "R6", description: "suflantă regenerativă, dimensiune medie" },
-      { code: "R6P", description: "suflantă regenerativă orientată pe presiune" },
+      
       { code: "R7", description: "suflantă regenerativă, debit mai mare" },
-      { code: "R7P", description: "suflantă regenerativă orientată pe presiune" },
+      
       { code: "R9", description: "suflantă regenerativă, dimensiunea maximă din familie" },
-      { code: "R9P", description: "suflantă regenerativă orientată pe presiune, debit maxim" },
+      
     ],
     faq: [
       { q: "Ce produce Gast Manufacturing?", a: "Gast Manufacturing produce pompe de vid, compresoare de aer, motoare pneumatice și suflante regenerative pentru aplicații OEM, medicale, de laborator și industriale. Gama include grupa de pompe cu palete 0523-1023-1423 și familia de suflante Regenair R4-R9." },
@@ -582,8 +582,8 @@ Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manu
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Gast Manufacturing - Pneumatic Products", url: "https://www.gastmfg.com", publisher: "Gast Manufacturing Inc.", accessed: "2026-09-25" },
       { title: "0523-1023-1423 Vacuum Pumps, Air Compressors", url: "https://gastmfg.com/product-group/0523-1023-1423/", publisher: "Gast Manufacturing Inc.", accessed: "2026-09-25" },
@@ -594,7 +594,7 @@ Pentru un integrator de echipamente OEM sau un laborator din România, Gast Manu
     founded: 1933,
     overview: `Gorman-Rupp este un producător american de pompe și sisteme de pompare, activ din 1933 în piețele de apă, ape uzate, construcții, industrie și agricultură. Gama include pompele autoamorsante Super T Series pentru fluide cu solide în suspensie, sistemul de gestionare a solidelor Eradicator montat pe aceste pompe, familia PAH Series (Prime Aire Plus) pentru amorsare asistată și stații de pompare modulare ReliaSource. Pentru piața din România putem oferta din gama Gorman-Rupp acolo unde apa uzată sau nămolul conțin materiale fibroase care ar bloca o pompă centrifugală obișnuită.
 
-Super T Series e disponibilă în șase dimensiuni de racord, de la 2" la 10", cu debit maxim de aproximativ 3.400 gpm (215 l/s) și înălțime de pompare de până la 206 picioare (63 m), capabilă să treacă solide de până la 3 inch (76 mm) fără blocare. Sistemul Eradicator, montat pe placa de uzură a pompei, adaugă dinți de ruptură pentru materiale fibroase precum șervețele umede sau textile, o problemă tot mai frecventă în rețelele de canalizare urbane. În segmentul pompelor autoamorsante pentru ape uzate, Gorman-Rupp se compară cu Flowserve, ambele fiind furnizori de referință pentru stații de pompare municipale.
+Super T Series e disponibilă în șase dimensiuni de racord, de la 2" la 10", cu debit maxim de aproximativ 3.400 gpm (215 l/s) și înălțime de pompare de până la 206 picioare (63 m), capabilă să treacă solide de până la 3 inch (76 mm) fără blocare. Sistemul Eradicator, montat pe placa de uzură a pompei, adaugă dinți de ruptură pentru materiale fibroase precum șervețele umede sau textile, o problemă tot mai frecventă în rețelele de canalizare urbane. În segmentul pompelor autoamorsante pentru ape uzate, Gorman-Rupp se compară cu Flowserve, ambele fiind întâlnite la stații de pompare municipale.
 
 Pentru un operator de apă și canalizare sau un antreprenor de construcții din România, Gorman-Rupp înseamnă acces la pompe autoamorsante robuste, capabile să funcționeze cu solide și fibre în fluid, plus stații de pompare complete pentru situații unde spațiul pentru o cameră de pompare tradițională lipsește.`,
     whyChoose: [
@@ -614,7 +614,7 @@ Pentru un operator de apă și canalizare sau un antreprenor de construcții din
       "Construcții — epuisment pe șantiere cu apă cu conținut de nisip",
       "Industrie — transfer fluide de proces cu solide în suspensie",
       "Petrol — pompare fluide asociate extracției petroliere",
-      "Agricultură — irigații și transfer de apă la scară mare",
+      "Agricultură — transfer de fluide cu deșeuri agricole în suspensie",
       "Stingere incendii — pompe pentru sisteme de apărare împotriva incendiilor"
     ],
     infinitrade: `Aducem pompe Gorman-Rupp prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 1–4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — informațiile despre gamă provin exclusiv de pe site-ul oficial al producătorului, iar disponibilitatea exactă se confirmă abia după plasarea comenzii. Pentru o ofertă avem nevoie de dimensiunea racordului dorită, debitul și înălțimea de pompare necesară, plus tipul de solide sau fibre prezente în fluid. Pentru stațiile ReliaSource, recomandăm și transmiterea planului de amplasament.`,
@@ -640,8 +640,8 @@ Pentru un operator de apă și canalizare sau un antreprenor de construcții din
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Gorman-Rupp Pumps - Home", url: "https://www.grpumps.com", publisher: "The Gorman-Rupp Company", accessed: "2026-09-25" },
       { title: "Super T Series Self-Priming Centrifugal Pumps", url: "https://www.grpumps.com/product/pump/Super-T-Series", publisher: "The Gorman-Rupp Company", accessed: "2026-09-25" },
@@ -664,7 +664,7 @@ Pentru un operator din chimie sau procesare industrială din România, Griswold 
       "Construcție conform standardului ASME (ANSI) B73.1, compatibilă dimensional cu alte pompe de pe piață",
       "Mai multe materiale disponibile — fontă ductilă, inox 316, Alloy 20, CD4MCuN — pentru compatibilitate chimică",
       "Debite de până la 7.000 gpm și temperaturi de lucru de până la 500°F pe seria 811 ANSI",
-      "Parte din divizia PSG a Dover Corporation, cu acces la rețea internațională de piese",
+      "Parte din divizia PSG a Dover Corporation",
       "Certificare a laboratorului de testare prin programul Hydraulic Institute PTLAP"
     ],
     keyProducts: [
@@ -698,14 +698,14 @@ Pentru un operator din chimie sau procesare industrială din România, Griswold 
     ],
     faq: [
       { q: "Ce produce Griswold Pump?", a: "Griswold produce pompe centrifuge de proces conform standardului ASME (ANSI) B73.1, în variante standard, autoamorsante (811SP) și close-coupled (811CC), plus seriile 850 și H pentru aplicații de apă. Sunt folosite în chimie, petrol și gaze, energie și procesare industrială." },
-      { q: "Ce material aleg pentru o pompă Griswold 811 ANSI?", a: "Depinde de compatibilitatea chimică a fluidului: fonta ductilă acoperă aplicațiile standard, inoxul 316 rezistă la coroziune generală, iar Alloy 20 sau CD4MCuN sunt recomandate pentru medii puternic corozive. Trimite-ne tipul de fluid pentru verificarea materialului potrivit." },
+      { q: "Ce material aleg pentru o pompă Griswold 811 ANSI?", a: "Depinde de compatibilitatea chimică a fluidului: fonta ductilă acoperă aplicațiile standard, inoxul 316 rezistă la coroziune generală, iar Alloy 20 sau CD4MCuN sunt recomandate pentru medii puternic corozive. Transmiteți-ne tipul de fluid pentru verificarea materialului potrivit." },
       { q: "Livrați pompe Griswold Pump în România și cât durează?", a: "Da, aducem pompe Griswold la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 1–4 săptămâni. Disponibilitatea exactă depinde de model și material, și se confirmă după plasarea comenzii cu specificațiile tehnice." },
-      { q: "Ce trebuie să trimit pentru o ofertă de pompă Griswold?", a: "Ai nevoie să precizezi debitul, presiunea necesară, temperatura de lucru și materialul de construcție cerut de fluidul vehiculat. Dacă înlocuiești o pompă existentă, trimite și dimensiunile ei de montaj pentru verificarea compatibilității cu gama Griswold 811 ANSI." },
+      { q: "Ce trebuie să trimit pentru o ofertă de pompă Griswold?", a: "Vă rugăm să precizați debitul, presiunea necesară, temperatura de lucru și materialul de construcție cerut de fluidul vehiculat. Dacă înlocuiți o pompă existentă, transmiteți și dimensiunile ei de montaj pentru verificarea compatibilității cu gama Griswold 811 ANSI." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Griswold - Industrial Centrifugal Pumps", url: "https://www.psgdover.com/griswold", publisher: "PSG, a Dover Company", accessed: "2026-09-25" },
       { title: "Griswold Products", url: "https://www.psgdover.com/griswold/products", publisher: "PSG, a Dover Company", accessed: "2026-09-25" },
@@ -715,7 +715,7 @@ Pentru un operator din chimie sau procesare industrială din România, Griswold 
     name: "HERMETIC-Pumpen",
     founded: 1866,
     headquarters: "Gundelfingen, Germania",
-    overview: `HERMETIC-Pumpen este un producător german de pompe fără etanșare mecanică, cu sediul la Gundelfingen, activ din 1866 în tehnologia pompelor cu motor înecat și cu cuplaj magnetic. Gama acoperă pompe cu motor înecat (canned motor pumps) atât cu cât și fără protecție la explozie, pompe cu cuplaj magnetic pentru medii periculoase și pompe de vid cu inel lichid pentru transportul și comprimarea gazelor. Pentru piața din România putem oferta din gama HERMETIC acolo unde o scurgere la nivelul etanșării mecanice nu e acceptabilă din motive de siguranță, mediu sau costuri de întreținere.
+    overview: `HERMETIC-Pumpen este un producător german de pompe fără etanșare mecanică, cu sediul la Gundelfingen, activ din 1866 în tehnologia pompelor. Gama acoperă pompe cu motor înecat (canned motor pumps) atât cu cât și fără protecție la explozie, pompe cu cuplaj magnetic pentru medii periculoase și pompe de vid cu inel lichid pentru transportul și comprimarea gazelor. Pentru piața din România putem oferta din gama HERMETIC acolo unde o scurgere la nivelul etanșării mecanice nu e acceptabilă din motive de siguranță, mediu sau costuri de întreținere.
 
 Principiul motorului înecat elimină complet etanșarea mecanică rotativă, izolând complet fluidul pompat de mediul exterior — util la fluide toxice, inflamabile sau extrem de scumpe unde o pierdere prin etanșare ar fi inacceptabilă. Gama pentru refrigerare, de exemplu, acoperă tipurile CNF (monoetajat), CAM și variantele sale (multietajat, pentru CO₂ la înaltă presiune) și LC pentru răcirea invertoarelor, cu debite de până la 85 m³/h și temperaturi de până la -50°C. Gama industrială generală ajunge la debite de 1.600 m³/h, presiuni de până la 120 MPa și temperaturi între -160°C și +480°C, conform standardelor EN 22858/ISO 2858 și API 685. În segmentul pompelor ermetice, HERMETIC se compară cu KSB, ambele fiind furnizori de echipamente critice pentru industria chimică și energetică.
 
@@ -732,7 +732,7 @@ Pentru un operator din chimie, energie sau industria frigului din România, HERM
       "Peste 150 de ani de istorie în tehnologia pompelor, cu specializare pe soluții fără scurgeri"
     ],
     keyProducts: [
-      { name: "Pompe cu Motor Înecat pentru Refrigerare, Seria CNF/CAM", description: "Pompe cu motor înecat monoetajate (CNF) sau multietajate (CAM), gândite pentru circuite de refrigerare, cu debit de până la 85 m³/h la CNF și înălțime de pompare de până la 190 m la CAM, la temperaturi între -50°C și +30°C. Variantele CAMh și CAMhk sunt adaptate pentru aplicații cu CO₂ la presiune ridicată. Aplicație tipică: circuite de agent frigorific în instalații industriale de refrigerare; clientul trebuie să confirme tipul de agent frigorific și debitul necesar." },
+      { name: "Pompe cu Motor Înecat pentru Refrigerare, Seria CNF/CAM", description: "Pompe cu motor înecat monoetajate (CNF) sau multietajate (CAM), gândite pentru circuite de refrigerare, cu debit de până la 85 m³/h la CNF (până la 45 m³/h la CAM), la temperaturi între -50°C și +30°C. Variantele CAMh și CAMhk sunt adaptate pentru aplicații cu CO₂ la presiune ridicată. Aplicație tipică: circuite de agent frigorific în instalații industriale de refrigerare; clientul trebuie să confirme tipul de agent frigorific și debitul necesar." },
       { name: "Pompe cu Motor Înecat Industriale", description: "Pompe cu motor înecat pentru aplicații industriale generale, disponibile cu sau fără protecție la explozie, cu debit de până la 1.600 m³/h, presiune de până la 120 MPa și temperatură de lucru între -160°C și +480°C, conform EN 22858/ISO 2858 și API 685. Aplicație tipică: transfer de fluide periculoase sau extrem de scumpe în chimie și energie, unde o scurgere nu e acceptabilă; clientul trebuie să transmită tipul de fluid, temperatura și presiunea de lucru." },
       { name: "Pompe cu Cuplaj Magnetic", description: "Pompe centrifuge cu cuplaj magnetic, care transmit mișcarea de rotație fără contact mecanic direct între motor și rotor, eliminând etanșarea rotativă clasică. Alternativă la pompele cu motor înecat pentru anumite aplicații cu cerințe de putere sau presiune diferite. Aplicație tipică: transfer de medii toxice sau cu emisii sensibile în instalații chimice; clientul trebuie să precizeze puterea necesară și compatibilitatea materialelor umede cu fluidul." }
     ],
@@ -759,14 +759,14 @@ Pentru un operator din chimie, energie sau industria frigului din România, HERM
     ],
     faq: [
       { q: "Ce produce HERMETIC-Pumpen?", a: "HERMETIC-Pumpen produce pompe fără etanșare mecanică — cu motor înecat sau cu cuplaj magnetic — plus pompe de vid cu inel lichid. Gama acoperă aplicații de la refrigerare industrială până la chimie și energie, unde o scurgere prin etanșare nu e acceptabilă." },
-      { q: "Ce diferență e între o pompă CNF și una CAM de la HERMETIC-Pumpen?", a: "CNF este o pompă cu motor înecat monoetajată, cu debit de până la 85 m³/h, în timp ce CAM e multietajată și dezvoltă înălțimi de pompare mai mari, de până la 190 m, la un debit ceva mai redus. Alegerea depinde de presiunea necesară în circuitul de refrigerare." },
+      { q: "Ce diferență e între o pompă CNF și una CAM de la HERMETIC-Pumpen?", a: "CNF este o pompă cu motor înecat monoetajată, cu debit de până la 85 m³/h, în timp ce CAM e multietajată, cu debit de până la 45 m³/h, deci mai redus, și presiune nominală de până la PN 52 (față de PN 40 la CNF). Alegerea depinde de presiunea necesară în circuitul de refrigerare." },
       { q: "Livrați pompe HERMETIC în România și cât durează?", a: "Da, aducem pompe HERMETIC la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft niciun model, iar termenul exact se confirmă după transmiterea specificațiilor complete ale aplicației." },
-      { q: "Ce trebuie să trimit pentru o ofertă de pompă cu motor înecat HERMETIC?", a: "Ai nevoie să precizezi tipul de fluid vehiculat, temperatura și presiunea de lucru, debitul necesar și dacă instalația impune protecție la explozie sau conformitate API 685. Cu aceste date verificăm configurația potrivită din gama HERMETIC." },
+      { q: "Ce trebuie să trimit pentru o ofertă de pompă cu motor înecat HERMETIC?", a: "Vă rugăm să precizați tipul de fluid vehiculat, temperatura și presiunea de lucru, debitul necesar și dacă instalația impune protecție la explozie sau conformitate API 685. Cu aceste date verificăm configurația potrivită din gama HERMETIC." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "HERMETIC-Pumpen - Canned Motor Pumps", url: "https://www.hermetic-pumpen.com/en/", publisher: "HERMETIC-Pumpen GmbH", accessed: "2026-09-25" },
       { title: "Canned Motor Pumps without Explosion Protection", url: "https://www.hermetic-pumpen.com/de-en/products/canned-motor-pump/canned-motor-pumps-without-explosion-protection", publisher: "HERMETIC-Pumpen GmbH", accessed: "2026-09-25" },

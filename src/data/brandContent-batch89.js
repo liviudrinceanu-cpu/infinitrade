@@ -4,23 +4,23 @@ export const brandContentBatch89 = {
   'estun-automation': {
     name: "Estun Automation",
     headquarters: "Nanjing, China",
-    overview: `Estun Automation este un producător chinez de automatizări industriale cu sediul la Nanjing, provincia Jiangsu, activ în controlul de mișcare și în robotica industrială. Compania produce servomotoare, servodrivere, invertoare, controlere de mișcare și sisteme CNC, alături de roboți industriali din seriile ER și UNO, roboți colaborativi și soluții software pentru managementul proiectelor și mentenanța producției. Din gama Estun putem oferta atât componente de acționare pentru integratori, cât și roboți articulați pentru linii complete de asamblare, sudură sau paletizare, cu piese și documentație tehnică disponibile prin canalele oficiale ale producătorului.
+    overview: `Estun Automation este un producător chinez de automatizări industriale cu sediul la Nanjing, provincia Jiangsu, activ în controlul de mișcare și în robotica industrială. Compania produce servomotoare, servodrivere, invertoare, controlere de mișcare și sisteme CNC, alături de roboți industriali din seriile ER și UNO, roboți colaborativi și soluții software pentru linii robotizate. Din gama Estun putem oferta atât componente de acționare pentru integratori, cât și roboți articulați pentru linii complete de asamblare, sudură sau paletizare, cu documentația tehnică a producătorului.
 
-Ce diferențiază Estun în piața motion control este integrarea completă a lanțului motor-drive-controler sub aceeași marcă, ceea ce simplifică punerea în funcțiune pentru integratorii care nu vor să combine componente de la producători diferiți. Grupul are certificare TÜV Rheinland pentru conformitate cu Directiva Mașini și pentru siguranță funcțională, obținută în 2024, relevantă pentru liniile robotizate care trebuie să treacă evaluarea CE. În segmentul servomotoarelor și al roboților articulați, Estun se poziționează ca alternativă la nume consacrate precum Kollmorgen, cu un portofoliu orientat spre volume mari și cicluri scurte de livrare din fabricile Estun din China.
+Ce diferențiază Estun în piața motion control este integrarea completă a lanțului motor-drive-controler sub aceeași marcă, ceea ce simplifică punerea în funcțiune pentru integratorii care nu vor să combine componente de la producători diferiți.
 
-Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același ecosistem, cu suport tehnic unificat. Recomandăm brandul pentru linii noi sau retehnologizări unde costul total al integrării contează mai mult decât un nume consacrat pe piața europeană.`,
+Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același ecosistem, cu suport tehnic unificat.`,
     whyChoose: [
       "Integrare completă motor-drive-controler sub aceeași marcă, fără combinare de componente de la mai mulți furnizori",
-      "Certificare TÜV Rheinland pentru conformitate cu Directiva Mașini și siguranță funcțională, obținută în 2024",
+      
       "Gamă de roboți articulați ER și UNO pentru linii de asamblare, sudură sau paletizare",
       "Roboți colaborativi disponibili pentru posturi de lucru alături de operatori umani, fără îngrădire completă",
-      "Software propriu de management de proiect (E-PMT) și mentenanță a producției (E-Noesis) pentru linii robotizate",
+      "Soluții software proprii (E-PMT și E-Noesis) pentru linii robotizate",
     ],
     keyProducts: [
-      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seria ER pentru aplicații de mare viteză și precizie și seria UNO construită după standarde internaționale de proiectare a siguranței. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
+      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seria ER pentru aplicații de mare viteză și precizie și seria UNO. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
       { name: "Sisteme de acționare (servo driver, servo motor, invertor)", description: "Componentele de bază pentru motion control — servomotoare cu densitate mare de putere, servodrivere de mare precizie și invertoare pentru comanda motoarelor — vândute atât ca set complet integrat, cât și separat pentru integratori care construiesc propria arhitectură de control. Pot fi achiziționate și separat de un robot, pentru alte aplicații de automatizare." },
       { name: "Controler de mișcare și sistem CNC", description: "Controler de mișcare multi-ax pentru sincronizarea mai multor axe servo pe aceeași mașină, alături de un sistem CNC pentru controlul numeric al mașinilor unelte. Ambele completează portofoliul de motion control al Estun pentru aplicații care nu sunt neapărat roboți articulați, ci mașini dedicate cu mai multe axe de mișcare coordonate." },
-      { name: "E-PMT și E-Noesis (software)", description: "Software de management de proiect (E-PMT) pentru planificarea și urmărirea instalării unei linii robotizate, și platformă pentru producție și mentenanță (E-Noesis) care ajută la urmărirea stării echipamentelor Estun instalate. Utile pentru un integrator cu mai multe proiecte Estun în lucru simultan." },
+      { name: "E-PMT și E-Noesis (software)", description: "Soluții software ale producătorului pentru linii robotizate; funcțiile exacte ale E-PMT și E-Noesis se confirmă din documentația Estun." },
     ],
     industries: [
       "Baterii litiu-ion — roboți pentru asamblare și manipulare în producția de celule",
@@ -32,13 +32,13 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
       "Vehicule electrice — roboți și componente de acționare pentru linii de asamblare EV",
     ],
     certifications: [
-      "TÜV Rheinland — conformitate cu Directiva Mașini și siguranță funcțională (2024)",
+      
     ],
     infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
     limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar pe paginile oficiale consultate.",
     productCodes: [
       { code: "ER series", description: "roboți industriali rapizi și de mare precizie pentru linii complete" },
-      { code: "UNO series", description: "roboți construiți după standarde internaționale de proiectare" },
+      { code: "UNO series", description: "roboți industriali din seria UNO" },
       { code: "Collaborative Robots", description: "roboți colaborativi pentru lucru alături de operatori umani" },
       { code: "Specialized series", description: "roboți dedicați aplicațiilor de nișă din portofoliul Estun" },
       { code: "Servo driver", description: "drivere pentru motoare servo de mare precizie și viteză" },
@@ -49,8 +49,8 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
       { code: "CNC system", description: "sistem de control numeric pentru mașini unelte" },
       { code: "Workstation", description: "stație de lucru integrată robot și periferice" },
       { code: "Robot accessories", description: "accesorii pentru integrarea și punerea în funcțiune a roboților" },
-      { code: "E-PMT", description: "software de management de proiect pentru linii robotizate" },
-      { code: "E-Noesis", description: "platformă software pentru producție și mentenanță predictivă" },
+      { code: "E-PMT", description: "software Estun pentru linii robotizate" },
+      { code: "E-Noesis", description: "platformă software Estun pentru linii robotizate" },
     ],
     faq: [
       { q: "Ce produce Estun Automation?", a: "Estun Automation produce componente de motion control — servomotoare, servodrivere, invertoare și controlere de mișcare — și roboți industriali articulați din seriile ER și UNO, inclusiv variante colaborative, pentru linii de asamblare, sudură sau paletizare." },
@@ -60,8 +60,8 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ESTUN Automation — Home", url: "https://en.estun.com", publisher: "Estun Automation Co., Ltd.", accessed: "2026-09-25" },
       { title: "ER series - ESTUN", url: "https://en.estun.com/?list_13%2F=", publisher: "Estun Automation Co., Ltd.", accessed: "2026-09-25" },
@@ -72,27 +72,27 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     headquarters: "San Giovanni Lupatoto, Italia",
     overview: `Exor International este un producător italian de interfețe om-mașină și calculatoare industriale, cu sediul la San Giovanni Lupatoto, lângă Verona. Compania dezvoltă panouri HMI fixe și portabile, IPC-uri industriale, gateway-uri IoT și platforma software JMobile pentru configurare și control, completată de platforma cloud CORVINA pentru monitorizarea de la distanță a mașinilor. Din gama Exor putem oferta panouri HMI pentru tablouri de comandă, terminale portabile pentru operatori care se deplasează în hală și soluții de conectivitate pentru mașini care trebuie monitorizate de la distanță de constructorul lor.
 
-Punctul forte al Exor este seria X de HMI mobile — X5, X7 și X10 — disponibile în variante cu cablu sau wireless, pentru operatori care urmăresc un utilaj din mai multe unghiuri fără să fie legați de un panou fix. Modelul X10 Wired are ecran de 10 inch în format portret, rezoluție 800x1280 și protecție IP65, cu certificare de siguranță SIL3/PLe pentru butonul de oprire integrat. Compania deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată, argument relevant față de concurenți precum Siemens când clientul cere garanții de securitate cibernetică.
+Punctul forte al Exor este seria X de HMI mobile — X5, X7 și X10 — disponibile în variante cu cablu sau wireless, pentru operatori care urmăresc un utilaj din mai multe unghiuri fără să fie legați de un panou fix. Modelul X10 Wired are ecran de 10 inch în format portret, rezoluție 800x1280 și protecție IP65, cu certificare de siguranță SIL3/PLe pentru butonul de oprire integrat. Compania deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată, argument relevant când clientul cere dovezi privind ciclul de dezvoltare securizată.
 
 Pentru integratorii și constructorii de mașini din România care vând utilaje cu servicii de mentenanță la distanță, Exor oferă combinația HMI plus platformă IoT necesară pentru a oferi clienților finali monitorizare de la distanță fără să dezvolte software propriu. Este o alegere potrivită pentru retrofit-uri și mașini noi unde accesul de la distanță al service-ului deja este cerut de client.`,
     whyChoose: [
       "Seria X de HMI mobile oferă variante cu cablu și wireless, utile când operatorul trebuie să urmărească utilajul din mai multe puncte",
-      "Certificarea IEC 62443-4-1:2018 pentru dezvoltare securizată reduce riscul de vulnerabilități software în rețeaua de automatizare",
+      "Certificarea IEC 62443-4-1:2018 pentru dezvoltare securizată atestă un ciclu de dezvoltare securizată a produselor",
       "Platforma CORVINA permite monitorizarea de la distanță a mașinilor fără a construi o infrastructură IoT proprie de la zero",
       "Modelul X10 Wired are protecție IP65 și certificare de siguranță SIL3/PLe, potrivit pentru zone cu praf sau umezeală",
       "Software-ul JMobile Suite unifică programarea HMI și IPC, utilă pentru integratori care lucrează cu mai multe modele Exor",
     ],
     keyProducts: [
       { name: "Seria X — HMI mobile (X5, X7, X10)", description: "Terminale HMI portabile, cu cablu sau wireless, pentru operatori care trebuie să vadă starea utilajului din mai multe unghiuri fără să fie legați de un panou fix pe linie. Modelul X10 Wired are ecran tactil de 10 inch în format portret, rezoluție 800x1280 pixeli, procesor quad-core pe 64 de biți și Linux în timp real, cu protecție IP65 și certificare de siguranță SIL3/Performance Level e pentru butonul de oprire integrat." },
-      { name: "eX200 / eX200 Web", description: "Panouri HMI embedded din gama de bază Exor, pentru montaj fix pe tablouri de comandă, cu variantă Web care adaugă acces prin browser pentru vizualizare de la distanță. Alternativă la un HMI mobil acolo unde utilajul stă pe loc, cu costuri de integrare mai reduse decât la seria X portabilă." },
+      { name: "eX200 / eX200 Web", description: "Panouri HMI embedded din gama de bază Exor, pentru montaj fix pe tablouri de comandă, cu variantă Web care adaugă acces prin browser pentru vizualizare de la distanță. Alternativă la un HMI mobil acolo unde utilajul stă pe loc,." },
       { name: "JMobile Suite", description: "Software de configurare pentru HMI-urile și IPC-urile Exor, folosit pentru ecrane de operare, alarme și rețete de producție, fără cod separat pentru fiecare panou. Suportă comunicare cu automate de la mai mulți producători, util când o linie combină echipamente Exor cu PLC-uri deja instalate." },
       { name: "CORVINA + CEM (Corvina Edge Manager)", description: "Platformă cloud de IoT industrial pentru colectarea datelor de la mașini, cu modulul CEM pentru gestionarea centralizată a unei flote de dispozitive Exor instalate la clienți diferiți. Utilă pentru constructorii de mașini care vor rapoarte de funcționare fără să dezvolte propria infrastructură software." },
     ],
     industries: [
       "Automatizare industrială și fabrici inteligente — HMI și IPC pentru linii Industry 4.0",
       "Constructori de mașini (OEM) — servitizare, adică servicii de mentenanță de la distanță pentru utilajele vândute",
-      "Industria alimentară și farmaceutică — HMI dedicate cu protecție la spălare și igienizare",
-      "Marină și offshore — panouri HMI certificate pentru echipamente de la bordul navelor",
+      "Industria alimentară și farmaceutică — HMI și automatizare pentru procese din aceste sectoare",
+      "Marină și offshore — panouri HMI pentru automatizări navale",
       "Energie și utilități — vizualizare și control pentru instalații distribuite geografic",
     ],
     certifications: [
@@ -101,7 +101,7 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
     infinitrade: `Lucrăm cu gama Exor de HMI și IPC pentru integratori și constructori de mașini din România care au nevoie de panouri de operare fixe sau portabile și, opțional, de conectare la platforma CORVINA. Fără date proprii de stoc: ce scriem mai sus se bazează pe surse publice ale producătorului, verificate la data indicată. Livrarea se face la comandă, prin canale de aprovizionare din UE, într-un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului italian. Pentru o ofertă, trimiteți-ne modelul dorit din seria X sau eX200; nu ținem gama Exor pe raft, fiecare unitate se aduce la comandă din UE.`,
     limitation: "Nu putem confirma configurarea de la distanță pentru platforma CORVINA fără o discuție tehnică prealabilă cu producătorul, pentru fiecare proiect de conectivitate.",
     productCodes: [
-      { code: "X4", description: "HMI mobil compact din seria X, pentru operare portabilă la utilaj" },
+      
       { code: "X5 Wired", description: "HMI mobil cu cablu, ecran mediu, pentru zone cu acces frecvent" },
       { code: "X5 Wireless", description: "HMI mobil wireless, pentru operare la distanță de la mașină" },
       { code: "X7 Wired", description: "HMI mobil cu cablu, ecran mai mare pentru vizualizare detaliată" },
@@ -121,12 +121,12 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
       { q: "Care este diferența dintre seria X wired și wireless la Exor?", a: "Varianta wired se conectează prin cablu la sistemul de control și rămâne alimentată constant, în timp ce varianta wireless funcționează pe baterie și permite operatorului să se deplaseze liber în jurul utilajului." },
       { q: "Livrați echipamente Exor International în România și cât durează?", a: "Da, aducem echipamentele Exor la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea confirmată de producător pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de HMI Exor?", a: "Pentru o ofertă corectă, trimiteți modelul dorit (de exemplu X10 Wired sau eX200), dacă aveți nevoie de conectare la platforma CORVINA, și eventuale cerințe de protecție IP sau certificare de siguranță pentru zona de montaj." },
-      { q: "Ce certificări de securitate cibernetică are Exor?", a: "Exor deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată a produselor, relevantă pentru rețele de automatizare unde clientul cere garanții privind vulnerabilitățile software ale echipamentelor conectate." },
+      { q: "Ce certificări de securitate cibernetică are Exor?", a: "Exor deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată a produselor, relevantă pentru rețele de automatizare unde clientul cere dovezi privind dezvoltarea securizată a echipamentelor conectate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Exor International — Home", url: "https://www.exorint.com/", publisher: "EXOR Int S.p.A.", accessed: "2026-09-25" },
       { title: "X10 Wired | Mobile HMI Handheld", url: "https://www.exorint.com/products/hardware/x10-wired", publisher: "EXOR Int S.p.A.", accessed: "2026-09-25" },
@@ -135,9 +135,9 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
   'horner-automation': {
     name: "Horner Automation",
     headquarters: "Indianapolis, SUA",
-    overview: `Horner Automation este un producător american de automate programabile cu sediul la Indianapolis, statul Indiana, specializat în controlere „all-in-one" care combină într-o singură carcasă PLC-ul și interfața de operare (HMI). Gama principală, seria Canvas OCS, rulează cu software-ul de programare gratuit Cscape și oferă acces de la distanță prin funcția WebMI+ și comunicare MQTT. Din portofoliul Horner putem oferta atât modele Canvas noi, cât și modele din seria XL, încă susținute pentru instalațiile existente, potrivite pentru constructori de mașini care vor un singur furnizor pentru control și vizualizare.
+    overview: `Horner Automation este un producător american de automate programabile cu sediul la Indianapolis, statul Indiana, specializat în controlere „all-in-one" care combină într-o singură carcasă PLC-ul și interfața de operare (HMI). Gama principală, seria Canvas OCS, rulează cu software-ul de programare gratuit Cscape și oferă acces de la distanță prin funcția WebMI+ și comunicare MQTT. Din portofoliul Horner putem oferta atât modele Canvas, cât și modele din seria XL, în funcție de disponibilitate, potrivite pentru constructori de mașini care vor un singur furnizor pentru control și vizualizare.
 
-Diferența față de o arhitectură cu PLC separat de HMI este costul și timpul de integrare mai mic — un singur cablu de programare, o singură bază de date de variabile și un singur dispozitiv de montat pe ușa tabloului electric. Seria XL Prime OCS aduce o arhitectură CPU de tip SOM de mare viteză și memorie complet nevolatilă, în timp ce seria Micro OCS oferă I/O fix pentru mașini compacte unde nu e nevoie de module externe. Modelele mai vechi din seria XL — XLE, XLEe, XLT și XLTe — rămân în producție pentru linii existente, deși Horner recomandă seria Canvas sau XL Prime pentru proiecte noi, poziționare similară cu a altor furnizori de automate compacte precum Siemens pe segmentul de intrare.
+Diferența față de o arhitectură cu PLC separat de HMI este costul și timpul de integrare mai mic — un singur cablu de programare, o singură bază de date de variabile și un singur dispozitiv de montat pe ușa tabloului electric. Seria XL Prime OCS aduce, conform producătorului, o arhitectură de mare viteză, în timp ce seria Micro OCS oferă I/O fix pentru mașini compacte unde nu e nevoie de module externe. Seria XL (modele precum XLE, XLEe, XLT și XLTe) face parte din portofoliul producătorului; disponibilitatea fiecărui model se confirmă înainte de ofertă.
 
 Pentru un integrator din România, seria Horner e o opțiune atunci când proiectul cere un panou compact, cu programare gratuită, mai ales la mașini seriale unde costul per unitate contează. Recomandăm verificarea pieselor de schimb pentru modelele XL vechi înainte de un retrofit.`,
     whyChoose: [
@@ -145,12 +145,12 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       "Seria Canvas OCS integrează PLC și HMI într-o singură unitate montată pe ușa tabloului electric",
       "Funcția WebMI+ permite vizualizarea ecranului de operare de pe telefon sau tabletă, fără software suplimentar",
       "Seria RCC oferă control de tip edge fără ecran, pentru dulapuri unde nu e nevoie de interfață locală",
-      "Modelele XLE, XLEe, XLT și XLTe rămân disponibile pentru instalațiile existente cu PLC-uri Horner",
+      "Seria XL (XLE, XLEe, XLT, XLTe) poate fi oferită pentru instalații existente, cu disponibilitatea confirmată în prealabil",
     ],
     keyProducts: [
       { name: "Canvas OCS Series", description: "Familia principală de controlere all-in-one Horner, cu variante de la ecranul compact Canvas 4 până la Canvas 10D, toate programate din același software Cscape 10, cu grafică modernă și gesturi tactile de tip swipe. WebMI+ dă acces de la distanță la ecranul de operare dintr-un browser, iar MQTT trimite date de proces către un sistem SCADA sau cloud. Este gama recomandată de Horner pentru proiecte noi." },
-      { name: "XL Prime OCS Series", description: "Generația următoare de controlere all-in-one, cu procesor de tip SOM de mare viteză și memorie complet nevolatilă, astfel încât programul rămâne intact la o cădere de tensiune neașteptată. Păstrează conceptul seriei XL mai vechi, dar cu performanță mai mare pentru timpi de scanare stricți, pentru mașini noi unde e nevoie de mai multă putere de calcul decât la Canvas." },
-      { name: "Seria XL (XLE, XLEe, XLT, XLTe)", description: "Modelele curente din seria XL mai veche, păstrate în producție pentru continuitatea instalațiilor existente, spre deosebire de XL4, EXL6, EXLW, EXL10 și XL15Plus, ajunse la finalul ciclului de viață. Variantele cu sufixul e adaugă I/O suplimentar. Utile pentru un integrator care întreține o linie mai veche și are nevoie de un înlocuitor compatibil." },
+      { name: "XL Prime OCS Series", description: "Serie de controlere all-in-one cu arhitectură de mare viteză, conform producătorului. Detaliile de performanță ale fiecărui model se confirmă din documentația Horner." },
+      { name: "Seria XL (XLE, XLEe, XLT, XLTe)", description: "Modele din seria XL (XLE, XLEe, XLT, XLTe) pentru instalații existente; statusul de producție al fiecărui model se confirmă înainte de ofertă. Utile pentru un integrator care întreține o linie mai veche și are nevoie de un înlocuitor compatibil." },
       { name: "RCC Series", description: "Controler PLC fără ecran propriu (screenless), pentru control de tip edge în dulapuri unde interfața de operare este pe alt echipament sau la distanță. Rulează programe scrise tot în Cscape, deci un integrator care lucrează cu Canvas sau XL Prime reutilizează aceleași cunoștințe pe un proiect fără ecran local." },
     ],
     industries: [
@@ -164,14 +164,14 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       "CE — conformitate cu directivele europene",
     ],
     infinitrade: `Lucrăm cu gama Horner de controlere all-in-one pentru integratori din România care vor un PLC și un HMI într-o singură unitate, programate din Cscape. Nu avem date proprii de stoc pentru niciun model — ceea ce scriem se bazează pe informațiile publice ale producătorului, verificate la data indicată. Comandăm controlerele prin canale de aprovizionare din UE și livrăm în termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC) și numărul de intrări/ieșiri necesar; nu ținem gama Horner pe raft, fiecare controler se aduce la comandă.`,
-    limitation: "Nu putem confirma compatibilitatea exactă de migrare a programelor de pe modelele XL mai vechi (XL4, EXL6, EXLW, EXL10, XL15Plus, scoase din producție) fără o verificare tehnică punctuală.",
+    limitation: "Nu putem confirma compatibilitatea exactă de migrare a programelor de pe modelele XL mai vechi (XL4, EXL6, EXLW, EXL10, XL15Plus) fără o verificare tehnică punctuală.",
     productCodes: [
       { code: "Canvas 4", description: "controler all-in-one PLC/HMI compact, cu Cscape 10 și WebMI+" },
       { code: "Canvas 5", description: "PLC/HMI all-in-one cu ecran tactil, acces de la distanță prin WebMI+" },
       { code: "Canvas 7", description: "controler all-in-one cu ecran mai mare, gesturi tactile și MQTT" },
       { code: "Canvas 7D", description: "variantă Canvas 7 cu opțiuni extinse de I/O și comunicație" },
       { code: "Canvas 10D", description: "model Canvas de top, ecran de 10 inch, I/O extins" },
-      { code: "XL Prime", description: "PLC all-in-one cu HMI integrat, arhitectură CPU SOM de mare viteză" },
+      { code: "XL Prime", description: "PLC all-in-one cu HMI integrat, arhitectură de mare viteză" },
       { code: "Micro OCS", description: "PLC/HMI all-in-one cu I/O fix, pentru mașini compacte" },
       { code: "Foundation OCS", description: "controler all-in-one testat în teren, variantă economică" },
       { code: "RCC Series", description: "PLC fără ecran (screenless), pentru control de tip edge" },
@@ -179,23 +179,23 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       { code: "EXL6", description: "PLC all-in-one XL cu ecran extins, generație matură" },
       { code: "EXLW", description: "variantă XL cu ecran lat, generație matură" },
       { code: "EXL10", description: "PLC all-in-one XL cu ecran de 10 inch" },
-      { code: "XL15Plus", description: "PLC all-in-one cu ecran de 15 inch, scos din producție" },
-      { code: "XLE", description: "PLC all-in-one XL, model curent recomandat pentru continuitate" },
-      { code: "XLEe", description: "variantă extinsă a modelului XLE, cu I/O suplimentar" },
-      { code: "XLT", description: "PLC all-in-one XL cu ecran tactil, model curent" },
-      { code: "XLTe", description: "variantă extinsă a modelului XLT, cu I/O suplimentar" },
+      { code: "XL15Plus", description: "PLC all-in-one din seria XL" },
+      { code: "XLE", description: "PLC all-in-one din seria XL" },
+      { code: "XLEe", description: "variantă a modelului XLE" },
+      { code: "XLT", description: "PLC all-in-one din seria XL" },
+      { code: "XLTe", description: "variantă a modelului XLT" },
       { code: "Cscape", description: "software gratuit de programare pentru toate controlerele Horner" },
     ],
     faq: [
       { q: "Ce produce Horner Automation?", a: "Horner Automation produce controlere all-in-one care integrează PLC-ul și interfața de operare HMI într-o singură unitate, programate cu software-ul gratuit Cscape, din seriile Canvas OCS, XL Prime OCS, Micro OCS și RCC." },
-      { q: "Ce diferență e între seria Canvas și seria XL Prime la Horner?", a: "Canvas OCS este gama recomandată pentru proiecte noi, cu grafică modernă tactilă și acces de la distanță prin WebMI+, în timp ce XL Prime OCS aduce o arhitectură de procesor mai rapidă și memorie complet nevolatilă pentru aplicații cu cerințe mai mari de performanță." },
+      { q: "Ce diferență e între seria Canvas și seria XL Prime la Horner?", a: "Canvas OCS este gama recomandată pentru proiecte noi, cu grafică modernă tactilă și acces de la distanță prin WebMI+, în timp ce XL Prime OCS aduce o arhitectură de mare viteză, conform producătorului." },
       { q: "Livrați controlere Horner Automation în România și în cât timp?", a: "Da, aducem controlerele Horner la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de PLC Horner?", a: "Pentru o ofertă corectă trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC), numărul de intrări și ieșiri necesar și dacă aveți nevoie de acces de la distanță prin WebMI+ sau comunicare MQTT către un sistem SCADA." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Horner Automation — Home", url: "https://hornerautomation.com/", publisher: "Horner Automation", accessed: "2026-09-25" },
       { title: "Canvas ~ All-in-One PLC/HMI", url: "https://hornerautomation.com/product-category/all-in-one-controllers/canvas-collection/", publisher: "Horner Automation", accessed: "2026-09-25" },
