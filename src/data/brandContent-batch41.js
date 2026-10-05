@@ -18,8 +18,8 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
     keyProducts: [
       { name: "Encodere Liniare Magnetice MagLine", description: "Familie de senzori de poziție liniară bazați pe măsurare magnetică fără contact, în variante incrementale și absolute. Concepuți pentru montaj compact pe axe de mașini-unelte, mese de poziționare și utilaje unde spațiul e limitat. Fiind fără contact mecanic direct între cititor și bandă, rezistă bine la praf și vibrații din mediul de producție. Pentru ofertă, clientul trebuie să indice cursa de măsurare necesară, rezoluția dorită și interfața de comunicație a controlerului (CANopen, PROFINET, EtherCAT, IO-Link sau ieșire analogică)." },
       { name: "Encodere Rotative Absolute și Incrementale", description: "Traductoare rotative pentru monitorizarea poziției unghiulare pe axe de acționare, motoare și reductoare. Variantele absolute rețin poziția reală și după o întrerupere de alimentare, eliminând nevoia unei curse de referențiere la repornire. Se folosesc frecvent la benzi transportoare, mecanisme de indexare și axe de mașini unde reluarea rapidă a producției contează. Pentru ofertă e nevoie de tipul de ax (plin sau gol), interfața electrică dorită și rezoluția per rotație." },
-      { name: "Traductoare cu Cablu de Tragere SG31NEO / SG61NEO", description: "Encodere bazate pe principiul firului de tragere, care convertesc deplasarea liniară a unui cablu retractabil în semnal de poziție, fără să necesite o tijă rigidă montată pe toată lungimea cursei. Utile la utilaje mobile, macarale și cilindri hidraulici cu curse mari, unde montajul unei rigle optice sau magnetice ar fi greoi. Clientul trebuie să precizeze cursa maximă necesară și tipul de ieșire electrică (analogică sau digitală) pentru dimensionarea corectă a modelului." },
-      { name: "Inclinometre IMU Seria IMS360 / IMS365", description: "Senzori inerțiali de înclinare pentru măsurarea unghiului pe unul sau două axe, folosiți la nivelarea platformelor, brațe de macara și utilaje de construcții care trebuie să-și cunoască permanent poziția față de orizontală. Rezistă la vibrațiile constante specifice utilajelor mobile. Pentru ofertă, clientul indică numărul de axe de măsurare necesare și interfața de comunicație compatibilă cu automatul de bord." }
+      { name: "Traductoare cu cablu de tragere", description: "Encodere bazate pe principiul firului de tragere, care convertesc deplasarea liniară a unui cablu retractabil în semnal de poziție, fără să necesite o tijă rigidă montată pe toată lungimea cursei. Utile la utilaje mobile, macarale și cilindri hidraulici cu curse mari, unde montajul unei rigle optice sau magnetice ar fi greoi. Clientul trebuie să precizeze cursa maximă necesară și tipul de ieșire electrică (analogică sau digitală) pentru dimensionarea corectă a modelului." },
+      { name: "Inclinometre", description: "Senzori inerțiali de înclinare pentru măsurarea unghiului pe unul sau două axe, folosiți la nivelarea platformelor, brațe de macara și utilaje de construcții care trebuie să-și cunoască permanent poziția față de orizontală. Rezistă la vibrațiile constante specifice utilajelor mobile. Pentru ofertă, clientul indică numărul de axe de măsurare necesare și interfața de comunicație compatibilă cu automatul de bord." }
     ],
     industries: [
       "Mașini-unelte — poziționare axe și mese de lucru",
@@ -113,8 +113,8 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products Overview","url":"https://www.siko-global.com/en/products/","publisher":"SIKO GmbH","accessed":"2026-09-25"},
       {"title":"Magnetic Sensors - MagLine","url":"https://siko-global.com/en-us/products/magline-magnetic-linear-and-angular-measurement/magnetic-sensors","publisher":"SIKO GmbH","accessed":"2026-09-25"},
@@ -130,12 +130,12 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
     headquarters: "Tokyo, Japonia",
     overview: `Fuji Electric este un producător japonez de echipamente de acționare și distribuție electrică, cu sediul central la Tokyo, activ din 1923. Portofoliul companiei acoperă convertizoare de frecvență de joasă tensiune, motoare și sisteme servo, automate programabile (PLC) și interfețe om-mașină, sisteme de monitorizare și control de proces din familia MICREX VIEW, precum și surse UPS și invertoare solare pentru aplicații industriale. Din această gamă putem oferta în principal convertizoarele de frecvență și echipamentele de acționare pentru integrare pe utilaje și linii industriale.
 
-Pe segmentul de acționare electrică, Fuji Electric concurează direct cu nume precum Danfoss, poziționându-se ca alternativă pentru convertizoare de frecvență de joasă tensiune folosite la pompe, ventilatoare și benzi transportoare. Compania are un portofoliu mai larg decât un simplu producător de drives, incluzând și transformatoare turnate în rășină din seria FR3, echipamente de distribuție de medie tensiune și sisteme de control pentru procese industriale complexe, ceea ce înseamnă compatibilitate de arhitectură între acționare și restul instalației electrice la proiecte mai mari.
+Pe segmentul de acționare electrică, Fuji Electric oferă convertizoare de frecvență de joasă tensiune folosite la pompe, ventilatoare și benzi transportoare. Compania are un portofoliu mai larg decât un simplu producător de drives, incluzând și transformatoare turnate în rășină din seria MOLTRA, echipamente de distribuție de medie tensiune și sisteme de control pentru procese industriale complexe, ceea ce înseamnă compatibilitate de arhitectură între acționare și restul instalației electrice la proiecte mai mari.
 
 Pentru piața din România, gama de convertizoare Fuji Electric are sens la retehnologizarea liniilor de producție și la proiecte unde beneficiarul dorește o alternativă la mărcile europene consacrate, cu integrare prin automatistul de proiect și configurare pe parametrii concreți ai motorului acționat.`,
     whyChoose: [
       "Portofoliu extins de acționare — convertizoare de frecvență, motoare și sisteme servo din același producător, cu arhitectură de control compatibilă",
-      "Alternativă la mărcile europene consacrate — poziționat concurențial față de Danfoss pe segmentul de acționare de joasă tensiune",
+      "Convertizoare de frecvență de joasă tensiune — pentru pompe, ventilatoare și benzi transportoare",
       "Sisteme de monitorizare proprii — familia MICREX VIEW pentru supraveghere și control de proces la instalații industriale",
       "Experiență de peste un secol în echipamente electrice — de la transformatoare la electronică de putere, sub același grup"
     ],
@@ -169,7 +169,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
       },
       {
         "code": "FRENIC-Eco",
-        "description": "convertizor de frecvență orientat spre eficiență energetică"
+        "description": "convertizor de frecvență orientat spre eficiență energetică, gamă discontinuată"
       },
       {
         "code": "FRENIC-Lift LM3",
@@ -197,7 +197,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
       },
       {
         "code": "FRENIC-4800",
-        "description": "convertizor de frecvență de viteză ajustabilă pentru puteri mari"
+        "description": "convertizor de frecvență Fuji Electric; parametrii se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "ALPHA7",
@@ -215,7 +215,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
     faq: [
       {
         "q": "Ce diferență este între FRENIC-Mini și FRENIC-Eco de la Fuji Electric?",
-        "a": "FRENIC-Mini este un convertizor de frecvență compact, gândit pentru aplicații de putere mică și spații reduse de montaj, în timp ce FRENIC-Eco este orientat spre eficiență energetică în aplicații industriale de putere medie. Alegerea depinde de puterea motorului controlat și de spațiul disponibil în tabloul electric al instalației."
+        "a": "FRENIC-Mini este un convertizor de frecvență compact, gândit pentru aplicații de putere mică și spații reduse de montaj, în timp ce FRENIC-Eco, orientat spre eficiență energetică în aplicații industriale de putere medie, figurează la producător ca gamă discontinuată. Alegerea depinde de puterea motorului controlat și de spațiul disponibil în tabloul electric al instalației."
       },
       {
         "q": "Ce este seria ALPHA7 de la Fuji Electric?",
@@ -232,8 +232,8 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap CMS","url":"https://www.fujielectric.com/sitemap_cms_all.xml","publisher":"Fuji Electric","accessed":"2026-09-26"},
       {"title":"Products","url":"https://www.fujielectric.com/products/","publisher":"Fuji Electric","accessed":"2026-09-26"},
@@ -246,19 +246,19 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
   "nke-austria": {
     name: "NKE Austria",
     headquarters: "Austria",
-    overview: `NKE Austria este un producător austriac de rulmenți, specializat atât în rulmenți standard cu bile și role, cât și în soluții personalizate pentru clienți industriali. Compania declară o rețea de peste 240 de parteneri comerciali în peste 60 de țări, ceea ce arată o distribuție internațională destul de întinsă pentru un producător de dimensiune medie. Din gama NKE putem oferta rulmenți pentru aplicații industriale generale, ca alternativă la mărcile consacrate din categorie.
+    overview: `NKE Austria este un producător austriac de rulmenți, specializat atât în rulmenți standard cu bile și role, cât și în soluții personalizate pentru clienți industriali. Compania declară o rețea de peste 240 de parteneri comerciali în peste 60 de țări. Din gama NKE putem oferta rulmenți pentru aplicații industriale generale, ca alternativă la mărcile consacrate din categorie.
 
-Poziționarea NKE e de furnizor concurent pentru SKF pe segmentul de rulmenți standard, mizând pe politica de calitate strictă și pe echipamente proprii de testare și măsurare menționate explicit ca prioritate a companiei. Site-ul oficial nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
+NKE declară o politică de calitate strictă și utilizarea de echipamente avansate de testare și măsurare. Site-ul oficial nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
 
-Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți standard la mentenanța utilajelor industriale, acolo unde beneficiarul acceptă un producător mai puțin cunoscut decât mărcile consacrate în schimbul unei disponibilități mai bune sau al unui preț de listă diferit.`,
+Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți standard la mentenanța utilajelor industriale.`,
     whyChoose: [
-      "Alternativă la mărcile consacrate — poziționat concurențial față de SKF pe segmentul de rulmenți standard industriali",
+      "Gamă de rulmenți standard și soluții personalizate pentru aplicații industriale",
       "Rețea internațională de distribuție — peste 240 de parteneri comerciali în peste 60 de țări, conform datelor producătorului",
       "Rulmenți personalizați — capacitate declarată de a dezvolta soluții adaptate cerințelor specifice ale clientului",
       "Politică de calitate documentată public — testare și măsurare proprie menționate ca prioritate de companie"
     ],
     keyProducts: [
-      { name: "Rulmenți Radiali cu Bile", description: "Rulmenți standard pentru sarcini radiale, folosiți la motoare electrice, reductoare și utilaje generale de producție. Fac parte din gama de bază a producătorului, gândită ca alternativă directă la rulmenții echivalenți ai mărcilor consacrate. Pentru ofertă, clientul trebuie să transmită codul rulmentului existent (marcat pe inelul exterior) sau dimensiunile de alezaj, diametru exterior și lățime." },
+      { name: "Rulmenți Radiali cu Bile", description: "Rulmenți standard pentru sarcini radiale, folosiți la motoare electrice, reductoare și utilaje generale de producție. Fac parte din gama de bază a producătorului. Pentru ofertă, clientul trebuie să transmită codul rulmentului existent (marcat pe inelul exterior) sau dimensiunile de alezaj, diametru exterior și lățime." },
       { name: "Rulmenți cu Role", description: "Rulmenți destinați sarcinilor mai mari, radiale sau combinate, pentru aplicații industriale generale unde rulmenții cu bile nu sunt suficienți din punct de vedere al capacității de încărcare. Se regăsesc în portofoliul standard al producătorului. Clientul trebuie să indice tipul constructiv necesar (rulment cu role cilindrice, conice sau sferice) și dimensiunile de montaj." },
       { name: "Soluții de Rulmenți Personalizate", description: "Dezvoltare de rulmenți cu dimensiuni sau materiale adaptate unei aplicații specifice, atunci când niciun rulment standard din catalog nu se potrivește constructiv. Necesită de regulă un proces de proiectare comună cu producătorul, cu termene mai lungi decât la un rulment standard. Clientul trebuie să furnizeze desenul tehnic sau parametrii exacți de sarcină și turație ai aplicației." }
     ],
@@ -272,8 +272,8 @@ Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți 
     limitation: "Nu putem confirma parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie fără consultarea fișei tehnice specifice de la producător.",
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "NKE Austria — Home (EN)", url: "https://www.nke.at/en/", publisher: "NKE Austria GmbH", accessed: "2026-09-22" },
       { title: "NKE Austria — Company", url: "https://www.nke.at/en", publisher: "NKE Austria GmbH", accessed: "2026-09-22" }
@@ -282,9 +282,9 @@ Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți 
 
   kessel: {
     name: "Kessel",
-    founded: 1998,
+    
     headquarters: "Lenting, Germania",
-    overview: `Kessel este un producător german de tehnică de drenaj pentru clădiri, cu sediul la Lenting, fondat în 1998 și prezent astăzi în peste 60 de țări prin filiale proprii, inclusiv în România. Gama acoperă sisteme anti-reflux, stații de pompare hibride pentru ape uzate, pompe submersibile, separatoare de grăsimi și de lichide ușoare (ulei, benzină), precum și sisteme de colectare a reziduurilor alimentare și drenuri liniare de pardoseală. Din această gamă putem oferta echipamentele destinate ridicării și tratării apelor uzate din clădiri comerciale și rezidențiale.
+    overview: `Kessel este un producător german de tehnică de drenaj pentru clădiri, cu sediul la Lenting, prezent în peste 60 de țări, inclusiv în România. Gama acoperă sisteme anti-reflux, stații de pompare hibride pentru ape uzate, pompe submersibile, separatoare de grăsimi și de lichide ușoare (ulei, benzină), precum și sisteme de colectare a reziduurilor alimentare și drenuri liniare de pardoseală. Din această gamă putem oferta echipamentele destinate ridicării și tratării apelor uzate din clădiri comerciale și rezidențiale.
 
 Tehnic, Kessel s-a diferențiat prin stațiile de pompare hibride din seria Ecolift, care combină funcția de stație de ridicare cu cea de protecție anti-reflux într-un singur echipament compact, reducând numărul de componente montate separat. Separatoarele de grăsimi din seria EasyClean sunt gândite pentru curățare ușoară, relevant în bucătăriile comerciale unde întreținerea frecventă e obligatorie din motive de igienă. Compania e certificată ISO 9001 pentru dezvoltare, producție și service post-vânzare.
 
@@ -299,7 +299,7 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
     keyProducts: [
       { name: "Stații de Pompare Hibride Seria Ecolift (M, L, XL)", description: "Stații compacte de ridicare a apelor uzate care integrează și funcția de protecție anti-reflux, în trei dimensiuni în funcție de debitul necesar. Se montează în subsoluri sau la puncte de canalizare situate sub nivelul rețelei publice, unde evacuarea gravitațională nu e posibilă. Clientul trebuie să transmită debitul de apă uzată estimat, înălțimea de pompare necesară și dacă instalația conține și ape fecaloide." },
       { name: "Pompe Submersibile Aquadive (KTP 300, GTF 500, GTF 1000)", description: "Pompe submersibile pentru ape uzate menajere sau industriale, în variante cu capacități diferite de debit și înălțime de pompare, marcate prin cifrele din denumirea modelului. Se folosesc atât independent, cât și integrate în stațiile de pompare ale producătorului. Pentru ofertă, clientul precizează debitul necesar, înălțimea de refulare și dacă fluidul conține solide în suspensie." },
-      { name: "Separatoare de Grăsimi Seria EasyClean", description: "Separatoare de grăsimi din bucătăriile profesionale, disponibile în variante free-standing, montate la sol sau ovale, în funcție de spațiul disponibil și debitul de ape uzate grase. Concepute pentru curățare frecventă, cerință obligatorie din motive de igienă în HoReCa. Clientul trebuie să indice debitul nominal necesar conform numărului de mese sau al capacității bucătăriei." },
+      { name: "Separatoare de Grăsimi Seria EasyClean", description: "Separatoare de grăsimi din bucătăriile profesionale, disponibile în variante de sine stătătoare, modulare sau îngropate, în funcție de spațiul disponibil și debitul de ape uzate grase. Concepute pentru curățare frecventă, cerință obligatorie din motive de igienă în HoReCa. Clientul trebuie să indice debitul nominal necesar conform numărului de mese sau al capacității bucătăriei." },
       { name: "Separatoare de Lichide Ușoare EasyOil", description: "Separatoare pentru ulei și benzină, bazate pe principiul coalescenței, folosite la spălătorii auto, ateliere de service și platforme unde apele uzate pot conține produse petroliere. Rețin lichidele ușoare înainte de evacuarea în canalizare. Pentru ofertă, clientul trebuie să transmită debitul de proiectare și tipul exact de activitate deservită." }
     ],
     industries: [
@@ -317,23 +317,23 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
     productCodes: [
       {
         "code": "Aquapump Small",
-        "description": "pompă submersibilă compactă pentru evacuarea apei din subsol"
+        "description": "stație de pompare din seria Aquapump, varianta Small"
       },
       {
         "code": "Aquapump Medium",
-        "description": "pompă submersibilă de dimensiune medie pentru debite moderate"
+        "description": "stație de pompare din seria Aquapump, varianta Medium"
       },
       {
         "code": "Aquapump XL Basic",
-        "description": "variantă de bază a pompei submersibile de capacitate mare"
+        "description": "stație de pompare din seria Aquapump, varianta XL Basic"
       },
       {
         "code": "Aquapump XL",
-        "description": "pompă submersibilă de capacitate mare pentru volume ridicate"
+        "description": "stație de pompare din seria Aquapump, varianta XL"
       },
       {
         "code": "Aquapump XXL",
-        "description": "variantă extinsă din gama Aquapump pentru debite foarte mari"
+        "description": "stație de pompare din seria Aquapump, varianta XXL"
       },
       {
         "code": "Aquadive KTP 300",
@@ -397,13 +397,13 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
       },
       {
         "code": "Linearis",
-        "description": "canal de drenaj liniar pentru suprafețe exterioare"
+        "description": "canal de drenaj liniar"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între seriile Ecolift și Aquapump de la Kessel?",
-        "a": "Seria Ecolift este o stație hibridă de pompare care combină siguranța unei instalații active cu eficiența unei pante gravitaționale, fiind recomandată pentru drenaj de gravitate cu rezervă de pompare. Seria Aquapump reunește pompe submersibile mobile, de la variante mici până la XXL, folosite pentru evacuarea directă a apei din subsoluri sau șantiere. Alegerea depinde de tipul instalației: fixă și hibridă sau mobilă și submersibilă."
+        "a": "Seria Ecolift este o stație hibridă de pompare care combină ridicarea apei uzate cu protecția anti-reflux. Seria Aquapump reunește stații de pompare în variantele Small, Medium, XL Basic, XL și XXL. Alegerea depinde de debit și de condițiile de montaj, care se confirmă pe cod, din documentația Kessel."
       },
       {
         "q": "Ce tip de separator Kessel aleg pentru un restaurant?",
@@ -420,8 +420,8 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Produse Kessel","url":"https://www.kessel.ro/produse","publisher":"Kessel","accessed":"2026-09-25"},
       { title: "KESSEL — Home", url: "https://www.kessel.de", publisher: "Kessel SE + Co. KG", accessed: "2026-09-22" },
@@ -433,16 +433,16 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
     name: "Mean Well",
     founded: 1982,
     headquarters: "New Taipei, Taiwan",
-    overview: `Mean Well este un producător taiwanez de surse de alimentare în comutație, fondat în 1982, cu sediul în zona industrială din New Taipei și filiale de producție în China, precum și birouri comerciale în SUA, Olanda, India și alte piețe. Gama depășește 10.000 de modele standard, structurate pe familii AC/DC (tip închis, montaj pe șină DIN, tip deschis, dedicate LED), DC/DC pentru aplicații on-board și DC/AC pentru invertoare, inclusiv pentru sisteme solare. Din această gamă putem oferta surse pentru integrare în panouri electrice și echipamente industriale.
+    overview: `Mean Well este un producător taiwanez de surse de alimentare în comutație, fondat în 1982, cu sediul în parcul industrial din New Taipei și baze de producție în Taiwan, China, India și SUA, precum și birouri comerciale în SUA, Olanda, India și alte piețe. Gama depășește 10.000 de modele standard, structurate pe familii AC/DC (tip închis, montaj pe șină DIN, tip deschis, dedicate LED), DC/DC pentru aplicații on-board și DC/AC pentru invertoare, inclusiv pentru sisteme solare. Din această gamă putem oferta surse pentru integrare în panouri electrice și echipamente industriale.
 
-Ca poziționare pe piață, Mean Well e unul dintre puținii producători mondiali dedicați exclusiv surselor de alimentare standard, spre deosebire de concurenții mai mari care produc surse doar ca linie secundară alături de alte echipamente electronice. Această specializare se traduce într-o gamă foarte largă de puteri și formate constructive pentru fiecare familie de produs, utilă atunci când un integrator trebuie să înlocuiască o sursă defectă fără să modifice cablajul existent. Compania are aproximativ 2.500 de angajați și cinci baze de producție la nivel global.
+Mean Well se descrie ca unul dintre puținii producători din lume dedicați surselor de alimentare standard, de la care provin 99% din veniturile companiei, conform producătorului. Această specializare se traduce într-o gamă foarte largă de puteri și formate constructive pentru fiecare familie de produs, utilă atunci când un integrator trebuie să înlocuiască o sursă defectă fără să modifice cablajul existent. Compania are aproximativ 2.500 de angajați și cinci baze de producție la nivel global.
 
 Pentru România, sursele Mean Well au sens la panouri electrice industriale, la echipamente de automatizare care necesită alimentare stabilizată de joasă tensiune și la instalații de iluminat LED unde driverul trebuie înlocuit rapid, fără proiect nou de cablare.`,
     whyChoose: [
-      "Producător specializat exclusiv pe surse de alimentare — nu o linie secundară de business, ci activitatea principală a companiei",
+      "Producător specializat în surse de alimentare standard — 99% din venituri provin din acest domeniu, conform producătorului",
       "Peste 10.000 de modele standard — probabilitate mare de a găsi un echivalent direct pentru o sursă existentă defectă",
       "Familii complete AC/DC, DC/DC și DC/AC — acoperire pentru majoritatea aplicațiilor industriale de alimentare de joasă tensiune",
-      "Cinci baze de producție proprii — Taiwan și China, cu birouri comerciale în Europa, SUA și Asia"
+      "Cinci baze de producție proprii — în Taiwan, China, India și SUA, cu birouri comerciale în Europa, SUA și Asia"
     ],
     keyProducts: [
       { name: "Surse AC/DC Tip Închis și DIN Rail", description: "Surse de alimentare pentru montaj în panouri electrice sau pe șină DIN, care convertesc tensiunea de rețea în tensiune continuă stabilizată pentru automate, senzori și acționări de joasă tensiune. Fac parte din familia de bază a producătorului, cu numeroase variante de putere disponibile. Pentru ofertă, clientul trebuie să transmită tensiunea de ieșire necesară, puterea nominală și tipul de montaj (pe șină DIN sau fixare cu șuruburi)." },
@@ -561,8 +561,8 @@ Pentru România, sursele Mean Well au sens la panouri electrice industriale, la 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Product Series","url":"https://www.meanwell.com/productSeries.aspx","publisher":"MEAN WELL Enterprises Co., Ltd.","accessed":"2026-09-25"},
       { title: "MEAN WELL — Global Website", url: "https://www.meanwell.com/", publisher: "MEAN WELL Enterprises Co., Ltd.", accessed: "2026-09-22" },
@@ -576,20 +576,20 @@ Pentru România, sursele Mean Well au sens la panouri electrice industriale, la 
     headquarters: "Wallingford, SUA",
     overview: `Amphenol este un producător american de conectori și soluții de interconectare, fondat în 1932 la Chicago sub numele American Phenolic Corporation, cu sediul actual la Wallingford, Connecticut. Gama industrială acoperă conectori circulari de putere și semnal, conectori pentru curent ridicat, soluții pentru energii alternative, echipamente grele și automatizare de fabrică, plus conectori pentru eMobility și stocare de energie. Din portofoliul industrial putem oferta conectori pentru integrare pe utilaje, panouri electrice și sisteme de acționare.
 
-Tehnic, gama industrială Amphenol se remarcă prin conectori de mare curent precum familia RADSOK, o tehnologie proprietară de contact electric folosită la aplicații cu densitate mare de putere, și prin serii precum APC pentru conectori circulari ușori destinați echipamentelor industriale mobile. Compania concurează direct cu TE Connectivity pe segmentul de conectori industriali și de interconectare, ambele oferind familii comparabile de conectori circulari și de putere pentru medii dure.
+Tehnic, gama industrială Amphenol se remarcă prin conectori de mare curent precum familia RADSOK, o tehnologie proprietară de contact electric folosită la aplicații cu densitate mare de putere, și prin serii precum TS1 pentru eMobility și H4 Plus pentru instalații fotovoltaice. Gama industrială include conectori circulari și de putere pentru medii dure.
 
 Pentru România, gama Amphenol are sens la echipamente industriale unde conectorii trebuie să reziste la vibrații și medii dure — utilaje mobile, panouri de automatizare și instalații electrice unde conexiunile detașabile trebuie să suporte curenți mari fără supraîncălzire.`,
     whyChoose: [
       "Tehnologie proprietară RADSOK — contacte de mare curent pentru aplicații cu densitate mare de putere",
-      "Gamă largă de conectori circulari industriali — de la conectori ușori APC la soluții de putere pentru eMobility",
-      "Concurent direct la TE Connectivity — familie comparabilă de conectori pentru medii industriale dure",
+      "Gamă largă de conectori circulari industriali — de la conectori circulari la soluții de putere pentru eMobility",
+      "Conectori circulari și de putere — familii pentru medii industriale dure",
       "Prezență de peste nouă decenii în interconectare — producător cu istorie continuă din 1932"
     ],
     keyProducts: [
       { name: "Conectori de Putere RADSOK", description: "Tehnologie proprietară de contact electric pentru conectori de mare curent, folosită la aplicații cu densitate mare de putere precum echipamentele pentru centre de date și acționările industriale grele. Oferă o suprafață de contact mai mare decât un contact clasic tip pin-mufă, reducând rezistența de trecere la curenți ridicați. Clientul trebuie să transmită curentul nominal necesar și tipul de cablu folosit pentru dimensionarea corectă." },
-      { name: "Conectori Circulari Industriali Seria APC", description: "Conectori circulari ușori pentru echipamente industriale mobile, gândiți ca alternativă compactă la conectorii circulari metalici clasici. Se folosesc la interconectarea panourilor de comandă cu senzori și actuatori pe utilaje unde greutatea contează. Pentru ofertă, clientul indică numărul de contacte necesar și tipul de semnal transmis (putere, semnal sau mixt)." },
+      { name: "Conectori Circulari Industriali", description: "Conectori circulari pentru echipamente industriale mobile. Se folosesc la interconectarea panourilor de comandă cu senzori și actuatori pe utilaje unde greutatea contează. Pentru ofertă, clientul indică numărul de contacte necesar și tipul de semnal transmis (putere, semnal sau mixt)." },
       { name: "Conectori pentru eMobility Seria TS1", description: "Conectori de putere ecranați pentru curent ridicat, destinați aplicațiilor de electromobilitate și stocare de energie unde e nevoie de protecție împotriva interferențelor electromagnetice. Clientul trebuie să transmită curentul de lucru și tensiunea maximă a circuitului pentru selecția corectă a variantei." },
-      { name: "Conectori pentru Energii Alternative H4 Plus", description: "Platformă de conectori pentru instalații fotovoltaice, extensibilă până la 2000V DC, folosită la interconectarea panourilor solare și a echipamentelor de conversie asociate. Pentru ofertă, clientul trebuie să precizeze tensiunea de sistem și secțiunea cablului folosit în instalație." }
+      { name: "Conectori pentru Energii Alternative H4 Plus", description: "Platformă de conectori pentru instalații fotovoltaice, cu variante de 1500V DC (H4 Plus) și 2000V DC (H4 P2KV), folosită la interconectarea panourilor solare și a echipamentelor de conversie asociate. Pentru ofertă, clientul trebuie să precizeze tensiunea de sistem și secțiunea cablului folosit în instalație." }
     ],
     industries: [
       "Energii alternative — interconectare panouri fotovoltaice și invertoare",
@@ -682,8 +682,8 @@ Pentru România, gama Amphenol are sens la echipamente industriale unde conector
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Amphenol Industrial Products","url":"https://www.amphenol-industrial.com/products","publisher":"Amphenol Industrial Operations","accessed":"2026-09-25"},
       { title: "Amphenol Corporation — About", url: "https://www.amphenol.com/about", publisher: "Amphenol Corporation", accessed: "2026-09-22" },
@@ -826,21 +826,21 @@ Pentru România, produsele Soudal au sens la șantiere de construcții, la monta
 
   "panasonic-motor-drive": {
     name: "Panasonic Motor & Drive",
-    overview: `Panasonic Motor & Drive este divizia de servomotoare și sisteme de acționare de precizie a grupului japonez Panasonic, comercializată în Europa prin entitatea Panasonic Industry Europe, cu sediul la Ottobrunn, Germania. Gama actuală se organizează în jurul familiei de servo-drivere MINAS, cu seriile A6 (disponibilă pe 200V și 400V, cu variante de driver A6B, A6N, A6SE, A6SF, A6SG, A6V, A6BU), A6 Multi ca versiune extensibilă și A7 ca generație mai nouă, alături de MINAS LIQI pentru montaj compact și variante pe 24/48V DC. Din această gamă putem oferta servomotoare și drivere pentru integrare pe axe de poziționare industrială.
+    overview: `Panasonic Motor & Drive este divizia de servomotoare și sisteme de acționare de precizie a grupului japonez Panasonic, comercializată în Europa prin entitatea Panasonic Industry Europe, cu sediul la Ottobrunn, Germania. Gama actuală se organizează în jurul familiei de servo-drivere MINAS, cu seriile A6 (disponibilă pe 200V și 400V, cu variante de driver A6B, A6N, A6SE, A6SF, A6SG, A6V, A6BU), A6 Multi ca driver multi-ax și A7 ca generație mai nouă, alături de MINAS LIQI și variante pe 24/48V DC. Din această gamă putem oferta servomotoare și drivere pentru integrare pe axe de poziționare industrială.
 
-Tehnic, Panasonic concurează cu Kollmorgen pe segmentul de servomotoare de precizie, ambele adresând aplicații unde poziționarea axei trebuie să fie rapidă și repetabilă. Ecosistemul MINAS include software dedicat de configurare (PANATERM) și un motion controller propriu, ceea ce înseamnă că integratorul poate rămâne într-un singur mediu de programare de la motor până la controlerul de mișcare, fără componente de la producători terți pentru funcțiile de bază.
+Compatibilitatea driverului cu software-ul de configurare și cu controlerul de mișcare al mașinii se confirmă pe cod, din documentația producătorului.
 
 Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipulare și axe de poziționare din linii de asamblare unde se cere un servomotor cu turație și cuplu ridicate, integrat cu un driver dedicat din aceeași familie.`,
     whyChoose: [
-      "Ecosistem integrat MINAS — servomotor, driver și software de configurare din aceeași familie de produse",
+      "Familia MINAS — servomotoare și drivere din aceeași familie de produse",
       "Variante pe 200V, 400V și 24/48V DC — acoperire pentru instalații cu alimentări electrice diferite",
       "Generație nouă A7 alături de A6 consolidată — opțiune atât pentru proiecte noi, cât și pentru compatibilitate cu instalații existente",
-      "Poziționare directă față de Kollmorgen — alternativă pe segmentul servomotoarelor de precizie pentru axe rapide"
+      "Familia MINAS A6 acoperă puteri de la 50 W la 5 kW, conform paginii producătorului"
     ],
     keyProducts: [
       { name: "Servo-Sistem MINAS A6", description: "Familie de servomotoare și drivere disponibilă pe 200V și 400V, cu variante de driver notate A6B, A6N, A6SE, A6SF, A6SG, A6V și A6BU, adaptate diverselor cerințe de comunicație și control ale mașinii. Se folosește la axe de poziționare din mașini de ambalat, mașini-unelte și roboți industriali. Clientul trebuie să transmită tensiunea de alimentare disponibilă, cuplul necesar și protocolul de comunicație al controlerului central." },
-      { name: "Servo-Sistem MINAS A7", description: "Generație mai nouă de servomotoare și drivere din aceeași familie MINAS, gândită pentru aplicații care cer răspuns dinamic mai rapid și precizie de poziționare mai mare. Se alege în locul seriei A6 la proiecte noi, unde nu există constrângeri de compatibilitate cu echipamente mai vechi. Clientul trebuie să precizeze cuplul, turația maximă și tipul de feedback de poziție dorit." },
-      { name: "MINAS LIQI", description: "Variantă compactă din familia de servo-sisteme, gândită pentru montaj în spații reduse, unde un driver de dimensiuni standard nu încape constructiv în panoul electric. Se folosește la utilaje mai mici sau la axe secundare dintr-o mașină mai complexă. Clientul trebuie să confirme spațiul de montaj disponibil și puterea axei acționate." },
+      { name: "Servo-Sistem MINAS A7", description: "Generație mai nouă de servomotoare și drivere din aceeași familie MINAS. Se alege în locul seriei A6 la proiecte noi, unde nu există constrângeri de compatibilitate cu echipamente mai vechi. Clientul trebuie să precizeze cuplul, turația maximă și tipul de feedback de poziție dorit." },
+      { name: "MINAS LIQI", description: "Sistem servo din familia MINAS; caracteristicile și domeniul de putere se confirmă pe cod, din documentația producătorului. Se folosește la utilaje mai mici sau la axe secundare dintr-o mașină mai complexă. Clientul trebuie să confirme spațiul de montaj disponibil și puterea axei acționate." },
       { name: "Servomotoare pe 24/48V DC", description: "Variante de servo-sisteme alimentate direct în curent continuu de joasă tensiune, potrivite pentru echipamente mobile sau aplicații unde nu există alimentare trifazată disponibilă la punctul de montaj. Clientul trebuie să transmită tensiunea de alimentare disponibilă și cuplul necesar al axei." }
     ],
     industries: [
@@ -850,7 +850,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       "Linii de asamblare — acționare axe cu cerințe de repetabilitate ridicată"
     ],
     infinitrade: `Servo-sistemele MINAS le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Informațiile despre gamă provin din surse publice ale producătorului, iar fără date proprii de stoc pentru piața locală avem nevoie de tensiunea de alimentare disponibilă, cuplul și turația necesare, plus protocolul de comunicație al controlerului dumneavoastră, pentru a identifica varianta A6, A7 sau LIQI potrivită. Nu promitem disponibilitate permanentă din stoc pentru toate variantele de driver.`,
-    limitation: "Nu putem confirma configurarea software a driverului (PANATERM) sau integrarea cu un motion controller terț fără testare punctuală pe aplicația clientului.",
+    limitation: "Nu putem confirma configurarea software a driverului sau integrarea cu un motion controller terț fără testare punctuală pe aplicația clientului.",
     productCodes: [
       {
         "code": "MINAS A7",
@@ -866,15 +866,15 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "code": "MINAS A6B",
-        "description": "servo-driver din familia A6, variantă de bază"
+        "description": "servo-driver din familia MINAS A6; interfața de comunicație se confirmă pe cod"
       },
       {
         "code": "MINAS A6N",
-        "description": "servo-driver din familia A6, variantă de rețea"
+        "description": "servo-driver din familia MINAS A6; interfața de comunicație se confirmă pe cod"
       },
       {
         "code": "MINAS A6SE",
-        "description": "servo-driver compact din familia MINAS A6"
+        "description": "servo-driver din familia MINAS A6; dimensiunile se confirmă pe cod"
       },
       {
         "code": "MINAS A6SF",
@@ -882,7 +882,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "code": "MINAS A6SG",
-        "description": "servo-driver din familia A6, variantă dedicată"
+        "description": "servo-driver din familia MINAS A6; caracteristicile se confirmă pe cod"
       },
       {
         "code": "MINAS A6V",
@@ -890,7 +890,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "code": "MINAS A6BU",
-        "description": "servo-driver din familia A6, variantă particularizată"
+        "description": "servo-driver din familia MINAS A6; caracteristicile se confirmă pe cod"
       },
       {
         "code": "MINAS A6 Multi",
@@ -898,7 +898,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "code": "MINAS LIQI",
-        "description": "servo-drive compact, gândit pentru integrare mecanică simplă"
+        "description": "servo-sistem din familia MINAS"
       },
       {
         "code": "MINAS 24/48V DC",
@@ -908,7 +908,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
     faq: [
       {
         "q": "Ce diferență este între seriile MINAS A6 și A7 de la Panasonic?",
-        "a": "Familia MINAS A6 acoperă o gamă largă de variante de servo-driver, de la A6SE la A6 Multi, pentru aplicații standard de control de mișcare pe 200V sau 400V. Seria MINAS A7 este generația mai recentă, orientată spre performanță superioară de poziționare și integrare mai simplă în linii automate. Alegerea depinde de precizia cerută și de complexitatea aplicației de automatizare."
+        "a": "Familia MINAS A6 acoperă o gamă largă de variante de servo-driver, de la A6SE la A6 Multi, pentru aplicații standard de control de mișcare pe 200V sau 400V. Seria MINAS A7 este generația mai recentă, prezentată de producător ca generația mai nouă a familiei MINAS. Alegerea depinde de precizia cerută și de complexitatea aplicației de automatizare."
       },
       {
         "q": "Ce servo-driver Panasonic aleg pentru un sistem multi-ax?",
@@ -916,7 +916,7 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
       },
       {
         "q": "Ce servomotoare Panasonic funcționează pe tensiune joasă?",
-        "a": "Familia MINAS 24/48V DC este gândită pentru aplicații unde alimentarea standard de 200V nu este disponibilă sau dorită, precum roboți mobili sau echipamente alimentate din baterii. Seria MINAS LIQI completează oferta cu un servo-drive compact, orientat spre o integrare mecanică și electrică simplificată în echipamente de dimensiuni reduse."
+        "a": "Familia MINAS 24/48V DC este gândită pentru aplicații unde alimentarea standard de 200V nu este disponibilă sau dorită, precum roboți mobili sau echipamente alimentate din baterii. Seria MINAS LIQI completează oferta; caracteristicile ei se confirmă pe cod, din documentația producătorului."
       },
       {
         "q": "Livrați servo-sisteme Panasonic în România?",
@@ -925,8 +925,8 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MINAS A7 Servo Drives","url":"https://industry.panasonic.eu/products/automation-devices-solutions/industrial-motors/servo-drives/minas-a7","publisher":"Panasonic Industry Europe","accessed":"2026-09-25"},
       { title: "Panasonic Industry Europe — Motor & Drive", url: "https://industry.panasonic.eu", publisher: "Panasonic Industry Europe GmbH", accessed: "2026-09-22" },
@@ -940,13 +940,13 @@ Pentru România, gama MINAS are sens la mașini de ambalat, roboți de manipular
     headquarters: "Costa Mesa, SUA",
     overview: `Cla-Val este un producător american de robineți automați de control pentru rețele de apă, fondat în 1936 și cu sediul din 1954 la Costa Mesa, California, unde operează și fabrica principală cu turnătorii proprii de metal. Gama acoperă robineți pentru rețele municipale de apă (reducere și susținere de presiune, control de nivel, control de debit, robineți de aer și de reținere), sisteme pentru protecție împotriva incendiilor, echipamente pentru alimentare marină, aviatică și feroviară cu combustibil, plus componente electronice de control. Din această gamă putem oferta robineții destinați rețelelor de apă și stațiilor de pompare.
 
-Tehnic, Cla-Val se diferențiază prin faptul că operează două turnătorii proprii, capacitate rară printre producătorii globali de robineți, ceea ce le permite să toarne piese în peste 50 de variante de metale și grade — fontă ductilă, bronz, aluminiu, oțel și inox. Compania concurează direct cu Bermad pe segmentul de robineți hidraulici automați pentru rețele de apă, ambele oferind familii comparabile de robineți de control cu pilotare hidraulică. Cla-Val are filiale proprii în Canada, Elveția, Franța, Marea Britanie și Noua Zeelandă.
+Tehnic, Cla-Val se diferențiază prin faptul că operează două turnătorii proprii, capacitate rară printre producătorii globali de robineți, ceea ce le permite să toarne piese în peste 50 de variante de metale și grade — fontă ductilă, bronz, aluminiu, oțel și inox. Cla-Val are filiale proprii în Canada, Elveția, Franța, Marea Britanie și Noua Zeelandă.
 
 Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelelor de apă potabilă, la sistemele de reducere a presiunii din rețelele de distribuție și la instalațiile de protecție împotriva incendiilor unde e nevoie de un robinet automat cu pilotare hidraulică.`,
     whyChoose: [
       "Turnătorii proprii de metal — capacitate rară în industrie, cu peste 50 de variante de metale și grade disponibile",
-      "Trei generații de conducere în familie — companie cu istorie continuă din 1936, fără schimbări repetate de proprietar",
-      "Poziționare directă față de Bermad — alternativă pe segmentul robineților hidraulici automați pentru rețele de apă",
+      "Trei generații de conducere în familie — companie înființată în 1936, conform informațiilor producătorului",
+      "Gamă de robineți automați de control pentru apă, protecție la incendiu, marină, combustibil și industrie",
       "Acoperire multi-sector — apă municipală, protecție la incendiu, marină, aviație și feroviar din aceeași gamă"
     ],
     keyProducts: [
@@ -967,7 +967,7 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
     productCodes: [
       {
         "code": "90-01 / 690-01",
-        "description": "robinet de reducere a presiunii, variante cu și fără flanșă"
+        "description": "robinet de reducere a presiunii, disponibil în seriile 90-01 și 690-01"
       },
       {
         "code": "90-01KO / 690-01KO",
@@ -975,7 +975,7 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
       },
       {
         "code": "CRD-L",
-        "description": "robinet de reducere a presiunii, variantă compactă"
+        "description": "robinet de reducere a presiunii"
       },
       {
         "code": "92-01 / 692-01",
@@ -1011,7 +1011,7 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
       },
       {
         "code": "95-01 / 695-01",
-        "description": "robinet pentru reducerea proporțională a debitului"
+        "description": "robinet de control de tip Ratio Reduction (reducere în raport)"
       },
       {
         "code": "90-37 / 690-37",
@@ -1054,8 +1054,8 @@ Pentru România, robineții Cla-Val au sens la stațiile de pompare ale rețelel
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Pressure Reducing Valves","url":"https://www.cla-val.com/waterworks/pressure-control-valves/pressure-reducing-valves","publisher":"Cla-Val","accessed":"2026-09-25"},
       { title: "Cla-Val — Home", url: "https://www.cla-val.com/", publisher: "Cla-Val Company", accessed: "2026-09-22" },
@@ -1200,16 +1200,16 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
     name: "Ansell",
     founded: 1905,
     headquarters: "Iselin, SUA",
-    overview: `Ansell este un producător de mănuși și echipamente de protecție cu origini australiene, fondat formal în 1905 de Eric Norman Ansell, plecând de la o linie de producție de anvelope de bicicletă a Dunlop din Melbourne. Astăzi compania are sediul operațional la Iselin, New Jersey, SUA, și operează sub mai multe branduri de mănuși — HyFlex, AlphaTec, TouchNTuff, EDGE, RINGERS și altele — acoperind protecția mecanică, chimică și termică a mâinilor. Din această gamă putem oferta mănuși de protecție pentru medii industriale și logistică.
+    overview: `Ansell este un producător de mănuși și echipamente de protecție cu origini australiene, fondat în 1905 de Eric Norman Ansell, care a preluat de la Dunlop utilajele de fabricat prezervative și a înființat Ansell Rubber Company. Astăzi compania are sediul operațional la Iselin, New Jersey, SUA, și operează sub mai multe branduri de mănuși — HyFlex, AlphaTec, TouchNTuff, EDGE, RINGERS și altele — acoperind protecția mecanică, chimică și termică a mâinilor. Din această gamă putem oferta mănuși de protecție pentru medii industriale și logistică.
 
-Tehnic, portofoliul Ansell se împarte pe tipul de risc adresat: familia HyFlex acoperă protecția mecanică de zi cu zi cu confort ridicat, AlphaTec e destinată expunerii la chimicale, TouchNTuff acoperă mănușile de unică folosință pentru contact controlat, iar EDGE oferă o gamă de bază pentru protecție mecanică generală la un raport preț-performanță accesibil. Compania concurează direct cu Honeywell Safety pe segmentul de echipamente individuale de protecție, ambele acoperind game similare de risc mecanic, chimic și termic.
+Tehnic, portofoliul Ansell se împarte pe tipul de risc adresat: familia HyFlex acoperă protecția mecanică de zi cu zi cu confort ridicat, AlphaTec e destinată expunerii la chimicale, TouchNTuff acoperă mănușile de unică folosință pentru contact controlat, iar EDGE oferă o gamă de bază pentru protecție mecanică generală la un raport preț-performanță accesibil.
 
 Pentru România, gama Ansell are sens în depozite și logistică, în ateliere de producție unde riscul de tăiere sau abraziune e ridicat, și în industria chimică sau farmaceutică unde e nevoie de mănuși testate specific pentru anumite substanțe.`,
     whyChoose: [
       "Portofoliu segmentat pe tip de risc — familii distincte pentru protecție mecanică, chimică și termică",
-      "Concurent direct la Honeywell Safety — acoperire comparabilă de echipamente individuale de protecție",
-      "Peste un secol de experiență în protecția mâinilor — origini din 1905, cu evoluție continuă a materialelor folosite",
-      "Prezență în peste 25 de industrii — de la agricultură la producția farmaceutică, conform datelor producătorului"
+      "Portofoliu de branduri de mănuși pentru industrie — HyFlex, AlphaTec, TouchNTuff, EDGE, RINGERS și altele",
+      "Companie înființată în 1905, conform informațiilor producătorului",
+      "Prezență în peste 25 de industrii, conform datelor producătorului"
     ],
     keyProducts: [
       { name: "Mănuși de Protecție Mecanică HyFlex", description: "Familie de mănuși pentru protecție mecanică de zi cu zi, gândite pentru un echilibru între rezistență la tăiere/abraziune și dexteritate la manipularea pieselor mici. Se folosesc la asamblare, manipulare materiale și lucrări generale de atelier. Clientul trebuie să transmită nivelul de rezistență la tăiere necesar și dacă lucrează cu piese unse sau uleioase, pentru varianta cu strat de aderență adecvat." },
@@ -1312,8 +1312,8 @@ Pentru România, gama Ansell are sens în depozite și logistică, în ateliere 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"HyFlex 11-618","url":"https://www.ansell.com/us/en/products/hyflex-11-618","publisher":"Ansell","accessed":"2026-09-25"},
       {"title":"Ansell Products","url":"https://www.ansell.com/us/en/products","publisher":"Ansell","accessed":"2026-09-25"},
@@ -1451,22 +1451,22 @@ Pentru România, gama Laumas are sens la sisteme de dozare și cântărire integ
     name: "Afriso",
     founded: 1869,
     headquarters: "Güglingen, Germania",
-    overview: `Afriso este un producător german de aparatură de măsurare și control, fondat în 1869 de Adelbert Fritz la Schmiedefeld, Turingia, cu sediul actual la Güglingen și peste 1.100 de angajați la nivel global, dintre care peste 550 în cele patru locații din Germania. Gama acoperă manometre analogice și digitale, termometre și termorezistențe, sisteme de indicare și limitare a nivelului, analizoare de gaze de ardere din familia EUROLYZER, contoare de apă și energie termică marca ZENNER, plus soluții pentru locuințe inteligente. Din această gamă putem oferta instrumentele de măsurare pentru integrare în instalații industriale și de HVAC.
+    overview: `Afriso este un producător german de aparatură de măsurare și control, fondat în 1869 de Adelbert Fritz la Schmiedefeld, Turingia, cu sediul actual la Güglingen și peste 1.200 de angajați la nivel global, dintre care aproximativ 600 în Germania. Gama acoperă manometre analogice și digitale, termometre și termorezistențe, sisteme de indicare și limitare a nivelului, analizoare de gaze de ardere din familia EUROLYZER, alarme și echipamente pentru instalații de încălzire și pentru depozitarea combustibilului, plus soluții pentru locuințe inteligente (AFRISO Smart Home). Din această gamă putem oferta instrumentele de măsurare pentru integrare în instalații industriale și de HVAC.
 
-Tehnic, Afriso concurează cu WIKA pe segmentul de manometre și termometre industriale, ambele acoperind game similare de aparatură de măsurare a presiunii și temperaturii pentru instalații tehnice. Analizoarele EUROLYZER S1 sunt gândite pentru verificarea combustiei la centrale termice, un segment mai specializat decât aparatura de bază de măsurare presiune-temperatură, iar contoarele ZENNER completează gama cu măsurare de consum pentru apă și energie termică.
+Analizoarele EUROLYZER S1 sunt gândite pentru verificarea combustiei la centrale termice, un segment mai specializat decât aparatura de bază de măsurare presiune-temperatură.
 
 Pentru România, gama Afriso are sens la centrale termice și instalații de încălzire unde e nevoie de verificarea combustiei, la instalații industriale unde presiunea și temperatura trebuie monitorizate cu aparatură analogică simplă și fiabilă, și la proiecte de contorizare a consumului de apă și energie termică.`,
     whyChoose: [
       "Istorie de peste 150 de ani în aparatură de măsurare — fondată în 1869, cu continuitate până astăzi",
       "Analizoare dedicate de gaze de ardere — familia EUROLYZER, pentru verificarea combustiei la centrale termice",
-      "Poziționare directă față de WIKA — alternativă pe segmentul manometrelor și termometrelor industriale",
-      "Gamă extinsă dincolo de măsurare de bază — inclusiv contorizare ZENNER pentru apă și energie termică"
+      "Gamă de manometre și termometre pentru instalații industriale și de încălzire",
+      "Gamă extinsă dincolo de măsurarea de bază — inclusiv alarme, echipamente pentru instalații de încălzire și soluții pentru locuințe inteligente"
     ],
     keyProducts: [
-      { name: "Manometre Analogice și Digitale", description: "Instrumente pentru măsurarea presiunii în instalații industriale și de încălzire, disponibile în variante analogice clasice și digitale din seria S4600, folosite la citirea directă a presiunii pe conducte, boilere și instalații hidraulice. Clientul trebuie să transmită domeniul de presiune necesar, diametrul cadranului și tipul de racord de montaj." },
+      { name: "Manometre Analogice și Digitale", description: "Instrumente pentru măsurarea presiunii în instalații industriale și de încălzire, disponibile în variante analogice clasice și digitale portabile din seria S2600, folosite la citirea directă a presiunii pe conducte, boilere și instalații hidraulice. Clientul trebuie să transmită domeniul de presiune necesar, diametrul cadranului și tipul de racord de montaj." },
       { name: "Termometre și Termorezistențe", description: "Instrumente pentru măsurarea temperaturii, în variante analogice cu cadran și termorezistențe pentru transmiterea electrică a valorii către un sistem de control. Se folosesc la instalații de încălzire, cazane și procese industriale unde temperatura trebuie monitorizată continuu. Clientul trebuie să indice domeniul de temperatură necesar și lungimea tijei de imersie." },
       { name: "Analizoare de Gaze de Ardere EUROLYZER S1", description: "Analizor portabil pentru verificarea combustiei la centrale termice și cazane, folosit de tehnicieni la punerea în funcțiune și la reviziile periodice ale instalațiilor de încălzire. Măsoară parametrii gazelor de ardere pentru optimizarea randamentului de combustie. Clientul trebuie să confirme tipul de combustibil (gaz sau combustibil lichid) al instalației verificate." },
-      { name: "Contoare ZENNER pentru Apă și Energie Termică", description: "Contoare pentru măsurarea consumului de apă rece, apă caldă sau energie termică, folosite la contorizarea individuală în clădiri și la facturarea pe consum real. Clientul trebuie să transmită diametrul conductei de montaj și tipul de fluid măsurat (apă rece, apă caldă sau agent termic)." }
+      { name: "Contoare pentru Apă și Energie Termică", description: "Contoare pentru măsurarea consumului de apă rece, apă caldă sau energie termică, folosite la contorizarea individuală în clădiri și la facturarea pe consum real. Clientul trebuie să transmită diametrul conductei de montaj și tipul de fluid măsurat (apă rece, apă caldă sau agent termic)." }
     ],
     industries: [
       "Instalații de încălzire — verificare combustie și monitorizare temperatură la centrale termice",
@@ -1496,27 +1496,27 @@ Pentru România, gama Afriso are sens la centrale termice și instalații de în
       },
       {
         "code": "Seria TSA",
-        "description": "actuatoare termice pentru robineți de echilibrare hidraulică"
+        "description": "produs din gama Afriso; descrierea se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Seria MSA",
-        "description": "actuatoare motorizate pentru robineți de echilibrare hidraulică"
+        "description": "produs din gama Afriso; descrierea se confirmă pe cod, din documentația producătorului"
       },
       {
-        "code": "Contoare ZENNER apă",
+        "code": "Contoare de apă (la cerere)",
         "description": "familie de contoare pentru măsurarea consumului de apă"
       },
       {
-        "code": "Contoare ZENNER energie termică",
+        "code": "Contoare de energie termică (la cerere)",
         "description": "familie de contoare pentru măsurarea energiei termice consumate"
       },
       {
         "code": "Gama A.M.C. instalații",
-        "description": "echipamente pentru încălzire, apă și echilibrare hidraulică"
+        "description": "produse din gama Afriso pentru instalații; lista exactă se confirmă pe cod"
       },
       {
         "code": "Gama A.M.C. industrial",
-        "description": "manometre, analizoare de gaze și indicatoare de nivel"
+        "description": "produse din gama Afriso pentru industrie; lista exactă se confirmă pe cod"
       },
       {
         "code": "Aparate portabile de măsură",
@@ -1526,15 +1526,15 @@ Pentru România, gama Afriso are sens la centrale termice și instalații de în
     faq: [
       {
         "q": "Ce domeniu de măsură au manometrele digitale Afriso din seria S2600?",
-        "a": "Seria S2600 de la Afriso acoperă mai multe domenii de măsură, de la modelul S2601, cu un domeniu de 0-150 mbar, până la S2680, care ajunge la 0-8000 mbar, potrivit pentru presiuni mai mari din instalații industriale. Toate variantele afișează valoarea în mai multe unități de măsură, precum mbar, Pa, kPa sau psi, și dispun de funcție de reținere a valorii citite."
+        "a": "Seria S2600 de la Afriso acoperă mai multe domenii de măsură, de la modelul S2601, cu un domeniu de 0-150 mbar, până la S2680, care ajunge la 0-8000 mbar, potrivit pentru presiuni mai mari din instalații industriale. Variantele afișează valoarea în mai multe unități de măsură, precum mbar, Pa, kPa sau psi."
       },
       {
         "q": "Ce diferență este între actuatoarele TSA și MSA de la Afriso?",
         "a": "Actuatoarele din seria TSA funcționează pe principiu termic, folosind un element care se dilată la încălzire pentru a deschide sau închide robinetul de echilibrare hidraulică, fiind o soluție simplă și silențioasă. Actuatoarele MSA sunt motorizate, oferind un control mai rapid și mai precis al poziției robinetului, util în sisteme cu cerințe de reglaj mai fine sau cu automatizare centralizată."
       },
       {
-        "q": "Ce contoare ZENNER distribuite de Afriso sunt disponibile pentru apartamente?",
-        "a": "Gama de contoare ZENNER acoperă atât măsurarea consumului de apă rece și caldă, cât și a energiei termice, fiind folosită frecvent la repartizarea costurilor în blocurile de locuințe. Alegerea modelului potrivit depinde de diametrul conductei, de debitul maxim așteptat și de necesitatea unei citiri la distanță sau a unei verificări metrologice periodice."
+        "q": "Ce contoare de apă și energie termică sunt disponibile pentru apartamente?",
+        "a": "Gama de contoare acoperă atât măsurarea consumului de apă rece și caldă, cât și a energiei termice, fiind folosită frecvent la repartizarea costurilor în blocurile de locuințe. Alegerea modelului potrivit depinde de diametrul conductei, de debitul maxim așteptat și de necesitatea unei citiri la distanță sau a unei verificări metrologice periodice."
       },
       {
         "q": "Livrați echipamente Afriso în România?",
@@ -1543,8 +1543,8 @@ Pentru România, gama Afriso are sens la centrale termice și instalații de în
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Produse Afriso","url":"https://afriso.ro/produse/","publisher":"Afriso","accessed":"2026-09-25"},
       {"title":"Manometre Afriso","url":"https://afriso.ro/produse/manometre/","publisher":"Afriso","accessed":"2026-09-25"},

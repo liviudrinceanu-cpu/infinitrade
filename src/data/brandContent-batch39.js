@@ -3,24 +3,24 @@
 export const brandContentBatch39 = {
   'weintek': {
     name: "Weintek",
-    overview: `Weintek este un producător taiwanez de panouri HMI (interfețe om-mașină) cu ecran tactil, folosite pentru comanda și monitorizarea liniilor de producție și a mașinilor industriale. Gama cMT acoperă diagonale de la 4,3" (cMT2058XH) până la 21,5" (cMT3218XP), în variante Advanced, Standard, Basic și Headless, adaptate diverselor bugete de proiect. Software-ul de configurare EasyBuilder Pro și EasyBuilder X este gratuit și acoperă întreaga gamă cMT, iar platforma cloud Weincloud permite acces de la distanță la panouri prin funcția EasyAccess 2.0. Putem oferta panouri individuale sau loturi pentru retrofit de tablouri de comandă.
+    overview: `Weintek este un producător taiwanez de panouri HMI (interfețe om-mașină) cu ecran tactil, folosite pentru comanda și monitorizarea liniilor de producție și a mașinilor industriale. Gama cMT acoperă diagonale de la 4,3" (cMT2058XH) până la 21,5" (cMT3218XP), în variante Advanced, Standard, Basic și Headless, adaptate diverselor bugete de proiect. Software-ul de configurare EasyBuilder Pro și EasyBuilder X este furnizat de producător (compatibilitatea cu fiecare model se confirmă pe fișa acestuia), iar platforma cloud Weincloud permite acces de la distanță la panouri prin funcția EasyAccess 2.0. Putem oferta panouri individuale sau loturi pentru retrofit de tablouri de comandă.
 
-Ce diferențiază Weintek de un HMI Siemens, cu care se compară direct pe multe proiecte, este varianta cMT Headless: un panou fără ecran fizic, care rulează proiectul HMI ca server accesibil de pe orice dispozitiv cu browser, util la mașini fără spațiu pentru un ecran montat sau la monitorizare pur de la distanță. Seria de module iR (coupler, I/O digital, I/O analogic, temperatură, control de mișcare) se conectează la panou și extinde numărul de intrări/ieșiri fără un automat programabil separat, ceea ce reduce costul total al tabloului de comandă pentru instalații mici și medii.
+Una dintre variantele gamei este cMT Headless: un panou fără ecran fizic, care rulează proiectul HMI ca server accesibil de pe orice dispozitiv cu browser, util la mașini fără spațiu pentru un ecran montat sau la monitorizare pur de la distanță. Seria de module iR (coupler, I/O digital, I/O analogic, temperatură, control de mișcare) se conectează la panou și extinde numărul de intrări/ieșiri fără un automat programabil separat.
 
-Pentru integratorii din România care lucrează cu automate de mai mulți producători, nu doar cu un singur ecosistem, Weintek oferă o alternativă de cost la funcționalitate comparabilă cu HMI-urile consacrate. Are sens mai ales la retrofit de mașini vechi, unde tabloul de comandă trebuie înlocuit fără să se schimbe automatul existent, și la linii unde bugetul pentru interfața om-mașină cântărește semnificativ în oferta finală.`,
+Pentru integratorii din România care lucrează cu automate de mai mulți producători, nu doar cu un singur ecosistem, Weintek oferă panouri HMI a căror compatibilitate cu un anumit automat se confirmă pe fișa tehnică a codului ales. Are sens mai ales la retrofit de mașini vechi, unde tabloul de comandă trebuie înlocuit fără să se schimbe automatul existent, și la linii unde bugetul pentru interfața om-mașină cântărește semnificativ în oferta finală.`,
     whyChoose: [
       "Gamă largă de diagonale, de la 4,3\" la 21,5\", acoperă orice tip de tablou de comandă",
-      "Software EasyBuilder Pro/X inclus gratuit, fără licențe suplimentare pentru configurarea panoului",
+      "Software de configurare EasyBuilder Pro/X, furnizat de producător pentru panourile cMT",
       "Varianta cMT Headless rulează fără ecran fizic, cu HMI accesat prin rețea de pe orice dispozitiv",
       "Platforma Weincloud oferă acces de la distanță la panouri prin EasyAccess 2.0, util pentru mentenanță",
       "Module din seria iR extind panoul cu intrări/ieșiri digitale, analogice și de temperatură, fără PLC suplimentar",
       "Compatibilitate largă de protocoale de comunicație cu automate de diverși producători"
     ],
     keyProducts: [
-      { name: "Panouri cMT X (Advance/Standard/Basic)", description: "Panouri HMI touch capacitiv cu diagonale între 4,3\" și 21,5\", procesor dedicat pentru grafică fluidă și afișare de curbe și alarme în timp real. Modelul cMT3218XP (21,5\") e reprezentativ pentru tablouri unde operatorul are nevoie de multe informații pe același ecran. Pentru ofertă avem nevoie de codul exact al modelului sau, dacă nu-l aveți, de diagonala dorită și tipul de automat cu care va comunica panoul." },
+      { name: "Panouri cMT X (Advanced/Standard/Basic)", description: "Panouri HMI touch capacitiv cu diagonale între 4,3\" și 21,5\", procesor dedicat pentru grafică fluidă și afișare de curbe și alarme în timp real. Modelul cMT3218XP (21,5\") e reprezentativ pentru tablouri unde operatorul are nevoie de multe informații pe același ecran. Pentru ofertă avem nevoie de codul exact al modelului sau, dacă nu-l aveți, de diagonala dorită și tipul de automat cu care va comunica panoul." },
       { name: "cMT Headless", description: "Variantă de panou fără ecran fizic, care rulează proiectul HMI ca server intern, accesibil de pe orice dispozitiv cu browser web — PC, tabletă sau telefon — prin rețea locală sau prin Weincloud. Util la mașini unde nu încape un panou montat sau la instalații monitorizate exclusiv de la distanță, fără operator local permanent." },
-      { name: "Seria iR (Remote I/O)", description: "Module coupler, I/O digital, I/O analogic, temperatură și control de mișcare, conectabile direct la panoul HMI sau la rețeaua industrială, pentru extinderea numărului de intrări și ieșiri fără a adăuga un automat programabil separat. Reduce costul tabloului la instalații mici unde un PLC dedicat ar fi supradimensionat." },
-      { name: "Software EasyBuilder Pro / EasyBuilder X", description: "Mediu de proiectare gratuit pentru toate panourile cMT, cu editor grafic, bibliotecă de simboluri industriale, suport pentru scripturi și simulare offline a proiectului înainte de încărcare pe panoul fizic." },
+      { name: "Seria iR (Remote I/O)", description: "Module coupler, I/O digital, I/O analogic, temperatură și control de mișcare, conectabile direct la panoul HMI sau la rețeaua industrială, pentru extinderea numărului de intrări și ieșiri fără a adăuga un automat programabil separat." },
+      { name: "Software EasyBuilder Pro / EasyBuilder X", description: "Mediu de proiectare furnizat de producător pentru panourile cMT; funcțiile exacte și compatibilitatea cu fiecare model se confirmă în documentația Weintek." },
       { name: "Platforma Weincloud", description: "Serviciu cloud pentru acces la distanță la panourile instalate, prin funcția EasyAccess 2.0, cu dashboard de date istorice și alarme; folosit de echipele de service pentru diagnoză de la distanță fără deplasare la mașină." }
     ],
     industries: [
@@ -79,7 +79,7 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
       },
       {
         "code": "cMT-FHDX-820(W)",
-        "description": "web panel HTML5 fără CPU propriu, ieșire video prin HDMI"
+        "description": "web panel HTML5 din oferta Weintek"
       }
     ],
     faq: [
@@ -89,7 +89,7 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
       },
       {
         "q": "Ce este panoul cMT-FHDX-820 de la Weintek?",
-        "a": "Este un web panel HTML5 fără procesor propriu de rulare, care afișează proiectul printr-un browser și transmite imaginea printr-o ieșire video HDMI către un monitor extern. Este util acolo unde se dorește un ecran suplimentar sincronizat cu un panou cMT principal, fără a mai instala un al doilea controller separat. Depinde întotdeauna de un panou cMT gazdă aflat în aceeași rețea locală."
+        "a": "Este un web panel HTML5 din oferta Weintek. Modul de conectare și compatibilitatea cu panourile cMT se confirmă pe fișa tehnică a producătorului, pe codul exact."
       },
       {
         "q": "Ce diferență există între modelele cMT2102X și cMT3102X?",
@@ -101,13 +101,13 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de panou HMI cMT?",
-        "a": "Este util să precizați diagonala ecranului dorită, tipul de montaj, fix pe ușa dulapului sau portabil handheld, protocolul de comunicație cu automatul programabil folosit și dacă aveți nevoie de conectare la platforma Weincloud pentru acces la distanță. Aceste detalii permit alegerea corectă între variantele Advance, Standard sau Basic ale seriei cMT X."
+        "a": "Este util să precizați diagonala ecranului dorită, tipul de montaj, fix pe ușa dulapului sau portabil handheld, protocolul de comunicație cu automatul programabil folosit și dacă aveți nevoie de conectare la platforma Weincloud pentru acces la distanță. Aceste detalii permit alegerea corectă între variantele Advanced, Standard sau Basic ale seriei cMT X."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"HMI Products","url":"https://www.weintek.com/globalw/product.aspx","publisher":"Weintek","accessed":"2026-09-25"},
       {"title":"cMT Series","url":"https://www.weintek.com/globalw/Product_cMT_series.aspx","publisher":"Weintek","accessed":"2026-09-25"},
@@ -119,16 +119,16 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
     name: "HMS Networks",
     founded: 1988,
     headquarters: "Halmstad, Suedia",
-    overview: `HMS Networks este un producător suedez înființat în 1988 la Halmstad, specializat în conectivitate industrială: face posibilă legarea la rețea a mașinilor, roboților și acționărilor prin trei branduri proprii — Anybus, Ewon și Ixxat. Compania are peste 1.200 de angajați și operează în peste 20 de țări, iar din 2024 grupul include și Red Lion Controls. Putem oferta module de comunicație și gateway-uri de acces la distanță pentru integratori și producători de mașini care au nevoie ca echipamentul lor să vorbească cu rețeaua clientului final.
+    overview: `HMS Networks este un producător suedez înființat în 1988 la Halmstad, specializat în conectivitate industrială: face posibilă legarea la rețea a mașinilor, roboților și acționărilor prin trei branduri proprii — Anybus, Ewon și Ixxat. Compania are aproximativ 1.200 de angajați, operează în peste 20 de țări și lucrează cu distribuitori în peste 50 de țări, iar din 2024 grupul include și Red Lion Controls. Putem oferta module de comunicație și gateway-uri de acces la distanță pentru integratori și producători de mașini care au nevoie ca echipamentul lor să vorbească cu rețeaua clientului final.
 
-Anybus conectează orice dispozitiv la o rețea Fieldbus sau Industrial Ethernet, prin module încorporate în echipament sau prin gateway-uri externe, inclusiv variante wireless cu Bluetooth, Wi-Fi sau rețea celulară 3G/4G/5G. Ewon acoperă accesul la distanță și telemetria — routere care permit programare, depanare și colectare de date direct de pe mașina instalată la client, cu afișare pe dashboard-uri cu indicatori și alarme. Ixxat se concentrează pe rețele CAN, Industrial Ethernet și siguranță funcțională, cu interfețe încorporate și interfețe PC pentru acces la rețele CAN/LIN. Concurează cu soluții de conectivitate de la producători mari de automatizări, dar rămâne complementară echipamentelor deja instalate, nu un înlocuitor al lor.
+Anybus conectează dispozitive la rețele Fieldbus sau Industrial Ethernet, prin module încorporate în echipament sau prin gateway-uri externe, inclusiv variante wireless cu Bluetooth, Wi-Fi sau rețea celulară 3G/4G/5G. Ewon acoperă accesul la distanță și telemetria — routere care permit programare, depanare și colectare de date direct de pe mașina instalată la client, cu afișare pe dashboard-uri cu indicatori și alarme. Ixxat se concentrează pe rețele CAN, Industrial Ethernet și siguranță funcțională, cu interfețe încorporate și interfețe PC pentru acces la rețele CAN/LIN. Concurează cu soluții de conectivitate de la producători mari de automatizări, dar rămâne complementară echipamentelor deja instalate, nu un înlocuitor al lor.
 
 Pentru fabricile din România cu mașini de import care trebuie integrate în rețeaua fabricii sau monitorizate de la distanță de service-ul producătorului extern, gateway-urile HMS reduc timpul de intervenție și numărul de deplasări. Se folosesc frecvent la retrofit-uri, unde mașina veche nu are protocolul de comunicație cerut de sistemul SCADA actual.`,
     whyChoose: [
-      "Anybus acoperă practic orice combinație de rețea Fieldbus sau Industrial Ethernet, cablat sau wireless",
+      "Anybus conectează echipamente la rețele Fieldbus sau Industrial Ethernet, prin soluții cablate sau wireless",
       "Ewon permite acces de la distanță la mașină pentru programare și depanare, fără deplasare la client",
       "Ixxat oferă interfețe CAN și Industrial Ethernet cu accent pe siguranța funcțională a comunicației",
-      "Grup cu peste 1.200 de angajați și rețea de distribuție în peste 20 de țări",
+      "Grup cu aproximativ 1.200 de angajați, cu operațiuni în peste 20 de țări și distribuitori în peste 50 de țări",
       "Soluție complementară, nu impune înlocuirea automatului sau PLC-ului existent pe mașină"
     ],
     keyProducts: [
@@ -148,7 +148,7 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
     productCodes: [
       {
         "code": "Anybus CompactCom",
-        "description": "modul embedat pentru conectivitate multi-protocol în echipamente industriale"
+        "description": "modul încorporat pentru conectivitate multi-protocol în echipamente industriale"
       },
       {
         "code": "Anybus Communicator",
@@ -168,7 +168,7 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
       },
       {
         "code": "Anybus Diagnostics",
-        "description": "produse pentru diagnosticarea rețelelor industriale de comunicație"
+        "description": "linie de produse Anybus; funcția exactă se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Ewon Cosy",
@@ -215,8 +215,8 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.hms-networks.com/products","publisher":"HMS Networks","accessed":"2026-09-26"},
       {"title":"Products","url":"https://www.anybus.com/products","publisher":"HMS Networks (Anybus)","accessed":"2026-09-26"},
@@ -229,20 +229,20 @@ Pentru fabricile din România cu mașini de import care trebuie integrate în re
     name: "Neugart",
     founded: 1928,
     headquarters: "Kippenheim, Germania",
-    overview: `Neugart este o companie de familie germană din Kippenheim, între Freiburg și Strasbourg, cu activitate din 1928 în construcția de reductoare planetare de precizie pentru servoacționări. Gama se împarte în două linii: Economy (seriile PLE, PLQE, PLPE, PLHE, PLFE, PFHE și variantele cu carcasă hexagonală WPLE, WPLQE, WPLPE, WPLHE, WPLFE) și Precision (PSNpro, PSFNpro, PSBNpro, WPLN, WPSFN, WGN, PSN, PSFN, PLN, PLFN, PSBN), plus o serie dedicată aplicațiilor speciale — NGV, HLAE, NDF, NDFC pentru robotică, vehicule industriale și proiectare igienică. Putem oferta reductoare individuale sau pentru serii mici de mașini.
+    overview: `Neugart este o companie de familie germană din Kippenheim, între Freiburg și Strasbourg, cu activitate din 1928 în construcția de reductoare planetare de precizie pentru servoacționări. Gama se împarte în două linii: Economy (seriile PLE, PLQE, PLPE, PLHE, PLFE, PFHE și variantele cu prefix W: WPLE, WPLQE, WPLPE, WPLHE, WPLFE) și Precision (PSNpro, PSFNpro, PSBNpro, WPLN, WPSFN, WGN, PSN, PSFN, PLN, PLFN, PSBN), plus o serie dedicată aplicațiilor speciale — NGV, HLAE, NDF, NDFC pentru robotică, vehicule industriale și proiectare igienică. Putem oferta reductoare individuale sau pentru serii mici de mașini.
 
-Linia Economy acoperă cuplu de la 5 la 800 Nm, rapoarte de reducere de până la 512:1 și joc unghiular (backlash) de 6-28 arcmin — suficient pentru cicluri de producție standard, unde precizia extremă nu e criteriul principal. Linia Precision urcă la cuplu de 14-1800 Nm, aceleași rapoarte de până la 512:1, dar cu backlash coborât la 0-8 arcmin, pentru poziționare de precizie la sisteme robotice și sarcini ridicate. Comparativ cu reductoarele planetare Bonfiglioli, diferența Neugart stă în plaja largă de backlash oferită pe aceeași carcasă, ceea ce permite alegerea variantei potrivite fără schimbarea dimensiunii de montaj.
+Linia Economy acoperă cuplu de la 5 la 800 Nm, rapoarte de reducere de până la 512:1 și joc unghiular (backlash) de 6-28 arcmin — suficient pentru cicluri de producție standard, unde precizia extremă nu e criteriul principal. Linia Precision urcă la cuplu de 14-1800 Nm, aceleași rapoarte de până la 512:1, dar cu backlash coborât la 0-8 arcmin, pentru poziționare de precizie la sisteme robotice și sarcini ridicate. Alegerea între cele două linii se face în funcție de jocul unghiular și de cuplul cerut de axă; dimensiunile de montaj se confirmă pe fișa tehnică a seriei alese.
 
-Pentru integratorii din România care echipează axe de servoacționare pe mașini-unelte, linii de ambalare sau roboți, Neugart oferă o gamă unde precizia și costul pot fi ajustate din aceeași familie constructivă, fără să treci la alt producător când cerințele de proiect se schimbă.`,
+Pentru integratorii din România care echipează axe de servoacționare pe mașini-unelte, linii de ambalare sau roboți, Neugart oferă o gamă unde precizia și costul pot fi ajustate din aceeași familie constructivă, fără trecerea la alt producător atunci când cerințele de proiect se schimbă.`,
     whyChoose: [
-      "Gamă acoperă cuplu de la 5 Nm până la 1800 Nm, pe două linii distincte de precizie",
+      "Gama acoperă cuplu de la 5 Nm până la 1800 Nm, pe două linii distincte de precizie",
       "Backlash de la 0 arcmin (Precision) la 28 arcmin (Economy), ales în funcție de cerința reală a axei",
       "Rapoarte de reducere de până la 512:1 disponibile pe ambele linii constructive",
       "Serie dedicată roboticii și vehiculelor industriale (NGV, HLAE, NDF, NDFC) pentru aplicații speciale",
-      "Companie de familie cu peste nouă decenii de fabricație exclusivă de reductoare planetare"
+      "Companie de familie cu peste nouă decenii de experiență în reductoare planetare"
     ],
     keyProducts: [
-      { name: "Linia Economy (PLE, PLQE, PLPE, PLHE, PLFE)", description: "Reductoare planetare cu cuplu de la 5 la 800 Nm, rapoarte de reducere de până la 512:1 și backlash de 6-28 arcmin, disponibile și în variantă cu carcasă hexagonală (seriile WPLE, WPLQE, WPLPE, WPLHE, WPLFE). Potrivite pentru cicluri de producție intensive unde costul contează mai mult decât precizia extremă de poziționare." },
+      { name: "Linia Economy (PLE, PLQE, PLPE, PLHE, PLFE)", description: "Reductoare planetare cu cuplu de la 5 la 800 Nm, rapoarte de reducere de până la 512:1 și backlash de 6-28 arcmin, disponibile și în variantele cu prefix W (seriile WPLE, WPLQE, WPLPE, WPLHE, WPLFE), cu joc unghiular de 11-28 minute de arc. Potrivite pentru cicluri de producție intensive unde costul contează mai mult decât precizia extremă de poziționare." },
       { name: "Linia Precision (PSNpro, PSFNpro, PSBNpro, PSN, PLN)", description: "Reductoare cu cuplu de la 14 la 1800 Nm, aceleași rapoarte de până la 512:1, dar cu backlash redus la 0-8 arcmin. Destinate poziționării de precizie pe sisteme robotice și axe cu sarcini ridicate, unde eroarea unghiulară la inversarea sensului de rotație trebuie minimizată." },
       { name: "Serii pentru aplicații speciale (NGV, HLAE, NDF, NDFC)", description: "Reductoare adaptate pentru robotică (inclusiv roboți delta), vehicule industriale și medii care cer proiectare igienică — construcție ce permite curățare ușoară și rezistență la spălare cu presiune, cerută în industria alimentară și farmaceutică." }
     ],
@@ -282,27 +282,27 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
       },
       {
         "code": "PFHE",
-        "description": "reductor planetar unghiular etanș, protecție IP65, cuplu 15-260 Nm"
+        "description": "reductor planetar etanș, protecție IP65, cuplu 15-260 Nm"
       },
       {
         "code": "WPLE",
-        "description": "reductor planetar economic cu joc redus, cuplu 5-260 Nm, 11-28 minute de arc"
+        "description": "reductor din linia Economy (prefix W), cuplu 5-260 Nm, joc unghiular 11-28 minute de arc"
       },
       {
         "code": "WPLQE",
-        "description": "reductor planetar unghiular etanș cu joc redus, cuplu 14-260 Nm"
+        "description": "reductor din linia Economy (prefix W), cuplu 14-260 Nm, joc unghiular 11-21 minute de arc"
       },
       {
         "code": "WPLPE",
-        "description": "reductor planetar coaxial cu joc redus, cuplu 5-195 Nm"
+        "description": "reductor din linia Economy (prefix W), cuplu 5-195 Nm, joc unghiular 11-25 minute de arc"
       },
       {
         "code": "WPLHE",
-        "description": "reductor planetar etanș cu joc redus, protecție IP65, cuplu 14-260 Nm"
+        "description": "reductor din linia Economy (prefix W), protecție IP65, cuplu 14-260 Nm, joc unghiular 11-18 minute de arc"
       },
       {
         "code": "WPLFE",
-        "description": "reductor planetar cu flanșă și joc redus, cuplu 14-260 Nm"
+        "description": "reductor din linia Economy (prefix W), cu ieșire pe flanșă, cuplu 14-260 Nm, joc unghiular 11-18 minute de arc"
       },
       {
         "code": "PSNpro",
@@ -368,15 +368,15 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
     faq: [
       {
         "q": "Ce diferență este între liniile Economy și Precision la Neugart?",
-        "a": "Linia Economy, cu seriile PLE, PLQE, PLPE, PLHE și PLFE, acoperă cupluri între 5 și 800 Nm, fiind gândită pentru aplicații standard fără cerințe stricte de joc unghiular. Linia Precision, prin seriile PSNpro, PSFNpro sau PLN, urcă până la 1800 Nm și oferă joc unghiular controlat, de la 1 la 8 minute de arc, pentru axe de poziționare unde repetabilitatea contează mult. Variantele cu prefix W din ambele linii adaugă un joc suplimentar redus."
+        "a": "Linia Economy, cu seriile PLE, PLQE, PLPE, PLHE și PLFE, acoperă cupluri între 5 și 800 Nm, fiind gândită pentru aplicații standard fără cerințe stricte de joc unghiular. Linia Precision, prin seriile PSNpro, PSFNpro sau PLN, urcă până la 1800 Nm și oferă joc unghiular controlat, de la 1 la 8 minute de arc, pentru axe de poziționare unde repetabilitatea contează mult. Variantele Economy cu prefix W (de exemplu WPLE) au joc unghiular de 11-28 minute de arc, față de 6-22 la seriile Economy fără prefix W."
       },
       {
         "q": "Ce cuplu maxim oferă reductoarele planetare Neugart din seria PSNpro?",
-        "a": "Seria PSNpro acoperă un interval de cuplu între 14 și 1800 Nm, în funcție de mărimea carcasei, cuprinsă între 55 și 190 mm, cu joc unghiular de doar 1 până la 8 minute de arc. Este o construcție elicoidală de înaltă precizie, recomandată pentru axe de robotică sau mașini-unelte unde poziționarea repetabilă este esențială. Varianta PSFNpro adaugă o ieșire cu flanșă pentru montaj direct pe echipament."
+        "a": "Seria PSNpro acoperă un interval de cuplu între 14 și 1800 Nm, în funcție de mărimea carcasei, cu joc unghiular de doar 1 până la 8 minute de arc. Este o construcție elicoidală de înaltă precizie, recomandată pentru axe de robotică sau mașini-unelte unde poziționarea repetabilă este esențială. Varianta PSFNpro adaugă o ieșire cu flanșă pentru montaj direct pe echipament."
       },
       {
         "q": "Ce reductor Neugart este potrivit pentru roboți delta?",
-        "a": "Pentru roboți delta, Neugart oferă seriile NDF și NDFC. NDF acoperă cupluri între 180 și 530 Nm, cu joc unghiular de 1 minut de arc, la mărimi de carcasă de 90 și 110 mm. NDFC este varianta compactă, cu cupluri între 32 și 330 Nm și joc unghiular între 1 și 5 minute de arc, potrivită acolo unde spațiul de montaj disponibil este limitat."
+        "a": "Pentru roboți delta, Neugart oferă seriile NDF și NDFC. NDF acoperă cupluri între 180 și 530 Nm, cu joc unghiular de 1 minut de arc. NDFC este varianta compactă, cu cupluri între 32 și 330 Nm și joc unghiular între 1 și 5 minute de arc, potrivită acolo unde spațiul de montaj disponibil este limitat."
       },
       {
         "q": "Livrați reductoare planetare Neugart în România?",
@@ -389,8 +389,8 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products Overview","url":"https://www.neugart.com/en/products","publisher":"Neugart","accessed":"2026-09-25"},
       { title: "Neugart - Planetary Gearboxes", url: "https://www.neugart.com", publisher: "Neugart GmbH", accessed: "2026-09-22" },
@@ -402,34 +402,34 @@ Pentru integratorii din România care echipează axe de servoacționare pe mași
     name: "Bauer Gear Motor",
     founded: 1927,
     headquarters: "Esslingen, Germania",
-    overview: `Bauer Gear Motor este un producător german de motoreductoare industriale, cu sediul la Esslingen din 1927 și, din anii recenți, parte a grupului american Altra Motion. Gama include motoreductoare cu roți dințate elicoidale (helical), motoreductoare cu montaj pe arbore (shaft-mounted), motoreductoare conice (bevel-geared) și motoreductoare melcate (worm), completate de serii dedicate — HiflexDRIVE pentru industria alimentară, Aseptic Drives pentru medii sterile, Submersible Solutions cu protecție IP68 pentru montaj submersat și Decentral Solutions pentru acționare descentralizată direct pe mașină. Putem oferta motoreductoare individuale, configurate pe raport de reducere și putere.
+    overview: `Bauer Gear Motor este un producător german de motoreductoare industriale, cu sediul la Esslingen din 1927 și parte a grupului american Regal Rexnord. Gama include motoreductoare cu roți dințate elicoidale, motoreductoare cu montaj pe arbore, motoreductoare conice și motoreductoare melcate, completate de serii dedicate — HiflexDRIVE pentru industria alimentară, Aseptic Drives pentru medii sterile, Submersible Solutions cu protecție IP68 pentru montaj submersat și Decentral Solutions pentru acționare descentralizată direct pe mașină. Putem oferta motoreductoare individuale, configurate pe raport de reducere și putere.
 
-Ce ține Bauer relevant în categoria motoreductoarelor grele, unde concurează direct cu Bonfiglioli, este robustețea construcției pentru sarcini variabile și mediile dure — carcase dimensionate pentru funcționare continuă și intervale lungi între revizii. Seria HiflexDRIVE respectă cerințele HACCP pentru igiena liniilor alimentare, iar variantele submersibile IP68 rezistă la imersie completă, utile la echipamente de tratare a apei sau la instalații din industria piscicolă. Gama urmărește standardele de eficiență energetică IEC 61800-9 și EN 50598-2, relevante pentru proiecte unde consumul motorului contează în calculul costului total de operare.
+Gama Bauer reunește motoreductoare elicoidale, cu montaj pe arbore, conice, melcate și monorail, pe care le putem oferta pe cod. Seria HiflexDRIVE este disponibilă în variante Standard, Aseptic și din oțel inoxidabil, iar variantele submersibile IP68 rezistă la imersie completă, utile la echipamente de tratare a apei sau la instalații din industria piscicolă. Producătorul indică resurse privind standardul de eficiență energetică IEC 61800-9, relevant pentru proiecte unde consumul motorului contează în calculul costului total de operare.
 
 Pentru fabricile din România cu linii de transport, macarale sau instalații de manipulare a materialelor, Bauer oferă o gamă unde varianta submersibilă sau cea igienică acoperă situații pe care un motoreductor standard nu le rezolvă fără protecție suplimentară.`,
     whyChoose: [
       "Gamă completă de tipuri constructive: elicoidal, montaj pe arbore, conic și melcat, din aceeași familie",
       "Seria Submersible Solutions cu protecție IP68 rezistă la imersie completă",
-      "HiflexDRIVE respectă cerințe HACCP pentru linii de procesare alimentară",
-      "Decentral Solutions permite acționare montată direct pe mașină, fără dulap electric separat",
-      "Standarde de eficiență energetică IEC 61800-9 și EN 50598-2 urmărite la nivel de gamă",
-      "Parte din grupul Altra Motion, cu acces la rețea internațională de piese de schimb"
+      "HiflexDRIVE este disponibilă în variante Standard, Aseptic și din oțel inoxidabil",
+      "Decentral Solutions (EtaK 2.0) este oferta de acționare descentralizată a producătorului",
+      "Resurse privind standardul de eficiență energetică IEC 61800-9, indicate de producător",
+      "Parte din grupul Regal Rexnord"
     ],
     keyProducts: [
       { name: "Motoreductoare elicoidale (Helical)", description: "Motoreductoare cu angrenaje elicoidale pentru randament ridicat și funcționare silențioasă, folosite pe benzi transportoare și linii de manipulare unde zgomotul și eficiența energetică contează la fel de mult ca robustețea." },
       { name: "Motoreductoare cu montaj pe arbore (Shaft-Mounted)", description: "Construcție care se montează direct pe arborele mașinii antrenate, fără cuplaj suplimentar, reducând spațiul ocupat și timpul de instalare. Aplicație tipică: benzi transportoare și tamburi de antrenare la instalații de manipulare a materialelor." },
       { name: "Submersible Solutions (IP68)", description: "Motoreductoare cu protecție IP68, capabile să funcționeze complet imersate, pentru echipamente de tratare a apei, stații de epurare sau instalații din industria piscicolă unde motorul standard nu ar rezista la contactul cu apa." },
-      { name: "HiflexDRIVE și Aseptic Drives", description: "Serii dedicate industriei alimentare și mediilor sterile, construite pentru curățare ușoară și conformitate cu cerințele HACCP, cu suprafețe fără colțuri greu accesibile și materiale rezistente la spălare frecventă." }
+      { name: "HiflexDRIVE și Aseptic Drives", description: "Serii dedicate industriei alimentare și mediilor sterile, destinate mediilor cu cerințe de igienă; caracteristicile constructive se confirmă pe fișa tehnică a seriei." }
     ],
     industries: [
       "Manipulare materiale — motoreductoare pentru benzi transportoare și tamburi",
       "Macarale și instalații de ridicat — acționări pentru mecanisme de translație",
-      "Industrie alimentară — serii igienice conforme HACCP",
+      "Industrie alimentară — serii igienice (HiflexDRIVE, AsepticDRIVE)",
       "Tratarea apei și apelor uzate — variante submersibile IP68",
       "Agricultură — acționări pentru echipamente de procesare",
-      "Silvicultură — motoreductoare pentru instalații de manipulare a lemnului"
+      "Transport suspendat — motoreductoare monorail (seria BM) pentru sisteme de transport"
     ],
-    infinitrade: `Nu dispunem de stoc propriu de motoreductoare Bauer și lucrăm exclusiv din surse publice ale producătorului pentru specificațiile de mai sus, la fiecare cerere de ofertă. Aducem unități la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, raportul de reducere dorit, tipul de montaj (elicoidal, pe arbore, conic sau melcat) și dacă aplicația cere protecție IP68 sau conformitate HACCP. Nu facem calculul de sarcină al instalației complete — livrăm motoreductorul conform specificațiilor primite de la client.`,
+    infinitrade: `Nu dispunem de stoc propriu de motoreductoare Bauer și lucrăm exclusiv din surse publice ale producătorului pentru specificațiile de mai sus, la fiecare cerere de ofertă. Aducem unități la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, raportul de reducere dorit, tipul de montaj (elicoidal, pe arbore, conic sau melcat) și dacă aplicația cere protecție IP68 sau variantă igienică. Nu facem calculul de sarcină al instalației complete — livrăm motoreductorul conform specificațiilor primite de la client.`,
     limitation: "Nu facem calculul de sarcină al instalației complete și nu confirmăm disponibilitate permanentă pentru variantele submersibile IP68.",
     productCodes: [
       {
@@ -466,7 +466,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
       },
       {
         "code": "HiflexDRIVE",
-        "description": "platformă modulară de acționare, configurabilă pentru aplicații variate"
+        "description": "linie de acționare Bauer, în variantele Standard, Aseptic și din oțel inoxidabil"
       },
       {
         "code": "AsepticDRIVE",
@@ -478,7 +478,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
       },
       {
         "code": "EtaK 2.0",
-        "description": "soluție de acționare descentralizată, cu variator de turație integrat"
+        "description": "soluție de acționare descentralizată (Decentral Solutions)"
       },
       {
         "code": "C Adapter Motor Connection",
@@ -492,7 +492,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
       },
       {
         "q": "Ce este soluția HiflexDRIVE de la Bauer Gear Motor?",
-        "a": "HiflexDRIVE este o platformă modulară de acționare ce combină reductorul, motorul și, opțional, un variator de turație, într-o singură unitate configurabilă. Este disponibilă și în variante Aseptic sau din oțel inoxidabil, pentru medii unde igiena sau rezistența la coroziune contează, precum industria alimentară sau farmaceutică. Configurația exactă se stabilește pornind de la cuplul necesar și de la mediul de lucru al instalației."
+        "a": "HiflexDRIVE este o linie de acționare a producătorului Bauer Gear Motor. Este disponibilă și în variante Aseptic sau din oțel inoxidabil, pentru medii unde igiena sau rezistența la coroziune contează, precum industria alimentară sau farmaceutică. Configurația exactă se stabilește pornind de la cuplul necesar și de la mediul de lucru al instalației."
       },
       {
         "q": "Ce sunt motoreductoarele Submersible Solutions de la Bauer?",
@@ -509,8 +509,8 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products Overview","url":"https://www.bauergears.com/products","publisher":"Bauer Gear Motor","accessed":"2026-09-25"},
       {"title":"Geared Motors","url":"https://www.bauergears.com/products/geared-motors","publisher":"Bauer Gear Motor","accessed":"2026-09-25"},
@@ -523,7 +523,7 @@ Pentru fabricile din România cu linii de transport, macarale sau instalații de
     headquarters: "Verona, Italia",
     overview: `Riello UPS este brandul de sisteme de alimentare neîntreruptibilă al RPS SpA, companie din Verona ce face parte din grupul Riello Elettronica. Gama on-line acoperă practic întreg spectrul de putere, de la Sentinel Pro2 (700-3000 VA) pentru echipamente mici de birou până la Multi Power2 (120-600 kVA) și NextEnergy NXE (250-800 kVA) pentru centre de date și instalații industriale mari, cu opțiuni scalabile Multi Power2 Scalable ce urcă spre 1.600 kVA. Se completează cu serii line-interactive (Net Power, Vision) pentru sarcini mai mici, mai puțin critice. Putem oferta UPS-uri individuale sau soluții pentru săli tehnice complete.
 
-Toate modelele din gamele Sentinel, Sentryum, Multi Power și Master folosesc tehnologie on-line cu dublă conversie, care izolează sarcina de fluctuațiile rețelei fără timp de comutare — spre deosebire de UPS-urile line-interactive, unde există o mică întrerupere la trecerea pe baterie. Configurațiile merg de la monofazat 1:1 până la trifazat 3:3, cu soluții speciale pentru baterii cu litiu, supercapacitoare și variante marine (Sentinel Dual Marine) rezistente la mediul salin. Comparativ cu UPS-urile Eaton, cu care se întâlnește frecvent în ofertele pentru centre de date, Riello mizează pe o gamă foarte segmentată pe puteri, ceea ce permite dimensionarea fină fără supradimensionare inutilă.
+Toate modelele din gamele Sentinel, Sentryum, Multi Power și Master folosesc tehnologie on-line cu dublă conversie, care izolează sarcina de fluctuațiile rețelei fără timp de comutare — spre deosebire de UPS-urile line-interactive, unde există o mică întrerupere la trecerea pe baterie. Configurațiile merg de la monofazat 1:1 până la trifazat 3:3, cu soluții speciale pentru baterii cu litiu, supercapacitoare și variante marine (Sentinel Dual Marine). Gama este segmentată pe puteri, de la 400 VA la 6,4 MVA, ceea ce permite alegerea puterii potrivite sarcinii.
 
 Pentru instalațiile din România unde alimentarea nu poate cădea — servere, camere tehnice, echipamente medicale sau linii de producție cu automatizare critică — gama Riello acoperă atât instalații mici cu un singur UPS de birou, cât și săli tehnice cu configurații redundante trifazate.`,
     whyChoose: [
@@ -531,12 +531,12 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       "Tehnologie on-line cu dublă conversie pe toate seriile Sentinel, Sentryum, Multi Power și Master",
       "Configurații scalabile (Multi Power2 Scalable) care permit extinderea puterii pe măsură ce cresc consumatorii",
       "Soluții speciale cu baterii litiu și supercapacitoare pentru cerințe de spațiu sau autonomie redusă",
-      "Variantă marină (Sentinel Dual Marine) rezistentă la mediul salin, pentru aplicații navale"
+      "Variantă marină (Sentinel Dual Marine), pentru aplicații navale"
     ],
     keyProducts: [
-      { name: "Sentinel Pro2 / Sentinel Dual2", description: "UPS-uri on-line monofazate de 700-3000 VA, pentru servere mici, echipamente de rețea și stații de lucru critice. Sentinel Dual2 adaugă redundanță internă la aceeași plajă de putere. Aplicație tipică: camere de server de dimensiuni reduse sau puncte de lucru izolate." },
+      { name: "Sentinel Pro2 / Sentinel Dual2", description: "UPS-uri on-line monofazate de 700-3000 VA, pentru servere mici, echipamente de rețea și stații de lucru critice. Sentinel Dual2 acoperă 1000-3000 VA. Aplicație tipică: camere de server de dimensiuni reduse sau puncte de lucru izolate." },
       { name: "Sentryum", description: "Gamă trifazată de 10-120 kVA cu tehnologie on-line, dimensionată pentru săli tehnice medii, centre de date mici și instalații industriale cu automatizare care nu tolerează întreruperi de alimentare." },
-      { name: "Multi Power2 / Multi Power2 Scalable", description: "UPS-uri modulare de 120-600 kVA, extensibile prin unități suplimentare până la 1.600 kVA în varianta Scalable, pentru centre de date și instalații mari unde puterea necesară crește în timp și redundanța N+1 este obligatorie." },
+      { name: "Multi Power2 / Multi Power2 Scalable", description: "UPS-uri modulare de 120-600 kVA, extensibile prin unități suplimentare până la 1.600 kVA în varianta Scalable, pentru centre de date și instalații mari unde puterea necesară crește în timp." },
       { name: "Master HP / Master HE", description: "Serii de putere mare (100-600 kVA, respectiv 100-800 kVA) pentru instalații industriale și centre de date cu cerințe ridicate de eficiență energetică pe termen lung, la sarcină parțială sau completă." },
       { name: "NextEnergy NXE", description: "UPS trifazat de 250-800 kVA orientat spre eficiență energetică ridicată, pentru centre de date noi unde costul de operare pe durata de viață contează la fel de mult ca investiția inițială." }
     ],
@@ -545,14 +545,14 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       "Industrie — alimentare neîntreruptibilă pentru automatizări critice",
       "Medical — protecție pentru echipamente de diagnostic și terapie",
       "Transport — alimentare de rezervă pentru sisteme de semnalizare",
-      "Marină — variante rezistente la mediul salin pentru instalații navale"
+      "Marină — varianta Sentinel Dual Marine pentru instalații navale"
     ],
     infinitrade: `Fără date proprii despre disponibilitatea imediată a fiecărui model Riello, mergem pe surse publice ale producătorului pentru specificațiile de mai sus și verificăm la fiecare cerere. Aducem UPS-uri Riello la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de puterea necesară în kVA, numărul de faze (monofazat sau trifazat), autonomia dorită pe baterie și dacă instalația cere redundanță. Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pe modelele de putere mare — acestea se aduc de regulă la comandă fermă.`,
     limitation: "Nu facem proiectarea electrică a sălii tehnice și nu confirmăm disponibilitate permanentă din stoc pentru modelele trifazate de putere mare.",
     productCodes: [
       {
         "code": "Sentinel Pro2",
-        "description": "UPS on-line/line-interactive, putere 700-3000 VA"
+        "description": "UPS on-line, putere 700-3000 VA"
       },
       {
         "code": "Sentinel Rack",
@@ -576,7 +576,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "code": "Sentryum Rack",
-        "description": "variantă Sentryum pentru montare în rack, putere 20-160 kVA"
+        "description": "variantă Sentryum pentru montare în rack"
       },
       {
         "code": "Multi Sentry",
@@ -584,7 +584,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "code": "Multi Power",
-        "description": "UPS on-line industrial, putere 45-294 kVA"
+        "description": "UPS on-line industrial; puterea se confirmă pe fișa tehnică"
       },
       {
         "code": "Multi Power2",
@@ -604,7 +604,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "code": "Master HP UL",
-        "description": "UPS on-line certificat UL, putere 65-500 kVA"
+        "description": "UPS on-line, versiune Master HP UL, putere 65-500 kVA"
       },
       {
         "code": "Master HE",
@@ -636,7 +636,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "code": "Vision Dual",
-        "description": "UPS line-interactive cu dublă conversie, putere 1,1-3 kVA"
+        "description": "UPS line-interactive, putere 1,1-3 kVA"
       },
       {
         "code": "iPlug",
@@ -654,7 +654,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
     faq: [
       {
         "q": "Ce diferență este între UPS-urile Riello UPS Sentinel Pro2 și Sentinel Dual2?",
-        "a": "Sentinel Pro2 acoperă puteri între 700 și 3000 VA, cu topologie line-interactive sau on-line, potrivit pentru stații de lucru și servere mici. Sentinel Dual2, în aceeași plajă de putere, adaugă dublă conversie completă și tehnologie online adevărată, recomandată acolo unde sarcina este mai sensibilă la variații de tensiune sau frecvență din rețea. Diferența principală dintre cele două constă în topologie și nivelul de protecție oferit."
+        "a": "Sentinel Pro2 acoperă puteri între 700 și 3000 VA, iar Sentinel Dual2 între 1000 și 3000 VA; ambele sunt listate de producător în gama on-line, potrivite pentru stații de lucru și servere mici. Diferențele funcționale dintre cele două serii se confirmă pe fișa tehnică a codului ales."
       },
       {
         "q": "Ce putere acoperă gama Riello UPS Multi Power2?",
@@ -662,7 +662,7 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
       },
       {
         "q": "Ce UPS este potrivit pentru un centru de date de putere mare?",
-        "a": "Pentru puteri mari, gamele NextEnergy NXE, între 250 și 800 kVA, și Master HE, între 100 și 800 kVA, sunt construite pentru funcționare continuă în centre de date, cu eficiență ridicată în modul online. Master HP UL, disponibil între 65 și 500 kVA, este certificat pentru piața nord-americană. Alegerea depinde de puterea totală instalată și de nivelul de redundanță dorit pentru instalație."
+        "a": "Pentru puteri mari, gamele NextEnergy NXE, între 250 și 800 kVA, și Master HE, între 100 și 800 kVA, sunt construite pentru funcționare continuă în centre de date, cu eficiență ridicată în modul online. Master HP UL este disponibil între 65 și 500 kVA; certificările se confirmă pe fișa tehnică. Alegerea depinde de puterea totală instalată și de nivelul de redundanță dorit pentru instalație."
       },
       {
         "q": "Livrați UPS-uri Riello UPS în România?",
@@ -675,8 +675,8 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.riello-ups.com/products","publisher":"Riello UPS","accessed":"2026-09-25"},
       { title: "Riello UPS - Company", url: "https://www.riello-ups.com/", publisher: "RPS SpA", accessed: "2026-09-22" },
@@ -687,16 +687,16 @@ Pentru instalațiile din România unde alimentarea nu poate cădea — servere, 
     name: "CHINT",
     founded: 1984,
     headquarters: "Yueqing, China",
-    overview: `CHINT este un producător chinez de aparataj electric de joasă tensiune, înființat în 1984 la Yueqing, provincia Zhejiang, cu peste 50.000 de angajați și operațiuni în peste 140 de țări. Gama de joasă tensiune acoperă contactoare (seria NC1), întrerupătoare automate modulare (NXB-63, NB1-63), întrerupătoare automate în carcasă turnată (NM8N, pentru distribuție secundară) și întrerupătoare de aer pentru distribuție principală (seria NXA), la care se adaugă tablouri electrice complete, transformatoare de putere de până la 1000 kV/1000 MVA, sisteme de încărcare pentru vehicule electrice și contoare de gaz și electricitate. Putem oferta componente individuale sau loturi pentru tablouri electrice.
+    overview: `CHINT este un producător chinez de aparataj electric de joasă tensiune, înființat în 1984 la Yueqing, provincia Zhejiang, cu operațiuni în peste 140 de țări. Gama de joasă tensiune acoperă contactoare (seria NC1), întrerupătoare automate modulare (NXB-63, NB1-63), întrerupătoare automate în carcasă turnată (NM8N, pentru distribuție secundară) și întrerupătoare de aer pentru distribuție principală (seria NXA), la care se adaugă tablouri electrice complete, transformatoare de putere (inclusiv un transformator UHV de 1000 kV/1000 MVA, care a trecut testele de tip și de rutină), sisteme de încărcare pentru vehicule electrice și contoare de gaz și electricitate. Putem oferta componente individuale sau loturi pentru tablouri electrice.
 
-CHINT concurează direct cu Schneider Electric pe segmentul de aparataj de joasă tensiune, mizând pe o gamă foarte largă construită atât după standarde IEC, cât și UL, pentru piețe diferite. Seria de întrerupătoare de medie tensiune NG7-38 a primit certificare ETL, prima de acest tip pentru echipament de medie tensiune produs în China, semn al efortului de a intra pe piețe cu cerințe de conformitate stricte. Compania a primit medalia de aur EcoVadis în 2026, plasându-se în top 3% dintre companiile evaluate de platforma respectivă pentru practici de sustenabilitate.
+Gama de joasă tensiune CHINT este listată de producător atât în variante IEC, cât și UL, pentru piețe diferite. Seria NG7-38 de aparataj de medie tensiune (switchgear) are, potrivit producătorului, aprobare ETL pentru piața nord-americană. Compania a primit medalia de aur EcoVadis în 2026, plasându-se în top 3% dintre companiile evaluate de platforma respectivă pentru practici de sustenabilitate.
 
 Pentru proiectele din România unde tabloul electric trebuie echipat rapid și la un cost per component competitiv — hale industriale, stații de încărcare EV sau instalații de distribuție secundară — gama CHINT acoperă majoritatea componentelor standard fără a fi legată de un singur brand din tablou.`,
     whyChoose: [
       "Gamă completă de aparataj de joasă tensiune, de la contactoare la întrerupătoare de aer pentru distribuție principală",
       "Componente disponibile atât în variantă IEC, cât și UL, pentru proiecte cu cerințe diferite",
       "Serie de medie tensiune (NG7-38) cu certificare ETL pentru piața nord-americană",
-      "Gamă de transformatoare de putere de până la 1000 kV/1000 MVA din același producător",
+      "Transformator UHV de 1000 kV/1000 MVA, testat, în portofoliul aceluiași producător",
       "Sisteme de încărcare EV integrate în aceeași ofertă de echipamente electrice"
     ],
     keyProducts: [
@@ -800,8 +800,8 @@ Pentru proiectele din România unde tabloul electric trebuie echipat rapid și l
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Low Voltage Products","url":"https://www.chintglobal.com/global/en/products/low-voltage.html","publisher":"CHINT Global","accessed":"2026-09-25"},
       { title: "CHINT Global", url: "https://www.chintglobal.com/", publisher: "Chint Group", accessed: "2026-09-22" },
@@ -812,7 +812,7 @@ Pentru proiectele din România unde tabloul electric trebuie echipat rapid și l
   'weicon': {
     name: "Weicon",
     founded: 1947,
-    overview: `Weicon este un producător german de adezivi, etanșanți, spray-uri tehnice, paste de montaj și vaseline de înaltă performanță, cu istorie din 1947 și rețea internațională de peste 25 de filiale, inclusiv o filială cu producție locală în România. Gama acoperă adezivi structurali, etanșanți pentru sisteme hidraulice și pneumatice, spray-uri de curățare și lubrifiere, paste de montaj cu conținut de cupru sau nichel pentru filete supuse temperaturilor ridicate, și vaseline tehnice pentru aplicații alimentare sau industriale. Putem oferta produse individuale sau seturi pentru mentenanță.
+    overview: `Weicon este un producător german de adezivi, etanșanți, spray-uri tehnice, paste de montaj și vaseline de înaltă performanță, cu istorie din 1947 și rețea internațională de filiale. Gama acoperă adezivi structurali, etanșanți pentru sisteme hidraulice și pneumatice, spray-uri de curățare și lubrifiere, paste de montaj pentru filete supuse temperaturilor ridicate, și vaseline tehnice pentru aplicații alimentare sau industriale. Putem oferta produse individuale sau seturi pentru mentenanță.
 
 Diferența față de un producător generic de chimie tehnică stă în aprobările specifice pe care le au multe dintre produse: NSF pentru contact incidental cu alimente, ISEGA pentru compatibilitate alimentară, DVGW pentru instalații de gaz, LFGB pentru materiale în contact cu alimente, BAM pentru compatibilitate cu oxigen, și WRAS pentru instalații de apă potabilă. Aceste aprobări permit selectarea produsului potrivit pentru medii reglementate strict, unde un adeziv sau o vaselină obișnuită nu ar fi acceptată de auditul de conformitate al fabricii.
 
@@ -820,14 +820,14 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
     whyChoose: [
       "Aprobări specifice (NSF, ISEGA, DVGW, LFGB, BAM, WRAS) pentru medii reglementate strict",
       "Gamă completă de mentenanță tehnică: adezivi, etanșanți, spray-uri, paste de montaj și vaseline",
-      "Paste de montaj cu cupru sau nichel pentru filete expuse la temperaturi ridicate",
+      "Paste de montaj pentru filete expuse la temperaturi ridicate",
       "Vaseline tehnice cu variante aprobate pentru contact incidental cu alimente",
-      "Rețea internațională de peste 25 de filiale, cu istorie de peste 75 de ani în chimie tehnică"
+      "Rețea internațională de filiale, cu istorie de peste 75 de ani în chimie tehnică"
     ],
     keyProducts: [
       { name: "Adezivi și etanșanți structurali", description: "Adezivi pentru fixare mecanică și etanșanți pentru sisteme hidraulice, pneumatice și instalații industriale, disponibili în variante rezistente la temperatură, vibrații sau medii chimice agresive. Pentru ofertă avem nevoie de materialele care se lipesc/etanșează și de condițiile de temperatură de lucru." },
       { name: "Spray-uri tehnice de curățare și lubrifiere", description: "Game de spray-uri pentru curățarea contactelor electrice, lubrifiere de lanțuri și mecanisme, îndepărtarea reziduurilor și protecție anticorozivă temporară, folosite curent în mentenanța preventivă a echipamentelor industriale." },
-      { name: "Paste de montaj cu cupru sau nichel", description: "Paste anti-gripaj pentru filete și îmbinări expuse la temperaturi ridicate sau medii corozive, care previn blocarea șuruburilor și facilitează demontarea ulterioară a componentelor la reparații." },
+      { name: "Paste de montaj", description: "Paste anti-gripaj pentru filete și îmbinări expuse la temperaturi ridicate sau medii corozive, care previn blocarea șuruburilor și facilitează demontarea ulterioară a componentelor la reparații." },
       { name: "Vaseline tehnice de înaltă performanță", description: "Vaseline pentru lagăre, ghidaje și mecanisme cu solicitare mare, disponibile și în variante certificate pentru contact incidental cu alimente, potrivite liniilor de procesare din industria alimentară." }
     ],
     industries: [
@@ -919,7 +919,7 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
       },
       {
         "code": "Cable Stripper No. 4-16",
-        "description": "unealtă manuală pentru dezizolarea cablurilor cu secțiune 4–16 mm²"
+        "description": "unealtă manuală pentru dezizolarea cablurilor cu diametrul de 4–16 mm"
       }
     ],
     faq: [
@@ -942,8 +942,8 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.weicon.de/en/products/","publisher":"Weicon","accessed":"2026-09-26"},
       { title: "Weicon România", url: "https://www.weicon.ro", publisher: "Weicon România", accessed: "2026-09-22" },
@@ -953,26 +953,26 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
   'addinol': {
     name: "Addinol",
     headquarters: "Leuna, Germania",
-    overview: `Addinol este un producător german de uleiuri și lubrifianți industriali, cu fabrica principală la Leuna, un oraș din centrul Germaniei dedicat industriei chimice, și istorie de peste 90 de ani în domeniu. Gama include uleiuri de motor pentru autoturisme și camioane (de exemplu seriile Premium și Professional, cu aprobări de la producători precum Audi, BMW și Mercedes-Benz), dar și lubrifianți industriali specializați — uleiuri pentru motoare pe biogaz, lubrifianți pentru temperaturi ridicate și uleiuri hidraulice biodegradabile. Putem oferta produse individuale sau loturi pentru flote și instalații industriale.
+    overview: `Addinol este un producător german de uleiuri și lubrifianți industriali, cu fabrica principală la Leuna, un oraș din centrul Germaniei dedicat industriei chimice, și istorie de peste 90 de ani în domeniu. Gama include uleiuri de motor pentru autoturisme și camioane (de exemplu Giga Light MV 0530 LL, 5W-30; gama de uleiuri de motor are, potrivit producătorului, peste 150 de aprobări nominale de la constructori precum Audi, BMW și Mercedes-Benz), dar și lubrifianți industriali specializați — uleiuri pentru motoare pe biogaz, lubrifianți pentru temperaturi ridicate și uleiuri hidraulice biodegradabile. Putem oferta produse individuale sau loturi pentru flote și instalații industriale.
 
-Ce diferențiază Addinol de un furnizor generic de ulei, cu care se compară direct branduri precum Mobil Industrial, este specializarea pe nișe tehnice: uleiuri pentru motoare staționare pe biogaz, unde compoziția gazului variază și cere formule de ulei adaptate, și lubrifianți biodegradabili pentru echipamente care lucrează în apropierea apei sau a solului, unde o scurgere de ulei mineral clasic ar avea impact de mediu semnificativ. Certificarea ISO 9001 acoperă managementul calității pentru întreaga producție de la Leuna.
+Addinol are o gamă cu specializare pe nișe tehnice: uleiuri pentru motoare staționare pe biogaz, unde compoziția gazului variază și cere formule de ulei adaptate, și lubrifianți biodegradabili pentru echipamente care lucrează în apropierea apei sau a solului, unde o scurgere de ulei mineral clasic ar avea impact de mediu semnificativ. Producătorul indică peste 650 de produse în gamă, dezvoltate în departament propriu de cercetare-dezvoltare.
 
 Pentru fabricile și flotele din România cu echipamente ce cer aprobări specifice de producător de motor sau cu instalații care rulează pe biogaz, Addinol oferă o alternativă la brandurile de uleiuri consacrate, cu fișe tehnice publice pentru fiecare produs din gamă.`,
     whyChoose: [
       "Uleiuri de motor cu aprobări explicite de la Audi, BMW și Mercedes-Benz, verificabile pe fișa tehnică",
       "Gamă dedicată motoarelor pe biogaz, unde compoziția gazului cere formule de ulei adaptate",
       "Uleiuri hidraulice biodegradabile pentru echipamente ce operează aproape de apă sau sol sensibil",
-      "Fabrică unică la Leuna, oraș cu tradiție de peste un secol în industria chimică",
-      "Certificare ISO 9001 pentru managementul calității producției"
+      "Fabrică la Leuna, în centrul industriei chimice din Germania",
+      "Peste 650 de soluții de lubrifiere în gamă, cu departament propriu de cercetare-dezvoltare"
     ],
     keyProducts: [
-      { name: "Uleiuri de motor seria Premium", description: "Uleiuri sintetice pentru autoturisme, cu formule precum Premium 0530 C3-DX, care respectă specificații de vâscozitate joasă pentru economie de combustibil, adaptate motoarelor moderne cu norme de emisii stricte. Pentru ofertă avem nevoie de marca și modelul mașinii sau de norma de ulei cerută de producătorul motorului." },
-      { name: "Uleiuri de motor seria Professional", description: "Game precum Professional 0530 E6/E9, orientate spre flote comerciale și utilitare, cu aprobări specifice pentru motoare Euro 6 și intervale de schimb extinse la utilizare intensivă." },
-      { name: "Uleiuri pentru transport greu — Extra Truck", description: "Formule precum Extra Truck MD 1049 LE, dedicate camioanelor și utilajelor grele, cu protecție la sarcini mari și temperaturi ridicate de funcționare continuă." },
+      { name: "Uleiuri de motor seria Premium", description: "Uleiuri de motor pentru autoturisme, cu aprobări de la constructori indicate pe fișa tehnică a fiecărui produs. Pentru ofertă avem nevoie de marca și modelul mașinii sau de norma de ulei cerută de producătorul motorului." },
+      { name: "Uleiuri de motor seria Professional", description: "Uleiuri de motor orientate spre flote comerciale și utilitare; aprobările și intervalele de schimb se confirmă pe fișa tehnică a produsului ales." },
+      { name: "Uleiuri pentru transport greu — Extra Truck", description: "Uleiuri pentru camioane și utilaje grele; specificațiile exacte se confirmă pe fișa tehnică a produsului ales." },
       { name: "Lubrifianți industriali specializați", description: "Uleiuri pentru motoare staționare pe biogaz, lubrifianți pentru temperaturi ridicate și uleiuri hidraulice biodegradabile, pentru instalații industriale unde uleiul mineral clasic nu răspunde cerințelor tehnice sau de mediu." }
     ],
     certifications: [
-      "ISO 9001 — management al calității pentru producția de la Leuna"
+      "Peste 150 de aprobări nominale de la constructori pentru uleiurile de motor (conform site-ului producătorului)"
     ],
     industries: [
       "Transport auto și flote comerciale — uleiuri de motor cu aprobări OEM",
@@ -1029,13 +1029,13 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
       },
       {
         "code": "Bio Hydraulic Oil",
-        "description": "Ulei hidraulic biodegradabil pe bază de esteri, din gama NatureProof"
+        "description": "Ulei hidraulic biodegradabil, din gama NatureProof"
       }
     ],
     faq: [
       {
         "q": "Ce este uleiul Addinol Super Traktor MU 1045?",
-        "a": "Este un ulei multifuncțional pentru tractoare, cu vâscozitate SAE 10W-40, gândit pentru ungerea simultană a motorului, cutiei de viteze, frânelor umede și hidraulicii, conform standardelor ACEA E2/E3 și API CF-4/CG-4. Addinol recomandă schimbul la fiecare 500 de ore de funcționare, nu în funcție de kilometraj. Confirmăm compatibilitatea exactă cu modelul de tractor pe baza cărții tehnice a utilajului."
+        "a": "Este un ulei multifuncțional pentru tractoare, cu vâscozitate SAE 10W-40, gândit pentru ungerea simultană a motorului, cutiei de viteze, frânelor umede și hidraulicii, conform standardelor ACEA E2/E3 și API CF-4/CG-4. Pe pagina producătorului, un schimb la aproximativ 500 de ore de funcționare este indicat ca uzual la tractoare, nu în funcție de kilometraj. Confirmăm compatibilitatea exactă cu modelul de tractor pe baza cărții tehnice a utilajului."
       },
       {
         "q": "Aduceți uleiuri Addinol la comandă pentru clienți din România?",
@@ -1052,8 +1052,8 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Motoröl und Hydrauliköl für Traktoren von ADDINOL","url":"https://addinol.de/en/products/lubricants-for-the-automotive-sector/engine-oil/tractor/","publisher":"Addinol","accessed":"2026-09-26"},
       {"title":"Hydrauliköl – Druckfluide für Industriemaschinen von Addinol","url":"https://addinol.de/en/products/industrial-lubricants/hydraulic-oils/","publisher":"Addinol","accessed":"2026-09-26"},
@@ -1069,7 +1069,7 @@ Pentru fabricile și flotele din România cu echipamente ce cer aprobări specif
     headquarters: "Arcugnano (Vicenza), Italia",
     overview: `Pietro Fiorentini este un producător italian din Arcugnano, lângă Vicenza, fondat în 1940, specializat în componente pentru reglarea, măsurarea și distribuția gazului natural — cu peste 2.400 de angajați și prezență în peste 40 de locații internaționale. Gama de regulatoare de presiune include seriile Aperflux 101 și Aperflux 851, ASX 176, familia Dival (500, 600, 700) și Terval (A, R), plus modelele FE, FEX și NeoR, la care se adaugă vane fluture, vane cu bilă plutitoare sau pivotantă, contoare de gaz (cu diafragmă, ultrasonice inteligente, cu turbină sau rotative) și sisteme pentru tratarea gazului și compresia biogazului. Putem oferta regulatoare și contoare individuale, pe cod de produs.
 
-Compania concurează cu Samson pe segmentul de regulatoare și control de proces industrial, dar rămâne specializată în special pe lanțul gazului natural — de la extracție și transport, până la distribuția în rețea și utilizarea finală. În ultimii ani gama s-a extins spre tranziția energetică, cu sisteme de compresie pentru biogaz și electrolizoare pentru producția de hidrogen, plus soluții software pentru monitorizarea rețelelor de gaz și apă. Certificarea SA8000, de responsabilitate socială, completează un cod de etică formal aplicat în toate locațiile grupului.
+Compania este specializată în special pe lanțul gazului natural — de la extracție și transport, până la distribuția în rețea și utilizarea finală. În ultimii ani gama s-a extins spre tranziția energetică, cu sisteme de compresie pentru biogaz și electrolizoare pentru producția de hidrogen, plus soluții software pentru monitorizarea rețelelor de gaz și apă. Compania deține certificarea SA8000, de responsabilitate socială.
 
 Pentru operatorii de rețele de gaz și instalatorii de branșamente din România, gama Pietro Fiorentini acoperă atât regulatoare de presiune de branșament, cât și echipamente de contorizare, cu specificații tehnice disponibile public pentru fiecare cod de produs.`,
     whyChoose: [
@@ -1077,7 +1077,7 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
       "Familii de regulatoare Aperflux, ASX, Dival și Terval acoperă game diferite de presiune și debit",
       "Extindere spre tranziția energetică — compresie biogaz și electrolizoare de hidrogen",
       "Peste 2.400 de angajați și prezență în peste 40 de locații internaționale",
-      "Certificare SA8000 pentru responsabilitate socială aplicată în toate locațiile grupului"
+      "Certificare SA8000 pentru responsabilitate socială"
     ],
     keyProducts: [
       { name: "Regulatoare de presiune Aperflux 101 / 851", description: "Regulatoare de presiune pentru rețele de distribuție a gazului natural, folosite la stații de reglare-măsurare pe conducte de medie și joasă presiune. Pentru ofertă avem nevoie de presiunea de intrare, presiunea de ieșire dorită și debitul maxim al instalației." },
@@ -1218,7 +1218,7 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
       },
       {
         "q": "Ce este regulatorul Pietro Fiorentini Aperflux 101?",
-        "a": "Aperflux 101 este un regulator de presiune pilotat, folosit pe trepte de presiune medie și înaltă în stațiile de reglare a gazelor naturale. Funcționează cu un pilot separat care comandă deschiderea supapei principale, oferind o reglare fină a presiunii de ieșire chiar și la variații mari ale debitului. Este parte din aceeași familie constructivă cu Aperflux 851, destinat treptelor de presiune mai ridicate."
+        "a": "Aperflux 101 este un regulator de presiune pilotat, folosit pe trepte de presiune medie și înaltă în stațiile de reglare a gazelor naturale. Funcționează cu un pilot separat care comandă deschiderea supapei principale, oferind o reglare fină a presiunii de ieșire chiar și la variații mari ale debitului. Este parte din aceeași familie constructivă cu Aperflux 851."
       },
       {
         "q": "Ce diferență există între regulatoarele cu acțiune directă și cele pilotate?",
@@ -1235,8 +1235,8 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.fiorentini.com/en/products/","publisher":"Pietro Fiorentini","accessed":"2026-09-25"},
       {"title":"Dival 500","url":"https://www.fiorentini.com/en/product/dival-500/","publisher":"Pietro Fiorentini","accessed":"2026-09-25"},
@@ -1248,16 +1248,16 @@ Pentru operatorii de rețele de gaz și instalatorii de branșamente din Români
     name: "Lincoln Electric",
     founded: 1895,
     headquarters: "Euclid, Ohio, SUA",
-    overview: `Lincoln Electric este un producător american de echipamente și consumabile pentru sudură, fondat în 1895 la Euclid, Ohio, unul dintre numele care au popularizat sudura cu arc electric în construcții încă de la începutul secolului XX. Gama actuală de invertoare de sudură include seriile Invertec (135S, 150S, 165S, 170S, 400-SX) pentru sudură MMA/TIG, Powertec (i320 Standard/Advanced, i420S, 305C 4R, 505S) pentru sudură MIG/MAG industrială, aparate TIG precum CITOTIG 315 DC, plus echipamente pentru sudură semi-automată (Speedtec, Quickmig, Digipuls) și modele din familia Bester, brandul polonez preluat de Lincoln Electric. Putem oferta echipamente individuale sau loturi pentru ateliere.
+    overview: `Lincoln Electric este un producător american de echipamente și consumabile pentru sudură, fondat în 1895 la Euclid, Ohio, unul dintre numele care au popularizat sudura cu arc electric în construcții încă de la începutul secolului XX. Gama actuală de invertoare de sudură include seriile Invertec (135S, 150S, 165S, 170S, 400-SX) pentru sudură MMA/TIG, Powertec (i320 Standard/Advanced, i420S, 305C 4R, 505S) pentru sudură MIG/MAG industrială, aparate TIG precum CITOTIG 315 DC, plus echipamente pentru sudură semi-automată (Speedtec, Quickmig, Digipuls) și modele din familia Bester. Putem oferta echipamente individuale sau loturi pentru ateliere.
 
-Compania acoperă tot lanțul sudurii: aparate de sudură prin arc electric, motoare electrice, accesorii de sudură, echipamente de tăiere cu plasmă și oxi-combustibil, și sisteme de sudură robotizată pentru linii de producție automatizate. Seria Powertec e orientată spre sudură industrială de volum, cu variante avansate pentru control fin al arcului, în timp ce seria Invertec acoperă atelierele mai mici sau lucrările de service unde portabilitatea contează. Gama Bester completează segmentul de intrare, cu aparate mai accesibile ca preț de fabricație, dar din același grup tehnic.
+Compania acoperă tot lanțul sudurii: aparate de sudură prin arc electric, motoare electrice, accesorii de sudură, echipamente de tăiere cu plasmă și oxi-combustibil, și sisteme de sudură robotizată pentru linii de producție automatizate. Seria Powertec e orientată spre sudură industrială de volum, cu variante avansate pentru control fin al arcului, în timp ce seria Invertec acoperă atelierele mai mici sau lucrările de service unde portabilitatea contează. Gama Bester completează oferta Lincoln Electric.
 
 Pentru atelierele de fabricație metalică și service-urile de mentenanță din România, gama Lincoln Electric acoperă atât sudura ocazională cu aparate portabile, cât și liniile de producție cu sudură robotizată, fără să fie nevoie de un al doilea furnizor pentru consumabile.`,
     whyChoose: [
       "Gamă completă, de la invertoare portabile (Invertec) la sudură robotizată de linie",
       "Seria Powertec acoperă sudură MIG/MAG industrială de volum, cu variante de control fin al arcului",
       "Aparate TIG dedicate (CITOTIG) pentru sudură de precizie pe oțel inoxidabil sau aluminiu",
-      "Familia Bester completează gama de intrare, din același grup tehnic Lincoln Electric",
+      "Familia Bester face parte din oferta Lincoln Electric",
       "Peste un secol de fabricație continuă de echipamente de sudură cu arc electric"
     ],
     keyProducts: [
@@ -1345,8 +1345,8 @@ Pentru atelierele de fabricație metalică și service-urile de mentenanță din
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Flextec 350XP | Lincoln Electric","url":"https://www.lincolnelectric.com/en/Products/le-na-flextec350xp","publisher":"Lincoln Electric","accessed":"2026-09-26"},
       {"title":"INVERTEC 300TPX & 400TPX Operator's Manual","url":"https://assets.lincolnelectric.com/assets/EU/OperatorManuals/IM2041rev12-ENG.pdf","publisher":"Lincoln Electric","accessed":"2026-09-26"},
@@ -1356,17 +1356,17 @@ Pentru atelierele de fabricație metalică și service-urile de mentenanță din
   },
   'chauvin-arnoux': {
     name: "Chauvin Arnoux",
-    overview: `Chauvin Arnoux este un producător francez de aparate de măsură electrică, cu peste un secol de istorie și un grup care include filiale în Germania, Austria, China, Spania, SUA, Marea Britanie, Italia și Elveția. Gama acoperă multimetre digitale (inclusiv variante pentru zone cu risc de explozie, precum MTX 3297Ex, sub brandurile Metrix și Multimetrix), clești ampermetrici, telurometre pentru măsurarea prizei de pământ, testere de izolație și megohmetre, analizoare de rețea și de energie, osciloscoape, generatoare de funcții și analizoare de spectru. Putem oferta aparate individuale sau seturi pentru echipe de mentenanță electrică.
+    overview: `Chauvin Arnoux este un producător francez de aparate de măsură electrică, cu peste un secol de istorie și un grup cu 10 filiale, prezent în peste 120 de țări. Gama acoperă multimetre digitale (inclusiv variante pentru zone cu risc de explozie, precum MTX 3297Ex, sub brandurile Metrix și Multimetrix), clești ampermetrici, telurometre pentru măsurarea prizei de pământ, testere de izolație și megohmetre, analizoare de rețea și de energie, osciloscoape, generatoare de funcții și analizoare de spectru. Putem oferta aparate individuale sau seturi pentru echipe de mentenanță electrică.
 
-Concurează direct cu Fluke pe segmentul de aparate portabile de măsură electrică, dar acoperă și zone mai puțin comune la concurență, precum testerele pentru rețele de telecomunicații pe cablu de cupru și analizoarele dedicate testării transformatoarelor și motoarelor electrice. Certificările ISO 9001:2015 și ISO 14001:2015 acoperă managementul calității și, respectiv, managementul de mediu pentru procesele de fabricație ale grupului.
+Gama include și testere pentru rețele de telecomunicații și de date, precum și testere pentru transformatoare și mașini electrice. Certificările ISO 9001:2015 și ISO 14001:2015 acoperă managementul calității și, respectiv, managementul de mediu pentru procesele de fabricație ale grupului.
 
 Pentru electricienii și echipele de mentenanță din România care fac verificări periodice ale instalațiilor electrice — prize de pământ, izolație, calitatea energiei — gama Chauvin Arnoux oferă o alternativă cu specificații tehnice publice pentru fiecare familie de aparate, utilă la alegerea instrumentului potrivit tipului de verificare cerut de normativ.`,
     whyChoose: [
       "Gamă largă, de la multimetre de bază la analizoare de rețea și energie de nivel profesional",
       "Variante certificate pentru zone cu risc de explozie (Ex), precum MTX 3297Ex",
-      "Testere dedicate pentru rețele de telecomunicații pe cablu de cupru, mai rar la alți producători",
+      "Testere dedicate pentru rețele de telecomunicații și de date",
       "Certificări ISO 9001:2015 și ISO 14001:2015 pentru calitate și mediu",
-      "Rețea de filiale în opt țări, utilă pentru suport tehnic și documentație"
+      "Grup cu 10 filiale și prezență în peste 120 de țări"
     ],
     keyProducts: [
       { name: "Multimetre digitale (Metrix, Multimetrix, MTX 3297Ex)", description: "Multimetre pentru măsurători electrice generale, cu variantă certificată pentru zone cu risc de explozie (MTX 3297Ex), folosite în petrochimie sau alte medii cu atmosferă potențial explozivă. Pentru ofertă avem nevoie de tipul de măsurători necesare și dacă instalația e clasificată ATEX." },
@@ -1380,17 +1380,17 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
     ],
     industries: [
       "Mentenanță electrică industrială — verificări periodice ale instalațiilor",
-      "Telecomunicații — testare rețele de cablu de cupru",
+      "Telecomunicații — testere pentru rețele de telecomunicații și de date",
       "Eficiență energetică — analiza calității energiei electrice",
       "Educație și laborator — instrumente de măsură pentru formare tehnică",
       "Petrochimie — instrumente certificate pentru zone cu risc de explozie"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de aparate Chauvin Arnoux și pornim mereu de la surse publice ale producătorului pentru descrierile tehnice de mai sus. Aducem aparate Chauvin Arnoux la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de măsurătoare necesară (izolație, priză de pământ, calitatea energiei) și dacă instalația verificată e clasificată ATEX. Nu facem calibrarea sau verificarea metrologică a aparatelor — acestea se fac prin laboratoare acreditate, separat de livrarea echipamentului.`,
+    infinitrade: `Nu deținem stoc propriu de aparate Chauvin Arnoux și pornim mereu de la surse publice ale producătorului pentru descrierile tehnice de mai sus. Aducem aparate Chauvin Arnoux la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de tipul de măsurătoare necesară (izolație, priză de pământ, calitatea energiei) și dacă instalația verificată e clasificată ATEX. Nu facem calibrarea sau verificarea metrologică a aparatelor — acestea se fac prin laboratoare acreditate, separat de livrarea echipamentului.`,
     limitation: "Nu facem calibrarea sau verificarea metrologică periodică a aparatelor și nu confirmăm disponibilitate permanentă din stoc pe variantele ATEX.",
     productCodes: [
       {
         "code": "MTX 3297Ex",
-        "description": "multimetru digital antideflagrant, pentru zone cu risc de explozie"
+        "description": "multimetru digital cu securitate intrinsecă (ATEX/IECEx), pentru zone cu risc de explozie"
       },
       {
         "code": "MTX 3291",
@@ -1497,8 +1497,8 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap produse (EN)","url":"https://www.chauvin-arnoux.com/en/sitemap/sitemap_chauvin-arnoux_en.xml","publisher":"Chauvin Arnoux","accessed":"2026-09-26"},
       { title: "Chauvin Arnoux", url: "https://www.chauvin-arnoux.com", publisher: "Chauvin Arnoux Group", accessed: "2026-09-22" },
@@ -1518,7 +1518,7 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
       "Modele de precizie cu citire la miligram, chiar la capacități de câțiva kilograme (seria PS)",
       "Rețea de 300 de puncte de vânzare și service la nivel mondial",
       "Soluții dedicate industriei farmaceutice și biotehnologice pentru cântărire trasabilă",
-      "Fabricație integral în Uniunea Europeană, relevant pentru auditurile de conformitate ale clienților"
+      "Producător european, cu sediul la Radom, Polonia"
     ],
     keyProducts: [
       { name: "Balanțe analitice seria XA", description: "Balanțe de laborator de înaltă precizie pentru determinări analitice, folosite în laboratoare de control al calității, cercetare și dezvoltare de produs, unde citirea trebuie să fie stabilă și trasabilă." },
@@ -1580,7 +1580,7 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
     faq: [
       {
         "q": "Ce diferență este între balanțele Radwag XA 220.4Y și XA 220.5Y.A?",
-        "a": "Ambele au aceeași capacitate de 220 g, dar aparțin unor generații diferite ale seriei XA: 5Y.A oferă o citibilitate de 0,1 mg și funcții suplimentare de interfață, în timp ce 4Y este generația anterioară, cu o dotare mai simplă. Alegerea depinde de precizia cerută de aplicația de laborator și de bugetul disponibil pentru echipament."
+        "a": "Ambele au aceeași capacitate de 220 g și aparțin unor generații diferite ale seriei XA; diferențele de dotare și de interfață se confirmă pe cod, din fișele tehnice Radwag. Alegerea depinde de precizia cerută de aplicația de laborator și de bugetul disponibil pentru echipament."
       },
       {
         "q": "Ce este balanța Radwag AS X7?",
@@ -1601,8 +1601,8 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Analytical Balances","url":"https://radwag.com/en/analytical-balances","publisher":"Radwag","accessed":"2026-09-25"},
       {"title":"Precision Balances","url":"https://radwag.com/en/precision-balances","publisher":"Radwag","accessed":"2026-09-25"},
@@ -1613,13 +1613,13 @@ Pentru laboratoarele și liniile de producție din România care au nevoie de c�
   'bronkhorst': {
     name: "Bronkhorst",
     headquarters: "Olanda",
-    overview: `Bronkhorst este un producător olandez specializat în debitmetre și controlere masice de precizie pentru gaze, lichide și vapori, cu birou și pe piața americană la Bethlehem, Pennsylvania. Compania se descrie ca specialist în debite mici, oferind cea mai extinsă gamă de debitmetre și controlere masice de debit redus disponibilă pe piață, construite pe trei tehnologii de măsurare: termică, Coriolis și ultrasonică. Gama acoperă instrumente pentru debit de gaz, debit de lichid, debit de vapori și controlere de presiune. Putem oferta instrumente individuale, alese pe tehnologia de măsurare potrivită fluidului.
+    overview: `Bronkhorst este un producător olandez specializat în debitmetre și controlere masice de precizie pentru gaze, lichide și vapori, cu birou și pe piața americană la Bethlehem, Pennsylvania. Compania se descrie ca specialist în debite mici, cu instrumente construite pe trei tehnologii de măsurare: termică, Coriolis și ultrasonică. Gama acoperă instrumente pentru debit de gaz, debit de lichid, debit de vapori și controlere de presiune. Putem oferta instrumente individuale, alese pe tehnologia de măsurare potrivită fluidului.
 
-Comparativ cu Krohne, cu care se întâlnește pe segmentul de instrumentație de proces, Bronkhorst rămâne specializat pe partea de debite mici — aplicații unde trebuie dozat sau controlat cu precizie un flux redus de gaz sau lichid, nu debite mari de conductă industrială. Tehnologia termică se folosește tipic pentru gaze curate la debite mici, tehnologia Coriolis pentru măsurarea directă a masei indiferent de compoziția fluidului, iar tehnologia ultrasonică pentru situații unde contactul cu fluidul trebuie minimizat.
+Comparativ cu Krohne, cu care se întâlnește pe segmentul de instrumentație de proces, Bronkhorst rămâne specializat pe partea de debite mici — aplicații unde trebuie dozat sau controlat cu precizie un flux redus de gaz sau lichid, nu debite mari de conductă industrială. Tehnologia termică se folosește tipic pentru gaze curate la debite mici, tehnologia Coriolis pentru măsurarea directă a masei indiferent de compoziția fluidului, iar tehnologia ultrasonică pentru măsurarea debitului volumetric de lichide, independent de densitate, temperatură și vâscozitate.
 
 Pentru laboratoarele și instalațiile pilot din România din chimie, semiconductori sau life sciences, unde procesul cere dozare controlată de gaz sau lichid la scară mică, gama Bronkhorst oferă o soluție specializată acolo unde un debitmetru industrial standard ar fi supradimensionat pentru precizia cerută.`,
     whyChoose: [
-      "Specializare pe debite mici, cu gamă descrisă ca fiind cea mai extinsă de acest tip pe piață",
+      "Specializare pe debite mici, pentru gaze, lichide și vapori",
       "Trei tehnologii de măsurare disponibile — termică, Coriolis și ultrasonică — alese după aplicație",
       "Acoperă gaze, lichide și vapori din aceeași familie de produse",
       "Controlere de presiune integrate în aceeași gamă, pentru procese complete de dozare",
@@ -1628,7 +1628,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
     keyProducts: [
       { name: "Debitmetre și controlere masice pentru gaze (tehnologie termică)", description: "Instrumente pentru măsurarea și controlul debitului de gaz la valori mici, folosind principiul termic de măsurare, potrivite pentru gaze curate în laboratoare de analiză sau instalații pilot din chimie și semiconductori." },
       { name: "Debitmetre masice tip Coriolis pentru lichide și gaze", description: "Instrumente care măsoară direct masa fluidului, indiferent de densitate sau compoziție, folosite unde precizia trebuie menținută chiar dacă proprietățile fluidului variază în timp." },
-      { name: "Instrumente cu tehnologie ultrasonică", description: "Debitmetre bazate pe măsurare ultrasonică, potrivite pentru situații unde contactul direct al senzorului cu fluidul trebuie redus sau unde fluidul nu permite montarea unui senzor termic clasic." },
+      { name: "Instrumente cu tehnologie ultrasonică", description: "Debitmetre bazate pe măsurare ultrasonică (de exemplu ES-FLOW, pentru lichide), cu măsurare independentă de densitatea, temperatura și vâscozitatea fluidului." },
       { name: "Controlere de presiune", description: "Instrumente pentru menținerea unei presiuni constante în linia de proces, folosite împreună cu debitmetrele masice în sisteme complete de dozare pentru chimie, life sciences sau tratamente de suprafață." }
     ],
     industries: [
@@ -1663,7 +1663,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       },
       {
         "code": "IN-FLOW",
-        "description": "debitmetru/controler masic de gaz pentru debite industriale mai mari"
+        "description": "debitmetru/controler masic termic de gaz, în execuție industrială robustă"
       },
       {
         "code": "IQ+FLOW",
@@ -1687,7 +1687,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       },
       {
         "code": "ES-FLOW",
-        "description": "debitmetru masic Coriolis pentru aplicații speciale de lichid"
+        "description": "debitmetru volumetric ultrasonic pentru lichide, cu funcție de controler"
       },
       {
         "code": "Liqui-Flow",
@@ -1707,7 +1707,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       },
       {
         "code": "IN-PRESS",
-        "description": "controler de presiune pentru debite/volume industriale mai mari"
+        "description": "controler de presiune Bronkhorst din seria IN-PRESS"
       }
     ],
     faq: [
@@ -1717,7 +1717,7 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
       },
       {
         "q": "Ce este seria IN-FLOW de la Bronkhorst?",
-        "a": "IN-FLOW este o familie de debitmetre și controlere masice de gaz dedicate debitelor industriale mai mari decât cele acoperite de EL-FLOW, păstrând principiul de măsurare termică. Se folosește în linii de producție și instalații unde volumele de gaz depășesc plaja tipică de laborator, menținând totuși precizia necesară pentru controlul proceselor."
+        "a": "IN-FLOW este o familie de debitmetre și controlere masice termice de gaz, în execuție industrială robustă, prezentată de producător ca alternativă la EL-FLOW pentru medii de producție dificile. Se folosește în linii de producție și instalații industriale."
       },
       {
         "q": "Livrați instrumentele Bronkhorst în România?",
@@ -1730,8 +1730,8 @@ Pentru laboratoarele și instalațiile pilot din România din chimie, semiconduc
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap produse","url":"https://www.bronkhorst.com/sitemap.xml","publisher":"Bronkhorst","accessed":"2026-09-26"},
       { title: "Bronkhorst - Mass Flow Meters and Controllers", url: "https://www.bronkhorst.com/", publisher: "Bronkhorst High-Tech B.V.", accessed: "2026-09-22" },

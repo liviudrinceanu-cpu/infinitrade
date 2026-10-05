@@ -7,7 +7,7 @@ export const brandContentBatch45 = {
     headquarters: "Osaka, Japonia",
     overview: `IDEC este un producător japonez cu sediul la Osaka, prezent din 1945 în automatizările de talie mică pentru panourile de comandă industriale. Gama de bază cuprinde relee, butoane de comandă și lămpi de semnalizare, controlere programabile compacte, panouri HMI cu ecran tactil și senzori de siguranță, toate gândite pentru montaj direct pe fața tabloului electric. Din portofoliul IDEC putem oferta componentele curente de panou — de la butonul de pornire/oprire până la interfața om-mașină pentru operatorul de linie.
 
-Spre deosebire de producătorii care acoperă tot spectrul de automatizare industrială grea, IDEC rămâne concentrat pe componentele de interfață om-mașină și pe siguranța mașinilor, zonă în care se compară direct cu Omron pe segmentul de relee și butoane compacte. Panourile HMI din seriile FT2J și HG2J vin cu ecran tactil capacitiv multi-touch, iar scannerul de siguranță SE2L este construit pentru medii industriale dure, cu zone de detecție reconfigurabile pentru protecția operatorului lângă utilaj.
+Spre deosebire de producătorii care acoperă tot spectrul de automatizare industrială grea, IDEC rămâne concentrat pe componentele de interfață om-mașină și pe siguranța mașinilor. Panourile HMI din seriile FT2J și HG2J vin cu ecran tactil capacitiv multi-touch, iar scannerul de siguranță SE2L este construit pentru medii industriale dure, cu zone de detecție reconfigurabile pentru protecția operatorului lângă utilaj.
 
 Pentru piața din România, IDEC are sens acolo unde se retehnologizează un panou de comandă existent sau se construiește unul nou și se caută componente compacte, ușor de integrat, pentru butoane, semnalizare și interfața cu operatorul — fără să fie nevoie de un automat programabil complex pentru fiecare stație de lucru.`,
     whyChoose: [
@@ -27,7 +27,7 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
       "Mașini-unelte — butoane, semnalizare și relee pe panoul de comandă",
       "Robotică — scanner de siguranță SE2L pentru delimitarea zonei de lucru",
       "Logistică și AGV/AMR — componente de interfață și siguranță pentru vehicule autonome",
-      "Industria semiconductorilor — panouri HMI pentru echipamente de linie curată"
+      "Echipamente de producție — panouri HMI pentru operare locală"
     ],
     infinitrade: `Pentru IDEC lucrăm din surse publice ale producătorului, fără date proprii de stoc — aducem componentele la comandă prin rețele de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru butoane, relee și lămpi, clientul trebuie să ne trimită codul de pe etichetă sau, dacă nu îl are, tensiunea de lucru și funcția din schema electrică. Pentru panourile HMI, avem nevoie de dimensiunea ecranului și dacă e necesară varianta cu PLC integrat. Nu promitem disponibilitate permanentă din stoc pe niciun cod IDEC.`,
     limitation: "Nu putem confirma existența unei rețele proprii de intervenție tehnică IDEC în România și nu configurăm programele PLC integrate în panourile HMI din gama FT2J.",
@@ -92,7 +92,7 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
       },
       {
         "q": "Livrați panouri HMI și scanere de siguranță IDEC în România?",
-        "a": "Da, aducem la comandă panouri HMI din gamele FT2J, HG2J sau HG5G, scanere de siguranță SE2L și butoane industriale seria HW, pe baza codului exact al producătorului. Panourile și componentele IDEC nu se găsesc pe stoc la noi, fiind comandate special, cu un termen uzual, conform surselor oficiale, de două până la patru săptămâni. Vă rugăm să menționați dimensiunea ecranului dorită și tipul de comunicație necesar cu automatul existent."
+        "a": "Da, aducem la comandă panouri HMI din gamele FT2J, HG2J sau HG5G, scanere de siguranță SE2L și butoane industriale seria HW, pe baza codului exact al producătorului. Panourile și componentele IDEC nu se găsesc pe stoc la noi, fiind comandate special, cu termen orientativ de 1–4 săptămâni de la confirmare. Vă rugăm să menționați dimensiunea ecranului dorită și tipul de comunicație necesar cu automatul existent."
       },
       {
         "q": "Ce elemente sunt necesare pentru o ofertă de panou HMI IDEC?",
@@ -105,8 +105,8 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"IDEC – Home (EU)","url":"https://www.idec.com/en-eu","publisher":"IDEC Corporation","accessed":"2026-09-25"},
       { title: "IDEC Corporation — EU site", url: "https://www.idec.com/en-eu", publisher: "IDEC Corporation", accessed: "2026-09-22" },
@@ -120,19 +120,19 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
     headquarters: "Lippo di Calderara di Reno (Bologna), Italia",
     overview: `STM SpA este un producător italian de reductoare, motoreductoare și variatoare mecanice, cu sediul la Lippo di Calderara di Reno, lângă Bologna, înființat în 1976. Gama acoperă reductoare coaxiale, paralele, pendulare, ortogonale și epicicloidale, reductoare melcate cu roată și șurub fără sfârșit, variatoare mecanice de turație, motoare electrice și invertoare, toate gândite ca și componente pentru transmisia mișcării în utilaje industriale. Din portofoliul STM putem oferta atât reductorul singular, cât și ansamblul motor-reductor complet, în funcție de ce are nevoie clientul pe linia de producție.
 
-STM se poziționează în segmentul reductoarelor industriale de uz general, alături de nume ca Bonfiglioli, mizând pe o gamă largă de tipuri constructive plecând de la aceeași platformă de fabricație. Linia de reductoare melcate include variantele R (corp rotund), U (corp pătrat), RR (combinate în două trepte) și CR (cu pretreaptă de angrenaje), la care se adaugă rinvuri unghiulare seria Z/ZL și variatoare mecanice seria WMF pentru reglarea continuă a turației. Compania raportează o cifră de afaceri de 152 milioane de euro în 2023 și vânzări în 88 de țări prin 21 de filiale.
+STM se poziționează în segmentul reductoarelor industriale de uz general, alături de nume ca Bonfiglioli, mizând pe o gamă largă de tipuri constructive plecând de la aceeași platformă de fabricație. Linia de reductoare melcate include variantele R (corp rotund), U (corp pătrat), RR (combinate în două trepte) și CR (cu pretreaptă de angrenaje), la care se adaugă reductoare unghiulare seria Z/ZL și variatoare mecanice seria WMF pentru reglarea continuă a turației. Compania raportează o cifră de afaceri de 152 milioane de euro în 2023 și vânzări în 88 de țări prin 21 de filiale.
 
 Pentru instalațiile din România, STM înseamnă acces la reductoare de uz general pentru banda transportoare, mixerul industrial sau linia de ambalare, acolo unde nu e nevoie de un reductor de mare putere dedicat, ci de o gamă standardizată cu multe variante constructive disponibile din fabrică.`,
     whyChoose: [
       "Gamă foarte largă de tipuri constructive — coaxiale, paralele, pendulare, ortogonale, epicicloidale și melcate — de la același producător",
       "Reductoare melcate în variante R, U, RR și CR, cu pretreaptă de angrenaje pentru rapoarte mari de reducere",
       "Variatoare mecanice seria WMF pentru reglarea continuă a turației, fără electronică suplimentară",
-      "Rețea de distribuție declarată în 88 de țări, utilă pentru continuitatea pieselor de schimb"
+      "Rețea de distribuție declarată în 88 de țări"
     ],
     keyProducts: [
       { name: "Reductoare melcate seria R/U", description: "Reductoare cu roată melcată și șurub fără sfârșit, disponibile cu corp rotund (seria R) sau pătrat (seria U), pentru aplicații unde se cere un raport mare de reducere într-un gabarit compact. Se montează tipic la capătul unui motor electric standard, pe bandă transportoare, agitator sau mecanism de ridicare cu turație joasă. Pentru ofertă, clientul trebuie să trimită turația de intrare și de ieșire dorită, cuplul necesar la arborele de ieșire și poziția de montaj." },
       { name: "Reductoare combinate seria RR/CR", description: "Reductoare melcate în două trepte (RR) sau cu pretreaptă de angrenaje cilindrice (CR), pentru rapoarte de reducere mai mari decât permite o singură treaptă melcată, păstrând un gabarit rezonabil față de un reductor cilindric echivalent. Se folosesc la utilaje unde motorul are turație mare, dar mecanismul antrenat are nevoie de turație foarte joasă și cuplu ridicat. Clientul trebuie să precizeze raportul total de reducere cerut și puterea motorului de antrenare." },
-      { name: "Variatoare mecanice seria WMF", description: "Variatoare mecanice de turație care permit reglarea continuă a vitezei de ieșire fără invertor electronic, prin ajustarea manuală sau motorizată a unui mecanism cu discuri conice. Sunt utile la linii unde viteza trebuie ajustată frecvent de operator, dar instalarea unui variator de frecvență nu e justificată economic sau tehnic. Pentru ofertă, clientul trebuie să trimită plaja de turații necesară la ieșire și puterea de antrenare." },
+      { name: "Variatoare mecanice seria WMF", description: "Variatoare mecanice de turație care permit reglarea continuă a vitezei de ieșire fără invertor electronic. Sunt utile la linii unde viteza trebuie ajustată frecvent de operator, dar instalarea unui variator de frecvență nu e justificată economic sau tehnic. Pentru ofertă, clientul trebuie să trimită plaja de turații necesară la ieșire și puterea de antrenare." },
       { name: "Motoreductoare și motoare electrice", description: "Ansambluri motor-reductor pre-asamblate din fabrică, combinând motoarele electrice STM cu oricare dintre reductoarele din gamă, plus invertoare pentru comanda turației variabile. Reduc timpul de proiectare pentru client, care primește un singur ansamblu dimensionat, nu componente separate de cuplat. Clientul trebuie să trimită puterea necesară, turația de ieșire dorită și tensiunea de alimentare disponibilă." }
     ],
     industries: [
@@ -147,7 +147,7 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
     productCodes: [
       {
         "code": "Seria R",
-        "description": "Reductor melcat rotund, cu limitator de cuplu opțional"
+        "description": "Reductor melcat rotund, prezentat împreună cu limitatoare de cuplu"
       },
       {
         "code": "Seria U",
@@ -197,11 +197,11 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
     faq: [
       {
         "q": "Ce diferență este între reductoarele STM SpA seria R și seria U?",
-        "a": "Seria R are o construcție rotundă, folosită frecvent acolo unde montajul trebuie făcut într-un spațiu cilindric sau unde se dorește un limitator de cuplu opțional. Seria U are o construcție pătrată, cu o formă a carcasei diferită, care poate influența modul de fixare pe structura echipamentului acționat. Alegerea între cele două ține în principal de configurația de montaj disponibilă și de accesoriile dorite."
+        "a": "Seria R are o construcție rotundă și este prezentată de producător împreună cu limitatoarele de cuplu. Seria U are o construcție pătrată, cu o formă a carcasei diferită, care poate influența modul de fixare pe structura echipamentului acționat. Alegerea între cele două ține în principal de configurația de montaj disponibilă și de accesoriile dorite."
       },
       {
         "q": "Livrați reductoare STM SpA în România?",
-        "a": "Da, aducem la comandă reductoare melcate din seriile R, U, RR sau CR, precum și reductoare unghiulare Z și ZL, pe baza codului complet de catalog al producătorului. Reductoarele STM SpA se aduc exclusiv la comandă, fără depozitare prealabilă din partea noastră, iar durata anunțată public variază între două și patru săptămâni. Recomandăm precizarea raportului de reducere și a poziției de montaj dorite."
+        "a": "Da, aducem la comandă reductoare melcate din seriile R, U, RR sau CR, precum și reductoare unghiulare Z și ZL, pe baza codului complet de catalog al producătorului. Reductoarele STM SpA se aduc exclusiv la comandă, fără depozitare prealabilă din partea noastră, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Recomandăm precizarea raportului de reducere și a poziției de montaj dorite."
       },
       {
         "q": "Ce date sunt necesare pentru o ofertă de reductor STM SpA?",
@@ -214,8 +214,8 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"STM SpA – Prodotti Standard","url":"https://www.stmspa.com/it/prodotti/standard-ln-3","publisher":"STM SpA","accessed":"2026-09-25"},
       { title: "STM SpA — Chi siamo", url: "https://www.stmspa.com/it/chi-siamo-pa-37", publisher: "STM SpA", accessed: "2026-09-22" },
@@ -229,14 +229,14 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
     headquarters: "Italia",
     overview: `Comer Industries este un producător italian de sisteme de transmisie a puterii și soluții mecatronice, cu activitate concentrată pe trei zone: utilaje agricole, echipamente industriale și sectorul energiei regenerabile. Compania proiectează și fabrică reductoare, prize de putere și sisteme de acționare care se integrează în utilajul final al clientului — de la tractor sau combină, până la macara sau turbină eoliană. Din gama Comer Industries putem oferta reductoare și componente de transmisie pentru utilaje agricole și industriale, în funcție de aplicația concretă a clientului.
 
-Comer Industries se compară în categoria sa cu Bonfiglioli, ambele companii producând reductoare și sisteme de transmisie pentru utilaje mobile și industriale, dar Comer și-a construit poziția în special pe partea de transmisii pentru mașini agricole, unde soluțiile trebuie să reziste la vibrații, praf și sarcini variabile pe teren. Compania raportează un rating B la Carbon Disclosure Project pentru gestionarea resurselor de apă și a impactului climatic și derulează un plan de dezvoltare durabilă cu orizont 2035, structurat pe schimbări climatice, circularitate, capital uman și guvernanță.
+Comer Industries se compară în categoria sa cu Bonfiglioli, ambele companii producând reductoare și sisteme de transmisie pentru utilaje mobile și industriale, dar Comer și-a construit poziția în special pe partea de transmisii pentru mașini agricole, unde soluțiile trebuie să reziste la vibrații, praf și sarcini variabile pe teren.
 
 Pentru piața din România, Comer Industries are sens la utilajele agricole de mare putere și la echipamentele industriale unde transmisia trebuie dimensionată pentru sarcini variabile și funcționare în condiții dure de teren, nu doar pentru un regim constant de laborator.`,
     whyChoose: [
       "Portofoliu axat pe trei sectoare distincte — agricultură, industrial și energie regenerabilă — cu soluții dedicate fiecăruia",
       "Experiență specifică în transmisii pentru utilaje mobile expuse la vibrații, praf și sarcini variabile de teren",
-      "Rating B la Carbon Disclosure Project, relevant pentru clienții cu cerințe proprii de raportare de mediu",
-      "Plan de dezvoltare durabilă cu orizont 2035, cu obiective declarate pe climă și circularitate",
+      "Documentație tehnică publicată de producător pentru arborii cardanici seria 980 și pentru punți",
+      "Arbori cardanici seria 980 (Synergy), cu cuplu static maxim de până la 39.000 Nm",
       "Poziționare directă în categoria reductoarelor și transmisiilor industriale, alături de nume ca Bonfiglioli"
     ],
     keyProducts: [
@@ -318,8 +318,8 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"PTO Drive Shafts & Clutches","url":"https://www.comerindustries.com/en/products/pto-driveshafts-clutches/","publisher":"Comer Industries","accessed":"2026-09-26"},
       {"title":"Axles","url":"https://www.comerindustries.com/en/products/axles/","publisher":"Comer Industries","accessed":"2026-09-26"},
@@ -335,11 +335,11 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
     headquarters: "Benfeld, Franța",
     overview: `Socomec este un producător francez independent de echipamente pentru rețele electrice de joasă tensiune, fondat în 1922 la Benfeld, în Alsacia, și rămas sub control familial de patru generații. Compania acoperă continuitatea alimentării prin UPS-uri și surse neîntreruptibile, comutarea și protecția rețelelor electrice, plus monitorizarea și eficiența energetică. Din gama Socomec putem oferta atât UPS-uri pentru sarcini critice, cât și echipamente de comutare și protecție pentru tablourile electrice.
 
-Socomec se poziționează pe segmentul continuității alimentării alături de Eaton, cu game precum NETYS și DMX pentru UPS-uri, inclusiv variante cu baterii litiu-ion, unde greutatea și dimensiunea unității scad semnificativ față de bateriile clasice cu plumb. Compania își descrie istoria drept „100 de ani de energie împărtășită", păstrându-și statutul de producător independent, necotat unor grupuri industriale mai mari, ceea ce clienții din piață citează adesea ca argument pentru continuitatea pe termen lung a suportului tehnic și a pieselor de schimb.
+Socomec se poziționează pe segmentul continuității alimentării alături de Eaton, cu game precum NETYS și DMX pentru UPS-uri, inclusiv variante cu baterii litiu-ion, unde greutatea și dimensiunea unității scad semnificativ față de bateriile clasice cu plumb. Compania își descrie istoria drept „100 de ani de energie împărtășită", păstrându-și statutul de producător independent, necotat unor grupuri industriale mai mari.
 
 Pentru instalațiile din România, Socomec are sens la sălile de servere, stațiile de pompare și liniile de producție unde o întrerupere de câteva secunde înseamnă pierderi de proces, nu doar disconfort — acolo unde UPS-ul trebuie dimensionat corect pe puterea reală a sarcinii critice.`,
     whyChoose: [
-      "Producător independent de patru generații, cu continuitate declarată în suportul tehnic pe termen lung",
+      "Producător independent de patru generații",
       "Game de UPS cu variante pe baterii litiu-ion, mai compacte și mai ușoare decât echivalentul cu plumb",
       "Acoperire completă a lanțului de continuitate — de la UPS la comutare și monitorizare energetică",
       "Peste un secol de activitate continuă în echipamente pentru rețele electrice de joasă tensiune",
@@ -424,11 +424,11 @@ Pentru instalațiile din România, Socomec are sens la sălile de servere, staț
     faq: [
       {
         "q": "Ce diferență este între seriile Socomec NETYS RT și NETYS RT4?",
-        "a": "NETYS RT acoperă puteri de la 1 la 10 kVA și folosește acumulatori standard cu plumb-acid, potriviți pentru servere și echipamente de rețea obișnuite. NETYS RT4 este generația mai recentă, disponibilă și în variantă compatibilă cu cabinete de baterii litiu, ceea ce reduce spațiul ocupat și greutatea instalației. Alegerea depinde de spațiul disponibil în rack și de bugetul alocat tipului de baterie dorit."
+        "a": "NETYS RT acoperă puteri de la 1 la 10 kVA și acceptă baterii cu plumb-acid sau litiu-ion, potrivite pentru servere și echipamente de rețea obișnuite. NETYS RT4 este generația mai recentă, disponibilă și în variantă compatibilă cu cabinete de baterii litiu, ceea ce reduce spațiul ocupat și greutatea instalației. Alegerea depinde de spațiul disponibil în rack și de bugetul alocat tipului de baterie dorit."
       },
       {
         "q": "Livrați UPS Socomec în România la comandă?",
-        "a": "Da, aducem la comandă UPS-uri din gamele NETYS, MODULYS și DELPHYS, pornind de la codul exact al modelului dorit. Nu ținem această gamă pe raft, iar reperul de aprovizionare menționat public de producător este de câteva săptămâni, undeva între două și șase. Este util să precizați puterea necesară în kVA și dacă instalația impune baterii litiu sau acumulatori clasici."
+        "a": "Da, aducem la comandă UPS-uri din gamele NETYS, MODULYS și DELPHYS, pornind de la codul exact al modelului dorit. Nu ținem această gamă pe raft, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Este util să precizați puterea necesară în kVA și dacă instalația impune baterii litiu sau acumulatori clasici."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un UPS Socomec DELPHYS?",
@@ -441,8 +441,8 @@ Pentru instalațiile din România, Socomec are sens la sălile de servere, staț
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Socomec – NETYS RT4 cu baterie Li-Ion","url":"https://www.socomec.ro/ro/p/ups-cu-baterie-li-ion","publisher":"Socomec","accessed":"2026-09-25"},
       {"title":"Socomec România","url":"https://www.socomec.ro/ro","publisher":"Socomec","accessed":"2026-09-25"},
@@ -454,17 +454,17 @@ Pentru instalațiile din România, Socomec are sens la sălile de servere, staț
   'eti-elektroelement': {
     name: "ETI Elektroelement",
     headquarters: "Izlake, Slovenia",
-    overview: `ETI Elektroelement este un producător sloven de echipamente electrice de joasă tensiune, cu sediul la Izlake și peste 70 de ani de activitate declarată în domeniu. Gama acoperă siguranțe automate (ASTI), separatoare și întrerupătoare compacte (ETIBREAK), întrerupătoare de aer de putere mare (ETIPOWER), descărcătoare de supratensiune (ETITEC), contactoare (ETICON) și stații de încărcare pentru vehicule electrice (ETICHARGE). Din gama ETI putem oferta componentele de protecție pentru tablourile electrice, de la siguranța automată de bază până la protecția la supratensiune.
+    overview: `ETI Elektroelement este un producător sloven de echipamente electrice de joasă tensiune, cu sediul la Izlake. Gama acoperă siguranțe automate (ASTI), separatoare și întrerupătoare compacte (ETIBREAK), întrerupătoare de aer de putere mare (ETIPOWER), descărcătoare de supratensiune (ETITEC), contactoare (ETICON) și stații de încărcare pentru vehicule electrice (ETICHARGE). Din gama ETI putem oferta componentele de protecție pentru tablourile electrice, de la siguranța automată de bază până la protecția la supratensiune.
 
-ETI se poziționează pe segmentul de protecții electrice modulare alături de Eaton, cu accent recent pe componente pentru instalațiile fotovoltaice — siguranțe și descărcătoare certificate pentru curent continuu până la 1.500V, plus siguranțe DC certificate conform standardului UL 248-21, relevante pentru instalațiile fotovoltaice cu componente destinate pieței americane. Compania are rețea locală de site-uri pentru mai multe țări din regiune, semn al unei distribuții consolidate în Europa Centrală și de Est.
+ETI se poziționează pe segmentul de protecții electrice modulare alături de Eaton, cu accent recent pe componente pentru instalațiile fotovoltaice — siguranțe și descărcătoare certificate pentru curent continuu până la 1.500V.
 
 Pentru piața din România, ETI are sens la tablourile electrice noi sau modernizate din instalațiile fotovoltaice, stațiile de stocare cu baterii și infrastructura de încărcare EV, unde protecțiile trebuie dimensionate specific pentru curent continuu de tensiune mare, nu doar pentru circuitele clasice de curent alternativ.`,
     whyChoose: [
       "Gamă completă de protecții modulare — siguranțe, întrerupătoare, descărcătoare și contactoare — de la un singur producător",
       "Siguranțe și descărcătoare certificate pentru instalații fotovoltaice de curent continuu până la 1.500V",
-      "Siguranțe DC certificate UL 248-21, relevante pentru echipamente cu componente destinate pieței nord-americane",
-      "Peste 70 de ani de activitate declarată în echipamente electrice de joasă tensiune",
-      "Rețea de distribuție locală consolidată în mai multe țări din Europa Centrală și de Est"
+      "Siguranțe speciale pentru protecția sistemelor cu baterii și a infrastructurii de e-mobilitate",
+      "Producător european de echipamente electrice de joasă tensiune, cu sediul la Izlake, Slovenia",
+      "Informații despre produse publicate și în limba română, pe site-ul local etigroup.ro"
     ],
     keyProducts: [
       { name: "Siguranțe automate seria ASTI", description: "Siguranțe automate modulare pentru protecția circuitelor de curent alternativ din tablourile de distribuție, cu curbe de declanșare pentru diverse tipuri de sarcină. Sunt componenta standard de protecție la supracurent pentru circuitele de iluminat, prize și utilaje mici dintr-o instalație electrică. Pentru ofertă, clientul trebuie să trimită curentul nominal necesar și curba de declanșare cerută de proiectul electric." },
@@ -492,7 +492,7 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
       },
       {
         "code": "ETIBREAK",
-        "description": "Familie de întrerupătoare de sarcină compacte"
+        "description": "Familie de întrerupătoare automate compacte și separatoare"
       },
       {
         "code": "ETICHARGE",
@@ -516,7 +516,7 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
       },
       {
         "code": "ETIPOWER",
-        "description": "Familie de separatoare de sarcină de mare capacitate"
+        "description": "Familie de întrerupătoare automate de aer, de mare capacitate"
       },
       {
         "code": "ETIREL",
@@ -524,7 +524,7 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
       },
       {
         "code": "ETISIG",
-        "description": "Familie de butoane de comandă și indicatoare de semnalizare"
+        "description": "Familie de siguranțe fuzibile"
       },
       {
         "code": "ETISWITCH",
@@ -542,7 +542,7 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
     faq: [
       {
         "q": "Ce reprezintă familia ETIBREAK din gama ETI?",
-        "a": "ETIBREAK este familia de întrerupătoare de sarcină compacte din portofoliul producătorului sloven ETI, folosite pentru secționarea circuitelor de joasă tensiune în tablouri electrice. Variantele diferă prin curentul nominal și numărul de poli, iar alegerea corectă depinde de puterea instalată și de spațiul disponibil în tabloul de distribuție."
+        "a": "ETIBREAK este familia de întrerupătoare automate compacte și separatoare din portofoliul producătorului sloven ETI, folosite pentru secționarea circuitelor de joasă tensiune în tablouri electrice. Variantele diferă prin curentul nominal și numărul de poli, iar alegerea corectă depinde de puterea instalată și de spațiul disponibil în tabloul de distribuție."
       },
       {
         "q": "Ce echivalent are seria ASTI de la ETI pentru protecția circuitelor?",
@@ -563,8 +563,8 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap produse ETI (eti.si)","url":"https://www.eti.si/sitemap.xml","publisher":"ETI Elektroelement","accessed":"2026-09-26"},
       { title: "ETI — despre companie", url: "https://www.eti.si", publisher: "ETI Elektroelement d.o.o.", accessed: "2026-09-22" },
@@ -575,19 +575,19 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
   'ecoflam': {
     name: "Ecoflam",
     headquarters: "Italia",
-    overview: `Ecoflam Bruciatori S.p.A. este un producător italian de arzătoare pentru combustibil lichid și gaz, integrat astăzi ca divizie de tehnologii de combustie în cadrul grupului Ariston. Compania proiectează arzătoare industriale și comerciale folosite la generatoare de căldură, cazane și instalații de proces care au nevoie de o sursă de foc controlată pentru gaz natural, GPL sau combustibil lichid. Din gama Ecoflam putem oferta arzătoare seria MAXFLAM (gaz) și OILFLAM (motorină), cu puteri raportate între 68 și 930 kW, în funcție de cazanul pe care se montează.
+    overview: `Ecoflam Bruciatori S.p.A. este un producător italian de arzătoare pentru combustibil lichid și gaz, integrat astăzi ca divizie de tehnologii de combustie în cadrul grupului Ariston. Compania proiectează arzătoare industriale și comerciale folosite la generatoare de căldură, cazane și instalații de proces care au nevoie de o sursă de foc controlată pentru gaz natural, GPL sau combustibil lichid. Din gama Ecoflam putem oferta arzătoare pe combustibil greu (seria MAXFLAM), pe combustibil lichid (seria OILFLAM) și pe gaz (seria BLU), în funcție de cazanul pe care se montează.
 
-Facem aici o corecție față de o adresă circulată public: pagina ecoflam.com.ro aparține unei firme românești de echipamente HVAC de la mai multe mărci, nu producătorului italian de arzătoare — pentru acest brand am folosit site-ul real al producătorului, ecoflam-burners.com, plus o listă de produse la un revânzător local. Ecoflam se compară în categoria arzătoarelor industriale cu alți producători europeni de profil, poziția sa fiind susținută de apartenența la un grup mare din domeniul echipamentelor termice, cu acces potențial la rețeaua tehnică a grupului Ariston.
+Ecoflam face parte din grupul Ariston, ca divizie de tehnologii de combustie.
 
-Pentru instalațiile din România, Ecoflam are sens la centralele termice industriale și comerciale unde arzătorul trebuie înlocuit sau upgradat, mai ales acolo unde instalatorul are deja experiență cu echipamente din portofoliul mai larg al grupului Ariston.`,
+Pentru instalațiile din România, Ecoflam are sens la centralele termice industriale și comerciale unde arzătorul trebuie înlocuit sau upgradat.`,
     whyChoose: [
       "Producător specializat exclusiv pe tehnologii de combustie, integrat într-un grup mare din echipamente termice (Ariston)",
-      "Game separate pentru gaz (MAXFLAM) și combustibil lichid (OILFLAM), cu puteri raportate între 68 și 930 kW",
-      "Acces potențial la rețeaua tehnică a grupului Ariston în Europa",
+      "Game separate pentru gaz (BLU), combustibil lichid (OILFLAM) și combustibil greu (MAXFLAM)",
+      "Parte a grupului Ariston, divizia de tehnologii de combustie",
       "Poziționare de nișă în arzătoare, nu în gama completă de echipamente termice, ceea ce înseamnă focus tehnic pe combustie"
     ],
     keyProducts: [
-      { name: "Arzătoare pe gaz seria MAXFLAM", description: "Arzătoare pentru gaz natural sau GPL, destinate cazanelor și generatoarelor de căldură industriale sau comerciale, cu putere raportată în intervalul 68-930 kW în funcție de model. Se aleg în funcție de puterea termică necesară a cazanului și tipul de combustibil disponibil la locul de instalare. Pentru ofertă, clientul trebuie să trimită puterea termică a cazanului (kW) și tipul exact de gaz utilizat." },
+      { name: "Arzătoare pe combustibil greu seria MAXFLAM", description: "Arzătoare pentru combustibil greu, destinate cazanelor și generatoarelor de căldură industriale; de exemplu, MAXFLAM 30 AB funcționează în două trepte, între 205 și 410 kW. Se aleg în funcție de puterea termică necesară a cazanului și tipul de combustibil disponibil la locul de instalare. Pentru ofertă, clientul trebuie să trimită puterea termică a cazanului (kW) și tipul exact de gaz utilizat." },
       { name: "Arzătoare pe combustibil lichid seria OILFLAM", description: "Arzătoare pentru motorină sau alt combustibil lichid, folosite acolo unde nu există rețea de gaz natural disponibilă la locul instalației — clădiri industriale izolate, hale sau centrale termice de rezervă. Selecția depinde de puterea termică necesară a cazanului și de tipul de duză de pulverizare potrivit combustibilului folosit. Clientul trebuie să trimită puterea termică a cazanului și tipul de combustibil lichid disponibil." },
       { name: "Arzătoare pentru instalații de proces", description: "Arzătoare dimensionate pentru cazane și generatoare de căldură folosite în procese industriale, unde continuitatea sursei de foc contează pentru menținerea temperaturii de proces, nu doar pentru încălzirea spațiului. Se aleg în funcție de tipul de combustibil disponibil pe platformă și puterea termică cerută de procesul deservit. Clientul trebuie să trimită tipul de proces industrial și puterea termică necesară." }
     ],
@@ -596,8 +596,8 @@ Pentru instalațiile din România, Ecoflam are sens la centralele termice indust
       "Clădiri comerciale — arzătoare pentru centrale termice de mare putere",
       "Instalații fără acces la gaz natural — arzătoare pe combustibil lichid"
     ],
-    infinitrade: `Pentru Ecoflam nu deținem date proprii de stoc și lucrăm strict cu ce publică producătorul pe propriul site, inclusiv corecția de mai sus privind adresa oficială reală. Arzătoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită puterea termică a cazanului pe care se montează arzătorul, tipul de combustibil (gaz sau lichid) și, dacă e posibil, modelul cazanului. Nu promitem disponibilitate permanentă din stoc pe niciun model Ecoflam și nu confirmăm compatibilitatea cu un cazan anume fără verificare punctuală.`,
-    limitation: "Nu am putut confirma din sursele accesate parametrii tehnici detaliați ai fiecărui model din seriile MAXFLAM și OILFLAM, astfel încât orice ofertă necesită verificare punctuală la producător pe baza puterii termice a cazanului clientului.",
+    infinitrade: `Pentru Ecoflam nu deținem date proprii de stoc și lucrăm strict cu ce publică producătorul pe propriul site. Arzătoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită puterea termică a cazanului pe care se montează arzătorul, tipul de combustibil (gaz sau lichid) și, dacă e posibil, modelul cazanului. Nu promitem disponibilitate permanentă din stoc pe niciun model Ecoflam și nu confirmăm compatibilitatea cu un cazan anume fără verificare punctuală.`,
+    limitation: "Parametrii tehnici detaliați ai fiecărui model din seriile MAXFLAM și OILFLAM se confirmă punctual la producător, pe baza puterii termice a cazanului clientului.",
     productCodes: [
       {
         "code": "maxflam 10",
@@ -680,8 +680,8 @@ Pentru instalațiile din România, Ecoflam are sens la centralele termice indust
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MAXFLAM 30 AB – pagină produs","url":"https://www.ecoflam-burners.com/int/en/range/heavy-oil/43/maxflam/4/heavy-oil/1922/maxflam-30-ab","publisher":"Ecoflam Bruciatori S.p.A.","accessed":"2026-09-26"},
       {"title":"BLU 1000.1 LN PAB – pagină produs","url":"https://www.ecoflam-burners.com/int/en/range/gas/40/blu/1/natural-gas/1816/blu-1000-1-ln-pab","publisher":"Ecoflam Bruciatori S.p.A.","accessed":"2026-09-26"},
@@ -788,7 +788,7 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
       },
       {
         "code": "WISURA",
-        "description": "Fluide de răcire solubile pentru prelucrarea metalelor"
+        "description": "Gamă de lubrifianți industriali FUCHS; aplicația se confirmă pe produs, din fișa tehnică"
       },
       {
         "code": "AGRIFARM",
@@ -802,7 +802,7 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
       },
       {
         "q": "Livrați lubrifianți Fuchs Lubricants în România la comandă?",
-        "a": "Da, aducem la comandă uleiuri și unsori din gamele Fuchs precum RENOLIN, RENOLIT, TITAN sau CASSIDA, pe baza denumirii exacte a produsului dorit. Nu avem raft propriu pentru această gamă, iar orientarea de aprovizionare comunicată public de producător este de aproximativ două până la patru săptămâni. Este util să precizați echipamentul deservit și fișa tehnică a produsului înlocuit."
+        "a": "Da, aducem la comandă uleiuri și unsori din gamele Fuchs precum RENOLIN, RENOLIT, TITAN sau CASSIDA, pe baza denumirii exacte a produsului dorit. Nu avem raft propriu pentru această gamă, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Este util să precizați echipamentul deservit și fișa tehnică a produsului înlocuit."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de ulei industrial Fuchs?",
@@ -815,8 +815,8 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Fuchs România – Produse","url":"https://www.fuchs.com/ro/ro/produse/","publisher":"Fuchs Lubricants","accessed":"2026-09-25"},
       { title: "FUCHS România — pagina principală", url: "https://www.fuchs.com/ro/ro/", publisher: "FUCHS", accessed: "2026-09-22" },
@@ -829,15 +829,14 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
     headquarters: "Italia",
     overview: `SEKO este un producător italian de pompe dozatoare și sisteme de tratare a apei, cu peste 45 de ani de activitate declarată în domeniu. Gama include pompe dozatoare cu solenoid, pompe peristaltice, pompe cu diafragmă motorizată, pompe cu piston și pompe cu diafragmă dublu-acționate (AODD), alături de panouri de control pentru dozare automată. Din portofoliul SEKO putem oferta pompe dozatoare pentru tratarea apei, curățare industrială și dozare chimică, în funcție de debitul și presiunea cerute de aplicație.
 
-SEKO se compară în categoria pompelor dozatoare cu ProMinent, ambele companii acoperind atât pompa singulară, cât și panoul complet de control al dozării. Seria Tekna, una dintre gamele principale, acoperă un debit între 0,4 și 110 litri pe oră, la presiuni de până la 20 bar, cu variante de cap de pompă în PVDF, inox 316L, PTFE sau ceramică, în funcție de compatibilitatea chimică cerută de soluția dozată. Compania oferă și panouri dedicate precum cele pentru tratarea apei de răcire sau pentru dozarea pH/ORP la piscine.
+Seria Tekna, una dintre gamele principale, acoperă un debit între 0,4 și 110 litri pe oră, la presiuni de până la 20 bar, cu variante de cap de pompă în PVDF, inox 316L, PTFE sau ceramică, în funcție de compatibilitatea chimică cerută de soluția dozată. Compania oferă și panouri dedicate precum cele pentru tratarea apei de răcire sau pentru dozarea pH/ORP la piscine.
 
 Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnurile de răcire industriale și piscinele comerciale, acolo unde dozarea chimică trebuie automatizată și controlată, nu făcută manual prin adaos periodic de reactiv.`,
     whyChoose: [
       "Gamă largă de tehnologii de pompare — solenoid, peristaltică, diafragmă motorizată, piston, AODD — pentru aplicații diferite",
       "Seria Tekna acoperă debite de la 0,4 la 110 l/h, la presiuni de până la 20 bar, cu mai multe materiale de cap de pompă",
       "Panouri dedicate de control pentru aplicații specifice — tratare apă de răcire, dozare pH/ORP la piscine",
-      "Peste 45 de ani de activitate declarată în pompe dozatoare și tratarea apei",
-      "Poziționare directă alături de ProMinent pe segmentul dozării chimice industriale"
+      "Peste 45 de ani de activitate declarată în pompe dozatoare și tratarea apei"
     ],
     keyProducts: [
       { name: "Pompe dozatoare seria Tekna", description: "Pompe dozatoare cu solenoid, cu debit între 0,4 și 110 litri pe oră și presiune de până la 20 bar, disponibile în variante cu cap de pompă din PVDF, inox 316L, PTFE sau ceramică pentru compatibilitate cu diverși reactivi chimici. Vin în variante de comandă analogică (dozaj constant sau proporțional) și digitală, inclusiv cu intrare directă de pH/ORP pentru dozare automată corectivă. Se folosesc la tratarea apei, curățare industrială și dozare chimică de proces. Pentru ofertă, clientul trebuie să trimită debitul necesar, presiunea de refulare și substanța chimică dozată." },
@@ -852,7 +851,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       "Spălătorii comerciale — pompe dozatoare pentru detergenți și soluții de spălare"
     ],
     infinitrade: `Pe SEKO lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pentru pompele și panourile din gamă. Pompele și panourile SEKO le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită debitul necesar, presiunea de refulare, substanța chimică dozată și, dacă are deja o pompă instalată, modelul acesteia. Nu promitem disponibilitate permanentă din stoc pe niciun model SEKO și nu confirmăm compatibilitatea chimică a unui cap de pompă fără verificare punctuală la producător.`,
-    limitation: "Nu putem confirma anul exact al fondării sau orașul sediului central din sursele accesate și nu oferim programarea de la distanță a panourilor Kontrol sau Pooldose.",
+    limitation: "Nu oferim programarea de la distanță a panourilor Kontrol sau Pooldose.",
     productCodes: [
       {
         "code": "Tekna Series",
@@ -860,23 +859,23 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "code": "Arkad J0700",
-        "description": "Pompă peristaltică din seria Arkad, debit mare"
+        "description": "Pompă pneumatică cu dublă diafragmă (AODD) din seria Arkad; debit maxim 650 l/min conform producătorului"
       },
       {
         "code": "Arkad J0400",
-        "description": "Pompă peristaltică din seria Arkad"
+        "description": "Pompă pneumatică cu dublă diafragmă (AODD) din seria Arkad"
       },
       {
         "code": "Arkad J0250",
-        "description": "Pompă peristaltică din seria Arkad"
+        "description": "Pompă pneumatică cu dublă diafragmă (AODD) din seria Arkad"
       },
       {
         "code": "Arkad J0170",
-        "description": "Pompă peristaltică din seria Arkad, debit redus"
+        "description": "Pompă pneumatică cu dublă diafragmă (AODD) din seria Arkad"
       },
       {
         "code": "Arkad J0120",
-        "description": "Pompă peristaltică din seria Arkad"
+        "description": "Pompă pneumatică cu dublă diafragmă (AODD) din seria Arkad"
       },
       {
         "code": "Arkad Damper JD400",
@@ -884,7 +883,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "code": "Waredose 20 Kompact",
-        "description": "Unitate compactă de dozare pentru tratarea apei"
+        "description": "Dozator automat compact de detergent și agent de clătire pentru mașini de spălat vase profesionale"
       },
       {
         "code": "Waredose 30 Kompact",
@@ -892,7 +891,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "code": "Spring MS1-AVS",
-        "description": "Pompă dozatoare cu motor pas cu pas din seria Spring"
+        "description": "Pompă cu diafragmă mecanică din seria Spring, cu motor electric trifazat și sistem AVS (Assisted Vacuum System) brevetat de SEKO"
       },
       {
         "code": "Proflex",
@@ -908,7 +907,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "code": "Polycendos",
-        "description": "Sistem de dozare pentru polielectroliți"
+        "description": "Sistem de dozare SEKO; destinația și datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Kontrol 42",
@@ -922,11 +921,11 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
     faq: [
       {
         "q": "Ce este seria Arkad de la SEKO și pentru ce se folosește?",
-        "a": "Seria Arkad reunește pompe peristaltice SEKO destinate dozării de reactivi chimici în tratarea apei, disponibile în mai multe trepte de debit, de la variante compacte până la modele de capacitate mare precum J0700. Alegerea modelului potrivit depinde de debitul necesar și de presiunea din instalație."
+        "a": "Seria Arkad reunește pompe pneumatice cu dublă diafragmă (AODD) SEKO, pentru dozarea și transferul lichidelor chimice, disponibile în mai multe trepte de debit; modelul J0700, de exemplu, are un debit maxim de 650 l/min conform producătorului. Alegerea modelului potrivit depinde de debitul necesar și de presiunea din instalație."
       },
       {
         "q": "Ce diferență este între Tekna Series și Waredose la SEKO?",
-        "a": "Tekna Series este o familie de pompe dozatoare cu membrană folosite pentru dozare chimică de precizie, în timp ce Waredose este o unitate compactă care integrează pompa, rezervorul și accesoriile de control într-un singur ansamblu. Waredose se recomandă atunci când spațiul de montaj este limitat, iar Tekna oferă flexibilitate mai mare de configurare."
+        "a": "Tekna Series este o familie de pompe dozatoare electromagnetice cu membrană, pentru dozare chimică (0,4–110 l/h, până la 20 bar). Waredose 20 Kompact este un dozator automat compact de detergent și agent de clătire pentru mașini de spălat vase profesionale, nu o pompă pentru tratarea apei."
       },
       {
         "q": "Ce trebuie precizat atunci când cereți o ofertă pentru echipamente SEKO?",
@@ -938,13 +937,13 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "q": "Ce rol are panoul Kontrol 42 de la SEKO?",
-        "a": "Panoul Kontrol 42 este destinat monitorizării și controlului tratamentului apei de răcire, gestionând parametri precum conductivitatea și dozarea de reactivi în circuitul de răcire industrial. Este folosit adesea împreună cu pompe din seria Tekna sau Arkad pentru a forma un sistem complet de tratare a apei."
+        "a": "Panoul Kontrol 42 este destinat monitorizării și controlului tratamentului apei de răcire, gestionând dozarea de reactivi în circuitul de răcire industrial. Parametrii măsurați și compatibilitatea cu pompele se confirmă pe cod, din documentația SEKO."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap produse SEKO","url":"https://www.seko.com/sitemap.xml","publisher":"SEKO","accessed":"2026-09-26"},
       { title: "SEKO — Tekna Series", url: "https://www.seko.com/product/view/tekna-series", publisher: "SEKO", accessed: "2026-09-22" },
@@ -957,15 +956,14 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
     headquarters: "Horjul, Slovenia",
     overview: `Metrel este un producător sloven de aparate pentru testarea și verificarea instalațiilor electrice, cu sediul la Horjul, lângă Ljubljana. Gama acoperă testere multifuncționale pentru instalații electrice, analizoare de calitate a energiei, testere PAT pentru echipamente portabile și testere dedicate echipamentelor medicale, alături de multimetre digitale, clești ampermetrici și camere termice. Din portofoliul Metrel putem oferta aparate de testare pentru electricienii autorizați și laboratoarele de verificări periodice, în funcție de tipul de instalație verificat.
 
-Metrel se compară în categoria instrumentelor de măsură și testare cu Fluke, ambele companii acoperind testarea instalațiilor electrice, dar Metrel s-a specializat mai puternic pe testerele multifuncționale dedicate verificării instalațiilor conform standardelor europene de siguranță electrică. Seria EurotestXD (model MI 3155) și EurotestXC (MI 3152) sunt testere multifuncționale pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitate, curent de defect, impedanță de buclă — iar seria EurotestEASI (MI 3107) acoperă verificările de bază la un preț de intrare mai accesibil. Produsele sunt construite pentru conformitate cu seria de standarde IEC 61557 pentru testarea instalațiilor electrice.
+Seria EurotestXD (model MI 3155) și EurotestXC (MI 3152) sunt testere multifuncționale pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitate, curent de defect, impedanță de buclă — iar seria EurotestEASI (MI 3107) acoperă verificările de bază la un preț de intrare mai accesibil. Produsele sunt construite pentru conformitate cu seria de standarde IEC 61557 pentru testarea instalațiilor electrice.
 
-Pentru piața din România, Metrel are sens la firmele de electricieni autorizați (ISCIR/ANRE) și laboratoarele de verificări periodice PRAM, unde aparatul de testare trebuie să acopere toate probele cerute de normativul de verificare a instalațiilor electrice.`,
+Pentru piața din România, Metrel are sens la firmele de electricieni autorizați ANRE și laboratoarele de verificări periodice PRAM, unde aparatul de testare trebuie să acopere toate probele cerute de normativul de verificare a instalațiilor electrice.`,
     whyChoose: [
       "Gamă completă de testere pentru instalații electrice — de la verificarea de bază la analiza calității energiei",
       "Testere multifuncționale EurotestXD/XC pentru toate probele cerute la recepția și verificarea periodică a instalațiilor",
       "Produse construite pentru conformitate cu seria de standarde IEC 61557 privind testarea instalațiilor electrice",
-      "Testere PAT dedicate pentru verificarea periodică a echipamentelor electrice portabile",
-      "Poziționare directă alături de Fluke pe segmentul instrumentelor de testare a instalațiilor electrice"
+      "Testere PAT dedicate pentru verificarea periodică a echipamentelor electrice portabile"
     ],
     keyProducts: [
       { name: "Tester multifuncțional EurotestXD (MI 3155)", description: "Tester multifuncțional de vârf al gamei pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitatea legăturii de protecție, impedanța buclei de defect, curentul de declanșare al protecțiilor diferențiale — cu memorare a rezultatelor pentru raportul de verificare. Se folosește la recepția instalațiilor noi și la verificările periodice impuse de normativele electrice. Pentru ofertă, clientul trebuie să confirme dacă are nevoie de accesorii suplimentare (sonde, adaptoare) pe lângă unitatea de bază." },
@@ -981,7 +979,7 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
       "Infrastructură de transport și e-mobilitate — testare instalații și stații de încărcare"
     ],
     infinitrade: `Pe Metrel lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe aparatele din gamă. Aducem testerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită modelul dorit sau, dacă nu îl cunoaște, tipul de verificări pe care vrea să le facă (instalații electrice, PAT, calitate a energiei) și normativul aplicabil. Nu promitem disponibilitate permanentă din stoc pe niciun model Metrel și nu oferim calibrarea sau etalonarea aparatelor deja aflate în dotarea clientului.`,
-    limitation: "Nu efectuăm noi înșine calibrarea sau etalonarea metrologică a aparatelor Metrel și nu putem confirma anul exact al fondării companiei din sursele accesate.",
+    limitation: "Nu efectuăm noi înșine calibrarea sau etalonarea metrologică a aparatelor Metrel.",
     productCodes: [
       {
         "code": "MI 3155 EurotestXD",
@@ -1047,11 +1045,11 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
     faq: [
       {
         "q": "Ce diferență este între testerele Metrel MI 3155 EurotestXD și MI 3107 EurotestEASI Touch?",
-        "a": "MI 3155 EurotestXD face parte din gama superioară, cu funcții extinse de măsurare și memorie mare pentru rapoarte complexe de verificare. MI 3107 EurotestEASI Touch adaugă un ecran tactil pentru navigare mai rapidă în meniuri, păstrând majoritatea funcțiilor de bază pentru verificarea instalațiilor electrice. Alegerea între cele două ține de complexitatea instalațiilor testate zilnic și de bugetul disponibil pentru echipament."
+        "a": "MI 3155 EurotestXD face parte din gama superioară, cu funcții extinse de măsurare; specificațiile exacte, inclusiv memoria, se confirmă pe cod, din fișa Metrel. MI 3107 EurotestEASI Touch adaugă un ecran tactil pentru navigare mai rapidă în meniuri, păstrând majoritatea funcțiilor de bază pentru verificarea instalațiilor electrice. Alegerea între cele două ține de complexitatea instalațiilor testate zilnic și de bugetul disponibil pentru echipament."
       },
       {
         "q": "Livrați aparate de măsură Metrel în România?",
-        "a": "Da, aducem la comandă tester multifuncționale, analizoare de rețea și tester PAT din portofoliul Metrel, pornind de la codul exact solicitat. Nu avem raft propriu pentru această gamă; orientarea de aprovizionare publicată de producător este de aproximativ două până la patru săptămâni. Recomandăm precizarea standardului de verificare aplicabil și a accesoriilor necesare, precum sonde sau adaptoare specifice."
+        "a": "Da, aducem la comandă tester multifuncționale, analizoare de rețea și tester PAT din portofoliul Metrel, pornind de la codul exact solicitat. Nu avem raft propriu pentru această gamă; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Recomandăm precizarea standardului de verificare aplicabil și a accesoriilor necesare, precum sonde sau adaptoare specifice."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un tester Metrel?",
@@ -1064,8 +1062,8 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Metrel – Test and Measurement Instruments","url":"https://www.metrel.si","publisher":"Metrel","accessed":"2026-09-25"},
       { title: "Metrel — pagina principală", url: "https://www.metrel.si", publisher: "Metrel d.o.o.", accessed: "2026-09-22" },
@@ -1078,14 +1076,13 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
     headquarters: "Apt, Franța",
     overview: `Delta Plus este un producător francez de echipament individual de protecție, cu sediul la Apt și peste 45 de ani de activitate declarată în domeniu. Gama acoperă protecția capului (căști, protecție auditivă, ochelari, protecție respiratorie), protecția mâinilor (mănuși pentru tăiere, termice, chimice, mecanice), protecția corpului (îmbrăcăminte de lucru, tehnică și de unică folosință), protecția picioarelor (încălțăminte de protecție) și protecția anticădere (hamuri, dispozitive de ancorare, linii de viață). Din gama Delta Plus putem oferta echipamentul individual de protecție pentru lucrătorii din construcții, industrie și energie.
 
-Delta Plus se compară în categoria echipamentului individual de protecție cu Honeywell Safety, ambele companii acoperind tot spectrul de la cască la încălțăminte de protecție. Compania completează gama de produse individuale cu sisteme complete de protecție anticădere — linii de viață orizontale și verticale, balustrade și echipament de acces — relevante la lucrul la înălțime, nu doar la echipamentul purtat de operator. Cu peste 20 de fabrici proprii și prezență declarată în peste 100 de țări, Delta Plus acoperă practic orice categorie de EIP cerută de un șantier sau o instalație industrială.
+Compania completează gama de produse individuale cu sisteme complete de protecție anticădere — linii de viață orizontale și verticale, balustrade și echipament de acces — relevante la lucrul la înălțime, nu doar la echipamentul purtat de operator. Cu 20 de unități de producție proprii și distribuție în peste 110 de țări, Delta Plus acoperă practic orice categorie de EIP cerută de un șantier sau o instalație industrială.
 
 Pentru piața din România, Delta Plus are sens la firmele de construcții, energie și industrie care au nevoie de o singură sursă pentru tot echipamentul de protecție al echipei — de la cască până la hamul de siguranță — fără să combine produse de la mai mulți furnizori mici.`,
     whyChoose: [
       "Acoperire completă a echipamentului individual de protecție — cap, mâini, corp, picioare și anticădere — de la un singur producător",
       "Sisteme complete de protecție anticădere (linii de viață, balustrade), nu doar hamuri individuale",
-      "Peste 20 de fabrici proprii la nivel global, relevant pentru continuitatea aprovizionării",
-      "Poziționare directă alături de Honeywell Safety pe segmentul EIP industrial"
+      "20 de unități de producție proprii la nivel global"
     ],
     keyProducts: [
       { name: "Protecția capului", description: "Căști de protecție industrială, protecție auditivă, ochelari de protecție și echipament de protecție respiratorie, gândite pentru combinare între ele pe același utilizator (de exemplu, cască cu vizieră și protecție auditivă integrată). Se aleg în funcție de riscurile identificate la locul de muncă — impact, zgomot, particule sau vapori. Pentru ofertă, clientul trebuie să trimită tipul de risc identificat și dacă are nevoie de accesorii combinate pe aceeași cască." },
@@ -1101,7 +1098,7 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
       "Transport și logistică — echipament de vizibilitate ridicată pentru personal"
     ],
     infinitrade: `Pe Delta Plus lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe fiecare referință de produs. Echipamentul se aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru cantități mari, verificăm punctual disponibilitatea pe mărimi la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de EIP necesar, mărimile pentru fiecare persoană și riscurile identificate la locul de muncă. Nu promitem disponibilitate permanentă din stoc pe nicio referință Delta Plus și nu facem evaluarea de risc a locului de muncă în locul clientului.`,
-    limitation: "Nu efectuăm evaluarea de risc la locul de muncă pentru alegerea EIP-ului potrivit și nu putem confirma anul exact al fondării companiei din sursele accesate.",
+    limitation: "Nu efectuăm evaluarea de risc la locul de muncă pentru alegerea EIP-ului potrivit.",
     productCodes: [
       {
         "code": "ALTILIGNE",
@@ -1155,11 +1152,11 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
     faq: [
       {
         "q": "Ce diferență este între sistemele Delta Plus VERTILIGNE și VERTIRAIL?",
-        "a": "VERTILIGNE este o linie de viață verticală flexibilă, montată de-a lungul scărilor sau structurilor fixe pentru asigurarea utilizatorului la urcare. VERTIRAIL folosește o șină rigidă în locul cablului, ceea ce oferă un ghidaj mai stabil și reduce oscilația echipamentului de ancorare pe traseele lungi. Alegerea depinde de înălțimea structurii, de frecvența de utilizare și de bugetul disponibil pentru montaj."
+        "a": "VERTILIGNE este o linie de viață verticală flexibilă, montată de-a lungul scărilor sau structurilor fixe pentru asigurarea utilizatorului la urcare. VERTIRAIL folosește o șină rigidă în locul cablului. Alegerea depinde de înălțimea structurii, de frecvența de utilizare și de bugetul disponibil pentru montaj."
       },
       {
         "q": "Livrați echipamente de protecție Delta Plus în România?",
-        "a": "Da, aducem la comandă sisteme anticădere, căști, mănuși și încălțăminte de protecție din portofoliul Delta Plus, pe baza referinței exacte solicitate. Nu ținem această gamă pe raft, iar termenul orientativ comunicat public de producător este de două până la patru săptămâni. Este util să precizați mărimea, standardul de protecție cerut și tipul de risc prezent la locul de muncă."
+        "a": "Da, aducem la comandă sisteme anticădere, căști, mănuși și încălțăminte de protecție din portofoliul Delta Plus, pe baza referinței exacte solicitate. Nu ținem această gamă pe raft; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Delta Plus). Este util să precizați mărimea, standardul de protecție cerut și tipul de risc prezent la locul de muncă."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un sistem anticădere Delta Plus?",
@@ -1167,13 +1164,13 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
       },
       {
         "q": "Ce este modelul Donna de la Delta Plus?",
-        "a": "Donna este un model de încălțăminte de protecție din gama Delta Plus, gândit special pentru conformația piciorului feminin, în clasa de protecție S3S. Oferă rezistență la impact și perforare, alături de o talpă antiderapantă potrivită pentru șantiere sau spații industriale umede. Mărimile disponibile acoperă intervalul specific liniei dedicate femeilor din portofoliul de încălțăminte al producătorului."
+        "a": "Donna este un model de încălțăminte de protecție din gama Delta Plus, gândit special pentru conformația piciorului feminin, în clasa de protecție S3S. Caracteristicile și mărimile disponibile se confirmă pe cod, din fișa tehnică Delta Plus."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Delta Plus – Homepage","url":"https://www.deltaplus.eu/en","publisher":"Delta Plus","accessed":"2026-09-25"},
       {"title":"Delta Plus – Our company","url":"https://www.deltaplus.eu/en/our-company","publisher":"Delta Plus","accessed":"2026-09-25"},
@@ -1188,7 +1185,7 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
     headquarters: "Gütersloh, Germania",
     overview: `Hermann Sewerin GmbH este un producător german de echipamente pentru detecția scurgerilor de gaz și apă, cu rădăcini într-un atelier deschis la Gütersloh în 1908 și înregistrat oficial ca firmă în 1923. Gama acoperă detectoare portabile de metan, aparate de măsură a gazelor de proces, detectoare de scurgeri de apă și echipamente pentru localizarea conductelor subterane. Din portofoliul Sewerin putem oferta echipamente de detecție pentru firmele de utilități și contractorii specializați în inspecția rețelelor de gaz și apă.
 
-Sewerin se compară în categoria detecției de gaze cu Dräger, dar rămâne concentrat pe o nișă mai îngustă — detecția scurgerilor la rețelele de gaz și apă, nu întreg spectrul de protecție respiratorie și detecție de gaze toxice. Aparatul SR-LD 800 detectează metanul de la distanță, până la 200 de metri, util pentru inspecția rapidă a unei străzi întregi fără a opri traficul, iar seria AQUAPHON (A 150, A 200) localizează scurgerile de apă prin ascultarea zgomotului de scurgere din subteran. Compania e certificată ISO 9001 și are statut de Operator Economic Autorizat (AEO) pentru operațiuni vamale simplificate.
+Sewerin este concentrat pe o nișă specializată — detecția scurgerilor la rețelele de gaz și apă. Aparatul SR-LD 800 detectează metanul de la distanță, până la 200 de metri, util pentru inspecția de la distanță a conductelor, iar seria AQUAPHON (A 150, A 200) localizează scurgerile de apă prin ascultarea zgomotului de scurgere din subteran. Compania e certificată ISO 9001 și are statut de Operator Economic Autorizat (AEO) pentru operațiuni vamale simplificate.
 
 Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și apă și la firmele de mentenanță a rețelelor subterane, unde detecția rapidă și precisă a unei scurgeri înseamnă mai puțin timp de săpătură exploratorie și mai puține întreruperi de trafic.`,
     whyChoose: [
@@ -1196,12 +1193,12 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
       "Detectorul SR-LD 800 identifică metanul de la distanță de până la 200 de metri, util pentru inspecție rapidă stradală",
       "Seria AQUAPHON localizează scurgerile de apă prin ascultarea zgomotului din subteran, fără săpătură exploratorie",
       "Certificare ISO 9001 și statut de Operator Economic Autorizat (AEO) pentru operațiuni vamale",
-      "Peste un secol de activitate continuă în detecția de scurgeri, de la atelierul din 1908"
+      "Peste un secol de activitate continuă, de la atelierul de instalatori înființat în 1908"
     ],
     keyProducts: [
       { name: "Detector de metan SR-LD 800", description: "Detector de metan cu senzor laser pentru identificarea scurgerilor de gaz de la distanță, fără contact direct cu punctul de emisie, util pentru inspecția rapidă a conductelor stradale sau a instalațiilor greu accesibile. Reduce timpul de inspecție față de metodele clasice cu senzor de proximitate, pentru că nu necesită apropierea fizică de fiecare punct suspect. Pentru ofertă, clientul trebuie să precizeze tipul de rețea inspectată (stradală, industrială) și frecvența de utilizare estimată." },
-      { name: "EX-TEC HS 680 — aparat universal de măsură a gazelor", description: "Aparat portabil pentru măsurarea concentrației de gaz în mai multe aplicații — de la verificarea etanșeității instalațiilor până la măsurarea calității biogazului — cu un singur dispozitiv configurabil pe mai multe tipuri de măsurători. Se folosește la contractorii de instalații de gaz care au nevoie de un singur aparat pentru mai multe tipuri de verificări. Clientul trebuie să precizeze tipurile de măsurători pe care le efectuează cel mai frecvent." },
-      { name: "AQUAPHON A 200 — detector de scurgeri de apă", description: "Sistem de ascultare acustică pentru localizarea scurgerilor din rețelele de apă subterane, prin analiza zgomotului produs de scurgere și corelarea cu poziția pe conductă, evitând săpăturile exploratorii pe toată lungimea rețelei. Se folosește la operatorii de rețele de apă pentru reducerea pierderilor și localizarea rapidă a avariilor. Pentru ofertă, clientul trebuie să precizeze tipul de material al conductelor și lungimea rețelei de inspectat." }
+      { name: "EX-TEC HS 680 — aparat universal de măsură a gazelor", description: "Aparat portabil pentru măsurarea concentrației de gaz în mai multe aplicații; domeniile exacte de utilizare și configurațiile se confirmă pe cod, din documentația Sewerin. Se folosește la contractorii de instalații de gaz care au nevoie de un singur aparat pentru mai multe tipuri de verificări. Clientul trebuie să precizeze tipurile de măsurători pe care le efectuează cel mai frecvent." },
+      { name: "AQUAPHON A 200 — detector de scurgeri de apă", description: "Sistem de ascultare acustică pentru localizarea scurgerilor din rețelele de apă subterane, prin ascultarea zgomotului produs de scurgere, pentru a limita săpăturile exploratorii. Se folosește la operatorii de rețele de apă pentru reducerea pierderilor și localizarea rapidă a avariilor. Pentru ofertă, clientul trebuie să precizeze tipul de material al conductelor și lungimea rețelei de inspectat." }
     ],
     industries: [
       "Distribuție de gaz natural — detecția scurgerilor pe rețele stradale și industriale",
@@ -1230,7 +1227,7 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
       },
       {
         "code": "VARIOTEC 480 EX",
-        "description": "Aparat de măsură a gazelor din gama superioară VARIOTEC"
+        "description": "Analizor de gaze din seria VARIOTEC, prezentat de producător ca variantă economică"
       },
       {
         "code": "LaserGasPatroller LGP 800",
@@ -1238,7 +1235,7 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
       },
       {
         "code": "LaserGasPatroller LGP 900",
-        "description": "Variantă a detectorului laser LaserGasPatroller cu sensibilitate suplimentară"
+        "description": "Detector laser de scurgeri de gaz din seria LaserGasPatroller, pentru inspecția rețelelor de conducte"
       },
       {
         "code": "PORTAFID M3-K",
@@ -1276,11 +1273,11 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
     faq: [
       {
         "q": "Ce diferență este între detectoarele Sewerin VARIOTEC 400 EX și VARIOTEC 480 EX?",
-        "a": "VARIOTEC 400 EX este un aparat universal de măsură a gazelor pentru aplicații curente în zone cu risc de explozie, acoperind principalele gaze întâlnite pe teren. VARIOTEC 480 EX face parte din gama superioară, cu senzori suplimentari și funcții extinse de înregistrare a datelor pentru rapoarte detaliate. Alegerea depinde de numărul de gaze de monitorizat simultan și de nivelul de documentare cerut."
+        "a": "VARIOTEC 400 EX este un aparat universal de măsură a gazelor pentru aplicații curente în zone cu risc de explozie, acoperind principalele gaze întâlnite pe teren. VARIOTEC 480 EX este prezentat de producător ca analizor de gaze economic, iar VARIOTEC 460 EX este destinat monitorizării rețelelor de conducte. Alegerea depinde de numărul de gaze de monitorizat simultan și de nivelul de documentare cerut."
       },
       {
         "q": "Livrați echipamente Sewerin de detecție a gazelor în România?",
-        "a": "Da, aducem la comandă detectoare de metan, aparate universale de gaz și instrumente de detecție a scurgerilor din gama Sewerin, pe baza codului exact dorit. Nu ținem această gamă pe raft, iar reperul de livrare comunicat public de producător este de câteva săptămâni, între două și șase. Este util să menționați tipul de gaz vizat și mediul de lucru al aplicației."
+        "a": "Da, aducem la comandă detectoare de metan, aparate universale de gaz și instrumente de detecție a scurgerilor din gama Sewerin, pe baza codului exact dorit. Nu ținem această gamă pe raft; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Sewerin). Este util să menționați tipul de gaz vizat și mediul de lucru al aplicației."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un detector de scurgeri Sewerin?",
@@ -1288,13 +1285,13 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
       },
       {
         "q": "Ce este seria AQUAPHON de la Sewerin?",
-        "a": "AQUAPHON este seria de detectoare acustice de scurgeri de apă Sewerin, folosită pentru localizarea pierderilor din rețelele de apă îngropate, fără săpături exploratorii. Modelele A 150 și A 200 diferă prin numărul de funcții și prin nivelul de filtrare a zgomotului de fond captat de microfoane. Sunt folosite frecvent de operatorii de apă pentru reducerea pierderilor din rețea."
+        "a": "AQUAPHON este seria de detectoare acustice de scurgeri de apă Sewerin, folosită pentru localizarea pierderilor din rețelele de apă îngropate, fără săpături exploratorii. Diferențele dintre modelele A 150 și A 200 se confirmă pe cod, din fișele tehnice Sewerin. Sunt folosite frecvent de operatorii de apă pentru reducerea pierderilor din rețea."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sewerin – Homepage","url":"https://www.sewerin.com","publisher":"Sewerin","accessed":"2026-09-25"},
       {"title":"Sewerin – Gas detection devices","url":"https://www.sewerin.com/en/products/gas/gas-detection-devices","publisher":"Sewerin","accessed":"2026-09-25"},
@@ -1307,20 +1304,19 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
     name: "Crowcon Detection Instruments",
     overview: `Crowcon este un producător britanic de detectoare de gaze portabile și fixe, cu peste 50 de ani de experiență declarată în domeniu și integrat de câteva decenii în grupul industrial Halma. Gama acoperă peste 200 de tipuri de gaze detectabile, de la metan și hidrogen sulfurat, până la clor, amoniac, monoxid de carbon și oxigen, fie prin detectoare monogaz portabile, fie prin sisteme fixe pentru monitorizarea continuă a unei zone. Din portofoliul Crowcon putem oferta detectoare de gaze portabile și fixe pentru instalații cu risc de scurgeri toxice sau explozive.
 
-Crowcon se compară în categoria detecției de gaze cu Dräger, ambele companii acoperind atât gama portabilă cât și cea fixă de detecție. Seria IQ, lansată recent, aduce detectoare portabile conectate, iar detectorul IR Plus folosește un senzor infraroșu stabil, cu aprobare FM, potrivit pentru monitorizarea continuă a gazelor combustibile în medii industriale dure. Compania face parte din grupul Crowcon, alături de mărcile Sensitron și Anton, ceea ce extinde acoperirea tehnologică dincolo de detectoarele electrochimice clasice.
+Seria IQ, lansată recent, aduce detectoare portabile conectate, iar detectorul IR Plus folosește un senzor infraroșu stabil, cu aprobare FM, potrivit pentru monitorizarea continuă a gazelor combustibile în medii industriale dure. Compania face parte din grupul Crowcon, alături de mărcile Sensitron și Anton, ceea ce extinde acoperirea tehnologică dincolo de detectoarele electrochimice clasice.
 
 Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaze, industria chimică și stațiile de epurare, unde monitorizarea continuă a atmosferei pentru gaze toxice sau explozive e o cerință de siguranță, nu un accesoriu opțional.`,
     whyChoose: [
       "Acoperire declarată pentru peste 200 de tipuri de gaze diferite, de la toxice la explozive",
       "Detectorul IR Plus, cu aprobare FM, folosește senzor infraroșu stabil pentru monitorizare continuă în medii dure",
       "Seria IQ aduce detectoare portabile conectate, cu transmitere de date către sistemele de monitorizare ale clientului",
-      "Peste 50 de ani de experiență declarată în detecția de gaze, integrat în grupul industrial Halma",
-      "Poziționare directă alături de Dräger pe segmentul detecției portabile și fixe de gaze"
+      "Peste 50 de ani de experiență declarată în detecția de gaze, integrat în grupul industrial Halma"
     ],
     keyProducts: [
       { name: "Detectoare portabile seria IQ", description: "Detectoare portabile de gaze conectate, capabile să transmită date către un sistem central de monitorizare, gândite pentru echipele care lucrează în zone cu risc de expunere la gaze toxice sau explozive și care au nevoie de trasabilitate a expunerii fiecărui angajat. Se folosesc tipic la intervenții în spații închise sau la ronduri periodice de verificare a atmosferei. Pentru ofertă, clientul trebuie să trimită tipurile de gaze de detectat și dacă are nevoie de conectivitate la un sistem central." },
       { name: "Detector fix IR Plus", description: "Detector fix de gaze combustibile cu senzor infraroșu stabil și aprobare FM, montat permanent în zone cu risc de acumulare de gaz combustibil, pentru monitorizare continuă și declanșarea alarmei sau a sistemului de ventilație la depășirea pragului setat. Se folosește la instalații de proces, stații de compresoare sau depozite de combustibil. Clientul trebuie să trimită tipul de gaz combustibil monitorizat și zona de instalare (interior/exterior, clasificare de zonă)." },
-      { name: "Detector portabil SMART 3G-D2", description: "Detector portabil cu capacitate de detecție a agenților frigorifici, util la instalațiile de răcire industrială și comercială unde scurgerile de agent frigorific trebuie identificate rapid pentru siguranța personalului de mentenanță. Se folosește la verificarea periodică a centralelor frigorifice și a camerelor cu echipamente de climatizare de mare capacitate. Pentru ofertă, clientul trebuie să precizeze tipul de agent frigorific utilizat în instalație." }
+      { name: "Detector fix SMART 3G-D2", description: "Detector fix de gaze, cu opțiuni de senzori pentru peste 50 de gaze toxice, inflamabile și agenți frigorifici, util la instalațiile de răcire industrială și comercială unde scurgerile de agent frigorific trebuie identificate rapid pentru siguranța personalului de mentenanță. Se folosește la verificarea periodică a centralelor frigorifice și a camerelor cu echipamente de climatizare de mare capacitate. Pentru ofertă, clientul trebuie să precizeze tipul de agent frigorific utilizat în instalație." }
     ],
     industries: [
       "Petrol și gaze — monitorizare continuă a gazelor combustibile și toxice",
@@ -1330,7 +1326,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       "Marină — monitorizare a atmosferei în spații închise la bordul navelor"
     ],
     infinitrade: `Pe Crowcon lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe detectoarele din gamă. Detectoarele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul sau tipurile de gaze de detectat, dacă are nevoie de detector portabil sau fix și clasificarea zonei de instalare (dacă e cazul, zonă cu risc de explozie). Nu promitem disponibilitate permanentă din stoc pe niciun model Crowcon și nu efectuăm noi înșine calibrarea periodică a senzorilor.`,
-    limitation: "Nu efectuăm calibrarea periodică a senzorilor Crowcon și nu putem confirma din surse publice orașul exact al sediului central sau anul precis al fondării companiei.",
+    limitation: "Nu efectuăm calibrarea periodică a senzorilor Crowcon.",
     productCodes: [
       {
         "code": "Xgard",
@@ -1374,7 +1370,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       },
       {
         "code": "Gas-Pro TK",
-        "description": "Detector portabil pentru confinarea spațiilor înguste"
+        "description": "Monitor portabil specializat pentru rezervoare (purjare, degazare, întreținere), cu senzor dublu infraroșu"
       },
       {
         "code": "Gas-Pro PID",
@@ -1386,7 +1382,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       },
       {
         "code": "Vortex FP",
-        "description": "Controler de detecție a gazelor cu funcții extinse"
+        "description": "Controler de detecție a gazelor din gama Vortex"
       },
       {
         "code": "MultiScan S2",
@@ -1394,7 +1390,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       },
       {
         "code": "MultiScan Med",
-        "description": "Controler central pentru detectoare fixe, versiune pentru instalații medii"
+        "description": "Controler pentru sisteme de detecție a gazelor din gama MultiScan; destinația exactă se confirmă din documentația Crowcon"
       },
       {
         "code": "FGard IR3",
@@ -1408,7 +1404,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
     faq: [
       {
         "q": "Ce diferență este între detectorul T4 și T4x de la Crowcon?",
-        "a": "Detectorul T4 este un aparat portabil cu patru senzori de gaz folosit pentru controlul atmosferei înainte de intrarea în spații închise, în timp ce T4x este o variantă extinsă a aceleiași platforme, cu opțiuni suplimentare de senzori și conectivitate. Alegerea între cele două depinde de gazele care trebuie monitorizate simultan."
+        "a": "Detectorul T4 este un aparat portabil cu patru senzori de gaz folosit pentru controlul atmosferei înainte de intrarea în spații închise, iar diferențele față de T4x se confirmă pe cod, din fișele tehnice Crowcon."
       },
       {
         "q": "Ce este seria Xgard de la Crowcon Detection Instruments?",
@@ -1424,13 +1420,13 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       },
       {
         "q": "Ce rol are controlerul Vortex în sistemul de detecție Crowcon?",
-        "a": "Controlerul Vortex centralizează semnalele de la mai multe detectoare fixe de gaz, precum cele din seria Xgard, și gestionează alarmele și releele de acționare din instalație. Varianta Vortex FP adaugă funcții suplimentare de configurare, fiind utilă în instalații industriale cu un număr mare de puncte de detecție."
+        "a": "Controlerul Vortex centralizează semnalele de la mai multe detectoare fixe de gaz, precum cele din seria Xgard, și gestionează alarmele și releele de acționare din instalație. Diferențele dintre Vortex și Vortex FP se confirmă pe cod, din documentația Crowcon."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sitemap produse Crowcon (products-sitemap.xml)","url":"https://www.crowcon.com/products-sitemap.xml","publisher":"Crowcon Detection Instruments","accessed":"2026-09-26"},
       { title: "Crowcon — pagina principală", url: "https://www.crowcon.com", publisher: "Crowcon Detection Instruments Ltd", accessed: "2026-09-22" },

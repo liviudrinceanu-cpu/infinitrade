@@ -7,14 +7,14 @@ export const brandContentBatch42 = {
     headquarters: "Wuppertal, Germania",
     overview: `Schmersal e un producător german de componente de siguranță pentru mașini, înființat imediat după cel de-al Doilea Război Mondial de frații Schmersal la Wuppertal, unde grupul are și astăzi sediul. Gama acoperă întrerupătoare de siguranță și blocări cu solenoid pentru uși și apărători mobile, senzori de siguranță fără contact, bariere și perdele de lumină optoelectronice, plus module de monitorizare și controlere de siguranță pentru integrarea în automatizarea liniei. Pentru România putem oferta atât componentele individuale, cât și seturi complete de protecție pentru o celulă sau o linie.
 
-Ce diferențiază Schmersal de un concurent precum Pilz e portofoliul dedus din electromecanică pură — compania a pornit din producția de componente pentru ascensoare și a păstrat acest ADN în construcția robustă a întrerupătoarelor mecanice de poziție, pe lângă gama electronică modernă. Familia de dispozitive certificate ATEX conform directivei 2014/34/UE acoperă zone cu risc de explozie, iar controlerele BDF și gateway-urile SD conectează siguranța clasică (relee) cu rețele de câmp și cu protocolul IO-Link Safety, util acolo unde vrei diagnosticare la nivel de senzor fără cablaj suplimentar.
+Compania a pornit din producția de componente pentru ascensoare și, din 1947, de dispozitive mecanice de comutare, iar gama actuală cuprinde atât întrerupătoare mecanice, cât și produse electronice. Familia de dispozitive certificate ATEX conform directivei 2014/34/UE acoperă zone cu risc de explozie, iar panourile de comandă BDF20 și gateway-urile SD sunt produse din gama Schmersal pentru integrarea dispozitivelor de siguranță în automatizarea liniei; compatibilitatea cu protocolul rețelei de câmp se confirmă pe cod, din documentația producătorului.
 
 Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite înlocuirea întrerupătoarelor de siguranță uzate cu variante compatibile mecanic, dar cu funcții suplimentare de monitorizare — util la actualizarea unei celule robotizate sau a unei linii de ambalare fără să rescrii toată arhitectura de siguranță.`,
     whyChoose: [
       "Gamă completă de siguranță funcțională — de la întrerupătorul mecanic simplu până la controlerul programabil de siguranță",
       "Dispozitive certificate ATEX 2014/34/UE pentru zone cu atmosferă explozivă din industria chimică sau a prafului combustibil",
-      "IO-Link Safety pe noile generații de senzori, pentru diagnosticare de la distanță fără cablaj analogic suplimentar",
-      "Construcție electromecanică robustă moștenită din producția originală de componente pentru ascensoare",
+      "IO-Link Safety, listat de producător printre noutățile gamei",
+      "Origini în producția de componente pentru ascensoare și de dispozitive mecanice de comutare",
       "Rețea de producție pe mai multe continente (Brazilia, China, India, SUA), utilă pentru continuitatea aprovizionării cu piese de schimb"
     ],
     keyProducts: [
@@ -33,32 +33,32 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
       "Energie regenerabilă — protecție la nacele de turbine eoliene"
     ],
     certifications: ["ATEX 2014/34/UE — pentru gama de dispozitive certificate în zone cu risc de explozie"],
-    infinitrade: `Aducem componente Schmersal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu depăstrăm stoc propriu pentru gama Schmersal și nu promitem disponibilitate permanentă. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l cunoașteți, de tipul de apărător și nivelul de performanță de siguranță cerut de analiza de risc. Datele tehnice provin din surse publice ale producătorului.`,
+    infinitrade: `Aducem componente Schmersal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu păstrăm stoc propriu pentru gama Schmersal și nu promitem disponibilitate permanentă. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau, dacă nu-l cunoașteți, de tipul de apărător și nivelul de performanță de siguranță cerut de analiza de risc. Datele tehnice provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma disponibilitatea unei piese anume fără verificare punctuală la furnizor și nu oferim servicii de programare a controlerelor de siguranță software-configurabile.",
     productCodes: [
       {
         "code": "AZ215",
-        "description": "Întrerupător de siguranță cu acționare separată, carcasă compactă"
+        "description": "Întrerupător de siguranță din gama AZ; varianta constructivă se confirmă pe cod"
       },
       {
         "code": "AZ216",
-        "description": "Variantă a seriei AZ215 cu funcție suplimentară de blocare"
+        "description": "Întrerupător de siguranță din gama AZ; varianta constructivă se confirmă pe cod"
       },
       {
         "code": "AZ315",
-        "description": "Întrerupător de siguranță cu acționare laterală, carcasă din policarbonat"
+        "description": "Întrerupător de siguranță din gama AZ; varianta constructivă se confirmă pe cod"
       },
       {
         "code": "AZ316",
-        "description": "Variantă a seriei AZ315 cu contacte suplimentare de semnalizare"
+        "description": "Întrerupător de siguranță din gama AZ; varianta constructivă se confirmă pe cod"
       },
       {
         "code": "AZM150",
-        "description": "Blocare de siguranță cu solenoid și forță de reținere ridicată"
+        "description": "produs din gama AZM; descrierea se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "BNS",
-        "description": "Întrerupător de siguranță cu acționare separată, gamă compactă și robustă"
+        "description": "produs din gama BNS; descrierea se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "SLC440COM",
@@ -90,17 +90,17 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
       },
       {
         "code": "DHS",
-        "description": "Sistem de mâner pentru uși cu funcție integrată de blocare"
+        "description": "Sistem de mâner pentru uși (Door Handle System DHS)"
       },
       {
         "code": "AM-T100",
-        "description": "Cameră cu tehnologie time-of-flight pentru monitorizarea zonelor de siguranță"
+        "description": "Cameră cu tehnologie time-of-flight (ToF) pentru automatizări"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între întrerupătoarele Schmersal seria AZ215 și AZ315?",
-        "a": "AZ215 folosește o cheie de acționare separată, potrivită pentru uși culisante sau detașabile, în timp ce AZ315 are o construcție cu acționare laterală și carcasă din policarbonat, adaptată mediilor cu praf sau umiditate. Ambele fac parte din familia de întrerupătoare de siguranță fără contact fizic direct între cheie și mecanismul de blocare. Alegerea depinde de tipul ușii de protecție, de direcția de acționare disponibilă și de cerințele de nivel de performanță al funcției de siguranță."
+        "a": "AZ215 și AZ315 sunt întrerupătoare de siguranță din gama AZ a producătorului; diferențele constructive (carcasă, direcție de acționare, contacte) se confirmă din fișa tehnică Schmersal pentru codul solicitat. Alegerea depinde de tipul ușii de protecție, de direcția de acționare disponibilă și de cerințele de nivel de performanță al funcției de siguranță."
       },
       {
         "q": "Cum aleg un gateway SD potrivit pentru un sistem Schmersal?",
@@ -108,7 +108,7 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
       },
       {
         "q": "Livrați echipamente de siguranță Schmersal în România?",
-        "a": "Da, aducem la comandă întrerupătoare, blocări cu solenoid și perdele optice din portofoliul Schmersal, pornind de la codul exact al produsului. Nu ținem această gamă pe raft, iar termenul obișnuit este de două până la patru săptămâni, în funcție de disponibilitatea publicată de producător. Recomandăm transmiterea codului complet și, dacă este posibil, o poză cu eticheta echipamentului existent pentru identificare corectă."
+        "a": "Da, aducem la comandă întrerupătoare, blocări cu solenoid și perdele optice din portofoliul Schmersal, pornind de la codul exact al produsului. Nu ținem această gamă pe raft, iar termenul obișnuit este de 1–4 săptămâni de la comandă. Recomandăm transmiterea codului complet și, dacă este posibil, o poză cu eticheta echipamentului existent pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un întrerupător de siguranță?",
@@ -117,8 +117,8 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Schmersal – Products","url":"https://www.schmersal.com/en/products/","publisher":"Schmersal","accessed":"2026-09-25"},
       { title: "Schmersal — pagina principală (EN)", url: "https://www.schmersal.com/en/", publisher: "K.A. Schmersal GmbH & Co. KG", accessed: "2026-09-22" },
@@ -129,20 +129,20 @@ Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite
   'wittenstein-alpha': {
     name: "Wittenstein alpha",
     headquarters: "Igersheim, Germania",
-    overview: `Wittenstein alpha e divizia de reductoare planetare de precizie a grupului german Wittenstein, cu sediul central la Igersheim. Gama de reductoare servo acoperă construcții fără joc unghiular, coaxiale, în unghi drept, melcate și cu ax gol, pentru transmiterea mișcării de la un servomotor la o axă mecanică fără pierderi de precizie la inversarea sensului. Pentru clienții din România care lucrează cu servoacționări putem oferta atât reductorul singur, cât și ansamblul motor-reductor din gama grupului.
+    overview: `Wittenstein alpha e divizia de reductoare planetare de precizie a grupului german Wittenstein, cu sediul central la Igersheim. Gama de reductoare servo acoperă construcții fără joc unghiular, coaxiale și în unghi drept, pentru transmiterea mișcării de la un servomotor la o axă mecanică fără pierderi de precizie la inversarea sensului. Pentru clienții din România care lucrează cu servoacționări putem oferta atât reductorul singur, cât și ansamblul motor-reductor din gama grupului.
 
-Ce diferențiază familia alpha e plaja de cupluri și de joc unghiular acoperită de fiecare linie: seria Galaxie G, fără joc unghiular deloc, ajunge la cupluri de 350-6000 Nm pe rapoarte de transmisie 24-301; seria TP+ acoperă rapoarte de la 4 la peste 300 și cupluri între 43 și 22000 Nm, cu joc de maximum 1-3 minute de arc; seriile mai compacte NP și CP țin cupluri de 17-800 Nm, iar seriile RP+ și XP+ acoperă segmentul de cupluri mari, respectiv mediu, cu precizie ridicată. Concurentul direct pe acest segment e italianul Bonfiglioli, cu care Wittenstein alpha se compară la nivel de precizie a poziționării.
+Ce diferențiază familia alpha e plaja de cupluri și de joc unghiular acoperită de fiecare linie: seria Galaxie G, fără joc unghiular deloc, ajunge la cupluri de 350-6000 Nm pe rapoarte de transmisie 24-301; seria TP+ acoperă rapoarte de la 4 la peste 300 și cupluri între 43 și 22000 Nm, cu joc de maximum 1-3 minute de arc; seriile mai compacte NP și CP țin cupluri de 17-800 Nm, iar seriile RP+ și XP+ acoperă segmentul de cupluri mari, respectiv mediu, cu precizie ridicată.
 
 Pentru România, un detaliu contează în plus: grupul Wittenstein are propria fabrică la Șura Mică, lângă Sibiu, deschisă în 2008, unde se produc piese și ansambluri mecanice pentru reductoarele planetare ale grupului — deci nu vorbim doar de un producător la distanță, ci de un jucător cu producție locală de componente.`,
     whyChoose: [
       "Seria Galaxie G elimină complet jocul unghiular, utilă la axe de poziționare unde repetabilitatea contează mai mult decât viteza",
       "Plajă largă de cupluri, de la 17 Nm (seria CP) până la peste 22000 Nm (seria TP+), fără schimbarea principiului constructiv",
-      "Construcții coaxiale, în unghi drept, melcate sau cu ax gol, alese după spațiul de montaj disponibil pe mașină",
+      "Construcții coaxiale și în unghi drept, alese după spațiul de montaj disponibil pe mașină",
       "Producție locală de componente mecanice la fabrica Wittenstein din Șura Mică, lângă Sibiu, din 2008",
-      "Gamă compatibilă cu majoritatea servomotoarelor de pe piață, prin flanșe și adaptoare standardizate"
+      "Interfața mecanică cu servomotorul se confirmă pe cod, din documentația producătorului"
     ],
     keyProducts: [
-      { name: "Reductor planetar fără joc Galaxie G", description: "Reductor planetar la care jocul unghiular este eliminat printr-o construcție specială a angrenajului, nu doar redus la o valoare mică. Rapoarte de transmisie între 24 și 301, cupluri maxime între 350 și 6000 Nm, potrivit pentru axe de poziționare de mare precizie unde repetabilitatea la inversarea sensului de rotație e critică. Clientul trebuie să ne spună cuplul cerut de aplicație și raportul de transmisie dorit."},
+      { name: "Reductor fără joc Galaxie G", description: "Reductor planetar la care jocul unghiular este eliminat printr-o construcție specială a angrenajului, nu doar redus la o valoare mică. Rapoarte de transmisie între 24 și 301, cupluri maxime între 350 și 6000 Nm, potrivit pentru axe de poziționare de mare precizie unde repetabilitatea la inversarea sensului de rotație e critică. Clientul trebuie să ne spună cuplul cerut de aplicație și raportul de transmisie dorit."},
       { name: "Reductor planetar coaxial seria TP+", description: "Reductor coaxial cu joc unghiular redus, între 1 și 3 minute de arc, cu rapoarte de transmisie de la 4 la peste 300 și cupluri maxime între 43 și 22000 Nm — gama cu cea mai largă acoperire de cuplu din portofoliu, folosită pe axe mari de servoacționare din roboți industriali sau echipamente de manipulare."},
       { name: "Reductor planetar în unghi drept seria RP+", description: "Reductor cu axul de ieșire perpendicular pe cel de intrare, cu rapoarte de transmisie 4-220 și cupluri maxime între 352 și 10450 Nm, joc unghiular de maximum 1-3 minute de arc. Util acolo unde spațiul de montaj impune schimbarea direcției de transmisie, ca la unele axe de manipulatoare sau mese rotative."},
       { name: "Reductor planetar compact seria NP/CP", description: "Reductoare compacte, cu rapoarte de transmisie 3-100 și cupluri maxime între 17 și 800 Nm, cu joc unghiular de până la 8, respectiv 12 minute de arc, suficient pentru axe secundare unde costul contează mai mult decât precizia extremă."}
@@ -156,24 +156,24 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       "Tehnologie medicală — echipamente cu cerințe stricte de repetabilitate",
       "Producția de baterii — linii de asamblare automatizate"
     ],
-    infinitrade: `Nu păstrăm stoc propriu de reductoare pentru gama Wittenstein alpha — vă aducem produsul prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Avem nevoie de cuplul aplicației, raportul de transmisie dorit și orientarea axelor pentru o ofertă corectă. Informațiile tehnice provin din surse publice ale producătorului, verificate în această sesiune.`,
+    infinitrade: `Nu păstrăm stoc propriu de reductoare pentru gama Wittenstein alpha — vă aducem produsul prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Avem nevoie de cuplul aplicației, raportul de transmisie dorit și orientarea axelor pentru o ofertă corectă. Informațiile tehnice provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma disponibilitate permanentă din stoc pentru o mărime anume de reductor și nu oferim service în perioada de garanție a producătorului pentru unitățile deja montate de alt furnizor.",
     productCodes: [
       {
         "code": "RP+",
-        "description": "Reductor planetar cu flanșă de ieșire, pentru forțe axiale și radiale mari"
+        "description": "Reductor planetar în unghi drept, cupluri 352–10450 Nm"
       },
       {
         "code": "XP+",
-        "description": "Reductor planetar cu densitate mare de putere pentru spații compacte"
+        "description": "Reductor planetar coaxial, cupluri 50–3840 Nm"
       },
       {
         "code": "TP+",
-        "description": "Reductor planetar compact cu rigiditate torsională ridicată și flanșă de ieșire"
+        "description": "Reductor planetar coaxial, cupluri 43–22000 Nm"
       },
       {
         "code": "SP+",
-        "description": "Reductor planetar pentru precizie mare de poziționare și dinamică ridicată"
+        "description": "Reductor planetar coaxial, cupluri 48–5700 Nm"
       },
       {
         "code": "NP",
@@ -181,27 +181,27 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       },
       {
         "code": "NTP",
-        "description": "Variantă a seriei economice NP cu opțiuni speciale de fixare"
+        "description": "Reductor planetar coaxial, cupluri 56–800 Nm"
       },
       {
         "code": "NPR",
-        "description": "Variantă unghiulară din familia economică de reductoare planetare NP"
+        "description": "Reductor planetar coaxial, cupluri 51–800 Nm"
       },
       {
         "code": "NPS",
-        "description": "Variantă cu ax de ieșire din familia economică de reductoare NP"
+        "description": "Reductor planetar coaxial, cupluri 51–800 Nm"
       },
       {
         "code": "NPL",
-        "description": "Variantă cu flanșă prelungită din familia economică de reductoare NP"
+        "description": "Reductor planetar coaxial, cupluri 51–800 Nm"
       },
       {
         "code": "NPT",
-        "description": "Variantă cu ax filetat din familia economică de reductoare NP"
+        "description": "Reductor planetar coaxial, cupluri 18–700 Nm"
       },
       {
         "code": "Galaxie G",
-        "description": "Reductor planetar fără joc, pentru productivitate și calitate ridicată a procesului"
+        "description": "Reductor fără joc unghiular (0 minute de arc)"
       },
       {
         "code": "CP",
@@ -211,7 +211,7 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
     faq: [
       {
         "q": "Ce diferență este între reductoarele Wittenstein alpha TP+ și SP+?",
-        "a": "TP+ pune accent pe rigiditate torsională ridicată și cuplu mare la ieșire, potrivit pentru axe care preiau sarcini variabile. SP+ este optimizat pentru precizie de poziționare și dinamică ridicată, folosit acolo unde repetabilitatea mișcării contează mai mult decât cuplul maxim. Alegerea între cele două ține de aplicație: manipulare grea versus mișcare rapidă și repetitivă cu toleranțe strânse la sarcini axiale și radiale."
+        "a": "TP+ acoperă cupluri de 43–22000 Nm și rapoarte 4–302,5, iar SP+ cupluri de 48–5700 Nm și rapoarte 3–100, ambele coaxiale, cu joc unghiular de până la 1–3, respectiv 1–4 minute de arc. Alegerea între cele două ține de cuplul, raportul și jocul unghiular cerute de aplicație."
       },
       {
         "q": "Cum aleg reductorul planetar Wittenstein alpha potrivit pentru un servomotor?",
@@ -219,17 +219,17 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       },
       {
         "q": "Livrați reductoare Wittenstein alpha în România?",
-        "a": "Da, aducem la comandă reductoare planetare din gamele RP+, TP+, SP+, NP sau Galaxie G, în funcție de codul exact solicitat. Nu avem raft propriu pentru această gamă, iar orientarea de livrare publicată de producător este de aproximativ două până la patru săptămâni. Este utilă transmiterea desenului de interfață mecanică sau a codului complet de pe reductorul existent."
+        "a": "Da, aducem la comandă reductoare planetare din gamele RP+, TP+, SP+, NP sau Galaxie G, în funcție de codul exact solicitat. Nu avem raft propriu pentru această gamă, iar termenul obișnuit este de 1–4 săptămâni de la comandă (Wittenstein Alpha). Este utilă transmiterea desenului de interfață mecanică sau a codului complet de pe reductorul existent."
       },
       {
         "q": "Ce este tehnologia Galaxie G de la Wittenstein alpha?",
-        "a": "Galaxie G este o construcție planetară fără joc unghiular, bazată pe un principiu constructiv diferit de reductoarele planetare clasice cu roți dințate în cascadă. Este destinată aplicațiilor unde precizia de poziționare și repetabilitatea mișcării trebuie menținute constant, chiar la sarcini axiale ridicate. Gama acoperă rapoarte de transmisie și cupluri publicate de producător pentru diverse dimensiuni de servomotoare."
+        "a": "Galaxie G este un reductor fără joc unghiular (0 minute de arc), cu cupluri de 350–6000 Nm și rapoarte de transmisie 24–301, conform paginii producătorului. Este destinată aplicațiilor unde precizia de poziționare și repetabilitatea mișcării trebuie menținute constant. Gama acoperă rapoarte de transmisie și cupluri publicate de producător pentru diverse dimensiuni de servomotoare."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"WITTENSTEIN alpha – Servo Gearboxes","url":"https://www.wittenstein-group.com/en-us/products/servo-gearboxes/","publisher":"Wittenstein","accessed":"2026-09-25"},
       { title: "Wittenstein group — prezentare produse (SUA/global)", url: "https://www.wittenstein-group.com/en-us/products/servo-gearboxes/", publisher: "WITTENSTEIN SE", accessed: "2026-09-22" },
@@ -239,25 +239,25 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
 
   nachi: {
     name: "NACHI",
-    founded: 1939,
+    founded: 1928,
     headquarters: "Krefeld, Germania",
-    overview: `NACHI produce rulmenți radiali și axiali de precizie și este parte a grupului japonez Nachi-Fujikoshi; sediul pentru piața europeană, NACHI Europe GmbH, funcționează din 1939 la Krefeld, Germania. Gama acoperă rulmenți radiali cu bile (canal adânc, contact unghiular, contact unghiular dublu, autoaliniere), rulmenți radiali cu role (cilindrici, conici, sferici, tip sheave), rulmenți axiali cu bile și cu role, plus accesorii precum carcase tip plummer block, manșoane adaptoare și inele de fixare. Pentru România putem oferta atât rulmentul individual, cât și seturi de accesorii de montaj.
+    overview: `NACHI produce rulmenți radiali și axiali de precizie și este parte a grupului japonez Nachi-Fujikoshi; sediul pentru piața europeană, NACHI Europe GmbH, se află la Krefeld, Germania. Gama acoperă rulmenți radiali cu bile (canal adânc, contact unghiular, contact unghiular dublu, autoaliniere), rulmenți radiali cu role (cilindrici, conici, sferici, tip sheave), rulmenți axiali cu bile și cu role, plus accesorii precum carcase tip plummer block, manșoane adaptoare și inele de fixare. Pentru România putem oferta atât rulmentul individual, cât și seturi de accesorii de montaj.
 
-Diferența față de un concurent precum SKF vine din segmentul de sarcini foarte mari: seria EXQ-V de rulmenți sferici cu role e promovată de producător cu o capacitate de sarcină deosebit de ridicată în categoria sa, gândită pentru aplicații cu solicitări extreme, cum sunt echipamentele de construcții grele sau utilajele miniere. NACHI a dezvoltat și rulmenți pentru trenul de mare viteză Shinkansen, iar unități ale companiei au echipat roverul marțian al NASA în 2004 — un indiciu al toleranțelor foarte strânse cerute clienților din acest segment.
+Seria EXQ-V de rulmenți sferici cu role este destinată de producător aplicațiilor cu vibrații, având colivie cu rezistență sporită și rezistență îmbunătățită la coroziune.
 
 Pentru fabricile din România cu echipamente rotative solicitate — reductoare, cutii de viteze, mașini de construcții — gama NACHI se potrivește ca alternativă sau completare la mărcile europene deja folosite, mai ales acolo unde sarcina radială sau axială depășește ce acoperă confortabil un rulment standard.`,
     whyChoose: [
-      "Seria EXQ-V de rulmenți sferici cu role oferă o capacitate de sarcină ridicată pentru echipamente de construcții și minerit greu solicitate",
+      "Seria EXQ-V de rulmenți sferici cu role este destinată aplicațiilor cu vibrații, cu colivie cu rezistență sporită și rezistență îmbunătățită la coroziune",
       "Gamă completă de rulmenți radiali și axiali, cu bile și cu role, pentru majoritatea tipurilor de arbori rotativi industriali",
-      "Experiență dovedită în aplicații cu toleranțe strânse — de la trenuri de mare viteză la echipamente aerospațiale",
+      "Rulmenți radiali și axiali din catalogul producătorului, pentru diverse aplicații industriale",
       "Accesorii de montaj incluse în gamă (carcase, manșoane, inele de fixare), utile pentru instalare fără piese suplimentare de la alt furnizor",
       "Parte a grupului japonez Nachi-Fujikoshi, cu prezență de producție și distribuție pe mai multe continente"
     ],
     keyProducts: [
       { name: "Rulmenți radiali cu bile (canal adânc și contact unghiular)", description: "Rulmenți standard pentru sarcini radiale și axiale moderate, disponibili în variante cu canal adânc, contact unghiular simplu sau dublu, contact unghiular de mare viteză și autoaliniere. Se folosesc pe motoare electrice, pompe, ventilatoare și reductoare unde arborele se rotește la viteze medii-mari. Clientul trebuie să ne spună diametrul interior, exterior și lățimea rulmentului, sau codul complet dacă îl cunoaște."},
       { name: "Rulmenți radiali cu role cilindrice și conice", description: "Rulmenți cu role pentru sarcini radiale mai mari decât cele acoperite de rulmenții cu bile, disponibili în variante cilindrice, conice și sferice. Rulmenții conici preiau și sarcini axiale moderate, fiind tipici pe arbori de cutii de viteze și osii. Aplicație tipică: reductoare industriale și utilaje de construcții, unde sarcina radială e ridicată și viteza moderată."},
-      { name: "Rulmenți sferici cu role seria EXQ-V", description: "Rulmenți sferici cu role dezvoltați pentru sarcini radiale foarte mari și posibilă dezaliniere a arborelui, cu o capacitate de sarcină descrisă de producător drept cea mai ridicată din categorie. Folosiți pe echipamente de construcții grele, macarale și utilaje miniere unde sarcina și vibrațiile sunt considerabile. Clientul trebuie să indice sarcina radială și axială estimată și diametrul arborelui."},
-      { name: "Rulmenți axiali cu bile pentru șuruburi cu bile (TAB/TAF/TAU)", description: "Rulmenți axiali dedicați susținerii capetelor de șurub cu bile din axele de poziționare ale mașinilor-unelte, în variantele constructive TAB, TAF și TAU, cu rigiditate axială ridicată pentru precizie de poziționare. Aplicație tipică: centre de prelucrare CNC și mașini de rectificat. Clientul trebuie să precizeze diametrul șurubului cu bile și sarcina axială preconizată."}
+      { name: "Rulmenți sferici cu role seria EXQ-V", description: "Rulmenți sferici cu role dezvoltați de producător pentru aplicații cu vibrații, cu colivie cu rezistență sporită și rezistență îmbunătățită la coroziune. Clientul trebuie să indice sarcina radială și axială estimată și diametrul arborelui."},
+      { name: "Rulmenți axiali cu bile pentru șuruburi cu bile", description: "Rulmenți axiali dedicați susținerii capetelor de șurub cu bile din axele de poziționare ale mașinilor-unelte, conform catalogului producătorului; varianta constructivă exactă se confirmă pe cod. Aplicație tipică: centre de prelucrare CNC și mașini de rectificat. Clientul trebuie să precizeze diametrul șurubului cu bile și sarcina axială preconizată."}
     ],
     industries: [
       "Construcții de utilaje grele — excavatoare și macarale",
@@ -267,7 +267,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
       "Mașini-unelte — susținerea axelor de poziționare cu șurub cu bile",
       "Climatizare industrială — rulmenți pentru compresoare și ventilatoare"
     ],
-    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu depăstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate în această sesiune de lucru; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
+    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu păstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate pe site-ul producătorului; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
     limitation: "Nu putem confirma echivalența exactă cu un cod concurent fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru mărimile mai puțin uzuale din gamă.",
     productCodes: [
       {
@@ -304,7 +304,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
       },
       {
         "code": "EXQ-Series",
-        "description": "rulmenți sferici cu role, gama standard NACHI"
+        "description": "rulmenți sferici cu role, serie NACHI"
       },
       {
         "code": "EXQ-V-Series",
@@ -322,7 +322,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
     faq: [
       {
         "q": "Ce diferență este între seria EXQ și EXQ-V la rulmenții NACHI?",
-        "a": "Seria EXQ este gama standard de rulmenți sferici cu role NACHI, potrivită pentru aplicații industriale obișnuite, în timp ce EXQ-V este dezvoltată special pentru echipamente supuse vibrațiilor, cu o colivie mai rezistentă și protecție suplimentară la coroziune. Alegerea EXQ-V se justifică la site vibrante, mori sau echipamente de concasare, unde solicitările sunt mai severe decât în funcționarea normală."
+        "a": "Seria EXQ este o serie distinctă de rulmenți sferici cu role NACHI, cu broșură proprie, în timp ce EXQ-V este dezvoltată special pentru echipamente supuse vibrațiilor, cu o colivie mai rezistentă și protecție suplimentară la coroziune. Alegerea EXQ-V se justifică la site vibrante, mori sau echipamente de concasare, unde solicitările sunt mai severe decât în funcționarea normală."
       },
       {
         "q": "Ce sunt rulmenții cu contact unghiular de la NACHI?",
@@ -339,8 +339,8 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Sitemap produse","url":"https://www.nachi-bearings.de/sitemap.xml","publisher":"NACHI Europe","accessed":"2026-09-26"},
       {"title":"Spherical Roller Bearings","url":"https://www.nachi-bearings.de/radial-bearings/radial-roller-bearings/spherical-roller-bearings.html","publisher":"NACHI Europe","accessed":"2026-09-26"},
@@ -475,15 +475,15 @@ Pentru fabricile din România cu automatizare industrială — PLC-uri, SCADA, l
     headquarters: "Chicago, Illinois, SUA",
     overview: `Littelfuse e un producător american de componente de protecție a circuitelor electrice, fondat în 1927 și cu sediul actual la Chicago, Illinois, după ce a funcționat multă vreme din Des Plaines. Gama de protecție la supracurent include siguranțe fuzibile, diode de suprimare a tensiunii tranzitorii, tuburi de descărcare în gaz, comutatoare electronice, solenoizi și dispozitive de gestionare a bateriilor, alături de relee cu stare solidă și relee de protecție. Pentru piața din România putem oferta siguranțe și componente de protecție din aceste categorii, folosite atât în electronica industrială, cât și în automotive.
 
-Compania activează pe trei segmente — Electronics, Industrial și Automotive — și concurează pe segmentul de protecție la supracurent cu branduri precum Mersen, mai ales pe siguranțele pentru curenți și tensiuni mari din instalații industriale. Un reper istoric al companiei e brandul AutoFuse, introdus în 1976 ca prima siguranță cu lamă pentru automobile, un standard care a rămas de referință în industria auto. Astăzi grupul are peste 16.000 de angajați și peste 40 de facilități de vânzări, distribuție, producție și inginerie în America, Europa și Asia.
+Compania activează pe trei segmente: Electronics, Industrial și Automotive. Un reper istoric al companiei e brandul AutoFuse, introdus în 1976 ca prima siguranță cu lamă pentru automobile. Astăzi grupul are aproximativ 16.000 de angajați (2024) și peste 40 de facilități de vânzări, distribuție, producție și inginerie în America, Europa și Asia.
 
 Pentru instalațiile industriale din România, gama de siguranțe și dispozitive de protecție Littelfuse se potrivește la tablourile electrice și echipamentele unde protecția la supracurent și la supratensiune trebuie dimensionată exact pe sarcina circuitului protejat, nu aleasă generic.`,
     whyChoose: [
       "Trei segmente de activitate (Electronics, Industrial, Automotive), cu portofoliu dedicat fiecărui tip de aplicație",
-      "Brand de referință în siguranțele auto — AutoFuse, introdusă în 1976 ca prima siguranță cu lamă pentru automobile",
-      "Rețea de peste 40 de facilități pe trei continente, utilă pentru continuitatea aprovizionării cu componente standard",
+      "Siguranțele auto AutoFuse, introduse în 1976 ca prima siguranță cu lamă folosită în automobile",
+      "Peste 40 de facilități de vânzări, distribuție, producție și inginerie în America, Europa și Asia",
       "Gamă largă de protecție — de la siguranțe fuzibile clasice până la diode de suprimare a tensiunii tranzitorii",
-      "Peste 16.000 de angajați la nivel de grup, semn al scalei de producție și suport tehnic disponibile"
+      "Aproximativ 16.000 de angajați la nivel de grup (2024)"
     ],
     keyProducts: [
       { name: "Siguranțe fuzibile de protecție la supracurent", description: "Siguranțe fuzibile pentru protecția circuitelor electrice la supracurent, disponibile în variante pentru electronică, echipamente industriale și automotive. Se aleg în funcție de curentul nominal, tensiunea de lucru și viteza de reacție necesară (rapidă sau întârziată). Aplicație tipică: protecția tablourilor electrice și a echipamentelor industriale la scurtcircuit sau suprasarcină. Clientul trebuie să ne spună curentul nominal, tensiunea circuitului și tipul de montaj (pe șină, în soclu sau lipit pe placă)."},
@@ -498,7 +498,7 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
       "Telecomunicații — protecție la supratensiune pentru echipamente de rețea",
       "Echipamente mobile pe baterii — gestionarea și protecția pachetelor de acumulatori"
     ],
-    infinitrade: `Pentru componentele Littelfuse nu păstrăm stoc propriu — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Ca să pregătim o ofertă corectă avem nevoie de codul exact al produsului sau, în lipsa lui, de curentul nominal, tensiunea de lucru și tipul de montaj cerut de aplicație. Ce putem și ce nu putem confirma ține de disponibilitatea la producător la momentul comenzii — nu promitem o cantitate rezervată în avans fără verificare punctuală. Datele tehnice generale din acest text provin din surse publice ale producătorului, verificate în această sesiune.`,
+    infinitrade: `Pentru componentele Littelfuse nu păstrăm stoc propriu — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Ca să pregătim o ofertă corectă avem nevoie de codul exact al produsului sau, în lipsa lui, de curentul nominal, tensiunea de lucru și tipul de montaj cerut de aplicație. Ce putem și ce nu putem confirma ține de disponibilitatea la producător la momentul comenzii — nu promitem o cantitate rezervată în avans fără verificare punctuală. Datele tehnice generale din acest text provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma echivalența directă cu un cod de la alt producător fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru siguranțele mai puțin uzuale din gamă.",
     productCodes: [
       {
@@ -586,8 +586,8 @@ Pentru instalațiile industriale din România, gama de siguranțe și dispozitiv
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Sitemap produse Littelfuse (product-sitemap_L7_0.xml)","url":"https://www.littelfuse.com/product-sitemap_L7_0.xml","publisher":"Littelfuse","accessed":"2026-09-26"},
       { title: "Littelfuse", url: "https://en.wikipedia.org/wiki/Littelfuse", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -738,15 +738,15 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
     name: "Sika",
     founded: 1910,
     headquarters: "Baar, Elveția",
-    overview: `Sika e un producător elvețian de adezivi, etanșanți și materiale de construcție industrială, fondat în 1910 la Zürich sub numele Kaspar Winkler & Co și cu sediul actual la Baar, în cantonul Zug. Grupul are peste 1.300 de produse organizate în categorii precum aditivi pentru beton, sisteme de pardoseli industriale, membrane de acoperiș, materiale de ranforsare cu fibre de carbon și sticlă, mortare speciale și adezivi-etanșanți, produse în peste 400 de fabrici din 101 țări. Pentru piața din România putem oferta adezivi și etanșanți industriali din gama de produse disponibile local.
+    overview: `Sika e un producător elvețian de adezivi, etanșanți și materiale de construcție industrială, fondat în 1910 la Zürich sub numele Kaspar Winkler & Co și cu sediul actual la Baar, în cantonul Zug. Portofoliul grupului include categorii precum aditivi pentru beton, sisteme de pardoseli industriale, membrane de acoperiș, materiale de ranforsare cu fibre de carbon și sticlă, mortare speciale și adezivi-etanșanți, iar producția este organizată în peste 400 de fabrici, în peste 100 de țări. Pentru piața din România putem oferta adezivi și etanșanți industriali din gama de produse disponibile local.
 
-Sika este prezentă direct în România din 2002, cu prima fabrică de producție deschisă la Brașov în 2008 și o rețea de șase platforme industriale în țară, plus peste 700 de angajați și sediul comercial la București. Această prezență locală, cu producție și nu doar import, o diferențiază de alți furnizori de chimie pentru construcții care operează doar prin distribuție.
+Sika este prezentă direct în România din 2002, cu prima fabrică de producție deschisă la Brașov în 2008 și o rețea de șase platforme industriale în țară, plus peste 700 de angajați și sediul comercial la București.
 
 Pentru fabricile și șantierele industriale din România, gama Sika acoperă atât lucrări de construcție nouă — hidroizolații, pardoseli industriale, mortare de reparație — cât și mentenanța instalațiilor existente, unde adezivii structurali și etanșanții rezistenți chimic înlocuiesc soluțiile mecanice clasice de îmbinare acolo unde vibrațiile sau coroziunea sunt o problemă.`,
     whyChoose: [
-      "Producție locală în România din 2008, la fabrica din Brașov, nu doar import din Elveția",
-      "Peste 1.300 de produse în portofoliu, de la aditivi pentru beton la adezivi structurali industriali",
-      "Rețea de șase platforme industriale în România, utilă pentru continuitatea aprovizionării la proiecte mari",
+      "Fabrică de aditivi la Brașov, din 2008, prima unitate de producție Sika din România",
+      "Portofoliu larg, de la aditivi pentru beton la adezivi structurali industriali",
+      "Șase platforme industriale în România, conform Sika România",
       "Peste un secol de experiență în chimia pentru construcții, cu origine din 1910",
       "Gamă de materiale de ranforsare cu fibre de carbon și sticlă pentru consolidarea structurilor existente"
     ],
@@ -763,7 +763,7 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       "Infrastructură — consolidarea structurilor de beton cu fibre de carbon",
       "Logistică și depozitare — membrane de acoperiș pentru hale mari"
     ],
-    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România, verificate în această sesiune.`,
+    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unor cantități mari fără verificare la depozitul local și nu oferim consultanță de aplicare pe șantier ca serviciu separat.",
     productCodes: [
       {
@@ -792,15 +792,15 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       },
       {
         "code": "Sikagard-850",
-        "description": "Acoperire de protecție decorativă pentru suprafețe de beton"
+        "description": "produs din gama Sikagard; destinația se confirmă pe cod, din fișa tehnică Sika"
       },
       {
         "code": "Sikagard-5500",
-        "description": "Sistem de acoperire protectoare pentru pardoseli și pereți industriali"
+        "description": "produs din gama Sikagard; destinația se confirmă pe cod, din fișa tehnică Sika"
       },
       {
         "code": "SikaWall 6400 Essential",
-        "description": "Sistem de finisare și protecție pentru pereți industriali"
+        "description": "produs din gama SikaWall; destinația se confirmă pe cod, din fișa tehnică Sika"
       },
       {
         "code": "Purform",
@@ -816,15 +816,15 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       },
       {
         "code": "Sikaplan WP/WT",
-        "description": "Membrană sintetică pentru hidroizolația acoperișurilor industriale"
+        "description": "Sistem de membrane sintetice pentru hidroizolații sub nivelul solului și structuri"
       },
       {
         "code": "Sikaplan 1650",
-        "description": "Membrană de hidroizolație pe bază de PVC pentru acoperișuri"
+        "description": "Membrană sintetică pentru barieră de gaze și protecție împotriva umidității, la fundații"
       },
       {
         "code": "Sikaplan 1651/1652/1653",
-        "description": "Variante de membrană sintetică pentru acoperișuri industriale plate"
+        "description": "Variante de membrană sintetică pentru barieră de gaze și umiditate, la fundații"
       },
       {
         "code": "Sika Bentoshield",
@@ -838,11 +838,11 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       },
       {
         "q": "Livrați produse Sika în România la comandă?",
-        "a": "Da, aducem la comandă produse din gamele Sikaflex, Sikadur, Sikafloor sau membranele Sikaplan, pe baza codului exact al produsului dorit. Nu ținem această gamă pe raft; orientarea publică de disponibilitate a producătorului este de câteva săptămâni, de regulă între două și șase. Fișa tehnică a produsului ajută la confirmarea compatibilității cu suportul existent."
+        "a": "Da, aducem la comandă produse din gamele Sikaflex, Sikadur, Sikafloor sau membranele Sikaplan, pe baza codului exact al produsului dorit. Nu ținem această gamă pe raft; termenul obișnuit este de 1–4 săptămâni de la comandă. Fișa tehnică a produsului ajută la confirmarea compatibilității cu suportul existent."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de membrană Sikaplan?",
-        "a": "Este utilă suprafața aproximativă de acoperit, tipul suportului pe care se montează membrana și dacă acoperișul este plat sau înclinat. Contează și dacă se dorește o variantă expusă direct la intemperii sau protejată cu balast, deoarece influențează grosimea și varianta de membrană recomandată. Menționarea condițiilor climatice locale ajută la alegerea corectă din gama Sikaplan."
+        "a": "Sunt utile suprafața aproximativă de acoperit, tipul suportului pe care se montează membrana și condițiile de expunere (de exemplu, sub nivelul solului sau la fundații). Varianta exactă de membrană Sikaplan se confirmă pe cod, din fișa tehnică Sika."
       },
       {
         "q": "Ce este tehnologia Purform folosită de Sika în adezivi?",
@@ -851,8 +851,8 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Sika România – Despre noi","url":"https://rou.sika.com/ro/despre-noi/sika-romania.html","publisher":"Sika","accessed":"2026-09-25"},
       {"title":"Sika – Waterproofing","url":"https://gbr.sika.com/en/construction/waterproofing.html","publisher":"Sika","accessed":"2026-09-25"},
@@ -865,12 +865,12 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
     name: "Oriental Motor",
     overview: `Oriental Motor e un producător japonez de motoare pas cu pas, servomotoare și actuatoare de precizie, cu operațiuni de vânzare organizate regional, inclusiv prin Oriental Motor U.S.A. Corp. pentru piața americană. Gama de motoare pas cu pas cuprinde seria αSTEP, cu control în buclă închisă de tip step-servo, și seria PKP de motoare pas cu pas clasice, unele cu encoder integrat pentru feedback de poziție. Pentru clienții din România putem oferta motoare și actuatoare din această gamă, potrivite pentru axe de poziționare unde cuplul de menținere la oprire contează mai mult decât la un servomotor clasic.
 
-Ce diferențiază tehnologia step-servo a seriei αSTEP de un servomotor clasic al unui concurent precum Kollmorgen e combinația dintre simplitatea de control a motorului pas cu pas și corectarea de poziție prin buclă închisă, care elimină pierderea pașilor la sarcini variabile — util acolo unde vrei precizie de poziționare fără complexitatea completă de acordare a unui servosistem. Catalogul producătorului depășește 50.000 de produse, incluzând și roboți industriali (SCARA, articulați, carteziani), actuatoare liniare și rotative, motoare de curent continuu fără perii și motoare de curent alternativ.
+Tehnologia step-servo a seriei αSTEP combină simplitatea de control a motorului pas cu pas cu corectarea de poziție prin buclă închisă, care elimină pierderea pașilor la sarcini variabile — util acolo unde vrei precizie de poziționare fără complexitatea completă de acordare a unui servosistem. Catalogul producătorului include roboți industriali (SCARA, articulați, carteziani), actuatoare liniare și rotative, motoare de curent continuu fără perii și motoare de curent alternativ.
 
 Pentru instalațiile din România cu axe de poziționare simple sau medii — benzi transportoare, mese rotative, dozatoare — gama Oriental Motor se potrivește ca alternativă la un servosistem complet, mai ales acolo unde bugetul sau complexitatea de programare trebuie ținute sub control.`,
     whyChoose: [
       "Tehnologie step-servo în buclă închisă (seria αSTEP), care elimină pierderea pașilor tipică motoarelor pas cu pas clasice",
-      "Catalog de peste 50.000 de produse, de la motoare individuale la roboți industriali compleți",
+      "Catalog larg, de la motoare individuale la roboți industriali",
       "Certificare ISO 9001 și ISO 14001 pentru sistemele de management al calității și de mediu",
       "Gamă de actuatoare liniare și rotative gata de montat, fără proiectare mecanică suplimentară",
       "Motoare pas cu pas seria PKP disponibile și cu encoder integrat, pentru feedback de poziție fără senzor extern"
@@ -889,8 +889,8 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       "Industria alimentară — dozatoare și mese rotative cu poziționare repetabilă"
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu"],
-    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, accesat în această sesiune de lucru, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
-    limitation: "Nu putem confirma anul fondării sau sediul central exact al companiei, pentru că nu au fost vizibile pe paginile accesate, și nu oferim programarea controlerelor motoarelor ca serviciu.",
+    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
+    limitation: "Nu oferim programarea controlerelor motoarelor ca serviciu.",
     productCodes: [
       {
         "code": "αSTEP",
@@ -914,7 +914,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       },
       {
         "code": "BLV",
-        "description": "Motor brushless DC pentru cupluri mari la turații reduse"
+        "description": "Motor brushless DC din gama Oriental Motor"
       },
       {
         "code": "EAS/AR",
@@ -922,7 +922,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       },
       {
         "code": "DRLII",
-        "description": "Actuator liniar rotativ compact pentru mișcări combinate"
+        "description": "Actuator din gama Oriental Motor; varianta exactă se confirmă pe cod"
       },
       {
         "code": "EH",
@@ -930,7 +930,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       },
       {
         "code": "EZS",
-        "description": "Actuator electric cilindric compact pentru curse scurte de poziționare"
+        "description": "Actuator liniar electric din seria EZS"
       },
       {
         "code": "DGII",
@@ -948,7 +948,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       },
       {
         "q": "Livrați motoare Oriental Motor în România la comandă?",
-        "a": "Da, aducem la comandă motoare și actuatoare din gamele αSTEP, PKP, BLV sau EAS/AR, în funcție de codul complet solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul orientativ de aprovizionare publicat este de două până la patru săptămâni. Recomandăm transmiterea codului de pe eticheta motorului sau din documentația echipamentului existent."
+        "a": "Da, aducem la comandă motoare și actuatoare din gamele αSTEP, PKP, BLV sau EAS/AR, în funcție de codul complet solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul obișnuit este de 1–4 săptămâni de la comandă. Recomandăm transmiterea codului de pe eticheta motorului sau din documentația echipamentului existent."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un actuator Oriental Motor?",
@@ -961,8 +961,8 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Oriental Motor – Products","url":"https://www.orientalmotor.com/products/index.html","publisher":"Oriental Motor","accessed":"2026-09-25"},
       { title: "Oriental Motor U.S.A. Corp. — pagina principală", url: "https://www.orientalmotor.com", publisher: "Oriental Motor U.S.A. Corp.", accessed: "2026-09-22" },
@@ -1078,7 +1078,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
     headquarters: "Santa Rosa, California, SUA",
     overview: `Keysight Technologies e un producător american de aparatură de măsură electronică, desprins în 2014 din Agilent Technologies și cu sediul la Santa Rosa, California. Gama de osciloscoape acoperă patru trepte de performanță: gama Essential (clasele XR1-XR3), cu bandă de 70 MHz-1 GHz și 2-5 GSa/s; gama Advanced (XR4-XR5), cu bandă de 200 MHz-1,5 GHz și 5-20 GSa/s; gama Expert (XR6), cu bandă de 500 MHz-6 GHz și 16 GSa/s; și gama Pro (XR8-XR9), cu bandă de 10-110 GHz și rate de eșantionare de 128-256 GSa/s. Pentru laboratoarele de service și dezvoltare din România putem oferta osciloscoape din oricare din aceste trepte, în funcție de banda de frecvență necesară.
 
-Diferența dintre Keysight și un concurent orientat spre teren precum Fluke stă în segmentul de bandă foarte largă: gama Pro, cu clasele XR8 și XR9, ajunge la 110 GHz și folosește arhitectură multicore pe 12 biți, un nivel de performanță destinat cercetării și dezvoltării de semiconductori sau comunicații de mare viteză, nu mentenanței de teren. Există și osciloscoape modulare, în format PXI sau mainframe, cu benzi de 200 MHz-1 GHz, pentru sisteme de testare automatizată integrate în linii de producție.
+Diferența dintre Keysight și un concurent orientat spre teren precum Fluke stă în segmentul de bandă foarte largă: gama Pro, cu clasele XR8 și XR9, ajunge la 110 GHz, iar clasa XR8 folosește arhitectură multicore pe 12 biți până la 33 GHz, un nivel de performanță destinat cercetării și dezvoltării de semiconductori sau comunicații de mare viteză, nu mentenanței de teren. Există și osciloscoape modulare, în format PXI sau mainframe, cu benzi de 200 MHz-1 GHz, pentru sisteme de testare automatizată integrate în linii de producție.
 
 Pentru laboratoarele de proiectare electronică și centrele de testare din România, gama Keysight se potrivește acolo unde precizia și banda de măsurare contează mai mult decât portabilitatea — dezvoltare de produse, testare de semnal RF sau validare de componente de mare viteză.`,
     whyChoose: [
@@ -1092,7 +1092,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
       { name: "Osciloscoape gama Essential (clasele XR1-XR3)", description: "Osciloscoape de bandă 70 MHz-1 GHz, cu 2-4 canale analogice și opțional 0-16 canale digitale, rată de eșantionare 2-5 GSa/s. Potrivite pentru depanare generală și verificări de semnal în laboratoare de service sau învățământ tehnic. Clientul trebuie să ne spună banda de frecvență minimă necesară și numărul de canale simultane de măsurat."},
       { name: "Osciloscoape gama Advanced (clasele XR4-XR5)", description: "Osciloscoape de bandă 200 MHz-1,5 GHz, cu 2-4 canale analogice, opțional până la 16 canale digitale, și rată de eșantionare 5-20 GSa/s. Folosite la depanarea circuitelor digitale de viteză medie și validarea prototipurilor electronice. Clientul trebuie să precizeze tipul de semnal măsurat (digital, analogic sau mixt) și rezoluția temporală necesară."},
       { name: "Osciloscoape gama Expert (clasa XR6)", description: "Osciloscoape de bandă 500 MHz-6 GHz, cu 4-8 canale analogice și rată de eșantionare de 16 GSa/s, destinate validării de semnal la viteze mari, tipic în dezvoltarea de echipamente de comunicații sau electronică de putere rapidă. Clientul trebuie să indice frecvența maximă a semnalului analizat și numărul de canale necesare simultan."},
-      { name: "Osciloscoape gama Pro (clasele XR8-XR9)", description: "Osciloscoape de bandă 10-110 GHz, cu arhitectură multicore pe 12 biți și rate de eșantionare de 128-256 GSa/s, folosite în cercetare și dezvoltare de semiconductori, comunicații optice și RF de mare viteză. Clientul trebuie să precizeze banda de frecvență exactă necesară, pentru că prețul și complexitatea cresc semnificativ peste 33 GHz."}
+      { name: "Osciloscoape gama Pro (clasele XR8-XR9)", description: "Osciloscoape de bandă 10-110 GHz, cu rate de eșantionare de 128-256 GSa/s (clasa XR8 folosește arhitectură multicore pe 12 biți, până la 33 GHz), folosite în cercetare și dezvoltare de semiconductori, comunicații optice și RF de mare viteză. Clientul trebuie să precizeze banda de frecvență exactă necesară, pentru că modelele din clasa Pro diferă mult între ele."}
     ],
     industries: [
       "Telecomunicații și 5G/6G — testare de semnal RF de mare viteză",
@@ -1101,7 +1101,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
       "Automotive — validare de electronică de putere și sisteme de încărcare EV",
       "Centre de date — testare de infrastructură de rețea de mare viteză"
     ],
-    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Informația de disponibilitate depinde de producător la momentul comenzii — surse indisponibile pentru stoc local nu ne permit să promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului, verificat în această sesiune de lucru.`,
+    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Disponibilitatea depinde de producător la momentul comenzii, de aceea nu promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului.`,
     limitation: "Nu putem confirma configurația software exactă (licențe, opțiuni de analiză) fără o discuție tehnică prealabilă și nu oferim calibrare metrologică ca serviciu propriu.",
     productCodes: [
       {
@@ -1172,7 +1172,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
       },
       {
         "q": "Livrați osciloscoape Keysight Technologies în România?",
-        "a": "Da, aducem la comandă osciloscoape din gamele InfiniiVision și Infiniium, pe baza modelului exact solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul obișnuit de aprovizionare publicat este de câteva săptămâni, între două și șase. Este utilă precizarea numărului de canale și a lățimii de bandă necesare aplicației."
+        "a": "Da, aducem la comandă osciloscoape din gamele InfiniiVision și Infiniium, pe baza modelului exact solicitat de client. Nu avem raft propriu pentru această gamă, iar termenul orientativ de aprovizionare este de 1–4 săptămâni de la confirmarea comenzii. Este utilă precizarea numărului de canale și a lățimii de bandă necesare aplicației."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un osciloscop Keysight?",
@@ -1185,8 +1185,8 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Keysight – Oscilloscopes","url":"https://www.keysight.com/us/en/products/oscilloscopes.html","publisher":"Keysight Technologies","accessed":"2026-09-25"},
       { title: "Keysight — osciloscoape", url: "https://www.keysight.com/us/en/products/oscilloscopes.html", publisher: "Keysight Technologies, Inc.", accessed: "2026-09-22" },
@@ -1198,7 +1198,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
     name: "di-soric",
     founded: 1986,
     headquarters: "Urbach, Germania",
-    overview: `di-soric e un producător german de senzori industriali, fondat în 1986 și cu sediul la Urbach, lângă Stuttgart. Gama acoperă senzori inductivi, printre care seria de senzori inelari IRSD, senzori optici din familia miniaturală O-21, senzori cu ultrasunete din generația US-M18, senzori capacitivi seria KNS Extended și senzori de etichete KGUTI, alături de senzori de viziune CS-50 și CS-60 și senzori laser de distanță LAT-52 și LVHT-52. Pentru integratorii din România putem oferta senzori individuali din aceste familii, potriviți pentru detecție de poziție, prezență sau distanță pe linii automatizate.
+    overview: `di-soric e un producător german de senzori industriali, fondat în 1986 și cu sediul la Urbach, lângă Stuttgart. Gama acoperă senzori inductivi, printre care seria de senzori inelari IRSD, senzori optici din familia miniaturală O-21, senzori cu ultrasunete US-M18, senzori capacitivi seria KNS Extended și senzori de etichete KGUTI, alături de senzori de viziune CS-50 și CS-60 și senzori laser de distanță LAT-52 și LVHT-52. Pentru integratorii din România putem oferta senzori individuali din aceste familii, potriviți pentru detecție de poziție, prezență sau distanță pe linii automatizate.
 
 Compania se compară pe segmentul de senzori industriali cu producători precum Baumer, dar are o linie suplimentară de sisteme de vizualizare completă — cu software de procesare a imaginii sub numele nVision-i, plus iluminare industrială și cititoare de identificare — ceea ce o apropie mai mult de un furnizor de soluții de inspecție vizuală decât de un simplu producător de senzori discreți. Senzorii inelari IRSD, de exemplu, sunt gândiți pentru detecție pe linii cu piese cilindrice care trec printr-un tub sau un ghidaj circular.
 
@@ -1207,8 +1207,8 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       "Gamă largă de tehnologii de detecție — inductivă, optică, cu ultrasunete, capacitivă și magnetică — sub aceeași marcă",
       "Sisteme complete de vizualizare industrială cu software propriu nVision-i, nu doar senzori de viziune discreți",
       "Senzori cu geometrii specializate, precum senzorii inelari IRSD pentru detecție pe piese cilindrice",
-      "Senzori laser de distanță de precizie (LAT-52, LVHT-52) pentru măsurare de nivel sau poziție fără contact",
-      "Peste 35 de ani de experiență specializată exclusiv pe tehnologia senzorilor industriali"
+      "Senzori laser de distanță (LAT-52, LVHT-52) pentru măsurare de nivel sau poziție fără contact",
+      "Peste 35 de ani de experiență în senzori industriali, sisteme de viziune și iluminat pentru mașini"
     ],
     keyProducts: [
       { name: "Senzori inductivi inelari seria IRSD", description: "Senzori inductivi cu geometrie inelară, montați astfel încât piesa metalică de detectat trece prin centrul senzorului, nu prin fața lui, cum se întâmplă la un senzor inductiv clasic. Folosiți pe linii unde piesele cilindrice sau tubulare circulă printr-un ghidaj, pentru numărare sau confirmare de prezență. Clientul trebuie să ne spună diametrul piesei detectate și materialul acesteia."},
@@ -1223,7 +1223,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       "Electronică — senzori optici miniaturali pentru piese mici",
       "Prelucrarea metalelor — senzori inelari pentru piese cilindrice pe linie"
     ],
-    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, accesat în această sesiune, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
+    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu un controler existent fără fișa tehnică a instalației și nu oferim programarea software-ului de viziune ca serviciu separat.",
     productCodes: [
       {
@@ -1244,7 +1244,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       },
       {
         "code": "US-M18",
-        "description": "Senzor cu ultrasunete de generația a doua, cu interfață IO-Link"
+        "description": "Senzor cu ultrasunete cu interfață IO-Link"
       },
       {
         "code": "KGUTI",
@@ -1256,7 +1256,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       },
       {
         "code": "KSS",
-        "description": "Senzor capacitiv pentru etichete, model din gama istorică di-soric"
+        "description": "Senzor capacitiv di-soric; detaliile se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "CS-60",
@@ -1286,7 +1286,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       },
       {
         "q": "Livrați senzori di-soric în România la comandă?",
-        "a": "Da, aducem la comandă senzori inductivi, optici, capacitivi și cu ultrasunete din gama di-soric, pe baza codului exact al produsului. Nu ținem această gamă pe raft, iar termenul orientativ publicat de producător este de două până la patru săptămâni. Recomandăm transmiterea codului complet de pe eticheta senzorului existent pentru identificare corectă."
+        "a": "Da, aducem la comandă senzori inductivi, optici, capacitivi și cu ultrasunete din gama di-soric, pe baza codului exact al produsului. Nu ținem această gamă pe raft, iar termenul nostru orientativ este de 1–4 săptămâni de la confirmarea comenzii. Recomandăm transmiterea codului complet de pe eticheta senzorului existent pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un senzor di-soric?",
@@ -1299,8 +1299,8 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"di-soric – Company","url":"https://www.di-soric.com/int-en/company","publisher":"di-soric","accessed":"2026-09-25"},
       { title: "di-soric — prezența în România", url: "https://www.di-soric.com/int-en/international/international/europe/romania", publisher: "di-soric GmbH & Co. KG", accessed: "2026-09-22" },

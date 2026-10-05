@@ -116,22 +116,22 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     name: "Hydroline",
     founded: 1962,
     headquarters: "Vuorela, Finlanda",
-    overview: `Hydroline este un producător finlandez de cilindri hidraulici personalizați, pornit în 1962 ca un atelier de strunjit condus de un singur om și crescut treptat până a devenit un fabricant de referință de cilindri hidraulici pe piața finlandeză. Sediul și producția principală sunt la Vuorela, lângă Siilinjärvi, cu o a doua fabrică deschisă în 2019 la Stargard, Polonia. Din gama Hydroline putem oferta la comandă cilindri hidraulici proiectați pe specificația clientului, pentru utilaje grele de construcții, minerit, manipulare de sarcini, agricultură și silvicultură.
+    overview: `Hydroline este un producător finlandez de cilindri hidraulici personalizați, pornit în 1962 ca un atelier de strunjit condus de un singur om și crescut treptat până a devenit producător de cilindri hidraulici personalizați. Sediul și producția principală sunt la Vuorela, lângă Siilinjärvi, cu o a doua fabrică deschisă în 2019 la Stargard, Polonia. Din gama Hydroline putem oferta la comandă cilindri hidraulici proiectați pe specificația clientului, pentru utilaje grele de construcții, minerit, manipulare de sarcini, agricultură și silvicultură.
 
-Ce diferențiază Hydroline e abordarea de inginerie pe comandă, nu catalog fix: fiecare cilindru e proiectat pentru cursa, diametrul și forța cerute de aplicație, cu tije protejate printr-un tratament de crom propriu, TRIPLEHARD® Chrome Coating, gândit pentru rezistență la uzură și coroziune în condiții de exterior dure. Compania oferă și soluții de conectivitate IoT pentru monitorizarea la distanță a cilindrilor în funcțiune, utile la utilaje care lucrează departe de service.
+Ce diferențiază Hydroline e abordarea de inginerie pe comandă, nu catalog fix: fiecare cilindru e proiectat pentru cursa, diametrul și forța cerute de aplicație, cu posibilitatea de protejare a tijelor prin soluția TRIPLEHARD® Chrome Coating a producătorului (detaliile tratamentului se confirmă din documentația Hydroline). Compania oferă și soluții de conectivitate IoT pentru monitorizarea la distanță a cilindrilor în funcțiune, utile la utilaje care lucrează departe de service.
 
 Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de construcții, echipamente forestiere sau instalații de manipulare unde un cilindru standard de catalog nu acoperă cursa sau forța necesară, iar clientul are nevoie de un proiect dedicat, nu de o piesă generică.`,
     whyChoose: [
       "Cilindri hidraulici proiectați pe specificația clientului, nu variante fixe de catalog",
-      "Tratament de suprafață propriu TRIPLEHARD® Chrome Coating pentru tije, gândit pentru uzură și coroziune",
+      "Soluția TRIPLEHARD® Chrome Coating pentru tije, oferită de producător",
       "Două fabrici în UE — Vuorela (Finlanda) și Stargard (Polonia) — pentru capacitate și proximitate logistică",
       "Opțiuni de monitorizare la distanță prin conectivitate IoT pentru cilindri aflați în exploatare",
-      "Peste 60 de ani de experiență concentrată exclusiv pe cilindri hidraulici pentru echipamente grele"
+      "Peste 60 de ani de activitate, din 1962"
     ],
     keyProducts: [
       { name: "Cilindri Hidraulici Personalizați pentru Construcții și Minerit", description: "Cilindri proiectați pe cursă, diametru și presiune de lucru specifice utilajului — excavatoare, încărcătoare, echipamente de foraj. Construcție robustă pentru șocuri și sarcini variabile, cu opțiuni de etanșare pentru medii cu praf sau umiditate. Aplicație tipică: brațe de excavator, cilindri de basculare, sisteme de direcție hidraulică. Pentru ofertă, clientul trebuie să trimită desenul tehnic sau cel puțin cursa, diametrul pistonului și presiunea maximă de lucru." },
-      { name: "Cilindri Hidraulici pentru Manipulare de Sarcini (Load Handling)", description: "Cilindri dedicați echipamentelor de ridicare și manipulare — stivuitoare, macarale mobile, platforme de lucru la înălțime — dimensionați pentru cicluri repetate de ridicare-coborâre și pentru siguranță la sarcină. Tratamentul TRIPLEHARD® al tijei reduce uzura la contactul repetat cu praful și particulele abrazive. Clientul trebuie să precizeze sarcina maximă, cursa necesară și modul de fixare al cilindrului." },
-      { name: "Cilindri Hidraulici pentru Agricultură și Silvicultură", description: "Cilindri pentru utilaje agricole și forestiere expuse la condiții de exterior variabile — tractoare, combine, echipamente de recoltat lemn — cu tije protejate anticoroziv și etanșări adaptate la temperaturi joase și noroi. Aplicație tipică: sisteme de basculare, brațe hidraulice, macarale forestiere montate pe utilaj. Pentru ofertă, e necesară cursa, diametrul și tipul de racordare hidraulică." },
+      { name: "Cilindri Hidraulici pentru Manipulare de Sarcini (Load Handling)", description: "Cilindri dedicați echipamentelor de ridicare și manipulare — stivuitoare, macarale mobile, platforme de lucru la înălțime — dimensionați pentru cicluri repetate de ridicare-coborâre și pentru siguranță la sarcină. Pentru protecția tijei, producătorul oferă soluția TRIPLEHARD® Chrome Coating. Clientul trebuie să precizeze sarcina maximă, cursa necesară și modul de fixare al cilindrului." },
+      { name: "Cilindri Hidraulici pentru Agricultură și Silvicultură", description: "Cilindri pentru utilaje agricole și forestiere expuse la condiții de exterior variabile — tractoare, combine, echipamente de recoltat lemn — cu tije și etanșări alese după condițiile de exploatare. Aplicație tipică: sisteme de basculare, brațe hidraulice, macarale forestiere montate pe utilaj. Pentru ofertă, e necesară cursa, diametrul și tipul de racordare hidraulică." },
       { name: "Soluții de Monitorizare IoT pentru Cilindri", description: "Opțiune de senzori și conectivitate montată pe cilindru pentru a urmări starea de funcționare de la distanță — utilă la utilaje care operează în șantiere izolate, unde un defect nedetectat înseamnă oprire costisitoare. Se integrează cu cilindrii personalizați Hydroline la comandă. Clientul trebuie să precizeze tipul de date dorite (presiune, temperatură, cicluri) și sistemul de monitorizare existent." }
     ],
     industries: [
@@ -141,12 +141,12 @@ Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de
       "Agricultură — cilindri de basculare și direcție pentru tractoare și combine",
       "Mentenanță industrială — înlocuirea cilindrilor uzați cu variante proiectate pe aceeași cursă și interfață"
     ],
-    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din informațiile publice ale producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice, fără disponibilitate permanentă din stoc pentru un produs inginerat individual. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
+    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din informațiile publice ale producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen de regulă peste 4 săptămâni de la confirmarea specificațiilor tehnice, fiind un produs proiectat individual, fără stoc permanent. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
     limitation: "Nu putem confirma termene de livrare exacte înainte ca fabrica să valideze desenul tehnic al cilindrului cerut, fiind vorba de un produs proiectat individual, nu de un cod de catalog fix.",
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hydroline - Custom Hydraulic Cylinders", url: "https://www.hydroline.fi", publisher: "Hydroline Oy", accessed: "2026-09-22" },
       { title: "Company - Hydroline", url: "https://www.hydroline.fi/company/", publisher: "Hydroline Oy", accessed: "2026-09-22" }
@@ -163,9 +163,9 @@ Gama e organizată pe cinci direcții: fitinguri și racorduri de diverse forme 
 
 Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelte cu acționare pneumatică sau instalații de aer comprimat unde ai nevoie de fitinguri și valve compatibile cu standardele europene de automatizare, cu opțiunea de a completa gama cu actuatoare sau unități FRL din același producător.`,
     whyChoose: [
-      "Producție integral în Italia, cu control direct al calității pe toate cele cinci linii de produs",
+      "Produse prezentate de producător ca 100% Made in Italy, organizate pe cinci linii",
       "Gamă largă de fitinguri push-in, compresie și function fittings, în diverse materiale și diametre",
-      "Linia Infinity dedicată rețelelor de aer comprimat, gaz inert și vid la nivel de fabrică",
+      "Linia Infinity dedicată rețelelor de aer comprimat, gaz inert și vid",
       "Linia Fluidity extinde gama către valve pentru fluide lichide și gazoase, nu doar aer comprimat",
       "Distribuție prin filiale și parteneri în peste 100 de țări, cu istoric din 1976"
     ],
@@ -187,11 +187,11 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     productCodes: [
       {
         "code": "50000 Red",
-        "description": "Fitinguri push-in seria roșie, execuție standard din tehnopolimer"
+        "description": "Fitinguri push-in, seria 50000 în varianta roșie"
       },
       {
         "code": "50000 Black",
-        "description": "Fitinguri push-in seria neagră, execuție standard din tehnopolimer"
+        "description": "Fitinguri push-in, seria 50000 în varianta neagră"
       },
       {
         "code": "55000",
@@ -253,7 +253,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     faq: [
       {
         "q": "Ce diferență este între seriile Aignep 50000 și 57000?",
-        "a": "Seria 50000 folosește o construcție integral din tehnopolimer, disponibilă în variantele roșie și neagră, potrivită pentru aer comprimat la presiuni obișnuite. Seria 57000 adaugă o bucșă metalică de strângere pe corpul fitingului, oferind o fixare mai sigură a tubului în aplicații cu vibrații sau solicitări mecanice mai mari. Selecția depinde de mediul de lucru și de riscul de desprindere accidentală a tubului."
+        "a": "Seria 50000 este disponibilă în variantele roșie și neagră; materialul corpului și presiunea maximă de lucru se confirmă pe fișa tehnică a seriei. Seria 57000 adaugă o bucșă metalică de strângere pe corpul fitingului, oferind o fixare mai sigură a tubului în aplicații cu vibrații sau solicitări mecanice mai mari. Selecția depinde de mediul de lucru și de riscul de desprindere accidentală a tubului."
       },
       {
         "q": "Livrați fitinguri Aignep în România la comandă?",
@@ -261,7 +261,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
       },
       {
         "q": "Ce serie Aignep aleg pentru o instalație de apă potabilă?",
-        "a": "Pentru contactul cu apa potabilă, seria 59000 este certificată special pentru acest scop, iar seria 70000 acoperă mai larg aplicațiile alimentare. Varianta SPRINGFIT oferă aceleași certificări alimentare într-un tehnopolimer dedicat, potrivit pentru instalații ușoare. Alegerea corectă depinde de temperatura fluidului, de presiunea de lucru și de reglementările locale aplicabile echipamentului final."
+        "a": "Pentru contactul cu apa potabilă, seria 59000 este certificată special pentru acest scop, iar seria 70000 acoperă mai larg aplicațiile alimentare. Varianta SPRINGFIT este o serie de fitinguri push-in din tehnopolimer de calitate alimentară; certificările exacte se confirmă pe fișa tehnică. Alegerea corectă depinde de temperatura fluidului, de presiunea de lucru și de reglementările locale aplicabile echipamentului final."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un fiting Aignep?",
@@ -270,8 +270,8 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Push-In Fittings – Aignep","url":"https://b2b.aignep.com/eng/Push-In-Fittings","publisher":"Aignep S.p.A.","accessed":"2026-09-25"},
       { title: "Aignep - Componenti per automazione pneumatica e gestione fluidi", url: "https://www.aignep.com", publisher: "Aignep S.p.A.", accessed: "2026-09-22" },
@@ -289,7 +289,7 @@ Ce diferențiază Elesa+Ganter e combinația celor două cataloage — Ganter ad
 Pentru piața din România, gama are sens la proiectarea de mașini și echipamente unde ai nevoie de componente standardizate — mânere ergonomice, șuruburi de indexare, elemente de fixare rapidă — mai degrabă decât de piese fabricate special pentru fiecare aplicație.`,
     whyChoose: [
       "Catalog combinat german (Ganter) și italian (Elesa), cu istoric separat din 1894, respectiv 1941",
-      "Elemente de indexare și cuplaje proiectate conform standardelor mecanice precum DIN 3015",
+      "Cleme pentru tuburi conform standardului DIN 3015, în catalogul comun",
       "Design recunoscut cu premii Red Dot și iF Design Award pentru ergonomie și funcționalitate",
       "Gamă combinată acoperă atât mânere și butoane, cât și componente pentru vid și vibrodampare",
       "Peste 45 de ani de colaborare comercială între cele două companii înainte de unificarea sub un brand"
@@ -297,7 +297,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     keyProducts: [
       { name: "Mânere și Elemente de Operare", description: "Mânere, butoane rotative și pârghii de fixare pentru panouri de comandă, uși de echipamente și mecanisme de reglare manuală, disponibile în plastic sau metal, cu diverse tipuri de filet și montaj. Aplicație tipică: butoane de reglare pe mașini-unelte sau mânere de închidere pe carcase de echipamente. Pentru ofertă, clientul trebuie să precizeze tipul de filet, diametrul și materialul dorit." },
       { name: "Elemente de Indexare și Blocare", description: "Bolțuri de indexare, șuruburi de blocare și elemente de poziționare rapidă pentru mecanisme reglabile, folosite acolo unde o poziție trebuie fixată și eliberată frecvent, fără scule suplimentare. Aplicație tipică: reglarea rapidă a dispozitivelor de fixare pe linii de producție flexibile. Clientul trebuie să precizeze forța de reținere necesară și dimensiunea filetului." },
-      { name: "Cuplaje și Componente pentru Vibrodampare", description: "Cuplaje de arbore și tampoane antivibrații pentru reducerea transmiterii vibrațiilor între componente mecanice în mișcare, cu standarde de fixare conform DIN 3015 pentru montaje de conducte și cabluri. Aplicație tipică: izolarea vibrațiilor motoarelor sau pompelor montate pe cadre metalice. Pentru ofertă, e nevoie de sarcina transmisă și tipul de arbore sau cadru." },
+      { name: "Cuplaje și Componente pentru Vibrodampare", description: "Cuplaje de arbore și tampoane antivibrații pentru reducerea transmiterii vibrațiilor între componente mecanice în mișcare. Aplicație tipică: izolarea vibrațiilor motoarelor sau pompelor montate pe cadre metalice. Pentru ofertă, e nevoie de sarcina transmisă și tipul de arbore sau cadru." },
       { name: "Profiluri de Aluminiu și Componente pentru Vid", description: "Profiluri de aluminiu pentru structuri modulare de mașini și componente dedicate sistemelor de vid, completând gama de elemente standard cu soluții pentru cadre și sisteme de prindere prin depresiune. Aplicație tipică: cadre modulare pentru protecții de mașini sau standuri de asamblare. Clientul trebuie să precizeze dimensiunea profilului și tipul de îmbinare dorit." }
     ],
     industries: [
@@ -312,19 +312,15 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     productCodes: [
       {
         "code": "GN 823",
-        "description": "Elemente de indexare cu bilă retractabilă pentru poziționare rapidă"
+        "description": "Elemente de indexare cu manetă de acționare"
       },
       {
         "code": "GN 210",
         "description": "Manete pentru schimbarea vitezelor și acționări mecanice similare"
       },
       {
-        "code": "GN 62444",
-        "description": "Presetupe pentru cabluri, fixare și etanșare la trecerea prin panou"
-      },
-      {
         "code": "GN 876",
-        "description": "Cleme de fixare rapidă cu strângere excentrică"
+        "description": "Cleme rotative din aluminiu, cu acționare pneumatică"
       },
       {
         "code": "GN 318",
@@ -348,7 +344,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       },
       {
         "code": "AVC",
-        "description": "Izolator antivibrație din cauciuc și cablu de oțel"
+        "description": "Izolator antivibrație cu cablu de oțel inoxidabil"
       },
       {
         "code": "FH.1/2",
@@ -366,7 +362,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     faq: [
       {
         "q": "Ce înseamnă codul GN de pe un element Elesa+Ganter?",
-        "a": "Prefixul GN identifică un standard constructiv comun mai multor producători, iar numărul care urmează arată forma și funcția reperului: de exemplu, GN 823 este un element de indexare cu bilă, iar GN 876 este o clemă cu strângere excentrică. Cifrele suplimentare din cod, precum GN 439.5, marchează o variantă de material sau finisaj. Confirmarea exactă se face pe baza desenului tehnic sau a fișei publicate de Elesa+Ganter."
+        "a": "Prefixul GN face parte din codul reperelor din catalogul Ganter, iar numărul care urmează identifică reperul: de exemplu, GN 823 este un element de indexare cu manetă de acționare, iar GN 876 este o clemă rotativă din aluminiu, cu acționare pneumatică. Varianta exactă de material sau finisaj se confirmă pe fișa tehnică. Confirmarea exactă se face pe baza desenului tehnic sau a fișei publicate de Elesa+Ganter."
       },
       {
         "q": "Livrați repere Elesa+Ganter în România la comandă?",
@@ -374,7 +370,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       },
       {
         "q": "Ce diferență este între un element de indexare și o clemă de fixare Elesa+Ganter?",
-        "a": "Un element de indexare, precum GN 823, blochează o poziție prin introducerea unui bolț sau a unei bile într-un locaș, fiind folosit la reglaje repetitive de mașină. O clemă de fixare, precum GN 876, strânge două piese printr-o mișcare excentrică de pârghie, fără să indexeze o poziție anume. Alegerea depinde dacă aplicația necesită repoziționare exactă sau doar o fixare temporară rapidă."
+        "a": "Un element de indexare, precum GN 823, blochează o poziție prin introducerea unui bolț într-un locaș, fiind folosit la reglaje repetitive de mașină. O clemă rotativă, precum GN 876, este destinată fixării piesei, nu indexării unei poziții anume. Alegerea depinde dacă aplicația necesită repoziționare exactă sau doar o fixare temporară rapidă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un reper Elesa+Ganter?",
@@ -383,8 +379,8 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Elesa+Ganter – Standard Machine Elements","url":"https://www.elesa-ganter.com","publisher":"Elesa+Ganter","accessed":"2026-09-25"},
       { title: "Elesa+Ganter - Standard Machine Elements", url: "https://www.elesa-ganter.com/", publisher: "Elesa+Ganter", accessed: "2026-09-22" },
@@ -397,21 +393,21 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     founded: 1675,
     overview: `Lesjöfors este un producător suedez de arcuri industriale, cu rădăcini într-o fierărie autorizată printr-un decret regal în 1675 la Lesjöström, Suedia, și crescut de-a lungul secolelor într-un grup cu situri de producție în mai multe țări. Compania produce arcuri standard și speciale din sârmă, arcuri plate, arcuri cu gaz și piese ștanțate, pentru aplicații care merg de la aerospațial la echipamente medicale. Din gama Lesjöfors putem oferta la comandă arcuri de compresie, extensie și torsiune, arcuri cu gaz și componente ștanțate, direct din catalogul producătorului.
 
-Gama tehnică acoperă arcuri în spirală de compresie, extensie, torsiune, garter și wave, arcuri plate de tip constant-force și power springs, arcuri cu gaz de compresie, torsiune sau blocabile din seria NitroSprings, plus operațiuni de presare și ștanțare pentru bucșe, inele de circlip și piese adânc trase. Producția e certificată conform ISO 9001, ISO 14001 și, pentru aplicații medicale, ISO 13485:2016 — un nivel de certificare relevant pentru clienți din industrii reglementate, nu doar din construcția generală de mașini.
+Gama tehnică acoperă arcuri în spirală de compresie, extensie, torsiune, garter și wave, arcuri plate de tip constant-force și power springs, arcuri cu gaz cu azot din seria NitroSprings, plus operațiuni de presare și ștanțare, inclusiv arcuri disc, șaibe ondulate și componente ștanțate. Producția e certificată conform ISO 9001, ISO 14001 și, pentru aplicații medicale, ISO 13485:2016 — un nivel de certificare relevant pentru clienți din industrii reglementate, nu doar din construcția generală de mașini.
 
 Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri dimensionate precis pe forță și cursă — utilaje industriale, echipamente auto de aftermarket, dispozitive medicale — și unde un arc de catalog generic nu acoperă parametrii ceruți de aplicație.`,
     whyChoose: [
       "Gamă largă: arcuri din sârmă, arcuri plate, arcuri cu gaz și piese ștanțate, sub același producător",
       "Certificare ISO 13485:2016 pentru aplicații medicale, pe lângă ISO 9001 și ISO 14001",
       "Istoric industrial din 1675, cu situri de producție multiple pentru capacitate și flexibilitate",
-      "Arcuri cu gaz din seria NitroSprings, disponibile în variante de compresie, torsiune sau blocabile",
+      "Arcuri cu gaz cu azot din seria NitroSprings, pentru aplicații industriale și de scule cu forțe mari",
       "Acoperire pe zece industrii diferite, de la aerospațial la echipamente medicale"
     ],
     keyProducts: [
       { name: "Arcuri din Sârmă (Compresie, Extensie, Torsiune)", description: "Arcuri spiralate standard și custom, în variante de compresie, extensie, torsiune, garter și wave, dimensionate pe forța și cursa cerute de aplicație. Aplicație tipică: mecanisme de reglare, sisteme de amortizare sau elemente de siguranță în utilaje industriale. Pentru ofertă, clientul trebuie să precizeze diametrul sârmei, numărul de spire, cursa și forța necesară, sau să trimită un desen tehnic." },
       { name: "Arcuri Plate (Constant Force și Power Springs)", description: "Arcuri plate care livrează forță practic constantă pe toată cursa, folosite acolo unde un arc spiralat clasic ar da o forță variabilă neconstantă. Aplicație tipică: mecanisme de retragere, sisteme de tensionare pentru benzi sau cabluri. Clientul trebuie să precizeze forța dorită, lățimea benzii și spațiul de montaj disponibil." },
-      { name: "Arcuri cu Gaz Seria NitroSprings", description: "Arcuri cu gaz de compresie, torsiune sau blocabile, pentru mecanisme de ridicare, susținere sau amortizare unde un arc mecanic clasic ar fi prea voluminos. Aplicație tipică: capace și panouri de acces, scaune reglabile, sisteme de susținere pentru echipamente. Pentru ofertă, e nevoie de forța de susținere necesară și cursa de extensie." },
-      { name: "Piese Presate și Ștanțate", description: "Bucșe, inele de circlip, piese adânc trase și arcuri disc, produse prin presare și ștanțare pentru volume medii și mari. Aplicație tipică: componente de fixare sau etanșare integrate în ansambluri mecanice mai mari. Clientul trebuie să trimită desenul tehnic al piesei sau dimensiunile și materialul dorit." }
+      { name: "Arcuri cu Gaz Seria NitroSprings", description: "Arcuri cu gaz cu azot comprimat, cu forță mare și repetabilă, pentru aplicații industriale grele și de scule, cu curse de la 6 la 900 mm. Pentru ofertă, e nevoie de forța necesară și de cursa de lucru." },
+      { name: "Piese Presate și Ștanțate", description: "Arcuri disc, șaibe ondulate și componente ștanțate, produse prin presare și ștanțare. Aplicație tipică: componente de fixare sau etanșare integrate în ansambluri mecanice mai mari. Clientul trebuie să trimită desenul tehnic al piesei sau dimensiunile și materialul dorit." }
     ],
     industries: [
       "Aerospațial — arcuri de precizie pentru mecanisme critice",
@@ -439,7 +435,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "code": "Wave Springs",
-        "description": "Arcuri disc tip undă, spațiu axial redus față de arcurile clasice"
+        "description": "Arcuri tip undă, cu spațiu axial redus față de arcurile clasice"
       },
       {
         "code": "Wire Forms",
@@ -471,7 +467,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "code": "NitroSprings",
-        "description": "Arcuri cu gaz din gama NitroSprings, forță reglabilă pe cursă"
+        "description": "Arcuri cu gaz cu azot din gama NitroSprings, pentru aplicații industriale grele"
       },
       {
         "code": "Stainless Steel Gas Springs",
@@ -485,7 +481,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     faq: [
       {
         "q": "Ce tip de arc Lesjöfors aleg pentru o forță constantă pe toată cursa?",
-        "a": "Pentru o forță aproape constantă pe toată lungimea de derulare, familia Constant Force Springs este potrivă, fiind folosită la mecanisme de contragreutate sau la sisteme de rulare a cablurilor. Dacă este nevoie doar de rebobinare, Power Springs oferă o soluție mai compactă. Alegerea corectă ține cont de cursa totală, de spațiul de montaj disponibil și de numărul de cicluri de lucru estimat pe durata de viață."
+        "a": "Pentru o forță aproape constantă pe toată lungimea de derulare, familia Constant Force Springs este potrivită, fiind folosită la mecanisme de contragreutate sau la sisteme de rulare a cablurilor. Dacă este nevoie doar de rebobinare, Power Springs oferă o soluție mai compactă. Alegerea corectă ține cont de cursa totală, de spațiul de montaj disponibil și de numărul de cicluri de lucru estimat pe durata de viață."
       },
       {
         "q": "Aduceți la comandă arcuri Lesjöfors în România?",
@@ -493,7 +489,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "q": "Ce diferență este între arcurile cu gaz NitroSprings și cele clasice de compresie Lesjöfors?",
-        "a": "NitroSprings sunt arcuri cu gaz presurizat, care oferă o forță aproape constantă pe cursă și o mișcare amortizată, fiind folosite la capace, scaune sau echipamente reglabile. Arcurile clasice de compresie sunt elicoidale metalice, cu forța proporțională cu deformarea, potrivite pentru suspensii sau mecanisme simple de revenire. Selecția depinde de tipul de mișcare dorit și de spațiul de montaj din produsul final."
+        "a": "NitroSprings sunt arcuri cu gaz presurizat cu azot, cu forță mare și repetabilă, destinate aplicațiilor industriale grele și de scule. Arcurile clasice de compresie sunt elicoidale metalice, cu forța proporțională cu deformarea, potrivite pentru suspensii sau mecanisme simple de revenire. Selecția depinde de tipul de mișcare dorit și de spațiul de montaj din produsul final."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un arc Lesjöfors?",
@@ -502,8 +498,8 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Coil Springs and Wire Forms","url":"https://www.lesjofors.com/en/products/coil-springs-and-wire-forms/","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
       {"title":"Lesjöfors – Products","url":"https://www.lesjofors.com/en","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
