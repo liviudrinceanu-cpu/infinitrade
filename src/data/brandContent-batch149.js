@@ -282,15 +282,15 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
     headquarters: "Beverate di Brivio, Italia",
     overview: `Electro Adda fabrică motoare electrice asincrone trifazate din 1948, la Beverate di Brivio, în provincia Lecco, Italia, cu o producție anuală declarată de peste 110.000 de motoare, de la fracțiuni de kW până la 1,6 MW. Gama principală se împarte în două serii constructive: seria C, din aluminiu, pentru mărimi de carcasă între 63 și 355LT, și seria CS, cu carcasă din oțel, pentru puteri între 250 și 1.600 kW. Pentru România putem oferta motoare din ambele serii, plus variante speciale pentru zone cu risc de explozie sau pentru generatoare eoliene.
 
-Dincolo de motorul standard, Electro Adda produce o gamă amplă de variante constructive: motoare cu frână (seria FE, FECC), motoare cu inele colectoare (seria CR ad anelli), motoare antideflagrante certificate ATEX, motoare răcite cu manta de apă, generatoare asincrone pentru turbine eoliene și microcentrale hidroelectrice, motoare pentru role transportoare (motorulli), o serie dedicată temperaturilor ridicate și una pentru mediul marin. Această acoperire largă a variantelor constructive pe aceeași bază de motor o apropie de producători precum Menzel Elektromotoren, orientat însă spre puteri mai mari.
+Dincolo de motorul standard, Electro Adda produce o gamă amplă de variante constructive: motoare cu frână (seria FE, FECC), motoare cu inele colectoare (seria CR ad anelli), motoare antideflagrante certificate ATEX, motoare răcite cu manta de apă, generatoare asincrone pentru turbine eoliene și microcentrale hidroelectrice, motoare pentru role transportoare (motorulli), o serie dedicată temperaturilor ridicate și una pentru mediul marin. 
 
-Pentru instalații din România — energie regenerabilă, industrie alimentară, siderurgie, marină — Electro Adda are sens acolo unde e nevoie de o variantă constructivă specifică (antiex, cu frână, răcită cu apă) pe un motor de putere medie, nu neapărat de puterea maximă disponibilă în catalog.`,
+Pentru instalații din România — de exemplu generatoare pentru turbine eoliene și hidro sau aplicații navale — Electro Adda are sens acolo unde e nevoie de o variantă constructivă specifică (antiex, cu frână, răcită cu apă) pe un motor de putere medie, nu neapărat de puterea maximă disponibilă în catalog.`,
     whyChoose: [
       "Variante constructive multiple documentate pe site, de la motorul standard la generator eolian sau motor pentru role transportoare",
       "Variante antideflagrante ATEX; alte certificări se confirmă pe cod, din documentația producătorului",
-      "Producție anuală mare, peste 110.000 de motoare, semn de continuitate a liniilor de fabricație",
+      "Producție anuală declarată de producător: peste 110.000 de motoare livrate pe an",
       "Serie CS cu carcasă din oțel pentru puteri de până la 1.600 kW, dincolo de plaja tipică a motorului de aluminiu",
-      "Variantă dedicată generatoarelor pentru turbine eoliene și microcentrale hidroelectrice, nișă acoperită de puțini producători",
+      "Variantă dedicată generatoarelor pentru turbine eoliene și microcentrale hidroelectrice (seria G)",
     ],
     keyProducts: [
       {
@@ -312,10 +312,10 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
     ],
     industries: [
       "Energie regenerabilă — generatoare pentru turbine eoliene și microcentrale hidroelectrice",
-      "Petrol și gaze — motoare antideflagrante certificate ATEX",
-      "Siderurgie — motoare cu carcasă din oțel pentru sarcini grele",
+      "Zone cu risc de explozie — motoare antideflagrante certificate ATEX (seria PE)",
+      "Servicii grele — motoare cu carcasă din oțel (seria CS), pentru sarcini grele",
       "Marină — motoare cu variante constructive pentru mediul naval",
-      "Industrie alimentară — motoare standard seria C pentru linii de procesare",
+      "Industrie generală — motoare standard seria C pentru acționări industriale",
     ],
     infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru seria C din aluminiu; pentru seria CS din oțel, termenul depășește de regulă 4 săptămâni. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
     limitation:
@@ -368,15 +368,15 @@ Pentru instalații din România — energie regenerabilă, industrie alimentară
     headquarters: "Hadsten, Danemarca",
     overview: `Hoyer Motors fabrică motoare electrice industriale și marine, cu sediul principal la Hadsten, în Danemarca, și operațiuni suplimentare la Frederikshavn și în China. Gama e organizată pe clase de eficiență energetică IEC — IE1, IE2, IE3 și IE4 — completată de motoare cu frână, motoare antiexplozive, motoare de medie tensiune, motoare EC și motoare sincrone cu magneți permanenți de clasă IE5. Pentru România putem oferta motoare din clasele IE3 și IE4, cerute tot mai des la echipamente noi din cauza cerințelor de eficiență energetică.
 
-Ce diferențiază oferta Hoyer e acoperirea explicită a segmentului marin, alături de cel industrial standard — motoare cu frână pentru medii marine și offshore, execuții rezistente la coroziune și la vibrații specifice navelor, pe lângă gama terestră obișnuită. Compania oferă și motoare cu magneți permanenți (PM) de eficiență IE5, peste clasa IE4, pentru clienți care vor un avans suplimentar de eficiență față de motorul asincron standard.
+Ce diferențiază oferta Hoyer e acoperirea explicită a segmentului marin, alături de cel industrial standard — motoare cu frână pentru medii marine și offshore, pe lângă gama terestră obișnuită. Compania oferă și motoare cu magneți permanenți (PM) de eficiență IE5, peste clasa IE4, pentru clienți care vor un avans suplimentar de eficiență față de motorul asincron standard.
 
 Pentru instalații din România cu cerințe stricte de eficiență energetică sau pentru echipamente destinate mediului marin, Hoyer oferă o alternativă europeană directă la motoarele asincrone standard IE3, cu opțiune de upgrade la IE4 sau la motorul PM de clasă IE5 acolo unde investiția se justifică prin economia de energie pe termen lung.`,
     whyChoose: [
       "Acoperire completă a claselor de eficiență IEC, de la IE1 la IE4, plus motor PM de clasă IE5",
-      "Gamă dedicată mediului marin — motoare cu frână pentru offshore, rezistente la coroziune și vibrații",
+      "Gamă dedicată mediului marin — motoare cu frână pentru medii marine și offshore",
       "Motoare de medie tensiune disponibile pentru instalații care depășesc plaja motorului standard de joasă tensiune",
-      "Motoare EC cu control electronic integrat, alternativă la motorul asincron clasic cu variator separat",
-      "Producție cu operațiuni în Danemarca și China, utilă pentru flexibilitate de aprovizionare pe volum",
+      "Motoare EC, cu control inteligent și design compact, conform producătorului",
+      "Prezență în Danemarca (Hadsten, Frederikshavn) și în China (Ningbo), conform site-ului producătorului",
     ],
     keyProducts: [
       {
@@ -385,7 +385,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
       {
         name: "Motoare marine cu frână",
-        description: "Motoare adaptate mediului marin și offshore, cu frână integrată și execuție rezistentă la coroziune și la vibrațiile specifice funcționării la bordul navelor, diferite de motorul terestru standard prin execuția pentru mediul marin; detaliile constructive se confirmă din documentația producătorului.",
+        description: "Motoare cu frână dezvoltate pentru medii marine și offshore; detaliile constructive se confirmă din documentația producătorului.",
       },
       {
         name: "Motoare antiexplozive (EX) și de medie tensiune (MV)",
@@ -397,7 +397,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
     ],
     industries: [
-      "Marină și offshore — motoare cu frână rezistente la coroziune și vibrații",
+      "Marină și offshore — motoare cu frână pentru medii marine și offshore",
       "Industrie generală — motoare IE3/IE4 pentru pompe, ventilatoare, benzi transportoare",
       "Zone cu risc de explozie — motoare antiexplozive certificate EX",
       "Instalații de medie tensiune — motoare MV pentru puteri ridicate",
@@ -424,11 +424,11 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       },
       {
         q: "Ce clasă de eficiență Hoyer Motors aleg pentru un echipament nou?",
-        a: "Pentru echipamente noi, clasa IE3 este de regulă minimul cerut de reglementările europene actuale, iar IE4 sau motorul PM de clasă IE5 aduc o reducere suplimentară de consum, justificată mai ales la motoare cu funcționare continuă și oră de rulaj ridicată.",
+        a: "Pentru echipamente noi, clasa IE3 este de regulă minimul cerut de reglementările europene actuale, iar IE4 sau motorul PM de clasă IE5 aduc o reducere suplimentară de consum, justificată mai ales la motoare cu funcționare continuă și număr mare de ore de funcționare.",
       },
       {
         q: "Ce motor Hoyer se potrivește pentru o instalație marină?",
-        a: "Gama de motoare marine cu frână, cu execuție rezistentă la coroziune și la vibrațiile specifice navelor, e concepută special pentru acest mediu, spre deosebire de motorul terestru standard.",
+        a: "Gama de motoare cu frână este dezvoltată de producător pentru medii marine și offshore; detaliile constructive se confirmă din documentația producătorului.",
       },
       {
         q: "Livrați motoare Hoyer în România și cât durează?",
@@ -450,14 +450,14 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
     headquarters: "Castenedolo, Italia",
     overview: `Motive este un producător italian de transmisie a puterii, cu sediul la Castenedolo, în provincia Brescia, care fabrică trei categorii de produse pe aceeași platformă: motoare electrice, invertoare de frecvență și reductoare mecanice. Motoarele trifazate sunt grupate în seriile DELPHI (mărimi 56-132 și 160-355) și DELFIRE (clasă termică H), completate de seria MONO pentru motoare monofazate. Pentru România putem oferta motoare, invertoare și reductoare din gama standard, plus variante ATEX/IECEx pentru zone cu risc de explozie.
 
-Ce diferențiază Motive e integrarea motor-invertor-reductor sub aceeași marcă: invertoarele din familiile NEO și NANO au variante dedicate pentru ventilatoare (NEO/NANO-VENT), compresoare (NEO/NANO-COMP), pompe (NEO-PUMP) și aplicații solare (NEO-SOLAR), plus conectivitate WiFi (NEO-WiFi). Reductoarele acoperă construcții coaxiale (ROBUS-A, ROBUS-25-60), ortogonale (ENDURO), cu axe paralele și pinionare (STON), melcate (BOX) și variatoare mecanice (VARIO). Compania oferă și dispozitivul DOCTOR 4.0 pentru mentenanță predictivă, aplicabil pe motoarele proprii.
+Ce diferențiază Motive e integrarea motor-invertor-reductor sub aceeași marcă: invertoarele din familiile NEO și NANO au variante dedicate pentru ventilatoare (NEO/NANO-VENT), compresoare (NEO/NANO-COMP), pompe (NEO-PUMP) și aplicații solare (NEO-SOLAR), plus conectivitate WiFi (NEO-WiFi). Reductoarele acoperă construcții coaxiale (ROBUS-A, ROBUS-25-60), ortogonale (ENDURO), cu axe paralele și pendulare (STON), melcate (BOX) și variatoare mecanice (VARIO). Compania oferă și dispozitivul DOCTOR 4.0 pentru mentenanță predictivă, aplicabil pe motoarele proprii.
 
 Pentru integratori din România care caută un singur furnizor pentru motor, invertor și reductor pe același proiect, Motive oferă o gamă completă, cu variante certificate ATEX/IECEx acolo unde aplicația o cere, evitând compatibilizarea între componente de la producători diferiți.`,
     whyChoose: [
       "Gamă completă motor-invertor-reductor sub aceeași marcă, utilă la proiecte unde compatibilitatea între componente contează",
       "Invertoare dedicate pe aplicație — ventilatoare, compresoare, pompe, solar — nu doar un invertor generic reprogramat",
-      "Șase familii de reductoare mecanice, de la construcția coaxială la variatorul mecanic, acoperind majoritatea configurațiilor uzuale",
-      "Variante ATEX/IECEx disponibile atât pe motoare, cât și pe invertoare, pentru zone cu risc de explozie",
+      "Mai multe familii de reductoare mecanice (ROBUS, ENDURO, STON, BOX, VARIO), de la construcția coaxială la variatorul mecanic, acoperind majoritatea configurațiilor uzuale",
+      "Variante ATEX pentru motoare, invertoare și reductoare, plus IECEx pe motoare, pentru zone cu risc de explozie",
       "Dispozitiv propriu de mentenanță predictivă (DOCTOR 4.0), aplicabil direct pe motoarele din gamă",
     ],
     keyProducts: [
@@ -475,7 +475,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       },
       {
         name: "Reductoare mecanice ROBUS, ENDURO, STON, BOX, VARIO",
-        description: "Șase familii de reductoare acoperind construcții coaxiale (ROBUS-A, ROBUS-25-60), ortogonale (ENDURO), cu axe paralele și pinionare (STON), melcate (BOX) și variatoare mecanice de turație (VARIO), pentru cuplare directă cu motoarele din gama proprie.",
+        description: "Mai multe familii de reductoare acoperind construcții coaxiale (ROBUS-A, ROBUS-25-60), ortogonale (ENDURO), cu axe paralele și pendulare (STON), melcate (BOX) și variatoare mecanice de turație (VARIO), pentru cuplare directă cu motoarele din gama proprie.",
       },
     ],
     industries: [
@@ -483,7 +483,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       "Ventilație industrială — invertoare NEO/NANO-VENT pentru control turație",
       "Compresoare — invertoare NEO/NANO-COMP",
       "Energie solară — invertoare NEO-SOLAR pentru aplicații fotovoltaice",
-      "Zone cu risc de explozie — motoare și invertoare certificate ATEX/IECEx",
+      "Zone cu risc de explozie — motoare certificate ATEX/IECEx și invertoare certificate ATEX",
     ],
     infinitrade: `Pentru Motive lucrăm cu informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand, pe care nu l-am mai comercializat până acum. Aducem la comandă motoare, invertoare și reductoare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației cerute. Pentru ofertă, clientul trebuie să precizeze dacă are nevoie de motor, invertor, reductor sau de un set complet, familia dorită (DELPHI, NEO/NANO, ROBUS etc.) și, dacă aplicația o cere, certificarea ATEX/IECEx. Nu promitem disponibilitate din depozit pe niciuna dintre familii — configurațiile complete se confirmă, de regulă, direct cu fabrica din Italia.`,
     limitation:
@@ -506,7 +506,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       { code: "ROBUS-A", description: "Reductor mecanic coaxial" },
       { code: "ROBUS-25-60", description: "Reductor mecanic coaxial, gamă extinsă" },
       { code: "ENDURO", description: "Reductor mecanic ortogonal" },
-      { code: "STON", description: "Reductor cu axe paralele și pinionare" },
+      { code: "STON", description: "Reductor cu axe paralele și pendulare" },
       { code: "BOX", description: "Reductor melcat, montaj compact" },
       { code: "VARIO", description: "Variator mecanic de turație" },
       { code: "DOCTOR 4.0", description: "Dispozitiv IoT de mentenanță predictivă" },
@@ -544,7 +544,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
     headquarters: "Spišská Nová Ves, Slovacia",
     overview: `VYBO Electric este un producător slovac de motoare electrice industriale, cu sediul la Spišská Nová Ves, pe o platformă de producție de circa 10.000 mp. Gama acoperă motoare de joasă tensiune (seria H17RL, 132-2.500 kW; seria 3LC, 11-400 kW; seria 3AL, 0,25-22 kW) și motoare de medie și înaltă tensiune (H17R, 160-2.400 kW la 3.000-11.000 V; H27R, 160-20.000 kW la 6.000-11.000 V). Pentru România putem oferta motoare din gama de joasă tensiune și, la proiecte industriale mari, variante de medie tensiune.
 
-Ce diferențiază VYBO în segmentul de putere mare e acoperirea explicită a motoarelor pentru ciment și industrii cu inerție mare, cu variante speciale precum motoarele modulare cu inele colectoare de medie tensiune pentru fabricile de ciment sau motoarele antiexplozive H17RX/H27RX pentru zone cu risc de explozie. Gama include și motoare cu inele colectoare (H17R-SR, H27R-SR, 132-5.000 kW), convertoare de frecvență, generatoare și motoare de curent continuu, poziționându-l alături de producători precum Menzel Elektromotoren sau Electro Adda în segmentul de motoare de putere medie-mare.
+Ce diferențiază VYBO în segmentul de putere mare e acoperirea explicită a motoarelor pentru ciment și industrii cu inerție mare, cu variante speciale precum motoarele modulare cu inele colectoare de medie tensiune pentru fabricile de ciment sau motoarele antiexplozive H17RX/H27RX pentru zone cu risc de explozie. Gama include și motoare cu inele colectoare (H17R-SR, H27R-SR, până la 5.000 kW), convertoare de frecvență, generatoare și motoare de curent continuu.
 
 Pentru instalații din România — centrale electrice, fabrici de ciment, rafinării, ventilatoare și pompe industriale de mare putere — VYBO oferă o alternativă est-europeană directă la motoarele de medie și înaltă tensiune, cu certificări ISO 14001 și ISO 45001 pe procesul de producție.`,
     whyChoose: [
@@ -565,7 +565,7 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       },
       {
         name: "Motoare cu inele colectoare H17R-SR, H27R-SR",
-        description: "Variantă cu rotor bobinat a seriilor de medie și înaltă tensiune, între 132 și 5.000 kW, pentru aplicații cu pornire grea sau reglaj de turație prin rezistențe rotorice, inclusiv soluția modulară dezvoltată special pentru fabricile mari de ciment.",
+        description: "Variantă cu rotor bobinat a seriilor de medie și înaltă tensiune, până la 5.000 kW, pentru aplicații cu pornire grea sau reglaj de turație prin rezistențe rotorice, inclusiv soluția modulară dezvoltată special pentru fabricile mari de ciment.",
       },
       {
         name: "Motoare antiexplozive H17RX, H27RX",
@@ -576,7 +576,7 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       "Ciment — motoare modulare cu inele colectoare pentru mori și instalații mari",
       "Energie — centrale electrice, motoare de medie și înaltă tensiune",
       "Petrol și gaze — motoare antiexplozive H17RX/H27RX",
-      "Minerit — motoare de mare putere pentru benzi transportoare și concasoare",
+      "Instalații industriale de mare putere — motoare de medie și înaltă tensiune, în funcție de seria și puterea cerute",
       "Rafinării — motoare de medie tensiune pentru pompe și compresoare",
     ],
     infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
@@ -589,12 +589,12 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
       { code: "H17R", description: "Motor medie tensiune, 160-2.400 kW, 3.000-11.000 V, IC411" },
       { code: "H27R", description: "Motor înaltă tensiune, 160-20.000 kW, 6.000-11.000 V, IC611" },
       { code: "H27R-TB", description: "Motor înaltă tensiune, 132-4.000 kW, IC511" },
-      { code: "H17R-SR", description: "Motor cu inele colectoare, 132-5.000 kW" },
-      { code: "H27R-SR", description: "Motor cu inele colectoare, înaltă tensiune, 132-5.000 kW" },
+      { code: "H17R-SR", description: "Motor cu inele colectoare, până la 5.000 kW" },
+      { code: "H27R-SR", description: "Motor cu inele colectoare, înaltă tensiune, până la 5.000 kW" },
       { code: "H17RX", description: "Motor antiexploziv, joasă tensiune, seria H17RX, IC411" },
       { code: "H27RX", description: "Motor antiexploziv, înaltă tensiune, seria H27RX, IC511" },
       { code: "H27RXH", description: "Motor antiexploziv, înaltă tensiune, IC611" },
-      { code: "H30R", description: "Motor înaltă tensiune de mare putere, 2.000-7.000 kW, execuție inginerească" },
+      { code: "H30R", description: "Motor înaltă tensiune de mare putere; parametrii se confirmă pe cod, din documentația producătorului" },
       { code: "V800", description: "Convertor de frecvență (variable frequency drive) pentru motoare de gamă medie" },
       { code: "4LD", description: "Generator asincron derivat din platforma de motor standard, 55-5.000 kW" },
       { code: "1GDC", description: "Motor de curent continuu, gamă industrială, 30-1.200 kW" },

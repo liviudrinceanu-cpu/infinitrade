@@ -394,14 +394,14 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
     name: "EBRO Armaturen",
     founded: 1972,
     headquarters: "Hagen, Germania",
-    overview: `EBRO Armaturen este un producător german specializat în robineți fluture și sisteme de acționare pentru industria de proces, cu sediul la Hagen; compania de robineți funcționează ca firmă independentă din 1972, în cadrul grupului Bröer, ale cărui origini datează din 1934. Compania își dezvoltă și își produce propriile actuatoare și oferă robineți fluture, robineți cu sertar tip cuțit, clapete de reținere, robineți cu bilă și actuatoare pneumatice și electrice. Poziționarea de nișă i-a permis să acopere rapid cerințele tot mai stricte de etanșare și automatizare din industria chimică, alimentară și tratarea apei, unde robinetul fluture a devenit soluția standard pentru izolare și reglare pe diametre medii și mari.
+    overview: `EBRO Armaturen este un producător german specializat în robineți fluture și sisteme de acționare pentru industria de proces, cu sediul la Hagen; compania de robineți funcționează ca firmă independentă din 1972, în cadrul grupului Bröer, ale cărui origini datează din 1934. Compania își dezvoltă și își produce propriile actuatoare și oferă robineți fluture, robineți cu sertar tip cuțit, clapete de reținere, robineți cu bilă și actuatoare pneumatice și electrice. Robinetul fluture este o soluție frecventă pentru izolare și reglare pe diametre medii și mari în industria chimică, alimentară și tratarea apei.
 
-Robinetele fluture din seria Z acoperă construcția concentrică, cu disc și scaun din elastomer, pentru presiuni și temperaturi moderate, în variante wafer, lug sau cu flanșe, pentru montaj între conducte; diametrele disponibile se confirmă pe cod, din documentația EBRO. Pentru aplicații cu presiuni mai mari sau cicluri de închidere frecvente, gama include robinete cu disc dublu excentric și scaun metalic, cu etanșare bidirecțională și durată de viață extinsă la uzură. Actuatoarele proprii EBRO — pneumatice cu sfert de rotație și electrice cu poziționare proporțională — sunt dimensionate direct pentru cuplul robinetelor din gamă, eliminând incompatibilitățile care apar frecvent la asamblarea de componente de la producători diferiți.
+Robinetele fluture din seria Z acoperă construcția concentrică, cu disc și scaun din elastomer, pentru presiuni și temperaturi moderate, în variante wafer, lug sau cu flanșe, pentru montaj între conducte; diametrele disponibile se confirmă pe cod, din documentația EBRO. Pentru aplicații cu presiuni și temperaturi mai ridicate, gama include robinete fluture de înaltă performanță, cu construcție dublu excentrică. Actuatoarele proprii EBRO — pneumatice cu sfert de rotație și electrice cu poziționare proporțională — sunt dimensionate direct pentru cuplul robinetelor din gamă, eliminând incompatibilitățile care apar frecvent la asamblarea de componente de la producători diferiți.
 
-Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru aplicații generale, până la execuții integral din inox sau cu cauciucare specială pentru medii alimentare sau chimice agresive. Robinetele EBRO respectă cerințele de igienă din industria alimentară acolo unde discul și garnitura sunt certificate pentru contact alimentar, și sunt disponibile în execuții ATEX pentru zone cu risc de explozie. Se regăsesc frecvent în stații de tratare a apei, instalații de climatizare industrială, linii de proces din industria alimentară și rețele de distribuție a gazelor și lichidelor industriale, unde raportul preț-fiabilitate al construcției concentrice reprezintă principalul argument de alegere.`,
+Materialele corpului, discului și garniturii depind de model și de mediul vehiculat; se confirmă pe cod, din documentația EBRO. Robinetele EBRO respectă cerințele de igienă din industria alimentară acolo unde discul și garnitura sunt certificate pentru contact alimentar, și sunt disponibile în execuții ATEX pentru zone cu risc de explozie. Se regăsesc frecvent în stații de tratare a apei, instalații de climatizare industrială, linii de proces din industria alimentară și rețele de distribuție a gazelor și lichidelor industriale.`,
     whyChoose: [
       "Gamă completă robinet + actuator — corpuri fluture și acționări pneumatice sau electrice dimensionate reciproc, fără incompatibilități de cuplu",
-      "Construcție concentrică fiabilă — soluție dovedită pentru izolare și reglare pe diametre medii și mari, cu cost de achiziție competitiv",
+      "Construcție concentrică fiabilă — soluție frecventă pentru izolare și reglare pe diametre medii și mari",
       "Opțiuni pentru medii dificile — execuții integral inox și garnituri certificate pentru industria alimentară și chimică",
       "Actuatoare proprii cu poziționare proporțională — control fin al debitului, nu doar funcție de închis/deschis",
       "Gamă largă de robineți fluture — intervalul exact de diametre se confirmă pe cod, din documentația EBRO",
@@ -410,19 +410,19 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     keyProducts: [
       {
         name: "Robinet Fluture Concentric Seria Z",
-        description: "Robinetul fluture concentric este soluția de bază din gama EBRO pentru izolare și reglare pe conducte de diametru mediu și mare, cu disc centrat pe axul de rotație și garnitură din elastomer (EPDM, NBR sau Viton, în funcție de mediu) care asigură etanșare bidirecțională la presiuni moderate. Execuțiile disponibile includ wafer, pentru montaj între flanșe existente, și lug, pentru demontarea unui capăt de conductă fără golirea completă a sistemului; diametrele se confirmă pe cod, din documentația EBRO. Corpul se livrează din fontă ductilă sau oțel inoxidabil, cu disc din inox sau aluminiu acoperit, în funcție de agresivitatea fluidului. Este alegerea standard pentru sisteme HVAC industriale, tratarea apei și linii de proces cu cerințe moderate de presiune."
+        description: "Robinetul fluture concentric este soluția de bază din gama EBRO pentru izolare și reglare pe conducte de diametru mediu și mare, cu disc centrat pe axul de rotație și garnitură din elastomer (materialul se alege în funcție de mediu și se confirmă pe cod) care asigură etanșare bidirecțională la presiuni moderate. Execuțiile disponibile includ wafer, pentru montaj între flanșe existente, și lug, pentru demontarea unui capăt de conductă fără golirea completă a sistemului; diametrele se confirmă pe cod, din documentația EBRO. Materialele corpului și ale discului se confirmă pe cod, din documentația EBRO. Este alegerea standard pentru sisteme HVAC industriale, tratarea apei și linii de proces cu cerințe moderate de presiune."
       },
       {
         name: "Robinet Fluture cu Disc Dublu Excentric",
-        description: "Pentru aplicații cu presiuni mai ridicate, cicluri frecvente de manevră sau cerințe de etanșare bidirecțională strictă, EBRO oferă robinete fluture cu disc dublu excentric și scaun metalic sau semi-metalic. Poziția excentrică a discului reduce frecarea pe scaun în timpul deschiderii și închiderii, ceea ce prelungește semnificativ durata de viață a garniturii față de construcția concentrică clasică. Diametrele și presiunile nominale disponibile se confirmă pe cod, din documentația EBRO; seria HP este destinată aplicațiilor cu presiune și temperatură ridicate. Sunt recomandate pentru instalații industriale cu regim de funcționare intens, unde costul unei opriri neplanificate pentru înlocuirea unui robinet uzat depășește diferența de preț față de varianta concentrică."
+        description: "Pentru aplicații cu presiuni și temperaturi mai ridicate, EBRO oferă robinete fluture de înaltă performanță, cu construcție dublu excentrică. Diametrele și presiunile nominale disponibile se confirmă pe cod, din documentația EBRO; seria HP este destinată aplicațiilor cu presiune și temperatură ridicate."
       },
       {
         name: "Actuatoare Pneumatice cu Sfert de Rotație",
-        description: "Actuatoarele pneumatice EBRO, cu acțiune simplă sau dublă, sunt dimensionate direct pe cuplul necesar pentru fiecare diametru și presiune din gama de robinete fluture și robinete cu bilă a producătorului, eliminând riscul de subdimensionare care apare la combinarea componentelor de la furnizori diferiți. Gama acoperă cupluri de la câțiva newton-metri pentru robinete mici de proces, până la cupluri mari necesare pe robinete de DN600 și peste, cu opțiuni de poziționare, limitatoare de cursă, contacte de semnalizare și poziționer proporțional pentru reglare fină a debitului. Montajul respectă standardul de interfață ISO 5211, ceea ce permite și adaptarea pe robinete de la alți producători în cazul retehnologizărilor."
+        description: "Actuatoarele pneumatice EBRO, cu acțiune simplă sau dublă, sunt dimensionate direct pe cuplul necesar pentru fiecare diametru și presiune din gama de robinete fluture și robinete cu bilă a producătorului, eliminând riscul de subdimensionare care apare la combinarea componentelor de la furnizori diferiți. Cuplurile disponibile se confirmă pe model, din documentația EBRO; gama include opțiuni de poziționare, limitatoare de cursă, contacte de semnalizare și poziționer proporțional pentru reglare fină a debitului. Interfața de montaj a actuatorului se confirmă pe model, din documentația EBRO."
       },
       {
         name: "Robinet cu Bilă pentru Aplicații Industriale",
-        description: "Pe lângă gama de fluture, EBRO produce și robinete cu bilă cu trecere totală sau redusă, pentru aplicații unde pierderea de presiune trebuie minimizată sau unde etanșarea perfectă la închidere este critică — dozare de chimicale, linii de proces cu presiuni mai mari, sau puncte de izolare individuală pe instalații mici. Din gama EBRO face parte robinetul cu bilă în trei piese V-3MH; materialele, diametrele și variantele de acționare disponibile se confirmă pe cod, din documentația producătorului."
+        description: "Pe lângă gama de fluture, EBRO produce și robinete cu bilă în trei piese, destinate izolării lichidelor pure, neutre sau agresive. Din gama EBRO face parte robinetul cu bilă în trei piese V-3MH; materialele, diametrele și variantele de acționare disponibile se confirmă pe cod, din documentația producătorului."
       }
     ],
     industries: [
@@ -436,10 +436,10 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     certifications: [
       "CE — marcaj de conformitate pentru robineții fluture și actuatoarele vândute în Uniunea Europeană",
       "ATEX — execuții de robinet și actuator disponibile pentru zone cu risc de explozie",
-      "ISO 9001 — management al calității pentru proiectarea și producția robinetelor fluture și a actuatoarelor",
+      "Calitate — certificatele aplicabile fiecărui produs se confirmă pe cod, din documentația EBRO",
       "Materiale certificate pentru contact alimentar pe execuțiile dedicate industriei alimentare"
     ],
-    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Configurațiile standard, cu actuator pneumatic, sunt de regulă disponibile în 24–72 h, iar execuțiile cu inox integral, certificare alimentară sau ATEX ajung în 1–4 săptămâni la comandă.",
+    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Termenul de livrare se confirmă pe cod: 24–72 h dacă articolul este în stocul nostru sau într-un stoc extern, iar la comandă de regulă 1–4 săptămâni.",
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea electronică a poziționerelor pe actuatoarele electrice — acestea rămân în sarcina rețelei tehnice EBRO.",
     sources: [
       {"title":"Products","url":"https://www.ebro-armaturen.com/en/products/","publisher":"EBRO Armaturen","accessed":"2026-09-22"},
@@ -477,7 +477,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "H 011",
-        "description": "Robinet fluture PTFE pentru medii chimice agresive"
+        "description": "Robinet fluture care combină proprietățile unui robinet pentru chimicale cu cerințele de igienă"
       },
       {
         "code": "HP 111",
@@ -493,15 +493,15 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "WB 12",
-        "description": "Vană cu sertar tip cuțit, variantă extinsă"
+        "description": "Vană cu sertar tip cuțit, variantă cu flanșe duble"
       },
       {
         "code": "HG",
-        "description": "Vană cu sertar tip cuțit pentru aplicații grele"
+        "description": "Vană cu sertar tip cuțit bidirecțională, pentru pastă de celuloză, leșie și suspensii concentrate"
       },
       {
         "code": "HX",
-        "description": "Vană cu sertar tip cuțit de gabarit mare"
+        "description": "Vană cu sertar tip cuțit tip lug, întărită pentru presiuni bidirecționale ridicate"
       },
       {
         "code": "RSK",
@@ -531,11 +531,11 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     faq: [
       {
         "q": "Ce robinet fluture EBRO aleg pentru medii chimice agresive?",
-        "a": "Seria H 011 sau T 211-A, ambele căptușite cu PTFE, sunt recomandate pentru medii chimice agresive unde etanșarea elastică standard s-ar degrada rapid. Alegerea exactă depinde de temperatura de proces și de compatibilitatea chimică a fluidului vehiculat prin conductă."
+        "a": "Seria T 211-A, căptușită cu PTFE, este destinată chimicalelor și mediilor puternic corozive, unde etanșarea elastică standard s-ar degrada rapid; seria H 011 combină proprietățile unui robinet pentru chimicale cu cerințele de igienă. Alegerea exactă depinde de temperatura de proces și de compatibilitatea chimică a fluidului vehiculat prin conductă."
       },
       {
         "q": "Ce diferență este între vana EBRO WB și HG?",
-        "a": "WB este vana de bază tip cuțit, potrivită pentru aplicații standard de izolare pe linii de proces sau ape uzate. HG este varianta pentru aplicații grele, cu o construcție mai robustă, recomandată acolo unde solicitările mecanice sau abraziunea materialului vehiculat sunt mai ridicate."
+        "a": "WB este vana de bază tip cuțit, potrivită pentru apă, nămol și ape uzate. HG este destinată, conform producătorului, pastei de celuloză, leșiei și suspensiilor concentrate; alegerea exactă se confirmă pe cod, din documentația EBRO."
       },
       {
         "q": "Livrați robinete și vane EBRO Armaturen în România?",
@@ -547,7 +547,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "q": "Ce este unitatea de control EBRO SBU-Basic?",
-        "a": "Este o unitate compactă de semnalizare a poziției (switch box), montată direct pe actuatorul pneumatic conform VDI/VDE 3845, care raportează pozițiile finale ale vanei către sistemul de automatizare."
+        "a": "Este o unitate compactă de semnalizare a poziției (switch box), montată direct pe actuatorul pneumatic, care raportează pozițiile finale ale vanei către sistemul de automatizare."
       }
     ],
     evidenceClass: "transactional",

@@ -4,7 +4,7 @@ export const brandContentBatch151 = {
   branson: {
     name: "Branson",
     headquarters: "SUA",
-    overview: `Branson este marca americană a grupului Emerson pentru sudura și curățarea industrială prin ultrasunete, prezentă în producția de piese din plastic și metal care nu pot fi asamblate prin adezivi sau șuruburi. Gama acoperă sudura cu ultrasunete, sudura prin vibrații, sudura cu laser și cu infraroșu, alături de sisteme de curățare cu ultrasunete și degresare cu vapori pentru componente metalice. Din acest portofoliu putem oferta generatoare de sudură, actuatoare, sudoare portabile și linii complete de asamblare, pentru fabricanți din automotive, semiconductori, farma și industria alimentară care au nevoie de îmbinări repetabile, fără particule contaminante.
+    overview: `Branson este marca americană a grupului Emerson pentru sudura și curățarea industrială prin ultrasunete, prezentă în producția de piese din plastic și metal care nu pot fi asamblate prin adezivi sau șuruburi. Gama acoperă sudura cu ultrasunete, sudura prin vibrații, sudura cu laser și cu infraroșu, alături de sisteme de curățare cu ultrasunete și degresare cu vapori pentru componente metalice. Din acest portofoliu putem oferta generatoare de sudură, actuatoare, sudoare portabile și linii complete de asamblare, pentru fabricanți care au nevoie de îmbinări repetabile.
 
 Ce diferențiază echipamentele Branson este controlul fin al amplitudinii și energiei de sudură, prin generatoare digitale din seria DCX, cu moduri de sudură pe energie și control prin rețea. Seria Polaris este o platformă configurabilă de sudură cu ultrasunete, cu opțiuni de actuator pneumatic, în timp ce sudoarele portabile precum LPX acoperă reparațiile și seriile mici direct pe linie. Categoria de curățare, cu sistemele Benchmark și degresoarele cu vapori B452P, deservește piese metalice de precizie înainte de asamblare sau vopsire.
 
@@ -26,7 +26,7 @@ Pentru un integrator sau un producător din România, Branson înseamnă acces l
       "Automotive — sudura componentelor din plastic pentru bord, conectori și subansamble electrice.",
       "Semiconductori — curățare cu ultrasunete de precizie a componentelor înainte de asamblare.",
       "Farma — sudură și sigilare pentru dispozitive medicale și ambalaje fără contaminare.",
-      "Industria alimentară — degresare și curățare a pieselor metalice din liniile de procesare.",
+      "Dispozitive medicale și aerospațial — curățare de precizie a componentelor care cer un nivel ridicat de curățenie.",
     ],
     infinitrade: `Branson face parte din portofoliul Emerson, iar informațiile de mai sus vin din paginile publice ale producătorului american, fără date proprii de stoc pe această gamă. Aducem echipamente de sudură și curățare Branson la comandă, prin canalele de aprovizionare disponibile în Europa, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport; nu promitem o disponibilitate permanentă pe fiecare model din gamă. Pentru o ofertă corectă, trimiteți-ne tipul de material de sudat, dimensiunea piesei și dacă aveți nevoie de un sistem de banc sau de un sudor portabil.`,
     limitation: "Nu putem confirma configurarea software a sistemelor Polaris sau service-ul acoperit de garanția Emerson pentru aceste echipamente.",
@@ -72,25 +72,25 @@ Pentru un integrator sau un producător din România, Branson înseamnă acces l
     headquarters: "Cary, Illinois, SUA",
     overview: `Durex Industries este un producător american de încălzitoare electrice industriale la comandă, cu sediul la Cary, Illinois, înființat în 1980 și certificat ISO 9001. Gama include încălzitoare cu cartuș, tubulare, de imersie, de circulație, flexibile din silicon sau Kapton și elemente turnate (cast-in), alături de senzori de temperatură cu termocuplu sau RTD. Din acest portofoliu putem oferta rezistențe și senzori pentru instalații de proces din chimie, farma, industria alimentară și energie, produse pe specificația clientului, nu din catalog standard.
 
-Fabrica din Cary s-a extins la peste 13.000 m² de producție, împărțită între divizia Process Heat, cu cazane de circulație având ștampilă ASME „U" pentru presiuni de până la 3.000 psig și temperaturi de 1500°F, și divizia Heating & Sensing Components, dedicată încălzitoarelor mici și senzorilor. Elementele tubulare ajung la peste 760°C, iar gama pentru semiconductori include plăci de încălzire tip pedestal și hot chuck pentru echipamente de depunere și gravură.
+Fabrica din Cary are peste 13.000 m² de producție (145.000 sq ft, conform paginii oficiale despre companie), iar gama include încălzitoare de proces și componente de încălzire și senzori. Gama include și încălzitoare pentru echipamente de semiconductori; temperaturile maxime se confirmă pe tipul de încălzitor, din documentația producătorului.
 
 Pentru o companie din România, Durex Industries înseamnă acces la încălzitoare proiectate exact pe geometria echipamentului — cazan, rezervor, cameră de proces — acolo unde o rezistență standard din piață nu se potrivește. E o soluție de luat în calcul pentru retehnologizări sau piese de schimb la instalații termice mai vechi, unde desenul original nu mai există.`,
     whyChoose: [
       "Fabricație la comandă — fiecare încălzitor este dimensionat pe puterea, tensiunea și geometria transmise de client, nu ales dintr-un catalog fix.",
-      "Temperaturi ridicate — elementele tubulare ajung la peste 760°C, iar cazanele de circulație la 1500°F, cu ștampilă ASME „U” pentru vase sub presiune.",
+      "Temperaturi ridicate — limitele de temperatură și presiune se confirmă pe tipul de încălzitor, din documentația producătorului.",
       "Senzori de temperatură — termocuple tip J și K și traductoare RTD, ca opțiune pentru monitorizarea temperaturii.",
-      "Divizie dedicată semiconductorilor — plăci de încălzire tip pedestal și hot chuck pentru echipamente de depunere și gravură.",
+      "Gamă pentru semiconductori — încălzitoare tip pedestal; specificațiile se confirmă din documentația producătorului.",
       "Certificare ISO 9001 — proces de fabricație documentat, relevant pentru industrii reglementate precum farma și chimia.",
     ],
     keyProducts: [
       { name: "Încălzitoare cu cartuș", description: "Rezistențe cilindrice montate în orificii forate, pentru încălzirea directă a matrițelor, plăcilor sau blocurilor metalice; varianta swaged suportă temperaturi ridicate și este dimensionată pe puterea și diametrul cerute de client." },
-      { name: "Încălzitoare de circulație", description: "Cazane electrice pentru încălzirea lichidelor sau gazelor în circuit, cu ștampilă ASME „U” pentru presiuni de până la 3.000 psig și temperaturi de până la 1500°F, folosite în instalații de proces." },
-      { name: "Elemente tubulare", description: "Rezistențe tubulare drepte sau formate, folosite ca elemente de încălzire pentru cuptoare, rezervoare sau linii de aer cald, cu temperaturi de lucru de peste 760°C." },
+      { name: "Încălzitoare de circulație", description: "Cazane electrice pentru încălzirea lichidelor sau gazelor în circuit, folosite în instalații de proces; presiunea și temperatura maximă se confirmă din documentația producătorului." },
+      { name: "Elemente tubulare", description: "Rezistențe tubulare drepte sau formate, folosite ca elemente de încălzire pentru cuptoare, rezervoare sau linii de aer cald." },
       { name: "Încălzitoare flexibile și senzori de temperatură", description: "Încălzitoare flexibile din silicon, Kapton sau folie mică, plus senzori cu termocuplu (tip J sau K) sau RTD, pentru monitorizarea temperaturii direct pe suprafața încălzită." },
     ],
     certifications: ["ISO 9001 — companie certificată pentru managementul calității în fabricație"],
     industries: [
-      "Semiconductori — plăci de încălzire tip pedestal și hot chuck pentru echipamente de depunere și gravură.",
+      "Semiconductori — încălzitoare tip pedestal pentru echipamente de semiconductori.",
       "Chimie — cazane de circulație electrică pentru încălzirea lichidelor de proces.",
       "Farma — încălzitoare de proces fabricate conform documentației cerute de un mediu certificat ISO 9001.",
       "Industria alimentară — elemente de încălzire pentru linii de procesare și rezervoare.",
@@ -103,7 +103,7 @@ Pentru o companie din România, Durex Industries înseamnă acces la încălzito
       { code: "Tubular Heating Elements", description: "element de încălzire tubular, drept sau format" },
       { code: "Immersion Heaters", description: "încălzitor de imersie pentru lichide de proces" },
       { code: "Screw Plug Immersion Heaters", description: "încălzitor de imersie cu montare pe filet" },
-      { code: "Circulation Heaters", description: "cazan electric de circulație, cu ștampilă ASME U" },
+      { code: "Circulation Heaters", description: "cazan electric de circulație" },
       { code: "Inline Heaters", description: "încălzitor montat direct pe conductă" },
       { code: "Process Air Heaters", description: "încălzitor pentru aer de proces" },
       { code: "Storage Tank Heaters", description: "încălzitor pentru rezervoare de stocare" },
@@ -141,23 +141,23 @@ Pentru o companie din România, Durex Industries înseamnă acces la încălzito
     headquarters: "SUA",
     overview: `Flexitallic este un producător de garnituri industriale înființat în 1912, cu operațiuni de fabricație în Texas, în Statele Unite. Gama sa acoperă garnituri spiralate (spiral wound), garnituri kammprofile, foi comprimate, garnituri de tip Change și materiale filler pe bază de grafit, PTFE sau vermiculită expandată (Thermiculite), toate destinate etanșării flanșelor din instalații de proces. Din acest portofoliu putem oferta garnituri pentru flanșe din rafinării, platforme petroliere și instalații chimice, acolo unde o garnitură plată standard nu rezistă la presiune sau temperatură.
 
-Seriile FLEX DC și FLEX MW acoperă garniturile spiralate clasice, cu bandă metalică înfășurată și filler interschimbabil, în timp ce familia Thermiculite (715, 815, 835, 845 Flexpro) înlocuiește azbestul din garniturile kammprofile și foile comprimate, cu variante fără fibre pentru medii agresive. Gama RIGFLEX (RJ, FP) și Sigma ONE acoperă garniturile metalice solide, pentru presiuni și temperaturi ridicate unde spiralatele nu mai fac față. Gama este orientată spre petrol și gaze, rafinării și industrie chimică; standardele și certificările aplicabile fiecărui produs se confirmă pe cod, din documentația producătorului.
+Seria FLEX DC acoperă garniturile spiralate clasice, cu bandă metalică înfășurată și filler interschimbabil, în timp ce familia Thermiculite (715, 815, 835, 845 Flexpro) înlocuiește azbestul din garniturile kammprofile și foile comprimate, cu variante fără fibre pentru medii agresive. Gama RIGFLEX (RJ, FP) acoperă garniturile metalice solide, pentru presiuni și temperaturi ridicate unde spiralatele nu mai fac față, iar Sigma ONE este o garnitură pe bază de PTFE biaxial orientat cu filler proprietar, dezvoltată pentru aplicații chimice solicitante. Gama este orientată spre petrol și gaze, rafinării și industrie chimică; standardele și certificările aplicabile fiecărui produs se confirmă pe cod, din documentația producătorului.
 
 Pentru instalații din România care lucrează cu flanșe la presiuni și temperaturi ridicate — rafinării, stații de compresoare, linii chimice — Flexitallic oferă o alternativă la garniturile plate standard, cu materiale filler alese în funcție de mediul de lucru. E o soluție de verificat mai ales la revizii planificate, unde specificația flanșei impune o garnitură certificată.`,
     whyChoose: [
       "Peste un secol de fabricație — marca datează din 1912, cu o gamă extinsă de garnituri pentru flanșe industriale.",
       "Familie fără azbest — seria Thermiculite înlocuiește fillerele clasice cu vermiculită expandată, pentru medii agresive și temperaturi ridicate.",
-      "Acoperire completă de tip garnitură — spiralate (FLEX DC, FLEX MW), kammprofile, foi comprimate și garnituri metalice solide (RIGFLEX, Sigma ONE).",
+      "Acoperire completă de tip garnitură — spiralate (FLEX DC), kammprofile, foi comprimate, garnituri metalice solide (RIGFLEX) și garnituri pe bază de PTFE (Sigma ONE).",
       "Documentație de conformitate — standardele aplicabile (de exemplu API 607 sau ASME B16.5) se confirmă pe codul produsului, din documentația producătorului.",
       "Rețea internațională de distribuție — prezență documentată dincolo de piața americană, utilă pentru piese de schimb la revizii.",
     ],
     keyProducts: [
-      { name: "Garnituri spiralate FLEX DC / FLEX MW", description: "Garnituri spiralate cu bandă metalică înfășurată și filler interschimbabil (grafit, PTFE sau alte materiale), pentru etanșarea flanșelor standard din instalații de proces, rafinării și petrochimie." },
+      { name: "Garnituri spiralate FLEX DC", description: "Garnituri spiralate cu bandă metalică înfășurată și filler interschimbabil (grafit, PTFE sau alte materiale), pentru etanșarea flanșelor standard din instalații de proces, rafinării și petrochimie." },
       { name: "Familia Thermiculite 715/815/835/845 Flexpro", description: "Materiale filler și garnituri fără azbest pe bază de vermiculită expandată, disponibile ca foaie fără miez, foaie tanjată sau ca strat în garniturile kammprofile, pentru medii chimice agresive și temperaturi ridicate." },
-      { name: "Garnituri metalice RIGFLEX și Sigma ONE", description: "Garnituri metalice solide sau semi-solide pentru presiuni și temperaturi la care garniturile spiralate obișnuite nu mai sunt suficiente, folosite în rafinării și instalații petrochimice." },
+      { name: "Garnituri RIGFLEX și Sigma ONE", description: "RIGFLEX: garnituri metalice solide pentru presiuni și temperaturi la care garniturile spiralate obișnuite nu mai sunt suficiente. Sigma ONE: garnitură pe bază de PTFE biaxial orientat cu filler proprietar, dezvoltată pentru aplicații chimice solicitante." },
       { name: "Foi comprimate și garnituri Change", description: "Foi comprimate (compressed fibre sheet) și garnituri din familia Change, cu filler interschimbabil pe bază de grafit, PTFE sau Corriculite, pentru aplicații generale de etanșare a flanșelor." },
     ],
-    certifications: ["ISO 9001:2015 — certificat pentru unitățile de producție din Texas"],
+    certifications: ["ISO 9001 — certificarea se confirmă din documentația producătorului"],
     industries: [
       "Petrol și gaze — garnituri pentru flanșe în rafinării și instalații de extracție.",
       "Chimie — garnituri fără azbest pentru medii corozive și temperaturi ridicate.",
@@ -167,27 +167,27 @@ Pentru instalații din România care lucrează cu flanșe la presiuni și temper
     limitation: "Nu putem confirma un partener sau un depozit cu raft propriu în România sau în regiune, dincolo de rețeaua internațională menționată pe site-ul producătorului.",
     productCodes: [
       { code: "FLEX DC", description: "garnitură spiralată cu filler interschimbabil" },
-      { code: "HPG", description: "garnitură de înaltă performanță tip CGI" },
-      { code: "FLEX MW", description: "garnitură spiralată pentru aplicații generale" },
-      { code: "FLEX SL", description: "garnitură spiralată subțire pentru flanșe standard" },
+      { code: "HPG", description: "garnitură Flexitallic; tipul constructiv se confirmă pe cod, din documentația producătorului" },
+      { code: "FLEX MW", description: "garnitură pentru guri de vizitare (manway), pentru emisii fugitive" },
+      { code: "FLEX SL", description: "garnitură Flexitallic proiectată pentru fiabilitate pe termen lung; standardele aplicabile se confirmă pe cod" },
       { code: "RIGFLEX RJ", description: "garnitură metalică solidă tip ring joint" },
       { code: "RIGFLEX FP", description: "garnitură metalică plată de înaltă presiune" },
-      { code: "FLEX-ACE", description: "garnitură spiralată cu design de centrare" },
+      { code: "FLEX-ACE", description: "dop și garnitură pentru oprirea scurgerilor la capetele de colector ale schimbătoarelor de căldură răcite cu aer" },
       { code: "Sigma ONE", description: "garnitură metalică semi-solidă pentru presiuni ridicate" },
-      { code: "FLEX HX", description: "garnitură spiralată pentru schimbătoare de căldură" },
+      { code: "FLEX HX", description: "alternativă la garniturile cu manta dublă (double jacketed), pentru mișcări și vibrații ale flanșelor" },
       { code: "Thermiculite 715", description: "foaie filler fără miez, fără azbest" },
       { code: "Thermiculite 815", description: "foaie tanjată cu filler din vermiculită expandată" },
       { code: "Thermiculite 835", description: "filler SWG pentru garnituri spiralate" },
       { code: "Thermiculite 845 Flexpro", description: "garnitură kammprofile cu filler Thermiculite" },
       { code: "Corriculite", description: "material filler alternativ pentru garniturile Change" },
-      { code: "Style CGI", description: "filler din grafit flexibil pentru garnituri spiralate" },
+      { code: "Style CGI", description: "stil constructiv de garnitură Flexitallic; detaliile se confirmă pe cod, din documentația producătorului" },
       { code: "Compressed Fibre Sheet", description: "foaie comprimată pentru garnituri tăiate la dimensiune" },
       { code: "Kammprofile", description: "garnitură profilată metalic, cu strat de acoperire" },
       { code: "Compression Packing", description: "presetupă de etanșare pentru arbori și tije" },
     ],
     faq: [
       { q: "Ce produce Flexitallic?", a: "Flexitallic produce garnituri industriale pentru etanșarea flanșelor — spiralate, kammprofile, foi comprimate și garnituri metalice solide — cu materiale filler pe bază de grafit, PTFE sau vermiculită expandată, folosite în rafinării și instalații chimice." },
-      { q: "Cum aleg o garnitură Flexitallic după cod?", a: "Codul indică tipul constructiv — spiralată (FLEX), metalică solidă (RIGFLEX, Sigma ONE) sau kammprofile (Thermiculite Flexpro) — iar filler-ul se alege în funcție de mediul chimic și de temperatura de lucru a flanșei." },
+      { q: "Cum aleg o garnitură Flexitallic după cod?", a: "Codul indică tipul constructiv — spiralată (FLEX), metalică solidă (RIGFLEX), pe bază de PTFE (Sigma ONE) sau kammprofile (Thermiculite Flexpro) — iar filler-ul se alege în funcție de mediul chimic și de temperatura de lucru a flanșei." },
       { q: "Ce garnitură echivalentă are seria Thermiculite de la Flexitallic?", a: "Familia Thermiculite înlocuiește fillerele clasice pe bază de azbest cu vermiculită expandată, disponibilă ca foaie fără miez, foaie tanjată sau ca strat în garniturile kammprofile Flexpro, pentru aceleași game de presiune și temperatură." },
       { q: "Livrați garnituri Flexitallic în România și cât durează?", a: "Le aducem la comandă, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului și de transport; pentru o ofertă corectă avem nevoie de dimensiunea flanșei, presiunea și mediul de lucru." },
     ],

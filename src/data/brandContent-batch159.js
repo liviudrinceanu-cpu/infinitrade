@@ -22,7 +22,7 @@ Pentru un electrician sau un tehnician de telecomunicații din România care luc
       { name: "Localizatoare de Cabluri și Robinete Îngropate", description: "Aparate pentru localizarea traseului unui cablu sau al unei conducte metalice îngropate, precum și pentru identificarea robinetelor de irigație acoperite de pământ, folosind un transmițător conectat la cablu și un receptor purtat de operator pe teren." },
     ],
     industries: [
-      "Rețele de date și centre de date — testare fibră MPO și de mare densitate",
+      "Rețele de date și centre de date — testare și verificare a fibrei optice",
       "Telecomunicații și rețele de fibră optică — punere în funcțiune și depanare",
       "CATV și rețele de cablu coaxial — localizare defecte și trasare cabluri",
       "Irigații — localizare robinete și conducte îngropate",
@@ -34,7 +34,7 @@ Pentru un electrician sau un tehnician de telecomunicații din România care luc
       { code: "OFL100", description: "OTDR pentru testarea traseului de fibră optică" },
       { code: "100XL", description: "localizator vizual de defecte, fibră optică" },
       { code: "180XL", description: "kit localizator vizual de defecte" },
-      { code: "500XL", description: "localizator vizual de defecte, putere mare" },
+      { code: "500XL", description: "localizator vizual de defecte, laser 650 nm, clasa 3R" },
       { code: "915FS", description: "aparat de sudură prin fuziune a fibrei" },
       { code: "915CL", description: "clivator de fibră optică" },
       { code: "920CL", description: "clivator de fibră optică, model compact" },
@@ -70,13 +70,13 @@ Pentru un electrician sau un tehnician de telecomunicații din România care luc
     name: "BK Precision",
     overview: `BK Precision este un producător de aparate de măsură de bancă pentru laboratoare de electronică, service și producție: osciloscoape, multimetre, surse de alimentare programabile, generatoare de semnal, sarcini electronice și sisteme de achiziție de date. Compania are birouri regionale în America de Nord, America Latină, Europa, Orientul Mijlociu/Africa și Asia. Putem oferta din gama BK Precision aparatele de bancă folosite curent în laboratoarele de service electronic și în liniile de testare din producție.
 
-Portofoliul e organizat pe categorii clare, fiecare cu mai multe game de complexitate: osciloscoape digitale de bancă cu variante mixed-signal, multimetre de mână și de bancă, surse de alimentare liniare și comutate cu ieșiri programabile, sarcini electronice DC modulare, generatoare de semnal și numărătoare de frecvență, plus sisteme de achiziție de date și înregistratoare. Această structură pe familii îi permite unui laborator să găsească atât un multimetru simplu de banc de lucru, cât și o sursă de alimentare programabilă pentru testare automată, sub același brand.
+Portofoliul e organizat pe categorii clare, fiecare cu mai multe game de complexitate: osciloscoape digitale de bancă cu variante mixed-signal, multimetre de mână și de bancă, surse de alimentare liniare și comutate cu ieșiri programabile, sarcini electronice DC programabile, generatoare de semnal și numărătoare de frecvență, plus sisteme de achiziție de date și înregistratoare. Această structură pe familii îi permite unui laborator să găsească atât un multimetru simplu de banc de lucru, cât și o sursă de alimentare programabilă pentru testare automată, sub același brand.
 
 Pentru un laborator de service, o secție de mentenanță electrică sau o linie de producție din România, gama BK Precision acoperă nevoile obișnuite de măsurare de bancă — verificarea unui circuit, alimentarea unui prototip sau testarea în serie a unui produs — fără să fie nevoie de mai mulți furnizori pentru aparate diferite.`,
     whyChoose: [
       "Portofoliu complet de bancă — osciloscoape, multimetre, surse și generatoare sub un singur brand",
       "Surse de alimentare programabile — de la modele liniare simple la sisteme modulare pentru ATE",
-      "Sarcini electronice DC modulare — configurabile pentru testarea diverselor tipuri de surse și baterii",
+      "Sarcini electronice DC programabile — pentru testarea surselor de alimentare și a bateriilor",
       "Sisteme de achiziție de date — pentru înregistrarea de canale multiple în laborator sau pe linia de producție",
       "Prezență internațională — structură regională care susține disponibilitatea gamei pe mai multe piețe",
     ],
@@ -84,7 +84,7 @@ Pentru un laborator de service, o secție de mentenanță electrică sau o linie
       { name: "Osciloscoape Digitale de Bancă Seria 2500", description: "Familie de osciloscoape digitale de bancă, cu variante standard și mixed-signal (MSO) pentru captarea simultană a semnalelor analogice și digitale. Gândite pentru depanarea circuitelor în laboratoare de service și de dezvoltare, cu modele care acoperă mai multe niveluri de complexitate în funcție de numărul de canale și de funcțiile de analiză integrate." },
       { name: "Multimetre de Bancă și Portabile", description: "Multimetre digitale pentru măsurători de tensiune, curent și rezistență, disponibile atât în variantă portabilă de teren cât și de bancă pentru laborator. Folosite ca aparat de bază în verificarea circuitelor, depanarea instalațiilor electrice și controlul de calitate pe linia de producție." },
       { name: "Surse de Alimentare Programabile Seriile 9000 și 1700", description: "Surse de alimentare DC de bancă, de la modele liniare simple pentru laboratorul de service până la surse programabile cu interfață digitală pentru integrare în sisteme de testare automată (ATE). Utile pentru alimentarea controlată a prototipurilor și pentru testarea în serie a plăcilor electronice." },
-      { name: "Sarcini Electronice DC Modulare Seria 8500", description: "Sarcini electronice DC pentru testarea surselor de alimentare, încărcătoarelor și bateriilor, cu funcții de simulare a diverselor profile de sarcină. Folosite în laboratoarele de dezvoltare pentru validarea performanței unei surse înainte de lansarea în producție." },
+      { name: "Sarcini Electronice DC Programabile Seria 8500", description: "Sarcini electronice DC pentru testarea surselor de alimentare, încărcătoarelor și bateriilor, cu funcții de simulare a diverselor profile de sarcină. Folosite în laboratoarele de dezvoltare pentru validarea performanței unei surse înainte de lansarea în producție." },
     ],
     industries: [
       "Service electronic — verificare și depanare de bancă a plăcilor și echipamentelor",
@@ -111,7 +111,7 @@ Pentru un laborator de service, o secție de mentenanță electrică sau o linie
       { code: "9132B", description: "sursă de alimentare programabilă" },
       { code: "9130B", description: "sursă de alimentare programabilă" },
       { code: "9120A", description: "sursă de alimentare programabilă" },
-      { code: "8550", description: "sarcină electronică DC modulară" },
+      { code: "8550", description: "sarcină electronică DC programabilă, 175 W" },
       { code: "DAS1800", description: "sistem portabil de achiziție de date" },
       { code: "886", description: "tester de componente electronice" },
     ],
@@ -123,8 +123,8 @@ Pentru un laborator de service, o secție de mentenanță electrică sau o linie
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "B&K Precision Corporation — Home", url: "https://www.bkprecision.com/", publisher: "B&K Precision Corporation", accessed: "2026-09-26" },
       { title: "B&K Precision — Sitemap", url: "https://www.bkprecision.com/sitemap.xml", publisher: "B&K Precision Corporation", accessed: "2026-09-26" },
@@ -133,30 +133,30 @@ Pentru un laborator de service, o secție de mentenanță electrică sau o linie
 
   'metrix-chauvin-arnoux': {
     name: "Metrix",
-    overview: `Metrix este un brand al grupului francez Chauvin Arnoux, dedicat aparatelor de măsură electrică pentru electricieni și personal de mentenanță: multimetre, pense multimetru și testere de siguranță electrică. Gama de control universal cuprinde multimetre digitale și analogice, pense ampermetrice și multimetru compacte, iar gama de securitate electrică include controlere de instalații multifuncționale, megohmetre pentru izolație și testere de paratrăsnet. Putem oferta din gama Metrix aparatele cerute curent de electricienii și tehnicienii de mentenanță din România.
+    overview: `Metrix este un brand al grupului francez Chauvin Arnoux, dedicat aparatelor de măsură electrică pentru electricieni și personal de mentenanță: multimetre, pense multimetru și testere de siguranță electrică. Gama de control universal cuprinde multimetre digitale și analogice, pense multimetru compacte, iar gama de securitate electrică include controlere de instalații multifuncționale și megohmetre pentru izolație, dintre care unele cu funcție de test al descărcătoarelor de supratensiune. Putem oferta din gama Metrix aparatele cerute curent de electricienii și tehnicienii de mentenanță din România.
 
-Ceea ce diferențiază Metrix în portofoliul Chauvin Arnoux e orientarea spre aparate robuste de zi cu zi pentru meseriași, mai degrabă decât spre instrumentele de laborator ale mărcii-soră Chauvin Arnoux Metrology. Pensele multimetru acoperă game de curent de la câțiva amperi până la 1000 A AC, cu variante bi-afișaj TRMS pentru citirea simultană a două mărimi, iar multimetrele digitale merg de la aparate de bază de 2000 de puncte până la modele cu 50000 de puncte pentru măsurători de precizie. Megohmetrele analogice acoperă tensiuni de test de până la 500 V pentru verificarea izolației instalațiilor electrice.
+Metrix a intrat în grupul Chauvin Arnoux în 1997, iar gama sa cuprinde instrumentație industrială, de laborator și pentru învățământ. Pensele multimetru acoperă game de curent de la 400 A până la 1000 A, cu variante bi-afișaj TRMS pentru citirea simultană a două mărimi, iar multimetrele digitale de bancă (de exemplu MX 5060) ajung la 60000 de puncte. Megohmetrele analogice acoperă tensiuni de test de până la 500 V pentru verificarea izolației instalațiilor electrice.
 
 Pentru un electrician autorizat sau o echipă de mentenanță din România, gama Metrix acoperă verificările curente dintr-un tablou electric sau dintr-o instalație industrială — continuitate, izolație, curent prin pensă — cu aparate gândite pentru lucrul zilnic pe teren, nu pentru bancul de laborator.`,
     whyChoose: [
       "Gamă completă de control universal — multimetre, pense ampermetrice și testere de continuitate",
-      "Testere dedicate siguranței electrice — controlere de instalații, megohmetre, testere de paratrăsnet",
+      "Testere dedicate siguranței electrice — controlere de instalații, megohmetre cu test de descărcătoare de supratensiune",
       "Pense multimetru bi-afișaj TRMS — citire simultană a două mărimi electrice pe teren",
       "Parte a grupului francez Chauvin Arnoux, cu peste un secol de istorie",
     ],
     keyProducts: [
       { name: "Pense Multimetru Seria MX 350/355/650/670", description: "Pense ampermetrice cu funcție de multimetru, pentru măsurarea curentului fără întreruperea circuitului, alături de tensiune și rezistență. Gama acoperă modele compacte pentru curenți de până la 400 A AC/DC și modele pentru curenți mai mari, de până la 1000 A AC, folosite la verificarea tablourilor electrice și a instalațiilor industriale." },
       { name: "Pensă Multimetru Bi-afișaj TRMS MX 675", description: "Pensă multimetru TRMS AC/DC cu două afișaje, permițând citirea simultană a două mărimi — de exemplu curent și tensiune — fără a comuta funcția aparatului. Utilă la diagnosticarea rapidă a unui circuit direct pe tablou, fără măsurători succesive." },
-      { name: "Multimetre Digitale Seria MX 20/21/23/24", description: "Multimetre digitale pentru măsurători standard de tensiune, curent, rezistență și continuitate, cu rezoluții de la 2000 de puncte la modelele de bază până la 50000 de puncte la variantele de precizie. Folosite ca aparat principal de măsură într-o trusă de electrician sau de tehnician de mentenanță." },
-      { name: "Controlere de Instalații și Megohmetre MX 406B/531/535/604", description: "Aparate pentru verificarea siguranței electrice a instalațiilor: controlere multifuncționale de instalații, megohmetre analogice pentru izolație la tensiuni de test de până la 500 V și testere pentru descărcătoare de supratensiune (paratrăsnet). Folosite la recepția și verificarea periodică a instalațiilor electrice." },
+      { name: "Multimetre Digitale Metrix", description: "Multimetre digitale pentru măsurători standard de tensiune, curent, rezistență și continuitate, cu rezoluția și funcțiile confirmate pe cod, din fișa tehnică a producătorului. Folosite ca aparat principal de măsură într-o trusă de electrician sau de tehnician de mentenanță." },
+      { name: "Controlere de Instalații și Megohmetre MX 406B/535/604", description: "Aparate pentru verificarea siguranței electrice a instalațiilor: controlere multifuncționale de instalații, megohmetre analogice pentru izolație la tensiuni de test de până la 500 V și funcție de test pentru descărcătoare de supratensiune. Folosite la recepția și verificarea periodică a instalațiilor electrice." },
     ],
     industries: [
       "Instalații electrice industriale — verificare curent, izolație și continuitate",
       "Mentenanță electrică — diagnosticare rapidă de tablou cu pense multimetru",
       "Verificarea siguranței electrice — controlere de instalații și megohmetre",
-      "Protecție la supratensiune — testarea descărcătoarelor de tip paratrăsnet",
+      "Protecție la supratensiune — testarea descărcătoarelor de supratensiune",
     ],
-    infinitrade: `Furnizăm aparate Metrix din gama de control universal și de siguranță electrică pentru electricieni și echipe de mentenanță, prin canale de aprovizionare din piața europeană. Ce putem și ce nu putem confirma ține de fișa tehnică publică a producătorului la data comenzii — nu avem date proprii de stoc pentru această gamă. Termenul orientativ de livrare este de 1–4 săptămâni de la comandă, cu confirmare punctuală pentru fiecare model. Pentru o ofertă avem nevoie de codul exact al aparatului (de exemplu o pensă din seria MX 650 sau un multimetru MX 23) și de aplicația vizată — tablou electric, instalație industrială sau verificare de izolație.`,
+    infinitrade: `Furnizăm aparate Metrix din gama de control universal și de siguranță electrică pentru electricieni și echipe de mentenanță, prin canale de aprovizionare din piața europeană. Ce putem și ce nu putem confirma ține de fișa tehnică publică a producătorului la data comenzii — nu avem date proprii de stoc pentru această gamă. Termenul orientativ de livrare este de 1–4 săptămâni de la comandă, cu confirmare punctuală pentru fiecare model. Pentru o ofertă avem nevoie de codul exact al aparatului (de exemplu o pensă din seria MX 650 sau un multimetru MX 5060) și de aplicația vizată — tablou electric, instalație industrială sau verificare de izolație.`,
     limitation: "Nu oferim etalonare sau service în garanție pentru aparatele Metrix; certificatele de etalonare se obțin la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "MX 675", description: "pensă multimetru TRMS AC/DC bi-afișaj" },
@@ -165,23 +165,16 @@ Pentru un electrician autorizat sau o echipă de mentenanță din România, gama
       { code: "MX 670", description: "pensă multimetru ampermetrică" },
       { code: "MX 350", description: "pensă multimetru ampermetrică" },
       { code: "MX 1", description: "multimetru analogic, testor continuitate" },
-      { code: "MX 20", description: "multimetru digital de bază" },
-      { code: "MX 21", description: "multimetru digital 2000 de puncte" },
-      { code: "MX 23", description: "multimetru digital 5000/50000 puncte" },
-      { code: "MX 24", description: "multimetru digital 5000/50000 puncte" },
-      { code: "MX 24B", description: "multimetru digital 5000/50000 puncte" },
-      { code: "MX 409", description: "multimetru digital de uz curent" },
       { code: "MX 5060", description: "multimetru de bancă TRMS AC+DC" },
-      { code: "MX 531", description: "tester multifuncțional de instalații" },
       { code: "MX 535", description: "tester multifuncțional, izolație și priză de pământ" },
       { code: "MX 406B", description: "megohmetru analogic pentru izolație 500 V" },
-      { code: "MX 604", description: "tester paratrăsnet și controler izolație" },
+      { code: "MX 604", description: "controler analogic de izolație, cu test de descărcătoare de supratensiune" },
     ],
     faq: [
       { q: "Ce produce brandul Metrix al grupului Chauvin Arnoux?", a: "Metrix produce multimetre, pense multimetru și aparate de verificare a siguranței electrice — controlere de instalații, megohmetre pentru izolație și testere de paratrăsnet — destinate electricienilor și echipelor de mentenanță." },
-      { q: "Cum aleg o pensă multimetru Metrix după cod?", a: "Plaja de curent diferă de la model la model și se confirmă pe cod, din fișa tehnică: modelele MX 350/355 acoperă până la 400 A AC/DC pentru uz curent, iar MX 650 merge până la 1000 A AC. Modelele bi-afișaj, precum MX 675, permit citirea simultană a două mărimi." },
+      { q: "Cum aleg o pensă multimetru Metrix după cod?", a: "Plaja de curent diferă de la model la model și se confirmă pe cod, din fișa tehnică: modelele MX 350 (400 A AC) și MX 355 (400 A AC/DC) acoperă până la 400 A pentru uz curent, iar MX 650 merge până la 1000 A AC. Modelele bi-afișaj, precum MX 675, permit citirea simultană a două mărimi." },
       { q: "Livrați aparate Metrix în România?", a: "Da, aducem la comandă aparate ale brandului Metrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Disponibilitatea exactă a fiecărui model se verifică punctual, fără raft propriu ținut de noi." },
-      { q: "Ce trebuie să trimit pentru o ofertă de multimetru Metrix?", a: "Trimiteți codul aparatului (de exemplu MX 23 sau MX 675), funcțiile de măsură necesare — curent, tensiune, izolație — și dacă aveți nevoie de accesorii specifice, pentru a verifica disponibilitatea și a pregăti oferta." },
+      { q: "Ce trebuie să trimit pentru o ofertă de multimetru Metrix?", a: "Trimiteți codul aparatului (de exemplu MX 5060 sau MX 675), funcțiile de măsură necesare — curent, tensiune, izolație — și dacă aveți nevoie de accesorii specifice, pentru a verifica disponibilitatea și a pregăti oferta." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -212,7 +205,7 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
       { name: "Calibrator Portabil de Presiune DPI610E", description: "Calibrator portabil pentru presiune pneumatică (vid până la 35 bar) și hidraulică (până la 1000 bar), cu incertitudine anuală totală de până la 0,025% din scara maximă în intervalul de temperatură -10°C până la 50°C. Include barometru intern, comunicație HART și autonomie de peste 60 de ore pe o încărcare. Există variantă intrinsec sigură DPI610E-IS pentru zone Ex." },
       { name: "Calibrator Multifuncțional Modular DPI620G", description: "Calibrator avansat, modular, pentru presiune și mărimi electrice (tensiune, curent, frecvență, rezistență), cu opțiune de comunicator HART/Foundation Fieldbus. Folosit pentru automatizarea procedurilor de calibrare și documentarea rezultatelor direct din teren, în laboratoare de metrologie industrială." },
       { name: "Senzori de Presiune UNIK5000", description: "Platformă de senzori de presiune cu un număr mare de configurații (game, ieșiri, conectori), pentru integrarea în echipamente industriale și aerospațiale. Folosiți acolo unde un traductor OEM trebuie adaptat exact la aplicație, mai degrabă decât un aparat de mână." },
-      { name: "Calibratoare de Proces PACE 1000/5000E/6000E", description: "Familie de controlere și indicatoare de presiune de precizie pentru laborator, de la modelul portabil PACE 1000 până la controlerele de bancă PACE 5000E și PACE 6000E, folosite pentru generarea și controlul precis al presiunii de referință la calibrarea altor instrumente." },
+      { name: "Controlere și Indicatoare de Presiune PACE 1000/5000E/6000E", description: "Familie de controlere și indicatoare de presiune de precizie pentru laborator, de la modelul portabil PACE 1000 până la controlerele de bancă PACE 5000E și PACE 6000E, folosite pentru generarea și controlul precis al presiunii de referință la calibrarea altor instrumente." },
     ],
     industries: [
       "Metrologie industrială — calibrarea traductoarelor și manometrelor de presiune",
@@ -226,10 +219,9 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
       { code: "DPI610E", description: "calibrator portabil de presiune, vid-1000 bar" },
       { code: "DPI610E-IS", description: "calibrator portabil de presiune, variantă intrinsec sigură" },
       { code: "DPI620G", description: "calibrator modular multifuncțional, presiune și electric" },
-      { code: "DPI 602", description: "calibrator de presiune multicanal" },
       { code: "DPI 140/141", description: "indicator de presiune" },
       { code: "UNIK5000", description: "platformă de senzori de presiune configurabili" },
-      { code: "DPS5000", description: "senzor de presiune digital cu ieșire CANBus" },
+      { code: "DPS5000", description: "senzor de presiune digital cu ieșire CANopen" },
       { code: "RTX2000", description: "traductor de proces de precizie" },
       { code: "PACE 1000", description: "indicator portabil de presiune de precizie" },
       { code: "PACE 5000E", description: "controler de presiune de bancă" },

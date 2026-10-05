@@ -7,21 +7,21 @@ export const brandContentBatch153 = {
     headquarters: "Ris-Orangis, Franța",
     overview: `AOIP e un producător francez de instrumentație de măsură și control, cu sediul la Ris-Orangis, activ din 1896 pe două direcții: instrumente de test și măsură pentru laboratoare și mentenanță electrică, și pornitoare pentru motoare electrice de mare putere. Gama de măsură cuprinde calibratoare multifuncționale de câmp și de laborator (seria CALYS), micro-ohmetre pentru rezistențe inductive și non-inductive (seria OM), termometre de referință de precizie (MilliK, MicroK) și surse de corp negru pentru etalonarea instrumentelor cu infraroșu.
 
-Micro-ohmetrele de laborator OM 21 și OM 22 ajung la o acuratețe declarată de 0,03%, iar familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună un interval de la -10°C până la 1300°C, folosit pentru etalonarea pirometrelor și camerelor de termoviziune. Laboratorul propriu AOIP are acreditări COFRAC separate pentru temperatură, electricitate-magnetism și timp-frecvență.
+Familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună un interval de la 30°C până la 1300°C, folosit pentru etalonarea pirometrelor și camerelor de termoviziune. Laboratorul propriu AOIP are acreditări COFRAC separate pentru temperatură, electricitate-magnetism și timp-frecvență.
 
 Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe de mentenanță electrică ce verifică periodic contacte și înfășurări, dar și pentru fabrici cu motoare de mare putere (ciment, minerit) unde e nevoie de pornire lină prin pornitoare electrolitice sau electronice.`,
     whyChoose: [
-      "Acuratețe declarată de 0,03% la micro-ohmetrele de bancă OM 21 și OM 22, pentru verificarea contactelor și înfășurărilor",
-      "Familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună -10°C până la 1300°C pentru etalonare de pirometre",
+      "Micro-ohmetre OM 21 și OM 22 pentru verificarea contactelor și înfășurărilor; acuratețea se confirmă pe model, din documentația AOIP",
+      "Familiile de surse de corp negru Saturn Cyclop, Medusa, Pegasus și Gemini acoperă împreună 30°C până la 1300°C pentru etalonare de pirometre",
       "Laborator propriu cu acreditări COFRAC pe temperatură, electricitate-magnetism și timp-frecvență",
-      "Pornitoare electrolitice EPM pentru motoare cu inele de până la 20.000 kW, plus starturi electronice NS3",
+      "Pornitoare electrolitice pentru motoare cu inele, plus starturi electronice pentru motoare în cușcă (seria NS3)",
       "Termometre de referință MilliK/MicroK cu 3 canale expandabile, pentru laboratoare primare de temperatură",
     ],
     keyProducts: [
-      { name: "Micro-ohmetre Seria OM", description: "Familie de micro-ohmetre de teren (OM 16/OM 17, 10 A) și de bancă (OM 21, OM 22, 0,03% acuratețe) pentru rezistențe inductive și non-inductive. Domeniul merge de la câțiva µΩ până la zeci de kΩ, util la verificarea contactelor de întrerupător sau înfășurărilor. Clientul precizează curentul de test și varianta preferată." },
+      { name: "Micro-ohmetre Seria OM", description: "Familie de micro-ohmetre de teren (OM 16, OM 17) și de bancă (OM 21, OM 22) pentru rezistențe inductive și non-inductive. Curentul de test și domeniul de măsură depind de model și se confirmă pe cod, din documentația AOIP; utile la verificarea contactelor de întrerupător sau înfășurărilor. Clientul precizează curentul de test și varianta preferată." },
       { name: "Calibratoare Multifuncționale CALYS", description: "Calibratoare de proces de la modelul de câmp CALYS 150 până la cele de bancă și de laborator CALYS 1000 și CALYS 1500, pentru semnale electrice, temperatură și presiune, cu funcție de documentare pe variantele avansate. Pentru ofertă, precizați tipurile de semnal de calibrat și dacă e nevoie de certificat." },
-      { name: "Surse de Corp Negru și Blocuri Uscate", description: "Surse sferice de corp negru (Saturn Cyclop, Medusa R, Pegasus R, Gemini R) și blocuri uscate portabile (Jupiter 650, Quick-Cal), acoperind -10°C până la 1300°C, pentru etalonarea termometrelor infraroșu și camerelor de termoviziune." },
-      { name: "Pornitoare de Motoare Electrolitice și Electronice", description: "Pornitoare electrolitice EPM pentru motoare cu inele de la 500 la 20.000 kW și starturi electronice NS3 pentru motoare în cușcă, folosite la pornirea lină a motoarelor mari din ciment, minerit și tratarea apei. Clientul transmite puterea motorului și tipul." },
+      { name: "Surse de Corp Negru și Blocuri Uscate", description: "Surse sferice de corp negru (Saturn Cyclop, Medusa R, Pegasus R, Gemini R) și blocuri uscate portabile (Jupiter 650, Quick-Cal), acoperind 30°C până la 1300°C, pentru etalonarea termometrelor infraroșu și camerelor de termoviziune." },
+      { name: "Pornitoare de Motoare Electrolitice și Electronice", description: "Pornitoare electrolitice EPM pentru motoare cu inele și starturi electronice NS3 pentru motoare în cușcă, folosite la pornirea lină a motoarelor mari din ciment, minerit și tratarea apei. Clientul transmite puterea motorului și tipul." },
     ],
     industries: [
       "Metrologie industrială — etalonare de traductoare și instrumente de proces cu acreditare COFRAC",
@@ -37,11 +37,11 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       { code: "CALYS 150", description: "Calibrator multifuncțional de câmp cu documentare și termometru integrat" },
       { code: "CALYS 1500", description: "Calibrator avansat de laborator cu intrare dublă de termometru" },
       { code: "CALYS 1000", description: "Calibrator multifuncțional de bancă, cu documentare" },
-      { code: "OM 21", description: "Micro-ohmetru programabil de bancă, acuratețe declarată 0,03%" },
-      { code: "OM 22", description: "Micro-ohmetru industrial de bancă, acuratețe declarată 0,03%" },
-      { code: "OM 16", description: "Micro-ohmetru de teren 10 A, rezistențe inductive" },
-      { code: "OM 17", description: "Micro-ohmetru de câmp 10 A, rezistențe inductive și non-inductive" },
-      { code: "OM 27", description: "Micro-ohmetru de bancă, 10 A" },
+      { code: "OM 21", description: "Micro-ohmetru de bancă; caracteristicile se confirmă pe cod, din documentația AOIP" },
+      { code: "OM 22", description: "Micro-ohmetru de bancă; caracteristicile se confirmă pe cod, din documentația AOIP" },
+      { code: "OM 16", description: "Micro-ohmetru de teren; caracteristicile se confirmă pe cod, din documentația AOIP" },
+      { code: "OM 17", description: "Micro-ohmetru de teren; caracteristicile se confirmă pe cod, din documentația AOIP" },
+      { code: "OM 27", description: "Micro-ohmetru de bancă; caracteristicile se confirmă pe cod, din documentația AOIP" },
       { code: "OM 37", description: "Micro-ohmetru de bancă; caracteristicile se confirmă pe cod, din documentația AOIP" },
       { code: "MilliK", description: "Termometru de precizie cu 3 canale expandabile, -270°C la 1820°C" },
       { code: "MicroK", description: "Termometru de precizie de laborator primar, 3 canale expandabile" },
@@ -53,21 +53,21 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       { code: "Jupiter 650", description: "Bloc uscat portabil de calibrare, 35-650°C" },
       { code: "LKS 1000", description: "Cameră Leakshooter, detector ultrasonic de scurgeri" },
       { code: "IND 45", description: "Ohmetru/megohmetru de siguranță pentru elemente pirotehnice" },
-      { code: "EXP128", description: "Exploator cu curent pulsat, variante 5-40 A" },
+      { code: "EXP128", description: "Exploator pentru sisteme pirotehnice; caracteristicile se confirmă pe cod, din documentația AOIP" },
       { code: "CTI46", description: "Tester de continuitate pentru sisteme pirotehnice" },
-      { code: "EPM", description: "Pornitor electrolitic pentru motoare cu inele, 500-20.000 kW" },
+      { code: "EPM", description: "Pornitor electrolitic pentru motoare cu inele; puterea se confirmă pe cod, din documentația AOIP" },
       { code: "NS3", description: "Pornitor electronic pentru motoare în cușcă" },
-      { code: "RLV", description: "Pornitor vapormatic pentru motoare cu inele până la 750 kW" },
+      { code: "RLV", description: "Pornitor pentru motoare cu inele; caracteristicile se confirmă pe cod, din documentația AOIP" },
       { code: "IRtec P", description: "Termometru infraroșu portabil, cu pointer laser" },
       { code: "Rayomatic 16", description: "Pirometru miniatural de proces, 8-14 µm" },
       { code: "MicroRay NXT", description: "Pirometru portabil de bază, aplicații HVAC" },
     ],
     faq: [
       { q: "Ce produce AOIP?", a: "AOIP fabrică instrumentație de măsură și control — calibratoare multifuncționale, micro-ohmetre, termometre de referință, surse de corp negru și instrumente cu infraroșu — plus o linie separată de pornitoare pentru motoare electrice de mare putere. E o companie franceză, cu sediul la Ris-Orangis, activă din 1896 și acreditată COFRAC pe mai multe domenii de metrologie." },
-      { q: "Cum aleg micro-ohmetrul AOIP potrivit pentru verificarea contactelor?", a: "Alegerea depinde de curentul de test: pentru verificări de teren, seriile OM 16/OM 17 lucrează la 10 A, iar pentru măsurători de laborator cu acuratețe mai mare, OM 21 și OM 22 ajung la 0,03%. Trimiteți-ne curentul dorit și dacă preferați varianta portabilă sau de bancă." },
+      { q: "Cum aleg micro-ohmetrul AOIP potrivit pentru verificarea contactelor?", a: "Alegerea depinde de curentul de test: seriile OM 16/OM 17 sunt orientate spre verificări de teren, iar OM 21 și OM 22 spre măsurători de laborator; valorile exacte se confirmă pe cod, din documentația AOIP. Trimiteți-ne curentul dorit și dacă preferați varianta portabilă sau de bancă." },
       { q: "Livrați instrumente AOIP în România și cât durează?", a: "Aducem la comandă din gama AOIP prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul cerut. Fiecare aplicație cere o configurație diferită, așa că nu ținem produse pe raft." },
       { q: "Ce trebuie să trimit pentru o ofertă de calibrator CALYS?", a: "Precizați tipurile de semnal pe care vreți să le calibrați (curent, tensiune, termocuplu, RTD, presiune), dacă preferați o variantă de câmp sau de laborator și dacă aveți nevoie de certificat de etalonare la livrare." },
-      { q: "Ce acoperă sursele de corp negru AOIP față de alți producători?", a: "Familiile Medusa, Pegasus, Gemini și Saturn Cyclop acoperă împreună -10°C până la 1300°C, conform datelor publicate de producător; modelul potrivit se alege după intervalul de temperatură și tipul de instrument verificat." },
+      { q: "Ce interval de temperatură acoperă sursele de corp negru AOIP?", a: "Familiile Medusa, Pegasus, Gemini și Saturn Cyclop acoperă împreună 30°C până la 1300°C, conform datelor publicate de producător; modelul potrivit se alege după intervalul de temperatură și tipul de instrument verificat." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -83,20 +83,20 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
     name: "C-Logic",
     overview: `C-Logic e o marcă de instrumente electrice de test pentru electricieni și utilizatori casnici, cu game de testere de tensiune, detectoare de cabluri și multimetre digitale. Site-ul producătorului listează instrumente de măsură (multimetre C-LOGIC 3200, 55 și 520, clește ampermetric C-LOGIC 8730), testere de tensiune (C-LOGIC 25, 35, 350) și o gamă separată de detectoare/trasoare de cabluri (seria C-LOGIC 380), alături de instrumente pentru economisirea energiei (temporizatoare, control al iluminatului).
 
-Diferența față de multimetrele generaliste stă în concentrarea pe unelte de verificare rapidă pentru electricieni — testere de tensiune fără contact, trasoare de cabluri și instrumente de măsură a mediului (temperatură, umiditate) grupate sub aceeași marcă, alături de accesorii de instalare precum benzile de tragere a cablurilor. 
+Diferența față de multimetrele generaliste stă în concentrarea pe unelte de verificare rapidă pentru electricieni — testere de tensiune, trasoare de cabluri și instrumente de măsură a mediului grupate sub aceeași marcă, alături de accesorii de instalare precum benzile de tragere a cablurilor. 
 
 Pentru piața din România, C-Logic înseamnă acces la unelte de test electric de bază pentru echipe de electricieni și firme de instalații, fără pretenția unor instrumente de laborator de precizie înaltă.`,
     whyChoose: [
       "Gamă dedicată electricienilor — testere de tensiune, clești ampermetrici și multimetre sub aceeași marcă",
-      "Detectoare de cabluri seria C-LOGIC 380, cu variante pentru diferite standarde regionale de fișă",
-      "Instrumente de măsură a mediului (C-LOGIC 250) pentru verificări de temperatură și umiditate",
+      "Detectoare de cabluri seria C-LOGIC 380, cu variante UK și US",
+      "Instrument de măsură a mediului (C-LOGIC 250) în gama producătorului",
       "Accesorii de instalare (benzi de tragere din nylon și poliamidă) complementare uneltelor de măsură",
     ],
     keyProducts: [
       { name: "Multimetre C-LOGIC 3200 / 55 / 520", description: "Multimetre digitale de mână pentru măsurători electrice de bază la electricieni și utilizatori DIY, listate în categoria de instrumente de măsură a producătorului. Aplicație tipică: verificare tensiune și continuitate la instalații rezidențiale și comerciale." },
       { name: "Clește Ampermetric C-LOGIC 8730", description: "Clește ampermetric pentru măsurarea curentului fără întreruperea circuitului, din gama de instrumente de măsură C-LOGIC. Util la depanare rapidă a tablourilor electrice, fără a deconecta sarcina de pe fază." },
       { name: "Testere de Tensiune C-LOGIC 25 / 35 / 350", description: "Testere de tensiune pentru verificarea rapidă a prezenței curentului înainte de intervenție, folosite de electricieni la lucrări de instalații și mentenanță curentă în clădiri rezidențiale și comerciale." },
-      { name: "Detectoare de Cabluri Seria C-LOGIC 380", description: "Trasoare de cabluri (wire tracker), cu variante UK și US pentru standardele locale de fișă, folosite la localizarea traseelor de cablu ascunse în pereți sau tavane, înainte de lucrări de renovare." },
+      { name: "Detectoare de Cabluri Seria C-LOGIC 380", description: "Trasoare de cabluri, cu variante UK și US, folosite la localizarea traseelor de cablu ascunse în pereți sau tavane, înainte de lucrări de renovare." },
     ],
     industries: [
       "Instalații rezidențiale — verificări de tensiune și continuitate la locuințe",
@@ -111,13 +111,13 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
       { code: "C-LOGIC 55", description: "Multimetru digital compact" },
       { code: "C-LOGIC 520", description: "Multimetru digital pentru electricieni" },
       { code: "C-LOGIC 8730", description: "Clește ampermetric pentru măsurarea curentului fără contact" },
-      { code: "C-LOGIC 35", description: "Tester de tensiune fără contact" },
+      { code: "C-LOGIC 35", description: "Tester de tensiune" },
       { code: "C-LOGIC 25", description: "Tester de tensiune de bază" },
       { code: "C-LOGIC 350", description: "Tester de tensiune pentru electricieni" },
       { code: "C-LOGIC 380", description: "Detector/trasor de cabluri ascunse" },
-      { code: "C-LOGIC 380UK", description: "Trasor de cabluri, variantă pentru fișe UK" },
-      { code: "C-LOGIC 380US", description: "Trasor de cabluri, variantă pentru fișe US" },
-      { code: "C-LOGIC 250", description: "Instrument de măsură a mediului (temperatură, umiditate)" },
+      { code: "C-LOGIC 380UK", description: "Trasor de cabluri, variantă UK" },
+      { code: "C-LOGIC 380US", description: "Trasor de cabluri, variantă US" },
+      { code: "C-LOGIC 250", description: "Instrument de măsură a mediului; mărimile măsurate se confirmă pe cod, din documentația producătorului" },
       { code: "C-LOGIC 545", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
       { code: "C-LOGIC 560", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
       { code: "C-LOGIC 840", description: "Instrument din gama C-Logic; caracteristicile se confirmă pe cod, din documentația producătorului" },
@@ -125,8 +125,8 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
       { code: "C-LOGIC 322", description: "Accesoriu din gama C-Logic; tipul se confirmă pe cod, din documentația producătorului" },
     ],
     faq: [
-      { q: "Ce produce C-Logic?", a: "C-Logic produce unelte de test electric pentru electricieni și utilizatori casnici: multimetre digitale, clești ampermetrici, testere de tensiune și detectoare de cabluri ascunse, plus câteva instrumente de măsură a mediului precum temperatura și umiditatea." },
-      { q: "Ce diferență e între C-LOGIC 380, 380UK și 380US?", a: "Toate trei sunt detectoare de cabluri din aceeași serie, diferența fiind adaptarea la standardele locale de fișă electrică — varianta UK pentru instalații britanice și varianta US pentru prizele nord-americane, restul funcțiilor de localizare a cablului rămânând identice." },
+      { q: "Ce produce C-Logic?", a: "C-Logic produce unelte de test electric pentru electricieni și utilizatori casnici: multimetre digitale, clești ampermetrici, testere de tensiune și detectoare de cabluri ascunse, plus instrumente de măsură a mediului." },
+      { q: "Ce diferență e între C-LOGIC 380, 380UK și 380US?", a: "Toate trei sunt detectoare de cabluri din aceeași serie, iar diferențele dintre variantele UK și US se confirmă pe cod, din documentația producătorului." },
       { q: "Livrați testere C-Logic în România?", a: "Da, aducem la comandă din gama C-Logic prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea modelului la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de multimetru C-Logic?", a: "Trimiteți codul exact al modelului (de exemplu C-LOGIC 3200 sau C-LOGIC 520) și cantitatea dorită; pentru clești ampermetrici precizați dacă aveți nevoie de măsurare AC, DC sau ambele." },
     ],
@@ -156,7 +156,7 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
       "Instrumente de monitorizare GOOSE/IEC 61850 pentru substații digitale moderne",
     ],
     keyProducts: [
-      { name: "Sistem de Injecție Secundară Quasar", description: "Tester trifazat portabil de 300V/60A, 19 kg, pentru testarea releelor de protecție direct în stație, disponibil în variante Quasar-C (curent), Quasar-V (4 ieșiri de tensiune/curent). Clientul precizează tipul de relee testate și numărul de canale necesare." },
+      { name: "Sistem de Injecție Secundară Quasar", description: "Tester trifazat portabil de 300V/60A, 19 kg, pentru testarea releelor de protecție direct în stație, disponibil în mai multe variante, pe care le confirmăm pe cod, din documentația producătorului. Clientul precizează tipul de relee testate și numărul de canale necesare." },
       { name: "Sistem de Injecție Secundară Mentor-12", description: "Sistem de capacitate ridicată care permite testarea simultană a două relee trifazate, reducând timpul de comisionare la stațiile cu volum mare de relee de protecție. Aplicație tipică: comisionare și verificare periodică în substații de înaltă tensiune." },
       { name: "Cronometre de Întreruptor Seria PME", description: "Aparate de măsurare a timpilor de deschidere-închidere la întreruptoare (PME-500-TR, PME-600-T, PME-700-TR), folosite la mentenanța și comisionarea întreruptoarelor de înaltă tensiune. Clientul trimite tipul de întreruptor testat." },
       { name: "Micro-ohmetre Dinamice PRIME", description: "PRIME 600 și PRIME 200, micro-ohmetre dinamice cu baterie internă reîncărcabilă, pentru verificarea contactelor întreruptoarelor de înaltă tensiune direct pe teren, fără alimentare externă continuă." },
@@ -172,16 +172,16 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
     limitation: "Nu oferim etalonare sau service în garanția producătorului pentru echipamentele EuroSMC — certificatele de calibrare se obțin, la cerere, de la producător sau un laborator acreditat.",
     productCodes: [
       { code: "Quasar", description: "Tester trifazat portabil 300V/60A, 19 kg" },
-      { code: "Quasar-C", description: "Variantă Quasar cu ieșiri doar de curent" },
-      { code: "Quasar-C+", description: "Variantă Quasar orientată pe curent" },
-      { code: "Quasar-V", description: "Variantă Quasar cu 4 ieșiri de tensiune/curent" },
+      { code: "Quasar-C", description: "Variantă a seriei Quasar; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "Quasar-C+", description: "Variantă a seriei Quasar; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "Quasar-V", description: "Variantă a seriei Quasar; caracteristicile se confirmă pe cod, din documentația producătorului" },
       { code: "Mentor-12", description: "Sistem de injecție pentru testarea a două relee trifazate simultan" },
-      { code: "PTE-100-C", description: "Tester monofazat de relee cu variac" },
+      { code: "PTE-100-C", description: "Tester monofazat de relee" },
       { code: "PTE-100-C Pro", description: "Variantă îmbunătățită a PTE-100-C" },
       { code: "PTE-100-C Plus", description: "Variantă monofazată a seriei PTE-100-C" },
       { code: "PTE-50-CE", description: "Tester monofazat de putere mai mică" },
       { code: "PTE-100-V", description: "Tester monofazat de relee" },
-      { code: "UNO", description: "Sistem monofazat de testare relee" },
+      { code: "UNO", description: "Sistem de testare relee; caracteristicile se confirmă pe cod, din documentația producătorului" },
       { code: "PME-600-T", description: "Cronometru pentru întreruptoare" },
       { code: "PME-500-TR", description: "Cronometru pentru întreruptoare" },
       { code: "PME-700-TR", description: "Cronometru pentru întreruptoare" },
@@ -225,7 +225,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
     keyProducts: [
       { name: "Sarcini Electronice DC Seria PLI", description: "Sarcini electronice DC de putere mare, de la 600 la 28.800 W, tensiune până la 1200 V și curent până la 2700 A, pentru testarea bateriilor, celulelor de combustie sau surselor de alimentare industriale. Clientul precizează puterea și profilul de curent necesar." },
       { name: "Sarcini Electronice DC Seria HES", description: "Sarcini de putere de la 600 la 14.000 W, tensiune până la 1200 V, curent până la 1350 A, folosite pentru module de baterii și aplicații feroviare unde e nevoie de profil de descărcare controlat." },
-      { name: "Sarcini Multi-canal PMLA", description: "Sarcini electronice cu până la 72 de canale independente într-un rack de 19″, fiecare canal până la 2100 W și 180 A, pentru testarea paralelă a mai multor celule sau module de baterie în producția de serie." },
+      { name: "Sarcini Multi-canal PMLA", description: "Sarcini electronice cu până la 72 de canale independente într-un rack de 19″, până la 2100 W pe dispozitiv și până la 180 A pe canal, pentru testarea paralelă a mai multor celule sau module de baterie în producția de serie." },
       { name: "Surse Programabile Titan DC/AC", description: "Surse modulare scalabile până la 750 kW, cu variante DC (până la 1500 V) și AC (până la 576 V L-N), pentru teste de sisteme complete în automotive și energie regenerabilă." },
     ],
     industries: [
@@ -256,7 +256,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
       { q: "Ce produce Hoecherl & Hackl?", a: "Hoecherl & Hackl produce sarcini electronice programabile (DC și AC) și surse de alimentare programabile pentru testarea bateriilor, invertoarelor și surselor de alimentare industriale. Compania e germană, cu sediul la Konzell, activă din 1986." },
       { q: "Cum aleg sarcina electronică Hoecherl & Hackl potrivită?", a: "Alegerea depinde de puterea, tensiunea și curentul maxim al dispozitivului testat: pentru puteri mici de laborator merge seria TRL sau PLA, iar pentru teste industriale de putere mare, seriile PLI sau HES. Trimiteți-ne aceste trei valori pentru o recomandare." },
       { q: "Livrați sarcini electronice Hoecherl & Hackl în România?", a: "Da, aducem la comandă din gama Hoecherl & Hackl prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației dorite de producător." },
-      { q: "Ce echivalent are seria PMLA de la Hoecherl & Hackl?", a: "PMLA oferă până la 72 de canale independente într-un rack de 19″, utilă la testarea paralelă a mai multor celule de baterie în producția de serie." },
+      { q: "Pentru ce se folosește seria PMLA de la Hoecherl & Hackl?", a: "PMLA oferă până la 72 de canale independente într-un rack de 19″, utilă la testarea paralelă a mai multor celule de baterie în producția de serie." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -271,7 +271,7 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
     name: "Multimetrix",
     overview: `Multimetrix e o marcă a producătorului francez Chauvin Arnoux, cu game de multimetre, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Gama numerică TRMS pornește de la modele portabile simple (CA 702, CA 703, 2000 de puncte) și urcă spre variante duble-afișaj de 2×6000 de puncte (CA 5273, CA 5275, CA 5277), toate certificate 600V CAT IV pentru lucru pe instalații de joasă tensiune.
 
-Vârful gamei numerice îl reprezintă multimetrele grafice CA 5292 și CA 5293, cu 100.000 de puncte TRMS AC+DC, 1000V, 10A și înregistrare de până la 30.000 de măsurători pe port USB — utile pentru diagnoză de calitate a energiei direct pe teren. Multimetrix mai oferă și variante hibride cu funcție de osciloscop (CA 922 și CA 942 HandScope, cu bandă de 20, respectiv 40 MHz pe 2 canale).
+Vârful gamei numerice îl reprezintă multimetrele grafice CA 5292 și CA 5293, cu 100.000 de puncte TRMS AC+DC, 1000V, 10A și înregistrare de până la 30.000 de măsurători pe port USB — utile pentru diagnoză și înregistrare de măsurători direct pe teren. Multimetrix mai oferă și variante hibride cu funcție de osciloscop (CA 922 și CA 942 HandScope, cu bandă de 20, respectiv 40 MHz pe 2 canale).
 
 Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/CAT IV pentru electricieni de mentenanță și echipe de verificare a instalațiilor electrice din clădiri și industrie.`,
     whyChoose: [
@@ -281,15 +281,15 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
       "Marcă a grupului francez Chauvin Arnoux",
     ],
     keyProducts: [
-      { name: "Multimetre Grafice CA 5292 / CA 5293", description: "Multimetre TRMS AC+DC cu afișaj grafic de 100.000 de puncte, tensiune până la 1000V, curent 10A, funcție de capacitate, frecvență și temperatură, cu înregistrare de 10.000-30.000 de măsurători pe USB și protecție IP67. Certificate 600V CAT IV." },
-      { name: "Multimetre Numerice cu Dublu Afișaj CA 5273 / CA 5275 / CA 5277", description: "Multimetre TRMS cu două afișaje de 6000 de puncte fiecare, rezoluție 12 biți, tensiune AC/DC până la 1000V, curent 10A, protecție IP54 și certificare 600V CAT IV, cu funcție Min-Max-Peak pe modelul CA 5277." },
+      { name: "Multimetre Grafice CA 5292 / CA 5293", description: "Multimetre TRMS AC+DC cu afișaj grafic de 100.000 de puncte, tensiune până la 1000V, curent 10A, cu înregistrare de 10.000-30.000 de măsurători pe USB și protecție IP67. Certificate 600V CAT IV." },
+      { name: "Multimetre Numerice cu Dublu Afișaj CA 5273 / CA 5275 / CA 5277", description: "Multimetre TRMS cu două afișaje de 6000 de puncte fiecare, curent 10A, protecție IP54 și certificare 600V CAT IV." },
       { name: "Multimetre-Osciloscop HandScope CA 922 / CA 942", description: "Multimetre TRMS AC+DC cu funcție de osciloscop pe 2 canale integrat, 8000 de puncte, bandă de 20 MHz (CA 922) sau 40 MHz (CA 942), certificate 600V CAT III, utile pentru diagnoză rapidă de semnal fără un osciloscop separat." },
       { name: "Multimetre Portabile CA 702 / CA 703", description: "Multimetre digitale de bază cu autorange, 2000 de puncte, certificate 600V CAT IV, cu funcție suplimentară de măsurare curent mA pe modelul CA 703, potrivite pentru verificări curente de tensiune și continuitate." },
     ],
     industries: [
       "Mentenanță electrică — verificarea instalațiilor de joasă tensiune în clădiri",
       "Electricieni instalatori — testere de bază pentru lucrări curente",
-      "Diagnoză de calitate a energiei — înregistrare de măsurători pe teren cu multimetrele grafice",
+      "Diagnoză pe teren — înregistrare de măsurători cu multimetrele grafice",
       "Industrie — verificări rapide de semnal cu funcție de osciloscop integrat",
     ],
     infinitrade: `Nu deținem date proprii despre volumele Multimetrix din Franța, ci descriem gama exact așa cum o prezintă Chauvin Arnoux pe site-ul oficial. Putem aduce la comandă multimetre din seriile CA 5273/5275/5277, CA 5292/5293, HandScope CA 922/942 și modelele portabile CA 702/703, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți codul exact al modelului și dacă aveți nevoie de accesorii (clește, sonde de temperatură).`,
@@ -297,23 +297,23 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
     productCodes: [
       { code: "CA 5292", description: "Multimetru grafic TRMS, 100.000 puncte, IP67, CAT IV" },
       { code: "CA 5293", description: "Multimetru grafic TRMS, înregistrare 30.000 măsurători, CAT IV" },
-      { code: "CA 5273", description: "Multimetru dublu-afișaj 2x6000 puncte, 12 biți, CAT IV" },
-      { code: "CA 5275", description: "Multimetru AC+DC dublu-afișaj, 1000V, 10A, CAT IV" },
-      { code: "CA 5277", description: "Multimetru cu funcție Min-Max-Peak, dublu-afișaj, CAT IV" },
-      { code: "CA 5231", description: "Multimetru TRMS 6000 puncte cu bargraph, măsurare cu clește până la 600A" },
-      { code: "CA 5233", description: "Multimetru TRMS 6000 puncte, tensiune AC Low Z, CAT IV" },
+      { code: "CA 5273", description: "Multimetru dublu-afișaj 2x6000 puncte, CAT IV" },
+      { code: "CA 5275", description: "Multimetru dublu-afișaj 2x6000 puncte, 10A, CAT IV" },
+      { code: "CA 5277", description: "Multimetru dublu-afișaj 2x6000 puncte, CAT IV" },
+      { code: "CA 5231", description: "Multimetru TRMS 6000 puncte, CAT IV, măsurare cu clește opțional până la 600A" },
+      { code: "CA 5233", description: "Multimetru TRMS 6000 puncte, CAT IV" },
       { code: "CA 922", description: "Multimetru-osciloscop HandScope, 20 MHz, 2 canale, CAT III" },
       { code: "CA 942", description: "Multimetru-osciloscop HandScope, 40 MHz, 2 canale, CAT III" },
       { code: "CA 702", description: "Multimetru portabil autorange, 2000 puncte, CAT IV" },
       { code: "CA 703", description: "Multimetru portabil autorange cu mA, CAT IV" },
-      { code: "CA 5001", description: "Multimetru analogic, 600V CAT III" },
-      { code: "CA 5003", description: "Multimetru analogic, 15A, IP54, CAT III" },
-      { code: "CA 5005", description: "Multimetru analogic cu clește 200A AC, CAT III" },
-      { code: "CA 5011", description: "Multimetru TRMS analogic/numeric, IP54, CAT IV" },
+      { code: "CA 5001", description: "Multimetru din gama Multimetrix; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "CA 5003", description: "Multimetru din gama Multimetrix; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "CA 5005", description: "Multimetru din gama Multimetrix; caracteristicile se confirmă pe cod, din documentația producătorului" },
+      { code: "CA 5011", description: "Multimetru din gama Multimetrix; caracteristicile se confirmă pe cod, din documentația producătorului" },
     ],
     faq: [
-      { q: "Ce produce Multimetrix?", a: "Multimetrix produce multimetre digitale și analogice, clești multimetrice și controlere pentru siguranța instalațiilor electrice. Este o marcă a grupului francez Chauvin Arnoux." },
-      { q: "Ce diferență e între multimetrele Multimetrix CA 5273 și CA 5292?", a: "CA 5273 are două afișaje de 6000 de puncte fiecare și e gândit pentru măsurători curente de tensiune, curent și temperatură, în timp ce CA 5292 e un multimetru grafic de 100.000 de puncte cu înregistrare de date pe USB, potrivit pentru diagnoză de calitate a energiei pe termen mai lung." },
+      { q: "Ce produce Multimetrix?", a: "Multimetrix produce multimetre digitale, clești multimetrice, controlere pentru siguranța instalațiilor electrice și instrumente de măsură a mediului. Este o marcă a grupului francez Chauvin Arnoux." },
+      { q: "Ce diferență e între multimetrele Multimetrix CA 5273 și CA 5292?", a: "CA 5273 are două afișaje de 6000 de puncte fiecare și e gândit pentru măsurători curente de tensiune, curent și temperatură, în timp ce CA 5292 e un multimetru grafic de 100.000 de puncte cu înregistrare de date pe USB, potrivit pentru diagnoză și înregistrare de măsurători pe teren." },
       { q: "Livrați multimetre Multimetrix în România?", a: "Da, aducem la comandă din gama Multimetrix prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului de către producător." },
       { q: "Ce categorie de siguranță (CAT) au multimetrele Multimetrix?", a: "Majoritatea modelelor numerice sunt certificate 600V CAT IV, potrivite pentru lucru la originea instalației de joasă tensiune, iar modelele HandScope cu funcție de osciloscop sunt certificate 600V CAT III." },
     ],
@@ -330,7 +330,7 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
     name: "Pfiffner",
     founded: 1927,
     headquarters: "Elveția",
-    overview: `Pfiffner e un grup elvețian de instrumentație de înaltă tensiune, activ din 1927, care reunește mai multe divizii istorice: transformatoare de măsură de curent și tensiune (Pfiffner Instrument Transformers), sisteme de bare colectoare cu izolație solidă (Moser Glaser, din 1914), echipamente de testare de înaltă tensiune și EMC (Haefely, din 1904) și deconectoare/întrerupătoare fără SF6 (Pfiffner Switchgear). Catalogul comun listează produse, filtrabile după clasa de tensiune, mediul izolant (ulei, gaz, rășină) și aplicație.
+    overview: `Pfiffner e un grup elvețian de instrumentație de înaltă tensiune, a cărui divizie de transformatoare de măsură este activă din 1927 și care reunește mai multe divizii istorice: transformatoare de măsură de curent și tensiune (Pfiffner Instrument Transformers), sisteme de bare colectoare cu izolație solidă (Moser Glaser, din 1914), echipamente de testare de înaltă tensiune și EMC (Haefely, din 1904) și deconectoare (Pfiffner Switchgear). Catalogul comun listează produsele celor patru divizii.
 
 Ce diferențiază Pfiffner e combinarea sub aceeași umbrelă a transformatoarelor de măsură cu echipamente de testare de înaltă tensiune (seturi de analiză CITAS pentru transformatoare de curent, VITAS pentru transformatoare de tensiune, standarde tan delta/factor de putere 3721/3723), utile atunci când același client are nevoie și de aparatul de măsură, și de echipamentul care îl verifică.
 
@@ -339,14 +339,14 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
       "Grup cu patru divizii istorice sub aceeași umbrelă — transformatoare de măsură, bare colectoare, testare de înaltă tensiune, întrerupătoare",
       "Seturi de analiză CITAS și VITAS pentru verificarea transformatoarelor de curent și tensiune deja instalate",
       "Standarde de tan delta/factor de putere (3721/3723) pentru diagnoza izolației la echipamente de înaltă tensiune",
-      "Catalog filtrabil după clasa de tensiune și mediul izolant",
-      "Divizia Pfiffner Switchgear oferă și deconectoare/întrerupătoare fără SF6, pentru rețele care renunță la gazul cu efect de seră",
+      "Catalog comun cu produsele celor patru divizii",
+      "Divizia Pfiffner Switchgear oferă deconectoare, în catalogul grupului",
     ],
     keyProducts: [
       { name: "Transformatoare de Măsură de Curent și Tensiune", description: "Transformatoare pentru joasă, medie și înaltă tensiune, inclusiv variante capacitive de tensiune, folosite la măsurarea și protecția rețelelor electrice. Clientul precizează clasa de tensiune, clasa de precizie și mediul de instalare (interior/exterior)." },
       { name: "Seturi de Analiză CITAS și VITAS", description: "Echipamente portabile pentru testarea și verificarea în teren a transformatoarelor de curent (CITAS) și de tensiune (VITAS) deja instalate, folosite la comisionarea și mentenanța periodică a substațiilor." },
       { name: "Standarde Tan Delta / Factor de Putere Seria 3721/3723", description: "Standarde de referință pentru diagnoza izolației prin măsurarea unghiului de pierderi dielectrice, folosite în laboratoare de încercări și la verificarea echipamentelor de înaltă tensiune înainte de punere în funcțiune." },
-      { name: "Sarcini Electronice Programabile 3691/3695", description: "Sarcini electronice de curent (3691) și tensiune (3695), programabile, folosite pentru testarea și calibrarea circuitelor secundare de măsură din substații." },
+      { name: "Sarcini Electronice Programabile 3691/3695", description: "Sarcini electronice programabile de curent (3691) și de tensiune (3695), denumite de producător „burden” (sarcină pentru secundarul transformatoarelor de măsură)." },
     ],
     industries: [
       "Utilități electrice — transformatoare de măsură pentru substații noi și retehnologizate",
@@ -370,7 +370,7 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
       { code: "2903", description: "Celulă de test pentru izolanți lichizi, pentru seria 2830/2831" },
     ],
     faq: [
-      { q: "Ce produce Pfiffner?", a: "Pfiffner produce transformatoare de măsură de curent și tensiune, sisteme de bare colectoare, echipamente de testare de înaltă tensiune și deconectoare, printr-un grup elvețian activ din 1927 care reunește mai multe divizii istorice precum Moser Glaser și Haefely." },
+      { q: "Ce produce Pfiffner?", a: "Pfiffner produce transformatoare de măsură de curent și tensiune, sisteme de bare colectoare, echipamente de testare de înaltă tensiune și deconectoare, printr-un grup elvețian care reunește mai multe divizii istorice precum Moser Glaser și Haefely." },
       { q: "Ce sunt seturile CITAS și VITAS de la Pfiffner?", a: "CITAS și VITAS sunt echipamente portabile pentru testarea în teren a transformatoarelor de curent, respectiv de tensiune, deja montate în substație, folosite la comisionare și la verificările periodice de mentenanță ale operatorilor de rețea." },
       { q: "Livrați transformatoare de măsură Pfiffner în România?", a: "Aducem la comandă din gama Pfiffner prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea clasei de tensiune și de precizie de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de transformator de măsură Pfiffner?", a: "Precizați clasa de tensiune a instalației, clasa de precizie cerută, tipul (curent sau tensiune) și dacă montajul este de interior sau de exterior, astfel încât să identificăm varianta potrivită din catalog." },

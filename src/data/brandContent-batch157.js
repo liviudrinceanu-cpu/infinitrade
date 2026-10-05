@@ -201,12 +201,12 @@ Pentru piața din România, sursele Delta Elektronika au sens în laboratoarele 
     headquarters: "Austin, Texas, SUA",
     overview: `ETS-Lindgren este un producător american de camere de testare electromagnetică (EMC), antene RF și sisteme de ecranare, format în 1995, cu sediul în zona Austin, Texas. Compania face parte din grupul ESCO Technologies. Gama acoperă camere anecoice din familia FACT 3, antene precum modelul 3104D Biconical sau 3106B Double-Ridged Guide, absorbanți RF din familia DuraSorb (DSH) și sisteme de ecranare arhitecturală sau pentru echipamente medicale. Din această gamă putem oferta antenele și absorbanții RF cerute cel mai des la laboratoarele de testare EMC din România.
 
-Ce diferențiază ETS-Lindgren este acoperirea completă a lanțului de testare EMC — de la camera anecoică și absorbanții din interior, până la antenele de măsură și software-ul de analiză precum TILE! 8 sau EMQuest, folosit pentru caracterizarea câmpului electromagnetic. Sistemele de poziționare multi-axă din familia MAPS (de exemplu 2112, 2117, 2122) mișcă automat antena sau dispozitivul testat în timpul măsurătorii, conform standardelor de testare. Pentru medii critice precum RMN medical, brandul oferă sisteme dedicate de ecranare (MRI Shield System).
+Ce diferențiază ETS-Lindgren este acoperirea completă a lanțului de testare EMC — de la camera anecoică și absorbanții din interior, până la antenele de măsură și software precum TILE! 8, un mediu integrat pentru operarea laboratorului EMC, sau EMQuest, pentru măsurarea antenelor. Sistemele de poziționare multi-axă din familia MAPS (de exemplu 2112, 2117, 2122) mișcă automat antena sau dispozitivul testat în timpul măsurătorii, conform standardelor de testare. Pentru medii critice precum RMN medical, brandul oferă componente dedicate de ecranare RF, precum ușile EVO pentru săli RMN și ferestrele ClearShield.
 
 Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EMC pentru echipamente industriale și auto, la instalațiile RMN din spitale care necesită ecranare RF, și la operatorii de telecom care testează conformitatea echipamentelor 5G.`,
     whyChoose: [
       "Acoperire completă a lanțului de testare EMC — cameră anecoică, absorbanți, antene și software de analiză",
-      "Gamă de absorbanți RF (DuraSorb) în mai multe înălțimi de spumă, pentru diferite benzi de frecvență",
+      "Gamă de absorbanți RF hibrizi (DuraSorb), în mai multe variante, pentru diferite benzi de frecvență",
       "Sisteme de poziționare multi-axă (MAPS) pentru automatizarea măsurătorilor conform standardelor EMC",
       "Sisteme dedicate de ecranare RF pentru medii medicale (RMN) și pentru infrastructuri critice",
       "Parte din grupul ESCO Technologies, cu prezență de producție și inginerie pe mai multe continente",
@@ -214,8 +214,8 @@ Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EM
     keyProducts: [
       { name: "Camere Anecoice Seria FACT 3", description: "Camere de testare electromagnetică complet echipate, folosite pentru măsurători de emisii și imunitate conform standardelor EMC. Fac parte din familia de sisteme dedicate testării 5G alături de seria AMS-5700/5701/5702/5703, gândite pentru caracterizarea antenelor la frecvențe mari și pentru testarea over-the-air a echipamentelor wireless." },
       { name: "Antene de Măsură (3102, 3104D, 3106B)", description: "Familie de antene pentru testare EMC și măsurători de câmp: 3102 Conical Log Spiral pentru bandă largă, 3104D Biconical pentru frecvențe joase, 3106B Double-Ridged Guide pentru frecvențe mai înalte. Selectate în funcție de banda de frecvență de interes și de standardul de testare aplicat." },
-      { name: "Absorbanți RF Seria DuraSorb (DSH)", description: "Absorbanți din spumă pentru pereții și tavanul camerelor anecoice, disponibili în înălțimi precum DSH-400H, DSH-600H sau DSH-1250H, cu performanță crescătoare la frecvențe joase odată cu înălțimea spumei. Varianta EHP High Performance oferă atenuare suplimentară pentru cerințe stricte de camera de testare." },
-      { name: "Sisteme de Ecranare RF (MRI Shield, ClearShield)", description: "Soluții de ecranare pentru medii sensibile la interferență electromagnetică: MRI Shield System pentru săli de rezonanță magnetică și ClearShield RF Windows pentru ferestre ecranate care păstrează vizibilitatea. Completează oferta de ecranare arhitecturală pentru clădiri sau facilități cu cerințe stricte de compatibilitate electromagnetică." },
+      { name: "Absorbanți RF Seria DuraSorb (DSH)", description: "Absorbanți hibrizi pentru pereții și tavanul camerelor anecoice, disponibili în variantele DSH-400H (profil redus), DSH-600H și DSH-1250H (performanță ridicată). Varianta EHP High Performance oferă atenuare suplimentară pentru cerințe stricte de camera de testare." },
+      { name: "Ecranare RF (uși EVO pentru RMN, ClearShield)", description: "Soluții de ecranare pentru medii sensibile la interferență electromagnetică: uși EVO pentru săli de rezonanță magnetică și ferestre ecranate ClearShield care păstrează vizibilitatea. Completează oferta de ecranare arhitecturală pentru clădiri sau facilități cu cerințe stricte de compatibilitate electromagnetică." },
     ],
     industries: [
       "Aerospațial și apărare — testare EMC pentru echipamente critice",
@@ -231,18 +231,18 @@ Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EM
       { code: "3104D Biconical", description: "antenă pentru frecvențe joase" },
       { code: "3106B Double-Ridged Guide", description: "antenă pentru frecvențe înalte" },
       { code: "FACT 3", description: "cameră anecoică pentru testare EMC" },
-      { code: "AMS-5700", description: "sistem de testare over-the-air 5G" },
-      { code: "AMS-5701", description: "sistem de testare over-the-air 5G" },
-      { code: "AMS-5702", description: "sistem de testare over-the-air 5G" },
-      { code: "AMS-5703", description: "sistem de testare over-the-air 5G" },
-      { code: "DSH-400H", description: "absorbant RF DuraSorb, înălțime 400 mm" },
-      { code: "DSH-600H", description: "absorbant RF DuraSorb, înălțime 600 mm" },
-      { code: "DSH-1250H", description: "absorbant RF DuraSorb, înălțime 1250 mm" },
+      { code: "AMS-5700", description: "sistem compact de măsurare a antenelor 5G, de birou (2D)" },
+      { code: "AMS-5701", description: "sistem de măsurare a antenelor 5G cu braț theta (3D), tip cameră mobilă" },
+      { code: "AMS-5702", description: "sistem de măsurare a antenelor 5G de tip MAPS (3D), cameră mobilă" },
+      { code: "AMS-5703", description: "sistem de măsurare a antenelor 5G de tip CATR, cameră accesibilă prin pășire" },
+      { code: "DSH-400H", description: "absorbant RF hibrid DuraSorb, profil redus" },
+      { code: "DSH-600H", description: "absorbant RF hibrid DuraSorb" },
+      { code: "DSH-1250H", description: "absorbant RF hibrid DuraSorb, performanță ridicată" },
       { code: "EHP High Performance", description: "absorbant RF de înaltă performanță" },
-      { code: "MRI Shield System", description: "sistem de ecranare RF pentru săli RMN" },
+      { code: "EVO Manual MRI Door", description: "ușă ecranată RF pentru săli RMN, cu acționare manuală" },
       { code: "ClearShield RF Windows", description: "fereastră ecranată RF, transparentă" },
-      { code: "TILE! 8", description: "software de analiză și raportare EMC" },
-      { code: "EMQuest", description: "software de caracterizare câmp electromagnetic" },
+      { code: "TILE! 8", description: "software integrat de operare a laboratorului EMC" },
+      { code: "EMQuest", description: "software de măsurare a antenelor" },
       { code: "ProbeView II", description: "software pentru sonde de câmp EM" },
       { code: "2112", description: "sistem de poziționare multi-axă MAPS" },
       { code: "2117", description: "sistem de poziționare multi-axă MAPS" },
@@ -305,7 +305,7 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
       { code: "SIRIUS Mini", description: "variantă compactă, conectare USB" },
       { code: "SIRIUS Waterproof", description: "variantă rezistentă la apă, IP67" },
       { code: "SIRIUS RT", description: "variantă cu control în timp real" },
-      { code: "SIRIUS R8", description: "modul cu 8 canale de măsură" },
+      { code: "SIRIUS R8", description: "carcasă de mare capacitate, până la 128 de canale" },
       { code: "KRYPTON", description: "modul robust IP67, montaj pe vehicul" },
       { code: "KRYPTON CPU", description: "unitate de procesare pentru module KRYPTON" },
       { code: "IOLITE Rack", description: "sistem DAQ montat în rack" },
@@ -376,7 +376,7 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
       { code: "AT-WIND", description: "aliniere de arbori pentru turbine eoliene" },
       { code: "Acoem EXO", description: "aliniere laser pentru zone cu risc de explozie" },
       { code: "Acoem RT-300", description: "aliniere, vibrații și inspecție rulmenți" },
-      { code: "Acoem NXA Ultimate", description: "măsurare geometrie și aliniere, gamă superioară" },
+      { code: "Acoem NXA Ultimate", description: "măsurare geometrică de precizie (rectilinitate, planeitate)" },
       { code: "Acoem EVO", description: "instrument de aliniere, generație evoluată" },
       { code: "Acoem ECO Pro", description: "instrument de aliniere, gamă accesibilă" },
     ],
@@ -401,13 +401,13 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
     name: "EXFO",
     founded: 1985,
     headquarters: "Quebec, Canada",
-    overview: `EXFO este un producător canadian de echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondat în 1985 de Germain Lamonde, cu sediul în Quebec. Gama acoperă teste de câmp pentru fibră optică (OTDR), analizoare de protocol pentru rețele de mare capacitate din familia LTS-1600, teste de câmp pentru servicii Ethernet și transport din familia MAX, și localizatoare vizuale de defecte precum FLS-170. Din această gamă putem oferta echipamentele de câmp (OTDR, instrumente de măsurare a puterii optice, localizatoare de defecte) cerute cel mai des la instalarea și mentenanța rețelelor de fibră din România.
+    overview: `EXFO este un producător canadian de echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondat în 1985 de Germain Lamonde, cu sediul în Quebec. Gama acoperă teste de câmp pentru fibră optică (OTDR), generatoare de trafic Ethernet de 1,6T pentru laborator și producție, din familia LTS-1600, teste de câmp pentru servicii Ethernet și transport din familia MAX, și localizatoare vizuale de defecte precum FLS-170. Din această gamă putem oferta echipamentele de câmp (OTDR, instrumente de măsurare a puterii optice, localizatoare de defecte) cerute cel mai des la instalarea și mentenanța rețelelor de fibră din România.
 
 Ce diferențiază EXFO este istoricul de peste patru decenii în testarea optică — compania a lansat în 1992 FOT-900, una dintre primele unități portabile pentru testare automată de pierderi optice, iar astăzi acoperă testarea de la nivel metro/longhaul cu OTDR-uri precum FTBx-750D, până la testarea submarină cu unitatea USO-1618. Familia MAX (MAX-880, MAX-890) testează servicii Ethernet și transport de până la 100G, iar FTB Lite 975 combină testarea OTDR cu certificarea de pierdere optică pe fibre multiple simultan.
 
 Pentru piața din România, EXFO are sens la operatorii de telecom care instalează sau mențin rețele FTTx și 5G, la contractorii de rețele de fibră și la centrele de date care testează conformitatea legăturilor optice interne.`,
     whyChoose: [
-      "Peste patru decenii de specializare exclusivă în testarea rețelelor de fibră optică",
+      "Peste patru decenii de activitate în testarea rețelelor de comunicații",
       "Gamă completă, de la localizatoare de defecte portabile (FLS-170) până la teste de transport 100G (MAX-880/890)",
       "OTDR dedicat pentru testare submarină (USO-1618)",
       "Testere multi-fibră (FTB Lite 975) care combină OTDR și certificare de pierdere optică pe până la 24 de fibre",
@@ -436,9 +436,9 @@ Pentru piața din România, EXFO are sens la operatorii de telecom care instalea
       { code: "FTB Lite 975", description: "certificator multi-fibră, până la 24 fibre" },
       { code: "MAX-880", description: "tester Ethernet/transport, până la 100G" },
       { code: "MAX-890", description: "tester Ethernet/transport, până la 100G" },
-      { code: "MAX 635G", description: "tester de teren pentru servicii de rețea" },
+      { code: "MAX 635G", description: "set de testare pentru cupru, xDSL și G.fast (MaxTester 635G)" },
       { code: "FLS-170", description: "localizator vizual de defecte, format portabil" },
-      { code: "LTS-1600 Series", description: "platformă de testare protocol, până la 1,6T" },
+      { code: "LTS-1600 Series", description: "generator de trafic Ethernet de 1,6T și soluție de validare a proiectelor" },
     ],
     faq: [
       { q: "Ce produce EXFO?", a: "EXFO produce echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondată în 1985 în Quebec, Canada. Gama acoperă OTDR-uri de câmp, testere Ethernet/transport de mare capacitate, localizatoare de defecte și echipamente de laborator pentru fabricanți de rețele." },
