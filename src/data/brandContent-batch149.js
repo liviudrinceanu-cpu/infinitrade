@@ -381,7 +381,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
     keyProducts: [
       {
         name: "Motoare IE3 și IE4",
-        description: "Motoare asincrone standard, în clasele de eficiență energetică IE3 (premium) și IE4 (super-premium), gândite pentru echipamente noi unde eficiența energetică e cerută explicit de reglementările europene aplicabile motoarelor industriale. Recomandate ca înlocuitor direct pentru un motor IE1 sau IE2 mai vechi aflat la retehnologizare.",
+        description: "Motoare asincrone standard, în clasele de eficiență energetică IE3 (Premium Efficiency) și IE4 (Super Premium Efficiency), gândite pentru echipamente noi unde eficiența energetică e cerută explicit de reglementările europene aplicabile motoarelor industriale. Recomandate ca înlocuitor direct pentru un motor IE1 sau IE2 mai vechi aflat la retehnologizare.",
       },
       {
         name: "Motoare marine cu frână",
@@ -408,8 +408,8 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
     productCodes: [
       { code: "IE1 Electric Motors", description: "Clasă de eficiență standard, pentru aplicații generale" },
       { code: "IE2 Electric Motors", description: "Clasă de eficiență ridicată, soluție cost-eficientă" },
-      { code: "IE3 Electric Motors", description: "Clasă de eficiență premium, cerută la echipamente noi" },
-      { code: "IE4 Electric Motors", description: "Clasă de eficiență super-premium" },
+      { code: "IE3 Electric Motors", description: "Clasă de eficiență IE3 (Premium Efficiency), cerută la echipamente noi" },
+      { code: "IE4 Electric Motors", description: "Clasă de eficiență IE4 (Super Premium Efficiency)" },
       { code: "Brake Motors", description: "Motor cu frână, pentru medii marine și offshore" },
       { code: "Explosion Proof Motors (EX)", description: "Motor certificat pentru zone cu risc de explozie" },
       { code: "Medium Voltage Motors (MV)", description: "Motor pentru instalații de medie tensiune" },

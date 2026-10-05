@@ -23,11 +23,11 @@ Condițiile de lucru admise (temperatură, turație, precizie) depind de rulment
       },
       {
         name: 'Rulmenți oscilanți cu două rânduri de role FAG seria 222/223',
-        description: 'Când ai nevoie de capacitate mare de sarcină și ai și problema nealinierii arborilor, acești rulmenți sunt soluția. Cele două rânduri de role baril combinate cu calea exterioară sferică permit compensarea unei anumite nealinieri a arborelui; valoarea admisă depinde de serie și se confirmă din catalog. Se folosesc în reducatoare grele, în lanțuri de acționare pentru benzi transportoare, în arbori lungi care lucrează la temperaturi variabile (unde dilatarea creează nealinieri). Pot prelua sarcini radiale mari și sarcini axiale moderate; capacitatea de încărcare și temperatura de lucru depind de serie și de unsoare și se confirmă din catalog.'
+        description: 'Când aveți nevoie de capacitate mare de sarcină și aveți și problema nealinierii arborilor, acești rulmenți sunt soluția. Cele două rânduri de role baril combinate cu calea exterioară sferică permit compensarea unei anumite nealinieri a arborelui; valoarea admisă depinde de serie și se confirmă din catalog. Se folosesc în reducatoare grele, în lanțuri de acționare pentru benzi transportoare, în arbori lungi care lucrează la temperaturi variabile (unde dilatarea creează nealinieri). Pot prelua sarcini radiale mari și sarcini axiale moderate; capacitatea de încărcare și temperatura de lucru depind de serie și de unsoare și se confirmă din catalog.'
       },
       {
         name: 'Rulmenți axiali cu bile FAG seria 511/512/513',
-        description: 'Specializați în preluarea sarcinilor axiale pure – exact ce ai nevoie în scripete industriale, în sisteme de ridicare, în masă rotativă la mașini-unelte. Seria 511 este pentru sarcini ușoare, seria 512 pentru aplicații generale, iar seria 513 pentru sarcini axiale mari; turațiile limită se confirmă din catalog. Construcție simplă – bile între două șaibe, dar precizia FAG face diferența în distribuția uniformă a sarcinii. Atenție: nu preiau sarcini radiale – dacă ai combinații, trebuie cuplați cu rulmenți radiali sau trebuie folosiți rulmenți cu contact oblic.'
+        description: 'Specializați în preluarea sarcinilor axiale pure – exact ce aveți nevoie în scripete industriale, în sisteme de ridicare, în masă rotativă la mașini-unelte. Seria 511 este pentru sarcini ușoare, seria 512 pentru aplicații generale, iar seria 513 pentru sarcini axiale mari; turațiile limită se confirmă din catalog. Construcție simplă – bile între două șaibe, dar precizia FAG face diferența în distribuția uniformă a sarcinii. Atenție: nu preiau sarcini radiale – dacă aveți combinații, trebuie cuplați cu rulmenți radiali sau trebuie folosiți rulmenți cu contact oblic.'
       },
       {
         name: 'Rulmenți cu role conice FAG seria 302/303/320',
@@ -225,7 +225,7 @@ Filtrec are un laborator propriu dedicat testării filtrelor hidraulice și a el
       'Industrie hârtie – cilindri hidraulici calandre',
       'Testare componente – standuri de test hidraulice'
     ],
-    infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24–72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns corect trimite-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care vrei să-l înlocuiești, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
+    infinitrade: `Pentru filtrele Filtrec ne bazăm pe informațiile publice disponibile la producător, fără date proprii de stoc pentru fiecare finețe și dimensiune din gamă. Comenzile ajung prin canale de aprovizionare din Uniunea Europeană – ca regulă generală a firmei, elementele filtrante cele mai cerute pot fi asigurate în 24–72 h din stoc, iar restul configurațiilor (carcase HP, RHR/DHR, breather-e speciale) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns corect trimiteți-ne codul Filtrec exact sau codul echivalent Parker/Hydac/Bosch pe care doriți să-l înlocuiți, plus finețea și debitul aplicației. Fără aceste date nu putem confirma echivalența sau termenul de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor fineților și dimensiunilor de elemente filtrante Filtrec și nici testarea beta ratio pe loc – aceasta rămâne un serviciu al producătorului.',
     sources: [
       {"title":"Hydraulic Filters","url":"https://www.filtrec.com/hydraulic-filters/","publisher":"Filtrec","accessed":"2026-09-22"},
@@ -366,11 +366,11 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
     keyProducts: [
       {
         name: 'Relee industriale Finder seria 55.32/55.34',
-        description: 'Caii de bătaie pentru automatizări – relee cu 2 contacte sau 4 contacte, cu capacitate de 7-10 A pe contact, în funcție de tip. Seria 55.32 (2C/O – 2 contacte schimbătoare), seria 55.34 (4C/O – 4 contacte schimbătoare). Bobine disponibile pentru toate tensiunile – 12V DC, 24V DC/AC, 48V DC, 110V AC, 230V AC. LED indicator pe fațadă – vezi când bobina e alimentată. Buton test mecanic – poți forța contactele manual pentru verificare circuit. Construcție modulară – se montează pe soclu detașabil (seria 95.05 pentru PCB sau seria 94.84 pentru DIN-rail). Contacte AgNi (argint-nichel) standard – rezistență la sudare pe sarcini inductive. Temperatură de lucru -40°C până +70°C. Durată de viață electrică 100,000 de comenzi la sarcină nominală.'
+        description: 'Caii de bătaie pentru automatizări – relee cu 2 contacte sau 4 contacte, cu capacitate de 7-10 A pe contact, în funcție de tip. Seria 55.32 (2C/O – 2 contacte schimbătoare), seria 55.34 (4C/O – 4 contacte schimbătoare). Bobine disponibile pentru toate tensiunile – 12V DC, 24V DC/AC, 48V DC, 110V AC, 230V AC. LED indicator pe fațadă – vedeți când bobina e alimentată. Buton test mecanic – puteți forța contactele manual pentru verificare circuit. Construcție modulară – se montează pe soclu detașabil (seria 95.05 pentru PCB sau seria 94.84 pentru DIN-rail). Contacte AgNi (argint-nichel) standard – rezistență la sudare pe sarcini inductive. Temperatură de lucru -40°C până +70°C. Durată de viață electrică 100,000 de comenzi la sarcină nominală.'
       },
       {
         name: 'Temporizatoare multifuncționale Finder seria 80',
-        description: 'Temporizatoare multifuncționale, la care funcția se selectează prin comutator rotativ sau digital, în funcție de model. Moduri disponibile: întârziere la pornire, întârziere la oprire, impuls la pornire, interval fix, ciclic simetric, ciclic asimetric, stea-triunghi, clipire (flasher), și multe altele. Seria 80 este destinată montajului pe șină DIN, pe 1-2 module. Timpi ajustabili de la 0.1 secunde până la 100 ore – potențiometru frontal sau setare digitală pe modelele cu afișaj. Afișaj LED arată timpul rămas sau timpul setat. Alimentare universală 12-240V AC/DC (detectare automată). Contact de ieșire releu 16A – poți comanda direct contactoare sau alte sarcini mari.'
+        description: 'Temporizatoare multifuncționale, la care funcția se selectează prin comutator rotativ sau digital, în funcție de model. Moduri disponibile: întârziere la pornire, întârziere la oprire, impuls la pornire, interval fix, ciclic simetric, ciclic asimetric, stea-triunghi, clipire (flasher), și multe altele. Seria 80 este destinată montajului pe șină DIN, pe 1-2 module. Timpi ajustabili de la 0.1 secunde până la 100 ore – potențiometru frontal sau setare digitală pe modelele cu afișaj. Afișaj LED arată timpul rămas sau timpul setat. Alimentare universală 12-240V AC/DC (detectare automată). Contact de ieșire releu 16A – puteți comanda direct contactoare sau alte sarcini mari.'
       },
       {
         name: 'Relee de interfață Finder seria 38/39',
@@ -517,7 +517,7 @@ Fluke investește masiv în siguranță – multimetrele profesionale sunt înca
       },
       {
         name: 'Megaohmetru izolație Fluke 1587 FC Insulation Multimeter',
-        description: 'Doi în unu – megaohmetru pentru testare izolație plus multimetru true-RMS complet. Testează izolație la 50V, 100V, 250V, 500V, 1000V – selectezi tensiunea potrivită pentru echipamentul testat (de exemplu, 500V pentru motoare 380V, 1000V pentru cabluri înaltă tensiune). Măsoară rezistență izolație până la 2GΩ. Testele PI (Polarization Index) și DAR (Dielectric Absorption Ratio) sunt disponibile prin aplicația Fluke Connect, pentru evaluarea degradării izolației în timp. Funcție comparație cu praguri – setezi limita acceptabilă și aparatul îți spune pass/fail. Multimetrul măsoară până 1000V AC/DC, curent până la 400 mA, rezistență, capacitate, frecvență, temperatură (cu sonda K-Type). Fluke Connect wireless – trimiți rezultate teste în cloud pentru arhivare și trending. CAT IV 600V / CAT III 1000V.'
+        description: 'Doi în unu – megaohmetru pentru testare izolație plus multimetru true-RMS complet. Testează izolație la 50V, 100V, 250V, 500V, 1000V – selectați tensiunea potrivită pentru echipamentul testat (de exemplu, 500V pentru motoare 380V, 1000V pentru cabluri înaltă tensiune). Măsoară rezistență izolație până la 2GΩ. Testele PI (Polarization Index) și DAR (Dielectric Absorption Ratio) sunt disponibile prin aplicația Fluke Connect, pentru evaluarea degradării izolației în timp. Funcție comparație cu praguri – setați limita acceptabilă și aparatul vă spune pass/fail. Multimetrul măsoară până 1000V AC/DC, curent până la 400 mA, rezistență, capacitate, frecvență, temperatură (cu sonda K-Type). Fluke Connect wireless – trimiteți rezultate teste în cloud pentru arhivare și trending. CAT IV 600V / CAT III 1000V.'
       }
     ],
     certifications: [
@@ -716,7 +716,7 @@ Gama include benzi cu profile și cu proprietăți speciale (antistatice, ignifu
       'Electronică – transport PCB-uri, componente sensibile ESD',
       'Minerit – benzi grele pentru transport material (versiuni antiflacără)'
     ],
-    infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24–72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un calcul corect trimite-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
+    infinitrade: `Pentru benzile și curelele Forbo Siegling lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare țesătură și acoperire din gamă – majoritatea comenzilor sunt confecții la dimensiune. Aprovizionarea trece prin canale din Uniunea Europeană: ca formulare generală a firmei, benzile pe rolă în dimensiuni comune pot ajunge în 24–72 h din stoc, în timp ce banda sudată la dimensiune sau curelele speciale (Extremultus, Tangential) intră pe fluxul de 1–4 săptămâni la comandă. Pentru un calcul corect trimiteți-ne lățimea, lungimea, tipul de țesătură/acoperire dorit și greutatea transportată. Nu putem estima rezistența necesară sau confirma un termen de livrare fără aceste date.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor lățimilor și acoperirilor Siegling și nici sudarea la fața locului pentru toate tipurile de bandă – unele configurații necesită echipament de producător.',
     sources: [
       {"title":"Siegling Transilon Belts: Efficient Conveying and Processing","url":"https://www.forbo.com/movement/en-gl/products/conveyor-belts/siegling-transilon/pmjqhv","publisher":"Forbo Movement Systems","accessed":"2026-09-22"},
@@ -829,7 +829,7 @@ Freudenberg oferă servicii de inginerie și bancuri de testare pentru etanșăr
     keyProducts: [
       {
         name: 'Simering-uri radiale Freudenberg Simmerring',
-        description: 'Simering-urile clasice pentru arbori rotitori – le găsești în motoare auto, pompe, reductoare, ventilatoare. Execuțiile (BA, BASL, BABSL, B1, B2, BAUM, MSS1, PSS) sunt conforme DIN 3760; dimensiunile, materialele (NBR, FKM), limitele de temperatură, de presiune și de viteză periferică depind de execuție și se confirmă pe cod, din catalogul Freudenberg. Montaj: presare la rece în alezaj cu dispozitiv special (nu cu ciocanul!) și ungere buză înainte de pornire.'
+        description: 'Simering-urile clasice pentru arbori rotitori – le găsiți în motoare auto, pompe, reductoare, ventilatoare. Execuțiile (BA, BASL, BABSL, B1, B2, BAUM, MSS1, PSS) sunt conforme DIN 3760; dimensiunile, materialele (NBR, FKM), limitele de temperatură, de presiune și de viteză periferică depind de execuție și se confirmă pe cod, din catalogul Freudenberg. Montaj: presare la rece în alezaj cu dispozitiv special (nu cu ciocanul!) și ungere buză înainte de pornire.'
       },
       {
         name: 'O-ring-uri Freudenberg (toate materialele și dimensiuni)',
@@ -1008,7 +1008,7 @@ Gates produce curele Micro-V pentru transmisii auto, curele sincrone și furtunu
     keyProducts: [
       {
         name: 'Curele trapezoidale Gates Hi-Power II (wrapped V-belts)',
-        description: 'Curele clasice în V pentru transmisii industriale – le găsești în motoare electrice, pompe, ventilatoare, compresoare. Construcție: corzi polyester pre-întinse (nu se întind în timp) înglobate în cauciuc sintetic, acoperire textilă wrapper pentru protecție și grip. Profile standard: SPZ/SPA/SPB/SPC (metrică europeană) și 3V/5V/8V (inch americană). Temperatura de lucru și raportul de transmisie recomandat depind de profil și se confirmă din documentația Gates. Tensionarea corectă e critică – prea slabă = alunecare și uzură rapidă, prea strânsă = sarcină pe lagăre și rupere prematură. Valorile de tensionare se iau din documentația Gates pentru profilul ales. Durata de viață depinde de aplicație. Se montează pe fulie trapezoidală – nu încerca să pui curea nouă pe fulie uzată (alunecă instant).'
+        description: 'Curele clasice în V pentru transmisii industriale – le găsiți în motoare electrice, pompe, ventilatoare, compresoare. Construcție: corzi polyester pre-întinse (nu se întind în timp) înglobate în cauciuc sintetic, acoperire textilă wrapper pentru protecție și grip. Profile standard: SPZ/SPA/SPB/SPC (metrică europeană) și 3V/5V/8V (inch americană). Temperatura de lucru și raportul de transmisie recomandat depind de profil și se confirmă din documentația Gates. Tensionarea corectă e critică – prea slabă = alunecare și uzură rapidă, prea strânsă = sarcină pe lagăre și rupere prematură. Valorile de tensionare se iau din documentația Gates pentru profilul ales. Durata de viață depinde de aplicație. Se montează pe fulie trapezoidală – nu încercați să puneți curea nouă pe fulie uzată (alunecă instant).'
       },
       {
         name: 'Curele sincrone Gates PowerGrip GT3 (timing belts HTD)',
@@ -1072,11 +1072,11 @@ Gates produce curele Micro-V pentru transmisii auto, curele sincrone și furtunu
       },
       {
         "code": "MegaSys Premium",
-        "description": "Gama premium de furtunuri hidraulice pentru utilaje grele"
+        "description": "Gama de furtunuri hidraulice pentru utilaje grele"
       },
       {
         "code": "MegaSys MXT",
-        "description": "Furtun hidraulic premium cu greutate redusă"
+        "description": "Furtun hidraulic cu greutate redusă"
       },
       {
         "code": "Poly Chain",
@@ -1122,7 +1122,7 @@ Gates produce curele Micro-V pentru transmisii auto, curele sincrone și furtunu
       },
       {
         "q": "Ce este seria MegaSys de la Gates?",
-        "a": "MegaSys este gama premium de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător pe paginile oficiale de produs."
+        "a": "MegaSys este gama de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător pe paginile oficiale de produs."
       },
       {
         "q": "Ce curea de transmisie Gates recomandați pentru industria alimentară?",
@@ -1158,11 +1158,11 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
     keyProducts: [
       {
         name: 'Chei fixe și inelate Gedore seria 6/7 (crom-vanadiu)',
-        description: 'Cheile clasice profesionale – le găsești în toate atelierele auto și industriale serioase. Seria 6 (chei fixe cu două capete) pentru acces strâmt și cupluri mari, seria 7 (chei combinate, cu un capăt fix și unul inelar). Materialul, tratamentul termic, finisajul, gama de dimensiuni, unghiurile capului și toleranțele depind de serie și se confirmă pe cod, din catalogul Gedore.'
+        description: 'Cheile clasice profesionale – le găsiți în toate atelierele auto și industriale serioase. Seria 6 (chei fixe cu două capete) pentru acces strâmt și cupluri mari, seria 7 (chei combinate, cu un capăt fix și unul inelar). Materialul, tratamentul termic, finisajul, gama de dimensiuni, unghiurile capului și toleranțele depind de serie și se confirmă pe cod, din catalogul Gedore.'
       },
       {
         name: 'Tubulare Gedore seria D19/D30 cu antrenare 1/2" și 3/4"',
-        description: 'Tubulare profesionale pentru ateliere auto și industrie – construcție robustă pentru cuplu mare și impact. Tubularele Gedore se produc cu antrenări de 1/4", 3/8", 1/2" și 3/4"; seriile exacte, dimensiunile și materialele se confirmă pe cod, din catalogul Gedore. Suprafață brunată anti-coroziune sau cromată. Profile disponibile: 6-point (hexagonal clasic – grip maxim pe piuliță intactă) și 12-point (bi-hexagonal – montare rapidă dar mai puțin grip pe piulițe rotunjite). Lungimi: standard, semi-deep (pentru piulițe cu știft lung), deep (pentru știfturi întregi). Rezistență la impact – poți folosi cu chei pneumatice sau electrice (versiunile impact au pereți mai groși). Dimensiuni marcate laser – nu se șterg în timp.'
+        description: 'Tubulare profesionale pentru ateliere auto și industrie – construcție robustă pentru cuplu mare și impact. Tubularele Gedore se produc cu antrenări de 1/4", 3/8", 1/2" și 3/4"; seriile exacte, dimensiunile și materialele se confirmă pe cod, din catalogul Gedore. Suprafață brunată anti-coroziune sau cromată. Profile disponibile: 6-point (hexagonal clasic – grip maxim pe piuliță intactă) și 12-point (bi-hexagonal – montare rapidă dar mai puțin grip pe piulițe rotunjite). Lungimi: standard, semi-deep (pentru piulițe cu știft lung), deep (pentru știfturi întregi). Rezistență la impact – puteți folosi cu chei pneumatice sau electrice (versiunile impact au pereți mai groși). Dimensiuni marcate laser – nu se șterg în timp.'
       },
       {
         name: 'Chei dinamometrice Gedore Dremometer',
@@ -1195,7 +1195,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       'Minerit – mentenanță utilaje miniere (versiuni anti-scânteie)',
       'Producție industrială – linii de asamblare, mentenanță mașini'
     ],
-    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24–72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact spune-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care ai nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
+    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24–72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact spuneți-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care aveți nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor seriilor Gedore și nici condițiile exacte ale garanției pe viață a producătorului – acestea se verifică direct cu Gedore.',
     sources: [
       {"title":"Spanners Catalogue 2017","url":"https://us.gedore.com/fileadmin/Kataloge/EN/116_151_05_Spanners_2017_EN.pdf","publisher":"Gedore","accessed":"2026-09-22"},
@@ -1460,7 +1460,7 @@ Conectivitatea și protocoalele de comunicație disponibile depind de modelul al
     keyProducts: [
       {
         name: 'Pompe de circulație Grundfos ALPHA3 (rezidențial high-efficiency)',
-        description: 'Pompă pentru încălzire în pardoseală și radiatoare în case/apartamente – motor ECM; consumul electric depinde de model și se confirmă din fișa tehnică. Trei moduri de funcționare: AUTOADAPT (ajustare automată pentru minim consum), Constant Pressure (presiune constantă pentru radiatoare), Constant Curve (funcționare la caracteristică fixă). Display digital arată consum instant (Watts), temperatură apă, alarme. Comunicație Grundfos GO prin Bluetooth – configurezi modul, vezi statistici consum, primești notificări. Auto-deaerare – detectează aerul și crește turația temporar pentru eliminare. Conexiuni: filetat 1" sau 1 1/4", distanță între racorduri 130mm sau 180mm (standard european). Intervalul de temperatură al lichidului depinde de model și se confirmă din fișa tehnică Grundfos. Clasă energetică A (EEI 0.20).  Garanție de 5 ani în aplicații rezidențiale de încălzire, conform listei de prețuri Grundfos; condițiile pentru alte aplicații se confirmă la comandă.'
+        description: 'Pompă pentru încălzire în pardoseală și radiatoare în case/apartamente – motor ECM; consumul electric depinde de model și se confirmă din fișa tehnică. Trei moduri de funcționare: AUTOADAPT (ajustare automată pentru minim consum), Constant Pressure (presiune constantă pentru radiatoare), Constant Curve (funcționare la caracteristică fixă). Display digital arată consum instant (Watts), temperatură apă, alarme. Comunicație Grundfos GO prin Bluetooth – configurați modul, vedeți statistici consum, primiți notificări. Auto-deaerare – detectează aerul și crește turația temporar pentru eliminare. Conexiuni: filetat 1" sau 1 1/4", distanță între racorduri 130mm sau 180mm (standard european). Intervalul de temperatură al lichidului depinde de model și se confirmă din fișa tehnică Grundfos. Clasă energetică A (EEI 0.20).  Garanție de 5 ani în aplicații rezidențiale de încălzire, conform listei de prețuri Grundfos; condițiile pentru alte aplicații se confirmă la comandă.'
       },
       {
         name: 'Pompe industriale Grundfos MAGNA3 (commercial/industrial HVAC)',
@@ -1468,7 +1468,7 @@ Conectivitatea și protocoalele de comunicație disponibile depind de modelul al
       },
       {
         name: 'Pompe solare Grundfos SOLAR pentru sisteme termice solare',
-        description: 'Pompe speciale pentru circulația amestecului glicol-apă în panouri solare termice – rezistență la temperaturi extreme și la stagnare (situație când panourile fierb vara fără consum). Temperatura de lucru și rezistența la stagnare depind de model și se confirmă din fișa tehnică. Motor ECM high-temperature cu izolație specială Clasa H. Funcție anti-blocaj – dacă pompa stă oprită mult (iarna), se rotește automat periodic pentru a preveni griparea. Control integrat pentru sisteme solare – pornire când diferența temperatură panou vs. boiler depășește setpoint (de exemplu, ΔT=8°C start, ΔT=3°C stop). Variante: PM (modul pompă simplă fără control – folosești cu controller solar separat) sau complet cu controller diferențial integrat. Conexiuni 1" filetat. Debitul și concentrația maximă de glicol admisă depind de model și se confirmă din fișa tehnică. Se montează exclusiv în circuitul primar (panou-boiler), nu în circuitul consum.'
+        description: 'Pompe speciale pentru circulația amestecului glicol-apă în panouri solare termice – rezistență la temperaturi extreme și la stagnare (situație când panourile fierb vara fără consum). Temperatura de lucru și rezistența la stagnare depind de model și se confirmă din fișa tehnică. Motor ECM high-temperature cu izolație specială Clasa H. Funcție anti-blocaj – dacă pompa stă oprită mult (iarna), se rotește automat periodic pentru a preveni griparea. Control integrat pentru sisteme solare – pornire când diferența temperatură panou vs. boiler depășește setpoint (de exemplu, ΔT=8°C start, ΔT=3°C stop). Variante: PM (modul pompă simplă fără control – folosiți cu controller solar separat) sau complet cu controller diferențial integrat. Conexiuni 1" filetat. Debitul și concentrația maximă de glicol admisă depind de model și se confirmă din fișa tehnică. Se montează exclusiv în circuitul primar (panou-boiler), nu în circuitul consum.'
       },
       {
         name: 'Hidrofor Grundfos SCALA2 (pompă presiune inteligentă)',

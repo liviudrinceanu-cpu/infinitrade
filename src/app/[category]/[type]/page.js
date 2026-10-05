@@ -164,7 +164,7 @@ export default async function ProductTypePage({ params }) {
         <nav className={base.letterNav} aria-label="Sari la secțiune">
           <div className={base.container}>
             <a href="#ce-este">Ce este</a>
-            <a href="#cum-alegi">Cum alegi</a>
+            <a href="#cum-alegi">Cum alegeți</a>
             {brands.length > 0 && <a href="#branduri">Branduri</a>}
             <a href="#aplicatii">Aplicații</a>
             <a href="#oferta">Ce trimiți pentru ofertă</a>

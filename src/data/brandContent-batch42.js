@@ -865,7 +865,7 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
     name: "Oriental Motor",
     overview: `Oriental Motor e un producător japonez de motoare pas cu pas, servomotoare și actuatoare de precizie, cu operațiuni de vânzare organizate regional, inclusiv prin Oriental Motor U.S.A. Corp. pentru piața americană. Gama de motoare pas cu pas cuprinde seria αSTEP, cu control în buclă închisă de tip step-servo, și seria PKP de motoare pas cu pas clasice, unele cu encoder integrat pentru feedback de poziție. Pentru clienții din România putem oferta motoare și actuatoare din această gamă, potrivite pentru axe de poziționare unde cuplul de menținere la oprire contează mai mult decât la un servomotor clasic.
 
-Tehnologia step-servo a seriei αSTEP combină simplitatea de control a motorului pas cu pas cu corectarea de poziție prin buclă închisă, care elimină pierderea pașilor la sarcini variabile — util acolo unde vrei precizie de poziționare fără complexitatea completă de acordare a unui servosistem. Catalogul producătorului include roboți industriali (SCARA, articulați, carteziani), actuatoare liniare și rotative, motoare de curent continuu fără perii și motoare de curent alternativ.
+Tehnologia step-servo a seriei αSTEP combină simplitatea de control a motorului pas cu pas cu corectarea de poziție prin buclă închisă, care elimină pierderea pașilor la sarcini variabile — util acolo unde doriți precizie de poziționare fără complexitatea completă de acordare a unui servosistem. Catalogul producătorului include roboți industriali (SCARA, articulați, carteziani), actuatoare liniare și rotative, motoare de curent continuu fără perii și motoare de curent alternativ.
 
 Pentru instalațiile din România cu axe de poziționare simple sau medii — benzi transportoare, mese rotative, dozatoare — gama Oriental Motor se potrivește ca alternativă la un servosistem complet, mai ales acolo unde bugetul sau complexitatea de programare trebuie ținute sub control.`,
     whyChoose: [
@@ -978,7 +978,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
 
 Pe segmentul protecției muncii, grupul uvex include mărcile uvex safety, laservision, Heckel și HexArmor (mănuși de protecție), iar Alpina aparține segmentului de sport. Producția de mănuși, de exemplu, are o unitate dedicată la Lüneburg, iar toate produsele respectă normele EN aplicabile fiecărei categorii, cu declarații de conformitate CE.
 
-Pentru fabricile din România din automotive, metalurgie, construcții sau chimie, gama uvex acoperă dotarea completă a unui operator — de la protecție respiratorie și oculară până la mănuși și încălțăminte —, utilă atunci când vrei un singur furnizor pentru mai multe categorii de echipament individual de protecție.`,
+Pentru fabricile din România din automotive, metalurgie, construcții sau chimie, gama uvex acoperă dotarea completă a unui operator — de la protecție respiratorie și oculară până la mănuși și încălțăminte —, utilă atunci când doriți un singur furnizor pentru mai multe categorii de echipament individual de protecție.`,
     whyChoose: [
       "Gamă completă de echipament individual de protecție, de la protecție respiratorie la încălțăminte tehnică",
       "Familia silv-Air acoperă toate cele trei clase de protecție respiratorie FFP1, FFP2 și FFP3",

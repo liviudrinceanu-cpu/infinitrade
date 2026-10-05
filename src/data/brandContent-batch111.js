@@ -124,20 +124,20 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
   },
   heytec: {
     name: "Heytec",
-    overview: `Heytec este marca de scule de mână orientată spre preț a grupului german Heyco, alături de linia premium Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii. Pentru un atelier din România, Heytec e o alternativă mai accesibilă la seriile premium ale grupului.
+    overview: `Heytec este marca de scule de mână orientată spre preț a grupului german Heyco, alături de linia Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii. Pentru un atelier din România, Heytec e o alternativă mai accesibilă la celelalte serii ale grupului.
 
 Ca poziționare, producătorul prezintă Heytec ca program pentru meseriași și pasionați de bricolaj atenți la calitate și la preț. Programul include chei dinamometrice pentru cuplu controlat, seturi de chei tubulare cu prelungitoare, și sortimente complete montate în cutii tip L-Boxx sau trolii de atelier modulare, gândite să fie transportate direct la locul de lucru. Scule pentru instalații sanitare și electricieni completează gama.
 
-Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortiment complet de scule de mână, fără bugetul unei linii premium, dar cu organizare clară pe categorii.`,
+Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortiment complet de scule de mână, cu organizare clară pe categorii.`,
     whyChoose: [
       "Program de scule complet — chei fixe, inelare, tubulare, dinamometrice, clești — pentru ateliere de mentenanță",
       "Program de scule orientat spre meseriași atenți la calitate și la preț",
       "Sortimente montate în cutii L-Boxx sau trolii de atelier modulare, gândite pentru transport",
-      "Parte din grupul german Heyco, alături de linia premium Heyco și seria Heynen",
+      "Parte din grupul german Heyco, alături de linia Heyco și seria Heynen",
     ],
     keyProducts: [
       { name: "Chei fixe, inelare și seturi de chei tubulare", description: "Programul Heytec include chei fixe cu deschidere unică sau dublă, chei inelare și combinate, alături de seturi complete de chei tubulare cu clichet, prelungitoare și capete articulate. Sunt disponibile individual sau în sortimente montate în cutii de plastic sau metalice. Alegerea sortimentului depinde de gama de dimensiuni de șurub folosită frecvent în atelier." },
-      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Fiind parte dintr-un program mai accesibil ca preț decât linia premium a grupului, sunt o opțiune pentru control de cuplu fără investiția într-o sculă de vârf. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
+      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Fiind parte dintr-un program mai accesibil ca preț decât alte linii ale grupului, sunt o opțiune pentru control de cuplu fără investiția într-o sculă de vârf. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
       { name: "Sortimente în cutii L-Boxx și trolii de atelier", description: "Heytec oferă sortimente complete montate în cutii tip L-Boxx, cutii metalice sau trolii cu sertare modulare, gândite pentru service-uri auto și echipe mobile de intervenție. Fiecare sortiment grupează sculele cele mai folosite pentru un tip de lucrare — electrică, sanitară sau mecanică. Configurația se stabilește după tipul de intervenții și numărul de tehnicieni din echipă." },
     ],
     industries: [
@@ -163,7 +163,7 @@ Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortimen
       { code: "Werkstattwagen-Sortimente", description: "Sortimente montate în trolii de atelier modulare" },
     ],
     faq: [
-      { q: "Ce produce Heytec?", a: "Heytec produce scule de mână pentru meseriași și ateliere — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe — organizate în sortimente cu sau fără cutii de depozitare. Marca face parte din grupul german Heyco, alături de linia premium Heyco și seria Heynen." },
+      { q: "Ce produce Heytec?", a: "Heytec produce scule de mână pentru meseriași și ateliere — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe — organizate în sortimente cu sau fără cutii de depozitare. Marca face parte din grupul german Heyco, alături de linia Heyco și seria Heynen." },
       { q: "Prin ce se diferențiază Heytec de Stahlwille?", a: "Programul Heytec acoperă tipurile de bază — chei, chei tubulare, chei dinamometrice — și se adresează, potrivit producătorului, meseriașilor și pasionaților de bricolaj atenți la calitate și la preț." },
       { q: "Cum aleg un sortiment potrivit pentru atelierul meu?", a: "Alegerea depinde de tipul de intervenții frecvente — mecanice, electrice sau sanitare — și de numărul de tehnicieni care folosesc sculele simultan. Sortimentele montate în cutii L-Boxx sau trolii modulare sunt utile pentru echipe mobile, în timp ce sortimentele fixe sunt potrivite pentru un post de lucru staționar." },
       { q: "Livrați scule Heytec în România?", a: "Da, aducem sculele și sortimentele Heytec la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sortimente complete. Pentru referințe individuale curente, termenul poate fi mai scurt." },
@@ -357,7 +357,7 @@ Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru
   ruko: {
     name: "Ruko",
     founded: 1974,
-    overview: `RUKO este un producător german de burghie și scule așchietoare pentru prelucrarea metalului, înființat în 1974 și specializat de atunci pe burghie, scule de zencuire și scule de tăiere din HSS. Gama e organizată pe categorii — burghie pentru metal, beton și lemn, mașini și accesorii, lichide de răcire — completată de linia premium ULTIMATECUT. Pentru un atelier mecanic din România, RUKO e un furnizor specializat pe scule pentru prelucrarea metalului.
+    overview: `RUKO este un producător german de burghie și scule așchietoare pentru prelucrarea metalului, înființat în 1974 și specializat de atunci pe burghie, scule de zencuire și scule de tăiere din HSS. Gama e organizată pe categorii — burghie pentru metal, beton și lemn, mașini și accesorii, lichide de răcire — completată de linia ULTIMATECUT. Pentru un atelier mecanic din România, RUKO e un furnizor specializat pe scule pentru prelucrarea metalului.
 
 Linia ULTIMATECUT include modele precum Multidrill, cu vârf Flowstep pentru găurire fără punctare prealabilă. Kegelsenker 3S e o sculă de zencuire conică, prezentată de producător ca rapidă și economă în efort de tăiere, folosită pentru teșirea găurilor înainte de montaj, iar seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari, unde un burghiu clasic ar cere putere mai mare. RUKO completează gama cu lichide de răcire compatibile.
 
@@ -369,7 +369,7 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       "Gamă completă de lichide de răcire și ungere compatibile cu propriile scule",
     ],
     keyProducts: [
-      { name: "Linia premium ULTIMATECUT", description: "ULTIMATECUT e linia premium RUKO de burghie. Variantele Multidrill, cu vârf Flowstep, permit găurirea directă în oțel fără punctare prealabilă. Pentru ofertă, spuneți-ne diametrul găurii, materialul prelucrat și dacă lucrați pe mașină CNC sau manual." },
+      { name: "Linia ULTIMATECUT", description: "ULTIMATECUT e linia RUKO de burghie. Variantele Multidrill, cu vârf Flowstep, permit găurirea directă în oțel fără punctare prealabilă. Pentru ofertă, spuneți-ne diametrul găurii, materialul prelucrat și dacă lucrați pe mașină CNC sau manual." },
       { name: "Scule de zencuire Kegelsenker 3S", description: "Kegelsenker 3S e o sculă de zencuire conică, folosită pentru teșirea găurilor înainte de montajul cu șuruburi cu cap înecat sau pentru îndepărtarea bavurilor. Producătorul o prezintă ca soluție rapidă și cu efort redus de tăiere pentru zencuiri precise. Pentru ofertă, precizați unghiul de teșire necesar și diametrul găurii de bază." },
       { name: "Carotiere Kernbohrer HSS PerforMAX", description: "Seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari în oțel, unde un burghiu clasic ar necesita o putere de antrenare mai mare. Carota taie doar un inel de material, ceea ce reduce forța necesară și uzura mașinii-unelte. Pentru ofertă, spuneți-ne diametrul și grosimea materialului găurit." },
     ],
@@ -386,7 +386,7 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       { code: "Metallbohrer", description: "Burghie standard pentru găurirea oțelului și fontei" },
       { code: "Betonbohrer", description: "Burghie pentru găurire în beton și zidărie" },
       { code: "Holzbohrer", description: "Burghie dedicate pentru găurirea lemnului" },
-      { code: "ULTIMATECUT", description: "Linie premium de burghie" },
+      { code: "ULTIMATECUT", description: "Linie de burghie" },
       { code: "ULTIMATECUT Multidrill", description: "Burghiu cu vârf Flowstep, găurire fără punctare" },
       { code: "ULTIMATECUT Flowstep-Spiralbohrer", description: "Burghiu spiralat cu geometrie de vârf Flowstep" },
       { code: "Kegelsenker 3S", description: "Sculă de zencuire conică" },
@@ -395,7 +395,7 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       { code: "Kühl- und Schmierstoffe", description: "Lichide de răcire și ungere pentru prelucrare" },
     ],
     faq: [
-      { q: "Ce produce RUKO?", a: "RUKO produce burghie și scule așchietoare pentru prelucrarea metalului — burghie standard, scule de zencuire și carotiere HSS — fiind specializat din 1974 pe scule pentru prelucrarea metalului. Linia premium ULTIMATECUT completează gama." },
+      { q: "Ce produce RUKO?", a: "RUKO produce burghie și scule așchietoare pentru prelucrarea metalului — burghie standard, scule de zencuire și carotiere HSS — fiind specializat din 1974 pe scule pentru prelucrarea metalului. Linia ULTIMATECUT completează gama." },
       { q: "Din ce an există RUKO?", a: "RUKO a fost înființată în 1974 și s-a specializat de atunci pe fabricarea de burghie, scule de zencuire și scule de tăiere din HSS pentru prelucrarea metalului, potrivit informațiilor publicate de companie." },
       { q: "Ce avantaj au burghiele ULTIMATECUT Multidrill de la RUKO?", a: "Vârful Flowstep al modelelor Multidrill permite găurirea directă în oțel fără punctare prealabilă cu un vârf de centrare — producătorul indică un început de găurire exact, fără alunecare. Aceeași geometrie apare și la burghiele spiralate din linia Flowstep-Spiralbohrer." },
       { q: "Livrați burghie RUKO în România?", a: "Da, aducem burghiele, sculele de zencuire și carotierele RUKO la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru dimensiuni mai puțin curente. Pentru diametre uzuale, termenul poate fi mai scurt." },
@@ -597,7 +597,7 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
     ],
     keyProducts: [
       { name: "Uscătoare frigorifice seria FMD și FCT", description: "Seriile FMD și FCT sunt uscătoare frigorifice cu refrigerant R513A, acoperind debite de la 21 m³/h la modelele mici, până la 8.830 m³/h la FCT. Sunt uscătoare standard pentru instalații de aer comprimat obișnuite. Varianta FCT VS adaugă un compresor cu turație variabilă. Pentru ofertă, spuneți-ne debitul de aer al compresorului deservit și punctul de rouă cerut." },
-      { name: "Uscătoare premium seria ACT", description: "Seria ACT acoperă debite de la 21 până la 18.000 m³/h. Varianta ACT ES (21–960 m³/h) reduce consumul de energie prin oprirea compresorului când masa termică din aluminiu acoperă necesarul, iar ACT VS folosește un compresor cu turație variabilă, acoperind 1.260-17.664 m³/h. Alegerea depinde de stabilitatea consumului de aer și de bugetul energetic. Pentru ofertă, precizați debitul instalat al compresorului principal." },
+      { name: "Uscătoare seria ACT", description: "Seria ACT acoperă debite de la 21 până la 18.000 m³/h. Varianta ACT ES (21–960 m³/h) reduce consumul de energie prin oprirea compresorului când masa termică din aluminiu acoperă necesarul, iar ACT VS folosește un compresor cu turație variabilă, acoperind 1.260-17.664 m³/h. Alegerea depinde de stabilitatea consumului de aer și de bugetul energetic. Pentru ofertă, precizați debitul instalat al compresorului principal." },
       { name: "Uscătoare cu adsorbție HDT și HDC", description: "HDT e un uscător cu adsorbție fără căldură, care acoperă debite de la 19 la 9.060 m³/h, pentru puncte de rouă mai coborâte decât poate oferi un uscător frigorific. HDC e varianta modulară, pentru debite mai mici, de la 5 la 300 m³/h. Pentru ofertă, spuneți-ne punctul de rouă cerut și debitul de aer disponibil." },
     ],
     industries: [
@@ -611,13 +611,13 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
     limitation: "Nu putem confirma consumul energetic specific (kWh/m³) pentru fiecare model fără fișa tehnică punctuală de la producător.",
     productCodes: [
       { code: "FMD", description: "Uscător frigorific, debit 21–1.320 m³/h" },
-      { code: "ACT", description: "Uscător frigorific premium, debit 21–18.000 m³/h" },
+      { code: "ACT", description: "Uscător frigorific, debit 21–18.000 m³/h" },
       { code: "ACT ES", description: "Uscător frigorific cu economie de energie (masă termică din aluminiu), 21–960 m³/h" },
       { code: "ACT VS", description: "Uscător frigorific cu turație variabilă, 1.260–17.664 m³/h" },
       { code: "FCT", description: "Uscător frigorific cu refrigerant R513A, până la 8.830 m³/h" },
       { code: "FCT VS", description: "Uscător frigorific cu turație variabilă și refrigerant R513A" },
       { code: "AMH", description: "Uscător frigorific pentru temperatură ridicată la intrare" },
-      { code: "AHT", description: "Uscător frigorific premium pentru temperatură ridicată la intrare" },
+      { code: "AHT", description: "Uscător frigorific pentru temperatură ridicată la intrare" },
       { code: "PLH", description: "Uscător frigorific, debit 25–6.060 m³/h" },
       { code: "PCD", description: "Uscător frigorific cu temperatură de ieșire redusă" },
       { code: "HDT", description: "Uscător cu adsorbție fără căldură, 19–9.060 m³/h" },

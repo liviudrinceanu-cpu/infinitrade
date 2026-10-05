@@ -33,7 +33,7 @@ Pentru piața din România, gama Kontron are sens la integratorii de sisteme și
       "Sănătate — echipamente embedded pentru dispozitive medicale conectate",
       "Automotive — module de calcul pentru aplicații industriale din producția auto"
     ],
-    infinitrade: `Ce știm despre Kontron vine din site-ul oficial al producătorului austriac, iar unde informația publică lipsește, spunem clar asta în loc să completăm din presupuneri. Aducem platformele și modulele Kontron la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul exact al produsului, sistemul de operare pe care va rula aplicația și eventualele cerințe de certificare pentru mediul de instalare. Disponibilitatea nu este garantată permanent din stoc pentru nicio referință din gamă — fiecare cerere se verifică individual cu furnizorul înainte de confirmarea comenzii.`,
+    infinitrade: `Ce știm despre Kontron vine din site-ul oficial al producătorului austriac, iar unde informația publică lipsește, spunem clar asta în loc să completăm din presupuneri. Aducem platformele și modulele Kontron la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de codul exact al produsului, sistemul de operare pe care va rula aplicația și eventualele cerințe de certificare pentru mediul de instalare. Disponibilitatea din stoc nu este permanentă pentru nicio referință din gamă — fiecare cerere se verifică individual cu furnizorul înainte de confirmarea comenzii.`,
     limitation: "Nu putem confirma suport tehnic în limba română pentru configurarea software-ului KontronOS, care rămâne responsabilitatea integratorului de sistem.",
     productCodes: [
       {
@@ -471,7 +471,7 @@ Pentru instalațiile din România, benzile Chiorino au sens în liniile de proce
     name: "Fike",
     founded: 1945,
     headquarters: "Blue Springs, Missouri, SUA",
-    overview: `Fike este un producător american de discuri de rupere (rupture discs) pentru protecția echipamentelor la suprapresiune, activ din 1945 și cu sediul la Blue Springs, în statul Missouri. Din gama Fike putem oferta discuri de rupere cu acțiune inversă din familia premium G2 (seriile RD500 Atlas și RD520 Axius), discuri cu acțiune directă din gama standard (Poly-SD, SCRD, HOV, AD, seria P) și discuri igienice pentru aplicații sterile (Axius SC, RD540 SC). Compania produce și discuri personalizate, proiectate pentru cerințe specifice de proces.
+    overview: `Fike este un producător american de discuri de rupere (rupture discs) pentru protecția echipamentelor la suprapresiune, activ din 1945 și cu sediul la Blue Springs, în statul Missouri. Din gama Fike putem oferta discuri de rupere cu acțiune inversă din familia G2 (seriile RD500 Atlas și RD520 Axius), discuri cu acțiune directă din gama standard (Poly-SD, SCRD, HOV, AD, seria P) și discuri igienice pentru aplicații sterile (Axius SC, RD540 SC). Compania produce și discuri personalizate, proiectate pentru cerințe specifice de proces.
 
 Discul de rupere completează sau înlocuiește o supapă de siguranță acolo unde procesul cere o deschidere instantanee, fără scurgeri până la momentul rupturii, sau unde fluidul vehiculat ar înfunda o supapă convențională. Fike menționează un laborator propriu de testare a caracteristicilor de curgere, certificat ASME, și oferă ghidare tehnică prin Buletinul Tehnic 8100 (Technical Bulletin 8100) privind cerințele pentru dispozitivele cu disc de rupere.
 
@@ -484,8 +484,8 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
       "Fără componente mobile care se pot bloca — deschidere instantanee la atingerea presiunii de rupere"
     ],
     keyProducts: [
-      { name: "Discuri de Rupere G2 Premium (RD500 Atlas, RD520 Axius)", description: "Discuri de rupere cu acțiune inversă, din gama premium G2, proiectate pentru precizie ridicată a presiunii de rupere declarate și repetabilitate între loturi. Utilizate la reactoare și vase sub presiune unde toleranța la presiunea de deschidere trebuie să fie strânsă." },
-      { name: "Discuri Standard cu Acțiune Directă (Poly-SD, SCRD, HOV, AD, Seria P)", description: "Familie de discuri de rupere cu acțiune directă (forward-acting), pentru aplicații generale de protecție la suprapresiune, unde cerințele de precizie sunt mai puțin stricte decât la gama premium. Alegerea modelului depinde de presiunea de rupere necesară și de compatibilitatea materialului cu fluidul din proces." },
+      { name: "Discuri de Rupere G2 (RD500 Atlas, RD520 Axius)", description: "Discuri de rupere cu acțiune inversă, din gama G2, proiectate pentru precizie ridicată a presiunii de rupere declarate și repetabilitate între loturi. Utilizate la reactoare și vase sub presiune unde toleranța la presiunea de deschidere trebuie să fie strânsă." },
+      { name: "Discuri Standard cu Acțiune Directă (Poly-SD, SCRD, HOV, AD, Seria P)", description: "Familie de discuri de rupere cu acțiune directă (forward-acting), pentru aplicații generale de protecție la suprapresiune, unde cerințele de precizie sunt mai puțin stricte decât la gama G2. Alegerea modelului depinde de presiunea de rupere necesară și de compatibilitatea materialului cu fluidul din proces." },
       { name: "Discuri Igienice (Axius SC, RD540 SC)", description: "Discuri de rupere pentru aplicații sterile, cu design care evită zonele greu de curățat, gândite pentru linii farmaceutice și alimentare unde contaminarea încrucișată trebuie exclusă." },
       { name: "Discuri Personalizate (Specialty)", description: "Discuri de rupere proiectate pe cerințe specifice de proces — presiuni, temperaturi sau materiale ieșite din gama standard — dezvoltate împreună cu inginerii producătorului pentru aplicații neobișnuite." }
     ],
@@ -503,11 +503,11 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
     productCodes: [
       {
         "code": "RD500 Atlas",
-        "description": "Disc de rupere cu acțiune inversă, performanță premium și ciclu de viață extins"
+        "description": "Disc de rupere cu acțiune inversă, cu ciclu de viață extins"
       },
       {
         "code": "RD520 Axius",
-        "description": "Disc de rupere cu acțiune inversă din gama premium Axius"
+        "description": "Disc de rupere cu acțiune inversă din gama Axius"
       },
       {
         "code": "RD540",
@@ -836,7 +836,7 @@ Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de
     headquarters: "Wendlingen am Neckar, Germania",
     overview: `Festool este un producător german de scule electrice profesionale, cu sediul la Wendlingen am Neckar și rădăcini care merg până în 1925, când Albert Fezer și Gottlieb Stoll au pus bazele companiei care avea să devină ulterior atât Festo, cât și Festool. Din gama Festool putem oferta fierăstraie (cu pătrundere directă, pendulare și pentru tăieri unghiulare), freze, aspiratoare industriale, șlefuitoare și scule cu acumulator pe platforma 18V. Compania face parte din grupul TTS Tooltechnic Systems, alături de mărcile SawStop, Shaper, Tanos și exoIQ.
 
-Festool se poziționează în gama premium a sculelor electrice de precizie, cu accent pe compatibilitate sistemică între scule, accesorii și aspiratoare — un fierăstrău Festool pornește automat aspiratorul conectat la el, reducând praful din zona de lucru. Gama de aspiratoare industriale e gândită să funcționeze integrat cu restul sculelor, nu ca produs separat.
+Festool se poziționează pe segmentul sculelor electrice de precizie, cu accent pe compatibilitate sistemică între scule, accesorii și aspiratoare — un fierăstrău Festool pornește automat aspiratorul conectat la el, reducând praful din zona de lucru. Gama de aspiratoare industriale e gândită să funcționeze integrat cu restul sculelor, nu ca produs separat.
 
 Pentru piața din România, sculele Festool au sens la tâmplăriile profesionale, echipele de construcții care lucrează cu lemn și firmele de amenajări interioare care caută precizie de tăiere și control al prafului la lucrări în spații ocupate.`,
     whyChoose: [

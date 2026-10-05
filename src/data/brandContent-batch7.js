@@ -741,7 +741,7 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
 
 Tehnologia producătorului Magnehelic de măsurare presiune diferențială prin magnet este utilizată frecvent în industrie: fără electricitate, fără baterii, doar un ac magnetic care urmărește presiunea prin diafragmă. Simplu, fiabil, ieftin. Gama include și instrumente digitale, transmițătoare 4-20 mA și debitmetre; precizia și certificările exacte depind de model și se confirmă pe cod, din documentația Dwyer.
 
-Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte de apă până la monitorizare filtre în camere curate, de la verificare debit ventilatoare până la control presiune în reactoare chimice. Când ai nevoie de un instrument care pur și simplu merge fără să te complice, Dwyer e o alegere de încredere.`,
+Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte de apă până la monitorizare filtre în camere curate, de la verificare debit ventilatoare până la control presiune în reactoare chimice. Când aveți nevoie de un instrument care pur și simplu funcționează fără să vă complice, Dwyer e o alegere de încredere.`,
     whyChoose: [
       'Tehnologie Magnehelic - Manometre diferențiale cu mecanism magnetic, fără alimentare electrică și fără baterii, conform producătorului',
       'Instrumente pentru uz industrial - Prețul și termenul se confirmă în ofertă, pe baza codului exact',
@@ -790,7 +790,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       'Industria hârtiei',
       'OEM echipamente industriale'
     ],
-    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
+    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimiteți-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sub-gama de instrumente digitale Dwyer, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Pressure Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/pressure","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
@@ -876,7 +876,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
 
 Dispozitivele AFDD (Arc Fault Detection Device, dispozitiv de detectare a arcului electric) detectează arcurile electrice periculoase care pot cauza incendii; cerința de montare depinde de normele naționale și de proiect. Întrerupătoarele automate modulare Eaton xEffect (de exemplu seria FAZ6) au curenți nominali de la 0,5 A până la 63 A și capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
-Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
+Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectați o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când aveți nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
     whyChoose: [
       'Gamă completă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
       'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice periculoase, conform documentației producătorului',
@@ -925,7 +925,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       'Industria alimentară',
       'OEM - constructori de mașini'
     ],
-    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimiteți-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
     sources: [
       {"title":"Electrical Circuit Protection – Product Overview","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1022,7 +1022,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
 
 Materialele, presiunea de lucru, temperatura și conexiunile corpurilor de filtru depind de model și se confirmă pe cod, din documentația Eaton. Sacii de filtrare sunt disponibili din polipropilenă, poliester, poliamidă (nailon), PTFE, PEEK și meta-aramidă, fiecare material fiind potrivit pentru anumite lichide și temperaturi.
 
-Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar și băuturi, farmaceutic, precum și pentru hidraulică și ungere. Când procesul tău nu poate sta pentru schimbare filtre sau când particulele trebuie eliminate fără compromis, Eaton Filtration e o soluție de inginerie potrivită.`,
+Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar și băuturi, farmaceutic, precum și pentru hidraulică și ungere. Când procesul dumneavoastră nu poate sta pentru schimbare filtre sau când particulele trebuie eliminate fără compromis, Eaton Filtration e o soluție de inginerie potrivită.`,
     whyChoose: [
       'Sisteme de filtrare - Configurațiile disponibile (simplex, duplex) se stabilesc pe cod, din documentația Eaton',
       'Filtrare absolută vs nominală - Definiția gradului de filtrare diferă între producători; o confirmăm din documentația Eaton pentru codul ales',
@@ -1071,7 +1071,7 @@ Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar �
       'Rafinării petrol',
       'Industria cosmetică'
     ],
-    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimiteți-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Filtration Products Catalog – Eaton","url":"https://www.eaton.com/us/en-us/catalog/filtration.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1177,7 +1177,7 @@ Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar �
 
 Pompele Vickers PVH sunt pompe cu pistoane cu cilindree variabilă, iar motoarele Char-Lynn sunt motoare hidraulice orbitale cu cuplu ridicat la turație mică. Eficiența, presiunea și cuplul depind de model și se confirmă pe cod.
 
-Valvele electrohidraulice proporționale permit comanda poziției și vitezei cilindrilor; timpul de răspuns, histerezisul și repetabilitatea depind de model și se confirmă pe cod. Când construiești o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegi Eaton Hydraulics.`,
+Valvele electrohidraulice proporționale permit comanda poziției și vitezei cilindrilor; timpul de răspuns, histerezisul și repetabilitatea depind de model și se confirmă pe cod. Când construiți o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegeți Eaton Hydraulics.`,
     whyChoose: [
       'Pompe Vickers PVH cu cilindree variabilă - Parametrii (presiune, eficiență, comandă) depind de model și se confirmă pe cod',
       'Motoare Char-Lynn orbitale - Cuplu ridicat la turație mică; cilindreea și cuplul depind de model și se confirmă pe cod',
@@ -1226,7 +1226,7 @@ Valvele electrohidraulice proporționale permit comanda poziției și vitezei ci
       'Naval și offshore',
       'Aviație - sisteme hidraulice aeronave'
     ],
-    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimiteți-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
     sources: [
       {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},

@@ -4,7 +4,7 @@ export const brandContentBatch40 = {
   unitronics: {
     name: "Unitronics",
     founded: 1989,
-    overview: `Unitronics este un producător israelian de automatizări, care din 1989 dezvoltă automate programabile (PLC) cu ecran HMI integrat direct în aceeași carcasă. În loc să cumperi separat un PLC și un panou de operare și să le cablezi împreună, primești un singur echipament compact, programat prin softul propriu UniLogic. Gama acoperă patru familii: UniStream pentru mașini complexe, Vision pentru automatizări avansate, Samba pentru aplicații OEM mici și Jazz/M91 pentru mașini simple. Putem oferta oricare din aceste serii pentru linii de ambalare, stații de tratare a apei sau utilaje de proces.
+    overview: `Unitronics este un producător israelian de automatizări, care din 1989 dezvoltă automate programabile (PLC) cu ecran HMI integrat direct în aceeași carcasă. În loc să cumpărați separat un PLC și un panou de operare și să le cablați împreună, primiți un singur echipament compact, programat prin softul propriu UniLogic. Gama acoperă patru familii: UniStream pentru mașini complexe, Vision pentru automatizări avansate, Samba pentru aplicații OEM mici și Jazz/M91 pentru mașini simple. Putem oferta oricare din aceste serii pentru linii de ambalare, stații de tratare a apei sau utilaje de proces.
 
 Diferența tehnică față de arhitectura clasică PLC+HMI, folosită de exemplu la Siemens cu automate și panouri separate, e că Unitronics integrează controlerul și ecranul tactil într-un singur modul, cu ecrane de la 3,5 până la 15,6 inch la seriile Samba și UniStream. Softul UniLogic reunește într-un singur mediu programarea pentru control, mișcare, HMI și comunicații. Platforma UniCloud este o platformă IIoT fără programare (no-code), cu panouri de monitorizare pentru constructorii de utilaje.
 
@@ -86,7 +86,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
       },
       {
         "code": "UniStream 15.6″ Built-in",
-        "description": "unitate încorporată de top din gama UniStream, ecran de 15,6 inch"
+        "description": "unitate încorporată din gama UniStream, ecran de 15,6 inch"
       },
       {
         "code": "Samba 7″",
@@ -1133,7 +1133,7 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
       },
       {
         "code": "92 00 02",
-        "description": "Set 5 piese pensete premium din oțel inoxidabil"
+        "description": "Set 5 piese pensete din oțel inoxidabil"
       },
       {
         "code": "92 00 04",

@@ -411,7 +411,7 @@ Pompele metalice din portofoliul Milton Roy ajung la debite de până la 32.980 
 Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentru stații de tratare a apei, centrale electrice și instalații chimice, acolo unde debitul dozat trebuie să rămână constant indiferent de variațiile de contrapresiune din instalație.`,
     whyChoose: [
       "Familii de pompe dozatoare cu piston și diafragmă, de la mRoy la Primeroyal, pentru debite și presiuni foarte diferite.",
-      "Debite de până la 32.980 l/h și presiuni de până la 1.035 bar la variantele metalice de top de gamă.",
+      "Debite de până la 32.980 l/h și presiuni de până la 1.035 bar la variantele metalice.",
       "Seria Proteus oferă control fin al debitului pentru procese chimice sensibile la variații.",
       "Rețea de distribuție menționată în peste 35 de țări europene, conform informațiilor publicate de producător.",
       "Certificări ISO 9001, ISO 14001 și ISO/TS 29001:2010 pentru facilitățile de producție."

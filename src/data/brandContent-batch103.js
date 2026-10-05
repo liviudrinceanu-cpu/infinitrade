@@ -1,6 +1,6 @@
 // Batch 103 - Branduri-500 val 6 (sept. 2026): Power Electronics, Zapi Group, Veichi, Sprint Electric, Frizlen, LinMot, Exlar, Servomech, Haacon, Ringspann.
 // Sursa faptelor: site-urile oficiale ale producătorilor, accesate la data din `sources[].accessed`.
-// Omise: Sevcon, Inovance, Pintsch Bubenzer (vezi raportul agentului — cataloagele oficiale sunt randate prin JavaScript și WebFetch nu a putut extrage minimum 10 coduri reale în această sesiune).
+// Omise: Sevcon, Inovance, Pintsch Bubenzer (cataloagele oficiale sunt randate prin JavaScript și WebFetch nu a putut extrage minimum 10 coduri reale).
 export const brandContentBatch103 = {
   'power-electronics': {
     name: "Power Electronics",

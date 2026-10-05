@@ -30,7 +30,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
       "Piscine — recirculare și filtrare a apei",
       "Protecție la incendiu — grupuri de pompare pentru hidranți și sprinklere"
     ],
-    infinitrade: `Lucrăm cu gama DAB prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici italiene: spunem clar, înainte de ofertă, ce putem confirma din cataloagele producătorului și ce rămâne de verificat punctual. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (circulație, presurizare, drenaj), debitul și înălțimea de pompare necesare, plus diametrul racordurilor existente. Nu confirmăm disponibilitate garantată pentru fiecare model din gamă și recomandăm verificarea termenului exact la momentul comenzii.`,
+    infinitrade: `Lucrăm cu gama DAB prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici italiene: spunem clar, înainte de ofertă, ce putem confirma din cataloagele producătorului și ce rămâne de verificat punctual. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (circulație, presurizare, drenaj), debitul și înălțimea de pompare necesare, plus diametrul racordurilor existente. Nu confirmăm disponibilitate pentru fiecare model din gamă și recomandăm verificarea termenului exact la momentul comenzii.`,
     limitation: "Nu putem confirma stocuri locale pentru fiecare model DAB și nu oferim configurare software pentru sistemele electronice de presurizare fără suport direct de la producător.",
     productCodes: [
       {
@@ -801,19 +801,19 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
       },
       {
         "code": "Active Cube ACU 210",
-        "description": "invertor premium, putere 0,25-9,2 kW, alimentare 200-240 V"
+        "description": "invertor, putere 0,25-9,2 kW, alimentare 200-240 V"
       },
       {
         "code": "Active Cube ACU 410",
-        "description": "invertor premium, putere 0,25-400 kW, alimentare 360-480 V"
+        "description": "invertor, putere 0,25-400 kW, alimentare 360-480 V"
       },
       {
         "code": "Active Cube ACU 510",
-        "description": "invertor premium, putere 160-400 kW, alimentare 525 V"
+        "description": "invertor, putere 160-400 kW, alimentare 525 V"
       },
       {
         "code": "Active Cube ACU 610",
-        "description": "invertor premium, putere 160-400 kW, alimentare 690 V"
+        "description": "invertor, putere 160-400 kW, alimentare 690 V"
       }
     ],
     faq: [

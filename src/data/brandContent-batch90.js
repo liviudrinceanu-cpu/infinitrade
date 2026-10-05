@@ -468,7 +468,7 @@ Pentru instalațiile chimice și de tratare a apei din România, pompele Liquifl
     faq: [
       { q: "Ce produce Liquiflo?", a: "Liquiflo produce pompe cu roți dințate pentru transferul fluidelor chimice, în seriile H, 2, 3, 4 și familia Poly-Guard cu cuplaj magnetic, acoperind o plajă largă de vâscozitate, de la solvenți subțiri la paste groase." },
       { q: "Ce pompă Liquiflo aleg pentru dozarea unui chimical coroziv?", a: "Familia Poly-Guard, cu carcasă din inox căptușită cu fluoropolimer și disponibilă în variantă mag-drive (fără etanșare mecanică), e proiectată pentru fluide corozive — mărimile P1–P9 acoperă debite de la 1,4 la 25 GPM." },
-      { q: "Cum aleg mărimea potrivită din seria Poly-Guard?", a: "Trimite-ne debitul necesar în GPM și presiunea diferențială a sistemului. Seria Poly-Guard are nouă mărimi, de la P1 la P9, fiecare cu un debit maxim și o presiune diferențială specifică la 1.750 rpm." },
+      { q: "Cum aleg mărimea potrivită din seria Poly-Guard?", a: "Trimiteți-ne debitul necesar în GPM și presiunea diferențială a sistemului. Seria Poly-Guard are nouă mărimi, de la P1 la P9, fiecare cu un debit maxim și o presiune diferențială specifică la 1.750 rpm." },
       { q: "Livrați pompe Liquiflo în România și cât durează?", a: "Da, aducem pompele Liquiflo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, confirmat exact după ce producătorul validează mărimea și materialele cerute de proiect." }
     ],
     evidenceClass: "market-signal-intl",

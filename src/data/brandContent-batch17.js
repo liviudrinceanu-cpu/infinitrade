@@ -1,6 +1,6 @@
 // Batch 17 - Rich SEO Content for Priority Niche Brands
 // Legacy-redirect targets (301 traffic from old-site URLs) and low-competition niches
-// Natural Romanian language, no "distribuitor oficial/autorizat"
+// Natural Romanian language, no claims of official or authorized status
 
 export const brandContentBatch17 = {
   leser: {
@@ -309,7 +309,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       "Materiale certificate pentru contact cu apa potabilă conform normelor europene"
     ],
     infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Livrarea este de 24–72 h dacă articolul este confirmat în stoc la furnizor; altfel, de regulă 1–4 săptămâni la comandă, iar armăturile de diametre mari sau cu acționare specială pot depăși 4 săptămâni.",
-    limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama VAG — armăturile mari rămân, de regulă, produse la comandă.",
+    limitation: "Nu putem confirma disponibilitatea pentru toate combinațiile de diametru și presiune din gama VAG — armăturile mari rămân, de regulă, produse la comandă.",
     sources: [
       {"title":"Products","url":"https://www.vag-group.com/en/products","publisher":"VAG","accessed":"2026-09-22"},
       { title: "VAG – The Valve Experts. Since 1872.", url: "https://www.vag-group.com", publisher: "VAG-Armaturen GmbH", accessed: "2026-09-22" },
@@ -608,7 +608,7 @@ Metoda de îmbinare depinde de material și de diametru și se confirmă din doc
       "ISO 14001 — management de mediu pentru fabricile de sisteme de conducte din plastic"
     ],
     infinitrade: "Facilităm achiziția de sisteme de conducte, robineți și fitinguri GF Piping Systems — PVC-U, PP, PE și PVDF, robineți cu diafragmă și cu bilă, plus sistemul preizolat COOL-FIT — pentru stații de tratare a apei și instalații chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare diametru și verificăm compatibilitatea materialului în informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne fluidul vehiculat, presiunea și temperatura de lucru. Diametrele și fitingurile uzuale din PVC-U și PP sunt de regulă disponibile în 24–72 h, iar configurațiile cu robineți automatizați sau senzori Signet integrați ajung în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma o disponibilitate garantată pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
+    limitation: "Nu putem confirma disponibilitatea pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
     sources: [
       {"title":"Product catalogue Valves and Measurement Portfolio","url":"https://www.gfps.com/content/dam/gfps/com/product-ranges/en/gfps-00049-product-range-valves-and-measurement-en.pdf","publisher":"GF Piping Systems","accessed":"2026-09-23"},
       { title: "Georg Fischer Ltd – Corporate site", url: "https://www.georgfischer.com", publisher: "Georg Fischer AG", accessed: "2026-09-22" },

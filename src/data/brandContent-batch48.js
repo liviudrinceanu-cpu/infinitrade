@@ -161,7 +161,7 @@ Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de
 
 Gama e organizată pe cinci direcții: fitinguri și racorduri de diverse forme și diametre, cuplaje automate și pistoale de suflat aer, o linie de automatizare cu valve, actuatoare pneumatice și electrice plus unități de filtrare-reglare-lubrifiere (FRL), linia Infinity pentru rețele de aer comprimat, gaz inert și vid, și linia Fluidity cu valve pentru distribuția de fluide lichide sau gazoase. În categoria fitingurilor push-in, Aignep se compară cu Camozzi, alt nume italian prezent deja pe site-ul nostru, ambele acoperind game largi de conectori pneumatici pentru integratori de linii de producție.
 
-Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelte cu acționare pneumatică sau instalații de aer comprimat unde ai nevoie de fitinguri și valve compatibile cu standardele europene de automatizare, cu opțiunea de a completa gama cu actuatoare sau unități FRL din același producător.`,
+Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelte cu acționare pneumatică sau instalații de aer comprimat unde aveți nevoie de fitinguri și valve compatibile cu standardele europene de automatizare, cu opțiunea de a completa gama cu actuatoare sau unități FRL din același producător.`,
     whyChoose: [
       "Produse prezentate de producător ca 100% Made in Italy, organizate pe cinci linii",
       "Gamă largă de fitinguri push-in, compresie și function fittings, în diverse materiale și diametre",
@@ -286,7 +286,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
 
 Ce diferențiază Elesa+Ganter e combinația celor două cataloage — Ganter aduce expertiză germană în elemente de indexare, cuplaje și componente pentru vid, iar Elesa aduce gama italiană de mânere, butoane și profiluri de aluminiu, ambele proiectate după standarde precum DIN 3015 pentru fixarea conductelor și tuburilor. Designul produselor a fost recunoscut cu premii internaționale, printre care Red Dot Design Award și iF Design Award. În categoria elementelor standard de mașini, Elesa+Ganter se compară cu Norelem, un alt nume deja prezent pe site-ul nostru.
 
-Pentru piața din România, gama are sens la proiectarea de mașini și echipamente unde ai nevoie de componente standardizate — mânere ergonomice, șuruburi de indexare, elemente de fixare rapidă — mai degrabă decât de piese fabricate special pentru fiecare aplicație.`,
+Pentru piața din România, gama are sens la proiectarea de mașini și echipamente unde aveți nevoie de componente standardizate — mânere ergonomice, șuruburi de indexare, elemente de fixare rapidă — mai degrabă decât de piese fabricate special pentru fiecare aplicație.`,
     whyChoose: [
       "Catalog combinat german (Ganter) și italian (Elesa), cu istoric separat din 1894, respectiv 1941",
       "Cleme pentru tuburi conform standardului DIN 3015, în catalogul comun",
@@ -395,7 +395,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
 
 Gama tehnică acoperă arcuri în spirală de compresie, extensie, torsiune, garter și wave, arcuri plate de tip constant-force și power springs, arcuri cu gaz cu azot din seria NitroSprings, plus operațiuni de presare și ștanțare, inclusiv arcuri disc, șaibe ondulate și componente ștanțate. Producția e certificată conform ISO 9001, ISO 14001 și, pentru aplicații medicale, ISO 13485:2016 — un nivel de certificare relevant pentru clienți din industrii reglementate, nu doar din construcția generală de mașini.
 
-Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri dimensionate precis pe forță și cursă — utilaje industriale, echipamente auto de aftermarket, dispozitive medicale — și unde un arc de catalog generic nu acoperă parametrii ceruți de aplicație.`,
+Pentru piața din România, Lesjöfors are sens acolo unde aveți nevoie de arcuri dimensionate precis pe forță și cursă — utilaje industriale, echipamente auto de aftermarket, dispozitive medicale — și unde un arc de catalog generic nu acoperă parametrii ceruți de aplicație.`,
     whyChoose: [
       "Gamă largă: arcuri din sârmă, arcuri plate, arcuri cu gaz și piese ștanțate, sub același producător",
       "Certificare ISO 13485:2016 pentru aplicații medicale, pe lângă ISO 9001 și ISO 14001",
@@ -515,7 +515,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
 
 Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilor, sisteme de protecție la foc, sisteme de instalare încastrată, sisteme de conectare, plus protecție la trăsnet și supratensiune și soluții pentru instalații subterane. În zona de protecție la supratensiune, OBO Bettermann este comparabil cu Dehn, alt producător german, ambele având game de descărcătoare pentru tablouri electrice.
 
-Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde ai nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
+Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde aveți nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
     whyChoose: [
       "Gamă completă pentru instalații electrice: jgheaburi de cabluri, protecție la supratensiune, protecție la foc",
       "Sisteme de conducere a cablurilor dimensionate pentru diverse tipuri de trasee industriale",

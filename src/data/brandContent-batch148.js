@@ -43,7 +43,7 @@ Pentru instalații din România unde spațiul de montaj e limitat sau precizia a
       { code: "C Series", description: "Motoreductor elicoidal, cuplu 21–6000 Nm, raport 2–276" },
       { code: "F Series", description: "Reductor elicoidal offset, cuplu de accelerare 53–1100 Nm, raport 4,3–552" },
       { code: "FEZ Series", description: "Servomotoreductor offset, cuplu accelerare 21–1100 Nm, randament 96–97%" },
-      { code: "PLM Series", description: "Motor planetar lean premium, cuplu 13–1840 Nm, raport 3–70" },
+      { code: "PLM Series", description: "Motor planetar lean, cuplu 13–1840 Nm, raport 3–70" },
       { code: "PELM Series", description: "Motor planetar lean economic, cuplu 13–310 Nm, raport 3–20" },
       { code: "LM Series", description: "Servomotor lean IE5, cuplu nominal 2,25–25,7 Nm, fără traductor extern" },
       { code: "ZV Series", description: "Angrenaj cremalieră-pinion flexibil, modul 2–4 mm, clasă danturare 6" },

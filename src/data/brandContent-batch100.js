@@ -9,7 +9,7 @@ export const brandContentBatch100 = {
 
 Ce diferențiază FAR e organizarea foarte clară a gamei pe familii de catalog — de la componente de centrală termică, până la valve pentru corpuri de încălzire și termoarezuri, colectoare cu atașamente Eurokonus sau cap plat, și contorizare a căldurii. Firma are în catalog și racorduri PRESSFAR, sistem propriu de îmbinare prin presare.
 
-Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoare și valve de zonă compatibile cu sisteme de încălzire în pardoseală sau cu radiatoare clasice, fără să fie nevoie de o marcă premium pentru fiecare element. Piesele se pretează la lucrări de întreținere curentă și la completarea instalațiilor existente cu racorduri PRESSFAR.`,
+Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoare și valve de zonă compatibile cu sisteme de încălzire în pardoseală sau cu radiatoare clasice. Piesele se pretează la lucrări de întreținere curentă și la completarea instalațiilor existente cu racorduri PRESSFAR.`,
     whyChoose: [
       "Gamă completă de la centrala termică până la corpul de încălzire, organizată pe familii clare de catalog",
       "Racorduri PRESSFAR pentru îmbinări rapide, fără sudură, utile la retrofit și la extinderi de instalație",
@@ -195,7 +195,7 @@ Pentru instalatorii din România, Pettinaroli are sens la proiecte HVAC cu echil
 
 Itap concurează cu Giacomini pe segmentul de robinetărie pentru încălzire și instalații sanitare, ambele firme având familii extinse de valve și fitinguri. Gama Itap acoperă de la valve cu clapă și robinete până la fitinguri compatibile cu mai multe tipuri de țeavă (multistrat, PEX, polibutilenă, cupru, polietilenă). Gama de colectoare vine în variante din inox sau alamă nichelată, în funcție de cerințele instalației.
 
-Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum mare de fitinguri standard sau colectoare pentru mai multe tipuri de țeavă, fără necesitatea unei mărci premium pentru fiecare componentă.`,
+Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum mare de fitinguri standard sau colectoare pentru mai multe tipuri de țeavă.`,
     whyChoose: [
       "Producție integrată pe linii proprii de transfer și asamblare automatizată, cu volum zilnic mare de piese",
       "Gamă de aproximativ 400 de articole, de la valve cu bilă până la fitinguri și colectoare",
@@ -235,9 +235,9 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
     ],
     faq: [
       { q: "Ce produce Itap?", a: "Itap fabrică în Italia valve, robinetărie, fitinguri și colectoare pentru instalații sanitare și de încălzire, cu o gamă de aproximativ 400 de articole. Producția e integrată pe linii proprii de transfer și asamblare, ceea ce acoperă comenzi de volum mare pentru distribuitori din peste o sută de țări." },
-      { q: "Ce fitinguri Itap se potrivesc pentru o instalație cu țeavă multistrat?", a: "Itap are o familie dedicată de fitinguri pentru țeavă multistrat. Dacă instalația combină multistratul cu alt material, cum ar fi cuprul, trimite-ne ambele diametre și tipurile de țeavă ca să identificăm fitingurile de trecere potrivite." },
+      { q: "Ce fitinguri Itap se potrivesc pentru o instalație cu țeavă multistrat?", a: "Itap are o familie dedicată de fitinguri pentru țeavă multistrat. Dacă instalația combină multistratul cu alt material, cum ar fi cuprul, trimiteți-ne ambele diametre și tipurile de țeavă ca să identificăm fitingurile de trecere potrivite." },
       { q: "Livrați Itap în România și în cât timp ajunge comanda?", a: "Aducem la comandă din gama Itap prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului. Nu ținem această gamă pe raft, deci primul pas e confirmarea tipului exact de piesă și a diametrului." },
-      { q: "Ce trebuie să trimit pentru o ofertă de colector Itap?", a: "Ai nevoie să precizezi numărul de circuite, materialul preferat — inox sau alamă nichelată — și dacă îți trebuie accesorii suplimentare precum termostate sau robinete de reglaj pe fiecare ieșire. Aceste detalii ne permit să identificăm varianta corectă din gamă." },
+      { q: "Ce trebuie să trimit pentru o ofertă de colector Itap?", a: "Aveți nevoie să precizați numărul de circuite, materialul preferat — inox sau alamă nichelată — și dacă vă trebuie accesorii suplimentare precum termostate sau robinete de reglaj pe fiecare ieșire. Aceste detalii ne permit să identificăm varianta corectă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -303,7 +303,7 @@ Pentru instalatori din România, RBM are sens la lucrări de mentenanță și pu
       { q: "Ce produce RBM?", a: "RBM fabrică filtre defangatoare magnetice, separatoare hidraulice și unități de amestec pentru instalații de încălzire și răcire, plus produse de curățare chimică pentru mentenanța sistemului. Gama e organizată pe serii numerice proprii, fiecare cu o funcție specifică în protecția sau reglarea instalației." },
       { q: "Cum aleg un filtru defangator RBM potrivit?", a: "Seriile MG1 (3070.A) și MG2 (3715.A) sunt filtre defangatoare magnetice montate sub cazan; alegerea între ele se face pe baza fișelor tehnice ale producătorului. Vă rugăm să ne transmiteți debitul instalației și diametrul conductei pe care se montează filtrul, pentru a identifica seria potrivită." },
       { q: "Livrați RBM în România și cât durează comanda?", a: "Aducem la comandă din gama RBM prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea la producător. Nu ținem această gamă pe raft, deci primul pas e confirmarea seriei exacte și a cantității necesare." },
-      { q: "Ce trebuie să trimit pentru o ofertă de unitate Multimix RBM?", a: "Ai nevoie să precizezi debitul necesar pe circuitul secundar, diferența de temperatură dorită între circuitul primar și cel secundar, și dacă îți trebuie pompare directă sau amestec modulant. Aceste date ne permit să recomandăm seria Multimix corectă din gamă." },
+      { q: "Ce trebuie să trimit pentru o ofertă de unitate Multimix RBM?", a: "Aveți nevoie să precizați debitul necesar pe circuitul secundar, diferența de temperatură dorită între circuitul primar și cel secundar, și dacă vă trebuie pompare directă sau amestec modulant. Aceste date ne permit să recomandăm seria Multimix corectă din gamă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -365,10 +365,10 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
     ],
     faq: [
       { q: "Ce produce Saint-Gobain PAM?", a: "Saint-Gobain PAM fabrică în Franța conducte și robinetărie din fontă ductilă pentru rețele de apă potabilă, canalizare și ape pluviale, plus soluții de acces stradal precum capace de cămin și grătare. Gama include robinete fluture, vane cu opercul și mai multe serii de conducte adaptate la tipul de sol și la presiunea din rețea." },
-      { q: "Cum aleg o vană PAM pentru o rețea de apă potabilă?", a: "Vana cu opercul EURO 20 e varianta standard pentru secționarea conductelor îngropate; alegerea diametrului și a clasei de presiune (PN) depinde de rețeaua existentă. Trimite-ne diametrul nominal al conductei și presiunea de lucru din rețea, ca să identificăm codul potrivit din gamă." },
+      { q: "Cum aleg o vană PAM pentru o rețea de apă potabilă?", a: "Vana cu opercul EURO 20 e varianta standard pentru secționarea conductelor îngropate; alegerea diametrului și a clasei de presiune (PN) depinde de rețeaua existentă. Trimiteți-ne diametrul nominal al conductei și presiunea de lucru din rețea, ca să identificăm codul potrivit din gamă." },
       { q: "Ce echivalent are gama PAM față de VAG?", a: "PAM și VAG acoperă categorii similare de robinetărie pentru rețele de apă — vane cu opercul și robinete fluture — dar cu dimensiuni de montaj proprii fiecărei mărci. Dacă înlocuiești o piesă VAG cu una PAM, verifică distanța dintre flanșe și diametrul nominal înainte de comandă." },
       { q: "Livrați Saint-Gobain PAM în România și cât durează?", a: "Aducem la comandă din gama PAM prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru diametrul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea diametrului și a clasei de presiune." },
-      { q: "Ce trebuie să trimit pentru o ofertă de conductă din fontă ductilă PAM?", a: "Ai nevoie să precizezi diametrul nominal, lungimea totală necesară, tipul de sol (normal sau agresiv chimic) și dacă rețeaua e pentru apă potabilă sau canalizare. Aceste detalii determină seria de conductă potrivită — Natural, Optimal sau una dintre variantele cu protecție suplimentară." },
+      { q: "Ce trebuie să trimit pentru o ofertă de conductă din fontă ductilă PAM?", a: "Aveți nevoie să precizați diametrul nominal, lungimea totală necesară, tipul de sol (normal sau agresiv chimic) și dacă rețeaua e pentru apă potabilă sau canalizare. Aceste detalii determină seria de conductă potrivită — Natural, Optimal sau una dintre variantele cu protecție suplimentară." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -430,7 +430,7 @@ Pentru operatorii de apă și antreprenorii din România, Düker are sens la pro
       { q: "Ce produce Düker?", a: "Düker fabrică în Germania armături din fontă ductilă pentru rețele de apă — vane de izolare, clapete, hidranți și fitinguri cu flanșe sau mufe — plus conducte din fontă pentru coloane de canalizare interioară în clădiri. Compania are rădăcini documentate din 1469 în regiunea Unterfranken." },
       { q: "De ce să aleg conducte din fontă Düker în loc de plastic pentru coloana de canalizare?", a: "Düker produce conducte din fontă pentru coloane de canalizare interioară (SML, MLK-protec, TML, MLB, Düker NH). Alegerea între fontă și alt material depinde de specificațiile proiectului de instalații; proprietățile exacte se confirmă din documentația producătorului." },
       { q: "Livrați Düker în România și cât durează comanda?", a: "Aducem la comandă din gama Düker prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru diametrul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea tipului de componentă și a diametrului nominal." },
-      { q: "Ce trebuie să trimit pentru o ofertă de vană Düker?", a: "Ai nevoie să precizezi diametrul nominal (DN), clasa de presiune (PN) și tipul de montaj — îngropat sau cu cutie de manevră la suprafață. Dacă proiectul cere o clapetă în loc de vană cu pană, menționează și diametrul conductei pe care se montează." },
+      { q: "Ce trebuie să trimit pentru o ofertă de vană Düker?", a: "Aveți nevoie să precizați diametrul nominal (DN), clasa de presiune (PN) și tipul de montaj — îngropat sau cu cutie de manevră la suprafață. Dacă proiectul cere o clapetă în loc de vană cu pană, menționați și diametrul conductei pe care se montează." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -545,7 +545,7 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
     ],
     faq: [
       { q: "Ce produce Regada?", a: "Regada fabrică în Slovacia actuatoare electrice și pneumatice pentru robineți industriali, plus supape solenoid pentru automatizare pe aer comprimat. Gama electrică, seria SP, acoperă cupluri de la 4 la peste 500 Nm, cu variante gândite pentru zone cu risc de explozie." },
-      { q: "Cum aleg un actuator Regada după cuplu?", a: "Pornești de la cuplul necesar la robinetul pe care îl acționezi — SP MIKRO acoperă până la 8 Nm, iar SP 2.4-Ex ajunge la 575 Nm. Trimite-ne tipul de robinet, diametrul și dacă zona de montaj cere o variantă Ex, ca să identificăm modelul potrivit din serie." },
+      { q: "Cum aleg un actuator Regada după cuplu?", a: "Porniți de la cuplul necesar la robinetul pe care îl acționați — SP MIKRO acoperă până la 8 Nm, iar SP 2.4-Ex ajunge la 575 Nm. Trimiteți-ne tipul de robinet, diametrul și dacă zona de montaj cere o variantă Ex, ca să identificăm modelul potrivit din serie." },
       { q: "Ce diferență e între seria SP și seria SPR la Regada?", a: "Seria SP oferă acționare de tip deschis/închis sau modulantă simplă, în timp ce seria SPR adaugă funcția Rematic, pentru poziționare proporțională continuă a robinetului în funcție de un semnal de comandă. SPR e util unde debitul trebuie reglat fin, nu doar oprit sau pornit." },
       { q: "Livrați Regada în România și în cât timp?", a: "Aducem la comandă din gama Regada prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru modelul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea cuplului necesar și a clasificării zonei de montaj." },
     ],
@@ -609,10 +609,10 @@ Pentru operatorii industriali din România, ARIS are sens la automatizarea robin
     ],
     faq: [
       { q: "Ce produce ARIS Stellantriebe?", a: "ARIS Stellantriebe fabrică în Germania actuatoare electrice pentru robineți industriali — familiile Nano S, Tensor S, ExTensor M și PICO — plus componente complete pentru stații de reglare a gazului, precum regulatoare de presiune, filtre și debitmetre. Compania face parte din grupul britanic Kinetrol din 2025." },
-      { q: "Ce actuator ARIS aleg pentru o zonă cu risc de explozie?", a: "ExTensor M e varianta certificată ATEX și IECEx din familia Tensor, gândită pentru zone clasificate din industria chimică sau rafinării. Trimite-ne clasificarea exactă a zonei (categorie și grup de gaz) și cuplul necesar la robinet, ca să confirmăm compatibilitatea modelului." },
+      { q: "Ce actuator ARIS aleg pentru o zonă cu risc de explozie?", a: "ExTensor M e varianta certificată ATEX și IECEx din familia Tensor, gândită pentru zone clasificate din industria chimică sau rafinării. Trimiteți-ne clasificarea exactă a zonei (categorie și grup de gaz) și cuplul necesar la robinet, ca să confirmăm compatibilitatea modelului." },
       { q: "Ce echivalent are gama ARIS față de Auma?", a: "ARIS și Auma acoperă categorii similare de actuatoare electrice pentru robineți industriali, dar cu familii de coduri proprii. Dacă înlocuiești un actuator Auma cu unul ARIS, verifică cuplul necesar, tipul de interfață mecanică și, la zonele clasificate, certificarea ATEX cerută de proiect." },
       { q: "Livrați ARIS Stellantriebe în România și cât durează?", a: "Aducem la comandă din gama ARIS prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru modelul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea tipului de actuator și a cuplului necesar." },
-      { q: "Ce trebuie să trimit pentru o ofertă de componente de stație de gaz ARIS?", a: "Ai nevoie să precizezi presiunea de intrare și de ieșire dorită, debitul maxim al stației și dacă îți trebuie filtrare, măsurare sau doar reglare de presiune. Aceste detalii ne permit să identificăm combinația corectă de componente din gama ARIS." },
+      { q: "Ce trebuie să trimit pentru o ofertă de componente de stație de gaz ARIS?", a: "Aveți nevoie să precizați presiunea de intrare și de ieșire dorită, debitul maxim al stației și dacă vă trebuie filtrare, măsurare sau doar reglare de presiune. Aceste detalii ne permit să identificăm combinația corectă de componente din gama ARIS." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -671,7 +671,7 @@ Pentru operatorii industriali din România, Schiebel are sens la robineți unde 
     faq: [
       { q: "Ce produce Schiebel Antriebstechnik?", a: "Schiebel fabrică în Austria actuatoare electrice pentru robineți industriali, organizate în seria CM (CM 03, 06 și 12, până la 125 Nm) și seria AB, cu funcție failsafe disponibilă pe dimensiunile CM 03, 06 și 12. Unitatea de control Smartcon adaugă diagnosticare și protocoale de comunicație industrială." },
       { q: "Ce este funcția failsafe la actuatoarele Schiebel?", a: "Failsafe e o funcție mecanică independentă de alimentarea electrică, prin care actuatorul aduce robinetul într-o poziție predefinită în mai puțin de o secundă la o pană de curent, fără baterie de rezervă. E disponibilă pe dimensiunile CM 03, 06 și 12." },
-      { q: "Cum aleg un actuator Schiebel după cuplu?", a: "Seria CM acoperă cuplu de la 32 Nm (CM 03) până la 125 Nm (CM 12), iar pentru cupluri peste 125 Nm vă rugăm să ne cereți confirmarea seriei potrivite. Trimite-ne cuplul necesar la robinet și dacă instalația cere funcție failsafe, ca să identificăm modelul potrivit." },
+      { q: "Cum aleg un actuator Schiebel după cuplu?", a: "Seria CM acoperă cuplu de la 32 Nm (CM 03) până la 125 Nm (CM 12), iar pentru cupluri peste 125 Nm vă rugăm să ne cereți confirmarea seriei potrivite. Trimiteți-ne cuplul necesar la robinet și dacă instalația cere funcție failsafe, ca să identificăm modelul potrivit." },
       { q: "Livrați Schiebel Antriebstechnik în România și cât durează comanda?", a: "Aducem la comandă din gama Schiebel Antriebstechnik prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de disponibilitatea producătorului pentru modelul cerut. Nu ținem această gamă pe raft, deci primul pas e confirmarea cuplului necesar și a opțiunii failsafe." },
     ],
     evidenceClass: "market-signal-intl",

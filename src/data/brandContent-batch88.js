@@ -183,7 +183,7 @@ Pentru un integrator sau o rafinărie din România, Houttuin înseamnă acces la
     ],
     faq: [
       { q: "Ce fel de pompe produce Houttuin?", a: "Houttuin fabrică pompe cu doi șuruburi pentru fluide vâscoase, fierbinți sau cu conținut de gaz, folosite în chimie, rafinării și petrol offshore. Brandul, cu origini olandeze din 1929, face parte azi din portofoliul CIRCOR, alături de Allweiler." },
-      { q: "Cum aleg seria corectă de pompă Houttuin după vâscozitate?", a: "Trebuie să știi vâscozitatea reală a fluidului, temperatura de lucru și presiunea de refulare necesară. Seria 236 și seria 249 acoperă vâscozități între 0,5 și 100.000 cSt, în timp ce Lube Oil e potrivită pentru fluide mai puțin vâscoase, între 10 și 760 cSt." },
+      { q: "Cum aleg seria corectă de pompă Houttuin după vâscozitate?", a: "Trebuie să știți vâscozitatea reală a fluidului, temperatura de lucru și presiunea de refulare necesară. Seria 236 și seria 249 acoperă vâscozități între 0,5 și 100.000 cSt, în timp ce Lube Oil e potrivită pentru fluide mai puțin vâscoase, între 10 și 760 cSt." },
       { q: "Ce diferență e între Houttuin seria 249 și 249.TT?", a: "Seria 249.TT este, conform producătorului, o versiune mai nouă și mai compactă a seriei 249, utilă unde spațiul de montaj este limitat; parametrii exacți se confirmă pe model." },
       { q: "Livrați pompe Houttuin în România și cât durează?", a: "Da, aducem pompe cu șurub Houttuin la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă. Nu ținem această gamă pe raft, iar termenul exact se confirmă după transmiterea parametrilor tehnici." },
     ],

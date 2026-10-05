@@ -85,7 +85,7 @@ Pentru piața din România, Modine înseamnă în primul rând acces la baterii 
     headquarters: "Bay Minette, SUA",
     overview: `Quincy Compressor e producător american de compresoare de aer, cu sediul la Bay Minette, în statul Alabama, activ din 1920 și cu fabrică certificată ISO 9001. Gama pe care o putem oferi acoperă compresoare cu piston, compresoare cu șurub rotativ, compresoare fără ulei și pompe de vid, plus compresoare de gaz natural pentru aplicații industriale continue. Liniile principale sunt gândite pentru funcționare non-stop în producție, nu doar pentru uz ocazional de atelier.
 
-Compresoarele cu șurub rotativ acoperă puteri de la 5 la 400 CP, cu seria QGD în configurație cu angrenaj de la 15 la 125 CP și debite de până la 529 acfm la 125 psig, în timp ce seria QSI (premium) urcă până la 400 CP pentru sarcini industriale grele. Seriile QGDV și QGSV adaugă control de turație variabilă pentru economie de energie la sarcina parțială. Pentru aer fără ulei, gama QOF cu compresor tip scroll acoperă 2-30 CP, iar seria WIS cu injecție de apă merge de la 20 la 75 CP acolo unde procesul cere aer complet fără urme de ulei.
+Compresoarele cu șurub rotativ acoperă puteri de la 5 la 400 CP, cu seria QGD în configurație cu angrenaj de la 15 la 125 CP și debite de până la 529 acfm la 125 psig, în timp ce seria QSI urcă până la 400 CP pentru sarcini industriale grele. Seriile QGDV și QGSV adaugă control de turație variabilă pentru economie de energie la sarcina parțială. Pentru aer fără ulei, gama QOF cu compresor tip scroll acoperă 2-30 CP, iar seria WIS cu injecție de apă merge de la 20 la 75 CP acolo unde procesul cere aer complet fără urme de ulei.
 
 Pentru piața din România, Quincy înseamnă acces la compresoare industriale robuste pentru linii de producție și ateliere unde compresorul funcționează aproape continuu, iar clientul caută fie o unitate nouă, fie piese de schimb după codul de serie existent.`,
     whyChoose: [
@@ -105,8 +105,8 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
         description: "Compresoare cu șurub: QGS, de la 5 la 60 CP, cu antrenare prin curea (până la 40 CP) sau prin angrenaj (40–60 CP), și QGSV, de la 5 la 60 CP, cu antrenare directă și turație variabilă. Seria QGV, cu turație variabilă, acoperă 40–400 CP. Potrivite pentru ateliere mici și medii cu variații de consum pe parcursul zilei.",
       },
       {
-        name: "Compresoare industriale premium seria QSI",
-        description: "Compresoare cu șurub pentru sarcini industriale grele, cu puteri de la 50 la 400 CP, gândite pentru funcționare continuă în producție. Reprezintă varianta de top a gamei rotative pentru fabrici cu cerințe mari de aer comprimat pe schimburi multiple.",
+        name: "Compresoare industriale seria QSI",
+        description: "Compresoare cu șurub pentru sarcini industriale grele, cu puteri de la 50 la 400 CP, gândite pentru funcționare continuă în producție. Acoperă segmentul de puteri mari al gamei rotative pentru fabrici cu cerințe mari de aer comprimat pe schimburi multiple.",
       },
       {
         name: "Compresoare fără ulei seria QOF și WIS",
@@ -132,7 +132,7 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
       { code: "QGS", description: "Compresor cu șurub, 5-60 CP, cu antrenare prin curea (până la 40 CP) sau prin angrenaj" },
       { code: "QGSV", description: "Compresor cu șurub cu turație variabilă, 5-60 CP, antrenare directă" },
       { code: "QGV", description: "Compresor cu șurub cu turație variabilă, 40-400 CP" },
-      { code: "QSI", description: "Compresor cu șurub industrial premium, 50-400 CP" },
+      { code: "QSI", description: "Compresor cu șurub industrial, 50-400 CP" },
       { code: "QR-25", description: "Compresor cu piston, gama de bază" },
       { code: "QP", description: "Compresor cu piston standard, variante PRO disponibile" },
       { code: "QT", description: "Compresor cu piston în două trepte, 5-15 CP standard" },
@@ -148,7 +148,7 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
     faq: [
       { q: "Ce produce Quincy Compressor?", a: "Quincy Compressor produce compresoare de aer cu piston și cu șurub rotativ, compresoare fără ulei și pompe de vid, plus compresoare de gaz natural, pentru aplicații industriale unde echipamentul funcționează aproape continuu. Fabrica are certificare ISO 9001." },
       { q: "Se poate procura Quincy Compressor în România sau Europa?", a: "Nu am găsit pe site-ul producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem compresoarele Quincy din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
-      { q: "Ce diferență este între seria QGD și seria QSI?", a: "QGD acoperă 15-125 CP în configurație cu angrenaj pentru consum industrial general, în timp ce QSI este linia premium, de la 50 la 400 CP, gândită pentru sarcini industriale mai grele și funcționare continuă pe schimburi multiple." },
+      { q: "Ce diferență este între seria QGD și seria QSI?", a: "QGD acoperă 15-125 CP în configurație cu angrenaj pentru consum industrial general, în timp ce QSI este linia de la 50 la 400 CP, gândită pentru sarcini industriale mai grele și funcționare continuă pe schimburi multiple." },
       { q: "Ce trebuie să trimit pentru o ofertă de compresor Quincy?", a: "Trimiteți codul de serie de pe plăcuța compresorului, puterea în CP, presiunea de lucru necesară și, dacă înlocuiți o unitate existentă, tipul de antrenare (curea sau directă). Cu aceste date verificăm echivalentul disponibil pentru comandă." },
     ],
     evidenceClass: "market-signal-intl",

@@ -312,7 +312,7 @@ export const productTypes = [
       },
       {
         "criterion": "Compatibilitatea cu materialele pe care se aplică",
-        "detail": "Unele dizolvante puternice atacă vopseaua, cauciucul sau anumite mase plastice; verificarea compatibilității evită deteriorarea componentei pe care vrei să o întreții."
+        "detail": "Unele dizolvante puternice atacă vopseaua, cauciucul sau anumite mase plastice; verificarea compatibilității evită deteriorarea componentei pe care doriți să o întrețineți."
       },
       {
         "criterion": "Persistența efectului în timp",

@@ -150,7 +150,7 @@ Infinitrade poate oferta la comandă echipamente din gama industrială Schneider
     founded: 1931,
     headquarters: 'Bruchsal, Germania',
     employees: '21,000+',
-    overview: `SEW Eurodrive este un nume de referință în motoreductoare industriale. Fondată în 1931 în Bruchsal, compania s-a impus prin modularitate extinsă în tehnologia de antrenare. Când comanzi un SEW, alegi din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină modular, ca piesele unui sistem industrial bine gândit.
+    overview: `SEW Eurodrive este un nume de referință în motoreductoare industriale. Fondată în 1931 în Bruchsal, compania s-a impus prin modularitate extinsă în tehnologia de antrenare. Când comandați un SEW, alegeți din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină modular, ca piesele unui sistem industrial bine gândit.
 
 Un punct forte al SEW este filosofia de "decentralizare". În loc să tragi cabluri de la un dulap de comandă la motoare, invertorul se montează direct pe motoreductor — seria MOVIGEAR. Rezultatul: mai puține cabluri, mai puțină muncă de instalare, mai puțină întreținere și diagnoză simplificată (LED-uri pe fiecare antrenare care indică starea de funcționare).
 
@@ -170,7 +170,7 @@ Infinitrade poate oferi la comandă produse SEW Eurodrive: de la motoreductoare 
       },
       {
         name: 'Motoreductoare seria R, F, K, S',
-        description: `Gama clasică de reductoare industriale: R (cilindrice coaxiale), F (cilindrice cu axe paralele), K (conice-cilindrice), S (melcate). Rapoartele de transmisie și puterile depind de serie și mărime și se confirmă din catalogul SEW-EURODRIVE. Construcție modulară — poți adăuga frână, ventilator forțat, encoder, backstop. Sunt folosite frecvent în industrie pentru aplicații generale: transportoare, mixere, extractoare, presoare.`,
+        description: `Gama clasică de reductoare industriale: R (cilindrice coaxiale), F (cilindrice cu axe paralele), K (conice-cilindrice), S (melcate). Rapoartele de transmisie și puterile depind de serie și mărime și se confirmă din catalogul SEW-EURODRIVE. Construcție modulară — puteți adăuga frână, ventilator forțat, encoder, backstop. Sunt folosite frecvent în industrie pentru aplicații generale: transportoare, mixere, extractoare, presoare.`,
       },
       {
         name: 'Invertoare MOVIMOT, MOVIDRIVE',
@@ -195,7 +195,7 @@ Infinitrade poate oferi la comandă produse SEW Eurodrive: de la motoreductoare 
       'Gestionarea deșeurilor și reciclare',
       'Ambalare (mașini de ambalat)',
     ],
-    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 1–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
+    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 1–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația dumneavoastră.`,
     limitation: `Nu putem confirma punerea în funcțiune sau intervențiile acoperite de garanția producătorului pentru fiecare configurație SEW-Eurodrive și nu oferim noi training la fața locului; aceste servicii rămân în sarcina rețelei tehnice a producătorului.`,
     sources: [
       {"title":"Helical and Bevel-Helical Gear Units X.. Series","url":"https://download.sew-eurodrive.com/download/pdf/16931211.pdf","publisher":"SEW-EURODRIVE","accessed":"2026-09-22"},
@@ -524,11 +524,11 @@ Infinitrade poate oferi la comandă soluții Donaldson pentru calitatea aerului 
       },
       {
         name: 'Filtre pentru aer comprimat',
-        description: `Donaldson oferă pentru aer comprimat elemente filtrante, uscătoare, carcase și sisteme de purificare fără ulei; seriile, eficiența de filtrare și conținutul rezidual de ulei se confirmă din fișa tehnică a modelului. Dacă pulverizezi vopsea, alimentezi instrumente pneumatice de precizie sau suflii aer în produse alimentare — ai nevoie de filtre Donaldson.`,
+        description: `Donaldson oferă pentru aer comprimat elemente filtrante, uscătoare, carcase și sisteme de purificare fără ulei; seriile, eficiența de filtrare și conținutul rezidual de ulei se confirmă din fișa tehnică a modelului. Dacă pulverizați vopsea, alimentați instrumente pneumatice de precizie sau suflați aer în produse alimentare — aveți nevoie de filtre Donaldson.`,
       },
       {
         name: 'Filtre hidraulice',
-        description: `Filtre pentru curățarea uleiurilor hidraulice în sisteme hidrostatice — presiune, retur, aspirație, bypass. Tehnologia Synteq pentru reținerea particulelor fine care deteriorează pompe și cilindri. Valorile de filtrare (rating beta) se confirmă din fișa tehnică a elementului filtrant. Dacă ai excavatoare, prese hidraulice, mașini de injecție sau orice sistem hidraulic scump — filtre bune te salvează de reparații costisitoare.`,
+        description: `Filtre pentru curățarea uleiurilor hidraulice în sisteme hidrostatice — presiune, retur, aspirație, bypass. Tehnologia Synteq pentru reținerea particulelor fine care deteriorează pompe și cilindri. Valorile de filtrare (rating beta) se confirmă din fișa tehnică a elementului filtrant. Dacă aveți excavatoare, prese hidraulice, mașini de injecție sau orice sistem hidraulic scump — filtrele bune vă salvează de reparații costisitoare.`,
       },
     ],
     certifications: [
@@ -545,7 +545,7 @@ Infinitrade poate oferi la comandă soluții Donaldson pentru calitatea aerului 
       'Automotive (ateliere de caroserie)',
       'Sisteme hidraulice (excavatoare, prese)',
     ],
-    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
+    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și vă spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația dumneavoastră.`,
     limitation: `Nu putem confirma acoperirea în garanția producătorului pentru fiecare echipament instalat de client și nu configurăm noi softul de monitorizare al sistemelor Torit; pentru aceste cazuri recomandăm suportul direct al Donaldson.`,
     sources: [
       {"title":"Industrial Dust, Fume & Mist Collection Products","url":"https://www.donaldson.com/en-us/industrial-dust-fume-mist/products/","publisher":"Donaldson","accessed":"2026-09-22"},
@@ -636,7 +636,7 @@ Infinitrade poate oferi la comandă soluții Donaldson pentru calitatea aerului 
     founded: 1912,
     headquarters: 'Tokyo, Japonia',
     employees: '21,000+',
-    overview: `Ebara este un producător japonez de pompe. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ai văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
+    overview: `Ebara este un producător japonez de pompe. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ați văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
 
 Materialele și construcția diferă de la o serie la alta și se confirmă din documentația producătorului pentru fiecare model.
 

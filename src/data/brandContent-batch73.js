@@ -152,7 +152,7 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
 
 Portofoliul include mai multe variante de compensare a dezalinierii dintre arbori: cuplaje elastice cu gheare (ROTEX®), cuplaje cu flanșă rigidă pentru montaj axial (BoWex® FLE-PA), cuplaje fail-safe (POLY-NORM®, ROFLEX®), cuplaje servo fără joc (ROTEX® GS, TOOLFLEX®) și limitatoare de cuplu care protejează echipamentul la suprasarcină (RUFLEX®). Cuplajele ROTEX® acoperă cupluri nominale de până la 35.000 Nm, în funcție de varianta constructivă aleasă. La acestea se adaugă gama de frâne hidraulice și electromecanice KTR-STOP și EMB-STOP.
 
-Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje verificate pentru pompe, ventilatoare, motoare diesel și compresoare, acolo unde alinierea perfectă a arborilor nu poate fi garantată din construcție.`,
+Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje verificate pentru pompe, ventilatoare, motoare diesel și compresoare, acolo unde alinierea perfectă a arborilor nu poate fi asigurată din construcție.`,
     whyChoose: [
       "Gamă variată de cuplaje — de la elastice cu gheare la flanșe rigide, fail-safe sau servo",
       "ROTEX® acoperă cupluri nominale de până la 35.000 Nm, în funcție de varianta constructivă",
@@ -232,7 +232,7 @@ Gama burster cuprinde mai multe familii de senzori, fiecare cu mai multe domenii
 Pentru laboratoare de testare și linii de producție din România, burster înseamnă acces la senzori de precizie pentru bancuri de probă, control de calitate și monitorizarea forțelor de proces, acolo unde toleranțele stricte contează mai mult decât prețul componentei.`,
     whyChoose: [
       "Mai multe domenii de măsurare pe familie, pentru alegerea senzorului potrivit aplicației",
-      "Precizie ridicată — liniaritate de până la ±0,05% din valoarea de fund de scală la senzorii de cuplu de top",
+      "Precizie ridicată — liniaritate de până la ±0,05% din valoarea de fund de scală la anumiți senzori de cuplu din gamă",
       "Clasă de protecție IP67 la celulele de sarcină cu domeniu mare, potrivite pentru medii industriale cu praf sau umezeală",
       "Acoperă atât forța și cuplul, cât și instrumentele de calibrare aferente, din același producător",
     ],

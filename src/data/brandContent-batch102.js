@@ -18,7 +18,7 @@ Pentru România, gama are sens la șantierele navale, la operatorii de nave și 
     ],
     keyProducts: [
       { name: "Motoare IE3/IE4", description: "Motoare asincrone trifazate în clasele de eficiență IE3 și IE4, în variantă industrială sau certificată pentru mediul marin. Sunt soluția standard pentru retehnologizări care cer conformitate cu cerințele europene de eficiență, fără schimbarea completă a liniei de antrenare. Construcția e gândită pentru montaj pe pompe, ventilatoare și compresoare. Pentru comenzi trebuie confirmate puterea, turația și mărimea carcasei." },
-      { name: "Motoare cu Magneți Permanenți (PM/IE5)", description: "Ating clasa de eficiență IE5, ultra-premium, cu o construcție mai compactă decât un motor asincron echivalent ca putere. Sunt gândite pentru aplicații unde costul energiei pe durata de viață contează mai mult decât investiția inițială — pompe și linii cu funcționare continuă. Controlul se face printr-un convertizor de frecvență dedicat, motorul nefiind pentru conectare directă la rețea." },
+      { name: "Motoare cu Magneți Permanenți (PM/IE5)", description: "Ating clasa de eficiență IE5, cu o construcție mai compactă decât un motor asincron echivalent ca putere. Sunt gândite pentru aplicații unde costul energiei pe durata de viață contează mai mult decât investiția inițială — pompe și linii cu funcționare continuă. Controlul se face printr-un convertizor de frecvență dedicat, motorul nefiind pentru conectare directă la rețea." },
       { name: "Motoare Antiexplozive (EX)", description: "Destinate zonelor clasificate cu risc de explozie din industria petrolieră, chimică și din instalațiile marine de transport al produselor petroliere. Constructiv, respectă cerințele pentru funcționare sigură în atmosfere cu gaze sau praf combustibil. Clasa de eficiență disponibilă se confirmă pe cod. Oferta se face pe baza zonei de clasificare Ex și a puterii necesare." },
       { name: "Motoare cu Frână pentru Aplicații Marine", description: "Motoare cu frână din gama producătorului; aplicațiile și construcția frânei se confirmă pe cod, din documentația Hoyer." }
     ],
@@ -33,9 +33,9 @@ Pentru România, gama are sens la șantierele navale, la operatorii de nave și 
     productCodes: [
       { code: "IE1", description: "Clasă de eficiență standard, din gama producătorului" },
       { code: "IE2", description: "Clasă de eficiență ridicată pentru motoare industriale de uz general" },
-      { code: "IE3", description: "Clasă premium de eficiență, standard pentru retehnologizări industriale" },
-      { code: "IE4", description: "Clasă super-premium de eficiență pentru consum redus pe termen lung" },
-      { code: "PM / IE5", description: "Motoare cu magneți permanenți, eficiență ultra-premium, control prin convertizor" },
+      { code: "IE3", description: "Clasă de eficiență IE3 (Premium Efficiency), standard pentru retehnologizări industriale" },
+      { code: "IE4", description: "Clasă de eficiență IE4 (Super Premium Efficiency) pentru consum redus pe termen lung" },
+      { code: "PM / IE5", description: "Motoare cu magneți permanenți, clasa IE5, control prin convertizor" },
       { code: "EC Motors", description: "Motoare cu control electronic integrat, construcție compactă" },
       { code: "Brake Motors", description: "Motoare cu frână din gama producătorului" },
       { code: "Explosion Proof (EX)", description: "Motoare certificate pentru zone cu risc de explozie" },
@@ -45,7 +45,7 @@ Pentru România, gama are sens la șantierele navale, la operatorii de nave și 
       { q: "Ce produce Hoyer Motors?", a: "Hoyer Motors este un producător danez de motoare electrice pentru industrie și pentru mediul marin, cu clase de eficiență de la IE1 la IE4 și motoare cu magneți permanenți IE5. Gama include și motoare antiexplozive, motoare cu frână și motoare de medie tensiune pentru instalații cu puteri mari." },
       { q: "Cum aleg un motor după clasa de eficiență?", a: "Alegerea depinde de aplicație: IE3 este standardul minim cerut azi în majoritatea instalațiilor industriale europene, IE4 reduce și mai mult consumul pe funcționare continuă, iar PM/IE5 se justifică la pompe și ventilatoare cu ore multe de funcționare anuală." },
       { q: "Livrați motoare Hoyer Motors în România și cât durează?", a: "Da, aducem motoare Hoyer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru puterea și configurația solicitată. Nu ținem această gamă pe raft." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor Hoyer?", a: "Ai nevoie să ne trimiți puterea necesară în kW, turația de lucru, tensiunea de alimentare, mărimea carcasei IEC dacă o cunoști și, pentru zone cu risc, clasificarea Ex a instalației. Cu aceste date pregătim oferta." },
+      { q: "Ce trebuie să trimit pentru o ofertă de motor Hoyer?", a: "Aveți nevoie să ne trimiteți puterea necesară în kW, turația de lucru, tensiunea de alimentare, mărimea carcasei IEC dacă o cunoașteți și, pentru zone cu risc, clasificarea Ex a instalației. Cu aceste date pregătim oferta." },
       { q: "Ce diferență este între motoarele Hoyer standard și cele marine?", a: "Motoarele marine au o construcție adaptată la umiditate, vibrații și variații bruște de sarcină de la bord, spre deosebire de motoarele standard destinate mediului industrial uscat." }
     ],
     evidenceClass: "market-signal-intl",
@@ -105,7 +105,7 @@ Pentru clienții din România, gama are sens acolo unde motorul de catalog stand
       { q: "Cum aleg un motor Seipee după mărimea de carcasă?", a: "Seria JM din aluminiu acoperă mărimile 56 până la 160, iar seria GM din fontă acoperă mărimile 160 până la 450. Alegerea depinde de puterea necesară și de spațiul de montaj disponibil." },
       { q: "Ce echivalent are un motor Seipee față de un motor ABB?", a: "Seipee declară peste 1.200 de configurații personalizate pe an, iar motoarele brushless iMotor sunt de clasă IE4. Echivalența cu un motor ABB se stabilește pe baza puterii, turației, mărimii de carcasă și clasei de eficiență, pe fiecare cod în parte." },
       { q: "Livrați motoare Seipee în România și cât durează?", a: "Da, aducem motoare Seipee la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația solicitată. Termenul exact se confirmă după verificarea disponibilității la fabrică." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor Seipee?", a: "Ai nevoie să ne trimiți puterea în kW, turația de lucru, mărimea de carcasă dacă o cunoști și, pentru medii speciale, cerința de protecție ATEX sau rezistență la coroziune." }
+      { q: "Ce trebuie să trimit pentru o ofertă de motor Seipee?", a: "Aveți nevoie să ne trimiteți puterea în kW, turația de lucru, mărimea de carcasă dacă o cunoașteți și, pentru medii speciale, cerința de protecție ATEX sau rezistență la coroziune." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -169,7 +169,7 @@ Pentru clienții din România, gama are sens la instalațiile industriale unde m
       { q: "Cum aleg un motor Toshiba din seria Severe Duty?", a: "Alegerea variantei Severe Duty depinde de mediul de funcționare — praf, umiditate sau vibrații — și de puterea necesară; seria exactă se confirmă pe codul solicitat. Pentru zone cu risc, verifică disponibilitatea variantei Explosion Proof." },
       { q: "Ce variator Toshiba se potrivește unui motor de medie tensiune?", a: "Pentru medie tensiune, gama oferă variatorul T300MV2 de uz general și variatorul MTX2 în versiunea Outdoor, pentru montaj exterior. Alegerea depinde de puterea motorului controlat și de cerințele instalației privind montajul interior sau exterior." },
       { q: "Livrați echipamente Toshiba International Corporation în România și cât durează?", a: "Da, aducem motoare și variatoare Toshiba la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului. Nu ținem această gamă pe raft." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor sau variator Toshiba?", a: "Ai nevoie să trimiți puterea necesară, turația, tensiunea de alimentare și tipul de mediu de funcționare. Pentru variatoare, mai avem nevoie de puterea motorului controlat și tipul de montaj dorit." }
+      { q: "Ce trebuie să trimit pentru o ofertă de motor sau variator Toshiba?", a: "Aveți nevoie să trimiteți puterea necesară, turația, tensiunea de alimentare și tipul de mediu de funcționare. Pentru variatoare, mai avem nevoie de puterea motorului controlat și tipul de montaj dorit." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -231,7 +231,7 @@ Pentru clienții din România, gama are sens la echipamente de mică putere cu c
       { q: "Cum aleg un motor Groschopp după tensiune?", a: "Motoarele de curent continuu sunt disponibile la 12, 24, 90, 115, 130 sau 180 V, iar cele de curent alternativ la 115 sau 230 V. Alegerea depinde de sursa de alimentare disponibilă și de turația necesară." },
       { q: "Ce diferență este între un motor Groschopp standard și unul brushless?", a: "Motorul brushless elimină periile de contact, ceea ce reduce uzura mecanică și prelungește intervalul dintre revizii, spre deosebire de un motor CC clasic. În schimb, cere de regulă o electronică de control dedicată." },
       { q: "Livrați motoare Groschopp în România și cât durează?", a: "Da, aducem motoare și motoreductoare Groschopp la comandă prin canale de aprovizionare din SUA și UE, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, fiind axată pe configurații la cerere." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor Groschopp?", a: "Ai nevoie să trimiți tensiunea de alimentare, turația dorită, cuplul necesar și, dacă vrei motoreductor, raportul de reducere cerut. Cu aceste date identificăm configurația potrivită din gamă." }
+      { q: "Ce trebuie să trimit pentru o ofertă de motor Groschopp?", a: "Aveți nevoie să trimiteți tensiunea de alimentare, turația dorită, cuplul necesar și, dacă doriți motoreductor, raportul de reducere cerut. Cu aceste date identificăm configurația potrivită din gamă." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -290,7 +290,7 @@ Pentru clienții din România, gama are sens la echipamente de ambalare și auto
       { q: "Cum aleg un motoreductor Bodine după tipul de montaj?", a: "Motoreductorul cu ax paralel e potrivit când axul de ieșire trebuie să fie în linie cu motorul, iar cel cu unghi drept când spațiul de montaj cere o schimbare de direcție de 90 de grade." },
       { q: "Ce protecție IP oferă motoarele Bodine pentru medii cu spălare?", a: "Gama acoperă protecții de la IP-44 până la IP-69K, ultima fiind potrivită pentru spălare la presiune înaltă cu apă fierbinte, frecventă în industria alimentară și farmaceutică." },
       { q: "Livrați motoare Bodine Electric în România și cât durează?", a: "Da, motoreductoarele Bodine ajung la comandă prin canalele noastre de aprovizionare din SUA și UE, în termen orientativ de 1–4 săptămâni, în funcție de configurația exactă cerută." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motoreductor Bodine?", a: "Ai nevoie să trimiți tensiunea de alimentare, turația și cuplul dorit la arbore, tipul de montaj preferat și, dacă lucrezi în mediu umed, gradul de protecție IP necesar." }
+      { q: "Ce trebuie să trimit pentru o ofertă de motoreductor Bodine?", a: "Aveți nevoie să trimiteți tensiunea de alimentare, turația și cuplul dorit la arbore, tipul de montaj preferat și, dacă lucrați în mediu umed, gradul de protecție IP necesar." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -350,7 +350,7 @@ Pentru clienții din România, gama are sens la operatorii portuari, șantierele
       { q: "Cum aleg un motor Wölfer pentru o macara portuară?", a: "Alegerea depinde de tipul de macara — ship-to-shore, pe pneuri sau pe șine — de puterea necesară și de profilul de sarcină, adică frecvența ciclurilor de ridicare și coborâre." },
       { q: "Ce industrii deservește Wölfer Motoren?", a: "Deservește în principal porturile și terminalele de containere, construcțiile navale și instalațiile offshore de energie eoliană, unde motoarele trebuie să reziste la vibrații și cicluri de sarcină repetate." },
       { q: "Livrați motoare Wölfer în România și cât durează?", a: "Da, aducem motoare Wölfer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, având în vedere că multe modele sunt construite pe specificație, nu ținute pe raft." },
-      { q: "Ce trebuie să trimit pentru o ofertă de motor Wölfer?", a: "Ai nevoie să trimiți tipul de aplicație (macara, vinci, propulsie), puterea necesară, turația și profilul de sarcină al echipamentului, plus mediul de instalare pentru motoarele navale." }
+      { q: "Ce trebuie să trimit pentru o ofertă de motor Wölfer?", a: "Aveți nevoie să trimiteți tipul de aplicație (macara, vinci, propulsie), puterea necesară, turația și profilul de sarcină al echipamentului, plus mediul de instalare pentru motoarele navale." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -413,10 +413,10 @@ Pentru clienții din România, gama are sens la stațiile de sortare din industr
     ],
     faq: [
       { q: "Ce produce OLI Vibrators?", a: "OLI produce vibratoare industriale în trei tehnologii — vibromotoare electrice, vibratoare pneumatice și vibratoare de înaltă frecvență pentru beton. Gama electrică include variante standard, antiexplozive și din inox, iar cea pneumatică acoperă vibratoare rotative și liniare." },
-      { q: "Cum aleg un vibromotor OLI pentru un buncăr?", a: "Alegerea depinde de forța centrifugă necesară, calculată în funcție de greutatea buncărului și materialul depozitat. Seria MVE-F acoperă forțe de la 200 până la 3.500 kg, iar pentru medii cu risc alegi varianta Exe sau Exd." },
+      { q: "Cum aleg un vibromotor OLI pentru un buncăr?", a: "Alegerea depinde de forța centrifugă necesară, calculată în funcție de greutatea buncărului și materialul depozitat. Seria MVE-F acoperă forțe de la 200 până la 3.500 kg, iar pentru medii cu risc alegeți varianta Exe sau Exd." },
       { q: "Ce diferență este între un vibromotor OLI electric și unul pneumatic?", a: "Vibromotorul electric se alimentează direct de la rețea, în timp ce vibratorul pneumatic folosește aerul comprimat existent, evitând cablajul electric suplimentar. Alegerea depinde de utilitățile deja instalate la client." },
       { q: "Livrați echipamente OLI Vibrators în România și cât durează?", a: "Da, aducem vibromotoare și vibratoare OLI la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de confirmarea producătorului pentru modelul ales." },
-      { q: "Ce trebuie să trimit pentru o ofertă de vibromotor OLI?", a: "Ai nevoie să trimiți forța centrifugă necesară sau presiunea de aer disponibilă, tipul de instalație (buncăr, sită, cofraj de beton) și, dacă lucrezi în zonă clasificată, cerința de protecție Ex." }
+      { q: "Ce trebuie să trimit pentru o ofertă de vibromotor OLI?", a: "Aveți nevoie să trimiteți forța centrifugă necesară sau presiunea de aer disponibilă, tipul de instalație (buncăr, sită, cofraj de beton) și, dacă lucrați în zonă clasificată, cerința de protecție Ex." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -479,7 +479,7 @@ Pentru clienții din România, gama are sens la stațiile de pompare cu motoare 
       { q: "Cum aleg un softstarter Solcon-IGEL pentru motorul meu?", a: "Alegerea depinde de puterea motorului, tensiunea de alimentare și numărul de porniri pe oră. Pentru solicitări moderate, RVS-DX sau RVS-AX sunt de obicei suficiente, iar pentru uz greu treci la RVS-DN." },
       { q: "Ce diferență este între un softstarter Solcon-IGEL și un convertizor de frecvență?", a: "Softstarterul controlează doar rampa de pornire și oprire, fără să regleze turația în funcționare continuă, spre deosebire de un convertizor. Solcon-IGEL oferă și DRIVESTART, softstarter de medie tensiune bazat pe IGBT." },
       { q: "Livrați softstartere Solcon-IGEL în România și cât durează?", a: "Da, aducem softstartere Solcon-IGEL la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de confirmarea producătorului pentru modelul solicitat." },
-      { q: "Ce trebuie să trimit pentru o ofertă de softstarter Solcon-IGEL?", a: "Ai nevoie să trimiți puterea motorului controlat, tensiunea rețelei, numărul de porniri pe oră și, pentru medie tensiune, valoarea exactă a tensiunii. Cu aceste date identificăm modelul potrivit." }
+      { q: "Ce trebuie să trimit pentru o ofertă de softstarter Solcon-IGEL?", a: "Aveți nevoie să trimiteți puterea motorului controlat, tensiunea rețelei, numărul de porniri pe oră și, pentru medie tensiune, valoarea exactă a tensiunii. Cu aceste date identificăm modelul potrivit." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -538,7 +538,7 @@ Pentru clienții din România, gama are sens la stațiile de pompare a apei, la 
       { q: "Cum aleg un softstarter Benshaw pentru motorul meu?", a: "Pentru motoare de joasă tensiune, EMX4 acoperă majoritatea aplicațiilor standard, iar pentru motoare de medie tensiune din industria grea, MVRNX oferă și monitorizare avansată prin conectivitate wireless." },
       { q: "Ce diferență este între un softstarter Benshaw și un variator de frecvență?", a: "Softstarterul controlează doar rampa de pornire și oprire, fără să regleze turația în funcționare continuă, în timp ce variatorul H2 sau MVH2 permite control permanent al turației, în funcție de nevoia procesului." },
       { q: "Livrați echipamente Benshaw în România și cât durează?", a: "Da, aducem softstartere și variatoare Benshaw la comandă prin canale de aprovizionare din UE și SUA, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului." },
-      { q: "Ce trebuie să trimit pentru o ofertă de softstarter sau variator Benshaw?", a: "Ai nevoie să trimiți puterea motorului controlat, tensiunea rețelei (joasă sau medie tensiune) și tipul de aplicație — pornire lină sau control continuu de turație." }
+      { q: "Ce trebuie să trimit pentru o ofertă de softstarter sau variator Benshaw?", a: "Aveți nevoie să trimiteți puterea motorului controlat, tensiunea rețelei (joasă sau medie tensiune) și tipul de aplicație — pornire lină sau control continuu de turație." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,

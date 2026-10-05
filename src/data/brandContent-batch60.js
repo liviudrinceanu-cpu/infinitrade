@@ -1,6 +1,6 @@
 // Batch 60 - Branduri-500 v3 (sept. 2026): VEM Motors, MGM Motori Elettrici, FIMET, Cantoni Group, Lafert, Gamak, Nicolini Motori, Cemer (Cosgra), Varvel.
 // Sursa faptelor: site-urile oficiale ale producătorilor, accesate la data din `sources[].accessed`.
-// Omise: "rotor" (identitate incertă, fără site oficial clar și fără echivoc identificat) și "electroprecizia" (electroprecizia.ro a respins toate încercările de acces în această sesiune, cod 403).
+// Omise: "rotor" (identitate incertă, fără site oficial clar și fără echivoc identificat) și "electroprecizia" (electroprecizia.ro a respins toate încercările de acces, cod 403).
 export const brandContentBatch60 = {
   vem: {
     name: "VEM Motors",

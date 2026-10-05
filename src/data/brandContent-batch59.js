@@ -119,7 +119,7 @@ Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și
       { q: "Ce produce Dorot?", a: "Dorot produce valve hidraulice de control pilotate pentru rețele de apă, irigații, stații de pompare, tratare-filtrare și protecție la incendiu, cu gama Seria 100 (Gal Valve) și Seria 300, plus controlerul ConDor pentru automatizare. Compania este activă din 1946." },
       { q: "Cum citesc codul unei valve Dorot Seria 300?", a: "Sufixul de după numărul seriei indică funcția de control: PR reducere de presiune, PS susținere, FR limitare de debit, FL sau AL control de nivel, EL comandă electrică, CV reținere, BC control de pompă. Pentru ofertă trimiteți codul complet împreună cu diametrul și presiunile de lucru." },
       { q: "Ce diferență e între Dorot și Bermad?", a: "Ambele sunt branduri israeliene de valve hidraulice pilotate, dar gamele și accesoriile diferă; alegerea corectă depinde de funcția cerută, de diametru și de compatibilitatea cu piesele deja folosite în rețea." },
-      { q: "Livrați valve Dorot în România și în cât timp?", a: "Da, robineții Dorot ajung la comandă prin lanțul de aprovizionare european, cu un termen orientativ de 1–4 săptămâni, în funcție de model, diametru și de confirmarea producătorului; nu ținem această gamă pe disponibilitate imediată garantată." },
+      { q: "Livrați valve Dorot în România și în cât timp?", a: "Da, robineții Dorot ajung la comandă prin lanțul de aprovizionare european, cu un termen orientativ de 1–4 săptămâni, în funcție de model, diametru și de confirmarea producătorului; nu ținem această gamă pe disponibilitate imediată." },
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -338,7 +338,7 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
       "Petrol și gaze — motoare sincrone pentru aplicații de eficiență ridicată",
       "Marină — motoare și alternatoare pentru echipamente de bord",
     ],
-    infinitrade: `Pentru Leroy-Somer informațiile despre gamă provin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem o disponibilitate imediată garantată pe această gamă.`,
+    infinitrade: `Pentru Leroy-Somer informațiile despre gamă provin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem disponibilitate imediată pe această gamă.`,
     limitation: "Configurarea avansată a variatoarelor Leroy-Somer pentru aplicații speciale necesită o verificare tehnică directă la producător, pe care nu o putem face în locul lui.",
     productCodes: [
       { code: "FLSHRM", description: "Motor sincron" },

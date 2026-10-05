@@ -312,7 +312,7 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       },
       {
         name: 'GLL 3-80 CG Professional Line Laser',
-        description: `Laserul cu linii GLL 3-80 CG (green beam) proiectează 3 plane 360° cu vizibilitate 4x mai bună decât roșu - lucrezi în lumină naturală fără probleme. Diodele verzi de 520nm sunt vizibile până la 30 metri fără receptor (80 metri cu LR7 receiver), ideal pentru compartimentare interior, montaj tavane false sau tencuieli mecanizate. Precizie ±0.2mm/m (±2mm la 10m), self-leveling automat în ±4° cu precizie 0.1°, alarmă sonoră și flash LED dacă depășește range. Funcții: 3x360° pentru sălici room layout, vertical single pentru pereți, orizontal pentru tavane, cruce combinată 90° pentru colțuri. Telecomandă RC2 permite on/off linii individual de la distanță (30m range) - oprești liniile care încurcă fără să mergi la laser. Montare: filet 1/4" și 5/8" universal, BM1 wall mount magnetic, adaptor GR 240 pentru trepied construcții. Protecție IP54 contra prafului și stropilor - funcționează pe șantier în ploaie ușoară. Alimentare: 4x AA alkaline (30h autonomie) sau acumulator Li-Ion reîncarcabil (opțional). Certificare EN 60825-1:2014 clasa laser 2 (safe pentru ochi la expunere scurtă).`
+        description: `Laserul cu linii GLL 3-80 CG (green beam) proiectează 3 plane 360° cu vizibilitate 4x mai bună decât roșu - lucrați în lumină naturală fără probleme. Diodele verzi de 520nm sunt vizibile până la 30 metri fără receptor (80 metri cu LR7 receiver), ideal pentru compartimentare interior, montaj tavane false sau tencuieli mecanizate. Precizie ±0.2mm/m (±2mm la 10m), self-leveling automat în ±4° cu precizie 0.1°, alarmă sonoră și flash LED dacă depășește range. Funcții: 3x360° pentru sălici room layout, vertical single pentru pereți, orizontal pentru tavane, cruce combinată 90° pentru colțuri. Telecomandă RC2 permite on/off linii individual de la distanță (30m range) - opriți liniile care încurcă fără să mergeți la laser. Montare: filet 1/4" și 5/8" universal, BM1 wall mount magnetic, adaptor GR 240 pentru trepied construcții. Protecție IP54 contra prafului și stropilor - funcționează pe șantier în ploaie ușoară. Alimentare: 4x AA alkaline (30h autonomie) sau acumulator Li-Ion reîncarcabil (opțional). Certificare EN 60825-1:2014 clasa laser 2 (safe pentru ochi la expunere scurtă).`
       },
       {
         name: 'GAS 18V-10 L Wet/Dry Vacuum',
@@ -482,7 +482,7 @@ Sistemul X20 are arhitectură modulară în trei părți (bloc de borne, modul e
       'Wood & Furniture - Sawmills, edge banding, CNC routing'
     ],
     infinitrade: `Componentele B&R (module X20, drive-uri ACOPOS, panouri Power Panel) intră la noi prin canale de aprovizionare din Uniunea Europeană, fără un stoc propriu evidențiat pe fiecare referință. Ne bazăm pe surse publice ale producătorului: termenul uzual e de 1–4 săptămâni la comandă, iar pentru câteva module cerute des putem asigura 24–72 h din stoc ca regulă generală. Avem nevoie de referința exactă, tensiunea de alimentare și interfața de comunicație dorită pentru a confirma compatibilitatea. Pe arhitecturi cu mai multe module, trimiteți și schema aplicației - reduce riscul unei comenzi greșite.`,
-    limitation: 'Nu putem confirma programarea aplicației Automation Studio a clientului și nici disponibilitatea garantată a fiecărui modul X20 sau drive ACOPOS.',
+    limitation: 'Nu putem confirma programarea aplicației Automation Studio a clientului și nici disponibilitatea a fiecărui modul X20 sau drive ACOPOS.',
     sources: [
       {"title":"X20 System","url":"https://www.br-automation.com/en-us/products/io-systems/x20-system/","publisher":"B&R Industrial Automation (ABB)","accessed":"2026-09-22"},
       {"title":"X20DI9372","url":"https://www.br-automation.com/en-us/products/io-systems/x20-system/digital-inputs/x20di9372/","publisher":"B&R Industrial Automation (ABB)","accessed":"2026-09-22"},
@@ -621,7 +621,7 @@ Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibil
       'Aerial Platforms - Scissor lift, boom lift, truck-mount'
     ],
     infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24–72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
-    limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea garantată pentru fiecare cod.',
+    limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea pentru fiecare cod.',
     sources: [
       {"title":"Pumps","url":"https://www.bucherhydraulics.com/en/products/pumps-and-motors/pumps/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
       {"title":"Products","url":"https://www.bucherhydraulics.com/en/products/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
@@ -760,7 +760,7 @@ Certificatele de calibrare, interfețele digitale (de exemplu IO-Link, PROFINET,
       'Automotive - Paint mixing, cooling circuits, testing'
     ],
     infinitrade: `Pentru senzorii și valvele Bürkert lucrăm după informațiile publice disponibile de la producător, nu după un stoc intern documentat pe fiecare tip. Produsele ajung prin canale de aprovizionare din Uniunea Europeană, de regulă în 1–4 săptămâni la comandă; câteva tipuri cerute frecvent pot ajunge și în 24–72 h din stoc. Spuneți-ne parametrul măsurat (debit, presiune, temperatură), domeniul de lucru și conexiunea de proces, ca să identificăm varianta potrivită. Variantele cu certificare hygienic-design sau calibrare extinsă cer, de regulă, mai mult timp de confirmare.`,
-    limitation: 'Nu putem confirma o calibrare ISO 17025 proprie și nici disponibilitatea garantată pentru fiecare variantă de senzor Bürkert.',
+    limitation: 'Nu putem confirma o calibrare ISO 17025 proprie și nici disponibilitatea pentru fiecare variantă de senzor Bürkert.',
     sources: [
       {"title":"Products","url":"https://www.burkert.com/en/products","publisher":"Burkert Fluid Control Systems","accessed":"2026-09-22"},
       { title: 'Bürkert Fluid Control Systems — senzori și sisteme (pagina principală)', url: 'https://www.burkert.com', publisher: 'Bürkert Fluid Control Systems', accessed: '2026-09-22' },
@@ -890,7 +890,7 @@ Specificațiile și compatibilitatea componentelor se confirmă pe cod, din docu
       'Swimming Pools - Încălzire apă bazin, dehumidification'
     ],
     infinitrade: `Componentele Caleffi - vase de expansiune, grupuri Hydrolink, separatoare Discaldirt - intră la noi prin canale de aprovizionare din Uniunea Europeană. Nu avem un depozit propriu documentat pe fiecare model, așa că spunem clar ce putem și ce nu putem confirma înainte de a da un termen: de regulă 1–4 săptămâni la comandă, cu excepția câtorva dimensiuni uzuale unde putem asigura 24–72 h din stoc. Pentru o recomandare corectă avem nevoie de diametru, presiune nominală și tipul instalației (încălzire sau apă rece). Configurațiile Hydrolink personalizate depășesc, de regulă, termenul standard.`,
-    limitation: 'Nu putem confirma dimensionarea finală a sistemului fără datele complete ale instalației și nici disponibilitatea garantată pentru fiecare dimensiune de vas.',
+    limitation: 'Nu putem confirma dimensionarea finală a sistemului fără datele complete ale instalației și nici disponibilitatea pentru fiecare dimensiune de vas.',
     sources: [
       {"title":"Caleffi Home – Featured Products","url":"https://www.caleffi.com/en-us","publisher":"Caleffi S.p.A.","accessed":"2026-09-22"},
       {"title":"Caleffi Products – Category Overview","url":"https://www.caleffi.com/en-us/products","publisher":"Caleffi S.p.A.","accessed":"2026-09-22"},
@@ -1201,7 +1201,7 @@ Datele de eficiență energetică, de mentenanță și de service se confirmă p
       'R-515B - agent frigorific folosit la modele precum 19MV și 19XR, conform site-ului Carrier'
     ],
     infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană; pentru chillere și unități mari termenul depășește, de regulă, 4 săptămâni, iar pe piesele de schimb uzuale putem asigura, uneori, 24–72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
-    limitation: 'Nu putem confirma disponibilitatea garantată a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
+    limitation: 'Nu putem confirma disponibilitatea a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
     sources: [
       {"title":"Water-Cooled Chillers – Carrier Commercial","url":"https://carrier.com/commercial/en/us/products/chillers-components/water-cooled-chillers","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
       {"title":"Commercial HVAC Products Overview","url":"https://www.carrier.com/commercial/en/us/products/","publisher":"Carrier Global Corporation","accessed":"2026-09-22"},
@@ -1332,7 +1332,7 @@ Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe 
       'Wind Energy - Gearboxes turbine, hydraulics pitch/yaw'
     ],
     infinitrade: `Lubrifianții Castrol - emulsii Hysol, uleiuri Alpha, unsori Molub-Alloy - ne parvin prin canale de aprovizionare din Uniunea Europeană; ne ghidăm după informațiile publice disponibile de la producător, nu după un stoc propriu documentat. Termenul obișnuit e de 1–4 săptămâni la comandă; pe ambalajele uzuale (bidoane, butoaie) putem asigura, ca regulă generală, 24–72 h din stoc. Spuneți-ne tipul de lubrifiant, vâscozitatea și ambalajul dorit, ca să verificăm disponibilitatea reală înainte de confirmare. Pentru volume mari sau formule speciale, verificarea la producător poate dura mai mult decât intervalul obișnuit.`,
-    limitation: 'Nu putem confirma analiza Labcheck ca serviciu propriu și nici disponibilitatea garantată pentru fiecare tip și ambalaj de lubrifiant.',
+    limitation: 'Nu putem confirma analiza Labcheck ca serviciu propriu și nici disponibilitatea pentru fiecare tip și ambalaj de lubrifiant.',
     sources: [
       {"title":"Industrial Brands Overview – Castrol USA","url":"https://www.castrol.com/en_us/united-states/home/products/our-brands/industrial.html","publisher":"Castrol (BP p.l.c.)","accessed":"2026-09-22"},
       { title: 'Castrol heritage - 125 years forwards | Home', url: 'https://www.castrol.com/en/global/corporate/about-castrol/our-heritage.html', publisher: 'Castrol (BP)', accessed: '2026-09-22' },

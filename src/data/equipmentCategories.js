@@ -457,13 +457,13 @@ export const equipmentCategories = [
     lastUpdated: '2026-02-13',
     brands: [
       { name: 'Bosch Professional', slug: 'bosch-professional', country: 'Germania', description: 'Scule electrice profesionale pentru industrie', featured: true },
-      { name: 'Hilti', slug: 'hilti', country: 'Liechtenstein', description: 'Tehnologie premium pentru construcții și industrie', featured: true },
+      { name: 'Hilti', slug: 'hilti', country: 'Liechtenstein', description: 'Tehnologie pentru construcții și industrie', featured: true },
       { name: 'Makita', slug: 'makita', country: 'Japonia', description: 'Scule electrice și echipamente de putere', featured: true },
       { name: 'DeWalt', slug: 'dewalt', country: 'SUA', description: 'Scule profesionale pentru aplicații grele', featured: true },
       { name: 'Mitutoyo', slug: 'mitutoyo', country: 'Japonia', description: 'Producător specializat în instrumente de măsură de precizie', featured: true },
       { name: 'Tesa', slug: 'tesa', country: 'Elveția', description: 'Tehnologie de măsurare dimensională', featured: false },
       { name: 'Mahr', slug: 'mahr', country: 'Germania', description: 'Instrumente de măsură și control calitate', featured: false },
-      { name: 'Stahlwille', slug: 'stahlwille', country: 'Germania', description: 'Scule de mână profesionale premium', featured: false },
+      { name: 'Stahlwille', slug: 'stahlwille', country: 'Germania', description: 'Scule de mână profesionale', featured: false },
       { name: 'Gedore', slug: 'gedore', country: 'Germania', description: 'Scule de calitate pentru profesioniști', featured: false },
       { name: 'Wera', slug: 'wera', country: 'Germania', description: 'Șurubelnițe și scule de mână inovatoare', featured: false }
     ],
@@ -588,7 +588,7 @@ export const equipmentCategories = [
     stats: { brands: '8+', products: '1500+', delivery: '24–72 h' },
     lastUpdated: '2026-02-13',
     brands: [
-      { name: 'Shell Lubricants', slug: 'shell-lubricants', country: 'Olanda', description: 'Lubrifianți premium pentru industrie și transport', featured: true },
+      { name: 'Shell Lubricants', slug: 'shell-lubricants', country: 'Olanda', description: 'Lubrifianți pentru industrie și transport', featured: true },
       { name: 'Mobil Industrial', slug: 'mobil-industrial', country: 'SUA', description: 'Tehnologie de lubrifiere pentru aplicații exigente', featured: true },
       { name: 'Castrol', slug: 'castrol', country: 'UK', description: 'Uleiuri și unsori pentru industrie', featured: true },
       { name: 'Klüber Lubrication', slug: 'kluber', country: 'Germania', description: 'Lubrifianți speciali pentru aplicații extreme', featured: true },

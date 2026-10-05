@@ -193,7 +193,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
     keyProducts: [
       {
         name: 'Trape de condensat (steam traps) – toate tipurile',
-        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (de exemplu seriile HP și SM) sunt potrivite pentru aplicații unde vrei descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
+        description: `Trapele de condensat Spirax Sarco sunt folosite pe scară largă în industrie. Termodinamicele (seria TD) sunt robuste – merg și la presiuni mari, și la abur supraîncălzit. Bimetalicele (de exemplu seriile HP și SM) sunt potrivite pentru aplicații unde doriți descărcare la temperaturi controlate (nu imediat ce apa se condensează). Iar trapele cu plutitor (seria FT) sunt potrivite pentru debite mari de condensat – se folosesc frecvent în industria textilă și alimentară. Toate din oțel inox sau fontă de calitate, certificate pentru presiune. Le furnizăm cu racorduri filetate sau flanșate, depinde de instalație.`
       },
       {
         name: 'Supape de reglare presiune și temperatură',
@@ -349,7 +349,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         name: 'Supape și armături PTFE-lined pentru industria chimică',
-        description: `Produsele ARI cu căptușeală PTFE (teflon) sunt soluția când lucrezi cu acizi concentrați (sulfuric, clorhidric, azotic), baze puternice (sodă caustică), solvenți organici sau alte medii super corosive. Corpul supapei e din oțel sau fontă, dar toate suprafețele în contact cu fluidul sunt acoperite cu PTFE – rezistență chimică totală. Disponibilitatea și gama armăturilor căptușite cu PTFE se confirmă din documentația ARI, pe baza codului. Dimensiunile și presiunile nominale se confirmă din documentația ARI.`
+        description: `Produsele ARI cu căptușeală PTFE (teflon) sunt soluția când lucrați cu acizi concentrați (sulfuric, clorhidric, azotic), baze puternice (sodă caustică), solvenți organici sau alte medii super corosive. Corpul supapei e din oțel sau fontă, dar toate suprafețele în contact cu fluidul sunt acoperite cu PTFE – rezistență chimică totală. Disponibilitatea și gama armăturilor căptușite cu PTFE se confirmă din documentația ARI, pe baza codului. Dimensiunile și presiunile nominale se confirmă din documentația ARI.`
       },
       {
         name: 'Supape fluture (butterfly valves) pentru aplicații industriale',
@@ -504,7 +504,7 @@ Putem oferi pentru piața românească: schimbătoare cu plăci gasketed (demont
       },
       {
         name: 'Schimbătoare de căldură brazate (compact, fără garnituri)',
-        description: `Schimbătoarele brazate Alfa Laval (seria CB, CBH) sunt soluția când vrei compactitate maximă și nu trebuie să deschizi niciodată schimbătorul pentru curățare mecanică (fluidele sunt curate). Plăcile din inox sunt brazate cu cupru la temperaturi înalte – rezultatul e un bloc solid, fără garnituri, extrem de compact. Se folosesc frecvent în pompe de căldură (evaporator + condensator), chilere, sisteme de refrigerare comercială (răcire glicol pentru camere frigorifice), încălzire apă sanitară cu solar termic. Capacitatea termică, presiunea și temperatura depind de model și se confirmă din documentația Alfa Laval.`
+        description: `Schimbătoarele brazate Alfa Laval (seria CB, CBH) sunt soluția când doriți compactitate maximă și nu trebuie să deschideți niciodată schimbătorul pentru curățare mecanică (fluidele sunt curate). Plăcile din inox sunt brazate cu cupru la temperaturi înalte – rezultatul e un bloc solid, fără garnituri, extrem de compact. Se folosesc frecvent în pompe de căldură (evaporator + condensator), chilere, sisteme de refrigerare comercială (răcire glicol pentru camere frigorifice), încălzire apă sanitară cu solar termic. Capacitatea termică, presiunea și temperatura depind de model și se confirmă din documentația Alfa Laval.`
       },
       {
         name: 'Schimbătoare toate-sudate (pentru presiuni mari și medii agresive)',

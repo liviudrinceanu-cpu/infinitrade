@@ -764,7 +764,7 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
     headquarters: "Porto Mantovano (Mantova), Italia",
     overview: `UFI Filters este un producător italian de sisteme de filtrare, cu sediul la Porto Mantovano, lângă Mantova, și activitate din 1971. Gama acoperă filtre de aer, ulei, combustibil, habitaclu și hidraulice, plus sisteme de gestionare termică. Din portofoliul UFI Filters putem oferta filtre pentru motoare și pentru sisteme hidraulice industriale.
 
-UFI Filters are și aplicații în motorsport și aerospațial: potrivit producătorului, produsele sale ajung de la echipe de top din Formula 1 până la nava spațială europeană ExoMars. Compania operează 21 de site-uri industriale în 21 de țări, cu peste 4.000 de angajați și trei centre proprii de cercetare, unde declară peste 280 de brevete înregistrate — un indiciu că nu doar asamblează filtre, ci și proiectează materialul filtrant.
+UFI Filters are și aplicații în motorsport și aerospațial: potrivit producătorului, produsele sale ajung de la echipe din Formula 1 până la nava spațială europeană ExoMars. Compania operează 21 de site-uri industriale în 21 de țări, cu peste 4.000 de angajați și trei centre proprii de cercetare, unde declară peste 280 de brevete înregistrate — un indiciu că nu doar asamblează filtre, ci și proiectează materialul filtrant.
 
 Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, gama UFI Filters e o opțiune la înlocuirea filtrelor de întreținere periodică sau la completarea unei linii hidraulice unde filtrul original nu mai e disponibil rapid.`,
     whyChoose: [
@@ -1151,14 +1151,14 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
     name: "Kemppi",
     founded: 1949,
     headquarters: "Lahti, Finlanda",
-    overview: `Kemppi este un producător finlandez de aparate de sudură, fondat în 1949 și cu sediul la Lahti. Gama include aparate MIG/MAG portabile din seria Minarc (Minarc M, sub 12 kg, la 220A), aparate TIG premium din seria Master (Master T, AC/DC) și echipamente pentru sudura robotizată — aparatul industrial AX MIG Welder. Din portofoliul Kemppi putem oferta atât aparate portabile pentru service, cât și sisteme pentru linii de sudură automatizată.
+    overview: `Kemppi este un producător finlandez de aparate de sudură, fondat în 1949 și cu sediul la Lahti. Gama include aparate MIG/MAG portabile din seria Minarc (Minarc M, sub 12 kg, la 220A), aparate TIG din seria Master (Master T, AC/DC) și echipamente pentru sudura robotizată — aparatul industrial AX MIG Welder. Din portofoliul Kemppi putem oferta atât aparate portabile pentru service, cât și sisteme pentru linii de sudură automatizată.
 
 Kemppi acoperă atât capătul portabil al pieței — aparate ușoare pentru intervenții pe teren sau service — cât și capătul industrial, cu sisteme robotizate complete pentru producție de serie. Compania are prezență directă în 16 țări, ceea ce înseamnă documentație tehnică și suport disponibile pe mai multe piețe, nu doar în Finlanda.
 
 Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e relevantă ca aparat portabil de teren, iar Master T pentru sudura TIG de precizie unde calitatea cusăturii contează mai mult decât viteza.`,
     whyChoose: [
       "Aparat Minarc M portabil, sub 12 kg, la 220A, potrivit pentru intervenții de sudură pe teren",
-      "Aparate Master T pentru TIG AC/DC de precizie, la nivel premium în gama Kemppi",
+      "Aparate Master T pentru TIG AC/DC de precizie, din gama Kemppi",
       "Sisteme dedicate sudurii robotizate, precum AX MIG Welder, pentru linii de producție automatizate",
       "Prezență directă în 16 țări, cu documentație tehnică și rețea de service disponibile pe mai multe piețe"
     ],
@@ -1169,7 +1169,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         name: "Aparat TIG Master T",
-        description: "Aparat premium din gama Kemppi pentru sudura TIG în curent alternativ și continuu (AC/DC), folosit acolo unde calitatea și controlul cusăturii sunt prioritare — oțel inoxidabil, aluminiu, aliaje speciale."
+        description: "Aparat din gama Kemppi pentru sudura TIG în curent alternativ și continuu (AC/DC), folosit acolo unde calitatea și controlul cusăturii sunt prioritare — oțel inoxidabil, aluminiu, aliaje speciale."
       },
       {
         name: "Echipamente pentru sudura robotizată",
@@ -1199,7 +1199,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "code": "Master M",
-        "description": "Aparat compact premium pentru sudură manuală, sinergică și în puls"
+        "description": "Aparat compact pentru sudură manuală, sinergică și în puls"
       },
       {
         "code": "Kempact RA",
@@ -1211,7 +1211,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "code": "Minarc M",
-        "description": "Aparat portabil premium cu putere de 220 A"
+        "description": "Aparat portabil cu putere de 220 A"
       },
       {
         "code": "Master M 205",

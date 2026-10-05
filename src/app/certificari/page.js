@@ -332,7 +332,7 @@ export default function CertificariPage() {
               <ExternalLink size={32} className={styles.globeIcon} />
               <h2>Verifică-ne Independent</h2>
               <p>
-                Transparența e importantă. Poți verifica toate informațiile despre compania noastră
+                Transparența e importantă. Puteți verifica toate informațiile despre compania noastră
                 în registrele publice oficiale.
               </p>
             </div>
@@ -439,7 +439,7 @@ export default function CertificariPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Ai nevoie de documente pentru achiziții?</h2>
+              <h2>Aveți nevoie de documente pentru achiziții?</h2>
               <p>
                 Furnizăm toate documentele necesare pentru dosarele de achiziție:
                 certificate de conformitate, declarații, fișe tehnice.

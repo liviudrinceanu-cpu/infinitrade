@@ -170,7 +170,7 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       { code: "Canvas 5", description: "PLC/HMI all-in-one cu ecran tactil, acces de la distanță prin WebMI+" },
       { code: "Canvas 7", description: "controler all-in-one cu ecran mai mare, gesturi tactile și MQTT" },
       { code: "Canvas 7D", description: "variantă Canvas 7 cu opțiuni extinse de I/O și comunicație" },
-      { code: "Canvas 10D", description: "model Canvas de top, ecran de 10 inch, I/O extins" },
+      { code: "Canvas 10D", description: "model Canvas, ecran de 10 inch, I/O extins" },
       { code: "XL Prime", description: "PLC all-in-one cu HMI integrat, arhitectură de mare viteză" },
       { code: "Micro OCS", description: "PLC/HMI all-in-one cu I/O fix, pentru mașini compacte" },
       { code: "Foundation OCS", description: "controler all-in-one testat în teren, variantă economică" },

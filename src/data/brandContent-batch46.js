@@ -619,7 +619,7 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       },
       {
         "code": "Series 92",
-        "description": "Soluții HMI din gama premium EAO"
+        "description": "Soluții HMI din gama EAO"
       }
     ],
     faq: [
@@ -1236,7 +1236,7 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       },
       {
         "code": "CP6728",
-        "description": "Cheie de impact din compozit premium, certificată pentru medii ATEX"
+        "description": "Cheie de impact din compozit, certificată pentru medii ATEX"
       }
     ],
     faq: [

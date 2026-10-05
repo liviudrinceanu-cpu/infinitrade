@@ -283,7 +283,7 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
       },
       {
         "code": "P-Line",
-        "description": "Serie premium de arbori cardanici cu capacitate sporită"
+        "description": "Serie de arbori cardanici cu capacitate sporită"
       },
       {
         "code": "P675",
@@ -297,7 +297,7 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
     faq: [
       {
         "q": "Ce diferență este între seria W-Line și P-Line de la Comer Industries?",
-        "a": "W-Line este seria standard de arbori cardanici, dotată cu sistem de blocare QS pentru montare rapidă și sigură, în timp ce P-Line este gama premium, cu capacitate de transmisie superioară, incluzând articulații de unghi mare precum P675. Alegerea depinde de cuplul necesar și de unghiurile de lucru ale transmisiei."
+        "a": "W-Line este seria standard de arbori cardanici, dotată cu sistem de blocare QS pentru montare rapidă și sigură, în timp ce P-Line este gama cu capacitate de transmisie superioară, incluzând articulații de unghi mare precum P675. Alegerea depinde de cuplul necesar și de unghiurile de lucru ale transmisiei."
       },
       {
         "q": "Ce este seria 980 de arbori cardanici Comer Industries?",
@@ -675,7 +675,7 @@ Pentru instalațiile din România, Ecoflam are sens la centralele termice indust
       },
       {
         "q": "Ce este arzătorul dual-fuel multicalor de la Ecoflam?",
-        "a": "Multicalor este familia de arzătoare Ecoflam capabile să funcționeze fie pe gaz natural, fie pe motorină, oferind flexibilitate acolo unde alimentarea cu un singur combustibil nu este garantată permanent. Variantele multicalor 45 și multicalor 100 acoperă puteri diferite, de la instalații mici până la cele industriale."
+        "a": "Multicalor este familia de arzătoare Ecoflam capabile să funcționeze fie pe gaz natural, fie pe motorină, oferind flexibilitate acolo unde alimentarea cu un singur combustibil nu este asigurată permanent. Variantele multicalor 45 și multicalor 100 acoperă puteri diferite, de la instalații mici până la cele industriale."
       }
     ],
     evidenceClass: "market-signal-ro",

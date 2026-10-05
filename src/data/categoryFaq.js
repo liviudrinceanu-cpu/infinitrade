@@ -262,7 +262,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Ce diferență e între un cuplaj elastic și unul rigid?',
-      a: 'Cuplajul elastic (cu elemente din cauciuc, poliuretan sau disc metalic flexibil) absoarbe dezalinieri minore și șocuri de cuplu, protejând motorul și pompa sau reductorul conectat - e alegerea standard pentru majoritatea transmisiilor industriale. Cuplajul rigid nu tolerează nicio dezaliniere și transmite direct orice vibrație sau șoc, fiind folosit doar acolo unde alinierea axelor e garantată foarte precis, de exemplu pe linii de arbori lungi la mașini special construite. Pentru un montaj obișnuit motor-pompă, cuplajul elastic reduce semnificativ riscul de avarii premature la rulmenți.',
+      a: 'Cuplajul elastic (cu elemente din cauciuc, poliuretan sau disc metalic flexibil) absoarbe dezalinieri minore și șocuri de cuplu, protejând motorul și pompa sau reductorul conectat - e alegerea standard pentru majoritatea transmisiilor industriale. Cuplajul rigid nu tolerează nicio dezaliniere și transmite direct orice vibrație sau șoc, fiind folosit doar acolo unde alinierea axelor este asigurată foarte precis, de exemplu pe linii de arbori lungi la mașini special construite. Pentru un montaj obișnuit motor-pompă, cuplajul elastic reduce semnificativ riscul de avarii premature la rulmenți.',
     },
     {
       q: 'Ce trebuie să trimit pentru o ofertă de piese mecanice de schimb?',

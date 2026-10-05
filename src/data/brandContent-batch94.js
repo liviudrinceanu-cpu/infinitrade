@@ -53,7 +53,7 @@ Pentru un inginer de achiziții din România, Newco înseamnă acces la robineț
     ],
     faq: [
       { q: "Ce robineți produce Newco?", a: "Newco fabrică robineți industriali cu sertar, cu ventil, de reținere și cu bilă, din oțel carbon turnat sau forjat, oțel inoxidabil și aliaje speciale, cu sediul la Houston, Texas. Gama acoperă dimensiuni de la 1/4″ până la 48″ și clase de presiune între 150 și 4500 lbs." },
-      { q: "Cum aleg robinetul Newco potrivit pentru o linie de proces?", a: "Ai nevoie de tipul constructiv (sertar, ventil, reținere sau bilă), dimensiunea nominală, clasa de presiune ANSI și materialul de construcție cerut de fluidul din instalație. Pentru medii corozive, materialul se alege în funcție de fluid, din variantele din oțel inoxidabil sau aliaje speciale oferite de producător." },
+      { q: "Cum aleg robinetul Newco potrivit pentru o linie de proces?", a: "Aveți nevoie de tipul constructiv (sertar, ventil, reținere sau bilă), dimensiunea nominală, clasa de presiune ANSI și materialul de construcție cerut de fluidul din instalație. Pentru medii corozive, materialul se alege în funcție de fluid, din variantele din oțel inoxidabil sau aliaje speciale oferite de producător." },
       { q: "Ce echivalent are gama Newco față de Bonney Forge?", a: "Newco și Bonney Forge oferă robineți pentru clase de presiune ridicate; alegerea depinde de configurația exactă cerută de proiect (tip, dimensiune, clasă, material), confirmată din fișele tehnice ale fiecărui producător." },
       { q: "Livrați robineți Newco în România și cât durează?", a: "Da, aducem robineți Newco la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de dimensiune, clasă și material. Termenul exact se confirmă după ce transmiteți specificația completă a robinetului." },
     ],
@@ -109,7 +109,7 @@ Pentru un inginer de utilități dintr-o fabrică din România, gama Forbes Mars
     ],
     faq: [
       { q: "Ce produce Forbes Marshall?", a: "Forbes Marshall fabrică oale de condens, robineți și accesorii pentru eficiența sistemelor de abur, cu game separate pentru linii principale și pentru procese industriale." },
-      { q: "Cum aleg oala de condens Forbes Marshall potrivită?", a: "Trebuie să știi presiunea liniei de abur, debitul de condensat de evacuat și dacă sarcina variază mult între pornire și funcționare normală. Pentru sarcini variabile, modelele cu două orificii precum CMTOFT sunt gândite special pentru acest scenariu." },
+      { q: "Cum aleg oala de condens Forbes Marshall potrivită?", a: "Trebuie să știți presiunea liniei de abur, debitul de condensat de evacuat și dacă sarcina variază mult între pornire și funcționare normală. Pentru sarcini variabile, modelele cu două orificii precum CMTOFT sunt gândite special pentru acest scenariu." },
       { q: "Ce diferență e între oalele Forbes Marshall pentru linii principale și cele pentru proces?", a: "Gama pentru linii principale (FMBM, FMTD, FMBT) e dimensionată pentru drenajul continuu al conductelor de distribuție, în timp ce gama pentru proces (CMTOFT, SOFT, SOPT) răspunde la variații mari de sarcină generate de echipamente." },
       { q: "Livrați produse Forbes Marshall în România și cât durează?", a: "Da, aducem oale de condens și accesorii Forbes Marshall la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact se confirmă după ce primim presiunea și debitul liniei de abur." },
     ],
@@ -173,7 +173,7 @@ Pentru un operator de apă sau un antreprenor de rețele din România, ERHARD î
     ],
     faq: [
       { q: "Ce produce ERHARD?", a: "ERHARD fabrică robineți sertar, fluture, cu bilă și cu cuțit, clapete de reținere și hidranți pentru rețele de apă potabilă și canalizare, cu sediul la Heidenheim, Germania, activ din 1871." },
-      { q: "Cum aleg robinetul sertar ERHARD potrivit pentru rețeaua mea de apă?", a: "Ai nevoie de diametrul nominal, presiunea de lucru și dacă aplicația e pe apă potabilă sau apă uzată. Pentru apă uzată, seria Multamed are variantele EH1104P (corp scurt) și EH1174P (corp lung)." },
+      { q: "Cum aleg robinetul sertar ERHARD potrivit pentru rețeaua mea de apă?", a: "Aveți nevoie de diametrul nominal, presiunea de lucru și dacă aplicația e pe apă potabilă sau apă uzată. Pentru apă uzată, seria Multamed are variantele EH1104P (corp scurt) și EH1174P (corp lung)." },
       { q: "Ce este seria Multamed de la ERHARD?", a: "Multamed este seria de robineți sertar cu pană cauciucată a ERHARD, disponibilă în variante cu corp scurt sau lung, codurile EH1040P până la EH1270P." },
       { q: "Livrați robineți ERHARD în România și cât durează?", a: "Da, aducem robineți ERHARD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de diametru, presiune și disponibilitatea la producător." },
     ],
@@ -239,7 +239,7 @@ Pentru un integrator de instalații industriale din România, gama Valpres are s
     ],
     faq: [
       { q: "Ce produce Valpres?", a: "Valpres fabrică robineți cu bilă din inox și aliaje speciale, în construcție cu două piese, wafer sau split-body, plus robineți fluture, cu sediul la Marcheno, Brescia, activ din 1978." },
-      { q: "Cum aleg robinetul cu bilă Valpres potrivit pentru instalația mea?", a: "Ai nevoie de diametrul nominal, presiunea de lucru, fluidul vehiculat și spațiul disponibil pentru montaj. Pentru spații reduse între flanșe, seriile WAFER sau WAFER-SPLIT ocupă mai puțin decât variantele cu două piese." },
+      { q: "Cum aleg robinetul cu bilă Valpres potrivit pentru instalația mea?", a: "Aveți nevoie de diametrul nominal, presiunea de lucru, fluidul vehiculat și spațiul disponibil pentru montaj. Pentru spații reduse între flanșe, seriile WAFER sau WAFER-SPLIT ocupă mai puțin decât variantele cu două piese." },
       { q: "Ce este sistemul LOCPOWER de la Valpres?", a: "LOCPOWER este sistemul brevetat de robinet de control al Valpres, care transformă energia disipată la reglarea presiunii și a debitului în energie electrică reutilizabilă. Detaliile de integrare se confirmă direct cu producătorul." },
       { q: "Livrați robineți Valpres în România și cât durează?", a: "Da, aducem robineți Valpres la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de seria aleasă și de disponibilitatea la fabrica din Italia." },
     ],
@@ -303,7 +303,7 @@ Pentru un integrator din industria farmaceutică, criogenică sau energetică di
     ],
     faq: [
       { q: "Ce produce IMI PBM?", a: "IMI PBM fabrică robineți sferici industriali și sanitari, cu 2 până la 5 căi, robineți criogenici cu trecere integrală și robineți speciali pentru izolare, blocare-purjare sau pulverizare, cu sediul la Irwin, Pennsylvania." },
-      { q: "Cum aleg robinetul criogenic IMI PBM potrivit?", a: "Ai nevoie de dimensiunea portului, temperatura minimă de lucru și materialul de etanșare compatibil cu fluidul criogenic. Gama IMI PBM acoperă dimensiuni de la 1/2″ la 4″, cu trecere integrală pentru pierderi minime de presiune." },
+      { q: "Cum aleg robinetul criogenic IMI PBM potrivit?", a: "Aveți nevoie de dimensiunea portului, temperatura minimă de lucru și materialul de etanșare compatibil cu fluidul criogenic. Gama IMI PBM acoperă dimensiuni de la 1/2″ la 4″, cu trecere integrală pentru pierderi minime de presiune." },
       { q: "Ce este un robinet IMI PBM cu porturi multiple?", a: "Este un robinet sferic cu 3, 4 sau 5 căi, folosit pentru direcționarea sau amestecul fluxului de fluid în instalații de proces, unde un robinet cu 2 căi ar necesita mai multe unități separate." },
       { q: "Livrați robineți IMI PBM în România și cât durează?", a: "Da, aducem robineți IMI PBM la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de configurația exactă și de certificările cerute de proiect." },
     ],
@@ -365,7 +365,7 @@ Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok
     ],
     faq: [
       { q: "Ce produce Hy-Lok?", a: "Hy-Lok fabrică robineți și fitinguri de instrumentație — robineți cu bilă, ac, membrană și burduf, plus fitinguri de compresie și manifolduri — pentru linii de măsură și control din instalații industriale, activ din 1977." },
-      { q: "Cum aleg robinetul de instrumentație Hy-Lok potrivit?", a: "Ai nevoie de tipul de conexiune (compresie, filetată sau sudată), dimensiunea tubului sau conductei și presiunea maximă de lucru. Pentru aplicații criogenice, seria CRYOT cu bilă pe trunion e gândită special pentru temperaturi extrem de scăzute." },
+      { q: "Cum aleg robinetul de instrumentație Hy-Lok potrivit?", a: "Aveți nevoie de tipul de conexiune (compresie, filetată sau sudată), dimensiunea tubului sau conductei și presiunea maximă de lucru. Pentru aplicații criogenice, seria CRYOT cu bilă pe trunion e gândită special pentru temperaturi extrem de scăzute." },
       { q: "Ce echivalent are un fiting Hy-Lok față de Swagelok?", a: "Hy-Lok produce fitinguri de compresie cu două ferule, compatibile dimensional cu conexiuni de instrumentație uzuale în industrie; echivalența exactă între mărci se confirmă punctual pe baza dimensiunii și presiunii de lucru." },
       { q: "Livrați robineți Hy-Lok în România și cât durează?", a: "Da, aducem robineți și fitinguri Hy-Lok la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de configurația exactă și materialul ales." },
     ],
@@ -427,7 +427,7 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
     ],
     faq: [
       { q: "Ce produce Fromme Armaturen?", a: "Fromme Armaturen (F&M Armaturen) fabrică robineți fluture, sertar, cu ventil, cu bilă și de reținere din oțel turnat și inox, plus filtre de linie, cu sediul la Kirchheim unter Teck, Germania, activ din 1982." },
-      { q: "Cum aleg robinetul sertar Fromme potrivit pentru instalația mea?", a: "Ai nevoie de standardul de referință (DIN sau ANSI), diametrul nominal, presiunea de lucru și tipul de pană cerut de fluid — plată, ovală sau rotundă. Pentru limitarea emisiilor de gaz, varianta certificată TA-Luft e cea potrivită." },
+      { q: "Cum aleg robinetul sertar Fromme potrivit pentru instalația mea?", a: "Aveți nevoie de standardul de referință (DIN sau ANSI), diametrul nominal, presiunea de lucru și tipul de pană cerut de fluid — plată, ovală sau rotundă. Pentru limitarea emisiilor de gaz, varianta certificată TA-Luft e cea potrivită." },
       { q: "Ce este certificarea TA-Luft la robineții Fromme?", a: "TA-Luft este norma germană privind emisiile fugitive; producătorul indică un certificat TA-Luft din 2021 pentru robineți cu ventil și robineți sertar DIN și ANSI, până la PN40 sau clasa ANSI 300, relevant pentru instalații de proces cu cerințe stricte de mediu." },
       { q: "Livrați robineți Fromme Armaturen în România și cât durează?", a: "Da, aducem robineți Fromme Armaturen la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de standard, diametru și material." },
     ],
@@ -485,7 +485,7 @@ Pentru un integrator de linii automatizate din România, gama Univer are sens ac
     ],
     faq: [
       { q: "Ce produce Univer?", a: "Univer fabrică electrovalve pneumatice, cilindri standard și speciali (telescopici, ovali), unități de blocare și grupuri de tratare a aerului, cu sediul la Bione, Brescia, Italia, activ din 1971." },
-      { q: "Cum aleg cilindrul pneumatic Univer potrivit pentru linia mea?", a: "Ai nevoie de cursa necesară, alezajul, presiunea de lucru și spațiul disponibil pentru montaj. Pentru spații reduse cu curse mari, seria telescopică RT ocupă mai puțin decât un cilindru standard retras complet." },
+      { q: "Cum aleg cilindrul pneumatic Univer potrivit pentru linia mea?", a: "Aveți nevoie de cursa necesară, alezajul, presiunea de lucru și spațiul disponibil pentru montaj. Pentru spații reduse cu curse mari, seria telescopică RT ocupă mai puțin decât un cilindru standard retras complet." },
       { q: "Ce este seria AG de electrovalve Univer?", a: "AG este seria de electrovalve poppet Univer pentru aplicații de vid, cu porturi de la G1/8 la G1 1/2 și variantă servoasistată disponibilă." },
       { q: "Livrați componente Univer în România și cât durează?", a: "Da, aducem electrovalve, cilindri și accesorii Univer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de serie și de configurația exactă cerută." },
     ],

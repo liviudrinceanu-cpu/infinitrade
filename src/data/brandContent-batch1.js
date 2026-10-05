@@ -1,5 +1,5 @@
 // Rich SEO Content for Industrial Brands - Batch 1
-// Natural Romanian language, AI detection < 30%, no "distribuitor oficial/autorizat"
+// Natural Romanian language, AI detection < 30%, no claims of official or authorized status
 
 export const brandContentBatch1 = {
   'grundfos': {
@@ -8,7 +8,7 @@ export const brandContentBatch1 = {
     employees: '21,000',
     overview: `Grundfos este un producător de pompe utilizat în instalații tehnice din clădiri și în stații de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci a devenit unul dintre cei mai mari producători de pompe din lume, cu fabrici și birouri pe mai multe continente.
 
-Grundfos s-a remarcat prin investiția în eficiență energetică. Astăzi, dacă intri pe site-ul lor, găsești pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
+Grundfos s-a remarcat prin investiția în eficiență energetică. Astăzi, dacă intrați pe site-ul lor, găsiți pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
 
 Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Condițiile de lucru admise (pH, temperatură, număr de porniri) depind de model și se confirmă pe cod, din documentația Grundfos.
 
@@ -219,11 +219,11 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
     employees: '15000+',
     overview: `KSB e unul dintre "veteranii" industriei de pompare — vorbim de o companie fondată în 1871, deci are peste 150 de ani de experiență. Pentru comparație, când KSB a început să facă pompe, Edison abia descoperise becul electric (1879). Compania a traversat Revoluția Industrială, două războaie mondiale, tranziția către automatizare, și acum Industry 4.0, devenind unul dintre marii producători mondiali de pompe și robineți industriali.
 
-Ceea ce diferențiază KSB de mulți competitori e focusul lor pe aplicații heavy-duty și critice. Dacă ai o pompă care trebuie să pompeze acid sulfuric concentrat la 120°C, sau apă fierbinte supraîncălzită în centrale nucleare, sau nămol abraziv în minerit — iei KSB. 
+Ceea ce diferențiază KSB de mulți competitori e focusul lor pe aplicații heavy-duty și critice. Dacă aveți o pompă care trebuie să pompeze acid sulfuric concentrat la 120°C, sau apă fierbinte supraîncălzită în centrale nucleare, sau nămol abraziv în minerit — luați KSB. 
 
 Produsele lor emblematice sunt seria Etanorm (pompe centrifugale standardizate conform DIN 24255/EN 733) și seria Sewatec (pentru canalizare și epurare). Etanorm respectă standardele DIN 24255/EN 733, iar dimensiunile de montaj sunt adoptate și de alți producători de pompe similare. 
 
-Un alt punct forte al KSB e experiența lor în robinetărie industrială. Nu fac doar pompe — fac și supape fluture, robinete sferice, robinete cu sertar, robinete de reglare, toate pentru aplicații industriale; parametrii de funcționare se confirmă pe cod, din documentația KSB. Pentru un proiect complex în petrochimie sau energie, poți echipa întregul sistem cu KSB: pompe + robinete + sisteme de control, totul de la același producător. Asta simplifică enorm mentenanța și compatibilitatea.`,
+Un alt punct forte al KSB e experiența lor în robinetărie industrială. Nu fac doar pompe — fac și supape fluture, robinete sferice, robinete cu sertar, robinete de reglare, toate pentru aplicații industriale; parametrii de funcționare se confirmă pe cod, din documentația KSB. Pentru un proiect complex în petrochimie sau energie, puteți echipa întregul sistem cu KSB: pompe + robinete + sisteme de control, totul de la același producător. Asta simplifică enorm mentenanța și compatibilitatea.`,
 
     whyChoose: [
       'Peste 150 de ani de experiență în industria de pompare — know-how acumulat în mii de aplicații critice pe tot globul',
@@ -425,7 +425,7 @@ Wilo e și un pionier în digitalizare: Stratos MAXO are interfață Bluetooth �
       },
       {
         name: 'CronoLine-IL (Pompe Inline pentru Industrie)',
-        description: 'Seria CronoLine-IL (Inline) e pentru aplicații industriale și comerciale unde ai nevoie de pompe robuste montate direct pe țeavă (fără fundație separată). Pompe centrifugale inline cu un etaj, cuplaj lung, cu corp spiral din fontă și rotor din bronz. Debitul, înălțimea de pompare, clasa motorului și flanșele depind de mărime; le confirmăm pe cod, din documentația Wilo. Aplicații tipice: boost presiune în clădiri înalte, sisteme de stingere incendii, procese industriale (transfer apă, glicol, lichide neutre). Varianta CronoLine-IL-E are convertizor de frecvență integrat pentru reglare debit (soft start, economie energie, protecție la funcționare uscată). Foarte compacte (economisesc spațiu față de pompele clasice pe soclu), instalare rapidă, mentenanță ușoară.'
+        description: 'Seria CronoLine-IL (Inline) e pentru aplicații industriale și comerciale unde aveți nevoie de pompe robuste montate direct pe țeavă (fără fundație separată). Pompe centrifugale inline cu un etaj, cuplaj lung, cu corp spiral din fontă și rotor din bronz. Debitul, înălțimea de pompare, clasa motorului și flanșele depind de mărime; le confirmăm pe cod, din documentația Wilo. Aplicații tipice: boost presiune în clădiri înalte, sisteme de stingere incendii, procese industriale (transfer apă, glicol, lichide neutre). Varianta CronoLine-IL-E are convertizor de frecvență integrat pentru reglare debit (soft start, economie energie, protecție la funcționare uscată). Foarte compacte (economisesc spațiu față de pompele clasice pe soclu), instalare rapidă, mentenanță ușoară.'
       },
       {
         name: 'EMUport (Pompe Submersibile pentru Drenaj)',
@@ -591,7 +591,7 @@ Wilo e și un pionier în digitalizare: Stratos MAXO are interfață Bluetooth �
 
 Seria SINAMICS (convertizoare de frecvență) e la fel de impresionantă: de la micro-drive-uri G120C de 0.37 kW, până la convertizoare de medie tensiune din familia SINAMICS GM150, pentru aplicații în minerit și oțelării. Un SINAMICS nu doar pornește/oprește motorul — el optimizează consumul energetic, protejează motorul de suprasarcini, permite control precis de viteză și cuplu, comunică cu PLC-ul prin Profinet/Profibus, și, la unele configurații, oferă date pentru diagnosticare predictivă.
 
-Un alt punct forte Siemens e integrarea completă: poți avea un sistem automatizat 100% Siemens — motor SIMOTICS + drive SINAMICS + PLC SIMATIC S7-1500 + HMI Comfort Panel + soft de programare TIA Portal + platformă cloud MindSphere pentru monitorizare. Componentele comunică între ele, sunt certificate împreună și au garanție de la același producător. Pentru un integrator de sisteme, asta simplifică proiectarea și punerea în funcțiune.`,
+Un alt punct forte Siemens e integrarea completă: puteți avea un sistem automatizat 100% Siemens — motor SIMOTICS + drive SINAMICS + PLC SIMATIC S7-1500 + HMI Comfort Panel + soft de programare TIA Portal + platformă cloud MindSphere pentru monitorizare. Componentele comunică între ele, sunt certificate împreună și au garanție de la același producător. Pentru un integrator de sisteme, asta simplifică proiectarea și punerea în funcțiune.`,
 
     whyChoose: [
       'Producător global cu prezență internațională în automatizări și acționări industriale',
@@ -609,11 +609,11 @@ Un alt punct forte Siemens e integrarea completă: poți avea un sistem automati
       },
       {
         name: 'SINAMICS G120 / G120C (Convertizoare de Frecvență)',
-        description: 'Seria SINAMICS G120 e dedicată aplicațiilor generale de pompare, ventilare, transportoare, mixere, compresoare. Puteri de 0.37 kW la 250 kW, alimentare 230V sau 400V. G120C e varianta compactă (drive + panou operator pe corp, instalare rapidă), G120 e varianta modulară (poți adăuga opțiuni: filtre EMC, bobine de zgomot, module I/O suplimentare). Funcții avansate: soft start/stop, rampe configurabile, control V/f sau vectorial, protecții complete (supracurent, scurtcircuit, supraîncălzire, funcționare uscată pentru pompe). Comunicație Modbus RTU, Profinet, Profibus — integrat perfect cu PLC-uri Siemens sau alte branduri. Interfață BOP-2 (Basic Operator Panel) sau IOP-2 (Intelligent Operator Panel) pentru configurare și diagnosticare. Ideal pentru upgrade-ul sistemelor vechi: înlocuiești pornirea directă a motorului cu un G120C și reduci consumul electric al sistemului.'
+        description: 'Seria SINAMICS G120 e dedicată aplicațiilor generale de pompare, ventilare, transportoare, mixere, compresoare. Puteri de 0.37 kW la 250 kW, alimentare 230V sau 400V. G120C e varianta compactă (drive + panou operator pe corp, instalare rapidă), G120 e varianta modulară (puteți adăuga opțiuni: filtre EMC, bobine de zgomot, module I/O suplimentare). Funcții avansate: soft start/stop, rampe configurabile, control V/f sau vectorial, protecții complete (supracurent, scurtcircuit, supraîncălzire, funcționare uscată pentru pompe). Comunicație Modbus RTU, Profinet, Profibus — integrat perfect cu PLC-uri Siemens sau alte branduri. Interfață BOP-2 (Basic Operator Panel) sau IOP-2 (Intelligent Operator Panel) pentru configurare și diagnosticare. Ideal pentru upgrade-ul sistemelor vechi: înlocuiți pornirea directă a motorului cu un G120C și reduceți consumul electric al sistemului.'
       },
       {
         name: 'SIMATIC S7-1500 (PLC-uri pentru Automatizări)',
-        description: 'Seria SIMATIC S7-1500 e "creierul" automatizărilor industriale Siemens. Controlare pompe, ventilatoare, motoare, procese complexe — orice ai nevoie să automatizezi. CPU-uri de la S7-1511 (minimalist pentru aplicații simple) până la S7-1518 (powerhouse pentru fabrici întregi cu mii de I/O). Programare în TIA Portal (Totally Integrated Automation) cu limbaje IEC 61131-3: LAD (Ladder), FBD (Function Block), SCL (Structured Control Language), GRAPH (pentru secvențe). Comunicație Profinet (standard); alte protocoale, precum Profibus sau Modbus TCP, se adaugă prin module de comunicație sau biblioteci dedicate, în funcție de configurație. Funcții avansate: control PID integrat, motion control pentru servomotoare, safety integrat (PLC-uri failsafe pentru aplicații critice), web server încorporat (monitorizare din browser). Pentru o stație de pompare automată sau un sistem HVAC complex, un S7-1500 este o alegere frecventă.'
+        description: 'Seria SIMATIC S7-1500 e "creierul" automatizărilor industriale Siemens. Controlare pompe, ventilatoare, motoare, procese complexe — orice aveți nevoie să automatizați. CPU-uri de la S7-1511 (minimalist pentru aplicații simple) până la S7-1518 (powerhouse pentru fabrici întregi cu mii de I/O). Programare în TIA Portal (Totally Integrated Automation) cu limbaje IEC 61131-3: LAD (Ladder), FBD (Function Block), SCL (Structured Control Language), GRAPH (pentru secvențe). Comunicație Profinet (standard); alte protocoale, precum Profibus sau Modbus TCP, se adaugă prin module de comunicație sau biblioteci dedicate, în funcție de configurație. Funcții avansate: control PID integrat, motion control pentru servomotoare, safety integrat (PLC-uri failsafe pentru aplicații critice), web server încorporat (monitorizare din browser). Pentru o stație de pompare automată sau un sistem HVAC complex, un S7-1500 este o alegere frecventă.'
       },
       {
         name: 'HMI Comfort Panels (Panouri Operator)',
@@ -744,7 +744,7 @@ Seria ABB de motoare (IE2, IE3, IE4, IE5) acoperă toate clasele actuale de efic
 
 Seria ACS pentru drive-uri acoperă o gamă largă de puteri: de la ACS180 (de la 0,25 kW) până la ACS6000, drive de medie tensiune de 5–36 MW, pentru aplicații în oțelării și petrochimie. Un ACS880 nu doar controlează viteza motorului, ci face și: control vectorial de flux (pentru cuplu maxim la viteze mici), regenerare energie (returnează energie în rețea când motorul frânează), filtrare activă armonici (reduce poluarea electrică), și conectivitate cloud pentru mentenanță predictivă.
 
-Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conectarea echipamentelor industriale. Poți avea un motor ABB + drive ACS880 + gateway ABB Ability, și vezi în timp real (de pe telefon sau laptop) ce viteză are motorul, cât curent consumă, ce temperatură are, și dacă sunt probleme iminente. Pentru o companie cu 50 de stații de pompare răspândite pe 100 km, asta poate reduce costurile de mentenanță (mergi la fața locului doar când e cu adevărat nevoie).`,
+Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conectarea echipamentelor industriale. Puteți avea un motor ABB + drive ACS880 + gateway ABB Ability, și vedeți în timp real (de pe telefon sau laptop) ce viteză are motorul, cât curent consumă, ce temperatură are, și dacă sunt probleme iminente. Pentru o companie cu 50 de stații de pompare răspândite pe 100 km, asta poate reduce costurile de mentenanță (mergeți la fața locului doar când e cu adevărat nevoie).`,
 
     whyChoose: [
       'Producător global cu prezență internațională — know-how combinat de peste 130 de ani (ASEA + BBC)',
@@ -770,7 +770,7 @@ Platforma ABB Ability este ecosistemul digital ABB — un cloud IoT pentru conec
       },
       {
         name: 'ABB Ability (Platformă Digitală IoT)',
-        description: 'ABB Ability e ecosistemul digital al ABB pentru conectarea echipamentelor industriale la cloud și aplicații de monitorizare/optimizare. Poți conecta: motoare ABB (cu senzori smart), drive-uri ACS (prin gateway), roboți industriali, transformatoare, și orice alt echipament cu protocolul OPC UA sau Modbus. Funcționalități: dashboard centralizat pentru toate echipamentele (vezi status, consumuri, alarme), mentenanță predictivă cu algoritmi AI (detectează semne timpurii de defect la rulmenți, ventilatoare, izolații), optimizare automată a consumului energetic, rapoarte și analize pentru management. Exemple de aplicații: un operator de utilități publice poate monitoriza 100 de stații de pompare dintr-un singur dashboard, poate vedea care pompe consumă prea mult sau au vibrații anormale, și poate programa mentenanță înainte să apară defecțiuni. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor (mai puțin downtime neplănificat). Platforma rulează pe Azure cloud (Microsoft). Măsurile de securitate se confirmă din documentația ABB.'
+        description: 'ABB Ability e ecosistemul digital al ABB pentru conectarea echipamentelor industriale la cloud și aplicații de monitorizare/optimizare. Puteți conecta: motoare ABB (cu senzori smart), drive-uri ACS (prin gateway), roboți industriali, transformatoare, și orice alt echipament cu protocolul OPC UA sau Modbus. Funcționalități: dashboard centralizat pentru toate echipamentele (vedeți status, consumuri, alarme), mentenanță predictivă cu algoritmi AI (detectează semne timpurii de defect la rulmenți, ventilatoare, izolații), optimizare automată a consumului energetic, rapoarte și analize pentru management. Exemple de aplicații: un operator de utilități publice poate monitoriza 100 de stații de pompare dintr-un singur dashboard, poate vedea care pompe consumă prea mult sau au vibrații anormale, și poate programa mentenanță înainte să apară defecțiuni. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor (mai puțin downtime neplănificat). Platforma rulează pe Azure cloud (Microsoft). Măsurile de securitate se confirmă din documentația ABB.'
       },
     ],
 

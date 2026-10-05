@@ -653,7 +653,7 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       },
       {
         "code": "GLASSCAPE",
-        "description": "platformă HMI cu suprafață din sticlă, aspect premium"
+        "description": "platformă HMI cu suprafață din sticlă"
       },
       {
         "code": "JOYSCAPE",
