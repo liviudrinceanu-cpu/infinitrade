@@ -7,7 +7,7 @@ export const brandContentBatch83 = {
     headquarters: "Viena, Austria",
     overview: `Kraus & Naimer este un producător austriac de comutatoare cu came și întrerupătoare de sarcină, cu sediul la Viena, activ din 1907, când firma a pornit dintr-un subsol vienez. Compania a introdus în 1948 primul comutator cu came în design modular, principiu pe care încă îl folosește pentru majoritatea gamei actuale. Astăzi produce comutatoare rotative pentru pornirea, oprirea, inversarea și comutarea circuitelor electrice din tablouri, mașini-unelte, motoare și instalații fotovoltaice, cu șase fabrici și birouri de vânzări pe mai multe continente.
 
-Gama e organizată pe familii de comutatoare: seria de bază C, seriile CA și CA4 pentru control și sarcină la curenți de 10-32A, seriile CG, CH și CHR pentru puteri medii, seria CAD ca referință de catalog și seria L pentru întrerupătoare de sarcină la curenți mari, între 350A și 2400A. Concurează pe segmentul de comutatoare industriale cu producători precum Schneider Electric, diferențierea fiind construcția modulară care permite configurare pe fiecare poziție și pol.
+Gama e organizată pe familii de comutatoare: seria de bază C, seriile CA și CA4 pentru control și sarcină la curenți de 10-32A, seriile CG, CH și CHR pentru puteri medii, seria CAD, listată în catalogul producătorului și seria L pentru întrerupătoare de sarcină la curenți mari, între 350A și 2400A.
 
 Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la comutatoare robuste pentru tablouri de comandă, panouri de distribuție și sisteme fotovoltaice, acolo unde fiabilitatea mecanică a contactelor pe termen lung contează mai mult decât prețul de achiziție.`,
     whyChoose: [
@@ -15,11 +15,11 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
       "Gamă completă de curenți nominali, de la comutatoare mici de control până la întrerupătoare de sarcină de 2400A",
       "Contacte placate cu aur la seria CA4-1, pentru semnale de joasă tensiune în medii solicitante",
       "Comutatoare dedicate pentru sisteme fotovoltaice, cu deconectoare de curent continuu",
-      "Producție proprie în șase fabrici, cu piese de schimb și configurații personalizate disponibile"
+      "Producție proprie în șase fabrici, pe patru continente"
     ],
     keyProducts: [
-      { name: "Comutatoare de Control și Sarcină Seria CA", description: "Comutatoare cu came pentru pornirea și inversarea motoarelor, cu terminale rezistente la atingere, curenți nominali între 10A și 32A. Varianta CA4 și CA4-1 adaugă contacte placate cu aur pentru circuite de semnal de joasă tensiune, unde oxidarea contactelor obișnuite ar cauza erori de comutare. Montaj pe panou sau pe ușă de tablou, cu came interschimbabile pentru diverse scheme de comutare." },
-      { name: "Comutatoare Seria CG/CH/CHR", description: "Familie de comutatoare cu came pentru puteri medii, curenți nominali între 10A și 25A, folosite pentru comutarea manuală a motoarelor, selecția treptelor de viteză sau comutarea circuitelor de măsură. Construcție compactă, cu posibilitate de montare în serie pentru scheme cu mai multe funcții pe același ax de acționare." },
+      { name: "Comutatoare de Control și Sarcină Seria CA", description: "Comutatoare cu came pentru pornirea și inversarea motoarelor, cu terminale rezistente la atingere, curenți nominali între 10A și 32A. Varianta CA4-1 adaugă contacte placate cu aur pentru circuite de semnal de joasă tensiune, unde oxidarea contactelor obișnuite ar cauza erori de comutare. Montaj pe panou sau pe ușă de tablou, cu came interschimbabile pentru diverse scheme de comutare." },
+      { name: "Comutatoare Seria CG/CH/CHR", description: "Familie de comutatoare cu came pentru puteri medii, cu curenți nominali care depind de serie și model (îi confirmăm pe cod, din documentația producătorului), folosite pentru comutarea manuală a motoarelor, selecția treptelor de viteză sau comutarea circuitelor de măsură. Construcție compactă, cu posibilitate de montare în serie pentru scheme cu mai multe funcții pe același ax de acționare." },
       { name: "Întrerupătoare de Sarcină Seria L", description: "Întrerupătoare off-load pentru curenți mari, de la 350A până la 2400A, folosite ca principale organe de separare în tablouri de distribuție și panouri de forță. Concepute pentru manevrare sub sarcină redusă sau ca separator vizibil înainte de intervenții de mentenanță pe circuite de putere." }
     ],
     industries: [
@@ -33,15 +33,15 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
     productCodes: [
       { code: "Seria C", description: "comutator cu came de bază, design modular" },
       { code: "Seria CA", description: "comutator de control și sarcină, 10-32A" },
-      { code: "CA4", description: "comutator de joasă tensiune, contacte placate" },
+      { code: "CA4", description: "comutator cu came din familia CA" },
       { code: "CA4-1", description: "variantă CA4 cu contacte aurite" },
-      { code: "Seria CG", description: "comutator cu came, putere medie, 10-25A" },
+      { code: "Seria CG", description: "comutator cu came, putere medie" },
       { code: "Seria CH", description: "comutator cu came, putere medie" },
       { code: "Seria CHR", description: "comutator cu came, variantă CH" },
-      { code: "CAD", description: "comutator de referință din catalog" },
+      { code: "CAD", description: "comutator cu came, serie din catalogul producătorului" },
       { code: "Seria L", description: "întrerupător de sarcină off-load, 350-2400A" },
-      { code: "Seria KG", description: "comutator principal (main switch)" },
-      { code: "Seria KF", description: "comutator de mentenanță și siguranță" }
+      
+      
     ],
     faq: [
       { q: "Ce produce Kraus & Naimer?", a: "Kraus & Naimer produce comutatoare cu came și întrerupătoare de sarcină pentru tablouri electrice, mașini-unelte și instalații fotovoltaice, cu o gamă de curenți de la câțiva amperi până la 2400A. Compania austriacă folosește un design modular introdus în 1948, care permite configurarea contactelor pe fiecare poziție și pol." },
@@ -50,8 +50,8 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
       { q: "Ce trebuie să trimit pentru o ofertă de comutator Kraus & Naimer?", a: "Pentru o ofertă corectă trimiteți seria dorită (de exemplu CA sau L), curentul nominal, numărul de poli, tipul de montaj (panou sau ușă tablou) și, dacă înlocuiți un comutator existent, codul complet de pe eticheta lui." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Control and Load Switches", url: "https://www.krausnaimer.com/other_countries/products/control-and-load-switches", publisher: "Kraus & Naimer", accessed: "2026-09-25" },
       { title: "History", url: "https://www.krausnaimer.com/pl_en/about-us/history", publisher: "Kraus & Naimer", accessed: "2026-09-25" },
@@ -63,7 +63,7 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
     founded: 1947,
     overview: `Patlite este un producător japonez de dispozitive de semnalizare vizuală și sonoră, activ din 1947, pornit de la invenția unui singur micromotor. Astăzi compania fabrică turnuri de semnalizare (signal towers), girofaruri, buzzere și dispozitive de notificare pentru linii de producție, birouri și șantiere, cu peste 1000 de angajați și filiale deschise succesiv în SUA, Singapore, China, Germania, Franța, Coreea, Italia, Taiwan, Thailanda, Spania, Mexic și Marea Britanie.
 
-Gama de turnuri de semnalizare acoperă diametre de la 40 la 60 mm: seria LR4 cu control I/O simplu, LR5 și LR6 cu moduri de funcționare continuă, intermitentă și alarmă, și LA6, un turn "smart" cu 21 de culori configurabile. Seriile NHB și NHV adaugă conectivitate Ethernet și, la NHV, anunțuri vocale integrate — funcții pe care concurenți precum Werma sau Banner Engineering le oferă în game similare de turnuri de rețea. Girofarurile din seria NE ajung la niveluri sonore de 88 dB și clase de protecție IP65-IP67.
+Gama de turnuri de semnalizare acoperă diametre de la 40 la 60 mm: seria LR4 cu control I/O simplu, LR5 și LR6 cu moduri de funcționare continuă, intermitentă și alarmă, și LA6, un turn "smart" cu 21 de culori configurabile. Seriile NHB și NHV adaugă conectivitate Ethernet și, la NHV, anunțuri vocale integrate. Girofarurile din seria NE ajung la niveluri sonore de 88 dB și clase de protecție IP65-IP67.
 
 Pentru fabrici și linii de asamblare din România, Patlite înseamnă semnalizare vizuală și sonoră a stărilor de mașină (funcționare, alarmă, oprire), utilă în special acolo unde se cere integrare cu automate PLC prin Ethernet sau IO-Link.`,
     whyChoose: [
@@ -114,8 +114,8 @@ Pentru fabrici și linii de asamblare din România, Patlite înseamnă semnaliza
       { q: "Ce trebuie să trimit pentru ofertă la un turn de semnalizare Patlite?", a: "Trimiteți diametrul dorit, tensiunea de alimentare, numărul de module de culoare, tipul de montaj și, dacă e nevoie de integrare cu automatul de proces, tipul de conectivitate (Ethernet, IO-Link) pentru a primi o ofertă corectă." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Product", url: "https://www.patlite.com/product/", publisher: "Patlite Corporation", accessed: "2026-09-25" },
       { title: "Company Outline", url: "https://www.patlite.com/company/outline.html", publisher: "Patlite Corporation", accessed: "2026-09-25" }
@@ -139,7 +139,7 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
     ],
     keyProducts: [
       { name: "Presetupe Seria blueglobe", description: "Familia de bază de presetupe pentru cabluri, cu variante pentru compatibilitate electromagnetică (TRI EMC), design igienic pentru industria alimentară (CLEAN Plus) și temperaturi extreme (HT, -55°C până la +200°C). Corp din alamă nichelată, inox sau PVDF, cu inserții de etanșare din elastomeri termoplastici sau silicon, alese în funcție de mediul de lucru. Clase de protecție până la IP68/IP69." },
-      { name: "Presetupe cu Protecție la Foc UNI Dicht", description: "Presetupe cu certificare de protecție la foc, folosite frecvent în industria feroviară și în instalații unde propagarea flăcării prin traseul de cabluri trebuie oprită la nivelul peretelui de trecere. Disponibile cu mai multe inserții de etanșare pentru introducerea simultană a mai multor cabluri prin același orificiu, reducând numărul de presetupe necesare pe un panou." },
+      { name: "Presetupe cu Protecție la Foc UNI Dicht", description: "Presetupe cu certificare de protecție la foc, folosite frecvent în industria feroviară și în instalații unde propagarea flăcării prin traseul de cabluri trebuie oprită la nivelul peretelui de trecere. Detaliile constructive (inserții, număr de cabluri) se confirmă pe cod, din documentația producătorului." },
       { name: "Presetupe cu Protecție la Îndoire UNI Flex", description: "Variantă de presetupă cu arc din oțel inoxidabil pentru protecție la îndoire a cablului la ieșirea din carcasă, prevenind ruperea izolației prin flexare repetată. Utilă pe echipamente mobile sau cu vibrații, unde cablul e supus la mișcare constantă la punctul de intrare în dulapul electric." },
       { name: "Presetupe Antiex LevelEx", description: "Variantă de presetupă concepută pentru zone cu pericol de explozie, folosită la echipamente electrice montate în medii Ex. Se integrează cu aceleași game de inserții de etanșare ca presetupele standard, adaptate cerințelor suplimentare de etanșeitate impuse de certificarea antiex." }
     ],
@@ -161,7 +161,7 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
       { code: "UNI Dicht", description: "presetupă cu protecție la foc" },
       { code: "UNI Flex", description: "presetupă cu protecție la îndoire, arc inox" },
       { code: "UNI Clamping", description: "presetupă cu bridă de fixare, până la 500N" },
-      { code: "UNI flange", description: "presetupă tip flanșă, variantă divizibilă" },
+      { code: "UNI flange", description: "presetupă tip flanșă" },
       { code: "LevelEx", description: "presetupă pentru zone cu pericol de explozie" }
     ],
     faq: [
@@ -171,8 +171,8 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
       { q: "Ce clasă de protecție au presetupele Pflitsch?", a: "Producătorul confirmă clase de protecție până la IP68 și IP69, ultima însemnând etanșeitate completă la praf și rezistență la curățare cu jet de apă fierbinte sub presiune, potrivite pentru medii industriale exigente." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Cable Gland", url: "https://www.pflitsch.de/en/cable-gland/", publisher: "Pflitsch GmbH", accessed: "2026-09-25" },
       { title: "Company", url: "https://www.pflitsch.de/en/company/", publisher: "Pflitsch GmbH", accessed: "2026-09-25" },
@@ -183,13 +183,13 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
     name: "R. STAHL",
     founded: 1876,
     headquarters: "Waldenburg, Germania",
-    overview: `R. STAHL este un producător german de echipamente electrice pentru zone cu pericol de explozie, cu sediul la Waldenburg. Firma a fost fondată în 1876 ca fabrică mecanică pentru mașini de tricotaj, a trecut prin sisteme de ridicare și macarale, iar din 1954 s-a reorientat integral spre protecția antiex, domeniu în care operează astăzi șapte fabrici și peste 50 de locații la nivel mondial. Gama acoperă corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de automatizare certificate pentru zone Ex.
+    overview: `R. STAHL este un producător german de echipamente electrice pentru zone cu pericol de explozie, cu sediul la Waldenburg. Firma a fost fondată în 1876 ca atelier mecanic (aparate casnice și mașini textile), a produs ulterior lifturi și macarale (divizia a fost vândută în 2005), iar din 1954 și-a dezvoltat activitatea de protecție antiex, domeniu în care operează astăzi șapte unități de producție și peste 50 de locații la nivel mondial. Gama acoperă corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de automatizare certificate pentru zone Ex.
 
-La iluminat, seriile EXLUX (liniare, 6002/4 și 6402/4) și ToughLUX (L402/4, L402/6) sunt principalele game pentru hale industriale, completate de proiectoare seria 6125/2 și 6525 și lămpi portabile seria 6141/6148/6149. Pentru control și semnalizare, R. STAHL oferă cutii de joncțiune seria 8118 și 8150, motoare cu pornire seria 8220 și dispozitive de semnalizare YODALEX 3, concurând pe acest segment cu Pepperl+Fuchs. Pentru rețelele industriale din zone Ex, gama IT include operatoare HMI ORCA, SHARK și MANTA.
+La iluminat, seriile EXLUX (liniare, 6002/4 și 6402/4) și ToughLUX (L402/4, L402/6) sunt principalele game pentru hale industriale, completate de proiectoare seria 6125/2 și 6525 și lămpi portabile seria 6141/6148/6149. Pentru control și semnalizare, R. STAHL oferă cutii de joncțiune seria 8118 și 8150, unități de comandă a motoarelor seria 8220 și dispozitive de semnalizare YODALEX 3. Pentru rețelele industriale din zone Ex, gama IT include operatoare HMI ORCA, SHARK și MANTA.
 
 Pentru rafinării, platforme offshore și instalații chimice din România, R. STAHL înseamnă echipamente certificate ATEX/IECEx pentru iluminat, control și conectare, acolo unde un echipament standard nu poate fi montat legal în zona clasificată.`,
     whyChoose: [
-      "Peste 150 de ani de fabricație, din care șapte decenii dedicate integral protecției antiex",
+      "Peste 150 de ani de istorie industrială, cu activitate în protecția antiex din 1954",
       "Gamă completă pentru zone Ex — iluminat, cutii de control, conectori și sisteme HMI",
       "Certificări ATEX și IECEx pe majoritatea familiilor de produse",
       "Corpuri de iluminat LED cu variante pentru zone cu risc ridicat de explozie și pentru maritim",
@@ -198,7 +198,7 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
     keyProducts: [
       { name: "Corpuri de Iluminat EXLUX", description: "Corpuri de iluminat liniare LED certificate pentru zone Ex, seriile 6002/4 și 6402/4, folosite pentru iluminatul general al halelor industriale și platformelor cu risc de explozie. Completate de varianta de urgență EXLUX 6009/4 și 6409/4, cu funcție de iluminat de siguranță în caz de pană de curent. Montaj suspendat sau pe structură, cu grad de protecție IP ridicat pentru medii cu praf sau gaze inflamabile." },
       { name: "Corpuri de Iluminat ToughLUX", description: "Familie de corpuri de iluminat robuste, seriile L402/4 și L402/6, pentru aplicații industriale grele în zone clasificate Ex. Construcție rezistentă la impact și vibrații, potrivită pentru medii de procesare unde iluminatul e expus la șocuri mecanice sau condiții climatice dure, cum sunt platformele petroliere sau instalațiile chimice exterioare." },
-      { name: "Cutii de Conexiuni și Control Seria 8xxx", description: "Cutii de joncțiune și terminale seriile 8118, 8146 și 8150, din oțel inoxidabil sau poliester armat cu fibră de sticlă, pentru cablarea și distribuția semnalelor în zone Ex. Completate de dispozitive de control seriile 8040 și motoare cu pornire seria 8220, folosite pentru comanda pompelor și utilajelor din instalații clasificate." },
+      { name: "Cutii de Conexiuni și Control Seria 8xxx", description: "Cutii de joncțiune și terminale seriile 8118, 8146 și 8150, din oțel inoxidabil sau poliester armat cu fibră de sticlă, pentru cablarea și distribuția semnalelor în zone Ex. Completate de dispozitive de control seriile 8040 și unități de comandă a motoarelor seria 8220, folosite pentru comanda pompelor și utilajelor din instalații clasificate." },
       { name: "Sisteme de Semnalizare YODALEX 3", description: "Sisteme de semnalizare vizuală și sonoră certificate pentru zone Ex, folosite ca alarme de proces sau avertizoare de urgență pe platforme industriale. Se completează cu luminile de navigație TRANBERG, seria TEF, pentru aplicații maritime și offshore unde semnalizarea trebuie să reziste la mediul marin coroziv." }
     ],
     industries: [
@@ -228,21 +228,21 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
       { code: "8146", description: "cutie de joncțiune/terminal" },
       { code: "8150", description: "cutie de terminale, zonă Ex" },
       { code: "8040", description: "dispozitiv de control pentru zone Ex" },
-      { code: "8220", description: "motor cu pornire pentru zone Ex" },
+      { code: "8220", description: "unitate de comandă a motoarelor pentru zone Ex" },
       { code: "8537", description: "comutator de siguranță" },
       { code: "8595 miniCON", description: "conector pentru zone Ex" },
       { code: "8570", description: "priză/fișă industrială pentru zone Ex" },
       { code: "YODALEX 3", description: "sistem de semnalizare vizuală/sonoră" }
     ],
     faq: [
-      { q: "Ce produce R. STAHL?", a: "R. STAHL produce echipamente electrice certificate pentru zone cu pericol de explozie: corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de semnalizare. Compania germană, fondată în 1876, s-a specializat în protecție antiex din 1954." },
+      { q: "Ce produce R. STAHL?", a: "R. STAHL produce echipamente electrice certificate pentru zone cu pericol de explozie: corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de semnalizare. Compania germană, fondată în 1876, are un departament dedicat protecției antiex din 1954." },
       { q: "Cum aleg un echipament R. STAHL după clasificarea zonei Ex?", a: "Alegerea depinde de grupul de gaz și categoria zonei clasificate, plus tensiunea și tipul de montaj pentru corpurile de iluminat, respectiv curentul comutat pentru cutiile de control. Trimiteți-ne clasificarea zonei pentru identificarea seriei certificate potrivite." },
       { q: "Ce certificări au echipamentele R. STAHL?", a: "Producătorul menționează certificări ATEX și IECEx pentru majoritatea gamei de echipamente pentru zone Ex, standarde recunoscute internațional pentru protecție antiex în instalații industriale. Certificarea exactă diferă de la o serie la alta, motiv pentru care verificăm fișa tehnică înainte de a confirma o ofertă pentru zona dumneavoastră clasificată." },
       { q: "Livrați R. STAHL în România și cât durează?", a: "Da, furnizăm echipamente R. STAHL la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de seria și certificarea exactă cerută de proiectul dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://r-stahl.com/en/global/products/", publisher: "R. STAHL", accessed: "2026-09-25" },
       { title: "Company History", url: "https://r-stahl.com/en/global/corporate/about-us/company-history/", publisher: "R. STAHL", accessed: "2026-09-25" },
@@ -255,15 +255,15 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
     headquarters: "Berlin, Germania",
     overview: `REO este un producător german de componente pentru electronica de putere — droselii, transformatoare, rezistențe de frânare și filtre EMC — cu sediul la Berlin, unde firma Haase & REO a fost fondată la 17 august 1925. Compania operează patru locații în Germania și zece birouri la nivel mondial, cu Berlinul ca centru de competență pentru inductori și transformatoare. Gama e organizată pe familii tehnice: droselii de rețea și de motor, filtre EMC monofazate și trifazate, transformatoare toroidale și de izolare, rezistențe de frânare și traductoare de curent.
 
-Familia REOVIB acoperă controlere pentru tehnologia de transport vibrator — variatoare de frecvență seria MFS, regulatoare de unghi de fază SMART și controlere programabile RTS/MTS — folosite pentru alimentarea vibratoare a materialelor în linii de producție. REOTRON SMP oferă surse de comutare în curent continuu pentru aplicații industriale, iar seria REOWAVE aduce filtre pasive care reduc consumul energetic al sistemelor de acționare cu până la 30%, conform datelor publicate de producător. REO concurează pe segmentul de droselii și filtre EMC cu nume precum Schaffner sau Block.
+Familia REOVIB acoperă controlere pentru tehnologia de transport vibrator — variatoare de frecvență seria MFS, regulatoare de unghi de fază SMART și controlere programabile RTS/MTS — folosite pentru alimentarea vibratoare a materialelor în linii de producție. REOTRON SMP oferă surse de comutare în curent continuu pentru aplicații industriale, iar seria REOWAVE aduce filtre pasive care reduc consumul energetic al sistemelor de acționare cu până la 30%, conform datelor publicate de producător. 
 
 Pentru instalații cu variatoare de turație și sisteme UPS din România, REO înseamnă componente de filtrare și protecție a rețelei electrice acolo unde armonicele sau perturbațiile EMC ar afecta funcționarea corectă a echipamentelor din tablou.`,
     whyChoose: [
       "Peste un secol de fabricație de droselii și transformatoare, cu Berlinul drept centru de competență al grupului",
       "Gamă completă pentru electronica de putere — droselii, filtre EMC, transformatoare și rezistențe de frânare",
-      "Filtrele REOWAVE passive reduc consumul energetic al sistemelor de acționare, conform testelor producătorului",
+      "Filtrele REOWAVE pasive pot reduce consumul energetic al sistemelor de acționare, conform datelor publicate de producător",
       "Controlere REOVIB dedicate tehnologiei de transport vibrator, cu variatoare de frecvență și regulatoare de fază",
-      "Patru locații de producție în Germania, cu capacitate de proiecte inginerești personalizate"
+      "Patru locații în Germania și zece birouri la nivel mondial"
     ],
     keyProducts: [
       { name: "Droselii de Rețea și de Motor", description: "Droselii pentru limitarea curentului de scurtcircuit și filtrarea armonicelor generate de variatoarele de turație, disponibile în variante de rețea, motor și circuit intermediar. Include și droselii cu răcire lichidă pentru aplicații de putere ridicată, unde răcirea cu aer nu ar fi suficientă. Montate între rețeaua electrică sau motor și variatorul de frecvență, pentru protejarea echipamentului și reducerea perturbațiilor EMC." },
@@ -297,13 +297,13 @@ Pentru instalații cu variatoare de turație și sisteme UPS din România, REO �
     ],
     faq: [
       { q: "Ce produce REO?", a: "REO produce droselii, transformatoare, filtre EMC și rezistențe de frânare pentru electronica de putere — variatoare de turație, sisteme UPS și echipamente de tracțiune feroviară. Compania germană, fondată în 1925 la Berlin, oferă și controlere REOVIB pentru tehnologia de transport vibrator." },
-      { q: "Cum aleg o drosel sau un filtru EMC REO?", a: "Alegerea depinde de curentul nominal, tensiunea de lucru și tipul de rețea (monofazată sau trifazată) a instalației unde se montează componenta. Trimiteți-ne parametrii electrici ai variatorului sau sursei UPS pentru identificarea variantei potrivite din gama REO." },
+      { q: "Cum aleg un drosel sau un filtru EMC REO?", a: "Alegerea depinde de curentul nominal, tensiunea de lucru și tipul de rețea (monofazată sau trifazată) a instalației unde se montează componenta. Trimiteți-ne parametrii electrici ai variatorului sau sursei UPS pentru identificarea variantei potrivite din gama REO." },
       { q: "Ce face filtrul REOWAVE passive?", a: "REOWAVE passive este un filtru pasiv de armonice montat la intrarea sistemelor de acționare electrică, care corectează forma de undă a curentului absorbit din rețea. Producătorul indică o reducere a consumului energetic de până la 30% la sistemele echipate cu acest filtru." },
       { q: "Livrați REO în România și cât durează?", a: "Da, aducem componente REO la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia tehnică și parametrii electrici solicitați pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://www.reo.de/en/products", publisher: "REO AG", accessed: "2026-09-25" },
       { title: "Homepage", url: "https://www.reo.de/en/", publisher: "REO AG", accessed: "2026-09-25" }

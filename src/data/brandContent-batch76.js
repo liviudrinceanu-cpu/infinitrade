@@ -291,7 +291,7 @@ Pentru echipamentele agricole și de construcții din România, cuplele Holmbury
       "Gamă completă — cuple cu față plată, cuple rotative, multi-cuple și valve cu bilă",
       "Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului",
       "Membru în asociații de profil precum BFPA și NFPA, semn de aliniere la standardele sectorului",
-      "Rețea de distribuție extinsă în America de Nord și Europa, cu depozit dedicat în Olanda"
+      "Prezență în America de Nord din 2003 și depozit european în Olanda din 2021"
     ],
     keyProducts: [
       { name: "Cuple cu Față Plată Seria FF", description: "Cuple hidraulice cu față plată, conforme standardului ISO 16028, concepute pentru deconectare rapidă fără pierderi semnificative de ulei sau pătrundere de aer în circuit. Folosite la atașamentele interschimbabile ale excavatoarelor și încărcătoarelor, unde operatorul schimbă frecvent unealta montată pe braț." },
@@ -315,10 +315,10 @@ Pentru echipamentele agricole și de construcții din România, cuplele Holmbury
       { code: "BVC3", description: "Valvă cu bilă pentru izolarea circuitului" },
       { code: "PWC", description: "Cuplă pentru echipamente de spălare sub presiune" },
       { code: "AG", description: "Cuplă dedicată aplicațiilor agricole" },
-      { code: "STC", description: "Cuplă cu filet pentru montaj rapid" },
+      { code: "STC", description: "Cuplă cu înșurubare (Screw To Connect)" },
       { code: "SV", description: "Valvă specială pentru circuite hidraulice" },
-      { code: "PB", description: "Cuplă tip piston-bilă" },
-      { code: "Throttle Valves", description: "Valve de accelerație pentru reglarea debitului" }
+      { code: "PB", description: "Cuplă tip poppet/bilă (Poppet / Ball Type)" },
+      { code: "Throttle Valves", description: "Valve de reglare a debitului (Throttle Valves)" }
     ],
     faq: [
       { q: "Ce produce Holmbury?", a: "Holmbury fabrică cuple rapide hidraulice cu față plată, cuple rotative, multi-cuple și valve cu bilă pentru izolarea circuitului. Sediul este la Tonbridge, Marea Britanie, iar compania activează din 1982, fiind unul dintre pionierii cuplei cu față plată." },
@@ -329,8 +329,8 @@ Pentru echipamentele agricole și de construcții din România, cuplele Holmbury
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Holmbury — Home", url: "https://www.holmbury.com", publisher: "Holmbury Ltd", accessed: "2026-09-23" },
       { title: "About Holmbury", url: "https://www.holmbury.com/about", publisher: "Holmbury Ltd", accessed: "2026-09-23" },
@@ -339,23 +339,23 @@ Pentru echipamentele agricole și de construcții din România, cuplele Holmbury
   'humphrey-products': {
     name: "Humphrey Products",
     headquarters: "Kalamazoo, Michigan, SUA",
-    overview: `Humphrey Products proiectează și fabrică valve pneumatice și de control al fluidelor la Kalamazoo, Michigan, cu o istorie de peste o sută douăzeci și cinci de ani în domeniu. Gama include valve solenoide directe și pilotate, valve proporționale, valve diafragmă-poppet, valve latch și sisteme de logică pneumatică miniaturală. Pentru România putem oferta valve pneumatice pentru control de proces, automatizare medicală și echipamente de testare și măsurare.
+    overview: `Humphrey Products proiectează și fabrică valve pneumatice și de control al fluidelor la Kalamazoo, Michigan, cu o istorie de 125 de ani în domeniu. Gama include valve solenoide directe și pilotate, valve proporționale, valve diafragmă-poppet, valve latch și sisteme de logică pneumatică miniaturală. Pentru România putem oferta valve pneumatice pentru control de proces, automatizare medicală și echipamente de testare și măsurare.
 
 Compania acoperă atât valve standard pentru aer comprimat, cât și variante inerte pentru gaze speciale, folosite în analiza de laborator și instrumentația medicală. Seria de valve proporționale PV3P/PV10 (ProControl™) și seriile diafragmă-poppet 101 și B permit control fin al debitului sau presiunii, iar sistemul TAC oferă logică pneumatică miniaturală pentru automatizări fără componente electronice. În categoria valvelor pneumatice de precizie, Humphrey Products se compară cu Norgren, ambele producând valve solenoide și proporționale pentru aplicații industriale și medicale.
 
 Pentru echipamentele din România unde controlul pneumatic trebuie să fie fin și repetabil — analizoare, echipamente de testare, instrumentație de proces — gama Humphrey oferă valve dedicate acestor cerințe, dincolo de valva pneumatică standard on-off.`,
     whyChoose: [
-      "Peste o sută douăzeci și cinci de ani de experiență în valve pneumatice și de control al fluidelor",
+      "125 de ani de experiență în valve pneumatice și de control al fluidelor",
       "Gamă de valve proporționale PV3P/PV10 pentru reglarea fină a debitului sau presiunii",
       "Variante inerte de valve pentru gaze speciale, folosite în analiza de laborator",
       "Sistem de logică pneumatică miniaturală TAC, pentru automatizări fără electronică",
       "Certificare ISO 9001:2015 pentru managementul calității în producție"
     ],
     keyProducts: [
-      { name: "Valve Proporționale PV3P/PV10 (ProControl™)", description: "Valve proporționale cu acționare solenoidă sau tip stepper, pentru reglarea continuă a presiunii sau debitului dintr-un semnal electric. Folosite la echipamente de testare și măsurare unde presiunea trebuie ajustată gradual, nu doar comutată între două stări, de exemplu la bancuri de calibrare pneumatică." },
+      { name: "Valve Proporționale PV3P/PV10 (ProControl™)", description: "Valve proporționale (familia ProControl) pentru reglarea continuă a presiunii sau debitului dintr-un semnal electric. Folosite la echipamente de testare și măsurare unde presiunea trebuie ajustată gradual, nu doar comutată între două stări, de exemplu la bancuri de calibrare pneumatică." },
       { name: "Valve Diafragmă-Poppet Seria 101/B", description: "Valve solenoide cu diafragmă-poppet, în variante de 10 mm (seria 101) sau construcție standard (seria B), pentru comutarea aerului comprimat cu uzură redusă a componentelor interne. Recomandate la echipamente cu cicluri de comutare frecvente, cum ar fi mașinile de ambalat sau instrumentele de laborator." },
       { name: "Valve Latch Seria L310", description: "Valve solenoide cu reținere (latching), care mențin poziția fără consum continuu de energie electrică, utile la echipamente alimentate cu baterie sau unde consumul electric trebuie minimizat. Aplicație tipică: instrumentație portabilă și echipamente medicale de teren." },
-      { name: "Sistem de Logică Pneumatică TAC", description: "Fitinguri și componente miniaturale pentru construirea de circuite logice pneumatice (ȘI, SAU, temporizare) fără componente electronice, folosite la automatizări simple în medii unde electronica ar fi expusă la interferențe sau la mediu agresiv." }
+      { name: "Sistem de Logică Pneumatică TAC", description: "Fitinguri și componente miniaturale pentru construirea de circuite logice pneumatice fără componente electronice." }
     ],
     industries: [
       "Medical — valve pentru echipamente de diagnostic și terapie",
@@ -367,25 +367,25 @@ Pentru echipamentele din România unde controlul pneumatic trebuie să fie fin �
     infinitrade: `Furnizăm valve Humphrey Products la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru codul confirmat de producător. Datele din această pagină vin din surse publice ale producătorului, iar pentru fiecare cerere verificăm disponibilitatea exactă a seriei și a variantei (standard sau inertă) înainte de ofertă. Pentru identificare avem nevoie de codul complet al valvei sau de parametrii de presiune, debit și tensiunea de comandă folosită în echipament. Nu ținem un stoc fix pe gama de valve proporționale, fiecare configurație fiind confirmată individual la fabrică.`,
     limitation: "Nu putem confirma disponibilitatea variantelor inerte pentru gaze speciale fără o cerere punctuală la producător, întrucât acestea sunt configurate pe aplicație.",
     productCodes: [
-      { code: "PV3P", description: "Valvă proporțională ProControl, acționare solenoidă" },
-      { code: "PV10", description: "Valvă proporțională ProControl, acționare stepper" },
+      { code: "PV3P", description: "Valvă proporțională din familia ProControl" },
+      { code: "PV10", description: "Valvă proporțională din familia ProControl" },
       { code: "S390/S391", description: "Valvă proporțională inertă tip poppet" },
       { code: "CSV", description: "Valvă solenoidă pneumatică miniaturală 10/12 mm" },
       { code: "101 Series", description: "Valvă diafragmă-poppet de 10 mm" },
       { code: "B Series", description: "Valvă diafragmă-poppet, construcție standard" },
       { code: "L310", description: "Valvă solenoidă cu reținere (latching)" },
       { code: "High-Flow Poppet Valves", description: "Valve poppet pentru debit ridicat" },
-      { code: "Balanced Solenoid Valves", description: "Valve solenoide echilibrate, protecție IP67" },
+      { code: "Balanced Solenoid Valves", description: "Valve solenoide echilibrate, cu variante de protecție IP67" },
       { code: "Air Piloted Valves", description: "Valve cu acționare pneumatică pilot" },
       { code: "Manual Valves", description: "Valve pneumatice cu acționare manuală" },
       { code: "Mechanical Valves", description: "Valve pneumatice cu acționare mecanică" },
       { code: "Quick Exhaust Valves", description: "Valve de evacuare rapidă a aerului" },
       { code: "Check Valves", description: "Valve de reținere pentru circuite pneumatice" },
-      { code: "Shuttle Valves", description: "Valve șuntare pentru selecția semnalului pneumatic" },
+      { code: "Shuttle Valves", description: "Valve selectoare (shuttle) pentru selecția semnalului pneumatic" },
       { code: "TAC System", description: "Sistem de logică pneumatică miniaturală" }
     ],
     faq: [
-      { q: "Ce produce Humphrey Products?", a: "Humphrey Products fabrică valve pneumatice și de control al fluidelor — solenoide, proporționale, diafragmă-poppet și cu reținere — pentru aplicații medicale, industriale și de testare. Sediul este la Kalamazoo, Michigan, iar compania activează de peste o sută douăzeci și cinci de ani." },
+      { q: "Ce produce Humphrey Products?", a: "Humphrey Products fabrică valve pneumatice și de control al fluidelor — solenoide, proporționale, diafragmă-poppet și cu reținere — pentru aplicații medicale, industriale și de testare. Sediul este la Kalamazoo, Michigan, iar compania are o istorie de 125 de ani." },
       { q: "Cum aleg o valvă Humphrey Products după cod?", a: "Codul indică tipul constructiv: seriile PV3P/PV10 sunt proporționale, 101 și B sunt diafragmă-poppet, iar L310 e valvă cu reținere. Pentru selecția corectă trebuie confirmate presiunea, debitul și tensiunea de comandă folosite în echipament." },
       { q: "Ce echivalent au valvele proporționale Humphrey Products față de Norgren?", a: "În categoria valvelor pneumatice de precizie, Humphrey Products se compară cu Norgren, ambele oferind valve solenoide și proporționale pentru industrie și aplicații medicale. Echivalența exactă depinde de debitul, presiunea și protocolul de comandă cerute." },
       { q: "Livrați Humphrey Products în România și cât durează?", a: "Da, aducem valve Humphrey Products la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria și varianta (standard sau inertă) confirmate de producător." },
@@ -393,8 +393,8 @@ Pentru echipamentele din România unde controlul pneumatic trebuie să fie fin �
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Humphrey Products — Home", url: "https://www.humphrey-products.com", publisher: "Humphrey Products Company", accessed: "2026-09-23" },
       { title: "Products", url: "https://www.humphrey-products.com/products/", publisher: "Humphrey Products Company", accessed: "2026-09-23" },
@@ -405,7 +405,7 @@ Pentru echipamentele din România unde controlul pneumatic trebuie să fie fin �
     headquarters: "Tokyo, Japonia",
     overview: `Koganei Corporation produce componente pneumatice de automatizare la Tokyo, Japonia, cu o gamă care acoperă cilindri de aer, robo-cilindri, electrovalve, amortizoare mecanice, filtre de aer și compresoare. Compania mai are în portofoliu și glisiere ghidate miniaturale și ionizatoare pentru eliminarea electricității statice pe liniile de producție. Pentru România putem oferta cilindri pneumatici standard și de precizie, electrovalve pentru comutarea aerului comprimat și amortizoare mecanice pentru limitarea șocurilor pe linii de automatizare.
 
-Gama Koganei se împarte între componente pneumatice clasice — cilindri, electrovalve, filtre — și produse pentru mișcare controlată electric, precum robo-cilindrii și glisierele ghidate miniaturale, folosite acolo unde poziționarea trebuie să fie mai precisă decât permite un cilindru pneumatic simplu. În categoria automatizării pneumatice, Koganei se compară cu SMC, ambele oferind game largi de cilindri, electrovalve și componente conexe pentru linii de producție. Compania mai produce și ionizatoare pentru eliminarea electricității statice pe liniile de asamblare electronică.
+Gama Koganei se împarte între componente pneumatice clasice — cilindri, electrovalve, filtre — și produse pentru mișcare controlată electric, precum robo-cilindrii și glisierele ghidate miniaturale, folosite acolo unde poziționarea trebuie să fie mai precisă decât permite un cilindru pneumatic simplu. În categoria automatizării pneumatice, Koganei se compară cu SMC, ambele oferind game largi de cilindri, electrovalve și componente conexe pentru linii de producție.
 
 Pentru fabricile din România cu linii de automatizare pneumatică, gama Koganei acoperă atât componentele de bază (cilindri, electrovalve) cât și cele specializate (robo-cilindri, ionizatoare) pentru procese unde precizia sau controlul electrostatic contează.`,
     whyChoose: [
@@ -413,7 +413,7 @@ Pentru fabricile din România cu linii de automatizare pneumatică, gama Koganei
       "Electrovalve pentru comutarea aerului comprimat, compatibile cu automatizări industriale variate",
       "Amortizoare mecanice pentru limitarea șocurilor la capătul de cursă al actuatorilor",
       "Ionizatoare pentru eliminarea electricității statice, utile la liniile de asamblare electronică",
-      "Peste șase decenii de activitate în automatizarea pneumatică industrială din Japonia"
+      "Producător japonez de componente pneumatice pentru automatizare, cu sediul la Tokyo"
     ],
     keyProducts: [
       { name: "Cilindri Pneumatici", description: "Cilindri de aer standard, folosiți pentru mișcare liniară în automatizarea industrială — împingere, ridicare, poziționare pe linii de asamblare. Gamă de diametre și curse variate, alese în funcție de forța și distanța de deplasare cerute de aplicație." },
@@ -451,8 +451,8 @@ Pentru fabricile din România cu linii de automatizare pneumatică, gama Koganei
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Koganei Corporation — Home", url: "https://www.koganei.co.jp/en/", publisher: "Koganei Corporation", accessed: "2026-09-23" },
       { title: "Products", url: "https://www.koganei.co.jp/en/products/", publisher: "Koganei Corporation", accessed: "2026-09-23" },
@@ -464,14 +464,14 @@ Pentru fabricile din România cu linii de automatizare pneumatică, gama Koganei
     headquarters: "Campbellville, Ontario, Canada",
     overview: `Lubecore produce sisteme automate de ungere centralizată la Campbellville, Ontario, Canada, din 2008. Gama acoperă pompe de ungere de la unitatea compactă HP-400 Compact Chief, potrivită la echipamente mici, până la sisteme modulare progresive și multi-linie pentru utilaje cu multe puncte de ungere. Pentru România putem oferta pompe, distribuitoare progresive și consumabile (unsoare, piese de schimb) pentru sisteme de ungere automată.
 
-Producția e concentrată în Canada, spre deosebire de mulți competitori care asamblează în Asia, argument pe care compania îl folosește pentru controlul calității componentelor. Sistemul multi-linie "Spyder" e gândit ca soluție modulară, cu montaj de tip all-in-one pentru ungerea reglajelor de frână, articulațiilor și șeilor de remorcare la vehicule comerciale. În categoria ungerii centralizate automate, Lubecore se compară cu SKF Lubrication, ambele oferind pompe și distribuitoare pentru echipamente mobile și staționare.
+Producția se desfășoară în Canada, aspect pe care compania îl subliniază în prezentarea sa. Sistemul multi-linie "Spyder" e gândit ca soluție modulară, cu montaj de tip all-in-one pentru ungerea reglajelor de frână, articulațiilor și șeilor de remorcare la vehicule comerciale. În categoria ungerii centralizate automate, Lubecore se compară cu SKF Lubrication, ambele oferind pompe și distribuitoare pentru echipamente mobile și staționare.
 
 Pentru utilajele din România din construcții, minerit și transport, un sistem Lubecore elimină ungerea manuală a punctelor greu accesibile și reduce riscul de defectare din lipsă de lubrifiant la componentele critice.`,
     whyChoose: [
-      "Producție realizată în Canada, cu accent declarat pe controlul calității componentelor",
+      "Producție realizată în Canada, aspect subliniat de producător",
       "Gamă de la pompa compactă HP-400 până la sisteme multi-linie pentru utilaje mari",
       "Sistem modular Spyder pentru ungerea simultană a mai multor tipuri de puncte critice",
-      "Sisteme personalizate (Custom AutoLube) pentru configurații specifice de utilaj",
+      "Sisteme de ungere automată, unsori și piese de schimb în aceeași gamă",
       "Gamă de industrii deservite variată, de la agricultură la porturi și terminale"
     ],
     keyProducts: [
@@ -495,9 +495,9 @@ Pentru utilajele din România din construcții, minerit și transport, un sistem
       { code: "Modular Progressive 2kg", description: "Sistem progresiv cu rezervor de 2 kg" },
       { code: "Modular Progressive 4kg (EP2)", description: "Sistem progresiv cu rezervor de 4 kg" },
       { code: "Multi-Line Spyder", description: "Sistem modular all-in-one de 4 kg" },
-      { code: "EP0 Pneumatic Pump", description: "Pompă pneumatică automată de ungere" },
+      
       { code: "Automated Lubrication Systems", description: "Categorie generală de sisteme de ungere automată" },
-      { code: "Custom AutoLube Systems", description: "Sisteme de ungere personalizate pe utilaj" },
+      
       { code: "Grease (Lubecore)", description: "Unsoare pentru sisteme de ungere automată" },
       { code: "Parts (Lubecore)", description: "Piese de schimb pentru pompe și distribuitoare" }
     ],
@@ -510,8 +510,8 @@ Pentru utilajele din România din construcții, minerit și transport, un sistem
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Lubecore — Home", url: "https://www.lubecore.com", publisher: "Lubecore International", accessed: "2026-09-23" },
       { title: "Automated Lubrication Systems", url: "https://www.lubecore.com/automated-lubrication-systems/", publisher: "Lubecore International", accessed: "2026-09-23" },
@@ -521,7 +521,7 @@ Pentru utilajele din România din construcții, minerit și transport, un sistem
     name: "Mindman",
     founded: 1979,
     headquarters: "Taipei, Taiwan",
-    overview: `Mindman produce echipamente pneumatice de automatizare la Taipei, Taiwan, din 1979, cu o gamă ce acoperă electrovalve, cilindri, actuatori electrici, regulatoare electro-pneumatice și fitinguri pentru tuburi. Compania a primit recent distincții de design industrial pentru unele produse din gama de actuatori electrici. Pentru România putem oferta electrovalve compacte cu acționare directă, actuatori electrici liniari și de tip gripper, plus fitinguri și tuburi din seria PISCO.
+    overview: `Mindman produce echipamente pneumatice de automatizare la Taipei, Taiwan, din 1979, cu o gamă ce acoperă electrovalve, cilindri, actuatori electrici, regulatoare electro-pneumatice și fitinguri pentru tuburi. Compania a primit distincții în 2024–2025: iF Design Award și MUSE Design Awards pentru designul interior al fabricii Pei-men, iar actuatorul electric compact MEJQ a primit în 2025 premiul Energy Efficiency Award (aur). Pentru România putem oferta electrovalve compacte cu acționare directă, actuatori electrici liniari și de tip gripper, plus fitinguri și tuburi pneumatice (categoria „Fittings & Tube”, PISCO).
 
 Compania a extins gama pneumatică clasică cu o linie de actuatori electrici — actuator compact MEJQZ cu motor integrat, actuatoare cu ghidaj dublu MEGSZ/MEGS și slider electric METI — pentru aplicații unde poziționarea trebuie controlată electric, nu doar pneumatic. Regulatoarele electro-pneumatice MAER100/MAER110 și presostatul de înaltă performanță MP48E completează gama pentru controlul precis al presiunii. În categoria echipamentelor pneumatice de automatizare, Mindman se compară cu Airtac, ambele oferind game largi de electrovalve, cilindri și componente conexe pentru linii industriale.
 
@@ -530,9 +530,9 @@ Pentru fabricile din România cu automatizare pneumatică sau electro-pneumatic�
       "Gamă completă de electrovalve, cilindri, actuatori electrici și fitinguri pentru automatizare",
       "Actuatori electrici MEJQZ/MEGSZ/METI pentru poziționare controlată electric, nu doar pneumatic",
       "Regulatoare electro-pneumatice MAER pentru controlul precis al presiunii în circuit",
-      "Fitinguri și tuburi din seria PISCO, compatibile cu instalații pneumatice existente",
+      "Fitinguri și tuburi pneumatice PISCO, în categoria „Fittings & Tube” a catalogului Mindman",
       "Peste patru decenii de activitate în automatizarea pneumatică industrială din Taiwan",
-      "Distincții recente de design industrial (iF Design Award, MUSE Design Awards) pentru gama de actuatori"
+      "Distincții recente: iF Design Award și MUSE Design Awards (design interior al fabricii Pei-men) și Energy Efficiency Award 2025 pentru actuatorul compact MEJQ"
     ],
     keyProducts: [
       { name: "Electrovalve MVDA", description: "Electrovalve compacte cu acționare directă, pentru comutarea aerului comprimat în circuite pneumatice de automatizare. Construcție compactă, potrivită la panouri de valve cu spațiu limitat, unde numărul de electrovalve montate pe aceeași bară contează pentru dimensiunea dulapului." },
@@ -559,7 +559,7 @@ Pentru fabricile din România cu automatizare pneumatică sau electro-pneumatic�
       { code: "MAER100", description: "Regulator electro-pneumatic de presiune" },
       { code: "MAER110", description: "Regulator electro-pneumatic, variantă extinsă" },
       { code: "MP48E", description: "Presostat de înaltă performanță" },
-      { code: "PISCO", description: "Serie de fitinguri și tuburi pneumatice" },
+      { code: "PISCO", description: "Fitinguri și tuburi pneumatice (marca PISCO, categoria „Fittings & Tube”)" },
       { code: "Cilindri Pneumatici (Mindman)", description: "Cilindri pneumatici pentru automatizare industrială" },
       { code: "Componente Vacuum", description: "Componente pentru circuite de vid industrial" },
       { code: "Senzori (Mindman)", description: "Senzori pentru poziție și presiune în automatizare" },
@@ -567,15 +567,15 @@ Pentru fabricile din România cu automatizare pneumatică sau electro-pneumatic�
     ],
     faq: [
       { q: "Ce produce Mindman?", a: "Mindman fabrică echipamente pneumatice de automatizare — electrovalve, cilindri, actuatori electrici, regulatoare electro-pneumatice și fitinguri. Sediul este la Taipei, Taiwan, iar compania activează din 1979 în acest domeniu." },
-      { q: "Cum aleg un actuator electric Mindman pentru aplicația mea?", a: "Trebuie confirmate cursa necesară, forța de sarcină (axială sau laterală) și protocolul de comandă folosit în automatizare. Pentru sarcini laterale se recomandă seriile cu ghidaj dublu MEGSZ/MEGS, nu actuatorul compact MEJQZ." },
+      { q: "Cum aleg un actuator electric Mindman pentru aplicația mea?", a: "Trebuie confirmate cursa necesară, forța de sarcină (axială sau laterală) și protocolul de comandă folosit în automatizare. Alegerea seriei (MEJQZ, MEGSZ/MEGS sau METI) se confirmă pe baza sarcinii și a cursei, din documentația producătorului." },
       { q: "Ce echivalent are gama Mindman față de Airtac?", a: "În categoria echipamentelor pneumatice de automatizare, Mindman se compară cu Airtac, ambele oferind electrovalve, cilindri și componente conexe pentru linii industriale. Alegerea corectă a înlocuitorului ține de presiunea de lucru, cursa cerută și tensiunea bobinei electrovalvei." },
       { q: "Livrați Mindman în România și cât durează?", a: "Da, aducem electrovalve, actuatori și fitinguri Mindman la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de codul cerut și de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru ofertă la componente Mindman?", a: "Trimiteți codul complet de pe componenta existentă sau parametrii de presiune, cursă și tensiunea de comandă din automatizare. Pentru actuatorii electrici precizați și protocolul de comunicare folosit de sistemul de control." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Mindman Industrial — Home", url: "https://www.mindman.com.tw", publisher: "Mindman Industrial Co., Ltd.", accessed: "2026-09-23" },
       { title: "Product Categories", url: "https://www.mindman.com.tw/product.html", publisher: "Mindman Industrial Co., Ltd.", accessed: "2026-09-23" },
