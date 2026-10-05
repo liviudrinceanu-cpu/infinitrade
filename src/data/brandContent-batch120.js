@@ -4,21 +4,21 @@ export const brandContentBatch120 = {
   'barmesa-pumps': {
     name: "Barmesa Pumps",
     headquarters: "Statele Unite",
-    overview: `Barmesa Pumps este un producător american de pompe, aflat în proprietate privată de familie, cu peste 70 de ani de activitate în fabricarea de echipamente pentru vehicularea apei și a fluidelor cu conținut solid. Compania produce pompe submersibile pentru nămol, pompe pentru manipularea solidelor și pompe de epuisment, folosite în aplicații marine, municipale, industriale, de construcții și de irigații. Gama acoperă motoare submersibile de la sub 1 CP până la 50 CP, la turații de 1750 sau 3450 rpm, dimensionate pentru fluide cu particule abrazive sau vâscoase.
+    overview: `Barmesa Pumps este un producător de pompe, aflat în proprietate privată de familie, cu peste 70 de ani de activitate în fabricarea de echipamente pentru vehicularea apei și a fluidelor cu conținut solid. Compania produce pompe submersibile pentru nămol, pompe pentru manipularea solidelor și pompe de epuisment, folosite în aplicații marine, municipale, industriale, de construcții și de irigații. Gama acoperă motoare submersibile de la sub 1 CP până la 50 CP, la turații de 1750 sau 3450 rpm, dimensionate pentru fluide cu particule abrazive sau vâscoase.
 
-Spre deosebire de un competitor precum Franklin Electric, cunoscut mai ales pentru pompe submersibile de apă curată și hidrofor, Barmesa își concentrează gama pe fluide dificile — nămol, ape uzate brute și lichide cu solide în suspensie. Seriile KMUD și KAG acoperă pomparea nămolului la turații joase și, respectiv, la turații ridicate, în funcție de debitul și înălțimea de pompare necesare. Seriile BSE/HLDS sunt gândite pentru particule solide mai mari, tipic din apele uzate brute municipale, iar seria AHS acoperă epuismentul de capacitate mică.
+Barmesa își concentrează gama pe fluide dificile — nămol, ape uzate brute și lichide cu solide în suspensie. Seriile KMUD și KAG acoperă pomparea nămolului la turații joase și, respectiv, la turații ridicate, în funcție de debitul și înălțimea de pompare necesare. Seriile BSE/HLDS sunt gândite pentru particule solide mai mari, tipic din apele uzate brute municipale, iar seria AHS acoperă epuismentul de capacitate mică.
 
 Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robuste pentru situații unde o pompă centrifugă uscată nu poate fi montată — cămine de pompare, bazine de decantare, șantiere temporare și stații de epurare de mici dimensiuni, unde fluidul conține nisip sau reziduuri solide.`,
     whyChoose: [
       "Serii KMUD și KAG pentru nămol, cu motoare submersibile de la 3 la 50 CP, la 1750 sau 3450 rpm",
       "Seria BSE/HLDS pentru particule solide mai mari, tipice apelor uzate brute municipale",
       "Seria AHS de epuisment de capacitate mică, de la 0,5 la 2 CP, cu refulare de 2 țoli",
-      "Fabricație americană, cu peste 70 de ani de experiență în pompe pentru fluide dificile"
+      "Companie privată de familie, cu peste 70 de ani de experiență în pompe pentru fluide dificile"
     ],
     keyProducts: [
       {
         name: "Pompe Submersibile pentru Nămol Seria KMUD",
-        description: "Pompe submersibile pentru nămol, disponibile în variante de la 8 CP la 1750 rpm până la 50 CP la aceeași turație, conform fișelor tehnice publicate de producător. Construcția submersibilă permite montarea directă în bazine de decantare sau cămine de pompare, fără o cameră tehnică separată. Turația joasă de 1750 rpm favorizează debite mari la o uzură mai redusă a componentelor umede, utilă în aplicații municipale continue."
+        description: "Pompe submersibile pentru nămol, disponibile în mai multe puteri, la turația de 1750 rpm, conform fișelor tehnice publicate de producător. Construcția submersibilă permite montarea directă în bazine de decantare sau cămine de pompare, fără o cameră tehnică separată. Turația joasă de 1750 rpm favorizează debite mari la o uzură mai redusă a componentelor umede, utilă în aplicații municipale continue."
       },
       {
         name: "Pompe Submersibile Ușoare pentru Nămol Seria KAG",
@@ -61,15 +61,15 @@ Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robus
     ],
     faq: [
       { q: "Ce tipuri de pompe produce Barmesa Pumps?", a: "Barmesa Pumps produce pompe submersibile pentru nămol (seriile KMUD și KAG), pompe pentru manipularea solidelor (seria BSE/HLDS) și pompe de epuisment de capacitate mică (seria AHS), toate cu motor submersibil răcit de fluidul vehiculat." },
-      { q: "Cum aleg între seria KMUD și seria KAG de la Barmesa?", a: "KMUD acoperă puteri mai mari, de la 8 la 50 CP la 1750 rpm, pentru debite mari și funcționare continuă, iar KAG oferă variante mai mici, de 3–5 CP la 3450 rpm, potrivite pentru bazine reduse sau aplicații temporare de șantier." },
+      { q: "Cum aleg între seria KMUD și seria KAG de la Barmesa?", a: "KMUD acoperă puteri mai mari, la 1750 rpm, pentru debite mari și funcționare continuă, iar KAG oferă variante mai mici, de 3–5 CP la 3450 rpm, potrivite pentru bazine reduse sau aplicații temporare de șantier." },
       { q: "Livrați pompe Barmesa Pumps în România și cât durează?", a: "Aducem la comandă modele Barmesa prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea confirmată de producător pentru modelul cerut." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de pompă Barmesa?", a: "Pentru o ofertă corectă avem nevoie de tipul de fluid vehiculat (nămol, solide sau apă limpede), debitul și înălțimea de pompare estimate, diametrul racordului de refulare și tensiunea de alimentare disponibilă la punctul de montaj." },
       { q: "Ce diferență e între seria BSE/HLDS și seria AHS de la Barmesa?", a: "BSE/HLDS este dimensionată pentru solide mai mari, tipice apelor uzate brute municipale, în timp ce AHS este o gamă mică de epuisment, de 0,5–2 CP, pentru apă limpede sau ușor încărcată din excavații și subsoluri." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Barmesa Pumps US — Home", url: "https://www.barmesapumps.com/US/", publisher: "Barmesa Pumps", accessed: "2026-09-26" },
       { title: "SUBMERSIBLE LIGHT SLURRY PUMP Series: KAG Model: 4KAG503 / 504", url: "https://www.barmesapumps.com/US/products/pdfs/us_datasheet_4kag5.pdf", publisher: "Barmesa Pumps", accessed: "2026-09-26" },
@@ -80,15 +80,15 @@ Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robus
     name: "Matra",
     founded: 1959,
     headquarters: "Nonantola, Italia",
-    overview: `Matra S.p.A. este un producător italian de electropompe, cu activitate începută în 1959, când Alberto Soncini a pornit fabricarea de pompe la Nonantola, în provincia Modena. Astăzi compania produce electropompe de suprafață și submersibile, grupuri de presurizare pentru uz civil și pentru stingerea incendiilor, pompe de circulație pentru apă caldă și sanitară și sisteme de climatizare, cu certificare ISO 9001 pentru managementul calității. Gama acoperă mai multe familii de produse, de la pompe periferice și centrifuge de uz general până la pompe submersibile și autoamorsante.
+    overview: `Matra S.p.A. este un producător italian de electropompe, cu activitate începută în 1959, când Alberto Soncini a pornit fabricarea de pompe la Nonantola, în provincia Modena. Astăzi compania produce electropompe de suprafață și submersibile, grupuri de presurizare pentru uz civil și pentru stingerea incendiilor, pompe de circulație și invertere pentru optimizarea energiei, cu certificare ISO 9001 pentru managementul calității. Gama acoperă mai multe familii de produse, de la pompe periferice și centrifuge de uz general până la pompe submersibile și autoamorsante.
 
-Față de un concurent precum Calpeda, prezent și el pe segmentul pompelor de uz civil și industrial ușor, Matra își organizează oferta pe categorii clare: seria DTR și seria VORTINOX/S pentru pompe cu funcționare pe fluide cu conținut de solide sau vortex, seria DP/DPV și seria MAGIKA pentru presurizare, alături de familiile Bisenso, Sommerse (submersibile), Autoadescanti (autoamorsante) și Gruppi Antincendio (grupuri de stingere incendiu). Compania publică fișe tehnice de eficiență energetică pentru fiecare serie, conform directivelor europene aplicabile pompelor electrice.
+Matra își organizează oferta pe familii de produse: seriile DTR, VORTINOX/S, DP/DPV și MAGIKA (caracteristicile lor se confirmă pe cod, din documentația producătorului), alături de familiile Bisenso, Sommerse (submersibile), Autoadescanti (autoamorsante) și Gruppi Antincendio (grupuri de stingere incendiu). Compania publică fișe tehnice de eficiență energetică pentru fiecare serie, conform directivelor europene aplicabile pompelor electrice.
 
 Pentru piața din România, Matra înseamnă acces la o gamă italiană largă de pompe de uz civil, de la presurizarea apei într-un imobil până la circuite de stingere incendiu sau evacuarea apei dintr-un subsol inundat, acolo unde clientul are nevoie de o soluție standard, nu de un utilaj industrial supradimensionat.`,
     whyChoose: [
       "Gamă italiană largă, de la pompe periferice la grupuri de presurizare și stingere incendiu",
       "Serie dedicată DP/DPV și MAGIKA pentru presurizarea apei civile și sanitare",
-      "Serie VORTINOX/S cu rotor de tip vortex pentru fluide cu conținut de solide",
+      "Serie VORTINOX/S, cu caracteristici confirmate pe cod",
       "Certificare ISO 9001 pentru sistemul de management al calității în fabricație",
       "Familii Autoadescanti și Sommerse pentru golirea și transferul apei din bazine sau subsoluri"
     ],
@@ -107,23 +107,23 @@ Pentru piața din România, Matra înseamnă acces la o gamă italiană largă d
       },
       {
         name: "Pompe cu Rotor Vortex Seria VORTINOX/S",
-        description: "Seria VORTINOX/S folosește un rotor de tip vortex, care lasă un spațiu liber între rotor și fluidul vehiculat, reducând contactul direct cu particulele solide din apă, conform fișei tehnice publicate de producător. Această construcție este utilă pentru ape uzate ușor încărcate sau pentru fluide cu conținut ocazional de nisip și reziduuri fine, unde o pompă centrifugă standard s-ar putea colmata mai repede."
+        description: "Seria VORTINOX/S este o serie din gama Matra; construcția și domeniul de utilizare se confirmă pe codul exact, din documentația producătorului."
       }
     ],
     industries: [
       "Rezidențial și administrare clădiri — presurizare apă cu seriile DP/DPV și MAGIKA",
       "Stingere incendiu — grupuri dedicate din familia Gruppi Antincendio",
       "Construcții — golire subsoluri și excavații cu pompe submersibile Sommerse",
-      "HVAC — circulație apă caldă și sanitară, climatizare",
+      "HVAC — pompe de circulație",
       "Utilități locale — transfer apă cu conținut moderat de solide, seria VORTINOX/S"
     ],
     infinitrade: `Pentru gama Matra lucrăm din surse publice ale producătorului: nu avem raft propriu pentru aceste electropompe, dar le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă avem nevoie de aplicație (presurizare, transfer submersibil, autoamorsare sau stingere incendiu), debitul și presiunea necesare și tensiunea de alimentare disponibilă. Pentru grupurile de presurizare complexe, cu automatizare și rezervor, recomandăm confirmarea configurației exacte direct cu producătorul înainte de finalizarea ofertei, mai ales la proiecte cu mai multe puncte de consum.`,
     limitation: "Nu confirmăm configurația automatizărilor pentru grupurile de presurizare complexe fără o verificare punctuală cu producătorul, la fiecare proiect în parte.",
     productCodes: [
-      { code: "Serie DTR", description: "familie de electropompe Matra pentru fluide cu conținut de solide" },
+      { code: "Serie DTR", description: "familie de electropompe Matra; detalii pe cod" },
       { code: "Serie MAGIKA", description: "grup de presurizare pentru apă civilă și sanitară" },
       { code: "Serie DP/DPV", description: "grup de presurizare cu variante DP și DPV" },
-      { code: "Serie VORTINOX/S", description: "pompă cu rotor vortex pentru fluide cu solide" },
+      { code: "Serie VORTINOX/S", description: "serie de electropompe Matra; detalii pe cod" },
       { code: "Elettropompe Bisenso", description: "familie de electropompe de uz general" },
       { code: "Elettropompe Sommerse", description: "electropompe submersibile pentru puțuri și bazine" },
       { code: "Elettropompe Autoadescanti", description: "electropompe autoamorsante, reiau amorsarea automat" },
@@ -133,16 +133,16 @@ Pentru piața din România, Matra înseamnă acces la o gamă italiană largă d
       { code: "Pompe Periferice", description: "electropompe periferice de uz casnic și civil" }
     ],
     faq: [
-      { q: "Ce produce Matra din Italia?", a: "Matra produce electropompe de suprafață și submersibile, grupuri de presurizare pentru apă civilă și stingere incendiu, pompe de circulație pentru apă caldă și sisteme de climatizare, fabricate la Nonantola, în Italia, sub certificare ISO 9001." },
+      { q: "Ce produce Matra din Italia?", a: "Matra produce electropompe de suprafață și submersibile, grupuri de presurizare pentru apă civilă și stingere incendiu, pompe de circulație, fabricate la Nonantola, în Italia, sub certificare ISO 9001." },
       { q: "Ce diferență e între seria Sommerse și seria Autoadescanti de la Matra?", a: "Sommerse cuprinde pompele submersibile, montate direct în puț sau bazin, în timp ce Autoadescanti sunt pompe de suprafață care reiau singure amorsarea după o golire parțială, fără intervenție manuală la pornire." },
       { q: "Livrați electropompe Matra în România și cât durează?", a: "Aducem electropompe Matra la comandă prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de seria și configurația cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de grup de presurizare Matra?", a: "Pentru o ofertă corectă avem nevoie de numărul de puncte de consum sau apartamente deservite, debitul de vârf estimat, presiunea necesară la robinet și tensiunea de alimentare disponibilă în centrala termică." },
-      { q: "Ce este seria VORTINOX/S de la Matra?", a: "VORTINOX/S este seria de pompe cu rotor vortex a Matra, gândită pentru fluide cu conținut ocazional de solide, unde rotorul nu intră în contact direct cu particulele, reducând riscul de colmatare față de o pompă centrifugă standard." }
+      { q: "Ce este seria VORTINOX/S de la Matra?", a: "VORTINOX/S este o serie din gama Matra; construcția și domeniul de utilizare se confirmă pe codul exact, din documentația producătorului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Matra S.p.a. — Company", url: "https://www.matra.it/en/company/", publisher: "Matra S.p.A.", accessed: "2026-09-26" },
       { title: "Matra S.p.a. — Products", url: "https://www.matra.it/en/products/", publisher: "Matra S.p.A.", accessed: "2026-09-26" },
@@ -154,7 +154,7 @@ Pentru piața din România, Matra înseamnă acces la o gamă italiană largă d
     headquarters: "Bergen, New York, Statele Unite",
     overview: `Liberty Pumps este un producător american de pompe submersibile pentru ape uzate, efluent și epuisment, cu sediul la Bergen, în statul New York. Compania se descrie drept o afacere deținută de familie și de angajați, care fabrică peste 90% din produse pe teritoriul SUA, sub certificare ISO 9001. Gama acoperă pompe de canal (sump), pompe de efluent, pompe de canalizare (sewage), pompe tocătoare (grinder) și panouri de control asociate, pentru aplicații rezidențiale și comerciale ușoare.
 
-Spre deosebire de un concurent precum Zenit, orientat mai mult spre segmentul industrial și municipal de mari dimensiuni, Liberty Pumps își structurează oferta pe game dedicate fiecărei aplicații casnice sau comerciale: seriile 230/240/250 pentru drenaj de subsol, seriile 280/290 pentru efluent și subsol cu solide mai mari, seriile LE50/LE100 și FL30/FL60/FL100/XFL50 pentru canalizare și efluent submersibil, și seria LGV07/LGH07 pentru tocarea reziduurilor înainte de refulare. Fiecare serie are fișe tehnice separate, cu putere, racord de refulare și capacitate de trecere a solidelor.
+Liberty Pumps își structurează oferta pe game dedicate fiecărei aplicații casnice sau comerciale: seriile 230/240/250 pentru drenaj de subsol, seriile 280/290 pentru efluent și subsol cu solide mai mari, seriile LE50/LE100 și FL30/FL60/FL100/XFL50 pentru canalizare și efluent submersibil, și seria LGV07/LGH07 pentru tocarea reziduurilor înainte de refulare. Fiecare serie are fișe tehnice separate, cu putere, racord de refulare și capacitate de trecere a solidelor.
 
 Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile de capacitate mică și medie pentru locuințe și clădiri comerciale — drenaj de subsol, evacuare efluent din fose septice sau sisteme de canalizare cu pompare, acolo unde clientul are nevoie de o soluție standardizată, ușor de întreținut, nu de un utilaj municipal supradimensionat.`,
     whyChoose: [
@@ -166,15 +166,15 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
     keyProducts: [
       {
         name: "Pompe de Drenaj Subsol Seriile 230/240/250",
-        description: "Seriile 230, 240 și 250 acoperă pompele de drenaj de subsol de capacitate mică, de la 1/4 la 1/3 CP, cu racord de refulare de 1½ țoli, conform fișelor tehnice publicate de producător. Seria 230 are variante 231, 233 și 237, ultima cu întrerupător de nivel propriu. Carcasa motorului este din aluminiu nervurat, iar baza din polipropilenă, cu rotor de tip vortex, pentru bazine de colectare rezidențiale."
+        description: "Seriile 230, 240 și 250 acoperă pompele de drenaj de subsol de capacitate mică, de la 1/4 la 1/3 CP, cu racord de refulare de 1½ țoli, conform fișelor tehnice publicate de producător. Seria 230 are variante 231, 233 și 237, ultima cu întrerupător de nivel propriu. Seria 250 are carcasă din fontă cu acoperire de pulbere; materialele celorlalte serii se confirmă pe cod. Rotorul este de tip vortex, pentru bazine de colectare rezidențiale."
       },
       {
         name: "Pompe de Efluent Seriile 280/290",
-        description: "Seriile 280 și 290 sunt pompe submersibile de efluent și subsol, de 1/2 și, respectiv, 3/4 CP, cu carcasă dintr-o singură piesă de fontă și racord de refulare de 1½ țoli, conform fișelor tehnice publicate. Seria 280 are variante 281, 283 și 287. Sunt destinate sistemelor de tip STEP, câmpurilor de infiltrare (mound) și transferului de lichid rezidual."
+        description: "Seria 280 este o pompă submersibilă de efluent și subsol de 1/2 CP, cu carcasă dintr-o singură piesă de fontă și racord de refulare de 1½ țoli, conform fișei tehnice publicate; datele seriei 290 se confirmă pe cod. Seria 280 are variante 281, 283 și 287. Sunt destinate sistemelor de tip STEP, câmpurilor de infiltrare (mound) și transferului de lichid rezidual."
       },
       {
         name: "Pompe de Canalizare Submersibile Seriile LE50/LE100",
-        description: "Seriile LE50 și LE100 sunt pompe submersibile de canalizare de 1/2 și, respectiv, 1 CP, cu racord de refulare de 2 țoli, conform fișelor tehnice publicate de producător. Construcția este din fontă de grad comercial, cu șuruburi din inox și cordon de alimentare cu conectare rapidă, pentru pomparea apei menajere spre o rețea sau o fosă amplasată mai sus."
+        description: "Seriile LE50 și LE100 sunt pompe submersibile de canalizare de 1/2 și, respectiv, 1 CP; seria LE100 are racord de refulare de 2 sau 3 țoli și trecere de solide de până la 2 țoli, conform fișei publicate de producător. Construcția este din fontă grea cu acoperire epoxidică, cu șuruburi din inox și cordon de alimentare cu conectare rapidă, pentru pomparea apei menajere spre o rețea sau o fosă amplasată mai sus."
       },
       {
         name: "Pompă Tocătoare Seria LGV07/LGH07",
@@ -192,11 +192,11 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
     limitation: "Nu putem confirma compatibilitatea panourilor de control SX/AE cu instalații electrice existente fără o verificare punctuală a schemei electrice a clientului.",
     productCodes: [
       { code: "230-Series", description: "pompă de drenaj subsol, 1/3 CP, refulare 1½ țoli" },
-      { code: "240-Series", description: "pompă de drenaj subsol, 1/4 CP, carcasă fontă" },
+      { code: "240-Series", description: "pompă de drenaj subsol, 1/4 CP" },
       { code: "250-Series", description: "pompă de drenaj/efluent, 1/3 CP, carcasă fontă" },
       { code: "280-Series", description: "pompă de efluent/subsol, 1/2 CP, refulare 1½ țoli" },
       { code: "290-Series", description: "pompă de efluent/subsol, 3/4 CP, carcasă fontă" },
-      { code: "LE50-Series", description: "pompă submersibilă de canalizare, 1/2 CP, refulare 2 țoli" },
+      { code: "LE50-Series", description: "pompă submersibilă de canalizare, 1/2 CP" },
       { code: "LE100-Series", description: "pompă submersibilă de canalizare, 1 CP, refulare 2–3 țoli" },
       { code: "FL30-Series", description: "pompă submersibilă de efluent, 1/3 CP" },
       { code: "FL60-Series", description: "pompă de efluent de gamă medie, 6/10 CP" },
@@ -217,8 +217,8 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Liberty Pumps — About Us", url: "https://www.libertypumps.com/en-us/wp/dom/About-Us", publisher: "Liberty Pumps Inc.", accessed: "2026-09-26" },
       { title: "LE100-Series 1 hp Submersible Sewage Pumps", url: "https://www.libertypumps.com/en-us/wp/dom/Products/le100-series", publisher: "Liberty Pumps Inc.", accessed: "2026-09-26" },
@@ -231,9 +231,9 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
     headquarters: "Esbjerg N, Danemarca",
     overview: `Belman A/S este un producător danez de compensatoare de dilatare (burdufuri metalice) și furtunuri metalice flexibile, cu sediul la Esbjerg N, în vestul Danemarcei, fondat în 1994. Compania are filiale suplimentare în Marea Britanie și India și fabrică, pe lângă compensatoarele metalice, și compensatoare din cauciuc și din țesătură. Gama de compensatoare metalice acoperă dimensiuni de la DN 15 până la DN 12.000, presiuni de la vid complet până la 150 bar și temperaturi de lucru între -256°C și +1000°C, în oțeluri inoxidabile și aliaje speciale.
 
-Față de un concurent precum Witzenmann, cunoscut pentru o gamă largă de burdufuri și furtunuri metalice de uz general, Belman se diferențiază prin numărul mare de tipuri constructive dedicate unor mișcări specifice ale conductei: axial, lateral, angular, universal, cu echilibrare de presiune (pressure balanced), cu inele de consolidare (ring reinforced), în cot (elbow pressure balanced) și cu manta de izolare (jacketed). Producătorul declară peste 900.000 de compensatoare instalate la nivel global, în industrii cu cerințe severe de temperatură și presiune.
+Belman oferă un număr mare de tipuri constructive dedicate unor mișcări specifice ale conductei: axial, lateral, angular, universal, cu echilibrare de presiune (pressure balanced), cu inele de consolidare (ring reinforced), în cot (elbow pressure balanced) și cu manta de izolare (jacketed). Producătorul declară peste 900.000 de compensatoare instalate la nivel global, în industrii cu cerințe severe de temperatură și presiune.
 
-Pentru piața din România, Belman înseamnă acces la compensatoare metalice pentru conducte unde dilatarea termică sau vibrațiile ar deteriora o îmbinare rigidă — circuite de abur, gaze de ardere, linii criogenice sau conducte de proces la temperaturi extreme, acolo unde o soluție standard de rafturi nu acoperă parametrii ceruți.`,
+Pentru piața din România, Belman înseamnă acces la compensatoare metalice pentru conducte unde dilatarea termică sau vibrațiile ar deteriora o îmbinare rigidă — circuite de abur, gaze de ardere, linii criogenice sau conducte de proces la temperaturi extreme, acolo unde o soluție standard de raft nu acoperă parametrii ceruți.`,
     whyChoose: [
       "Gamă de dimensiuni de la DN 15 la DN 12.000, pentru conducte de la instalații mici la mari",
       "Presiuni de lucru de la vid complet până la 150 bar, în funcție de tipul constructiv",
@@ -265,7 +265,7 @@ Pentru piața din România, Belman înseamnă acces la compensatoare metalice pe
       "Industrie criogenică — compensatoare pentru temperaturi de până la -256°C",
       "Siderurgie — burdufuri pentru conducte expuse la variații termice mari"
     ],
-    infinitrade: `Lucrăm cu Belman din surse publice ale producătorului, fără date proprii de stoc pentru aceste compensatoare: le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul constructiv și de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul conductei, presiunea și temperatura de lucru, tipul de mișcare de preluat (axială, laterală, angulară sau combinată) și fluidul vehiculat, pentru alegerea materialului burdufului. Nu promitem un compensator standard „de pe raft" pentru dimensiuni mari sau condiții extreme — majoritatea sunt proiectate pe caz, la cererea clientului final.`,
+    infinitrade: `Lucrăm cu Belman din surse publice ale producătorului, fără date proprii de stoc pentru aceste compensatoare: le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul constructiv și de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul conductei, presiunea și temperatura de lucru, tipul de mișcare de preluat (axială, laterală, angulară sau combinată) și fluidul vehiculat, pentru alegerea materialului burdufului. Nu promitem un compensator standard „de pe raft” pentru dimensiuni mari sau condiții extreme — majoritatea sunt proiectate pe caz, la cererea clientului final.`,
     limitation: "Nu putem confirma un termen de livrare exact pentru compensatoarele proiectate special pe dimensiuni sau presiuni ieșite din gama standard, fără o ofertă tehnică prealabilă de la producător.",
     productCodes: [
       { code: "Axial", description: "compensator pentru dilatare longitudinală a conductei" },
@@ -298,8 +298,8 @@ Pentru piața din România, Belman înseamnă acces la compensatoare metalice pe
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Belman — Expansion Joints & Metallic Hoses", url: "https://www.belman.com/", publisher: "Belman A/S", accessed: "2026-09-26" },
       { title: "Belman — Expansion Joints", url: "https://www.belman.com/expansion-joints/", publisher: "Belman A/S", accessed: "2026-09-26" },

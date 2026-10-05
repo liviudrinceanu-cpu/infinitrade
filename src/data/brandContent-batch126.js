@@ -4,9 +4,9 @@ export const brandContentBatch126 = {
   masoneilan: {
     name: "Masoneilan",
     headquarters: "SUA",
-    overview: `Masoneilan este marca Baker Hughes pentru robinete de control de proces, cu origini americane și un catalog uriaș de sertare liniare și rotative pentru rafinării, petrochimie și generare de energie. Gama pe care o putem oferta pornește de la robinetele cu sertar seria 10000 (dublă trecere) și 21000 (trecere simplă), continuă cu varianta cu cușcă 41005 și cu cea pentru control pe 3 căi 80000, și include robinetele rotative Camflex seria 35002 și cele cu bilă de control V-Max seria 36005. Toate sunt gândite pentru bucle de reglare unde precizia de poziționare contează la fel de mult ca etanșeitatea la închidere.
+    overview: `Masoneilan este marca Baker Hughes pentru robinete de control de proces, cu origini americane și o gamă de robinete de control liniare și rotative pentru rafinării, petrochimie și generare de energie. Gama pe care o putem oferta pornește de la robinetele cu sertar seria 10000 (dublă trecere) și 21000 (trecere simplă), continuă cu varianta cu cușcă 41005 și cu cea pentru control pe 3 căi 80000, și include robinetele rotative Camflex seria 35002 și cele cu bilă de control V-Max seria 36005. Toate sunt gândite pentru bucle de reglare unde precizia de poziționare contează la fel de mult ca etanșeitatea la închidere.
 
-Ce diferențiază Masoneilan e acoperirea servicii-severe: seria 49000 V-LOG reduce zgomotul și cavitația la căderi mari de presiune, iar 84000 SteamForm condiționează aburul prin desupraîncălzire și reducere de presiune simultan, ambele pe 4"–36" (100–900 mm) și clase ANSI 150–2500. Seria 21000 acoperă un domeniu mai mic, 3/4"–8" (20–200 mm), tot pe clase ANSI 150–2500. Complementar, marca produce poziționere digitale (SVI3, SVI II AP), actuatoare pneumatice și regulatoare de presiune, deci bucla poate fi acoperită dintr-o singură sursă.
+Ce diferențiază Masoneilan e acoperirea servicii-severe: seria 49000 V-LOG reduce zgomotul și cavitația la căderi mari de presiune, iar 84000 SteamForm condiționează aburul prin desupraîncălzire și reducere de presiune simultan; V-LOG se produce pe 4"–36" (100–900 mm) și clase ANSI 150–2500, iar dimensiunile SteamForm se confirmă pe model. Seria 21000 acoperă un domeniu mai mic, 3/4"–8" (20–200 mm), tot pe clase ANSI 150–2500. Complementar, marca produce poziționere digitale (SVI3, SVI II AP), actuatoare pneumatice și regulatoare de presiune, deci bucla poate fi acoperită dintr-o singură sursă.
 
 Pentru un integrator din România, Masoneilan e util mai ales la retehnologizarea buclelor de reglare din rafinării și platforme petrochimice unde robinetul existent poartă deja un cod din această nomenclatură și trebuie identificat echivalentul exact.`,
     whyChoose: [
@@ -17,9 +17,9 @@ Pentru un integrator din România, Masoneilan e util mai ales la retehnologizare
       "Instrumentație proprie de buclă — poziționere digitale SVI compatibile HART și Foundation Fieldbus",
     ],
     keyProducts: [
-      { name: "Robinete cu Sertar Seria 10000/21000", description: "Robinete de control cu sertar liniar, dublă trecere (10000) sau trecere simplă (21000), pe dimensiuni de la 3/4\" la 8\" (20–200 mm) și clase ANSI 150–2500 sau UNI-DIN 10–400. Construcție cu ghidare pe scaun sau pe cușcă, potrivită pentru reglaj fin de debit în bucle de proces continue. Aplicație tipică: control de debit și presiune pe linii de rafinărie unde fiabilitatea etanșării la închidere contează la fel de mult ca precizia de poziționare." },
-      { name: "Robinete Rotative Camflex Seria 35002 și V-Max Seria 36005", description: "Robinete rotative cu excentric (Camflex) sau cu bilă segmentată de control (V-Max), gândite pentru cădere de presiune mare pe spațiu de montaj redus. Camflex oferă cursă unghiulară cu frecare redusă a garniturii, iar V-Max acoperă medii cu particule sau vâscozitate ridicată datorită geometriei bilei parțiale. Se folosesc frecvent ca alternativă compactă la robinetele liniare, acolo unde greutatea și lungimea de montaj sunt limitate." },
-      { name: "Robinete Servicii Severe V-LOG 49000 și SteamForm 84000", description: "V-LOG e conceput anti-cavitație și anti-zgomot pentru căderi mari de presiune pe lichide și gaze, iar SteamForm condiționează aburul combinând reducerea de presiune cu desupraîncălzirea într-un singur corp. Ambele acoperă dimensiuni de 4\" până la 36\" (100–900 mm), clase ANSI 150–2500, cu variante de capăt flanșat sau sudat. Aplicații tipice: reinjecție de apă, recirculare de gaz, letdown de abur în centrale și platforme petrochimice." },
+      { name: "Robinete cu Sertar Seria 10000/21000", description: "Robinete de control cu sertar liniar, dublă trecere (10000) sau trecere simplă (21000), pe dimensiuni de la 3/4\" la 8\" (20–200 mm) și clase ANSI 150–2500 sau UNI-DIN 10–400. Seria 21000 are ghidare în partea superioară a sertarului (top-guided), potrivită pentru reglaj fin de debit în bucle de proces continue. Aplicație tipică: control de debit și presiune pe linii de rafinărie unde fiabilitatea etanșării la închidere contează la fel de mult ca precizia de poziționare." },
+      { name: "Robinete Rotative Camflex Seria 35002 și V-Max Seria 36005", description: "Robinete rotative cu excentric (Camflex) sau cu bilă segmentată de control (V-Max), gândite pentru cădere de presiune mare pe spațiu de montaj redus. Camflex oferă cursă unghiulară cu frecare redusă a garniturii, iar V-Max este varianta cu bilă segmentată de control. Se folosesc frecvent ca alternativă compactă la robinetele liniare, acolo unde greutatea și lungimea de montaj sunt limitate." },
+      { name: "Robinete Servicii Severe V-LOG 49000 și SteamForm 84000", description: "V-LOG e conceput anti-cavitație și anti-zgomot pentru căderi mari de presiune pe lichide și gaze, iar SteamForm condiționează aburul combinând reducerea de presiune cu desupraîncălzirea într-un singur corp. V-LOG acoperă dimensiuni de 4\" până la 36\" (100–900 mm), clase ANSI 150–2500, cu variante de capăt flanșat sau sudat; pentru SteamForm, dimensiunile și clasele se confirmă pe model. Aplicații tipice: reinjecție de apă, recirculare de gaz, letdown de abur în centrale și platforme petrochimice." },
       { name: "Poziționere Digitale SVI3 și SVI II AP", description: "Poziționere digitale de robinet cu semnal 4-20mA și protocol HART, respectiv variantă cu diagnosticare avansată (SVI II AP) sau Foundation Fieldbus (SVI FF). Permit monitorizarea poziției tijei și configurare de la distanță prin sistemul de automatizare. Se montează pe robinete Masoneilan cu actuator pneumatic compatibil." },
     ],
     industries: [
@@ -39,16 +39,16 @@ Pentru un integrator din România, Masoneilan e util mai ales la retehnologizare
       { code: "35002 Camflex", description: "Robinet rotativ cu excentric pentru control de proces" },
       { code: "31000 Series", description: "Robinet de control rotativ" },
       { code: "36005 V-Max", description: "Robinet rotativ cu bilă de control segmentată" },
-      { code: "Triple Offset Butterfly", description: "Robinet fluture cu triplu decalaj, izolare de proces" },
+      { code: "Triple Offset Butterfly", description: "Robinet fluture; detaliile se confirmă pe model" },
       { code: "49000 V-LOG", description: "Robinet anti-cavitație, low-noise, 4–36\", ANSI 150–2500" },
       { code: "84000 SteamForm", description: "Robinet de condiționare abur, reducere presiune și temperatură" },
-      { code: "71000 Series", description: "Robinet servicii severe, unghi înclinat, uz greu" },
-      { code: "72000 Series", description: "Robinet servicii severe, debit masic mare" },
-      { code: "73000 Series", description: "Robinet servicii severe, unghi de baleiaj" },
-      { code: "74000 Series", description: "Robinet servicii severe, procesare ulei greu" },
-      { code: "75000 Series", description: "Robinet pentru golire tancuri și control de nivel" },
-      { code: "77000 Series", description: "Robinet multi-etajat, presiune ridicată" },
-      { code: "78400/18400 LincolnLog", description: "Robinet anti-cavitație, construcție cu labirint" },
+      { code: "71000 Series", description: "Robinet pentru servicii severe" },
+      { code: "72000 Series", description: "Robinet pentru servicii severe" },
+      { code: "73000 Series", description: "Robinet pentru servicii severe" },
+      { code: "74000 Series", description: "Robinet pentru servicii severe" },
+      { code: "75000 Series", description: "Robinet pentru servicii severe" },
+      { code: "77000 Series", description: "Robinet pentru servicii severe" },
+      { code: "78400/18400 LincolnLog", description: "Robinet pentru servicii severe" },
       { code: "SVI3", description: "Poziționer digital 4-20mA cu protocol HART" },
       { code: "SVI II AP", description: "Poziționer digital cu diagnosticare avansată" },
       { code: "SVi1000", description: "Poziționer digital cu diagnosticare standard" },
@@ -63,14 +63,14 @@ Pentru un integrator din România, Masoneilan e util mai ales la retehnologizare
     faq: [
       { q: "Ce produce Masoneilan?", a: "Masoneilan, marca Baker Hughes pentru control de proces, produce robinete de control liniare și rotative, robinete pentru servicii severe (anti-cavitație, condiționare abur), poziționere digitale și regulatoare autonome de presiune. Gama acoperă de la robinete mici de 3/4\" până la corpuri de 36\" pentru aplicații industriale grele." },
       { q: "Cum aleg robinetul Masoneilan potrivit după codul de serie?", a: "Codul seriei (de exemplu 21000, 49000 V-LOG sau 84000 SteamForm) indică tipul constructiv și domeniul de aplicație; transmiteți-l complet, împreună cu dimensiunea și clasa de presiune de pe plăcuța robinetului existent, iar noi verificăm echivalentul disponibil pentru comandă." },
-      { q: "Ce presiuni acoperă gama Masoneilan de servicii severe?", a: "Seriile pentru servicii severe, precum V-LOG și SteamForm, acoperă clase de presiune ANSI 150 până la 2500 pe dimensiuni de 4\" până la 36\", cu variante flanșate sau sudate, gândite pentru căderi mari de presiune fără cavitație excesivă." },
+      { q: "Ce presiuni acoperă gama Masoneilan de servicii severe?", a: "Seria V-LOG acoperă clase de presiune ANSI 150 până la 2500 pe dimensiuni de 4\" până la 36\", cu variante flanșate sau sudate; pentru SteamForm și celelalte serii, domeniul se confirmă pe model. Seriile pentru servicii severe sunt gândite pentru căderi mari de presiune fără cavitație excesivă." },
       { q: "Livrați robinete Masoneilan în România și în cât timp?", a: "Aducem robinete și piese Masoneilan la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare; termenul exact depinde de disponibilitatea confirmată de producător pentru codul și dimensiunea cerută." },
       { q: "Ce informații trebuie să trimit pentru o ofertă Masoneilan?", a: "Aveți nevoie să trimiteți seria completă de pe plăcuța robinetului, dimensiunea nominală, clasa de presiune și materialul corpului, iar la o piesă de schimb și o fotografie a poziționerului sau actuatorului montat, ca să identificăm exact varianta cerută." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Masoneilan | Valves", url: "https://valves.bakerhughes.com/masoneilan", publisher: "Baker Hughes", accessed: "2026-09-26" },
       { title: "Masoneilan 21000 Series Single Port Valve", url: "https://valves.bakerhughes.com/masoneilan/globe-control-valves/masoneilan-21000-series-single-port-valve", publisher: "Baker Hughes", accessed: "2026-09-26" },
@@ -83,12 +83,12 @@ Pentru un integrator din România, Masoneilan e util mai ales la retehnologizare
     headquarters: "SUA",
     overview: `Bettis a pornit ca furnizor de echipamente pentru câmpuri petroliere în 1929 și a ajuns astăzi brandul Emerson pentru actuatoare de robinet — electrice, pneumatice și hidraulice — folosite la automatizarea deschiderii și închiderii pe conducte și instalații de proces. Din gama Bettis putem oferta actuatoare pneumatice tip scotch yoke (G-Series, CBB-Series, CBA300, seria inox M), actuatoare rack-and-pinion (RPE, RPX) pentru cuplu mai mic, și actuatoare electrice cu revenire pe arc (RTS CM, RTS FQ, RTS FL) sau multi-rotative inteligente (XTE3000).
 
-Ce diferențiază Bettis e acoperirea celor trei tehnologii de acționare sub aceeași marcă, ceea ce simplifică standardizarea unei stații: pneumatic acolo unde există aer instrumental disponibil, electric acolo unde nu există, hidraulic pe conducte critice unde cuplul cerut e foarte mare. Actuatoarele pneumatice scotch yoke Bettis sunt certificate conform API 6DX pentru aplicații petrol și gaze și conform PED 2014/68/UE, cu grad de protecție IP66/IP67M pentru montaj exterior. XTE3000 aduce diagnosticare de la distanță prin software-ul DCMlink, util la robinete greu accesibile.
+Ce diferențiază Bettis e acoperirea celor trei tehnologii de acționare sub aceeași marcă, ceea ce simplifică standardizarea unei stații: pneumatic acolo unde există aer instrumental disponibil, electric acolo unde nu există, hidraulic pe conducte critice unde cuplul cerut e foarte mare. Actuatoarele pneumatice scotch yoke Bettis sunt certificate conform PED 2014/68/UE, cu grad de protecție IP66/IP67M pentru montaj exterior. XTE3000 aduce diagnosticare de la distanță prin software-ul DCMlink, util la robinete greu accesibile.
 
 Pentru instalațiile din România, Bettis înseamnă în special înlocuirea unui actuator existent pe un robinet deja automatizat, unde clientul cunoaște cuplul necesar și tipul de montaj (ISO 5211) și caută seria echivalentă din gama actuală.`,
     whyChoose: [
       "Trei tehnologii de acționare sub o singură marcă — pneumatic, electric și hidraulic, pentru orice tip de instalație",
-      "Certificare API 6DX pe actuatoarele pneumatice scotch yoke, relevantă pentru petrol și gaze",
+      "Actuatoare pneumatice scotch yoke cu certificare PED 2014/68/UE, conform informațiilor publicate de producător",
       "Protecție IP66/IP67M — montaj exterior fără carcasă suplimentară de protecție",
       "Diagnosticare de la distanță — XTE3000 se configurează și monitorizează prin software DCMlink",
       "Actuatoare rack-and-pinion pentru cuplu mic — RPE/RPX, alternativă compactă la scotch yoke",
@@ -129,8 +129,8 @@ Pentru instalațiile din România, Bettis înseamnă în special înlocuirea unu
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bettis", url: "https://www.emerson.com/en/final-control/brands/bettis", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "Bettis", url: "https://www.emerson.com/en-us/automation/bettis", publisher: "Emerson", accessed: "2026-09-26" },
@@ -143,12 +143,12 @@ Pentru instalațiile din România, Bettis înseamnă în special înlocuirea unu
     headquarters: "Houston, SUA",
     overview: `Anderson Greenwood a fost înființată în 1947 la Houston, Texas, și a devenit brandul Emerson pentru supape de siguranță și protecția tancurilor de depozitare — o categorie diferită de robinetele de control obișnuite, pentru că nu reglează debitul, ci previn suprapresurizarea. Gama pe care o putem oferta include supapele de siguranță cu comandă pilot seriile 200, 400, 500, 700 și 800, supapa de presiune joasă seria 9300H, supape de siguranță cu acționare directă prin arc, supape de tip presiune-vacuum pentru protecția tancurilor și opritoare de flacără.
 
-Ce diferențiază tehnologia pilot-operated a Anderson Greenwood e etanșarea „bubble-tight" repetabilă chiar aproape de presiunea de deschidere setată, spre deosebire de o supapă cu arc simplu care începe să lase treptat înainte de deschiderea completă. Seriile 200–800 respectă dimensiunile standard API 526, ceea ce simplifică înlocuirea unei supape existente cu o alta de aceeași clasă și racord. Compania face parte din portofoliul mai larg Emerson de control final, alături de alte mărci pentru robinete și actuatoare deja prezente pe piață.
+Ce diferențiază tehnologia pilot-operated a Anderson Greenwood e etanșarea „bubble-tight" repetabilă chiar aproape de presiunea de deschidere setată, spre deosebire de o supapă cu arc simplu care începe să lase treptat înainte de deschiderea completă. Seriile 200, 400, 500 și 800 sunt disponibile cu dimensiuni centru-față conform API 526, ceea ce simplifică înlocuirea unei supape existente cu o alta de aceeași clasă și racord. Compania face parte din portofoliul mai larg Emerson de control final, alături de alte mărci pentru robinete și actuatoare deja prezente pe piață.
 
 Pentru rafinării, platforme petrochimice și depozite de combustibil din România, Anderson Greenwood contează la înlocuirea unei supape de siguranță ajunse la termen de verificare periodică sau la proiectarea protecției la suprapresiune a unui rezervor nou.`,
     whyChoose: [
       "Etanșare bubble-tight repetabilă — tehnologia pilot-operated menține închiderea etanșă aproape de presiunea de setare",
-      "Dimensiuni conform API 526 — pe seriile 200–800, compatibile cu înlocuirea supapelor existente de aceeași clasă",
+      "Dimensiuni conform API 526 — pe seriile 200, 400, 500 și 800, compatibile cu înlocuirea supapelor existente de aceeași clasă",
       "Gamă completă pentru protecția tancurilor — supape presiune-vacuum și opritoare de flacără sub aceeași marcă",
       "Origine americană cu peste 75 de ani de fabricație — companie înființată în 1947 la Houston",
     ],
@@ -164,7 +164,7 @@ Pentru rafinării, platforme petrochimice și depozite de combustibil din Român
       "Generare de energie — inclusiv cicluri combinate, protecție echipamente auxiliare",
       "Depozitare produse petroliere — supape presiune-vacuum și opritoare de flacără pe tancuri",
     ],
-    infinitrade: `Gama Anderson Greenwood o aducem strict din surse publice ale producătorului, fără raft propriu, așa că orice ofertă pornește de la o verificare a ce putem și ce nu putem confirma pentru codul cerut. Livrăm supape de siguranță și accesorii de protecție a tancurilor prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de seria supapei, presiunea de setare dorită, dimensiunea racordului de intrare/ieșire și fluidul deservit — la supapele de siguranță aceste date sunt esențiale pentru dimensionarea corectă. Nu ținem supape de siguranță pe raft propriu și nu confirmăm termene mai scurte decât cele indicate de producător.`,
+    infinitrade: `Pentru gama Anderson Greenwood lucrăm fără raft propriu, pe baza informațiilor publice ale producătorului, așa că orice ofertă pornește de la o verificare a ceea ce putem confirma pentru codul cerut. Livrăm supape de siguranță și accesorii de protecție a tancurilor prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de seria supapei, presiunea de setare dorită, dimensiunea racordului de intrare/ieșire și fluidul deservit — la supapele de siguranță aceste date sunt esențiale pentru dimensionarea corectă. Nu ținem supape de siguranță pe raft propriu și nu confirmăm termene mai scurte decât cele indicate de producător.`,
     limitation: "Nu efectuăm noi înșine calculul de dimensionare a supapei de siguranță conform codului de proiectare aplicabil instalației; acesta rămâne responsabilitatea inginerului de proces sau a proiectantului autorizat.",
     productCodes: [
       { code: "Series 200", description: "Supapă de siguranță pilot-operată, dimensiuni API 526" },
@@ -187,8 +187,8 @@ Pentru rafinării, platforme petrochimice și depozite de combustibil din Român
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Anderson Greenwood", url: "https://www.emerson.com/en/final-control/brands/anderson-greenwood", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "Anderson Greenwood Series 200/400/500/700/800 Pilot Operated Relief Valves", url: "https://www.emerson.com/en/final-control/products/anderson-greenwood-hpp-series-200-400-500-700-800", publisher: "Emerson", accessed: "2026-09-26" },
@@ -213,10 +213,10 @@ Pentru instalațiile din România, Rosemount înseamnă acces la echivalentul ex
       "Instalare wireless — manometrul wireless și detectorul de nivel 2160 elimină nevoia de cablare",
     ],
     keyProducts: [
-      { name: "Traductoare de Presiune Seriile 4051S și 3051S", description: "Traductoare de presiune diferențială, manometrică sau absolută, cu precizie de referință de până la 0,025% și garanție de 20 de ani (4051S), respectiv 15 ani (3051S). Suportă HART, WirelessHART, Foundation Fieldbus și PROFIBUS, cu diagnosticare de tip alertă de proces și verificare a integrității buclei/liniei. Aplicație tipică: măsurare de presiune și debit prin element de presiune diferențială pe bucle critice de control." },
+      { name: "Traductoare de Presiune Seriile 4051S și 3051S", description: "Traductoare de presiune diferențială, manometrică sau absolută, cu precizie de referință de până la 0,025% și garanție de 20 de ani (4051S), respectiv 15 ani (3051S). Protocoalele diferă în funcție de model (4051S: HART și Bluetooth; 3051S: HART, WirelessHART și Foundation Fieldbus), cu diagnosticare de tip alertă de proces și verificare a integrității buclei/liniei. Aplicație tipică: măsurare de presiune și debit prin element de presiune diferențială pe bucle critice de control." },
       { name: "Traductoare de Presiune Seriile 3051 și 2051", description: "Variante de bază ale familiei de presiune, cu precizie de referință de până la 0,04% (3051) sau 0,05% (2051) și garanție de 5 ani, potrivite acolo unde performanța seriei S nu e necesară. Acoperă aceleași tipuri de măsură — manometrică, absolută și diferențială — la un cost mai redus. Aplicație tipică: monitorizare de presiune pe utilități și circuite auxiliare fără cerințe extreme de precizie." },
       { name: "Traductoare de Nivel cu Radar 3408 și 3308", description: "3408 e un radar de nivel fără contact, iar 3308 folosește tehnologia radar cu ghid de undă (contact direct prin sondă), ambele pentru măsurare continuă de nivel în lichide, solide sau nămoluri. Se completează cu detectorul vibrațional wireless 2160 pentru puncte de alarmă de nivel, fără cablare suplimentară. Aplicație tipică: monitorizare de nivel pe rezervoare de proces sau de depozitare." },
-      { name: "Traductor de Temperatură 3144P", description: "Traductor de temperatură cu montaj pe cap de traductor sau pe șină, compatibil cu termocupluri și termorezistențe, cu funcție de potrivire senzor-traductor care îmbunătățește acuratețea măsurătorii finale. Se folosește la control critic de temperatură și în aplicații de siguranță din industrii precum alimentară, minerit și rafinare." },
+      { name: "Traductor de Temperatură 3144P", description: "Traductor de temperatură cu carcasă cu două compartimente, compatibil cu termocupluri și termorezistențe, cu funcție de potrivire senzor-traductor care îmbunătățește acuratețea măsurătorii finale. Se folosește la control critic de temperatură și în aplicații de siguranță din industrii precum alimentară, minerit și rafinare." },
     ],
     industries: [
       "Chimie și procesare — măsurare de presiune și nivel pe reactoare și coloane",
@@ -248,8 +248,8 @@ Pentru instalațiile din România, Rosemount înseamnă acces la echivalentul ex
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pressure Transmitters — Measurement Instrumentation Catalog", url: "https://www.emerson.com/en/measurement-instrumentation/catalog/pressure-measurement/pressure-transmitters", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "Level Transmitters — Measurement Instrumentation Catalog", url: "https://www.emerson.com/en/measurement-instrumentation/catalog/level-measurement/level-transmitters", publisher: "Emerson", accessed: "2026-09-26" },
@@ -260,9 +260,9 @@ Pentru instalațiile din România, Rosemount înseamnă acces la echivalentul ex
   'micro-motion': {
     name: "Micro Motion",
     headquarters: "SUA",
-    overview: `Micro Motion este brandul american din portofoliul Emerson specializat exclusiv în debitmetre Coriolis, cu o istorie de peste 45 de ani în măsurarea masică pentru lichide, gaze și amestecuri multifazice. Din gamă putem oferta seria G ultra-compactă (inclusiv varianta igienică Hygienic G-Series pentru industria alimentară), seria ELITE de vârf, și seriile F, H, T și TA pentru aplicații generale sau cu cerințe speciale de igienizare.
+    overview: `Micro Motion este brandul american din portofoliul Emerson specializat în debitmetre Coriolis, cu o istorie de peste 45 de ani în măsurarea masică pentru lichide, gaze și suspensii. Din gamă putem oferta seria G ultra-compactă (inclusiv varianta igienică Hygienic G-Series pentru industria alimentară), seria ELITE, și seriile F, H, T și TA pentru aplicații generale sau cu cerințe speciale de igienizare.
 
-Ce diferențiază Micro Motion e principiul de măsură prin efectul Coriolis, care oferă debit masic direct — nu volumic convertit — indiferent de densitatea, vâscozitatea sau conținutul de gaz al fluidului, spre deosebire de debitmetrele electromagnetice care cer un fluid conductor. Seria ELITE, în variantele de înaltă presiune CMF300M, CMF400P și CMF400H, acoperă presiuni de până la 260, respectiv 320 bar (4.641 psig la CMF400H), cu interval de temperatură de la -270°C la 426°C pe întreaga familie ELITE, ceea ce o face potrivită pentru captarea și stocarea CO2 sau alte aplicații criogenice.
+Ce diferențiază Micro Motion e principiul de măsură prin efectul Coriolis, care oferă debit masic direct — nu volumic convertit — indiferent de densitatea, vâscozitatea sau conținutul de gaz al fluidului, spre deosebire de debitmetrele electromagnetice care cer un fluid conductor. Seria ELITE, în variantele de înaltă presiune CMF300M, CMF400P și CMF400H, acoperă presiuni de până la 250, 260, respectiv 320 bar (4.641 psig la CMF400H), cu interval de temperatură de la -270°C la 426°C pe întreaga familie ELITE, ceea ce o face potrivită pentru captarea și stocarea CO2 sau alte aplicații criogenice.
 
 Pentru instalațiile din România, Micro Motion contează mai ales la fiscalizarea și verificarea metrologică a debitului masic în terminale de produse petroliere sau chimice, unde precizia de măsură directă contează mai mult decât costul echipamentului.`,
     whyChoose: [
@@ -270,12 +270,12 @@ Pentru instalațiile din România, Micro Motion contează mai ales la fiscalizar
       "Interval de temperatură extins — de la -270°C la 426°C pe familia ELITE, inclusiv aplicații criogenice",
       "Presiuni mari acoperite — până la 320 bar pe varianta CMF400H, pentru servicii de proces grele",
       "Variantă igienică dedicată — Hygienic G-Series pentru industria alimentară și farmaceutică",
-      "Peste 45 de ani de specializare exclusivă pe tehnologia Coriolis, ca inventator al debitmetrului Coriolis",
+      "Peste 45 de ani de specializare pe tehnologia Coriolis; producătorul se prezintă drept inventatorul debitmetrului Coriolis",
     ],
     keyProducts: [
-      { name: "Debitmetre Coriolis Seria ELITE", description: "Seria de vârf Micro Motion, cu acuratețe de măsură a debitului masic, densității, volumului și temperaturii. Variantele de înaltă presiune CMF300M, CMF400P și CMF400H acoperă până la 250, 260, respectiv 320 bar (4.641 psig), cu interval de temperatură de la -270°C la 426°C și materiale disponibile în inox 316L/304L, aliaj de nichel C22 sau super duplex. Aplicație tipică: măsură fiscală de debit masic pe lichide, gaze sau aplicații CO2 unde precizia de ±0,25% e cerută explicit." },
-      { name: "Debitmetre Compacte Seria G și Hygienic G-Series", description: "Seria G e varianta ultra-compactă de debitmetru și densimetru Coriolis, pentru spații de montaj reduse, iar Hygienic G-Series adaugă cerințele constructive specifice industriei alimentare și farmaceutice — suprafețe fără zone moarte, drenaj complet. Se aleg în funcție de dimensiunea liniei și de opțiunile de material, montaj și transmițător cerute de aplicație." },
-      { name: "Debitmetre Seriile F, H și T/TA", description: "F-Series acoperă aplicații generale de proces, H-Series aduce un design igienic cu capacitate îmbunătățită pentru amestecuri bifazice (lichid-gaz), iar T-Series și TA-Series completează portofoliul pentru aplicații specifice de transfer și industriale. Alegerea între serii depinde de tipul de fluid, de necesitatea unui design igienic și de dimensiunea liniei de proces." },
+      { name: "Debitmetre Coriolis Seria ELITE", description: "Seria ELITE Micro Motion, pentru măsurarea debitului masic, a densității, a volumului și a temperaturii. Variantele de înaltă presiune CMF300M, CMF400P și CMF400H acoperă până la 250, 260, respectiv 320 bar (4.641 psig), cu interval de temperatură de la -270°C la 426°C și materiale disponibile în inox 316L/304L, aliaj de nichel C22 sau super duplex. Aplicație tipică: măsură fiscală de debit masic pe lichide, gaze sau aplicații CO2, unde precizia măsurătorii este esențială." },
+      { name: "Debitmetre Compacte Seria G și Hygienic G-Series", description: "Seria G e varianta ultra-compactă de debitmetru și densimetru Coriolis, pentru spații de montaj reduse, iar Hygienic G-Series adaugă cerințele constructive specifice industriei alimentare și farmaceutice — autorizare 3-A, certificare EHEDG, proiectare conformă ASME BPE și compatibilitate CIP/SIP. Se aleg în funcție de dimensiunea liniei și de opțiunile de material, montaj și transmițător cerute de aplicație." },
+      { name: "Debitmetre Seriile F, H și T/TA", description: "F-Series acoperă aplicații generale de proces, H-Series aduce un design igienic cu capacitate îmbunătățită pentru amestecuri bifazice (lichid-gaz), iar T-Series și TA-Series completează portofoliul; domeniul lor de aplicare se confirmă pe cod, din documentația producătorului. Alegerea între serii depinde de tipul de fluid, de necesitatea unui design igienic și de dimensiunea liniei de proces." },
     ],
     industries: [
       "Petrol și gaze — măsură fiscală de debit masic în terminale și rafinării",
@@ -288,26 +288,26 @@ Pentru instalațiile din România, Micro Motion contează mai ales la fiscalizar
     productCodes: [
       { code: "G-Series", description: "Debitmetru Coriolis ultra-compact" },
       { code: "Hygienic G-Series", description: "Debitmetru Coriolis compact, design igienic" },
-      { code: "ELITE", description: "Debitmetru Coriolis de vârf, acuratețe ridicată" },
+      { code: "ELITE", description: "Debitmetru Coriolis, seria ELITE" },
       { code: "CMF300M", description: "Senzor ELITE de înaltă presiune, până la 250 bar" },
       { code: "CMF400P", description: "Senzor ELITE de înaltă presiune, până la 260 bar" },
       { code: "CMF400H", description: "Senzor ELITE de înaltă presiune, până la 320 bar" },
       { code: "F-Series", description: "Debitmetru Coriolis pentru aplicații generale de proces" },
       { code: "H-Series", description: "Debitmetru Coriolis igienic, capacitate bifazică" },
-      { code: "T-Series", description: "Debitmetru Coriolis pentru aplicații industriale specifice" },
-      { code: "TA-Series", description: "Debitmetru Coriolis, variantă de transfer" },
+      { code: "T-Series", description: "Debitmetru Coriolis, seria T" },
+      { code: "TA-Series", description: "Debitmetru Coriolis, seria TA" },
     ],
     faq: [
-      { q: "Ce produce Micro Motion?", a: "Micro Motion produce exclusiv debitmetre și densimetre Coriolis, care măsoară direct debitul masic al lichidelor, gazelor sau amestecurilor multifazice, folosite pentru control de proces și măsură fiscală în petrol și gaze, chimie și industria alimentară." },
+      { q: "Ce produce Micro Motion?", a: "Micro Motion produce debitmetre și densimetre Coriolis, care măsoară direct debitul masic al lichidelor, gazelor sau suspensiilor, folosite pentru control de proces și măsură fiscală în petrol și gaze, chimie și industria alimentară." },
       { q: "Cum aleg debitmetrul Micro Motion potrivit pentru aplicația mea?", a: "Alegerea depinde de dimensiunea liniei de proces, de fluidul măsurat, de presiunea și temperatura de lucru și de cerințele de igienizare; transmiteți aceste date, iar noi verificăm dacă seria G, F, H sau ELITE se potrivește." },
-      { q: "Ce presiuni și temperaturi acoperă seria ELITE Micro Motion?", a: "Variantele de înaltă presiune ale seriei ELITE, precum CMF300M, CMF400P și CMF400H, acoperă până la 260–320 bar, iar întreaga familie ELITE funcționează pe un interval de temperatură de la -270°C la 426°C, potrivit inclusiv pentru aplicații criogenice." },
+      { q: "Ce presiuni și temperaturi acoperă seria ELITE Micro Motion?", a: "Variantele de înaltă presiune ale seriei ELITE, precum CMF300M, CMF400P și CMF400H, acoperă până la 250, 260, respectiv 320 bar, iar întreaga familie ELITE funcționează pe un interval de temperatură de la -270°C la 426°C, potrivit inclusiv pentru aplicații criogenice." },
       { q: "Livrați debitmetre Micro Motion în România și în cât timp?", a: "Aducem debitmetre Coriolis Micro Motion la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea confirmată de producător pentru configurația cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de debitmetru Micro Motion?", a: "Trimiteți dimensiunea liniei, fluidul măsurat, presiunea și temperatura de lucru, precum și cerința de material sau de design igienic dacă aplicația o impune, ca să confirmăm seria Micro Motion potrivită pentru comandă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Micro Motion", url: "https://www.emerson.com/en/measurement-instrumentation/micro-motion", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "Coriolis Flow Meters — Measurement Instrumentation Catalog", url: "https://www.emerson.com/en/measurement-instrumentation/catalog/flow-measurement/coriolis-flow-meters", publisher: "Emerson", accessed: "2026-09-26" },
@@ -320,7 +320,7 @@ Pentru instalațiile din România, Micro Motion contează mai ales la fiscalizar
     headquarters: "SUA",
     overview: `Enardo este brandul american din portofoliul Emerson dedicat protecției rezervoarelor de depozitare — supape de respirație, opritoare de flacără, guri de vizitare (thief hatch) și ventile de urgență pentru instalații din petrol, gaze și procesare chimică. Din gamă putem oferta supapele presiune-vacuum Model 850 și Model 950 cu tehnologie Smart Wireless, ventilul de urgență Model 2000 pentru suprapresiuni neacoperite de ventilația normală, gurile de vizitare ES-665 și ES-665-HF, precum și opritoarele de flacără pentru detonație din seria DFA.
 
-Ce diferențiază Enardo e acoperirea completă a lanțului de siguranță al unui rezervor de depozitare: supapa presiune-vacuum menține presiunea internă în limite normale, ventilul de urgență Model 2000 preia suprapresiunile excepționale conform API Standard 2000, NFPA 30 și cerințelor OSHA, iar opritorul DFA oprește propagarea unei flăcări în conducte lungi, fie ea subsonică sau supersonică, indiferent de direcția de propagare. Modelele 850, 950 și 2000 sunt disponibile cu monitorizare Smart Wireless și certificare EN 13463-1/5 pentru zone cu risc de explozie.
+Ce diferențiază Enardo e acoperirea completă a lanțului de siguranță al unui rezervor de depozitare: supapa presiune-vacuum menține presiunea internă în limite normale, ventilul de urgență Model 2000 preia suprapresiunile excepționale conform API Standard 2000, NFPA 30 și cerințelor OSHA, iar opritorul DFA oprește propagarea unei flăcări în conducte lungi, fie ea subsonică sau supersonică, indiferent de direcția de propagare. Modelele 850, 950 și 2000 sunt disponibile cu monitorizare Smart Wireless, iar Modelul 2000 are certificare EN 13463-1/5.
 
 Pentru depozitele de combustibil și instalațiile petrochimice din România, Enardo înseamnă completarea sau înlocuirea echipamentelor de protecție a unui rezervor existent, corelat cu cerințele de conformitate ATEX ale instalației.`,
     whyChoose: [
@@ -328,12 +328,12 @@ Pentru depozitele de combustibil și instalațiile petrochimice din România, En
       "Monitorizare Smart Wireless — pe modelele 850, 950 și 2000, fără cablare suplimentară pentru alarme",
       "Conformitate cu standarde de referință — API 2000, NFPA 30 și cerințele OSHA pentru ventilarea de urgență",
       "Opritor de flacără bidirecțional pentru detonație — seria DFA oprește flacăra indiferent de direcția de propagare",
-      "Certificare EN 13463-1/5 pentru zone cu risc de explozie pe echipamentele relevante",
+      "Certificare EN 13463-1/5 pentru Modelul 2000",
     ],
     keyProducts: [
       { name: "Supape Presiune-Vacuum Model 850 și Model 950", description: "Supape de respirație care mențin presiunea interioară a unui rezervor de depozitare între limite sigure, disponibile cu tehnologie Smart Wireless pentru monitorizarea de la distanță a stării supapei. Se montează pe gura de respirație normală a rezervorului, complementar cu un opritor de flacără, pe instalații de depozitare a produselor petroliere sau chimice. Aplicație tipică: control al presiunii interne la umplerea sau golirea zilnică a tancului." },
       { name: "Ventil de Urgență Model 2000", description: "Deschidere de ventilație de urgență pentru rezervoare, activată la suprapresiuni pe care ventilația normală nu le poate prelua, conformă cu API Standard 2000, NFPA 30 și cerințele OSHA pentru ventilare de urgență în caz de incendiu. Are rată de scurgere sub 1 SCFH la 90% din presiunea de setare, componente înlocuibile în teren și acoperire anticorozivă; disponibil cu flanșe ANSI, DIN sau JIS și opțiune Smart Wireless. Aplicație tipică: protecție suplimentară a rezervoarelor expuse la incendiu extern." },
-      { name: "Guri de Vizitare ES-665 și ES-665-HF", description: "Guri de vizitare (thief hatch) pentru rezervoare, folosite la prelevarea de probe și măsurarea manuală de nivel fără a deschide complet capacul rezervorului; varianta ES-665-HF are debit mărit pentru situații de urgență. Se aleg în funcție de dimensiunea racordului existent pe rezervor și de cerința de etanșare." },
+      { name: "Guri de Vizitare ES-665 și ES-665-HF", description: "Guri de vizitare (thief hatch) pentru rezervoare, folosite la prelevarea de probe și măsurarea manuală de nivel fără a deschide complet capacul rezervorului. Se aleg în funcție de dimensiunea racordului existent pe rezervor și de cerința de etanșare." },
       { name: "Opritoare de Flacără pentru Detonație Seria DFA", description: "Opritoare de flacără dedicate opririi detonației în conducte lungi, capabile să oprească un amestec inflamabil aprins indiferent de direcția de propagare și indiferent dacă flacăra se deplasează subsonic sau supersonic. Au canale de flacără mai mari, care reduc înfundarea, celulă de flacără demontabilă pentru mentenanță și flanșe disponibile în standard ANSI, DIN sau JIS." },
     ],
     industries: [
@@ -349,7 +349,7 @@ Pentru depozitele de combustibil și instalațiile petrochimice din România, En
       { code: "Model 950", description: "Supapă presiune-vacuum cu Smart Wireless" },
       { code: "DFA Series", description: "Opritor de flacără pentru detonație, bidirecțional" },
       { code: "ES-665", description: "Gură de vizitare (thief hatch) pentru rezervor" },
-      { code: "ES-665-HF", description: "Gură de vizitare, variantă cu debit mărit" },
+      { code: "ES-665-HF", description: "Gură de vizitare, varianta HF" },
       { code: "Pressure Vacuum Relief Valves", description: "Familie de supape de respirație pentru rezervoare" },
       { code: "Emergency Pressure Relief Vents", description: "Familie de ventile de urgență pentru suprapresiune" },
       { code: "Free Vents", description: "Ventilație liberă, fără reglare de presiune" },
@@ -364,8 +364,8 @@ Pentru depozitele de combustibil și instalațiile petrochimice din România, En
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Enardo", url: "https://www.emerson.com/en/final-control/brands/enardo", publisher: "Emerson", accessed: "2026-09-26" },
       { title: "Enardo Model 2000 Emergency Relief Vent", url: "https://www.emerson.com/en/final-control/products/enardo-model-2000", publisher: "Emerson", accessed: "2026-09-26" },
