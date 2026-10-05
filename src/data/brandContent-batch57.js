@@ -3,22 +3,22 @@
 export const brandContentBatch57 = {
   lutz: {
     name: "Lutz",
-    overview: `Lutz este un nume german specializat în pompe pentru golirea și transferul lichidelor din butoaie și containere IBC, parte din grupul Lutz care include și Lutz-Jesco pentru tehnica de dozare. Gama de bază acoperă pompe de butoi cu motor electric, pneumatic sau pe acumulator, completate de pompe cu diafragmă acționate cu aer comprimat, pompe centrifuge și debitmetre pentru monitorizarea transferului. Pentru piața din România, Lutz înseamnă acces la pompe portabile certificate pentru lichide agresive, inflamabile sau corozive, acolo unde o pompă fixă de proces nu e practică sau nu poate fi mutată între recipiente diferite.
+    overview: `Lutz este un nume german specializat în pompe pentru golirea și transferul lichidelor din butoaie și containere IBC, parte din grupul Lutz care include și Lutz-Jesco pentru tehnica de dozare. Gama de bază acoperă pompe de butoi cu motor electric, pneumatic sau pe acumulator, completate de pompe cu diafragmă acționate cu aer comprimat, pompe centrifuge și debitmetre pentru monitorizarea transferului. Pentru piața din România, Lutz înseamnă acces la pompe portabile pentru lichide agresive, inflamabile sau corozive, acolo unde o pompă fixă de proces nu e practică sau nu poate fi mutată între recipiente diferite.
 
-Ce diferențiază gama Lutz e varietatea de motoare interschimbabile cu același tub de pompă — de la motorul universal MI 4 pentru lichide apoase, la seriile ME II certificate ATEX pentru zone cu risc de explozie, până la motoarele pe acumulator B1/B2/B3 pentru lucru fără sursă fixă de curent. Certificările menționate de producător includ ATEX, UL, PTB, VDE și CE. În aceeași categorie de pompe de butoi concurează și Flux, pe segmentul chimic și industrial.
+Ce diferențiază gama Lutz e varietatea de motoare interschimbabile cu același tub de pompă — de la motorul universal MI 4 pentru lichide apoase, la seriile ME II certificate ATEX pentru zone cu risc de explozie, până la motoarele pe acumulator B1/B2/B3 pentru lucru fără sursă fixă de curent. Motoarele din seriile ME II, MD1xL și MD2xL sunt indicate de producător ca fiind cu protecție la explozie, conform directivelor ATEX. În aceeași categorie de pompe de butoi concurează și Flux, pe segmentul chimic și industrial.
 
 Pentru un cumpărător din România, Lutz are sens unde transferul se face din butoaie de 200 l sau IBC-uri direct la punctul de utilizare — laboratoare, producție sau depozite chimice, unde portabilitatea și certificarea ATEX contează mai mult decât debitul mare.`,
     whyChoose: [
       "Motoare interschimbabile pe același tub de pompă — de la MI universal la ME II certificat ATEX, fără a schimba întregul ansamblu",
       "Variante pe acumulator (B1, B2, B3) pentru pompare portabilă fără sursă de alimentare fixă, utile pe șantier sau în teren",
-      "Certificări multiple recunoscute — ATEX, UL, PTB, VDE, CE — pentru conformitate atât pe piața europeană cât și americană",
+      "Variante cu protecție la explozie conform directivelor ATEX (ME II, MD1xL, MD2xL), pentru zone cu risc de explozie",
       "Gamă completă pentru un singur furnizor — pompe de butoi, pompe cu diafragmă, pompe centrifuge și debitmetre din aceeași familie",
       "Concepute pentru lichide dificile — corozive, inflamabile sau cu vâscozitate ridicată, tipice industriei chimice"
     ],
     keyProducts: [
       { name: "Motoare Electrice Seria MI/MA II/ME II", description: "Motoare de acționare pentru tuburile de pompă de butoi, de la modelul universal MI 4 pentru lichide apoase, la seria MA II (3/5/7) cu ventilație externă pentru utilizare intensivă, până la seria ME II (3/5/7/8) certificată ATEX pentru zone cu risc de explozie din industria chimică. Toate se montează pe același sistem de tub de pompă, ceea ce simplifică inventarul de piese de schimb și permite adaptarea rapidă la un lichid diferit." },
-      { name: "Motoare pe Acumulator Seria B", description: "Motoare BLDC alimentate cu acumulator, gândite pentru pompare portabilă fără cablu sau furtun de aer comprimat: B1 pentru medii cu vâscozitate redusă, cu autonomie de aproximativ 25 de minute, B2 cu autonomie de circa 35 de minute și capacitate de golire pentru mai multe butoaie de 200 l per încărcare, B3 pentru medii mai vâscoase cu debit de până la 180 l/min. Utile în depozite sau puncte de lucru fără priză disponibilă." },
-      { name: "Motoare Pneumatice Seria MD", description: "Motoare cu aer comprimat fără ulei, model MD1xL cu putere de 1000 W și certificare ATEX pentru zone cu risc de explozie, și varianta MD2xL cu mâner ergonomic pentru utilizare prelungită. Recomandate acolo unde alimentarea electrică nu e permisă din motive de siguranță sau unde aerul comprimat e deja disponibil în instalație." },
+      { name: "Motoare pe Acumulator Seria B", description: "Motoare BLDC alimentate cu acumulator, gândite pentru pompare portabilă fără cablu sau furtun de aer comprimat: B1, B2 și B3, cu autonomie și debit diferite în funcție de model (se confirmă pe cod, din documentația producătorului). Utile în depozite sau puncte de lucru fără priză disponibilă." },
+      { name: "Motoare Pneumatice Seria MD", description: "Motoare cu aer comprimat fără ulei, model MD1xL cu certificare ATEX pentru zone cu risc de explozie, și varianta MD2xL cu mâner ergonomic pentru utilizare prelungită. Recomandate acolo unde alimentarea electrică nu e permisă din motive de siguranță sau unde aerul comprimat e deja disponibil în instalație." },
       { name: "Pompe Cu Diafragmă Cu Aer Comprimat", description: "Pompe pneumatice cu diafragmă pentru transfer de lichide agresive sau vâscoase direct din butoaie sau containere, fără componente electrice care ar putea genera scântei. Utile acolo unde certificarea ATEX trebuie să acopere întregul ansamblu, nu doar motorul." }
     ],
     industries: [
@@ -32,7 +32,7 @@ Pentru un cumpărător din România, Lutz are sens unde transferul se face din b
     productCodes: [
       { code: "MI 4", description: "Motor universal electric pentru lichide apoase, slab vâscoase" },
       { code: "MI 4-E", description: "Variantă a motorului MI 4 cu control electronic" },
-      { code: "B4/GT", description: "Motor cu reductor trifazat, 0,75 kW, pentru funcționare îndelungată" },
+      { code: "B4/GT", description: "Motor trifazat cu reductor" },
       { code: "MA II 3", description: "Motor electric extern ventilat, gamă de putere medie" },
       { code: "MA II 5", description: "Motor electric extern ventilat, treaptă de putere superioară" },
       { code: "MA II 7", description: "Motor electric extern ventilat, treaptă superioară din serie" },
@@ -40,12 +40,12 @@ Pentru un cumpărător din România, Lutz are sens unde transferul se face din b
       { code: "ME II 5", description: "Motor ATEX, treaptă de putere medie din seria explozie-protejată" },
       { code: "ME II 7", description: "Motor ATEX, treaptă de putere ridicată" },
       { code: "ME II 8", description: "Motor ATEX, cea mai puternică variantă din seria ME II" },
-      { code: "B2 Vario", description: "Controler de turație infinit variabilă pentru containere mici" },
-      { code: "MD1xL", description: "Motor pneumatic fără ulei, 1000 W, certificat ATEX" },
+      { code: "B2 Vario", description: "Variantă B2 Vario a motorului pe acumulator" },
+      { code: "MD1xL", description: "Motor pneumatic, certificat ATEX" },
       { code: "MD2xL", description: "Motor pneumatic fără ulei, cu mâner ergonomic pentru confort" },
-      { code: "B1 Battery", description: "Motor pe acumulator BLDC, circa 25 min autonomie" },
-      { code: "B2 Battery", description: "Motor pe acumulator BLDC, autonomie pentru mai multe butoaie" },
-      { code: "B3 Battery", description: "Motor pe acumulator pentru medii vâscoase, debit 180 l/min" }
+      { code: "B1 Battery", description: "Motor pe acumulator" },
+      { code: "B2 Battery", description: "Motor pe acumulator" },
+      { code: "B3 Battery", description: "Motor pe acumulator pentru medii mai vâscoase" }
     ],
     faq: [
       { q: "Ce produce Lutz?", a: "Lutz produce pompe portabile pentru golirea butoaielor și containerelor IBC — motoare electrice, pneumatice și pe acumulator montate pe tuburi de pompă interschimbabile, plus pompe cu diafragmă, pompe centrifuge și debitmetre pentru transferul controlat al lichidelor industriale." },
@@ -55,8 +55,8 @@ Pentru un cumpărător din România, Lutz are sens unde transferul se face din b
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Lutz Pumpen – Drum pumps and IBC pumps", url: "https://www.lutz-pumpen.de/en/", publisher: "Lutz Pumpen GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "Drum and container pump motors", url: "https://www.lutz-jesco.com/en/products/drum-and-container-pumps/motors", publisher: "Lutz-Jesco GmbH", accessed: "2026-09-22" }
@@ -76,14 +76,14 @@ Pentru un cumpărător din România, Flux are sens unde compatibilitatea chimic�
       "Plajă largă de vâscozitate — de la lichide apoase la 500.000 mPas pe sistemele VISCOFLUX, fără schimbarea principiului de pompare",
       "Variante sealless și cu etanșare mecanică în aceeași serie F/FP 400, alese după compatibilitatea chimică a lichidului",
       "Materiale de contact multiple — polipropilenă, PVDF, inox, aluminiu sau Hastelloy C — pentru medii corozive diferite",
-      "Sisteme de umplere calibrate SAFETEC și FLUX-FILL GT pentru manipulare sigură a substanțelor periculoase",
-      "Peste 75 de ani de fabricație germană specializată exclusiv pe transferul de lichide din butoaie și containere"
+      "Sisteme de umplere și dozare SAFETEC și FLUX-FILL GT",
+      "Peste 75 de ani de fabricație germană de pompe și sisteme pentru transferul și dozarea lichidelor din butoaie și containere"
     ],
     keyProducts: [
-      { name: "Pompă de Butoi F 424 (Sealless)", description: "Pompă de butoi fără etanșare mecanică, concepută pentru funcționare continuă cu lichide agresive unde o garnitură clasică s-ar uza rapid. Face parte din seria Type 400, alături de variante specializate precum F 425 (Liquid Saver, pentru golire completă) și F 426 (pompă cu funcție de amestecare). Recomandată pentru chimicale corozive și aplicații AdBlue, unde absența etanșării reduce riscul de scurgere." },
-      { name: "Pompă de Butoi F 430 (Cu Etanșare Mecanică)", description: "Pompă de înaltă performanță cu etanșare mecanică, debit maxim de 63 GPM, vâscozitate maximă acceptată de 1200 cPs, înălțime de pompare de până la 98 ft și temperatură de lucru de până la 120°C. Disponibilă cu lungimi de imersie de 700, 1000, 1200 sau 1500 mm și, pe variantele cu miez metalic în tub de plastic, până la 3000 mm. Materiale: PP, PVDF, inox, aluminiu sau Hastelloy C." },
+      { name: "Pompă de Butoi F 424 (Sealless)", description: "Pompă de butoi fără etanșare mecanică. Face parte din seria Type 400, alături de variante specializate precum F 425 (Liquid Saver, pentru golire completă) și F 426 (pompă cu funcție de amestecare). Aplicațiile și compatibilitatea chimică se confirmă pe cod, din documentația producătorului." },
+      { name: "Pompă de Butoi F 430 (Cu Etanșare Mecanică)", description: "Pompă de înaltă performanță cu etanșare mecanică, debit maxim de 63 GPM, vâscozitate maximă acceptată de 1200 cPs, înălțime de pompare de până la 98 ft și temperatură de lucru de până la 120°C. Disponibilă cu lungimi de imersie de 700, 1000, 1200 sau 1500 mm. Materiale: PP, PVDF, inox, aluminiu sau Hastelloy C." },
       { name: "Sistem Mobil de Golire VISCOFLUX", description: "Sistem complet de golire a butoaielor pentru produse extrem de vâscoase, cu capacitate de până la 500.000 mPas și volum rezidual sub 1% — util acolo unde pierderea de produs la fundul butoiului contează financiar. Aplicație tipică: golirea completă a ambalajelor cu adezivi, paste sau produse cosmetice vâscoase înainte de reciclarea containerului." },
-      { name: "Pompă Cu Șurub Excentric VISCOPOWER", description: "Pompă cu șurub excentric pentru fluide foarte vâscoase, cu capacitate de până la 100.000 mPas și presiune de refulare de până la 15 bar; modelul VISCOPOWER F 570 include un dispozitiv anti-rotație pentru operare stabilă. Recomandată pentru transfer continuu, nu doar golire punctuală, de paste, geluri sau produse alimentare groase." }
+      { name: "Pompă Cu Șurub Excentric VISCOPOWER", description: "Pompă cu șurub excentric pentru fluide foarte vâscoase, cu capacitate de până la 100.000 mPas. Recomandată pentru transfer continuu, nu doar golire punctuală, de paste, geluri sau produse alimentare groase." }
     ],
     industries: [
       "Chimie și petrochimie — transfer de lichide corozive sau inflamabile din butoaie",
@@ -95,29 +95,29 @@ Pentru un cumpărător din România, Flux are sens unde compatibilitatea chimic�
     infinitrade: `Furnizăm pompe de butoi FLUX din seria F/FP 400 și sisteme VISCOPOWER/VISCOFLUX prin canale de aprovizionare din UE, la comandă. Pentru acest brand ne bazăm pe surse publice ale producătorului și nu avem date proprii de stoc — fiecare configurație (material de contact, lungime de imersie, tip de etanșare) se confirmă direct cu FLUX-GERÄTE înainte de emiterea comenzii ferme. Termenul orientativ pentru livrare e de 1–4 săptămâni din momentul confirmării cu producătorul. Pentru ofertă avem nevoie de: lichidul transferat, vâscozitatea aproximativă, lungimea de imersie necesară pentru butoiul sau containerul dumneavoastră și dacă aplicația impune certificare ATEX. Nu promitem disponibilitate din depozit pe variantele cu materiale speciale precum Hastelloy C.`,
     limitation: "Nu putem confirma configurarea electronică FLUXTRONIC® sau disponibilitatea imediată a variantelor din materiale speciale (Hastelloy C) fără verificare directă cu producătorul.",
     productCodes: [
-      { code: "F 424", description: "Pompă de butoi sealless pentru lichide agresive continue" },
+      { code: "F 424", description: "Pompă de butoi fără etanșare mecanică (sealless)" },
       { code: "F 425", description: "Variantă Liquid Saver pentru golire completă a butoiului" },
       { code: "F 426", description: "Pompă de butoi cu funcție suplimentară de amestecare" },
       { code: "F 427", description: "Pompă de butoi în variantă sanitară" },
       { code: "F 430", description: "Pompă cu etanșare mecanică, debit max. 63 GPM, 1200 cPs" },
       { code: "F 430 MINIFLUX", description: "Variantă compactă a pompei F 430 pentru containere mici" },
       { code: "F 430 Tote Pump", description: "Variantă F 430 dedicată containerelor IBC (tote)" },
-      { code: "VISCOPOWER F 570", description: "Pompă cu șurub excentric, până la 100.000 mPas, 15 bar" },
+      { code: "VISCOPOWER F 570", description: "Pompă cu șurub excentric, până la 100.000 mPas" },
       { code: "VISCOFLUX", description: "Sistem mobil de golire, până la 500.000 mPas, reziduu sub 1%" },
-      { code: "MAGSON", description: "Pompă centrifugă cu cuplaj magnetic, fără etanșare, zero scurgeri" },
+      { code: "MAGSON", description: "Pompă centrifugă cu cuplaj magnetic, pentru aplicații de proces" },
       { code: "FLUX-FILL GT", description: "Sistem de umplere cu dozare calibrată precis" },
-      { code: "SAFETEC", description: "Set de pompare pentru manipularea substanțelor periculoase" }
+      { code: "SAFETEC", description: "Sistem automat de umplere cu dozare" }
     ],
     faq: [
       { q: "Ce produce FLUX (Flux-Geräte)?", a: "FLUX produce pompe electrice și pneumatice pentru golirea butoaielor și containerelor — de la modele sealless și cu etanșare mecanică din seria F/FP 400, la sisteme pentru vâscozități extreme (VISCOPOWER, VISCOFLUX) și pompe centrifuge magnetice MAGSON." },
-      { q: "Ce diferență e între F 424 și F 430 de la Flux?", a: "F 424 e o pompă sealless, fără etanșare mecanică, potrivită pentru funcționare continuă cu lichide agresive, în timp ce F 430 folosește etanșare mecanică și oferă un debit mai mare, până la 63 GPM, pentru vâscozități de până la 1200 cPs." },
+      { q: "Ce diferență e între F 424 și F 430 de la Flux?", a: "F 424 e o pompă sealless, fără etanșare mecanică, potrivită pentru aplicații fără etanșare mecanică, în timp ce F 430 folosește etanșare mecanică și ajunge la un debit maxim de 63 GPM, pentru vâscozități de până la 1200 cPs." },
       { q: "Ce vâscozitate maximă poate pompa un sistem Flux VISCOFLUX?", a: "Sistemul mobil VISCOFLUX este conceput pentru produse cu vâscozitate de până la 500.000 mPas, cu un volum rezidual sub 1% în butoi, util acolo unde pierderea de produs la golire contează." },
       { q: "Livrați pompe Flux în România și cât durează?", a: "Da, aducem pompe Flux la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de configurația exactă confirmată cu producătorul." }
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "FLUX-GERÄTE GmbH – Home", url: "https://www.flux-pumps.com/en/", publisher: "FLUX-GERÄTE GmbH", accessed: "2026-09-22" },
       { title: "F430 Sealed Pump", url: "https://www.fluxpumpsusa.com/en-US/products/drum-and-container-pumps/type-400/f430-sealed-pump.html", publisher: "FLUX Pumps Corp. USA", accessed: "2026-09-22" }
@@ -128,14 +128,14 @@ Pentru un cumpărător din România, Flux are sens unde compatibilitatea chimic�
     name: "Wilden",
     founded: 1955,
     headquarters: "Grand Terrace, California, SUA",
-    overview: `Wilden este producătorul american care a inventat pompa cu membrană operată pneumatic (AODD) în 1955 și rămâne astăzi unul dintre numele de referință ale categoriei, ca parte a grupului PSG (Pump Solutions Group, Dover Corporation). Gama principală, seria Pro-Flo, acoperă modele clampate (P.025 până la P8) și modele cu flanșe boltate (P100 până la P1500 în variantă plastic, P220-P830 în variantă metal), pentru transfer de lichide fără etanșare dinamică, direct din vase, cisterne sau linii de proces. Pentru România, Wilden înseamnă acces la o tehnologie de pompare fără rulmenți sau etanșări rotative — utilă acolo unde întreținerea trebuie să fie simplă și rapidă.
+    overview: `Wilden este producătorul american care a inventat pompa cu membrană operată pneumatic (AODD) în 1955 și face astăzi parte din grupul PSG (Pump Solutions Group, Dover Corporation). Gama principală, seria Pro-Flo, acoperă modele clampate (P.025 până la P8) și modele cu flanșe boltate (P100 până la P1500 în variantă plastic, P220-P830 în variantă metal), pentru transfer de lichide fără etanșare dinamică, direct din vase, cisterne sau linii de proces. Pentru România, Wilden înseamnă acces la o tehnologie de pompare fără rulmenți sau etanșări rotative — utilă acolo unde întreținerea trebuie să fie simplă și rapidă.
 
-Ce diferențiază seria Pro-Flo SHIFT, versiunea avansată a gamei, e sistemul de distribuție a aerului care aduce, conform producătorului, până la 60% economie de aer și 34% debit suplimentar față de un Pro-Flo clasic la același consum de aer comprimat. Alături de seria standard, Wilden oferă și pompe specializate — Saniflo pentru industria alimentară și farmaceutică, variante FDA, de înaltă presiune sau pentru minerit — plus certificări FDA, 3-A, EHEDG pentru aplicații igienice și CSA/UL pentru zone speciale. În aceeași categorie AODD, Wilden concurează cu Sandpiper, tot din portofoliul unor grupuri industriale americane mari.
+Ce diferențiază seria Pro-Flo SHIFT, versiunea avansată a gamei, e sistemul de distribuție a aerului care aduce, conform producătorului, până la 60% economie de energie și 34% debit mai mare, față de tehnologiile concurente. Alături de seria standard, Wilden oferă și pompe specializate — Saniflo pentru industria alimentară și farmaceutică, variante FDA, de înaltă presiune sau pentru minerit — plus certificări FDA, 3-A, EHEDG pentru aplicații igienice și CSA/UL pentru zone speciale. În aceeași categorie AODD, Wilden concurează cu Sandpiper, tot din portofoliul unor grupuri industriale americane mari.
 
 Pentru un cumpărător din România, Wilden are sens acolo unde lichidul conține particule solide, e abraziv sau necesită auto-amorsare fără pompă centrifugală suplimentară — transfer de vopsele, adezivi, nămoluri sau produse alimentare vâscoase, în instalații unde oprirea pentru mentenanță trebuie minimizată.`,
     whyChoose: [
       "Pompă fără etanșare dinamică — nicio garnitură rotativă expusă la uzură, potrivită pentru lichide abrazive sau cu solide",
-      "Seria Pro-Flo SHIFT reduce consumul de aer cu până la 60% și crește debitul cu până la 34% față de Pro-Flo standard",
+      "Seria Pro-Flo SHIFT oferă, conform producătorului, până la 60% economie de energie și până la 34% debit mai mare, față de tehnologiile concurente",
       "Game specializate certificate — Saniflo (FDA, 3-A, EHEDG) pentru alimentar/farmaceutic, plus variante de înaltă presiune și minerit",
       "Compatibilitate cu materiale metalice și plastice pe aceeași dimensiune de conexiune, pentru medii chimice diferite",
       "Parte din grupul PSG/Dover — acces la rețea internațională de piese de schimb și documentație tehnică"
@@ -179,14 +179,14 @@ Pentru un cumpărător din România, Wilden are sens acolo unde lichidul conțin
     ],
     faq: [
       { q: "Ce produce Wilden?", a: "Wilden produce pompe cu membrană operate pneumatic (AODD), fără etanșare dinamică, în seria de bază Pro-Flo, versiunea avansată Pro-Flo SHIFT și game specializate pentru industria alimentară, farmaceutică sau aplicații de înaltă presiune." },
-      { q: "Ce diferență e între Pro-Flo și Pro-Flo SHIFT la Wilden?", a: "Pro-Flo SHIFT folosește un sistem de distribuție a aerului mai eficient, care aduce, conform producătorului, până la 60% economie de aer comprimat și până la 34% debit suplimentar față de seria Pro-Flo standard, la aceeași dimensiune de pompă." },
+      { q: "Ce diferență e între Pro-Flo și Pro-Flo SHIFT la Wilden?", a: "Pro-Flo SHIFT folosește un sistem de distribuție a aerului mai eficient, care aduce, conform producătorului, până la 60% economie de energie și până la 34% debit mai mare, față de tehnologiile concurente." },
       { q: "Cum aleg dimensiunea potrivită dintr-o pompă Wilden?", a: "Dimensiunea se alege după debitul necesar și diametrul conexiunii din instalație: seria Pro-Flo acoperă de la 6 mm (P.025) până la 76 mm (P1500), iar alegerea materialului (metal sau plastic) depinde de compatibilitatea chimică a lichidului." },
       { q: "Livrați pompe Wilden în România și cât durează?", a: "Da, aducem pompe Wilden la comandă prin canale de aprovizionare din UE și SUA; termenul orientativ este de 1–4 săptămâni, în funcție de configurația confirmată cu rețeaua de distribuție a producătorului." }
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Wilden – PSG Brands", url: "https://www.psgdover.com/wilden", publisher: "PSG, a Dover Company", accessed: "2026-09-22" },
       { title: "13 mm (1/2 in.) Pro-Flo Clamped Metal AODD Pump (P1)", url: "https://www.psgdover.com/wilden/products/pro-flo-series/clamped-metal/13-mm-(1-2-)-pro-flo-clamped-metal-pump-(p1)", publisher: "PSG, a Dover Company", accessed: "2026-09-22" }
@@ -205,13 +205,13 @@ Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geo
       "Gamă completă de tipuri de supapă (bilă, clapetă, poppet) pe aceeași platformă, aleasă după conținutul de solide al lichidului",
       "Model Heavy-Duty dedicat suspensiilor abrazive — seria HDF/SPB, cu debite de până la 310 gpm",
       "Serie electrică Cognito (EODD) pentru eficiență energetică superioară față de acționarea pneumatică clasică",
-      "Pompe certificate CSA și cu declarații de conformitate la export pentru proiecte industriale reglementate",
+      "Variante certificate CSA (AODD și GODD) pentru aplicații petrol și gaze, conform producătorului",
       "Game specializate FDA/sanitare, de înaltă presiune, submersibile și pentru medii periculoase (Containment Duty)"
     ],
     keyProducts: [
       { name: "Standard Duty Seria S (S05-S30)", description: "Familia de bază Sandpiper cu supapă tip bilă, de la S05 (1/2\", 0-15 gpm) până la S30 (3\", 0-285 gpm în variantă metalică), disponibilă în variante metalice și nemetalice. Recomandată pentru lichide ușoare, cu conținut redus de solide, ca soluție standard de transfer industrial fără cerințe speciale de material sau supapă." },
       { name: "Heavy-Duty Ball (HDB/SB)", description: "Serie pentru fluide vâscoase și dense, cu supapă cu bilă întărită, de la SB1/SB25 (1\", 0-42 gpm) până la HDB3/HDB4 (3\"-4\", 0-300 gpm). Concepută pentru cicluri de lucru intense, unde uzura supapei standard ar fi prea rapidă la vâscozitate mare sau presiune de linie ridicată." },
-      { name: "Heavy-Duty Flap (HDF/SPB)", description: "Serie cu supapă tip clapetă, potrivită pentru suspensii abrazive și nămoluri cu particule solide mari, de la HDF1/HDF25 (1\", 0-70 gpm) la HDF3/HDF4 (3\", 0-310 gpm), cu modelul de referință SPB20 (2\", până la 208 gpm în variantă metalică). Geometria clapetei reduce blocarea pe particule solide față de o supapă cu bilă clasică." },
+      { name: "Heavy-Duty Flap (HDF/SPB)", description: "Serie cu supapă tip clapetă, potrivită pentru suspensii abrazive și nămoluri cu particule solide mari, de la HDF1/HDF25 (1\", 0-70 gpm) la HDF3/HDF4 (3\"-4\", 0-310 gpm), cu modelul de referință SPB20 (2\", până la 208 gpm în variantă metalică). Geometria clapetei reduce blocarea pe particule solide față de o supapă cu bilă clasică." },
       { name: "EODD Seria Cognito", description: "Pompă cu membrană dublă acționată electric, nu pneumatic, disponibilă în dimensiuni de la 1\" la 4\", în variante metalice și nemetalice. Elimină nevoia de compresor de aer în instalație și reduce costul energetic per litru transferat față de o pompă AODD clasică, păstrând principiul fără etanșare dinamică al membranei duble." }
     ],
     industries: [
@@ -232,7 +232,7 @@ Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geo
       { code: "S30", description: "Pompă standard, conexiune 3\", debit până la 285 gpm" },
       { code: "HDB3", description: "Pompă Heavy-Duty Ball, conexiune 3\", debit 0-300 gpm" },
       { code: "HDB4", description: "Pompă Heavy-Duty Ball, conexiune 4\", debit 0-300 gpm" },
-      { code: "HDF3/HDF4", description: "Pompă Heavy-Duty Flap, conexiune 3\", debit până la 310 gpm" },
+      { code: "HDF3/HDF4", description: "Pompă Heavy-Duty Flap, conexiuni 3\"/4\", debit până la 310 gpm" },
       { code: "SPB20", description: "Pompă flap de referință, conexiune 2\", până la 208 gpm" },
       { code: "SPB30/SPB40", description: "Pompă flap, conexiuni 3\"/4\", debit până la 303 gpm" },
       { code: "F20", description: "Pompă sanitară/FDA, conexiune 2\"" },
@@ -249,8 +249,8 @@ Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geo
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SANDPIPER Pump Company", url: "https://www.sandpiperpump.com/", publisher: "Warren Rupp, Inc. (IDEX Corporation)", accessed: "2026-09-22" },
       { title: "SANDPIPER Pumps – Product Overview", url: "https://www.sandpiperpump.com/pumps/", publisher: "Warren Rupp, Inc. (IDEX Corporation)", accessed: "2026-09-22" }
@@ -330,7 +330,7 @@ Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichid
     name: "Kamat",
     founded: 1974,
     headquarters: "Witten, Germania",
-    overview: `Kamat este un producător german specializat exclusiv în pompe triplex și quintuplex cu piston pentru înaltă presiune, cu sediul la Witten și activitate din 1974. Gama acoperă de la modelul compact K100-3 (2000 bar, 6,8 l/min) până la treapta cea mai amplă din portofoliu, K300000-5G (1000 bar, peste 10.500 l/min), cu trepte intermediare precum K8000-3G, K18000-3G sau K45000-3G. Pentru piața din România, Kamat înseamnă acces la pompe de proces la presiuni pe care o pompă centrifugală sau cu șurub nu le poate atinge.
+    overview: `Kamat este un producător german specializat exclusiv în tehnologie de înaltă presiune (pompe cu plunger, unități de pompare, supape, scule de jet, duze și filtre), cu sediul la Witten și activitate din 1974. Gama acoperă de la modelul compact K100-3 (2000 bar, 6,8 l/min) până la treapta cea mai amplă din portofoliu, K300000-5G (1000 bar, peste 10.500 l/min), cu trepte intermediare precum K8000-3G, K18000-3G sau K45000-3G. Pentru piața din România, Kamat înseamnă acces la pompe de proces la presiuni pe care o pompă centrifugală sau cu șurub nu le poate atinge.
 
 Ce diferențiază gama Kamat e amploarea plajei de presiune și putere: modelele triplex (3 pistoane) acoperă până la circa 3500 bar, iar cele quintuplex (5 pistoane) merg până la debite de peste 10.000 l/min la presiuni mai moderate, cu putere instalată de la 15 până la 3000 kW pe întreaga gamă. Certificarea ISO 9001:2015 acoperă managementul calității în fabricație. Pe segmentul pompelor de înaltă presiune, Kamat concurează cu producători precum Uraca sau Hammelmann, ambii germani, pe aplicații similare de curățare industrială și testare hidrostatică.
 
@@ -339,7 +339,7 @@ Pentru un cumpărător din România, Kamat are sens la aplicații de curățare 
       "Plajă de presiune foarte largă — de la 1000 bar la peste 3500 bar, în funcție de model, pe design triplex sau quintuplex",
       "Putere instalată de la 15 la 3000 kW pe întreaga gamă, pentru aplicații de la mici la industriale mari",
       "Certificare ISO 9001:2015 pentru managementul calității în fabricație",
-      "Specializare exclusivă pe pompe de înaltă presiune — inginerie dedicată, nu o linie secundară de produs",
+      "Specializare exclusivă pe tehnologie de înaltă presiune — inginerie, fabricație și testare realizate în Germania, conform producătorului",
       "Acoperire de industrii diverse — construcții, chimie, minerit, energie, petrol și gaze, curățare industrială"
     ],
     keyProducts: [
@@ -375,15 +375,15 @@ Pentru un cumpărător din România, Kamat are sens la aplicații de curățare 
       { code: "K300000-5G", description: "Pompă quintuplex, 1000 bar, 10.529 l/min" }
     ],
     faq: [
-      { q: "Ce produce Kamat?", a: "Kamat produce exclusiv pompe triplex și quintuplex cu piston pentru înaltă presiune, cu modele de la 1000 bar la peste 3500 bar și debite de la câțiva litri pe minut până la peste 10.000 l/min, pentru aplicații industriale, curățare și testare hidrostatică." },
+      { q: "Ce produce Kamat?", a: "Kamat produce exclusiv tehnologie de înaltă presiune (pompe cu plunger, unități de pompare, supape, scule de jet, duze), cu pompe de la 1000 bar la peste 3500 bar și debite de la câțiva litri pe minut până la peste 10.000 l/min, pentru aplicații industriale, curățare și testare hidrostatică." },
       { q: "Ce diferență e între seria triplex și quintuplex la Kamat?", a: "Seria triplex (3 pistoane) acoperă în general presiuni mai mari, până la circa 3500 bar, la debite moderate, în timp ce seria quintuplex (5 pistoane) e orientată spre debite foarte mari, până la peste 10.000 l/min, la presiuni relativ mai reduse." },
       { q: "Cum aleg modelul Kamat potrivit pentru aplicația mea?", a: "Alegerea se face pe baza combinației presiune-debit necesară procesului: pentru curățare la presiune foarte mare cu debit mic se aleg modele precum K100-3 sau K4500-3, iar pentru debite mari la presiune moderată se aleg modelele quintuplex din seria K55000-5G în sus." },
       { q: "Livrați pompe Kamat în România și cât durează?", a: "Da, aducem pompe Kamat la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de modelul și configurația confirmate cu producătorul." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "KAMAT – High Pressure Solutions", url: "https://www.kamat.de/en/", publisher: "KAMAT GmbH & Co. KG", accessed: "2026-09-22" },
       { title: "High-Pressure Pumps", url: "https://www.kamat.de/en/high-pressure-solutions/high-pressure-pumps/", publisher: "KAMAT GmbH & Co. KG", accessed: "2026-09-22" }

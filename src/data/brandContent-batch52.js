@@ -53,7 +53,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       },
       {
         "code": "UR35",
-        "description": "router industrial din seria Pro"
+        "description": "router industrial Milesight"
       },
       {
         "code": "UR75",
@@ -61,11 +61,11 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       },
       {
         "code": "UR32",
-        "description": "router industrial din seria Pro, model de bază"
+        "description": "router industrial Milesight"
       },
       {
         "code": "UR41",
-        "description": "router industrial din seria Mini"
+        "description": "router industrial Milesight"
       },
       {
         "code": "AM103",
@@ -120,8 +120,8 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Milesight - IoT","url":"https://www.milesight.com/","publisher":"Xiamen Milesight IoT Co., Ltd.","accessed":"2026-09-25"},
       { title: "Milesight – IoT Sensors, Gateways and AI Cameras", url: "https://www.milesight.com/", publisher: "Milesight Technology Co., Ltd.", accessed: "2026-09-22" },
@@ -138,14 +138,14 @@ Ce diferențiază gama DESTACO e acoperirea integrată a lanțului de prindere-p
 Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celulele robotizate de paletizare sau ambalare și stațiile de asamblare unde fixarea reperului trebuie sincronizată cu robotul sau cu banda transportoare. Componentele se integrează de regulă cu automatele PLC existente, iar mentenanța constă în verificarea periodică a etanșărilor pneumatice și a cursei mecanismelor de indexare.`,
     whyChoose: [
       "Cleme pneumatice seria 8800 cu forță de strângere constantă pe toată cursa brațului",
-      "Gripere electrice eRDH fără aer comprimat, cu control fin al poziției degetelor",
+      "Gripere electrice eRDH fără aer comprimat, cu control al vitezei și al forței de prindere",
       "Indexatoare rotative CAMCO (87R-1, 601 RDM) pentru mișcare pas-cu-pas pe linia de asamblare",
       "Schimbătoare manuale de scule TC1 și tooling dedicat pentru cobot",
-      "Parte din grupul Stabilus, cu rețea de inginerie și piese de schimb la nivel european",
+      "Brand al grupului Stabilus",
     ],
     keyProducts: [
-      { name: "Cleme Pneumatice Seria 8800", description: "Cleme de tip link, acționate pneumatic, care fixează reperul cu forță constantă indiferent de poziția pe cursa brațului. Se montează pe dispozitive de sudură prin puncte sau fixturi de prelucrare, acolo unde piesa trebuie ținută rigid în timpul operației. Construcția tip toggle blochează mecanic poziția chiar și la pierderea presiunii de aer. Pentru ofertă avem nevoie de forța de strângere necesară și de cursa brațului cerută de reperul dumneavoastră." },
-      { name: "Gripere Pneumatice și Electrice uRDH / eRDH", description: "Familie de gripere paralele pentru manipulare automatizată, disponibile în variantă pneumatică (uRDH) sau electrică (eRDH), montate tipic pe brațul unui robot sau cobot. Varianta electrică permite reglarea fină a forței și poziției de prindere prin software, utilă la piese fragile sau la schimbări frecvente de produs pe aceeași linie. Griperele pneumatice rămân opțiunea simplă acolo unde aerul comprimat e deja disponibil pe linie. Clientul trebuie să precizeze greutatea și forma piesei manipulate pentru dimensionarea corectă a griperului." },
+      { name: "Cleme Pneumatice Seria 8800", description: "Cleme de tip link, acționate pneumatic, care fixează reperul cu forță constantă indiferent de poziția pe cursa brațului. Se montează pe dispozitive de sudură prin puncte sau fixturi de prelucrare, acolo unde piesa trebuie ținută rigid în timpul operației. Pentru ofertă avem nevoie de forța de strângere necesară și de cursa brațului cerută de reperul dumneavoastră." },
+      { name: "Gripere Pneumatice și Electrice uRDH / eRDH", description: "Familie de gripere paralele pentru manipulare automatizată, disponibile în variantă pneumatică (uRDH) sau electrică (eRDH), montate tipic pe brațul unui robot sau cobot. Varianta electrică permite controlul vitezei și al forței de prindere, utilă la piese fragile sau la schimbări frecvente de produs pe aceeași linie. Griperele pneumatice rămân opțiunea simplă acolo unde aerul comprimat e deja disponibil pe linie. Clientul trebuie să precizeze greutatea și forma piesei manipulate pentru dimensionarea corectă a griperului." },
       { name: "Indexatoare Rotative CAMCO", description: "Indexatoare rotative pneumatice (87R-1) sau mecanice (601 RDM), folosite pentru a roti o masă sau un dispozitiv cu pas fix și oprire precisă la fiecare stație. Se aplică la liniile de asamblare cu mai multe posturi de lucru dispuse circular, unde piesa trece succesiv prin fiecare stație fără intervenție manuală. Precizia opririi la fiecare pas e critică pentru sincronizarea cu roboții sau operatorii de la fiecare post. Pentru configurare avem nevoie de numărul de stații și de greutatea totală pe masa rotativă." },
       { name: "Scule Robotice și Schimbătoare TC1", description: "Schimbătoare manuale de scule și accesorii de tip end-effector pentru roboți colaborativi și industriali cu payload mic, care permit unui singur braț robotic să schimbe rapid între mai multe unelte de lucru. Utile la celule flexibile unde același robot execută operații diferite (prindere, șurubuire, control) pe rând. Montajul standard permite schimbarea sculei fără reprogramarea completă a robotului. Pentru ofertă e nevoie de modelul robotului și de tipul de sculă care trebuie schimbat." },
     ],
@@ -201,12 +201,12 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
     ],
     faq: [
       {
-        "q": "Ce diferență este între gripele Destaco uRDH și eRDH?",
-        "a": "Seria uRDH este acționată pneumatic, folosind aer comprimat pentru deschiderea și închiderea bacurilor paralele, fiind potrivită acolo unde celula robotizată are deja o rețea de aer disponibilă. Seria eRDH este acționată electric, cu servomotor integrat, oferind control mai fin al forței de prindere și posibilitatea de a regla poziția fără reglaje pneumatice suplimentare. Alegerea depinde de infrastructura existentă în celula de producție."
+        "q": "Ce diferență este între griperele Destaco uRDH și eRDH?",
+        "a": "Seria uRDH este acționată pneumatic, folosind aer comprimat pentru deschiderea și închiderea bacurilor paralele, fiind potrivită acolo unde celula robotizată are deja o rețea de aer disponibilă. Seria eRDH este acționată electric și oferă control al vitezei și al forței de prindere, cu un singur cablu către PLC pentru alimentare și semnale de comandă. Alegerea depinde de infrastructura existentă în celula de producție."
       },
       {
         "q": "Ce este clema pneumatică Destaco din seria 8800?",
-        "a": "Seria 8800 este familia de cleme pneumatice cu braț articulat Destaco, folosită pentru fixarea rapidă a pieselor în dispozitive de sudură, asamblare sau verificare, fără intervenție manuală repetată a operatorului. Brațul se blochează mecanic în poziție închisă, astfel încât presiunea aerului nu trebuie menținută constant pentru a păstra piesa fixată, ceea ce reduce consumul de aer comprimat pe durata ciclului de lucru."
+        "a": "Seria 8800 este familia de cleme pneumatice cu braț articulat Destaco, folosită pentru fixarea rapidă a pieselor în dispozitive de sudură, asamblare sau verificare, fără intervenție manuală repetată a operatorului."
       },
       {
         "q": "Livrați echipamente Destaco în România?",
@@ -219,8 +219,8 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"DESTACO - Products","url":"https://www.destaco.com","publisher":"DESTACO","accessed":"2026-09-25"},
       { title: "DESTACO – Workholding, Gripping and Automation Solutions", url: "https://www.destaco.com", publisher: "DESTACO (Stabilus Group)", accessed: "2026-09-22" },
@@ -231,19 +231,19 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
     name: "iwis",
     overview: `iwis este un producător german de lanțuri de transmisie și transport, cu rădăcini de peste un secol în Germania și producție extinsă și în America de Nord. Gama include lanțuri cu role pentru transmisie de putere, lanțuri de transport/conveior pentru linii de producție și roți de lanț (sprockets) asortate. Din portofoliu putem oferta lanțuri standard cu role, lanțuri de transport pentru industria alimentară și sisteme de ungere automată CLA pentru linii cu funcționare continuă.
 
-În categoria lanțurilor industriale, iwis se compară direct cu Tsubaki pe segmentul lanțurilor cu role de precizie și al lanțurilor speciale rezistente la uzură. Linia MEGAlife e construită pentru durată de exploatare extinsă, prin tratamente de suprafață și toleranțe strânse între bolț și bucșă, ceea ce reduce alungirea lanțului în timp. Gama b.dry elimină nevoia de lubrifiere externă prin bucșe cu polimer auto-lubrifiant, utilă acolo unde uleiul ar contamina produsul (industria alimentară) sau accesul la lanț e dificil. Producătorul declară un portofoliu de circa 95.000 de produse unice, fabricate în 32 de locații la nivel global.
+În categoria lanțurilor industriale, iwis se compară direct cu Tsubaki pe segmentul lanțurilor cu role de precizie și al lanțurilor speciale rezistente la uzură. Lanțurile MEGAlife au bucșă sinterizată fără cusătură și bolț cu strat de acoperire rezistent la uzură; producătorul declară că nu necesită relubrifiere programată în durata de exploatare prevăzută și că, în condiții adecvate, pot atinge o durată de viață de până la trei ori mai mare decât a unui lanț cu role standard. Gama b.dry reunește lanțuri cu role din oțel inoxidabil, folosite mai ales în industria alimentară sau acolo unde lanțul trebuie curățat frecvent. Producătorul declară un portofoliu de circa 95.000 de produse unice, fabricate în 32 de locații la nivel global.
 
-Pentru instalațiile din România, iwis are sens la liniile de ambalare și transport din industria alimentară, unde lanțurile b.dry evită contaminarea cu ulei, și la transmisiile industriale unde durata mare de exploatare a lanțurilor MEGAlife reduce opririle pentru schimbarea lanțului. Selecția corectă a pasului și a tipului de bucșă contează direct pentru durata de viață.`,
+Pentru instalațiile din România, iwis are sens la liniile de ambalare și transport din industria alimentară, unde sunt utile lanțurile inoxidabile b.dry, și la transmisiile industriale unde durata mare de exploatare a lanțurilor MEGAlife reduce opririle pentru schimbarea lanțului. Selecția corectă a pasului și a tipului de bucșă contează direct pentru durata de viață.`,
     whyChoose: [
-      "Lanțuri MEGAlife cu toleranțe strânse bolț-bucșă, pentru alungire redusă și durată de exploatare mai lungă între înlocuiri",
-      "Gama b.dry cu bucșe auto-lubrifiante, fără ulei extern — potrivită pentru industria alimentară sau puncte greu accesibile",
+      "Lanțuri MEGAlife cu bucșă sinterizată și bolț cu strat de acoperire, fără relubrifiere programată în durata de exploatare prevăzută",
+      "Gama b.dry de lanțuri cu role din oțel inoxidabil — potrivită pentru industria alimentară sau pentru aplicații cu curățare frecventă",
       "Portofoliu declarat de circa 95.000 de produse unice, fabricate în 32 de locații la nivel global",
       "Se compară direct cu Tsubaki pe segmentul lanțurilor de precizie și al celor rezistente la uzură",
       "Sisteme de ungere automată CLA pentru linii cu funcționare continuă, fără intervenție manuală",
     ],
     keyProducts: [
-      { name: "Lanțuri cu Role Seria MEGAlife", description: "Lanțuri cu role pentru transmisia de putere, construite cu toleranțe strânse între bolț și bucșă și tratamente de suprafață care reduc frecarea internă. Rezultatul practic e o alungire mai lentă a lanțului în timp, ceea ce prelungește intervalul dintre reglaje și înlocuiri pe transmisiile intens solicitate. Se folosesc la transmisii industriale, utilaje agricole și linii cu regim de funcționare continuu. Pentru ofertă avem nevoie de pasul lanțului, numărul de zale și tipul de îmbinare (cu za de închidere sau presată)." },
-      { name: "Lanțuri de Transport b.dry", description: "Lanțuri de transport/conveior cu bucșe din polimer auto-lubrifiant, care elimină nevoia de ungere externă cu ulei sau unsoare. Sunt gândite pentru industria alimentară și farmaceutică, unde contactul lanțului cu uleiul ar putea contamina produsul, precum și pentru puncte de pe linie greu accesibile pentru ungere manuală. Clientul trebuie să precizeze pasul lanțului și lățimea benzii de transport pentru compatibilitate." },
+      { name: "Lanțuri cu Role Seria MEGAlife", description: "Lanțuri cu role pentru transmisia de putere, construite cu bucșă sinterizată fără cusătură și bolț cu strat de acoperire rezistent la uzură. Producătorul le prezintă ca lanțuri fără relubrifiere programată în durata de exploatare prevăzută, ceea ce reduce opririle pentru întreținere pe transmisiile intens solicitate. Se folosesc la transmisii industriale, utilaje agricole și linii cu regim de funcționare continuu. Pentru ofertă avem nevoie de pasul lanțului, numărul de zale și tipul de îmbinare (cu za de închidere sau presată)." },
+      { name: "Lanțuri cu Role Inoxidabile b.dry", description: "Lanțuri cu role din oțel inoxidabil din gama b.dry, folosite mai ales în industria alimentară sau în aplicații cu curățare frecventă. Clientul trebuie să precizeze pasul lanțului și tipul de îmbinare pentru compatibilitate." },
       { name: "Sisteme de Ungere Automată CLA", description: "Sisteme centralizate de ungere, montate pe transmisiile cu lanț care necesită lubrifiere periodică, dozând cantitatea de ulei direct pe zona de contact bolț-bucșă la intervale programate. Reduc uzura prin lubrifiere constantă, comparativ cu ungerea manuală, adesea neregulată. Se folosesc la transmisii industriale mari sau la linii unde accesul manual la lanț e limitat din motive de siguranță. Pentru configurare e nevoie de lungimea lanțului și de numărul de puncte de ungere." },
       { name: "Roți de Lanț și Componente de Transmisie", description: "Roți de lanț (sprockets) și componente auxiliare compatibile cu gamele de lanțuri iwis, dimensionate pentru a menține raportul de transmisie și uzura minimă a dinților. Sunt relevante mai ales la reparații sau extinderi de linii existente, unde trebuie păstrată compatibilitatea cu lanțul deja montat. Pentru ofertă avem nevoie de pasul lanțului și de numărul de dinți al roții." },
     ],
@@ -309,7 +309,7 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
     faq: [
       {
         "q": "Ce înseamnă codul unui lanț iwis MEGAlife, de exemplu 08B-2?",
-        "a": "Numărul dinaintea literei indică pasul lanțului conform standardului european, în acest caz 08B, iar cifra de după arată numărul de rânduri de role, unde 1 este simplu și 2 este dublu. Seria MEGAlife adaugă un tratament special care elimină nevoia de ungere periodică, spre deosebire de un lanț standard cu role, care necesită lubrifiere regulată pentru a evita uzura prematură a bolțurilor și bucșelor."
+        "a": "Numărul dinaintea literei indică pasul lanțului conform standardului european, în acest caz 08B, iar cifra de după arată numărul de rânduri de role, unde 1 este simplu și 2 este dublu. Seria MEGAlife este prezentată de producător ca fiind fără relubrifiere programată în durata de exploatare prevăzută, spre deosebire de un lanț standard cu role, care necesită lubrifiere regulată."
       },
       {
         "q": "Ce diferență este între lanțurile iwis MEGAlife 08B-1 și 08B-2?",
@@ -321,13 +321,13 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
       },
       {
         "q": "Ce avantaj au lanțurile iwis MEGAlife față de un lanț standard?",
-        "a": "Lanțurile din seria MEGAlife folosesc un tratament intern care reduce semnificativ frecarea dintre bolț și bucșă, eliminând nevoia de ungere periodică pe durata de viață a lanțului. Acest lucru este util în special în instalații greu accesibile pentru mentenanță sau în medii unde lubrifiantul ar putea contamina produsul procesat, cum ar fi liniile din industria alimentară sau de ambalare."
+        "a": "Lanțurile din seria MEGAlife au bucșă sinterizată și bolț cu strat de acoperire, iar producătorul indică o durată de viață de până la trei ori mai mare decât la un lanț cu role standard, în condiții adecvate. Acest lucru este util în special în instalații greu accesibile pentru mentenanță."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MEGAlife roller chains category","url":"https://www.iwis.com/en-en/products-services/megalife-roller-chains~c24","publisher":"iwis antriebssysteme GmbH","accessed":"2026-09-25"},
       { title: "iwis – Precision Chains, Sprockets and Lubrication Systems", url: "https://www.iwis.com/", publisher: "iwis antriebssysteme GmbH & Co. KG", accessed: "2026-09-22" },
@@ -339,14 +339,14 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
     founded: 1950,
     overview: `IKO este marca de rulmenți și ghidaje liniare a producătorului japonez Nippon Thompson, înființat în 1950, cu subsidiare dedicate pentru piața americană și europeană. Gama acoperă patru zone: Linear Motion (ghidaje liniare cu bile), Rotary Motion (rulmenți cu ace și rulmenți cu role încrucișate), Plain Bearings (rulmenți simpli) și Mechatronics (mese de poziționare). Din portofoliu putem oferta ghidaje liniare cu bile, rulmenți cu ace pentru spații radiale reduse și rulmenți cu role încrucișate pentru sarcini combinate axiale-radiale.
 
-IKO se compară direct cu THK pe segmentul ghidajelor liniare cu bile — ambele oferă game complete de șine și cărucioare cu precizie ridicată pentru mașini-unelte și echipamente de automatizare. Rulmenții cu role încrucișate IKO preiau simultan sarcini radiale, axiale și momente de răsturnare într-un singur element compact, avantaj tipic la mesele rotative și roboții articulați. Rulmenții cu ace, cu secțiune redusă, permit reducerea gabaritului acolo unde spațiul radial e limitat, de exemplu la transmisii planetare sau articulații de robot. Producătorul declară peste 50 de ani de experiență în inginerie de precizie și prezență în peste 100 de țări.
+IKO se compară direct cu THK pe segmentul ghidajelor liniare cu bile — ambele oferă game complete de șine și cărucioare cu precizie ridicată pentru mașini-unelte și echipamente de automatizare. Rulmenții cu role încrucișate IKO preiau simultan sarcini radiale, axiale și momente de răsturnare într-un singur element compact, avantaj tipic la mesele rotative și roboții articulați. Rulmenții cu ace, cu secțiune redusă, permit reducerea gabaritului acolo unde spațiul radial e limitat, de exemplu la transmisii planetare sau articulații de robot. Producătorul declară peste 70 de ani de experiență în inginerie de precizie.
 
 Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-unelte (înlocuirea ghidajelor liniare uzate), la roboții industriali (rulmenți cu role încrucișate pentru articulații) și la echipamentele de semiconductori sau life sciences unde precizia de poziționare e critică. Alegerea variantei corecte depinde de sarcina radială/axială și de clasa de precizie cerută.`,
     whyChoose: [
       "Ghidaje liniare cu bile comparabile ca gamă cu THK, pentru mașini-unelte de precizie",
       "Rulmenți cu role încrucișate — sarcini radiale, axiale și momente de răsturnare într-un singur element",
       "Rulmenți cu ace cu secțiune redusă, pentru spații radiale limitate la articulații de robot",
-      "Peste 50 de ani de experiență declarată în inginerie de precizie, prezent în peste 100 de țări",
+      "Peste 70 de ani de experiență declarată în inginerie de precizie",
       "Subsidiare dedicate pentru America de Nord și Europa, cu suport tehnic regional",
     ],
     keyProducts: [
@@ -375,15 +375,15 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       },
       {
         "code": "LWHD",
-        "description": "ghidaj liniar cu bile, seria H, variantă compactă"
+        "description": "ghidaj liniar cu bile, seria H, variantă cu bloc standard"
       },
       {
         "code": "LWHS",
-        "description": "ghidaj liniar cu bile, seria H, variantă cu șină îngustă"
+        "description": "ghidaj liniar cu bile, seria H, variantă cu bloc compact"
       },
       {
         "code": "LWHG",
-        "description": "ghidaj liniar cu bile, seria H, cu joc reglabil"
+        "description": "ghidaj liniar cu bile, seria H, cu bloc lung"
       },
       {
         "code": "LWHY",
@@ -395,7 +395,7 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       },
       {
         "code": "MHG",
-        "description": "bloc de ghidare miniatural, seria H, cu joc reglabil"
+        "description": "bloc de ghidare miniatural, seria H, cu bloc lung"
       },
       {
         "code": "MHT",
@@ -403,21 +403,21 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       },
       {
         "code": "MHD",
-        "description": "bloc de ghidare miniatural, seria H, variantă compactă"
+        "description": "bloc de ghidare miniatural, seria H, variantă cu bloc standard"
       },
       {
         "code": "MHS",
-        "description": "bloc de ghidare miniatural, seria H, variantă cu șină îngustă"
+        "description": "bloc de ghidare miniatural, seria H, variantă cu bloc compact"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între ghidajele liniare IKO din seria H și seria E?",
-        "a": "Seria Linear Way H oferă o gamă largă de lățimi de șină, de la variante miniaturale până la modele de 65 mm, fiind gândită pentru aplicații generale de poziționare de precizie. Seria Linear Way E are un profil mai subțire, potrivit pentru echipamente unde înălțimea disponibilă de montaj este limitată, cum ar fi anumite mașini de măsurare sau echipamente electronice compacte."
+        "a": "Seria Linear Way H oferă o gamă largă de lățimi de șină, de la variante miniaturale până la modele de 65 mm, fiind gândită pentru aplicații generale de poziționare de precizie. Seria Linear Way E este o altă serie din gama IKO; diferențele de profil și domeniul ei de utilizare se confirmă pe cod, din catalogul IKO."
       },
       {
         "q": "Ce este blocul de ghidare miniatural MH de la IKO?",
-        "a": "MH este blocul de ghidare miniatural din seria Linear Way H, gândit pentru aplicații unde spațiul de montaj este foarte redus, cum ar fi echipamente electronice sau instrumente de laborator. Variantele cu flanșă, precum MHT, sau cu joc reglabil, precum MHG, permit adaptarea la diverse moduri de fixare fără a schimba principiul constructiv al blocului de bază. Alegerea depinde de spațiul disponibil și de metoda de prindere pe structura echipamentului."
+        "a": "MH este blocul de ghidare miniatural din seria Linear Way H, gândit pentru aplicații unde spațiul de montaj este foarte redus, cum ar fi echipamente electronice sau instrumente de laborator. Variantele cu flanșă, precum MHT, sau cu bloc lung, precum MHG, permit adaptarea la diverse moduri de fixare fără a schimba principiul constructiv al blocului de bază. Alegerea depinde de spațiul disponibil și de metoda de prindere pe structura echipamentului."
       },
       {
         "q": "Livrați ghidaje IKO în România?",
@@ -425,13 +425,13 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       },
       {
         "q": "Ce variante are seria LWH de la IKO?",
-        "a": "Seria LWH include variante precum LWHT, cu flanșă pentru montare prin partea superioară, LWHD, mai compactă, LWHS, cu șină îngustă, și LWHG, cu joc reglabil între bilă și șină pentru ajustarea preciziei de rulare. Fiecare variantă răspunde unei constrângeri diferite de montaj, cum ar fi orientarea șuruburilor sau spațiul lateral disponibil pe structura mașinii."
+        "a": "Seria LWH include variante precum LWHT (cu flanșă), LWHD (bloc standard), LWHS (bloc compact) și LWHG (bloc lung). Fiecare variantă răspunde unei constrângeri diferite de montaj, cum ar fi orientarea șuruburilor sau spațiul lateral disponibil pe structura mașinii."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Linear Way H Series | IKO NIPPON THOMPSON","url":"https://www.ikont.co.jp/eg/product/chocudo/tou10.html","publisher":"IKO NIPPON THOMPSON CO., LTD.","accessed":"2026-09-25"},
       {"title":"IKO - Products","url":"https://www.ikont.eu/en/products/","publisher":"IKO NIPPON THOMPSON CO., LTD.","accessed":"2026-09-25"},
@@ -443,18 +443,18 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
     name: "Kipp",
     overview: `KIPP este un producător german de elemente standard de mașini și tehnologie de strângere/fixare, cu producție "Made in Germany" și distribuție prin subsidiare regionale, inclusiv în America de Nord. Gama acoperă mânere ajustabile, sisteme de fixare rapidă, arcuri cu gaz și dispozitive de acționare pneumatică sau hidraulică. Din portofoliu putem oferta mânere reglabile din liniile FEATUREgrip și NATUREgrip, elemente de indexare și sisteme de strângere rapidă pentru dispozitive și fixturi.
 
-KIPP se compară cu Norelem pe segmentul elementelor standard de mașini — ambele oferă cataloage largi de mânere, bolțuri de indexare, șuruburi cu cap striat și componente de fixare gata de montat, gândite să scurteze timpul de proiectare a dispozitivelor și fixturilor. Liniile de mânere FEATUREgrip și NATUREgrip sunt gândite ergonomic, cu materiale rezistente la uleiuri și solvenți uzuali în atelier. Producătorul declară certificare ISO 9001 pentru managementul calității și ISO 14001:2015 pentru managementul de mediu, plus testare TÜV pentru anumite categorii de produse.
+KIPP se compară cu Norelem pe segmentul elementelor standard de mașini — ambele oferă cataloage largi de mânere, bolțuri de indexare, șuruburi cu cap striat și componente de fixare gata de montat, gândite să scurteze timpul de proiectare a dispozitivelor și fixturilor. Producătorul declară certificare ISO 9001 pentru managementul calității și ISO 14001:2015 pentru managementul de mediu, plus mențiunea „TÜV Service tested”, afișată pe site-ul producătorului.
 
 Pentru ateliere și linii de producție din România, KIPP are sens la proiectarea de dispozitive, fixturi și mașini speciale, acolo unde elementele standard (mânere, bolțuri, sisteme de fixare rapidă) reduc timpul de fabricație față de piese executate custom. Compatibilitatea cu standardele DIN uzuale ușurează integrarea în proiecte existente.`,
     whyChoose: [
       "Cataloage largi de elemente standard (mânere, bolțuri de indexare, sisteme de fixare rapidă) compatibile cu standardele DIN uzuale",
-      "Linii de mânere ergonomice FEATUREgrip și NATUREgrip, rezistente la uleiuri și solvenți de atelier",
+      "Linii de mânere ajustabile FEATUREgrip și NATUREgrip",
       "Certificare ISO 9001 pentru calitate și ISO 14001:2015 pentru managementul de mediu",
       "Se compară direct cu Norelem pe segmentul elementelor standard de mașini pentru dispozitive și fixturi",
-      "Testare TÜV pentru anumite categorii de produse de fixare și operare",
+      "Mențiunea „TÜV Service tested” afișată de producător",
     ],
     keyProducts: [
-      { name: "Mânere Ajustabile FEATUREgrip / NATUREgrip", description: "Mânere reglabile cu clichet, folosite pentru fixarea unor componente care trebuie strânse și deblocate frecvent — capace, ghidaje, opritoare pe dispozitive. Designul ergonomic permite reglarea unghiului de prindere fără a schimba forța de strângere, iar materialele folosite rezistă la contactul cu uleiuri și solvenți de atelier. Se montează pe filet standard, compatibil cu majoritatea găurilor deja existente pe echipament. Pentru comandă avem nevoie de diametrul filetului și de lungimea tijei." },
+      { name: "Mânere Ajustabile FEATUREgrip / NATUREgrip", description: "Mânere reglabile cu clichet, folosite pentru fixarea unor componente care trebuie strânse și deblocate frecvent — capace, ghidaje, opritoare pe dispozitive. Se montează pe filet standard, compatibil cu majoritatea găurilor deja existente pe echipament. Pentru comandă avem nevoie de diametrul filetului și de lungimea tijei." },
       { name: "Elemente de Indexare și Bolțuri", description: "Bolțuri de indexare cu resort, folosite pentru poziționarea rapidă și repetabilă a unor componente mobile pe un dispozitiv — de exemplu blocarea unei plăci rotative într-o poziție fixă. Elimină nevoia de măsurare manuală la fiecare reglare, prin blocare mecanică directă în orificiul de indexare. Sunt disponibile în mai multe diametre și lungimi, conform standardelor DIN uzuale. Clientul trebuie să precizeze diametrul bolțului și distanța dintre pozițiile de indexare." },
       { name: "Sisteme de Fixare Rapidă și Arcuri cu Gaz", description: "Sisteme de fixare cu deschidere și închidere rapidă, folosite la capace, uși de protecție sau panouri care trebuie deschise frecvent pentru mentenanță. Arcurile cu gaz susțin greutatea panoului în poziție deschisă, fără efort suplimentar din partea operatorului. Se dimensionează în funcție de forța necesară și de cursa de deschidere. Pentru ofertă avem nevoie de greutatea panoului susținut și de unghiul de deschidere dorit." },
       { name: "Dispozitive de Acționare Pneumatică și Hidraulică", description: "Componente de acționare pentru dispozitive de fixare — cilindri pneumatici sau hidraulici, folosiți acolo unde strângerea manuală nu e practică sau trebuie repetată de multe ori pe schimb. Se integrează cu restul elementelor standard KIPP pentru a forma un dispozitiv complet de fixare. Alegerea între pneumatic și hidraulic depinde de forța necesară și de sursa de energie disponibilă pe linie. Pentru configurare e nevoie de forța de strângere cerută și de presiunea de lucru disponibilă." },
@@ -471,11 +471,11 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
     productCodes: [
       {
         "code": "FEATUREgrip",
-        "description": "linie de mânere ajustabile cu strat exterior tehnopolimeric"
+        "description": "linie de mânere ajustabile"
       },
       {
         "code": "NATUREgrip",
-        "description": "linie de mânere ajustabile din material regenerabil"
+        "description": "linie de mânere ajustabile"
       },
       {
         "code": "Hydraulic",
@@ -495,11 +495,11 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
       },
       {
         "code": "K0338",
-        "description": "bolț de indexare cu fantă de blocare, oțel călit"
+        "description": "bolț de indexare"
       },
       {
         "code": "K0339",
-        "description": "bolț de indexare fără fantă de blocare, oțel inoxidabil călit"
+        "description": "bolț de indexare"
       },
       {
         "code": "K0632-D",
@@ -517,11 +517,11 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
     faq: [
       {
         "q": "Ce diferență este între liniile Kipp FEATUREgrip și NATUREgrip?",
-        "a": "FEATUREgrip este linia de mânere ajustabile Kipp cu strat exterior din tehnopolimer, gândită pentru un aspect modern și o priză fermă în medii industriale obișnuite. NATUREgrip folosește un material cu conținut regenerabil pentru stratul exterior, păstrând aceleași dimensiuni și tip de filet ca linia standard, dar cu un impact redus asupra resurselor folosite la fabricare. Alegerea între cele două ține mai degrabă de preferința de material decât de funcția mecanică."
+        "a": "FEATUREgrip și NATUREgrip sunt două linii de mânere ajustabile din catalogul Kipp. Diferențele de material și de design dintre ele se confirmă pe codul complet, din documentația producătorului."
       },
       {
         "q": "Cum aleg bolțul de indexare Kipp potrivit, K0338 sau K0339?",
-        "a": "K0338 este un bolț de indexare cu fantă de blocare, disponibil în oțel călit sau inoxidabil, potrivit acolo unde bolțul trebuie menținut retras pe durata unei operații. K0339 nu are fantă de blocare, fiind gândit pentru aplicații unde bolțul revine automat în poziție de blocare imediat ce este eliberat, fără a rămâne retras. Alegerea depinde de secvența de lucru a dispozitivului pe care se montează bolțul."
+        "a": "K0338 și K0339 sunt coduri de bolțuri de indexare din catalogul KIPP; diferențele dintre ele (variantă constructivă, material) le confirmăm pe cod, din documentația producătorului. Alegerea depinde de secvența de lucru a dispozitivului pe care se montează bolțul."
       },
       {
         "q": "Livrați elemente de fixare Kipp în România?",
@@ -529,13 +529,13 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
       },
       {
         "q": "Ce sunt clemele de fixare K2550 și K2551 de la Kipp?",
-        "a": "K2550 și K2551 sunt cleme de fixare cu împingere din gama Kipp, folosite pentru strângerea rapidă a pieselor pe un dispozitiv sau o masă de lucru, fără a necesita chei sau scule suplimentare pentru acționare. Diferența dintre cele două ține de dimensiunea și forța de strângere disponibilă, alegerea fiind determinată de greutatea și geometria piesei care trebuie fixată pe durata prelucrării."
+        "a": "K2550 și K2551 sunt cleme de presiune (thrust clamps) din gama Kipp, folosite pentru fixarea fără scule, printr-o rotire de 90° a manetei, a reglajelor de poziție sau de unghi pe bare plate și arbori rotunzi. Diferențele dintre cele două se confirmă pe codul complet, din catalogul KIPP."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"KIPP USA - Products","url":"https://www.kippusa.com/","publisher":"HEINRICH KIPP WERK GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "KIPP USA – Standard Elements, Clamping Technology and Operating Parts", url: "https://www.kippusa.com/", publisher: "NK North America Inc. (KIPP)", accessed: "2026-09-22" },
@@ -609,11 +609,11 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
       },
       {
         "code": "FG7OR",
-        "description": "cablu de energie cu manta din poliolefină, fără halogen"
+        "description": "cablu de energie din familia FG7"
       },
       {
         "code": "AFUMEX 90 PLUS FG17",
-        "description": "cablu cu rezistență la foc, tensiune 450/750 V"
+        "description": "cablu din familia AFUMEX, tensiune 450/750 V"
       },
       {
         "code": "H07RN-F",
@@ -648,8 +648,8 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"AFUMEX shipboard cables","url":"https://www.prysmian.com/en/afumex-shipboard-cables","publisher":"Prysmian Group","accessed":"2026-09-25"},
       {"title":"Prysmian - Products","url":"https://www.prysmian.com/en","publisher":"Prysmian Group","accessed":"2026-09-25"},
@@ -660,22 +660,22 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
   'cintropur': {
     name: "Cintropur",
     founded: 1972,
-    overview: `Cintropur este o marcă belgiană a producătorului Airwatec, specializată în filtrare mecanică a apei, cu fabricație în Belgia din 1972. Gama acoperă filtre cu cartuș pentru apă de la robinet, sisteme pentru apă de ploaie sau de izvor/puț și sterilizatoare UV pentru dezinfecție. Din portofoliu putem oferta filtre mecanice cu tehnologie de filtrare dublă brevetată și sterilizatoare UV din seriile UV 6100 și UV 10100.
+    overview: `Cintropur este o marcă belgiană a producătorului Airwatec, specializată în filtrare mecanică a apei, cu fabricație în Belgia din 1972. Gama acoperă filtre cu cartuș pentru apă de la robinet, sisteme pentru apă de ploaie sau de izvor/puț și sterilizatoare UV pentru dezinfecție. Din portofoliu putem oferta filtre mecanice cu tehnologie de filtrare dublă și sterilizatoare UV din seriile UV 6100 și UV 10100.
 
-Particularitatea filtrelor Cintropur e principiul de filtrare dublă: apa trece printr-un cartuș spiralat care separă mecanic particulele mari, apoi printr-o zonă de sedimentare, ceea ce prelungește durata cartușului comparativ cu un filtru simplu cu un singur strat. Sterilizatoarele UV din seriile 6100 și 10100 completează filtrarea mecanică prin dezinfecția apei fără chimicale, utile la surse proprii (puț, izvor) unde nu există garanția potabilității din rețeaua publică. Producătorul a devenit recent membru al Water Quality Association (WQA), asociație de referință pentru echipamente de tratare a apei.
+Particularitatea filtrelor Cintropur e principiul de filtrare dublă, realizat, conform producătorului, prin vana centrifugală și manșonul filtrant. Sterilizatoarele UV din seriile 6100 și 10100 completează filtrarea mecanică prin dezinfecția apei fără chimicale, utile la surse proprii (puț, izvor) unde nu există garanția potabilității din rețeaua publică.
 
 Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (puțuri, izvoare), la ferme și sisteme de irigație, și la unități din industria alimentară care au nevoie de filtrare mecanică înainte de alte trepte de tratare. Alegerea debitului de filtru și a puterii lămpii UV depinde de debitul instalației și de calitatea apei sursă.`,
     whyChoose: [
-      "Filtrare mecanică dublă brevetată, cu durată de exploatare a cartușului mai mare decât la un filtru simplu",
+      "Filtrare mecanică dublă, prin vană centrifugală și manșon filtrant",
       "Sterilizatoare UV seriile 6100 și 10100 pentru dezinfecție fără chimicale, complementare filtrării mecanice",
-      "Fabricație în Belgia din 1972, cu membership recent în Water Quality Association (WQA)",
+      "Marcă proiectată și fabricată în Belgia, înființată în 1972",
       "Potrivit pentru surse proprii de apă (puț, izvor) fără garanția potabilității din rețeaua publică",
       "Game adaptate atât pentru uz casnic, cât și pentru sisteme colective sau agricole",
     ],
     keyProducts: [
-      { name: "Filtre Mecanice cu Cartuș (Filtrare Dublă)", description: "Filtre pentru apă de robinet cu cartuș spiralat, care separă mecanic particulele mari și le direcționează spre o zonă de sedimentare, în loc să le rețină direct pe suprafața cartușului. Acest principiu prelungește durata cartușului comparativ cu un filtru simplu cu un singur strat de rețea. Se montează pe conducta principală de alimentare cu apă, înainte de utilizarea în instalație. Pentru ofertă avem nevoie de debitul instalației și de diametrul conductei de racord." },
-      { name: "Sterilizatoare UV Seria 6100", description: "Sterilizator UV pentru dezinfecția apei fără adaos de chimicale, montat de regulă după filtrul mecanic, pe instalații domestice sau de dimensiuni mici-medii. Lumina UV inactivează bacteriile și alți microorganisme din apă, fără să modifice gustul sau compoziția chimică. Se folosește tipic la surse proprii (puț, izvor) unde nu există garanția potabilității rețelei publice. Clientul trebuie să precizeze debitul maxim al instalației pentru dimensionarea corectă a lămpii." },
-      { name: "Sterilizatoare UV Seria 10100", description: "Variantă de sterilizator UV pentru debite mai mari decât seria 6100, folosită la instalații colective sau la puncte de consum cu necesar ridicat de apă dezinfectată. Funcționează pe același principiu de dezinfecție cu lumină UV, dar cu o capacitate de debit superioară. Se recomandă montajul după filtrarea mecanică, pentru ca particulele în suspensie să nu blocheze eficiența razei UV. Pentru ofertă avem nevoie de debitul de vârf al instalației." },
+      { name: "Filtre Mecanice cu Cartuș (Filtrare Dublă)", description: "Filtre pentru apă cu dublă filtrare, prin vană centrifugală și manșon filtrant (sită de tip manșon, cu finețe între 1 și 300 µm, conform producătorului). Se montează pe conducta principală de alimentare cu apă, înainte de utilizarea în instalație. Pentru ofertă avem nevoie de debitul instalației și de diametrul conductei de racord." },
+      { name: "Sterilizatoare UV Seria 6100", description: "Sterilizator UV pentru dezinfecția apei fără adaos de chimicale, montat de regulă după filtrul mecanic. Lumina UV inactivează bacteriile și alți microorganisme din apă, fără să modifice gustul sau compoziția chimică. Se folosește tipic la surse proprii (puț, izvor) unde nu există garanția potabilității rețelei publice. Clientul trebuie să precizeze debitul maxim al instalației pentru dimensionarea corectă a lămpii." },
+      { name: "Sterilizatoare UV Seria 10100", description: "Sterilizator UV din gama Cintropur, folosit pentru dezinfecția apei cu lumină UV; debitul și puterea lămpii se confirmă pe cod, din documentația Cintropur. Se recomandă montajul după filtrarea mecanică, pentru ca particulele în suspensie să nu blocheze eficiența razei UV. Pentru ofertă avem nevoie de debitul de vârf al instalației." },
       { name: "Sisteme de Filtrare pentru Apă de Ploaie și Puț", description: "Configurații de filtrare adaptate pentru surse alternative de apă — colectare de ploaie sau puț propriu — unde calitatea apei brute variază mai mult decât la rețeaua publică. Combină filtrarea mecanică cu, opțional, o treaptă de dezinfecție UV, în funcție de utilizarea finală a apei (irigație, uz casnic, uz industrial). Alegerea configurației depinde de utilizarea apei și de nivelul de impurități din sursă. Clientul trebuie să precizeze sursa de apă și utilizarea dorită." },
     ],
     industries: [
@@ -739,7 +739,7 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
     faq: [
       {
         "q": "Ce diferență este între filtrele Cintropur NW 25 și SL 160?",
-        "a": "Diferența principală ține de tipul cartușului: seria NW folosește un cartuș rigid, în timp ce SL 160 funcționează cu un manșon filtrant textil, mai flexibil la debite mici. NW 25 acoperă racorduri de trei sferturi și un țol, iar SL 160 este gândit ca model compact, cu un debit de până la trei metri cubi pe oră, potrivit pentru instalații casnice cu consum redus."
+        "a": "Diferența principală ține de model și de debit: NW 25 are variante cu racord de trei sferturi și de un țol, iar SL 160 este un model compact, cu un debit de până la trei metri cubi pe oră, conform producătorului. Tipul exact de cartuș și racordul se confirmă pe cod."
       },
       {
         "q": "Cum aleg diametrul de racord potrivit pentru un filtru Cintropur?",
@@ -751,13 +751,13 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
       },
       {
         "q": "Ce înseamnă varianta CTN la un filtru Cintropur?",
-        "a": "CTN marchează prezența unei etape suplimentare de tratament, cu cărbune activ sau polifosfat, alături de filtrarea mecanică standard. Modelele DUO-CTN și TRIO-CTN combină astfel două sau trei etape într-o singură carcasă, utile atunci când apa are gust sau miros nedorit ori un nivel de duritate care justifică adăugarea polifosfatului direct în linia de filtrare."
+        "a": "CTN marchează prezența unei etape suplimentare de tratament, cu cărbune activ sau polifosfat, alături de filtrarea mecanică standard. Modelele DUO-CTN și TRIO-CTN sunt variante cu mai multe etape de filtrare; configurația exactă se confirmă pe cod. Sunt utile atunci când apa are gust sau miros nedorit ori un nivel de duritate care justifică adăugarea polifosfatului direct în linia de filtrare."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Cintropur - Home","url":"https://www.cintropur.com/en/","publisher":"Cintropur","accessed":"2026-09-25"},
       {"title":"Cintropur - Products","url":"https://www.cintropur.com/en/products/","publisher":"Cintropur","accessed":"2026-09-25"},
@@ -785,7 +785,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
     keyProducts: [
       { name: "Pompe cu Membrană Seria ASTRAevo", description: "Pompe pneumatice cu membrană dublă, acționate cu aer comprimat, fără ax rotativ etanșat dinamic — riscul de scurgere prin etanșare mecanică e practic eliminat. Sunt potrivite pentru fluide corozive, abrazive sau vâscoase, acolo unde o pompă centrifugală clasică s-ar uza rapid. Varianta ASTRAevo FOOD e destinată contactului cu produse alimentare, cu materiale certificate FDA. Pentru ofertă avem nevoie de tipul de fluid pompat, debitul necesar și materialul de contact dorit." },
       { name: "Pompe cu Membrană Seria QUANTUM / QUANTUM-S", description: "Pompe cu membrană construite integral din material plastic, fără nicio piesă metalică în contact cu fluidul, gândite special pentru medii puternic corozive — acizi concentrați, baze sau solvenți agresivi. Principiul de funcționare rămâne cel al pompelor cu membrană dublă acționate pneumatic, dar corpul complet nemetalic elimină riscul de coroziune galvanică. Se folosesc la instalații chimice și de galvanizare. Clientul trebuie să precizeze fluidul pompat și presiunea de lucru necesară." },
-      { name: "Pompe Centrifugale Seria SATURNevo", description: "Pompe centrifugale pentru transferul de lichide industriale, disponibile în variante de material (oțel, inox, plastic) în funcție de compatibilitatea cu fluidul pompat. Se folosesc la transfer de lichide de proces, recirculare sau alimentare cu apă industrială, acolo unde debitul continuu contează mai mult decât toleranța la particule solide sau la coroziune extremă. Alegerea corectă a materialului depinde de fluidul pompat. Pentru ofertă avem nevoie de debitul, înălțimea de pompare și tipul de fluid." },
+      { name: "Pompe Centrifugale Seria SATURNevo", description: "Pompe centrifugale pentru transferul de lichide industriale, construite din fibră de sticlă (FRP), în versiuni monobloc sau cuplate. Se folosesc la transfer de lichide de proces, recirculare sau alimentare cu apă industrială, acolo unde debitul continuu contează mai mult decât toleranța la particule solide sau la coroziune extremă. Alegerea corectă a materialului depinde de fluidul pompat. Pentru ofertă avem nevoie de debitul, înălțimea de pompare și tipul de fluid." },
       { name: "Pompe Centrifugale de Cuvă SATURNsump", description: "Pompe centrifugale verticale, montate direct într-o cuvă sau bazin, folosite pentru evacuarea sau recircularea lichidelor dintr-un rezervor de proces fără a fi nevoie de o conductă de aspirație separată. Se aplică la băi chimice, cuve de galvanizare sau bazine de proces din industria tratării apelor. Lungimea coloanei se alege în funcție de adâncimea cuvei. Clientul trebuie să precizeze adâncimea cuvei și fluidul din bazin." },
     ],
     certifications: [ "ISO 9001:2015", "ATEX", "FDA (pentru variantele în contact cu alimente)" ],
@@ -794,7 +794,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
       "Industria alimentară — pompare produse vâscoase, variantă certificată FDA",
       "Tratarea apelor — transfer de lichide cu conținut abraziv",
       "Cosmetice și farmaceutice — transfer de fluide sensibile la contaminare",
-      "Aplicații offshore — pompe rezistente la apă de mare",
+      "Aplicații offshore — pompele MISTRAL, în variante din inox sau polietilenă",
     ],
     infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită direct cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din surse publice ale producătorului Argal.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a membranelor Argal cu fiecare fluid specific fără fișa de securitate a produsului dumneavoastră.",
@@ -851,7 +851,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
       },
       {
         "q": "Livrați pompe Argal în România?",
-        "a": "Da, pompele Argal se aduc punctual din gama oficială a producătorului, cu un termen orientativ de 1–4 săptămâni, fiindcă varietatea mare de materiale și dimensiuni nu permite un stoc propriu constant pe raft. Pentru o ofertă avem nevoie de debitul dorit, presiunea de lucru și tipul de fluid vehiculat, pentru a recomanda modelul potrivit."
+        "a": "Da, pompele Argal se aduc punctual din gama producătorului, cu un termen orientativ de 1–4 săptămâni, fiindcă varietatea mare de materiale și dimensiuni nu permite un stoc propriu constant pe raft. Pentru o ofertă avem nevoie de debitul dorit, presiunea de lucru și tipul de fluid vehiculat, pentru a recomanda modelul potrivit."
       },
       {
         "q": "Cum aleg pompa centrifugă Argal potrivită pentru instalația mea?",
@@ -860,8 +860,8 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Argal - Home","url":"https://www.argal.it","publisher":"Argal","accessed":"2026-09-25"},
       { title: "Argal – Pompe Pneumatiche a Membrana e Centrifughe", url: "https://www.argal.it", publisher: "Argal S.r.l.", accessed: "2026-09-22" },
@@ -870,23 +870,23 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
   },
   'esab': {
     name: "ESAB",
-    overview: `ESAB este un producător de echipamente și consumabile de sudare și tăiere, cu activitate globală și portofoliu ce acoperă peste 20 de mărci deținute, printre care Victor, Tweco, Thermal Dynamics și Stoody. Gama principală include aparate de sudură MIG, TIG și cu electrod învelit (Stick), sisteme de tăiere cu plasmă și CNC, și materiale de adaos pentru oțel carbon, inox, aliaje de nichel și cupru. Din portofoliu putem oferta aparate de sudură multi-proces, torțe MIG/TIG/plasmă și electrozi sau sârme de sudură pentru aplicații industriale curente.
+    overview: `ESAB este un producător de echipamente și consumabile de sudare și tăiere, cu activitate globală și mărci deținute precum Victor, Tweco, Thermal Dynamics și Stoody. Gama principală include aparate de sudură MIG, TIG și cu electrod învelit (Stick), sisteme de tăiere cu plasmă și CNC, și materiale de adaos pentru oțel carbon, inox, aliaje de nichel și cupru. Din portofoliu putem oferta aparate de sudură multi-proces, torțe MIG/TIG/plasmă și electrozi sau sârme de sudură pentru aplicații industriale curente.
 
 ESAB acoperă un spectru neobișnuit de larg pentru un singur furnizor — de la sudura manuală de șantier, cu aparate portabile sau pe motor, până la sudura automată submerged-arc și sisteme robotizate pentru linii de producție de serie mare. Materialele de adaos sunt disponibile pentru oțel ușor, inox, aliaje de nichel, cupru și pentru hardfacing (depunere de straturi rezistente la uzură pe piese supuse abraziunii). Mărcile deținute — Victor pentru echipament oxy-gaz, Tweco pentru torțe și consumabile de uzură, Thermal Dynamics pentru tăiere cu plasmă — completează oferta principală ESAB sub un singur furnizor.
 
 Pentru atelierele și constructorii metalici din România, ESAB are sens la sudura de structuri metalice, conducte și rezervoare, unde varietatea de procese (MIG, TIG, plasmă) și de materiale de adaos acoperă majoritatea aplicațiilor curente fără să schimbi furnizorul. Alegerea corectă a consumabilului depinde de materialul de bază și de poziția de sudare.`,
     whyChoose: [
-      "Portofoliu de peste 20 de mărci deținute (Victor, Tweco, Thermal Dynamics, Stoody) sub un singur furnizor",
+      "Mărci deținute — Victor, Tweco, Thermal Dynamics, Stoody — sub același producător",
       "Materiale de adaos pentru oțel carbon, inox, aliaje de nichel, cupru și hardfacing anti-uzură",
       "Sisteme de tăiere cu plasmă și CNC alături de echipament de sudură clasică MIG/TIG/Stick",
       "Acoperă atât sudura manuală de șantier, cât și sudura automată submerged-arc pentru producție de serie",
-      "Torțe și consumabile de uzură marca Tweco, compatibile cu majoritatea aparatelor de sudură de pe piață",
+      "Torțe și consumabile de uzură marca Tweco",
     ],
     keyProducts: [
       { name: "Aparate de Sudură MIG/TIG/Stick Multi-Proces", description: "Aparate de sudură capabile să acopere mai multe procese (MIG, TIG, electrod învelit) în același echipament, folosite la ateliere unde tipul de sudură variază de la o comandă la alta. Sunt disponibile în variante portabile pentru șantier, cu alimentare de la rețea sau motor termic pentru locații fără curent electric. Alegerea capacității depinde de grosimea materialului sudat și de procesul dominant folosit. Pentru ofertă avem nevoie de procesul de sudură dorit și de curentul maxim necesar." },
       { name: "Sisteme de Tăiere cu Plasmă și CNC", description: "Sisteme de tăiere cu plasmă, manuale sau integrate în mese CNC, pentru secționarea tablei metalice cu precizie superioară față de tăierea oxy-gaz clasică. Se folosesc la ateliere de confecții metalice care taie profile repetitive sau forme complexe după un desen digital. Capacitatea de tăiere depinde de grosimea și tipul materialului. Clientul trebuie să precizeze grosimea maximă de tăiat și tipul de material (oțel, inox, aluminiu)." },
       { name: "Materiale de Adaos (Sârme, Electrozi, Hardfacing)", description: "Sârme pline și tubulare, electrozi înveliți și materiale de hardfacing, disponibile pentru oțel carbon, inox și aliaje de nichel, în funcție de materialul de bază sudat. Materialele de hardfacing depun un strat rezistent la uzură pe suprafețe supuse abraziunii sau impactului repetat. Pentru ofertă avem nevoie de materialul de bază, diametrul sârmei/electrodului și procedeul folosit." },
-      { name: "Torțe și Consumabile de Uzură (marca Tweco)", description: "Torțe MIG și consumabile de uzură — duze, vârfuri de contact, difuzoare de gaz — compatibile cu majoritatea aparatelor de sudură MIG de pe piață, nu doar cu echipamentele ESAB. Sunt piese cu uzură rapidă în funcționare continuă, comandate de regulă în cantități mai mari. Clientul trebuie să precizeze modelul torței și diametrul sârmei de sudură." },
+      { name: "Torțe și Consumabile de Uzură (marca Tweco)", description: "Torțe MIG și consumabile de uzură — duze, vârfuri de contact, difuzoare de gaz — a căror compatibilitate cu aparatul dumneavoastră o confirmăm pe modelul exact al torței. Sunt piese cu uzură rapidă în funcționare continuă, comandate de regulă în cantități mai mari. Clientul trebuie să precizeze modelul torței și diametrul sârmei de sudură." },
     ],
     industries: [
       "Construcții metalice — sudura structurilor și a îmbinărilor portante",
@@ -904,7 +904,7 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
       },
       {
         "code": "Renegade VOLT EMP 200i",
-        "description": "Aparat de sudură cu electrod învelit, capacitate 200 amperi"
+        "description": "Aparat de sudură din gama Renegade VOLT, curent de 200 amperi"
       },
       {
         "code": "Rebel",
@@ -971,8 +971,8 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"ESAB - Equipment","url":"https://esab.com/na/en_us/equipment/","publisher":"ESAB","accessed":"2026-09-25"},
       { title: "ESAB – Welding and Cutting Equipment and Consumables", url: "https://esab.com", publisher: "ESAB Corporation", accessed: "2026-09-22" },
@@ -990,7 +990,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
     whyChoose: [
       "Căști certificate EN 397 (industrial) și EN 12492 (alpinism industrial, lucru la înălțime) în aceeași gamă",
       "Se compară cu MSA Safety pe segmentul echipamentului complet de protecție pentru cap",
-      "Certificare AEO pentru operator economic autorizat, relevantă pentru fluxul vamal al comenzilor din UK",
+      "Recunoaștere AEO (Authorised Economic Operator — operator economic autorizat), indicată de producător",
       "Protecție respiratorie conformă NIOSH, alături de standardele europene uzuale pentru filtre",
       "Gamă completă — cap, respirator, ochi, auz, lucru la înălțime — de la un singur producător",
     ],
@@ -1019,7 +1019,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       },
       {
         "code": "EVOGuard",
-        "description": "Gamă de căști de protecție industrială"
+        "description": "Gamă de viziere de protecție facială"
       },
       {
         "code": "EVO Vista",
@@ -1057,7 +1057,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
     faq: [
       {
         "q": "Ce cască de protecție recomandă JSP pentru lucrul la înălțime?",
-        "a": "Pentru lucrul la înălțime, JSP oferă căști precum EVO Vista, cu vizor integrat pentru protecție facială suplimentară, și modelul ARC170-00C-700 din gama EVO AlTA Skyworker, gândit cu vizibilitate ridicată și sistem de reglare cu rotiță. Alegerea depinde de riscurile specifice de pe șantier, prezența particulelor în aer și necesitatea de atașare a altor echipamente pe cască."
+        "a": "Pentru lucrul la înălțime, JSP are în gamă modelul ARC170-00C-700 din familia EVO AlTA Skyworker; standardul aplicabil (EN 12492) și configurația se confirmă pe codul complet. Alegerea depinde de riscurile specifice de pe șantier, prezența particulelor în aer și necesitatea de atașare a altor echipamente pe cască."
       },
       {
         "q": "Ce este sistemul Force8 de la JSP?",
@@ -1069,13 +1069,13 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       },
       {
         "q": "Ce diferență este între gama EVOGuard și Hardcap Aerolite de la JSP?",
-        "a": "EVOGuard este o gamă mai amplă de căști industriale, cu variante precum EVO Vista sau EVO5 DualSwitch, orientată spre confort și ventilație reglabilă, în timp ce Hardcap Aerolite pune accent pe greutatea redusă a căștii pentru purtare pe durata întregii zile de lucru. Ambele game respectă cerințele de protecție a capului pentru mediul industrial."
+        "a": "EVOGuard este gama JSP de viziere de protecție facială, iar Hardcap Aerolite este o gamă separată, pentru protecția capului. Modelele și standardele aplicabile se confirmă pe cod, din documentația JSP."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"JSP Safety - Home","url":"https://www.jspsafety.com/","publisher":"JSP","accessed":"2026-09-25"},
       { title: "JSP – Head, Respiratory and Traffic Safety Solutions", url: "https://www.jspsafety.com", publisher: "JSP Limited", accessed: "2026-09-22" },
@@ -1085,22 +1085,22 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
   'hexagon-manufacturing-intelligence': {
     name: "Hexagon Manufacturing Intelligence",
     headquarters: "Cobham, Marea Britanie",
-    overview: `Hexagon Manufacturing Intelligence este divizia de metrologie industrială a grupului Hexagon AB, cu birou operațional la Cobham, în Marea Britanie. Portofoliul acoperă mașini de măsurat în coordonate (CMM), scanere 3D portabile și software de metrologie și inspecție. Din gamă putem oferta sisteme CMM din familia MAESTRO, scanere laser portabile ATLASCAN Max și MARVELSCAN, și software de inspecție Geomagic Design X pentru compararea piesei fabricate cu modelul CAD.
+    overview: `Hexagon Manufacturing Intelligence este divizia de metrologie industrială a grupului Hexagon AB, cu birou operațional la Cobham, în Marea Britanie. Portofoliul acoperă mașini de măsurat în coordonate (CMM), scanere 3D portabile și software de metrologie și inspecție. Din gamă putem oferta sisteme CMM din familia MAESTRO, scanere 3D portabile ATLASCAN Max și MARVELSCAN, și software de inginerie inversă Geomagic Design X pentru crearea modelelor CAD din date de scanare 3D.
 
-Pe segmentul metrologiei de precizie, Hexagon Manufacturing Intelligence se compară cu Mitutoyo — ambele acoperă atât CMM-uri staționare pentru laborator de metrologie, cât și instrumente portabile pentru măsurare direct pe linia de producție. Sistemul CMM MAESTRO e descris de producător ca soluție all-digital, cu procesare integrată a semnalului de la senzor. Scanerele ATLASCAN Max și MARVELSCAN captează nori de puncte 3D pentru inspecție fără contact, utile la piese complexe sau la materiale moi care s-ar deforma la palpare mecanică. Software-ul Q-DAS qs-STAT completează gama pentru analiza statistică a proceselor (SPC) pe baza datelor de măsurare.
+Pe segmentul metrologiei de precizie, Hexagon Manufacturing Intelligence se compară cu Mitutoyo — ambele acoperă atât CMM-uri staționare pentru laborator de metrologie, cât și instrumente portabile pentru măsurare direct pe linia de producție. Sistemul CMM MAESTRO e descris de producător ca soluție all-digital de nouă generație, cu identificare automată a senzorilor. Scanerele ATLASCAN Max și MARVELSCAN captează nori de puncte 3D pentru inspecție fără contact, utile la piese complexe sau la materiale moi care s-ar deforma la palpare mecanică. Software-ul Q-DAS qs-STAT completează gama pentru analiza statistică a proceselor (SPC) pe baza datelor de măsurare.
 
 Pentru producătorii din România cu control dimensional propriu, gama Hexagon Manufacturing Intelligence are sens la inspecția pieselor turnate, ștanțate sau injectate, unde compararea rapidă cu modelul CAD 3D scurtează timpul de control față de măsurarea manuală cu instrumente clasice. Alegerea între CMM staționar și scaner portabil depinde de dimensiunea piesei și de volumul de producție.`,
     whyChoose: [
-      "Sisteme CMM din familia MAESTRO, cu procesare digitală integrată a semnalului de măsurare",
-      "Scanere laser portabile ATLASCAN Max și MARVELSCAN pentru inspecție fără contact a pieselor complexe",
-      "Software Geomagic Design X pentru compararea directă a piesei fabricate cu modelul CAD",
+      "Sisteme CMM din familia MAESTRO, soluție all-digital cu identificare automată a senzorilor",
+      "Scanere 3D portabile ATLASCAN Max și MARVELSCAN pentru inspecție fără contact a pieselor complexe",
+      "Software Geomagic Design X pentru inginerie inversă: crearea modelelor CAD din date de scanare 3D",
       "Q-DAS qs-STAT pentru analiza statistică a proceselor (SPC) pe baza datelor de măsurare",
       "Se compară cu Mitutoyo pe segmentul CMM staționare și instrumente portabile de măsurare",
     ],
     keyProducts: [
-      { name: "Mașini de Măsurat în Coordonate MAESTRO", description: "Sistem CMM descris de producător ca soluție all-digital, cu procesare integrată a semnalului de măsurare direct în structura mașinii. Se folosește pentru controlul dimensional al pieselor în laboratorul de metrologie, cu palpare de contact pe puncte definite ale geometriei piesei. Precizia și volumul de măsurare variază în funcție de configurația aleasă. Pentru ofertă avem nevoie de dimensiunile maxime ale pieselor măsurate și de toleranța cerută." },
-      { name: "Scanere Laser Portabile ATLASCAN Max / MARVELSCAN", description: "Scanere 3D portabile care captează un nor de puncte pe suprafața piesei fără contact fizic, utile la geometrii complexe, suprafețe curbe sau materiale care s-ar deforma la palpare mecanică. Rezultatul se compară direct cu modelul CAD al piesei pentru identificarea rapidă a abaterilor dimensionale. Sunt potrivite pentru inspecție pe linia de producție sau la piese de dimensiuni mari, greu de mutat la un CMM staționar. Clientul trebuie să precizeze dimensiunea piesei și toleranța de măsurare cerută." },
-      { name: "Software de Inspecție Geomagic Design X", description: "Software care prelucrează norul de puncte captat de un scaner 3D și îl compară cu modelul CAD original al piesei, evidențiind abaterile dimensionale printr-o hartă color. Se folosește pentru control de calitate, ingineria inversă a pieselor sau validarea unei matrițe/forme după fabricație. Rezultatul poate fi exportat ca raport de inspecție. Pentru licențiere avem nevoie de numărul de utilizatori și de formatul CAD folosit intern." },
+      { name: "Mașini de Măsurat în Coordonate MAESTRO", description: "Sistem CMM descris de producător ca soluție all-digital de nouă generație, cu identificare automată a senzorilor. Se folosește pentru controlul dimensional al pieselor în laboratorul de metrologie, cu palpare de contact pe puncte definite ale geometriei piesei. Precizia și volumul de măsurare variază în funcție de configurația aleasă. Pentru ofertă avem nevoie de dimensiunile maxime ale pieselor măsurate și de toleranța cerută." },
+      { name: "Scanere 3D Portabile ATLASCAN Max / MARVELSCAN", description: "Scanere 3D portabile care captează un nor de puncte pe suprafața piesei fără contact fizic, utile la geometrii complexe, suprafețe curbe sau materiale care s-ar deforma la palpare mecanică. Rezultatul se compară direct cu modelul CAD al piesei pentru identificarea rapidă a abaterilor dimensionale. Sunt potrivite pentru inspecție pe linia de producție sau la piese de dimensiuni mari, greu de mutat la un CMM staționar. Clientul trebuie să precizeze dimensiunea piesei și toleranța de măsurare cerută." },
+      { name: "Software de Inginerie Inversă Geomagic Design X", description: "Software de inginerie inversă care creează modele CAD pornind de la datele de scanare 3D ale piesei, de la orice scaner, conform producătorului. Se folosește pentru documentarea sau reproiectarea pieselor existente, fără desen CAD original. Pentru licențiere avem nevoie de numărul de utilizatori și de formatul CAD folosit intern." },
       { name: "Software de Analiză Statistică Q-DAS qs-STAT", description: "Software de analiză statistică a proceselor (SPC), care prelucrează datele de măsurare colectate de pe CMM sau scaner pentru a evalua capabilitatea procesului de fabricație și a semnala derapaje de la toleranță. Se folosește tipic în producția de serie, unde controlul dimensional trebuie documentat sistematic, nu doar punctual. Rezultatele pot fi integrate în rapoartele de calitate cerute de client sau auditor. Clientul trebuie să precizeze volumul de date generat și sistemul de măsurare folosit." },
     ],
     industries: [
@@ -1109,7 +1109,7 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       "Electronice — măsurare de precizie a componentelor mici",
       "Industrie grea — inspecție piese turnate sau sudate de dimensiuni mari",
     ],
-    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul e de 1–4 săptămâni, cu mențiunea că sistemele CMM complete se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
+    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul este de 1–4 săptămâni pentru componente și software, iar sistemele complexe (de exemplu CMM complete) depășesc de regulă 4 săptămâni și se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
     limitation: "Nu putem confirma compatibilitatea software-ului de metrologie cu formatele CAD proprii ale clientului fără o verificare punctuală.",
     productCodes: [
       {
@@ -1122,11 +1122,11 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       },
       {
         "code": "ATLASCAN Max",
-        "description": "Scanner 3D portabil cu conectivitate wireless"
+        "description": "Scaner 3D portabil cu conectivitate wireless"
       },
       {
         "code": "MARVELSCAN",
-        "description": "Scanner de mână cu fotogrammetrie, fără ținte, pentru măsurare wireless"
+        "description": "Scaner de mână cu fotogrametrie, fără ținte, pentru măsurare wireless"
       },
       {
         "code": "Q-DAS qs-STAT",
@@ -1176,7 +1176,7 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       },
       {
         "q": "Furnizați echipamente Hexagon Manufacturing Intelligence la comandă în România?",
-        "a": "Da, aducem la comandă mașini de măsurat, scanere și software din gamele MAESTRO, ATLASCAN sau Geomagic, pe baza referinței confirmate de client. Nu depozităm această gamă pe raft; disponibilitatea se confirmă din sursele publice ale producătorului, iar durata tipică este de 1–4 săptămâni."
+        "a": "Da, aducem la comandă mașini de măsurat, scanere și software din gamele MAESTRO, ATLASCAN sau Geomagic, pe baza referinței confirmate de client. Nu depozităm această gamă pe raft; pentru sisteme complexe, precum mașinile de măsurat, termenul depășește de regulă 4 săptămâni și se confirmă punctual, pe baza configurației."
       },
       {
         "q": "Ce parametri trimit pentru a primi o ofertă la un sistem de măsurare Hexagon?",
@@ -1184,13 +1184,13 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       },
       {
         "q": "Ce este scanerul Hexagon MARVELSCAN?",
-        "a": "Este un scanner 3D de mână care folosește fotogrammetrie pentru a se orienta în spațiu fără ținte lipite pe piesă, oferind libertate de mișcare în timpul măsurării wireless. Se folosește pentru controlul dimensional al pieselor complexe sau pentru inginerie inversă, alături de software precum Geomagic Design X. Precizia rezultatului depinde de calibrarea scanerului și de condițiile de iluminare din zona de lucru."
+        "a": "Este un scaner 3D de mână care folosește fotogrammetrie pentru a se orienta în spațiu fără ținte lipite pe piesă, oferind libertate de mișcare în timpul măsurării wireless. Se folosește pentru controlul dimensional al pieselor complexe sau pentru inginerie inversă, alături de software precum Geomagic Design X. Precizia rezultatului depinde de calibrarea scanerului și de condițiile de iluminare din zona de lucru."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Hexagon Manufacturing Intelligence | Hexagon","url":"https://hexagon.com/company/divisions/manufacturing-intelligence","publisher":"Hexagon","accessed":"2026-09-26"},
       {"title":"Coordinate Measuring Machines | Hexagon","url":"https://hexagon.com/products/product-groups/measurement-inspection-hardware/coordinate-measuring-machines","publisher":"Hexagon","accessed":"2026-09-26"},
@@ -1227,16 +1227,16 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       "Industria alimentară — instrumente igienice pentru linii de proces",
       "HVAC și refrigerare — manometre și senzori pentru sisteme de climatizare",
     ],
-    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Ce putem și ce nu putem confirma: datele tehnice folosite aici provin din surse publice ale producătorului Ashcroft.`,
+    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Datele tehnice le confirmăm pe cod, din documentația publică a producătorului.`,
     limitation: "Nu putem confirma compatibilitatea materialului de contact cu fluidul dumneavoastră fără specificarea exactă a presiunii, temperaturii și mediului de lucru.",
     productCodes: [
       {
         "code": "1009",
-        "description": "Manometru din oțel inoxidabil, diametre de cadran 2,5 și 3,5 țoli"
+        "description": "Manometru din seria Ashcroft 1009; materialul și diametrul cadranului se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "1279 Duragauge",
-        "description": "Manometru industrial de uz general din seria Duragauge"
+        "description": "Manometru de proces cu cadran de 4,5 țoli, din seria Duragauge"
       },
       {
         "code": "1377",
@@ -1256,29 +1256,25 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       },
       {
         "code": "DXLdp",
-        "description": "Transmițător de presiune diferențială, variantă digitală"
+        "description": "Traductor de presiune diferențială pentru panouri cu densitate mare de montaj (camere curate, camere de control), cu indicatoare LED de stare"
       },
       {
         "code": "IXLdp",
-        "description": "Traductor de presiune diferențială, variantă industrială"
+        "description": "Traductor de presiune diferențială din familia XLdp; caracteristicile se confirmă pe cod, din documentația Ashcroft"
       },
       {
         "code": "RXLdp",
-        "description": "Traductor de presiune diferențială, variantă robustă"
-      },
-      {
-        "code": "CXLdp",
-        "description": "Traductor de presiune diferențială, variantă compactă"
+        "description": "Traductor de presiune diferențială din familia XLdp; caracteristicile se confirmă pe cod, din documentația Ashcroft"
       }
     ],
     faq: [
       {
         "q": "Ce manometru recomandă Ashcroft pentru uz industrial general?",
-        "a": "Pentru uz general, Ashcroft recomandă seria Duragauge, cu modele precum 1279, 1377, 1379 sau 2462, construite pentru rezistență la vibrații și condiții de proces solicitante. Modelul 1009, disponibil cu cadran de 2,5 sau 3,5 țoli din oțel inoxidabil, este potrivit pentru aplicații unde se cere o citire clară și o construcție compactă în spații restrânse."
+        "a": "Pentru manometre de proces, Ashcroft oferă seria Duragauge, cu modele precum 1279 (cadran de 4,5 țoli, precizie ±0,5% din domeniu, ASME B40.100 Grad 2A), 1377, 1379 sau 2462, cu opțiuni de amortizare precum umplere cu lichid sau șurub de reglaj. Pentru modelul 1009, materialul și dimensiunea cadranului se confirmă pe cod, din documentația producătorului."
       },
       {
         "q": "Ce diferență este între seriile XLdp și DXLdp de la Ashcroft?",
-        "a": "XLdp este traductorul de bază pentru măsurarea presiunii diferențiale, în timp ce DXLdp adaugă o componentă digitală, utilă acolo unde se dorește un semnal de ieșire configurabil sau afișaj local direct pe echipament. Variantele IXLdp, RXLdp și CXLdp completează familia cu opțiuni industriale, robuste, respectiv compacte, pentru aceeași funcție de bază."
+        "a": "XLdp este un traductor de presiune diferențială pentru domenii foarte mici de presiune, cu ieșiri de 1-5 Vdc, 1-6 Vdc sau 4-20 mA. DXLdp este destinat panourilor cu densitate mare de montaj din camere curate, camere de izolare și camere de control, are indicatoare LED de stare și actuator SpoolCal pentru calibrare în loc, fără demontarea racordurilor. Pentru variantele IXLdp și RXLdp vă comunicăm datele din documentația producătorului, pe cod."
       },
       {
         "q": "Livrați instrumente de presiune Ashcroft în România?",
@@ -1291,8 +1287,8 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Ashcroft - Products","url":"https://www.ashcroft.com/products/","publisher":"Ashcroft","accessed":"2026-09-25"},
       {"title":"1279 Pressure Gauge","url":"https://www.ashcroft.com/products/pressure/pressure-gauges/1279-pressure-gauge/","publisher":"Ashcroft","accessed":"2026-09-25"},

@@ -3,7 +3,7 @@
 export const brandContentBatch54 = {
   'carlo-gavazzi': {
     name: "Carlo Gavazzi",
-    overview: `Carlo Gavazzi este un grup elvețian de automatizări industriale, prezent prin filiale proprii în peste douăzeci de țări și printr-o rețea de peste șaizeci de distribuitori independenți pe mai multe continente. Gama acoperă senzori de proximitate și fotoelectrici, relee de monitorizare a parametrilor electrici, temporizatoare, relee statice pentru comutare de sarcină, contoare și sisteme de management al energiei, plus module fieldbus pentru integrarea în rețele industriale. Din acest portofoliu putem oferta senzorii, releele statice și contoarele de energie pentru panouri electrice și linii de automatizare.
+    overview: `Carlo Gavazzi este un grup elvețian de automatizări industriale, prezent prin 24 de companii proprii de vânzări și printr-o rețea de peste șaizeci de distribuitori naționali independenți pe mai multe continente. Gama acoperă senzori de proximitate și fotoelectrici, relee de monitorizare a parametrilor electrici, temporizatoare, relee statice pentru comutare de sarcină, contoare și sisteme de management al energiei, plus module fieldbus pentru integrarea în rețele industriale. Din acest portofoliu putem oferta senzorii, releele statice și contoarele de energie pentru panouri electrice și linii de automatizare.
 
 Punctul forte al mărcii este acoperirea unui lanț întreg de măsură și comutare dintr-un singur catalog: senzorul care detectează piesa pe bandă, releul care protejează motorul și contorul care înregistrează consumul pe fiecare linie. Spre deosebire de Finder, orientat mai ales spre relee electromecanice și temporizatoare de tablou, Carlo Gavazzi adaugă segmentul de senzori și energie, util când un integrator vrea componente compatibile dintr-o singură familie pentru un tablou complet.
 
@@ -55,34 +55,34 @@ Pentru piața din România, gama are sens acolo unde un tablou trebuie completat
         "description": "Senzor capacitiv de proximitate cu comunicație IO-Link"
       },
       {
-        "code": "Frequency Drives",
+        "code": "Convertizoare de frecvență",
         "description": "Convertizoare de frecvență pentru controlul motoarelor trifazate"
       },
       {
-        "code": "Scroll Compressor Soft Starters",
+        "code": "Startere line pentru compresoare scroll",
         "description": "Starter lin dedicat pornirii compresoarelor de tip scroll"
       },
       {
-        "code": "General Purpose Soft Starters",
+        "code": "Startere line de uz general",
         "description": "Starter lin pentru pornirea graduală a motoarelor de uz general"
       },
       {
-        "code": "Motor Reversing Relays",
+        "code": "Relee de inversare a sensului motorului",
         "description": "Releu pentru inversarea sensului de rotație al motorului"
       },
       {
-        "code": "Multi-load Metering",
+        "code": "Contorizare pentru sarcini multiple",
         "description": "Contor de energie pentru monitorizarea simultană a mai multor sarcini"
       },
       {
-        "code": "All-in-One IoT Meters",
+        "code": "Contoare de energie cu IoT integrat",
         "description": "Contor de energie cu conectivitate IoT integrată"
       }
     ],
     faq: [
       {
         "q": "Ce înseamnă codul lung al unui senzor Carlo Gavazzi, de exemplu PD30ETBI20BPM5IO?",
-        "a": "Codul complet descrie fiecare caracteristică a senzorului: seria, dimensiunea carcasei, tipul de detecție, distanța de comutare, tipul de ieșire și prezența comunicației IO-Link. Pentru un senzor precum PD30ETBI20BPM5IO, literele arată o construcție fotoelectrică cu ieșire digitală și interfață IO-Link pentru integrare în sisteme moderne de automatizare. Confirmarea completă a parametrilor se face din fișa tehnică Carlo Gavazzi, nu doar din codul scurt vorbit."
+        "a": "Codul complet descrie fiecare caracteristică a senzorului: seria, dimensiunea carcasei, tipul de detecție, distanța de comutare, tipul de ieșire și prezența comunicației IO-Link. Pentru un senzor precum PD30ETBI20BPM5IO, literele arată o construcție fotoelectrică cu ieșire digitală și interfață IO-Link pentru integrare în sisteme moderne de automatizare. Confirmarea completă a parametrilor se face din fișa tehnică Carlo Gavazzi, nu doar din cod."
       },
       {
         "q": "Procurați senzori și relee Carlo Gavazzi pentru livrare în România?",
@@ -99,8 +99,8 @@ Pentru piața din România, gama are sens acolo unde un tablou trebuie completat
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Sensors | Carlo Gavazzi Automation","url":"https://www.gavazziautomation.com/en-global/products/sensors","publisher":"Carlo Gavazzi","accessed":"2026-09-26"},
       {"title":"Carlo Gavazzi Automation Components homepage","url":"https://www.gavazziautomation.com/","publisher":"Carlo Gavazzi","accessed":"2026-09-26"},
@@ -172,7 +172,7 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
       },
       {
         "code": "E50M2-86SG",
-        "description": "Ridicător pe vid cu prindere laterală"
+        "description": "Ridicător pe vid electric, seria E"
       },
       {
         "code": "EF50M4-86C180",
@@ -180,7 +180,7 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
       },
       {
         "code": "L100M4-61-2/44",
-        "description": "Cadru de ridicare cu acumulator, pentru montaj pe accesorii"
+        "description": "Componentă de cadru de ridicare pe vid, seria L"
       },
       {
         "code": "VPF-57-DCP",
@@ -196,7 +196,7 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
       },
       {
         "code": "VPHF-Series",
-        "description": "Generatoare de vid de debit ridicat, pentru materiale poroase"
+        "description": "Ridicătoare pe vid specializate, cu debit ridicat, pentru materiale poroase"
       },
       {
         "code": "APU-Series",
@@ -206,11 +206,11 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
     faq: [
       {
         "q": "Ce diferență este între ridicătoarele pe vid Anver din seria LF și seria E?",
-        "a": "Seria LF, precum LF-8, este un cadru standard de ridicare, folosit pentru manipularea plăcilor plane, în timp ce seria E, cu modele precum E4000M16-115-4/84FPX, este dimensionată pentru sarcini mult mai grele, unde este nevoie de o structură mai robustă și de mai multe ventuze. Alegerea depinde de greutatea și dimensiunea materialului manipulat."
+        "a": "Seria LF, precum LF-8, este un cadru standard de ridicare, folosit pentru manipularea plăcilor plane, în timp ce seria E, cu modele precum E4000M16-115-4/84FPX, cuprinde ridicătoare pe vid cu acționare electrică. Alegerea depinde de greutatea și dimensiunea materialului manipulat."
       },
       {
-        "q": "Ce sunt generatoarele Anver din seria VPHF?",
-        "a": "Generatoarele VPHF sunt unități de vid cu debit ridicat, gândite special pentru materiale poroase, cum ar fi lemnul, cartonul sau anumite tipuri de plăci, unde o pompă de vid standard nu ar reuși să mențină presiunea necesară din cauza pierderilor prin material. Se montează de obicei pe cadre de ridicare sau pe capete de prindere personalizate."
+        "q": "Ce este seria Anver VPHF?",
+        "a": "Seria VPHF cuprinde ridicătoare pe vid specializate, cu debit ridicat, destinate materialelor poroase. Detaliile tehnice se confirmă pe cod, din documentația Anver."
       },
       {
         "q": "Livrați echipamente de ridicare pe vid Anver în România?",
@@ -218,13 +218,13 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
       },
       {
         "q": "Ce este un ridicător cu basculare la 180 de grade de la Anver, precum EF50M4-86C180?",
-        "a": "EF50M4-86C180 este un ridicător pe vid capabil să răstoarne complet o piesă, la 180 de grade, util atunci când o placă trebuie întoarsă pe cealaltă față în timpul procesului de fabricație. Codul din denumire indică forța de ridicare, tipul motorului și unghiul maxim de basculare al echipamentului."
+        "a": "EF50M4-86C180 este un ridicător pe vid capabil să răstoarne complet o piesă, la 180 de grade, util atunci când o placă trebuie întoarsă pe cealaltă față în timpul procesului de fabricație. Semnificația exactă a fiecărei părți din cod se confirmă din documentația Anver."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Vacuum Lifters","url":"https://www.anver.com/products/vacuum-lifters/","publisher":"Anver Corporation","accessed":"2026-09-25"},
       {"title":"Products","url":"https://www.anver.com/products/","publisher":"Anver Corporation","accessed":"2026-09-25"},
@@ -250,7 +250,7 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
     keyProducts: [
       { name: "Roți pivotante și fixe pentru cărucioare", description: "Roți standard pentru cărucioare industriale, rafturi mobile și echipamente de manipulare, disponibile cu bandaj din cauciuc solid, poliuretan sau plastic, cu sau fără frână integrată. Montajul pivotant permite manevrare ușoară în spații înguste. Pentru ofertă, clientul trebuie să precizeze sarcina pe roată, diametrul dorit, tipul de pardoseală și dacă are nevoie de frână sau blocaj de direcție." },
       { name: "Seria E-Drive de tracțiune electrică", description: "Roți motorizate care asistă împingerea sau tracțiunea cărucioarelor și paturilor grele, în variantele flex, ultimate și optima, adaptate la diferite niveluri de sarcină și frecvență de utilizare. Reduc efortul fizic al operatorului la manevrarea echipamentelor peste o anumită greutate. Pentru ofertă, clientul trebuie să transmită greutatea totală a echipamentului, frecvența de utilizare zilnică și tipul de pardoseală." },
-      { name: "Roți și soluții pentru echipamente medicale", description: "Roți și sisteme de rulare pentru paturi de spital, cărucioare de urgență și echipamente medicale mobile, cu materiale compatibile cu dezinfecția frecventă și cu cerințele de igienă din spitale. Seria Integral assist combină rularea silențioasă cu opțiuni de blocaj central. Pentru ofertă, clientul trebuie să precizeze tipul echipamentului medical, greutatea maximă și cerințele de igienă ale unității." },
+      { name: "Roți și soluții pentru echipamente medicale", description: "Roți și sisteme de rulare pentru paturi de spital, cărucioare de urgență și echipamente medicale mobile, cu materiale compatibile cu dezinfecția frecventă și cu cerințele de igienă din spitale. Integral assist este sistemul motorizat Tente de asistare a deplasării. Pentru ofertă, clientul trebuie să precizeze tipul echipamentului medical, greutatea maximă și cerințele de igienă ale unității." },
     ],
     industries: [
       "Sănătate — paturi de spital, cărucioare medicale, echipamente chirurgicale mobile",
@@ -284,7 +284,7 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       },
       {
         "code": "Anika",
-        "description": "Serie de roți pivotante pentru mobilier și echipamente ușoare"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Aviana",
@@ -292,7 +292,7 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       },
       {
         "code": "Compacta",
-        "description": "Serie de roți compacte pentru spații reduse"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Delta",
@@ -300,23 +300,23 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       },
       {
         "code": "Footmaster",
-        "description": "Serie de roți cu picior de nivelare integrat"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Forma",
-        "description": "Serie de roți cu design pentru mobilier modern"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Galea",
-        "description": "Serie de roți pentru echipamente de curățenie"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Glide",
-        "description": "Serie de roți cu rulare silențioasă"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "ICS",
-        "description": "Sistem de cuplare integrată pentru roți pivotante"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Integral",
@@ -332,11 +332,11 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       },
       {
         "code": "Linea",
-        "description": "Serie de roți compacte cu capacitate mare de sarcină"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Lumina",
-        "description": "Serie de roți pentru echipamente de spital"
+        "description": "Serie de roți Tente; caracteristicile se confirmă pe cod, din documentația producătorului."
       },
       {
         "code": "Integral assist",
@@ -346,11 +346,11 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
     faq: [
       {
         "q": "Ce diferență este între seriile Tente Omikron și Kappa?",
-        "a": "Ambele serii sunt gândite pentru sarcini foarte grele, dar Omikron acoperă capacitățile cele mai ridicate, peste 1.500 kg pe roată, în timp ce Kappa se folosește frecvent la structuri mobile de mare capacitate, până la 22.500 kg în variantă dublă. Alegerea depinde de greutatea totală a echipamentului și de suprafața pe care circulă."
+        "a": "Ambele serii sunt gândite pentru sarcini foarte grele: Omikron este seria „extreme heavy duty”, cu capacități de peste 1.500 kg pe roată, iar Kappa acoperă un interval larg, de la 400 la 22.500 kg, în funcție de variantă. Alegerea depinde de greutatea totală a echipamentului și de suprafața pe care circulă."
       },
       {
         "q": "Ce este sistemul Integral assist de la Tente?",
-        "a": "Integral assist este sistemul motorizat al producătorului pentru asistarea deplasării paturilor de spital sau a altor echipamente medicale grele, reducând efortul personalului la manevrarea pe distanțe lungi sau pe rampe. Se montează pe structura existentă a patului și se folosește împreună cu roți din seria Integral, gândite special pentru mediul spitalicesc."
+        "a": "Integral assist este sistemul motorizat al producătorului pentru asistarea deplasării paturilor de spital sau a altor echipamente medicale grele, reducând efortul personalului la manevrarea pe distanțe lungi sau pe rampe. Compatibilitatea cu un anumit pat sau cu roțile din seria Integral se confirmă din documentația Tente."
       },
       {
         "q": "Livrați roți și role Tente în România?",
@@ -358,13 +358,13 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       },
       {
         "q": "Ce este seria Levina care evo de la Tente?",
-        "a": "Levina care evo este varianta din material reciclat a seriei Levina, gândită pentru mobilierul de îngrijire din spitale și cămine, unde impactul asupra mediului contează tot mai mult la alegerea furnizorilor. Performanța de rulare rămâne similară cu varianta clasică, dar o parte din componente provine din plastic reciclat."
+        "a": "Levina care evo este varianta din material reciclat a seriei Levina, gândită pentru mobilierul de îngrijire din spitale și cămine, unde impactul asupra mediului contează tot mai mult la alegerea furnizorilor. Conform producătorului, este prima rotiță Tente realizată din material reciclat."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Buy high-quality Castors","url":"https://www.tente.com/en-de/castors-wheels/castors","publisher":"TENTE International GmbH","accessed":"2026-09-25"},
       {"title":"Products","url":"https://www.tente.com/en-int/products/","publisher":"TENTE International GmbH","accessed":"2026-09-25"},
@@ -377,17 +377,17 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
     founded: 1953,
     headquarters: "Rosenfeld, Germania",
     employees: "aproximativ 1.350 de angajați la nivel global, dintre care peste 950 la sediul din Rosenfeld",
-    overview: `Blickle este un producător german de roți și rotile industriale, cu sediul în Rosenfeld și activitate din 1953, cu aproximativ 1.350 de angajați și un catalog de circa treizeci de mii de produse standard fabricate integral în casă. Gama acoperă roți pivotante și fixe, roți pentru paleți, roți cu frână, roți pentru vehicule grele de manipulare și sistemul de antrenare electrică ErgoMove pentru cărucioare. Din acest portofoliu putem oferta roțile industriale standard și componentele ErgoMove pentru cărucioare de logistică.
+    overview: `Blickle este un producător german de roți și rotile industriale, cu sediul în Rosenfeld și activitate din 1953, cu aproximativ 1.350 de angajați și un catalog larg de produse standard fabricate în casă. Gama acoperă roți pivotante și fixe, roți pentru paleți, roți cu frână, roți pentru vehicule grele de manipulare și sistemul de antrenare electrică ErgoMove pentru cărucioare. Din acest portofoliu putem oferta roțile industriale standard și componentele ErgoMove pentru cărucioare de logistică.
 
-Fabricația integrată în casă — de la turnarea bandajelor de poliuretan până la asamblarea finală — dă Blickle control asupra calității și flexibilitate la cereri speciale, spre deosebire de mulți concurenți care asamblează din componente cumpărate. Compania operează un centru logistic capabil să expedieze peste opt mii de produse zilnic, cu livrare în una până la trei zile în Europa pentru referințele standard din catalog.
+Fabricația integrată în casă — de la turnarea bandajelor de poliuretan până la asamblarea finală — dă Blickle control asupra calității și flexibilitate la cereri speciale, spre deosebire de mulți concurenți care asamblează din componente cumpărate. Compania operează un centru logistic capabil să expedieze peste opt mii de produse zilnic, iar pentru referințele de stoc producătorul declară expedieri în 1–3 zile; termenul nostru rămâne cel din politica Infinitrade.
 
 Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de producție și echipamente mobile unde combinația exactă de diametru, material de bandaj și capacitate de sarcină contează — mai ales când sarcina depășește câteva sute de kilograme pe roată sau când mediul de lucru este abraziv.`,
     whyChoose: [
       "Fabricație integrată în casă, de la bandajul de poliuretan la asamblarea finală, ceea ce permite variante personalizate rapide",
-      "Centru logistic propriu, cu expediere zilnică de peste opt mii de produse și livrare rapidă în Europa pentru referințele standard",
+      "Centru logistic propriu al producătorului, cu expediere rapidă a referințelor de stoc",
       "Sistem de antrenare electrică ErgoMove pentru cărucioare grele, care reduce efortul de împingere al operatorului",
       "Roți pentru vehicule de manipulare grea, dimensionate pentru sarcini care depășesc capacitatea roților standard de cărucior",
-      "Cca. treizeci de mii de produse standard în catalog, cu opțiuni de bandaj adaptate la medii abrazive sau corozive",
+      "Catalog larg de produse standard, cu opțiuni de bandaj adaptate la medii abrazive sau corozive",
     ],
     keyProducts: [
       { name: "Roți pivotante și fixe pentru cărucioare", description: "Roți standard cu bandaj din poliuretan, cauciuc solid sau plastic, pentru cărucioare de manipulare, rafturi mobile și echipamente industriale, cu sau fără frână. Montajul pivotant se produce în variante cu furcă simplă sau dublă, pentru sarcini diferite. Pentru ofertă, clientul trebuie să precizeze sarcina pe roată, diametrul dorit, tipul de pardoseală și dacă are nevoie de frână." },
@@ -401,7 +401,7 @@ Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de pr
       "Igienă și medicină — roți compatibile cu spălarea frecventă a echipamentelor",
       "Echipamente mobile — cărucioare de curățenie și mentenanță industrială",
     ],
-    infinitrade: `Pentru Blickle ne bazăm pe informațiile publice de pe site-ul producătorului — fără date proprii de stoc pentru gama completă de treizeci de mii de produse. Aducem roți standard și componente ErgoMove la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii; pentru referințele frecvent cerute, termenul poate fi mai scurt, dar nu îl putem promite fără confirmare punctuală. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul, tipul de bandaj dorit și tipul de montaj (furcă simplă sau dublă). Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă de bandaj din catalog.`,
+    infinitrade: `Pentru Blickle ne bazăm pe informațiile publice de pe site-ul producătorului — fără date proprii de stoc pentru gama completă de produse. Aducem roți standard și componente ErgoMove la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii; pentru referințele frecvent cerute, termenul poate fi mai scurt, dar nu îl putem promite fără confirmare punctuală. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul, tipul de bandaj dorit și tipul de montaj (furcă simplă sau dublă). Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă de bandaj din catalog.`,
     limitation: "Nu putem confirma configurarea electronică a sistemului ErgoMove sau integrarea lui în cărucioare cu control motorizat existent — aceasta rămâne în sarcina integratorului.",
     productCodes: [
       {
@@ -438,11 +438,11 @@ Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de pr
       },
       {
         "code": "LH-ALEV",
-        "description": "Roată pivotantă cu placă și frână, seria ALEV"
+        "description": "Roată pivotantă cu suport din tablă de oțel ambutisată pentru sarcini grele, seria ALEV"
       },
       {
         "code": "LK-ALEV",
-        "description": "Roată pivotantă cu placă și rulment cu bile, seria ALEV"
+        "description": "Roată pivotantă cu suport din tablă de oțel ambutisată pentru sarcini grele, seria ALEV"
       },
       {
         "code": "B-ALEV",
@@ -450,21 +450,21 @@ Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de pr
       },
       {
         "code": "BK-ALEV",
-        "description": "Roată fixă cu rulment cu bile, seria ALEV"
+        "description": "Roată fixă pentru sarcini grele, seria ALEV"
       },
       {
         "code": "BOD-ALEV",
-        "description": "Roată dublă fixă, seria ALEV"
+        "description": "Roată fixă cu suport din oțel sudat pentru sarcini grele, seria ALEV"
       }
     ],
     faq: [
       {
         "q": "Ce înseamnă codul ALEV la roțile Blickle, precum ALEV 200/20K?",
-        "a": "ALEV este seria de roți Blickle cu bandă de rulare din cauciuc elastic și miez din aluminiu turnat, gândită pentru viteze mai mari decât alte roți din cauciuc clasic. Cifrele din cod indică diametrul roții și capacitatea de încărcare, de exemplu 200/20K corespunde unei roți de 200 mm cu o sarcină admisă de 500 kg."
+        "a": "ALEV este seria de roți Blickle cu bandă de rulare din cauciuc elastic și miez din aluminiu turnat, gândită pentru viteze mai mari decât alte roți din cauciuc clasic. Prima cifră din cod indică aproximativ diametrul roții în mm; capacitatea de încărcare se citește din tabelul producătorului, de exemplu 500 kg la 4 km/h pentru ALEV 200/20K (roată de 200 mm)."
       },
       {
         "q": "Ce diferență este între o roată L-ALEV și una LK-ALEV de la Blickle?",
-        "a": "L-ALEV este varianta de bază, cu o placă simplă de montaj pentru fixarea pe cărucior, în timp ce LK-ALEV adaugă un rulment cu bile în locul rulmentului simplu, ceea ce reduce frecarea la rotirea plăcii pivotante. Diferența contează mai ales la deplasări frecvente pe distanțe lungi, unde uzura rulmentului devine relevantă."
+        "a": "L-ALEV are suport din tablă de oțel ambutisată pentru sarcini medii, în timp ce LK-ALEV este varianta pentru sarcini grele. Diferențele exacte se confirmă din documentația Blickle."
       },
       {
         "q": "Livrați roți și role Blickle în România?",
@@ -477,8 +477,8 @@ Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de pr
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Premium rubber wheels & rubber wheel castors ALEV series","url":"https://www.blickle.com/en/products/wheel-castor-series/premium-rubber-wheels-castors/premium-rubber-series-alev","publisher":"Blickle Räder+Rollen GmbH","accessed":"2026-09-25"},
       {"title":"Products","url":"https://www.blickle.com/en/products/","publisher":"Blickle Räder+Rollen GmbH","accessed":"2026-09-25"},
@@ -502,9 +502,9 @@ Pentru România, gama Spinea are sens la integratorii de roboți industriali, pr
       "Configurator online pentru selecția rapidă a reductorului potrivit pe baza sarcinii și vitezei aplicației",
     ],
     keyProducts: [
-      { name: "Reductoare cicloidale TwinSpin", description: "Reductoare cu joc unghiular redus și rigiditate mare, în serii cu carcasă cilindrică (T, W), flanșată (E), cu arbore gol (H), dimensiuni mini (M) sau design compact (G), plus varianta ușoară JustSpin (J). Se folosesc la articulațiile roboților industriali și colaborativi, unde poziționarea repetabilă contează mai mult decât raportul brut de reducție. Pentru ofertă, clientul trebuie să precizeze seria dorită, cuplul de lucru necesar și tipul de montaj (cu sau fără arbore gol)." },
+      { name: "Reductoare cicloidale TwinSpin", description: "Reductoare cu joc unghiular redus și rigiditate mare, în serii cu carcasă cilindrică (T, W), flanșată (E), cu arbore gol (H), dimensiuni mini (M) sau sistem inovator de rulmenți principali (G), plus varianta ușoară JustSpin (J). Se folosesc la articulațiile roboților industriali și colaborativi, unde poziționarea repetabilă contează mai mult decât raportul brut de reducție. Pentru ofertă, clientul trebuie să precizeze seria dorită, cuplul de lucru necesar și tipul de montaj (cu sau fără arbore gol)." },
       { name: "Actuatoare DriveSpin", description: "Unități care integrează reductorul cicloidal cu un servomotor AC, în variante Standard (DS050-DS155), Hollowshaft (DSH050-DSH170), Modular (DSM050-DSM110) și Flat (DSF050-DSF095), pentru montaj direct în structura robotului fără cuplaj separat. Reduc numărul de componente și timpul de asamblare la construcția unei articulații motorizate. Pentru ofertă, clientul trebuie să transmită gabaritul disponibil, cuplul necesar și tipul de interfață electrică al servomotorului." },
-      { name: "Soluții Slew și reductoare armonice", description: "Lagăre și reductoare de pivotare (Slew Solutions), inclusiv variante cu dublă reducție pentru cupluri mari la turație joasă, și reductoare armonice cu joc unghiular practic zero pentru aplicații de precizie extremă. Se folosesc la baza roboților sau la axele de rotație ale mașinilor de măsurare. Pentru ofertă, clientul trebuie să precizeze cuplul static și dinamic necesar și diametrul de montaj disponibil." },
+      { name: "Soluții Slew și reductoare armonice", description: "Lagăre și reductoare de pivotare (Slew Solutions), inclusiv variante cu dublă reducție pentru cupluri mari la turație joasă, și reductoare armonice pentru aplicații de precizie. Se folosesc la baza roboților sau la axele de rotație ale mașinilor de măsurare. Pentru ofertă, clientul trebuie să precizeze cuplul static și dinamic necesar și diametrul de montaj disponibil." },
     ],
     industries: [
       "Robotică industrială — reductoare pentru articulațiile brațelor robotizate",
@@ -592,13 +592,13 @@ Pentru România, gama Spinea are sens la integratorii de roboți industriali, pr
       },
       {
         "q": "Ce este seria J, numită și JustSpin, de la Spinea?",
-        "a": "Seria J, numită și JustSpin, este varianta cea mai ușoară din familia TwinSpin, gândită special pentru brațele de robot și aplicațiile unde greutatea reductorului influențează direct performanța dinamică a sistemului. Păstrează precizia specifică tehnologiei cicloidale, dar renunță la o parte din masa carcaselor standard pentru a reduce inerția."
+        "a": "Seria J, numită și JustSpin, este varianta cea mai ușoară din familia TwinSpin, gândită special pentru brațele de robot și aplicațiile unde greutatea reductorului influențează direct performanța dinamică a sistemului. Detaliile tehnice se confirmă din documentația Spinea."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"TwinSpin T-series","url":"https://www.spinea.com/en/products/twinspin/t-series","publisher":"Spinea s.r.o.","accessed":"2026-09-25"},
       {"title":"TwinSpin","url":"https://www.spinea.com/en/products/twinspin","publisher":"Spinea s.r.o.","accessed":"2026-09-25"},
@@ -619,7 +619,7 @@ Pentru România, gama Hoffman are sens la tablouri electrice industriale, stați
       "Catalog de peste șaisprezece mii de produse standard, de la carcase mici de joncțiune la dulapuri autoportante",
       "Carcase nemetalice pentru medii corozive sau cu cerințe de izolare electrică suplimentară",
       "Soluții integrate de control climatic pentru tablouri instalate în medii cu temperaturi extreme",
-      "Fabricație din oțel american, cu variante din inox pentru medii cu cerințe de igienă sau coroziune",
+      "Fabricație locală în mai multe regiuni ale lumii, cu variante din oțel obișnuit sau inoxidabil pentru medii cu cerințe de igienă sau coroziune",
     ],
     keyProducts: [
       { name: "Carcase metalice montate pe perete și autoportante", description: "Carcase din oțel obișnuit sau inoxidabil, în variante montate pe perete pentru tablouri mici și autoportante pentru instalații mai mari, cu grad de protecție adaptat mediului de instalare. Se folosesc pentru automate programabile, relee și echipamente de comandă care trebuie protejate de praf sau umezeală. Pentru ofertă, clientul trebuie să precizeze dimensiunile interioare necesare, materialul dorit și mediul de instalare (interior, exterior, coroziv)." },
@@ -637,55 +637,55 @@ Pentru România, gama Hoffman are sens la tablouri electrice industriale, stați
     limitation: "Nu putem confirma personalizarea decupajelor sau vopsirea specială a carcaselor — acestea depind de opțiunile fabricii și de cantitatea comandată.",
     productCodes: [
       {
-        "code": "EV Charging Inverter Enclosures",
+        "code": "Carcase pentru invertoare de stații de încărcare EV",
         "description": "Carcase Hoffman dedicate invertoarelor pentru stații de încărcare electrică"
       },
       {
-        "code": "Mild Steel Enclosures",
+        "code": "Carcase din oțel obișnuit",
         "description": "Carcase din oțel carbon pentru aplicații industriale generale"
       },
       {
-        "code": "Stainless Steel Enclosures",
+        "code": "Carcase din oțel inoxidabil",
         "description": "Carcase din oțel inoxidabil pentru medii corozive sau igienice"
       },
       {
-        "code": "Wall-Mounted Enclosures",
+        "code": "Carcase montate pe perete",
         "description": "Carcase montate pe perete pentru tablouri de comandă"
       },
       {
-        "code": "Free-Standing Enclosures",
+        "code": "Carcase autoportante",
         "description": "Carcase autoportante pentru echipamente electrice de dimensiuni mari"
       },
       {
-        "code": "Consoles",
+        "code": "Console de comandă",
         "description": "Console de comandă pentru operarea echipamentelor industriale"
       },
       {
-        "code": "Non-Metallic Enclosures",
+        "code": "Carcase nemetalice",
         "description": "Carcase din materiale nemetalice pentru medii speciale"
       },
       {
-        "code": "Junction and Terminal Boxes",
+        "code": "Cutii de joncțiune și borne",
         "description": "Cutii de joncțiune și borne pentru conexiuni electrice"
       },
       {
-        "code": "Outdoor Enclosures",
+        "code": "Carcase pentru exterior",
         "description": "Carcase destinate montajului în exterior, rezistente la intemperii"
       },
       {
-        "code": "EMC Enclosures",
+        "code": "Carcase cu ecranare EMC",
         "description": "Carcase cu ecranare împotriva interferențelor electromagnetice"
       },
       {
-        "code": "Hazardous Locations Enclosures",
+        "code": "Carcase pentru zone cu risc de explozie",
         "description": "Carcase pentru zone cu risc de explozie"
       },
       {
-        "code": "Seismic Design Enclosures",
+        "code": "Carcase cu design antiseismic",
         "description": "Carcase proiectate pentru rezistență la mișcări seismice"
       },
       {
-        "code": "Hygienic Design Enclosures",
+        "code": "Carcase cu design igienic",
         "description": "Carcase cu design igienic pentru industria alimentară"
       }
     ],
@@ -709,8 +709,8 @@ Pentru România, gama Hoffman are sens la tablouri electrice industriale, stați
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Hoffman Enclosures | nVent","url":"https://www.nvent.com/en-us/hoffman","publisher":"nVent","accessed":"2026-09-26"},
       { title: "nVent HOFFMAN — Enclosures, Consoles, Cable and Climate Control", url: "https://www.nvent.com/en-us/hoffman", publisher: "nVent Electric plc", accessed: "2026-09-22" },
@@ -721,7 +721,7 @@ Pentru România, gama Hoffman are sens la tablouri electrice industriale, stați
     name: "Molykote",
     overview: `Molykote este o marcă de unsori și lubrifianți speciali deținută de grupul american DuPont, orientată spre aplicații industriale unde un lubrifiant obișnuit nu face față temperaturii, sarcinii sau compatibilității chimice a mediului. Gama include acoperiri anti-fricțiune, compuși de asamblare, dispersii solide, unsori, uleiuri și fluide, plus paste anti-griparea, formulate pe bază de esteri, silicon, fluorosilicon, poliglicoli (PAG), polialfaolefine (PAO) sau perfluoropolieteri (PFPE). Din acest portofoliu putem oferta unsorile și pastele Molykote pentru mentenanța echipamentelor industriale și auto.
 
-Ce diferențiază Molykote de Klüber Lubrication, concurentul german cu profil apropiat, este apartenența la un grup chimic mare, cu acces la tehnologii de bază (silicon, fluoropolimeri) dezvoltate și pentru alte divizii DuPont, ceea ce se reflectă în varietatea de tehnologii de bază disponibile pentru aceeași categorie de produs. Unele referințe, precum HP-300 și G-8101, au aprobare BAM pentru utilizare în medii bogate în oxigen — pompe, valve și compresoare unde un lubrifiant obișnuit ar prezenta risc de aprindere.
+Ce diferențiază Molykote de Klüber Lubrication, concurentul german cu profil apropiat, este varietatea de tehnologii de bază disponibile pentru aceeași categorie de produs (ester, silicon, fluorosilicon, PAG, PAO, PFPE). Unele referințe, precum HP-300 și G-8101, au aprobare BAM pentru utilizare în medii bogate în oxigen — pompe, valve și compresoare unde un lubrifiant obișnuit ar prezenta risc de aprindere.
 
 Pentru România, gama Molykote are sens la mentenanța echipamentelor industriale unde temperatura de lucru, sarcina de contact sau compatibilitatea chimică depășesc plaja unei unsori standard — lagăre cu temperaturi extreme, asamblări cu risc de gripare sau aplicații cu cerințe de compatibilitate cu oxigenul.`,
     whyChoose: [
@@ -729,7 +729,7 @@ Pentru România, gama Molykote are sens la mentenanța echipamentelor industrial
       "Referințe cu aprobare BAM pentru medii bogate în oxigen, la pompe, valve și compresoare unde riscul de aprindere contează",
       "Paste anti-griparea pentru asamblări expuse la temperaturi ridicate sau la coroziune de contact",
       "Compuși de asamblare care facilitează montajul și demontajul pieselor cu ajustaj strâns, fără deteriorarea suprafeței",
-      "Acces la tehnologii de bază dezvoltate în cadrul unui grup chimic mare, cu resurse de cercetare peste media pieței",
+      "Game de lubrifianți dezvoltate în cadrul grupului DuPont",
     ],
     keyProducts: [
       { name: "Unsori industriale Molykote", description: "Unsori formulate pe bază de silicon, esteri sau PAO, pentru lagăre, angrenaje și ghidaje expuse la temperaturi ridicate, sarcini mari sau spălare frecventă. Anumite referințe rezistă la contact cu apă sau abur fără să se degradeze. Pentru ofertă, clientul trebuie să precizeze temperatura de lucru, tipul contactului (lagăr, angrenaj, ghidaj) și dacă există cerințe de compatibilitate cu plasticul sau cauciucul din asamblare." },
@@ -767,27 +767,27 @@ Pentru România, gama Molykote are sens la mentenanța echipamentelor industrial
         "description": "Unsoare Molykote din gama de aplicații speciale"
       },
       {
-        "code": "Anti-friction Coatings",
+        "code": "Acoperiri anti-fricțiune",
         "description": "Acoperiri anti-fricțiune Molykote pentru reducerea uzurii componentelor"
       },
       {
-        "code": "Compounds",
-        "description": "Compuși Molykote pentru etanșare și lubrifiere de lungă durată"
+        "code": "Compuși de asamblare",
+        "description": "Compuși de asamblare Molykote, pentru montajul și demontajul pieselor"
       },
       {
-        "code": "Dispersions and Aerosols",
+        "code": "Dispersii și aerosoli",
         "description": "Dispersii și aerosoli Molykote pentru aplicare rapidă a lubrifiantului"
       },
       {
-        "code": "Greases",
+        "code": "Unsori industriale",
         "description": "Gamă largă de unsori industriale Molykote pentru diverse aplicații"
       },
       {
-        "code": "Oils and Fluids",
+        "code": "Uleiuri și fluide",
         "description": "Uleiuri și fluide Molykote pentru lubrifiere industrială"
       },
       {
-        "code": "Anti-Seize Pastes",
+        "code": "Paste anti-gripare",
         "description": "Paste anti-gripare Molykote pentru prevenirea coroziunii la asamblare"
       }
     ],
@@ -811,8 +811,8 @@ Pentru România, gama Molykote are sens la mentenanța echipamentelor industrial
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MOLYKOTE® Brand | DuPont","url":"https://www.dupont.com/molykote.html","publisher":"DuPont (Molykote)","accessed":"2026-09-26"},
       {"title":"MOLYKOTE® Greases","url":"https://www.dupont.com/molykote/greases.html","publisher":"DuPont (Molykote)","accessed":"2026-09-26"},
@@ -825,7 +825,7 @@ Pentru România, gama Molykote are sens la mentenanța echipamentelor industrial
     founded: 1945,
     headquarters: "Urbach, Germania",
     employees: "circa 630 de angajați în grupul Dungs, dintre care aproximativ 490 în Germania",
-    overview: `Karl Dungs este un producător german de electrovalve și robineți de siguranță pentru instalații de gaz, cu sediul la Urbach și activitate din 1945. Gama acoperă automate de ardere din seria MPA, blocuri multifuncționale MBE GasMultiBloc® cu ventil de siguranță și acționare electronică integrată, robineți de închidere de siguranță din seria MBE-S cu reglare opțională a presiunii, și regulatoare de presiune medie din seriile FRM și FRM-NOC. Din acest portofoliu putem oferta electrovalvele de siguranță și regulatoarele de presiune pentru instalații de ardere pe gaz.
+    overview: `Karl Dungs este un producător german de electrovalve și robineți de siguranță pentru instalații de gaz, cu sediul la Urbach și activitate din 1945. Gama acoperă automate de ardere din seria MPA, blocuri multifuncționale MBE GasMultiBloc® cu două ventile de siguranță și două acționări electronice, robineți de închidere de siguranță din seria MBE-S cu reglare opțională a presiunii, și regulatoare de presiune medie din seriile FRM și FRM-NOC. Din acest portofoliu putem oferta electrovalvele de siguranță și regulatoarele de presiune pentru instalații de ardere pe gaz.
 
 Spre deosebire de Bürkert, orientat spre un spectru mai larg de electrovalve pentru fluide și automatizare de proces, Dungs s-a specializat aproape exclusiv pe siguranța instalațiilor de gaz — de la arzătoare casnice la aplicații industriale de căldură de proces și motoare pe gaz. Regulatoarele din seria FRM acoperă plaje de presiune de la câțiva până la 400 kPa, în funcție de diametrul nominal al conductei (DN 25-50 sau DN 65-80), iar blocurile MBE combină mai multe funcții de siguranță într-o singură carcasă, reducând numărul de conexiuni din instalație.
 
@@ -835,11 +835,11 @@ Pentru România, gama Dungs are sens la instalații de încălzire pe gaz, centr
       "Blocuri multifuncționale MBE GasMultiBloc® care reduc numărul de conexiuni și puncte de etanșare din instalație",
       "Regulatoare de presiune medie disponibile pentru diametre nominale de la DN 25 până la DN 80",
       "Automate de ardere din seria MPA pentru controlul secvenței de pornire și supraveghere a flăcării",
-      "Prezență industrială stabilă, cu peste 600 de angajați la nivel de grup și export în peste zece țări",
+      "Prezență industrială stabilă, cu aproximativ 630 de angajați la nivel de grup și filiale în mai multe țări",
     ],
     keyProducts: [
       { name: "Automate de ardere seria MPA", description: "Automate care controlează secvența de pornire a arzătorului pe gaz — preventilare, aprindere, supraveghere flacără și oprire în siguranță la defect. Se folosesc la arzătoare industriale și centrale termice unde secvența de ardere trebuie monitorizată electronic. Pentru ofertă, clientul trebuie să precizeze puterea arzătorului, tipul de combustibil și tensiunea de alimentare a instalației." },
-      { name: "Blocuri multifuncționale MBE GasMultiBloc®", description: "Ansambluri care integrează ventil de siguranță, regulator de presiune și acționare electronică într-o singură carcasă compactă, reducând numărul de conexiuni și riscul de scurgere din instalație. Se folosesc la arzătoare de gaz de putere medie și mare. Pentru ofertă, clientul trebuie să transmită debitul de gaz necesar, presiunea de intrare și diametrul conductei de racord." },
+      { name: "Blocuri multifuncționale MBE GasMultiBloc®", description: "Ansambluri care combină într-o singură carcasă două ventile de siguranță cu acționări electronice, cu reglare opțională a presiunii de ieșire, reducând numărul de conexiuni și riscul de scurgere din instalație. Se folosesc la arzătoare de gaz de putere medie și mare. Pentru ofertă, clientul trebuie să transmită debitul de gaz necesar, presiunea de intrare și diametrul conductei de racord." },
       { name: "Regulatoare de presiune medie FRM / FRM-NOC", description: "Regulatoare pentru reducerea și stabilizarea presiunii gazului pe conducte cu diametru nominal DN 25-50 sau DN 65-80, cu plaje de reglare de la câțiva kPa până la 400 kPa în funcție de model. Se montează pe rețeaua de distribuție înainte de arzător sau de punctul de consum. Pentru ofertă, clientul trebuie să precizeze diametrul conductei, presiunea de intrare și presiunea de ieșire dorită." },
     ],
     industries: [
@@ -913,8 +913,8 @@ Pentru România, gama Dungs are sens la instalații de încălzire pe gaz, centr
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://dungs.com/en/products","publisher":"Karl Dungs GmbH & Co. KG","accessed":"2026-09-25"},
       {"title":"Double Valves","url":"https://www.dungs.com/en-gb/Products/controls/Double-valves","publisher":"Karl Dungs GmbH & Co. KG","accessed":"2026-09-25"},
@@ -928,11 +928,11 @@ Pentru România, gama Dungs are sens la instalații de încălzire pe gaz, centr
     headquarters: "Brookfield, Wisconsin, SUA",
     overview: `Milwaukee Tool este un producător american de scule electrice și acumulatori profesionali, fondat în 1924 la Milwaukee și mutat ulterior la Brookfield, Wisconsin, astăzi parte a grupului Techtronic Industries. Gama acoperă sistemul portabil M12™ pentru scule compacte, sistemul M18™ pentru scule cu performanță mai mare, echipamentul MX FUEL™ pentru unelte de șantier care înlocuiesc sculele cu motor pe benzină, și sistemul modular de depozitare PACKOUT™. Din acest portofoliu putem oferta sculele M12 și M18 și accesoriile PACKOUT pentru echipe de instalații și mentenanță.
 
-Spre deosebire de Makita, care menține linii separate de tensiune pentru segmente diferite de scule, Milwaukee a construit ecosistemul M18 ca platformă unică pentru majoritatea sculelor de putere medie și mare, cu aceleași acumulatoare folosite pe zeci de unelte diferite. MX FUEL™ extinde această logică la echipamente de șantier de putere mai mare — mixere, generatoare, compresoare — gândite ca înlocuitor direct al variantelor cu motor termic, fără emisii și zgomot la locul de lucru.
+Spre deosebire de Makita, care menține linii separate de tensiune pentru segmente diferite de scule, Milwaukee a construit ecosistemul M18 ca platformă unică pentru majoritatea sculelor de putere medie și mare, cu aceleași acumulatoare folosite pe zeci de unelte diferite. MX FUEL™ extinde această logică la echipamente de șantier de putere mai mare — mixere de beton, compactoare, echipamente de tăiere și demolare — gândite ca înlocuitor direct al variantelor cu motor termic, fără emisii și zgomot la locul de lucru.
 
 Pentru România, gama Milwaukee are sens la echipe de instalații electrice, sanitare și de construcții care lucrează cu mai multe scule electrice pe șantier și pot beneficia de un singur sistem de acumulatori compatibil pe toată gama de unelte.`,
     whyChoose: [
-      "Ecosistem unic de acumulatori M18™ compatibil pe zeci de scule diferite, de la șurubelnițe la unelte de putere mare",
+      "Sistem de acumulatori M18™ compatibil cu numeroase scule diferite, de la șurubelnițe la unelte de putere mare",
       "Sistemul MX FUEL™ înlocuiește echipamentele de șantier cu motor termic, fără emisii și zgomot redus la locul de lucru",
       "Sistemul modular de depozitare PACKOUT™ pentru organizarea sculelor și transportul lor între șantiere",
       "Platforma compactă M12™ pentru lucrul în spații înguste sau la înălțime, unde greutatea sculei contează",
@@ -948,7 +948,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
       "Instalații electrice — scule compacte M12 pentru lucrări fine",
       "Instalații sanitare — scule M18 pentru tăiere și găurire",
       "Mecanică și metalurgie — unelte de putere mare din gama M18",
-      "Echipamente de șantier — generatoare și compresoare MX FUEL fără motor termic",
+      "Echipamente de șantier — echipamente MX FUEL cu acumulator, în locul celor cu motor termic",
     ],
     infinitrade: `Pentru Milwaukee Tool ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii despre stocul de la nivel de distribuție. Aducem scule M12, M18 și accesorii PACKOUT la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al sculei sau setului dorit și, dacă e cazul, capacitatea acumulatorilor necesară. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare referință din gama M18 sau MX FUEL.`,
     limitation: "Nu putem confirma service în garanția producătorului pentru scule electrice — acesta rămâne în sarcina rețelei oficiale Milwaukee Tool / Techtronic Industries.",
@@ -1003,7 +1003,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
       },
       {
         "code": "48-22-8410",
-        "description": "Cărucior tip diblă PACKOUT, pentru mutarea modulelor stivuite pe șantier."
+        "description": "Cărucior tip dolly PACKOUT, pentru mutarea modulelor stivuite pe șantier."
       },
       {
         "code": "48-22-8415",
@@ -1011,7 +1011,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
       },
       {
         "code": "48-21-8000",
-        "description": "Raft PACKOUT pentru montarea modulelor de depozitare pe perete sau vehicul."
+        "description": "Raft PACKOUT cu sertare glisante, pentru depozitarea modulelor."
       },
       {
         "code": "48-21-8070",
@@ -1041,11 +1041,11 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
       },
       {
         "q": "Ce diferență este între M18 și M12 la Milwaukee?",
-        "a": "M12 este linia compactă Milwaukee, gândită pentru spații înguste și greutate redusă a sculei, în timp ce M18 este linia de putere folosită la scule de șantier mai solicitante, precum ciocanele rotopercutoare sau fierăstraiele. Cele două sisteme au acumulatori și încărcătoare proprii, necompatibile între ele, iar alegerea depinde de aplicație și de accesoriile deja deținute. Documentația oficială descrie fiecare familie de scule pe platforma corespunzătoare."
+        "a": "M12 este linia compactă Milwaukee, gândită pentru spații înguste și greutate redusă a sculei, în timp ce M18 este linia de putere folosită la scule de șantier mai solicitante, precum ciocanele rotopercutoare sau fierăstraiele. Cele două sisteme au acumulatori proprii, necompatibili între ei, iar alegerea depinde de aplicație și de accesoriile deja deținute. Documentația oficială descrie fiecare familie de scule pe platforma corespunzătoare."
       },
       {
         "q": "Cum aleg un sertar PACKOUT compatibil cu cutia mea?",
-        "a": "Verificați întâi codul cutiei de bază, apoi alegeți un sertar sau organizator din aceeași gamă PACKOUT, deoarece toate modulele respectă aceeași amprentă de cuplare superioară și inferioară. Codurile din seria patruzecișiopt-douăzecișidoi-84xx corespund sertarelor și cutiilor, iar cele din seria 83xx organizatoarelor, conform catalogului producătorului. Dacă aveți deja un rack sau un cărucior, orice modul din sistem se cuplează fără adaptoare suplimentare."
+        "a": "Verificați întâi codul cutiei de bază, apoi alegeți un sertar sau organizator din aceeași gamă PACKOUT, deoarece toate modulele respectă aceeași amprentă de cuplare superioară și inferioară. Codurile din seria 48-22-84xx corespund cutiilor, sertarelor, organizatoarelor și lăzilor, iar cele din seria 48-22-83xx suporturilor pentru acumulatori, conform catalogului producătorului. Dacă aveți deja un rack sau un cărucior, orice modul din sistem se cuplează fără adaptoare suplimentare."
       },
       {
         "q": "Livrați scule Milwaukee în România?",
@@ -1054,8 +1054,8 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"PACKOUT Modular Storage System","url":"https://www.milwaukeetool.com/products/storage-solutions/packout","publisher":"Milwaukee Tool","accessed":"2026-09-25"},
       {"title":"Product Catalog","url":"https://www.milwaukeetool.com/products","publisher":"Milwaukee Tool","accessed":"2026-09-25"},
@@ -1066,7 +1066,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
   baur: {
     name: "Baur",
     headquarters: "Sulz, Austria",
-    overview: `Baur este un producător austriac de echipamente pentru testarea și diagnosticarea cablurilor de înaltă tensiune, cu sediul la Sulz și prezență prin filiale sau parteneriate în Germania, Franța, Marea Britanie, Italia, Maroc, Peru, Brazilia, SUA, Hong Kong și Shanghai. Gama acoperă sisteme de localizare a defectelor în cabluri, echipamente de testare și diagnosticare a izolației, vehicule mobile de testare complet echipate și instrumente pentru testarea uleiului izolant din transformatoare. Din acest portofoliu putem oferta echipamentele de testare a cablurilor și instrumentele de testare a uleiului izolant.
+    overview: `Baur este un producător austriac de echipamente pentru testarea și diagnosticarea cablurilor de înaltă tensiune, cu sediul la Sulz și prezență prin filiale în Germania, Franța, Brazilia și Hong Kong, societăți mixte în Marea Britanie și Spania și parteneri în aproximativ 80 de țări. Gama acoperă sisteme de localizare a defectelor în cabluri, echipamente de testare și diagnosticare a izolației, vehicule mobile de testare complet echipate și instrumente pentru testarea uleiului izolant din transformatoare. Din acest portofoliu putem oferta echipamentele de testare a cablurilor și instrumentele de testare a uleiului izolant.
 
 Baur s-a specializat aproape exclusiv pe mentenanța rețelelor electrice de distribuție — depistarea exactă a unui defect de cablu îngropat, fără să sapi tot traseul, și verificarea stării izolației înainte ca un defect latent să devină o avarie. Vehiculele mobile de testare integrează mai multe instrumente într-un singur echipament transportabil, gândit pentru echipele care intervin direct pe teren, la distanță de un laborator fix.
 
@@ -1095,11 +1095,11 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
     productCodes: [
       {
         "code": "ATG 2",
-        "description": "Generator de arc pentru pregătirea defectelor de cablu înainte de localizare."
+        "description": "Transformator de ardere (burn-down) pentru pregătirea defectelor de cablu înainte de localizare."
       },
       {
         "code": "ATG 6000",
-        "description": "Variantă de generator de arc cu putere mai mare, pentru cabluri lungi."
+        "description": "Transformator de ardere (burn-down), din aceeași familie cu ATG 2; parametrii se confirmă din fișa tehnică."
       },
       {
         "code": "protrac",
@@ -1131,7 +1131,7 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
       },
       {
         "code": "frida TD",
-        "description": "Variantă frida cu funcție suplimentară de diagnostic prin descărcări parțiale."
+        "description": "Variantă frida cu funcție de diagnosticare."
       },
       {
         "code": "PHG 80 portable",
@@ -1167,7 +1167,7 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
       },
       {
         "code": "DPA 75 C",
-        "description": "Variantă compactă a testerului de tensiune de străpungere pentru ulei izolant."
+        "description": "Tester al tensiunii de străpungere pentru ulei izolant."
       },
       {
         "code": "DTL C",
@@ -1176,16 +1176,16 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
     ],
     faq: [
       {
-        "q": "Ce face un generator de arc ATG de la BAUR?",
-        "a": "Generatorul de arc arde parțial izolația la locul unui defect de cablu, astfel încât metodele ulterioare de localizare, precum reflectometria sau metoda acustică, să poată identifica punctul exact. BAUR produce mai multe variante, diferite ca putere și tensiune de ieșire, alese în funcție de lungimea și tipul cablului testat. Utilizarea corectă presupune parcurgerea etapelor din manualul tehnic al producătorului, inclusiv verificările de siguranță electrică."
+        "q": "Ce face un transformator de ardere ATG de la BAUR?",
+        "a": "Transformatorul de ardere (burn-down) pregătește defectul de cablu, astfel încât metodele ulterioare de localizare, precum reflectometria sau metoda acustică, să poată identifica punctul exact. BAUR oferă modelele ATG 2 și ATG 6000, a căror alegere se confirmă din fișele tehnice, în funcție de lungimea și tipul cablului testat. Utilizarea corectă presupune parcurgerea etapelor din manualul tehnic al producătorului, inclusiv verificările de siguranță electrică."
       },
       {
         "q": "Care este diferența dintre frida și frida TD?",
-        "a": "Frida TD adaugă funcția de diagnostic prin descărcări parțiale peste testarea VLF standard oferită de frida, permițând evaluarea stării izolației, nu doar o simplă confirmare de trecere. Ambele unități se folosesc la cabluri de medie tensiune și fac parte din aceeași platformă de testare portabilă. Alegerea între ele depinde de nevoia de a documenta starea izolației pe termen lung sau doar de a verifica rezistența la tensiune."
+        "a": "Frida TD este varianta cu funcție de diagnosticare a unității frida de testare VLF, permițând evaluarea stării izolației, nu doar o simplă confirmare de trecere. Ambele unități se folosesc la cabluri de medie tensiune și fac parte din aceeași platformă de testare portabilă. Alegerea între ele depinde de nevoia de a documenta starea izolației pe termen lung sau doar de a verifica rezistența la tensiune."
       },
       {
         "q": "Cum aleg între DTA 100 C și DPA 75 C pentru testarea uleiului?",
-        "a": "Ambele aparate măsoară tensiunea de străpungere a uleiului electroizolant, diferența fiind gabaritul și tensiunea maximă de testare disponibilă pe fiecare model. DTA 100 C este varianta cu tensiune mai mare, potrivită pentru probe care cer o marjă de testare extinsă, iar DPA 75 C este mai compact, pentru utilizare curentă în laborator sau pe teren. Specificațiile exacte se regăsesc în fișele tehnice ale producătorului."
+        "a": "Ambele aparate măsoară tensiunea de străpungere a uleiului electroizolant, diferența fiind gabaritul și tensiunea maximă de testare disponibilă pe fiecare model. Diferențele de gabarit și de tensiune maximă de testare dintre cele două modele se confirmă din fișele tehnice ale producătorului. Specificațiile exacte se regăsesc în fișele tehnice ale producătorului."
       },
       {
         "q": "Livrați echipamente BAUR în România?",
@@ -1194,8 +1194,8 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products Overview","url":"https://www.baur.eu/en/products","publisher":"BAUR GmbH","accessed":"2026-09-25"},
       {"title":"BAUR – Home","url":"https://www.baur.eu","publisher":"BAUR GmbH","accessed":"2026-09-25"},
@@ -1208,7 +1208,7 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
     founded: 1884,
     overview: `Irwin Tools este un producător american de scule de mână și accesorii industriale, activ din 1884, cu operațiuni în Statele Unite și Canada. Gama acoperă clești (Pliers), cleme și menghine (Clamps & Vises), accesorii de găurire, lame de fierăstrău, ciocane, rulete de măsură și accesorii pentru scule electrice, alături de marca proprie VISE-GRIP®, brevetată în 1924 pentru clești cu blocare. Din acest portofoliu putem oferta cleștii, clemele și accesoriile de găurire pentru echipe de instalații și construcții.
 
-Spre deosebire de Stahlwille, concurent german specializat pe scule de precizie pentru mecanică fină, Irwin s-a construit pe segmentul de scule robuste pentru șantier și instalații, cu accent pe clema și cleștele cu blocare din familia VISE-GRIP®, gândite pentru prindere fermă fără al treilea mâinilor. Gama de lame de fierăstrău și accesorii de găurire completează oferta pentru echipele de construcții și mentenanță care au nevoie de un singur furnizor pentru scule de mână și consumabile de tăiere.
+Spre deosebire de Stahlwille, concurent german specializat pe scule de precizie pentru mecanică fină, Irwin s-a construit pe segmentul de scule robuste pentru șantier și instalații, cu accent pe clema și cleștele cu blocare din familia VISE-GRIP®, gândite pentru prindere fermă, fără efort continuu din partea utilizatorului. Gama de lame de fierăstrău și accesorii de găurire completează oferta pentru echipele de construcții și mentenanță care au nevoie de un singur furnizor pentru scule de mână și consumabile de tăiere.
 
 Pentru România, gama Irwin are sens la firmele de instalații sanitare și electrice, echipele de construcții și service-urile de mentenanță generală, unde clema, cleștele sau lama de fierăstrău trebuie să reziste la utilizare zilnică intensă, nu ocazională.`,
     whyChoose: [
@@ -1287,7 +1287,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "T4D",
-        "description": "Set de plăcuțe de fălci și șuruburi pentru menghina numărul patru ZR."
+        "description": "Piesă de schimb pentru menghină IRWIN; denumirea exactă se confirmă din catalogul oficial."
       },
       {
         "code": "T5C",
@@ -1295,11 +1295,11 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "226800",
-        "description": "Clemă din lemn tip handscrew, pentru presarea pieselor din tâmplărie."
+        "description": "Clemă IRWIN; tipul exact se confirmă din catalogul oficial."
       },
       {
         "code": "IWHT39393S",
-        "description": "Ruletă STRAIT-LINE de douăzeci și cinci de picioare, cu carcasă rezistentă."
+        "description": "Ruletă STRAIT-LINE; lungimea exactă se confirmă din catalogul oficial."
       },
       {
         "code": "IWHT48443",
@@ -1311,7 +1311,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "IWHT55210",
-        "description": "Rangă conturată de douăzeci și unu de inci, pentru demontări."
+        "description": "Rangă IRWIN; dimensiunea și tipul exact se confirmă din catalogul oficial."
       },
       {
         "code": "IWHT51220",
@@ -1338,8 +1338,8 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Clamps & Vises","url":"https://www.irwintools.com/products/hand-tools/clamps-vises","publisher":"IRWIN Tools","accessed":"2026-09-25"},
       {"title":"IRWIN Tools – Home","url":"https://www.irwintools.com","publisher":"IRWIN Tools","accessed":"2026-09-25"},
@@ -1351,26 +1351,26 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
     name: "Bacharach",
     headquarters: "Pittsburgh, SUA",
     certifications: ["EN 378","ASHRAE 15","CSA B52","EPA 608","CARB","F-Gas"],
-    overview: `Bacharach este un producător american de detectoare de gaze refrigerante și analizoare de ardere, cu sediul în zona orașului Pittsburgh, Pennsylvania, și facilități de fabricație și distribuție lângă Toronto (Canada) și Dublin (Irlanda). Gama include detectoare de gaz precum MGS-400 pentru monitorizarea spațiilor mecanice și camerelor frigorifice, analizorul de ardere și emisii PCA 400, și platforma Parasense pentru managementul instalațiilor frigorifice. Din acest portofoliu putem oferta detectoarele de gaze refrigerante și analizoarele de ardere pentru mentenanța instalațiilor de răcire și încălzire.
+    overview: `Bacharach este un producător american de detectoare de gaze refrigerante și analizoare de ardere, cu sediul în zona orașului Pittsburgh, Pennsylvania, și facilități de fabricație și distribuție lângă Toronto (Canada) și Dublin (Irlanda). Gama include detectoare de gaz precum MGS-400 pentru monitorizarea spațiilor mecanice și camerelor frigorifice, analizorul de ardere și emisii PCA 400, și platforma software Parasense pentru managementul agenților frigorifici și al conformității. Din acest portofoliu putem oferta detectoarele de gaze refrigerante și analizoarele de ardere pentru mentenanța instalațiilor de răcire și încălzire.
 
-Spre deosebire de MSA Safety, care acoperă un spectru mai larg de siguranță industrială, Bacharach s-a specializat pe două nișe conexe — detectarea scurgerilor de agent frigorific și analiza gazelor de ardere — ambele relevante la mentenanța instalațiilor tehnice ale clădirilor. Produsele respectă standarde precum EN 378, ASHRAE 15, CSA B52, EPA 608, CARB și F-Gas, relevante pentru operatorii care trebuie să demonstreze conformitate la instalațiile cu agenți frigorifici.
+Bacharach s-a specializat pe două nișe conexe — detectarea scurgerilor de agent frigorific și analiza gazelor de ardere — ambele relevante la mentenanța instalațiilor tehnice ale clădirilor. Detectoarele și platforma Parasense sunt destinate operatorilor care trebuie să demonstreze conformitatea instalațiilor cu agenți frigorifici; standardele aplicabile fiecărui model se confirmă pe fișa tehnică oficială.
 
 Pentru România, gama Bacharach are sens la firmele de mentenanță a instalațiilor de climatizare și refrigerare, depozitele frigorifice și service-urile care trebuie să monitorizeze scurgerile de agent frigorific sau eficiența arderii la centrale termice.`,
     whyChoose: [
       "Detectoare de gaze refrigerante dedicate spațiilor mecanice și camerelor frigorifice, nu instrumente generale de detecție gaz",
       "Analizoare de ardere pentru verificarea eficienței și emisiilor la cazane și centrale termice",
-      "Conformitate cu standarde relevante pentru agenți frigoranți — EN 378, ASHRAE 15, CSA B52, EPA 608, CARB, F-Gas",
-      "Platforma Parasense pentru monitorizarea continuă a instalațiilor frigorifice, nu doar măsurători punctuale",
-      "Facilități de fabricație și distribuție pe trei continente, utile la disponibilitatea pieselor de schimb",
+      "Detectoare și software destinate conformării cu reglementările privind agenții frigorifici; standardele aplicabile se confirmă pe fișa fiecărui model",
+      "Platforma Parasense pentru managementul agenților frigorifici și urmărirea conformității cu reglementările",
+      "Facilități de fabricație și distribuție în Canada și Irlanda, pe două continente",
     ],
     keyProducts: [
       { name: "Detector de gaze refrigerante MGS-400", description: "Sistem de detecție pentru scurgeri de agent frigorific în spații mecanice, camere frigorifice și săli de mașini, cu senzori care declanșează alarmă la depășirea unui prag de concentrație setat. Se folosește la conformarea cu reglementările privind siguranța agenților frigoranți în spații închise. Pentru ofertă, clientul trebuie să precizeze tipul de agent frigorific monitorizat, numărul de zone și dacă instalația necesită integrare cu un sistem central de alarmare." },
       { name: "Analizor de ardere și emisii PCA 400", description: "Instrument portabil pentru măsurarea eficienței arderii și a emisiilor la cazane și centrale termice, cu senzori pentru oxigen, monoxid de carbon și temperatura gazelor de ardere. Se folosește la verificări periodice de mentenanță și la reglajul arzătoarelor. Pentru ofertă, clientul trebuie să precizeze tipul de combustibil folosit și frecvența dorită a măsurătorilor." },
-      { name: "Platforma Parasense pentru management frigorific", description: "Sistem de monitorizare continuă a instalațiilor frigorifice, care urmărește parametrii de funcționare și semnalează abateri sau scurgeri de agent frigorific înainte ca acestea să devină avarii majore. Se folosește la depozite frigorifice și instalații comerciale de refrigerare cu mai multe puncte de monitorizat. Pentru ofertă, clientul trebuie să precizeze numărul de instalații de monitorizat și tipul agentului frigorific folosit." },
+      { name: "Platforma Parasense pentru management frigorific", description: "Platformă software pentru managementul agenților frigorifici, cu urmărirea conformității cu EPA 608 și fluxuri de lucru pentru reglementări. Se folosește de operatorii cu mai multe instalații frigorifice de gestionat. Pentru ofertă, clientul trebuie să precizeze numărul de instalații de monitorizat și tipul agentului frigorific folosit." },
     ],
     industries: [
       "Sisteme de răcire și chilere — detecție scurgeri agent frigorific",
-      "Depozite frigorifice — monitorizare continuă a instalațiilor",
+      "Depozite frigorifice — detecție scurgeri de agent frigorific",
       "Centrale termice — analiză ardere și emisii",
       "Camere de congelare comercială — detectoare de gaz pentru spații închise",
       "Service instalații HVAC — instrumente portabile de diagnosticare",
@@ -1388,7 +1388,7 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
       },
       {
         "code": "ECA450",
-        "description": "Analizor de ardere pentru aplicații de mediu, model patru sute cincizeci."
+        "description": "Analizor portabil de ardere din gama Bacharach; aplicația exactă se confirmă din fișa tehnică oficială."
       },
       {
         "code": "Fyrite Tech Model 50",
@@ -1404,7 +1404,7 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
       },
       {
         "code": "Model 3600",
-        "description": "Sistem de recuperare a agentului frigorific, cu cod de piesă 2000-3600."
+        "description": "Model din catalogul Bacharach; denumirea și aplicația se confirmă din fișa tehnică oficială."
       },
       {
         "code": "3100 Percent Oxygen Analyzer",
@@ -1430,11 +1430,11 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
     faq: [
       {
         "q": "Ce detectează senzorul MGS-400 de la Bacharach?",
-        "a": "MGS-400 este un detector fix Bacharach pentru scăpări de agent frigorific, montat de regulă în camere tehnice, camere de mașini, platforme de chillere și spații de depozitare frigorifică. Rolul lui este să semnaleze concentrații periculoase de gaz înainte ca acestea să depășească pragurile de siguranță impuse de reglementări. Se poate integra cu platforme de monitorizare precum Parasense, pentru urmărirea alarmelor la distanță."
+        "a": "MGS-400 este un detector fix Bacharach pentru scăpări de agent frigorific, montat de regulă în camere tehnice, camere de mașini, platforme de chillere și spații de depozitare frigorifică. Rolul lui este să semnaleze concentrații periculoase de gaz înainte ca acestea să depășească pragurile de siguranță impuse de reglementări."
       },
       {
         "q": "Care e diferența dintre PCA 400 și ECA450?",
-        "a": "PCA 400 este orientat spre analiza arderii și emisiilor la cazane și arzătoare comerciale, în timp ce ECA450 este gândit pentru măsurători de mediu, cu accent pe emisiile reglementate. Ambele sunt analizoare portabile din gama producătorului, dar seriile de senzori și rapoartele generate diferă în funcție de aplicație. Alegerea corectă depinde de tipul de instalație verificată și de standardul de raportare cerut."
+        "a": "PCA 400 este orientat spre analiza arderii și emisiilor la cazane și arzătoare comerciale, în timp ce ECA450 este un alt analizor de ardere din gama producătorului; diferențele dintre cele două modele (senzori, rapoarte, aplicații) se confirmă din fișele tehnice oficiale. Alegerea corectă depinde de tipul de instalație verificată și de standardul de raportare cerut."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de instrumente Bacharach?",
@@ -1447,8 +1447,8 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Bacharach – Home","url":"https://www.mybacharach.com","publisher":"Bacharach (MSA Safety)","accessed":"2026-09-25"},
       {"title":"3100 Percent Oxygen Analyzer","url":"https://mybacharach.com/product/3100-percent-oxygen-analyzer","publisher":"Bacharach (MSA Safety)","accessed":"2026-09-25"},

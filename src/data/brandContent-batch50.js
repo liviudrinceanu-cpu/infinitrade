@@ -6,20 +6,20 @@ export const brandContentBatch50 = {
     headquarters: "Neckartenzlingen, Germania",
     overview: `Hirschmann Automation and Control este producătorul german de switch-uri Ethernet industriale cu sediul la Neckartenzlingen, parte a grupului american Belden. Compania proiectează echipamente de rețea robuste — switch-uri gestionate, routere de securitate și puncte de acces wireless — construite pentru medii cu vibrații, praf, temperaturi extreme și cerințe stricte de disponibilitate. Din gama Hirschmann putem oferta switch-uri industriale pentru automatizări de proces, energie, transport feroviar și infrastructură critică, acolo unde o defecțiune de rețea oprește producția.
 
-Ce diferențiază switch-urile Hirschmann e arhitectura de redundanță — protocoale precum HIPER-Ring și RSTP permit reconfigurarea rețelei în milisecunde după o întrerupere de cablu, fără pierdere de pachete la aplicațiile critice. Seria GREYHOUND acoperă switch-uri compatibile cu protocoale industriale, de la 5 la peste 20 de porturi, iar seria BOBCAT vizează instalarea compactă la marginea rețelei, direct în tabloul de automatizare. Ca fabricant de infrastructură de rețea industrială, Hirschmann pune accent pe managementul centralizat al configurațiilor prin software dedicat, spre deosebire de switch-urile de birou fără funcții industriale.
+Ce diferențiază switch-urile Hirschmann e arhitectura de redundanță — protocoale de redundanță precum HIPER-Ring și RSTP permit rețelei să se reconfigureze automat după o întrerupere de cablu; timpul de reconfigurare depinde de protocol și de topologie. Seria GREYHOUND acoperă switch-uri compatibile cu protocoale industriale, cu număr variabil de porturi, în funcție de model, iar seria BOBCAT vizează instalarea compactă la marginea rețelei, direct în tabloul de automatizare. Ca fabricant de infrastructură de rețea industrială, Hirschmann pune accent pe managementul centralizat al configurațiilor prin software dedicat, spre deosebire de switch-urile de birou fără funcții industriale.
 
 Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă o opțiune solidă acolo unde rețeaua Ethernet trece prin hale de producție, stații electrice sau tunele — medii unde un switch obișnuit cedează rapid. Se pretează la proiecte de automatizare nouă și la extinderea rețelelor existente, cu mentenanță redusă odată instalat corect.`,
     whyChoose: [
-      "Redundanță de rețea prin protocoale HIPER-Ring și RSTP — reconfigurare în milisecunde după o întrerupere de cablu, fără oprirea producției",
+      "Redundanță de rețea prin protocoale precum HIPER-Ring și RSTP, pentru reconfigurarea automată a rețelei după o întrerupere de cablu",
       "Carcase metalice fără ventilator, rezistente la vibrații și praf, gândite pentru montaj direct în tabloul de automatizare, nu în server room",
       "Gamă largă, de la switch-uri nemanageabile compacte până la switch-uri gestionate cu funcții avansate de securitate și diagnosticare",
       "Parte din grupul Belden, cu acces la rețeaua globală de suport tehnic și piese de schimb a unui furnizor mare de infrastructură",
       "Puncte de acces wireless industriale din familia BAT pentru zone unde cablarea fixă nu e practică — vehicule ghidate, macarale, linii mobile",
     ],
     keyProducts: [
-      { name: "Switch-uri BOBCAT (BXS/BXP/BRP/BRS)", description: "Familie de switch-uri industriale compacte, pentru montaj pe șină DIN, în tabloul de automatizare, aproape de echipamentul controlat. Variantele merg de la switch-uri nemanageabile simple (BXS) până la switch-uri complet gestionate cu funcții de securitate cibernetică (BRS). Alimentare redundantă și carcasă fără ventilator pentru funcționare în medii cu praf sau vibrații. Clientul precizează numărul de porturi necesare, tipul de fibră sau cupru și dacă are nevoie de funcții gestionate." },
+      { name: "Switch-uri BOBCAT (BXS/BXP/BRP/BRS)", description: "Familie de switch-uri industriale compacte, pentru montaj pe șină DIN, în tabloul de automatizare, aproape de echipamentul controlat. Variantele sunt BXS, BXP, BRP și BRS; funcțiile exacte ale fiecărui model se confirmă pe cod, din documentația Hirschmann. Alimentare redundantă și carcasă fără ventilator pentru funcționare în medii cu praf sau vibrații. Clientul precizează numărul de porturi necesare, tipul de fibră sau cupru și dacă are nevoie de funcții gestionate." },
       { name: "Switch-uri GREYHOUND (seria GRS)", description: "Switch-uri Ethernet industriale gestionate, cu porturi combinate cupru și fibră optică, pentru rețele de dimensiuni medii-mari în automatizarea de proces. Suportă protocoale de redundanță pentru reconfigurarea rapidă a rețelei. Aplicație tipică: coloana vertebrală de rețea a unei linii de producție sau a unei stații de tratare. Clientul trimite topologia dorită și numărul de noduri pentru dimensionare corectă." },
-      { name: "Routere de securitate EAGLE (EAGLE20/30, EAGLE40, EAGLE One)", description: "Routere industriale cu funcții de firewall și VPN, pentru segmentarea rețelei de automatizare de rețeaua IT a fabricii sau acces la distanță securizat. EAGLE One vizează instalații mai mici, iar EAGLE20/30 acoperă cerințe mai complexe de rutare. Aplicație tipică: izolarea unei linii sensibile de restul rețelei companiei. Clientul precizează topologia și cerințele de segmentare." },
+      { name: "Routere de securitate EAGLE (EAGLE20/30, EAGLE40, EAGLE One)", description: "Routere industriale cu funcții de firewall și VPN, pentru segmentarea rețelei de automatizare de rețeaua IT a fabricii sau acces la distanță securizat. Modelele EAGLE diferă prin funcții și număr de porturi; le confirmăm pe cod, din documentația producătorului. Aplicație tipică: izolarea unei linii sensibile de restul rețelei companiei. Clientul precizează topologia și cerințele de segmentare." },
       { name: "Puncte de acces wireless BAT", description: "Familie de puncte de acces și clienți wireless industriali pentru conectarea echipamentelor mobile — vehicule ghidate automat, poduri rulante, roboți mobili — la rețeaua fixă a fabricii. Gândite pentru roaming rapid între celule, fără întreruperea comunicației în mișcare. Clientul precizează distanța de acoperire necesară și tipul de echipamente mobile conectate." },
     ],
     industries: [
@@ -34,7 +34,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
     productCodes: [
       {
         "code": "BXS",
-        "description": "Switch industrial nemanaged din familia BOBCAT, carcasă compactă"
+        "description": "Switch industrial din familia BOBCAT, carcasă compactă"
       },
       {
         "code": "BXP",
@@ -78,11 +78,11 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       },
       {
         "code": "EAGLE20",
-        "description": "Router de securitate industrial cu suport SHDSL, familia EAGLE"
+        "description": "Router de securitate industrial din familia EAGLE"
       },
       {
         "code": "EAGLE30",
-        "description": "Router de securitate industrial cu suport SHDSL, familia EAGLE"
+        "description": "Router de securitate industrial din familia EAGLE"
       },
       {
         "code": "EAGLE40-03",
@@ -110,7 +110,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       },
       {
         "code": "LRS30",
-        "description": "Switch industrial de rețea din familia Lemur Rail Switch"
+        "description": "Switch industrial de rețea din familia LRS"
       }
     ],
     faq: [
@@ -128,13 +128,13 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
       },
       {
         "q": "Livrați echipamente de rețea Hirschmann în România?",
-        "a": "Da, aducem la comandă switch-uri din familiile BOBCAT și GREYHOUND, routere EAGLE și puncte de acces BAT, pe baza codului exact solicitat. Nu ținem această gamă pe raft, iar orientarea de livrare publicată de producător se situează, de regulă, între două și patru săptămâni. Recomandăm confirmarea codului complet al modelului înainte de trimiterea cererii de ofertă."
+        "a": "Da, aducem la comandă switch-uri din familiile BOBCAT și GREYHOUND, routere EAGLE și puncte de acces BAT, pe baza codului exact solicitat. Nu ținem această gamă pe raft, iar termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Recomandăm confirmarea codului complet al modelului înainte de trimiterea cererii de ofertă."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Hirschmann Automation and Control – Documentation","url":"https://www.doc.hirschmann.com/index.html","publisher":"Hirschmann","accessed":"2026-09-25"},
       { title: "Hirschmann Automation and Control – documentație produse", url: "https://www.doc.hirschmann.com/index.html", publisher: "Hirschmann Automation and Control GmbH", accessed: "2026-09-22" },
@@ -154,13 +154,13 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
       "Portofoliu complet de vid — ventuze, generatoare și senzori proiectate să funcționeze împreună, nu componente asamblate din surse diferite",
       "Materiale de ventuze adaptate aplicației — de la cauciuc siliconic pentru contact alimentar până la poliuretan rezistent la uleiuri",
       "Sisteme de ridicare manuală pe vid pentru operatori, utile la posturi cu ridicări repetitive de panouri, cutii sau plăci grele",
-      "Companie de familie cu peste un secol de activitate exclusiv pe tehnologie de vid, nu o divizie secundară a unui grup mai mare",
-      "Prezență în peste 30 de țări, ceea ce simplifică accesul la documentație tehnică și piese de schimb",
+      "Companie de familie fondată în 1910, cu sediul la Glatten",
+      "Prezență internațională, cu documentație tehnică publicată online de producător",
     ],
     keyProducts: [
       { name: "Ventuze și Sisteme de Prindere pe Vid", description: "Ventuze din cauciuc siliconic, poliuretan sau NBR, în forme rotunde, ovale sau tip burduf, montate pe brațe robotizate pentru preluarea pieselor din ambalaje, table metalice sau componente din sticlă. Selecția formei și a materialului depinde de suprafața piesei — netedă, poroasă, uleioasă sau fragilă. Integrează senzori de vid care confirmă prinderea corectă înainte ca robotul să deplaseze piesa. Clientul precizează materialul și dimensiunea piesei manipulate, greutatea și ciclul de lucru." },
       { name: "Generatoare de Vid", description: "Generatoare de vid compacte, bazate pe principiul ejectorului cu aer comprimat, montate direct pe brațul robotului sau centralizat lângă instalație. Produc depresiunea necesară pentru ventuze fără o pompă de vid separată, cu consum redus de aer comprimat prin funcții de economisire energetică. Potrivite pentru cicluri rapide de preluare-depunere în linii de ambalare și paletizare. Clientul precizează debitul de aer comprimat disponibil și numărul de ventuze alimentate simultan." },
-      { name: "Sisteme de Ridicare VacuMaster", description: "Sisteme de ridicare manuală pe vid pentru operatori, folosite la manipularea plăcilor de sticlă, panourilor din lemn, cutiilor de carton sau sacilor, cu comandă printr-un buton de balans care reduce efortul fizic la ridicare. Capacități adaptate greutății pieselor tipice dintr-un depozit sau o linie de ambalare. Reduc riscul de accidentare la posturile cu ridicări repetitive. Clientul precizează greutatea și forma pieselor ridicate." },
+      { name: "Sisteme de Ridicare VacuMaster", description: "Sisteme de ridicare manuală pe vid pentru operatori, folosite la manipularea plăcilor de sticlă, panourilor din lemn, cutiilor de carton sau sacilor, cu comandă manuală de către operator, care reduce efortul fizic la ridicare. Capacități adaptate greutății pieselor tipice dintr-un depozit sau o linie de ambalare. Reduc riscul de accidentare la posturile cu ridicări repetitive. Clientul precizează greutatea și forma pieselor ridicate." },
       { name: "Sisteme de Fixare pe Vid pentru Prelucrare", description: "Mese și plăci de fixare pe vid pentru prinderea pieselor plate — table, plăci de compozit, componente din lemn — direct pe masa CNC, fără cleme mecanice care ar limita accesul sculei. Distribuția vidului pe zone permite fixarea simultană a mai multor piese mici. Aplicație tipică: debitare cu freza sau jet de apă a panourilor plane. Clientul precizează dimensiunea mesei și materialul prelucrat." },
     ],
     industries: [
@@ -183,7 +183,7 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
       },
       {
         "code": "SCPSi-L",
-        "description": "Variantă alungită a ejectorului compact SCPSi din gama de generatoare de vid"
+        "description": "Variantă a ejectorului compact SCPSi din gama de generatoare de vid"
       },
       {
         "code": "VacuMaster",
@@ -237,13 +237,13 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
       },
       {
         "q": "Livrați echipamente de vid Schmalz în România?",
-        "a": "Da, aducem la comandă generatoare de vid, sisteme de prindere și dispozitive de ridicare precum VacuMaster din portofoliul Schmalz, pe baza codului exact solicitat. Această gamă se comandă special, fără a fi ținută curent pe raft, termenul orientativ publicat de producător fiind de două-șase săptămâni. Recomandăm descrierea aplicației și a tipului de piesă manipulată pentru o ofertă corectă."
+        "a": "Da, aducem la comandă generatoare de vid, sisteme de prindere și dispozitive de ridicare precum VacuMaster din portofoliul Schmalz, pe baza codului exact solicitat. Această gamă se comandă special, fără a fi ținută curent pe raft, termenul orientativ fiind de 1–4 săptămâni de la confirmarea comenzii. Recomandăm descrierea aplicației și a tipului de piesă manipulată pentru o ofertă corectă."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Schmalz – Vacuum Technology for Automation","url":"https://www.schmalz.com/en-us/","publisher":"Schmalz","accessed":"2026-09-25"},
       {"title":"Schmalz – Compact Ejectors SCPSc / SCPSi","url":"https://www.schmalz.com/en/vacuum-technology-for-automation/vacuum-components/vacuum-generators/compact-ejectors/compact-ejectors-scps-scpsi-307842/","publisher":"Schmalz","accessed":"2026-09-25"},
@@ -257,19 +257,19 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
     headquarters: "Alphen aan den Rijn, Olanda",
     overview: `Hyva este un producător olandez de componente hidraulice pentru transport și construcții, înființat în 1979 și cu sediul la Alphen aan den Rijn. Compania produce cilindri telescopici hidraulici pentru basculante, macarale hidraulice montate pe camion, sisteme de manipulare containere (hookloader și skiploader) și echipamente pentru colectarea deșeurilor. Din gama Hyva putem oferta cilindri de basculare și componente hidraulice pentru flote de transport greu și utilaje de construcții.
 
-Cilindrii telescopici Hyva sunt gândiți special pentru basculare — construcție cu mai multe trepte care se extind telescopic, potrivită pentru semiremorci și basculante unde spațiul sub șasiu e limitat. Macaralele hidraulice folosesc sisteme electronice de control al sarcinii și respectă standardele europene EN12999 pentru siguranță structurală. Concurează cu alți producători de cilindri și macarale hidraulice pentru transport, precum Bucher Hydraulics, dar se remarcă prin gama largă de cilindri telescopici dedicați exclusiv basculării.
+Cilindrii telescopici Hyva sunt gândiți special pentru basculare — construcție cu mai multe trepte care se extind telescopic, potrivită pentru semiremorci și basculante unde spațiul sub șasiu e limitat. Sistemele de control și standardele aplicabile macaralelor hidraulice se confirmă din documentația Hyva pentru modelul ales. Concurează cu alți producători de cilindri și macarale hidraulice pentru transport, precum Bucher Hydraulics.
 
 Pentru transportatorii și constructorii din România, Hyva înseamnă piese de schimb și componente pentru basculante, autogunoiere sau macarale hidraulice montate pe camion, acolo unde defecțiunea unui cilindru sau a unei macarale oprește un vehicul din exploatare.`,
     whyChoose: [
       "Cilindri telescopici dedicați basculării, cu construcție pe mai multe trepte pentru spații reduse sub șasiul remorcii",
-      "Macarale hidraulice cu control electronic al sarcinii, conforme standardului european EN12999:2020 pentru siguranță structurală",
+      "Macarale hidraulice montate pe camion, cu specificații confirmate din documentația producătorului pentru modelul ales",
       "Rețea de peste 30 de filiale proprii și 12 unități de producție, utilă pentru trasabilitatea pieselor de schimb",
       "Sisteme complete pentru manipulare containere — hookloader și skiploader — pe lângă cilindrii de basculare",
-      "Peste patru decenii de specializare exclusivă pe hidraulică pentru transport greu și construcții",
+      "Peste patru decenii de activitate în hidraulică pentru transport greu și construcții",
     ],
     keyProducts: [
-      { name: "Cilindri Telescopici pentru Basculante", description: "Cilindri hidraulici telescopici cu mai multe trepte, montați sub șasiul basculantelor și semiremorcilor pentru ridicarea bennei la descărcare. Construcția telescopică permite o cursă lungă de ridicare dintr-un spațiu de montaj redus, esențială la semiremorci unde garda la sol e limitată. Disponibili în variante cu acțiune simplă sau dublă, pentru diverse configurații de basculare frontală sau laterală. Clientul trebuie să transmită modelul vehiculului, cursa necesară și forța de ridicare." },
-      { name: "Macarale Hidraulice pentru Camion (Loader Crane)", description: "Macarale hidraulice montate pe șasiu de camion, folosite la încărcarea și descărcarea materialelor de construcție, lemn sau echipamente grele direct la punctul de lucru. Sistemul electronic de control monitorizează sarcina și unghiul brațului pentru a preveni răsturnarea, iar construcția respectă EN12999:2020 și EN13849 pentru siguranța structurală. Capacitatea de ridicare variază după modelul brațului și numărul de secțiuni telescopice. Clientul precizează sarcina maximă necesară și raza de acțiune dorită." },
+      { name: "Cilindri Telescopici pentru Basculante", description: "Cilindri hidraulici telescopici cu mai multe trepte, montați sub șasiul basculantelor și semiremorcilor pentru ridicarea bennei la descărcare. Construcția telescopică permite o cursă lungă de ridicare dintr-un spațiu de montaj redus, esențială la semiremorci unde garda la sol e limitată. Clientul trebuie să transmită modelul vehiculului, cursa necesară și forța de ridicare." },
+      { name: "Macarale Hidraulice pentru Camion (Loader Crane)", description: "Macarale hidraulice montate pe șasiu de camion, folosite la încărcarea și descărcarea materialelor de construcție, lemn sau echipamente grele direct la punctul de lucru. Specificațiile sistemului de control și standardele aplicabile se confirmă din documentația producătorului pentru modelul ales. Capacitatea de ridicare variază după modelul brațului și numărul de secțiuni telescopice. Clientul precizează sarcina maximă necesară și raza de acțiune dorită." },
       { name: "Sisteme Hookloader și Skiploader", description: "Sisteme hidraulice de manipulare containere montate pe camion, pentru ridicarea și transportul containerelor de deșeuri sau materiale în construcții și salubrizare. Hookloader folosește un cârlig hidraulic pentru tragerea containerului pe platformă, iar skiploader basculează containerul direct din poziție laterală. Ambele sisteme sunt dimensionate după greutatea și dimensiunea containerelor uzuale de pe piață. Clientul precizează tipul și capacitatea containerelor manipulate." },
     ],
     industries: [
@@ -299,23 +299,23 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
       },
       {
         "code": "FC A5-3-147-K13",
-        "description": "Cilindru telescopic frontal pentru basculante de dimensiuni reduse"
+        "description": "Cilindru telescopic frontal din familia FC, cod complet de identificare"
       },
       {
         "code": "FC A7-4-178-K13-HD2",
-        "description": "Cilindru telescopic frontal, variantă întărită HD2"
+        "description": "Cilindru telescopic frontal din familia FC, cod complet de identificare"
       },
       {
         "code": "FC A6-4-197-K13",
-        "description": "Cilindru telescopic frontal pentru basculante de capacitate medie"
+        "description": "Cilindru telescopic frontal din familia FC, cod complet de identificare"
       },
       {
         "code": "FC A191-4-05460-000-K0343-HC",
-        "description": "Cilindru telescopic frontal, variantă cu capac exterior HC"
+        "description": "Cilindru telescopic frontal din familia FC, cod complet de identificare"
       },
       {
         "code": "FC A8-5-376-K19",
-        "description": "Cilindru telescopic frontal pentru basculante de capacitate mare"
+        "description": "Cilindru telescopic frontal din familia FC, cod complet de identificare"
       },
       {
         "code": "FC Heavy Duty",
@@ -327,7 +327,7 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
       },
       {
         "code": "KENNIS e-Power rolloader",
-        "description": "Macara hidraulică electrică pentru încărcare de tip rolloader"
+        "description": "Produs din gama KENNIS; detaliile se confirmă din documentația Hyva"
       },
       {
         "code": "Amco Veba Marine Cranes",
@@ -337,7 +337,7 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
     faq: [
       {
         "q": "Ce înseamnă codul complet al unui cilindru telescopic Hyva, de exemplu FC A137-4-04980-004-K1050?",
-        "a": "Codul unui cilindru telescopic Hyva din familia FC descrie, printr-o succesiune de litere și cifre, seria constructivă, numărul de trepte, cursa și varianta de fixare a cilindrului respectiv. Fiecare segment al codului corespunde unui parametru tehnic specific, publicat în documentația producătorului pentru identificarea exactă a piesei de schimb. La comandarea unui cilindru de schimb este esențial codul complet, nu doar seria FC, pentru a evita o piesă incompatibilă."
+        "a": "Codul complet identifică exact cilindrul din familia FC; semnificația fiecărui segment al codului se confirmă din documentația Hyva pentru modelul respectiv. La comandarea unui cilindru de schimb este esențial codul complet, nu doar seria FC, pentru a evita o piesă incompatibilă."
       },
       {
         "q": "Ce diferență este între cilindrii Hyva FC standard și varianta Heavy Duty?",
@@ -349,13 +349,13 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
       },
       {
         "q": "Livrați cilindri și macarale Hyva în România?",
-        "a": "Da, aducem la comandă cilindri telescopici din familia FC, precum și macarale hidraulice din gamele KENNIS sau Amco Veba, pe baza codului exact solicitat. Această gamă nu este ținută pe raft, iar orientarea de livrare publicată de producător este, în general, între două și patru săptămâni. Recomandăm transmiterea codului complet al cilindrului sau al modelului de macara pentru o identificare corectă."
+        "a": "Da, aducem la comandă cilindri telescopici din familia FC, precum și macarale hidraulice din gamele KENNIS sau Amco Veba, pe baza codului exact solicitat. Această gamă nu este ținută pe raft, iar termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Recomandăm transmiterea codului complet al cilindrului sau al modelului de macara pentru o identificare corectă."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Hyva – Homepage","url":"https://www.hyva.com/en/","publisher":"Hyva","accessed":"2026-09-25"},
       {"title":"Hyva – Front-End Cylinders","url":"https://www.hyva.com/en/solutions/tipping-systems/front-end-cylinders/","publisher":"Hyva","accessed":"2026-09-25"},
@@ -369,7 +369,7 @@ Pentru transportatorii și constructorii din România, Hyva înseamnă piese de 
     headquarters: "Zug, Elveția",
     overview: `Bossard este un grup elvețian de tehnologie a elementelor de fixare și logistică industrială, cu rădăcini din 1831 și sediul la Zug. Compania nu produce doar șuruburi și piulițe standard, ci gestionează întregul lanț de aprovizionare cu componente de fixare pentru linii de asamblare — peste 200.000 de repere standard și personalizate. Din gama Bossard putem oferta elemente de fixare tehnice și soluții de management al inventarului pentru producători cu consum ridicat de componente mici.
 
-Ce diferențiază Bossard de un simplu vânzător de șuruburi la bucată e componenta de inginerie — echipa tehnică analizează asamblarea clientului și recomandă tipul de fixare optim din punct de vedere al rezistenței, costului și timpului de montaj. Soluțiile de logistică tip Smart Factory automatizează reaprovizionarea componentelor mici direct la postul de lucru, prin senzori de nivel în containere. E o abordare diferită față de producătorii care vând doar catalog de repere, fără serviciul de inginerie asociat.
+Ce diferențiază Bossard de un simplu vânzător de șuruburi la bucată e componenta de inginerie — echipa tehnică analizează asamblarea clientului și recomandă tipul de fixare optim din punct de vedere al rezistenței, costului și timpului de montaj. Soluțiile de logistică tip Smart Factory automatizează reaprovizionarea componentelor mici direct la postul de lucru, direct la postul de lucru, conform descrierii producătorului. E o abordare diferită față de producătorii care vând doar catalog de repere, fără serviciul de inginerie asociat.
 
 Pentru fabricile din România cu producție de serie — auto, electrocasnice, mobilă metalică — Bossard are sens acolo unde numărul mare de repere mici de fixare complică gestiunea stocului intern, nu neapărat la proiecte unicat cu consum redus.`,
     whyChoose: [
@@ -380,8 +380,8 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
     ],
     keyProducts: [
       { name: "Elemente de Fixare Standard și Tehnice", description: "Catalog extins de șuruburi, piulițe, șaibe și elemente de fixare speciale, în oțel, inox sau materiale ușoare, pentru asamblări mecanice de la electrocasnice până la utilaje grele. Include repere standardizate DIN/ISO și componente proiectate specific pentru aplicații cu cerințe de rezistență la vibrații sau coroziune. Selecția corectă depinde de materialul îmbinat, sarcina aplicată și mediul de funcționare. Clientul trimite desenul tehnic sau codul reperului existent pentru identificare rapidă." },
-      { name: "Sisteme Smart Factory Logistics", description: "Soluții de gestiune automată a stocului de componente mici direct la linia de producție, prin containere cu senzori de greutate sau nivel care declanșează automat comanda de reaprovizionare. Reduc timpul petrecut de operatori cu verificarea manuală a stocului și riscul de oprire a liniei din lipsă de șuruburi sau piulițe. Se integrează cu sistemele ERP ale clientului pentru facturare automată pe consum real. Aplicație tipică: linii de asamblare cu consum ridicat de componente standardizate." },
-      { name: "Servicii de Inginerie a Asamblării (ATE)", description: "Analiză tehnică a asamblării clientului pentru identificarea celei mai potrivite soluții de fixare din punct de vedere al rezistenței mecanice, costului total și timpului de montaj. Poate reduce numărul de tipuri diferite de fixare folosite într-un produs, simplificând gestiunea stocului. Aplicație tipică: redesign-ul unei game de produse pentru reducerea costurilor de asamblare. Clientul furnizează desenele curente și problemele întâmpinate la montaj." },
+      { name: "Sisteme Smart Factory Logistics", description: "Soluții de gestiune automată a stocului de componente mici direct la linia de producție, prin containere cu senzori de greutate sau nivel care declanșează automat comanda de reaprovizionare. Reduc timpul petrecut de operatori cu verificarea manuală a stocului și riscul de oprire a liniei din lipsă de șuruburi sau piulițe. Aplicație tipică: linii de asamblare cu consum ridicat de componente standardizate." },
+      { name: "Servicii de Inginerie a Asamblării", description: "Analiză tehnică a asamblării clientului pentru identificarea celei mai potrivite soluții de fixare din punct de vedere al rezistenței mecanice, costului total și timpului de montaj. Poate reduce numărul de tipuri diferite de fixare folosite într-un produs, simplificând gestiunea stocului. Aplicație tipică: redesign-ul unei game de produse pentru reducerea costurilor de asamblare. Clientul furnizează desenele curente și problemele întâmpinate la montaj." },
     ],
     industries: [
       "Industria auto — fixare componente caroserie și subansamble",
@@ -461,8 +461,8 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Product Solutions | Bossard","url":"https://www.bossard.com/global-en/product-solutions/","publisher":"Bossard","accessed":"2026-09-26"},
       {"title":"Product Categories and Brands | Bossard","url":"https://www.bossard.com/global-en/product-solutions/product-categories-and-brands/","publisher":"Bossard","accessed":"2026-09-26"},
@@ -481,11 +481,11 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       "Cataloage extinse de elemente normalizate DIN/ISO — bolțuri de indexare, arcuri de presiune, mânere — gata de montaj fără proiectare suplimentară",
       "Ciocane SIMPLEX cu cap interschimbabil din materiale moi, pentru lovituri fără deteriorarea suprafeței piesei prelucrate",
       "Bolțuri de blocare pentru aplicații aerospațiale, conforme standardelor americane NAS și MS",
-      "Peste 85 de ani de specializare exclusivă pe elemente standard pentru mașini și dispozitive",
+      "Peste 85 de ani de activitate în domeniul elementelor standard pentru mașini, al sculelor de mână și al produselor pentru aviație",
     ],
     keyProducts: [
       { name: "Bolțuri de Indexare și Elemente de Fixare cu Clapetă", description: "Bolțuri de indexare cu resort, folosite pentru schimbarea rapidă și poziționarea repetabilă a dispozitivelor pe mașini-unelte, fără scule suplimentare de reglaj. Elementele de fixare cu clapetă permit blocarea și deblocarea rapidă a panourilor sau capacelor de protecție. Disponibile în variante din oțel sau inox, pentru medii uzuale sau cu expunere la umezeală. Clientul trimite diametrul găurii de montaj și forța de blocare necesară pentru selecția corectă." },
-      { name: "Ciocane SIMPLEX și SUPERCRAFT", description: "Ciocane cu cap interschimbabil, din materiale moi precum cauciuc, plastic sau cupru, pentru lovituri controlate care nu deteriorează suprafața piesei prelucrate sau asamblate. Mânerul absoarbe o parte din șoc, reducând oboseala mâinii la utilizare intensivă în atelier. Capetele se pot înlocui individual la uzură, fără a schimba ciocanul complet. Aplicație tipică: montaj mecanic, matrițerie, reglaj utilaje. Clientul precizează greutatea capului și materialul dorit." },
+      { name: "Ciocane SIMPLEX și SUPERCRAFT", description: "Ciocane cu cap interschimbabil, din materiale moi precum cauciuc, plastic sau cupru, pentru lovituri controlate care nu deteriorează suprafața piesei prelucrate sau asamblate. Capetele se pot înlocui individual la uzură, fără a schimba ciocanul complet. Aplicație tipică: montaj mecanic, matrițerie, reglaj utilaje. Clientul precizează greutatea capului și materialul dorit." },
       { name: "Sisteme de Canal T și Elemente de Operare", description: "Componente pentru canale T de fixare pe mesele mașinilor-unelte — șuruburi, piulițe glisante, clame — plus elemente de operare pentru panouri de control, precum mânere, butoane și indicatoare de poziție. Folosite la fixarea rapidă a pieselor sau dispozitivelor direct pe masa mașinii, fără găurire suplimentară. Clientul precizează dimensiunea canalului T al mașinii pentru compatibilitate corectă." },
     ],
     industries: [
@@ -511,7 +511,7 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       },
       {
         "code": "Threaded Lifting Pins PLUS",
-        "description": "Bolțuri filetate de ridicare, cu autoblocare și opțiune RFID"
+        "description": "Bolțuri filetate de ridicare din gama PLUS"
       },
       {
         "code": "Quick Clamping Pins",
@@ -531,11 +531,11 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       },
       {
         "code": "SIMPLEX Mallets",
-        "description": "Ciocan cu cap dublu SIMPLEX, din fontă sau aliaj ușor"
+        "description": "Ciocan cu cap moale din gama SIMPLEX"
       },
       {
         "code": "SUPERCRAFT Mallets",
-        "description": "Ciocan cu cap dublu SUPERCRAFT, carcasă din aluminiu"
+        "description": "Ciocan cu cap moale din gama SUPERCRAFT"
       },
       {
         "code": "BASEPLEX Mallets",
@@ -543,7 +543,7 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       },
       {
         "code": "FERROPLEX Combi Hammer",
-        "description": "Ciocan combinat FERROPLEX, cu cap metalic și cap moale"
+        "description": "Ciocan din gama FERROPLEX"
       },
       {
         "code": "Zero-Point Clamping Systems",
@@ -565,13 +565,13 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
       },
       {
         "q": "Livrați scule și elemente de fixare Halder în România?",
-        "a": "Da, aducem la comandă bolțuri de indexare, elemente de fixare și ciocane din gamele SIMPLEX sau SUPERCRAFT, din portofoliul Halder, pe baza codului dorit. Nu ținem această gamă pe raft; aducem elementele de fixare și sculele dorite la comandă, într-un termen public de două până la patru săptămâni. Recomandăm precizarea dimensiunilor exacte și a standardului aplicabil pentru o ofertă corectă."
+        "a": "Da, aducem la comandă bolțuri de indexare, elemente de fixare și ciocane din gamele SIMPLEX sau SUPERCRAFT, din portofoliul Halder, pe baza codului dorit. Nu ținem această gamă pe raft; aducem elementele de fixare și sculele dorite la comandă, într-un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Recomandăm precizarea dimensiunilor exacte și a standardului aplicabil pentru o ofertă corectă."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Halder – Homepage","url":"https://www.halder.com/","publisher":"Halder","accessed":"2026-09-25"},
       { title: "Erwin Halder KG – Elemente standard de mașini", url: "https://www.halder.com/", publisher: "Erwin Halder KG", accessed: "2026-09-22" },
@@ -582,7 +582,7 @@ Pentru ateliere de mentenanță și producători de dispozitive din România, Ha
     name: "Roxtec",
     founded: 1990,
     headquarters: "Karlskrona, Suedia",
-    overview: `Roxtec este un producător suedez de sisteme modulare de etanșare pentru cabluri și țevi, fondat în 1990 și cu sediul la Karlskrona. Tehnologia Multidiameter, brevetată de companie, folosește module de cauciuc cu straturi detașabile care se adaptează la diametrul exact al cablului sau țevii montate, indiferent de variațiile de diametru din proiect. Din gama Roxtec putem oferta sisteme de etanșare pentru treceri prin pereți, plăci și tablouri, cu protecție la foc, gaz și apă.
+    overview: `Roxtec este un producător suedez de sisteme modulare de etanșare pentru cabluri și țevi, fondat în 1990 și cu sediul la Karlskrona. Tehnologia Multidiameter a companiei folosește module de cauciuc cu straturi detașabile care se adaptează la diametrul exact al cablului sau țevii montate, indiferent de variațiile de diametru din proiect. Din gama Roxtec putem oferta sisteme de etanșare pentru treceri prin pereți, plăci și tablouri, cu protecție la foc, gaz și apă.
 
 Diferența față de o etanșare clasică cu spumă sau chit e că modulele Roxtec rămân demontabile — un cablu nou se poate adăuga sau înlocui fără să se refacă întreaga etanșare, păstrând totuși clasa de protecție la foc sau apă. Sistemele MCT (Multi-Cable Transit) acoperă treceri cu zeci de cabluri prin același cadru, dimensionate cu ajutorul software-ului propriu al producătorului, Transit Designer. Categoria de sisteme modulare de etanșare pentru infrastructură pune Roxtec alături de alți furnizori specializați pe treceri de cabluri pentru medii industriale sau navale.
 
@@ -594,8 +594,8 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       "Software propriu Transit Designer pentru dimensionarea corectă a cadrului de etanșare încă din faza de proiect",
     ],
     keyProducts: [
-      { name: "Sistem Multidiameter", description: "Module de cauciuc formate din straturi concentrice detașabile, care se decupează manual până la diametrul exact al cablului sau țevii montate, fără să fie nevoie de module dedicate fiecărui diametru în parte. Modulele se comprimă într-un cadru metalic care asigură etanșeitatea și, după caz, protecția la foc. Reduc numărul de tipuri de piese ținute pentru un proiect cu diametre variate de cabluri. Clientul precizează numărul și diametrele cablurilor sau țevilor care trec prin fiecare cadru." },
-      { name: "MCT – Multi-Cable Transit", description: "Cadre de etanșare pentru treceri cu volum mare de cabluri prin pereți sau plăci, folosite la intrarea cablurilor electrice și de comunicație într-o clădire, navă sau platformă industrială. Dimensionarea se face cu software-ul Transit Designer, care calculează configurația optimă de module pentru cablurile existente și pentru rezerva viitoare de cabluri. Aplicație tipică: sala de cabluri a unei stații electrice sau camera mașinilor unei nave. Clientul trimite lista cablurilor și punctele de trecere planificate." },
+      { name: "Sistem Multidiameter", description: "Module de cauciuc formate din straturi concentrice detașabile, care se decupează manual până la diametrul exact al cablului sau țevii montate, fără să fie nevoie de module dedicate fiecărui diametru în parte. Modulele se montează într-un cadru Roxtec care asigură etanșeitatea și, după caz, protecția la foc. Reduc numărul de tipuri de piese ținute pentru un proiect cu diametre variate de cabluri. Clientul precizează numărul și diametrele cablurilor sau țevilor care trec prin fiecare cadru." },
+      { name: "MCT – Multi-Cable Transit", description: "Cadre de etanșare pentru treceri cu volum mare de cabluri prin pereți sau plăci, folosite la intrarea cablurilor electrice și de comunicație într-o clădire, navă sau platformă industrială. Dimensionarea se face cu software-ul Transit Designer, care, conform producătorului, simplifică selectarea produselor și procesul de proiectare a trecerilor. Aplicație tipică: sala de cabluri a unei stații electrice sau camera mașinilor unei nave. Clientul trimite lista cablurilor și punctele de trecere planificate." },
       { name: "Soluții de Etanșare pentru Tablouri Electrice", description: "Sisteme de etanșare dedicate intrărilor de cabluri în tablouri electrice și dulapuri de automatizare, care păstrează gradul de protecție IP al carcasei chiar și după adăugarea de cabluri noi. Utile la tablourile expuse la praf, umezeală sau spălare cu jet de apă. Clientul precizează tipul tabloului, gradul de protecție necesar și numărul de cabluri de trecut." },
     ],
     industries: [
@@ -605,7 +605,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       "Tratarea apei — etanșare cabluri în stații de pompare și tratare",
     ],
     infinitrade: `La Roxtec nu avem istoric propriu de livrări și spunem direct ce putem și ce nu putem confirma — informațiile tehnice de mai sus vin din surse publice ale producătorului suedez. Cadrele și modulele de etanșare se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de numărul și diametrele cablurilor sau țevilor, tipul peretelui sau plăcii de trecere și clasa de protecție necesară (foc, apă, gaz). Nu putem promite disponibilitate permanentă din stoc pentru toate dimensiunile de module.`,
-    limitation: "Nu putem realiza noi înșine dimensionarea în software-ul Transit Designer al producătorului — rămâne un serviciu oferit direct de echipa tehnică Roxtec.",
+    limitation: "Nu realizăm noi dimensionarea trecerilor; aceasta se poate face în aplicația web gratuită Roxtec Transit Designer, de către client sau proiectant.",
     productCodes: [
       {
         "code": "RM 15",
@@ -613,7 +613,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "code": "RM 15W40",
-        "description": "Modul cu trei intrări, pentru diametre între 3,5 și 10,5 mm"
+        "description": "Modul pentru diametre între 3,5 și 10,5 mm"
       },
       {
         "code": "RM 20",
@@ -621,11 +621,11 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "code": "RM 20W40",
-        "description": "Variantă cu două intrări, interval util 3,5-16,5 mm"
+        "description": "Variantă cu interval util 3,5-16,5 mm"
       },
       {
         "code": "RM 30",
-        "description": "Modul cu o singură intrare, acoperă 10-25 mm diametru"
+        "description": "Modul care acoperă 10-25 mm diametru"
       },
       {
         "code": "RM 40",
@@ -637,7 +637,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "code": "RM 40H80",
-        "description": "Versiune cu înălțime dublă, aceeași plajă ca RM 40"
+        "description": "Variantă H80, cu aceeași plajă de diametre ca RM 40 (21,5-34,5 mm)"
       },
       {
         "code": "RM 60",
@@ -653,15 +653,15 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "code": "RM 60 WOC",
-        "description": "Modul fără miez detașabil, pentru cabluri deja montate, 28-54 mm"
+        "description": "Variantă WOC a modulului RM 60, pentru cabluri sau țevi de 28-54 mm"
       },
       {
         "code": "RM 80 WOC",
-        "description": "Variantă fără miez central, potrivită pentru retrofit, 48-71 mm"
+        "description": "Variantă WOC a modulului RM 80, pentru cabluri sau țevi de 48-71 mm"
       },
       {
         "code": "RM 120 WOC",
-        "description": "Modulul cu diametrul cel mai încăpător fără miez, 67,5-99 mm"
+        "description": "Variantă WOC pentru cabluri sau țevi de 67,5-99 mm"
       }
     ],
     faq: [
@@ -671,7 +671,7 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
       },
       {
         "q": "Ce înseamnă varianta WOC la modulele Roxtec?",
-        "a": "WOC vine de la without core, adică modulul nu are miezul central detașabil și se montează direct peste cablul sau țeava deja instalată. Este util la lucrări de retrofit, unde cablul trece deja prin perete și nu mai poate fi tăiat sau scos din poziție. Codurile RM 60 WOC, RM 80 WOC și RM 120 WOC acoperă diametre mari, de la 24 până la 99 mm."
+        "a": "WOC este o variantă a modulelor Roxtec RM; semnificația exactă a abrevierii și modul de montaj se confirmă din documentația Roxtec pentru modulul ales. Codurile RM 60 WOC, RM 80 WOC și RM 120 WOC acoperă diametre mari, de la 28 până la 99 mm."
       },
       {
         "q": "Livrați module Roxtec în România?",
@@ -684,8 +684,8 @@ Pentru proiecte din România cu cerințe de compartimentare la foc sau etanșeit
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Roxtec RM module with Multidiameter","url":"https://www.roxtec.com/us/products/system-components/sealing-components/roxtec-rm-module-with-multidiameter/","publisher":"Roxtec","accessed":"2026-09-25"},
       {"title":"Roxtec - Products","url":"https://www.roxtec.com/en/products/","publisher":"Roxtec","accessed":"2026-09-25"},
@@ -711,7 +711,7 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
     keyProducts: [
       { name: "Cazane Murale pe Gaz", description: "Cazane murale pe gaz metan pentru încălzire și, în funcție de model, producere de apă caldă menajeră, gândite pentru montaj în clădiri civile sau spații comerciale mici. Construcție compactă, potrivită pentru instalații noi sau pentru înlocuirea unui cazan vechi fără modificarea instalației existente. Aplicație tipică: încălzirea unei clădiri de birouri sau a unui spațiu comercial cu necesar moderat de căldură. Clientul precizează puterea necesară și tipul instalației." },
       { name: "Cazane pe Biomasă (Lemn/Peleți)", description: "Cazane pe combustibil solid pentru încălzirea clădirilor fără acces la gaz la conductă, cu alimentare manuală cu lemn de foc sau automată cu peleți din buncăr. Reduc dependența de un singur tip de combustibil și pot fi combinate cu boilere de acumulare pentru gestionarea vârfurilor de consum. Aplicație tipică: clădiri rurale, ferme, hale mici fără racord la gaz. Clientul precizează puterea necesară, suprafața încălzită și combustibilul disponibil local." },
-      { name: "Sisteme Hibride Cazan + Pompă de Căldură", description: "Sisteme care combină un cazan clasic pe gaz cu o pompă de căldură, cu comutare automată între surse în funcție de temperatura exterioară și costul relativ al energiei. Pompa de căldură acoperă sarcina de bază pe vreme mai blândă, iar cazanul preia vârfurile de consum pe temperaturi foarte scăzute. Reduc consumul anual de gaz comparativ cu un cazan clasic folosit singur. Clientul precizează suprafața încălzită și tipul instalației existente." },
+      { name: "Sisteme Hibride Cazan + Pompă de Căldură", description: "Sisteme care combină un cazan clasic pe gaz cu o pompă de căldură, în care cazanul mural cu condensare gestionează instalația, iar acumularea de căldură este alimentată de o sursă regenerabilă (solar termic, pompă de căldură sau cazan pe biomasă), conform descrierii Sistema SUN a producătorului. Clientul precizează suprafața încălzită și tipul instalației existente." },
     ],
     industries: [
       "Rezidențial și clădiri civile — încălzire și apă caldă menajeră",
@@ -732,7 +732,7 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
       },
       {
         "code": "Cazan pe biomasă cu Biovoltaico",
-        "description": "Combină arderea lemn sau peleți cu integrare fotovoltaică"
+        "description": "Produs din gama Biovoltaico; detaliile se confirmă din documentația Arca Caldaie"
       },
       {
         "code": "Sobă pe peleți cu aer cald",
@@ -744,11 +744,11 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
       },
       {
         "code": "Sistem hibrid cazan și fotovoltaic",
-        "description": "Combină un cazan pe gaz cu panouri solare fotovoltaice"
+        "description": "Sistem hibrid din portofoliul producătorului; componența se confirmă din documentația Arca Caldaie"
       },
       {
         "code": "Sistema SUN",
-        "description": "Sistem hibrid cu integrare solară pentru producerea agentului termic"
+        "description": "Sistem de control și gestionare a acumulării de căldură produse cu solar termic, pompă de căldură sau cazan pe biomasă"
       },
       {
         "code": "Cazan din oțel",
@@ -778,11 +778,11 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
     faq: [
       {
         "q": "Ce tipuri de cazane produce Arca Caldaie?",
-        "a": "Arca Caldaie produce cazane murale pe gaz din gama Pixel, cazane pe biomasă cu lemn sau peleți, sisteme hibride care combină un cazan cu panouri fotovoltaice și cazane industriale din oțel pentru instalații de dimensiuni mai mari. Gama include și boilere, rezervoare de acumulare și sisteme de climatizare cu pompă de căldură pentru proiecte complete de încălzire."
+        "a": "Arca Caldaie produce cazane murale pe gaz din gama Pixel, cazane pe biomasă cu lemn sau peleți, sisteme hibride cu surse regenerabile (de tip Sistema SUN) și cazane industriale din oțel pentru instalații de dimensiuni mai mari. Gama include și boilere, rezervoare de acumulare și sisteme de climatizare cu pompă de căldură pentru proiecte complete de încălzire."
       },
       {
         "q": "Ce este sistemul hibrid Sistema SUN de la Arca Caldaie?",
-        "a": "Sistema SUN este soluția hibridă a producătorului care integrează un cazan cu tehnologie solară fotovoltaică, reducând consumul de combustibil clasic prin folosirea energiei captate de panouri. Este gândit pentru locuințe unde se dorește o sursă suplimentară de energie alături de cazanul pe gaz sau biomasă, fără a înlocui complet sistemul clasic de încălzire."
+        "a": "Sistema SUN este, conform producătorului, un cazan mural cu condensare cu ardere premixată, dotat cu sistem de control și gestionare a acumulării de căldură produse cu solar termic, pompă de căldură sau cazan pe biomasă. Cazanul gestionează instalația, iar acumularea este încălzită doar de sursa regenerabilă."
       },
       {
         "q": "Livrați echipamente Arca Caldaie în România?",
@@ -790,13 +790,13 @@ Pentru clădiri din România fără acces la gaz la conductă sau pentru instala
       },
       {
         "q": "Ce diferență este între un cazan pe gaz și un sistem hibrid la Arca Caldaie?",
-        "a": "Cazanul pe gaz din gama Pixel sau Pixelfast produce agent termic exclusiv prin arderea gazului metan, în timp ce sistemul hibrid combină acest cazan cu panouri fotovoltaice care alimentează o parte din consumul electric al instalației. Alegerea depinde de bugetul disponibil, de expunerea solară a clădirii și de obiectivul de reducere a facturii la energie."
+        "a": "Cazanul pe gaz din gama Pixel sau Pixelfast produce agent termic exclusiv prin arderea gazului metan, în timp ce sistemele hibride, precum Sistema SUN, gestionează acumularea de căldură produsă din surse regenerabile (solar termic, pompă de căldură sau biomasă). Alegerea depinde de bugetul disponibil, de expunerea solară a clădirii și de obiectivul de reducere a facturii la energie."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Arca Caldaie","url":"https://www.arcacaldaie.com/","publisher":"Arca Caldaie","accessed":"2026-09-25"},
       { title: "Arca Caldaie – Prodotti", url: "https://www.arcacaldaie.com", publisher: "Arca Caldaie S.r.l.", accessed: "2026-09-22" },
@@ -1037,20 +1037,20 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
     name: "Insize",
     founded: 1995,
     headquarters: "Suzhou, China",
-    overview: `Insize este un producător chinez de instrumente de măsurare dimensională, cu sediul la Suzhou și activitate din 1995, pe o suprafață construită de peste 32.000 m². Gama acoperă șublere și micrometre digitale, comparatoare și indicatoare digitale, mașini de măsurare prin viziune și proiectoare de profil, sisteme de scanare 3D, precum și instrumente de testare — duritate, rugozitate, defectoscopie. Din portofoliul Insize putem oferta instrumente de măsurare de uz curent pentru control dimensional în producție.
+    overview: `Insize este un producător chinez de instrumente de măsurare dimensională, cu sediul la Suzhou și activitate din 1995, pe o suprafață de fabrică de 32.000 m². Gama acoperă șublere și micrometre digitale, comparatoare și indicatoare digitale, mașini de măsurare prin viziune și proiectoare de profil, sisteme de scanare 3D, precum și instrumente de testare — duritate, rugozitate, defectoscopie. Din portofoliul Insize putem oferta instrumente de măsurare de uz curent pentru control dimensional în producție.
 
-Insize acoperă practic întreg spectrul de metrologie dimensională de uz industrial — de la instrumente manuale de bază până la sisteme de măsurare prin viziune și scanare 3D pentru control automat. Compania concurează cu producători consacrați de instrumente de precizie precum Mitutoyo, dar se poziționează la un nivel de preț mai accesibil, cu o gamă la fel de largă de tipuri de instrumente. Rețeaua de 20 de filiale internaționale susține distribuția și suportul tehnic pe mai multe continente.
+Insize acoperă o gamă largă de metrologie dimensională de uz industrial — de la instrumente manuale de bază până la sisteme de măsurare prin viziune și scanare 3D pentru control automat. Compania concurează cu producători consacrați de instrumente de precizie precum Mitutoyo. Rețeaua de 20 de filiale internaționale susține distribuția și suportul tehnic pe mai multe continente.
 
-Pentru ateliere de producție și control calitate din România care au nevoie de instrumente de măsurare pentru uz zilnic — șublere, micrometre, comparatoare — Insize oferă o alternativă accesibilă la mărcile premium, potrivită pentru volum mare de instrumente per atelier, nu neapărat pentru laboratoare de metrologie cu cerințe de etalonare la cel mai înalt nivel.`,
+Pentru ateliere de producție și control calitate din România care au nevoie de instrumente de măsurare pentru uz zilnic — șublere, micrometre, comparatoare — Insize oferă o gamă largă de instrumente pentru măsurarea de uz curent în atelier.`,
     whyChoose: [
-      "Gamă completă de metrologie dimensională — de la șublere manuale până la sisteme de măsurare prin viziune și scanare 3D",
+      "Gamă largă de metrologie dimensională — de la șublere manuale până la sisteme de măsurare prin viziune și scanare 3D",
       "Instrumente de testare complementare — duritate, rugozitate, defectoscopie — pe lângă cele de măsurare dimensională propriu-zisă",
       "Rețea de 20 de filiale internaționale, utilă pentru suport tehnic și disponibilitate pe termen lung a pieselor",
-      "Peste 30 de ani de specializare exclusivă pe instrumente de măsurare și testare industrială",
+      "Peste 30 de ani de activitate (din 1995) în domeniul instrumentelor de măsurare și testare",
     ],
     keyProducts: [
       { name: "Șublere și Micrometre Digitale", description: "Instrumente de măsurare dimensională de bază, cu afișaj digital, pentru control curent al pieselor în producție și în ateliere de mentenanță. Disponibile în variante standard, rezistente la lichide de răcire și cu ieșire de date pentru conectare la sisteme de achiziție. Aplicație tipică: verificarea rapidă a dimensiunilor unei piese pe linia de producție sau la recepția materialului. Clientul precizează domeniul de măsurare necesar și dacă are nevoie de protecție la lichide." },
-      { name: "Comparatoare și Indicatoare Digitale", description: "Comparatoare digitale de înaltă precizie, folosite pentru măsurarea abaterilor dimensionale, control de planeitate sau verificarea toleranțelor strânse pe piese prelucrate, precum modelul 2506 prezentat de producător drept indicator digital de precizie ridicată. Se montează pe stative sau se integrează în dispozitive de control dedicate. Clientul precizează cursa necesară și rezoluția de citire dorită." },
+      { name: "Comparatoare și Indicatoare Digitale", description: "Comparatoare digitale de înaltă precizie, folosite pentru măsurarea abaterilor dimensionale, control de planeitate sau verificarea toleranțelor strânse pe piese prelucrate. Se montează pe stative sau se integrează în dispozitive de control dedicate. Clientul precizează cursa necesară și rezoluția de citire dorită." },
       { name: "Sisteme de Măsurare prin Viziune și Proiectoare de Profil", description: "Echipamente optice pentru măsurarea automată a dimensiunilor și profilului pieselor mici sau complexe, fără contact fizic, reducând riscul de deteriorare a piesei măsurate. Proiectoarele de profil afișează conturul piesei mărit, util pentru compararea cu un desen tehnic. Aplicație tipică: control dimensional al pieselor din producție de serie, ștanțate sau prelucrate fin. Clientul precizează dimensiunea maximă a piesei măsurate." },
       { name: "Instrumente de Testare (Duritate, Rugozitate)", description: "Instrumente pentru testarea proprietăților materialelor — durometre pentru testarea durității suprafeței, rugozimetre pentru verificarea calității suprafeței prelucrate, plus defectoscoape pentru detectarea fisurilor interne. Complementare instrumentelor de măsurare dimensională, pentru control calitate complet. Aplicație tipică: verificarea tratamentului termic al unei piese sau a calității unei suprafețe după prelucrare. Clientul precizează tipul de material și proprietatea de verificat." },
     ],
@@ -1121,13 +1121,13 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
       },
       {
         "code": "RBT-ISU01",
-        "description": "Sistem automat cu ultrasunete pentru măsurarea grosimii materialelor"
+        "description": "Sistem Insize; funcția exactă se confirmă din documentația producătorului"
       }
     ],
     faq: [
       {
         "q": "Ce instrumente de măsurare produce Insize?",
-        "a": "Insize produce o gamă largă de instrumente de măsurare de precizie, de la șublere și micrometre digitale, la durometre precum HDT-HV410/HV450, comparatoare de concentricitate cum este modelul 4768 și sisteme de măsurare optică sau cu ultrasunete, cum este RBT-ISU01. Multe modele au variante motorizate sau digitale pentru citire directă a valorilor."
+        "a": "Insize produce o gamă largă de instrumente de măsurare de precizie, de la șublere și micrometre digitale, la durometre precum HDT-HV410/HV450, comparatoare de concentricitate cum este modelul 4768 și sisteme de măsurare optică, cum sunt microscoapele cu zoom motorizat 5325-VM100/VM200. Multe modele au variante motorizate sau digitale pentru citire directă a valorilor."
       },
       {
         "q": "Cum aleg durometrul Insize potrivit pentru piesele mele?",
@@ -1140,8 +1140,8 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"INSIZE - Product","url":"https://www.insize.com/product","publisher":"Insize","accessed":"2026-09-25"},
       { title: "INSIZE – Precision Measuring Instruments", url: "https://www.insize.com", publisher: "Insize Co., Ltd.", accessed: "2026-09-22" },
@@ -1151,19 +1151,19 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
   migatronic: {
     name: "Migatronic",
     headquarters: "Fjerritslev, Danemarca",
-    overview: `Migatronic este un producător danez de aparate de sudură industriale, cu sediul la Fjerritslev și activitate de aproape jumătate de secol în domeniu. Gama acoperă aparate MIG/MAG din familia Sigma Core, invertoare TIG din seria CenTIG (CenTIG 200, CenTIG 300 DC, CenTIG PRO), aparate MMA cu electrozi înveliți, plus echipamente de sudare și tăiere cu plasmă. Din portofoliul Migatronic putem oferta aparate de sudură pentru producție de serie și pentru mentenanță industrială.
+    overview: `Migatronic este un producător danez de aparate de sudură industriale, cu sediul la Fjerritslev și activitate de o jumătate de secol în domeniu, conform producătorului. Gama acoperă aparate MIG/MAG din familia Sigma Core, invertoare TIG din seria CenTIG (CenTIG 200, CenTIG 300 DC, CenTIG PRO), aparate MMA cu electrozi înveliți, plus echipamente de sudare și tăiere cu plasmă. Din portofoliul Migatronic putem oferta aparate de sudură pentru producție de serie și pentru mentenanță industrială.
 
-Aparatele CenTIG sunt gândite pentru portabilitate combinată cu putere reală de sudare — CenTIG 200 funcționează monofazat la 200 A cu ciclu de lucru 100%, util la sudare continuă fără pauze de răcire a aparatului, iar CenTIG 300 DC trece pe trifazat pentru 300 A, la o greutate de doar 12 kg. Familia Sigma Core acoperă partea de sudare MIG/MAG pentru producție. Migatronic ocupă un segment convergent cu alți producători de echipamente de sudură industrială, cu accent pe aparate compacte, ușor de mutat între posturi de lucru.
+CenTIG 200 și CenTIG 300 DC sunt modele ale gamei CenTIG pentru sudare TIG; curentul maxim, tipul de alimentare, ciclul de lucru și greutatea se confirmă din fișa tehnică a modelului. Familia Sigma Core acoperă partea de sudare MIG/MAG pentru producție. Migatronic concurează cu alți producători de echipamente de sudură industrială.
 
-Pentru ateliere de producție și mentenanță din România cu sudare frecventă — construcții metalice, reparații utilaje, producție de serie — gama Migatronic are sens acolo unde ciclul de lucru ridicat contează, adică sudare aproape continuă, nu ocazională.`,
+Pentru ateliere de producție și mentenanță din România cu sudare frecventă — construcții metalice, reparații utilaje, producție de serie — gama Migatronic are sens acolo unde se sudează frecvent, nu ocazional.`,
     whyChoose: [
-      "Ciclu de lucru 100% la CenTIG 200 — sudare continuă monofazată la 200 A, fără pauze impuse de supraîncălzirea aparatului",
-      "CenTIG 300 DC trifazat, doar 12 kg, pentru sudare TIG portabilă la puteri de până la 300 A",
+      "Gama CenTIG pentru sudare TIG, cu datele tehnice ale fiecărui model confirmate din fișa producătorului",
+      "CenTIG 300 DC și CenTIG PRO pentru sudare TIG; greutatea și curentul maxim se confirmă din fișa modelului",
       "Gamă completă de procese — MIG/MAG, TIG, MMA, plasmă — de la același producător, pentru un atelier cu nevoi variate",
-      "Garanție extinsă disponibilă pe componente selectate și transformatoare, semn al încrederii producătorului în durabilitate",
+      "Condițiile de garanție ale producătorului se confirmă din documentația modelului ales",
     ],
     keyProducts: [
-      { name: "Invertoare TIG Seria CenTIG", description: "Aparate de sudură TIG în curent continuu, disponibile în variante monofazate (CenTIG 200, până la 200 A la ciclu de lucru 100%) și trifazate (CenTIG 300 DC, până la 300 A, doar 12 kg). Construcție compactă și portabilă, potrivită pentru mutarea între posturi de lucru diferite din același atelier. Aplicație tipică: sudarea inoxului, aluminiului sau oțelurilor speciale unde calitatea cusăturii contează. Clientul precizează curentul maxim necesar și tipul de alimentare disponibil." },
+      { name: "Invertoare TIG Seria CenTIG", description: "Aparate de sudură TIG din gama CenTIG (CenTIG 200, CenTIG 300 DC, CenTIG PRO); curentul maxim, tipul de alimentare și greutatea se confirmă din fișa tehnică a modelului. Aplicație tipică: sudarea inoxului, aluminiului sau oțelurilor speciale unde calitatea cusăturii contează. Clientul precizează curentul maxim necesar și tipul de alimentare disponibil." },
       { name: "Aparate MIG/MAG Sigma Core", description: "Aparate de sudură MIG/MAG pentru producție de serie, cu control al parametrilor de sudare pentru cusături consistente pe volum mare de piese. Gândite pentru funcționare susținută în ateliere de producție, nu doar pentru reparații ocazionale. Aplicație tipică: sudarea structurilor metalice sau a componentelor din producția de serie. Clientul precizează grosimea materialului sudat și tipul de oțel folosit." },
       { name: "Aparate MMA cu Electrozi Înveliți", description: "Aparate de sudură MMA, robuste și simple de folosit, potrivite pentru lucrări de reparații și mentenanță pe șantier sau în teren, unde condițiile de alimentare electrică pot fi mai instabile. Nu necesită gaz de protecție, ceea ce simplifică transportul și utilizarea în exterior. Aplicație tipică: reparații structuri metalice sau utilaje agricole direct la locul de intervenție. Clientul precizează curentul de sudare necesar și diametrul electrozilor folosiți." },
       { name: "Echipamente de Sudare și Tăiere cu Plasmă", description: "Aparate pentru sudare și tăiere cu plasmă, folosite pentru debitarea rapidă și precisă a tablelor metalice sau pentru sudare la aplicații specifice. Tăierea cu plasmă permite viteze de lucru mai mari decât debitarea mecanică pe grosimi medii de tablă. Aplicație tipică: prelucrarea tablelor în ateliere de tinichigerie sau construcții metalice. Clientul precizează grosimea materialului tăiat și tipul de aplicație." },
@@ -1175,7 +1175,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       "Agricultură — reparații utilaje agricole cu aparate MMA portabile",
     ],
     infinitrade: `Pentru Migatronic nu avem istoric propriu de livrări și lucrăm din informațiile publice de pe site-ul producătorului danez — spunem deschis ce putem și ce nu putem confirma pentru fiecare model. Aparatele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de procesul de sudare dorit (MIG/MAG, TIG, MMA sau plasmă), curentul necesar și tipul de alimentare electrică disponibil la punctul de lucru. Nu promitem disponibilitate permanentă din stoc pentru fiecare model — depinde de configurație și de producător.`,
-    limitation: "Nu putem confirma acoperirea garanției extinse pe transformator pentru aparate aduse prin canale de aprovizionare din afara rețelei oficiale a producătorului.",
+    limitation: "Nu putem confirma condițiile de garanție ale producătorului pentru aparatele aduse prin canale de aprovizionare din UE; acestea se confirmă din documentația producătorului.",
     productCodes: [
       {
         "code": "Sigma Core",
@@ -1183,31 +1183,31 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       },
       {
         "code": "CenTIG PRO",
-        "description": "Cel mai nou aparat de sudură TIG din gama CenTIG"
+        "description": "Aparat de sudură TIG din gama CenTIG, marcat ca produs nou pe site-ul producătorului"
       },
       {
         "code": "CenTIG 200",
-        "description": "Aparat de sudură TIG monofazat, compact, pentru mai multe niveluri de experiență"
+        "description": "Aparat de sudură TIG din gama CenTIG"
       },
       {
         "code": "CenTIG 300 DC",
-        "description": "Aparat de sudură TIG trifazat de 300 A, printre cele mai ușoare din categorie"
+        "description": "Aparat de sudură TIG din gama CenTIG"
       },
       {
         "code": "Pi Plasma",
-        "description": "Gama de aparate Migatronic pentru sudare cu plasmă"
+        "description": "Gamă de aparate Migatronic cu plasmă"
       },
       {
         "code": "Operator",
-        "description": "Echipament de protecție pentru sudor, din gama nouă Migatronic"
+        "description": "Produs din gama Migatronic; detaliile se confirmă din documentația producătorului"
       },
       {
         "code": "Operator Flip-Up",
-        "description": "Variantă cu vizor rabatabil a echipamentului de protecție Operator"
+        "description": "Variantă a produsului Operator; detaliile se confirmă din documentația producătorului"
       },
       {
         "code": "Scout",
-        "description": "Echipament auxiliar din gama de accesorii pentru sudare Migatronic"
+        "description": "Produs din gama Migatronic; detaliile se confirmă din documentația producătorului"
       },
       {
         "code": "PowerArc",
@@ -1219,7 +1219,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       },
       {
         "code": "DUO Plus",
-        "description": "Funcție pentru operare cu doi electrozi sau proces dublu de sudare"
+        "description": "Funcție a aparatelor Migatronic; detaliile se confirmă din documentația producătorului"
       },
       {
         "code": "Intelligent Arc Control (IAC)",
@@ -1233,7 +1233,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
     faq: [
       {
         "q": "Ce diferență este între aparatele Migatronic CenTIG PRO și CenTIG 200?",
-        "a": "CenTIG PRO este gândit pentru utilizare profesională intensivă, cu funcții suplimentare de reglaj fin al arcului de sudură. CenTIG 200 este un aparat monofazat mai compact, potrivit pentru ateliere mici sau lucrări ocazionale, păstrând totuși precizia caracteristică gamei CenTIG de la Migatronic. Alegerea corectă depinde de volumul de lucru zilnic și de tensiunea de alimentare disponibilă la locul de montaj."
+        "a": "CenTIG PRO este marcat ca produs nou pe site-ul producătorului, iar CenTIG 200 este un alt model al gamei CenTIG. Diferențele de funcții, curent și alimentare se confirmă din fișele tehnice ale celor două modele. Alegerea corectă depinde de volumul de lucru zilnic și de tensiunea de alimentare disponibilă la locul de montaj."
       },
       {
         "q": "Se pot comanda aparate de sudură Migatronic pentru livrare în România?",
@@ -1245,13 +1245,13 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
       },
       {
         "q": "Ce este funcția Migatronic PowerArc Pulse?",
-        "a": "Este o funcție de control al arcului care livrează curent în impulsuri controlate, reducând stropii și îmbunătățind aspectul cusăturii la sudarea MIG/MAG. Se folosește frecvent pe materiale subțiri sau acolo unde aspectul estetic al sudurii contează. Setările exacte depind de grosimea materialului și de tipul de gaz de protecție folosit, verificate în manualul aparatului Migatronic."
+        "a": "PowerArc Pulse este o funcție a aparatelor Migatronic; modul exact de funcționare și procesele pentru care este disponibilă se confirmă din manualul aparatului. Setările exacte depind de grosimea materialului și de tipul de gaz de protecție folosit, verificate în manualul aparatului Migatronic."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MIG/MAG Welding | Migatronic","url":"https://www.migatronic.com/en/products-and-solutions/migmag/","publisher":"Migatronic","accessed":"2026-09-26"},
       {"title":"Welding Machines | Migatronic","url":"https://www.migatronic.com/en/products-and-solutions/welding-machines/","publisher":"Migatronic","accessed":"2026-09-26"},
@@ -1272,7 +1272,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       "Acoperă tot lanțul de identificare automată — scanare, imprimare etichete și citire RFID — dintr-un singur ecosistem de produse",
       "Calculatoare mobile robuste și tablete industriale, gândite pentru mediul de depozit sau producție, nu pentru birou",
       "Software Zebra DNA pentru gestiunea centralizată a flotei de dispozitive mobile dintr-un depozit sau o fabrică",
-      "Peste cinci decenii de activitate exclusiv pe echipamente de captură de date și identificare automată",
+      "Peste cinci decenii de activitate (din 1969) în echipamente de captură de date și identificare automată",
     ],
     keyProducts: [
       { name: "Cititoare de Coduri de Bare 1D/2D", description: "Scannere de coduri de bare cu fir sau wireless, în variante pistol sau prezentare fixă, pentru citirea codurilor liniare și 2D la puncte de vânzare, recepție marfă sau linii de producție. Rezistente la cădere și praf în variantele industriale, cu autonomie extinsă la modelele wireless. Aplicație tipică: scanarea produselor la casa de marcat sau verificarea coletelor la recepția în depozit. Clientul precizează tipul de cod scanat și dacă are nevoie de conexiune wireless." },
@@ -1307,7 +1307,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "code": "FXR90 5G RFID Reader",
-        "description": "Cititor RFID fix cu conectivitate 5G pentru infrastructură industrială"
+        "description": "Cititor RFID fix din gama Zebra FXR90, pentru infrastructură industrială"
       },
       {
         "code": "ET4 Series",
@@ -1323,7 +1323,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "code": "ET4X-HC",
-        "description": "Variantă albă a tabletei ET4-HC pentru utilizare medicală"
+        "description": "Model din seria ET4-HC, pentru utilizare medicală"
       },
       {
         "code": "ET6 Series",
@@ -1331,7 +1331,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "code": "ET6X",
-        "description": "Model specific din gama de tablete industriale ET6"
+        "description": "Model din seria de tablete ET6, cu Android sau Windows"
       },
       {
         "code": "ET8 Series",
@@ -1339,13 +1339,13 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "code": "ET8X",
-        "description": "Model specific din gama de tablete industriale ET8"
+        "description": "Model din seria de tablete ET8, 2-in-1 cu Windows"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între tabletele Zebra ET4, ET6 și ET8?",
-        "a": "Seria ET4 este gândită pentru operațiuni de bază, cu ecran mai mic și greutate redusă. Seria ET6 oferă mai multă putere de procesare și rezistență, potrivită pentru teren și depozit, cu opțiuni Android sau Windows. Seria ET8 este orientată spre productivitate de birou mobil, cu ecran mare într-un format 2-in-1 subțire pentru Windows. Alegerea depinde de mediul de lucru și de aplicațiile software necesare."
+        "a": "Seria ET4 este o serie de tablete robuste pentru uz profesional. Seria ET6 este disponibilă cu Android sau Windows. Seria ET8 este formată din tablete 2-in-1 cu ecran mare, cu Windows. Alegerea depinde de mediul de lucru și de aplicațiile software necesare."
       },
       {
         "q": "Puteți aduce echipamente Zebra la comandă pentru clienți din România?",
@@ -1357,13 +1357,13 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
       },
       {
         "q": "Ce este cititorul Zebra FXR90 5G RFID Reader?",
-        "a": "Este un cititor RFID fix, parte din infrastructura Zebra pentru citirea automată a etichetelor în depozite sau linii de producție, cu conectivitate 5G pentru transmiterea rapidă a datelor. Se folosește adesea împreună cu antene RAIN RFID pentru acoperirea unor zone extinse de urmărire a stocurilor. Configurația exactă depinde de suprafața și de numărul de puncte de citire necesare."
+        "a": "Este un cititor RFID fix, parte din infrastructura Zebra pentru citirea automată a etichetelor în depozite sau linii de producție; conectivitatea și specificațiile se confirmă din fișa tehnică a modelului. Se folosește adesea împreună cu antene RAIN RFID pentru acoperirea unor zone extinse de urmărire a stocurilor. Configurația exactă depinde de suprafața și de numărul de puncte de citire necesare."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Mobile Computers | Zebra","url":"https://www.zebra.com/us/en/products/mobile-computers.html","publisher":"Zebra Technologies","accessed":"2026-09-26"},
       {"title":"Tablets | Zebra","url":"https://www.zebra.com/us/en/products/tablets.html","publisher":"Zebra Technologies","accessed":"2026-09-26"},
@@ -1374,13 +1374,13 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
   },
   systemair: {
     name: "Systemair",
-    overview: `Systemair este un producător suedez de ventilatoare industriale și sisteme de ventilație, cu peste 50 de ani de activitate în domeniu. Gama include ventilatoare axiale din familia AXC-EC, ventilatoare de canal izolate fonic MUB, unități de tratare aer cu pompă de căldură integrată Geniox HP DFN și produse de distribuție a aerului precum jaluzelele VELO. Din portofoliul Systemair putem oferta ventilatoare și unități de tratare aer pentru clădiri comerciale, industriale și rezidențiale.
+    overview: `Systemair este un producător suedez de ventilatoare industriale și sisteme de ventilație, cu peste 50 de ani de activitate în domeniu. Gama include ventilatoare axiale din familia AXC-EC, ventilatoare de canal izolate fonic MUB, unități de tratare aer cu pompă de căldură integrată Geniox HP DFN și produse de distribuție a aerului. Din portofoliul Systemair putem oferta ventilatoare și unități de tratare aer pentru clădiri comerciale, industriale și rezidențiale.
 
-Systemair acoperă atât ventilația comercială — unități de tratare aer pentru clădiri de birouri — cât și cea industrială, cu ventilatoare de canal și axiale pentru hale de producție sau depozite frigorifice. Compania declară certificarea performanțelor prin programe independente de testare, precum AMCA Certified Ratings Programme, Eurovent Certified Performance și HVI Certified Ratings Programme, ceea ce înseamnă că debitele și presiunile declarate sunt verificate de un terț, nu doar autodeclarate. Concurează cu alți producători europeni de ventilatoare industriale, precum Ziehl-Abegg, pe segmentul echipamentelor de ventilație pentru clădiri și procese industriale.
+Systemair acoperă atât ventilația comercială — unități de tratare aer pentru clădiri de birouri — cât și cea industrială, cu ventilatoare de canal și axiale pentru hale de producție sau depozite frigorifice. Compania declară certificarea performanțelor prin programe independente de testare, precum AMCA Certified Ratings Programme, Eurovent Certified Performance și HVI Certified Ratings Programme, pentru produsele înscrise în aceste programe. Concurează cu alți producători europeni de ventilatoare industriale, precum Ziehl-Abegg, pe segmentul echipamentelor de ventilație pentru clădiri și procese industriale.
 
 Pentru clădiri comerciale, hale industriale și depozite din România cu cerințe de ventilație sau climatizare, gama Systemair acoperă atât ventilatoare individuale de canal, cât și unități complete de tratare aer, utile la proiecte noi sau la înlocuirea unor echipamente de ventilație vechi și ineficiente energetic.`,
     whyChoose: [
-      "Performanțe verificate independent prin programele AMCA, Eurovent și HVI — debitul și presiunea declarate sunt testate de un terț",
+      "Performanțe certificate prin programe independente (AMCA, Eurovent, HVI), pentru produsele înscrise în aceste programe; acoperirea fiecărui model se confirmă din documentația Systemair",
       "Unități de tratare aer cu pompă de căldură integrată (Geniox HP DFN), pentru reducerea consumului energetic la ventilație",
       "Ventilatoare de canal izolate fonic (MUB), potrivite pentru instalații unde zgomotul de funcționare contează",
       "Gamă largă, de la ventilatoare axiale industriale până la produse de distribuție a aerului pentru clădiri comerciale",
@@ -1389,7 +1389,7 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
       { name: "Ventilatoare Axiale AXC-EC", description: "Ventilatoare axiale cu motor EC (comutație electronică), pentru montaj în canale de ventilație industrială sau comercială, cu consum energetic redus comparativ cu motoarele AC clasice datorită reglajului electronic de turație. Potrivite pentru evacuarea aerului viciat din hale de producție sau depozite. Aplicație tipică: ventilație generală a unei hale industriale. Clientul precizează debitul de aer necesar și diametrul canalului de montaj." },
       { name: "Ventilatoare de Canal MUB", description: "Ventilatoare de canal cu carcasă izolată fonic, pentru instalare directă pe traseul canalelor de ventilație, acolo unde zgomotul de funcționare trebuie redus — birouri, spații comerciale, clădiri rezidențiale colective. Construcție compactă, cu montaj orizontal sau vertical în funcție de traseul canalului. Clientul precizează debitul necesar, presiunea disponibilă în canal și nivelul de zgomot admis." },
       { name: "Unități de Tratare Aer Geniox HP DFN", description: "Unități de tratare aer cu pompă de căldură integrată, pentru încălzirea, răcirea și recuperarea de căldură a aerului introdus într-o clădire, reducând consumul energetic comparativ cu o unitate simplă cu baterie electrică. Aplicație tipică: ventilația unei clădiri de birouri sau a unui spațiu comercial cu cerințe de confort termic. Clientul precizează debitul de aer proaspăt necesar și suprafața deservită." },
-      { name: "Produse de Distribuție a Aerului VELO", description: "Jaluzele și grile de distribuție a aerului pentru introducerea sau evacuarea controlată a aerului în încăperi, cu reglaj al direcției jetului de aer pentru confort termic uniform. Aplicație tipică: finalizarea unei instalații de ventilație la nivelul încăperii, după unitatea de tratare aer. Clientul precizează dimensiunea canalului de racord și debitul de aer al zonei deservite." },
+      { name: "Produse de Distribuție a Aerului VELO", description: "Produse de distribuție a aerului din portofoliul Systemair; tipul exact, dimensiunile și reglajele se confirmă din documentația modelului. Aplicație tipică: finalizarea unei instalații de ventilație la nivelul încăperii, după unitatea de tratare aer. Clientul precizează dimensiunea canalului de racord și debitul de aer al zonei deservite." },
     ],
     industries: [
       "Clădiri comerciale — ventilație birouri și spații de retail",
@@ -1419,7 +1419,7 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
       },
       {
         "code": "Geniox Core",
-        "description": "Unitate modulară compactă, cu livrare rapidă"
+        "description": "Unitate modulară din gama Geniox"
       },
       {
         "code": "Geniox Go",
@@ -1469,7 +1469,7 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
     faq: [
       {
         "q": "Ce diferență este între gama Geniox și Geniox Core la Systemair?",
-        "a": "Geniox este gama modulară principală Systemair, gândită pentru proiecte personalizate cu multe opțiuni de configurare, în timp ce Geniox Core este o variantă mai compactă, cu termen de livrare mai scurt și configurație predefinită pentru cazuri uzuale. Geniox HP DFN adaugă o pompă de căldură integrată pentru recuperare energetică suplimentară."
+        "a": "Geniox este gama modulară principală Systemair, gândită pentru proiecte personalizate cu multe opțiuni de configurare, în timp ce Geniox Core este o variantă din aceeași familie; diferențele de configurare se confirmă din documentația modelului. Geniox HP DFN adaugă o pompă de căldură integrată pentru recuperare energetică suplimentară."
       },
       {
         "q": "Ce este ventilatorul axial AXC-EC de la Systemair?",
@@ -1482,8 +1482,8 @@ Pentru clădiri comerciale, hale industriale și depozite din România cu cerin�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Systemair - Air Handling Units","url":"https://www.systemair.com/en/products/air-handling-units/","publisher":"Systemair","accessed":"2026-09-25"},
       {"title":"Systemair - AXC Axial Fans","url":"https://www.systemair.com/en/products/fans/axial-fans/axc","publisher":"Systemair","accessed":"2026-09-25"},

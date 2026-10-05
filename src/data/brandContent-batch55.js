@@ -142,14 +142,14 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
     headquarters: "Washington, D.C., SUA",
     overview: `Xylem este un grup american specializat în tehnologii pentru apă, cu sediul la Washington, D.C. Compania reunește mai multe branduri de pompe și echipamente de tratare a apei, printre care Lowara, Flygt și Goulds Water Technology, deja prezente separat în oferta noastră. Pentru piața din România putem oferta și alte linii din portofoliul Xylem, precum pompele de drenaj Godwin sau pompele și schimbătoarele de căldură Bell & Gossett.
 
-Xylem operează în peste 150 de țări și acoperă practic tot ciclul apei: captare, transport, tratare și evacuare. Spre deosebire de un producător cu o singură gamă de pompe, Xylem funcționează ca un grup de branduri specializate — Lowara pentru pompe rezidențiale și comerciale, Flygt pentru pomparea apelor uzate, Goulds pentru aplicații industriale și agricole, iar Godwin pentru pompe autoamorsante de drenaj folosite temporar pe șantiere sau la inundații. Concurează cu Grundfos și cu grupul KSB pe segmentul pompelor municipale și industriale.
+Xylem operează în aproximativ 150 de țări și acoperă practic tot ciclul apei: captare, transport, tratare și evacuare. Spre deosebire de un producător cu o singură gamă de pompe, Xylem funcționează ca un grup de branduri specializate — Lowara pentru pompe și acționări destinate alimentării cu apă, apelor uzate, HVAC și protecției la incendiu, Flygt pentru pomparea apelor uzate, Goulds Water Technology pentru aplicații agricole, comerciale și industriale ușoare, iar Godwin pentru pompe autoamorsante de drenaj folosite temporar pe șantiere sau la inundații. Concurează cu Grundfos și cu grupul KSB pe segmentul pompelor municipale și industriale.
 
 Pentru clienții din România, avantajul Xylem este acoperirea largă de aplicații sub un singur grup: de la stații de pompare municipale, la dewatering temporar pe șantiere și la echipamente pentru instalații HVAC din clădiri. Rămâne utilă mai ales acolo unde un proiect combină mai multe tipuri de pompare.`,
     whyChoose: [
       "Portofoliu larg de branduri specializate — Lowara, Flygt, Goulds — fiecare optimizat pentru un tip de aplicație distinct",
       "Gama Godwin de pompe autoamorsante Dri-Prime, folosită frecvent pentru dewatering temporar pe șantiere și la inundații",
       "Bell & Gossett acoperă pompe, robineți de echilibrare și schimbătoare de căldură pentru instalații HVAC și sanitare",
-      "Prezență în peste 150 de țări, utilă pentru continuitatea pieselor de schimb pe termen lung",
+      "Prezență în aproximativ 150 de țări, utilă pentru accesul la piese de schimb",
       "Acoperă tot ciclul apei — captare, tratare, distribuție și evacuare — sub un singur grup industrial"
     ],
     keyProducts: [
@@ -190,7 +190,7 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
       },
       {
         "code": "Goulds Water Technology",
-        "description": "Pompe pentru aplicații rezidențiale și comerciale"
+        "description": "Pompe pentru aplicații agricole, comerciale și industriale ușoare"
       },
       {
         "code": "Jabsco",
@@ -198,7 +198,7 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
       },
       {
         "code": "Lowara",
-        "description": "Pompe centrifugale și multietajate industriale"
+        "description": "Pompe și acționări pentru alimentare cu apă, ape uzate, HVAC și protecție la incendiu"
       },
       {
         "code": "Sanitaire",
@@ -253,8 +253,8 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products & Services","url":"https://www.xylem.com/en-us/products--services/","publisher":"Xylem","accessed":"2026-09-22"},
       { title: "Xylem homepage", url: "https://www.xylem.com/en-us/", publisher: "Xylem Inc.", accessed: "2026-09-22" },
@@ -268,15 +268,15 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
     headquarters: "San Bonifacio (Verona), Italia",
     overview: `Pedrollo este un producător italian de electropompe, cu sediul la San Bonifacio, lângă Verona, fondat în 1974 de Silvano Pedrollo. Gama acoperă pompe de suprafață cu rotor periferic, pompe autoamorsante, pompe submersibile pentru foraje de 3 până la 6 țoli, seturi de presurizare și panouri de control. Pentru piața din România putem oferta atât pompe individuale, cât și seturi complete de presurizare pentru case, ferme sau instalații de irigații.
 
-Punctul forte al Pedrollo e acoperirea completă a segmentului de pompe de mică și medie putere, cu debite de până la 2.400 de litri pe minut la modelele de suprafață și pompe submersibile disponibile în variante de 3, 4, 5 și 6 țoli pentru foraje de diametre diferite. Materialele constructive variază de la fontă și oțel inoxidabil până la polipropilenă și Noryl, în funcție de agresivitatea apei pompate. În segmentul pompelor de irigații și uz agricol, Pedrollo concurează direct cu DAB, alt brand italian cu gamă asemănătoare de electropompe.
+Punctul forte al Pedrollo e acoperirea completă a segmentului de pompe de mică și medie putere, cu debite maxime în gamă de până la 2.400 de litri pe minut, în funcție de model, și pompe submersibile disponibile în variante de 3, 4, 5 și 6 țoli pentru foraje de diametre diferite. Materialele constructive variază de la fontă și oțel inoxidabil până la polipropilenă și Noryl, în funcție de agresivitatea apei pompate. În segmentul pompelor de irigații și uz agricol, Pedrollo concurează direct cu DAB, alt brand italian cu gamă asemănătoare de electropompe.
 
-Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o opțiune solidă pentru pompele de foraj și pentru seturile de presurizare cu preț controlat, folosite la locuințe individuale, ferme mici și sisteme de irigații prin picurare sau aspersiune.`,
+Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o opțiune solidă pentru pompele de foraj și pentru seturile de presurizare, folosite la locuințe individuale, ferme mici și sisteme de irigații prin picurare sau aspersiune.`,
     whyChoose: [
       "Pompe submersibile disponibile în diametre de 3, 4, 5 și 6 țoli, pentru foraje de dimensiuni diferite",
-      "Debite de până la 2.400 de litri pe minut la gama de pompe de suprafață cu rotor periferic",
+      "Debite maxime în gamă de până la 2.400 de litri pe minut, în funcție de model",
       "Materiale constructive variate — fontă, inox, polipropilenă și Noryl — pentru compatibilitate cu diverse tipuri de apă",
       "Seturi de presurizare cu turație fixă și variabilă, cu panouri de control proprii ale producătorului",
-      "Gamă orientată clar spre segmentul rezidențial, agricol și de irigații, cu prețuri de producție accesibile"
+      "Gamă orientată clar spre segmentul rezidențial, agricol și de irigații"
     ],
     keyProducts: [
       { name: "Seria PKm/PK — Pompe de suprafață cu rotor periferic", description: "Pompe monofazate pentru alimentarea cu apă a locuințelor și fermelor mici, cu debite de până la câteva sute de litri pe minut, potrivite pentru aspirarea apei din puțuri de mică adâncime sau rezervoare. Corpul poate fi din alamă sau materiale plastice, în funcție de model. Clientul trebuie să indice adâncimea de aspirație și debitul dorit pentru alegerea variantei potrivite." },
@@ -349,7 +349,7 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
       },
       {
         "q": "Ce diferență este între pompele Pedrollo CK și CKR?",
-        "a": "Ambele sunt pompe autoamorsante cu inel lichid, dar CKR este varianta de uz general, iar CK acoperă o gamă similară de aplicații cu mici diferențe constructive de debit și înălțime de refulare. Alegerea exactă depinde de adâncimea de aspirație și de debitul necesar."
+        "a": "Ambele sunt pompe autoamorsante cu inel lichid, iar diferențele dintre ele (debit, înălțime de refulare, construcție) se confirmă din fișa tehnică a fiecărui model. Alegerea exactă depinde de adâncimea de aspirație și de debitul necesar."
       },
       {
         "q": "Livrați pompe Pedrollo în România?",
@@ -361,13 +361,13 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
       },
       {
         "q": "Ce este pompa Pedrollo seria PQ-Bs?",
-        "a": "Este o pompă cu rotor periferic cu corp din alamă, recomandată pentru aplicații unde rezistența la coroziune a corpului pompei este importantă, de exemplu la alimentarea cu apă potabilă din surse cu conținut mineral ridicat."
+        "a": "Este o pompă cu rotor periferic cu corp din alamă, iar potrivirea pentru o anumită apă pompată se confirmă din fișa tehnică a producătorului."
       }
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.pedrollo.com/en/products/","publisher":"Pedrollo","accessed":"2026-09-22"},
       { title: "Water management company", url: "https://www.pedrollo.com/public/company/", publisher: "Pedrollo S.p.A.", accessed: "2026-09-22" },
@@ -535,7 +535,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
       },
       {
         "code": "Flo-Set",
-        "description": "Robinet de echilibrare statică compact"
+        "description": "Robinet de echilibrare statică (dependent de presiune)"
       },
       {
         "code": "FlowCal",
@@ -551,7 +551,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
       },
       {
         "code": "ThermoSetter",
-        "description": "Robinet de echilibrare termică pentru circuite hidronice"
+        "description": "Robinet de echilibrare termică pentru circuite de recirculare a apei calde menajere"
       },
       {
         "code": "ThermoSetter Compact",
@@ -561,7 +561,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
     faq: [
       {
         "q": "Ce separator Caleffi aleg pentru decuplarea circuitelor unei centrale termice?",
-        "a": "SEP4 este un separator hidraulic 4-în-1, care combină funcția de separare hidraulică cu eliminarea aerului, a impurităților și, în unele variante, filtrare magnetică. Pentru instalații mai simple, un Hydro Separator standard poate fi suficient."
+        "a": "SEP4 este un separator 4-în-1, care combină separarea hidraulică, separarea aerului, a impurităților și separarea magnetică. Pentru instalații mai simple, un Hydro Separator standard poate fi suficient."
       },
       {
         "q": "Ce diferență este între robinetele Caleffi FlowCal și QuickSetter?",
@@ -577,13 +577,13 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
       },
       {
         "q": "Ce este robinetul Caleffi ThermoSetter?",
-        "a": "Este un robinet de echilibrare termică, folosit pentru menținerea unei temperaturi constante pe un circuit hidronic, adesea în instalații de recirculare a apei calde menajere, unde temperatura trebuie controlată la fiecare punct de consum."
+        "a": "Este un robinet de echilibrare termică, folosit pentru reglarea temperaturii în sistemele de recirculare a apei calde menajere (robinet de echilibrare modulant)."
       }
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Balancing Valves","url":"https://www.caleffi.com/en-us/products/balancing-valves","publisher":"Caleffi","accessed":"2026-09-22"},
       { title: "Caleffi Hydronic Solutions", url: "https://www.caleffi.com/", publisher: "Caleffi S.p.a.", accessed: "2026-09-22" },
@@ -724,14 +724,14 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
     headquarters: "Calderara di Reno (Bologna), Italia",
     overview: `Bonfiglioli este un producător italian de motoreductoare și sisteme de transmisie, cu sediul la Calderara di Reno, lângă Bologna, fondat în 1956. Gama acoperă motoreductoare industriale, motoare electrice, cutii de viteze planetare de precizie, invertoare și servomotoare, plus transmisii dedicate pentru macarale și utilaje de foraj (slew drives, winch drives). Pentru piața din România putem oferta motoreductoare pentru linii de producție, benzi transportoare și utilaje mobile.
 
-Bonfiglioli acoperă atât reductoare industriale clasice, cu roți dințate cilindrice sau melcate, cât și cutii de viteze planetare de precizie pentru poziționare fină, folosite în robotică și automatizări. Compania are peste 5.000 de angajați, 18 fabrici și o rețea de peste 550 de distribuitori în 80 de țări, ceea ce susține disponibilitatea pieselor de schimb pe termen lung. În segmentul motoreductoarelor industriale, Bonfiglioli se compară cu WEG, alt brand prezent în oferta noastră, dar orientat mai ales spre motoare electrice standard, nu spre reductoare de precizie.
+Bonfiglioli acoperă atât reductoare industriale clasice, cu roți dințate cilindrice sau melcate, cât și cutii de viteze planetare de precizie pentru poziționare fină, folosite în robotică și automatizări. Compania are filiale în numeroase țări, iar disponibilitatea pieselor de schimb se confirmă la momentul ofertei. În segmentul motoreductoarelor industriale, Bonfiglioli se compară cu WEG, alt brand prezent în oferta noastră, dar orientat mai ales spre motoare electrice standard, nu spre reductoare de precizie.
 
 Pentru fabricile din România cu linii de producție, benzi transportoare sau utilaje de manipulare, Bonfiglioli oferă o gamă completă, de la reductorul simplu până la sistemul de acționare cu servomotor și invertor, utilă la retehnologizări sau linii noi.`,
     whyChoose: [
       "Gamă completă, de la reductoare industriale clasice până la cutii de viteze planetare de precizie pentru robotică",
       "Transmisii dedicate pentru macarale și utilaje de foraj (slew drives, winch drives), nu doar reductoare standard",
-      "Rețea de peste 550 de distribuitori în 80 de țări, utilă pentru continuitatea pieselor de schimb",
-      "18 fabrici la nivel global, ceea ce reduce riscul de întrerupere a producției pentru gama de bază",
+      "Filiale în numeroase țări, utile pentru accesul la piese de schimb",
+      "Prezență internațională prin filiale proprii în mai multe țări",
       "Invertoare și servomotoare integrate în aceeași gamă cu reductoarele, pentru sisteme de acționare complete"
     ],
     keyProducts: [
@@ -777,11 +777,11 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
       },
       {
         "code": "3/H Series",
-        "description": "cutie de viteze unghiulară din seria 3/H"
+        "description": "reductor din seria 3/H; tipul constructiv se confirmă pe fișa tehnică Bonfiglioli"
       },
       {
         "code": "3/V Series",
-        "description": "cutie de viteze unghiulară planetar-melc din seria 3/V"
+        "description": "reductor din seria 3/V; tipul constructiv se confirmă pe fișa tehnică Bonfiglioli"
       },
       {
         "code": "HDP Series",
@@ -823,11 +823,11 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
       },
       {
         "q": "Care este diferența dintre invertoarele Bonfiglioli Active Cube ACU 210 și ACU 410?",
-        "a": "ACU 210 acoperă puteri mici, între 0,25 și 9,2 kW, la alimentare monofazată sau trifazată de 200-240 V, potrivit pentru mașini compacte. ACU 410 urcă până la 400 kW, la 360-480 V trifazat, fiind gândit pentru acționări industriale de putere mare; ambele modele pot fi conectate în paralel pentru a atinge până la 1.200 kW."
+        "a": "ACU 210 acoperă puteri mici, între 0,25 și 9,2 kW, la alimentare monofazată sau trifazată de 200-240 V, potrivit pentru mașini compacte. ACU 410 urcă până la 400 kW, la 360-480 V trifazat, fiind gândit pentru acționări industriale de putere mare; modelele ACU 410, ACU 510 și ACU 610 pot fi conectate în paralel pentru a atinge până la 1.200 kW."
       },
       {
         "q": "Ce diferență există între seriile de reductoare A și F de la Bonfiglioli?",
-        "a": "Seria A este o cutie de viteze unghiulară elicoidal-conică, potrivită acolo unde axul de ieșire trebuie orientat la 90 de grade față de motor. Seria F este un reductor cu axe paralele, recomandat când intrarea și ieșirea trebuie să rămână coaxiale sau paralele, cu gabarit mai redus pe înălțime. Alegerea depinde de configurația mecanică disponibilă."
+        "a": "Seria A este o cutie de viteze unghiulară elicoidal-conică, potrivită acolo unde axul de ieșire trebuie orientat la 90 de grade față de motor. Seria F este un reductor cu axe paralele, recomandat când axele de intrare și de ieșire trebuie să rămână paralele. Alegerea depinde de configurația mecanică disponibilă."
       },
       {
         "q": "Livrați reductoare și invertoare Bonfiglioli în România?",
@@ -840,8 +840,8 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Active Cube Series","url":"https://www.bonfiglioli.com/international/en/product/active-cube-series_inverters-servo-drives_premium-inverters","publisher":"Bonfiglioli","accessed":"2026-09-23"},
       {"title":"300M Series Industrial Planetary Gearmotors","url":"https://www.bonfiglioli.com/usa/en/product/300m-series_industrial-heavy-duty-geared-products_planetary-geared-units","publisher":"Bonfiglioli","accessed":"2026-09-23"},
@@ -854,26 +854,26 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
     name: "WEG",
     founded: 1961,
     headquarters: "Jaraguá do Sul, Brazilia",
-    overview: `WEG este un producător brazilian de motoare electrice, cu sediul la Jaraguá do Sul, înființat în 1961 sub numele Eletromotores Jaraguá. Gama acoperă motoare de uz general din fontă și oțel laminat, motoare speciale pentru spălare industrială (Hydroduty), motoare de medie tensiune și software de control precum WEG Pump Genius, pentru optimizarea funcționării pompelor. Pentru piața din România putem oferta motoare electrice industriale standard și speciale, în funcție de aplicație.
+    overview: `WEG este un producător brazilian de motoare electrice, cu sediul la Jaraguá do Sul, înființat în 1961 sub numele Eletromotores Jaraguá. Gama acoperă motoare de uz general din fontă și oțel laminat, motoare speciale, precum seria HydroDuty, motoare de medie tensiune și software de control precum WEG Pump Genius, pentru optimizarea funcționării pompelor. Pentru piața din România putem oferta motoare electrice industriale standard și speciale, în funcție de aplicație.
 
-WEG produce atât motoare de uz general, pentru aplicații industriale obișnuite, cât și variante speciale precum motorul Hydroduty, gândit pentru spălare frecventă cu apă sub presiune în industria alimentară, și motorul compact W40, descris de producător ca soluție ușoară pentru spații reduse. Gama de medie tensiune completează oferta pentru pompe și compresoare de putere mare. Software-ul WEG Pump Genius ajustează turația motorului în funcție de cererea reală a pompei, reducând consumul față de funcționarea la turație fixă. În segmentul motoarelor industriale, WEG se compară cu Nidec, alt brand din portofoliul nostru.
+WEG produce atât motoare de uz general, pentru aplicații industriale obișnuite, cât și variante speciale precum seria HydroDuty și motorul W40, cu construcție deschisă, proiectat pentru medii cu puțină murdărie și umiditate redusă. Gama de medie tensiune completează oferta pentru pompe și compresoare de putere mare. Software-ul WEG Pump Genius ajustează turația motorului în funcție de cererea reală a pompei, reducând consumul față de funcționarea la turație fixă. În segmentul motoarelor industriale, WEG se compară cu Nidec, alt brand din portofoliul nostru.
 
-Pentru fabricile și fermele din România care folosesc motoare electrice pe scară largă, WEG oferă o gamă cu preț competitiv și disponibilitate bună la nivel global, utilă mai ales la înlocuiri și retehnologizări.`,
+Pentru fabricile și fermele din România care folosesc motoare electrice pe scară largă, WEG oferă o gamă largă de motoare, utilă mai ales la înlocuiri și retehnologizări.`,
     whyChoose: [
-      "Motor Hydroduty pentru spălare industrială frecventă cu apă sub presiune, folosit în industria alimentară",
-      "Motor compact W40, gândit pentru montaj în spații reduse, ca soluție ușoară și compactă",
+      "Seria HydroDuty, ale cărei caracteristici le confirmăm pe cod, din documentația WEG",
+      "Motor W40, cu construcție deschisă, pentru medii cu puțină murdărie și umiditate redusă",
       "Gamă de medie tensiune pentru pompe și compresoare de putere mare, dincolo de motoarele standard de joasă tensiune",
       "Software WEG Pump Genius, care ajustează turația motorului în funcție de cererea reală a pompei acționate",
       "Producător cu prezență globală extinsă, utilă pentru continuitatea pieselor de schimb pe termen lung"
     ],
     keyProducts: [
       { name: "Motoare de uz general (fontă și oțel laminat)", description: "Motoare electrice standard pentru aplicații industriale obișnuite — pompe, ventilatoare, benzi transportoare — disponibile în variante constructive din fontă sau oțel laminat, cu mai multe configurații de montaj. Clientul trebuie să indice puterea necesară, turația, tensiunea de alimentare și tipul de montaj (pe picioare sau cu flanșă)." },
-      { name: "Motor Hydroduty", description: "Motor construit pentru rezistență la spălare frecventă cu apă sub presiune și la umiditate ridicată, folosit în industria alimentară și a băuturilor, unde igienizarea zilnică a echipamentelor e obligatorie. Selecția depinde de puterea necesară și de gradul de protecție cerut de spațiul de producție." },
-      { name: "Motor W40", description: "Motor compact, prezentat de producător ca soluție ușoară pentru spații reduse, potrivit acolo unde greutatea și dimensiunile motorului contează la fel de mult ca performanța. Clientul trebuie să confirme spațiul de montaj disponibil." },
+      { name: "Motor Hydroduty", description: "Serie specială de motoare WEG; caracteristicile exacte (răcire, protecție, domeniu de putere) se confirmă pe cod, din documentația WEG. Clientul trebuie să indice puterea necesară și condițiile de mediu." },
+      { name: "Motor W40", description: "Motor de joasă tensiune cu construcție deschisă și carcasă din fontă, proiectat pentru medii cu puțină murdărie și umiditate redusă. Clientul trebuie să indice puterea necesară și condițiile din locul de montaj." },
       { name: "Motoare de medie tensiune", description: "Gamă dedicată pompelor și compresoarelor de putere mare, unde alimentarea de joasă tensiune nu mai e eficientă. Selecția necesită discuție tehnică directă privind puterea și tensiunea de rețea disponibilă." }
     ],
     industries: [
-      "Industria alimentară — motoare Hydroduty pentru spălare frecventă",
+      "Industria alimentară — motoare industriale, selectate în funcție de condițiile de mediu",
       "Energie — motoare de medie tensiune pentru pompe și compresoare mari",
       "Petrol și gaze offshore — motoare pentru condiții dure de mediu",
       "Industrie generală — motoare standard pentru benzi transportoare și ventilatoare"
@@ -895,7 +895,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
       },
       {
         "code": "W22 Quattro",
-        "description": "Motor cu rotor cu magneți permanenți, pornire directă sau cu convertizor"
+        "description": "Motor hibrid, cu rotor cu colivie și magneți permanenți, pornire directă sau cu convertizor"
       },
       {
         "code": "W22 Magnet",
@@ -927,7 +927,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
       },
       {
         "code": "HydroDuty",
-        "description": "Motor cu carcasă inoxidabilă, înfășurări încapsulate, pentru medii cu spălare"
+        "description": "Serie specială WEG; caracteristicile se confirmă pe cod, din documentația producătorului"
       }
     ],
     faq: [
@@ -950,8 +950,8 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"WEG - Linii de produse, piața europeană","url":"https://static.weg.net/medias/downloadcenter/hd9/h4a/WEG-lineas-de-productos-mercado-europeo-50020833-brochure-spanish-web.pdf","publisher":"WEG","accessed":"2026-09-26"},
       {"title":"WEG W22 Three-Phase Electric Motor Technical Catalog","url":"https://static.weg.net/medias/downloadcenter/hf8/h29/WEG-w22-three-phase-electric-motor-50029265-brochure-english-web.pdf","publisher":"WEG","accessed":"2026-09-26"},
@@ -1188,25 +1188,25 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
     name: "Kaeser",
     founded: 1919,
     headquarters: "Coburg, Germania",
-    overview: `Kaeser Kompressoren este un producător german de compresoare, cu sediul la Coburg, fondat în 1919. Gama include compresoare cu șurub rotativ cu răcire cu lichid, cu puteri de la 22 la 515 kW, compresoare fără ulei, pompe de vid cu șurub și sisteme de recuperare a căldurii. Pentru piața din România putem oferta compresoare cu șurub pentru aer comprimat industrial, din seriile ASD, BSD și CSD.
+    overview: `Kaeser Kompressoren este un producător german de compresoare, cu sediul la Coburg, fondat în 1919. Gama include compresoare cu șurub rotativ cu răcire cu lichid, cu puteri de la 2,2 la 515 kW, compresoare fără ulei, pompe de vid cu șurub și sisteme de recuperare a căldurii. Pentru piața din România putem oferta compresoare cu șurub pentru aer comprimat industrial, din seriile ASD, BSD și CSD.
 
-Seriile ASD, BSD și CSD/CSDX acoperă împreună un interval de putere de la 18,5 la 110 kW, poziționate de producător ca centrul instalației de aer comprimat pentru producție. Toate au opțiune de management termic electronic, care previne formarea condensului, iar variantele T includ uscător refrigerant integrat; variantele SFC folosesc variatoare de turație pentru eficiență la sarcină parțială. Compresoarele mari, de până la 515 kW, completează gama pentru fabrici cu consum ridicat de aer comprimat. Kaeser concurează direct cu Atlas Copco și Ingersoll Rand pe segmentul compresoarelor cu șurub industriale.
+Seriile ASD, BSD și CSD/CSDX acoperă împreună un interval de putere de la 18,5 la 110 kW, prezentate de producător ca sursă fiabilă de aer comprimat pentru ateliere și operațiuni industriale. Seriile ASD și CSD/CSDX au management termic electronic, care reglează dinamic temperatura lichidului de răcire, iar variantele T includ uscător refrigerant integrat; variantele SFC folosesc variatoare de turație pentru eficiență la sarcină parțială. Compresoarele mari, de până la 515 kW, completează gama pentru fabrici cu consum ridicat de aer comprimat. Kaeser concurează direct cu Atlas Copco și Ingersoll Rand pe segmentul compresoarelor cu șurub industriale.
 
 Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama Kaeser oferă opțiuni de recuperare a căldurii, utile pentru reducerea costului total de operare pe termen lung.`,
     whyChoose: [
       "Serii ASD, BSD, CSD/CSDX care acoperă împreună puteri de la 18,5 la 110 kW",
-      "Management termic electronic care previne formarea condensului în interiorul compresorului",
+      "Management termic electronic, care reglează dinamic temperatura lichidului de răcire",
       "Variante SFC cu variator de turație, pentru eficiență la sarcină parțială și consum variabil de aer",
       "Sisteme de recuperare a căldurii disponibile la mai multe game, pentru reducerea costului energetic total",
       "Compresoare de putere mare, de până la 515 kW, pentru fabrici cu consum ridicat de aer comprimat"
     ],
     keyProducts: [
-      { name: "Seria CSD/CSDX — Compresor cu șurub 18,5-110 kW", description: "Compresor cu șurub cu răcire cu lichid, parte din gama de putere medie 18,5-110 kW, cu management termic electronic pentru prevenirea condensului și opțiune de motor cu reluctanță sincronă pentru performanță mai bună la sarcină parțială. Disponibil cu uscător refrigerant integrat (variantele T) sau cu variator de turație (variantele SFC). Pentru selecție, clientul trebuie să precizeze debitul de aer necesar și presiunea nominală de lucru din rețeaua de aer comprimat." },
+      { name: "Seria CSD/CSDX — Compresor cu șurub 18,5-110 kW", description: "Compresor cu șurub cu răcire cu lichid, parte din gama de putere medie 18,5-110 kW, cu management termic electronic; variantele cu turație fixă folosesc motoare asincrone IE4, iar variantele SFC motoare IE5. Disponibil cu uscător refrigerant integrat (variantele T) sau cu variator de turație (variantele SFC). Pentru selecție, clientul trebuie să precizeze debitul de aer necesar și presiunea nominală de lucru din rețeaua de aer comprimat." },
       { name: "Compresoare cu șurub mari (până la 515 kW)", description: "Gamă de compresoare de putere mare, pentru fabrici cu consum ridicat și continuu de aer comprimat, cu opțiuni de recuperare a căldurii pentru încălzirea apei sau a spațiilor. Selecția depinde de consumul de vârf și de profilul de funcționare al instalației." },
       { name: "Pompe de vid cu șurub rotativ", description: "Pompe de vid pentru aplicații industriale unde e nevoie de depresiune controlată, nu de aer comprimat. Configurația depinde de nivelul de vid necesar și de debitul de aspirație al procesului." }
     ],
     industries: [
-      "Manufacturing — aer comprimat pentru linii de producție",
+      "Producție industrială — aer comprimat pentru linii de producție (Kaeser)",
       "Alimentară și băuturi — aer comprimat pentru ambalare și transport pneumatic",
       "Petrol și gaze — compresoare pentru instalații de proces",
       "Construcții — compresoare portabile pentru șantiere",
@@ -1222,7 +1222,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
       },
       {
         "code": "CSDX",
-        "description": "Compresor cu șurub cu convertizor de frecvență"
+        "description": "Compresor cu șurub cu răcire cu lichid, din generația CSD/CSDX"
       },
       {
         "code": "CSD T",
@@ -1242,7 +1242,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
       },
       {
         "code": "BSD",
-        "description": "Compresor cu șurub Kaeser cu injecție de ulei, putere superioară"
+        "description": "Compresor cu șurub Kaeser cu răcire cu lichid, din gama de putere medie"
       },
       {
         "code": "CSG-2",
@@ -1262,17 +1262,17 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
       },
       {
         "code": "KRYOSEC",
-        "description": "Uscător frigorific compact"
+        "description": "Uscător frigorific Kaeser"
       },
       {
         "code": "SIGMA Profile",
-        "description": "Profil de rotor patentat pentru eficiență de compresie"
+        "description": "Profil de rotor SIGMA, pentru eficiență de compresie"
       }
     ],
     faq: [
       {
         "q": "Ce compresor Kaeser aleg pentru o hală industrială de dimensiuni medii?",
-        "a": "Seria CSD, cu variante de putere între 18,5 și 110 kW, este alegerea tipică pentru hale industriale de dimensiuni medii, oferind un raport bun între debit de aer și consum energetic. Pentru un necesar de aer variabil, varianta CSD SFC cu turație variabilă reduce costurile energetice."
+        "a": "Gama de putere medie (seriile ASD, BSD și CSD/CSDX), cu puteri între 18,5 și 110 kW, este alegerea tipică pentru hale industriale de dimensiuni medii, oferind un raport bun între debit de aer și consum energetic. Pentru un necesar de aer variabil, varianta CSD SFC cu turație variabilă reduce costurile energetice."
       },
       {
         "q": "Ce diferență este între compresoarele Kaeser CSD și CSG-2?",
@@ -1293,8 +1293,8 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Mid-sized rotary screw compressors from 18 to 110 kW","url":"https://www.kaeser.com/int-en/products/rotary-screw-compressors/rotary-screw-compressors-with-fluid-cooling/mid-sized-rotary-screw-compressors-from-18-to-110-kw","publisher":"Kaeser","accessed":"2026-09-22"},
       {"title":"Rotary Screw Compressors","url":"https://www.kaeser.com/int-en/products/rotary-screw-compressors/","publisher":"Kaeser","accessed":"2026-09-22"},
@@ -1305,7 +1305,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
 
   'ingersoll-rand': {
     name: "Ingersoll Rand",
-    overview: `Ingersoll Rand este un producător american de compresoare și echipamente pneumatice industriale, cu peste 160 de ani de experiență declarați pe site-ul propriu în tehnologia aerului comprimat. Gama acoperă compresoare cu piston (o treaptă și două trepte), compresoare cu șurub cu și fără ulei, compresoare centrifugale și compresoare de înaltă presiune pentru industria PET. Pentru piața din România putem oferta compresoare cu șurub din seria R, pentru aer comprimat industrial general.
+    overview: `Ingersoll Rand este un producător american de compresoare și echipamente pneumatice industriale, cu peste 160 de ani de achiziții și inovații, după cum declară producătorul pe site-ul propriu. Gama acoperă compresoare cu piston (o treaptă și două trepte), compresoare cu șurub cu și fără ulei, compresoare centrifugale și compresoare de înaltă presiune pentru industria PET. Pentru piața din România putem oferta compresoare cu șurub din seria R, pentru aer comprimat industrial general.
 
 Seria R de compresoare cu șurub e prezentată de producător ca soluție compactă, potrivită pentru spații de producție variate, iar versiunea Next Generation R-Series adaugă tehnologia V-Shield pentru prevenirea scurgerilor de ulei. Gama SSR completează oferta cu compresoare cu șurub în două trepte, cu injecție de ulei, pentru eficiență energetică mai bună la funcționare continuă. Pe segmentul compresoarelor cu șurub industriale, Ingersoll Rand concurează direct cu Atlas Copco și Kaeser, ambele prezente și ele în oferta noastră.
 
@@ -1322,17 +1322,17 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
       { name: "Compresoare centrifugale", description: "Compresoare dinamice pentru debite mari de aer comprimat, folosite la instalații industriale de mare capacitate, unde compresoarele cu șurub nu mai sunt eficiente ca soluție unică." }
     ],
     industries: [
-      "Manufacturing — aer comprimat pentru linii de producție",
+      "Producție industrială — aer comprimat pentru linii de producție",
       "Automotive — aer comprimat pentru scule pneumatice și vopsire",
       "Industria PET — compresoare de înaltă presiune pentru suflarea preformelor",
       "Industrie generală — aer comprimat pentru utilaje și instalații de proces"
     ],
     infinitrade: `Compresoarele Ingersoll Rand le aducem la comandă prin canale din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici a grupului — spunem din capul locului ce putem confirma din informațiile publice ale producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și tipul de compresor dorit (cu sau fără ulei). Nu confirmăm disponibilitate imediată și nici parametrii tehnici exacți fără verificare directă la producător.`,
-    limitation: "Nu am putut confirma parametrii tehnici detaliați (putere, presiune, debit) pentru fiecare model din seria R, din cauza accesului limitat la paginile de produs ale producătorului, și recomandăm verificarea lor la momentul ofertei.",
+    limitation: "Parametrii tehnici detaliați (putere, presiune, debit) diferă de la un model la altul din seria R și se confirmă la momentul ofertei, pe baza documentației producătorului.",
     productCodes: [
       {
         "code": "SSR Two-Stage 75-350 kW",
-        "description": "compresor cu șurub în două trepte, economie de energie de 15%"
+        "description": "compresor cu șurub în două trepte, economie de energie de până la 15% față de compresoarele cu o singură treaptă"
       },
       {
         "code": "UP6 5-15 HP",
@@ -1355,7 +1355,7 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
         "description": "generație nouă, compresor cu șurub, putere 55-75 kW"
       },
       {
-        "code": "R 4-11 kW",
+        "code": "NG RS 4-11 kW",
         "description": "compresor compact cu șurub pentru ateliere mici"
       },
       {
@@ -1386,14 +1386,14 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
     faq: [
       {
         "q": "Ce diferență este între seriile R și NG R-Series de la Ingersoll Rand?",
-        "a": "Seria R este linia clasică de compresoare cu șurub, disponibilă în trepte de putere de la 4 kW până la 75 kW pentru majoritatea aplicațiilor industriale uzuale. NG R-Series reprezintă generația nouă, cu aceleași game de putere, dar cu îmbunătățiri la eficiența energetică, controlul digital și, la unele variante, opțiunea de turație variabilă și recuperare de căldură. Alegerea depinde de bugetul de energie disponibil."
+        "a": "Seria R este linia clasică de compresoare cu șurub, disponibilă în mai multe trepte de putere, până la 75 kW, pentru majoritatea aplicațiilor industriale uzuale. NG R-Series reprezintă generația nouă, cu variante de turație variabilă și recuperare de căldură la unele game. Alegerea depinde de puterea necesară și de profilul de consum de aer."
       },
       {
         "q": "Ce avantaj oferă compresorul Ingersoll Rand SSR în două trepte?",
         "a": "Compresorul SSR cu două trepte, disponibil între 75 și 350 kW, reduce consumul de energie cu până la 15% față de un compresor cu o singură treaptă, datorită angrenajului integral și rotoarelor de precizie. Este echipat cu controler Intellisys pentru monitorizare și diagnoză, iar intervalul de schimbare a lichidului de răcire ajunge la 8.000 de ore sau 2 ani."
       },
       {
-        "q": "Cât aer produce un compresor UP6 de la Ingersoll Rand?",
+        "q": "Ce puteri și presiuni acoperă seria UP6 de la Ingersoll Rand?",
         "a": "Seria UP6 acoperă puteri între 5 și 15 CP, cu presiune de lucru între 125 și 150 psig, fiind gândită pentru ateliere mici și medii unde spațiul la sol contează. Designul compact, cu răcitor combinat montat pe acoperiș, reduce zgomotul și permite instalarea aproape de zona de lucru, iar opțiunea Total Air System adaugă uscare și filtrare a aerului."
       },
       {
@@ -1407,8 +1407,8 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"SSR Two-Stage 75-350 kW Rotary Screw Compressor","url":"https://www.ingersollrand.com/en-lac/products/air-compressors/oil-flooded-rotary-air-compressors/ssr-two-stage-75-350-kw-100-500-hp/","publisher":"Ingersoll Rand","accessed":"2026-09-23"},
       {"title":"UP6 5-15 HP Oil-Flooded Rotary Screw Compressors","url":"https://www.ingersollrand.com/en-us/products/air-compressors/oil-flooded-rotary-air-compressors/up6-5-15-hp/","publisher":"Ingersoll Rand","accessed":"2026-09-23"},
