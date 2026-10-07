@@ -146,7 +146,7 @@ Pentru fabricile de celuloză și hârtie, minerit sau stațiile de epurare din 
     headquarters: "Assens, Danemarca",
     overview: `Broen este un producător danez de robineți sferici pentru apă, gaz și termoficare, cu sediul la Assens. Gama principală se construiește în jurul a trei mărci proprii: Ballofix, robineți sferici compacți pentru instalații de clădiri, Ballomax, robineți sferici pentru termoficare și circuite industriale, și Full Flow, robineți cu profil complet pentru debit maxim. Pentru gaz natural, Broen oferă robineți sferici cu bilă flotantă sau montată pe pivot (trunnion), acoperind diametre de la DN 15 până la DN 1000.
 
-Ce diferențiază Broen în categoria robineților sferici e acoperirea completă a plajei de presiune: seria Ballomax pentru termoficare este disponibilă la PN 25, iar robineții pentru gaz natural (standard EN) acoperă de la PN 16 până la PN 400, cu temperaturi de lucru între -60°C și +200°C. În acest segment, Broen se compară cu AVK, deja prezent pe site-ul nostru, dar se remarcă prin specializarea pe robineți sferici, spre deosebire de gama mai largă de robineți cu sertar și fluture a AVK.
+Gama Broen de robineți sferici acoperă mai multe trepte de presiune: seria Ballomax pentru termoficare este disponibilă la PN 25, iar robineții pentru gaz natural (standard EN) acoperă de la PN 16 până la PN 400, cu temperaturi de lucru între -60°C și +200°C. Broen este specializat pe robineți sferici.
 
 Pentru operatorii de termoficare, distribuitorii de gaz și instalatorii industriali din România, Broen are sens acolo unde e nevoie de un robinet sferic cu etanșare fiabilă pe termen lung, la presiuni și temperaturi ridicate — rețele de agent termic, stații de reglare gaz sau instalații industriale cu cerințe stricte de etanșeitate.`,
     whyChoose: [
@@ -214,7 +214,7 @@ Pentru firmele de tratare a apei, construcțiile de piscine sau liniile de desal
       "Robinet cu bilă M1 modular, cu dom integrat pentru automatizare adăugată ulterior",
       "Variantă M1 pe 3 căi, lansată în 2026",
       "Peste 50 de ani de fabricație exclusiv pe componente plastice pentru apă și industrie",
-      "Gamă completă de robineți (bilă, membrană, fluture, reținere) din același producător",
+      "Gamă de robineți (bilă, membrană, fluture, reținere) din același producător",
       "6 locații, cu integrarea gamei olandeze IBG de țevi și fitinguri"
     ],
     keyProducts: [
@@ -397,7 +397,7 @@ Ce diferențiază Hayward Flow Control în categoria robineților industriali e 
 
 Pentru stațiile de tratare a apei, liniile chimice și instalațiile acvatice din România, Hayward Flow Control are sens acolo unde e nevoie de un pachet complet — robinet, actuator și strainer — de la un singur producător, cu componente din aceeași gamă.`,
     whyChoose: [
-      "Gamă completă de robineți, strainere, filtre și actuatoare de la un singur producător",
+      "Gamă de robineți, strainere, filtre și actuatoare de la un singur producător",
       "Peste 60 de ani de experiență în controlul fluidelor industriale și acvatice",
       "Actuatoare electrice seria HRS certificate pentru zone cu risc de explozie",
       "Certificare ISO 9001:2015 și declarație de conformitate Build America, Buy America Act",
@@ -595,7 +595,7 @@ Pentru rafinării, centrale electrice și proiecte de conducte industriale din R
     name: "Warex Valve",
     founded: 1964,
     headquarters: "Senden, Germania",
-    overview: `Warex Valve este un producător german de robineți fluture și ecluze rotative pentru materiale în vrac, cu sediul la Senden, activ de peste 60 de ani în domeniul manipulării pulberilor. Gama de robineți fluture acoperă seriile DKZ 103, DKZ 105 și DKZ 110, cu robinetul CST căptușit cu PTFE pentru medii agresive și cu varianta în execuție dublă (DKD); seriile DKZ 103, 105 și 110 au diametre între DN 150 și DN 600, la temperaturi de la -40°C la +200°C. Compania se specializează pe robineți pentru materiale solide, spre deosebire de majoritatea producătorilor de robineți orientați spre lichide și gaze.
+    overview: `Warex Valve este un producător german de robineți fluture și ecluze rotative pentru materiale în vrac, cu sediul la Senden, activ de peste 60 de ani în domeniul manipulării pulberilor. Gama de robineți fluture acoperă seriile DKZ 103, DKZ 105 și DKZ 110, cu robinetul CST căptușit cu PTFE pentru medii agresive și cu varianta în execuție dublă (DKD); seriile DKZ 103, 105 și 110 au diametre între DN 150 și DN 600, la temperaturi de la -40°C la +200°C. Compania se specializează pe robineți pentru materiale solide.
 
 Ce diferențiază Warex Valve în categoria robineților industriali e specializarea pe materiale în vrac: producătorul indică robineții Warex ca adecvați în special pentru solide, în instalații cu risc de explozie a prafului, iar robinetul CST este un robinet fluture modular căptușit cu PTFE, pentru medii agresive. Gama completează robineți cu bilă (DBV 400), valvă specială pentru dozare fină (DKZ APS), sisteme cu clapetă (DTS), robineți cu clemă (DQV-M) și clapete de reținere (DRK). În acest segment, Warex Valve este un producător specializat pe materiale în vrac, o nișă diferită de cea a robineților pentru lichide și gaze.
 
@@ -605,7 +605,7 @@ Pentru fabricile de baterii sau liniile de manipulare a solidelor din România, 
       "Robinet fluture CST, modular, căptușit cu PTFE, pentru medii agresive",
       "Plajă largă de temperatură, de la -40°C la +300°C în funcție de model",
       "Peste 60 de ani de activitate (înființată în 1964)",
-      "Gamă completă — fluture, bilă, ecluze rotative, clapetă, clemă — pentru diverse aplicații cu solide"
+      "Gamă — fluture, bilă, ecluze rotative, clapetă, clemă — pentru diverse aplicații cu solide"
     ],
     keyProducts: [
       { name: "Robinet Fluture Seria DKZ 103/105/110", description: "Robineți fluture pentru materiale în vrac, cu variante DKZ 103, DKZ 105 și DKZ 110, diametre DN 150-600, temperaturi de lucru -40°C la +200°C. Trimiteți diametrul, temperatura mediului și tipul de material vehiculat pentru selecția corectă." },

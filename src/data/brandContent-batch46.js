@@ -134,7 +134,7 @@ SITI are o gamă structurată pe familii de produse: seriile I-MI, U-MU și MD p
 
 Pentru instalațiile din România, reductoarele SITI sunt potrivite pentru linii de ambalare, spălătorii auto, stații de epurare sau utilaje din industria alimentară.`,
     whyChoose: [
-      "Gamă completă de reductoare — melc, roți dințate, epicicloidale și variatoare mecanice, sub același producător",
+      "Gamă de reductoare — melc, roți dințate, epicicloidale și variatoare mecanice, sub același producător",
       "Certificare ATEX 2014/34/UE pentru unități montate în zone cu risc de explozie",
       "Certificare ISO 9001:2015 pentru managementul calității în proiectare și fabricație",
       "Peste 55 de ani de experiență în transmisii mecanice de putere"
@@ -398,7 +398,7 @@ Schurter are o gamă de siguranțe care merge de la siguranțe SMD miniaturale, 
 
 Pentru instalațiile electrice și panourile de comandă din România, componentele Schurter contează acolo unde certificarea și trasabilitatea sunt importante — echipamente medicale, stații de încărcare pentru vehicule electrice sau utilaje industriale care trebuie să respecte standarde stricte de compatibilitate electromagnetică.`,
     whyChoose: [
-      "Companie elvețiană activă din 1933, cu gamă completă de la siguranțe fuzibile la ecrane tactile",
+      "Companie elvețiană activă din 1933, cu gamă de la siguranțe fuzibile la ecrane tactile",
       "Siguranțe dedicate vehiculelor electrice (seriile ALO și ADO), relevante pentru infrastructura de încărcare",
       "Conectori din plastic pe bază vegetală (Green Line), pentru proiecte cu cerințe de sustenabilitate",
       "Certificare ISO 14001 pentru managementul de mediu",
@@ -904,7 +904,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
     headquarters: "Graz, Austria",
     overview: `Andritz este un grup industrial austriac fondat în 1852, cu sediul la Graz, care produce tehnologii de proces, echipamente și automatizări pentru mai multe industrii, printre care hidroenergia, separarea industrială și pomparea de fluide. Din segmentul relevant pentru noi putem oferta pompe industriale și echipamente de separare, folosite în stații de apă, procesare minereu sau linii industriale unde trebuie separate solidele de lichide.
 
-Pe partea de pompe, Andritz acoperă pompe centrifugale mono și multietajate, pompe axiale și cu flux mixt, pompe cu carcasă despicată, pompe de aspirație și pompe submersibile, plus sisteme proiectate la comandă pentru capacități mari sau aplicații tehnic dificile — inclusiv modele de înaltă presiune precum seria HP43. Pe partea de hidroenergie, grupul furnizează echipamente pentru centrale hidroelectrice, iar pe partea de separare oferă tehnologii de filtrare și centrifugare pentru industrii precum minerit, celuloză și hârtie. Andritz concurează cu Sulzer pe segmentul pompelor industriale de proces.
+Pe partea de pompe, Andritz acoperă pompe centrifugale mono și multietajate, pompe axiale și cu flux mixt, pompe cu carcasă despicată, pompe de aspirație și pompe submersibile, plus sisteme proiectate la comandă pentru capacități mari sau aplicații tehnic dificile — inclusiv modele de înaltă presiune precum seria HP43. Pe partea de hidroenergie, grupul furnizează echipamente pentru centrale hidroelectrice, iar pe partea de separare oferă tehnologii de filtrare și centrifugare pentru industrii precum minerit, celuloză și hârtie.
 
 Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de infrastructură de apă (alimentare, epurare), la instalații industriale cu nevoi de separare solid-lichid și la reabilitarea sau extinderea unor capacități hidroenergetice existente.`,
     whyChoose: [
@@ -912,7 +912,6 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       "Gamă de pompe pentru aplicații grele — centrifugale, axiale, cu carcasă despicată și submersibile",
       "Acoperire pe trei segmente conexe — pompe, hidroenergie și tehnologii de separare",
       "Sisteme proiectate la comandă pentru capacități mari sau aplicații tehnic dificile",
-      "Concurează cu Sulzer pe segmentul pompelor industriale de proces"
     ],
     keyProducts: [
       { name: "Pompe Centrifugale de Proces", description: "Pompe centrifugale mono și multietajate, disponibile în variante verticale și orizontale, pentru transferul de apă și fluide de proces în instalații industriale și municipale. Folosite la alimentare cu apă, irigații și circuite industriale unde debitul și presiunea variază după aplicație." },
@@ -1012,7 +1011,7 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
     headquarters: "Dover, Marea Britanie",
     overview: `Megger este un producător britanic de instrumente de testare electrică, cu rădăcini din 1889 și sediul la Dover. Compania fabrică testere de izolație, sisteme de testare a cablurilor, testere multifuncționale, testere de motoare și sisteme pentru testarea transformatoarelor, folosite de electricieni și ingineri de mentenanță pentru verificarea instalațiilor electrice. Din gama Megger putem oferta atât aparate portabile pentru electricieni, cât și sisteme mai complexe pentru utilități și industrie.
 
-Megger concurează cu Fluke pe segmentul aparatelor de testare electrică, dar are o poziție puternică specific pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT5252, MIT10252 și MIT15252, un sistem de testare a cablurilor de tip VLF Sine, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă instrumente portabile, sisteme de testare a cablurilor, motoarelor și transformatoarelor.
+Megger oferă aparate de testare electrică, cu accent pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT5252, MIT10252 și MIT15252, un sistem de testare a cablurilor de tip VLF Sine, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă instrumente portabile, sisteme de testare a cablurilor, motoarelor și transformatoarelor.
 
 Pentru piața din România, aparatele Megger sunt relevante pentru firme de mentenanță electrică, distribuitori de energie și electricieni autorizați care au nevoie de teste de izolație, teste de cablu sau verificări periodice ale instalațiilor conform normelor tehnice.`,
     whyChoose: [
@@ -1139,7 +1138,7 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
     founded: 1901,
     overview: `Chicago Pneumatic este un producător de scule pneumatice și electrice industriale, cu originea în 1901, când compania a brevetat unul dintre primele ciocane pneumatice cu o singură supapă. Astăzi marca produce chei dinamometrice, polizoare, mașini de găurit și scule de nituire pentru ateliere și linii de producție. Din gama Chicago Pneumatic putem oferta atât scule manuale pentru ateliere mecanice, cât și echipamente pentru linii industriale de asamblare.
 
-Chicago Pneumatic concurează cu Ingersoll Rand pe segmentul sculelor pneumatice industriale, cu o gamă structurată pe aplicație: seria CP66 de chei dinamometrice pneumatice, cheia electronică CP89 eTorque, cheile cu acumulator din seria CP86 (eBlueTork), polizoarele turbo CP3T30 și seriile CP3550, CP3650 și CP3850 de polizoare unghiulare și mașini de șlefuit, plus mașinile de găurit pistol CP1117 pentru producție industrială.
+Chicago Pneumatic oferă scule pneumatice industriale, cu o gamă structurată pe aplicație: seria CP66 de chei dinamometrice pneumatice, cheia electronică CP89 eTorque, cheile cu acumulator din seria CP86 (eBlueTork), polizoarele turbo CP3T30 și seriile CP3550, CP3650 și CP3850 de polizoare unghiulare și mașini de șlefuit, plus mașinile de găurit pistol CP1117 pentru producție industrială.
 
 Pentru atelierele și liniile de producție din România, sculele Chicago Pneumatic sunt relevante la operații de strângere controlată cu cuplu precis, șlefuire și găurire în producție de serie, unde fiabilitatea și precizia contează mai mult decât prețul unei scule generice.`,
     whyChoose: [
@@ -1147,7 +1146,6 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       "Cheia electronică CP89 eTorque, cu domeniul de cuplu precizat în fișa tehnică a modelului",
       "Chei dinamometrice cu acumulator din seria CP86, fără furtun de aer comprimat",
       "Gamă largă de polizoare și mașini de șlefuit pentru diverse aplicații de finisare",
-      "Concurează direct cu Ingersoll Rand pe segmentul sculelor pneumatice industriale"
     ],
     keyProducts: [
       { name: "Chei Dinamometrice Pneumatice Seria CP66", description: "Chei dinamometrice pneumatice pentru strângeri controlate în aplicații industriale, unde cuplul de strângere trebuie respectat exact pentru siguranța îmbinării. Folosite la asamblarea și mentenanța echipamentelor grele unde o strângere incorectă poate duce la defecțiuni majore." },
@@ -1273,14 +1271,13 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
     name: "SPM Instrument",
     overview: `SPM Instrument este un producător suedez de sisteme pentru monitorizarea stării utilajelor rotative, cu peste 50 de ani de activitate în domeniu. Gama merge de la instrumente portabile de măsurare, până la unități de avertizare montate permanent pe utilaj și sisteme online de monitorizare la scară largă. Din portofoliul SPM Instrument putem oferta echipamente pentru identificarea din timp a problemelor mecanice la utilaje rotative — rulmenți, lagăre, cuplaje — înainte ca acestea să ducă la oprirea neplanificată a producției.
 
-SPM Instrument concurează cu SKF pe segmentul monitorizării stării și analizei vibrațiilor la utilaje industriale, cu o tehnologie proprie de măsurare a undelor de șoc folosită pentru detectarea timpurie a defectelor de rulmenți. Compania oferă trei niveluri de soluții: instrumente portabile pentru rute de măsurare periodice, unități de avertizare instalate permanent pe utilajele critice pentru alertă continuă, și sisteme online complete care colectează și analizează date de vibrații de la mai multe puncte simultan, pentru facilități cu utilaje rotative numeroase.
+SPM Instrument oferă soluții de monitorizare a stării și de analiză a vibrațiilor la utilaje industriale, cu o tehnologie proprie de măsurare a undelor de șoc folosită pentru detectarea timpurie a defectelor de rulmenți. Compania oferă trei niveluri de soluții: instrumente portabile pentru rute de măsurare periodice, unități de avertizare instalate permanent pe utilajele critice pentru alertă continuă, și sisteme online complete care colectează și analizează date de vibrații de la mai multe puncte simultan, pentru facilități cu utilaje rotative numeroase.
 
 Pentru fabricile din România cu utilaje rotative critice — mori, compresoare, ventilatoare mari, linii de procesare — sistemele SPM Instrument au sens acolo unde o oprire neplanificată costă mai mult decât investiția într-un program de mentenanță predictivă bazat pe monitorizarea vibrațiilor.`,
     whyChoose: [
       "Peste 50 de ani de experiență specifică în monitorizarea stării utilajelor rotative",
       "Trei niveluri de soluții — portabile, unități fixe de avertizare și sisteme online complete",
       "Tehnologie proprie de măsurare a undelor de șoc pentru detectarea timpurie a defectelor de rulmenți",
-      "Concurează cu SKF pe segmentul monitorizării vibrațiilor industriale",
       "Acoperire pe industrii cu utilaje rotative critice — minerit, celuloză și hârtie, energie"
     ],
     keyProducts: [
@@ -1373,7 +1370,7 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
     headquarters: "Corminboeuf, Elveția",
     overview: `Contrinex este un producător elvețian de senzori industriali, cu sediul la Corminboeuf, specializat pe senzori inductivi, fotoelectrici și sisteme de măsurare inteligente pentru automatizări. Din gama Contrinex putem oferta senzori pentru detectarea prezenței, măsurarea distanței sau poziționarea pieselor pe linii de producție, montate pe utilaje, roboți sau transportoare. Compania acoperă atât aplicații standard de automatizare, cât și medii dificile — sudură, temperaturi extreme, presiune ridicată.
 
-Contrinex concurează cu Turck pe segmentul senzorilor industriali, cu o gamă construită pe variante specializate ale senzorilor inductivi: seriile Weld-Immune, rezistente la interferența generată de sudură, versiuni Extra Pressure (până la 200 bar) și High Pressure (până la 1000 bar), versiuni de temperatură ridicată care rezistă până la 230°C și versiuni rezistente la spălare (washdown) pentru medii cu igienizare frecventă. Pe partea fotoelectrică, gama include senzori cubici C23, cilindrici M18 și M12, variante miniaturale și cu fibră optică. Gama de senzori de măsurare (DMS – ieșire digitală, AMS – ieșire analogică) măsoară distanța; plaja de măsurare depinde de model.
+Contrinex oferă senzori industriali, cu o gamă construită pe variante specializate ale senzorilor inductivi: seriile Weld-Immune, rezistente la interferența generată de sudură, versiuni Extra Pressure (până la 200 bar) și High Pressure (până la 1000 bar), versiuni de temperatură ridicată care rezistă până la 230°C și versiuni rezistente la spălare (washdown) pentru medii cu igienizare frecventă. Pe partea fotoelectrică, gama include senzori cubici C23, cilindrici M18 și M12, variante miniaturale și cu fibră optică. Gama de senzori de măsurare (DMS – ieșire digitală, AMS – ieșire analogică) măsoară distanța; plaja de măsurare depinde de model.
 
 Pentru fabricile din România cu linii de automatizare complexă, senzorii Contrinex au sens acolo unde condițiile de mediu sunt dificile pentru un senzor standard — zone de sudură robotizată, presiune ridicată sau spălare frecventă cu apă — și unde un senzor obișnuit s-ar defecta rapid.`,
     whyChoose: [
@@ -1381,7 +1378,6 @@ Pentru fabricile din România cu linii de automatizare complexă, senzorii Contr
       "Variante High Pressure, până la 1000 bar",
       "Variante de temperatură ridicată, funcționale până la 230°C",
       "Senzori de măsurare (DMS – digital, AMS – analogic)",
-      "Concurează cu Turck pe segmentul senzorilor industriali pentru automatizări"
     ],
     keyProducts: [
       { name: "Senzori Inductivi Seriile 600/700 Weld-Immune", description: "Senzori inductivi de proximitate, cu variante rezistente la interferența magnetică generată de operațiile de sudură (Weld-Immune) și variante rezistente la depunerea de așchii metalice (Chip-Immune). Folosiți la detectarea prezenței pieselor metalice pe linii de sudură robotizată sau prelucrare mecanică, unde senzorii standard s-ar defecta rapid din cauza mediului agresiv." },

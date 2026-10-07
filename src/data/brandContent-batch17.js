@@ -7,13 +7,13 @@ export const brandContentBatch17 = {
     name: "LESER",
     founded: 1919,
     headquarters: "Hamburg, Germania",
-    overview: `LESER este unul dintre cei mai vechi producători independenți de supape de siguranță din lume, cu sediul la Hamburg . Compania a rămas în proprietate privată de-a lungul a peste un secol, concentrându-se pe supape de siguranță pentru protecția la suprapresiune a instalațiilor industriale. Această specializare strictă s-a tradus într-o gamă extrem de largă — de la supape compacte pentru cazane mici până la supape API pentru rafinării și platforme offshore — și într-o rețea proprie de standuri de testare pentru certificarea capacității de evacuare conform standardelor internaționale.
+    overview: `LESER este un producător independent de supape de siguranță, cu sediul la Hamburg . Compania a rămas în proprietate privată de-a lungul a peste un secol, concentrându-se pe supape de siguranță pentru protecția la suprapresiune a instalațiilor industriale. Această specializare strictă s-a tradus într-o gamă care merge de la supape compacte pentru cazane mici până la supape API pentru rafinării și platforme offshore — și într-o rețea proprie de standuri de testare pentru certificarea capacității de evacuare conform standardelor internaționale.
 
 Gama LESER acoperă toate configurațiile uzuale de supape de siguranță cu acțiune directă a arcului: seria 441 High Performance, pentru aplicații industriale generale (versiunea DIN: DN 20 – DN 400, 0,1–40 bar); seria 459 Compact Performance, cu dimensiuni reduse și conexiuni variabile (0,2–250 bar); și seria 526, supape API 526 cu presiuni de reglaj de la 0,2 până la 400 bar și diametre DN 25 – DN 200. Pentru debite mari sau presiuni de operare foarte apropiate de presiunea de deschidere, LESER oferă și supape pilotate, cu acționare modulantă și pierderi reduse prin scurgere înainte de deschidere.
 
 Corpurile se execută din oțel carbon, oțel inoxidabil sau alte materiale, în funcție de seria aleasă, iar dimensionarea orificiului urmează literele API 526 (D până la T) pentru compatibilitate directă cu proiectele existente. Temperaturile acoperite merg de la aplicații criogenice, pentru terminale LNG, până la 550°C pentru linii de abur supraîncălzit din centrale electrice. Supapele LESER sunt certificate TÜV și PED 2014/68/UE și, pentru piața americană, ASME, și se regăsesc pe conducte de proces din rafinării, platforme petroliere, fabrici chimice, centrale electrice și instalații de gaz industrial din toată lumea.`,
     whyChoose: [
-      "Gamă completă de supape de siguranță — de la seria compactă 459 (Compact Performance) până la seria API 526 pentru rafinării și platforme offshore",
+      "Gamă de supape de siguranță — de la seria compactă 459 (Compact Performance) până la seria API 526 pentru rafinării și platforme offshore",
       "Precizie de deschidere certificată — toleranțe stricte ale presiunii de deschidere, verificate pe standuri proprii de testare conform ISO 4126",
       "Materiale pentru medii dificile — corpuri din oțel carbon sau inoxidabil, în funcție de seria aleasă, pentru fluide corozive sau criogenice",
       "Construcție Full Nozzle disponibilă — izolează arcul de fluidul de proces în aplicații fierbinți sau agresive chimic, prelungind durata de viață",
@@ -145,7 +145,7 @@ Oalele de condens GESTRA acoperă toate principiile de funcționare uzuale — c
 
 Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de condens izolată, ci propune soluții complete de recuperare a condensului și a energiei termice asociate, cu monitorizare digitală prin senzori care semnalează din timp o oală blocată sau care lasă abur să treacă. Produsele se regăsesc în centrale termice și electrice, rafinării, fabrici de hârtie, industria alimentară și oriunde aburul este folosit ca agent termic de proces. Pentru un operator de cazane, o rețea GESTRA corect dimensionată înseamnă mai puține pierderi de abur, un consum de combustibil mai mic și un risc redus de avarii cauzate de nivel scăzut de apă.`,
     whyChoose: [
-      "Gamă completă pentru abur și condens — oale de condens, control de nivel și sisteme de golire de la un singur furnizor",
+      "Gamă pentru abur și condens — oale de condens, control de nivel și sisteme de golire de la un singur furnizor",
       "Fiabilitate dovedită pe termen lung — echipamente care rulează zeci de ani în centrale termice cu program de funcționare continuu",
       "Monitorizare digitală disponibilă — senzori care semnalează din timp o oală de condens defectă, înainte să apară pierderi mari de abur",
       "Acoperire largă de presiuni și temperaturi — de la instalații de presiune joasă până la abur supraîncălzit, în funcție de seria aleasă",
@@ -263,7 +263,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     name: "VAG",
     founded: 1872,
     headquarters: "Mannheim, Germania",
-    overview: `VAG este unul dintre cei mai vechi producători europeni de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1872. Compania este specializată pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică.
+    overview: `VAG este un producător european de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1872. Compania este specializată pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică.
 
 Robinetul cu excentricitate dublă EKN este produsul emblematic al gamei — o vană de sectorizare cu etanșare fără frecare pe aproape toată cursa de închidere, disponibilă în diametre de la DN100 până la DN4000, în funcție de variantă, și presiuni nominale de la PN6 până la PN25 (unele variante până la PN40), folosită pentru izolarea tronsoanelor din rețelele de apă și apă uzată. Pentru evacuarea aerului acumulat și admisia aerului la umplerea sau golirea conductei, gama include ventilele automate de aerisire VAG DUOJET (DN50–DN200), cu trei funcții într-un singur corp, conform producătorului. Gama se completează cu clapete de reținere, vane fluture pentru diametre mari și vane de linie pentru izolarea rapidă a branșamentelor.
 
@@ -400,7 +400,7 @@ Robinetele fluture din seria Z acoperă construcția concentrică, cu disc și s
 
 Materialele corpului, discului și garniturii depind de model și de mediul vehiculat; se confirmă pe cod, din documentația EBRO. Robinetele EBRO respectă cerințele de igienă din industria alimentară acolo unde discul și garnitura sunt certificate pentru contact alimentar, și sunt disponibile în execuții ATEX pentru zone cu risc de explozie. Se regăsesc frecvent în stații de tratare a apei, instalații de climatizare industrială, linii de proces din industria alimentară și rețele de distribuție a gazelor și lichidelor industriale.`,
     whyChoose: [
-      "Gamă completă robinet + actuator — corpuri fluture și acționări pneumatice sau electrice dimensionate reciproc, fără incompatibilități de cuplu",
+      "Gamă robinet + actuator — corpuri fluture și acționări pneumatice sau electrice dimensionate reciproc, fără incompatibilități de cuplu",
       "Construcție concentrică fiabilă — soluție frecventă pentru izolare și reglare pe diametre medii și mari",
       "Opțiuni pentru medii dificile — execuții integral inox și garnituri certificate pentru industria alimentară și chimică",
       "Actuatoare proprii cu poziționare proporțională — control fin al debitului, nu doar funcție de închis/deschis",
@@ -568,7 +568,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
 
 Metoda de îmbinare depinde de material și de diametru și se confirmă din documentația GF. Pentru monitorizarea proceselor, gama Signet de senzori de debit, pH, conductivitate și nivel se integrează direct în conducta din plastic, fără puncte suplimentare de coroziune. Sistemele GF Piping se regăsesc în tratarea apei și apei uzate, industria semiconductorilor, produse farmaceutice, industria alimentară și instalații chimice — oriunde greutatea redusă, rezistența la coroziune și costul de instalare mai mic al plasticului cântăresc mai mult decât rezistența mecanică superioară a metalului.`,
     whyChoose: [
-      "Gamă completă de materiale plastice — PVC-U, PVC-C, PP, PE și PVDF pentru orice nivel de agresivitate chimică a fluidului",
+      "Gamă de materiale plastice — PVC-U, PVC-C, PP, PE și PVDF pentru orice nivel de agresivitate chimică a fluidului",
       "Rezistență la coroziune — materialele plastice nu corodează ca metalele în contact cu apă agresivă sau chimicale",
       "Metode de îmbinare specifice fiecărui material — alegerea se confirmă din documentația GF",
       "Sistem COOL-FIT preizolat — reduce pierderile termice și condensul pe rețelele de agent de răcire din industria alimentară și farma",
@@ -886,7 +886,7 @@ Seria e-SV, verticală multietajată, integral din oțel inoxidabil, acoperă de
 Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turației, reduc consumul energetic al circuitelor de încălzire și climatizare cu procente semnificative față de circulatoarele cu turație fixă, un argument important în proiectele care urmăresc certificare energetică. Materialele variază de la fontă pentru aplicații generale, la oțel inoxidabil 304/316 pentru apă potabilă și medii ușor corozive, iar motoarele respectă clasele de eficiență IE3 impuse de reglementările europene. Lowara e prezentă în instalații rezidențiale și comerciale de presurizare, sisteme de irigații agricole, stații de pompare pentru apă uzată și circuite industriale de răcire și transfer de lichide.`,
     whyChoose: [
       "Seria e-SV integral din inox — rezistență superioară la coroziune pentru presurizare industrială și apă cu conținut mineral ridicat",
-      "Gamă completă pentru apă curată și uzată — de la circulatoare rezidențiale până la pompe submersibile cu tocător pentru drenaj",
+      "Gamă pentru apă curată și uzată — de la circulatoare rezidențiale până la pompe submersibile cu tocător pentru drenaj",
       "Eficiență energetică certificată — motoare IE3 și circulatoare Ecocirc cu reglare electronică a turației",
       "Parte din grupul Xylem — grup internațional în tehnologia apei",
       "Înălțimi mari de pompare — seria e-SV acoperă până la 330 m, la debite de până la 160 m³/h",
@@ -1926,7 +1926,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
 
 Gama Delta Blower acoperă suflantele Roots clasice, cu trei lobi, folosite pentru aerarea biologică a stațiilor de epurare și transportul pneumatic de materiale granulare, cu presiune diferențială de până la 1.000 mbar. Delta Hybrid combină profilul de rotor al unei suflante Roots cu un grad de compresie internă specific compresoarelor cu șurub, obținând o eficiență energetică semnificativ mai bună la aceeași presiune, ceea ce reduce facturile de curent electric pe termen lung. Delta Screw este gama de compresoare cu șurub propriu-zise, pentru presiuni mai mari, iar Delta Turbo acoperă suflante turbo de mare capacitate, cu lagăre cu aer (air bearings), fără ulei, pentru stații de epurare mari și aplicații industriale de amploare.
 
-Această gamă completă — de la suflanta Roots simplă și robustă, până la turbosuflanta de înaltă eficiență cu lagăre cu aer — permite alegerea tehnologiei optime pentru fiecare aplicație, în loc să se forțeze o singură soluție pe toate cazurile de utilizare. Materialele și execuțiile acoperă variante standard din fontă și oțel, precum și opțiuni pentru medii speciale sau zone cu risc de explozie. Echipamentele Aerzen se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic, industria petrochimică și aplicații industriale unde aerul sau gazul de proces trebuie comprimat fiabil, non-stop, ani la rând.`,
+Această gamă — de la suflanta Roots simplă și robustă, până la turbosuflanta de înaltă eficiență cu lagăre cu aer — permite alegerea tehnologiei optime pentru fiecare aplicație, în loc să se forțeze o singură soluție pe toate cazurile de utilizare. Materialele și execuțiile acoperă variante standard din fontă și oțel, precum și opțiuni pentru medii speciale sau zone cu risc de explozie. Echipamentele Aerzen se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic, industria petrochimică și aplicații industriale unde aerul sau gazul de proces trebuie comprimat fiabil, non-stop, ani la rând.`,
     whyChoose: [
       "Peste 160 de ani de activitate în construcția de suflante și compresoare",
       "Gamă tehnologică completă — Delta Blower, Delta Hybrid, Delta Screw și Delta Turbo, pentru orice cerință de presiune și eficiență",
@@ -2490,7 +2490,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
     name: "Funke",
     founded: 1974,
     headquarters: "Gronau, Germania",
-    overview: `Funke este un producător german de schimbătoare de căldură, cu sediul la Gronau, specializat pe schimbătoare cu plăci și garnituri, schimbătoare cu plăci brazate și schimbătoare tubulare pentru aplicații industriale de proces. Compania s-a poziționat ca un furnizor flexibil, capabil să adapteze rapid o soluție de transfer termic la cerințele specifice ale unui proiect, fără a fi legată de o singură tehnologie constructivă, spre deosebire de producătorii specializați exclusiv pe un singur tip de schimbător.
+    overview: `Funke este un producător german de schimbătoare de căldură, cu sediul la Gronau, specializat pe schimbătoare cu plăci și garnituri, schimbătoare cu plăci brazate și schimbătoare tubulare pentru aplicații industriale de proces. Compania s-a poziționat ca un furnizor flexibil, capabil să adapteze rapid o soluție de transfer termic la cerințele specifice ale unui proiect, fără a fi legată de o singură tehnologie constructivă.
 
 Schimbătoarele cu plăci și garnituri din gama FP folosesc plăci ondulate din oțel inoxidabil, strânse mecanic într-un cadru, cu garnituri elastomerice care direcționează fluidele în canale alternante — soluția flexibilă și ușor de curățat pentru aplicații de proces industrial și recuperare de căldură. Schimbătoarele cu plăci brazate, din seriile TPL, GPL și NPL, funcționează fără garnituri și sunt destinate hidraulicii, încălzirii, ventilației și climatizării. Schimbătoarele tubulare (seriile BCF, CCF, SSCF, UNIVEX, TDW și execuții speciale) completează gama pentru fluide incompatibile cu construcția din plăci, folosind fascicule de țevi montate în carcasă cilindrică.
 

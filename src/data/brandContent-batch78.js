@@ -7,13 +7,13 @@ export const brandContentBatch78 = {
     headquarters: "Japonia",
     overview: `Bando este un producător japonez de curele de transmisie, prezent pe piața europeană prin filiala Bando Europe GmbH, cu rădăcini care urcă până în 1906. Gama include curele trapezoidale clasice și crestate pentru acționări industriale, curele dințate sincrone pentru cuplu mare, curele poli-V pentru transmisii compacte și curele variator pentru scutere și utilaje mici. Pentru clienții din România putem oferta atât curelele de uz general de la ventilatoare, pompe și compresoare, cât și seriile sincrone de mare solicitare de pe linii de producție.
 
-Ce diferențiază gama Bando e diversitatea de construcții pentru aceeași funcție: curele clasice țesute alături de variante cu poliuretan (Bancollan), curele dințate cu profil HTD la 8M și 14M pentru sarcini ridicate și curele agricole dedicate, precum seriile RED-S II și W800. Compania concurează direct cu Gates pe segmentul curelelor industriale de transmisie, ambele oferind familii echivalente de curele clasice, dințate și poli-V.
+Ce diferențiază gama Bando e diversitatea de construcții pentru aceeași funcție: curele clasice țesute alături de variante cu poliuretan (Bancollan), curele dințate cu profil HTD la 8M și 14M pentru sarcini ridicate și curele agricole dedicate, precum seriile RED-S II și W800.
 
 Pentru un atelier sau o linie de producție din România, Bando are sens acolo unde echivalentul exact de profil sau lungime contează mai mult decât marca — la înlocuiri de curele uzate pe utilaje mai vechi sau la proiecte unde clientul cere explicit o alternativă la Gates.`,
     whyChoose: [
       "Gamă foarte largă de profile — de la curele trapezoidale clasice la poli-V și sincrone, acoperind majoritatea aplicațiilor industriale",
       "Variantă din poliuretan Bancollan — curele pentru uz industrial, cu accent pe eficiența energetică",
-      "Profile dințate HTD 8M/14M pentru cuplu ridicat — alternativă directă la seriile sincrone concurente",
+      "Profile dințate HTD 8M/14M pentru cuplu ridicat",
       "Serii agricole dedicate — RED-S II și W800, pentru utilaje agricole",
       "Echivalențele față de alte mărci se stabilesc pe baza dimensiunilor curelei existente"
     ],
@@ -70,7 +70,7 @@ Pentru un atelier sau o linie de producție din România, Bando are sens acolo u
     headquarters: "Leicester, Marea Britanie",
     overview: `Camloc Motion Control este un producător britanic din Leicester, specializat de peste 30 de ani în arcuri cu gaz și amortizoare hidraulice pentru capote, trape și panouri de acces. Gama pleacă de la arcuri cu forță fixă folosite la susținerea capotelor și capacelor, trece prin variante cu blocare în poziție și ajunge la arcuri cu forță reglabilă, unde utilizatorul poate regla suportul chiar cu arcul montat. Pentru clienți din România putem oferta atât arcurile standard, cât și tijele telescopice de sprijin pentru panouri mai ușoare.
 
-Ce ține gama Camloc utilă e varietatea de moduri de blocare: seria Econoloc blochează automat la extensie completă, fără tije de siguranță separate, iar seria Stop & Stay permite susținerea unei greutăți contrabalansate în orice punct de pe cursă, nu doar la capăt. Pentru medii corozive sau spălare frecventă, compania oferă tije din inox 316L. Concurează cu alți producători britanici și continentali de arcuri cu gaz pentru aplicații industriale și de transport.
+Ce ține gama Camloc utilă e varietatea de moduri de blocare: seria Econoloc blochează automat la extensie completă, fără tije de siguranță separate, iar seria Stop & Stay permite susținerea unei greutăți contrabalansate în orice punct de pe cursă, nu doar la capăt. Pentru medii corozive sau spălare frecventă, compania oferă tije din inox 316L.
 
 Pentru un integrator sau un producător de echipamente din România, Camloc are sens la capote de utilaje, trape de acces sau panouri de mobilier tehnic unde forța de susținere trebuie calculată precis pe greutatea și geometria panoului, nu aleasă aproximativ.`,
     whyChoose: [
@@ -128,7 +128,7 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
     headquarters: "Mauerstetten, Germania",
     overview: `Chr. Mayr, cunoscut pe piață sub marca mayr®, este un producător german din Mauerstetten, fondat în 1897 ca atelier de dulgherie și dezvoltat ulterior în producția de componente de transmisie: frâne de siguranță, limitatoare de cuplu și cuplaje. Gama ROBA-stop acoperă frâne electromagnetice pentru oprirea și menținerea în poziție a axelor, de la variante compacte silențioase până la modele duble pentru siguranță redundantă, iar familia EAS și ROBA slip hub oferă limitatoare de cuplu care decuplează mecanic la suprasarcină. Pentru România putem oferta atât frânele de siguranță standard, cât și cuplajele elastice din seria ROBA DS.
 
-Ce diferențiază mayr® în categoria lui e combinația dintre frâne de siguranță cu eliberare electromagnetică și limitatoare de cuplu cu decuplare mecanică, ambele critice acolo unde o cădere de tensiune sau o suprasarcină bruscă ar putea produce un accident sau o defecțiune costisitoare. Cuplajul ROBA DS Aluminum tip 9120 este destinat traductoarelor de cuplu, iar limitatoarele EAS acoperă game diferite de cuplu prin variante Sp, Sm, Zr, HT și reverse. Concurează cu alți producători germani de componente de siguranță pentru transmisii mecanice.
+Ce diferențiază mayr® în categoria lui e combinația dintre frâne de siguranță cu eliberare electromagnetică și limitatoare de cuplu cu decuplare mecanică, ambele critice acolo unde o cădere de tensiune sau o suprasarcină bruscă ar putea produce un accident sau o defecțiune costisitoare. Cuplajul ROBA DS Aluminum tip 9120 este destinat traductoarelor de cuplu, iar limitatoarele EAS acoperă game diferite de cuplu prin variante Sp, Sm, Zr, HT și reverse.
 
 Pentru instalații din România — elevatoare, macarale, mașini-unelte sau linii cu risc de suprasarcină — mayr® înseamnă acces la componente de siguranță gândite să oprească axul chiar și fără alimentare electrică, nu doar să-l încetinească.`,
     whyChoose: [
@@ -269,7 +269,7 @@ Pentru un producător de echipamente sau un integrator din România, Colson Grou
     founded: 1860,
     overview: `David Brown Santasalo este un producător de reductoare industriale de mare putere, format în 2016 din fuziunea britanicului David Brown, activ din 1860, cu finlandezul Santasalo. Compania proiectează reductoare industriale la comandă, nu dintr-un catalog fix, plus servicii complete de reparație, instalare, inspecție și optimizare pentru reductoare existente, indiferent de marcă sau vechime. Pentru clienți din România putem discuta atât proiecte de reductoare noi, cât și servicii de mentenanță pe reductoare deja instalate în fabrică.
 
-Ce diferențiază David Brown Santasalo e abordarea pe proiect: fiecare reductor e dimensionat pentru aplicația exactă a clientului — putere, cuplu, raport de transmisie și mediu de lucru — nu ales dintr-o listă de modele standard. Serviciul DBS Transform folosește tehnologie de scanare 3D pentru a înlocui componentele rotative ale reductoarelor altor producători cu unități DBS de înaltă performanță, iar sistemele GearWatch monitorizează starea uleiului și a vibrațiilor pe reductoare aflate deja în funcțiune. Compania concurează cu alți producători mari de reductoare industriale pentru procese grele, precum Bonfiglioli pe segmentul industrial.
+Ce diferențiază David Brown Santasalo e abordarea pe proiect: fiecare reductor e dimensionat pentru aplicația exactă a clientului — putere, cuplu, raport de transmisie și mediu de lucru — nu ales dintr-o listă de modele standard. Serviciul DBS Transform folosește tehnologie de scanare 3D pentru a înlocui componentele rotative ale reductoarelor altor producători cu unități DBS de înaltă performanță, iar sistemele GearWatch monitorizează starea uleiului și a vibrațiilor pe reductoare aflate deja în funcțiune.
 
 Pentru instalații mari din România — ciment, minerit, energie sau metalurgie — David Brown Santasalo are sens acolo unde un reductor standard de catalog nu acoperă puterea sau cuplul cerut, sau unde reductorul existent trebuie reparat sau monitorizat, nu neapărat înlocuit.`,
     whyChoose: [
@@ -329,7 +329,7 @@ Pentru instalații mari din România — ciment, minerit, energie sau metalurgie
     headquarters: "Enns, Austria",
     overview: `Eisenbeiss este un producător austriac de reductoare speciale, fondat în 1911 la Linz-Ebelsberg și mutat în 1928 la Enns, unde funcționează și azi ca afacere de familie. Gama e organizată pe aplicații foarte specifice: reductoare pentru extrudere de mase plastice, reductoare pentru turbine și generatoare, reductoare pentru oțelării și laminoare, și reductoare speciale pentru telecabine, teleschiuri și instalații de dragare. Pentru clienți din România putem discuta reductoare pentru linii de extrudere sau echipamente de ridicat pe cablu.
 
-Ce diferențiază Eisenbeiss e specializarea pe nișe unde un reductor standard de catalog nu funcționează: reductoare gemene sau paralele pentru extrudere co-rotativă sau contra-rotativă, reductoare cu roți dințate pentru turbine Kaplan, PIT, bulb și cu flux deschis, și reductoare de mare cuplu pentru macarale de turnare (ladle turret) sau linii de turnare continuă din siderurgie. Compania concurează cu alți producători europeni de reductoare speciale, precum Bonfiglioli pe segmentul industrial general.
+Ce diferențiază Eisenbeiss e specializarea pe nișe unde un reductor standard de catalog nu funcționează: reductoare gemene sau paralele pentru extrudere co-rotativă sau contra-rotativă, reductoare cu roți dințate pentru turbine Kaplan, PIT, bulb și cu flux deschis, și reductoare de mare cuplu pentru macarale de turnare (ladle turret) sau linii de turnare continuă din siderurgie.
 
 Pentru instalații din România cu aplicații neobișnuite — linii de extrudere, mini-hidrocentrale, instalații pe cablu sau echipamente de dragare — Eisenbeiss are sens acolo unde geometria sau cuplul cerut ies din plaja unui reductor de serie mare.`,
     whyChoose: [
@@ -404,7 +404,7 @@ Ce diferențiază Fabreeka e plaja largă de soluții pentru aceeași problemă 
 Pentru instalații industriale sau proiecte de construcții din România, Fabreeka are sens la fundații de mașini grele, poduri și structuri cu rosturi de dilatare, sau la fațade unde punțile termice prin oțel trebuie reduse.`,
     whyChoose: [
       "Certificare ISO 9001:2015 — proces de fabricație documentat pentru componente critice de izolare",
-      "Gamă completă pe controlul vibrațiilor — de la tampoane simple la izolatoare pneumatice de precizie",
+      "Gamă pe controlul vibrațiilor — de la tampoane simple la izolatoare pneumatice de precizie",
       "Elemente structurale de întrerupere a punții termice Fabreeka-TIM — reduc puntea termică la joncțiuni metalice din construcții",
       "Conformitate REACH și RoHS — relevantă pentru proiecte cu cerințe europene de mediu",
       "Peste un secol de experiență în domeniu de nișă — izolare antivibrații și amortizare de șoc"
@@ -467,11 +467,11 @@ Pentru instalații industriale sau proiecte de construcții din România, Fabree
     headquarters: "Drachten, Olanda",
     overview: `Fenner Dunlop este un producător de benzi transportoare grele, cu sediul regional european la Drachten, Olanda, și parte din grupul Michelin. Gama acoperă benzi multiply pentru transport general (Superfort, Dunloflex), benzi rezistente la impact pentru concasoare (UsFlex, Trioflex), benzi cu cablu de oțel pentru distanțe și tensiuni mari (Steelcord, Ferroflex) și benzi profilate pentru transport înclinat (Chevron, Fishbone, Multiprof). Pentru clienți din România putem oferta atât benzi standard de uz general, cât și benzi speciale rezistente la temperatură sau la produse chimice.
 
-Ce diferențiază Fenner Dunlop e acoperirea completă pe tipuri de solicitare: de la benzi ușoare pentru pachete și materiale individuale (Slider) până la benzi cu cabluri de oțel pentru transportoare de mare lungime, plus sisteme de monitorizare a stării benzii (Rip Ranger, Eagle Eye), ale căror detalii le confirmăm din documentația producătorului. Conform producătorului, materialele folosite respectă reglementarea REACH. Concurează cu alți mari producători de benzi industriale pentru minerit și industrie grea.
+Gama Fenner Dunlop acoperă mai multe tipuri de solicitare: de la benzi ușoare pentru pachete și materiale individuale (Slider) până la benzi cu cabluri de oțel pentru transportoare de mare lungime, plus sisteme de monitorizare a stării benzii (Rip Ranger, Eagle Eye), ale căror detalii le confirmăm din documentația producătorului. Conform producătorului, materialele folosite respectă reglementarea REACH.
 
 Pentru instalații din România — cariere, mine, fabrici de ciment sau linii de reciclare — Fenner Dunlop are sens acolo unde durata de viață a benzii sub sarcină și rezistența la impact contează mai mult decât prețul de achiziție inițial.`,
     whyChoose: [
-      "Gamă completă pe tip de solicitare — de la benzi ușoare pentru pachete la benzi cu cablu de oțel pentru distanțe mari",
+      "Gamă pe tip de solicitare — de la benzi ușoare pentru pachete la benzi cu cablu de oțel pentru distanțe mari",
       "Benzi rezistente la impact — UsFlex, gândită pentru concasoare primare și secundare, și Trioflex, pentru servicii medii până la grele",
       "Sisteme de monitorizare a benzii — Rip Ranger și Eagle Eye, cu detalii confirmate din documentația producătorului",
       "Conformitate REACH pe materiale, conform declarației producătorului",
@@ -538,7 +538,7 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
     headquarters: "Aalen, Germania",
     overview: `Franke GmbH este un producător german din Aalen, specializat în lagăre cu inele din sârmă, inele de rotație (slewing rings) și ghidaje liniare cu profil. Gama de lagăre acoperă seriile LEL, LER, LEW și LSA cu inele din sârmă călită, inelele de rotație merg de la seria LVA la LVW, din oțel sau aluminiu, cu bile sau cu role, iar mesele rotative LTA și LTB completează oferta alături de sistemul de antrenare directă LTD. Pentru clienți din România putem oferta atât lagăre individuale de schimb, cât și ghidaje liniare complete din seria FD.
 
-Ce diferențiază Franke e principiul constructiv cu inele din sârmă călită în locul căilor de rulare frezate direct în inelul lagărului — o soluție creată pentru construcții compacte, cu economie de spațiu. Pe segmentul ghidajelor liniare, compania concurează cu producători precum THK, oferind atât șine de profil cu cărucioare (seria FD de la A la I), cât și perechi de șine cu papuci cu role pentru sarcini mai mari. Certificările ISO 9001 și ISO 14001 confirmă un proces de fabricație și management de mediu documentat.
+Ce diferențiază Franke e principiul constructiv cu inele din sârmă călită în locul căilor de rulare frezate direct în inelul lagărului — o soluție creată pentru construcții compacte, cu economie de spațiu. Pe segmentul ghidajelor liniare, compania oferă atât șine de profil cu cărucioare (seria FD de la A la I), cât și perechi de șine cu papuci cu role pentru sarcini mai mari. Certificările ISO 9001 și ISO 14001 confirmă un proces de fabricație și management de mediu documentat.
 
 Pentru echipamente de precizie din România — mașini de testat materiale, roboți, utilaje textile sau echipamente de ambalare — Franke are sens acolo unde jocul mecanic redus și repetabilitatea poziționării contează mai mult decât costul unui lagăr standard.`,
     whyChoose: [
@@ -607,7 +607,7 @@ Pentru echipamente de precizie din România — mașini de testat materiale, rob
     headquarters: "Bad Berneck, Germania",
     overview: `Frenzelit este un producător german independent, deținut de familie, cu sediul la Bad Berneck, specializat în garnituri, materiale de izolare termică și compensatoare pentru industrie. Gama de garnituri include seriile novapress și novaphit, aceasta din urmă cu tehnologia XP, cu proprietăți anti-adezive, iar materialele de izolare acoperă de la isoTHERM S, care rezistă pe termen scurt până la 1100°C, la izolații acustice și electrice precum novamica. Pentru clienți din România putem oferta atât garnituri fibroase standard, cât și materiale de izolare pentru temperaturi ridicate.
 
-Ce diferențiază Frenzelit e diversitatea de materiale compozite dezvoltate pentru nișe foarte specifice — de la thermoREFLEX, o teacă de protecție din țesătură aramidică pentru vehicule electrice, la hicoTEC, o gamă de materiale compozite cu variante precum filme încălzitoare ultrasubțiri (TP), filme compozite (CF) și carbon nețesut pentru celule de combustie (NE). Compania concurează cu alți producători germani de garnituri industriale, precum Klinger, pe segmentul de etanșări pentru chimie și petrochimie.
+Ce diferențiază Frenzelit e diversitatea de materiale compozite dezvoltate pentru nișe foarte specifice — de la thermoREFLEX, o teacă de protecție din țesătură aramidică pentru vehicule electrice, la hicoTEC, o gamă de materiale compozite cu variante precum filme încălzitoare ultrasubțiri (TP), filme compozite (CF) și carbon nețesut pentru celule de combustie (NE).
 
 Pentru instalații industriale din România — chimie, energie, siderurgie sau construcție de mașini — Frenzelit are sens acolo unde temperatura de lucru sau compatibilitatea chimică depășesc plaja unei garnituri sau izolații generice.`,
     whyChoose: [
@@ -670,7 +670,7 @@ Pentru instalații industriale din România — chimie, energie, siderurgie sau 
     headquarters: "Tiverton, Marea Britanie",
     overview: `HepcoMotion este un producător britanic din Tiverton, Devon, cu peste 50 de ani de experiență în sisteme de ghidare liniară cu profil V și în sisteme de traversare pe șine curbe. Gama include ghidaje liniare cu role în V (GV3, SL2, HDS2), sisteme cu bile (DualVee, UtiliTrak, LoPro), șine curbe și inele de ghidare (PRT2, HDRT, 1-Trak) și sisteme de traversare acționate (DTS, DTS2, GFX). Pentru clienți din România putem oferta atât ghidaje liniare drepte standard, cât și sisteme curbe pentru trasee circulare.
 
-Ce diferențiază HepcoMotion e principiul ghidajului cu role în profil V, în care rolele profilate rulează pe șine cu profil complementar. Seriile PRT2 și HDRT permit realizarea de trasee curbe complete — inele, segmente și sisteme de traversare — fără a asambla mai multe tronsoane drepte. Compania concurează cu THK pe segmentul ghidajelor liniare industriale.
+Ce diferențiază HepcoMotion e principiul ghidajului cu role în profil V, în care rolele profilate rulează pe șine cu profil complementar. Seriile PRT2 și HDRT permit realizarea de trasee curbe complete — inele, segmente și sisteme de traversare — fără a asambla mai multe tronsoane drepte.
 
 Pentru linii de producție din România cu medii dure — industrie alimentară, cosmetice sau manipulare de materiale — HepcoMotion are sens acolo unde aplicația cere un ghidaj cu role în profil V; seria potrivită se confirmă pe baza condițiilor de lucru.`,
     whyChoose: [

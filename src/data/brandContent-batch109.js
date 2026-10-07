@@ -81,7 +81,7 @@ Ce diferențiază Waircom e acoperirea largă a familiei de cilindri — de la v
 
 Pentru piața din România, Waircom are sens la retehnologizarea liniilor de producție, la construcția de mașini noi sau la înlocuirea componentelor pneumatice uzate. Componentele standard se pretează la stocuri de consumabile la integratori, iar variantele ATEX la proiecte din industria de proces.`,
     whyChoose: [
-      "Gamă completă de cilindri, de la variante standard la modele fără tijă, ghidate sau din oțel inoxidabil",
+      "Gama cuprinde cilindri, de la variante standard la modele fără tijă, ghidate sau din oțel inoxidabil",
       "Electrovalve disponibile individual sau montate pe colector, cu acționare pilot sau solenoid",
       "Grupuri de tratare a aerului în dimensiuni variate, pentru linii de diverse debite",
       "Variante conforme directivei ATEX pentru zone cu risc de explozie, relevante în chimie și petrochimie",
@@ -205,7 +205,7 @@ Pentru clienții din România, AB Trasmissioni are sens la retehnologizarea tran
     headquarters: "Amsterdam, Olanda",
     overview: `Kendrion este un producător olandez de componente electromagnetice, cu sediul la Amsterdam, specializat în frâne industriale, solenoizi, cuplaje electromagnetice și sisteme de blocare a ușilor pentru echipamente industriale și medicale. Gama include frâne cu magnet permanent și cu arc, solenoizi liniari și rotativi, cuplaje cu particule magnetice și valve pneumatice de control. Pentru piața din România putem oferta din gama de frâne și solenoizi, componente frecvente la motoare electrice și automatizări.
 
-Ce diferențiază Kendrion e acoperirea mai multor tehnologii de acționare electromagnetică sub același acoperiș: frânele din linia INTORQ, precum seria BFK458, sunt gândite pentru motoare electrice moderne, compacte și eficiente energetic, iar cuplajele Airflex acoperă aplicații de cuplu mare pentru echipamente grele. Compania produce și regulatoare de presiune din linia Pure Flow, pentru aplicații medicale unde precizia contează la fel de mult ca fiabilitatea mecanică. Kendrion concurează cu alți specialiști europeni pe segmentul frânelor și cuplajelor de precizie.
+Kendrion acoperă mai multe tehnologii de acționare electromagnetică sub același acoperiș: frânele din linia INTORQ, precum seria BFK458, sunt gândite pentru motoare electrice moderne, compacte și eficiente energetic, iar cuplajele Airflex acoperă aplicații de cuplu mare pentru echipamente grele. Compania produce și regulatoare de presiune din linia Pure Flow, pentru aplicații medicale unde precizia contează la fel de mult ca fiabilitatea mecanică.
 
 Pentru clienții din România, Kendrion are sens la retehnologizarea motoarelor electrice cu frâne integrate, la sistemele de blocare a ușilor și la aplicațiile care necesită cuplaje electromagnetice cu control fin al cuplului. Regulatoarele Pure Flow sunt relevante pentru producătorii de dispozitive medicale.`,
     whyChoose: [

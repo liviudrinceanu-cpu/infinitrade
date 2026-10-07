@@ -12,7 +12,7 @@ Gama e organizată pe familii de comutatoare: seria de bază C, seriile CA și C
 Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la comutatoare robuste pentru tablouri de comandă, panouri de distribuție și sisteme fotovoltaice, acolo unde fiabilitatea mecanică a contactelor pe termen lung contează mai mult decât prețul de achiziție.`,
     whyChoose: [
       "Peste un secol de fabricație de comutatoare cu came, cu design modular introdus încă din 1948",
-      "Gamă completă de curenți nominali, de la comutatoare mici de control până la întrerupătoare de sarcină de 2400A",
+      "Gamă de curenți nominali, de la comutatoare mici de control până la întrerupătoare de sarcină de 2400A",
       "Contacte placate cu aur la seria CA4-1, pentru semnale de joasă tensiune în medii solicitante",
       "Comutatoare dedicate pentru sisteme fotovoltaice, cu deconectoare de curent continuu",
       "Producție proprie în șase fabrici, pe patru continente"
@@ -190,7 +190,7 @@ La iluminat, seriile EXLUX (liniare, 6002/4 și 6402/4) și ToughLUX (L402/4, L4
 Pentru rafinării, platforme offshore și instalații chimice din România, R. STAHL înseamnă echipamente certificate ATEX/IECEx pentru iluminat, control și conectare, acolo unde un echipament standard nu poate fi montat legal în zona clasificată.`,
     whyChoose: [
       "Peste 150 de ani de istorie industrială, cu activitate în protecția antiex din 1954",
-      "Gamă completă pentru zone Ex — iluminat, cutii de control, conectori și sisteme HMI",
+      "Gamă pentru zone Ex — iluminat, cutii de control, conectori și sisteme HMI",
       "Certificări ATEX și IECEx pe majoritatea familiilor de produse",
       "Corpuri de iluminat LED cu variante pentru zone cu risc ridicat de explozie și pentru maritim",
       "Șapte fabrici proprii și rețea de peste 50 de locații pentru suport tehnic global"
@@ -260,7 +260,7 @@ Familia REOVIB acoperă controlere pentru tehnologia de transport vibrator — v
 Pentru instalații cu variatoare de turație și sisteme UPS din România, REO înseamnă componente de filtrare și protecție a rețelei electrice acolo unde armonicele sau perturbațiile EMC ar afecta funcționarea corectă a echipamentelor din tablou.`,
     whyChoose: [
       "Peste un secol de fabricație de droselii și transformatoare, cu Berlinul drept centru de competență al grupului",
-      "Gamă completă pentru electronica de putere — droselii, filtre EMC, transformatoare și rezistențe de frânare",
+      "Gamă pentru electronica de putere — droselii, filtre EMC, transformatoare și rezistențe de frânare",
       "Filtrele REOWAVE pasive pot reduce consumul energetic al sistemelor de acționare, conform datelor publicate de producător",
       "Controlere REOVIB dedicate tehnologiei de transport vibrator, cu variatoare de frecvență și regulatoare de fază",
       "Patru locații în Germania și zece birouri la nivel mondial"
@@ -320,7 +320,7 @@ Familia Free Float® cuprinde capcane cu plutitor pentru presiune joasă, medie 
 Pentru instalații cu cazane și rețele de abur din România — industrie alimentară, chimică sau termoficare — TLV înseamnă capcane și componente pentru reducerea pierderilor de abur și recuperarea eficientă a condensatului.`,
     whyChoose: [
       "Peste 75 de ani de specializare exclusivă în echipamente pentru sisteme de abur",
-      "Gamă completă Free Float® pentru presiune joasă, medie și înaltă, plus linii principale de abur",
+      "Gamă Free Float® pentru presiune joasă, medie și înaltă, plus linii principale de abur",
       "Capcane termodinamice cu disc pentru drenaj rapid de condensat din conducte de proces",
       "PowerTrap combină pompare mecanică și capcană integrată, pentru ridicare condensat contra presiune",
       "Rețea internațională de filiale din 1983, cu suport tehnic dedicat sistemelor de abur"
@@ -374,7 +374,7 @@ Pentru instalații cu cazane și rețele de abur din România — industrie alim
     headquarters: "Lidköping, Suedia",
     overview: `Absolent este un producător suedez de filtre pentru ceață de ulei, fum de ulei și praf industrial, cu sediul la Lidköping. Compania fabrică patru familii de filtrare care acoperă majoritatea surselor de emisii din prelucrarea metalelor: A•mist pentru ceață de ulei, A•smoke pentru fum de ulei, A•dust pentru praf și fum de proces, și A•line, tot pentru fum de ulei. Gama e completă cu accesorii de tip A•control și A•monitor pentru comanda și monitorizarea instalației de filtrare.
 
-Fiecare familie e disponibilă în multiple mărimi de debit de aer, notate în codul de model — de exemplu A•mist 6C, 10C și 80C, sau A•erity 20-20 și 320-70, unde cifrele din cod identifică modelul din gamă. Seria AE acoperă debite mari, de la AE20-150 până la AE320-250-2, pentru linii de producție cu mai multe mașini conectate la aceeași unitate de filtrare centralizată. Pe segmentul de filtrare a ceții de ulei, Absolent concurează cu producători precum Filtermist sau Bofa.
+Fiecare familie e disponibilă în multiple mărimi de debit de aer, notate în codul de model — de exemplu A•mist 6C, 10C și 80C, sau A•erity 20-20 și 320-70, unde cifrele din cod identifică modelul din gamă. Seria AE acoperă debite mari, de la AE20-150 până la AE320-250-2, pentru linii de producție cu mai multe mașini conectate la aceeași unitate de filtrare centralizată.
 
 Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent înseamnă filtrare centralizată sau la mașină a ceții de ulei și fumului generat de sculele așchietoare, unde calitatea aerului din hală trebuie ținută sub control.`,
     whyChoose: [
@@ -446,7 +446,7 @@ Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent �
     headquarters: "Israel",
     overview: `Amiad este un producător israelian de filtre pentru apă, cu peste 60 de ani de activitate în tehnologii de filtrare pentru irigații și industrie. Compania oferă patru tehnologii de filtrare sub aceeași marcă — filtrare cu ecran (screen), cu disc, cu microfibră și cu strat filtrant (media) — livrate ca sisteme automate cu spălare la contrapresiune sau ca filtre manuale simple. Gama acoperă diametre de la 2" la 10" și debite crescătoare pe măsură ce dimensiunea filtrului crește.
 
-Familia Spin Klin este cea mai extinsă, cu filtre cu disc de la modelul compact 2" Spin Klin Compact până la 10" Spin Klin Super Galaxy, pentru debite mari în stații de pompare. Filtrele automate cu ecran includ seriile Maverick, Sigma Pro, Omega și Filtomat, cu autocurățare declanșată la diferență de presiune sau la interval de timp programat. Pe segmentul de filtrare a apei pentru irigații și industrie, Amiad concurează cu producători precum Netafim sau Arkal, diferența fiind portofoliul cu patru tehnologii distincte sub aceeași marcă.
+Familia Spin Klin cuprinde filtre cu disc de la modelul compact 2" Spin Klin Compact până la 10" Spin Klin Super Galaxy, pentru debite mari în stații de pompare. Filtrele automate cu ecran includ seriile Maverick, Sigma Pro, Omega și Filtomat, cu autocurățare declanșată la diferență de presiune sau la interval de timp programat. Portofoliul Amiad cuprinde patru tehnologii distincte de filtrare sub aceeași marcă.
 
 Pentru sisteme de irigații, stații de pompare și instalații industriale cu apă de proces din România, Amiad înseamnă filtre automate care reduc frecvența intervențiilor manuale de curățare, acolo unde apa sursă conține nisip, alge sau particule în suspensie.`,
     whyChoose: [
@@ -512,7 +512,7 @@ Familia DRYPOINT acoperă mai multe tehnologii de uscare: ACC, ACM, AC HP și AD
 
 Pentru linii de producție și ateliere cu compresoare din România, BEKO Technologies înseamnă echipamente pentru uscarea, filtrarea și purjarea aerului comprimat acolo unde umiditatea sau uleiul rezidual ar afecta calitatea produsului final sau funcționarea sculelor pneumatice.`,
     whyChoose: [
-      "Gamă completă de uscare a aerului comprimat — adsorbție, frigorifică și cu membrană — pentru orice punct de rouă cerut",
+      "Gamă de uscare a aerului comprimat — adsorbție, frigorifică și cu membrană — pentru diverse puncte de rouă",
       "Filtre CLEARPOINT pentru presiuni de lucru de până la 50 bar",
       "Purjoare BEKOMAT cu funcționare automată, fără pierderi de aer comprimat la evacuare",
       "Separatoare ulei-apă active și pasive, pentru conformarea cu normele de evacuare a condensatului",
@@ -569,7 +569,7 @@ Pentru linii de producție și ateliere cu compresoare din România, BEKO Techno
     headquarters: "Offingen, Germania",
     overview: `BWF Envirotec este un producător german de saci filtranți și medii filtrante pentru desprăfuire industrială, parte a grupului BWF, cu sediul la Offingen. Grupul are o istorie de peste 130 de ani, iar divizia Envirotec s-a specializat pe filtrarea gaz-solid și solid-lichid pentru instalații industriale mari, de la centrale electrice la cimentării. Gama include saci filtranți, filtre plisate din materialul propriu ComPleat®, filtre cartuș și membrane pentru praf fin.
 
-Materialele de bază sunt pâsla aciculară (needle felt) și țesătura din fibră de sticlă, alese în funcție de temperatura gazului filtrat și de tipul de particule. Produsul PM-Tec® aduce o membrană laminată din ePTFE pentru captarea prafului fin, cu eficiență de filtrare superioară filtrelor clasice din pâslă. Pentru gaze fierbinți, gama include cartușe cu manșon de tip V-collar sau T-collar, folosite la temperaturi ridicate unde materialele textile obișnuite nu ar rezista. BWF Envirotec concurează pe segmentul de medii filtrante industriale cu producători precum Clarcor sau Donaldson.
+Materialele de bază sunt pâsla aciculară (needle felt) și țesătura din fibră de sticlă, alese în funcție de temperatura gazului filtrat și de tipul de particule. Produsul PM-Tec® aduce o membrană laminată din ePTFE pentru captarea prafului fin, cu eficiență de filtrare superioară filtrelor clasice din pâslă. Pentru gaze fierbinți, gama include cartușe cu manșon de tip V-collar sau T-collar, folosite la temperaturi ridicate unde materialele textile obișnuite nu ar rezista.
 
 Pentru instalații de desprăfuire din industria cimentului, siderurgie sau incinerare din România, BWF Envirotec înseamnă saci și medii filtrante dimensionate pe temperatura și compoziția gazului de proces, nu module standard generice.`,
     whyChoose: [
@@ -627,12 +627,12 @@ Pentru instalații de desprăfuire din industria cimentului, siderurgie sau inci
     headquarters: "Newton, SUA",
     overview: `Bunting Magnetics este un producător american de separatoare magnetice și detectoare de metale, fondat în 1959, cu sediul principal la Newton, Kansas, și un al doilea sediu pentru piețele din afara Americii la Redditch, Marea Britanie. Compania produce echipamente pentru separarea materialelor feroase și neferoase din fluxuri de material în vrac, pulberi și lichide, plus detectoare de metale pentru controlul contaminării în procesele de producție.
 
-Gama de separare magnetică acoperă montaje suspendate deasupra benzilor transportoare (overband magnets), magneți în bandă continuă (drum magnets), plăci și grătare magnetice pentru materiale libere curgătoare, și separatoare pentru lichide și suspensii. Pentru metale neferoase precum aluminiul sau cuprul, gama include separatoare cu curenți turbionari (eddy current separators), iar pentru oțel inoxidabil slab magnetic — separatoare dedicate de înaltă intensitate. Seria Performer acoperă detectoarele de metale, cu variante pentru industria alimentară și pentru control gravitațional. Pe segmentul de separare magnetică industrială, Bunting concurează cu producători precum Eriez sau Goudsmit Magnetics.
+Gama de separare magnetică acoperă montaje suspendate deasupra benzilor transportoare (overband magnets), magneți în bandă continuă (drum magnets), plăci și grătare magnetice pentru materiale libere curgătoare, și separatoare pentru lichide și suspensii. Pentru metale neferoase precum aluminiul sau cuprul, gama include separatoare cu curenți turbionari (eddy current separators), iar pentru oțel inoxidabil slab magnetic — separatoare dedicate de înaltă intensitate. Seria Performer acoperă detectoarele de metale, cu variante pentru industria alimentară și pentru control gravitațional.
 
 Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice din România, Bunting Magnetics înseamnă echipamente pentru îndepărtarea contaminării metalice din fluxul de material, protejând atât produsul final, cât și utilajele din aval de deteriorare.`,
     whyChoose: [
       "Peste 65 de ani de experiență dedicată exclusiv separării magnetice și detecției metalelor",
-      "Gamă completă pentru materiale feroase, neferoase și oțel inoxidabil slab magnetic",
+      "Gamă pentru materiale feroase, neferoase și oțel inoxidabil slab magnetic",
       "Separatoare cu curenți turbionari pentru recuperarea aluminiului și cuprului din fluxuri de reciclare",
       "Detectoare de metale seria Performer, inclusiv variante pentru industria alimentară (Performer Hygiene Elite)",
       "Două sedii de producție — Newton (SUA) și Redditch (Marea Britanie) — pentru acoperire globală"
@@ -692,7 +692,7 @@ Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice di
     headquarters: "Ratingen, Germania",
     overview: `Bühler Technologies este un producător german de componente pentru analiza gazelor și controlul fluidelor hidraulice, cu sediul la Ratingen și peste 50 de ani de activitate. Compania e organizată pe două divizii: Analysentechnik, pentru sisteme de prelevare și condiționare a gazului de măsură, și Fluidcontrol, pentru monitorizarea și răcirea uleiurilor hidraulice și de ungere. Prezența acoperă peste 50 de țări, cu birouri de vânzări proprii în Franța, SUA și China și cu agenți și distribuitori în alte piețe.
 
-Pe partea de analiză a gazelor, gama include sonde de prelevare (sample gas probes), filtre și pompe de gaz de măsură, plus răcitoare de gaz de măsură în variante electrice, cu apă sau precoolere, folosite pentru condiționarea probei înainte de analizor. Pentru sistemele hidraulice, divizia Fluidcontrol oferă monitorizare de nivel, temperatură și presiune direct în rezervor, senzori de calitate a uleiului și răcitoare ulei-apă sau ulei-aer. Bühler concurează pe segmentul de monitorizare a fluidelor hidraulice cu producători precum Hydac sau Parker, diferența fiind portofoliul dublu, de analiză a gazelor și control de fluide, sub aceeași marcă.
+Pe partea de analiză a gazelor, gama include sonde de prelevare (sample gas probes), filtre și pompe de gaz de măsură, plus răcitoare de gaz de măsură în variante electrice, cu apă sau precoolere, folosite pentru condiționarea probei înainte de analizor. Pentru sistemele hidraulice, divizia Fluidcontrol oferă monitorizare de nivel, temperatură și presiune direct în rezervor, senzori de calitate a uleiului și răcitoare ulei-apă sau ulei-aer. Portofoliul Bühler cuprinde atât analiza gazelor, cât și controlul fluidelor, sub aceeași marcă.
 
 Pentru instalații industriale cu sisteme hidraulice și stații de analiză a emisiilor din România, Bühler Technologies înseamnă componente pentru monitorizarea stării uleiului și pentru pregătirea corectă a probei de gaz înainte de măsurătoare.`,
     whyChoose: [

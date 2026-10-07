@@ -10,7 +10,7 @@ Ce diferențiază Hoyer de un producător generalist este portofoliul dedicat se
 
 Pentru România, gama are sens la șantierele navale, la operatorii de nave și la instalațiile industriale de pe platformele portuare, acolo unde un motor standard de interior nu rezistă la condițiile de mediu. O recomandăm și pentru retehnologizări unde se cere trecerea de la IE2 la IE3/IE4.`,
     whyChoose: [
-      "Gamă completă de clase de eficiență, de la IE1 până la IE4, plus motoare cu magneți permanenți IE5.",
+      "Gama cuprinde clase de eficiență, de la IE1 până la IE4, plus motoare cu magneți permanenți IE5.",
       "Motoare dedicate mediului marin, gândite pentru vibrații, umiditate și variații de sarcină de la bord.",
       "Variante antiexplozive disponibile pentru zonele cu risc din industria petrolieră și chimică.",
       "Motoare de medie tensiune pentru instalații industriale și navale cu puteri mari.",
@@ -125,7 +125,7 @@ Ce diferențiază gama EQP Global de un motor obișnuit este targetarea explicit
 Pentru clienții din România, gama are sens la instalațiile industriale unde mediul cere motoare construite pentru praf, umiditate și vibrații, iar alegerea exactă se confirmă pe codul solicitat.`,
     whyChoose: [
       "Motoare EQP Global Severe Duty, proiectate pentru medii industriale cu praf, umiditate și vibrații.",
-      "Gamă completă de variatoare, de la microdrive-uri compacte până la variatoare de medie tensiune.",
+      "Gama cuprinde variatoare, de la microdrive-uri compacte până la variatoare de medie tensiune.",
       "Motoare de medie tensiune cu rotor bobinat sau sincrone, pentru puteri industriale mari.",
       "Variante antiexplozive disponibile pentru zone clasificate cu risc de explozie.",
       "Compatibilitate motor-variator de la același producător, utilă la retehnologizări complete."
@@ -436,7 +436,7 @@ Ce diferențiază Solcon-IGEL este acoperirea completă a lanțului de control a
 
 Pentru clienții din România, gama are sens la stațiile de pompare cu motoare mari, la instalațiile miniere și la echipamentele marine unde pornirea directă ar solicita excesiv rețeaua electrică.`,
     whyChoose: [
-      "Gamă completă de softstartere, de la varianta compactă cu bypass integrat până la medie tensiune.",
+      "Gama cuprinde softstartere, de la varianta compactă cu bypass integrat până la medie tensiune.",
       "Relee de protecție a motorului integrate în portofoliu, nu doar softstartere de pornire.",
       "Certificări ISO 9001, ISO 14001 și ISO 45001, plus certificări marine și offshore.",
       "Peste 250.000 de instalații funcționale raportate în peste 75 de țări.",

@@ -6,7 +6,7 @@ export const brandContentBatch104 = {
     name: "Wachendorff",
     overview: `Wachendorff Automation este un producător german de senzori de mișcare, axat pe encodere rotative incrementale și absolute pentru automatizări industriale și echipamente mobile. Gama include encodere incrementale din seriile WDGI și WDGN, encodere cu impuls programabil din seria WDGP și encodere absolute din seria WDGA, disponibile cu interfețe CANopen, CANopen Lift, SAE J1939, IO-Link, SSI, RS485, PROFINET, EtherNet/IP sau EtherCAT. Din portofoliul Wachendorff putem oferta atât modele standard pentru benzi transportoare și motoare electrice, cât și variante configurabile prin NFC pentru integratori care schimbă des parametrii de ieșire.
 
-Gama Wachendorff acoperă o plajă largă de diametre, de la carcase miniaturale de 24-30 mm până la variante robuste de 70-115 mm, cu principii de măsurare optice și magnetice. Seria absolută WDGA folosește tehnologia proprie QuattroMag pentru citirea single-turn fără elemente optice fragile, iar tehnologia EnDra permite numărarea turelor multi-turn fără baterie de rezervă. În segmentul encoderelor industriale, Wachendorff concurează direct cu Kübler, mai ales pe aplicațiile unde interfața de câmp și diametrul arborelui trebuie să coincidă cu ce era deja montat pe utilaj.
+Gama Wachendorff acoperă diametre de la carcase miniaturale de 24-30 mm până la variante robuste de 70-115 mm, cu principii de măsurare optice și magnetice. Seria absolută WDGA folosește tehnologia proprie QuattroMag pentru citirea single-turn fără elemente optice fragile, iar tehnologia EnDra permite numărarea turelor multi-turn fără baterie de rezervă.
 
 Pentru piața din România, Wachendorff înseamnă o alternativă la encoderele deja instalate pe linii de producție, macarale sau utilaje agricole, atunci când clientul are nevoie de un arbore sau o interfață digitală specifică. Se pretează la retrofit de motoare electrice, la sisteme de poziționare pe macarale portuare și la vehicule ghidate automat, unde fiabilitatea semnalului contează mai mult decât costul unitar.`,
     whyChoose: [
@@ -256,7 +256,7 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
       "Sisteme de măsurare cu cablu retractabil (ENCO-METER) pentru curse de până la 10 metri, fără șină liniară montată",
       "Encoder programabil all-in-one PR90, configurabil fără software dedicat pe PC",
       "Fabrici certificate ISO 9001:2015 și ISO 14001, cu certificare suplimentară Q-Plus",
-      "Gamă completă de encodere incrementale și absolute, plus potențiometre și inclinometre",
+      "Gama cuprinde encodere incrementale și absolute, plus potențiometre și inclinometre",
       "Prezență directă în Spania și Germania, utilă la suport tehnic pe piața europeană",
     ],
     keyProducts: [
@@ -502,7 +502,7 @@ Ce diferențiază Kumera e orientarea spre reductoare construite la comandă (cu
 Pentru piața din România, Kumera înseamnă acces la reductoare pentru instalații industriale de mare putere — mori, benzi transportoare grele, agitatoare — unde un reductor de catalog standard nu acoperă combinația exactă de putere și turație cerută de proiect.`,
     whyChoose: [
       "Reductoare construite la comandă, dimensionate exact pe puterea și turația utilajului antrenat",
-      "Gamă completă de la reductoare cu o treaptă până la reductoare multi-treaptă helical-conice",
+      "Gamă de la reductoare cu o treaptă până la reductoare multi-treaptă helical-conice",
       "Reductoare și elice pentru propulsie navală, alături de gama industrială",
       "Sistem Guard Gear pentru monitorizarea stării reductorului direct în exploatare",
     ],

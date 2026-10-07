@@ -119,7 +119,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
     name: "Gimatic",
     overview: `Gimatic este un producător italian de componente pentru automatizare industrială, cu accent pe prinderea și manipularea pieselor la capătul brațelor robotizate. Gama include gripere electrice unghiulare din seria MPBM, gripere electrice radiale din seria MPRM, module pneumatice culisante din seria ZV și capete de tăiere pentru debavurare precum MFI-A272, alături de o linie proprie de componente de vid. Din portofoliul Gimatic putem oferta atât gripere individuale, cât și componente de vid pentru celule robotizate.
 
-Spre deosebire de furnizorii axați exclusiv pe vid, precum Vuototecnica, Gimatic acoperă în paralel griparea mecanică — electrică și pneumatică — și tehnologia de vid, ceea ce simplifică alegerea când o celulă robotizată combină ambele principii de prindere. Seriile de gripere electrice MPBM (unghiulare) și MPRM (radiale) acoperă aplicațiile în care se preferă acționarea electrică celei pneumatice; comportamentul la întreruperea alimentării îl confirmăm pe cod, din documentația Gimatic.
+Gimatic acoperă în paralel griparea mecanică — electrică și pneumatică — și tehnologia de vid, ceea ce simplifică alegerea când o celulă robotizată combină ambele principii de prindere. Seriile de gripere electrice MPBM (unghiulare) și MPRM (radiale) acoperă aplicațiile în care se preferă acționarea electrică celei pneumatice; comportamentul la întreruperea alimentării îl confirmăm pe cod, din documentația Gimatic.
 
 Pentru integratorii din România care montează celule de sortare, debavurare sau injecție de mase plastice, gama Gimatic e o opțiune pentru componenta finală de prindere a robotului, acolo unde trebuie alese cursa, forța de strângere și interfața mecanică potrivite piesei manipulate.`,
     whyChoose: [
@@ -240,12 +240,12 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
     headquarters: "Nürnberg, Germania",
     overview: `GMN este un producător german de componente de precizie pentru mașini-unelte de mare viteză, cu sediul la Nürnberg și activitate neîntreruptă din 1908, când a pornit ca atelier mecanic Georg Müller Nürnberg. Astăzi face parte din grupul familial Paul Müller Industrie, ajuns la a patra generație. Din gama GMN putem oferta rulmenți cu bile de precizie, spindle-uri de șlefuit și frezat, cuplaje cu roată liberă de tip sprag și etanșări fără contact, componente esențiale pentru arborii principali ai mașinilor de prelucrare.
 
-Spre deosebire de producătorii generaliști de rulmenți, precum FAG Schaeffler, GMN se concentrează pe segmentul de precizie și turație mare, unde spindle-ul complet — nu doar rulmentul izolat — face diferența de performanță la o mașină de șlefuit sau de frezat. Gama de etanșări fără contact e împărțită pe serii — CF, L/M și S/SA —, fiecare gândită pentru un tip diferit de aplicație de etanșare la turații mari, iar cuplajele cu roată liberă permit transmiterea mișcării într-un singur sens, utile la sisteme de indexare sau la protecția motorului împotriva rulării inverse.
+GMN se concentrează pe segmentul de precizie și turație mare, unde spindle-ul complet — nu doar rulmentul izolat — face diferența de performanță la o mașină de șlefuit sau de frezat. Gama de etanșări fără contact e împărțită pe serii — CF, L/M și S/SA —, fiecare gândită pentru un tip diferit de aplicație de etanșare la turații mari, iar cuplajele cu roată liberă permit transmiterea mișcării într-un singur sens, utile la sisteme de indexare sau la protecția motorului împotriva rulării inverse.
 
 Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit sau de frezat de mare viteză, componentele GMN sunt relevante mai ales la înlocuirea spindle-urilor sau rulmenților uzați, unde compatibilitatea dimensională cu arborele existent contează cel mai mult.`,
     whyChoose: [
       "Continuitate de peste un secol în producția de componente de precizie pentru arbori principali, din 1908 până azi",
-      "Gamă completă de etanșări fără contact pe serii CF, L/M și S/SA, pentru turații mari fără frecare suplimentară",
+      "Gamă de etanșări fără contact pe serii CF, L/M și S/SA, pentru turații mari fără frecare suplimentară",
       "Cuplaje cu roată liberă de tip sprag, pentru transmiterea mișcării într-un singur sens la sisteme de indexare",
       "Parte din grupul familial Paul Müller Industrie, aflat la a patra generație, cu rulmenți, spindle-uri, cuplaje, etanșări și motoare în același portofoliu",
       "Portofoliu care acoperă atât rulmentul individual, cât și spindle-ul complet de șlefuit sau frezat"
@@ -374,7 +374,7 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
     headquarters: "Vimercate, Italia",
     overview: `Rollon este un producător italian de sisteme de mișcare liniară, fondat în 1975 de inginerul Pino Sacheli la Sesto San Giovanni și mutat, în 2001, cu sediul italian la Vimercate, lângă Milano. Din 2018 face parte din grupul american The Timken Company, alături de alte mărci de mișcare liniară precum Nadella sau Durbal. Din gama Rollon putem oferta ghidaje liniare, șine telescopice, actuatoare liniare, sisteme multi-axe și șuruburi cu bile din seriile XP, XL și XT, pentru aplicații unde piesele trebuie deplasate precis pe o cursă liniară.
 
-Spre deosebire de Bosch Rexroth, care acoperă întreaga gamă de automatizare hidraulică și electrică, Rollon rămâne concentrat pe mișcarea liniară — ghidaje, șine telescopice și actuatoare —, cu șuruburi cu bile din seriile XP, XL și XT. Compania operează în 11 țări, cu 14 unități de producție, ceea ce înseamnă acces la mai multe linii de fabricație pentru aceeași familie de produse, nu doar la o singură fabrică centrală.
+Rollon este concentrat pe mișcarea liniară — ghidaje, șine telescopice și actuatoare —, cu șuruburi cu bile din seriile XP, XL și XT. Compania operează în 11 țări, cu 14 unități de producție, ceea ce înseamnă acces la mai multe linii de fabricație pentru aceeași familie de produse, nu doar la o singură fabrică centrală.
 
 Pentru linii de automatizare sau depozitare din România, gama Rollon e relevantă la sisteme de extindere telescopică — sertare industriale, platforme de acces — și la axele liniare din celule robotizate, acolo unde greutatea sau cursa depășesc ce oferă un ghidaj liniar standard.`,
     whyChoose: [
@@ -635,7 +635,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
     headquarters: "Regensburg, Germania",
     overview: `SGB-SMIT este un producător german de transformatoare electrice, cu sediul la Regensburg și activitate din 1913. Grupul acoperă toată plaja de puteri: transformatoare de mare putere de până la 765 kV (produse la Nijmegen, în Olanda), transformatoare de putere medie, transformatoare de distribuție în ulei între 50 și 2.500 kVA, transformatoare uscate în rășină turnată de până la 25 MVA la 40,5 kV, precum și stații compacte prefabricate din seriile LCS-E, NDV400/401 și NDV1600/2500.
 
-Spre deosebire de un furnizor axat pe un singur tip de transformator, SGB-SMIT acoperă simultan segmentul de putere mare, cel de distribuție și cel uscat, cu fabrici în Germania, Olanda, SUA, Malaysia, India, China, Cehia și Franța. Gama de transformatoare de distribuție în ulei, cu peste 60 de ani de experiență de fabricație declarată de producător, acoperă intervalul uzual 50-2.500 kVA pentru posturi de transformare industriale și de rețea, iar varianta uscată în rășină turnată e alegerea firească acolo unde uleiul mineral nu e acceptat din motive de siguranță sau spațiu.
+SGB-SMIT acoperă simultan segmentul de putere mare, cel de distribuție și cel uscat, cu fabrici în Germania, Olanda, SUA, Malaysia, India, China, Cehia și Franța. Gama de transformatoare de distribuție în ulei, cu peste 60 de ani de experiență de fabricație declarată de producător, acoperă intervalul uzual 50-2.500 kVA pentru posturi de transformare industriale și de rețea, iar varianta uscată în rășină turnată e alegerea firească acolo unde uleiul mineral nu e acceptat din motive de siguranță sau spațiu.
 
 Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMIT e relevantă la înlocuirea sau completarea capacității de transformare, mai ales acolo unde e nevoie de o putere sau o tensiune specifică, în afara standardului de catalog.`,
     whyChoose: [
@@ -1276,7 +1276,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
     name: "GW Instek",
     overview: `GW Instek (Good Will Instrument Co., Ltd.) este un producător taiwanez de instrumente de măsurare și testare electronică. Gama acoperă osciloscoape digitale din seria GDS-2000E, surse de alimentare AC/DC din seria ASR-6000, surse DC programabile din seriile PSW și GPP, sisteme de achiziție de date DAQ-9600 și sarcini electronice PEL-5000G, alături de analizoare de spectru, generatoare de semnal, multimetre digitale și testere LCR. Din portofoliul GW Instek putem oferta instrumentație de bancă pentru laboratoare tehnice și linii de testare.
 
-Spre deosebire de Fluke, cunoscut mai ales pentru multimetre și instrumente de teren, GW Instek acoperă în principal instrumentația de bancă de laborator — osciloscoape, surse programabile și sisteme de achiziție de date — folosite la teste de siguranță electrică, testare de baterii, aplicații de tip Industry 4.0 și teste automotive de conversie a puterii.
+GW Instek acoperă în principal instrumentația de bancă de laborator — osciloscoape, surse programabile și sisteme de achiziție de date — folosite la teste de siguranță electrică, testare de baterii, aplicații de tip Industry 4.0 și teste automotive de conversie a puterii.
 
 Pentru laboratoare de service, control calitate sau linii de testare din România, gama GW Instek e o opțiune pentru instrumentație de bancă la teste standard de laborator.`,
     whyChoose: [
@@ -1419,7 +1419,7 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
     headquarters: "Vantaa, Finlanda",
     overview: `Vaisala este un producător finlandez de instrumente de măsurare, cu rădăcini din 1936 în lucrările profesorului Vilho Väisälä pe principiile radiosondei meteorologice, și sediul actual la Vantaa. Compania a funcționat sub numele Mittari Oy până în 1955, când a adoptat denumirea Vaisala. Din gama Vaisala putem oferta senzori de umiditate, punct de rouă și CO2, precum și tehnologie de măsurare a vântului pentru aplicații meteorologice și industriale.
 
-Spre deosebire de Rotronic, axat în principal pe umiditate și temperatură, Vaisala acoperă o plajă mai largă — de la senzori industriali de proces, precum transmițătorul de punct de rouă DMP370, cu siguranță intrinsecă, până la sisteme de măsurare a vântului pentru energie eoliană prin tehnologia WindCube și software de meteorologie aviatică AviMet 10. Producătorul oferă și servicii de mentenanță dedicate, precum Vaisala Care for Data Centers.
+Vaisala acoperă aplicații diverse — de la senzori industriali de proces, precum transmițătorul de punct de rouă DMP370, cu siguranță intrinsecă, până la sisteme de măsurare a vântului pentru energie eoliană prin tehnologia WindCube și software de meteorologie aviatică AviMet 10. Producătorul oferă și servicii de mentenanță dedicate, precum Vaisala Care for Data Centers.
 
 Pentru centre de date, ferme eoliene sau instalații industriale din România unde controlul umidității sau al punctului de rouă e critic pentru proces, gama Vaisala e o opțiune pentru senzori de precizie la înlocuirea sau completarea instrumentației existente.`,
     whyChoose: [

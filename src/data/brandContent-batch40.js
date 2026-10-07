@@ -132,7 +132,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
     headquarters: "Provaglio d'Iseo, Italia",
     overview: `Gefran este un producător italian de senzori, regulatoare și platforme de automatizare, cu sediul la Provaglio d'Iseo, lângă Brescia. Compania acoperă trei zone de produse: senzori de poziție, presiune, temperatură și forță; echipamente de control — regulatoare, indicatoare, relee statice și pornitoare de motor; și platforme de automatizare, inclusiv sistemul modular G-Mation și platforma de monitorizare MAX. Putem oferta din oricare din aceste trei zone, în funcție de aplicația clientului.
 
-Punctul forte tehnic al Gefran e acoperirea largă de tehnologii de măsurare — de la traductoare potențiometrice și magnetostrictive de poziție, la senzori de presiune pentru topituri la temperatură ridicată în extruderea de plastic, unde concurenți precum Danfoss se concentrează mai mult pe conversia de frecvență și motor. Seria de senzori cu fir tras GSH-S și GSH-A e certificată SIL2/PL d pentru siguranță funcțională, iar o parte din gama de regulatoare și relee are variante certificate ATEX, IECEx și NEPSIEx pentru zone cu risc de explozie.
+Punctul forte tehnic al Gefran e acoperirea largă de tehnologii de măsurare — de la traductoare potențiometrice și magnetostrictive de poziție, la senzori de presiune pentru topituri la temperatură ridicată în extruderea de plastic. Seria de senzori cu fir tras GSH-S și GSH-A e certificată SIL2/PL d pentru siguranță funcțională, iar o parte din gama de regulatoare și relee are variante certificate ATEX, IECEx și NEPSIEx pentru zone cu risc de explozie.
 
 Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile și instalații industriale unde e nevoie de senzori de poziție sau presiune robuști, integrați cu regulatoare de proces din aceeași gamă.`,
     whyChoose: [
@@ -351,7 +351,7 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     name: "Ammeraal Beltech",
     overview: `Ammeraal Beltech este un producător olandez de benzi transportoare și curele de proces, parte din grupul Ammega, cu șapte unități de producție la nivel mondial. Gama include benzi sintetice pentru procesare ușoară și grea, benzi modulare cu structură tip cărămidă, benzi ultra-mesh din monofilament de poliester, benzi omogene Volta, benzi Rapplon de înaltă performanță, benzi din PTFE și sisteme de cuplare rapidă ZipLink. Putem oferta atât banda ca material, cât și confecționarea ei la dimensiunea liniei clientului.
 
-Diferența față de o bandă transportoare generică vine din varietatea de structuri din aceeași gamă — de la benzi omogene Volta, ușor de curățat și potrivite pentru igienă alimentară, la benzi Rapplon, curele plate de înaltă performanță pentru transmisie de putere și transport la viteze mari, spre deosebire de concurenți precum Habasit, care acoperă segmente similare sub denumiri proprii. Sistemele de cuplare ZipLink permit înlocuirea rapidă a benzii fără demontarea completă a transportorului, ceea ce reduce timpul de oprire la mentenanță.
+Diferența față de o bandă transportoare generică vine din varietatea de structuri din aceeași gamă — de la benzi omogene Volta, ușor de curățat și potrivite pentru igienă alimentară, la benzi Rapplon, curele plate de înaltă performanță pentru transmisie de putere și transport la viteze mari. Sistemele de cuplare ZipLink permit înlocuirea rapidă a benzii fără demontarea completă a transportorului, ceea ce reduce timpul de oprire la mentenanță.
 
 Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimentară — fructe, legume, produse din pește —, unde igiena și rezistența la spălare contează, dar și la transportoare industriale generale unde se caută o bandă de schimb compatibilă cu structura existentă.`,
     whyChoose: [
@@ -445,7 +445,7 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
     lastVerified: "2026-10-05",
     changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
-      {"title":"One-Stop Belt Shop – prezentare gamă completă de curele","url":"https://www.ammeraalbeltech.com/globalassets/documents/concept/one-stop-belt-shop-en.pdf","publisher":"Ammeraal Beltech","accessed":"2026-09-26"},
+      {"title":"One-Stop Belt Shop – prezentare gamă de curele","url":"https://www.ammeraalbeltech.com/globalassets/documents/concept/one-stop-belt-shop-en.pdf","publisher":"Ammeraal Beltech","accessed":"2026-09-26"},
       { title: "Ammeraal Beltech Deutschland", url: "https://www.ammeraalbeltech.com/de/", publisher: "Ammeraal Beltech", accessed: "2026-09-22" },
       { title: "Ammeraal Beltech Italia", url: "https://www.ammeraalbeltech.com/it/", publisher: "Ammeraal Beltech", accessed: "2026-09-22" },
     ],
@@ -455,11 +455,11 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
     name: "Noark Electric",
     overview: `Noark Electric este un producător de echipamente electrice de joasă tensiune, parte din grupul chinez Chint, unul dintre marii furnizori mondiali de soluții energetice, cu producție în 16 țări. Gama acoperă întreruptoare automate în aer (ACB) seria Ex9A16N, întreruptoare turnate (MCCB), miniîntreruptoare (MCB), dispozitive diferențiale (RCD și RCBO), contactoare modulare și echipamente de distribuție pentru joasă, medie și înaltă tensiune. Putem oferta din toată această gamă pentru tablouri electrice industriale sau de clădire.
 
-Seria Ex9A16N de întreruptoare automate în aer acoperă curenți nominali de la 630 până la 1600A, în variante fixe (F) sau debroșabile (D/O), cu unități de declanșare digitale SU3.0, SU4.0 și SU5.0 și protecție LSI (long-time, short-time, instantaneous) — funcții comparabile cu ce oferă concurenți precum Schneider Electric pe segmentul de întreruptoare de tablou general. Gama completă de protecție la supratensiune (SPD) și de separatoare de sarcină permite echiparea unui tablou electric dintr-o singură gamă de produse.
+Seria Ex9A16N de întreruptoare automate în aer acoperă curenți nominali de la 630 până la 1600A, în variante fixe (F) sau debroșabile (D/O), cu unități de declanșare digitale SU3.0, SU4.0 și SU5.0 și protecție LSI (long-time, short-time, instantaneous). Gama de protecție la supratensiune (SPD) și de separatoare de sarcină permite echiparea unui tablou electric dintr-o singură gamă de produse.
 
-Pentru România, unde Noark are deja o filială la București, gama are sens la tablouri electrice pentru clădiri comerciale, centre logistice sau proiecte fotovoltaice, acolo unde se caută o alternativă la mărcile consacrate de aparataj de joasă tensiune.`,
+Pentru România, unde Noark are deja o filială la București, gama are sens la tablouri electrice pentru clădiri comerciale, centre logistice sau proiecte fotovoltaice.`,
     whyChoose: [
-      "Gamă completă de aparataj de joasă tensiune — de la miniîntreruptoare la întreruptoare automate de 1600A",
+      "Gamă de aparataj de joasă tensiune — de la miniîntreruptoare la întreruptoare automate de 1600A",
       "Unități de declanșare digitale SU3.0-SU5.0 cu protecție LSI pe seria Ex9A16N",
       "Parte din grupul Chint, cu producție în 16 țări și rețea globală de distribuție",
       "Variante fixe și debroșabile pe seria de întreruptoare automate în aer",
@@ -795,7 +795,7 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
       "Motoare tambur cu motor și reductor integrate în interiorul tamburului, pentru mai puține piese expuse",
       "Peste 60 de ani de producție de componente pentru transportoare cu bandă, din 1962",
       "Role motorizate seriile RDR și EPS pentru linii de unit handling fără arbore comun",
-      "Gamă completă de componente bulk handling — role, idlere, curățătoare, separatoare magnetice",
+      "Gamă de componente bulk handling — role, idlere, curățătoare, separatoare magnetice",
       "Rețea de 18 companii de producție și vânzare la nivel mondial",
     ],
     keyProducts: [
@@ -1198,7 +1198,7 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
       "Peste 16.000 de referințe de scule, de la chei dinamometrice la mobilier modular de atelier",
       "Servicii proprii de etalonare pentru chei dinamometrice și instrumente de măsură",
       "Linii de mobilier modular de atelier (RSC55, RSC50 2.0, C45PRO 2.0) pentru organizarea sculelor",
-      "Gamă completă pentru service auto, mecanică industrială și artizanat",
+      "Gamă pentru service auto, mecanică industrială și artizanat",
       "Peste un secol de fabricație de scule, din 1923 până la gama actuală",
     ],
     keyProducts: [

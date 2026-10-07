@@ -14,7 +14,7 @@ Pentru instalațiile din România, gama Dataforth are sens acolo unde un integra
       "Precizie de ±0,03% la modulele SCM5B, relevantă pentru bucle de măsură unde eroarea de condiționare contează",
       "Variante DSCA și DSCT certificate ATEX, montabile în zone cu risc de explozie fără condiționare suplimentară",
       "Sistemul MAQ20 certificat UL pentru locații periculoase, potrivit pentru petrochimie și rafinării",
-      "Gamă completă de la modul individual la sistem de achiziție de date, fără schimbarea furnizorului pe parcursul proiectului",
+      "Gamă de la modul individual la sistem de achiziție de date, fără schimbarea furnizorului pe parcursul proiectului",
     ],
     keyProducts: [
       { name: "Module de Condiționare a Semnalului Seria SCM5B", description: "Module industriale cu izolare prin transformator pe trei căi, montate pe șină DIN sau backplane. Acoperă 19 familii și peste 250 de modele, pentru semnale de temperatură (termocuplu, RTD), tensiune, curent și frecvență, cu precizie tipică de ±0,03%. Izolarea galvanică separă complet partea de câmp de partea de control, protejând automatul programabil de supratensiuni și zgomot indus pe cablaj." },
@@ -81,7 +81,7 @@ Pentru instalațiile industriale din România, gama Kübler are sens la retehnol
       "Rezoluție de până la 36.000 impulsuri pe rotație la seria standard Sendix 5000",
       "Variante certificate ATEX/IECEx pentru zone cu risc de explozie, disponibile pe mai multe familii de encodere",
       "Encodere de siguranță funcțională SIL2/SIL3 pentru aplicații unde oprirea corectă a mișcării e critică",
-      "Gamă completă de tehnică de transmisie — inele colectoare, convertoare de semnal, module I/O — pe lângă encodere",
+      "Gamă de tehnică de transmisie — inele colectoare, convertoare de semnal, module I/O — pe lângă encodere",
     ],
     keyProducts: [
       { name: "Encodere Incrementale Seria Sendix (2400, KIH40, 5000)", description: "Familie de encodere incrementale în trei clase dimensionale: Sendix 2400 (Ø24mm, până la 1024 ppr, ax sau ax gol până la 6mm), Sendix KIH40 (Ø36-40mm, până la 3600 ppr, carcasă de plastic disponibilă) și Sendix 5000 (Ø50-70mm, până la 36.000 ppr, ax gol până la 25,4mm). Ieșiri HTL sau TTL, temperatură de lucru între -40°C și +105°C." },
@@ -214,7 +214,7 @@ Ce diferențiază STAHL CraneSystems în categoria echipamentelor de ridicare es
 Pentru instalațiile din România, gama STAHL are sens la manipularea sarcinilor în petrochimie, energie, industrie navală și metalurgie, acolo unde un palan sau vinci obișnuit nu poate fi montat din cauza clasificării zonei ca fiind cu risc de explozie.`,
     whyChoose: [
       "Specializare pe tehnică de ridicare cu protecție la explozie, cu variante în execuție Ex pentru mai multe serii, inclusiv AS 7 și SWH 8",
-      "Gamă completă de la palan simplu la instalație completă de macara prin sistemul modular CraneKits",
+      "Gamă de la palan simplu la instalație completă de macara prin sistemul modular CraneKits",
       "Palane cu lanț din seria ST, alături de vinciuri cu cablu și componente de macara",
       "Vinciuri cu cablu seria SH și AS 7, inclusiv variantă Ex pentru zone clasificate",
       "Parte din grupul Columbus McKinnon",
@@ -340,11 +340,11 @@ Pentru piața din România, gama Allied Motion are sens la echipamente unde un m
       "Opt familii de motoare brushless, de la 2,2 W (KinetiMax) la 260 Nm de cuplu (HeiMotion), pentru aplicații foarte diferite",
       "Seria ResMax atinge 90.000 rpm, cu peste 30.000 de ore de funcționare estimată pentru ventilatoare medicale",
       "Seria PerformeX oferă motoare slotless cu diametru exterior de 12,7-22 mm, pentru turații de peste 100.000 rpm",
-      "Gamă completă de motoare cu angrenaje — paralele, planetare, unghi drept — pe lângă motoarele brushless",
+      "Gamă de motoare cu angrenaje — paralele, planetare, unghi drept — pe lângă motoarele brushless",
       "Encodere optice proprii disponibile pentru integrare directă cu motoarele din gamă",
     ],
     keyProducts: [
-      { name: "Motoare Brushless Seria HeiMotion", description: "Familie de motoare brushless pe cadre de 40-190 mm, cu tensiuni de alimentare de la 24 la 560 VDC, cuplu de la 0,12 la 260 Nm și viteze de la 31 la 9000 rpm. Puterea acoperă domeniul de la 50 la 13.920 W, ceea ce face din HeiMotion familia cu cea mai largă acoperire de cuplu din gama producătorului, potrivită pentru echipamente industriale de putere medie și mare." },
+      { name: "Motoare Brushless Seria HeiMotion", description: "Familie de motoare brushless pe cadre de 40-190 mm, cu tensiuni de alimentare de la 24 la 560 VDC, cuplu de la 0,12 la 260 Nm și viteze de la 31 la 9000 rpm. Puterea acoperă domeniul de la 50 la 13.920 W, iar familia este potrivită pentru echipamente industriale de putere medie și mare." },
       { name: "Motoare Brushless Seria Quantum NEMA / Quantum X", description: "Quantum NEMA: motoare brushless pe cadre de 54-199 mm, cu tensiuni de 24, 40, 130 sau 300 V, cuplu de la 0,1 la 11,1 Nm și viteze de până la 13.800 rpm. Quantum X: cadre de 36-127 mm, aceleași tensiuni, cuplu de la 0,1 la 15 Nm (cuplu de blocare) și viteze de până la 30.746 rpm. Gândite pentru integrare directă în echipamente proiectate deja pe standardul de montaj NEMA, fără adaptare mecanică suplimentară a cadrului motorului." },
       { name: "Motoare de Turație Foarte Mare Seriile ResMax și PerformeX", description: "ResMax este un motor brushless DC de 24V, 5 mNm și 46W, cu turație de până la 90.000 rpm, dezvoltat pentru ventilatoare medicale cu peste 30.000 de ore de funcționare estimată. PerformeX coboară diametrul la 12,7-22 mm exterior, cu cuplu de 8,5-30,9 mNm și turații de până la 101.600 rpm, pentru aplicații unde gabaritul motorului e critic." },
       { name: "Motoare Compacte Seriile EnduraMax și KinetiMax", description: "EnduraMax acoperă cadre de 75 și 95 mm, cu tensiuni de 12, 24 sau 48 V, cuplu de 0,2-1,9 Nm și putere de 85-470 W. KinetiMax coboară la cadre de 24-68 mm, tensiuni de 6-24 V și cuplu de 5-170 mNm, pentru aplicații compacte de precizie; seria KinetiMax HPD are cadre de 62-125 mm și tensiuni de 14-27 V." },

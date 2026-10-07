@@ -144,7 +144,7 @@ Pentru România, Waterous înseamnă acces la pompe pentru retrofit de autospeci
     headquarters: "Wertheim, Germania",
     overview: `Vacuubrand este un producător german de pompe și sisteme de vid, cu sediul la Wertheim, specializat în pompe cu diafragmă, pompe cu șurub uscate, pompe cu paletă rotativă și sisteme de control al vidului pentru laboratoare și industrie. Din gama Vacuubrand putem oferta pompe compacte pentru evaporare rotativă, filtrare și distilare, precum și controlere de vid pentru integrare în instalații existente.
 
-Spre deosebire de pompele de vid cu ulei clasice, gama Vacuubrand pune accent pe soluții fără ulei — pompele cu diafragmă seria PC VARIO select și pompele cu șurub VACUU·PURE — potrivite unde contaminarea probei sau a mediului de proces trebuie evitată. Producătorul oferă și variante certificate ATEX pentru zone cu risc de explozie și servicii de calibrare acreditate DAkkS. În categoria pompelor de vid industrial, Vacuubrand se compară cu Busch Vacuum Solutions, mai ales la pompele cu șurub uscate.
+Spre deosebire de pompele de vid cu ulei clasice, gama Vacuubrand pune accent pe soluții fără ulei — pompele cu diafragmă seria PC VARIO select și pompele cu șurub VACUU·PURE — potrivite unde contaminarea probei sau a mediului de proces trebuie evitată. Producătorul oferă și variante certificate ATEX pentru zone cu risc de explozie și servicii de calibrare acreditate DAkkS.
 
 Pentru laboratoare și instalații pilot din România, Vacuubrand înseamnă acces la pompe compacte, cu întreținere redusă, pentru chimie analitică, biofarma sau energii regenerabile, acolo unde vidul curat fără ulei contează mai mult decât debitul maxim.`,
     whyChoose: [

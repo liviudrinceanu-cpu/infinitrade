@@ -617,7 +617,7 @@ Apoi au sistemele de monitorizare - indicatori vizuali/electrici saturație filt
     whyChoose: [
       'Producător specializat în filtrare hidraulică și monitorizarea contaminării fluidelor',
       'Valori beta determinate conform ISO 16889 - se confirmă pe cod, din fișa tehnică',
-      'Gamă completă filtrare - return, pressure, suction, off-line, breather, toate debite',
+      'Gama cuprinde filtrare - return, pressure, suction, off-line, breather, toate debite',
       'Condition monitoring - senzori particule online, indicatori saturație, data logging',
       'Presiunea de colaps și capacitatea de retenție depind de elementul filtrant - se confirmă pe cod',
       'Fișe tehnice oficiale pentru dimensionarea corectă și alegerea gradului de filtrare'
@@ -1034,7 +1034,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - gradul de protecție (IP67
     faq: [
       {
         "q": "Ce diferență este între conectorii M12 și M23 de la Murr Elektronik?",
-        "a": "M12 este conectorul rotund cel mai folosit în automatizări, disponibil în variante metalice și din plastic, pentru semnal și pentru alimentare. M23 este mai mare și acoperă curenți și numere de pini superioare, folosit la motoare sau echipamente cu putere mai mare. Alegerea depinde de curentul nominal necesar și de spațiul de montaj disponibil pe echipament."
+        "a": "M12 este un conector rotund folosit frecvent în automatizări, disponibil în variante metalice și din plastic, pentru semnal și pentru alimentare. M23 este mai mare și acoperă curenți și numere de pini superioare, folosit la motoare sau echipamente cu putere mai mare. Alegerea depinde de curentul nominal necesar și de spațiul de montaj disponibil pe echipament."
       },
       {
         "q": "Ce este sistemul Cube67 de la Murr Elektronik și când îl aleg?",
@@ -1073,7 +1073,7 @@ Caracteristicile funcționale (reglaje, alarme, filtrare, siguranță) diferă p
     whyChoose: [
       'Experiență de peste 110 ani — compania a fost înființată în 1906',
       'Durabilitate ridicată - echipamente gândite pentru utilizare industrială zilnică pe termen lung',
-      'Gamă completă profesional - de la aspiratoare portabile la mașini ride-on și sisteme autonome',
+      'Gamă profesională - de la aspiratoare portabile la mașini ride-on și sisteme autonome',
       'Eficiență operațională — consumurile depind de model și se confirmă din fișa tehnică',
       'Service și piese de schimb — disponibilitatea se confirmă separat cu producătorul',
       'Inovație continuă - HEPA filtration, eco-mode, telemetrie IoT, autonomous cleaning'
@@ -1249,7 +1249,7 @@ Parametrii fiecărui produs sunt cei din documentația tehnică a producătorulu
     whyChoose: [
       '95+ ani experiență pneumatică - de la aviație la automatizări industriale moderne',
       'Documentație tehnică publică pentru fiecare serie, cu parametri declarați de producător',
-      'Gamă completă sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
+      'Gamă pentru sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
       'Tehnologie avansată - valve proporționale, motion control, IO-Link, bus industrial',
       'Durabilitate ridicată - cilindri ISO cu testare extinsă la oboseală, conform producătorului',
       'Coduri de produs și documentație publicate de producător'
@@ -1408,7 +1408,7 @@ Parametrii fiecărui produs sunt cei din documentația tehnică a producătorulu
     founded: 1916,
     headquarters: 'Tokyo, Japonia',
     employees: '30,000+',
-    overview: `NSK (Nippon Seiko) e unul dintre cei mai mari și respectați producători mondiali de rulmenți de precizie și sisteme liniare - peste 100 ani de inovație japoneză în tribologie și control fricțiune. De la înființarea companiei în 1916 până la rulmenți ceramici hibrizi pentru sateliți și sisteme liniare ultra-precise pentru semiconductor manufacturing azi, NSK a fost mereu în fruntea tehnologiei bearing. Rulmenții NSK se folosesc frecvent în aplicații de la motoare electrice industriale la ax principal mașini CNC.
+    overview: `NSK (Nippon Seiko) e producător mondial de rulmenți de precizie și sisteme liniare - peste 100 ani de inovație japoneză în tribologie și control fricțiune. De la înființarea companiei în 1916 până la rulmenți ceramici hibrizi pentru sateliți și sisteme liniare ultra-precise pentru semiconductor manufacturing azi, NSK dezvoltă tehnologie bearing. Rulmenții NSK se folosesc frecvent în aplicații de la motoare electrice industriale la ax principal mașini CNC.
 
 Gama industrială NSK acoperă tot spectrul bearings: rulmenți radiali cu bile (deep groove, angular contact, self-aligning), rulmenți cu role (cilindrice, conice, sferice, ace), rulmenți axiali (bile, role), unități rulment UC/UCP/UCFL pentru arbori (insertabile în carcasă cu prindere excentrică), rulmenți de precizie (ABEC-7/ABEC-9 pentru machine tools), rulmenți ceramici hibrizi (bile Si3N4 pentru viteză extremă și medii corozive). Apoi sunt sistemele liniare: ghidaje liniare (LH/LS series cu bile recirculate), șuruburi cu bile (HTF series precizie C3-C7), actuatoare liniare (Monocarrier).
 
@@ -1416,7 +1416,7 @@ Un element notabil este atenția la detalii manufacturing - toleranțe, curățe
     whyChoose: [
       'Experiență 100+ ani - de la auto industry la aerospace și semiconductor manufacturing',
       'Rulmenți de precizie pentru mașini-unelte, cu clase de precizie conform standardelor ISO',
-      'Gamă completă bearings - de la commodity radial ball la super-precision ceramic hybrid',
+      'Gamă bearings - de la commodity radial ball la super-precision ceramic hybrid',
       'Durabilitate - durata de viață se dimensionează pe fiecare aplicație, conform datelor producătorului',
       'Tehnologie avansată - unsori LG series, etanșări non-contact, coatings tribologice',
       'Support tehnic din partea rețelei - ingineri aplicații, training, failure analysis'

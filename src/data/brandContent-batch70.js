@@ -375,7 +375,7 @@ Ce diferențiază SAER pe piața pompelor italiene e diversitatea configurațiil
 
 Pentru o fermă, o stație de irigații sau un integrator din România, gama SAER înseamnă acces la pompe dimensionate pe aplicație — de la pompa rezidențială simplă până la pompa submersibilă de foraj de 14 inch — cu opțiunea de tablouri de comandă și invertoare pentru reglarea performanței în funcție de consum.`,
     whyChoose: [
-      "Gamă completă de configurații — pompe în linie, cu carcasă despicată, multistadiu și centrifuge multicelulare",
+      "Gamă de configurații — pompe în linie, cu carcasă despicată, multistadiu și centrifuge multicelulare",
       "Pompe submersibile pe diametre de la 4 la 14 inch, pentru foraje de diverse adâncimi și debite",
       "Soluții speciale pentru eficiență energetică și desalinizare, dincolo de pompele standard",
       "Tablouri de comandă și invertoare proprii pentru reglarea performanței pompei în funcție de consum",

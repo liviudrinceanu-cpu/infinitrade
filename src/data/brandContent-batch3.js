@@ -360,7 +360,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     founded: 1907,
     headquarters: 'Göteborg, Suedia',
     employees: '40,000+',
-    overview: `SKF înseamnă rulmenți de încredere de peste 115 ani. Compania suedeză fondată în 1907 la Göteborg este unul dintre cei mai mari producători de rulmenți cu bile și role la nivel global — cu fabrici pe mai multe continente. Dar SKF a evoluat mult dincolo de rulmenți simpli. Astăzi vorbim de soluții complete de mentenanță predictivă, sisteme de lubrifiere automată, etanșări de înaltă performanță, case de rulmenți, sisteme de aliniere arbori.
+    overview: `SKF înseamnă rulmenți de încredere de peste 115 ani. Compania suedeză fondată în 1907 la Göteborg este un producător global de rulmenți cu bile și role — cu fabrici pe mai multe continente. Dar SKF a evoluat mult dincolo de rulmenți simpli. Astăzi vorbim de soluții complete de mentenanță predictivă, sisteme de lubrifiere automată, etanșări de înaltă performanță, case de rulmenți, sisteme de aliniere arbori.
 
 Un punct forte al SKF este digitalizarea mentenanței: un rulment defect la un ventilator industrial poate opri întreaga instalație, iar o oprire neplanificată are un cost operațional ridicat. Un senzor de vibrații din gama SKF IMx poate semnala din timp degradarea unui rulment, ceea ce permite planificarea înlocuirii în cadrul unei revizii programate, în loc de o intervenție de urgență.
 
@@ -497,7 +497,7 @@ Gama de produse cuprinde nivel, debit, presiune, temperatură și analiză a lic
 
 Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrumentului, care poate semnala când este nevoie de întreținere. Verificarea cu Heartbeat nu înlocuiește o calibrare certificată, iar condițiile exacte de aplicare se confirmă din documentația producătorului.`,
     whyChoose: [
-      'Gamă completă de instrumente de proces; precizia este indicată în fișa tehnică a fiecărui model',
+      'Gamă de instrumente de proces; precizia este indicată în fișa tehnică a fiecărui model',
       'Tehnologie Heartbeat pentru diagnosticare și verificare a instrumentului în proces',
       'Certificări precum ATEX, IECEx, SIL, FDA și 3-A, disponibile pe anumite modele, conform documentației producătorului',
       'Documentație tehnică publicată de producător pentru fiecare serie'

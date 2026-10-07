@@ -5,14 +5,14 @@ export const brandContentBatch57 = {
     name: "Lutz",
     overview: `Lutz este un nume german specializat în pompe pentru golirea și transferul lichidelor din butoaie și containere IBC, parte din grupul Lutz care include și Lutz-Jesco pentru tehnica de dozare. Gama de bază acoperă pompe de butoi cu motor electric, pneumatic sau pe acumulator, completate de pompe cu diafragmă acționate cu aer comprimat, pompe centrifuge și debitmetre pentru monitorizarea transferului. Pentru piața din România, Lutz înseamnă acces la pompe portabile pentru lichide agresive, inflamabile sau corozive, acolo unde o pompă fixă de proces nu e practică sau nu poate fi mutată între recipiente diferite.
 
-Ce diferențiază gama Lutz e varietatea de motoare interschimbabile cu același tub de pompă — de la motorul universal MI 4 pentru lichide apoase, la seriile ME II certificate ATEX pentru zone cu risc de explozie, până la motoarele pe acumulator B1/B2/B3 pentru lucru fără sursă fixă de curent. Motoarele din seriile ME II, MD1xL și MD2xL sunt indicate de producător ca fiind cu protecție la explozie, conform directivelor ATEX. În aceeași categorie de pompe de butoi concurează și Flux, pe segmentul chimic și industrial.
+Ce diferențiază gama Lutz e varietatea de motoare interschimbabile cu același tub de pompă — de la motorul universal MI 4 pentru lichide apoase, la seriile ME II certificate ATEX pentru zone cu risc de explozie, până la motoarele pe acumulator B1/B2/B3 pentru lucru fără sursă fixă de curent. Motoarele din seriile ME II, MD1xL și MD2xL sunt indicate de producător ca fiind cu protecție la explozie, conform directivelor ATEX.
 
 Pentru un cumpărător din România, Lutz are sens unde transferul se face din butoaie de 200 l sau IBC-uri direct la punctul de utilizare — laboratoare, producție sau depozite chimice, unde portabilitatea și certificarea ATEX contează mai mult decât debitul mare.`,
     whyChoose: [
       "Motoare interschimbabile pe același tub de pompă — de la MI universal la ME II certificat ATEX, fără a schimba întregul ansamblu",
       "Variante pe acumulator (B1, B2, B3) pentru pompare portabilă fără sursă de alimentare fixă, utile pe șantier sau în teren",
       "Variante cu protecție la explozie conform directivelor ATEX (ME II, MD1xL, MD2xL), pentru zone cu risc de explozie",
-      "Gamă completă pentru un singur furnizor — pompe de butoi, pompe cu diafragmă, pompe centrifuge și debitmetre din aceeași familie",
+      "Gamă de la un singur furnizor — pompe de butoi, pompe cu diafragmă, pompe centrifuge și debitmetre din aceeași familie",
       "Concepute pentru lichide dificile — corozive, inflamabile sau cu vâscozitate ridicată, tipice industriei chimice"
     ],
     keyProducts: [
@@ -69,7 +69,7 @@ Pentru un cumpărător din România, Lutz are sens unde transferul se face din b
     headquarters: "Maulbronn, Germania",
     overview: `FLUX-GERÄTE GmbH este producătorul german din Maulbronn cunoscut pentru pompele de butoi și container electrice și pneumatice, cu peste 75 de ani de activitate în transferul de lichide industriale. Gama de bază, seria F/FP 400, acoperă pompe fără etanșare (sealless, ex. F 424) și pompe cu etanșare mecanică (ex. F 430) pentru lichide de la apoase la vâscoase, completată de sisteme mobile de golire VISCOFLUX pentru vâscozități extreme și pompe cu șurub excentric VISCOPOWER. Pentru piața din România, Flux înseamnă o alternativă directă la Lutz pe segmentul pompelor de butoi, cu o gamă orientată explicit spre chimie și farmacie.
 
-Ce diferențiază Flux e plaja largă de vâscozitate acoperită: seria F 430 pompează până la 1200 cPs cu o înălțime de pompare de până la 98 ft (circa 30 m) și debit maxim de 63 GPM (aprox. 240 l/min), pe imersii standard de 700-1500 mm, disponibilă în polipropilenă, PVDF, inox, aluminiu sau Hastelloy C. Sistemele VISCOPOWER și VISCOFLUX merg mult mai departe, până la 100.000, respectiv 500.000 mPas, pentru golirea completă a butoaielor cu produse foarte vâscoase — un segment unde concurează direct cu Lutz.
+Ce diferențiază Flux e plaja largă de vâscozitate acoperită: seria F 430 pompează până la 1200 cPs cu o înălțime de pompare de până la 98 ft (circa 30 m) și debit maxim de 63 GPM (aprox. 240 l/min), pe imersii standard de 700-1500 mm, disponibilă în polipropilenă, PVDF, inox, aluminiu sau Hastelloy C. Sistemele VISCOPOWER și VISCOFLUX merg mult mai departe, până la 100.000, respectiv 500.000 mPas, pentru golirea completă a butoaielor cu produse foarte vâscoase.
 
 Pentru un cumpărător din România, Flux are sens unde compatibilitatea chimică a materialului de contact contează la fel de mult ca debitul — laboratoare, linii de îmbuteliere sau stații de dozare din industria cosmetică și alimentară.`,
     whyChoose: [
@@ -130,7 +130,7 @@ Pentru un cumpărător din România, Flux are sens unde compatibilitatea chimic�
     headquarters: "Grand Terrace, California, SUA",
     overview: `Wilden este producătorul american care a inventat pompa cu membrană operată pneumatic (AODD) în 1955 și face astăzi parte din grupul PSG (Pump Solutions Group, Dover Corporation). Gama principală, seria Pro-Flo, acoperă modele clampate (P.025 până la P8) și modele cu flanșe boltate (P100 până la P1500 în variantă plastic, P220-P830 în variantă metal), pentru transfer de lichide fără etanșare dinamică, direct din vase, cisterne sau linii de proces. Pentru România, Wilden înseamnă acces la o tehnologie de pompare fără rulmenți sau etanșări rotative — utilă acolo unde întreținerea trebuie să fie simplă și rapidă.
 
-Ce diferențiază seria Pro-Flo SHIFT, versiunea avansată a gamei, e sistemul de distribuție a aerului care aduce, conform producătorului, până la 60% economie de energie și 34% debit mai mare, față de tehnologiile concurente. Alături de seria standard, Wilden oferă și pompe specializate — Saniflo pentru industria alimentară și farmaceutică, variante FDA, de înaltă presiune sau pentru minerit — plus certificări FDA, 3-A, EHEDG pentru aplicații igienice și CSA/UL pentru zone speciale. În aceeași categorie AODD, Wilden concurează cu Sandpiper, tot din portofoliul unor grupuri industriale americane mari.
+Ce diferențiază seria Pro-Flo SHIFT, versiunea avansată a gamei, e sistemul de distribuție a aerului care aduce, conform producătorului, până la 60% economie de energie și 34% debit mai mare, față de tehnologiile concurente. Alături de seria standard, Wilden oferă și pompe specializate — Saniflo pentru industria alimentară și farmaceutică, variante FDA, de înaltă presiune sau pentru minerit — plus certificări FDA, 3-A, EHEDG pentru aplicații igienice și CSA/UL pentru zone speciale.
 
 Pentru un cumpărător din România, Wilden are sens acolo unde lichidul conține particule solide, e abraziv sau necesită auto-amorsare fără pompă centrifugală suplimentară — transfer de vopsele, adezivi, nămoluri sau produse alimentare vâscoase, în instalații unde oprirea pentru mentenanță trebuie minimizată.`,
     whyChoose: [
@@ -202,7 +202,7 @@ Ce diferențiază gama Sandpiper e diversitatea de tipuri de supapă pe aceeași
 
 Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geometria supapei potrivită conținutului solid al lichidului — nămoluri, vopsele, adezivi sau chimicale cu particule — și unde certificarea CSA contează pentru proiecte industriale.`,
     whyChoose: [
-      "Gamă completă de tipuri de supapă (bilă, clapetă, poppet) pe aceeași platformă, aleasă după conținutul de solide al lichidului",
+      "Gamă de tipuri de supapă (bilă, clapetă, poppet) pe aceeași platformă, aleasă după conținutul de solide al lichidului",
       "Model Heavy-Duty dedicat suspensiilor abrazive — seria HDF/SPB, cu debite de până la 310 gpm",
       "Serie electrică Cognito (EODD) pentru eficiență energetică superioară față de acționarea pneumatică clasică",
       "Variante certificate CSA (AODD și GODD) pentru aplicații petrol și gaze, conform producătorului",
@@ -263,7 +263,7 @@ Pentru un cumpărător din România, Sandpiper are sens unde trebuie aleasă geo
     headquarters: "Tokyo, Japonia",
     overview: `Yamada este un producător cu rădăcini japoneze, activ din 1905, cunoscut pentru pompele pneumatice cu membrană (AODD) din seria NDP, cu sediul central la Tokyo și cu filiala Yamada America (înființată în 1986) la Arlington Heights, Illinois. Gama de bază acoperă de la NDP-5 (port de 0,25", 3,4 gpm) până la NDP-80/800 (port de 3", 305 gpm), completată de seria de înaltă puritate DP-F (DP-5F până la DP-38F) pentru aplicații unde contaminarea trebuie evitată strict. Pentru piața din România, Yamada e o alternativă la Wilden și Sandpiper pe segmentul pompelor AODD, cu accent pe puritate și certificări.
 
-Ce diferențiază seria DP-F e electro-polizarea și designul dedicat industriilor cu cerințe FDA, farmaceutice sau electronice, unde reziduurile de suprafață pot compromite produsul final. Gama standard NDP oferă și variante SolidPRO pentru solide, pompe de înaltă presiune și modele certificate UL/CSA pentru piața nord-americană, cu certificare ISO 9001 la nivel de companie. În aceeași categorie de pompe AODD japoneze/americane, Yamada concurează cu Wilden și Sandpiper, ambele acoperind game de dimensiuni similare.
+Ce diferențiază seria DP-F e electro-polizarea și designul dedicat industriilor cu cerințe FDA, farmaceutice sau electronice, unde reziduurile de suprafață pot compromite produsul final. Gama standard NDP oferă și variante SolidPRO pentru solide, pompe de înaltă presiune și modele certificate UL/CSA pentru piața nord-americană, cu certificare ISO 9001 la nivel de companie.
 
 Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichidului transferat contează la fel de mult ca debitul — industrie farmaceutică, electronică, cosmetică sau alimentară — și acolo unde certificările UL/CSA sunt cerute explicit de proiect.`,
     whyChoose: [
@@ -332,7 +332,7 @@ Pentru un cumpărător din România, Yamada are sens acolo unde puritatea lichid
     headquarters: "Witten, Germania",
     overview: `Kamat este un producător german specializat exclusiv în tehnologie de înaltă presiune (pompe cu plunger, unități de pompare, supape, scule de jet, duze și filtre), cu sediul la Witten și activitate din 1974. Gama acoperă de la modelul compact K100-3 (2000 bar, 6,8 l/min) până la treapta cea mai amplă din portofoliu, K300000-5G (1000 bar, peste 10.500 l/min), cu trepte intermediare precum K8000-3G, K18000-3G sau K45000-3G. Pentru piața din România, Kamat înseamnă acces la pompe de proces la presiuni pe care o pompă centrifugală sau cu șurub nu le poate atinge.
 
-Ce diferențiază gama Kamat e amploarea plajei de presiune și putere: modelele triplex (3 pistoane) acoperă până la circa 3500 bar, iar cele quintuplex (5 pistoane) merg până la debite de peste 10.000 l/min la presiuni mai moderate, cu putere instalată de la 15 până la 3000 kW pe întreaga gamă. Certificarea ISO 9001:2015 acoperă managementul calității în fabricație. Pe segmentul pompelor de înaltă presiune, Kamat concurează cu producători precum Uraca sau Hammelmann, ambii germani, pe aplicații similare de curățare industrială și testare hidrostatică.
+Ce diferențiază gama Kamat e amploarea plajei de presiune și putere: modelele triplex (3 pistoane) acoperă până la circa 3500 bar, iar cele quintuplex (5 pistoane) merg până la debite de peste 10.000 l/min la presiuni mai moderate, cu putere instalată de la 15 până la 3000 kW pe întreaga gamă. Certificarea ISO 9001:2015 acoperă managementul calității în fabricație. Pompele Kamat de înaltă presiune se folosesc la curățare industrială și testare hidrostatică.
 
 Pentru un cumpărător din România, Kamat are sens la aplicații de curățare industrială cu jet de apă la presiune foarte mare, testare hidrostatică a conductelor și recipientelor sub presiune, sau injecție de fluide în procese chimice și miniere unde presiunea de lucru depășește ce poate oferi o pompă convențională.`,
     whyChoose: [
@@ -595,7 +595,7 @@ Pentru un cumpărător din România, IMI Hydronic are sens la instalații de în
     whyChoose: [
       "Companie cu peste 125 de ani de istorie în fitinguri și robineți pentru instalații de încălzire",
       "A introdus, conform producătorului, primul robinet de echilibrare manuală din lume, în 1957",
-      "Gamă completă — robineți de echilibrare manuală (STAD/STAF) și independenți de presiune (PICV, TA-Modulator)",
+      "Gamă — robineți de echilibrare manuală (STAD/STAF) și independenți de presiune (PICV, TA-Modulator)",
       "Brand dedicat presurizării (IMI Pneumatex) pentru controlul complet al circuitului hidraulic, nu doar al debitului",
       "Domeniu larg DN 20-400 pe seria STAF/STAF-SG, cu presiuni nominale PN 16 și PN 25"
     ],

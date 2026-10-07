@@ -90,7 +90,7 @@ Gama ASYMTEK pornește de la seria Spectrum II (S2-900), sistem de dozare de pre
 
 Pentru piața din România, Nordson înseamnă acces la echipamente de dozare și tratament de suprafață pentru linii de asamblare electronică și baterii auto, unde precizia procesului contează mai mult decât viteza brută a liniei.`,
     whyChoose: [
-      "Gamă completă pe fluxul de proces — dozare, acoperire conformă și tratament de suprafață sub aceeași marcă",
+      "Gamă pe fluxul de proces — dozare, acoperire conformă și tratament de suprafață sub aceeași marcă",
       "Sisteme de dozare de precizie — seriile Spectrum II și Quantum",
       "Familie MARCH de tratament cu plasmă — pregătire de suprafață înainte de lipire sau vopsire",
       "Platforme de lipire selectivă SELECT — pentru asamblarea plăcilor electronice",
@@ -451,7 +451,7 @@ Pentru piața din România, OPW înseamnă acces la echipamente de alimentare ș
     whyChoose: [
       "OPW Fluid Transfer Group Europe — linie de produse dedicată standardelor europene",
       "Tehnologie proprie Accu-Stop™ pentru dozare precisă pe toată seria de pistoale",
-      "Gamă completă de la pistol de alimentare până la brațe de încărcare și racorduri de siguranță",
+      "Gamă de la pistol de alimentare până la brațe de încărcare și racorduri de siguranță",
       "Variante pentru benzină E0-E25 și E0-E85, precum și pistol dedicat AdBlue",
     ],
     keyProducts: [

@@ -150,7 +150,7 @@ Completează gama pompele centrifugale din familia NT (conform DIN EN 733/ISO 28
     founded: 1941,
     headquarters: "Galten, Danemarca",
     employees: "4.500+ angajați la nivel global",
-    overview: `AVK a pornit în 1941 de la ideea unui singur inginer danez, Aage Valdemar Kjær, și a ajuns astăzi unul dintre cei mai mari producători mondiali de robineți pentru rețele de apă și gaz — practic literele din numele companiei vin chiar din inițialele fondatorului. Spre deosebire de mulți producători generaliști de armături industriale, AVK s-a concentrat în principal pe infrastructura de apă, canalizare și gaz, ceea ce se vede în profunzimea gamei: vane cu sertar cu scaun elastic, vane fluture (de exemplu seria 756), clapete de sens (seria 41), vane de aer (seria 851) și hidranți.
+    overview: `AVK a pornit în 1941 de la ideea unui singur inginer danez, Aage Valdemar Kjær, și a ajuns astăzi un producător de robineți pentru rețele de apă și gaz — practic literele din numele companiei vin chiar din inițialele fondatorului. AVK s-a concentrat în principal pe infrastructura de apă, canalizare și gaz, ceea ce se vede în profunzimea gamei: vane cu sertar cu scaun elastic, vane fluture (de exemplu seria 756), clapete de sens (seria 41), vane de aer (seria 851) și hidranți.
 
 Punctul forte al AVK e vana cu sertar cu sertar elastic complet cauciucat (resilient wedge gate valve) — un design fără spații moarte unde ar putea rămâne resturi sau depuneri, cu etanșare completă la 0 bar diferență de presiune și fără scurgeri pe tijă datorită garniturilor toroidale multiple. Dimensiunile, presiunile nominale și acoperirile depind de tip și de cod; le confirmăm din fișa tehnică AVK. AVK oferă și armături pentru rețele de gaz; tipurile disponibile se confirmă pe cod.
 
@@ -1049,7 +1049,7 @@ Robineții de control cu tijă glisantă seria easy-e (tip ED/ET) sunt varianta 
 Element esențial al oricărei bucle moderne de control, poziționerele digitale FIELDVUE seria DVC transformă un robinet clasic într-un dispozitiv inteligent, cu diagnosticare de performanță prin protocol HART sau Foundation Fieldbus, permițând mentenanța predictivă în locul intervențiilor programate la interval fix. Pentru industria de proces din România, gama Fisher acoperă controlul automat al debitului și presiunii. Rețeaua globală Emerson asigură totodată acces la piese de schimb originale și la suport tehnic specializat pentru intervenții de mentenanță planificată sau de urgență pe instalații critice.`,
     whyChoose: [
       "Marcă cunoscută în automatizarea de proces — robineți de control, regulatoare și instrumentație FIELDVUE de la același producător",
-      "Gamă completă control debit și presiune — robineți de control și regulatoare de presiune de la același furnizor",
+      "Gamă control debit și presiune — robineți de control și regulatoare de presiune de la același furnizor",
       "Poziționere digitale FIELDVUE — diagnosticare de performanță prin HART sau Foundation Fieldbus pentru mentenanță predictivă",
       "Soluții dedicate zgomot și cavitație — trim special pentru aplicații cu cădere mare de presiune",
       "Rețea globală Emerson — piese de schimb și suport tehnic disponibile prin filiale multiple",
@@ -1172,7 +1172,7 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
     name: "Gardner Denver",
     founded: 1859,
     headquarters: "Quincy, Illinois, SUA",
-    overview: `Gardner Denver are una dintre cele mai lungi istorii din industria de aer comprimat și pompare din Statele Unite, cu rădăcini care merg până în 1859, și a acumulat de-a lungul timpului competențe în suflante și compresoare industriale. Astăzi face parte din Ingersoll Rand, dar linia de produse Gardner Denver pentru suflante și compresoare industriale rămâne un nume de referință în fabricile care au nevoie de aer sau gaz de proces sub presiune moderată.
+    overview: `Gardner Denver are o istorie în industria de aer comprimat și pompare din Statele Unite, cu rădăcini care merg până în 1859, și a acumulat de-a lungul timpului competențe în suflante și compresoare industriale. Astăzi face parte din Ingersoll Rand, dar linia de produse Gardner Denver pentru suflante și compresoare industriale rămâne prezentă în fabricile care au nevoie de aer sau gaz de proces sub presiune moderată.
 
 Suflantele Roots cu lobi seria Sutorbilt și Duroflow sunt varianta clasică, robustă, pentru transport pneumatic, aerare la stațiile de epurare sau alimentare cu aer pentru procese industriale, cu debite și presiuni care depind de model; de exemplu, Sutorbilt Legend DSL ajunge la aproximativ 5.100 m³/h și la presiuni de până la circa 1 bar. Pentru eficiență energetică superioară la aceleași aplicații, gama de suflante cu șurub CycloBlower HE folosește compresie internă și este concepută pentru eficiență energetică ridicată. Compresoarele cu șurub Electra-Saver II (cu ulei, de la 40 la 300 CP, adică aproximativ 30–224 kW) și compresoarele fără ulei EnviroAire completează gama pentru aer comprimat de uz general.
 
@@ -1332,7 +1332,7 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
       "Robineți pentru fabricația de semiconductori — gamă dedicată (marca KITZ SCT)",
       "Compatibilitate JIS și ANSI — flexibilitate pentru proiecte cu standarde de proiectare diferite",
       "Gamă de peste 90.000 de tipuri de produse, conform producătorului",
-      "Gamă completă de acționări — manuale, electrice și pneumatice integrate din fabrică"
+      "Gamă de acționări — manuale, electrice și pneumatice integrate din fabrică"
     ],
     keyProducts: [
       {
@@ -1459,7 +1459,7 @@ Pentru industria de proces din România — rafinării, centrale termice, indust
     whyChoose: [
       "Peste 135 de ani de expertiză în etanșare statică",
       "Robineți cu piston fără elastomeri — soluție unică pentru izolare la temperaturi și presiuni extreme",
-      "Gamă completă complementară — garnituri, robineți de izolare și indicatoare de nivel din același grup",
+      "Gamă complementară — garnituri, robineți de izolare și indicatoare de nivel din același grup",
       "Materiale pentru condiții severe — presiunea și temperatura admisă depind de gradul ales",
       "Indicatoare de nivel pentru cazane și recipiente sub presiune — vizibilitate directă a nivelului de lichid",
       "Prezență globală — grupul KLINGER este prezent în 60 de țări"
@@ -2032,7 +2032,7 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR ofer
       "Aproape două secole de istorie industrială continuă — puțini producători de pompe pot arăta o asemenea continuitate",
       "Pompe API 610 pentru servicii critice — destinate rafinăriilor, petrochimiei și energiei",
       "Pompe submersibile pentru apă uzată — ABS XFP, pentru ape uzate cu solide și materiale fibroase",
-      "Gamă completă pentru epurare — pompe, mixere și sisteme de aerare de la același furnizor",
+      "Gamă pentru epurare — pompe, mixere și sisteme de aerare de la același furnizor",
       "Rezistență la abraziune și coroziune — soluții dedicate pentru celuloza și hârtie, fluide dificile",
       "Rețea internațională de service — piese de schimb și suport tehnic prin filiale ale producătorului"
     ],

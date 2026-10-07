@@ -582,7 +582,7 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
       "Controlerele Intuition-9 și Intuition-6 leagă direct măsurătoarea de proces de comanda pompei",
       "Seria EHE ajunge la un turndown de 1800:1, util la debite foarte variabile",
       "Fabricație certificată ISO 9001",
-      "Gamă completă pentru tratarea apei — turnuri de răcire, cazane, osmoză inversă, piscine"
+      "Gamă pentru tratarea apei — turnuri de răcire, cazane, osmoză inversă, piscine"
     ],
     keyProducts: [
       { name: "Seria IX", description: "Pompă dozatoare cu diafragmă acționată de motor, control digital, cu debit de până la 80 gph (300 l/h) și presiune maximă de 247 psi. Parametrii exacți se confirmă pe cod, din documentația Walchem." },
@@ -705,7 +705,7 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
     whyChoose: [
       "Producție integral realizată în Italia, cu peste 40 de ani de activitate declarați",
       "Valva VVS oferă variante cu două și trei căi, cu certificare ATEX pentru zone cu risc de explozie",
-      "Gamă completă de valve mixproof pentru separarea strictă a circuitelor de produs",
+      "Gamă de valve mixproof pentru separarea strictă a circuitelor de produs",
       "Valve de înaltă presiune pentru aplicații speciale de proces; presiunea maximă depinde de model și se confirmă pe cod",
       "Garnituri disponibile în FKM și PTFE, pentru compatibilitate chimică extinsă"
     ],

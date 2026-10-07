@@ -15,7 +15,7 @@ Pentru un inginer de achiziții din România, Newco înseamnă acces la robineț
       "Materiale de la oțel carbon turnat sau forjat până la oțel inoxidabil și aliaje speciale",
       "Robineți cu bilă conform API 607 pentru rezistență la foc, relevanți unde siguranța la incendiu e cerută explicit",
       "Variante forjate API 602 cu bonetă sudată, pentru presiuni mari la dimensiuni mici de conductă",
-      "Gamă completă de tipuri constructive — sertar, ventil, reținere și bilă — de la același producător",
+      "Gamă de tipuri constructive — sertar, ventil, reținere și bilă — de la același producător",
     ],
     keyProducts: [
       { name: "Newco Robineți din Oțel Turnat", description: "Robineți sertar, cu ventil și de reținere din oțel carbon turnat, conform API 600 și ASME B16.34. Dimensiuni de la 2″ la 48″, cu execuții speciale până la 72″. Clase de presiune de la 150 la 2500. Clientul trebuie să confirme tipul constructiv, dimensiunea și clasa dorită." },
@@ -326,7 +326,7 @@ Ce diferențiază Hy-Lok e acoperirea completă a lanțului de instrumentație, 
 
 Pentru un integrator de instalații de instrumentație din România, gama Hy-Lok are sens acolo unde compatibilitatea dimensională cu fitingurile existente contează, la fel ca disponibilitatea unei game complete de robineți mici pentru linii de măsură și control. Recomandăm brandul pentru proiecte din procesare chimică, rafinare sau producție de semiconductori.`,
     whyChoose: [
-      "Gamă completă de robineți de instrumentație — bilă, dop, toggle, burduf, ac și membrană",
+      "Gamă de robineți de instrumentație — bilă, dop, toggle, burduf, ac și membrană",
       "Serie CRYOT cu bilă montată pe trunion, pentru aplicații criogenice",
       "Fitinguri de compresie cu două ferule, compatibile dimensional cu conexiuni uzuale de instrumentație",
       "Certificare ISO 9001:2015 și conformitate cu standardele ASME",
@@ -392,7 +392,7 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
       "Certificat TA-Luft (2021) pentru robineți cu ventil și robineți sertar DIN și ANSI, relevant pentru limitarea emisiilor fugitive de gaz",
       "Trei variante de pană la robineții sertar — plată, ovală și rotundă — plus robineți sertar pentru dimensiuni mici",
       "Materiale de construcție de la oțel GP240GH+N la inox 1.4408",
-      "Gamă completă — fluture, sertar, ventil, reținere, bilă și filtre — de la un singur producător",
+      "Gamă — fluture, sertar, ventil, reținere, bilă și filtre — de la un singur producător",
       "Producător activ din 1982, cu sediul la Kirchheim unter Teck, Germania",
     ],
     keyProducts: [

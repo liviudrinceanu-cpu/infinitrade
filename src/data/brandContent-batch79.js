@@ -14,7 +14,7 @@ Pentru instalațiile din România, gama Jakob are sens la utilajele unde cuplaju
       "Familie largă de cuplaje cu burduf metalic — de la seria KM de uz general până la KXL pentru cupluri de până la 50.000 Nm",
       "Cuplaje sudate seria KG/KGH pentru acționări grele, cu rigiditate torsională ridicată și joc unghiular redus",
       "Variante de siguranță KSD/KSS cu limitator de cuplu, utile la protejarea transmisiei în caz de blocaj",
-      "Gamă completă de elemente de strângere mecanică pentru fixarea pieselor pe mașini-unelte CNC",
+      "Gamă de elemente de strângere mecanică pentru fixarea pieselor pe mașini-unelte CNC",
       "Componente pentru tehnică de vid — flanșe KF, ISO-K și CF, plus accesorii pentru pompe de vid",
       "Producție germană continuă din 1971, cu instrument online Coupling Finder pentru selecția rapidă a cuplajului"
     ],

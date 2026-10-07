@@ -432,7 +432,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
     whyChoose: [
       'Compatibilitatea dimensională cu alte produse se confirmă pe cod, din fișa tehnică Airtac',
       'Gamă variată de serii pentru aplicații pneumatice standard',
-      'Gamă completă: cilindri, valve, FRL, racorduri, actuatoare — acoperire largă a nevoilor de automatizare pneumatică',
+      'Gamă: cilindri, valve, FRL, racorduri, actuatoare',
       'Durata de viață depinde de serie și de condițiile de lucru; valorile se confirmă din fișa tehnică Airtac',
       'Declarațiile de conformitate (CE, RoHS, REACH) se confirmă pe cod, din documentația Airtac',
       'Gamă largă disponibilă prin canale de distribuție din UE, cu termene diferite în funcție de model',

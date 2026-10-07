@@ -18,11 +18,43 @@ import styles from './Header.module.css';
 // longer imports allBrandsIndex.js, which pulled every brandContent batch
 // into the JavaScript of every page. Regenerate both with
 // `node scripts/build-client-indexes.mjs`.
+// v38 (07.10.2026): word-by-word search. The query and the index are
+// lower-cased and stripped of diacritics; every word of the query must appear
+// in the entry (name, category, country, series names, product codes), so
+// "grundfos cr", "pompe grundfos" or "movitrac" find the right brand/series.
+// Codes are also matched with spaces/dashes/dots ignored ("cr32" = "cr 32").
+const normalizeSearch = (v) => String(v || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[®™]/g, '');
+const compact = (v) => v.replace(/[\s.\-/]+/g, '');
+const TYPE_RANK = { series: 0, brand: 1, product: 2, category: 3 };
+function rankSearch(index, query) {
+  const q = normalizeSearch(query).trim();
+  const words = q.split(/[\s,;]+/).filter(Boolean);
+  if (!words.length) return [];
+  const qc = compact(q);
+  const scored = [];
+  for (const item of index) {
+    const all = words.every((w) => item.hay.includes(w));
+    const compactHit = !all && qc.length >= 3 && compact(item.hay).includes(qc);
+    if (!all && !compactHit) continue;
+    let score = 50;
+    if (item.nameN === q) score = 0;
+    else if (item.nameN.startsWith(q)) score = 5;
+    else if (words.every((w) => item.nameN.includes(w))) score = 10;
+    else if (item.nameN.includes(words[0])) score = 20;
+    scored.push({ item, score: score + (TYPE_RANK[item.type] ?? 4) + (compactHit ? 30 : 0) });
+  }
+  scored.sort((a, b) => a.score - b.score || a.item.name.length - b.item.name.length);
+  return scored.slice(0, 8).map((s) => s.item);
+}
+
 let searchIndexPromise = null;
 const loadSearchIndex = () => {
   if (!searchIndexPromise) {
     searchIndexPromise = import('@/data/headerSearchIndex')
-      .then((m) => m.HEADER_SEARCH_INDEX.map((e) => ({ type: e.t, name: e.n, category: e.c, url: e.u, k: e.k })))
+      .then((m) => m.HEADER_SEARCH_INDEX.map((e) => {
+        const name = normalizeSearch(e.n);
+        return { type: e.t, name: e.n, category: e.c, url: e.u, nameN: name, hay: `${name}|${normalizeSearch(e.k)}` };
+      }))
       .catch((err) => { searchIndexPromise = null; throw err; });
   }
   return searchIndexPromise;
@@ -113,14 +145,9 @@ export default function Header() {
         return;
       }
       
-      const q = query.toLowerCase();
       loadSearchIndex()
         .then((searchIndex) => {
-          const results = searchIndex.filter(item =>
-            item.k.includes(q) ||
-            item.name.toLowerCase().includes(q)
-          ).slice(0, 8);
-          setSearchResults(results);
+          setSearchResults(rankSearch(searchIndex, query));
         })
         .catch(() => setSearchResults([]));
     }, 300),
@@ -442,7 +469,7 @@ export default function Header() {
                 {cartItems.length === 0 ? (
                   <div className={styles.cartEmpty}>
                     <p>Nu ați adăugat produse</p>
-                    <span>Caută și adaugă produse pentru a solicita ofertă</span>
+                    <span>Căutați și adăugați produse pentru a solicita ofertă</span>
                   </div>
                 ) : (
                   <>

@@ -154,7 +154,7 @@ Pentru piața din România, ChampionX are sens mai degrabă la operatori sau con
       "Supape de siguranță filetate seria W2600, disponibile în variante de 1 și 2 inch pentru protecția instalațiilor.",
     ],
     keyProducts: [
-      { name: "Sisteme de Pompare Submersibilă Electrică (ESP)", description: "Gamă completă de componente ESP — cabluri, protectoare, motoare Affirmed PowerFit și Affirmed XT, variatoare de turație și senzori de fund de sondă — pentru ridicarea artificială a țițeiului din sonde adânci. SMARTEN PurePower Pro este o soluție descrisă de producător pentru limitarea distorsiunii armonice în rețeaua locală de alimentare. Aplicație tipică: sonde cu debit mediu-mare care necesită pompare submersibilă continuă." },
+      { name: "Sisteme de Pompare Submersibilă Electrică (ESP)", description: "Gama cuprinde componente ESP — cabluri, protectoare, motoare Affirmed PowerFit și Affirmed XT, variatoare de turație și senzori de fund de sondă — pentru ridicarea artificială a țițeiului din sonde adânci. SMARTEN PurePower Pro este o soluție descrisă de producător pentru limitarea distorsiunii armonice în rețeaua locală de alimentare. Aplicație tipică: sonde cu debit mediu-mare care necesită pompare submersibilă continuă." },
       { name: "Sisteme de Gas Lift", description: "Componente pentru ridicarea artificială prin injecție de gaz — mandrine, supape de gas lift, senzori de fund de sondă și servicii de tubing capilar. Alternativă la ESP pentru sonde cu debit mai redus sau cu conținut ridicat de nisip, unde o pompă submersibilă ar avea uzură rapidă." },
       { name: "Robineți și Regulatoare de Proces Norriseal Wellmark", description: "Robineți fluture (seriile 200 și 285), robineți de control (seriile 2275, 2220/2200 și 3023) și supape de siguranță filetate (seria W2600), plus întrerupătoare de nivel lichid (seriile 1005E și 1100A). Folosiți pentru reglarea proceselor la gura de sondă și în instalațiile de separare de suprafață." },
       { name: "Pompe cu Cavitate Progresivă (PCP) și Automatizare SMARTEN", description: "Pompe cu cavitate progresivă pentru sonde cu fluide vâscoase sau cu conținut de nisip, cu tije de antrenare (inclusiv tija înfășurată ANX) și sistemul de automatizare SMARTEN pentru monitorizarea parametrilor de pompare direct din câmp." },
@@ -344,7 +344,7 @@ Pentru piața din România, Paul Mueller are sens la ferme de lapte, procesatori
     whyChoose: [
       "Certificare ASME din 1961 pentru construcția de recipiente sub presiune, menționată direct pe site-ul producătorului.",
       "Prezență europeană directă, prin Mueller B.V. în Olanda și DEG Engineering GmbH în Germania, nu doar prin export.",
-      "Gamă completă de tancuri de răcire a laptelui, de la modele mici de fermă (seria AT) la tancuri mari (Model O, OH, OHF, P).",
+      "Gama cuprinde tancuri de răcire a laptelui, de la modele mici de fermă (seria AT) la tancuri mari (Model O, OH, OHF, P).",
       "Schimbătoare de căldură cu plăci Accu-Therm; domeniul exact de utilizare se confirmă din documentația producătorului.",
       "Sisteme integrate precum Milk2Heat sau E-LATION, care combină mai multe funcții termice într-un singur echipament.",
     ],

@@ -73,7 +73,7 @@ Pentru piața din România, Power Electronics are sens acolo unde un proiect com
     headquarters: "Poviglio (RE), Italia",
     overview: `Zapi Group este un producător italian de controlere electronice pentru vehicule electrice și hibride, cu sediul la Poviglio, lângă Reggio Emilia. Sub brandul ZAPI, grupul dezvoltă controlere AC și DC pentru motoarele de tracțiune și de pompă ale utilajelor electrice, alături de module de intrare-ieșire, sisteme de servodirecție electrică și console de operare. Pentru clienți din România putem oferta controlere ZAPI pentru echipamente de manipulare materiale și utilaje electrice similare.
 
-Gama ZAPI acoperă atât motoare asincrone clasice (seria AC), cât și motoare brushless (seria AC/BL Evolution), plus variante combinate AC și DC în același controler (seria AC/DC Combi). Pentru aplicații cu tensiuni mai mari, grupul oferă o linie separată de invertoare de înaltă tensiune. Zapi Group concurează cu alți producători de electronică pentru vehicule industriale electrice, diferența fiind portofoliul extins de la controlere pure până la sisteme complete de servodirecție și interfețe pentru operator.
+Gama ZAPI acoperă atât motoare asincrone clasice (seria AC), cât și motoare brushless (seria AC/BL Evolution), plus variante combinate AC și DC în același controler (seria AC/DC Combi). Pentru aplicații cu tensiuni mai mari, grupul oferă o linie separată de invertoare de înaltă tensiune. Portofoliul Zapi Group merge de la controlere pure până la sisteme complete de servodirecție și interfețe pentru operator.
 
 Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de manipulare materiale (stivuitoare, transpaleți electrici) sau la proiecte noi de vehicule electrice pentru zone industriale — service-urile specializate în electronica de tracțiune sunt publicul principal.`,
     whyChoose: [
@@ -132,11 +132,11 @@ Pentru piața din România, ZAPI are sens la retehnologizarea utilajelor de mani
     headquarters: "Suzhou, China",
     overview: `Veichi este un producător chinez de electronică de acționare industrială, cu sediul la Suzhou. Compania produce convertizoare de frecvență (AC drives) pentru automatizare industrială generală, servosisteme pentru mișcare de precizie, PLC-uri, panouri HMI și invertoare solare pentru pompare agricolă. Pentru clienți din România putem oferta din gama de convertizoare și servosisteme Veichi pentru linii de producție și sisteme de pompare solară.
 
-Gama de convertizoare pornește de la seria de bază AC01 și AC10 pentru aplicații generale, urcă spre AC310 și ajunge la AC600, seria de înaltă performanță, disponibilă și într-o variantă complet etanșată (AC600F, protecție IP66) pentru medii umede sau cu praf. Partea de servo cuprinde drivere din familia SD700 (SD710, SD780) pentru mișcare de precizie, completate de PLC-uri (VC5, VH600) și panouri HMI (VI20). Veichi concurează cu alți producători asiatici și europeni de convertizoare pe segmentul de automatizare industrială, inclusiv cu Danfoss pe zona de acționări.
+Gama de convertizoare pornește de la seria de bază AC01 și AC10 pentru aplicații generale, urcă spre AC310 și ajunge la AC600, seria de înaltă performanță, disponibilă și într-o variantă complet etanșată (AC600F, protecție IP66) pentru medii umede sau cu praf. Partea de servo cuprinde drivere din familia SD700 (SD710, SD780) pentru mișcare de precizie, completate de PLC-uri (VC5, VH600) și panouri HMI (VI20).
 
 Pentru piața din România, Veichi are sens la retehnologizarea liniilor de producție unde bugetul contează și la proiecte de pompare solară agricolă, unde seria de invertoare solare (SI) e gândită special pentru acest tip de aplicație.`,
     whyChoose: [
-      "Gamă completă de la convertizor de bază până la servo de înaltă performanță, sub același producător",
+      "Gamă de la convertizor de bază până la servo de înaltă performanță, sub același producător",
       "Variantă complet etanșată AC600F (IP66) pentru medii cu praf, umiditate ridicată sau spălare",
       "Serie dedicată de invertoare solare pentru pompare (SI), cu monitorizare la distanță pe unele modele",
       "Certificări CE și UL menționate de producător pentru integrare mai simplă în proiecte reglementate",
@@ -196,7 +196,7 @@ Pentru piața din România, Veichi are sens la retehnologizarea liniilor de prod
     headquarters: "Ford, West Sussex, Marea Britanie",
     overview: `Sprint Electric este un producător britanic de regulatoare pentru motoare de curent continuu, cu sediul în Ford, West Sussex. Compania proiectează convertizoare digitale DC pentru motoare industriale existente, de la puteri mici de laborator până la aplicații grele din industria metalurgică sau a hârtiei. Pentru clienți din România putem oferta regulatoare Sprint Electric pentru retehnologizarea utilajelor care folosesc încă motoare de curent continuu.
 
-Gama pornește de la seria compactă SL și urcă spre familia PL/X, cu seria PL/XD. Pe lângă acestea, producătorul oferă seria JL/X, iar pentru motoare de curent alternativ cu inel colector regenerarea se face prin drive-ul Generis. Sprint Electric concurează cu alți producători de electronică de acționare, inclusiv cu Danfoss pe segmentul general de convertizoare, diferența fiind specializarea aproape exclusivă pe motoare de curent continuu, o nișă tot mai puțin acoperită de producătorii mari.
+Gama pornește de la seria compactă SL și urcă spre familia PL/X, cu seria PL/XD. Pe lângă acestea, producătorul oferă seria JL/X, iar pentru motoare de curent alternativ cu inel colector regenerarea se face prin drive-ul Generis. Sprint Electric este specializat aproape exclusiv pe electronică de acționare pentru motoare de curent continuu.
 
 Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă funcționale, unde modernizarea regulatorului electronic poate fi o alternativă la înlocuirea motorului; decizia depinde de starea reală a motorului.`,
     whyChoose: [
@@ -255,11 +255,11 @@ Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă 
     headquarters: "Murr, Germania",
     overview: `Frizlen este un producător german de rezistențe de putere, cu sediul la Murr, lângă Stuttgart. Compania fabrică rezistențe tubulare, rezistențe plate, potențiometre bobinate și rezistențe cu grilă din oțel, folosite pentru frânare, sarcină, pornire sau descărcare în sisteme de acționare electrică. Pentru clienți din România putem oferta rezistențe Frizlen ca piese de completare pentru convertizoare și acționări unde producătorul principal nu acoperă gama de rezistențe.
 
-Gama este organizată în șase grupe: rezistențe tubulare, potențiometre bobinate, rezistențe plate, rezistențe de sarcină și test, rezistențe lamelare și rezistențe cu grilă din oțel, cu puteri continue de la 10 W până la 500 kW. Spre deosebire de producătorii de convertizoare, Frizlen este un furnizor complementar, ale cărui rezistențe se montează adesea alături de echipamente de la alți producători de acționare.
+Gama este organizată în șase grupe: rezistențe tubulare, potențiometre bobinate, rezistențe plate, rezistențe de sarcină și test, rezistențe lamelare și rezistențe cu grilă din oțel, cu puteri continue de la 10 W până la 500 kW. Frizlen este un furnizor complementar, ale cărui rezistențe se montează adesea alături de echipamente de la alți producători de acționare.
 
 Pentru piața din România, Frizlen are sens la instalații industriale, nave sau bancuri de test unde e nevoie de o rezistență de frânare sau de sarcină dimensionată exact pe puterea și tensiunea instalației existente, nu de o soluție generică.`,
     whyChoose: [
-      "Gamă completă de tipuri constructive de rezistențe, de la tubulare la grilă din oțel, sub un singur producător",
+      "Gama include tipuri constructive de rezistențe, de la tubulare la grilă din oțel, sub un singur producător",
       "Rol complementar clar — se integrează cu convertizoare și acționări de la orice alt producător",
       "Puteri de la câțiva wați până la sute de kilowați, acoperind atât laboratorul cât și instalația industrială grea",
       "Familie dedicată de rezistențe de sarcină și test, utilă la bancuri de probă și verificări de generatoare",
@@ -316,7 +316,7 @@ Pentru piața din România, Frizlen are sens la instalații industriale, nave sa
     headquarters: "Spreitenbach, Elveția",
     overview: `LinMot este un producător elvețian de motoare liniare, cu sediul la Spreitenbach, parte din grupul NTI AG (marca oficială fiind NTI AG LinMot & MagSpring). Compania proiectează motoare liniare tubulare pentru poziționare dinamică de precizie, motoare cu funcție combinată de translație și rotație, module liniare complete și gripere electrice pentru manipulare. Pentru clienți din România putem oferta motoare și module LinMot pentru linii de asamblare și mașini de ambalat.
 
-Gama de motoare liniare cuprinde seria P01 pentru aplicații compacte și seria P10, cu variantele P10-54 și P10-70, pentru forțe mai mari; există și versiuni din inox și o variantă certificată ATEX pentru zone cu risc de explozie. Motoarele cu translație și rotație combinată (seria PR) completează gama pentru aplicații de tip pick-and-place, iar modulele liniare complete (DM, FM, EM, SM, H) integrează motorul, ghidajul și senzorii într-un singur ansamblu. LinMot concurează cu alți producători de sisteme de poziționare liniară, inclusiv cu Thomson Industries pe segmentul de acționare liniară de precizie.
+Gama de motoare liniare cuprinde seria P01 pentru aplicații compacte și seria P10, cu variantele P10-54 și P10-70, pentru forțe mai mari; există și versiuni din inox și o variantă certificată ATEX pentru zone cu risc de explozie. Motoarele cu translație și rotație combinată (seria PR) completează gama pentru aplicații de tip pick-and-place, iar modulele liniare complete (DM, FM, EM, SM, H) integrează motorul, ghidajul și senzorii într-un singur ansamblu.
 
 Pentru piața din România, LinMot are sens la mașini de ambalat, linii de asamblare sau echipamente de laborator unde e nevoie de mișcare liniară rapidă și repetabilă, fără jocul mecanic al unui șurub cu bile clasic.`,
     whyChoose: [
@@ -382,7 +382,7 @@ Pentru piața din România, LinMot are sens la mașini de ambalat, linii de asam
     name: "Exlar",
     overview: `Exlar este un producător american de actuatoare liniare și rotative electromecanice, brand care operează astăzi sub Curtiss-Wright Corporation. Compania proiectează actuatoare cu șurub cu role sau cu bile pentru înlocuirea cilindrilor hidraulici sau pneumatici în aplicații care cer control de poziție precis și curat, fără ulei hidraulic. Pentru clienți din România putem oferta actuatoare Exlar pentru linii unde un cilindru hidraulic clasic devine greu de întreținut sau nepotrivit din motive de curățenie a procesului.
 
-Gama include actuatoare liniare universale (seriile FTX, FTP, KX), actuatoare cu motor integrat direct pe corpul actuatorului (seriile GTX, GTW, GSX, GTF) și familia Tritex, cu drive-ul de control integrat chiar în actuator — variante liniare (Tritex T2X) și rotative, atât în curent alternativ (R2M/G) cât și în curent continuu (RDM/G). Exlar concurează cu alți producători de actuatoare electromecanice, inclusiv cu Thomson Industries pe segmentul de înlocuire a cilindrilor hidraulici cu soluții electrice.
+Gama include actuatoare liniare universale (seriile FTX, FTP, KX), actuatoare cu motor integrat direct pe corpul actuatorului (seriile GTX, GTW, GSX, GTF) și familia Tritex, cu drive-ul de control integrat chiar în actuator — variante liniare (Tritex T2X) și rotative, atât în curent alternativ (R2M/G) cât și în curent continuu (RDM/G).
 
 Pentru piața din România, gama Exlar are sens la utilaje din industria alimentară, procesare plastic sau linii unde contaminarea cu ulei hidraulic nu este acceptabilă, precum și la aplicații de testare sau simulare unde poziționarea precisă contează mai mult decât forța brută.`,
     whyChoose: [
@@ -405,7 +405,7 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
       "Apărare terestră și navală — actuatoare electromecanice pentru sisteme robuste"
     ],
     infinitrade: `Nu avem date proprii despre stocul Exlar și lucrăm după cataloagele publicate de Curtiss-Wright pentru fiecare familie de actuatoare. Aducem actuatoare Exlar prin canale de aprovizionare din UE sau SUA, cu un termen care depinde de familia și configurația exactă cerute, orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de forța sau cuplul necesar, cursa de lucru, tipul de mișcare și protocolul de comunicare al automatului existent. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator se selectează pe aplicația reală, nu pe un cod generic.`,
-    limitation: "Nu putem confirma o sub-gamă completă de actuatoare Exlar dincolo de familiile listate public pe pagina Curtiss-Wright.",
+    limitation: "Nu putem confirma alte sub-game de actuatoare Exlar dincolo de familiile listate public pe pagina Curtiss-Wright.",
     productCodes: [
       { code: "FTX Series", description: "actuator liniar universal cu șurub cu role" },
       { code: "FTP Series", description: "actuator liniar universal, gama FT" },
@@ -443,7 +443,7 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
     headquarters: "Anzola dell'Emilia (Bologna), Italia",
     overview: `Servomech este un producător italian de actuatoare liniare electromecanice și martinete mecanice, cu sediul la Anzola dell'Emilia, lângă Bologna, activ din 1989. Compania proiectează actuatoare cu șurub cu bile sau trapezoidal, martinete mecanice de ridicare și componente asociate (șuruburi cu bile, piulițe, reductoare unghiulare), gândite ca alternativă electrică la cilindrii hidraulici și pneumatici. Pentru clienți din România putem oferta actuatoare și martinete Servomech pentru sisteme de poziționare și ridicare industrială.
 
-Gama de actuatoare liniare cuprinde mai multe familii — ATL, BSA, CLA, CLB, UAL, UBA, ILA, HSA, HPA și TMA — fiecare cu combinații diferite de forță, cursă și viteză. Martinetele mecanice sunt împărțite după tipul de șurub: seriile MA și SJ cu șurub cu bile (mai rapide, randament mai mare) și variantele echivalente cu șurub trapezoidal (mai lente, dar cu autoblocare naturală la oprirea alimentării). Servomech concurează cu alți producători de acționare liniară, inclusiv cu Thomson Industries pe segmentul martinetelor și actuatoarelor electromecanice.
+Gama de actuatoare liniare cuprinde mai multe familii — ATL, BSA, CLA, CLB, UAL, UBA, ILA, HSA, HPA și TMA — fiecare cu combinații diferite de forță, cursă și viteză. Martinetele mecanice sunt împărțite după tipul de șurub: seriile MA și SJ cu șurub cu bile (mai rapide, randament mai mare) și variantele echivalente cu șurub trapezoidal (mai lente, dar cu autoblocare naturală la oprirea alimentării).
 
 Pentru piața din România, Servomech are sens la platforme de ridicare, mese de poziționare industrială sau instalații care vor să renunțe la un cilindru hidraulic pentru a evita mentenanța uleiului și riscul de scurgeri.`,
     whyChoose: [
@@ -515,7 +515,7 @@ Gama pentru containere include role de manevrare, dispozitive de nivelare și si
 
 Pentru piața din România, Haacon are sens la operatori de logistică și transport care manevrează containere fără macara fixă, precum și la producători și service-uri de remorci și semiremorci care au nevoie de suporturi de sprijin sau sisteme de roată de rezervă.`,
     whyChoose: [
-      "Gamă completă pentru manevrarea containerelor fără macara — role, dispozitive de nivelare, sisteme de ridicare-rulare",
+      "Gamă pentru manevrarea containerelor fără macara — role, dispozitive de nivelare, sisteme de ridicare-rulare",
       "Cricuri disponibile atât cu cremalieră și pinion, cât și cu spindlă filetată",
       "Echipamente dedicate vehiculelor comerciale — suporturi de sprijin, sisteme pentru roata de rezervă, oiște",
       "Reductoare universale proprii, utile la proiecte de integrare mecanică unde clientul are nevoie de o soluție compactă",
@@ -574,7 +574,7 @@ Pentru piața din România, Haacon are sens la operatori de logistică și trans
     headquarters: "Bad Homburg, Germania",
     overview: `Ringspann este un producător german de componente de transmisie a puterii, cu sediul la Bad Homburg, fondat în 1944 de inginerul Albrecht Maurer. Compania fabrică roți libere (freewheels), frâne industriale, cuplaje de arbori și dispozitive de fixare de precizie, folosite acolo unde o transmisie mecanică are nevoie de o funcție de anti-retur, frânare controlată sau cuplare-decuplare a puterii. Pentru clienți din România putem oferta roți libere, frâne și cuplaje Ringspann pentru utilaje industriale și sisteme de transport.
 
-Gama de roți libere acoperă mai multe principii constructive — cu role sau cu came — sub denumiri precum FGR-R, FXN sau FZ, folosite tipic ca sisteme anti-retur pe benzi transportoare înclinate sau la mecanisme unde arborele nu trebuie să se poată roti invers. Frânele industriale, din familiile EH, EV, DA sau DS, servesc la oprirea controlată a mecanismelor grele. Cuplajele includ cuplaje de compensare (seria L) și limitatoare de cuplu cu fricțiune (seriile RS și RT). Ringspann concurează cu alți producători de frâne și cuplaje industriale, inclusiv cu Mayr pe segmentul frânelor de siguranță.
+Gama de roți libere acoperă mai multe principii constructive — cu role sau cu came — sub denumiri precum FGR-R, FXN sau FZ, folosite tipic ca sisteme anti-retur pe benzi transportoare înclinate sau la mecanisme unde arborele nu trebuie să se poată roti invers. Frânele industriale, din familiile EH, EV, DA sau DS, servesc la oprirea controlată a mecanismelor grele. Cuplajele includ cuplaje de compensare (seria L) și limitatoare de cuplu cu fricțiune (seriile RS și RT).
 
 Pentru piața din România, Ringspann are sens la benzi transportoare înclinate, poduri rulante, mori sau instalații unde o roată liberă sau o frână industrială trebuie dimensionată exact pe cuplul și turația reale ale mecanismului, nu aleasă generic dintr-un catalog.`,
     whyChoose: [

@@ -6,7 +6,7 @@ export const brandContentBatch81 = {
     founded: 1948,
     overview: `Spirol este un producător american de organe de asamblare speciale, înființat în 1948, cu operațiuni de producție în Connecticut, SUA, și 15 locații globale între care Germania, Marea Britanie, Mexic și China. Gama include știfturi spiralate (coiled spring pins) și știfturi canelate (slotted spring pins), știfturi solide și cu formă specială, bucșe și dornuri de aliniere, distanțiere, limitatoare de compresie, inserții filetate pentru mase plastice și arcuri disc conform DIN EN 16983. Pentru piața din România putem oferta din gama de organe de asamblare de precizie și inserții filetate acolo unde un șurub clasic sau un nit nu ține pasul cu toleranțele sau vibrațiile din aplicație.
 
-Ce diferențiază Spirol de un producător generic de organe de asamblare e catalogul de peste 30.000 de repere standard, construit pe mai bine de 20.000 de aplicații industriale documentate, plus echipamente proprii de instalare (prese pneumatice și manuale pentru știfturi, inserții și limitatoare de compresie). Compania concurează în segmentul organelor de asamblare speciale cu nume precum PennEngineering pe partea de inserții filetate, dar își păstrează nișa pe știfturile spiralate și arcurile disc unde oferă game largi de diametre și toleranțe. Certificările IATF 16949, AS 9100 și Nadcap arată orientarea spre automotive și aerospațial.
+Un element specific al Spirol este catalogul de peste 30.000 de repere standard, construit pe mai bine de 20.000 de aplicații industriale documentate, plus echipamente proprii de instalare (prese pneumatice și manuale pentru știfturi, inserții și limitatoare de compresie). Nișa companiei sunt știfturile spiralate și arcurile disc, unde oferă game de diametre și toleranțe. Certificările IATF 16949, AS 9100 și Nadcap arată orientarea spre automotive și aerospațial.
 
 Pentru un integrator sau un atelier de asamblare din România, Spirol înseamnă acces la alternative la niturile sau șuruburile clasice acolo unde spațiul de montaj e limitat sau vibrațiile impun o fixare elastică. Utilă mai ales pentru linii de asamblare auto, producători de echipamente medicale și fabricanți de bunuri de larg consum care au nevoie de repere mici, dar critice pentru funcționarea ansamblului.`,
     whyChoose: [
@@ -211,7 +211,7 @@ Ce diferențiază TBI Motion e acoperirea largă a metodelor de circulație a bi
 
 Pentru un integrator de mașini-unelte, echipamente semiconductoare sau sisteme de depozitare automatizată din România, TBI Motion înseamnă acces la componente de mișcare liniară de precizie la un raport preț-performanță diferit față de mărcile japoneze consacrate, cu aplicații tipice în roboți industriali și echipamente medicale.`,
     whyChoose: [
-      "Gamă completă de ghidaje liniare (SR, CR, TR, TH) și șuruburi cu bile cu două metode de circulație a bilelor",
+      "Gamă de ghidaje liniare (SR, CR, TR, TH) și șuruburi cu bile cu două metode de circulație a bilelor",
       "Precizie de poziționare controlabilă până la 0,1 μm pe șuruburile cu bile",
       "Cuplu de acționare redus, aproximativ o treime din cel al unui șurub trapezoidal ACME (conform producătorului, seriile cu circulație internă)",
       "Certificări ISO 9001, ISO 14001 și ISO 45001 pentru calitate, mediu și sănătate-securitate",
@@ -579,7 +579,7 @@ Ce diferențiază Warner Electric e acoperirea largă a tehnologiilor de acțion
 
 Pentru un integrator de echipamente de manipulare a materialelor, AGV-uri sau utilaje agricole din România, Warner Electric înseamnă acces la frâne de siguranță și ambreiaje electromagnetice pentru sisteme de acționare unde oprirea controlată sau cuplarea/decuplarea rapidă a transmisiei sunt cerințe critice de proiectare.`,
     whyChoose: [
-      "Gamă completă de frâne electromagnetice power-release și power-apply, cu variante de cuplu fix și variabil",
+      "Gamă de frâne electromagnetice power-release și power-apply, cu variante de cuplu fix și variabil",
       "Ambreiaje electromagnetice seria E și EM/UM pentru cuplare-decuplare rapidă a transmisiei",
       "Frână dedicată QuietLift pentru aplicații de lift, cu funcționare silențioasă",
       "Limitatoare de cuplu mecanice și cu magnet permanent, pentru protecția transmisiei la suprasarcină",
@@ -724,7 +724,7 @@ Ce diferențiază BS&B e acoperirea completă a tipurilor constructive de discur
 
 Pentru un integrator de instalații petrochimice, rezervoare de stocare sau sisteme de baterii (BESS) din România, BS&B înseamnă acces la dispozitive de siguranță critice pentru protecția la suprapresiune, cu documentație de selecție (tabele KR & MNFA) disponibilă direct de la producător pentru dimensionarea corectă a discului.`,
     whyChoose: [
-      "Gamă completă de discuri de rupere — reverse-buckling, forward-acting, grafit și variante sanitare",
+      "Gamă de discuri de rupere — reverse-buckling, forward-acting, grafit și variante sanitare",
       "Discuri dedicate pentru rezervoare cu presiune joasă (Eco-Saf) și aplicații cu vid (Vac-Saf)",
       "Sisteme de protecție la explozie (Vent-Saf) și opritoare de flacără (FlameSaf) pentru ventilarea rezervoarelor",
       "Conformitate cu standardele ASME Section VIII și marcaj CE pentru echipamente sub presiune",

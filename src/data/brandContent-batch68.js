@@ -138,7 +138,7 @@ Gama HT Italia acoperă atât verificări de bază — multimetre și clești am
 
 Pentru instalatorii și service-urile electrice din România, HT Italia oferă o alternativă completă pentru verificări de instalații electrice conform normelor europene, plus instrumente dedicate pentru un segment în creștere — mentenanța sistemelor fotovoltaice.`,
     whyChoose: [
-      "Gamă completă de la multimetre de bază până la analizoare de calitate a energiei electrice",
+      "Gamă de la multimetre de bază până la analizoare de calitate a energiei electrice",
       "Serie dedicată testării instalațiilor fotovoltaice — testere I-V și verificatoare PVCHECKs",
       "Fabricație proprie din 1992, după aproape un deceniu de distribuție de aparatură electrică",
       "Instrumente pentru sectorul feroviar, pe lângă aplicațiile industriale și rezidențiale standard",

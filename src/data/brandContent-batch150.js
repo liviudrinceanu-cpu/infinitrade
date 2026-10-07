@@ -139,7 +139,7 @@ Pentru piața din România, reductoarele Nabtesco au sens la mentenanța roboți
   tecnotrans: {
     name: "Tecnotrans",
     headquarters: "Castellbisbal, Barcelona, Spania",
-    overview: `Tecnotrans Bonfiglioli este filiala spaniolă a grupului italian Bonfiglioli, cu sediul la Castellbisbal, lângă Barcelona. Sub acest nume, compania distribuie o gamă completă a grupului: motoreductoare industriale, motoare electrice, reductoare planetare și convertizoare cu servoacționări, pentru transmisii de putere în industrie. Din gama Bonfiglioli putem oferta seriile de motoreductoare industriale pentru liniile cu bandă transportoare și instalațiile de amestecare din România.
+    overview: `Tecnotrans Bonfiglioli este filiala spaniolă a grupului italian Bonfiglioli, cu sediul la Castellbisbal, lângă Barcelona. Sub acest nume, compania distribuie gama grupului: motoreductoare industriale, motoare electrice, reductoare planetare și convertizoare cu servoacționări, pentru transmisii de putere în industrie. Din gama Bonfiglioli putem oferta seriile de motoreductoare industriale pentru liniile cu bandă transportoare și instalațiile de amestecare din România.
 
 Gama de motoreductoare industriale acoperă trei arhitecturi: unghi drept, cu seria A (roți conice-elicoidale) și seria VF/W (melc-roată melcată), în linie, cu seria C pentru sarcini standard și seria mai nouă EVOX CP pentru randament ridicat, și pe ax paralel, cu seriile F și S — aceasta din urmă recomandată explicit pentru pompe, ventilatoare și suflante. Pentru medii dure, precum carierele și minele, producătorul indică seria TA, construită pentru fiabilitate la funcționare continuă. Grupul completează oferta cu motoare electrice și servoacționări, ale căror serii și date tehnice le confirmăm pe cod, din documentația Bonfiglioli.
 
@@ -148,7 +148,7 @@ Pentru piața din România, gama acoperă atât înlocuirea unui motoreductor de
       "Trei arhitecturi de motoreductor — unghi drept, în linie și ax paralel — acoperă majoritatea configurațiilor de montaj din instalațiile industriale",
       "Seria S, recomandată explicit pentru pompe, ventilatoare și suflante, se potrivește pentru aplicații de pompare, ventilație și suflare",
       "Seria TA, gândită pentru cariere și mine, arată o construcție dimensionată pentru funcționare continuă în medii dure",
-      "Gamă completă de motoare electrice și servoacționări din același grup, utilă când proiectul cere motor și reductor de la un singur producător",
+      "Gamă de motoare electrice și servoacționări din același grup, utilă când proiectul cere motor și reductor de la un singur producător",
       "Prezența globală a grupului Bonfiglioli, cu 18 fabrici și 24 de filiale conform site-ului producătorului; disponibilitatea pieselor de schimb se confirmă la comandă",
     ],
     keyProducts: [

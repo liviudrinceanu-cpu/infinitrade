@@ -241,7 +241,7 @@ Pentru laboratoare de dezvoltare electronică și linii de testare din România,
     faq: [
       { q: "Ce produce Teledyne LeCroy?", a: "Teledyne LeCroy produce osciloscoape de la bandă medie până la 65 GHz, analizoare de protocol pentru PCIe, USB și Bluetooth, plus instrumente de achiziție modulară de date, pentru dezvoltare și testare electronică de mare viteză." },
       { q: "Ce diferență e între un osciloscop de 12 biți și unul clasic de 8 biți?", a: "Un osciloscop de 12 biți, precum familiile HDO și WaveRunner HD, oferă o rezoluție verticală mai fină, utilă la vizualizarea semnalelor mici suprapuse peste unul mare sau la analiza zgomotului, față de rezoluția standard de 8 biți." },
-      { q: "Ce osciloscop Teledyne LeCroy acoperă banda cea mai largă?", a: "Seria WaveMaster 8000HD acoperă benzi de la 6 până la 65 GHz, fiind destinată aplicațiilor de cercetare și testării semnalelor digitale de mare viteză din centre de date și telecomunicații." },
+      { q: "Ce osciloscop Teledyne LeCroy acoperă benzi de până la 65 GHz?", a: "Seria WaveMaster 8000HD acoperă benzi de la 6 până la 65 GHz, fiind destinată aplicațiilor de cercetare și testării semnalelor digitale de mare viteză din centre de date și telecomunicații." },
       { q: "Livrați osciloscoape Teledyne LeCroy în România și cât durează?", a: "Aducem osciloscoapele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută — bandă, număr de canale, opțiuni software." },
     ],
     evidenceClass: "market-signal-ro",
@@ -325,7 +325,7 @@ Familiile de osciloscoape acoperă benzi de la 50 MHz (TBS1000C) până la 70 GH
 
 Pentru laboratoare universitare și linii de testare electronică din România, osciloscoapele de intrare TBS și 2 Series MSO acoperă verificări curente, iar seriile MDO și MSO de gamă medie/înaltă ajung la depanarea semnalelor mixte analog-digital din echipamente auto sau industriale mai complexe.`,
     whyChoose: [
-      "Gamă completă de osciloscoape — de la modele de intrare TBS1000C până la seriile de vârf de 70 GHz.",
+      "Gamă de osciloscoape — de la modele de intrare TBS1000C până la seriile de 70 GHz.",
       "Canale digitale integrate — variantele MSO combină semnal analogic cu până la 64 de canale logice pentru depanare mixtă.",
       "Generatoare AFG cu forme de undă arbitrare — de la câțiva microhertzi până la 250 MHz.",
       "Portofoliu extins prin Keithley și Elektro-Automatik — multimetre de precizie și surse de mare putere sub același brand.",
@@ -391,7 +391,7 @@ Gama de testare a contoarelor merge de la sistemele portabile MT30, MT310 și MT
 Pentru operatorii de distribuție și laboratoarele de metrologie din România care verifică periodic contoare de energie sau transformatoare de măsură, sistemele portabile ZERA (MT30, MT310, MT320) acoperă testele de teren, iar sistemele staționare MTS acoperă verificarea la scară în laborator.`,
     whyChoose: [
       "Peste 100 de ani de istorie în măsurarea energiei electrice — de la etalonarea de contoare din 1920 până la testarea contoarelor smart de azi.",
-      "Gamă completă pentru contoare AC și DC — de la sisteme portabile de teren până la bancuri staționare de mare precizie.",
+      "Gamă pentru contoare AC și DC — de la sisteme portabile de teren până la bancuri staționare de mare precizie.",
       "Sisteme dedicate transformatoarelor de măsură — testare ITTS pentru transformatoare de curent și de tensiune.",
       "Testare stații de încărcare electrică — familia EMOB simulează un vehicul electric la încărcare AC sau DC.",
       "Prezență în peste 70 de țări — rețea de subsidiare și parteneri pentru suport tehnic.",
@@ -425,7 +425,7 @@ Pentru operatorii de distribuție și laboratoarele de metrologie din România c
       { code: "MTS710", description: "sistem staționar de testare contoare de curent continuu" },
       { code: "MTS750", description: "sistem staționar de testare contoare DC" },
       { code: "MTS780", description: "sistem staționar de testare contoare DC, curent până la 1000 A" },
-      { code: "STM6000", description: "sistem digital de măsură pentru testarea contoarelor AC și a comunicației, nivel premium" },
+      { code: "STM6000", description: "sistem digital de măsură pentru testarea contoarelor AC și a comunicației" },
       { code: "STM4000", description: "sistem digital de măsură pentru testarea contoarelor AC și a comunicației" },
       { code: "MT500", description: "sursă portabilă pentru testarea contoarelor" },
       { code: "MT400", description: "sursă portabilă pentru testarea contoarelor" },

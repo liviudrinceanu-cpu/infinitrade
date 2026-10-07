@@ -161,7 +161,7 @@ Portofoliul Tsubaki nu se oprește la lanțuri clasice — au dezvoltat lanțuri
       "Durabilitate ridicată — lanțurile Tsubaki sunt proiectate pentru o durată de funcționare mai lungă decât echivalentele standard, conform producătorului",
       "Precizie dimensională — toleranțe controlate la pas și dimensiuni",
       "Inovație constantă — lanțuri fără lubrifiere (Lambda), rezistente la coroziune (Neptune), și cu role cu arc pentru aplicații silențioase (SNS)",
-      "Gamă completă de accesorii — roți dințate (sprockets) de precizie, tendere, conectori rapizi, sisteme de lubrifiere automată",
+      "Gamă de accesorii — roți dințate (sprockets) de precizie, tendere, conectori rapizi, sisteme de lubrifiere automată",
       "Suport tehnic global — expertiza necesară pentru dimensionarea corectă și optimizarea duratei de viață"
     ],
     keyProducts: [
@@ -304,7 +304,7 @@ Turck nu vinde doar componente — oferă soluții complete. Pentru conectarea u
     keyProducts: [
       {
         name: "Senzori Inductivi de Proximitate",
-        description: "Gama completă de senzori inductivi pentru detectarea metalelor feroase și neferoase, în construcții cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanța nominală de comutare depinde de model, conform fișei tehnice. Construcție robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
+        description: "Gama de senzori inductivi pentru detectarea metalelor feroase și neferoase, în construcții cilindrică (M5, M8, M12, M18, M30) și rectangulară (Q20, Q40, Q80). Disponibili cu ieșire PNP, NPN sau curent continuu, în versiuni NO (normally open), NC (normally closed) sau comutabile. Distanța nominală de comutare depinde de model, conform fișei tehnice. Construcție robustă din inox sau alamă cromată, cu protecție IP67/IP68/IP69K pentru medii umede sau cu jet de apă la presiune. Include și senzori cu factor 1 (detectează oțel și aluminiu la aceeași distanță) și senzori cu suprafață activă extinsă pentru detectarea prin pereți plastici sau lemnoși. Toți senzorii au LED de status vizibil 360° și rezistență la câmpuri magnetice externe."
       },
       {
         name: "Sisteme RFID Industriale (BL ident)",
@@ -572,13 +572,13 @@ Gama Vega acoperă mai multe tehnologii de măsurare a nivelului — radar ghida
 
 Pe instalații care folosesc conexiuni Wago în locul bornierelor clasice, diferența constă în timp de cablare redus, mai puține erori de strângere (cablu stricat sau contact slab) și fiabilitate pe termen lung cu mentenanță redusă, conform producătorului. Pe instalațiile cu cabluri de aluminiu (folosite din ce în ce mai des pentru costuri), acest tip de conexiune este recomandat — arcul menține presiune constantă chiar și când aluminiul "curge" în timp (fenomen de relaxare). Testarea circuitelor este simplă — ridicați pârghia portocalie, introduceți un tester, verificați tensiunea, închideți pârghia — totul fără să deconectați cablul.
 
-Dar Wago nu e doar borniere — a dezvoltat o gamă completă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee de interfață, și sisteme complete de management energetic.`,
+Dar Wago nu e doar borniere — a dezvoltat o gamă de automatizări industriale bazate pe aceeași filozofie de conexiune rapidă și sigură. Module I/O pentru bus de câmp (Profinet, EtherNet/IP, Modbus), PLC-uri compacte seria 750, relee de interfață, și sisteme complete de management energetic.`,
     whyChoose: [
       "Pionier al conexiunii cu arc, conform producătorului — tehnologie brevetată CAGE CLAMP pentru conexiune sigură fără șuruburi",
       "Conexiune rapidă — montaj mai rapid decât la bornierele clasice cu șurub, conform producătorului",
       "Rezistență la vibrații — arcul menține presiune constantă chiar și pe utilaje cu șocuri și vibrații continue",
       "Potrivit pentru aluminiu — soluție recomandată pentru cabluri de aluminiu care tind să se deformeze în timp",
-      "Gamă completă — de la borniere simple până la sisteme complexe de automatizare și I/O remote",
+      "Gamă de la borniere simple până la sisteme complexe de automatizare și I/O remote",
       "Certificări IEC, UL și altele, conform listei de certificări a producătorului"
     ],
     keyProducts: [
@@ -725,7 +725,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
       },
       {
         name: "Conectori Industriali (Industrial Connectors)",
-        description: "Gama completă de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Gradul de protecție, rezistența la vibrații și placarea contactelor depind de seria aleasă și se confirmă din fișa producătorului. Include și conectori pentru putere mare; curentul nominal și tipul de blocare se confirmă din fișa producătorului. Potrivit pentru conectarea rapidă a panourilor mobile, roboților, utilajelor modulare."
+        description: "Gama de conectori pentru cablaj rapid și sigur — conectori rectangulari heavy-duty pentru cabluri multi-conductor (serii HDC, ROCKSTAR), conectori circulari M8/M12/M23 pentru senzori și actuatoare, conectori pentru bus de câmp (Profinet, EtherNet/IP, DeviceNet), și conectori modulare pentru aplicații custom. Gradul de protecție, rezistența la vibrații și placarea contactelor depind de seria aleasă și se confirmă din fișa producătorului. Include și conectori pentru putere mare; curentul nominal și tipul de blocare se confirmă din fișa producătorului. Potrivit pentru conectarea rapidă a panourilor mobile, roboților, utilajelor modulare."
       },
       {
         name: "Sisteme de Marcare (Marking Systems)",
@@ -861,7 +861,7 @@ Weidmüller nu e doar hardware — ei gândesc engineering complet. Software-ul 
     founded: 1850,
     headquarters: "Detmold, Germania",
     employees: "6,000+ angajați la nivel global",
-    overview: `Weidmüller nu e doar despre borniere și conectori — compania germană oferă o gamă completă de componente electronice pentru automatizare industrială, cu focus pe alimentare, protecție, și conversie semnale. Când proiectați un dulap de comandă modern, nu puteți folosi doar PLC-ul — aveți nevoie de alimentatoare switching stabilizate pentru 24VDC, module de protecție la supratensiuni (surge protection) pentru linii de senzori expuse, convertoare de semnal pentru interfața între senzori și PLC, și relee de siguranță pentru opriri de urgență. Weidmüller are toate acestea într-o gamă integrată, cu același design modular pe șină DIN și aceleași standarde de calitate germană.
+    overview: `Weidmüller nu e doar despre borniere și conectori — compania germană oferă o gamă de componente electronice pentru automatizare industrială, cu focus pe alimentare, protecție, și conversie semnale. Când proiectați un dulap de comandă modern, nu puteți folosi doar PLC-ul — aveți nevoie de alimentatoare switching stabilizate pentru 24VDC, module de protecție la supratensiuni (surge protection) pentru linii de senzori expuse, convertoare de semnal pentru interfața între senzori și PLC, și relee de siguranță pentru opriri de urgență. Weidmüller are toate acestea într-o gamă integrată, cu același design modular pe șină DIN și aceleași standarde de calitate germană.
 
 Alimentatoarele Weidmüller PRO se folosesc frecvent în tablouri unde fiabilitatea este critică — fabrici care nu-și permit downtime, utilaje mobile supuse la vibrații și temperaturi extreme. Față de alimentatoare generice ieftine, producătorul menționează: randament de 88–93% la modelele PRO verificate (de exemplu 92% la PRO MAX 480 W), protecții (scurtcircuit, limitare de curent la suprasarcină, supratensiune) și rezervă de curent pentru porniri grele; valorile exacte sunt în fișa fiecărui model. Plus că design-ul compact (35–40 mm lățime pentru 5 A) economisește spațiu în dulapuri aglomerate. Monitoring-ul e integrat — LED-uri de status și ieșire de semnal DC OK pentru PLC, ca să știți când alimentarea devine instabilă înainte de colaps total.
 
@@ -1315,7 +1315,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
     keyProducts: [
       {
         name: "Spray-uri Lubrifiere și Degripare",
-        description: "Gama completă de lubrifianți în spray pentru mentenanță industrială — HHS 2000 (ulei semisintetic rezistent la presiuni foarte mari, pentru temperaturi de la -35°C până la +180°C, scurt timp +200°C), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi ridicate, și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formulă clasică cu solvenți și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
+        description: "Gama cuprinde lubrifianți în spray pentru mentenanță industrială — HHS 2000 (ulei semisintetic rezistent la presiuni foarte mari, pentru temperaturi de la -35°C până la +180°C, scurt timp +200°C), lubrifiant cu PTFE pentru reducerea frecării pe ghidaje și lanțuri, lubrifiant cu grafit pentru temperaturi ridicate, și lubrifiant cu silicon pentru aplicații unde nu se acceptă pete (plastice, cauciuc). Include și spray-uri degripare (penetrating oil) — formulă clasică cu solvenți și uleiuri minerale pentru desfacerea șuruburilor și piulițelor ruginite, și versiuni biodegradabile pentru aplicații ecologice. Fiecare spray are valvă în 360° (funcționează și cu tubul în jos) și extensie subțire pentru locuri greu accesibile."
       },
       {
         name: "Degresanți și Curățătoare Industriale",
@@ -1445,7 +1445,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
     whyChoose: [
       "Precizie ridicată — transmițătoare cu acuratețe de până la ±0.04%, stabilitate pe termen lung, conform producătorului",
       "Fiabilitate ridicată — sisteme DCS cu uptime raportat de >99.99%, instalații cu durată lungă de utilizare",
-      "Gamă completă de instrumentație — presiune, temperatură, debit, nivel, pH, analize gaze și lichide",
+      "Gamă de instrumentație — presiune, temperatură, debit, nivel, pH, analize gaze și lichide",
       "Sisteme DCS scalabile — de la instalații mici până la instalații mari, în funcție de configurație",
       "Suport pe termen lung — condițiile pentru sistemele existente se confirmă la producător",
       "Certificări specifice fiecărui produs (de exemplu SIL, ATEX), conform fișelor tehnice"

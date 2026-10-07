@@ -361,7 +361,7 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
       'Seria 55 și 65 cu LED indicator stare – vezi imediat dacă releul e activat (fără multimetru)',
       'Temporizatoare multifuncționale – o singură serie acoperă mai multe funcții de temporizare',
       'Montaj rapid pe șină DIN, cu cleme detașabile care permit înlocuirea releului fără recablare',
-      'Fabricație în Italia cu rețea de distribuție în toată Europa – acces facil la gama completă de relee și temporizatoare'
+      'Fabricație în Italia cu rețea de distribuție în toată Europa – acces facil la gama de relee și temporizatoare'
     ],
     keyProducts: [
       {
@@ -1464,7 +1464,7 @@ Conectivitatea și protocoalele de comunicație disponibile depind de modelul al
       },
       {
         name: 'Pompe industriale Grundfos MAGNA3 (commercial/industrial HVAC)',
-        description: 'Seria heavy-duty pentru clădiri comerciale, spitale, hoteluri, industrie – debitul și înălțimea de pompare depind de model; le confirmăm pe cod, din documentația Grundfos. Motor cu rotor cu magneți de neodim; clasa de eficiență a motorului se confirmă din fișa tehnică. Control integrat cu mai multe moduri de reglare: AUTOADAPT, Constant Pressure, Proportional Pressure, Constant Flow, Constant Curve, Constant Temperature, și altele. Twin-head disponibil – două pompe în paralel, dacă una se defectează cealaltă preia 100%. Display grafic; funcțiile afișate se confirmă din fișa tehnică. Comunicație: Modbus RTU/TCP, BACnet MS/TP, Profibus DP, LonWorks – integrare completă în BMS. Senzor de presiune diferențială integrat – măsoară presiunea sistemului și reglează automat. Conexiuni flanșate de 25-100 mm (DN25-DN100), conform listei de prețuri Grundfos citate; gama completă se confirmă din fișa tehnică. Materialele diferă în funcție de model și se confirmă din fișa tehnică Grundfos. Valoarea EEI diferă în funcție de model și se confirmă din fișa tehnică. Temperatura maximă a lichidului depinde de model și se confirmă din fișa tehnică.'
+        description: 'Seria heavy-duty pentru clădiri comerciale, spitale, hoteluri, industrie – debitul și înălțimea de pompare depind de model; le confirmăm pe cod, din documentația Grundfos. Motor cu rotor cu magneți de neodim; clasa de eficiență a motorului se confirmă din fișa tehnică. Control integrat cu mai multe moduri de reglare: AUTOADAPT, Constant Pressure, Proportional Pressure, Constant Flow, Constant Curve, Constant Temperature, și altele. Twin-head disponibil – două pompe în paralel, dacă una se defectează cealaltă preia 100%. Display grafic; funcțiile afișate se confirmă din fișa tehnică. Comunicație: Modbus RTU/TCP, BACnet MS/TP, Profibus DP, LonWorks – integrare completă în BMS. Senzor de presiune diferențială integrat – măsoară presiunea sistemului și reglează automat. Conexiuni flanșate de 25-100 mm (DN25-DN100), conform listei de prețuri Grundfos citate; gama se confirmă din fișa tehnică. Materialele diferă în funcție de model și se confirmă din fișa tehnică Grundfos. Valoarea EEI diferă în funcție de model și se confirmă din fișa tehnică. Temperatura maximă a lichidului depinde de model și se confirmă din fișa tehnică.'
       },
       {
         name: 'Pompe solare Grundfos SOLAR pentru sisteme termice solare',

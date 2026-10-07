@@ -504,7 +504,7 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
       },
       {
         "code": "GYLON Style 3510",
-        "description": "Garnitură PTFE cu cea mai largă rezistență chimică din gamă"
+        "description": "Garnitură PTFE pentru fluide de proces deosebit de agresive"
       },
       {
         "code": "GYLON Style 3545",
@@ -538,7 +538,7 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
     faq: [
       {
         "q": "Ce diferență este între garniturile GYLON Style 3500 și Style 3510?",
-        "a": "Style 3500 de la Garlock este varianta universală, potrivită pentru majoritatea aplicațiilor din industria chimică și petrochimică, în timp ce Style 3510 este formulată pentru cea mai largă rezistență chimică din gama GYLON, recomandată acolo unde fluidul de proces este deosebit de agresiv sau variază frecvent. Alegerea greșită între cele două poate reduce durata de viață a garniturii."
+        "a": "Style 3500 de la Garlock este varianta universală, potrivită pentru majoritatea aplicațiilor din industria chimică și petrochimică, în timp ce Style 3510 este formulată pentru rezistență chimică extinsă, recomandată acolo unde fluidul de proces este deosebit de agresiv sau variază frecvent. Alegerea greșită între cele două poate reduce durata de viață a garniturii."
       },
       {
         "q": "Ce este o etanșare KLOZURE de la Garlock?",
@@ -570,7 +570,7 @@ Ce diferențiază Garlock este acoperirea largă pe industrii cu cerințe strict
     headquarters: "Paris, Franța",
     overview: `Nexans este un producător francez de cabluri electrice și de energie pentru instalații industriale, cu operațiuni în peste 40 de țări. Compania acoperă patru direcții principale: cabluri pentru clădiri și infrastructură locală (inclusiv e-mobilitate), cabluri de înaltă tensiune pentru proiecte de energie (parcuri eoliene offshore, interconectări subacvatice), rețele de date și telecomunicații, și cabluri pentru sectoare precum petrol, feroviar sau aeronautică. Pentru piața din România putem oferta din gama de cabluri industriale și de energie pentru instalații electrice și proiecte de infrastructură.
 
-Ce diferențiază Nexans este poziționarea explicită ca „pure player" pe electrificare sustenabilă, cu tehnologii precum cablurile supraconductoare de înaltă temperatură (HTS), care reduc pierderile de energie pe distanță, și calificarea unor cabluri submarine pentru instalare la adâncimi de până la 3.000 de metri. În categoria cablurilor industriale, Nexans se află alături de LAPP, cu accent pe proiecte mari de infrastructură energetică, spre deosebire de gama mai orientată spre automatizare a unor concurenți.
+Ce diferențiază Nexans este poziționarea explicită ca „pure player" pe electrificare sustenabilă, cu tehnologii precum cablurile supraconductoare de înaltă temperatură (HTS), care reduc pierderile de energie pe distanță, și calificarea unor cabluri submarine pentru instalare la adâncimi de până la 3.000 de metri. În categoria cablurilor industriale, Nexans pune accent pe proiecte mari de infrastructură energetică.
 
 În România, gama Nexans are sens pentru instalații electrice industriale, proiecte de infrastructură energetică și centre de date unde se cere un cablu certificat pentru o aplicație specifică (rezistență la foc, tensiune de lucru sau mediu de instalare).`,
     whyChoose: [
@@ -685,7 +685,7 @@ Ce diferențiază Weishaupt este orientarea spre arzătoare de putere mare pentr
 În România, gama Weishaupt are sens pentru cazane comerciale și industriale unde se cere un arzător dimensionat precis pentru combustibilul folosit, precum și pentru proiecte de modernizare a sistemelor de încălzire din clădiri mari. Piesele de uzură trebuie identificate după modelul exact al arzătorului instalat.`,
     whyChoose: [
       "Arzătoare comerciale și industriale cu puteri de până la 32.000 kW",
-      "Gamă completă de pompe de căldură pentru rezidențial și aplicații mixte",
+      "Gamă de pompe de căldură pentru rezidențial și aplicații mixte",
       "Companie germană deținută de familie, cu sediul și centrul de cercetare la Schwendi",
       "Centru propriu de cercetare și dezvoltare pentru tehnologie de ardere",
       "Portofoliu complementar de stocare apă caldă și colectoare solare",
@@ -1056,7 +1056,7 @@ Ce diferențiază Hazet este accentul pe precizie la sculele dinamometrice, unde
       "Scule dinamometrice folosite și în motorsport, prin parteneriatul cu Porsche Motorsport",
       "Seria Smart pentru organizarea sistematică a truselor de scule în atelier",
       "Design recunoscut prin premii internaționale (Red Dot, iF Design, German Innovation Award)",
-      "Gamă completă de la scule manuale la echipament de protecție a muncii",
+      "Gamă de la scule manuale la echipament de protecție a muncii",
     ],
     keyProducts: [
       { name: "Chei și Scule Dinamometrice", description: "Chei dinamometrice pentru strângere la cuplu precis, folosite în service auto și mentenanță industrială unde specificația tehnică a producătorului cere o valoare exactă de strângere. Precizia și intervalul de cuplu variază după model. Pentru ofertă avem nevoie de intervalul de cuplu necesar și tipul de antrenare (pătrat 1/2\", 3/8\" etc.)." },
@@ -1163,12 +1163,12 @@ Ce diferențiază Hazet este accentul pe precizie la sculele dinamometrice, unde
     name: "Kyoritsu",
     overview: `Kyoritsu (Kyoritsu Electrical Instruments Works) este un producător japonez de instrumente de măsurare electrică și echipament de testare, cu gamă centrată pe multimetre digitale și clești ampermetrici pentru electricieni și tehnicieni. Portofoliul include și testere de izolație, testere de priză de pământ, testere de tensiune, aparate de măsură a puterii cu logare de date, termometre, luxmetre și adaptoare pentru testarea stațiilor de încărcare a vehiculelor electrice (EVSE). Pentru piața din România putem oferta din gama de multimetre și clești ampermetrici folosiți în instalații electrice industriale.
 
-Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrumentele de măsurare electrică, spre deosebire de producători generaliști de instrumentație industrială. În categoria multimetrelor și clemelor ampermetrice, Kyoritsu se află alături de Fluke, cu un portofoliu orientat spre siguranța electrică — testarea izolației, a prizei de pământ și a instalațiilor înainte de punerea sub tensiune — completat recent de adaptoare pentru testarea infrastructurii de încărcare electrică.
+Ce diferențiază Kyoritsu este specializarea îngustă și adâncă pe instrumentele de măsurare electrică. În categoria multimetrelor și clemelor ampermetrice, Kyoritsu are un portofoliu orientat spre siguranța electrică — testarea izolației, a prizei de pământ și a instalațiilor înainte de punerea sub tensiune — completat recent de adaptoare pentru testarea infrastructurii de încărcare electrică.
 
 În România, gama Kyoritsu are sens pentru electricieni autorizați, firme de verificări periodice ale instalațiilor electrice și echipe de mentenanță industrială care au nevoie de instrumente de măsurare pentru verificări de siguranță, nu doar pentru diagnoză generală.`,
     whyChoose: [
       "Specializare pe instrumente de măsurare electrică, nu portofoliu generalist de instrumentație",
-      "Gamă completă pentru siguranță electrică: izolație, priză de pământ, tensiune",
+      "Gamă pentru siguranță electrică: izolație, priză de pământ, tensiune",
       "Clești ampermetrici și multimetre pentru diagnoză rapidă în teren",
       "Adaptoare dedicate pentru testarea infrastructurii de încărcare a vehiculelor electrice",
       "Aparate de măsură a puterii cu funcție de logare a datelor pentru monitorizare pe termen lung",

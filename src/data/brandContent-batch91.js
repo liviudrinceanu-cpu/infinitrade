@@ -67,7 +67,7 @@ Pentru un inginer de mentenanță din România, gama Hansford acoperă atât ret
     name: "Industrial Scientific",
     overview: `Industrial Scientific este un producător american de detectoare de gaze portabile și software de monitorizare a siguranței lucrătorilor. Gama acoperă monitoare personale cu unul până la șase gaze, monitoare de zonă pentru supravegherea unui perimetru și platforme software care conectează flotele de detectoare pentru alertare și raportare centralizată. Produsele sunt destinate lucrătorilor care intră în spații confinate sau în medii cu risc de gaze toxice ori combustibile.
 
-Spre deosebire de concurenți precum MSA Safety, Industrial Scientific pune accentul pe conectivitatea flotei de detectoare: platforma iNet Insights centralizează datele de la monitoarele unei companii într-un singur tablou de bord, iar SAFER One este un software separat de modelare dinamică a penei de gaz, pentru răspuns în timpul unei emisii chimice. Gama de monitoare merge de la modele single-gaz, precum GasBadge Pro, până la MX6 iBrid, configurabil pentru șase senzori simultan, inclusiv senzori de tip PID pentru compuși organici volatili.
+Industrial Scientific pune accentul pe conectivitatea flotei de detectoare: platforma iNet Insights centralizează datele de la monitoarele unei companii într-un singur tablou de bord, iar SAFER One este un software separat de modelare dinamică a penei de gaz, pentru răspuns în timpul unei emisii chimice. Gama de monitoare merge de la modele single-gaz, precum GasBadge Pro, până la MX6 iBrid, configurabil pentru șase senzori simultan, inclusiv senzori de tip PID pentru compuși organici volatili.
 
 Pentru echipe de mentenanță și HSE din România, gama Industrial Scientific oferă o alternativă la detectoarele consacrate, utilă mai ales acolo unde se dorește o platformă software unică pentru gestionarea mai multor monitoare din teren.`,
     whyChoose: [
@@ -183,13 +183,13 @@ Pentru integratori din România, Kathrein oferă o alternativă tehnică la mari
     headquarters: "Houston, Texas, SUA",
     overview: `Metrix Instrument este un producător american de sisteme de monitorizare a vibrațiilor pentru mașini rotative critice — turbine, compresoare și pompe mari din petrochimie și energie. Gama acoperă sisteme de proximitate pentru măsurarea directă a deplasării arborelui în lagăr, senzori seismici (accelerometre și senzori de viteză) pentru carcasă, transmițătoare de proces și comutatoare electronice de protecție, plus platforma integrată MX5000 pentru monitorizare continuă cu funcție de protecție.
 
-Spre deosebire de furnizorii axați pe senzori individuali, precum SKF, Metrix construiește sisteme complete conforme API 670, standardul de referință pentru protecția mașinilor critice în industria petrolieră: proximitorul măsoară deplasarea relativă a arborelui față de lagăr, senzorul seismic completează imaginea cu vibrația absolută a carcasei, iar sistemul MX5000 poate opri automat mașina la depășirea unui prag de vibrație, cu capacitate SIL 2 pentru aplicații de siguranță funcțională.
+Metrix construiește sisteme complete conforme API 670, standardul pentru protecția mașinilor critice în industria petrolieră: proximitorul măsoară deplasarea relativă a arborelui față de lagăr, senzorul seismic completează imaginea cu vibrația absolută a carcasei, iar sistemul MX5000 poate opri automat mașina la depășirea unui prag de vibrație, cu capacitate SIL 2 pentru aplicații de siguranță funcțională.
 
 Pentru rafinării, platforme și centrale din România, gama Metrix acoperă atât retrofitul unor puncte de măsură individuale, cât și proiecte complete de protecție a unei turbine sau a unui compresor conform cerințelor API 670.`,
     whyChoose: [
       "Sisteme de proximitate și senzori seismici conforme API 670, standardul de referință pentru protecția turbinelor",
       "Platforma MX5000 oferă capacitate SIL 2 pentru funcții de siguranță ale mașinii, nu doar afișare de valori",
-      "Gamă completă de comutatoare electronice de vibrație pentru oprirea automată la depășirea pragului",
+      "Gamă de comutatoare electronice de vibrație pentru oprirea automată la depășirea pragului",
       "Peste 60 de ani de experiență specializată exclusiv pe monitorizarea vibrațiilor mașinilor rotative",
       "ISO 9001 — Metrix menține certificarea sistemului de management al calității de peste 20 de ani"
     ],
@@ -249,7 +249,7 @@ Pentru rafinării, platforme și centrale din România, gama Metrix acoperă at�
     headquarters: "Berea, Ohio, SUA",
     overview: `NOSHOK este un producător american de instrumente de măsurare a presiunii, nivelului și temperaturii pentru industria de proces: manometre indicatoare, traductoare și transmițătoare de presiune, comutatoare, transmițătoare de nivel, termometre bimetal și RTD-uri, plus valve cu ac și manifold pentru instalarea acestora. Gama este organizată pe familii numerotate (Serii 100 până la 900), fiecare acoperind un tip constructiv sau un domeniu de presiune diferit.
 
-Spre deosebire de WIKA, cu care se compară direct pe segmentul de manometre industriale, NOSHOK oferă și linii dedicate zonelor cu risc: seriile 621/622 (antiexplozive), 623/624 (non-incendiare) și 625/626/628 (intrinsec sigure) acoperă aceeași funcție de traductor de presiune, dar cu certificări diferite pentru zone clasificate. Seria PTI de transmițătoare inteligente adaugă interfață IO-Link (PTI15 adaugă și afișaj local și funcție de comutator), iar gama de transmițătoare de nivel submersibile (Seriile 611 și 613) completează oferta pentru rezervoare și silozuri.
+NOSHOK oferă linii dedicate zonelor cu risc: seriile 621/622 (antiexplozive), 623/624 (non-incendiare) și 625/626/628 (intrinsec sigure) acoperă aceeași funcție de traductor de presiune, dar cu certificări diferite pentru zone clasificate. Seria PTI de transmițătoare inteligente adaugă interfață IO-Link (PTI15 adaugă și afișaj local și funcție de comutator), iar gama de transmițătoare de nivel submersibile (Seriile 611 și 613) completează oferta pentru rezervoare și silozuri.
 
 Pentru achizitori din România, gama NOSHOK oferă o alternativă de instrumentație de proces cu multe variante constructive disponibile pentru aceeași funcție de măsură, utilă atunci când specificația tehnică cere o anumită certificare pentru zonă clasificată.`,
     whyChoose: [
@@ -386,13 +386,13 @@ Pentru operatori din România care gestionează stații de gaze, platforme indus
     founded: 1983,
     overview: `Sensidyne este un producător american fondat în 1983, specializat în două direcții: eșantionarea aerului pentru igiena industrială (pompe personale și de zonă din gama Gilian) și sisteme fixe de detecție a gazelor pentru instalații industriale. Gama Gilian de pompe acoperă de la modele compacte pentru monitorizarea expunerii unui singur lucrător până la pompe de zonă cu debit mai mare, folosite la evaluarea calității aerului într-un spațiu de lucru.
 
-Spre deosebire de MSA Safety, cu accent pe monitoare portabile de gaz, Sensidyne are o gamă mai amplă pe partea de eșantionare a aerului: laboratorul de calibrare al Sensidyne este acreditat ISO 17025, iar sistemele fixe de detecție (SensAlarm Flex, SensAlert IR) completează oferta pentru instalații care au nevoie atât de monitorizare a expunerii lucrătorilor, cât și de detecție fixă a scăpărilor de gaz. Compania oferă și sisteme cu tuburi colorimetrice, o metodă simplă și rapidă de verificare punctuală a concentrației unui gaz.
+Sensidyne are linii dedicate eșantionării aerului: laboratorul de calibrare al Sensidyne este acreditat ISO 17025, iar sistemele fixe de detecție (SensAlarm Flex, SensAlert IR) completează oferta pentru instalații care au nevoie atât de monitorizare a expunerii lucrătorilor, cât și de detecție fixă a scăpărilor de gaz. Compania oferă și sisteme cu tuburi colorimetrice, o metodă simplă și rapidă de verificare punctuală a concentrației unui gaz.
 
 Pentru laboratoare de igienă industrială și instalații din România, gama Sensidyne acoperă atât nevoia de eșantionare certificată a aerului, cât și detecția fixă a gazelor, cu posibilitatea de a combina ambele tipuri de echipamente în același proiect.`,
     whyChoose: [
       "Laborator de calibrare acreditat ISO 17025, relevant pentru echipamentele de eșantionare a aerului",
       "ISO 9001:2015 — sistem de management al calității certificat la Sensidyne",
-      "Gamă completă de pompe Gilian, de la modele personale compacte la pompe de zonă cu debit mai mare",
+      "Gamă de pompe Gilian, de la modele personale compacte la pompe de zonă cu debit mai mare",
       "Sisteme fixe de detecție a gazelor cu variante cu fir (SensAlarm Flex) și fără fir (SensCast Wireless)",
       "Sisteme cu tuburi colorimetrice pentru verificare punctuală rapidă, fără instrument electronic"
     ],
@@ -451,11 +451,11 @@ Pentru laboratoare de igienă industrială și instalații din România, gama Se
     founded: 1967,
     overview: `Walrus Pump este un producător taiwanez de pompe de apă, înființat în 1967. Gama acoperă pompe centrifuge orizontale, verticale și submersibile, pompe cu inverter pentru presiune constantă și pompe cu șurub, folosite în distribuția și presurizarea apei pentru clădiri și agricultură.
 
-Spre deosebire de Wilden, orientat pe pompe pneumatice pentru transferul de fluide industriale, Walrus rămâne concentrat pe pomparea și presurizarea apei curate: seria TPH acoperă presiuni mai ridicate în construcție orizontală, TPRK adaugă etajare verticală pentru înălțimi de refulare mai mari, iar sistemele cu inverter (Constant Pressure Inverter Control) mențin presiunea constantă în rețea indiferent de variația consumului. Variantele cu tratament antimicrobian (seria B) sunt gândite pentru aplicații de apă potabilă unde igiena echipamentului contează suplimentar.
+Walrus este concentrat pe pomparea și presurizarea apei curate: seria TPH acoperă presiuni mai ridicate în construcție orizontală, TPRK adaugă etajare verticală pentru înălțimi de refulare mai mari, iar sistemele cu inverter (Constant Pressure Inverter Control) mențin presiunea constantă în rețea indiferent de variația consumului. Variantele cu tratament antimicrobian (seria B) sunt gândite pentru aplicații de apă potabilă unde igiena echipamentului contează suplimentar.
 
 Pentru instalatori și dezvoltatori din România, gama Walrus oferă o alternativă pentru sisteme de hidrofor și presurizare, cu opțiuni care merg de la pompe simple de uz casnic până la sisteme complete cu inverter pentru clădiri mai mari.`,
     whyChoose: [
-      "Gamă completă de pompe centrifuge orizontale, verticale și submersibile sub aceeași marcă",
+      "Gamă de pompe centrifuge orizontale, verticale și submersibile sub aceeași marcă",
       "Sisteme cu inverter pentru presiune constantă, adaptate automat la variația consumului din rețea",
       "Variante cu tratament antimicrobian (seria B) pentru aplicații de apă potabilă",
       "Producător taiwanez cu peste 55 de ani de experiență și distincții precum Taiwan Excellence și marca „IE3 Motor Inside”",
@@ -513,7 +513,7 @@ Pentru instalatori și dezvoltatori din România, gama Walrus oferă o alternati
     founded: 1979,
     overview: `HCP Pump Manufacturer este un producător taiwanez de pompe submersibile fondat în 1979, cu o gamă de peste 20 de serii acoperind drenaj, ape uzate, epuismente de șantier și aplicații industriale sau marine. Seriile sunt denumite prin cod scurt de literă (AF, FN, AL, GD, HD ș.a.), fiecare corespunzând unei configurații constructive — cu sau fără tăietor, cu evacuare laterală sau axială, pentru ape curate sau cu conținut solid.
 
-Spre deosebire de Tsurumi, cu care se compară direct pe segmentul de pompe submersibile pentru construcții, gama HCP acoperă și variante antiexplozive (AF/AL/GF-MS-Ex, certificate ATEX și IECEx) pentru zone clasificate, alături de serii dedicate iazurilor și bazinelor decorative (POND) sau pompelor pentru irigații (IC). Seria AFC (pompe cu tăietor) macină solidele din ape uzate înainte de evacuare, utilă acolo unde pompa alimentează o conductă cu diametru redus.
+Gama HCP acoperă variante antiexplozive (AF/AL/GF-MS-Ex, certificate ATEX și IECEx) pentru zone clasificate, alături de serii dedicate iazurilor și bazinelor decorative (POND) sau pompelor pentru irigații (IC). Seria AFC (pompe cu tăietor) macină solidele din ape uzate înainte de evacuare, utilă acolo unde pompa alimentează o conductă cu diametru redus.
 
 Pentru șantiere, stații de epurare și instalații industriale din România, gama HCP oferă o acoperire largă de aplicații de pompare submersibilă, de la epuismente temporare de șantier până la instalații fixe de drenaj pe termen lung.`,
     whyChoose: [

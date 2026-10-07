@@ -11,7 +11,7 @@ Compania a pornit din producția de componente pentru ascensoare și, din 1947, 
 
 Pentru fabricile din România cu linii vechi retrofitate, gama Schmersal permite înlocuirea întrerupătoarelor de siguranță uzate cu variante compatibile mecanic, dar cu funcții suplimentare de monitorizare — util la actualizarea unei celule robotizate sau a unei linii de ambalare fără să rescrii toată arhitectura de siguranță.`,
     whyChoose: [
-      "Gamă completă de siguranță funcțională — de la întrerupătorul mecanic simplu până la controlerul programabil de siguranță",
+      "Gamă de siguranță funcțională — de la întrerupătorul mecanic simplu până la controlerul programabil de siguranță",
       "Dispozitive certificate ATEX 2014/34/UE pentru zone cu atmosferă explozivă din industria chimică sau a prafului combustibil",
       "IO-Link Safety, listat de producător printre noutățile gamei",
       "Origini în producția de componente pentru ascensoare și de dispozitive mecanice de comutare",
@@ -143,7 +143,7 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
     ],
     keyProducts: [
       { name: "Reductor fără joc Galaxie G", description: "Reductor planetar la care jocul unghiular este eliminat printr-o construcție specială a angrenajului, nu doar redus la o valoare mică. Rapoarte de transmisie între 24 și 301, cupluri maxime între 350 și 6000 Nm, potrivit pentru axe de poziționare de mare precizie unde repetabilitatea la inversarea sensului de rotație e critică. Clientul trebuie să ne spună cuplul cerut de aplicație și raportul de transmisie dorit."},
-      { name: "Reductor planetar coaxial seria TP+", description: "Reductor coaxial cu joc unghiular redus, între 1 și 3 minute de arc, cu rapoarte de transmisie de la 4 la peste 300 și cupluri maxime între 43 și 22000 Nm — gama cu cea mai largă acoperire de cuplu din portofoliu, folosită pe axe mari de servoacționare din roboți industriali sau echipamente de manipulare."},
+      { name: "Reductor planetar coaxial seria TP+", description: "Reductor coaxial cu joc unghiular redus, între 1 și 3 minute de arc, cu rapoarte de transmisie de la 4 la peste 300 și cupluri maxime între 43 și 22000 Nm — gamă folosită pe axe mari de servoacționare din roboți industriali sau echipamente de manipulare."},
       { name: "Reductor planetar în unghi drept seria RP+", description: "Reductor cu axul de ieșire perpendicular pe cel de intrare, cu rapoarte de transmisie 4-220 și cupluri maxime între 352 și 10450 Nm, joc unghiular de maximum 1-3 minute de arc. Util acolo unde spațiul de montaj impune schimbarea direcției de transmisie, ca la unele axe de manipulatoare sau mese rotative."},
       { name: "Reductor planetar compact seria NP/CP", description: "Reductoare compacte, cu rapoarte de transmisie 3-100 și cupluri maxime între 17 și 800 Nm, cu joc unghiular de până la 8, respectiv 12 minute de arc, suficient pentru axe secundare unde costul contează mai mult decât precizia extremă."}
     ],
@@ -248,7 +248,7 @@ Seria EXQ-V de rulmenți sferici cu role este destinată de producător aplicaț
 Pentru fabricile din România cu echipamente rotative solicitate — reductoare, cutii de viteze, mașini de construcții — gama NACHI se potrivește ca alternativă sau completare la mărcile europene deja folosite, mai ales acolo unde sarcina radială sau axială depășește ce acoperă confortabil un rulment standard.`,
     whyChoose: [
       "Seria EXQ-V de rulmenți sferici cu role este destinată aplicațiilor cu vibrații, cu colivie cu rezistență sporită și rezistență îmbunătățită la coroziune",
-      "Gamă completă de rulmenți radiali și axiali, cu bile și cu role, pentru majoritatea tipurilor de arbori rotativi industriali",
+      "Gamă de rulmenți radiali și axiali, cu bile și cu role, pentru majoritatea tipurilor de arbori rotativi industriali",
       "Rulmenți radiali și axiali din catalogul producătorului, pentru diverse aplicații industriale",
       "Accesorii de montaj incluse în gamă (carcase, manșoane, inele de fixare), utile pentru instalare fără piese suplimentare de la alt furnizor",
       "Parte a grupului japonez Nachi-Fujikoshi, cu prezență de producție și distribuție pe mai multe continente"
@@ -980,7 +980,7 @@ Pe segmentul protecției muncii, grupul uvex include mărcile uvex safety, laser
 
 Pentru fabricile din România din automotive, metalurgie, construcții sau chimie, gama uvex acoperă dotarea completă a unui operator — de la protecție respiratorie și oculară până la mănuși și încălțăminte —, utilă atunci când doriți un singur furnizor pentru mai multe categorii de echipament individual de protecție.`,
     whyChoose: [
-      "Gamă completă de echipament individual de protecție, de la protecție respiratorie la încălțăminte tehnică",
+      "Gamă de echipament individual de protecție, de la protecție respiratorie la încălțăminte tehnică",
       "Familia silv-Air acoperă toate cele trei clase de protecție respiratorie FFP1, FFP2 și FFP3",
       "Tehnologie MIPS disponibilă pe unele căști, pentru reducerea forței de impact lateral la cap",
       "Mărci suplimentare în grup, printre care HexArmor (mănuși de protecție), Heckel și laservision pentru protecția muncii",
@@ -1078,7 +1078,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
     headquarters: "Santa Rosa, California, SUA",
     overview: `Keysight Technologies e un producător american de aparatură de măsură electronică, desprins în 2014 din Agilent Technologies și cu sediul la Santa Rosa, California. Gama de osciloscoape acoperă patru trepte de performanță: gama Essential (clasele XR1-XR3), cu bandă de 70 MHz-1 GHz și 2-5 GSa/s; gama Advanced (XR4-XR5), cu bandă de 200 MHz-1,5 GHz și 5-20 GSa/s; gama Expert (XR6), cu bandă de 500 MHz-6 GHz și 16 GSa/s; și gama Pro (XR8-XR9), cu bandă de 10-110 GHz și rate de eșantionare de 128-256 GSa/s. Pentru laboratoarele de service și dezvoltare din România putem oferta osciloscoape din oricare din aceste trepte, în funcție de banda de frecvență necesară.
 
-Diferența dintre Keysight și un concurent orientat spre teren precum Fluke stă în segmentul de bandă foarte largă: gama Pro, cu clasele XR8 și XR9, ajunge la 110 GHz, iar clasa XR8 folosește arhitectură multicore pe 12 biți până la 33 GHz, un nivel de performanță destinat cercetării și dezvoltării de semiconductori sau comunicații de mare viteză, nu mentenanței de teren. Există și osciloscoape modulare, în format PXI sau mainframe, cu benzi de 200 MHz-1 GHz, pentru sisteme de testare automatizată integrate în linii de producție.
+Pe segmentul de bandă foarte largă, gama Keysight Pro, cu clasele XR8 și XR9, ajunge la 110 GHz, iar clasa XR8 folosește arhitectură multicore pe 12 biți până la 33 GHz, un nivel de performanță destinat cercetării și dezvoltării de semiconductori sau comunicații de mare viteză, nu mentenanței de teren. Există și osciloscoape modulare, în format PXI sau mainframe, cu benzi de 200 MHz-1 GHz, pentru sisteme de testare automatizată integrate în linii de producție.
 
 Pentru laboratoarele de proiectare electronică și centrele de testare din România, gama Keysight se potrivește acolo unde precizia și banda de măsurare contează mai mult decât portabilitatea — dezvoltare de produse, testare de semnal RF sau validare de componente de mare viteză.`,
     whyChoose: [
@@ -1321,7 +1321,7 @@ Pentru laboratoarele și instalațiile de proces din România — stații de epu
       "Prezență proprie în România din 2006, cu sediu la Cluj-Napoca și certificare ISO 9001:2015 pentru service",
       "Specializare pe instrumentație pentru apă și procese lichide, cu peste 3.500 de produse în catalog",
       "4 unități de producție pe 3 continente, utile pentru continuitatea aprovizionării cu instrumente și consumabile",
-      "Gamă completă de la instrumente portabile de teren la echipamente de proces montate permanent",
+      "Gamă de la instrumente portabile de teren la echipamente de proces montate permanent",
       "Peste patru decenii de experiență specializată, de la înființarea din 1978 la Padova"
     ],
     keyProducts: [

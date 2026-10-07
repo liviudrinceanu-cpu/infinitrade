@@ -58,9 +58,41 @@ export async function buildClientIndexes(root = ROOT_DEFAULT) {
       search.push({ t: 'product', n: pt.name, c: cat.name, u: `/${cat.slug}/${pt.slug}`, k: [pt.name.toLowerCase(), cat.name.toLowerCase()].join('|') });
     }
   }
+  // v38 (07.10.2026): the header search also finds product codes and series
+  // (e.g. "MOVITRAC", "grundfos cr"). Each brand entry carries its published
+  // product codes (from brandContent, the same public
+  // catalogue references shown on the brand page), and every series page gets
+  // its own entry with its model codes. Matching is word-by-word in Header.js.
+  const content = await importDataFile(root, 'brandContent.js');
+  const getContent = content.getBrandContent || (() => null);
+  const clean = (v) => String(v || '').toLowerCase().replace(/\s+/g, ' ').trim();
   for (const brand of idx.allBrandsUnified) {
     const catName = brand.categories?.[0]?.name || '';
-    search.push({ t: 'brand', n: brand.name, c: catName, u: `/brand/${brand.simpleSlug}`, k: [brand.name.toLowerCase(), catName.toLowerCase(), (brand.country || '').toLowerCase()].join('|') });
+    const bc = getContent(brand.simpleSlug) || {};
+    // Series names: the key-product title before "(" (e.g. "CR/CRN",
+    // "SIMOTICS GP/SD/XP") plus upper-case model words from the key-product
+    // texts (e.g. SINAMICS, MOVITRAC); then the published product codes.
+    const STOP = new Set(['IP', 'IE', 'CE', 'EN', 'ISO', 'DN', 'PN', 'AC', 'DC', 'UE', 'EU', 'SUA', 'USA', 'UK', 'LED', 'IEC', 'ATEX', 'UL', 'CSA', 'NPT', 'BSP', 'HVAC', 'OEM', 'PDF', 'FAQ', 'PLC', 'CNC', 'SRL', 'SA', 'AG', 'GMBH', 'INC', 'LLC', 'KW', 'MW', 'PE', 'PP', 'PVC']);
+    const words = [];
+    for (const kp of bc.keyProducts || []) {
+      const title = String(kp.name || '').split('(')[0];
+      words.push(clean(title));
+      for (const m of `${title} ${kp.description || ''}`.matchAll(/\b[A-Z][A-Z0-9-]{1,14}\b/g)) {
+        if (!STOP.has(m[0]) && !/^\d/.test(m[0])) words.push(m[0].toLowerCase());
+      }
+    }
+    const codes = [...new Set([
+      ...words,
+      ...(bc.productCodes || []).map((pc) => clean(pc.code)),
+    ].filter((c) => c && c.length >= 2 && c.length <= 40))].slice(0, 45);
+    search.push({ t: 'brand', n: brand.name, c: catName, u: `/brand/${brand.simpleSlug}`, k: [brand.name.toLowerCase(), catName.toLowerCase(), (brand.country || '').toLowerCase(), ...codes].join('|') });
+  }
+  const seriesMod = await importDataFile(root, path.join('series', '_index.js'));
+  const brandName = new Map(idx.allBrandsUnified.map((b) => [b.simpleSlug, b.name]));
+  for (const s of seriesMod.seriesIndex || []) {
+    const bName = brandName.get(s.brand) || s.brand;
+    const models = (s.models || []).map((m) => clean(m.code)).filter(Boolean).slice(0, 30);
+    search.push({ t: 'series', n: `${bName} ${s.name}`, c: bName, u: `/brand/${s.brand}/${s.slug}`, k: [clean(s.name), clean(bName), clean(s.slug.replace(/-/g, ' ')), ...models].join('|') });
   }
 
   const menus = {};

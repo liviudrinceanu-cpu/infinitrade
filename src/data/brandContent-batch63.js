@@ -71,7 +71,7 @@ Ce diferențiază Walterscheid de alți producători de transmisii cardanice est
 
 Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje agricole unde un arbore cardanic sau o cuplă de siguranță trebuie înlocuită conform specificațiilor originale ale tractorului sau utilajului acționat.`,
     whyChoose: [
-      "Gamă completă de transmisii cardanice și cuple de siguranță, proiectată conform EN 12965:2019",
+      "Gamă de transmisii cardanice și cuple de siguranță, proiectată conform EN 12965:2019",
       "Sistem propriu ULTRA.PLUS în gama de transmisii cardanice",
       "Cutii de viteze ICVD® produse de Walterscheid Getriebe GmbH pentru utilaje agricole, de construcții și speciale",
       "Acoperire completă a sistemelor de atașare tractor — brațe, stabilizatoare, cuple de remorcare",
@@ -342,7 +342,7 @@ Pentru România, gama Gutekunst Federn are sens la ateliere de mentenanță și 
     whyChoose: [
       "Catalog propriu de peste 12.600 de arcuri standard, gata pentru identificare după dimensiune",
       "Variante «endless» pentru arcuri de compresiune și tracțiune, tăiate la lungimea cerută",
-      "Gamă completă de piese din sârmă formată — bucșe, spirale de protecție, cleme de siguranță",
+      "Gamă de piese din sârmă formată — bucșe, spirale de protecție, cleme de siguranță",
       "Orientare exclusiv B2B, cu focus pe industrie, nu pe vânzare cu amănuntul",
       "Acoperire pe sectoare exigente — tehnică medicală, construcția de aeronave",
     ],

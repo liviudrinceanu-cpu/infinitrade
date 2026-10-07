@@ -153,7 +153,7 @@ Pentru piața românească, Santerno are relevanță la retehnologizarea stații
     productCodes: [
       { code: "Iris Blue Plus", description: "invertor pentru controlul pompelor în aplicații din sectorul apei" },
       { code: "Sinus MV-X", description: "invertor de medie tensiune pentru motoare sincrone și asincrone" },
-      { code: "Sinus Penta", description: "invertor de medie tensiune, gamă completă de puteri industriale" },
+      { code: "Sinus Penta", description: "invertor de medie tensiune, gamă de puteri industriale" },
       { code: "Asamv-X", description: "soft starter de medie tensiune" },
       { code: "TG2000 BESS", description: "invertor bidirecțional pentru stocarea energiei (BESS)" },
       { code: "Automazione Industriale", description: "familia de invertoare și soft startere pentru control de motoare" },
@@ -188,7 +188,7 @@ Pentru un inginer mecanic din România, Elecon/Radicon are sens acolo unde e nev
     whyChoose: [
       "Cuplu de ieșire de peste 6 milioane Nm la reductoarele speciale — potrivit pentru aplicații industriale extreme",
       "Certificare dublă ISO 9001 și ISO 14001 pentru producția Radicon, marca europeană a grupului Elecon",
-      "Gamă completă de cuplaje mecanice (Elflex, Elign, HFC-A) pentru diverse cerințe de aliniere și flexibilitate",
+      "Gamă de cuplaje mecanice (Elflex, Elign, HFC-A) pentru diverse cerințe de aliniere și flexibilitate",
       "Gamă largă de transmisii: reductoare melcate, planetare, pentru turbine eoliene și navale, cuplaje și șuruburi de ridicare",
       "Rețea de producție pe mai multe continente — India, Thailanda, Marea Britanie și Suedia",
     ],
@@ -438,7 +438,7 @@ Pentru piața românească, Fluimac are sens la linii unde e nevoie de o pompă 
       "Certificare IECEx și variantă ATEX (Phoenix ATEX) pentru pomparea în zone cu risc de explozie",
       "Variantă conformă FDA (Phoenix FOOD) pentru linii din industria alimentară și băuturi",
       "Pompă dozatoare cu corp din PVDF (GM) pentru chimicale agresive și dozare de precizie",
-      "Gamă completă sub aceeași marcă — diafragmă, centrifuge, peristaltice și agitatoare",
+      "Gamă sub aceeași marcă — diafragmă, centrifuge, peristaltice și agitatoare",
       "Certificări multiple (CE, UKCA, IECEx) pentru piețe europene și britanice deopotrivă",
     ],
     keyProducts: [

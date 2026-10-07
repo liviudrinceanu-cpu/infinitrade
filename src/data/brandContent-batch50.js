@@ -147,7 +147,7 @@ Pentru un integrator sau un utilizator final din România, Hirschmann înseamnă
     headquarters: "Glatten, Germania",
     overview: `J. Schmalz este un producător german de tehnologie de vid, fondat în 1910 la Glatten și rămas până azi companie de familie. Gama acoperă ventuze și sisteme de prindere pe vid pentru roboți industriali, generatoare de vid, precum și echipamente de ridicare manuală asistată — de la sisteme compacte pentru ambalaje ușoare până la instalații pentru panouri grele de sticlă sau tablă metalică. Din portofoliul Schmalz putem oferta componente pentru linii de automatizare și pentru manipulare manuală ergonomică în depozite și producție.
 
-Punctul forte al Schmalz e acoperirea completă a lanțului de vid — de la ventuza propriu-zisă, prin generatorul de vid, până la senzorii care confirmă prinderea corectă a piesei, toate gândite să funcționeze împreună. Concurează cu alți producători specializați pe tehnologie de vid, precum Vuototecnica. Materialele ventuzelor variază după aplicație — cauciuc siliconic pentru contact alimentar, poliuretan pentru piese uleioase sau ascuțite.
+Schmalz acoperă lanțul de vid — de la ventuza propriu-zisă, prin generatorul de vid, până la senzorii care confirmă prinderea corectă a piesei, toate gândite să funcționeze împreună. Materialele ventuzelor variază după aplicație — cauciuc siliconic pentru contact alimentar, poliuretan pentru piese uleioase sau ascuțite.
 
 Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează piese cu suprafețe neuniforme sau fragile — sticlă, carton, folie — unde o gripă mecanică clasică ar deteriora produsul, sau la posturile de lucru unde operatorii ridică manual sarcini repetitive.`,
     whyChoose: [
@@ -254,7 +254,7 @@ Pentru fabricile din România, Schmalz are sens acolo unde roboții manipulează
     headquarters: "Alphen aan den Rijn, Olanda",
     overview: `Hyva este un producător olandez de componente hidraulice pentru transport și construcții, înființat în 1979 și cu sediul la Alphen aan den Rijn. Compania produce cilindri telescopici hidraulici pentru basculante, macarale hidraulice montate pe camion, sisteme de manipulare containere (hookloader și skiploader) și echipamente pentru colectarea deșeurilor. Din gama Hyva putem oferta cilindri de basculare și componente hidraulice pentru flote de transport greu și utilaje de construcții.
 
-Cilindrii telescopici Hyva sunt gândiți special pentru basculare — construcție cu mai multe trepte care se extind telescopic, potrivită pentru semiremorci și basculante unde spațiul sub șasiu e limitat. Sistemele de control și standardele aplicabile macaralelor hidraulice se confirmă din documentația Hyva pentru modelul ales. Concurează cu alți producători de cilindri și macarale hidraulice pentru transport, precum Bucher Hydraulics.
+Cilindrii telescopici Hyva sunt gândiți special pentru basculare — construcție cu mai multe trepte care se extind telescopic, potrivită pentru semiremorci și basculante unde spațiul sub șasiu e limitat. Sistemele de control și standardele aplicabile macaralelor hidraulice se confirmă din documentația Hyva pentru modelul ales.
 
 Pentru transportatorii și constructorii din România, Hyva înseamnă piese de schimb și componente pentru basculante, autogunoiere sau macarale hidraulice montate pe camion, acolo unde defecțiunea unui cilindru sau a unei macarale oprește un vehicul din exploatare.`,
     whyChoose: [
@@ -471,7 +471,7 @@ Pentru fabricile din România cu producție de serie — auto, electrocasnice, m
     name: "Halder",
     overview: `Halder este un producător german de elemente standard pentru construcția de mașini — bolțuri de indexare, arcuri de presiune, elemente de fixare cu clapetă și sisteme de canal T — cu peste 85 de ani de activitate în domeniu. Compania mai produce și scule de mână sub mărcile SIMPLEX și SUPERCRAFT, precum și bolțuri de blocare pentru aplicații aerospațiale conform standardelor NAS și MS. Din gama Halder putem oferta elemente normalizate pentru fixare rapidă și poziționare pe utilaje și dispozitive de producție.
 
-Elementele Halder sunt gândite ca piese normalizate, interschimbabile, pentru fixarea și poziționarea rapidă a dispozitivelor pe mașini-unelte — bolțuri de indexare cu resort pentru schimbare rapidă de dispozitive, mânere reglabile și elemente de operare pentru panouri de control. Compania concurează pe segmentul elementelor de mașini standard cu producători precum Norelem, ambii oferind cataloage extinse de piese normalizate DIN/ISO gata de montaj. Ciocanele SIMPLEX, cu cap din material moale interschimbabil, sunt o soluție cunoscută în ateliere mecanice pentru lovituri fără deteriorarea piesei prelucrate.
+Elementele Halder sunt gândite ca piese normalizate, interschimbabile, pentru fixarea și poziționarea rapidă a dispozitivelor pe mașini-unelte — bolțuri de indexare cu resort pentru schimbare rapidă de dispozitive, mânere reglabile și elemente de operare pentru panouri de control. Compania oferă cataloage extinse de piese normalizate DIN/ISO gata de montaj. Ciocanele SIMPLEX, cu cap din material moale interschimbabil, sunt o soluție cunoscută în ateliere mecanice pentru lovituri fără deteriorarea piesei prelucrate.
 
 Pentru ateliere de mentenanță și producători de dispozitive din România, Halder are sens acolo unde se folosesc frecvent bolțuri de indexare, mânere sau elemente de fixare standardizate, evitând proiectarea de la zero a unor piese simple, dar cu toleranțe stricte.`,
     whyChoose: [
@@ -913,7 +913,7 @@ Pentru procesatorii din România din lactate, băuturi sau industria farmaceutic
     headquarters: "Schwäbisch Gmünd-Bargau, Germania",
     overview: `Fein este un producător german de scule electrice de precizie, cu sediul la Schwäbisch Gmünd-Bargau și activitate din 1867 — compania revendică inventarea primei bormașini electrice de mână. Gama actuală acoperă scule oscilante MultiMaster, mașini de găurit magnetice din familia Slugger by Fein, polizoare unghiulare și mașini de șanfrenat și frezat capete de țeavă. Din portofoliul Fein putem oferta scule electrice pentru prelucrarea metalului, montaj industrial și lucrări de finisare.
 
-Fein se poziționează pe segmentul sculelor electrice profesionale de precizie orientate spre metal, nu pe cel general de construcții — mașinile de găurit magnetice Slugger găuresc oțel până la diametre mari cu adâncime de tăiere de câțiva centimetri, iar familia MultiMaster de scule oscilante a fost printre primele de acest tip pe piață. Concurează cu producători generaliști de scule electrice precum Bosch Professional, dar rămâne concentrat pe aplicații industriale de prelucrare a metalului și pe montaj auto sau interior, nu pe sculele de construcții civile.
+Fein se poziționează pe segmentul sculelor electrice profesionale de precizie orientate spre metal, nu pe cel general de construcții — mașinile de găurit magnetice Slugger găuresc oțel până la diametre mari cu adâncime de tăiere de câțiva centimetri, iar familia MultiMaster de scule oscilante a fost printre primele de acest tip pe piață. Rămâne concentrat pe aplicații industriale de prelucrare a metalului și pe montaj auto sau interior, nu pe sculele de construcții civile.
 
 Pentru ateliere de mentenanță, construcții metalice și montaj industrial din România, Fein are sens acolo unde se lucrează frecvent cu oțel gros — găurire cu mașini magnetice, șanfrenare țevi, tăiere table — nu la lucrări ocazionale de bricolaj unde o sculă generalistă e suficientă.`,
     whyChoose: [
@@ -1036,7 +1036,7 @@ Pentru ateliere de mentenanță, construcții metalice și montaj industrial din
     headquarters: "Suzhou, China",
     overview: `Insize este un producător chinez de instrumente de măsurare dimensională, cu sediul la Suzhou și activitate din 1995, pe o suprafață de fabrică de 32.000 m². Gama acoperă șublere și micrometre digitale, comparatoare și indicatoare digitale, mașini de măsurare prin viziune și proiectoare de profil, sisteme de scanare 3D, precum și instrumente de testare — duritate, rugozitate, defectoscopie. Din portofoliul Insize putem oferta instrumente de măsurare de uz curent pentru control dimensional în producție.
 
-Insize acoperă o gamă largă de metrologie dimensională de uz industrial — de la instrumente manuale de bază până la sisteme de măsurare prin viziune și scanare 3D pentru control automat. Compania concurează cu producători consacrați de instrumente de precizie precum Mitutoyo. Rețeaua de 20 de filiale internaționale susține distribuția și suportul tehnic pe mai multe continente.
+Insize acoperă o gamă largă de metrologie dimensională de uz industrial — de la instrumente manuale de bază până la sisteme de măsurare prin viziune și scanare 3D pentru control automat. Rețeaua de 20 de filiale internaționale susține distribuția și suportul tehnic pe mai multe continente.
 
 Pentru ateliere de producție și control calitate din România care au nevoie de instrumente de măsurare pentru uz zilnic — șublere, micrometre, comparatoare — Insize oferă o gamă largă de instrumente pentru măsurarea de uz curent în atelier.`,
     whyChoose: [
@@ -1150,13 +1150,13 @@ Pentru ateliere de producție și control calitate din România care au nevoie d
     headquarters: "Fjerritslev, Danemarca",
     overview: `Migatronic este un producător danez de aparate de sudură industriale, cu sediul la Fjerritslev și activitate de o jumătate de secol în domeniu, conform producătorului. Gama acoperă aparate MIG/MAG din familia Sigma Core, invertoare TIG din seria CenTIG (CenTIG 200, CenTIG 300 DC, CenTIG PRO), aparate MMA cu electrozi înveliți, plus echipamente de sudare și tăiere cu plasmă. Din portofoliul Migatronic putem oferta aparate de sudură pentru producție de serie și pentru mentenanță industrială.
 
-CenTIG 200 și CenTIG 300 DC sunt modele ale gamei CenTIG pentru sudare TIG; curentul maxim, tipul de alimentare, ciclul de lucru și greutatea se confirmă din fișa tehnică a modelului. Familia Sigma Core acoperă partea de sudare MIG/MAG pentru producție. Migatronic concurează cu alți producători de echipamente de sudură industrială.
+CenTIG 200 și CenTIG 300 DC sunt modele ale gamei CenTIG pentru sudare TIG; curentul maxim, tipul de alimentare, ciclul de lucru și greutatea se confirmă din fișa tehnică a modelului. Familia Sigma Core acoperă partea de sudare MIG/MAG pentru producție.
 
 Pentru ateliere de producție și mentenanță din România cu sudare frecventă — construcții metalice, reparații utilaje, producție de serie — gama Migatronic are sens acolo unde se sudează frecvent, nu ocazional.`,
     whyChoose: [
       "Gama CenTIG pentru sudare TIG, cu datele tehnice ale fiecărui model confirmate din fișa producătorului",
       "CenTIG 300 DC și CenTIG PRO pentru sudare TIG; greutatea și curentul maxim se confirmă din fișa modelului",
-      "Gamă completă de procese — MIG/MAG, TIG, MMA, plasmă — de la același producător, pentru un atelier cu nevoi variate",
+      "Gamă de procese — MIG/MAG, TIG, MMA, plasmă — de la același producător, pentru un atelier cu nevoi variate",
       "Condițiile de garanție ale producătorului se confirmă din documentația modelului ales",
     ],
     keyProducts: [
@@ -1262,7 +1262,7 @@ Pentru ateliere de producție și mentenanță din România cu sudare frecventă
     headquarters: "Lincolnshire, Illinois, SUA",
     overview: `Zebra Technologies este un producător american de echipamente pentru identificare automată și captură de date, înființat în 1969 și cu sediul la Lincolnshire, Illinois. Gama acoperă cititoare de coduri de bare 1D/2D cu fir sau wireless, imprimante desktop, mobile, industriale și portabile pentru etichete și tichete, cititoare și antene RFID, precum și calculatoare mobile robuste și tablete industriale. Din portofoliul Zebra putem oferta echipamente de scanare și etichetare pentru depozite, producție și puncte de vânzare.
 
-Zebra acoperă tot lanțul de identificare automată — de la scanarea codului de bare, prin imprimarea etichetei, până la citirea etichetelor RFID pentru trasabilitate la nivel de palet sau produs individual. Compania concurează cu alți producători de echipamente de scanare și identificare industrială, precum Datalogic, ambii acoperind gama de la scannere de mână până la sisteme fixe de citire pe linie. Software-ul Zebra DNA gestionează central flota de dispozitive mobile dintr-un depozit sau o fabrică.
+Zebra acoperă tot lanțul de identificare automată — de la scanarea codului de bare, prin imprimarea etichetei, până la citirea etichetelor RFID pentru trasabilitate la nivel de palet sau produs individual. Compania oferă scannere de mână și sisteme fixe de citire pe linie. Software-ul Zebra DNA gestionează central flota de dispozitive mobile dintr-un depozit sau o fabrică.
 
 Pentru depozite, centre de distribuție și linii de producție din România cu nevoie de trasabilitate — scanare recepție marfă, etichetare paleți, inventariere cu terminale mobile — echipamentele Zebra acoperă atât partea de scanare cât și cea de imprimare a etichetelor, integrate în același ecosistem de management al dispozitivelor.`,
     whyChoose: [
@@ -1373,7 +1373,7 @@ Pentru depozite, centre de distribuție și linii de producție din România cu 
     name: "Systemair",
     overview: `Systemair este un producător suedez de ventilatoare industriale și sisteme de ventilație, cu peste 50 de ani de activitate în domeniu. Gama include ventilatoare axiale din familia AXC-EC, ventilatoare de canal izolate fonic MUB, unități de tratare aer cu pompă de căldură integrată Geniox HP DFN și produse de distribuție a aerului. Din portofoliul Systemair putem oferta ventilatoare și unități de tratare aer pentru clădiri comerciale, industriale și rezidențiale.
 
-Systemair acoperă atât ventilația comercială — unități de tratare aer pentru clădiri de birouri — cât și cea industrială, cu ventilatoare de canal și axiale pentru hale de producție sau depozite frigorifice. Compania declară certificarea performanțelor prin programe independente de testare, precum AMCA Certified Ratings Programme, Eurovent Certified Performance și HVI Certified Ratings Programme, pentru produsele înscrise în aceste programe. Concurează cu alți producători europeni de ventilatoare industriale, precum Ziehl-Abegg, pe segmentul echipamentelor de ventilație pentru clădiri și procese industriale.
+Systemair acoperă atât ventilația comercială — unități de tratare aer pentru clădiri de birouri — cât și cea industrială, cu ventilatoare de canal și axiale pentru hale de producție sau depozite frigorifice. Compania declară certificarea performanțelor prin programe independente de testare, precum AMCA Certified Ratings Programme, Eurovent Certified Performance și HVI Certified Ratings Programme, pentru produsele înscrise în aceste programe.
 
 Pentru clădiri comerciale, hale industriale și depozite din România cu cerințe de ventilație sau climatizare, gama Systemair acoperă atât ventilatoare individuale de canal, cât și unități complete de tratare aer, utile la proiecte noi sau la înlocuirea unor echipamente de ventilație vechi și ineficiente energetic.`,
     whyChoose: [

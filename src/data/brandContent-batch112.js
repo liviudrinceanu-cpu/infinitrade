@@ -8,9 +8,9 @@ export const brandContentBatch112 = {
 
 Ce diferențiază gama Rollair este tehnologia iPM cu motor cu magnet permanent intern, folosită pe modelele cu viteză variabilă pentru a reduce consumul de energie față de un compresor clasic cu turație fixă; producătorul indică economii de până la 35%.
 
-Pentru un utilizator din România, Worthington Creyssensac înseamnă acces la o gamă completă — de la un compresor mic de atelier auto până la o stație de aer comprimat pentru o linie de producție — utilă la mentenanța preventivă a instalațiilor de aer comprimat.`,
+Pentru un utilizator din România, Worthington Creyssensac înseamnă acces la o gamă care merge de la un compresor mic de atelier auto până la o stație de aer comprimat pentru o linie de producție — utilă la mentenanța preventivă a instalațiilor de aer comprimat.`,
     whyChoose: [
-      "Gamă completă, de la compresoare mici de atelier până la instalații industriale de mare capacitate",
+      "Gamă de la compresoare mici de atelier până la instalații industriale de mare capacitate",
       "Tehnologie iPM cu magnet permanent pe modelele cu viteză variabilă, pentru consum redus de energie",
       "Variante fără ulei (SpiralAIR scroll, WisAIR cu injecție de apă) pentru aer comprimat curat",
       "Temperatura ambientală maximă de funcționare diferă de la model la model; o confirmăm pe cod, din documentația producătorului",
@@ -268,9 +268,9 @@ Pentru un service de utilaje sau un integrator din România, Hine Group înseamn
 
 Ceea ce diferențiază oferta Pedro Gil este acoperirea ambelor capete ale plajei de presiune joasă — de la suflante clasice cu lobi rotativi, robuste și simplu de întreținut, până la suflante turbo fără ulei, cu lagăre cu peliculă de aer (air foil). Gama de vid include atât pompe cu paletă pentru vid mediu, cât și pompe Roots cu trei lobi pentru vid mai profund, plus varianta cu cuplaj magnetic pentru aplicații unde o scurgere pe etanșare nu este acceptată. Grupurile compacte, montate pe cadru unic cu motor și accesorii, simplifică instalarea față de componentele cumpărate separat.
 
-Pentru un integrator sau un operator din România care lucrează cu transport pneumatic, aerare de bazine sau vid industrial, Pedro Gil oferă o gamă completă, de la un grup compact de vid pentru un laborator sau o linie mică, până la o suflantă pentru un bazin mare de acvacultură sau o stație de epurare.`,
+Pentru un integrator sau un operator din România care lucrează cu transport pneumatic, aerare de bazine sau vid industrial, Pedro Gil oferă o gamă care merge de la un grup compact de vid pentru un laborator sau o linie mică, până la o suflantă pentru un bazin mare de acvacultură sau o stație de epurare.`,
     whyChoose: [
-      "Gamă completă de presiune joasă — suflante cu lobi rotativi, suflante turbo și compresoare cu șurub fără ulei",
+      "Gamă de presiune joasă — suflante cu lobi rotativi, suflante turbo și compresoare cu șurub fără ulei",
       "Parte a grupului Ingersoll Rand",
       "Pompe de vid cu cuplaj magnetic, fără etanșare cu frecare, pentru aplicații fără scurgeri acceptate",
       "Grupuri compacte montate pe cadru unic, cu motor și accesorii integrate, simplu de instalat",

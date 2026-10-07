@@ -11,7 +11,7 @@ Familia de arzătoare GLSF FREE JET acoperă variante cu flacără plată sau ro
 
 Pentru o rafinărie sau un operator petrochimic din România, Zeeco are sens la retehnologizarea unui sistem de facle existent sau la înlocuirea unor arzătoare vechi cu variante cu emisii mai reduse, acolo unde limitele de NOx din autorizația de mediu s-au înăsprit față de proiectarea inițială a instalației.`,
     whyChoose: [
-      "Gamă completă de combustie — arzătoare, facle și oxidatori termici de la același producător, cu electronică de control integrată",
+      "Gamă de combustie — arzătoare, facle și oxidatori termici de la același producător, cu electronică de control integrată",
       "Familia GLSF FREE JET acoperă flacără plată și rotundă, cu emisii ultra-reduse de NOx pentru retrofit sau instalații noi",
       "Opțiuni de faclă pentru orice utilitate disponibilă pe platformă — asistate cu abur, cu aer sau neasistate",
       "Facle de sol închise pentru conformitate cu limitele de vizibilitate a flăcării în zone industriale sensibile",

@@ -311,7 +311,7 @@ Seria PEM (și varianta fără plumb PEM-LF) acoperă manometrele economice de u
 
 Pentru instalații din România unde manometrul montat direct pe conductă s-ar deteriora rapid din cauza mediului de proces, garniturile de separare din gama Winters permit montarea instrumentului la distanță de contactul direct cu fluidul, fără a schimba principiul de citire a presiunii.`,
     whyChoose: [
-      "Gamă completă pe trei niveluri — manometre economice PEM, de proces PPC și seria PTB",
+      "Gamă pe trei niveluri — manometre economice PEM, de proces PPC și seria PTB",
       "Presostate compacte din seriile 1WPS și 9WPS, cu detalii confirmate pe cod",
       "Garnituri de separare pe mai multe tipuri constructive (D10, D30, D44, D70, D71-70), cu materialele confirmate pe cod",
       "Variantă PEM-LF fără plumb, pentru instalații unde conformitatea cu restricțiile de plumb contează",

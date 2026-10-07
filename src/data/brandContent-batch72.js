@@ -334,7 +334,7 @@ Ce diferențiază gama industrială Galltec+Mela este acoperirea unor condiții 
 
 Pentru piața din România, Galltec+Mela înseamnă acces la senzori și transmițătoare de umiditate pentru instalații de climatizare, camere de uscare, depozite frigorifice și stații meteorologice, acolo unde precizia pe termen lung în condiții dificile contează mai mult decât prețul unui senzor generic.`,
     whyChoose: [
-      "Gamă completă de la transmițătoare economice HVAC până la variante industriale certificate ATEX",
+      "Gamă de la transmițătoare economice HVAC până la variante industriale certificate ATEX",
       "Seria POLYGA cu senzor cu fibră higrometrică, pentru umiditate ridicată",
       "Variante rezistente la presiune (până la 25 bar) și temperatură (până la 200°C) pentru medii industriale dificile",
       "Compatibilitate cu medii cu amoniac la variantele dedicate refrigerării industriale",

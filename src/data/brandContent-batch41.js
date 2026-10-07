@@ -5,7 +5,7 @@ export const brandContentBatch41 = {
     name: "Siko",
     founded: 1963,
     headquarters: "Buchenbach, Germania",
-    overview: `Siko este un producător german de traductoare de poziție și senzori de deplasare, cu sediul la Buchenbach, lângă Freiburg. Firma a fost înființată în 1963 de inginerul Günther Wandres, pornind de la roți de mână cu indicator de poziție analogic, și a ajuns astăzi la o gamă completă de senzoristică pentru poziționare. Din portofoliu putem oferta indicatoare de poziție digitale și analogice, encodere liniare magnetice, encodere rotative absolute și incrementale, traductoare cu cablu de tragere și inclinometre pentru utilaje mobile.
+    overview: `Siko este un producător german de traductoare de poziție și senzori de deplasare, cu sediul la Buchenbach, lângă Freiburg. Firma a fost înființată în 1963 de inginerul Günther Wandres, pornind de la roți de mână cu indicator de poziție analogic, și a ajuns astăzi la o gamă de senzoristică pentru poziționare. Din portofoliu putem oferta indicatoare de poziție digitale și analogice, encodere liniare magnetice, encodere rotative absolute și incrementale, traductoare cu cablu de tragere și inclinometre pentru utilaje mobile.
 
 Ce diferențiază Siko tehnic e trecerea, în ultimele decenii, de la mecanica de precizie clasică la măsurare magnetică fără contact — o soluție mai rezistentă la vibrații și murdărie decât riglele optice, dar cu precizie suficientă pentru majoritatea aplicațiilor de mașini industriale. Seria de encodere cu cablu de tragere oferă o alternativă compactă la tijele de măsurare rigide acolo unde spațiul de montaj e limitat sau cursa e mare. Gama include și variante certificate pentru circuite de siguranță, cu clasificări SIL2 și PLd, utile la utilajele unde poziția intră direct în lanțul de oprire de urgență.
 
@@ -132,7 +132,7 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
 
 Pe segmentul de acționare electrică, Fuji Electric oferă convertizoare de frecvență de joasă tensiune folosite la pompe, ventilatoare și benzi transportoare. Compania are un portofoliu mai larg decât un simplu producător de drives, incluzând și transformatoare turnate în rășină din seria MOLTRA, echipamente de distribuție de medie tensiune și sisteme de control pentru procese industriale complexe, ceea ce înseamnă compatibilitate de arhitectură între acționare și restul instalației electrice la proiecte mai mari.
 
-Pentru piața din România, gama de convertizoare Fuji Electric are sens la retehnologizarea liniilor de producție și la proiecte unde beneficiarul dorește o alternativă la mărcile europene consacrate, cu integrare prin automatistul de proiect și configurare pe parametrii concreți ai motorului acționat.`,
+Pentru piața din România, gama de convertizoare Fuji Electric are sens la retehnologizarea liniilor de producție și la proiecte unde beneficiarul dorește integrare prin automatistul de proiect și configurare pe parametrii concreți ai motorului acționat.`,
     whyChoose: [
       "Portofoliu extins de acționare — convertizoare de frecvență, motoare și sisteme servo din același producător, cu arhitectură de control compatibilă",
       "Convertizoare de frecvență de joasă tensiune — pentru pompe, ventilatoare și benzi transportoare",
@@ -246,7 +246,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
   "nke-austria": {
     name: "NKE Austria",
     headquarters: "Austria",
-    overview: `NKE Austria este un producător austriac de rulmenți, specializat atât în rulmenți standard cu bile și role, cât și în soluții personalizate pentru clienți industriali. Compania declară o rețea de peste 240 de parteneri comerciali în peste 60 de țări. Din gama NKE putem oferta rulmenți pentru aplicații industriale generale, ca alternativă la mărcile consacrate din categorie.
+    overview: `NKE Austria este un producător austriac de rulmenți, specializat atât în rulmenți standard cu bile și role, cât și în soluții personalizate pentru clienți industriali. Compania declară o rețea de peste 240 de parteneri comerciali în peste 60 de țări. Din gama NKE putem oferta rulmenți pentru aplicații industriale generale.
 
 NKE declară o politică de calitate strictă și utilizarea de echipamente avansate de testare și măsurare. Site-ul oficial nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
 
@@ -294,7 +294,7 @@ Pentru România, Kessel are sens la clădiri comerciale cu bucătării profesion
       "Separatoare de grăsimi ușor de întreținut — seria EasyClean, gândită pentru curățare rapidă în bucătării comerciale",
       "Certificare ISO 9001 — pentru dezvoltare, producție și service post-vânzare",
       "Prezență directă în România — filială locală, nu doar distribuție prin terți",
-      "Gamă completă de drenaj — de la anti-reflux la separatoare de lichide ușoare, sub același producător"
+      "Gamă de drenaj — de la anti-reflux la separatoare de lichide ușoare, sub același producător"
     ],
     keyProducts: [
       { name: "Stații de Pompare Hibride Seria Ecolift (M, L, XL)", description: "Stații compacte de ridicare a apelor uzate care integrează și funcția de protecție anti-reflux, în trei dimensiuni în funcție de debitul necesar. Se montează în subsoluri sau la puncte de canalizare situate sub nivelul rețelei publice, unde evacuarea gravitațională nu e posibilă. Clientul trebuie să transmită debitul de apă uzată estimat, înălțimea de pompare necesară și dacă instalația conține și ape fecaloide." },
@@ -701,7 +701,7 @@ Tehnic, gama Soudal se organizează pe familii de chimie diferite în funcție d
 
 Pentru România, produsele Soudal au sens la șantiere de construcții, la montaj de tâmplărie și fațade, și la aplicații industriale unde e nevoie de un adeziv sau etanșant cu fișă tehnică publică, verificabilă înainte de utilizare pe un proiect.`,
     whyChoose: [
-      "Gamă completă de chimie de construcție — spume PU, adezivi hibrizi și etanșanți tehnici de la același producător",
+      "Gamă de chimie de construcție — spume PU, adezivi hibrizi și etanșanți tehnici de la același producător",
       "Producător european independent — fabrici proprii pe cinci continente, inclusiv logistică în România",
       "Adezivi de montaj fără șuruburi — familia T-Rex Glue, pentru fixări de montaj fără elemente mecanice vizibile",
       "Fișe tehnice publice pentru fiecare produs — parametrii de rezistență și timp de uscare verificabili înainte de comandă"
@@ -1076,7 +1076,7 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
       "Producătorul se descrie ca unul dintre cei cinci mari producători de abrazive din lume — peste 50.000 de articole în portofoliu",
       "Linie de discuri de debitare recunoscută separat — familia Kronenflex, cu identitate proprie de brand",
       "Istorie tehnică de peste un secol — inovator al hârtiei abrazive rezistente la apă în Europa",
-      "Gamă completă pentru metal, lemn și piatră — un singur furnizor pentru majoritatea consumabilelor de debitare și șlefuire"
+      "Gamă pentru metal, lemn și piatră — un singur furnizor pentru majoritatea consumabilelor de debitare și șlefuire"
     ],
     keyProducts: [
       { name: "Discuri de Tăiere Kronenflex", description: "Discuri abrazive de debitare pentru metal, inox și materiale de construcție, una dintre liniile principale ale producătorului, montate pe polizoare unghiulare. Se aleg în funcție de materialul tăiat și diametrul mașinii folosite. Clientul trebuie să transmită diametrul discului necesar, tipul de material de tăiat și turația maximă a polizorului." },

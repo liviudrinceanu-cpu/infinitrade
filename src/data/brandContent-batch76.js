@@ -215,7 +215,7 @@ Gama proporțională acoperă valve direcționale, de presiune, de debit și ser
 
 Pentru instalațiile din România, gama Duplomatic e relevantă la mașini-unelte, prese hidraulice, bancuri de testare și linii unde reglarea fină de presiune sau debit trebuie integrată electronic în automatizarea existentă.`,
     whyChoose: [
-      "Gamă completă de valve proporționale — direcționale, de presiune, de debit și servo-proporționale",
+      "Gamă de valve proporționale — direcționale, de presiune, de debit și servo-proporționale",
       "Actuatori electrici ECL3/ECS3, alternativă la cilindrii hidraulici clasici",
       "Sisteme de termoreglare (chillere Daikin cu compresor cu inverter), cu specificații confirmate pe cod",
       "Parte din grupul Daikin Industries din 2022",
@@ -288,7 +288,7 @@ Gama acoperă cuple standard cu față plată (FF), cuple rotative pentru circui
 Pentru echipamentele agricole și de construcții din România, cuplele Holmbury sunt relevante la atașamentele hidraulice interschimbabile, unde deconectarea rapidă fără pierderi de ulei economisește timp la schimbarea uneltei pe utilaj.`,
     whyChoose: [
       "Unul dintre pionierii cuplei rapide cu față plată, cu design la baza standardului ISO 16028",
-      "Gamă completă — cuple cu față plată, cuple rotative, multi-cuple și valve cu bilă",
+      "Gamă — cuple cu față plată, cuple rotative, multi-cuple și valve cu bilă",
       "Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului",
       "Membru în asociații de profil precum BFPA și NFPA, semn de aliniere la standardele sectorului",
       "Prezență în America de Nord din 2003 și depozit european în Olanda din 2021"
@@ -523,11 +523,11 @@ Pentru utilajele din România din construcții, minerit și transport, un sistem
     headquarters: "Taipei, Taiwan",
     overview: `Mindman produce echipamente pneumatice de automatizare la Taipei, Taiwan, din 1979, cu o gamă ce acoperă electrovalve, cilindri, actuatori electrici, regulatoare electro-pneumatice și fitinguri pentru tuburi. Compania a primit distincții în 2024–2025: iF Design Award și MUSE Design Awards pentru designul interior al fabricii Pei-men, iar actuatorul electric compact MEJQ a primit în 2025 premiul Energy Efficiency Award (aur). Pentru România putem oferta electrovalve compacte cu acționare directă, actuatori electrici liniari și de tip gripper, plus fitinguri și tuburi pneumatice (categoria „Fittings & Tube”, PISCO).
 
-Compania a extins gama pneumatică clasică cu o linie de actuatori electrici — actuator compact MEJQZ cu motor integrat, actuatoare cu ghidaj dublu MEGSZ/MEGS și slider electric METI — pentru aplicații unde poziționarea trebuie controlată electric, nu doar pneumatic. Regulatoarele electro-pneumatice MAER100/MAER110 și presostatul de înaltă performanță MP48E completează gama pentru controlul precis al presiunii. În categoria echipamentelor pneumatice de automatizare, Mindman se compară cu Airtac, ambele oferind game largi de electrovalve, cilindri și componente conexe pentru linii industriale.
+Compania a extins gama pneumatică clasică cu o linie de actuatori electrici — actuator compact MEJQZ cu motor integrat, actuatoare cu ghidaj dublu MEGSZ/MEGS și slider electric METI — pentru aplicații unde poziționarea trebuie controlată electric, nu doar pneumatic. Regulatoarele electro-pneumatice MAER100/MAER110 și presostatul de înaltă performanță MP48E completează gama pentru controlul precis al presiunii.
 
 Pentru fabricile din România cu automatizare pneumatică sau electro-pneumatică, gama Mindman acoperă atât componentele de bază pentru un circuit pneumatic clasic, cât și actuatoarele electrice pentru aplicații de manipulare și asamblare de precizie.`,
     whyChoose: [
-      "Gamă completă de electrovalve, cilindri, actuatori electrici și fitinguri pentru automatizare",
+      "Gamă de electrovalve, cilindri, actuatori electrici și fitinguri pentru automatizare",
       "Actuatori electrici MEJQZ/MEGSZ/METI pentru poziționare controlată electric, nu doar pneumatic",
       "Regulatoare electro-pneumatice MAER pentru controlul precis al presiunii în circuit",
       "Fitinguri și tuburi pneumatice PISCO, în categoria „Fittings & Tube” a catalogului Mindman",

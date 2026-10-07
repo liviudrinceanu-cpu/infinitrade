@@ -11,7 +11,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
     whyChoose: [
       'Gamă ContiTech - curele trapezoidale, dințate, Multi-V și plate, conform site-ului producătorului',
       'Variante performante - pentru Conti SilentSync producătorul indică o creștere a puterii transmise de până la 80%',
-      'Gamă completă de profile - De la curele V clasice (SPZ, SPA, SPB, SPC) la curele dințate (HTD, AT, T) și curele plate speciale',
+      'Gamă de profile - De la curele V clasice (SPZ, SPA, SPB, SPC) la curele dințate (HTD, AT, T) și curele plate speciale',
       'Domeniu de temperatură - depinde de familia de curele și se confirmă pe cod',
       'Documentație - fișe tehnice și software de selecție publicate de producător',
       'Conti Synchromotion - curea dințată din poliuretan pentru transmisii orizontale silențioase, cu vibrații reduse'
@@ -466,7 +466,7 @@ Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instala�
 
 Sistemul de baterii XR FlexVolt comută automat între 20V MAX (18V nominal) pentru scule mai mici și 60V MAX (54V nominal) pentru scule mari, conform producătorului. Înseamnă că un instalator poate avea toată trusa alimentată de același tip de acumulator - de la șurubelniță impact la ferăstrău pendular, de la polizor la lanternă.
 
-Gama completă și specificațiile fiecărui model se confirmă pe cod, din paginile oficiale ale producătorului.`,
+Gama și specificațiile fiecărui model se confirmă pe cod, din paginile oficiale ale producătorului.`,
     whyChoose: [
       'Motoare brushless - disponibile pe numeroase modele din gamă, fără perii de cărbune',
       'Sistem de baterii FlexVolt - baterie compatibilă cu scule 20V MAX (18V nominal) și 60V MAX (54V nominal), conform producătorului',
@@ -872,13 +872,13 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
     founded: '1911',
     headquarters: 'Dublin, Irlanda',
     employees: '85,000+',
-    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri pentru diverse puteri, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
+    overview: `Eaton e producător mondial de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri pentru diverse puteri, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
 
 Dispozitivele AFDD (Arc Fault Detection Device, dispozitiv de detectare a arcului electric) detectează arcurile electrice periculoase care pot cauza incendii; cerința de montare depinde de normele naționale și de proiect. Întrerupătoarele automate modulare Eaton xEffect (de exemplu seria FAZ6) au curenți nominali de la 0,5 A până la 63 A și capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
 Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectați o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când aveți nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
     whyChoose: [
-      'Gamă completă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
+      'Gamă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
       'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice periculoase, conform documentației producătorului',
       'UPS dublă conversie online - Protecție pentru echipamente IT critice; la 9PX eficiența este de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model',
       'Integrare digitală IoT - Toate echipamentele comunicare Modbus RTU/TCP, Ethernet/IP, Profinet pentru industrie 4.0',
