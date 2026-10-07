@@ -83,6 +83,11 @@ export const ctaMessages = {
 // care pot fi numiți pe site. Continental Automotive Products NU apare: condițiile
 // generale de achiziție Continental (cl. 15) cer acord scris pentru orice
 // referire la relația comercială — se adaugă doar cu acordul scris.
+// v38.2 (07.10.2026, OK proprietar): profilul Google Business existent al firmei
+// (fișa Google Maps; același NAP: Calea Lugojului 47/B, Hala 3, 0371 232 404).
+// Linkul duce la fișa Google, nu la alt site.
+export const GOOGLE_BUSINESS_PROFILE_URL = 'https://www.google.com/maps?cid=11728605131565765388';
+
 export const companyContact = {
   name: 'Departamentul de vânzări',
   email: 'vanzari@infinitrade-romania.ro',

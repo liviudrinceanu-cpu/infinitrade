@@ -16,7 +16,7 @@ const verificationLinks = [
   {
     name: 'Portal SEAP e-Licitație',
     url: 'https://www.e-licitatie.ro/pub',
-    description: 'Caută "Driatheli Group" pentru contracte publice',
+    description: 'Căutați "Driatheli Group" pentru contracte publice',
   },
   {
     name: 'Verificare Fiscală ANAF',

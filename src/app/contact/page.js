@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink 
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { companyInfo } from '@/data/company';
+import { companyInfo, GOOGLE_BUSINESS_PROFILE_URL } from '@/data/company';
 import { CLIENT_CATEGORIES as categories } from '@/data/headerMenus';
 import { BRAND_CATEGORY_SLUGS } from '@/data/brandCategorySlugs';
 import { siteStats } from '@/data/siteStats';
@@ -626,6 +626,11 @@ export default function ContactPage() {
               <div className={styles.mapHeader}>
                 <h2>Sediu și depozit</h2>
                 <p>Calea Lugojului 47/B, Hala 3, Ghiroda, Timiș 307200</p>
+                <p>
+                  <a href={GOOGLE_BUSINESS_PROFILE_URL} target="_blank" rel="noopener noreferrer">
+                    Vedeți profilul nostru pe Google Maps (program, indicații rutiere, recenzii) <ExternalLink size={14} aria-hidden="true" />
+                  </a>
+                </p>
               </div>
               <div className={styles.mapContainer}>
                 <iframe

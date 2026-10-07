@@ -391,7 +391,7 @@ export default function Header() {
                   <Search size={20} className={styles.searchIcon} aria-hidden="true" />
                   <input
                     type="text"
-                    placeholder="Caută branduri, produse, echipamente..."
+                    placeholder="Căutați branduri, serii, coduri de produs..."
                     value={searchQuery}
                     onChange={handleSearchChange}
                     onFocus={() => { setIsSearchFocused(true); loadSearchIndex().catch(() => {}); }}
