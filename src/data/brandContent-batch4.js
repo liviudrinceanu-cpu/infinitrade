@@ -1,15 +1,15 @@
 export const brandContentBatch4 = {
   'schneider-electric': {
     founded: 1836,
-    headquarters: 'Le Creusot, Franța',
-    employees: '135,000+',
-    overview: `Când vorbești despre Schneider Electric, vorbești despre o companie care a văzut de toate — de la forjarea fierului în Le Creusot în epoca industrială, la automatizări inteligente pentru clădiri întregi. Fondată în 1836, Schneider a trecut prin mai multe transformări decât majoritatea companiilor își pot imagina: de la producția de armament și locomotive, la echipamente electrice, și acum... la platforma EcoStruxure care conectează totul prin IoT și AI.
+    headquarters: 'Rueil-Malmaison, Franța',
+    employees: '160,000',
+    overview: `Schneider Electric este o companie cu o istorie industrială lungă: de la turnătoria din Le Creusot din epoca industrială la automatizări pentru clădiri întregi. Fondată în 1836, Schneider a trecut prin mai multe transformări decât majoritatea companiilor își pot imagina: de la producția de armament și locomotive, la echipamente electrice, și acum... la platforma EcoStruxure care conectează totul prin IoT și AI.
 
-Ce face Schneider special? Ei nu vând doar componente — vând ecosisteme complete. Când instalezi un PLC Modicon M580 sau un HMI Magelis GTU, îl integrezi într-o arhitectură care vorbește cu totul: de la sursa de alimentare UPS Galaxy până la variatorii Altivar care reglează motoarele. Totul e gândit să comunice, să optimizeze consumul energetic și să dea date în timp real. Centralizarea automației pe platforma EcoStruxure poate reduce consumul energetic, conform documentației producătorului.
+Gama Schneider Electric este construită ca un sistem: un PLC (Programmable Logic Controller, controler logic programabil) Modicon M580 sau un panou HMI (Human-Machine Interface, interfață om-mașină) Magelis se integrează în arhitecturi care includ surse UPS Galaxy și variatoare de frecvență Altivar, conform documentației producătorului. Centralizarea automației pe platforma EcoStruxure poate reduce consumul energetic, conform documentației producătorului.
 
-Schneider nu este opțiunea cu cel mai mic preț de listă. Plătești premium pentru aceste soluții, dar primești suport tehnic solid, piese de schimb disponibile pe termen lung și compatibilitate backward utilă la modernizarea instalațiilor vechi. Gama lor de întreruptoare automate și contactoare este frecvent întâlnită în tablourile electrice industriale din România.
 
-Infinitrade distribuie gama industrială Schneider Electric pentru automatizări, variație de frecvență și distribuție electrică, fără partea rezidențială (prize, întreruptoare pentru case) — doar echipamentele pentru fabrici, utilități și infrastructură. Pentru un sistem de management energetic sau o soluție SCADA pentru o linie de producție, echipa ajută la configurarea necesară.`,
+
+Infinitrade poate oferta la comandă echipamente din gama industrială Schneider Electric pentru automatizări, variație de frecvență și distribuție electrică. Pentru un sistem de management energetic sau o soluție SCADA, vă ajutăm la identificarea referințelor potrivite din documentația producătorului; configurarea software rămâne în sarcina integratorului sau a producătorului.`,
     whyChoose: [
       'Platformă unificată EcoStruxure pentru automatizare completă și management energetic inteligent',
       'Istorie de aproape 200 de ani în inginerie electrică și automatizări industriale',
@@ -19,19 +19,19 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     keyProducts: [
       {
         name: 'PLCs Modicon (M580, M340, M241)',
-        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic bun și se integrează cu restul ecosistemului Schneider. M340 este folosit frecvent în fabrici cu funcționare continuă.`,
+        description: `Controlere programabile de la entry-level M241 pentru mașini simple, până la M580 redundant pentru procese critice. Programare în Unity Pro sau EcoStruxure Control Expert. Sunt robuste, cu diagnostic bun și se integrează cu restul ecosistemului Schneider. `,
       },
       {
         name: 'HMI Magelis (GTU, STU, XBT GT)',
-        description: `Panouri operator de la 4" până la 15", touchscreen color, programare în Vijeo Designer. Sunt intuitive — operatorii învață să le folosească rapid. Plus că au rezistență industrială la praf, umiditate și șocuri. Potrivite pentru linii de producție și stații de pompare.`,
+        description: `Panouri operator touchscreen color; dimensiunea ecranului și software-ul de programare depind de model, conform documentației producătorului. Gradul de protecție la praf, umiditate și șocuri depinde de model și se confirmă din fișa tehnică. Potrivite pentru linii de producție și stații de pompare.`,
       },
       {
         name: 'Variatori de frecvență Altivar (ATV320, ATV630, ATV930)',
-        description: `Gama completă de VFD-uri pentru motoare asincrone: de la ATV320 compact pentru aplicații simple (pompe, ventilatoare), la ATV930 pentru mașini complexe cu control vectorial și sincronizare multi-axe. Parametrizarea e ușoară prin Somove, iar diagnosticul integrat îți spune exact ce s-a întâmplat când apare o eroare. Economie de energie posibilă la pompe cu turație variabilă, conform documentației producătorului.`,
+        description: `Gamă de variatoare de frecvență (VFD - Variable Frequency Drive) pentru motoare asincrone, de la ATV320, compact, la ATV930, pentru aplicații mai complexe; alegerea depinde de aplicație și de documentația producătorului. Parametrizarea se poate face cu software-ul SoMove, iar diagnosticul integrat ajută la identificarea cauzei unei erori. Economie de energie posibilă la pompe cu turație variabilă, conform documentației producătorului.`,
       },
       {
         name: 'Distribuție electrică (Compact NSX, Acti9)',
-        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 e standard pentru automatizări mici și medii, iar Compact NSX e ce folosești pentru curenți mari și aplicații critice. Declanșare electronică, comunicație Modbus — totul ce ai nevoie pentru un tablou modern care vorbește cu sistemul de supervizare.`,
+        description: `Întreruptoare automate modulare și în carcasă pentru protecție și distribuție în tablouri electrice industriale. Seria Acti9 este destinată distribuției modulare, iar Compact NSX întreruptoarelor în carcasă turnată pentru curenți mai mari; opțiunile de declanșare electronică și de comunicație (de exemplu Modbus) depind de modelul ales.`,
       },
     ],
     certifications: [
@@ -42,13 +42,13 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     ],
     industries: [
       'Automatizări industriale',
-      'Infrastructure critică (apă, energie)',
-      'Building automation',
-      'Oil & Gas',
-      'Food & Beverage',
-      'Data centers',
+      'Infrastructură critică (apă, energie)',
+      'Automatizarea clădirilor',
+      'Petrol și gaze',
+      'Industria alimentară și băuturi',
+      'Centre de date',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, trimite-ne codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și un preț calculat pentru cererea ta, fără presupuneri.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice ale Schneider Electric și nu deținem date proprii de stoc pentru fiecare cod din gama industrială — verificăm disponibilitatea reală înainte să confirmăm un termen. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană: componentele uzuale ajung, ca formulare generală a firmei, de regulă în 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni, în funcție de producător. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul complet al produsului (de exemplu o referință Modicon, Altivar sau Acti9), cantitatea necesară și termenul dorit. Revenim cu disponibilitatea confirmată și cu o ofertă pentru cererea dumneavoastră.`,
     limitation: `Nu putem confirma acoperirea automată în garanția producătorului pentru toate echipamentele Schneider Electric și nu realizăm noi configurarea software a modulelor EcoStruxure; pentru aceste situații recomandăm contactul direct cu producătorul.`,
     sources: [
       {"title":"Modicon master range","url":"https://www.se.com/ww/en/work/products/master-ranges/modicon/","publisher":"Schneider Electric","accessed":"2026-09-23"},
@@ -74,7 +74,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       },
       {
         "code": "M258",
-        "description": "PLC cu capacitate de la 42 la 2400 intrări-ieșiri"
+        "description": "PLC cu 42 intrări-ieșiri în configurația compactă, extensibil până la 2400 prin modulele TM5; serie retrasă din comercializare (încheierea comercializării: 30.06.2026), succesor Modicon M262"
       },
       {
         "code": "LMC058",
@@ -82,7 +82,7 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       },
       {
         "code": "PacDrive 3 LMC Eco",
-        "description": "Controler de mișcare pentru linii cu până la 130 axe"
+        "description": "Controler de mișcare din familia PacDrive 3 LMC (familia acoperă 0–130 axe servo sau robot; numărul de axe pentru LMC Eco se confirmă pe cod)"
       },
       {
         "code": "PacDrive 3 LMC Pro",
@@ -140,8 +140,8 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -150,31 +150,31 @@ Infinitrade distribuie gama industrială Schneider Electric pentru automatizări
     founded: 1931,
     headquarters: 'Bruchsal, Germania',
     employees: '21,000+',
-    overview: `SEW Eurodrive este un nume de referință în motoreductoare industriale. Fondată în 1931 în Bruchsal, compania s-a impus prin modularitate extinsă în tehnologia de antrenare. Când comanzi un SEW, alegi din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină modular, ca piesele unui sistem industrial bine gândit.
+    overview: `SEW Eurodrive este un nume de referință în motoreductoare industriale. Fondată în 1931 în Bruchsal, compania s-a impus prin modularitate extinsă în tehnologia de antrenare. Când comandați un SEW, alegeți din mii de combinații posibile — motor, reductor, frână, encoder, invertor — totul se îmbină modular, ca piesele unui sistem industrial bine gândit.
 
 Un punct forte al SEW este filosofia de "decentralizare". În loc să tragi cabluri de la un dulap de comandă la motoare, invertorul se montează direct pe motoreductor — seria MOVIGEAR. Rezultatul: mai puține cabluri, mai puțină muncă de instalare, mai puțină întreținere și diagnoză simplificată (LED-uri pe fiecare antrenare care indică starea de funcționare).
 
-Motoductoarele clasice — seriile R, F, K, S — completează gama: reducoare cilindrice, coaxiale, melcate, cu ax paralel, pentru majoritatea rapoartelor de transmisie uzuale. Componentele standard au, de regulă, termene de livrare de ordinul săptămânilor, nu al lunilor. Plus service disponibil local — SEW România are centru la București cu ingineri care vin la fața locului pentru puneri în funcțiune și training.
+Motoreductoarele clasice — seriile R, F, K, S — completează gama: reducoare cilindrice, coaxiale, melcate, cu ax paralel, pentru majoritatea rapoartelor de transmisie uzuale. Componentele standard au, de regulă, termene de livrare de ordinul săptămânilor, nu al lunilor. Plus service disponibil local — SEW-EURODRIVE are filială în România, iar serviciile de punere în funcțiune și training sunt oferite de rețeaua producătorului.
 
-Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoare compacte pentru transportoare simple, la sisteme complexe cu servomotoare și controlere CNC, pentru benzi rulante, elevatoare industriale, mixere sau linii de ambalare. Pentru cerințe urgente, disponibilitatea la producător pentru dimensiunile cerute frecvent în piața românească se verifică rapid, iar termenul de livrare se comunică pe baza acestei verificări.`,
+Infinitrade poate oferi la comandă produse SEW Eurodrive: de la motoreductoare compacte pentru transportoare simple, la sisteme complexe cu servomotoare și controlere CNC, pentru benzi rulante, elevatoare industriale, mixere sau linii de ambalare. Pentru cerințe urgente, disponibilitatea la producător pentru dimensiunile cerute frecvent în piața românească se verifică rapid, iar termenul de livrare se comunică pe baza acestei verificări.`,
     whyChoose: [
-      'Modularitate extinsă — numeroase configurații din componente standard cu livrare rapidă',
+      'Modularitate extinsă — numeroase configurații din componente standard',
       'MOVIGEAR — antrenări descentralizate cu invertor integrat, pentru instalații mai curate',
       'Fiabilitate ridicată — motoductoare orientate spre funcționare de lungă durată',
-      'Service local în România cu ingineri pentru puneri în funcțiune și training',
+      'Servicii de punere în funcțiune și training oferite de rețeaua SEW-EURODRIVE',
     ],
     keyProducts: [
       {
         name: 'MOVIGEAR — Antrenări descentralizate',
-        description: `Motoreductor cu invertor integrat, comunicație prin cablu hibrid (putere + date în același fir) și configurare prin aplicație mobilă. Instalarea este mai rapidă decât la sistemele clasice, iar diagnosticul e vizual — LED-uri pe fiecare unitate. Potrivit pentru transportoare modulare, linii de ambalare, intralogistică.`,
+        description: `Motoreductor cu invertor integrat, comunicație prin cablu hibrid (putere + date în același cablu). Instalarea este mai rapidă decât la sistemele clasice, iar diagnosticul e vizual — LED-uri pe fiecare unitate. Potrivit pentru transportoare modulare, linii de ambalare, intralogistică.`,
       },
       {
-        name: 'Motoductoare seria R, F, K, S',
-        description: `Gama clasică de reducoare industriale: R (cilindrice coaxiale), F (cilindrice cu axe paralele), K (conice-cilindrice), S (melcate). Rapoarte de la 1.3:1 la peste 20,000:1, puteri de la 0.12 kW la sute de kW. Construcție modulară — poți adăuga frână, ventilator forțat, encoder, backstop. Sunt folosite frecvent în industrie pentru aplicații generale: transportoare, mixere, extractoare, presoare.`,
+        name: 'Motoreductoare seria R, F, K, S',
+        description: `Gama clasică de reductoare industriale: R (cilindrice coaxiale), F (cilindrice cu axe paralele), K (conice-cilindrice), S (melcate). Rapoartele de transmisie și puterile depind de serie și mărime și se confirmă din catalogul SEW-EURODRIVE. Construcție modulară — puteți adăuga frână, ventilator forțat, encoder, backstop. Sunt folosite frecvent în industrie pentru aplicații generale: transportoare, mixere, extractoare, presoare.`,
       },
       {
         name: 'Invertoare MOVIMOT, MOVIDRIVE',
-        description: `Variatori de frecvență pentru motoare asincrone și sincrone: MOVIMOT pentru aplicații simple (montaj direct pe motor), MOVIDRIVE pentru aplicații complexe cu control vectorial, profiluri de viteză și sincronizare multi-axe. Parametrizare ușoară prin MOVITOOLS, comunicație industrială (Profibus, Profinet, EtherCAT). Diagnoză inteligentă care îți spune exact ce parametru să ajustezi când ceva nu merge optim.`,
+        description: `Variatori de frecvență pentru motoare asincrone și sincrone: MOVIMOT pentru aplicații simple (montaj direct pe motor), MOVIDRIVE pentru aplicații complexe cu control vectorial, profiluri de viteză și sincronizare multi-axe. Parametrizare ușoară prin MOVITOOLS, comunicație industrială (Profibus, Profinet, EtherCAT).`,
       },
       {
         name: 'Servosisteme MOVIAXIS, MOVI-C',
@@ -189,13 +189,13 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
     ],
     industries: [
       'Intralogistică (transportoare, sortare)',
-      'Food & Beverage (mixere, transportoare)',
+      'Industria alimentară și a băuturilor (mixere, transportoare)',
       'Automotive (linii de asamblare)',
-      'Cement și agregate (reducere heavy-duty)',
-      'Waste & Recycling',
-      'Packaging (mașini de ambalat)',
+      'Cement și agregate (reductoare pentru sarcini grele)',
+      'Gestionarea deșeurilor și reciclare',
+      'Ambalare (mașini de ambalat)',
     ],
-    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 1–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația ta.`,
+    infinitrade: `Pentru SEW-Eurodrive pornim de la datele publicate de producător și de la ce putem verifica direct la cerere — nu avem date proprii despre stocul real al fiecărei configurații posibile. Motoreductoarele și accesoriile ajung prin canale de aprovizionare din Uniunea Europeană: pentru dimensiunile cerute frecvent putem oferi, ca regulă generală a firmei, uneori 24–72 h din stoc, fără să promitem asta pentru un cod anume, iar restul configurațiilor se aduc la comandă în 1–4 săptămâni. Ca să pregătim o ofertă corectă, avem nevoie de tipul reductorului sau motorului, raportul de transmisie și tensiunea de alimentare dorită. Revenim cu termenul real de livrare și configurația potrivită pentru aplicația dumneavoastră.`,
     limitation: `Nu putem confirma punerea în funcțiune sau intervențiile acoperite de garanția producătorului pentru fiecare configurație SEW-Eurodrive și nu oferim noi training la fața locului; aceste servicii rămân în sarcina rețelei tehnice a producătorului.`,
     sources: [
       {"title":"Helical and Bevel-Helical Gear Units X.. Series","url":"https://download.sew-eurodrive.com/download/pdf/16931211.pdf","publisher":"SEW-EURODRIVE","accessed":"2026-09-22"},
@@ -261,7 +261,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
       },
       {
         "code": "OWP",
-        "description": "Pompa de răcire cu apă pentru reductoare"
+        "description": "Răcitor ulei-apă cu lubrifiere sub presiune pentru reductoare"
       },
       {
         "code": "OAC",
@@ -269,7 +269,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
       },
       {
         "code": "OAP",
-        "description": "Pompa de răcire cu aer pentru reductoare"
+        "description": "Răcitor ulei-aer cu lubrifiere sub presiune pentru reductoare"
       },
       {
         "code": "ONP",
@@ -283,7 +283,7 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
     faq: [
       {
         "q": "Cum citesc codul unui reductor SEW, de exemplu X3KS190/B?",
-        "a": "X arată familia constructivă, 3 numărul de trepte, K tipul helicoidal-conic, următoarele cifre mărimea carcasei, iar litera de final variantele de montaj sau opțiuni suplimentare. Recomandăm să trimiteți fotografia plăcuței complete a reductorului SEW, deoarece unele cifre depind de raportul de transmisie ales la fabricație."
+        "a": "X arată familia constructivă, 3 numărul de trepte, K tipul helicoidal-conic, S execuția arborelui de ieșire (arbore plin cu pană), 190 mărimea reductorului, iar /B tipul de montaj (pe picioare). Recomandăm să trimiteți fotografia plăcuței complete a reductorului SEW, deoarece unele cifre depind de raportul de transmisie ales la fabricație."
       },
       {
         "q": "Ce diferență este între reductoarele SEW seria F și seria K?",
@@ -299,8 +299,8 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -308,43 +308,43 @@ Infinitrade pune la dispoziție gama completă SEW Eurodrive: de la motoreductoa
   'becker': {
     founded: 1885,
     headquarters: 'Wuppertal, Germania',
-    employees: '1,200+',
+    
     overview: `Becker este un brand despre care mulți nu au auzit până când au nevoie de o pompă de vid serioasă — și atunci descoperă că nemții de la Wuppertal fac de 140 de ani pompe cu palete rotative robuste. Fondată în 1885, compania s-a specializat în vid și presiune prin tehnologie cu palete rotative, tehnologie pe care a dezvoltat-o de-a lungul timpului.
 
-Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără filtre de ulei de schimbat la fiecare 500 ore. Pompele Becker se folosesc frecvent în fabrici de ambalaje alimentare, unde necesită mentenanță redusă pe interior — paletele se schimbă la câțiva ani.
+Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. Spre deosebire de pompele clasice care necesită lubrifiere și degajă vapori de ulei (problematici în food, pharma, packaging), Becker rulează "uscat" — paletele sunt din carbon autolubrifiant. Rezultatul: vid curat, fără contaminare, fără întreținere complicată, fără ulei în camera de compresie. Pompele Becker se folosesc frecvent în fabrici de ambalaje alimentare, unde necesită mentenanță redusă pe interior — paletele se schimbă la câțiva ani.
 
-Gama lor este largă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Aplicația lor principală este industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde e nevoie de vid rapid, repetat și curat. Sunt silențioase în raport cu puterea dezvoltată.
+Gama lor este largă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Aplicația lor principală este industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde e nevoie de vid rapid, repetat și curat. Nivelul de zgomot depinde de model și se confirmă din fișa tehnică.
 
 Infinitrade furnizează gama completă Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Disponibilitatea la producător pentru modelele cerute frecvent se verifică direct, iar configurațiile specifice se aduc la comandă. Pentru aplicații cu vid sau aer comprimat curat fără ulei, Becker este un brand de luat în considerare — costă ceva în plus față de opțiunile mai ieftine, dar fiabilitatea pe termen lung este un argument frecvent citat de producător.`,
     whyChoose: [
       'Tehnologie oil-free cu palete din carbon — vid și aer comprimat fără contaminare cu ulei',
       'Fiabilitate ridicată cu întreținere minimă — schimbi paletele o dată la câțiva ani și atât',
       'Nivel de zgomot redus pentru puterea dezvoltată — potrivit pentru hale de producție',
-      'Specialized în industria alimentară, farmaceutică și packaging unde curățenia e critică',
+      'Specializat în industria alimentară, farmaceutică și packaging unde curățenia e critică',
     ],
     keyProducts: [
       {
-        name: 'Pompe de vid cu palete rotative (seria U, VT, KVT)',
-        description: `Pompe de vid oil-free de la 25 m³/h până la 1000+ m³/h, presiune finală până la 0.5 mbar absolut. Seria U e compactă pentru aplicații mici (mese de vid, CNC wood, printing), seria VT e workhorse-ul pentru packaging și termoformare, iar KVT e varianta heavy-duty pentru procese industriale continue. Construcție robustă, palete din carbon autolubrifiant, întreținere la 8,000-12,000 ore.`,
+        name: 'Pompe de vid cu palete rotative (seriile VT, KVT fără ulei; U și O cu ulei)',
+        description: `Pompe de vid cu palete rotative. Seriile VT și KVT sunt fără ulei (VT: 1,9–40 m³/h, KVT: 55–129 m³/h la 50 Hz), iar seriile U (40–65 m³/h, presiune finală 0,5–1 mbar) și O (4–26 m³/h, 2 mbar) sunt cu ungere cu ulei. Seria O este potrivită pentru mașini de ambalare și procesare alimentară, iar VT, KVT și U acoperă aplicații de ambalare, termoformare și industrie. Intervalele de întreținere se confirmă din documentația Becker pentru modelul ales.`,
       },
       {
         name: 'Suflante cu canale laterale (seria SV)',
-        description: `Side channel blowers oil-free pentru generare de vid, suflare sau ambele simultan. Putere de la 0.3 kW la 25 kW, debit de la 45 m³/h la 1400 m³/h. Perfect pentru aerare în stații de epurare, transport pneumatic materiale pulverulente, sisteme de sortare, rezervoare septice. Sunt silențioase și au un raport putere/consum bun, adecvate pentru funcționare continuă.`,
+        description: `Suflante cu canale laterale fără ulei, pentru generare de vid, suflare sau ambele simultan. Seria SV acoperă puteri de la 0,55 kW la 18 kW și debite de la 130 m³/h la 1.250 m³/h, în funcție de model. Perfect pentru aerare în stații de epurare, transport pneumatic materiale pulverulente, sisteme de sortare, rezervoare septice. Sunt silențioase și au un raport putere/consum bun, adecvate pentru funcționare continuă.`,
       },
       {
-        name: 'Compresoare oil-free (seria O)',
-        description: `Compresoare cu palete rotative pentru aer comprimat curat, certificat pentru contact direct cu alimentele (FDA approved). Presiune până la 4 bar, debite de la 60 m³/h la 800+ m³/h. Aplicații: industrie alimentară, farmaceutică, cosmetică, electronice — peste tot unde nu-ți permiți să contaminezi produsul cu particule de ulei. Sunt mai scumpe decât compresoarele cu șurub clasice, dar sunt o opțiune frecventă pentru aplicații food-grade.`,
+        name: 'Compresoare fără ulei (seriile DT și KDT)',
+        description: `Compresoare cu palete rotative fără ulei pentru aer comprimat curat. Seria DT oferă suprapresiune de 0,5–1,0 bar (1,9–40 m³/h la 50 Hz), iar seria KDT 0,5–1,5 bar (54–129 m³/h la 50 Hz). Aplicații: industrie alimentară, farmaceutică, cosmetică, electronice — peste tot unde produsul nu trebuie contaminat cu particule de ulei. Pentru aplicații cu cerințe de igienă, conformitatea alimentară se confirmă din documentația Becker pentru modelul ales.`,
       },
       {
         name: 'Sisteme centralizate de vid',
-        description: `Soluții complete cu multiple pompe în paralel, rezervoare de vid, automatizare și monitoring. Perfect pentru fabrici cu multe puncte de consum de vid (CNC-uri, mese de thermoformare, flowpack-uri) — în loc să ai câte o pompă la fiecare mașină, ai un sistem centralizat care optimizează consumul și asigură backup automat. Becker oferă și sisteme pre-engineered gata de instalat.`,
+        description: `Soluții complete cu multiple pompe în paralel, rezervoare de vid, automatizare și monitoring. Potrivite pentru fabrici cu multe puncte de consum de vid (CNC-uri, mese de termoformare, mașini flowpack): în loc de o pompă la fiecare mașină, un sistem centralizat poate optimiza consumul și asigura rezervă automată. Becker oferă și sisteme preconfigurate, gata de instalat.`,
       },
     ],
     certifications: [
       'ISO 9001 (Calitate)',
       'ISO 14001 (Mediu)',
-      'FDA approved pentru contact cu alimentele',
-      'ATEX pentru medii potențial explozive',
+      
+      'ISO 9001 și ISO 14001 (conform producătorului)',
     ],
     industries: [
       'Packaging (termoformare, flowpack, blister)',
@@ -354,7 +354,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       'Printing & Paper',
       'Stații de epurare (aerare)',
     ],
-    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea ta, fără promisiuni pe care nu le putem susține.`,
+    infinitrade: `Pentru pompele și suflantele Becker nu dispunem de date proprii despre stocul fiecărui model și pornim de la fișele tehnice publicate de producător. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: modelele cerute des pot fi disponibile, ca formulare generală a firmei, uneori în 24–72 h din stoc, iar configurațiile speciale se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de aplicație (vid sau presiune), debitul necesar și presiunea finală dorită. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru cererea dumneavoastră, fără promisiuni pe care nu le putem susține.`,
     limitation: `Nu putem confirma disponibilitatea unei sub-game complete (de exemplu toate variantele seriei O) fără verificare punctuală la producător și nu oferim noi intervenții acoperite de garanția producătorului.`,
     sources: [
       {"title":"Vacuum Pump & Compressor Series","url":"https://www.becker-international.com/uk/products/pump-series.htm","publisher":"Becker","accessed":"2026-09-22"},
@@ -474,7 +474,7 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
     faq: [
       {
         "q": "Ce diferență este între pompele Becker seria VT și seria U?",
-        "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curatenia cerută și de debitul necesar."
+        "a": "Seria VT este o pompă cu palete rotative fără ulei, potrivită pentru aplicații unde produsul nu trebuie contaminat, în timp ce seria U folosește ungere cu ulei și acoperă debite mai mari, fiind preferată în ambalare sau în linii industriale cu funcționare continuă. Alegerea depinde de curățenia cerută și de debitul necesar."
       },
       {
         "q": "Ce înseamnă prefixul VARIAIR la o pompă Becker?",
@@ -490,8 +490,8 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -502,50 +502,50 @@ Infinitrade furnizează gama completă Becker pentru industriile românești: de
     employees: '14,000+',
     overview: `Donaldson este un nume de referință la un capitol despre care nimeni nu vorbește destul: filtrarea aerului și a fluidelor industriale. Fondată în 1915 în Minneapolis (când domnul Frank Donaldson a inventat un filtru de aer pentru tractoare care chiar funcționa în câmpurile pline de praf), compania a devenit un producător important la nivel global, concentrat pe combaterea prafului, fumului și particulelor care afectează mașinile și sănătatea. Astăzi, pentru procese precum sudura, tăierea laser, șlefuirea sau vopsitoria — care generează praf și fum — Donaldson oferă soluții dedicate de filtrare.
 
-Produsul lor star este seria Torit — colectoare de praf proiectate să reducă praful din hale de producție, îmbunătățind calitatea aerului și vizibilitatea la locul de muncă. Nu vorbim doar de confort — vorbim de conformitate cu normele de sănătate și siguranță, de prevenirea incendiilor (rumegușul suspendat în aer e foarte inflamabil) și de creșterea duratei de viață a mașinilor (care nu mai inhalează praf zilnic).
+Produsul lor emblematic este seria Torit — colectoare de praf proiectate să reducă praful din hale de producție, îmbunătățind calitatea aerului și vizibilitatea la locul de muncă. Nu vorbim doar de confort — vorbim de conformitate cu normele de sănătate și siguranță, de prevenirea incendiilor (rumegușul suspendat în aer e foarte inflamabil) și de creșterea duratei de viață a mașinilor (care nu mai inhalează praf zilnic).
 
-Dar Donaldson nu se oprește la colectoare de praf. Au filtre pentru o gamă largă de aplicații: aer comprimat (seria DF pentru eliminarea uleiului și a apei), hidraulică (seria DDHF pentru curățarea uleiurilor în sisteme hidrostatice), esapamente diesel (DPF — Diesel Particulate Filters), sisteme HVAC industriale... Tehnologia lor Blue filter este utilizată pe scară largă pentru filtrarea fină — reținere de peste 99.99% pentru particule de 0.3 microni, conform producătorului.
+Dar Donaldson nu se oprește la colectoare de praf. Au filtre pentru o gamă largă de aplicații: aer comprimat (elemente filtrante, uscătoare și carcase), hidraulică (filtre pentru uleiuri hidraulice), eșapamente diesel (DPF — Diesel Particulate Filters, adică filtre pentru reținerea particulelor din gazele de eșapament), sisteme HVAC industriale... Eficiența de filtrare și dimensiunea particulelor reținute diferă de la un filtru la altul și se confirmă din fișa tehnică a producătorului.
 
-Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: de la colectoare de praf Torit pentru ateliere de lemn, sudură și metalurgie, la filtre pentru aer comprimat și sisteme hidraulice. Donaldson nu este opțiunea cu cel mai mic preț, dar sănătatea angajaților și protecția echipamentelor sunt argumente frecvente pentru alegerea acestor sisteme de filtrare.`,
+Infinitrade poate oferi la comandă soluții Donaldson pentru calitatea aerului industrial: de la colectoare de praf Torit pentru ateliere de lemn, sudură și metalurgie, la filtre pentru aer comprimat și sisteme hidraulice. `,
     whyChoose: [
-      'Nume de referință în filtrarea industrială, cu tehnologie Blue filter (99.99% reținere particule fine)',
+      'Producător specializat în filtrare industrială, cu fișe tehnice publicate pentru fiecare filtru',
       'Colectoare de praf Torit — utilizate pe scară largă pentru captarea fumului de sudură și a rumegușului',
       'Gamă completă de la filtre compacte pentru mașini individuale la sisteme centralizate pentru hale',
-      'Conformitate declarată de producător cu normele de sănătate și siguranță în muncă (OSHA, EU directives)',
+      'Conformitatea cu normele de sănătate și siguranță în muncă se verifică pe fișa tehnică a fiecărui echipament',
     ],
     keyProducts: [
       {
-        name: 'Colectoare de praf Torit (PowerCore, Downflo, VFD)',
-        description: `Sistemele Torit sunt cunoscute în industrie: PowerCore folosește cartușe plisate cu suprafață mare de filtrare (3-5 ori mai mult decât saci clasici), Downflo Evolution e compact și modular pentru ateliere mici-medii, iar VFD-ul (Very Fine Dust) e specializat pe praf foarte fin și abraziv. Curățare automată prin jeturi de aer comprimat reverse-pulse, monitoring vizual al performanței, conformitate totală cu normele de emisii. Perfect pentru lemn, metale, plastic, grinding.`,
+        name: 'Colectoare de praf Torit (PowerCore, Downflo)',
+        description: `Sistemele Torit sunt cunoscute în industrie: PowerCore folosește cartușe filtrante compacte, iar Downflo Evolution este un colector cu cartușe pentru posturi de lucru și ateliere. Curățare automată prin jeturi de aer comprimat reverse-pulse, monitoring vizual al performanței. Perfect pentru lemn, metale, plastic, grinding.`,
       },
       {
         name: 'Sisteme de captare fum de sudură',
-        description: `Brațe articulate cu capturi hood, mese de sudură cu extracție integrată și sisteme centralizate pentru ateliere cu multe posturi de sudură. Tehnologia SUPRASORB pentru captarea fumului direct la sursă — reduce semnificativ cantitatea de fum din zona de respirație a sudorului, conform producătorului. Se folosesc frecvent la firmele care lucrează INOX și aluminiu (fumul de la aceste materiale e foarte toxic), unde diferența pentru sănătatea angajaților este semnificativă.`,
+        description: `Brațe articulate cu pâlnii de captare, mese de sudură cu extracție integrată și sisteme centralizate pentru ateliere cu multe posturi de sudură. Captarea fumului direct la sursă reduce cantitatea de fum din zona de respirație a sudorului; performanțele depind de sistem și se confirmă din documentația producătorului. Se folosesc frecvent la firmele care lucrează INOX și aluminiu (fumul de la aceste materiale e foarte toxic), unde diferența pentru sănătatea angajaților este semnificativă.`,
       },
       {
-        name: 'Filtre pentru aer comprimat (DF, UF, SMF)',
-        description: `Seria completă pentru curățarea aerului comprimat: DF (Donaldson Filters) pentru eliminarea particulelor și a uleiului rezidual, UF (Ultra Filters) pentru aplicații care necesită aer instrument-grade, SMF (Sterile Medical Filters) pentru pharma și food unde aerul trebuie să fie steril. Eficiență de filtrare până la 0.01 microni, eliminarea uleiului până la 0.003 mg/m³. Dacă pulverizezi vopsea, alimentezi instrumente pneumatice de precizie sau suflii aer în produse alimentare — ai nevoie de filtre Donaldson.`,
+        name: 'Filtre pentru aer comprimat',
+        description: `Donaldson oferă pentru aer comprimat elemente filtrante, uscătoare, carcase și sisteme de purificare fără ulei; seriile, eficiența de filtrare și conținutul rezidual de ulei se confirmă din fișa tehnică a modelului. Dacă pulverizați vopsea, alimentați instrumente pneumatice de precizie sau suflați aer în produse alimentare — aveți nevoie de filtre Donaldson.`,
       },
       {
-        name: 'Filtre hidraulice (DDHF, P-Series)',
-        description: `Filtre pentru curățarea uleiurilor hidraulice în sisteme hidrostatice — presiune, retur, aspirație, bypass. Tehnologia Synteq pentru reținerea particulelor fine care deteriorează pompe și cilindri. Beta rating ridicat (β25=1000 înseamnă că din 1000 particule > 25 microni, doar una trece). Dacă ai excavatoare, prese hidraulice, mașini de injecție sau orice sistem hidraulic scump — filtre bune te salvează de reparații costisitoare.`,
+        name: 'Filtre hidraulice',
+        description: `Filtre pentru curățarea uleiurilor hidraulice în sisteme hidrostatice — presiune, retur, aspirație, bypass. Tehnologia Synteq pentru reținerea particulelor fine care deteriorează pompe și cilindri. Valorile de filtrare (rating beta) se confirmă din fișa tehnică a elementului filtrant. Dacă aveți excavatoare, prese hidraulice, mașini de injecție sau orice sistem hidraulic scump — filtrele bune vă salvează de reparații costisitoare.`,
       },
     ],
     certifications: [
       'ISO 9001 (Calitate)',
       'ISO 14001 (Mediu)',
       'ISO 45001 (Sănătate și securitate)',
-      'OSHA compliance pentru echipamente de ventilație industrială',
+      
     ],
     industries: [
       'Prelucrarea lemnului (tâmplării, fabrici mobilă)',
       'Metalurgie (sudură, șlefuire, tăiere laser/plasmă)',
       'Vopsitorii industriale',
-      'Food & Pharma (aer comprimat curat)',
+      'Industria alimentară și farmaceutică (aer comprimat curat)',
       'Automotive (ateliere de caroserie)',
-      'Sisteme hidraulice (excavaticele, prese)',
+      'Sisteme hidraulice (excavatoare, prese)',
     ],
-    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și îți spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația ta.`,
+    infinitrade: `La cererile pentru Donaldson pornim de la fișele publicate de producător și vă spunem clar ce putem și ce nu putem confirma despre un anumit filtru înainte de comandă. Colectoarele de praf, filtrele de aer comprimat și cele hidraulice ajung prin canale de aprovizionare din Uniunea Europeană: consumabilele uzuale pot fi, ca formulare generală a firmei, disponibile uneori în 24–72 h din stoc, iar echipamentele complete se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul filtrului sau al cartușului, aplicația (praf, aer comprimat, hidraulică) și debitul de proces. Revenim cu disponibilitatea reală și configurația recomandată pentru instalația dumneavoastră.`,
     limitation: `Nu putem confirma acoperirea în garanția producătorului pentru fiecare echipament instalat de client și nu configurăm noi softul de monitorizare al sistemelor Torit; pentru aceste cazuri recomandăm suportul direct al Donaldson.`,
     sources: [
       {"title":"Industrial Dust, Fume & Mist Collection Products","url":"https://www.donaldson.com/en-us/industrial-dust-fume-mist/products/","publisher":"Donaldson","accessed":"2026-09-22"},
@@ -625,8 +625,8 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
       { date: '2026-09-22', note: 'Am corectat sediul Donaldson, conform surselor citate.' },
     ],
@@ -635,45 +635,45 @@ Infinitrade distribuie soluții Donaldson pentru calitatea aerului industrial: d
   'ebara': {
     founded: 1912,
     headquarters: 'Tokyo, Japonia',
-    employees: '17,000+',
-    overview: `Ebara este un producător japonez de pompe. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ai văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
+    employees: '21,000+',
+    overview: `Ebara este un producător japonez de pompe. Fondată în 1912 în Tokyo, compania a devenit unul dintre marii producători mondiali de pompe și turbomașini, cunoscută pentru inginerie precisă și fiabilitate ridicată. Dacă ați văzut o stație de pompare pentru apă, canalizare sau o instalație de stingere incendii într-o clădire mare, este posibil să fie echipată cu pompe Ebara.
 
-Ce face pompele Ebara speciale? Precizia construcției și materialele premium. Unde alții folosesc fontă standard, Ebara folosește aliaje speciale rezistente la coroziune. Unde alții montează rulmenți standard, Ebara pune rulmenți supradimensionați pentru durată de viață mai mare. Materialele și construcția sunt orientate spre durată lungă de exploatare cu întreținere minimă.
+Materialele și construcția diferă de la o serie la alta și se confirmă din documentația producătorului pentru fiecare model.
 
 Gama lor este largă: de la pompe submersibile mici pentru drenaj (seria DW), la pompe centrifugale mari pentru alimentare cu apă (seria FD, FS), pompe de incendiu (seria GP), până la pompe vacuum pentru industria semiconductorilor (seria dry vacuum — un nivel diferit de precizie, în care Ebara este un nume cunoscut la nivel mondial). Fiecare serie este optimizată pentru aplicația ei specifică.
 
-Suportul tehnic este un punct forte al Ebara. Când apare o problemă cu o pompă, se poate obține asistență de la ingineri care cunosc produsul în detaliu, inclusiv piese de schimb pentru pompe mai vechi de 20 de ani.
+Asistența tehnică și piesele de schimb se obțin prin producător; disponibilitatea pentru un model anume se confirmă pe cod.
 
-Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industriale și de utilități: alimentare cu apă, canalizare, drenaj, irigații, stingere incendii, procese industriale, pentru proiecte noi de infrastructură sau înlocuirea pompelor vechi cu costuri ridicate de reparații și consum energetic. Ebara nu este brandul cu cel mai mic preț, dar fiabilitatea și costurile de exploatare pe termen lung sunt argumente frecvent citate pentru alegerea acestor pompe.`,
+Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industriale și de utilități: alimentare cu apă, canalizare, drenaj, irigații, stingere incendii, procese industriale, pentru proiecte noi de infrastructură sau înlocuirea pompelor vechi cu costuri ridicate de reparații și consum energetic. `,
     whyChoose: [
-      'Materiale premium și construcție de precizie, orientate spre funcționare pe termen lung',
-      'Gama completă de la submersibile de drenaj la pompe centrifugale mari pentru utilități și incendiu',
-      'Nume de referință în pompe vacuum pentru semiconductori — tehnologie de precizie adaptată și pentru industria generală',
-      'Suport tehnic excelent și disponibilitatea pieselor de schimb chiar și pentru echipamente vechi de 20+ ani',
+      'Materiale și construcții adaptate fiecărei serii, confirmate din documentația producătorului',
+      'Gamă de la submersibile de drenaj la pompe centrifugale pentru utilități și incendiu',
+      'Producător prezent și în domeniul pompelor vacuum pentru semiconductori',
+      'Suport tehnic și piese de schimb prin producător; disponibilitatea se confirmă pe cod',
     ],
     keyProducts: [
       {
         name: 'Pompe submersibile pentru drenaj (DW, DWO, DVS)',
-        description: `Seria DW e workhorse-ul pentru drenaj ape uzate, construcții, basement pumping. Motoare submersibile în ulei cu protecție termică, rotor vortex sau semi-vortex pentru trecerea solidelor, construcție din fontă rezistentă. DVS e varianta cu tocător integrat pentru ape cu fibre și solide mari. Perfect pentru stații de pompare municipale, subsoluri, drenaj temporar șantiere. Proiectate pentru funcționare continuă cu întreținere redusă.`,
+        description: `Seria DW este destinată drenajului apelor uzate, construcțiilor și subsolurilor. Motoare submersibile în ulei cu protecție termică, rotor vortex sau semi-vortex pentru trecerea solidelor, construcție din fontă rezistentă. Tipul de rotor și capacitatea de trecere a solidelor pentru DVS se confirmă pe cod, din documentația producătorului. Perfect pentru stații de pompare municipale, subsoluri, drenaj temporar șantiere. Proiectate pentru funcționare continuă cu întreținere redusă.`,
       },
       {
         name: 'Pompe centrifugale orizontale (FS, FD, MD)',
-        description: `Pompe end-suction și split-case pentru alimentare cu apă, irigații, procese industriale. Seria FS e compact și economic pentru debite mici-medii, FD e heavy-duty pentru aplicații municipale (stații de tratare, booster pumps), iar MD e multistage pentru presiuni mari. Randament hidraulic ridicat (până la 85% pentru dimensiunile mari, conform producătorului) — economie de energie față de pompe vechi. Construcție modulară pentru întreținere ușoară.`,
+        description: `Pompe cu aspirație frontală și cu carcasă divizată pentru alimentare cu apă, irigații, procese industriale. Seria FS e compact și economic pentru debite mici-medii, FD este pentru aplicații municipale (stații de tratare, stații de ridicare a presiunii), iar MD este multietajată pentru presiuni mari. Randamentul hidraulic depinde de model și se confirmă din curba pompei. Construcție modulară pentru întreținere ușoară.`,
       },
       {
         name: 'Pompe de incendiu (GP, JG)',
-        description: `Pompe certificate pentru sisteme de stingere incendii conform EN 12845 și NFPA 20. Seria GP e horizontal split-case cu debite mari și presiuni constante, JG e vertical turbine pump pentru instalare în rezervoare sau puțuri. Construcție heavy-duty din fontă sau bronz, capabile să pornească instant și să mențină presiunea stabilă indiferent de condiții. Folosite în clădiri înalte, mall-uri, spitale, fabrici — peste tot unde viața oamenilor depinde de funcționarea corectă a sistemului de incendiu.`,
+        description: `Pompe pentru sisteme de stingere incendii; certificările, tipul constructiv și parametrii fiecărei serii se confirmă pe cod, din documentația producătorului. Construcție heavy-duty din fontă sau bronz, capabile să pornească instant și să mențină presiunea stabilă indiferent de condiții. Folosite în clădiri înalte, mall-uri, spitale, fabrici — peste tot unde viața oamenilor depinde de funcționarea corectă a sistemului de incendiu.`,
       },
       {
         name: 'Pompe submersibile pentru puțuri adânci (BHS, EVMG)',
-        description: `Pompe 4", 6", 8" pentru puțuri de apă potabilă, irigații agricole, irigații terenuri de golf. Motor submersibil răcit cu apă, construcție all-stainless steel pentru durabilitate maximă. Seria EVMG are motor cu magneți permanenți și invertor integrat pentru eficiență energetică ridicată, cu consum redus față de pompe asincrone clasice. Perfecte pentru alimentare cu apă în zone fără rețea publică sau pentru ferme agricole mari.`,
+        description: `Pompe 4", 6", 8" pentru puțuri de apă potabilă, irigații agricole, irigații terenuri de golf. Motor submersibil; materialele de construcție și eficiența energetică se confirmă din documentația producătorului pentru fiecare model. Perfecte pentru alimentare cu apă în zone fără rețea publică sau pentru ferme agricole mari.`,
       },
     ],
     certifications: [
       'ISO 9001 (Calitate)',
       'ISO 14001 (Mediu)',
-      'EN 12845 (Pompe de incendiu)',
-      'NFPA 20 (Sisteme de stingere US standard)',
+      
+      
       'ATEX pentru medii potențial explozive',
     ],
     industries: [
@@ -684,7 +684,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       'Oil & Gas (pompe proces)',
       'HVAC industrial (pompe circulație)',
     ],
-    infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și un preț calculat pentru proiectul tău.`,
+    infinitrade: `Pentru pompele Ebara lucrăm cu informațiile publice disponibile despre gamă și cu ce ne confirmă producătorul la cerere, fără date proprii despre stocul fiecărei serii. Echipamentele ajung prin canale de aprovizionare din Uniunea Europeană: pentru modelele cerute des putem avea, ca formulare generală a firmei, uneori 24–72 h din stoc, iar restul gamei se aduce la comandă în 1–4 săptămâni. Pentru o selecție corectă avem nevoie de debitul necesar, înălțimea de pompare (presiunea) și tipul aplicației — apă potabilă, ape uzate, incendiu sau proces industrial. Revenim cu modelul recomandat, termenul real de livrare și o ofertă calculată pentru proiectul dumneavoastră.`,
     limitation: `Nu putem confirma menținerea unei sub-game complete de pompe vacuum pentru semiconductori în portofoliul local și nu oferim noi punerea în funcțiune sau intervenții acoperite de garanția producătorului pentru aceste sisteme.`,
     sources: [
       {"title":"Products","url":"https://www.pumpsebara.com/products","publisher":"Ebara","accessed":"2026-09-22"},
@@ -722,7 +722,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       },
       {
         "code": "DMLEU",
-        "description": "Pompă submersibilă multietajată pentru drenaj"
+        "description": "Pompă submersibilă pentru epuismente (evacuare de apă)"
       },
       {
         "code": "DSU/DSHU",
@@ -742,11 +742,11 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       },
       {
         "code": "EBG/EBHG",
-        "description": "Pompă submersibilă pentru foraje de mică adâncime"
+        "description": "Pompă submersibilă cu tocător (grinder) pentru ape uzate din clădiri rezidențiale și comerciale"
       },
       {
         "code": "GSU",
-        "description": "Pompă submersibilă pentru puțuri"
+        "description": "Pompă de suprafață cu aspirație frontală, de uz general"
       },
       {
         "code": "VL",
@@ -796,8 +796,8 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },

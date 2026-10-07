@@ -6,14 +6,14 @@ export const brandContentBatch158 = {
     headquarters: "Weilheim, Germania",
     overview: `ebro este marca germană de aparate de măsură portabile și dataloggere din portofoliul Xylem Analytics Germany, cu sediul la Weilheim, Germania. Compania produce termometre digitale de proces, dataloggere pentru temperatură, umiditate și presiune, senzori dedicați și software pentru evaluarea datelor înregistrate. Gama EBI acoperă loggere de unică folosință pentru lanțul frigorific, dar și sisteme multicanal pentru validarea proceselor termice din producția alimentară și farmaceutică, iar seria TLC de termometre portabile e gândită pentru citiri rapide la linia de producție. Din portofoliul ebro putem oferta atât dataloggerele din familia EBI, cât și termometrele digitale TLC pentru control de calitate.
 
-Ce diferențiază ebro e integrarea strânsă între hardware și softul de evaluare: loggerele EBI 300 salvează datele direct în format PDF, citibil fără licență suplimentară, ceea ce simplifică arhivarea rapoartelor HACCP. Seria EBI 20 și EBI 12 acoperă variante compacte de monitorizare punctuală, iar EBI 100 și EBI 25 sunt orientate spre trasabilitatea transportului rece. TLC 750i combină sonda pliabilă cu un senzor infraroșu într-un singur corp, util acolo unde un inspector verifică rapid mai multe puncte. Concurența vine din zona Testo sau Comark, dar ebro rămâne căutat punctual pentru integrarea cu sisteme HACCP proprii.
+Ce diferențiază ebro e integrarea strânsă între hardware și softul de evaluare: loggerele EBI 300 salvează datele direct în format PDF, citibil fără licență suplimentară, ceea ce simplifică arhivarea rapoartelor HACCP. Seria EBI 20 și EBI 12 acoperă variante compacte de monitorizare punctuală, iar EBI 100 și EBI 25 sunt orientate spre trasabilitatea transportului rece. TLC 750i combină sonda pliabilă cu un senzor infraroșu într-un singur corp, util acolo unde un inspector verifică rapid mai multe puncte. 
 
 Pentru piața din România, ebro are sens la unități de procesare alimentară, depozite frigorifice, farmacii spitalicești și laboratoare care trebuie să documenteze temperatura unui proces sau transport.`,
     whyChoose: [
       "Loggere EBI 300 cu export direct în PDF, fără software dedicat necesar pentru citirea rapoartelor",
       "Gamă largă de variante EBI, de la logger de unică folosință la sisteme multicanal",
       "Termometre TLC cu sondă pliabilă și senzor infraroșu combinat, utile la inspecții rapide",
-      "Parte din grupul Xylem, cu continuitate a gamei pe termen lung",
+      "Parte din grupul Xylem (Xylem Analytics Germany)",
       "Aplicații dedicate sectoarelor reglementate — alimentar, farmaceutic, medical — cu accent pe trasabilitate"
     ],
     keyProducts: [
@@ -23,7 +23,7 @@ Pentru piața din România, ebro are sens la unități de procesare alimentară,
     ],
     industries: [
       "Industria alimentară — control temperatură la recepție, procesare și depozitare",
-      "Farmaceutică — validare proces termic și trasabilitate documentată conform HACCP",
+      "Farmaceutică — validare proces termic și trasabilitate documentată a temperaturii",
       "Logistică frigorifică — monitorizare temperatură pe durata transportului",
       "Sănătate — control temperatură în farmacii spitalicești și laboratoare",
       "HoReCa și retail alimentar — verificări periodice de temperatură la recepție marfă",
@@ -50,13 +50,13 @@ Pentru piața din România, ebro are sens la unități de procesare alimentară,
     faq: [
       { q: "Ce produce ebro?", a: "ebro fabrică dataloggere pentru temperatură, umiditate și presiune (gama EBI) și termometre portabile de proces (gama TLC), destinate monitorizării și documentării condițiilor termice în alimentar, farmaceutic și logistică frigorifică. Compania face parte din grupul Xylem Analytics Germany și are sediul la Weilheim." },
       { q: "Cum aleg un datalogger ebro potrivit pentru transport frigorific?", a: "Pentru trasabilitatea unui transport frigorific, familia EBI 300 oferă export direct al raportului în PDF, ușor de arhivat fără software dedicat; EBI 100 sau EBI 25-T acoperă nevoi mai simple, cu descărcare periodică. Alegerea depinde de durata cursei, numărul de citiri necesare și dacă raportul trebuie predat automat clientului final." },
-      { q: "Livrați aparate ebro în România și cât durează?", a: "Aducem instrumentele ebro la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat. Nu ținem această gamă pe raft din această gamă, pentru că portofoliul acoperă multe variante de senzor și memorie." },
+      { q: "Livrați aparate ebro în România și cât durează?", a: "Aducem instrumentele ebro la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat. Nu ținem această gamă pe raft, pentru că portofoliul acoperă multe variante de senzor și memorie." },
       { q: "Ce trebuie să trimit pentru o ofertă de termometru TLC de la ebro?", a: "Trimiteți codul exact al modelului (de exemplu TLC 750i sau TLC 1598), aplicația de măsurat — suprafață, penetrare sau ambele — și cantitatea dorită. Dacă aveți nevoie de accesorii precum husa AG 751, menționați-le separat în cerere." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ebro - Hersteller von professionellen Messgeräten", url: "https://www.ebro.com/", publisher: "ebro (Xylem Analytics Germany)", accessed: "2026-09-26" },
       { title: "Data loggers for measuring temperature, pressure and humidity", url: "https://shop.ebro.com/en/product-type/data-loggers/", publisher: "ebro (Xylem Analytics Germany)", accessed: "2026-09-26" },
@@ -69,7 +69,7 @@ Pentru piața din România, ebro are sens la unități de procesare alimentară,
     headquarters: "Zielona Góra, Polonia",
     overview: `Calmet e un producător polonez de calibratoare electrice și sisteme de testare pentru contoare de energie, înființat în 1989 de ingineri veniți din laboratorul de calibratoare al centrului de cercetare al Lumel, tot din Zielona Góra. Compania produce calibratoare de putere monofazate și trifazate, standarde de referință, bănci de test pentru contoare inteligente și analizoare portabile de calitate a energiei. Din gama Calmet putem oferta atât calibratoarele de laborator seria TS, cât și testerele portabile seria TE, folosite direct pe teren la verificarea contoarelor montate.
 
-Ce diferențiază Calmet e clasa de precizie fină oferită pe echipamente relativ compacte: sistemul TS33 lucrează la clasă de precizie de până la 0,02%, cu ieșiri de curent și tensiune trifazate de până la 3×120A/600V, suficient pentru verificarea contoarelor de clasă înaltă din stațiile de calibrare. Seria C300B și CP11B adaugă funcții de calibrator de putere programabil, cu parametri de calitate a energiei configurabili, utile la testarea releelor de protecție și a traductoarelor de putere. În zona portabilă, TE30 combină funcția de standard de lucru cu cea de analizor, pentru verificări la fața locului fără a demonta contorul. Concurența vine din zona Radian sau MTE, dar Calmet rămâne un nume cunoscut pentru bănci de test dedicate contoarelor inteligente.
+Ce diferențiază Calmet e clasa de precizie fină oferită pe echipamente relativ compacte: sistemul TS33 lucrează la clasă de precizie de până la 0,02%, cu ieșiri de curent și tensiune trifazate de până la 3×120A/600V, suficient pentru verificarea contoarelor de clasă înaltă din stațiile de calibrare. Seria C300B și CP11B adaugă funcții de calibrator de putere programabil, cu parametri de calitate a energiei configurabili, utile la testarea releelor de protecție și a traductoarelor de putere. În zona portabilă, TE30 combină funcția de standard de lucru cu cea de analizor, pentru verificări la fața locului fără a demonta contorul.
 
 Pentru piața din România, Calmet are sens la laboratoare de metrologie legală, operatori de distribuție a energiei electrice și producători sau service-uri de contoare care trebuie să verifice periodic precizia aparatelor de măsură instalate în rețea.`,
     whyChoose: [
@@ -80,8 +80,8 @@ Pentru piața din România, Calmet are sens la laboratoare de metrologie legală
       "Accesorii de măsurare (clești de curent compensați, senzori flexibili) dimensionate pentru curenți mari din rețea",
     ],
     keyProducts: [
-      { name: "Sisteme de test trifazate seria TS", description: "TS33, TS41 și TS23 sunt sisteme automate pentru verificarea contoarelor trifazate, cu standard de referință integrat și clasă de precizie între 0,02% și 0,1% în funcție de variantă. Ies până la 3×120A și 600V, iar TS41 acoperă puteri mai mari, dedicate stațiilor de test cu volum ridicat. Comunicarea se face prin USB, Ethernet sau Bluetooth, cu software dedicat pentru automatizarea secvenței de test. Aplicație tipică: bănci de calibrare la operatori de distribuție sau laboratoare acreditate care verifică loturi mari de contoare." },
-      { name: "Calibratoare de putere C300B / CP11B / C200 / C250", description: "Calibratoare de putere monofazate (CP11B, C200, C250) și trifazate (C300B) pentru testarea contoarelor, traductoarelor de putere și releelor de protecție, cu clasă de precizie de 0,02% sau 0,05% și ieșiri de până la 120A/560V, respectiv 360A la varianta trifazată de putere mare. Parametrii de calitate a energiei (armonici, dezechilibru de fază) sunt programabili la modelele mai noi. Clientul trebuie să precizeze tipul de contor sau releu testat și domeniul de curent și tensiune necesar." },
+      { name: "Sisteme de test trifazate seria TS", description: "TS33, TS41 și TS23 sunt sisteme automate pentru verificarea contoarelor trifazate, cu standard de referință integrat și clasă de precizie între 0,02% și 0,1% în funcție de variantă. Ies până la 3×120A și 600V; TS41 are clasă de precizie de 0,02% sau 0,04%. Interfețele de comunicație și software-ul de control se confirmă pe cod, din documentația Calmet. Aplicație tipică: bănci de calibrare la operatori de distribuție sau laboratoare acreditate care verifică loturi mari de contoare." },
+      { name: "Calibratoare de putere C300B / CP11B / C200 / C250", description: "Calibratoare de putere monofazate (CP11B, C200, C250) și trifazate (C300B) pentru testarea contoarelor, traductoarelor de putere și releelor de protecție, cu clasă de precizie de 0,02% sau 0,05% și ieșiri de până la 120A/560V, respectiv 360A la varianta trifazată de putere mare. Clientul trebuie să precizeze tipul de contor sau releu testat și domeniul de curent și tensiune necesar." },
       { name: "Standarde portabile TE30 / TB51", description: "TE30 e un standard de lucru trifazat cu funcție de analizor, gândit pentru verificări în teren, direct la contorul montat, cu clete de curent independente și ecran tactil color. TB51 e o bancă de test cu cinci poziții pentru contoare inteligente, cu sursă de curent și tensiune trifazată configurabilă și memorie pe card SD de până la 32GB pentru stocarea rezultatelor de test. Aplicație tipică: verificări periodice de contoare montate sau teste de lot la recepția unei livrări noi." },
     ],
     industries: [
@@ -107,9 +107,9 @@ Pentru piața din România, Calmet are sens la laboratoare de metrologie legală
       { code: "Caltest 300", description: "Calibrator de test de putere mai mare, generație anterioară" },
       { code: "Calport 100", description: "Standard portabil pentru verificarea contoarelor" },
       { code: "Calport 100 Plus", description: "Variantă extinsă a standardului portabil Calport 100" },
-      { code: "CT10AC", description: "Clește de curent compensat electronic, 10A" },
-      { code: "CT100AC", description: "Clește de curent compensat electronic, 100A" },
-      { code: "CT1000AC", description: "Clește de curent compensat electronic, 1000A" },
+      { code: "CT10AC", description: "Clește de curent compensat electronic, 12A" },
+      { code: "CT100AC", description: "Clește de curent compensat electronic, 120A" },
+      { code: "CT1000AC", description: "Clește de curent compensat electronic, 1200A" },
       { code: "FCT3000AC.B", description: "Senzor de curent flexibil, până la 3000A" },
     ],
     faq: [
@@ -120,8 +120,8 @@ Pentru piața din România, Calmet are sens la laboratoare de metrologie legală
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Calmet - power calibrators and power quality calibrators", url: "https://www.calmet.com.pl/en/power-calibrators-and-power-quality-calibrators", publisher: "Calmet Sp. z o.o.", accessed: "2026-09-26" },
       { title: "Electricity meters testers and reference standards", url: "https://www.calmet.com.pl/en/electricity-meters-testers-and-reference-standards", publisher: "Calmet Sp. z o.o.", accessed: "2026-09-26" },
@@ -134,18 +134,18 @@ Pentru piața din România, Calmet are sens la laboratoare de metrologie legală
     headquarters: "Lognes, Franța",
     overview: `Sefelec e un producător francez de aparate pentru testarea siguranței electrice și a izolației, cu sediul la Lognes, lângă Paris, activ din 1965 și integrat din 2013 în grupul american Eaton. Gama acoperă dielectrimetre (teste de rigiditate dielectrică), megohmetre pentru rezistența de izolație, testere de siguranță de joasă tensiune, testere de continuitate a împământării și scannere automate pentru testarea în serie a produselor electrice. Din portofoliul Sefelec putem oferta atât aparatele de bancă pentru laboratorul de calitate, cât și scannerele automate pentru linia de producție.
 
-Ce diferențiază Sefelec e orientarea spre testarea automatizată de volum mare: seria 64-SC de scannere externe permite comutarea rapidă între mai multe puncte de test la tensiuni și curenți ridicați, utilă acolo unde fiecare produs ieșit de pe linie trebuie verificat individual înainte de expediere. Familia SYNOR 5000 acoperă testarea automată a cablurilor, cu detectarea defectelor de continuitate sau scurtcircuit direct din fabricație. Dielectrimetrele seria 56 (56-D, 56-H, 56-S) formează o platformă comună pentru rigiditate dielectrică, hipot și siguranță de joasă tensiune, ceea ce simplifică instruirea operatorilor care trec de la un test la altul. Concurența vine din zona Chroma sau Vitrek, dar Sefelec rămâne un nume consacrat în aerospațial și feroviar pentru testarea izolației.
+Ce diferențiază Sefelec e orientarea spre testarea automatizată de volum mare: seria 64-SC de scannere externe permite comutarea între mai multe puncte de test, utilă acolo unde fiecare produs ieșit de pe linie trebuie verificat individual înainte de expediere. Familia SYNOR 5000 acoperă testarea automată a cablurilor, cu detectarea defectelor de continuitate sau scurtcircuit direct din fabricație. Dielectrimetrele seria 56 (56-D, 56-H, 56-S) formează o familie de aparate de bancă pentru rigiditate dielectrică, hipot și siguranță de joasă tensiune.
 
 Pentru piața din România, Sefelec are sens la fabricanți de componente electrice și electronice, ateliere de reparații pentru echipamente feroviare sau aeronautice și laboratoare de calitate care trebuie să documenteze testele de rigiditate dielectrică pe fiecare lot produs.`,
     whyChoose: [
-      "Scannere automate seria 64-SC pentru testarea în serie a produselor electrice la tensiuni și curenți ridicați",
-      "Platformă comună de dielectrimetre (rigiditate dielectrică, hipot, siguranță joasă tensiune) pentru instruire simplificată",
+      "Scanner extern 64-SC pentru testarea în serie a produselor electrice",
+      "Familie de aparate de bancă pentru rigiditate dielectrică, hipot și siguranță de joasă tensiune",
       "Testere automate de cabluri SYNOR 5000, cu detectare de defecte direct din linia de fabricație",
-      "Parte din grupul Eaton, cu acces la o rețea de suport tehnic prezentă în peste 30 de țări",
-      "Prezență istorică în aerospațial, feroviar și apărare, sectoare cu cerințe stricte de trasabilitate a testelor",
+      "Parte din grupul Eaton din 2013, cu o rețea de parteneri specializați în peste 30 de țări",
+      "Aparate pentru siguranță electrică și izolație, inclusiv miliohmetre pentru aplicații aerospațiale (RCP2A)",
     ],
     keyProducts: [
-      { name: "Dielectrimetre și testere hipot seria 56 / 506", description: "Aparate de bancă pentru testarea rigidității dielectrice (56-D, 506-D), teste hipot de siguranță (56-H, 506-H) și verificarea siguranței de joasă tensiune (56-S, 506-S), construite pe aceeași platformă hardware pentru a simplifica trecerea între tipuri de test. Seria RMG (RMG 15 AC, RMG 12 AC DC, RMG 12 DC) acoperă variante suplimentare de hipot în curent alternativ și continuu. Aplicație tipică: control de calitate la ieșirea din producție pentru transformatoare, motoare sau aparataj electric, unde fiecare unitate trebuie să treacă un test de rigiditate dielectrică documentat." },
+      { name: "Dielectrimetre și testere hipot seria 56 / 506", description: "Aparate de bancă pentru testarea rigidității dielectrice (56-D, 506-D), teste hipot de siguranță (56-H, 506-H) și verificarea siguranței de joasă tensiune (56-S, 506-S), din aceeași familie de aparate de bancă. Seria RMG (RMG 15 AC, RMG 12 AC DC, RMG 12 DC) acoperă variante suplimentare de hipot în curent alternativ și continuu. Aplicație tipică: control de calitate la ieșirea din producție pentru transformatoare, motoare sau aparataj electric, unde fiecare unitate trebuie să treacă un test de rigiditate dielectrică documentat." },
       { name: "Scannere externe seria 64-SC", description: "Sisteme de comutare automată între mai multe puncte de test, folosite alături de un dielectrimetru sau hipot pentru a testa produse cu configurații electrice multiple fără recablare manuală între citiri. Se integrează în linii de producție automate, unde reduc timpul de test per unitate și elimină erorile de conectare manuală. Clientul trebuie să precizeze numărul de canale necesar și tipul de aparat de test cu care va fi cuplat scannerul." },
       { name: "Testere automate de cabluri SYNOR 5000", description: "SYNOR 5000-C și SYNOR 5000-P testează continuitatea, scurtcircuitele și izolația unor loturi de cabluri sau hamuri electrice direct din producție, cu secvențe de test programabile pentru fiecare configurație de conector. Utile la producătorii de cablaje pentru automotive, aerospațial sau echipamente industriale, unde fiecare hamu trebuie verificat înainte de expediere. Clientul precizează numărul de fire și tipul de conectori pentru a primi o configurație de test adecvată." },
     ],
@@ -156,40 +156,40 @@ Pentru piața din România, Sefelec are sens la fabricanți de componente electr
       "Automotive — testarea automată a hamurilor de cablu din producție",
       "Fabricanți de componente electrice — control de calitate la ieșirea din linie",
     ],
-    infinitrade: `Pentru Sefelec ne bazăm pe fișele tehnice publice de pe site-ul producătorului și pe pagina de companie a grupului Eaton, fără date proprii despre stocul vreunui revânzător din regiune — spunem direct ce putem și ce nu putem confirma dincolo de aceste surse. Aducem aparatele Sefelec la comandă, prin lanțul de aprovizionare Eaton pentru Europa, cu termen orientativ de 1–4 săptămâni în funcție de configurația solicitată. Pentru ofertă, clientul trebuie să trimită modelul exact (de exemplu 56-H sau SYNOR 5000-C), numărul de canale sau puncte de test necesar și tipul de produs testat. Nu ținem această gamă pe raft; fiecare aparat se configurează la cerința clientului.`,
+    infinitrade: `Pentru Sefelec ne bazăm pe fișele tehnice publice de pe site-ul producătorului și pe pagina de companie a grupului Eaton, fără date proprii despre stocul vreunui revânzător din regiune — spunem direct ce putem și ce nu putem confirma dincolo de aceste surse. Aducem aparatele Sefelec la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de configurația solicitată. Pentru ofertă, clientul trebuie să trimită modelul exact (de exemplu 56-H sau SYNOR 5000-C), numărul de canale sau puncte de test necesar și tipul de produs testat. Nu ținem această gamă pe raft; fiecare aparat se configurează la cerința clientului.`,
     limitation: "Nu putem confirma existența unui centru de service Sefelec acreditat local și nu oferim calibrarea proprie a aparatelor din această gamă.",
     productCodes: [
       { code: "56-D", description: "Dielectrimetru de bancă pentru rigiditate dielectrică" },
-      { code: "506-D", description: "Dielectrimetru, variantă cu domeniu extins" },
+      { code: "506-D", description: "Dielectrimetru: rigiditate dielectrică 5 kVAC / 6 kVDC și rezistență de izolație" },
       { code: "56-H", description: "Tester hipot de siguranță electrică" },
-      { code: "506-H", description: "Tester hipot, variantă cu domeniu extins" },
+      { code: "506-H", description: "Tester hipot din seria 506" },
       { code: "56-S", description: "Tester de siguranță de joasă tensiune" },
-      { code: "506-S", description: "Tester joasă tensiune, variantă cu domeniu extins" },
+      { code: "506-S", description: "Tester de siguranță de joasă tensiune din seria 506" },
       { code: "RMG 15 AC", description: "Tester hipot curent alternativ" },
       { code: "RMG 12 AC DC", description: "Tester hipot curent alternativ și continuu" },
       { code: "RMG 12 DC", description: "Tester hipot curent continuu" },
       { code: "1000-M", description: "Megohmetru pentru rezistență de izolație" },
-      { code: "1500-M", description: "Megohmetru, variantă cu tensiune de test mai mare" },
+      { code: "1500-M", description: "Megohmetru pentru rezistență de izolație" },
       { code: "32-C", description: "Tester de continuitate a legăturii la pământ" },
       { code: "MGR10", description: "Miliohmetru pentru măsurători de rezistență mică" },
-      { code: "RCP2A", description: "Miliohmetru pentru control de calitate în producție" },
+      { code: "RCP2A", description: "Miliohmetru digital portabil (1 µΩ–6 Ω), pentru măsurarea metalizărilor în aerospațial" },
       { code: "64-SC", description: "Scanner extern pentru comutare automată între puncte de test" },
       { code: "SYNOR 5000-C", description: "Tester automat de continuitate pentru cabluri" },
-      { code: "SYNOR 5000-P", description: "Tester automat de cabluri, variantă de proces" },
-      { code: "CA 01", description: "Incintă de siguranță pentru testare la tensiune înaltă" },
-      { code: "CA 02", description: "Incintă de siguranță, variantă de dimensiune diferită" },
-      { code: "CA 03", description: "Incintă de siguranță pentru bancul de test" },
+      { code: "SYNOR 5000-P", description: "Tester automat de cabluri: continuitate, izolație și rigiditate dielectrică" },
+      { code: "CA 01", description: "Incintă de siguranță pentru protecția operatorilor la testare electrică" },
+      { code: "CA 02", description: "Incintă de siguranță pentru testare electrică" },
+      { code: "CA 03", description: "Incintă de siguranță pentru testare electrică" },
     ],
     faq: [
       { q: "Ce produce Sefelec?", a: "Sefelec fabrică aparate pentru testarea siguranței electrice și a izolației: dielectrimetre, testere hipot, megohmetre, testere de continuitate a împământării și scannere automate pentru testare de serie. Compania are sediul la Lognes, Franța, activează din 1965 și face parte din grupul Eaton din 2013." },
-      { q: "Cum aleg un dielectrimetru Sefelec pentru controlul de calitate?", a: "Pentru teste standard de rigiditate dielectrică alegeți seria 56 (56-D, 56-H); pentru domenii de tensiune mai mari, variantele 506 extind plaja de test. Dacă testați mai multe puncte pe același produs, adăugați un scanner 64-SC pentru comutare automată între canale." },
-      { q: "Ce echivalent are seria SYNOR de la Sefelec pentru testarea cablurilor?", a: "SYNOR 5000-C acoperă testarea de continuitate și scurtcircuit pe loturi de cabluri, iar SYNOR 5000-P adaugă funcții suplimentare de proces pentru configurații de conectori mai complexe. Ambele se programează pentru fiecare tip de hamu testat." },
-      { q: "Livrați aparate Sefelec în România și cât durează?", a: "Aducem aparatele Sefelec la comandă prin lanțul de aprovizionare Eaton pentru Europa, cu termen orientativ de 1–4 săptămâni, în funcție de configurația solicitată. Aparatele nu stau pe raftul nostru; le aducem la comandă." },
+      { q: "Cum aleg un dielectrimetru Sefelec pentru controlul de calitate?", a: "Pentru teste standard de rigiditate dielectrică alegeți seria 56 (56-D, 56-H); variantele 506 au aceeași destinație, iar domeniul de tensiune se confirmă pe cod, din fișa tehnică Sefelec. Dacă testați mai multe puncte pe același produs, adăugați un scanner 64-SC pentru comutare automată între canale." },
+      { q: "Ce echivalent are seria SYNOR de la Sefelec pentru testarea cablurilor?", a: "SYNOR 5000-C acoperă testarea de continuitate și scurtcircuit pe loturi de cabluri, iar SYNOR 5000-P măsoară continuitatea (1 mΩ–2 kΩ), izolația (50 kΩ–5 GΩ) și rigiditatea dielectrică. Ambele se programează pentru fiecare tip de hamu testat." },
+      { q: "Livrați aparate Sefelec în România și cât durează?", a: "Aducem aparatele Sefelec la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de configurația solicitată. Aparatele nu stau pe raftul nostru; le aducem la comandă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sefelec - electrical test and insulation measurement", url: "https://www.sefelec.com/", publisher: "Sefelec (Eaton)", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.sefelec.com/products/", publisher: "Sefelec (Eaton)", accessed: "2026-09-26" },
@@ -202,7 +202,7 @@ Pentru piața din România, Sefelec are sens la fabricanți de componente electr
     headquarters: "Heideck, Germania",
     overview: `Frankonia (Frankonia Germany EMC Solutions GmbH) e un producător german de sisteme pentru testarea compatibilității electromagnetice, cu sediul la Heideck, în Bavaria, activ din 1987. Gama acoperă sisteme de testare a imunității conduse și radiate, receivere EMI pentru măsurători de emisii, amplificatoare de putere RF, antene de bandă largă și celule GTEM pentru testare în cameră închisă. Din portofoliul Frankonia putem oferta atât sistemele compacte de imunitate pentru un singur standard, cât și componentele individuale (amplificator, antenă, receiver) pentru un laborator EMC construit pe măsură.
 
-Ce diferențiază Frankonia e organizarea gamei direct pe standardele de test: sistemele compacte de imunitate condusă acoperă IEC/EN 61000-4-6 și 61000-4-16 ca produse dedicate, gata configurate pentru acel standard, iar sistemele de imunitate radiată răspund la IEC/EN 61000-4-3, ISO 11452-2 sau familia MIL-STD 461/RS103 folosită în apărare. Receiverul EMI acoperă domeniul 9kHz–6GHz cu FFT pentru măsurători de emisii, iar amplificatoarele RF ajung până la 18GHz și puteri de ieșire de 12.000W la variantele de vârf. Unitatea de control ECU 3/6 integrează generatorul de semnal, comutarea prin relee și power-metrele RF-monitorizarea probei testate într-un singur echipament. Concurența vine din zona Teseq sau AR RF/Microwave, dar Frankonia rămâne un nume căutat pentru soluții complete, de la celula GTEM până la software-ul de control.
+Ce diferențiază Frankonia e organizarea gamei direct pe standardele de test: sistemele compacte de imunitate condusă acoperă IEC/EN 61000-4-6 și 61000-4-16 ca produse dedicate, gata configurate pentru acel standard, iar sistemele de imunitate radiată răspund la IEC/EN 61000-4-3, ISO 11452-2 sau familia MIL-STD 461/RS103 folosită în apărare. Receiverul EMI acoperă domeniul 9kHz–6GHz cu FFT pentru măsurători de emisii, iar amplificatoarele RF ajung până la 18GHz și puteri de ieșire de 12.000W la variantele de vârf. Unitatea de control ECU 3/6 integrează generatorul de semnal, comutarea prin relee, cuploarele direcționale, power-metrele RF și monitorizarea probei testate într-un singur echipament.
 
 Pentru piața din România, Frankonia are sens la laboratoare de testare EMC, producători de componente auto sau industriale care trebuie să demonstreze conformitatea cu directiva EMC și institute care testează echipamente pentru domeniul apărării.`,
     whyChoose: [
@@ -210,18 +210,18 @@ Pentru piața din România, Frankonia are sens la laboratoare de testare EMC, pr
       "Amplificatoare RF cu acoperire de la curent continuu până la 18GHz, cu putere de ieșire de până la 12.000W",
       "Receiver EMI cu FFT pentru emisii, acoperind banda 9kHz–6GHz într-un singur aparat",
       "Unitate de control ECU 3/6 care integrează generator, comutare prin relee și monitorizarea probei",
-      "Portofoliu complet de la celula GTEM și antene până la software-ul de control ProveEMC",
+      "Portofoliu care cuprinde celula GTEM, antene, receivere EMI și amplificatoare RF",
     ],
     keyProducts: [
-      { name: "Sisteme compacte de imunitate condusă", description: "Sisteme dedicate testării imunității conduse conform IEC/EN 61000-4-6 sau IEC/EN 61000-4-16, cu generator de semnal, amplificator RF de putere și power-metru RF pe trei canale integrate într-un singur cadru. Gândite pentru laboratoare care rulează același standard în mod repetat, fără a asambla separat fiecare componentă. Clientul trebuie să precizeze standardul exact de test și domeniul de frecvență sau putere necesar pentru proba testată." },
+      { name: "Sisteme compacte de imunitate condusă", description: "Sisteme dedicate testării imunității conduse conform IEC/EN 61000-4-6 sau IEC/EN 61000-4-16, cu generator de semnal, amplificator RF de putere și power-metru RF integrate într-un singur cadru. Gândite pentru laboratoare care rulează același standard în mod repetat, fără a asambla separat fiecare componentă. Clientul trebuie să precizeze standardul exact de test și domeniul de frecvență sau putere necesar pentru proba testată." },
       { name: "Sisteme de imunitate radiată", description: "Sisteme pentru testarea imunității la câmp radiat, conforme cu IEC/EN 61000-4-3, ISO 11452-2 sau familia MIL-STD 461 (inclusiv RS103), formate din amplificator RF, antenă și senzor de câmp electric. Configurația variază după domeniul de frecvență și intensitatea de câmp cerută de standard, de la teste automotive până la teste militare. Aplicație tipică: laboratoare EMC care testează module electronice auto sau echipamente pentru apărare înainte de certificare." },
-      { name: "Receiver EMI și antene pentru măsurarea emisiilor", description: "Receiver EMI cu FFT pentru măsurători de emisii conduse și radiate în banda 9kHz–6GHz, folosit împreună cu antene de bandă largă (9kHz–40GHz) pentru caracterizarea completă a unui produs înainte de introducerea pe piață. Setul acoperă atât pre-conformitate în dezvoltare, cât și testele finale de certificare EMC. Clientul precizează domeniul de frecvență necesar și dacă testul e pentru emisii conduse, radiate sau ambele." },
+      { name: "Receiver EMI și antene pentru măsurarea emisiilor", description: "Receiver EMI cu FFT pentru măsurători de emisii conduse și radiate în banda 9kHz–6GHz, folosit împreună cu o gamă de antene care acoperă, în ansamblu, 9kHz–40GHz pentru caracterizarea completă a unui produs înainte de introducerea pe piață. Setul acoperă atât pre-conformitate în dezvoltare, cât și testele finale de certificare EMC. Clientul precizează domeniul de frecvență necesar și dacă testul e pentru emisii conduse, radiate sau ambele." },
     ],
     industries: [
       "Automotive — testarea imunității componentelor electronice conform standardelor auto",
       "Apărare — teste de imunitate conform familiei MIL-STD 461",
       "Industrial — verificarea conformității EMC pentru echipamente industriale",
-      "Laboratoare de testare — construirea de laboratoare EMC complete, la cheie",
+      "Laboratoare de testare — echipamente și componente pentru laboratoare EMC",
     ],
     infinitrade: `Lucrăm cu fișele publice de pe site-ul Frankonia și spunem deschis ce putem și ce nu putem confirma despre configurația exactă a fiecărui sistem — nu avem date proprii de stoc pentru această gamă. Aducem sistemele și componentele Frankonia la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de complexitatea configurației. Pentru ofertă, clientul trebuie să trimită standardul de test vizat (de exemplu IEC/EN 61000-4-3), domeniul de frecvență și puterea sau intensitatea de câmp necesară. Nu ținem această gamă pe raft; fiecare sistem EMC se configurează pentru laboratorul clientului.`,
     limitation: "Nu putem confirma disponibilitatea software-ului ProveEMC pentru piața din România și nu oferim instalarea sau punerea în funcțiune a unui laborator EMC complet.",
@@ -237,8 +237,7 @@ Pentru piața din România, Frankonia are sens la laboratoare de testare EMC, pr
       { code: "GTEM-Cell", description: "Celulă GTEM pentru testare EMC în spațiu închis" },
       { code: "E-field Sensor", description: "Senzor de câmp electric alimentat pe baterie sau laser" },
       { code: "Magnetic-field Test System", description: "Sistem de testare câmp magnetic, până la 1000A/m" },
-      { code: "ProveEMC", description: "Software de control pentru sistemele de testare EMC" },
-      { code: "Antenna 9kHz-40GHz", description: "Antenă de bandă largă pentru măsurători EMC" },
+      { code: "Antenna 9kHz-40GHz", description: "Gamă de antene pentru măsurători EMC (9kHz–40GHz în ansamblu)" },
     ],
     faq: [
       { q: "Ce produce Frankonia?", a: "Frankonia produce sisteme pentru testarea compatibilității electromagnetice: sisteme de imunitate condusă și radiată, receivere EMI, amplificatoare RF, antene și celule GTEM. Compania are sediul la Heideck, Germania, și activează din 1987 în domeniul testării EMC." },
@@ -248,8 +247,8 @@ Pentru piața din România, Frankonia are sens la laboratoare de testare EMC, pr
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Frankonia Group - EMC Test Systems", url: "https://frankonia-solutions.com/test-systems/", publisher: "Frankonia Germany EMC Solutions GmbH", accessed: "2026-09-26" },
       { title: "Emission measurements", url: "https://frankonia-solutions.com/test-systems/emission-measurements/", publisher: "Frankonia Germany EMC Solutions GmbH", accessed: "2026-09-26" },
@@ -261,19 +260,19 @@ Pentru piața din România, Frankonia are sens la laboratoare de testare EMC, pr
     founded: 1991,
     overview: `Meatest e un producător ceh de calibratoare electrice, înființat în 1991 pornind de la cereri punctuale de instrumente de metrologie personalizate. Gama acoperă calibratoare multifuncționale AC/DC pentru multimetre și contoare de energie, calibratoare de precizie DC pentru semnale de proces, calibratoare de putere și energie, cutii decadice de rezistență și capacitate, și standarde de impedanță pentru calibrarea aparatelor LCR. Din portofoliul Meatest putem oferta atât calibratoarele portabile pentru laboratoare mici, cât și sistemele de precizie pentru laboratoare acreditate de metrologie.
 
-Ce diferențiază Meatest e acoperirea largă a preciziei pe aceeași familie de calibratoare multifuncționale: seria 9000 pornește de la 35 ppm la modelul de bază (9010) și urcă la 9-10 ppm la variantele 9010+ și 9020, permițând unui laborator să aleagă precizia potrivită bugetului fără să schimbe producătorul. Calibratoarele DC de proces M160 și M160i lucrează la 20 ppm și includ simulare RTD și de rezistență, utile la calibrarea multimetrelor de proces industriale. Cutiile decadice M632 și M642 acoperă domenii de rezistență de la 1Ω până la peste 20 MΩ, cu rezoluții de ordinul microohmilor, pentru simularea senzorilor RTD sau a rezistențelor de referință. Concurența vine din zona Fluke Calibration sau Transmille, dar Meatest rămâne un nume căutat pentru raportul preț-precizie la calibratoare multifuncționale.
+Ce diferențiază Meatest e acoperirea largă a preciziei pe aceeași familie de calibratoare multifuncționale: seria 9000 pornește de la 35 ppm la modelul de bază (9010) și urcă la 9-10 ppm la variantele 9010+ și 9020, permițând unui laborator să aleagă precizia potrivită bugetului fără să schimbe producătorul. Calibratoarele DC de proces M160 și M160i lucrează la 20 ppm, iar M160 include surse RTD și de rezistență, utile la calibrarea multimetrelor de proces industriale. Cutiile decadice M632 și M642 acoperă domenii de rezistență de la 100 mΩ până la 22 MΩ, cu rezoluții de ordinul microohmilor, pentru simularea senzorilor RTD sau a rezistențelor de referință.
 
 Pentru piața din România, Meatest are sens la laboratoare de metrologie acreditate, service-uri de aparate de măsură și companii din energie sau telecom care trebuie să calibreze periodic multimetre, contoare sau aparate LCR.`,
     whyChoose: [
       "Familie de calibratoare multifuncționale cu precizie de la 35 ppm la 9-10 ppm, în funcție de bugetul laboratorului",
       "Calibratoare DC de proces cu simulare RTD și rezistență, la precizie de 20 ppm",
-      "Cutii decadice de rezistență și capacitate cu comutare prin relee, potrivite pentru automatizare",
+      "Cutii decadice de rezistență și capacitate pentru laboratoare de metrologie",
       "Standarde de impedanță acoperind domenii de la sub 100 Hz până la 1 MHz",
       "Peste trei decenii de fabricație de instrumente de metrologie, pornind de la cereri personalizate de laborator",
     ],
     keyProducts: [
       { name: "Calibratoare multifuncționale seria 9000", description: "9010, 9010+ și 9020 sunt calibratoare AC/DC pentru multimetre și contoare de energie, cu precizie de la 35 ppm la modelul de bază până la 9 ppm la 9020, design modular la 9010+ pentru extindere ulterioară. 9000 e varianta portabilă, de 11kg, cu ieșiri de până la 1050V și 20,5A, plus rezistență și capacitate simulate. Aplicație tipică: calibrarea multimetrelor digitale și a contoarelor de energie într-un laborator sau direct în teren cu unitatea portabilă." },
-      { name: "Calibratoare DC de proces M160 / M160i", description: "Calibratoare de semnal DC de proces cu precizie de 20 ppm, cu sursă și măsurare de curent, tensiune, rezistență și simulare RTD, gândite pentru calibrarea multimetrelor de proces și a unităților de evaluare din industrie. M160i adaugă robustețe pentru condiții industriale mai dure. Clientul trebuie să precizeze tipul de semnal calibrat (curent, tensiune, RTD) și precizia cerută de procedura de calibrare." },
+      { name: "Calibratoare DC de proces M160 / M160i", description: "Calibratoare de semnal DC de proces cu precizie de 20 ppm, cu sursă și măsurare de curent, tensiune, rezistență și simulare RTD, gândite pentru calibrarea multimetrelor de proces și a unităților de evaluare din industrie. Clientul trebuie să precizeze tipul de semnal calibrat (curent, tensiune, RTD) și precizia cerută de procedura de calibrare." },
       { name: "Cutii decadice și standarde de impedanță", description: "M632, M642, M631 și M641 sunt cutii decadice de rezistență, cu sau fără simulare RTD, iar M194 acoperă rezistențe înalte până la 6kV, M525 acoperă capacitate programabilă între 100pF și 100µF. M550 e un calibrator de impedanță cu bancă de standarde fixe pentru calibrarea automată a aparatelor LCR până la 1 MHz. Aplicație tipică: calibrarea ohmetrelor, multimetrelor și aparatelor LCR dintr-un laborator de metrologie." },
     ],
     industries: [
@@ -290,14 +289,14 @@ Pentru piața din România, Meatest are sens la laboratoare de metrologie acredi
       { code: "9010", description: "Calibrator multifuncțional, precizie 35 ppm" },
       { code: "9000", description: "Calibrator multifuncțional portabil, 11 kg" },
       { code: "M160", description: "Calibrator DC de proces, precizie 20 ppm" },
-      { code: "M160i", description: "Calibrator DC de proces pentru condiții industriale" },
+      { code: "M160i", description: "Calibrator DC de proces, precizie 20 ppm" },
       { code: "M133C 3F", description: "Calibrator de putere trifazat cu funcții de calitate energie" },
       { code: "M133C 1F", description: "Calibrator de putere monofazat" },
       { code: "M133Ci 3F", description: "Calibrator de putere trifazat pentru traductoare" },
       { code: "M133Ci 1F", description: "Calibrator de putere monofazat pentru traductoare" },
-      { code: "6040", description: "Calibrator de panou monofazat cu sincroscop" },
+      
       { code: "M192", description: "Sarcină rezistivă reală, 3000W" },
-      { code: "M192A", description: "Sarcină rezistivă reală cu multimetru integrat" },
+      { code: "M192A", description: "Sarcină rezistivă reală, 3000W" },
       { code: "M632", description: "Cutie decadică de rezistență, 1Ω-1,2MΩ" },
       { code: "M642", description: "Cutie decadică de rezistență, 100mΩ-22MΩ" },
       { code: "M631", description: "Simulator RTD și rezistență, precizie 0,01°C" },
@@ -315,8 +314,8 @@ Pentru piața din România, Meatest are sens la laboratoare de metrologie acredi
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Meatest - electrical calibration instruments", url: "https://www.meatest.com/", publisher: "Meatest s.r.o.", accessed: "2026-09-26" },
       { title: "Multi-product calibrators", url: "https://www.meatest.com/products-multi-product-calibrators-145", publisher: "Meatest s.r.o.", accessed: "2026-09-26" },
@@ -329,15 +328,15 @@ Pentru piața din România, Meatest are sens la laboratoare de metrologie acredi
     headquarters: "Irvine, California, SUA",
     overview: `Pacific Power Source e un producător american de surse de putere AC/DC programabile, simulatoare de rețea și sarcini electronice, cu sediul la Irvine, California, activ din 1971. Gama acoperă surse AC și AC/DC de la câteva sute de VA până la peste 1 MVA, simulatoare de rețea electrică pentru testarea invertoarelor și a echipamentelor conectate la rețea, sarcini electronice regenerative și sisteme dedicate testării de compatibilitate electromagnetică. Din portofoliul Pacific Power Source putem oferta atât sursele compacte de laborator, cât și sistemele de putere mare pentru testarea invertoarelor fotovoltaice sau a echipamentelor de rețea.
 
-Ce diferențiază Pacific Power Source e acoperirea de putere foarte largă pe aceeași arhitectură: seria AZX pornește de la 30kVA și ajunge la peste 1,1MVA cu funcție de simulare hardware-in-the-loop (PHIL), utilă la testarea sistemelor de energie regenerabilă la scară reală. Seria LSX și LMX acoperă nevoi mai mici, de laborator, cu frecvențe de ieșire de până la 5000Hz pentru echipamente aerospațiale cu alimentare nestandard. Simulatoarele de rețea RGS și GSZ reproduc perturbații reale pentru certificarea invertoarelor conform IEEE 1547.1 sau UL 1741 SB, iar sarcinile RLS și ELZ recuperează energia disipată în loc să o irosească. Pacific Power Source rămâne un nume de referință la puteri foarte mari, peste 1MVA.
+Ce diferențiază Pacific Power Source e acoperirea de putere foarte largă, de la sute de VA la peste 1MVA: seria AZX pornește de la 30kVA și ajunge la peste 1,1MVA cu funcție de simulare hardware-in-the-loop (PHIL), utilă la testarea sistemelor de energie regenerabilă la scară reală. Seria LSX și LMX acoperă nevoi mai mici, de laborator, cu frecvențe de ieșire de până la 1200Hz la LSX și 5000Hz la LMX pentru echipamente aerospațiale cu alimentare nestandard. Simulatoarele de rețea RGS și GSZ reproduc perturbații reale pentru certificarea invertoarelor conform IEEE 1547.1 sau UL 1741 SB, iar sarcinile RLS și ELZ recuperează energia disipată în loc să o irosească.
 
 Pentru piața din România, Pacific Power Source are sens la laboratoare de cercetare, universități tehnice și producători de echipamente electrice sau electronice care trebuie să testeze produse la tensiuni, frecvențe sau perturbații de rețea diferite de cele locale.`,
     whyChoose: [
-      "Surse AC/DC acoperind de la sute de VA până la peste 1MVA, pe aceeași arhitectură de produs",
+      "Surse AC/DC acoperind de la sute de VA până la peste 1MVA, în mai multe serii",
       "Simulatoare de rețea pentru certificarea invertoarelor conform IEEE 1547.1 și UL 1741 SB",
       "Sarcini electronice regenerative, care recuperează energia disipată în loc să o irosească",
       "Frecvențe de ieșire de până la 5000Hz, utile la echipamente aerospațiale cu alimentare nestandard",
-      "Peste cinci decenii de fabricație de surse programabile, cu sisteme instalate la puteri de peste 1MVA",
+      "Peste cinci decenii de fabricație de surse programabile, cu game de produs care ajung la peste 1MVA",
     ],
     keyProducts: [
       { name: "Surse AC/DC programabile AZX / AGX / AFX / ADF", description: "Surse de putere programabile pentru testare de laborator sau producție, de la 6kVA (AGX, AFX) până la peste 1,1MVA la varianta AZX, cu ieșire AC și DC combinată. AZX adaugă funcție PHIL pentru simularea hardware-in-the-loop a rețelei electrice, utilă la testarea echipamentelor de energie regenerabilă la scară reală. ADF acoperă domeniul de frecvență 45-500Hz pentru echipamente cu cerințe speciale. Clientul precizează puterea necesară, domeniul de tensiune și frecvență și dacă are nevoie de funcție PHIL." },
@@ -351,7 +350,7 @@ Pentru piața din România, Pacific Power Source are sens la laboratoare de cerc
       "Centre de date — testarea surselor de alimentare neîntreruptibile",
       "Cercetare și mediul academic — surse de laborator pentru dezvoltare și validare",
     ],
-    infinitrade: `Pentru Pacific Power Source ne bazăm pe fișele tehnice publice ale producătorului și spunem deschis ce putem și ce nu putem confirma despre stocul din regiune — nu avem date proprii în acest sens. Aducem sursele și sistemele Pacific Power Source la comandă, prin canale de aprovizionare din SUA sau prin partenerii europeni ai producătorului, cu termen orientativ de 1–4 săptămâni pentru configurațiile standard și mai mult pentru sistemele de putere mare. Pentru ofertă, clientul trebuie să trimită seria dorită (de exemplu AFX sau LMX), puterea necesară și domeniul de tensiune și frecvență de test. Nu ținem această gamă pe raft; fiecare sistem se configurează pentru aplicația clientului.`,
+    infinitrade: `Pentru Pacific Power Source ne bazăm pe fișele tehnice publice ale producătorului și spunem deschis ce putem și ce nu putem confirma despre stocul din regiune — nu avem date proprii în acest sens. Aducem sursele și sistemele Pacific Power Source la comandă, prin canale de aprovizionare din SUA sau din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni pentru configurațiile standard și mai mult pentru sistemele de putere mare. Pentru ofertă, clientul trebuie să trimită seria dorită (de exemplu AFX sau LMX), puterea necesară și domeniul de tensiune și frecvență de test. Nu ținem această gamă pe raft; fiecare sistem se configurează pentru aplicația clientului.`,
     limitation: "Nu putem confirma termenele de livrare pentru sistemele de putere foarte mare (peste 1MVA) și nu oferim instalare sau punere în funcțiune la fața locului pentru această gamă.",
     productCodes: [
       { code: "AZX", description: "Sursă AC/DC regenerativă cu funcție PHIL, până la 1,1MVA" },
@@ -377,8 +376,8 @@ Pentru piața din România, Pacific Power Source are sens la laboratoare de cerc
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pacific Power Source - AC/DC power sources and grid simulators", url: "https://www.pacificpower.com/", publisher: "Pacific Power Source, Inc.", accessed: "2026-09-26" },
       { title: "Products", url: "https://pacificpower.com/products/", publisher: "Pacific Power Source, Inc.", accessed: "2026-09-26" },
@@ -387,20 +386,20 @@ Pentru piața din România, Pacific Power Source are sens la laboratoare de cerc
   seaward: {
     name: "Seaward",
     headquarters: "Peterlee, Co. Durham, Marea Britanie",
-    overview: `Seaward e un producător britanic de aparate de siguranță electrică, cu sediul la Peterlee, în comitatul Durham, activ de peste patru decenii în testarea echipamentelor portabile (PAT), a instalațiilor solare fotovoltaice și a echipamentelor din producție. Gama acoperă testere PAT manuale și descărcabile, testere pentru instalații solare la 1000V și 1500V, testere hipot pentru linii de producție, indicatoare de tensiune și accesorii pentru lucrul la înaltă tensiune. Din portofoliul Seaward putem oferta atât testerele PAT pentru mentenanța electrică, cât și testerele solare pentru instalatorii de sisteme fotovoltaice.
+    overview: `Seaward e un producător britanic de aparate de siguranță electrică, cu sediul la Peterlee, în comitatul Durham, activ de peste patru decenii în testarea echipamentelor portabile (PAT), de aproximativ un deceniu în testarea instalațiilor solare fotovoltaice, și oferă și echipamente pentru producție. Gama acoperă testere PAT manuale și descărcabile, testere pentru instalații solare la 1000V și 1500V, testere hipot pentru linii de producție, indicatoare de tensiune și accesorii pentru lucrul la înaltă tensiune. Din portofoliul Seaward putem oferta atât testerele PAT pentru mentenanța electrică, cât și testerele solare pentru instalatorii de sisteme fotovoltaice.
 
-Ce diferențiază Seaward e acoperirea completă a ciclului de testare a siguranței electrice, de la aparatul portabil de birou până la echipamentul industrial de producție: seria Apollo (Apollo 500, Apollo 600+) descarcă automat rezultatele testelor PAT, iar software-ul PATGuard 3 centralizează istoricul de test pentru facility management. Testerele solare PV150 și PV200 acoperă instalații de până la 1000V, iar PV:1525 extinde plaja la 1500V, pentru instalațiile fotovoltaice de generație mai nouă. Familia de testere hipot HAL, folosită direct în producție, testează rigiditatea dielectrică a produselor electrice înainte de expediere. Prin filiala Rigel Medical, Seaward acoperă și testarea siguranței echipamentelor medicale. Concurența vine din zona Fluke sau Metrel, dar Seaward rămâne un nume consacrat în special pentru testarea PAT și solară.
+Ce diferențiază Seaward e acoperirea completă a ciclului de testare a siguranței electrice, de la aparatul portabil de birou până la echipamentul industrial de producție: seria Apollo (de exemplu Apollo 500+ și Apollo 600+) descarcă automat rezultatele testelor PAT, iar software-ul PATGuard 3 centralizează istoricul de test pentru facility management. Testerele solare PV150 și PV200 acoperă instalații de până la 1000V, iar PV:1525 extinde plaja la 1500V, pentru instalațiile fotovoltaice de generație mai nouă. Familia de testere hipot HAL, folosită direct în producție, testează rigiditatea dielectrică a produselor electrice înainte de expediere. Prin filiala Rigel Medical, Seaward acoperă și testarea siguranței echipamentelor medicale.
 
 Pentru piața din România, Seaward are sens la firme de mentenanță electrică și facility management, instalatori de sisteme fotovoltaice și producători de echipamente electrice care trebuie să testeze rigiditatea dielectrică înainte de livrare.`,
     whyChoose: [
       "Testere PAT descărcabile din seria Apollo, cu istoric de test centralizat prin PATGuard 3",
       "Testere solare PV pentru instalații de 1000V și 1500V, acoperind generații diferite de sisteme fotovoltaice",
-      "Testere hipot HAL pentru producție, cu peste 75 de ani de experiență în testarea de linie",
+      "Testere hipot HAL pentru testarea de linie în producție",
       "Accesorii dedicate pentru lucrul la înaltă tensiune (indicatoare, prăjini de fazare, tije de descărcare)",
       "Acces prin filiala Rigel Medical la teste de siguranță pentru echipamente medicale",
     ],
     keyProducts: [
-      { name: "Testere PAT seria Apollo și software PATGuard 3", description: "Apollo 500 și Apollo 600+ sunt testere PAT descărcabile, cu firmware actualizabil și compatibilitate cu imprimante de etichete pentru marcarea echipamentelor testate. PrimeTest completează gama pentru utilizatori care rulează teste PAT manuale, fără descărcare automată. PATGuard 3 e software-ul care centralizează rezultatele testelor pentru un istoric complet per echipament, util la audituri de facility management. Clientul precizează volumul de echipamente testat lunar și dacă are nevoie de descărcare automată a rezultatelor." },
+      { name: "Testere PAT seria Apollo și software PATGuard 3", description: "Apollo 500+ și Apollo 600+ sunt testere PAT descărcabile, cu firmware actualizabil și compatibilitate cu imprimante de etichete pentru marcarea echipamentelor testate. PrimeTest (modelele 50, 100 și 250+) completează gama pentru verificări PAT curente. PATGuard 3 e software-ul care centralizează rezultatele testelor pentru un istoric complet per echipament, util la audituri de facility management. Clientul precizează volumul de echipamente testat lunar și dacă are nevoie de descărcare automată a rezultatelor." },
       { name: "Testere solare PV150 / PV200 / PV:1525", description: "Teste complete pentru instalații fotovoltaice: PV150 și PV200 acoperă sisteme de până la 1000V, cu măsurători de izolație, continuitate și curbă I-V, iar PV:1525 extinde domeniul la 1500V pentru instalațiile de generație mai nouă cu tensiuni de sistem mai mari. Aplicație tipică: verificarea unei instalații fotovoltaice noi înainte de punerea în funcțiune sau inspecția periodică a uneia existente. Clientul precizează tensiunea maximă a sistemului testat." },
       { name: "Testere hipot HAL și accesorii înaltă tensiune", description: "Familia HAL (inclusiv HAL:400) și STM/L sunt testere hipot pentru linii de producție, folosite la verificarea rigidității dielectrice a fiecărui produs electric înainte de expediere. Gama de accesorii pentru înaltă tensiune (KD1E indicator de tensiune, PR33D prăjină de fazare, SDR11 tijă de descărcare, PH3 unitate de verificare) susține lucrul sigur pe instalații electrice de medie și înaltă tensiune. Aplicație tipică: control de calitate în fabricație și lucrări de mentenanță pe rețele electrice." },
     ],
@@ -415,8 +414,8 @@ Pentru piața din România, Seaward are sens la firme de mentenanță electrică
     limitation: "Nu putem confirma anul exact al înființării companiei și nu oferim etalonarea proprie a testerelor Seaward după livrare.",
     productCodes: [
       { code: "Apollo 600+", description: "Tester PAT descărcabil, firmware actualizabil" },
-      { code: "Apollo 500", description: "Tester PAT descărcabil, compatibil imprimantă etichete" },
-      { code: "PrimeTest", description: "Tester PAT manual pentru verificări curente" },
+      { code: "Apollo 500+", description: "Tester PAT descărcabil, compatibil imprimantă etichete" },
+      { code: "PrimeTest", description: "Tester PAT pentru verificări curente (modelele PrimeTest 50, 100, 250+)" },
       { code: "PATGuard 3", description: "Software de centralizare a rezultatelor testelor PAT" },
       { code: "PV150", description: "Tester instalații solare, până la 1000V" },
       { code: "PV200", description: "Tester instalații solare, kit complet, până la 1000V" },
@@ -426,19 +425,19 @@ Pentru piața din România, Seaward are sens la firme de mentenanță electrică
       { code: "SDR11", description: "Tijă de descărcare sigură" },
       { code: "PH3", description: "Unitate de verificare pentru indicatoare de tensiune" },
       { code: "HAL Series", description: "Testere hipot pentru linia de producție" },
-      { code: "HAL:400", description: "Tester hipot de producție, variantă compactă" },
+      { code: "HAL:400", description: "Tester hipot de producție" },
       { code: "STM/L", description: "Tester hipot pentru linii de producție" },
     ],
     faq: [
       { q: "Ce produce Seaward?", a: "Seaward fabrică aparate de siguranță electrică: testere PAT pentru echipamente portabile, testere pentru instalații solare fotovoltaice, testere hipot pentru producție și accesorii pentru lucrul la înaltă tensiune. Compania are sediul la Peterlee, Marea Britanie." },
       { q: "Cum aleg un tester Seaward pentru mentenanța PAT a unei firme?", a: "Pentru volume mari de echipamente testate, Apollo 600+ oferă descărcare automată și actualizare de firmware; pentru teste ocazionale, PrimeTest acoperă nevoia de bază. Adăugați PATGuard 3 dacă aveți nevoie de un istoric centralizat al testelor pentru audituri." },
       { q: "Ce echivalent are Seaward pentru testarea instalațiilor solare de 1500V?", a: "PV:1525 este testerul Seaward dedicat instalațiilor fotovoltaice cu tensiune de sistem de până la 1500V, în timp ce PV150 și PV200 acoperă instalațiile mai vechi, de până la 1000V." },
-      { q: "Livrați testere Seaward în România și cât durează?", a: "Aducem testerele Seaward la comandă prin canale de aprovizionare din Regatul Unit sau prin distribuția europeană a producătorului, cu termen orientativ de 1–4 săptămâni în funcție de modeDisponibilitatea din depozit nu este promisă pentru niciun model.ft." },
+      { q: "Livrați testere Seaward în România și cât durează?", a: "Aducem testerele Seaward la comandă prin canale de aprovizionare din Regatul Unit sau prin distribuția europeană a producătorului, cu termen orientativ de 1–4 săptămâni în funcție de model. Disponibilitatea din depozit nu este promisă pentru niciun model." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Seaward - electrical safety testing", url: "https://www.seaward.com/", publisher: "Seaward Electronic Ltd", accessed: "2026-09-26" },
       { title: "PAT Testing Products", url: "https://www.seaward.com/gb/products/pat-testing/", publisher: "Seaward Electronic Ltd", accessed: "2026-09-26" },

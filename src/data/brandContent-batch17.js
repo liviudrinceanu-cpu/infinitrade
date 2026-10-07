@@ -1,41 +1,41 @@
 // Batch 17 - Rich SEO Content for Priority Niche Brands
 // Legacy-redirect targets (301 traffic from old-site URLs) and low-competition niches
-// Natural Romanian language, no "distribuitor oficial/autorizat"
+// Natural Romanian language, no claims of official or authorized status
 
 export const brandContentBatch17 = {
   leser: {
     name: "LESER",
     founded: 1919,
     headquarters: "Hamburg, Germania",
-    overview: `LESER este unul dintre cei mai vechi producători independenți de supape de siguranță din lume, cu sediul la Hamburg și activitate neîntreruptă din 1919. Compania a rămas în proprietate privată de-a lungul a peste un secol, concentrându-se exclusiv pe un singur tip de produs: supape de siguranță cu arc pentru protecția la suprapresiune a instalațiilor industriale. Această specializare strictă s-a tradus într-o gamă extrem de largă — de la supape compacte pentru cazane mici până la supape API pentru rafinării și platforme offshore — și într-o rețea proprie de standuri de testare pentru certificarea capacității de evacuare conform standardelor internaționale.
+    overview: `LESER este unul dintre cei mai vechi producători independenți de supape de siguranță din lume, cu sediul la Hamburg . Compania a rămas în proprietate privată de-a lungul a peste un secol, concentrându-se pe supape de siguranță pentru protecția la suprapresiune a instalațiilor industriale. Această specializare strictă s-a tradus într-o gamă extrem de largă — de la supape compacte pentru cazane mici până la supape API pentru rafinării și platforme offshore — și într-o rețea proprie de standuri de testare pentru certificarea capacității de evacuare conform standardelor internaționale.
 
-Gama LESER acoperă toate configurațiile uzuale de supape de siguranță cu acțiune directă a arcului: seria 441 Compact Performance, o soluție economică și compactă pentru DN15–DN100, folosită frecvent de constructorii de utilaje și cazane; seria 459 Full Nozzle, gândită pentru rafinării și medii fierbinți sau corozive, unde construcția cu duză completă izolează arcul și capacul de contactul cu fluidul de proces; și seria 526/527, supape convenționale cu scaun metalic pentru aplicații generale de proces, disponibile până la DN300 și presiuni de deschidere de peste 400 bar. Pentru debite mari sau presiuni de operare foarte apropiate de presiunea de deschidere, LESER oferă și supape pilotate, cu acționare modulantă și pierderi reduse prin scurgere înainte de deschidere.
+Gama LESER acoperă toate configurațiile uzuale de supape de siguranță cu acțiune directă a arcului: seria 441 High Performance, pentru aplicații industriale generale (versiunea DIN: DN 20 – DN 400, 0,1–40 bar); seria 459 Compact Performance, cu dimensiuni reduse și conexiuni variabile (0,2–250 bar); și seria 526, supape API 526 cu presiuni de reglaj de la 0,2 până la 400 bar și diametre DN 25 – DN 200. Pentru debite mari sau presiuni de operare foarte apropiate de presiunea de deschidere, LESER oferă și supape pilotate, cu acționare modulantă și pierderi reduse prin scurgere înainte de deschidere.
 
-Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje speciale precum Hastelloy și Monel pentru medii puternic corozive, iar dimensionarea orificiului urmează literele API 526 (D până la T) pentru compatibilitate directă cu proiectele existente. Temperaturile acoperite merg de la aplicații criogenice, pentru terminale LNG, până la peste 550°C pentru linii de abur supraîncălzit din centrale electrice. Supapele LESER sunt certificate TÜV și PED 2014/68/UE și, pentru piața americană, ASME, și se regăsesc pe conducte de proces din rafinării, platforme petroliere, fabrici chimice, centrale electrice și instalații de gaz industrial din toată lumea.`,
+Corpurile se execută din oțel carbon, oțel inoxidabil sau alte materiale, în funcție de seria aleasă, iar dimensionarea orificiului urmează literele API 526 (D până la T) pentru compatibilitate directă cu proiectele existente. Temperaturile acoperite merg de la aplicații criogenice, pentru terminale LNG, până la 550°C pentru linii de abur supraîncălzit din centrale electrice. Supapele LESER sunt certificate TÜV și PED 2014/68/UE și, pentru piața americană, ASME, și se regăsesc pe conducte de proces din rafinării, platforme petroliere, fabrici chimice, centrale electrice și instalații de gaz industrial din toată lumea.`,
     whyChoose: [
-      "Gamă completă de supape de siguranță — de la seria compactă 441 pentru aplicații OEM până la seria API 526/527 pentru rafinării și platforme offshore",
+      "Gamă completă de supape de siguranță — de la seria compactă 459 (Compact Performance) până la seria API 526 pentru rafinării și platforme offshore",
       "Precizie de deschidere certificată — toleranțe stricte ale presiunii de deschidere, verificate pe standuri proprii de testare conform ISO 4126",
-      "Materiale pentru medii dificile — corpuri din oțel inoxidabil, Hastelloy sau Monel pentru fluide corozive, acide sau criogenice",
+      "Materiale pentru medii dificile — corpuri din oțel carbon sau inoxidabil, în funcție de seria aleasă, pentru fluide corozive sau criogenice",
       "Construcție Full Nozzle disponibilă — izolează arcul de fluidul de proces în aplicații fierbinți sau agresive chimic, prelungind durata de viață",
       "Certificări recunoscute internațional — TÜV, PED 2014/68/UE și ASME, acceptate direct în dosarele tehnice ale proiectelor",
       "Suport pentru recondiționare — piese originale și seturi de etanșare pentru revizia periodică a supapelor aflate deja în exploatare"
     ],
     keyProducts: [
       {
-        name: "Supape de Siguranță Tip 441 (Compact Performance)",
-        description: "Supapa 441 este soluția economică și compactă din gama LESER, gândită pentru constructorii de cazane, compresoare și utilaje unde spațiul de montaj este limitat. Acoperă diametre de la DN15 până la DN100/DN150, cu presiuni de deschidere standard de la 0,2 bar până la 40 bar, în execuție cu flanșe conform DIN sau ANSI. Corpul se livrează din oțel carbon sau inoxidabil, cu arc calibrat din fabrică și sigilat pentru trasabilitate. Fiind cea mai vândută serie LESER, are termene de livrare mai scurte decât variantele speciale și acoperă majoritatea aplicațiilor standard de protecție la suprapresiune din industria de proces ușoară și din construcția de mașini."
+        name: "Supape de Siguranță Tip 441 (High Performance)",
+        description: "Tipul 441 aparține gamei High Performance a LESER, pentru aplicații industriale generale. Conform paginii producătorului, versiunea DIN acoperă DN 20 până la DN 400, cu presiuni de 0,1 până la 40 bar, iar versiunea ANSI acoperă DN 25 până la DN 100 (NPS 1 – NPS 4), cu 0,1 până la 51 bar. Corpul se livrează din oțel carbon sau inoxidabil, cu arc calibrat din fabrică și sigilat pentru trasabilitate. Acoperă aplicații standard de protecție la suprapresiune din industria de proces și din construcția de mașini; termenul de livrare se confirmă pe cod."
       },
       {
-        name: "Supape de Siguranță Tip 459 (Full Nozzle)",
-        description: "Construcția Full Nozzle a seriei 459 separă complet arcul și mecanismul de acționare de fluidul de proces, ceea ce o recomandă pentru medii fierbinți, corozive sau cu particule în suspensie, tipice rafinăriilor și instalațiilor petrochimice. Diametrele acoperă DN25 până la DN200, cu presiuni de deschidere de până la 250 bar și temperaturi de lucru de peste 400°C în execuții speciale cu garnituri metalice sau din grafit. Materialele includ oțel inoxidabil austenitic și aliaje rezistente la coroziune pentru medii acide. Supapa respectă cerințele API 526 pentru dimensiunile orificiului, ceea ce simplifică interschimbabilitatea cu supape existente din rafinării proiectate după acest standard."
+        name: "Supape de Siguranță Tip 459 (Compact Performance)",
+        description: "Seria 459 face parte din gama Compact Performance, cu dimensiuni reduse și conexiuni variabile. Conform paginii producătorului, conexiunile flanșate DIN acoperă DN 15 până la DN 25, presiunea de reglaj este de 0,2–250 bar, iar temperatura de lucru de la -273°C până la 450°C. Materialele includ oțel inoxidabil austenitic și aliaje rezistente la coroziune pentru medii acide. "
       },
       {
-        name: "Supape de Siguranță Tip 526/527 (Convenționale)",
-        description: "Seria 526/527 reprezintă supapa de siguranță convențională, cu scaun metalic, folosită pe scară largă pentru protecția recipientelor sub presiune, schimbătoarelor de căldură și conductelor de proces din industria chimică și energetică. Gama acoperă DN15 până la DN300, cu presiuni de deschidere de la 0,3 bar până la peste 400 bar, în execuții cu sau fără burduf de balans pentru compensarea contrapresiunii variabile din sistem. Corpurile se livrează în oțel carbon, oțel inoxidabil sau oțel aliat, iar dimensionarea orificiului respectă literele API 526 D–T. Este seria de referință pentru proiectele noi de rafinării, platforme și instalații chimice unde se cere conformitate strictă cu codurile de proiectare internaționale."
+        name: "Supape de Siguranță Tip 526 (API)",
+        description: "Seria 526 (API) reprezintă supapa de siguranță cu arc, cu scaun metalic, folosită pe scară largă pentru protecția recipientelor sub presiune, schimbătoarelor de căldură și conductelor de proces din industria chimică și energetică. Conform paginii producătorului, gama API acoperă DN 25 până la DN 200 (NPS 1 – NPS 8), cu presiuni de reglaj de la 0,2 până la 400 bar, în execuții cu sau fără burduf de balans pentru compensarea contrapresiunii variabile din sistem. Corpurile se livrează în oțel carbon, oțel inoxidabil sau oțel aliat, iar dimensionarea orificiului respectă literele API 526 D–T. Este folosită în proiecte de rafinării, platforme și instalații chimice care cer conformitate cu standardul API 526."
       },
       {
         name: "Supape de Siguranță Pilotate",
-        description: "Pentru aplicații unde presiunea de operare este foarte apropiată de presiunea de deschidere sau unde este nevoie de capacități mari de evacuare la o suprapresiune redusă, LESER oferă supape pilotate cu acționare modulantă. Un pilot extern controlează deschiderea supapei principale în funcție de presiunea din sistem, reducând pierderile prin scurgere înainte de declanșare și permițând funcționarea până la 98% din presiunea de deschidere fără riscul unei deschideri premature. Sunt folosite frecvent pe recipiente mari de stocare, sfere de GPL și rezervoare criogenice, unde o supapă convențională ar necesita o marjă de siguranță mult mai mare. Disponibile în diametre mari, cu opțiuni de acționare la distanță și monitorizare a stării pilotului."
+        description: "Pentru aplicații unde presiunea de operare este foarte apropiată de presiunea de deschidere sau unde este nevoie de capacități mari de evacuare la o suprapresiune redusă, LESER oferă supape pilotate cu acționare modulantă. Un pilot extern controlează deschiderea supapei principale în funcție de presiunea din sistem, reducând pierderile prin scurgere înainte de declanșare și permițând funcționarea până la 96% din presiunea de reglaj (97% cu sistemul suplimentar de încărcare), conform paginii producătorului. Sunt folosite frecvent pe recipiente mari de stocare, sfere de GPL și rezervoare criogenice, unde o supapă convențională ar necesita o marjă de siguranță mult mai mare. Disponibile în diametre mari, cu opțiuni de acționare la distanță și monitorizare a stării pilotului."
       }
     ],
     industries: [
@@ -53,7 +53,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
       "TÜV — verificare independentă a presiunii de deschidere și a capacității de evacuare",
       "API 526 — conformitate dimensională a orificiilor pentru interschimbabilitate în rafinării"
     ],
-    infinitrade: "Punem la dispoziție supape de siguranță LESER pentru rafinării, platforme și fabrici de proces din România — seria compactă 441, seria Full Nozzle 459, seria convențională 526/527 și variantele pilotate — aduse la comandă prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pe fiecare model și ne bazăm pe informațiile publice disponibile ale producătorului atunci când recomandăm o variantă. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de deschidere dorită și fluidul vehiculat prin conductă. Accesoriile și seturile de etanșare pentru revizie sunt de regulă disponibile în 24–72 h, iar supapele configurate special, cu certificare TÜV sau ASME, ajung în 1–4 săptămâni la comandă.",
+    infinitrade: "Aducem la comandă supape de siguranță LESER pentru rafinării, platforme și fabrici de proces din România — seria High Performance 441, seria Compact Performance 459, seria API 526 și variantele pilotate — aduse la comandă prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pe fiecare model și ne bazăm pe informațiile publice disponibile ale producătorului atunci când recomandăm o variantă. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de deschidere dorită și fluidul vehiculat prin conductă. Accesoriile și seturile de etanșare pentru revizie pot ajunge în 24–72 h dacă sunt în stoc la noi sau la furnizor, altfel în 1–4 săptămâni la comandă; supapele configurate special, cu certificare TÜV sau ASME, au de regulă termene mai lungi, confirmate de furnizor.",
     limitation: "Nu putem confirma service în perioada de garanție a producătorului și nici teste de capacitate de evacuare pe standurile proprii LESER — acestea rămân în sarcina rețelei de service a fabricii.",
     sources: [
       {"title":"LESER Homepage","url":"https://www.leser.com/en/","publisher":"LESER","accessed":"2026-09-22"},
@@ -129,8 +129,8 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -139,27 +139,27 @@ Corpurile se execută din oțel carbon, oțel inoxidabil austenitic sau aliaje s
     name: "GESTRA",
     founded: 1885,
     headquarters: "Bremen, Germania",
-    overview: `GESTRA este producătorul german de referință pentru gestionarea aburului și a condensului în instalații industriale, cu activitate la Bremen încă din 1885. De peste un secol, compania dezvoltă echipamente pentru trei funcții esențiale ale unei centrale termice sau ale unei rețele de abur: evacuarea condensului fără pierderi de abur viu, controlul nivelului de apă din cazane, și tratarea apei de alimentare prin sisteme de golire continuă și discontinuă. Din 2016, GESTRA face parte din grupul american Flowserve, ceea ce a extins accesul la rețeaua globală de distribuție și service, păstrând în același timp fabricile și inginerimea din Germania.
+    overview: `GESTRA este un producător german specializat în gestionarea aburului și a condensului în instalații industriale, cu sediul la Bremen. De peste un secol, compania dezvoltă echipamente pentru trei funcții esențiale ale unei centrale termice sau ale unei rețele de abur: evacuarea condensului fără pierderi de abur viu, controlul nivelului de apă din cazane, și tratarea apei de alimentare prin sisteme de golire continuă și discontinuă. Conform site-ului oficial GESTRA, compania face parte în prezent din grupul Spirax; anterior a aparținut grupului Flowserve.
 
-Oalele de condens GESTRA acoperă toate principiile de funcționare uzuale — cu plutitor (seria UNA, pentru debite mari și presiuni de până la 45 bar), termodinamice (seria MK, compacte și fiabile pentru linii de abur de presiune medie), și bimetalice (seria BK, pentru subrăcirea condensului și economie de energie). Pentru controlul nivelului din cazane, senzorii de conductivitate din seria NRG și sistemele de reglare asociate asigură protecție împotriva funcționării fără apă, un risc major de avarie pentru orice cazan de abur. Sistemele de golire continuă și discontinuă (blowdown) elimină nămolul și sărurile acumulate în cazan, prelungind durata de viață a instalației și reducând consumul de tratamente chimice.
+Oalele de condens GESTRA acoperă toate principiile de funcționare uzuale — cu plutitor (seria UNA, pentru schimbătoare de căldură și sisteme în vid, cu presiuni de lucru reduse), termodinamice (seria DK, compacte, pentru variații mici de sarcină), cu membrană (seria MK, pentru abur saturat) și bimetalice (seria BK, pentru abur saturat și supraîncălzit). Pentru controlul nivelului din cazane, senzorii de conductivitate din seria NRG și sistemele de reglare asociate asigură protecție împotriva funcționării fără apă, un risc major de avarie pentru orice cazan de abur. Sistemele de golire continuă și discontinuă (blowdown) elimină nămolul și sărurile acumulate în cazan, prelungind durata de viață a instalației și reducând consumul de tratamente chimice.
 
 Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de condens izolată, ci propune soluții complete de recuperare a condensului și a energiei termice asociate, cu monitorizare digitală prin senzori care semnalează din timp o oală blocată sau care lasă abur să treacă. Produsele se regăsesc în centrale termice și electrice, rafinării, fabrici de hârtie, industria alimentară și oriunde aburul este folosit ca agent termic de proces. Pentru un operator de cazane, o rețea GESTRA corect dimensionată înseamnă mai puține pierderi de abur, un consum de combustibil mai mic și un risc redus de avarii cauzate de nivel scăzut de apă.`,
     whyChoose: [
       "Gamă completă pentru abur și condens — oale de condens, control de nivel și sisteme de golire de la un singur furnizor",
       "Fiabilitate dovedită pe termen lung — echipamente care rulează zeci de ani în centrale termice cu program de funcționare continuu",
       "Monitorizare digitală disponibilă — senzori care semnalează din timp o oală de condens defectă, înainte să apară pierderi mari de abur",
-      "Acoperire largă de presiuni și temperaturi — de la instalații de presiune joasă până la abur supraîncălzit la peste 45 bar",
-      "Susținere globală prin Flowserve — acces la rețeaua de distribuție și service a unui grup industrial american de anvergură",
+      "Acoperire largă de presiuni și temperaturi — de la instalații de presiune joasă până la abur supraîncălzit, în funcție de seria aleasă",
+      "Apartenența la grupul Spirax, conform site-ului oficial GESTRA",
       "Reducere directă a costurilor de operare — recuperarea condensului și a energiei termice asociate scade consumul de combustibil"
     ],
     keyProducts: [
       {
         name: "Oale de Condens cu Plutitor Seria UNA",
-        description: "Oalele cu plutitor din seria UNA evacuează condensul continuu, imediat ce se formează, ceea ce le recomandă pentru aplicații cu debite variabile și mari de condens — schimbătoare de căldură, autoclave, uscătoare industriale. Plutitorul sferic din oțel inoxidabil acționează direct supapa de evacuare, fără componente termosensibile care ar putea întârzia reacția la variații bruște de sarcină. Gama acoperă presiuni de lucru de până la 45 bar și debite de câteva sute până la câteva mii de kilograme de condens pe oră, în funcție de model. Corpurile sunt disponibile din fontă, oțel sau oțel inoxidabil, iar mecanismul intern poate fi înlocuit fără demontarea oalei din conductă, ceea ce reduce timpul de oprire la revizie."
+        description: "Oalele cu plutitor din seria UNA evacuează condensul continuu, imediat ce se formează, ceea ce le recomandă pentru aplicații cu debite variabile și mari de condens — schimbătoare de căldură, autoclave, uscătoare industriale. Plutitorul sferic din oțel inoxidabil acționează direct supapa de evacuare, fără componente termosensibile care ar putea întârzia reacția la variații bruște de sarcină. Presiunea de lucru și debitul de condens depind de model; seria UNA este destinată instalațiilor cu presiuni de lucru reduse, conform paginii producătorului. Corpurile sunt disponibile din fontă, oțel sau oțel inoxidabil, iar mecanismul intern poate fi înlocuit fără demontarea oalei din conductă, ceea ce reduce timpul de oprire la revizie."
       },
       {
-        name: "Oale de Condens Termodinamice Seria MK",
-        description: "Oalele termodinamice din seria MK funcționează pe baza diferenței de viteză dintre abur și condens, fără plutitor sau elemente bimetalice, ceea ce le face extrem de robuste și puțin sensibile la lovituri de berbec sau vibrații pe conductă. Sunt compacte, ușor de montat în orice poziție și potrivite pentru linii de distribuție a aburului, puncte de purjare și aplicații cu presiuni medii și mari, de regulă până la 45 bar. Diametrele uzuale merg de la 1/2 la 1 țol, iar corpul din oțel inoxidabil rezistă bine la eroziune și la variații termice repetate. Datorită prețului accesibil și mentenanței minime, sunt alegerea implicită pentru rețele extinse de abur cu sute de puncte de purjare."
+        name: "Oale de Condens cu Membrană Seria MK",
+        description: "Oalele din seria MK sunt oale de condens cu regulator cu membrană, foarte reactive, pentru instalații cu abur saturat. Diametrele, presiunea maximă și materialul corpului depind de model și se confirmă pe cod, din documentația GESTRA."
       },
       {
         name: "Senzori și Sisteme de Control Nivel Cazan Seria NRG",
@@ -182,11 +182,11 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     certifications: [
       "PED 2014/68/UE — conformitate pentru oalele de condens și recipientele sub presiune din gamă",
       "ISO 9001 — management al calității pentru proiectarea și producția echipamentelor de gestionare a aburului",
-      "ATEX — Gestra Flowserve: variante certificate pentru zone cu risc de explozie",
+      "ATEX — variante certificate pentru zone cu risc de explozie, conform documentației GESTRA",
       "TÜV — verificare independentă a componentelor critice de siguranță"
     ],
-    infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale ajung de regulă în 24–72 h, iar sistemele de control de nivel sau de golire completă, în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA/Flowserve.",
+    infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale pot ajunge în 24–72 h dacă sunt în stoc la noi sau la furnizor, altfel în 1–4 săptămâni la comandă; sistemele complete de control de nivel sau de golire sunt sisteme complexe, cu termene de regulă peste 4 săptămâni.",
+    limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA.",
     sources: [
       {"title":"Steam Traps | GESTRA | USA","url":"https://www.gestra.com/global/en-US/products/steam-traps","publisher":"GESTRA","accessed":"2026-09-23"},
       { title: "Welcome to GESTRA | Engineering steam performance", url: "https://www.gestra.com", publisher: "GESTRA GmbH (Flowserve)", accessed: "2026-09-22" },
@@ -253,8 +253,8 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -263,41 +263,41 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     name: "VAG",
     founded: 1872,
     headquarters: "Mannheim, Germania",
-    overview: `VAG este unul dintre cei mai vechi producători europeni de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1873. Compania s-a specializat exclusiv pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică. Robinetele VAG se regăsesc în infrastructura de apă din majoritatea țărilor europene, în instalații proiectate pentru funcționare îndelungată.
+    overview: `VAG este unul dintre cei mai vechi producători europeni de armături pentru apă potabilă și apă uzată, cu activitate la Mannheim din 1872. Compania este specializată pe robineți și accesorii pentru rețele de apă — de la stații de tratare și rezervoare de înmagazinare până la conductele de distribuție și stațiile de pompare — un segment în care ciclurile de viață ale produselor se măsoară în zeci de ani, iar fiabilitatea contează mai mult decât orice altă caracteristică.
 
-Robinetul cu excentricitate dublă EKN este produsul emblematic al gamei — o vană de sectorizare cu etanșare fără frecare pe toată cursa de închidere, disponibilă de la DN40 până la DN4000 și presiuni nominale de la PN10 până la PN25, folosită pentru izolarea tronsoanelor din rețelele de apă și apă uzată. Pentru protecția rețelelor împotriva loviturii de berbec și evacuarea aerului acumulat, seria de robineți de aerisire PICO combină funcțiile de admisie și evacuare a aerului mare și mic într-un singur corp compact. Gama se completează cu clapete de reținere, vane fluture pentru diametre mari și vane de linie pentru izolarea rapidă a branșamentelor.
+Robinetul cu excentricitate dublă EKN este produsul emblematic al gamei — o vană de sectorizare cu etanșare fără frecare pe aproape toată cursa de închidere, disponibilă în diametre de la DN100 până la DN4000, în funcție de variantă, și presiuni nominale de la PN6 până la PN25 (unele variante până la PN40), folosită pentru izolarea tronsoanelor din rețelele de apă și apă uzată. Pentru evacuarea aerului acumulat și admisia aerului la umplerea sau golirea conductei, gama include ventilele automate de aerisire VAG DUOJET (DN50–DN200), cu trei funcții într-un singur corp, conform producătorului. Gama se completează cu clapete de reținere, vane fluture pentru diametre mari și vane de linie pentru izolarea rapidă a branșamentelor.
 
 Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK sau RAL pentru protecție anticorozivă pe termen lung, iar garniturile de etanșare din EPDM sunt certificate pentru contact cu apa potabilă conform normelor europene. Pentru operatorii de utilități, avantajul robinetelor VAG constă în cuplul de manevră redus chiar și după ani de funcționare, datorită construcției fără frecare a sistemului de etanșare, conform producătorului. Domeniile principale de utilizare rămân stațiile de tratare a apei, rezervoarele de înmagazinare, stațiile de pompare și rețelele de distribuție și canalizare.`,
     whyChoose: [
-      "Robinet EKN cu etanșare fără frecare — cuplu de manevră constant pe toată durata de viață, chiar și după zeci de ani de exploatare",
-      "Gamă largă de diametre — de la DN40 pentru branșamente până la DN4000 pentru conducte magistrale de transport apă",
+      "Robinet EKN cu excentricitate dublă — cuplu de manevră redus, conform producătorului",
+      "Gamă largă de diametre — de la DN40 la vanele cu sertar până la DN4000 la robinetul EKN, pentru conducte magistrale de transport apă",
       "Materiale certificate pentru apă potabilă — acoperiri epoxidice GSK/RAL și garnituri EPDM conforme cu normele europene de contact alimentar",
-      "Robineți de aerisire PICO — protecție eficientă împotriva loviturii de berbec și a golurilor de aer din conductele de transport",
-      "Fiabilitate pe termen lung — armături proiectate pentru cicluri de viață de peste 30 de ani în rețele de apă și canalizare",
-      "Experiență de peste 150 de ani — specializare exclusivă pe armături pentru sectorul apei, fără compromisuri către alte industrii"
+      "Ventile automate de aerisire DUOJET — evacuarea și admisia aerului în conducte, cu trei funcții într-un singur corp, conform producătorului",
+      "Fiabilitate pe termen lung — durata de viață depinde de model și de condițiile de exploatare; o confirmăm pe cod, din documentația VAG",
+      "Experiență de peste 150 de ani în fabricarea armăturilor pentru rețele de apă și apă uzată"
     ],
     keyProducts: [
       {
         name: "Robinet cu Excentricitate Dublă EKN",
-        description: "EKN este vana de sectorizare de referință VAG pentru rețele de apă și apă uzată, cu disc excentric față de axul de rotație, ceea ce elimină frecarea dintre disc și scaun pe toată cursa, cu excepția ultimelor grade de închidere. Rezultatul este un cuplu de manevră redus și constant în timp, chiar și pe vane care stau ani întregi în poziție deschisă fără manevre. Gama acoperă DN40 până la DN4000, presiuni nominale PN10, PN16 și PN25, cu corp din fontă ductilă și acoperire epoxidică conform GSK. Disponibilă cu acționare manuală, cu roată sau tijă de extensie pentru montaj îngropat, sau cu servomotor electric pentru automatizare. Etanșarea se face prin garnitură EPDM certificată pentru apă potabilă."
+        description: "EKN este vana de sectorizare de referință VAG pentru rețele de apă și apă uzată, cu disc excentric față de axul de rotație, ceea ce elimină frecarea dintre disc și scaun pe toată cursa, cu excepția ultimelor grade de închidere. Rezultatul este un cuplu de manevră redus și constant în timp, chiar și pe vane care stau ani întregi în poziție deschisă fără manevre. Gama EKN acoperă diametre de la DN100 până la DN4000, în funcție de variantă, presiuni nominale de la PN6 până la PN25 (unele variante până la PN40), cu corp din fontă ductilă și acoperire epoxidică conform GSK. Disponibilă cu acționare manuală, cu roată sau tijă de extensie pentru montaj îngropat, sau cu servomotor electric pentru automatizare. Etanșarea se face prin garnitură EPDM certificată pentru apă potabilă."
       },
       {
-        name: "Robineți de Aerisire PICO",
-        description: "Robineții de aerisire PICO combină într-un singur corp funcțiile de evacuare a aerului acumulat în timpul funcționării normale a conductei, printr-un orificiu mic, și de admisie sau evacuare rapidă a unor volume mari de aer la umplerea sau golirea conductei, printr-un orificiu mare. Lipsa aerului evacuat corect dintr-o conductă de transport apă duce la reducerea secțiunii utile de curgere, coroziune accelerată și risc de lovitură de berbec la pornirea pompelor. Gama PICO acoperă diametre de racordare de la DN50 până la DN300, cu corp din fontă ductilă și plutitor care închide etanș orificiul mic la umplerea completă a corpului. Sunt montați pe punctele înalte ale traseului și pe stațiile de pompare."
+        name: "Ventile Automate de Aerisire DUOJET",
+        description: "Ventilele automate de aerisire DUOJET au o singură cameră și trei funcții: evacuarea unor volume mari de aer la golirea conductei, admisia unor volume mari de aer la umplere și evacuarea unor cantități mici de aer în timpul funcționării sub presiune. Gama DUOJET acoperă DN50–DN200 la PN10/16/25, cu corp din fontă ductilă acoperit epoxidic conform GSK, plutitor din inox și etanșare EPDM, conform producătorului. Se montează pe punctele înalte ale traseului și pe stațiile de pompare."
       },
       {
         name: "Vane Fluture pentru Rețele de Apă",
-        description: "Vanele fluture VAG pentru diametre mari sunt gândite pentru izolarea tronsoanelor din aducțiuni și rețele de transport apă unde o vană cu sertar sau EKN ar deveni prea voluminoasă și costisitoare. Discul, executat din fontă ductilă cu acoperire din elastomer sau inox, asigură etanșare bidirecțională la presiuni de până la PN25. Diametrele acoperă DN200 până la DN3000, cu acționare prin reductor manual, servomotor electric sau acționare hidraulică pentru vanele foarte mari montate în camere de vane sau stații de pompare. Construcția permite montaj între flanșe pentru diametre mici sau cu flanșe proprii pentru diametre mari, unde solicitările mecanice din conductă sunt mai importante."
+        description: "Vanele fluture VAG pentru diametre mari sunt gândite pentru izolarea tronsoanelor din aducțiuni și rețele de transport apă unde o vană cu sertar sau EKN ar deveni prea voluminoasă și costisitoare. Materialul discului, diametrele și presiunea nominală depind de seria aleasă (de exemplu CEREX 300: DN50–DN600, PN10/16); le confirmăm pe cod, din documentația VAG. Construcția permite montaj între flanșe pentru diametre mici sau cu flanșe proprii pentru diametre mari, unde solicitările mecanice din conductă sunt mai importante."
       },
       {
         name: "Clapete de Reținere și Vane de Linie",
-        description: "Clapetele de reținere VAG previn curgerea inversă în stațiile de pompare și pe conductele de refulare, cu construcție cu clapetă simplă sau duală în funcție de diametru și de viteza de închidere necesară pentru limitarea loviturii de berbec. Vanele de linie, de dimensiuni mai mici, sunt folosite pentru izolarea rapidă a branșamentelor și a conductelor secundare din rețeaua de distribuție, cu manevră directă printr-un sfert de rotație sau prin filet, în funcție de model. Ambele game se livrează cu aceleași standarde de acoperire anticorozivă și garnituri certificate pentru apă potabilă ca și restul portofoliului VAG, asigurând compatibilitate completă în cadrul aceluiași proiect de rețea."
+        description: "Clapetele de reținere VAG previn curgerea inversă în stațiile de pompare și pe conductele de refulare, cu construcție cu clapetă simplă sau duală în funcție de diametru și de viteza de închidere necesară pentru limitarea loviturii de berbec. Pentru izolarea branșamentelor, VAG oferă și vane de branșament; modelul și modul de manevră se confirmă pe cod, din documentația VAG. Ambele game se livrează cu aceleași standarde de acoperire anticorozivă și garnituri certificate pentru apă potabilă ca și restul portofoliului VAG, asigurând compatibilitate completă în cadrul aceluiași proiect de rețea."
       }
     ],
     industries: [
       "Alimentare cu apă potabilă — stații de tratare, rezervoare de înmagazinare, rețele de distribuție",
       "Canalizare și epurare apă uzată — stații de pompare, colectoare, stații de epurare",
-      "Irigații și hidroamelioratii — canale și conducte de transport pentru agricultură",
+      "Irigații și hidroameliorații — canale și conducte de transport pentru agricultură",
       "Industria energetică — sisteme de răcire cu apă pentru centrale electrice",
       "Administrații publice și operatori regionali de apă — proiecte de reabilitare a rețelelor",
       "Industria de proces — alimentare cu apă industrială și tehnologică"
@@ -308,8 +308,8 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       "EN 1074 / EN 1092 — conformitate dimensională și funcțională pentru armături de rețea",
       "Materiale certificate pentru contact cu apa potabilă conform normelor europene"
     ],
-    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Diametrele uzuale pentru branșamente sunt de regulă disponibile în 24–72 h, iar armăturile de diametre mari sau cu acționare specială ajung în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma o disponibilitate garantată pentru toate combinațiile de diametru și presiune din gama DN40–DN4000 — armăturile mari rămân, de regulă, produse la comandă.",
+    infinitrade: "Asigurăm accesul la armături VAG pentru operatorii de apă și canalizare din România — robinetul cu excentricitate dublă EKN, robineții de aerisire PICO, vanele fluture și clapetele de reținere — comandate prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, ne ghidăm după informațiile publice disponibile ale producătorului pentru fiecare diametru și presiune nominală. Pentru o ofertă corectă, trimiteți-ne diametrul nominal, presiunea de lucru (PN) și tipul de acoperire cerut în caietul de sarcini. Livrarea este de 24–72 h dacă articolul este confirmat în stoc la furnizor; altfel, de regulă 1–4 săptămâni la comandă, iar armăturile de diametre mari sau cu acționare specială pot depăși 4 săptămâni.",
+    limitation: "Nu putem confirma disponibilitatea pentru toate combinațiile de diametru și presiune din gama VAG — armăturile mari rămân, de regulă, produse la comandă.",
     sources: [
       {"title":"Products","url":"https://www.vag-group.com/en/products","publisher":"VAG","accessed":"2026-09-22"},
       { title: "VAG – The Valve Experts. Since 1872.", url: "https://www.vag-group.com", publisher: "VAG-Armaturen GmbH", accessed: "2026-09-22" },
@@ -330,7 +330,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "code": "EKOplus",
-        "description": "Vană cu sertar cu etanșare elastică, generație compactă"
+        "description": "Vană cu sertar cu etanșare elastică"
       },
       {
         "code": "KFS",
@@ -368,7 +368,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "q": "Ce diferență este între vana VAG BETA 500 și EKOplus?",
-        "a": "Ambele sunt vane cu sertar cu etanșare elastică, dar EKOplus este generația mai compactă și mai ușoară, optimizată pentru instalare rapidă. BETA 500 este varianta consacrată, disponibilă într-o gamă mai largă de dimensiuni pentru rețele de apă și canalizare."
+        "a": "Ambele sunt vane cu sertar cu etanșare elastică. BETA 500 acoperă DN40–DN300 la PN10/16, iar EKOplus DN40–DN600 la PN10–PN25, conform catalogului producătorului."
       },
       {
         "q": "Livrați vane și hidranți VAG în România?",
@@ -384,8 +384,8 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării VAG, conform surselor citate." }
     ]
   },
@@ -394,35 +394,35 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
     name: "EBRO Armaturen",
     founded: 1972,
     headquarters: "Hagen, Germania",
-    overview: `EBRO Armaturen este un producător german specializat în robineți fluture și sisteme de acționare pentru industria de proces, cu sediul la Hagen și activitate din 1972. Compania funcționează cu fabrică și dezvoltare proprii, concentrate exclusiv pe robineți fluture, robineți cu bilă și actuatoare pneumatice și electrice. Poziționarea de nișă i-a permis să acopere rapid cerințele tot mai stricte de etanșare și automatizare din industria chimică, alimentară și tratarea apei, unde robinetul fluture a devenit soluția standard pentru izolare și reglare pe diametre medii și mari.
+    overview: `EBRO Armaturen este un producător german specializat în robineți fluture și sisteme de acționare pentru industria de proces, cu sediul la Hagen; compania de robineți funcționează ca firmă independentă din 1972, în cadrul grupului Bröer, ale cărui origini datează din 1934. Compania își dezvoltă și își produce propriile actuatoare și oferă robineți fluture, robineți cu sertar tip cuțit, clapete de reținere, robineți cu bilă și actuatoare pneumatice și electrice. Robinetul fluture este o soluție frecventă pentru izolare și reglare pe diametre medii și mari în industria chimică, alimentară și tratarea apei.
 
-Robinetele fluture din seria Z acoperă construcția concentrică, cu disc și scaun din elastomer, pentru presiuni și temperaturi moderate, în diametre de la DN40 până la DN1200, în variante wafer sau cu flanșe proprii pentru montaj între conducte. Pentru aplicații cu presiuni mai mari sau cicluri de închidere frecvente, gama include robinete cu disc dublu excentric și scaun metalic, cu etanșare bidirecțională și durată de viață extinsă la uzură. Actuatoarele proprii EBRO — pneumatice cu sfert de rotație și electrice cu poziționare proporțională — sunt dimensionate direct pentru cuplul robinetelor din gamă, eliminând incompatibilitățile care apar frecvent la asamblarea de componente de la producători diferiți.
+Robinetele fluture din seria Z acoperă construcția concentrică, cu disc și scaun din elastomer, pentru presiuni și temperaturi moderate, în variante wafer, lug sau cu flanșe, pentru montaj între conducte; diametrele disponibile se confirmă pe cod, din documentația EBRO. Pentru aplicații cu presiuni și temperaturi mai ridicate, gama include robinete fluture de înaltă performanță, cu construcție dublu excentrică. Actuatoarele proprii EBRO — pneumatice cu sfert de rotație și electrice cu poziționare proporțională — sunt dimensionate direct pentru cuplul robinetelor din gamă, eliminând incompatibilitățile care apar frecvent la asamblarea de componente de la producători diferiți.
 
-Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru aplicații generale, până la execuții integral din inox sau cu cauciucare specială pentru medii alimentare sau chimice agresive. Robinetele EBRO respectă cerințele de igienă din industria alimentară acolo unde discul și garnitura sunt certificate pentru contact alimentar, și sunt disponibile în execuții ATEX pentru zone cu risc de explozie. Se regăsesc frecvent în stații de tratare a apei, instalații de climatizare industrială, linii de proces din industria alimentară și rețele de distribuție a gazelor și lichidelor industriale, unde raportul preț-fiabilitate al construcției concentrice reprezintă principalul argument de alegere.`,
+Materialele corpului, discului și garniturii depind de model și de mediul vehiculat; se confirmă pe cod, din documentația EBRO. Robinetele EBRO respectă cerințele de igienă din industria alimentară acolo unde discul și garnitura sunt certificate pentru contact alimentar, și sunt disponibile în execuții ATEX pentru zone cu risc de explozie. Se regăsesc frecvent în stații de tratare a apei, instalații de climatizare industrială, linii de proces din industria alimentară și rețele de distribuție a gazelor și lichidelor industriale.`,
     whyChoose: [
       "Gamă completă robinet + actuator — corpuri fluture și acționări pneumatice sau electrice dimensionate reciproc, fără incompatibilități de cuplu",
-      "Construcție concentrică fiabilă — soluție dovedită pentru izolare și reglare pe diametre medii și mari, cu cost de achiziție competitiv",
+      "Construcție concentrică fiabilă — soluție frecventă pentru izolare și reglare pe diametre medii și mari",
       "Opțiuni pentru medii dificile — execuții integral inox și garnituri certificate pentru industria alimentară și chimică",
       "Actuatoare proprii cu poziționare proporțională — control fin al debitului, nu doar funcție de închis/deschis",
-      "Diametre de la DN40 până la DN1200 — acoperă de la branșamente mici până la conducte industriale mari",
-      "Livrare rapidă pe configurațiile standard — robinet plus actuator, gata montate și testate din fabrică"
+      "Gamă largă de robineți fluture — intervalul exact de diametre se confirmă pe cod, din documentația EBRO",
+      "Configurații robinet plus actuator — termenul de livrare se confirmă pe cod, conform politicii noastre de livrare"
     ],
     keyProducts: [
       {
         name: "Robinet Fluture Concentric Seria Z",
-        description: "Robinetul fluture concentric este soluția de bază din gama EBRO pentru izolare și reglare pe conducte de diametru mediu și mare, cu disc centrat pe axul de rotație și garnitură din elastomer (EPDM, NBR sau Viton, în funcție de mediu) care asigură etanșare bidirecțională la presiuni moderate. Diametrele acoperă DN40 până la DN1200, în execuție wafer pentru montaj între flanșe existente sau lug pentru demontarea unui capăt de conductă fără golirea completă a sistemului. Corpul se livrează din fontă ductilă sau oțel inoxidabil, cu disc din inox sau aluminiu acoperit, în funcție de agresivitatea fluidului. Este alegerea standard pentru sisteme HVAC industriale, tratarea apei și linii de proces cu cerințe moderate de presiune."
+        description: "Robinetul fluture concentric este soluția de bază din gama EBRO pentru izolare și reglare pe conducte de diametru mediu și mare, cu disc centrat pe axul de rotație și garnitură din elastomer (materialul se alege în funcție de mediu și se confirmă pe cod) care asigură etanșare bidirecțională la presiuni moderate. Execuțiile disponibile includ wafer, pentru montaj între flanșe existente, și lug, pentru demontarea unui capăt de conductă fără golirea completă a sistemului; diametrele se confirmă pe cod, din documentația EBRO. Materialele corpului și ale discului se confirmă pe cod, din documentația EBRO. Este alegerea standard pentru sisteme HVAC industriale, tratarea apei și linii de proces cu cerințe moderate de presiune."
       },
       {
         name: "Robinet Fluture cu Disc Dublu Excentric",
-        description: "Pentru aplicații cu presiuni mai ridicate, cicluri frecvente de manevră sau cerințe de etanșare bidirecțională strictă, EBRO oferă robinete fluture cu disc dublu excentric și scaun metalic sau semi-metalic. Poziția excentrică a discului reduce frecarea pe scaun în timpul deschiderii și închiderii, ceea ce prelungește semnificativ durata de viață a garniturii față de construcția concentrică clasică. Diametrele acoperă DN80 până la DN800, cu presiuni nominale de până la PN40 și execuții speciale pentru temperaturi ridicate. Sunt recomandate pentru instalații industriale cu regim de funcționare intens, unde costul unei opriri neplanificate pentru înlocuirea unui robinet uzat depășește diferența de preț față de varianta concentrică."
+        description: "Pentru aplicații cu presiuni și temperaturi mai ridicate, EBRO oferă robinete fluture de înaltă performanță, cu construcție dublu excentrică. Diametrele și presiunile nominale disponibile se confirmă pe cod, din documentația EBRO; seria HP este destinată aplicațiilor cu presiune și temperatură ridicate."
       },
       {
         name: "Actuatoare Pneumatice cu Sfert de Rotație",
-        description: "Actuatoarele pneumatice EBRO, cu acțiune simplă sau dublă, sunt dimensionate direct pe cuplul necesar pentru fiecare diametru și presiune din gama de robinete fluture și robinete cu bilă a producătorului, eliminând riscul de subdimensionare care apare la combinarea componentelor de la furnizori diferiți. Gama acoperă cupluri de la câțiva newton-metri pentru robinete mici de proces, până la cupluri mari necesare pe robinete de DN600 și peste, cu opțiuni de poziționare, limitatoare de cursă, contacte de semnalizare și poziționer proporțional pentru reglare fină a debitului. Montajul respectă standardul de interfață ISO 5211, ceea ce permite și adaptarea pe robinete de la alți producători în cazul retehnologizărilor."
+        description: "Actuatoarele pneumatice EBRO, cu acțiune simplă sau dublă, sunt dimensionate direct pe cuplul necesar pentru fiecare diametru și presiune din gama de robinete fluture și robinete cu bilă a producătorului, eliminând riscul de subdimensionare care apare la combinarea componentelor de la furnizori diferiți. Cuplurile disponibile se confirmă pe model, din documentația EBRO; gama include opțiuni de poziționare, limitatoare de cursă, contacte de semnalizare și poziționer proporțional pentru reglare fină a debitului. Interfața de montaj a actuatorului se confirmă pe model, din documentația EBRO."
       },
       {
         name: "Robinet cu Bilă pentru Aplicații Industriale",
-        description: "Pe lângă gama de fluture, EBRO produce și robinete cu bilă cu trecere totală sau redusă, pentru aplicații unde pierderea de presiune trebuie minimizată sau unde etanșarea perfectă la închidere este critică — dozare de chimicale, linii de proces cu presiuni mai mari, sau puncte de izolare individuală pe instalații mici. Corpurile disponibile din alamă, oțel inoxidabil sau oțel carbon acoperă diametre de la DN15 până la DN150, cu acționare manuală prin manetă sau automatizare cu aceleași actuatoare pneumatice sau electrice folosite pe gama de fluture. Etanșarea bilei se face prin scaune din PTFE, potrivite pentru majoritatea fluidelor industriale, inclusiv medii ușor abrazive sau cu particule fine."
+        description: "Pe lângă gama de fluture, EBRO produce și robinete cu bilă în trei piese, destinate izolării lichidelor pure, neutre sau agresive. Din gama EBRO face parte robinetul cu bilă în trei piese V-3MH; materialele, diametrele și variantele de acționare disponibile se confirmă pe cod, din documentația producătorului."
       }
     ],
     industries: [
@@ -436,10 +436,10 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     certifications: [
       "CE — marcaj de conformitate pentru robineții fluture și actuatoarele vândute în Uniunea Europeană",
       "ATEX — execuții de robinet și actuator disponibile pentru zone cu risc de explozie",
-      "ISO 9001 — management al calității pentru proiectarea și producția robinetelor fluture și a actuatoarelor",
+      "Calitate — certificatele aplicabile fiecărui produs se confirmă pe cod, din documentația EBRO",
       "Materiale certificate pentru contact alimentar pe execuțiile dedicate industriei alimentare"
     ],
-    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Configurațiile standard, cu actuator pneumatic, sunt de regulă disponibile în 24–72 h, iar execuțiile cu inox integral, certificare alimentară sau ATEX ajung în 1–4 săptămâni la comandă.",
+    infinitrade: "Intermediem aprovizionarea cu robinete fluture, robinete cu bilă și actuatoare EBRO Armaturen pentru instalații de proces și sisteme HVAC industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma un nivel de stoc la fabrică pentru fiecare configurație și pornim de la sursele publice ale producătorului atunci când propunem un subansamblu robinet plus actuator. Pentru dimensionarea corectă, trimiteți-ne diametrul conductei, presiunea nominală și tipul de acționare dorit — manetă, pneumatic sau electric. Termenul de livrare se confirmă pe cod: 24–72 h dacă articolul este în stocul nostru sau într-un stoc extern, iar la comandă de regulă 1–4 săptămâni.",
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea electronică a poziționerelor pe actuatoarele electrice — acestea rămân în sarcina rețelei tehnice EBRO.",
     sources: [
       {"title":"Products","url":"https://www.ebro-armaturen.com/en/products/","publisher":"EBRO Armaturen","accessed":"2026-09-22"},
@@ -453,7 +453,7 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "Z 014-A",
-        "description": "Robinet fluture cu etanșare elastică, gabarit mărit"
+        "description": "Robinet fluture cu etanșare elastică, tip lug (pentru capăt de conductă)"
       },
       {
         "code": "F 012-A",
@@ -461,11 +461,11 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "Z 411-A",
-        "description": "Robinet fluture pentru aplicații industriale de proces"
+        "description": "Robinet fluture cu etanșare elastică și diametru interior redus, pentru conducte din PE/PP"
       },
       {
         "code": "Z 611-A",
-        "description": "Robinet fluture pentru presiuni ridicate"
+        "description": "Robinet fluture cu etanșare elastică, corp în două piese, tip wafer"
       },
       {
         "code": "T 211-A",
@@ -473,11 +473,11 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "T 214-A",
-        "description": "Robinet fluture căptușit PTFE, gabarit mărit"
+        "description": "Robinet fluture căptușit PTFE, tip lug"
       },
       {
         "code": "H 011",
-        "description": "Robinet fluture PTFE pentru medii chimice agresive"
+        "description": "Robinet fluture care combină proprietățile unui robinet pentru chimicale cu cerințele de igienă"
       },
       {
         "code": "HP 111",
@@ -485,23 +485,23 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "HP 114",
-        "description": "Robinet fluture de înaltă performanță, gabarit mărit"
+        "description": "Robinet fluture de înaltă performanță, tip lug"
       },
       {
         "code": "WB",
-        "description": "Vană cu sertar tip cuțit (knife gate)"
+        "description": "Vană cu sertar tip cuțit"
       },
       {
         "code": "WB 12",
-        "description": "Vană cu sertar tip cuțit, variantă extinsă"
+        "description": "Vană cu sertar tip cuțit, variantă cu flanșe duble"
       },
       {
         "code": "HG",
-        "description": "Vană cu sertar tip cuțit pentru aplicații grele"
+        "description": "Vană cu sertar tip cuțit bidirecțională, pentru pastă de celuloză, leșie și suspensii concentrate"
       },
       {
         "code": "HX",
-        "description": "Vană cu sertar tip cuțit de gabarit mare"
+        "description": "Vană cu sertar tip cuțit tip lug, întărită pentru presiuni bidirecționale ridicate"
       },
       {
         "code": "RSK",
@@ -521,21 +521,21 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "code": "EP3",
-        "description": "Element de control electric pentru automatizarea vanelor"
+        "description": "Poziționer electropneumatic pentru actuatoare pneumatice cu acțiune simplă sau dublă"
       },
       {
         "code": "SBU-Basic",
-        "description": "Unitate de control pentru acționarea vanelor"
+        "description": "Unitate compactă de semnalizare a poziției (switch box), montată direct pe actuatorul pneumatic"
       }
     ],
     faq: [
       {
         "q": "Ce robinet fluture EBRO aleg pentru medii chimice agresive?",
-        "a": "Seria H 011 sau T 211-A, ambele căptușite cu PTFE, sunt recomandate pentru medii chimice agresive unde etanșarea elastică standard s-ar degrada rapid. Alegerea exactă depinde de temperatura de proces și de compatibilitatea chimică a fluidului vehiculat prin conductă."
+        "a": "Seria T 211-A, căptușită cu PTFE, este destinată chimicalelor și mediilor puternic corozive, unde etanșarea elastică standard s-ar degrada rapid; seria H 011 combină proprietățile unui robinet pentru chimicale cu cerințele de igienă. Alegerea exactă depinde de temperatura de proces și de compatibilitatea chimică a fluidului vehiculat prin conductă."
       },
       {
         "q": "Ce diferență este între vana EBRO WB și HG?",
-        "a": "WB este vana de bază tip cuțit, potrivită pentru aplicații standard de izolare pe linii de proces sau ape uzate. HG este varianta pentru aplicații grele, cu o construcție mai robustă, recomandată acolo unde solicitările mecanice sau abraziunea materialului vehiculat sunt mai ridicate."
+        "a": "WB este vana de bază tip cuțit, potrivită pentru apă, nămol și ape uzate. HG este destinată, conform producătorului, pastei de celuloză, leșiei și suspensiilor concentrate; alegerea exactă se confirmă pe cod, din documentația EBRO."
       },
       {
         "q": "Livrați robinete și vane EBRO Armaturen în România?",
@@ -547,12 +547,12 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
       },
       {
         "q": "Ce este unitatea de control EBRO SBU-Basic?",
-        "a": "Este o unitate de control folosită pentru acționarea și monitorizarea vanelor industriale, oferind semnalizare de poziție și integrare cu sistemele de automatizare ale instalației. Este aleasă atunci când vana trebuie comandată de la distanță sau integrată într-un sistem SCADA."
+        "a": "Este o unitate compactă de semnalizare a poziției (switch box), montată direct pe actuatorul pneumatic, care raportează pozițiile finale ale vanei către sistemul de automatizare."
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -561,16 +561,16 @@ Materialele acoperă de la fontă ductilă cu disc din oțel inoxidabil pentru a
     name: "Georg Fischer (GF Piping Systems)",
     founded: 1802,
     headquarters: "Schaffhausen, Elveția",
-    employees: "8.000+ angajați (divizia GF Piping Systems)",
+    employees: "prezență în 34 de țări (GF Piping Systems)",
     overview: `Georg Fischer este un grup industrial elvețian fondat în 1802 la Schaffhausen, organizat azi în mai multe divizii globale, dintre care GF Piping Systems este cea relevantă pentru instalațiile industriale de fluide — sisteme complete de conducte, robineți și fitinguri din materiale plastice pentru transportul apei, chimicalelor și gazelor. Pe un segment unde metalul a fost multă vreme standardul implicit, GF a construit în decenii o alternativă din PVC, PP, PE și PVDF care rezolvă exact problema pentru care metalul e vulnerabil: coroziunea provocată de acizi, baze și apă cu conținut mineral ridicat.
 
-Gama acoperă practic orice combinație de material și aplicație — PVC-U și PVC-C pentru apă și chimicale ușor agresive, polipropilenă (PP) pentru laboratoare și tratarea apei, polietilenă (PE) pentru rețele de apă și gaz îngropate, și PVDF pentru cele mai agresive medii chimice din industria de semiconductori și farmaceutică. Robineții cu diafragmă din seria 314/315 și robineții cu bilă din seria 546/375 sunt gândiți special pentru corpuri din plastic, cu aceeași filozofie de etanșare fără scurgeri ca variantele metalice, dar fără riscul de coroziune internă. Sistemul COOL-FIT, cu conductă preizolată, este soluția de referință pentru rețele de agent de răcire în industria alimentară și farmaceutică, unde pierderile termice și condensul pe conducte neizolate sunt o problemă costisitoare.
+Gama acoperă practic orice combinație de material și aplicație — PVC-U și PVC-C pentru apă și chimicale ușor agresive, polipropilenă (PP) pentru laboratoare și tratarea apei, polietilenă (PE) pentru rețele de apă și gaz îngropate, și PVDF pentru cele mai agresive medii chimice din industria de semiconductori și farmaceutică. Robineții cu diafragmă Type 514/515/517 și robineții cu bilă Type 546 Pro și 375 sunt gândiți special pentru corpuri din plastic, cu aceeași filozofie de etanșare fără scurgeri ca variantele metalice, dar fără riscul de coroziune internă. Sistemul COOL-FIT, cu conductă preizolată, este destinat rețelelor de agent de răcire în industria alimentară și farmaceutică, unde pierderile termice și condensul pe conducte neizolate sunt o problemă costisitoare.
 
-Îmbinările se fac prin sudură cu electrofuziune sau sudură cap la cap, tehnologii care elimină practic riscul de scurgere la punctele de conexiune, spre deosebire de îmbinările filetate sau flanșate ale sistemelor metalice. Pentru monitorizarea proceselor, gama Signet de senzori de debit, pH, conductivitate și nivel se integrează direct în conducta din plastic, fără puncte suplimentare de coroziune. Sistemele GF Piping se regăsesc în tratarea apei și apei uzate, industria semiconductorilor, produse farmaceutice, industria alimentară și instalații chimice — oriunde greutatea redusă, rezistența la coroziune și costul de instalare mai mic al plasticului cântăresc mai mult decât rezistența mecanică superioară a metalului.`,
+Metoda de îmbinare depinde de material și de diametru și se confirmă din documentația GF. Pentru monitorizarea proceselor, gama Signet de senzori de debit, pH, conductivitate și nivel se integrează direct în conducta din plastic, fără puncte suplimentare de coroziune. Sistemele GF Piping se regăsesc în tratarea apei și apei uzate, industria semiconductorilor, produse farmaceutice, industria alimentară și instalații chimice — oriunde greutatea redusă, rezistența la coroziune și costul de instalare mai mic al plasticului cântăresc mai mult decât rezistența mecanică superioară a metalului.`,
     whyChoose: [
       "Gamă completă de materiale plastice — PVC-U, PVC-C, PP, PE și PVDF pentru orice nivel de agresivitate chimică a fluidului",
-      "Zero coroziune internă — eliminarea principalei cauze de avarie a conductelor metalice în medii cu apă agresivă sau chimicale",
-      "Îmbinări sudate fiabile — electrofuziune și sudură cap la cap, fără punctele slabe ale conexiunilor filetate sau flanșate",
+      "Rezistență la coroziune — materialele plastice nu corodează ca metalele în contact cu apă agresivă sau chimicale",
+      "Metode de îmbinare specifice fiecărui material — alegerea se confirmă din documentația GF",
       "Sistem COOL-FIT preizolat — reduce pierderile termice și condensul pe rețelele de agent de răcire din industria alimentară și farma",
       "Senzori Signet integrați — măsurare debit, pH și conductivitate direct în conducta din plastic, fără puncte suplimentare de coroziune",
       "Greutate redusă și instalare rapidă — costuri de manoperă mai mici față de sistemele echivalente din oțel sau inox"
@@ -578,11 +578,11 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
     keyProducts: [
       {
         name: "Sisteme de Conducte din PVC-U, PP și PE",
-        description: "Gama de bază GF Piping Systems acoperă conducte, fitinguri și racorduri din PVC-U pentru apă potabilă și chimicale ușor agresive, polipropilenă pentru laboratoare, industria alimentară și stații de tratare a apei, și polietilenă pentru rețele îngropate de apă și gaz. Diametrele merg de la câțiva milimetri pentru instalații de laborator până la câteva sute de milimetri pentru conducte industriale de proces, cu presiuni nominale de regulă între PN10 și PN16, în funcție de material și temperatură. Îmbinarea se face prin sudură cap la cap sau prin electrofuziune, tehnologii care elimină riscul de scurgere la îmbinări și reduc timpul de montaj față de sistemele sudate metalic sau flanșate."
+        description: "Gama de bază GF Piping Systems acoperă conducte, fitinguri și racorduri din PVC-U pentru apă potabilă și chimicale ușor agresive, polipropilenă pentru laboratoare, industria alimentară și stații de tratare a apei, și polietilenă pentru rețele îngropate de apă și gaz. Diametrele merg de la câțiva milimetri pentru instalații de laborator până la câteva sute de milimetri pentru conducte industriale de proces, cu presiuni nominale de regulă între PN10 și PN16, în funcție de material și temperatură. Metoda de îmbinare depinde de material și de diametru și se confirmă din documentația GF."
       },
       {
         name: "Robineți cu Diafragmă și Robineți cu Bilă din Plastic",
-        description: "Robineții cu diafragmă din seria 314/315 folosesc o membrană elastomerică ce izolează complet mecanismul de acționare de fluid, fără zone moarte unde s-ar putea acumula depuneri sau bacterii — o cerință importantă în industria alimentară și farmaceutică. Robineții cu bilă din seria 546/375 oferă trecere totală și pierdere de presiune minimă, cu corp din PVC-U, PP sau PVDF pentru compatibilitate cu diverse chimicale. Ambele familii acoperă diametre de la DN10 până la DN300, cu acționare manuală, pneumatică sau electrică, și sunt disponibile cu senzori de poziție pentru integrare în sisteme automatizate de proces."
+        description: "Robineții cu diafragmă (Type 514, 515, 517/317) folosesc o membrană elastomerică ce izolează complet mecanismul de acționare de fluid, fără zone moarte unde s-ar putea acumula depuneri sau bacterii — o cerință importantă în industria alimentară și farmaceutică. Robineții cu bilă din seria 546/375 oferă trecere totală și pierdere de presiune minimă, cu corp din PVC-U, PP sau PVDF pentru compatibilitate cu diverse chimicale. Robineții cu bilă Type 546 Pro acoperă DN10–DN100, iar robineții cu diafragmă Type 514/515/517/317 acoperă DN15–DN150, cu acționare manuală, pneumatică sau electrică, și sunt disponibile cu senzori de poziție pentru integrare în sisteme automatizate de proces."
       },
       {
         name: "Sistem Preizolat COOL-FIT pentru Agent de Răcire",
@@ -608,7 +608,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       "ISO 14001 — management de mediu pentru fabricile de sisteme de conducte din plastic"
     ],
     infinitrade: "Facilităm achiziția de sisteme de conducte, robineți și fitinguri GF Piping Systems — PVC-U, PP, PE și PVDF, robineți cu diafragmă și cu bilă, plus sistemul preizolat COOL-FIT — pentru stații de tratare a apei și instalații chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare diametru și verificăm compatibilitatea materialului în informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne fluidul vehiculat, presiunea și temperatura de lucru. Diametrele și fitingurile uzuale din PVC-U și PP sunt de regulă disponibile în 24–72 h, iar configurațiile cu robineți automatizați sau senzori Signet integrați ajung în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma o disponibilitate garantată pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
+    limitation: "Nu putem confirma disponibilitatea pe întreaga gamă de diametre și materiale, nici service de sudură pe șantier — acestea rămân la latitudinea rețelei tehnice GF.",
     sources: [
       {"title":"Product catalogue Valves and Measurement Portfolio","url":"https://www.gfps.com/content/dam/gfps/com/product-ranges/en/gfps-00049-product-range-valves-and-measurement-en.pdf","publisher":"GF Piping Systems","accessed":"2026-09-23"},
       { title: "Georg Fischer Ltd – Corporate site", url: "https://www.georgfischer.com", publisher: "Georg Fischer AG", accessed: "2026-09-22" },
@@ -629,7 +629,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       },
       {
         "code": "Type 546 Pro E-127",
-        "description": "Robinet cu bilă cu acționare electrică și actuator EA15"
+        "description": "Robinet cu bilă cu acționare electrică"
       },
       {
         "code": "Type 543 Pro",
@@ -645,11 +645,11 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       },
       {
         "code": "Type 567",
-        "description": "Robinet fluture cu excentricitate dublă pentru medii chimice"
+        "description": "Robinet fluture din plastic (PVC-U, PVC-C, PP-H, PVDF, ABS), DN50-DN600, PN10"
       },
       {
         "code": "Type 578",
-        "description": "Robinet fluture cu excentricitate dublă, variantă compactă"
+        "description": "Robinet fluture din plastic, DN50-DN300, PN10"
       },
       {
         "code": "Type 514",
@@ -703,7 +703,7 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       },
       {
         "q": "Ce diferență este între robinetele fluture Georg Fischer Type 565 și Type 567?",
-        "a": "Type 565 are etanșare elastomerică și este destinat aplicațiilor cu apă, acoperind diametre de la DN50 la DN300. Type 567 folosește o construcție cu excentricitate dublă, recomandată pentru manipularea substanțelor chimice agresive, cu un domeniu extins de la DN50 până la DN600 și o durată de viață mai mare a garniturii."
+        "a": "Type 565 are etanșare elastomerică și este destinat aplicațiilor cu apă, acoperind diametre de la DN50 la DN300. Type 567 este disponibil în mai multe materiale plastice (PVC-U, PVC-C, PP-H, PVDF, ABS), cu un domeniu extins de la DN50 până la DN600; compatibilitatea chimică se confirmă pentru materialul ales."
       },
       {
         "q": "Livrați robinete și instrumentație de proces Georg Fischer în România?",
@@ -715,8 +715,8 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
       }
     ],
     evidenceClass: "gsc-only",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Georg Fischer în sursele citate." }
     ]
   },
@@ -725,36 +725,36 @@ Gama acoperă practic orice combinație de material și aplicație — PVC-U și
     name: "GEMÜ",
     founded: 1964,
     headquarters: "Ingelfingen, Germania",
-    employees: "2.500+ angajați la nivel global",
+    employees: "prezență globală, cu filiale în mai multe țări",
     overview: `GEMÜ este un producător german de familie, fondat în 1964 de Fritz Müller la Ingelfingen, specializat în robineți cu membrană și sisteme de reglare pentru industria de proces unde igiena și controlul precis al fluidului contează la fel de mult ca etanșarea. Compania a rămas în proprietate privată de-a lungul celor peste șase decenii de activitate și s-a concentrat pe un segment specific: robineți fără zone moarte, ușor de curățat, potriviți pentru industria farmaceutică, biotehnologie, alimentară și semiconductori, unde contaminarea încrucișată sau depunerile reziduale pot compromite un lot întreg de produs.
 
-Robinetul cu membrană GEMÜ 550, din plastic, și GEMÜ 600, din metal, formează coloana vertebrală a gamei — o construcție unde membrana izolează complet mecanismul de acționare de fluid, fără garnituri dinamice care s-ar uza sau ar permite pătrunderea de particule în produs. Pentru aplicații care necesită o suprafață interioară complet netedă, gama SUMONDO de componente single-use elimină nevoia de sterilizare între loturi, o cerință tot mai frecventă în producția biofarmaceutică. Se adaugă robineți cu bilă și fluture pentru aplicații generale de proces, plus actuatoare pneumatice proprii din seria 650, care se cuplează direct pe corpurile de robinet fără adaptoare suplimentare.
+Robineții cu membrană, din plastic sau din metal, formează coloana vertebrală a gamei — o construcție unde membrana izolează complet mecanismul de acționare de fluid, fără garnituri dinamice care s-ar uza sau ar permite pătrunderea de particule în produs. Pentru aplicații care necesită o suprafață interioară complet netedă, gama SUMONDO de componente single-use elimină nevoia de sterilizare între loturi, o cerință tot mai frecventă în producția biofarmaceutică. Se adaugă robineți cu bilă și fluture pentru aplicații generale de proces, plus acționări pneumatice și electrice proprii.
 
 Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel inoxidabil 316L cu finisaje de suprafață controlate pentru variantele metalice folosite în farmaceutică și biotehnologie, unde rugozitatea suprafeței interioare este o cerință de proiect, nu doar o opțiune. GEMÜ oferă și electronică de proces proprie — poziționer, senzori de poziție și controlere — integrată direct pe robinet, ceea ce simplifică automatizarea liniilor noi. Produsele se regăsesc în fabrici farmaceutice, instalații de semiconductori, linii alimentare și stații de tratare a apei ultra-pure, oriunde cerințele de igienă depășesc ce poate oferi un robinet industrial standard.`,
     whyChoose: [
       "Robinet cu membrană fără zone moarte — construcție igienică ce elimină acumularea de reziduuri și riscul de contaminare încrucișată",
-      "Gamă dublă plastic și metal — GEMÜ 550 pentru medii chimice agresive, GEMÜ 600 pentru aplicații farmaceutice și biotehnologie",
+      "Gamă dublă plastic și metal — corpuri din plastic pentru medii chimice și apă tratată, corpuri din oțel inoxidabil pentru aplicații farmaceutice și biotehnologie",
       "Componente single-use SUMONDO — elimină sterilizarea între loturi în producția biofarmaceutică",
-      "Actuatoare proprii seria 650 — se cuplează direct pe corpul de robinet, fără adaptoare sau incompatibilități de cuplu",
+      "Acționări proprii pneumatice și electrice — dimensionate pentru corpurile de robinet GEMÜ",
       "Finisaje de suprafață controlate — rugozitate certificată pentru aplicații farmaceutice și biotehnologice critice",
-      "Companie de familie cu peste 60 de ani de specializare exclusivă pe robineți de proces igienici"
+      "Companie de familie cu peste 60 de ani de activitate în tehnica robinetelor, măsurii și reglării pentru fluide de proces"
     ],
     keyProducts: [
       {
-        name: "Robinet cu Membrană din Plastic GEMÜ 550",
-        description: "GEMÜ 550 este robinetul cu membrană din plastic folosit pentru izolare și reglare pe conducte cu medii chimice, apă ultra-pură sau produse alimentare lichide, în corpuri din PVC-U, PVC-C, PP sau PVDF, în funcție de agresivitatea fluidului. Membrana din elastomer sau PTFE separă complet mecanismul de acționare de fluid, eliminând garniturile dinamice și zonele moarte unde s-ar putea acumula reziduuri. Diametrele acoperă DN8 până la DN100, cu acționare manuală, pneumatică sau electrică, și opțiuni de senzori de poziție pentru automatizare. Este robinetul standard pentru linii de proces din industria chimică ușoară, tratarea apei ultra-pure și instalații unde compatibilitatea chimică a plasticului contează mai mult decât rezistența mecanică a metalului."
+        name: "Robinet cu Membrană din Plastic",
+        description: "Robineții cu membrană din plastic GEMÜ (de exemplu R629, R639, R649 și C67) se folosesc pentru izolare și reglare pe conducte cu medii chimice, tratarea apei sau instalații de semiconductori; materialul corpului se alege în funcție de agresivitatea fluidului. Membrana din elastomer sau PTFE separă complet mecanismul de acționare de fluid, eliminând garniturile dinamice și zonele moarte unde s-ar putea acumula reziduuri. Gama include variante cu acționare manuală, pneumatică sau electrică, iar diametrele disponibile se confirmă pe cod. Este robinetul standard pentru linii de proces din industria chimică ușoară, tratarea apei ultra-pure și instalații unde compatibilitatea chimică a plasticului contează mai mult decât rezistența mecanică a metalului."
       },
       {
-        name: "Robinet cu Membrană din Metal GEMÜ 600",
-        description: "Varianta metalică a robinetului cu membrană, GEMÜ 600, folosește corp din oțel inoxidabil 316L cu finisaje de suprafață controlate, potrivite pentru aplicații farmaceutice, biotehnologice și alimentare unde curățarea CIP/SIP este obligatorie. Membrana, disponibilă în diverse elastomeri sau PTFE, asigură aceeași izolare completă a mecanismului de acționare ca varianta din plastic, dar cu rezistență mecanică și termică superioară. Diametrele acoperă DN8 până la DN100, cu conexiuni clamp sau sudate, conform practicilor uzuale din industria biofarmaceutică. Actuatoarele pneumatice seria 650 se montează direct, cu poziționer digital opțional pentru control proporțional al debitului."
+        name: "Robinet cu Membrană din Inox",
+        description: "Varianta metalică a robinetului cu membrană (de exemplu GEMÜ 629 și 639) folosește corp din oțel inoxidabil cu finisaje de suprafață controlate, potrivite pentru aplicații farmaceutice, biotehnologice și alimentare unde curățarea CIP/SIP este obligatorie. Membrana, disponibilă în diverse elastomeri sau PTFE, asigură aceeași izolare completă a mecanismului de acționare ca varianta din plastic, dar cu rezistență mecanică și termică superioară. Conexiunile disponibile includ capete sudate (629) sau racord sanitar (639); diametrele se confirmă pe cod. Acționările pneumatice GEMÜ pot fi echipate opțional cu poziționer digital pentru control proporțional al debitului; compatibilitatea se confirmă pe cod."
       },
       {
         name: "Componente Single-Use SUMONDO",
-        description: "Gama SUMONDO acoperă robineți, senzori și tubulatură de unică folosință pentru procese biofarmaceutice unde sterilizarea între loturi ar fi costisitoare sau ar introduce riscuri de contaminare încrucișată. Componentele vin presterilizate, ambalate individual, gata de conectare la bioreactoare, pungi de amestecare sau linii de filtrare, eliminând etapele de curățare și validare asociate echipamentelor reutilizabile. Sunt fabricate din materiale plastice validate pentru contact cu produse biofarmaceutice, cu trasabilitate completă pe lot de fabricație. Se folosesc frecvent în producția de vaccinuri, terapii celulare și produse biotehnologice unde flexibilitatea liniei de producție și eliminarea riscului de contaminare sunt prioritare."
+        description: "Gama SUMONDO acoperă robineți, senzori și tubulatură de unică folosință pentru procese biofarmaceutice unde sterilizarea între loturi ar fi costisitoare sau ar introduce riscuri de contaminare încrucișată. Specificațiile componentelor (sterilizare, materiale, trasabilitate) se confirmă pe cod, din documentația GEMÜ."
       },
       {
-        name: "Actuatoare Pneumatice și Electronică de Proces Seria 650",
-        description: "Actuatoarele pneumatice din seria 650 sunt dimensionate special pentru corpurile de robinet GEMÜ 550 și 600, cu montaj direct fără adaptoare, reducând riscul de erori de asamblare sau de subdimensionare a cuplului. Sunt disponibile cu acțiune simplă sau dublă, cu opțiuni de poziționer digital pentru control proporțional al debitului, senzori de poziție pentru semnalizare deschis/închis, și module de comunicație pentru integrare în sisteme SCADA sau DCS. Electronica de proces GEMÜ include și controlere dedicate pentru automatizarea completă a unei stații de robinete, utile în instalații farmaceutice unde validarea electronică a fiecărei manevre face parte din documentația de proces."
+        name: "Acționări Pneumatice și Electronică de Proces",
+        description: "Acționările pneumatice GEMÜ sunt dimensionate pentru corpurile de robinet ale producătorului; compatibilitatea exactă se confirmă pe cod. Sunt disponibile cu acțiune simplă sau dublă, cu opțiuni de poziționer digital pentru control proporțional al debitului, senzori de poziție pentru semnalizare deschis/închis, și module de comunicație pentru integrare în sisteme SCADA sau DCS. Electronica de proces GEMÜ include și controlere dedicate pentru automatizarea completă a unei stații de robinete, utile în instalații farmaceutice unde validarea electronică a fiecărei manevre face parte din documentația de proces."
       }
     ],
     industries: [
@@ -791,7 +791,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       },
       {
         "code": "R639",
-        "description": "Robinet cu membrană electric acționat, corp din plastic, racord sanitar"
+        "description": "Robinet cu membrană electric acționat, corp din plastic, racorduri de țeavă"
       },
       {
         "code": "R629",
@@ -843,7 +843,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       },
       {
         "code": "B56",
-        "description": "Robinet cu bilă electric acționat, variantă compactă cu flanșă"
+        "description": "Robinet cu bilă electric acționat; varianta exactă se confirmă din documentația GEMÜ"
       },
       {
         "code": "B22",
@@ -853,7 +853,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
     faq: [
       {
         "q": "Ce robinet cu membrană GEMÜ aleg pentru o aplicație sterilă din industria farmaceutică?",
-        "a": "Robinetul GEMÜ 639, cu racord sanitar din oțel inoxidabil, este potrivit pentru aplicații sterile din industria farmaceutică și biotehnologie. Dacă este nevoie de un corp din plastic pentru medii chimice sau tratarea apei, varianta R639 oferă o construcție echivalentă din material plastic, păstrând același tip de racord sanitar."
+        "a": "Robinetul GEMÜ 639, cu racord sanitar din oțel inoxidabil, este potrivit pentru aplicații sterile din industria farmaceutică și biotehnologie. Dacă este nevoie de un corp din plastic pentru medii chimice sau tratarea apei, varianta R639 oferă o construcție din material plastic, cu racorduri de țeavă."
       },
       {
         "q": "Ce diferență este între robinetele cu bilă GEMÜ BB02 și BB06?",
@@ -869,8 +869,8 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       }
     ],
     evidenceClass: "history-only",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -879,35 +879,35 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
     name: "Lowara",
     founded: 1958,
     headquarters: "Montecchio Maggiore, Italia",
-    overview: `Lowara este un producător italian de pompe centrifuge, fondat în 1958 la Montecchio Maggiore, azi parte a grupului american Xylem, un jucător important la nivel global în tehnologia apei. Rămâne totuși un brand cu identitate proprie și fabrică dedicată în Italia, axat pe pompe pentru clădiri, industrie și irigații — segmentul unde eficiența energetică și fiabilitatea pe termen lung contează la fel de mult ca prețul de achiziție. Gama acoperă de la circulatoare mici pentru instalații rezidențiale, până la pompe multietajate verticale pentru presurizare industrială și stații de pompare municipale.
+    overview: `Lowara este un producător italian de pompe centrifuge, cu sediul la Montecchio Maggiore, azi parte a grupului american Xylem, un jucător important la nivel global în tehnologia apei. Rămâne totuși un brand cu identitate proprie și fabrică dedicată în Italia, axat pe pompe pentru clădiri, industrie și irigații — segmentul unde eficiența energetică și fiabilitatea pe termen lung contează la fel de mult ca prețul de achiziție. Gama acoperă de la circulatoare mici pentru instalații rezidențiale, până la pompe multietajate verticale pentru presurizare industrială și stații de pompare municipale.
 
-Seria e-SV, verticală multietajată, integral din oțel inoxidabil, acoperă debite de până la 700 m³/h și înălțimi de pompare de peste 300 metri coloană de apă, fiind soluția standard pentru presurizare, alimentare cu apă industrială și sisteme de răcire unde rezistența la coroziune a oțelului inoxidabil justifică investiția față de fontă. Pompele centrifuge monobloc din seria CO acoperă aplicații generale de circulație și transfer de lichide curate sau ușor încărcate. Pentru ape uzate și drenaj, pompele submersibile din seria GS/DOMO oferă construcție cu rotor tocător sau vortex, în funcție de conținutul de solide din lichidul vehiculat.
+Seria e-SV, verticală multietajată, integral din oțel inoxidabil, acoperă debite de până la 160 m³/h și înălțimi de pompare de până la 330 de metri coloană de apă, fiind soluția standard pentru presurizare, alimentare cu apă industrială și sisteme de răcire unde rezistența la coroziune a oțelului inoxidabil justifică investiția față de fontă. Pompele centrifuge monobloc din seria CO acoperă aplicații generale de circulație și transfer de lichide curate sau ușor încărcate. Pentru ape uzate și drenaj, pompele submersibile din seria DOMO oferă construcție cu rotor tocător sau vortex, în funcție de conținutul de solide din lichidul vehiculat.
 
 Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turației, reduc consumul energetic al circuitelor de încălzire și climatizare cu procente semnificative față de circulatoarele cu turație fixă, un argument important în proiectele care urmăresc certificare energetică. Materialele variază de la fontă pentru aplicații generale, la oțel inoxidabil 304/316 pentru apă potabilă și medii ușor corozive, iar motoarele respectă clasele de eficiență IE3 impuse de reglementările europene. Lowara e prezentă în instalații rezidențiale și comerciale de presurizare, sisteme de irigații agricole, stații de pompare pentru apă uzată și circuite industriale de răcire și transfer de lichide.`,
     whyChoose: [
       "Seria e-SV integral din inox — rezistență superioară la coroziune pentru presurizare industrială și apă cu conținut mineral ridicat",
       "Gamă completă pentru apă curată și uzată — de la circulatoare rezidențiale până la pompe submersibile cu tocător pentru drenaj",
       "Eficiență energetică certificată — motoare IE3 și circulatoare Ecocirc cu reglare electronică a turației",
-      "Susținere Xylem — acces la o rețea globală de service și piese de schimb printr-un grup internațional consacrat în tehnologia apei",
-      "Debite mari disponibile — seria e-SV acoperă până la 700 m³/h pentru aplicații industriale de amploare",
-      "Interschimbabilitate dimensională — pompe verticale multietajate compatibile ca gabarit cu majoritatea instalațiilor existente din piață"
+      "Parte din grupul Xylem — grup internațional în tehnologia apei",
+      "Înălțimi mari de pompare — seria e-SV acoperă până la 330 m, la debite de până la 160 m³/h",
+      "Conexiuni flanșate — compatibilitatea cu o instalație existentă se verifică pe baza dimensiunilor flanșei"
     ],
     keyProducts: [
       {
         name: "Pompe Verticale Multietajate Seria e-SV",
-        description: "Seria e-SV este pompa verticală multietajată de referință Lowara, cu toate componentele umede din oțel inoxidabil AISI 304 sau 316, gândită pentru presurizare, alimentare cu apă industrială, sisteme de răcire și circuite unde rezistența la coroziune contează. Acoperă debite de până la 700 m³/h și înălțimi de pompare de peste 300 metri coloană de apă, cu conexiuni flanșate compatibile dimensional cu instalațiile existente, ceea ce simplifică înlocuirea unei pompe vechi. Motoarele standard respectă clasa de eficiență IE3, iar variantele cu convertizor de frecvență integrat permit reglarea turației pentru adaptarea debitului la cerințele reale ale instalației, cu economii directe de energie față de funcționarea la turație fixă."
+        description: "Seria e-SV este pompa verticală multietajată de referință Lowara, cu toate componentele umede din oțel inoxidabil AISI 304 sau 316, gândită pentru presurizare, alimentare cu apă industrială, sisteme de răcire și circuite unde rezistența la coroziune contează. Acoperă debite de până la 160 m³/h și înălțimi de pompare de până la 330 de metri coloană de apă, cu conexiuni flanșate; compatibilitatea cu o instalație existentă se verifică pe baza dimensiunilor flanșei. Motoarele standard respectă clasa de eficiență IE3, iar variantele cu convertizor de frecvență integrat permit reglarea turației pentru adaptarea debitului la cerințele reale ale instalației, cu economii directe de energie față de funcționarea la turație fixă."
       },
       {
         name: "Pompe Centrifuge Monobloc Seria CO",
-        description: "Pompele centrifuge monobloc din seria CO combină motorul electric și corpul de pompă într-un ansamblu compact, cu roată închisă din bronz sau oțel inoxidabil, potrivite pentru circulația și transferul de apă curată sau ușor încărcată în instalații industriale, comerciale și agricole. Debitele acoperă câteva zeci până la câteva sute de metri cubi pe oră, cu înălțimi de pompare adaptate pentru circuite de recirculare, alimentare cu apă și sisteme de stropit. Construcția monobloc reduce numărul de componente și simplifică montajul, iar disponibilitatea pe stoc a modelelor uzuale face din seria CO o alegere frecventă pentru înlocuiri rapide de urgență."
+        description: "Pompele centrifuge monobloc din seria CO combină motorul electric și corpul de pompă într-un ansamblu compact, cu rotor deschis din oțel inoxidabil, potrivite pentru circulația și transferul de apă curată sau ușor încărcată în instalații industriale, comerciale și agricole. Debitul maxim este de până la 54 m³/h, la înălțimi de pompare de până la 24 m. Construcția monobloc reduce numărul de componente și simplifică montajul."
       },
       {
-        name: "Pompe Submersibile pentru Ape Uzate Seria GS/DOMO",
+        name: "Pompe Submersibile pentru Ape Uzate Seria DOMO",
         description: "Pompele submersibile Lowara pentru ape uzate și drenaj sunt disponibile cu rotor tocător, pentru lichide cu conținut de fibre sau solide fine, sau cu rotor tip vortex, pentru lichide cu solide mai mari care nu trebuie tocate înainte de evacuare. Corpurile din fontă cu componente de uzură din oțel inoxidabil rezistă la mediul abraziv tipic apelor uzate menajere sau industriale, iar motoarele etanșe cu protecție IP68 permit funcționarea complet submersă pe perioade îndelungate. Se folosesc în stații de pompare ape uzate, subsoluri predispuse la inundare și instalații agricole de irigare cu apă din surse cu conținut de solide."
       },
       {
         name: "Circulatoare Electronice Ecocirc",
-        description: "Circulatoarele Ecocirc, cu motor cu rotor umed și electronică integrată de control al turației, ajustează automat puterea consumată în funcție de cererea reală a circuitului de încălzire sau climatizare, cu economii de energie semnificative față de circulatoarele clasice cu turație fixă. Gama acoperă debite mici și medii, tipice instalațiilor rezidențiale, comerciale și industriale de dimensiuni moderate, cu montaj direct pe conductă prin filet sau flanșă, în funcție de model. Fiind proiectate pentru funcționare continuă pe durata întregului sezon de încălzire, au o durată de viață estimată în zeci de mii de ore și necesită mentenanță minimă."
+        description: "Circulatoarele Ecocirc, cu motor cu rotor umed și electronică integrată de control al turației, ajustează automat puterea consumată în funcție de cererea reală a circuitului de încălzire sau climatizare, cu economii de energie semnificative față de circulatoarele clasice cu turație fixă. Gama acoperă debite mici și medii, tipice instalațiilor rezidențiale, comerciale și industriale de dimensiuni moderate, cu montaj direct pe conductă prin filet sau flanșă, în funcție de model. Fiind proiectate pentru funcționare continuă pe durata sezonului de încălzire, durata de viață și cerințele de mentenanță se confirmă din documentația producătorului."
       }
     ],
     industries: [
@@ -1031,8 +1031,8 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -1041,35 +1041,35 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
     name: "Brinkmann Pumpen",
     founded: 1950,
     headquarters: "Werdohl, Germania",
-    overview: `Brinkmann Pumpen este un producător german specializat în pompe submersibile de imersie pentru lichide de răcire și ungere folosite la mașini-unelte, cu sediul la Werdohl și activitate din 1953. Este un segment de nișă tehnică specifică — spre deosebire de o pompă industrială generică, o pompă de imersie pentru lichid de răcire trebuie să funcționeze complet submersă în emulsii cu particule metalice fine, uleiuri de ungere sau lichide sintetice, adesea la temperaturi ridicate și cu porniri și opriri frecvente, sincronizate cu ciclul de lucru al mașinii.
+    overview: `Brinkmann Pumpen este un producător german specializat în pompe submersibile de imersie pentru lichide de răcire și ungere folosite la mașini-unelte, cu sediul la Werdohl și activitate din 1950. Este un segment de nișă tehnică specifică — spre deosebire de o pompă industrială generică, o pompă de imersie pentru lichid de răcire trebuie să funcționeze complet submersă în emulsii cu particule metalice fine, uleiuri de ungere sau lichide sintetice, adesea la temperaturi ridicate și cu porniri și opriri frecvente, sincronizate cu ciclul de lucru al mașinii.
 
-Gama de pompe de imersie TTN și TTX acoperă lungimi de imersie de la câțiva centimetri până la peste un metru, în funcție de adâncimea rezervorului de lichid de răcire, cu debite adaptate pentru alimentarea sculei așchietoare la presiuni suficiente pentru a evacua șpanul din zona de tăiere. Motoarele etanșe, montate deasupra nivelului lichidului, acționează rotorul printr-un ax de transmisie protejat de o manta exterioară care izolează lagărele de contactul direct cu lichidul contaminat. Pentru aplicații de proces industrial, în afara mașinilor-unelte, Brinkmann produce și pompe centrifuge verticale pentru transferul de lichide agresive sau cu temperaturi ridicate.
+Gama de pompe de imersie Brinkmann (de exemplu seriile TB, TA, TE, TS, TC și TH) acoperă mai multe lungimi de imersie, în funcție de adâncimea rezervorului de lichid de răcire, cu debite și presiuni adaptate alimentării sculei așchietoare. Motorul este montat deasupra nivelului lichidului, iar rotorul funcționează în lichid. Portofoliul include și pompe centrifuge, pompe cu șurub, pompe pentru șpan și pompe miniaturale din plastic.
 
-Materialele componentelor umede includ oțel inoxidabil pentru rezistență la emulsiile pe bază de apă și la uleiurile de ungere, cu opțiuni de rotor și lagăre dimensionate pentru particulele abrazive tipice șpanului metalic fin din prelucrările CNC. Construcția modulară permite ajustarea lungimii de imersie și a debitului fără schimbarea completă a pompei, un avantaj pentru integratorii de mașini-unelte care echipează utilaje cu rezervoare de dimensiuni diferite. Pompele Brinkmann se regăsesc pe centre de prelucrare CNC, mașini de rectificat, linii de electroeroziune și instalații industriale unde lichidul de proces trebuie recirculat continuu prin filtrare.`,
+Materialele componentelor umede se aleg în funcție de lichidul de răcire și se confirmă pe cod, din documentația Brinkmann. Lungimea de imersie și debitul se aleg în funcție de rezervorul și de mașina deservită. Pompele Brinkmann se regăsesc pe centre de prelucrare CNC, mașini de rectificat, linii de electroeroziune și instalații industriale unde lichidul de proces trebuie recirculat continuu prin filtrare.`,
     whyChoose: [
-      "Specializare exclusivă pe pompe de imersie — cunoștințe aprofundate despre emulsii de răcire, uleiuri de ungere și particule metalice abrazive",
-      "Construcție modulară pe lungime de imersie — adaptare la adâncimi diferite de rezervor fără proiectare de la zero",
-      "Rezistență la funcționare intermitentă — pompe gândite pentru porniri și opriri frecvente, sincronizate cu ciclul mașinii-unelte",
-      "Materiale rezistente la abraziune — componente din oțel inoxidabil pentru lichide cu conținut de șpan metalic fin",
-      "Compatibilitate cu rezervoare existente — game de lungimi care acoperă majoritatea adâncimilor uzuale la mașinile-unelte instalate",
-      "Fiabilitate germană pe un produs de nișă — peste șapte decenii de specializare strictă pe pompe de imersie industrială"
+      "Specializare în pompe pentru lichide de răcire — pompe de imersie, pompe centrifuge și pompe cu șurub pentru mașini-unelte",
+      "Lungime de imersie aleasă după adâncimea rezervorului mașinii",
+      "Pompe pentru lichide de răcire — alegerea modelului depinde de regimul de funcționare al mașinii",
+      "Pompe pentru lichide cu șpan — gama include pompe dedicate manipulării șpanului",
+      "Compatibilitatea cu un rezervor existent se verifică pe baza adâncimii rezervorului",
+      "Companie germană de familie — peste șapte decenii de activitate în domeniul pompelor pentru lichide de răcire"
     ],
     keyProducts: [
       {
-        name: "Pompe de Imersie Seria TTN",
-        description: "Seria TTN este pompa de imersie standard Brinkmann pentru alimentarea cu lichid de răcire a mașinilor-unelte, cu motor montat deasupra rezervorului și ax de transmisie protejat care coboară în lichid până la rotorul pompei. Lungimile de imersie acoperă de la câțiva centimetri până la câteva zeci de centimetri, alese în funcție de adâncimea rezervorului mașinii, cu debite suficiente pentru alimentarea sistemelor de răcire prin sculă la presiuni de câțiva bar. Componentele umede din oțel inoxidabil rezistă la emulsii pe bază de apă cu conținut de șpan metalic fin, iar construcția permite demontarea rapidă pentru curățare sau înlocuirea rotorului uzat, fără scoaterea completă a pompei din instalație."
+        name: "Pompe de Imersie de Joasă Presiune",
+        description: "Pompele de imersie de joasă presiune Brinkmann (de exemplu seriile TB și TA) alimentează cu lichid de răcire mașinile-unelte, cu motorul montat deasupra rezervorului. Lungimea de imersie, debitul și presiunea se aleg în funcție de rezervorul mașinii și se confirmă pe cod, din documentația Brinkmann. Materialele componentelor umede se aleg în funcție de lichidul de răcire și se confirmă pe cod."
       },
       {
-        name: "Pompe de Imersie de Adâncime Seria TTX",
-        description: "Pentru rezervoare mai adânci, tipice liniilor de prelucrare cu volum mare de lichid de răcire recirculat, seria TTX extinde lungimea de imersie la peste un metru, păstrând aceeași filozofie constructivă de motor uscat montat deasupra nivelului lichidului și ax de transmisie protejat pe toată lungimea. Debitele mai mari acoperă necesarul mai multor puncte de răcire simultane pe aceeași mașină sau alimentarea unui sistem central de filtrare și recirculare pentru mai multe utilaje. Materialele rezistente la abraziune și la uleiurile de ungere sintetice extind durata de viață a pompei chiar și în instalații cu regim de funcționare continuu, non-stop, tipic producției de serie mare."
+        name: "Pompe de Imersie de Presiune Medie și Înaltă",
+        description: "Pentru aplicații cu presiune medie sau înaltă, Brinkmann oferă pompe de imersie din seriile TS, TC, TH, FH și IH. Debitul și presiunea se aleg în funcție de numărul de puncte de răcire alimentate și se confirmă pe cod."
       },
       {
         name: "Pompe Centrifuge Verticale de Proces",
-        description: "Pe lângă pompele de imersie pentru mașini-unelte, Brinkmann produce și pompe centrifuge verticale pentru transferul de lichide industriale agresive sau cu temperaturi ridicate, folosite în instalații de proces industrial general, în afara aplicațiilor de răcire CNC. Construcția verticală, cu motorul montat deasupra corpului de pompă, permite instalarea directă în rezervoare deschise sau cuve de proces, fără necesitatea unui postament separat. Materialele umede se adaptează la agresivitatea fluidului vehiculat, cu opțiuni din oțel inoxidabil pentru rezistență chimică sporită. Sunt folosite pentru transferul de lichide de tratament termic, băi de degresare și alte medii industriale cu cerințe speciale de compatibilitate."
+        description: "Pe lângă pompele de imersie, Brinkmann produce pompe centrifuge, pompe cu șurub și pompe pentru șpan; modelul potrivit se confirmă pe cod."
       },
       {
         name: "Piese de Schimb și Kituri de Recondiționare",
-        description: "Pentru parcul instalat de pompe Brinkmann, prezent în multe fabrici de prelucrări mecanice din Europa, se pot obține kituri complete de recondiționare — rotor, lagăre, garnituri de etanșare și ax de transmisie — pentru revizia periodică fără achiziția unei pompe noi complete. Recondiționarea periodică prelungește semnificativ durata de viață a pompei și reduce costul total de proprietate, mai ales acolo unde emulsia de răcire conține particule abrazive care uzează rapid rotorul și lagărele. Kiturile sunt disponibile pentru majoritatea modelelor din seriile TTN și TTX aflate încă în exploatare, ceea ce simplifică mentenanța parcului existent de mașini-unelte."
+        description: "Pentru pompele Brinkmann aflate în exploatare, piesele de schimb se identifică pe baza plăcuței pompei și se confirmă pe cod, din documentația producătorului."
       }
     ],
     industries: [
@@ -1082,10 +1082,10 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
     certifications: [
       "CE — marcaj de conformitate pentru pompele de imersie vândute în Uniunea Europeană",
       "ISO 9001 — management al calității pentru proiectarea și producția pompelor de imersie industriale",
-      "IP68 — protecție la imersie completă pentru motoarele etanșe din gamă"
+      "Gradul de protecție al motorului se confirmă pe cod, din documentația Brinkmann"
     ],
-    infinitrade: "Coordonăm aprovizionarea cu pompe de imersie Brinkmann Pumpen pentru mașini-unelte și instalații de prelucrare mecanică din România — seriile TTN și TTX, plus kituri de recondiționare — prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pentru fiecare lungime de imersie și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a pompei, trimiteți-ne adâncimea rezervorului mașinii, presiunea necesară la sculă și tipul de lichid de răcire folosit. Modelele standard și piesele de uzură ajung de regulă în 24–72 h, util mai ales când o pompă defectă oprește o linie de producție, iar lungimile de imersie neuzuale, în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma compatibilitatea exactă cu modele TTN/TTX foarte vechi, ieșite din catalogul curent, fără o schiță tehnică sau fotografie a plăcuței pompei existente.",
+    infinitrade: "Coordonăm aprovizionarea cu pompe de imersie Brinkmann Pumpen pentru mașini-unelte și instalații de prelucrare mecanică din România — seriile de pompe de imersie (de exemplu TB, TS și TH), plus piese de schimb confirmate pe cod — prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii de stoc pentru fiecare lungime de imersie și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a pompei, trimiteți-ne adâncimea rezervorului mașinii, presiunea necesară la sculă și tipul de lichid de răcire folosit. Modelele standard și piesele de uzură ajung de regulă în 24–72 h, util mai ales când o pompă defectă oprește o linie de producție, iar lungimile de imersie neuzuale, în 1–4 săptămâni la comandă.",
+    limitation: "Nu putem confirma compatibilitatea exactă cu modele foarte vechi, ieșite din catalogul curent, fără o schiță tehnică sau fotografie a plăcuței pompei existente.",
     sources: [
       {"title":"Products","url":"https://www.brinkmannpumps.com/us/products/","publisher":"Brinkmann Pumpen","accessed":"2026-09-22"},
       { title: "History – BRINKMANN PUMPS", url: "https://www.brinkmannpumps.com/us/company/history", publisher: "K.H. Brinkmann GmbH & Co. KG", accessed: "2026-09-22" },
@@ -1196,8 +1196,8 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
       }
     ],
     evidenceClass: "history-only",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării Brinkmann, conform surselor citate." }
     ]
   },
@@ -1206,35 +1206,35 @@ Materialele componentelor umede includ oțel inoxidabil pentru rezistență la e
     name: "Mankenberg",
     founded: 1897,
     headquarters: "Lübeck, Germania",
-    overview: `Mankenberg este un producător german de familie, fondat în 1897 la Lübeck, specializat exclusiv în regulatoare de presiune, temperatură și debit cu acționare proprie, fără sursă externă de energie. Peste 125 de ani de activitate concentrată pe un singur principiu constructiv — regulatorul auto-acționat, care folosește energia fluidului de proces pentru a-și regla propria poziție — au dus la o gamă extrem de detaliată, capabilă să acopere aproape orice combinație de presiune de intrare, presiune de ieșire și tip de fluid întâlnită în industria de proces.
+    overview: `Mankenberg este un producător german de familie, fondat în 1897 la Lübeck, specializat în regulatoare cu acționare proprie pentru presiune și nivel, precum și în accesorii de conductă, fără sursă externă de energie. Peste 100 de ani de activitate concentrată pe regulatorul auto-acționat — regulatorul auto-acționat, care folosește energia fluidului de proces pentru a-și regla propria poziție — au dus la o gamă extrem de detaliată, capabilă să acopere aproape orice combinație de presiune de intrare, presiune de ieșire și tip de fluid întâlnită în industria de proces.
 
-Regulatoarele de presiune din seria DM reduc și mențin constantă presiunea din aval, indiferent de variațiile presiunii din amonte sau ale debitului consumat, cu game de reglare de la fracțiuni de bar până la peste 25 bar, în funcție de model și de materialul corpului. Regulatoarele de suprapresiune și de menținere a presiunii din amonte funcționează invers — deschid pentru a evacua excesul de presiune atunci când aceasta depășește un prag setat, protejând echipamente sensibile din amonte de suprapresiune. Gama include și regulatoare de temperatură cu element termostatic și regulatoare de debit constant, independent de variațiile de presiune din sistem.
+Regulatoarele de presiune din seria DM reduc și mențin constantă presiunea din aval, indiferent de variațiile presiunii din amonte sau ale debitului consumat, cu game de reglare de la fracțiuni de bar până la peste 25 bar, în funcție de model și de materialul corpului. Regulatoarele de suprapresiune și de menținere a presiunii din amonte funcționează invers — deschid pentru a evacua excesul de presiune atunci când aceasta depășește un prag setat, protejând echipamente sensibile din amonte de suprapresiune. Gama include și regulatoare de contrapresiune, regulatoare de presiune diferențială și ventile de rupere a vidului, precum și robinete pentru controlul nivelului (ventile de aerisire și purjare, oale de condens, robinete cu flotor).
 
-Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abur de presiune joasă, oțel inoxidabil pentru medii corozive sau cu cerințe de igienă, și execuții speciale pentru gaze tehnice sau medii criogenice. Fiind regulatoare auto-acționate, nu necesită alimentare electrică sau aer instrumental, ceea ce le face soluția implicită pentru puncte de reglare izolate sau pentru instalații unde fiabilitatea în lipsa utilităților auxiliare este critică. Se regăsesc în rețele de abur industrial, stații de reglare gaze tehnice, instalații de apă potabilă și circuite de proces din industria chimică și farmaceutică.`,
+Materialele acoperă oțel inoxidabil (de exemplu 1.4404/316L) pentru medii corozive sau cu cerințe de igienă, oțel turnat sau forjat pentru presiuni și temperaturi ridicate; materialul exact se confirmă pe cod. Fiind regulatoare auto-acționate, nu necesită alimentare electrică sau aer instrumental, ceea ce le face soluția implicită pentru puncte de reglare izolate sau pentru instalații unde fiabilitatea în lipsa utilităților auxiliare este critică. Se regăsesc în rețele de abur industrial, stații de reglare gaze tehnice, instalații de apă potabilă și circuite de proces din industria chimică și farmaceutică.`,
     whyChoose: [
       "Regulatoare fără sursă externă de energie — funcționează exclusiv cu energia fluidului de proces, fără electricitate sau aer instrumental",
-      "Gamă extrem de detaliată — combinații multiple de presiune de intrare, presiune de ieșire și material pentru aproape orice aplicație",
-      "Peste 125 de ani de specializare exclusivă pe regulatoare auto-acționate, fără diversificare către alte categorii de produse",
-      "Materiale pentru medii dificile — execuții din inox pentru chimicale, gaze tehnice și aplicații criogenice",
+      "Gamă largă — combinații multiple de presiune de intrare, presiune de ieșire și material",
+      "Peste 100 de ani de experiență în regulatoare auto-acționate pentru presiune și nivel și în accesorii de conductă",
+      "Materiale pentru medii dificile — execuții din inox pentru chimicale, aplicații igienice și gaze tehnice",
       "Fiabilitate la puncte izolate — soluție de referință acolo unde nu există alimentare electrică sau aer comprimat disponibil",
       "Reglaj precis și stabil — presiune de ieșire menținută constant chiar și la variații mari ale debitului consumat"
     ],
     keyProducts: [
       {
         name: "Regulatoare de Presiune Reducătoare Seria DM",
-        description: "Regulatoarele reducătoare de presiune din seria DM mențin constantă presiunea din aval a unui punct de consum, indiferent de variațiile presiunii din amonte sau ale debitului instantaneu, folosind exclusiv energia fluidului pentru acționarea membranei interne. Game de reglare de la fracțiuni de bar pentru aplicații de precizie, până la peste 25 bar pentru linii industriale de presiune mai mare, cu corpuri din bronz, alamă sau oțel inoxidabil în funcție de fluidul vehiculat. Sunt folosite pentru alimentarea cu apă sau abur de presiune constantă a echipamentelor sensibile la variații, cum ar fi instalațiile de sterilizare, liniile de umplere sau punctele de consum din rețele extinse de utilități."
+        description: "Regulatoarele reducătoare de presiune din seria DM mențin constantă presiunea din aval a unui punct de consum, indiferent de variațiile presiunii din amonte sau ale debitului instantaneu, folosind exclusiv energia fluidului pentru acționarea membranei interne. Game de reglare de la fracțiuni de bar pentru aplicații de precizie, până la peste 25 bar pentru linii industriale de presiune mai mare, cu corpuri din oțel inoxidabil sau din oțel, în funcție de fluidul vehiculat. Sunt folosite pentru alimentarea cu apă sau abur de presiune constantă a echipamentelor sensibile la variații, cum ar fi instalațiile de sterilizare, liniile de umplere sau punctele de consum din rețele extinse de utilități."
       },
       {
         name: "Regulatoare de Suprapresiune și Menținere Presiune Amonte",
         description: "Spre deosebire de un regulator reducător, care controlează presiunea din aval, regulatoarele de suprapresiune Mankenberg mențin constantă presiunea din amonte, deschizând pentru evacuare atunci când aceasta depășește pragul setat. Sunt folosite pentru protejarea pompelor sau echipamentelor sensibile la suprapresiune, pentru menținerea unei presiuni minime necesare funcționării corecte a unui sistem, sau ca supape de bypass pentru reglarea debitului rezidual într-un circuit de recirculare. Construcția auto-acționată, fără alimentare externă, le face potrivite pentru instalarea în puncte izolate ale unei rețele industriale, unde nu există sursă de curent sau aer comprimat disponibilă."
       },
       {
-        name: "Regulatoare de Temperatură cu Element Termostatic",
-        description: "Regulatoarele de temperatură Mankenberg folosesc un element termostatic, de regulă o capsulă cu lichid sau ceară care se dilată în funcție de temperatură, pentru a acționa direct o supapă de reglare a debitului de agent termic, fără senzor electronic sau sursă de energie externă. Sunt folosite pentru menținerea unei temperaturi constante la ieșirea dintr-un schimbător de căldură, în circuite de răcire industrială sau în instalații de preparare a apei calde menajere, unde o abatere de câteva grade poate afecta procesul sau confortul utilizatorilor. Gama acoperă intervale de temperatură diferite, alese în funcție de aplicație, cu timp de răspuns adaptat la inerția termică a sistemului controlat."
+        name: "Regulatoare de Contrapresiune și Presiune Diferențială",
+        description: "Pe lângă reductoarele de presiune, programul Mankenberg include regulatoare de contrapresiune, regulatoare de presiune diferențială și ventile de rupere a vidului, toate cu acționare proprie, fără alimentare externă. Modelul potrivit se confirmă pe cod, din documentația producătorului."
       },
       {
-        name: "Regulatoare de Debit Constant",
-        description: "Regulatoarele de debit constant mențin un debit stabil printr-un punct de consum, indiferent de variațiile de presiune din amonte sau din aval ale sistemului, folosind un element de reglare care își ajustează automat secțiunea de trecere. Sunt utile în aplicații unde un debit variabil ar afecta calitatea procesului — dozare de fluide, alimentarea uniformă a mai multor puncte de consum dintr-o rețea comună, sau protejarea unui echipament la debit maxim admis. Construcția auto-acționată elimină nevoia unui sistem de măsură și control activ, oferind o soluție mecanică simplă și robustă acolo unde altfel ar fi necesară instrumentație electronică suplimentară."
+        name: "Robinete pentru Controlul Nivelului și Accesorii de Conductă",
+        description: "Programul Mankenberg include și robinete pentru controlul nivelului (ventile de aerisire și purjare, oale de condens, robinete cu flotor) și accesorii de conductă (filtre, separatoare, vizoare). Modelul potrivit se confirmă pe cod, din documentația producătorului."
       }
     ],
     industries: [
@@ -1242,16 +1242,16 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       "Stații de reglare gaze tehnice — azot, oxigen, aer comprimat, gaze speciale",
       "Industria chimică și farmaceutică — reglare presiune și debit pe linii de proces",
       "Alimentare cu apă și apă potabilă — stații de presiune constantă pentru rețele extinse",
-      "Industria alimentară — control temperatură pentru procese termice și pasteurizare",
-      "Instalații criogenice — regulatoare pentru gaze lichefiate și temperaturi extrem de scăzute"
+      "Industria alimentară — reglare de presiune pe linii igienice, de exemplu cu seria DM 462",
+      "Aplicații cu hidrogen — regulatoare de presiune auto-acționate"
     ],
     certifications: [
       "PED 2014/68/UE — conformitate pentru regulatoarele montate pe echipamente sub presiune",
       "ISO 9001 — management al calității pentru proiectarea și producția regulatoarelor auto-acționate",
       "Materiale certificate pentru contact cu apa potabilă pe execuțiile dedicate"
     ],
-    infinitrade: "Gestionăm comenzile pentru regulatoare de presiune, temperatură și debit Mankenberg destinate rețelelor de abur și instalațiilor de proces din România, aduse prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem modelul potrivit pornind de la informațiile publice disponibile ale producătorului pentru fiecare combinație de presiune de intrare și ieșire. Pentru o selecție corectă, trimiteți-ne presiunea de intrare, presiunea sau debitul dorit la ieșire și fluidul vehiculat. Modelele standard din bronz și alamă ajung de regulă în 24–72 h, iar execuțiile din inox sau cele pentru game speciale de presiune, în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma o calibrare specială pentru medii neuzuale (de exemplu criogenice) fără confirmarea prealabilă din partea producătorului — aceasta rămâne o etapă separată de proiectare.",
+    infinitrade: "Gestionăm comenzile pentru regulatoare de presiune, temperatură și debit Mankenberg destinate rețelelor de abur și instalațiilor de proces din România, aduse prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem modelul potrivit pornind de la informațiile publice disponibile ale producătorului pentru fiecare combinație de presiune de intrare și ieșire. Pentru o selecție corectă, trimiteți-ne presiunea de intrare, presiunea sau debitul dorit la ieșire și fluidul vehiculat. Modelele standard ajung de regulă în 24–72 h, iar execuțiile din inox sau cele pentru game speciale de presiune, în 1–4 săptămâni la comandă.",
+    limitation: "Nu putem confirma o calibrare specială pentru medii neuzuale fără confirmarea prealabilă din partea producătorului — aceasta rămâne o etapă separată de proiectare.",
     sources: [
       {"title":"Pressure reducer product overview","url":"https://www.mankenberg.com/en/pressure-reducer/products","publisher":"Mankenberg","accessed":"2026-09-23"},
       {"title":"Pressure reducer DM 462","url":"https://www.mankenberg.com/en/pressure-reducer/dm-462","publisher":"Mankenberg","accessed":"2026-09-23"},
@@ -1275,7 +1275,7 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       },
       {
         "code": "DM 555",
-        "description": "Stație de reducere a presiunii pentru furnizori de apă potabilă"
+        "description": "Reductor de presiune din inox pentru debite mici și medii, DN15-50, PN40"
       },
       {
         "code": "DM 701",
@@ -1283,11 +1283,11 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       },
       {
         "code": "DM 762",
-        "description": "Reductor de presiune pentru aplicații cu presiune de intrare ridicată"
+        "description": "Reductor de presiune pentru presiuni de ieșire foarte mici (0,002-0,52 bar), din inox, DN15-50, PN16"
       },
       {
         "code": "DM 462",
-        "description": "Reductor de presiune cu dublă sesizare din inox, aplicații igienice, DN25-80"
+        "description": "Reductor de presiune cu dublu scaun (twin seat), din inox, aplicații igienice, DN25-80"
       },
       {
         "code": "DM 510",
@@ -1305,7 +1305,7 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
     faq: [
       {
         "q": "Ce reductor de presiune Mankenberg aleg pentru o aplicație igienică din industria alimentară?",
-        "a": "Reductorul DM 462, executat din oțel inoxidabil cu dublă sesizare, este destinat aplicațiilor igienice din industria alimentară și farmaceutică, acoperind un domeniu de DN25 până la DN80. Pentru presiuni de ieșire foarte mici, sub un bar, varianta DM 755, cu reglaj de tip milibar, oferă un control mai fin al presiunii din aval."
+        "a": "Reductorul DM 462, executat din oțel inoxidabil, cu dublu scaun, este destinat aplicațiilor igienice din industria alimentară și farmaceutică, acoperind un domeniu de DN25 până la DN80. Pentru presiuni de ieșire foarte mici, sub un bar, varianta DM 755, cu reglaj de tip milibar, oferă un control mai fin al presiunii din aval."
       },
       {
         "q": "Ce diferență este între reductoarele de presiune Mankenberg DM 510 și DM 514?",
@@ -1321,8 +1321,8 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -1331,27 +1331,27 @@ Materialele acoperă bronz și alamă pentru aplicații generale cu apă și abu
     name: "FPZ",
     founded: 1975,
     headquarters: "Concorezzo, Italia",
-    overview: `FPZ este un producător italian de suflante și compresoare cu canal lateral, cu sediul la Concorezzo, lângă Milano, și activitate din 1975. Compania s-a specializat pe un principiu constructiv specific — suflanta cu canal lateral, o mașină fără contact între piesele în mișcare și carcasă, cu rotor unic care generează presiune sau vid prin accelerarea repetată a aerului într-un canal periferic. Această construcție simplă, fără angrenaje sau uleiuri de ungere interne, a făcut din FPZ un furnizor de referință pentru aplicații industriale unde aerul comprimat trebuie să fie curat, fără urme de ulei.
+    overview: `FPZ este un producător italian de suflante și compresoare cu canal lateral, cu sediul la Concorezzo, lângă Milano. Compania s-a specializat pe un principiu constructiv specific — suflanta cu canal lateral, o mașină fără contact între piesele în mișcare și carcasă, cu unul sau două rotoare care generează presiune sau vid prin accelerarea repetată a aerului într-un canal periferic. Această construcție simplă, fără angrenaje sau uleiuri de ungere interne, este potrivită pentru aplicații industriale unde aerul trebuie să fie curat, fără urme de ulei.
 
-Gama K acoperă suflante monostadiale, compacte, pentru debite mici și medii și presiuni de până la aproximativ 400 mbar sau vid de până la -400 mbar, fiind cea mai vândută familie pentru aplicații generale de transport pneumatic și aerare. Pentru presiuni mai mari, seria de suflante bistadiale combină două rotoare pe același ax, dublând practic presiunea maximă disponibilă, până la aproape 700 mbar, fără a introduce etanșări suplimentare care ar limita fiabilitatea. FPZ produce și suflante rezistente la temperaturi ridicate ale aerului vehiculat sau ale mediului ambiant, precum și versiuni cu carcasă din inox pentru medii corozive sau igienice.
+Suflantele monostadiale (seria MS, cu un singur rotor) acoperă debite de la 55 la 1.234 m³/h, presiuni de până la 450 mbar și vid de până la -350 mbar, în funcție de model (K03–K12). Pentru presiuni mai mari, seriile bistadiale (MD și TD) comprimă aerul în două trepte succesive și ajung la presiuni de până la 650 mbar. FPZ produce și suflante rezistente la temperaturi ridicate ale aerului vehiculat sau ale mediului ambiant, precum și versiuni cu carcasă din inox pentru medii corozive sau igienice.
 
-Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ungere în contact cu aerul vehiculat, reduce mentenanța la un nivel minim — practic doar verificarea periodică a rulmenților și a filtrului de aspirație. Zgomotul redus și lipsa vibrațiilor mecanice semnificative, comparativ cu suflantele Roots sau cu compresoarele cu piston, le fac potrivite pentru medii sensibile la zgomot, cum ar fi spațiile comerciale sau instituțiile. Suflantele FPZ se regăsesc în stații de epurare a apei, transport pneumatic de materiale granulare ușoare, ambalare industrială cu vid și aplicații medicale sau dentare unde puritatea aerului este esențială.`,
+Rotorul, fără etanșări dinamice supuse frecării și fără ulei de ungere în contact cu aerul vehiculat, reduce mentenanța la un nivel minim — practic doar verificarea periodică a rulmenților și a filtrului de aspirație. Zgomotul redus și lipsa vibrațiilor mecanice semnificative, comparativ cu suflantele Roots sau cu compresoarele cu piston, le fac potrivite pentru medii sensibile la zgomot, cum ar fi spațiile comerciale sau instituțiile. Suflantele FPZ se regăsesc în stații de epurare a apei, transport pneumatic de materiale granulare ușoare, ambalare industrială cu vid și instalații din industria chimică și farmaceutică.`,
     whyChoose: [
-      "Aer complet curat, fără ulei — construcție cu rotor unic fără contact, potrivită pentru aplicații sensibile la contaminare",
+      "Aer fără ulei — construcție fără contact între rotor și carcasă, potrivită pentru aplicații sensibile la contaminare",
       "Mentenanță minimă — fără angrenaje, curele sau etanșări dinamice supuse uzurii rapide",
-      "Gamă monostadială și bistadială — acoperă atât presiuni moderate, cât și aplicații care necesită până la aproape 700 mbar",
+      "Gamă monostadială și bistadială — acoperă atât presiuni moderate, cât și aplicații care necesită până la 650 mbar",
       "Zgomot și vibrații reduse — funcționare mai silențioasă decât suflantele Roots sau compresoarele cu piston de putere echivalentă",
       "Execuții pentru medii dificile — versiuni rezistente la temperatură ridicată și carcase din inox pentru medii corozive",
       "Aplicabilitate largă — de la aerare biologică în stații de epurare, până la transport pneumatic și ambalare industrială cu vid"
     ],
     keyProducts: [
       {
-        name: "Suflante Monostadiale cu Canal Lateral Seria K",
-        description: "Suflantele monostadiale din seria K sunt soluția de bază FPZ pentru presiune sau vid moderat, cu un singur rotor cu canal lateral montat direct pe axul motorului electric, fără reductor sau transmisie prin curea. Acoperă presiuni de refulare de până la aproximativ 400 mbar sau vid de până la -400 mbar, cu debite adaptate pentru aerare de bazine mici, transport pneumatic ușor și ambalare cu vid. Construcția compactă, fără ulei de ungere în contact cu aerul vehiculat, asigură un flux de aer curat, potrivit pentru aplicații industriale generale unde nu se justifică investiția într-o suflantă Roots sau un compresor cu șurub."
+        name: "Suflante Monostadiale cu Canal Lateral Seria MS",
+        description: "Suflantele monostadiale din seria MS sunt soluția de bază FPZ pentru presiune sau vid moderat, cu un singur rotor cu canal lateral montat direct pe axul motorului electric, fără reductor sau transmisie prin curea. Acoperă presiuni de refulare de până la 450 mbar sau vid de până la -350 mbar, cu debite adaptate pentru aerare de bazine mici, transport pneumatic ușor și ambalare cu vid. Construcția compactă, fără ulei de ungere în contact cu aerul vehiculat, asigură un flux de aer curat, potrivit pentru aplicații industriale generale unde nu se justifică investiția într-o suflantă Roots sau un compresor cu șurub."
       },
       {
         name: "Suflante Bistadiale de Presiune Ridicată",
-        description: "Pentru aplicații care necesită presiuni mai mari decât poate oferi o construcție monostadială, FPZ produce suflante bistadiale, cu două rotoare cu canal lateral montate pe același ax, care comprimă aerul în două trepte succesive. Această configurație dublează practic presiunea maximă disponibilă, ajungând la aproape 700 mbar, fără a introduce etanșări suplimentare care ar reduce fiabilitatea sau ar necesita mentenanță suplimentară. Sunt folosite pentru aerare de bazine mai adânci în stațiile de epurare, transport pneumatic pe distanțe mai lungi și aplicații industriale unde o singură treaptă de compresie nu ar atinge presiunea necesară."
+        description: "Pentru aplicații care necesită presiuni mai mari decât poate oferi o construcție monostadială, FPZ produce suflante bistadiale (seriile MD și TD), care comprimă aerul în două trepte succesive și ajung la presiuni de până la 650 mbar. Sunt folosite pentru aerare de bazine mai adânci în stațiile de epurare, transport pneumatic pe distanțe mai lungi și aplicații industriale unde o singură treaptă de compresie nu ar atinge presiunea necesară."
       },
       {
         name: "Suflante pentru Temperaturi Ridicate și Medii Corozive",
@@ -1366,16 +1366,16 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       "Epurarea apelor uzate — aerare biologică a bazinelor din stații de epurare municipale și industriale",
       "Transport pneumatic — vehicularea materialelor granulare ușoare în industrie",
       "Ambalare industrială — sisteme de vid pentru manipulare și fixare produse",
-      "Industria alimentară — FPZ: aplicații cu cerințe de aer curat, fără ulei",
-      "Industria dentară și medicală — sisteme de aspirație și vid pentru echipamente specializate",
-      "Industria textilă — transport pneumatic de fibre și aspirație pe mașini de țesut"
+      "Industria alimentară — aplicații cu cerințe de aer curat, fără ulei (Fpz)",
+      "Industria chimică și farmaceutică — aplicații de aer și vid",
+      "Biogaz — aplicații de aer și vid"
     ],
     certifications: [
       "CE — marcaj de conformitate pentru suflantele cu canal lateral vândute în Uniunea Europeană",
       "ISO 9001 — management al calității pentru proiectarea și producția suflantelor cu canal lateral",
       "ATEX — execuții de suflantă cu canal lateral disponibile pentru zone cu risc de explozie"
     ],
-    infinitrade: "Preluăm comenzi pentru suflante și compresoare cu canal lateral FPZ — seria monostadială K, variantele bistadiale de presiune ridicată și execuțiile pentru temperatură sau medii corozive — destinate stațiilor de epurare și instalațiilor industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma o disponibilitate constantă pe stoc pentru fiecare configurație și verificăm dimensionarea în informațiile publice disponibile ale producătorului. Pentru o ofertă corectă, trimiteți-ne debitul de aer și presiunea sau vidul necesar aplicației. Modelele standard sunt de regulă disponibile în 24–72 h, iar pachetele complete cu incintă insonorizată și automatizare integrată ajung în 1–4 săptămâni la comandă.",
+    infinitrade: "Preluăm comenzi pentru suflante și compresoare cu canal lateral FPZ — seria monostadială MS, variantele bistadiale de presiune ridicată și execuțiile pentru temperatură sau medii corozive — destinate stațiilor de epurare și instalațiilor industriale din România, prin canale de aprovizionare din Uniunea Europeană. Nu putem confirma o disponibilitate constantă pe stoc pentru fiecare configurație și verificăm dimensionarea în informațiile publice disponibile ale producătorului. Pentru o ofertă corectă, trimiteți-ne debitul de aer și presiunea sau vidul necesar aplicației. Modelele standard sunt de regulă disponibile în 24–72 h, iar pachetele complete cu incintă insonorizată și automatizare integrată ajung în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma programarea convertizorului de frecvență pe pachetele automatizate fără specificațiile exacte ale procesului — aceasta se stabilește împreună cu inginerul de proiect.",
     sources: [
       {"title":"FPZ - Side channel blowers","url":"https://www.fpz.com/wp-content/uploads/2024/01/FPZ_Flyer-Light_EN.pdf","publisher":"FPZ","accessed":"2026-09-26"},
@@ -1386,7 +1386,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
     productCodes: [
       {
         "code": "MS",
-        "description": "Suflantă cu canal lateral, un rotor, un etaj, debit 55-1022 metri cubi pe oră"
+        "description": "Suflantă cu canal lateral, un rotor, un etaj, debit 55-1234 metri cubi pe oră"
       },
       {
         "code": "MD",
@@ -1402,35 +1402,35 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "code": "K03",
-        "description": "Model compact de suflantă FPZ, consum redus de energie"
+        "description": "Model (mărime) disponibil în seria MS"
       },
       {
         "code": "K04",
-        "description": "Model compact de suflantă FPZ pentru aplicații industriale diverse"
+        "description": "Model (mărime) disponibil în seriile MS și TD"
       },
       {
         "code": "K05",
-        "description": "Suflantă FPZ din gama de capacitate mare, scalabilă progresiv"
+        "description": "Model (mărime) disponibil în seriile MS, TS și TD"
       },
       {
         "code": "K75",
-        "description": "Suflantă FPZ de gamă medie pentru aplicații industriale variate"
+        "description": "Model (mărime) disponibil în seria MS"
       },
       {
         "code": "R20",
-        "description": "Suflantă FPZ compactă pentru aplicații de vid și presiune"
+        "description": "Model (mărime) al seriei MD (un rotor, două etaje)"
       },
       {
         "code": "R30",
-        "description": "Suflantă FPZ de gamă medie din familia seriei R"
+        "description": "Model (mărime) al seriei MD (un rotor, două etaje)"
       },
       {
         "code": "R40",
-        "description": "Suflantă FPZ de gamă medie-mare din familia seriei R"
+        "description": "Model (mărime) al seriei MD (un rotor, două etaje)"
       },
       {
         "code": "e11",
-        "description": "Suflantă FPZ de capacitate mare, peste 2000 metri cubi pe oră"
+        "description": "Model (mărime) disponibil în seriile MS, MD, TS și TD"
       }
     ],
     faq: [
@@ -1440,7 +1440,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "q": "Livrați suflante FPZ la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă suflante cu canal lateral din gamele MS, MD, TS, TD sau K, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 1–4 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
+        "a": "Da, aducem la comandă suflante cu canal lateral din seriile MS, MD, TS sau TD, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 1–4 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
       },
       {
         "q": "Ce informații sunt necesare pentru o cerere de ofertă la o suflantă FPZ?",
@@ -1448,12 +1448,12 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
       },
       {
         "q": "Ce este seria e11 de la FPZ?",
-        "a": "Seria e11 face parte din gama de suflante FPZ de capacitate mare, cu debite ce depășesc 2000 metri cubi pe oră, gândite pentru aplicații industriale cu necesar ridicat de aer. Se folosește de obicei în procese continue unde stabilitatea debitului este esențială. Confirmăm parametrii exacți pe baza fișei tehnice oficiale FPZ înainte de comandă."
+        "a": "e11 este un model (mărime) disponibil în seriile MS, MD, TS și TD; debitul și presiunea depind de seria aleasă. Confirmăm parametrii exacți pe baza fișei tehnice oficiale FPZ înainte de comandă."
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul FPZ în sursele citate." }
     ]
   },
@@ -1465,7 +1465,7 @@ Rotorul unic, fără etanșări dinamice supuse frecării și fără ulei de ung
     employees: "700+ angajați la nivel global",
     overview: `SEEPEX este un producător german specializat exclusiv în pompe cu șurub excentric, cu sediul la Bottrop și activitate din 1972. Acest tip de pompă rezolvă o problemă specifică pe care pompele centrifuge clasice nu o gestionează bine: transportul controlat, cu debit constant, al lichidelor vâscoase, cu conținut de solide sau sensibile la forfecare — nămoluri din stații de epurare, produse alimentare semi-solide, adezivi sau paste industriale. Compania a rămas concentrată exclusiv pe acest principiu constructiv, dezvoltând o gamă foarte largă de configurații pentru aproape orice combinație de vâscozitate, conținut de solide și cerințe de igienă.
 
-Gama BN acoperă pompele bloc standard, cu rotor și stator montate direct pe un cadru compact, pentru aplicații generale industriale și de epurare a apelor uzate. Seria BT adaugă o tijă de conectare între rotor și arborele de antrenare, permițând presiuni de refulare mai mari și o durată de viață extinsă a garniturii mecanice, prin izolarea acesteia de mișcarea excentrică a rotorului. Toate seriile pot fi echipate cu tehnologia proprie Smart Conveying Technology (SCT), care permite ajustarea sau înlocuirea statorului uzat direct pe conductă, fără demontarea completă a pompei sau deconectarea conductelor de aspirație și refulare.
+Gama BN acoperă pompele bloc standard, cu rotor și stator montate direct pe un cadru compact, pentru aplicații generale industriale și de epurare a apelor uzate. Seria BT este pompa cu pâlnie deschisă, destinată materialelor foarte vâscoase. Anumite serii pot fi echipate cu tehnologia proprie Smart Conveying Technology (SCT), care permite ajustarea sau înlocuirea statorului uzat direct pe conductă, fără demontarea completă a pompei sau deconectarea conductelor de aspirație și refulare.
 
 Materialele rotorului și statorului variază de la oțel inoxidabil pentru rotor cu elastomeri precum NBR, EPDM sau FKM pentru stator, aleși în funcție de compatibilitatea chimică și de temperatura fluidului vehiculat, până la execuții complet metalice pentru fluide abrazive sau la temperaturi ridicate unde elastomerii nu ar rezista. Debitele acoperă de la câțiva litri pe oră, pentru dozare de precizie, până la câteva sute de metri cubi pe oră pentru transportul de nămoluri în stații de epurare mari. Pompele SEEPEX se regăsesc în stații de epurare, industria alimentară, farmaceutică, cosmetică, industria hârtiei și procese chimice unde debitul constant, indiferent de presiunea din sistem, este esențial pentru calitatea procesului.`,
     whyChoose: [
@@ -1482,12 +1482,12 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
         description: "Seria BN este pompa cu șurub excentric standard SEEPEX, cu rotor și stator montate direct pe un cadru bloc compact, fără componente intermediare suplimentare între motor și elementele de pompare. Este soluția implicită pentru transportul de nămoluri în stații de epurare, paste industriale și lichide vâscoase cu conținut moderat de solide, la debite de la câțiva litri pe oră până la câteva zeci de metri cubi pe oră. Materialele rotorului și statorului se aleg în funcție de fluidul vehiculat — oțel inoxidabil cu elastomeri NBR sau EPDM pentru aplicații generale, sau FKM pentru compatibilitate chimică extinsă. Construcția compactă reduce spațiul de montaj necesar și simplifică integrarea în instalații existente."
       },
       {
-        name: "Pompe cu Tijă de Conectare Seria BT",
-        description: "Seria BT introduce o tijă de conectare între rotorul excentric și arborele de antrenare, izolând garnitura mecanică de mișcarea complexă a rotorului și permițând astfel presiuni de refulare mai mari și o durată de viață extinsă a etanșării. Este alegerea potrivită pentru aplicații cu presiuni mai ridicate decât poate gestiona o pompă bloc standard, cum ar fi transportul de nămoluri deshidratate mecanic sau paste cu vâscozitate mare pe distanțe mai lungi. Debitele acoperă o gamă similară cu seria BN, dar la presiuni de refulare superioare, cu opțiuni de material identice pentru compatibilitate cu majoritatea fluidelor industriale întâlnite în epurare și procesare."
+        name: "Pompe cu Pâlnie Deschisă Seria BT",
+        description: "Seria BT este pompa cu pâlnie deschisă (open hopper) pentru materiale foarte vâscoase; variantele (de exemplu BTM, cu sistem de tocare integrat) și materialele se confirmă pe cod, din documentația SEEPEX."
       },
       {
         name: "Tehnologia Smart Conveying Technology (SCT)",
-        description: "SCT este soluția proprie SEEPEX pentru mentenanța rapidă a pompelor cu șurub excentric — un sistem care permite ajustarea jocului dintre rotor și stator, sau înlocuirea completă a statorului uzat, fără deconectarea conductelor de aspirație și refulare și fără scoaterea pompei din poziția montată. Reduce drastic timpul de oprire pentru mentenanță, de la ore la minute în multe cazuri, un avantaj important pentru stații de epurare sau linii de producție care nu își permit opriri lungi. Este disponibilă pe majoritatea seriilor SEEPEX și reprezintă un argument important pentru operatorii care evaluează costul total de proprietate al unei pompe cu șurub excentric, nu doar prețul de achiziție."
+        description: "SCT este soluția proprie SEEPEX pentru mentenanța rapidă a pompelor cu șurub excentric — un sistem care permite ajustarea jocului dintre rotor și stator, sau înlocuirea completă a statorului uzat, fără deconectarea conductelor de aspirație și refulare și fără scoaterea pompei din poziția montată. Conform producătorului, înlocuirea rotorului și statorului este accelerată cu până la 85%, un avantaj important pentru stații de epurare sau linii de producție care nu își permit opriri lungi. Este disponibilă pe majoritatea seriilor SEEPEX și reprezintă un argument important pentru operatorii care evaluează costul total de proprietate al unei pompe cu șurub excentric, nu doar prețul de achiziție."
       },
       {
         name: "Pompe Igienice pentru Industria Alimentară și Farmaceutică",
@@ -1496,7 +1496,7 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     ],
     industries: [
       "Epurarea apelor uzate — transport de nămoluri primare, secundare și deshidratate mecanic",
-      "Industria alimentară și a băuturilor — Seepex: transport de produse vâscoase sau cu bucăți solide",
+      "Industria alimentară și a băuturilor — transport de produse vâscoase sau cu bucăți solide (Seepex)",
       "Industria farmaceutică și cosmetică — dozare și transport de paste și geluri",
       "Industria chimică — transport de adezivi, vopsele și paste industriale",
       "Industria hârtiei și celulozei — transport de pastă de hârtie și nămoluri de proces",
@@ -1506,9 +1506,9 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
       "ISO 9001 — management al calității pentru proiectarea și producția pompelor cu șurub excentric",
       "CE — marcaj de conformitate pentru pompele cu șurub excentric vândute în Uniunea Europeană",
       "ATEX — execuții de pompă cu șurub excentric disponibile pentru zone cu risc de explozie",
-      "EHEDG / FDA — rotor, stator și elastomeri certificați pentru contact alimentar pe execuțiile igienice"
+      "3-A Sanitary Standards — certificare menționată de producător; conformitatea execuțiilor igienice (EHEDG, FDA) se confirmă pe cod"
     ],
-    infinitrade: "Organizăm aprovizionarea cu pompe cu șurub excentric SEEPEX — seriile bloc BN, seriile cu tijă de conectare BT și variantele igienice pentru industria alimentară — pentru stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de disponibilitate pe fiecare material de rotor și stator și verificăm opțiunile în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne fluidul vehiculat, debitul necesar și presiunea de refulare cerută de instalație. Piesele de uzură pentru modelele uzuale — statoare, rotoare, garnituri — ajung de regulă în 24–72 h, iar pompele complete sau configurațiile speciale, în 1–4 săptămâni la comandă.",
+    infinitrade: "Organizăm aprovizionarea cu pompe cu șurub excentric SEEPEX — seriile bloc BN, seriile cu pâlnie deschisă BT și variantele igienice pentru industria alimentară — pentru stații de epurare și procese chimice din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de disponibilitate pe fiecare material de rotor și stator și verificăm opțiunile în informațiile publice disponibile ale producătorului. Pentru selecția corectă, trimiteți-ne fluidul vehiculat, debitul necesar și presiunea de refulare cerută de instalație. Piesele de uzură pentru modelele uzuale — statoare, rotoare, garnituri — ajung de regulă în 24–72 h, iar pompele complete sau configurațiile speciale, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma retrofit-ul tehnologiei Smart Conveying Technology pe pompe foarte vechi fără verificarea directă a modelului existent de către producător.",
     sources: [
       {"title":"SEEPEX - Products","url":"https://www.seepex.com/en/products/","publisher":"SEEPEX GmbH","accessed":"2026-09-26"},
@@ -1554,7 +1554,7 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
       },
       {
         "code": "Seria T",
-        "description": "Pompă cu pâlnie deschisă, pentru descărcarea nămolului"
+        "description": "Pompă cu pâlnie deschisă; seriile din această familie (BT, BTM) se confirmă pe cod"
       },
       {
         "code": "BT",
@@ -1592,8 +1592,8 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
       }
     ],
     evidenceClass: "zero-evidence",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Seepex în sursele citate." }
     ]
   },
@@ -1603,18 +1603,18 @@ Materialele rotorului și statorului variază de la oțel inoxidabil pentru roto
     founded: 1907,
     headquarters: "Frankfurt am Main, Germania",
     employees: "4.000+ angajați la nivel global (grup SAMSON)",
-    overview: `SAMSON este un producător independent important de robineți și regulatoare de reglare, cu sediul la Frankfurt am Main și activitate din 1907. Compania a rămas în proprietate privată de-a lungul a peste un secol și s-a construit ca un furnizor de sistem complet pentru automatizarea proceselor industriale: robineți de reglare, actuatoare, poziționeri și regulatoare auto-acționate, toate proiectate să funcționeze împreună într-un singur ecosistem de control al proceselor.
+    overview: `SAMSON este un producător independent important de robineți și regulatoare de reglare, cu sediul la Frankfurt am Main și activitate din 1907. SAMSON s-a construit ca un furnizor de sistem complet pentru automatizarea proceselor industriale: robineți de reglare, actuatoare, poziționeri și regulatoare auto-acționate, toate proiectate să funcționeze împreună într-un singur ecosistem de control al proceselor.
 
-Robinetul de reglare Tip 3241, cu corp glob, este produsul emblematic al gamei — disponibil în diametre de la DN15 până la DN300, cu presiuni nominale de până la PN40 și materiale de la oțel carbon la oțel inoxidabil și aliaje speciale pentru medii agresive. Actuatoarele pneumatice din seria 240/250 acționează robinetul cu precizie proporțională, iar poziționerul digital Tip 3730 traduce semnalul de comandă într-o poziție exactă a tijei robinetului, cu diagnosticare integrată a stării actuatorului și a robinetului. Gama se completează cu regulatoare auto-acționate din seria 42 pentru presiune și temperatură, care funcționează fără sursă externă de energie.
+Robinetul de reglare Tip 3241, cu corp glob, este produsul emblematic al gamei — disponibil în diametre de la DN15 până la DN300, cu presiuni nominale de până la PN40 și materiale de la oțel carbon la oțel inoxidabil și aliaje speciale pentru medii agresive. Actuatoarele pneumatice cu membrană (de exemplu Tip 3271 și Tip 3277) acționează robinetul cu precizie proporțională, iar poziționerul digital Tip 3730 traduce semnalul de comandă într-o poziție exactă a tijei robinetului, cu diagnosticare integrată a stării actuatorului și a robinetului. Gama se completează cu regulatoare auto-acționate din seria 42 pentru presiune, presiune diferențială și debit, care funcționează fără sursă externă de energie.
 
 SAMSON produce intern practic toate componentele critice ale unui lanț de reglare — corp de robinet, actuator, poziționer și electronică de control — ceea ce elimină problemele de compatibilitate care apar la asamblarea de componente din surse diferite și simplifică diagnosticarea unei probleme de reglare. Materialele acoperă întreaga plajă cerută de industria de proces, de la oțel carbon pentru aplicații generale, la oțel inoxidabil și aliaje pe bază de nichel pentru medii corozive sau la temperaturi extreme. Robinetele și regulatoarele SAMSON se regăsesc în rafinării, centrale electrice, industria chimică și farmaceutică, oriunde reglarea precisă a debitului, presiunii sau temperaturii este critică pentru siguranța și eficiența procesului.`,
     whyChoose: [
       "Sistem complet de reglare — robinet, actuator și poziționer proiectate și fabricate de același producător, fără incompatibilități de integrare",
-      "Robinetul Tip 3241 — soluția de referință pentru reglare de proces, cu peste jumătate de secol de utilizare dovedită în industrie",
+      "Robinetul Tip 3241 — robinet de reglare cu corp glob, DN15–300 și PN10–40, pentru linii de proces",
       "Poziționer digital Tip 3730 — diagnosticare integrată a stării robinetului și actuatorului, util pentru mentenanță predictivă",
       "Regulatoare auto-acționate seria 42 — funcționează fără energie electrică, pentru puncte izolate din instalații de proces",
       "Materiale pentru orice aplicație — de la oțel carbon la aliaje speciale rezistente la coroziune sau temperaturi extreme",
-      "Companie independentă de peste un secol — specializare strictă pe reglare de proces, fără diversificare către alte categorii"
+      "Producător specializat în robinete de reglare, actuatoare, poziționeri și regulatoare, cu activitate din 1907"
     ],
     keyProducts: [
       {
@@ -1622,16 +1622,16 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
         description: "Tipul 3241 este robinetul de reglare de referință SAMSON, cu corp glob și scaun schimbabil, folosit pentru controlul precis al debitului în linii de proces din industria chimică, energetică și petrochimică. Diametrele acoperă DN15 până la DN300, cu presiuni nominale de până la PN40 și caracteristici de curgere alese în funcție de comportamentul dorit al buclei de reglare. Materialele corpului variază de la oțel carbon pentru aplicații generale, la oțel inoxidabil și aliaje speciale precum Hastelloy pentru medii corozive sau la temperaturi ridicate. Construcția modulară permite înlocuirea internelor robinetului fără demontarea completă din conductă, reducând timpul de oprire la revizie sau schimbarea caracteristicii de reglare."
       },
       {
-        name: "Actuatoare Pneumatice Seria 240/250",
-        description: "Actuatoarele pneumatice cu membrană din seria 240/250 acționează robinetele de reglare SAMSON cu răspuns rapid și precis la semnalul de comandă, în construcție cu acțiune directă sau inversă, în funcție de comportamentul de siguranță dorit la pierderea aerului instrumental. Sunt dimensionate direct pentru cuplul necesar fiecărui diametru și fiecărei presiuni diferențiale din gama de robinete Tip 3241, eliminând riscul de subdimensionare. Pot fi echipate cu poziționer digital, limitatoare de cursă, electrovalve pentru acțiune de siguranță și senzori de poziție pentru semnalizare la distanță, acoperind atât aplicații simple de reglare, cât și bucle complexe integrate în sisteme DCS."
+        name: "Actuatoare Pneumatice cu Membrană Tip 3271 și 3277",
+        description: "Actuatoarele pneumatice cu membrană Tip 3271 și Tip 3277 acționează robinetele de reglare SAMSON cu răspuns rapid și precis la semnalul de comandă, în construcție cu acțiune directă sau inversă, în funcție de comportamentul de siguranță dorit la pierderea aerului instrumental. Dimensionarea actuatorului se face în funcție de forța necesară pentru fiecare diametru și presiune diferențială; o confirmăm pe baza datelor de proces transmise. Pot fi echipate cu poziționer digital, limitatoare de cursă, electrovalve pentru acțiune de siguranță și senzori de poziție pentru semnalizare la distanță, acoperind atât aplicații simple de reglare, cât și bucle complexe integrate în sisteme DCS."
       },
       {
         name: "Poziționer Digital Tip 3730",
-        description: "Poziționerul digital Tip 3730 traduce semnalul de comandă analogic sau digital, prin 4-20mA, HART, Profibus PA sau Foundation Fieldbus, într-o poziție exactă a tijei robinetului, cu buclă internă de control care compensează frecarea și histerezisul mecanic al ansamblului robinet-actuator. Oferă diagnosticare integrată a stării robinetului — semnalează uzura scaunului, blocarea tijei sau probleme de etanșare a actuatorului — utilă pentru programe de mentenanță predictivă în instalații critice. Se montează direct pe actuator, cu configurare prin buton local sau software dedicat, și poate comunica parametrii de proces către sistemul de automatizare al fabricii fără cablaj suplimentar de instrumentație."
+        description: "Poziționerul digital Tip 3730 traduce semnalul de comandă analogic sau digital, prin 4-20mA, HART, Profibus PA sau Foundation Fieldbus, într-o poziție exactă a tijei robinetului, cu buclă internă de control care compensează frecarea și histerezisul mecanic al ansamblului robinet-actuator. Oferă diagnosticare integrată a stării ansamblului robinet-actuator, utilă pentru programe de mentenanță predictivă; funcțiile exacte depind de varianta poziționerului și se confirmă din documentația producătorului. Se montează direct pe actuator, cu configurare prin buton local sau software dedicat, și poate comunica parametrii de proces către sistemul de automatizare al fabricii fără cablaj suplimentar de instrumentație."
       },
       {
         name: "Regulatoare Auto-Acționate Seria 42",
-        description: "Regulatoarele din seria 42 controlează presiunea sau temperatura unui proces folosind exclusiv energia fluidului vehiculat, fără alimentare electrică sau aer instrumental, similar principiului constructiv folosit de alți producători specializați în regulatoare auto-acționate. Sunt potrivite pentru puncte de reglare izolate din instalații de proces, stații de gaze tehnice sau rețele de abur, unde alimentarea cu utilități auxiliare ar fi costisitoare sau nepractică. Gama acoperă presiuni de reglare diferite și materiale de la oțel la oțel inoxidabil, în funcție de fluidul vehiculat, oferind o alternativă mecanică simplă și fiabilă acolo unde un sistem electronic complet nu se justifică economic."
+        description: "Regulatoarele din seria 42 controlează presiunea, presiunea diferențială sau debitul unui proces folosind exclusiv energia fluidului vehiculat, fără alimentare electrică sau aer instrumental. Sunt potrivite pentru puncte de reglare izolate din instalații de proces, stații de gaze tehnice sau rețele de abur, unde alimentarea cu utilități auxiliare ar fi costisitoare sau nepractică. Gama acoperă presiuni de reglare diferite și materiale de la oțel la oțel inoxidabil, în funcție de fluidul vehiculat, oferind o alternativă mecanică simplă și fiabilă acolo unde un sistem electronic complet nu se justifică economic."
       }
     ],
     industries: [
@@ -1648,7 +1648,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       "SIL 2/3 — certificare funcțională de siguranță conform IEC 61508 pentru bucle critice",
       "ISO 9001 — management al calității pentru proiectarea și producția robinetelor de reglare și actuatoarelor"
     ],
-    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele seria 240/250, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 1–4 săptămâni la comandă.",
+    infinitrade: "Realizăm aprovizionarea cu robinete de reglare, actuatoare și poziționeri SAMSON — robinetul Tip 3241, actuatoarele pneumatice Tip 3271 și 3277, poziționerul digital Tip 3730 și regulatoarele auto-acționate seria 42 — pentru rafinării și instalații de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu avem acces la stocul intern al fabricii și pornim de la informațiile publice disponibile ale producătorului pentru fiecare caracteristică de reglare. Pentru o specificație corectă, trimiteți-ne datele de proces — presiune diferențială, debit și fluidul vehiculat. Componentele standard ajung de regulă în 24–72 h, iar ansamblurile complete robinet-actuator-poziționer, configurate pentru aplicația specifică, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma configurarea firmware a poziționerelor pe protocoale Fieldbus/HART sau documentația de certificare SIL — acestea rămân în sarcina departamentului tehnic al proiectului și al producătorului.",
     sources: [
       {"title":"SAMSON Product Range Product Catalog","url":"https://www.samsongroup.com/document/k00200en.pdf","publisher":"SAMSON AG","accessed":"2026-09-23"},
@@ -1756,8 +1756,8 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Samson în sursele citate." }
     ]
   },
@@ -1766,15 +1766,15 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
     name: "NETZSCH Pumps (NEMO)",
     founded: 1873,
     headquarters: "Waldkraiburg, Germania",
-    overview: `NETZSCH este un grup industrial german fondat în 1873, cu divizia de pompe și sisteme, NETZSCH Pumpen & Systeme, dezvoltată din a doua jumătate a secolului XX la Waldkraiburg. Divizia s-a specializat pe pompe volumetrice pentru fluide dificile — vâscoase, cu conținut de solide, sensibile la forfecare sau abrazive — segmentul unde pompele centrifuge clasice nu oferă un control suficient de precis al debitului sau se uzează prea rapid. Marca proprie NEMO, asociată pompelor cu șurub excentric, a devenit sinonimă în multe industrii cu acest tip de tehnologie de pompare.
+    overview: `NETZSCH este un grup industrial german fondat în 1873, cu divizia de pompe și sisteme, NETZSCH Pumpen & Systeme, dezvoltată din a doua jumătate a secolului XX la Waldkraiburg. Divizia s-a specializat pe pompe volumetrice pentru fluide dificile — vâscoase, cu conținut de solide, sensibile la forfecare sau abrazive — segmentul unde pompele centrifuge clasice nu oferă un control suficient de precis al debitului sau se uzează prea rapid. Marca proprie NEMO denumește pompele cu șurub excentric ale NETZSCH.
 
-Pompele NEMO cu șurub excentric acoperă familii diferite — BY pentru aplicații generale industriale, BF cu funcție de alimentare forțată pentru fluide cu vâscozitate foarte mare sau tendință de a forma poduri în pâlnia de alimentare, și BE pentru aplicații compacte cu spațiu de montaj limitat. Pentru debite mari de solide sau fluide cu particule mari, gama TORNADO de pompe rotative cu lobi oferă un debit constant cu solicitare redusă a produsului, potrivit pentru industria alimentară unde structura produsului nu trebuie deteriorată. Pentru aplicații de dozare de precizie la presiuni mari, gama NOTOS de pompe multi-șurub oferă o alternativă cu pulsații minime de debit.
+Pompele NEMO cu șurub excentric acoperă familii diferite — BY, în construcție bloc, pentru transportul și dozarea diverselor medii industriale, BF cu șnec de alimentare pentru fluide cu vâscozitate foarte mare sau tendință de a forma poduri în pâlnia de alimentare, și SY, cu construcție pe lagăr, pentru presiuni de refulare de până la 72 bar. Pentru debite mari de solide sau fluide cu particule mari, gama TORNADO de pompe rotative cu lobi oferă un debit constant cu solicitare redusă a produsului, potrivit pentru industria alimentară unde structura produsului nu trebuie deteriorată. Gama NOTOS cuprinde pompe multi-șurub; datele tehnice se confirmă pe cod, din documentația NETZSCH.
 
 Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la execuții complet metalice fără elastomeri pentru fluide fierbinți sau incompatibile chimic cu cauciucul. Construcția modulară a pompelor NEMO permite recondiționarea rapidă prin înlocuirea statorului și rotorului, fără achiziția unei pompe complet noi. Pompele NETZSCH se regăsesc în epurarea apelor uzate, industria alimentară și a băuturilor, industria chimică, cosmetică și farmaceutică, oriunde transportul controlat al unui fluid dificil este o cerință critică de proces, nu doar o preferință de operare.`,
     whyChoose: [
-      "Gama NEMO cu șurub excentric — familii diferite (BY, BF, BE) pentru aproape orice combinație de vâscozitate și mod de alimentare",
+      "Gama NEMO cu șurub excentric — familii diferite (BY, BF, SY) pentru diverse combinații de vâscozitate și mod de alimentare",
       "Gama TORNADO cu lobi — debit constant cu solicitare redusă a produsului, potrivit pentru industria alimentară",
-      "Gama NOTOS multi-șurub — pulsații minime de debit pentru dozare de precizie la presiuni ridicate",
+      "Gama NOTOS multi-șurub — caracteristicile se confirmă pe cod, din documentația NETZSCH",
       "Construcție modulară — recondiționare rapidă prin înlocuirea statorului și rotorului, fără pompă nouă completă",
       "Materiale pentru fluide dificile — execuții complet metalice pentru medii fierbinți sau incompatibile cu elastomerii",
       "Grup industrial cu tradiție de peste 150 de ani și specializare dedicată pe fluide vâscoase și cu solide"
@@ -1786,7 +1786,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       },
       {
         name: "Pompe cu Alimentare Forțată NEMO Seria BF",
-        description: "Seria BF adaugă un șnec de alimentare forțată deasupra rotorului principal, rezolvând problema fluidelor cu vâscozitate foarte mare sau cu tendință de a forma poduri în pâlnia de alimentare, care ar bloca o pompă cu șurub excentric standard. Este folosită frecvent pentru transportul de nămoluri deshidratate mecanic, cu conținut de solide de peste 20-30%, unde o pompă convențională nu ar reuși să mențină alimentarea constantă a camerei de pompare. Șnecul de alimentare poate fi acționat separat de rotorul principal, permițând optimizarea vitezei fiecărei componente în funcție de caracteristicile fluidului vehiculat."
+        description: "Seria BF adaugă un șnec de alimentare forțată deasupra rotorului principal, rezolvând problema fluidelor cu vâscozitate foarte mare sau cu tendință de a forma poduri în pâlnia de alimentare, care ar bloca o pompă cu șurub excentric standard. Este folosită pentru medii foarte vâscoase, unde o pompă convențională nu ar reuși să mențină alimentarea constantă a camerei de pompare."
       },
       {
         name: "Pompe Rotative cu Lobi TORNADO",
@@ -1794,7 +1794,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       },
       {
         name: "Pompe Multi-Șurub NOTOS",
-        description: "Pompele multi-șurub din gama NOTOS folosesc două sau trei șuruburi angrenate care transportă fluidul axial, cu pulsații de debit minime și capacitate de a gestiona simultan faze lichide și gazoase în același fluid, o situație frecventă la transferul de produse petroliere brute sau la pomparea unor amestecuri cu conținut variabil de gaz dizolvat. Sunt potrivite pentru presiuni de refulare ridicate și pentru aplicații unde constanța debitului, fără fluctuații, este o cerință critică de proces. Materialele și toleranțele interne se adaptează la vâscozitatea și lubrifiantatea fluidului vehiculat, de la produse petroliere până la lichide industriale sintetice."
+        description: "Pompele multi-șurub din gama NOTOS transportă fluidul prin șuruburi angrenate; presiunea, debitul și fluidele admise se confirmă pe cod, din documentația NETZSCH. Materialele și toleranțele interne se adaptează la vâscozitatea și lubrifiantatea fluidului vehiculat, de la produse petroliere până la lichide industriale sintetice."
       }
     ],
     industries: [
@@ -1911,8 +1911,8 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       }
     ],
     evidenceClass: "history-only",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Netzsch în sursele citate." }
     ]
   },
@@ -1921,24 +1921,24 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
     name: "Aerzener Maschinenfabrik (Aerzen)",
     founded: 1864,
     headquarters: "Aerzen, Germania",
-    employees: "2.700+ angajați la nivel global",
-    overview: `Aerzener Maschinenfabrik, cunoscută pe scurt ca Aerzen, este cel mai vechi producător de suflante Roots și compresoare cu șurub din lume, cu activitate neîntreruptă din 1864 în orășelul Aerzen din Germania. Compania a inventat practic categoria de suflante rotative cu lobi pentru aplicații industriale și și-a extins în ultimele decenii gama și către compresoare cu șurub și suflante turbo de mare eficiență.
+    employees: "aproximativ 2.500 angajați la nivel global",
+    overview: `Aerzener Maschinenfabrik, cunoscută pe scurt ca Aerzen, este un producător german de suflante Roots, compresoare cu șurub și suflante turbo, cu activitate din 1864 în localitatea Aerzen din Germania. Conform propriei prezentări, compania a avut contribuții pionierești în tehnologia suflantelor și compresoarelor și și-a extins în ultimele decenii gama și către compresoare cu șurub și suflante turbo de mare eficiență.
 
-Gama Delta Blower acoperă suflantele Roots clasice, cu doi sau trei lobi, folosite pentru aerarea biologică a stațiilor de epurare și transportul pneumatic de materiale granulare, cu presiuni de refulare de până la aproximativ 1.500 mbar. Delta Hybrid combină profilul de rotor al unei suflante Roots cu un grad de compresie internă specific compresoarelor cu șurub, obținând o eficiență energetică semnificativ mai bună la aceeași presiune, ceea ce reduce facturile de curent electric pe termen lung. Delta Screw este gama de compresoare cu șurub propriu-zise, pentru presiuni mai mari, iar Delta Turbo acoperă suflante turbo de mare capacitate, cu rulment magnetic fără ulei, pentru cele mai mari stații de epurare și aplicații industriale de amploare.
+Gama Delta Blower acoperă suflantele Roots clasice, cu trei lobi, folosite pentru aerarea biologică a stațiilor de epurare și transportul pneumatic de materiale granulare, cu presiune diferențială de până la 1.000 mbar. Delta Hybrid combină profilul de rotor al unei suflante Roots cu un grad de compresie internă specific compresoarelor cu șurub, obținând o eficiență energetică semnificativ mai bună la aceeași presiune, ceea ce reduce facturile de curent electric pe termen lung. Delta Screw este gama de compresoare cu șurub propriu-zise, pentru presiuni mai mari, iar Delta Turbo acoperă suflante turbo de mare capacitate, cu lagăre cu aer (air bearings), fără ulei, pentru stații de epurare mari și aplicații industriale de amploare.
 
-Această gamă completă — de la suflanta Roots simplă și robustă, până la turbosuflanta de înaltă eficiență cu rulment magnetic — permite alegerea tehnologiei optime pentru fiecare aplicație, în loc să se forțeze o singură soluție pe toate cazurile de utilizare. Materialele și execuțiile acoperă variante standard din fontă și oțel, precum și opțiuni pentru medii speciale sau zone cu risc de explozie. Echipamentele Aerzen se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic, industria petrochimică și aplicații industriale unde aerul sau gazul de proces trebuie comprimat fiabil, non-stop, ani la rând.`,
+Această gamă completă — de la suflanta Roots simplă și robustă, până la turbosuflanta de înaltă eficiență cu lagăre cu aer — permite alegerea tehnologiei optime pentru fiecare aplicație, în loc să se forțeze o singură soluție pe toate cazurile de utilizare. Materialele și execuțiile acoperă variante standard din fontă și oțel, precum și opțiuni pentru medii speciale sau zone cu risc de explozie. Echipamentele Aerzen se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic, industria petrochimică și aplicații industriale unde aerul sau gazul de proces trebuie comprimat fiabil, non-stop, ani la rând.`,
     whyChoose: [
-      "Inventatorul suflantei Roots industriale — peste 160 de ani de specializare exclusivă pe compresoare și suflante rotative",
+      "Peste 160 de ani de activitate în construcția de suflante și compresoare",
       "Gamă tehnologică completă — Delta Blower, Delta Hybrid, Delta Screw și Delta Turbo, pentru orice cerință de presiune și eficiență",
       "Eficiență energetică superioară — Delta Hybrid și Delta Turbo reduc semnificativ consumul față de o suflantă Roots clasică la aceeași presiune",
       "Fiabilitate dovedită în funcționare continuă — echipamente proiectate pentru regim non-stop în stații de epurare și industrie grea",
-      "Rulment magnetic pe gama Turbo — funcționare fără ulei și fără contact mecanic, cu mentenanță redusă drastic",
+      "Lagăre cu aer pe gama Turbo — funcționare fără ulei, cu lagăre fără contact",
       "Suport tehnic pentru alegerea tehnologiei potrivite — Roots, hibrid, șurub sau turbo, în funcție de profilul real de sarcină al aplicației"
     ],
     keyProducts: [
       {
         name: "Suflante Roots Delta Blower",
-        description: "Delta Blower este gama clasică de suflante Roots Aerzen, cu doi sau trei lobi rotativi fără contact între ei, folosită de peste un secol pentru aerarea biologică a bazinelor din stații de epurare și pentru transportul pneumatic al materialelor granulare în industrie. Presiunile de refulare acoperă până la aproximativ 1.500 mbar, cu debite adaptate la dimensiunea bazinului sau instalației deservite. Construcția robustă, cu puține componente de uzură, asigură funcționare fiabilă pe perioade lungi cu mentenanță minimă — verificarea periodică a curelelor de transmisie, a rulmenților și a uleiului din carter. Este o soluție cu raport avantajos între preț și fiabilitate pentru aplicații unde eficiența energetică maximă nu este criteriul decisiv."
+        description: "Delta Blower este gama clasică de suflante Roots Aerzen, cu trei lobi rotativi fără contact între ei, folosită de peste un secol pentru aerarea biologică a bazinelor din stații de epurare și pentru transportul pneumatic al materialelor granulare în industrie. Presiunea diferențială acoperă de la -500 până la 1.000 mbar, cu debite de la 30 la 15.000 m³/h, adaptate la dimensiunea bazinului sau instalației deservite. Construcția robustă, cu puține componente de uzură, asigură funcționare fiabilă pe perioade lungi cu mentenanță minimă — verificarea periodică a curelelor de transmisie, a rulmenților și a uleiului din carter. Este o soluție cu raport avantajos între preț și fiabilitate pentru aplicații unde eficiența energetică maximă nu este criteriul decisiv."
       },
       {
         name: "Suflante Hibride Delta Hybrid",
@@ -1950,7 +1950,7 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
       },
       {
         name: "Suflante Turbo Delta Turbo",
-        description: "Delta Turbo este gama de suflante turbo de mare capacitate Aerzen, cu rotor susținut pe rulmenți magnetici, fără contact mecanic și fără ulei de ungere, ceea ce reduce mentenanța periodică a rulmenților și oferă eficiență energetică ridicată la sarcini parțiale variabile, conform producătorului. Este destinată stațiilor de epurare mari și aplicațiilor industriale unde debitele mari de aer trebuie livrate cu un consum energetic redus pe metru cub. Electronica de control ajustează turația în funcție de necesarul real de aer al procesului, optimizând automat punctul de funcționare pentru o eficiență ridicată."
+        description: "Delta Turbo este gama de suflante turbo de mare capacitate Aerzen, cu rotor susținut pe lagăre cu aer (air bearings), fără ulei de ungere, ceea ce oferă, conform producătorului, eficiență energetică ridicată. Este destinată stațiilor de epurare mari și aplicațiilor industriale unde debitele mari de aer trebuie livrate cu un consum energetic redus pe metru cub. Electronica de control ajustează turația în funcție de necesarul real de aer al procesului, optimizând automat punctul de funcționare pentru o eficiență ridicată."
       }
     ],
     industries: [
@@ -1968,7 +1968,7 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
       "ISO 14001 — management de mediu pentru fabricile de suflante și compresoare"
     ],
     infinitrade: "Asistăm proiectele industriale din România cu suflante și compresoare Aerzen — suflante Roots Delta Blower, variantele hibride Delta Hybrid, compresoare cu șurub Delta Screw și suflante turbo Delta Turbo — comandate prin canale de aprovizionare din Uniunea Europeană. Nu avem cifre proprii despre stocul fabricii pentru fiecare tehnologie și alegem soluția potrivită pornind de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne presiunea, debitul de aer necesar și profilul de sarcină al aplicației. Piesele de uzură și componentele de mentenanță pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau configurațiile speciale, în 1–4 săptămâni la comandă.",
-    limitation: "Nu putem confirma configurarea electronicii de control a rulmenților magnetici de pe gama Delta Turbo fără intervenția tehnicienilor Aerzen.",
+    limitation: "Nu putem confirma configurarea electronicii de control a suflantelor Delta Turbo fără intervenția tehnicienilor Aerzen.",
     sources: [
       {"title":"Rotary Lobe Compressors Delta Hybrid","url":"https://www.aerzen.com/product/screw-blowers-delta-hybrid","publisher":"Aerzener Maschinenfabrik (Aerzen)","accessed":"2026-09-23"},
       { title: "Blowers, Compressors & Turbos – Made by AERZEN", url: "https://www.aerzen.com", publisher: "Aerzener Maschinenfabrik GmbH", accessed: "2026-09-22" },
@@ -2071,41 +2071,41 @@ Această gamă completă — de la suflanta Roots simplă și robustă, până l
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Aerzen în sursele citate." }
     ]
   },
 
   robuschi: {
     name: "Robuschi",
-    founded: 1901,
+    founded: 1941,
     headquarters: "Parma, Italia",
-    overview: `Robuschi este un producător italian de suflante și compresoare, cu sediul la Parma și activitate din 1901, azi parte a grupului american Ingersoll Rand, alături de alte branduri consacrate din industria de compresoare și vid. Compania s-a specializat pe suflante rotative cu lobi (Roots) și, mai recent, pe compresoare cu șurub sub brandul propriu Robox, acoperind aplicații industriale unde aerul sau gazul de proces trebuie comprimat continuu, la debite mari și cu fiabilitate dovedită în timp.
+    overview: `Robuschi este un producător italian de suflante și compresoare, cu sediul la Parma și activitate din 1941, azi parte a grupului american Ingersoll Rand, alături de alte branduri consacrate din industria de compresoare și vid. Compania s-a specializat pe suflante rotative cu lobi (Roots) și, mai recent, pe compresoare cu șurub sub brandul propriu Robox, acoperind aplicații industriale unde aerul sau gazul de proces trebuie comprimat continuu, la debite mari și cu fiabilitate dovedită în timp.
 
-Suflantele Roots din seria RBS acoperă construcția clasică cu trei lobi, pentru aerarea biologică a bazinelor din stații de epurare și transport pneumatic industrial, cu presiuni de refulare adaptate necesarului fiecărei aplicații. Gama Robox extinde portofoliul către compresoare cu șurub, cu eficiență energetică superioară față de o suflantă Roots la presiuni mai mari, disponibile în execuție cu sau fără ulei de ungere, în funcție de cerințele de puritate ale aerului comprimat. Pentru aplicații de vid industrial, seria RVS de pompe de vid rotative completează gama, acoperind necesarul de vid al proceselor de ambalare, filtrare sau manipulare.
+Suflantele Roots din seria RBS acoperă construcția clasică cu trei lobi, pentru aerarea biologică a bazinelor din stații de epurare și transport pneumatic industrial, cu presiuni de refulare adaptate necesarului fiecărei aplicații. Gama Robox extinde portofoliul către compresoare cu șurub, cu eficiență energetică superioară față de o suflantă Roots la presiuni mai mari, disponibile în execuție fără ulei (Robox Screw este un compresor cu șurub fără ulei, clasa 0 conform ISO 8573-1, potrivit producătorului). Pentru aplicații de vid industrial, seria RVS de pompe de vid cu inel lichid completează gama pentru aplicații industriale care necesită vid.
 
-Materialele și execuțiile constructive urmează standardele consacrate ale industriei italiene de compresoare — carcase din fontă pentru rezistență mecanică, rotoare tratate termic pentru durabilitate la funcționare continuă, și opțiuni de insonorizare pentru instalarea în medii sensibile la zgomot. Fiind parte din Ingersoll Rand, Robuschi beneficiază de acces la o rețea globală de distribuție și service, păstrând în același timp producția și inginerimea la Parma. Echipamentele Robuschi se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic de materiale granulare și aplicații industriale de vid din întreaga lume.`,
+Carcasele standard sunt din fontă, cu variante din oțel inoxidabil (RBS INOX) și opțiuni de acoperire, iar pachetele CRBS/GRBS includ amortizoare de zgomot la aspirație și la refulare, potrivit producătorului. Fiind parte din Ingersoll Rand, Robuschi beneficiază de acces la o rețea globală de distribuție și service, păstrând în același timp producția și inginerimea la Parma. Echipamentele Robuschi se regăsesc în stații de epurare a apelor uzate, industria cimentului, transport pneumatic de materiale granulare și aplicații industriale de vid din întreaga lume.`,
     whyChoose: [
-      "Peste 120 de ani de experiență italiană în suflante și compresoare rotative",
-      "Gamă completă — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid RVS, pentru orice tip de aplicație",
+      "Peste 80 de ani de experiență italiană, din 1941, în suflante, compresoare și pompe de vid",
+      "Gamă variată — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid RVS, pentru aplicații industriale diverse",
       "Susținere prin Ingersoll Rand — acces la o rețea globală de distribuție și service printr-un grup american de anvergură",
       "Compresoare Robox fără ulei disponibile — pentru aplicații unde puritatea aerului comprimat este o cerință critică",
-      "Construcție robustă pentru funcționare continuă — carcase din fontă și rotoare tratate termic pentru durabilitate în regim non-stop",
+      "Construcție cu carcasă din fontă, cu variante din oțel inoxidabil (RBS INOX) pentru medii mai agresive",
       "Opțiuni de insonorizare — pachete complete pentru instalarea în medii sensibile la zgomot"
     ],
     keyProducts: [
       {
         name: "Suflante Roots Seria RBS",
-        description: "Seria RBS este suflanta Roots clasică Robuschi, cu trei lobi rotativi fără contact între ei, folosită pentru aerarea biologică a bazinelor din stații de epurare și pentru transportul pneumatic al materialelor granulare în industrie. Construcția cu carcasă din fontă și rotoare tratate termic asigură o durată de viață extinsă chiar și în regim de funcționare continuu, non-stop, tipic stațiilor de epurare municipale. Debitele și presiunile se adaptează la dimensiunea instalației deservite, cu opțiuni de acționare directă sau prin curea, în funcție de turația optimă necesară aplicației. Mentenanța se rezumă la verificarea periodică a curelelor, rulmenților și nivelului de ulei din carter."
+        description: "Seria RBS este suflanta Roots clasică Robuschi, cu trei lobi rotativi fără contact între ei, folosită pentru aerarea biologică a bazinelor din stații de epurare și pentru transportul pneumatic al materialelor granulare în industrie. Carcasa este din fontă, cu variante din oțel inoxidabil, iar rulmenții au o durată nominală de 20.000 de ore, potrivit producătorului. Debitele și presiunile se adaptează la dimensiunea instalației deservite, cu opțiuni de acționare directă sau prin curea, în funcție de turația optimă necesară aplicației. Mentenanța se rezumă la verificarea periodică a curelelor, rulmenților și nivelului de ulei din carter."
       },
       {
         name: "Compresoare cu Șurub Robox",
-        description: "Gama Robox acoperă compresoare cu șurub pentru presiuni mai mari decât poate oferi o suflantă Roots, cu eficiență energetică superioară datorită compresiei interne controlate prin profilul rotoarelor elicoidale angrenate. Disponibile în execuție cu injecție de ulei, pentru aplicații industriale generale, sau fără ulei, pentru aplicații unde contaminarea aerului comprimat cu urme de ulei nu este acceptabilă, precum industria alimentară sau farmaceutică. Sunt folosite pentru transport pneumatic pe distanțe lungi, aerare la adâncimi mari de bazin și alte aplicații care necesită presiune ridicată și debit constant, cu un consum energetic optimizat față de tehnologiile Roots convenționale."
+        description: "Gama Robox acoperă compresoare cu șurub pentru presiuni mai mari decât poate oferi o suflantă Roots, cu eficiență energetică superioară datorită compresiei interne controlate prin profilul rotoarelor elicoidale angrenate. Execuție fără ulei, potrivită pentru aplicații unde contaminarea aerului comprimat cu urme de ulei nu este acceptabilă, precum industria alimentară sau farmaceutică. Sunt folosite pentru transport pneumatic pe distanțe lungi, aerare la adâncimi mari de bazin și alte aplicații care necesită presiune ridicată și debit constant, cu un consum energetic optimizat față de tehnologiile Roots convenționale."
       },
       {
-        name: "Pompe de Vid Rotative Seria RVS",
-        description: "Seria RVS de pompe de vid rotative completează gama Robuschi pentru aplicații industriale unde este necesar vid, nu presiune pozitivă — sisteme de ambalare cu vid, manipulare de materiale prin ventuze, filtrare industrială sau procese de uscare sub vid. Construcția rotativă, similară principiului suflantei Roots dar adaptată pentru funcționare în regim de vid, oferă debite mari de aspirație cu fiabilitate dovedită în aplicații industriale continue. Sunt disponibile în game diferite de capacitate, adaptate atât pentru instalații mici de ambalare, cât și pentru sisteme centralizate de vid care deservesc mai multe puncte de consum simultan."
+        name: "Pompe de Vid cu Inel Lichid Seria RVS",
+        description: "Seria RVS de pompe de vid cu inel lichid completează gama Robuschi pentru aplicații industriale unde este necesar vid, nu presiune pozitivă, cu compresie aproape izotermă a gazelor. Gama RVS 7–RVS 60 atinge, potrivit producătorului, un vid de până la 33 mbar (a) la capacități între 400 și 4.200 m³/h, fără lubrifiant în contact cu gazul pompat. "
       },
       {
         name: "Pachete Complete Insonorizate cu Automatizare",
@@ -2115,17 +2115,17 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
     industries: [
       "Epurarea apelor uzate — aerare biologică a bazinelor din stații municipale și industriale",
       "Industria cimentului — transport pneumatic de pulberi și materiale granulare",
-      "Ambalare industrială — Robuschi: sisteme de vid pentru manipulare și fixare produse",
+      "Ambalare industrială — sisteme de vid pentru manipulare și fixare produse (Robuschi)",
       "Industria alimentară — compresoare fără ulei pentru aer comprimat curat",
       "Industria chimică și petrochimică — compresoare pentru gaze de proces",
-      "Transport pneumatic — Robuschi: vehicularea materialelor granulare pe distanțe lungi"
+      "Transport pneumatic — vehicularea materialelor granulare pe distanțe lungi (Robuschi)"
     ],
     certifications: [
       "ISO 9001 — management al calității pentru proiectarea și producția suflantelor Roots și a compresoarelor cu șurub",
       "CE — marcaj de conformitate pentru suflantele și compresoarele Robuschi vândute în Uniunea Europeană",
-      "ATEX — execuții ale suflantelor Roots și compresoarelor Robox disponibile pentru zone cu risc de explozie"
+      "ATEX — la Robuschi, disponibilitatea execuțiilor pentru zone cu risc de explozie se confirmă pe cod, din documentația producătorului"
     ],
-    infinitrade: "Susținem proiectele din România cu suflante, compresoare și pompe de vid Robuschi — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid rotative RVS — aduse prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare execuție și verificăm cerințele de puritate a aerului în informațiile publice disponibile ale producătorului, parte a grupului Ingersoll Rand. Pentru o ofertă corectă, trimiteți-ne presiunea, vidul sau debitul necesar aplicației. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau pachetele insonorizate cu automatizare integrată, în 1–4 săptămâni la comandă.",
+    infinitrade: "Susținem proiectele din România cu suflante, compresoare și pompe de vid Robuschi — suflante Roots seria RBS, compresoare cu șurub Robox și pompe de vid cu inel lichid RVS — aduse prin canale de aprovizionare din Uniunea Europeană. Nu deținem un istoric propriu de stoc pe fiecare execuție și verificăm cerințele de puritate a aerului în informațiile publice disponibile ale producătorului, parte a grupului Ingersoll Rand. Pentru o ofertă corectă, trimiteți-ne presiunea, vidul sau debitul necesar aplicației. Piesele de uzură pentru modelele uzuale ajung de regulă în 24–72 h, iar echipamentele complete sau pachetele insonorizate cu automatizare integrată, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma service sub garanția Ingersoll Rand/Robuschi și nici o disponibilitate constantă pe toate execuțiile Robox fără ulei — acestea rămân la latitudinea rețelei producătorului.",
     sources: [
       {"title":"Robuschi - Products","url":"https://www.robuschi.com/en/products/","publisher":"Robuschi S.p.A.","accessed":"2026-09-26"},
@@ -2205,32 +2205,32 @@ Materialele și execuțiile constructive urmează standardele consacrate ale ind
       },
       {
         "q": "Ce este Robox Connect 2.0 la suflantele Robuschi?",
-        "a": "Este un sistem digital de control și monitorizare montat pe unitățile din gama Robox, care urmărește parametrii de funcționare și poate semnala abateri înainte ca acestea să devină opriri neplanificate. Se adresează în special instalațiilor unde o suflantă oprită afectează direct un flux de producție continuu și costisitor."
+        "a": "Este un sistem digital de control și monitorizare montat pe unitățile din gama Robox, care urmărește parametrii de funcționare și permite monitorizarea în timp real a funcționării. Se adresează în special instalațiilor unde o suflantă oprită afectează direct un flux de producție continuu și costisitor."
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
 
   kelvion: {
     name: "Kelvion",
-    founded: 2015,
-    headquarters: "Bochum, Germania",
-    overview: `Kelvion este un producător german de schimbătoare de căldură industriale, cu sediul la Bochum, rezultat în 2015 din desprinderea diviziei de schimbătoare de căldură a grupului GEA, cu rădăcini de fabricație care se întind pe mai bine de un secol în spatele brandului actual. Moștenirea tehnică preluată de la GEA acoperă practic toate tipurile de schimbătoare de căldură industriale — cu plăci, tubulare, cu aer și evaporative — ceea ce face din Kelvion unul dintre puținii furnizori capabili să acopere un proiect complet de răcire industrială dintr-un singur portofoliu.
+    
+    headquarters: "Herne, Germania",
+    overview: `Kelvion este un producător german de schimbătoare de căldură industriale, cu sediul la Herne, provenit din divizia de schimbătoare de căldură a grupului GEA. Moștenirea tehnică preluată de la GEA acoperă practic toate tipurile de schimbătoare de căldură industriale — cu plăci, tubulare, cu aer și evaporative — ceea ce face din Kelvion unul dintre puținii furnizori capabili să acopere un proiect complet de răcire industrială dintr-un singur portofoliu.
 
 Schimbătoarele cu plăci și garnituri, din seriile moștenite de la GEA, folosesc plăci ondulate din oțel inoxidabil sau titan, strânse între ele cu garnituri elastomerice, pentru transfer termic eficient între două fluide fără amestecarea lor — soluția de referință pentru pasteurizare, răcire de proces și recuperare de căldură unde accesul pentru curățare periodică este important. Schimbătoarele tubulare rezolvă aplicațiile cu presiuni și temperaturi mai ridicate decât pot gestiona plăcile cu garnituri, fiind construite din fascicule de țevi montate într-o carcasă cilindrică. Pentru răcirea cu aer, gama de aerotermice și baterii cu țevi cu aripioare elimină nevoia de apă de răcire, o soluție tot mai căutată în zone cu resurse de apă limitate.
 
-Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii corozive sau cu cerințe stricte de igienă, iar dimensionarea se face pe baza datelor termice specifice fiecărei aplicații — debite, temperaturi de intrare/ieșire, pierderea de presiune admisă. Rețeaua de producție moștenită de la GEA, cu fabrici în mai multe țări europene, susține atât proiecte noi, cât și piese de schimb pentru schimbătoare instalate cu zeci de ani în urmă. Schimbătoarele Kelvion se regăsesc în industria energetică, chimică, alimentară, marină și HVAC industrial, oriunde transferul eficient de căldură între două fluide este o cerință de proces.`,
+Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii corozive sau cu cerințe stricte de igienă, iar dimensionarea se face pe baza datelor termice specifice fiecărei aplicații — debite, temperaturi de intrare/ieșire, pierderea de presiune admisă. Kelvion are o rețea globală de vânzări, service și producție, cu 48 de locații în 24 de țări, potrivit site-ului oficial. Schimbătoarele Kelvion se regăsesc în industria energetică, chimică, alimentară, marină și HVAC industrial, oriunde transferul eficient de căldură între două fluide este o cerință de proces.`,
     whyChoose: [
       "Portofoliu complet de tehnologii — plăci cu garnituri, tubulare, aer și evaporative, de la un singur furnizor",
-      "Moștenire tehnică de peste un secol — provine din divizia de schimbătoare de căldură a GEA Group, cu experiență vastă de proiectare",
-      "Piese de schimb pentru instalații vechi — plăci și garnituri compatibile cu schimbătoare montate cu zeci de ani în urmă",
+      "Provine din divizia de schimbătoare de căldură a GEA Group",
+      "Piese de schimb — plăci și garnituri, identificate pe baza plăcuței de fabricație",
       "Materiale pentru medii dificile — oțel inoxidabil, titan și aliaje speciale pentru coroziune sau cerințe de igienă",
       "Soluții fără consum de apă — aerotermice și baterii cu aripioare pentru zone cu resurse de apă limitate",
-      "Rețea de producție europeană extinsă — capacitate de livrare atât pentru proiecte noi, cât și pentru retehnologizări"
+      "Rețea globală de vânzări, service și producție — 48 de locații în 24 de țări, potrivit site-ului oficial"
     ],
     keyProducts: [
       {
@@ -2247,12 +2247,12 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
       },
       {
         name: "Piese de Schimb — Plăci și Garnituri Compatibile",
-        description: "Pentru parcul extins de schimbătoare cu plăci instalate de-a lungul deceniilor, Kelvion menține disponibilitatea plăcilor și garniturilor de schimb, inclusiv pentru modele mai vechi, moștenite din gama GEA dinaintea rebrandării din 2015. Înlocuirea periodică a garniturilor și curățarea sau înlocuirea plăcilor cu depuneri sau coroziune restabilesc eficiența termică a unui schimbător fără achiziția unui echipament nou complet, o economie semnificativă pentru instalațiile industriale cu schimbătoare montate acum 15-20 de ani. Identificarea corectă a modelului compatibil se face pe baza plăcuței de fabricație sau prin măsurarea directă a plăcilor existente."
+        description: "Pentru schimbătoarele cu plăci deja instalate, disponibilitatea plăcilor și garniturilor de schimb se confirmă pe baza plăcuței de fabricație. Înlocuirea periodică a garniturilor și curățarea sau înlocuirea plăcilor cu depuneri sau coroziune restabilesc eficiența termică a unui schimbător fără achiziția unui echipament nou complet, o economie semnificativă pentru instalațiile industriale cu schimbătoare montate acum 15-20 de ani. Identificarea corectă a modelului compatibil se face pe baza plăcuței de fabricație sau prin măsurarea directă a plăcilor existente."
       }
     ],
     industries: [
       "Energie și termocentrale — răcirea sistemelor auxiliare și recuperare de căldură",
-      "Industria chimică și petrochimică — Kelvion: schimbătoare de proces pentru medii agresive",
+      "Industria chimică și petrochimică — schimbătoare de proces pentru medii agresive (Kelvion)",
       "Industria alimentară și a băuturilor — pasteurizare, răcire de proces, recuperare de căldură",
       "Industria navală și offshore — răcire cu apă de mare, schimbătoare compacte pentru spații limitate",
       "HVAC industrial — recuperare de căldură și răcire pentru clădiri mari și complexe industriale",
@@ -2261,7 +2261,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
     certifications: [
       "ISO 9001 — management al calității pentru proiectarea și producția schimbătoarelor de căldură industriale",
       "PED 2014/68/UE — conformitate pentru schimbătoarele de căldură ca echipamente sub presiune",
-      "ASME — certificare acceptată pentru schimbătoare de căldură destinate pieței nord-americane"
+      "ASME — disponibilitatea execuțiilor conforme se confirmă pe cod, din documentația producătorului"
     ],
     infinitrade: "Punem la dispoziție schimbătoare de căldură Kelvion pentru industria energetică, chimică și alimentară din România — schimbătoare cu plăci și garnituri, tubulare shell-and-tube, sisteme de răcire cu aer și piese de schimb — prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii de stoc pentru fiecare model, inclusiv cele moștenite din gama GEA, și verificăm compatibilitatea în informațiile publice disponibile ale producătorului. Pentru retehnologizări, trimiteți-ne plăcuța de fabricație sau dimensiunile plăcilor existente. Piesele de schimb uzuale ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru o aplicație nouă, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma calculul termic sau recalcularea presiunii admise pentru vase moștenite din gama GEA fără plăcuța de fabricație originală — aceasta rămâne o etapă separată de inginerie.",
@@ -2347,8 +2347,8 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -2357,16 +2357,16 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
     name: "SWEP",
     founded: 1983,
     headquarters: "Landskrona, Suedia",
-    overview: `SWEP este un producător suedez specializat exclusiv în schimbătoare de căldură cu plăci brazate, cu sediul la Landskrona și activitate din 1983, azi parte a grupului american Dover Corporation. Spre deosebire de schimbătoarele cu plăci și garnituri, unde plăcile sunt strânse mecanic, plăcile SWEP sunt brazate între ele într-un cuptor cu vid, la temperaturi înalte, rezultând un bloc solid, complet sudat, fără garnituri elastomerice care s-ar putea degrada sau ceda în timp.
+    overview: `SWEP este un producător suedez specializat în schimbătoare de căldură cu plăci brazate, cu sediul la Landskrona și activitate din 1983, azi parte a grupului american Dover Corporation. Spre deosebire de schimbătoarele cu plăci și garnituri, unde plăcile sunt strânse mecanic, plăcile SWEP sunt brazate între ele într-un cuptor cu vid, la temperaturi înalte, rezultând un bloc solid, complet sudat, fără garnituri elastomerice care s-ar putea degrada sau ceda în timp.
 
-Gama B acoperă zeci de dimensiuni standard, de la modelele mici B8 și B10, potrivite pentru instalații rezidențiale și comerciale mici, până la modelele mari B120, B220 și dincolo de acestea, folosite în aplicații industriale de mare capacitate. Fiecare model este disponibil cu un număr variabil de plăci, ceea ce permite ajustarea fină a suprafeței de transfer termic la cerința exactă a aplicației, fără supradimensionare inutilă. Brazarea se face în cupru, pentru majoritatea aplicațiilor cu apă și agenți frigorifici, sau în nichel, pentru compatibilitate cu fluide agresive sau cu cerințe de contact alimentar unde cuprul nu este acceptat.
+Gama B acoperă zeci de dimensiuni standard, de la modelele mici B8 și B10, potrivite pentru instalații rezidențiale și comerciale mici, până la modelele mari B120, B220 și dincolo de acestea, folosite în aplicații industriale de mare capacitate. Fiecare model este disponibil cu un număr variabil de plăci, ceea ce permite ajustarea fină a suprafeței de transfer termic la cerința exactă a aplicației, fără supradimensionare inutilă. Materialul de brazare și variantele disponibile pentru fiecare model se confirmă pe cod, din documentația SWEP.
 
 Absența garniturilor elimină principalul punct slab al schimbătoarelor cu plăci convenționale — riscul de scurgere prin degradarea elastomerului în timp — și permite funcționarea la presiuni și temperaturi mai ridicate într-un gabarit mult mai compact decât un schimbător echivalent cu plăci și garnituri sau tubular. Această compactitate reduce spațiul de montaj necesar și cantitatea de agent frigorific sau fluid termic din instalație, un avantaj important pentru sistemele care folosesc agenți frigorifici scumpi sau reglementați strict. Schimbătoarele SWEP se regăsesc în pompe de căldură, sisteme de climatizare, instalații industriale de răcire și recuperare de căldură, și rețele de termoficare urbană.`,
     whyChoose: [
       "Construcție complet brazată, fără garnituri — elimină riscul de scurgere prin degradarea elastomerului în timp",
       "Gamă foarte largă de dimensiuni — de la modele mici B8/B10 până la modele industriale mari B120/B220",
       "Gabarit compact — suprafață de transfer termic mare într-un volum mult mai mic decât alte tehnologii de schimbător",
-      "Opțiuni de brazare cupru sau nichel — compatibilitate extinsă cu agenți frigorifici, apă și fluide ușor agresive",
+      "Modele pentru apă, agenți frigorifici și CO2 — de la schimbătoare monofazice (B16, B28) la modele pentru CO2 transcritic (B18)",
       "Consum redus de agent frigorific — relevant pentru instalații cu agenți frigorifici scumpi sau supuși reglementărilor F-Gas",
       "Susținere prin Dover Corporation — acces la resurse și rețea de distribuție a unui grup industrial american de anvergură"
     ],
@@ -2384,8 +2384,8 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
         description: "Pentru cele mai mari cerințe de transfer termic — rețele de termoficare urbană, instalații industriale de proces de amploare sau sisteme centralizate de răcire pentru complexe mari de clădiri — SWEP oferă modele de mare capacitate din vârful seriei B, cu suprafețe de transfer termic extinse păstrând totuși un gabarit mult mai redus decât tehnologiile alternative de aceeași capacitate. Construcția modulară pe număr de plăci permite dimensionarea precisă pentru fiecare proiect, fără a fi nevoie de conectarea în paralel a mai multor unități mai mici, o soluție care ar complica instalația și ar crește riscul de puncte de scurgere."
       },
       {
-        name: "Schimbătoare Brazate cu Nichel pentru Medii Agresive",
-        description: "Pentru aplicații unde fluidul vehiculat este incompatibil cu brazarea din cupru — soluții saline, unele produse alimentare sau chimicale ușor agresive — SWEP oferă variante brazate cu nichel, care extind compatibilitatea chimică a schimbătorului fără a renunța la avantajele constructive ale tehnologiei brazate: gabarit compact, absența garniturilor și presiuni de lucru ridicate. Sunt folosite în aplicații industriale de proces, sisteme de răcire cu apă de mare sau saramură, și alte situații unde cuprul standard s-ar coroda prematur, extinzând astfel plaja de aplicații acoperite de tehnologia brazată SWEP dincolo de instalațiile termice convenționale."
+        name: "Schimbătoare Brazate pentru Fluide Speciale",
+        description: "Pentru fluide incompatibile cu materialul de brazare standard, disponibilitatea variantelor și a materialelor de brazare se confirmă pe cod, din documentația SWEP."
       }
     ],
     industries: [
@@ -2401,7 +2401,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       "PED 2014/68/UE — conformitate pentru schimbătoarele brazate ca echipamente sub presiune",
       "CE — marcaj de conformitate pentru schimbătoarele de căldură brazate vândute în Uniunea Europeană"
     ],
-    infinitrade: "Aducem la comandă schimbătoare de căldură brazate SWEP pentru pompe de căldură, climatizare industrială și instalații de proces din România — de la modelele compacte B8/B10 până la cele industriale B120/B220 — prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem numărul de plăci potrivit pornind de la informațiile publice disponibile ale producătorului, parte a grupului Dover. Pentru dimensionarea corectă, trimiteți-ne debitele, temperaturile de lucru și pierderea de presiune admisă. Modelele standard din gamă ajung de regulă în 24–72 h, iar configurațiile cu brazare din nichel sau dimensionarea pentru proiecte industriale mari, în 1–4 săptămâni la comandă.",
+    infinitrade: "Aducem la comandă schimbătoare de căldură brazate SWEP pentru pompe de căldură, climatizare industrială și instalații de proces din România — de la modelele compacte B8/B10 până la cele industriale B120/B220 — prin canale de aprovizionare din Uniunea Europeană. Fără date proprii despre stocul fabricii, alegem numărul de plăci potrivit pornind de la informațiile publice disponibile ale producătorului, parte a grupului Dover. Pentru dimensionarea corectă, trimiteți-ne debitele, temperaturile de lucru și pierderea de presiune admisă. Modelele standard din gamă ajung de regulă în 24–72 h, iar configurațiile speciale sau dimensionarea pentru proiecte industriale mari, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem confirma o disponibilitate constantă pentru fiecare combinație de model și număr de plăci — dimensionarea exactă depinde de calculul termic transmis de producător.",
     sources: [
       {"title":"B120T","url":"https://www.swep.net/products/b120t","publisher":"SWEP","accessed":"2026-09-23"},
@@ -2460,7 +2460,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
     faq: [
       {
         "q": "Ce schimbător de căldură SWEP aleg pentru o instalație cu debite mici și spațiu redus?",
-        "a": "Seriile B3 și B5 sunt gândite pentru debite mici și montaj în spații foarte restrânse, fiind potrivite la răcirea de ulei sau apă în instalații compacte. Pentru un raport cost-performanță diferit la debite mici, seria B26 cu canale AsyMatrix oferă transfer termic ridicat cu o cădere de presiune redusă, utilă în pompele de căldură."
+        "a": "Seriile B3 și B5 sunt gândite pentru debite mici și montaj în spații foarte restrânse, fiind potrivite la răcirea de ulei sau apă în instalații compacte. Pentru pompe de căldură, seria B26 cu canale AsyMatrix oferă, potrivit producătorului, transfer termic eficient cu cădere de presiune redusă."
       },
       {
         "q": "Ce diferență este între schimbătoarele SWEP B60 și B30?",
@@ -2480,8 +2480,8 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -2490,17 +2490,17 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
     name: "Funke",
     founded: 1974,
     headquarters: "Gronau, Germania",
-    overview: `Funke este un producător german de schimbătoare de căldură, cu sediul la Gronau, specializat pe schimbătoare cu plăci și garnituri, schimbătoare cu plăci sudate și schimbătoare tubulare pentru aplicații industriale de proces. Compania s-a poziționat ca un furnizor flexibil, capabil să adapteze rapid o soluție de transfer termic la cerințele specifice ale unui proiect, fără a fi legată de o singură tehnologie constructivă, spre deosebire de producătorii specializați exclusiv pe un singur tip de schimbător.
+    overview: `Funke este un producător german de schimbătoare de căldură, cu sediul la Gronau, specializat pe schimbătoare cu plăci și garnituri, schimbătoare cu plăci brazate și schimbătoare tubulare pentru aplicații industriale de proces. Compania s-a poziționat ca un furnizor flexibil, capabil să adapteze rapid o soluție de transfer termic la cerințele specifice ale unui proiect, fără a fi legată de o singură tehnologie constructivă, spre deosebire de producătorii specializați exclusiv pe un singur tip de schimbător.
 
-Schimbătoarele cu plăci și garnituri din gama FP folosesc plăci ondulate din oțel inoxidabil, strânse mecanic într-un cadru, cu garnituri elastomerice care direcționează fluidele în canale alternante — soluția flexibilă și ușor de curățat pentru aplicații de proces industrial și recuperare de căldură. Pentru presiuni și temperaturi mai ridicate decât permit garniturile elastomerice, gama de schimbătoare cu plăci sudate elimină garniturile din zona centrală a pachetului de plăci, păstrând totuși accesul facil la conexiunile de intrare și ieșire. Schimbătoarele tubulare FRG completează gama pentru aplicații cu presiuni foarte mari sau fluide incompatibile cu construcția din plăci, folosind fascicule de țevi montate în carcasă cilindrică.
+Schimbătoarele cu plăci și garnituri din gama FP folosesc plăci ondulate din oțel inoxidabil, strânse mecanic într-un cadru, cu garnituri elastomerice care direcționează fluidele în canale alternante — soluția flexibilă și ușor de curățat pentru aplicații de proces industrial și recuperare de căldură. Schimbătoarele cu plăci brazate, din seriile TPL, GPL și NPL, funcționează fără garnituri și sunt destinate hidraulicii, încălzirii, ventilației și climatizării. Schimbătoarele tubulare (seriile BCF, CCF, SSCF, UNIVEX, TDW și execuții speciale) completează gama pentru fluide incompatibile cu construcția din plăci, folosind fascicule de țevi montate în carcasă cilindrică.
 
-Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilor industriale, cu opțiuni de titan sau aliaje speciale pentru medii puternic corozive, precum apa de mare sau anumite chimicale agresive. Construcția modulară a schimbătoarelor cu plăci și garnituri permite ajustarea suprafeței de transfer termic prin adăugarea de plăci suplimentare, dacă cerințele termice ale procesului cresc după instalarea inițială. Schimbătoarele Funke se regăsesc în industria energetică, navală, chimică și de procesare a alimentelor, oriunde este nevoie de o soluție de transfer termic dimensionată exact pentru aplicația respectivă, nu de un model generic supradimensionat.`,
+Materialele plăcilor și ale fasciculelor de țevi se aleg pe cod, din documentația Funke, în funcție de fluidul vehiculat. Construcția modulară a schimbătoarelor cu plăci și garnituri permite ajustarea suprafeței de transfer termic prin adăugarea de plăci suplimentare, dacă cerințele termice ale procesului cresc după instalarea inițială. Schimbătoarele Funke se regăsesc, potrivit producătorului, în construcția de mașini, industria chimică și farmaceutică, construcțiile navale și tehnica compresoarelor.`,
     whyChoose: [
-      "Gamă flexibilă de tehnologii — plăci cu garnituri, plăci sudate și tubulare, alese în funcție de presiunea și temperatura aplicației",
+      "Gamă flexibilă de tehnologii — plăci cu garnituri, plăci brazate și tubulare, alese în funcție de presiunea și temperatura aplicației",
       "Adaptare rapidă la cerințe specifice de proiect — dimensionare personalizată, nu doar selecție dintr-un catalog fix de modele standard",
-      "Materiale pentru medii dificile — oțel inoxidabil, titan și aliaje speciale pentru apă de mare sau chimicale agresive",
+      "Materiale alese pe cod — în funcție de fluidul vehiculat, din documentația Funke",
       "Construcție modulară pe plăci — suprafața de transfer termic poate fi extinsă ulterior dacă cerințele procesului cresc",
-      "Schimbătoare sudate pentru presiuni ridicate — alternativă la garnituri elastomerice acolo unde acestea și-ar atinge limitele",
+      "Schimbătoare brazate fără garnituri — pentru hidraulică, încălzire și ventilație",
       "Suport tehnic pentru dimensionare — calcul termic personalizat pornind de la datele reale ale procesului deservit"
     ],
     keyProducts: [
@@ -2509,12 +2509,12 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
         description: "Gama FP de schimbătoare cu plăci și garnituri folosește plăci ondulate din oțel inoxidabil, strânse mecanic într-un cadru cu bare de ghidare, cu garnituri elastomerice care separă cele două fluide în canale alternante. Construcția demontabilă permite curățarea periodică a plăcilor și adăugarea sau eliminarea de plăci pentru ajustarea suprafeței de transfer termic, fără achiziția unui echipament nou. Este soluția flexibilă preferată pentru recuperare de căldură, răcire de proces și aplicații industriale unde cerințele termice se pot modifica în timp, iar accesul pentru mentenanță periodică este important pentru menținerea eficienței inițiale a schimbătorului."
       },
       {
-        name: "Schimbătoare cu Plăci Sudate",
-        description: "Pentru aplicații cu presiuni sau temperaturi peste limitele pe care le pot gestiona garniturile elastomerice, Funke oferă schimbătoare cu plăci sudate, unde pachetul central de plăci este sudat, eliminând riscul de scurgere prin degradarea garniturii în zona de temperatură sau presiune ridicată. Conexiunile de intrare și ieșire rămân accesibile pentru curățare parțială sau inspecție, combinând avantajul de fiabilitate al construcției sudate cu o parte din flexibilitatea de mentenanță a schimbătoarelor demontabile. Sunt folosite în aplicații de proces industrial unde un schimbător cu garnituri clasice nu ar rezista la condițiile de operare impuse."
+        name: "Schimbătoare cu Plăci Brazate",
+        description: "Schimbătoarele cu plăci brazate Funke nu folosesc garnituri: seria TPL este destinată hidraulicii, aerului comprimat și răcirii motoarelor (până la 36 barg și +200°C), iar seriile GPL (brazare în cupru) și NPL (brazare în nichel), încălzirii, ventilației și climatizării (16–30 barg, până la +200°C), potrivit producătorului. Sunt disponibile și variante cu perete dublu de siguranță."
       },
       {
-        name: "Schimbătoare Tubulare FRG",
-        description: "Schimbătoarele tubulare din gama FRG folosesc fascicule de țevi montate într-o carcasă cilindrică, o construcție fără garnituri elastomerice, potrivită pentru cele mai solicitante aplicații de presiune și temperatură din portofoliul Funke, sau pentru fluide incompatibile cu construcția din plăci. Materialele fasciculului de țevi se aleg în funcție de agresivitatea fluidului vehiculat — oțel inoxidabil pentru aplicații generale, titan sau aliaje speciale pentru apă de mare sau chimicale puternic corozive. Sunt folosite frecvent în industria navală, petrochimică și în aplicații de proces industrial unde fiabilitatea pe termen lung la condiții severe de operare este prioritatea principală."
+        name: "Schimbătoare Tubulare BCF, CCF, SSCF și UNIVEX",
+        description: "Schimbătoarele tubulare Funke (seriile BCF, CCF, SSCF și UNIVEX) folosesc fascicule de țevi montate într-o carcasă cilindrică, cu presiune de proiect de 16 barg pe manta, potrivit producătorului, sau execuții speciale pentru fluide incompatibile cu construcția din plăci. Materialele fasciculului de țevi se aleg pe cod, în funcție de fluidul vehiculat. Sunt folosite frecvent în industria navală, petrochimică și în aplicații de proces industrial unde fiabilitatea pe termen lung la condiții severe de operare este prioritatea principală."
       },
       {
         name: "Servicii de Dimensionare și Recondiționare",
@@ -2534,7 +2534,7 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
       "PED 2014/68/UE — conformitate pentru schimbătoarele de căldură cu plăci și tubulare ca echipamente sub presiune",
       "CE — marcaj de conformitate pentru schimbătoarele de căldură cu plăci și tubulare vândute în Uniunea Europeană"
     ],
-    infinitrade: "Facilităm achiziția de schimbătoare de căldură Funke pentru industria energetică, navală și chimică din România — schimbătoare cu plăci și garnituri FP, schimbătoare cu plăci sudate și schimbătoare tubulare FRG — prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pentru fiecare tehnologie și pornim calculul termic de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne debitele, temperaturile de intrare și ieșire și pierderea de presiune admisă. Piesele de schimb, plăci și garnituri pentru modelele uzuale, ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru un proiect nou, în 1–4 săptămâni la comandă.",
+    infinitrade: "Facilităm achiziția de schimbătoare de căldură Funke pentru industria energetică, navală și chimică din România — schimbătoare cu plăci și garnituri FP, schimbătoare cu plăci brazate și schimbătoare tubulare BCF, CCF, UNIVEX — prin canale de aprovizionare din Uniunea Europeană. Nu avem un istoric propriu de stoc pentru fiecare tehnologie și pornim calculul termic de la informațiile publice disponibile ale producătorului. Pentru o recomandare corectă, trimiteți-ne debitele, temperaturile de intrare și ieșire și pierderea de presiune admisă. Piesele de schimb, plăci și garnituri pentru modelele uzuale, ajung de regulă în 24–72 h, iar schimbătoarele complete, dimensionate pentru un proiect nou, în 1–4 săptămâni la comandă.",
     limitation: "Nu putem efectua recalcularea termică fără datele complete de proces transmise de client și nici service sub garanția producătorului — acestea rămân la Funke.",
     sources: [
       {"title":"Plate Heat Exchangers","url":"https://www.funke.de/en/products/plate-heat-exchangers/","publisher":"Funke","accessed":"2026-09-22"},
@@ -2581,7 +2581,7 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
       },
       {
         "code": "TDW",
-        "description": "Schimbător tubular cu perete dublu de siguranță"
+        "description": "Schimbător tubular cu fascicul demontabil de țevi în U cu aripioare"
       },
       {
         "code": "UNIVEX",
@@ -2615,8 +2615,8 @@ Materialele acoperă oțel inoxidabil austenitic pentru majoritatea aplicațiilo
       }
     ],
     evidenceClass: "history-only",
-    lastVerified: "2026-09-22",
-    changelog: [
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale; am precizat modul de livrare; am corectat anul înființării Funke, conform surselor citate." }
     ]
   },

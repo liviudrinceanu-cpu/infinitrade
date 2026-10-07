@@ -39,18 +39,18 @@ Pentru România, binder are sens acolo unde deja există echipamente cablate cu 
       { code: "RD24", description: "Conector circular de putere pentru echipamente mobile" },
       { code: "RD30", description: "Conector circular de putere, contacte multiple" },
       { code: "ELC", description: "Conector subminiatural pentru aplicații medicale portabile" },
-      { code: "Seria 620", description: "Conector circular subminiatural, gamă industrială" },
-      { code: "Seria 680", description: "Conector circular miniatural cu montaj snap-in" },
-      { code: "Seria 690", description: "Conector circular pentru automatizare, montaj pe panou" },
-      { code: "Seria 707", description: "Conector circular M8 pentru senzori de proximitate" },
+      { code: "Seria 620", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 680", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 690", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 707", description: "Conector circular M5 pentru senzori și actuatoare" },
       { code: "Seria 713", description: "Conector circular M12 pentru semnal și alimentare" },
-      { code: "Seria 720", description: "Conector circular M12, variantă codată A" },
-      { code: "Seria 723", description: "Conector circular M12, variantă codată D" },
-      { code: "Seria 763", description: "Conector circular M16 pentru transmisie de date" },
-      { code: "Seria 770", description: "Conector circular M16-X, montaj industrial" },
-      { code: "Seria 813", description: "Conector circular M18 pentru curenți mai mari" },
-      { code: "Seria 823", description: "Conector circular robust, montaj pe cablu" },
-      { code: "Seria 870", description: "Conector circular pentru medii cu vibrații" }
+      { code: "Seria 720", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 723", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 763", description: "Conector circular M12 (codat A) pentru senzori și actuatoare" },
+      { code: "Seria 770", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 813", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 823", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" },
+      { code: "Seria 870", description: "Serie binder; specificațiile se confirmă pe cod, din documentația producătorului" }
     ],
     faq: [
       { q: "Ce produce binder?", a: "binder fabrică din 1960 conectori circulari pentru automatizare industrială, de la variante subminiaturale M5 și M8 pentru senzori, până la conectori de putere pentru curenți mai mari precum seriile PBC15 sau M25. Gama acoperă montaj pe cablu sau pe panou, cu multiple opțiuni de codare mecanică pentru evitarea greșelilor de conectare pe linia de producție." },
@@ -60,8 +60,8 @@ Pentru România, binder are sens acolo unde deja există echipamente cablate cu 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "binder – Circular Connectors for Automation Technology", url: "https://www.binder-connector.com/en", publisher: "Franz Binder GmbH & Co. Elektrische Bauelemente KG", accessed: "2026-09-25" },
       { title: "Products – binder connector", url: "https://www.binder-connector.com/en/products", publisher: "Franz Binder GmbH & Co. Elektrische Bauelemente KG", accessed: "2026-09-25" }
@@ -70,16 +70,16 @@ Pentru România, binder are sens acolo unde deja există echipamente cablate cu 
   'block-transformatoren-elektronik': {
     name: "Block Transformatoren-Elektronik",
     headquarters: "Verden, Germania",
-    overview: `Block Transformatoren-Elektronik este un producător german de transformatoare și componente pentru alimentare electrică, cu sediul la Verden și o istorie de peste 85 de ani în domeniu. Portofoliul acoperă transformatoare de comandă, de siguranță, de separare galvanică, autotransformatoare, transformatoare de rețea și transformatoare toroidale, alături de surse de alimentare în comutație, sisteme UPS și filtre pentru compatibilitate electromagnetică. Pentru un tablou electric sau o linie de automatizare din România, Block acoperă atât partea de alimentare de joasă tensiune, cât și filtrarea armonicilor generate de variatoarele de turație.
+    overview: `Block Transformatoren-Elektronik este un producător german de transformatoare și componente pentru alimentare electrică, cu sediul la Verden și o istorie de circa 85 de ani în domeniu. Portofoliul acoperă transformatoare de comandă, de siguranță, de separare galvanică, autotransformatoare, transformatoare de rețea și transformatoare toroidale, alături de surse de alimentare în comutație, sisteme UPS și filtre pentru compatibilitate electromagnetică. Pentru un tablou electric sau o linie de automatizare din România, Block acoperă atât partea de alimentare de joasă tensiune, cât și filtrarea armonicilor generate de variatoarele de turație.
 
-Ce diferențiază Block este acoperirea largă — de la transformatorul clasic bobinat, prin componente inductive de frecvență medie folosite în electronica de putere, până la module de redundanță pentru alimentări critice. Compania dezvoltă anual mii de produse, o parte semnificativă fiind soluții personalizate pentru clienți industriali, ceea ce arată o linie de producție flexibilă și nu doar un catalog fix. Comparativ cu producători mai generaliști de surse de alimentare, Block rămâne specializat pe partea de transformatoare și filtrare, cu accent pe fiabilitate în medii industriale grele.
+Ce diferențiază Block este acoperirea largă — de la transformatorul clasic bobinat, prin componente inductive de frecvență medie folosite în electronica de putere, până la module de redundanță pentru alimentări critice. Pe lângă gama standard, producătorul oferă și produse personalizate (custom-made) pentru clienți industriali. Comparativ cu producători mai generaliști de surse de alimentare, Block rămâne specializat pe partea de transformatoare și filtrare, cu accent pe fiabilitate în medii industriale grele.
 
 Pentru piața din România, Block are sens la retehnologizarea tablourilor electrice unde trebuie înlocuit un transformator de comandă defect sau adăugat un filtru EMC pentru un variator de turație nou montat, precum și în proiecte de automatizare unde alimentarea de 24V trebuie separată galvanic de rețea.`,
     whyChoose: [
-      "Peste 85 de ani de fabricație de transformatoare și componente de alimentare electrică pentru industrie",
+      "Circa 85 de ani de istorie în fabricația de transformatoare și componente de alimentare electrică pentru industrie",
       "Gamă completă, de la transformatoare de comandă și siguranță, până la autotransformatoare și transformatoare toroidale",
       "Filtre EMC și de armonici dedicate variatoarelor de turație, pentru reducerea perturbațiilor în rețeaua electrică",
-      "Producție cu componentă ridicată de soluții personalizate, utilă pentru cerințe electrice nestandard",
+      "Posibilitatea de produse personalizate (custom-made), utilă pentru cerințe electrice nestandard",
       "Module de redundanță și surse UPS pentru alimentări unde întreruperea nu este acceptabilă"
     ],
     keyProducts: [
@@ -124,8 +124,8 @@ Pentru piața din România, Block are sens la retehnologizarea tablourilor elect
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Block Transformatoren-Elektronik – Home", url: "https://www.block.eu/", publisher: "Block Transformatoren-Elektronik GmbH", accessed: "2026-09-25" },
       { title: "Transformatoren – Produkte", url: "https://www.block.eu/de_DE/produkte/transformatoren", publisher: "Block Transformatoren-Elektronik GmbH", accessed: "2026-09-25" }
@@ -149,13 +149,13 @@ Pentru România, Citel are sens la echiparea tablourilor electrice noi cu protec
     keyProducts: [
       { name: "Protecție AC — Tip 1, Tip 2 și Combinate", description: "Familie de descărcătoare de supratensiune pentru instalații de curent alternativ, disponibile ca protecție tip 1 (pentru puncte cu risc direct de trăsnet), tip 2 (protecție secundară în tablourile de distribuție) și variante combinate tip 1+2+3 pentru instalații cu un singur nivel de protecție. Alegerea între ele depinde de poziția în instalație și de nivelul de risc de trăsnet al clădirii." },
       { name: "Protecție DC și Fotovoltaic (seria DPVN)", description: "Gamă de descărcătoare dedicate curentului continuu, inclusiv seria DPVN pentru protecția invertoarelor din instalațiile fotovoltaice. Aceste SPD-uri sunt dimensionate pentru tensiunile ridicate de pe partea DC a unui sistem solar și pentru curenții de descărcare specifici mediului exterior, unde riscul de trăsnet este mai mare." },
-      { name: "Protecție Telecom, Dataline și Radiocom", description: "Descărcătoare dedicate liniilor de telecomunicații, transmisie de date și site-urilor de radiocomunicații, unde cablurile lungi expuse cresc riscul de supratensiuni induse. Seria include și accesorii precum kituri de protecție cu siguranțe integrate, pentru instalare rapidă în cutii de distribuție existente." }
+      { name: "Protecție Telecom, Dataline și Radiocom", description: "Descărcătoare dedicate liniilor de telecomunicații, transmisie de date și site-urilor de radiocomunicații, unde cablurile lungi expuse cresc riscul de supratensiuni induse." }
     ],
     industries: [
       "Fotovoltaic — protecția invertoarelor DC în parcuri solari și instalații rezidențiale",
       "Telecomunicații — protecția liniilor de date și a site-urilor radio",
       "Energie eoliană — protecția echipamentelor electrice din turbine",
-      "Centre de date — protecția alimentării electrice sensibile",
+      "Echipamente sensibile — protecție la supratensiune pentru alimentarea electrică",
       "Iluminat LED — protecția corpurilor de iluminat exterior"
     ],
     infinitrade: `Pentru Citel, informațiile pe care le oferim vin din surse publice ale producătorului — nu avem date proprii despre stocul real disponibil la un moment dat. Aducem descărcătoarele de supratensiune la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea primită de la producător. Pentru ofertă avem nevoie de tipul de protecție cerut (tip 1, tip 2 sau combinat), tensiunea nominală a instalației și dacă e vorba de aplicație AC, DC sau fotovoltaică. Nu ținem pe raft aceste produse — fiecare comandă se confirmă separat, fără promisiuni de disponibilitate din depozit.`,
@@ -184,8 +184,8 @@ Pentru România, Citel are sens la echiparea tablourilor electrice noi cu protec
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Citel — Surge Protection Devices", url: "https://www.citel.fr/en/", publisher: "Citel", accessed: "2026-09-25" },
       { title: "AC Power — Citel", url: "https://www.citel.fr/en/ac-power", publisher: "Citel", accessed: "2026-09-25" }
@@ -207,7 +207,7 @@ Rezistențele de legare la pământ Cressall pot fi dimensionate pentru orice va
 Pentru România, Cressall are sens la proiecte de rețea unde e nevoie de o rezistență de legare la pământ dimensionată pe caz, la variatoare de turație de putere mare care disipă energie de frânare și la testarea bateriilor sau generatoarelor cu bancuri de sarcină portabile.`,
     whyChoose: [
       "Peste 100 de ani de fabricație de rezistențe industriale, cu rezistențe de legare la pământ dimensionate pe orice curent sau tensiune cerută",
-      "Rezistențe de frânare dinamică de la 25 kW continuu până la 100 kW continuu / 1 MW în regim de frânare",
+      "Rezistențe de frânare dinamică: gama ES până la 25 kW continuu și 250 kW în regim de frânare, iar variantele cu plasă expandată sau grilă ștanțată până la 100 kW continuu și 1 MW în regim de frânare",
       "Bancuri de sarcină portabile pentru testarea bateriilor, generatoarelor și sistemelor UPS direct la fața locului",
       "Certificate ISO 9001, ISO 14001 și ISO 45001 pentru calitate, mediu și securitate ocupațională",
       "Rezistențe dedicate tracțiunii feroviare — frânare, control și montaj trackside"
@@ -226,7 +226,7 @@ Pentru România, Cressall are sens la proiecte de rețea unde e nevoie de o rezi
       "Centre de date — bancuri de sarcină pentru testarea UPS",
       "Control de motoare — rezistențe de frânare dinamică pentru variatoare"
     ],
-    infinitrade: `Pentru Cressall Resistors, ce putem și ce nu putem confirma ține de faptul că lucrăm din informațiile publice ale producătorului, fără date proprii despre stocul disponibil la un moment dat. Fiecare rezistență de legare la pământ este dimensionată pe proiect, așa că aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor. Pentru ofertă avem nevoie de tensiunea și curentul de defect ale rețelei (pentru NER) sau de puterea de frânare și tensiunea variatorului (pentru rezistențele dinamice). Nu ținem pe raft aceste produse, fiind în mare parte echipamente construite pe comandă.`,
+    infinitrade: `Pentru Cressall Resistors, ce putem și ce nu putem confirma ține de faptul că lucrăm din informațiile publice ale producătorului, fără date proprii despre stocul disponibil la un moment dat. Fiecare rezistență de legare la pământ este dimensionată pe proiect, așa că aducem produsul la comandă prin canale de aprovizionare din UE, cu termen care se confirmă după dimensionarea tehnică; pentru echipamente construite pe specificație, de regulă peste 4 săptămâni. Pentru ofertă avem nevoie de tensiunea și curentul de defect ale rețelei (pentru NER) sau de puterea de frânare și tensiunea variatorului (pentru rezistențele dinamice). Nu ținem pe raft aceste produse, fiind în mare parte echipamente construite pe comandă.`,
     limitation: "Nu putem confirma un termen de livrare fix înainte ca producătorul să confirme dimensionarea tehnică a rezistenței, pentru că majoritatea produselor NER sunt construite pe specificație.",
     productCodes: [
       { code: "NER pentru înaltă tensiune", description: "Rezistență de legare la pământ pentru rețele HV" },
@@ -248,13 +248,13 @@ Pentru România, Cressall are sens la proiecte de rețea unde e nevoie de o rezi
     faq: [
       { q: "Ce produce Cressall Resistors?", a: "Cressall Resistors fabrică rezistențe de legare la pământ a neutrului pentru rețele electrice, rezistențe de frânare dinamică pentru variatoare de turație, bancuri de sarcină portabile pentru testarea bateriilor și generatoarelor, precum și rezistențe dedicate tracțiunii feroviare. Fiecare rezistență de legare la pământ este dimensionată individual pe curentul și tensiunea cerute de proiect." },
       { q: "Cum se dimensionează o rezistență de legare la pământ Cressall?", a: "Dimensionarea pornește de la tensiunea nominală a rețelei, curentul de defect dorit la punere la pământ și durata de funcționare cerută (continuă sau temporizată). Trimiteți-ne aceste date, plus gradul de protecție necesar (interior sau exterior), ca să identificăm construcția potrivită din gama Cressall." },
-      { q: "Livrați rezistențe Cressall Resistors în România?", a: "Da, aducem rezistențele Cressall la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice. Majoritatea produselor sunt construite pe proiect, așa că termenul exact depinde de complexitatea dimensionării." },
+      { q: "Livrați rezistențe Cressall Resistors în România?", a: "Da, aducem rezistențele Cressall la comandă prin canale de aprovizionare din UE, cu un termen care se confirmă după dimensionarea tehnică (pentru echipamente construite pe proiect, de regulă peste 4 săptămâni). Majoritatea produselor sunt construite pe proiect, așa că termenul exact depinde de complexitatea dimensionării." },
       { q: "Ce trebuie să trimit pentru o ofertă de rezistențe de frânare?", a: "Trimiteți puterea de frânare necesară (continuă și de vârf), tensiunea variatorului de turație și durata ciclurilor de frânare, dacă sunt repetitive. Aceste date ne permit să alegem între gama ES, cea cu plasă expandată sau cea cu grilă ștanțată." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Cressall Resistors — Home", url: "https://www.cressall.com/", publisher: "Cressall Resistors Ltd", accessed: "2026-09-25" },
       { title: "Neutral Earthing Resistors", url: "https://www.cressall.com/products/neutral-earthing-resistors/", publisher: "Cressall Resistors Ltd", accessed: "2026-09-25" },
@@ -284,7 +284,7 @@ Pentru România, Degson are sens la proiecte de electromobilitate (stații de î
     keyProducts: [
       { name: "Cleme de Conexiune Montate pe Șină DIN", description: "Familie de cleme de conexiune pentru montaj pe șină DIN, cu variante push-in (seriile DSV, DSW, DSN, DSM, DS Standard), cu arc (seriile WS și STB) și cu șurub (seriile DC, PC și DHV pentru curenți mari). Acoperă secțiuni de conductor între 0,2 și 95 mm², tensiuni nominale de 150-600V și curenți nominali de 2-500A, în funcție de serie. Varianta push-in reduce timpul de cablare, iar cea cu șurub e preferată pentru curenți mari și secțiuni groase." },
       { name: "Conectori pentru Stocare de Energie (50A–500A)", description: "Gamă de conectori de curent mare pentru sisteme de stocare a energiei și baterii, disponibili în trepte de curent de la 50-70A până la 450-500A, plus variante de tip bolț pentru 120A și 250A. Include și conectori MSD/FMSD pentru deconectarea rapidă de siguranță (curent maxim de siguranță 630A) și conectori flexibili din bară de cupru, dimensionați pentru tensiuni de până la 1.500V DC." },
-      { name: "Conectori Circulari și HDC", description: "Conectori circulari seria M pentru senzori și servomotoare, alături de conectori industriali grei (Heavy Duty Connectors) disponibili în mii de combinații de inserții, folosiți pentru echipamente mobile și mașini industriale unde trebuie deconectate rapid mai multe circuite deodată." },
+      { name: "Conectori Circulari și HDC", description: "Conectori circulari, alături de conectori industriali grei (Heavy Duty Connectors) disponibili în mii de combinații de inserții, folosiți pentru echipamente mobile și mașini industriale unde trebuie deconectate rapid mai multe circuite deodată." },
       { name: "Relee și Module Electronice", description: "Familie de relee, module de intrare-ieșire (IO), întrerupătoare industriale și relee de siguranță, folosite în tablourile de automatizare pentru comutarea circuitelor de comandă și pentru funcții de siguranță pe linia de producție." }
     ],
     industries: [
@@ -292,19 +292,19 @@ Pentru România, Degson are sens la proiecte de electromobilitate (stații de î
       "Electromobilitate — conectori pentru încărcare și baterii",
       "Fotovoltaic și stocare de energie — conectori de curent mare",
       "Energie eoliană — cleme și conectori pentru tablouri de control",
-      "Transport feroviar — cleme de conexiune certificate",
+      "Transport feroviar — cleme de conexiune",
       "Clădiri inteligente — module electronice și relee"
     ],
     infinitrade: `Pentru Degson Electronics, informația despre disponibilitate vine din surse publice ale producătorului — nu avem date proprii de stoc pentru niciuna dintre cele șase familii de produse. Aducem clemele, conectorii sau releele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă avem nevoie de codul seriei sau tipul de cleme (DIN-rail, energie, circular), secțiunea de conductor sau curentul nominal necesar, și tensiunea de lucru. Nu ținem pe raft aceste produse — fiecare comandă se confirmă separat cu producătorul înainte de facturare.`,
     limitation: "Nu putem confirma echivalența exactă între o clemă Degson și un model concurent deja montat, fără verificarea punctuală a secțiunii de conductor și a pasului.",
     productCodes: [
       { code: "DSV", description: "Clemă push-in pe șină DIN, serie standard" },
-      { code: "DSW", description: "Clemă push-in pe șină DIN, variantă îngustă" },
-      { code: "DSN", description: "Clemă push-in pe șină DIN pentru nul" },
-      { code: "DSM", description: "Clemă push-in pe șină DIN, montaj compact" },
+      { code: "DSW", description: "Clemă push-in pe șină DIN" },
+      { code: "DSN", description: "Clemă push-in pe șină DIN" },
+      { code: "DSM", description: "Clemă push-in pe șină DIN" },
       { code: "DS Standard", description: "Clemă push-in standard pentru tablouri electrice" },
       { code: "WS", description: "Clemă cu arc (spring-cage) pe șină DIN" },
-      { code: "STB", description: "Clemă cu arc, rezistență la vibrații" },
+      { code: "STB", description: "Clemă cu arc pe șină DIN" },
       { code: "DC", description: "Clemă cu șurub, cușcă din oțel" },
       { code: "PC", description: "Clemă cu șurub, cușcă din aliaj de cupru" },
       { code: "DHV", description: "Clemă cu șurub pentru șină de curent mare" },
@@ -316,7 +316,7 @@ Pentru România, Degson are sens la proiecte de electromobilitate (stații de î
       { code: "Conector stocare energie 350A-400A", description: "Conector de curent mare pentru baterii" },
       { code: "Conector stocare energie 450A-500A", description: "Conector de curent mare pentru baterii" },
       { code: "MSD/FMSD", description: "Deconectare rapidă de siguranță, curent maxim 630A" },
-      { code: "Conector bară de cupru multi-contact", description: "Conector de 150A pentru bară de cupru" },
+      { code: "Conector bară de cupru multi-contact", description: "Conector pentru bară de cupru" },
       { code: "Conector flexibil bară de cupru", description: "Design flexibil, economie de spațiu" }
     ],
     faq: [
@@ -327,8 +327,8 @@ Pentru România, Degson are sens la proiecte de electromobilitate (stații de î
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Degson Electronics — Home", url: "https://www.degson.com/", publisher: "Degson Electronics Co., Ltd.", accessed: "2026-09-25" },
       { title: "Terminal Blocks — Degson", url: "https://www.degson.com/product/typelist20_231579.html", publisher: "Degson Electronics Co., Ltd.", accessed: "2026-09-25" },
@@ -351,7 +351,7 @@ Pentru România, Disano Illuminazione are sens la iluminatul de hală industrial
       "Sistem de iluminat human centric pentru spații de birou și retail"
     ],
     keyProducts: [
-      { name: "Corpuri Încastrate și Modulare Disano", description: "Familie de corpuri de iluminat încastrate pentru tavane suspendate, folosite în spații comerciale și de birou, cu diferite unghiuri de deschidere a fasciculului și valori de luminanță unificată (UGR) reduse pentru confort vizual, unele modele fiind specificate cu UGR sub 22, potrivit pentru posturi de lucru la calculator." },
+      { name: "Corpuri Încastrate și Modulare Disano", description: "Familie de corpuri de iluminat încastrate pentru tavane suspendate, folosite în spații comerciale și de birou, cu diferite unghiuri de deschidere a fasciculului și valori reduse ale indicelui unificat de orbire (UGR) pentru confort vizual, unele modele fiind specificate cu UGR sub 22, potrivit pentru posturi de lucru la calculator." },
       { name: "Aparate Etanșe și Iluminat Industrial", description: "Corpuri etanșe pentru montaj în hale industriale, depozite și spații umede, rezistente la praf și stropire, alături de suspensii comerciale și industriale pentru spații cu înălțime mare. Linia profesională include și variante din gama ATEX pentru zone cu atmosferă potențial explozivă." },
       { name: "Iluminat Stradal și Exterior", description: "Corpuri pentru iluminat stradal, proiectoare de exterior și coloane de iluminat, dimensionate pentru infrastructură urbană și zone industriale exterioare, cu opțiuni de alimentare la 48V DC pentru instalații cu cerințe de siguranță specifice." },
       { name: "Fosnova — Proiectoare și Sisteme Arhitecturale LED", description: "Gamă de proiectoare de interior fixe și reglabile, downlight-uri încastrate și sisteme LED arhitecturale, dedicate spațiilor comerciale și de retail unde efectul de lumină contează la fel de mult ca nivelul de iluminare." }
@@ -361,7 +361,7 @@ Pentru România, Disano Illuminazione are sens la iluminatul de hală industrial
       "Iluminat stradal — infrastructură urbană și zone industriale",
       "Sănătate — iluminat cu funcție de dezinfecție UV pentru spitale",
       "Retail și comerț — proiectoare Fosnova și corpuri încastrate",
-      "Sport — iluminat pentru săli și terenuri sportive",
+      "Spații comerciale și civile — corpuri încastrate și proiectoare",
       "Rezidențial — corpuri de iluminat pentru locuințe"
     ],
     infinitrade: `Pentru Disano Illuminazione, lucrăm din surse publice ale producătorului, fără date proprii despre stocul disponibil pe fiecare model de corp de iluminat. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și cantitate. Pentru ofertă avem nevoie de tipul de corp (încastrat, etanș, stradal), puterea dorită, temperatura de culoare și, dacă e cazul, gama ATEX necesară. Nu ținem pe raft aceste corpuri de iluminat și nu promitem disponibilitate din depozit pentru niciun model.`,
@@ -394,8 +394,8 @@ Pentru România, Disano Illuminazione are sens la iluminatul de hală industrial
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Disano — Corporate", url: "https://www.disano.it/en/", publisher: "Disano Illuminazione S.p.A.", accessed: "2026-09-25" },
       { title: "Catalogs — Disano", url: "https://www.disano.it/en/p/catalogs/", publisher: "Disano Illuminazione S.p.A.", accessed: "2026-09-25" }
@@ -408,7 +408,7 @@ Pentru România, Disano Illuminazione are sens la iluminatul de hală industrial
       "Aprobări feroviare DIN EN 45545-2 HL3 și EN 50155",
       "Aprobare pentru industria de autobuze ECE R118",
       "Certificare UL pentru conectori din industria alimentară",
-      "Aprobare ADR pentru transport de mărfuri periculoase"
+      "Aprobare ADR pentru un cablu de conectare de date"
     ],
     overview: `Escha este un producător german de conectori și tehnologie de carcase industriale cu grade ridicate de protecție, cu sediul la Halver. Gama acoperă conectori pentru senzori și actuatoare, conectori compatibili DEUTSCH pentru automatizare mobilă, conectori pentru supape, conectori cu montaj pe teren în variante M8, M12, M23 și RJ45, precum și conectori M12 Push-Pull cu blocare fără scule. Pentru o linie de producție sau un utilaj mobil din România, Escha acoperă cablarea senzorilor și a echipamentelor de automatizare care lucrează în medii cu praf, umezeală sau vibrații.
 
@@ -459,14 +459,14 @@ Pentru România, Escha are sens la utilaje mobile (agricole, construcții), la l
     ],
     faq: [
       { q: "Ce produce Escha?", a: "Escha fabrică conectori și tehnologie de carcase industriale cu grade ridicate de protecție — conectori pentru senzori și actuatoare M8/M12/M23, conectori compatibili DEUTSCH pentru automatizare mobilă, conectori M12 Push-Pull și conectori certificați pentru industria feroviară și de autobuze." },
-      { q: "Cum aleg conectorul Escha potrivit pentru un senzor?", a: "Pornim de la diametrul senzorului (M8 sau M12), numărul de pini necesar și tipul de aplicație — fixă (montaj pe cablu de fabrică) sau field-wireable (montaj la fața locului). Trimiteți-ne aceste date, plus lungimea de cablu dorită, pentru a identifica varianta corectă." },
+      { q: "Cum aleg conectorul Escha potrivit pentru un senzor?", a: "Pornim de la dimensiunea filetului conectorului (M8 sau M12), numărul de pini necesar și tipul de aplicație — fixă (montaj pe cablu de fabrică) sau field-wireable (montaj la fața locului). Trimiteți-ne aceste date, plus lungimea de cablu dorită, pentru a identifica varianta corectă." },
       { q: "Livrați Escha în România și cât durează?", a: "Aducem conectorii Escha la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de tipul și numărul de conectori solicitați. Nu ținem pe raft niciunul dintre modele." },
       { q: "Ce trebuie să trimit pentru o ofertă de conectori Escha?", a: "Trimiteți tipul de conector dorit (M8, M12, M23, RJ45), numărul de pini, lungimea de cablu și tipul aplicației (fixă, mobilă sau feroviară). Dacă înlocuiți un conector existent, o poză cu marcajul de pe carcasă ne ajută să identificăm rapid varianta compatibilă." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Escha — Connectors and Housing Technology", url: "https://www.escha.net/en/", publisher: "Escha Bauelemente GmbH", accessed: "2026-09-25" },
       { title: "Escha — Startseite", url: "https://www.escha.net/de/", publisher: "Escha Bauelemente GmbH", accessed: "2026-09-25" }
@@ -477,16 +477,16 @@ Pentru România, Escha are sens la utilaje mobile (agricole, construcții), la l
     founded: 1966,
     headquarters: "Espoo, Finlanda",
     certifications: ["ISO 9001", "ISO 14001", "ISO 45001", "UL 508A"],
-    overview: `Fibox este un producător finlandez de carcase industriale din policarbonat, cu sediul la Espoo și activitate din 1966. Portofoliul acoperă aproximativ 20 de game de carcase — de la seriile ARCA pentru tablouri electrice, până la carcasele compacte Piccolo pentru butoane și relee, sau carcasele Tempo gândite pentru montaj rapid. Compania are subsidiară proprie pentru vânzări în România și Bulgaria, ceea ce înseamnă suport local direct din partea producătorului pentru proiecte mai mari.
+    overview: `Fibox este un producător finlandez de carcase industriale din policarbonat, cu sediul la Espoo și activitate din 1966. Portofoliul acoperă aproximativ 20 de game de carcase — de la seriile ARCA pentru tablouri electrice, până la carcasele compacte Piccolo pentru butoane și relee, sau carcasele Tempo gândite pentru montaj rapid. Compania are subsidiară proprie pentru vânzări și relații cu clienții în România și Bulgaria.
 
-Ce diferențiază Fibox este materialul de bază — policarbonatul, ales pentru rezistență chimică superioară față de ABS și pentru o plajă largă de temperaturi de utilizare, față de concurenți precum Rittal care lucrează predominant cu tablă metalică. Seria ARCA JIC oferă o alternativă modernă la cutiile de joncțiune electrică clasice, iar seria NEO are grad de protecție ridicat pentru medii foarte dure. Gama Euronord e gândită special pentru montarea de cleme de conexiune și senzori pe șină DIN, în interiorul carcasei.
+Ce diferențiază Fibox este materialul de bază — policarbonatul, folosit pentru carcase destinate mediilor solicitante. Seria ARCA JIC oferă o alternativă modernă la cutiile de joncțiune electrică clasice, iar seria NEO are grad de protecție ridicat pentru medii foarte dure. Gama Euronord e gândită special pentru montarea de cleme de conexiune și senzori pe șină DIN, în interiorul carcasei.
 
 Pentru România, Fibox are sens la tablouri electrice de exterior, la echipamente de automatizare expuse la agenți chimici sau umezeală și la proiecte unde clientul preferă o carcasă nemetalică, mai ușoară și fără riscul de coroziune.`,
     whyChoose: [
-      "Peste 55 de ani de fabricație de carcase din policarbonat, cu rezistență chimică superioară față de variantele metalice sau ABS",
+      "Peste 55 de ani de fabricație de carcase din policarbonat",
       "Aproximativ 20 de game de carcase, de la seria ARCA pentru tablouri, până la Piccolo pentru butoane și relee",
       "Certificări ISO 9001, ISO 14001, ISO 45001 și UL 508A pentru tablouri electrice",
-      "Subsidiară proprie pentru vânzări în România și Bulgaria, cu suport tehnic direct din partea producătorului",
+      "Subsidiară proprie pentru vânzări și relații cu clienți în România și Bulgaria",
       "Gamă Euronord dedicată montării de cleme de conexiune pe șină DIN, direct în interiorul carcasei"
     ],
     keyProducts: [
@@ -530,8 +530,8 @@ Pentru România, Fibox are sens la tablouri electrice de exterior, la echipament
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fibox — Company", url: "https://www.fibox.com/", publisher: "Fibox Group", accessed: "2026-09-25" },
       { title: "Products — Fibox", url: "https://www.fibox.com/products", publisher: "Fibox Group", accessed: "2026-09-25" }
@@ -543,18 +543,18 @@ Pentru România, Fibox are sens la tablouri electrice de exterior, la echipament
     headquarters: "Seongnam, Coreea de Sud",
     overview: `HD Hyundai Electric este un producător sud-coreean de echipamente electrice grele, cu sediul la Seongnam. Compania își are originile în divizia electrică a Hyundai Heavy Industries, înființată în 1977-1978, a devenit entitate independentă în 2017 și a primit numele actual în 2023. Portofoliul acoperă transformatoare de putere și de distribuție (inclusiv la 765 kV), stații GIS (Gas Insulated Switchgear), întrerupătoare de medie și joasă tensiune, motoare, generatoare, echipamente electrice navale și sisteme de stocare a energiei (BESS).
 
-Ce diferențiază HD Hyundai Electric este experiența la nivel de tensiune foarte înaltă — compania a realizat primul transformator de 765 kV pus în funcțiune comercial în Coreea de Sud în anul 2000, un segment în care nu mulți producători globali au capacitate de fabricație proprie completă. Gama GREENTRIC, lansată în 2021, grupează echipamentele electrice cu profil de eficiență energetică mai ridicat, orientate spre rețele mai curate.
+Ce diferențiază HD Hyundai Electric este experiența la nivel de tensiune foarte înaltă — compania a realizat primul transformator de 765 kV pus în funcțiune comercial în Coreea de Sud în anul 2000. GREENTRIC este marca de produse ecologice (eco-friendly) lansată de companie în 2021.
 
 Pentru România, HD Hyundai Electric are sens la proiecte de infrastructură energetică de anvergură — stații de transformare, extinderi de rețea sau sisteme de stocare a energiei — nu pentru achiziții punctuale de componente mici.`,
     whyChoose: [
       "Producător cu capacitate proprie de fabricație a transformatoarelor de foarte înaltă tensiune, inclusiv la nivelul de 765 kV",
       "Gamă completă de echipamente electrice grele — transformatoare, stații GIS, întrerupătoare, motoare și generatoare",
       "Linie dedicată sistemelor de stocare a energiei (BESS), relevantă pentru proiecte de rețea și regenerabile",
-      "Gama ecologică GREENTRIC, orientată spre echipamente electrice cu eficiență energetică ridicată"
+      "Marca de produse ecologice GREENTRIC, lansată în 2021"
     ],
     keyProducts: [
       { name: "Transformatoare de Putere și Distribuție", description: "Gamă de transformatoare de putere pentru rețele de foarte înaltă tensiune, inclusiv la nivelul de 765 kV, alături de transformatoare de distribuție pentru rețele de medie tensiune. Compania a livrat primul transformator de 765 kV pus în funcțiune comercial din Coreea de Sud în anul 2000, experiență relevantă pentru proiecte de rețea de mare anvergură." },
-      { name: "Stații GIS (Gas Insulated Switchgear)", description: "Stații de comutație izolate în gaz, folosite acolo unde spațiul de montaj e limitat sau unde condițiile de mediu nu permit izolație în aer, inclusiv variante la nivel de 765 kV, complementare gamei de transformatoare de foarte înaltă tensiune." },
+      { name: "Stații GIS (Gas Insulated Switchgear)", description: "Stații de comutație izolate în gaz, folosite acolo unde spațiul de montaj e limitat sau unde condițiile de mediu nu permit izolație în aer, inclusiv variante de foarte înaltă tensiune, complementare gamei de transformatoare; nivelurile de tensiune disponibile se confirmă din documentația producătorului." },
       { name: "Sisteme de Stocare a Energiei (BESS) și Echipamente Navale", description: "Sisteme de stocare a energiei pe baterii pentru rețea și pentru integrarea surselor regenerabile, alături de echipamente electrice pentru nave — o linie moștenită din activitatea inițială din cadrul Hyundai Heavy Industries." }
     ],
     industries: [
@@ -571,26 +571,26 @@ Pentru România, HD Hyundai Electric are sens la proiecte de infrastructură ene
       { code: "Transformator de distribuție", description: "Pentru rețele de medie tensiune" },
       { code: "Transformator 765 kV", description: "Nivel de tensiune foarte înaltă" },
       { code: "Stație GIS", description: "Comutație izolată în gaz, spațiu redus" },
-      { code: "Stație GIS 765 kV", description: "Variantă de foarte înaltă tensiune" },
-      { code: "Întrerupător de medie tensiune", description: "Pentru rețele MV" },
-      { code: "Întrerupător de joasă tensiune", description: "Pentru tablouri de distribuție LV" },
+      
+      { code: "Întrerupător de medie tensiune", description: "Pentru rețele de medie tensiune" },
+      { code: "Întrerupător de joasă tensiune", description: "Pentru tablouri de distribuție de joasă tensiune" },
       { code: "Motor de înaltă tensiune", description: "Pentru echipamente industriale grele" },
       { code: "Motor de joasă tensiune", description: "Pentru echipamente industriale standard" },
       { code: "Generator electric", description: "Pentru producția de energie" },
       { code: "Echipament electric naval", description: "Pentru nave și platforme marine" },
       { code: "Sistem de stocare a energiei (BESS)", description: "Pentru rețea și surse regenerabile" },
-      { code: "Gama GREENTRIC", description: "Echipamente electrice cu eficiență energetică ridicată" }
+      { code: "Gama GREENTRIC", description: "Marcă de produse ecologice, lansată în 2021" }
     ],
     faq: [
-      { q: "Ce produce HD Hyundai Electric?", a: "HD Hyundai Electric fabrică echipamente electrice grele — transformatoare de putere și distribuție, inclusiv la nivelul de 765 kV, stații GIS izolate în gaz, întrerupătoare de medie și joasă tensiune, motoare, generatoare, echipamente electrice navale și sisteme de stocare a energiei sub gama GREENTRIC." },
+      { q: "Ce produce HD Hyundai Electric?", a: "HD Hyundai Electric fabrică echipamente electrice grele — transformatoare de putere și distribuție, inclusiv la nivelul de 765 kV, stații GIS izolate în gaz, întrerupătoare de medie și joasă tensiune, motoare, generatoare, echipamente electrice navale și sisteme de stocare a energiei. Marca GREENTRIC, lansată în 2021, grupează produsele ecologice ale companiei." },
       { q: "Pentru ce proiecte are sens HD Hyundai Electric?", a: "Are sens pentru proiecte de infrastructură energetică de anvergură — stații de transformare, extinderi de rețea de foarte înaltă tensiune sau sisteme de stocare a energiei — nu pentru achiziții punctuale de componente electrice mici, unde alți producători sunt mai potriviți." },
       { q: "Livrați echipamente HD Hyundai Electric în România?", a: "Aducem componentele standard la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; pentru transformatoare sau stații GIS de mare putere, termenul de fabricație e stabilit direct de producător, în funcție de specificația proiectului. Nu ținem pe raft aceste echipamente." },
       { q: "Ce trebuie să trimit pentru o discuție de ofertă HD Hyundai Electric?", a: "Trimiteți tipul de echipament dorit (transformator, stație GIS, motor sau sistem de stocare), nivelul de tensiune al proiectului și parametrii tehnici principali. Pentru proiecte mari, un studiu de fezabilitate sau o schemă unifilară a rețelei ajută la stabilirea unui răspuns tehnic corect." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "History — HD HYUNDAI ELECTRIC", url: "https://www.hd-hyundaielectric.com/elect/m/en/company/history.jsp", publisher: "HD Hyundai Electric Co., Ltd.", accessed: "2026-09-25" },
       { title: "HD Hyundai Electric", url: "https://en.wikipedia.org/wiki/HD_Hyundai_Electric", publisher: "Wikipedia", accessed: "2026-09-25" }
@@ -598,15 +598,15 @@ Pentru România, HD Hyundai Electric are sens la proiecte de infrastructură ene
   },
   'hammond-power-solutions': {
     name: "Hammond Power Solutions",
-    overview: `Hammond Power Solutions este unul dintre cei mai mari producători de transformatoare uscate din America de Nord, cu activitate distinctă pentru piețele Americas, Asia și EMEA. Gama acoperă transformatoare de comandă și automatizare, transformatoare pentru izolarea acționărilor, filtre de armonici active și pasive, transformatoare de distribuție de joasă și medie tensiune, autotransformatoare și produse speciale sub comandă (OEM). Pentru un proiect electric din România, HPS acoperă atât alimentarea de bază a tablourilor, cât și problemele de calitate a energiei generate de variatoare de turație.
+    overview: `Hammond Power Solutions este un producător de transformatoare uscate din America de Nord, cu activitate distinctă pentru piețele Americas, Asia și EMEA. Gama acoperă transformatoare de comandă și automatizare, transformatoare pentru izolarea acționărilor, filtre de armonici active și pasive, transformatoare de distribuție de joasă și medie tensiune, autotransformatoare și produse speciale sub comandă (OEM). Pentru un proiect electric din România, HPS acoperă atât alimentarea de bază a tablourilor, cât și problemele de calitate a energiei generate de variatoare de turație.
 
-Ce diferențiază Hammond Power Solutions este acoperirea completă a gamei de tensiuni — de la transformatoare de comandă de putere mică, până la transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin) sau impregnate sub vid (VPI), pentru clase de până la 46 kV. Seriile Sentinel K și Sentinel H sunt gândite special pentru sarcini neliniare (variatoare de turație, redresoare), reducând supraîncălzirea cauzată de armonici față de un transformator standard.
+Ce diferențiază Hammond Power Solutions este acoperirea completă a gamei de tensiuni — de la transformatoare de comandă de putere mică, până la transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin, până la clasa 35 kV) sau impregnate sub vid (VPI, până la clasa 46 kV). Seriile Sentinel K și Sentinel H sunt gândite special pentru sarcini neliniare (variatoare de turație, redresoare), reducând supraîncălzirea cauzată de armonici față de un transformator standard.
 
 Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare importante (variatoare de turație multiple), la stații de încărcare EV și la instalații care cer transformatoare de distribuție de medie tensiune.`,
     whyChoose: [
-      "Unul dintre cei mai mari producători de transformatoare uscate din America de Nord, cu game separate pentru joasă și medie tensiune",
+      "Producător de transformatoare uscate din America de Nord, cu game separate pentru joasă și medie tensiune",
       "Transformatoare Sentinel K și Sentinel H dedicate sarcinilor neliniare cu conținut ridicat de armonici",
-      "Transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin) sau VPI, până la 46 kV",
+      "Transformatoare de distribuție de medie tensiune izolate în rășină turnată (cast resin, până la clasa 35 kV) sau VPI (până la clasa 46 kV)",
       "Linie dedicată transformatoarelor pentru stații de încărcare EV și pentru aplicații solare"
     ],
     keyProducts: [
@@ -630,24 +630,24 @@ Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare impor
       { code: "Sentinel H", description: "Atenuare armonici pentru sarcini neliniare" },
       { code: "Sentinel Solar Duty", description: "Dedicat instalațiilor fotovoltaice" },
       { code: "Titan N", description: "Transformator încapsulat pentru medii dure" },
-      { code: "Titan (legacy)", description: "Variantă anterioară a liniei încapsulate" },
+      
       { code: "Fortress", description: "Transformator încapsulat pentru aplicații comerciale" },
-      { code: "Fortress (legacy)", description: "Variantă anterioară a liniei Fortress" },
+      
       { code: "Universal", description: "Transformator buck-boost pentru ajustare de tensiune" },
       { code: "Autotransformator trifazat 3-500 kVA", description: "Ajustări mici de tensiune între rețele" },
       { code: "Transformator distribuție cast resin", description: "Izolație în rășină turnată, medie tensiune" },
       { code: "Transformator VPI până la 46 kV", description: "Impregnare sub vid, medie tensiune" }
     ],
     faq: [
-      { q: "Ce produce Hammond Power Solutions?", a: "Hammond Power Solutions fabrică transformatoare uscate pentru aplicații de comandă, automatizare, distribuție de joasă și medie tensiune, plus produse dedicate sarcinilor neliniare (seriile Sentinel K și H), instalațiilor solare și stațiilor de încărcare EV. Este unul dintre cei mai mari producători de transformatoare uscate din America de Nord." },
+      { q: "Ce produce Hammond Power Solutions?", a: "Hammond Power Solutions fabrică transformatoare uscate pentru aplicații de comandă, automatizare, distribuție de joasă și medie tensiune, plus produse dedicate sarcinilor neliniare (seriile Sentinel K și H), instalațiilor solare și stațiilor de încărcare EV. " },
       { q: "Ce transformator Hammond Power Solutions aleg pentru un variator de turație?", a: "Pentru instalații cu variatoare de turație sau alte sarcini neliniare, seriile Sentinel K sau Sentinel H sunt dimensionate special pentru a suporta căldura suplimentară generată de armonici, spre deosebire de un transformator standard de uz general. Trimiteți-ne puterea instalată a variatoarelor și tensiunile de lucru pentru o recomandare corectă." },
       { q: "Livrați Hammond Power Solutions în România și cât durează?", a: "Aducem transformatoarele standard la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru transformatoare de medie tensiune sau configurații speciale, termenul de fabricație este stabilit direct de producător, în funcție de complexitatea proiectului." },
       { q: "Ce trebuie să trimit pentru o ofertă de transformatoare Hammond Power Solutions?", a: "Trimiteți puterea nominală necesară în kVA, tensiunile primare și secundare, tipul de sarcină conectată (liniară sau neliniară) și gradul de protecție dorit (deschis, încapsulat). Pentru medie tensiune, precizați și clasa de tensiune și tipul de izolație preferat." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hammond Power Solutions — Home", url: "https://americas.hammondpowersolutions.com/", publisher: "Hammond Power Solutions Inc.", accessed: "2026-09-25" },
       { title: "Low Voltage Distribution — HPS", url: "https://americas.hammondpowersolutions.com/products/low-voltage-distribution", publisher: "Hammond Power Solutions Inc.", accessed: "2026-09-25" }
@@ -656,13 +656,13 @@ Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare impor
   hongfa: {
     name: "Hongfa",
     headquarters: "Xiamen, China",
-    overview: `Hongfa este un producător chinez de componente electrice, cu sediul la Xiamen, specializat în relee electromagnetice pentru echipamente de automatizare. Gama acoperă peste 160 de serii de relee — relee de putere, relee industriale, relee auto, relee de curent continuu de înaltă tensiune (HVDC), relee de semnal și relee latching — alături de module electronice, conectori, condensatoare film și senzori de curent. Pentru un tablou de automatizare din România, Hongfa acoperă comutarea circuitelor de comandă și de putere mai mică.
+    overview: `Hongfa este un producător chinez de componente electrice, cu sediul la Xiamen, specializat în relee electromagnetice pentru echipamente de automatizare. Gama acoperă numeroase serii de relee — relee de putere, relee industriale, relee auto, relee de curent continuu de înaltă tensiune (HVDC), relee de semnal și relee latching — alături de module electronice, conectori, condensatoare film și senzori de curent. Pentru un tablou de automatizare din România, Hongfa acoperă comutarea circuitelor de comandă și de putere mai mică.
 
-Spre deosebire de producători europeni consacrați de relee, Hongfa are un catalog foarte extins — peste 40.000 de specificații — cu modele dedicate atât aplicațiilor casnice (relee pentru electrocasnice), cât și industriale. Seria HF177F oferă o capacitate de comutare de până la 40A la 277VAC, iar HF165F este dimensionat special pentru invertoare fotovoltaice și sisteme UPS, cu o capacitate de 35A. HF10F acoperă aplicații industriale cu configurații de contact 2C sau 3C.
+Spre deosebire de producători europeni consacrați de relee, Hongfa are un catalog foarte extins, cu modele dedicate atât aplicațiilor casnice (relee pentru electrocasnice), cât și industriale. Seria HF177F oferă o capacitate de comutare de până la 40A la 277VAC, iar HF165F este dimensionat special pentru invertoare fotovoltaice și sisteme UPS, cu o capacitate de 35A. HF10F acoperă aplicații industriale cu configurații de contact 2C sau 3C.
 
 Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare unde se cere un releu compatibil cu un model existent sau la proiecte cu volum mare unde costul pe unitate contează.`,
     whyChoose: [
-      "Peste 160 de serii de relee electromagnetice, acoperind aplicații de la electrocasnice până la industrial și HVDC",
+      "Serii numeroase de relee electromagnetice, acoperind aplicații de la electrocasnice până la industrial și HVDC",
       "Relee de putere cu capacitate de comutare de până la 40A la 277VAC (seria HF177F)",
       "Serie dedicată aplicațiilor fotovoltaice și UPS (HF165F), cu capacitate de 35A",
       "Gamă largă de module electronice, conectori și senzori de curent, complementară releelor"
@@ -670,7 +670,7 @@ Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare
     keyProducts: [
       { name: "Relee de Putere (seriile HF177F, HF3FF-M, HF41F)", description: "Familie de relee de putere pentru comutarea circuitelor de curent mai mare, cu HF177F capabil de 40A la 277VAC sau 25A la 400VDC în configurație serie, HF3FF-M dimensionat pentru 15A în format subminiatural, și HF41F cu tensiune de străpungere de 4kV între bobină și contacte, pentru aplicații unde izolația electrică e critică." },
       { name: "Relee Industriale (seria HF10F)", description: "Relee industriale cu configurații de contact 2C sau 3C și capacitate de comutare de 10A, cu terminal standard de tip electron tube și buton de test integrat, folosite frecvent în tablourile de automatizare pentru comutarea circuitelor de comandă." },
-      { name: "Relee Solare și Module Electronice", description: "HF165F este un releu dedicat invertoarelor fotovoltaice și sistemelor UPS, cu capacitate de 35A, completat de o gamă de module electronice (relee de siguranță, module de pornire motor, module de interfață) pentru aplicații de automatizare mai complexe." }
+      { name: "Relee Solare și Module Electronice", description: "HF165F este un releu dedicat invertoarelor fotovoltaice și sistemelor UPS, cu capacitate de 35A, completat de o gamă de module electronice (relee de siguranță, module de pornire motor, surse în comutație) pentru aplicații de automatizare mai complexe." }
     ],
     industries: [
       "Electrocasnice — relee pentru aparatură de uz casnic",
@@ -687,26 +687,26 @@ Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare
       { code: "HF10F", description: "Releu industrial, configurație 2C/3C, 10A" },
       { code: "HF165F", description: "Releu solar, 35A, pentru invertoare fotovoltaice" },
       { code: "HF41F", description: "Releu de putere, tensiune de străpungere 4kV" },
-      { code: "Power Relay (familie)", description: "Relee de putere pentru circuite industriale" },
-      { code: "Automotive Relay (familie)", description: "Relee pentru sisteme electrice auto" },
-      { code: "High Voltage DC Relay (familie)", description: "Relee pentru aplicații HVDC" },
-      { code: "Latching Relay (familie)", description: "Relee cu memorare a stării de comutare" },
-      { code: "Signal Relay (familie)", description: "Relee pentru semnale de nivel mic" },
-      { code: "Reed Relay (familie)", description: "Relee cu contact tip reed" },
-      { code: "Industrial Relay (familie)", description: "Relee pentru tablouri de automatizare" },
-      { code: "Solid State Relay (familie)", description: "Relee statice fără contacte mecanice" },
-      { code: "Relay Module (familie)", description: "Module cu releu integrat pentru montaj pe șină" }
+      { code: "Relee de putere (familie)", description: "Relee de putere pentru circuite industriale" },
+      { code: "Relee auto (familie)", description: "Relee pentru sisteme electrice auto" },
+      { code: "Relee HVDC (familie)", description: "Relee pentru aplicații HVDC" },
+      { code: "Relee latching (familie)", description: "Relee cu memorare a stării de comutare" },
+      { code: "Relee de semnal (familie)", description: "Relee pentru semnale de nivel mic" },
+      { code: "Relee reed (familie)", description: "Relee cu contact tip reed" },
+      { code: "Relee industriale (familie)", description: "Relee pentru tablouri de automatizare" },
+      { code: "Relee statice (familie)", description: "Relee statice fără contacte mecanice" },
+      { code: "Module electronice (familie)", description: "Module electronice: relee de siguranță, pornire motor, surse în comutație" }
     ],
     faq: [
-      { q: "Ce produce Hongfa?", a: "Hongfa fabrică relee electromagnetice pentru automatizare industrială, electrocasnice, automotive și energie regenerabilă, cu peste 160 de serii diferite — de la relee de putere precum HF177F, până la relee industriale (HF10F) sau relee dedicate invertoarelor fotovoltaice (HF165F)." },
+      { q: "Ce produce Hongfa?", a: "Hongfa fabrică relee electromagnetice pentru automatizare industrială, electrocasnice, automotive și energie regenerabilă, cu serii diferite — de la relee de putere precum HF177F, până la relee industriale (HF10F) sau relee dedicate invertoarelor fotovoltaice (HF165F)." },
       { q: "Cum aleg releul Hongfa potrivit după cod?", a: "Alegerea pornește de la tensiunea bobinei necesară, curentul de comutare al sarcinii și configurația de contacte cerută (1 Form A, 1 Form C, 2C sau 3C). Trimiteți-ne aceste date, plus aplicația exactă (comandă, putere sau solar), ca să identificăm codul potrivit din gama Hongfa." },
       { q: "Livrați Hongfa în România și cât durează?", a: "Aducem releele Hongfa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de codul ales și cantitatea comandată. Nu ținem pe raft niciun model." },
       { q: "Ce trebuie să trimit pentru o ofertă de relee Hongfa?", a: "Trimiteți codul exact al releului dacă îl cunoașteți (de exemplu HF177F), sau tensiunea bobinei, curentul de comutare necesar și configurația de contacte dorită. Dacă înlocuiți un releu existent, o poză cu marcajul de pe carcasă ajută la identificarea rapidă a echivalentului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hongfa — Home", url: "https://www.hongfa.com/en/", publisher: "Xiamen Hongfa Electroacoustic Co., Ltd.", accessed: "2026-09-25" },
       { title: "HF177F — Power Relay", url: "https://www.hongfa.com/Product/power-relay/HF177F", publisher: "Xiamen Hongfa Electroacoustic Co., Ltd.", accessed: "2026-09-25" },
@@ -718,19 +718,19 @@ Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare
     headquarters: "Denzlingen, Germania",
     overview: `Hummel este un producător german de tehnică de conectare, cu sediul la Denzlingen și producție în orașul învecinat Waldkirch. Gama acoperă trei direcții principale: presetupe pentru cabluri (variante Ex, EMC, fără plumb, plastic și metal), conectori circulari (M12 Power, M16, M23, M27, M40) și soluții pentru instalații de apă potabilă și încălzire. Pentru o instalație electrică sau un tablou industrial din România, Hummel acoperă atât trecerea etanșă a cablurilor prin carcasă, cât și conectarea propriu-zisă a echipamentelor.
 
-Ce diferențiază Hummel este acoperirea foarte largă de dimensiuni pe conectorii circulari — de la M12 Power, cu 4 variante de codare (K, L, S, T) și curent de până la 16A, până la M40, capabil de până la 75A cu secțiune de conductor de până la 16 mm². Toate seriile principale sunt disponibile și în variantă din inox (AISI 316L), utilă în medii corozive, precum și în variantă cu cablu deja montat (moulded), care elimină operațiunea de asamblare manuală a conectorului.
+Ce diferențiază Hummel este acoperirea foarte largă de dimensiuni pe conectorii circulari — de la M12 Power, cu 4 variante de codare (K, L, S, T) și curent de până la 16A, până la M40, capabil de până la 75A cu secțiune de conductor de până la 16 mm². Există variante din inox (AISI 316L), utile în medii corozive, și variante cu cablu deja montat (moulded), care elimină operațiunea de asamblare manuală a conectorului; disponibilitatea pe fiecare serie se confirmă pe cod.
 
 Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de protecție (IP67/IP69K), la instalații în medii corozive unde varianta inox e necesară și la instalații sanitare sau de încălzire care folosesc componentele lor de trecere a cablurilor.`,
     whyChoose: [
-      "Conectori circulari de la M12 Power (16A) până la M40 (75A), toți disponibili și în variantă inox AISI 316L",
+      "Conectori circulari de la M12 Power (16A) până la M40 (75A), cu variante inox AISI 316L pentru medii dure",
       "Presetupe pentru cabluri în variante Ex, EMC și fără plumb, pentru instalații cu cerințe speciale",
       "Variante moulded (cablu montat din fabrică) care elimină asamblarea manuală a conectorului pe teren",
       "Gama M23 modulară, cu carcasă și inserții combinabile pentru semnal, putere sau industrial Ethernet"
     ],
     keyProducts: [
-      { name: "Conectori Circulari M12 Power și M16", description: "M12 Power acoperă curenți de până la 16A și tensiuni de până la 630V, cu variante de codare K, L, S și T, cablu de 3-11mm și grade de protecție IP67/IP69K. M16 e conceput compact (diametru sub 20mm), disponibil cu 3, 6, 10 sau 12 pini, inclusiv variante hibride cu contacte de semnal și putere combinate, plus opțiune de blocare rapidă TWILOCK pentru montaj fără scule." },
+      { name: "Conectori Circulari M12 Power și M16", description: "M12 Power acoperă curenți de până la 16A și tensiuni de până la 630V, cu variante de codare K, L, S și T, cablu de 3-11mm și grade de protecție IP67/IP69K. M16 este un conector compact, disponibil în configurațiile 3, 4+3+PE, 6+PE, 10, 12+3 și 12+6, inclusiv variante hibride cu contacte de semnal și putere combinate, plus opțiune de blocare rapidă TWILOCK pentru montaj fără scule." },
       { name: "Conectori Circulari M23 și M27", description: "M23 e un sistem modular unde carcasa și inserția se pot combina în funcție de aplicație — semnal, putere, Ethernet industrial sau variante hibride — cu conectare prin filet sau prin sistemul rapid TWILOCK. M27 acoperă 26 sau 28 de pini, cu cablu de 7-17mm și contacte disponibile pentru sertizare, lipire sau montaj direct pe fir." },
-      { name: "Conectori Circulari M40", description: "M40 este dedicat curenților mari, până la 75A, cu secțiune de conductor de până la 16 mm² și cablu de 13-28mm, disponibil în variante IP67/IP69K și cu opțiune de contacte hibride (putere plus semnal) pentru echipamente care au nevoie de ambele tipuri de conexiune într-un singur conector." }
+      { name: "Conectori Circulari M40", description: "M40 este dedicat curenților mari, până la 75A, cu secțiune de conductor de până la 16 mm² și cablu de 13-28mm, disponibil și cu opțiune de contacte hibride (putere plus semnal) pentru echipamente care au nevoie de ambele tipuri de conexiune într-un singur conector." }
     ],
     industries: [
       "Automatizare industrială — conectori circulari pentru echipamente și utilaje",
@@ -742,7 +742,7 @@ Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de p
     limitation: "Nu putem confirma compatibilitatea exactă cu un conector Hummel deja montat pe echipament, fără verificarea codului de referință de pe carcasă.",
     productCodes: [
       { code: "M12 Power", description: "Conector circular, curent până la 16A, IP67/IP69K" },
-      { code: "M16 3-pini", description: "Conector compact, diametru sub 20mm" },
+      { code: "M16 3-pini", description: "Conector compact" },
       { code: "M16 4+3+PE", description: "Conector hibrid semnal-putere" },
       { code: "M16 6+PE", description: "Conector cu 6 contacte plus împământare" },
       { code: "M16 10-pini", description: "Conector pentru semnal cu mai multe contacte" },
@@ -765,8 +765,8 @@ Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de p
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hummel — Home", url: "https://www.hummel.com/en/", publisher: "Hummel AG", accessed: "2026-09-25" },
       { title: "Circular Connectors — Hummel", url: "https://www.hummel.com/en/circular-connectors/", publisher: "Hummel AG", accessed: "2026-09-25" }
@@ -782,18 +782,18 @@ Pentru România, Hummel are sens la echipamente industriale cu grad ridicat de p
     ],
     overview: `Jacob GmbH este un producător german de sisteme de trecere etanșă a cablurilor, cu sediul la Kernen și un portofoliu de peste 6.000 de produse. Gama acoperă presetupe din plastic (seriile PERFECT, UNI Dicht, FAVORIT) și din metal (PERFECT Metal, WADI), plăci de trecere a cablurilor (seria KADP) și sisteme complete de intrare a cablurilor (seria KADL), alături de variante speciale pentru compatibilitate electromagnetică (EMC) și pentru zone cu risc de explozie (EX).
 
-Ce diferențiază Jacob GmbH este varietatea foarte mare de variante pe fiecare serie de bază — seria WADI, de exemplu, include modele K150, K252 și K450 pentru presetupe cu un singur cablu, dar și variante K155/K257 pentru intrarea de cabluri la cald și K160/K162 pentru montaj la zero. Seria PERFECT plastic are variante speciale precum K348 (AirVent, cu egalizare de presiune) sau K349 (Fix), pentru aplicații unde presetupa standard nu acoperă cerința.
+Ce diferențiază Jacob GmbH este varietatea foarte mare de variante pe fiecare serie de bază — seria WADI, de exemplu, include modelele K150 (WADI one, pentru un singur cablu), K155 (WADI heat), K160, K162, K252, K257 și K450; destinația exactă a fiecărui cod o confirmăm din documentația producătorului. Seria PERFECT plastic are variante speciale precum K348 (AirVent, cu egalizare de presiune) sau K341 (Fix), pentru aplicații unde presetupa standard nu acoperă cerința.
 
 Pentru România, Jacob GmbH are sens la tablouri electrice unde trebuie asigurată etanșeitatea la intrarea cablurilor, la echipamente pentru zone cu risc de explozie și la instalații care cer conformitate EMC pe cablurile de semnal.`,
     whyChoose: [
       "Peste 6.000 de produse pentru trecerea etanșă a cablurilor, acoperind aplicații standard, EMC și zone Ex",
-      "Seria WADI cu variante dedicate pentru un singur cablu, intrare la cald sau montaj la zero (K150, K155, K160)",
+      "Seria WADI cu mai multe variante (K150, K155, K160), a căror destinație se confirmă pe cod",
       "Presetupe cu egalizare de presiune (AirVent, K348) pentru aplicații unde umezeala trebuie evacuată",
-      "Conformitate RoHS și REACH pe întreaga gamă, plus aprobări Ex pentru zone cu atmosferă explozivă"
+      "Variante EMC și variante cu aprobări Ex pentru zone cu atmosferă explozivă"
     ],
     keyProducts: [
-      { name: "Presetupe din Plastic PERFECT, UNI Dicht și FAVORIT", description: "Familie de presetupe din plastic pentru trecerea etanșă a cablurilor prin carcasă, cu seria PERFECT ca linie de bază (variante 50.6xx și 50.0xx) și variante speciale precum K348 (AirVent, cu egalizare de presiune) sau K349 (Fix). Seria UNI Dicht (18M, 15x) și seria FAVORIT (22.6xx) completează gama cu opțiuni de etanșare pentru diametre diferite de cablu." },
-      { name: "Presetupe din Metal PERFECT Metal și WADI", description: "Presetupe metalice pentru aplicații cu cerințe mecanice sau de ecranare mai ridicate, cu seria PERFECT Metal (50.6xx M, Y, ES) și seria WADI, disponibilă în variante pentru un singur cablu (K150, K252, K450), pentru intrare de cablu la cald (K155, K257) sau pentru montaj la zero (K160, K162)." },
+      { name: "Presetupe din Plastic PERFECT, UNI Dicht și FAVORIT", description: "Familie de presetupe din plastic pentru trecerea etanșă a cablurilor prin carcasă, cu seria PERFECT ca linie de bază (variante 50.6xx și 50.0xx) și variante speciale precum K348 (AirVent, cu egalizare de presiune) sau K341 (Fix). Seria UNI Dicht (18M, 15x) și seria FAVORIT (22.6xx) completează gama cu opțiuni de etanșare pentru diametre diferite de cablu." },
+      { name: "Presetupe din Metal PERFECT Metal și WADI", description: "Presetupe metalice pentru aplicații cu cerințe mecanice sau de ecranare mai ridicate, cu seria PERFECT Metal (50.6xx M, Y, ES) și seria WADI, disponibilă în mai multe variante (K150 – WADI one, K155 – WADI heat, K160, K162, K252, K257, K450), a căror destinație exactă o confirmăm pe cod, din documentația producătorului." },
       { name: "Plăci și Sisteme de Trecere a Cablurilor KADP/KADL", description: "Plăcile de trecere KADP și sistemele complete KADL permit organizarea mai multor cabluri printr-un singur punct de intrare în carcasă, utile la tablouri electrice sau echipamente cu multe cabluri de semnal și putere care intră în aceeași zonă." },
       { name: "Presetupe EMC și Ex", description: "Variante de presetupe cu contact de ecranare pentru compatibilitate electromagnetică (EMC) și variante certificate pentru zone cu atmosferă explozivă (Ex), pentru instalații industriale cu cerințe speciale de siguranță sau de reducere a interferențelor electromagnetice." }
     ],
@@ -810,8 +810,8 @@ Pentru România, Jacob GmbH are sens la tablouri electrice unde trebuie asigurat
     productCodes: [
       { code: "PERFECT plastic 50.6xx PA", description: "Presetupă de bază din plastic" },
       { code: "K348 AirVent", description: "Presetupă cu egalizare de presiune" },
-      { code: "K349 Fix", description: "Presetupă fixă, variantă specială" },
-      { code: "K341", description: "Presetupă din plastic, variantă specială" },
+      
+      { code: "K341 Fix", description: "Presetupă PERFECT Fix" },
       { code: "K344", description: "Presetupă din plastic, variantă specială" },
       { code: "K351", description: "Presetupă din plastic, variantă specială" },
       { code: "UNI Dicht 18M", description: "Presetupă cu etanșare pentru diametre variabile" },
@@ -822,9 +822,9 @@ Pentru România, Jacob GmbH are sens la tablouri electrice unde trebuie asigurat
       { code: "WADI K150", description: "Presetupă metalică pentru un singur cablu" },
       { code: "WADI K252", description: "Presetupă metalică pentru un singur cablu" },
       { code: "WADI K450", description: "Presetupă metalică pentru un singur cablu" },
-      { code: "WADI K155", description: "Presetupă pentru intrare de cablu la cald" },
-      { code: "WADI K257", description: "Presetupă pentru intrare de cablu la cald" },
-      { code: "WADI K160", description: "Presetupă pentru montaj la zero" },
+      { code: "WADI K155", description: "Presetupă WADI heat" },
+      { code: "WADI K257", description: "Presetupă din seria WADI" },
+      { code: "WADI K160", description: "Presetupă din seria WADI" },
       { code: "KADP", description: "Placă de trecere pentru mai multe cabluri" },
       { code: "KADL", description: "Sistem complet de intrare a cablurilor" }
     ],
@@ -836,8 +836,8 @@ Pentru România, Jacob GmbH are sens la tablouri electrice unde trebuie asigurat
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Jacob GmbH — Home", url: "https://www.jacob-gmbh.de/en/", publisher: "Jacob GmbH Elektrotechnische Fabrik", accessed: "2026-09-25" },
       { title: "Products — Jacob GmbH", url: "https://www.jacob-gmbh.de/en/products/", publisher: "Jacob GmbH Elektrotechnische Fabrik", accessed: "2026-09-25" }

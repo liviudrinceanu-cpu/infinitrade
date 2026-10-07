@@ -5,17 +5,17 @@ export const brandContentBatch53 = {
     name: "ReeR",
     founded: 1959,
     headquarters: "Torino, Italia",
-    overview: `ReeR este un producător italian din Torino, activ din 1959, specializat în senzori optoelectronici de siguranță pentru protecția mașinilor și a liniilor industriale. Divizia Sicurezza acoperă bariere fotoelectrice și cortine de lumină, controlere și interfețe de siguranță, dispozitive de protecție și cortine de măsurare optică, folosite acolo unde o mașină trebuie oprită automat când un operator ajunge într-o zonă periculoasă. Din gama ReeR putem oferta produse pentru integratori și utilizatori finali care au nevoie de sisteme de protecție optoelectronică pentru mașini industriale.
+    overview: `ReeR este un producător italian din Torino, activ de peste 60 de ani, specializat în senzori optoelectronici de siguranță pentru protecția mașinilor și a liniilor industriale. Divizia Sicurezza acoperă bariere fotoelectrice și cortine de lumină, controlere și interfețe de siguranță, dispozitive de protecție și cortine de măsurare optică, folosite acolo unde o mașină trebuie oprită automat când un operator ajunge într-o zonă periculoasă. Din gama ReeR putem oferta produse pentru integratori și utilizatori finali care au nevoie de sisteme de protecție optoelectronică pentru mașini industriale.
 
-ReeR concurează pe acest segment cu nume precum Pilz, dar rămâne o companie de dimensiune medie, concentrată aproape exclusiv pe cortine de lumină și controlere de siguranță, spre deosebire de portofoliile mult mai largi de automatizare ale unor concurenți generaliști. Compania operează și o a doua divizie, dedicată iluminatului profesional și becurilor în miniatură, complet separată de linia de siguranță industrială — un indiciu că inginerie optică aplicată există în firmă dincolo de senzorii de siguranță.
+Gama de siguranță ReeR cuprinde cortine de lumină, controlere, interblocări, scanere laser, senzori fără contact, fotocelule și encodere de siguranță. Compania are și o a doua divizie, ReeR Lighting, dedicată iluminatului, separată de linia de siguranță industrială.
 
 Pentru un integrator sau un utilizator final din România care proiectează protecția perimetrală a unei linii sau a unei mașini periculoase, gama ReeR e o opțiune de analizat alături de alte mărci de senzori de siguranță, mai ales la retrofit-uri unde trebuie înlocuit un senzor optoelectronic existent cu unul echivalent funcțional.`,
     whyChoose: [
       "Divizie dedicată exclusiv siguranței mașinilor, cu bariere fotoelectrice, cortine de lumină și controlere integrate în aceeași gamă",
-      "Prezență italiană continuă din 1959, cu sediu și activitate concentrate în zona Torino",
+      "Prezență italiană de peste 60 de ani, cu sediu și activitate concentrate la Torino",
       "Portofoliu care acoperă atât protecția perimetrală prin cortine de lumină, cât și cortine de măsurare optică pentru control dimensional",
-      "Companie de dimensiune medie și specializată, cu cicluri de decizie mai scurte pentru cereri tehnice punctuale",
-      "A doua divizie, de iluminat profesional, confirmă o cultură de inginerie optică aplicată dincolo de siguranța industrială"
+      "Companie cu sediul la Torino, cu divizii separate pentru siguranță industrială și iluminat",
+      "Divizie separată, ReeR Lighting, pentru iluminat, alături de linia de siguranță industrială"
     ],
     keyProducts: [
       {
@@ -37,7 +37,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       "Industria auto — perimetre de siguranță la celule robotizate",
       "Ambalare și paletizare — oprirea automată a liniei la intrarea unui operator în zona de lucru"
     ],
-    infinitrade: `Pentru ReeR lucrăm strict cu informațiile publice de pe site-ul producătorului și spunem clar ce putem și ce nu putem confirma: fără date proprii despre stocul din depozitele ReeR sau despre termenele reale de producție din Torino. Aducem senzori și module din gama Sicurezza la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al produsului sau al referinței pe care o înlocuiți, tensiunea de alimentare și tipul de interfață de siguranță cu care trebuie să comunice noul senzor. Nu promitem disponibilitate permanentă din stoc pentru această gamă, tocmai pentru că vine dintr-o linie de siguranță unde configurația corectă contează mai mult decât viteza de livrare.`,
+    infinitrade: `Nu avem vizibilitate asupra stocului producătorului sau asupra termenelor lui de producție; le confirmăm la fiecare ofertă. Aducem senzori și module din gama Sicurezza la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de codul exact al produsului sau al referinței pe care o înlocuiți, tensiunea de alimentare și tipul de interfață de siguranță cu care trebuie să comunice noul senzor. Nu promitem disponibilitate permanentă din stoc pentru această gamă, tocmai pentru că vine dintr-o linie de siguranță unde configurația corectă contează mai mult decât viteza de livrare.`,
     limitation: "Nu putem confirma certificările complete de produs (categorie, PL) sau suportul tehnic pentru integrarea într-un circuit de siguranță deja existent în fabrică, dincolo de furnizarea echipamentului.",
     productCodes: [
       {
@@ -50,23 +50,23 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         "code": "EOS4",
-        "description": "Cortină fotoelectrică de siguranță, generație mai nouă din gama EOS"
+        "description": "Cortină fotoelectrică de siguranță compactă din gama EOS, cu funcții de siguranță integrate"
       },
       {
         "code": "Admiral",
-        "description": "Cortină de siguranță pentru zone de acces controlat"
+        "description": "Cortină de siguranță din gama ReeR Safety"
       },
       {
         "code": "Safegate",
-        "description": "Cortină de siguranță pentru porți de acces automatizate"
+        "description": "Cortină de siguranță din gama ReeR Safety"
       },
       {
         "code": "Janus",
-        "description": "Cortină de siguranță optoelectronică pentru protecția mâinilor"
+        "description": "Cortină de siguranță optoelectronică din gama ReeR Safety"
       },
       {
         "code": "Vision",
-        "description": "Cortină de siguranță optoelectronică pentru aplicații generale"
+        "description": "Cortină de siguranță optoelectronică din gama ReeR Safety"
       },
       {
         "code": "Micron",
@@ -78,7 +78,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         "code": "Safelock (SLK)",
-        "description": "Dispozitiv de interblocare mecanică și electrică pentru protecții mobile"
+        "description": "Dispozitiv de interblocare pentru protecții mobile"
       },
       {
         "code": "Encoder de siguranță incremental",
@@ -88,7 +88,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
     faq: [
       {
         "q": "Ce diferență este între cortinele ReeR EOS2 și EOS4?",
-        "a": "Ambele fac parte din gama EOS de cortine fotoelectrice de siguranță, dar EOS4 reprezintă o generație ulterioară, cu opțiuni suplimentare de configurare și integrare în sisteme de automatizare mai complexe. Alegerea între cele două depinde de cerințele exacte ale mașinii protejate, de rezoluția de detecție necesară și de distanța la care trebuie amplasată cortina."
+        "a": "Ambele fac parte din gama EOS de cortine fotoelectrice de siguranță. Producătorul descrie EOS4 ca gamă compactă, cu modele cu funcții de siguranță integrate: ieșiri statice autoverificate, control al contactoarelor externe (EDM) și repornire automată sau manuală selectabilă. Alegerea între cele două depinde de cerințele exacte ale mașinii protejate, de rezoluția de detecție necesară și de distanța la care trebuie amplasată cortina."
       },
       {
         "q": "Ce este controlerul Mosaic de la ReeR?",
@@ -100,13 +100,13 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         "q": "Ce rol are seria Safelock SLK de la ReeR?",
-        "a": "Safelock SLK este o familie de interblocări de siguranță, disponibilă în variante mecanice și electrice, folosită pentru a bloca accesul la zone periculoase până când mașina ajunge într-o stare sigură. Se montează de obicei pe uși sau apărători mobile, alături de un controler precum Mosaic, pentru a forma un circuit complet de oprire în condiții de siguranță."
+        "a": "Safelock SLK este o familie de interblocări de siguranță, folosită la uși sau apărători mobile. Variantele disponibile și caracteristicile lor le confirmăm pe cod, din documentația ReeR."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"ReeR - Home","url":"https://www.reer.it/en/","publisher":"ReeR","accessed":"2026-09-25"},
       {"title":"ReeR Safety - Products","url":"https://www.reersafety.com/en/products/","publisher":"ReeR","accessed":"2026-09-25"},
@@ -117,30 +117,30 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
 
   'gimatic': {
     name: "Gimatic",
-    overview: `Gimatic este un producător italian de componente pentru automatizare industrială, cu accent pe prinderea și manipularea pieselor la capătul brațelor robotizate. Gama include gripere electrice unghiulare din seria MPBM, gripere electrice radiale din seria MPRM, module pneumatice culisante din seria ZV și suporturi de prindere precum MFI-A272, alături de o linie proprie de componente de vid. Din portofoliul Gimatic putem oferta atât gripere individuale, cât și componente de vid pentru celule robotizate.
+    overview: `Gimatic este un producător italian de componente pentru automatizare industrială, cu accent pe prinderea și manipularea pieselor la capătul brațelor robotizate. Gama include gripere electrice unghiulare din seria MPBM, gripere electrice radiale din seria MPRM, module pneumatice culisante din seria ZV și capete de tăiere pentru debavurare precum MFI-A272, alături de o linie proprie de componente de vid. Din portofoliul Gimatic putem oferta atât gripere individuale, cât și componente de vid pentru celule robotizate.
 
-Spre deosebire de furnizorii axați exclusiv pe vid, precum Vuototecnica, Gimatic acoperă în paralel griparea mecanică — electrică și pneumatică — și tehnologia de vid, ceea ce simplifică alegerea când o celulă robotizată combină ambele principii de prindere. Griperele electrice din seriile MPBM și MPRM rămân închise fără consum electric în starea de prindere și nu necesită programare suplimentară, păstrând piesa prinsă chiar și la o eventuală întrerupere de curent — un argument relevant pentru linii unde o cădere de tensiune nu trebuie să însemne și scăparea piesei manipulate.
+Spre deosebire de furnizorii axați exclusiv pe vid, precum Vuototecnica, Gimatic acoperă în paralel griparea mecanică — electrică și pneumatică — și tehnologia de vid, ceea ce simplifică alegerea când o celulă robotizată combină ambele principii de prindere. Seriile de gripere electrice MPBM (unghiulare) și MPRM (radiale) acoperă aplicațiile în care se preferă acționarea electrică celei pneumatice; comportamentul la întreruperea alimentării îl confirmăm pe cod, din documentația Gimatic.
 
 Pentru integratorii din România care montează celule de sortare, debavurare sau injecție de mase plastice, gama Gimatic e o opțiune pentru componenta finală de prindere a robotului, acolo unde trebuie alese cursa, forța de strângere și interfața mecanică potrivite piesei manipulate.`,
     whyChoose: [
-      "Gripere electrice MPBM și MPRM care rămân închise fără curent electric, utile la linii unde o cădere de tensiune nu trebuie să elibereze piesa",
+      "Gripere electrice unghiulare MPBM și radiale MPRM, pentru aplicații cu acționare electrică",
       "Portofoliu care acoperă atât prinderea mecanică (pneumatică și electrică), cât și componentele de vid, sub aceeași marcă",
       "Module pneumatice culisante din seria ZV, cu ghidaj cu bile recirculante, pentru mișcări liniare precise la capătul brațului robotic",
       "Suporturi reglabile precum MFI-A272, cu unghi ajustabil continuu, pentru poziționarea fină a lamei sau a griperului pe robot",
-      "Griperele electrice nu necesită programare suplimentară, ceea ce scurtează timpul de punere în funcțiune a unei celule noi"
+      "Gripere electrice și pneumatice pentru automatizare industrială, într-o singură gamă"
     ],
     keyProducts: [
       {
         name: "Gripere Electrice Unghiulare Seria MPBM",
-        description: "Gripere acționate electric, cu deschidere unghiulară, care nu consumă energie în starea de prindere și nu necesită o programare separată pentru funcționare — piesa rămâne prinsă chiar dacă mașina pierde alimentarea. Folosite la prinderea și extragerea pieselor din matriță în injecția de mase plastice sau la manipularea semifabricatelor în debavurare. Pentru ofertă avem nevoie de cursa de deschidere, forța de strângere necesară și tipul de interfață de montaj pe robot."
+        description: "Gripere acționate electric, cu deschidere unghiulară. Folosite la prinderea și extragerea pieselor din matriță în injecția de mase plastice sau la manipularea semifabricatelor în debavurare. Pentru ofertă avem nevoie de cursa de deschidere, forța de strângere necesară și tipul de interfață de montaj pe robot."
       },
       {
         name: "Gripere Electrice Radiale Seria MPRM",
-        description: "Variantă radială a acelorași gripere electrice, cu fălcile deschizându-se pe direcție paralelă cu axa griperului, potrivită acolo unde geometria piesei sau spațiul disponibil în celulă nu permit deschiderea unghiulară. Păstrează aceleași avantaje de funcționare fără programare și fără consum electric la prindere. Selecția corectă depinde de dimensiunea și greutatea piesei manipulate."
+        description: "Variantă radială a acelorași gripere electrice, cu fălcile deschizându-se radial, potrivită acolo unde geometria piesei sau spațiul disponibil în celulă nu permit deschiderea unghiulară. Selecția corectă depinde de dimensiunea și greutatea piesei manipulate."
       },
       {
         name: "Module Pneumatice Culisante Seria ZV",
-        description: "Slide-uri pneumatice cu ghidaj cu bile recirculante și dublă acționare, folosite pentru mișcări liniare de scurtă cursă la capătul brațului robotic — de exemplu pentru a apropia sau retrage un grippers dintr-o zonă îngustă. Se montează de obicei împreună cu un gripper sau un suport de lamă din aceeași gamă. Pentru ofertă avem nevoie de cursa necesară și presiunea de aer disponibilă în instalație."
+        description: "Slide-uri pneumatice cu ghidaj cu bile recirculante și dublă acționare, folosite pentru mișcări liniare de scurtă cursă la capătul brațului robotic — de exemplu pentru a apropia sau retrage un griper dintr-o zonă îngustă. Se montează de obicei împreună cu un gripper sau un suport de lamă din aceeași gamă. Pentru ofertă avem nevoie de cursa necesară și presiunea de aer disponibilă în instalație."
       },
       {
         name: "Componente de Vid",
@@ -153,12 +153,12 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
       "Prelucrare prin așchiere — îndepărtarea bavurilor și manipularea semifabricatelor",
       "Ambalare și paletizare — prindere prin vid pentru cutii sau folii"
     ],
-    infinitrade: `Pentru Gimatic ne bazăm exclusiv pe informațiile publice de pe site-ul producătorului, fără date proprii despre stocul din fabrica italiană sau despre termenele lor interne de producție. Furnizăm gripere și componente de vid din gama Gimatic la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ca să pregătim o ofertă corectă, avem nevoie de seria exactă a griperului sau modulului — MPBM, MPRM, ZV sau altă referință —, cursa ori forța necesară și interfața de montaj pe robot. Nu putem promite disponibilitate permanentă din stoc pentru fiecare referință din această gamă amplă de componente.`,
+    infinitrade: `Disponibilitatea și termenul pentru fiecare referință le confirmăm la fiecare ofertă. Furnizăm gripere și componente de vid din gama Gimatic la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ca să pregătim o ofertă corectă, avem nevoie de seria exactă a griperului sau modulului — MPBM, MPRM, ZV sau altă referință —, cursa ori forța necesară și interfața de montaj pe robot. Nu putem promite disponibilitate permanentă din stoc pentru fiecare referință din această gamă amplă de componente.`,
     limitation: "Nu putem confirma parametrii tehnici exacți — curse, forțe, diametre — pentru fiecare variantă din gama de gripere sau componente de vid fără specificația de comandă a clientului.",
     productCodes: [
       {
         "code": "MPBM",
-        "description": "Griper electric angular cu autocentrare, fără consum de energie la strângere"
+        "description": "Griper electric angular"
       },
       {
         "code": "MPBM1640",
@@ -178,7 +178,7 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
       },
       {
         "code": "ZV",
-        "description": "Modul pneumatic culisant cu alimentare din spate și ghidaj cu role recirculante"
+        "description": "Modul pneumatic culisant, dublu efect, cu ghidaj cu bile recirculante reglabil"
       },
       {
         "code": "SGP-S",
@@ -208,7 +208,7 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
     faq: [
       {
         "q": "Ce diferență este între griperele electrice Gimatic MPBM și MPRM?",
-        "a": "MPBM este un griper electric angular, cu fălcile care se deschid ca un compas, în timp ce MPRM este un griper radial, cu fălcile care se mișcă liniar spre centru. Ambele au motor fără perii integrat și nu consumă energie electrică în timp ce piesa rămâne prinsă, dar geometria de deschidere le face potrivite pentru forme diferite de piese."
+        "a": "MPBM este un griper electric angular, cu fălcile care se deschid ca un compas, în timp ce MPRM este un griper radial, cu fălcile care se mișcă liniar spre centru. Ambele sunt acționate electric, dar geometria de deschidere le face potrivite pentru forme diferite de piese."
       },
       {
         "q": "Ce este modulul pneumatic ZV de la Gimatic?",
@@ -225,8 +225,8 @@ Pentru integratorii din România care montează celule de sortare, debavurare sa
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Gimatic - Products","url":"https://www.gimatic.com/en/products","publisher":"Gimatic","accessed":"2026-09-25"},
       { title: "Gimatic — Gripping and Vacuum Technology (Homepage)", url: "https://www.gimatic.com", publisher: "Gimatic S.r.l.", accessed: "2026-09-22" },
@@ -247,7 +247,7 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
       "Continuitate de peste un secol în producția de componente de precizie pentru arbori principali, din 1908 până azi",
       "Gamă completă de etanșări fără contact pe serii CF, L/M și S/SA, pentru turații mari fără frecare suplimentară",
       "Cuplaje cu roată liberă de tip sprag, pentru transmiterea mișcării într-un singur sens la sisteme de indexare",
-      "Parte din grupul familial Paul Müller Industrie, cu inginerie proprie de spindle, nu doar de rulment cumpărat din altă parte",
+      "Parte din grupul familial Paul Müller Industrie, aflat la a patra generație, cu rulmenți, spindle-uri, cuplaje, etanșări și motoare în același portofoliu",
       "Portofoliu care acoperă atât rulmentul individual, cât și spindle-ul complet de șlefuit sau frezat"
     ],
     keyProducts: [
@@ -278,16 +278,16 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
       "Foraj de precizie — componente pentru capete de găurire de mare viteză",
       "Aplicații de vid — etanșări și rulmenți pentru echipamente de vacuum"
     ],
-    infinitrade: `Lucrăm cu gama GMN pe baza informațiilor publicate de producător pe site-ul oficial, fără acces la date proprii despre stocul din Nürnberg sau la termenele reale de fabricație ale unui spindle personalizat. Aducem rulmenți, cuplaje, etanșări și spindle-uri GMN la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă utilizabilă, avem nevoie de dimensiunile arborelui existent, turația de lucru și, dacă e vorba de un spindle complet, modelul mașinii pe care se montează. Fiind componente de precizie, nu păstrăm stoc pe fiecare variantă și nu putem asigura termene mai scurte decât cele indicate de producător pentru piesele configurate special.`,
+    infinitrade: `Disponibilitatea și termenul de fabricație ale unui spindle personalizat le confirmăm la fiecare ofertă. Aducem rulmenți, cuplaje, etanșări și spindle-uri GMN la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni din momentul confirmării comenzii. Pentru o ofertă utilizabilă, avem nevoie de dimensiunile arborelui existent, turația de lucru și, dacă e vorba de un spindle complet, modelul mașinii pe care se montează. Fiind componente de precizie, nu păstrăm stoc pe fiecare variantă și nu putem asigura termene mai scurte decât cele indicate de producător pentru piesele configurate special.`,
     limitation: "Nu putem confirma toleranțele exacte sau clasa de precizie a unui rulment fără codul complet de comandă transmis de client.",
     productCodes: [
       {
         "code": "IDEA-4S",
-        "description": "Spindle din gama de mandrine cu schimbare automată a sculei"
+        "description": "Sistem de monitorizare a spindle-urilor, cu achiziție și evaluare integrată a datelor"
       },
       {
         "code": "UH",
-        "description": "Motor electric integrat de mare viteză"
+        "description": "Serie de produse GMN; încadrarea și datele tehnice le confirmăm pe cod, din documentația producătorului"
       },
       {
         "code": "Seria CF",
@@ -358,8 +358,8 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"GMN - Home","url":"https://www.gmn.de/en/","publisher":"GMN","accessed":"2026-09-25"},
       {"title":"GMN - Spindles","url":"https://www.gmn.de/en/products/spindles/","publisher":"GMN","accessed":"2026-09-25"},
@@ -374,14 +374,14 @@ Pentru ateliere de prelucrare din România care întrețin mașini de șlefuit s
     headquarters: "Vimercate, Italia",
     overview: `Rollon este un producător italian de sisteme de mișcare liniară, fondat în 1975 de inginerul Pino Sacheli la Sesto San Giovanni și mutat, în 2001, cu sediul italian la Vimercate, lângă Milano. Din 2018 face parte din grupul american The Timken Company, alături de alte mărci de mișcare liniară precum Nadella sau Durbal. Din gama Rollon putem oferta ghidaje liniare, șine telescopice, actuatoare liniare, sisteme multi-axe și șuruburi cu bile din seriile XP, XL și XT, pentru aplicații unde piesele trebuie deplasate precis pe o cursă liniară.
 
-Spre deosebire de Bosch Rexroth, care acoperă întreaga gamă de automatizare hidraulică și electrică, Rollon rămâne concentrat pe mișcarea liniară — ghidaje, șine telescopice și actuatoare —, cu variante dedicate pentru sarcini mari în seria XL Xtrem Load, poziționare de precizie în seria XP Xtrem Position sau transport în seria XT Xtrem Transport. Compania operează în 11 țări, cu 14 unități de producție, ceea ce înseamnă acces la mai multe linii de fabricație pentru aceeași familie de produse, nu doar la o singură fabrică centrală.
+Spre deosebire de Bosch Rexroth, care acoperă întreaga gamă de automatizare hidraulică și electrică, Rollon rămâne concentrat pe mișcarea liniară — ghidaje, șine telescopice și actuatoare —, cu șuruburi cu bile din seriile XP, XL și XT. Compania operează în 11 țări, cu 14 unități de producție, ceea ce înseamnă acces la mai multe linii de fabricație pentru aceeași familie de produse, nu doar la o singură fabrică centrală.
 
 Pentru linii de automatizare sau depozitare din România, gama Rollon e relevantă la sisteme de extindere telescopică — sertare industriale, platforme de acces — și la axele liniare din celule robotizate, acolo unde greutatea sau cursa depășesc ce oferă un ghidaj liniar standard.`,
     whyChoose: [
       "Peste 50 de ani de specializare exclusivă pe sisteme de mișcare liniară, din 1975 până azi",
-      "Trei familii de șuruburi cu bile — XP pentru poziționare, XL pentru sarcini mari, XT pentru transport — pentru cerințe diferite pe aceeași platformă mecanică",
+      "Șuruburi cu bile din seriile XP, XL și XT; caracteristicile fiecărei serii se confirmă pe cod, din documentația Rollon",
       "14 unități de producție în 11 țări, prin apartenența la grupul Timken",
-      "Portofoliu extins prin achizițiile Nadella și Durbal, cu acces la tehnologii complementare de mișcare liniară",
+      "Portofoliu extins în grupul Timken prin Nadella Group și Rosa Sistemi (achiziționate în 2023), alături de Durbal, cu acces la tehnologii complementare de mișcare liniară",
       "Șine telescopice folosite atât la sertare industriale, cât și la sisteme de acces pentru mentenanță"
     ],
     keyProducts: [
@@ -399,7 +399,7 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
       },
       {
         name: "Șuruburi cu Bile Seriile XP, XL, XT",
-        description: "Trei familii de șuruburi cu bile gândite pentru cerințe diferite: XP Xtrem Position pentru repetabilitate mare de poziționare, XL Xtrem Load pentru sarcini radiale sau axiale ridicate, și XT Xtrem Transport pentru viteze mari de deplasare pe curse lungi. Selecția depinde de combinația specifică sarcină-viteză-precizie a aplicației."
+        description: "Șuruburi cu bile din seriile XP, XL și XT; caracteristicile fiecărei serii (sarcină, viteză, precizie) le confirmăm pe cod, din documentația Rollon. Selecția depinde de combinația specifică sarcină-viteză-precizie a aplicației."
       }
     ],
     industries: [
@@ -409,7 +409,7 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
       "Manipulare materiale — șine telescopice pentru sertare și platforme de acces",
       "Calea ferată — componente de mișcare liniară pentru echipamente feroviare"
     ],
-    infinitrade: `Pentru Rollon ne ghidăm după informațiile publicate pe site-ul global al producătorului și pe pagina americană a companiei, fără vizibilitate proprie asupra stocului din fabricile din Italia sau din celelalte țări unde Rollon produce. Livrăm ghidaje, șine telescopice și șuruburi cu bile din gama Rollon la comandă, prin canale de aprovizionare din Uniunea Europeană, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Pentru a pregăti o ofertă, avem nevoie de seria exactă — XP, XL sau XT —, cursa necesară și sarcina pe care trebuie să o susțină sistemul. Nu putem promite disponibilitate permanentă din stoc pentru fiecare lungime sau variantă din această gamă.`,
+    infinitrade: `Disponibilitatea și termenul pentru fiecare referință Rollon le confirmăm la fiecare ofertă. Livrăm ghidaje, șine telescopice și șuruburi cu bile din gama Rollon la comandă, prin canale de aprovizionare din Uniunea Europeană, iar termenul orientativ este de 1–4 săptămâni de la confirmare. Pentru a pregăti o ofertă, avem nevoie de seria exactă — XP, XL sau XT —, cursa necesară și sarcina pe care trebuie să o susțină sistemul. Nu putem promite disponibilitate permanentă din stoc pentru fiecare lungime sau variantă din această gamă.`,
     limitation: "Nu putem confirma compatibilitatea unui ghidaj sau a unei șine telescopice cu un sistem existent fără desenul tehnic sau codul complet transmis de client.",
     productCodes: [
       {
@@ -457,11 +457,11 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
         "description": "Șurub cu bile de precizie, pentru aplicații de poziționare"
       },
       {
-        "code": "XL Xtrem High Load",
+        "code": "XL Xtrem Load",
         "description": "Șurub cu bile pentru sarcini mari"
       },
       {
-        "code": "XT Xtreme Transport",
+        "code": "XT Xtrem Transport",
         "description": "Șurub cu bile pentru aplicații de transport"
       },
       {
@@ -484,11 +484,11 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
     faq: [
       {
         "q": "Ce diferență este între ghidajele Rollon Compact Rail și V-Line 2?",
-        "a": "Compact Rail folosește bile montate pe un profil C din oțel călit, potrivit pentru sarcini medii, în timp ce V-Line 2 are un profil V cu bile de formă corespunzătoare, gândit pentru sarcini mai mari și cicluri de funcționare intense. Alegerea depinde de greutatea deplasată, de viteza de lucru și de spațiul disponibil pentru montaj."
+        "a": "Compact Rail este un ghidaj autoaliniabil cu rulmenți, cu profil C din oțel carbon tras la rece, cu căi de rulare călite prin inducție și rectificate, în timp ce V-Line 2 are profil în V, cu căi de rulare călite și rulmenți cu bile în V, pentru cicluri de funcționare intense chiar și la sarcini mari. Alegerea depinde de greutatea deplasată, de viteza de lucru și de spațiul disponibil pentru montaj."
       },
       {
-        "q": "Ce este șurubul cu bile Rollon XT Xtreme Transport?",
-        "a": "XT Xtreme Transport este un șurub cu bile din gama Rollon dedicat aplicațiilor de transport, unde se cere o mișcare liniară precisă pe distanțe mari, la viteze constante. Alături de acesta, gama include XP Xtrem Position, orientat spre poziționare de precizie, și XL Xtrem High Load, pentru situații cu sarcini axiale ridicate."
+        "q": "Ce este șurubul cu bile Rollon XT Xtrem Transport?",
+        "a": "XT este o serie de șuruburi cu bile din gama Rollon. Alături de ea, gama include seriile XP și XL; destinația și caracteristicile fiecărei serii le confirmăm pe cod, din documentația Rollon."
       },
       {
         "q": "Livrați ghidaje liniare Rollon în România?",
@@ -501,8 +501,8 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Rollon - Linear Rails and Guides","url":"https://www.rollon.com/usa/en/line/linear-guides/","publisher":"Rollon","accessed":"2026-09-25"},
       { title: "Rollon — Linear Motion Systems (Homepage)", url: "https://www.rollon.com/", publisher: "Rollon S.p.A.", accessed: "2026-09-22" },
@@ -514,14 +514,14 @@ Pentru linii de automatizare sau depozitare din România, gama Rollon e relevant
     name: "Nord-Lock",
     overview: `Nord-Lock Group este un grup de origine suedeză specializat exclusiv în fixarea sigură a îmbinărilor cu șurub, prin patru tehnologii de brand: șaibele Nord-Lock, sistemele de tensionare Superbolt, sistemul hidraulic Boltight și Expander System. Din portofoliul grupului putem oferta în principal gama de șaibe Nord-Lock, folosite acolo unde o îmbinare cu șurub e supusă la vibrații sau șocuri dinamice și nu își poate permite să se desfacă singură în timp.
 
-Diferența față de o șaibă de asigurare obișnuită sau față de un adeziv pentru filet e că gama Nord-Lock adună sub aceeași umbrelă patru abordări diferite ale aceleiași probleme — de la șaiba individuală, până la sisteme de tensionare controlată pentru șuruburi mari, folosite la flanșe sau la asamblări industriale grele. Grupul e prezent, prin distribuție și producție, în zeci de țări (printre care SUA, Marea Britanie, Germania, Franța, Suedia, Australia, Japonia, China, India și Brazilia), ceea ce înseamnă acces relativ ușor la documentație tehnică pentru oricare din cele patru branduri.
+Diferența față de o șaibă de asigurare obișnuită sau față de un adeziv pentru filet e că gama Nord-Lock adună sub aceeași umbrelă patru abordări diferite ale aceleiași probleme — de la șaiba individuală, până la sisteme de tensionare controlată pentru șuruburi mari, folosite la flanșe sau la asamblări industriale grele. Grupul are site-uri dedicate mai multor piețe, printre care SUA, Marea Britanie, Germania, Franța, Suedia, Australia, Japonia, China, India și Brazilia.
 
 Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales la reasamblarea flanșelor și îmbinărilor supuse la vibrații — pompe, compresoare, utilaje grele — unde o șaibă obișnuită s-a dovedit insuficientă în timp.`,
     whyChoose: [
       "Patru tehnologii de brand distincte — Nord-Lock, Superbolt, Boltight, Expander System — pentru fixarea sigură a șuruburilor, sub același grup",
       "Soluție dedicată special problemei de desfacere a șuruburilor la vibrații, nu un accesoriu generic de fixare",
       "Sistemele Superbolt și Boltight se adresează șuruburilor mari, la flanșe și asamblări industriale grele",
-      "Prezență prin distribuție și producție în zeci de țări, utilă pentru continuitatea aprovizionării cu piese din aceeași gamă"
+      "Site-uri dedicate mai multor piețe, pentru documentație și contact local"
     ],
     keyProducts: [
       {
@@ -547,7 +547,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       "Mentenanță industrială — înlocuirea sistemelor de fixare care s-au desprins în timp",
       "Construcția de mașini — îmbinări cu șurub în subansamble vibrante"
     ],
-    infinitrade: `Pentru Nord-Lock Group lucrăm cu informația publică de pe pagina grupului, fără acces la cataloage tehnice complete sau la stocul real al fiecărui brand din portofoliu — Nord-Lock, Superbolt, Boltight, Expander System. Comandăm pentru client produse din acest portofoliu, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de diametrul șurubului, aplicația exactă — flanșă, fundație, cuplaj — și, dacă există, codul de referință al piesei pe care o înlocuiește. Nu promitem disponibilitate permanentă din stoc pentru vreuna din cele patru tehnologii ale grupului.`,
+    infinitrade: `Disponibilitatea fiecărui brand din portofoliu — Nord-Lock, Superbolt, Boltight, Expander System — o confirmăm la fiecare ofertă. Comandăm pentru client produse din acest portofoliu, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de diametrul șurubului, aplicația exactă — flanșă, fundație, cuplaj — și, dacă există, codul de referință al piesei pe care o înlocuiește. Nu promitem disponibilitate permanentă din stoc pentru vreuna din cele patru tehnologii ale grupului.`,
     limitation: "Nu putem confirma parametrii tehnici — cupluri, diametre, toleranțe — pentru niciuna din cele patru tehnologii fără fișa de produs specifică de la producător.",
     productCodes: [
       {
@@ -560,7 +560,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       },
       {
         "code": "NL16sp",
-        "description": "Șaibă de asigurare din oțel, variantă cu spirală"
+        "description": "Șaibă de asigurare din oțel, seria sp; caracteristicile se confirmă pe cod, din documentația Nord-Lock"
       },
       {
         "code": "NL20ss-254",
@@ -580,7 +580,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       },
       {
         "code": "NL1/2\"sp",
-        "description": "Șaibă de asigurare cu spirală pentru filet de o jumătate de țol"
+        "description": "Șaibă de asigurare din seria sp pentru filet de o jumătate de țol"
       },
       {
         "code": "Superbolt tensionor tip piuliță (MJT)",
@@ -619,8 +619,8 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"NL14, Lock Washer Steel","url":"https://www.nord-lock.com/en-gb/shop/washers/steel/nl14/","publisher":"Nord-Lock Group","accessed":"2026-09-25"},
       {"title":"Superbolt HyFit Hydraulic Expansion Coupling Bolts","url":"https://www.nord-lock.com/en-us/superbolt/products/hyfit/","publisher":"Nord-Lock Group","accessed":"2026-09-25"},
@@ -652,11 +652,11 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
       },
       {
         name: "Transformatoare de Putere Medie",
-        description: "Segment produs în mai multe fabrici ale grupului — Germania, Malaysia, SUA —, pentru puteri intermediare între distribuția de bază și transformatoarele de mare putere, folosit la substații industriale și de rețea de dimensiune medie."
+        description: "Segment produs în fabricile grupului, pentru puteri intermediare între distribuția de bază și transformatoarele de mare putere, folosit la substații industriale și de rețea de dimensiune medie."
       },
       {
         name: "Transformatoare de Distribuție în Ulei",
-        description: "Gamă de 50 până la 2.500 kVA, produsă în Germania și Malaysia, cu peste 60 de ani de experiență declarată de producător în acest segment. Reprezintă soluția standard pentru posturi de transformare industriale sau de rețea de joasă și medie tensiune. Pentru ofertă avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj (interior sau exterior)."
+        description: "Gamă de 50 până la 2.500 kVA, cu peste 60 de ani de experiență declarată de producător în acest segment. Reprezintă soluția standard pentru posturi de transformare industriale sau de rețea de joasă și medie tensiune. Pentru ofertă avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj (interior sau exterior)."
       },
       {
         name: "Transformatoare Uscate în Rășină Turnată",
@@ -664,16 +664,16 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
       },
       {
         name: "Stații Compacte",
-        description: "Posturi de transformare prefabricate, din seriile LCS-E, NDV400/401 și NDV1600/2500, produse la fabrica din Neumark, Germania, gândite pentru montaj rapid acolo unde nu se justifică o clădire dedicată de post de transformare."
+        description: "Posturi de transformare prefabricate, din seriile LCS-E, NDV400/401 și NDV1600/2500, produse la fabrica din Neumark, Germania, pentru posturi de transformare prefabricate; configurația se confirmă pe cod."
       }
     ],
     industries: [
       "Producție și distribuție de energie electrică — transformatoare de rețea și de putere",
       "Industrie — posturi de transformare pentru consumatori industriali mari",
-      "Căi ferate — transformatoare pentru alimentarea infrastructurii feroviare",
-      "Infrastructură — porturi, clădiri înalte și centre de date cu necesar propriu de transformare"
+      "Industrie grea și utilități — transformatoare pentru alimentarea consumatorilor de putere mare",
+      "Infrastructură — clădiri și instalații cu necesar propriu de transformare"
     ],
-    infinitrade: `Pentru SGB-SMIT ne bazăm pe fișele de produs publicate de producător, fără date proprii despre programul lor de producție sau despre stocul disponibil în fiecare fabrică a grupului. Aducem transformatoare din gama SGB-SMIT la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni pentru unități standard de catalog — proiectele speciale, configurate pe cerere, au termene stabilite direct de producător, pe care le comunicăm clientului odată confirmate. Pentru o ofertă, avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj dorit. Nu promitem disponibilitate permanentă din stoc, fiindcă majoritatea unităților se fabrică la comandă pe specificația proiectului.`,
+    infinitrade: `Programul de producție și disponibilitatea le confirmăm la fiecare ofertă. Aducem transformatoare din gama SGB-SMIT la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni pentru unități standard de catalog — proiectele speciale, configurate pe cerere, au termene stabilite direct de producător, pe care le comunicăm clientului odată confirmate. Pentru o ofertă, avem nevoie de puterea nominală, tensiunea primară și secundară și tipul de montaj dorit. Nu promitem disponibilitate permanentă din stoc, fiindcă majoritatea unităților se fabrică la comandă pe specificația proiectului.`,
     limitation: "Nu putem confirma termenul de fabricație pentru un transformator configurat special, în afara celui orientativ pe care îl comunicăm pentru unități de catalog.",
     productCodes: [
       {
@@ -710,7 +710,7 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
       },
       {
         "code": "Transformator de putere medie",
-        "description": "Produs în Germania, Malaezia și Statele Unite"
+        "description": "Produs în fabricile grupului"
       },
       {
         "code": "Transformator de distribuție în ulei",
@@ -732,25 +732,25 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
     faq: [
       {
         "q": "Ce este stația compactă LCS-E de la SGB-SMIT?",
-        "a": "LCS-E este o stație compactă de distribuție produsă de SGB-SMIT, gândită pentru instalații unde transformatorul, celulele de medie tensiune și tabloul de joasă tensiune trebuie integrate într-un spațiu redus. Alături de LCS-E, gama include și modelele NDV400, NDV401, NDV1600 și NDV2500, cu capacități diferite pentru proiecte de distribuție a energiei electrice."
+        "a": "LCS-E este o stație compactă de distribuție produsă de SGB-SMIT, produsă la Neumark, Germania, iar configurația ei exactă o confirmăm pe cod. Alături de LCS-E, gama include și modelele NDV400, NDV401, NDV1600 și NDV2500, cu capacități diferite pentru proiecte de distribuție a energiei electrice."
       },
       {
         "q": "Ce diferență este între un transformator uscat în rășină turnată și unul VPI la SGB-SMIT?",
-        "a": "Transformatorul în rășină turnată încapsulează bobinele într-un bloc solid de rășină epoxidică, oferind o rezistență bună la umiditate și un întreținere redusă, în timp ce varianta cu impregnare VPI folosește un proces de impregnare sub vid, potrivit pentru aplicații cu cerințe termice diferite. Alegerea depinde de mediul de instalare și de bugetul proiectului."
+        "a": "Transformatorul în rășină turnată încapsulează bobinele într-un bloc solid de rășină epoxidică, oferind o rezistență bună la umiditate și o întreținere redusă, în timp ce varianta cu impregnare VPI folosește un proces de impregnare sub vid, potrivit pentru aplicații cu cerințe termice diferite. Alegerea depinde de mediul de instalare și de bugetul proiectului."
       },
       {
         "q": "Livrați transformatoare SGB-SMIT în România?",
-        "a": "Da, transformatoarele SGB-SMIT se realizează și livrează la cerere, cu un termen estimat de 1–4 săptămâni, deoarece fiecare unitate se produce conform puterii și tensiunii solicitate, fără un stoc propriu pe raft. Pentru o ofertă avem nevoie de puterea nominală, nivelul de tensiune, tipul de montaj, în ulei sau uscat, și locul de instalare."
+        "a": "Da, transformatoarele SGB-SMIT se comandă la cerere: fiecare unitate se produce conform puterii și tensiunii solicitate, fără un stoc propriu pe raft, iar termenul se confirmă după analiza specificației (pentru unități configurate, de regulă peste 4 săptămâni). Pentru o ofertă avem nevoie de puterea nominală, nivelul de tensiune, tipul de montaj, în ulei sau uscat, și locul de instalare."
       },
       {
         "q": "Ce putere acoperă transformatoarele de distribuție în ulei SGB-SMIT?",
-        "a": "Transformatoarele de distribuție în ulei produse de SGB-SMIT acoperă un interval de putere între 50 și 2500 kVA, fiind fabricate atât în Germania, cât și în Malaezia. Pentru puteri mai mari sau tensiuni ridicate, producătorul oferă transformatoare de putere medie și mare, respectiv autotransformatoare și transformatoare de rețea, dedicate proiectelor de infrastructură electrică."
+        "a": "Transformatoarele de distribuție în ulei produse de SGB-SMIT acoperă un interval de putere între 50 și 2500 kVA, fiind produse în fabricile grupului. Pentru puteri mai mari sau tensiuni ridicate, producătorul oferă transformatoare de putere medie și mare, respectiv autotransformatoare și transformatoare de rețea, dedicate proiectelor de infrastructură electrică."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"SGB-SMIT - Products","url":"https://www.sgb-smit.com/products/","publisher":"SGB-SMIT Group","accessed":"2026-09-25"},
       { title: "SGB-SMIT Group — Homepage", url: "https://www.sgb-smit.com/", publisher: "SGB-SMIT Group", accessed: "2026-09-22" },
@@ -762,16 +762,16 @@ Pentru proiecte de rețea sau posturi de transformare din România, gama SGB-SMI
     name: "UFI Filters",
     founded: 1971,
     headquarters: "Porto Mantovano (Mantova), Italia",
-    overview: `UFI Filters este un producător italian de sisteme de filtrare, cu sediul la Porto Mantovano, lângă Mantova, și activitate din 1971. Gama acoperă șapte linii de filtrare — aer motor, aer multitub, ulei, combustibil, transmisie, aer de habitaclu și filtre HEPA — plus șapte linii de gestionare termică și peste 6.000 de referințe de filtre hidraulice. Din portofoliul UFI Filters putem oferta filtre pentru motoare și pentru sisteme hidraulice industriale.
+    overview: `UFI Filters este un producător italian de sisteme de filtrare, cu sediul la Porto Mantovano, lângă Mantova, și activitate din 1971. Gama acoperă filtre de aer, ulei, combustibil, habitaclu și hidraulice, plus sisteme de gestionare termică. Din portofoliul UFI Filters putem oferta filtre pentru motoare și pentru sisteme hidraulice industriale.
 
-Spre deosebire de Mann+Hummel, care acoperă în principal segmentul auto și industrial general, UFI Filters are și o linie dedicată motorsport-ului și aerospațialului, cu proceduri conforme cerințelor EASA pentru componentele destinate aviației. Compania operează 21 de site-uri industriale în 21 de țări, cu peste 4.000 de angajați și trei centre proprii de cercetare, unde declară peste 280 de brevete înregistrate — un indiciu că nu doar asamblează filtre, ci și proiectează materialul filtrant.
+UFI Filters are și aplicații în motorsport și aerospațial: potrivit producătorului, produsele sale ajung de la echipe din Formula 1 până la nava spațială europeană ExoMars. Compania operează 21 de site-uri industriale în 21 de țări, cu peste 4.000 de angajați și trei centre proprii de cercetare, unde declară peste 280 de brevete înregistrate — un indiciu că nu doar asamblează filtre, ci și proiectează materialul filtrant.
 
 Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, gama UFI Filters e o opțiune la înlocuirea filtrelor de întreținere periodică sau la completarea unei linii hidraulice unde filtrul original nu mai e disponibil rapid.`,
     whyChoose: [
-      "Șapte linii de filtrare — aer motor, aer multitub, ulei, combustibil, transmisie, aer habitaclu, HEPA — sub aceeași marcă",
-      "Peste 6.000 de referințe de filtre hidraulice, utile pentru echipamente industriale cu circuite hidraulice variate",
+      "Filtre de aer, ulei, combustibil, habitaclu și hidraulice, plus sisteme termice, sub aceeași marcă",
+      "Gamă hidraulică (filtre de aspirație, presiune, retur, off-line și de transmisie), utilă pentru echipamente industriale cu circuite hidraulice variate",
       "Certificări IATF 16949 pentru industria auto, EN 9100 pentru aerospațial și AQAP 2110 pentru apărare",
-      "Proceduri conforme cerințelor EASA pentru componentele destinate aviației, dincolo de segmentul auto de bază",
+      "Aplicații în motorsport și aerospațial, dincolo de segmentul auto de bază",
       "Trei centre proprii de cercetare și peste 280 de brevete declarate, semn de inginerie proprie a materialului filtrant"
     ],
     keyProducts: [
@@ -789,17 +789,17 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
       },
       {
         name: "Filtre Hidraulice",
-        description: "Peste 6.000 de referințe pentru circuite hidraulice industriale, folosite la utilaje, prese sau echipamente cu sisteme hidraulice de putere. Din cauza numărului mare de referințe, avem nevoie de codul exact al filtrului original sau de datele complete ale echipamentului pentru a identifica varianta corectă."
+        description: "Filtre pentru circuite hidraulice industriale, folosite la utilaje, prese sau echipamente cu sisteme hidraulice de putere. Din cauza numărului mare de referințe, avem nevoie de codul exact al filtrului original sau de datele complete ale echipamentului pentru a identifica varianta corectă."
       },
       {
         name: "Linii de Gestionare Termică",
-        description: "Șapte linii de produse pentru managementul termic, complementare filtrării, orientate spre aplicații unde temperatura fluidului de lucru trebuie controlată alături de puritatea lui. Detaliile tehnice exacte depind de aplicația specifică a clientului."
+        description: "Sisteme pentru managementul termic, complementare filtrării, orientate spre aplicații unde temperatura fluidului de lucru trebuie controlată alături de puritatea lui. Detaliile tehnice exacte depind de aplicația specifică a clientului."
       }
     ],
     industries: [
       "Automotive — vehicule ușoare, grele, motociclete și utilaje agricole",
       "Motorsport — filtrare pentru competiții auto",
-      "Aerospațial și apărare — componente conforme EASA și AQAP 2110",
+      "Aerospațial și apărare — sisteme de calitate certificate EN 9100 și AQAP 2110",
       "Marină — filtrare pentru motoare și sisteme hidraulice navale",
       "Aplicații hidraulice industriale — filtre pentru circuite hidraulice de utilaj"
     ],
@@ -811,7 +811,7 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
       "EN 9100 — management de calitate pentru industria aerospațială",
       "AQAP 2110 — standard de calitate în domeniul apărării"
     ],
-    infinitrade: `Pentru UFI Filters lucrăm cu fișele publice de produs și cu pagina de certificări a producătorului, fără date proprii despre stocul din cele 21 de site-uri ale grupului. Aducem filtre din gama UFI la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru referințele curente de întreținere, termenul poate fi mai scurt, dar nu îl promitem în avans. Pentru o ofertă, avem nevoie de codul original al filtrului sau de datele echipamentului — marcă, model, motor — pe care se montează. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare din cele peste 6.000 de referințe hidraulice din catalog.`,
+    infinitrade: `Disponibilitatea o confirmăm la fiecare ofertă, în funcție de referința solicitată. Aducem filtre din gama UFI la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru referințele curente de întreținere, termenul poate fi mai scurt, dar nu îl promitem în avans. Pentru o ofertă, avem nevoie de codul original al filtrului sau de datele echipamentului — marcă, model, motor — pe care se montează. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare referință hidraulică din catalog.`,
     limitation: "Nu putem confirma echivalența exactă cu un filtru OEM concurent fără codul de referință transmis de client.",
     productCodes: [
       {
@@ -882,13 +882,13 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
       },
       {
         "q": "Ce este sistemul UFI MULTITUBE pentru filtrarea aerului motor?",
-        "a": "UFI MULTITUBE este un sistem de filtrare a aerului admis în motor, conceput pentru a îmbunătăți capacitatea de reținere a particulelor comparativ cu un filtru clasic de aceleași dimensiuni, prin repartizarea fluxului de aer pe mai multe canale interne. Este folosit atât pe filtrele pentru echipare originală, cât și pe cele destinate pieselor de schimb din aftermarket."
+        "a": "UFI MULTITUBE este un sistem de filtrare a aerului admis în motor, conceput cu o structură din tuburi, care pot fi dispuse în configurații geometrice diferite, spre deosebire de panourile filtrante clasice. Este folosit atât pe filtrele pentru echipare originală, cât și pe cele destinate pieselor de schimb din aftermarket."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"UFI Filters - Products","url":"https://www.ufifilters.com/en/products/","publisher":"UFI Filters","accessed":"2026-09-25"},
       {"title":"UFI Hydraulics - Products","url":"https://www.ufihyd.com/en/products/","publisher":"UFI Filters","accessed":"2026-09-25"},
@@ -902,14 +902,14 @@ Pentru flote auto, utilaje industriale sau echipamente hidraulice din România, 
     name: "Dosatron",
     overview: `Dosatron este un producător francez de pompe dozatoare proporționale acționate hidraulic, fără nicio sursă de energie electrică. Pompa funcționează pe principiul unui motor hidraulic intern, pus în mișcare chiar de fluxul de apă care trece prin ea, și injectează un concentrat — îngrășământ, dezinfectant sau alt aditiv — proporțional cu acest debit. Din gama Dosatron putem oferta pompe pentru irigație, sănătate animală și tratarea apei.
 
-Spre deosebire de ProMinent, care se bazează pe pompe electrice de dozare, avantajul principal al gamei Dosatron e că funcționează și acolo unde nu există alimentare electrică — la o linie de irigație în câmp, la un adăpost de animale sau la un punct de tratare a apei izolat. Raportul de dozaj rămâne practic constant indiferent de variațiile de presiune din rețea, iar producătorul pune la dispoziție și o aplicație mobilă de suport pentru selecția și mentenanța pompelor.
+Avantajul principal al gamei Dosatron e că funcționează și acolo unde nu există alimentare electrică — la o linie de irigație în câmp, la un adăpost de animale sau la un punct de tratare a apei izolat. Dozajul este proporțional cu debitul de apă care trece prin pompă.
 
 Pentru ferme, sere sau stații de tratare a apei din România fără alimentare electrică la punctul de dozare, gama Dosatron e o soluție de luat în calcul, mai ales la instalații noi sau la extinderea uneia existente.`,
     whyChoose: [
       "Funcționare fără energie electrică, doar pe presiunea apei din rețea, utilă la puncte de dozare izolate",
-      "Raport de dozaj proporțional și constant, indiferent de variațiile de debit din amonte",
+      "Dozaj proporțional cu debitul de apă care trece prin pompă",
       "Aplicabilitate atât în agricultură (irigație, fertirigare), cât și în sănătate animală și tratarea apei",
-      "Aplicație mobilă de suport pusă la dispoziție de producător pentru selecția și mentenanța pompelor"
+      "Familii de pompe pentru instalații de dimensiuni diferite (D07RE, D3RE, D8RE, D25RE, D45RE)"
     ],
     keyProducts: [
       {
@@ -931,7 +931,7 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       "Tratarea apei — dozare de dezinfectant sau reactiv fără sursă electrică",
       "Industrie — dozare de concentrat unde nu există alimentare electrică la punctul de injecție"
     ],
-    infinitrade: `Pentru Dosatron lucrăm cu descrierile publice de pe site-ul producătorului, versiunea globală și cea americană, fără date proprii despre stocul din fabrica franceză. Procurăm pompele dozatoare Dosatron la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de debitul de apă disponibil, raportul de dozaj dorit și tipul de concentrat injectat, pentru a verifica compatibilitatea chimică. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele mai puțin uzuale.`,
+    infinitrade: `Disponibilitatea și termenul pentru fiecare model le confirmăm la fiecare ofertă. Procurăm pompele dozatoare Dosatron la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de debitul de apă disponibil, raportul de dozaj dorit și tipul de concentrat injectat, pentru a verifica compatibilitatea chimică. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele mai puțin uzuale.`,
     limitation: "Nu putem confirma modelul exact recomandat pentru o instalație fără datele de debit și presiune trimise de client.",
     productCodes: [
       {
@@ -940,15 +940,15 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       },
       {
         "code": "D3RE5VF",
-        "description": "Variantă cu raport reglabil între 0,5 și 5%, debit până la 50 l/min"
+        "description": "Variantă cu raport de dozare reglabil; intervalul și debitul se confirmă pe cod, din documentația Dosatron"
       },
       {
         "code": "D3RE10VF",
-        "description": "Variantă cu raport reglabil între 1 și 10%, debit până la 50 l/min"
+        "description": "Variantă cu raport de dozare reglabil; intervalul și debitul se confirmă pe cod, din documentația Dosatron"
       },
       {
         "code": "D3RE25IEVF",
-        "description": "Variantă cu raport reglabil între 5 și 25%, debit până la 50 l/min"
+        "description": "Variantă cu raport de dozare reglabil; intervalul și debitul se confirmă pe cod, din documentația Dosatron"
       },
       {
         "code": "D3RE3000",
@@ -976,7 +976,7 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       },
       {
         "code": "D25RE2",
-        "description": "Pompă cu raport de dozare reglabil între 0,2 și 2%"
+        "description": "Pompă dozatoare din familia D25RE; intervalul de dozare se confirmă pe cod, din documentația Dosatron"
       },
       {
         "code": "D25RE4",
@@ -1002,7 +1002,7 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
       },
       {
         "q": "Ce înseamnă litera VF la seria D3RE de la Dosatron?",
-        "a": "VF indică o pompă cu raport de dozare variabil, reglabil manual într-un interval definit, spre deosebire de modelele cu raport fix. La familia D3RE, variantele VF acoperă intervale precum 0,5-5%, 1-10% sau 5-25%, toate cu un debit maxim de circa 50 litri pe minut, ceea ce permite ajustarea concentrației direct pe teren, fără schimbarea pieselor interne."
+        "a": "Intervalul de dozare, debitul maxim și semnificația exactă a sufixului VF le confirmăm pe cod, din documentația Dosatron, pentru că depind de model."
       },
       {
         "q": "Livrați pompe Dosatron în România?",
@@ -1015,8 +1015,8 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Generic Dosing Pumps","url":"https://www.dosatron.com/en/products/generic-dosing-pumps/","publisher":"Dosatron International","accessed":"2026-09-25"},
       {"title":"Dosatron - Products","url":"https://www.dosatron.com/en/products/","publisher":"Dosatron International","accessed":"2026-09-25"},
@@ -1028,22 +1028,22 @@ Pentru ferme, sere sau stații de tratare a apei din România fără alimentare 
   'ewm': {
     name: "EWM",
     headquarters: "Mündersbach, Germania",
-    overview: `EWM este un producător german de aparate de sudură, cu sediul la Mündersbach. Gama acoperă sudura MIG/MAG prin seriile XQ și Picomig, sudura WIG (TIG) prin seria XQ — cunoscută și ca Tetrix XQ — și familia Picotig, plus echipamente portabile pentru sudura manuală cu electrod (E-Hand). Din portofoliul EWM putem oferta atât aparate pentru service și ateliere mici, cât și sisteme pentru sudura robotizată.
+    overview: `EWM este un producător german de aparate de sudură, cu sediul la Mündersbach. Gama acoperă sudura MIG/MAG prin seriile XQ și Picomig, sudura WIG (TIG) prin seria XQ — cunoscută și ca Tetrix XQ — și familia Picotig, plus aparate pentru sudura manuală cu electrod (MMA). Din portofoliul EWM putem oferta atât aparate pentru service și ateliere mici, cât și sisteme pentru sudura robotizată.
 
-EWM acoperă și zona de automatizare a sudurii, cu sisteme pentru roboți și cobot-uri prin linia React și cu software-ul propriu Xnet 3 pentru monitorizarea și documentarea proceselor de sudură — relevant pentru ateliere care trebuie să demonstreze trasabilitatea sudurilor. Producătorul declară conformitate cu standardul EN 1090 pentru calificarea procedurilor de sudură (WPQR), cerut la structurile metalice destinate construcțiilor.
+EWM acoperă și zona de automatizare a sudurii, cu sisteme pentru roboți și cobot-uri prin linia React și cu software-ul propriu Xnet 3 pentru monitorizarea și documentarea proceselor de sudură — relevant pentru ateliere care trebuie să demonstreze trasabilitatea sudurilor. Producătorul are în ofertă o secțiune dedicată „WPQR EN 1090” (raport de calificare a procedurii de sudare), relevantă pentru structurile metalice executate conform EN 1090.
 
 Pentru ateliere de sudură și confecții metalice din România, gama EWM are sens acolo unde trebuie documentată trasabilitatea sudurii pe structuri metalice conform EN 1090, sau unde se ia în calcul o primă automatizare a procesului cu un cobot de sudură.`,
     whyChoose: [
       "Gamă separată pentru MIG/MAG (XQ, Picomig) și pentru WIG (XQ, Picotig), fiecare cu variante dedicate",
       "Sisteme de automatizare a sudurii pentru roboți și cobot-uri, prin linia React",
       "Software propriu Xnet 3 pentru monitorizarea și documentarea proceselor de sudură",
-      "Conformitate declarată cu EN 1090, relevantă pentru atelierele care lucrează la structuri metalice certificate",
-      "Producție descrisă de producător ca fiind integral din Germania"
+      "Secțiune dedicată WPQR EN 1090 în oferta producătorului, relevantă pentru atelierele care lucrează la structuri metalice conform EN 1090",
+      "Sediu la Mündersbach, Germania"
     ],
     keyProducts: [
       {
         name: "Aparate MIG/MAG Seria XQ",
-        description: "Gama de vârf a producătorului pentru sudură MIG/MAG, folosită atât la service industrial, cât și la producție de serie mică sau medie. Pentru ofertă avem nevoie de materialul de sudat, grosimea pieselor și curentul de sudură necesar."
+        description: "Gamă a producătorului pentru sudură MIG/MAG, folosită atât la service industrial, cât și la producție de serie mică sau medie. Pentru ofertă avem nevoie de materialul de sudat, grosimea pieselor și curentul de sudură necesar."
       },
       {
         name: "Aparate MIG/MAG Seria Picomig",
@@ -1069,7 +1069,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       "Căi ferate — sudură pentru structuri metalice feroviare",
       "Conducte și lucrări industriale generale — sudură TIG și MIG/MAG"
     ],
-    infinitrade: `Pentru EWM lucrăm cu ce publică producătorul pe site-ul oficial și pe pagina lor de produse, fără date proprii despre stocul din Mündersbach. Aducem aparate de sudură EWM la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de procedeul de sudură dorit — MIG/MAG, WIG sau electrod —, curentul necesar și dacă echipamentul trebuie integrat într-o celulă robotizată. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele robotizate configurate pe proiect.`,
+    infinitrade: `Disponibilitatea și termenul pentru fiecare model le confirmăm la fiecare ofertă (Ewm). Aducem aparate de sudură EWM la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de procedeul de sudură dorit — MIG/MAG, WIG sau electrod —, curentul necesar și dacă echipamentul trebuie integrat într-o celulă robotizată. Nu promitem disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru variantele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului în garanția producătorului pentru un aparat EWM adus prin comandă.",
     productCodes: [
       {
@@ -1098,7 +1098,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       },
       {
         "code": "Picomax XQ",
-        "description": "Aparat de sudură MMA din gama compactă EWM"
+        "description": "Aparat de sudură din oferta EWM; seria și procedeul se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "React",
@@ -1124,7 +1124,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       },
       {
         "q": "Livrează EWM aparate de sudură pentru clienți din România?",
-        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig, Picotig sau Picomax, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 1–4 săptămâni."
+        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig sau Picotig, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 1–4 săptămâni."
       },
       {
         "q": "Ce detalii sunt utile pentru o ofertă la un aparat de sudură EWM?",
@@ -1137,8 +1137,8 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"MIG/MAG Welding Machines | EWM","url":"https://www.ewm-group.com/en/products/mig-mag-welders","publisher":"EWM","accessed":"2026-09-26"},
       {"title":"Automation & Robotics | EWM","url":"https://www.ewm-group.com/en/products/automation","publisher":"EWM","accessed":"2026-09-26"},
@@ -1151,15 +1151,15 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
     name: "Kemppi",
     founded: 1949,
     headquarters: "Lahti, Finlanda",
-    overview: `Kemppi este un producător finlandez de aparate de sudură, fondat în 1949 și cu sediul la Lahti. Gama include aparate MIG/MAG portabile din seria Minarc (Minarc M, sub 12 kg, la 220A), aparate TIG premium din seria Master (Master T, AC/DC) și echipamente pentru sudura robotizată — torța robotizată GX-R System și aparatul industrial AX MIG Welder. Din portofoliul Kemppi putem oferta atât aparate portabile pentru service, cât și sisteme pentru linii de sudură automatizată.
+    overview: `Kemppi este un producător finlandez de aparate de sudură, fondat în 1949 și cu sediul la Lahti. Gama include aparate MIG/MAG portabile din seria Minarc (Minarc M, sub 12 kg, la 220A), aparate TIG din seria Master (Master T, AC/DC) și echipamente pentru sudura robotizată — aparatul industrial AX MIG Welder. Din portofoliul Kemppi putem oferta atât aparate portabile pentru service, cât și sisteme pentru linii de sudură automatizată.
 
 Kemppi acoperă atât capătul portabil al pieței — aparate ușoare pentru intervenții pe teren sau service — cât și capătul industrial, cu sisteme robotizate complete pentru producție de serie. Compania are prezență directă în 16 țări, ceea ce înseamnă documentație tehnică și suport disponibile pe mai multe piețe, nu doar în Finlanda.
 
 Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e relevantă ca aparat portabil de teren, iar Master T pentru sudura TIG de precizie unde calitatea cusăturii contează mai mult decât viteza.`,
     whyChoose: [
       "Aparat Minarc M portabil, sub 12 kg, la 220A, potrivit pentru intervenții de sudură pe teren",
-      "Aparate Master T pentru TIG AC/DC de precizie, la nivel premium în gama Kemppi",
-      "Sisteme dedicate sudurii robotizate — GX-R System, AX MIG Welder — pentru linii de producție automatizate",
+      "Aparate Master T pentru TIG AC/DC de precizie, din gama Kemppi",
+      "Sisteme dedicate sudurii robotizate, precum AX MIG Welder, pentru linii de producție automatizate",
       "Prezență directă în 16 țări, cu documentație tehnică și rețea de service disponibile pe mai multe piețe"
     ],
     keyProducts: [
@@ -1169,10 +1169,10 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         name: "Aparat TIG Master T",
-        description: "Aparat premium din gama Kemppi pentru sudura TIG în curent alternativ și continuu (AC/DC), folosit acolo unde calitatea și controlul cusăturii sunt prioritare — oțel inoxidabil, aluminiu, aliaje speciale."
+        description: "Aparat din gama Kemppi pentru sudura TIG în curent alternativ și continuu (AC/DC), folosit acolo unde calitatea și controlul cusăturii sunt prioritare — oțel inoxidabil, aluminiu, aliaje speciale."
       },
       {
-        name: "Torța Robotizată GX-R System",
+        name: "Echipamente pentru sudura robotizată",
         description: "Torță dedicată sudurii MIG/MAG robotizate, integrată în celule de producție automatizată. Pentru o ofertă avem nevoie de specificația celulei robotizate și de procedeul de sudură utilizat."
       },
       {
@@ -1184,9 +1184,9 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       "Industria minieră — aparate portabile pentru intervenții și reparații pe teren",
       "Mașini industriale complexe — sudură de precizie TIG",
       "Apărare — echipamente de sudură pentru mentenanță specializată",
-      "Producție de serie — sudură robotizată cu GX-R System și AX MIG Welder"
+      "Producție de serie — sudură robotizată cu AX MIG Welder"
     ],
-    infinitrade: `Pentru Kemppi ne bazăm pe informația de pe site-ul producătorului și pe anul de fondare confirmat separat, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
+    infinitrade: `Pentru Kemppi ne bazăm pe informația de pe site-ul producătorului, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma configurația software sau parametrii de sudură presetați pentru sistemele robotizate Kemppi fără specificația tehnică a liniei clientului.",
     productCodes: [
       {
@@ -1199,7 +1199,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "code": "Master M",
-        "description": "Aparat compact premium pentru sudură manuală, sinergică și în puls"
+        "description": "Aparat compact pentru sudură manuală, sinergică și în puls"
       },
       {
         "code": "Kempact RA",
@@ -1211,7 +1211,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "code": "Minarc M",
-        "description": "Aparat portabil premium cu putere de 220 A"
+        "description": "Aparat portabil cu putere de 220 A"
       },
       {
         "code": "Master M 205",
@@ -1239,7 +1239,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "code": "SuperSnake GTX04HD",
-        "description": "Sistem de subalimentare cu pistolet standard și modul suplimentar 4x4"
+        "description": "Sistem de subalimentare cu mecanism de antrenare a sârmei 4x4, pentru lucrări grele"
       }
     ],
     faq: [
@@ -1249,11 +1249,11 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       },
       {
         "q": "Ce este sistemul SuperSnake de la Kemppi?",
-        "a": "SuperSnake este un sistem de subalimentare sincronizată a sârmei de sudură, folosit atunci când distanța dintre sursa de sudură și piesa de lucru este mare, cum se întâmplă frecvent în construcții navale sau industria grea. Varianta GTX04HD combină un pistolet standard cu un modul suplimentar de tip 4x4, pentru trasee lungi și acces dificil."
+        "a": "SuperSnake este un sistem de subalimentare sincronizată a sârmei de sudură, folosit atunci când distanța dintre sursa de sudură și piesa de lucru este mare, cum se întâmplă frecvent în construcții navale sau industria grea. Varianta GTX04HD folosește un mecanism de antrenare a sârmei de tip 4x4, pentru lucrări grele, la distanțe de până la 30 m față de derulatorul principal."
       },
       {
         "q": "Livrați aparate de sudură Kemppi în România?",
-        "a": "Da, aparatele Kemppi ajung la comandă din gama oficială a producătorului, orientativ în 1–4 săptămâni, pentru că magazinul nu ține în permanență această gamă pe raft. Pentru o ofertă corectă este util să menționați procesul de sudare dorit, puterea necesară în amperi și dacă aveți nevoie de un pistolet Flexlite anume."
+        "a": "Da, aparatele Kemppi ajung la comandă din catalogul producătorului, orientativ în 1–4 săptămâni, pentru că nu ținem în permanență această gamă pe raft. Pentru o ofertă corectă este util să menționați procesul de sudare dorit, puterea necesară în amperi și dacă aveți nevoie de un pistolet Flexlite anume."
       },
       {
         "q": "Ce diferență este între pistoalele Flexlite GXe și Flexlite GF de la Kemppi?",
@@ -1262,8 +1262,8 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"X5 FastMig – Professional multi-process welder","url":"https://www.kemppi.com/en/family/x5-fastmig","publisher":"Kemppi Oy","accessed":"2026-09-25"},
       {"title":"MIG/MAG Welding","url":"https://www.kemppi.com/en/categories/migmag-welding","publisher":"Kemppi Oy","accessed":"2026-09-25"},
@@ -1274,20 +1274,20 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
 
   'gw-instek': {
     name: "GW Instek",
-    overview: `GW Instek este un producător taiwanez de instrumente de măsurare și testare electronică, prezent în cataloagele mai multor distribuitori de profil din România. Gama acoperă osciloscoape digitale din seria GDS-2000HD/HG, surse de alimentare AC/DC din seria ASR-6000, surse DC programabile PSW-Multi și GPP-3060/6030, sisteme de achiziție de date DAQ-9600 și sarcini electronice PEL-5000G, alături de analizoare de spectru, generatoare de semnal, multimetre digitale și testere LCR. Din portofoliul GW Instek putem oferta instrumentație de bancă pentru laboratoare tehnice și linii de testare.
+    overview: `GW Instek (Good Will Instrument Co., Ltd.) este un producător taiwanez de instrumente de măsurare și testare electronică. Gama acoperă osciloscoape digitale din seria GDS-2000E, surse de alimentare AC/DC din seria ASR-6000, surse DC programabile din seriile PSW și GPP, sisteme de achiziție de date DAQ-9600 și sarcini electronice PEL-5000G, alături de analizoare de spectru, generatoare de semnal, multimetre digitale și testere LCR. Din portofoliul GW Instek putem oferta instrumentație de bancă pentru laboratoare tehnice și linii de testare.
 
 Spre deosebire de Fluke, cunoscut mai ales pentru multimetre și instrumente de teren, GW Instek acoperă în principal instrumentația de bancă de laborator — osciloscoape, surse programabile și sisteme de achiziție de date — folosite la teste de siguranță electrică, testare de baterii, aplicații de tip Industry 4.0 și teste automotive de conversie a puterii.
 
-Pentru laboratoare de service, control calitate sau linii de testare din România, gama GW Instek e o opțiune pentru instrumentație de bancă la un cost mai accesibil decât mărcile premium, la teste standard de laborator.`,
+Pentru laboratoare de service, control calitate sau linii de testare din România, gama GW Instek e o opțiune pentru instrumentație de bancă la teste standard de laborator.`,
     whyChoose: [
-      "Gamă largă de osciloscoape digitale din seria GDS-2000HD/HG pentru bancul de laborator",
+      "Gamă largă de osciloscoape digitale de bancă, inclusiv seria GDS-2000E, pentru laborator",
       "Surse de alimentare programabile pe mai multe game, de la DC simplu canal la AC/DC (seria ASR-6000)",
       "Sisteme de achiziție de date DAQ-9600 și sarcini electronice PEL-5000G pentru teste automatizate",
       "Aplicabilitate declarată pentru testare de siguranță electrică, baterii și conversie de putere"
     ],
     keyProducts: [
       {
-        name: "Osciloscoape Digitale Seria GDS-2000HD/HG",
+        name: "Osciloscoape Digitale Seria GDS-2000E",
         description: "Osciloscoape digitale de bancă, folosite la depanare electronică, control calitate și dezvoltare de produs. Pentru ofertă avem nevoie de banda de frecvență necesară și numărul de canale dorit."
       },
       {
@@ -1295,7 +1295,7 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
         description: "Surse de alimentare care combină ieșiri AC și DC, folosite la testarea echipamentelor electronice ce trebuie verificate atât pe alimentare de rețea, cât și pe curent continuu."
       },
       {
-        name: "Surse DC Programabile PSW-Multi / GPP-3060/6030",
+        name: "Surse DC Programabile Seriile PSW și GPP",
         description: "Surse DC cu unul sau mai multe canale programabile, folosite la alimentarea controlată a circuitelor în timpul dezvoltării sau testării de produs. Selecția corectă depinde de tensiunea și curentul maxim necesar."
       },
       {
@@ -1318,20 +1318,20 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
     limitation: "Nu putem confirma calibrarea sau certificatul de etalonare pentru un instrument GW Instek adus prin comandă, dincolo de ce oferă producătorul standard.",
     productCodes: [
       {
-        "code": "GDS-2000HD",
-        "description": "Osciloscop digital cu rezoluție înaltă, din gama GDS-2000"
+        "code": "GDS-2000E",
+        "description": "Osciloscop digital de bancă, 70–200 MHz, 2 sau 4 canale, din seria GDS-2000E"
       },
       {
-        "code": "GDS-2000HG",
-        "description": "Osciloscop digital din gama GDS-2000, variantă HG"
+        "code": "GDS-2204E",
+        "description": "Osciloscop digital de bancă, 200 MHz, 4 canale, din seria GDS-2000E"
       },
       {
-        "code": "GDS-3102A",
-        "description": "Osciloscop digital cu 2 canale, din seria GDS-3000A"
+        "code": "GDS-3502",
+        "description": "Osciloscop digital cu 2 canale, 500 MHz, din seria GDS-3000"
       },
       {
-        "code": "GDS-3104A",
-        "description": "Osciloscop digital cu 4 canale, din seria GDS-3000A"
+        "code": "GDS-3504",
+        "description": "Osciloscop digital cu 4 canale, 500 MHz, din seria GDS-3000"
       },
       {
         "code": "GDS-912",
@@ -1384,8 +1384,8 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
     ],
     faq: [
       {
-        "q": "Ce diferență este între osciloscoapele GW Instek din seria GDS-2000 și seria GDS-3000A?",
-        "a": "Seria GDS-2000, inclusiv variantele HD și HG, acoperă nevoile generale de depanare și verificare din laborator, în timp ce seria GDS-3000A, cu modele precum GDS-3102A sau GDS-3104A, este orientată spre aplicații mai pretențioase, cu mai multe canale de achiziție simultană. Alegerea depinde de numărul de semnale care trebuie urmărite în paralel pe același ecran."
+        "q": "Ce diferență este între osciloscoapele GW Instek din seria GDS-2000E și seria GDS-3000?",
+        "a": "Seria GDS-2000E (70, 100 și 200 MHz, cu 2 sau 4 canale) acoperă nevoile generale de depanare și verificare din laborator, în timp ce seria GDS-3000 oferă benzi de frecvență mai mari, de până la 500 MHz, tot cu 2 sau 4 canale. Alegerea depinde de numărul de semnale care trebuie urmărite în paralel pe același ecran."
       },
       {
         "q": "Ce este un osciloscop MDO la GW Instek?",
@@ -1402,8 +1402,8 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"GDS-3000 Series Digital Storage Oscilloscopes","url":"https://www.gwinstek.com/en-US/products/detail/GDS-3000","publisher":"GW Instek","accessed":"2026-09-25"},
       {"title":"GDS-2000E Series Digital Storage Oscilloscopes","url":"https://www.gwinstek.com/en-global/products/detail/GDS-2000E","publisher":"GW Instek","accessed":"2026-09-25"},
@@ -1423,7 +1423,7 @@ Spre deosebire de Rotronic, axat în principal pe umiditate și temperatură, Va
 
 Pentru centre de date, ferme eoliene sau instalații industriale din România unde controlul umidității sau al punctului de rouă e critic pentru proces, gama Vaisala e o opțiune pentru senzori de precizie la înlocuirea sau completarea instrumentației existente.`,
     whyChoose: [
-      "Aproape un secol de activitate în măsurarea umidității, punctului de rouă și CO2, din 1936 până azi",
+      "Aproape un secol de activitate în măsurarea parametrilor de mediu, cu rădăcini în radiosonda meteorologică",
       "Transmițător de punct de rouă DMP370 cu siguranță intrinsecă, pentru zone cu cerințe stricte de siguranță",
       "Tehnologie proprie de măsurare a vântului (WindCube), relevantă pentru proiecte de energie eoliană",
       "Software dedicat meteorologiei aviatice (AviMet 10), pentru aeroporturi și servicii de trafic aerian",
@@ -1453,7 +1453,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
       "Centre de date — monitorizare umiditate și servicii de mentenanță dedicate",
       "Industrie de proces — senzori de umiditate, punct de rouă și CO2"
     ],
-    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs de pe site-ul oficial și cu anul de fondare confirmat independent, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
+    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs de pe site-ul producătorului, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
     limitation: "Nu putem confirma certificarea ATEX sau alte aprobări de zonă explozivă pentru un model Vaisala fără fișa tehnică specifică a variantei comandate.",
     productCodes: [
       {
@@ -1496,10 +1496,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
         "code": "XMP10",
         "description": "Sondă de umiditate și temperatură din seria XMP10"
       },
-      {
-        "code": "Origo10",
-        "description": "Serie modulară de transmițătoare de umiditate și temperatură pentru HVAC"
-      },
+      
       {
         "code": "WM80",
         "description": "Senzor ultrasonic de măsurare a vântului"
@@ -1528,7 +1525,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
     faq: [
       {
         "q": "Ce este un transmițător de punct de rouă Vaisala precum DMP370?",
-        "a": "DMP370 este un transmițător Vaisala destinat măsurării punctului de rouă în medii industriale, cu certificare de siguranță intrinsecă, adică poate fi montat în zone unde există risc de explozie. Se folosește acolo unde umiditatea reziduală dintr-un gaz sau proces trebuie controlată foarte precis, cum ar fi liniile de aer comprimat sau instalațiile petrochimice."
+        "a": "DMP370 este un transmițător Vaisala destinat măsurării punctului de rouă în medii industriale, cu certificare de siguranță intrinsecă, adică poate fi montat în zone unde există risc de explozie. Se folosește acolo unde umiditatea reziduală dintr-un gaz sau proces trebuie controlată foarte precis, cum sunt instalațiile de producție de hidrogen, infrastructura de gaz natural sau instalațiile de biometan."
       },
       {
         "q": "Ce diferență este între sondele Vaisala HMD60 și HMW110?",
@@ -1538,15 +1535,12 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
         "q": "Livrați instrumente Vaisala în România?",
         "a": "Da, instrumentele Vaisala pentru măsurarea umidității, temperaturii sau presiunii se aduc punctual la comandă, cu un termen tipic de 1–4 săptămâni; gama nu este păstrată pe raft din cauza numărului mare de variante disponibile. Pentru o propunere adaptată, indicați-ne parametrul măsurat, domeniul dorit și tipul de montaj, canal, perete sau imersie."
       },
-      {
-        "q": "Ce este seria Origo10 de la Vaisala?",
-        "a": "Origo10 este o serie modulară de transmițătoare pentru umiditate și temperatură, gândită pentru sistemele HVAC din clădiri comerciale sau industriale, unde este nevoie de mai multe puncte de măsură conectate într-o structură comună. Modularitatea permite adăugarea de senzori suplimentari fără înlocuirea întregii unități de control."
-      }
+      
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.vaisala.com/en/products","publisher":"Vaisala Oyj","accessed":"2026-09-25"},
       { title: "Vaisala — Measurement Instruments (Homepage)", url: "https://www.vaisala.com", publisher: "Vaisala Oyj", accessed: "2026-09-22" },

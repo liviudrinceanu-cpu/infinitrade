@@ -5,17 +5,17 @@ export const brandContentBatch88 = {
     name: "Zemic",
     founded: 1965,
     headquarters: "Etten-Leur, Țările de Jos",
-    overview: `Zemic este un producător de celule de sarcină și senzori de forță, cu rădăcini în grupul chinez ZEMIC fondat în 1965 și cu un sediu european dedicat la Etten-Leur, în Țările de Jos, înființat în 2006. Gama europeană acoperă peste o mie de tipuri standardizate de celule de sarcină, de la câteva zeci de grame până la mii de tone, plus benzi tensometrice (strain gauges) pentru cei care își construiesc singuri traductoarele. Pentru piața din România putem oferta din gama de celule de sarcină și module de cântărire industrială pentru cântare, buncăre și linii de dozare.
+    overview: `Zemic este un producător de celule de sarcină și senzori de forță, cu rădăcini în grupul chinez ZEMIC fondat în 1965 și cu un sediu european dedicat la Etten-Leur, în Țările de Jos, înființat în 2006. Gama europeană acoperă peste o mie de tipuri standardizate de celule de sarcină, de la câteva zeci de grame până la 1.000 de tone, plus benzi tensometrice (strain gauges) pentru cei care își construiesc singuri traductoarele. Pentru piața din România putem oferta din gama de celule de sarcină și module de cântărire industrială pentru cântare, buncăre și linii de dozare.
 
-Ce diferențiază Zemic e combinația dintre catalogul larg — seriile L6T și L6N pentru cântare comerciale, H3 și H3G de tip S pentru măsurarea forței de tracțiune și compresie, H8C tip grindă de forfecare pentru platforme de cântărire — și producția proprie de benzi tensometrice (familiile BF, ZF, BA, BHB, ZAM sau BB, rezistentă până la 250°C), pe care mulți concurenți le cumpără de la terți. În segmentul celulelor de sarcină industriale, Zemic se compară adesea cu HBM, mai ales pe aplicațiile unde clientul caută parametri metrologici similari la un cost de listă mai accesibil. Facilitatea europeană din Etten-Leur ține peste 40.000 de celule pregătite pentru distribuție rapidă în regiune, sprijinită de o echipă de peste 200 de ingineri de aplicație.
+Ce diferențiază Zemic e combinația dintre catalogul larg — seriile L6T și L6N pentru cântare comerciale, H3 și H3G de tip S pentru măsurarea forței de tracțiune și compresie, H8C tip grindă de forfecare pentru platforme de cântărire — și producția proprie de benzi tensometrice (familiile BF, ZF, BA, BHB, ZAM sau BB, rezistentă până la 250°C). În segmentul celulelor de sarcină industriale, Zemic se compară adesea cu HBM. Producătorul declară peste 60.000 de celule de sarcină în stoc în Europa, pentru livrare rapidă, și peste 280 de ingineri pentru produse personalizate.
 
 Pentru un integrator român de cântare industriale sau echipamente agricole, Zemic înseamnă acces la celule de sarcină standardizate pentru înlocuirea unui traductor defect fără proiectare de la zero. Seria BM8H pentru mașini agricole și senzorii miniaturali Q70 acoperă și nișe mai speciale.`,
     whyChoose: [
-      "Catalog de peste 1.000 de tipuri standardizate de celule de sarcină, de la câteva zeci de grame la mii de tone",
+      "Catalog de peste 1.000 de tipuri standardizate de celule de sarcină, de la 20 de grame la 1.000 de tone",
       "Producție proprie de benzi tensometrice (strain gauges), inclusiv varianta BB rezistentă la 250°C",
-      "Facilitate europeană la Etten-Leur cu peste 40.000 de celule pregătite pentru livrare rapidă în regiune",
+      "Peste 60.000 de celule de sarcină în stoc la producător, în Europa, conform site-ului oficial",
       "Serii dedicate pentru nișe speciale: BM8H pentru mașini agricole, 1B-S pentru sigilare sterilă",
-      "Peste 200 de ingineri de aplicație disponibili pentru configurații personalizate de cântărire",
+      "Peste 280 de ingineri pentru produse personalizate, conform producătorului",
     ],
     keyProducts: [
       { name: "Celule de Sarcină Comerciale Seria L6T / L6N", description: "Celule de sarcină compacte pentru cântare comerciale și platforme de cântărire de capacitate mică și medie, gândite pentru echipamente de retail și industrie ușoară. Clientul trebuie să confirme capacitatea nominală dorită, clasa de precizie și tipul de montaj pentru identificarea variantei potrivite din serie." },
@@ -30,7 +30,7 @@ Pentru un integrator român de cântare industriale sau echipamente agricole, Ze
       "Medical — senzori miniaturali pentru dispozitive și echipamente de laborator",
       "Energie — module de cântărire pentru echipamente de producție și mentenanță",
     ],
-    infinitrade: `Aducem celule de sarcină și senzori Zemic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor standard. Pentru acest brand nou pentru noi ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc și nu ținem pe raft celule Zemic pentru livrare imediată. Pentru o ofertă corectă avem nevoie de codul seriei sau capacitatea nominală dorită, clasa de precizie și tipul de montaj (compresie, tracțiune sau grindă de forfecare). Pentru proiecte de cântărire cu mai multe celule montate pe aceeași platformă, recomandăm să ne trimiți și schema de montaj, ca să verificăm compatibilitatea între celule.`,
+    infinitrade: `Aducem celule de sarcină și senzori Zemic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor standard. Pentru acest brand nou pentru noi ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc și nu ținem pe raft celule Zemic pentru livrare imediată. Pentru o ofertă corectă avem nevoie de codul seriei sau capacitatea nominală dorită, clasa de precizie și tipul de montaj (compresie, tracțiune sau grindă de forfecare). Pentru proiecte de cântărire cu mai multe celule montate pe aceeași platformă, vă recomandăm să ne transmiteți și schema de montaj, pentru a verifica compatibilitatea dintre celule.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărei clase de precizie OIML pentru toate capacitățile din gamă fără o cerere punctuală către producător.",
     productCodes: [
       { code: "L6T", description: "celulă de sarcină pentru cântare comerciale, montaj tip punte" },
@@ -43,26 +43,26 @@ Pentru un integrator român de cântare industriale sau echipamente agricole, Ze
       { code: "1B-S", description: "senzor miniatural pentru aplicații de sigilare sterilă" },
       { code: "BF Strain Gauge", description: "bandă tensometrică pentru integrare proprie în traductoare" },
       { code: "ZF Strain Gauge", description: "bandă tensometrică pentru aplicații generale de măsurare" },
-      { code: "BA Strain Gauge", description: "bandă tensometrică pentru celule de sarcină standard" },
-      { code: "BAM Strain Gauge", description: "bandă tensometrică, variantă adaptată pentru montaj" },
+      { code: "BA Strain Gauge", description: "bandă tensometrică pe suport din poliimidă, până la 150°C, pentru analiza tensiunilor și traductoare generale" },
+      { code: "BAM Strain Gauge", description: "bandă tensometrică de precizie ridicată, pe suport subțire din poliimidă" },
       { code: "BHB Strain Gauge", description: "bandă tensometrică pentru aplicații de forță" },
       { code: "ZAM Strain Gauge", description: "bandă tensometrică pentru senzori de precizie" },
       { code: "BB Strain Gauge", description: "bandă tensometrică rezistentă la temperaturi de până la 250°C" },
       { code: "BYM Strain Gauge", description: "bandă tensometrică pentru celule de sarcină industriale" },
-      { code: "ZYM Strain Gauge", description: "bandă tensometrică pentru aplicații de cântărire" },
-      { code: "BKM Strain Gauge", description: "bandă tensometrică pentru senzori miniaturali" },
-      { code: "BEB Strain Gauge", description: "bandă tensometrică pentru traductoare de forță" },
+      { code: "ZYM Strain Gauge", description: "bandă tensometrică pentru dispozitive cu consum redus de energie" },
+      { code: "BKM Strain Gauge", description: "bandă tensometrică pe suport PEEK, cu rezistență mecanică ridicată" },
+      { code: "BEB Strain Gauge", description: "bandă tensometrică pentru cântare de precizie din aluminiu" },
     ],
     faq: [
-      { q: "Ce produce Zemic?", a: "Zemic fabrică celule de sarcină și senzori de forță pentru cântărire industrială și comercială, plus benzi tensometrice pentru cei care își construiesc propriile traductoare. Gama europeană, coordonată din Etten-Leur, Țările de Jos, acoperă peste o mie de tipuri standardizate, de la câteva zeci de grame până la mii de tone." },
-      { q: "Cum aleg celula de sarcină Zemic potrivită pentru un cântar industrial?", a: "Ai nevoie de capacitatea totală a platformei, numărul de celule pe care vrei să le montezi și tipul de solicitare (compresie pentru platforme, tracțiune pentru cântare suspendate). Pentru cântare cu mai multe celule, verificăm și dacă seria aleasă permite echilibrarea semnalului între ele." },
-      { q: "Ce echivalent oferă Zemic față de o celulă de sarcină HBM?", a: "Zemic produce serii comparabile ca principiu de funcționare (grindă de forfecare, tip S, tip punte) cu game de capacitate similare celor de la HBM, adesea la un cost de listă mai accesibil. Echivalența exactă se confirmă după ce transmiți capacitatea, clasa de precizie și dimensiunile de montaj disponibile." },
+      { q: "Ce produce Zemic?", a: "Zemic fabrică celule de sarcină și senzori de forță pentru cântărire industrială și comercială, plus benzi tensometrice pentru cei care își construiesc propriile traductoare. Gama europeană, coordonată din Etten-Leur, Țările de Jos, acoperă peste o mie de tipuri standardizate, de la 20 de grame până la 1.000 de tone." },
+      { q: "Cum aleg celula de sarcină Zemic potrivită pentru un cântar industrial?", a: "Sunt necesare capacitatea totală a platformei, numărul de celule care urmează să fie montate și tipul de solicitare (compresie pentru platforme, tracțiune pentru cântare suspendate). Pentru cântare cu mai multe celule, verificăm și dacă seria aleasă permite echilibrarea semnalului între ele." },
+      { q: "Ce echivalent oferă Zemic față de o celulă de sarcină HBM?", a: "Zemic produce serii comparabile ca principiu de funcționare (grindă de forfecare, tip S) cu cele de la HBM. Echivalența exactă se confirmă după ce transmiți capacitatea, clasa de precizie și dimensiunile de montaj disponibile." },
       { q: "Livrați senzori Zemic în România și în cât timp?", a: "Da, aducem celule de sarcină Zemic la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, așa că termenul exact depinde de seria aleasă și de confirmarea disponibilității la producător." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Zemic Europe - Load Cells & Weighing Solutions", url: "https://www.zemiceurope.com/", publisher: "Zemic Europe B.V.", accessed: "2026-09-25" },
       { title: "About us - Zemic Europe", url: "https://www.zemiceurope.com/en/about-us", publisher: "Zemic Europe B.V.", accessed: "2026-09-25" },
@@ -72,27 +72,27 @@ Pentru un integrator român de cântare industriale sau echipamente agricole, Ze
     name: "Nikkiso",
     overview: `Nikkiso este un producător japonez de pompe pentru industria de proces, cunoscut mai ales pentru pompele canned motor (fără etanșare mecanică, non-seal) folosite acolo unde o scurgere de fluid periculos nu e o opțiune. Gama acoperă pompe canned motor pentru vâscozități și temperaturi variate, pompe cu piston (reciprocating) pentru dozare de mare precizie și pompe submersate criogenice pentru gaze lichefiate precum GNL sau GPL. Pentru piața din România putem oferta din gama de pompe canned motor pentru rafinării, petrochimie și instalații cu fluide periculoase.
 
-Ce diferențiază Nikkiso e diversitatea tipurilor constructive din familia canned motor: tipul HN pentru transport general, tipul V pentru vâscozități ridicate (80-200 mPa·s), tipurile T, X și Y pentru lichide la temperatură ridicată (cu sau fără sistem de răcire independent), tipurile S, M și G pentru suspensii și lichide corozive, iar tipurile R și Q folosesc circulație inversă pentru fluide cu presiune de vapori ridicată, precum amoniacul. Seria API respectă standardul API 685 pentru rafinării și petrochimie. În segmentul pompelor fără etanșare pentru fluide periculoase, Nikkiso se compară cu Sundyne, fiecare acoperind nișe tehnice diferite în funcție de presiune și turație.
+Ce diferențiază Nikkiso e diversitatea tipurilor constructive din familia canned motor: tipul HN pentru transport general, tipul V pentru vâscozități ridicate (80-200 mPa·s), tipurile T, X și Y pentru lichide la temperatură ridicată (cu sau fără sistem de răcire independent), tipurile S, M și G pentru suspensii și lichide corozive, iar tipurile R și Q folosesc circulație inversă pentru lichide ușor vaporizabile. Seria API respectă standardul API 685 pentru rafinării și petrochimie. În segmentul pompelor fără etanșare pentru fluide periculoase, Nikkiso se compară cu Sundyne, fiecare acoperind nișe tehnice diferite în funcție de presiune și turație.
 
 Pentru un operator de rafinărie, terminal GNL sau platformă petrochimică din România, Nikkiso înseamnă acces la pompe fără etanșare mecanică — deci fără riscul unei scurgeri la garnitură — pentru fluide toxice, inflamabile sau criogenice unde o pompă centrifugală clasică ar cere un sistem de etanșare complex și mentenanță frecventă.`,
     whyChoose: [
       "Pompe canned motor fără etanșare mecanică, eliminând riscul de scurgere la garnitura de arbore pentru fluide periculoase",
       "Gamă largă de tipuri constructive: de la HN pentru uz general până la variante pentru vâscozitate, temperatură sau suspensii",
       "Conformitate cu standardul API 685 pentru pompe fără etanșare în rafinării și petrochimie",
-      "Tipurile R și Q, cu circulație inversă, dedicate fluidelor cu presiune de vapori ridicată precum amoniacul",
+      "Tipurile R și Q, cu circulație inversă, dedicate lichidelor ușor vaporizabile",
       "Interval extins de temperatură de lucru, de la -130°C la +450°C, în funcție de tipul constructiv ales",
     ],
     keyProducts: [
-      { name: "Pompe Canned Motor Tip HN", description: "Pompa canned motor de bază din gama Nikkiso, fără etanșare mecanică, cu fluidul pompat circulat prin rotor pentru răcirea motorului. Debite până la 1.000 m³/h, presiuni până la 600 m coloană, puteri motor între 0,75 și 250 kW. Aplicație tipică: transferul de lichide curate la temperatură normală în rafinării și instalații chimice, unde nu se dorește niciun risc de scurgere." },
+      { name: "Pompe Canned Motor Tip HN", description: "Pompa canned motor de bază din gama Nikkiso, fără etanșare mecanică, cu fluidul pompat circulat prin rotor pentru răcirea motorului. Pentru gama canned motor Nikkiso, producătorul indică debite de până la 1.000 m³/h, înălțimi de pompare de până la 600 m și puteri motor între 0,75 și 250 kW; valorile pentru tipul HN se confirmă pe model. Aplicație tipică: transferul de lichide curate la temperatură normală în rafinării și instalații chimice, unde nu se dorește niciun risc de scurgere." },
       { name: "Pompe Canned Motor Tip V (Vâscozitate Ridicată)", description: "Variantă constructivă dedicată lichidelor cu vâscozitate ridicată, între 80 și 200 mPa·s, unde o pompă canned standard și-ar pierde randamentul de răcire. Folosită pentru transferul de uleiuri grele, rășini sau produse petrochimice vâscoase. Clientul trebuie să confirme vâscozitatea reală de lucru și temperatura fluidului pentru dimensionare." },
-      { name: "Pompe Canned Motor Tip T / X / Y (Temperatură Ridicată)", description: "Familie de pompe pentru lichide la temperatură ridicată: tipul T are sistem de răcire independent, iar tipurile X și Y funcționează fără răcire suplimentară, potrivite pentru încălzirea lichidelor sau transportul celor cu punct de topire ridicat. Aplicație tipică: circuite termice în procesare petrochimică. Clientul precizează temperatura maximă de lucru și proprietățile fluidului." },
-      { name: "Pompe Submersate Criogenice", description: "Pompe cu motor submersat, proiectate pentru pomparea gazelor lichefiate precum GNL, GPL sau etilena, la temperaturi extrem de scăzute, folosite la terminale de import/export și instalații de lichefiere. Construcție fără etanșare externă, cu motorul răcit direct de fluidul criogenic. Clientul trebuie să transmită tipul de gaz lichefiat și debitul necesar pentru identificarea configurației." },
+      { name: "Pompe Canned Motor Tip T / X / Y (Temperatură Ridicată)", description: "Familie de pompe pentru lichide la temperatură ridicată: tipul T are sistem de răcire independent, iar tipurile X și Y funcționează fără răcire suplimentară, potrivite pentru lichide la temperatură ridicată. Aplicație tipică: circuite termice în procesare petrochimică. Clientul precizează temperatura maximă de lucru și proprietățile fluidului." },
+      { name: "Pompe Submersate Criogenice", description: "Pompe cu motor submersat, proiectate pentru pomparea gazelor lichefiate precum GNL sau GPL, la temperaturi extrem de scăzute, folosite la terminale de import/export și instalații de lichefiere. Construcție fără etanșare externă, cu motorul răcit direct de fluidul criogenic. Clientul trebuie să transmită tipul de gaz lichefiat și debitul necesar pentru identificarea configurației." },
     ],
     industries: [
       "Rafinării de petrol — transfer și circulație fluide periculoase fără risc de scurgere",
       "Petrochimie — pompare lichide corozive, vâscoase sau la temperatură ridicată",
       "Terminale GNL/GPL — pompe submersate criogenice pentru gaze lichefiate",
-      "Producție de amoniac și îngrășăminte — pompe cu circulație inversă pentru fluide cu presiune de vapori ridicată",
+      "Chimie și îngrășăminte — pompe cu circulație inversă pentru lichide ușor vaporizabile",
       "Energie — circuite cu fluide termice și aplicații industriale cu cerințe stricte de etanșeitate",
     ],
     certifications: [
@@ -105,32 +105,32 @@ Pentru un operator de rafinărie, terminal GNL sau platformă petrochimică din 
       { code: "V Type", description: "pompă canned motor pentru lichide cu vâscozitate ridicată" },
       { code: "T Type", description: "pompă canned motor la temperatură ridicată, cu răcire independentă" },
       { code: "X Type", description: "pompă canned motor la temperatură ridicată, fără răcire suplimentară" },
-      { code: "Y Type", description: "pompă canned motor pentru lichide cu punct de topire ridicat" },
+      { code: "Y Type", description: "pompă canned motor pentru lichide la temperatură ridicată, fără răcire suplimentară" },
       { code: "S Type", description: "pompă canned motor pentru manipulare de suspensii" },
-      { code: "M Type", description: "pompă canned motor pentru lichide corozive" },
-      { code: "G Type", description: "pompă canned motor pentru suspensii abrazive" },
+      { code: "M Type", description: "pompă canned motor pentru suspensii, cu etanșare mecanică" },
+      { code: "G Type", description: "pompă canned motor cu etanșare cu gaz, pentru lichide corozive sau predispuse la polimerizare" },
       { code: "B Type", description: "pompă canned motor pentru lichide cu punct de solidificare ridicat" },
       { code: "C Type", description: "pompă canned motor pentru lichide cu punct de solidificare ridicat" },
-      { code: "R Type", description: "pompă canned motor cu circulație inversă, pentru amoniac" },
+      { code: "R Type", description: "pompă canned motor cu circulație inversă, pentru lichide ușor vaporizabile" },
       { code: "Q Type", description: "pompă canned motor cu circulație inversă, presiune vapori ridicată" },
-      { code: "HK Type", description: "pompă canned motor cu circulație de presurizare pentru gaze lichefiate" },
-      { code: "DN Type", description: "pompă canned motor autoamorsantă pentru lichide corozive" },
+      { code: "HK Type", description: "pompă canned motor cu circulație de presurizare, pentru lichide ușor vaporizabile" },
+      { code: "DN Type", description: "pompă canned motor autoamorsantă" },
       { code: "API Series", description: "pompe canned motor conform standardului API 685" },
-      { code: "JIT Series", description: "pompe canned motor din inox, cu disponibilitate rapidă" },
+      { code: "JIT Series", description: "pompe canned motor din seria JIT (just-in-time); termenul se confirmă la comandă" },
       { code: "NON-SEAL Pump", description: "denumirea generică Nikkiso pentru pompele canned motor" },
       { code: "Cryogenic Submerged Motor Pump", description: "pompă cu motor submersat pentru gaze lichefiate (GNL, GPL)" },
       { code: "Reciprocating Pump", description: "pompă cu piston pentru dozare de mare precizie" },
     ],
     faq: [
       { q: "Ce fel de pompe produce Nikkiso?", a: "Nikkiso fabrică în principal pompe canned motor, fără etanșare mecanică, pentru fluide periculoase din rafinării și petrochimie, plus pompe cu piston pentru dozare și pompe submersate criogenice pentru gaze lichefiate precum GNL sau GPL. Gama acoperă mai multe tipuri constructive, în funcție de vâscozitate, temperatură și tipul de fluid." },
-      { q: "Cum aleg tipul corect de pompă canned motor Nikkiso?", a: "Trebuie să știi vâscozitatea și temperatura fluidului, dacă e coroziv sau conține suspensii, și presiunea sa de vapori. Nikkiso clasifică aceste variante în tipuri precum HN, V, T, X, Y, S, M, G, R sau Q; trimite-ne aceste date și verificăm tipul potrivit din gamă." },
+      { q: "Cum aleg tipul corect de pompă canned motor Nikkiso?", a: "Trebuie cunoscute vâscozitatea și temperatura fluidului, dacă este coroziv sau conține suspensii, și presiunea sa de vapori. Nikkiso clasifică aceste variante în tipuri precum HN, V, T, X, Y, S, M, G, R sau Q; transmiteți-ne aceste date și verificăm tipul potrivit din gamă." },
       { q: "Ce standard respectă pompele Nikkiso pentru rafinării?", a: "Seria API a producătorului respectă standardul API 685, dedicat pompelor fără etanșare (canned motor) folosite în rafinării și petrochimie. Acest standard acoperă cerințe specifice de proiectare, testare și documentație pentru fluide periculoase." },
       { q: "Livrați pompe Nikkiso în România și cât durează?", a: "Da, aducem pompe canned motor Nikkiso la comandă prin canale de aprovizionare din UE și Asia, cu termen orientativ de 1–4 săptămâni, în funcție de tipul constructiv și de confirmarea producătorului. Nu ținem această gamă pe raft pentru acest brand." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pump Products - NIKKISO", url: "https://www.nikkiso.com/products/pump/", publisher: "Nikkiso Co., Ltd.", accessed: "2026-09-25" },
       { title: "Canned Motor Pump - NIKKISO", url: "https://www.nikkiso.com/products/pump/canned.html", publisher: "Nikkiso Co., Ltd.", accessed: "2026-09-25" },
@@ -139,23 +139,23 @@ Pentru un operator de rafinărie, terminal GNL sau platformă petrochimică din 
   houttuin: {
     name: "Houttuin",
     founded: 1929,
-    overview: `Houttuin este un nume istoric olandez în pompele cu doi șuruburi, apărut în 1929 pentru nevoile industriei cărbunelui, ajuns azi parte din portofoliul de mărci al grupului american CIRCOR International, alături de Allweiler. Gama cuprinde pompe cu doi șuruburi seria Lube Oil (HTN LO) pentru fluide curate și ulei de ungere, seria 236 pentru chimie și rafinării, seria 249 pentru funcționare uscată și autoamorsare, plus seriile Transfer, Process, Multiphase și pompa cu încălzire prin frecare (Friction Heater Pump). Pentru piața din România putem oferta din gama Houttuin acolo unde vâscozitatea fluidului sau conținutul de gaz depășesc ce poate gestiona o pompă centrifugală.
+    overview: `Houttuin este un nume istoric olandez în pompele cu doi șuruburi, apărut în 1929 pentru nevoile industriei cărbunelui, ajuns azi parte din portofoliul de mărci al grupului american CIRCOR International, alături de Allweiler. Gama cuprinde pompe cu doi șuruburi seria Lube Oil (HTN LO) pentru fluide curate și ulei de ungere, seria 236 pentru chimie și rafinării, seria 249 pentru funcționare uscată și autoamorsare, plus seria Multiphase și pompa cu încălzire prin frecare (Friction Heater Pump). Pentru piața din România putem oferta din gama Houttuin acolo unde vâscozitatea fluidului sau conținutul de gaz depășesc ce poate gestiona o pompă centrifugală.
 
-Ce ține Houttuin relevant e plaja foarte largă de vâscozitate acoperită de seriile 236 și 249 — de la 0,5 până la peste 100.000 cSt — cu presiuni de refulare de până la 60 bar și temperaturi de lucru de până la 400°C, alături de seria HTN LO, dedicată uleiului de ungere și fluidelor curate, cu presiuni de până la 16 bar și temperaturi de până la 80°C. Seria Multiphase e construită special pentru amestecuri de țiței, apă și gaz direct din câmpul petrolier, poziționând Houttuin în aceeași categorie tehnică cu Allweiler, marca-soră din același grup CIRCOR. Varianta 249.TT aduce o construcție mai compactă și un NPSH redus față de seria 249 clasică.
+Ce ține Houttuin relevant e plaja foarte largă de vâscozitate acoperită de seriile 236 și 249 — de la 0,5 până la 100.000 cSt — cu presiuni de refulare de până la 60 bar și temperaturi de lucru de până la 400°C, alături de seria HTN LO, dedicată uleiului de ungere și fluidelor curate, cu presiuni de până la 16 bar și temperaturi de până la 80°C. Seria Multiphase e construită special pentru amestecuri de țiței, apă și gaz direct din câmpul petrolier, poziționând Houttuin în aceeași categorie tehnică cu Allweiler, marca-soră din același grup CIRCOR. Varianta 249.TT este o versiune mai nouă și mai compactă a seriei 249, conform producătorului.
 
 Pentru un integrator sau o rafinărie din România, Houttuin înseamnă acces la pompe cu șurub verificate în industria chimică și petrolieră, acolo unde fluidul de pompat e prea vâscos, prea fierbinte sau conține prea mult gaz pentru o soluție centrifugală standard.`,
     whyChoose: [
-      "Plajă de vâscozitate extinsă, de la 0,5 la peste 100.000 cSt, acoperită de seriile 236 și 249",
+      "Plajă de vâscozitate extinsă, de la 0,5 la 100.000 cSt, acoperită de seriile 236 și 249",
       "Temperaturi de lucru de până la 400°C la seriile de proces, pentru fluide fierbinți din rafinării",
       "Seria Multiphase dedicată amestecurilor țiței-apă-gaz direct din câmpul petrolier",
-      "Parte din grupul CIRCOR, alături de marca-soră Allweiler, cu acces la aceeași rețea de inginerie",
+      "Parte din grupul CIRCOR, alături de marca-soră Allweiler",
       "Origine olandeză din 1929, cu experiență îndelungată în pompe cu șurub pentru medii vâscoase",
     ],
     keyProducts: [
       { name: "Houttuin Lube Oil Series (HTN LO)", description: "Pompe cu doi șuruburi pentru fluide curate și aplicații de ungere, cu presiune diferențială de până la 16 bar, temperatură de lucru de până la 80°C și vâscozitate între 10 și 760 cSt. Folosite pentru circuite de ungere a turbinelor și transferul uleiurilor curate. Clientul trebuie să transmită debitul necesar și vâscozitatea reală a uleiului." },
-      { name: "Houttuin Seria 236", description: "Pompe cu doi șuruburi pentru industria chimică și rafinării, cu presiune diferențială de până la 40 bar, temperatură de lucru de până la 400°C și vâscozitate între 0,5 și 100.000 cSt. Aplicație tipică: transferul de fluide vâscoase sau fierbinți în instalații de proces. Clientul precizează vâscozitatea, temperatura și presiunea necesară." },
-      { name: "Houttuin Seria 249 / 249.TT", description: "Pompe cu doi șuruburi optimizate pentru funcționare uscată, stripare și autoamorsare, cu presiune de până la 60 bar și aceeași plajă largă de vâscozitate ca seria 236. Varianta 249.TT aduce dimensiuni reduse și un NPSH mai mic față de seria clasică. Clientul trebuie să confirme dacă aplicația necesită autoamorsare sau funcționare uscată prelungită." },
-      { name: "Houttuin Multiphase Series", description: "Pompe cu doi șuruburi pentru boost-ul amestecurilor multifazice de țiței, apă și gaz direct de la capul de sondă, tolerante la fracții mari de gaz liber fără pierderea amorsării. Aplicație tipică: stații de pompare multifazică în câmpuri petroliere. Clientul trebuie să transmită compoziția amestecului (proporția de gaz, apă și țiței) și presiunea necesară." },
+      { name: "Houttuin Seria 236", description: "Pompe cu doi șuruburi pentru industria chimică și rafinării, cu temperatură de lucru de până la 400°C și vâscozitate între 0,5 și 100.000 cSt, conform producătorului; presiunea diferențială se confirmă pe model. Aplicație tipică: transferul de fluide vâscoase sau fierbinți în instalații de proces. Clientul precizează vâscozitatea, temperatura și presiunea necesară." },
+      { name: "Houttuin Seria 249 / 249.TT", description: "Pompe cu doi șuruburi optimizate pentru funcționare uscată, stripare și autoamorsare, cu presiune de până la 60 bar și aceeași plajă largă de vâscozitate ca seria 236. Varianta 249.TT este o versiune mai nouă și mai compactă a seriei 249. Clientul trebuie să confirme dacă aplicația necesită autoamorsare sau funcționare uscată prelungită." },
+      { name: "Houttuin Multiphase Series", description: "Pompe cu doi șuruburi pentru boost-ul amestecurilor multifazice de țiței, apă și gaz direct de la capul de sondă, gândite pentru cerințe dificile de ridicare a presiunii în aplicații multifazice, conform producătorului. Aplicație tipică: stații de pompare multifazică în câmpuri petroliere. Clientul trebuie să transmită compoziția amestecului (proporția de gaz, apă și țiței) și presiunea necesară." },
     ],
     industries: [
       "Chimie/petrochimie — transferul fluidelor vâscoase sau corozive",
@@ -174,23 +174,23 @@ Pentru un integrator sau o rafinărie din România, Houttuin înseamnă acces la
       { code: "Houttuin 216.40", description: "model din familia Lube Oil, pentru vâscozitate 10-760 cSt" },
       { code: "Houttuin Seria 236", description: "pompe cu șurub pentru chimie și rafinării, până la 400°C" },
       { code: "Houttuin Seria 249", description: "pompe cu șurub pentru funcționare uscată și autoamorsare" },
-      { code: "Houttuin 249.TT", description: "variantă compactă a seriei 249, NPSH redus" },
-      { code: "Houttuin Transfer Series", description: "pompe cu șurub pentru transferul general de fluide" },
-      { code: "Houttuin Process Series", description: "pompe cu șurub pentru aplicații de proces industrial" },
+      { code: "Houttuin 249.TT", description: "variantă mai nouă și compactă a seriei 249" },
+      
+      
       { code: "Houttuin Multiphase Series", description: "pompe cu șurub pentru amestecuri țiței-apă-gaz" },
       { code: "Houttuin Friction Heater Pump", description: "pompă cu șurub cu încălzire prin frecare a fluidului" },
       { code: "Twin-Screw Pump Technology", description: "principiul constructiv de bază al gamei Houttuin" },
     ],
     faq: [
       { q: "Ce fel de pompe produce Houttuin?", a: "Houttuin fabrică pompe cu doi șuruburi pentru fluide vâscoase, fierbinți sau cu conținut de gaz, folosite în chimie, rafinării și petrol offshore. Brandul, cu origini olandeze din 1929, face parte azi din portofoliul CIRCOR, alături de Allweiler." },
-      { q: "Cum aleg seria corectă de pompă Houttuin după vâscozitate?", a: "Trebuie să știi vâscozitatea reală a fluidului, temperatura de lucru și presiunea de refulare necesară. Seria 236 și seria 249 acoperă vâscozități între 0,5 și 100.000 cSt, în timp ce Lube Oil e potrivită pentru fluide mai puțin vâscoase, între 10 și 760 cSt." },
-      { q: "Ce diferență e între Houttuin seria 249 și 249.TT?", a: "Seria 249.TT păstrează parametrii de presiune și vâscozitate ai seriei 249 clasice, dar vine cu o construcție mai compactă și un NPSH (înălțime netă pozitivă de aspirație) mai mic, util unde spațiul de montaj sau condițiile de aspirație sunt limitate." },
+      { q: "Cum aleg seria corectă de pompă Houttuin după vâscozitate?", a: "Trebuie să știți vâscozitatea reală a fluidului, temperatura de lucru și presiunea de refulare necesară. Seria 236 și seria 249 acoperă vâscozități între 0,5 și 100.000 cSt, în timp ce Lube Oil e potrivită pentru fluide mai puțin vâscoase, între 10 și 760 cSt." },
+      { q: "Ce diferență e între Houttuin seria 249 și 249.TT?", a: "Seria 249.TT este, conform producătorului, o versiune mai nouă și mai compactă a seriei 249, utilă unde spațiul de montaj este limitat; parametrii exacți se confirmă pe model." },
       { q: "Livrați pompe Houttuin în România și cât durează?", a: "Da, aducem pompe cu șurub Houttuin la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă. Nu ținem această gamă pe raft, iar termenul exact se confirmă după transmiterea parametrilor tehnici." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Houttuin | CIRCOR Pumps", url: "https://pumps.circor.com/houttuin", publisher: "CIRCOR International, Inc.", accessed: "2026-09-25" },
       { title: "Twin-Screw Pump Technology | CIRCOR Pumps", url: "https://pumps.circor.com/products/twin-screw-pump", publisher: "CIRCOR International, Inc.", accessed: "2026-09-25" },
@@ -202,7 +202,7 @@ Pentru un integrator sau o rafinărie din România, Houttuin înseamnă acces la
     headquarters: "Henstedt-Ulzburg, Germania",
     overview: `Lorentz este un producător german specializat exclusiv în pompe alimentate solar, cu sediul la Henstedt-Ulzburg, activ din 1993 în pomparea apei fără dependență de rețeaua electrică. Gama pornește de la sistemul PS2, pentru aplicații mici și medii, trece prin familia PSk, hibridă, pentru proiecte mai mari, până la PSk2-100, vârful de gamă ca putere instalată, cu 100 kW. Completează oferta pompele submersibile pentru foraje, pompele de suprafață și pompele pentru piscine, plus sistemul LORENTZ S, gândit pentru montaj propriu de către client. Pentru piața din România putem oferta din gama de pompe solare pentru irigații, alimentare cu apă și proiecte fără acces facil la rețeaua electrică.
 
-Ce diferențiază Lorentz e plaja de putere acoperită de o singură familie de produse, de la sisteme de 100 W potrivite pentru o gospodărie izolată, până la stații de 100 kW pentru irigații pe suprafețe mari, toate proiectate să funcționeze direct pe curent continuu de la panouri fotovoltaice, fără invertor separat de rețea. Familia PSk3 aduce funcționalitate hibridă integrată, permițând completarea energiei solare cu o sursă suplimentară atunci când radiația nu e suficientă. Compania a primit în 2021 recunoașterea Solar Impulse Efficient Solution Label pentru eficiența soluțiilor sale.
+Ce diferențiază Lorentz e plaja de putere acoperită de o singură familie de produse, de la sisteme de 100 W potrivite pentru o gospodărie izolată, până la stații de 100 kW pentru irigații pe suprafețe mari, toate proiectate să funcționeze direct pe curent continuu de la panouri fotovoltaice, fără invertor separat de rețea. Sistemele PSk pot funcționa pe energie solară, generator sau rețea, combinând automat sursele; modelele PSk3-7 și PSk3-15 au funcționalitate hibridă integrată, iar sistemele de clasă de putere mai mare sunt modulare, pentru a permite opțiunea hibridă. Compania a primit în 2021 recunoașterea Solar Impulse Efficient Solution Label pentru eficiența soluțiilor sale.
 
 Pentru un fermier, o asociație de utilități sau un dezvoltator de proiecte rurale din România, Lorentz înseamnă acces la pompare solară fără costuri de racordare la rețea, utilă mai ales pentru irigații, adăpat animale sau alimentare cu apă în zone fără infrastructură electrică fiabilă.`,
     whyChoose: [
@@ -214,7 +214,7 @@ Pentru un fermier, o asociație de utilități sau un dezvoltator de proiecte ru
     ],
     keyProducts: [
       { name: "Sistem de Pompare Solară PS2", description: "Sistem de pompare solară pentru aplicații mici și medii, alimentat direct de la panouri fotovoltaice, fără baterii. Folosit pentru alimentare cu apă potabilă, adăpat animale și irigații de suprafață redusă. Clientul trebuie să transmită înălțimea de pompare necesară și debitul zilnic dorit pentru dimensionarea corectă a panourilor și a pompei." },
-      { name: "Sistem de Pompare Solară PSk / PSk3", description: "Familie de sisteme solare hibride pentru proiecte mai mari, cu PSk3 aducând funcționalitate hibridă integrată pentru completarea energiei solare cu o sursă suplimentară. Aplicație tipică: irigații pe suprafețe extinse și sisteme de alimentare cu apă pentru comunități. Clientul precizează debitul necesar, înălțimea de pompare și dacă dorește variantă hibridă." },
+      { name: "Sistem de Pompare Solară PSk / PSk3", description: "Familie de sisteme solare hibride pentru proiecte mai mari, cu modelele PSk3-7 și PSk3-15 având funcționalitate hibridă integrată (generator sau rețea alături de energia solară). Aplicație tipică: irigații pe suprafețe extinse și sisteme de alimentare cu apă pentru comunități. Clientul precizează debitul necesar, înălțimea de pompare și dacă dorește variantă hibridă." },
       { name: "PSk2-100", description: "Vârful de gamă al portofoliului standard Lorentz ca putere instalată, cu 100 kW, dedicată proiectelor de irigații de mare amploare sau alimentării cu apă pentru comunități extinse. Clientul trebuie să confirme debitul și înălțimea de pompare pentru a valida dimensionarea sistemului fotovoltaic asociat." },
       { name: "LORENTZ S", description: "Sistem de pompare solară de tip plug-and-play, conceput pentru autoinstalare de către client, fără echipamente specializate de montaj. Potrivit pentru gospodării izolate sau proiecte mici de alimentare cu apă. Clientul trebuie să transmită adâncimea sursei de apă și debitul dorit." },
     ],
@@ -241,14 +241,14 @@ Pentru un fermier, o asociație de utilități sau un dezvoltator de proiecte ru
     ],
     faq: [
       { q: "Ce fel de pompe produce Lorentz?", a: "Lorentz produce exclusiv sisteme de pompare a apei alimentate solar, de la sisteme mici de 100 W pentru o gospodărie izolată, până la stații de 100 kW pentru irigații pe suprafețe mari. Gama include pompe submersibile pentru foraje, pompe de suprafață și sisteme hibride." },
-      { q: "Cum aleg sistemul solar Lorentz potrivit pentru irigații?", a: "Ai nevoie de debitul zilnic dorit, înălțimea totală de pompare (adâncimea sursei plus înălțimea de refulare) și radiația solară medie din zonă. Pentru proiecte mari, familia PSk sau PSk2-100 oferă puterea necesară; pentru aplicații mici, PS2 e adesea suficient." },
+      { q: "Cum aleg sistemul solar Lorentz potrivit pentru irigații?", a: "Sunt necesare debitul zilnic dorit, înălțimea totală de pompare (adâncimea sursei plus înălțimea de refulare) și radiația solară medie din zonă. Pentru proiecte mari, familia PSk sau PSk2-100 poate oferi puterea necesară; pentru aplicații mici se poate alege PS2, în funcție de dimensionare." },
       { q: "Ce înseamnă sistemul hibrid Lorentz PSk3?", a: "PSk3 combină alimentarea solară cu o sursă suplimentară de energie, activată automat atunci când radiația solară nu e suficientă pentru debitul dorit. E util pentru instalații unde continuitatea alimentării cu apă contează mai mult decât funcționarea exclusiv pe energie solară." },
       { q: "Livrați sisteme Lorentz în România și cât durează?", a: "Da, aducem sisteme de pompare Lorentz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Nu ținem această gamă pe raft, iar termenul se confirmă după ce primim parametrii instalației." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "LORENTZ - Solar Water Pumps and Solar Power Solutions", url: "https://www.lorentz.de", publisher: "LORENTZ", accessed: "2026-09-25" },
       { title: "Products - LORENTZ", url: "https://www.lorentz.de/en/products/", publisher: "LORENTZ", accessed: "2026-09-25" },
@@ -303,14 +303,14 @@ Pentru o stație de epurare, o fermă zootehnică sau un operator de instalație
     ],
     faq: [
       { q: "Ce fel de echipamente produce Landia?", a: "Landia fabrică pompe tocătoare, mixere submersibile și sisteme de amestecare a gazului pentru trei piețe principale: biogaz, tratarea apelor uzate și agricultură. Particularitatea gamei e cuțitul integrat pe rotorul pompelor, care mărunțește materialul fibros înainte de pompare." },
-      { q: "Cum aleg mixerul Landia potrivit pentru un digestor de biogaz?", a: "Ai nevoie de volumul digestorului, tipul de substrat procesat (gunoi de grajd, deșeuri organice, nămol) și dacă instalația are deja un sistem de amestecare mecanic sau vrei o soluție cu gaz (GasMix). Aceste date determină numărul și puterea mixerelor recomandate." },
+      { q: "Cum aleg mixerul Landia potrivit pentru un digestor de biogaz?", a: "Sunt necesare volumul digestorului, tipul de substrat procesat (gunoi de grajd, deșeuri organice, nămol) și informația dacă instalația are deja un sistem de amestecare mecanic sau se dorește o soluție cu gaz (GasMix). Aceste date determină numărul și puterea mixerelor recomandate." },
       { q: "Ce diferență e între o pompă tocătoare Landia submersibilă și una montată uscat?", a: "Pompa submersibilă (neddykket) funcționează scufundată direct în bazin, în timp ce varianta montată uscat stă într-o cameră separată, accesibilă pentru mentenanță fără golirea bazinului. Funcția de tocare a materialului e aceeași la ambele variante." },
       { q: "Livrați echipamente Landia în România și cât durează?", a: "Da, aducem pompe și mixere Landia la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model. Nu ținem această gamă pe raft, iar termenul exact se confirmă după transmiterea datelor aplicației." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Landia A/S - pumper og omrørere", url: "https://www.landia.dk", publisher: "Landia A/S", accessed: "2026-09-25" },
       { title: "Produkter - Landia", url: "https://www.landia.dk/produkter/", publisher: "Landia A/S", accessed: "2026-09-25" },
@@ -330,13 +330,13 @@ Pentru un antreprenor de construcții, un operator de epuismente sau o stație d
       "Seria V SAXMAG cu antrenare magnetică, fără etanșare mecanică, pentru fluide corozive",
       "Agregate mobile de stins incendiu seria ARGO, conforme standardului EN 12845",
       "Peste nouă decenii de experiență în pompe autoamorsante pentru epuismente și construcții",
-      "Parte din grupul industrial Atlas Copco, cu acces la o rețea globală de service",
+      "Parte din grupul Atlas Copco",
     ],
     keyProducts: [
-      { name: "Pompe Centrifuge Autoamorsante Seria J", description: "Pompe autoamorsante de uz general, pentru transfer de apă curată sau cu conținut redus de solide, folosite la epuismente pe șantier, irigații și aplicații industriale generale. Construcție robustă pentru funcționare intermitentă sau continuă. Clientul trebuie să transmită debitul necesar, înălțimea de aspirație și dacă fluidul conține particule solide." },
-      { name: "Pompe pentru Fluide cu Solide Seria ST-R", description: "Pompe autoamorsante tip trash pump, pentru fluide murdare cu conținut de solide sau fibre, potrivite pentru epuismente pe șantiere de construcții, evacuarea apei din excavații sau bazine cu nămol. Rotor deschis, rezistent la înfundare. Clientul precizează dimensiunea maximă a particulelor solide așteptate." },
-      { name: "Pompe cu Roți Dințate Seria V / V SAXMAG", description: "Pompe volumetrice cu roți dințate interne, pentru fluide vâscoase precum uleiuri sau produse petroliere. Varianta V SAXMAG folosește antrenare magnetică, eliminând etanșarea mecanică și riscul de scurgere la fluide corozive sau periculoase. Clientul trebuie să transmită vâscozitatea fluidului și compatibilitatea chimică necesară." },
-      { name: "Agregate Mobile de Stins Incendiu Seria ARGO", description: "Agregate mobile de pompare pentru stingerea incendiilor, conforme standardului EN 12845, montate pe șasiu remorcabil pentru intervenție rapidă unde rețeaua fixă de hidranți lipsește sau e insuficientă. Clientul trebuie să confirme debitul și presiunea cerute de proiectul de protecție la incendiu." },
+      { name: "Pompe Centrifuge Autoamorsante Seria J", description: "Pompe autoamorsante de uz general, pentru transfer de apă și de fluide murdare cu solide în suspensie, folosite la epuismente pe șantier, irigații și aplicații industriale generale. Construcție robustă pentru funcționare intermitentă sau continuă. Clientul trebuie să transmită debitul necesar, înălțimea de aspirație și dacă fluidul conține particule solide." },
+      { name: "Pompe pentru Fluide cu Solide Seria ST-R", description: "Pompe autoamorsante tip trash pump, pentru fluide murdare cu conținut de solide sau fibre, potrivite pentru epuismente pe șantiere de construcții, evacuarea apei din excavații sau bazine cu nămol. Rotor semi-deschis, rezistent la înfundare. Clientul precizează dimensiunea maximă a particulelor solide așteptate." },
+      { name: "Pompe cu Roți Dințate Seria V / V SAXMAG", description: "Pompe volumetrice cu roți dințate interne, pentru fluide vâscoase și aplicații industriale grele. Varianta V SAXMAG folosește antrenare magnetică, eliminând etanșarea mecanică și riscul de scurgere la fluide corozive sau periculoase. Clientul trebuie să transmită vâscozitatea fluidului și compatibilitatea chimică necesară." },
+      { name: "Agregate Mobile de Stins Incendiu Seria ARGO", description: "Agregate de pompare pentru stingerea incendiilor, conforme standardului EN 12845, pentru sprinklere și hidranți. Clientul trebuie să confirme debitul și presiunea cerute de proiectul de protecție la incendiu." },
     ],
     industries: [
       "Construcții — epuismente pe șantier și evacuarea apei din excavații",
@@ -366,14 +366,14 @@ Pentru un antreprenor de construcții, un operator de epuismente sau o stație d
     ],
     faq: [
       { q: "Ce fel de pompe produce Varisco?", a: "Varisco fabrică pompe autoamorsante centrifuge, pompe cu roți dințate pentru fluide vâscoase, pompe cu diafragmă pentru solide și agregate mobile de stins incendiu. Compania, fondată în 1932 la Padova, face parte azi din grupul Atlas Copco." },
-      { q: "Cum aleg pompa Varisco potrivită pentru un epuisment cu solide?", a: "Ai nevoie de dimensiunea maximă a particulelor solide din apă, debitul necesar și înălțimea de aspirație. Seria ST-R, cu rotor deschis, e gândită special pentru fluide murdare; pentru apă mai curată, seria J acoperă majoritatea aplicațiilor generale." },
-      { q: "Ce este o pompă Varisco V SAXMAG și când o aleg?", a: "V SAXMAG e o pompă cu roți dințate cu antrenare magnetică, fără etanșare mecanică, potrivită pentru fluide corozive sau periculoase unde o scurgere la garnitură nu e acceptabilă. Trimite-ne fluidul pompat și vâscozitatea acestuia pentru a confirma compatibilitatea." },
+      { q: "Cum aleg pompa Varisco potrivită pentru un epuisment cu solide?", a: "Aveți nevoie de dimensiunea maximă a particulelor solide din apă, debitul necesar și înălțimea de aspirație. Seria ST-R, cu rotor semi-deschis, e gândită special pentru fluide murdare; seria J acoperă aplicațiile generale, inclusiv fluide cu solide în suspensie." },
+      { q: "Ce este o pompă Varisco V SAXMAG și când o aleg?", a: "V SAXMAG e o pompă cu roți dințate cu antrenare magnetică, fără etanșare mecanică, potrivită pentru fluide corozive sau periculoase unde o scurgere la garnitură nu e acceptabilă. Transmiteți-ne fluidul pompat și vâscozitatea acestuia pentru a confirma compatibilitatea." },
       { q: "Livrați pompe Varisco în România și cât durează?", a: "Da, aducem pompe Varisco la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie. Nu ținem această gamă pe raft, iar termenul exact se confirmă după transmiterea parametrilor aplicației." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About us - Varisco Pumps", url: "https://www.variscopumps.com/en-int/about-us", publisher: "Varisco S.p.A.", accessed: "2026-09-25" },
       { title: "Products - Varisco Pumps", url: "https://www.variscopumps.com/en-int/products", publisher: "Varisco S.p.A.", accessed: "2026-09-25" },
@@ -382,13 +382,13 @@ Pentru un antreprenor de construcții, un operator de epuismente sau o stație d
   sera: {
     name: "Sera",
     founded: 1945,
-    overview: `Sera este un producător german de pompe dozatoare și pompe de alimentare pentru procese industriale, activ din 1945, cu peste 300 de angajați și sedii internaționale. Gama de dozare acoperă pompe cu diafragmă de la seria compactă C 204.1 până la variantele electronice inteligente iSTEP, pompe cu diafragmă multistrat (ML) pentru presiuni ridicate și pompe cu piston-diafragmă (KM) pentru presiuni de până la 140 bar. Completează oferta pompele de alimentare airPUMP (cu aer comprimat), PERIBEST (cu furtun) și centrifugalPUMP. Pentru piața din România putem oferta din gama Sera de pompe dozatoare pentru tratarea apei, dezinfecție și procese chimice.
+    overview: `Sera este un producător german de pompe dozatoare și pompe de alimentare pentru procese industriale, activ din 1945, cu peste 300 de angajați și sedii internaționale. Gama de dozare acoperă pompe cu diafragmă de la seria compactă C 204.1 până la variantele electronice inteligente iSTEP, pompe cu diafragmă multistrat (ML), pompe cu piston-diafragmă (KM) pentru presiuni de până la 80 bar și pompe cu piston (K) pentru presiuni de până la 140 bar. Completează oferta pompele de alimentare airPUMP (cu aer comprimat), PERIBEST (cu furtun) și centrifugalPUMP. Pentru piața din România putem oferta din gama Sera de pompe dozatoare pentru tratarea apei, dezinfecție și procese chimice.
 
-Ce diferențiază Sera e plaja foarte largă de presiune acoperită doar de gama de dozare cu diafragmă: de la 5 bar la seria C 410.2, până la 140 bar la variantele KM cu piston-diafragmă, cu debite între câțiva litri pe oră și peste 1.400 l/h în funcție de model. Seria iSTEP aduce control electronic al cursei de dozare, util unde procesul cere ajustare fină în timp real. În segmentul pompelor dozatoare pentru tratarea apei și procese chimice, Sera se compară cu ProMinent, ambele oferind game largi de diafragmă mecanică și electronică pentru dozare de precizie.
+Ce diferențiază Sera e plaja foarte largă de presiune acoperită doar de gama de dozare cu diafragmă: de la 5 bar la seria C 410.2, până la 140 bar la variantele cu piston (K), cu debite între câțiva litri pe oră și peste 1.400 l/h în funcție de model. Seria iSTEP aduce control electronic al cursei de dozare, util unde procesul cere ajustare fină în timp real. În segmentul pompelor dozatoare pentru tratarea apei și procese chimice, Sera se compară cu ProMinent, ambele oferind game largi de diafragmă mecanică și electronică pentru dozare de precizie.
 
 Pentru o stație de tratare a apei, o instalație de dezinfecție sau o linie de proces chimic din România, Sera înseamnă acces la pompe dozatoare pentru reactivi și substanțe de tratare, de la debite mici de laborator până la instalații industriale cu presiuni ridicate de injecție.`,
     whyChoose: [
-      "Plajă de presiune de la 5 la 140 bar în gama de pompe dozatoare cu diafragmă",
+      "Plajă de presiune de la 5 la 140 bar în gama de pompe dozatoare cu diafragmă și piston",
       "Serie electronică iSTEP, cu control al cursei de dozare pentru ajustare fină în timp real",
       "Variante multistrat (ML) pentru presiuni ridicate și piston-diafragmă (KM) pentru aplicații extreme",
       "Pompe de alimentare complementare (airPUMP, PERIBEST, centrifugalPUMP) pentru transferul soluțiilor",
@@ -398,7 +398,7 @@ Pentru o stație de tratare a apei, o instalație de dezinfecție sau o linie de
       { name: "Pompă Dozatoare C 204.1", description: "Pompă dozatoare cu diafragmă acționată prin solenoid, cu debit maxim de 35 l/h și presiune de până la 10 bar, potrivită pentru dozare de mică capacitate în laborator sau instalații compacte de tratare a apei. Clientul trebuie să confirme debitul de dozare necesar și presiunea din conducta de injecție." },
       { name: "Pompe Dozatoare Inteligente iSTEP (XS / S / M)", description: "Familie de pompe dozatoare cu diafragmă și acționare electronică, cu debite între 15 și 50 l/h la 10 bar, pentru procese care cer control fin al cursei de dozare. Aplicație tipică: dezinfecție cu dozare variabilă și procese chimice cu debit reglabil. Clientul precizează debitul minim și maxim de dozare necesar." },
       { name: "Pompe Dozatoare C 409.2 / C 410.2", description: "Pompe dozatoare standard cu diafragmă, cu debite de până la 350 l/h (C 409.2) și 1.450 l/h (C 410.2) la presiuni de 5-10 bar, disponibile și în variantă cu recirculare (RF). Aplicație tipică: dozare de substanțe chimice în tratarea apei industriale. Clientul transmite debitul și presiunea de lucru necesare." },
-      { name: "Pompe Dozatoare Multistrat ML și Piston-Diafragmă KM", description: "Variante de înaltă presiune ale gamei C 409.2/410.2: seria ML atinge 80 bar la debite de până la 1.200 l/h, iar seria KM, cu piston-diafragmă, ajunge la 140 bar. Aplicație tipică: injecție de reactivi în procese cu contrapresiune ridicată. Clientul trebuie să confirme presiunea maximă din sistem." },
+      { name: "Pompe Dozatoare Multistrat ML și Piston-Diafragmă KM", description: "Variante de înaltă presiune ale gamei C 409.2/410.2: seria ML (diafragmă multistrat) atinge debite de până la 1.200 l/h, la presiuni de până la 5 bar (până la 20 bar la debitele mici), iar seria KM, cu piston-diafragmă, ajunge la 80 bar; variantele cu piston (K) ajung la 140 bar. Aplicație tipică: injecție de reactivi în procese cu contrapresiune ridicată. Clientul trebuie să confirme presiunea maximă din sistem." },
     ],
     industries: [
       "Tratarea apei — dozare reactivi și substanțe de dezinfecție",
@@ -406,39 +406,39 @@ Pentru o stație de tratare a apei, o instalație de dezinfecție sau o linie de
       "Agricultură — sisteme de dozare pentru tratamente și fertirigare",
       "Industrie alimentară — dozare aditivi și substanțe de tratare",
     ],
-    infinitrade: `Aducem pompe dozatoare Sera prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor. Fiind un brand nou pentru noi, ne raportăm strict la cataloagele publice ale producătorului — nu ținem pe raft propriu de pompe Sera și nu ținem modele pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de debitul de dozare dorit, presiunea din punctul de injecție și substanța dozată (pentru compatibilitatea materialelor de contact). Pentru variantele electronice iSTEP sau cele de înaltă presiune (ML, KM), transmiteți și modul de control dorit, ca să verificăm varianta potrivită din gamă.`,
+    infinitrade: `Aducem pompe dozatoare Sera prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor. Fiind un brand nou pentru noi, ne raportăm strict la cataloagele publice ale producătorului — nu avem stoc propriu de pompe Sera și nu ținem modele pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de debitul de dozare dorit, presiunea din punctul de injecție și substanța dozată (pentru compatibilitatea materialelor de contact). Pentru variantele electronice iSTEP sau cele de înaltă presiune (ML, KM), transmiteți și modul de control dorit, ca să verificăm varianta potrivită din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a materialelor de contact pentru fiecare substanță dozată fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "C 204.1", description: "pompă dozatoare cu diafragmă, debit 35 l/h, 10 bar" },
       { code: "iSTEP XS", description: "pompă dozatoare electronică, debit 15 l/h, 10 bar" },
       { code: "iSTEP S", description: "pompă dozatoare electronică, debit 50 l/h, 10 bar" },
-      { code: "iSTEP M", description: "pompă dozatoare electronică, debit 50 l/h, 10 bar" },
+      { code: "iSTEP M", description: "pompă dozatoare electronică, modelul M din familia iSTEP; debitul se confirmă din catalogul producătorului" },
       { code: "C 409.2", description: "pompă dozatoare cu diafragmă, debit 350 l/h, 10 bar" },
       { code: "RF 409.2", description: "pompă dozatoare cu recirculare, debit 350 l/h, 10 bar" },
       { code: "C 410.2", description: "pompă dozatoare cu diafragmă, debit 1.450 l/h, 5 bar" },
       { code: "RF 410.2", description: "pompă dozatoare cu recirculare, debit 1.450 l/h, 5 bar" },
-      { code: "C 409.2 ML", description: "pompă dozatoare multistrat, debit 220 l/h, 80 bar" },
-      { code: "RF 409.2 ML", description: "pompă dozatoare multistrat cu recirculare, 220 l/h, 80 bar" },
-      { code: "C 410.2 ML", description: "pompă dozatoare multistrat, debit 1.200 l/h, 80 bar" },
-      { code: "RF 410.2 ML", description: "pompă dozatoare multistrat cu recirculare, 1.200 l/h, 80 bar" },
-      { code: "C 409.2 KM", description: "pompă piston-diafragmă, debit 180 l/h, 140 bar" },
-      { code: "C 410.2 KM", description: "pompă piston-diafragmă, debit 510 l/h, 140 bar" },
-      { code: "RF 409.2 K", description: "pompă cu piston și recirculare, debit 310 l/h, 140 bar" },
+      { code: "C 409.2 ML", description: "pompă dozatoare multistrat, debit maxim 220 l/h, presiune maximă 20 bar (în funcție de debit)" },
+      { code: "RF 409.2 ML", description: "pompă dozatoare multistrat cu recirculare, debit maxim 220 l/h, presiune maximă 20 bar (în funcție de debit)" },
+      { code: "C 410.2 ML", description: "pompă dozatoare multistrat, debit maxim 1.200 l/h la 5 bar" },
+      { code: "RF 410.2 ML", description: "pompă dozatoare multistrat cu recirculare, debit maxim 1.200 l/h la 5 bar" },
+      { code: "C 409.2 KM", description: "pompă piston-diafragmă, presiune până la 80 bar la debite mici, debit maxim 45 l/h la 35 bar" },
+      { code: "C 410.2 KM", description: "pompă piston-diafragmă, debit maxim 510 l/h la 14 bar, presiune până la 70 bar la debite mici" },
+      { code: "RF 409.2 K", description: "pompă cu piston, presiune până la 140 bar la debite mici (8–12 l/h)" },
       { code: "airPUMP", description: "pompă de alimentare acționată cu aer comprimat" },
       { code: "PERIBEST", description: "pompă de alimentare cu furtun (peristaltică)" },
       { code: "centrifugalPUMP", description: "pompă centrifugă de alimentare, debit 50 m³/h" },
       { code: "411.3", description: "pompă de alimentare, debit 3.100 l/h, 4 bar" },
     ],
     faq: [
-      { q: "Ce fel de pompe produce Sera?", a: "Sera fabrică pompe dozatoare cu diafragmă și piston-diafragmă pentru dozarea precisă a lichidelor, plus pompe de alimentare (cu aer comprimat, cu furtun sau centrifuge) pentru transferul soluțiilor. Gama acoperă presiuni de la 4 la 140 bar, în funcție de serie." },
-      { q: "Cum aleg pompa dozatoare Sera potrivită pentru tratarea apei?", a: "Ai nevoie de debitul de dozare dorit, presiunea din conducta de injecție și substanța chimică pe care o dozezi, pentru a verifica materialele de contact compatibile. Pentru presiuni peste 80 bar, seriile ML sau KM sunt varianta corectă." },
-      { q: "Ce diferență e între pompele Sera C și cele iSTEP?", a: "Seriile C sunt pompe dozatoare mecanice, acționate prin solenoid sau motor, cu reglaj manual al cursei. Seria iSTEP adaugă control electronic, util pentru procese care cer ajustarea automată a debitului de dozare în funcție de parametri variabili ai instalației." },
+      { q: "Ce fel de pompe produce Sera?", a: "Sera fabrică pompe dozatoare cu diafragmă și piston-diafragmă pentru dozarea precisă a lichidelor, plus pompe de alimentare (cu aer comprimat, cu furtun sau centrifuge) pentru transferul soluțiilor. Presiunea maximă depinde de serie și de model, până la 140 bar la variantele cu piston." },
+      { q: "Cum aleg pompa dozatoare Sera potrivită pentru tratarea apei?", a: "Aveți nevoie de debitul de dozare dorit, presiunea din conducta de injecție și substanța chimică pe care o dozați, pentru a verifica materialele de contact compatibile. Pentru presiuni de peste 20 bar, sunt indicate variantele cu piston-diafragmă (KM) sau cu piston (K); modelul exact îl confirmăm din catalogul producătorului." },
+      { q: "Ce diferență e între pompele Sera C și cele iSTEP?", a: "Seriile C sunt pompe dozatoare cu diafragmă din gama standard. Seria iSTEP adaugă control electronic, util pentru procese care cer ajustarea automată a debitului de dozare în funcție de parametri variabili ai instalației." },
       { q: "Livrați pompe Sera în România și cât durează?", a: "Da, aducem pompe dozatoare Sera la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model. Nu ținem această gamă pe raft, iar termenul se confirmă după transmiterea debitului și presiunii necesare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "sera Group - Fluid Technology", url: "https://www.sera-web.com/en/sera-group", publisher: "sera GmbH", accessed: "2026-09-25" },
       { title: "Product Catalogue - Dosing Technology 2026", url: "https://www.sera-web.com/fileadmin/Downloads/sera_AQUA/Produktunterlagen/2026EN__Product_catalogue__sera_GmbH.pdf", publisher: "sera GmbH", accessed: "2026-09-25" },
@@ -450,19 +450,19 @@ Pentru o stație de tratare a apei, o instalație de dezinfecție sau o linie de
     headquarters: "Milano, Italia",
     overview: `Roten este un producător italian de etanșări mecanice cu arc, fondat în 1945 la Milano de familia Fontanella, cu un catalog de peste 30 de modele diferite plus versiuni speciale. Seria emblematică ROTEN 2, cu arc autopropulsat brevetat în 1957, și ROTEN 3, cu arc pe trei diametre brevetat în 1970, rămân referința tehnică a gamei, completată de o nomenclatură extinsă de tipuri (Type 2, 3, 4, 5, 7, 85, 875DT, 902-972 etc.) pentru diverse configurații de arbore și presiune. Pentru piața din România putem oferta din gama Roten de etanșări mecanice pentru pompe din industria alimentară, chimică și cu apă.
 
-Ce diferențiază Roten e specializarea îngustă, dar adâncă, pe etanșările mecanice cu arc — atât cu arc simplu, cât și cu arc multiplu — construite pentru a rezista la vibrații și dezaliniere ușoară a arborelui, situație frecventă la pompele mai vechi sau prost întreținute. Grupul Roten include și Aves (etanșări mecanice), Eurocarbo (carbon și carbură de siliciu pentru fețele de etanșare) și Molinox (arcuri), ceea ce îi dă control pe lanțul de fabricație al componentelor critice. În segmentul etanșărilor mecanice pentru pompe industriale, Roten se compară cu AESSEAL, mai ales pe gama de etanșări cu arc pentru aplicații generale.
+Ce diferențiază Roten e specializarea îngustă, dar adâncă, pe etanșările mecanice cu arc. Grupul Roten include și Aves (etanșări mecanice), Eurocarbo (carbon și carbură de siliciu pentru fețele de etanșare) și Molinox (arcuri), ceea ce îi dă control pe lanțul de fabricație al componentelor critice. În segmentul etanșărilor mecanice pentru pompe industriale, Roten se compară cu AESSEAL, mai ales pe gama de etanșări cu arc pentru aplicații generale.
 
-Pentru un atelier de mentenanță sau un operator din industria alimentară, chimică sau de tratare a apei din România, Roten înseamnă acces la etanșări mecanice de schimb pentru pompe unde arcul multiplu tolerează mai bine dezalinierea sau uzura arborelui decât o etanșare cu arc unic.`,
+Pentru un atelier de mentenanță sau un operator din industria alimentară, chimică sau de tratare a apei din România, Roten înseamnă acces la etanșări mecanice de schimb pentru pompe din industria alimentară, chimică, farmaceutică și de tratare a apei.`,
     whyChoose: [
       "Peste 30 de modele de etanșări mecanice cu arc, plus versiuni speciale pentru configurații particulare",
-      "Serii proprii brevetate (ROTEN 2 din 1957, ROTEN 3 din 1970) pentru toleranță la dezaliniere",
+      "Serii proprii brevetate (ROTEN 2 din 1957, ROTEN 3 din 1970)",
       "Control pe lanțul de fabricație prin grupul Roten (Aves, Eurocarbo pentru fețe de etanșare, Molinox pentru arcuri)",
       "Game dedicate industriei alimentare, cu variante igienice pentru contact cu produse consumabile",
       "Opt decenii de experiență în etanșări mecanice pentru pompe industriale",
     ],
     keyProducts: [
       { name: "ROTEN 2", description: "Etanșare mecanică cu arc autopropulsat, brevetată în 1957, montaj simplu pe arbore, pentru pompe cu apă și aplicații generale unde arcul unic e suficient. Construcție compactă, ușor de întreținut. Clientul trebuie să transmită diametrul arborelui și presiunea de lucru a pompei." },
-      { name: "ROTEN 3", description: "Etanșare mecanică cu arc pe trei diametre, brevetată în 1970, pentru arbori cu dezaliniere ușoară sau uzură, unde o etanșare cu arc unic ar pierde etanșeitatea mai repede. Aplicație tipică: pompe din industria chimică și alimentară cu funcționare continuă. Clientul precizează diametrul arborelui și fluidul pompat." },
+      { name: "ROTEN 3", description: "Etanșare mecanică cu arc pe trei diametre, brevetată în 1970, pentru pompe industriale; seria potrivită se confirmă pe baza diametrului arborelui și a fluidului pompat. Aplicație tipică: pompe din industria chimică și alimentară cu funcționare continuă. Clientul precizează diametrul arborelui și fluidul pompat." },
       { name: "Etanșări Mecanice Seria 8 (Type 7, 7K, 8E, 85, 85E)", description: "Familie de etanșări mecanice pentru aplicații chimice și cu apă, cu variante pentru presiuni și temperaturi diferite în funcție de tipul exact ales. Aplicație tipică: pompe centrifuge din stații de tratare a apei și instalații chimice. Clientul trebuie să confirme tipul exact necesar, diametrul arborelui și compatibilitatea chimică a fluidului." },
       { name: "Etanșări Igienice pentru Industria Alimentară (Type EHS)", description: "Etanșare mecanică proiectată pentru industria alimentară, chimică și farmaceutică, cu suprafețe și materiale compatibile cu cerințele de igienă din procesarea produselor consumabile. Clientul trebuie să transmită diametrul arborelui și dacă aplicația necesită certificare de contact alimentar." },
     ],
@@ -480,30 +480,30 @@ Pentru un atelier de mentenanță sau un operator din industria alimentară, chi
       { code: "Type 2", description: "etanșare mecanică pentru industria alimentară și apă" },
       { code: "Type 3", description: "etanșare mecanică pentru industria alimentară și apă" },
       { code: "Type 4", description: "etanșare mecanică cu arc, aplicații generale" },
-      { code: "Type 45", description: "etanșare mecanică, variantă compactă" },
+      { code: "Type 45", description: "etanșare mecanică din gama Roten" },
       { code: "Type 5", description: "etanșare mecanică pentru industria alimentară și chimică" },
       { code: "Type 7", description: "etanșare mecanică pentru industria alimentară și chimică" },
-      { code: "Type 7K", description: "etanșare mecanică, variantă cartuș" },
-      { code: "Type 8E", description: "etanșare mecanică cu arc multiplu" },
+      { code: "Type 7K", description: "etanșare mecanică din gama Roten" },
+      { code: "Type 8E", description: "etanșare mecanică din gama Roten" },
       { code: "Type 85", description: "etanșare mecanică pentru industria chimică" },
-      { code: "Type 85E", description: "etanșare mecanică, variantă pentru arbori cu dezaliniere" },
-      { code: "Type 600SL", description: "etanșare mecanică cu design compact" },
-      { code: "Type 875DT", description: "etanșare mecanică dublă tandem" },
-      { code: "Type 877", description: "etanșare mecanică pentru presiuni ridicate" },
+      { code: "Type 85E", description: "etanșare mecanică din gama Roten" },
+      { code: "Type 600SL", description: "etanșare mecanică din gama Roten" },
+      { code: "Type 875DT", description: "etanșare mecanică compactă, combină caracteristicile tipurilor 85 și 7K" },
+      { code: "Type 877", description: "etanșare mecanică din gama Roten" },
       { code: "Type EHS", description: "etanșare igienică pentru alimentar, chimic și farmaceutic" },
       { code: "Type L2/L3/L4/L5", description: "familie de etanșări pentru aplicații cu apă" },
-      { code: "Type R580/R590", description: "etanșări mecanice pentru aplicații rotative" },
+      { code: "Type R580/R590", description: "etanșări mecanice din gama Roten" },
     ],
     faq: [
       { q: "Ce fel de etanșări produce Roten?", a: "Roten fabrică etanșări mecanice cu arc pentru pompe, în peste 30 de modele, de la seriile clasice ROTEN 2 și ROTEN 3 până la variante specializate pentru industria alimentară, chimică sau farmaceutică. Compania a fost fondată în 1945 la Milano." },
-      { q: "Cum aleg etanșarea mecanică Roten potrivită pentru o pompă existentă?", a: "Ai nevoie de diametrul exact al arborelui, dimensiunile locașului de etanșare, fluidul pompat și presiunea de lucru. Pentru arbori cu dezaliniere sau uzură, ROTEN 3 cu arc pe trei diametre tolerează mai bine variațiile decât un model cu arc unic." },
-      { q: "Ce diferență e între ROTEN 2 și ROTEN 3?", a: "ROTEN 2 folosește un arc autopropulsat unic, potrivit pentru arbori bine aliniați, în timp ce ROTEN 3 distribuie forța pe trei diametre, oferind toleranță mai bună la dezalinierea ușoară a arborelui. Alegerea depinde de starea mecanică a pompei pe care se montează etanșarea." },
+      { q: "Cum aleg etanșarea mecanică Roten potrivită pentru o pompă existentă?", a: "Aveți nevoie de diametrul exact al arborelui, dimensiunile locașului de etanșare, fluidul pompat și presiunea de lucru. Dacă nu sunteți sigur care serie se potrivește, o confirmăm pe baza datelor transmise." },
+      { q: "Ce diferență e între ROTEN 2 și ROTEN 3?", a: "ROTEN 2 are un arc autopropulsat (brevetat în 1957), iar ROTEN 3 un arc cu trei diametre (brevetat în 1970). Alegerea depinde de pompa pe care se montează etanșarea și se confirmă pe baza dimensiunilor arborelui și a fluidului pompat." },
       { q: "Livrați etanșări Roten în România și cât durează?", a: "Da, aducem etanșări mecanice Roten la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model ales. Nu promitem disponibilitate din depozit pentru acest brand — termenul se confirmă abia după ce primim diametrul exact al arborelui." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Company - Roten Seals", url: "https://roten-seals.com/company/?lang=en", publisher: "Roten S.r.l.", accessed: "2026-09-25" },
       { title: "Products - Roten Seals", url: "https://roten-seals.com/products/?lang=en", publisher: "Roten S.r.l.", accessed: "2026-09-25" },
@@ -512,21 +512,21 @@ Pentru un atelier de mentenanță sau un operator din industria alimentară, chi
   huhnseal: {
     name: "Huhnseal",
     headquarters: "Landskrona, Suedia",
-    overview: `Huhnseal este un producător suedez de etanșări mecanice cu cartuș, cu sediul la Landskrona, specializat pe etanșări balansate pentru echipamente rotative din industrii cu cerințe stricte de igienă sau de rezistență chimică. Gama acoperă seriile ES, ED, ESH și EDH pentru aplicații standard, BF/BA, BF-AP și BF-ISP pentru procese igienice, BC și BFS pentru aplicații duble sau cu flush, HL/ML și XG/XH pentru configurații speciale, plus seria GLRD (922S-B, 925-B, 921-B) pentru echipamente rotative de proces. Pentru piața din România putem oferta din gama Huhnseal pentru pompe și mixere din industria alimentară, chimică și de epurare.
+    overview: `Huhnseal este un producător suedez de etanșări mecanice pentru echipamente rotative, cu sediul la Landskrona, activ în industrii precum sanitar, minerit și nămoluri, celuloză și hârtie, chimie, farmaceutic, tratarea apelor uzate și refrigerare. Gama acoperă seriile ES, ED, ESH și EDH pentru aplicații standard, BF/BA, BF-AP și BF-ISP pentru procese igienice, BC și BFS pentru aplicații duble sau cu flush, HL/ML și XG/XH pentru configurații speciale, plus seria GLRD (922S-B, 925-B, 921-B) pentru echipamente rotative de proces. Pentru piața din România putem oferta din gama Huhnseal pentru pompe și mixere din industria alimentară, chimică și de epurare.
 
-Ce diferențiază Huhnseal e construcția tip cartuș a tuturor etanșărilor din gamă, care se montează preasamblat pe arbore, fără reglaj manual al pretensionării arcului — reduce timpul de montaj și riscul de eroare la instalare, comparativ cu o etanșare mecanică convențională montată componentă cu componentă. Compania acoperă atât aplicații igienice (alimente, băuturi, cosmetice, farmaceutice), cu acreditare ESA-EHEDG, cât și aplicații industriale grele (minerit, nămoluri, celuloză și hârtie). În segmentul etanșărilor mecanice cu cartuș, Huhnseal se compară cu EagleBurgmann, mai ales pe seriile pentru echipamente rotative de proces.
+Producătorul declară că proiectează etanșări mecanice orientate spre reducerea consumului de energie, a costurilor de exploatare și a impactului asupra mediului. Compania acoperă atât aplicații igienice (alimente, băuturi, cosmetice, farmaceutice), cu acreditare ESA-EHEDG, cât și aplicații industriale grele (minerit, nămoluri, celuloză și hârtie). În segmentul etanșărilor mecanice cu cartuș, Huhnseal se compară cu EagleBurgmann, mai ales pe seriile pentru echipamente rotative de proces.
 
-Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau de epurare din România, Huhnseal înseamnă acces la etanșări preasamblate tip cartuș, care reduc riscul de montaj greșit și timpul de oprire la o intervenție de mentenanță.`,
+Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau de epurare din România, Huhnseal înseamnă acces la etanșări mecanice pentru aplicații igienice și industriale, alese pe baza datelor aplicației dumneavoastră.`,
     whyChoose: [
-      "Construcție tip cartuș preasamblat, fără reglaj manual al pretensionării arcului la montaj",
+      "Etanșări mecanice proiectate, conform producătorului, pentru reducerea consumului de energie și a costurilor de exploatare",
       "Acreditare ESA-EHEDG pentru aplicații igienice din alimente, băuturi și farmaceutice",
       "Game separate pentru aplicații standard, igienice și industriale grele (minerit, nămoluri)",
       "Seria GLRD dedicată echipamentelor rotative de proces din industrii cu cerințe speciale",
       "Variante cu flush (BFS) și configurații duble pentru fluide dificil de etanșat",
     ],
     keyProducts: [
-      { name: "Etanșări Cartuș Seria ES / ED", description: "Etanșări mecanice balansate tip cartuș, pentru aplicații standard pe pompe și mixere rotative, cu montaj preasamblat pe arbore. Varianta ED aduce configurație dublă pentru fluide cu risc de scurgere. Clientul trebuie să transmită diametrul arborelui, presiunea de lucru și fluidul pompat." },
-      { name: "Etanșări Igienice Seria BF / BA / BF-ISP", description: "Etanșări mecanice tip cartuș pentru procese igienice, cu suprafețe și materiale compatibile cu cerințele EHEDG din industria alimentară, a băuturilor și cosmetică. Varianta BF-ISP e adaptată pentru sterilizare in-situ (SIP). Clientul precizează dacă procesul necesită sterilizare și tipul de conexiune la arbore." },
+      { name: "Etanșări Cartuș Seria ES / ED", description: "Serii de etanșări mecanice pentru pompe și mixere rotative; configurația exactă (simplă sau dublă) și limitele de utilizare se confirmă pe cod, din documentația Huhnseal. Clientul trebuie să transmită diametrul arborelui, presiunea de lucru și fluidul pompat." },
+      { name: "Etanșări Igienice Seria BF / BA / BF-ISP", description: "Etanșări mecanice tip cartuș pentru procese igienice, cu suprafețe și materiale compatibile cu cerințele EHEDG din industria alimentară, a băuturilor și cosmetică. Compatibilitatea fiecărei serii cu sterilizarea in-situ (SIP) se confirmă din documentația producătorului. Clientul precizează dacă procesul necesită sterilizare și tipul de conexiune la arbore." },
       { name: "Etanșări cu Flush Seria BFS", description: "Etanșare mecanică tip cartuș cu sistem de flush integrat, pentru fluide cu conținut de solide sau tendință de cristalizare la nivelul fețelor de etanșare. Aplicație tipică: pompe pentru nămol sau suspensii din tratarea apei. Clientul trebuie să confirme tipul de fluid de flush disponibil la instalație." },
       { name: "Etanșări pentru Echipamente Rotative Seria GLRD", description: "Familie de etanșări mecanice tip cartuș (922S-B, 925-B, 921-B) pentru echipamente rotative de proces din industrii grele, precum minerit sau celuloză și hârtie. Construcție robustă pentru funcționare continuă cu fluide abrazive. Clientul transmite diametrul arborelui și tipul de echipament pe care se montează." },
     ],
@@ -538,7 +538,7 @@ Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau
       "Tratarea apelor uzate — etanșări cu flush pentru fluide cu solide",
       "Industria farmaceutică — etanșări igienice pentru echipamente sterile",
     ],
-    infinitrade: `Aducem etanșări mecanice Huhnseal prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor. Ne bazăm pe cataloagele publice ale producătorului pentru acest brand nou pentru noi — nu ținem pe raft propriu de etanșări Huhnseal și nu le ținem pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul arborelui, presiunea de lucru, fluidul pompat și dacă aplicația necesită acreditare igienică (EHEDG) sau sterilizare in-situ. Pentru seria GLRD, transmiteți și tipul de echipament rotativ pe care urmează să se monteze etanșarea.`,
+    infinitrade: `Aducem etanșări mecanice Huhnseal prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor. Ne bazăm pe cataloagele publice ale producătorului pentru acest brand nou pentru noi — nu avem stoc propriu de etanșări Huhnseal și nu le ținem pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul arborelui, presiunea de lucru, fluidul pompat și dacă aplicația necesită acreditare igienică (EHEDG) sau sterilizare in-situ. Pentru seria GLRD, transmiteți și tipul de echipament rotativ pe care urmează să se monteze etanșarea.`,
     limitation: "Nu putem confirma compatibilitatea materialelor de etanșare cu fiecare agent de curățare CIP/SIP folosit la instalația dumneavoastră fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "ES", description: "etanșare cartuș balansată, aplicații standard" },
@@ -550,7 +550,7 @@ Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau
       { code: "BC", description: "etanșare cartuș pentru aplicații industriale generale" },
       { code: "BFS", description: "etanșare cartuș cu sistem de flush integrat" },
       { code: "BF/BA", description: "etanșare igienică cartuș, familie de bază" },
-      { code: "BF-ISP", description: "etanșare igienică pentru sterilizare in-situ (SIP)" },
+      { code: "BF-ISP", description: "etanșare igienică, familie BF" },
       { code: "FS", description: "etanșare cartuș cu flush, aplicații industriale" },
       { code: "BA/AP", description: "etanșare igienică cartuș, variantă alimentară" },
       { code: "HL/ML", description: "etanșări cartuș pentru configurații speciale de montaj" },
@@ -561,14 +561,14 @@ Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau
     ],
     faq: [
       { q: "Ce fel de etanșări produce Huhnseal?", a: "Huhnseal fabrică etanșări mecanice tip cartuș pentru echipamente rotative — pompe și mixere — cu game separate pentru aplicații standard, igienice (alimente, farmaceutice) și industriale grele precum minerit sau celuloză. Compania are sediul la Landskrona, Suedia." },
-      { q: "Cum aleg etanșarea Huhnseal potrivită pentru o pompă din industria alimentară?", a: "Ai nevoie de diametrul arborelui, dacă procesul necesită sterilizare in-situ (SIP) și tipul de conexiune existent. Seriile BF, BA și BF-ISP sunt gândite pentru aplicații igienice cu acreditare EHEDG, potrivite pentru contact cu alimente sau băuturi." },
-      { q: "Ce avantaj are o etanșare tip cartuș Huhnseal față de una convențională?", a: "Etanșarea cartuș vine preasamblată și pretensionată din fabrică, deci montajul pe arbore nu necesită reglaj manual al arcului, ceea ce reduce timpul de oprire la mentenanță și riscul de eroare la instalare, mai ales pentru personal mai puțin experimentat." },
+      { q: "Cum aleg etanșarea Huhnseal potrivită pentru o pompă din industria alimentară?", a: "Aveți nevoie de diametrul arborelui, de informația dacă procesul necesită sterilizare in-situ (SIP) și de tipul de conexiune existent. Seriile BF, BA și BF-ISP sunt gândite pentru aplicații igienice cu acreditare EHEDG, potrivite pentru contact cu alimente sau băuturi." },
+      { q: "Ce avantaje au etanșările mecanice Huhnseal?", a: "Avantajele fiecărei serii (tip de construcție, montaj, limite de presiune și temperatură) depind de model; le confirmăm din documentația producătorului." },
       { q: "Livrați etanșări Huhnseal în România și cât durează?", a: "Da, aducem etanșări cartuș Huhnseal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie. Nu ținem această gamă pe raft, iar termenul se confirmă după transmiterea dimensiunilor arborelui." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Huhnseal AB - Mechanical Seals", url: "https://www.huhnseal.com", publisher: "Huhnseal AB", accessed: "2026-09-25" },
       { title: "Products - Huhnseal", url: "https://www.huhnseal.com/products", publisher: "Huhnseal AB", accessed: "2026-09-25" },
@@ -578,27 +578,27 @@ Pentru un integrator de pompe sau mixere din industria alimentară, chimică sau
     name: "Vulcan Seals",
     founded: 1986,
     headquarters: "Sheffield, Marea Britanie",
-    overview: `Vulcan Seals este un producător britanic de etanșări mecanice, cu sediul la Sheffield, fondat în 1986 și activ azi în 13 sectoare industriale. Gama de etanșări mecanice cuprinde peste 20 de tipuri constructive, de la modele cu arc conic (Type 9S) și diafragmă echilibrată (Type A52J, A42J) până la etanșări duble multi-arc (Type 57B) și variante specifice pentru echipamente de proces igienic sub licență GEA Tuchenhagen sau Fristam (Type 1699, 1691, XX10, XX11). Completează portofoliul inele încapsulate Chem-Ring FEP/PFA, garnituri de presetupă și garnituri PTFE expandat TEFCAN. Pentru piața din România putem oferta din gama Vulcan Seals pentru pompe din industria lactatelor, chimie și tratarea apei.
+    overview: `Vulcan Seals este un producător britanic de etanșări mecanice, cu sediul la Sheffield, fondat în 1986 și activ azi în 13 sectoare industriale. Gama de etanșări mecanice cuprinde peste 20 de tipuri constructive, de la modele cu arc conic (Type 9S) și diafragmă echilibrată (Type A52J, A42J) până la etanșări duble multi-arc (Type 57B) și variante specifice pentru echipamente de proces igienic dedicate echipamentelor GEA Tuchenhagen sau Fristam (Type 1699, XX10, XX11). Completează portofoliul inele încapsulate Chem-Ring FEP/PFA, garnituri de presetupă și garnituri PTFE expandat TEFCAN. Pentru piața din România putem oferta din gama Vulcan Seals pentru pompe din industria lactatelor, chimie și tratarea apei.
 
-Ce diferențiază Vulcan Seals e specializarea pe echivalențe pentru pompe de marcă cunoscută — etanșările pentru pompele rotative Fristam (Type XX10, XX11, 1696, 1676) sau pentru mixerele de linie Nakakin/Wild-Indag (Type 962) sunt gândite ca piese de schimb dedicate, nu doar etanșări generice. Gama pentru aplicații marine (Type 96N, 95N) și variantele cu diafragmă din cauciuc (Type 24B) acoperă și nișe unde etanșarea trebuie să reziste la vibrații sau la mișcarea axială a arborelui. Compania e certificată ISO 9001:2015 și Net Zero.
+Ce diferențiază Vulcan Seals e specializarea pe echivalențe pentru pompe de marcă cunoscută — etanșările pentru pompele rotative Fristam (Type XX10, XX11, 1696, 1676) sau pentru mixerele de linie Nakakin/Wild-Indag (Type 962) sunt gândite ca piese de schimb dedicate, nu doar etanșări generice. Gama include și etanșări pentru aplicații marine (Type 96N, 95N) și Type 24B. Compania e certificată ISO 9001:2015 și Net Zero.
 
 Pentru un integrator de linii de proces igienic sau un operator din chimie și tratarea apei din România, Vulcan Seals înseamnă acces la etanșări de schimb dedicate pompelor și mixerelor de marcă cunoscută, fără să fie nevoie de o reproiectare completă a punctului de etanșare.`,
     whyChoose: [
       "Peste 20 de tipuri de etanșări mecanice, multe gândite ca echivalențe pentru pompe de marcă cunoscută",
       "Variante dedicate pentru pompe Fristam și mixere de linie Nakakin/Wild-Indag",
-      "Game pentru aplicații marine, cu etanșări cu arc paralel rezistente la vibrații",
+      "Etanșări pentru aplicații marine, unul dintre cele 13 sectoare deservite",
       "Produse complementare: inele încapsulate Chem-Ring, garnituri PTFE expandat TEFCAN",
       "Certificare ISO 9001:2015 și statut Net Zero pentru operațiunile companiei",
     ],
     keyProducts: [
-      { name: "Etanșare cu Arc Conic Type 9S", description: "Etanșare mecanică cu arc conic montat pe inel O, pentru aplicații generale pe pompe centrifuge, cu montaj simplu și cost redus față de variantele cu diafragmă. Aplicație tipică: pompe de proces standard din industria chimică ușoară. Clientul trebuie să transmită diametrul arborelui și fluidul pompat." },
-      { name: "Etanșări Duble cu Diafragmă A52J / A42J", description: "Etanșări duble cu diafragmă echilibrată și arc paralel, pentru aplicații unde o scurgere de fluid nu e acceptabilă și se dorește un lichid de barieră între cele două fețe de etanșare. Aplicație tipică: pompe pentru fluide toxice sau inflamabile. Clientul precizează presiunea de lucru și tipul de lichid de barieră disponibil." },
+      { name: "Etanșare cu Arc Simplu Type 9S", description: "Etanșare mecanică cu un singur arc (Type 9S), pentru aplicații generale pe pompe. Aplicație tipică: pompe de proces standard din industria chimică ușoară. Clientul trebuie să transmită diametrul arborelui și fluidul pompat." },
+      { name: "Etanșări cu Diafragmă A52J / A42J", description: "Etanșări mecanice cu diafragmă (seriile A42 și A52); configurația exactă și limitele de utilizare se confirmă pe cod, din documentația Vulcan Seals. Clientul precizează presiunea de lucru, fluidul pompat și diametrul arborelui." },
       { name: "Etanșări pentru Pompe Fristam Type XX10 / XX11 / 1696 / 1676", description: "Familie de etanșări mecanice gândite ca echivalențe dedicate pentru pompele rotative cu lobi și pompele centrifuge Fristam, folosite în industria alimentară și a băuturilor. Clientul trebuie să confirme modelul exact de pompă Fristam pe care se montează etanșarea." },
-      { name: "Etanșare Multi-Arc Cartuș Type 57B", description: "Etanșare cartuș cu patru șuruburi de fixare pe flanșă și arc multiplu, pentru montaj rapid fără reglaj manual al pretensionării. Aplicație tipică: pompe de proces unde timpul de oprire pentru mentenanță trebuie redus la minimum. Clientul transmite diametrul arborelui și dimensiunile camerei de etanșare." },
+      { name: "Etanșare Multi-Arc Type 57B", description: "Etanșare mecanică cu arc multiplu (Type 57B); varianta constructivă și modul de montaj se confirmă pe cod, din documentația Vulcan Seals. Aplicație tipică: pompe de proces unde timpul de oprire pentru mentenanță trebuie redus la minimum. Clientul transmite diametrul arborelui și dimensiunile camerei de etanșare." },
     ],
     industries: [
       "Industria lactatelor și alimentară — etanșări pentru pompe și mixere de proces igienic",
-      "Chimie — etanșări duble pentru fluide toxice sau inflamabile",
+      "Chimie — etanșări mecanice pentru procese chimice",
       "Marină — etanșări rezistente la vibrații pentru echipamente de bord",
       "Tratarea apei — etanșări de înlocuire pentru pompe centrifuge",
       "Minerit — etanșări pentru pompe cu fluide abrazive",
@@ -609,34 +609,34 @@ Pentru un integrator de linii de proces igienic sau un operator din chimie și t
     infinitrade: `Aducem etanșări mecanice Vulcan Seals prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea tipurilor din gamă. Pentru acest brand ne bazăm pe informațiile publice ale producătorului — nu avem raft propriu de etanșări Vulcan Seals și nu le ținem pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de tipul de pompă sau mixer pe care se montează etanșarea (inclusiv marca, dacă e Fristam, GEA sau alta), diametrul arborelui și fluidul pompat. Pentru aplicații duble sau cu lichid de barieră, transmiteți și presiunea de lucru a sistemului.`,
     limitation: "Nu putem confirma echivalența exactă cu etanșarea originală de pe o pompă necunoscută fără dimensiunile complete ale camerei de etanșare existente.",
     productCodes: [
-      { code: "Type 9S", description: "etanșare cu arc conic, montaj pe inel O" },
+      { code: "Type 9S", description: "etanșare mecanică cu un singur arc" },
       { code: "Type 1638 / 1638C", description: "etanșare specifică pentru mixere Ytron" },
-      { code: "Type A52J / A52", description: "etanșare dublă cu diafragmă echilibrată, arc paralel" },
-      { code: "Type A42J / A42", description: "etanșare dublă cu diafragmă echilibrată, arc paralel" },
-      { code: "Type 57B", description: "etanșare cartuș multi-arc, flanșă cu patru șuruburi" },
-      { code: "Type 1699 / 1691", description: "etanșare igienică pentru echipamente GEA Tuchenhagen" },
+      { code: "Type A52J / A52", description: "etanșare mecanică cu diafragmă" },
+      { code: "Type A42J / A42", description: "etanșare mecanică cu diafragmă" },
+      { code: "Type 57B", description: "etanșare mecanică cu arc multiplu" },
+      { code: "Type 1699", description: "etanșare igienică pentru echipamente GEA Tuchenhagen" },
       { code: "Type XX11 / XX10", description: "etanșare pentru pompe rotative cu lobi Fristam" },
       { code: "Type 1696 / 1676", description: "etanșare pentru pompe centrifuge Fristam" },
-      { code: "Type 128", description: "etanșare cu arc conic pentru pompe GEA Hilge" },
+      { code: "Type 128", description: "etanșare pentru pompe GEA Hilge" },
       { code: "Type 1688Z / 1688U / 1688O", description: "etanșare cu arc tip val (wave spring)" },
       { code: "Type 40J / 40H / 40D", description: "etanșare cu arcuri multiple, tip non-pusher" },
       { code: "Type 1645BA", description: "etanșare multi-arc pentru arbore în trepte" },
       { code: "Type 1609BA / 1609BSP / 1609SP", description: "etanșare multi-arc pentru arbore în trepte" },
-      { code: "Type 96N / 95N", description: "etanșare cu arc paralel pentru aplicații marine" },
-      { code: "Type 24B", description: "etanșare cu diafragmă din cauciuc, arc paralel" },
-      { code: "Type 13M", description: "etanșare cu arc conic pentru pompe CSF Inox" },
+      { code: "Type 96N / 95N", description: "etanșare mecanică cu un singur arc" },
+      { code: "Type 24B", description: "etanșare mecanică cu un singur arc" },
+      { code: "Type 13M", description: "etanșare mecanică cu un singur arc" },
       { code: "Type 962", description: "etanșare pentru mixere de linie Nakakin/Wild-Indag" },
     ],
     faq: [
       { q: "Ce fel de etanșări produce Vulcan Seals?", a: "Vulcan Seals fabrică peste 20 de tipuri de etanșări mecanice pentru pompe și mixere industriale, inclusiv variante gândite ca echivalențe pentru pompe de marcă cunoscută precum Fristam sau echipamente GEA Tuchenhagen. Compania are sediul la Sheffield, Marea Britanie, și e activă din 1986." },
-      { q: "Cum aleg etanșarea Vulcan Seals echivalentă pentru o pompă Fristam?", a: "Trebuie să confirmi modelul exact al pompei Fristam (rotativă cu lobi sau centrifugă), diametrul arborelui și fluidul pompat. Vulcan Seals are serii dedicate, precum XX10/XX11 pentru pompele cu lobi și 1696/1676 pentru cele centrifuge." },
-      { q: "Ce diferență e între o etanșare simplă și una dublă Vulcan Seals?", a: "Etanșarea simplă (ex. Type 9S) are o singură pereche de fețe de etanșare, potrivită pentru fluide fără risc major la o scurgere minimă. Etanșarea dublă (ex. A52J) folosește un lichid de barieră între două perechi de fețe, recomandată pentru fluide toxice sau inflamabile." },
+      { q: "Cum aleg etanșarea Vulcan Seals echivalentă pentru o pompă Fristam?", a: "Trebuie să confirmați modelul exact al pompei Fristam, diametrul arborelui și fluidul pompat. Vulcan Seals are serii dedicate, precum XX10/XX11 pentru pompele cu lobi și 1696/1676 pentru cele centrifuge." },
+      { q: "Ce diferență e între o etanșare simplă și una dublă Vulcan Seals?", a: "Etanșarea simplă (ex. Type 9S) are o singură pereche de fețe de etanșare, potrivită pentru fluide fără risc major la o scurgere minimă. Etanșarea dublă folosește un lichid de barieră între două perechi de fețe; seriile duble disponibile se confirmă din documentația producătorului." },
       { q: "Livrați etanșări Vulcan Seals în România și cât durează?", a: "Da, aducem etanșări Vulcan Seals la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tip. Nu ținem această gamă pe raft, iar termenul se confirmă după transmiterea dimensiunilor arborelui și camerei de etanșare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About Vulcan Seals - Our Company", url: "https://www.vulcanseals.com/about/our-company", publisher: "Vulcan Seals Ltd.", accessed: "2026-09-25" },
       { title: "Products - Vulcan Seals", url: "https://www.vulcanseals.com/products", publisher: "Vulcan Seals Ltd.", accessed: "2026-09-25" },
@@ -648,19 +648,19 @@ Pentru un integrator de linii de proces igienic sau un operator din chimie și t
     headquarters: "Waldkraiburg, Germania",
     overview: `Dickow Pumpen este un producător german de pompe centrifuge cu cuplaj magnetic, cu sediul la Waldkraiburg, activ din 1910. Catalogul acoperă pompe sealless (fără etanșare mecanică) — seriile KMB/KMV de uz general, NMR pentru fluide corozive sau periculoase, NMX și NMWR pentru montaj vertical, SMV cu autoamorsare, PRM conform API 685 — plus pompe cu roți dințate GML/GMB pentru fluide vâscoase, pompe multistadiale HZSM/HZSMA/HZMR și pompe cu canal lateral SCM, ambele disponibile și cu cuplaj magnetic. Pentru piața din România putem oferta din gama Dickow pentru circuite cu fluide periculoase, corozive sau la temperatură ridicată.
 
-Ce diferențiază Dickow e amploarea gamei sealless — de la pompe compacte KMB/KMV, la variante verticale NMWR pentru ulei termic capabile de debite de până la 1.200 m³/h și temperaturi de până la 450°C, până la pompe multistadiale HZMR pentru presiuni ridicate, toate cu cuplaj magnetic care elimină riscul de scurgere la garnitura de arbore. Seria PRM respectă standardul API 685, relevant pentru rafinării și petrochimie. În segmentul pompelor centrifuge etanșe cu cuplaj magnetic, Dickow se compară cu Hermetic-Pumpen, ambele acoperind nișa fluidelor periculoase unde o etanșare mecanică convențională nu e acceptabilă.
+Ce diferențiază Dickow e amploarea gamei sealless — de la pompe compacte KMB/KMV, la variantele verticale NMWR și NMX, inclusiv pentru circuite de ulei termic, până la pompe multistadiale HZMR pentru presiuni ridicate, toate cu cuplaj magnetic care elimină riscul de scurgere la garnitura de arbore. Seria PRM respectă standardul API 685, relevant pentru rafinării și petrochimie. În segmentul pompelor centrifuge etanșe cu cuplaj magnetic, Dickow se compară cu Hermetic-Pumpen, ambele acoperind nișa fluidelor periculoase unde o etanșare mecanică convențională nu e acceptabilă.
 
 Pentru un operator din chimie, petrochimie sau energie din România, Dickow înseamnă acces la pompe fără etanșare mecanică pentru fluide toxice, inflamabile sau la temperatură ridicată, acolo unde o scurgere la garnitură ar reprezenta un risc inacceptabil pentru instalație.`,
     whyChoose: [
       "Gamă largă de pompe sealless cu cuplaj magnetic, de la aplicații compacte la instalații verticale de mare capacitate",
       "Serie API 685 (PRM) pentru rafinării și petrochimie, unde standardul e cerut explicit",
-      "Pompe pentru ulei termic (NMWR) cu temperaturi de lucru de până la 450°C",
+      "Pompe cu cuplaj magnetic pentru circuite de ulei termic (seria NMX)",
       "Acoperire tehnologică extinsă: centrifuge, cu roți dințate și multistadiale, toate cu variantă sealless",
       "Peste un secol de experiență în pompe centrifuge pentru industria chimică și energetică",
     ],
     keyProducts: [
       { name: "Pompe Centrifuge Sealless KMB / KMV", description: "Pompe centrifuge cu cuplaj magnetic, fără etanșare mecanică, versatile pentru aplicații generale din industria chimică unde se dorește eliminarea riscului de scurgere la garnitura de arbore, cu mentenanță redusă. Clientul trebuie să transmită debitul și presiunea necesară, plus fluidul pompat pentru verificarea compatibilității magnetice." },
-      { name: "Pompe Verticale NMX / NMWR", description: "Pompe centrifuge verticale cu cuplaj magnetic, seria NMWR fiind dedicată circuitelor de ulei termic, cu debite de până la 1.200 m³/h și temperaturi de lucru de până la 450°C. Aplicație tipică: încălzirea proceselor industriale cu ulei termic. Clientul precizează temperatura de lucru și puterea magnetică necesară." },
+      { name: "Pompe Verticale NMX / NMWR", description: "Pompe centrifuge verticale cu cuplaj magnetic; seria NMX este prezentată de producător pentru aplicații cu fluide termice la temperaturi ridicate. Debitul și temperatura maximă depind de model și se confirmă pe cod. Aplicație tipică: încălzirea proceselor industriale cu ulei termic. Clientul precizează temperatura de lucru și puterea magnetică necesară." },
       { name: "Pompe API 685 Seria PRM", description: "Pompe centrifuge sealless conforme standardului API 685, pentru aplicații din rafinării și petrochimie unde cerințele de proiectare și testare depășesc standardul industrial obișnuit. Clientul trebuie să transmită cerințele API specifice proiectului și fluidul de proces." },
       { name: "Pompe Multistadiale HZSM / HZSMA / HZMR", description: "Pompe centrifuge multistadiale, cu HZSM/HZSMA gândite pentru fluide cu vapori antrenați și HZMR pentru aplicații de presiune ridicată. Aplicație tipică: circuite de proces care cer o înălțime de pompare mare într-un spațiu compact. Clientul precizează presiunea necesară și dacă fluidul conține fază gazoasă." },
     ],
@@ -678,10 +678,10 @@ Pentru un operator din chimie, petrochimie sau energie din România, Dickow îns
     limitation: "Nu putem confirma compatibilitatea exactă a cuplajului magnetic cu fiecare fluid coroziv fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "KMB", description: "pompă centrifugă sealless, cuplaj magnetic, uz general" },
-      { code: "KMV", description: "pompă centrifugă sealless, cuplaj magnetic, verticală" },
+      { code: "KMV", description: "pompă centrifugă sealless, cuplaj magnetic, uz general" },
       { code: "NMR", description: "pompă centrifugă sealless pentru fluide corozive și periculoase" },
       { code: "NMX", description: "pompă centrifugă sealless pentru montaj vertical" },
-      { code: "NMWR 250/500", description: "pompă verticală sealless pentru ulei termic, până la 450°C" },
+      { code: "NMWR 250/500", description: "pompă verticală sealless cu cuplaj magnetic" },
       { code: "SMV", description: "pompă centrifugă sealless autoamorsantă" },
       { code: "PRM", description: "pompă centrifugă sealless conformă API 685" },
       { code: "SCM", description: "pompă cu canal lateral, disponibilă cu cuplaj magnetic" },
@@ -694,14 +694,14 @@ Pentru un operator din chimie, petrochimie sau energie din România, Dickow îns
     ],
     faq: [
       { q: "Ce fel de pompe produce Dickow Pumpen?", a: "Dickow fabrică pompe centrifuge fără etanșare mecanică (sealless), cu cuplaj magnetic, pentru fluide periculoase, corozive sau la temperatură ridicată, plus pompe cu roți dințate și multistadiale. Compania are sediul la Waldkraiburg, Germania, și e activă din 1910." },
-      { q: "Cum aleg pompa Dickow potrivită pentru un circuit de ulei termic?", a: "Ai nevoie de temperatura maximă de lucru, debitul necesar și presiunea din circuit. Seria NMWR e dedicată acestei aplicații, cu debite de până la 1.200 m³/h și temperaturi de până la 450°C, folosind cuplaj magnetic pentru a elimina riscul de scurgere." },
+      { q: "Cum aleg pompa Dickow potrivită pentru un circuit de ulei termic?", a: "Aveți nevoie de temperatura maximă de lucru, debitul necesar și presiunea din circuit. Seria NMX este prezentată de producător pentru fluide termice la temperaturi ridicate, iar NMWR și NMX sunt pentru montaj vertical; debitul și temperatura maximă depind de model și se confirmă pe cod. Cuplajul magnetic elimină riscul de scurgere la arbore." },
       { q: "Ce este o pompă Dickow API 685 și când e necesară?", a: "Seria PRM respectă standardul API 685, dedicat pompelor fără etanșare mecanică folosite în rafinării și petrochimie, cu cerințe stricte de proiectare și testare. E necesară atunci când specificația proiectului de rafinărie o cere explicit." },
-      { q: "Livrați pompe Dickow Pumpen în România și cât durează?", a: "Da, aducem pompe Dickow la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație de material. Termenul exact se confirmă doar după ce ne trimiți parametrii circuitului și fluidul de proces." },
+      { q: "Livrați pompe Dickow Pumpen în România și cât durează?", a: "Da, aducem pompe Dickow la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație de material. Termenul exact se confirmă doar după ce ne transmiteți parametrii circuitului și fluidul de proces." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dickow Pumps – High-Performance Pumps for Industry & Energy", url: "https://www.dickow.de", publisher: "DICKOW PUMPEN GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Pump Catalog - Dickow Pump Co.", url: "https://pumpcatalog.dickow.com/", publisher: "DICKOW PUMPEN GmbH & Co. KG", accessed: "2026-09-25" },
@@ -711,29 +711,29 @@ Pentru un operator din chimie, petrochimie sau energie din România, Dickow îns
     name: "CP Pumpen",
     founded: 1948,
     headquarters: "Zofingen, Elveția",
-    overview: `CP Pumpen este un producător elvețian de pompe centrifuge cu cuplaj magnetic, cu sediul la Zofingen, activ din 1948 în dezvoltarea de pompe pentru fluide dificile. Gama standard MKP acoperă debite de la 0,25 la 1.300 m³/h, înălțimi de pompare de la 3 la 230 m și temperaturi de lucru între -100°C și +350°C, cu variante ANSI, autoamorsantă (MKP-S), submersibilă (MKTP), in-line (SZMK) și compactă (MKPP). Pentru fluide extrem de corozive sau cu permeație ridicată, compania oferă variante rezistente la coroziune (MKPL) și pompe cu construcție integral din PTFE solid (MSKP, MSKS, MSKPP). Pentru piața din România putem oferta din gama CP Pumpen pentru procese chimice, farmaceutice și alimentare unde etanșarea mecanică convențională nu e o opțiune sigură.
+    overview: `CP Pumpen este un producător elvețian de pompe centrifuge cu cuplaj magnetic, cu sediul la Zofingen, activ din 1948 în dezvoltarea de pompe pentru fluide dificile. Gama standard MKP acoperă debite de la 0,25 la 1.300 m³/h, înălțimi de pompare de la 3 la 230 m și temperaturi de lucru între -100°C și +350°C, cu variante ANSI, autoamorsantă (MKP-S), submersibilă (MKTP), SZMK și MKPP. Pentru fluide extrem de corozive sau cu permeație ridicată, compania oferă variante rezistente la coroziune (MKPL) și pompe din plastic solid, PTFE sau PVDF (MSKP, MSKS, MSKPP). Pentru piața din România putem oferta din gama CP Pumpen pentru procese chimice, farmaceutice și alimentare unde etanșarea mecanică convențională nu e o opțiune sigură.
 
-Ce diferențiază CP Pumpen e plaja de aplicații acoperită de o singură platformă de bază (MKP): de la pompe pentru chimie generală, la variante bio pentru procese sterile cu ciclu CIP/SIP (MKP-BIO), până la pompe complet din PTFE pentru cele mai agresive medii chimice, unde chiar și un cuplaj magnetic cu carcasă metalică ar fi atacat de fluid. În segmentul pompelor centrifuge sealless pentru chimie și farma, CP Pumpen se compară cu Hermetic-Pumpen, ambele oferind cuplaj magnetic ca alternativă la etanșarea mecanică pentru fluide periculoase. Rețeaua companiei acoperă subsidiare în Germania, Franța, Thailanda, SUA și Coreea de Sud, plus agenți în peste 70 de țări.
+Ce diferențiază CP Pumpen e plaja de aplicații acoperită de o singură platformă de bază (MKP): de la pompe pentru chimie generală, la variante bio pentru procese sterile cu ciclu CIP/SIP (MKP-BIO), până la pompe din plastic solid (PTFE sau PVDF) pentru medii chimice agresive. În segmentul pompelor centrifuge sealless pentru chimie și farma, CP Pumpen se compară cu Hermetic-Pumpen, ambele oferind cuplaj magnetic ca alternativă la etanșarea mecanică pentru fluide periculoase. Rețeaua companiei acoperă subsidiare în Germania, Franța, Thailanda, SUA și Coreea de Sud, plus agenți în peste 70 de țări.
 
 Pentru un operator din industria chimică, farmaceutică sau alimentară din România, CP Pumpen înseamnă acces la pompe fără etanșare mecanică pentru fluide unde o scurgere nu e acceptabilă, de la aplicații standard până la medii extrem de corozive care cer construcție integral din PTFE.`,
     whyChoose: [
       "Platformă de bază MKP cu debite de la 0,25 la 1.300 m³/h și temperaturi între -100°C și +350°C",
       "Variantă MKP-BIO pentru procese sterile, cu compatibilitate CIP/SIP",
-      "Pompe cu construcție integral din PTFE solid (MSKP, MSKS, MSKPP) pentru medii extrem de corozive",
-      "Certificare ISO 9001 și rețea de subsidiare pe patru continente",
+      "Pompe din plastic solid, PTFE sau PVDF (MSKP, MSKS, MSKPP), pentru medii corozive",
+      "Certificare ISO 9001 și subsidiare în Europa, Asia și America de Nord",
       "Peste șapte decenii de experiență în pompe centrifuge cu cuplaj magnetic",
     ],
     keyProducts: [
       { name: "Pompă Centrifugă Sealless MKP", description: "Pompa de bază a gamei CP Pumpen, cu cuplaj magnetic, fără etanșare mecanică, pentru procese chimice, petrochimice și biotehnologice. Debite de la 0,25 la 1.300 m³/h, înălțimi de pompare de la 3 la 230 m, temperaturi între -100°C și +350°C. Clientul trebuie să confirme debitul, presiunea și fluidul pompat pentru selecția materialelor de construcție." },
       { name: "MKP-S — Variantă Autoamorsantă", description: "Variantă autoamorsantă a pompei MKP, cu înălțime de aspirație de până la 8,5 m, potrivită pentru instalații unde pompa nu poate fi montată sub nivelul lichidului. Aplicație tipică: transfer din butoaie sau rezervoare la nivel inferior pompei. Clientul precizează înălțimea de aspirație necesară." },
-      { name: "MKTP — Pompă Submersibilă", description: "Variantă submersibilă a gamei MKP, pentru montaj direct în rezervor la adâncimi de până la 4 m, cu cuplaj magnetic care elimină etanșarea pe arbore. Aplicație tipică: golirea rezervoarelor de proces cu fluide corozive. Clientul transmite adâncimea de montaj și fluidul din rezervor." },
-      { name: "MSKP / MSKS / MSKPP — Construcție PTFE Solid", description: "Familie de pompe cu construcție integral din PTFE solid, pentru cele mai agresive medii chimice, unde chiar și o carcasă metalică rezistentă la coroziune ar avea o durată de viață redusă. Variantele MSKS (canal lateral, autoamorsantă) și MSKPP (periferică) completează oferta. Clientul trebuie să transmită fluidul exact și concentrația acestuia." },
+      { name: "MKTP — Pompă Submersibilă", description: "Variantă submersibilă a gamei MKP, pentru montaj direct în rezervor, cu cuplaj magnetic care elimină etanșarea pe arbore. Aplicație tipică: golirea rezervoarelor de proces cu fluide corozive. Clientul transmite adâncimea de montaj și fluidul din rezervor." },
+      { name: "MSKP / MSKS / MSKPP — Construcție din Plastic Solid", description: "Familie de pompe cu construcție din plastic solid (PTFE sau PVDF), pentru medii chimice agresive; la MSKP, debite de 0,25–70 m³/h, înălțimi de pompare de 2–90 m și temperaturi de la -20°C la +100°C. Variantele MSKS (canal lateral, autoamorsantă) și MSKPP (periferică) completează oferta. Clientul trebuie să transmită fluidul exact și concentrația acestuia." },
     ],
     industries: [
       "Chimie și petrochimie — pompe sealless pentru fluide corozive",
       "Farmaceutică și biotehnologie — variante MKP-BIO cu compatibilitate CIP/SIP",
       "Industria alimentară și băuturi — pompe fără etanșare pentru procese sterile",
-      "Procesare chimică agresivă — pompe din PTFE solid pentru medii extreme",
+      "Procesare chimică agresivă — pompe din plastic solid pentru medii agresive",
     ],
     certifications: [
       "Certificare ISO 9001 pentru proiectarea și fabricarea pompelor",
@@ -744,26 +744,26 @@ Pentru un operator din industria chimică, farmaceutică sau alimentară din Rom
       { code: "MKP", description: "pompă centrifugă sealless, platformă de bază" },
       { code: "MKP-ANSI", description: "pompă sealless, conformă standardului ANSI" },
       { code: "MKP-S", description: "pompă sealless autoamorsantă, aspirație până la 8,5 m" },
-      { code: "MKTP", description: "pompă sealless submersibilă, montaj până la 4 m adâncime" },
-      { code: "SZMK", description: "pompă sealless in-line pentru procese chimice" },
-      { code: "MKPP", description: "pompă sealless compactă, pentru spații reduse" },
+      { code: "MKTP", description: "pompă sealless submersibilă" },
+      { code: "SZMK", description: "pompă sealless din gama CP Pumpen" },
+      { code: "MKPP", description: "pompă sealless din gama CP Pumpen" },
       { code: "MKP-BIO", description: "pompă sealless pentru procese sterile, compatibilă CIP/SIP" },
       { code: "MKPL", description: "pompă sealless rezistentă la coroziune și permeație" },
       { code: "MKPL-S", description: "pompă sealless autoamorsantă, rezistentă la coroziune" },
-      { code: "MSKP", description: "pompă sealless din PTFE solid, medii extrem de corozive" },
-      { code: "MSKS", description: "pompă sealless din PTFE solid, canal lateral autoamorsant" },
-      { code: "MSKPP", description: "pompă sealless din PTFE solid, tip periferic" },
+      { code: "MSKP", description: "pompă sealless din plastic solid (PTFE sau PVDF), medii corozive" },
+      { code: "MSKS", description: "pompă sealless din plastic solid, canal lateral autoamorsant" },
+      { code: "MSKPP", description: "pompă sealless din plastic solid, tip periferic" },
     ],
     faq: [
       { q: "Ce fel de pompe produce CP Pumpen?", a: "CP Pumpen fabrică pompe centrifuge cu cuplaj magnetic, fără etanșare mecanică, pentru chimie, petrochimie, farmaceutică și industria alimentară. Compania are sediul la Zofingen, Elveția, și e activă din 1948." },
-      { q: "Cum aleg pompa CP Pumpen potrivită pentru un fluid coroziv?", a: "Ai nevoie de fluidul exact, concentrația acestuia, temperatura de lucru și debitul necesar. Pentru medii extrem de agresive, variantele MSKP, MSKS sau MSKPP, cu construcție integral din PTFE solid, oferă rezistență chimică superioară față de gama standard MKP." },
-      { q: "Ce este o pompă CP Pumpen MKP-BIO?", a: "MKP-BIO e o variantă a platformei sealless MKP adaptată pentru procese sterile din farmaceutică sau alimentar, compatibilă cu ciclurile de curățare și sterilizare CIP/SIP. Alegerea corectă depinde de cerințele de igienă ale procesului tău." },
+      { q: "Cum aleg pompa CP Pumpen potrivită pentru un fluid coroziv?", a: "Aveți nevoie de fluidul exact, concentrația acestuia, temperatura de lucru și debitul necesar. Pentru medii extrem de agresive, variantele MSKP, MSKS sau MSKPP, cu construcție din plastic solid (PTFE sau PVDF), sunt destinate mediilor chimice agresive." },
+      { q: "Ce este o pompă CP Pumpen MKP-BIO?", a: "MKP-BIO e o variantă a platformei sealless MKP adaptată pentru procese sterile din farmaceutică sau alimentar, compatibilă cu ciclurile de curățare și sterilizare CIP/SIP. Alegerea corectă depinde de cerințele de igienă ale procesului dumneavoastră." },
       { q: "Livrați pompe CP Pumpen în România și cât durează?", a: "Da, aducem pompe CP Pumpen la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de variantă și material de construcție. Fiind un brand fără istoric de stoc la noi, confirmăm termenul exact abia după ce primim datele fluidului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Company - CP Pumpen AG", url: "https://www.cp-pumps.com/en/company", publisher: "CP Pumpen AG", accessed: "2026-09-25" },
       { title: "Centrifugal pumps by CP Pumpen for challenging fluids", url: "https://www.cp-pumps.com/en/pumps", publisher: "CP Pumpen AG", accessed: "2026-09-25" },

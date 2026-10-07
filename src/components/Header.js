@@ -441,7 +441,7 @@ export default function Header() {
 
                 {cartItems.length === 0 ? (
                   <div className={styles.cartEmpty}>
-                    <p>Nu ai adăugat produse</p>
+                    <p>Nu ați adăugat produse</p>
                     <span>Caută și adaugă produse pentru a solicita ofertă</span>
                   </div>
                 ) : (

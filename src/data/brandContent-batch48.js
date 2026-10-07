@@ -12,14 +12,14 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     whyChoose: [
       "Switch-uri Ethernet de la 100 Mbps la 10 Gbps, cu variante certificate EN 50155 pentru feroviar și IEC 61850-3 pentru substații",
       "Servere seriale NPort convertesc RS-232/422/485 în Ethernet, cu opțiuni de la 1 la 32 de porturi",
-      "Calculatoare industriale fanless din seria DA, fără ventilator, pentru tablouri electrice cu spațiu limitat",
+      "Calculatoare industriale fără ventilator din seria DA, inclusiv servere rackmount 2U pentru stații electrice",
       "Variante certificate ATEX și DNV GL pentru zone cu risc de explozie și aplicații marine",
-      "Portofoliu de peste 500 de produse de conectivitate serială și de rețea, construit constant din 1987"
+      "Portofoliu de peste 500 de produse de conectivitate serială, construit constant din 1987"
     ],
     keyProducts: [
       { name: "Servere de Dispozitive Seriale NPort", description: "Convertesc porturi seriale RS-232, RS-422 sau RS-485 în conexiuni Ethernet, cu variante de la un port la 32 de porturi și conectori RJ45, DB9, terminal block sau fibră optică. Montaj pe șină DIN, desktop sau rack, cu certificări opționale ATEX, DNV GL sau EN 50155. Aplicație tipică: aducerea în rețea a echipamentelor industriale mai vechi cu interfață serială. Pentru ofertă, clientul trebuie să spună numărul de porturi, tipul de interfață și dacă are nevoie de o certificare anume." },
       { name: "Switch-uri Ethernet Industriale", description: "Gama include switch-uri negestionate, pentru instalare simplă, și switch-uri gestionate cu redundanță de rețea și funcții de securitate, la viteze de la 100 Mbps la 10 Gbps. Montaj pe șină DIN, rack sau perete, cu temperaturi de operare standard sau extinse și certificări pentru substații (IEC 61850-3, IEEE 1613) sau feroviar (EN 50155). Pentru ofertă corectă e nevoie de numărul de porturi, viteza dorită și mediul de instalare." },
-      { name: "Calculatoare Industriale Fanless Seria DA", description: "Calculatoare x86 fără ventilator, precum DA-920E, pentru funcționare continuă în tablouri electrice sau chioșcuri unde praful și vibrațiile ar afecta un PC clasic. Rulează aplicații edge de automatizare sau colectare de date direct lângă echipamentul de proces. Pentru dimensionare, clientul trebuie să precizeze aplicația software rulată și numărul de porturi I/O necesare." },
+      { name: "Calculatoare Industriale Fanless Seria DA", description: "Calculatoare x86 fără ventilator; de exemplu, DA-920E este un server rackmount 2U fără ventilator, destinat stațiilor electrice și aplicațiilor feroviare. Rulează aplicații edge de automatizare sau colectare de date direct lângă echipamentul de proces. Pentru dimensionare, clientul trebuie să precizeze aplicația software rulată și numărul de porturi I/O necesare." },
       { name: "Routere Securizate și Gateway-uri Celulare", description: "Routerele asigură conectivitate securizată între rețele izolate și infrastructura IT, cu firewall și VPN; gateway-urile celulare adaugă 4G/5G pentru site-uri fără cablare fixă. Aplicație tipică: conectarea la distanță a stațiilor de pompare sau echipamentelor mobile la un centru de control. Clientul trebuie să spună tipul de rețea celulară disponibilă local." }
     ],
     industries: [
@@ -29,7 +29,7 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
       "Petrol și gaze — conectivitate industrială pentru instalații cu risc de explozie",
       "Marină — echipamente de rețea certificate DNV GL pentru nave și platforme"
     ],
-    certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — Moxa: variante pentru zone cu risc de explozie"],
+    certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — modele Moxa certificate pentru zone cu risc de explozie (pe cod)"],
     infinitrade: `Pentru Moxa lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii de stoc pe fiecare cod — vă spunem clar ce putem și ce nu putem confirma înainte de a trimite o ofertă. Aducem echipamentele de rețea Moxa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model. Ca să pregătim o ofertă corectă, trimiteți-ne codul exact al produsului sau, dacă nu îl aveți, numărul de porturi și interfața dorită, certificările necesare și cantitatea.`,
     limitation: "Nu confirmăm disponibilitatea în timp real a fiecărui cod Moxa și nu oferim configurare software proprietară pentru switch-uri gestionate.",
     productCodes: [
@@ -85,7 +85,7 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     faq: [
       {
         "q": "Ce diferență este între switch-urile Moxa seria EDS-510A și EDS-510E?",
-        "a": "Ambele modele au aceeași configurație de porturi, șapte plus trei Gigabit, dar variantele diferă prin funcțiile software și opțiunile de management incluse din fabrică, seria E acoperind cerințe suplimentare de rețea industrială. Alegerea între cele două depinde de protocoalele de management deja folosite în rețea și de nivelul de redundanță necesar la nivel de switch."
+        "a": "Ambele modele au aceeași configurație de porturi, șapte plus trei Gigabit, dar sunt serii diferite; diferențele de funcții software, redundanță și securitate se confirmă pe cod, din fișa tehnică Moxa. Alegerea între cele două depinde de protocoalele de management deja folosite în rețea și de nivelul de redundanță necesar la nivel de switch."
       },
       {
         "q": "Livrați echipamente Moxa în România la comandă?",
@@ -102,8 +102,8 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"EDS Layer 2 Managed Ethernet Switches","url":"https://www.moxa.com/en/products/industrial-network-infrastructure/ethernet-switches/layer-2-managed-switches","publisher":"Moxa Inc.","accessed":"2026-09-25"},
       { title: "Moxa - Your Trusted Partner in Automation", url: "https://www.moxa.com/en/", publisher: "Moxa Inc.", accessed: "2026-09-22" },
@@ -116,22 +116,22 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
     name: "Hydroline",
     founded: 1962,
     headquarters: "Vuorela, Finlanda",
-    overview: `Hydroline este un producător finlandez de cilindri hidraulici personalizați, pornit în 1962 ca un atelier de strunjit condus de un singur om și crescut treptat până a devenit un fabricant de referință de cilindri hidraulici pe piața finlandeză. Sediul și producția principală sunt la Vuorela, lângă Siilinjärvi, cu o a doua fabrică deschisă în 2019 la Stargard, Polonia. Din gama Hydroline putem oferta la comandă cilindri hidraulici proiectați pe specificația clientului, pentru utilaje grele de construcții, minerit, manipulare de sarcini, agricultură și silvicultură.
+    overview: `Hydroline este un producător finlandez de cilindri hidraulici personalizați, pornit în 1962 ca un atelier de strunjit condus de un singur om și crescut treptat până a devenit producător de cilindri hidraulici personalizați. Sediul și producția principală sunt la Vuorela, lângă Siilinjärvi, cu o a doua fabrică deschisă în 2019 la Stargard, Polonia. Din gama Hydroline putem oferta la comandă cilindri hidraulici proiectați pe specificația clientului, pentru utilaje grele de construcții, minerit, manipulare de sarcini, agricultură și silvicultură.
 
-Ce diferențiază Hydroline e abordarea de inginerie pe comandă, nu catalog fix: fiecare cilindru e proiectat pentru cursa, diametrul și forța cerute de aplicație, cu tije protejate printr-un tratament de crom propriu, TRIPLEHARD® Chrome Coating, gândit pentru rezistență la uzură și coroziune în condiții de exterior dure. Compania oferă și soluții de conectivitate IoT pentru monitorizarea la distanță a cilindrilor în funcțiune, utile la utilaje care lucrează departe de service.
+Ce diferențiază Hydroline e abordarea de inginerie pe comandă, nu catalog fix: fiecare cilindru e proiectat pentru cursa, diametrul și forța cerute de aplicație, cu posibilitatea de protejare a tijelor prin soluția TRIPLEHARD® Chrome Coating a producătorului (detaliile tratamentului se confirmă din documentația Hydroline). Compania oferă și soluții de conectivitate IoT pentru monitorizarea la distanță a cilindrilor în funcțiune, utile la utilaje care lucrează departe de service.
 
 Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de construcții, echipamente forestiere sau instalații de manipulare unde un cilindru standard de catalog nu acoperă cursa sau forța necesară, iar clientul are nevoie de un proiect dedicat, nu de o piesă generică.`,
     whyChoose: [
       "Cilindri hidraulici proiectați pe specificația clientului, nu variante fixe de catalog",
-      "Tratament de suprafață propriu TRIPLEHARD® Chrome Coating pentru tije, gândit pentru uzură și coroziune",
+      "Soluția TRIPLEHARD® Chrome Coating pentru tije, oferită de producător",
       "Două fabrici în UE — Vuorela (Finlanda) și Stargard (Polonia) — pentru capacitate și proximitate logistică",
       "Opțiuni de monitorizare la distanță prin conectivitate IoT pentru cilindri aflați în exploatare",
-      "Peste 60 de ani de experiență concentrată exclusiv pe cilindri hidraulici pentru echipamente grele"
+      "Peste 60 de ani de activitate, din 1962"
     ],
     keyProducts: [
       { name: "Cilindri Hidraulici Personalizați pentru Construcții și Minerit", description: "Cilindri proiectați pe cursă, diametru și presiune de lucru specifice utilajului — excavatoare, încărcătoare, echipamente de foraj. Construcție robustă pentru șocuri și sarcini variabile, cu opțiuni de etanșare pentru medii cu praf sau umiditate. Aplicație tipică: brațe de excavator, cilindri de basculare, sisteme de direcție hidraulică. Pentru ofertă, clientul trebuie să trimită desenul tehnic sau cel puțin cursa, diametrul pistonului și presiunea maximă de lucru." },
-      { name: "Cilindri Hidraulici pentru Manipulare de Sarcini (Load Handling)", description: "Cilindri dedicați echipamentelor de ridicare și manipulare — stivuitoare, macarale mobile, platforme de lucru la înălțime — dimensionați pentru cicluri repetate de ridicare-coborâre și pentru siguranță la sarcină. Tratamentul TRIPLEHARD® al tijei reduce uzura la contactul repetat cu praful și particulele abrazive. Clientul trebuie să precizeze sarcina maximă, cursa necesară și modul de fixare al cilindrului." },
-      { name: "Cilindri Hidraulici pentru Agricultură și Silvicultură", description: "Cilindri pentru utilaje agricole și forestiere expuse la condiții de exterior variabile — tractoare, combine, echipamente de recoltat lemn — cu tije protejate anticoroziv și etanșări adaptate la temperaturi joase și noroi. Aplicație tipică: sisteme de basculare, brațe hidraulice, macarale forestiere montate pe utilaj. Pentru ofertă, e necesară cursa, diametrul și tipul de racordare hidraulică." },
+      { name: "Cilindri Hidraulici pentru Manipulare de Sarcini (Load Handling)", description: "Cilindri dedicați echipamentelor de ridicare și manipulare — stivuitoare, macarale mobile, platforme de lucru la înălțime — dimensionați pentru cicluri repetate de ridicare-coborâre și pentru siguranță la sarcină. Pentru protecția tijei, producătorul oferă soluția TRIPLEHARD® Chrome Coating. Clientul trebuie să precizeze sarcina maximă, cursa necesară și modul de fixare al cilindrului." },
+      { name: "Cilindri Hidraulici pentru Agricultură și Silvicultură", description: "Cilindri pentru utilaje agricole și forestiere expuse la condiții de exterior variabile — tractoare, combine, echipamente de recoltat lemn — cu tije și etanșări alese după condițiile de exploatare. Aplicație tipică: sisteme de basculare, brațe hidraulice, macarale forestiere montate pe utilaj. Pentru ofertă, e necesară cursa, diametrul și tipul de racordare hidraulică." },
       { name: "Soluții de Monitorizare IoT pentru Cilindri", description: "Opțiune de senzori și conectivitate montată pe cilindru pentru a urmări starea de funcționare de la distanță — utilă la utilaje care operează în șantiere izolate, unde un defect nedetectat înseamnă oprire costisitoare. Se integrează cu cilindrii personalizați Hydroline la comandă. Clientul trebuie să precizeze tipul de date dorite (presiune, temperatură, cicluri) și sistemul de monitorizare existent." }
     ],
     industries: [
@@ -141,12 +141,12 @@ Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de
       "Agricultură — cilindri de basculare și direcție pentru tractoare și combine",
       "Mentenanță industrială — înlocuirea cilindrilor uzați cu variante proiectate pe aceeași cursă și interfață"
     ],
-    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din informațiile publice ale producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor tehnice, fără disponibilitate permanentă din stoc pentru un produs inginerat individual. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
+    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din informațiile publice ale producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen de regulă peste 4 săptămâni de la confirmarea specificațiilor tehnice, fiind un produs proiectat individual, fără stoc permanent. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
     limitation: "Nu putem confirma termene de livrare exacte înainte ca fabrica să valideze desenul tehnic al cilindrului cerut, fiind vorba de un produs proiectat individual, nu de un cod de catalog fix.",
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hydroline - Custom Hydraulic Cylinders", url: "https://www.hydroline.fi", publisher: "Hydroline Oy", accessed: "2026-09-22" },
       { title: "Company - Hydroline", url: "https://www.hydroline.fi/company/", publisher: "Hydroline Oy", accessed: "2026-09-22" }
@@ -161,11 +161,11 @@ Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de
 
 Gama e organizată pe cinci direcții: fitinguri și racorduri de diverse forme și diametre, cuplaje automate și pistoale de suflat aer, o linie de automatizare cu valve, actuatoare pneumatice și electrice plus unități de filtrare-reglare-lubrifiere (FRL), linia Infinity pentru rețele de aer comprimat, gaz inert și vid, și linia Fluidity cu valve pentru distribuția de fluide lichide sau gazoase. În categoria fitingurilor push-in, Aignep se compară cu Camozzi, alt nume italian prezent deja pe site-ul nostru, ambele acoperind game largi de conectori pneumatici pentru integratori de linii de producție.
 
-Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelte cu acționare pneumatică sau instalații de aer comprimat unde ai nevoie de fitinguri și valve compatibile cu standardele europene de automatizare, cu opțiunea de a completa gama cu actuatoare sau unități FRL din același producător.`,
+Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelte cu acționare pneumatică sau instalații de aer comprimat unde aveți nevoie de fitinguri și valve compatibile cu standardele europene de automatizare, cu opțiunea de a completa gama cu actuatoare sau unități FRL din același producător.`,
     whyChoose: [
-      "Producție integral în Italia, cu control direct al calității pe toate cele cinci linii de produs",
+      "Produse prezentate de producător ca 100% Made in Italy, organizate pe cinci linii",
       "Gamă largă de fitinguri push-in, compresie și function fittings, în diverse materiale și diametre",
-      "Linia Infinity dedicată rețelelor de aer comprimat, gaz inert și vid la nivel de fabrică",
+      "Linia Infinity dedicată rețelelor de aer comprimat, gaz inert și vid",
       "Linia Fluidity extinde gama către valve pentru fluide lichide și gazoase, nu doar aer comprimat",
       "Distribuție prin filiale și parteneri în peste 100 de țări, cu istoric din 1976"
     ],
@@ -187,11 +187,11 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     productCodes: [
       {
         "code": "50000 Red",
-        "description": "Fitinguri push-in seria roșie, execuție standard din tehnopolimer"
+        "description": "Fitinguri push-in, seria 50000 în varianta roșie"
       },
       {
         "code": "50000 Black",
-        "description": "Fitinguri push-in seria neagră, execuție standard din tehnopolimer"
+        "description": "Fitinguri push-in, seria 50000 în varianta neagră"
       },
       {
         "code": "55000",
@@ -253,7 +253,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     faq: [
       {
         "q": "Ce diferență este între seriile Aignep 50000 și 57000?",
-        "a": "Seria 50000 folosește o construcție integral din tehnopolimer, disponibilă în variantele roșie și neagră, potrivită pentru aer comprimat la presiuni obișnuite. Seria 57000 adaugă o bucșă metalică de strângere pe corpul fitingului, oferind o fixare mai sigură a tubului în aplicații cu vibrații sau solicitări mecanice mai mari. Selecția depinde de mediul de lucru și de riscul de desprindere accidentală a tubului."
+        "a": "Seria 50000 este disponibilă în variantele roșie și neagră; materialul corpului și presiunea maximă de lucru se confirmă pe fișa tehnică a seriei. Seria 57000 adaugă o bucșă metalică de strângere pe corpul fitingului, oferind o fixare mai sigură a tubului în aplicații cu vibrații sau solicitări mecanice mai mari. Selecția depinde de mediul de lucru și de riscul de desprindere accidentală a tubului."
       },
       {
         "q": "Livrați fitinguri Aignep în România la comandă?",
@@ -261,7 +261,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
       },
       {
         "q": "Ce serie Aignep aleg pentru o instalație de apă potabilă?",
-        "a": "Pentru contactul cu apa potabilă, seria 59000 este certificată special pentru acest scop, iar seria 70000 acoperă mai larg aplicațiile alimentare. Varianta SPRINGFIT oferă aceleași certificări alimentare într-un tehnopolimer dedicat, potrivit pentru instalații ușoare. Alegerea corectă depinde de temperatura fluidului, de presiunea de lucru și de reglementările locale aplicabile echipamentului final."
+        "a": "Pentru contactul cu apa potabilă, seria 59000 este certificată special pentru acest scop, iar seria 70000 acoperă mai larg aplicațiile alimentare. Varianta SPRINGFIT este o serie de fitinguri push-in din tehnopolimer de calitate alimentară; certificările exacte se confirmă pe fișa tehnică. Alegerea corectă depinde de temperatura fluidului, de presiunea de lucru și de reglementările locale aplicabile echipamentului final."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un fiting Aignep?",
@@ -270,8 +270,8 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Push-In Fittings – Aignep","url":"https://b2b.aignep.com/eng/Push-In-Fittings","publisher":"Aignep S.p.A.","accessed":"2026-09-25"},
       { title: "Aignep - Componenti per automazione pneumatica e gestione fluidi", url: "https://www.aignep.com", publisher: "Aignep S.p.A.", accessed: "2026-09-22" },
@@ -286,10 +286,10 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
 
 Ce diferențiază Elesa+Ganter e combinația celor două cataloage — Ganter aduce expertiză germană în elemente de indexare, cuplaje și componente pentru vid, iar Elesa aduce gama italiană de mânere, butoane și profiluri de aluminiu, ambele proiectate după standarde precum DIN 3015 pentru fixarea conductelor și tuburilor. Designul produselor a fost recunoscut cu premii internaționale, printre care Red Dot Design Award și iF Design Award. În categoria elementelor standard de mașini, Elesa+Ganter se compară cu Norelem, un alt nume deja prezent pe site-ul nostru.
 
-Pentru piața din România, gama are sens la proiectarea de mașini și echipamente unde ai nevoie de componente standardizate — mânere ergonomice, șuruburi de indexare, elemente de fixare rapidă — mai degrabă decât de piese fabricate special pentru fiecare aplicație.`,
+Pentru piața din România, gama are sens la proiectarea de mașini și echipamente unde aveți nevoie de componente standardizate — mânere ergonomice, șuruburi de indexare, elemente de fixare rapidă — mai degrabă decât de piese fabricate special pentru fiecare aplicație.`,
     whyChoose: [
       "Catalog combinat german (Ganter) și italian (Elesa), cu istoric separat din 1894, respectiv 1941",
-      "Elemente de indexare și cuplaje proiectate conform standardelor mecanice precum DIN 3015",
+      "Cleme pentru tuburi conform standardului DIN 3015, în catalogul comun",
       "Design recunoscut cu premii Red Dot și iF Design Award pentru ergonomie și funcționalitate",
       "Gamă combinată acoperă atât mânere și butoane, cât și componente pentru vid și vibrodampare",
       "Peste 45 de ani de colaborare comercială între cele două companii înainte de unificarea sub un brand"
@@ -297,7 +297,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     keyProducts: [
       { name: "Mânere și Elemente de Operare", description: "Mânere, butoane rotative și pârghii de fixare pentru panouri de comandă, uși de echipamente și mecanisme de reglare manuală, disponibile în plastic sau metal, cu diverse tipuri de filet și montaj. Aplicație tipică: butoane de reglare pe mașini-unelte sau mânere de închidere pe carcase de echipamente. Pentru ofertă, clientul trebuie să precizeze tipul de filet, diametrul și materialul dorit." },
       { name: "Elemente de Indexare și Blocare", description: "Bolțuri de indexare, șuruburi de blocare și elemente de poziționare rapidă pentru mecanisme reglabile, folosite acolo unde o poziție trebuie fixată și eliberată frecvent, fără scule suplimentare. Aplicație tipică: reglarea rapidă a dispozitivelor de fixare pe linii de producție flexibile. Clientul trebuie să precizeze forța de reținere necesară și dimensiunea filetului." },
-      { name: "Cuplaje și Componente pentru Vibrodampare", description: "Cuplaje de arbore și tampoane antivibrații pentru reducerea transmiterii vibrațiilor între componente mecanice în mișcare, cu standarde de fixare conform DIN 3015 pentru montaje de conducte și cabluri. Aplicație tipică: izolarea vibrațiilor motoarelor sau pompelor montate pe cadre metalice. Pentru ofertă, e nevoie de sarcina transmisă și tipul de arbore sau cadru." },
+      { name: "Cuplaje și Componente pentru Vibrodampare", description: "Cuplaje de arbore și tampoane antivibrații pentru reducerea transmiterii vibrațiilor între componente mecanice în mișcare. Aplicație tipică: izolarea vibrațiilor motoarelor sau pompelor montate pe cadre metalice. Pentru ofertă, e nevoie de sarcina transmisă și tipul de arbore sau cadru." },
       { name: "Profiluri de Aluminiu și Componente pentru Vid", description: "Profiluri de aluminiu pentru structuri modulare de mașini și componente dedicate sistemelor de vid, completând gama de elemente standard cu soluții pentru cadre și sisteme de prindere prin depresiune. Aplicație tipică: cadre modulare pentru protecții de mașini sau standuri de asamblare. Clientul trebuie să precizeze dimensiunea profilului și tipul de îmbinare dorit." }
     ],
     industries: [
@@ -312,19 +312,15 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     productCodes: [
       {
         "code": "GN 823",
-        "description": "Elemente de indexare cu bilă retractabilă pentru poziționare rapidă"
+        "description": "Elemente de indexare cu manetă de acționare"
       },
       {
         "code": "GN 210",
         "description": "Manete pentru schimbarea vitezelor și acționări mecanice similare"
       },
       {
-        "code": "GN 62444",
-        "description": "Presetupe pentru cabluri, fixare și etanșare la trecerea prin panou"
-      },
-      {
         "code": "GN 876",
-        "description": "Cleme de fixare rapidă cu strângere excentrică"
+        "description": "Cleme rotative din aluminiu, cu acționare pneumatică"
       },
       {
         "code": "GN 318",
@@ -348,7 +344,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       },
       {
         "code": "AVC",
-        "description": "Izolator antivibrație din cauciuc și cablu de oțel"
+        "description": "Izolator antivibrație cu cablu de oțel inoxidabil"
       },
       {
         "code": "FH.1/2",
@@ -366,7 +362,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     faq: [
       {
         "q": "Ce înseamnă codul GN de pe un element Elesa+Ganter?",
-        "a": "Prefixul GN identifică un standard constructiv comun mai multor producători, iar numărul care urmează arată forma și funcția reperului: de exemplu, GN 823 este un element de indexare cu bilă, iar GN 876 este o clemă cu strângere excentrică. Cifrele suplimentare din cod, precum GN 439.5, marchează o variantă de material sau finisaj. Confirmarea exactă se face pe baza desenului tehnic sau a fișei publicate de Elesa+Ganter."
+        "a": "Prefixul GN face parte din codul reperelor din catalogul Ganter, iar numărul care urmează identifică reperul: de exemplu, GN 823 este un element de indexare cu manetă de acționare, iar GN 876 este o clemă rotativă din aluminiu, cu acționare pneumatică. Varianta exactă de material sau finisaj se confirmă pe fișa tehnică. Confirmarea exactă se face pe baza desenului tehnic sau a fișei publicate de Elesa+Ganter."
       },
       {
         "q": "Livrați repere Elesa+Ganter în România la comandă?",
@@ -374,7 +370,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       },
       {
         "q": "Ce diferență este între un element de indexare și o clemă de fixare Elesa+Ganter?",
-        "a": "Un element de indexare, precum GN 823, blochează o poziție prin introducerea unui bolț sau a unei bile într-un locaș, fiind folosit la reglaje repetitive de mașină. O clemă de fixare, precum GN 876, strânge două piese printr-o mișcare excentrică de pârghie, fără să indexeze o poziție anume. Alegerea depinde dacă aplicația necesită repoziționare exactă sau doar o fixare temporară rapidă."
+        "a": "Un element de indexare, precum GN 823, blochează o poziție prin introducerea unui bolț într-un locaș, fiind folosit la reglaje repetitive de mașină. O clemă rotativă, precum GN 876, este destinată fixării piesei, nu indexării unei poziții anume. Alegerea depinde dacă aplicația necesită repoziționare exactă sau doar o fixare temporară rapidă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un reper Elesa+Ganter?",
@@ -383,8 +379,8 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Elesa+Ganter – Standard Machine Elements","url":"https://www.elesa-ganter.com","publisher":"Elesa+Ganter","accessed":"2026-09-25"},
       { title: "Elesa+Ganter - Standard Machine Elements", url: "https://www.elesa-ganter.com/", publisher: "Elesa+Ganter", accessed: "2026-09-22" },
@@ -397,21 +393,21 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
     founded: 1675,
     overview: `Lesjöfors este un producător suedez de arcuri industriale, cu rădăcini într-o fierărie autorizată printr-un decret regal în 1675 la Lesjöström, Suedia, și crescut de-a lungul secolelor într-un grup cu situri de producție în mai multe țări. Compania produce arcuri standard și speciale din sârmă, arcuri plate, arcuri cu gaz și piese ștanțate, pentru aplicații care merg de la aerospațial la echipamente medicale. Din gama Lesjöfors putem oferta la comandă arcuri de compresie, extensie și torsiune, arcuri cu gaz și componente ștanțate, direct din catalogul producătorului.
 
-Gama tehnică acoperă arcuri în spirală de compresie, extensie, torsiune, garter și wave, arcuri plate de tip constant-force și power springs, arcuri cu gaz de compresie, torsiune sau blocabile din seria NitroSprings, plus operațiuni de presare și ștanțare pentru bucșe, inele de circlip și piese adânc trase. Producția e certificată conform ISO 9001, ISO 14001 și, pentru aplicații medicale, ISO 13485:2016 — un nivel de certificare relevant pentru clienți din industrii reglementate, nu doar din construcția generală de mașini.
+Gama tehnică acoperă arcuri în spirală de compresie, extensie, torsiune, garter și wave, arcuri plate de tip constant-force și power springs, arcuri cu gaz cu azot din seria NitroSprings, plus operațiuni de presare și ștanțare, inclusiv arcuri disc, șaibe ondulate și componente ștanțate. Producția e certificată conform ISO 9001, ISO 14001 și, pentru aplicații medicale, ISO 13485:2016 — un nivel de certificare relevant pentru clienți din industrii reglementate, nu doar din construcția generală de mașini.
 
-Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri dimensionate precis pe forță și cursă — utilaje industriale, echipamente auto de aftermarket, dispozitive medicale — și unde un arc de catalog generic nu acoperă parametrii ceruți de aplicație.`,
+Pentru piața din România, Lesjöfors are sens acolo unde aveți nevoie de arcuri dimensionate precis pe forță și cursă — utilaje industriale, echipamente auto de aftermarket, dispozitive medicale — și unde un arc de catalog generic nu acoperă parametrii ceruți de aplicație.`,
     whyChoose: [
       "Gamă largă: arcuri din sârmă, arcuri plate, arcuri cu gaz și piese ștanțate, sub același producător",
       "Certificare ISO 13485:2016 pentru aplicații medicale, pe lângă ISO 9001 și ISO 14001",
       "Istoric industrial din 1675, cu situri de producție multiple pentru capacitate și flexibilitate",
-      "Arcuri cu gaz din seria NitroSprings, disponibile în variante de compresie, torsiune sau blocabile",
+      "Arcuri cu gaz cu azot din seria NitroSprings, pentru aplicații industriale și de scule cu forțe mari",
       "Acoperire pe zece industrii diferite, de la aerospațial la echipamente medicale"
     ],
     keyProducts: [
       { name: "Arcuri din Sârmă (Compresie, Extensie, Torsiune)", description: "Arcuri spiralate standard și custom, în variante de compresie, extensie, torsiune, garter și wave, dimensionate pe forța și cursa cerute de aplicație. Aplicație tipică: mecanisme de reglare, sisteme de amortizare sau elemente de siguranță în utilaje industriale. Pentru ofertă, clientul trebuie să precizeze diametrul sârmei, numărul de spire, cursa și forța necesară, sau să trimită un desen tehnic." },
       { name: "Arcuri Plate (Constant Force și Power Springs)", description: "Arcuri plate care livrează forță practic constantă pe toată cursa, folosite acolo unde un arc spiralat clasic ar da o forță variabilă neconstantă. Aplicație tipică: mecanisme de retragere, sisteme de tensionare pentru benzi sau cabluri. Clientul trebuie să precizeze forța dorită, lățimea benzii și spațiul de montaj disponibil." },
-      { name: "Arcuri cu Gaz Seria NitroSprings", description: "Arcuri cu gaz de compresie, torsiune sau blocabile, pentru mecanisme de ridicare, susținere sau amortizare unde un arc mecanic clasic ar fi prea voluminos. Aplicație tipică: capace și panouri de acces, scaune reglabile, sisteme de susținere pentru echipamente. Pentru ofertă, e nevoie de forța de susținere necesară și cursa de extensie." },
-      { name: "Piese Presate și Ștanțate", description: "Bucșe, inele de circlip, piese adânc trase și arcuri disc, produse prin presare și ștanțare pentru volume medii și mari. Aplicație tipică: componente de fixare sau etanșare integrate în ansambluri mecanice mai mari. Clientul trebuie să trimită desenul tehnic al piesei sau dimensiunile și materialul dorit." }
+      { name: "Arcuri cu Gaz Seria NitroSprings", description: "Arcuri cu gaz cu azot comprimat, cu forță mare și repetabilă, pentru aplicații industriale grele și de scule, cu curse de la 6 la 900 mm. Pentru ofertă, e nevoie de forța necesară și de cursa de lucru." },
+      { name: "Piese Presate și Ștanțate", description: "Arcuri disc, șaibe ondulate și componente ștanțate, produse prin presare și ștanțare. Aplicație tipică: componente de fixare sau etanșare integrate în ansambluri mecanice mai mari. Clientul trebuie să trimită desenul tehnic al piesei sau dimensiunile și materialul dorit." }
     ],
     industries: [
       "Aerospațial — arcuri de precizie pentru mecanisme critice",
@@ -439,7 +435,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "code": "Wave Springs",
-        "description": "Arcuri disc tip undă, spațiu axial redus față de arcurile clasice"
+        "description": "Arcuri tip undă, cu spațiu axial redus față de arcurile clasice"
       },
       {
         "code": "Wire Forms",
@@ -471,7 +467,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "code": "NitroSprings",
-        "description": "Arcuri cu gaz din gama NitroSprings, forță reglabilă pe cursă"
+        "description": "Arcuri cu gaz cu azot din gama NitroSprings, pentru aplicații industriale grele"
       },
       {
         "code": "Stainless Steel Gas Springs",
@@ -485,7 +481,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     faq: [
       {
         "q": "Ce tip de arc Lesjöfors aleg pentru o forță constantă pe toată cursa?",
-        "a": "Pentru o forță aproape constantă pe toată lungimea de derulare, familia Constant Force Springs este potrivă, fiind folosită la mecanisme de contragreutate sau la sisteme de rulare a cablurilor. Dacă este nevoie doar de rebobinare, Power Springs oferă o soluție mai compactă. Alegerea corectă ține cont de cursa totală, de spațiul de montaj disponibil și de numărul de cicluri de lucru estimat pe durata de viață."
+        "a": "Pentru o forță aproape constantă pe toată lungimea de derulare, familia Constant Force Springs este potrivită, fiind folosită la mecanisme de contragreutate sau la sisteme de rulare a cablurilor. Dacă este nevoie doar de rebobinare, Power Springs oferă o soluție mai compactă. Alegerea corectă ține cont de cursa totală, de spațiul de montaj disponibil și de numărul de cicluri de lucru estimat pe durata de viață."
       },
       {
         "q": "Aduceți la comandă arcuri Lesjöfors în România?",
@@ -493,7 +489,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
       },
       {
         "q": "Ce diferență este între arcurile cu gaz NitroSprings și cele clasice de compresie Lesjöfors?",
-        "a": "NitroSprings sunt arcuri cu gaz presurizat, care oferă o forță aproape constantă pe cursă și o mișcare amortizată, fiind folosite la capace, scaune sau echipamente reglabile. Arcurile clasice de compresie sunt elicoidale metalice, cu forța proporțională cu deformarea, potrivite pentru suspensii sau mecanisme simple de revenire. Selecția depinde de tipul de mișcare dorit și de spațiul de montaj din produsul final."
+        "a": "NitroSprings sunt arcuri cu gaz presurizat cu azot, cu forță mare și repetabilă, destinate aplicațiilor industriale grele și de scule. Arcurile clasice de compresie sunt elicoidale metalice, cu forța proporțională cu deformarea, potrivite pentru suspensii sau mecanisme simple de revenire. Selecția depinde de tipul de mișcare dorit și de spațiul de montaj din produsul final."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un arc Lesjöfors?",
@@ -502,8 +498,8 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Coil Springs and Wire Forms","url":"https://www.lesjofors.com/en/products/coil-springs-and-wire-forms/","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
       {"title":"Lesjöfors – Products","url":"https://www.lesjofors.com/en","publisher":"Lesjöfors AB","accessed":"2026-09-25"},
@@ -517,9 +513,9 @@ Pentru piața din România, Lesjöfors are sens acolo unde ai nevoie de arcuri d
     headquarters: "Germania",
     overview: `OBO Bettermann este un producător german de sisteme pentru instalații electrice, cu accent pe protecția la supratensiune, jgheaburi și sisteme de conducere a cablurilor, protecție la foc și sisteme de împământare. Compania se descrie ca fiind printre producătorii de referință pentru sisteme de instalare electrică din construcții și industrie. Din gama OBO Bettermann putem oferta la comandă jgheaburi de cabluri, descărcătoare de supratensiune și sisteme de protecție la foc, pentru firme de instalații electrice și proiecte industriale.
 
-Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilor (Leitungsführungssysteme), sisteme de protecție la foc (Brandschutz), sisteme de instalare încastrată (Einbaugeräte-Systeme), sisteme de conectare, plus protecție la trăsnet și supratensiune și soluții pentru instalații subterane. În zona de protecție la supratensiune, OBO Bettermann se compară cu Dehn, alt nume german deja prezent pe site-ul nostru, ambele acoperind game complete de descărcătoare pentru tablouri electrice.
+Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilor, sisteme de protecție la foc, sisteme de instalare încastrată, sisteme de conectare, plus protecție la trăsnet și supratensiune și soluții pentru instalații subterane. În zona de protecție la supratensiune, OBO Bettermann este comparabil cu Dehn, alt producător german, ambele având game de descărcătoare pentru tablouri electrice.
 
-Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde ai nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
+Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde aveți nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
     whyChoose: [
       "Gamă completă pentru instalații electrice: jgheaburi de cabluri, protecție la supratensiune, protecție la foc",
       "Sisteme de conducere a cablurilor dimensionate pentru diverse tipuri de trasee industriale",
@@ -528,7 +524,7 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       "Poziționare directă în categoria protecției la supratensiune, alături de nume precum Dehn"
     ],
     keyProducts: [
-      { name: "Jgheaburi și Sisteme de Conducere a Cablurilor", description: "Jgheaburi metalice (Kabelrinne, Gitterrinne) pentru trasee de cabluri în instalații industriale și comerciale, în diverse lățimi și înălțimi, cu accesorii de fixare și îmbinare. Aplicație tipică: distribuția cablurilor electrice și de date prin hale de producție sau clădiri de birouri. Pentru ofertă, clientul trebuie să precizeze lățimea și înălțimea jgheabului, lungimea totală a traseului și tipul de mediu de instalare." },
+      { name: "Jgheaburi și Sisteme de Conducere a Cablurilor", description: "Jgheaburi metalice (tip plin și tip plasă) pentru trasee de cabluri în instalații industriale și comerciale, în diverse lățimi și înălțimi, cu accesorii de fixare și îmbinare. Aplicație tipică: distribuția cablurilor electrice și de date prin hale de producție sau clădiri de birouri. Pentru ofertă, clientul trebuie să precizeze lățimea și înălțimea jgheabului, lungimea totală a traseului și tipul de mediu de instalare." },
       { name: "Sisteme de Protecție la Supratensiune", description: "Descărcătoare de supratensiune pentru protejarea tablourilor electrice și a echipamentelor sensibile împotriva impulsurilor generate de trăsnet sau comutații de rețea. Aplicație tipică: protecția instalațiilor fotovoltaice, a centrelor de date sau a echipamentelor industriale critice. Clientul trebuie să precizeze tensiunea nominală a instalației și tipul de protecție necesar (clasa I, II sau combinată)." },
       { name: "Sisteme de Protecție la Foc", description: "Soluții pentru limitarea propagării focului prin trasee de cabluri care traversează pereți sau planșee compartimentate la foc, inclusiv manșoane și vopsele intumescente. Aplicație tipică: treceri de cabluri prin pereți rezistenți la foc în clădiri industriale sau centre de date. Pentru ofertă, e nevoie de rezistența la foc cerută (EI) și diametrul traseului de cabluri." },
       { name: "Sisteme de Împământare și Protecție la Trăsnet", description: "Componente pentru instalații de împământare și paratrăsnet — conductori, electrozi și piese de conectare — dimensionate pentru protecția clădirilor și echipamentelor la descărcări atmosferice. Aplicație tipică: instalații de protecție la trăsnet pentru clădiri industriale sau parcuri fotovoltaice. Clientul trebuie să trimită schema instalației sau tipul de clădire protejată." }
@@ -585,11 +581,11 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       },
       {
         "code": "RKS-Magic 60 FS",
-        "description": "Jgheab metalic pentru cabluri, oțel zincat la rece, lățime 60 mm"
+        "description": "Jgheab metalic pentru cabluri, familia RKS-Magic, finisaj FS"
       },
       {
         "code": "RKS-Magic 60 A2",
-        "description": "Jgheab pentru cabluri din oțel inoxidabil, finisaj brut"
+        "description": "Jgheab pentru cabluri din oțel inoxidabil (A2)"
       },
       {
         "code": "RKS-Magic 60 FT",
@@ -607,7 +603,7 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       },
       {
         "q": "Ce diferență există între jgheabul RKS-Magic 60 FS și cel FT?",
-        "a": "Diferența constă în tratamentul de suprafață al oțelului: FS este zincat la rece, potrivit pentru interior, iar FT este zincat termic prin imersie la cald, cu rezistență mai bună la coroziune pentru montaj exterior sau industrial. Ambele fac parte din familia RKS-Magic, cu lățime de 60 mm și sistem de îmbinare fără șuruburi. Alegerea corectă ține cont de mediul de instalare."
+        "a": "Diferența constă în tratamentul de suprafață al oțelului: FT este zincat termic prin imersie la cald, cu rezistență mai bună la coroziune, iar FS este un alt tip de finisaj de zincare; mediul de montaj admis pentru fiecare variantă se confirmă pe cod, din catalogul OBO. Ambele fac parte din familia RKS-Magic, cu sistem de îmbinare fără șuruburi. Alegerea corectă ține cont de mediul de instalare."
       },
       {
         "q": "Livrați jgheaburi și descărcătoare OBO Bettermann în România?",
@@ -620,8 +616,8 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"OBO Bettermann homepage","url":"https://www.obo.de/en","publisher":"OBO Bettermann","accessed":"2026-09-25"},
       {"title":"Überspannungsschutz - Produkte","url":"https://www.obo.de/de-de/produkte/ueberspannungsschutz","publisher":"OBO Bettermann","accessed":"2026-09-25"},
@@ -636,15 +632,15 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
     headquarters: "Anyang, Coreea de Sud",
     overview: `LS Electric este un producător sud-coreean de echipamente electrice de putere și automatizare industrială, cu sediul la Anyang. Compania a apărut în 1974 ca Lucky Packing, în cadrul grupului Goldstar, și a trecut prin mai multe rebranduiri — Goldstar Industrial Systems, apoi LG Industrial Systems, apoi LS Industrial Systems — până la numele actual, adoptat în 2020, odată cu extinderea spre echipamente electrice mai largi. Din gama LS Electric putem oferta la comandă întrerupătoare de joasă tensiune, contactoare, invertoare pentru control de motor și transformatoare, pentru tablouri electrice și linii de automatizare.
 
-LS Electric produce echipamente de comutație de joasă tensiune, contactoare și relee de comandă, invertoare pentru controlul turației motoarelor electrice, transformatoare, cabluri și, mai recent, sisteme de stocare a energiei (ESS), după preluarea diviziei ESS a Parker Hannifin în 2018. În categoria întrerupătoarelor și contactoarelor de joasă tensiune, LS Electric se compară cu Schneider Electric, deja prezent pe site-ul nostru, amândouă acoperind game largi pentru tablouri electrice industriale.
+LS Electric produce echipamente de comutație de joasă tensiune, contactoare și relee de comandă, invertoare pentru controlul turației motoarelor electrice, transformatoare, cabluri și, mai recent, sisteme de stocare a energiei (ESS), după preluarea diviziei ESS a Parker Hannifin în 2018. În categoria întrerupătoarelor și contactoarelor de joasă tensiune, LS Electric acoperă game pentru tablouri electrice industriale.
 
-Pentru piața din România, LS Electric are sens la tablouri electrice și panouri de automatizare unde cauți o alternativă la mărcile vest-europene consacrate, la parametri electrici comparabili, pentru proiecte de retehnologizare sau construcție nouă de instalații industriale.`,
+Pentru piața din România, LS Electric are sens la tablouri electrice și panouri de automatizare unde proiectul cere echipamente de joasă tensiune cu parametri electrici confirmați din documentația producătorului, pentru proiecte de retehnologizare sau construcție nouă de instalații industriale.`,
     whyChoose: [
       "Gamă completă pentru tablouri electrice: întrerupătoare, contactoare, invertoare și transformatoare",
       "Parte din grupul LS, cu afiliate dedicate pentru sisteme de stocare a energiei (LS Energy Solutions)",
       "Istoric de peste 50 de ani în echipamente electrice de putere, din 1974 până azi",
       "Extindere spre sisteme de stocare a energiei, relevantă pentru proiecte de energie regenerabilă",
-      "Poziționare directă în categoria echipamentelor de joasă tensiune, alături de Schneider Electric"
+      "Echipamente de joasă tensiune pentru tablouri electrice industriale"
     ],
     keyProducts: [
       { name: "Întrerupătoare de Joasă Tensiune (MCCB/ACB)", description: "Întrerupătoare automate în carcasă turnată și întrerupătoare de aer pentru protecția circuitelor de joasă tensiune din tablouri electrice industriale și comerciale. Aplicație tipică: protecția la scurtcircuit și suprasarcină a plecărilor din tabloul general al unei clădiri sau hale. Pentru ofertă, clientul trebuie să precizeze curentul nominal, tensiunea de lucru și capacitatea de rupere necesară." },
@@ -663,11 +659,11 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
     productCodes: [
       {
         "code": "ABS33c",
-        "description": "Întrerupător automat compact Metasol MCCB, cadru redus 30-250 A"
+        "description": "Întrerupător automat Metasol MCCB, cadru de 30 A (curent nominal 15–30 A), tip standard"
       },
       {
         "code": "ABN52c",
-        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere normală"
+        "description": "Întrerupător automat Metasol MCCB, cadru de 50 A (curent nominal 15–50 A), tip economic"
       },
       {
         "code": "ABS52c",
@@ -679,7 +675,7 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       },
       {
         "code": "ABN102c",
-        "description": "Întrerupător automat Metasol MCCB, cadru 100 A, rupere normală"
+        "description": "Întrerupător automat Metasol MCCB, cadru 100 A, tip economic"
       },
       {
         "code": "ABS102c",
@@ -691,15 +687,15 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       },
       {
         "code": "ABN202c",
-        "description": "Întrerupător automat Metasol MCCB, cadru 200 A, rupere normală"
+        "description": "Întrerupător automat Metasol MCCB, cadru 250 A (curent nominal 100–250 A), tip economic"
       },
       {
         "code": "ABS402c",
-        "description": "Întrerupător automat Metasol MCCB, cadru mare 400-800 A"
+        "description": "Întrerupător automat Metasol MCCB, cadru 400 A (curent nominal 250–400 A), tip standard"
       },
       {
         "code": "ABL402c",
-        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere redusă, cadru mare"
+        "description": "Întrerupător automat Metasol MCCB, capacitate de rupere ridicată, cadru 400 A (250–400 A)"
       },
       {
         "code": "EBS33c",
@@ -707,7 +703,7 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       },
       {
         "code": "EBN52c",
-        "description": "Întrerupător diferențial Metasol ELCB, capacitate de rupere normală"
+        "description": "Întrerupător diferențial Metasol ELCB, cadru de 50 A, tip economic"
       },
       {
         "code": "EBH53c",
@@ -715,17 +711,17 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       },
       {
         "code": "EBN403c",
-        "description": "Întrerupător diferențial Metasol ELCB, cadru mare 400-800 A"
+        "description": "Întrerupător diferențial Metasol ELCB, cadru 400 A (curent nominal 250–400 A)"
       }
     ],
     faq: [
       {
         "q": "Cum citesc codul unui întrerupător Metasol de la LS Electric?",
-        "a": "Codul Metasol arată familia constructivă și capacitatea de rupere: prefixul AB este pentru întrerupătoare automate în carcasă turnată, iar EB pentru variantele cu protecție diferențială. Litera din mijloc indică nivelul de rupere - N pentru normal, S pentru standard, H pentru ridicat și L pentru redus - iar cifrele care urmează arată cadrul, exprimat aproximativ în amperi. Sufixul „c\" marchează seria curentă din catalogul LS Electric."
+        "a": "Codul Metasol arată familia constructivă și capacitatea de rupere: prefixul AB este pentru întrerupătoare automate în carcasă turnată, iar EB pentru variantele cu protecție diferențială. Litera din mijloc indică tipul constructiv - N pentru tipul economic, S pentru tipul standard și H pentru capacitate de rupere ridicată, iar L tot pentru capacitate de rupere ridicată, la cadrele de 400 A și mai mari - iar cifrele care urmează arată cadrul, exprimat aproximativ în amperi. Sufixul „c\" marchează o versiune a seriei; semnificația exactă se confirmă din manualul tehnic al producătorului."
       },
       {
         "q": "Ce diferență este între seria ABN și seria ABH la Metasol?",
-        "a": "Diferența ține de capacitatea de rupere la scurtcircuit: seria ABN acoperă aplicațiile obișnuite, cu o capacitate normală, în timp ce seria ABH este construită pentru capacități de rupere ridicate, recomandate acolo unde curenții de defect pot fi mari, de exemplu lângă transformatoare sau tablouri principale. Ambele păstrează aceleași dimensiuni de montaj în cadrul aceluiași grup de curent, ceea ce simplifică înlocuirea."
+        "a": "Diferența ține de capacitatea de rupere la scurtcircuit: seria ABN este tipul economic, în timp ce seria ABH este construită pentru capacități de rupere ridicate, recomandate acolo unde curenții de defect pot fi mari, de exemplu lângă transformatoare sau tablouri principale."
       },
       {
         "q": "Livrați întrerupătoare Metasol LS Electric în România?",
@@ -733,13 +729,13 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       },
       {
         "q": "Ce înseamnă litera c de la finalul codului Metasol?",
-        "a": "Litera c de la finalul codurilor precum ABS33c sau EBN52c marchează varianta curentă de fabricație a familiei Metasol, care poate diferi ușor de versiunile mai vechi în privința accesoriilor disponibile sau a dimensiunilor terminalelor. La comandă, este util să menționați exact acest sufix, alături de curentul nominal dorit, pentru a evita confuzia cu serii mai vechi ale aceluiași întrerupător."
+        "a": "Litera c de la finalul codurilor precum ABS33c sau EBN52c marchează o versiune a familiei Metasol; semnificația exactă și diferențele față de versiunile mai vechi se confirmă din manualul tehnic al producătorului. La comandă, este util să menționați exact acest sufix, alături de curentul nominal dorit, pentru a evita confuzia cu serii mai vechi ale aceluiași întrerupător."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Metasol MCCB-ELCB Technical Manual","url":"https://www.ls-electric.com/upload/customer/download/1213/Metasol_MCCB-ELCB_Technical%20Manual_E.pdf","publisher":"LS Electric","accessed":"2026-09-25"},
       { title: "LS ELECTRIC - Global Smart Energy Solutions", url: "https://www.ls-electric.com/", publisher: "LS Electric Co., Ltd.", accessed: "2026-09-22" },
@@ -757,30 +753,30 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
     whyChoose: [
       "Gamă de electrospindle dedicate pe aplicație: metal (ES1000, ES1020), automotive (ES505), compozite (ES920)",
       "Certificare ISO 9001 deținută din 1996, alături de ISO 14001 și ISO 45001",
-      "Parte din grupul Biesse, cu acces la rețeaua de service și piese de schimb a grupului",
+      "Parte din grupul Biesse; suport tehnic oferit de producător prin centrele sale de service și partenerii din întreaga lume",
       "Capete de prelucrare disponibile în variante cu unul sau două axe (seria HST610 DS)",
       "Peste 30 de ani de experiență concentrată pe mecatronica pentru mașini-unelte"
     ],
     keyProducts: [
       { name: "Electrospindle ES1000 și ES1020", description: "Electrospindle pentru centre de prelucrare verticală pe metal, proiectate pentru prelucrări de precizie pe piese metalice. Aplicație tipică: freze CNC pentru piese de mecanică generală sau componente industriale. Pentru ofertă, clientul trebuie să precizeze mașina pe care se montează electrospindle-ul, tipul de prelucrare dorit și interfața de montaj existentă." },
-      { name: "Electrospindle ES505 pentru Automotive", description: "Electrospindle dedicat aplicațiilor din industria auto, pentru prelucrarea componentelor specifice acestui sector pe mașini CNC. Aplicație tipică: linii de producție automotive cu prelucrare de precizie pe piese metalice sau compozite ale vehiculului. Clientul trebuie să precizeze tipul de material prelucrat și cerințele de precizie ale piesei." },
-      { name: "Electrospindle ES920 pentru Materiale Compozite", description: "Electrospindle proiectat pentru prelucrarea materialelor compozite, unde cerințele de răcire și evacuare a prafului diferă de prelucrarea metalului clasic. Aplicație tipică: fabricarea de componente aerospațiale sau auto din fibră de carbon sau alte compozite. Pentru ofertă, e nevoie de tipul de compozit prelucrat și viteza de rotație dorită." },
+      { name: "Electrospindle ES505 pentru Automotive", description: "Electrospindle dedicat aplicațiilor din industria auto, pentru prelucrarea componentelor specifice acestui sector pe mașini CNC. Aplicație tipică: centre de prelucrare pentru operații pe aluminiu în industria auto, inclusiv pentru vehicule hibride și electrice. Clientul trebuie să precizeze tipul de material prelucrat și cerințele de precizie ale piesei." },
+      { name: "Electrospindle ES920 pentru Materiale Compozite", description: "Electrospindle cu schimbare automată a sculei (interfață ISO 20), pentru aplicații pe materiale compozite și lemn, în variante de 1,1 kW sau 2,2 kW, cu răcire cu ventilator electric. Pentru ofertă, e nevoie de tipul de compozit prelucrat și viteza de rotație dorită." },
       { name: "Cap de Prelucrare HST610 DS", description: "Cap de prelucrare disponibil în variantă cu unul sau două axe, pentru mașini CNC care necesită orientare variabilă a sculei pe piesă. Aplicație tipică: prelucrări complexe pe suprafețe înclinate sau geometrii care necesită mai multe unghiuri de atac. Clientul trebuie să precizeze tipul de mașină și configurația de axe necesară." }
     ],
     industries: [
       "Prelucrare metal — electrospindle pentru centre de prelucrare verticală",
       "Automotive — capete de prelucrare pentru componente specifice industriei auto",
-      "Materiale compozite — electrospindle adaptate pentru fibră de carbon și compozite",
+      "Materiale compozite și lemn — electrospindle ES920 pentru aceste aplicații",
       "Prelucrarea pietrei și marmurei — capete de prelucrare pentru mașini CNC din acest sector",
       "Mentenanță mașini-unelte — înlocuirea electrospindle-urilor uzate pe echipamente existente"
     ],
     certifications: ["ISO 9001:2015 — deținută din 1996", "ISO 14001:2015 — management de mediu", "ISO 45001:2018 — sănătate și securitate ocupațională"],
     infinitrade: `Pentru HSD nu avem date proprii de stoc pe fiecare model de electrospindle — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea exactă se confirmă punctual, per comandă. Aducem electrospindle-uri HSD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă corectă, trimiteți-ne modelul exact al electrospindle-ului sau, dacă nu-l cunoașteți, mașina pe care se montează și aplicația (metal, compozit, automotive). Nu publicăm prețuri fără o verificare punctuală de disponibilitate la furnizor.`,
-    limitation: "Nu oferim service în perioada de garanție a producătorului pentru electrospindle-urile HSD — acesta rămâne în sarcina rețelei oficiale de service a grupului Biesse.",
+    limitation: "Nu oferim service în perioada de garanție a producătorului pentru electrospindle-urile HSD — acesta rămâne în sarcina producătorului și a centrelor sale de service.",
     productCodes: [
       {
         "code": "ES1000",
-        "description": "Electrospindel ATC pentru centre de prelucrare verticale, frezare și strunjire metal"
+        "description": "Electrospindel ATC pentru centre de prelucrare verticale, prelucrarea metalelor"
       },
       {
         "code": "ES1020",
@@ -788,7 +784,7 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
       },
       {
         "code": "ES505",
-        "description": "Electrospindel pentru aplicații din industria auto, putere și precizie ridicată"
+        "description": "Electrospindel pentru aplicații din industria auto, putere ridicată și dimensiuni reduse"
       },
       {
         "code": "ES920",
@@ -826,11 +822,11 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
     faq: [
       {
         "q": "Ce este un electrospindel ES1000 de la HSD?",
-        "a": "ES1000 face parte din familia de electrospindele ATC ale HSD, dedicate centrelor de prelucrare verticale pentru frezare și, în anumite configurații, pentru operații de strunjire pe piese metalice. Electrospindelul integrează sistemul de schimbare automată a sculei, ceea ce reduce timpii morți în producția de serie. Alegerea între modelele din gama ES depinde de turația maximă necesară și de tipul de material prelucrat."
+        "a": "ES1000 face parte din familia de electrospindele ATC ale HSD, dedicate centrelor de prelucrare verticale pentru prelucrarea metalelor. Electrospindelul integrează sistemul de schimbare automată a sculei, ceea ce reduce timpii morți în producția de serie. Alegerea între modelele din gama ES depinde de turația maximă necesară și de tipul de material prelucrat."
       },
       {
         "q": "Ce diferență este între electrospindelele ES505 și ES920?",
-        "a": "ES505 este orientat spre aplicații din industria auto, unde contează combinația de putere și precizie la viteze mari de prelucrare, în timp ce ES920 este construit pentru prelucrarea materialelor compozite, unde vibrațiile și degajarea de căldură trebuie controlate diferit față de metal. Ambele fac parte din familia de electrospindele ATC ale producătorului, dar diferă prin turație, răcire și tipul de mandrină recomandat."
+        "a": "ES505 este orientat spre aplicații din industria auto, în special prelucrarea aluminiului pe centre de prelucrare cu 4–5 axe, unde contează combinația dintre putere și dimensiuni reduse, în timp ce ES920 este o electrospindle de putere mică (1,1 sau 2,2 kW), pentru materiale compozite și lemn. Cele două diferă prin putere, turație și răcire; datele exacte se confirmă din fișa fiecărui model."
       },
       {
         "q": "Livrați electrospindele HSD în România?",
@@ -838,13 +834,13 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
       },
       {
         "q": "Ce înseamnă sufixul DS la modelul HST610 DS?",
-        "a": "Sufixul DS de la HST610 DS indică o variantă specifică a capului de prelucrare din gama HSD, gândită pentru anumite configurații de montaj pe mașini-unelte industriale. Detaliile tehnice exacte, precum unghiurile de lucru sau tipul de acționare, se regăsesc în fișa tehnică a producătorului și diferă de variantele fără acest sufix. Recomandăm verificarea compatibilității cu mașina existentă înainte de a trimite cererea de ofertă."
+        "a": "Semnificația exactă a sufixului DS și detaliile tehnice ale capului HST610 DS, precum unghiurile de lucru sau tipul de acționare, se confirmă din fișa tehnică a producătorului. Recomandăm verificarea compatibilității cu mașina existentă înainte de a trimite cererea de ofertă."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"HSD Mechatronics homepage","url":"https://www.hsdmechatronics.com/en/","publisher":"HSD Mechatronics","accessed":"2026-09-25"},
       { title: "HSD Mechatronics - Home", url: "https://www.hsdmechatronics.com/it/", publisher: "HSD Mechatronics S.p.A.", accessed: "2026-09-22" },
@@ -856,7 +852,7 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
     name: "Metabo",
     founded: 1924,
     headquarters: "Nürtingen, Germania",
-    overview: `Metabo este un producător german de scule electrice profesionale, cu sediul la Nürtingen și activitate din 1924, azi parte a portofoliului de mărci profesionale al grupului Techtronic Industries. Compania produce scule cu acumulator și cu cablu pentru metal, construcții și tâmplărie, plus accesorii și materiale abrazive pentru uz industrial. Din gama Metabo putem oferta la comandă scule electrice cu acumulator, scule cu cablu și accesorii pentru profesioniști din construcții și prelucrarea metalului.
+    overview: `Metabo este un producător german de scule electrice profesionale, cu sediul la Nürtingen și activitate din 1924, azi parte din grupul Koki Holdings. Compania produce scule cu acumulator și cu cablu pentru metal, construcții și tâmplărie, plus accesorii și materiale abrazive pentru uz industrial. Din gama Metabo putem oferta la comandă scule electrice cu acumulator, scule cu cablu și accesorii pentru profesioniști din construcții și prelucrarea metalului.
 
 Metabo se remarcă printr-un nivel ridicat de integrare verticală în fabricație — de la turnarea aluminiului până la injecția de materiale compozite pentru carcasele sculelor — și prin platforma de acumulatori LiHDX, gândită pentru performanță ridicată la sarcini grele. Compania participă și la sistemul Cordless Alliance System (CAS), o platformă de acumulatori compatibili între mai mulți producători de scule electrice, utilă pentru firme care combină echipamente de la branduri diferite pe același șantier.
 
@@ -866,7 +862,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       "Membru al sistemului Cordless Alliance System, cu acumulatori compatibili între mai mulți producători",
       "Producție cu grad ridicat de integrare verticală, de la turnarea aluminiului la injecția de compozite",
       "Peste 100 de ani de istorie în fabricarea sculelor electrice profesionale, din 1924",
-      "Gamă completă pentru metal, construcții, prelucrarea betonului și pietrei, și tâmplărie"
+      "Gamă pentru metal, construcții, prelucrarea betonului și pietrei și tâmplărie"
     ],
     keyProducts: [
       { name: "Scule Electrice cu Acumulator (Platforma LiHDX)", description: "Scule cu acumulator — polizoare, mașini de găurit-înșurubat, ferăstraie — construite pe platforma de baterii LiHDX, gândită pentru putere susținută la sarcini grele, nu doar utilizare ocazională. Aplicație tipică: lucrări de prelucrare metal sau construcții unde alimentarea cu cablu e greu de asigurat. Pentru ofertă, clientul trebuie să precizeze tipul de sculă și capacitatea de acumulator dorită." },
@@ -914,7 +910,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       },
       {
         "code": "BS 18 LT BL – 602325890",
-        "description": "Mașină de găurit-înșurubat cu acumulator 18V, model de bază, cutie de transport"
+        "description": "Mașină de găurit-înșurubat cu acumulator 18V, model de bază, livrat fără acumulator și încărcător"
       },
       {
         "code": "SB 18 LTX-3 BL Q I – 603185840",
@@ -952,7 +948,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     faq: [
       {
         "q": "Ce înseamnă codul BS 18 LTX-3 BL Q I la Metabo?",
-        "a": "În codurile Metabo, BS indică o mașină de găurit-înșurubat, cifra 18 arată platforma de tensiune de 18 V, LTX marchează seria de acumulatori Li-Ion de performanță, iar BL indică motorul fără perii (brushless). Sufixele Q și I descriu variante de livrare, precum mandrina cu schimbare rapidă sau prezența unei genți ori cutii de transport. Numărul din final este articolul exact folosit la comandă."
+        "a": "În codurile Metabo, BS indică o mașină de găurit-înșurubat, cifra 18 arată platforma de tensiune de 18 V, LTX marchează clasa de performanță pentru aplicații dificile, cu cuplu mai mare (clasa LT este pentru sarcini mai ușoare), iar BL indică motorul fără perii (brushless). Sufixele Q și I descriu variante de livrare, precum mandrina cu schimbare rapidă sau prezența unei genți ori cutii de transport. Numărul din final este articolul exact folosit la comandă."
       },
       {
         "q": "Ce diferență este între seria BS și seria SB la Metabo?",
@@ -969,8 +965,8 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Cordless drill / drivers","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-drill-drivers/","publisher":"Metabo","accessed":"2026-09-25"},
       {"title":"Cordless hammer drills","url":"https://www.metabo.com/us/enus/tools/cordless-tools/screwing-drilling-chiseling-stirring/cordless-hammer-drills/","publisher":"Metabo","accessed":"2026-09-25"},
@@ -985,13 +981,13 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
     headquarters: "Mansfield, Texas, SUA",
     overview: `Klein Tools este un producător american de scule de mână, fondat în 1857 la Chicago de imigrantul german Mathias Klein, cu sediul corporativ actual la Mansfield, Texas. Compania s-a concentrat de la început pe scule pentru electricieni și continuă să producă în SUA. Din gama Klein Tools putem oferta la comandă clești de electrician, dezizolatoare de sârmă și seturi specializate de scule de mână, pentru firme de instalații electrice și mentenanță industrială.
 
-Gama include clești de tip lineman (Lineman's Pliers) pentru tăiat și îndoit conductori grei, dezizolatoare-clește de tăiat sârmă (Wire Stripper/Cutter) pentru cabluri de diverse secțiuni, și clești diagonali de tăiere pentru spații înguste, alături de seturi complete dedicate electricienilor. Compania pune accent pe fabricația americană ca element de diferențiere, la o categorie de produs unde multe alternative sunt fabricate în Asia.
+Gama include clești de tip lineman (Lineman's Pliers) pentru tăiat și îndoit conductori grei, dezizolatoare-clește de tăiat sârmă (Wire Stripper/Cutter) pentru cabluri de diverse secțiuni, și clești diagonali de tăiere pentru spații înguste, alături de seturi complete dedicate electricienilor. Compania are unități de producție în SUA, inclusiv la Mansfield, Texas.
 
 Pentru piața din România, Klein Tools are sens la echipe de electricieni, firme de instalații industriale sau linii de producție unde scula de mână trebuie să reziste la utilizare zilnică intensivă, iar diferența de durabilitate contează mai mult decât prețul de achiziție inițial.`,
     whyChoose: [
       "Peste 165 de ani de fabricație continuă de scule de mână, din 1857 până azi",
       "Scule specializate pentru electricieni — clești de tip lineman, dezizolatoare, clești diagonali",
-      "Fabricație americană, într-o categorie de produs cu multă concurență din fabricație asiatică",
+      "Unități de producție în SUA, inclusiv la Mansfield, Texas",
       "Acoperire extinsă pe industrii conexe: HVAC, instalații sanitare, telecom, automotive",
       "Seturi complete dedicate profesiilor de electrician, nu doar scule individuale"
     ],
@@ -1079,7 +1075,7 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
       },
       {
         "q": "Ce diferență este între seria D50510BS și seria D5057BS?",
-        "a": "Ambele fac parte din familia de clești pompă cu ajustare rapidă Klaw, cu fălci drepte, dar diferă prin lungime: D5057BS are 7 inci, iar D50510BS are 10 inci. Modelul mai scurt este mai ușor de manevrat în spații strânse, în timp ce cel mai lung oferă un braț de forță mai mare pentru piese de diametru mare. Ambele acceptă aceleași accesorii de schimbare a fălcilor."
+        "a": "Ambele fac parte din familia de clești pompă cu ajustare rapidă Klaw, cu fălci drepte, dar diferă prin lungime: D5057BS are 7 inci, iar D50510BS are 10 inci. Modelul mai scurt este mai ușor de manevrat în spații strânse, în timp ce cel mai lung oferă un braț de forță mai mare pentru piese de diametru mare."
       },
       {
         "q": "Livrați scule Klein Tools în România?",
@@ -1087,13 +1083,13 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
       },
       {
         "q": "Ce înseamnă codul J20009NE250 la un clește Klein Tools?",
-        "a": "Codul J20009NE250 identifică o ediție aniversară a clestelui Journeyman tip lineman, de 9 inci, din gama Klein Tools. Litera J marchează seria Journeyman, cifrele indică dimensiunea, iar sufixul 250 face referire la ediția specială de 250 de ani a companiei. Funcțional, clestele păstrează caracteristicile modelului standard de 9 inci, diferența fiind mai ales de finisaj și marcaj."
+        "a": "Codul J20009NE250 identifică o ediție aniversară a clestelui Journeyman tip lineman, de 9 inci, din gama Klein Tools. Litera J marchează seria Journeyman, cifrele indică dimensiunea, iar sufixul 250 corespunde ediției speciale „250th Edition” din catalogul producătorului. Funcțional, clestele păstrează caracteristicile modelului standard de 9 inci, diferența fiind mai ales de finisaj și marcaj."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Pliers catalog","url":"https://www.kleintools.com/catalog/pliers","publisher":"Klein Tools","accessed":"2026-09-25"},
       {"title":"Product catalog","url":"https://www.kleintools.com/catalog","publisher":"Klein Tools","accessed":"2026-09-25"},
@@ -1106,23 +1102,23 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
     name: "Hypertherm",
     founded: 1968,
     headquarters: "Hanover, New Hampshire, SUA",
-    overview: `Hypertherm este un producător american de sisteme de tăiere cu plasmă, fondat în 1968 de Dick Couch, inventatorul tehnologiei de tăiere cu injecție de apă, cu sediul la Hanover, New Hampshire. Compania a rămas concentrată pe tehnologia de tăiere cu plasmă, extinsă ulterior cu torțe, consumabile, software CAD/CAM și comenzi CNC. Din gama Hypertherm putem oferta la comandă sisteme de tăiere cu plasmă, consumabile pentru torțe și software de imbricare pentru ateliere de tăiere metal.
+    overview: `Hypertherm este un producător american de sisteme de tăiere cu plasmă, fondat în 1968 de Dick Couch, care a inventat procesul de tăiere cu plasmă cu injecție de apă, cu sediul la Hanover, New Hampshire. Compania s-a dezvoltat pornind de la tehnologia de tăiere cu plasmă, extinsă ulterior cu torțe, consumabile, software CAD/CAM și comenzi CNC. Din gama Hypertherm putem oferta la comandă sisteme de tăiere cu plasmă, consumabile pentru torțe și software de imbricare pentru ateliere de tăiere metal.
 
-Gama tehnică acoperă seria Powermax, pentru tăiere portabilă și automatizată la curenți de până la 125 A, seria XPR, cu tehnologie X-Definition pentru curenți de peste 170 A, seria HPR (HyPerformance) pentru sisteme de înaltă performanță, și MAXPRO200, pentru tăiere și găurire automatizată la capacitate mare. Compania completează oferta cu software CAM precum ProNest, pentru optimizarea așezării pieselor pe tablă, și comenzi CNC din familia EDGE Connect.
+Gama tehnică acoperă seria Powermax, pentru tăiere portabilă și automatizată, cu curentul de tăiere în funcție de model, seria XPR, cu tehnologie X-Definition pentru curenți de la 170 A în sus (modelele XPR170, XPR300 și XPR460), seria HPR (HyPerformance) pentru sisteme de înaltă performanță, și MAXPRO200, pentru tăiere și canelare automatizată sau manuală, la capacitate mare. Compania completează oferta cu software CAM precum ProNest, pentru optimizarea așezării pieselor pe tablă, și comenzi CNC din familia EDGE Connect.
 
 Pentru piața din România, Hypertherm are sens la ateliere de fabricație metalică, construcții navale sau centre de servicii oțel unde tăierea cu plasmă trebuie să fie precisă și repetabilă, iar consumabilele originale (electrozi, duze) fac diferența pentru calitatea tăieturii pe termen lung.`,
     whyChoose: [
       "Gamă completă, de la sisteme portabile Powermax până la sisteme automatizate de mare capacitate MAXPRO200",
-      "Tehnologie X-Definition în seria XPR, pentru tăieturi de precizie la curenți peste 170 A",
+      "Tehnologie X-Definition în seria XPR, pentru tăieturi de precizie la curenți de la 170 A în sus",
       "Software CAM propriu (ProNest) pentru optimizarea imbricării pieselor pe tablă",
       "Comenzi CNC din familia EDGE Connect, integrate cu sistemele de tăiere ale producătorului",
-      "Peste 55 de ani de specializare exclusivă pe tehnologia de tăiere cu plasmă"
+      "Peste 55 de ani de experiență în tehnologia de tăiere cu plasmă"
     ],
     keyProducts: [
-      { name: "Sisteme Powermax", description: "Sisteme de tăiere cu plasmă portabile și pentru automatizare ușoară, la curenți de până la 125 A, potrivite pentru ateliere mici și mijlocii sau lucrări de întreținere pe șantier. Aplicație tipică: tăierea manuală sau semi-automatizată a tablei metalice în construcții metalice sau reparații. Pentru ofertă, clientul trebuie să precizeze grosimea maximă de tablă tăiată și dacă are nevoie de sistem portabil sau montat pe mașină." },
-      { name: "Sisteme XPR cu Tehnologie X-Definition", description: "Sisteme de tăiere cu plasmă la curenți de peste 170 A, cu tehnologie X-Definition pentru muchii de tăiere mai curate și viteză de tăiere mai mare pe grosimi medii și mari de tablă. Aplicație tipică: linii automatizate de tăiere pentru construcții metalice sau structuri industriale. Clientul trebuie să precizeze grosimea tablei și volumul de producție estimat." },
+      { name: "Sisteme Powermax", description: "Sisteme de tăiere cu plasmă portabile și pentru automatizare ușoară, cu curentul de tăiere în funcție de model, potrivite pentru ateliere mici și mijlocii sau lucrări de întreținere pe șantier. Aplicație tipică: tăierea manuală sau semi-automatizată a tablei metalice în construcții metalice sau reparații. Pentru ofertă, clientul trebuie să precizeze grosimea maximă de tablă tăiată și dacă are nevoie de sistem portabil sau montat pe mașină." },
+      { name: "Sisteme XPR cu Tehnologie X-Definition", description: "Sisteme de tăiere cu plasmă la curenți de la 170 A în sus, cu tehnologie X-Definition pentru muchii de tăiere mai curate și viteză de tăiere mai mare pe grosimi medii și mari de tablă. Aplicație tipică: linii automatizate de tăiere pentru construcții metalice sau structuri industriale. Clientul trebuie să precizeze grosimea tablei și volumul de producție estimat." },
       { name: "Sisteme HPR (HyPerformance)", description: "Sisteme de înaltă performanță pentru tăiere de precizie pe grosimi mari de tablă, folosite acolo unde calitatea muchiei de tăiere trebuie să reducă la minim operațiile ulterioare de finisare. Aplicație tipică: construcții navale sau fabricarea de vase sub presiune industrială. Pentru ofertă, e nevoie de grosimea materialului și cerințele de calitate a tăieturii." },
-      { name: "Sistemul MAXPRO200 pentru Tăiere și Găurire", description: "Sistem automatizat de capacitate mare, pentru tăiere și găurire combinate pe linii de producție de structuri metalice grele. Aplicație tipică: fabricarea structurilor din oțel pentru construcții industriale sau echipamente grele. Clientul trebuie să precizeze tipul de operații necesare (tăiere, găurire sau ambele) și grosimea maximă a materialului." }
+      { name: "Sistemul MAXPRO200 pentru Tăiere și Canelare", description: "Sistem de 200 A, de capacitate mare, pentru tăiere și canelare cu plasmă, automatizate sau manuale. Aplicație tipică: fabricarea structurilor din oțel pentru construcții industriale sau echipamente grele. Clientul trebuie să precizeze tipul de operații necesare (tăiere, canelare sau ambele) și grosimea maximă a materialului." }
     ],
     industries: [
       "Echipamente grele — tăiere de precizie pentru componente structurale metalice",
@@ -1144,7 +1140,7 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
       },
       {
         "code": "Powermax33 XP",
-        "description": "Sistem de tăiere cu plasmă, putere ușor superioară modelului 30 XP"
+        "description": "Sistem de tăiere cu plasmă din seria Powermax XP"
       },
       {
         "code": "Powermax45 SYNC",
@@ -1184,17 +1180,17 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
       },
       {
         "code": "MAXPRO200",
-        "description": "Sistem de tăiere și găurire cu plasmă pentru uz industrial"
+        "description": "Sistem de tăiere și canelare cu plasmă, 200 A, pentru uz industrial"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între seria Powermax și seria XPR de la Hypertherm?",
-        "a": "Seria Powermax de la Hypertherm este gândită pentru ateliere mici și mijlocii, cu sisteme portabile alimentate manual sau montate pe mese de tăiere ușoare. Seria XPR, cu tehnologie X-Definition, este destinată tăierii mecanizate industriale de mare precizie, pe grosimi mari de material și în volume ridicate de producție. Complexitatea instalării și cerințele de întreținere cresc semnificativ de la Powermax la XPR."
+        "a": "Seria Powermax de la Hypertherm este gândită pentru ateliere mici și mijlocii, cu sisteme portabile sau montate pe mese de tăiere. Seria XPR, cu tehnologie X-Definition, este destinată tăierii mecanizate industriale de mare precizie, pe grosimi mari de material și în volume ridicate de producție. Complexitatea instalării și cerințele de întreținere cresc semnificativ de la Powermax la XPR."
       },
       {
         "q": "Ce înseamnă XD în codul HPR130XD?",
-        "a": "Sufixul XD din HPR130XD marchează o versiune actualizată a sistemului HyPerformance, cu o tehnologie de consumabile care prelungește durata de viață a duzei și electrodului față de generația anterioară. Numărul 130 indică aproximativ capacitatea curentului de tăiere. Sistemele HPR sunt folosite mai ales în tăierea mecanizată de precizie, unde calitatea muchiei tăiate contează la fel de mult ca viteza."
+        "a": "Sufixul XD din HPR130XD face parte din denumirea sistemelor HyPerformance (HPRXD); semnificația exactă a sufixului se confirmă din documentația producătorului. Numărul 130 indică aproximativ capacitatea curentului de tăiere. Sistemele HPR sunt folosite mai ales în tăierea mecanizată de precizie, unde calitatea muchiei tăiate contează la fel de mult ca viteza."
       },
       {
         "q": "Livrați sisteme de tăiere cu plasmă Hypertherm în România?",
@@ -1202,13 +1198,13 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
       },
       {
         "q": "Ce este sistemul MAXPRO200 de la Hypertherm?",
-        "a": "MAXPRO200 este un sistem de tăiere și găurire cu plasmă orientat spre aplicații industriale, unde se cere atât viteză de tăiere, cât și capacitate de a găuri direct în tablă groasă fără operații suplimentare. Este poziționat între gamele Powermax portabile și sistemele XPR de mare capacitate, oferind un compromis pentru ateliere de fabricație medie. Alegerea corectă depinde de grosimea materialelor procesate."
+        "a": "MAXPRO200 este un sistem de 200 A pentru tăiere și canelare cu plasmă, automatizate sau manuale, destinat aplicațiilor de capacitate mare. Alegerea corectă depinde de grosimea materialelor procesate."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://hypertherm.com/en/products/","publisher":"Hypertherm","accessed":"2026-09-25"},
       { title: "Hypertherm - Plasma Cutting Systems", url: "https://hypertherm.com", publisher: "Hypertherm, Inc.", accessed: "2026-09-22" },
@@ -1222,21 +1218,21 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
     headquarters: "Hamburg, Germania",
     overview: `FAFNIR este un producător german de senzori și sisteme de monitorizare a nivelului pentru rezervoare, cu sediul la Hamburg. Compania dezvoltă echipamente pentru măsurarea nivelului, detectarea scurgerilor și gestionarea combustibilului în rezervoare de stocare, folosite în principal în industria petrolieră, chimică și farmaceutică. Din gama FAFNIR putem oferta la comandă senzori de nivel, sisteme de detectare a scurgerilor și echipamente de management al combustibilului, pentru stații de distribuție și depozite industriale.
 
-Gama include senzorul de nivel VISY-X, tija flexibilă VISY-Stick Flex, detectorul de scurgeri SECON-X, sistemul de management al combustibilului COMS, sistemul de recuperare a vaporilor VAPORIX, senzorul TORRIX pentru rezervoare înalte, comutatoarele de nivel LS 300 și LS 500, și transmisia radio VISY-RF pentru citirea de la distanță a datelor. Producția e certificată ISO 9001, ISO 14001 și ISO 45001, plus certificare ATEX de asigurare a calității, iar compania e membră în asociațiile de profil CECOD și FEF.
+Gama include sistemul de măsurare a nivelului VISY-X, sonda flexibilă VISY-Stick Flex, platforma de colectare a datelor și monitorizare la distanță SECON-X, sistemul de măsurare continuă a nivelului pentru separatoare de ulei COMS, sistemul VAPORIX pentru conformitatea cu reglementările de recuperare a vaporilor, senzorii personalizabili TORRIX pentru aplicații speciale de proces, sistemul de prevenire a supraumplerii LS 300 și LS 500, și sistemul wireless VISY-RF pentru citirea de la distanță a datelor. Producția e certificată ISO 9001, ISO 14001 și ISO 45001, plus certificare ATEX de asigurare a calității, iar compania e membră în asociațiile de profil CECOD și FEF.
 
 Pentru piața din România, FAFNIR are sens la stații de distribuție carburanți, depozite petroliere sau instalații chimice unde monitorizarea nivelului din rezervor trebuie să fie precisă, certificată pentru zone cu risc de explozie și conectată la un sistem central de gestiune a stocurilor.`,
     whyChoose: [
-      "Gamă dedicată exclusiv monitorizării de nivel și gestiunii rezervoarelor de combustibil",
+      "Gamă dedicată monitorizării nivelului și gestiunii rezervoarelor de combustibil",
       "Certificare ATEX de asigurare a calității, relevantă pentru zone cu risc de explozie",
-      "Sisteme complete: senzor de nivel, detecție scurgeri, recuperare vapori și transmisie radio",
+      "Sisteme pentru stații de distribuție: măsurare de nivel, monitorizare la distanță, conformitate la recuperarea vaporilor și transmisie wireless",
       "Certificări de management ISO 9001, ISO 14001 și ISO 45001 pentru producție",
       "Membru al asociațiilor de profil CECOD și FEF pentru echipamente de rezervor"
     ],
     keyProducts: [
       { name: "Senzor de Nivel VISY-X", description: "Senzor pentru măsurarea continuă a nivelului de combustibil în rezervoare de stocare, folosit pentru gestiunea stocurilor și detectarea variațiilor neobișnuite de volum. Aplicație tipică: stații de distribuție carburanți sau depozite de combustibil. Pentru ofertă, clientul trebuie să precizeze adâncimea rezervorului și tipul de combustibil monitorizat." },
-      { name: "Detector de Scurgeri SECON-X", description: "Sistem de detectare a scurgerilor pentru rezervoare subterane sau suprateran, gândit să semnaleze pierderile de combustibil înainte să devină un incident de mediu major. Aplicație tipică: monitorizarea continuă a integrității rezervoarelor la stații de distribuție. Clientul trebuie să precizeze tipul de rezervor (subteran sau suprateran) și volumul acestuia." },
-      { name: "Sistem de Management al Combustibilului COMS", description: "Platformă pentru centralizarea datelor de nivel, livrări și consum de combustibil din mai multe rezervoare, utilă operatorilor cu rețele de stații de distribuție. Aplicație tipică: gestiunea stocurilor la nivel de rețea pentru mai multe puncte de distribuție. Pentru ofertă, e nevoie de numărul de rezervoare monitorizate și tipul de conectivitate dorit." },
-      { name: "Senzor TORRIX pentru Rezervoare Înalte", description: "Senzor de nivel dedicat rezervoarelor de mare înălțime, unde tehnologiile clasice de măsurare pot pierde precizie pe distanțe lungi. Aplicație tipică: depozite petroliere cu rezervoare de capacitate mare. Clientul trebuie să precizeze înălțimea rezervorului și fluidul monitorizat." }
+      { name: "Platformă SECON-X de Monitorizare la Distanță", description: "Platformă de colectare a datelor și monitorizare la distanță pentru stații de distribuție, cu funcții de alarmă și de identificare a scurgerilor, a stocului redus și a datelor de livrare, accesibilă de la distanță prin orice dispozitiv conectat la internet. Aplicație tipică: monitorizarea rezervoarelor subterane sau supraterane la stații de distribuție. Clientul trebuie să precizeze tipul de rezervor (subteran sau suprateran) și volumul acestuia." },
+      { name: "Sistem COMS pentru Separatoare de Ulei", description: "Sistem de măsurare continuă a nivelului pentru separatoare de ulei. Aplicație tipică: monitorizarea separatoarelor de ulei. Pentru ofertă, e nevoie de tipul separatorului și de tipul de conectivitate dorit." },
+      { name: "Senzori TORRIX pentru Aplicații Speciale de Proces", description: "Senzori de nivel personalizabili pentru aplicații speciale de automatizare de proces. Clientul trebuie să precizeze aplicația, dimensiunile rezervorului și fluidul monitorizat." }
     ],
     industries: [
       "Petrol și distribuție carburanți — monitorizare nivel și detecție scurgeri la stații și depozite",
@@ -1246,7 +1242,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu", "ISO 45001 — sănătate și securitate ocupațională", "ATEX Quality Assurance — pentru echipamente în zone cu risc de explozie"],
     infinitrade: `Pentru FAFNIR nu avem date proprii de stoc pe fiecare senzor sau sistem din gamă — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Aducem echipamentele FAFNIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model de senzor. Pentru o ofertă corectă, trimiteți tipul de rezervor, adâncimea sau înălțimea acestuia și fluidul monitorizat, sau codul exact al senzorului dacă îl cunoașteți. Prețul final îl transmitem după ce verificăm punctual la furnizor stocul disponibil pentru senzorul cerut.`,
-    limitation: "Nu oferim integrarea software completă a sistemului COMS cu platforme terțe de gestiune a stocurilor — aceasta necesită suport tehnic direct de la producător pentru fiecare caz.",
+    limitation: "Nu oferim integrarea software completă a sistemelor FAFNIR cu platforme terțe de gestiune a stocurilor — aceasta necesită suport tehnic direct de la producător pentru fiecare caz.",
     productCodes: [
       {
         "code": "VISY-X",
@@ -1258,7 +1254,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       },
       {
         "code": "VISY-TD",
-        "description": "Afișaj pentru șoferul cisternei la livrarea combustibilului"
+        "description": "Componentă din sistemul VISY; funcția exactă se confirmă din fișa tehnică"
       },
       {
         "code": "VISY-Stick-Reed",
@@ -1266,7 +1262,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       },
       {
         "code": "SECON-X",
-        "description": "Detector de scurgeri cu monitorizare criptată în timp real"
+        "description": "Platformă de colectare a datelor și monitorizare la distanță, cu transmisie criptată"
       },
       {
         "code": "COMS",
@@ -1278,7 +1274,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       },
       {
         "code": "O2-PID",
-        "description": "Senzor pentru monitorizarea calității aerului la stațiile de carburant"
+        "description": "Senzor din gama FAFNIR pentru stații de distribuție carburanți; aplicația exactă se confirmă din fișa tehnică"
       },
       {
         "code": "TORRIX",
@@ -1300,7 +1296,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       },
       {
         "q": "Ce diferență este între SECON-X și sistemul COMS de la FAFNIR?",
-        "a": "SECON-X este un detector de scurgeri cu transmisie criptată a datelor, gândit pentru monitorizarea permanentă a rezervoarelor subterane și a conductelor asociate. COMS este, în schimb, un sistem de măsurare continuă a nivelului dedicat separatoarelor de ulei, unde interesează mai degrabă cantitatea de hidrocarburi acumulată decât o eventuală scurgere. Cele două rezolvă probleme diferite și pot funcționa în paralel."
+        "a": "SECON-X este o platformă de colectare a datelor și monitorizare la distanță pentru stații de distribuție, cu transmisie criptată a datelor și funcții de identificare a scurgerilor. COMS este, în schimb, un sistem de măsurare continuă a nivelului dedicat separatoarelor de ulei, unde interesează cantitatea de hidrocarburi acumulată. Cele două rezolvă probleme diferite."
       },
       {
         "q": "Livrați echipamente FAFNIR de monitorizare a rezervoarelor în România?",
@@ -1313,8 +1309,8 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"FAFNIR GmbH homepage","url":"https://www.fafnir.com","publisher":"FAFNIR GmbH","accessed":"2026-09-25"},
       { title: "FAFNIR - Level Measurement and Leak Detection", url: "https://www.fafnir.com", publisher: "FAFNIR GmbH", accessed: "2026-09-22" },
@@ -1325,32 +1321,32 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
   inor: {
     name: "INOR",
     founded: 1939,
-    overview: `INOR este un producător suedez de transmițătoare de temperatură pentru industria de proces, activ din 1939 și cunoscut pentru introducerea primului transmițător montat direct pe cap de senzor, în 1974. Compania produce transmițătoare universale, izolatoare de semnal și unități de alarmă pentru monitorizarea temperaturii în instalații industriale. Din gama INOR putem oferta la comandă transmițătoare de temperatură, izolatoare de semnal și accesorii pentru integratori de instrumentație de proces.
+    overview: `INOR este un producător suedez de transmițătoare de temperatură pentru industria de proces, activ din 1939. Compania produce transmițătoare universale, izolatoare de semnal și unități de alarmă pentru monitorizarea temperaturii în instalații industriale. Din gama INOR putem oferta la comandă transmițătoare de temperatură, izolatoare de semnal și accesorii pentru integratori de instrumentație de proces.
 
-Gama include transmițătorul universal IPAQ 530, cu comunicare HART și conectivitate wireless, transmițătorul wireless IPAQ 330, transmițătorul digital OEM202 pentru integrare la producători de echipamente, familia de izolatoare IsoPAQ, și transmițătoarele APAQ C130 și APAQ R130. Produsele sunt certificate ATEX și SIL2, compatibile HART 7 și, pentru piața americană și canadiană, certificate FM — un nivel relevant pentru instalații din industria de proces cu cerințe stricte de siguranță.
+Gama include transmițătorul universal IPAQ 530, cu comunicare HART și conectivitate wireless, transmițătorul IPAQ 330, cu conectivitate NFC și Bluetooth, transmițătorul digital OEM202 pentru integrare la producători de echipamente, familia de izolatoare IsoPAQ, și transmițătoarele APAQ C130 și APAQ R130. IPAQ 530 este compatibil HART 7, iar variantele IPAQ C530X și IPAQ R530X au aprobare FM; certificările ATEX și SIL ale fiecărui model se confirmă din fișa tehnică — un nivel relevant pentru instalații din industria de proces cu cerințe stricte de siguranță.
 
-Pentru piața din România, INOR are sens la instalații de proces din chimie, petrochimie sau energie unde ai nevoie de transmițătoare de temperatură certificate pentru zone cu risc de explozie, cu opțiune de integrare wireless în sisteme de monitorizare existente.`,
+Pentru piața din România, INOR are sens la instalații de proces din chimie, petrochimie sau energie unde este nevoie de transmițătoare de temperatură cu comunicare HART și configurare locală prin NFC și Bluetooth; certificările pentru zone cu risc de explozie se confirmă pe model.`,
     whyChoose: [
-      "Peste 85 de ani de specializare exclusivă pe transmițătoare de temperatură pentru industrie",
-      "Transmițător introdus ca prim model montat direct pe cap de senzor, în 1974",
-      "Certificare ATEX și SIL2 pentru instalații cu cerințe stricte de siguranță",
-      "Opțiuni de conectivitate wireless pentru monitorizare la distanță (seria IPAQ)",
+      "Peste 85 de ani de experiență în măsurarea temperaturii pentru industrie",
+      "Transmițătoare pentru montaj pe cap de senzor și pe șină DIN, în gamele IPAQ și APAQ",
+      "Aprobare FM pentru IPAQ C530X și R530X; certificările ATEX și SIL se confirmă pe model",
+      "Conectivitate NFC și Bluetooth pentru configurare locală (IPAQ 330 și IPAQ 530)",
       "Transmițător digital OEM202 dedicat integrării la alți producători de echipamente"
     ],
     keyProducts: [
-      { name: "Transmițător Universal IPAQ 530", description: "Transmițător de temperatură cu comunicare HART și conectivitate wireless, pentru monitorizarea continuă a temperaturii în instalații de proces. Aplicație tipică: măsurarea temperaturii pe conducte sau rezervoare din instalații chimice ori petrochimice. Pentru ofertă, clientul trebuie să precizeze tipul de senzor conectat (termocuplu sau RTD) și dacă are nevoie de comunicare wireless." },
-      { name: "Transmițător Wireless IPAQ 330", description: "Transmițător cu conectivitate wireless pentru puncte de măsurare unde cablarea ar fi costisitoare sau impracticabilă — echipamente mobile sau zone greu accesibile ale unei instalații. Aplicație tipică: monitorizare de temperatură în puncte izolate ale unei fabrici. Clientul trebuie să precizeze distanța până la stația de recepție și tipul de senzor folosit." },
+      { name: "Transmițător Universal IPAQ 530", description: "Transmițător de temperatură cu comunicare HART 7 și conectivitate NFC și Bluetooth, pentru monitorizarea continuă a temperaturii în instalații de proces. Aplicație tipică: măsurarea temperaturii pe conducte sau rezervoare din instalații chimice ori petrochimice. Pentru ofertă, clientul trebuie să precizeze tipul de senzor conectat (termocuplu sau RTD) și dacă are nevoie de conectivitate NFC sau Bluetooth." },
+      { name: "Transmițător IPAQ 330 cu NFC și Bluetooth", description: "Transmițător de temperatură cu conectivitate NFC și Bluetooth pentru configurare locală. Aplicație tipică: măsurarea temperaturii în instalații de proces. Clientul trebuie să precizeze tipul de senzor folosit și tipul de montaj dorit." },
       { name: "Transmițător Digital OEM202", description: "Transmițător digital dedicat integrării în echipamente ale altor producători, pentru firme care încorporează măsurarea de temperatură într-un produs propriu. Aplicație tipică: integrare în panouri de comandă sau echipamente de proces fabricate de un OEM. Pentru ofertă, e nevoie de specificațiile de interfață electrică necesare integrării." },
       { name: "Familia de Izolatoare IsoPAQ", description: "Izolatoare de semnal pentru separarea galvanică a circuitelor de măsurare, folosite acolo unde interferențele electrice ar afecta precizia citirii de temperatură. Aplicație tipică: instalații cu multe echipamente electrice unde zgomotul electric poate perturba semnalul senzorilor. Clientul trebuie să precizeze tipul de semnal de intrare și ieșire necesar." }
     ],
     industries: [
-      "Chimie și petrochimie — transmițătoare certificate ATEX pentru zone cu risc de explozie",
+      "Chimie și petrochimie — transmițătoare de temperatură pentru instalații de proces",
       "Energie — monitorizare de temperatură pentru instalații de proces",
       "Industrie de proces (general) — transmițătoare universale pentru conducte și rezervoare",
       "Piețe OEM — transmițătoare digitale pentru integrare în echipamente terțe"
     ],
-    certifications: ["ATEX — pentru instalații cu risc de explozie", "SIL2 — nivel de integritate de siguranță", "Compatibil HART 7", "Certificat FM — pentru piețele SUA și Canada"],
-    infinitrade: `Pentru INOR nu avem date proprii de stoc pe fiecare model de transmițător — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere, per comandă. Aducem transmițătoarele INOR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare variantă. Pentru o ofertă corectă, trimiteți codul exact al transmițătorului sau, dacă nu-l aveți, tipul de senzor conectat, dacă aveți nevoie de conectivitate wireless și certificările necesare pentru zona de instalare. Comunicăm prețul doar după ce confirmăm la furnizor disponibilitatea exactă a transmițătorului cerut.`,
+    certifications: ["ATEX — se confirmă pe model, din fișa tehnică", "SIL — se confirmă pe model, din fișa tehnică", "Compatibil HART 7", "Certificat FM — pentru piețele SUA și Canada"],
+    infinitrade: `Pentru INOR nu avem date proprii de stoc pe fiecare model de transmițător — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere, per comandă. Aducem transmițătoarele INOR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare variantă. Pentru o ofertă corectă, trimiteți codul exact al transmițătorului sau, dacă nu-l aveți, tipul de senzor conectat, dacă aveți nevoie de conectivitate NFC sau Bluetooth și certificările necesare pentru zona de instalare. Comunicăm prețul doar după ce confirmăm la furnizor disponibilitatea exactă a transmițătorului cerut.`,
     limitation: "Nu confirmăm compatibilitatea directă a transmițătoarelor INOR cu sisteme SCADA deja instalate fără o verificare tehnică punctuală a protocolului de comunicare folosit.",
     productCodes: [
       {
@@ -1401,7 +1397,7 @@ Pentru piața din România, INOR are sens la instalații de proces din chimie, p
       },
       {
         "q": "Ce reprezintă seria APAQ la INOR?",
-        "a": "Seria APAQ reunește transmițătoare de temperatură cu funcții de bază de la INOR, disponibile atât în variantă montată pe cap (APAQ C130), cât și pe șină (APAQ R130). Sunt gândite pentru aplicații unde nu este nevoie de configurare avansată sau de comunicație digitală complexă, ci de o conversie simplă și fiabilă a semnalului de la senzor la un semnal standard, ușor de citit de automat."
+        "a": "Seria APAQ reunește transmițătoare de temperatură cu funcții de bază de la INOR, disponibile atât în variantă montată pe cap (APAQ C130), cât și pe șină (APAQ R130). Detaliile funcționale ale fiecărui model se confirmă din fișa tehnică a producătorului."
       },
       {
         "q": "Livrați transmițătoare INOR în România?",
@@ -1409,13 +1405,13 @@ Pentru piața din România, INOR are sens la instalații de proces din chimie, p
       },
       {
         "q": "Ce date sunt necesare pentru o ofertă la un transmițător IPAQ?",
-        "a": "Pentru o ofertă corectă la un transmițător IPAQ, este util să trimiteți tipul de senzor conectat (de exemplu RTD sau termocuplu), domeniul de temperatură sau presiune de măsurat, tipul de montaj dorit - pe cap de senzor sau pe șină DIN - și eventualele cerințe de certificare pentru zone cu risc de explozie. Aceste detalii permit alegerea corectă între seriile APAQ și IPAQ."
+        "a": "Pentru o ofertă corectă la un transmițător IPAQ, este util să trimiteți tipul de senzor conectat (de exemplu RTD sau termocuplu), domeniul de temperatură de măsurat, tipul de montaj dorit - pe cap de senzor sau pe șină DIN - și eventualele cerințe de certificare pentru zone cu risc de explozie. Aceste detalii permit alegerea corectă între seriile APAQ și IPAQ."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       {"title":"Products","url":"https://www.inor.com/products/","publisher":"INOR","accessed":"2026-09-25"},
       { title: "INOR - Temperature Transmitters", url: "https://www.inor.com", publisher: "INOR Process Automation AB", accessed: "2026-09-22" },

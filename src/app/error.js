@@ -36,7 +36,7 @@ export default function Error({ error, reset }) {
         <p style={{ fontSize: '4rem', fontWeight: 600, margin: 0, color: '#1a5276', lineHeight: 1 }}>500</p>
         <h1 style={{ fontSize: '1.5rem', margin: '0.75rem 0 1rem' }}>A apărut o eroare temporară</h1>
         <p style={{ color: '#636363', lineHeight: 1.6, margin: 0 }}>
-          Ne pare rău. Poți reîncerca sau ne poți contacta direct la{' '}
+          Ne pare rău. Puteți reîncerca sau ne puteți contacta direct la{' '}
           <a href="tel:+40371232404" style={{ color: '#1a5276', fontWeight: 600 }}>0371 232 404</a>.
         </p>
         <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', marginTop: '1.5rem', flexWrap: 'wrap' }}>

@@ -3,35 +3,35 @@ export const brandContentBatch7 = {
     founded: '1871',
     headquarters: 'Hanovra, Germania',
     employees: '190,000+',
-    overview: `De peste 150 de ani, Continental nu înseamnă doar anvelope - divizia de Curele de Transmisie (ContiTech) produce cele mai rezistente și eficiente soluții pentru transferul puterii în industrie. Gama include curele V clasice, curele dințate de înaltă precizie și curele plate pentru aplicații speciale, toate dezvoltate cu tehnologie avansată de compoundare a cauciucului și armare cu fibre de sticlă sau aramidă.
+    overview: `De peste 150 de ani, Continental nu înseamnă doar anvelope - divizia de Curele de Transmisie (ContiTech) oferă soluții pentru transferul puterii în industrie. Gama include curele trapezoidale (V), curele dințate (din cauciuc și din poliuretan), curele Multi-V și curele plate Polyflat, conform site-ului producătorului.
 
-Experiența Continental în materiale de înaltă performanță din industria auto se reflectă direct în produsele industriale: rezistență la temperaturi extreme (-40°C până la +120°C), vibrații reduse, consum energetic mai mic și durată de viață prelungită. Liniile de producție automatizate din Germania asigură toleranțe stricte și calitate constantă pentru fiecare curea.
+Datele tehnice (domeniu de temperatură, turații, lungimi disponibile) diferă de la o familie de curele la alta și se confirmă pe cod, din documentația ContiTech.
 
-Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, pompe industriale, ventilatoare, compresoare, echipamente agricole și linii de producție. Rulează în condiții extreme - de la frigul arctic din instalațiile de refrigerare la căldura cuptoarelor industriale - și rezistă ani de zile fără întreținere. Când ai nevoie de transmisie fiabilă care nu te lasă, ai nevoie de Continental.`,
+Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, pompe industriale, ventilatoare, compresoare, echipamente agricole și linii de producție. `,
     whyChoose: [
-      'Tehnologie ContiTech - Compounduri speciale de cauciuc rezistent la ulei, ozon și uzură, dezvoltate în laboratoarele proprii din Germania',
-      'Eficiență energetică superioară - Pierderi prin frecare cu până la 30% mai mici față de curelele standard, economii directe la factura de energie',
+      'Gamă ContiTech - curele trapezoidale, dințate, Multi-V și plate, conform site-ului producătorului',
+      'Variante performante - pentru Conti SilentSync producătorul indică o creștere a puterii transmise de până la 80%',
       'Gamă completă de profile - De la curele V clasice (SPZ, SPA, SPB, SPC) la curele dințate (HTD, AT, T) și curele plate speciale',
-      'Rezistență la temperaturi extreme - Funcționare fără probleme între -40°C și +120°C, testare riguroasă în condiții climatice variate',
-      'Durată de viață extinsă - Armare cu fibre aramidice sau sticlă de înaltă rezistență, peste 10 ani în aplicații industriale moderate',
-      'Vibrații și zgomot reduse - Profile optimizate aerodinamic și material amortizant pentru transmisii liniștite și precise'
+      'Domeniu de temperatură - depinde de familia de curele și se confirmă pe cod',
+      'Documentație - fișe tehnice și software de selecție publicate de producător',
+      'Conti Synchromotion - curea dințată din poliuretan pentru transmisii orizontale silențioase, cu vibrații reduse'
     ],
     keyProducts: [
       {
         name: 'Curele V Clasice ContiTech',
-        description: `Gama de curele V clasice Continental acoperă toate profilele standard din industrie: SPZ (lățime 10mm), SPA (13mm), SPB (17mm) și SPC (22mm). Fiecare curea este armată cu fibre sintetice de înaltă rezistență și acoperită cu cauciuc special tratat pentru aderență maximă. Sunt disponibile lungimi de la 630mm până la 5000mm, iar alte dimensiuni pot fi comandate specific pentru aplicație. Ideal pentru transmisii cu raport de reducere mediu, ventilatoare, pompe centrifuge și mașini-unelte unde este nevoie de fiabilitate fără complicații. Rezistă la ulei, praf și temperaturi până la 80°C în condiții normale de lucru.`
+        description: `Gama de curele V clasice Continental acoperă toate profilele standard din industrie: SPZ (lățime 10mm), SPA (13mm), SPB (17mm) și SPC (22mm). Continental oferă curele V în variantele wrapped (cu înveliș), raw-edge (cu margine brută) și pentru viteză variabilă, pentru transmisii cu alunecare admisă. Profilele, lungimile disponibile, rezistența la ulei și limitele de temperatură depind de tipul curelei și se confirmă pe cod, din documentația producătorului.`
       },
       {
-        name: 'Curele Dințate Synchrobelt HTD',
-        description: `Pentru sincronizare precisă și transmisie fără alunecare, curelele dințate HTD (High Torque Drive) sunt o opțiune premium. Pas metric de 3mm, 5mm, 8mm sau 14mm, armare din fire de sticlă pentru alungire minimă (sub 0.3% în viață), profil dinți optimizat pentru distribuție uniformă a sarcinii. Se folosesc pe linii de ambalare unde produsul trebuie să ajungă exact la timp, pe imprimante industriale unde fiecare milimetru contează, pe sisteme CNC unde precizia este esențială. Rulează fără lubrifiere, fără întreținere, fără probleme - chiar și la 5000 rpm. Rezistență la 120°C și la contactul accidental cu ulei sau lichid de răcire.`
+        name: 'Curele Dințate (Synchronous Belts)',
+        description: `Continental oferă curele dințate din cauciuc și din poliuretan pentru transmisii sincrone, de la aplicații casnice până la cele grele, conform site-ului ContiTech. Profilele (pasul), armătura, turațiile admise și limitele de temperatură diferă pe familie și se confirmă pe cod, din documentația producătorului.`
       },
       {
         name: 'Curele V-Ribbed Poly-V',
-        description: `Curelele multi-V (Poly-V) Continental combină flexibilitatea curelelor plate cu aderența curelelor V: profil dinți longitudinal în V, armare din polyester, flexibilitate sporită pentru raze mici de încovoiere. Perfecte pentru transmisii compacte unde spațiul e limitat și ai nevoie de raport de transmisie mare - compresoar cu turație ridicată, pompe cu sarcină variabilă, ventilatoare industriale cu porniri/opriri frecvente. Rezistență la 100°C continuu, vibrații aproape zero datorită designului echilibrat, durată de viață cu 50% mai mare decât curelele V clasice la aceleași condiții de lucru.`
+        description: `Curelele Multi-V (Poly-V) sunt destinate transmisiilor cu roți de diametru mic, în care alunecarea este permisă, conform site-ului producătorului. Profilul, lungimea și datele tehnice se confirmă pe cod, din documentația ContiTech.`
       },
       {
         name: 'Curele Plate pentru Aplicații Speciale',
-        description: `Gama de curele plate Continental acoperă și aplicații unde curelele clasice nu se potrivesc: curele de transport ușor pentru conveiere de produse alimentare (cauciuc food-grade conform FDA), curele plate de mare viteză pentru mașini de tâmplărie (până la 40 m/s), curele speciale antistatice pentru industria electronică. Fabricate din straturi multiple de pânză sintetică impregnată cu cauciuc, grosimi de la 2mm până la 15mm, lățimi de la 20mm până la 1000mm. Jonctionare la comandă prin vulcanizare la cald sau cleme metalice, în funcție de aplicație.`
+        description: `Curelele plate Polyflat oferă, conform producătorului, flexibilitate și aderență mai mari și permit transmisii compacte cu roți de diametru mai mic decât la curelele plate clasice cu armare din oțel. Dimensiunile, materialele și variantele speciale se confirmă pe cod, din documentația ContiTech.`
       }
     ],
     certifications: [
@@ -40,9 +40,9 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       'ISO 45001:2018 - Sănătate și securitate ocupațională',
       'RoHS - Produse fără substanțe periculoase',
       'REACH - Conformitate substanțe chimice UE',
-      'FDA Food Grade - Curele pentru industria alimentară',
-      'ATEX - Curele antistatice pentru zone cu pericol de explozie',
-      'TÜV Rheinland - Testare independentă produse'
+      'Conformitate alimentară - se confirmă pe tipul de curea, din fișa tehnică',
+      'Variante antistatice - de exemplu Conti Synchrochain Supreme, conform site-ului producătorului',
+      'Testare independentă - se confirmă pe produs, din documentație'
     ],
     industries: [
       'Industria alimentară și băuturi',
@@ -56,7 +56,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       'Transport și logistică',
       'Industria auto - producție componente'
     ],
-    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24–72 h pentru comenzile onorate din aprovizionarea curentă și cu 1–4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimite-ne codul de profil (de exemplu SPA, HTD 8M) și lungimea exactă necesară - revenim rapid cu preț și termen confirmat.`,
+    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24–72 h pentru comenzile onorate din aprovizionarea curentă și cu 1–4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimiteți-ne codul de profil și lungimea exactă necesară, iar noi revenim cu oferta și termenul confirmat.`,
     limitation: 'Nu putem confirma operațiuni de vulcanizare la cald sau jonctionare pe loc pentru curele speciale - livrăm produsul, nu service-ul de montaj.',
     sources: [
       {"title":"Drive Belts – Power Transmission Industrial Applications","url":"https://www.continental-industry.com/en/solutions/power-transmission/industrial-applications/drive-belts","publisher":"Continental AG (ContiTech)","accessed":"2026-09-22"},
@@ -98,7 +98,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       },
       {
         "code": "Conti Synchromotion",
-        "description": "Curea dințată cu autoaliniere pentru funcționare silențioasă"
+        "description": "Curea dințată din poliuretan, fără sfârșit, pentru transmisii orizontale silențioase, cu vibrații reduse"
       },
       {
         "code": "Conti SilentSync",
@@ -124,47 +124,47 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       },
       {
         "q": "Ce trebuie să masor înainte de a cere o ofertă pentru o curea Continental?",
-        "a": "Aveți nevoie de profilul curelei, de exemplu trapezoidal clasic sau dintat, de lungimea exterioară sau de numărul de dinți, și de lățimea secțiunii transversale măsurată pe curea uzată sau pe desenul tehnic al mașinii. Este util să menționați și puterea motorului și turația de lucru, pentru a confirmă că profilul ales suportă sarcină. Cu aceste date identificăm variantă Continental echivalentă din gamă actuală."
+        "a": "Aveți nevoie de profilul curelei, de exemplu trapezoidal clasic sau dințat, de lungimea exterioară sau de numărul de dinți, și de lățimea secțiunii transversale măsurată pe curea uzată sau pe desenul tehnic al mașinii. Este util să menționați și puterea motorului și turația de lucru, pentru a confirma că profilul ales suportă sarcina. Cu aceste date identificăm varianta Continental echivalentă din gama actuală."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'daikin': {
     founded: '1924',
     headquarters: 'Osaka, Japonia',
     employees: '88,000+',
-    overview: `Daikin este unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează clădiri mari, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii controlate în spitale, datacentere și camere curate. Producătorul deține fabrici proprii de compresoare, gaz refrigerent R-32 eco-friendly propriu și software de control propriu pentru integrare BMS.
+    overview: `Daikin este unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează clădiri mari, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii controlate în spitale, datacentere și camere curate. Gama include sisteme VRV, chillere, unități de tratare a aerului și soluții de control; unele sisteme folosesc agentul frigorific R-32, conform site-ului producătorului.
 
-Tehnologia producătorului de inverter cu magneți permanenți reduce consumul energetic față de sistemele on/off tradiționale. Compresoarele swing și scroll din gamă au eficiență ridicată - COP real de peste 4.0 chiar și la -20°C exterior. Daikin produce intern componentele cheie - de la schimbătorul de căldură microcanal până la circuitele electronice de control - astfel încât fiecare componentă e optimizată pentru ansamblul final.
+Tehnologia inverter reduce consumul de energie față de sistemele on/off; pentru chillere, producătorul indică o reducere de până la 25% a consumului de energie, a costurilor de funcționare și a emisiilor de CO2. Datele de eficiență se confirmă pe model, din documentația oficială.
 
-Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale. Sistemele Daikin sunt proiectate pentru funcționare continuă 24/7/365.`,
+Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale.`,
     whyChoose: [
-      'Tehnologie VRV originală - Inventatorii sistemelor cu refrigerent variabil din 1982, peste 40 de ani de evoluție continuă și brevete exclusive',
-      'Eficiență SEER > 7.0 - clasa A+++ eficiență energetică, economii semnificative la energie electrică',
-      'Funcționare la -25°C exterior - Tehnologie Hot Gas Injection pentru încălzire în iernile severe, capacitate 100% chiar și la -20°C',
-      'Control inteligent BMS - Integrare completă în sisteme Building Management prin Modbus, BACnet, LonWorks sau cloud Daikin',
-      'Fiabilitate industrială 20+ ani - Compresoar cu rulmenți ceramici și magneți neodim, testate pentru 100,000 ore de funcționare continuă',
-      'Service rapid și piese de schimb - Rețea de service tehnic și acces la piese de schimb Daikin, cu coordonare promptă pentru intervenții'
+      'Gama VRV - sisteme cu debit variabil de agent frigorific pentru clădiri comerciale, inclusiv variante cu recuperare de căldură',
+      'Eficiență energetică - valorile SEER și clasa se confirmă pe model, din documentația producătorului',
+      'Funcționare la temperaturi exterioare scăzute - limitele de funcționare se confirmă pe model',
+      'Control și monitorizare - Daikin Cloud Service permite administrarea la distanță și monitorizarea consumului; protocoalele BMS se confirmă pe model',
+      'Verificare în fabrică - chillerele sunt testate în fabrică, conform politicii „zero defect” a producătorului',
+      'Documentație - cataloage de produs publicate de producător (de exemplu cataloagele VRV pentru profesioniști)'
     ],
     keyProducts: [
       {
         name: 'Sisteme VRV IV Heat Recovery',
-        description: `Sistemul VRV IV cu recuperare de căldură este o soluție de vârf în climatizare comercială: o singură unitate exterioară poate servi până la 64 de unități interioare, fiecare zonă cu temperatura ei independentă. Funcția Heat Recovery înseamnă că poți încălzi biroul nord și răci sala server în același timp, fără să arunci căldura afară - o iei din zona caldă și o muți în zona rece. Economie la energie, mai ales iarna când serverele produc căldură gratis pentru încălzit restul clădirii. Capacități de la 8 kW până la 135 kW per unitate exterioară, combinabile în sisteme de 500+ kW pentru clădiri mari. Eficiență SEER de 7.52, conform producătorului.`
+        description: `Sistemul VRV IV cu recuperare de căldură permite, conform producătorului, încălzirea unor zone și răcirea altora în același timp, prin mutarea căldurii între zone. Numărul de unități interioare, capacitățile și eficiența sezonieră depind de configurație și se confirmă pe model, din catalogul VRV al producătorului.`
       },
       {
-        name: 'Chillere Răcite cu Aer EWAQ-TZ',
-        description: `Chillerele producătorului răcite cu aer sunt potrivite pentru aplicații industriale unde nu ai turn de răcire sau nu vrei să te complici cu apă: capacități de la 50 kW până la 1400 kW răcire, versiuni reversibile cu pompă de căldură pentru încălzire iarna, compresoar scroll Daikin Swing cu eficiență ridicată. Configurație modulară - dacă ai nevoie de 300 kW, pui 3 module de 100 kW care pot funcționa independent pentru redundanță. Control microprocesor cu touchscreen color, comunicație serială pentru supraveghere de la distanță, alarme predictive care îți spun când să faci service înainte să se strice ceva. Sunt folosite pentru răcire proces în fabrici, climatizare datacenter, aplicații spitale și farmaceutice unde fiabilitatea este esențială.`
+        name: 'Chillere Răcite cu Aer EWA-TZ',
+        description: `Seria EWA/FD/H/S-TZ este, conform site-ului Daikin Europe, o generație de chillere răcite cu aer, cu compresoare cu șurub și inverter, cu agenți frigorifici R-1234ze, R-513A sau R-134a. Producătorul menționează peste 150 de opțiuni de configurare. Capacitățile și variantele se confirmă pe cod, din documentația oficială.`
       },
       {
-        name: 'Unități de Tratare Aer MODULAR L',
-        description: `Unitățile de tratare a aerului modulare MODULAR L sunt construite ca piesele de Lego: fiecare secțiune (filtru, baterie, ventilator, recuperator) e un modul independent care se asamblează la șantier. Înseamnă că poți configura exact ce ai nevoie - de la unități simple cu filtru + baterie până la sisteme complexe cu recuperare de căldură, umidificare, freecooling, filtre HEPA pentru camere curate. Debit de la 500 m³/h până la 100,000 m³/h per unitate, ventilatoare EC cu inverter pentru consum minim la sarcină parțială, schimbătoare de căldură din aluminiu hidrofilic cu eficiență ridicată. Carcasă dublu perete izolată termic și fonic, clasă de etanșeitate L1 conform EN 1886 pentru pierderi minime. Potrivite pentru spitale, laboratoare, săli curate, centre comerciale - oriunde calitatea aerului este critică.`
+        name: 'Unități de Tratare Aer Modulare',
+        description: `Daikin oferă unități de tratare a aerului modulare; site-ul producătorului prezintă seriile Modular R (cu roată de recuperare a căldurii, până la 25.000 m³/h, 10 mărimi) și Modular P (cu schimbător cu plăci, până la 20.000 m³/h, 10 mărimi), pentru montaj în interior sau în exterior. Seria exactă, debitul, clasa de etanșeitate și ventilatoarele se confirmă pe cod, din documentația producătorului.`
       },
       {
-        name: 'Sisteme Sky Air Advance',
-        description: `Linia Sky Air este soluția Daikin pentru aplicații comerciale mici și medii: magazine, restaurante, birouri de 50-300 mp. Unități exterioare compacte cu inverter, capacități de la 5 kW la 15 kW, posibilitate de conectare până la 9 unități interioare pe o singură exterioară. Versiuni caseta 4-way (60x60cm), duct joasă presiune, perete sau pardoseală. Avantajul e că instalezi rapid, cablaj simplu prin BUS dedicat, telecomandă wireless cu display, funcție autodiagnosticare pentru troubleshooting ușor. Eficiență clasa A++ pentru răcire și încălzire, funcționare silențioasă sub 40 dB(A) la unitatea interioară. Ideale când ai spații multiple care trebuie climatizate independent dar vrei sistem unificat pentru management.`
+        name: 'Sisteme Sky Air',
+        description: `Sky Air este, conform producătorului, soluția Daikin pentru spații comerciale mici și medii (magazine, restaurante, hoteluri, birouri), cu eficiență sezonieră A++ la încălzire și răcire. Unitățile interioare includ casete (Round Flow, Fully Flat), unități ascunse în plafon, de perete, suspendate la plafon și de pardoseală. Capacitățile și numărul de unități interioare pe sistem se confirmă pe model.`
       }
     ],
     certifications: [
@@ -189,7 +189,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       'Aeroporturi și stații',
       'Industria farmaceutică'
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru proiecte mai mari. Pentru o ofertă, trimite-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea reală la furnizor și revenim cu preț și termen.`,
+    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru unitățile standard; pentru sisteme complexe și proiecte mari termenul depășește, de regulă, 4 săptămâni. Pentru o ofertă, trimiteți-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea la furnizor și revenim cu oferta și termenul.`,
     limitation: 'Nu oferim configurare software BMS sau punere în funcțiune a sistemelor VRV - acestea rămân în sarcina instalatorului autorizat sau a producătorului.',
     sources: [
       {"title":"Product Group Overview – Daikin Europe","url":"https://www.daikin.eu/en_us/product-group.html","publisher":"Daikin Industries","accessed":"2026-09-22"},
@@ -263,7 +263,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       },
       {
         "code": "Daikin Altherma Temperatura Joasă",
-        "description": "Sistem aer-apa pentru încălzire, răcire și apă caldă menajera"
+        "description": "Sistem aer-apă pentru încălzire, răcire și apă caldă menajeră"
       },
       {
         "code": "Daikin Altherma Temperatura Înaltă",
@@ -277,11 +277,11 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       },
       {
         "q": "Ce este Daikin Altherma și pentru ce se folosește?",
-        "a": "Daikin Altherma este familia de pompe de căldură aer-apa a producătorului, folosită pentru încălzire, răcire și preparare de apă caldă menajera în locuințe și clădiri comerciale. Există variante de temperatură joasă, medie și înaltă, alese în funcție de tipul de emitenti din instalație, calorifere clasice sau încălzire în pardoseala. Varianta HPC este un convector ce se conectează direct la o instalație de încălzire în pardoseala existentă."
+        "a": "Daikin Altherma este familia de pompe de căldură aer-apă a producătorului, folosită pentru încălzire, răcire și preparare de apă caldă menajeră în locuințe și clădiri comerciale. Există variante de temperatură joasă și înaltă, alese în funcție de tipul de emițători din instalație (calorifere clasice sau încălzire în pardoseală). Varianta HPC este un convector cu pompă de căldură ce înlocuiește radiatoarele clasice."
       },
       {
         "q": "Livrați sisteme Daikin în România la comandă?",
-        "a": "Sistemele Daikin sunt aduse pe bază de comandă, conform gamelor publicate de producător, fără un inventar propriu păstrat în avans. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de capacitatea solicitată. Pentru o estimare corectă vă recomandăm să ne trimiteți tipul clădirii, suprafața de climatizat și numărul de zone dorite."
+        "a": "Sistemele Daikin sunt aduse pe bază de comandă, conform gamelor publicate de producător, fără un inventar propriu păstrat în avans. Termenul obișnuit este 1–4 săptămâni la comandă pentru unitățile standard, iar pentru sistemele complexe (VRV, chillere, unități de tratare a aerului) este, de regulă, peste 4 săptămâni. Pentru o estimare corectă vă recomandăm să ne trimiteți tipul clădirii, suprafața de climatizat și numărul de zone dorite."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un sistem Daikin VRV?",
@@ -289,43 +289,43 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dehn': {
     founded: '1910',
     headquarters: 'Neumarkt, Germania',
     employees: '2,000+',
-    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. DEHN este specialist în paratrăsnete active și pasive, descărcătoare de supratensiune pentru toate nivelurile de tensiune și sisteme complete de protecție împotriva efectelor electromagnetice (LEMP). Tehnologia producătorului german înseamnă produse testate în laborator propriu cu generatoare de impulsuri de până la 400 kA, conform informațiilor publicate de producător.
+    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. DEHN este o companie germană de familie, specializată în protecție împotriva trăsnetului și legare la pământ, protecție la supratensiuni și echipament de securitate pentru lucrări electrice, conform site-ului producătorului.
 
-Fiecare descărcător DEHN e proiectat pentru milioane de operații de comutație și mii de impulsuri de trăsnet pe durata de viață. Gama folosește tehnologie sparkgap cu gaz, varistoare oxid metalic de înaltă energie și diode supresor ultrarapide - toate combinate în sisteme în cascadă pentru protecție integrală de la linia de medie tensiune până la prize 230V. Produsele DEHN protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacentere și fabrici.
+Gama de descărcătoare DEHN folosește, printre altele, varistoare și eclatoare; de exemplu, DEHNguard S ... VA combină un varistor cu un eclator, fără curent de fugă permanent, conform site-ului producătorului. Produsele DEHN protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacentere și fabrici.
 
-DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu risc de explozie (ATEX) și soluții speciale pentru rețele IT medicale unde siguranța pacientului e prioritate zero. Când instalația ta trebuie să funcționeze chiar și după un trăsnet direct de 200 kA, ai nevoie de protecție DEHN.`,
+Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instalații fotovoltaice) și datele lor tehnice se confirmă pe cod, din documentația DEHN.`,
     whyChoose: [
-      'Laborator propriu de testare 400 kA - Laborator privat de simulare trăsnet la capacitate ridicată, conform datelor DEHN, fiecare produs testat la limite extreme',
-      'Tehnologie DEHNventil Modular - Descărcătoare modulare combinabile pentru orice nivel de protecție, de la LPZ 0 la LPZ 3',
-      'Protecție în cascadă completă - Sisteme coordinate de la tabloul general 400V până la echipamentele sensibile 24V DC',
-      'Fiabilitate ridicată pentru instalații critice, testate conform IEC 61643-11 la impulsuri repetitive',
-      'Montaj rapid DIN rail - Instalare ușoară pe șină 35mm, conexiuni rapide plug-in, indicator uzură vizual pentru întreținere',
-      'Certificări ATEX și IECEx - Protecție antiexplozie pentru zone periculoase chimice, petrol & gaz, industrie farmaceutică'
+      'Descărcătoare Tip 2 - gama DEHNguard (modular, S, SE CI, ACI, VA), conform site-ului DEHN',
+      'Protecție pentru instalații fotovoltaice - variante DEHNguard și DEHNcube PV',
+      'Semnalizare - variante cu indicare timpurie a uzurii (DEHNguard SE H ... FM)',
+      'Siguranță de rezervă integrată - DEHNguard SE CI, pentru rețele de 400/690 V',
+      'Deconectare și monitorizare - DEHNcord, cu dispozitiv de deconectare și monitorizare',
+      'Documentație - gamele sunt publicate pe site-ul DEHN; certificările se confirmă pe cod'
     ],
     keyProducts: [
       {
         name: 'Descărcătoare Tip 1+2 DEHNventil',
-        description: `Seria DEHNventil combină protecție Tip 1 (trăsnet direct) și Tip 2 (supratensiuni induse) într-un singur dispozitiv compact: capacitate de descărcare 12.5 kA până la 100 kA (10/350 μs), nivel protecție Up < 1.5 kV pentru echipamente sensibile, montaj pe șină DIN 35mm în tabloul electric principal. Versiuni pentru rețele TN-C, TN-S, TT și IT cu toate configurațiile de conexiune posibile. Indicator mecanic de stare care îți arată când descărcătorul e uzat și trebuie schimbat - super important pentru mentenanță preventivă. Seria folosește tehnologie sparkgap cu electrode speciale care suportă sute de impulsuri fără degradare. Ideal pentru protecția tabloului general în clădiri cu paratrăsnet exterior, stații fotovoltaice, telecomunicații și instalații expuse.`
+        description: `DEHNventil este o serie de descărcătoare combinate Tip 1+2, destinate tabloului electric principal. Capacitatea de descărcare, nivelul de protecție, variantele de rețea (TN-C, TN-S, TT, IT) și configurațiile se confirmă pe cod, din documentația DEHN.`
       },
       {
         name: 'Protecție Tip 2 DEHNguard Modular',
-        description: `Descărcătoarele DEHNguard sunt soluția standard pentru protecție la nivelul tablourilor secundare: modular 1, 2 sau 4 poli pentru orice configurație de rețea, curent descărcare In = 20 kA (8/20 μs), nivel protecție Up < 1.2 kV, contact de semnalizare NC/NO pentru monitorizare de la distanță. Există versiuni cu și fără backup-disconnect care deconectează automat descărcătorul uzat pentru că instalația să rămână funcțională. Montaj tool-less pe DIN rail, conexiuni rapide plug-in, indicator LED status verde/roșu vizibil. Practic pui 4 descărcătoare DEHNguard în tabloul de distribuție și ai toată faza protejată - de la mașini industriale la sisteme HVAC, de la servere la pompe. Durată de viață > 20 ani în condiții normale.`
+        description: `DEHNguard modular este, conform site-ului DEHN, un descărcător modular multipolar Tip 2, cu design funcțional pentru instalații de consum. Există variante cu contact de semnalizare și cu tehnologie ACI (Advanced Circuit Interruption). Curentul nominal de descărcare, nivelul de protecție și configurațiile de rețea se confirmă pe cod.`
       },
       {
         name: 'Protecție Linii Date/Semnal DEHNrail',
-        description: `Nu e suficient să protejezi alimentarea 230V - trebuie protejate și liniile de date, semnal, Ethernet și bus industrial. DEHNrail este seria specializată: protecție pentru Ethernet 10/100/1000 Mbps fără pierdere de viteză, protecție linii seriale RS-232/RS-485/RS-422 pentru Modbus și alte protocoale, protecție 4-20mA loop pentru senzori industriali, protecție BUS (Profibus, CANbus, KNX) pentru automatizări. Timp de răspuns sub 1 nanosecundă pentru că semnalele de date sunt mult mai sensibile decât alimentarea. Carcasă blindată pentru imunitate EMI/RFI, inserție în linie transparentă fără impact pe comunicație. Obligatorii în instalații cu PLC-uri, SCADA, DCS sau orice echipament de automatizare expus la interferențe.`
+        description: `Liniile de date, de semnal și de comunicație au nevoie de protecție separată față de alimentarea electrică. Seria potrivită, tipul de linie protejată și performanțele (viteză, timp de răspuns) se confirmă pe cod, din documentația DEHN.`
       },
       {
-        name: 'Paratrăsnete Active DEHNair Terminal',
-        description: `Sistemul de paratrăsnet DEHNair Terminal, cu dispozitiv de amorsare (ESE - Early Streamer Emission), asigură o rază de protecție de până la 107m pentru o singură tijă instalată pe acoperișul clădirii. Funcționează prin emisie anticipată a streamerului ascendent cu 60 μs înaintea unui paratrăsnet Franklin clasic, capturând trăsnetul înainte să lovească structura. Include tijă ESE din inox cu element piezoelectric, bază de montaj rotativă, conductor de coborâre minim 50 mm² cupru, priză de pământ cu rezistență < 10 Ω. Certificat conform NFC 17-102 și testare independentă, ideal pentru clădiri industriale, depozite logistice, turbine eoliene, antene telecom - orice structură înaltă expusă. Montare rapidă, mentenanță zero, garanție 10 ani.`
+        name: 'Protecție externă împotriva trăsnetului',
+        description: `Sistemele de captare, coborâre și legare la pământ pentru protecția externă împotriva trăsnetului se aleg pe baza evaluării riscului pentru fiecare structură. Componentele și datele lor tehnice se confirmă pe cod, din catalogul DEHN.`
       }
     ],
     certifications: [
@@ -350,7 +350,7 @@ DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu ris
       'Industria alimentară',
       'Utilități (apă, canalizare, energie)'
     ],
-    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimite-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimiteți-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru întreaga gamă DEHN și nici service în garanția producătorului pentru paratrăsnete active.',
     sources: [
       {"title":"Type 2 Surge Arresters","url":"https://www.dehn-international.com/store/h/en-DE/H680/type-2-surge-arresters","publisher":"DEHN","accessed":"2026-09-23"},
@@ -454,43 +454,43 @@ DEHN a dezvoltat conceptul de protecție împotriva trăsnetului în zone cu ris
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dewalt': {
     founded: '1924',
     headquarters: 'Towson, Maryland, SUA',
-    employees: '100,000+ (Stanley Black & Decker)',
-    overview: `De 100 de ani, DeWalt înseamnă scule profesionale pentru șantiere, ateliere și fabrici unde munca grea e norma. Brandul galben-negru se vede peste tot unde se construiește serios: bormasini cu percuție cu 1200W putere, polizoare unghiulare care mănâncă metal 10 ore pe zi, fierăstraie circulare care taie grinzi ca prin unt. Tehnologia producătorului brushless (fără perii) înseamnă motoare electrice cu magneți permanenți care durează semnificativ mai mult decât motoarele clasice cu perii de cărbune.
+    employees: 'parte a grupului Stanley Black & Decker',
+    overview: `De 100 de ani, DeWalt înseamnă scule profesionale pentru șantiere, ateliere și fabrici unde munca grea e norma. Gama DeWalt include bormașini, polizoare unghiulare, ferăstraie și alte scule electrice pentru profesioniști. Multe scule din gamă folosesc motoare brushless (fără perii de cărbune).
 
-Sistemul de baterii XR FlexVolt este conceput astfel încât aceeași baterie comută automat între 18V pentru scule mici și 54V pentru scule mari de șantier. Înseamnă că un instalator poate avea toată trusa alimentată de același tip de acumulator - de la șurubelniță impact la ferăstrău pendular, de la polizor la lanternă. Baterii litiu-ion cu celule Samsung/LG de înaltă calitate, 2-12 Ah capacitate, sute de cicluri de încărcare.
+Sistemul de baterii XR FlexVolt comută automat între 20V MAX (18V nominal) pentru scule mai mici și 60V MAX (54V nominal) pentru scule mari, conform producătorului. Înseamnă că un instalator poate avea toată trusa alimentată de același tip de acumulator - de la șurubelniță impact la ferăstrău pendular, de la polizor la lanternă.
 
-Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în condiții extreme de șantier: praf, umezeală, temperaturi de la -20°C la +50°C, căderi pe beton de la 2 metri înălțime. Când lucrezi în construcții, instalații sau fabricație industrială și nu ai timp de defecțiuni, iei DeWalt și știi că merge.`,
+Gama completă și specificațiile fiecărui model se confirmă pe cod, din paginile oficiale ale producătorului.`,
     whyChoose: [
-      'Motoare brushless - Eficiență ridicată, fără întreținere perii, durată de viață mai lungă decât motoare clasice',
-      'Sistem baterii FlexVolt 18V/54V - O singură platformă de baterii pentru toate sculele, comutare automată de tensiune, compatibilitate cu 200+ scule',
-      'Carcasă anti-praf și anti-șoc IP54 - Protecție la praf și stropituri de apă, rezistență la căderi de la 2m, testare conform standarde militare MIL-STD',
+      'Motoare brushless - disponibile pe numeroase modele din gamă, fără perii de cărbune',
+      'Sistem de baterii FlexVolt - baterie compatibilă cu scule 20V MAX (18V nominal) și 60V MAX (54V nominal), conform producătorului',
+      'Protecție - clasa IP și rezistența la șocuri diferă pe model și se confirmă pe cod',
       'Tehnologie electronic clutch - Protecție anti-blocare care oprește scula când lovește în armătură sau nod, previne accidente și uzură prematură',
-      'Garanție 3 ani full - Acoperire completă piese și manoperă, service tehnic în toată România, schimb rapid în caz de defect',
-      'Performanță profesională verificată - scule folosite frecvent de contractori din SUA și Europa'
+      'Garanție producător - condițiile de garanție se confirmă pentru fiecare model, la comandă',
+      'Gamă profesională - scule pentru construcții, instalații și întreținere industrială'
     ],
     keyProducts: [
       {
         name: 'Bormasini cu Percuție DCD996/999',
-        description: `Bormasina brushless cu percuție DCD996 este o alegere frecventă pentru profesioniști: motor brushless 820W fără perii, cuplu maxim 95 Nm suficient pentru găurire beton Ø16mm sau lemn Ø45mm, 3 trepte viteză (0-550 / 0-1200 / 0-2000 rpm) pentru control fin, funcție percuție 34,000 bătăi/min pentru beton și cărămidă, mandrină metalică auto-strângere 13mm. Versiunea DCD999 are cuplu 135 Nm - practică poate înlocui un ciocan rotopercutor pentru găuri mici în beton. Ambele au electronic clutch care oprește automat scula când se blochează, previne răniri la încheietura mâinii. LED illumitat zona de lucru, clip de centură, livrare cu 2 baterii 5.0 Ah și încărcător rapid. Greutate echilibrată 2.2 kg cu baterie, mâner ergonomic cauciucat. Pentru instalatori, electricieni, constructori - o bormasină versatilă.`
+        description: `DCD996 și DCD999 sunt bormașini cu percuție fără perii din gama DeWalt, pentru găurire în lemn, metal și zidărie. Cuplul, turațiile, puterea, greutatea și conținutul kitului (acumulatori, încărcător) diferă pe model și se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Polizoare Unghiulare DCG414/418',
-        description: `Polizorul unghiular brushless DCG414 (125mm) și DCG418 (230mm) sunt scule heavy-duty pentru șantier: motor brushless 1700W echivalent rețea, viteză fără sarcină 9000 rpm (125mm) sau 6600 rpm (230mm), electronic brake care oprește discul în sub 2 secunde pentru siguranță, protecție anti-kickback prin senzori electronici care detectează blocarea discului. Carcasă metal Ø125mm sau Ø230mm pentru dischete tăiere/șlefuit, switch siguranță cu blocare accidentală, mâner lateral reglabil 3 poziții. Funcție soft-start pentru pornire progresivă fără șoc, protecție la suprasarcină termică. Se folosește pentru tăiere metal (profile, tablă, țeavă), șlefuit suduri, curățare beton. Alimentare FlexVolt 54V cu baterii 6.0-12.0 Ah pentru autonomie de 30-60 minute tăiere continuă. Include 2 baterii și geantă de transport.`
+        description: `DCG418 este, conform paginii oficiale DeWalt, un polizor unghiular fără perii pe platforma 60V MAX (FlexVolt), pentru discuri de 4-1/2 și 6 țoli (aproximativ 115 și 150 mm), cu viteză la mers în gol de 9000 rpm, frână care oprește discul în aproximativ 1,5 secunde la discuri standard și sistem E-CLUTCH care oprește motorul la blocare. Specificațiile modelului DCG414 și conținutul kitului se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Ferăstrău Circular DCS578/579',
-        description: `Ferăstrăul circular brushless DCS578 (190mm) taie lemn ca prin unt: motor brushless 1800W putere, adâncime tăiere 68mm la 90° sau 48mm la 45°, viteză lamă 5800 rpm pentru tăiere rapidă și curată, ghidaj paralel și laser pentru precizie milimetrică. Bază aluminiu turnată rigid montată pe rulmenți cu bile, unghi de înclinare reglabil 0-56° cu fixare rapidă. Frână electrică oprește lama în 2 secunde după eliberarea trăgaciului. LED lumină zona tăiere, racord aspirație praf Ø35mm pentru conectare la aspirator, mâner ergonomic cu grip anti-alunecare. Taie: lemn masiv până la 68mm, plăci OSB/PAL/MDF, lemn stratificat, plastic. Ideal pentru dulgheri, montatori mobilă, constructori. Livrare cu lamă de 24 dinți, baterie 5Ah FlexVolt și încărcător. Greutate 3.8 kg - echilibrat pentru tăieri la înălțime.`
+        description: `DCS578 și DCS579 sunt ferăstraie circulare fără perii din gama DeWalt. Diametrul lamei, adâncimea de tăiere, puterea, greutatea și conținutul kitului diferă pe model și se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Set Șurubelniță Impact DCF887 + Bormasină DCD796',
-        description: `Combo-ul DCF887 + DCD796 este un set potrivit pentru orice instalator sau montator: șurubelniță cu impact DCF887 are cuplu 205 Nm pentru șuruburi autofiletante în metal gros, 3 moduri (precizie / șuruburi lungi / impact maxim), viteză variabilă 0-3250 rpm, mandrină hex 1/4" pentru biți rapid-change. Bormașină brushless DCD796 are 70 Nm cuplu, 2 viteze (0-550 / 0-2000 rpm), mandrină auto-strângere 13mm, LED iluminat. Ambele scule au motor brushless fără întreținere, carcasă compactă sub 18cm lungime pentru spații strâmte, alimentare 18V XR litiu-ion. Setul include 2x baterii 5.0Ah, încărcător rapid 2A (încarcă baterie în 70 minute), geantă rigidă T-STAK pentru transport. Cu aceste două scule se acoperă o mare parte din munca de instalații - de la montare profile rigips la asamblare construcții metalice.`
+        description: `DCF887 (șurubelniță cu impact) și DCD796 (bormașină) sunt scule fără perii din gama DeWalt 18V XR. Cuplul, turațiile, greutatea și conținutul setului (acumulatori, încărcător, geantă) se confirmă pe cod, din fișa tehnică oficială.`
       }
     ],
     certifications: [
@@ -500,8 +500,8 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
       'ISO 9001:2015 - Management calitate producție',
       'EMC Directive - Compatibilitate electromagnetică',
       'RoHS - Fără substanțe periculoase',
-      'IP54 - Protecție praf și apă pentru scule profesionale',
-      'MIL-STD-810G - Testare condiții extreme militare'
+      'Clasa de protecție IP - variază pe model și se confirmă pe cod',
+      'Certificările fiecărui model - se confirmă pe cod, din documentația producătorului'
     ],
     industries: [
       'Construcții civile și industriale',
@@ -515,7 +515,7 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
       'Demolări și renovări',
       'Producție componente industriale'
     ],
-    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimite-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii) - revenim cu preț și termen confirmat.`,
+    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimiteți-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii), iar noi revenim cu oferta și termenul confirmat.`,
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare model DeWalt - livrăm scula conform comenzii, nu intervenția de service.',
     sources: [
       {"title":"Power Tools","url":"https://www.dewalt.com/products/power-tools","publisher":"DeWalt","accessed":"2026-09-22"},
@@ -599,8 +599,8 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
       }
     ],
     evidenceClass: 'history-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'drager': {
@@ -609,33 +609,33 @@ Gama DeWalt include peste 200 de tipuri de scule electrice, toate testate în co
     employees: '15,000+',
     overview: `De peste 135 de ani, Dräger salvează vieți prin tehnologie de detectare gaze și echipamente de protecție respiratorie. Dräger este unul dintre producătorii europeni de referință pentru detectoare portabile multi-gaz, aparate de respirat autonome pentru pompieri și mineri, măști de protecție pentru industria chimică și sisteme fixe de monitorizare atmosferă în spații confinate. Tehnologia producătorului de senzori electrochimici, infraroșu și catalitici e folosită la nivel internațional - de la rafinării petroliere la mine, de la laboratoare la tuneluri de metrou.
 
-Fiecare detector Dräger e calibrat individual în fabrică și testat în cameră de gaze reale înainte de expediție. Senzorii electrochimici din gamă durează 2-4 ani în funcție de expunere, iar senzorii IR (infraroșu) pentru CO₂ și hidrocarburi nu necesită calibrare frecventă și durează peste 5 ani. Alarme acustice de 90 dB(A) și LED-uri vizibile din toate direcțiile, rezistență la șocuri conform IP67/IP68, funcționare -40°C până la +55°C.
+Specificațiile detectoarelor (durata de viață a senzorilor, nivelul alarmei, clasa de protecție IP, domeniul de temperatură) diferă pe model și se confirmă pe cod, din documentația Dräger.
 
-Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din toată Europa: butelii carbon composite de 6 litri la 300 bar, autonomie 30-45 minute, măști panoramice cu vizor antiabraziv, sistem PASS (Personal Alert Safety System) care alarmează automat dacă pompierul rămâne imobil. Când viața ta depinde de echipament, alegi Dräger.`,
+Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri și echipe de intervenție; configurația (butelie, autonomie, mască) se confirmă pe cod, din documentația producătorului.`,
     whyChoose: [
-      'Tehnologie senzori proprietară - Dräger fabrică propriii senzori electrochimici și IR în Germania, calibrare individuală în fabrică pentru fiecare detector',
-      'Detector multi-gaz X-am 8000 - Până la 7 senzori simultan (LEL, O₂, CO, H₂S, SO₂, Cl₂, NH₃), memorie 200 evenimente, datalogger integrat',
-      'Durată de viață senzori record - Senzori electrochimici 4+ ani, senzori IR fără deriva pentru hidrocarburi și CO₂, calibrare o dată la 6 luni',
-      'Certificări ATEX/IECEx complete - Utilizare în zone cu risc de explozie categoria 1 (prezență permanentă gaze), certificare Ex ia IIC T4',
-      'Service și calibrare autorizată - Rețea service în România cu certificat Dräger, calibrare cu gaze etalon certificate, certificat de calibrare traceable',
-      'Integrare sisteme fixe - Centrale de detecție gaze cu până la 256 detectoare, ieșire 4-20mA, releu, Modbus RTU/TCP pentru SCADA'
+      'Gamă de detectoare - detectoare portabile și sisteme fixe pentru detecția gazelor, conform site-ului producătorului',
+      'Detector multi-gaz X-am 8000 - măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori, conform site-ului producătorului',
+      'Calibrare - intervalul de calibrare și durata de viață a senzorilor depind de tip și se confirmă pe cod',
+      'Certificări ATEX/IECEx - disponibile pe anumite modele; se confirmă pe cod',
+      'Calibrare și service - efectuate de producător sau de un centru de service terț; noi livrăm echipamentul, nu intervenția de service',
+      'Sisteme fixe - Regard 7000 este un sistem de control pentru detecție fixă de gaz; configurația se confirmă pe cod'
     ],
     keyProducts: [
       {
         name: 'Detector Multi-Gaz Dräger X-am 8000',
-        description: `Detectorul X-am 8000 este un instrument avansat pentru monitorizare atmosferă: până la 7 senzori simultan în carcasă compactă 160x80x45mm, ecran TFT color 2.4" vizibil în soare, memorie eveniment 200 alarme cu dată/oră, datalogger continuu 500 ore. Senzorii disponibili: LEL (gaze combustibile 0-100% LIE), O₂ (oxigen 0-25%), CO (monoxid de carbon 0-2000 ppm), H₂S (hidrogen sulfurat 0-200 ppm), SO₂, Cl₂, NH₃, NO₂, COCl₂ și altele. Alarmă acustică 90 dB + vibrator + LED roșu/galben, pompă internă de aspirație pentru eșantionare la distanță până la 45m printr-un furtun. Certificare ATEX/IECEx zona 0, protecție IP68 (submersibil 1.5m, 1 oră), baterie litiu-ion reîncărcabilă 16 ore autonomie. Folosit în rafinării, petrochimie, spații confinate, tuneluri, industrie alimentară (CO₂), tratare apă (Cl₂). Calibrare recomandată o dată la 6 luni cu gaze etalon certificate.`
+        description: `X-am 8000 este un detector portabil multi-gaz Dräger care măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori (tehnologii CAT, IR, PID și EC), pompă integrată pentru furtunuri de până la 45 m și protecție IP 68, conform site-ului producătorului. Autonomia depășește 24 de ore, alarma sonoră este de 100 dB, iar aprobările includ ATEX, IECEx și cCSA pentru Zone 0 / Division 1. Gazele măsurabile și configurația se confirmă pe cod, din documentația oficială.`
       },
       {
         name: 'Aparat Respirat Dräger PSS 7000',
-        description: `PSS 7000 este un aparat de respirat cu aer comprimat pentru pompieri și echipe de intervenție industrială: butelie carbon composite 6 litri la 300 bar (1800 litri aer), greutate totală 13.5 kg pentru mobilitate ridicată, autonomie 30-45 minute în funcție de efort fizic, hamuri ergonomice BodyGuard cu distribuție uniformă greutate pe umeri și șolduri. Mască panoramică FPS 7000 cu vizor Makrolon antiabraziv și antiaburire, sistem comunicație radio integrat pentru transmisie voce clară în condiții extreme. PASS integrat (Personal Alert Safety System) cu alarmă 95 dB dacă pompierul rămâne imobil > 30 secunde. Display HUD (Head-Up Display) pe vizor arată presiune aer rămasă fără să te uiți la manometru. Certificat EN 137 Type 2 pentru utilizare pompieri, testare extremă la temperaturi -30°C până +60°C. Întreținere la 12 luni, inspecție vizuală după fiecare utilizare.`
+        description: `PSS 7000 este un aparat de respirat cu aer comprimat Dräger pentru pompieri și echipe de intervenție industrială. Butelia, greutatea, autonomia, funcțiile mășii și ale sistemului de alarmă PASS și certificările (EN 137) se confirmă pe cod, din documentația oficială a producătorului.`
       },
       {
         name: 'Sistem Fix Detecție Gaze Dräger Regard 7000',
-        description: `Centrala Regard 7000 este o soluție pentru monitorizare continuă atmosferă în fabrici și instalații industriale: capacitate până la 256 de detectoare conectate prin cablu sau wireless, display touchscreen 10" color pentru vizualizare hartă instalație, 16 ieșiri releu pentru comandă ventilatoare sau valve de închidere, comunicație Modbus RTU/TCP pentru integrare în SCADA și sisteme DCS. Detectoarele fixe au senzori electrochimici sau IR pentru peste 100 de tipuri de gaze (toxice, combustibile, oxigen), carcasă Ex d pentru zone ATEX categoria 2, ieșire 4-20mA pentru transmisie la distanță. Alimentare 24V DC sau 230V AC cu backup UPS, memorie eveniment 10,000 alarme, registru service electronic pentru mentenanță. Aplicații: depozite chimice, rafinării, fabrici de vopsele, industrie farmaceutică, tratare apă, tuneluri. Instalare conform EN 60079-29-2 și ISA 12.13.01.`
+        description: `Regard 7000 este un sistem de control pentru detecție fixă de gaz, destinat monitorizării continue în instalații industriale. Numărul de detectoare, ieșirile, comunicațiile, memoria și standardele aplicabile se confirmă pe cod, din documentația oficială a producătorului.`
       },
       {
         name: 'Detector Portabil Pac 8000 Single Gas',
-        description: `Când este nevoie de un detector simplu și robust pentru un singur gaz, Pac 8000 este o opțiune potrivită: versiuni disponibile pentru CO, H₂S, O₂, SO₂, Cl₂, NO₂, sensor electrochimic Dräger XXS cu durată 2+ ani, alarmă 90 dB + LED roșu intermitent, ecran LCD cu cifre mari 15mm vizibile și cu ochelari de protecție, baterie AA standard (2 bucăți) pentru 2 ani funcționare continuă, cu un cost de operare redus pe durata de viață a bateriei. Carcasă IP68 rezistentă la apă și praf, greutate doar 100g, clip de centură robust. OV-Chip (OverView Chip) stochează toate datele de calibrare și alarme - le transferi pe PC prin docking station USB. Ideal pentru workers singuri în spații confinate, întreținere industrială, echipe service utilități. Nu are pomă, doar difuzie naturală - deci trebuie purtat la nivelul zonei de respirație. Calibrare o dată la 6-12 luni.`
+        description: `Pac 8000 este un detector portabil Dräger reutilizabil, pentru un singur gaz, destinat monitorizării personale; conform site-ului producătorului poate detecta 29 de gaze diferite, are baterie cu autonomie de 2 ani la funcționare continuă, protecție IP 68, greutate de circa 106 g și alarmă sonoră de 90 dB, cu transmisie de date prin Bluetooth. Gazul măsurat și intervalul de calibrare se confirmă pe cod, din documentația oficială.`
       }
     ],
     certifications: [
@@ -660,7 +660,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
       'Spații confinate și rezervoare',
       'Producție energie (centrale)'
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimite-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimiteți-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
     limitation: 'Nu efectuăm noi calibrarea sau service-ul în garanția producătorului pentru aparatele de respirat sau detectoarele Dräger.',
     sources: [
       {"title":"Industrial Gas Detectors – Draeger Safety","url":"https://www.draeger.com/en-us_us/Safety/Gas-Detectors","publisher":"Drägerwerk AG & Co. KGaA","accessed":"2026-09-22"},
@@ -687,7 +687,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
       },
       {
         "code": "Pac 8000",
-        "description": "Detector portabil monogaz cu senzor interschimbabil"
+        "description": "Detector portabil monogaz reutilizabil, pentru 29 de gaze"
       },
       {
         "code": "Pac 8500",
@@ -713,7 +713,7 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
     faq: [
       {
         "q": "Ce diferență este între Drager Pac 6000 și Pac 8000?",
-        "a": "Ambele sunt detectoare portabile monogaz din seria Pac, gândite pentru monitorizarea personală a expunerii la un singur tip de gaz. Pac 8000 este poziționat ca variantă mai avansată, cu senzor interschimbabil și opțiuni suplimentare de configurare față de Pac 6000, orientat spre utilizare simplă și robustă. Alegerea corectă depinde de gazul monitorizat, de mediul de lucru și de cerințele interne de mentenanță a senzorilor."
+        "a": "Ambele sunt detectoare portabile monogaz din seria Pac, gândite pentru monitorizarea personală a expunerii la un singur tip de gaz. Pac 6000 este un model de unică folosință, cu durată de viață fixă de 2 ani, pentru CO, H2S, SO2 sau O2, iar Pac 8000 este reutilizabil și poate detecta 29 de gaze diferite. Alegerea corectă depinde de gazul monitorizat, de mediul de lucru și de cerințele interne de mentenanță a senzorilor."
       },
       {
         "q": "Ce este sistemul Drager Regard 7000?",
@@ -729,43 +729,43 @@ Aparatele de respirat cu aer comprimat (SCBA) Dräger echipează pompieri din to
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'dwyer': {
     founded: '1931',
     headquarters: 'Michigan City, Indiana, SUA',
-    employees: '500+',
-    overview: `De 90+ ani, Dwyer Instruments fabrică instrumente de măsurare și control care țin industria în parametri: manometre mecanice și digitale, debitimetre pentru aer/apă/gaz, presostate pentru HVAC și proces industrial, transmițătoare 4-20mA pentru integrare în sisteme de automatizare. Dwyer e specializat în low-cost high-reliability - instrumente simple, robuste, care merg ani de zile fără calibrare și fără probleme. Producătorul fabrică în SUA sute de variante de produse pentru aplicații de la HVAC comercial până la controlul proceselor chimice.
+    employees: '3000+',
+    overview: `De 90+ ani, Dwyer Instruments fabrică instrumente de măsurare și control care țin industria în parametri: manometre mecanice și digitale, debitimetre pentru aer/apă/gaz, presostate pentru HVAC și proces industrial, transmițătoare 4-20mA pentru integrare în sisteme de automatizare. Dwyer produce instrumente simple și robuste pentru măsurare și control; intervalul de calibrare depinde de model și de aplicație. Producătorul oferă sute de variante de produse pentru aplicații de la HVAC comercial până la controlul proceselor chimice.
 
-Tehnologia producătorului Magnehelic de măsurare presiune diferențială prin magnet este utilizată frecvent în industrie de 70 de ani: fără electricitate, fără baterii, doar un ac magnetic care urmărește presiunea prin diafragmă. Simplu, fiabil, ieftin. Gama include și instrumente digitale cu precizie ±0.25% FS, transmițătoare 4-20mA cu certificare SIL pentru aplicații critice, debitimetre turbină cu acuratețe ±0.5% pentru măsurare fiscală.
+Tehnologia producătorului Magnehelic de măsurare presiune diferențială prin magnet este utilizată frecvent în industrie: fără electricitate, fără baterii, doar un ac magnetic care urmărește presiunea prin diafragmă. Simplu, fiabil, ieftin. Gama include și instrumente digitale, transmițătoare 4-20 mA și debitmetre; precizia și certificările exacte depind de model și se confirmă pe cod, din documentația Dwyer.
 
-Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte de apă până la monitorizare filtre în camere curate, de la verificare debit ventilatoare până la control presiune în reactoare chimice. Când ai nevoie de un instrument care pur și simplu merge fără să te complice, Dwyer e o alegere de încredere.`,
+Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte de apă până la monitorizare filtre în camere curate, de la verificare debit ventilatoare până la control presiune în reactoare chimice. Când aveți nevoie de un instrument care pur și simplu funcționează fără să vă complice, Dwyer e o alegere de încredere.`,
     whyChoose: [
-      'Tehnologie Magnehelic originală - Manometre diferențiale magnetice fără alimentare electrică, fără calibrare, funcționare 10+ ani fără întreținere',
-      'Preț/performanță ridicat - Instrumente de calitate industrială la un preț semnificativ mai mic decât concurența europeană, fără compromis la fiabilitate',
-      'Gamă completă HVAC - De la manometre simple până la transmițătoare inteligente cu Modbus, totul pentru sisteme de ventilație și climatizare',
-      'Aplicații speciale proces - Instrumente certificate pentru gaze corosive, lichide vâscoase, temperaturi extreme (-50°C până +200°C)',
-      'Livrare rapidă din stoc SUA - majoritatea produselor disponibile imediat, fără timpi lungi de așteptare pentru produse customizate',
-      'Documentație tehnică excelentă - Cataloage detaliate, fișe tehnice complete, videos de instalare, support tehnic telefonic gratuit'
+      'Tehnologie Magnehelic - Manometre diferențiale cu mecanism magnetic, fără alimentare electrică și fără baterii, conform producătorului',
+      'Instrumente pentru uz industrial - Prețul și termenul se confirmă în ofertă, pe baza codului exact',
+      'Gamă pentru HVAC - Manometre, presostate și transmițătoare pentru sisteme de ventilație și climatizare; protocoalele de comunicație depind de model',
+      'Aplicații de proces - Materialele, certificările și domeniul de temperatură se confirmă pe cod, din documentația Dwyer',
+      'Disponibilitate confirmată la fiecare comandă - Termenul se stabilește pe codul exact, conform politicii de livrare a firmei',
+      'Documentație tehnică - Cataloage și fișe tehnice publicate de producător pe site-ul oficial'
     ],
     keyProducts: [
       {
         name: 'Manometru Magnehelic Seria 2000',
-        description: `Magnehelic este un manometru diferențial larg răspândit: tehnologie magnetică fără baterii și fără calibrare, afișaj analog cu ac roșu pe cadran Ø100mm, game de măsurare de la 0-0.5" H₂O până la 0-60" H₂O (0-125 Pa până la 0-15 kPa), precizie ±2% FS suficient pentru majoritatea aplicațiilor HVAC. Construcție carcasă ABS rezistentă, conexiuni 1/8" NPT sau 1/4" barb pentru furtun, montaj perete sau panou cu suport inclus. Folosit frecvent pentru: verificare filtre aer (când ΔP > 250 Pa e timpul să schimbi filtrul), măsurare presiune în conducte ventilatoare, testare etanșeitate camere curate, control presiune statică în sisteme HVAC. Funcționare -20°C până +65°C, durată de viață 10-15 ani fără service. Versiuni disponibile și cu contacte electrice pentru alarmă presiune mare/mică.`
+        description: `Magnehelic este un manometru diferențial larg răspândit: tehnologie magnetică fără baterii și fără calibrare, afișaj analog cu ac roșu pe cadran Ø100mm, game de măsurare de la 0-0.5" H₂O până la 0-60" H₂O (0-125 Pa până la 0-15 kPa), precizie ±2% FS suficient pentru majoritatea aplicațiilor HVAC. Carcasă turnată din aluminiu, cu capac acrilic, grad de protecție IP67 și conexiuni 1/8" NPT femelă. Folosit frecvent pentru: verificare filtre aer (pragul de schimbare se stabilește după recomandarea producătorului filtrului), măsurare presiune în conducte ventilatoare, testare etanșeitate camere curate, control presiune statică în sisteme HVAC. Temperatură de funcționare 20–140°F (aprox. -6,7°C până +60°C) la versiunea standard; durata de viață depinde de condițiile de utilizare. Versiuni disponibile și cu contacte electrice pentru alarmă presiune mare/mică.`
       },
       {
         name: 'Transmițător Presiune Seria 628',
-        description: `Transmițătorul 628 convertește presiune în semnal 4-20mA pentru integrare PLC/SCADA: senzor piezo-rezistiv din silicon cu precizie ±0.5% FS, game configurabile de la 0-5 psi până la 0-5000 psi (0-35 kPa până la 0-35 MPa), alimentare 12-30V DC cu protecție la inversare polaritate, ieșire 4-20mA cu izolare galvanică pentru eliminare loop-uri de pământ. Carcasă inox 316L pentru lichide corosive, conexiune proces 1/4" NPT sau G1/4, protecție IP65 pentru medii industriale cu praf și umiditate. Compensare temperatură -10°C până +80°C pentru măsurare stabilă indiferent de sezon. Aplicații: măsurare presiune apă în rețele, monitorizare hidraulică, control pompe cu frecvență variabilă, supraveghere filtre în procesare. Include certificat de calibrare traceable NIST, configurare prin butoane sau software USB. Livrare cu conector electric M12 sau cablu 2m PVC.`
+        description: `Transmițătorul 628 convertește presiune în semnal 4-20mA pentru integrare PLC/SCADA: precizie ±0,25% FS la seria 626 și ±1% FS la seria 628, game de la 0-15 psi până la 0-3000 psig (0-0,5 bar până la 0-200 bar), alimentare 10-35 V DC, ieșire 4-20 mA sau în tensiune, în funcție de model. Părți în contact cu fluidul din inox 316L, conexiuni de proces de la 1/8" până la 1/2" NPT, BSPT sau SAE, protecție NEMA 4X (IP66). Domeniu de temperatură compensat 0°F până la 175°F (aprox. -18°C până +79°C). Aplicații: măsurare presiune apă în rețele, monitorizare hidraulică, control pompe cu frecvență variabilă, supraveghere filtre în procesare. Conexiunea electrică (conector M12, cablu, conector DIN sau intrare de conduit) și opțiunile de configurare depind de model și se confirmă pe cod.`
       },
       {
         name: 'Debitmetre Variable Area Seria VA',
-        description: `Debitmetrele VA (rotametre) sunt o soluție simplă pentru măsurare vizuală debit: tub transparent din policarbonat sau sticlă borosilicată, plutitor din inox 316 sau PTFE, scară gradată direct pe tub pentru citire imediată. Game disponibile: 0.1-1 LPM până la 10-100 LPM pentru apă, 1-10 SCFM până la 100-1000 SCFM pentru aer comprimat, conexiuni 1/4" până la 2" NPT sau flange. Precizie ±5% FS - nu e instrumen de laborator, dar perfect pentru control vizual proces. Versiuni cu valve integrată de reglare debit pentru setare rapidă, protecție sticlă cu grilaj metalic pentru siguranță. Sunt folosite pentru: dozare aditive lichide, purjare sisteme cu azot, eșantionare gaze de proces, răcire echipamente cu apă. Instalare verticală cu flux ascendent, citire la centrul plutitorului. Opțional cu contacte magnetice pentru alarmă debit min/max. Rezistență până la 150°C și 25 bar în funcție de model.`
+        description: `Debitmetrele VA (rotametre) sunt o soluție simplă pentru măsurare vizuală debit: tub din sticlă borosilicată cu protecție frontală din policarbonat, plutitor din sticlă, oțel inoxidabil sau alte materiale, în funcție de model, scară gradată direct pe tub pentru citire imediată. Game disponibile în mai multe capacități, cu tabele de calibrare pentru aer (de exemplu 0,104 până la 93,9 SCFH) și pentru apă; conexiuni 1/8" NPT femelă. Precizie ±5% FS - nu e instrument de laborator, dar perfect pentru control vizual proces. Versiuni cu valve integrată de reglare debit pentru setare rapidă, protecție sticlă cu grilaj metalic pentru siguranță. Sunt folosite pentru: dozare aditive lichide, purjare sisteme cu azot, eșantionare gaze de proces, răcire echipamente cu apă. Instalare verticală cu flux ascendent, citire la centrul plutitorului. Presiune maximă 200 psig (aprox. 13,8 bar) și temperatură maximă 250°F (aprox. 121°C) la stilurile P/S; la stilul T, 100 psig (aprox. 6,9 bar) și 150°F (aprox. 65,5°C).`
       },
       {
         name: 'Presostatul Seria 1950',
-        description: `Presostatele 1950 sunt switch-uri presiune robuste pentru aplicații industriale grele: element de măsurare diafragmă inox, setare hysteriză fixă sau ajustabilă, contact SPDT 15A/250V AC pentru comandă directă ventilator sau pompă, game de comutare de la 0.25-8" H₂O până la 5-150 PSI. Carcasă turnată NEMA 4X (IP66) pentru exterior sau medii umede/murdare, buton test manual pentru verificare funcționare, LED indicator status pentru troubleshooting rapid. Conexiune proces 1/8" NPT sau 1/4" barb, cablu intrare 1/2" NPT sau M20 pentru conectare ușoară. Aplicații typice: protecție pompă la presiune joasă (lipsa apei), comutare ventilator în funcție de presiunea camerei, alarmă filtre înfundate în sisteme de ventilație. Setare set-point prin șurub cu cheie Allen, livrare cu etichetă scalei personalizabilă. Funcționare -30°C până +80°C, durată de viață contact > 100,000 operații. Când ai nevoie de switch simplu și de nădejde care nu te lasă, iei Dwyer 1950.`
+        description: `Seria 1950 este un presostat diferențial în execuție antiexplozie, cu carcasă etanșă la intemperii: contact SPDT 15 A la 125/250/480 V AC, game de la 0,07-0,15" H₂O până la 4-20" H₂O (seria 1950) și de la 0,5-2 psid până la 15-50 psid (seria 1950P), cu diafragmă din Buna-N, fluorosilicon, neopren, silicon sau fluoroelastomer, în funcție de model. Carcasă IP54, NEMA 3, 7 și 9, certificată pentru zone Class I Div. 1 (grupele C și D), Class II (grupele E, F și G) și Class III. Conexiune de proces 1/8" NPT femelă, cu borne cu șurub pentru conexiunea electrică. Aplicații tipice: HVAC și procese industriale, de exemplu alarmă pentru filtre înfundate în sisteme de ventilație. Reglajul punctului de comutare se face extern, cu șurub. Temperatură de funcționare -40°C până +60°C, cu restricții la anumite modele.`
       }
     ],
     certifications: [
@@ -774,7 +774,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       'NIST Traceable Calibration - Calibrare verificată',
       'RoHS Compliant - Fără substanțe periculoase',
       'ATEX Available - Versiuni pentru zone explozive',
-      'SIL 2 - Safety Integrity Level pentru produse selectate',
+      'Alte certificări - se confirmă pe cod, din documentația producătorului',
       'FM Approved - Factory Mutual pentru aplicații critice',
       'UL Listed - Underwriters Laboratories certificare SUA'
     ],
@@ -790,7 +790,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       'Industria hârtiei',
       'OEM echipamente industriale'
     ],
-    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimite-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
+    infinitrade: `Spunem deschis ce putem și ce nu putem confirma despre disponibilitatea reală a fiecărui produs Dwyer înainte de a promite un termen. Aducem instrumentele Dwyer (manometre, transmițătoare, debitmetre, presostate) la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau modele speciale. Pentru o ofertă, trimiteți-ne seria exactă a produsului (de exemplu Magnehelic 2000 sau seria 628), gama de măsurare necesară și conexiunea de proces - revenim cu preț și termen confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sub-gama de instrumente digitale Dwyer, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Pressure Category – DwyerOmega","url":"https://www.dwyeromega.com/en-us/pressure/c/pressure","publisher":"Dwyer Instruments (DwyerOmega)","accessed":"2026-09-22"},
@@ -848,7 +848,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
     faq: [
       {
         "q": "Ce diferență este între un manometru Dwyer și un presostat diferențial Dwyer?",
-        "a": "Manometrul Dwyer oferă o citire continuă a valorii presiunii, utilă pentru monitorizare vizuală directă pe un cadran sau un afișaj digital. Presostatul diferențial nu afișează neaparat o valoare, ci acționează un contact electric atunci când diferență de presiune dintre două puncte depășește sau scade sub un prag stabilit. Alegerea depinde dacă aveți nevoie doar de citire sau și de o acțiune automată declanșată de sistem."
+        "a": "Manometrul Dwyer oferă o citire continuă a valorii presiunii, utilă pentru monitorizare vizuală directă pe un cadran sau un afișaj digital. Presostatul diferențial nu afișează neapărat o valoare, ci acționează un contact electric atunci când diferența de presiune dintre două puncte depășește sau scade sub un prag stabilit. Alegerea depinde dacă aveți nevoie doar de citire sau și de o acțiune automată declanșată de sistem."
       },
       {
         "q": "Ce gamă de produse Dwyer acoperă monitorizarea presiunii camerei?",
@@ -860,47 +860,47 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă pentru un traductor de presiune Dwyer?",
-        "a": "Aveți nevoie să precizați domeniul de presiune de măsurat, tipul de mediu, aer, gaz sau lichid, și tipul de semnal de ieșire dorit, de exemplu 4-20 mA sau 0-10 V. Este util să menționați și tipul de racord de proces și mediul de instalare, interior sau exterior, expus la condiții dure. Cu aceste detalii identificăm varianta Dwyer potrivită din gama de senzori și transmitatoare."
+        "a": "Aveți nevoie să precizați domeniul de presiune de măsurat, tipul de mediu, aer, gaz sau lichid, și tipul de semnal de ieșire dorit, de exemplu 4-20 mA sau 0-10 V. Este util să menționați și tipul de racord de proces și mediul de instalare, interior sau exterior, expus la condiții dure. Cu aceste detalii identificăm varianta Dwyer potrivită din gama de senzori și transmițătoare."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton': {
     founded: '1911',
     headquarters: 'Dublin, Irlanda',
     employees: '85,000+',
-    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri de la 500VA la 1.5MW, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
+    overview: `Eaton e unul dintre cei mai mari producători mondiali de echipamente electrice de distribuție și protecție: întrerupătoare automate de la 6A până la 6300A, contactoare și relee termice pentru protecție motoare, UPS-uri pentru diverse puteri, tablouri electrice prefabricate, drive-uri cu frecvență variabilă pentru control motoare. Cu peste 110 ani de experiență, produsele Eaton (fostele branduri Moeller, Cutler-Hammer, Holec) echipează distribuțiile electrice din fabrici, clădiri comerciale, datacentre și infrastructură critică din toată lumea.
 
-Tehnologia producătorului de protecție diferențială AFDD (Arc Fault Detection Device) detectează arcurile electrice periculoase care pot cauza incendii - obligatorii în noile instalații rezidențiale din Europa. Întrerupătoarele automate compacte xEffect au putere de rupere 50kA în carcasă de doar 18mm lățime per pol, economisind spațiu în tablouri. Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
+Dispozitivele AFDD (Arc Fault Detection Device, dispozitiv de detectare a arcului electric) detectează arcurile electrice periculoase care pot cauza incendii; cerința de montare depinde de normele naționale și de proiect. Întrerupătoarele automate modulare Eaton xEffect (de exemplu seria FAZ6) au curenți nominali de la 0,5 A până la 63 A și capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Sistemul de management energetic Power Xpert permite monitorizare consumuri în timp real și optimizare costuri energie.
 
-Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectezi o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când ai nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
+Eaton produce în fabrici din Europa, America și Asia, cu controale calitate stricte la fiecare pas. Când proiectați o instalație electrică care trebuie să funcționeze fără probleme 20-30 de ani, când aveți nevoie de piese de schimb originale și documentație tehnică completă, Eaton este o opțiune de luat în calcul.`,
     whyChoose: [
       'Gamă completă distribuție BT/MT - De la întrerupătoare 6A rezidențiale până la întrerupătoare automate 6300A pentru industrie grea, toate din același furnizor',
-      'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice cu algoritmi avansați, reducere semnificativă a riscului de incendiu în instalații vechi',
-      'UPS dublă conversie online - Protecție totală pentru echipamente IT critice, eficiență >95% în mod eco, baterii cu 10 ani viață',
+      'Tehnologie AFDD anti-incendiu - Detectare arcuri electrice periculoase, conform documentației producătorului',
+      'UPS dublă conversie online - Protecție pentru echipamente IT critice; la 9PX eficiența este de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model',
       'Integrare digitală IoT - Toate echipamentele comunicare Modbus RTU/TCP, Ethernet/IP, Profinet pentru industrie 4.0',
-      'Certificări și standarde globale - IEC, UL, CSA, GOST - aceleași produse pentru Europa, SUA, Rusia, fără probleme la export',
-      'Service și suport tehnic 24/7 - Hotline tehnic non-stop, bază de cunoștințe online, training gratuit pentru parteneri instalatori'
+      'Certificări și standarde internaționale - IEC, UL, CSA; certificările exacte depind de produs și se confirmă pe cod',
+      'Documentație tehnică și fișe de date disponibile online pe site-ul producătorului'
     ],
     keyProducts: [
       {
         name: 'Întrerupătoare Automate Compacte xEffect',
-        description: `Seria xEffect (PLSM) e noua generație de întrerupătoare automate modulare Eaton: curenți nominali de la 6A până la 125A, caracteristici declanșare B, C, D, K pentru orice tip de sarcină, putere de rupere 50kA la 230/400V (10kA versiunea standard), lățime compactă 18mm per pol pentru economie spațiu în tablouri. Tehnologie de declanșare termică bimetal pentru protecție suprasarcină și declanșare magnetică pentru protecție scurtcircuit, indicator mecanic poziție contacte (verde = închis, roșu = declanșat), durată de viață mecanică 20,000 operații la curent nominal. Versiuni disponibile: 1P, 1P+N, 2P, 3P, 4P pentru orice configurație de rețea. Accesorii: contact auxiliar, declanșator la minimă/maximă de tensiune, motor pentru telecomandă. Conform IEC 60898-1 și EN 60898-1, certificare CE. Ideal pentru protecție tablouri secundare în distribuții industriale și comerciale. Montaj standard pe șină DIN 35mm, conexiuni tip șurub sau rapidă tip pieptene.`
+        description: `Seria xEffect (de exemplu FAZ6) cuprinde întrerupătoare automate modulare Eaton: curenți nominali de la 0,5 A până la 63 A, caracteristici de declanșare B, C, D, K și Z, capacitate de rupere de 10 kA conform IEC/EN 60947-2 (6 kA conform IEC/EN 60898-1). Modelul PLSM aparține seriei xPole. Tehnologie de declanșare termică bimetal pentru protecție suprasarcină și declanșare magnetică pentru protecție scurtcircuit, indicator mecanic poziție contacte (verde = închis, roșu = declanșat), durată de viață mecanică 20,000 operații la curent nominal. Versiuni disponibile: 1P, 1P+N, 2P, 3P, 4P pentru orice configurație de rețea. Accesorii: contact auxiliar, declanșator la minimă/maximă de tensiune, motor pentru telecomandă. Conform IEC 60898-1 și EN 60898-1, certificare CE. Ideal pentru protecție tablouri secundare în distribuții industriale și comerciale. Montaj standard pe șină DIN 35mm, conexiuni tip șurub sau rapidă tip pieptene.`
       },
       {
-        name: 'Contactoare Diletta DILM Series',
-        description: `Contactoarele Eaton DILM (ex-Moeller) sunt workhorses în automatizările industriale: curenți nominali de la 9A până la 820A, categorii utilizare AC-1 (sarcini rezistive) și AC-3 (motoare), bobine comandă 24V DC, 230V AC sau 400V AC cu consum redus, contacte principale Ag/Ni rezistente la uzură. Durata de viață electrică până la 8 milioane operații pentru DILM7, contacte auxiliare frontale 2NO+2NC extensibile până la 8NO+8NC pentru logică comandă complexă. Protecție termică motor asigurată de releele termice seria PKZM: reglare curent 0.1-32A, clasă declanșare 10A conform IEC 60947, resetare manuală sau automată, contact NC pentru oprire linie. Combinațiile contactor + releu termic + întrerupător magneto-termic formează starter complet DOL (Direct-On-Line) pentru protecție și comandă motoare trifazate. Folosite masiv în pompare, ventilatoare, benzi transportoare, mașini-unelte. Montaj pe șină DIN sau fixare directă cu șuruburi, racordare prin șurub sau connect rapid tip arc.`
+        name: 'Contactoare DILM',
+        description: `Contactoarele Eaton DILM (ex-Moeller) sunt workhorses în automatizările industriale: curenți nominali de la 9A până la 820A, categorii utilizare AC-1 (sarcini rezistive) și AC-3 (motoare), bobine comandă 24V DC, 230V AC sau 400V AC cu consum redus, contacte principale Ag/Ni rezistente la uzură. Contacte auxiliare frontale 2NO+2NC extensibile până la 8NO+8NC pentru logică comandă complexă. Protecția motorului poate fi asigurată de întrerupătoarele de protecție a motorului din seria PKZM, care combină protecția la suprasarcină și la scurtcircuit; PKZM0 acoperă domeniul de reglaj 0,16–32 A. Combinațiile contactor + releu termic + întrerupător magneto-termic formează starter complet DOL (Direct-On-Line) pentru protecție și comandă motoare trifazate. Folosite masiv în pompare, ventilatoare, benzi transportoare, mașini-unelte. Montaj pe șină DIN sau fixare directă cu șuruburi, racordare prin șurub sau connect rapid tip arc.`
       },
       {
         name: 'UPS 9PX Tower/Rack 1-3 kVA',
-        description: `UPS-ul Eaton 9PX e soluția profesională pentru protecție servere, rețele și storage: tehnologie dublă conversie online (VFI-SS-111) pentru protecție totală împotriva tuturor perturbațiilor electrice, puteri de la 1 kVA până la 3 kVA, factor de putere 1.0 (kVA = kW) pentru alimentare completă a serverelor moderne cu alimentatoare PFC active. Eficiență >95% în mod online, >99% în mod eco (HE) pentru reducere costuri energie și răcire. Display LCD grafic touchscreen pentru monitorizare parametri (tensiune I/O, frecvență, sarcină, baterie), comunicație USB, serial, slot network-MS pentru SNMP/Modbus. Baterii interne pentru autonomie 5-10 minute standard, extensibil cu EBM (Extended Battery Module) până la 4+ ore pentru shutdown controlat prelungit. Carcasă tower convertibilă în rack 2U pentru montare în rack servere, hot-swappable baterii pentru înlocuire fără oprire echipament critic. Versiune tower/rack parallelabilă până la 6 unități pentru redundanță N+1 sau creștere putere. Garanție 3 ani cu opțiune extindere la 5 ani.`
+        description: `UPS-ul Eaton 9PX e soluția profesională pentru protecție servere, rețele și storage: tehnologie dublă conversie online (VFI-SS-111) pentru protecție totală împotriva tuturor perturbațiilor electrice, puteri de la 1 kVA până la 3 kVA, factor de putere 1.0 (kVA = kW) pentru alimentare completă a serverelor moderne cu alimentatoare PFC active. Eficiență de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model (1000–3000 VA). Display LCD grafic pentru monitorizare parametri (tensiune I/O, frecvență, sarcină, baterie), comunicație USB, serial, slot network-MS pentru SNMP/Modbus. Baterii interne pentru autonomie 5-10 minute standard, extensibil cu module externe de baterii EBM (Extended Battery Module, modul de baterii extins), până la patru module, pentru autonomie prelungită. Carcasă tower convertibilă în rack 2U pentru montare în rack servere, hot-swappable baterii pentru înlocuire fără oprire echipament critic. Garanție de 3 ani pentru componentele electronice, conform producătorului.`
       },
       {
         name: 'Variator de Frecvență PowerXL DA1',
-        description: `Drive-ul PowerXL DA1 e variator de viteză Eaton pentru motoare asincrone: puteri de la 0.37 kW până la 22 kW (0.5-30 HP), alimentare 1x230V sau 3x400V, control vectorial fără senzor (sensorless vector control) pentru cuplu constant de la 0 Hz, frecvență de ieșire 0-300 Hz pentru aplicații cu supraviteză. Funcții integrate: PID controller pentru aplicații pompare și ventilatoare cu control presiune/debit automat, frânare DC și frânare regenerativă pentru opriri rapide, protecție termică motor prin model electronic (fără PTC), skip frecvențe pentru evitare rezonanțe mecanice. Interfață utilizator: keypad cu display 4 linii text, programare rapidă prin Quick Setup Wizard, macrouri predefinite pentru pompe/ventilatoare/benzi. Comunicație: Modbus RTU serie standard, opțional Profibus DP, Profinet, EtherNet/IP, DeviceNet prin carduri de comunicație. Carcasă IP20 pentru montare în tablou electric, versiuni IP54/IP55 pentru montare liberă în medii industriale. Aplicații: pompare cu debit variabil, ventilatoare cu control presiune, benzi transportoare, mixere, extrudere, mașini textile. EMC filter integrat clasa C2 pentru emisii reduse.`
+        description: `Drive-ul PowerXL DA1 e variator de viteză Eaton pentru motoare asincrone: game de putere de la 0,75 kW până la 160 kW, în funcție de model, control vectorial fără senzor (sensorless vector control) pentru cuplu ridicat la turație mică, frecvență de ieșire reglabilă conform fișei tehnice a modelului. Funcții integrate: PID controller pentru aplicații pompare și ventilatoare cu control presiune/debit automat, frânare DC și frânare regenerativă pentru opriri rapide, protecție termică motor prin model electronic (fără PTC), skip frecvențe pentru evitare rezonanțe mecanice. Interfață utilizator: keypad cu display 4 linii text, programare rapidă prin Quick Setup Wizard, macrouri predefinite pentru pompe/ventilatoare/benzi. Comunicație: Modbus RTU serie standard, opțional Profibus DP, Profinet, EtherNet/IP, DeviceNet prin carduri de comunicație. Carcasă IP20 pentru montare în tablou electric, versiuni IP66 (până la 22 kW) pentru montare în afara tabloului, în medii industriale. Aplicații: pompare cu debit variabil, ventilatoare cu control presiune, benzi transportoare, mixere, extrudere, mașini textile. Filtru EMC (compatibilitate electromagnetică) integrat, clasa C2 sau C3 în funcție de model și de lungimea cablului motor.`
       }
     ],
     certifications: [
@@ -925,7 +925,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       'Industria alimentară',
       'OEM - constructori de mașini'
     ],
-    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimite-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimiteți-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
     sources: [
       {"title":"Electrical Circuit Protection – Product Overview","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1010,54 +1010,54 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton-filtration': {
-    founded: '1963',
-    headquarters: 'Tinton Falls, New Jersey, SUA',
-    employees: '85,000+ (Eaton Corporation)',
-    overview: `Divizia Eaton Filtration (fostă Hayward Filtration, apoi Strainrite) produce sisteme de filtrare industrială pentru lichide și gaze: filtre cu sac pentru debite mari și particule 1-200 microni, filtre cu cartuș pentru aplicații fine sub 1 micron, filtre automate backwash pentru procesare continuă fără opriri. Tehnologia producătorului acoperă de la filtrare grosieră apă de proces (500 microni) până la filtrare ultra-fină pentru industria farmaceutică (0.2 microni absoluți), de la debite mici de 1 m³/h până la instalații industriale de 1000+ m³/h.
+    founded: '',
+    headquarters: 'SUA (divizie Eaton)',
+    employees: '92,000+ (Eaton Corporation)',
+    overview: `Eaton Filtration oferă soluții de filtrare industrială: medii filtrante (saci, cartușe, foi filtrante), sisteme de filtrare și sorburi, precum și filtre pentru hidraulică și ungere. Gradul de filtrare, debitul și domeniul de utilizare depind de produs și se confirmă pe cod, din documentația Eaton.
 
-Corpurile de filtru din gamă sunt construite din oțel carbon vopsit, inox 304/316L sau materiale speciale (Hastelloy, titan) pentru lichide corosive. Presiuni de lucru până la 40 bar, temperaturi de la -20°C până la +200°C, conexiuni flanșate sau filetate de la DN25 până la DN600. Sacii de filtrare sunt disponibili în polyester, polypropylene, nylon, PTFE - fiecare material optimizat pentru un anumit tip de lichid și particule.
+Materialele, presiunea de lucru, temperatura și conexiunile corpurilor de filtru depind de model și se confirmă pe cod, din documentația Eaton. Sacii de filtrare sunt disponibili din polipropilenă, poliester, poliamidă (nailon), PTFE, PEEK și meta-aramidă, fiecare material fiind potrivit pentru anumite lichide și temperaturi.
 
-Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: de la vopsele și rășini, la produse alimentare și băuturi, de la apă de proces la uleiuri hidraulice, de la produse chimice la tratare ape uzate. Când procesul tău nu poate sta pentru schimbare filtre sau când particulele trebuie eliminate fără compromis, Eaton Filtration e o soluție de inginerie potrivită.`,
+Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar și băuturi, farmaceutic, precum și pentru hidraulică și ungere. Când procesul dumneavoastră nu poate sta pentru schimbare filtre sau când particulele trebuie eliminate fără compromis, Eaton Filtration e o soluție de inginerie potrivită.`,
     whyChoose: [
-      'Tehnologie Duo-Flow duplex - Două corpuri filtre paralele cu valve 3-way, filtrare continuă chiar și în timpul schimbării sacilor, zero downtime proces',
-      'Filtrare absolută vs nominală - Clarificare exactă: nominală = reține 90% particule peste mărimea specificată, absolută = reține 99.98% pentru aplicații critice',
-      'Auto-backwash pentru procese continue - Filtre automate cu spălare inversă programată sau la ΔP, fără oprire proces, fără manoperă zilnică',
-      'Conformitate FDA/3A/EHEDG - Materiale food-grade, finisaj electropolis Ra < 0.8 μm, design sanitar fără zone moarte pentru industria alimentară',
-      'Costuri operaționale minime - Saci de filtru reutilizabili prin spălare (polyester/nylon), durată de viață 6-12 luni',
-      'Certificări presiune ASME/PED - Corpuri de filtru certificate conform ASME Section VIII Div. 1 (SUA) și PED 2014/68/EU (Europa) pentru siguranță maximă'
+      'Sisteme de filtrare - Configurațiile disponibile (simplex, duplex) se stabilesc pe cod, din documentația Eaton',
+      'Filtrare absolută vs nominală - Definiția gradului de filtrare diferă între producători; o confirmăm din documentația Eaton pentru codul ales',
+      'Filtre pentru procese continue - Disponibilitatea variantelor automate cu spălare inversă se confirmă pe cod, din documentația Eaton',
+      'Saci filtranți pentru industria alimentară și farmaceutică - Eaton declară conformitatea cu cerințele FDA și UE; conformitatea exactă se confirmă pe cod',
+      'Saci Extended Life - Capacitate de reținere a impurităților mărită față de sacii standard, conform Eaton',
+      'Certificări de presiune - Se aplică după caz, în funcție de corpul de filtru; se confirmă pe cod'
     ],
     keyProducts: [
       {
-        name: 'Filtre cu Sac Simplex/Duplex Seria SBF',
-        description: `Filtrele cu sac SBF (Standard Bag Filter) sunt caii de bătălie pentru filtrare industrială: corp inox 304 sau 316L, capacitate 1 sac standard dimensiune #2 (180mm diametru x 810mm lungime), debite de la 5 până la 80 m³/h pe corp, finețe filtrare de la 1 micron până la 500 microni în funcție de materialul sacului. Sacul se prinde pe coșul suport perforat printr-un inel metalic la intrare - schimbare rapidă în 5 minute fără scule, capacitate retenție particule 5-15 kg per sac. Versiune Simplex pentru aplicații unde poți opri procesul pentru schimbare sac, versiune Duplex cu două corpuri paralele și valve 3-way pentru filtrare continuă - comuti pe corpul secundar, schimbi sacul pe primul, revii la normal. Presiune de lucru până la 10 bar, temperatură până la 120°C standard (180°C opțional), conexiuni flanșate DN40-DN150 sau filetate 1.5"-6" NPT. Aplicații: vopsele și lacuri, rășini și adezivi, cerneală de tipar, uleiuri vegetale, siropuri și băuturi, apă de proces. Un sac polyester poate fi spălat și reutilizat de 10+ ori.`
+        name: 'Filtre cu sac Eaton',
+        description: `Filtrele cu sac rețin particulele din lichidele de proces; gradul de filtrare depinde de materialul sacului (polipropilenă, poliester, poliamidă, PTFE, PEEK, meta-aramidă). Dimensiunile corpurilor, debitele, presiunile și temperaturile de lucru depind de model și se confirmă pe cod, din documentația Eaton.`
       },
       {
-        name: 'Filtre cu Cartuș Multi-Round Seria MCS',
-        description: `Când ai nevoie de filtrare mai fină și mai mare suprafață filtrare, sistemul MCS (Multi-Cartridge System) e soluția: corp inox 304/316L, capacitate 1-40 cartușe filtrante în paralel, debite de la 2 m³/h (1 cartuș) până la 300 m³/h (40 cartușe per corp), finețe de la 0.5 microni până la 100 microni. Cartușele sunt tipul pleat (plisat) din polypropylene, polyester, fibră de sticlă sau PTFE - suprafață filtrare 0.5-2.5 m² per cartuș versus ~0.35 m² per sac. Înseamnă că filtrezi mai fin și mai mult debit în același volum. Configurație top-load (încarci cartușele de sus după deschidere capac) sau side-load (încarci lateral prin ușă), O-ring viton sau EPDM pentru etanșare, test presiune la 1.5x presiunea de design. Folosit pentru: pre-filtrare înaintea filtrelor absolute în farmacie, filtrare apă de proces pentru electronice, filtrare finală în industria băuturilor (bere, vin, sucuri), protecție pompe dozatoare în tratare chimică. Cartușe depth (profunzime) pentru particule fine lipicioase, cartușe surface (suprafață) pentru particule dure. Schimbare cartușe o dată la 3-6 luni.`
+        name: 'Filtre cu cartuș Eaton',
+        description: `Filtrele cu cartuș se aleg după gradul de filtrare, materialul cartușului și compatibilitatea chimică cu lichidul. Debitele, presiunile și numărul de cartușe depind de model și se confirmă pe cod, din documentația Eaton.`
       },
       {
-        name: 'Filtre Automate Backwash Seria ABF',
-        description: `Filtrele automate cu spălare inversă ABF sunt soluția pentru procesare continuă fără intervenție operator: corp inox sau carbon steel, element filtrant cilindric din plasă wedge-wire inox (25-500 microni) sau din discuri plastice, debite de la 10 până la 500 m³/h per unitate, spălare automată declanșată fie de ΔP differential (când filtrul se înfundă și presiunea diferențială crește), fie de timer programabil (ex: o dată la 8 ore). Procesul de backwash durează 30-90 secunde: valve motorizate redirecționează fluxul invers prin element filtrant, particulele acumulate sunt spălate în colector și evacuate prin drain, apoi sistemul revine automat la filtrare normală. Pierdere de apă/produs în timpul backwash: 1-3% din debit total - mult mai economic decât oprire proces pentru curățare manuală. Control local prin PLC cu touchscreen sau integrare în SCADA fabrică prin Modbus. Aplicații: filtrare apă de răcire circuite închise, pre-filtrare osmoza inversă, filtrare apă irigații în agricultură, protecție schimbătoare căldură în rafinării. Zero manoperă, zero consumabile - doar energie electrică și apă de spălat (care poate fi și din proces).`
+        name: 'Filtre automate cu spălare inversă',
+        description: `Filtrele automate cu spălare inversă sunt destinate proceselor continue. Disponibilitatea unei astfel de soluții în gama Eaton și parametrii ei (debit, presiune, finețe) se confirmă pe cod, din documentația producătorului.`
       },
       {
-        name: 'Filtre Magnetice Seria MAG pentru Particule Feroase',
-        description: `Filtrele magnetice seria MAG elimină particulele feroase (oxid de fier, așchii metalice, pilitură) din lichide: corp inox cu bare magnetice neodim-fier-bor (NdFeB) de înaltă putere (10,000-12,000 Gauss), configurație parallele sau concentrică pentru flux uniform, capacitate retenție până la 5 kg particule feroase per element magnetic. Particulele metalice sunt atrase și reținute pe suprafața barelor magnetice, lichidulcurat trece prin filtru fără pierdere presiune semnificativă. Curățare: o dată pe lună scoți barele magnetice din corp, ștergi particulele acumulate cu o lavetă, repui barele - 15 minute total. Nu are consumabile, nu are pierdere de încărcare mare, durată viață 10+ ani fără degradare putere magnetică. Aplicații critice: uleiuri hidraulice (protecție servovalve sensibile la particule >5 microni), lichide de răcire mașini-unelte (eliminare așchii fine metalice), uleiuri de transformatoare (eliminare particule feroase din uzură), lubrifianți industriali. Adesea folosit în combinație cu filtre mecanice clasice: filtrul magnetic capturează particulele feroase (cele mai abrazive), filtrul mecanic capturează restul. Montare inline în conducta principală, conexiuni flanșate DN25-DN300, presiune până la 40 bar.`
+        name: 'Filtre magnetice pentru particule feroase',
+        description: `Filtrele magnetice rețin particulele feroase (oxid de fier, așchii, pilitură) din lichide. Disponibilitatea lor în gama Eaton și parametrii (intensitate magnetică, debit, presiune) se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
       'ISO 9001:2015 - Calitate producție certificată',
       'ASME Section VIII Div. 1 - Recipiente sub presiune SUA',
       'PED 2014/68/EU - Directive echipamente sub presiune UE',
-      '3-A Sanitary Standards - Echipamente industria alimentară SUA',
-      'EHEDG - European Hygienic Engineering & Design Group',
+      'Conformități pentru industria alimentară - se confirmă pe cod, din documentația Eaton',
+      'Certificările de igienă și de presiune depind de produs - se confirmă pe cod',
       'FDA CFR Title 21 - Materiale contact alimente',
       'CE Marking - Conformitate UE',
-      'ATEX - Versiuni pentru zone cu pericol explozie'
+      'Versiunile pentru zone cu pericol de explozie se confirmă pe cod'
     ],
     industries: [
       'Industria alimentară și băuturi',
@@ -1071,7 +1071,7 @@ Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: 
       'Rafinării petrol',
       'Industria cosmetică'
     ],
-    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimite-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimiteți-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Filtration Products Catalog – Eaton","url":"https://www.eaton.com/us/en-us/catalog/filtration.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1165,43 +1165,43 @@ Eaton Filtration are peste 60 de ani de experiență în filtrare industrială: 
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'eaton-hydraulics': {
-    founded: '1920',
-    headquarters: 'Eden Prairie, Minnesota, SUA (divizie Eaton)',
-    employees: '85,000+ (Eaton Corporation)',
-    overview: `Divizia Eaton Hydraulics produce componente hidraulice industriale și mobile de înaltă performanță: pompe cu pistoane axiale de la 5 cc/rev până la 250 cc/rev, motoare hidraulice pentru tracțiune și antrenare, valve de control proporțional și direcțional, cilindri hidraulici de la 25mm până la 500mm diametru piston. Moștenirea Eaton Hydraulics include brandurile Vickers, Char-Lynn, Aeroquip - nume care înseamnă fiabilitate în hidraulică de peste 100 de ani.
+    founded: '',
+    headquarters: 'SUA (gama de filtrare hidraulică Vickers, divizie Eaton)',
+    employees: '92,000+ (Eaton Corporation)',
+    overview: `Eaton a vândut în 2021 afacerea de hidraulică (pompe, motoare, valve, cilindri) către Danfoss. Gama pe care Eaton o publică în prezent sub numele Vickers este cea de filtrare hidraulică: filtre de retur, filtre de presiune, filtre spin-on, sorburi de aspirație și breathere, conform catalogului Vickers Filtration. Descrierile de mai jos pentru pompe, motoare, valve și cilindri provin din istoricul brandurilor Vickers și Char-Lynn; parametrii tehnici se confirmă pe cod, din documentația producătorului actual al fiecărei game.
 
-Tehnologia producătorului de pompe cu displacement variabil permite controlul precis al vitezei și cuplului fără pierderi energetice - eficiență peste 93% la presiuni de lucru de 350-420 bar. Pompele Vickers PVH sunt standard în prese hidraulice, mașini de injecție plastic, excavatoare și utilaje agricole. Motoarele cu pistoane radiale Char-Lynn din gamă oferă cuplu ridicat la viteză mică - potrivite pentru antrenare directă roți sau șenile fără cutie de viteze.
+Pompele Vickers PVH sunt pompe cu pistoane cu cilindree variabilă, iar motoarele Char-Lynn sunt motoare hidraulice orbitale cu cuplu ridicat la turație mică. Eficiența, presiunea și cuplul depind de model și se confirmă pe cod.
 
-Sistemul de valve electrohidraulice permite control milimetric al poziției cilindrilor prin feedback loop și servo-valve: răspuns sub 10ms, histereza sub 0.1%, repetabilitate poziționare ±0.05mm. Când construiești o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegi Eaton Hydraulics.`,
+Valvele electrohidraulice proporționale permit comanda poziției și vitezei cilindrilor; timpul de răspuns, histerezisul și repetabilitatea depind de model și se confirmă pe cod. Când construiți o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegeți Eaton Hydraulics.`,
     whyChoose: [
-      'Pompe Vickers PVH displacement variabil - Eficiență >93% la 350 bar, control electronic debit prin proportional solenoid, presiune maximă 420 bar',
-      'Motoare Char-Lynn orbitale compacte - Cuplu constant de la 0 rpm, disponibile Ø25-800 cc/rev, ideale pentru antrenare directă roți excavatoare/stivuitoare',
-      'Valve proporțional CMA/KBCG/KDG - Răspuns <15ms, control electronic 0-10V sau 4-20mA, integrare PLC/CNC pentru automatizare completă',
-      'Tehnologie Load Sensing - Pompe LS care furnizează doar debitul și presiunea necesară, economie energie 30-50% vs sisteme cu debit constant',
-      'Filtrare integrată și fiabilitate - Toleranțe strânse fabricație, finețe filtrare recomandată ISO 18/16/13, durată de viață >20,000 ore în condiții normale',
-      'Certificări industriale și mobile - ISO 9001, ISO 4406 (curățenie hidraulică), certificare CE pentru mașini mobile, conformitate EPA Tier 4 pentru off-highway'
+      'Pompe Vickers PVH cu cilindree variabilă - Parametrii (presiune, eficiență, comandă) depind de model și se confirmă pe cod',
+      'Motoare Char-Lynn orbitale - Cuplu ridicat la turație mică; cilindreea și cuplul depind de model și se confirmă pe cod',
+      'Valve proporționale - Timpul de răspuns și tipul de comandă electronică depind de model și se confirmă pe cod',
+      'Tehnologie Load Sensing - Pompele cu load sensing furnizează debitul cerut de sarcină; economia de energie depinde de instalație',
+      'Filtrare hidraulică Vickers - Filtre de retur, de presiune, spin-on, sorburi de aspirație și breathere, conform catalogului Vickers Filtration',
+      'Certificările depind de produs și se confirmă pe cod, din documentația producătorului'
     ],
     keyProducts: [
       {
-        name: 'Pompe cu Pistoane Vickers PVH Series',
-        description: `Pompele Vickers PVH sunt pompe de înaltă performanță în hidraulică industrială: displacement variabil de la 57 cc/rev până la 250 cc/rev, presiune maximă continuă 350 bar (5000 PSI), vârfuri până la 420 bar, viteză rotație 1200-1800 rpm nominală (max 3600 rpm pentru aplicații speciale), eficiență volumetrică >95% și eficiență globală >93%. Control displacement prin piston de comandă cu compensator de presiune (CP), load sensing (LS) sau electric proportional (EPR) pentru integrare în sisteme automatizate. Construcție robustă: carter fontă ductilă, bloc cilindri bronz-oțel, pistoane tratat termic, rulmenți cu role conice pentru sarcini axiale mari. Montare pe motor electric prin cuplaj elastic SAE B sau direct pe cutie viteze pentru aplicații mobile. Aplicații: prese hidraulice 500+ tone, mașini injecție plastic >1000 tone, excavatoare și buldozere clasa >30 tone, mașini-unelte heavy-duty. Service la 10,000 ore sau 2 ani - schimbare filtre hidraulice și verificare uzură pistoane. Garanție 2 ani sau 4000 ore de funcționare.`
+        name: 'Pompe cu pistoane Vickers PVH',
+        description: `Pompele Vickers PVH sunt pompe cu pistoane axiale cu cilindree variabilă pentru hidraulică industrială și mobilă. Gama de cilindree, presiunea, turația, tipurile de comandă și intervalele de service depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
       },
       {
         name: 'Motoare Hidraulice Char-Lynn Orbitale',
-        description: `Motoarele Char-Lynn (acum Eaton) sunt motoare compacte cu cuplu mare: tehnologie gerotor cu rotor interior și stator exterior, displacement de la 25 cc/rev (pentru aplicații mici) până la 800 cc/rev (pentru antrenare directă roți excavatoare), cuplu continuu de la 50 Nm până la 4000 Nm, presiune maximă 250 bar (3600 PSI), viteză maximă până la 600 rpm. Avantaj major: cuplu constant de la 0 rpm - perfect pentru start în pantă sau antrenare la viteză mică. Configurații: cu flanșă SAE pentru montare pe reductor, cu ax canelat pentru antrenare directă, cu frână de parcare internă negativă (frânează când lipsa presiunii), cu valve de make-up pentru circuite închise. Aplicații: antrenare roți excavatoare mini și midi, antrenare șenile buldozere, rotire turelă macarale, antrenare benzi transportoare, mixere beton, mașini agricole (semănători, combine). Mentenanță minimă - verificare nivel ulei și schimbare la 2000 ore. Durată de viață >15,000 ore în utilizare normală.`
+        description: `Motoarele Char-Lynn sunt motoare hidraulice orbitale (gerotor) cu cuplu mare la turație mică. Cilindreea, cuplul, presiunea, turația maximă și intervalele de mentenanță depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
       },
       {
-        name: 'Valve Proporțional Electrohidraulice CMA',
-        description: `Valvele CMA (Closed Center Mobile Applications) sunt valve direcționale proporțional cu control electronic pentru hidraulică mobilă: 2-6 secțiuni comandate independent, debite de la 40 LPM până la 300 LPM per secțiune, presiune maximă 350 bar, control electronic prin solenoid proportional 12V DC sau 24V DC cu curent 0-3A. Fiecare secțiune are comandă proporțională pe ambele sensuri (A și B) pentru control precis viteză cilindru sau motor hidraulic. Funcții integrate: compensare presiune pe fiecare secțiune pentru mișcări simultane independente de sarcină, anti-cavitare pe porturile A/B, relief presiune setabil per secțiune, load-sensing pentru economie combustibil. Configurație modulară - adaugi secțiuni în funcție de număr de consumatori hidraulici (exemplu: excavator mic are 6 secțiuni = braț, cupă, rotire, transare, opțional quickcoupler + rotator hidraulic). Montare pe platforma mașinii mobile, comandă prin joystick electronic multi-ax sau butoane proporționale. Aplicații: excavatoare, încărcătoare frontale, macarale mobile, platforme nacele, utilaje forestiere. Certificare ISO 4401 pentru montare valve, protecție IP65 conector electric.`
+        name: 'Valve proporționale electrohidraulice CMA',
+        description: `Valvele CMA sunt valve direcționale proporționale pentru hidraulica mobilă. Numărul de secțiuni, debitul, presiunea și tensiunea bobinelor depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
       },
       {
         name: 'Cilindri Hidraulici Seria Welded/Tie-Rod',
-        description: `Cilindrii hidraulici seria Welded/Tie-Rod acoperă orice aplicație industrială sau mobilă: versiune welded (sudate) pentru aplicații grele mobile - excavatoare, buldozere, prese - cu diametru piston 40-500mm, cursă până la 6000mm, presiune 250-350 bar. Construcție: țeavă îngroșată sudată pe capete, piston forjat cu garnituri poliuretan + NBR, tijă cromată dur Ø25-320mm tratată termic pentru uzură minimă, fixare prin ochi forjat sau flanșă SAE. Versiune tie-rod (cu tije de strângere) pentru aplicații industriale fixe - prese, mașini-unelte, linii de producție - cu diametru 32-250mm, cursă până la 3000mm, presiune până la 250 bar, montare prin tije filetate care strâng capetele pe țeavă. Opțiuni: senzor magnetic poziție pentru feedback PLC, amortizare hidraulică la capete de cursă pentru oprire lină, garnituri speciale pentru temperaturi -40°C până +200°C sau lichide corosive. Testare la 1.5x presiunea de design înainte de livrare, certificat de conformitate inclus. Aplicații: brațe excavatoare, sistemele de basculare camioane, prese hidraulice, porți de ecluză, platforme elevatoare, simulatoare și teststands.`
+        description: `Cilindrii hidraulici sunt disponibili în versiuni sudate (pentru aplicații mobile grele) și cu tiranți (pentru aplicații industriale fixe). Diametrele, cursele, presiunile, garniturile și opțiunile se confirmă pe cod, din documentația producătorului actual al gamei.`
       }
     ],
     certifications: [
@@ -1209,7 +1209,7 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       'ISO 4406 - Standard de curățenie hidraulică',
       'ISO 4401 - Mounting interface pentru valve hidraulice',
       'CE Marking - Conformitate directivă mașini',
-      'EPA Tier 4 - Emisii pentru echipamente mobile off-highway',
+      'Certificările depind de produs și se confirmă pe cod',
       'SAE Standards - Conectori hidraulici și montare pompe',
       'NFPA T3.5.1 - Standard cilindri hidraulici SUA',
       'RoHS - Componente fără substanțe periculoase'
@@ -1226,7 +1226,7 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       'Naval și offshore',
       'Aviație - sisteme hidraulice aeronave'
     ],
-    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimite-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimiteți-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
     sources: [
       {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},
@@ -1299,11 +1299,11 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       },
       {
         "q": "Cum aleg între un breather BR110 și unul MBR110 de la Eaton?",
-        "a": "Diferența ține de aplicație: BR110 este gândit pentru rezervoare hidraulice stationare și reține umiditatea și particulele din aerul admis, în timp ce MBR110 este varianta Mobile-gate, adaptată vibrațiilor și condițiilor întâlnite pe utilaje mobile. Ambele coduri apar în catalogul Vickers Filtration publicat de Eaton, alături de variantele BR210 și MBR120."
+        "a": "Diferența ține de aplicație: BR110 este gândit pentru rezervoare hidraulice staționare și reține umiditatea și particulele din aerul admis, în timp ce MBR110 este varianta Mobile-gate, adaptată vibrațiilor și condițiilor întâlnite pe utilaje mobile. Ambele coduri apar în catalogul Vickers Filtration publicat de Eaton, alături de variantele BR210 și MBR120."
       },
       {
         "q": "Ce presiune suportă filtrele de presiune Eaton seria HF?",
-        "a": "Filtrele de presiune din familia HF, respectiv HF2P, HF3P și HF4P, suportă în general între 275 și 420 bar, în funcție de model și de elementul filtrant ales, conform broșurii Vickers Filtration. Alegerea corectă depinde de debitul instalației dumneavoastră și de nivelul de contaminare țintă pentru fluidul hidraulic."
+        "a": "Filtrele de presiune din familia HF, respectiv HF2P, HF3P și HF4P, suportă între 280 și 420 bar, în funcție de serie (HF2P: 280 bar, HF4P: 345 bar, HF3P: 420 bar), în funcție de model și de elementul filtrant ales, conform broșurii Vickers Filtration. Alegerea corectă depinde de debitul instalației dumneavoastră și de nivelul de contaminare țintă pentru fluidul hidraulic."
       },
       {
         "q": "Livrați filtre Eaton Vickers în România?",
@@ -1311,43 +1311,43 @@ Sistemul de valve electrohidraulice permite control milimetric al poziției cili
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'emerson': {
     founded: '1890',
     headquarters: 'Ferguson, Missouri, SUA',
-    employees: '86,000+',
+    employees: '',
     overview: `Emerson este unul dintre marii producători mondiali în tehnologie de automatizare industrială și control de proces: sisteme DCS (Distributed Control Systems) DeltaV pentru rafinării și chimie, transmițătoare inteligente Rosemount pentru presiune/temperatură/debit, valve de control Fisher cu actuatoare pneumatice și electrice, analizoare de proces pentru gaze și lichide, sisteme SCADA și software de optimizare proces. Cu peste 130 de ani în industrie, tehnologia Emerson echipează numeroase rafinării și fabrici chimice mari la nivel mondial.
 
-Tehnologia producătorului PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnostic predictiv integrat în fiecare instrument alertează operatorii înainte ca echipamentul să se defecteze - reducere semnificativă a downtime-ului neplanificat. Valvele de control Fisher sunt cunoscute pentru fiabilitate: peste 1 milion de cicluri fără service, etanșeitate clasă VI conform ANSI/FCI, dimensiuni de la DN15 până la DN600.
+Tehnologia producătorului PlantWeb permite digitalizarea completă a instalațiilor industriale: fiecare transmițător, valvă și analizor comunică prin HART, Foundation Fieldbus sau WirelessHART direct cu sistemul de control. Diagnosticul integrat în instrumentele compatibile poate semnala din timp abaterile de funcționare, conform documentației producătorului. Valvele de control Fisher sunt cunoscute pentru fiabilitate; seria easy-e ED acoperă mărimile NPS 1–8 (clase CL125–CL600), iar seria EW ajunge până la NPS 12x8.
 
-Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță completă (controllere duble, rețele duale, servere fail-over), scalabilitate de la 50 până la 25,000 I/O points, interfață operator modernă touch cu grafice HD, integrare nativă sisteme de siguranță SIS (Safety Instrumented Systems) conform IEC 61511. Emerson este un furnizor consacrat pentru procese unde calitatea produsului depinde de control precis.`,
+Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță completă (controllere duble, rețele duale, servere fail-over), scalabilitate modulară de la sisteme mici la instalații mari (de exemplu controlerul MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv), interfață operator DeltaV Live, sisteme de siguranță SIS (Safety Instrumented Systems, sisteme instrumentate de siguranță) disponibile ca produs separat. Emerson este un furnizor consacrat pentru procese unde calitatea produsului depinde de control precis.`,
     whyChoose: [
-      'Transmițătoare Rosemount seria 3051 - Precizie ±0.04% FS, stabilitate 10 ani fără re-calibrare, tehnologie coplanar pentru măsurare presiune diferențială fără drift',
-      'Valve de control Fisher ED/EWD - Actuatoare electrice Fieldvue cu diagnostic integrat, etanșeitate clasă VI (0.1 ml/min per inch la ΔP), durată viață >1 milion cicluri',
-      'DeltaV DCS scalabil modular - De la sisteme mici 50 I/O până la instalații uriașe 25,000+ I/O, redundanță completă fără single-point-of-failure',
-      'WirelessHART pentru retrofit - Retrofit instalații vechi cu senzori wireless fără cablare, baterii 10 ani autonomie, mesh network auto-healing',
-      'AMS Asset Management Suite - Software centralizat pentru management 10,000+ instrumente, diagnostic predictiv cu machine learning, planificare mentenanță',
+      'Transmițătoare Rosemount seria 3051 - Precizie de referință ±0.04% din span pentru gamele 1–4, stabilitate ±0.2% din URL (Upper Range Limit, limita superioară a domeniului) pe 10 ani la modelul 3051P, tehnologie Coplanar',
+      'Valve de control Fisher easy-e ED și EW - valve cu corp glob (seria ED, NPS 1–8, CL125–CL600) și cu tijă culisantă (seria EW, până la NPS 12x8), cu clase de etanșare II–V în funcție de model',
+      'DeltaV DCS scalabil modular - De la sisteme mici la instalații mari (controlerul MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv), cu redundanță 1:1 a controlerului',
+      'WirelessHART pentru retrofit - Retrofit instalații vechi cu senzori wireless fără cablare, baterii cu autonomie de lungă durată, în funcție de dispozitiv și de rata de actualizare, mesh network auto-healing',
+      'AMS Asset Management Suite - Software centralizat pentru managementul instrumentelor de câmp, diagnostic predictiv și planificarea mentenanței',
       'Certificări SIL 2/3 pentru siguranță - Sisteme instrumentate de siguranță (SIS) certificate conform IEC 61508/61511 pentru aplicații critice (ESD, fire&gas)'
     ],
     keyProducts: [
       {
         name: 'Transmițător Presiune Rosemount 3051',
-        description: `Seria 3051 este o gamă consacrată de transmițătoare de presiune în industria de proces: tehnologie senzor capacitiv coplanar din safir monocristalin pentru stabilitate pe termen lung fără drift, precizie ±0.04% din span calibrat, game de măsurare de la 0-1 mbar până la 0-400 bar (presiune absolută, relativă sau diferențială), ieșire 4-20mA cu protecol HART digital suprapus pentru configurare și diagnostic de la distanță. Carcasă turnată aluminiu sau inox 316L, protecție IP66/IP68 (subersibil), certificare ATEX/IECEx pentru zone Ex ia/ib, clasificare SIL 2 conform IEC 61508. Versiuni disponibile: presiune absolută pentru măsurare nivel tank printr-o singură priză (presiune hidrostatică), presiune diferențială pentru măsurare debit prin diafragmă/ventury/pitot, presiune relativă (gauge) pentru monitorizare presiune linie. Opțiuni: display LCD local pentru vizualizare fără handheld, conexiuni proces flanșe remotseal pentru lichide fierbinți/vâscoase/corozive, separatoare de membrană pentru aplicații sanitare food&pharma. Aplicații: măsurare nivel rezervoare, măsurare debit prin elemente primare (diafragmă orifice), monitorizare presiune reactor/coloană distilare, control pompe. Calibrare o dată la 5 ani, garanție 5 ani standard.`
+        description: `Seria 3051 este o gamă consacrată de transmițătoare de presiune în industria de proces: tehnologie Coplanar, precizie de referință ±0.04% din span pentru gamele 1–4, game de măsurare care depind de model (presiune absolută, relativă sau diferențială), ieșire 4-20mA cu protocol HART digital suprapus pentru configurare și diagnostic de la distanță. Carcasă turnată aluminiu sau inox 316L, protecție IP66/IP68 (submersibil), în funcție de opțiunea comandată, certificare ATEX/IECEx pentru zone Ex ia/ib, clasificare SIL 2 conform IEC 61508. Versiuni disponibile: presiune absolută pentru măsurare nivel tank printr-o singură priză (presiune hidrostatică), presiune diferențială pentru măsurare debit prin diafragmă/tub Venturi/tub Pitot, presiune relativă (gauge) pentru monitorizare presiune linie. Opțiuni: display LCD local pentru vizualizare fără handheld, conexiuni proces flanșe remotseal pentru lichide fierbinți/vâscoase/corozive, separatoare de membrană pentru aplicații sanitare food&pharma. Aplicații: măsurare nivel rezervoare, măsurare debit prin elemente primare (diafragmă orifice), monitorizare presiune reactor/coloană distilare, control pompe. Garanția este de 3 sau 5 ani, în funcție de opțiunea comandată (WR3 sau WR5), iar intervalul de recalibrare îl stabilește utilizatorul.`
       },
       {
-        name: 'Valve de Control Fisher ED/EWD cu Actuator Electric',
-        description: `Valvele Fisher cu actuator electric Fieldvue sunt soluția când nu ai aer comprimat disponibil sau când vrei diagnostic avansat: corp valvă globe sau rotativ (fluture/bile) din oțel carbon, inox 304/316/alloy 20, mărimi DN15-DN300, presiuni până la PN420 (ANSI 2500), temperaturi -196°C până +540°C. Actuator electric Fieldvue DVC6200 cu servomotor brushless: cuplu de la 68 Nm până la 2034 Nm, viteză stroke 0.5-60 secunde pentru cursă completă, poziționare precisă ±0.5%, feedback poziție prin HART/Foundation Fieldbus/Profibus. Etanșeitate clasă VI conform ANSI/FCI 70-2 (max 0.15 ml/min per inch diametru scaun la ΔP testare) pentru aplicații cu gaze toxice sau scumpe. Diagnostic integrat: detectare fricțiune crescută (semn uzură ghidaj), detectare cavitare/flashing în lichide, alarmă dacă actuatorul nu mai poate poziționa corect. Configurație fail-safe: la pierdere alimentare merge în poziție închis (fail-close) sau deschis (fail-open) prin arc de siguranță. Aplicații: controlul debitului în rafinării (produse petroliere), controlul presiunii în fabrici chimice, dozare precisă reactivi, control temperatură prin reglare abur. Service recomandat la 2-3 ani sau 500,000 cicluri - verificare garnituri și lubrifiere. Garanție 3 ani cu posibilitate extindere la 5.`
+        name: 'Valve de Control Fisher easy-e ED și EW',
+        description: `Valvele Fisher easy-e ED sunt valve de control cu corp glob, cu un singur scaun, ghidare în cușcă și dop echilibrat, în mărimi NPS 1–8 (DN25–DN200) și clase CL125–CL600; temperatura de lucru depinde de materialul corpului (de exemplu -198°C până la +593°C la corp din inox, -29°C până la +427°C la oțel carbon). Valvele se acționează de regulă cu actuatoare pneumatice cu diafragmă (de exemplu seria 667); valorile de cuplu, viteză și precizie de poziționare depind de actuatorul și de controlerul ales și se confirmă din documentația Emerson pe cod. Clasele de etanșare disponibile la seria ED sunt II, III, IV și V, conform ANSI/FCI 70-2.  Configurație fail-safe: la pierdere alimentare merge în poziție închis (fail-close) sau deschis (fail-open) prin arc de siguranță. Aplicații: controlul debitului în rafinării (produse petroliere), controlul presiunii în fabrici chimice, dozare precisă reactivi, control temperatură prin reglare abur. Intervalul de service și condițiile de garanție se confirmă din documentația producătorului.`
       },
       {
         name: 'Sistem DCS DeltaV pentru Control de Proces',
-        description: `DeltaV DCS e sistemul distribuit de control pentru fabrici de proces continuu: arhitectură modernă controller-based cu fiecare controller MD Plus/MQ rulând independent (nu depinde de server pentru control real-time), capacitate 750 I/O points per controller, redundanță completă - controllere redundante, switch-uri rețea redundante, servere fail-over, alimentare dublă. Interfață operator ProPlus cu ecrane touchscreen full-HD, grafice vectoriale SVG pentru vizualizare proces, alarme inteligente care te anunță de probleme reale nu de fleacuri. Engineering tools integrate: configurare loop-uri de control prin drag-and-drop, bibliteci de blocuri funcționale predefinite pentru PID/split-range/cascade/ratio, simulare offline pentru testare înainte de commissioning. Comunicație nativă: HART, Foundation Fieldbus, WirelessHART, Modbus TCP, OPC UA pentru integrare cu MES/ERP. Module de siguranță SIS integrate conform IEC 61511 SIL 2/3 pentru funcții critice (ESD - Emergency Shutdown, F&G - Fire & Gas detection). Aplicații: rafinării petrol (CDU, FCC, hydrotreating), fabrici chimice (reactoare batch/continuu), farmaceutice (fermentare, purificare), pulp&paper, food&beverage. Scalabil de la instalații mici (1 controller, 100 I/O) până la mega-projects (100+ controllers, 20,000 I/O). Garanție hardware 2 ani, suport software printr-un contract SupportNet.`
+        description: `DeltaV DCS e sistemul distribuit de control pentru fabrici de proces continuu: arhitectură cu controlere distribuite (de exemplu MX și MQ), cu capacitate care depinde de model (MX: de la 50 până la 1500 DST - Device Signal Tags, etichete de semnal de dispozitiv) și redundanță 1:1 a controlerului. Interfața operator este DeltaV Live, descrisă de producător drept HMI (Human-Machine Interface, interfață om-mașină) avansat și intuitiv. Engineering tools integrate: configurare loop-uri de control prin drag-and-drop, biblioteci de blocuri funcționale predefinite pentru PID/split-range/cascade/ratio, simulare offline pentru testare înainte de commissioning. Comunicație nativă: HART, Foundation Fieldbus, WirelessHART, Modbus TCP, OPC UA pentru integrare cu MES/ERP. Module de siguranță SIS integrate conform IEC 61511 SIL 2/3 pentru funcții critice (ESD - Emergency Shutdown, F&G - Fire & Gas detection). Aplicații: rafinării petrol (CDU, FCC, hydrotreating), fabrici chimice (reactoare batch/continuu), farmaceutice (fermentare, purificare), pulp&paper, food&beverage. Condițiile de garanție și de suport software se confirmă din documentația producătorului.`
       },
       {
         name: 'Debitmetru Magnetic Rosemount 8700M',
-        description: `Debitmetrele electromagnetice Rosemount 8700M măsoară debit lichide conductive fără piese mobile, fără pierdere de sarcină: principiu Faraday - lichid conductor trece prin câmp magnetic, se generează tensiune proporțională cu viteza, precizie ±0.25% din rată măsurată (nu din full-scale!), repetabilitate ±0.1%, game de măsurare de la 0.03 m/s până la 12 m/s viteză liniară. Mărimi țeavă DN10 până la DN3000, presiuni până la PN40 (ANSI 600), temperaturi -10°C până +180°C standard. Configurație: senzor (flow tube) instalat în linie, transmițător montat remote sau integral pe senzor, liner interior PTFE/PFA/cauciuc/ceramică în funcție de lichid (acid/bazic/abraziv), electrozi inox 316L sau Hastelloy C pentru lichide super-corozive. Versiune hygienică 3A/EHEDG cu finisaj electropolis pentru industria alimentară și pharma. Comunicație: ieșire 4-20mA + HART standard, opțional Foundation Fieldbus/Profibus/Modbus, puls output pentru totalizator. Aplicații: măsurare debit apă de proces, dozare acid/bazic în neutralizare, măsurare debit pulpe minerale în miniere, debit lapte/suc în food processing, debit pastă hârtie în pulp&paper. Nu funcționează cu: uleiuri (non-conductive), gaze, lichide cu solide >50% volum. Calibrare: factory calibrated, verificare la 5 ani prin comparație cu flow stand traceable. Garanție 3 ani.`
+        description: `Debitmetrele electromagnetice Rosemount 8700M măsoară debit lichide conductive fără piese mobile, fără pierdere de sarcină: principiu Faraday - lichid conductor trece prin câmp magnetic, se generează tensiune proporțională cu viteza, precizie ±0.25% din rată măsurată (nu din full-scale!), viteză de curgere măsurată între 0 și 12 m/s. Senzorul cu flanșe 8705 se livrează pentru țevi de la DN15 la DN900; temperatura de proces depinde de materialul căptușelii (de exemplu PTFE/PFA: de la -50°C până la +177°C), iar presiunea maximă depinde de modelul de senzor și de clasa flanșei. Configurație: senzor (flow tube) instalat în linie, transmițător montat remote sau integral pe senzor, liner interior PTFE/PFA/cauciuc/ceramică în funcție de lichid (acid/bazic/abraziv), electrozi inox 316L sau Hastelloy C pentru lichide super-corozive. Versiunea higienică (senzorul 8721, DN15–DN100) este certificată 3-A, pentru industria alimentară și farmaceutică. Comunicație: ieșire 4-20mA + HART standard, opțional Foundation Fieldbus/Profibus/Modbus, puls output pentru totalizator. Aplicații: măsurare debit apă de proces, dozare acid/bazic în neutralizare, măsurare debit pulpe minerale în miniere, debit lapte/suc în food processing, debit pastă hârtie în pulp&paper. Nu se utilizează pentru lichide neconductive (de exemplu uleiurile) și nici pentru gaze. Senzorii se livrează calibrați din fabrică; intervalul de verificare și condițiile de garanție se confirmă din documentația producătorului.`
       }
     ],
     certifications: [
@@ -1357,22 +1357,21 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       'ATEX/IECEx - Echipamente zone explozive',
       'CE Marking - Conformitate PED pentru valve sub presiune',
       '3-A Sanitary Standards - Echipamente food grade',
-      'NACE MR0175 - Materiale pentru servicii H₂S (sour gas)',
-      'API 6D - Valve pentru petrol & gaz'
+      'NACE MR0175 - Materiale pentru servicii H₂S (sour gas)'
     ],
     industries: [
       'Rafinării petrol și petrochimie',
       'Industria chimică și farmaceutică',
       'Energie - centrale electrice',
-      'Oil & Gas - upstream, midstream, downstream',
-      'Pulp & paper',
+      'Petrol și gaze - extracție, transport și prelucrare',
+      'Industria hârtiei și celulozei',
       'Industria alimentară și băuturi',
-      'Mining și minerale',
+      'Industria minieră și minerale',
       'Apă și ape uzate',
-      'Life sciences - biotehnologie',
-      'Metals & mining - siderurgie'
+      'Științele vieții - biotehnologie',
+      'Metalurgie - siderurgie'
     ],
-    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, trimite-ne datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, vă rugăm să ne transmiteți datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului; revenim cu ofertă și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
     sources: [
       {"title":"Fisher easy-e ED Control Valve","url":"https://www.emerson.com/en/final-control/products/fisher-ed","publisher":"Emerson","accessed":"2026-09-22"},
@@ -1432,7 +1431,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "code": "Fisher easy-e EAD",
-        "description": "Varianta easy-e cu acționare pentru aplicații specifice de control"
+        "description": "Versiunea unghiulară (angle) a valvei easy-e ED, utilă la simplificarea traseului conductelor sau la autodrenare"
       },
       {
         "code": "Fisher easy-e ET",
@@ -1440,7 +1439,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "code": "Fisher easy-e EWD-1",
-        "description": "Valvă de control easy-e cu design compact"
+        "description": "Versiune NPS 12x8 CL900 a seriei EW, cu inele de scaun filetate"
       },
       {
         "code": "Fisher EW Series (EWD/EWS/EWT)",
@@ -1462,11 +1461,11 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       },
       {
         "q": "Livrați echipamente Emerson Rosemount și Fisher în România?",
-        "a": "Da, codurile Emerson menționate se aduc la comandă, în bază specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
+        "a": "Da, codurile Emerson menționate se aduc la comandă, în baza specificațiilor publice din documentația producătorului, fără gama pe raft deținut în depozit. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de model, de configurația cerută și de confirmarea disponibilității transmitorului sau valvei alese pentru aplicația dumneavoastră industrială."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   }
 };

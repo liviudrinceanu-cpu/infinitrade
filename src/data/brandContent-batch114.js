@@ -5,14 +5,14 @@ export const brandContentBatch114 = {
     name: "Teledyne Gas and Flame Detection",
     overview: `Teledyne Gas and Flame Detection este divizia de detecție a gazelor toxice, combustibile și a flăcării din grupul american Teledyne Technologies, cu o experiență cumulată de peste o sută de ani în siguranță industrială. Gama acoperă detectoare fixe din familiile OLCT și OLC, controlere multi-canal din seria MX, detectoare portabile GasSurveyor și detectoare de flacără SpyGlass și DF-TV7. Pentru piața din România, brandul înseamnă acces la echipamente de detecție folosite acolo unde o scurgere de gaz sau un început de incendiu trebuie semnalate în câteva secunde.
 
-Teledyne Gas and Flame Detection se diferențiază de alți producători, precum Honeywell Analytics, prin acoperirea mai multor tehnologii de senzor sub aceeași marcă: electrochimic și catalitic pe familia OLCT, infraroșu pe seria GD10-IR și pe detectoarele de flacără cu triplu senzor IR3. Controlerele MX centralizează de la 16 până la 256 de canale, de la un singur post de operator, potrivite atât pentru o hală, cât și pentru o platformă industrială extinsă.
+Teledyne Gas and Flame Detection acoperă mai multe tehnologii de senzor sub aceeași marcă: electrochimic și catalitic pe familia OLCT, infraroșu pe seria GD10-IR și pe detectoarele de flacără cu triplu senzor IR3. Controlerele MX centralizează detectoarele fixe de la un singur post de operator, de la unitatea compactă cu un singur canal (MX 16) până la modelele multi-canal (MX 62, MX 256); numărul de canale se confirmă pe model.
 
-Pentru instalațiile din România cu risc de explozie sau intoxicare — rafinării, stații GPL, depozite chimice, nave — gama oferă o alternativă certificată ATEX și IECEx la sistemele deja montate, utilă la extinderi sau la înlocuirea unor detectoare scoase din fabricație. Compatibilitatea cu un controler existent se verifică de la caz la caz.`,
+Pentru instalațiile din România cu risc de explozie sau intoxicare — rafinării, stații GPL, depozite chimice, nave — gama include detectoare cu certificare ATEX (de confirmat pe model), utile la extinderi sau la înlocuirea unor detectoare existente. Compatibilitatea cu un controler existent se verifică de la caz la caz.`,
     whyChoose: [
       "Acoperă gaz toxic, gaz combustibil și flacără sub aceeași marcă, util pentru instalații care preferă un singur furnizor",
-      "Controlerele MX centralizează între 16 și 256 de canale, de la un singur post de operator",
-      "Detectoarele SpyGlass folosesc triplu senzor infraroșu (IR3), gândit să reducă alarmele false de la surse de căldură",
-      "Certificări ATEX și IECEx pe majoritatea detectoarelor fixe, relevante pentru zonele cu risc de explozie"
+      "Controlerele MX centralizează detectoarele fixe de la un singur post de operator; numărul de canale depinde de model",
+      "Detectoarele de flacără SpyGlass SG50 sunt disponibile în variante IR3 (triplu infraroșu) și UV/IR",
+      "Unele detectoare fixe (de exemplu OLCT 80) au certificare ATEX, relevantă pentru zonele cu risc de explozie; certificarea se confirmă pe model"
     ],
     keyProducts: [
       {
@@ -21,7 +21,7 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
       },
       {
         name: "Controlere Seria MX",
-        description: "Controlere de centralizare pentru rețele de detectoare fixe, de la 16 canale (MX-16) până la 256 de canale (MX-256), cu modele intermediare MX-32, MX-43 și MX-62. Gestionează pragurile de alarmă și poate comanda relee pentru ventilație sau oprire de urgență. Integrarea cu un sistem SCADA existent depinde de protocolul de comunicație disponibil pe varianta aleasă."
+        description: "Controlere de centralizare pentru rețele de detectoare fixe, de la unitatea cu un singur canal MX-16 până la modelele multi-canal (MX-32, MX-43, MX-62, MX-256); numărul de canale se confirmă pe model. Gestionează pragurile de alarmă și poate comanda relee pentru ventilație sau oprire de urgență. Integrarea cu un sistem SCADA existent depinde de protocolul de comunicație disponibil pe varianta aleasă."
       },
       {
         name: "Familia GasSurveyor și Detectoarele de Flacără SpyGlass",
@@ -37,17 +37,17 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
     certifications: [
       "ISO 9001 — calitate certificată la Teledyne Gas & Flame Detection",
       "ISO 14001 — management de mediu certificat la Teledyne GFD",
-      "ATEX — detectoare Teledyne certificate pentru zone cu risc de explozie",
-      "IECEx — certificare internațională pentru echipamente în zone explozive"
+      "ATEX — certificare disponibilă pe anumite modele (de exemplu OLCT 80); se confirmă pe model",
+      "IECEx — de confirmat pe model, din documentația producătorului"
     ],
     infinitrade: `Lucrăm cu gama Teledyne Gas and Flame Detection pornind de la seriile OLCT, MX și GasSurveyor, pe baza informațiilor din surse publice ale producătorului — spunem direct ce putem și ce nu putem confirma dincolo de site-ul oficial. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft și nu promitem disponibilitate din depozit. Pentru ofertă, avem nevoie de codul exact al detectorului, zona de certificare a instalației și protocolul de comunicație folosit.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui model pe piața din România și nu oferim service în garanția producătorului fără acordul acestuia.",
     productCodes: [
-      { code: "OLCT-10", description: "Detector fix de gaz, familia OLCT compactă" },
+      { code: "OLCT-10", description: "Detector fix de gaz toxic și combustibil, familia OLCT" },
       { code: "OLCT-20", description: "Detector fix de gaz toxic sau combustibil, familia OLCT" },
-      { code: "OLCT-60", description: "Detector fix de gaz, familia OLCT de gamă medie" },
-      { code: "OLCT-80", description: "Detector fix de gaz, variantă OLCT pentru medii dure" },
-      { code: "OLCT-100", description: "Detector fix de gaz, familia OLCT de vârf" },
+      { code: "OLCT-60", description: "Detector fix de gaz industrial, familia OLCT" },
+      { code: "OLCT-80", description: "Detector fix de gaz, familia OLCT (există și varianta fără fir OLCT 80W)" },
+      { code: "OLCT-100", description: "Detector fix de gaz toxic și combustibil, familia OLCT" },
       { code: "GD10-IR", description: "Detector infraroșu de gaz combustibil, montaj fix" },
       { code: "GD1", description: "Detector de gaz cu cale deschisă (open path)" },
       { code: "Model 100", description: "Transmițător fix pentru gaze toxice" },
@@ -55,12 +55,12 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
       { code: "Meridian", description: "Detector universal de gaz, montaj fix" },
       { code: "Microsafe 500", description: "Detector fix de gaz, familia Microsafe" },
       { code: "Microsafe 600", description: "Detector fix de gaz, familia Microsafe extinsă" },
-      { code: "MX-16", description: "Controler de centralizare, 16 canale de detecție" },
-      { code: "MX-32", description: "Controler de centralizare, 32 de canale de detecție" },
-      { code: "MX-43", description: "Controler de centralizare, 43 de canale de detecție" },
-      { code: "MX-62", description: "Controler de centralizare, 62 de canale de detecție" },
-      { code: "MX-256", description: "Controler de centralizare pentru rețele extinse, 256 de canale" },
-      { code: "Surveyor 4B", description: "Unitate din gama Surveyor pentru detecție de gaz" },
+      { code: "MX-16", description: "Controler de centralizare compact, 1 canal" },
+      { code: "MX-32", description: "Controler de centralizare multi-canal, analogic și digital" },
+      { code: "MX-43", description: "Controler de centralizare multi-canal" },
+      { code: "MX-62", description: "Controler de centralizare multi-canal, până la 16 canale" },
+      { code: "MX-256", description: "Controler de centralizare pentru rețele extinse de detectoare" },
+      { code: "Surveyor 4B", description: "Controler de gaz cu un singur canal" },
       { code: "iTrans2", description: "Transmițător de gaz cu montaj fix" },
       { code: "GasSurveyor 500", description: "Detector portabil multi-gaz, familia GasSurveyor" },
       { code: "LeakSurveyor", description: "Detector portabil pentru scurgeri de gaz" },
@@ -72,14 +72,14 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
     faq: [
       { q: "Ce produce Teledyne Gas and Flame Detection?", a: "Teledyne Gas and Flame Detection fabrică detectoare fixe și portabile de gaz toxic sau combustibil, controlere de centralizare din seria MX și detectoare optice de flacără din familiile SpyGlass și DF-TV7, conform informațiilor publicate pe site-ul oficial al producătorului." },
       { q: "Cum aleg un detector din familia OLCT?", a: "Alegerea depinde de tipul de gaz de detectat, plaja de concentrație urmărită și zona de certificare a instalației (ATEX sau IECEx); trimiteți-ne aceste date, plus codul exact dacă îl cunoașteți, ca să identificăm varianta potrivită din familia OLCT." },
-      { q: "De ce să aleg Teledyne Gas and Flame Detection pentru un proiect de detecție de gaz?", a: "Pentru că acoperă gaz toxic, gaz combustibil și flacără sub aceeași marcă, cu certificări ATEX și IECEx pe majoritatea familiilor de detectoare, ceea ce simplifică integrarea și mentenanța comparativ cu combinarea unor producători diferiți pentru fiecare tip de risc." },
-      { q: "Ce controler MX aleg pentru o instalație cu multe puncte de detecție?", a: "Seria MX acoperă de la 16 canale (MX-16) până la 256 de canale (MX-256); numărul de detectoare de centralizat și distanța dintre ele decid varianta potrivită, iar aceste detalii trebuie confirmate înainte de ofertă." },
+      { q: "De ce să aleg Teledyne Gas and Flame Detection pentru un proiect de detecție de gaz?", a: "Pentru că acoperă gaz toxic, gaz combustibil și flacără sub aceeași marcă, cu certificare ATEX pe anumite modele (de confirmat pe cod), ceea ce simplifică integrarea și mentenanța comparativ cu combinarea unor producători diferiți pentru fiecare tip de risc." },
+      { q: "Ce controler MX aleg pentru o instalație cu multe puncte de detecție?", a: "Seria MX cuprinde de la controlere cu un singur canal (MX-16) până la modele multi-canal (MX-62, MX-256); numărul de detectoare de centralizat și distanța dintre ele decid varianta potrivită, iar aceste detalii trebuie confirmate înainte de ofertă." },
       { q: "Ce trebuie să trimit pentru o ofertă de detectoare Teledyne?", a: "Trimiteți codul exact al modelului dorit sau, dacă nu îl cunoașteți, tipul de gaz sau riscul de incendiu de acoperit, zona de certificare a instalației și numărul de puncte de detecție necesare." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Teledyne Gas and Flame Detection — Home", url: "https://www.teledynegasandflamedetection.com/en-us", publisher: "Teledyne Gas and Flame Detection", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.teledynegasandflamedetection.com/en-us/products", publisher: "Teledyne Gas and Flame Detection", accessed: "2026-09-26" },
@@ -89,9 +89,9 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
   quattroflow: {
     name: "Quattroflow",
     headquarters: "Roseville, Minnesota, SUA",
-    overview: `Quattroflow este marca de pompe cu patru pistoane și diafragmă dedicate industriei biofarmaceutice, dezvoltată de CPC Biotech, companie din grupul american Dover, cu sediul la Roseville, Minnesota. Pompele funcționează fără etanșări mecanice pe ax și fără piese rotative udate de fluid, potrivite pentru vehicularea produselor biologice sensibile la forfecare. Gama acoperă debite de la 1 ml/min până la 16 m³/h, cu cameră de pompare din inox reutilizabilă (seria MU) sau cu cameră de unică folosință din plastic (seria SU).
+    overview: `Quattroflow este marca de pompe cu patru pistoane și diafragmă dedicate industriei biofarmaceutice, comercializată de CPC Biotech, divizie a grupului american Dover, cu sediul la Roseville, Minnesota. Pompele funcționează fără etanșări mecanice pe ax și fără piese rotative udate de fluid, potrivite pentru vehicularea produselor biologice sensibile la forfecare. Gama acoperă debite de la 1 ml/min până la 16 m³/h, cu cameră de pompare din inox reutilizabilă (seria MU) sau cu cameră de unică folosință din plastic (seria SU).
 
-Diferența față de alte pompe din bioprocesare — peristaltice sau cu lob rotativ — vine din principiul cu patru pistoane acționate hidraulic, cu debit fără pulsații mari, auto-amorsare și funcționare uscată fără deteriorare. Consumul de energie este cu circa 50% mai mic decât la o pompă cu lob rotativ echivalentă, conform datelor producătorului. Elastomerii respectă USP <88> Clasa VI și FDA 21 CFR 177, iar variantele din inox suportă protocoale CIP/SIP. Există și o variantă certificată ATEX, precum modelul QF10kMU.
+Diferența față de alte pompe din bioprocesare — peristaltice sau cu lob rotativ — vine din principiul cu patru pistoane și diafragmă, cu auto-amorsare și funcționare uscată fără deteriorare. Consumul de energie este cu circa 50% mai mic decât la o pompă cu lob rotativ echivalentă, conform datelor producătorului. Elastomerii respectă USP <88> Clasa VI și FDA 21 CFR 177, iar variantele din inox suportă protocoale CIP/SIP. Există și o variantă certificată ATEX, precum modelul QF10kMU.
 
 Pentru laboratoare din România care lucrează în filtrare tangențială, cromatografie sau alimentare de centrifugă, gama Quattroflow oferă o alternativă la pompele peristaltice atunci când produsul nu tolerează forfecarea mecanică. Alegerea între cameră reutilizabilă și cameră de unică folosință ține de fluxul de lucru al fiecărui client.`,
     whyChoose: [
@@ -104,7 +104,7 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
     keyProducts: [
       {
         name: "Seria QF...SU — Pompe cu Cameră de Unică Folosință",
-        description: "Pompe cu patru pistoane și cameră din plastic de unică folosință, de la QF30SU până la QF20kSU, cu debite de la câțiva mililitri pe minut până la peste 16.000 litri pe oră. Camera se înlocuiește după fiecare lot, eliminând curățarea (CIP) și riscul de contaminare încrucișată. Elastomerii respectă USP <88> Clasa VI și FDA 21 CFR 177. Potrivite pentru filtrare tangențială (TFF) și cromatografie, cu volum variabil de la un lot la altul."
+        description: "Pompe cu patru pistoane și cameră din plastic de unică folosință, de la QF30SU până la QF20kSU, cu debite de la 1 ml/min până la 16 m³/h pe întreaga gamă Quattroflow. Camera se înlocuiește după fiecare lot, eliminând curățarea (CIP) și riscul de contaminare încrucișată. Elastomerii respectă USP <88> Clasa VI și FDA 21 CFR 177. Potrivite pentru filtrare tangențială (TFF) și cromatografie, cu volum variabil de la un lot la altul."
       },
       {
         name: "Seria QF...MU — Pompe cu Cameră Reutilizabilă din Inox",
@@ -112,7 +112,7 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
       },
       {
         name: "Q-Control — Sistem de Control pentru Pompele Quattroflow",
-        description: "Accesoriu electronic pentru reglarea debitului pompelor Quattroflow, integrabil în automatizarea unei linii de bioprocesare. Permite ajustarea fină a debitului fără schimbarea capului de pompare, util când același echipament lucrează la mai multe rețete. Compatibilitatea exactă cu fiecare model se confirmă direct la producător."
+        description: "Accesoriu electronic pentru reglarea debitului pompelor Quattroflow, integrabil în automatizarea unei linii de bioprocesare. Caracteristicile se confirmă direct la producător. Compatibilitatea exactă cu fiecare model se confirmă direct la producător."
       }
     ],
     industries: [
@@ -144,20 +144,20 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
       { code: "QF4400MU", description: "Pompă cu cameră reutilizabilă din inox, debit ridicat" },
       { code: "QF5050MU", description: "Pompă cu cameră reutilizabilă din inox, debit mare" },
       { code: "QF10kMU", description: "Pompă cu cameră din inox, până la 10.000 lph, variantă ATEX" },
-      { code: "QF20kMU", description: "Pompă cu cameră reutilizabilă din inox, debit foarte mare" },
-      { code: "QF5k", description: "Pompă cu cameră din inox, gamă de debit ridicat" },
+      
+      
       { code: "Q-Control", description: "Sistem electronic de control al debitului pentru pompele Quattroflow" }
     ],
     faq: [
-      { q: "Ce este o pompă Quattroflow?", a: "Quattroflow este o pompă cu patru pistoane și diafragmă, fără etanșări mecanice pe ax, dezvoltată de CPC Biotech (grup Dover) pentru vehicularea produselor biofarmaceutice sensibile la forfecare, cu debite de la 1 ml/min până la 16 m³/h." },
+      { q: "Ce este o pompă Quattroflow?", a: "Quattroflow este o pompă cu patru pistoane și diafragmă, fără etanșări mecanice pe ax, oferită de CPC Biotech (divizie Dover) pentru vehicularea produselor biofarmaceutice sensibile la forfecare, cu debite de la 1 ml/min până la 16 m³/h." },
       { q: "Ce diferență e între o pompă Quattroflow cu cameră SU și una cu cameră MU?", a: "Camera SU (single-use) e din plastic și se aruncă după fiecare lot, eliminând curățarea, în timp ce camera MU (multi-use) e din inox și se resterilizează prin protocoale CIP/SIP între loturi, pentru instalații permanente." },
       { q: "Livrați pompe Quattroflow în România și cât durează?", a: "Da, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model, de tipul de cameră ales și de confirmarea producătorului pentru configurația exactă cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Quattroflow?", a: "Trimiteți debitul de lucru dorit, tipul de cameră preferat (unică folosință sau inox), fluidul vehiculat și dacă instalația necesită certificare ATEX pentru zone cu solvenți sau ingrediente inflamabile." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Four-Piston Diaphragm Pumps Quattroflow", url: "https://www.cpc-bio.com/products-overview/pumps/technologies/four-piston-diaphragm-pumps-quattroflow", publisher: "CPC Biotech (Dover)", accessed: "2026-09-26" },
       { title: "QF1200SU", url: "https://www.cpc-bio.com/products-overview/pumps/technologies/four-piston-diaphragm-pumps-quattroflow/single-use-pumps/qf1200su", publisher: "CPC Biotech (Dover)", accessed: "2026-09-26" },
@@ -170,20 +170,20 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
     headquarters: "Concorezzo, Italia",
     overview: `Doseuro este marca de pompe și instalații de dozare pentru lichide chimice, acide sau bazice, înființată în 1980 în Italia și integrată din 2018 în divizia de pompe de dozare a grupului FPZ, cu sediul la Concorezzo, lângă Milano. Gama acoperă pompe cu revenire pe arc (spring return), pompe cu revenire forțată conforme API 675 pentru petrol și gaze, și pompe electromagnetice din seria SDP pentru debite mici. Pentru piața din România, brandul Doseuro înseamnă acces la echipamente de dozare chimică integrate acum în rețeaua tehnică a grupului FPZ.
 
-Ce a diferențiat Doseuro de alți producători de pompe dozatoare, precum ProMinent, a fost introducerea timpurie a turnării sub presiune (die-casting) în producția de pompe, printre primele din industria italiană. Pompele cu revenire forțată API 675 folosesc un mecanism cu roată melcată, gândit pentru configurații cu presiune mare de dozare și mai multe capete de pompare. Seria SDP, cu pompe electromagnetice controlate de microprocesor, oferă protecție IP65 și diafragme din PTFE, pentru debite mici unde precizia contează mai mult decât presiunea. Există și modelul vertical DV101, dedicat industriei alimentare.
+Conform producătorului, Doseuro se numără printre primele companii italiene care au introdus turnarea sub presiune (die-casting) în producția de pompe. Pompele cu revenire forțată API 675 folosesc un mecanism cu roată melcată, gândit pentru configurații cu presiune mare de dozare și mai multe capete de pompare. Seria SDP, cu pompe electromagnetice controlate de microprocesor, oferă protecție IP65 și diafragme din PTFE, pentru debite mici unde precizia contează mai mult decât presiunea. Există și modelul vertical DV101, dedicat industriei alimentare.
 
-Pentru stații de tratare a apei sau linii de producție din România unde e nevoie de dozare precisă de reactivi, gama Doseuro completează oferta de pompe de proces cu o soluție dedicată exclusiv dozării, de la unități simple până la sisteme complete cu rezervor și agitator (Dosing Units, 100–1.600 litri).`,
+Pentru stații de tratare a apei sau linii de producție din România unde e nevoie de dozare precisă de reactivi, gama Doseuro completează oferta de pompe de proces cu o soluție dedicată exclusiv dozării, de la unități simple până la sisteme complete cu rezervor și agitator (Dosing Units).`,
     whyChoose: [
       "Pompe cu revenire forțată conforme API 675, cu mecanism cu roată melcată, pentru dozare la presiune mare în petrol și gaze",
       "Seria electromagnetică SDP, controlată de microprocesor, cu protecție IP65 și diafragme din PTFE pentru debite mici",
       "Model vertical DV101, dedicat liniilor din industria alimentară și a băuturilor",
-      "Sisteme complete de dozare (Dosing Units) de la 100 până la 1.600 de litri, cu rezervor și agitator incluse",
+      "Sisteme complete de dozare (Dosing Units), cu rezervor și agitator",
       "Printre primii producători italieni care au introdus turnarea sub presiune (die-casting) în fabricația de pompe dozatoare"
     ],
     keyProducts: [
       {
         name: "Pompe cu Revenire pe Arc (Spring Return)",
-        description: "Familie de pompe dozatoare cu revenire pe arc, în variante cu diafragmă mecanică, cu piston, cu diafragmă hidraulică simplă sau tip sandwich cu detecție de rupere. Alegerea ține de fluidul dozat — diafragmă mecanică pentru soluții necorozive, diafragmă hidraulică pentru substanțe agresive. Sunt cele mai răspândite modele din gama Doseuro, folosite în tratarea apei și în instalații chimice."
+        description: "Familie de pompe dozatoare cu revenire pe arc, în variante cu diafragmă mecanică, cu piston, cu diafragmă hidraulică simplă sau tip sandwich cu detecție de rupere. Alegerea ține de fluidul dozat — diafragmă mecanică pentru soluții necorozive, diafragmă hidraulică pentru substanțe agresive. Sunt folosite în tratarea apei și în instalații chimice."
       },
       {
         name: "Pompe cu Revenire Forțată (Positive Return) API 675",
@@ -195,7 +195,7 @@ Pentru stații de tratare a apei sau linii de producție din România unde e nev
       },
       {
         name: "Unități Complete de Dozare (Dosing Units)",
-        description: "Sisteme formate din rezervor, agitator și una sau mai multe pompe dozatoare, în capacități de la 100 la 1.600 de litri, pentru clienți care au nevoie de o stație de dozare gata de conectare. Completează gama unitatea Poly-unit, pentru preparare automată de polielectrolit, cu capacitate de până la 7.000 de litri pe oră."
+        description: "Sisteme formate din rezervor, agitator și una sau mai multe pompe dozatoare, în capacități care se confirmă pe model, pentru clienți care au nevoie de o stație de dozare gata de conectare. Gama include și instalația Poly-unit, pentru prepararea automată a polielectrolitului."
       }
     ],
     industries: [
@@ -217,11 +217,11 @@ Pentru stații de tratare a apei sau linii de producție din România unde e nev
       { code: "PR API 675", description: "Pompă cu revenire forțată, roată melcată, conform API 675" },
       { code: "SDP", description: "Pompă electromagnetică, control cu microprocesor, protecție IP65" },
       { code: "DV101", description: "Pompă verticală, motor reversibil, pentru industria alimentară" },
-      { code: "Rapida 2.0", description: "Moto-invertor digital cu afișaj grafic, pentru seria SR" },
+      { code: "Rapida 2.0", description: "Invertor digital pentru pompele dozatoare" },
       { code: "Poly-unit", description: "Instalație automată de preparare a polielectrolitului" },
-      { code: "Just Switch On", description: "Sistem de dozare preasamblat, cadru din polipropilenă" },
-      { code: "Dosing Unit 100L", description: "Unitate de dozare completă, capacitate 100 de litri" },
-      { code: "Dosing Unit 1600L", description: "Unitate de dozare completă, capacitate 1.600 de litri" }
+      { code: "Just Switch On", description: "Sistem de dozare preasamblat" },
+      { code: "Dosing Units", description: "Unități complete de dozare, cu rezervor și agitator" },
+      
     ],
     faq: [
       { q: "Ce produce Doseuro?", a: "Doseuro fabrică pompe și instalații de dozare pentru lichide chimice, acide sau bazice — pompe cu revenire pe arc, pompe cu revenire forțată conforme API 675 și pompe electromagnetice din seria SDP, conform informațiilor publicate de grupul FPZ, care deține marca din 2018." },
@@ -232,8 +232,8 @@ Pentru stații de tratare a apei sau linii de producție din România unde e nev
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Doseuro — FPZ Group", url: "https://www.fpz.com/en/doseuro/", publisher: "FPZ S.p.A.", accessed: "2026-09-26" },
       { title: "Dosing Pumps", url: "https://www.fpz.com/dosing-pumps/", publisher: "FPZ S.p.A.", accessed: "2026-09-26" },

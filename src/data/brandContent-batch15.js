@@ -7,43 +7,43 @@ export const brandContentBatch15 = {
 
 Instrumentația Siemens acoperă configurații variate - de la debitimetre electromagnetice în instalații de tratare a apei până la traductoare de presiune în reactoare chimice. Conform producătorului, fiecare senzor este gândit ca un nod inteligent în rețeaua industrială, capabil să comunice diagnostic, să compenseze automat erori și să ofere date pentru controlul de proces. Protocolele HART, PROFIBUS, PROFINET sunt suportate nativ, iar platforma SIMATIC PCS 7 unifică totul într-o singură interfață.
 
-Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic, masic Coriolis, vortex, termic), SITRANS P (traductoare de presiune absolută/relativă/diferențială până la 1000 bar), SITRANS L (nivel radar, ultrasonic, cu ghidaj de undă), SITRANS T (temperatură RTD și termocuple), plus seria de analizoare SITRANS C (oxigen dizolvat, pH/redox, conductivitate, turbiditate). Toate sunt proiectate, conform producătorului, pentru funcționare îndelungată în condiții industriale grele, cu aprovizionare de piese de schimb pe termen lung și compatibilitate cu generațiile anterioare.`,
+Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic, masic Coriolis, vortex, termic), SITRANS P (traductoare de presiune absolută/relativă/diferențială), SITRANS L (nivel radar, ultrasonic, cu ghidaj de undă), SITRANS T (temperatură RTD și termocuple), plus aparatura de poziționare a ventilelor și de cântărire. Toate sunt proiectate, conform producătorului, pentru funcționare îndelungată în condiții industriale grele.`,
 
     whyChoose: [
       'Precizie și repetabilitate ridicate, conform specificațiilor producătorului',
-      'Diagnosticare inteligentă integrată - fiecare instrument SITRANS raportează starea sa de sănătate și previne defecțiunile',
+      'Funcții de diagnosticare, în funcție de modelul ales',
       'Integrare nativă în ecosistemul Siemens - de la PLC-uri SIMATIC până la SCADA WinCC, comunicarea e fluidă',
-      'Suport tehnic extins - documentație detaliată, training-uri dedicate, asistență locală în România',
-      'Aprovizionare pe termen lung cu piese de schimb - Siemens menține producția și suportul pentru minimum 15 ani de la lansare, conform producătorului',
-      'Certificări complete pentru industrii critice - SIL2/SIL3, ATEX, IECEx, marine approvals, nuclear qualifications'
+      'Documentație tehnică publicată de producător',
+      'Disponibilitatea pieselor de schimb se confirmă la fiecare cerere',
+      'Certificări (SIL, ATEX, IECEx și altele) care diferă pe model și se confirmă din fișa tehnică'
     ],
 
     keyProducts: [
       {
         name: 'SITRANS F Debitimetre',
-        description: `Gama SITRANS F acoperă practic orice aplicație de măsurare a debitului din industrie. Electromagnetice SITRANS FM MAG pentru lichide conductive (apă, acizi, baze) cu acuratețe ±0.2% și fără pierdere de presiune. Masic Coriolis SITRANS FC MASS pentru măsurare directă a masei (independent de densitate, temperatură, vâscozitate) cu precizie uimitoare ±0.1% - esențiale în dozare și facturare. Ultrasonic clamp-on SITRANS FUE pentru instalare fără tăiere conducte (retrofit perfect). Vortex SITRANS FX pentru vapori și gaze unde frecvența vortexurilor e proporțională cu debitul. Termic SITRANS FCS pentru gaze pure și aer comprimat la debite mici. Toate cu ieșiri 4-20mA, HART, PROFIBUS PA/DP, Modbus, cu afișaj local grafic și meniu intuitiv. Certificări ATEX pentru zone Ex, aprovizionare rapidă din stoc Europa.`
+        description: `Gama SITRANS F acoperă practic orice aplicație de măsurare a debitului din industrie. Electromagnetice SITRANS FM MAG pentru lichide conductive (apă, acizi, baze), fără pierdere de presiune; acuratețea se confirmă din fișa tehnică. Debitmetre masice Coriolis pentru măsurarea directă a masei; seria și precizia se confirmă din fișa tehnică. Ultrasonic clamp-on din seria SITRANS FS pentru instalare fără tăierea conductei. Alte principii de măsurare (vortex, termic) se confirmă pe cod. Ieșirile, protocoalele și certificările (de exemplu ATEX) depind de model și se confirmă din fișa tehnică.`
       },
       {
         name: 'SITRANS P Traductoare de Presiune',
-        description: `Traductoarele SITRANS P sunt folosite pe scară largă pentru măsurarea presiunii în condiții industriale variate. Seria SITRANS P320 pentru aplicații generale (aer comprimat, hidraulică) cu robusteță industrială și raport calitate/preț excelent. SITRANS P410 compact cu membrană aflorată (flush) pentru fluide vâscoase sau cristalizabile. SITRANS P500 cu izolare dielectrică completă pentru medii agresive chimic. SITRANS P DS III cu separator de presiune pentru temperaturi extreme sau fluide toxice. Game de măsurare de la 100 mbar până la 1000 bar (absolute, relative, diferențiale), acuratețe până la ±0.04%, stabilitate long-term impecabilă, output 4-20mA/HART/PROFIBUS PA, display opțional. Rezistență la vibrații, șocuri, EMC conform celor mai stricte standarde militare și navale.`
+        description: `Traductoarele SITRANS P sunt folosite pe scară largă pentru măsurarea presiunii în condiții industriale variate. Seriile SITRANS P (de exemplu P320, P500, P DS III) acoperă aplicații industriale variate; domeniul de măsurare, acuratețea, ieșirile și rezistența mecanică se confirmă din fișa tehnică a modelului.`
       },
       {
         name: 'SITRANS L Măsurători de Nivel',
-        description: `Instrumentele SITRANS L folosesc tehnologii diverse pentru a acoperi orice aplicație de măsurare a nivelului. Radar fără contact SITRANS LR (FMCW sau pulsat) pentru lichide și solide în rezervoare până la 70m, imun la praf, abur, schimbări de densitate - acuratețe ±2mm. Radar cu ghidaj de undă SITRANS LG (TDR - time domain reflectometry) pentru condiții dificile (spume, agitare puternică, presiune/vid) până la 75m lungime sondă. Ultrasonic SITRANS LU pentru aplicații simple în apă curată sau produse omogene. Hydrostatic SITRANS LP pentru măsurare precisă în bazine deschise sau închise. Capacitiv SITRANS LC pentru pulberi și granule. Toate integrate SIMATIC, cu diagnose avansată, compensare automată pentru schimbări de proces (temperatură, presiune), certificări SIL și ATEX. Programare simplă prin SIMATIC PDM sau DTM.`
+        description: `Instrumentele SITRANS L folosesc tehnologii diverse pentru a acoperi orice aplicație de măsurare a nivelului. Radar fără contact SITRANS LR pentru lichide și solide; domeniul de măsurare și acuratețea se confirmă din fișa tehnică. Radar cu ghidaj de undă SITRANS LG (TDR - time domain reflectometry) pentru condiții dificile; lungimea sondei se confirmă pe cod. Ultrasonic SITRANS LU pentru aplicații simple în apă curată sau produse omogene. Hydrostatic SITRANS LP pentru măsurare precisă în bazine deschise sau închise. Capacitiv SITRANS LC pentru pulberi și granule. Toate integrate SIMATIC, cu diagnose avansată, compensare automată pentru schimbări de proces (temperatură, presiune), certificări SIL și ATEX. Programare simplă prin SIMATIC PDM sau DTM.`
       },
       {
-        name: 'SITRANS C Analizoare de Proces',
-        description: `Analizoarele SITRANS C monitorizează parametrii critici ai calității apei și lichidelor de proces. SITRANS C pH pentru măsurarea pH-ului în gamă largă (0-14) cu compensare automată de temperatură și electrod de referință fără întreținere - esențial în neutralizare, fermentație, tratare apă. SITRANS CCS140D pentru conductivitate (puritate apă, concentrație săruri) până la 2000 mS/cm. SITRANS C Oxymax pentru oxigen dizolvat (aerare biologică, fermentare bere/vin) cu senzor optic fără membrană - zero drift, zero întreținere. SITRANS C Turbimax pentru turbiditate (filtrare, decantare) conform ISO 7027. Toate cu ieșiri digitale PROFIBUS PA/DP, Modbus RTU/TCP, calibrare automată, istoricizare evenimente, diagnosticare predicitivă. Certificări FDA, 3A, EHEDG pentru aplicații alimentare și pharma. Integrare native în SIMATIC PCS 7 pentru controlul automat al calității.`
+        name: 'Analizoare de proces',
+        description: `Parametrii de calitate a lichidelor (pH, conductivitate, turbiditate, oxigen dizolvat) se măsoară cu analizoare dedicate; gama aplicabilă și codurile se confirmă din documentația producătorului.`
       }
     ],
 
     certifications: [
-      'ISO 9001 Quality Management',
-      'ISO 14001 Environmental Management',
-      'ISO 45001 Occupational Health & Safety',
+      'ISO 9001 - Management al calității',
+      'ISO 14001 - Management de mediu',
+      'ISO 45001 - Sănătate și securitate ocupațională',
       'SIL 2/SIL 3 (IEC 61508) pentru instrumentație safety-critical',
       'ATEX/IECEx pentru zone explozive',
-      'Aprovizări marine (DNV, ABS, Lloyd\'s Register)',
+      'Aprobări marine (DNV, ABS, Lloyd\'s Register)',
       'FDA CFR 21 Part 11 pentru pharma',
       '3A Sanitary Standards pentru food & beverage'
     ],
@@ -61,7 +61,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
       'HVAC și district heating'
     ],
 
-    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel, analizoare de proces) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 1–4 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimite-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
+    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 1–4 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimiteți-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
     sources: [
       {"title":"Flow Measurement","url":"https://www.siemens.com/global/en/products/automation/process-instrumentation/flow-measurement.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Company development | Siemens', url: 'https://www.siemens.com/global/en/company/about/history/company/1847-1865.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
@@ -145,7 +145,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
       },
       {
         "q": "Care e diferența dintre SITRANS FS220 și FS230 la debitmetrele clamp-on Siemens?",
-        "a": "FS220 este varianta standard, potrivită pentru majoritatea aplicațiilor uzuale de măsurare a debitului fără contact cu fluidul. FS230 este varianta de gamă superioară, cu precizie mai mare și funcții suplimentare de diagnosticare, recomandată pentru aplicații de proces mai pretențioase."
+        "a": "Diferențele dintre FS220 și FS230 (precizie, funcții, aplicații) se confirmă din fișele tehnice ale producătorului."
       },
       {
         "q": "Livrați debitmetre Siemens SITRANS în România?",
@@ -160,8 +160,8 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
         "a": "Este un debitmetru clamp-on portabil, folosit pentru măsurători temporare de debit fără a întrerupe funcționarea conductei sau a tăia țeava. Este util pentru verificări punctuale, audituri energetice sau diagnosticarea unor instalații unde nu există un debitmetru permanent montat."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -171,35 +171,35 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
     employees: '44,000+',
     overview: `SKF e renumit pentru rulmenți, dar puțină lume știe că suedezii au și una dintre cele mai sofisticate divizii de sisteme de ungere din industrie. SKF Lubrication Systems produce de la simple pompe manuale de gresat până la sisteme complet automatizate care monitorizează, dozează și distribuie lubrifiant către sute de puncte simultan, în funcție de temperatură, viteză, sarcină. E diferența dintre a unge "cam o dată pe lună când ne gândim" și a avea un program precis, controlat electronic, care maximizează durata de viață a echipamentelor și minimizează consumul de lubrifiant.
 
-Se montează sisteme SKF Lincoln (achiziționat de SKF în 1997) pe linii de producție unde ungerea manuală era imposibilă (zone fierbinți, înalte, periculoase), cu scopul de a reduce defecțiunile la rulmenți și consumul de unsoare, datorită dozării precise, și de a îmbunătăți timpul de funcționare. Sistemele progresive SKF distribuie cantități exacte de lubrifiant la fiecare punct în ordine secvențială, cu feedback vizual și electric că fiecare ciclu s-a completat corect. Controllerul electronic SKF Pulse monitorizeză presiune, număr de cicluri, alerte pentru rezervor gol sau linie blocată.
+Se montează sisteme SKF Lincoln pe linii de producție unde ungerea manuală era imposibilă (zone fierbinți, înalte, periculoase), cu scopul de a reduce defecțiunile la rulmenți și consumul de unsoare, datorită dozării precise, și de a îmbunătăți timpul de funcționare. Sistemele progresive SKF distribuie cantități exacte de lubrifiant la fiecare punct în ordine secvențială, cu feedback vizual și electric că fiecare ciclu s-a completat corect. Controlerele electronice SKF pot monitoriza presiunea, numărul de cicluri și starea sistemului; funcțiile exacte se confirmă pe model.
 
-Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (pistoale de gresat, pompe cu pârghie, pompe cu picior), cartușe pre-umplute, unsori și uleiuri premium LGMT/LGHP/LGWA dezvoltate în laboratoarele proprii pentru rulmenți în condiții extreme. Plus divizia SKF Reliability Systems care oferă consultanță pentru optimizarea programului de lubrifiere - nu vinzi doar echipament, vinzi expertise acumulat în peste un secol de experiență cu tribologie.`,
+SKF oferă și unelte manuale de ungere, cartușe pre-umplute, unsori și uleiuri (de exemplu LGMT, LGHP, LGWA); gama disponibilă se confirmă pe cod.`,
 
     whyChoose: [
       'Expertiză tribologică - SKF produce atât rulmenți, cât și sisteme de ungere, ceea ce oferă o bază tehnică coerentă pentru recomandările de lubrifiere',
       'Sisteme complet integrate - de la rezervor până la ultimul punct de ungere, totul proiectat să lucreze împreună',
-      'Fiabilitate dovedită în industrii critice - oțelării, mine, ciment, hârtie unde downtime înseamnă milioane euro pierdute',
-      'Reducere drastică a consumului de lubrifiant - dozarea precisă elimină risipa și poluarea',
+      'Sisteme de ungere folosite în industrii precum oțelării, mine, ciment sau hârtie',
+      'Dozare controlată a lubrifiantului, care poate reduce consumul în funcție de aplicație',
       'Monitoring și alertare inteligentă - integrare în sistemele de mentenanță predictivă',
-      'Suport tehnic global - SKF are ingineri de lubrifiere în România care te ajută să optimizezi programul de întreținere'
+      'Documentație tehnică publicată de producător'
     ],
 
     keyProducts: [
       {
         name: 'Sisteme Progresive Lincoln Quicklub',
-        description: `Sistemele progresive SKF Quicklub sunt workhorses-ul industriei grele. Principiu simplu dar robust: o pompă centralizată alimentează un distribuitor progresiv care împarte lubrifiantul în porții egale către fiecare punct de ungere, secvențial. Fiecare element distribuitor (block) alimentează 1-12 puncte, poți cascada până la 300+ puncte pe un singur sistem. Feedback mecanic și electric: dacă un piston nu se mișcă (linie blocată, injector deteriorat), sistemul oprește și alarmează. Pompe electrice 24VDC sau 230VAC cu rezervoare 4-50 litri, controlere Easylube sau SKF Pulse cu timer și intervale ajustabile. Rezistență la temperaturi -40°C până +150°C (cu încălzitoare pentru unsori NLGI 2). Instalare tipică: utilaje grele de construcții, macarale, prese, linii de lamină, vagoane feroviare. Kit-uri complete cu tubulație, fitinguri, injectoare, manual de instalare. Certificări ATEX pentru variante în zone Ex.`
+        description: `Sistemele progresive SKF Quicklub sunt workhorses-ul industriei grele. Principiu simplu dar robust: o pompă centralizată alimentează un distribuitor progresiv care împarte lubrifiantul în porții egale către fiecare punct de ungere, secvențial. Numărul de puncte de ungere depinde de configurația sistemului. Catalogul SKF descrie, de exemplu, Quicklub 203 ca sistem progresiv pentru unsoare sau ulei, destinat lanțurilor mici cu mișcare lentă; tensiunea, rezervorul, temperatura de lucru și variantele ATEX depind de model și se confirmă pe cod.`
       },
       {
-        name: 'Sisteme Dual-Line Lincoln DDC/Flo',
-        description: `Pentru aplicații masive cu sute sau mii de puncte de ungere (de exemplu excavatoare bucket-wheel, drag-lines, macarale portuale gigantice), sistemele dual-line sunt soluția. Două linii principale sub presiune înaltă (200-300 bar) alimentează injectoare dozatoare la fiecare punct. Controllerul schimbă ciclic presiunea între cele două linii, fiecare injector eliberând o cantitate precisă de unsoare (0.03-2.5 cm³) doar când linia lui e presurată. Rezultat: distribuție perfectă indiferent de distanță (până la 200m de pompă) sau diferențe de contrapresiune. Pompe pneumatice sau electrice cu debit până la 4 l/min, rezervoare 25-200 litri, controlere DDC (Digital Dosing Control) programabile pentru intervale diferite pe zone. Monitorizare completă: presiune linie, nivel rezervor, număr de cicluri, alerte SMS/email. Ideal pentru industria minieră, porturi, siderurgie, ciment. Mentenanță minimă: sistemul rulează ani de zile fără intervenție.`
+        name: 'Sisteme Dual-Line (de exemplu DuoFlex, Helios)',
+        description: `Pentru aplicații masive cu sute sau mii de puncte de ungere (de exemplu excavatoare bucket-wheel, drag-lines, macarale portuale gigantice), sistemele dual-line sunt soluția. Două linii principale alimentate alternativ cu lubrifiant deservesc injectoare dozatoare la fiecare punct; presiunea, dozele, distanțele, pompele și controlerele depind de model și se confirmă din catalogul SKF.`
       },
       {
         name: 'Sisteme Single-Line SKF MonoFlex',
-        description: `Sistemele single-line sunt soluția mid-range: mai sofisticate decât progresivul (dozare individuală per punct), mai simple și economice decât dual-line. O singură linie sub presiune 50-150 bar alimentează injectoare dozatoare electrice sau pneumatice la fiecare punct de ungere. Controllerul activează pomparea, presiunea crește, fiecare injector eliberează cantitatea setată (ajustabilă 0.05-5 cm³), apoi sistemul depresurează pentru recul piston. MonoFlex permite flexibilitate maximă: poți schimba dozajul per punct fără a opri linia, poți adăuga puncte noi ușor, poți integra senzori de temperatură pentru ajustare automată a frecvenței. Pompe electrice sau pneumatice 5-20 l/min, rezervoare 8-80 litri, controlere MonoFlex Gold sau Platinum cu display grafic și programare prin PC. Aplicații tipice: mașini de ambalare, linii de producție automotive, sisteme de transport și conveioare, echipamente HVAC mari. Cost total de ownership excelent datorită dozării precise și eliminării risipei.`
+        description: `Sistemele single-line sunt soluția mid-range: mai sofisticate decât progresivul (dozare individuală per punct), mai simple și economice decât dual-line. O singură linie principală alimentează punctele de ungere; presiunea, dozele, pompele și controlerele depind de model și se confirmă din catalogul SKF. Aplicații tipice: mașini de ambalare, linii de producție automotive, sisteme de transport și conveioare, echipamente HVAC mari. `
       },
       {
         name: 'Lubrifianți SKF LGMT/LGHP/LGWA',
-        description: `Chiar și un sistem de ungere foarte performant nu ajută dacă lubrifiantul e mediocru. SKF produce unsori și uleiuri special formulate pentru rulmenți în condiții extreme. Seria LGMT (multi-purpose) acoperă -40°C până +120°C, excelentă rezistență la apă, protecție anti-coroziune, NLGI 2/3. LGHP (high performance) pentru temperaturi înalte până +150°C (rulmenți la cuptoare, uscătoare) cu bază syntetică și aditivi EP (extreme pressure). LGWA (wide temperature) pentru Arctic și aplicații criogenice -50°C până +110°C. LGWM (wide temperature, medium) optimizată pentru viteze mari (rulmenți electromotoare, pompe centrifugale) până 15,000 rpm. LGHQ pentru industria alimentară (certificare NSF H1, inodoră, insipidă, non-toxică). Uleiuri SKF LGEN pentru circulație (turbine, reductoare mari) cu aditivi anti-uzură AW și extreme pressure EP. Toate testate în laboratoarele SKF ERC (Engineering Research Center) Olanda, conform producătorului. Disponibile în cartușe 400g pre-umplute pentru sisteme automate sau butoaie 180kg pentru umplere rezervoare mari.`
+        description: `Chiar și un sistem de ungere foarte performant nu ajută dacă lubrifiantul e mediocru. SKF produce unsori și uleiuri special formulate pentru rulmenți în condiții extreme. Gama SKF include unsori multifuncționale (LGMT), pentru temperaturi ridicate (LGHP) și pentru domenii largi de temperatură (LGWA, LGWM), precum și produse pentru industria alimentară; domeniul de temperatură, uleiul de bază, clasa NLGI și aprobările (de exemplu NSF H1) se confirmă din fișa tehnică a fiecărui produs. Toate testate în laboratoarele SKF ERC (Engineering Research Center) Olanda, conform producătorului. Disponibile în cartușe 400g pre-umplute pentru sisteme automate sau butoaie 180kg pentru umplere rezervoare mari.`
       }
     ],
 
@@ -227,7 +227,7 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
       'Transport (vagoane feroviare, conveioare aeroporturi)'
     ],
 
-    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 1–4 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Îți trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
+    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 1–4 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Vă trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
     sources: [
       {"title":"Product catalogue 2025 - Multi-line automatic lubrication systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d1968065a461/pdf_preview_medium/0901d1968065a461_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
       {"title":"Lincoln Spray systems, chain lubrication and specialty systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d196802d235a/pdf_preview_medium/0901d196802d235a_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
@@ -356,8 +356,8 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
         "a": "Este o pompă de înaltă presiune pentru sisteme multi-linie, cu până la 15 elemente de pompare disponibile în dimensiuni diferite, livrată cu motor sau cu capăt de ax liber. Este folosită la mașini cu un consum ridicat de lubrifiant, unde un singur post central trebuie să deservească multe puncte simultan."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -365,14 +365,14 @@ Dar SKF nu e doar sisteme automate - au și gamă completă de unelte manuale (p
     founded: 1959,
     headquarters: 'Tokyo, Japonia',
     employees: '21,000+',
-    overview: `SMC Corporation este un producător important de pneumatică industrială la nivel mondial, cu o gamă de 12.000 de modele de bază și 880.000 de variante, conform producătorului. De la cilindri pneumatici simpli până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC oferă soluții pentru majoritatea aplicațiilor. 
+    overview: `SMC Corporation este un producător important de pneumatică industrială la nivel mondial, cu o gamă foarte largă de modele de bază și variante, conform producătorului. De la cilindri pneumatici simpli până la sisteme complete de control cu valve proporționale, senzori integrați și comunicare IO-Link, SMC oferă soluții pentru majoritatea aplicațiilor. 
 
 Componentele SMC se folosesc frecvent în automatizări - linii de ambalare, roboți pick-and-place, sisteme de prelucrare CNC, prese - iar utilizatorii apreciază gândirea de ansamblu: cilindrii au montaj standardizat ISO, valvele au conectică comună, senzorii se prind direct pe cilindru fără suporți suplimentari, furtunurile și fitingurile se montează rapid fără scule (one-touch). Timpul de asamblare se reduce, iar la mentenanță componenta defectă se poate schimba rapid, fără opriri lungi ale producției.
 
-SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aducem la comandă componente din gama SMC, pe baza codului exact sau a parametrilor aplicației dumneavoastră.`,
+SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de țări. Pentru România, aducem la comandă componente din gama SMC, pe baza codului exact sau a parametrilor aplicației dumneavoastră.`,
 
     whyChoose: [
-      'Gamă extinsă de pneumatică: 12.000 de modele de bază, conform producătorului',
+      'Gamă extinsă de pneumatică, cu număr mare de modele de bază și variante, conform producătorului',
       'Durata de viață și fiabilitatea se consultă în cataloagele fiecărei serii',
       'Standardizare: cilindri conform ISO 6432 și ISO 15552, cu montaj standardizat',
       'Configurator online SMC pentru generarea codului de comandă; termenul de livrare îl confirmăm pe cod',
@@ -382,32 +382,32 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
 
     keyProducts: [
       {
-        name: 'Cilindri Pneumatici ISO (C85, C95, CA2, CDA2)',
-        description: `Cilindrele pneumatice SMC sunt workhorses-ul oricărei automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți, diametre 32-125 mm) și C95 (ISO 6431, cu tiranți, diametre 160-250 mm); presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Configurator online SMC generează cod comandă instant pentru orice combinație diametru-cursă-montaj.`
+        name: 'Cilindri Pneumatici ISO (C85, C96/CP96, C95, CA2)',
+        description: `Cilindrii pneumatici SMC sunt componente de bază în automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți) și C95 (ISO 6431, cu tiranți), cu diametrele disponibile confirmate pe cod, din catalogul SMC; presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Configurator online SMC generează cod comandă instant pentru orice combinație diametru-cursă-montaj.`
       },
       {
         name: 'Valve Electropneumatice (SY, VQ, VQZ)',
-        description: `Valvele electropneumatice SMC controlează fluxul de aer comprimat către actuatori. Seria SY pentru distribuție manifold (5 porturi, 2/3 poziții) compactă și modulară - adaugi secții pe aceeași bară fără modificări. Seria VQ4000/5000 (5 porturi, montaj pe placă de bază) este destinată performanței ridicate; debitul și timpul de răspuns se citesc în catalogul fiecărei serii. Seria VQZ cu valve individuale montabile pe panou sau direct pe echipament. Seriile VQ4000/5000 au bobine de 12 și 24 VDC, cu variantă cu consum redus (0,4 W) pentru alimentare continuă; clasa de protecție standard este IP40, cu opțiuni compatibile IP65 și IP67. Opțiuni de feedback: micro-switch integrat, led indicator, conector sub-base pentru senzori suplimentari. Comunicare fieldbus: EX600 (EtherCAT, EtherNet/IP, PROFINET, CC-Link), SI (DeviceNet, PROFIBUS). `
+        description: `Valvele electropneumatice SMC controlează fluxul de aer comprimat către actuatori. Seria SY pentru distribuție manifold (5 porturi, 2/3 poziții) compactă și modulară - adaugi secții pe aceeași bară fără modificări. Seria VQ4000/5000 (5 porturi, montaj pe placă de bază) este destinată performanței ridicate; debitul și timpul de răspuns se citesc în catalogul fiecărei serii. Seria VQZ cu valve individuale montabile pe panou sau direct pe echipament. Tensiunea bobinei, consumul, clasa de protecție și opțiunile pentru seriile VQ4000/5000 se confirmă pe cod, din catalogul SMC. Opțiuni de feedback: micro-switch integrat, led indicator, conector sub-base pentru senzori suplimentari. Comunicare fieldbus: EX600 (EtherCAT, EtherNet/IP, PROFINET, CC-Link), SI (DeviceNet, PROFIBUS). `
       },
       {
         name: 'Unități de Pregătire Aer (AC, AW)',
-        description: `Aerul comprimat industrial conține impurități (particule, apă condensată, ulei de la compresor) care reduc drastic durata de viață a componentelor pneumatice. Unitățile de pregătire SMC (FRL - Filter, Regulator, Lubricator) curăță, reglează presiunea și opțional adaugă ceață de ulei pentru ungerea componentelor. Seria AC modular combină filtru 5μm, regulator cu manometru și lubricator tip Venturi într-o singură unitate compactă. Seria AW este un filtru-regulator modular, care combină filtrarea cu reglarea presiunii într-o singură unitate; debitul, gradul de filtrare și capacitatea paharului depind de mărime și se confirmă pe cod, din catalogul SMC. Montaj direct pe panou sau pe șină DIN. Varianta "mist separator" pentru aplicații food/pharma unde uleiul e interzis - elimină până la 99.9% din ceața de ulei. Instalare tipică: câte o unitate FRL la fiecare mașină/celulă automată pentru presiune optimă și protecție locală.`
+        description: `Aerul comprimat industrial conține impurități (particule, apă condensată, ulei de la compresor) care reduc drastic durata de viață a componentelor pneumatice. Unitățile de pregătire SMC (FRL - Filter, Regulator, Lubricator) curăță, reglează presiunea și opțional adaugă ceață de ulei pentru ungerea componentelor. Seria AC modular combină filtru 5μm, regulator cu manometru și lubricator tip Venturi într-o singură unitate compactă. Seria AW este un filtru-regulator modular, care combină filtrarea cu reglarea presiunii într-o singură unitate; debitul, gradul de filtrare și capacitatea paharului depind de mărime și se confirmă pe cod, din catalogul SMC. Montaj direct pe panou sau pe șină DIN. Pentru aplicații alimentare sau farmaceutice, unde uleiul nu este admis, există separatoare de ceață de ulei; eficiența de filtrare se confirmă pe cod, din catalogul SMC. Instalare tipică: câte o unitate FRL la fiecare mașină/celulă automată pentru presiune optimă și protecție locală.`
       },
       {
         name: 'Grippere Pneumatice și Actuatoare Rotative',
-        description: `SMC produce game complete de grippere (clești) pneumatice pentru manipulare obiecte în automatizări. Seria MHZ2 este un gripper paralel cu ghidaj liniar integrat, cu diametre de 6 până la 40 mm, repetabilitate de ±0,01 mm (±0,02 mm la diametrele 32 și 40), forță de prindere de la 3,3 N (diametrul 6) la 254 N (diametrul 40) și curse de 4-14 mm (diametre 6-25) sau 22-30 mm (diametre 32-40), conform catalogului SMC. Seria MHZJ2 este varianta cu capac de protecție împotriva prafului, iar MHZL2 este varianta cu cursă lungă (diametre 10-25). Seria MKB face parte din familia de cilindri rotativi de fixare (rotary clamp) MK. Toate cu senzori magnetici integrați pentru detectare poziție deschis/închis, montaj direct pe brațe robot sau șine liniare SMC. Aplicații: alimentare mașini CNC, sortare produse, asamblare automată, palletizare. Certificări clean room ISO 14644 pentru variante în medii controlate.`
+        description: `SMC produce game complete de grippere (clești) pneumatice pentru manipulare obiecte în automatizări. Seria MHZ2 este un gripper paralel cu ghidaj liniar integrat; diametrele, repetabilitatea, forța de prindere și cursa se confirmă pe cod, din catalogul SMC. Seria MHZJ2 este varianta cu capac de protecție împotriva prafului, iar MHZL2 este varianta cu cursă lungă. Seria MKB face parte din familia de cilindri rotativi de fixare (rotary clamp) MK. Toate cu senzori magnetici integrați pentru detectare poziție deschis/închis, montaj direct pe brațe robot sau șine liniare SMC. Aplicații: alimentare mașini CNC, sortare produse, asamblare automată, palletizare. Certificări clean room ISO 14644 pentru variante în medii controlate.`
       }
     ],
 
     certifications: [
-      'ISO 9001 Quality Management',
-      'ISO 14001 Environmental Management',
-      'ISO 45001 Occupational Health & Safety',
+      'ISO 9001 — management al calității',
+      'ISO 14001 — management de mediu',
+      'ISO 45001 — sănătate și securitate în muncă',
       'ATEX/IECEx pentru produse în zone explozive',
-      'CE conformity pentru toate produsele comercializate în UE',
+      'Marcaj CE pentru produsele comercializate în UE, acolo unde directivele îl cer',
       'UL/CSA pentru piața nord-americană',
-      'Clean room certification ISO 14644 pentru aplicații pharma/electronics',
-      'FDA compliance pentru aplicații alimentare și medicale'
+      'Clasificare cameră curată conform ISO 14644, pentru seriile indicate de producător (aplicații farmaceutice și electronice)',
+      'Conformitate FDA doar la anumite serii (de exemplu furtunul din poliuretan HF2B-TU), conform producătorului'
     ],
 
     industries: [
@@ -423,7 +423,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       'Lemn și mobilă (presare, șlefuire, vopsire)'
     ],
 
-    infinitrade: `Distribuim componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
+    infinitrade: `Putem oferta componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
     sources: [
       {"title":"SMC Corporation Homepage","url":"https://www.smcworld.com/en-jp/","publisher":"SMC Corporation","accessed":"2026-09-22"},
       { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
@@ -453,7 +453,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       },
       {
         "code": "EX600",
-        "description": "Sistem fieldbus de siguranță pentru comunicație"
+        "description": "Sistem de transmisie serială (fieldbus) cu master IO-Link pentru comunicație"
       },
       {
         "code": "VHA200-C06-X410",
@@ -491,7 +491,7 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
       },
       {
         "q": "Ce este sistemul fieldbus EX600 de la SMC?",
-        "a": "Este un sistem de comunicație fieldbus cu funcții de siguranță integrate, folosit pentru conectarea insulelor de valve și a modulelor de intrare/ieșire la rețeaua de automatizare a mașinii. Permite reducerea cablajului și diagnosticarea centralizată a stării componentelor pneumatice."
+        "a": "Este un sistem de transmisie serială (fieldbus) cu master IO-Link, folosit pentru conectarea insulelor de valve și a modulelor de intrare/ieșire la rețeaua de automatizare a mașinii. Permite reducerea cablajului și diagnosticarea centralizată a stării componentelor pneumatice."
       },
       {
         "q": "Livrați cilindri și valve SMC în România?",
@@ -506,8 +506,8 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
         "a": "Este o ventuză de vacuum cu suprafață antiderapantă, folosită la manipularea pieselor cu robotul sau la sisteme de ridicare pneumatică. Alegerea diametrului ventuzei depinde de greutatea piesei manipulate și de forma suprafeței de contact cu materialul ridicat."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -517,35 +517,35 @@ SMC declară 400 de birouri de vânzări în 82 de țări. Pentru România, aduc
     employees: '6,500+',
     overview: `Spirax Sarco este specializat în tehnologia aburului industrial - generare, distribuție, control și condensare abur - cu o gamă largă de echipamente pentru aceste aplicații. De la oale de condens (steam traps) care evacuează condensul fără să piardă abur live, până la stații de reducere presiune complet automatizate, până la schimbătoare de căldură plate sau tubulare, totul e proiectat cu o înțelegere profundă a termodinamicii și o obsesie pentru eficiență energetică.
 
-Echipamentele Spirax Sarco se folosesc frecvent în diverse industrii - food processing, textile, chimie, pharma - unde abordarea sistemică e apreciată de utilizatori. Nu e doar un steam trap - se analizează întreaga rețea de abur, se identifică pierderile (leakage la trapele defecte, condensul returnat incomplet, presiunea prea mare unde nu e necesară), și se propun soluții integrate cu economii de combustibil documentate de producător. Spirax oferă chiar servicii de audit energetic gratuit cu cameră termografică și echipament ultrasonic pentru detectarea trapelor blocate sau leaking.
+Echipamentele Spirax Sarco se folosesc frecvent în diverse industrii - food processing, textile, chimie, pharma - unde abordarea sistemică e apreciată de utilizatori. Nu e doar un steam trap - se analizează întreaga rețea de abur, se identifică pierderile (leakage la trapele defecte, condensul returnat incomplet, presiunea prea mare unde nu e necesară), și se propun soluții integrate cu economii de combustibil documentate de producător. 
 
-Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele termodinamice TD cu disc din inox super-polizat, proiectate pentru mentenanță redusă pe termen lung conform producătorului, regulatoarele pilot-operated care mențin presiunea constantă ±0.01 bar chiar la variații mari de debit, schimbătoarele plate cu eficiență termică 95%+ datorită design-ului optimizat CFD. Plus bibliotecă tehnică imensă (manuale, standarde, calculatoare online) și training-uri dedicate pentru ingineri - Spirax Academy oferă cursuri gratuite despre steam engineering la fața locului.`,
+Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele termodinamice TD cu disc din inox super-polizat, proiectate pentru mentenanță redusă pe termen lung conform producătorului, regulatoarele cu pilot care mențin presiunea aproape constantă chiar la variații mari de debit, schimbătoarele plate cu eficiență termică ridicată, conform producătorului. Plus bibliotecă tehnică imensă (manuale, standarde, calculatoare online) și training-uri dedicate pentru ingineri - Spirax Sarco oferă documentație tehnică și training pentru ingineri; condițiile se confirmă la producător.`,
 
     whyChoose: [
       'Expertiză extinsă în tehnologia aburului - peste un secol de activitate și dezvoltare continuă',
       'Economii energetice - sistemele Spirax urmăresc reducerea consumului de combustibil prin eliminarea pierderilor de abur, conform producătorului',
       'Fiabilitate și durabilitate ridicate - produse proiectate pentru funcționare îndelungată în condiții grele, conform producătorului',
-      'Suport tehnic complet - de la audit energetic gratuit până la training și service la fața locului',
+      'Suport tehnic - documentație, training și servicii oferite de producător, conform condițiilor acestuia',
       'Gamă completă de soluții - de la generare abur până la utilizare și recuperare condens, totul de la un singur furnizor',
       'Certificări complete - PED, ATEX, FDA, 3-A sanitary pentru aplicații critice'
     ],
 
     keyProducts: [
       {
-        name: 'Oale de Condens (Steam Traps) - Seria TD/FT/BK',
-        description: `Oalele de condens Spirax Sarco evacuează condensul format în sistemele de abur menținând aburul live în sistem - esențial pentru eficiență și siguranță. Seria TD (termodinamic) cu disc din inox - design robust, funcționează în orice poziție, rezistent la water hammer și frost, ideal pentru linii de distribuție și echipamente generale. Presiune până la 70 bar, temperatură până la 500°C, mentenanță zero timp de 10+ ani. Seria FT (float trap) cu plutitor sferical din inox - evacuare continuă condens la formarea lui, perfect pentru schimbătoare de căldură și drip legs unde volumul de condens e mare. Capacitate mare de evacuare (până la 20,000 kg/h), backup termic integrat pentru protecție anti-îngheț. Seria BK (balanced pressure) cu capsula bimetalică - răspuns rapid la variații temperatură, excelent pentru echipamente cu start/stop frecvent (autoclav, presă, uscător batch). Toate disponibile cu racord filetat BSP/NPT sau flanșat PN16/40, material corp din fontă, oțel carbon sau inox 316L pentru aplicații agresive. Testare 100% în fabrică, marking PED pentru presiune ridicată.`
+        name: 'Oale de Condens (Steam Traps) - Seria TD/FT',
+        description: `Oalele de condens Spirax Sarco evacuează condensul format în sistemele de abur menținând aburul live în sistem - esențial pentru eficiență și siguranță. Seria TD (termodinamic) cu disc din inox - design robust, funcționează în orice poziție, rezistent la water hammer și frost, ideal pentru linii de distribuție și echipamente generale. Presiunea și temperatura maximă de lucru depind de model și se confirmă pe cod, din documentația Spirax Sarco. Seria FT (float trap) cu plutitor sferical din inox - evacuare continuă condens la formarea lui, perfect pentru schimbătoare de căldură și drip legs unde volumul de condens e mare. Capacitatea de evacuare depinde de model și se confirmă pe cod, din documentația Spirax Sarco. Pentru echipamente cu start/stop frecvent (autoclav, presă, uscător batch) există oale de condens termostatice cu presiune echilibrată; seria exactă se confirmă pe cod, din documentația Spirax Sarco. Toate disponibile cu racord filetat BSP/NPT sau flanșat PN16/40, material corp din fontă, oțel carbon sau inox 316L pentru aplicații agresive. Testare 100% în fabrică, marking PED pentru presiune ridicată.`
       },
       {
         name: 'Regulatoare de Presiune Abur - Seria 25P/DP',
-        description: `Regulatoarele Spirax Sarco controlează presiunea aburului la nivelul necesar fiecărui echipament, reducând din presiunea înaltă a rețelei (8-16 bar) la presiune optimă de lucru (2-6 bar) - economii de energie și protecție echipamente. Seria 25P pilot-operated cu pilotare internă (self-contained) - nu necesită sursă externă de energie, menține presiunea constantă ±0.05 bar chiar la variații mari de debit (turn-down ratio 40:1). Diametru DN15-DN150, presiune intrare până la 35 bar, debit abur până 60,000 kg/h. Pilotul senzează presiunea downstream și ajustează deschiderea valvei principale proporțional. Membrană din inox cu durată de viață 10+ ani. Seria DP27 cu supapă de siguranță integrată și filtru upstream pentru protecție completă. Aplicații: reducție presiune pentru echipamente proces (reactoare, cuptoare, autoclav), protecție echipamente delicate (schimbătoare plăci) împotriva presiunii prea mari, stabilizare presiune la variații debit (linii de producție cu consum intermitent). Montaj orizontal sau vertical, accesorii opționale: manometru downstream, separare condens înainte de regulator, bypass manual pentru mentenanță.`
+        description: `Regulatoarele Spirax Sarco controlează presiunea aburului la nivelul necesar fiecărui echipament, reducând din presiunea înaltă a rețelei (8-16 bar) la presiune optimă de lucru (2-6 bar) - economii de energie și protecție echipamente. Seria 25P pilot-operated cu pilotare internă (self-contained) - nu necesită sursă externă de energie, menține presiunea aproape constantă chiar la variații mari de debit. Diametrul nominal, presiunea de intrare și debitul de abur depind de model și se confirmă pe cod, din documentația Spirax Sarco. Pilotul senzează presiunea downstream și ajustează deschiderea valvei principale proporțional.  Pentru configurații cu filtru și supapă de siguranță în amonte, modelul potrivit se confirmă pe cod, din documentația Spirax Sarco. Aplicații: reducție presiune pentru echipamente proces (reactoare, cuptoare, autoclav), protecție echipamente delicate (schimbătoare plăci) împotriva presiunii prea mari, stabilizare presiune la variații debit (linii de producție cu consum intermitent). Montaj orizontal sau vertical, accesorii opționale: manometru downstream, separare condens înainte de regulator, bypass manual pentru mentenanță.`
       },
       {
         name: 'Schimbătoare de Căldură cu Plăci - Seria EasiHeat',
-        description: `Schimbătoarele cu plăci Spirax EasiHeat transferă căldura de la abur către apă sau alte lichide cu eficiență ridicată (peste 95%, conform producătorului) datorită suprafeței mari de schimb în volum compact și turbulenței ridicate în canalele plăcilor. Construcție: cadru din oțel carbon vopsit, plăci din inox AISI 316L presate cu profil chevron pentru turbulență maximă, garnituri din NBR sau EPDM funcție de aplicație. Modele de la 0.1 m² (puteri termice 10 kW) până la 1000 m² (50 MW) prin adăugare plăci. Aburul condensează pe o parte a plăcilor, cedând căldura latentă la temperatură constantă - ideal pentru încălzire uniformă. Aplicații: încălzire apă caldă menajeră (ACM) în spitale/hoteluri, încălzire agent termic în procese industriale, pasteurizare/sterilizare în food & beverage. Avantaje față de schimbătoarele tubulare: compactitate (volum 5x mai mic), eficiență superioară (approach temperature 1-2°C), ușurință mentenanță (desfaci șuruburile cadrului și cureți plăcile), extensibilitate (adaugi plăci pentru putere mai mare). Control automat prin valvă modulantă pe abur pilot-controlată de senzor temperatură downstream.`
+        description: `Schimbătoarele cu plăci Spirax EasiHeat transferă căldura de la abur către apă sau alte lichide cu eficiență ridicată (peste 95%, conform producătorului) datorită suprafeței mari de schimb în volum compact și turbulenței ridicate în canalele plăcilor. Construcție: cadru din oțel carbon vopsit, plăci din inox AISI 316L presate cu profil chevron pentru turbulență maximă, garnituri din NBR sau EPDM funcție de aplicație. Suprafața de schimb și puterea termică depind de model și se confirmă pe cod, din documentația Spirax Sarco. Aburul condensează pe o parte a plăcilor, cedând căldura latentă la temperatură constantă - ideal pentru încălzire uniformă. Aplicații: încălzire apă caldă menajeră (ACM) în spitale/hoteluri, încălzire agent termic în procese industriale, pasteurizare/sterilizare în food & beverage. Avantaje față de schimbătoarele tubulare: compactitate, eficiență ridicată, ușurință mentenanță (desfaci șuruburile cadrului și cureți plăcile), extensibilitate (adaugi plăci pentru putere mai mare). Control automat prin valvă modulantă pe abur pilot-controlată de senzor temperatură downstream.`
       },
       {
-        name: 'Separatoare de Condens și Filtre - Seria Spiratec',
-        description: `Separatoarele Spiratec elimină condensul și impuritățile din aburul înainte de echipamentele sensibile (turbine, supraîncălzitoare, echipamente de proces) - esențial pentru calitatea aburului și protecția echipamentelor. Principiu: abur umed intră tangențial în cameră cilindrică, forța centrifugă împinge picăturile de apă și particulele spre perete unde se colectează și se evacuează prin steam trap, aburul uscat iese prin centru. Eficiență separare 98%+ pentru particule >10μm și picături apă. Constructie din oțel carbon sau inox, presiune până la 100 bar, temperatură până la 540°C. Modele verticale (Spiratec HV) pentru montaj în linie sau orizontale (Spiratec HH) pentru spațiu limitat. Filtru integrat upstream cu mesh din inox pentru oprire particule 100-500μm - protejează valve de control și echipamente downstream. Conexiuni flansate PN16/40/100, certificare PED categoria III pentru presiune înaltă. Aplicații critice: turbine cu abur (impuritățile erodează paletele), echipamente măsurare debit cu diafragmă (condensul falsifică măsurătoarea), proces sterilizare (aburul trebuie perfect uscat și curat).`
+        name: 'Separatoare de Abur și Filtre - Seria S',
+        description: `Separatoarele Spirax Sarco din seria S elimină picăturile de apă din aburul înainte de echipamentele sensibile (turbine, supraîncălzitoare, echipamente de proces) - esențial pentru calitatea aburului și protecția echipamentelor. Principiu: abur umed intră tangențial în cameră cilindrică, forța centrifugă împinge picăturile de apă și particulele spre perete unde se colectează și se evacuează prin steam trap, aburul uscat iese prin centru. Eficiența de separare, presiunea și temperatura maximă depind de model și se confirmă din documentația Spirax Sarco. Modelele diferă prin material (fontă sferoidală, oțel carbon, oțel inoxidabil) și conexiuni; modelul potrivit se confirmă pe cod, din documentația Spirax Sarco. Filtru integrat upstream cu mesh din inox pentru oprire particule 100-500μm - protejează valve de control și echipamente downstream. Conexiuni flansate PN16/40/100, certificare PED categoria III pentru presiune înaltă. Aplicații critice: turbine cu abur (impuritățile erodează paletele), echipamente măsurare debit cu diafragmă (condensul falsifică măsurătoarea), proces sterilizare (aburul trebuie perfect uscat și curat).`
       }
     ],
 
@@ -697,8 +697,8 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
         "a": "Este o oală de condens cu flotor care integrează un senzor Spiratec, folosit pentru monitorizarea funcționării oalei și detectarea pierderilor de abur sau a blocajelor. Este utilă în instalații unde funcționarea corectă a fiecărei oale de condens trebuie verificată fără intervenție manuală constantă pe teren."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'gsc-only'
   },
 
@@ -706,37 +706,37 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
     founded: 1862,
     headquarters: 'Wuppertal, Germania',
     employees: '800+',
-    overview: `Stahlwille este un producător german de scule de mână de precizie, poziționat în segmentul premium prin calitatea materialelor, precizia fabricației și atenția la detalii. Sunt instrumente destinate aplicațiilor industriale critice - aerospace, automotive, energie nucleară, oil & gas offshore - unde strângerea la cuplul corect este esențială pentru siguranța îmbinării și pentru evitarea opririlor neplanificate de producție.
+    overview: `Stahlwille este un producător german de scule de mână de precizie, cu accent pe calitatea materialelor, precizia fabricației și atenția la detalii. Sunt instrumente destinate aplicațiilor industriale critice - aerospace, automotive, energie nucleară, oil & gas offshore - unde strângerea la cuplul corect este esențială pentru siguranța îmbinării și pentru evitarea opririlor neplanificate de producție.
 
 Cheile dinamometrice Stahlwille se remarcă prin: mecanism intern robust din oțel forjat (nu turnat), calibrare în fabrică cu echipamente metrologice trasabile PTB (Physikalisch-Technische Bundesanstalt - institutul național metrologic german), clicking mechanism precis și repeatabilitate în limitele specificate de producător chiar și după zeci de mii de cicluri.
 
-Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industriale (sertare modulare MASTERBOX cu organizare perfectă), chei inelare și combinate (OPEN-BOX cu design deschidere 15° pentru unghi mic de lucru), torx-uri și hex cu tratament special anti-slipping, biți pentru înșurubătoare cu impact. Totul ambalat în cutii metalice sau polymer de înaltă rezistență, cu seriale individuale pentru calibrare și verificare periodică. Investiție pentru decenii, nu consumabile de o dată.`,
+Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industriale (seturi organizate în cutii), chei inelare și combinate (OPEN-BOX cu design deschidere 15° pentru unghi mic de lucru), torx-uri și hex cu tratament special anti-slipping, biți pentru înșurubătoare cu impact. Totul ambalat în cutii metalice sau polymer de înaltă rezistență, cu seriale individuale pentru calibrare și verificare periodică. Investiție pentru decenii, nu consumabile de o dată.`,
 
     whyChoose: [
       'Precizie metrologică germană - toleranțe strânse, calibrare trasabilă, certificate individuale pentru fiecare instrument',
       'Durabilitate ridicată - oțel crom-vanadiu forjat, tratament termic controlat, finisare cromată anti-coroziune',
       'Ergonomie orientată spre utilizare prelungită - mânere soft-grip anatomice care reduc oboseala',
-      'Garanție pe viață pentru defecte de fabricație, conform politicii producătorului - Stahlwille înlocuiește sau repară sculele cu defecte de fabricație, în afara utilizării abuzive',
-      'Trasabilitate completă - fiecare cheatre dinamometrică are certificat de calibrare și poate fi recalibrată periodic',
+      'Garanția pentru defecte de fabricație este cea oferită de producător; condițiile se confirmă la comandă',
+      'Trasabilitate completă - fiecare cheie dinamometrică are certificat de calibrare și poate fi recalibrată periodic',
       'Service tehnic disponibil în Europa - reglaj, reparații, recalibrare cu certificate DKD/DAkkS'
     ],
 
     keyProducts: [
       {
         name: 'Chei Dinamometrice - Seria 730/96',
-        description: `Cheile dinamometrice Stahlwille sunt instrumentele de referință pentru strângerea controlată la cuplu specific în aplicații industriale și service. Seria 730 Quick-Release cu mecanism clichet reversibl, cap pătrat 9x12mm (3/8") sau 12.5x12.5mm (1/2"), game de cuplu 10-50 Nm, 40-200 Nm, 100-500 Nm. Precizie ±3% conform ISO 6789-2:2017, calibrare trasabilă PTB, certificat individual inclus. Mecanism click-type: setezi cuplul dorit pe scala gravată, când atingi valoarea cheia "clichează" tactil și auditiv - imposibil să strângi mai mult. Construcție corp din oțel crom-vanadiu forjat, mâner ergonomic bi-material anti-alunecare. Seria 96 electronic MANOSKOP cu display digital LCD, alerte vizuale/audibile la atingere cuplu, memorare valori peak, comunicare Bluetooth pentru logging. Acuratețe ±1%, baterie reîncărcabilă Li-Ion. Aplicații critice: strângere capete de bielă motor, flanșe presiune înaltă, componente aerospace, turbine eoliene. Recalibrare recomandată anual sau la 50,000 cicluri în laboratoare acreditate DKD.`
+        description: `Cheile dinamometrice Stahlwille sunt instrumentele de referință pentru strângerea controlată la cuplu specific în aplicații industriale și service. Seria 730 Quick-Release cu mecanism clichet reversibl, cap pătrat 9x12mm (3/8") sau 12.5x12.5mm (1/2"), game de cuplu diferite, în funcție de model (se confirmă pe cod). Precizie ±4% conform ISO 6789-2:2017, calibrare trasabilă PTB, certificat individual inclus. Mecanism click-type: setezi cuplul dorit pe scala gravată, când atingi valoarea cheia "clichează" tactil și auditiv - imposibil să strângi mai mult. Construcție corp din oțel crom-vanadiu forjat, mâner ergonomic bi-material anti-alunecare. Codurile care încep cu 965, de exemplu 96550125, sunt articole mecanice din gama MANOSKOP (96550125 este modelul 730R VDE, izolat conform IEC 60900); variantele electronice se află în gama eClick, iar datele tehnice se confirmă pe cod din catalogul producătorului. Aplicații critice: strângere capete de bielă motor, flanșe presiune înaltă, componente aerospace, turbine eoliene. Intervalul de recalibrare se stabilește conform ISO 6789 și recomandărilor producătorului.`
       },
       {
-        name: 'Tubulare Hexagonale și Torx - Seria MANOSKOP',
-        description: `Tubularele Stahlwille MANOSKOP sunt proiectate pentru cuplu mare și durabilitate în aplicații industriale. Hexagonale 1/4", 3/8", 1/2", 3/4", 1" drive, dimensiuni metrice 4-80mm și inch 3/16"-3", finisare cromată lucioasă anti-coroziune. Oțel crom-molibden-vanadiu forjat și tratat termic pentru duritate optimă (45-50 HRC) - rezistă la deformare chiar la cuplu peste specificație. Design special: perete subțire pentru acces în spații restrânse, profil hexagonal interior cu 6 puncte de contact pe fețe (nu pe colțuri) pentru distribuție uniformă a forței - reduce riscul rotunjirii șuruburilor. Marcaj dimensiune laser-etched care nu se șterge. Seria Torx TX pentru șuruburi cu profil stea (automotive, electronics) - potrivire perfectă în șuț, eliminare cam-out (alunecare și deteriorare profil). Set-uri complete în cutii metalice modulare MASTERBOX cu organizare color-coded și spumă pre-tăiată pentru fiecare piesă - inventarul vizual instant. Garanție pe viață împotriva ruperii și crapaturilor (excluzând abuzul evident).`
+        name: 'Tubulare Hexagonale și Torx',
+        description: `Tubularele Stahlwille sunt proiectate pentru cuplu mare și durabilitate în aplicații industriale. Hexagonale 1/4", 3/8", 1/2", 3/4", 1" drive, dimensiuni metrice 4-80mm și inch 3/16"-3", finisare cromată lucioasă anti-coroziune. Producătorul indică oțel de înaltă performanță HPQ, forjat, pentru tubulare rezistente și cu pereți subțiri. Design special: perete subțire pentru acces în spații restrânse, profil hexagonal interior cu 6 puncte de contact pe fețe (nu pe colțuri) pentru distribuție uniformă a forței - reduce riscul rotunjirii șuruburilor. Marcaj dimensiune laser-etched care nu se șterge. Seria Torx TX pentru șuruburi cu profil stea (automotive, electronics) - potrivire bună în locaș, cu risc redus de alunecare a sculei. Seturile se livrează în cutii organizate; compoziția fiecărui set se confirmă din catalogul producătorului. `
       },
       {
         name: 'Chei Inelare și Combinate - Seria 15/17/20',
-        description: `Cheile Stahlwille fixe (inelare și combinate) combină design ergonomic cu precizie dimensională ridicată. Seria 15 OPEN-BOX combinate (cap deschis + inel) cu unghi 15° între cap și corp pentru lucru în spații strâmte. Toleranță dimensională ±0.05mm pe deschidere - potrivire perfectă pe șuruburi/piulițe fără joc care ar rotunji colțurile. Oțel crom-vanadiu forjat la cald, tratat termic integral (nu doar capetele!), cromaj decorativ și protectiv. Finisare satin-chrome care nu reflectă lumina puternică (avantaj în service automotive). Seria 17 OPEN-RING inelare cu profil ușor conic pentru prindere laterală pe piulițe semi-accesibile. Seria 20 DOUBLE RING inelare duble offset cu 12 puncte - poți avansa câte 15° per mișcare în spațiu restrâns. Dimensiuni 6-120mm, seturi complete în cutii din plastic robust cu clips de prindere. Marcaj laser cu dimensiune metrică și inch echivalent. Ergonomie: suprafață medie netedă dar nu alunecoasă, grosime optimizată pentru moment maxim fără oboseală mână. Conform politicii producătorului, dacă o cheie se îndoaie sau se fisurează fără abuz, Stahlwille o înlocuiește.`
+        description: `Cheile Stahlwille fixe (inelare și combinate) combină design ergonomic cu precizie dimensională ridicată. Seria 15 OPEN-BOX combinate (cap deschis + inel) cu unghi 15° între cap și corp pentru lucru în spații strâmte.  Oțel crom-vanadiu forjat la cald, tratat termic integral (nu doar capetele!), cromaj decorativ și protectiv. Finisare satin-chrome care nu reflectă lumina puternică (avantaj în service automotive). Seria 17 OPEN-RING inelare cu profil ușor conic pentru prindere laterală pe piulițe semi-accesibile. Seria 20 DOUBLE RING inelare duble offset cu 12 puncte - puteți avansa câte 15° per mișcare în spațiu restrâns. Dimensiuni 6-120mm, seturi complete în cutii din plastic robust cu clips de prindere. Marcaj laser cu dimensiune metrică și inch echivalent. Ergonomie: suprafață medie netedă dar nu alunecoasă, grosime optimizată pentru moment maxim fără oboseală mână. `
       },
       {
         name: 'Biți pentru Șurubelnițe cu Impact - Seria ES',
-        description: `Bițîi Stahlwille ES (Extra Short) pentru șurubelnițe cu impact și bormașini sunt proiectați pentru aplicații industriale unde bițîii standard cedează rapid. Lungime redusă 25-30mm pentru acces în spații adânci (cutii electrice, console automotive). Material: oțel special pentru scule (S2 modified) cu tratament termic torsional - rezistență mare la șocuri repetate fără a deveni fragil și a se sparge. Profile: Phillips PH, Pozidriv PZ, Torx TX, Torx Tamper-Resistant, Hexagon (Allen), Tri-Wing, Robertson - practic orice șuț exotic din automotive/aerospace. Vârf magnetic pentru prinderea șuruburilor în poziții dificile. Finisare brunată sau TiN (Titanium Nitride) gold pentru rezistență la uzură crescută 3x față de oțel normal. Set-uri profesionale în holdere magnetizați sau cutii plastice color-coded. Testare destructivă: fiecare lot suportă minimum 10,000 cicluri de impact la 150 Nm pe șurubelnița Makita DTD154 înainte de uzură acceptabilă. Aplicații: asamblare automotive (șuruburi autoblocante cu Loctite), service electronics (șuruburi Torx minuscule), construcții metalice (șuruburi autoperforante cu impact).`
+        description: `Biții Stahlwille ES (Extra Short) pentru șurubelnițe cu impact și bormașini sunt proiectați pentru aplicații industriale. Lungime redusă 25-30mm pentru acces în spații adânci (cutii electrice, console automotive). Material: oțel special pentru scule (S2 modified) cu tratament termic torsional - rezistență mare la șocuri repetate fără a deveni fragil și a se sparge. Profile: Phillips PH, Pozidriv PZ, Torx TX, Torx Tamper-Resistant, Hexagon (Allen), Tri-Wing, Robertson - practic orice șuț exotic din automotive/aerospace. Vârf magnetic pentru prinderea șuruburilor în poziții dificile. Finisare brunată sau TiN (Titanium Nitride) gold pentru rezistență la uzură crescută. Set-uri profesionale în holdere magnetizați sau cutii plastice color-coded.  Aplicații: asamblare automotive (șuruburi autoblocante cu Loctite), service electronics (șuruburi Torx minuscule), construcții metalice (șuruburi autoperforante cu impact).`
       }
     ],
 
@@ -753,7 +753,7 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
 
     industries: [
       'Aerospace (asamblare avioane, helicopter MRO)',
-      'Automotive premium (linii de producție auto)',
+      'Automotive (linii de producție auto)',
       'Oil & Gas offshore (platforme petroliere, valve mari)',
       'Energie nucleară (mentenanță reactoare, compliance strictă)',
       'Railways (asamblare/mentenanță locomotive și vagoane)',
@@ -764,7 +764,7 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
       'General industrial maintenance (atât fabricație cât și service)'
     ],
 
-    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 1–4 săptămâni la comandă. Pentru o ofertă utilă, trimite-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
+    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 1–4 săptămâni la comandă. Pentru o ofertă utilă, trimiteți-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
     sources: [
       {"title":"Stahlwille homepage","url":"https://stahlwille.com/de_de","publisher":"Stahlwille","accessed":"2026-09-26"},
       {"title":"Torque wrench MANOSKOP 730 Quick","url":"https://stahlwille.com/en_us/products/torque-tools/torque-wrenches-mechanical/torque-wrenches-mechanical-for-insert-tools/torque-wrench-manoskopr-730-quick-nm-ftlb/852078","publisher":"Stahlwille","accessed":"2026-09-26"},
@@ -773,8 +773,8 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
       { title: 'Stahlwille', url: 'https://en.wikipedia.org/wiki/Stahlwille', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu efectuăm noi recalibrarea DKD/DAkkS a sculelor Stahlwille și nu putem confirma stocul permanent pentru fiecare referință din gamă.',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     productCodes: [
       {
         "code": "MANOSKOP 730 Quick",
@@ -846,37 +846,37 @@ Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industri
     founded: 1941,
     headquarters: 'Galway, Irlanda (operațional: Berwyn, Pennsylvania, SUA)',
     employees: '85,000+',
-    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) produce componente de conectivitate prezente într-o gamă largă de echipamente electronice moderne - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Compania are un portofoliu foarte extins de componente în catalog și fabricație în peste 140 de locații la nivel global, conform producătorului.
+    overview: `TE Connectivity (fost Tyco Electronics, desprins din Tyco International în 2007) produce componente de conectivitate prezente într-o gamă largă de echipamente electronice moderne - de la conectori miniaturizați în smartphone-uri până la relee industriale de 500A în panouri electrice, de la senzori de presiune automotive până la antene 5G. Compania are un portofoliu foarte extins de componente în catalog și fabricație și inginerie în peste 100 de centre la nivel global, conform producătorului.
 
 Produsele TE se folosesc frecvent în proiecte diverse - de la conectori Micro-MaTch pe plăcile PCB în aparatură medicală, până la relee Kilovac în panouri de comandă industriale, până la senzori M12 pe mașini CNC. Produsele sunt proiectate pentru consistență în calitate: materiale precum contacte aurite pentru rezistență la coroziune minimă și izolatoare din polimeri high-performance, plus testare conform standardelor din industrie (cicluri mecanice, șocuri termice, vibrații, rezistență la chimicale).
 
-Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionieri ai conectorilor circular M8/M12 pentru senzori industriali, ai conectorilor hermetic sealed pentru aerospace/defense, ai senzorilor MEMS de presiune și accelerație. Investesc masiv în R&D pentru tehnologii next-gen: conectori high-speed pentru 112 Gbps datacom, senzori LiDAR pentru vehicule autonome, antene mmWave pentru 5G. Și suportul tehnic e impresionant: biblioteca online cu modele 3D CAD, drawings, specificații, application notes pentru fiecare produs.`,
+Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul include conectori circulari M8/M12 pentru senzori industriali, conectori etanși pentru aerospace/defense și senzori MEMS de presiune. Conform producătorului, TE investește în inginerie, cercetare și dezvoltare pentru tehnologii noi, precum conectori de mare viteză pentru datacom. Producătorul oferă pe site biblioteci online cu modele 3D CAD, desene, specificații și note de aplicație.`,
 
     whyChoose: [
-      'Portofoliu de produse foarte extins - acoperă practic orice nevoie de conectivitate, de la conectori miniaturizați până la relee industriale mari',
-      'Calitate și fiabilitate dovedite - produse testate riguros conform standarde automotive/aerospace/militare',
+      'Portofoliu larg de conectori, relee și senzori, de la conectori miniaturizați până la relee industriale',
+      'Produse testate conform standardelor aplicabile fiecărei serii, indicate în fișa tehnică',
       'Inovație tehnologică continuă - investiții masive în R&D pentru tehnologii de vârf',
-      'Distribuție globală - disponibilitate rapidă prin rețea de distribuitori worldwide',
-      'Suport tehnic excelent - ingineri de aplicații, biblioteci CAD, tooluri de selecție online',
-      'Certificări complete - automotive (AEC-Q), aerospace (AS), militare (MIL-SPEC), industriale (UL/CE/CSA)'
+      'Prezență globală a producătorului; disponibilitatea o confirmăm pe cod, la furnizor',
+      'Suport tehnic - documentație, biblioteci CAD și instrumente de selecție online ale producătorului',
+      'Certificări și calificări specifice fiecărei serii (de exemplu AEC-Q, UL, CE), conform fișelor tehnice'
     ],
 
     keyProducts: [
       {
         name: 'Conectori Industriali M8/M12',
-        description: `Conectorii circulari M8 și M12 TE Connectivity sunt standardul de facto pentru senzori și actuatori industriali în automatizări. Design robust: carcasă metalică (alamă nichelată sau zinc die-cast), IP67/IP68/IP69K waterproof și dustproof, rezistență la vibrații și șocuri conform IEC 60068. Codare mecanică (A-cod pentru senzori, D-cod pentru Ethernet industrială, X-cod pentru 10Gbps) previne conectări greșite. Contacte aurite pentru rezistență de contact minimă și stabilitate long-term. Variante straight și right-angle, montaj panou sau cable, solder/crimp/IDC termination. M12 suportă Ethernet Industrial: 100Base-TX, Gigabit, 10 Gigabit pentru comunicare deterministă în aplicații time-critical (motion control, safety). Certificări UL, CE, cULus, shipping approvals. Mating cycles 500+ pentru variante industriale, 5000+ pentru heavy-duty. Temperatură -40°C până +125°C (variante high-temp). Aplicații: senzori de proximitate, fotocelule, encodere, motoare servo, valve pneumatice, PLC I/O remot.`
+        description: `Conectorii circulari M8 și M12 TE Connectivity sunt folosiți frecvent pentru senzori și actuatoare industriale în automatizări. Design robust: carcasă metalică (alamă nichelată sau zinc die-cast), IP67/IP68/IP69K waterproof și dustproof, rezistență la vibrații și șocuri conform IEC 60068. Codare mecanică (A-cod pentru senzori, D-cod pentru Ethernet industrială, X-cod pentru 10Gbps) previne conectări greșite. Contacte aurite pentru rezistență de contact minimă și stabilitate long-term. Variante straight și right-angle, montaj panou sau cable, solder/crimp/IDC termination. M12 suportă Ethernet Industrial: 100Base-TX, Gigabit, 10 Gigabit pentru comunicare deterministă în aplicații time-critical (motion control, safety). Certificări UL, CE, cULus, shipping approvals. Temperatură -40°C până +125°C (variante high-temp). Aplicații: senzori de proximitate, fotocelule, encodere, motoare servo, valve pneumatice, PLC I/O remot.`
       },
       {
-        name: 'Relee Industriale - Seria Kilovac/PCHN',
-        description: `Releele TE Connectivity comută sarcini mari (curenți de la 10A până la 500A, tensiuni DC/AC până la 1000V) cu fiabilitate ridicată, conform producătorului, în aplicații industriale și vehicule electrice. Seria Kilovac (monostabil și bistabil) pentru switching DC high-voltage: contacte din argint sau argint-tungsten care rezistă la arcuri electrice, bobină low-power (sub 5W), izolație dielectrică 4-12 kV, magnetic blowout pentru întrerupere arc rapid. Aplicații: vehicule electrice/hibride (baterii 400-800V DC), solar inverters, UPS, telecomunicații (DC power distribution). Seria PCHN (Potter & Brumfield) pentru aplicații generale industriale AC/DC: 4PDT până la single pole, curent 10-40A, montaj DIN-rail sau PCB, indicator mecanic stare contact. Rezistență la șoc 50g, vibrație 10g, temperatură -40°C...+85°C. Durată de viață electrică și mecanică ridicată, conform fișei tehnice a producătorului. Certificări UL508, CSA, VDE, CQC. Variante cu supresie arc (varistor sau RC snubber integrat) pentru protecție bobină și contacte la comutarea sarcinilor inductive.`
+        name: 'Relee Industriale - Seria Kilovac/Potter & Brumfield',
+        description: `Releele TE Connectivity comută sarcini mari (curenți de la 10A până la peste 500A, la tensiuni DC de până la 900 VDC la seria LEV200 sau mai mari la alte serii) cu fiabilitate ridicată, conform producătorului, în aplicații industriale și vehicule electrice. Seria Kilovac (monostabil și bistabil) pentru switching DC high-voltage: contacte din argint sau argint-tungsten care rezistă la arcuri electrice, bobină low-power (sub 5W), izolație dielectrică 4-12 kV, magnetic blowout pentru întrerupere arc rapid. Aplicații: vehicule electrice/hibride (baterii 400-800V DC), solar inverters, UPS, telecomunicații (DC power distribution). Releele Potter & Brumfield (de exemplu seria PCH) se folosesc în aplicații generale; configurația contactelor și curentul depind de model, conform fișei tehnice. Rezistență la șoc 50g, vibrație 10g, temperatură -40°C...+85°C. Durată de viață electrică și mecanică ridicată, conform fișei tehnice a producătorului. Certificări UL508, CSA, VDE, CQC. Variante cu supresie arc (varistor sau RC snubber integrat) pentru protecție bobină și contacte la comutarea sarcinilor inductive.`
       },
       {
         name: 'Senzori de Presiune - Seria MEAS/AST',
-        description: `Senzorii de presiune TE (divisiile MEAS și AST dobândite prin achiziții) folosesc tehnologie MEMS (piezo-rezistivă sau capacitivă) pentru măsurarea precisă a presiunii în aplicații industriale, automotive, medicale. Seria MS5000 piezo-rezistivă pentru presiune absolută/relativă 0.5-10 bar, precizie ±0.25% FSO (Full Scale Output), compensare temperatură -40...+125°C, ieșire digitală I2C sau analogică 0.5-4.5V. Carcasă miniaturizată 10x10mm pentru integrare în spații mici. Seria 86BSD pentru aplicații industriale grele: presiune 0-1000 bar, membrană din inox 17-4PH, conexiune electrică DIN43650 sau M12, calibrare la 0...80°C cu certificat inclus. Ieșire 4-20mA sau 0-10V, alimentare 10-30VDC. Aplicații: hydraulic systems (control presiune pompe, cilindri), HVAC (monitoring presiune refrigerent), automotive (presiune combustibil, ulei motor, turbo boost), medical (monitoring presiune sânge, respiratoare). Certificări FDA pentru aplicații medicale, automotive AEC-Q pentru temperature cycling și humidity.`
+        description: `Senzorii de presiune TE (divisiile MEAS și AST dobândite prin achiziții) folosesc tehnologie MEMS (piezo-rezistivă sau capacitivă) pentru măsurarea precisă a presiunii în aplicații industriale, automotive, medicale. Senzorii MEAS miniaturizați folosesc tehnologie MEMS piezorezistivă; domeniul de presiune, precizia și tipul ieșirii (digitală sau analogică) depind de model, conform fișei tehnice. Seria MEAS 86 se adresează aplicațiilor industriale; domeniile de presiune, membrana, conexiunea electrică și ieșirea depind de model, conform fișei tehnice. Aplicații: sisteme hidraulice (controlul presiunii la pompe și cilindri), HVAC (monitorizarea presiunii agentului frigorific), automotive (presiune combustibil, ulei motor), aparatură medicală. Calificările pentru aplicații medicale sau automotive (de exemplu AEC-Q) depind de seria aleasă și se confirmă în fișa tehnică.`
       },
       {
         name: 'Conectori Board-to-Board și Wire-to-Board',
-        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH pentru board-to-board low-profile: pitch 2.54mm sau 2mm, stacking height 6-25mm, forță inserție redusă datorită designului ramp progresiv, retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama completă: 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
+        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH: headere PCB cu carcasă (shrouded) pe pas de 2,54 mm, cu retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama completă: 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
       }
     ],
 
@@ -931,7 +931,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "code": "DEUTSCH DMC-M Series",
-        "description": "Conector industrial de uz greu pentru vibrații"
+        "description": "Conector modular robust pentru conectivitate aerospațială"
       },
       {
         "code": "AMPMODU",
@@ -943,7 +943,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "code": "zSFP+",
-        "description": "Interconectare pluggable de mare viteză 28/56 Gbps"
+        "description": "Interconectare pluggable de mare viteză, conform fișei tehnice"
       },
       {
         "code": "QSFP",
@@ -977,49 +977,49 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Au fost pionie
       },
       {
         "q": "Ce este conectorul DEUTSCH DMC-M de la TE Connectivity?",
-        "a": "Este un conector industrial de uz greu, folosit în medii cu vibrații și solicitări mecanice ridicate, inclusiv aplicații aerospațiale. Este ales atunci când conectorii standard M12 nu oferă rezistența mecanică sau etanșarea necesară condițiilor de operare."
+        "a": "Este un conector modular robust, destinat conectivității în aplicații aerospațiale și în medii cu solicitări mecanice ridicate, conform paginii producătorului."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul TE Connectivity, conform surselor citate.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul TE Connectivity, conform surselor citate.' }],
     evidenceClass: 'transactional'
   },
 
   'tesa': {
     founded: 1941,
     headquarters: 'Renens, Elveția',
-    employees: '1,200+',
-    overview: `Tesa Technology (nu confunda cu Tesa din Germania care face benzi adezive!) e producătorul elvețian de instrumente de măsurare dimensională de înaltă precizie - comparatoare mecanice și digitale, rugozimetre, coloane de măsurat, aparate de măsurat rotunditate și cilindicitate. Când ai nevoie să măsori cu precizie sub micron (0.001 mm) în control calitate sau pe linia de producție, Tesa e unul dintre brandurile premium la care apelezi alături de Mitutoyo, Mahr și Sylvac.
+    
+    overview: `Tesa Technology (a nu se confunda cu tesa SE din Germania, producător de benzi adezive) este producătorul elvețian de instrumente de măsurare dimensională de înaltă precizie - comparatoare mecanice și digitale, șublere, rugozimetre, coloane de măsurat. Pentru măsurători dimensionale cu rezoluție de ordinul micronului (0.001 mm) în controlul calității sau pe linia de producție, Tesa este un brand cunoscut în metrologie, alături de Mitutoyo, Mahr și Sylvac.
 
-Comparatoarele Tesa se folosesc frecvent în verificarea pieselor prelucrate CNC, unde diferența față de instrumente generice este vizibilă: repetabilitate ridicată (±0.0002 mm, conform producătorului), construcție robustă din oțel inox cu protecție IP65, citire clară pe display digital rezolutiv 0.0001 mm (0.1 μm), interfață de date SPC (Statistical Process Control) pentru logging automat în soft-uri de calitate. Jetul de măsurare curge lin datorită ghidării pe rulmenți de precizie, iar mecanismul e protejat la overtravel - poți lăsa piesa să lovească sonda fără să strici scala.
+Comparatoarele Tesa se folosesc frecvent în verificarea pieselor prelucrate CNC, unde diferența față de instrumente generice este vizibilă: display digital cu rezoluție de 0.001 mm la modelele DIALTRONIC verificate, protecție IP54 la aceste modele și ieșire de date pentru colectare în soft-uri de calitate; valorile exacte depind de model.
 
-Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea parametrilor de rugozitate Ra/Rz/Rq conform ISO 4287 (esențial în verificarea suprafețelor rectificate/polizate), coloane de măsurat pentru verificări dimensionale complexe (șabloane, matrițe, piese prismatice), chiar aparate de măsurat rotunditate pentru arbori și alezaje. Totul cu software dedicat pentru analiza datelor și generare rapoarte de calitate conform ISO 9001/IATF 16949.`,
+Gama Tesa include și rugozimetre portabile pentru măsurarea parametrilor de rugozitate Ra/Rz/Rq conform ISO 4287 (esențial în verificarea suprafețelor rectificate/polizate), coloane de măsurat pentru verificări dimensionale complexe (șabloane, matrițe, piese prismatice), precum și software dedicat pentru colectarea și analiza datelor de măsurare.`,
 
     whyChoose: [
-      'Precizie ridicată - rezoluție 0.1 μm (0.0001 mm), repetabilitate sub ±0.2 μm',
-      'Construcție robustă industrială - carcasă inox IP65, rezistență la praf, lichide de răcire, șocuri',
+      'Precizie ridicată - rezoluția și repetabilitatea depind de model și se confirmă din fișa tehnică a producătorului',
+      'Construcție robustă pentru atelier - gradul de protecție depinde de model (de exemplu IP54 la DIALTRONIC verificat)',
       'Interfață SPC integrată - conexiune USB/RS232 pentru logging automat măsurători în soft-uri calitate',
-      'Software avansat de analiză - Tesa Reflex pentru gestionarea datelor, grafice de control, rapoarte PDF',
-      'Calibrare trasabilă - certificat de calibrare inclus cu referință la standarde naționale (METAS Elveția)',
+      'Software de măsurare - gama Tesa include soluții software (de exemplu REFLEX); funcțiile depind de versiune',
+      'Calibrare trasabilă - existența și conținutul certificatului de calibrare se confirmă pe cod',
       'Durabilitate ridicată - instrumente proiectate pentru utilizare intensivă în producție, conform producătorului'
     ],
 
     keyProducts: [
       {
-        name: 'Comparatoare Digitale - Seria GT',
-        description: `Comparatoarele digitale Tesa GT (Digico seria nouă) măsoară devierile dimensionale față de un etalon cu precizie de sub micron. Rezoluție 0.0001 / 0.001 mm (selectabil), domeniu de măsurare ±0.5 / 1 / 5 / 10 / 12.5 / 25 mm funcție de model. Display LCD mare cu cifre 10mm înălțime pentru citire ușoară chiar în condiții de iluminare slabă. Funcții: zero settable oriunde în cursă, toleranțe programabile (limită superioară/inferioară) cu indicator LED verde/roșie pentru go/no-go rapid, hold pentru înghețare valoare, preset pentru pre-setare dimensiune nominală, output de date SPC prin cablu USB sau wireless Bluetooth. Carcasă IP65 rezistentă la praf și jet de apă (protecție în medii industriale unde se folosesc lichide de răcire). Alimentare baterie SR44 (autonomie 2+ ani utilizare normală) sau versiune cu cablu pentru alimentare externă continuă. Montaj pe stative, coloane de măsurat, dispozitive de verificare customizate prin adaptor Ø8mm sau metrice. Aplicații: verificare piese după prelucrare (arbori, alezaje, grosimi), setare mașini-unelte, control calitate în linie. Calibrare anuală recomandată cu certificat trasabil METAS/PTB.`
+        name: 'Comparatoare Digitale - Seria DIALTRONIC',
+        description: `Comparatoarele digitale Tesa DIALTRONIC măsoară devierile dimensionale față de un etalon. Modelele verificate au rezoluție 0.001 mm, domenii de măsurare de 12.5 mm sau 50 mm, ieșire de date RS232 și protecție IP54; DIALTRONIC EASY are funcții esențiale, iar DIALTRONIC COMPACT este varianta compactă. Valorile exacte depind de model. Montaj pe stative, coloane de măsurat, dispozitive de verificare customizate prin adaptor Ø8mm sau metrice. Aplicații: verificare piese după prelucrare (arbori, alezaje, grosimi), setare mașini-unelte, control calitate în linie. Calibrare anuală recomandată cu certificat trasabil METAS/PTB.`
       },
       {
         name: 'Rugozimetre Portabile - Seria Rugosurf',
-        description: `Rugozimetrele Tesa Rugosurf măsoară parametrii de rugozitate ai suprafețelor prelucrate conform standardelor ISO 4287/4288. Principiu: o sondă cu vârf de diamant (rază 2 μm sau 5 μm) trece pe suprafața piesei, senzorii piezo-electrici sau inductivi detectează profilul micro-geometric, procesorul calculează parametrii Ra (rugozitate medie aritmetică), Rz (adâncime maximă), Rq (RMS), Rt, RSm etc. Rugosurf 20 model portabil compact: gamă măsurare Ra 0.05-10 μm, lungime de evaluare Lt 0.8-4.0 mm selectabil, display grafic care arată profilul real plus valorile calculate. Memorie pentru 100+ măsurători, interfață USB pentru transfer date pe PC, software WinSurf pentru analiză avansată (filtre Gaussian/2RC, comparare profile, rapoarte PDF cu logo companie). Alimentare baterie reîncărcabilă Li-Ion, autonomie 8+ ore utilizare continuă. Aplicații: verificare suprafețe rectificate (Ra<0.4 μm), polizate (Ra<0.1 μm), turnate (Ra>6 μm), control între operații în prelucrări complexe. Calibrare cu etalon certificat de rugozitate inclus în kit.`
+        description: `Rugozimetrele Tesa Rugosurf măsoară parametrii de rugozitate ai suprafețelor prelucrate conform standardelor ISO 4287/4288. Principiu: o sondă cu vârf de diamant (rază 2 μm sau 5 μm) trece pe suprafața piesei, senzorii piezo-electrici sau inductivi detectează profilul micro-geometric, procesorul calculează parametrii Ra (rugozitate medie aritmetică), Rz (adâncime maximă), Rq (RMS), Rt, RSm etc. Rugosurf 20, rugozimetru portabil: lungimi de undă limită (cut-off) selectabile de 0.25 - 0.8 - 2.5 mm, afișaj LCD alb-negru de 2 inch, memorie internă pentru 20 de măsurători cu profil sau peste 1000 cu parametri, interfață micro USB, software RUGOSOFT pentru arhivarea datelor, baterie NiMH cu autonomie de aproximativ 1000 de măsurători. Aplicații: verificare suprafețe rectificate (Ra<0.4 μm), polizate (Ra<0.1 μm), turnate (Ra>6 μm), control între operații în prelucrări complexe. Conținutul kitului (inclusiv etalonul de rugozitate) se confirmă pe cod.`
       },
       {
         name: 'Coloane de Măsurat - Seria Micro-Hite',
-        description: `Coloanele de măsurare Tesa Micro-Hite sunt standuri verticale de precizie pentru verificări dimensionale 1D/2D pe piese până la 600-1000mm înălțime. Construcție: coloană din granit sau oțel inox rectificat, cărucior mobil cu ghidare pe rulmenți de precizie (frecare minimă, mișcare lină), capete de măsurare interschimbabile (sondă sferică, plană, conic, scripete pentru interior). Scala de măsurare: encoder optic incremental rezoluție 0.001mm (1 μm), precizie U1 = 1.5 + L/200 μm conform ISO 13225. Display digital Digico integrat în cărucior cu funcții toleranțe, preset, zeroing, SPC output. Masă de bază din fontă nervurată pentru stabilitate (lipsa vibrațiilor), reglare pe 3 puncte pentru nivelare perfectă. Accesorii: dispozitive de prindere piese (menghine, V-blocks, plăci magnetice), capete de măsurare specializate (pentru filete, raze, adâncimi). Aplicații: verificare înălțimi și poziții în controlul calității, setare scule pe mașini (înălțime cuțite, poziționare bacuri), măsurători comparative rapid (go/no-go pentru loturi mari). Calibrare cu bloc etalon certificat inclus.`
+        description: `Coloanele de măsurare Tesa Micro-Hite sunt standuri verticale de precizie pentru verificări dimensionale 1D/2D pe piese până la 600-1000mm înălțime. Construcție: coloană din granit sau oțel inox rectificat, cărucior mobil cu ghidare pe rulmenți de precizie (frecare minimă, mișcare lină), capete de măsurare interschimbabile (sondă sferică, plană, conic, scripete pentru interior). Rezoluție selectabilă (de exemplu 0.001 mm), iar limita de eroare depinde de model (de exemplu 2 + 2L/1000 μm la MICRO-HITE tip 600, cu L în mm). Panou de comandă digital cu funcții precum preset și zeroing, cu interfață de date TLC/USB. Masă de bază din fontă nervurată pentru stabilitate (lipsa vibrațiilor), reglare pe 3 puncte pentru nivelare perfectă. Accesorii: dispozitive de prindere piese (menghine, V-blocks, plăci magnetice), capete de măsurare specializate (pentru filete, raze, adâncimi). Aplicații: verificare înălțimi și poziții în controlul calității, setare scule pe mașini (înălțime cuțite, poziționare bacuri), măsurători comparative rapid (go/no-go pentru loturi mari). Calibrare cu bloc etalon certificat inclus.`
       },
       {
         name: 'Software Tesa Reflex',
-        description: `Tesa Reflex e platforma software pentru gestionarea datelor de măsurare în medii industriale conform cerințelor ISO 9001 și IATF 16949. Funcționalitate: colectare automată măsurători de la toate instrumentele Tesa (comparatoare, rugozimetre, coloane) prin USB/RS232/Bluetooth, organizare pe produse/procese/operatori, calcul automat statistici SPC (Cpk, Cp, Pp, Ppk, histograme, grafice de control X-bar și R), alarme când procesul iese din control, rapoarte PDF/Excel customizabile cu logo și semnături digitale. Modul de calibrare: programare reminder-e pentru calibrare periodică instrumente, stocare certificate de calibrare scanate, blocare măsurători dacă instrumentul e expirat. Integrare cu sisteme ERP/MES prin API REST pentru sincronizare comenzi producție și rezultate QC. Interfață multi-limbă (română inclusă), multi-utilizatori cu permisiuni configurabile (operator/supervizor/admin). Deployment: on-premise pe server Windows sau cloud SaaS. Suport tehnic: training online/la fața locului, actualizări gratuite pentru versiuni noi, hotline telefonic. Licențiere: per instrument conectat sau per user.`
+        description: `Tesa REFLEX este un software de măsurare asociat unor sisteme Tesa (de exemplu Tesa Multi-gage, Tesa Scan 52). Funcțiile, modulele și formatele de export depind de versiune și se confirmă din documentația producătorului.`
       }
     ],
 
@@ -1027,7 +1027,6 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
       'ISO 9001 Quality Management',
       'ISO 14001 Environmental Management',
       'Calibrare trasabilă METAS (Swiss Federal Institute of Metrology)',
-      'Conformitate DIN/ISO 3611 pentru comparatoare',
       'Conformitate ISO 4287/4288 pentru rugozimetre',
       'ISO 13225 pentru coloane de măsurat',
       'CE marking pentru toate instrumentele electrice',
@@ -1035,19 +1034,19 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
     ],
 
     industries: [
-      'Automotive (control calitate piese motor, transmisie)',
-      'Aerospace (verificare toleranțe strânse componente critice)',
-      'Machine tools (setare și verificare scule, piese prelucrate)',
-      'Medical devices (implante, instrumente chirurgicale)',
-      'Tooling & Dies (matrițe, șabloane, dispozitive)',
-      'Precision mechanics (ceasornicărie, optică)',
-      'Electronics (componente mecanice, carcase)',
-      'Energy (turbine, rulmenți, componente nucleare)',
-      'General manufacturing (orice industrie cu cerințe calitate stricte)',
-      'Metrology labs (laboratoare de calibrare, institute naționale)'
+      'Industria auto (controlul calității pieselor de motor și transmisie)',
+      'Industria aerospațială (verificarea toleranțelor strânse la componente critice)',
+      'Mașini-unelte (reglarea și verificarea sculelor, piese prelucrate)',
+      'Dispozitive medicale (implanturi, instrumente chirurgicale)',
+      'Matrițe și scule (matrițe, șabloane, dispozitive)',
+      'Mecanică de precizie (ceasornicărie, optică)',
+      'Electronică (componente mecanice, carcase)',
+      'Energie (turbine, rulmenți)',
+      'Producție generală (industrii cu cerințe stricte de calitate)',
+      'Laboratoare de metrologie (laboratoare de calibrare)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, spune-ne ce parametru vrei să măsori, precizia cerută și domeniul de măsurare. Îți confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
+    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne comunicați parametrul de măsurat, precizia cerută și domeniul de măsurare. Vă confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
     sources: [
       {"title":"Height Gauges","url":"https://www.tesatechnology.com/en-us/products/height-gauges","publisher":"Tesa Technology","accessed":"2026-09-22"},
       {"title":"Calipers","url":"https://www.tesatechnology.com/en-us/products/calipers","publisher":"Tesa Technology","accessed":"2026-09-22"},
@@ -1123,8 +1122,8 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
         "a": "Este o familie de comparatoare digitale pentru control dimensional, disponibilă în variante compacte sau cu funcții esențiale, folosite frecvent pe standuri de control sau pentru verificarea rapidă a toleranțelor pieselor prelucrate."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'zero-evidence'
   },
 
@@ -1132,17 +1131,17 @@ Dar Tesa nu e doar comparatoare - au și rugozimetre portabile pentru măsurarea
     founded: 1957,
     headquarters: 'Titisee-Neustadt, Germania (Pădurea Neagră)',
     employees: '3,900+',
-    overview: `Testo e specialistul german în instrumente de măsurare portabile pentru tehnicienii HVAC, inginerii de proces, auditorii energetici și profesioniștii din food safety. De la simple termometre digitale până la camere termografice sofisticate, de la analizoare de gaze de ardere până la data loggere wireless pentru monitoringul temperaturilor în depozite frigorifice - dacă ai nevoie să măsori temperatură, umiditate, presiune, viteză aer, CO2, CO sau alți parametri în teren, Testo are soluția rugged, precisă și ușor de folosit.
+    overview: `Testo e specialistul german în instrumente de măsurare portabile pentru tehnicienii HVAC, inginerii de proces, auditorii energetici și profesioniștii din food safety. De la simple termometre digitale până la camere termografice sofisticate, de la analizoare de gaze de ardere până la data loggere wireless pentru monitoringul temperaturilor în depozite frigorifice - dacă aveți de măsurat în teren temperatură, umiditate, presiune, viteză a aerului, CO2 sau CO, gama Testo include instrumente portabile pentru aceste aplicații.
 
-Instrumentele Testo se folosesc frecvent în aplicații diverse - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Utilizatorii apreciază combinația de robustețe (supraviețuiesc în ghiozdanul tehnicianului și în medii industriale grele), acuratețe (senzori de calitate, calibrare trasabilă) și user experience excelent (interfață intuitivă, display clar chiar în soare, conectivitate smartphone prin Bluetooth pentru rapoarte instant).
+Instrumentele Testo se folosesc frecvent în aplicații diverse - analizoare de combustie pentru reglaj arzătoare, termo-anemometre pentru balansare sisteme de ventilație, termo-higrometre pentru validare camere curate pharma, data loggere pentru monitorizare HACCP în restaurante. Instrumentele sunt concepute pentru uz portabil în teren, cu calibrare trasabilă și conectivitate Bluetooth către smartphone, conform producătorului.
 
 Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Testo Smart Probes pentru configurare instrumente și vizualizare măsurători pe smartphone/tablet, platforma Testo Cloud pentru stocare și analiză date în timp real (perfect pentru monitoringul 24/7 al depozitelor frigorifice sau camerelor curate), software-uri dedicate pentru industrii specifice (testo IRSoft pentru analiza imaginilor termografice, testo EasyClimate pentru sizing sisteme HVAC). Totul proiectat să simplifice munca tehnicianului și să genereze rapoarte profesionale pentru clienți în câteva click-uri.`,
 
     whyChoose: [
       'Robustețe ridicată - instrumente proiectate pentru condiții dure de teren (căderi, praf, umezeală)',
-      'Acuratețe și calibrare trasabilă - toate instrumentele vin cu certificat de calibrare DKD/DAkkS sau ISO 17025',
+      'Acuratețe și calibrare trasabilă - tipul certificatului de calibrare (de fabrică sau acreditat) depinde de codul comandat și se confirmă în ofertă',
       'Ecosistem digital complet - aplicații smartphone, cloud storage, software de analiză pentru eficientizare workflow',
-      'Asistență și service local - furnizăm gama Testo în România, cu suport pentru service și calibrare periodică',
+      'Instrumente Testo disponibile la comandă în România; service-ul și calibrarea se fac prin rețeaua producătorului',
       'Baterie cu autonomie extinsă (săptămâni/luni pentru data loggere, zile pentru instrumente portabile)',
       'Conformitate cu standardele din industrie - FDA, GxP, HACCP, EN 12830 pentru aplicații food/pharma'
     ],
@@ -1150,19 +1149,19 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
     keyProducts: [
       {
         name: 'Analizoare Gaze Combustie - Seria testo 300/350',
-        description: `Analizoarele de gaze de ardere Testo măsoară eficiența și emisiile poluante ale instalațiilor termice (centrale, arzătoare, cazane) conform normelor EN 50379 și legislației de mediu. Testo 300 model compact pentru service rutină: măsoară O2, CO, CO2 calculat, temperatură fum, temperatură aer, trage ambiant, calculează randament și pierderi termice. Display color, meniu ghidat în română, imprimantă termică integrată pentru protocoale la fața locului. Testo 350 analizor profesional pentru emisii industriale: măsoară suplimentar NOx, NO2, SO2, H2S cu senzori electro-chimici de lungă durată (2+ ani). Pompă aspirație electronică controlată, compensare temperatură și presiune automată, memorie pentru 100+ protocoale. Conectivitate: USB, Bluetooth pentru transfer date pe PC/smartphone, software testo easyEmission pentru rapoarte PDF customizabile (cu logo companie, semnătură digitală). Aplicații: reglare arzătoare gaz/motorină pentru eficiență maximă și emisii minime, verificări periodice conform legislației (Certificat de performanță energetică pentru clădiri), troubleshooting probleme ardere (CO prea mare = ardere incompletă, pericol intoxicare). Calibrare anuală recomandată cu gaze etalon certificate.`
+        description: `Analizoarele de gaze de ardere Testo măsoară eficiența și emisiile poluante ale instalațiilor termice (centrale, arzătoare, cazane) conform normelor EN 50379 și legislației de mediu. Testo 300 model compact pentru service rutină: măsoară O2, CO, CO2 calculat, temperatură fum, temperatură aer, trage ambiant, calculează randament și pierderi termice. Display color de 5 inch, meniu ghidat, interfață Bluetooth pentru imprimarea protocoalelor la fața locului pe o imprimantă compatibilă. Testo 350 analizor profesional pentru emisii industriale: măsoară suplimentar NOx, NO2, SO2, H2S cu senzori electro-chimici de lungă durată (2+ ani). Pompă aspirație electronică controlată, compensare temperatură și presiune automată, memorie pentru 100+ protocoale. Conectivitate: USB, Bluetooth pentru transfer date pe PC/smartphone, software testo easyEmission pentru rapoarte PDF customizabile (cu logo companie, semnătură digitală). Aplicații: reglare arzătoare gaz/motorină pentru eficiență maximă și emisii minime, verificări periodice conform legislației aplicabile, troubleshooting probleme ardere (CO prea mare = ardere incompletă, pericol intoxicare). Calibrare anuală recomandată cu gaze etalon certificate.`
       },
       {
         name: 'Camere Termografice - Seria testo 865/872/885',
-        description: `Camerele termografice Testo (infrared imaging) detectează diferențe de temperatură pe suprafețe și le afișează ca imagini color pentru identificare rapidă a problemelor: pierderi termice în clădiri, supraîncălziri în instalații electrice, blocaje în sisteme HVAC. Testo 865 entry-level: rezoluție IR 160x120 pixeli, sensibilitate termică <120 mK, gamă -20...+280°C, display 3.5" touchscreen. Funcții: testo ScaleAssist pentru setare automată scală color, laser pointer pentru vizare, LED pentru iluminare zonă. Testo 872 mid-range: rezoluție 320x240 pixeli, sensibilitate <60 mK, gamă extinsă -30...+650°C, suprarezoluție digitală până la 640x480 prin testo SuperResolution (4 imagini combinate algoritmic). Aplicații HVAC: detectare pierderi termice la ferestre/uși/acoperișuri, verificare distribuție uniforme temperatură în încăperi, identificare blocaje radiatoare/țevi. Aplicații electrice: detectare conexiuni slabe (rezistență mare = căldură), supraîncălzire transformatoare/motoare, verificare echilibrare faze. Software testo IRSoft pentru analiza detaliată a imaginilor pe PC: ajustare paletă color, adăugare comentarii text/vocale, generare rapoarte profesionale PDF cu imagini înainte/după reparații. Conformitate standardelor EN 13187 (clădiri) și NFPA 70B (instalații electrice).`
+        description: `Camerele termografice Testo (infrared imaging) detectează diferențe de temperatură pe suprafețe și le afișează ca imagini color pentru identificare rapidă a problemelor: pierderi termice în clădiri, supraîncălziri în instalații electrice, blocaje în sisteme HVAC. Testo 865 entry-level: rezoluție IR 160x120 pixeli, sensibilitate termică <120 mK, gamă -20...+280°C, display 3.5" touchscreen. Funcții: testo ScaleAssist pentru setare automată scală color, laser pointer pentru vizare, LED pentru iluminare zonă. Testo 872 mid-range: rezoluție 320x240 pixeli, sensibilitate termică <50 mK, game de măsură -30...+100 °C și 0...+650 °C, suprarezoluție digitală până la 640x480 prin testo SuperResolution (4 imagini combinate algoritmic). Aplicații HVAC: detectare pierderi termice la ferestre/uși/acoperișuri, verificare distribuție uniforme temperatură în încăperi, identificare blocaje radiatoare/țevi. Aplicații electrice: detectare conexiuni slabe (rezistență mare = căldură), supraîncălzire transformatoare/motoare, verificare echilibrare faze. Software testo IRSoft pentru analiza detaliată a imaginilor pe PC: ajustare paletă color, adăugare comentarii text/vocale, generare rapoarte profesionale PDF cu imagini înainte/după reparații. Conformitate standardelor EN 13187 (clădiri) și NFPA 70B (instalații electrice).`
       },
       {
         name: 'Data Loggere Temperatură/Umiditate - Seria testo 174/184/160',
-        description: `Data loggerele Testo monitorizează și înregistrează automat temperatura și umiditatea în depozite, camere frigorifice, procese de transport conform cerințelor HACCP, GxP, FDA CFR 21 Part 11. Testo 174T mini logger USB: senzor temperatură -30...+70°C, precizie ±0.5°C, memorie 16,000 valori, programare interval înregistrare (1min-24h), baterie CR2032 autonomie 1+ an. Conectare la PC prin USB pentru download date și configurare (software testo ComSoft inclus). LED indicator care clipește verde = OK, roșu = limită depășită. Testo 184 logger de transport (single-use sau reusable): monitorizare continuă în timpul transportului mărfurilor sensibile (pharma, alimente), raport PDF generat automat la conectarea USB, conformitate FDA CFR 21 Part 11 cu PDF semnat digital și date criptate imposibil de modificat. Testo 160 sistem WiFi logger: conectare wireless la router local, upload automat date în testo Cloud (24/7 monitoring remote), alerte SMS/email instant când temperatura/umiditatea depășesc limitele setate. Ideal pentru depozite frigorifice, camere curate pharma, magazine alimentare - asigură conformitatea cu normele de siguranță alimentară și raportare automată pentru auditori. Montaj: magnet pe perete metalic, suport plastic, agățat cu chingă.`
+        description: `Data loggerele Testo monitorizează și înregistrează automat temperatura și umiditatea în depozite, camere frigorifice, procese de transport conform cerințelor HACCP, GxP, FDA CFR 21 Part 11. Testo 174T mini logger USB: senzor temperatură -30...+70°C, precizie ±0.5°C, memorie 16,000 valori, programare interval înregistrare (1min-24h), baterie CR2032 autonomie 1+ an. Conectare la PC prin USB pentru download date și configurare (software testo ComSoft inclus). LED indicator care clipește verde = OK, roșu = limită depășită. Testo 184 logger de transport (de unică folosință sau reutilizabil): monitorizare continuă în timpul transportului mărfurilor sensibile (pharma, alimente), raport PDF generat automat la conectarea USB, compatibil cu 21 CFR Part 11 în utilizare cu software-ul testo ComSoft CFR. Testo 160 sistem WiFi logger: conectare wireless la router local, upload automat date în testo Cloud (24/7 monitoring remote), alerte SMS/email instant când temperatura/umiditatea depășesc limitele setate. Ideal pentru depozite frigorifice, camere curate pharma, magazine alimentare - asigură conformitatea cu normele de siguranță alimentară și raportare automată pentru auditori. Montaj: magnet pe perete metalic, suport plastic, agățat cu chingă.`
       },
       {
         name: 'Termo-Anemometre și Manometre - Seria testo 400/480',
-        description: `Instrumentele Testo pentru măsurarea vitezei și debitului aerului sunt esențiale în HVAC pentru balansarea sistemelor de ventilație și verificarea confortului termic. Testo 400 instrument universal cu sonde interschimbabile: sondă viteză/temperatură (termo-anemometru), sondă umiditate/temperatură, sondă presiune diferențială, sondă CO2/temperatură. Display touchscreen 5" color, meniu ghidat pentru aplicații tipice (măsurare debit prin grilă, calcul schimburi aer/oră în încăpere, verificare presiune negativă cameră sterilă). Memorie pentru măsurători și topologii (poți salva dimensiunile unei grile și instrumentul calculează automat debitul total). Testo 480 analizor climat premium: toate sondele de mai sus + sondă intensitate luminoasă (lux), sondă nivel sonor (dB), sondă PMV (Predicted Mean Vote - indice confort termic ISO 7730). Software testo FlowRate pentru configurare complexă și rapoarte detaliate. Aplicații: balansare debit guri ventilație (fiecare grilă trebuie să livreze debitul proiectat), verificare curățare aer în camere curate (număr schimburi/oră), testare filtre HEPA (presiune diferențială înainte/după filtru), audit calitate aer interior (CO2, umiditate, temperatură, viteză aer pentru draft). Calibrare anuală recomandată pentru sonde.`
+        description: `Instrumentele Testo pentru măsurarea vitezei și debitului aerului sunt esențiale în HVAC pentru balansarea sistemelor de ventilație și verificarea confortului termic. Testo 400 instrument universal cu sonde interschimbabile: sondă viteză/temperatură (termo-anemometru), sondă umiditate/temperatură, sondă presiune diferențială, sondă CO2/temperatură. Display touchscreen 5" color, meniu ghidat pentru aplicații tipice (măsurare debit prin grilă, calcul schimburi aer/oră în încăpere, verificare presiune negativă cameră sterilă). Memorie pentru măsurători și topologii (puteți salva dimensiunile unei grile și instrumentul calculează automat debitul total). Testo 480 analizor climat: toate sondele de mai sus + sondă intensitate luminoasă (lux), sondă PMV (Predicted Mean Vote - indice confort termic ISO 7730). Software testo FlowRate pentru configurare complexă și rapoarte detaliate. Aplicații: balansare debit guri ventilație (fiecare grilă trebuie să livreze debitul proiectat), verificare curățare aer în camere curate (număr schimburi/oră), testare filtre HEPA (presiune diferențială înainte/după filtru), audit calitate aer interior (CO2, umiditate, temperatură, viteză aer pentru draft). Calibrare anuală recomandată pentru sonde.`
       }
     ],
 
@@ -1190,7 +1189,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       'Retail (supermarketuri - monitorizare lăzi frigorifice)'
     ],
 
-    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spune-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
+    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spuneți-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
     sources: [
       {"title":"Testo - sitemap produse (en-US)","url":"https://www.testo.com/en-US/sitemap/product.xml","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
       {"title":"Testo - pagina oficială","url":"https://www.testo.com/","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
@@ -1198,8 +1197,8 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       { title: 'Testo SE & Co. KGaA', url: 'https://en.wikipedia.org/wiki/Testo_SE_%26_Co._KGaA', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
     limitation: 'Nu oferim noi calibrarea DKD/DAkkS a instrumentelor Testo și nu putem confirma stocul permanent pentru fiecare model din portofoliu.',
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     productCodes: [
       {
         "code": "testo 300",
@@ -1269,7 +1268,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       },
       {
         "q": "Aduceți camere termografice Testo în România?",
-        "a": "Da, camerele termografice și analizoarele Testo se aduc la comandă din gama oficială a producătorului, fără stoc ținut permanent pe raft; timpul de livrare depinde de model și de disponibilitatea din fabrică. Trimiteți codul exact (de exemplu testo 872s) sau aplicația dorită - electrică, mecanică, clădiri - pentru o ofertă corectă și rapidă."
+        "a": "Da, camerele termografice și analizoarele Testo se aduc la comandă din gama producătorului, fără stoc ținut permanent pe raft; termenul obișnuit este de 1–4 săptămâni, în funcție de model. Trimiteți codul exact (de exemplu testo 872s) sau aplicația dorită - electrică, mecanică, clădiri - pentru o ofertă corectă și rapidă."
       },
       {
         "q": "Ce trimit pentru o ofertă de instrument Testo?",
@@ -1287,37 +1286,37 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
     founded: 1899,
     headquarters: 'North Canton, Ohio, SUA',
     employees: '19,000+',
-    overview: `The Timken Company este un producător de rulmenți cu specializare în rulmenți conici (tapered roller bearings). Dar Timken nu e doar rulmenți - au și divizii de power transmission (lanțuri, curele, cuplate, reductoare dobândite prin achiziții Drives, Philadelphia Gear, Cone Drive), bearing steel (Timken Steel) și chiar aerospace bearings pentru aviație militară/civilă. Cu peste 125 de ani de istorie, compania a acumulat experiență în tribologie și metalurgie, fiind prezentă în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
+    overview: `The Timken Company este un producător de rulmenți cu specializare în rulmenți conici (tapered roller bearings). Dar Timken nu e doar rulmenți - au și produse de transmisie a puterii (lanțuri, curele, cuplaje, reductoare), precum și rulmenți pentru aplicații aerospațiale. Cu peste 125 de ani de istorie, compania a acumulat experiență în tribologie și metalurgie, fiind prezentă în aplicații heavy-duty: mining, oil & gas, wind energy, rail, heavy trucks.
 
-Rulmenții Timken se folosesc frecvent în aplicații grele - reductoare pentru macarale, roți excavatoare, arbori principali turbine eoliene. Rulmenții conici Timken suportă sarcini combinate (radială + axială) cu capacitate de încărcare superioară datorită designului geometric optimizat: ruloul conic și inelul interior/exterior sunt proiectate astfel încât toate liniile de contact să converge într-un singur punct pe axa rulmentului - rezultă distribuție uniformă a sarcinii și uzură minimă. Plus calitatea oțelului: Timken controlează întregul proces de la topire (clean steel cu incluziuni minime) până la tratament termic precis pentru duritate optimă 58-64 HRC.
+Rulmenții Timken se folosesc frecvent în aplicații grele - reductoare pentru macarale, roți excavatoare, arbori principali turbine eoliene. Rulmenții conici Timken suportă sarcini combinate (radială + axială) cu capacitate de încărcare superioară datorită designului geometric optimizat: ruloul conic și inelul interior/exterior sunt proiectate astfel încât toate liniile de contact să converge într-un singur punct pe axa rulmentului - rezultă distribuție uniformă a sarcinii și uzură minimă. Rulmenții sunt realizați din oțeluri pentru rulmenți cu tratament termic controlat; duritatea depinde de produs, conform documentației producătorului.
 
-Dar Timken nu vinde doar componente - oferă engineering services complete: calcul durată de viață L10 în condițiile reale de operare, recomandări de montaj și lubrifiere pentru maximizare performanță, training pentru personal de mentenanță, analiză vibrațiilor și investigație defecțiuni. Au chiar laboratoare de testare în North Canton unde pot simula condiții extreme și valida soluții customizate pentru aplicații critice. Investiție pentru decenii de funcționare fără probleme.`,
+Dar Timken nu vinde doar componente - oferă engineering services complete: calcul durată de viață L10 în condițiile reale de operare, recomandări de montaj și lubrifiere pentru maximizare performanță, training pentru personal de mentenanță, analiză vibrațiilor și investigație defecțiuni. `,
 
     whyChoose: [
       'Expertiză extinsă în rulmenți conici - acumulată în peste un secol de activitate',
-      'Calitate oțel ridicată - Timken Steel controlează metalurgia de la topire pentru puritate ridicată',
+      'Materiale și tratament termic controlate, conform documentației producătorului',
       'Capacitate de încărcare ridicată - design geometric optimizat pentru sarcini combinate mari',
       'Durată de viață prelungită - L10 life ridicat, datorită calității materialelor și prelucrării, conform producătorului',
       'Suport ingineresc avansat - calcul bearing life, recomandări montaj/lubrifiere, troubleshooting',
-      'Gamă completă power transmission - de la rulmenți până la reductoare și cuplate, soluție integrată'
+      'Gamă de produse pentru transmisia puterii (power transmission) - de la rulmenți până la reductoare și cuplaje'
     ],
 
     keyProducts: [
       {
         name: 'Rulmenți Conici (Tapered Roller Bearings)',
-        description: `Rulmenții conici Timken sunt soluția de referință pentru aplicații cu sarcini combinate mari (radială + axială simultană) în construcții grele, mining, energie. Design: con interior (inner race), con exterior (outer race - cup), set de role conice, cușcă de ghidare din oțel sau alamă. Geometrie optimizată: toate liniile de contact (rolă-con interior, rolă-con exterior) converg într-un punct comun pe axa rulmentului = distribuție perfectă a sarcinii, frecare redusă, uzură minimă. Disponibil în configurații: single-row (o singură linie role), double-row (două linii pentru capacitate axială și radială mare), four-row (patru linii pentru aplicații extreme - laminoare, excavatoare bucket wheel). Dimensiuni de la 15mm diametru interior până la peste 2000mm pentru aplicații gigantice. Material: oțel SAE 52100 sau Timken proprietary alloys pentru condiții extreme (temperatură, coroziune). Tratament termic controlat pentru duritate 58-64 HRC cu tenacitate internă pentru rezistență la șoc. Serii populare: 30200, 32000 (metrice), LM67000, HM88600 (inch). Aplicații: roți camioane/remorci, reductoare industriale, arbori principali turbine eoliene, punți rulare macarale, roți vagoane feroviare, arbori pompe mari. Lubrifiere: unsoare NLGI 2/3 sau ulei circulant funcție de viteză și sarcină. Montaj: necesită pre-load (pre-încărcare axială) corectă pentru funcționare optimă - Timken oferă specificații detaliate și scule speciale pentru setare.`
+        description: `Rulmenții conici Timken sunt folosiți în aplicații cu sarcini combinate mari (radială + axială simultană) în construcții grele, mining, energie. Design: con interior (inner race), con exterior (outer race - cup), set de role conice, cușcă de ghidare din oțel sau alamă. Geometrie optimizată: toate liniile de contact (rolă-con interior, rolă-con exterior) converg într-un punct comun pe axa rulmentului = distribuție perfectă a sarcinii, frecare redusă, uzură minimă. Disponibil în configurații: single-row (o singură linie role), double-row (două linii pentru capacitate axială și radială mare), four-row (patru linii pentru aplicații extreme - laminoare, excavatoare bucket wheel). Catalogul producătorului acoperă diametre interioare de la 10 mm până la 2000 mm. Materialul și tratamentul termic depind de produs, conform documentației producătorului. Serii populare: 30200, 32000 (metrice), LM67000, HM88600 (inch). Aplicații: roți camioane/remorci, reductoare industriale, arbori principali turbine eoliene, punți rulare macarale, roți vagoane feroviare, arbori pompe mari. Lubrifiere: unsoare NLGI 2/3 sau ulei circulant funcție de viteză și sarcină. Montaj: necesită pre-load (pre-încărcare axială) corectă pentru funcționare optimă - Timken oferă specificații detaliate și scule speciale pentru setare.`
       },
       {
         name: 'Rulmenți cu Role Sferice (Spherical Roller Bearings)',
-        description: `Rulmenții cu role sferice Timken (serie AP, seria din achiziția Fafnir) suportă sarcini radiale foarte mari și permit dezalinieri până la 3° între arbore și carcasă - esențial în aplicații unde alinierile perfecte sunt imposibile (utilaje mining, vibrating screens, crushers, mori pentru ciment). Design: două rânduri de role în formă de butoi (barrel-shaped rollers) cu ghidare pe cale comună sferică pe con exterior. Dezalinierile se compensează automat prin rotația rolelor pe calea sferică - eliminare stres și uzură prematură. Capacitate radială ridicată (mai mare decât la rulmenții conici echivalenți, conform producătorului), capacitate axială moderată (10-20% din radială). Dimensiuni 20-1500mm diametru interior. Variante: CA (cușcă din alamă), MB (cușcă din oțel), E (design optimizat Timken). Carcasă opțională: SNT, SNP (split plummer blocks) pentru montaj ușor pe arbori fără demontare lanțuri/curele. Garnituri integrate pentru protecție împotriva contaminării (praf, apă). Aplicații: crushing & screening (concasoare, ciururi vibrante), pulp & paper (role mașini hârtie), mining (role conveioare, cilindri zdrobitori), ciment (mori, cilindri transportoare), energie (generatoare hidro mari). Lubrifiere: unsoare pentru viteze mici-medii, ulei pentru viteze mari sau temperaturi ridicate. Service life: 50,000-100,000 ore în condiții normale, recondiționare posibilă prin înlocuire role și cușcă.`
+        description: `Rulmenții cu role sferice Timken suportă sarcini radiale mari și permit un anumit grad de dezaliniere între arbore și carcasă, în funcție de serie - esențial în aplicații unde alinierile perfecte sunt imposibile (utilaje mining, vibrating screens, crushers, mori pentru ciment). Design: două rânduri de role în formă de butoi (barrel-shaped rollers) cu ghidare pe cale comună sferică pe con exterior. Dezalinierile se compensează automat prin rotația rolelor pe calea sferică - eliminare stres și uzură prematură. Capacitatea radială și axială, dimensiunile și variantele de cușcă depind de serie și se confirmă din catalogul producătorului. Carcasă opțională: SNT, SNP (split plummer blocks) pentru montaj ușor pe arbori fără demontare lanțuri/curele. Garnituri integrate pentru protecție împotriva contaminării (praf, apă). Aplicații: crushing & screening (concasoare, ciururi vibrante), pulp & paper (role mașini hârtie), mining (role conveioare, cilindri zdrobitori), ciment (mori, cilindri transportoare), energie (generatoare hidro mari). Lubrifiere: unsoare pentru viteze mici-medii, ulei pentru viteze mari sau temperaturi ridicate. Durata de viață depinde de sarcină, viteză, lubrifiere și mediu; se calculează pentru fiecare aplicație.`
       },
       {
         name: 'Reductoare Industriale - Divizia Philadelphia Gear',
-        description: `Timken a achiziționat Philadelphia Gear (fondată 1892) și oferă acum reductoare industriale custom-built pentru aplicații heavy-duty. Tipuri: cu roți cilindrice (parallel shaft, helical gears) pentru puteri mari 100-50,000 HP, rapoarte 1.25:1 până 450:1, eficiență 96-98%. Cu roți conice-cilindrice (bevel-helical) pentru unghiuri 90° între intrare/ieșire. Planetare (planetary) compacte cu rapoarte mari într-un volum mic. Worm gear (melcat-roată melcată) pentru rapoarte foarte mari (până 3600:1) și auto-blocare. Aplicații: mining (conveioare, crushers, SAG mills, ball mills), ciment (mori, cuptoare rotative), oțelării (laminoare, mașini de turnare continuă), pulp & paper (digestoare, mașini hârtie), petrochimie (agitatoare, pompe mari), macarale (winch-uri, turle). Design customizat: inginerii Timken calculează dinții pentru rezistență la oboseală conform AGMA standards, selectează rulmenți și cuplaje optime, simulează termic pentru disipare căldură, verifică vibrații și zgomot. Construcție robustă: carcasă fontă sau oțel sudat, roți din oțel forjat tratat termic, rulmenți Timken pentru durată lungă, lubrifiere cu barbotare sau circulație forțată. Garanție extinsă și service la fața locului pentru reparații/reconditionări.`
+        description: `Timken oferă, prin Philadelphia Gear, reductoare industriale realizate la comandă pentru aplicații grele. Tipuri: cu roți cilindrice (parallel shaft, helical gears) pentru puteri mari; puterea, raportul de transmisie și randamentul depind de proiect. Cu roți conice-cilindrice (bevel-helical) pentru unghiuri 90° între intrare/ieșire. Planetare (planetary) compacte cu rapoarte mari într-un volum mic. Worm gear (melcat-roată melcată) pentru rapoarte mari de transmisie. Aplicații: mining (conveioare, crushers, SAG mills, ball mills), ciment (mori, cuptoare rotative), oțelării (laminoare, mașini de turnare continuă), pulp & paper (digestoare, mașini hârtie), petrochimie (agitatoare, pompe mari), macarale (winch-uri, turle). Design customizat: inginerii Timken calculează dinții pentru rezistență la oboseală conform AGMA standards, selectează rulmenți și cuplaje optime, simulează termic pentru disipare căldură, verifică vibrații și zgomot. Construcție robustă: carcasă fontă sau oțel sudat, roți din oțel forjat tratat termic, rulmenți Timken pentru durată lungă, lubrifiere cu barbotare sau circulație forțată. `
       },
       {
         name: 'Lanțuri și Transmisii - Divizia Drives',
-        description: `Prin achiziția mai multor companii (Diamond Chain, Drives Inc), Timken oferă lanțuri și sisteme de transmisie mecanică pentru industrie grea. Lanțuri cu role (roller chains) ISO/ANSI de la pitch 6mm până la 3" (76mm), simple/duble/triple strand, capacități până la 500,000 lbs (225 tone) tensiune rupere. Lanțuri engineered class: oțel special tratat, role bush-less pentru viață extinsă, pre-lubrifiere în fabrică. Lanțuri pentru condiții speciale: inox pentru food/pharma/coroziune, nickel-plated pentru temperaturi joase, case-hardened pentru abraziune. Curele de transmisie: V-belts classical și narrow, synchronous belts (timing belts HTD/STD), poly-V (multi-rib). Cuplate mecanice: grid couplings (flexibile prin grilă de oțel-primăvară), gear couplings (prin dinți), disc couplings (prin pachete de discuri flexibile) pentru compensare dezalinieri și absorție șocuri. Aplicații: conveioare (lanțuri pentru transport paleți, containere), agricultural machinery (combine, balers), oil & gas (pompe, drilling rigs), mining (drag-lines, bucket elevators). Engineering support: calcul putere transmisă, sizing pentru factor de service (șocuri, start/stop frecvent), recomandări lubrifiere pentru maximizare durată de viață. Instalare și mentenanță: training pentru tensionare corectă, aliniere roți, lubrifiere periodic.`
+        description: `Timken oferă lanțuri și sisteme de transmisie mecanică pentru industrie grea. Lanțuri cu role (roller chains) ISO/ANSI, simple, duble sau triple; pasul și sarcina de rupere depind de model. Lanțuri engineered class: oțel special tratat, role bush-less pentru viață extinsă, pre-lubrifiere în fabrică. Lanțuri pentru condiții speciale: inox pentru food/pharma/coroziune, nickel-plated pentru temperaturi joase, case-hardened pentru abraziune. Curele de transmisie: V-belts classical și narrow, synchronous belts (timing belts HTD/STD), poly-V (multi-rib). Cuplaje mecanice: grid couplings (flexibile prin grilă de oțel-primăvară), gear couplings (prin dinți), disc couplings (prin pachete de discuri flexibile) pentru compensare dezalinieri și absorție șocuri. Aplicații: conveioare (lanțuri pentru transport paleți, containere), agricultural machinery (combine, balers), oil & gas (pompe, drilling rigs), mining (drag-lines, bucket elevators). Engineering support: calcul putere transmisă, sizing pentru factor de service (șocuri, start/stop frecvent), recomandări lubrifiere pentru maximizare durată de viață. Instalare și mentenanță: training pentru tensionare corectă, aliniere roți, lubrifiere periodic.`
       }
     ],
 
@@ -1327,25 +1326,23 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       'ISO 45001 Occupational Health & Safety',
       'IATF 16949 Automotive Quality',
       'AS9100 Aerospace Quality',
-      'API (American Petroleum Institute) pentru oil & gas',
-      'AAR (Association of American Railroads) pentru railway',
-      'Military specifications (MIL-STD) pentru defense applications'
+
     ],
 
     industries: [
-      'Mining (excavatoare, crushers, conveioare)',
-      'Oil & Gas (drilling, pumps, compressors)',
-      'Wind Energy (main shaft bearings turbine)',
-      'Rail (roți vagoane, locomotive, gear boxes)',
-      'Heavy Trucks & Trailers (roți, transmisii)',
-      'Metals (laminoare, mașini turnare continuă)',
-      'Ciment (mori, cuptoare rotative)',
-      'Pulp & Paper (role mașini, digestoare)',
-      'Macarale și Construction Equipment',
-      'Marine (propeller shafts, rudder bearings)'
+      'Industria minieră (excavatoare, concasoare, benzi transportoare)',
+      'Petrol și gaze (foraj, pompe, compresoare)',
+      'Energie eoliană (rulmenți pentru arborele principal al turbinelor)',
+      'Feroviar (osii de vagoane, locomotive, cutii de viteze)',
+      'Camioane grele și remorci (roți, transmisii)',
+      'Metalurgie (laminoare, mașini de turnare continuă)',
+      'Industria cimentului (mori, cuptoare rotative)',
+      'Industria hârtiei și celulozei (cilindri de mașini, digestoare)',
+      'Macarale și utilaje de construcții',
+      'Naval (arbori de elice, rulmenți de cârmă)'
     ],
 
-    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o cotație corectă trimite-ne codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
+    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
     sources: [
       {"title":"Timken Tapered Roller Bearing Catalog","url":"https://www.timken.com/wp-content/uploads/2022/11/Timken-Tapered-Roller-Bearing-Catalog_10481.pdf","publisher":"Timken","accessed":"2026-09-23"},
       { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
@@ -1379,7 +1376,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TNA",
-        "description": "Ansamblu conic neajustabil pentru montaj rapid în bloc"
+        "description": "Rulment conic cu două rânduri, similar cu TDO, cu fețele frontale ale inelelor interioare prelungite astfel încât să se sprijine una pe alta"
       },
       {
         "code": "TNASW",
@@ -1387,7 +1384,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TNASWE",
-        "description": "Ansamblu conic neajustabil cu canale de ungere și flanșă extinsă"
+        "description": "Variantă TNA cu nervuri extinse pe fața din spate a inelelor interioare, rectificate la diametrul exterior"
       },
       {
         "code": "2TS-IM",
@@ -1399,7 +1396,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "2S",
-        "description": "Ansamblu cu două rulmente conice și distanțier cu inel de siguranță"
+        "description": "Ansamblu cu două rulmente conici TS, livrat cu distanțiere pentru inelul interior și pentru cel exterior"
       },
       {
         "code": "SR",
@@ -1423,15 +1420,15 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "code": "TTC",
-        "description": "Rulment axial cu role conice, configurație standard cu cușcă"
+        "description": "Rulment axial cu role conice"
       },
       {
         "code": "TTCS",
-        "description": "Rulment axial cu role conice, variantă de cușcă separată"
+        "description": "Rulment axial cu role conice"
       },
       {
         "code": "TTCL",
-        "description": "Rulment axial cu role conice, variantă cu cale lungă"
+        "description": "Rulment axial cu role conice"
       }
     ],
     faq: [
@@ -1456,8 +1453,8 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
         "a": "Este un ansamblu de doi rulmenți conici livrat preajustat din fabrică pentru un anumit joc axial, gândit să reducă timpul de montaj la utilizator. Elimină reglajele manuale ale jocului pe care le presupune un montaj clasic cu piese individuale, fiind util în producția de serie."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }],
     evidenceClass: 'transactional'
   },
 
@@ -1467,12 +1464,12 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
     employees: '37,000+ (Trane Technologies)',
     overview: `Trane este un producător global de sisteme HVAC (Heating, Ventilation, Air Conditioning) pentru aplicații comerciale și industriale. De la chillere centrifugale de câteva megawați pentru clădiri înalte, până la unități de tratare aer (AHU) customizate pentru camere curate pharma, până la pompe de căldură industriale pentru recuperare energie - americanii au soluții pentru orice provocare termică. În 2020 Trane s-a unit cu Ingersoll Rand Climate (care includea și branduri ca Thermo King) formând Trane Technologies, dar brandul Trane a rămas în prim-plan pentru HVAC comercial/industrial.
 
-Se proiectează și se integrează echipamente Trane în diverse aplicații - chillere cu compresor centrifugal pentru clădiri de birouri, rooftop package units pentru magazine retail, unități de tratare aer pentru spitale - și de fiecare dată se apreciază inginerirea robustă și fiabilitatea long-term. Compresoarele centrifugale Trane folosesc tehnologie de vârf (magnetic bearings fără ungere, variable speed drive pentru eficiență parțială superioară), automatizarea Tracer Summit permite controlul și monitorizarea întregii clădiri dintr-o singură interfață, iar service-ul Trane România oferă contracte de mentenanță predictivă menite să prelungească durata de viață a echipamentului.
+Se proiectează și se integrează echipamente Trane în diverse aplicații - chillere cu compresor centrifugal pentru clădiri de birouri, rooftop package units pentru magazine retail, unități de tratare aer pentru spitale - și de fiecare dată se apreciază inginerirea robustă și fiabilitatea long-term. Compresoarele centrifugale Trane CenTraVac au, conform catalogului producătorului, un singur arbore rotitor susținut de două lagăre și motor răcit cu refrigerant, automatizarea Tracer Summit permite controlul și monitorizarea întregii clădiri dintr-o singură interfață, iar service-ul Trane România oferă contracte de mentenanță predictivă menite să prelungească durata de viață a echipamentului.
 
-Dar Trane nu e doar about hardware - oferă și servicii de energy audit, building optimization (analiza consumurilor și propuneri de retrofit pentru reducerea consumului de energie), BMS integration (integrare în sisteme BACnet, Modbus, LonWorks), chiar ESCO (Energy Service Company) unde Trane finanțează modernizarea și se recuperează din economiile de energie generate. Investiția Trane include și suportul continuu pe termen lung, nu doar echipamentul.`,
+Dar Trane nu oferă doar echipamente - oferă și servicii de energy audit, building optimization (analiza consumurilor și propuneri de retrofit pentru reducerea consumului de energie), BMS integration (integrare în sisteme BACnet, Modbus, LonWorks), servicii de optimizare energetică, conform ofertei producătorului. Investiția Trane include și suportul continuu pe termen lung, nu doar echipamentul.`,
 
     whyChoose: [
-      'Tehnologie avansată în chillere centrifugale - magnetic bearings și compresie fără ungere pentru eficiență ridicată',
+      'Chillere centrifugale CenTraVac cu compresor cu un singur arbore rotitor și motor răcit cu refrigerant, conform catalogului producătorului',
       'Eficiență energetică ridicată - IPLV (Integrated Part Load Value) bun datorită VSD și multiple stagii',
       'Fiabilitate și durată de viață lungă - MTBF ridicat, conform producătorului, contracte de service disponibile pe termen lung',
       'Automatizare inteligentă - platforma Tracer pentru control, monitoring și optimizare clădiri',
@@ -1483,19 +1480,19 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
     keyProducts: [
       {
         name: 'Chillere Centrifugale - Seria CenTraVac',
-        description: `Chillerele centrifugale Trane CenTraVac sunt echipamente avansate de refrigerare pentru clădiri mari (peste 1 MW putere frigorifică). Compresor centrifugal cu mai multe stagii (2-3 stage compression) pentru rate mari de compresie eficiente, antrenat de motor electric sincron cu magneți permanenți (variable speed 10-100% capacity modulation fără pierderi mecanice). Magnetic bearings - lagăre cu levitație magnetică, fără ungere, cu frecare minimă și mentenanță redusă, conform producătorului. Condensator și evaporator din țevi din cupru cu îmbunătățiri de transfer termic (rifled tubes) pentru suprafață compactă. Refrigerant R-134a (low GWP) sau R-513A (ultra-low GWP <1) pentru conformitate F-Gas. Eficiență ridicată: EER 6-7+ (coeficient performanță), IPLV (eficiență la sarcină parțială) 8-10+ datorită VSD și stagiilor de compresie modulante. Puteri 250-10,000 kW frigorific (70-2800 tone refrigerare US). Controler Tracer AdaptiView integrat: optimizare automată funcție de load, temperaturi exterioare, tarif energie (demand response), diagnosticare predictivă cu alertare remotă. Aplicații: clădiri înalte (office towers), spitale, universități, aeroporturi, mall-uri, datacentere. Montaj: în sala tehnică la subsol sau acoperiș, necesită turnuri răcire (cooling towers) separate sau dry-coolers.`
+        description: `Chillerele centrifugale Trane CenTraVac sunt echipamente avansate de refrigerare pentru clădiri mari (peste 1 MW putere frigorifică). Compresor centrifugal cu mai multe stagii (2-3 stage compression) pentru rate mari de compresie eficiente, antrenat de un motor electric răcit cu refrigerant, cu arbore unic susținut de două lagăre, conform catalogului producătorului. Condensator și evaporator din țevi din cupru cu îmbunătățiri de transfer termic (rifled tubes) pentru suprafață compactă. Refrigerant R-514A sau R-1233zd (modelele CDHH și CVHH), ambele cu GWP ultra-redus, conform catalogului producătorului. Eficiența la sarcină plină și parțială depinde de model și de condițiile de lucru și se confirmă din catalogul producătorului. Capacități între aproximativ 450 și peste 14.000 kW (120 – peste 4.000 tone), conform catalogului producătorului. Controler Tracer AdaptiView integrat: optimizare automată funcție de load, temperaturi exterioare, tarif energie (demand response), diagnosticare predictivă cu alertare remotă. Aplicații: clădiri înalte (office towers), spitale, universități, aeroporturi, mall-uri, datacentere. Montaj: în sala tehnică la subsol sau acoperiș, necesită turnuri răcire (cooling towers) separate sau dry-coolers.`
       },
       {
         name: 'Rooftop Package Units - Seria Voyager',
-        description: `Unitățile rooftop Trane Voyager sunt pachete complete HVAC montate pe acoperiș (all-in-one: răcire, încălzire, ventilație, filtrare) pentru spații comerciale medii (magazine, restaurante, birouri până la 500-1000 m²). Capacități răcire 10-130 kW (3-37 tone), încălzire prin rezistențe electrice, gaz natural sau pompă căldură reversibilă. Compresor scroll sau cu șurub, refrigerant R-410A sau R-454B (low GWP). Debit aer 2,000-25,000 m³/h, ventilator centrifugal cu motor EC (variable speed) pentru economii energie și zgomot redus. Filtre G4 standard, opțional F7-F9 sau HEPA pentru clean rooms. Control: termostat de perete sau integrat în BMS prin BACnet/Modbus. Carcasă din tablă zincată cu izolație termică și fonică, rezistență la intemperii IP24, montaj pe cadru metalic cu antivibratoare. Configurații: single-zone (o singură zonă termică) sau multi-zone cu dampers motorizate pentru distribuție diferențiată pe zone. Aplicații: retail (magazine, supermarketuri), birouri deschise (open-space), restaurante, săli sport, spații industriale cu încărcare termică moderată. Avantaje: instalare rapidă (pre-asamblat în fabrică), cost total scăzut, mentenanță simplificată (acces de pe acoperiș), înlocuire ușoară (footprint standardizat).`
+        description: `Unitățile rooftop Trane Voyager sunt pachete complete HVAC montate pe acoperiș (all-in-one: răcire, încălzire, ventilație, filtrare) pentru spații comerciale medii (magazine, restaurante, birouri până la 500-1000 m²). Capacitatea de răcire a seriei Voyager I este de aproximativ 16,7–31,7 kW; încălzire pe gaz (YSD/YSH) sau cu pompă de căldură (WSD/WSH), conform catalogului producătorului. Refrigerant R-410A, conform catalogului producătorului. Debitul de aer interior este de aproximativ 2.720–8.160 m³/h, în funcție de mărime, conform catalogului producătorului. Filtre standard de 50 mm, cu filtre lavabile EU4 opționale, conform catalogului producătorului. Control: termostat de perete sau integrat în BMS prin BACnet/Modbus. Carcasă din oțel zincat cu finisaj vopsit termic, conform catalogului producătorului. Configurații: single-zone (o singură zonă termică) sau multi-zone cu dampers motorizate pentru distribuție diferențiată pe zone. Aplicații: retail (magazine, supermarketuri), birouri deschise (open-space), restaurante, săli sport, spații industriale cu încărcare termică moderată. Avantaje: instalare rapidă (pre-asamblat în fabrică), cost total scăzut, mentenanță simplificată (acces de pe acoperiș), înlocuire ușoară (footprint standardizat).`
       },
       {
-        name: 'Unități Tratare Aer (AHU) - Seria Catalys',
-        description: `Unitățile de tratare aer Trane Catalys sunt custom-built pentru aplicații care necesită control fin al calității aerului: spitale (săli operație, secții TBC), pharma (camere curate class A/B/C/D), laboratoare (fume hoods, safety cabinets), food production (zone aseptice). Construcție modulară: secțiuni de amestec aer proaspăt/recirc, filtrare în trepte (G4 pre-filtru, F7-F9 filtru fin, H13-H14 HEPA terminal), baterii de răcire (chilled water) și încălzire (apă caldă, abur, rezistențe), umidificator (abur, atomizare), recuperator de căldură (rotativ, cu plăci, run-around), ventilator supply și eventual return cu motoare EC-VSD. Carcasă cu panou sandwich 50-100mm grosime (izolație termică și fonică), etanșeitate class L1 sau L2 conform EN 1886, rezistență mecanică D1/D2, bypass termic TB2/TB3. Debit 500-100,000 m³/h, presiune statică disponibilă până la 2500 Pa. Control: DDC (Direct Digital Control) cu secvențe customizate - menținere presiune pozitivă/negativă, compensare temperatură externă, free-cooling când e posibil, demand-controlled ventilation funcție de CO2/ocupanță. Aplicații critice: săli operație (25+ schimburi aer/oră, presiune +15 Pa, filtrare HEPA), camere curate pharma (flux laminar, clasificare particulă conform EU GMP), laboratoare bioconfinare (presiune negativă cascadă, filtre HEPA exhaust). Certificări FDA, GMP, HTM (Health Technical Memorandum UK). Fabricație la comandă în 8-16 săptămâni, testare în fabrică cu raport FAT (Factory Acceptance Test).`
+        name: 'Unități Tratare Aer (AHU)',
+        description: `Unitățile de tratare aer Trane sunt construite la comandă pentru aplicații care necesită control fin al calității aerului: spitale (săli operație, secții TBC), pharma (camere curate class A/B/C/D), laboratoare (fume hoods, safety cabinets), food production (zone aseptice). Construcție modulară: secțiuni de amestec aer proaspăt/recirc, filtrare în trepte (G4 pre-filtru, F7-F9 filtru fin, H13-H14 HEPA terminal), baterii de răcire (chilled water) și încălzire (apă caldă, abur, rezistențe), umidificator (abur, atomizare), recuperator de căldură (rotativ, cu plăci, run-around), ventilator supply și eventual return cu motoare EC-VSD. Carcasă cu panou sandwich 50-100mm grosime (izolație termică și fonică), etanșeitate class L1 sau L2 conform EN 1886, rezistență mecanică D1/D2, bypass termic TB2/TB3. Debit 500-100,000 m³/h, presiune statică disponibilă până la 2500 Pa. Control: DDC (Direct Digital Control) cu secvențe customizate - menținere presiune pozitivă/negativă, compensare temperatură externă, free-cooling când e posibil, demand-controlled ventilation funcție de CO2/ocupanță. Aplicații critice: săli operație (25+ schimburi aer/oră, presiune +15 Pa, filtrare HEPA), camere curate pharma (flux laminar, clasificare particulă conform EU GMP), laboratoare bioconfinare (presiune negativă cascadă, filtre HEPA exhaust). Conformitatea cu cerințele GMP sau HTM se verifică pe proiect, din documentația producătorului. Termenul de fabricație și testele în fabrică se confirmă de producător pentru fiecare configurație.`
       },
       {
-        name: 'Pompe de Căldură Industriale - Seria Horizon',
-        description: `Pompele de căldură Trane Horizon recuperează căldură reziduală din procese industriale (apă de răcire echipamente, aer evacuat) și o "pompează" la temperatură mai înaltă pentru refolosire (încălzire clădiri, apă caldă menajeră, preîncălzire aer ventilație) - cu scopul de a reduce consumul de energie primară. Principiu: ciclu frigorific inversat cu compresor (scroll, screw sau centrifugal), evaporator (extrage căldură din sursa rece 5-30°C), condensor (cedează căldură la temperatura utilă 40-90°C). COP (Coefficient of Performance) 3-5 în funcție de diferența de temperatură - pentru fiecare kWh electric consumat produci 3-5 kWh termic. Refrigeranți high-temperature: R-134a, R-245fa, R-1233zd (low GWP) pentru condens până la 90°C. Puteri termice 50-5000 kW. Aplicații: recuperare căldură de la chillerele datacenter-ului pentru încălzire clădire, recuperare de la compresoarele de aer pentru ACM (apă caldă menajeră), recuperare de la procesele de spălare industrială. Integrare: controlul Trane optimizează automat între sursele de căldură (pompă + boiler auxiliar) funcție de cost energie și disponibilitate. Timpul de recuperare a investiției variază în funcție de aplicație și de costul energiei. Conformitate cu directivele UE pentru eficiență energetică și reducere emisii CO2. Service Trane oferă contracte ESCO (finanțare prin economii).`
+        name: 'Pompe de Căldură Industriale',
+        description: `Pompele de căldură Trane recuperează căldură reziduală din procese industriale (apă de răcire echipamente, aer evacuat) și o "pompează" la temperatură mai înaltă pentru refolosire (încălzire clădiri, apă caldă menajeră, preîncălzire aer ventilație) - cu scopul de a reduce consumul de energie primară. Principiu: ciclu frigorific inversat cu compresor (scroll, screw sau centrifugal), evaporator (extrage căldură din sursa rece 5-30°C), condensor (cedează căldură la temperatura utilă 40-90°C). COP (Coefficient of Performance) 3-5 în funcție de diferența de temperatură - pentru fiecare kWh electric consumat produci 3-5 kWh termic. Refrigeranți high-temperature: R-134a, R-245fa, R-1233zd (low GWP) pentru condens până la 90°C. Puterile termice depind de model. Aplicații: recuperare căldură de la chillerele datacenter-ului pentru încălzire clădire, recuperare de la compresoarele de aer pentru ACM (apă caldă menajeră), recuperare de la procesele de spălare industrială. Integrare: controlul Trane optimizează automat între sursele de căldură (pompă + boiler auxiliar) funcție de cost energie și disponibilitate. Timpul de recuperare a investiției variază în funcție de aplicație și de costul energiei. Conformitate cu directivele UE pentru eficiență energetică și reducere emisii CO2. `
       }
     ],
 
@@ -1523,7 +1520,7 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       'Food production (zone aseptice, depozite refrigerate)'
     ],
 
-    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari se livrează în 1–4 săptămâni la comandă, funcție de configurație. Pentru un studiu corect trimite-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
+    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari sunt sisteme complexe, cu termene de regulă peste 4 săptămâni, confirmate de furnizor pentru fiecare configurație. Pentru un studiu corect trimiteți-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
     sources: [
       {"title":"CenTraVac Water-cooled Chillers Product Catalog","url":"https://elibrary.tranetechnologies.com/public/commercial-hvac/Literature/Product%20Catalog/CTV-PRC021G-EN_12202024.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
       {"title":"Voyager I Rooftop Units Catalog","url":"https://www.trane.com/content/dam/Trane/Commercial/EMEIA/sales-offices/Turkey/Urunler%20ve%20Sistemler/Product/Voyager%20I-CATALOG-Cooling_Gas%20Fired.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
@@ -1608,7 +1605,7 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
       },
       {
         "q": "Livrați echipamente Trane în România?",
-        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate, iar codul unității trebuie confirmat înaintea plasării comenzii."
+        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Pentru chillere termenele sunt de regulă peste 4 săptămâni, iar pentru unitățile rooftop de regulă 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate; codul unității trebuie confirmat înaintea plasării comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rooftop Trane Voyager?",
@@ -1619,8 +1616,8 @@ Dar Trane nu e doar about hardware - oferă și servicii de energy audit, buildi
         "a": "Ambele sunt variante Duplex, cu două circuite frigorifice separate în aceeași carcasă, ceea ce oferă o rezervă de funcționare parțială la o eventuală defecțiune. CDHF acoperă treapta de capacitate medie a gamei, iar CDHG este destinată proiectelor cu necesar de răcire mai ridicat."
       }
     ],
-    lastVerified: '2026-09-22',
-    changelog: [{ date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Trane, conform surselor citate.' }],
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Trane, conform surselor citate.' }],
     evidenceClass: 'transactional'
   }
 }

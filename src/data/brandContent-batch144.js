@@ -4,14 +4,14 @@ export const brandContentBatch144 = {
   onda: {
     name: "Onda",
     headquarters: "Mussolente, Italia",
-    overview: `Onda este marca sub care Wieland Onda Srl, producător italian cu sediul la Mussolente, în provincia Vicenza, fabrică schimbătoare de căldură pentru climatizare și refrigerare industrială. Compania face parte din grupul german Wieland, cunoscut pentru produse din cupru și aliaje, și operează cinci fabrici — trei în Italia, una în Delaware (SUA) și una lângă Tampere, în Finlanda. Gama acoperă schimbătoare cu aer, cu plăci brazate, cu plăci demontabile, cu fascicul tubular și construcții speciale. Din această gamă putem oferta baterii și schimbătoare pentru instalații de climatizare și refrigerare industrială din România.
+    overview: `Onda este marca sub care Wieland Onda Srl, producător italian cu sediul la Mussolente, în provincia Vicenza, fabrică schimbătoare de căldură pentru climatizare și refrigerare industrială. Compania face parte din grupul german Wieland, cunoscut pentru produse din cupru și aliaje, și operează cinci fabrici — trei în Italia, una în Delaware, Ohio (SUA) și una lângă Tampere, în Finlanda. Gama acoperă schimbătoare cu aer, cu plăci brazate, cu plăci demontabile, cu fascicul tubular și construcții speciale. Din această gamă putem oferta baterii și schimbătoare pentru instalații de climatizare și refrigerare industrială din România.
 
 Diferența tehnică stă în acoperirea largă de puteri: evaporatoarele și aerorefrigeratoarele din seriile E, EG, ED, EKA, EKD, EKC, A, AD, ER și AR merg de la 1 la 180 kW, iar răcitoarele de lichid FLV, GLV, FVN, MVL, FN și FND urcă până la 1.800 kW. Schimbătoarele cu plăci brazate acoperă 3–3.000 kW, inclusiv modelul recent S727, iar cele cu fascicul tubular (FSE, LSE, SSE, LPE, MPE, HPE, C S&T) ajung la 10.000 kW, compatibile cu R22, R134a, R410A, R407C și amoniac. Linia de plăci demontabile GG are și variantă integral din inox AISI 304/316.
 
-Pentru un integrator sau proiectant din România, Onda înseamnă acces la scheme complete de schimbătoare pentru climatizare industrială și refrigerare, utile mai ales la extinderi sau la înlocuirea unor unități mai vechi unde trebuie păstrată aceeași gamă de putere. Livrarea se face la comandă prin canalul Wieland, fără raft propriu, motiv pentru care proiectele trebuie planificate din timp.`,
+Pentru un integrator sau proiectant din România, Onda înseamnă acces la scheme complete de schimbătoare pentru climatizare industrială și refrigerare, utile mai ales la extinderi sau la înlocuirea unor unități mai vechi unde trebuie păstrată aceeași gamă de putere. Livrarea se face la comandă, prin canale de aprovizionare din UE, fără raft propriu, motiv pentru care proiectele trebuie planificate din timp.`,
     whyChoose: [
       "Acoperire de putere foarte largă, de la 1 kW la evaporatoare până la 10.000 kW la schimbătoarele cu fascicul tubular",
-      "Cinci fabrici pe trei continente — Italia, SUA și Finlanda — cu piese standardizate în toată gama",
+      "Cinci fabrici în trei țări — Italia, SUA și Finlanda",
       "Plăci demontabile disponibile integral din inox AISI 304/316, utile pentru fluide corozive sau alimentare",
       "Compatibilitate declarată cu R22, R134a, R410A, R407C și amoniac la seriile cu fascicul tubular",
       "Parte din grupul Wieland, cu tradiție îndelungată în prelucrarea cuprului pentru schimbul termic",
@@ -19,15 +19,15 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
     keyProducts: [
       {
         name: "Evaporatoare și Răcitoare cu Aer (E/EG/ED, EKA/EKD/EKC, A/AD, ER/AR)",
-        description: "Serie largă de evaporatoare și aerorefrigeratoare cu aer pentru camere frigorifice și climatizare, cu puteri de la 1 la 180 kW. Seriile E, EG și ED acoperă evaporarea standard, EKA, EKD și EKC variantele compacte, iar A și AD sunt aerorefrigeratoare pure. ER și AR sunt aeroevaporatoare radiale, cu flux de aer distribuit uniform.",
+        description: "Serie largă de evaporatoare și aerorefrigeratoare cu aer pentru camere frigorifice și climatizare, cu puteri de la 1 la 180 kW. Seriile E, EG și ED acoperă evaporarea standard, EKA, EKD și EKC variantele compacte, iar A și AD sunt aerorefrigeratoare pure. ER și AR sunt aeroevaporatoare radiale.",
       },
       {
         name: "Răcitoare de Lichid (FLV, GLV, FVN, MVL, FN, FND)",
-        description: "Baterii de răcire a lichidului cu puteri de la 5 la 1.800 kW, în șase configurații de bază, fiecare cu variantă echipată cu pompă de circulație (prefix P). Diferența dintre serii ține de orientarea bateriei și de tipul de ventilator. Utile la chillere aer-lichid și la recuperarea căldurii de proces.",
+        description: "Baterii de răcire a lichidului cu puteri de la 5 la 1.800 kW, în seriile FLV, GLV, FVN, MVL, FN și FND, cu variantele marcate cu prefixul P în catalogul producătorului. Diferențele dintre serii le confirmăm pe cod, din documentația Onda.",
       },
       {
         name: "Schimbătoare cu Plăci Brazate (BPHE, seria S727)",
-        description: "Schimbătoare compacte cu plăci brazate pentru evaporarea și condensarea agentului frigorific, la puteri între 3 și 3.000 kW, inclusiv varianta Oil BPHE cu racorduri flanșate pentru circuite de ulei. Modelul S727 este un evaporator bicircuit introdus recent, gândit pentru instalații cu redundanță pe partea de evaporare.",
+        description: "Schimbătoare compacte cu plăci brazate pentru evaporarea și condensarea agentului frigorific, la puteri între 3 și 3.000 kW, inclusiv varianta Oil BPHE cu racorduri flanșate pentru circuite de ulei. Modelul S727 este un evaporator bicircuit introdus recent.",
       },
       {
         name: "Schimbătoare cu Fascicul Tubular (FSE, LSE, SSE, LPE, MPE, HPE, C S&T)",
@@ -47,13 +47,13 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
       { code: "E / EG / ED", description: "Evaporatoare cu aer, seria de bază, 1–180 kW" },
       { code: "EKA / EKD / EKC", description: "Evaporatoare cu aer, variante compacte, 1–180 kW" },
       { code: "A / AD", description: "Aerorefrigeratoare cu aer, 1–180 kW" },
-      { code: "ER / AR", description: "Aeroevaporatoare radiale, flux de aer distribuit uniform" },
+      { code: "ER / AR", description: "Aeroevaporatoare radiale" },
       { code: "FLV / PFLV", description: "Răcitor de lichid, 5–1.800 kW, variantă cu pompă" },
       { code: "GLV / PGLV", description: "Răcitor de lichid, 5–1.800 kW, variantă cu pompă" },
-      { code: "FVN / PFVN", description: "Răcitor de lichid, 5–1.800 kW, ventilație axială" },
-      { code: "MVL / PMVL", description: "Răcitor de lichid, 5–1.800 kW, montaj vertical" },
+      { code: "FVN / PFVN", description: "Răcitor de lichid, 5–1.800 kW" },
+      { code: "MVL / PMVL", description: "Răcitor de lichid, 5–1.800 kW" },
       { code: "FN / PFN", description: "Răcitor de lichid, 5–1.800 kW" },
-      { code: "FND / PFND", description: "Răcitor de lichid, 5–1.800 kW, variantă dublă" },
+      { code: "FND / PFND", description: "Răcitor de lichid, 5–1.800 kW" },
       { code: "S727", description: "Evaporator brazat bicircuit, gamă recentă" },
       { code: "Oil BPHE", description: "Schimbător brazat cu racorduri flanșate pentru ulei" },
       { code: "FSE S&T", description: "Evaporator fascicul tubular, destindere directă" },
@@ -62,21 +62,21 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
       { code: "LPE S&T", description: "Evaporator inundat, fascicul tubular" },
       { code: "MPE S&T", description: "Evaporator inundat, fascicul tubular" },
       { code: "HPE S&T", description: "Evaporator inundat, capacitate mare" },
-      { code: "FLS-FLT S&T", description: "Evaporator hibrid cu peliculă, fascicul tubular" },
-      { code: "HDE S&T", description: "Evaporator hibrid cu peliculă, fascicul tubular" },
+      { code: "FLS-FLT S&T", description: "Evaporator inundat, fascicul tubular" },
+      { code: "HDE S&T", description: "Evaporator cu fascicul tubular" },
       { code: "C S&T", description: "Condensator fascicul tubular, 10–10.000 kW" },
     ],
     faq: [
       { q: "Ce produce Onda?", a: "Onda (Wieland Onda) produce schimbătoare de căldură pentru refrigerare și climatizare industrială: evaporatoare și aerorefrigeratoare cu aer, răcitoare de lichid, schimbătoare cu plăci brazate sau demontabile și schimbătoare cu fascicul tubular, cu puteri de la 1 kW până la 10.000 kW la seriile mai mari." },
       { q: "Cum aleg un răcitor Onda după cod?", a: "Codul de serie (de exemplu FLV, GLV sau C S&T) indică tipul de baterie și puterea acoperită; pentru selecție trebuie precizate puterea necesară, agentul frigorific folosit și temperaturile de lucru, iar producătorul confirmă varianta exactă din familia respectivă înainte de comandă." },
-      { q: "Ce echivalent are seria de evaporatoare E de la Onda?", a: "Seriile EG și ED din aceeași gamă acoperă puteri similare, cu diferențe la geometria bateriei și la tipul de dezghețare; alegerea între ele ține de spațiul de montaj disponibil și de temperatura de evaporare cerută, nu doar de puterea nominală declarată." },
+      { q: "Ce echivalent are seria de evaporatoare E de la Onda?", a: "Seriile E, EG și ED fac parte din aceeași gamă de evaporatoare cu aer (1–180 kW); diferențele dintre ele le confirmăm pe cod, din documentația producătorului." },
       { q: "Livrați Onda în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea fabricii producătorului, fără raft propriu păstrat pe această gamă de schimbătoare." },
       { q: "Ce trebuie să trimit pentru o ofertă Onda?", a: "Seria dorită, puterea sau debitul necesar, agentul frigorific folosit, temperaturile de lucru și tipul de montaj; cu aceste date putem cere producătorului o configurație exactă și un termen realist de livrare pentru proiectul dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Wieland Onda - Home", url: "https://www.onda-it.com/", publisher: "Wieland Onda Srl", accessed: "2026-09-26" },
       { title: "Scambiatori di calore ad aria", url: "https://www.onda-it.com/ita/prodotti/scambiatori-di-calore-ad-aria/", publisher: "Wieland Onda Srl", accessed: "2026-09-26" },
@@ -89,24 +89,24 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
     headquarters: "Forlì, Italia",
     overview: `Fiorini Industries este un producător italian de schimbătoare de căldură și sisteme hidronice, cu sediul la Forlì și activitate din 1978. Gama de bază cuprinde schimbătoare cu plăci cu garnituri din seriile K și F, schimbătoare brazate din seria P, plus sisteme complete — rezervoare tampon, kituri hidronice, sisteme de apă caldă și pompe de căldură geotermale sau split DC inverter. Din această gamă putem oferta componente pentru circuite de încălzire și răcire industrială din România.
 
-Ce diferențiază Fiorini e acoperirea largă a seriilor K și F: puteri de la 1 kW la 300 MW, debite de la 0,5 la 4.500 m³/h, plăci individuale între 0,04 și 3 m², racorduri de la DN 25 la DN 500, temperaturi de lucru între -20°C și 195°C, presiuni de 6 până la 25 bar. Seria brazată P acoperă aplicații sub 200 kW, cu plăci din cupru sau inox. Pe segmentul rezervoarelor tampon, Fiorini oferă variante cu un circuit sau cu două circuite, în oțel negru, zincat, emailat sau inox.
+Ce diferențiază Fiorini e acoperirea largă a seriilor K și F: puteri de la 1 kW la 300 MW, debite de la 0,5 la 4.500 m³/h, plăci individuale între 0,04 și 3 m², racorduri de la DN 25 la DN 500, temperaturi de lucru între -20°C și 195°C, presiuni de 6 până la 25 bar. Seria brazată P este destinată circuitelor compacte; puterea și materialul plăcilor se confirmă pe cod, din documentația producătorului. Pe segmentul rezervoarelor tampon, Fiorini oferă variante cu un circuit sau cu două circuite, în oțel negru, zincat, emailat sau inox.
 
 Pentru un proiectant sau instalator din România, Fiorini înseamnă acces la scheme de schimb termic dimensionabile pe cerere, utile la centrale termice industriale sau la sisteme de recuperare a căldurii. Livrarea se face la comandă, prin canalul producătorului, fără raft propriu pentru componente configurate special.`,
     whyChoose: [
       "Gamă de puteri foarte largă la seriile K și F, de la 1 kW până la 300 MW pe aceeași platformă",
       "Plăci disponibile de la 0,04 la 3 m², ceea ce permite dimensionare fină fără schimbarea familiei de produs",
       "Rezervoare tampon în oțel negru, zincat, emailat sau inox, alese după compatibilitatea cu fluidul din circuit",
-      "Seria brazată P acoperă aplicații sub 200 kW cu plăci din cupru sau inox, pentru circuite compacte",
+      "Schimbătoare brazate (seria P) pentru circuite compacte, configurate pe aplicație",
       "Sisteme complete de apă caldă și pompe de căldură geotermale în aceeași gamă de producător",
     ],
     keyProducts: [
       {
         name: "Schimbătoare cu Plăci cu Garnituri — Seria K și F",
-        description: "Schimbătoare demontabile cu puteri de la 1 kW la 300 MW, debite de la 0,5 la 4.500 m³/h, racorduri DN 25–DN 500 și presiuni de 6–25 bar. Seria K și seria F diferă prin geometria plăcii și randamentul termic la debite mari, pentru circuite de încălzire sau răcire de proces.",
+        description: "Schimbătoare demontabile cu puteri de la 1 kW la 300 MW, debite de la 0,5 la 4.500 m³/h, racorduri DN 25–DN 500 și presiuni de 6–25 bar. Producătorul prezintă seriile K și F împreună; diferențele dintre ele le confirmăm pe cod, din documentația Fiorini.",
       },
       {
         name: "Schimbătoare Brazate — Seria P",
-        description: "Schimbătoare compacte cu plăci brazate, pentru aplicații sub 200 kW și vâscozitate redusă a fluidului. Plăcile ondulate din cupru sau inox pot fi completate cu turbulatoare pentru fluide netede. Rezistă la temperaturi și presiuni ridicate, utile la boilere sau recuperare de căldură pe circuite mici.",
+        description: "Schimbătoare compacte cu plăci brazate; geometria plăcilor, numărul de plăci, materialul și garnitura se aleg pentru fiecare aplicație în parte, iar datele tehnice ale seriei P se confirmă pe cod, din catalogul producătorului.",
       },
       {
         name: "Rezervoare Tampon cu Unul sau Două Circuite",
@@ -114,7 +114,7 @@ Pentru un proiectant sau instalator din România, Fiorini înseamnă acces la sc
       },
       {
         name: "Sisteme de Apă Caldă și Pompe de Căldură (Fenix, Aquamatic)",
-        description: "Sisteme complete pentru apă caldă menajeră — module de încălzire rapidă, stații de apă proaspătă și rezervoare de stocare — alături de pompe de căldură geotermale și split DC inverter din gama Fenix. Aquamatic este linia dedicată centralelor de răcire cu rezervor integrat.",
+        description: "Sisteme complete pentru apă caldă menajeră — module de încălzire rapidă, stații de apă proaspătă și rezervoare de stocare — alături de pompe de căldură geotermale și de sistemul Fenix, un sistem cu pompă de căldură DC inverter pentru climatizarea locuințelor și a afacerilor mici. Aquamatic este stația de apă caldă menajeră care produce instant apă caldă din energia stocată în rezervorul tampon integrat.",
       },
     ],
     industries: [
@@ -126,33 +126,33 @@ Pentru un proiectant sau instalator din România, Fiorini înseamnă acces la sc
     ],
     certifications: ["ISO 9001", "ISO 14001", "OHSAS 18001", "CE — PED (Pressure Equipment Directive / Directiva Echipamente sub Presiune)"],
     infinitrade: `Furnizăm schimbătoare și sisteme hidronice Fiorini pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de seria dorită (K, F sau P), puterea sau debitul necesar, presiunea și temperatura de lucru, plus tipul de fluid din circuit. Nu ținem această gamă pe stoc — fiecare schimbător se configurează pe comandă.`,
-    limitation: "Nu putem confirma configurarea software a sistemelor de control (Set 2.0) și nici service-ul în perioada de garanție a producătorului.",
+    limitation: "Nu putem confirma configurarea software a sistemelor de control și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
       { code: "Series K", description: "Schimbător cu plăci cu garnituri, 1 kW–300 MW" },
       { code: "Series F", description: "Schimbător cu plăci cu garnituri, 1 kW–300 MW" },
-      { code: "Brazed Heat Exchangers", description: "Familia de schimbătoare brazate, aplicații sub 200 kW" },
+      { code: "Brazed Heat Exchangers", description: "Familia de schimbătoare brazate, pentru circuite compacte" },
       { code: "Buffer Tanks", description: "Rezervoare tampon cu unul sau două circuite, oțel negru, zincat, emailat sau inox" },
       { code: "Hydronic Kits", description: "Stații hidraulice cu rezervor tampon și pompă integrată" },
-      { code: "FST", description: "Semi-fast heater — modul de încălzire rapidă pentru apă caldă menajeră" },
+      { code: "FST", description: "Modul de încălzire pentru apă caldă menajeră" },
       { code: "ACS Set", description: "Stație de apă proaspătă pentru producerea instant a apei calde menajere" },
-      { code: "T-Set", description: "Variantă de stație de apă proaspătă din gama Fiorini" },
+      { code: "T-Set", description: "Sistem pentru apă caldă menajeră din gama Fiorini" },
       { code: "Domestic Hot Water Storage Tanks", description: "Rezervoare de stocare apă caldă, cu izolație și opțiune de manta exterioară" },
       { code: "Thermal Solar Systems", description: "Sisteme solare termice pentru apă caldă menajeră" },
-      { code: "Fenix", description: "Pompă de căldură hibridă pentru apă caldă menajeră" },
+      { code: "Fenix", description: "Sistem cu pompă de căldură DC inverter pentru climatizarea locuințelor și a afacerilor mici" },
       { code: "GEO", description: "Pompă de căldură geotermală Fiorini" },
       { code: "Aquamatic", description: "Preparator instant de apă caldă menajeră (ACS)" },
     ],
     faq: [
       { q: "Ce produce Fiorini Industries?", a: "Fiorini Industries produce schimbătoare de căldură cu plăci — seriile K, F (cu garnituri) și P (brazate) — plus sisteme complete de acumulare termică, apă caldă și pompe de căldură geotermale sau split DC inverter, pentru instalații de încălzire, răcire și HVAC&R." },
-      { q: "Cum aleg un schimbător Fiorini după serie?", a: "Seriile K și F se aleg după puterea necesară (1 kW–300 MW) și racordul DN (25–500), iar seria P brazată se folosește sub 200 kW pentru circuite compacte; producătorul confirmă configurația exactă pe baza debitului și temperaturii de lucru cerute." },
-      { q: "Ce diferență e între seria K și seria F la Fiorini?", a: "Ambele sunt schimbătoare demontabile cu garnituri, dar diferă prin geometria plăcii și randamentul termic la debite mari; alegerea între ele ține de aplicație și de pierderea de presiune acceptată pe circuit la debitul de proiectare." },
+      { q: "Cum aleg un schimbător Fiorini după serie?", a: "Seriile K și F se aleg după puterea necesară (1 kW–300 MW) și racordul DN (25–500), iar seria P brazată se folosește pentru circuite compacte; producătorul confirmă configurația exactă pe baza debitului și temperaturii de lucru cerute." },
+      { q: "Ce diferență e între seria K și seria F la Fiorini?", a: "Ambele sunt schimbătoare demontabile cu garnituri, iar diferențele dintre ele le confirmăm pe cod, din documentația Fiorini; alegerea ține de aplicație și de pierderea de presiune acceptată pe circuit." },
       { q: "Livrați Fiorini Industries în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută; nu ținem această gamă pe stoc, fiecare schimbător fiind dimensionat pe comandă la fabrica din Forlì." },
       { q: "Ce trebuie să trimit pentru o ofertă Fiorini?", a: "Seria dorită (K, F sau P), puterea sau debitul necesar, presiunea și temperatura de lucru, plus tipul de fluid din circuit; cu aceste date cerem producătorului o configurație exactă și un termen realist de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Fiorini Industries - Home", url: "https://www.fiorini-industries.com/en/", publisher: "Fiorini Industries", accessed: "2026-09-26" },
       { title: "Gasketed Plate Heat Exchangers", url: "https://www.fiorini-industries.com/en/heat-exchangers/gasketed-plate-heat-exchangers/", publisher: "Fiorini Industries", accessed: "2026-09-26" },
@@ -165,34 +165,34 @@ Pentru un proiectant sau instalator din România, Fiorini înseamnă acces la sc
   "lu-ve": {
     name: "LU-VE",
     headquarters: "Uboldo, Italia",
-    overview: `LU-VE este un producător italian de schimbătoare de căldură pentru refrigerare, climatizare și răcirea centrelor de date, cu sediul la Uboldo, în provincia Varese. Gama comercială acoperă răcitoare de aer pentru camere frigorifice (Defender, Vantage, Alfa Arctigo, Helpman), condensatoare cu aer și gas cooler pe CO₂ (Giant), răcitoare de lichid (Alfa Blue, Alfa Optigo) și schimbătoare OEM pentru transport frigorific, pompe de căldură rezidențiale și electronică de putere. Din această gamă putem oferta baterii de schimb termic pentru instalații frigorifice și de climatizare din România.
+    overview: `LU-VE este un producător italian de schimbătoare de căldură pentru refrigerare, climatizare și răcirea centrelor de date, cu sediul la Uboldo, în provincia Varese. Gama comercială acoperă răcitoare de aer pentru camere frigorifice (Defender, Vantage, Alfa Arctigo, Helpman), condensatoare cu aer și gas cooler pe CO₂ (Giant) și răcitoare de lichid (de exemplu Alfa Blue). Din această gamă putem oferta baterii de schimb termic pentru instalații frigorifice și de climatizare din România.
 
-Diferența tehnică vine din varietatea configurațiilor pe fiecare familie: seria Defender vine în variantele CD, CRD și FF, Vantage în FHA, FHC, FHD, SFHC și SFHD, iar Alfa Arctigo acoperă IS, IST, ID, IC, LSV și HRCD, de la modele standard până la cele cu recuperare de căldură. Condensatoarele și gas cooler-ele din familia Giant vin în variantele F, L, S, C și XL, plate sau în V, pentru CO₂ sau agenți sintetici. Pe partea de lichid, Alfa Blue (BC, BN, BX, BD) și Alfa Optigo (FMS, FMC, SFMC, FMD, SFMD) acoperă răcirea genseturilor, a transformatoarelor și a aplicațiilor hyper-scale.
+Diferența tehnică vine din varietatea configurațiilor pe fiecare familie: seria Defender vine în variantele CD, CRD și FF, Vantage în FHA, FHC, FHD, SFHC și SFHD, iar Alfa Arctigo acoperă IS, IST, ID, IC, LSV și HRCD, de la modele standard până la cele cu recuperare de căldură. Condensatoarele și gas cooler-ele din familia Giant vin în variantele F, L, S și C, pentru CO₂ sau agenți sintetici. Pe partea de lichid, catalogul include familii precum Alfa Blue (variantele BD și BX); variantele exacte se confirmă pe cod, din documentația producătorului.
 
-Pentru piața din România, LU-VE înseamnă acces la răcitoare și condensatoare pentru depozite frigorifice, supermarketuri și centre de date, unde codul exact de model contează pentru compatibilitatea cu agentul frigorific folosit. Livrarea se face la comandă, prin canalele europene ale producătorului, fără raft propriu pentru variantele configurate special.`,
+Pentru piața din România, LU-VE înseamnă acces la răcitoare și condensatoare pentru depozite frigorifice, supermarketuri și centre de date, unde codul exact de model contează pentru compatibilitatea cu agentul frigorific folosit. Livrarea se face la comandă, prin canale de aprovizionare din UE, fără raft propriu pentru variantele configurate special.`,
     whyChoose: [
       "Familii separate pentru fiecare aplicație — Defender și Vantage pentru camere frigorifice, Giant pentru condensare pe CO₂",
       "Variante multiple pe fiecare serie (CD/CRD/FF la Defender, FHA/FHC/FHD la Vantage), utile la înlocuiri exacte",
-      "Gama Giant acoperă atât CO₂ cât și agenți sintetici, în variante plate sau în V, F/L/S/C/XL",
-      "Schimbătoare OEM dedicate transportului frigorific, pompelor de căldură rezidențiale și electronicii de putere",
-      "Alfa Optigo și Alfa Blue acoperă răcirea genseturilor, transformatoarelor și aplicațiilor hyper-scale de date",
+      "Gama Giant acoperă atât CO₂ cât și agenți sintetici, în variantele F, L, S și C",
+      "Familii pentru refrigerare, climatizare, răcire industrială, energie și răcirea centrelor de date",
+      "Catalog cu familii dedicate pe aplicații, de la refrigerare la răcirea centrelor de date, alese pe cod",
     ],
     keyProducts: [
       {
         name: "Răcitoare de Aer — Defender (CD/CRD/FF) și Vantage (FHA/FHC/FHD/SFHC/SFHD)",
-        description: "Răcitoare de aer cubice pentru camere frigorifice și depozite, cu variante CD, CRD și FF la Defender, respectiv FHA, FHC, FHD și variantele cu recuperare SFHC/SFHD la Vantage. Alegerea între serii ține de temperatura de lucru și de necesarul de dezghețare.",
+        description: "Răcitoare de aer cubice pentru camere frigorifice și depozite, cu variante CD, CRD și FF la Defender, respectiv FHA, FHC, FHD, SFHC și SFHD la Vantage. Alegerea între serii ține de temperatura de lucru și de necesarul de dezghețare.",
       },
       {
         name: "Răcitoare de Aer Hi-Duty — Alfa Arctigo (IS/IST/ID/IC/LSV/HRCD)",
-        description: "Serie pentru aplicații industriale grele, cu variante IS și IST standard, ID și IC pentru debite mari de aer, LSV cu ventilatoare cu turație joasă și HRCD cu recuperare de căldură. Utilă la depozite mari și hale de procesare.",
+        description: "Serie pentru aplicații industriale, cu variantele IS, IST, ID, IC, LSV și HRCD; diferențele dintre variante se confirmă pe cod, din documentația producătorului.",
       },
       {
-        name: "Condensatoare și Gas Cooler CO₂ — Giant (F/L/S/C/XL)",
-        description: "Familie de condensatoare cu aer și gas cooler pe CO₂, în variante F (flat), L, S, C și XL, dimensionate după puterea de condensare cerută. Folosite la instalații comerciale și industriale de refrigerare cu CO₂ transcritic.",
+        name: "Condensatoare și Gas Cooler CO₂ — Giant (F/L/S/C)",
+        description: "Familie de condensatoare cu aer și gas cooler pe CO₂, în variante F, L, S și C, dimensionate după puterea de condensare cerută. Folosite la instalații comerciale și industriale de refrigerare cu CO₂ transcritic.",
       },
       {
-        name: "Răcitoare de Lichid — Alfa Blue (BC/BN/BX/BD) și Alfa Optigo (FMS/FMC/SFMC/FMD/SFMD)",
-        description: "Răcitoare de lichid în V pentru genseturi, transformatoare și aplicații hyper-scale, cu variante BC, BN, BX și BD la Alfa Blue, respectiv FMS, FMC, SFMC, FMD și SFMD la Alfa Optigo, unele cu recuperare de căldură (prefix S).",
+        name: "Răcitoare de Lichid — Alfa Blue (BD/BX)",
+        description: "Familii de răcitoare de lichid cu aer, cu variantele BD și BX la Alfa Blue; variantele exacte, aplicațiile și versiunile cu recuperare de căldură se confirmă pe cod, din documentația producătorului.",
       },
     ],
     industries: [
@@ -200,42 +200,42 @@ Pentru piața din România, LU-VE înseamnă acces la răcitoare și condensatoa
       "Răcire industrială — hale de procesare, camere de congelare rapidă",
       "Centre de date — răcire de precizie și soluții hyper-scale",
       "Energie — răcirea genseturilor și a transformatoarelor de putere",
-      "Transport frigorific și pompe de căldură — schimbătoare OEM integrate",
+      "Climatizare — baterii de schimb termic pentru instalații de aer condiționat",
     ],
-    infinitrade: `Furnizăm răcitoare și condensatoare LU-VE pe baza informațiilor publice ale producătorului, fără date proprii de stoc. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și varianta cerută. Pentru ofertă avem nevoie de codul exact de model (de exemplu Vantage FHC sau Giant F), agentul frigorific folosit, puterea de răcire și tensiunea ventilatoarelor. Nu ținem această gamă pe raft pe această gamă — fiecare comandă se confirmă la producător.`,
-    limitation: "Nu putem confirma disponibilitatea configuratorului online „Plair” pentru dimensionare și nici service-ul în garanția producătorului pentru unități instalate direct de client.",
+    infinitrade: `Furnizăm răcitoare și condensatoare LU-VE pe baza informațiilor publice ale producătorului, fără date proprii de stoc. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și varianta cerută. Pentru ofertă avem nevoie de codul exact de model (de exemplu Vantage FHC sau Giant F), agentul frigorific folosit, puterea de răcire și tensiunea ventilatoarelor. Nu ținem această gamă pe raft — fiecare comandă se confirmă la producător.`,
+    limitation: "Nu putem confirma disponibilitatea unui configurator online pentru dimensionare și nici service-ul în garanția producătorului pentru unități instalate direct de client.",
     productCodes: [
       { code: "Defender CD", description: "Răcitor de aer cubic, cameră frigorifică standard" },
-      { code: "Defender CRD", description: "Răcitor de aer cubic, variantă cu recuperare" },
-      { code: "Defender FF", description: "Răcitor de aer cubic, congelare rapidă" },
+      { code: "Defender CRD", description: "Răcitor de aer cubic, familia Defender" },
+      { code: "Defender FF", description: "Răcitor de aer cubic, familia Defender" },
       { code: "Vantage FHA", description: "Răcitor de aer cubic, aplicații comerciale" },
       { code: "Vantage FHC", description: "Răcitor de aer cubic, cameră frigorifică" },
-      { code: "Vantage SFHC", description: "Răcitor de aer cu recuperare de căldură" },
+      { code: "Vantage SFHC", description: "Răcitor de aer cubic, familia Vantage" },
       { code: "Alfa Arctigo IS", description: "Răcitor de aer hi-duty, aplicații industriale" },
       { code: "Alfa Arctigo ID", description: "Răcitor de aer hi-duty, debit mare de aer" },
-      { code: "Alfa Arctigo LSV", description: "Răcitor de aer cu ventilatoare turație joasă" },
-      { code: "Alfa Arctigo HRCD", description: "Răcitor de aer cu recuperare de căldură" },
+      { code: "Alfa Arctigo LSV", description: "Răcitor de aer, familia Alfa Arctigo" },
+      { code: "Alfa Arctigo HRCD", description: "Răcitor de aer, familia Alfa Arctigo" },
       { code: "Helpman THOR", description: "Răcitor de aer comercial" },
       { code: "Helpman TYR", description: "Răcitor de aer comercial, gamă compactă" },
       { code: "Giant F", description: "Gas cooler CO₂, configurație flat" },
       { code: "Giant L", description: "Gas cooler CO₂, capacitate mare" },
-      { code: "Giant XL", description: "Gas cooler CO₂, capacitate foarte mare" },
-      { code: "Alfa Blue BC", description: "Răcitor de lichid în V, aplicații generale" },
+      
+      { code: "Alfa Blue BC", description: "Condensator cu aer, familia Alfa Blue" },
       { code: "Alfa Blue BX", description: "Răcitor de lichid în V, capacitate mare" },
-      { code: "Alfa Optigo FMS", description: "Răcitor de lichid, aplicații hyper-scale" },
-      { code: "Alfa Optigo SFMC", description: "Răcitor de lichid cu recuperare de căldură" },
+      { code: "Alfa Optigo FMS", description: "Familia Alfa Optigo, varianta FMS; aplicația se confirmă pe cod" },
+      { code: "Alfa Optigo SFMC", description: "Familia Alfa Optigo, varianta SFMC; aplicația se confirmă pe cod" },
     ],
     faq: [
       { q: "Ce produce LU-VE?", a: "LU-VE produce răcitoare de aer pentru camere frigorifice (Defender, Vantage, Alfa Arctigo), condensatoare și gas cooler pe CO₂ (Giant), răcitoare de lichid (Alfa Blue, Alfa Optigo) și schimbătoare OEM pentru transport frigorific și pompe de căldură rezidențiale." },
       { q: "Cum aleg un răcitor LU-VE după cod?", a: "Codul indică familia și varianta — de exemplu Vantage FHC sau Defender CD — iar alegerea finală ține de puterea de răcire necesară, agentul frigorific folosit și tipul de dezghețare cerut de aplicația din teren." },
-      { q: "Ce echivalent are seria Defender de la LU-VE?", a: "Vantage este seria imediat vecină ca aplicații, cu variante FHA, FHC și FHD; diferența principală față de Defender ține de debitul de aer și de opțiunile de recuperare a căldurii disponibile pe fiecare variantă a familiei." },
+      { q: "Ce echivalent are seria Defender de la LU-VE?", a: "Vantage este o familie vecină ca aplicații, cu variantele FHA, FHC și FHD; diferențele față de Defender le confirmăm pe cod, din documentația producătorului." },
       { q: "Livrați LU-VE în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și varianta cerută; nu ținem pe raft această gamă de răcitoare și condensatoare." },
       { q: "Ce trebuie să trimit pentru o ofertă LU-VE?", a: "Codul exact de model, agentul frigorific folosit, puterea de răcire necesară și tensiunea ventilatoarelor; cu aceste date putem cere producătorului o configurație și un termen de livrare pentru instalația dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "LU-VE - Home", url: "https://lu-ve.com/", publisher: "LU-VE S.p.A.", accessed: "2026-09-26" },
       { title: "Applications - LU-VE", url: "https://lu-ve.com/applications/", publisher: "LU-VE S.p.A.", accessed: "2026-09-26" },
@@ -248,9 +248,9 @@ Pentru piața din România, LU-VE înseamnă acces la răcitoare și condensatoa
     headquarters: "Germania",
     overview: `Güntner este un producător german de echipamente pentru schimb de căldură și răcire, activ din 1931, cu cinci fabrici și trei centre logistice în peste 80 de țări. Gama acoperă răcitoare de aer pentru camere frigorifice, dry cooler pentru răcirea lichidelor fără consum de apă, condensatoare și gas cooler pentru instalații de refrigerare, plus soluții de control și monitorizare aicore™. Din această gamă putem oferta unități pentru depozite frigorifice, supermarketuri și instalații industriale de răcire din România.
 
-Diferența tehnică vine din structurarea pe două platforme: seria COMPACT, standardizată, cu variante Cubic, Dual, Mini și Slim la răcitoarele de aer, respectiv Flat, Vertical și V-shape la dry cooler și condensatoare; și seria VARIO, configurabilă pe cerere, cu aceleași variante de bază. Modelul Cubic COMPACT (seria GACC) acoperă 2–69 kW pe CO₂ și 2–82 kW pe agenți sintetici. Pentru medii cu apă puțină, varianta hydroBLU™ adaugă răcire adiabată la modelele V-shape, iar seriile ECOSS și FCE acoperă condensarea evaporativă în inox sau oțel zincat.
+Diferența tehnică vine din structurarea pe două platforme: seria COMPACT, standardizată, cu variante Cubic, Dual, Mini și Slim la răcitoarele de aer, respectiv Flat, Vertical și V-shape la dry cooler și condensatoare; și seria VARIO, configurabilă pe cerere, cu variantele Cubic și Dual la răcitoarele de aer și Flat, Vertical și V-shape la dry cooler și condensatoare. Modelul Cubic COMPACT (seria GACC) acoperă 2–69 kW pe CO₂ și 2–82 kW pe agenți sintetici. Pentru medii cu apă puțină, varianta hydroBLU™ adaugă răcire adiabată la modelele V-shape, iar seriile ECOSS și FCE acoperă condensarea evaporativă în inox sau oțel zincat.
 
-Pentru piața din România, Güntner înseamnă acces la echipamente de răcire dimensionate pe puterea și temperatura cerută, utile la depozite frigorifice noi sau la înlocuirea unor unități scoase din producție. Livrarea se face la comandă, prin filiala europeană a producătorului, fără raft propriu pentru configurațiile speciale.`,
+Pentru piața din România, Güntner înseamnă acces la echipamente de răcire dimensionate pe puterea și temperatura cerută, utile la depozite frigorifice noi sau la înlocuirea unor unități scoase din producție. Livrarea se face la comandă, prin canale de aprovizionare din UE, fără raft propriu pentru configurațiile speciale (Guentner).`,
     whyChoose: [
       "Platformă COMPACT standardizată și platformă VARIO configurabilă pe cerere, pe aceleași familii de produs",
       "Seria Cubic COMPACT (GACC) acoperă 2–69 kW pe CO₂ și până la 82 kW pe agenți sintetici",
@@ -261,7 +261,7 @@ Pentru piața din România, Güntner înseamnă acces la echipamente de răcire 
     keyProducts: [
       {
         name: "Răcitoare de Aer — Seria COMPACT (Cubic, Dual, Mini, Slim) și VARIO",
-        description: "Răcitoare de aer pentru camere frigorifice, cu varianta standardizată Cubic COMPACT (seria GACC, 2–69 kW pe CO₂, 2–82 kW pe agenți sintetici) pentru spații medii, Dual pentru încăperi lungi, Mini pentru spații restrânse și Slim pentru înălțimi mici. Seria VARIO oferă aceleași configurații, personalizabile pe cerere.",
+        description: "Răcitoare de aer pentru camere frigorifice, cu varianta standardizată Cubic COMPACT (seria GACC, 2–69 kW pe CO₂, 2–82 kW pe agenți sintetici) pentru spații medii, Dual pentru încăperi lungi, Mini pentru spații restrânse și Slim pentru înălțimi mici. Seria VARIO, personalizabilă pe cerere, este disponibilă în variantele Cubic și Dual.",
       },
       {
         name: "Dry Cooler — Flat, Vertical și V-shape COMPACT/VARIO",
@@ -273,7 +273,7 @@ Pentru piața din România, Güntner înseamnă acces la echipamente de răcire 
       },
       {
         name: "Soluții de Control aicore™",
-        description: "Platformă de control și monitorizare pentru unitățile Güntner, cu colectare de date pentru optimizarea consumului de energie și mentenanță predictivă. Se integrează pe răcitoarele de aer, dry cooler și condensatoarele din gama curentă.",
+        description: "Platformă de control și monitorizare pentru unitățile Güntner. Funcțiile exacte și compatibilitatea pe fiecare serie se confirmă din documentația producătorului.",
       },
     ],
     industries: [
@@ -317,8 +317,8 @@ Pentru piața din România, Güntner înseamnă acces la echipamente de răcire 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Güntner - Home", url: "https://guntner.com/", publisher: "Güntner GmbH & Co. KG", accessed: "2026-09-26" },
       { title: "Air Coolers - Güntner", url: "https://guntner.com/products/air-coolers", publisher: "Güntner GmbH & Co. KG", accessed: "2026-09-26" },
@@ -335,7 +335,7 @@ Pentru piața din România, Güntner înseamnă acces la echipamente de răcire 
 
 Diferența tehnică vine din varietatea familiilor de produs: vaporizatoarele includ variante de tavan (Deckenverdampfer), pentru fructe și legume, cu bloc dublu (Doppelblockverdampfer), pentru spații de lucru fără curenți de aer (Arbeitsraumverdampfer), pentru congelare rapidă (Schockfroster) și pentru pompe de căldură. Condensatoarele și gas cooler-ele vin în configurație orizontală, verticală sau în V, cu unul sau două rânduri de baterii, pentru amoniac, CO₂, HFC/HFO sau propan. Răcitoarele cu apă acoperă aceleași orientări, plus o variantă cu autogolire și una dedicată centralelor energetice.
 
-Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și condensatoare pentru instalații frigorifice industriale, unde configurația exactă (orizontală, verticală, în V) contează pentru spațiul de montaj disponibil. Livrarea se face la comandă, prin canalul german al producătorului, fără raft propriu pentru unitățile configurate special.`,
+Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și condensatoare pentru instalații frigorifice industriale, unde configurația exactă (orizontală, verticală, în V) contează pentru spațiul de montaj disponibil. Livrarea se face la comandă, prin canale de aprovizionare din UE, fără raft propriu pentru unitățile configurate special.`,
     whyChoose: [
       "Familii separate de vaporizatoare pentru tavan, congelare rapidă și pompe de căldură, alese după aplicație",
       "Condensatoare și gas cooler compatibile cu amoniac, CO₂, HFC/HFO și propan, pe aceeași platformă",
@@ -346,7 +346,7 @@ Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și cond
     keyProducts: [
       {
         name: "Vaporizatoare — Deckenverdampfer, Doppelblockverdampfer, Arbeitsraumverdampfer, Schockfroster",
-        description: "Vaporizatoare de tavan pentru camere frigorifice și hale de procesare, cu variantă pentru fructe și legume, variantă cu bloc dublu pentru montaj compact, variantă pentru spații de lucru fără curenți de aer și variantă pentru congelare rapidă, cu dezghețare electrică, cu saramură sau cu apă.",
+        description: "Vaporizatoare de tavan pentru camere frigorifice și hale de procesare, cu variantă pentru fructe și legume, variantă cu bloc dublu pentru montaj compact, variantă pentru spații de lucru fără curenți de aer și variantă pentru congelare rapidă.",
       },
       {
         name: "Condensatoare și Gas Cooler — Orizontal, Vertical, V-Form",
@@ -371,10 +371,10 @@ Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și cond
     infinitrade: `Furnizăm schimbătoare Thermofin pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de tipul de unitate (vaporizator, condensator sau răcitor cu apă), agentul de lucru, puterea și orientarea dorită (orizontală, verticală sau în V). Nu ținem această gamă pe stoc — fiecare unitate se confirmă la fabrica din Reichenbach.`,
     limitation: "Nu putem confirma parametrii de zgomot pentru fiecare configurație în parte și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
-      { code: "Deckenverdampfer", description: "Vaporizator de tavan pentru camere frigorifice" },
-      { code: "Deckenverdampfer Obst und Gemüse", description: "Vaporizator de tavan pentru fructe și legume" },
-      { code: "Doppelblockverdampfer", description: "Vaporizator cu bloc dublu, design compact" },
-      { code: "Arbeitsraumverdampfer", description: "Vaporizator pentru spații de lucru fără curenți" },
+      { code: "Deckenluftkühler", description: "Vaporizator de tavan pentru camere frigorifice" },
+      { code: "Obst- & Gemüsekühler", description: "Vaporizator de tavan pentru fructe și legume" },
+      { code: "Doppelblockluftkühler", description: "Vaporizator cu bloc dublu, design compact" },
+      { code: "Arbeitsraumkühler", description: "Vaporizator pentru spații de lucru fără curenți" },
       { code: "Schockfroster-Verdampfer", description: "Vaporizator pentru congelare rapidă" },
       { code: "Isolierkühler-Verdampfer", description: "Vaporizator pentru montaj pe perete exterior" },
       { code: "Penthousekühler-Verdampfer", description: "Vaporizator cu conducte de aer tip penthouse" },
@@ -396,14 +396,14 @@ Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și cond
     faq: [
       { q: "Ce produce Thermofin?", a: "Thermofin produce vaporizatoare pentru camere frigorifice, condensatoare și gas cooler pentru amoniac, CO₂, HFC/HFO sau propan, plus răcitoare cu apă (Rückkühler) în configurații orizontale, verticale și în V pentru instalații frigorifice industriale." },
       { q: "Cum aleg un vaporizator Thermofin după tip?", a: "Alegerea ține de aplicație: Deckenverdampfer pentru montaj pe tavan, Doppelblockverdampfer pentru spații compacte, Arbeitsraumverdampfer pentru zone fără curenți de aer și Schockfroster pentru congelare rapidă; toate se dimensionează pe puterea de răcire cerută de proiect." },
-      { q: "Ce diferență e între configurația orizontală și cea în V la Thermofin?", a: "Configurația orizontală ocupă mai mult spațiu dar simplifică mentenanța, iar configurația în V reduce amprenta la sol la aceeași putere; alegerea ține de spațiul disponibil pe amplasament și de nivelul de zgomot acceptat." },
+      { q: "Ce diferență e între configurația orizontală și cea în V la Thermofin?", a: "Configurația orizontală ocupă mai mult spațiu la sol, iar configurația în V reduce amprenta la sol la aceeași putere; alegerea ține de spațiul disponibil pe amplasament și de nivelul de zgomot acceptat." },
       { q: "Livrați Thermofin în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația aleasă; nu ținem această gamă de vaporizatoare și condensatoare pe raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă Thermofin?", a: "Tipul de unitate dorit, agentul de lucru, puterea necesară și orientarea preferată (orizontală, verticală sau în V); cu aceste date cerem producătorului o configurație exactă și un termen realist de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Thermofin - Home", url: "https://www.thermofin.de/", publisher: "Thermofin GmbH", accessed: "2026-09-26" },
       { title: "Verdampfer - Thermofin", url: "https://www.thermofin.de/verdampfer.php", publisher: "Thermofin GmbH", accessed: "2026-09-26" },
@@ -419,18 +419,18 @@ Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și cond
 
 Diferența tehnică vine din acoperirea pe patru variante de schimbătoare shell-and-tube — Hybrid, ASME, Double și Safety — alături de schimbătoare cu plăci înfiletate sau brazate, schimbătoare montate direct în rezervor și unități combinate răcitor-încălzitor. Certificările acoperite includ omologare DNV, construcție ASME Secțiunea VIII Div. 1, ISO 14001:2015 și conformitate ATEX, relevante pentru instalații navale, offshore și industriale. Pompele din gamă (cu șurub, în parteneriat cu Settima, și cu palete) completează centralele hidraulice cu monitorizare de fluid 4.0.
 
-Pentru piața din România, Universal Hydraulik înseamnă acces la componente de răcire și filtrare pentru instalații hidraulice industriale și navale, unde certificarea (ASME, DNV, ATEX) contează la recepția tehnică. Comanda se onorează prin filiala germană a grupului, fără raft propriu păstrat pentru variantele certificate special.`,
+Pentru piața din România, Universal Hydraulik înseamnă acces la componente de răcire și filtrare pentru instalații hidraulice industriale și navale, unde certificarea (ASME, DNV, ATEX) contează la recepția tehnică. Comanda se onorează la cerere, prin canale de aprovizionare din UE, fără raft propriu pentru variantele certificate special.`,
     whyChoose: [
       "Patru variante de schimbătoare shell-and-tube — Hybrid, ASME, Double și Safety — pentru cerințe diferite de siguranță",
       "Certificări DNV, ASME Secțiunea VIII Div. 1 și ATEX, relevante pentru instalații navale și offshore",
       "Centrale hidraulice complete cu monitorizare de fluid 4.0, integrabile cu mentenanța predictivă",
-      "Pompe cu șurub realizate în parteneriat cu Settima, alături de pompe cu palete proprii",
-      "Filiale în SUA și Cehia, utile pentru piese de schimb standardizate în afara Germaniei",
+      "Pompe cu șurub asamblate în parteneriat cu Settima, integrate în centralele hidraulice",
+      "Filiale în SUA (Perrysburg, Ohio) și Cehia (Písek), conform site-ului producătorului",
     ],
     keyProducts: [
       {
         name: "Schimbătoare Shell-and-Tube — Hybrid, ASME, Double, Safety",
-        description: "Schimbătoare cu fascicul tubular în patru variante: Hybrid pentru aplicații generale, ASME conform Secțiunii VIII Div. 1 pentru piețe cu cerință de cod american, Double cu perete dublu pentru siguranță suplimentară la scurgeri și Safety pentru medii cu risc ridicat.",
+        description: "Schimbătoare cu fascicul tubular în patru variante — Hybrid, ASME (construcție conform Secțiunii VIII Div. 1), Double și Safety; destinația fiecărei variante se confirmă pe cod, din documentația producătorului.",
       },
       {
         name: "Schimbătoare cu Plăci — Înfiletate și Brazate",
@@ -442,7 +442,7 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
       },
       {
         name: "Pompe — Cu Șurub (Settima) și cu Palete",
-        description: "Pompe cu șurub realizate în parteneriat cu Settima și pompe cu palete proprii, integrate în centralele hidraulice sau livrate separat pentru retehnologizarea unor instalații existente.",
+        description: "Pompe cu șurub asamblate în parteneriat cu Settima, integrate în centralele hidraulice; disponibilitatea pe cod se confirmă din documentația producătorului.",
       },
     ],
     industries: [
@@ -461,10 +461,10 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
       { code: "Lubricating Oil Unit", description: "Unitate pentru ungerea centralizată cu ulei" },
       { code: "Motor-Pump Unit", description: "Unitate motor-pompă pentru centrale hidraulice" },
       { code: "4.0 Fluid Monitoring System", description: "Sistem de monitorizare a fluidului hidraulic" },
-      { code: "S&T Heat Exchanger Hybrid", description: "Schimbător fascicul tubular, aplicații generale" },
+      { code: "S&T Heat Exchanger Hybrid", description: "Schimbător cu fascicul tubular, varianta Hybrid" },
       { code: "S&T Heat Exchanger ASME", description: "Schimbător fascicul tubular, cod ASME Secțiunea VIII" },
-      { code: "S&T Heat Exchanger Double", description: "Schimbător cu perete dublu de siguranță" },
-      { code: "S&T Heat Exchanger Safety", description: "Schimbător pentru medii cu risc ridicat" },
+      { code: "S&T Heat Exchanger Double", description: "Schimbător cu fascicul tubular, varianta Double" },
+      { code: "S&T Heat Exchanger Safety", description: "Schimbător cu fascicul tubular, varianta Safety" },
       { code: "Oil-Air Cooler", description: "Răcitor ulei-aer pentru circuite hidraulice" },
       { code: "Plate Heat Exchanger Screwed", description: "Schimbător cu plăci înfiletate, demontabil" },
       { code: "Plate Heat Exchanger Brazed", description: "Schimbător cu plăci brazate, compact" },
@@ -476,15 +476,15 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
     ],
     faq: [
       { q: "Ce produce Universal Hydraulik?", a: "Universal Hydraulik produce sisteme hidraulice complete, schimbătoare de căldură shell-and-tube și cu plăci, răcitoare ulei-aer, preîncălzitoare electrice de ulei și pompe cu șurub sau cu palete pentru instalații industriale și navale." },
-      { q: "Cum aleg un schimbător Universal Hydraulik după variantă?", a: "Varianta Hybrid acoperă aplicații generale, ASME respectă codul american de construcție, Double adaugă un perete suplimentar de siguranță, iar Safety e gândită pentru medii cu risc ridicat; alegerea ține de certificarea cerută de instalație." },
+      { q: "Cum aleg un schimbător Universal Hydraulik după variantă?", a: "Variantele Hybrid, ASME, Double și Safety au destinații diferite, pe care le confirmăm pe cod, din documentația producătorului; alegerea ține de certificarea cerută de instalație." },
       { q: "Ce certificări au schimbătoarele Universal Hydraulik?", a: "Gama include omologare DNV, construcție conform ASME Secțiunea VIII Div. 1, ISO 14001:2015 și conformitate ATEX pentru zone cu risc de explozie, relevante mai ales pentru instalații navale, offshore și industriale grele." },
       { q: "Livrați Universal Hydraulik în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație și certificare cerută; nu ținem această gamă de componente pe raft propriu." },
       { q: "Ce trebuie să trimit pentru o ofertă Universal Hydraulik?", a: "Tipul de schimbător sau pompă dorit, presiunea și temperatura de lucru, certificarea cerută (ASME, DNV sau ATEX) și fluidul folosit; cu aceste date cerem producătorului o configurație și un termen de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Universal Hydraulik - Home (EN)", url: "https://www.universalhydraulik.com/", publisher: "Universal Hydraulik GmbH", accessed: "2026-09-26" },
       { title: "Universal Hydraulik - Startseite (DE)", url: "https://www.universalhydraulik.de/", publisher: "Universal Hydraulik GmbH", accessed: "2026-09-26" },
@@ -496,38 +496,38 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
     headquarters: "Viena, Austria",
     overview: `ASA Hydraulik este un producător austriac de răcitoare ulei-aer și ulei-apă pentru sisteme hidraulice, cu sediul la Viena, activ din 1980. Compania a dezvoltat prima serie standardizată de răcitoare în 1987 și operează astăzi șase locații, în Austria, SUA, Australia, China, India și Brazilia. Gama comercială include seriile standard LowLine, TT Rail, AUC și HL, unități combinate tanc-filtru-răcitor (H-Cube, H-Set) și serii speciale pentru medii dure. Din această gamă putem oferta răcitoare pentru instalații hidraulice mobile și staționare din România.
 
-Diferența tehnică vine din sistemele patentate de conectare și montaj, dezvoltate între 1995 și 2010, care permit înlocuirea răcitorului fără modificarea circuitului hidraulic existent. Seriile W-Line și GT Protection sunt gândite pentru medii cu praf sau vibrații, seria Nema Mount pentru montaj pe motor electric standardizat, iar seriile 12, MAC și AHP acoperă aplicații mobile, respectiv industriale grele. Certificările de calitate acoperă ISO 9001, ISO 45001 și ISO 14001.
+Diferența tehnică vine din sistemele patentate de conectare și montaj, dezvoltate între 1995 și 2010, care permit combinarea modulară într-un sistem de schimb termic adaptat aplicației. Seria W-Line este gândită pentru condiții speciale de mediu, precum zonele offshore sau de coastă, iar GT Protection pentru cerințe de mediu dificile, seria Nema Mount pentru montaj pe motor electric standardizat, iar seriile 12, MAC și AHP completează gama specială. Certificările de calitate acoperă ISO 9001, ISO 45001 și ISO 14001.
 
-Pentru piața din România, ASA Hydraulik înseamnă acces la răcitoare ulei-aer compacte pentru utilaje mobile și instalații hidraulice staționare, unde sistemul de montaj modular reduce timpul de intervenție. Livrarea se face la comandă, prin canalul european al producătorului, fără raft propriu pentru configurațiile speciale.`,
+Pentru piața din România, ASA Hydraulik înseamnă acces la răcitoare ulei-aer compacte pentru utilaje mobile și instalații hidraulice staționare, unde sistemul de montaj este modular. Livrarea se face la comandă, prin canale de aprovizionare din UE, fără raft propriu pentru configurațiile speciale.`,
     whyChoose: [
-      "Sisteme patentate de conectare și montaj, care permit înlocuirea răcitorului fără modificarea circuitului existent",
-      "Serii dedicate mediilor cu praf sau vibrații (W-Line, GT Protection), utile în construcții și minerit",
-      "Serie Nema Mount pentru montaj direct pe motor electric standardizat, fără suport suplimentar",
+      "Sisteme patentate de conectare și montaj, modulare, combinabile într-un sistem de schimb termic adaptat aplicației",
+      "Serii pentru condiții speciale de mediu (W-Line pentru zone offshore sau de coastă, GT Protection pentru cerințe de mediu dificile)",
+      "Serie Nema Mount, cu configurație dedicată de montaj pe motor electric",
       "Certificări ISO 9001, ISO 45001 și ISO 14001 pentru calitate, siguranță ocupațională și mediu",
-      "Șase locații de producție și service pe patru continente, utile pentru piese de schimb",
+      "Prezență internațională (Austria, SUA, Australia, China, India, Brazilia), conform paginii producătorului",
     ],
     keyProducts: [
       {
         name: "Răcitoare Standard — LowLine, TT Rail, AUC, HL",
-        description: "Serii standard de răcitoare ulei-aer, cu profil redus la LowLine, montaj pe șină la TT Rail, și variantele AUC și HL pentru debite și puteri diferite, alese după spațiul de montaj disponibil pe utilaj sau instalație.",
+        description: "Serii standard modulare de răcitoare ulei-aer (LowLine, TT Rail, AUC, HL), combinabile într-un sistem de schimb termic adaptat aplicației; caracteristicile fiecărei serii se confirmă pe cod, din documentația producătorului.",
       },
       {
         name: "Unități Combinate Tanc-Filtru-Răcitor — H-Cube, H-Set",
-        description: "Unități care integrează rezervorul de ulei, filtrul și răcitorul într-un singur corp, cu varianta H-Cube pentru instalații compacte și H-Set pentru configurații personalizate, reducând numărul de componente separate din circuit.",
+        description: "Unități care integrează rezervorul de ulei, filtrul și răcitorul într-un singur corp, cu varianta H-Cube pentru aplicații mobile on-highway și off-highway și varianta H-Set, reducând numărul de componente separate din circuit.",
       },
       {
         name: "Serii Speciale — W-Line, GT Protection, Nema Mount",
-        description: "Răcitoare pentru medii dure: W-Line rezistentă la vibrații, GT Protection cu carcasă suplimentară împotriva prafului și impactului, și Nema Mount pentru montaj direct pe motoare electrice standardizate, fără suport separat.",
+        description: "Răcitoare pentru medii dure: W-Line pentru condiții speciale de mediu, precum zonele offshore sau de coastă, GT Protection pentru cerințe de mediu dificile și Nema Mount pentru montaj pe motoare electrice.",
       },
       {
         name: "Serii Mobile și Industriale — 12 Series, MAC, AHP",
-        description: "Seria 12 pentru aplicații mobile de dimensiuni reduse, MAC pentru echipamente de construcții și agricultură, iar AHP pentru instalații hidraulice industriale cu cerințe de răcire mai mari.",
+        description: "Seriile 12, MAC și AHP completează gama specială de răcitoare ulei-aer; aplicațiile și puterile pe fiecare serie se confirmă pe cod, din documentația producătorului.",
       },
     ],
     industries: [
       "Construcții și utilaje mobile — răcirea uleiului hidraulic pe echipamente de șantier",
       "Agricultură — răcitoare pentru sisteme hidraulice de tractoare și utilaje",
-      "Minerit — serii rezistente la praf și vibrații",
+      "Minerit — serii pentru condiții de mediu dificile",
       "Energie regenerabilă — răcirea sistemelor hidraulice din turbine eoliene",
       "Manipulare materiale — răcitoare pentru stivuitoare și macarale hidraulice",
     ],
@@ -535,31 +535,31 @@ Pentru piața din România, ASA Hydraulik înseamnă acces la răcitoare ulei-ae
     infinitrade: `Furnizăm răcitoare ASA Hydraulik pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Pentru ofertă avem nevoie de seria dorită (de exemplu LowLine, H-Cube sau AHP), debitul și puterea de răcire necesară, tipul de montaj și tensiunea motorului. Nu ținem această gamă pe stoc — fiecare comandă se confirmă la producător.`,
     limitation: "Nu putem confirma disponibilitatea manualului tehnic complet pentru fiecare serie și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
-      { code: "LowLine", description: "Răcitor ulei-aer cu profil redus" },
-      { code: "TT Rail", description: "Răcitor ulei-aer cu montaj pe șină" },
+      { code: "LowLine", description: "Răcitor ulei-aer, serie standard modulară" },
+      { code: "TT Rail", description: "Răcitor ulei-aer, serie standard modulară" },
       { code: "AUC Series", description: "Răcitor ulei-aer, aplicații generale" },
       { code: "HL Series", description: "Răcitor ulei-aer, putere mai mare" },
-      { code: "H-Cube", description: "Unitate tanc-filtru-răcitor integrată, compactă" },
+      { code: "H-Cube", description: "Unitate de răcire ulei-aer pentru aplicații mobile on-highway și off-highway" },
       { code: "H-Set", description: "Unitate tanc-filtru-răcitor, configurație personalizată" },
-      { code: "ECO-exchanger FT 11", description: "Schimbător compact pentru unități tanc-filtru-răcitor" },
-      { code: "W-Line", description: "Răcitor rezistent la vibrații" },
-      { code: "GT Protection", description: "Răcitor cu carcasă suplimentară antipraf" },
+      { code: "ECO-exchanger FT 11", description: "Schimbător proiectat pentru betoniere și aplicații similare" },
+      { code: "W-Line", description: "Răcitor pentru condiții speciale de mediu (offshore, zone de coastă)" },
+      { code: "GT Protection", description: "Răcitor pentru cerințe de mediu dificile" },
       { code: "Nema Mount Cooler", description: "Răcitor pentru montaj direct pe motor electric" },
-      { code: "12 Series", description: "Răcitor pentru aplicații mobile de dimensiuni reduse" },
-      { code: "MAC Series", description: "Răcitor pentru echipamente de construcții și agricultură" },
-      { code: "AHP Series", description: "Răcitor pentru instalații hidraulice industriale" },
+      { code: "12 Series", description: "Răcitor ulei-aer, serie specială" },
+      { code: "MAC Series", description: "Răcitor ulei-aer, serie specială" },
+      { code: "AHP Series", description: "Răcitor ulei-aer, serie specială" },
     ],
     faq: [
-      { q: "Ce produce ASA Hydraulik?", a: "ASA Hydraulik produce răcitoare ulei-aer și ulei-apă pentru sisteme hidraulice, în serii standard (LowLine, TT Rail, AUC, HL), unități combinate tanc-filtru-răcitor și serii speciale pentru medii cu praf sau vibrații puternice." },
-      { q: "Cum aleg un răcitor ASA Hydraulik după serie?", a: "Seriile LowLine și TT Rail acoperă aplicații mobile cu spațiu redus, H-Cube și H-Set integrează rezervorul și filtrul, iar W-Line și GT Protection sunt gândite pentru medii cu praf sau vibrații puternice de pe șantier." },
+      { q: "Ce produce ASA Hydraulik?", a: "ASA Hydraulik produce răcitoare ulei-aer și ulei-apă pentru sisteme hidraulice, în serii standard (LowLine, TT Rail, AUC, HL), unități combinate tanc-filtru-răcitor și serii speciale pentru condiții de mediu dificile." },
+      { q: "Cum aleg un răcitor ASA Hydraulik după serie?", a: "Seriile LowLine, TT Rail, AUC și HL sunt seriile standard modulare, H-Cube și H-Set integrează rezervorul și filtrul, iar W-Line (offshore și zone de coastă) și GT Protection sunt gândite pentru condiții de mediu dificile." },
       { q: "Ce este seria Nema Mount de la ASA Hydraulik?", a: "Este o serie de răcitoare gândită pentru montaj direct pe motorul electric standardizat, fără suport suplimentar, utilă atunci când spațiul din jurul instalației hidraulice este limitat și trebuie redus numărul de componente montate separat." },
       { q: "Livrați ASA Hydraulik în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație; nu ținem această gamă de răcitoare pe raft propriu la depozit." },
       { q: "Ce trebuie să trimit pentru o ofertă ASA Hydraulik?", a: "Seria dorită, debitul și puterea de răcire necesară, tipul de montaj și tensiunea motorului; cu aceste date cerem producătorului o configurație exactă și un termen de livrare pentru instalația dumneavoastră hidraulică." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ASA Hydraulik - Home", url: "https://asahydraulik.us/", publisher: "asa hydraulik", accessed: "2026-09-26" },
       { title: "About - asa hydraulik", url: "https://asahydraulik.us/about", publisher: "asa hydraulik", accessed: "2026-09-26" },

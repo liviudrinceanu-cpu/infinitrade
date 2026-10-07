@@ -5,23 +5,23 @@ export const brandContentBatch162 = {
     name: "MTE Meter Test Equipment",
     founded: 1996,
     headquarters: "Zug, Elveția",
-    overview: `MTE Meter Test Equipment este un producător elvețian cu sediul la Zug, activ din 1996, specializat în echipamente pentru testarea și certificarea contoarelor de energie electrică și în sisteme de monitorizare online a transformatoarelor. Gama acoperă bancuri de test staționare pentru liniile de producție ale fabricanților de contoare, standarde de referință portabile pentru verificări în teren și familia HYDROCAL, dedicată analizei gazelor dizolvate în ulei (DGA). Pentru un metrolog sau un laborator de măsurare din România, MTE înseamnă acces la instrumente de referință folosite direct de producătorii și operatorii de contoare pentru clasa de precizie cea mai fină.
+    overview: `MTE Meter Test Equipment este un producător elvețian cu sediul la Zug, activ din 1996, specializat în echipamente pentru testarea și certificarea contoarelor de energie electrică și în sisteme de monitorizare online a transformatoarelor. Gama acoperă bancuri de test staționare pentru liniile de producție ale fabricanților de contoare, standarde de referință portabile pentru verificări în teren și familia HYDROCAL, dedicată analizei gazelor dizolvate în ulei (DGA). Pentru un metrolog sau un laborator de măsurare din România, MTE înseamnă acces la instrumente de referință și sisteme de testare pentru contoare de energie electrică.
 
-Ce diferențiază compania este clasa de acuratețe: standardele lor ajung la 0,005 (50 ppm), o precizie cerută la calibrarea altor etaloane, nu doar la verificarea contoarelor comerciale. Sursele de curent trifazate portabile din familia PPS livrează până la 120 A pentru testarea contoarelor de mare capacitate direct la locul de montaj, iar sistemul HYDROCAL 1011 genX folosește tehnologie NIR fără membrană pentru monitorizarea continuă a gazelor din uleiul de transformator. În categoria etaloanelor de referință și a surselor de putere pentru metrologie, MTE se compară cu producători precum Zera sau Omicron.
+Ce diferențiază compania este clasa de acuratețe: standardele lor ajung la 0,005 (50 ppm), o precizie cerută la calibrarea altor etaloane, nu doar la verificarea contoarelor comerciale. Sursele de curent trifazate portabile din familia PPS livrează până la 120 A pentru testarea contoarelor de mare capacitate direct la locul de montaj, iar sistemul HYDROCAL 1011 genX folosește tehnologie NIR fără membrană pentru monitorizarea continuă a gazelor din uleiul de transformator.
 
 Pentru piața din România, gama MTE are sens la laboratoare de metrologie legală, la producători sau importatori de contoare care au nevoie de bancuri de test, și la operatorii de rețea care monitorizează starea transformatoarelor mari cu sisteme DGA online, nu doar cu prelevări periodice de probe.`,
     whyChoose: [
       "Clasă de precizie 0,005 (50 ppm) la standardele de referință K2008 — potrivită pentru calibrarea altor etaloane, nu doar a contoarelor uzuale",
       "Surse trifazate portabile PPS 400.3 până la 120 A — testare de contoare de mare capacitate direct în teren",
-      "Monitorizare DGA fără membrană — HYDROCAL 1011 genX măsoară gazele dizolvate prin tehnologie NIR, fără piese de schimb consumabile",
+      "Monitorizare DGA fără membrană — HYDROCAL 1011 genX măsoară gazele dizolvate prin tehnologie NIR, descrisă de producător ca fără mentenanță",
       "Software CAlegration® unificat — controlează atât bancurile staționare, cât și standardele portabile din aceeași interfață",
       "Sisteme staționare modulare — de la posturi individuale la linii automate pentru producători de contoare cu volume mari"
     ],
     keyProducts: [
       { name: "K2008", description: "Comparator trifazat de clasă 0,005 (50 ppm), cu intrări directe de tensiune și curent, alimentare 88–264 VAC, folosit pentru calibrarea altor standarde de putere și energie în laboratoarele de metrologie." },
-      { name: "PPS 400.3", description: "Sursă portabilă trifazată de curent și tensiune, disponibilă în versiuni de 12 A și 120 A, cu rezoluție de frecvență de 0,01 Hz, pentru testarea contoarelor de electricitate direct la punctul de montaj." },
+      { name: "PPS 400.3", description: "Sursă portabilă trifazată de curent și tensiune, disponibilă în versiuni de 12 A și 120 A, pentru testarea contoarelor de electricitate direct la punctul de montaj." },
       { name: "HYDROCAL 1011 genX", description: "Soluție online multi-gaz pentru analiza gazelor dizolvate în uleiul transformatoarelor (DGA), bazată pe tehnologie infraroșu apropiat (NIR), fără membrană, descrisă de producător ca fără mentenanță." },
-      { name: "CheckMeter 2.1", description: "Standard portabil monofazat de clasă 0,2, cu carcasă de plastic dur și greutate de circa 650 g, pentru verificarea rapidă a contoarelor de energie pe teren." },
+      { name: "CheckMeter 2.1", description: "Unitate portabilă de testare a contoarelor de clasă 0,2, generația genX (CheckMeter 2.3 genX, trifazată, cu opțiune monofazată), pentru verificarea contoarelor de energie pe teren." },
     ],
     industries: [
       "Metrologie legală — verificarea și certificarea contoarelor de energie electrică",
@@ -35,14 +35,14 @@ Pentru piața din România, gama MTE are sens la laboratoare de metrologie legal
       { code: "K2008", description: "Comparator trifazat clasă 0,005 (50 ppm)" },
       { code: "SRS 121.1 DC", description: "Standard staționar de referință, curent continuu" },
       { code: "SRS 121.3 / 200 A", description: "Standard staționar de referință trifazat, 200 A" },
-      { code: "PRS 600.3", description: "Standard staționar de referință de putere" },
-      { code: "PWS 2.3 genX", description: "Sursă portabilă trifazată de putere" },
-      { code: "PWS 3.3", description: "Sursă portabilă trifazată de tensiune și curent" },
-      { code: "PWS 3.3 genX", description: "Versiune generația X a sursei portabile PWS 3.3" },
+      { code: "PRS 600.3", description: "Standard de referință portabil, clasă 0,02" },
+      { code: "PWS 2.3 genX", description: "Standard de referință portabil, clasă 0,1" },
+      { code: "PWS 3.3", description: "Standard de referință portabil, clasă 0,05 sau 0,1" },
+      { code: "PWS 3.3 genX", description: "Standard de referință portabil, generația genX, clasă 0,05" },
       { code: "PPS 400.3", description: "Sursă portabilă trifazată, 12 A sau 120 A" },
       { code: "ZVE System", description: "Sursă de putere staționară pentru bancuri de test" },
       { code: "CheckSource 2.3", description: "Sursă portabilă compactă pentru verificări în teren" },
-      { code: "CheckMeter 2.1", description: "Standard portabil monofazat clasă 0,2" },
+      { code: "CheckMeter 2.3 genX", description: "Unitate portabilă de testare, clasă 0,2" },
       { code: "PTS 400.3 PLUS", description: "Sistem portabil trifazat automatizat de testare contoare" },
       { code: "HYDROCAL 1011 genX", description: "Monitorizare online DGA prin tehnologie NIR" },
       { code: "Meter Test Systems", description: "Familie de bancuri staționare mono/trifazate pentru fabricanți" },
@@ -58,8 +58,8 @@ Pentru piața din România, gama MTE are sens la laboratoare de metrologie legal
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About us", url: "https://www.mte.ch/en/about-us", publisher: "MTE Meter Test Equipment AG", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.mte.ch/products", publisher: "MTE Meter Test Equipment AG", accessed: "2026-09-26" },
@@ -71,9 +71,9 @@ Pentru piața din România, gama MTE are sens la laboratoare de metrologie legal
   sonel: {
     name: "Sonel",
     headquarters: "Świdnica, Polonia",
-    overview: `Sonel este un producător polonez cu sediul la Świdnica, specializat în aparate portabile de măsură pentru electricieni, laboratoare de mentenanță și instalatori de fotovoltaice. Gama include multimetre industriale, analizoare de calitate a energiei, testere pentru verificarea instalațiilor electrice, detectoare de cabluri subterane și camere de termoviziune industrială. Pentru cititorul din România — un electrician autorizat, un laborator PRAM sau un tehnician de mentenanță — Sonel acoperă practic toate testele periodice cerute la instalațiile de joasă tensiune, dintr-o singură gamă de producător.
+    overview: `Sonel este un producător polonez cu sediul la Świdnica, specializat în aparate portabile de măsură pentru electricieni, laboratoare de mentenanță și instalatori de fotovoltaice. Gama include multimetre industriale, analizoare de calitate a energiei, testere pentru verificarea instalațiilor electrice, detectoare de cabluri subterane și camere de termoviziune industrială. Pentru cititorul din România — un electrician autorizat, un laborator PRAM sau un tehnician de mentenanță — Sonel oferă o gamă de aparate pentru testele periodice la instalațiile de joasă tensiune.
 
-Ce diferențiază Sonel este acoperirea largă a unei singure familii de aparate multifuncționale: seria MPI măsoară parametrii instalației electrice (rezistență de izolație, continuitate, timp de declanșare RCD, impedanță de buclă) dintr-un singur aparat de teren, iar seria KT de termoviziune ajunge la rezoluții de 640×480 pixeli cu sensibilitate termică sub 50 mK. Multimetrele industriale din seria CMM sunt clasificate CAT IV 600 V și au protecție IP67, potrivite pentru măsurători în medii dure, spre deosebire de multimetrele de laborator standard. În segmentul testerelor de instalații electrice, Sonel se poziționează alături de branduri precum Metrel sau Chauvin Arnoux.
+Ce diferențiază Sonel este acoperirea largă a unei singure familii de aparate multifuncționale: seria MPI măsoară parametrii instalației electrice (rezistență de izolație, continuitate, timp de declanșare RCD, impedanță de buclă) dintr-un singur aparat de teren, iar seria KT de termoviziune ajunge la rezoluții de 640×480 pixeli cu sensibilitate termică sub 50 mK. Multimetrele industriale din seria CMM sunt clasificate CAT IV 600 V și au protecție IP67, potrivite pentru măsurători în medii dure.
 
 Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo unde un singur aparat trebuie să acopere mai multe teste succesive — verificarea unei instalații noi, a unei stații de încărcare EV sau a unei instalații fotovoltaice — fără să fie nevoie de mai multe dispozitive separate pe teren.`,
     whyChoose: [
@@ -81,7 +81,7 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
       "Multimetre industriale IP67, CAT IV 600 V — rezistente la praf și apă, pentru medii dure de lucru",
       "Camere de termoviziune până la 640×480 px — inspecție termică fină a tablourilor și echipamentelor",
       "Analizor dedicat stațiilor de încărcare EV — testarea EVSE-100 acoperă un segment în creștere al instalațiilor electrice",
-      "Gamă completă pentru un singur furnizor — testere de instalații, multimetre, termoviziune și detectoare de cabluri din aceeași familie de produse"
+      "Gamă variată de la același producător — testere de instalații, multimetre, termoviziune și detectoare de cabluri"
     ],
     keyProducts: [
       { name: "Testere Multifuncționale de Instalație Seria MPI", description: "Aparate de teren pentru verificarea instalațiilor electrice de joasă tensiune: rezistență de izolație, continuitate, timp de declanșare RCD și impedanță de buclă, într-un singur dispozitiv purtat de electrician la fiecare recepție sau verificare periodică." },
@@ -102,10 +102,10 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
       { code: "MPI-540", description: "Multifuncțional instalații electrice: izolație, RCD, buclă" },
       { code: "MPI-540-PV", description: "Variantă MPI-540 pentru testarea instalațiilor fotovoltaice" },
       { code: "CMM-40", description: "Multimetru industrial CAT IV 600 V, IP67" },
-      { code: "CMM-60", description: "Multimetru industrial avansat, funcții extinse" },
+      { code: "CMM-60", description: "Multimetru industrial; detaliile se confirmă pe cod" },
       { code: "KT-510", description: "Cameră de termoviziune industrială" },
       { code: "KT-525", description: "Cameră de termoviziune, gamă medie" },
-      { code: "KT-650", description: "Cameră de termoviziune 640×480 px, NETD 40 mK" },
+      { code: "KT-650", description: "Cameră de termoviziune 640×480 px, NETD 40 mK; pagina producătorului o marchează ca model retras, disponibilitatea se confirmă" },
       { code: "MIC-15K1", description: "Analizor de calitate a izolației" },
       { code: "EVSE-100", description: "Analizor multifuncțional pentru stații de încărcare EV" },
       { code: "PQM-750", description: "Analizor de calitate a energiei electrice" },
@@ -118,13 +118,13 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
       { q: "Ce produce Sonel?", a: "Sonel fabrică aparate portabile de măsură pentru electricieni și laboratoare de mentenanță: testere multifuncționale de instalații electrice, multimetre industriale, camere de termoviziune și analizoare de calitate a energiei sau pentru fotovoltaice. Toate sunt gândite pentru utilizare de teren, nu de laborator staționar." },
       { q: "Cum aleg un tester Sonel după testele pe care le fac?", a: "Porniți de la testele cerute la recepția instalației — dacă aveți nevoie doar de izolație și continuitate, un model de bază acoperă cererea, dar dacă verificați și impedanța de buclă sau timpul RCD, alegeți o variantă din seria MPI cu funcții complete. Spuneți-ne aplicația exactă pentru recomandarea potrivită." },
       { q: "Livrați produse Sonel în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea din partea producătorului polonez. Nu ținem gama pe raft propriu, fiind echipamente comandate în funcție de configurația cerută de client." },
-      { q: "Ce echivalent are seria MPI de la Sonel?", a: "În categoria testerelor multifuncționale de instalații electrice, seria MPI se compară cu game similare de la alți producători europeni de aparate de măsură pentru electricieni, diferența ținând de setul exact de funcții și de accesoriile incluse pentru fiecare tip de test." },
+      { q: "Ce echivalent are seria MPI de la Sonel?", a: "Seria MPI cuprinde testere multifuncționale pentru instalații electrice; setul exact de funcții și accesoriile se stabilesc pe model și se confirmă pe cod." },
       { q: "Ce trebuie să trimit pentru o ofertă de cameră termică Sonel?", a: "Aveți nevoie să precizați rezoluția senzorului dorită, domeniul de temperatură de măsurat și dacă aplicația e pentru tablouri electrice, echipamente rotative sau inspecții clădiri, pentru a stabili modelul din seria KT potrivit înainte de a trimite oferta." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sonel S.A. — Test & Measurement", url: "https://www.sonel.pl/en/", publisher: "Sonel S.A.", accessed: "2026-09-26" },
       { title: "KT-650 Thermal Imaging Camera", url: "https://sonel.pl/en/product/kt-650-thermal-imagers", publisher: "Sonel S.A.", accessed: "2026-09-26" },
@@ -136,26 +136,26 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
     name: "Raytech",
     founded: 1995,
     headquarters: "Bremgarten, Elveția",
-    overview: `Raytech este un producător elvețian cu sediul la Bremgarten, activ din 1995, specializat exclusiv în instrumente pentru testarea transformatoarelor de putere și de distribuție. Gama acoperă trei zone tehnice: măsurarea rezistenței înfășurărilor (seria WR), verificarea raportului de transformare și a grupei de conexiuni (seria TR și T-REX) și sisteme automate multifuncționale de diagnoză (ATOS). Pentru un laborator PRAM sau un inginer de mentenanță din România, Raytech acoperă practic toate testele electrice de rutină cerute la recepția și revizia periodică a unui transformator.
+    overview: `Raytech este un producător elvețian cu sediul la Bremgarten, activ din 1995, care produce instrumente de testare electrică, inclusiv pentru transformatoare de putere și de distribuție. Gama acoperă trei zone tehnice: măsurarea rezistenței înfășurărilor (seria WR), verificarea raportului de transformare și a grupei de conexiuni (seria TR și T-REX) și sisteme automate multifuncționale de diagnoză (ATOS). Pentru un laborator PRAM sau un inginer de mentenanță din România, Raytech oferă instrumente pentru testele electrice de rutină la recepția și revizia periodică a unui transformator.
 
-Ce diferențiază Raytech este puterea surselor de curent continuu integrate: seriile WR50 și WR100 livrează până la 100 A la 50 V pentru măsurarea rezistenței înfășurărilor de mare putere, unde aparatele cu curenți mai mici ar avea nevoie de timpi de stabilizare prea lungi. Sistemul TR-MARK III detectează automat grupa de conexiuni la transformatoarele trifazate, iar familia ATOS combină mai multe teste — raport, rezistență, unghi de fază — într-un singur echipament portabil pentru diagnoza completă la un singur transport pe teren. În categoria instrumentelor dedicate testării transformatoarelor, Raytech se poziționează alături de producători precum DV Power sau Megger.
+Ce diferențiază Raytech este puterea surselor de curent continuu integrate: seriile WR50 și WR100 livrează până la 100 A la 50 V pentru măsurarea rezistenței înfășurărilor de mare putere, unde aparatele cu curenți mai mici ar avea nevoie de timpi de stabilizare prea lungi. Sistemul TR-MARK III detectează automat grupa de conexiuni la transformatoarele trifazate, iar familia ATOS combină mai multe teste într-un singur echipament, cu multiplexare automată.
 
 Pentru piața din România, gama Raytech are sens la laboratoarele de încercări electrice, la operatorii de rețea care fac revizii periodice ale transformatoarelor de putere și la producătorii sau reparatorii de transformatoare care verifică fiecare unitate înainte de livrare.`,
     whyChoose: [
       "Surse DC de până la 100 A la 50 V (seria WR100) — măsurare rapidă a rezistenței înfășurărilor la transformatoare de mare putere",
       "Detecție automată a grupei de conexiuni — TR-MARK III elimină verificarea manuală a vectorului de fază",
-      "Sisteme multifuncționale ATOS — combină raport, rezistență și unghi de fază într-un singur aparat de teren",
+      "Sisteme multifuncționale ATOS — combină mai multe teste într-un singur aparat, cu multiplexare automată",
       "Extensie de măsurare trifazată T-REX — completează aparatele monofazate de raport pentru teste complete pe cele trei faze",
-      "Garanție standard de 2 ani și software dedicat T-Base pentru gestionarea rapoartelor de test"
+      "Garanție standard de 2 ani, conform site-ului producătorului"
     ],
     keyProducts: [
       { name: "Seria WR — Măsurare Rezistență Înfășurare", description: "Aparate portabile pentru măsurarea rezistenței înfășurărilor de transformator, cu variante de la 15 A (WR14) până la 100 A (WR100-13R), pe 2 sau 3 canale simultan, alimentate cu baterie sau de la rețea, pentru teste rapide de recepție sau revizie." },
       { name: "Seria TR și T-REX — Raport de Transformare", description: "Instrumente pentru verificarea raportului de transformare și a grupei de conexiuni, de la modele monofazate simple (TR-1) până la sisteme trifazate cu detecție automată a vectorului (TR-MARK III), completate de extensia T-REX pentru măsurarea simultană pe trei faze." },
-      { name: "ATOS / mini-ATOS — Sisteme Automate de Diagnoză", description: "Sisteme multifuncționale care combină în același aparat teste de rezistență, raport și unghi de fază, cu control automat al secvenței de măsurare, gândite pentru diagnoza completă a unui transformator la o singură deplasare pe teren." },
+      { name: "ATOS / mini-ATOS — Sisteme Automate de Diagnoză", description: "Sisteme multifuncționale care combină în același aparat mai multe teste, cu multiplexare automată, gândite pentru diagnoza completă a unui transformator la o singură deplasare pe teren." },
     ],
     industries: [
       "Energie electrică — revizii periodice ale transformatoarelor din rețea",
-      "Producători de transformatoare — Raytech: testare finală înainte de livrare",
+      "Producători de transformatoare — testare finală înainte de livrare (Raytech)",
       "Laboratoare de încercări electrice — teste de rezistență și raport",
       "Reparatori și ateliere de transformatoare — diagnoză înainte și după intervenție",
     ],
@@ -179,19 +179,19 @@ Pentru piața din România, gama Raytech are sens la laboratoarele de încercăr
       { code: "mini-ATOS", description: "Sistem multifuncțional portabil de diagnoză transformator" },
       { code: "ATOS", description: "Sistem automat de diagnoză completă a transformatorului" },
       { code: "MUX-R", description: "Multiplexor pentru extinderea canalelor de test" },
-      { code: "ISU-R", description: "Unitate de siguranță integrată pentru testele de rezistență" },
+      { code: "ISU-R", description: "Accesoriu pentru testele de rezistență; destinația exactă se confirmă pe cod" },
     ],
     faq: [
-      { q: "Ce produce Raytech?", a: "Raytech fabrică instrumente elvețiene dedicate exclusiv testării transformatoarelor de putere: aparate de rezistență a înfășurărilor, aparate de raport de transformare cu detecție automată a grupei de conexiuni și sisteme automate ATOS care combină mai multe teste într-un singur echipament de teren." },
+      { q: "Ce produce Raytech?", a: "Raytech fabrică instrumente elvețiene pentru testarea transformatoarelor de putere: aparate de rezistență a înfășurărilor, aparate de raport de transformare cu detecție automată a grupei de conexiuni și sisteme automate ATOS care combină mai multe teste într-un singur echipament de teren." },
       { q: "Cum aleg un aparat Raytech de rezistență a înfășurării după curent?", a: "Alegeți curentul sursei DC în funcție de puterea transformatorului: seria WR14 la 15 A e suficientă pentru unități mici, iar transformatoarele de putere mare cer WR50 sau WR100 pentru un timp de stabilizare rezonabil. Trimiteți-ne puterea și tipul transformatorului pentru recomandarea corectă." },
-      { q: "Ce echivalent are seria WR de la Raytech?", a: "În categoria aparatelor de măsurare a rezistenței înfășurărilor de transformator, seria WR se compară cu game similare de la alți producători specializați în teste electrice pentru transformatoare, diferența constând în curentul maxim livrat și numărul de canale simultane." },
+      { q: "Ce echivalent are seria WR de la Raytech?", a: "Seria WR cuprinde aparate de măsurare a rezistenței înfășurărilor, cu variante de la 15 A la 100 A și cu 2 sau 3 canale." },
       { q: "Livrați echipamente Raytech în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea fabricii elvețiene pentru configurația cerută de laboratorul dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă de sistem ATOS de la Raytech?", a: "Aveți nevoie să precizați tipul transformatorului testat (monofazat sau trifazat), tensiunea de test dorită și dacă aveți nevoie de multiplexor MUX-R pentru extinderea numărului de canale, pentru a configura corect oferta înainte de trimitere." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About Raytech", url: "https://www.raytech.ch/home/about", publisher: "Raytech AG", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.raytech.ch/products", publisher: "Raytech AG", accessed: "2026-09-26" },
@@ -209,14 +209,14 @@ Pentru piața din România, gama Dostmann are sens la laboratoarele de control a
     whyChoose: [
       "Termometru de referință P795 cu precizie ±0,015 °C — potrivit ca etalon de lucru pentru băi de calibrare",
       "Laborator propriu de calibrare acreditat DAkkS conform DIN EN ISO/IEC 17025:2018, pentru temperatură",
-      "Dataloggere dedicate pentru lanțul de frig — de la transport rutier până la depozitare la -80 °C (LOG-100)",
+      "Dataloggere dedicate pentru lanțul de frig — pentru transport și depozitare, în mai multe variante de domeniu de temperatură",
       "Termometre de contact și infraroșu în aceeași gamă — acoperă atât măsurarea directă, cât și cea fără contact",
       "Calibrator dedicat pentru termometre infraroșu (BB 500) — verificare directă a instrumentelor fără contact"
     ],
     keyProducts: [
       { name: "P795 — Termometru de Precizie", description: "Termometru cu două intrări Pt100 conform EN60751, domeniu -200…+850 °C, precizie de ±0,015 °C în zona -50…+200 °C și rezoluție de 0,001 °C, cu memorie pentru 6.000 de valori, folosit ca instrument de referință la calibrarea altor termometre." },
-      { name: "TC 301 — Termometru cu 2 Canale", description: "Aparat portabil cu două intrări pentru termocuple tip K, domeniu -200…+1370 °C, cu funcție de măsurare diferențială între cele două canale și interfață USB pentru descărcarea datelor, potrivit pentru verificări rapide de proces." },
-      { name: "Seria LOG — Dataloggere de Temperatură și Umiditate", description: "Familie de înregistratoare de date pentru monitorizarea temperaturii, umidității și presiunii pe durata transportului sau a depozitării, cu variante pentru domenii de la temperaturi criogenice (LOG-100) până la aplicații standard de lanț de frig." },
+      { name: "TC 301 — Termometru cu 2 Canale", description: "Aparat portabil cu două canale pentru termocupluri, potrivit pentru verificări rapide de proces; domeniul de măsurare și funcțiile se confirmă pe cod, din documentația producătorului." },
+      { name: "Seria LOG — Dataloggere de Temperatură și Umiditate", description: "Familie de înregistratoare de date pentru monitorizarea temperaturii, umidității și presiunii pe durata transportului sau a depozitării, cu variante pentru mai multe domenii de temperatură; domeniul exact se confirmă pe cod, din documentația producătorului." },
       { name: "BB 500 — Calibrator pentru Termometre Infraroșu", description: "Sursă de referință tip corp negru pentru verificarea și calibrarea termometrelor infraroșu fără contact, folosită pentru a confirma acuratețea instrumentelor de măsurare la distanță înainte de utilizarea lor în producție." },
     ],
     industries: [
@@ -229,30 +229,30 @@ Pentru piața din România, gama Dostmann are sens la laboratoarele de control a
     limitation: "Nu putem confirma direct programul de livrare pentru certificate de calibrare acreditate DAkkS emise de laboratorul propriu al producătorului, acesta stabilindu-se separat, la cerere.",
     productCodes: [
       { code: "P795", description: "Termometru de precizie, 2× Pt100, ±0,015 °C" },
-      { code: "TC 301", description: "Termometru cu 2 canale pentru termocuple tip K" },
-      { code: "LOG-100", description: "Datalogger criogenic pentru temperaturi foarte joase" },
+      { code: "TC 301", description: "Termometru portabil cu 2 canale pentru termocupluri" },
+      { code: "LOG-100", description: "Datalogger de temperatură din seria LOG; domeniul se confirmă pe cod" },
       { code: "LOG210", description: "Datalogger PDF cu afișaj, temperatură și umiditate" },
-      { code: "LOG200", description: "Datalogger PDF cu afișaj, temperatură și umiditate" },
+      { code: "LOG200", description: "Datalogger PDF cu afișaj; parametrii măsurați se confirmă pe cod" },
       { code: "HOT LOG HL50", description: "Datalogger de temperatură pentru procese până la 140 °C" },
       { code: "HOT LOG HL20", description: "Datalogger de temperatură, variantă compactă până la 140 °C" },
       { code: "TempLOG TS60", description: "Datalogger de temperatură cu raport PDF" },
       { code: "TempLOG BLE", description: "Datalogger de temperatură cu transmisie Bluetooth" },
-      { code: "PHM-230", description: "Aparat portabil de măsurare pH, cu senzor de temperatură inclus" },
+      { code: "PHM-230", description: "Aparat portabil de măsurare pH" },
       { code: "BB 500", description: "Calibrator tip corp negru pentru termometre infraroșu" },
       { code: "Kalibrator 94/114 dB", description: "Calibrator acustic pentru sonometre" },
       { code: "SL323", description: "Sonometru cu funcție de datalogger" },
     ],
     faq: [
       { q: "Ce produce Dostmann electronic?", a: "Dostmann electronic fabrică instrumente germane de măsurare a temperaturii, umidității și a altor parametri de proces: termometre de precizie cu senzori Pt100, termometre infraroșu fără contact, dataloggere pentru lanțul de frig și calibratoare dedicate, folosite în laboratoare și industria alimentară sau farmaceutică." },
-      { q: "Cum aleg un termometru Dostmann după domeniul de temperatură?", a: "Pentru referință de laborator cu precizie foarte fină alegeți P795, care acoperă -200…+850 °C cu ±0,015 °C în zona uzuală; pentru măsurători rapide cu termocuple, TC 301 acoperă până la 1370 °C. Trimiteți-ne domeniul și precizia cerută pentru recomandarea potrivită." },
+      { q: "Cum aleg un termometru Dostmann după domeniul de temperatură?", a: "Pentru referință de laborator cu precizie foarte fină alegeți P795, care acoperă -200…+850 °C cu ±0,015 °C în zona uzuală; pentru măsurători rapide cu termocupluri, TC 301 este varianta cu două canale. Trimiteți-ne domeniul și precizia cerută pentru recomandarea potrivită." },
       { q: "Ce echivalent are seria LOG de dataloggere de la Dostmann?", a: "În categoria dataloggerelor pentru lanțul de frig și monitorizare de proces, seria LOG se compară cu game similare de la alți producători germani de instrumente de măsură, diferența ținând de domeniul de temperatură acoperit și de tipul de raport generat." },
       { q: "Livrați produse Dostmann electronic în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea din partea fabricii germane pentru configurația solicitată de client." },
       { q: "Ce trebuie să trimit pentru o ofertă de calibrator Dostmann?", a: "Aveți nevoie să precizați tipul de instrument calibrat (contact, infraroșu sau acustic), domeniul de valori necesar și dacă doriți certificat de calibrare acreditat la livrare, informații pe baza cărora stabilim configurația corectă înainte de ofertă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dostmann electronic — Startseite", url: "https://www.dostmann-electronic.de/", publisher: "Dostmann electronic GmbH", accessed: "2026-09-26" },
       { title: "P795 Präzisionsthermometer", url: "https://www.dostmann-electronic.de/produkt/p795-praezisionsthermometer.html", publisher: "Dostmann electronic GmbH", accessed: "2026-09-26" },
@@ -263,7 +263,7 @@ Pentru piața din România, gama Dostmann are sens la laboratoarele de control a
   optris: {
     name: "Optris",
     headquarters: "Berlin, Germania",
-    overview: `Optris este un producător german cu sediul la Berlin, specializat în măsurarea temperaturii fără contact prin pirometre infraroșu și camere termice pentru monitorizarea proceselor industriale. Gama acoperă pirometre staționare de la modele generale (seria CS) până la variante cu laser de țintire (CTlaser) sau cu vizualizare video integrată (CSvideo, CTvideo), plus camere termice compacte precum Xi 640 și Xi 1M. Pentru un inginer de mentenanță sau de proces din România, Optris oferă o alternativă mai accesibilă ca preț de intrare față de camerele termice de top, dar cu suficientă precizie pentru monitorizare continuă de proces.
+    overview: `Optris este un producător german cu sediul la Berlin, specializat în măsurarea temperaturii fără contact prin pirometre infraroșu și camere termice pentru monitorizarea proceselor industriale. Gama acoperă pirometre staționare de la modele generale (seria CS) până la variante cu laser de țintire (CTlaser) sau cu vizualizare video integrată (CSvideo, CTvideo), plus camere termice compacte precum Xi 640 și Xi 1M. Pentru un inginer de mentenanță sau de proces din România, Optris oferă pirometre și camere termice pentru monitorizarea continuă a proceselor.
 
 Ce diferențiază Optris în categoria pirometrelor este optica: seria CTi folosește unul dintre cele mai mici senzoare infraroșu din piață, cu rezoluție optică de 22:1, pentru măsurarea unor puncte foarte mici la distanță, în domeniul -50…1050 °C. Camera Xi 1M lucrează cu undă scurtă (short-wave), fiind potrivită pentru materiale slab emisive precum metalul topit, acolo unde o cameră termică standard cu undă lungă ar da citiri eronate. Compania e certificată ISO 9001:2015 pentru sistemul de management al calității. În segmentul măsurării de temperatură fără contact pentru industrie, Optris se poziționează alături de producători precum Fluke Process Instruments sau Raytek.
 
@@ -271,9 +271,9 @@ Pentru piața din România, gama Optris are sens la liniile de producție din me
     whyChoose: [
       "Senzor infraroșu de rezoluție optică 22:1 (seria CTi) — măsurare de precizie pe ținte mici, la distanță",
       "Cameră termică cu undă scurtă Xi 1M — potrivită pentru metal topit și alte materiale slab emisive",
-      "Optris: Certificare ISO 9001:2015 pentru sistemul de management al calității",
+      "Certificare ISO 9001:2015 pentru sistemul de management al calității (Optris)",
       "Gamă largă de pirometre — de la CS de bază până la variante cu laser sau video integrat",
-      "Pachete de aplicație dedicate — monitorizare condiție, inspecție sticlă, cuptoare industriale"
+      "Gamă de camere termice — de la Compact Line, pentru proces, până la Precision Line, de înaltă rezoluție"
     ],
     keyProducts: [
       { name: "Seria CTi — Pirometre Compacte", description: "Pirometre infraroșu cu unul dintre cele mai mici senzoare din piață și rezoluție optică de 22:1, domeniu de măsurare -50…1050 °C, gândite pentru monitorizarea continuă a temperaturii în spații înguste sau pe ținte de dimensiuni reduse din liniile de producție." },
@@ -291,14 +291,14 @@ Pentru piața din România, gama Optris are sens la liniile de producție din me
     limitation: "Nu putem confirma disponibilitatea unui software specific de integrare SCADA pentru un model anume înainte de verificarea directă cu producătorul german.",
     productCodes: [
       { code: "CS Series", description: "Pirometre infraroșu staționare de uz general" },
-      { code: "CSmicro Series", description: "Pirometre compacte cu electronică integrată în linie" },
+      { code: "CSmicro Series", description: "Pirometre compacte, cu cap de măsurare din oțel inoxidabil" },
       { code: "CTi Series", description: "Pirometru compact, rezoluție optică 22:1, -50…1050 °C" },
       { code: "CTlaser Series", description: "Pirometre cu țintire laser pentru măsurare de precizie" },
       { code: "CSlaser Series", description: "Pirometre compacte cu laser pentru monitorizare industrială" },
       { code: "CSvideo Series", description: "Pirometre cu imagine video integrată pentru context vizual" },
       { code: "CTvideo Series", description: "Pirometre video pentru monitorizare termică integrată" },
       { code: "CTratio Series", description: "Pirometre cu raport dublu de lungime de undă" },
-      { code: "CSvision Series", description: "Pirometre cu vizionare extinsă pentru țintire îmbunătățită" },
+      { code: "CSvision Series", description: "Pirometre din seria CSvision; caracteristicile se confirmă pe cod" },
       { code: "Xi 640", description: "Cameră termică USB, 640×480 px, -20…900 °C" },
       { code: "Xi 1M", description: "Cameră termică undă scurtă, 450…1800 °C" },
       { code: "Compact Line", description: "Camere termice fixe de nivel de intrare pentru proces" },
@@ -313,8 +313,8 @@ Pentru piața din România, gama Optris are sens la liniile de producție din me
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Optris — Infrared Temperature Measurement", url: "https://www.optris.com/", publisher: "Optris GmbH", accessed: "2026-09-26" },
       { title: "Products", url: "https://www.optris.com/products/", publisher: "Optris GmbH", accessed: "2026-09-26" },
@@ -335,13 +335,13 @@ Pentru piața din România, gama Transmille are sens la laboratoarele de metrolo
       "Laborator propriu de calibrare acreditat UKAS — trasabilitate documentată pentru standardele Transmille",
       "Precizie de ordinul zecilor de ppm la tensiune DC — potrivită pentru calibrarea multimetrelor de precizie",
       "Software dedicat de gestionare a calibrărilor (ProCal) — automatizează procedurile repetitive de laborator",
-      "Gamă completă de standarde — de la calibratoare multifuncționale până la cutii de rezistență și scanere termale"
+      "Gamă de calibratoare multiprodus, multimetre de precizie și calibratoare pentru testere electrice de teren"
     ],
     keyProducts: [
       { name: "3050A — Calibrator Multiprodus de Precizie", description: "Calibrator care acoperă tensiune DC 0…±1000 V (±50 ppm), tensiune AC 20 mV…1000 V pe un domeniu larg de frecvență, curent DC 0…±22 A, rezistență până la 100 MΩ și simulare de 11 tipuri de termocuple, folosit pentru calibrarea a 18 tipuri de instrumente de măsură." },
       { name: "Seria 8100 — Multimetre de Precizie", description: "Multimetre de laborator de înaltă precizie, gândite ca instrumente de referință secundară în laboratoarele de metrologie, pentru verificarea și calibrarea altor multimetre digitale folosite în producție sau service." },
       { name: "Seria 3200 — Calibratoare pentru Echipamente de Testare", description: "Familie de calibratoare dedicate verificării testerelor electrice de teren — PAT, RCD, buclă și izolație — cu variante precum 3200A, 3200B și 3200C, folosite de laboratoarele care întrețin parcul de aparate al electricienilor." },
-      { name: "Standarde de Referință și Accesorii", description: "Standarde de rezistență și cutii de decadă (seria 1000, 2100, 2090), scanere termale cu până la 10 canale (8500) și adaptoare de simulare pentru termocuple (EA001A), completând un laborator de calibrare electrică cu instrumentele conexe necesare." },
+      { name: "Seria 1000 și Software de Calibrare", description: "Gama include calibratorul ultra-portabil din seria 1000 și software de calibrare (ProCal, ProCal-Track); accesoriile și produsele conexe se confirmă pe cod, din documentația producătorului." },
     ],
     industries: [
       "Metrologie electrică — calibrarea multimetrelor și a standardelor secundare",
@@ -353,25 +353,25 @@ Pentru piața din România, gama Transmille are sens la laboratoarele de metrolo
     limitation: "Nu putem confirma direct termenul de emitere a unui certificat de calibrare acreditat UKAS pentru o unitate anume, acesta stabilindu-se de laboratorul propriu al producătorului.",
     productCodes: [
       { code: "3050A", description: "Calibrator multiprodus de precizie pentru 18 instrumente" },
-      { code: "3010A", description: "Calibrator multiprodus, gamă de bază" },
+      { code: "3010A", description: "Calibrator Transmille; specificațiile se confirmă pe cod" },
       { code: "3041A", description: "Calibrator de precizie, funcții multiple" },
       { code: "3200A", description: "Calibrator pentru testere electrice de teren" },
       { code: "3200B", description: "Calibrator pentru testere electrice, variantă extinsă" },
       { code: "3200C", description: "Calibrator pentru testere PAT, RCD și izolație" },
-      { code: "3310A", description: "Calibrator de precizie pentru multimetre" },
-      { code: "3341A", description: "Calibrator de precizie, funcții extinse" },
-      { code: "3350A", description: "Calibrator de precizie, gamă superioară" },
+      { code: "3310A", description: "Calibrator Transmille; specificațiile se confirmă pe cod" },
+      { code: "3341A", description: "Calibrator Transmille; specificațiile se confirmă pe cod" },
+      { code: "3350A", description: "Calibrator Transmille; specificațiile se confirmă pe cod" },
       { code: "4000-series", description: "Seria de calibratoare multiprodus 4000" },
-      { code: "4610A", description: "Adaptor de măsurare capacitate" },
-      { code: "4610M", description: "Adaptor de măsurare capacitate, variantă M" },
-      { code: "9050A", description: "Sistem de calibrare de laborator" },
-      { code: "9041A", description: "Sistem de calibrare de laborator" },
-      { code: "1000A", description: "Standard de referință de rezistență" },
-      { code: "1000B", description: "Standard de referință de rezistență, variantă B" },
-      { code: "2100", description: "Cutie de decadă de rezistență" },
-      { code: "2090", description: "Cutie de rezistență programabilă" },
-      { code: "8500", description: "Scaner termal cu 10 canale, joasă termică" },
-      { code: "EA001A", description: "Adaptor de simulare și măsurare termocuplu" },
+      { code: "4610A", description: "Calibrator multiprodus avansat" },
+      { code: "4610M", description: "Variantă a seriei 4610; specificațiile se confirmă pe cod" },
+      { code: "9050A", description: "Produs Transmille; specificațiile se confirmă pe cod" },
+      { code: "9041A", description: "Produs Transmille; specificațiile se confirmă pe cod" },
+      { code: "1000A", description: "Calibrator ultra-portabil din seria 1000" },
+      { code: "1000B", description: "Calibrator ultra-portabil din seria 1000, variantă B" },
+      { code: "2100", description: "Produs Transmille; specificațiile se confirmă pe cod" },
+      { code: "2090", description: "Produs Transmille; specificațiile se confirmă pe cod" },
+      { code: "8500", description: "Produs Transmille; specificațiile se confirmă pe cod" },
+      { code: "EA001A", description: "Accesoriu Transmille; specificațiile se confirmă pe cod" },
     ],
     faq: [
       { q: "Ce produce Transmille?", a: "Transmille fabrică echipamente britanice de metrologie electrică: calibratoare multifuncționale precum modelul 3050A, multimetre de precizie folosite ca standarde secundare și calibratoare dedicate pentru testerele electrice de teren (PAT, RCD, izolație), folosite de laboratoare de calibrare acreditate." },
@@ -382,8 +382,8 @@ Pentru piața din România, gama Transmille are sens la laboratoarele de metrolo
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Transmille — Calibration Equipment", url: "https://www.transmille.com/", publisher: "Transmille Ltd", accessed: "2026-09-26" },
       { title: "3050A Product Overview", url: "https://www.transmille.com/product/3050a", publisher: "Transmille Ltd", accessed: "2026-09-26" },
@@ -394,15 +394,15 @@ Pentru piața din România, gama Transmille are sens la laboratoarele de metrolo
     name: "UNI-T",
     founded: 1988,
     headquarters: "Dongguan, China",
-    overview: `UNI-T (Uni-Trend Technology) este un producător chinez cu sediul la Dongguan, activ din 1988, specializat în aparate de măsură de volum mare: multimetre digitale, clești ampermetrici, osciloscoape digitale și camere de termoviziune portabile sau pentru smartphone. Gama e organizată pe trei direcții — Meters (multimetre și clești), Instruments (osciloscoape, generatoare de semnal, surse DC) și Thermal Imaging (camere termice). Pentru un tehnician de mentenanță din România, UNI-T acoperă segmentul de instrumente de zi cu zi, cu prag de intrare mai accesibil decât brandurile occidentale premium.
+    overview: `UNI-T (Uni-Trend Technology) este un producător chinez cu sediul la Dongguan, activ din 1988, specializat în aparate de măsură de volum mare: multimetre digitale, clești ampermetrici, osciloscoape digitale și camere de termoviziune portabile sau pentru smartphone. Gama e organizată pe trei direcții — aparate de măsură (multimetre și clești), instrumente de testare (osciloscoape, generatoare de semnal, surse DC) și termoviziune (camere termice). Pentru un tehnician de mentenanță din România, UNI-T acoperă segmentul de instrumente de zi cu zi.
 
-Ce diferențiază UNI-T este acoperirea completă a gamei de osciloscoape: de la seriile de bază UTD1000/UTD2000 pentru service general, până la seriile MSO3000X și MSO7000X, cu bandă de până la 1–2 GHz pe 4 canale, pentru aplicații mai pretențioase de proiectare și depanare. Camerele de termoviziune pentru smartphone (seria UTi) transformă un telefon Android sau iOS într-un instrument de inspecție termică de bază, o soluție mai accesibilă decât o cameră termică dedicată pentru verificări ocazionale. Compania e certificată ISO 9001 și ISO 14001. În segmentul multimetrelor și osciloscoapelor de volum, UNI-T se poziționează alături de producători precum PeakTech sau Owon.
+UNI-T oferă osciloscoape pe mai multe niveluri de performanță: de la seriile de bază UTD1000/UTD2000 pentru service general, până la seriile MSO3000X și MSO7000X, cu bandă de până la 1–2 GHz pe 4 canale, pentru aplicații mai pretențioase de proiectare și depanare. Camerele de termoviziune pentru smartphone (seria UTi) se conectează la un telefon mobil și permit inspecții termice de bază; compatibilitatea cu Android sau iOS se confirmă pe model. Compania e certificată ISO 9001 și ISO 14001. În segmentul multimetrelor și osciloscoapelor de volum, UNI-T se poziționează alături de producători precum PeakTech sau Owon.
 
 Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe de mentenanță electrică și electricieni care au nevoie de multimetre și clești de uz curent, la laboratoare didactice care folosesc osciloscoape de intrare și la tehnicienii care vor o cameră termică de smartphone pentru verificări rapide, fără investiția unei camere termice profesionale.`,
     whyChoose: [
-      "Gamă completă de osciloscoape — de la seriile de bază UTD până la MSO7000X, cu bandă de până la 1–2 GHz",
-      "Camere de termoviziune pentru smartphone — inspecție termică de bază direct de pe telefonul Android sau iOS",
-      "UNI-T: Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului",
+      "Osciloscoape de la seriile de bază UTD până la MSO7000X, cu bandă de până la 1–2 GHz",
+      "Camere de termoviziune pentru smartphone — inspecție termică de bază de pe telefonul mobil",
+      "Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului (Uni T)",
       "Multimetre pe segmente diferite — de la modele de buzunar (seria UT120) până la variante industriale (UT197)",
       "Rețea de distribuție în peste 80 de țări, cu birouri regionale inclusiv în Europa"
     ],
@@ -410,7 +410,7 @@ Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe d
       { name: "Seria MSO/UPO — Osciloscoape de Performanță", description: "Osciloscoape digitale cu bandă de la 100 MHz (MSO2000X) până la 1–2 GHz (MSO7000X, UPO7000L), pe 4 canale, pentru depanare avansată de circuite și proiectare, folosite acolo unde seriile de bază nu mai oferă rezoluție temporală suficientă." },
       { name: "Seria UTD — Osciloscoape de Bază", description: "Osciloscoape de intrare, cu bandă de la 25 MHz până la 200 MHz pe 1–2 canale (UTD1000, UTD2000CEX+, UTD2000CL+), potrivite pentru service general și laboratoare didactice care nu au nevoie de bandă foarte largă." },
       { name: "Multimetre Digitale — Seriile UT58, UT120, UT131, UT197", description: "Multimetre pentru uz general (UT58), de buzunar (UT120, UT131) și industriale (UT197), acoperind majoritatea funcțiilor uzuale de măsură — tensiune, curent, rezistență, continuitate — pentru electricieni și tehnicieni de mentenanță." },
-      { name: "Seria UTi — Camere de Termoviziune pentru Smartphone", description: "Module de termoviziune care se conectează la telefonul mobil, cu variante pentru Android sau iOS (UTi120MS, UTi720M, UTi722M, UTi740M, UTi740MS, UTi721M), pentru inspecții termice rapide fără o cameră termică dedicată." },
+      { name: "Seria UTi — Camere de Termoviziune pentru Smartphone", description: "Module de termoviziune care se conectează la telefonul mobil (UTi120MS, UTi720M, UTi722M, UTi740M, UTi740MS, UTi721M), pentru inspecții termice rapide; compatibilitatea cu Android sau iOS se confirmă pe model." },
     ],
     industries: [
       "Service electric și electronic — multimetre și osciloscoape de uz curent",
@@ -435,11 +435,11 @@ Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe d
       { code: "UT116 Series", description: "Testere SMD pentru componente montate pe suprafață" },
       { code: "UT18 Series", description: "Testere de tensiune și continuitate" },
       { code: "UTi120MS", description: "Cameră de termoviziune pentru smartphone" },
-      { code: "UTi720M", description: "Cameră de termoviziune pentru Android" },
+      { code: "UTi720M", description: "Cameră de termoviziune pentru smartphone" },
       { code: "UTi721M", description: "Cameră de termoviziune pentru smartphone" },
-      { code: "UTi722M", description: "Cameră de termoviziune pentru Android" },
-      { code: "UTi740M", description: "Cameră de termoviziune de rezoluție ridicată, Android" },
-      { code: "UTi740MS", description: "Cameră de termoviziune de rezoluție ridicată, iOS și Android" },
+      { code: "UTi722M", description: "Cameră de termoviziune pentru smartphone" },
+      { code: "UTi740M", description: "Cameră de termoviziune pentru smartphone" },
+      { code: "UTi740MS", description: "Cameră de termoviziune pentru smartphone" },
     ],
     faq: [
       { q: "Ce produce UNI-T?", a: "UNI-T fabrică instrumente de măsură de volum mare: multimetre digitale și clești ampermetrici, osciloscoape digitale de la modele de bază până la variante de performanță cu bandă de gigaherți, și camere de termoviziune portabile sau pentru smartphone, folosite în service, mentenanță și educație tehnică." },
@@ -450,8 +450,8 @@ Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe d
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "UNI-T — Measurement Meters, Testing Instruments and Thermal Imaging", url: "https://www.uni-trend.com/", publisher: "Uni-Trend Technology (China) Co., Ltd.", accessed: "2026-09-26" },
       { title: "Overview", url: "https://www.uni-trend.com/about-us/overview/", publisher: "Uni-Trend Technology (China) Co., Ltd.", accessed: "2026-09-26" },

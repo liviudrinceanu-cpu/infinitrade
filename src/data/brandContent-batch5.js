@@ -2,44 +2,44 @@ export const brandContentBatch5 = {
   '3m-safety': {
     founded: 1902,
     headquarters: 'Maplewood, Minnesota, SUA',
-    employees: '93,000+',
-    overview: `Când vine vorba de protecția muncii, 3M e numele pe care îl știe oricine din industrie. Echipamentele de protecție 3M au un raport calitate-preț apreciat de utilizatori. Măștile FFP2 și FFP3 de la ei sunt standard în fabricile cu expunere la praf și particule - seria 9300+ e o mască pliabilă frecvent utilizată în România. Materialele nu fac compromisuri: filtrele folosesc tehnologia de microfibră electrostatică care captează particule de până la 0.3 microni, mult peste standardele EN149.
+    employees: 'zeci de mii',
+    overview: `Când vine vorba de protecția muncii, 3M e numele pe care îl știe oricine din industrie.  Măștile FFP2 și FFP3 de la ei sunt standard în fabricile cu expunere la praf și particule - seria 9300+ este o mască pliabilă. Filtrele folosesc medii electrostatice; clasa de protecție (FFP2 sau FFP3) este cea declarată pe fiecare model conform EN 149.
 
-Ochelarii de protecție SecureFit și Virtua sunt preferați de sudori și mecanici pentru că au acoperire antiabur și rezistență la zgârieturi clasa 1. Căștile antibătaie seria Peltor X sunt obligatorii în industria grea - modelul X5A atinge 37dB SNR (Single Number Rating), ceea ce înseamnă protecție maximă în medii cu peste 110dB cum sunt fabricile de tablă sau aeroporturile.
+Ochelarii de protecție SecureFit și Virtua sunt disponibili în variante cu tratament antiabur și antizgârieturi, în funcție de model. Căștile antifonice seria Peltor X se folosesc în medii zgomotoase; atenuarea (SNR, Single Number Rating – indice unic de atenuare) se confirmă din fișa fiecărui model, iar alegerea se face după nivelul de zgomot de la locul de muncă.
 
-Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la șantiere. Dopurile EAR Classic au formă conică ce se adaptează la majoritatea canalelor auditive și oferă 28dB atenuare. Pentru medii ATEX, seria Peltor ProTac oferă comunicare Bluetooth cu protecție intrinsec safe.`,
+Protecția auditivă 3M Peltor și dopurile EAR sunt destinate mediilor zgomotoase; atenuarea și eventualele aprobări ATEX se confirmă din fișa fiecărui model.`,
     whyChoose: [
-      'Tehnologie de filtrare electrostatică cu eficiență >99.5% pentru particule sub 1 micron (FFP2/FFP3)',
-      'Certificări EN166, EN149, EN352, EN397 pentru toate categoriile de protecție (ochi, respirație, auz, cap)',
-      'Confort extins: măștile seria 9300+ pot fi purtate 8h fără disconfort, cu design pliabil și valve Cool Flow',
-      'Durabilitate dovedită: ochelarii SecureFit rezistă la impact 120m/s (F), zgârieturi clasa 1 (K), abur (N)',
-      'Gamă completă ATEX pentru zone explozive (Peltor ProTac cu protecție intrinsec safe)',
-      'Garanție 2 ani pentru căști și ochelari, 5 ani pentru sisteme de ancorare DBI-SALA',
+      'Măști FFP2/FFP3 cu filtrare electrostatică, clasă declarată pe fiecare model',
+      'Standarde aplicabile (de exemplu EN 166, EN 149, EN 352), în funcție de produs; se confirmă pe cod',
+      'Design pliabil la seria 9300+; prezența valvei de expirație depinde de model',
+      'Ochelari SecureFit cu marcaje EN 166 care diferă pe model; se confirmă pe cod',
+      'Unele echipamente au variante pentru zone cu risc de explozie; se confirmă pe cod',
+      
     ],
     keyProducts: [
       {
         name: '3M Măști Respiratorii FFP2/FFP3',
-        description: `Seria 9300+ (9320+, 9330+, 9332+) reprezintă standardul industrial pentru protecția respiratorie. Modelul 9332+ Aura oferă protecție FFP3 cu valvă Cool Flow care reduce acumularea de căldură și umiditate cu 30% față de măștile fără valvă. Designul pliabil 3-panouri asigură etanșare perfectă pe conturul feței, testat până la 50x limita de expunere (APF 50). Filtrele Advanced Electret Media captează 99.5% din particulele de 0.3 microni, inclusiv pulberi fine de metal, fum de sudură, spori de mucegai. Elastic reglabil cu clips metalic pentru nas. Certificare EN149:2001+A1:2009. Ambalaj individual igienizat, durată de viață 3 ani la temperaturi -20°C până +30°C. Recomandate pentru: industrie metalurgică, construcții, farmaceutice, prelucrare lemn, agricultură.`
+        description: `Seria 9300+ (9320+, 9330+, 9332+) este o gamă de măști pliabile pentru protecție respiratorie împotriva particulelor (FFP2/FFP3). Clasa de protecție, valva de expirație și ambalarea diferă de la un model la altul; le confirmăm pe cod, din fișa tehnică 3M și din declarația de conformitate.`
       },
       {
         name: '3M Ochelari Protecție SecureFit',
-        description: `Seria SecureFit (SF400, SF600, SF2000) folosește tehnologia Pressure Diffusion Temple care distribuie uniform presiunea pe lateral, eliminând disconfortul după 4+ ore de purtare. Modelul SF400 are lentile policarbonat tratate ScotchGard pentru rezistență la zgârieturi (K) și abur (N), impact testat la 120m/s conform EN166:2001 clasa F. Greutate doar 26 grame, design wrap-around pentru câmp vizual 180°. Versiunea SF600 vine cu lentile gri fumurii pentru exterior (99.9% UV). Braț ajustabil pe 4 poziții, compatibil cu căști și măști. Certificare ANSI Z87.1 și CSA Z94.3. Rezistență chimică la solvenți, acizi slabi, uleiuri. Perfecte pentru: sudură, șlefuire, prelucrare metal, laborator chimic, construcții.`
+        description: `Seria SecureFit (SF400, SF600, SF2000) cuprinde ochelari de protecție cu brațe ergonomice. Clasele de protecție (impact, zgârieturi, abur), tratamentele lentilelor, greutatea și câmpul vizual diferă de la un model la altul; le confirmăm pe cod, din fișa tehnică 3M.`
       },
       {
         name: '3M Peltor Căști Antibătaie X-Series',
-        description: `Gama Peltor X (X1A, X2A, X3A, X4A, X5A) oferă atenuare de la 22dB până la 37dB SNR (Single Number Rating). Modelul X5A e top-of-the-line cu capsule twin-cup umplute cu spumă și lichid pentru absorbție maximă a frecvențelor joase (31dB la 125Hz). Design over-the-head cu bandă dublă pentru distribuție uniformă a presiunii, căptușeală din spumă memory foam înlocuibilă. Greutate 350g, arcuri din oțel inoxidabil pentru durabilitate 10+ ani. Testare EN352-1:2002, atenuare: H=37dB, M=33dB, L=24dB. Perfect pentru: fabrici tablă (>105dB), aeroporturi (turbine avion 110-120dB), construcții (buldozere, compresoare), poligoane de tir. Versiunea X2A (31dB SNR) e ideală pentru depozite logistice și utilaje grele sub 100dB.`
+        description: `Gama Peltor X cuprinde căști antifonice de diferite niveluri de atenuare. Atenuarea (SNR și valorile pe frecvențe), greutatea și standardele aplicabile (EN 352-1) diferă de la un model la altul; le confirmăm pe cod, din fișa tehnică 3M.`
       },
       {
         name: '3M Protecție Auditivă EAR Dopuri',
-        description: `Dopurile EAR Classic (model 310-1001) sunt cele mai utilizate dopuri din PU expandabil la nivel mondial - peste 10 miliarde vândute. Design conic brevetat care se adaptează la 95% din canalele auditive, oferind 28dB SNR (H=27dB, M=26dB, L=24dB). Material PU hipoalergenic fără PVC, culoare galben high-visibility pentru audit securitate. Se comprimă între degete, se inseră în ureche și se expandează în 30 secunde pentru etanșare perfectă. Certificare EN352-2:2002, recomandate pentru expunere 85-105dB (8h shift). Versiunea cu șnur (311-1250) previne pierderea. Ambalaj individual steril sau dispenser 500 perechi pentru fabrici. Durată viață: 1 zi (model foam) sau 1 săptămână (model reutilizabil EAR Express cu lamelă).`
+        description: `Dopurile EAR Classic sunt dopuri din poliuretan expandabil. Atenuarea (SNR), recomandările de utilizare, ambalarea (individuală sau în dispenser) și variantele cu șnur diferă după cod; le confirmăm din fișa tehnică 3M.`
       },
     ],
     certifications: [
       'EN149:2001+A1:2009 (Măști respiratorii FFP1/FFP2/FFP3)',
       'EN166:2001 (Protecție ochi - impact, zgârieturi, UV)',
-      'EN352-1:2002 (Căști antibătaie)',
+      'EN352-1:2002 (Căști antifonice)',
       'EN352-2:2002 (Dopuri de urechi)',
-      'EN397:2012 (Căști de protecție cap)',
+      
       'ANSI Z87.1 (Standard american protecție ochi)',
       'CSA Z94.3 (Standard canadian protecție ochi)',
       'ATEX Directive 2014/34/EU (Echipamente zone explozive)',
@@ -116,12 +116,12 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     ],
     faq: [
       {
-        "q": "Ce diferență este între mastile 3M seria Aura și mastile clasice pliabile?",
-        "a": "Mastile 3M din seria Aura, precum 9210+ sau 1870+, au trei panouri care se așează pe față și reduc spațiul mort din interior, oferind un confort mai bun la purtare îndelungată. Mastile clasice, precum 8210, sunt cupe rigide, potrivite pentru medii industriale unde forma stabilă contează mai mult decât pliabilitatea pentru transport."
+        "q": "Ce diferență este între măștile 3M seria Aura și măștile clasice pliabile?",
+        "a": "Măștile 3M din seria Aura, precum 9210+ sau 1870+, au trei panouri care se așează pe față și reduc spațiul mort din interior, oferind un confort mai bun la purtare îndelungată. Măștile clasice, precum 8210, sunt cupe rigide, potrivite pentru medii industriale unde forma stabilă contează mai mult decât pliabilitatea pentru transport."
       },
       {
-        "q": "Ce masca 3M este potrivită pentru lucrări de sudură?",
-        "a": "Pentru sudura, modelul 8515 este gândit special, cu un strat suplimentar pentru particulele generate de procesul de sudare și o valvă de exhalare care reduce acumularea de căldură sub masca. Alegerea finală depinde și de tipul de metal sudat și de ventilația spațiului de lucru."
+        "q": "Ce mască 3M este potrivită pentru lucrări de sudură?",
+        "a": "Pentru sudură, modelul 8515 este un respirator cu valvă de exhalare destinat lucrărilor de sudură, conform catalogului 3M. Alegerea finală depinde și de tipul de metal sudat și de ventilația spațiului de lucru."
       },
       {
         "q": "Livrează 3M echipamente de protecție respiratorie în România?",
@@ -129,12 +129,12 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de măști de protecție 3M?",
-        "a": "Precizați nivelul de protecție necesar (N95 sau P95), tipul de particule sau vapori de la locul de muncă, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucăți pe lună. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
+        "a": "Precizați nivelul de protecție necesar (FFP2 sau FFP3 conform EN 149; codurile N95 și P95 aparțin standardului american NIOSH), tipul de particule sau vapori de la locul de muncă, dacă este nevoie de valvă de exhalare pentru confort termic și numărul estimat de bucăți pe lună. Cu aceste date recomandăm modelul 3M potrivit din gamă disponibilă."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul 3M Safety, conform surselor citate.' },
     ],
   },
@@ -143,35 +143,35 @@ Protecția auditivă 3M Peltor e folosită de la platforme petroliere până la 
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Electrification este un furnizor major de tablouri electrice și automatizări, pe care se bazează o mare parte a industriei. Se montează sute de tablouri ABB System pro E power în fabrici din România, unde fiabilitatea lor este apreciată de utilizatori. Întrerupătoarele automate Tmax XT sunt utilizate frecvent pentru protecție în mediu industrial: seria XT1-XT7 acoperă curenți de la 1A până la 1600A cu putere de rupere până la 150kA. Au trip unit electronic cu comunicare Modbus RTU - poți monitoriza consumul pe fiecare ramură direct din SCADA.
+    overview: `ABB Electrification este un furnizor major de tablouri electrice și automatizări, pe care se bazează o mare parte a industriei. Întrerupătoarele automate Tmax XT sunt utilizate frecvent pentru protecție în mediu industrial: seria XT cuprinde mai multe mărimi de carcasă; curentul nominal și puterea de rupere depind de model și se confirmă din documentația ABB. Unitățile electronice Ekip pot fi echipate cu module de comunicație; protocoalele disponibile depind de versiune.
 
-Contactoarele ABB seria AF sunt cunoscute pentru robustețe - modelul AF265 suportă 6 milioane cicluri la AC-3 (pornire motoare), conform producătorului. Se folosesc frecvent în linii de producție automotive care lucrează 24/7, unde durata lor de exploatare este apreciată. Bobinele au o gamă largă de tensiuni (24-500VAC/DC) și sunt compatibile cu module electronice pentru soft-start și economizor de energie. Relele termice E90 au compensare automată pentru temperatura ambientală și reglare fină 0.63-100A.
+Contactoarele ABB seria AF sunt destinate comenzii motoarelor și circuitelor de putere; durata de viață depinde de model și se confirmă din documentația ABB. Se folosesc frecvent în linii de producție automotive care lucrează 24/7, unde durata lor de exploatare este apreciată. Bobinele au o gamă largă de tensiuni (24-500VAC/DC) și sunt compatibile cu module electronice pentru soft-start și economizor de energie. Releele termice de supraîncărcare ABB au compensare pentru temperatura ambientală; domeniile de reglaj depind de model și se confirmă din documentația ABB.
 
-Tablourile System pro E power modular permit configurații flexibile - se pot realiza tablouri de mare capacitate (4000A și peste, cu multiple secțiuni) pentru aplicații precum fabrici de ciment, folosind bare CuAl. Certificare IEC 61439-1&2, grad de protecție IP54 standard, upgrade la IP65 cu kit etanșare. ABB oferă un selector digital de tablouri online - introduci parametrii (curent, secțiuni, aparataj) și generează automat schema unifilară și lista de materiale.`,
+Tablourile System pro E power modular permit configurații flexibile - se pot realiza tablouri de mare capacitate (4000A și peste, cu multiple secțiuni) pentru aplicații precum fabrici de ciment, folosind bare CuAl. Conform IEC 61439-1&2; gradul de protecție IP depinde de configurație și se confirmă din documentația ABB.`,
     whyChoose: [
-      'Putere de rupere maximă: întrerupătoare Tmax XT până la 150kA la 690V, clase de selectivitate S1-S3',
-      'Trip unit electronic Ekip cu comunicare Modbus RTU, Profibus DP, Ethernet/IP pentru integrare SCADA',
-      'Contactoare AF cu durată de viață 6 milioane cicluri AC-3, contacte AgSnO2 cu auto-curățare',
+      'Întrerupătoare Tmax XT; puterea de rupere și tensiunea nominală depind de model și se confirmă din documentația ABB',
+      'Unități electronice Ekip, cu opțiuni de comunicație în funcție de versiune',
+      'Contactoare AF pentru comanda motoarelor (categoria AC-3); detaliile constructive se confirmă din documentația ABB',
       'Sistem modular System pro E power conform IEC 61439, configurații până la 6300A pe bară principală',
-      'Certificări complete: IEC 61439-1&2, IEC 60947-2 (întrerupătoare), IEC 60947-4 (contactoare), CE, EAC',
-      'Software gratuit DOC (Design and Offer Creation) pentru proiectare tablouri și calcul selectivitate',
+      'Standarde aplicabile: IEC 61439-1&2, IEC 60947-2 (întrerupătoare), IEC 60947-4 (contactoare); marcajele și certificările se confirmă pe cod',
+      'Software de proiectare a tablourilor oferit de producător; disponibilitatea și condițiile se confirmă la ABB',
     ],
     keyProducts: [
       {
         name: 'ABB Întrerupătoare Tmax XT',
-        description: `Seria Tmax XT (XT1-XT7) acoperă game de curent 1-1600A cu putere de rupere 36-150kA conform IEC 60947-2. Modelul XT4N 320A cu Ekip Touch LSI oferă protecție L (long time), S (short time), I (instantaneous) cu precizie ±1.5% și display TFT color 3.5" pentru măsurători V, A, kW, kWh, cos φ. Comunicare nativă Modbus RTU RS485, upgrade opțional Profibus DP sau Ethernet/IP. Trip unit programabil: 4 set-uri parametri comutabile din exterior pentru regimuri diferite (zi/noapte/weekend). Curbe trip configurabile: I²t pentru selectivitate cu siguranțe aM, I⁴t pentru motoare pornire heavy-duty. Contact auxiliar cu pre-alarmă la 90% curent nominal. Montaj fix sau extractibil cu truck pentru întreținere fără deconectare barelor. Certificare: IEC, UL, CCC, EAC, Marine (DNV-GL, ABS).`
+        description: `Seria Tmax XT este o familie de întrerupătoare în carcasă turnată conform IEC 60947-2; curentul nominal și puterea de rupere depind de mărimea carcasei și se confirmă din documentația ABB. Unitățile electronice Ekip oferă protecții de tip L (long time, suprasarcină), S (short time, scurtcircuit cu temporizare) și I (instantaneous, scurtcircuit instantaneu); funcțiile de măsurare și protocoalele de comunicație depind de versiunea Ekip și se confirmă din documentația ABB. Trip unit programabil: 4 set-uri parametri comutabile din exterior pentru regimuri diferite (zi/noapte/weekend). Curbe trip configurabile: I²t pentru selectivitate cu siguranțe aM, I⁴t pentru motoare pornire heavy-duty. Contact auxiliar cu pre-alarmă la 90% curent nominal. Montaj fix sau extractibil cu truck pentru întreținere fără deconectare barelor. Certificare: IEC, UL, CCC, EAC, Marine (DNV-GL, ABS).`
       },
       {
         name: 'ABB Contactoare AF',
-        description: `Gama AF (AF09-AF400) pentru curenți 9-400A, categorii utilizare AC-1 (rezistiv) și AC-3 (motoare). Modelul AF265-30-11 (265A AC-3, 3-poli) suportă 6 milioane operații mecanice și 1.5 milioane electrice la AC-3. Contacte principale AgSnO2 (oxid argint-staniu) cu cameră de stingere arc electric și separare forțată 10mm pentru curenți de scurtcircuit până la 14kA. Bobine AC 24-500V, DC 24-250V, consum 5-150VA (AC) sau 5-70W (DC), cu modul economizor integrat care reduce consumul la 40% după atragere. Blocuri contact auxiliare montabile lateral: 2NO+2NC până la 6NO+6NC. Versiune AF cu interfață electronică EI (electronic interface) permite comutație fără arc la trecerea prin zero. Durată de viață 20+ ani în utilizare industrială normală (<50 operații/zi).`
+        description: `Gama AF este destinată categoriilor de utilizare AC-1 (sarcini rezistive) și AC-3 (motoare); curenții nominali, duratele de viață și celelalte date se confirmă din documentația ABB pentru modelul ales. Contacte principale AgSnO2 (oxid argint-staniu) cu cameră de stingere arc electric și separare forțată 10mm pentru curenți de scurtcircuit până la 14kA. Bobine AC 24-500V, DC 24-250V, consum 5-150VA (AC) sau 5-70W (DC), cu modul economizor integrat care reduce consumul la 40% după atragere. Blocuri contact auxiliare montabile lateral: 2NO+2NC până la 6NO+6NC.`
       },
       {
         name: 'ABB System pro E power Tablouri Modulare',
-        description: `Sistem modular conform IEC 61439-1&2 pentru configurații 63-6300A pe bară principală. Structură din oțel zincat electrochimic, vopsit RAL 7035 (gri deschis), grosime tablă 1.5-3mm. Secțiuni standard: 600x400mm, 600x600mm, 800x600mm, 800x800mm, înălțime 2000mm sau 2200mm. Bare principale CuAl (cupru-aluminiu placat) 30x5mm până la 125x10mm pentru 6300A, suportate pe izolatori cu rezistență 50kN. Grad de protecție IP54 standard, upgrade IP65 cu garnituri cauciuc și ventilație filtrată. Forme de separare internă: forma 1 (fără separare), forma 2b (bare separate de compartiment aparataj), forma 3b (separare completă inclusiv terminale), forma 4b (separare totală inclusiv bare în fiecare compartiment). Software DOC generează automat schema unifilară, calcul secțiune cabluri, verificare selectivitate, listă materiale BOM.`
+        description: `Sistem modular conform IEC 61439-1&2 pentru configurații 63-6300A pe bară principală. Dimensiunile, materialele barelor și gradul de protecție depind de configurație și se confirmă din documentația ABB. Forme de separare internă: forma 1 (fără separare), forma 2b (bare separate de compartiment aparataj), forma 3b (separare completă inclusiv terminale), forma 4b (separare totală inclusiv bare în fiecare compartiment).`
       },
       {
-        name: 'ABB Releu Termic E90',
-        description: `Seria E90 (E90-400) pentru protecție termică motoare 0.63-400A, clasa trip 10A conform IEC 60947-4-1. Compensare automată temperatura ambientală -25°C până +60°C, precizie ±5% la curent reglat. Test manual funcționare cu buton STOP. Contact auxiliar 1NO+1NC comutație la 6A/250VAC pentru semnalizare și comanda circuitelor. Resetare manuală sau automată după trip (selector frontal). Montaj direct pe contactoare AF9-AF400 fără cablare suplimentară, conexiune prin cleme spring sau șurub. Versiunea cu diferențial curent reziduual (RCD) oferă protecție suplimentară la scurgeri 30-300mA pentru medii umede. Indicator vizual cauză trip: suprasarcină termică (roșu), scurtcircuit instantaneu (galben). Durată de viață 3 milioane operații mecanice, calibrare din fabrică fără recalibrare necesară 20 ani.`
+        name: 'ABB Relee Termice de Supraîncărcare',
+        description: `Releele termice de supraîncărcare ABB protejează motoarele; domeniul de reglaj și clasa de declanșare se confirmă din documentația ABB pentru modelul ales (IEC 60947-4-1). Compensare automată temperatura ambientală -25°C până +60°C, precizie ±5% la curent reglat. Test manual funcționare cu buton STOP. Contact auxiliar 1NO+1NC comutație la 6A/250VAC pentru semnalizare și comanda circuitelor. Resetare manuală sau automată după trip (selector frontal). Montaj direct pe contactoare AF9-AF400 fără cablare suplimentară, conexiune prin cleme spring sau șurub. Indicator vizual cauză trip: suprasarcină termică (roșu), scurtcircuit instantaneu (galben).`
       },
     ],
     certifications: [
@@ -192,9 +192,9 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       'Oil & Gas (rafinării, petrochimie, platforme offshore)',
       'Utilități (generare energie, distribuție electrică)',
       'Automotive (fabrici asamblare, robot sudură)',
-      'Food & Beverage (procesare alimente, băuturi)',
-      'Pharmaceutical (producție medicamente, clean rooms)',
-      'Data Centers (alimentare UPS, distribuție redundantă)',
+      'Industria alimentară și a băuturilor (procesare alimente, băuturi)',
+      'Industria farmaceutică (producție medicamente, camere curate)',
+      'Centre de date (alimentare UPS, distribuție redundantă)',
       'Transport (metrou, căi ferate, aeroporturi)',
       'Marine (nave, platforme offshore)',
       'Clădiri comerciale (mall-uri, birouri, spitale)',
@@ -233,7 +233,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       },
       {
         "code": "SACE Infinitus",
-        "description": "Disjunctor în carcasă turnată, 320A până la 3200A"
+        "description": "Disjunctor în carcasă turnată din gama ABB; datele tehnice se confirmă din documentația producătorului"
       },
       {
         "code": "Ekip UP",
@@ -271,8 +271,8 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -281,46 +281,46 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
     founded: 1988,
     headquarters: 'Zürich, Elveția',
     employees: '105,000+',
-    overview: `ABB Measurement & Analytics este un furnizor consacrat de instrumentație de proces - debitimetre, analizoare, recordere, senzori. Sistemele ABB se folosesc frecvent în industrie chimică, petrol-gaz, utilități apă, unde precizia lor este considerată de referință. Debitmetre electromagnetice ProcessMaster FEP300 sunt utilizate frecvent pentru măsurare apă uzată și chimicale: precizie ±0.2% din citire, repetabilitate ±0.05%, fără piese mobile care să se uzeze.
+    overview: `ABB Measurement & Analytics este un furnizor consacrat de instrumentație de proces - debitimetre, analizoare, recordere, senzori. Sistemele ABB se folosesc frecvent în industrie chimică, petrol-gaz, utilități apă, unde sunt necesare măsurători de proces fiabile. Debitmetrele electromagnetice ProcessMaster FEP630 sunt utilizate pentru apă, apă uzată și fluide chimice; eroarea de măsurare este de 0,4% din citire, cu opțiuni de 0,3% sau 0,2%.
 
-Analizoarele de gaz seria Advance Optima sunt folosite frecvent în monitorizarea emisiilor industriale - modelul AO2020 pentru O2, CO, CO2, NO, NO2, SO2 cu tehnologie NDIR (infraroșu non-dispersiv) și celule electrochimice. AO2020 se folosește frecvent pe coșuri de fum la fabrici de ciment și termice, unde concentrațiile variază de la 0-25% O2 la 0-5000ppm NOx. Precizia este de ±1% din gamă completă pentru NDIR, drift < 1%/lună. Certificare TUV conform EN15267 (QAL1) pentru sisteme de monitorizare continuă emisii (CEMS).
+Pentru monitorizarea continuă a gazelor, ABB oferă analizoarele modulare Advance Optima AO2000: până la patru module de analiză măsoară simultan până la șase componente gazoase, la alegere cu module NDIR/UV, oxigen, TCD, FID sau laser in-situ. Pentru monitorizarea emisiilor, ABB oferă și sistemul ACF5000 LCS (FTIR), certificat QAL1 de TÜV și MCERTS conform EN 15267-3. Gazele, gamele de măsurare și precizia depind de configurație și se confirmă pe cod, din documentația ABB.
 
-Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârtie clasice oferind 16-32 canale intrare (4-20mA, termocuple, RTD, contact digital) cu înregistrare continuă pe card SD și comunicare Ethernet. Un C200 poate înlocui mai multe recordere cu hârtie, reducând costurile cu consumabilele și oferind audit trail conform FDA 21 CFR Part 11 pentru industria pharma. ABB oferă calibrare acreditată ISO/IEC 17025 direct din fabrică pentru majoritatea instrumentelor - certificatul de calibrare vine în pachet.`,
+ABB Measurement & Analytics oferă și recordere și controlere pentru aplicații de proces. Modelul, numărul de canale, funcțiile de audit trail și opțiunile de calibrare se confirmă pe cod, din documentația ABB.`,
     whyChoose: [
-      'Precizie de laborator: debitmetre electromagnetice ±0.2%, analizoare gaz ±1% full scale, transmițătoare presiune ±0.04%',
-      'Repetabilitate ridicată: ±0.05% pentru debitmetre, drift < 1%/lună pentru analizoare gaz',
-      'Certificare QAL1 conform EN15267 pentru analizoare emisii (obligatoriu pentru CEMS în UE)',
-      'Comunicare: HART, Profibus PA/DP, Foundation Fieldbus, Modbus RTU/TCP, EtherNet/IP nativ pe toate instrumentele',
-      'Diagnostic avansat: transmițătoare cu autodiagnostic conform NAMUR NE107, alerte predictive întreținere',
-      'Calibrare acreditată ISO/IEC 17025 din fabrică cu certificat de calibrare inclusă',
+      'Debitmetre electromagnetice cu eroare de măsurare de 0,4% din citire (opțional 0,3% sau 0,2%), conform fișei ABB a seriei ProcessMaster FEP630',
+      'Diagnostic integrat la debitmetrele electromagnetice: detectare conductă goală sau parțial umplută, bule de gaz, impedanța electrozilor și conductivitate',
+      'Sistemul ACF5000 LCS pentru monitorizarea emisiilor are certificare QAL1 (TÜV, MCERTS) conform EN 15267-3',
+      'Comunicație digitală (de exemplu HART, PROFIBUS, Modbus, Ethernet), în funcție de modelul instrumentului',
+      'Diagnostic integrat în transmițătoare; funcțiile exacte se confirmă pe cod, din documentația ABB',
+      'Opțiunile de calibrare și certificatele de calibrare depind de instrument și se confirmă pe cod',
     ],
     keyProducts: [
       {
-        name: 'ABB ProcessMaster FEP300 Debitimetru Electromagnetic',
-        description: `Debitimetru electromagnetic pentru lichide conductive (≥5 µS/cm) cu precizie ±0.2% din citire ±1mm/s. Gamă măsurare DN10-DN2000 (10mm-2000mm), rate de flux 0.01-10 m/s, presiune proces până la 40 bar, temperatură -20°C până +180°C. Electrozi din oțel inoxidabil 316L (standard), Hastelloy C (acid), tantaliu (HF), platină (ultrapură pharma). Liner PTFE (−20 la +180°C), cauciuc dur (abraziune), PFA (pharma/food). Transmițător integrat sau remote (până la 100m cablu) cu display grafic TFT 5.7" color touchscreen. Comunicare: HART 7, Profibus PA/DP, Foundation Fieldbus H1, Modbus RTU/TCP. Alimentare 85-260VAC sau 20-55VDC. Certificare: ATEX, IECEx, FM, CSA pentru zone Ex ia/d. Aplicații: apă potabilă, apă uzată, chimicale, pulpe minerit, procesare alimente.`
+        name: 'ABB ProcessMaster FEP630 Debitimetru Electromagnetic',
+        description: `Debitmetru electromagnetic ProcessMaster FEP630, cu diametre nominale DN 3 - DN 2000, presiune nominală PN 10 - PN 100 (ASME CL 150 și 300), temperatura fluidului până la 180°C și eroare de măsurare de 0,4% din citire (opțional 0,3% sau 0,2%). Straturi de căptușire: cauciuc dur, cauciuc moale, PTFE, PFA, ETFE, Linatex; grad de protecție IP67 sau IP68. Comunicație: HART, PROFIBUS DP/PA, Modbus RTU, Ethernet (PROFINET, EtherNet/IP, Modbus TCP) și Ethernet-APL. Aprobări ATEX, IECEx, cFMus și NEPSI, în funcție de variantă. Diagnostic integrat: conductă goală sau parțial umplută, bule de gaz, impedanța electrozilor, conductivitate, temperatura senzorului.`
       },
       {
-        name: 'ABB Advance Optima AO2020 Analizor Gaz Multi-Component',
-        description: `Analizor gaz pentru monitorizare continuă emisii (CEMS) și proces. Măsoară simultan: O2 (0-25%), CO (0-10,000ppm), CO2 (0-25%), NO (0-5,000ppm), NO2 (0-1,000ppm), SO2 (0-5,000ppm), CH4 (0-100%). Tehnologie: NDIR (non-dispersiv infraroșu) pentru CO/CO2/SO2/NO, celulă electrochimică pentru O2, chemiluminiscență pentru NOx (opțional). Precizie: ±1% full scale pentru NDIR, ±2% pentru electrochimică. Timp răspuns: T90 < 60 secunde. Drift: < 1%/lună cu calibrare automată. Certificare TUV conform EN15267-3 (QAL1) pentru CEMS. Sample conditioning: filtru ceramic încălzit 180°C, Peltier cooler pentru condensare umiditate, pompă membrană PTFE. Display touchscreen 10.4" color cu trend real-time. Comunicare: Modbus RTU, Profibus DP, Ethernet/IP, OPC UA. Alimentare: 230VAC ±10%, 500W. Aplicații: coșuri fum (ciment, oțel, termice), procese chimice (amoniac, acid sulfuric), rafinării.`
+        name: 'ABB Advance Optima AO2000 Analizor Gaz Modular',
+        description: `Analizor de gaze modular pentru măsurare continuă: până la patru module de analiză măsoară simultan până la șase componente gazoase, la alegere cu module NDIR/UV, oxigen, TCD, FID sau laser in-situ. Gazele măsurate, gamele, precizia și timpul de răspuns depind de modulele alese; le confirmăm pe cod, din documentația ABB. Pentru monitorizarea emisiilor, ABB oferă și ACF5000 LCS (FTIR, hot/wet extractiv), certificat QAL1 de TÜV și MCERTS conform EN 15267-3.`
       },
       {
-        name: 'ABB Commander C200 Recorder Electronic Multi-Channel',
-        description: `Recorder electronic modular 16-32 canale intrare universale: 4-20mA (±0.05%), 0-10V, termocuple tip K/J/T/E/N/R/S/B (±0.5°C), RTD Pt100/Pt1000 (±0.2°C), contact digital. Display TFT 10.4" color cu trend istoric 4-8 canale simultan. Înregistrare continuă pe card SD 32GB (≈10 ani date la 16 canale, sample 1s). Export CSV, PDF, XML pentru rapoarte. Alarme configurabile: Hi/HiHi/Lo/LoLo cu histerezis, relay output 2A/250VAC pentru comandă. Comunicare: Ethernet TCP/IP, Modbus RTU/TCP, OPC UA server. Web server integrat pentru vizualizare remotă prin browser (Chrome, Firefox, Edge). Audit trail conform FDA 21 CFR Part 11: user management 100 utilizatori, semnătură electronică, log modificări. Alimentare: 100-240VAC sau 24VDC. Certificare: CE, UL, ATEX pentru montaj zonă 2. Aplicații: pharma (monitorizare clean room), food (pasteurizare, sterilizare), chimice (batch reactoare).`
+        name: 'ABB Recordere Electronice',
+        description: `ABB oferă recordere și controlere electronice pentru aplicații de proces. Modelul, numărul și tipul de intrări, memoria de înregistrare, funcțiile de audit trail și aprobările se confirmă pe cod, din documentația ABB.`
       },
       {
         name: 'ABB 266 Transmițător Presiune Absolută/Diferențială',
-        description: `Transmițător presiune absolute/gauge/diferențială cu precizie ±0.04% span. Game măsurare: 0-0.25 mbar până la 0-700 bar (absolute), -1 bar până +400 bar (gauge), 0-10 mbar până 0-30 bar (diferențială). Senzor silicon capacitiv cu temperatură compensată -40°C până +125°C, suprapresiune până la 400 bar fără deteriorare permanentă. Materiale proces: diafragmă 316L SST (standard), Hastelloy C276 (acid HCl/H2SO4), Tantalum (HF), Monel (amoniac). Display LCD opțional cu indicator bargraph 0-100%. Comunicare: HART 7 (standard), Profibus PA, Foundation Fieldbus H1. Diagnostic conform NAMUR NE107: alertă calibrare, temperatură exces, saturație senzor. Certificare: ATEX/IECEx ia pentru zona 0, FM, CSA, SIL 2 conform IEC 61508. Alimentare: 10.5-55VDC (HART), 9-32VDC (Fieldbus). Aplicații: măsurare nivel (hidrostatic), flux (ΔP prin diafragmă), presiune vapori, vacuum.`
+        description: `Transmițătoare de presiune HART din seria 266, inclusiv varianta 266 DDS (Digital Diaphragm Seal), cu doi senzori și semnal HART 4-20 mA, pentru măsurarea nivelului în rezervoare, containere și silozuri. Pentru DDS, ABB indică precizie de la ±0,085% la ±0,06% și plajă de presiune de 16 - 105.000 kPa, conform PED categoria III; variantele DDS sunt 266GRT, 266GST, 266HRH și 266HSH. Plajele, materialele, aprobările și precizia celorlalte variante se confirmă pe cod, din documentația ABB.`
       },
     ],
     certifications: [
-      'ISO/IEC 17025:2017 (Acreditare laborator calibrare)',
+      
       'EN15267-3:2007 (QAL1 pentru analizoare emisii CEMS)',
       'ATEX Directive 2014/34/EU (Zone explozive Ex ia/ib/d)',
       'IECEx (International Electrotechnical Commission Explosive)',
       'FM Approvals (Factory Mutual - SUA)',
       'CSA (Canadian Standards Association)',
-      'SIL 2/3 conform IEC 61508 (Safety Integrity Level pentru transmițătoare)',
-      'FDA 21 CFR Part 11 (Recordere electronice pharma)',
+      
+      
       'NAMUR NE107 (Self-Monitoring and Diagnosis of Field Devices)',
       'OIML R49 (Organisation Internationale de Métrologie Légale - debitmetre apă)',
       'ISO 9001:2015, ISO 14001:2015, ISO 45001:2018',
@@ -337,7 +337,7 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       'Ciment (fabrici ciment, coșuri fum CEMS)',
       'Semiconductors (fabrici wafer, gaze ultra-pure)',
     ],
-    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24–72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare inclusă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
+    infinitrade: `La Infinitrade lucrăm din surse publice ale producătorului pentru gama ABB Measurement & Analytics și aducem instrumentele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru transmițătoare și recordere din gama standard putem confirma uneori 24–72 h din stoc, iar pentru debitmetre sau analizoare configurate individual termenul obișnuit este de 1–4 săptămâni la comandă. Nu putem confirma un termen exact înainte de a verifica disponibilitatea reală la furnizor pentru specificațiile dumneavoastră. Pentru o ofertă corectă, trimiteți-ne tipul de instrument, gama de măsurare necesară, conexiunea de proces și protocolul de comunicare dorit, iar noi revenim cu disponibilitate și termen confirmate.`,
     limitation: `Nu putem confirma stocul permanent pentru fiecare variantă de debitmetru sau analizor configurat - fiecare comandă depinde de disponibilitatea reală la producător.`,
     sources: [
       {"title":"Flow measurement products","url":"https://new.abb.com/products/measurement-products/flow","publisher":"ABB","accessed":"2026-09-22"},
@@ -410,12 +410,12 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de analizor de gaze ABB?",
-        "a": "Trimiteți componenții de gaz pe care doriți să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm variantă potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
+        "a": "Trimiteți componenții de gaz pe care doriți să îi măsurați, domeniul de concentrație așteptat, temperatură și presiunea gazului la punctul de prelevare și tipul de ieșire de semnal necesar. Cu aceste informații recomandăm varianta potrivită, de exemplu ACF5000 LCS pentru emisii sau GCP100 pentru analiza de proces."
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -424,35 +424,35 @@ Recorderele electronice Commander C100 și C200 înlocuiesc recorderele cu hârt
     founded: 1988,
     headquarters: 'Ningbo, China',
     employees: '7,000+',
-    overview: `Airtac este un producător taiwanez de componente pneumatice, cu un raport calitate-preț apreciat de utilizatori. Cilindrii și valvele Airtac se folosesc frecvent pe linii de producție din România, iar durabilitatea lor la un preț mai accesibil decât brandurile europene este apreciată de utilizatori. Cilindrii seria SC (standard) și SI (ISO) se numără printre cele mai vândute la nivel mondial - peste 50 milioane de bucăți produse anual, conform producătorului. Un cilindru Airtac SC63x100 (63mm diametru, 100mm cursă) este cotat pentru 10 milioane cicluri în condiții industriale normale, comparabil cu un Festo sau SMC, la un preț mai redus.
+    overview: `Airtac International Group a fost înființat în Taiwan în 1988, are sediul central la Ningbo, China, și produce componente pneumatice: actuatoare, componente de control, unități de pregătire a aerului și accesorii. Gama Airtac include cilindri, valve, unități de pregătire a aerului, racorduri și ghidaje liniare. Dimensiunile, cursele, durata de viață și parametrii fiecărui cilindru depind de serie și se confirmă pe cod, din catalogul Airtac.
 
-Valvele seria 4V (solenoid) acoperă 2-5 căi, debite până la 4500 l/min la 7 bar, bobine AC sau DC. Airtac oferă certificare ISO conform DIN/ISO standards pentru toate produsele - un cilindru Airtac SI63 e compatibil dimensional cu ISO 15552, poți înlocui direct un Festo DSNU sau SMC C95 fără modificări mecanice. Conexiunile rapide seria KQ (push-in) sunt identice cu SMC KQ2, disponibile la un preț mai redus.
+Gama de electrovalve include seriile 4V100/200/300/400, 4SV și 7SV (5/2 și 5/3 căi) și 4STV (3/2 căi), iar pentru pregătirea aerului sunt disponibile unitățile seriilor GA și GP. Dimensiunile de montaj, debitele și compatibilitatea cu produsele altor producători se confirmă pe cod, din fișa tehnică Airtac, înainte de comandă.
 
-Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU, folosite de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice. Certificare: ISO 9001, ISO 14001, CE conform Machinery Directive 2006/42/EC.`,
+Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compacti, rotative, ghidate, valve solenoid/manual/pneumatic, FRL (filtre, regulatoare, lubrificatoare), racorduri, furtunuri PU, folosite de la handling palete cu cilindri de 100mm până la microvalve 4V110-06 pentru picking electronice.`,
     whyChoose: [
-      'Compatibilitate ISO 15552 (cilindri), ISO 5599-1 (valve) - înlocuire directă Festo/SMC/Norgren',
-      'Preț semnificativ mai mic față de branduri europene la specificații tehnice identice',
+      'Compatibilitatea dimensională cu alte produse se confirmă pe cod, din fișa tehnică Airtac',
+      'Gamă variată de serii pentru aplicații pneumatice standard',
       'Gamă completă: cilindri, valve, FRL, racorduri, actuatoare — acoperire largă a nevoilor de automatizare pneumatică',
-      'Durată de viață comparabilă: cilindri 10 milioane cicluri, valve 50 milioane cicluri',
-      'Certificare CE conform Machinery Directive 2006/42/EC, RoHS, REACH',
+      'Durata de viață depinde de serie și de condițiile de lucru; valorile se confirmă din fișa tehnică Airtac',
+      'Declarațiile de conformitate (CE, RoHS, REACH) se confirmă pe cod, din documentația Airtac',
       'Gamă largă disponibilă prin canale de distribuție din UE, cu termene diferite în funcție de model',
     ],
     keyProducts: [
       {
         name: 'Airtac Cilindri Pneumatici SC/SI (Standard/ISO)',
-        description: `Seria SC (Standard Cylinder) și SI (ISO 15552) acoperă diametre 32-125mm, curse standard 25-1000mm (custom până 2000mm). Cilindru SI63x100 (ISO 63mm, 100mm cursă): presiune lucru 1-10 bar, temperatură -20°C până +80°C, viteză piston până la 1000mm/s. Tijă din oțel inoxidabil cromat dur (Ra < 0.4µm), camă cilindru aluminiu anodat dur, garnituri NBR (standard), PU (low friction). Forță teoretică la 6 bar: împingere 1875N, tragere 1500N (tijă Ø20mm). Magnet permanent pentru senzori reed inclus standard. Amortizare hidraulică reglabilă ambele capete pentru viteze >100mm/s. Fixare: ISO standard (flange față/spate, picior, clevis). Certificare: ISO 15552, CE, RoHS. Opțiuni: tijă dublă (SI-TDA), ghidare liniară (SI-R), rezistență coroziune marină (inox 316). Aplicații: handling, ambalare, asamblare, textile, wood processing.`
+        description: `Gama de actuatoare Airtac include cilindri standard, cilindri rotunzi, mese glisante, cilindri ghidați, cilindri fără tijă cu cuplaj magnetic, clești pneumatici și mese rotative. Diametrele, cursele, presiunea de lucru, forța teoretică și accesoriile depind de serie; le confirmăm pe cod, din catalogul Airtac.`
       },
       {
         name: 'Airtac Valve Solenoid 4V (2-5 Căi)',
-        description: `Gama 4V acoperă: 4V110 (1/8", 5/2), 4V210 (1/4", 5/2), 4V310 (3/8", 5/2), 4V410 (1/2", 5/2), 4V430 (1/2", 5/3). Valvă 4V210-08 (1/4" NPT, 5 căi/2 poziții): debit 600 l/min la 7 bar ΔP=100kPa, presiune lucru 1.5-8 bar, temperatură -5°C până +50°C. Bobină AC: 24V, 110V, 220V (50/60Hz, 3.5VA), DC: 12V, 24V (2.5W). Timp comutație: 15-30ms, durată viață 50 milioane cicluri. Conexiune: NPT, RC (PT), G (ISO), plug-in pentru manifold. Configurație: single solenoid cu return arc (normală închis/deschis), double solenoid (bistabil, memorie poziție fără aer). Indicator LED stare bobină, protecție supratensiune varistor, diodă free-wheeling pentru DC. Manual override emergency. Certificare: CE, RoHS, Ex ia pentru ATEX (opțional). Aplicații: control cilindri, automatizări OEM, linii ambalare, CNC.`
+        description: `Seria 4V include modelele 4V100, 4V200, 4V300 și 4V400, cu configurații 5/2 și 5/3 căi; pe lângă acestea, Airtac oferă seriile 4SV (5/2 și 5/3 căi) și 4STV (3/2 căi). Debitul, presiunea de lucru, tensiunile bobinelor și temperatura depind de serie și se confirmă pe cod, din fișa tehnică Airtac.`
       },
       {
-        name: 'Airtac GFC-B FRL (Filtru-Regulator-Lubrificator)',
-        description: `Seria GFC-B modular combinație FRL pentru pregătire aer comprimat conform ISO 9001. Unitate GFC400-15-B (1/2" NPT, debit max 4500 l/min): filtru cu element sintered bronze 40µm (opțional 5µm pentru finisaj), cană policarbonat transparent 50cc cu protecție metal, drain manual sau auto. Regulator presiune 0.5-8.5 bar reglare cu manometru Ø52mm clasa 1.6 (precizie ±2.5%), relieving type (scade presiune automat dacă crești set-point). Lubrificator tip Venturi cu rezervor 160cc, reglare picurare 1-60 picături/min vizibil prin dome transparent, ulei ISO VG32 pneumatic. Temperatură lucru: -5°C până +60°C, montare verticală ±5°. Accesorii: bracket montaj, set cuplaje rapide, kit garnituri service. Aplicații: alimentare aer mașini CNC, linii producție, roboți pneumatici, cilindri precision.`
+        name: 'Airtac Unități de Pregătire Aer GA/GP (FRL)',
+        description: `Unități de pregătire a aerului comprimat (filtru, regulator, lubrificator), din gamele GA și GP ale Airtac. Debitul, finețea de filtrare, domeniul de reglare a presiunii și tipul de cană depind de serie; le confirmăm pe cod, din fișa tehnică Airtac.`
       },
       {
-        name: 'Airtac ACQ Cilindri Compacți Ghidați',
-        description: `Seria ACQ (Compact Guided Cylinder) cu ghidare liniară integrată pentru aplicații spațiu redus. ACQ32x50 (32mm diametru, 50mm cursă): presiune 1-10 bar, temperatură -10°C până +70°C, viteză max 500mm/s. Ghidare cu role liniare precizie >0.01mm, moment rezistență torsiune 5Nm. Corp aluminiu anodat dur, piston aluminiu cu garnituri NBR-PU low friction. Tijă din oțel inoxidabil 303, cursă standard 10-100mm (ACQ32), 10-150mm (ACQ40-100). Fixare: tapped holes M6 față/spate, T-slot pentru profile aluminiu. Amortizare bumpers elastomer standard, opțional hidraulică reglabilă. Magnet pentru senzori reed cu adaptor lateral. Certificare: ISO, CE, RoHS. Aplicații: pick & place electronice, handling PCB, asamblare small parts, sorting, gating. Ideal pentru roboți colaborativi unde spațiul e critic.`
+        name: 'Airtac Cilindri Ghidați',
+        description: `Cilindri ghidați din gama de actuatoare Airtac, cu ghidare integrată, pentru aplicații cu spațiu redus. Diametrele, cursele, presiunea, viteza și momentul de torsiune depind de serie; le confirmăm pe cod, din catalogul Airtac.`
       },
     ],
     certifications: [
@@ -460,10 +460,10 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       'ISO 14001:2015 (Management ambiental)',
       'ISO 15552 (Cilindri pneumatici cu diametru 32-320mm)',
       'ISO 5599-1 (Valve pneumatice 5 căi/2 poziții)',
-      'CE Marking conform Machinery Directive 2006/42/EC',
+      
       'RoHS Directive 2011/65/EU (Restriction of Hazardous Substances)',
       'REACH Regulation EC 1907/2006 (Registration, Evaluation, Authorisation of Chemicals)',
-      'ATEX Directive 2014/34/EU (Echipamente zone explozive - opțional pentru valve Ex ia)',
+      
     ],
     industries: [
       'Automotive (asamblare, sudură robot, handling caroserii)',
@@ -549,59 +549,59 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de ghidaje liniare Airtac?",
-        "a": "Trimiteți lățimea șinei sau a căruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifiantă precum seria LSH sau de una miniaturală precum seria LRW. Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
+        "a": "Trimiteți lățimea șinei sau a căruciorului, lungimea cursei necesare, sarcina aplicată și dacă aveți nevoie de o variantă autolubrifiantă precum seria LSH sau de o altă serie din gama de ghidaje (LSQH, LSH, LSD). Cu aceste date identificăm ghidajul Airtac potrivit pentru aplicația dumneavoastră."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul Airtac, conform surselor citate.' },
     ],
   },
 
   'anderson-negele': {
     founded: 1930,
-    headquarters: 'Waldenbuch, Germania',
+    headquarters: 'Egg an der Günz, Germania (și Fultonville, SUA)',
     employees: '200+',
-    overview: `Anderson-Negele este un furnizor specializat de senzori igienici pentru industria alimentară, băuturi, pharma. Sistemele Anderson-Negele se folosesc frecvent în fabrici de lactate, bere, pharma din România, iar producătorul oferă certificări 3-A Sanitary, EHEDG, FDA pentru gama de produse. Senzorii de conductivitate seria condumax CLS21 sunt utilizați frecvent pentru monitorizare CIP (Cleaning-In-Place) - detectează interfața dintre apă de clătire și detergent cu precizie 99.9%, economisind consumabile și timp.
+    overview: `Anderson-Negele este un furnizor specializat de senzori igienici pentru industria alimentară, băuturi, pharma. Sistemele Anderson-Negele se folosesc frecvent în fabrici de lactate, bere, pharma din România, iar producătorul oferă certificări 3-A Sanitary, EHEDG, FDA pentru gama de produse. Senzorii inductivi de conductivitate ILM-4 se pot monta în conducte de la DN40 în sus, au timp de răspuns de 1,2 secunde, ieșire IO-Link și 4…20 mA în paralel și respectă standardele igienice 3-A și EHEDG.
 
-Senzorii de turbiditate seria turbimax CUS51 detectează particule de la 0.001 NTU (Nephelometric Turbidity Units) până la 4000 NTU - ideali pentru monitorizare filtrare bere, verificare curățenie linie după CIP, control calitate lapte. Un senzor turbimax detectează instantaneu tranziția apă clară → detergent → acid → apă clară în CIP, eliminând testele manuale cu pH-metru. Tehnologia scatter light cu compensare temperatură și auto-calibrare face senzorii stabili - drift < 1% pe 6 luni.
+Senzorii de turbiditate din seria ITM (ITM-51 cu retrodifuzie, ITM-4 și ITM-4DW cu patru fascicule) monitorizează automat domeniul 0 - 300.000 NTU și respectă ghidurile igienice 3-A, EHEDG și FDA. Gama exactă și precizia fiecărui model se confirmă pe cod, din fișa tehnică Anderson-Negele.
 
-Gama de sterilizare și igienizare Anderson-Negele include soluții specializate: ITM-4 (Inline Test Monitoring) testează automat eficiența sterilizării cu abur pe liniile aseptice pharma. Sistemul ISO-Connect oferă conexiuni igienice tip SMS, DIN 11851, Tri-Clamp cu garnituri EPDM/FPM/PTFE pentru orice mediu (acid, alcalin, solvenți). Certificare completă: 3-A Sanitary Standards, EHEDG (European Hygienic Engineering & Design Group), FDA 21 CFR Part 177 (contact alimente), USP Class VI (pharma).`,
+Anderson-Negele oferă și elemente de conectare igienică: racordul fără spațiu mort CPM (pentru conducte de la 1/4″), puțuri termometrice farmaceutice cu conexiune Tri-Clamp și mufe de rezervor pentru montarea senzorilor hidrostatici de nivel. Dimensiunile, materialele și certificările fiecărui produs se confirmă pe cod, din fișa tehnică.`,
     whyChoose: [
-      'Certificări sanitare complete: 3-A, EHEDG, FDA 21 CFR 177, USP Class VI pentru contact alimentar și pharma',
-      'Precizie maximă: conductivitate ±0.5% (CIP monitoring), turbiditate 0.001-4000 NTU, nivel ±2mm',
-      'Design igienic: fără zone moarte, Ra < 0.8µm finish interior, drenaj complet gravitațional',
-      'CIP/SIP compatibility: sterilizare abur 143°C, rezistență chimică pH 0-14, NaOH 4%, HNO3 65%',
-      'Auto-calibrare: senzorii optici au calibrare automată zilnică, elimină drift-ul',
-      'Process analytical: senzorii sunt PAT (Process Analytical Technology) conform FDA pentru pharma',
+      'Senzori proiectați conform standardelor igienice 3-A și EHEDG și ghidurilor FDA',
+      'Seria ITM de senzori de turbiditate acoperă domeniul 0 - 300.000 NTU; precizia fiecărui model se confirmă din fișa tehnică',
+      'Design igienic („Hygienic by Design”), cu racord fără spațiu mort CPM pentru conducte mici',
+      'Limitele de temperatură și rezistența chimică depind de model; le confirmăm pe cod, din fișa tehnică',
+      'Interfață IO-Link și ieșire 4…20 mA în paralel la senzorii de conductivitate ILM-4',
+      'Gamă de senzori pentru alimente, băuturi și științele vieții: nivel, presiune, temperatură, debit, conductivitate și turbiditate',
     ],
     keyProducts: [
       {
-        name: 'Anderson-Negele condumax CLS21 Senzor Conductivitate',
-        description: `Senzor conductivitate igienic pentru monitorizare CIP și interfață faze. Gamă măsurare: 0.005-2000 mS/cm (micro-Siemens/cm), precizie ±0.5% din citire, repetabilitate ±0.1%. Temperatură proces: -20°C până +143°C (SIP steam), presiune max 10 bar. Electrozi din oțel inoxidabil 316L (1.4404), izolație PEEK rezistentă termic și chimic. Celulă conductivitate constantă K=1.0 cm⁻¹, compensare temperatură automată cu Pt1000 integrat. Conexiune proces: Tri-Clamp 1.5" (DN40), DIN 11851 DN40, SMS 1145 DN40, Varivent N51. Ieșire: 4-20mA (HART 7), Profibus PA, Foundation Fieldbus. Certificare: 3-A Sanitary Standard 74-03, EHEDG, FDA, IP69K pentru jet înaltă presiune. Aplicații: detectare interfață CIP (apă/detergent/acid), monitorizare concentrație NaOH/HNO3, verificare clătire finală (conductivitate < 30 µS/cm = curățenie completă).`
+        name: 'Anderson-Negele ILM-4 Senzor Conductivitate Inductiv',
+        description: `Senzor inductiv de conductivitate (ILM-4; varianta cu electronică la distanță ILM-4R), cu timp de răspuns de 1,2 secunde, compensare de temperatură, tehnologie Flex-Hybrid cu IO-Link și ieșire 4…20 mA în paralel, montabil în conducte de la DN40, conform standardelor igienice 3-A și EHEDG. Gamele de măsurare, temperatura și presiunea de lucru se confirmă pe cod, din fișa tehnică.`
       },
       {
-        name: 'Anderson-Negele turbimax CUS51 Senzor Turbiditate',
-        description: `Senzor turbiditate scatter light 90° pentru industria băuturi și lactate. Gamă măsurare: 0.001-4000 NTU (Nephelometric Turbidity Units) sau 0.1-100% transmisie, precizie ±2% din citire. LED infraroșu 860nm cu durată viață >10 ani, detector fotodiodă silicon cu compensare temperatură. Temperatură proces: -10°C până +143°C (SIP), presiune max 10 bar. Corp senzor inox 316L (1.4404), fereastră safir antireflectivă, fără zone moarte. Auto-curățare: jet CIP integrat cu purjare automată după fiecare ciclu. Conexiune: Tri-Clamp 2" (DN50), DIN 11851 DN50. Ieșire: 4-20mA HART, Profibus DP, Ethernet/IP. Calibrare automată zilnică cu referință internă, drift compensat digital < 1%/6 luni. Certificare: EHEDG Type EL Class I, 3-A, FDA. Aplicații: filtrare bere (target <0.5 NTU pentru bright beer), verificare curățenie post-CIP (<0.01 NTU), monitorizare separare lapte/smântână.`
+        name: 'Anderson-Negele ITM Senzori Turbiditate',
+        description: `Senzori de turbiditate ITM-51 (retrodifuzie), ITM-4 și ITM-4DW (patru fascicule), pentru monitorizare automată în domeniul 0 - 300.000 NTU, conform ghidurilor igienice 3-A, EHEDG și FDA. Gama și precizia fiecărui model se confirmă pe cod, din fișa tehnică.`
       },
       {
-        name: 'Anderson-Negele L-Gage Senzor Nivel Capacitiv',
-        description: `Senzor nivel capacitiv non-contact pentru lichide și spume. Principiu măsurare: RF capacitance 1.1 MHz, insensibil la spumă, viscozitate, densitate. Gamă măsurare: 0-200mm, precizie ±2mm, repetabilitate ±1mm. Sondă ceramică Al2O3 99.7% puritate, rezistență chimică absolută (pH 0-14, NaOH 50%, acizi concentrați). Temperatură proces: -40°C până +150°C, presiune -1 până +40 bar. Conexiune: thread G1" sau NPT 1", Tri-Clamp 1.5"/2". Ieșire: 4-20mA, relay contact SPDT pentru nivel Hi/Lo, opțional Profibus DP. Certificare: 3-A, EHEDG, ATEX II 1/2 G Ex ia IIC T6 pentru zone 0/1 gaz. Aplicații: control nivel min/max în tancuri buffer (CIP, mix, fermentare), protecție pompă uscată, switch interfață bere/CO2 în fermentatoare, detectare spumă în separatoare. Ideal pentru pharma (clean-in-place validation) și dairy (detectare nivel smântână în separator).`
+        name: 'Anderson-Negele Senzori de Nivel',
+        description: `Anderson-Negele oferă senzori de nivel punctual, printre care LS (capacitiv), LB (conductiv), NCS-31P/NCS-32P (capacitiv, farmaceutic) și Levelite (optic), precum și senzori de nivel continuu din seriile L3, SL, D3, NSL-F și NSL-M. Parametrii fiecărui model se confirmă pe cod, din fișa tehnică.`
       },
       {
-        name: 'Anderson-Negele ITM-4 Inline Test Monitoring',
-        description: `Sistem automat testare eficiență sterilizare cu abur pe linii aseptice. Principiu: bio-indicator Geobacillus stearothermophilus (10⁶ spori, D121=1.5 min) expus la temperatura de sterilizare, apoi incubat 48h pentru verificare creștere. ITM-4 gestionează automat: încărcare bio-indicator în cameră izolatoare, poziționare în flux abur SIP, recuperare post-sterilizare, incubație la 56°C±1°C, citire rezultat (pozitiv/negativ). Temperatură test: 121-134°C, presiune max 3 bar. Cameră sterilizare inox 316L electropolish Ra<0.4µm, conexiune DIN 11851 DN25 la linia de proces. Display touchscreen 7" pentru control ciclu și stocare 1000 teste conform FDA 21 CFR Part 11 (audit trail, semnătură electronică). Comunicare: Ethernet TCP/IP, OPC UA pentru integrare cu batch system. Certificare: CE, FDA registered, conform EU GMP Annex 1 pentru aseptic processing. Aplicații: validare SIP linii filling aseptic (pharma injectabile, băuturi UHT), verificare conformitate Ph.Eur. 5.1.1 (sterility test).`
+        name: 'Anderson-Negele Accesorii de Conectare Igienică',
+        description: `Gama include racordul fără spațiu mort CPM pentru conducte mici (de la 1/4″), puțuri termometrice cu conexiune Tri-Clamp pentru aplicații farmaceutice și mufe de rezervor pentru senzori hidrostatici de nivel. Dimensiunile și materialele se confirmă pe cod, din fișa tehnică.`
       },
     ],
     certifications: [
       '3-A Sanitary Standards (74-03 pentru senzori, 78-02 pentru valve)',
       'EHEDG (European Hygienic Engineering & Design Group) Type EL Class I',
-      'FDA 21 CFR Part 177 (Food Contact Substances)',
-      'USP Class VI (United States Pharmacopeia - biocompatibilitate)',
+      'Ghiduri FDA pentru contact cu alimentele (conform paginilor producătorului)',
+      
       'ATEX Directive 2014/34/EU (Zone explozive Ex ia pentru zone 0/1)',
       'IECEx (International Explosive Atmospheres)',
-      'EU GMP Annex 1 (Good Manufacturing Practice pentru aseptic)',
+      
       'ISO 9001:2015, ISO 14001:2015, ISO 45001:2018',
       'ASME BPE (Bioprocessing Equipment standard pentru pharma)',
     ],
@@ -617,7 +617,7 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
       'Personal Care (șampoane, săpunuri lichide)',
       'Chemical (fine chemicals, specialty chemicals)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24–72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 1–4 săptămâni la comandă, cu calibrare din fabrică. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Anderson-Negele și aducem senzorii la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru senzori standard din portofoliu putem confirma uneori 24–72 h din stoc, iar pentru sisteme complexe, precum ITM-4 sau configurații custom de proces, termenul obișnuit este de 1–4 săptămâni la comandă. Nu deținem date proprii despre stocul permanent al fiecărei variante de senzor. Pentru o ofertă corectă, trimiteți-ne conexiunea de proces, gama de măsurare necesară și cerințele de certificare (3-A, EHEDG, FDA), iar noi revenim cu termenul real confirmat de furnizor.`,
     limitation: `Nu putem realiza validarea completă IQ/OQ/PQ pentru linii aseptice - aceasta rămâne responsabilitatea unui integrator certificat GAMP 5.`,
     sources: [
       {"title":"Continuous Level Sensors","url":"https://www.anderson-negele.com/continuous-level-sensors","publisher":"Anderson-Negele","accessed":"2026-09-23"},
@@ -713,8 +713,8 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării Anderson-Negele și am corectat datele greșite, conform surselor citate.' },
     ],
   },
@@ -722,36 +722,36 @@ Gama de sterilizare și igienizare Anderson-Negele include soluții specializate
   'armstrong': {
     founded: 1900,
     headquarters: 'Three Rivers, Michigan, SUA',
-    employees: '1,500+',
-    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong se folosesc frecvent în fabrici, spitale, clădiri comerciale din România, unde fiabilitatea lor este bine cunoscută. Pompele de condensat seria Pumptrap combină oala de condens cu pompa electrică într-o singură unitate compactă, eliminând necesitatea pompei separate și reducând costul instalației. Un Pumptrap PT-450 (450 litri/h) poate funcționa 15+ ani în sisteme de încălzire fără service, conform documentației producătorului.
+    employees: '3,000+ (angajați și reprezentanți, la nivel global)',
+    overview: `Armstrong este un producător nord-american specializat în sisteme HVAC industriale - pompe de condensat, oale de condens, separatoare vapor/lichid, filtre. Sistemele Armstrong sunt destinate instalațiilor de abur, condensat și apă caldă din fabrici, spitale și clădiri comerciale. Pumptrap-urile Armstrong sunt pompe de condensat nealimentate electric: funcționează cu abur, aer sau gaz sub presiune, fără motoare, etanșări sau componente electrice, conform documentației producătorului (de exemplu seriile PT-200 și PT-300).
 
-Oalele de condens mecanice seria IB (Inverted Bucket) sunt construite pentru medii solicitante - modelul IB880 suportă presiuni diferențiale de până la 40 bar și temperaturi până la 370°C. Armstrong oferă garanție 10 ani pentru oalele IB. Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate ridicată.
+Oalele de condens mecanice cu cupolă inversată (Inverted Bucket) sunt construite pentru medii solicitante; seria 880 are presiune maximă de lucru de 10 bar și temperatură maximă de 232°C, conform fișei tehnice a producătorului.  Designul inverted bucket e mecanic simplu: fără electronice, fără reglaje fine, doar un plutitor și o valvă - fiabilitate ridicată.
 
-Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din condensul antrenat în abur prin forță centrifugală - esențiale pentru protecția turbinelor cu abur și echipamentelor sensibile. Separatoarele CB450 (DN450) se folosesc frecvent pe conducte abur supraîncălzit 40 bar, unde condensul antrenat poate distruge paletele turbinei - montarea CB450 elimină această problemă. Certificare: ASME Section VIII Div.1 pentru vase sub presiune, PED 2014/68/EU categorie II-IV.`,
+Separatoarele centrifugale Armstrong (seriile DS) elimină condensul antrenat în abur prin forță centrifugală și protejează echipamentele sensibile; eficiența și limitele de lucru se confirmă pe model, din fișa tehnică. Certificările (de exemplu PED 2014/68/UE) depind de model și se confirmă pe cod.`,
     whyChoose: [
-      'Garanție 10 ani pentru oalele de condens mecanice seria IB',
-      'Eficiență energetică: oale tip termodinamic TD52L consumă zero energie (acționate de ΔP vapor), economii 15-30%/an',
-      'Design simplu mecanic: oale IB fără componente electronice, durată viață 20-30 ani fără piese de schimb',
-      'Pompe Pumptrap integrate: combină oala + pompa electrică, reduce costul instalație cu 30-40%',
-      'Certificări presiune înaltă: ASME VIII, PED categorie IV pentru presiuni până la 100 bar (oale speciale)',
-      'Software gratuit SAGE (Steam And Condensate Group Engineering) pentru sizing și audit energetic',
+      'Oale de condens cu cupolă inversată (seria 800) cu design mecanic simplu, fără componente electronice',
+      'Oalele de condens funcționează fără energie electrică, acționate de presiunea diferențială a aburului',
+      'Design mecanic simplu: oalele cu cupolă inversată nu au componente electronice',
+      'Pompe Pumptrap nealimentate electric: funcționează cu abur, aer sau gaz sub presiune',
+      'Certificări pentru echipamente sub presiune (de exemplu PED 2014/68/UE), în funcție de model',
+      'Instrumente software ale producătorului pentru dimensionare și selecție, conform site-ului Armstrong',
     ],
     keyProducts: [
       {
-        name: 'Armstrong IB880 Oală Condens Inverted Bucket',
-        description: `Oală condens mecanic tip inverted bucket pentru presiuni înalte și aplicații critice. Gamă presiune: 0.5-40 bar ΔP (diferențial între inlet și outlet), temperatură max 370°C. Conexiune: thread NPT 3/4"-2" sau flanșă RF ANSI 150/300 DN15-DN50. Corp din fontă ductilă sau oțel carbon ASTM A105, interior din inox 316 pentru rezistență la condensat acid (pH <5 din CO2 dizolvat). Plutitor inox 304, valvă disc inox 316 cu șaibă stellite pentru rezistență la eroziune. Capacitate evacuare: 450-15,000 kg/h condens la ΔP=1 bar (modelul IB882: 2,700 kg/h). Garanție 10 ani fără limitare cicluri. Test presiune: 2x presiune lucru conform ASME Section VIII. Certificare: PED 2014/68/EU categorie II-III, ASME stamp. Aplicații: linii abur proces (textile, hârtie, chimice), turbine abur, heat exchangers, autoclave sterilizare.`
+        name: 'Armstrong seria 880 - oală de condens cu cupolă inversată',
+        description: `Oală condens mecanic tip inverted bucket pentru presiuni înalte și aplicații critice. Presiune maximă de lucru de 10 bar (150 psig), temperatură maximă de 232°C, corp din fontă (ASTM A48 Clasa 30), racorduri filetate de 1/2 și 3/4 inch NPT/BSPT, capacitate de până la 2.000 kg/h, conform fișei tehnice a seriei 880. Aplicații: linii de abur de proces (textile, hârtie, chimice), turbine cu abur, schimbătoare de căldură, autoclave de sterilizare.`
       },
       {
-        name: 'Armstrong Pumptrap PT-450 Pompă Condensat Integrată',
-        description: `Sistem integrat oală condens + pompă electrică pentru returnare condensat la presiune joasă. Capacitate: 450 litri/h (PT-450) până la 2,700 litri/h (PT-2700). Presiune inlet: 0-10 bar vapor, outlet pompă: 0-6 bar (head 60m coloană apă). Rezervor condens 15 litri inox 304, plutitor pentru control nivel automat pornire/oprire pompă. Pompă centrifugală monoetajată din inox 316, motor electric IP55 0.37-1.1kW (230V/400V 50Hz). Temperatură condensat max 110°C (sub presiune atmosferică la outlet). Sistem de ventilare automat pentru eliminare aer și gaze incondensabile.Eby-pass mecanic pentru continuare funcționare în caz defect pompă (evacuare gravitațională). Montaj compact: 600x400x800mm (LxlxH), greutate 45kg. Certificare: PED, CE, cETLus (SUA/Canada). Aplicații: returnare condensat din echipamente joasă presiune (calandre textile, uscătoare hârtie, autoclav sterilizare) la cazan pentru economie apă tratată și energie.`
+        name: 'Armstrong Pumptrap - pompă de condensat nealimentată electric',
+        description: `Pompă de condensat nealimentată electric, acționată cu abur, aer sau gaz sub presiune, pentru returnarea condensatului. Seriile PT-200 și PT-300 au capacități de 2.400–3.700 lb/h (aprox. 1.100–1.700 kg/h), respectiv 11.600–16.600 lb/h (aprox. 5.300–7.500 kg/h); presiunile, dimensiunile și certificările se confirmă pe model, din fișa tehnică. Aplicații: returnare condensat din echipamente joasă presiune (calandre textile, uscătoare hârtie, autoclav sterilizare) la cazan pentru economie apă tratată și energie.`
       },
       {
-        name: 'Armstrong CB450 Separator Centrifugal Condens',
-        description: `Separator centrifugal pentru eliminare picături condens antrenat în abur. Principiu: abur intră tangențial în cameră cilindrică, forța centrifugală aruncă condensul pe perete unde se colectează și evacuează prin oală. Eficiență separare: 98% pentru picături >10 micron la viteze abur <30 m/s. Gamă presiune: 0.5-100 bar, temperatură max 540°C (abur supraîncălzit). Dimensiuni: DN25 (1") până la DN600 (24"), debite 100-500,000 kg/h abur. Corp din oțel carbon ASTM A106 Gr.B sau inox 316L pentru aplicații corozive. Pierdere presiune: <0.05 bar la debit nominal. Conexiune: flanșe RF ANSI 150/300/600 sau DIN PN16/40/100. Include oală condensat integrată pentru evacuare automată (tip termodinamic TD sau inverted bucket IB). Test hidrostatic: 1.5x design pressure conform ASME VIII. Aplicații: protecție turbine abur (condensul distruge palete), înainte heat exchangers (condensul reduce transfer termic), superheater furnaces (previne water hammer).`
+        name: 'Armstrong separator centrifugal (seria DS)',
+        description: `Separator centrifugal pentru eliminare picături condens antrenat în abur. Principiu: abur intră tangențial în cameră cilindrică, forța centrifugală aruncă condensul pe perete unde se colectează și evacuează prin oală. Seria DS include modelele DS-1 și DS-2 din fontă ductilă, DS-3 din inox 304 și DS-4 din oțel carbon (racorduri de 1/2 până la 12 inch, în funcție de model), fără piese mobile; presiunile, eficiența și certificările se confirmă pe model, din fișa tehnică. Aplicații: protecția turbinelor cu abur, a schimbătoarelor de căldură și a supraîncălzitoarelor împotriva condensului antrenat și a loviturilor de berbec.`
       },
       {
-        name: 'Armstrong TD52L Oală Condens Termodinamică',
-        description: `Oală condens termodinamic ultra-compactă pentru presiuni medii și înalte. Principiu funcționare: condensul cald trece prin disc metalic, vaporizează parțial, presiunea vaporilor închide discul până când condensul se răcește și ciclul reincepe. Gamă presiune: 0.5-40 bar ΔP, temperatură max 370°C. Conexiune: thread NPT 1/2"-1" sau socket weld. Corp din inox 316L, disc inox 17-4PH întărit, garnitură grafit flexibil. Capacitate: 200-4,500 kg/h la ΔP=1 bar (modelul TD52L: 1,800 kg/h). Dimensiuni ultra-compacte: 100x80x120mm, greutate 1.2kg - ideal pentru spații înguste. Fără piese mobile (doar discul care levitează), durată viață >10 ani fără service. Consum energie: ZERO (acționat doar de ΔP vapor). Certificare: PED categoria I-II, ASME. Aplicații: trasat conducte (heat tracing), schimbătoare mici, linii instrumentație, drenaj punctual.`
+        name: 'Oală de condens cu disc controlat (seria CD)',
+        description: `Oală condens termodinamic ultra-compactă pentru presiuni medii și înalte. Principiu funcționare: condensul cald trece prin disc metalic, vaporizează parțial, presiunea vaporilor închide discul până când condensul se răcește și ciclul reincepe. Seria CD (disc controlat) include, de exemplu, modelele CD-3300 și CD-4080; presiunea, capacitatea, dimensiunile și certificările se confirmă pe model, din fișa tehnică a producătorului. Aplicații: trasat conducte (heat tracing), schimbătoare mici, linii instrumentație, drenaj punctual.`
       },
     ],
     certifications: [
@@ -761,20 +761,20 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       'cETLus (Canadian + US electrical safety pentru pompe)',
       'ISO 9001:2015 (Sistem management calitate)',
       'ISO 14001:2015 (Management ambiental)',
-      'AHRI Standard 1130 (Air-Conditioning, Heating, Refrigeration Institute pentru pompe)',
-      'NSF/ANSI 61 (Drinking Water System Components pentru pompe apă potabilă)',
+      'Certificările exacte depind de produs; le confirmăm pe cod, din documentația Armstrong',
+      'Marcajul CE - conformitate pentru piața europeană, în funcție de produs',
     ],
     industries: [
       'Textile (calandre, uscătoare, vopsire)',
-      'Pulp & Paper (cilindri uscătoare Yankee, digestoare)',
-      'Pharmaceutical (autoclave sterilizare, clean steam generatoare)',
-      'Food Processing (cooking, pasteurizare, sterilizare)',
-      'Chemical (reactoare încălzite cu abur, distilare)',
-      'Oil & Gas (heat exchangers, tank heating, heat tracing)',
-      'Healthcare (spitale, sterilizare instrumente, HVAC)',
-      'Commercial Buildings (încălzire clădiri, mall-uri, hoteluri)',
-      'District Heating (centrale termice urbane)',
-      'Power Generation (turbine abur, condensatoare)',
+      'Industria hârtiei și celulozei (cilindri uscători Yankee, digestoare)',
+      'Industria farmaceutică (autoclave de sterilizare, generatoare de abur curat)',
+      'Procesarea alimentelor (gătire, pasteurizare, sterilizare)',
+      'Industria chimică (reactoare încălzite cu abur, distilare)',
+      'Petrol și gaze (schimbătoare de căldură, încălzirea rezervoarelor, trasare cu abur)',
+      'Sănătate (spitale, sterilizarea instrumentarului, climatizare)',
+      'Clădiri comerciale (încălzire, centre comerciale, hoteluri)',
+      'Termoficare (centrale termice urbane)',
+      'Producție de energie (turbine cu abur, condensatoare)',
     ],
     infinitrade: `La Infinitrade nu dispunem de date proprii despre stocul permanent al componentelor Armstrong și aducem oalele de condens și echipamentele conexe la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru repere standard putem confirma uneori 24–72 h din stoc, iar pentru separatoare mari sau configurații de presiune înaltă termenul obișnuit este de 1–4 săptămâni la comandă. Nu promitem un termen fix fără o confirmare prealabilă din partea furnizorului. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, presiunea și temperatura de lucru, precum și capacitatea de evacuare condens necesară — vă răspundem cu disponibilitatea și termenul real confirmate.`,
     limitation: `Nu efectuăm noi service în perioada de garanție a producătorului pentru oalele de condens Armstrong - acesta rămâne responsabilitatea rețelei Armstrong International.`,
@@ -838,7 +838,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "code": "4200",
-        "description": "Pompa electrică de condensat pentru retur spre cazăn"
+        "description": "Pompă de condensat pentru retur spre cazan"
       },
       {
         "code": "PT-300",
@@ -864,7 +864,7 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       },
       {
         "q": "Ce documente trimit pentru o ofertă pentru echipamente Armstrong?",
-        "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mențenanta."
+        "a": "Pentru o ofertă completă este nevoie de codul sau seria de pe eticheta echipamentului existent, presiunea și temperatura de lucru, debitul de condens sau abur și diametrul racordurilor. Dacă înlocuiți un model montat deja, o fotografie a plăcuței tehnice accelerează identificarea variantei corecte de înlocuire, inclusiv pentru accesorii precum garnituri sau seturi de mentenanță."
       },
       {
         "q": "Livrați echipamente Armstrong în România?",
@@ -876,8 +876,8 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am corectat anul înființării și sediul Armstrong, conform surselor citate; am corectat identificarea producătorului: Armstrong International.' },
     ],
   },
@@ -886,13 +886,13 @@ Separatoarele de condens seria CB (Centrifugal separator) elimină 98% din conde
     founded: 1957,
     headquarters: 'Sesto Calende, Italia',
     employees: '750+',
-    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc frecvent în prese hidraulice, injectoare plastic, mașini test din România, unde răspunsul dinamic și precizia lor sunt apreciate de utilizatori. Valvele servoproporționale direcționale din seria DLHZO-TE au traductor de poziție LVDT și electronică analogică integrată; conform catalogului Atos, pentru mărimea ISO 4401-06 timpul de răspuns este de maximum 15 ms, iar histerezisul de maximum 0,1%.
+    overview: `Atos este un producător italian specializat în hidraulică industrială de precizie - valve proporționale, pompe, cilindri, electronice de comandă. Sistemele Atos se folosesc în prese hidraulice, mașini de injecție a maselor plastice și bancuri de test, în aplicații care cer reglaj precis al presiunii, al debitului și al poziției. Valvele servoproporționale direcționale Atos, de exemplu cele din seria DLHZO, au traductor de poziție LVDT și electronică de comandă integrată; timpul de răspuns, histerezisul și debitul pe fiecare mărime se confirmă pe cod, din documentația Atos.
 
 Pompele cu pistoane axiale cu cilindree variabilă din seria PVPC au, conform catalogului Atos, cilindree între 29 și 160 cm³/rot și comenzi mecanice (compensator de presiune, reglaj în funcție de sarcină - load sensing, putere constantă) sau proporționale. La modelul PVPC-C-5073 (73 cm³/rot, cu compensator de presiune manual) cilindreea se reduce pe măsură ce presiunea din sistem se apropie de valoarea reglată, deci pompa consumă doar puterea cerută de sarcină, nu debitul maxim permanent.
 
 Electronica de comandă Atos seria E-ME-AC este un driver electronic în format Eurocard pentru valve proporționale fără traductor integrat; reglează curentul din solenoid și poate fi folosită în sisteme de reglare a presiunii, debitului sau poziției, în buclă deschisă sau închisă, cu semnal de referință de 0-5 V, ±5 V sau 4-20 mA. Certificare: ISO 9001, ISO 14001, directiva PED pentru componente presiune.`,
     whyChoose: [
-      'Răspuns dinamic rapid: valve servoproporționale DLHZO-TE cu timp de răspuns de maximum 15 ms și histerezis de maximum 0,1%, conform catalogului',
+      'Valve servoproporționale cu traductor de poziție LVDT, pentru reglaj precis al poziției și al debitului; performanțele dinamice se confirmă pe cod, din catalogul Atos',
       'Drivere electronice E-ME-AC pentru valve proporționale, utilizabile în sisteme de reglare în buclă deschisă sau închisă',
       'Eficiență energetică: pompe PVPC cu cilindree variabilă, care adaptează debitul la cerința sarcinii',
       'Gamă largă de componente hidraulice: valve, pompe, cilindri, filtre, grupuri hidraulice și drivere electronice',
@@ -902,11 +902,11 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
     keyProducts: [
       {
         name: 'Atos DLHZO Valve Proporționale Direcționale',
-        description: `Valve servoproporționale direcționale cu traductor de poziție LVDT și electronică analogică integrată, pentru reglaj precis al debitului și al direcției. Conform catalogului Atos, pentru mărimea ISO 4401-06 (DLHZO-TE): debit maxim 40 l/min la ΔP 70 bar, presiune maximă 350 bar la porturile P, A, B, timp de răspuns maximum 15 ms și histerezis maximum 0,1%. Mărimile mai mari și debitele lor maxime se confirmă pe cod, din documentația Atos. Aplicații tipice: reglarea vitezei și poziției cilindrilor hidraulici.`
+        description: `Valve servoproporționale direcționale cu traductor de poziție LVDT și electronică analogică integrată, pentru reglaj precis al debitului și al direcției. Conform site-ului Atos, valvele servoproporționale direcționale au variante în mărimi ISO 06–35, iar familiile cu manșon DLHZO/DLKZOR-TES (mărimile 06–10) ajung la debite de până la 130 l/min și presiune maximă de 350 bar. Timpul de răspuns, histerezisul și debitul pe fiecare mărime se confirmă pe cod, din documentația Atos. Aplicații tipice: reglarea vitezei și poziției cilindrilor hidraulici.`
       },
       {
         name: 'Atos PVPC Pompe cu Pistoane Axiale cu Cilindree Variabilă',
-        description: `Pompe cu pistoane axiale cu cilindree variabilă. Conform catalogului Atos, seria PVPC acoperă cilindree între 29 și 160 cm³/rot (mărimile 3029, 4046, 5073, 5090, 6140, 6160), cu presiuni continue de 250-350 bar în funcție de mărime. Comenzile mecanice disponibile sunt compensatorul de presiune manual (C) sau la distanță (R), reglajul în funcție de sarcină - load sensing (L) și puterea constantă (LW); există și variante cu comenzi proporționale de presiune, debit sau p/Q. Modelul PVPC-C-5073 are cilindreea de 73 cm³/rot și compensator de presiune manual (C).`
+        description: `Pompe cu pistoane axiale cu cilindree variabilă. Conform catalogului Atos, seria PVPC acoperă cilindree între 29 și 160 cm³/rot (mărimile 3029, 4046, 5073, 5090, 6140, 6160), cu presiuni maxime de 250-350 bar în funcție de mărime. Comenzile mecanice disponibile sunt compensatorul de presiune manual (C) sau la distanță (R), reglajul în funcție de sarcină - load sensing (L) și puterea constantă (LW); există și variante cu comenzi proporționale de presiune, debit sau p/Q. Modelul PVPC-C-5073 are cilindreea de 73 cm³/rot și compensator de presiune manual (C).`
       },
       {
         name: 'Atos E-ME-AC Driver Electronic pentru Valve Proporționale',
@@ -914,13 +914,13 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
       },
       {
         name: 'Atos CK Cilindri Hidraulici cu Tiranți',
-        description: `Cilindri hidraulici cu tiranți, conform ISO 6020-2, pentru aplicații industriale. Conform catalogului Atos, alezajele sunt între 25 și 200 mm, iar diametrele tijei între 12 și 140 mm; presiunea nominală este de 160 bar, iar cea maximă de 250 bar. Tija este din oțel aliat călit și revenit, cromată dur (minimum 0,020 mm). Garniturile sunt disponibile în variantele NBR + poliuretan sau FKM + PTFE (până la 120°C), cu amortizare fixă sau reglabilă și 11 stiluri standard de fixare.`
+        description: `Cilindri hidraulici cu tiranți, conform ISO 6020-2, pentru aplicații industriale. Conform site-ului Atos, alezajele sunt între 25 și 200 mm, iar presiunea maximă este de 250 bar. Tija, garniturile, amortizarea și stilurile de fixare disponibile se confirmă pe cod, din documentația Atos.`
       },
     ],
     certifications: [
       'ISO 9001:2015 (Sistem management calitate)',
       'ISO 14001:2015 (Management ambiental)',
-      'PED 2014/68/EU Categorie II-IV (Componente sub presiune)',
+      'PED 2014/68/EU (Componente sub presiune)',
       'ATEX Directive 2014/34/EU (Valve pentru zone explozive Ex)',
       'CE Marking conform Machinery Directive 2006/42/EC',
       'RoHS Directive 2011/65/EU',
@@ -1016,8 +1016,8 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat sediul Atos în sursele citate.' },
     ],
   },
@@ -1026,42 +1026,42 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
     founded: 2014,
     headquarters: 'Laatzen, Germania',
     employees: '2,000+',
-    overview: `Aventics (acum parte din Emerson) este un producător german specializat în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Istoricul e impresionant: Aventics e fosta divizie Pneumatics a grupului Bosch Rexroth, cu peste 50 de ani experiență în automatizări. Componentele Aventics se folosesc frecvent pe linii de producție automotive, packaging, handling din România, unde calitatea germană este vizibilă. Cilindrii seria PRA (Pneumatic Rodless Actuator) sunt cilindri compacți fără tijă - un PRA063x1000 (Ø63mm, cursă 1000mm) ocupă doar 1100mm lungime totală față de 1300mm la un cilindru cu tijă clasic + economie 15% spațiu.
+    overview: `Aventics (acum parte din Emerson) este un producător german specializat în pneumatică industrială de înaltă performanță - cilindri, valve, preparare aer, sisteme de control. Aventics provine din fosta divizie de pneumatică a Bosch Rexroth. Aventics oferă cilindri, valve, unități de pregătire a aerului și accesorii pentru automatizări industriale, inclusiv în automotive, ambalare și handling. Cilindrii seria PRA sunt cilindri conformi ISO 15552, cu profil compact și canale integrate pentru senzori; alezajele disponibile sunt 32 - 125 mm, cursele 25 - 500 mm, iar presiunea maximă de lucru este de 10 bar.
 
-Valvele seria AV (Aventics Valve) cu tehnologie Hesdu (High Efficiency Spool Design) consumă doar 0.8W per bobină la menținere. Pe o linie de asamblare care lucrează 24/7, o instalație de 200 de valve AV05 poate genera economii de ordinul a mii de kWh/an, conform producătorului. Bobinele au protecție supratensiune integrată și durată viață >50 milioane cicluri. Conectarea plug-in cu fieldbus IO-Link permite diagnosticare avansată: detectare scurgeri aer, contor cicluri, alerte predictive întreținere.
+Aventics oferă sisteme de valve și valve proporționale. Consumul bobinelor, debitul, durata de viață și funcțiile de diagnosticare (de exemplu prin IO-Link) depind de model și se confirmă pe cod, din documentația Aventics.
 
-Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0.01 microni, reglare presiune 0.5-16 bar cu precizie ±0.02 bar, lubrificare micro-fog. Un filtru AS3 cu coalescer 0.01µm elimină, conform producătorului, 99.99% din ulei antrenat în aerul comprimat - esențial pentru aplicații clean (pharmaceutical, electronics, food). Certificare completă: ISO 8573-1 clasa [1:2:1] pentru puritate aer.`,
+Pentru pregătirea aerului comprimat, Aventics oferă unități de filtrare, reglare și ungere (FRL) și filtre de schimb. Finețea de filtrare, domeniul de presiune și clasa de puritate conform ISO 8573-1 depind de model și se confirmă pe cod, din documentația Aventics.`,
     whyChoose: [
-      'Eficiență energetică: valve Hesdu cu consum redus (0.8W la menținere), reduce costurile de operare',
-      'Diagnostică IO-Link: detectare scurgeri, contor cicluri, alerte predictive pentru mentenanță programată',
-      'Compatibilitate ISO 15552, VDMA 24562: înlocuire directă pentru alte branduri (Festo, SMC, Parker)',
-      'Puritate aer: filtre AS3 până la 0.01µm, certificare ISO 8573-1 clasa [1:2:1] pentru clean rooms',
-      'Design compact: cilindri PRA fără tijă economisesc 15% spațiu față de cilindri clasici',
-      'Software gratuit Aventics Configurator pentru sizing cilindri și calcul consum aer',
+      'Sisteme de valve și valve proporționale; consumul se confirmă pe cod, din documentația Aventics',
+      'Diagnostic prin IO-Link la modelele care îl includ; funcțiile se confirmă pe cod',
+      'Cilindri din seriile PRA și TRB conformi ISO 15552; compatibilitatea dimensională se confirmă pe cod',
+      'Unități de pregătire a aerului (FRL); clasa de puritate ISO 8573-1 se confirmă pe cod',
+      'Cilindri PRA cu profil compact și canale integrate pentru senzori',
+      'Configuratoare, instrumente de calcul și fișiere CAD disponibile pe site-ul producătorului',
     ],
     keyProducts: [
       {
-        name: 'Aventics PRA Cilindri Pneumatici Fără Tijă',
-        description: `Cilindri pneumatici fără tijă cu bandă magnetică pentru aplicații handling spațiu redus. Seria PRA-DA (Double Acting) pentru diametre 25-125mm, curse 100-6000mm. Cilindru PRA063x1000-DA: diametru piston 63mm, cursă utilă 1000mm, presiune lucru 2-10 bar, temperatură -10°C până +60°C. Forță teoretică la 6 bar: 1875N (împingere/tragere identice). Viteză max: 3 m/s cu amortizare hidraulică reglabilă. Bandă magnetică pentru montare senzori reed (max 6 senzori simultan pentru poziționare multi-punct). Corp aluminiu extrudat anodat, garnituri PU low-friction, ghidare cu role pentru eliminare play. Conexiune: G1/8"-G3/8" BSP sau NPT. Fixare: profile aluminiu cu T-slots, bracket lateral. Lungime totală: cursă + 100mm (vs cursă + 300mm pentru cilindri cu tijă). Certificare: ISO 15552, CE, RoHS. Aplicații: transfer palete (pick & place), handling panouri (sticlă, PCB), gating conveyor, sorting.`
+        name: 'Aventics PRA Cilindri Pneumatici ISO 15552',
+        description: `Cilindri pneumatici cu dublă acțiune conformi ISO 15552, cu profil compact și canale integrate pentru senzori. Alezaje de 32, 40, 50, 63, 80, 100 și 125 mm, curse de la 25 la 500 mm, presiune maximă de lucru 10 bar, amortizare pneumatică reglabilă sau elastică, variante cu piston magnetic, ATEX (opțional), rezistente la frig sau la temperatură ridicată. Codul exact depinde de alezaj, cursă și tipul de fixare.`
       },
       {
-        name: 'Aventics AV05 Valve Solenoid 5/2 Hesdu',
-        description: `Valve solenoid 5 căi/2 poziții cu tehnologie Hesdu (High Efficiency Spool Design) pentru economie energie maximă. Seria AV05 (CETOP 03/ISO 5599-1 size 2) pentru debite max 1100 l/min la ΔP=100kPa, presiune lucru 2-10 bar. Bobină: 24VDC ±10%, consum putere 9W (atragere), 0.8W (menținere). Timp comutație: 15ms, durată viață >50 milioane cicluri. Conexiune: G1/4" BSP/NPT sau plug-in manifold. Configurație: single solenoid (return arc), double solenoid (bistabil, memorie poziție). Manual override emergency integrat. IO-Link interface pentru diagnostic: detectare scurgeri (monitorizare diferență timp așteptat vs real), contor cicluri, temperatură bobină, alertă când bobina depășește 80°C. LED indicator stare + defect. Certificare: CE, ATEX II 3G Ex nA pentru zone 2 gaz. Aplicații: control cilindri energie-efficient, linii ambalare 24/7, automotive assembly, clean rooms.`
+        name: 'Aventics Sisteme de Valve',
+        description: `Aventics oferă sisteme de valve și valve proporționale. Debitul, presiunea de lucru, tensiunea și consumul bobinei, timpul de comutare, durata de viață și opțiunile de diagnosticare (IO-Link) depind de model; le confirmăm pe cod, din documentația Aventics.`
       },
       {
-        name: 'Aventics AS3 Unitate Service Aer (FRL)',
-        description: `Unitate combinată filtrare-reglare-lubrificare pentru pregătire aer comprimat industrial. Seria AS3-FRL (filtru + regulator + lubricator) pentru debite 100-10,000 l/min la 7 bar. Filtru: element sintered bronze sau polimer microfiber, finețe 40µm (standard), 5µm (fine), 0.01µm (coalescer pentru eliminare ulei/apă). Grad separare: 99.99% particule la finețea specificată, cană policarbonat transparent 50cc cu protecție metal, drain automat sau manual. Regulator: reglare presiune 0.5-12 bar (AS3-RGS), relieving type (scade automat presiune dacă crești set-point), manometru Ø63mm clasa 1.6 (±2.5%), membrane NBR sau EPDM. Lubrificator: tip Venturi cu rezervor 120cc, reglare picurare 0-60 picături/min vizibil, ulei recomandat ISO VG32. Temperatura lucru: -10°C până +60°C. Certificare: ISO 8573-1 pentru puritate aer (filtru coalescer 0.01µm atinge clasa [1:2:1]). Aplicații: pregătire aer pentru cilindri precisie, instrumentație, spray painting, pharmaceutical clean rooms.`
+        name: 'Aventics Unități de Pregătire Aer (FRL)',
+        description: `Unități de filtrare, reglare și ungere pentru pregătirea aerului comprimat industrial, precum și filtre de schimb. Debitul, finețea de filtrare, domeniul de reglare a presiunii și clasa de puritate ISO 8573-1 depind de model; le confirmăm pe cod, din documentația Aventics.`
       },
       {
-        name: 'Aventics G3 Cilindri Ghidați Compacți',
-        description: `Cilindri pneumatici compacți cu ghidare liniară integrată pentru aplicații cu moment de torsiune ridicat. Seria G3-GR (Guided Rodless) pentru diametre 20-100mm, curse 50-500mm. Cilindru G3-GR-040x200 (Ø40mm piston, cursă 200mm): presiune 1-10 bar, temperatură -10°C până +80°C, viteză max 2 m/s. Ghidare: 2x role liniare cu recirculare bile precizie ±0.02mm, moment rezistență torsiune 50Nm la Ø40mm. Forță la 6 bar: 755N împingere. Corp aluminiu anodat, piston aluminiu cu garnituri PU low-friction, amortizare elastomer (standard) sau hidraulică reglabilă (opțional). Magnet permanent pentru senzori reed cu slot montare laterală. Fixare: tapped holes M5/M6 față/spate, T-slot profile. Certificare: ISO, CE, RoHS. Aplicații: pick & place electronice (handling PCB, componente SMT), assembly small parts, test fixtures, medical devices (pipetting, dosing). Ideal pentru roboți colaborativi și aplicații clean room (versiune inox disponibilă).`
+        name: 'Aventics Cilindri și Actuatoare Liniare',
+        description: `Aventics oferă cilindri pneumatici și actuatoare electrice, inclusiv actuatoare liniare și rotative, cleme (grippers) și soluții de manipulare. Seria, dimensiunile, cursele, forțele și opțiunile de ghidare depind de model; le confirmăm pe cod, din documentația Aventics.`
       },
     ],
     certifications: [
       'ISO 9001:2015, ISO 14001:2015, ISO 45001:2018',
       'ISO 15552 (Cilindri pneumatici 32-320mm)',
       'ISO 5599-1 (Valve pneumatice 5 căi mounting interface)',
-      'VDMA 24562 (Standard german cilindri compacți)',
+      
       'ISO 8573-1 (Compressed Air Purity - clase contamination)',
       'CE Marking conform Machinery Directive 2006/42/EC',
       'ATEX Directive 2014/34/EU (Valve Ex nA pentru zone 2)',
@@ -1150,8 +1150,8 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -1160,45 +1160,45 @@ Sistemele de preparare aer seria AS3 (Advanced Service unit) oferă filtrare 5-0
     founded: 1905,
     headquarters: 'Milwaukee, Wisconsin, SUA',
     employees: '1,800+',
-    overview: `Badger Meter este un producător american specializat în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Debitimetrele Badger se folosesc frecvent în stații de pompare, fabrici, sisteme irigații din România, unde fiabilitatea lor, după peste 100 de ani de experiență a producătorului, este bine cunoscută. Debitimetrele electromagnetice seria ModMAG M2000 oferă precizie ±0.2% din citire pe gamă extinsă 0.3-10 m/s. Tehnologia fără piese mobile elimină uzura și mentenanța - costul total de proprietate (TCO) este mai mic față de turbine sau ultrasonic.
+    overview: `Badger Meter este un producător american specializat în debitimetre și soluții de măsurare fluide pentru apă, utilități, industrie. Debitimetrele Badger se folosesc frecvent în stații de pompare, fabrici, sisteme irigații din România, unde fiabilitatea lor, după peste 100 de ani de experiență a producătorului, este bine cunoscută. Debitimetrele electromagnetice ModMAG M2000 au diametre de 6 - 1981 mm, precizie de ±0,2 - 0,3% (modelele M2000, M3000 și M4000), domeniu de viteză de 0,03 - 12 m/s și temperatură a fluidului de până la 150°C.
 
-Debitimetrele cu ultrasunete seria Dynasonics TFX-500w pentru măsurare apă potabilă sunt certificate OIML R49 și MID (Measuring Instruments Directive) pentru billing - obligatorii pentru facturare apă în UE. TFX-500w se folosește frecvent pe conducte DN50-DN300 la stații de pompare apă, unde precizia ±0.5% la debite mici (0.1 m/s) este esențială pentru detectare scurgeri și audit pierderi. Tehnologia transit-time cu 4 transdučeri montați diagonal măsoară diferența timp între ultrasunete upstream și downstream - rezultat independent de vâscozitate, temperatură, presiune.
+Debitimetrul cu ultrasunete Dynasonics TFX-500w este de tip clamp-on (montat pe exteriorul conductei, fără modificarea ei), cu măsurare prin timp de tranzit, precizie de ±1% din citire, diametre de conductă de 15 - 250 mm și temperatură de lucru de -40...121°C. Aprobările pentru facturare (de exemplu OIML R49 sau MID) se confirmă pe cod, din documentația Badger Meter.
 
-Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire automată consum apă prin radiofrequency mesh network - elimină necesitatea cititorilor manuali și detectează instantaneu scurgeri la consumatori. BEACON se implementează frecvent în orașe cu 10.000+ apartamente - economiile din reducerea pierderilor (leak detection rapidă vs. luni întregi înainte) și eliminarea cititorilor manuali pot amortiza investiția în câțiva ani, conform producătorului. Certificare OIML, MID, NSF/ANSI 61 pentru contact apă potabilă.`,
+BEACON este o soluție software ca serviciu (SaaS) care combină analiza datelor de contorizare cu rețeaua celulară ORION (Cellular Network as a Service), alături de tehnologiile Fixed Network (AMI) și Mobile (AMR), și oferă date de consum la intervale de 15 minute. Certificările fiecărui produs (OIML, MID, NSF/ANSI 61) se confirmă pe cod, din documentația Badger Meter.`,
     whyChoose: [
-      'Precizie certificată: ±0.2% electromagnetic (ModMAG), ±0.5% ultrasonic (TFX-500w) conform OIML R49',
-      'Fără piese mobile: debitimetre electromagnetic și ultrasonic elimină uzura și mentenanță, durată viață 15-20 ani',
-      'Certificare billing: MID 2014/32/EU și OIML R49 pentru facturare legală apă potabilă în UE',
-      'AMR/AMI ready: integrare BEACON pentru citire automată și leak detection prin RF mesh network',
-      'NSF/ANSI 61 certified: toate materialele contact apă potabilă certificate non-toxic',
-      'Gamă largă: DN15-DN3000 (electromagnetic), DN15-DN600 (ultrasonic), 0.1-10 m/s velocity',
+      'Precizie de ±0,2 - 0,3% la ModMAG M2000 și de ±1% la Dynasonics TFX-500w (clamp-on), conform paginilor producătorului',
+      'Fără piese mobile la debitmetrele electromagnetice și cu ultrasunete (inclusiv contoarele ultrasonice E-Series)',
+      'Aprobările pentru facturare (MID, OIML R49) se confirmă pe cod, pentru modelul comandat',
+      'BEACON: software SaaS cu rețea celulară ORION pentru citire la distanță',
+      'Certificarea NSF/ANSI 61 se confirmă pe cod, pentru modelul comandat',
+      'Gamă largă: ModMAG M2000 de la 6 la 1981 mm; Dynasonics TFX-500w de la 15 la 250 mm (clamp-on)',
     ],
     keyProducts: [
       {
         name: 'Badger Meter ModMAG M2000 Debitimetru Electromagnetic',
-        description: `Debitimetru electromagnetic pentru apă potabilă, uzată și lichide conductive (≥5 µS/cm). Gamă dimensiuni: DN15-DN3000 (1/2"-120"), precizie ±0.2% din citire ±1mm/s, repetabilitate ±0.05%. Gamă măsurare: 0.3-10 m/s (bidirectional opțional), presiune max 16 bar (PN16), temperatură fluid 0-60°C (standard), -20°C până +140°C (high temp option). Electrozi din oțel inoxidabil 316L (standard), Hastelloy C (acid), tantalum (HF), platină (pharma). Liner: cauciuc dur (abraziune), PTFE (chimicale), PFA (food/pharma). Transmițător integrat sau remote cu display LCD backlit 2x16 caractere, totalizer 8 cifre. Ieșire: 4-20mA (pasivă sau activă), pulse output (max 10kHz), Modbus RTU RS485, HART 7. Alimentare: 85-265VAC 50/60Hz sau 12-36VDC. Certificare: OIML R49 Class 2, MID 2014/32/EU pentru billing, NSF/ANSI 61, IP68 submersibil. Aplicații: apă potabilă (stații pompare, distribuție), apă uzată (stații epurare), irigații, industrie (cooling water, procesare alimente).`
+        description: `Debitimetru electromagnetic ModMAG M2000: diametre de 6 - 1981 mm (1/4 - 78 in.), precizie de ±0,2 - 0,3%, domeniu de viteză de 0,03 - 12 m/s și temperatură a fluidului de până la 150°C. Materialele electrozilor și ale căptușelii, ieșirile, alimentarea și aprobările (OIML, MID, NSF/ANSI 61) depind de variantă; le confirmăm pe cod, din documentația Badger Meter.`
       },
       {
         name: 'Badger Meter Dynasonics TFX-500w Debitimetru Ultrasonic',
-        description: `Debitimetru ultrasonic cu 4 transdučeri pentru măsurare precisă apă potabilă. Tehnologie: transit-time 1 MHz, 4 căi acustice diagonale (redundanță pentru precizie maximă). Gamă: DN50-DN600 (2"-24"), precizie ±0.5% din citire pe gamă 0.1-10 m/s, repetabilitate ±0.1%. Presiune max: PN16 (16 bar), temperatură fluid 0-50°C. Corp din fontă ductilă GGG40 (EN-GJS-400), liner epoxy food-grade, flanșe PN16 conform EN 1092-2. Transdučeri piezoelectric ceramic montați în chambers inundate (wet chambers), self-cleaning prin turbulența fluxului. Transmițător integrat cu display grafic LCD 128x64 backlit, meniu multi-limbă (EN, DE, FR, RO). Totalizer 8+4 cifre (forward+reverse), datalogging 1000 events. Ieșire: 2x 4-20mA (debit + totalizator), 2x pulse (max 5kHz), Modbus RTU, BACnet MS/TP. Alimentare: 100-240VAC sau 18-36VDC. Certificare: OIML R49 Class 2 pentru billing, MID, NSF/ANSI 61, IP68. Aplicații: apă potabilă districte urbane (billing legal), stații pompare (audit energetic), irigații agricole (măsurare consum).`
+        description: `Debitimetru ultrasonic clamp-on, cu măsurare prin timp de tranzit, montat pe exteriorul conductei, fără modificarea acesteia și fără contact cu lichidul: precizie de ±1% din citire, diametre de conductă de 15 - 250 mm, temperatură de -40...121°C, debit de 0,38 - 44.700 l/min. Ieșirile, alimentarea și aprobările se confirmă pe cod, din documentația Badger Meter.`
       },
       {
-        name: 'Badger Meter BEACON AMR/AMI System',
-        description: `Sistem citire automată contoare (AMR/AMI) prin RF mesh network pentru utilități apă. Arhitectură: contoare BEACON cu modul radio 900 MHz (license-free ISM band) transmit date la collectori (MTU - Mobile Transmission Unit sau FCU - Fixed Collection Unit) care agregă date la server central. Frecvență transmisie: 1x/4h (AMR pentru drive-by reading) sau 1x/1h (AMI pentru fixed network). Acoperire: 1 collector → 2,000-10,000 contoare în rază 2-5 km (urban). Detectare scurgeri: algoritm compară consum nocturn (2-6 AM) cu baseline → alertă dacă depășire >10% = leak suspect. Module pentru contoare: E-Series Encoder (retrofit pentru contoare mecanice existente), ADE (Absolute Digital Encoder) pentru contoare noi. Date transmise: index contor, debit instantaneu, alerte (leak, tamper, low battery, freeze), istoric 35 zile. Software: BEACON AMA (Advanced Metering Analytics) pentru analiza big data, dashboard GIS, rapoarte billing export CSV/XML. Certificare: FCC Part 15 (SUA), EN 300 220 (EU), IP68 submersibil. Aplicații: orașe (billing automat apă potabilă), districte irigații (monitorizare consum agricultori), fabrici (alocare costuri apă per departament).`
+        name: 'Badger Meter BEACON (software SaaS pentru citire la distanță)',
+        description: `Soluție software ca serviciu pentru utilități de apă, care combină analiza datelor de contorizare cu rețeaua celulară ORION (Cellular Network as a Service), alături de Fixed Network (AMI) și Mobile (AMR); date de consum la intervale de 15 minute. Aplicația mobilă BEACON Field oferă tehnicienilor acces la datele AMI. Endpoint-urile, modulele de comunicație și funcțiile de detectare a scurgerilor se confirmă pe cod, din documentația Badger Meter.`
       },
       {
-        name: 'Badger Meter E-Series Turbine Meter',
-        description: `Debitimetru turbină mecanică pentru apă curată cu înregistrare electronică. Seria E-Series pentru DN15-DN150 (1/2"-6"), precizie ±1.5% din citire pe gamă 0.3-7 m/s. Turbină: rotor multi-blade din rezină acetalică (POM) cu lagăre ceramice (Al2O3) pentru durată viață fără mentenanță 10+ ani. Presiune max: PN16, temperatură 0-50°C. Encoder absolut (ADE - Absolute Digital Encoder) cu senzor Hall effect, rezoluție 0.01 galoane (SUA) sau 0.1 litri (metric). Display LCD 8 cifre totalizer + 4 cifre rate, baterie litiu 3.6V durată 15 ani. Ieșire: pulse output (1 puls/0.1-100 litri configurabil), Modbus RTU pentru integrare SCADA. Montaj: thread NPT sau BSPT, flanșe opțional. Certificare: NSF/ANSI 61, AWWA C701 (American Water Works Association), IP68. Aplicații: submetering clădiri comerciale (alocare cost apă per tenant), irigații (măsurare consum per zonă), industrie (cooling water, proces). Compatibil cu modul BEACON pentru upgrade la AMR/AMI.`
+        name: 'Badger Meter E-Series Contor Ultrasonic',
+        description: `Contoare ultrasonice inline, cu tehnologie solid-state și fără piese mobile, cu afișaj LCD cu nouă cifre (consum, debit, indicare flux invers, alarme). Diametre: rezidențial 15 - 40 mm, comercial 50,8 - 203,2 mm, industrial 15 - 203 mm; temperatura 1 - 60°C, presiune până la 12 bar. Modelele G2 oferă și date de presiune și temperatură. Aprobările se confirmă pe cod, din documentația Badger Meter.`
       },
     ],
     certifications: [
       'OIML R49 Class 2 (Organisation Internationale de Métrologie Légale pentru billing apă)',
       'MID 2014/32/EU (Measuring Instruments Directive - billing legal în UE)',
       'NSF/ANSI 61 (Drinking Water System Components - materiale non-toxice)',
-      'AWWA C700/C701/C710 (American Water Works Association standards)',
+      
       'ISO 4064 (Water Meters for Cold Potable Water and Hot Water)',
       'CE Marking, RoHS, REACH',
-      'IP68 (Submersibil 3m apă 72h)',
+      
       'FCC Part 15, EN 300 220 (Radio Equipment Directive pentru AMR/AMI)',
       'ISO 9001:2015, ISO 14001:2015',
     ],
@@ -1214,7 +1214,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       'HVAC (chilled water, heating water)',
       'District Heating/Cooling (energie termică billing)',
     ],
-    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24–72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 1–4 săptămâni la comandă, cu certificare de billing inclusă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
+    infinitrade: `La Infinitrade lucrăm cu informațiile publice disponibile despre gama Badger Meter și aducem debitmetrele la comandă prin canale de aprovizionare din Uniunea Europeană. Pentru dimensiunile uzuale putem confirma uneori 24–72 h din stoc, iar pentru dimensiuni mari sau sisteme AMR/AMI complete termenul obișnuit este de 1–4 săptămâni la comandă. Nu deținem date proprii despre stocul permanent al fiecărei dimensiuni DN. Pentru o ofertă corectă, trimiteți-ne diametrul conductei, tehnologia dorită (electromagnetic, ultrasonic sau turbină) și dacă aveți nevoie de certificare MID pentru facturare, iar noi revenim cu termenul confirmat de furnizor.`,
     limitation: `Nu putem confirma disponibilitatea permanentă a fiecărei dimensiuni DN sau configurații AMR/AMI - fiecare comandă depinde de stocul real al furnizorului la momentul cererii.`,
     sources: [
       {"title":"Badger Meter - Flow Measurement & Water Solutions","url":"https://www.badgermeter.com/","publisher":"Badger Meter, Inc.","accessed":"2026-09-22"},
@@ -1314,7 +1314,7 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       },
       {
         "q": "Livrați produse Badger Meter în România?",
-        "a": "Fiecare debitmetru sau senzor Badger Meter comandat prin noi pornește de la specificațiile publice ale producătorului american, nu dintr-un depozit local pe care îl administrăm noi. Clienții primesc de regulă mărfă în 1–4 săptămâni la comandă, în funcție de tipul de fluid măsurat, diametrul necesar și complexitatea modulelor de telemetrie asociate."
+        "a": "Fiecare debitmetru sau senzor Badger Meter comandat prin noi pornește de la specificațiile publice ale producătorului american, nu dintr-un depozit local pe care îl administrăm noi. Clienții primesc de regulă marfa în 1–4 săptămâni la comandă, în funcție de tipul de fluid măsurat, diametrul necesar și complexitatea modulelor de telemetrie asociate."
       },
       {
         "q": "Ce diferență este între un debitmetru electromagnetic și unul ultrasonic Dynasonics?",
@@ -1322,8 +1322,8 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
       }
     ],
     evidenceClass: 'zero-evidence',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },
@@ -1332,35 +1332,35 @@ Sistemele AMR/AMI (Automatic Meter Reading/Infrastructure) BEACON permit citire 
     founded: 1952,
     headquarters: 'Frauenfeld, Elveția',
     employees: '3,000+',
-    overview: `Baumer este un producător elvețian specializat în senzori industriali de precizie - proximitate, presiune, encodere, vision. Senzorii Baumer se folosesc frecvent pe linii de producție automotive, food, packaging din România, unde sunt apreciați pentru precizie și robustețe. Senzorii inductivi seria PosiTec IFRM cu tehnologie factor 1 detectează toate metalele (feroase și neferoase) la aceeași distanță de comutație - un IFRM 12P1501 detectează oțel, aluminiu, cupru, inox la 4mm ±10%. Asta elimină necesitatea ajustărilor când schimbi între piese diferite pe aceeași linie - reduce timpul de setup.
+    overview: `Baumer este un producător elvețian specializat în senzori industriali de precizie - proximitate, presiune, encodere, vision. Senzorii Baumer se folosesc frecvent pe linii de producție automotive, food, packaging din România, unde sunt apreciați pentru precizie și robustețe. Senzorii inductivi Baumer cu factor 1 detectează oțel inoxidabil, aluminiu și metale neferoase la aceeași distanță de comutare, cu frecvențe de comutare de până la 3 kHz; seriile cilindrice standard (M8 - M30) ating distanțe de comutare de până la 24 mm.
 
-Encoderele absolute seria EAM cu interfață IO-Link oferă rezoluție până la 16-bit (65,536 poziții/rotație) și acuratețe ±0.1° - perfecte pentru poziționare precisă fără home position. Encoderele EAM580-B16 se folosesc frecvent pe mașini de ambalare unde banda trebuie oprită cu precizie de ±1mm pentru printare logo - precizia rămâne repetabilă chiar și după power-off (absolute position retained). Comunicare IO-Link permite diagnostic avansat: temperatură senzor, contor rotații, alerte uzură lagăre, parametrizare remote fără DIP switches.
+Encoderele absolute magnetice EAM580 (MAGRES, diametru 58 mm) oferă precizie unghiulară de până la ±0,15° și rezistență la șocuri de până la 500 g, cu interfețe SSI, CANopen, PROFINET, EtherCAT și EtherNet/IP, în funcție de variantă. Variantele includ ax plin de 10 mm (EAM580-SC), ax plin de 6 mm (EAM580-SY), ax gol (EAM580-B) și fără rulmenți, cu magnet pe ax (EAM580-K). Rezoluția și interfața exactă se confirmă pe cod.
 
-Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A și EHEDG sunt ideali pentru industria alimentară și pharma. Un PBMH-25-G1/4 (0-25 bar, thread G1/4") are precizie ±0.25% full scale, drift < 0.1%/an și rezistență la CIP/SIP (143°C steam). Senzorii PBMH se folosesc frecvent pe linii de filling băuturi, unde contactul direct cu produsul impune conformitate FDA 21 CFR 177 - Baumer oferă certificare completă pentru acest tip de aplicații.`,
+Senzorii de presiune igienici Baumer (gamă de la -1 la 400 bar) sunt proiectați igienic, cu certificări 3-A, FDA și EHEDG, pentru industria alimentară și farmaceutică. Precizia, temperatura de proces și filetul se confirmă pe cod, din fișa tehnică a modelului (de exemplu PBMH).`,
     whyChoose: [
-      'Precizie elvețiană: encodere ±0.1° (16-bit), presiune ±0.25% FS, proximitate ±10% distanță nominală',
+      'Encodere EAM580 cu precizie unghiulară de până la ±0,15°, conform paginii producătorului',
       'Factor 1 technology: senzori inductivi detectează toate metalele la aceeași distanță (oțel, alu, cupru, inox)',
-      'IO-Link nativ: comunicare digitală pe majoritatea produselor pentru diagnostic și parametrizare remote',
-      'Certificări sanitare: 3-A, EHEDG, FDA 21 CFR 177 pentru senzori presiune și proximitate food/pharma',
-      'Durată viață extremă: encodere fără contact 10⁹ rotații, senzori inductivi IP69K pentru jet high-pressure',
-      'qTeach™ pentru senzori proximitate: învățare automată obiect fără potențiometru (touch programming)',
+      'IO-Link disponibil la anumite familii (de exemplu senzorii inductivi AlphaProx și senzorii de presiune cu membrană frontală), pentru diagnostic și parametrizare',
+      'Senzori de presiune igienici cu 3-A, FDA și EHEDG; senzori inductivi igienici conform EHEDG, cu etanșare IP 69K',
+      'Variante igienice cu etanșare IP 69K la senzorii inductivi; durata de viață a encoderelor se confirmă din fișa tehnică',
+      'Configurare prin VeriSens Application Suite la senzorii de viziune VeriSens',
     ],
     keyProducts: [
       {
-        name: 'Baumer IFRM Senzori Inductivi Factor 1',
-        description: `Senzori de proximitate inductivi cu tehnologie Factor 1 pentru detectare uniformă toate metalele. Seria IFRM 12P1501/S35L (M12 cilindric, factor 1, PNP NO): distanță comutație 4mm ±10% pentru oțel (Fe), aluminiu (Al), cupru (Cu), inox (SS) fără ajustare. Frecvență comutație max 2 kHz, tensiune alimentare 10-30VDC, curent ieșire max 200mA. LED indicator roșu (obiect detectat), protecție scurtcircuit și supratensiune. Temperatură funcționare: -25°C până +70°C, grad protecție IP67 (IP69K opțional pentru washdown). Carcasă inox 316L (1.4404) sau alamă nichelată, conexiune cablu 2m PUR sau conector M12x1. Tehnologie qTeach™: învață automat obiectul țintă prin apropierea și îndepărtarea lui de 3 ori - senzorul memorează distanța optimă. Certificare: CE, cULus, IECEx ia pentru ATEX. Aplicații: detectare palete mixte (metal + plastic), control prezență piese pe conveyors, poziționare cilindri pneumatici, automotive (body shop cu aluminiu și oțel).`
+        name: 'Baumer Senzori Inductivi Factor 1',
+        description: `Senzori de proximitate inductivi cu factor 1, care detectează oțel inoxidabil, aluminiu și metale neferoase la aceeași distanță de comutare, cu frecvențe de comutare de până la 3 kHz. Distanța de comutare, forma carcasei, gradul de protecție (inclusiv IP 69K la variantele igienice) și ieșirea depind de model; le confirmăm pe cod.`
       },
       {
-        name: 'Baumer EAM580 Encoder Absolut Magnetic IO-Link',
-        description: `Encoder absolut multirotație cu senzor magnetic Hall effect și interfață IO-Link pentru poziționare precisă. Seria EAM580-B16 (16-bit single-turn, 12-bit multi-turn): rezoluție 65,536 steps/rotație (0.0055°), precizie ±0.1°, repetabilitate ±0.05°. Multi-turn: 4,096 rotații (12-bit) memorate în EEPROM non-volatile - reține poziția absolută chiar și fără alimentare. Viteză max: 12,000 rpm, moment inerție 0.3 gcm², cuplu pornire <0.01 Nm. Interfață: IO-Link 1.1 (COM3 - 230.4 kbaud), analog 0-10V sau 4-20mA (opțional), SSI (Synchronous Serial Interface). Alimentare: 10-30VDC, consum 50mA. Ax solid Ø6mm sau Ø10mm, cuplare elastic prin bucșă. Grad protecție: IP67, temperatură -40°C până +85°C. Diagnostic IO-Link: temperatură internă, contor rotații totale, alerte magnetism slab (magnet depreciat). Aplicații: poziționare conveyors (start/stop la punct exact), valve poziționare, agitatoare (dozare rotații), robotic joints.`
+        name: 'Baumer EAM580 Encoder Absolut Magnetic',
+        description: `Encoder absolut magnetic (MAGRES) cu diametru de 58 mm, precizie unghiulară de până la ±0,15° și rezistență la șocuri de până la 500 g; interfețe SSI, CANopen, PROFINET, EtherCAT și EtherNet/IP, în funcție de variantă; firmware conform ISO 13849. Variante: EAM580-SC (ax plin 10 mm, flanșă de prindere), EAM580-SY (ax plin 6 mm, flanșă sincro), EAM580-B (ax gol 12 - 15 mm), EAM580-K (fără rulmenți, magnet pe ax). Rezoluția, alimentarea și temperatura de lucru se confirmă pe cod.`
       },
       {
         name: 'Baumer PBMH Senzor Presiune Igienic',
-        description: `Senzor presiune process cu design igienic pentru food, dairy, pharma. Seria PBMH-25-G1/4-3A (0-25 bar relative, thread G1/4", certificare 3-A): precizie ±0.25% full scale (±62.5 mbar la 25 bar), stabilitate pe termen lung <0.1%/an. Temperatură proces: -25°C până +125°C, overtemperature SIP 143°C steam max 30 minute. Membrana senzor din inox 316L electropolish Ra<0.8µm (finish mirror), fără zone moarte, drenaj gravitațional complet. Tehnologie măsurare: thin-film strain gauge pe diafragmă ceramică Al2O3 (rezistență absolută la coroziune). Ieșire: 4-20mA 2-wire loop-powered, 0-10V 3-wire (opțional), IO-Link pentru parametrizare și diagnostic. Alimentare: 10-30VDC. Grad protecție: IP69K pentru jet high-pressure washdown. Certificare: 3-A Sanitary Standard 74-03, EHEDG Type EL, FDA 21 CFR 177, CE, cULus. Aplicații: filling băuturi (monitorizare presiune constantă pentru debit uniform), CIP systems (detectare tranziție faze), fermenting (control presiune CO2 în beer tanks), dairy (separare smântână).`
+        description: `Senzori de presiune igienici Baumer (gamă de la -1 la 400 bar), cu certificări 3-A, FDA și EHEDG, pentru industria alimentară și farmaceutică. Precizia, temperatura de proces, materialul membranei, ieșirile și gradul de protecție se confirmă pe cod, din fișa tehnică a modelului (de exemplu PBMH).`
       },
       {
         name: 'Baumer VeriSens Vision Sensor',
-        description: `Senzor vision inteligent pentru inspecție calitate fără PC extern. Seria VeriSens XC140 (1.3 MP CMOS, 1280x1024 px): 140 FPS (frames per second) pentru inspecție high-speed. Procesor integrat ARM Cortex-A9 rulează 10+ instrumente vision: OCR (citire coduri alpha-numeric), barcode/DataMatrix, blob analysis (numărare obiecte), edge detection (măsurare dimensiuni 0.01mm precizie), pattern matching (verificare prezență/orientare). Lentilă C-mount opțională: 8mm wide-angle (câmp vizual 200x160mm la 200mm distanță), 25mm tele (50x40mm FOV). Iluminare: LED roșu/alb/UV integrat sau extern trigger synchronizat. Configurare: web browser (Ethernet) fără software special - drag&drop instrumente, live preview. Ieșire: 4x I/O digital (trigger, pass/fail), Ethernet TCP/IP (rezultate măsurători ASCII/JSON), RS232. Alimentare: 24VDC, consum 8W. Grad protecție: IP67. Aplicații: inspecție printare (verificare lot number, expiry date), QC asamblare (prezență șuruburi, orientare logo), sorting (clasificare piese bune/defecte), pharmaceutical (verificare blister integrity).`
+        description: `Senzori de viziune VeriSens, în seriile XF și XC (până la 22 de verificări de caracteristici), ID (citire de coduri și OCR/OCV) și XT. Configurare prin VeriSens Application Suite; conectivitate PROFINET, EtherNet/IP, TCP/UDP Ethernet și RS485, în funcție de variantă. Rezoluția, viteza de procesare și gradul de protecție se confirmă pe cod, din fișa modelului.`
       },
     ],
     certifications: [
@@ -1416,7 +1416,7 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "code": "AlphaProx",
-        "description": "Senzor inductiv de distanță pentru măsurare de precizie"
+        "description": "Senzor inductiv cu IO-Link pentru diagnostic și parametrizare"
       },
       {
         "code": "EAM580-B EtherCAT",
@@ -1462,12 +1462,12 @@ Senzorii de presiune seria PBMH (Hygienic Pressure Sensor) cu certificare 3-A ș
       },
       {
         "q": "Care e diferența dintre un senzor inductiv AlphaProx și unul cu factor 1?",
-        "a": "Senzorul inductiv standard AlphaProx are o distanță de comutare care variază în funcție de tipul de metal detectat, fiind mai economic pentru aplicații generale. Un senzor cu factor 1 menține aceeași distanță de detecție indiferent de material, util acolo unde linia de producție folosește alternativ oțel, aluminiu sau alamă și precizia trebuie să rămână constantă."
+        "a": "Senzorii inductivi AlphaProx sunt variante cu IO-Link, care oferă date de diagnostic și parametrizare individuală; la senzorii standard distanța de comutare depinde de tipul de metal detectat. Un senzor cu factor 1 menține aceeași distanță de detecție indiferent de material, util acolo unde linia de producție folosește alternativ oțel, aluminiu sau alamă și precizia trebuie să rămână constantă."
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' },
     ],
   },

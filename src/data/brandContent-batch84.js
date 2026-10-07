@@ -51,11 +51,11 @@ Pentru instalațiile din România, Eriez înseamnă acces la echipamente de prot
       { q: "Ce produce Eriez?", a: "Eriez fabrică echipamente de separare magnetică, detectare a metalelor, inspecție cu raze X, flotație și reciclare a metalelor și fluidelor industriale, folosite pentru protejarea utilajelor din aval și controlul calității produsului final în linii de procesare a materialelor." },
       { q: "Cum aleg separatorul magnetic Eriez potrivit pentru linia mea?", a: "Alegerea depinde de poziția din flux: magneții suspendați și de grătar rețin metal tramp mare deasupra benzii, iar separatoarele cu role din pământuri rare recuperează particule feroase fine dintr-un material granular. Trimiteți-ne debitul, lățimea benzii și dimensiunea particulelor de reținut pentru o recomandare corectă." },
       { q: "Livrați echipamente Eriez în România și în cât timp?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană sau direct de la producător; termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea configurației alese de către Eriez." },
-      { q: "Ce informații trebuie să trimit pentru o ofertă de detectare a metalelor?", a: "Aveți nevoie să precizați tipul de produs controlat, lățimea benzii sau diametrul conductei, viteza de procesare și dacă este necesară și inspecție cu raze X, nu doar detectare electromagnetică simplă." },
+      { q: "Ce informații trebuie să trimit pentru o ofertă de detectare a metalelor?", a: "Trebuie să precizați tipul de produs controlat, lățimea benzii sau diametrul conductei, viteza de procesare și dacă este necesară și inspecție cu raze X, nu doar detectare electromagnetică simplă." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Eriez — Global Leader in Separation Technologies", url: "https://www.eriez.com/", publisher: "Eriez Manufacturing Co.", accessed: "2026-09-25" },
       { title: "Magnetic Separation Products", url: "https://www.eriez.com/Products/Magnetic-Separation", publisher: "Eriez Manufacturing Co.", accessed: "2026-09-25" },
@@ -70,19 +70,19 @@ Pentru instalațiile din România, Eriez înseamnă acces la echipamente de prot
 
 Ce diferențiază Goudsmit este acoperirea completă a lanțului de separare magnetică: seria Cleanflow (statică sau rotativă, în variante manuale sau automate) pentru separarea metalului feros din materiale în cădere liberă, filtre magnetice industriale sau igienice montate pe linii de presiune pentru lichide și pulberi, și separatoare cu bandă (overband) din ferită sau neodim, plus separatoare cu curenți turbionari EddyXpert și EddyFines pentru recuperarea metalelor neferoase din fluxuri de deșeuri. Compania produce și sisteme complete de demagnetizare — tunel, placă sau manuale — pentru piese metalice care nu trebuie să rămână magnetizate după prelucrare.
 
-Pentru instalațiile din România, Goudsmit înseamnă acces la separatoare magnetice certificate ISO pentru protecția utilajelor din alimentar, reciclare, chimie și prelucrarea metalelor, plus sisteme de ridicare magnetică și instrumente de măsurare a câmpului magnetic pentru verificarea periodică a echipamentelor deja instalate.`,
+Pentru instalațiile din România, Goudsmit înseamnă acces la separatoare magnetice de la un producător certificat ISO 9001 și ISO 14001, pentru protecția utilajelor din alimentar, reciclare, chimie și prelucrarea metalelor, plus sisteme de ridicare magnetică și instrumente de măsurare a câmpului magnetic pentru verificarea periodică a echipamentelor deja instalate.`,
     whyChoose: [
       "Gamă completă de la magneți permanenți din neodim sau ferită până la separatoare industriale complete, sub același producător",
-      "Certificat ISO 9001 și ISO 14001 pentru proiectare și fabricație, relevant pentru achiziții industriale cu cerințe de calitate",
+      "Producător certificat ISO 9001 și ISO 14001, relevant pentru achiziții industriale cu cerințe de calitate",
       "Seria Cleanflow acoperă variante statice și rotative, manuale sau automate, pentru materiale în cădere liberă",
       "Separatoare cu curenți turbionari EddyXpert și EddyFines pentru recuperarea metalelor neferoase din deșeuri, nu doar fier",
       "Filtre magnetice igienice cu curățare CIP, potrivite pentru linii din industria alimentară și farmaceutică",
     ],
     keyProducts: [
       { name: "Separatoare Cleanflow pentru Cădere Liberă", description: "Separatoare magnetice statice sau rotative, în variante manuale, semi-automate sau complet automate, montate pe jgheaburi și conducte prin care materialul cade liber. Rețin particule feroase fine din pulberi, granule sau produse alimentare, fără a bloca fluxul de material. Varianta rotativă e recomandată acolo unde contaminarea cu metal e frecventă și curățarea manuală repetată ar opri linia; varianta automată continuă evacuează metalul reținut fără oprirea procesului." },
-      { name: "Filtre Magnetice pe Linie de Presiune", description: "Filtre magnetice industriale sau igienice, montate direct pe conducte sub presiune, pentru reținerea particulelor feroase din lichide, uleiuri sau paste. Varianta igienică permite curățare CIP (Clean In Place), fără demontare, potrivită pentru industria alimentară și farmaceutică; varianta industrială cu perete dublu se folosește pentru medii mai agresive. Configurația depinde de diametrul conductei, presiunea de lucru și vâscozitatea fluidului procesat." },
+      { name: "Filtre Magnetice pe Linie de Presiune", description: "Filtre magnetice industriale sau igienice, montate direct pe conducte sub presiune, pentru reținerea particulelor feroase din lichide, uleiuri sau paste. Varianta igienică permite curățare CIP (Clean In Place), fără demontare, potrivită pentru industria alimentară și farmaceutică. Configurația depinde de diametrul conductei, presiunea de lucru și vâscozitatea fluidului procesat." },
       { name: "Separatoare pe Bandă Transportoare (Overband)", description: "Separatoare cu bandă magnetică montate deasupra sau lateral de banda transportoare principală, în variante cu ferită, neodim sau electromagnet, pentru recuperarea continuă a fierului din fluxul de material. Completate de separatoare cu tambur magnetic și sisteme cu cap de bandă magnetizat pentru instalații unde spațiul de montaj e limitat. Se dimensionează după lățimea benzii principale și distanța de lucru față de material." },
-      { name: "Separatoare cu Curenți Turbionari EddyXpert și EddyFines", description: "Separatoare cu curenți turbionari pentru recuperarea metalelor neferoase — aluminiu, cupru, alamă — dintr-un flux de deșeuri mixte unde separarea magnetică simplă nu are efect, pentru că aceste metale nu sunt feroase. EddyFines e varianta optimizată pentru fracții fine, greu de separat prin metode convenționale. Utile în stații de reciclare a deșeurilor și în recuperarea metalelor din zgură sau cenușă." },
+      { name: "Separatoare cu Curenți Turbionari EddyXpert și EddyFines", description: "Separatoare cu curenți turbionari pentru recuperarea metalelor neferoase — aluminiu, cupru, alamă — dintr-un flux de deșeuri mixte unde separarea magnetică simplă nu are efect, pentru că aceste metale nu sunt feroase. EddyFines e varianta optimizată pentru fracții fine, greu de separat prin metode convenționale. Utile în stații de reciclare a deșeurilor." },
     ],
     industries: [
       "Industrie alimentară — separatoare igienice cu curățare CIP pe linii de procesare",
@@ -113,7 +113,7 @@ Pentru instalațiile din România, Goudsmit înseamnă acces la separatoare magn
       { code: "Magnetic Filters Hygienic (CIP)", description: "Filtru magnetic igienic, curățare CIP fără demontare" },
       { code: "Permanent Lifting Magnets FX", description: "Magnet de ridicare permanent pentru piese metalice grele" },
       { code: "Tunnel Demagnetizers", description: "Sistem de demagnetizare tip tunel pentru piese metalice" },
-      { code: "Pot Magnets", description: "Magneți de montaj tip oală, cu filet sau contrat" },
+      { code: "Pot Magnets", description: "Magneți de montaj tip oală, cu elemente de fixare filetate" },
     ],
     faq: [
       { q: "Ce produce Goudsmit Magnetics?", a: "Goudsmit Magnetics fabrică magneți permanenți din neodim, ferită, samariu-cobalt și AlNiCo, plus echipamente de separare magnetică — pentru cădere liberă, linii de presiune și benzi transportoare — folosite pentru protejarea utilajelor și recuperarea metalelor din fluxuri de material sau deșeuri." },
@@ -122,8 +122,8 @@ Pentru instalațiile din România, Goudsmit înseamnă acces la separatoare magn
       { q: "Livrați echipamente Goudsmit Magnetics în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea producătorului pentru configurația exactă aleasă de dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Goudsmit Magnetics — homepage", url: "https://www.goudsmitmagnetics.com/", publisher: "Goudsmit Magnetics", accessed: "2026-09-25" },
       { title: "Products — Goudsmit Magnetics", url: "https://www.goudsmitmagnetics.com/products", publisher: "Goudsmit Magnetics", accessed: "2026-09-25" },
@@ -141,15 +141,15 @@ Pentru instalații din România, Grünbeck înseamnă acces la echipamente de de
     whyChoose: [
       "Gamă separată pentru rezidențial și industrial, cu dedurizatoare dimensionate specific pentru clădiri mari sau procese de producție",
       "Tehnologie de membrană completă — osmoză inversă, ultrafiltrare, nanofiltrare și electrodeionizare — sub același producător",
-      "Sisteme de dozare și dezinfecție integrate, pentru protecție microbiologică fără substanțe suplimentare de la alți furnizori",
+      "Sisteme de dozare și dezinfecție UV în același portofoliu",
       "Producător german specializat exclusiv pe tratarea apei, cu istoric de decenii în acest domeniu tehnic",
       "Soluții pentru apă de proces cu conductivitate foarte scăzută, utile în centrale termice și laboratoare",
     ],
     keyProducts: [
-      { name: "Dedurizatoare softliQ pentru Clădiri și Industrie", description: "Seriile softliQ:LB, softliQ:XLA și softliQ:MD12i sunt dedurizatoare cu schimb ionic, dimensionate pentru clădiri mari, hoteluri sau procese industriale unde duritatea apei ar afecta cazanele, schimbătoarele de căldură sau echipamentele sanitare. Regenerarea se face automat, pe baza consumului real de apă. GENO-mat acoperă capacități și mai mari, pentru instalații cu debit ridicat. Alegerea modelului depinde de duritatea apei brute, debitul de vârf și numărul de utilizatori sau ore de funcționare pe zi." },
+      { name: "Dedurizatoare softliQ pentru Clădiri și Industrie", description: "Seriile softliQ:LB, softliQ:XLA și softliQ:MD12i sunt dedurizatoare cu schimb ionic, dimensionate pentru clădiri mari, hoteluri sau procese industriale unde duritatea apei ar afecta cazanele, schimbătoarele de căldură sau echipamentele sanitare. GENO-mat acoperă capacități și mai mari, pentru instalații cu debit ridicat. Alegerea modelului depinde de duritatea apei brute, debitul de vârf și numărul de utilizatori sau ore de funcționare pe zi." },
       { name: "Tehnologie de Membrană — Osmoză Inversă și Ultrafiltrare", description: "Sisteme de osmoză inversă GENO-OSMO-X și osmoliQ pentru producerea de apă demineralizată, folosite ca alimentare pentru cazane de abur sau pentru apă de proces cu conductivitate scăzută. Ultrafiltrarea ultraliQ reține particule fine și microorganisme înainte de osmoză, protejând membranele de colmatare. Electrodeionizarea GENO-EDI-X duce puritatea apei la nivelul necesar aplicațiilor analitice de laborator, fără regenerare chimică periodică precum la schimbătorii ionici clasici." },
       { name: "Sisteme de Filtrare și Oxidare", description: "Filtre fine pureliQ:K/KD pentru reținerea particulelor din apa potabilă sau de proces, completate de sisteme de filtrare-oxidare fermaliq pentru îndepărtarea fierului și manganului din apa brută înainte de dedurizare sau osmoză. Alegerea între cele două depinde de compoziția chimică a apei sursă, stabilită printr-o analiză prealabilă." },
-      { name: "Dozare Chimică și Dezinfecție", description: "Sisteme de dozare exaliQ:KC pentru substanțe de condiționare a apei, alături de echipamente de dezinfecție UV violiQ pentru apă potabilă, folosite acolo unde protecția microbiologică trebuie asigurată fără clor rezidual. Se aleg în funcție de debitul de apă tratat și de cerințele microbiologice ale aplicației." },
+      { name: "Dozare Chimică și Dezinfecție", description: "Sistemul de dozare exaliQ:KC, care adaugă în apa tratată minerale inofensive pentru sănătate, ce formează un strat de protecție pe conducte și instalații, alături de echipamente de dezinfecție UV violiQ pentru apă potabilă, folosite acolo unde protecția microbiologică trebuie asigurată fără clor rezidual. Se aleg în funcție de debitul de apă tratat și de cerințele microbiologice ale aplicației." },
     ],
     industries: [
       "Clădiri comerciale și hoteluri — dedurizare pentru protecția instalațiilor sanitare și HVAC",
@@ -168,14 +168,14 @@ Pentru instalații din România, Grünbeck înseamnă acces la echipamente de de
       { code: "softliQ:MD12i", description: "Dedurizator compact pentru instalații de dimensiune medie" },
       { code: "GENO-mat", description: "Dedurizator industrial pentru debite foarte mari" },
       { code: "pureliQ:K/KD", description: "Filtru fin pentru reținerea particulelor din apă" },
-      { code: "exaliQ:KC", description: "Sistem de dozare pentru condiționarea chimică a apei" },
+      { code: "exaliQ:KC", description: "Sistem de dozare de minerale pentru protecția conductelor" },
       { code: "ultraliQ", description: "Sistem de ultrafiltrare, pretratare înainte de osmoză" },
       { code: "NANO-X", description: "Sistem de nanofiltrare pentru selecție ionică" },
       { code: "GENO-OSMO-X", description: "Instalație de osmoză inversă pentru apă demineralizată" },
       { code: "osmoliQ", description: "Instalație de osmoză inversă, gamă complementară GENO-OSMO-X" },
       { code: "GENO-EDI-X", description: "Sistem de electrodeionizare pentru puritate ridicată" },
       { code: "GENO-HR-X", description: "Sistem de presurizare pentru instalații de membrană" },
-      { code: "GENO-FU-X", description: "Sistem de repompare pentru instalații de osmoză inversă" },
+      { code: "GENO-FU-X", description: "Sistem de ridicare a presiunii (pressure booster) pentru instalații de membrană" },
       { code: "fermaliq", description: "Filtru de oxidare pentru fier și mangan din apă" },
       { code: "violiQ", description: "Sistem de dezinfecție UV pentru apă potabilă" },
     ],
@@ -186,8 +186,8 @@ Pentru instalații din România, Grünbeck înseamnă acces la echipamente de de
       { q: "Livrați echipamente Grünbeck în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea producătorului pentru configurația aleasă, în funcție de model și de disponibilitatea componentelor." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Grünbeck Wasseraufbereitung — homepage", url: "https://www.gruenbeck.com", publisher: "Grünbeck Wasseraufbereitung GmbH", accessed: "2026-09-25" },
       { title: "Water Softeners — for your business", url: "https://www.gruenbeck.com/products-and-solutions/gruenbeck-for-your-business/water-softeners", publisher: "Grünbeck Wasseraufbereitung GmbH", accessed: "2026-09-25" },
@@ -198,23 +198,23 @@ Pentru instalații din România, Grünbeck înseamnă acces la echipamente de de
   "intensiv-filter": {
     name: "Intensiv-Filter",
     headquarters: "Velbert, Germania",
-    overview: `Intensiv-Filter este un producător german de filtre cu saci și instalații de desprăfuire industrială, cu sediul la Velbert, activ de aproape un secol în tehnologia de filtrare a aerului. Gama include filtre de proces din familia ProJet — modelul mega pentru debite mari, smart pentru instalații compacte și varianta CIP cu curățare în circuit închis — plus sisteme injector și componente de evacuare a prafului colectat. Pentru piața din România putem oferta din gama de filtre cu saci ProJet, folosite pentru conformarea cu limitele de emisii de pulberi în procese industriale.
+    overview: `Intensiv-Filter este un producător german de filtre cu saci și instalații de desprăfuire industrială, cu sediul la Velbert, activ de aproape un secol în tehnologia de filtrare a aerului. Gama include filtre de proces din familia ProJet — modelul mega pentru debite mari, smart pentru instalații compacte și varianta CIP (Cleaning in Place) — plus sisteme injector și componente de evacuare a prafului colectat. Pentru piața din România putem oferta din gama de filtre cu saci ProJet, folosite pentru conformarea cu limitele de emisii de pulberi în procese industriale.
 
-Ce diferențiază Intensiv-Filter e specializarea îngustă pe desprăfuire prin filtre cu saci, cu decenii de experiență în industrii cu praf abraziv sau fin — ciment, oțel, sticlă și chimie. Familia ProJet acoperă mai multe scenarii: mega pentru procese cu volume mari de aer și încărcare ridicată de praf, smart ca filtru compact acolo unde spațiul de montaj e limitat, iar CIP pentru aplicații unde sistemul de filtrare trebuie curățat fără demontare, ca în industria alimentară. Compania oferă și un program propriu de calcul (ProExpertise) pentru determinarea punctului optim de operare al instalației, plus conversii de electrofiltre vechi în filtre cu saci moderne.
+Intensiv-Filter se concentrează pe desprăfuire prin filtre cu saci, pentru industrii precum ciment, oțel, sticlă și chimie. Familia ProJet acoperă mai multe scenarii: mega pentru procese cu volume mari de aer și încărcare ridicată de praf, smart ca filtru compact acolo unde spațiul de montaj e limitat, iar CIP (Cleaning in Place) pentru curățarea aerului evacuat din uscătoare prin pulverizare și pentru recuperarea produsului. Compania oferă și un program propriu de calcul (ProExpertise) pentru determinarea punctului optim de operare al instalației, plus conversii de electrofiltre vechi în filtre cu saci moderne.
 
 Pentru instalații din România, Intensiv-Filter înseamnă acces la filtre de proces pentru desprăfuire industrială în ciment, metalurgie, energie sau gestionarea deșeurilor, acolo unde limitele de emisii de particule trebuie respectate constant, nu doar la punerea în funcțiune.`,
     whyChoose: [
       "Familie ProJet cu trei variante — mega, smart și CIP — acoperă de la instalații mari până la spații compacte",
-      "Specializare exclusivă pe filtrare cu saci și desprăfuire industrială, fără portofoliu dispersat pe alte tehnologii",
+      "Filtre cu saci și instalații de desprăfuire industrială, cu activitate de aproape un secol în domeniu",
       "Program propriu de calcul ProExpertise pentru dimensionarea corectă a punctului de operare al filtrului",
       "Servicii de conversie a electrofiltrelor vechi în filtre cu saci moderne, utile la modernizări de linii existente",
       "Experiență în industrii cu praf dificil — ciment, sticlă, metalurgie — nu doar aplicații generice de ventilație",
     ],
     keyProducts: [
-      { name: "ProJet mega — Filtru de Proces", description: "Filtru cu saci dimensionat pentru volume mari de aer și încărcare ridicată de praf, folosit ca instalație centrală de desprăfuire în procese continue — ciment, metalurgie, producție de sticlă. Sistemul de curățare (jet-pulse) desprinde praful de pe saci fără oprirea fluxului de aer filtrat. Dimensionarea corectă necesită debitul de aer, concentrația de praf și temperatura gazelor la intrare." },
-      { name: "ProJet smart — Filtru Compact", description: "Variantă compactă a filtrului de proces, pentru instalații cu spațiu de montaj limitat sau debite mai reduse decât varianta mega. Păstrează același principiu de curățare jet-pulse, la o amprentă mai mică la sol. Potrivit pentru linii secundare de desprăfuire sau instalații modernizate unde nu există spațiu pentru un filtru de dimensiune completă." },
-      { name: "ProJet CIP — Filtru cu Curățare în Circuit Închis", description: "Filtru de proces cu sistem de curățare CIP (Cleaning in Place), pentru aplicații unde interiorul filtrului trebuie igienizat fără demontare — tipic în industria alimentară sau acolo unde praful colectat are risc de contaminare încrucișată. Reduce timpul de oprire a liniei pentru curățare comparativ cu demontarea manuală a sacilor." },
-      { name: "Sisteme Injector și Componente de Evacuare a Prafului", description: "Sisteme injector pentru transportul pneumatic al prafului colectat și componente de evacuare — celule rotative, șnecuri, valve — pentru scoaterea continuă a materialului reținut din tremia filtrului, fără a întrerupe procesul de filtrare. Se dimensionează în funcție de debitul de praf colectat și de tipul de material." },
+      { name: "ProJet mega — Filtru de Proces", description: "Filtru cu saci dimensionat pentru volume mari de aer și încărcare ridicată de praf, folosit ca instalație centrală de desprăfuire în procese continue — ciment, metalurgie, producție de sticlă. Dimensionarea corectă necesită debitul de aer, concentrația de praf și temperatura gazelor la intrare." },
+      { name: "ProJet smart — Filtru Compact", description: "Variantă compactă a filtrului de proces, pentru instalații cu spațiu de montaj limitat sau debite mai reduse decât varianta mega. Este un sistem modular, cu patru capete de filtrare combinate cu patru lungimi de saci, pentru debite de 2.000–20.000 m³/h în condiții de funcționare. Potrivit pentru linii secundare de desprăfuire sau instalații modernizate unde nu există spațiu pentru un filtru de dimensiune completă." },
+      { name: "ProJet CIP — Filtru CIP (Cleaning in Place)", description: "Filtru de proces ProJet CIP (CIP = Cleaning in Place), prezentat de producător ca filtru rotund pentru curățarea aerului evacuat din uscătoare prin pulverizare și pentru recuperarea produsului, cu mai puține componente interne și o suprafață de amplasare redusă." },
+      { name: "Sisteme Injector și Componente de Evacuare a Prafului", description: "Sisteme injector și componente de evacuare a prafului din portofoliul producătorului, dimensionate în funcție de aplicație și de tipul de material." },
     ],
     industries: [
       "Industria cimentului — desprăfuire pe linii de măcinare și ardere",
@@ -224,30 +224,30 @@ Pentru instalații din România, Intensiv-Filter înseamnă acces la filtre de p
       "Energie — desprăfuire pe instalații de ardere",
       "Gestionarea deșeurilor — filtrare gaze din procese de incinerare sau sortare",
     ],
-    infinitrade: `Pentru Intensiv-Filter mergem doar pe informațiile publicate de producător, fără date proprii despre stocul de componente sau saci filtranți. Aducem filtre de proces din familia ProJet la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de configurație și de disponibilitatea componentelor la producător. Pentru o ofertă corectă avem nevoie de debitul de aer de filtrat, concentrația și tipul de praf, temperatura gazelor și spațiul disponibil de montaj. Nu ținem aceste filtre pe raft — fiecare instalație se confirmă direct cu producătorul, iar termenul depinde de complexitatea configurației.`,
+    infinitrade: `Pentru Intensiv-Filter mergem doar pe informațiile publicate de producător, fără date proprii despre stocul de componente sau saci filtranți. Aducem filtre de proces din familia ProJet la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen de livrare confirmat în ofertă, de regulă peste 4 săptămâni, deoarece sunt sisteme complexe, în funcție de configurație și de disponibilitatea componentelor la producător. Pentru o ofertă corectă avem nevoie de debitul de aer de filtrat, concentrația și tipul de praf, temperatura gazelor și spațiul disponibil de montaj. Nu ținem aceste filtre pe raft — fiecare instalație se confirmă direct cu producătorul, iar termenul depinde de complexitatea configurației.`,
     limitation: "Nu putem confirma piesele de schimb compatibile cu instalații Intensiv-Filter mai vechi fără seria exactă a echipamentului existent.",
     productCodes: [
       { code: "ProJet mega", description: "Filtru de proces cu saci, pentru debite mari de aer" },
       { code: "ProJet smart", description: "Filtru compact, pentru spații de montaj limitate" },
-      { code: "ProJet CIP", description: "Filtru cu curățare în circuit închis, fără demontare" },
-      { code: "CombiJet", description: "Sistem combinat de filtrare și curățare a aerului" },
+      { code: "ProJet CIP", description: "Filtru de proces CIP (Cleaning in Place), pentru aer evacuat din uscătoare prin pulverizare" },
+      { code: "CombiJet", description: "Sistem combinat de filtrare din portofoliul producătorului" },
       { code: "Elektrofilter-Umbau", description: "Conversie a electrofiltrelor vechi în filtre cu saci" },
       { code: "Filtermedien", description: "Medii filtrante pentru sacii instalațiilor de desprăfuire" },
-      { code: "Injektor-Systeme", description: "Sisteme injector pentru transportul pneumatic al prafului" },
+      { code: "Injektor-Systeme", description: "Sisteme injector din portofoliul producătorului" },
       { code: "ProExpertise", description: "Program de calcul pentru punctul optim de operare" },
       { code: "Staubaustragskomponenten", description: "Componente de evacuare a prafului colectat din filtru" },
-      { code: "Ersatzteile ProJet", description: "Piese de schimb pentru familia de filtre ProJet" },
-      { code: "Jet-Pulse Schlauchfilter", description: "Filtru cu saci și curățare prin impuls de aer" },
+      
+      
     ],
     faq: [
       { q: "Ce produce Intensiv-Filter?", a: "Intensiv-Filter fabrică filtre cu saci și instalații de desprăfuire industrială — familia ProJet, în variante mega, smart și CIP — plus sisteme injector și componente pentru evacuarea prafului colectat, folosite în ciment, metalurgie, sticlă, chimie și energie." },
       { q: "Cum aleg între ProJet mega și ProJet smart de la Intensiv-Filter?", a: "Alegerea depinde de debitul de aer și de spațiul disponibil: mega e dimensionat pentru volume mari și încărcare ridicată de praf, iar smart e varianta compactă pentru instalații cu spațiu limitat sau debite mai mici. Trimiteți-ne debitul de aer estimat pentru recomandarea corectă." },
-      { q: "Ce înseamnă filtrul ProJet CIP față de variantele standard?", a: "ProJet CIP are un sistem de curățare în circuit închis, care igienizează interiorul filtrului fără demontarea sacilor — util în industria alimentară sau acolo unde praful colectat prezintă risc de contaminare încrucișată între loturi de producție." },
-      { q: "Livrați filtre Intensiv-Filter în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de configurația exactă și de disponibilitatea componentelor la producător." },
+      { q: "Ce înseamnă filtrul ProJet CIP față de variantele standard?", a: "ProJet CIP (Cleaning in Place) este varianta de filtru de proces destinată, potrivit producătorului, curățării aerului evacuat din uscătoare prin pulverizare și recuperării produsului." },
+      { q: "Livrați filtre Intensiv-Filter în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul se confirmă în ofertă și este, de regulă, peste 4 săptămâni, deoarece sunt sisteme complexe, în funcție de configurația exactă și de disponibilitatea componentelor la producător." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Intensiv Filter Himenviro — homepage", url: "https://www.intensiv-filter.com/", publisher: "Intensiv Filter Himenviro GmbH", accessed: "2026-09-25" },
       { title: "Schlauchfilter und filternde Abscheider", url: "https://www.intensiv-filter.com/produktportfolio/schlauchfilter-und-filternde-abscheider/", publisher: "Intensiv Filter Himenviro GmbH", accessed: "2026-09-25" },
@@ -259,22 +259,22 @@ Pentru instalații din România, Intensiv-Filter înseamnă acces la filtre de p
     name: "JUDO Wasseraufbereitung",
     headquarters: "Winnenden, Germania",
     founded: 1936,
-    overview: `JUDO Wasseraufbereitung este un producător german de sisteme de tratare a apei pentru clădiri, cu sediul la Winnenden și activitate din 1936. Gama acoperă filtre de protecție pentru instalațiile de apă, dedurizatoare din familiile i-soft și SOFTwell, sisteme de dozare pentru condiționare chimică și echipamente de protecție împotriva scurgerilor de apă. Pentru piața din România putem oferta din gama de dedurizatoare și filtre de protecție, cele mai cerute în clădiri rezidențiale mari și instalații de tip Gebäudetechnik (tehnica clădirii).
+    overview: `JUDO Wasseraufbereitung este un producător german de sisteme de tratare a apei pentru clădiri, cu sediul la Winnenden și activitate din 1936. Gama acoperă filtre de protecție pentru instalațiile de apă, dedurizatoare din familiile i-soft și SOFTwell, sisteme de dozare pentru condiționare chimică și echipamente de protecție împotriva scurgerilor de apă. Pentru piața din România putem oferta din gama de dedurizatoare și filtre de protecție, potrivite pentru clădiri rezidențiale mari și instalații de tehnica clădirii (Gebäudetechnik).
 
 Ce diferențiază JUDO e integrarea protecției anti-scurgere direct în dedurizator, nu ca accesoriu separat: seriile i-soft SAFE+ și i-soft K SAFE+ opresc automat alimentarea cu apă în caz de scurgere detectată, funcție utilă mai ales la clădiri fără supraveghere permanentă. Familia i-soft PRO, cu variantele XL 70 și XL 140, e dimensionată pentru instalații de tehnica clădirii cu debite mai mari decât o locuință individuală, în timp ce seria SOFTwell acoperă segmentul de intrare, cu modele KP, KS, P și S. Compania produce și sisteme de dozare pentru condiționare chimică, complementare dedurizării prin schimb ionic.
 
 Pentru instalații din România, JUDO înseamnă acces la dedurizatoare cu protecție integrată împotriva scurgerilor, utile în clădiri rezidențiale mari, hoteluri sau spații comerciale unde o scurgere nedetectată ar produce pagube înainte de a fi observată.`,
     whyChoose: [
       "Protecție anti-scurgere integrată direct în dedurizator la seriile i-soft SAFE+, nu montată separat de alt furnizor",
-      "Producător cu activitate din 1936, specializat exclusiv pe tratarea apei pentru clădiri, nu portofoliu generalist",
+      "Producător cu activitate din 1936, specializat pe tratarea apei pentru clădiri",
       "Gamă pe mai multe niveluri — SOFTwell pentru intrare, i-soft K pentru mediu, i-soft PRO pentru tehnica clădirii",
       "Variante XL 70 și XL 140 în familia i-soft PRO, pentru debite peste nivelul unei locuințe individuale",
       "Sisteme de dozare chimică complementare dedurizării, pentru condiționarea completă a apei din instalație",
     ],
     keyProducts: [
-      { name: "Dedurizatoare i-soft PRO (XL 70 / XL 140)", description: "Dedurizatoare complet automate pentru tehnica clădirii, dimensionate pentru instalații cu debite mai mari decât o locuință — clădiri de apartamente, hoteluri sau spații comerciale. Varianta i-soft PRO SAFE+ adaugă protecție anti-scurgere prin oprirea automată a alimentării cu apă. Alegerea între XL 70 și XL 140 depinde de debitul de vârf și de numărul de puncte de consum din clădire." },
-      { name: "Dedurizatoare i-soft și i-soft K", description: "Dedurizatoare automate pentru clădiri de dimensiune medie, disponibile cu sau fără protecție anti-scurgere (variantele SAFE+). Regenerarea se face pe baza consumului real de apă, nu după un program fix, ceea ce reduce consumul de sare și apă de regenerare față de sistemele mai vechi. Recomandate pentru clădiri de până la 10 unități locative." },
-      { name: "Dedurizatoare SOFTwell (KP, KS, P, S)", description: "Familia de intrare pentru dedurizare, cu modele de la varianta de bază S până la KP și KS, cu funcții suplimentare de reglare. Potrivite pentru instalații mai mici sau bugete mai restrânse, unde protecția anti-scurgere integrată nu e o cerință obligatorie." },
+      { name: "Dedurizatoare i-soft PRO (XL 70 / XL 140)", description: "Dedurizatoare complet automate pentru tehnica clădirii, dimensionate pentru instalații cu debite mai mari decât o locuință — clădiri de apartamente, hoteluri sau spații comerciale. Modelul i-soft PRO include un sistem de protecție la microscurgeri. Alegerea între XL 70 și XL 140 depinde de debitul de vârf și de numărul de puncte de consum din clădire." },
+      { name: "Dedurizatoare i-soft și i-soft K", description: "Dedurizatoare automate pentru clădiri de dimensiune medie, disponibile cu sau fără protecție anti-scurgere (variantele SAFE+). Regenerarea se face în funcție de consumul de apă. Pentru clădiri de până la 10 unități locative este indicat modelul i-soft PRO L." },
+      { name: "Dedurizatoare SOFTwell (KP, KS, P, S)", description: "Familie de dedurizatoare automate SOFTwell, cu modelele KP, KS, P și S. Potrivite pentru instalații mai mici sau bugete mai restrânse, unde protecția anti-scurgere integrată nu e o cerință obligatorie." },
       { name: "Filtre de Protecție și Sisteme de Dozare", description: "Filtre de protecție montate la intrarea în instalație, pentru reținerea particulelor și a impurităților din rețeaua publică de apă, înainte de dedurizare. Sistemele de dozare adaugă substanțe de condiționare pentru protecția suplimentară a conductelor și a echipamentelor din aval, acolo unde apa dedurizată nu e suficientă." },
     ],
     industries: [
@@ -293,7 +293,7 @@ Pentru instalații din România, JUDO înseamnă acces la dedurizatoare cu prote
       { code: "i-soft SAFE+", description: "Dedurizator automat cu protecție anti-scurgere" },
       { code: "i-soft K SAFE+", description: "Dedurizator automat cu avertizare și protecție anti-scurgere" },
       { code: "i-soft K", description: "Dedurizator automat cu avertizare de scurgere" },
-      { code: "i-soft", description: "Dedurizator automat de bază, cu avertizare de scurgere" },
+      { code: "i-soft", description: "Dedurizator automat din familia i-soft" },
       { code: "SOFTwell KP", description: "Dedurizator standard, gamă de intrare, cu reglaj" },
       { code: "SOFTwell KS", description: "Dedurizator standard, gamă de intrare" },
       { code: "SOFTwell P", description: "Dedurizator automat, gamă de intrare" },
@@ -306,8 +306,8 @@ Pentru instalații din România, JUDO înseamnă acces la dedurizatoare cu prote
       { q: "Livrați dedurizatoare JUDO în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea producătorului, în funcție de model și de disponibilitatea componentelor la momentul comenzii." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "JUDO Wasseraufbereitung — homepage", url: "https://judo.eu", publisher: "JUDO Wasseraufbereitung GmbH", accessed: "2026-09-25" },
       { title: "Enthärtung — Wasserenthärter", url: "https://judo.eu/produkte/enthaertung/", publisher: "JUDO Wasseraufbereitung GmbH", accessed: "2026-09-25" },
@@ -316,9 +316,9 @@ Pentru instalații din România, JUDO înseamnă acces la dedurizatoare cu prote
 
   "toray-membrane": {
     name: "Toray Membrane",
-    overview: `Toray Membrane este divizia de membrane pentru tratarea apei a grupului japonez Toray Industries, specializată în elemente de osmoză inversă, nanofiltrare, ultrafiltrare și bioreactoare cu membrană (MBR). Gama de osmoză inversă acoperă atât apă salmastră (seriile TM, TMG, TMH), cât și apă de mare (seriile TSW și TM800), cu debite și rate de respingere a sărurilor publicate pentru fiecare model. Pentru piața din România putem oferta din gama de elemente de osmoză inversă, cea mai cerută categorie pentru desalinizare și producerea de apă demineralizată industrială.
+    overview: `Toray Membrane este divizia de membrane pentru tratarea apei a grupului japonez Toray Industries, specializată în elemente de osmoză inversă, nanofiltrare, ultrafiltrare și bioreactoare cu membrană (MBR). Gama de osmoză inversă acoperă atât apă salmastră (seriile TM, TMG, TMH), cât și apă de mare (seriile TSW și TM800), cu debite și rate de respingere a sărurilor publicate pentru fiecare model. Pentru piața din România putem oferta din gama de elemente de osmoză inversă, o categorie folosită pentru desalinizare și producerea de apă demineralizată industrială.
 
-Ce diferențiază gama Toray e granularitatea seriilor: TMG e varianta de joasă presiune, cu consum energetic mai mic pentru o rată de respingere similară cu seria TM standard, iar TMH e varianta de ultra-joasă presiune pentru buget energetic limitat. Seriile TBW și TLF sunt optimizate pentru rezistență la colmatare, iar seria TZD e dedicată sistemelor de descărcare minimă sau zero a lichidului (ZLD/MLD). Elementele de ultrafiltrare cu fibră goală, din PVDF, completează gama pentru pretratare înainte de osmoză.
+Ce diferențiază gama Toray e granularitatea seriilor: TMG e varianta de joasă presiune, cu consum energetic mai mic pentru o rată de respingere similară cu seria TM standard, iar TMH e varianta de ultra-joasă presiune pentru buget energetic limitat. Seriile TLF și TML sunt optimizate pentru colmatare redusă (low fouling), iar seria TBW oferă respingere ridicată a moleculelor neutre la presiune joasă, iar seria TZD e dedicată sistemelor de descărcare minimă sau zero a lichidului (ZLD/MLD). Elementele de ultrafiltrare cu fibră goală, din PVDF, completează gama pentru pretratare înainte de osmoză.
 
 Pentru instalații din România, Toray Membrane înseamnă acces la elemente de osmoză inversă pentru desalinizare, producere de apă demineralizată industrială sau tratarea apei reziduale, acolo unde parametrii tehnici publicați (debit, rată de respingere) trebuie să corespundă exact cerințelor procesului.`,
     whyChoose: [
@@ -330,8 +330,8 @@ Pentru instalații din România, Toray Membrane înseamnă acces la elemente de 
     ],
     keyProducts: [
       { name: "Elemente de Osmoză Inversă pentru Apă Salmastră (TM, TMG, TMH)", description: "Elemente spiralate de osmoză inversă pentru apă salmastră, în trei variante de presiune: TM (standard), TMG (joasă presiune) și TMH (ultra-joasă presiune). Debitele publicate merg de la aproximativ 2.400 la peste 13.000 galoane pe zi (gpd), în funcție de model și dimensiune, cu rate de respingere a sărurilor între 99,3% și 99,8%. Alegerea între variante depinde de presiunea de alimentare disponibilă și de bugetul energetic al instalației." },
-      { name: "Elemente de Osmoză Inversă pentru Apă de Mare (TSW, TM800)", description: "Elemente pentru desalinizare de apă de mare, cu debite între aproximativ 5.800 și 9.900 gpd și rate de respingere a sărurilor de până la 99,92%, în variante optimizate pentru debit maxim (V), respingere maximă (K) sau echilibru între cele două (M). Seria TM800 oferă parametri similari, ca alternativă din aceeași gamă." },
-      { name: "Elemente Rezistente la Colmatare (TBW, TLF, TML)", description: "Serii optimizate pentru ape cu conținut ridicat de materie organică, cu debite de până la aproximativ 11.500 gpd și rată de respingere de 99,7-99,8%. Reduc frecvența curățărilor chimice comparativ cu elementele standard, la instalații cu apă sursă mai puțin curată." },
+      { name: "Elemente de Osmoză Inversă pentru Apă de Mare (TSW, TM800)", description: "Elemente pentru desalinizare de apă de mare, cu debite între aproximativ 5.800 și 9.900 gpd și rate de respingere a sărurilor de până la 99,92%, în variante optimizate pentru debit maxim (V), respingere maximă (K) sau echilibru între cele două (M). Seria TM800 include modelele TM820M-400 (7.000 gpd) și TM820V-440 (9.900 gpd), cu respingere a sărurilor de 99,80%." },
+      { name: "Elemente cu Colmatare Redusă (TLF, TML)", description: "Serii cu colmatare redusă (low fouling) și toleranță chimică îmbunătățită, indicate de producător pentru tratarea apelor uzate și reutilizarea apei, cu debite de până la aproximativ 11.500 gpd și rată de respingere de 99,7-99,8%." },
       { name: "Elemente pentru Descărcare Minimă/Zero a Lichidului (TZD)", description: "Serie dedicată sistemelor de concentrare avansată a apei reziduale (ZLD/MLD), cu variante HP, LP, HR, HF și LF, pentru debite între 6.500 și 10.500 gpd. Permite concentrarea saramurii la niveluri mai ridicate înainte de eliminare." },
       { name: "Membrane de Ultrafiltrare și Bioreactoare (UF, MBR)", description: "Membrane de ultrafiltrare cu fibră goală din PVDF, cu dimensiune nominală a porilor de 0,01 μm, folosite pentru pretratare înainte de osmoză sau ca treaptă independentă de filtrare. Membranele MBR, în format plan (flat-sheet), tot din PVDF, gestionează concentrații ridicate de solide suspendate în tratarea biologică a apei." },
     ],
@@ -339,7 +339,7 @@ Pentru instalații din România, Toray Membrane înseamnă acces la elemente de 
       "Desalinizare apă de mare — producere de apă potabilă din surse saline",
       "Industrie — apă demineralizată de proces prin osmoză inversă",
       "Tratarea apelor uzate — reutilizare și sisteme de descărcare minimă a lichidului",
-      "Industrie alimentară și lactate — membrane spiralate pentru concentrare și clarificare",
+      
     ],
     infinitrade: `Pentru Toray Membrane ne bazăm exclusiv pe fișele publice de pe site-ul producătorului, fără date proprii despre stocul de elemente disponibile la un moment dat. Aducem elemente de osmoză inversă, ultrafiltrare sau MBR la comandă, prin canale de aprovizionare din Uniunea Europeană sau direct din rețeaua Toray, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de debitul necesar, calitatea apei sursă (salmastră sau de mare) și rata de respingere țintă. Nu ținem elemente de membrană pe raft — fiecare comandă depinde de disponibilitatea confirmată în rețeaua producătorului.`,
     limitation: "Nu putem confirma echivalența exactă între seriile Toray și membranele deja instalate de alți producători fără o analiză tehnică punctuală.",
@@ -353,8 +353,8 @@ Pentru instalații din România, Toray Membrane înseamnă acces la elemente de 
       { code: "TMH10A", description: "Element RO ultra-joasă presiune, 4″, 2.400 gpd" },
       { code: "TMH20A-400C", description: "Element RO ultra-joasă presiune, 8″, 11.000 gpd" },
       { code: "TMH20A-440C", description: "Element RO ultra-joasă presiune, 8″, 12.100 gpd" },
-      { code: "TBW-4040HR", description: "Element RO rezistent la colmatare, 1.550-7.900 gpd" },
-      { code: "TBW-440XHR", description: "Element RO rezistent la colmatare, până la 9.500 gpd" },
+      { code: "TBW-4040HR", description: "Element RO apă salmastră, joasă presiune, cu respingere ridicată a moleculelor neutre, 1.550 gpd" },
+      { code: "TBW-440XHR", description: "Element RO apă salmastră, cu respingere ridicată a moleculelor neutre, 9.500 gpd" },
       { code: "TSW-400M", description: "Element RO apă de mare, echilibrat, 7.000 gpd" },
       { code: "TSW-440V", description: "Element RO apă de mare, debit maxim, 9.900 gpd" },
       { code: "TSW-400K", description: "Element RO apă de mare, respingere maximă, 5.800 gpd" },
@@ -367,13 +367,13 @@ Pentru instalații din România, Toray Membrane înseamnă acces la elemente de 
     ],
     faq: [
       { q: "Ce produce Toray Membrane?", a: "Toray Membrane fabrică elemente de osmoză inversă pentru apă salmastră și apă de mare, membrane de ultrafiltrare cu fibră goală și membrane MBR pentru tratare biologică, parte din grupul Toray Industries, folosite pentru desalinizare, apă demineralizată industrială și reutilizarea apei." },
-      { q: "Cum aleg elementul de osmoză inversă potrivit din gama Toray Membrane?", a: "Alegerea depinde de calitatea apei sursă și de bugetul energetic: seria TMG e de joasă presiune pentru consum redus, TMH e ultra-joasă presiune, iar seriile TBW și TZD sunt pentru ape cu tendință de colmatare sau sisteme de descărcare minimă a lichidului. Trimiteți-ne debitul și analiza apei sursă." },
-      { q: "Ce echivalent are seria TM800 în gama de apă de mare Toray?", a: "TM800 oferă parametri similari cu seria TSW pentru apă de mare, cu variante optimizate pentru debit maxim, respingere maximă a sărurilor sau un echilibru între cele două. Alegerea depinde de raportul dorit între consumul energetic și puritatea apei produse." },
+      { q: "Cum aleg elementul de osmoză inversă potrivit din gama Toray Membrane?", a: "Alegerea depinde de calitatea apei sursă și de bugetul energetic: seria TMG e de joasă presiune pentru consum redus, TMH e ultra-joasă presiune, seria TBW este pentru respingere ridicată a moleculelor neutre, seriile TLF și TML pentru ape cu tendință de colmatare, iar seria TZD pentru sisteme de descărcare minimă a lichidului. Trimiteți-ne debitul și analiza apei sursă." },
+      { q: "Ce echivalent are seria TM800 în gama de apă de mare Toray?", a: "TM800 este o serie separată pentru apă de mare, cu modelele TM820M-400 (7.000 gpd) și TM820V-440 (9.900 gpd) și respingere a sărurilor de 99,80%, în timp ce seria TSW (TSW-400M, TSW-440V, TSW-400K) are respingere de 99,90–99,92%. Alegerea depinde de raportul dorit între consumul energetic și puritatea apei produse." },
       { q: "Livrați elemente Toray în România și cât durează?", a: "Da, la comandă, prin distribuție din Uniunea Europeană sau direct din rețeaua Toray; termenul orientativ e de 1–4 săptămâni, în funcție de seria aleasă și de stocul central confirmat de producător." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Toray Membrane — homepage", url: "https://www.water.toray", publisher: "Toray Industries, Inc.", accessed: "2026-09-25" },
       { title: "RO Membrane Products", url: "https://www.water.toray/products/ro/", publisher: "Toray Industries, Inc.", accessed: "2026-09-25" },
@@ -383,23 +383,23 @@ Pentru instalații din România, Toray Membrane înseamnă acces la elemente de 
   "walker-filtration": {
     name: "Walker Filtration",
     certifications: ["ISO 9001", "Directiva PED pentru echipamente sub presiune", "marcaj CE", "marcaj UKCA"],
-    overview: `Walker Filtration este un producător britanic de echipamente de purificare a aerului comprimat, gazelor și instalațiilor de vid, cu peste 40 de ani de activitate în domeniu. Gama Alpha acoperă filtre de aer comprimat pentru separare de apă, coalescență și reținere de particule, în variante standard, duplex, de înaltă presiune sau fără silicon, completată de uscătoare cu desicant și sisteme de gestionare a condensului CondenSmart. Pentru piața din România putem oferta din gama de filtre Alpha și uscătoare cu desicant, cele mai cerute în stațiile de aer comprimat industrial.
+    overview: `Walker Filtration este un producător britanic de echipamente de purificare a aerului comprimat, gazelor și instalațiilor de vid, cu peste 40 de ani de activitate în domeniu. Gama Alpha acoperă filtre de aer comprimat pentru separare de apă, coalescență și reținere de particule, în variante standard, duplex, de înaltă presiune sau fără silicon, completată de uscătoare cu desicant și sisteme de gestionare a condensului CondenSmart. Pentru piața din România putem oferta din gama de filtre Alpha și uscătoare cu desicant, potrivite pentru stațiile de aer comprimat industrial.
 
-Ce diferențiază Walker Filtration e acoperirea extinsă a lanțului de purificare, dincolo de filtrarea simplă: seria Alpha include filtre pentru presiuni de până la 50 barg la variantele din aliaj, filtre sterile pentru aplicații medicale și filtre speciale pentru gaze precum CNG, hidrogen, oxigen sau amoniac. Sistemele CondenSmart (electronic, cu vid sau cu temporizator) elimină condensul acumulat în rețeaua de aer comprimat, iar separatoarele SmartSep tratează apa uleioasă rezultată înainte de evacuare, relevant pentru conformarea cu normele de mediu. Compania produce și sisteme specializate precum LaserVac 750, pentru evacuarea fumului rezultat din tăierea cu laser.
+Ce diferențiază Walker Filtration e acoperirea extinsă a lanțului de purificare, dincolo de filtrarea simplă: seria Alpha include filtre de înaltă presiune, în variante de 20 și 50 barg, filtre sterile pentru aplicații medicale și filtre speciale pentru gaze precum CNG, hidrogen, oxigen sau amoniac. Sistemele CondenSmart (electronic, cu vid sau cu temporizator) elimină condensul acumulat în rețeaua de aer comprimat, iar separatoarele SmartSep tratează apa uleioasă rezultată înainte de evacuare, relevant pentru conformarea cu normele de mediu. Compania produce și sisteme specializate precum LaserVac 750, pentru evacuarea fumului chirurgical în proceduri medicale cu laser și electrochirurgie.
 
 Pentru instalații din România, Walker Filtration înseamnă acces la filtre și uscătoare pentru stații de aer comprimat industrial, precum și la soluții specifice pentru gaze speciale sau aplicații medicale, acolo unde puritatea aerului sau gazului trebuie certificată.`,
     whyChoose: [
       "Gamă Alpha completă — de la filtre standard până la variante sterile medicale sau pentru gaze speciale — sub un producător",
       "Certificări ISO 9001, marcaj CE și UKCA, relevante pentru achiziții industriale cu cerințe de conformitate",
       "Sisteme CondenSmart pentru gestionarea condensului, cu variante electronică, cu vid sau cu temporizator, adaptate la debit",
-      "Filtre de înaltă presiune, până la 50 barg în variantele din aliaj, pentru aplicații industriale severe",
-      "Peste patru decenii de activitate exclusiv în purificarea aerului comprimat, gazelor și instalațiilor de vid",
+      "Filtre de înaltă presiune, în variante de 20 și 50 barg, pentru aplicații industriale",
+      "Peste patru decenii de activitate în purificarea aerului comprimat, gazelor și instalațiilor de vid",
     ],
     keyProducts: [
-      { name: "Filtre Alpha pentru Aer Comprimat", description: "Filtre de separare a apei, coalescență și reținere de particule pentru rețele de aer comprimat, în variante standard, duplex (dublă filtrare pe aceeași carcasă) sau fără silicon, pentru aplicații sensibile la contaminare cu silicon. Variantele de înaltă presiune ajung la 50 barg în execuție din aliaj. Alegerea gradului de filtrare depinde de puritatea cerută la punctul de utilizare al aerului." },
+      { name: "Filtre Alpha pentru Aer Comprimat", description: "Filtre de separare a apei, coalescență și reținere de particule pentru rețele de aer comprimat, în variante standard, duplex (pentru filtrare continuă) sau fără silicon, pentru aplicații sensibile la contaminare cu silicon. Variantele de înaltă presiune sunt disponibile pentru 20 și 50 barg. Alegerea gradului de filtrare depinde de puritatea cerută la punctul de utilizare al aerului." },
       { name: "Uscătoare cu Desicant", description: "Uscătoare fără căldură (heatless) și uscătoare pentru debite mici, care elimină umiditatea din aerul comprimat prin adsorbție pe desicant, pentru puncte de rouă scăzute unde filtrarea simplă nu e suficientă. Se dimensionează în funcție de debitul de aer și de punctul de rouă necesar la ieșire." },
       { name: "Sisteme CondenSmart și SmartSep", description: "Sisteme de evacuare a condensului din rețeaua de aer comprimat — electronic cu pierdere zero, cu vid sau cu temporizator — completate de separatoarele SmartSep, care tratează apa uleioasă rezultată înainte de evacuarea în canalizare, pentru conformarea cu normele de mediu privind deversarea de ulei." },
-      { name: "Filtre Speciale pentru Gaze și Aplicații Medicale", description: "Filtre sterile pentru aplicații medicale, alături de filtre dedicate pentru gaze precum CNG, hidrogen, oxigen și amoniac, unde compatibilitatea materialelor cu gazul filtrat e critică pentru siguranță. Include și LaserVac 750, pentru evacuarea fumului rezultat din procese de tăiere cu laser." },
+      { name: "Filtre Speciale pentru Gaze și Aplicații Medicale", description: "Filtre sterile pentru aplicații medicale, alături de filtre dedicate pentru gaze precum CNG, hidrogen, oxigen și amoniac, unde compatibilitatea materialelor cu gazul filtrat e critică pentru siguranță. Include și LaserVac 750, sistem medical pentru evacuarea fumului chirurgical (cu filtrare ULPA) în proceduri cu laser și electrochirurgie." },
     ],
     industries: [
       "Agricultură — aer comprimat pentru echipamente de fermă",
@@ -414,11 +414,11 @@ Pentru instalații din România, Walker Filtration înseamnă acces la filtre ș
       { code: "Alpha Water Separators", description: "Filtru pentru separarea apei din aerul comprimat" },
       { code: "Alpha Coalescing Filters", description: "Filtru prin coalescență, pentru particule și ulei fin" },
       { code: "Alpha Silicone Free Filters", description: "Filtru fără silicon, pentru aplicații sensibile la contaminare" },
-      { code: "Alpha Duplex Filters", description: "Filtru dublu pe aceeași carcasă, pentru redundanță" },
-      { code: "Alpha High Pressure Filters (20 barg)", description: "Filtru din aliaj pentru presiune de până la 20 barg" },
-      { code: "Alpha High Pressure Filters (50 barg)", description: "Filtru din aliaj pentru presiune de până la 50 barg" },
+      { code: "Alpha Duplex Filters", description: "Filtru duplex, pentru filtrare continuă" },
+      { code: "Alpha High Pressure Filters (20 barg)", description: "Filtru de înaltă presiune, 20 barg" },
+      { code: "Alpha High Pressure Filters (50 barg)", description: "Filtru de înaltă presiune, 50 barg" },
       { code: "Alpha High Temperature Filters", description: "Filtru particule pentru temperaturi ridicate de proces" },
-      { code: "Breathable Compressed Air Filters", description: "Filtru pentru aer comprimat respirabil, uz medical" },
+      { code: "Breathable Compressed Air Filters", description: "Filtru pentru aer comprimat respirabil" },
       { code: "PRO XF Filter Housings", description: "Carcasă de filtru din familia PRO XF" },
       { code: "Alpha Medical Sterile Filters", description: "Filtru steril pentru aplicații medicale" },
       { code: "Heatless Desiccant Dryers", description: "Uscător cu desicant, fără element de încălzire" },
@@ -427,20 +427,20 @@ Pentru instalații din România, Walker Filtration înseamnă acces la filtre ș
       { code: "CondenSmart Vacuum Drain", description: "Evacuare condens cu vid" },
       { code: "CondenSmart Timer Drain", description: "Evacuare condens cu temporizator" },
       { code: "SmartSep Oil Water Separators", description: "Separator apă-ulei pentru condens din rețea" },
-      { code: "LaserVac 750", description: "Sistem de evacuare fum pentru tăiere laser" },
+      { code: "LaserVac 750", description: "Sistem medical de evacuare a fumului chirurgical" },
       { code: "Alpha CNG Filters", description: "Filtru pentru gaz natural comprimat" },
       { code: "Alpha Hydrogen Filters", description: "Filtru pentru hidrogen comprimat" },
       { code: "Alpha Oxygen Filters", description: "Filtru pentru oxigen comprimat" },
     ],
     faq: [
       { q: "Ce produce Walker Filtration?", a: "Walker Filtration fabrică filtre Alpha pentru aer comprimat, uscătoare cu desicant, sisteme CondenSmart pentru evacuarea condensului și filtre speciale pentru gaze precum CNG, hidrogen sau oxigen, folosite în stații de aer comprimat industrial și aplicații medicale." },
-      { q: "Cum aleg filtrul Alpha potrivit din gama Walker Filtration pentru o stație de aer comprimat?", a: "Alegerea depinde de treapta de filtrare necesară — separare de apă, coalescență sau reținere de particule — și de presiunea de lucru; variantele de înaltă presiune din aliaj acoperă până la 50 barg. Trimiteți-ne debitul și presiunea instalației pentru recomandare." },
-      { q: "Ce diferență e între CondenSmart Electronic Drain și varianta cu temporizator?", a: "Varianta electronică evacuează condensul doar când e detectat, fără pierdere de aer comprimat, în timp ce varianta cu temporizator evacuează la intervale fixe, indiferent de cantitatea reală de condens, ceea ce poate irosi aer comprimat dacă intervalul nu e bine ales." },
+      { q: "Cum aleg filtrul Alpha potrivit din gama Walker Filtration pentru o stație de aer comprimat?", a: "Alegerea depinde de treapta de filtrare necesară — separare de apă, coalescență sau reținere de particule — și de presiunea de lucru; variantele de înaltă presiune sunt disponibile pentru 20 și 50 barg. Trimiteți-ne debitul și presiunea instalației pentru recomandare." },
+      { q: "Ce diferență e între CondenSmart Electronic Drain și varianta cu temporizator?", a: "Varianta electronică și varianta cu temporizator sunt două metode diferite de evacuare a condensului; varianta cu temporizator evacuează la intervale fixe, iar alegerea depinde de debitul și de condițiile instalației." },
       { q: "Livrați filtre Walker Filtration în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de disponibilitatea la producător." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Walker Filtration — homepage", url: "https://www.walkerfiltration.com/", publisher: "Walker Filtration Ltd", accessed: "2026-09-25" },
       { title: "Products — Walker Filtration", url: "https://www.walkerfiltration.com/en-gb/products", publisher: "Walker Filtration Ltd", accessed: "2026-09-25" },
@@ -451,7 +451,7 @@ Pentru instalații din România, Walker Filtration înseamnă acces la filtre ș
     name: "AMK Arnold Müller",
     overview: `AMK Arnold Müller, cunoscut și ca AMKmotion, este un producător german de servomotoare, acționări electrice și controlere de mișcare, cu peste 60 de ani de istorie în domeniu. Gama acoperă servomotoare sincrone din seriile DIP, DTX, DT, DD și DP, motoare cu ax gol SKT pentru aplicații liniare, invertoare și surse de alimentare descentralizate sau centralizate, plus controlere de mișcare A4S cu programare Codesys. Pentru piața din România putem oferta din gama de servomotoare și acționări, folosite în automatizarea mașinilor-unelte și a liniilor de procesare.
 
-Ce diferențiază AMK e conceptul de acționare descentralizată: seriile ihD, ihP, iSA, iC și iX integrează invertorul sau sursa de alimentare direct lângă motor, reducând cablarea din dulapul de comandă comparativ cu arhitectura centralizată clasică. Motoarele din seria iDT și ihXT combină motorul sincron cu invertorul integrat într-o singură unitate compactă, de la 150 wați până la 10 kW. În segmentul servomotoarelor centralizate, AMK se poziționează alături de branduri precum Kollmorgen, mizând pe module KE și KW pentru alimentare și conversie, plus controlere KW-R dedicate. Motoarele cu ax gol SKT completează gama pentru aplicații liniare cu șurub-piuliță.
+Ce diferențiază AMK e conceptul de acționare descentralizată: seriile ihD, ihP, iSA, iC și iX integrează invertorul sau sursa de alimentare direct lângă motor, reducând cablarea din dulapul de comandă comparativ cu arhitectura centralizată clasică. Motoarele din seria iDT și ihXT combină motorul sincron cu invertorul integrat într-o singură unitate compactă, de la 150 wați până la 10 kW. În segmentul servomotoarelor centralizate, AMK oferă module KE și KW pentru alimentare și conversie, plus controlere KW-R dedicate. Motoarele cu ax gol SKT completează gama pentru aplicații liniare cu șurub-piuliță.
 
 Pentru instalații din România, AMK Arnold Müller înseamnă acces la servomotoare și acționări pentru automatizarea liniilor de procesare a tablei, mașini-unelte, procesare a maselor plastice sau echipamente de ambalare, acolo unde precizia de poziționare contează direct în calitatea produsului final.`,
     whyChoose: [
@@ -462,9 +462,9 @@ Pentru instalații din România, AMK Arnold Müller înseamnă acces la servomot
       "Controlere de mișcare A4S cu programare Codesys, compatibile cu ecosisteme de automatizare mai largi",
     ],
     keyProducts: [
-      { name: "Servomotoare Sincrone (DIP, DTX, DT, DD, DP)", description: "Familie de servomotoare sincrone pentru acționări centralizate, cu variante standard, cu reductor planetar integrat (DTX) sau optimizate pentru geometrii compacte (DD, DP). Alegerea seriei depinde de cuplul necesar, turația de lucru și spațiul de montaj disponibil pe mașină. Se cuplează cu module de conversie KW sau invertoare descentralizate din gama iC/iX." },
-      { name: "Acționări Descentralizate (ihD, ihP, iSA, iC, iX)", description: "Servoinvertoare și surse de alimentare montate direct lângă motor, cu cablu hibrid către dulapul de comandă, reducând spațiul necesar pentru cablare și armonice electromagnetice pe distanțe lungi. Seria iC ajunge la 10 kW putere de vârf, iar iX folosește o magistrală de curent continuu de înaltă tensiune. Potrivite pentru mașini cu multe axe distribuite pe o suprafață mare." },
-      { name: "Motoare cu Invertor Integrat (iDT, ihXT)", description: "Servomotoare sincrone cu invertorul integrat direct în carcasa motorului, eliminând nevoia unui dulap de comandă separat pentru axa respectivă. Seria ihXT acoperă puteri mici, de la 150 la 450 wați, pentru axe secundare, iar iDT ajunge până la 10 kW pentru axe principale. Reduc numărul de cabluri de putere din instalație." },
+      { name: "Servomotoare Sincrone (DIP, DTX, DT, DD, DP)", description: "Familie de servomotoare sincrone pentru acționări centralizate, cu variante standard, cu reductor planetar integrat (DTX) sau alte serii din gamă (DD, DP). Alegerea seriei depinde de cuplul necesar, turația de lucru și spațiul de montaj disponibil pe mașină." },
+      { name: "Acționări Descentralizate (ihD, ihP, iSA, iC, iX)", description: "Servoinvertoare și surse de alimentare montate direct lângă motor, cu cablu hibrid către dulapul de comandă, reducând spațiul necesar pentru cablare. Seria iC ajunge la 10 kW putere de vârf, iar iX folosește o magistrală de curent continuu de înaltă tensiune. Potrivite pentru mașini cu multe axe distribuite pe o suprafață mare." },
+      { name: "Motoare cu Invertor Integrat (iDT, ihXT)", description: "Servomotoare sincrone cu invertorul integrat direct în carcasa motorului, eliminând nevoia unui dulap de comandă separat pentru axa respectivă. Seria ihXT acoperă puteri mici, de la 150 la 450 wați, iar iDT ajunge la o putere de vârf de până la 10 kW. Reduc numărul de cabluri de putere din instalație." },
       { name: "Module Centralizate KE/KW și Controlere de Mișcare A4S", description: "Module compacte de alimentare (KE) și conversie (KW), scalabile în configurații simple sau duble, pentru arhitectura centralizată clasică de acționare. Controlerele A4S, programabile în Codesys, coordonează mișcarea mai multor axe și se integrează cu instrumentul de inginerie AIPEX pentru mentenanța pe termen lung a instalației." },
     ],
     industries: [
@@ -480,8 +480,8 @@ Pentru instalații din România, AMK Arnold Müller înseamnă acces la servomot
       { code: "DIP", description: "Servomotor sincron standard pentru acționări centralizate" },
       { code: "DTX", description: "Servomotor sincron cu reductor planetar integrat" },
       { code: "DT", description: "Servomotor sincron, gamă standard" },
-      { code: "DD", description: "Servomotor sincron, geometrie compactă" },
-      { code: "DP", description: "Servomotor sincron, geometrie compactă alternativă" },
+      { code: "DD", description: "Servomotor sincron" },
+      { code: "DP", description: "Servomotor sincron" },
       { code: "DTK", description: "Servomotor sincron, versiune scurtă" },
       { code: "SKT", description: "Motor cu ax gol, pentru acționări liniare" },
       { code: "ihD-DT5", description: "Servomotor sincron descentralizat cu invertor integrat" },
@@ -499,13 +499,13 @@ Pentru instalații din România, AMK Arnold Müller înseamnă acces la servomot
     ],
     faq: [
       { q: "Ce produce AMK Arnold Müller?", a: "AMK Arnold Müller fabrică servomotoare sincrone, acționări descentralizate cu invertor integrat lângă motor, module centralizate de alimentare și conversie, plus controlere de mișcare programabile, folosite în mașini-unelte, prelucrarea tablei și automatizarea liniilor de producție." },
-      { q: "Ce înseamnă acționarea descentralizată în gama AMK Arnold Müller?", a: "Înseamnă că invertorul sau sursa de alimentare stă montată direct lângă motor, nu în dulapul central de comandă, reducând lungimea cablurilor de putere și armonicele pe distanțe mari. Seriile ihD, iC și iX urmează acest concept, spre deosebire de servomotoarele centralizate clasice DIP sau DT." },
-      { q: "Cu ce se compară servomotoarele AMK pe piața de mașini-unelte?", a: "AMK se poziționează alături de branduri precum Kollmorgen, în segmentul servomotoarelor sincrone pentru mașini-unelte și automatizare industrială, cu accent pe conceptul de acționare descentralizată, mai puțin comun la unii concurenți centralizați clasici." },
+      { q: "Ce înseamnă acționarea descentralizată în gama AMK Arnold Müller?", a: "Înseamnă că invertorul sau sursa de alimentare stă montată direct lângă motor, nu în dulapul central de comandă, reducând cablarea din dulapul central. Seriile ihD, iC și iX urmează acest concept, spre deosebire de servomotoarele centralizate clasice DIP sau DT." },
+      { q: "Cu ce se compară servomotoarele AMK pe piața de mașini-unelte?", a: "AMK oferă servomotoare sincrone și acționări pentru mașini-unelte și automatizare industrială, cu accent pe conceptul de acționare descentralizată." },
       { q: "Livrați echipamente AMK în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea producătorului, în funcție de model și de disponibilitatea componentelor electronice." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "AMKmotion — homepage", url: "https://www.amk-motion.com", publisher: "AMK Arnold Müller GmbH & Co. KG (AMKmotion)", accessed: "2026-09-25" },
       { title: "Servo Motors — Product Portfolio", url: "https://www.amk-motion.com/en/product-portfolio/servo-motors/", publisher: "AMK Arnold Müller GmbH & Co. KG (AMKmotion)", accessed: "2026-09-25" },
@@ -516,7 +516,7 @@ Pentru instalații din România, AMK Arnold Müller înseamnă acces la servomot
     name: "Sanyo Denki",
     overview: `Sanyo Denki este un producător japonez de servomotoare, sisteme de răcire industrială și surse neîntreruptibile de curent (UPS), cu activitate pe mai multe piețe globale. Gama SANMOTION acoperă servomotoare și controlere de mișcare în variante AC (seriile G, R, S), DC (K, T) și motoare pas cu pas (F2, F3, F5), completată de familia San Ace de ventilatoare industriale și sisteme de răcire cu lichid. Pentru piața din România putem oferta din gama SANMOTION de servomotoare, folosită în automatizare industrială și mașini de precizie.
 
-Ce diferențiază SANMOTION e acoperirea mai multor tehnologii de acționare sub aceeași marcă: seria G e servomotorul AC de uz general, seria S e varianta tip ax (spindle motor) pentru freze sau strunguri, iar familia de motoare pas cu pas F2/F3/F5 acoperă aplicații cu cerințe de poziționare mai simple decât un servomotor complet. În acest segment, Sanyo Denki se compară cu branduri precum Kollmorgen, mizând pe integrarea cu propriile controlere din familia SANMOTION C (S200, S300, S500). Pe partea de răcire, seria San Ace oferă ventilatoare cu diametru de până la 280 mm și sisteme de răcire cu lichid pentru echipamente electronice cu densitate mare de putere.
+Ce diferențiază SANMOTION e acoperirea mai multor tehnologii de acționare sub aceeași marcă: seria S e varianta tip ax (spindle motor), iar familia de motoare pas cu pas F2/F3/F5 completează gama de acționări. În acest segment, gama include propriile controlere din familia SANMOTION C (S200, S300, S500). Pe partea de răcire, seria San Ace oferă ventilatoare DC, inclusiv variante rezistente la stropire, și pompe pentru sisteme de răcire cu lichid.
 
 Pentru instalații din România, Sanyo Denki înseamnă acces la servomotoare pentru automatizare de precizie și la ventilatoare industriale San Ace pentru răcirea dulapurilor electrice sau a echipamentelor cu disipare termică ridicată, două segmente distincte ale aceluiași portofoliu.`,
     whyChoose: [
@@ -527,23 +527,23 @@ Pentru instalații din România, Sanyo Denki înseamnă acces la servomotoare pe
       "Sisteme de răcire cu lichid pentru echipamente electronice cu densitate mare de putere disipată",
     ],
     keyProducts: [
-      { name: "Servomotoare SANMOTION AC (G, R, S)", description: "Servomotoare sincrone AC pentru automatizare industrială și mașini de precizie, cu seria G pentru uz general, R pentru aplicații care necesită răspuns dinamic ridicat și S ca variantă de tip ax (spindle) pentru freze sau strunguri CNC. Se aleg în funcție de cuplul, turația și tipul de aplicație (poziționare generală sau așchiere)." },
-      { name: "Motoare Pas cu Pas SANMOTION (F2, F3, F5)", description: "Motoare pas cu pas în două, trei sau cinci faze, pentru aplicații de poziționare unde precizia unui servomotor complet nu e necesară, la un cost mai redus. Varianta F5 (cinci faze) oferă funcționare mai lină și cuplu mai constant decât variantele cu mai puține faze, la turații reduse." },
-      { name: "Controlere de Mișcare SANMOTION C", description: "Familie de controlere de mișcare (S200, S300, S500) pentru coordonarea servomotoarelor SANMOTION pe una sau mai multe axe, cu adaptor wireless disponibil pentru configurare fără cablu. Alegerea variantei depinde de numărul de axe controlate și de complexitatea traiectoriei de mișcare necesare." },
-      { name: "Ventilatoare și Răcire San Ace", description: "Ventilatoare industriale San Ace, inclusiv variante de 280 mm diametru cu consum redus de energie și execuție rezistentă la stropire, plus sisteme de răcire cu lichid pentru echipamente electronice cu densitate mare de putere, unde răcirea cu aer nu mai e suficientă." },
+      { name: "Servomotoare SANMOTION AC (G, R, S)", description: "Servomotoare sincrone AC pentru automatizare industrială și mașini de precizie, cu seria R descrisă de producător ca sistem AC de înaltă performanță, cu suprimare avansată a vibrațiilor, și seria S ca variantă de tip ax (spindle). Se aleg în funcție de cuplul, turația și tipul de aplicație." },
+      { name: "Motoare Pas cu Pas SANMOTION (F2, F3, F5)", description: "Motoare pas cu pas în două, trei sau cinci faze, din gama SANMOTION; varianta PB este cu buclă închisă (closed loop)." },
+      { name: "Controlere de Mișcare SANMOTION C", description: "Familie de controlere de mișcare (S200, S300, S500) pentru coordonarea servomotoarelor SANMOTION pe una sau mai multe axe. Alegerea variantei depinde de numărul de axe controlate și de complexitatea traiectoriei de mișcare necesare." },
+      { name: "Ventilatoare și Răcire San Ace", description: "Ventilatoare industriale San Ace, inclusiv variante rezistente la stropire (splash proof), plus pompe pentru sisteme de răcire cu lichid (San Ace Pump)." },
     ],
     industries: [
       "Automatizare industrială — servomotoare pentru linii de producție",
-      "Mașini-unelte — motoare de tip ax pentru freze și strunguri CNC",
+      "Mașini-unelte — motoare de tip ax (spindle)",
       "Electronică de putere — răcire cu ventilatoare și sisteme cu lichid",
-      "Centre de date — răcire pentru echipamente cu densitate mare de putere",
+      
     ],
     infinitrade: `Pentru Sanyo Denki lucrăm din surse publice ale producătorului, fără date proprii despre stocul de motoare sau ventilatoare disponibile. Aducem servomotoare SANMOTION, motoare pas cu pas sau ventilatoare San Ace la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de cuplul, turația și tensiunea de alimentare necesare, sau debitul de aer pentru ventilatoare. Nu ținem aceste servomotoare sau ventilatoare pe raft — fiecare comandă se confirmă direct cu Sanyo Denki înainte de livrare.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu instalații Sanyo Denki deja montate fără codul complet al motorului existent.",
     productCodes: [
-      { code: "SANMOTION G", description: "Servomotor AC de uz general" },
-      { code: "SANMOTION R", description: "Servomotor AC cu răspuns dinamic ridicat" },
-      { code: "SANMOTION S", description: "Servomotor tip ax (spindle) pentru CNC" },
+      { code: "SANMOTION G", description: "Servomotor AC, seria G" },
+      { code: "SANMOTION R", description: "Servomotor AC de înaltă performanță, cu suprimare avansată a vibrațiilor" },
+      { code: "SANMOTION S", description: "Motor de tip ax (spindle)" },
       { code: "SANMOTION K", description: "Servomotor DC cu cogging redus" },
       { code: "SANMOTION T", description: "Servomotor DC, gamă standard" },
       { code: "SANMOTION F2", description: "Motor pas cu pas, două faze" },
@@ -554,18 +554,18 @@ Pentru instalații din România, Sanyo Denki înseamnă acces la servomotoare pe
       { code: "SANMOTION C S200", description: "Controler de mișcare, gamă compactă" },
       { code: "SANMOTION C S300", description: "Controler de mișcare, gamă medie" },
       { code: "SANMOTION C S500", description: "Controler de mișcare, gamă avansată" },
-      { code: "San Ace 280x50mm", description: "Ventilator industrial DC, consum redus" },
-      { code: "San Ace Pump", description: "Sistem de răcire cu lichid, debit ridicat" },
+      { code: "San Ace Splash Proof Fan", description: "Ventilator DC rezistent la stropire" },
+      { code: "San Ace Pump", description: "Pompă pentru sisteme de răcire cu lichid" },
     ],
     faq: [
       { q: "Ce produce Sanyo Denki?", a: "Sanyo Denki fabrică servomotoare SANMOTION (AC, DC și pas cu pas), controlere de mișcare, ventilatoare industriale San Ace și sisteme de răcire cu lichid, folosite în automatizare industrială, mașini-unelte și electronică de putere." },
-      { q: "Cum aleg servomotorul SANMOTION potrivit de la Sanyo Denki?", a: "Alegerea depinde de tipul de aplicație: seria G e pentru uz general, S e varianta tip ax pentru freze sau strunguri, iar motoarele pas cu pas F2/F3/F5 acoperă aplicații mai simple de poziționare. Trimiteți-ne cuplul și turația necesare pentru o recomandare." },
-      { q: "Cu ce se compară servomotoarele Sanyo Denki pe piața industrială?", a: "Sanyo Denki se poziționează alături de branduri precum Kollmorgen în segmentul servomotoarelor de automatizare, cu avantajul integrării proprii între motor și controlerele din familia SANMOTION C, ceea ce simplifică punerea în funcțiune a axei." },
+      { q: "Cum aleg servomotorul SANMOTION potrivit de la Sanyo Denki?", a: "Alegerea depinde de tipul de aplicație: seria S e varianta tip ax (spindle), iar motoarele pas cu pas F2/F3/F5 completează gama. Trimiteți-ne cuplul și turația necesare pentru o recomandare." },
+      { q: "Cu ce se compară servomotoarele Sanyo Denki pe piața industrială?", a: "Sanyo Denki oferă servomotoare de automatizare integrate cu propriile controlere din familia SANMOTION C." },
       { q: "Livrați produse Sanyo Denki în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană sau direct din rețeaua producătorului; termenul orientativ este de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sanyo Denki — homepage", url: "https://sanyodenki.com", publisher: "Sanyo Denki Co., Ltd.", accessed: "2026-09-25" },
       { title: "SANMOTION Products", url: "https://products.sanyodenki.com/en/sanmotion/", publisher: "Sanyo Denki Co., Ltd.", accessed: "2026-09-25" },
@@ -579,20 +579,20 @@ Pentru instalații din România, Sanyo Denki înseamnă acces la servomotoare pe
     certifications: ["ISO 9001:2015"],
     overview: `Ampco Pumps este un producător american de pompe sanitare, cu sediul la Glendale, Wisconsin, activ din 1948. Gama acoperă pompe volumetrice cu lobi seria ZP (de la ZP1 la ZP4 Compact și XP), pompe centrifuge sanitare seriile AC/AC+, H, L, M și SP, pompe cu șurub dublu SLH pentru vâscozități mari, plus mixere, omogenizatoare și sisteme de descărcare a butoaielor. Pentru piața din România putem oferta din gama de pompe centrifuge și volumetrice sanitare, folosite în procesarea alimentară, lactate și băuturi.
 
-Ce diferențiază Ampco e specializarea pe igiena sanitară a pompelor, cu design demontabil rapid pentru curățare CIP/SIP, comparabil ca poziționare pe piață cu branduri precum Alfa Laval. Seria ZP de pompe cu lobi acoperă debite mari și vâscozități de până la produse semi-solide, cu variante compacte (ZP4 Compact) pentru spații reduse și XP pentru cerințe speciale de igienă. Pompele centrifuge din familia L au sub-variante LC, LD, LF, LM și LH, adaptate la diverse combinații de debit și înălțime de pompare, iar seria CB+ e dedicată specific berăriilor artizanale (craft brewing). Pompele SLH cu șurub dublu completează gama pentru fluide vâscoase care nu se pretează la pompare centrifugă.
+Ampco oferă pompe sanitare pentru industria alimentară, a băuturilor, chimică și farmaceutică, precum și pompe marine și industriale. Seria ZP de pompe cu lobi acoperă debite mari și vâscozități de până la produse semi-solide, cu variante compacte (ZP4 Compact) pentru spații reduse și XP pentru cerințe speciale de igienă. Pompele centrifuge din familia L au sub-variante LC, LD, LF, LM și LH, adaptate la diverse combinații de debit și înălțime de pompare, iar seria CB+ e dedicată specific berăriilor artizanale (craft brewing). Pompele SLH cu șurub dublu completează gama pentru fluide vâscoase care nu se pretează la pompare centrifugă.
 
-Pentru instalații din România, Ampco Pumps înseamnă acces la pompe sanitare certificate ISO pentru industria alimentară, lactate, băuturi și producție de bere artizanală, acolo unde curățarea CIP și igiena echipamentului contează la fel de mult ca performanța hidraulică.`,
+Pentru instalații din România, Ampco Pumps înseamnă acces la pompe sanitare de la un producător certificat ISO 9001:2015, pentru industria alimentară, lactate, băuturi și producție de bere artizanală, acolo unde curățarea CIP și igiena echipamentului contează la fel de mult ca performanța hidraulică.`,
     whyChoose: [
-      "Producător american din 1948, specializat exclusiv pe pompe sanitare, cu certificare ISO 9001:2015",
+      "Producător american din 1948, cu certificare ISO 9001:2015, cu pompe sanitare, marine și industriale în portofoliu",
       "Gamă completă — volumetrică cu lobi (ZP), centrifugă (AC, H, L, M) și șurub dublu (SLH)",
       "Serie dedicată berăriilor artizanale (CB+), nu doar pompe generice adaptate pentru alimentar",
-      "Design demontabil rapid pentru curățare CIP/SIP, relevant pentru linii cu cerințe stricte de igienă",
+      "Pompe sanitare pentru industriile alimentară, a băuturilor, chimică și farmaceutică",
       "Portofoliu extins dincolo de pompe — mixere, omogenizatoare, sisteme de descărcare a butoaielor",
     ],
     keyProducts: [
-      { name: "Pompe Volumetrice cu Lobi Seria ZP", description: "Pompe cu lobi pentru fluide vâscoase sau cu particule, cu 19 modele în seria ZP3, de la configurații standard la flanșe rectangulare, debit maxim de aproximativ 103 m³/h și presiune de refulare de până la 500 PSI (34 bar). Variantele Compact reduc spațiul de montaj, iar varianta criogenică pompează etanol la temperaturi de până la -56°C. Alegerea modelului depinde de vâscozitate, debit și temperatura de lucru." },
-      { name: "Pompe Centrifuge Sanitare (AC/AC+, H, L, M, SP)", description: "Pompe centrifuge sanitare pentru transferul de lichide cu vâscozitate redusă spre medie — lapte, sucuri, apă de proces. Familia L are sub-variante LC, LD, LF, LM și LH pentru combinații diferite de debit și înălțime de pompare. Seria CB+ e dedicată specific berăriilor artizanale, cu design optimizat pentru transferul berii fără aerare excesivă." },
-      { name: "Pompe cu Șurub Dublu SLH", description: "Pompe cu două șuruburi sincronizate, pentru fluide cu vâscozitate mare care nu se pretează la pompare centrifugă — creme, paste, produse semi-solide alimentare. Variantele SLH-4G și SLH-5G diferă prin dimensiune și debit maxim. Livrează debit constant, fără pulsații, indiferent de contrapresiunea din sistem." },
+      { name: "Pompe Volumetrice cu Lobi Seria ZP", description: "Pompe cu lobi pentru fluide vâscoase sau cu particule, cu 19 modele în seria ZP3, de la configurații standard la flanșe rectangulare, debit maxim de aproximativ 103 m³/h și presiune de refulare de până la 500 PSI (34 bar). Variantele Compact reduc spațiul de montaj, iar o etanșare specială permite pomparea etanolului la temperaturi de până la -56°C (-70°F). Alegerea modelului depinde de vâscozitate, debit și temperatura de lucru." },
+      { name: "Pompe Centrifuge Sanitare (AC/AC+, H, L, M, SP)", description: "Pompe centrifuge sanitare pentru transferul de lichide cu vâscozitate redusă spre medie — lapte, sucuri, apă de proces. Familia L are sub-variante LC, LD, LF, LM și LH pentru combinații diferite de debit și înălțime de pompare. Seria CB+ e dedicată specific berăriilor artizanale." },
+      { name: "Pompe cu Șurub Dublu SLH", description: "Pompe cu două șuruburi sincronizate, pentru fluide cu vâscozitate mare care nu se pretează la pompare centrifugă — creme, paste, produse semi-solide alimentare. Variantele SLH-4G și SLH-5G diferă prin dimensiune și debit maxim." },
       { name: "Mixere, Omogenizatoare și Sisteme de Descărcare", description: "Mixere și blendere pentru linii (inline) sau pentru tancuri (in-tank), omogenizatoare de laborator și industriale (seriile HL, HLI), plus sisteme pentru descărcarea rapidă a butoaielor și containerelor (tote) cu produs vâscos. Completează portofoliul de pompe pentru linii complete de procesare alimentară." },
     ],
     industries: [
@@ -633,8 +633,8 @@ Pentru instalații din România, Ampco Pumps înseamnă acces la pompe sanitare 
       { q: "Livrați pompe Ampco Pumps în România și cât durează?", a: "Da, la comandă, prin canale din Uniunea Europeană sau direct din fabrica din Wisconsin; termenul orientativ e de 1–4 săptămâni, în funcție de configurația exactă și de disponibilitatea confirmată de Ampco." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ampco Pumps — homepage", url: "https://ampcopumps.com", publisher: "Ampco Pumps Company", accessed: "2026-09-25" },
       { title: "ZP3 Series", url: "https://ampcopumps.com/zp3-series/", publisher: "Ampco Pumps Company", accessed: "2026-09-25" },
@@ -645,22 +645,22 @@ Pentru instalații din România, Ampco Pumps înseamnă acces la pompe sanitare 
     name: "Blue-White Industries",
     founded: 1957,
     certifications: ["ISO 9001:2015"],
-    overview: `Blue-White Industries este un producător american de pompe dozatoare și debitmetre, activ din 1957. Gama de pompe acoperă tehnologia peristaltică prin seria FLEXFLO (modelele A1 până la A5) și pompele cu membrană CHEM-FEED (CD1 monodiafragmă, CD3 multi-diafragmă), completată de debitmetre cu paletă digitală, cu ultrasunete sau cu tub Pitot și sisteme complete de dozare montate pe panou (skid). Pentru piața din România putem oferta din gama de pompe dozatoare peristaltice și cu membrană, folosite în tratarea apei industriale și municipale.
+    overview: `Blue-White Industries este un producător american de pompe dozatoare și debitmetre, activ din 1957. Gama de pompe acoperă tehnologia peristaltică prin seria FLEXFLO (modelele A1 până la A5) și pompele cu membrană CHEM-FEED (CD1, CD3), completată de debitmetre cu zonă variabilă (rotametre), cu paletă sau cu ultrasunete și sisteme complete de dozare montate pe panou (skid). Pentru piața din România putem oferta din gama de pompe dozatoare peristaltice și cu membrană, folosite în tratarea apei industriale și municipale.
 
-Ce diferențiază Blue-White e acoperirea a două tehnologii de dozare distincte sub aceeași marcă — peristaltică și cu membrană — poziționată pe piață alături de branduri precum ProMinent. Pompele peristaltice FLEXFLO nu au supape sau garnituri de etanșare în contact cu fluidul dozat, ceea ce simplifică mentenanța la substanțe abrazive sau cu solide în suspensie; seriile A1-A5 diferă prin debit și presiune maximă. Pompele cu membrană CHEM-FEED CD1 și CD3 sunt potrivite pentru dozare de precizie la presiuni mai mari. Debitmetrele digitale F-2000 (BW DIGI-METER) și ultrasonice MS6 (SONIC-PRO) completează gama pentru monitorizarea debitului de fluid dozat sau tratat.
+Ce diferențiază Blue-White e acoperirea a două tehnologii de dozare distincte sub aceeași marcă — peristaltică și cu membrană. Pompele peristaltice FLEXFLO nu au supape sau garnituri de etanșare în contact cu fluidul dozat, ceea ce simplifică mentenanța la substanțe abrazive sau cu solide în suspensie; seriile A1-A5 diferă prin debit și presiune maximă. Pompele cu membrană CHEM-FEED CD1 și CD3 sunt potrivite pentru dozare de precizie la presiuni mai mari. Debitmetrele digitale F-2000 (BW DIGI-METER) și ultrasonice MS6 (SONIC-PRO) completează gama pentru monitorizarea debitului de fluid dozat sau tratat.
 
 Pentru instalații din România, Blue-White Industries înseamnă acces la pompe dozatoare pentru tratarea apei industriale, municipale și în bazine de înot, plus sisteme complete montate pe panou pentru instalații care necesită mai multe puncte de dozare simultan.`,
     whyChoose: [
       "Două tehnologii de dozare sub aceeași marcă — peristaltică FLEXFLO și cu membrană CHEM-FEED — pentru aplicații diferite",
       "Pompe peristaltice fără supape în contact cu fluidul, mentenanță mai simplă la substanțe abrazive",
-      "Certificare ISO 9001:2015 și activitate din 1957, cu specializare exclusivă pe dozare și debitmetrie",
+      "Certificare ISO 9001:2015 și activitate din 1957, cu pompe dozatoare, debitmetre și sisteme de dozare în portofoliu",
       "Debitmetre digitale și ultrasonice proprii (BW DIGI-METER, SONIC-PRO), pentru monitorizarea directă a dozării",
       "Sisteme complete montate pe panou (skid), pentru instalații cu mai multe puncte de dozare",
     ],
     keyProducts: [
-      { name: "Pompe Peristaltice FLEXFLO (A1-A5)", description: "Pompe dozatoare peristaltice fără supape sau garnituri în contact cu fluidul dozat, ceea ce reduce riscul de blocare la substanțe cu solide în suspensie sau abrazive. Seriile A1 până la A5 diferă prin debitul maxim și presiunea de lucru disponibilă. Mentenanța se rezumă la înlocuirea periodică a tubului peristaltic, fără demontarea capului de pompă." },
-      { name: "Pompe cu Membrană CHEM-FEED (CD1, CD3)", description: "Pompe dozatoare cu membrană, în variante monodiafragmă (CD1) și multi-diafragmă (CD3), pentru dozare de precizie la presiuni mai mari decât cele tipice pentru o pompă peristaltică. Potrivite pentru substanțe chimice mai agresive, unde compatibilitatea materialului diafragmei cu fluidul dozat e critică pentru durata de viață a pompei." },
-      { name: "Debitmetre (F-300, F-2000, MS6)", description: "Debitmetre cu tub Pitot sau zonă variabilă (F-300), digitale cu paletă (F-2000, BW DIGI-METER) sau ultrasonice fără contact cu fluidul (MS6, SONIC-PRO), pentru monitorizarea debitului de proces sau a dozării. Alegerea depinde de necesitatea contactului direct cu fluidul și de precizia cerută la debite mici." },
+      { name: "Pompe Peristaltice FLEXFLO (A1-A5)", description: "Pompe dozatoare peristaltice fără supape sau garnituri în contact cu fluidul dozat, ceea ce reduce riscul de blocare la substanțe cu solide în suspensie sau abrazive. Seriile A1 până la A5 diferă prin debitul maxim și presiunea de lucru disponibilă. Producătorul descrie pompele peristaltice drept precise și ușor de întreținut." },
+      { name: "Pompe cu Membrană CHEM-FEED (CD1, CD3)", description: "Pompe dozatoare cu membrană, în modelele CD1 și CD3, pentru dozare de precizie la presiuni mai mari decât cele tipice pentru o pompă peristaltică. Potrivite pentru substanțe chimice mai agresive, unde compatibilitatea materialului diafragmei cu fluidul dozat e critică pentru durata de viață a pompei." },
+      { name: "Debitmetre (F-300, F-2000, MS6)", description: "Debitmetre cu zonă variabilă (rotametre) (F-300), digitale cu paletă (F-2000, BW DIGI-METER) sau ultrasonice, fără piese mobile (MS6, SONIC-PRO), pentru monitorizarea debitului de proces sau a dozării. Alegerea depinde de necesitatea contactului direct cu fluidul și de precizia cerută la debite mici." },
       { name: "Sisteme de Dozare pe Panou (Skid)", description: "Sisteme complete de dozare montate pe panou, de la configurații simple de perete până la cabinete complet închise cu configurații simplex, duplex sau triplex, adaptate la chimia și cerințele de siguranță ale aplicației. Reduc timpul de instalare comparativ cu montarea individuală a fiecărei componente pe teren." },
     ],
     industries: [
@@ -677,28 +677,28 @@ Pentru instalații din România, Blue-White Industries înseamnă acces la pompe
       { code: "FLEXFLO A3", description: "Pompă dozatoare peristaltică, debit mediu" },
       { code: "FLEXFLO A4", description: "Pompă dozatoare peristaltică, debit mediu-mare" },
       { code: "FLEXFLO A5", description: "Pompă dozatoare peristaltică, debit mare" },
-      { code: "CHEM-FEED CD1", description: "Pompă dozatoare cu membrană, monodiafragmă" },
-      { code: "CHEM-FEED CD3", description: "Pompă dozatoare cu membrană, multi-diafragmă" },
-      { code: "F-300", description: "Debitmetru cu zonă variabilă sau tub Pitot" },
+      { code: "CHEM-FEED CD1", description: "Pompă dozatoare cu membrană" },
+      { code: "CHEM-FEED CD3", description: "Pompă dozatoare cu membrană" },
+      { code: "F-300", description: "Debitmetru cu zonă variabilă (rotametru)" },
       { code: "F-2000 (BW DIGI-METER)", description: "Debitmetru digital cu paletă" },
-      { code: "MS6 (SONIC-PRO)", description: "Debitmetru ultrasonic, fără contact cu fluidul" },
+      { code: "MS6 (SONIC-PRO)", description: "Debitmetru ultrasonic, fără piese mobile" },
       { code: "F-400", description: "Debitmetru, gamă complementară" },
       { code: "F-550", description: "Debitmetru, gamă complementară" },
       { code: "R-300", description: "Debitmetru, gamă complementară" },
       { code: "F-1000", description: "Debitmetru, gamă complementară" },
-      { code: "CFPS Series", description: "Sistem de dozare pe panou, plastic simplex/duplex" },
+      { code: "CFPS Series", description: "Sistem de dozare pe panou (skid)" },
       { code: "CFWS Series", description: "Sistem de dozare montat pe perete" },
-      { code: "CFCS Series", description: "Sistem de dozare pe panou, configurație complexă" },
+      { code: "CFCS Series", description: "Sistem de dozare pe panou (skid)" },
     ],
     faq: [
       { q: "Ce produce Blue-White Industries?", a: "Blue-White Industries fabrică pompe dozatoare peristaltice FLEXFLO, pompe cu membrană CHEM-FEED, debitmetre digitale și ultrasonice, plus sisteme complete de dozare montate pe panou, folosite în tratarea apei industriale, municipale și în facilități acvatice." },
       { q: "Cum aleg între o pompă FLEXFLO și una CHEM-FEED de la Blue-White Industries?", a: "Pompele FLEXFLO, peristaltice, nu au supape în contact cu fluidul, fiind mai simplu de întreținut la substanțe cu solide în suspensie. Pompele CHEM-FEED, cu membrană, sunt potrivite pentru dozare de precizie la presiuni mai mari. Trimiteți-ne fluidul dozat și presiunea necesară." },
-      { q: "Ce diferență e între debitmetrul MS6 și cel digital F-2000?", a: "MS6 (SONIC-PRO) măsoară debitul cu ultrasunete, fără contact direct cu fluidul, util la fluide agresive, în timp ce F-2000 (BW DIGI-METER) folosește o paletă în contact cu fluidul pentru citire digitală. Alegerea depinde de compatibilitatea chimică necesară." },
+      { q: "Ce diferență e între debitmetrul MS6 și cel digital F-2000?", a: "MS6 (SONIC-PRO) măsoară debitul cu ultrasunete, fără piese mobile, în timp ce F-2000 (BW DIGI-METER) folosește o paletă pentru citire digitală. Alegerea depinde de compatibilitatea chimică necesară." },
       { q: "Livrați pompe Blue-White Industries în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană sau direct din SUA; termenul orientativ este de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității la producător." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Blue-White Industries — homepage", url: "https://www.blue-white.com", publisher: "Blue-White Industries, Ltd.", accessed: "2026-09-25" },
       { title: "Chemical Metering Pumps", url: "https://www.blue-white.com/chemical-metering-pumps/", publisher: "Blue-White Industries, Ltd.", accessed: "2026-09-25" },
@@ -709,20 +709,20 @@ Pentru instalații din România, Blue-White Industries înseamnă acces la pompe
     name: "Bungartz",
     headquarters: "Düsseldorf, Germania",
     founded: 1947,
-    overview: `Bungartz este un producător german de pompe centrifuge speciale, cu sediul la Düsseldorf și activitate din 1947, inițial la Magdeburg. Gama acoperă pompe verticale și orizontale cu etanșare prin stopfbuchsă, etanșare cu inele alunecătoare sau cuplaj magnetic, în variante normal-aspirante, autoreglante sau pentru lichide aflate în stare de fierbere. Pentru piața din România putem oferta din gama de pompe centrifuge speciale, folosite acolo unde o pompă standard nu face față mediului toxic, fierbinte sau tendinței de polimerizare a fluidului.
+    overview: `Bungartz este un producător german de pompe centrifuge speciale, cu sediul la Düsseldorf și activitate din 1947, inițial la Magdeburg. Gama acoperă pompe verticale și orizontale cu etanșare prin presetupă, etanșare mecanică (cu inele alunecătoare) sau cuplaj magnetic, pentru aplicații cu lichide aflate în stare de fierbere, cu solide sau cu conținut de gaze. Pentru piața din România putem oferta din gama de pompe centrifuge speciale, folosite acolo unde o pompă standard nu face față mediului toxic, fierbinte sau tendinței de polimerizare a fluidului.
 
-Ce diferențiază Bungartz e specializarea pe medii dificile — fluide fierbinți, toxice sau care polimerizează — unde compania se poziționează alături de branduri precum KSB în segmentul pompelor centrifuge chimice speciale. Seria V-AN, cu sub-variantele VKS, VKD, VKC, VKG și VKA, acoperă configurații verticale pentru diverse cerințe de etanșare, în timp ce seriile MOS/UMOS și MOR/UMOR sunt construite pentru funcționare aproape lipsită de cavitație și autodeaerare, relevantă la fluide cu tendință de degazare. Pompele MPCH și TCC, ambele DryRun, pot funcționa scurt fără lichid în carcasă, o cerință tipică în chimia de proces unde pomparea la sec accidentală ar distruge o pompă convențională.
+Ce diferențiază Bungartz e specializarea pe medii dificile — fluide fierbinți, toxice sau care polimerizează. Seria V-AN, cu sub-variantele VKS, VKD, VKC, VKG și VKA, acoperă configurații verticale pentru diverse cerințe de etanșare, în timp ce seriile MOS/UMOS și MOR/UMOR sunt construite pentru funcționare aproape lipsită de cavitație și autodeaerare, relevantă la fluide cu tendință de degazare. Pompele MPCH și TCC, ambele DryRun, pot funcționa scurt fără lichid în carcasă, o cerință tipică în chimia de proces unde pomparea la sec accidentală ar distruge o pompă convențională.
 
 Pentru instalații din România, Bungartz înseamnă acces la pompe centrifuge speciale pentru chimie și petrochimie, inclusiv pentru zone clasificate ATEX, acolo unde siguranța de funcționare la fluide periculoase contează mai mult decât costul inițial al pompei.`,
     whyChoose: [
       "Specializare pe fluide dificile — fierbinți, toxice sau polimerizante — unde pompele standard nu fac față",
-      "Gamă largă de tipuri de etanșare — stopfbuchsă, inele alunecătoare, cuplaj magnetic — pentru orice cerință de siguranță",
+      "Gamă de tipuri de etanșare — presetupă, etanșare mecanică cu inele alunecătoare, cuplaj magnetic — pentru diverse cerințe de siguranță",
       "Pompe DryRun (MPCH, TCC) care tolerează scurt funcționarea fără lichid în carcasă, fără avariere",
       "Construcție aproape lipsită de cavitație și autodeaerată la seriile MOS/MOR, utilă la fluide cu degazare",
-      "Producător german din 1947, specializat exclusiv pe pompe centrifuge pentru aplicații chimice speciale",
+      "Producător german din 1947, specializat pe pompe centrifuge speciale",
     ],
     keyProducts: [
-      { name: "Pompe Verticale Seria V-AN (VKS, VKD, VKC, VKG, VKA)", description: "Familie de pompe centrifuge verticale, cu sub-variante diferite de etanșare și configurație, pentru montaj în rezervoare sau fose unde o pompă orizontală nu ar fi practică. Alegerea sub-variantei depinde de tipul de etanșare necesar și de adâncimea de imersie a pompei. Construcția verticală simplifică amorsarea la lichide cu nivel variabil." },
+      { name: "Pompe Verticale Seria V-AN (VKS, VKD, VKC, VKG, VKA)", description: "Familie de pompe centrifuge verticale, cu sub-variante diferite de etanșare și configurație, pentru montaj în rezervoare sau fose unde o pompă orizontală nu ar fi practică. Alegerea sub-variantei depinde de tipul de etanșare necesar și de adâncimea de imersie a pompei." },
       { name: "Pompe DryRun (MPCH, TCC)", description: "Pompe centrifuge capabile să funcționeze pentru scurt timp fără lichid în carcasă, fără să se deterioreze, o siguranță suplimentară acolo unde o întrerupere accidentală a alimentării cu fluid ar distruge o pompă centrifugă convențională. Utile în procese chimice cu risc de golire accidentală a rezervorului de aspirație." },
       { name: "Pompe Autodeaerate MOS/UMOS și MOR/UMOR", description: "Pompe centrifuge construite pentru funcționare aproape lipsită de cavitație, cu autodeaerare — elimină automat bulele de gaz acumulate în carcasă, fără intervenție manuală. Relevante la fluide cu tendință de degazare sau la aspirație cu conținut mic de gaz liber, unde o pompă standard și-ar pierde amorsarea." },
       { name: "Pompe Speciale cu Etanșare Hidrodinamică", description: "Pompe cu etanșare suplimentară hidrodinamică, pentru medii toxice, polimerizante sau fierbinți, disponibile în execuție din inox sau aliaje speciale rezistente la coroziune. Variantele destinate zonelor ATEX acoperă instalații cu risc de explozie din chimie și petrochimie." },
@@ -755,14 +755,14 @@ Pentru instalații din România, Bungartz înseamnă acces la pompe centrifuge s
       { code: "MK-MOG/MK-UMOG", description: "Pompă autodeaerată, variantă cu cuplaj magnetic" },
     ],
     faq: [
-      { q: "Ce produce Bungartz?", a: "Bungartz fabrică pompe centrifuge speciale, verticale și orizontale, cu etanșare prin stopfbuchsă, inele alunecătoare sau cuplaj magnetic, pentru fluide toxice, fierbinți sau polimerizante, folosite în chimie, petrochimie și zone clasificate ATEX." },
-      { q: "Cum aleg pompa Bungartz potrivită pentru un fluid care polimerizează?", a: "Depinde de temperatura de lucru și de riscul de depunere: pompele cu etanșare hidrodinamică specială și seriile autodeaerate MOS/MOR reduc riscul de blocare prin polimerizare în carcasă. Trimiteți-ne fluidul exact și temperatura de proces pentru o recomandare corectă." },
+      { q: "Ce produce Bungartz?", a: "Bungartz fabrică pompe centrifuge speciale, verticale și orizontale, cu etanșare prin presetupă, etanșare mecanică sau cuplaj magnetic, pentru fluide toxice, fierbinți sau polimerizante, folosite în chimie, petrochimie și zone clasificate ATEX." },
+      { q: "Cum aleg pompa Bungartz potrivită pentru un fluid care polimerizează?", a: "Depinde de temperatura de lucru și de riscul de depunere: alegerea se face pe baza fluidului exact și a temperaturii de proces. Trimiteți-ne fluidul exact și temperatura de proces pentru o recomandare corectă." },
       { q: "Ce înseamnă o pompă DryRun în gama Bungartz?", a: "Înseamnă că pompa poate funcționa scurt timp fără lichid în carcasă, fără să se deterioreze — util acolo unde o golire accidentală a rezervorului de aspirație ar distruge o pompă centrifugă convențională. Seriile MPCH și TCC au această construcție." },
       { q: "Livrați pompe Bungartz în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni de la confirmarea producătorului, în funcție de configurația exactă și de disponibilitatea materialelor speciale." },
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bungartz — homepage", url: "https://www.bungartz.de", publisher: "Paul Bungartz GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Pumpentypen", url: "https://bungartz.de/de/pumpentypen.html", publisher: "Paul Bungartz GmbH & Co. KG", accessed: "2026-09-25" },

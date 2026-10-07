@@ -8579,7 +8579,7 @@ export const BRANDS_EXTENSION = {
       "name": "Wiha",
       "slug": "wiha",
       "country": "Germania",
-      "description": "Șurubelnițe și scule de mână premium pentru electricieni și mentenanță",
+      "description": "Șurubelnițe și scule de mână pentru electricieni și mentenanță",
       "featured": false,
       "officialUrl": "https://www.wiha.com",
       "wave": "2026-09",

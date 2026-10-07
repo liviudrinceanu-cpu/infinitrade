@@ -4,23 +4,23 @@ export const brandContentBatch89 = {
   'estun-automation': {
     name: "Estun Automation",
     headquarters: "Nanjing, China",
-    overview: `Estun Automation este un producător chinez de automatizări industriale cu sediul la Nanjing, provincia Jiangsu, activ în controlul de mișcare și în robotica industrială. Compania produce servomotoare, servodrivere, invertoare, controlere de mișcare și sisteme CNC, alături de roboți industriali din seriile ER și UNO, roboți colaborativi și soluții software pentru managementul proiectelor și mentenanța producției. Din gama Estun putem oferta atât componente de acționare pentru integratori, cât și roboți articulați pentru linii complete de asamblare, sudură sau paletizare, cu piese și documentație tehnică disponibile prin canalele oficiale ale producătorului.
+    overview: `Estun Automation este un producător chinez de automatizări industriale cu sediul la Nanjing, provincia Jiangsu, activ în controlul de mișcare și în robotica industrială. Compania produce servomotoare, servodrivere, invertoare, controlere de mișcare și sisteme CNC, alături de roboți industriali din seriile ER și UNO, roboți colaborativi și soluții software pentru linii robotizate. Din gama Estun putem oferta atât componente de acționare pentru integratori, cât și roboți articulați pentru linii complete de asamblare, sudură sau paletizare, cu documentația tehnică a producătorului.
 
-Ce diferențiază Estun în piața motion control este integrarea completă a lanțului motor-drive-controler sub aceeași marcă, ceea ce simplifică punerea în funcțiune pentru integratorii care nu vor să combine componente de la producători diferiți. Grupul are certificare TÜV Rheinland pentru conformitate cu Directiva Mașini și pentru siguranță funcțională, obținută în 2024, relevantă pentru liniile robotizate care trebuie să treacă evaluarea CE. În segmentul servomotoarelor și al roboților articulați, Estun se poziționează ca alternativă la nume consacrate precum Kollmorgen, cu un portofoliu orientat spre volume mari și cicluri scurte de livrare din fabricile Estun din China.
+Estun oferă în același portofoliu servomotoare, servodrivere, invertoare și controlere de mișcare, alături de roboți industriali.
 
-Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același ecosistem, cu suport tehnic unificat. Recomandăm brandul pentru linii noi sau retehnologizări unde costul total al integrării contează mai mult decât un nume consacrat pe piața europeană.`,
+Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un proiect de automatizare cere componente de acționare și un robot din același portofoliu.`,
     whyChoose: [
-      "Integrare completă motor-drive-controler sub aceeași marcă, fără combinare de componente de la mai mulți furnizori",
-      "Certificare TÜV Rheinland pentru conformitate cu Directiva Mașini și siguranță funcțională, obținută în 2024",
+      "Servomotoare, servodrivere și controlere de mișcare în același portofoliu",
+      
       "Gamă de roboți articulați ER și UNO pentru linii de asamblare, sudură sau paletizare",
       "Roboți colaborativi disponibili pentru posturi de lucru alături de operatori umani, fără îngrădire completă",
-      "Software propriu de management de proiect (E-PMT) și mentenanță a producției (E-Noesis) pentru linii robotizate",
+      "Soluții software proprii (E-PMT și E-Noesis) pentru linii robotizate",
     ],
     keyProducts: [
-      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seria ER pentru aplicații de mare viteză și precizie și seria UNO construită după standarde internaționale de proiectare a siguranței. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
+      { name: "Roboți industriali (seria ER și UNO)", description: "Roboți articulați pentru linii de producție, din seriile ER și UNO. Acoperă operații tipice precum sudură, paletizare, asamblare sau manipulare de piese, cu accesorii dedicate pentru integrare mai rapidă pe o linie existentă. Estun oferă și o gamă de roboți colaborativi pentru posturi unde robotul lucrează alături de un operator uman, fără o incintă de protecție completă." },
       { name: "Sisteme de acționare (servo driver, servo motor, invertor)", description: "Componentele de bază pentru motion control — servomotoare cu densitate mare de putere, servodrivere de mare precizie și invertoare pentru comanda motoarelor — vândute atât ca set complet integrat, cât și separat pentru integratori care construiesc propria arhitectură de control. Pot fi achiziționate și separat de un robot, pentru alte aplicații de automatizare." },
       { name: "Controler de mișcare și sistem CNC", description: "Controler de mișcare multi-ax pentru sincronizarea mai multor axe servo pe aceeași mașină, alături de un sistem CNC pentru controlul numeric al mașinilor unelte. Ambele completează portofoliul de motion control al Estun pentru aplicații care nu sunt neapărat roboți articulați, ci mașini dedicate cu mai multe axe de mișcare coordonate." },
-      { name: "E-PMT și E-Noesis (software)", description: "Software de management de proiect (E-PMT) pentru planificarea și urmărirea instalării unei linii robotizate, și platformă pentru producție și mentenanță (E-Noesis) care ajută la urmărirea stării echipamentelor Estun instalate. Utile pentru un integrator cu mai multe proiecte Estun în lucru simultan." },
+      { name: "E-PMT și E-Noesis (software)", description: "Soluții software ale producătorului pentru linii robotizate; funcțiile exacte ale E-PMT și E-Noesis se confirmă din documentația Estun." },
     ],
     industries: [
       "Baterii litiu-ion — roboți pentru asamblare și manipulare în producția de celule",
@@ -32,13 +32,13 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
       "Vehicule electrice — roboți și componente de acționare pentru linii de asamblare EV",
     ],
     certifications: [
-      "TÜV Rheinland — conformitate cu Directiva Mașini și siguranță funcțională (2024)",
+      
     ],
     infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
     limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar pe paginile oficiale consultate.",
     productCodes: [
-      { code: "ER series", description: "roboți industriali rapizi și de mare precizie pentru linii complete" },
-      { code: "UNO series", description: "roboți construiți după standarde internaționale de proiectare" },
+      { code: "ER series", description: "roboți industriali din seria ER" },
+      { code: "UNO series", description: "roboți industriali din seria UNO" },
       { code: "Collaborative Robots", description: "roboți colaborativi pentru lucru alături de operatori umani" },
       { code: "Specialized series", description: "roboți dedicați aplicațiilor de nișă din portofoliul Estun" },
       { code: "Servo driver", description: "drivere pentru motoare servo de mare precizie și viteză" },
@@ -49,8 +49,8 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
       { code: "CNC system", description: "sistem de control numeric pentru mașini unelte" },
       { code: "Workstation", description: "stație de lucru integrată robot și periferice" },
       { code: "Robot accessories", description: "accesorii pentru integrarea și punerea în funcțiune a roboților" },
-      { code: "E-PMT", description: "software de management de proiect pentru linii robotizate" },
-      { code: "E-Noesis", description: "platformă software pentru producție și mentenanță predictivă" },
+      { code: "E-PMT", description: "software Estun pentru linii robotizate" },
+      { code: "E-Noesis", description: "platformă software Estun pentru linii robotizate" },
     ],
     faq: [
       { q: "Ce produce Estun Automation?", a: "Estun Automation produce componente de motion control — servomotoare, servodrivere, invertoare și controlere de mișcare — și roboți industriali articulați din seriile ER și UNO, inclusiv variante colaborative, pentru linii de asamblare, sudură sau paletizare." },
@@ -60,8 +60,8 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ESTUN Automation — Home", url: "https://en.estun.com", publisher: "Estun Automation Co., Ltd.", accessed: "2026-09-25" },
       { title: "ER series - ESTUN", url: "https://en.estun.com/?list_13%2F=", publisher: "Estun Automation Co., Ltd.", accessed: "2026-09-25" },
@@ -72,27 +72,27 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
     headquarters: "San Giovanni Lupatoto, Italia",
     overview: `Exor International este un producător italian de interfețe om-mașină și calculatoare industriale, cu sediul la San Giovanni Lupatoto, lângă Verona. Compania dezvoltă panouri HMI fixe și portabile, IPC-uri industriale, gateway-uri IoT și platforma software JMobile pentru configurare și control, completată de platforma cloud CORVINA pentru monitorizarea de la distanță a mașinilor. Din gama Exor putem oferta panouri HMI pentru tablouri de comandă, terminale portabile pentru operatori care se deplasează în hală și soluții de conectivitate pentru mașini care trebuie monitorizate de la distanță de constructorul lor.
 
-Punctul forte al Exor este seria X de HMI mobile — X5, X7 și X10 — disponibile în variante cu cablu sau wireless, pentru operatori care urmăresc un utilaj din mai multe unghiuri fără să fie legați de un panou fix. Modelul X10 Wired are ecran de 10 inch în format portret, rezoluție 800x1280 și protecție IP65, cu certificare de siguranță SIL3/PLe pentru butonul de oprire integrat. Compania deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată, argument relevant față de concurenți precum Siemens când clientul cere garanții de securitate cibernetică.
+Punctul forte al Exor este seria X de HMI mobile — X5, X7 și X10 — disponibile în variante cu cablu sau wireless, pentru operatori care urmăresc un utilaj din mai multe unghiuri fără să fie legați de un panou fix. Modelul X10 Wired are ecran de 10 inch în format portret, rezoluție 800x1280 și protecție IP65, cu certificare de siguranță SIL3/PLe pentru butonul de oprire integrat. Compania deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată, argument relevant când clientul cere dovezi privind ciclul de dezvoltare securizată.
 
 Pentru integratorii și constructorii de mașini din România care vând utilaje cu servicii de mentenanță la distanță, Exor oferă combinația HMI plus platformă IoT necesară pentru a oferi clienților finali monitorizare de la distanță fără să dezvolte software propriu. Este o alegere potrivită pentru retrofit-uri și mașini noi unde accesul de la distanță al service-ului deja este cerut de client.`,
     whyChoose: [
       "Seria X de HMI mobile oferă variante cu cablu și wireless, utile când operatorul trebuie să urmărească utilajul din mai multe puncte",
-      "Certificarea IEC 62443-4-1:2018 pentru dezvoltare securizată reduce riscul de vulnerabilități software în rețeaua de automatizare",
+      "Certificarea IEC 62443-4-1:2018 pentru dezvoltare securizată atestă un ciclu de dezvoltare securizată a produselor",
       "Platforma CORVINA permite monitorizarea de la distanță a mașinilor fără a construi o infrastructură IoT proprie de la zero",
       "Modelul X10 Wired are protecție IP65 și certificare de siguranță SIL3/PLe, potrivit pentru zone cu praf sau umezeală",
       "Software-ul JMobile Suite unifică programarea HMI și IPC, utilă pentru integratori care lucrează cu mai multe modele Exor",
     ],
     keyProducts: [
       { name: "Seria X — HMI mobile (X5, X7, X10)", description: "Terminale HMI portabile, cu cablu sau wireless, pentru operatori care trebuie să vadă starea utilajului din mai multe unghiuri fără să fie legați de un panou fix pe linie. Modelul X10 Wired are ecran tactil de 10 inch în format portret, rezoluție 800x1280 pixeli, procesor quad-core pe 64 de biți și Linux în timp real, cu protecție IP65 și certificare de siguranță SIL3/Performance Level e pentru butonul de oprire integrat." },
-      { name: "eX200 / eX200 Web", description: "Panouri HMI embedded din gama de bază Exor, pentru montaj fix pe tablouri de comandă, cu variantă Web care adaugă acces prin browser pentru vizualizare de la distanță. Alternativă la un HMI mobil acolo unde utilajul stă pe loc, cu costuri de integrare mai reduse decât la seria X portabilă." },
+      { name: "eX200 / eX200 Web", description: "Panouri HMI embedded din gama de bază Exor, pentru montaj fix pe tablouri de comandă, cu variantă Web care adaugă acces prin browser pentru vizualizare de la distanță. Alternativă la un HMI mobil acolo unde utilajul stă pe loc,." },
       { name: "JMobile Suite", description: "Software de configurare pentru HMI-urile și IPC-urile Exor, folosit pentru ecrane de operare, alarme și rețete de producție, fără cod separat pentru fiecare panou. Suportă comunicare cu automate de la mai mulți producători, util când o linie combină echipamente Exor cu PLC-uri deja instalate." },
       { name: "CORVINA + CEM (Corvina Edge Manager)", description: "Platformă cloud de IoT industrial pentru colectarea datelor de la mașini, cu modulul CEM pentru gestionarea centralizată a unei flote de dispozitive Exor instalate la clienți diferiți. Utilă pentru constructorii de mașini care vor rapoarte de funcționare fără să dezvolte propria infrastructură software." },
     ],
     industries: [
       "Automatizare industrială și fabrici inteligente — HMI și IPC pentru linii Industry 4.0",
       "Constructori de mașini (OEM) — servitizare, adică servicii de mentenanță de la distanță pentru utilajele vândute",
-      "Industria alimentară și farmaceutică — HMI dedicate cu protecție la spălare și igienizare",
-      "Marină și offshore — panouri HMI certificate pentru echipamente de la bordul navelor",
+      "Industria alimentară și farmaceutică — HMI și automatizare pentru procese din aceste sectoare",
+      "Marină și offshore — panouri HMI pentru automatizări navale",
       "Energie și utilități — vizualizare și control pentru instalații distribuite geografic",
     ],
     certifications: [
@@ -101,7 +101,7 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
     infinitrade: `Lucrăm cu gama Exor de HMI și IPC pentru integratori și constructori de mașini din România care au nevoie de panouri de operare fixe sau portabile și, opțional, de conectare la platforma CORVINA. Fără date proprii de stoc: ce scriem mai sus se bazează pe surse publice ale producătorului, verificate la data indicată. Livrarea se face la comandă, prin canale de aprovizionare din UE, într-un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului italian. Pentru o ofertă, trimiteți-ne modelul dorit din seria X sau eX200; nu ținem gama Exor pe raft, fiecare unitate se aduce la comandă din UE.`,
     limitation: "Nu putem confirma configurarea de la distanță pentru platforma CORVINA fără o discuție tehnică prealabilă cu producătorul, pentru fiecare proiect de conectivitate.",
     productCodes: [
-      { code: "X4", description: "HMI mobil compact din seria X, pentru operare portabilă la utilaj" },
+      
       { code: "X5 Wired", description: "HMI mobil cu cablu, ecran mediu, pentru zone cu acces frecvent" },
       { code: "X5 Wireless", description: "HMI mobil wireless, pentru operare la distanță de la mașină" },
       { code: "X7 Wired", description: "HMI mobil cu cablu, ecran mai mare pentru vizualizare detaliată" },
@@ -121,12 +121,12 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
       { q: "Care este diferența dintre seria X wired și wireless la Exor?", a: "Varianta wired se conectează prin cablu la sistemul de control și rămâne alimentată constant, în timp ce varianta wireless funcționează pe baterie și permite operatorului să se deplaseze liber în jurul utilajului." },
       { q: "Livrați echipamente Exor International în România și cât durează?", a: "Da, aducem echipamentele Exor la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea confirmată de producător pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de HMI Exor?", a: "Pentru o ofertă corectă, trimiteți modelul dorit (de exemplu X10 Wired sau eX200), dacă aveți nevoie de conectare la platforma CORVINA, și eventuale cerințe de protecție IP sau certificare de siguranță pentru zona de montaj." },
-      { q: "Ce certificări de securitate cibernetică are Exor?", a: "Exor deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată a produselor, relevantă pentru rețele de automatizare unde clientul cere garanții privind vulnerabilitățile software ale echipamentelor conectate." },
+      { q: "Ce certificări de securitate cibernetică are Exor?", a: "Exor deține certificarea IEC 62443-4-1:2018 pentru ciclul de dezvoltare securizată a produselor, relevantă pentru rețele de automatizare unde clientul cere dovezi privind dezvoltarea securizată a echipamentelor conectate." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Exor International — Home", url: "https://www.exorint.com/", publisher: "EXOR Int S.p.A.", accessed: "2026-09-25" },
       { title: "X10 Wired | Mobile HMI Handheld", url: "https://www.exorint.com/products/hardware/x10-wired", publisher: "EXOR Int S.p.A.", accessed: "2026-09-25" },
@@ -135,9 +135,9 @@ Pentru integratorii și constructorii de mașini din România care vând utilaje
   'horner-automation': {
     name: "Horner Automation",
     headquarters: "Indianapolis, SUA",
-    overview: `Horner Automation este un producător american de automate programabile cu sediul la Indianapolis, statul Indiana, specializat în controlere „all-in-one" care combină într-o singură carcasă PLC-ul și interfața de operare (HMI). Gama principală, seria Canvas OCS, rulează cu software-ul de programare gratuit Cscape și oferă acces de la distanță prin funcția WebMI+ și comunicare MQTT. Din portofoliul Horner putem oferta atât modele Canvas noi, cât și modele din seria XL, încă susținute pentru instalațiile existente, potrivite pentru constructori de mașini care vor un singur furnizor pentru control și vizualizare.
+    overview: `Horner Automation este un producător american de automate programabile cu sediul la Indianapolis, statul Indiana, specializat în controlere „all-in-one" care combină într-o singură carcasă PLC-ul și interfața de operare (HMI). Gama principală, seria Canvas OCS, rulează cu software-ul de programare gratuit Cscape și oferă acces de la distanță prin funcția WebMI+ și comunicare MQTT. Din portofoliul Horner putem oferta atât modele Canvas, cât și modele din seria XL, în funcție de disponibilitate, potrivite pentru constructori de mașini care vor un singur furnizor pentru control și vizualizare.
 
-Diferența față de o arhitectură cu PLC separat de HMI este costul și timpul de integrare mai mic — un singur cablu de programare, o singură bază de date de variabile și un singur dispozitiv de montat pe ușa tabloului electric. Seria XL Prime OCS aduce o arhitectură CPU de tip SOM de mare viteză și memorie complet nevolatilă, în timp ce seria Micro OCS oferă I/O fix pentru mașini compacte unde nu e nevoie de module externe. Modelele mai vechi din seria XL — XLE, XLEe, XLT și XLTe — rămân în producție pentru linii existente, deși Horner recomandă seria Canvas sau XL Prime pentru proiecte noi, poziționare similară cu a altor furnizori de automate compacte precum Siemens pe segmentul de intrare.
+Diferența față de o arhitectură cu PLC separat de HMI este costul și timpul de integrare mai mic — un singur cablu de programare, o singură bază de date de variabile și un singur dispozitiv de montat pe ușa tabloului electric. Seria XL Prime OCS aduce, conform producătorului, o arhitectură de mare viteză, în timp ce seria Micro OCS oferă I/O fix pentru mașini compacte unde nu e nevoie de module externe. Seria XL (modele precum XLE, XLEe, XLT și XLTe) face parte din portofoliul producătorului; disponibilitatea fiecărui model se confirmă înainte de ofertă.
 
 Pentru un integrator din România, seria Horner e o opțiune atunci când proiectul cere un panou compact, cu programare gratuită, mai ales la mașini seriale unde costul per unitate contează. Recomandăm verificarea pieselor de schimb pentru modelele XL vechi înainte de un retrofit.`,
     whyChoose: [
@@ -145,12 +145,12 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       "Seria Canvas OCS integrează PLC și HMI într-o singură unitate montată pe ușa tabloului electric",
       "Funcția WebMI+ permite vizualizarea ecranului de operare de pe telefon sau tabletă, fără software suplimentar",
       "Seria RCC oferă control de tip edge fără ecran, pentru dulapuri unde nu e nevoie de interfață locală",
-      "Modelele XLE, XLEe, XLT și XLTe rămân disponibile pentru instalațiile existente cu PLC-uri Horner",
+      "Seria XL (XLE, XLEe, XLT, XLTe) poate fi oferită pentru instalații existente, cu disponibilitatea confirmată în prealabil",
     ],
     keyProducts: [
       { name: "Canvas OCS Series", description: "Familia principală de controlere all-in-one Horner, cu variante de la ecranul compact Canvas 4 până la Canvas 10D, toate programate din același software Cscape 10, cu grafică modernă și gesturi tactile de tip swipe. WebMI+ dă acces de la distanță la ecranul de operare dintr-un browser, iar MQTT trimite date de proces către un sistem SCADA sau cloud. Este gama recomandată de Horner pentru proiecte noi." },
-      { name: "XL Prime OCS Series", description: "Generația următoare de controlere all-in-one, cu procesor de tip SOM de mare viteză și memorie complet nevolatilă, astfel încât programul rămâne intact la o cădere de tensiune neașteptată. Păstrează conceptul seriei XL mai vechi, dar cu performanță mai mare pentru timpi de scanare stricți, pentru mașini noi unde e nevoie de mai multă putere de calcul decât la Canvas." },
-      { name: "Seria XL (XLE, XLEe, XLT, XLTe)", description: "Modelele curente din seria XL mai veche, păstrate în producție pentru continuitatea instalațiilor existente, spre deosebire de XL4, EXL6, EXLW, EXL10 și XL15Plus, ajunse la finalul ciclului de viață. Variantele cu sufixul e adaugă I/O suplimentar. Utile pentru un integrator care întreține o linie mai veche și are nevoie de un înlocuitor compatibil." },
+      { name: "XL Prime OCS Series", description: "Serie de controlere all-in-one cu arhitectură de mare viteză, conform producătorului. Detaliile de performanță ale fiecărui model se confirmă din documentația Horner." },
+      { name: "Seria XL (XLE, XLEe, XLT, XLTe)", description: "Modele din seria XL (XLE, XLEe, XLT, XLTe) pentru instalații existente; statusul de producție al fiecărui model se confirmă înainte de ofertă. Utile pentru un integrator care întreține o linie mai veche și are nevoie de un înlocuitor compatibil." },
       { name: "RCC Series", description: "Controler PLC fără ecran propriu (screenless), pentru control de tip edge în dulapuri unde interfața de operare este pe alt echipament sau la distanță. Rulează programe scrise tot în Cscape, deci un integrator care lucrează cu Canvas sau XL Prime reutilizează aceleași cunoștințe pe un proiect fără ecran local." },
     ],
     industries: [
@@ -164,14 +164,14 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       "CE — conformitate cu directivele europene",
     ],
     infinitrade: `Lucrăm cu gama Horner de controlere all-in-one pentru integratori din România care vor un PLC și un HMI într-o singură unitate, programate din Cscape. Nu avem date proprii de stoc pentru niciun model — ceea ce scriem se bazează pe informațiile publice ale producătorului, verificate la data indicată. Comandăm controlerele prin canale de aprovizionare din UE și livrăm în termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC) și numărul de intrări/ieșiri necesar; nu ținem gama Horner pe raft, fiecare controler se aduce la comandă.`,
-    limitation: "Nu putem confirma compatibilitatea exactă de migrare a programelor de pe modelele XL mai vechi (XL4, EXL6, EXLW, EXL10, XL15Plus, scoase din producție) fără o verificare tehnică punctuală.",
+    limitation: "Nu putem confirma compatibilitatea exactă de migrare a programelor de pe modelele XL mai vechi (XL4, EXL6, EXLW, EXL10, XL15Plus) fără o verificare tehnică punctuală.",
     productCodes: [
       { code: "Canvas 4", description: "controler all-in-one PLC/HMI compact, cu Cscape 10 și WebMI+" },
       { code: "Canvas 5", description: "PLC/HMI all-in-one cu ecran tactil, acces de la distanță prin WebMI+" },
       { code: "Canvas 7", description: "controler all-in-one cu ecran mai mare, gesturi tactile și MQTT" },
       { code: "Canvas 7D", description: "variantă Canvas 7 cu opțiuni extinse de I/O și comunicație" },
-      { code: "Canvas 10D", description: "model Canvas de top, ecran de 10 inch, I/O extins" },
-      { code: "XL Prime", description: "PLC all-in-one cu HMI integrat, arhitectură CPU SOM de mare viteză" },
+      { code: "Canvas 10D", description: "model Canvas, ecran de 10 inch, I/O extins" },
+      { code: "XL Prime", description: "PLC all-in-one cu HMI integrat, arhitectură de mare viteză" },
       { code: "Micro OCS", description: "PLC/HMI all-in-one cu I/O fix, pentru mașini compacte" },
       { code: "Foundation OCS", description: "controler all-in-one testat în teren, variantă economică" },
       { code: "RCC Series", description: "PLC fără ecran (screenless), pentru control de tip edge" },
@@ -179,23 +179,23 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
       { code: "EXL6", description: "PLC all-in-one XL cu ecran extins, generație matură" },
       { code: "EXLW", description: "variantă XL cu ecran lat, generație matură" },
       { code: "EXL10", description: "PLC all-in-one XL cu ecran de 10 inch" },
-      { code: "XL15Plus", description: "PLC all-in-one cu ecran de 15 inch, scos din producție" },
-      { code: "XLE", description: "PLC all-in-one XL, model curent recomandat pentru continuitate" },
-      { code: "XLEe", description: "variantă extinsă a modelului XLE, cu I/O suplimentar" },
-      { code: "XLT", description: "PLC all-in-one XL cu ecran tactil, model curent" },
-      { code: "XLTe", description: "variantă extinsă a modelului XLT, cu I/O suplimentar" },
+      { code: "XL15Plus", description: "PLC all-in-one din seria XL" },
+      { code: "XLE", description: "PLC all-in-one din seria XL" },
+      { code: "XLEe", description: "variantă a modelului XLE" },
+      { code: "XLT", description: "PLC all-in-one din seria XL" },
+      { code: "XLTe", description: "variantă a modelului XLT" },
       { code: "Cscape", description: "software gratuit de programare pentru toate controlerele Horner" },
     ],
     faq: [
       { q: "Ce produce Horner Automation?", a: "Horner Automation produce controlere all-in-one care integrează PLC-ul și interfața de operare HMI într-o singură unitate, programate cu software-ul gratuit Cscape, din seriile Canvas OCS, XL Prime OCS, Micro OCS și RCC." },
-      { q: "Ce diferență e între seria Canvas și seria XL Prime la Horner?", a: "Canvas OCS este gama recomandată pentru proiecte noi, cu grafică modernă tactilă și acces de la distanță prin WebMI+, în timp ce XL Prime OCS aduce o arhitectură de procesor mai rapidă și memorie complet nevolatilă pentru aplicații cu cerințe mai mari de performanță." },
+      { q: "Ce diferență e între seria Canvas și seria XL Prime la Horner?", a: "Canvas OCS este gama recomandată pentru proiecte noi, cu grafică modernă tactilă și acces de la distanță prin WebMI+, în timp ce XL Prime OCS aduce o arhitectură de mare viteză, conform producătorului." },
       { q: "Livrați controlere Horner Automation în România și în cât timp?", a: "Da, aducem controlerele Horner la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de PLC Horner?", a: "Pentru o ofertă corectă trimiteți seria dorită (Canvas, XL Prime, Micro OCS sau RCC), numărul de intrări și ieșiri necesar și dacă aveți nevoie de acces de la distanță prin WebMI+ sau comunicare MQTT către un sistem SCADA." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Horner Automation — Home", url: "https://hornerautomation.com/", publisher: "Horner Automation", accessed: "2026-09-25" },
       { title: "Canvas ~ All-in-One PLC/HMI", url: "https://hornerautomation.com/product-category/all-in-one-controllers/canvas-collection/", publisher: "Horner Automation", accessed: "2026-09-25" },
@@ -205,18 +205,18 @@ Pentru un integrator din România, seria Horner e o opțiune atunci când proiec
     name: "Red Lion Controls",
     overview: `Red Lion Controls este un producător de echipamente pentru accesul, conectarea și vizualizarea datelor industriale, parte din grupul suedez HMS Networks din 2024. Din portofoliul companiei fac parte controlere edge din familia FlexEdge, panouri HMI din familiile Graphite, CR și G3, module de intrare/ieșire E3 și stații de conversie de protocol precum Data Station Plus, toate configurabile din același software Crimson. Putem oferta din gama Red Lion atât HMI-uri simple pentru un tablou de comandă, cât și echipamente de conectivitate pentru transmiterea datelor de mașină către un sistem central.
 
-Ce ține Red Lion relevant este software-ul unic de configurare Crimson, folosit atât pentru HMI-uri, cât și pentru controlerele edge FlexEdge, ceea ce reduce numărul de instrumente pe care trebuie să le știe o echipă de mentenanță. Compania se adresează unor sectoare cu infrastructură distribuită geografic — petrol și gaze, energie regenerabilă, utilități și transport — unde datele trebuie colectate de la echipamente aflate la distanță unele de altele și trimise către un centru de monitorizare. Familia Modular Controller completează gama cu module I/O interschimbabile pentru aplicații unde configurația de intrări/ieșiri se schimbă de la un proiect la altul.
+Un avantaj al gamei Red Lion este software-ul unic de configurare Crimson, folosit atât pentru HMI-uri, cât și pentru controlerele edge FlexEdge, ceea ce reduce numărul de instrumente pe care trebuie să le știe o echipă de mentenanță. Compania se adresează unor sectoare cu infrastructură distribuită geografic — petrol și gaze, energie regenerabilă, utilități și transport — unde datele trebuie colectate de la echipamente aflate la distanță unele de altele și trimise către un centru de monitorizare. Familia Modular Controller completează gama cu module I/O interschimbabile pentru aplicații unde configurația de intrări/ieșiri se schimbă de la un proiect la altul.
 
-Pentru un integrator din România, Red Lion are sens acolo unde proiectul combină HMI local cu transmiterea datelor către un SCADA central, mai ales în sectoare precum apă-canal sau utilități, unde stațiile sunt răspândite pe o arie mare. Faptul că marca aparține acum de HMS Networks înseamnă acces la o rețea de suport tehnic mai mare decât înainte de achiziție.`,
+Pentru un integrator din România, Red Lion are sens acolo unde proiectul combină HMI local cu transmiterea datelor către un SCADA central, mai ales în sectoare precum apă-canal sau utilități, unde stațiile sunt răspândite pe o arie mare. Marca aparține din 2024 grupului HMS Networks, care a preluat compania de la Spectris.`,
     whyChoose: [
       "Un singur software, Crimson, configurează atât HMI-urile, cât și controlerele edge FlexEdge din gamă",
-      "Familia FlexEdge acoperă mai multe niveluri de capacitate I/O, de la DA50 până la DA30D",
+      "Familia FlexEdge include modelele DA50, DA70, DA10D și DA30D, toate configurabile din Crimson",
       "Modular Controller permite schimbarea configurației de intrări/ieșiri fără să înlocuiești tot controlerul",
-      "Compania face parte din grupul HMS Networks din 2024, cu rețea de suport tehnic extinsă",
+      "Compania face parte din grupul HMS Networks din 2024",
       "Data Station Plus convertește între protocoale industriale diferite, util la echipamente mai vechi",
     ],
     keyProducts: [
-      { name: "FlexEdge (DA50, DA70, DA10D, DA30D)", description: "Familie de controlere de tip edge pentru acces și conectare la date industriale, cu niveluri de capacitate diferite, de la DA50 la DA30D. Rulează configurația din Crimson, același software ca la HMI-urile Red Lion, ceea ce simplifică un proiect care combină vizualizare locală cu transmitere de date către un sistem central." },
+      { name: "FlexEdge (DA50, DA70, DA10D, DA30D)", description: "Familie de controlere de tip edge pentru acces și conectare la date industriale, cu modelele DA50, DA70, DA10D și DA30D. Rulează configurația din Crimson, același software ca la HMI-urile Red Lion, ceea ce simplifică un proiect care combină vizualizare locală cu transmitere de date către un sistem central." },
       { name: "Graphite HMI / Controller (Core, Edge)", description: "Familia Graphite acoperă panouri HMI pentru operare locală și controlere Core și Edge pentru logica de proces și colectarea de date la marginea rețelei. Toate se programează din Crimson, cu posibilitatea de a combina un HMI Graphite cu un controller Graphite Edge pe aceeași mașină." },
       { name: "CR3000 / CR1000, G3 / G3 Kadet", description: "Panouri HMI de dimensiuni și capacități diferite pentru tablouri de comandă, de la modelele compacte G3 Kadet și CR1000, potrivite pentru spații reduse, până la CR3000 pentru ecrane mai mari. Toate se programează din Crimson și pot rula pe același proiect ca și controlerele FlexEdge sau Graphite, dacă instalația combină mai multe familii de produse Red Lion." },
       { name: "Data Station Plus și E3 I/O", description: "Data Station Plus este o stație de conversie de protocol, utilă când o instalație combină echipamente mai vechi cu protocoale diferite și trebuie ca toate să ajungă în același sistem de monitorizare. Modulele E3 I/O extind numărul de intrări și ieșiri disponibile pentru un controler Red Lion, fără un al doilea controler complet pentru câteva puncte suplimentare." },
@@ -232,9 +232,9 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
     limitation: "Nu putem confirma compatibilitatea Crimson cu versiuni foarte vechi de HMI Red Lion fără o verificare punctuală a numărului de model instalat.",
     productCodes: [
       { code: "FlexEdge DA50", description: "controler edge FlexEdge, familie de dispozitive de acces la date industriale" },
-      { code: "FlexEdge DA70", description: "controler edge FlexEdge, variantă cu capacitate extinsă de I/O" },
+      { code: "FlexEdge DA70", description: "controler edge FlexEdge, configurabil din Crimson" },
       { code: "FlexEdge DA10D", description: "controler edge FlexEdge din familia de dispozitive de date" },
-      { code: "FlexEdge DA30D", description: "controler edge FlexEdge, variantă intermediară a familiei DA" },
+      { code: "FlexEdge DA30D", description: "controler edge FlexEdge, configurabil din Crimson" },
       { code: "Graphite HMI", description: "panou HMI programat în Crimson, pentru vizualizare și control local" },
       { code: "Graphite Core Controller", description: "controler industrial de bază din familia Graphite" },
       { code: "Graphite Edge Controller", description: "controler de tip edge din familia Graphite, pentru colectare de date" },
@@ -256,8 +256,8 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Red Lion — Access, Connect, Visualize", url: "https://www.redlion.net", publisher: "Red Lion Controls / HMS Networks", accessed: "2026-09-25" },
       { title: "Crimson Configuration Software", url: "https://www.redlion.net/support/software-firmware/red-lion-software/crimson", publisher: "Red Lion Controls / HMS Networks", accessed: "2026-09-25" },
@@ -266,28 +266,28 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
   'westermo': {
     name: "Westermo",
     headquarters: "Västerås, Suedia",
-    overview: `Westermo este un producător suedez de switch-uri și routere industriale, cu sediul la Västerås, specializat în echipamente de rețea pentru medii dure — temperaturi extreme, vibrații și interferențe electromagnetice. Gama acoperă switch-uri Ethernet din familiile Lynx, Viper, Redfox, Oryx, SandCat și Wolverine, routere celulare 4G/5G și DSL din familia Ibex, precum și gateway-uri LTE din familia Kite. Din portofoliul Westermo putem oferta echipamente de rețea pentru instalații feroviare, energetice sau industriale unde un switch de birou nu ar rezista la condițiile de mediu.
+    overview: `Westermo este un producător suedez de switch-uri și routere industriale, cu sediul la Västerås, specializat în echipamente de rețea pentru medii dure — temperaturi extreme, vibrații și interferențe electromagnetice. Gama acoperă switch-uri Ethernet din familiile Lynx, Viper, Redfox, Oryx, SandCat și Wolverine, routere celulare 4G/5G și access point-uri Wi-Fi din familia Ibex, precum și gateway-uri LTE din familia Kite. Din portofoliul Westermo putem oferta echipamente de rețea pentru instalații feroviare, energetice sau industriale unde un switch de birou nu ar rezista la condițiile de mediu.
 
-Diferența principală față de un switch industrial generic este plaja de temperatură de operare, de -40°C până la +70°C la majoritatea modelelor din seriile Lynx și Ibex, și certificările specifice pentru sectoare reglementate: IEC 61850-3 pentru echipamente feroviare și de substație electrică, EN 50155 pentru vehicule feroviare și aprobări DNV pentru aplicații maritime. Modelul Viper-3000 aduce în plus certificarea IEC 62443-4-2 SL2 pentru securitate cibernetică, relevantă acolo unde rețeaua industrială trebuie protejată, un argument tot mai cerut alături de furnizori precum Moxa sau Hirschmann pe segmentul de rețele industriale critice.
+Diferența principală față de un switch industrial generic este plaja de temperatură de operare, de -40°C până la +70°C la majoritatea modelelor din seriile Lynx și Ibex, și certificările specifice pentru sectoare reglementate: IEC 61850-3 pentru substații electrice, EN 50155 pentru vehicule feroviare și aprobări DNV pentru aplicații maritime. Anumite variante din seriile Viper-3000 și Lynx au certificare IEC 62443-4-2 SL2 pentru securitate cibernetică, relevantă acolo unde rețeaua industrială trebuie protejată, un argument tot mai cerut alături de furnizori precum Moxa sau Hirschmann pe segmentul de rețele industriale critice.
 
 Pentru un proiect din România cu echipamente montate pe cale ferată, în stații de pompare sau în cabinete exterioare, Westermo e o opțiune atunci când switch-ul trebuie să funcționeze fără climatizare și fără mentenanță frecventă. Recomandăm brandul pentru rețele critice unde o defecțiune de comunicație are cost operațional mare, nu pentru rețele de birou obișnuite.`,
     whyChoose: [
       "Plajă de temperatură de operare de la -40°C la +70°C la majoritatea switch-urilor din seria Lynx",
-      "Certificarea IEC 61850-3 acoperă aplicații feroviare și de substație electrică fără echipamente suplimentare",
-      "Modelul Viper-3000 are certificare IEC 62443-4-2 SL2 pentru securitate cibernetică în rețele industriale",
+      "Anumite modele au certificare IEC 61850-3 pentru substații electrice, iar altele EN 50155 pentru aplicații feroviare",
+      "Anumite variante Viper-3000 au certificare IEC 62443-4-2 SL2 pentru securitate cibernetică",
       "Familia Ibex acoperă routere Wi-Fi 6, LTE și 5G cu conectori M12 rezistenți la vibrații",
       "Aprobările DNV permit folosirea anumitor modele Westermo în aplicații maritime și offshore",
     ],
     keyProducts: [
-      { name: "Seria Lynx (switch-uri Ethernet)", description: "Familia principală de switch-uri Ethernet industriale Westermo, cu modele de la 4 la 8 porturi cuprivire și porturi SFP pentru fibră optică, disponibile și cu PoE pentru alimentarea camerelor sau punctelor de acces. Modelele Gen 2 (de exemplu 3306-F2G-T4-LV sau 3510-F2G-T8G-LV) au plajă de temperatură de la -40°C la +70°C. Varianta feroviară Lynx-RB-FT3G-MV are certificare IEC 61850-3, pentru montaj pe cale ferată." },
+      { name: "Seria Lynx (switch-uri Ethernet)", description: "Familia principală de switch-uri Ethernet industriale Westermo, cu modele de la 4 la 8 porturi de cupru și porturi SFP pentru fibră optică, disponibile și cu PoE pentru alimentarea camerelor sau punctelor de acces. Modelele Gen 2 (de exemplu 3306-F2G-T4-LV sau 3510-F2G-T8G-LV) au plajă de temperatură de la -40°C la +70°C. Pentru vehicule feroviare, Westermo oferă seria Viper, cu certificare EN 50155." },
       { name: "Seria Ibex (routere și access point-uri)", description: "Familia de routere celulare și access point-uri Wi-Fi pentru conectivitate la distanță, cu modele LTE (Ibex-RT-330), 5G (Ibex-RT-630-5G) și Wi-Fi 6 (Ibex-1310), toate cu conectori M12 rezistenți la vibrații și plajă de temperatură extinsă. Utile pentru puncte fără fibră optică sau cablu Ethernet disponibil." },
-      { name: "Gateway LTE Kite-5000", description: "Gateway celular pentru conectarea la distanță a unor puncte izolate din rețea, cu porturi Ethernet 1G și conector M12, folosit ca alternativă la o legătură prin fibră sau cablu atunci când distanța sau costul instalării o fac impracticabilă. Din aceeași familie de echipamente robuste ca și seria Ibex." },
-      { name: "Viper-3000 (switch industrial securizat)", description: "Switch industrial cu certificare IEC 62443-4-2 SL2 pentru securitate cibernetică, gândit pentru rețele critice unde protecția împotriva atacurilor informatice contează la fel de mult ca funcționarea fizică în condiții dure. Recomandat pentru instalații energetice sau feroviare." },
+      { name: "Gateway LTE Kite-5000", description: "Gateway celular pentru conectarea la distanță a unor puncte izolate din rețea, folosit ca alternativă la o legătură prin fibră sau cablu atunci când distanța sau costul instalării o fac impracticabilă. Din aceeași familie de echipamente robuste ca și seria Ibex." },
+      { name: "Viper-3000 (switch industrial securizat)", description: "Switch industrial cu certificare IEC 62443-4-2 SL2 pentru securitate cibernetică, gândit pentru rețele critice unde protecția împotriva atacurilor informatice contează la fel de mult ca funcționarea fizică în condiții dure. Seria Viper este destinată vehiculelor feroviare (EN 50155)." },
     ],
     industries: [
-      "Căi ferate — switch-uri și extendere certificate IEC 61850-3 și EN 50155 pentru vehicule și stații",
+      "Căi ferate — echipamente de rețea cu certificare EN 50155 pentru vehicule feroviare",
       "Energie — rețele de comunicație pentru substații electrice și instalații de distribuție",
-      "Maritim și offshore — echipamente de rețea cu aprobări DNV pentru la bordul navelor",
+      "Maritim și offshore — echipamente de rețea cu aprobări DNV pentru bordul navelor",
       "Apă și apă uzată — conectivitate pentru stații de pompare și tratare răspândite geografic",
       "Apărare — echipamente de rețea robuste pentru medii operaționale dure",
     ],
@@ -305,15 +305,15 @@ Pentru un proiect din România cu echipamente montate pe cale ferată, în staț
       { code: "Lynx 3510-F2G-T8G-LV Gen 2", description: "switch industrial cu 8 porturi 1G și 2 porturi SFP 1G" },
       { code: "Lynx 3510-F2G2.5-P8G-LV Gen 2", description: "switch cu 8 porturi PoE și 2 porturi SFP 2.5G" },
       { code: "Lynx 5512-F4G-T8G-LV", description: "switch industrial cu 8 porturi 1G și 4 porturi SFP 1G" },
-      { code: "Lynx 5612-F4G-T8G-LV", description: "switch industrial similar seriei 5512, cu porturi SFP suplimentare" },
-      { code: "Lynx-RB-FT3G-MV", description: "switch feroviar cu 3 porturi combo fibră/cupru, certificat IEC 61850-3" },
-      { code: "Ibex-1310", description: "access point Wi-Fi 6 industrial cu 2 porturi 2.5G și conector M12" },
-      { code: "Ibex-RT-330", description: "router LTE industrial cu 2 porturi 1G și conector M12" },
-      { code: "Ibex-RT-630-5G", description: "router 5G industrial cu 2 porturi 1G și conector M12" },
-      { code: "Kite-5000", description: "gateway LTE industrial cu 2 porturi 1G și conector M12" },
-      { code: "CyBox AP 3-W", description: "access point Wi-Fi 5 dual radio cu conectori M12" },
-      { code: "CyBox RT 3-W", description: "router combinat 5G și Wi-Fi cu 2 porturi 1G" },
-      { code: "Viper-3000", description: "switch industrial certificat IEC 62443-4-2 SL2 pentru securitate cibernetică" },
+      { code: "Lynx 5612-F4G-T8G-LV", description: "switch industrial cu 8 porturi 1G și 4 porturi SFP 1G, varianta certificată IEC 61850-3 pentru substații" },
+      { code: "Lynx-RB-FT3G-MV", description: "model din familia Lynx; specificațiile se confirmă pe fișa tehnică a producătorului" },
+      { code: "Ibex-1310", description: "access point Wi-Fi 6 industrial pentru exterior, cu conector M12" },
+      { code: "Ibex-RT-330", description: "router LTE industrial cu conector M12" },
+      { code: "Ibex-RT-630-5G", description: "router celular LTE/5G combinat cu WLAN, cu conector M12" },
+      { code: "Kite-5000", description: "gateway celular LTE din seria Kite" },
+      { code: "CyBox AP 3-W", description: "access point WLAN pentru mediul feroviar" },
+      { code: "CyBox RT 3-W", description: "router combinat celular (LTE/5G) și Wi-Fi pentru mediul feroviar" },
+      { code: "Viper-3000", description: "switch EN 50155 pentru vehicule feroviare, cu variante certificate IEC 62443-4-2 SL2" },
       { code: "Redfox", description: "familie de switch-uri industriale gestionate pentru rețele critice" },
       { code: "Merlin-3100", description: "extender Ethernet pentru distanțe mari pe cablu de cupru" },
       { code: "Oryx", description: "familie de switch-uri industriale Westermo" },
@@ -322,14 +322,14 @@ Pentru un proiect din România cu echipamente montate pe cale ferată, în staț
     ],
     faq: [
       { q: "Ce produce Westermo?", a: "Westermo produce switch-uri Ethernet și routere industriale pentru medii dure, din familii precum Lynx, Viper, Redfox și Ibex, cu plajă de temperatură extinsă și certificări pentru sectoare feroviar, energetic și maritim." },
-      { q: "Cum aleg un switch Westermo după cod?", a: "Codul de model Westermo indică de obicei familia (de exemplu Lynx), numărul de porturi cuprivire și tipul de porturi SFP; spuneți-ne numărul de dispozitive de conectat și dacă aveți nevoie de PoE sau de fibră optică." },
+      { q: "Cum aleg un switch Westermo după cod?", a: "Codul de model Westermo indică de obicei familia (de exemplu Lynx), numărul de porturi de cupru și tipul de porturi SFP; spuneți-ne numărul de dispozitive de conectat și dacă aveți nevoie de PoE sau de fibră optică." },
       { q: "Livrați switch-uri Westermo în România?", a: "Da, aducem echipamentele Westermo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul ales." },
-      { q: "Ce certificări au switch-urile Westermo pentru aplicații feroviare?", a: "Modelele dedicate căilor ferate, precum Lynx-RB-FT3G-MV, au certificare IEC 61850-3 pentru echipamente de substație electrică și EN 50155 pentru electronica montată la bordul vehiculelor feroviare, conform datelor publicate de producător." },
+      { q: "Ce certificări au switch-urile Westermo pentru aplicații feroviare?", a: "Modelele dedicate vehiculelor feroviare, precum seria Viper, au certificare EN 50155 pentru electronica montată la bordul vehiculelor; certificarea IEC 61850-3 se referă la echipamentele pentru substații electrice, conform datelor publicate de producător." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Westermo — Home", url: "https://www.westermo.com/", publisher: "Westermo Network Technologies AB", accessed: "2026-09-25" },
       { title: "All Westermo Products", url: "https://www.westermo.com/products/all-westermo-products", publisher: "Westermo Network Technologies AB", accessed: "2026-09-25" },
@@ -338,16 +338,16 @@ Pentru un proiect din România cu echipamente montate pe cale ferată, în staț
   'concentric-ab': {
     name: "Concentric AB",
     headquarters: "Suedia",
-    overview: `Sub numele Concentric AB se regăsește un producător suedez de pompe hidraulice, pompe de ulei și componente electrice pentru vehicule comerciale și utilaje industriale, dezvoltat inițial ca divizie de componente auxiliare pentru motoare. Gama include pompe cu roți dințate, pompe de încărcare pentru circuite hidraulice, motoare hidraulice, sisteme de acționare a ventilatoarelor de răcire, dar și componente electrice precum pompe electrice de ulei (eOil), pompe electrice de apă (eWater) și alternatoare. Putem oferta din portofoliul Concentric atât pompe hidraulice pentru sisteme de direcție sau ridicare, cât și componente auxiliare de motor pentru producători de camioane, autobuze sau utilaje de construcții.
+    overview: `Sub numele Concentric AB se regăsește un producător suedez de pompe hidraulice, pompe de ulei și componente electrice pentru vehicule comerciale și utilaje industriale. Gama include pompe cu roți dințate, pompe de încărcare pentru circuite hidraulice, motoare hidraulice, sisteme de acționare a ventilatoarelor de răcire, dar și componente electrice precum pompe electrice de ulei (eOil), pompe electrice de apă (eWater) și alternatoare. Putem oferta din portofoliul Concentric atât pompe hidraulice pentru sisteme de direcție sau ridicare, cât și componente auxiliare de motor pentru producători de camioane, autobuze sau utilaje de construcții.
 
-Ce diferențiază Concentric este acoperirea ambelor tehnologii, mecanică și electrică, pentru aceleași funcții de bază — ungere, răcire, încărcare hidraulică — ceea ce permite unui producător de utilaje să migreze treptat de la componente mecanice la variante electrice fără schimbarea furnizorului. Compania deține certificările IATF 16949:2016, specifică industriei auto, și ISO 9001:2015 pentru managementul calității, relevante pentru producători OEM care cer trasabilitate a componentelor montate pe linia de asamblare. În segmentul pompelor hidraulice pentru utilaje mobile, Concentric concurează cu nume precum Bosch Rexroth, cu un portofoliu orientat spre producători de camioane și utilaje agricole.
+Ce diferențiază Concentric este acoperirea ambelor tehnologii, mecanică și electrică, pentru aceleași funcții de bază — ungere, răcire, încărcare hidraulică — ceea ce permite unui producător de utilaje să migreze treptat de la componente mecanice la variante electrice fără schimbarea furnizorului. Compania deține certificările IATF 16949:2016, specifică industriei auto, și ISO 9001:2015 pentru managementul calității, relevante pentru producători OEM care cer trasabilitate a componentelor montate pe linia de asamblare. Portofoliul Concentric este orientat spre producători de camioane, autobuze, utilaje agricole și de construcții.
 
 Pentru piața din România, Concentric are sens pentru ateliere și integratori care deservesc flote de camioane, autobuze sau utilaje de construcții și au nevoie de pompe de schimb sau componente electrice de răcire compatibile cu echipamentul original. Recomandăm verificarea codului exact al pompei montate pe utilaj înainte de a cere o ofertă, pentru a evita o potrivire greșită de debit sau presiune.`,
     whyChoose: [
       "Acoperă atât pompe hidraulice mecanice, cât și variante electrice (eOil, eWater) pentru aceeași funcție",
       "Certificarea IATF 16949:2016 confirmă trasabilitate specifică industriei auto pentru componentele montate pe linie",
       "Gama Power Packs oferă unități hidraulice complete, gata de montat, fără dimensionare separată",
-      "Concurează direct cu Bosch Rexroth pe segmentul de pompe hidraulice pentru utilaje mobile",
+      "Gama hidraulică include pompe cu roți dințate, motoare hidraulice și sisteme de acționare a ventilatoarelor",
       "Portofoliul acoperă atât camioane și autobuze, cât și utilaje agricole și de construcții",
     ],
     keyProducts: [
@@ -387,14 +387,14 @@ Pentru piața din România, Concentric are sens pentru ateliere și integratori 
     ],
     faq: [
       { q: "Ce produce Concentric AB?", a: "Concentric AB produce pompe hidraulice cu roți dințate, pompe de încărcare, motoare hidraulice, sisteme de acționare a ventilatoarelor de răcire și componente electrice precum pompe electrice de ulei și apă, pentru camioane, autobuze, utilaje agricole și de construcții." },
-      { q: "Ce echivalent are o pompă Concentric la Bosch Rexroth?", a: "Concentric și Bosch Rexroth produc ambele pompe hidraulice cu roți dințate pentru utilaje mobile; echivalența exactă depinde de debit, presiune și tipul de montaj, verificate pe baza codului original al pompei montate pe utilaj." },
+      { q: "Cum găsesc echivalentul unei pompe Concentric?", a: "Echivalența cu o pompă de la alt producător depinde de debit, presiune și tipul de montaj; o verificăm pe baza codului original al pompei montate pe utilaj." },
       { q: "Livrați componente Concentric AB în România?", a: "Da, aducem componentele Concentric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Concentric?", a: "Trimiteți codul original al pompei sau componentei de pe utilaj; dacă nu îl aveți, spuneți-ne tipul utilajului, funcția componentei (ungere, răcire, direcție) și, dacă știți, debitul sau presiunea necesară." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Concentric AB — Home", url: "https://www.concentricab.com", publisher: "Concentric AB", accessed: "2026-09-25" },
       { title: "Hydraulic Products", url: "https://www.concentricab.com/product-division/hydraulic/", publisher: "Concentric AB", accessed: "2026-09-25" },
@@ -403,22 +403,22 @@ Pentru piața din România, Concentric are sens pentru ateliere și integratori 
   'voss-fluid': {
     name: "Voss Fluid",
     headquarters: "Wipperfürth, Germania",
-    overview: `VOSS Fluid este un producător german de racorduri și sisteme de conectare pentru circuite hidraulice, cu sediul la Wipperfürth și prezență prin filiale în 14 țări de pe 4 continente. Gama include linii hidraulice gata de montat (ready-to-install lines), sistemul de conectare rapidă VOSS 232, racorduri de țeavă, module de management termic pentru vehicule electrice, supape, senzori de presiune și temperatură și distribuitoare pentru ramificarea circuitelor. Din portofoliul VOSS putem oferta atât componente individuale de racordare, cât și linii pre-asamblate conform unei scheme hidraulice specifice.
+    overview: `VOSS Fluid este un producător german de racorduri și sisteme de conectare pentru circuite hidraulice, cu sediul la Wipperfürth și prezență prin 24 de companii în 14 țări. Gama include linii hidraulice gata de montat (ready-to-install lines), sistemul de conectare rapidă VOSS 232, racorduri de țeavă, module de management termic pentru vehicule electrice, supape, senzori de presiune și temperatură și distribuitoare pentru ramificarea circuitelor. Din portofoliul VOSS putem oferta atât componente individuale de racordare, cât și linii pre-asamblate conform unei scheme hidraulice specifice.
 
-Ce diferențiază VOSS de un furnizor generic de racorduri este capacitatea de a livra linii complet pre-asamblate și testate, gata de montat direct pe utilaj, plus module dedicate pentru managementul termic al bateriilor și motoarelor electrice, un segment relativ nou pentru un producător tradițional de racorduri hidraulice. Catalogul de racorduri de țeavă include o variantă certificată DVGW/H2 Ready, relevantă pentru instalațiile care trec de la gaz natural la hidrogen. Pe segmentul de racorduri hidraulice de precizie, VOSS se poziționează alături de nume precum Parker Hannifin, cu accent pe seriile personalizate pentru constructori de utilaje.
+Ce diferențiază VOSS de un furnizor generic de racorduri este capacitatea de a livra linii complet pre-asamblate, gata de montat direct pe utilaj, plus module dedicate pentru managementul termic al bateriilor și motoarelor electrice, un segment relativ nou pentru un producător tradițional de racorduri hidraulice. Racordurile de țeavă VOSS includ soluții pentru aplicații cu hidrogen și gaz natural; certificările aplicabile se confirmă pe fișa tehnică a produsului. VOSS oferă și soluții personalizate pentru constructori de utilaje.
 
-Pentru un integrator din România care asamblează utilaje mobile sau staționare, VOSS are sens atunci când proiectul cere o linie hidraulică pre-asamblată conform unei scheme date, nu doar racorduri individuale de cumpărat separat și îmbinat la fața locului. Recomandăm brandul și pentru proiecte cu componentă de hidrogen, având în vedere certificarea H2 Ready din gama de racorduri de țeavă.`,
+Pentru un integrator din România care asamblează utilaje mobile sau staționare, VOSS are sens atunci când proiectul cere o linie hidraulică pre-asamblată conform unei scheme date, nu doar racorduri individuale de cumpărat separat și îmbinat la fața locului. Pentru proiecte cu componentă de hidrogen, verificăm împreună cu producătorul varianta de racord adecvată.`,
     whyChoose: [
-      "Liniile hidraulice ready-to-install vin pre-asamblate și testate, gata de montat direct pe utilaj",
-      "Racordurile de țeavă au variantă certificată DVGW/H2 Ready, pentru instalații de hidrogen",
+      "Liniile hidraulice ready-to-install vin pre-asamblate, gata de montat direct pe utilaj",
+      "Gama de racorduri de țeavă include soluții pentru aplicații cu hidrogen și gaz natural",
       "Modulele de management termic acoperă și vehicule electrice, nu doar circuite hidraulice clasice",
-      "Prezența prin filiale în 14 țări facilitează aprovizionarea pentru proiecte internaționale",
-      "Sistemul de conectare rapidă VOSS 232 reduce timpul de montaj față de racordurile filetate clasice",
+      "Grupul are 24 de companii în 14 țări și parteneri de vânzări în peste 50 de state",
+      "Sistemul de conectare rapidă VOSS 232 este prezentat de producător ca standard pentru aplicații pneumatice, pe piață de 25 de ani",
     ],
     keyProducts: [
-      { name: "Ready-to-Install Lines", description: "Linii hidraulice complete, proiectate și pre-asamblate conform schemei tehnice a clientului, livrate gata de montat pe utilaj, cu toate racordurile, țevile și accesoriile deja fixate și testate la presiune înainte de expediere. Reduc timpul de asamblare la linia de producție și elimină riscul unei îmbinări greșite făcute manual la fața locului." },
-      { name: "Quick Connect System 232", description: "Sistem de conectare rapidă pentru circuite de fluide sau aer comprimat, gândit pentru situații unde furtunul sau conducta trebuie deconectată și reconectată frecvent, fără scule și fără riscul unei filetări greșite. Reduce timpul de mentenanță la echipamentele care necesită deconectări periodice." },
-      { name: "Racorduri de Țeavă (Tube Couplings)", description: "Familia principală de racorduri pentru circuite hidraulice, disponibilă și într-o variantă certificată DVGW/H2 Ready pentru instalații care lucrează cu hidrogen, relevantă pentru proiecte de tranziție energetică unde conductele existente trebuie adaptate la un nou tip de fluid. Acoperă game de presiuni și diametre pentru aplicații industriale și mobile." },
+      { name: "Ready-to-Install Lines", description: "Linii hidraulice complete, proiectate și pre-asamblate conform schemei tehnice a clientului, livrate gata de montat pe utilaj, cu toate racordurile, țevile și accesoriile deja fixate. Reduc timpul de asamblare la linia de producție și elimină riscul unei îmbinări greșite făcute manual la fața locului." },
+      { name: "Quick Connect System 232", description: "Sistem de conectare rapidă, prezentat de producător ca standard pentru aplicații pneumatice, în special frâne pneumatice la vehicule comerciale, cu accent pe siguranță și etanșeitate." },
+      { name: "Racorduri de Țeavă (Tube Couplings)", description: "Familia principală de racorduri pentru circuite hidraulice, cu soluții pentru aplicații cu hidrogen și gaz natural. Acoperă game de presiuni și diametre pentru aplicații industriale și mobile." },
       { name: "Module de Management Termic", description: "Module dezvoltate pentru circuitele de răcire ale bateriilor și motoarelor electrice din vehicule, un segment relativ nou pentru VOSS, care extinde know-how-ul din racordurile hidraulice clasice către aplicații de electromobilitate unde gestionarea temperaturii afectează autonomia și durata de viață a bateriei." },
     ],
     industries: [
@@ -430,14 +430,14 @@ Pentru un integrator din România care asamblează utilaje mobile sau staționar
       "Energie și stocare — module și racorduri pentru instalații de generare și stocare a energiei",
     ],
     certifications: [
-      "DVGW / H2 Ready — variantă de racorduri de țeavă certificată pentru hidrogen",
+      "Certificările fiecărui produs se confirmă pe fișa tehnică a producătorului",
     ],
     infinitrade: `Furnizăm racorduri și linii hidraulice VOSS pentru integratori din România care asamblează utilaje mobile sau staționare. Ce nu putem confirma este stocul curent al unei referințe anume — datele tehnice de mai sus vin din surse publice ale producătorului german. Produsele le aducem la comandă din surse de aprovizionare situate în UE, cu un termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea confirmată de fabrică. Pentru ofertă, trimiteți schema hidraulică sau codul racordului existent, diametrul și presiunea de lucru; nu ținem gama VOSS pe raft, fiecare racord se aduce la comandă din UE.`,
-    limitation: "Nu putem confirma disponibilitatea variantei H2 Ready pentru fiecare dimensiune de racord fără o verificare punctuală cu producătorul.",
+    limitation: "Nu putem confirma disponibilitatea unei variante pentru hidrogen pentru fiecare dimensiune de racord fără o verificare punctuală cu producătorul.",
     productCodes: [
       { code: "Ready-to-install lines", description: "linii hidraulice personalizate, gata de montat, livrate pre-asamblate" },
-      { code: "Quick Connect System 232", description: "sistem de conectare rapidă pentru circuite de aer comprimat sau fluide" },
-      { code: "Tube couplings", description: "racorduri de țeavă pentru circuite hidraulice, cu variantă certificată H2 Ready" },
+      { code: "Quick Connect System 232", description: "sistem de conectare rapidă pentru aplicații pneumatice, în special frâne pneumatice" },
+      { code: "Tube couplings", description: "racorduri de țeavă pentru circuite hidraulice și aplicații cu hidrogen sau gaz natural" },
       { code: "Modules", description: "module de management termic pentru vehicule electrice" },
       { code: "Valves", description: "supape pentru controlul fluxului în circuite hidraulice și de răcire" },
       { code: "Sensors", description: "senzori de presiune și temperatură pentru circuite de fluide" },
@@ -448,14 +448,14 @@ Pentru un integrator din România care asamblează utilaje mobile sau staționar
     ],
     faq: [
       { q: "Ce produce VOSS Fluid?", a: "VOSS Fluid produce racorduri și sisteme de conectare pentru circuite hidraulice — linii pre-asamblate, sistemul de conectare rapidă VOSS 232, racorduri de țeavă, module de management termic, supape și distribuitoare, pentru utilaje mobile, staționare și vehicule." },
-      { q: "Ce este o linie hidraulică ready-to-install de la VOSS?", a: "Este o linie hidraulică proiectată și asamblată de VOSS conform schemei tehnice a clientului, livrată gata de montat pe utilaj, cu toate racordurile fixate și testate la presiune, fără asamblare manuală suplimentară la client." },
+      { q: "Ce este o linie hidraulică ready-to-install de la VOSS?", a: "Este o linie hidraulică proiectată și asamblată de VOSS conform schemei tehnice a clientului, livrată gata de montat pe utilaj, cu toate racordurile fixate, fără asamblare manuală suplimentară la client." },
       { q: "Livrați produse VOSS Fluid în România?", a: "Da, aducem produsele VOSS la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru referința solicitată." },
-      { q: "Ce trebuie să trimit pentru o ofertă de racorduri VOSS?", a: "Trimiteți codul racordului existent sau schema hidraulică a instalației, diametrul conductei și presiunea de lucru; dacă proiectul implică hidrogen, menționați și această cerință pentru varianta H2 Ready." },
+      { q: "Ce trebuie să trimit pentru o ofertă de racorduri VOSS?", a: "Trimiteți codul racordului existent sau schema hidraulică a instalației, diametrul conductei și presiunea de lucru; dacă proiectul implică hidrogen, menționați și această cerință." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "VOSS Fluid — Home", url: "https://www.voss.net/en/", publisher: "VOSS Fluid GmbH", accessed: "2026-09-25" },
       { title: "VOSS Products", url: "https://www.voss.net/en/products/", publisher: "VOSS Fluid GmbH", accessed: "2026-09-25" },
@@ -467,13 +467,13 @@ Pentru un integrator din România care asamblează utilaje mobile sau staționar
     founded: 1934,
     overview: `Oleo International este un producător britanic de amortizoare industriale și sisteme de absorbție a energiei, cu peste 90 de ani de activitate de la înființarea în 1934, și prezență prin fabrici sau filiale în China, Germania, Singapore și India. Gama acoperă amortizoare industriale pentru cadre de oțel și macarale de doc (Heavy Duty Range), variante mai ușoare (LDi series) și o gamă economică (EM series), alături de componente feroviare precum opritoare de cale (buffer stops), tampoane laterale, tije de cuplare și tuburi de deformare pentru absorbția energiei la impact. Din portofoliul Oleo putem oferta atât amortizoare industriale pentru macarale și utilaje de manipulare, cât și componente feroviare pentru vagoane și infrastructură de cale.
 
-Ce diferențiază Oleo este principiul hidraulic comun folosit atât la amortizoarele grele pentru industrie, cât și la variantele mai ușoare din gama LDi, ceea ce simplifică alegerea unui model potrivit pe măsură ce cerința de energie de absorbit variază de la o aplicație la alta. Compania a lansat și DigitalTrains, o platformă pentru monitorizarea de la distanță a stării componentelor feroviare montate, relevantă pentru operatorii de infrastructură care vor să anticipeze o reparație înainte de o defecțiune. Pe segmentul de amortizoare industriale grele, Oleo se adresează unor sectoare cu impact mecanic ridicat — mineritul, porturile și oțelăriile — unde o defecțiune a sistemului de amortizare oprește un flux de producție întreg.
+Ce diferențiază Oleo este principiul hidraulic comun folosit atât la amortizoarele grele pentru industrie, cât și la variantele mai ușoare din gama LDi, ceea ce simplifică alegerea unui model potrivit pe măsură ce cerința de energie de absorbit variază de la o aplicație la alta. Compania oferă și DigitalTrains, o platformă de simulare a coliziunilor feroviare, folosită pentru optimizarea soluțiilor de siguranță pasivă ale întregului tren. Pe segmentul de amortizoare industriale grele, Oleo se adresează unor sectoare cu impact mecanic ridicat — mineritul, porturile și oțelăriile — unde o defecțiune a sistemului de amortizare oprește un flux de producție întreg.
 
 Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelării sau depozite mari care folosesc macarale sau sisteme de manipulare cu opritoare hidraulice de capăt de cursă, dar și pentru infrastructură feroviară care are nevoie de componente de cuplare sau absorbție a impactului. Recomandăm verificarea capacității de energie necesare pentru aplicație înainte de a alege între gama grea și cea ușoară.`,
     whyChoose: [
       "Peste 90 de ani de activitate în inginerie de absorbție a energiei, din 1934",
       "Gama LDi folosește același principiu hidraulic ca amortizoarele grele, la scară mai mică",
-      "Platforma DigitalTrains permite monitorizarea de la distanță a componentelor feroviare montate",
+      "Platforma DigitalTrains permite simularea coliziunilor feroviare pentru proiectarea soluțiilor de siguranță pasivă",
       "Portofoliul acoperă atât amortizoare industriale pentru macarale, cât și componente feroviare complete",
       "Prezența prin fabrici în China, Germania, Singapore și India susține aprovizionarea internațională",
     ],
@@ -481,7 +481,7 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
       { name: "Heavy Duty Range (amortizoare industriale grele)", description: "Gama de amortizoare hidraulice pentru aplicații cu energie mare de absorbit, precum cadre de oțel pentru macarale de doc sau opritoare de capăt de cursă pentru utilaje mari de manipulare. Gândite pentru cicluri de impact repetate, tipice porturilor, oțelăriilor și operațiunilor miniere unde o defecțiune poate opri un flux întreg de producție." },
       { name: "LDi Series (Light Impact)", description: "Variantă mai ușoară a amortizoarelor hidraulice Oleo, bazată pe același principiu ca gama Heavy Duty, dar dimensionată pentru energie de impact mai mică. Utilă pentru utilaje medii sau linii unde cerința de absorbție nu justifică un amortizor de capacitate mare." },
       { name: "Componente Feroviare (buffer stops, coupler shanks, tuburi de deformare)", description: "Familie de componente pentru infrastructură și material rulant feroviar — opritoare de capăt de linie (buffer stops), tije de cuplare (coupler shanks), tuburi de deformare pentru absorbția energiei la impact, cuplaje și tampoane laterale (side buffers) pentru vagoane. Folosite atât la construcția de linii noi, cât și la înlocuirea componentelor uzate pe infrastructură existentă." },
-      { name: "DigitalTrains", description: "Platformă digitală pentru monitorizarea de la distanță a stării componentelor feroviare Oleo montate pe infrastructură sau material rulant, gândită pentru operatori care vor să treacă de la mentenanța planificată la o mentenanță bazată pe starea reală a componentei, cu alerte înainte de o defecțiune." },
+      { name: "DigitalTrains", description: "Platformă digitală de simulare a coliziunilor feroviare, pentru optimizarea soluțiilor de gestionare a energiei de impact la nivelul întregului tren." },
     ],
     industries: [
       "Minerit și manipulare de materiale în vrac — amortizoare pentru utilaje de încărcare",
@@ -502,7 +502,7 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
       { code: "Couplers", description: "cuplaje feroviare pentru legarea vagoanelor" },
       { code: "Crash absorbers", description: "absorbitoare de impact pentru vehicule feroviare" },
       { code: "Side buffers", description: "tampoane laterale pentru vagoane feroviare" },
-      { code: "DigitalTrains", description: "platformă digitală pentru monitorizarea componentelor feroviare Oleo" },
+      { code: "DigitalTrains", description: "platformă digitală de simulare a coliziunilor feroviare" },
     ],
     faq: [
       { q: "Ce produce Oleo International?", a: "Oleo International produce amortizoare industriale hidraulice pentru macarale și utilaje de manipulare, în game precum Heavy Duty și LDi, plus componente feroviare — opritoare de capăt de linie, tije de cuplare, tuburi de deformare și tampoane laterale pentru vagoane." },
@@ -512,8 +512,8 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Oleo International — Home", url: "https://www.oleoint.com", publisher: "Oleo International", accessed: "2026-09-25" },
       { title: "Industrial Products", url: "https://www.oleoint.com/industrial/products/", publisher: "Oleo International", accessed: "2026-09-25" },
@@ -524,21 +524,21 @@ Pentru piața din România, Oleo are sens pentru operatori de porturi, oțelări
     headquarters: "Charlotte, SUA",
     overview: `Cu un istoric de peste 150 de ani, Columbus McKinnon este un producător american de echipamente de ridicat, cu sediul la Charlotte, Carolina de Nord. Compania deține mai multe branduri consacrate — Yale, Coffing, CM, Lodestar pentru palane cu lanț, STAHL CraneSystems pentru macarale, Duff-Norton pentru actuatoare liniare și Magnetek pentru sisteme electrice de control. Din portofoliul Columbus McKinnon putem oferta palane manuale și electrice, palane cu cablu de oțel, trolii, macarale portal sau cu braț pivotant, precum și echipamente de ancorare a sarcinilor.
 
-Ce diferențiază grupul este acoperirea completă a lanțului de ridicare — de la palanul propriu-zis, la macaraua pe care rulează, până la sistemul electric de control care o comandă — sub branduri specializate pe fiecare segment, în loc de o singură linie generică de produse. Compania deține certificarea ISO 9001:2015 pentru fabricile sale, relevantă pentru clienți industriali care cer documentație de trasabilitate a echipamentelor de ridicat. Pe segmentul palanelor și macaralelor industriale, Columbus McKinnon concurează cu producători precum Konecranes sau Demag, cu avantajul unui portofoliu de branduri specializate pe nișe diferite ale pieței.
+Ce diferențiază grupul este acoperirea completă a lanțului de ridicare — de la palanul propriu-zis, la macaraua pe care rulează, până la sistemul electric de control care o comandă — sub branduri specializate pe fiecare segment, în loc de o singură linie generică de produse. Compania are certificare ISO 9001:2015 pentru mai multe dintre unitățile sale, relevantă pentru clienți industriali care cer documentație de trasabilitate a echipamentelor de ridicat. Portofoliul grupului cuprinde branduri specializate pe nișe diferite ale pieței echipamentelor de ridicat.
 
 Pentru un integrator sau un beneficiar din România cu o hală de producție, un depozit sau un terminal, Columbus McKinnon are sens atunci când proiectul cere fie o singură palană de schimb pentru un brand deja instalat, fie un sistem complet de macara pentru un post de lucru nou. Recomandăm identificarea brandului exact (Yale, Coffing, CM sau Lodestar) și a modelului de pe plăcuța echipamentului existent înainte de a cere o ofertă de piese de schimb.`,
     whyChoose: [
       "Acoperă întregul lanț de ridicare — palan, macara și sistem electric de control — sub branduri specializate",
-      "Brandurile Yale, Coffing, CM și Lodestar acoperă segmente diferite ale pieței de palane cu lanț",
+      "Brandurile Yale și CM fac parte din portofoliul de palane al grupului",
       "STAHL CraneSystems și Duff-Norton completează gama cu macarale și actuatoare liniare",
       "Certificarea ISO 9001:2015 susține cerințele de trasabilitate ale clienților industriali",
       "Portofoliul acoperă sectoare de la aerospațial la industria alimentară și minerit",
     ],
     keyProducts: [
-      { name: "Palane cu lanț (Yale, Coffing, CM, Lodestar)", description: "Familie de palane manuale și electrice cu lanț, comercializate sub mai multe branduri ale grupului — Yale și Coffing pentru game generale industriale, CM ca brand-mamă și Lodestar pentru palane electrice compacte. Palanele manuale sunt potrivite pentru ridicare ocazională la posturi fixe, în timp ce variantele electrice acoperă ridicarea repetitivă pe linii de producție sau depozite." },
+      { name: "Palane cu lanț (Yale, Coffing, CM, Lodestar)", description: "Familie de palane manuale și electrice cu lanț, comercializate sub mai multe branduri ale grupului, printre care Yale și CM. Palanele manuale sunt potrivite pentru ridicare ocazională la posturi fixe, în timp ce variantele electrice acoperă ridicarea repetitivă pe linii de producție sau depozite." },
       { name: "Palane cu cablu de oțel și trolii", description: "Palane cu cablu de oțel (wire rope hoists) pentru sarcini mai mari decât cele acoperite de palanele cu lanț, folosite pe macarale de capacitate mare din hale industriale, porturi sau terminale marine, alături de trolii (winches) pentru tracțiune orizontală sau ridicare la unghi. Dimensionate pentru cicluri de lucru intense." },
       { name: "Sisteme de macara (gantry, jib, workstation)", description: "Structuri de macara pentru diferite configurații de hală — macarale portal (gantry) pentru zone fără structură de susținere existentă, macarale cu braț pivotant (jib) pentru un post de lucru fix și sisteme de macara la nivel de stație de lucru (workstation) pentru linii de asamblare. Se completează cu o palană din portofoliul grupului pentru un sistem complet la un post de lucru." },
-      { name: "Duff-Norton (actuatoare liniare) și Magnetek (control electric)", description: "Duff-Norton produce actuatoare liniare și cricuri industriale pentru poziționarea sarcinilor cu precizie, în afara aplicațiilor clasice de ridicare pe verticală, iar Magnetek produce sisteme electrice de control pentru macarale și poduri rulante, inclusiv console de comandă radio." },
+      { name: "Duff-Norton (actuatoare liniare) și Magnetek (control electric)", description: "Duff-Norton produce actuatoare liniare și cricuri industriale pentru poziționarea sarcinilor cu precizie, în afara aplicațiilor clasice de ridicare pe verticală, iar Magnetek produce sisteme electrice de control pentru macarale și poduri rulante." },
     ],
     industries: [
       "Aerospațial — echipamente de ridicat pentru linii de asamblare cu precizie ridicată",
@@ -549,15 +549,15 @@ Pentru un integrator sau un beneficiar din România cu o hală de producție, un
       "Utilități — echipamente de ridicat pentru mentenanța instalațiilor energetice",
     ],
     certifications: [
-      "ISO 9001:2015 — management al calității pentru fabricile grupului",
+      "ISO 9001:2015 — management al calității pentru mai multe unități ale grupului",
     ],
     infinitrade: `Lucrăm cu brandurile Columbus McKinnon — Yale, Coffing, CM, Lodestar, STAHL CraneSystems, Duff-Norton și Magnetek — pentru beneficiari din România care au nevoie de palane, macarale sau componente electrice de control. Ce putem și ce nu putem confirma: categoriile de produse de mai sus provin din surse publice ale producătorului american; nu avem date proprii despre stocul unui model anume. Echipamentele ajung la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de brandul și modelul solicitat. Pentru ofertă, trimiteți brandul și modelul exact de pe plăcuța echipamentului existent; nu ținem gama Columbus McKinnon pe raft.`,
     limitation: "Nu putem confirma compatibilitatea unei piese de schimb cu un model foarte vechi din gama Yale, Coffing sau Lodestar fără numărul exact de plăcuță al echipamentului.",
     productCodes: [
       { code: "Yale", description: "brand de palane și dispozitive de ridicat din portofoliul Columbus McKinnon" },
       { code: "Coffing", description: "brand de palane manuale și electrice pentru uz industrial" },
-      { code: "CM", description: "brand-mamă Columbus McKinnon pentru palane cu lanț" },
-      { code: "Lodestar", description: "gamă de palane electrice cu lanț, cunoscută pentru compactitate" },
+      { code: "CM", description: "brand Columbus McKinnon pentru palane cu lanț" },
+      { code: "Lodestar", description: "brand de palane electrice cu lanț" },
       { code: "STAHL CraneSystems", description: "brand german de macarale și componente de macara" },
       { code: "Duff-Norton", description: "brand de actuatoare liniare și cricuri industriale" },
       { code: "Magnetek", description: "brand de sisteme electrice de control pentru macarale și poduri rulante" },
@@ -580,8 +580,8 @@ Pentru un integrator sau un beneficiar din România cu o hală de producție, un
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Columbus McKinnon Products", url: "https://www.cmco.com/en-us/products/", publisher: "Columbus McKinnon Corporation", accessed: "2026-09-25" },
       { title: "Columbus McKinnon About Us", url: "https://www.cmco.com/en-us/about-us/", publisher: "Columbus McKinnon Corporation", accessed: "2026-09-25" },

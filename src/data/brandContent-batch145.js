@@ -3,9 +3,9 @@
 export const brandContentBatch145 = {
   'elmo-rietschle': {
     name: "Elmo Rietschle",
-    overview: `Elmo Rietschle proiectează și fabrică pompe de vid și suflante industriale în Germania, ca parte a grupului american Ingersoll Rand. Gama acoperă mai multe principii de generare a vidului și a presiunii joase: pompe cu gheare (claw) din seriile VLU și VLR, pompe cu paletă rotativă lubrifiată sau uscată, pompe cu inele lichide, suflante cu canal lateral din seria BH și compresoare cu șurub uscat din seria SVT. Pentru un integrator de linie industrială din România, asta înseamnă mai multe tehnologii de vidare sub un singur brand, alese după puritatea aerului și presiunea cerută de proces.
+    overview: `Elmo Rietschle proiectează și fabrică pompe de vid și suflante industriale în Germania, ca parte a grupului american Ingersoll Rand. Gama acoperă mai multe principii de generare a vidului și a presiunii joase: pompe cu gheare (claw) din seriile VLU și VLR, pompe cu paletă rotativă lubrifiată sau uscată, pompe cu inele lichide, suflante cu canal lateral din seria BH și pompe cu șurub din seriile VSI și SVT. Pentru un integrator de linie industrială din România, asta înseamnă mai multe tehnologii de vidare sub un singur brand, alese după puritatea aerului și presiunea cerută de proces.
 
-Ce diferențiază catalogul e lățimea lui: de la pompele cu gheare fără ulei (contact-free), potrivite acolo unde contaminarea aerului nu e acceptată, până la pompele cu inele lichide pentru medii cu vapori sau particule, unde alte tehnologii s-ar bloca. Seria de paletă rotativă uscată (VTE, VTN, VTR) acoperă aplicații de ambalare și manipulare cu vid unde nu e permis uleiul, iar seria de paletă lubrifiată (VCS, VCX, VCA) rămâne opțiunea robustă pentru vid continuu în linii de producție. Concurează direct cu Busch și Becker în segmentul pompelor cu gheare și paletă.
+Ce diferențiază catalogul e lățimea lui: de la pompele cu gheare fără ulei (contact-free), potrivite acolo unde contaminarea aerului nu e acceptată, până la pompele cu inele lichide pentru medii cu vapori sau particule, unde alte tehnologii s-ar bloca. Seria de paletă rotativă uscată (VTE, VTN, VTR) acoperă aplicații de ambalare și manipulare cu vid unde nu e permis uleiul, iar seria de paletă lubrifiată (VCS, VCX, VCA) rămâne opțiunea robustă pentru vid continuu în linii de producție.
 
 Pentru piața din România, gama e relevantă la liniile de ambalare și la stațiile centrale de vid din industria alimentară, unde selecția tehnologiei potrivite scade consumul energetic mai mult decât un upgrade de motor.`,
     whyChoose: [
@@ -17,7 +17,7 @@ Pentru piața din România, gama e relevantă la liniile de ambalare și la sta�
     keyProducts: [
       { name: "Pompe cu Gheare Seria VLU/VLR", description: "Pompe de vid fără contact metal-pe-metal între rotoare, cu funcționare uscată și fără ulei în camera de compresie, disponibile în variante VLU 62/122 până la VLU 1000 și VLR 62 până la VLR 1000. Folosite acolo unde aerul aspirat trebuie să rămână curat, în ambalare, manipulare cu ventuze și transfer de materiale pulverulente. Compactitatea și lipsa lichidului de lucru simplifică integrarea în linii unde spațiul și igiena sunt limitări reale." },
       { name: "Pompe cu Paletă Rotativă Seriile VTE/VTN/VTR și VCS/VCX", description: "Două familii distincte: seria dry running (VTE 3-10, VTN 16/26/41, VTR 61-141) fără ulei în camera de lucru, și seria lubrifiată (VCS, VCX, VCA/VCE, VCB) pentru vid continuu la sarcină constantă. Aplicații tipice includ formarea prin vid a materialelor plastice, ridicarea cu ventuze și centrale de vid pentru linii de ambalare. Alegerea între cele două depinde de tolerarea urmelor de ulei în procesul clientului." },
-      { name: "Suflante cu Canal Lateral Seria BH", description: "Suflante fără ulei, cu rotor pe un singur ax, disponibile în variantele BH1, BH2, BH7 și BH100, folosite pentru transport pneumatic la presiune joasă, aerare de bazine și sisteme de vid central de putere mică-medie. Construcția fără piese în contact reduce nevoia de mentenanță programată. Potrivite ca alternativă mai simplă la compresoarele cu șurub acolo unde presiunea necesară e sub pragul lor de lucru." },
+      { name: "Suflante cu Canal Lateral Seria BH", description: "Suflante cu canal lateral, disponibile în variantele BH1, BH2, BH7 și BH100, folosite pentru transport pneumatic la presiune joasă, aerare de bazine și sisteme de vid central de putere mică-medie. Construcția fără piese în contact reduce nevoia de mentenanță programată." },
       { name: "Pompe cu Inele Lichide Seriile BV/BL/2BV/2BE", description: "Pompe de vid și compresoare cu inel lichid, în variantele BV2, BV5, BV7, BL2, 2BV, 2BE și NEV2, potrivite pentru aspirarea de vapori sau amestecuri cu particule, unde pompele uscate s-ar deteriora rapid. Folosite în distilare și filtrare sub vid. Necesită alimentare cu lichid de etanșare, de obicei apă." },
     ],
     industries: [
@@ -28,7 +28,7 @@ Pentru piața din România, gama e relevantă la liniile de ambalare și la sta�
       "Ambalare și tipar — transport pneumatic și manipulare foi",
       "Reciclare și plastic — transport pneumatic de granule și deșeuri",
     ],
-    infinitrade: `Pentru Elmo Rietschle lucrăm din surse publice ale producătorului și din rețeaua de distribuție a grupului Ingersoll Rand în Uniunea Europeană — nu ținem această gamă pe raft, aducem la comandă. Termenul orientativ pentru o pompă sau suflantă configurată pe aplicație e de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii europene. Pentru o ofertă corectă avem nevoie de: tipul de aplicație (vid continuu sau intermitent), presiunea sau debitul necesar, dacă procesul tolerează urme de ulei și tensiunea de alimentare disponibilă. Nu promitem disponibilitate din depozit pe niciun model din gamă, dar putem verifica disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
+    infinitrade: `Pentru Elmo Rietschle lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană — nu ținem această gamă pe raft, aducem la comandă. Termenul orientativ pentru o pompă sau suflantă configurată pe aplicație e de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii europene. Pentru o ofertă corectă avem nevoie de: tipul de aplicație (vid continuu sau intermitent), presiunea sau debitul necesar, dacă procesul tolerează urme de ulei și tensiunea de alimentare disponibilă. Nu promitem disponibilitate din depozit pe niciun model din gamă, dar putem verifica disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pentru modelele mai vechi, scoase din producția curentă, fără o verificare punctuală la producător.",
     productCodes: [
       { code: "VLU 62/122", description: "Pompă cu gheare, mărimile 62 și 122" },
@@ -44,25 +44,25 @@ Pentru piața din România, gama e relevantă la liniile de ambalare și la sta�
       { code: "VCS", description: "Pompă cu paletă rotativă lubrifiată, serie compactă" },
       { code: "VCX", description: "Pompă cu paletă rotativă lubrifiată, uz industrial" },
       { code: "VSI", description: "Pompă cu șurub uscat, până la 360 m³/h" },
-      { code: "SVT 600-6000", description: "Compresor cu șurub uscat, gamă de debit largă" },
-      { code: "BH1", description: "Suflantă cu canal lateral, mărime mică" },
-      { code: "BH2", description: "Suflantă cu canal lateral, mărime medie" },
-      { code: "BH7", description: "Suflantă cu canal lateral, presiune mai mare" },
-      { code: "BH100", description: "Suflantă cu canal lateral, mărime mare" },
+      { code: "SVT 600-6000", description: "Pompă cu șurub, mărimi 600–6000" },
+      { code: "BH1", description: "Suflantă cu canal lateral, seria BH1" },
+      { code: "BH2", description: "Suflantă cu canal lateral, seria BH2" },
+      { code: "BH7", description: "Suflantă cu canal lateral, seria BH7" },
+      { code: "BH100", description: "Suflantă cu canal lateral, seria BH100" },
       { code: "BV2", description: "Pompă cu inele lichide, mărime mică" },
       { code: "2BV", description: "Pompă cu inele lichide, serie compactă" },
-      { code: "F-RB 1175", description: "Compresor radial de mare viteză pentru ambalare" },
+      { code: "F-RB 1175", description: "Suflantă radială de mare viteză, fără ulei" },
     ],
     faq: [
-      { q: "Ce tehnologii de vid produce Elmo Rietschle?", a: "Elmo Rietschle produce pompe cu gheare, pompe cu paletă rotativă (lubrifiate și uscate), pompe cu inele lichide, suflante cu canal lateral și compresoare cu șurub uscat. Alegerea între ele depinde de nivelul de vid necesar, de toleranța procesului la urme de ulei și de tipul de mediu aspirat (aer curat, vapori, particule). Fiecare familie tehnologică acoperă o plajă diferită de presiune și debit." },
-      { q: "Cum aleg între o pompă cu gheare și una cu paletă rotativă de la Elmo Rietschle?", a: "Pompele cu gheare (VLU, VLR) sunt complet fără ulei în camera de compresie, potrivite pentru medii curate; cele cu paletă rotativă lubrifiată oferă un cost mai mic pe unitate de vid, dar necesită schimb periodic de ulei. Dacă procesul tolerează urme minime de ulei, paleta rotativă e adesea soluția mai economică pe termen lung." },
-      { q: "Livrați echipamente Elmo Rietschle în România și în cât timp?", a: "Aducem la comandă prin canalele europene de distribuție ale grupului Ingersoll Rand, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii. Nu ținem gama pe raft, deci termenul exact se confirmă după verificarea disponibilității curente la producător." },
+      { q: "Ce tehnologii de vid produce Elmo Rietschle?", a: "Elmo Rietschle produce pompe cu gheare, pompe cu paletă rotativă (lubrifiate și uscate), pompe cu inele lichide, suflante cu canal lateral și pompe cu șurub. Alegerea între ele depinde de nivelul de vid necesar, de toleranța procesului la urme de ulei și de tipul de mediu aspirat (aer curat, vapori, particule). Fiecare familie tehnologică acoperă o plajă diferită de presiune și debit." },
+      { q: "Cum aleg între o pompă cu gheare și una cu paletă rotativă de la Elmo Rietschle?", a: "Pompele cu gheare (VLU, VLR) sunt complet fără ulei în camera de compresie, potrivite pentru medii curate; cele cu paletă rotativă lubrifiată folosesc ulei în camera de lucru. Dacă procesul tolerează urme minime de ulei, merită comparate ambele variante pe baza documentației producătorului." },
+      { q: "Livrați echipamente Elmo Rietschle în România și în cât timp?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii. Nu ținem gama pe raft, deci termenul exact se confirmă după verificarea disponibilității curente la producător." },
       { q: "Ce informații trebuie să trimit pentru o ofertă de pompă de vid Elmo Rietschle?", a: "Aveți nevoie să precizați aplicația (ambalare, transport pneumatic, formare plastic etc.), nivelul de vid sau debitul necesar, dacă procesul tolerează urme de ulei și tensiunea de alimentare disponibilă la punctul de montaj. Cu aceste date putem identifica seria potrivită din gama producătorului și confirma un termen de livrare orientativ." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Elmo Rietschle - Product Finder", url: "https://www.elmorietschle.com/en/product-finder/", publisher: "Elmo Rietschle (Ingersoll Rand)", accessed: "2026-09-26" },
       { title: "Elmo Rietschle - Home", url: "https://www.elmorietschle.com/en/", publisher: "Elmo Rietschle (Ingersoll Rand)", accessed: "2026-09-26" },
@@ -72,22 +72,22 @@ Pentru piața din România, gama e relevantă la liniile de ambalare și la sta�
     name: "BOGE",
     founded: 1926,
     headquarters: "Bielefeld, Germania",
-    overview: `BOGE fabrică compresoare de aer în Germania de aproape un secol, de când Otto Boge a construit primul compresor propriu în 1926, la Bielefeld. Gama actuală acoperă compresoare cu șurub cu injecție de ulei (seriile C, C-2, S-3, S-4), compresoare cu șurub fără ulei (SO-2, SO-3), compresoare scroll din seria EO și o variantă hibridă S-3 bluekat, cu convertor integrat pentru aer fără ulei clasa 0. Puterea instalată acoperă un interval larg, de la 2,2 kW până la 355 kW pe seriile mari.
+    overview: `BOGE fabrică compresoare de aer în Germania de aproape un secol, de când Otto Boge a construit primul compresor propriu în 1926, la Bielefeld. Gama actuală acoperă compresoare cu șurub cu injecție de ulei (seriile C, C-2, S-3, S-4), compresoare cu șurub fără ulei (SO-2, SO-3), compresoare scroll din seria EO și o variantă hibridă S-3 bluekat, cu convertor integrat pentru aer fără ulei clasa 0. Seriile C și C-2 ajung la 22 kW, iar seriile industriale S-3, S-4, SO-2 și SO-3 acoperă puteri de la 22 kW în sus; limitele exacte se confirmă pe cod, din documentația producătorului.
 
-Ce ține gama relevantă e plaja de putere continuă între segmentul mic (C, C-2, sub 22 kW) și cel industrial (S-4, SO-3, peste 300 kW), fără să schimbi familia constructivă de la un capăt la altul. Concurează în segmentul german cu Kaeser și Atlas Copco pe partea de compresoare cu șurub, cu diferența că BOGE păstrează producția integrată la Bielefeld pentru majoritatea seriilor. Variantele oil-free (SO-2, SO-3, EO) răspund cerințelor din industria alimentară și farmaceutică unde aerul comprimat nu poate conține urme de ulei.
+Gama merge de la segmentul mic (C, C-2, până la 22 kW) la cel industrial (S-4, SO-3). Sediul și principala unitate de producție BOGE sunt la Bielefeld, în Germania. Variantele oil-free (SO-2, SO-3, EO) răspund cerințelor din industria alimentară și farmaceutică unde aerul comprimat nu poate conține urme de ulei.
 
 Pentru un utilizator din România, gama BOGE acoperă atât atelierul mic cu un compresor din seria C, cât și hala industrială cu necesar constant de aer pe o linie S-4 sau SO-3.`,
     whyChoose: [
-      "Plajă de putere continuă de la 2,2 kW la 355 kW, acoperind atelier mic până la hală industrială mare",
+      "Plajă de putere largă, de la seriile C și C-2 (până la 22 kW) până la seriile industriale mari, pentru atelier mic și hală industrială",
       "Serii oil-free (SO-2, SO-3, EO) pentru aer comprimat fără urme de ulei, cerut în alimentar și farmaceutic",
-      "Producție germană concentrată la Bielefeld pentru majoritatea seriilor de compresoare cu șurub",
-      "Variantă hibridă S-3 bluekat cu convertor integrat, pentru aer clasa 0 fără instalație de uscare separată",
+      "Sediul și principala unitate de producție la Bielefeld, în Germania",
+      "Variantă S-3 bluekat (30–45 kW) cu convertor catalitic, care produce aer comprimat clasa 0",
     ],
     keyProducts: [
       { name: "Compresoare cu Șurub Seria S-4", description: "Seria de vârf pentru aer comprimat industrial, cu variante de putere de la 37 la 110 kW și, separat, o linie de la 90 kW în sus pentru necesar mai mare. Injecție de ulei pentru răcire și etanșare, cu control electronic al vitezei pe variantele LF pentru adaptarea la consumul real de aer. Aplicație tipică: hale de producție cu consum continuu de aer comprimat pentru scule pneumatice, linii de asamblare sau vopsire." },
-      { name: "Compresoare cu Șurub Seria S-3", description: "Familie intermediară de compresoare cu injecție de ulei, cu putere de la 22 la 75 kW pe segmentul de bază și de la 132 kW în sus pe varianta extinsă. Include și versiunea S-3 bluekat, cu convertor catalitic integrat care reduce conținutul de ulei rezidual din aerul comprimat fără o instalație de uscare suplimentară. Potrivită pentru ateliere de dimensiune medie cu cerințe de calitate a aerului peste standardul obișnuit." },
+      { name: "Compresoare cu Șurub Seria S-3", description: "Familie intermediară de compresoare cu injecție de ulei, cu putere de la 22 la 75 kW pe segmentul de bază și de la 132 kW în sus pe varianta extinsă. Include și versiunea S-3 bluekat, cu convertor catalitic care transformă hidrocarburile în apă și CO₂, pentru aer comprimat clasa 0. Potrivită pentru ateliere de dimensiune medie cu cerințe de calitate a aerului peste standardul obișnuit." },
       { name: "Compresoare Fără Ulei Seriile SO-2/SO-3", description: "Compresoare cu șurub fără injecție de ulei în camera de compresie, cu puteri de la 45 la 90 kW pe SO-2 și de la 110 kW în sus pe SO-3, destinate proceselor unde orice urmă de ulei în aerul comprimat e inacceptabilă. Folosite în îmbutelierea băuturilor, ambalarea alimentelor și fabricarea de dispozitive medicale. Costul de achiziție e mai mare decât la variantele lubrifiate, dar elimină nevoia de filtrare suplimentară anti-ulei." },
-      { name: "Compresoare Scroll Seria EO", description: "Compresoare scroll fără ulei, de putere mică, gândite pentru laboratoare, cabinete stomatologice și linii mici din industria alimentară unde nivelul de zgomot și puritatea aerului contează mai mult decât debitul mare. Funcționare fără vibrații semnificative și fără piese de etanșare care necesită ulei de lubrifiere. Recomandate acolo unde un compresor cu șurub mare ar fi supradimensionat pentru consumul real." },
+      { name: "Compresoare Scroll Seria EO", description: "Serie de compresoare scroll fără ulei, de putere mică; aplicațiile și datele tehnice se confirmă pe cod, din documentația BOGE." },
     ],
     industries: [
       "Industria alimentară și băuturi — aer comprimat fără ulei pentru îmbuteliere",
@@ -112,15 +112,15 @@ Pentru un utilizator din România, gama BOGE acoperă atât atelierul mic cu un 
       { code: "EO series", description: "Compresor scroll fără ulei, putere mică" },
     ],
     faq: [
-      { q: "Ce compresoare produce BOGE?", a: "BOGE produce compresoare cu șurub cu injecție de ulei (seriile C, S-3, S-4), compresoare fără ulei (SO-2, SO-3) și compresoare scroll (EO), acoperind puteri de la 2,2 la 355 kW. Alegerea între serii depinde de puterea necesară și de cerința sau nu de aer fără urme de ulei în proces." },
+      { q: "Ce compresoare produce BOGE?", a: "BOGE produce compresoare cu șurub cu injecție de ulei (seriile C, S-3, S-4), compresoare fără ulei (SO-2, SO-3) și compresoare scroll (EO). Alegerea între serii depinde de puterea necesară și de cerința sau nu de aer fără urme de ulei în proces." },
       { q: "Cum aleg seria BOGE potrivită pentru atelierul meu?", a: "Pentru ateliere mici merge o unitate C sau C-2 sub 22 kW; pentru hale medii, S-3; pentru consum industrial constant, S-4. Dacă procesul cere aer fără ulei (alimentar, farmaceutic), alegeți SO-2 sau SO-3 în funcție de puterea necesară, ori EO pentru debite mici." },
       { q: "Livrați compresoare BOGE în România și cât durează?", a: "Produsele BOGE le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Nu ținem această gamă pe raft, verificăm disponibilitatea curentă la producător înainte de a confirma termenul clientului." },
       { q: "Ce trebuie să trimit pentru o ofertă de compresor BOGE?", a: "Consumul de aer estimat (l/min sau m³/min), presiunea de lucru necesară, dacă procesul cere aer fără ulei și spațiul disponibil pentru montaj. Cu aceste date identificăm seria potrivită din gamă și confirmăm termenul de livrare orientativ." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "BOGE - Screw Compressors", url: "https://www.boge.com/en-us/screw-compressors/", publisher: "BOGE Kompressoren", accessed: "2026-09-26" },
       { title: "BOGE - Home", url: "https://www.boge.com/", publisher: "BOGE Kompressoren", accessed: "2026-09-26" },
@@ -132,20 +132,20 @@ Pentru un utilizator din România, gama BOGE acoperă atât atelierul mic cu un 
     headquarters: "Robassomero, Italia",
     overview: `Ceccato Aria Compressa fabrică compresoare de aer la Robassomero, lângă Torino, sub umbrela grupului MultiAir International, de 90 de ani. Gama include compresoare cu șurub cu turație fixă și variabilă (seriile CSM, CSA, DRA, DRB, DRC, DRD, DRE, DRF), variante cu motor cu magnet permanent pentru eficiență la sarcină parțială, compresoare cu piston pentru uz profesional sau ocazional și linii fără ulei (CleanAir, SpiralAir, WIS) pentru aplicații sensibile la contaminare.
 
-Diferența clară în gamă e ecartul de putere acoperit pe fiecare familie: DRA și DPM pornesc de la câțiva kW, iar seria DRF ajunge la peste 300 HP pe variantele mari cu turație variabilă IVR. Concurează în segmentul italian și internațional cu Kaeser, Atlas Copco și CompAir pe compresoarele cu șurub, cu accesorii proprii (usctoare, filtre, boostere de presiune bstAIR) integrate în aceeași ofertă. Controlerele ECOntrol+ și ECOntrol6 gestionează parametrii de funcționare și pot conecta mai multe unități în cascadă.
+Diferența clară în gamă e ecartul de putere acoperit pe fiecare familie: DRA și DPM pornesc de la câțiva kW, iar seria DRF ajunge la peste 300 HP pe variantele mari cu turație variabilă IVR. Compresoarele cu șurub se completează cu accesorii proprii (uscătoare, filtre, boostere de presiune bstAIR) în aceeași ofertă. Controlerele ECOntrol+ și ECOntrol6 gestionează parametrii de funcționare și pot conecta mai multe unități în cascadă.
 
 Pentru un atelier auto sau o hală de producție din România, gama Ceccato acoperă atât nevoia ocazională cu un compresor cu piston, cât și consumul continuu de aer comprimat cu o unitate DRF cu turație variabilă, care ajustează consumul de energie la cererea reală de aer.`,
     whyChoose: [
       "Ecart larg de putere pe compresoare cu șurub, de la câțiva kW (DPM, DRA) până la peste 300 HP (DRF)",
       "Variante cu motor cu magnet permanent (IVR PM) pentru eficiență energetică la sarcină variabilă",
       "Linii fără ulei CleanAir, SpiralAir și WIS pentru aplicații unde contaminarea aerului nu e acceptată",
-      "Accesorii integrate în aceeași ofertă — usctoare, filtre, boostere bstAIR — fără furnizori separați",
-      "Producție italiană continuă la Robassomero de 90 de ani, sub grupul MultiAir International",
+      "Accesorii integrate în aceeași ofertă — uscătoare, filtre, boostere bstAIR — fără furnizori separați",
+      "Companie italiană cu sediul la Robassomero, înființată în 1936, parte din grupul MultiAir International",
     ],
     keyProducts: [
       { name: "Compresoare cu Șurub Seria DRF", description: "Seria de vârf pentru consum industrial mare de aer comprimat, cu variante de putere între 151 și 420 HP, disponibile atât cu turație fixă cât și cu turație variabilă (IVR) și cu motor cu magnet permanent (IVR PM) pentru eficiență la sarcină parțială. Recomandată pentru hale cu funcționare continuă pe mai multe schimburi. Controlul electronic ajustează turația la cererea reală de aer, reducând consumul comparativ cu o unitate cu turație fixă supradimensionată." },
-      { name: "Compresoare cu Șurub Seriile DRA/DRB/DRC/DRM", description: "Familie de compresoare de putere mică-medie, de la 10 la 120 HP, disponibile în variante fixe, IVR și IVR PM. DRA acoperă segmentul cel mai mic (10-20 HP), DRB și DRC segmentul mediu (20-60 HP), iar DRM ajunge la 120 HP pe varianta cu magnet permanent. Potrivite pentru ateliere de producție, service auto și linii de ambalare cu consum moderat și variabil de aer comprimat." },
-      { name: "Compresoare cu Piston și Fără Ulei", description: "Gamă de compresoare cu piston pentru uz profesional, ocazional sau silențios, cu transmisie coaxială sau prin curea, pentru presiuni de până la 15 bar. Liniile fără ulei CleanAir, SpiralAir și WIS folosesc tehnologie scroll sau cu injecție de apă pentru aer complet lipsit de urme de ulei, cerut în laboratoare, industria alimentară și electronică. Montaj pe roți sau pe cadru fix, în funcție de mobilitatea cerută de aplicație." },
+      { name: "Compresoare cu Șurub Seriile DRA/DRB/DRC/DRM", description: "Familie de compresoare de putere mică-medie, de la 10 la 120 HP, disponibile în variante fixe, IVR și IVR PM. DRA și DRB fac parte din gama mică (până la 40 HP), DRC și DRM din gama medie (40–150 HP), iar DRM ajunge la 120 HP pe varianta cu magnet permanent. Potrivite pentru ateliere de producție, service auto și linii de ambalare cu consum moderat și variabil de aer comprimat." },
+      { name: "Compresoare cu Piston și Fără Ulei", description: "Gamă de compresoare cu piston pentru uz profesional, ocazional sau silențios, cu transmisie coaxială sau prin curea. Liniile fără ulei CleanAir, SpiralAir și WIS folosesc tehnologie scroll sau cu injecție de apă pentru aer complet lipsit de urme de ulei, cerut în laboratoare, industria alimentară și electronică. Montaj pe roți sau pe cadru fix, în funcție de mobilitatea cerută de aplicație." },
     ],
     industries: [
       "Industria auto și reparații caroserie — aer comprimat pentru scule pneumatice",
@@ -163,9 +163,9 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
       { code: "DRF 151-220 HP IVR PM", description: "Compresor cu turație variabilă și motor cu magnet permanent" },
       { code: "DRE 100-150 HP", description: "Compresor cu șurub, putere medie-mare" },
       { code: "DRD 75-100 HP", description: "Compresor cu șurub, putere medie" },
-      { code: "CSD 75-100 HP", description: "Compresor cu șurub, turație fixă" },
+      { code: "CSD", description: "Compresor cu șurub din gama de putere mare (151-420 HP, împreună cu seria DRF)" },
       { code: "DRC 40-60 HP", description: "Compresor cu șurub, putere medie-mică" },
-      { code: "DRB 30-50 HP", description: "Compresor cu șurub, gamă de putere medie" },
+      { code: "DRB", description: "Compresor cu șurub, gama de putere mică (până la 40 HP)" },
       { code: "DRM 75-120 IVR PM", description: "Compresor cu magnet permanent, putere mare" },
       { code: "DRA 10-20 HP IVR", description: "Compresor cu șurub, turație variabilă, putere mică" },
       { code: "DPM 21-30 IVR", description: "Compresor cu turație variabilă, putere mică-medie" },
@@ -180,8 +180,8 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ceccato - Rotary Screw Compressors", url: "https://www.ceccato.com/en-international/air-compressor-products/rotary-screw-compressor", publisher: "Ceccato Aria Compressa (MultiAir International)", accessed: "2026-09-26" },
       { title: "Ceccato - About Us", url: "https://www.ceccato.com/en-international/about-us", publisher: "Ceccato Aria Compressa (MultiAir International)", accessed: "2026-09-26" },
@@ -189,23 +189,23 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
   },
   'nicotra-gebhardt': {
     name: "Nicotra Gebhardt",
-    overview: `Nicotra Gebhardt produce ventilatoare centrifugale și axiale pentru HVAC, cu peste 60 de ani de activitate și fabricație la Ciserano, în Italia. Gama acoperă ventilatoare centrifugale cu antrenare directă (DDMP, REM, TEM), cu antrenare prin curea (AT, RZR), cu dublă aspirație (RZM, RZA, RZP), ventilatoare axiale de tip Columbus pentru temperaturi extreme (40-85°C) și unități de filtrare pentru camere curate din seria FFU 2.0. Un integrator HVAC din România regăsește în catalog atât ventilatorul de rezervă pentru o centrală existentă, cât și unitatea nouă pentru un proiect de cameră curată.
+    overview: `Nicotra Gebhardt produce ventilatoare centrifugale și axiale pentru HVAC, cu peste 60 de ani de activitate și fabricație la Ciserano, în Italia. Gama acoperă ventilatoare centrifugale cu antrenare directă (DDMP, REM, TEM), cu antrenare prin curea (AT, RZR), cu dublă aspirație (RZM), ventilatoare axiale compacte Columbus, cu motor EC și protecție IP67 și unități de filtrare pentru camere curate din seria FFU 2.0. Un integrator HVAC din România regăsește în catalog atât ventilatorul de rezervă pentru o centrală existentă, cât și unitatea nouă pentru un proiect de cameră curată.
 
-Ce diferențiază catalogul e combinația dintre profilul aerodinamic al paletelor (curbate înainte sau înapoi, tip aerofoil) și tehnologia de motor: multe serii (DDMP, RZM, TEM) sunt disponibile cu motor EC pentru control de viteză integrat, alternativ la motorul asincron clasic cu variator extern. Concurează cu Ziehl-Abegg și ebm-papst pe segmentul ventilatoarelor plug-fan pentru unități de tratare a aerului. Instrumentul propriu ProSelecta ajută la selecția modelului potrivit pe baza punctului de lucru cerut.
+Ce diferențiază catalogul e combinația dintre profilul aerodinamic al paletelor (curbate înainte sau înapoi, tip aerofoil) și tehnologia de motor: multe serii (DDMP, RZM, TEM) sunt disponibile cu motor EC pentru control de viteză integrat, alternativ la motorul asincron clasic cu variator extern. Instrumentul propriu ProSelecta ajută la selecția modelului potrivit pe baza punctului de lucru cerut.
 
 Pentru piața din România, gama e relevantă la retrofitul de centrale de ventilație unde vechiul ventilator trebuie înlocuit cu unul echivalent ca dimensiune de racordare, și la proiecte noi de camere curate sau evacuare fum unde se cere un model certificat.`,
     whyChoose: [
       "Game separate pentru antrenare directă (DDMP, REM) și pentru antrenare prin curea (AT, RZR), după spațiul disponibil",
       "Variante cu motor EC integrat pentru control de viteză fără variator extern separat",
-      "Serie dedicată de ventilatoare axiale (Columbus) pentru temperaturi de lucru între 40°C și 85°C",
+      "Serie de ventilatoare axiale compacte (Columbus), cu motor EC și protecție IP67",
       "Unități de filtrare FFU pentru camere curate, cu debit uniform pe suprafața de filtrare",
       "Instrument propriu de selecție (ProSelecta) pentru identificarea rapidă a punctului de lucru",
     ],
     keyProducts: [
       { name: "Ventilatoare Centrifugale cu Antrenare Directă Seriile DDMP/REM/TEM", description: "Ventilatoare cu carcasă tip melc și rotor montat direct pe axul motorului, fără curea de transmisie. DDMP folosește palete curbate înainte cu motor EC de 230V, REM și TEM oferă variante cu palete curbate înainte sau înapoi, pentru unități de tratare a aerului compacte. Eliminarea curelei reduce punctele de întreținere și zgomotul asociat transmisiei. Aplicație tipică: centrale de ventilație și climatizare cu spațiu de montaj limitat." },
-      { name: "Ventilatoare Centrifugale Dublă Aspirație Seria RZM/RZA/RZP", description: "Ventilatoare cu carcasă melc și rotor cu profil aerofoil, palete curbate înapoi, alimentate din ambele părți pentru debit mai mare la aceeași dimensiune de carcasă. RZM vine în variantă cu antrenare directă, RZA și RZP completează gama pentru puncte de lucru diferite. Folosite în unități de tratare a aerului de capacitate medie-mare, unde eficiența aerodinamică la presiune constantă contează pentru consumul energetic al centralei." },
-      { name: "Ventilatoare Axiale Columbus", description: "Ventilatoare axiale gândite pentru condiții de lucru dificile, cu temperaturi ale aerului vehiculat între 40°C și 85°C, potrivite pentru evacuare de căldură din spații tehnice sau procese industriale calde. Construcție robustă pentru funcționare continuă la temperatură ridicată, fără componente sensibile expuse direct fluxului de aer cald. Aplicație tipică: ventilația de proces în hale industriale sau evacuarea aerului cald din camere tehnice." },
-      { name: "Unități de Filtrare FFU 2.0", description: "Unități de filtrare cu ventilator integrat (fan filter unit) pentru tavane de cameră curată, gândite pentru debit uniform pe suprafața de filtrare și consum energetic redus față de generația anterioară. Motorul EC permite ajustarea fină a debitului pentru menținerea clasei de curățenie cerute. Aplicație tipică: camere curate din industria farmaceutică, electronică sau semiconductori, unde uniformitatea fluxului de aer laminar e critică." },
+      { name: "Ventilatoare Centrifugale Dublă Aspirație Seria RZM", description: "Ventilatoare cu carcasă melc și rotor cu profil aerofoil, palete curbate înapoi, alimentate din ambele părți pentru debit mai mare la aceeași dimensiune de carcasă. RZM vine în variantă cu antrenare directă. Folosite în unități de tratare a aerului de capacitate medie-mare, unde eficiența aerodinamică la presiune constantă contează pentru consumul energetic al centralei." },
+      { name: "Ventilatoare Axiale Columbus", description: "Ventilatoare axiale compacte și silențioase, cu motor EC și protecție IP67, pentru un domeniu static de presiune de aproximativ 150-250 Pa. Aplicații indicate de producător: unități de tratare a aerului, răcirea centrelor de date, HVAC și ventilația camerelor curate." },
+      { name: "Unități de Filtrare FFU 2.0", description: "Unități de filtrare cu ventilator integrat (fan filter unit) pentru tavane de cameră curată, gândite pentru debit uniform pe suprafața de filtrare. Motorul EC permite ajustarea fină a debitului pentru menținerea clasei de curățenie cerute. Aplicație tipică: camere curate din industria farmaceutică, electronică sau semiconductori, unde uniformitatea fluxului de aer laminar e critică." },
     ],
     industries: [
       "Camere curate — unități de filtrare FFU pentru farmaceutică și electronică",
@@ -227,23 +227,23 @@ Pentru piața din România, gama e relevantă la retrofitul de centrale de venti
       { code: "ECM", description: "Ventilator centrifugal, palete curbate înainte, dublă aspirație" },
       { code: "RZR", description: "Ventilator centrifugal cu antrenare prin curea, palete curbate înapoi" },
       { code: "RDP", description: "Ventilator centrifugal, antrenare directă, palete curbate înapoi" },
-      { code: "RZA", description: "Ventilator centrifugal dublă aspirație, familie complementară RZM" },
-      { code: "RZP", description: "Ventilator centrifugal dublă aspirație, punct de lucru diferit" },
+      
+      
       { code: "Blower 133", description: "Ventilator tip blower, palete curbate înainte" },
       { code: "Blower 146", description: "Ventilator tip blower, dimensiune mai mare" },
       { code: "FFU 2.0", description: "Unitate de filtrare pentru cameră curată, motor EC" },
-      { code: "Columbus", description: "Ventilator axial pentru temperaturi de 40-85°C" },
+      { code: "Columbus", description: "Ventilator axial compact, motor EC, IP67" },
     ],
     faq: [
-      { q: "Ce produce Nicotra Gebhardt?", a: "Nicotra Gebhardt produce ventilatoare centrifugale (cu antrenare directă sau prin curea, aspirație simplă sau dublă), ventilatoare axiale pentru temperaturi ridicate și unități de filtrare pentru camere curate. Gama acoperă unități de tratare a aerului, evacuare fum și ventilație de proces industrial." },
-      { q: "Cum aleg un ventilator Nicotra Gebhardt după cod?", a: "Codul indică tipul constructiv: DDMP și TEM sunt cu antrenare directă, AT și RZR cu antrenare prin curea, iar RZM/RZA/RZP au dublă aspirație pentru debit mai mare la aceeași carcasă. Alegerea finală depinde de dimensiunea de racordare existentă și de punctul de lucru cerut (debit, presiune)." },
-      { q: "Ce echivalent are seria RZM de la Nicotra Gebhardt?", a: "RZM e o serie cu dublă aspirație și palete curbate înapoi, comparabilă ca principiu constructiv cu seriile double-inlet ale altor producători europeni de ventilatoare HVAC precum Ziehl-Abegg sau ebm-papst. Echivalența exactă pe punct de lucru se confirmă doar comparând curbele de presiune-debit ale modelelor." },
+      { q: "Ce produce Nicotra Gebhardt?", a: "Nicotra Gebhardt produce ventilatoare centrifugale (cu antrenare directă sau prin curea, aspirație simplă sau dublă), ventilatoare axiale compacte și unități de filtrare pentru camere curate. Gama acoperă unități de tratare a aerului, evacuare fum și ventilație de proces industrial." },
+      { q: "Cum aleg un ventilator Nicotra Gebhardt după cod?", a: "Codul indică tipul constructiv: DDMP și TEM sunt cu antrenare directă, AT și RZR cu antrenare prin curea, iar RZM are dublă aspirație și palete curbate înapoi. Alegerea finală depinde de dimensiunea de racordare existentă și de punctul de lucru cerut (debit, presiune)." },
+      { q: "Ce echivalent are seria RZM de la Nicotra Gebhardt?", a: "RZM e o serie cu dublă aspirație, palete curbate înapoi și antrenare directă. Echivalența exactă pe punct de lucru se confirmă doar comparând curbele de presiune-debit ale modelelor." },
       { q: "Livrați ventilatoare Nicotra Gebhardt în România și cât durează?", a: "Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și dimensiune. Nu ținem gama pe raft, verificăm disponibilitatea curentă la producător înainte de confirmarea termenului final." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Nicotra Gebhardt - Centrifugal Fans", url: "https://www.nicotra-gebhardt.com/products/Centrifugal-Fans", publisher: "Nicotra Gebhardt", accessed: "2026-09-26" },
       { title: "Nicotra Gebhardt - DDMP Product Page", url: "https://www.nicotra-gebhardt.com/products/Centrifugal-Fans/DDMP", publisher: "Nicotra Gebhardt", accessed: "2026-09-26" },
@@ -252,21 +252,21 @@ Pentru piața din România, gama e relevantă la retrofitul de centrale de venti
   'casals': {
     name: "Casals",
     headquarters: "Sant Joan de les Abadesses, Spania",
-    overview: `Casals fabrică ventilatoare industriale și de ventilație tehnică pentru clădiri la Sant Joan de les Abadesses, în provincia Girona, Spania, cu o a doua unitate de producție la Ripoll și cu peste un secol de activitate în domeniu, conform istoricului publicat de companie. Gama acoperă ventilatoare axiale (seriile HB, HC, HM, HI, HH-2, HMA, HCA), ventilatoare pentru parcări subterane (PARK GUARD, SHIELD-KIT), unități de recuperare de căldură (ORMEN EC) și ventilatoare industriale de mare debit la viteză redusă (AERONIKA HVLS).
+    overview: `Casals fabrică ventilatoare industriale și de ventilație tehnică pentru clădiri la Sant Joan de les Abadesses, în provincia Girona, Spania, cu o a doua unitate de producție la Ripoll și cu peste un secol de activitate în domeniu, conform istoricului publicat de companie. Gama acoperă ventilatoare axiale (seriile HB, HC, HM, HI, HH-2, HMA, HCA), tablouri de comandă pentru ventilația parcărilor subterane (PARKGUARD), unități de recuperare de căldură (ORMEN EC) și ventilatoare industriale de mare debit la viteză redusă (AERONIKA HVLS).
 
-Ce diferențiază catalogul e acoperirea dublă, tehnică și rezidențială, sub același brand: pe partea industrială, seriile HC și HCA au variante cu palete de pas reglabil pentru ajustarea debitului fără schimbare de motor; pe partea rezidențială, ERELIS și unitățile EC completează gama cu motoare de eficiență ridicată. Compania face parte din grupul italian Vortice. Concurează cu Soler & Palau și Sodeca pe segmentul de ventilație tehnică pentru clădiri din piața spaniolă și europeană.
+Ce diferențiază catalogul e acoperirea dublă, tehnică și rezidențială, sub același brand: pe partea industrială, seria HC are palete cu pas variabil, pentru ajustarea debitului fără schimbare de motor; pe partea rezidențială, ERELIS și unitățile EC completează gama cu motoare de eficiență ridicată. Compania face parte din grupul italian Vortice.
 
 Pentru piața din România, gama e relevantă la parcările subterane unde se cere un sistem certificat de evacuare fum și la halele industriale unde un ventilator axial cu pas reglabil poate înlocui o instalație mai complexă cu variator de frecvență.`,
     whyChoose: [
       "Acoperire dublă, industrială și rezidențială, sub același brand și aceleași canale de aprovizionare",
-      "Variante cu palete de pas reglabil pe seriile HC și HCA, pentru ajustarea debitului fără variator",
-      "Sisteme dedicate pentru parcări subterane (PARK GUARD, SHIELD-KIT), cu funcție de evacuare fum",
+      "Palete cu pas variabil pe seria HC, pentru ajustarea debitului",
+      "Tablou de comandă PARKGUARD pentru ventilația parcărilor subterane, cu mod de urgență pentru ventilație în caz de incendiu",
       "Ventilatoare de mare debit la viteză redusă (AERONIKA HVLS) pentru hale mari și depozite",
       "Producție proprie în Spania de peste un secol, parte din grupul industrial Vortice",
     ],
     keyProducts: [
-      { name: "Ventilatoare Axiale Seriile HC/HCA/HH-2", description: "Ventilatoare axiale cu carcasă scurtă și palete cu pas variabil, disponibile în variante fixe (HC) sau cu carcasă extinsă și motor extern pe curea (HH-2), pentru debite mari la presiune moderată. HCA adaugă motor de eficiență ridicată pentru consum redus la funcționare continuă. Aplicație tipică: ventilația de proces în hale industriale, evacuarea aerului cald din spații tehnice și susținerea circulației aerului în depozite mari." },
-      { name: "Ventilatoare pentru Parcări Subterane PARK GUARD/SHIELD-KIT", description: "Sisteme de ventilație și control al calității aerului pentru parcări subterane, gândite pentru funcționare continuă la debit redus și comutare automată la evacuare fum în caz de incendiu. SHIELD-KIT completează instalația cu senzori și logica de control necesară pentru declanșarea corectă a scenariului de urgență. Aplicație tipică: parcări subterane la clădiri de birouri, centre comerciale și ansambluri rezidențiale noi." },
+      { name: "Ventilatoare Axiale Seriile HC/HCA/HH-2", description: "Ventilatoare axiale cu carcasă scurtă și palete cu pas variabil, disponibile în variante fixe (HC) sau cu carcasă extinsă și motor extern pe curea (HH-2), pentru debite mari la presiune moderată. Aplicație tipică: ventilația de proces în hale industriale, evacuarea aerului cald din spații tehnice și susținerea circulației aerului în depozite mari." },
+      { name: "Tablouri de Comandă pentru Ventilația Parcărilor PARKGUARD", description: "Tablou de comandă pentru ventilația parcărilor subterane: monitorizează concentrația de poluanți (fum, CO) și activează ventilația în consecință, cu moduri de funcționare automat, manual, mentenanță, service tehnic și urgență (ventilație în caz de incendiu). Aplicație tipică: parcări subterane la clădiri de birouri, centre comerciale și ansambluri rezidențiale noi." },
       { name: "Ventilatoare Industriale de Mare Debit AERONIKA HVLS", description: "Ventilatoare reversibile cu diametru mare și viteză de rotație redusă (HVLS), gândite pentru circulația aerului pe suprafețe mari fără curenți puternici localizați, cu funcție reversibilă pentru vară (răcire prin circulație) și iarnă (destratificare termică). Aplicație tipică: hale de producție, depozite logistice și spații agricole cu plafon înalt, unde ventilatoarele punctuale clasice nu acoperă uniform suprafața." },
     ],
     industries: [
@@ -276,36 +276,36 @@ Pentru piața din România, gama e relevantă la parcările subterane unde se ce
       "Agricultură — ventilatoare de mare debit pentru spații cu plafon înalt",
       "Locuințe colective — unități de recuperare de căldură pentru ventilație rezidențială",
     ],
-    infinitrade: `Pentru Casals plecăm de la informația publică a producătorului, fără date proprii de stoc pentru gama de ventilatoare industriale sau rezidențiale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și din rețeaua europeană a grupului Vortice, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (ventilație industrială, parcare, rezidențial), debitul de aer necesar, dimensiunea disponibilă pentru montaj și dacă se cere certificare pentru evacuare fum. Nu ținem această gamă pe raft pe gama Casals, dar putem verifica disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
-    limitation: "Nu putem confirma configurarea sistemelor SHIELD-KIT pentru integrare cu instalația de detecție a incendiului existentă, fără o evaluare tehnică punctuală la fața locului.",
+    infinitrade: `Pentru Casals plecăm de la informația publică a producătorului, fără date proprii de stoc pentru gama de ventilatoare industriale sau rezidențiale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și din rețeaua europeană a grupului Vortice, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (ventilație industrială, parcare, rezidențial), debitul de aer necesar, dimensiunea disponibilă pentru montaj și dacă se cere certificare pentru evacuare fum. Nu ținem această gamă pe raft, dar putem verifica disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
+    limitation: "Nu putem confirma configurarea sistemelor PARKGUARD pentru integrare cu instalația de detecție a incendiului existentă, fără o evaluare tehnică punctuală la fața locului.",
     productCodes: [
-      { code: "HBA", description: "Ventilator axial, familie de bază" },
-      { code: "HB", description: "Ventilator axial, carcasă standard" },
+      { code: "HBA", description: "Ventilator axial" },
+      { code: "HB", description: "Ventilator axial" },
       { code: "HC", description: "Ventilator axial, carcasă scurtă, palete cu pas variabil" },
-      { code: "HCA", description: "Ventilator axial, motor de eficiență ridicată" },
+      { code: "HCA", description: "Ventilator axial" },
       { code: "HH-2", description: "Ventilator axial cu motor extern pe curea" },
-      { code: "HM", description: "Ventilator axial, montaj de perete" },
-      { code: "HMA", description: "Ventilator axial, variantă cu motor de eficiență ridicată" },
+      { code: "HM", description: "Ventilator axial" },
+      { code: "HMA", description: "Ventilator axial" },
       { code: "HI", description: "Ventilator portabil cu ștecăr și comutator on/off" },
       { code: "HJEM", description: "Ventilator de perete cu ramă din oțel galvanizat" },
       { code: "HJBM PLUS", description: "Ventilator de perete, variantă îmbunătățită" },
       { code: "JFC CORE CONFORT", description: "Ventilator jet pentru confort termic" },
       { code: "PARK GUARD", description: "Sistem de control pentru ventilația parcărilor subterane" },
-      { code: "SHIELD-KIT", description: "Kit de senzori pentru evacuare fum în parcări" },
+      
       { code: "AERONIKA HVLS", description: "Ventilator reversibil de mare debit la viteză redusă" },
       { code: "ORMEN EC", description: "Unitate de recuperare de căldură, motor EC" },
       { code: "ERELIS", description: "Ventilator rezidențial pentru ventilație generală" },
     ],
     faq: [
       { q: "Ce produce Casals?", a: "Casals produce ventilatoare axiale industriale, sisteme de ventilație pentru parcări subterane cu funcție de evacuare fum, ventilatoare de mare debit la viteză redusă (HVLS) și unități de recuperare de căldură pentru ventilație rezidențială. Compania face parte din grupul italian Vortice." },
-      { q: "Cum aleg un ventilator Casals după cod?", a: "Seriile HC și HCA sunt ventilatoare axiale industriale cu palete cu pas reglabil, HH-2 are motor extern pe curea pentru debite mai mari, iar HJEM și HM sunt variante de perete pentru ventilație generală. Alegerea finală depinde de debitul necesar și de spațiul de montaj disponibil." },
+      { q: "Cum aleg un ventilator Casals după cod?", a: "Seria HC este un ventilator axial industrial cu carcasă scurtă și palete cu pas variabil, HH-2 are motor extern pe curea, iar HJEM este o variantă de perete pentru ventilație generală. Alegerea finală depinde de debitul necesar și de spațiul de montaj disponibil." },
       { q: "Livrați ventilatoare Casals în România și cât durează?", a: "Pentru instalațiile Casals, orientativ trec 1–4 săptămâni de la comanda fermă până la livrare, prin rețeaua spaniolă și europeană a grupului Vortice. Nu promitem un termen fix înainte de a verifica stocul curent la fabrică, mai ales pentru sistemele configurate pe proiect, cum sunt cele pentru parcări subterane." },
-      { q: "Ce trebuie să trimit pentru o ofertă de ventilație Casals pentru o parcare subterană?", a: "Suprafața și volumul parcării, numărul de niveluri, dacă există deja instalație de detecție a incendiului și cerințele normative locale pentru evacuare fum. Cu aceste date putem propune o configurație de bază din gama PARK GUARD/SHIELD-KIT pentru evaluare tehnică ulterioară." },
+      { q: "Ce trebuie să trimit pentru o ofertă de ventilație Casals pentru o parcare subterană?", a: "Suprafața și volumul parcării, numărul de niveluri, dacă există deja instalație de detecție a incendiului și cerințele normative locale pentru evacuare fum. Cu aceste date putem propune o configurație de bază din gama PARKGUARD pentru evaluare tehnică ulterioară." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Casals - Axial Fans", url: "https://www.casals.com/en/products/industrial-ventilation/axial-fans/", publisher: "Casals Ventilación (Vortice Group)", accessed: "2026-09-26" },
       { title: "Casals - Company", url: "https://www.casals.com/en/company/", publisher: "Casals Ventilación (Vortice Group)", accessed: "2026-09-26" },
@@ -319,20 +319,20 @@ Pentru piața din România, gama e relevantă la parcările subterane unde se ce
     ],
     overview: `Sodeca produce ventilatoare industriale și sisteme de evacuare fum din Spania, cu 8 centre de producție proprii și filiale comerciale pe cinci continente, conform datelor publicate de companie. Gama acoperă ventilatoare centrifugale canalizabile (SVE, SVE/PLUS, NEOLINEO, NEOSILENT), ventilatoare centrifugale directe sau pe curea pentru presiuni joase-medii-înalte (CBD, CBX, CDXR, CMR, CA), ventilatoare pentru evacuare fum la temperaturi de 300-400°C (CJTHT) și sisteme de presurizare a scărilor de evacuare (KIT BOXPDS).
 
-Ce diferențiază gama e disponibilitatea parametrilor exacți pe fiecare model: de exemplu varianta SVE/PLUS-100/L funcționează la 1800 rot/min și livrează 290 m³/h, iar SVE/PLUS-400/H ajunge la 2310 m³/h la 1350 rot/min, ambele cu izolație fonoabsorbantă de 40 mm. Pe partea centrifugală directă, un model CBD-2525-4M de 3/4 CP livrează 3600 m³/h la 1310 rot/min. Sodeca e certificată ISO 9001:2015 și ISO 14001 de Bureau Veritas și e membră AMCA, asociația nord-americană a producătorilor de echipamente de ventilație.
+Ce diferențiază gama e disponibilitatea parametrilor exacți pe fiecare model: de exemplu varianta SVE/PLUS-100/L funcționează la 1800 rot/min și livrează 290 m³/h, iar SVE/PLUS-400/H ajunge la 2310 m³/h la 1350 rot/min, ambele cu izolație fonoabsorbantă de 40 mm. Pe partea centrifugală directă, un model CBD-2525-4M de 3/4 CP livrează 3600 m³/h la 1310 rot/min. Sodeca e certificată ISO 9001:2015 și ISO 14001 de Bureau Veritas.
 
-Pentru piața din România, gama e relevantă la sistemele de evacuare fum din spații comerciale și industriale, unde se cere un ventilator certificat pentru funcționare la temperatură ridicată timp de minimum 2 ore, și la centralele de ventilație unde parametrii publicați (debit, turație) permit un dimensionare precisă înainte de comandă.`,
+Pentru piața din România, gama e relevantă la sistemele de evacuare fum din spații comerciale și industriale, unde se cere un ventilator certificat pentru funcționare la temperatură ridicată timp de minimum 2 ore, și la centralele de ventilație unde parametrii publicați (debit, turație) permit o dimensionare precisă înainte de comandă.`,
     whyChoose: [
       "Parametri tehnici publicați pe model (debit, turație, nivel de zgomot), nu doar pe familie de produse",
-      "Certificare ISO 9001:2015 și ISO 14001 de la Bureau Veritas, plus apartenență la asociația AMCA",
+      "Certificare ISO 9001:2015 și ISO 14001 de la Bureau Veritas",
       "Serie dedicată pentru evacuare fum la 300-400°C timp de minimum 2 ore (CJTHT)",
-      "8 centre de producție proprii, cu acces facilitat la piese și variante regionale",
-      "Game separate pentru presiune joasă, medie și înaltă (CMP, CMR, CA), pentru dimensionare precisă",
+      "8 centre de producție proprii și 13 filiale pe cinci continente, conform datelor publicate de companie",
+      "Game separate pentru presiune medie (CMP, CMR) și înaltă (CA), pentru dimensionare precisă",
     ],
     keyProducts: [
       { name: "Ventilatoare Canalizabile Seria SVE/PLUS", description: "Ventilatoare centrifugale în linie, cu izolație fonoabsorbantă de 40 mm în carcasă, disponibile în dimensiuni de la SVE/PLUS-100 (1800 rot/min, 290 m³/h) până la SVE/PLUS-400 (1350 rot/min, 2310 m³/h). Variantele EW folosesc motoare EC pentru consum redus, iar CPC adaugă control de presiune constantă pentru sisteme cu pierdere de sarcină variabilă. Aplicație tipică: ventilație canalizată în clădiri comerciale unde zgomotul transmis prin conductă trebuie limitat." },
       { name: "Ventilatoare Centrifugale Seriile CBD/CBX/CDXR", description: "Ventilatoare centrifugale cu antrenare directă (CBD) sau prin curea (CBX, CDXR), cu dublă sau simplă aspirație, pentru presiuni joase-medii. Exemplu concret: CBD-2525-4M de 3/4 CP livrează 3600 m³/h la 1310 rot/min, iar CBD-3939-6T de 3 CP ajunge la 11.400 m³/h la 890 rot/min. Aplicație tipică: ventilația generală a halelor industriale și extracția de aer viciat din spații comerciale mari." },
-      { name: "Ventilatoare pentru Evacuare Fum Seria CJTHT", description: "Ventilatoare centrifugale certificate pentru funcționare la temperaturi ridicate, cu variante rezistente la 300°C timp de 2 ore, disponibile și în versiune ATEX pentru medii cu risc de explozie. Folosite în sistemele de evacuare a fumului din parcări, atrii comerciale și hale industriale, unde normativul de securitate la incendiu cere funcționare certificată pe durata evacuării persoanelor. Instalarea impune verificarea compatibilității cu proiectul de securitate la incendiu al clădirii." },
+      { name: "Ventilatoare pentru Evacuare Fum Seria CJTHT", description: "Ventilatoare axiale certificate pentru funcționare la temperaturi ridicate, în clasele 400°C/2 ore și 300°C/2 ore, disponibile și în versiune ATEX (3G) pentru medii cu risc de explozie. Folosite în sistemele de evacuare a fumului din parcări, atrii comerciale și hale industriale, unde normativul de securitate la incendiu cere funcționare certificată pe durata evacuării persoanelor. Instalarea impune verificarea compatibilității cu proiectul de securitate la incendiu al clădirii." },
     ],
     industries: [
       "Securitate la incendiu — evacuare fum și presurizare scări de evacuare",
@@ -341,7 +341,7 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
       "Parcări — evacuare fum și ventilație de rutină",
       "Medii cu risc de explozie — ventilatoare ATEX pentru zone clasificate",
     ],
-    infinitrade: `Lucrăm cu gama Sodeca pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru modelele din catalog. Aducem ventilatoarele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a producătorului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: debitul de aer necesar (m³/h), presiunea disponibilă static, dacă aplicația e de evacuare fum (cu temperatura și durata cerute de normativ) și dimensiunea de racordare la conductă. Nu ținem această gamă pe raft pe gama Sodeca, verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
+    infinitrade: `Lucrăm cu gama Sodeca pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru modelele din catalog. Aducem ventilatoarele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a producătorului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: debitul de aer necesar (m³/h), presiunea statică disponibilă, dacă aplicația e de evacuare fum (cu temperatura și durata cerute de normativ) și dimensiunea de racordare la conductă. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
     limitation: "Nu putem confirma proiectarea sistemului de securitate la incendiu al clădirii sau avizarea ISU pentru instalația de evacuare fum, responsabilitate care rămâne a proiectantului de specialitate.",
     productCodes: [
       { code: "SVE", description: "Ventilator centrifugal canalizabil, izolație acustică" },
@@ -359,23 +359,23 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
       { code: "CMP", description: "Ventilator centrifugal, presiune medie" },
       { code: "CA", description: "Ventilator centrifugal, presiune înaltă" },
       { code: "CAB", description: "Ventilator centrifugal, presiune înaltă, aspirație simplă" },
-      { code: "CJTHT", description: "Ventilator evacuare fum, rezistent 300°C/2h" },
+      { code: "CJTHT", description: "Ventilator axial pentru evacuare fum, 400°C/2h sau 300°C/2h" },
       { code: "CJTHT/ATEX", description: "Ventilator evacuare fum, variantă pentru zone ATEX" },
       { code: "KIT BOXPDS", description: "Sistem de presurizare a rutei de evacuare" },
-      { code: "HCT", description: "Ventilator centrifugal industrial" },
+      
       { code: "TUB", description: "Ventilator canalizabil pentru temperaturi înalte, 250°C" },
     ],
     faq: [
       { q: "Ce produce Sodeca?", a: "Sodeca produce ventilatoare centrifugale canalizabile, ventilatoare industriale de presiune joasă-medie-înaltă și sisteme certificate pentru evacuarea fumului și presurizarea scărilor de evacuare, cu parametri tehnici publicați pe fiecare model. Compania e certificată ISO 9001:2015 și ISO 14001." },
       { q: "Cum aleg un ventilator Sodeca după parametrii de debit?", a: "Pentru fiecare model Sodeca publică turația și debitul la punctul de lucru, de exemplu SVE/PLUS-100/L livrează 290 m³/h la 1800 rot/min. Alegerea corectă compară debitul și presiunea necesare instalației cu curba modelului, nu doar cu dimensiunea carcasei." },
-      { q: "Ce echivalent are seria CJTHT de la Sodeca?", a: "CJTHT e o serie de ventilatoare centrifugale certificate pentru evacuare fum la 300°C timp de 2 ore, comparabilă ca funcție cu seriile de temperatură înaltă ale altor producători europeni de ventilație pentru securitate la incendiu. Echivalența depinde de certificarea specifică cerută de proiectul de securitate la incendiu." },
+      { q: "Ce echivalent are seria CJTHT de la Sodeca?", a: "CJTHT e o serie de ventilatoare axiale certificate pentru evacuare fum la 400°C sau 300°C timp de 2 ore. Echivalența depinde de certificarea specifică cerută de proiectul de securitate la incendiu." },
       { q: "Livrați ventilatoare Sodeca în România și cât durează?", a: "La Sodeca livrarea depinde de model: orientativ 1–4 săptămâni de la comandă, prin filialele europene ale producătorului. Pentru seriile certificate de evacuare fum, precum CJTHT, termenul se confirmă doar după ce verificăm disponibilitatea exactă a variantei cerute de proiect." },
       { q: "Ce trebuie să trimit pentru o ofertă de ventilator Sodeca pentru evacuare fum?", a: "Debitul de aer necesar, temperatura și durata de funcționare cerute de normativul de securitate la incendiu, dimensiunea de racordare și dacă zona e clasificată ATEX. Cu aceste date identificăm modelul potrivit din seria CJTHT pentru evaluare tehnică ulterioară." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sodeca - Centrifugal Fans and In-line Duct Extractors (catalog)", url: "https://www.sodeca.com/files/catalogs/en/CT01_Centrifugs_2018_EN.pdf", publisher: "Sodeca", accessed: "2026-09-26" },
       { title: "Sodeca - Company", url: "https://www.sodeca.com/en/company", publisher: "Sodeca", accessed: "2026-09-26" },
@@ -384,22 +384,22 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
   'soler-palau': {
     name: "Soler & Palau",
     founded: 1951,
-    overview: `Soler & Palau (S&P) produce ventilatoare pentru ventilație rezidențială și industrială din Spania, fondată în 1951 de Eduard Soler și Josep Palau și crescută de atunci într-un grup cu centre de producție pe cinci continente și prezență în peste 90 de țări, conform istoricului publicat de companie. Gama acoperă ventilatoare de tubulatură cu flux mixt (seria TD-SILENT, cu modele de la 160 la 2000), ventilatoare cilindrice canalizabile (TET), ventilatoare centrifugale directe (CRMT) sau pe curea (CBP) și ventilatoare de acoperiș (CRVB).
+    overview: `Soler & Palau (S&P) produce ventilatoare pentru ventilație rezidențială și industrială din Spania, fondată în 1951 de Eduard Soler și Josep Palau și crescută de atunci într-un grup cu centre de producție în Europa, America și Asia și prezență în peste 90 de țări, conform istoricului publicat de companie. Gama acoperă ventilatoare de tubulatură cu flux mixt (seria TD-SILENT), ventilatoare cilindrice canalizabile (TET), ventilatoare centrifugale directe (CRMT) sau pe curea (CBP) și ventilatoare de acoperiș (CRVB).
 
-Ce diferențiază catalogul S&P e completarea liniei rezidențiale cu o gamă industrială extinsă pentru cuptoare și procese la temperatură ridicată — DFM-TR, KA-P-TR, FC-N, FC-P — construite pentru aplicații unde ventilatorul rezidențial clasic nu ar rezista termic. Compania deține peste 180 de brevete și modele industriale, conform propriilor date, semn al investiției continue în cercetare pe partea aerodinamică și acustică. Concurează cu Casals și Sodeca pe segmentul spaniol de ventilație tehnică pentru clădiri și cu producători central-europeni pe segmentul industrial.
+Ce diferențiază catalogul S&P e completarea liniei rezidențiale cu o gamă industrială extinsă — de exemplu DFM-TR (plug fan pentru cuptoare), KA-P-TR, FC-N, FC-P — construite pentru aplicații industriale. Compania deține peste 180 de brevete și modele industriale, conform propriilor date, semn al investiției continue în cercetare pe partea aerodinamică și acustică.
 
 Pentru piața din România, gama TD-SILENT e relevantă la ventilația canalizată din locuințe și birouri unde nivelul de zgomot contează, iar gama industrială (FC-N, KA-P-TR) la procesele de uscare sau tratament termic unde temperatura aerului vehiculat depășește ce tolerează un ventilator standard.`,
     whyChoose: [
       "Gamă rezidențială silențioasă (TD-SILENT) alături de o gamă industrială pentru temperaturi ridicate, sub același brand",
       "Peste 180 de brevete proprii în domeniul aerodinamicii și acusticii ventilatoarelor, conform datelor producătorului",
-      "Ventilatoare dedicate pentru cuptoare și procese termice (DFM-TR, KA-P-TR, FC-N, FC-P)",
-      "Prezență în peste 90 de țări, cu centre de producție pe cinci continente",
+      "Ventilatoare plug fan pentru cuptoare (DFM-TR) și ventilatoare centrifugale industriale (KA-P-TR, FC-N, FC-P)",
+      "Prezență în peste 90 de țări, cu centre de producție în Europa, America și Asia",
       "Peste 70 de ani de activitate continuă în același domeniu, din 1951 până azi",
     ],
     keyProducts: [
-      { name: "Ventilatoare de Tubulatură Seria TD-SILENT", description: "Ventilatoare cu flux mixt pentru montaj în tubulatură, gândite pentru funcționare silențioasă, disponibile în game de la modelul 160 până la 2000, notate după diametrul de racordare aproximativ în milimetri. Recomandate pentru ventilația canalizată a băilor, bucătăriilor și birourilor unde zgomotul perceput în încăpere trebuie să rămână scăzut. Selecția modelului potrivit se face în funcție de debitul necesar și de lungimea traseului de tubulatură." },
+      { name: "Ventilatoare de Tubulatură Seria TD-SILENT", description: "Ventilatoare cu flux mixt pentru montaj în tubulatură, gândite pentru funcționare silențioasă, disponibile în mai multe mărimi, alese în funcție de debitul necesar și de rezistența traseului de tubulatură. Recomandate pentru ventilația canalizată a băilor, bucătăriilor și birourilor unde zgomotul perceput în încăpere trebuie să rămână scăzut. Selecția modelului potrivit se face în funcție de debitul necesar și de lungimea traseului de tubulatură." },
       { name: "Ventilatoare Centrifugale Seriile CRMT/CBP", description: "Ventilatoare centrifugale cu antrenare directă (CRMT) sau prin curea (CBP), pentru instalații de ventilație generală unde debitul cerut depășește ce acoperă un ventilator axial. Varianta pe curea permite ajustarea turației prin schimbarea raportului de transmisie, utilă când punctul de lucru real diferă de calculul inițial. Aplicație tipică: centrale de ventilație pentru clădiri comerciale și spații industriale de dimensiune medie." },
-      { name: "Ventilatoare Industriale pentru Procese Termice DFM-TR/KA-P-TR/FC-N/FC-P", description: "Familie de ventilatoare centrifugale (plug-fan sau radiale) construite pentru vehicularea aerului cald din cuptoare și procese industriale, cu variante de presiune joasă (FC-N, direct) și medie-înaltă (FC-P). DFM-TR și KA-P-TR sunt gândite specific pentru linii de cuptoare cu antrenare prin curea. Materialele și toleranțele constructive diferă de gama rezidențială, pentru rezistență la temperatura de lucru continuă." },
+      { name: "Ventilatoare Industriale DFM-TR/KA-P-TR/FC-N/FC-P", description: "Familie de ventilatoare centrifugale industriale: DFM-TR este un plug fan pentru cuptoare, KA-P-TR este un ventilator radial pentru transport de material, iar FC-N și FC-P sunt ventilatoare centrifugale pentru aplicații industriale. Parametrii și temperatura admisă se confirmă pe fiecare cod, din documentația producătorului." },
     ],
     industries: [
       "Rezidențial și birouri — ventilație canalizată silențioasă cu seria TD-SILENT",
@@ -408,10 +408,10 @@ Pentru piața din România, gama TD-SILENT e relevantă la ventilația canalizat
       "Industrie de proces — ventilatoare pentru vehicularea aerului cald",
       "Acoperișuri tehnice — extracție de aer cu ventilatoare de tip CRVB",
     ],
-    infinitrade: `Pentru Soler & Palau plecăm de la informația publică disponibilă la producător, fără date proprii de stoc pentru gama de ventilatoare rezidențiale sau industriale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a grupului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (rezidențial, comercial sau proces industrial), debitul de aer necesar, lungimea traseului de tubulatură (pentru seria TD-SILENT) și temperatura aerului vehiculat pentru aplicațiile industriale. Nu ținem această gamă pe raft pe gama S&P, verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
-    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare dimensiune din seria TD-SILENT fără consultarea directă a configuratorului producătorului (Easyvent), disponibil doar cu acces la platforma proprie.",
+    infinitrade: `Pentru Soler & Palau plecăm de la informația publică disponibilă la producător, fără date proprii de stoc pentru gama de ventilatoare rezidențiale sau industriale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a grupului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (rezidențial, comercial sau proces industrial), debitul de aer necesar, lungimea traseului de tubulatură (pentru seria TD-SILENT) și temperatura aerului vehiculat pentru aplicațiile industriale. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul (Soler Palau).`,
+    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare dimensiune din seria TD-SILENT fără consultarea directă a configuratorului producătorului, disponibil doar cu acces la platforma proprie.",
     productCodes: [
-      { code: "TD-SILENT", description: "Ventilator de tubulatură flux mixt, game 160-2000, silențios" },
+      { code: "TD-SILENT", description: "Ventilator de tubulatură flux mixt, silențios" },
       { code: "TET", description: "Ventilator cilindric canalizabil" },
       { code: "CRMT", description: "Ventilator centrifugal, antrenare directă" },
       { code: "CBP", description: "Ventilator centrifugal, antrenare prin curea" },
@@ -425,20 +425,20 @@ Pentru piața din România, gama TD-SILENT e relevantă la ventilația canalizat
       { code: "KA-P-TR", description: "Ventilator centrifugal radial, antrenare prin curea" },
       { code: "PFB", description: "Ventilator plug-fan, antrenare directă" },
       { code: "PFE", description: "Ventilator plug-fan, antrenare prin curea" },
-      { code: "FC-N", description: "Ventilator centrifugal presiune medie, antrenare directă" },
-      { code: "FC-P", description: "Ventilator centrifugal presiune înaltă" },
+      { code: "FC-N", description: "Ventilator centrifugal industrial" },
+      { code: "FC-P", description: "Ventilator centrifugal industrial" },
       { code: "ART-N", description: "Ventilator centrifugal presiune joasă, antrenare prin curea" },
     ],
     faq: [
-      { q: "Ce produce Soler & Palau?", a: "Soler & Palau produce ventilatoare de tubulatură pentru locuințe și birouri (TD-SILENT), ventilatoare centrifugale pentru clădiri comerciale și o gamă industrială separată pentru cuptoare și procese termice. Compania a fost fondată în 1951 și are astăzi centre de producție pe cinci continente." },
-      { q: "Cum aleg un ventilator Soler & Palau pentru o baie fără fereastră?", a: "Pentru ventilație canalizată silențioasă, seria TD-SILENT oferă game de la modelul 160 în sus, alese după debitul necesar (calculat de obicei din volumul încăperii) și după lungimea traseului de tubulatură până la exterior. Un traseu mai lung sau cu mai multe coturi cere un model cu presiune disponibilă mai mare." },
+      { q: "Ce produce Soler & Palau?", a: "Soler & Palau produce ventilatoare de tubulatură pentru locuințe și birouri (TD-SILENT), ventilatoare centrifugale pentru clădiri comerciale și o gamă industrială separată pentru cuptoare și procese termice. Compania a fost fondată în 1951 și are astăzi centre de producție în Europa, America și Asia." },
+      { q: "Cum aleg un ventilator Soler & Palau pentru o baie fără fereastră?", a: "Pentru ventilație canalizată silențioasă, seria TD-SILENT oferă mai multe mărimi, alese după debitul necesar (calculat de obicei din volumul încăperii) și după lungimea traseului de tubulatură până la exterior. Un traseu mai lung sau cu mai multe coturi cere un model cu presiune disponibilă mai mare." },
       { q: "Ce diferență e între seriile CRMT și CBP de la Soler & Palau?", a: "CRMT are antrenare directă, motorul fiind montat pe axul rotorului, în timp ce CBP folosește transmisie prin curea, ceea ce permite ajustarea turației prin schimbarea raportului de transmisie. CBP e util când punctul de lucru real diferă de calculul inițial al proiectantului." },
       { q: "Livrați ventilatoare Soler & Palau în România și în cât timp?", a: "Aducem la comandă prin canale de aprovizionare din Spania și rețeaua europeană a grupului, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, verificăm disponibilitatea curentă la producător înainte de confirmarea termenului final către client." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Soler & Palau - Our Brand", url: "https://www.solerpalau.com/our-brand/", publisher: "Soler & Palau", accessed: "2026-09-26" },
       { title: "Soler & Palau UK - Catalogues and Brochures", url: "https://www.solerpalau.com/en-uk/professional-resources/catalogues-and-brochures", publisher: "Soler & Palau", accessed: "2026-09-26" },

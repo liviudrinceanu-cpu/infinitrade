@@ -7,11 +7,11 @@ export const brandContentBatch125 = {
     headquarters: "Taichung, Taiwan",
     overview: `HIWIN e un producător taiwanez de componente de mișcare liniară și de precizie, cu filială europeană HIWIN GmbH la Offenburg, în Germania. Gama pe care o putem oferta acoperă ghidaje liniare cu bile și cu role, șuruburi cu bile (arbori laminați și piulițe), module și axe liniare complete, plus rulmenți liniari pentru arbori de șurub. Componentele sunt gândite pentru mașini-unelte, linii de automatizare și celule robotizate, acolo unde precizia de poziționare contează mai mult decât costul brut al piesei.
 
-Catalogul HIWIN acoperă o gamă largă de dimensiuni sub aceeași marcă: de la ghidaje miniaturale seria MGN/MGW, cu șine de 6–32 mm, până la ghidaje seria HG/QH cu blocuri capabile de sarcini dinamice de zeci de mii de newtoni. Seria QH/QE/QW adaugă tehnologia SynchMotion™, cu lanț de bile în locul separatoarelor individuale, pentru rulaj mai silențios la turații mari. Arborii de șurub cu bile laminați acoperă diametre de la 8 la 63 mm, cu piulițe cu flanșă sau cilindrice montate pe capătul filetat.
+Catalogul HIWIN acoperă o gamă largă de dimensiuni sub aceeași marcă: de la ghidaje miniaturale seria MGN/MGW, în mărimi MGN de la 2 la 15 mm, până la ghidaje seria HG/QH cu blocuri capabile de sarcini dinamice de zeci de mii de newtoni. Seria QH/QE/QW adaugă tehnologia SynchMotion™, cu lanț de bile în locul separatoarelor individuale, pentru rulaj mai silențios la turații mari. Arborii de șurub cu bile laminați acoperă diametre de la 8 la 63 mm, cu piulițe cu flanșă sau cilindrice montate pe capătul filetat.
 
 Pentru piața din România, HIWIN înseamnă acces la o gamă fină de dimensiuni pentru retehnologizări de mașini-unelte, unde clientul are deja un ghidaj sau un șurub montat și caută echivalentul exact după cod.`,
     whyChoose: [
-      "Gamă fină de dimensiuni — de la ghidaje miniaturale de 6 mm până la blocuri de peste 60 mm lățime",
+      "Gamă fină de dimensiuni — de la ghidaje miniaturale (seria MGN, mărimi de la 2 la 15 mm) până la ghidaje industriale pentru sarcini mari",
       "Tehnologie SynchMotion cu lanț de bile — rulaj mai silențios la seriile QH/QE/QW",
       "Șuruburi cu bile de la 8 la 63 mm — acoperă axe mici de poziționare și structuri grele",
       "Module și axe liniare complete — variante cu curea, șurub, cremalieră sau motor liniar",
@@ -23,7 +23,7 @@ Pentru piața din România, HIWIN înseamnă acces la o gamă fină de dimensiun
       },
       {
         name: "Ghidaje liniare miniaturale seria MGN/MGW HIRES",
-        description: "Ghidaje mici, cu șine de 6 până la 32 mm lățime, în variante bloc înalt (MGN) sau flanșă (MGW), fiecare în tip standard (C) sau cu sarcină mărită (H). Modelul MGN15H, cu sarcina de vârf din serie, are dinamic 6.370 N și static 9.110 N, iar dimensiunile scad până la MGN02C. Potrivite pentru echipamente compacte, unde spațiul de montaj e limitat.",
+        description: "Ghidaje mici, în mărimi MGN de la 2 la 15 mm, în variante bloc înalt (MGN) sau flanșă (MGW), fiecare în tip standard (C) sau cu sarcină mărită (H). Modelul MGN15H, cu sarcina de vârf din serie, are dinamic 6.370 N și static 9.110 N, iar dimensiunile scad până la MGN02C. Potrivite pentru echipamente compacte, unde spațiul de montaj e limitat.",
       },
       {
         name: "Șuruburi cu bile — arbori laminați și piulițe FSCDIN/RSIT",
@@ -45,16 +45,16 @@ Pentru piața din România, HIWIN înseamnă acces la o gamă fină de dimensiun
     infinitrade: `Lucrăm din sursele publice ale producătorului; nu avem date proprii de stoc pentru gama HIWIN, așa că spunem clar ce putem și ce nu putem confirma înainte de ofertă. Aducem ghidaje și șuruburi cu bile HIWIN la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni — nu ținem această gamă pe raft. Pentru o ofertă corectă avem nevoie de codul complet de pe bloc sau arbore (ex. HGW25CCH, MGN12H, R20-05K4-FSCDIN), lungimea piesei și, la o reparație, poza montajului existent. Nu promitem disponibilitate din depozit.`,
     limitation: "Nu putem confirma disponibilitatea pe stoc a unui cod anume înainte de a verifica direct cu furnizorul, mai ales pentru dimensiunile mai puțin uzuale din gama miniaturală sau din arborii laminați lungi.",
     productCodes: [
-      { code: "HGH35HA", description: "Bloc ghidaj înalt seria HG, sarcină dinamică 77.900 N" },
+      { code: "HGH35HA", description: "Bloc ghidaj înalt seria HG, mărimea 35" },
       { code: "HGW25CCH", description: "Bloc flanșă seria HGW, montaj de sus sau de jos" },
       { code: "HGR15RH", description: "Șină profilată pentru ghidajul cu bile HG, lățime 15 mm" },
       { code: "EGH15SA", description: "Bloc ghidaj seria EG, 24×34×40,1 mm, dinamic 5.350 N" },
       { code: "QEH20CA", description: "Bloc SynchMotion cu lanț de bile, dinamic 16.500 N" },
       { code: "EGH35CA", description: "Bloc ghidaj seria EG, dinamic 33.350 N, static 64.840 N" },
       { code: "MGN15H", description: "Bloc miniatural seria MGN, dinamic 6.370 N, static 9.110 N" },
-      { code: "MGN12H", description: "Bloc ghidaj miniatural, lățime șină 27 mm, tip greu" },
-      { code: "MGN09H", description: "Bloc ghidaj miniatural, lățime șină 20 mm, tip greu" },
-      { code: "MGN07C", description: "Bloc ghidaj miniatural, lățime șină 17 mm, tip standard" },
+      { code: "MGN12H", description: "Bloc ghidaj miniatural, mărimea 12 mm, tip greu" },
+      { code: "MGN09H", description: "Bloc ghidaj miniatural, mărimea 9 mm, tip greu" },
+      { code: "MGN07C", description: "Bloc ghidaj miniatural, mărimea 7 mm, tip standard" },
       { code: "MGW9H", description: "Bloc ghidaj miniatural cu flanșă, seria MGW HIRES" },
       { code: "R12-05K4-FSCDIN", description: "Piuliță cu flanșă, diametru 12 mm, pas 5 mm" },
       { code: "R20-05K4-FSCDIN", description: "Piuliță cu flanșă, diametru 20 mm, pas 5 mm" },
@@ -77,8 +77,8 @@ Pentru piața din România, HIWIN înseamnă acces la o gamă fină de dimensiun
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "HIWIN GmbH — Homepage", url: "https://www.hiwin.de/en/", publisher: "HIWIN GmbH", accessed: "2026-09-26" },
       { title: "Linear Guideways — Product Category", url: "https://www.hiwin.de/en/c/4354", publisher: "HIWIN GmbH", accessed: "2026-09-26" },

@@ -4,67 +4,67 @@ export const brandContentBatch130 = {
   'api-heat-transfer': {
     name: "API Heat Transfer",
     headquarters: "Buffalo, SUA",
-    overview: `API Heat Transfer are sediul la Buffalo, în statul New York, și reunește sub un singur nume mai multe branduri istorice de schimbătoare de căldură: Airtech pentru răcirea cu aer, Basco pentru schimbătoarele shell-and-tube, Schmidt pentru plăci și General ThermoDynamics pentru tehnologie de transfer termic. Rădăcinile companiei urcă spre finalul secolului XIX, prin linia germană Schmidt de la Bretten, iar entitatea americană s-a format prin fuziunea dintre American Precision Industries și Basco. Din gama americană putem oferta schimbătoare cu plăci brazate, cu plăci-garnitură, shell-and-tube și radiatoare industriale.
+    overview: `API Heat Transfer are sediul la Buffalo, în statul New York, și reunește sub un singur nume mai multe branduri istorice de schimbătoare de căldură: Airtech pentru răcirea cu aer, Basco pentru schimbătoarele shell-and-tube, Schmidt pentru plăci și General ThermoDynamics pentru tehnologie de transfer termic. Rădăcinile companiei urcă spre finalul secolului XIX, prin linia germană Schmidt de la Bretten, iar entitatea actuală s-a format în 2011, prin fuziunea dintre American Precision Industries (care achiziționase Basco în 1953) și ThermaSys. Din gama americană putem oferta schimbătoare cu plăci brazate, cu plăci-garnitură, shell-and-tube și radiatoare industriale.
 
-Ce diferențiază API Heat Transfer e acoperirea celor patru tehnologii principale de transfer termic sub același acoperiș: plăci brazate seria SIGMABRAZE din inox 316 cu lipire din cupru sau nichel, schimbătoare shell-and-tube tip 500 și tip BEP construite după TEMA (clasele R, C și B) cu diametre de manta de la 150 mm la 3.658 mm, plus radiatoare și module de răcire cu aer pentru echipamente mobile și industriale. Concurează pe segmentul shell-and-tube și plăci cu nume ca Alfa Laval sau SWEP, dar rămâne una dintre puținele companii americane cu producție proprie și pe partea de radiatoare mobile.
+Ce diferențiază API Heat Transfer e acoperirea celor patru tehnologii principale de transfer termic sub același acoperiș: plăci brazate seria SIGMABRAZE din inox 316 cu lipire din cupru sau nichel, schimbătoare shell-and-tube tip 500 și tip BEP construite după TEMA (clasele R, C și B) cu diametre de manta de la 150 mm la 3.658 mm, plus radiatoare și module de răcire cu aer pentru echipamente mobile și industriale.
 
-Pentru piața din România, gama API Heat Transfer are sens acolo unde un proiect cere un schimbător construit pe comandă, cu presiune de proiectare certificată ASME, nu un model de catalog generic — instalații de răcire în procesare alimentară, stații de compresoare de aer sau echipamente mobile cu răcire de motor. Pentru unități brazate standard din gama Schmidt, filiala europeană de la Bretten (Germania) e punctul de contact tehnic al producătorului pentru piața UE.`,
+Pentru piața din România, gama API Heat Transfer are sens acolo unde un proiect cere un schimbător construit pe comandă, cu presiune de proiectare certificată ASME, nu un model de catalog generic — instalații de răcire în procesare alimentară, stații de compresoare de aer sau echipamente mobile cu răcire de motor. Marca Schmidt are unitate de producție la Bretten, în Germania.`,
     whyChoose: [
       "Patru tehnologii de transfer termic sub un singur producător — plăci, shell-and-tube, radiatoare cu aer și module preproiectate",
       "Plăci brazate SIGMABRAZE din inox 316 cu capacități între 20 și 385 GPM, certificate UL și ASME UM",
       "Shell-and-tube construite după toate clasele TEMA (R, C, B), cu manta de la 150 mm până la 3.658 mm",
       "Conformitate cu coduri de presiune multiple: ASME, PED european, AS1210 australian, CRN canadian",
-      "Filială europeană proprie (Schmidt Bretten, Germania) pentru gama de plăci brazate și cu garnitură",
+      "Unitate de producție europeană a grupului (Schmidt, Bretten, Germania)",
       "Peste 140 de ani de istorie combinată a mărcilor componente în inginerie de transfer termic"
     ],
     keyProducts: [
-      { name: "Schimbătoare cu Plăci Brazate SIGMABRAZE (Schmidt)", description: "Plăci brazate din inox 316 cu lipire din cupru sau nichel, capacități între 20 și 385 GPM, conexiuni NPT de la 3/4″ la 4″, sudate sau flanșate. Certificate UL și ASME UM, potrivite pentru răcire de proces și HVAC industrial cu spațiu de montaj limitat." },
-      { name: "Schimbătoare Shell-and-Tube Tip 500 și Tip BEP (Basco)", description: "Schimbătoare tubulare cu manta de la 150 mm la 3.658 mm, în configurații 1, 2 sau 4 treceri, disponibile din fontă, bronz, inox 304/316, oțel carbon sau cupru-nichel 90/10. Construite după clasele TEMA (R, C, B) și API 614, 660, 618." },
+      { name: "Schimbătoare cu Plăci Brazate SIGMABRAZE (Schmidt)", description: "Plăci brazate din inox 316 cu lipire din cupru sau nichel, capacități între 20 și 385 GPM, conexiuni NPT de la 3/4″ la 4″, cu lipire (tip SAE) sau flanșate. Certificate UL și ASME UM, potrivite pentru răcire de proces și HVAC industrial cu spațiu de montaj limitat." },
+      { name: "Schimbătoare Shell-and-Tube Tip 500 și Tip BEP (Basco)", description: "Schimbătoare tubulare cu manta de la 150 mm la 3.658 mm, în configurații 1, 2 sau 4 treceri, disponibile din fontă, bronz, inox 304/316, oțel carbon sau cupru-nichel 90/10. Construite după clasele TEMA (R, C, B), conform codurilor de presiune indicate de producător." },
       { name: "Radiatoare din Aluminiu și Cupru-Alamă", description: "Radiatoare la cheie pentru răcirea motoarelor și a fluidelor hidraulice pe echipamente mobile, în variante din aluminiu sau cupru-alamă, integrabile în module complete de răcire cu ventilator și cadru propriu." },
-      { name: "Răcitoare de Aer Comprimat și Ulei (seriile AOL, AOC, BOL, OCA)", description: "Serii de schimbătoare răcite cu aer pentru aer comprimat, hidraulică mobilă și procese industriale, disponibile cu conducere hidraulică sau electrică a ventilatorului." },
+      { name: "Răcitoare cu aer (gama Airtech)", description: "Schimbătoare de căldură răcite cu aer din aluminiu sau cupru-alamă; seria, dimensiunea și tipul de acționare a ventilatorului se confirmă pe cod, din documentația producătorului." },
     ],
     industries: [
       "Petrol și gaze — schimbătoare shell-and-tube pentru răcire de proces",
       "Energie — răcire pentru sisteme auxiliare de generare și ulei de ungere",
-      "Industria alimentară — plăci brazate pentru pasteurizare și răcire de proces",
+      "Industria alimentară și a băuturilor — schimbătoare de căldură pentru răcire de proces",
       "Petrochimie și chimie — schimbătoare rezistente la coroziune din inox",
     ],
-    infinitrade: `Pentru API Heat Transfer lucrăm din surse publice ale producătorului și din filiala europeană Schmidt Bretten pentru gama de plăci brazate — nu avem date proprii de stoc pentru niciuna dintre liniile Airtech, Basco sau Schmidt. Aducem unități la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurație și confirmarea fabricii americane sau a filialei germane. Pentru o ofertă corectă avem nevoie de: debitele și temperaturile fluidelor implicate, presiunea de proiectare, materialul dorit și tipul de conexiune. Nu ținem această gamă pe raft ca piese de schimb curente; pentru unități shell-and-tube construite pe comandă, discutăm direct parametrii cu inginerii API înainte de a confirma un termen ferm.`,
+    infinitrade: `Pentru API Heat Transfer lucrăm din sursele publice ale producătorului — nu avem date proprii de stoc pentru niciuna dintre liniile Airtech, Basco sau Schmidt. Aducem unități la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurație și de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de: debitele și temperaturile fluidelor implicate, presiunea de proiectare, materialul dorit și tipul de conexiune. Nu ținem această gamă pe raft ca piese de schimb curente; pentru unități shell-and-tube construite pe comandă, discutăm direct parametrii cu inginerii API înainte de a confirma un termen ferm.`,
     limitation: "Nu putem confirma disponibilitatea unei sub-game anume în stoc la fabrica americană și nu oferim service în perioada de garanție a producătorului — doar intermediere pentru unități noi și piese de schimb la comandă.",
     productCodes: [
       { code: "SIGMABRAZE", description: "Plăci brazate inox 316, 20-385 GPM, conexiuni NPT 3/4-4 inch" },
       { code: "Type 500", description: "Schimbător shell-and-tube Basco, configurație standard de catalog" },
-      { code: "Type BEP", description: "Schimbător shell-and-tube Basco, clasă TEMA B" },
-      { code: "AHP", description: "Serie de schimbătoare/radiatoare răcite cu aer, gamă Airtech" },
-      { code: "MA", description: "Serie de radiatoare industriale răcite cu aer" },
-      { code: "DH", description: "Serie de schimbătoare răcite cu aer pentru aplicații hidraulice" },
-      { code: "UC", description: "Serie de răcitoare de ulei răcite cu aer" },
-      { code: "CA", description: "Serie de răcitoare compacte de aer comprimat" },
-      { code: "EC", description: "Serie de schimbătoare cu ventilator electric" },
-      { code: "EK", description: "Serie de răcitoare cu montaj compact" },
-      { code: "EKT", description: "Variantă a seriei EK pentru temperaturi ridicate" },
-      { code: "AOVH", description: "Serie de răcitoare de ulei hidraulic răcite cu aer" },
-      { code: "MF", description: "Serie de răcitoare cu montaj pe echipament mobil" },
-      { code: "HC", description: "Serie de răcitoare hidraulice compacte" },
-      { code: "PF", description: "Serie de radiatoare cu montaj tip panou" },
-      { code: "AO", description: "Serie de bază de răcitoare de ulei cu aer" },
-      { code: "AOF", description: "Variantă a seriei AO cu ventilator dedicat" },
-      { code: "COL", description: "Serie de răcitoare de ulei pentru instalații fixe" },
-      { code: "ACOC", description: "Serie de răcitoare combinate aer-ulei" },
-      { code: "PCR", description: "Serie de răcitoare pentru procese industriale" },
-      { code: "AOL", description: "Serie de răcitoare de aer comprimat, aplicații mobile și industriale" },
+      { code: "Type BEP", description: "Schimbător shell-and-tube Basco, tip BEP; configurația se confirmă din documentația producătorului" },
+      { code: "AHP", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "MA", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "DH", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "UC", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "CA", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "EC", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "EK", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "EKT", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "AOVH", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "MF", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "HC", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "PF", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "AO", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "AOF", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "COL", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "ACOC", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "PCR", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
+      { code: "AOL", description: "Serie de schimbătoare răcite cu aer; caracteristicile se confirmă din documentația producătorului" },
     ],
     faq: [
       { q: "Ce produce API Heat Transfer?", a: "API Heat Transfer produce schimbătoare de căldură cu plăci brazate și cu garnitură, schimbătoare shell-and-tube, radiatoare industriale și module de răcire cu aer, sub mărcile Airtech, Basco, Schmidt și General ThermoDynamics. Gama acoperă atât unități de catalog cât și proiecte construite pe comandă, pentru procese industriale, energie și echipamente mobile." },
-      { q: "Are API Heat Transfer filială în Europa?", a: "Da, gama de plăci brazate și cu garnitură Schmidt are un punct de contact tehnic la Bretten, în Germania, funcțional ca filială a grupului. Pentru schimbătoarele shell-and-tube Basco sau radiatoarele Airtech, contactul rămâne fabrica din SUA, iar livrarea în Europa se face la comandă." },
+      { q: "Are API Heat Transfer filială în Europa?", a: "Da, grupul are o unitate de producție a mărcii Schmidt la Bretten, în Germania. Pentru schimbătoarele shell-and-tube Basco sau radiatoarele Airtech, contactul rămâne fabrica din SUA, iar livrarea în Europa se face la comandă." },
       { q: "Cum aleg schimbătorul API Heat Transfer potrivit?", a: "Alegerea pornește de la tipul de fluid, debitul, temperatura de intrare/ieșire și presiunea de proiectare. Pentru plăci brazate SIGMABRAZE trimiteți capacitatea dorită în GPM; pentru shell-and-tube Basco, dimensiunea mantalei și materialul de construcție. Confirmăm configurația exactă cu producătorul înainte de ofertă." },
-      { q: "Livrați schimbătoare API Heat Transfer în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurație și de confirmarea fabricii sau a filialei europene. Nu ținem unități pe raft propriu, deoarece majoritatea schimbătoarelor shell-and-tube se construiesc pe specificația clientului." },
+      { q: "Livrați schimbătoare API Heat Transfer în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurație și de confirmarea producătorului. Nu ținem unități pe raft propriu, deoarece majoritatea schimbătoarelor shell-and-tube se construiesc pe specificația clientului." },
       { q: "Ce trebuie să trimit pentru o ofertă API Heat Transfer?", a: "Aveți nevoie de tipul de fluid și cel secundar, debitele, temperaturile de intrare și ieșire, presiunea maximă de lucru, materialul preferat de construcție și tipul de conexiune. Cu aceste date transmitem cererea către producător pentru configurația și termenul de livrare corecte." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "API Heat Transfer — Home", url: "https://www.apiheattransfer.com/", publisher: "API Heat Transfer", accessed: "2026-09-26" },
       { title: "API Heat Transfer — Our Products", url: "https://www.apiheattransfer.com/our-products/", publisher: "API Heat Transfer", accessed: "2026-09-26" },
@@ -75,21 +75,21 @@ Pentru piața din România, gama API Heat Transfer are sens acolo unde un proiec
   bimba: {
     name: "Bimba",
     headquarters: "University Park, SUA",
-    overview: `Bimba are sediul în University Park, Illinois, și face parte din grupul britanic IMI plc, alături de marca Norgren, cu care astăzi împarte o parte din structura comercială și de produse la nivel internațional. Producătorul e cunoscut pentru cilindrii pneumatici Original Line, o gamă compactă lansată acum decenii și rămasă reper pentru mișcare liniară simplă în automatizare. Din gamă putem oferta cilindri pneumatici, actuatoare electrice, componente hidraulice și accesorii de pregătire a aerului comprimat.
+    overview: `Bimba are sediul în University Park, Illinois, și face parte din grupul britanic IMI plc, alături de marca Norgren. Producătorul e cunoscut pentru cilindrii pneumatici Original Line, o gamă compactă, folosită pentru mișcare liniară simplă în automatizare. Din gamă putem oferta cilindri pneumatici, actuatoare electrice, componente hidraulice și accesorii de pregătire a aerului comprimat.
 
-Bimba acoperă trei tehnologii de acționare — pneumatică, hidraulică și electrică — sub aceeași platformă de proiectare, ceea ce simplifică migrarea unei linii de producție de la pneumatică la acționare electrică fără schimbarea integratorului. Actuatoarele hidraulice NFPA ajung la presiuni de până la 3.000 PSI, iar familia Flat-1 oferă un profil ultra-compact pentru montaje cu spațiu limitat. Pe segmentul cilindrilor compacți pneumatici concurează direct cu Festo și SMC, diferențiindu-se prin varianta cu montaj cu guler brevetat Grip Tight de la divizia soră Dodge Industrial din același grup mai larg al componentelor de mișcare.
+Bimba acoperă trei tehnologii de acționare — pneumatică, hidraulică și electrică — în același catalog. Actuatoarele hidraulice NFPA ajung la presiuni de până la 3.000 PSI, iar familia Flat-1 oferă un profil ultra-compact pentru montaje cu spațiu limitat.
 
-Pentru un integrator de automatizare din România, gama Bimba are sens la stații de asamblare, linii de ambalare alimentară sau echipamente agricole unde e nevoie de cilindri robuști, ușor de recondiționat, fără o curbă de învățare pe partea de proiectare — piesele Original Line urmează dimensiuni NFPA standardizate, deci sunt interschimbabile ca gabarit cu alte mărci de pe aceeași normă.`,
+Pentru un integrator de automatizare din România, gama Bimba are sens la stații de asamblare, linii de ambalare alimentară sau echipamente agricole unde e nevoie de cilindri robuști, ușor de recondiționat, fără o curbă de învățare pe partea de proiectare — cilindrii seriei TA (tie rod) urmează dimensiuni NFPA standardizate, deci sunt interschimbabili ca gabarit cu alte mărci de pe aceeași normă.`,
     whyChoose: [
-      "Trei tehnologii de acționare (pneumatică, hidraulică, electrică) sub aceeași platformă de proiectare",
+      "Trei tehnologii de acționare (pneumatică, hidraulică, electrică) în același catalog",
       "Actuatoare hidraulice NFPA cu presiuni de lucru de până la 3.000 PSI",
       "Familia Flat-1 cu profil ultra-compact pentru montaje unde spațiul radial e limitat",
-      "Cilindri Original Line cu dimensiuni conforme NFPA, interschimbabili ca gabarit cu alte mărci de pe aceeași normă",
-      "Parte din grupul internațional IMI plc, cu acces la rețeaua de inginerie și distribuție a grupului",
+      "Cilindri seria TA (tie rod) cu dimensiuni conforme NFPA, interschimbabili ca gabarit cu alte mărci de pe aceeași normă",
+      "Parte din grupul internațional IMI plc",
       "Gamă completă de accesorii pneumatice: regulatoare, filtre, valve, manifolduri, senzori",
     ],
     keyProducts: [
-      { name: "Cilindri Pneumatici Original Line", description: "Cilindri pneumatici standard, cu profil compact, disponibili în variante cu tijă simplă sau dublă, folosiți pentru mișcare liniară de bază în stații de asamblare și manipulare. Reprezintă linia de produs originală a companiei și rămân referința de catalog pentru cilindri de dimensiuni mici și medii." },
+      { name: "Cilindri Pneumatici Original Line", description: "Cilindri pneumatici standard, cu profil compact, disponibili în variante cu tijă simplă sau dublă, folosiți pentru mișcare liniară de bază în stații de asamblare și manipulare. Reprezintă linia de produs originală a companiei." },
       { name: "Cilindri Seria TA (NFPA Tie Rod)", description: "Cilindri cu tije de strângere conform standardului NFPA, construiți pentru sarcini industriale medii-mari, cu posibilitate de reparare și înlocuire a garniturilor fără schimbarea completă a cilindrului, montaj compatibil cu alte mărci de pe aceeași normă." },
       { name: "Cilindri Flat-1", description: "Cilindri pneumatici cu profil plat, ultra-compacți, pentru aplicații unde spațiul radial de montaj e limitat — stații de manipulare cu came, dispozitive de fixare sau chingi de poziționare pe linii de asamblare." },
       { name: "Actuatoare Hidraulice NFPA", description: "Actuatoare hidraulice construite pe dimensiuni NFPA, cu presiuni de lucru de până la 3.000 PSI, pentru aplicații unde forța necesară depășește ce poate oferi pneumatica standard — prese, dispozitive de fixare grele, echipamente mobile." },
@@ -101,7 +101,7 @@ Pentru un integrator de automatizare din România, gama Bimba are sens la stați
       "Agricultură — cilindri robuști pentru echipamente cu expunere la praf și vibrații",
       "Automatizări industriale generale — accesorii de pregătire a aerului (regulatoare, filtre, lubrifiere)",
     ],
-    infinitrade: `Pentru gama Bimba lucrăm din informațiile publice de pe site-ul producătorului, fără date proprii de stoc pe niciuna dintre seriile Original Line, TA sau Flat-1. Aducem cilindri și actuatoare la comandă prin canale de aprovizionare din grupul IMI, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea la fabrică și de confirmarea configurației exacte. Pentru o ofertă corectă trimiteți codul complet de comandă (diametru, cursă, tip de montaj, material de etanșare) sau, dacă nu îl aveți, aplicația și sarcina de lucru ca să identificăm împreună seria potrivită. Nu promitem disponibilitate din depozit pe nicio variantă — fiecare cerere se confirmă înainte de emiterea ofertei.`,
+    infinitrade: `Pentru gama Bimba lucrăm din informațiile publice de pe site-ul producătorului, fără date proprii de stoc pe niciuna dintre seriile Original Line, TA sau Flat-1. Aducem cilindri și actuatoare la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea la fabrică și de confirmarea configurației exacte. Pentru o ofertă corectă trimiteți codul complet de comandă (diametru, cursă, tip de montaj, material de etanșare) sau, dacă nu îl aveți, aplicația și sarcina de lucru ca să identificăm împreună seria potrivită. Nu promitem disponibilitate din depozit pe nicio variantă — fiecare cerere se confirmă înainte de emiterea ofertei.`,
     limitation: "Nu putem confirma echivalențe exacte de cod între cilindrii Bimba și cei ai altor mărci din grupul IMI fără verificare directă la producător, și nu oferim suport de proiectare software pentru actuatoarele electrice.",
     productCodes: [
       { code: "Original Line", description: "Cilindru pneumatic standard, profil compact, tijă simplă sau dublă" },
@@ -114,7 +114,7 @@ Pentru un integrator de automatizare din România, gama Bimba are sens la stați
       { code: "Rodless Actuator", description: "Actuator pneumatic fără tijă, mișcare liniară cu cursor extern" },
       { code: "Rotary Actuator", description: "Actuator pneumatic pentru mișcare de rotație" },
       { code: "Guided Thruster", description: "Actuator ghidat pentru poziționare cu rigiditate laterală mărită" },
-      { code: "AIROS", description: "Gamă de pregătire a aerului: filtre, regulatoare, lubrifiere" },
+      { code: "Air Preparation", description: "Pregătire a aerului: filtre, regulatoare, lubrifiere" },
       { code: "Parallel Gripper", description: "Gripper pneumatic cu deschidere paralelă a bacurilor" },
       { code: "Angular Gripper", description: "Gripper pneumatic cu deschidere unghiulară a bacurilor" },
       { code: "Inline Manifold", description: "Manifold pneumatic pentru distribuție de aer în linie" },
@@ -123,15 +123,15 @@ Pentru un integrator de automatizare din România, gama Bimba are sens la stați
     ],
     faq: [
       { q: "Ce produce Bimba?", a: "Bimba produce cilindri pneumatici, actuatoare hidraulice și electrice, plus accesorii de pregătire a aerului comprimat — regulatoare, filtre, valve și manifolduri. Gama e orientată spre automatizare industrială, cu cilindri compacți pentru stații de asamblare și actuatoare de forță mare pentru aplicații hidraulice." },
-      { q: "Face parte Bimba din alt grup industrial?", a: "Da, Bimba operează astăzi ca parte a grupului britanic IMI plc, alături de marca Norgren, cu care împarte platforme de produse și canale comerciale la nivel internațional. Denumirea comercială Bimba rămâne folosită pentru gamele istorice de cilindri." },
+      { q: "Face parte Bimba din alt grup industrial?", a: "Da, Bimba operează astăzi ca parte a grupului britanic IMI plc, alături de marca Norgren. Denumirea comercială Bimba rămâne folosită pentru gamele istorice de cilindri." },
       { q: "Cum aleg cilindrul Bimba potrivit pentru o aplicație?", a: "Plecați de la sarcina de lucru, cursa necesară și spațiul de montaj disponibil. Pentru sarcini medii-mari și montaj standardizat alegeți seria TA (NFPA); pentru spații foarte strânse, Flat-1; pentru forțe mari, actuatoarele hidraulice NFPA de până la 3.000 PSI." },
       { q: "Livrați cilindri Bimba în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurație și de confirmarea disponibilității la producător. Nu ținem pe raft propriu pe gama Bimba, fiind vorba de componente configurate pe diametru, cursă și tip de etanșare." },
       { q: "Ce informații trimit pentru o ofertă de cilindri Bimba?", a: "Codul complet de comandă dacă îl aveți de pe un echipament existent, sau, dacă nu, diametrul, cursa dorită, tipul de montaj și mediul de lucru (praf, umiditate, temperatură). Cu aceste date confirmăm seria potrivită și termenul de livrare." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bimba — Home", url: "https://www.bimba.com/", publisher: "Bimba Manufacturing Company", accessed: "2026-09-26" },
       { title: "Bimba — Pneumatic Products", url: "https://www.bimba.com/en/pneumatic", publisher: "Bimba Manufacturing Company", accessed: "2026-09-26" },
@@ -140,17 +140,17 @@ Pentru un integrator de automatizare din România, gama Bimba are sens la stați
   weldbend: {
     name: "Weldbend",
     headquarters: "Argo, SUA",
-    overview: `Weldbend Corporation are sediul și fabrica la Argo, în statul Illinois, și produce exclusiv fitinguri sudate cap-la-cap și flanșe din oțel carbon, într-o gamă de dimensiuni de la 1/2″ până la 60″. Compania funcționează de peste 60 de ani ca producător intern integrat în SUA, ceea ce înseamnă că toarnă și prelucrează materialul propriu, fără să depindă de subansamble importate. Din gamă putem oferta coturi, teuri, reducții, capace și flanșe sudate pentru conducte industriale.
+    overview: `Weldbend Corporation are sediul și fabrica la Argo, în statul Illinois, și produce exclusiv fitinguri sudate cap-la-cap și flanșe din oțel carbon, într-o gamă de dimensiuni de la 1/2″ până la 60″. Compania funcționează de peste 60 de ani ca producător intern în SUA; fitingurile sunt formate la cald sau la rece, iar coturile sunt realizate numai din țeavă de producție americană. Din gamă putem oferta coturi, teuri, reducții, capace și flanșe sudate pentru conducte industriale.
 
-Gama de fitinguri acoperă coturi la 90° și 45° cu rază lungă sau scurtă, coturi de întoarcere la 180°, teuri drepte și de reducție, reducții concentrice și excentrice, capace și stub-end-uri cu îmbinare tip lap-joint, toate în clasele de grosime de perete STD, XS, 40, 80, 160 și XXS, conform ANSI B16.9 și B16.28. Flanșele acoperă toate clasele uzuale de presiune — 150, 300, 600, 900, 1500 și 2500 — construite după ASME B16.5 pentru diametre până la 24″ NPS și ASME B16.47 pentru diametre între 26″ și 60″. Pe acest segment de fitinguri sudate din oțel carbon, Weldbend concurează cu producători ca Tube-Fab sau Hackney, diferențiindu-se prin gama continuă de dimensiuni mari, până la 60″.
+Gama de fitinguri acoperă coturi la 90° și 45° cu rază lungă sau scurtă, coturi de întoarcere la 180°, teuri drepte și de reducție, reducții concentrice și excentrice, capace și stub-end-uri cu îmbinare tip lap-joint, toate în clasele de grosime de perete STD, XS, 40, 80, 160 și XXS, conform ANSI B16.9 și B16.28. Flanșele acoperă toate clasele uzuale de presiune — 150, 300, 600, 900, 1500 și 2500 — construite după ASME B16.5 pentru diametre până la 24″ NPS și ASME B16.47 pentru diametre între 26″ și 60″.
 
 Pentru proiectele din România, gama Weldbend are sens la conducte industriale de diametru mare — rafinării, stații de tratare a gazelor sau instalații petrochimice — unde fitingurile trebuie să respecte exact codurile ASME și să aibă trasabilitate de material, nu doar dimensiunea nominală.`,
     whyChoose: [
-      "Producător integrat intern în SUA, cu control propriu asupra materialului și proceselor de fabricație",
+      "Producător intern în SUA, cu fabrică proprie la Argo, Illinois",
       "Gamă continuă de dimensiuni de la 1/2″ până la 60″, pentru fitinguri și flanșe deopotrivă",
       "Toate clasele de presiune uzuale acoperite — 150 până la 2500 — conform ASME B16.5 și B16.47",
-      "Documentație de conformitate multi-cod: PED european, CRN canadian, ISO și regulamentul indian de cazane",
-      "Construcție conform standardelor API 614, 660 și 618 pentru aplicații de proces",
+      "Documentație de conformitate: PED (Directiva 2014/68/UE) și ISO 9001:2015",
+      "Fitinguri conform ASME B16.9 și ASTM A234 WPB",
       "Toate clasele de grosime de perete (STD, XS, 40, 80, 160, XXS) disponibile la aceleași dimensiuni",
     ],
     keyProducts: [
@@ -162,18 +162,18 @@ Pentru proiectele din România, gama Weldbend are sens la conducte industriale d
     ],
     industries: [
       "Petrol și gaze — fitinguri și flanșe de diametru mare pentru conducte de proces",
-      "Petrochimie și chimie — piese sudate conform API 614, 660 și 618 pentru instalații de proces",
+      "Petrochimie și chimie — fitinguri și flanșe sudate pentru instalații de proces",
       "Energie — flanșe de presiune înaltă (clasele 1500 și 2500) pentru circuite industriale",
     ],
-    infinitrade: `Pentru Weldbend lucrăm strict din documentația publicată de producător — catalogul tehnic și fișele de flanșe/fitinguri — fără date proprii de stoc pe nicio dimensiune sau clasă de presiune. Aducem la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de dimensiune, clasa de presiune și confirmarea fabricii din Illinois. Pentru ofertă avem nevoie de: tipul exact de piesă (cot, teu, reducție, flanșă), dimensiunea nominală, clasa de grosime de perete sau de presiune și standardul de referință (ASME B16.9, B16.5 etc.). Nu ținem această gamă pe raft pe această gamă — fiecare comandă se confirmă direct cu producătorul înainte de termenul final.`,
+    infinitrade: `Pentru Weldbend lucrăm strict din documentația publicată de producător — catalogul tehnic și fișele de flanșe/fitinguri — fără date proprii de stoc pe nicio dimensiune sau clasă de presiune. Aducem la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de dimensiune, clasa de presiune și confirmarea fabricii din Illinois. Pentru ofertă avem nevoie de: tipul exact de piesă (cot, teu, reducție, flanșă), dimensiunea nominală, clasa de grosime de perete sau de presiune și standardul de referință (ASME B16.9, B16.5 etc.). Nu ținem această gamă pe raft — fiecare comandă se confirmă direct cu producătorul înainte de termenul final.`,
     limitation: "Nu putem confirma disponibilitatea imediată la fabrică pentru dimensiunile foarte mari (peste 36″) sau pentru materiale speciale în afara oțelului carbon standard fără verificare directă la Weldbend.",
     productCodes: [
       { code: "90 Elbow Long Radius", description: "Cot sudat 90 grade, rază lungă, 1/2-48 inch, clasele STD-XXS" },
-      { code: "90 Elbow Short Radius", description: "Cot sudat 90 grade, raza scurta, 1-24 inch" },
+      { code: "90 Elbow Short Radius", description: "Cot sudat 90 grade, rază scurtă, 1-24 inch" },
       { code: "45 Elbow Long Radius", description: "Cot sudat 45 grade, rază lungă, toate clasele" },
       { code: "90 Reducing Elbow", description: "Cot sudat 90 grade cu reducere de diametru" },
-      { code: "180 Return Bend Long Radius", description: "Curba de întoarcere 180 grade, raza lungă" },
-      { code: "180 Return Bend Short Radius", description: "Curba de întoarcere 180 grade, raza scurtă" },
+      { code: "180 Return Bend Long Radius", description: "Curbă de întoarcere 180 grade, rază lungă" },
+      { code: "180 Return Bend Short Radius", description: "Curbă de întoarcere 180 grade, rază scurtă" },
       { code: "Straight Tee", description: "Teu sudat cu toate cele trei capete de același diametru" },
       { code: "Reducing Tee", description: "Teu sudat cu ramificație de diametru mai mic" },
       { code: "Concentric Reducer", description: "Reducție sudată cu axă comună a celor două capete" },
@@ -186,11 +186,11 @@ Pentru proiectele din România, gama Weldbend are sens la conducte industriale d
       { code: "Weld Neck Flange Class 900", description: "Flanșă sudată cu gât, clasa de presiune 900" },
       { code: "Weld Neck Flange Class 1500", description: "Flanșă sudată cu gât, clasa de presiune 1500" },
       { code: "Weld Neck Flange Class 2500", description: "Flanșă sudată cu gât, clasa de presiune 2500" },
-      { code: "Reducing Slip-On Flange", description: "Flanșa slip-on cu reducere de diametru, toate clasele" },
-      { code: "Threaded Flange", description: "Flanșa filetată, toate clasele de presiune" },
+      { code: "Reducing Slip-On Flange", description: "Flanșă slip-on cu reducere de diametru, toate clasele" },
+      { code: "Threaded Flange", description: "Flanșă filetată, toate clasele de presiune" },
     ],
     faq: [
-      { q: "Ce produce Weldbend?", a: "Weldbend produce fitinguri sudate cap-la-cap (coturi, teuri, reducții, capace) și flanșe din oțel carbon, în dimensiuni de la 1/2″ până la 60″ și toate clasele uzuale de presiune, de la 150 la 2500. Este un producător integrat, cu fabrică proprie în Illinois, SUA." },
+      { q: "Ce produce Weldbend?", a: "Weldbend produce fitinguri sudate cap-la-cap (coturi, teuri, reducții, capace) și flanșe din oțel carbon, în dimensiuni de la 1/2″ până la 60″ și toate clasele uzuale de presiune, de la 150 la 2500. Este un producător cu fabrică proprie în Illinois, SUA." },
       { q: "Cum aleg fitingul Weldbend corect după clasa de grosime?", a: "Clasa de grosime de perete (STD, XS, 40, 80, 160, XXS) se alege în funcție de presiunea de proiectare și grosimea conductei existente, nu doar de diametrul nominal. Trimiteți diametrul, presiunea de lucru și standardul de referință (de obicei ANSI B16.9) pentru identificarea exactă." },
       { q: "Ce clase de presiune acoperă flanșele Weldbend?", a: "Flanșele Weldbend acoperă clasele 150, 300, 600, 900, 1500 și 2500, construite după ASME B16.5 pentru diametre până la 24″ NPS și ASME B16.47 pentru diametre între 26″ și 60″. Alegerea clasei depinde de presiunea și temperatura de lucru din instalație." },
       { q: "Livrați fitinguri Weldbend în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de dimensiune, clasa de presiune și confirmarea fabricii din SUA. Nu ținem această gamă pe raft, fiind vorba de piese sudate industriale cu dimensiuni și clase multiple." },
@@ -198,8 +198,8 @@ Pentru proiectele din România, gama Weldbend are sens la conducte industriale d
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Weldbend Corporation — Home", url: "https://www.weldbend.com/", publisher: "Weldbend Corporation", accessed: "2026-09-26" },
       { title: "Weldbend — Catalog (English, Inches)", url: "https://www.weldbend.com/catalog.pdf", publisher: "Weldbend Corporation", accessed: "2026-09-26" },
@@ -209,36 +209,36 @@ Pentru proiectele din România, gama Weldbend are sens la conducte industriale d
   'dodge-industrial': {
     name: "Dodge Industrial",
     headquarters: "Simpsonville, SUA",
-    overview: `Dodge Industrial are sediul la Simpsonville, în Carolina de Sud, și produce lagăre montate, reductoare închise, cuplaje și componente de transmisie mecanică, azi ca parte a grupului american RBC Bearings. Cu o istorie de peste 140 de ani, marca Dodge rămâne unul dintre numele de referință în lagăre montate cu bile și role pentru transmisii industriale. Din gamă putem oferta lagăre montate, reductoare TXT și Torque-Arm II, cuplaje cu disc și role de transport.
+    overview: `Dodge Industrial are sediul la Simpsonville, în Carolina de Sud, și produce lagăre montate, reductoare închise, cuplaje și componente de transmisie mecanică, azi ca parte a grupului american RBC Bearings. Cu o istorie de peste 140 de ani, marca Dodge este asociată cu lagăre montate cu bile și role pentru transmisii industriale. Din gamă putem oferta lagăre montate, reductoare TXT și Torque-Arm II, cuplaje cu disc și componente pentru benzi transportoare.
 
-Gama de lagăre montate acoperă practic orice metodă de fixare pe ax — set screw, guler excentric, sistemul brevetat cu adaptor Grip Tight sau gulerul concentric D-Lok — plus variante specializate pentru condiții agricole (Agriculture Duty), sarcini grele (Harsh Duty) și industrie alimentară cu spălare la presiune (FoodSafe, Ultra Kleen, E-Z Kleen). Pe segmentul lagărelor sferice montate concurează cu Rexnord și SKF, diferențiindu-se prin varietatea sistemelor de fixare pe ax din aceeași familie de produs. Cuplajele cu disc StratoLink respectă standardul API 610 pentru pompe centrifugale de proces.
+Gama de lagăre montate acoperă practic orice metodă de fixare pe ax — set screw, guler excentric, sistemul brevetat cu adaptor Grip Tight sau gulerul concentric D-Lok — plus variante specializate pentru condiții agricole (Agriculture Duty), sarcini grele (Harsh Duty) și industrie alimentară cu spălare la presiune (FoodSafe, Ultra Kleen, E-Z Kleen). Cuplajele cu disc StratoLink fac parte din gama de cuplaje a producătorului; conformitatea cu un standard anume se confirmă din documentația produsului.
 
 Pentru un client industrial din România, gama Dodge are sens la benzi transportoare, linii de procesare a cerealelor sau instalații de tratare a apelor uzate, unde condițiile de praf, umiditate sau spălare frecventă cer un sistem de fixare a lagărului ușor de întreținut, fără demontarea axului complet.`,
     whyChoose: [
       "Peste 140 de ani de experiență în lagăre montate și transmisii mecanice industriale",
       "Multiple sisteme de fixare pe ax în aceeași familie de lagăre — set screw, guler excentric, D-Lok, Grip Tight",
       "Variante dedicate pentru industria alimentară cu spălare la presiune (FoodSafe, Ultra Kleen, E-Z Kleen)",
-      "Cuplaje cu disc StratoLink conforme API 610 pentru pompe de proces",
+      "Cuplaje cu disc StratoLink din gama producătorului",
       "Parte din RBC Bearings, cu acces la rețeaua de inginerie și distribuție a grupului",
-      "Gamă completă de lagăre cu role conice și cilindrice montate, pentru sarcini radiale mari",
+      "Lagăre montate cu role conice și sferice, alături de cele cu bile",
     ],
     keyProducts: [
       { name: "Lagăre Montate cu Bile — Sisteme de Fixare pe Ax", description: "Familie de lagăre montate cu bile, disponibile cu fixare prin șurub de blocare (set screw), guler excentric, sau sisteme cu adaptor precum Grip Tight și D-Lok, plus variante Harsh Duty pentru sarcini grele și Agriculture Duty pentru condiții de praf și vibrații specifice utilajelor agricole." },
       { name: "Lagăre Montate Washdown (FoodSafe, Ultra Kleen, E-Z Kleen)", description: "Lagăre montate cu carcasă și componente rezistente la spălare frecventă cu apă și substanțe de igienizare, gândite pentru linii de procesare alimentară unde contaminarea trebuie evitată și curățarea se face zilnic sau de mai multe ori pe schimb." },
       { name: "Lagăre Montate cu Role Conice (Type E, Type C, Type K)", description: "Lagăre montate cu role conice pentru sarcini radiale și axiale combinate, disponibile în variante Type E (compatibile cu senzori OPTIFY pentru monitorizare), Type EXL, Type C și Type K, plus varianta cu interblocare dublă (Double Interlock) pentru sarcini de șoc." },
-      { name: "Cuplaje cu Disc StratoLink", description: "Cuplaje flexibile cu disc metalic, fără elemente elastomerice de uzură, conforme standardului API 610 pentru pompe centrifugale de proces, folosite unde precizia de aliniere și fiabilitatea pe termen lung contează mai mult decât costul inițial." },
+      { name: "Cuplaje cu Disc StratoLink", description: "Cuplaje flexibile cu disc metalic, fără elemente elastomerice de uzură, folosite unde precizia de aliniere și fiabilitatea pe termen lung contează mai mult decât costul inițial." },
     ],
     industries: [
       "Minerit — lagăre Harsh Duty pentru bandă transportoare și echipamente cu praf abraziv",
       "Industria alimentară — lagăre washdown FoodSafe și Ultra Kleen pentru linii cu spălare frecventă",
       "Agricultură — lagăre montate seria Agriculture Duty pentru utilaje expuse la vibrații și praf",
-      "Energie — cuplaje StratoLink conforme API 610 pentru pompe de proces",
+      "Energie — cuplaje cu disc StratoLink pentru pompe de proces",
     ],
     infinitrade: `Pentru gama Dodge Industrial lucrăm din informațiile publicate de producător, fără date proprii de stoc pe niciuna dintre familiile de lagăre sau reductoare. Aducem la comandă prin canale de aprovizionare din grupul RBC Bearings, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității la fabrică. Pentru ofertă trimiteți diametrul axului, tipul de fixare dorit (set screw, guler excentric, adaptor) și condițiile de mediu (praf, spălare, temperatură) — de acestea depinde varianta corectă din familie. Nu promitem disponibilitate din depozit pe nicio serie; fiecare cerere se verifică înainte de confirmarea termenului.`,
     limitation: "Nu putem confirma echivalențe directe între seriile Dodge și cele ale altor producători de lagăre fără verificare la producător, și nu oferim configurare sau punere în funcțiune pentru reductoarele TXT.",
     productCodes: [
       { code: "Set Screw", description: "Lagăr montat cu fixare pe ax prin șurub de blocare" },
-      { code: "300-Series", description: "Lagăr montat cu bile pentru viteze mari și sarcini medii" },
+      { code: "300-Series", description: "Lagăr montat cu bile, seria 300" },
       { code: "Harsh Duty", description: "Lagăr montat pentru sarcini grele și medii abrazive" },
       { code: "Eccentric Collar", description: "Lagăr montat cu fixare prin guler excentric" },
       { code: "Agriculture Duty", description: "Lagăr montat pentru utilaje agricole, rezistent la praf" },
@@ -247,8 +247,8 @@ Pentru un client industrial din România, gama Dodge are sens la benzi transport
       { code: "FoodSafe", description: "Lagăr montat washdown pentru industria alimentară" },
       { code: "Ultra Kleen", description: "Lagăr montat washdown, rezistent la spălare frecventă" },
       { code: "E-Z Kleen", description: "Lagăr montat washdown cu curățare ușoară" },
-      { code: "Safety Mount", description: "Lagăr cilindric montat cu sistem de siguranță la montaj" },
-      { code: "S-2000", description: "Lagăr cilindric montat, serie de uz general" },
+      { code: "Safety Mount", description: "Lagăr montat cu role sferice, sistem Safety Mount" },
+      { code: "S-2000", description: "Lagăr montat cu role sferice, seria S-2000" },
       { code: "Type E", description: "Lagăr montat cu role conice, compatibil senzori OPTIFY" },
       { code: "Type EXL", description: "Lagăr montat cu role conice, varianta extinsă Type E" },
       { code: "TAF", description: "Lagăr montat cu role conice, serie TAF" },
@@ -256,13 +256,13 @@ Pentru un client industrial din România, gama Dodge are sens la benzi transport
       { code: "Type K", description: "Lagăr montat cu role conice, serie K" },
       { code: "Type C", description: "Lagăr montat cu role conice, serie C" },
       { code: "Sleevoil RTL", description: "Lagăr hidrodinamic cu lubrifiere prin inel" },
-      { code: "StratoLink D71", description: "Cuplaj cu disc conform API 610 pentru pompe de proces" },
-      { code: "DuraPro", description: "Tambur de transport pentru benzi transportoare" },
+      { code: "StratoLink D71", description: "Cuplaj cu disc, gama StratoLink" },
+      { code: "DuraPro", description: "Componentă pentru benzi transportoare" },
       { code: "TXT", description: "Reductor închis pentru transmisii industriale" },
       { code: "Torque-Arm II", description: "Reductor închis cu braț de reacțiune pentru montaj pe ax" },
     ],
     faq: [
-      { q: "Ce produce Dodge Industrial?", a: "Dodge Industrial produce lagăre montate cu bile și role, reductoare închise, cuplaje cu disc și componente de transmisie mecanică precum tamburi pentru benzi transportoare. Este parte a grupului RBC Bearings și are o gamă foarte largă de sisteme de fixare pe ax pentru lagărele montate." },
+      { q: "Ce produce Dodge Industrial?", a: "Dodge Industrial produce lagăre montate cu bile și role, reductoare închise, cuplaje cu disc și componente de transmisie mecanică precum cele pentru benzi transportoare. Este parte a grupului RBC Bearings și are o gamă foarte largă de sisteme de fixare pe ax pentru lagărele montate." },
       { q: "Ce sisteme de fixare pe ax are gama de lagăre Dodge Industrial?", a: "Gama acoperă fixare prin șurub de blocare (set screw), guler excentric, adaptor brevetat Grip Tight și guler concentric D-Lok, plus variante washdown (FoodSafe, Ultra Kleen, E-Z Kleen) pentru industria alimentară. Alegerea depinde de frecvența de întreținere dorită și de condițiile de mediu." },
       { q: "Cum aleg lagărul Dodge Industrial potrivit pentru un mediu cu praf?", a: "Pentru medii cu praf abraziv (minerit, agricultură) se recomandă seriile Harsh Duty sau Agriculture Duty, gândite pentru etanșări suplimentare și rezistență la particule abrazive. Trimiteți diametrul axului și tipul de aplicație pentru identificarea exactă a variantei." },
       { q: "Livrați lagăre Dodge Industrial în România?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de model și confirmarea disponibilității la producător. Nu ținem această gamă pe raft, fiind vorba de o gamă foarte extinsă de variante pe fiecare diametru de ax." },
@@ -270,8 +270,8 @@ Pentru un client industrial din România, gama Dodge are sens la benzi transport
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Dodge Industrial — Home", url: "https://www.dodgeindustrial.com/", publisher: "Dodge Industrial (RBC Bearings)", accessed: "2026-09-26" },
       { title: "Dodge Industrial — Mounted Bearings", url: "https://dodgeindustrial.com/mounted-bearings", publisher: "Dodge Industrial (RBC Bearings)", accessed: "2026-09-26" },
@@ -284,32 +284,32 @@ Pentru un client industrial din România, gama Dodge are sens la benzi transport
     headquarters: "Red Bank, SUA",
     overview: `Seals Eastern produce, din 1959, o-ringuri, garnituri și piese de etanșare din cauciuc, cu sediul și fabrica la Red Bank, New Jersey. Compania se concentrează pe aplicații industriale critice — completări de sonde petroliere, medii cu H2S, presiuni și temperaturi ridicate — unde o garnitură standard de catalog nu rezistă. Din gamă putem oferta o-ringuri, garnituri cu geometrie specială și componente de cauciuc turnate pe compuși proprii.
 
-Ce diferențiază Seals Eastern e dezvoltarea proprie de compuși elastomerici: compusul 7182X, o formulare Aflas (FEPM) cu duritate 80 Shore A, rezistă la funcționare îndelungată la 220°C în lichide de răcire pe bază de acid organic (OAT), aburi și medii alcaline concentrate, cu rezistență la tracțiune de 21 MPa. Pentru aplicații petroliere severe (HTHP, gaze acide, recuperare secundară a țițeiului) folosesc și Viton, Viton Extreme și HNBR, sub formă de o-ringuri, elemente de packer, V-ring-uri și T-seal-uri. Pe segmentul de garnituri pentru medii chimice agresive și H2S concurează cu Trelleborg și Precision Polymer Engineering, mizând pe compuși proprii dezvoltați intern, nu doar pe cataloage de materiale standard.
+Ce diferențiază Seals Eastern e dezvoltarea proprie de compuși elastomerici: compusul 7182X, o formulare Aflas (FEPM) cu duritate 80 Shore A, rezistă la funcționare îndelungată la 220°C în lichide de răcire pe bază de acid organic (OAT), aburi și medii alcaline concentrate, cu rezistență la tracțiune de 21 MPa. Pentru aplicații petroliere severe (HTHP, gaze acide, recuperare secundară a țițeiului) folosesc și Viton, Viton Extreme și HNBR, sub formă de o-ringuri, elemente de packer, V-ring-uri și T-seal-uri.
 
-Pentru piața din România, gama Seals Eastern are sens la echipamente de foraj, instalații petrochimice sau linii cu abur și medii alcaline concentrate, unde garniturile standard NBR sau EPDM cedează rapid și e nevoie de un compus certificat pentru temperatură și rezistență chimică ridicate.`,
+Pentru piața din România, gama Seals Eastern are sens la echipamente de foraj, instalații petrochimice sau linii cu abur și medii alcaline concentrate, unde garniturile standard NBR sau EPDM cedează rapid și e nevoie de un compus potrivit pentru temperatură și rezistență chimică ridicate.`,
     whyChoose: [
       "Compuși elastomerici proprii, dezvoltați intern — nu doar revânzare de materiale standard de catalog",
       "Compusul 7182X (Aflas 80 Shore A) rezistă la 220°C în lichide OAT, abur și medii alcaline concentrate",
       "Certificare ISO 9001:2015 și ISO 14001:2015 pentru managementul calității și mediului",
-      "Peste 65 de ani de experiență în etanșări pentru aplicații petroliere severe (HTHP, H2S, EOR)",
+      "Activă din 1959 în etanșări din cauciuc turnat, inclusiv pentru aplicații petroliere severe (HTHP, H2S, EOR)",
       "Gamă largă de forme de etanșare: o-ringuri, V-ring-uri, T-seal-uri, elemente de packer, garnituri metal-cauciuc",
       "Fabricație integral în SUA, cu control direct asupra rețetei de compus",
     ],
     keyProducts: [
-      { name: "Compus 7182X (Aflas FEPM 80 Shore A)", description: "Formulare Aflas proprie, cu duritate 80 Shore A, dezvoltată pentru funcționare îndelungată la 220°C în lichide de răcire OAT, aburi și medii alcaline sau cu amine concentrate. Rezistență la tracțiune de 21 MPa, alungire la rupere de minimum 130% și deformare remanentă la compresiune foarte redusă chiar după expunere îndelungată la temperatură." },
+      { name: "Compus 7182X (Aflas FEPM 80 Shore A)", description: "Formulare Aflas proprie, cu duritate 80 Shore A, dezvoltată pentru funcționare îndelungată la 220°C în lichide de răcire OAT, aburi și medii alcaline sau cu amine concentrate. Rezistență la tracțiune de 21 MPa, alungire la rupere de aproximativ 130% (minimum 100%) și deformare remanentă la compresiune foarte redusă chiar după expunere îndelungată la temperatură." },
       { name: "O-ringuri și Garnituri pentru Câmp Petrolier", description: "O-ringuri, elemente de packer, V-ring-uri și T-seal-uri din Aflas, Viton, Viton Extreme sau HNBR, pentru aplicații HTHP (temperatură și presiune ridicate), gaze acide (sour service) și recuperare îmbunătățită a țițeiului (EOR), inclusiv rezistență la decompresie explozivă." },
       { name: "O-ringuri Mari și Garnituri Personalizate", description: "O-ringuri de diametru mare și garnituri turnate pe cerere, pentru echipamente unde dimensiunile standard de catalog nu acoperă necesarul — flanșe mari, capace de rezervor sau echipamente specializate din industria de proces." },
-      { name: "Garnituri Rezistente Chimic și la Abur", description: "Garnituri și o-ringuri formulate pentru rezistență la agenți chimici agresivi, abur saturat și lichide de răcire cu inhibitori de coroziune la pH ridicat, aplicate în industria de proces și în echipamente de sterilizare." },
+      { name: "Garnituri Rezistente Chimic și la Abur", description: "Garnituri și o-ringuri formulate pentru rezistență la agenți chimici agresivi, abur saturat și lichide de răcire cu inhibitori de coroziune la pH ridicat, aplicate în industria de proces." },
     ],
     industries: [
       "Petrol și gaze — etanșări pentru completări de sondă, medii cu H2S și recuperare îmbunătățită a țițeiului",
-      "Aerospațial — o-ringuri și garnituri din compuși de înaltă performanță pentru medii severe",
+      "Lichide de răcire și abur — garnituri din compus Aflas 7182X pentru temperaturi de până la 220°C",
       "Industria chimică de proces — garnituri rezistente la agenți chimici agresivi și abur",
     ],
     infinitrade: `Pentru Seals Eastern lucrăm din informațiile publice ale producătorului privind compușii și aplicațiile lor — fără date proprii de stoc pe niciun compus sau dimensiune de o-ring. Fiind vorba în mare parte de piese turnate pe compus și dimensiune specifică, nu ținem această gamă pe raft; aducem la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de compusul cerut și de confirmarea producătorului. Pentru ofertă avem nevoie de: dimensiunea exactă sau desenul piesei, compusul dorit (sau condițiile de temperatură și mediul chimic, dacă nu știți compusul), și cantitatea. Nu promitem disponibilitate din depozit pe niciun compus sau dimensiune.`,
     limitation: "Nu avem rețea de distribuție vizibilă în Europa pentru Seals Eastern; aducem la comandă prin import direct din SUA, fără posibilitate de livrare rapidă din raft propriu, iar pentru compușii mai puțin uzuali termenul poate depăși estimarea standard, în funcție de producție.",
     productCodes: [
-      { code: "7182X", description: "Compus Aflas 80 Shore A, rezistent la 220C in lichide OAT" },
+      { code: "7182X", description: "Compus Aflas 80 Shore A, rezistent la 220°C în lichide OAT" },
       { code: "Aflas", description: "Familie de compuși FEPM pentru medii chimice și termice severe" },
       { code: "Viton", description: "Compus fluoroelastomeric FKM pentru etanșări industriale" },
       { code: "Viton Extreme (ETP)", description: "Compus FKM pentru rezistență extinsă la medii agresive" },
@@ -333,8 +333,8 @@ Pentru piața din România, gama Seals Eastern are sens la echipamente de foraj,
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Seals Eastern, Inc. — Home", url: "https://www.sealseastern.com/", publisher: "Seals Eastern, Inc.", accessed: "2026-09-26" },
       { title: "Seals Eastern — 7182X Compound", url: "https://www.sealseastern.com/7182X.htm", publisher: "Seals Eastern, Inc.", accessed: "2026-09-26" },
@@ -346,9 +346,9 @@ Pentru piața din România, gama Seals Eastern are sens la echipamente de foraj,
     name: "Precision Associates",
     founded: 1955,
     headquarters: "Minneapolis, SUA",
-    overview: `Precision Associates (PAI) produce garnituri și componente de cauciuc din 1955, cu sediul și fabrica la Minneapolis, Minnesota, într-o gamă care pornește de la o-ringuri de catalog și ajunge la piese turnate complet personalizat pe desenul clientului. Producătorul are peste 1.000 de formulări de compus de cauciuc dezvoltate intern, ceea ce le permite să acopere aplicații foarte diferite ca temperatură și rezistență chimică fără să depindă de un furnizor extern de materie primă. Din gamă putem oferta o-ringuri, X-ringuri, manșete U, garnituri tri-clamp și piese turnate din cauciuc siliconic lichid (LSR).
+    overview: `Precision Associates (PAI) produce garnituri și componente de cauciuc din 1955, cu sediul și fabrica la Minneapolis, Minnesota, într-o gamă care pornește de la o-ringuri de catalog și ajunge la piese turnate complet personalizat pe desenul clientului. Producătorul are peste 1.000 de formulări de compus de cauciuc dezvoltate intern, ceea ce le permite să acopere aplicații foarte diferite ca temperatură și rezistență chimică. Din gamă putem oferta o-ringuri, X-ringuri, manșete U, garnituri tri-clamp și piese turnate din cauciuc siliconic lichid (LSR).
 
-Ce diferențiază Precision Associates e combinația dintre volumul mare de formulări de compus și certificările pentru domenii reglementate: ISO 9001:2015 pentru calitate, ISO 13485:2016 pentru dispozitive medicale, plus conformitate UL, NSF, USP Clasa VI, FDA, 3-A și REACH/RoHS. Pe segmentul de garnituri personalizate din cauciuc concurează cu Parker Hannifin și Trelleborg, diferențiindu-se prin capacitatea de turnare în cameră curată (cleanroom molding) pentru piese destinate industriei farmaceutice sau alimentare. Gama include și forme specializate — X-ringuri cu profil în patru puncte de etanșare, manșete de răzuire (rod wipers) și mingi de cauciuc turnate.
+Ce diferențiază Precision Associates e combinația dintre volumul mare de formulări de compus și certificările pentru domenii reglementate: ISO 9001:2015 pentru calitate, ISO 13485:2016 pentru dispozitive medicale, plus conformitate UL, NSF, USP Clasa VI, FDA, 3-A și REACH/RoHS. Producătorul oferă turnare în cameră curată (cleanroom molding, ISO 14644-1 Clasa 7) pentru piese destinate dispozitivelor medicale. Gama include și forme specializate — X-ringuri cu profil în patru puncte de etanșare, manșete de răzuire (rod wipers) și mingi de cauciuc turnate.
 
 Pentru un integrator din România, gama Precision Associates are sens la echipamente din industria alimentară, farmaceutică sau de tratare a apei, unde garnitura trebuie să respecte un standard de contact alimentar sau farmaceutic (FDA, USP VI, 3-A), nu doar dimensiunea și materialul de bază.`,
     whyChoose: [
@@ -371,21 +371,21 @@ Pentru un integrator din România, gama Precision Associates are sens la echipam
       "Fluid power — X-ringuri și manșete U pentru etanșare dinamică pe cilindri hidraulici/pneumatici",
       "Electronice și automatizări industriale — o-ringuri și garnituri personalizate pentru echipamente",
     ],
-    infinitrade: `Pentru Precision Associates lucrăm din informațiile publice ale producătorului privind gama și certificările — fără date proprii de stoc pe niciun compus, dimensiune sau formă de garnitură. Aducem la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de compusul și forma cerute, mai ales pentru piese turnate pe specificația clientului. Pentru ofertă trimiteți dimensiunea sau desenul piesei, compusul dorit (sau cerința de certificare: FDA, USP VI, 3-A) și cantitatea. Nu ținem această gamă pe raft ca raft propriu; fiecare comandă se confirmă cu producătorul înainte de termenul final.`,
+    infinitrade: `Pentru Precision Associates lucrăm din informațiile publice ale producătorului privind gama și certificările — fără date proprii de stoc pe niciun compus, dimensiune sau formă de garnitură. Aducem la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de compusul și forma cerute, mai ales pentru piese turnate pe specificația clientului. Pentru ofertă trimiteți dimensiunea sau desenul piesei, compusul dorit (sau cerința de certificare: FDA, USP VI, 3-A) și cantitatea. Nu ținem această gamă pe stoc propriu; fiecare comandă se confirmă cu producătorul înainte de termenul final.`,
     limitation: "Nu avem rețea de distribuție vizibilă în Europa pentru Precision Associates; aducem la comandă prin import, termen orientativ 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport, fără posibilitatea de a garanta stoc pe compușii speciali.",
     productCodes: [
-      { code: "O-Ring", description: "Garnitură circulară standard sau personalizată, peste 1000 compusi" },
+      { code: "O-Ring", description: "Garnitură circulară standard sau personalizată, peste 1.000 de compuși" },
       { code: "X-Ring", description: "Garnitură cu profil în X, patru puncte de etanșare" },
       { code: "U-Cup", description: "Manșetă U pentru etanșare dinamică pe tije și pistoane" },
-      { code: "Tri-Clamp Gasket", description: "Garnitura sanitară pentru conexiuni tri-clamp, conform 3-A" },
+      { code: "Tri-Clamp Gasket", description: "Garnitură sanitară pentru conexiuni tri-clamp, conform 3-A" },
       { code: "Rod Wiper", description: "Manșetă de răzuire pentru tije hidraulice și pneumatice" },
       { code: "Multiseal", description: "Garnitură combinată cu funcții multiple de etanșare" },
       { code: "Kurv-Bak", description: "Inel de susținere pentru garnituri în aplicații de presiune" },
       { code: "V-Ring", description: "Garnitură de etanșare axială în forma de V" },
-      { code: "Custom Molded Rubber Component", description: "Piesa turnată personalizat din cauciuc pe desen client" },
+      { code: "Custom Molded Rubber Component", description: "Piesă turnată personalizat din cauciuc, pe desenul clientului" },
       { code: "Rubber Ball", description: "Bilă de cauciuc turnată pentru valve și aplicații de etanșare" },
       { code: "Hol-Mask", description: "Mască de protecție din cauciuc pentru acoperire selectivă" },
-      { code: "LSR Molded Part", description: "Piesa turnată din cauciuc siliconic lichid, certificare USP VI" },
+      { code: "LSR Molded Part", description: "Piesă turnată din cauciuc siliconic lichid, certificare USP VI" },
     ],
     faq: [
       { q: "Ce produce Precision Associates?", a: "Precision Associates produce o-ringuri, X-ringuri, manșete U, garnituri tri-clamp și componente turnate din cauciuc, inclusiv din silicon lichid (LSR), cu peste 1.000 de formulări de compus disponibile. Este certificată ISO 9001 și ISO 13485 pentru domeniul medical." },
@@ -396,8 +396,8 @@ Pentru un integrator din România, gama Precision Associates are sens la echipam
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Precision Associates, Inc. — Home", url: "https://www.precisionassoc.com/", publisher: "Precision Associates, Inc.", accessed: "2026-09-26" },
       { title: "Precision Associates — About Us", url: "https://www.precisionassoc.com/about/", publisher: "Precision Associates, Inc.", accessed: "2026-09-26" },
@@ -409,11 +409,11 @@ Pentru un integrator din România, gama Precision Associates are sens la echipam
     headquarters: "SUA",
     overview: `ProSoft Technology produce, din 1990, gateway-uri și module de comunicație industrială pentru interconectarea protocoalelor din automatizări. Compania a pornit de la un modul de conectare a unui procesor Rockwell Automation la un host SCADA Modbus, iar astăzi acoperă conversii între majoritatea protocoalelor industriale folosite în fabrici. Din gamă putem oferta gateway-uri autonome, module in-chassis pentru controlere Rockwell și soluții de conectivitate wireless industrială.
 
-Gama de gateway-uri autonome ProLinx acoperă conversii precum EtherNet/IP către Modbus TCP/IP sau serial, PROFINET către Modbus serial și integrare cu protocoale industriale de nivel superior — DNP3, HART, PROFIBUS DP, IEC 60870-5-104 și IEC 61850, folosite frecvent în energie și utilități. Pe segmentul modulelor in-chassis pentru Rockwell, ProSoft oferă module pentru platformele CompactLogix și ControlLogix cu Modbus, PROFIBUS și PROFINET integrate direct în șasiul controlerului, concurând cu HMS Networks pe partea de gateway-uri de protocol industrial. Compania are prezență în mai multe piețe internaționale, cu conținut publicat în franceză, germană, spaniolă și chineză.
+Gama de gateway-uri autonome ProLinx acoperă conversii precum EtherNet/IP către Modbus TCP/IP sau serial, PROFINET către Modbus serial și integrare cu protocoale industriale de nivel superior — DNP3, HART, PROFIBUS DP, IEC 60870-5-104 și IEC 61850, folosite frecvent în energie și utilități. Pe segmentul modulelor in-chassis pentru Rockwell, ProSoft oferă module pentru platformele CompactLogix și ControlLogix cu Modbus, PROFIBUS și PROFINET integrate direct în șasiul controlerului. Compania are prezență în mai multe piețe internaționale, cu conținut publicat în franceză, germană, spaniolă și chineză.
 
 Pentru un integrator din România, gama ProSoft are sens acolo unde o instalație existentă cu echipamente Rockwell trebuie integrată cu un PLC Siemens, un sistem SCADA Modbus sau un echipament de proces cu protocol DNP3/IEC — situații frecvente la retehnologizări industriale unde nu se poate schimba tot controlul din fabrică.`,
     whyChoose: [
-      "Peste 30 de ani de specializare exclusivă pe conversia între protocoale industriale",
+      "Peste 30 de ani de activitate în conversia între protocoale industriale",
       "Gateway-uri ProLinx pentru conversii între EtherNet/IP, Modbus, PROFINET, PROFIBUS, DNP3, HART și IEC 60870/61850",
       "Module in-chassis dedicate pentru platformele Rockwell CompactLogix și ControlLogix",
       "Soluții de conectivitate wireless industrială, pe lângă gateway-urile cu fir",
@@ -433,10 +433,10 @@ Pentru un integrator din România, gama ProSoft are sens acolo unde o instalați
     infinitrade: `Pentru ProSoft Technology lucrăm din informațiile publice ale producătorului privind gama de gateway-uri și module — fără date proprii de stoc pe niciun model. Aducem la comandă prin import direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului. Pentru ofertă trimiteți protocoalele exacte pe care trebuie să le conecteze gateway-ul (de exemplu EtherNet/IP către Modbus TCP/IP) sau, dacă folosiți un controler Rockwell, platforma exactă (CompactLogix sau ControlLogix) pentru identificarea modulului in-chassis potrivit. Nu ținem această gamă pe raft pe nicio serie — fiecare comandă se confirmă cu producătorul.`,
     limitation: "Nu oferim configurare sau programare a gateway-urilor ProSoft în cadrul livrării, doar intermediere pentru achiziția echipamentului; configurarea protocoalelor rămâne în sarcina integratorului sau a suportului tehnic al producătorului.",
     productCodes: [
-      { code: "PLX31-EIP-MBTCP", description: "Gateway EtherNet/IP către Modbus TCP/IP, 2 porturi" },
+      { code: "PLX31-EIP-MBTCP", description: "Gateway EtherNet/IP către Modbus TCP/IP" },
       { code: "PLX31-EIP-MBS", description: "Gateway EtherNet/IP către Modbus serial" },
       { code: "PLX31-EIP-ASCII", description: "Gateway EtherNet/IP către protocol ASCII serial" },
-      { code: "PLX31-MBTCP-SIE", description: "Gateway Modbus TCP/IP către Siemens Industrial Ethernet" },
+      { code: "PLX31-MBTCP-SIE", description: "Gateway din familia PLX31; protocoalele exacte se confirmă pe cod, din fișa producătorului" },
       { code: "PLX31-PND-MBS", description: "Gateway PROFINET Device către Modbus serial" },
       { code: "PLX31-EIP-MBS4", description: "Gateway EtherNet/IP către Modbus serial, 4 porturi" },
       { code: "PLX31-MBTCP-MBS4", description: "Gateway Modbus TCP/IP către Modbus serial, 4 porturi" },
@@ -459,8 +459,8 @@ Pentru un integrator din România, gama ProSoft are sens acolo unde o instalați
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ProSoft Technology — Home", url: "https://www.prosoft-technology.com/", publisher: "ProSoft Technology, Inc.", accessed: "2026-09-26" },
       { title: "ProSoft Technology — Gateways", url: "https://www.prosoft-technology.com/Products/Gateways", publisher: "ProSoft Technology, Inc.", accessed: "2026-09-26" },

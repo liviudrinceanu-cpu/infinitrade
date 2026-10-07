@@ -4,22 +4,22 @@ export const brandContentBatch40 = {
   unitronics: {
     name: "Unitronics",
     founded: 1989,
-    overview: `Unitronics este un producător israelian de automatizări, care din 1989 dezvoltă automate programabile (PLC) cu ecran HMI integrat direct în aceeași carcasă. În loc să cumperi separat un PLC și un panou de operare și să le cablezi împreună, primești un singur echipament compact, programat prin softul propriu UniLogic. Gama acoperă patru familii: UniStream pentru mașini complexe, Vision pentru automatizări avansate, Samba pentru aplicații OEM mici și Jazz/M91 pentru mașini simple. Putem oferta oricare din aceste serii pentru linii de ambalare, stații de tratare a apei sau utilaje de proces.
+    overview: `Unitronics este un producător israelian de automatizări, care din 1989 dezvoltă automate programabile (PLC) cu ecran HMI integrat direct în aceeași carcasă. În loc să cumpărați separat un PLC și un panou de operare și să le cablați împreună, primiți un singur echipament compact, programat prin softul propriu UniLogic. Gama acoperă patru familii: UniStream pentru mașini complexe, Vision pentru automatizări avansate, Samba pentru aplicații OEM mici și Jazz/M91 pentru mașini simple. Putem oferta oricare din aceste serii pentru linii de ambalare, stații de tratare a apei sau utilaje de proces.
 
-Diferența tehnică față de arhitectura clasică PLC+HMI, folosită de exemplu la Siemens cu automate și panouri separate, e că Unitronics integrează controlerul și ecranul tactil într-un singur modul, cu ecrane de la 3,5 până la 15,6 inch la seriile Samba și UniStream. Softul UniLogic generează asistat o parte din logica de bază, ceea ce scurtează timpul de programare la proiecte repetitive. Platforma UniCloud permite monitorizarea și actualizarea de la distanță a automatelor instalate în teren, utilă la linii răspândite geografic.
+Diferența tehnică față de arhitectura clasică PLC+HMI, folosită de exemplu la Siemens cu automate și panouri separate, e că Unitronics integrează controlerul și ecranul tactil într-un singur modul, cu ecrane de la 3,5 până la 15,6 inch la seriile Samba și UniStream. Softul UniLogic reunește într-un singur mediu programarea pentru control, mișcare, HMI și comunicații. Platforma UniCloud este o platformă IIoT fără programare (no-code), cu panouri de monitorizare pentru constructorii de utilaje.
 
 Pentru piața din România, seriile Unitronics au sens la constructorii de utilaje (OEM) care vor să reducă numărul de componente din panoul electric, mai ales la mașini de serie mică sau medie unde un PLC și un HMI separate ar încărca inutil bugetul de automatizare.`,
     whyChoose: [
       "PLC și HMI într-un singur echipament — mai puține componente de cablat și montat în panoul electric",
       "Patru familii de produse, de la Jazz pentru mașini simple până la UniStream pentru linii complexe",
       "Ecrane tactile integrate de la 3,5 până la 15,6 inch, în funcție de seria aleasă",
-      "Softul UniLogic include generare asistată de cod, utilă la proiecte cu logică repetitivă",
-      "Platforma UniCloud permite monitorizare și actualizare la distanță a automatelor instalate în teren",
+      "Softul UniLogic reunește într-un singur mediu programarea pentru control, mișcare, HMI și comunicații",
+      "Platforma UniCloud este o platformă IIoT fără programare (no-code) pentru monitorizarea mașinilor",
     ],
     keyProducts: [
       { name: "Seria UniStream", description: "Familia de vârf pentru mașini complexe, în variante Built-in (PLC și ecran în aceeași carcasă, 5\", 7\", 10.1\" sau 15.6\") și Modular (CPU separată de ecranul de 7\", 10.4\" sau 15.6\"). Programare integrată în UniLogic, cu funcții de mișcare și comunicație Ethernet. Aplicație tipică: mașini de ambalat sau linii de asamblare unde un ecran mare controlează mai multe stații. Pentru ofertă, clientul trebuie să spună mărimea ecranului și numărul de intrări/ieșiri necesare." },
-      { name: "Seria Vision", description: "Familie răspândită de PLC-uri cu HMI integrat, de la modelul compact Vision120 până la Vision1210, cu ecrane monocrome sau color. Gândită pentru automatizare avansată, cu control de proces, numărare rapidă și comunicație pe mai multe protocoale. Rămâne opțiune populară acolo unde există instalații Unitronics mai vechi. Pentru comandă, e nevoie de modelul exact și tipul de semnale I/O folosite pe mașină." },
-      { name: "Seria Samba", description: "Familie compactă pentru aplicații OEM de volum mic și mediu, cu ecrane de 3,5\", 4,3\" sau 7\". Păstrează integrarea PLC+HMI din restul gamei, într-un format mai ieftin decât UniStream, folosit la mașini de ambalat mici sau dozatoare. Pentru ofertă, clientul trebuie să indice mărimea ecranului și tipul de semnale I/O necesare." },
+      { name: "Seria Vision", description: "Familie răspândită de PLC-uri cu HMI integrat, de la modelul compact Vision120 până la Vision1210, cu ecrane monocrome sau color. Gândită pentru automatizare avansată, cu control de proces, numărare rapidă și comunicație pe mai multe protocoale. Pentru comandă, e nevoie de modelul exact și tipul de semnale I/O folosite pe mașină." },
+      { name: "Seria Samba", description: "Familie compactă pentru aplicații OEM de volum mic și mediu, cu ecrane de 3,5\", 4,3\" sau 7\". Păstrează integrarea PLC+HMI din restul gamei, într-un format compact, folosit la mașini de ambalat mici sau dozatoare. Pentru ofertă, clientul trebuie să indice mărimea ecranului și tipul de semnale I/O necesare." },
       { name: "Seria Jazz și M91", description: "Gama de bază pentru mașini simple, cu funcții PLC standard și HMI redus la un panou mic sau mesaj text. Utilă unde logica de control e directă — pornire/oprire, temporizări, numărare de cicluri. Compatibilă cu module de extensie I/O din restul gamei Unitronics, ceea ce permite extinderea ulterioară a aplicației." },
     ],
     industries: [
@@ -86,7 +86,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
       },
       {
         "code": "UniStream 15.6″ Built-in",
-        "description": "unitate încorporată de top din gama UniStream, ecran de 15,6 inch"
+        "description": "unitate încorporată din gama UniStream, ecran de 15,6 inch"
       },
       {
         "code": "Samba 7″",
@@ -96,7 +96,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
     faq: [
       {
         "q": "Ce diferență este între seriile Vision Enhanced și Vision Standard la Unitronics?",
-        "a": "Seria Vision Enhanced (Vision1210, Vision1040, Vision700, Vision570, Vision560, Vision430, Vision350, Vision130) oferă ecrane tactile color de la 2,4 până la 12,1 inch și suportă până la 1000 de intrări/ieșiri prin module de extensie. Seria Vision Standard (Vision530, Vision290, Vision120) folosește ecrane alb-negru, cu suport de până la 316 intrări/ieșiri, fiind gândită pentru aplicații mai simple unde costul contează mai mult decât rezoluția ecranului."
+        "a": "Modelele Vision1210, Vision1040, Vision700, Vision570, Vision560, Vision430 și Vision350 au ecrane tactile color de la 3,5 până la 12,1 inch și suportă între 512 și 1000 de intrări/ieșiri prin module de extensie. Modelele Vision530, Vision290, Vision130 și Vision120 au ecrane alb-negru, cu suport pentru 256–316 intrări/ieșiri, fiind potrivite pentru aplicații mai simple."
       },
       {
         "q": "Cum aleg ecranul potrivit dintre modelele Unitronics Vision pentru mașina mea?",
@@ -104,7 +104,7 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
       },
       {
         "q": "Ce este seria UniStream de la Unitronics?",
-        "a": "UniStream este platforma PLC+HMI de vârf a producătorului, cu unități încorporate având ecrane de la 7 până la 15,6 inch și variante modulare separate pentru montaj flexibil pe panou. Este gândită pentru mașini complexe și proiecte OEM avansate, unde este nevoie de putere de procesare mai mare și de opțiuni de comunicație extinse față de gamele Vision sau Samba."
+        "a": "UniStream este platforma PLC+HMI de vârf a producătorului, cu unități încorporate având ecrane de la 5 până la 15,6 inch și variante modulare separate pentru montaj flexibil pe panou. Este gândită pentru mașini complexe și proiecte OEM avansate, unde este nevoie de putere de procesare mai mare și de opțiuni de comunicație extinse față de gamele Vision sau Samba."
       },
       {
         "q": "Livrați automate Unitronics în România?",
@@ -117,8 +117,8 @@ Pentru piața din România, seriile Unitronics au sens la constructorii de utila
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Unitronics — Homepage","url":"https://www.unitronicsplc.com/","publisher":"Unitronics","accessed":"2026-09-25"},
       {"title":"Programmable Controllers – Vision Series","url":"https://www.unitronicsplc.com/programmable-controllers-vision-series/","publisher":"Unitronics","accessed":"2026-09-25"},
@@ -176,27 +176,27 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
       },
       {
         "code": "K3",
-        "description": "senzor de presiune pentru medii cu sodiu-potasiu (NaK), ieșire în mV/V"
+        "description": "traductor de presiune pentru topituri, cu fluid de umplere sodiu-potasiu (NaK), ieșire în mV/V"
       },
       {
         "code": "KM",
-        "description": "traductor de presiune ultracompact pentru aplicații industriale generale"
+        "description": "traductor de presiune Gefran, seria KM"
       },
       {
         "code": "KM RAIL",
-        "description": "variantă ultracompactă a traductorului de presiune, dedicată aplicațiilor feroviare"
+        "description": "traductor de presiune Gefran, seria KM RAIL"
       },
       {
         "code": "TPS",
-        "description": "traductor de presiune de înaltă precizie, ieșire în mV/V"
+        "description": "traductor de presiune Gefran, seria TPS"
       },
       {
         "code": "KS-I",
-        "description": "traductor de presiune compact, ieșire digitală IO-Link"
+        "description": "traductor de presiune Gefran, seria KS-I"
       },
       {
         "code": "KS",
-        "description": "traductor de presiune compact, certificare SIL2, ieșire în tensiune sau curent"
+        "description": "traductor de presiune Gefran, seria KS"
       },
       {
         "code": "TK",
@@ -206,15 +206,15 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
     faq: [
       {
         "q": "Ce diferență este între seriile de traductoare Gefran KM și KS?",
-        "a": "KM este gama ultracompactă de traductoare de presiune, gândită pentru aplicații industriale generale unde spațiul de montaj este redus, inclusiv o variantă KM RAIL dedicată materialului rulant feroviar. KS păstrează un format compact, dar adaugă certificare SIL2 și opțiunea de ieșire digitală IO-Link prin varianta KS-I, fiind potrivită acolo unde este nevoie de un nivel suplimentar de siguranță funcțională sau de integrare digitală."
+        "a": "KM și KS sunt familii de traductoare de presiune Gefran; diferențele de construcție, certificare și ieșire se confirmă pe cod, din documentația producătorului."
       },
       {
         "q": "Ce este traductorul de presiune Gefran K3?",
-        "a": "K3 este un senzor dedicat măsurării presiunii în medii cu sodiu-potasiu (NaK), folosit tipic în circuite de răcire cu metale lichide, cu ieșire în mV/V. Este construit pentru condiții speciale de temperatură și compatibilitate chimică, diferit de traductoarele industriale standard din gama KM sau KS, care acoperă aer, apă sau uleiuri hidraulice."
+        "a": "K3 este un traductor de presiune pentru topituri la temperatură ridicată, cu fluid de umplere sodiu-potasiu (NaK) și ieșire în mV/V. Detaliile de aplicare se confirmă pe cod, din documentația Gefran."
       },
       {
         "q": "Cum aleg între traductoarele HWJ și HMJ pentru topituri de polimeri?",
-        "a": "Ambele familii sunt gândite pentru măsurarea presiunii în topituri de material plastic, cu certificări pentru zone cu risc de explozie (Exd, ATEX, IECEx), diferența constând în protocolul de comunicație folosit. HWJ oferă ieșire digitală prin protocolul Hart, utilă acolo unde instalația are deja o rețea Hart, în timp ce HMJ este orientat spre integrare directă cu electronica de control a extruderului."
+        "a": "Ambele familii sunt gândite pentru măsurarea presiunii în topituri de material plastic, cu certificări pentru zone cu risc de explozie (Exd, ATEX, IECEx), iar producătorul le descrie împreună ca traductoare cu ieșire digitală prin protocolul HART. Detaliile fiecărui model se confirmă pe cod, din documentația Gefran."
       },
       {
         "q": "Livrați senzori de presiune Gefran în România?",
@@ -227,8 +227,8 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Pressure Sensors","url":"https://www.gefran.com/en/products/sensors/pressure-sensors","publisher":"Gefran","accessed":"2026-09-25"},
       {"title":"Position Sensors","url":"https://www.gefran.com/en/products/position-sensors","publisher":"Gefran","accessed":"2026-09-25"},
@@ -242,7 +242,7 @@ Pentru România, Gefran are sens la liniile de extrudere plastic, mașini mobile
     founded: 1918,
     overview: `NTN este unul dintre marii producători japonezi de rulmenți, cu rădăcini din 1918, la fabrica Nishizono Ironworks din Kuwana. În Europa, brandul e reprezentat de NTN-SNR, rezultat din SNR Group francez fondat în 1916 la Annecy și preluat de NTN în 2008. Gama acoperă rulmenți cu bile, cu role și cu ace, module liniare, articulații cu viteză constantă și tensionere de curea, plus codificatoare pentru măsurarea vitezei sau poziției pe arbori. Putem oferta atât rulmenți standard, cât și componente de precizie din gama NTN-SNR.
 
-Diferența față de un rulment generic vine din combinarea celor două istorii de inginerie — tehnologia japoneză NTN de rulmenți de precizie și expertiza franceză SNR în componente auto și industriale —, ceea ce dă o gamă mai largă decât la mulți concurenți direcți precum SKF, mai ales pe segmentul de articulații cu viteză constantă pentru transmisii auto și module liniare pentru axe de mișcare. Gama de codificatoare integrate în rulment permite măsurarea directă a vitezei fără senzor extern montat separat.
+Diferența față de un rulment generic vine din combinarea celor două istorii de inginerie — tehnologia japoneză NTN de rulmenți de precizie și expertiza franceză SNR în componente auto și industriale —, ceea ce se reflectă într-o gamă care include articulații cu viteză constantă pentru transmisii auto și module liniare pentru axe de mișcare. Gama de codificatoare integrate în rulment permite măsurarea directă a vitezei fără senzor extern montat separat.
 
 Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde se caută alternative la SKF sau FAG, la utilaje agricole și de construcții care folosesc componente din gama auto NTN-SNR și la axe de mișcare unde modulele liniare simplifică proiectarea mecanică.`,
     whyChoose: [
@@ -255,7 +255,7 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     keyProducts: [
       { name: "Rulmenți cu bile și cu role", description: "Gama de bază NTN-SNR, cu rulmenți radiali cu bile, rulmenți cu role cilindrice, conice și sferice, pentru arbori și lagăre din industrie generală, auto și agricultură. Acoperă diametre și sarcini variate, de la rulmenți mici de precizie până la rulmenți grei pentru utilaje industriale. Pentru ofertă, clientul trebuie să trimită codul rulmentului sau dimensiunile arborelui și tipul de sarcină." },
       { name: "Module liniare", description: "Sisteme de ghidare liniară cu recirculare de bile, pentru axe de mișcare pe mașini-unelte, roboți cartezieni și utilaje de manipulare. Oferă precizie de poziționare mai bună decât o ghidare simplă pe role. Pentru comandă, clientul trebuie să indice cursa necesară, sarcina de pe axă și viteza de deplasare dorită." },
-      { name: "Articulații cu viteză constantă (CV joints)", description: "Componente de transmisie pentru autovehicule și utilaje mobile, care transmit cuplul motor la unghiuri variabile fără pierdere de turație constantă. Fac parte din moștenirea SNR în componente auto, folosite atât la producția originală, cât și ca piese de schimb. Pentru ofertă, clientul trebuie să trimită codul original al piesei sau tipul exact de vehicul." },
+      { name: "Articulații cu viteză constantă (CV joints)", description: "Componente de transmisie pentru autovehicule și utilaje mobile, care transmit cuplul motor la unghiuri variabile, cu viteză unghiulară constantă. Fac parte din moștenirea SNR în componente auto, folosite atât la producția originală, cât și ca piese de schimb. Pentru ofertă, clientul trebuie să trimită codul original al piesei sau tipul exact de vehicul." },
       { name: "Codificatoare și tensionere de curea", description: "Rulmenți cu codificator integrat pentru măsurarea vitezei direct pe arbore, fără montaj separat de senzor, plus tensionere de curea pentru transmisii cu curea la motoare industriale. Simplifică proiectarea mecanică unde spațiul pentru un senzor extern e limitat. Pentru comandă, clientul trebuie să precizeze tipul de semnal de ieșire dorit." },
     ],
     industries: [
@@ -270,11 +270,11 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     productCodes: [
       {
         "code": "6200",
-        "description": "Rulment cu bile cu o singură rolă, execuție deschisă, alezaj 10 mm"
+        "description": "Rulment radial cu bile, un singur rând, execuție deschisă, alezaj 10 mm"
       },
       {
         "code": "6300",
-        "description": "Rulment cu bile cu contact radial, o singură rolă, seria 6300"
+        "description": "Rulment radial cu bile, un singur rând, seria 6300"
       },
       {
         "code": "UCP",
@@ -294,19 +294,19 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
       },
       {
         "code": "ARP",
-        "description": "Unitate pillow block din seria Ultra-Class de la NTN"
+        "description": "Unitate pillow block cu inel interior îngust, fixare cu șurub, carcasă turnată"
       },
       {
         "code": "ARPL",
-        "description": "Unitate pillow block cu guler de blocare excentric, seria Ultra-Class"
+        "description": "Unitate pillow block cu inel interior îngust, variantă cu bază joasă"
       },
       {
         "code": "UELP",
-        "description": "Unitate pillow block economică, cu guler de blocare excentric"
+        "description": "Unitate pillow block din seria Ultra-Class, cu guler de blocare excentric"
       },
       {
         "code": "JELP",
-        "description": "Unitate pillow block cu rulment sigilat, seria Ultra-Class"
+        "description": "Unitate pillow block cu inel interior îngust și guler de blocare excentric"
       },
       {
         "code": "UCFLU",
@@ -320,7 +320,7 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     faq: [
       {
         "q": "Ce diferență este între rulmenții NTN 6200 și 6300?",
-        "a": "Ambele sunt rulmenți cu bile cu contact radial, cu o singură rolă și execuție deschisă, dar seria 6300 are secțiune mai groasă și capacitate de încărcare mai mare la același alezaj, comparativ cu seria 6200. Alegerea depinde de sarcina radială estimată și de spațiul disponibil în lagărul mecanismului. Verificăm întotdeauna tabelul de dimensiuni oficial NTN înainte de confirmarea comenzii."
+        "a": "Ambele sunt rulmenți cu bile radiali, cu un singur rând de bile și execuție deschisă, dar seria 6300 are secțiune mai groasă și capacitate de încărcare mai mare la același alezaj, comparativ cu seria 6200. Alegerea depinde de sarcina radială estimată și de spațiul disponibil în lagărul mecanismului. Verificăm întotdeauna tabelul de dimensiuni oficial NTN înainte de confirmarea comenzii."
       },
       {
         "q": "Livrați rulmenți NTN la comandă pentru clienți din România?",
@@ -337,8 +337,8 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"NTN Bearing Units Catalog A-21000-I","url":"https://ntnamericas.com/wp-content/uploads/2020/04/bearing-units-catalog-a-21000-i.pdf","publisher":"NTN Bearing Corporation","accessed":"2026-09-26"},
       {"title":"Item # 6200 On NTN Bearing Corp. of America","url":"https://bearingfinder.ntnamericas.com/item/deep-groove-ball-bearings/single-row-radial-ball-bearings/6200","publisher":"NTN Bearing Corporation","accessed":"2026-09-26"},
@@ -349,22 +349,22 @@ Pentru România, rulmenții NTN au sens la mentenanța liniilor industriale unde
 
   "ammeraal-beltech": {
     name: "Ammeraal Beltech",
-    overview: `Ammeraal Beltech este un producător olandez de benzi transportoare și curele de proces, parte din grupul AMMEGA, cu fabrici în Europa, America de Nord și Asia. Gama include benzi sintetice pentru procesare ușoară și grea, benzi modulare cu structură tip cărămidă, benzi ultra-mesh din monofilament de poliester, benzi omogene Volta, benzi Rapplon de înaltă performanță, benzi din PTFE și sisteme de cuplare rapidă ZipLink. Putem oferta atât banda ca material, cât și confecționarea ei la dimensiunea liniei clientului.
+    overview: `Ammeraal Beltech este un producător olandez de benzi transportoare și curele de proces, parte din grupul Ammega, cu șapte unități de producție la nivel mondial. Gama include benzi sintetice pentru procesare ușoară și grea, benzi modulare cu structură tip cărămidă, benzi ultra-mesh din monofilament de poliester, benzi omogene Volta, benzi Rapplon de înaltă performanță, benzi din PTFE și sisteme de cuplare rapidă ZipLink. Putem oferta atât banda ca material, cât și confecționarea ei la dimensiunea liniei clientului.
 
-Diferența față de o bandă transportoare generică vine din varietatea de structuri din aceeași gamă — de la benzi omogene Volta, ușor de curățat și potrivite pentru igienă alimentară, la benzi Rapplon cu strat de acoperire rezistent la abraziune, folosite la transport greu, spre deosebire de concurenți precum Habasit, care acoperă segmente similare sub denumiri proprii. Sistemele de cuplare ZipLink permit înlocuirea rapidă a benzii fără demontarea completă a transportorului, ceea ce reduce timpul de oprire la mentenanță.
+Diferența față de o bandă transportoare generică vine din varietatea de structuri din aceeași gamă — de la benzi omogene Volta, ușor de curățat și potrivite pentru igienă alimentară, la benzi Rapplon, curele plate de înaltă performanță pentru transmisie de putere și transport la viteze mari, spre deosebire de concurenți precum Habasit, care acoperă segmente similare sub denumiri proprii. Sistemele de cuplare ZipLink permit înlocuirea rapidă a benzii fără demontarea completă a transportorului, ceea ce reduce timpul de oprire la mentenanță.
 
 Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimentară — fructe, legume, produse din pește —, unde igiena și rezistența la spălare contează, dar și la transportoare industriale generale unde se caută o bandă de schimb compatibilă cu structura existentă.`,
     whyChoose: [
       "Gamă largă de structuri — sintetice, modulare, ultra-mesh, omogene Volta și Rapplon de înaltă performanță",
       "Sisteme de cuplare rapidă ZipLink pentru înlocuirea benzii fără demontarea completă a transportorului",
       "Benzi omogene Volta ușor de curățat, potrivite pentru linii de procesare alimentară",
-      "Fabrici pe trei continente, pentru acces la variante de material adaptate climatului local",
+      "Șapte unități de producție și prezență în peste 25 de țări",
       "Parte din grupul AMMEGA, alături de alte branduri de curele și benzi industriale",
     ],
     keyProducts: [
       { name: "Benzi sintetice (Synthetic Belts)", description: "Gama de bază pentru procesare ușoară și grea, cu structuri țesute din poliester sau poliamidă, acoperite cu PVC, poliuretan sau silicon în funcție de aplicație. Folosite pe transportoare industriale generale și linii de procesare alimentară fără cerințe extreme de igienă. Pentru ofertă, clientul trebuie să trimită lățimea și lungimea benzii, tipul de acoperire și dacă produsul transportat e uscat, umed sau gras." },
       { name: "Benzi omogene Volta", description: "Benzi dintr-un singur material, fără straturi lipite, ceea ce elimină punctele unde se poate acumula murdărie — avantaj direct pentru liniile de procesare alimentară cu cerințe stricte de igienă. Rezistă la spălare frecventă și contact cu grăsimi. Pentru comandă, clientul trebuie să indice dimensiunile benzii și tipul de produs alimentar procesat." },
-      { name: "Benzi Rapplon de înaltă performanță", description: "Benzi cu strat de acoperire rezistent la abraziune, gândite pentru transport greu, viteze mari sau utilizare intensă în mai multe schimburi. Reduc frecvența înlocuirii benzii față de o bandă sintetică standard. Pentru ofertă, clientul trebuie să trimită tipul de transportor, viteza de lucru și materialul transportat." },
+      { name: "Benzi Rapplon de înaltă performanță", description: "Curele plate de înaltă performanță pentru transmisie de putere și transport la viteze mari. Pentru ofertă, clientul trebuie să trimită tipul de transportor, viteza de lucru și materialul transportat." },
       { name: "Sisteme ZipLink și benzi modulare", description: "Sistemul ZipLink permite deschiderea și închiderea rapidă a benzii direct pe transportor, fără demontarea completă a instalației. Benzile modulare, cu structură tip cărămidă, se folosesc unde e nevoie de drenaj bun sau curbe strânse. Pentru comandă, clientul trebuie să trimită schema traseului și lățimea benzii." },
     ],
     industries: [
@@ -379,7 +379,7 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
     productCodes: [
       {
         "code": "ZipLink",
-        "description": "Sistem de cuplare rapidă fără scule pentru benzi transportoare industriale"
+        "description": "Sistem Ammeraal Beltech pentru reducerea timpului de producție pierdut la schimbarea benzilor"
       },
       {
         "code": "Ultrasync",
@@ -407,21 +407,21 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
       },
       {
         "code": "Solid Woven",
-        "description": "Curea țesută solidă, rezistentă, pentru transport de sarcini grele"
+        "description": "Curea Solid Woven; domeniul de aplicare se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Premium Plus",
-        "description": "Gamă premium de curele sintetice cu rezistență sporită la uzură"
+        "description": "Gamă de curele sintetice Ammeraal Beltech; detaliile se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Ropanyl",
-        "description": "Curea premium din gama Ropanyl pentru industria alimentară"
+        "description": "Curea din gama Ropanyl; domeniul de aplicare se confirmă pe cod, din documentația producătorului"
       }
     ],
     faq: [
       {
         "q": "Ce este sistemul ZipLink de la Ammeraal Beltech?",
-        "a": "ZipLink este un sistem de cuplare a benzilor transportoare care elimină nevoia de scule la montaj sau înlocuire, capetele benzii îmbinându-se prin apăsare simplă. Este util în special acolo unde opririle de producție pentru schimbarea benzii trebuie reduse la minimum, iar accesul la instalație este limitat."
+        "a": "ZipLink este o soluție Ammeraal Beltech pentru reducerea timpului de producție pierdut la schimbarea benzilor transportoare. Este util în special acolo unde opririle de producție pentru schimbarea benzii trebuie reduse la minimum, iar accesul la instalație este limitat."
       },
       {
         "q": "Ce diferență este între Rapplon și Soliflex din gama Ammeraal Beltech?",
@@ -437,13 +437,13 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
       },
       {
         "q": "Ce este banda Solicord și pentru ce se folosește?",
-        "a": "Solicord este o bandă rotundă sau trapezoidală de culoare albastră, certificată pentru contact alimentar, folosită la transportul și transferul produselor în linii de ambalare sau procesare alimentară. Culoarea albastră ajută la detectarea vizuală rapidă a eventualelor fragmente căzute în produs."
+        "a": "Solicord este o bandă rotundă sau trapezoidală de culoare albastră, certificată pentru contact alimentar, folosită la transportul și transferul produselor în linii de ambalare sau procesare alimentară."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"One-Stop Belt Shop – prezentare gamă completă de curele","url":"https://www.ammeraalbeltech.com/globalassets/documents/concept/one-stop-belt-shop-en.pdf","publisher":"Ammeraal Beltech","accessed":"2026-09-26"},
       { title: "Ammeraal Beltech Deutschland", url: "https://www.ammeraalbeltech.com/de/", publisher: "Ammeraal Beltech", accessed: "2026-09-22" },
@@ -453,7 +453,7 @@ Pentru România, benzile Ammeraal Beltech au sens la liniile de procesare alimen
 
   "noark-electric": {
     name: "Noark Electric",
-    overview: `Noark Electric este un producător de echipamente electrice de joasă tensiune, cu rădăcini franceze și integrat astăzi în grupul chinez Chint, unul dintre marii furnizori mondiali de soluții energetice, cu producție în 16 țări. Gama acoperă întreruptoare automate în aer (ACB) seria Ex9A16N, întreruptoare turnate (MCCB), miniîntreruptoare (MCB), dispozitive diferențiale (RCD și RCBO), contactoare modulare și echipamente de distribuție pentru joasă, medie și înaltă tensiune. Putem oferta din toată această gamă pentru tablouri electrice industriale sau de clădire.
+    overview: `Noark Electric este un producător de echipamente electrice de joasă tensiune, parte din grupul chinez Chint, unul dintre marii furnizori mondiali de soluții energetice, cu producție în 16 țări. Gama acoperă întreruptoare automate în aer (ACB) seria Ex9A16N, întreruptoare turnate (MCCB), miniîntreruptoare (MCB), dispozitive diferențiale (RCD și RCBO), contactoare modulare și echipamente de distribuție pentru joasă, medie și înaltă tensiune. Putem oferta din toată această gamă pentru tablouri electrice industriale sau de clădire.
 
 Seria Ex9A16N de întreruptoare automate în aer acoperă curenți nominali de la 630 până la 1600A, în variante fixe (F) sau debroșabile (D/O), cu unități de declanșare digitale SU3.0, SU4.0 și SU5.0 și protecție LSI (long-time, short-time, instantaneous) — funcții comparabile cu ce oferă concurenți precum Schneider Electric pe segmentul de întreruptoare de tablou general. Gama completă de protecție la supratensiune (SPD) și de separatoare de sarcină permite echiparea unui tablou electric dintr-o singură gamă de produse.
 
@@ -566,8 +566,8 @@ Pentru România, unde Noark are deja o filială la București, gama are sens la 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Întreruptoare automate în aer Ex9A16N","url":"https://noark-electric.ro/ro/catalog/air_circuit_breakers","publisher":"Noark Electric","accessed":"2026-09-25"},
       { title: "Întreruptoare automate în aer — catalog Noark", url: "https://noark-electric.ro/ro/catalog/air_circuit_breakers", publisher: "Noark Electric România", accessed: "2026-09-22" },
@@ -580,7 +580,7 @@ Pentru România, unde Noark are deja o filială la București, gama are sens la 
     founded: 1902,
     overview: `Belden este un producător american de cabluri industriale de date, semnal și control, cu o istorie ce începe în 1902, când Belden Manufacturing Company a fost înființată cu Joe Belden la conducere. Gama actuală acoperă cabluri Ethernet de la categoria 3 până la 7A, cabluri de fibră optică, coaxiale, cu armură, pentru magistrale de câmp și pentru instrumentație, plus conectori, switch-uri industriale și routere wireless. Putem oferta cabluri și componente de rețea din toată această gamă pentru instalații industriale.
 
-Diferența față de un cablu generic vine din acoperirea combinată IT/OT — Belden vinde atât cablurile, cât și echipamentele de rețea (switch-uri, routere, firewall-uri) care le pun în funcțiune, spre deosebire de concurenți precum LAPP, mai concentrați pe cablu și accesorii. Gama de cabluri respectă protocoale industriale consacrate — PROFIBUS, EtherCAT și HART —, iar seriile pentru medii dure au armură metalică și izolații rezistente la ulei sau temperaturi extreme. Rack-urile și sistemele de management al cablurilor completează oferta pentru un dulap de rețea complet.
+Diferența față de un cablu generic vine din acoperirea combinată IT/OT — Belden vinde atât cablurile, cât și echipamentele de rețea (switch-uri, routere, firewall-uri) care le pun în funcțiune. Gama de cabluri respectă protocoale industriale consacrate — PROFIBUS, EtherCAT și HART —, iar seriile pentru medii dure au armură metalică și izolații rezistente la ulei sau temperaturi extreme. Rack-urile și sistemele de management al cablurilor completează oferta pentru un dulap de rețea complet.
 
 Pentru România, cablurile Belden au sens la instalații industriale unde rețeaua de date trebuie să reziste la condiții dure — praf, vibrații, temperaturi variabile — și la proiecte unde se cere deja un protocol de comunicație standardizat.`,
     whyChoose: [
@@ -624,7 +624,7 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
       },
       {
         "code": "RSPM",
-        "description": "modul switch pentru seria RSP, montaj pe șină DIN"
+        "description": "switch din familia RSP, montaj pe șină DIN; varianta exactă se confirmă pe cod"
       },
       {
         "code": "OCTOPUS",
@@ -636,21 +636,21 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
       },
       {
         "code": "OS24",
-        "description": "switch modular OCTOPUS II, variantă cu porturi suplimentare"
+        "description": "switch OCTOPUS II, model OS24"
       },
       {
         "code": "OS30",
-        "description": "switch modular OCTOPUS II, capacitate extinsă de porturi"
+        "description": "switch OCTOPUS II, model OS30"
       },
       {
         "code": "OS34",
-        "description": "switch modular OCTOPUS II, varianta cu numărul maxim de porturi din familie"
+        "description": "switch OCTOPUS II, model OS34"
       }
     ],
     faq: [
       {
         "q": "Ce este seria de switch-uri Belden RSP/RSPS/RSPE?",
-        "a": "RSP, RSPS și RSPE formează o familie de switch-uri industriale gestionate, compacte, montate pe șină DIN, gândite pentru rețele Ethernet în medii de producție. RSP este varianta de bază, RSPS adaugă funcții „smart” suplimentare pentru diagnosticare și management, iar RSPE reprezintă versiunea extinsă, cu opțiuni mai largi de configurare a porturilor și a protocoalelor de rețea."
+        "a": "RSP, RSPS și RSPE formează o familie de switch-uri industriale gestionate, compacte, montate pe șină DIN, gândite pentru rețele Ethernet în medii de producție. Diferențele dintre variante se confirmă pe cod, din documentația Belden."
       },
       {
         "q": "Ce diferență este între switch-urile OCTOPUS și seria OS de la Belden?",
@@ -671,8 +671,8 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Belden — Homepage","url":"https://www.belden.com/","publisher":"Belden","accessed":"2026-09-25"},
       { title: "Belden — Industrial Networking and Connectivity", url: "https://www.belden.com/", publisher: "Belden Inc.", accessed: "2026-09-22" },
@@ -685,7 +685,7 @@ Pentru România, cablurile Belden au sens la instalații industriale unde rețea
     founded: 1953,
     overview: `WD-40 este un producător american de spray-uri tehnice pentru lubrifiere, curățare și protecție anticorozivă, prezent pe piață de peste 70 de ani. Portofoliul pentru uz tehnic se împarte în două linii: WD-40 Multi-Use Product, spray-ul generalist "un produs, mii de utilizări", și WD-40 Specialist, o gamă dedicată profesioniștilor cu produse separate pentru degripare, lubrifiere uscată, curățare de contacte sau protecție anticorozivă. Putem oferta din ambele linii pentru mentenanță industrială.
 
-Diferența dintre cele două linii e scopul: produsul Multi-Use e gândit ca soluție universală de atelier — deplasează umezeala, desface piese înțepenite, unge ușor și curăță suprafețe —, în timp ce gama Specialist separă funcțiile pe produse dedicate, fiecare optimizat pentru o singură sarcină, de exemplu lubrifiant uscat cu PTFE pentru piese unde nu vrei reziduu gras. Această segmentare pe funcție lipsește la un spray multifuncțional generic și permite alegerea produsului potrivit fără compromisuri.
+Diferența dintre cele două linii e scopul: produsul Multi-Use e gândit ca soluție universală de atelier — deplasează umezeala, desface piese înțepenite, unge ușor și curăță suprafețe —, în timp ce gama Specialist separă funcțiile pe produse dedicate, fiecare optimizat pentru o singură sarcină, de exemplu lubrifiant uscat cu PTFE pentru piese unde nu se dorește reziduu gras. Segmentarea pe funcție permite alegerea produsului potrivit pentru fiecare sarcină.
 
 Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierele de întreținere, service-urile auto și liniile de producție unde se caută un produs rapid pentru degripare, curățare de contacte electrice sau protecție anticorozivă temporară.`,
     whyChoose: [
@@ -698,7 +698,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     keyProducts: [
       { name: "WD-40 Multi-Use Product", description: "Spray-ul generalist de întreținere, gândit pentru mii de aplicații de atelier — deplasează umezeala de pe contacte electrice, desface șuruburi și piese ruginite, unge ușor mecanisme și curăță reziduuri de pe suprafețe metalice. Nu e un lubrifiant de precizie pentru sarcini grele, ci un produs de intervenție rapidă. Pentru comandă, clientul trebuie să indice formatul dorit și cantitatea necesară." },
       { name: "WD-40 Specialist — degripare și lubrifiere țintită", description: "Sub-gamă pentru profesioniști, cu produse separate pentru sarcini specifice: lubrifiant uscat cu PTFE pentru piese fără reziduu gras, spray de curățare a contactelor electrice și degripant de forță pentru piese blocate de rugină. Fiecare produs e optimizat pentru funcția lui. Pentru ofertă, clientul trebuie să precizeze funcția dorită." },
-      { name: "WD-40 Specialist — protecție anticorozivă pe termen lung", description: "Variante din gama Specialist dedicate protecției pieselor metalice expuse la umezeală sau depozitare îndelungată, cu peliculă de protecție mai persistentă decât spray-ul multifuncțional standard. Utile la scule sau piese de schimb depozitate între utilizări. Pentru comandă, clientul trebuie să trimită tipul de suprafață și durata de protecție dorită." },
+      { name: "WD-40 Specialist — protecție anticorozivă pe termen lung", description: "Pentru protecție anticorozivă confirmăm pe cod produsul din gama Specialist și formatul disponibil, din documentația WD-40. Pentru comandă, clientul trebuie să trimită tipul de suprafață și durata de protecție dorită." },
     ],
     industries: [
       "Mentenanță industrială — degripare și lubrifiere rapidă pe linii de producție",
@@ -753,7 +753,7 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     faq: [
       {
         "q": "Care este diferența dintre WD-40 Multi-Use Product și gama WD-40 Specialist?",
-        "a": "WD-40 Multi-Use Product este formula universală, gândită pentru degripare, lubrifiere ușoară, protecție anticorozivă și îndepărtarea umidității, potrivită pentru majoritatea sarcinilor casnice și industriale ușoare. Gama WD-40 Specialist cuprinde produse dedicate unei singure sarcini, precum degresarea rapidă, lubrifierea uscată cu PTFE sau curățarea contactelor electrice, oferind performanță superioară acolo unde formula universală nu este suficient de țintită."
+        "a": "WD-40 Multi-Use Product este formula universală, gândită pentru degripare, lubrifiere ușoară, protecție anticorozivă și îndepărtarea umidității, potrivită pentru majoritatea sarcinilor casnice și industriale ușoare. Gama WD-40 Specialist cuprinde produse dedicate unei singure sarcini, precum degresarea rapidă, lubrifierea uscată cu PTFE sau curățarea contactelor electrice."
       },
       {
         "q": "Ce este WD-40 Smart Straw și cum diferă de doza clasică?",
@@ -774,8 +774,8 @@ Pentru mentenanța industrială din România, liniile WD-40 au sens la atelierel
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Produse WD-40","url":"https://wd40.ro/produse/","publisher":"WD-40 Company","accessed":"2026-09-25"},
       { title: "WD-40 România — produse și tutoriale", url: "https://wd40.ro/", publisher: "WD-40 (site regional)", accessed: "2026-09-22" },
@@ -802,7 +802,7 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
       { name: "Motoare tambur pentru benzi transportoare", description: "Tamburi motorizați cu motor electric și reductor integrate în interiorul carcasei, folosiți ca tambur de antrenare pe benzi transportoare din minerit sau industrie grea. Elimină transmisia externă cu lanț sau curea, reducând riscul de accidentare și piesele care necesită mentenanță. Pentru ofertă, clientul trebuie să trimită diametrul tamburului, lățimea benzii și puterea necesară." },
       { name: "Role și idlere pentru bulk handling", description: "Role de susținere și de întoarcere pentru benzi transportoare din minerit, cariere sau porturi, montate pe cadre și ghirlande dedicate traseului. Se completează cu curățătoare de bandă și separatoare magnetice pentru îndepărtarea reziduurilor. Pentru comandă, clientul trebuie să trimită diametrul rolei, lățimea benzii și tipul de material transportat." },
       { name: "Role motorizate seria RDR", description: "Role cu motor electric integrat, pentru linii de unit handling — transportul cutiilor sau paleților în depozite. Fiecare rolă are propriul motor, ceea ce elimină nevoia unui arbore de transmisie comun. Pentru ofertă, clientul trebuie să trimită sarcina pe rolă, viteza de transport dorită și lungimea liniei." },
-      { name: "Role motorizate seria EPS", description: "Variantă de rolă motorizată pentru aplicații de unit handling cu cerințe specifice de control al vitezei sau sincronizare între mai multe zone. Se integrează cu sisteme de acumulare fără presiune între colete. Pentru comandă, clientul trebuie să trimită tipul de control dorit și caracteristicile coletelor transportate." },
+      { name: "Role motorizate seria EPS", description: "Role motorizate pentru manipularea paleților, în cadrul liniilor de unit handling. Pentru comandă, clientul trebuie să trimită sarcina și dimensiunile paletului transportat." },
     ],
     industries: [
       "Minerit de suprafață — motoare tambur și role pentru benzi de mare capacitate",
@@ -886,11 +886,11 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
     faq: [
       {
         "q": "Ce diferență este între motoarele tambur Rulmeca seria M și seria H?",
-        "a": "Sufixul M desemnează varianta de putere medie dintr-o familie de diametru, precum 320M sau 630M, potrivită pentru benzi transportoare cu sarcină moderată. Sufixul H marchează varianta de putere mare a aceleiași familii de diametru, gândită pentru aplicații de manipulare de vrac cu solicitări mai ridicate, cum ar fi cariere sau minerit de suprafață, unde cuplul de pornire trebuie să fie superior."
+        "a": "Familiile de motoare tambur Rulmeca sunt gândite pentru transportoare ușoare, medii și grele; semnificația exactă a sufixelor M și H și puterea fiecărui model se confirmă pe cod, din catalogul producătorului."
       },
       {
         "q": "Ce înseamnă „HD” la motoarele tambur Rulmeca din familia 800 și 1000?",
-        "a": "HD indică varianta „heavy duty” a familiei respective, construită pentru cele mai solicitante condiții de funcționare continuă, cu componente interne dimensionate pentru un număr mai mare de ore de operare fără întreținere. Familia 1000H/1000HD acoperă un interval de putere de 160 până la 250 kW, fiind printre cele mai puternice motoare tambur din portofoliul producătorului."
+        "a": "HD denumește variantele de uz greu ale familiilor 800 și 1000; detaliile de construcție se confirmă pe cod, din catalogul producătorului. Familia 1000H/1000HD acoperă un interval de putere de 160 până la 250 kW."
       },
       {
         "q": "Cum aleg diametrul corect al unui motor tambur Rulmeca pentru banda mea transportoare?",
@@ -907,8 +907,8 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Motorized Pulleys","url":"https://www.rulmeca.com/en/motorized-pulleys/22/pc","publisher":"Rulmeca","accessed":"2026-09-25"},
       {"title":"Products","url":"https://www.rulmeca.com/en/products","publisher":"Rulmeca","accessed":"2026-09-25"},
@@ -920,9 +920,9 @@ Pentru România, componentele Rulmeca au sens la benzile transportoare din miner
   omal: {
     name: "OMAL",
     headquarters: "Rodengo Saiano (Brescia), Italia",
-    overview: `OMAL este un producător italian de robineți industriali, cu sediul la Rodengo Saiano, lângă Brescia, și o fabrică dedicată la Passirano. Gama acoperă robineți cu bilă din oțel carbon sau inox, cu presiuni nominale până la PN 500 și ANSI 2500 și diametre până la DN 600, robineți fluture din fontă, oțel inoxidabil sau PVC pe game DN 40-600, plus robineți pneumatici din alamă, inox sau bronz. Putem oferta robinetul singur sau împreună cu actuatorul pentru automatizare.
+    overview: `OMAL este un producător italian de robineți industriali, cu sediul la Rodengo Saiano, lângă Brescia, și o fabrică dedicată la Passirano. Gama acoperă robineți cu bilă din oțel carbon sau inox, cu presiuni nominale până la PN 500 și ANSI 2500 și diametre până la DN 600, robineți fluture din fontă, oțel inoxidabil sau PVC pe game DN 40-600, plus robineți pneumatici coaxiali și cu scaun înclinat. Putem oferta robinetul singur sau împreună cu actuatorul pentru automatizare.
 
-Ce completează gama de robineți e oferta proprie de actuatoare — pneumatice, în variante cu dublu efect (DA) sau cu arc de retur (SR), și electrice, seriile AE, AM, EA și EF 25-250 —, ceea ce înseamnă că OMAL livrează ansamblul robinet-actuator dintr-o singură gamă, spre deosebire de producători care lasă automatizarea pe seama unui furnizor terț, cum se întâmplă adesea la concurenți de talia Bonomi. Sistemul de management al calității e certificat ISO 9001 încă din 1992, iar o parte din gamă are accesorii certificate ATEX.
+Ce completează gama de robineți e oferta proprie de actuatoare — pneumatice, în variante cu dublu efect (DA) sau cu arc de retur (SR), și electrice, seriile AE, AM, EA și EF 25-250 —, ceea ce înseamnă că ansamblul robinet-actuator poate fi ofertat din aceeași gamă OMAL. Sistemul de management al calității e certificat ISO 9001 încă din 1992, iar o parte din gamă are accesorii certificate ATEX.
 
 Pentru România, gama OMAL are sens la instalații industriale, chimice sau de tratare a apei unde e nevoie de robinet și actuator compatibile din start, fără să combini un robinet de la un producător cu un actuator de la altul.`,
     whyChoose: [
@@ -943,7 +943,7 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       "Tratarea apei — robineți fluture pe diametre mari",
       "Energie — robineți cu bilă pentru instalații de presiune ridicată",
       "Naval — robineți rezistenți la mediul marin",
-      "Hidrogen și mobilitate — accesorii certificate pentru aplicații noi de energie",
+      "Hidrogen — robineți cu bilă pentru hidrogen la presiune înaltă (seria H2 INVICTUS, PN 700)",
     ],
     certifications: [
       "ISO 9001 — certificat din 1992, actualizat la versiunea 2015",
@@ -970,11 +970,11 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       },
       {
         "code": "HERCULES",
-        "description": "robinet cu bilă de înaltă presiune și ciclicitate ridicată, până la PN 500"
+        "description": "robinet cu bilă de înaltă presiune și ciclicitate ridicată"
       },
       {
         "code": "KRATOS",
-        "description": "robinet cu bilă cu ciclicitate ridicată, până la DN 600"
+        "description": "robinet cu bilă cu ciclicitate ridicată"
       },
       {
         "code": "SUPREME TRUNNION",
@@ -1022,17 +1022,17 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
       },
       {
         "code": "EA",
-        "description": "actuator electric on-off, gamă compactă"
+        "description": "actuator electric rotativ on-off"
       },
       {
         "code": "EF 25-250",
-        "description": "actuator electric, gamă de cuplu între 25 și 250 Nm"
+        "description": "actuator electric rotativ, seria EF 25-250"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între seriile de robineți OMAL MAGNUM și KRATOS?",
-        "a": "MAGNUM este o gamă de robineți cu bilă în execuție wafer sau split wafer, disponibilă în oțel carbon și inox, acoperind presiuni de la PN 16 până la PN 100. KRATOS este orientat spre aplicații cu ciclicitate ridicată, unde robinetul este acționat frecvent, fiind disponibil în dimensiuni de până la DN 600 și în variante non-autolubrifiante pentru medii fără lubrifiere naturală."
+        "a": "MAGNUM este o gamă de robineți cu bilă în execuție wafer sau split wafer, disponibilă în oțel carbon și inox, acoperind presiuni de la PN 16 până la PN 100. KRATOS este orientat spre aplicații cu ciclicitate ridicată, unde robinetul este acționat frecvent, fiind disponibil și în variante non-autolubrifiante pentru medii fără lubrifiere naturală."
       },
       {
         "q": "Ce înseamnă actuatoarele OMAL de tip DA și SR?",
@@ -1053,8 +1053,8 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Ball Valves","url":"https://www.omal.com/en/products/ball-valves/","publisher":"OMAL","accessed":"2026-09-25"},
       {"title":"Products","url":"https://www.omal.com/en/products.html","publisher":"OMAL","accessed":"2026-09-25"},
@@ -1069,21 +1069,21 @@ Pentru România, gama OMAL are sens la instalații industriale, chimice sau de t
     headquarters: "Wuppertal, Germania",
     overview: `Knipex este un producător german de clești și scule de mână, cu sediul la Wuppertal, în cartierul Cronenberg, tradițional pentru fabricarea de scule. Compania a pornit în 1882 ca mică forjă și a rămas în familia fondatoare, condusă din 1996 de Ralf Putsch, strănepotul fondatorului Carl Gustav Putsch. Gama include peste o sută de modele de bază și peste 900 de variante — clești combinați, clești pentru electricieni, clești de precizie pentru electronică, clești de tăiat sârmă și clești de apă tip Cobra și Alligator.
 
-Diferența față de un cleste generic vine din specializarea pe funcție — fiecare model e optimizat pentru o singură operație, spre deosebire de un set generic de scule unde compromisurile de design se văd la utilizare intensă. Gama de scule izolate rezistă la tensiuni de până la 1000V, testate pentru lucrul sub tensiune la instalații electrice, iar clești precum Cobra combină strângerea automată pe diametru cu o singură mișcare de reglare, fără șurub de ajustare separat ca la o cheie reglabilă clasică. Peste 60% din producție se exportă în peste o sută de țări.
+Gama este organizată pe funcții de lucru — prindere, tăiere, dezizolare, strângere —, iar fiecare familie de clești are variante de lungime, mâner și finisaj. Gama de scule izolate rezistă la tensiuni de până la 1000V, testate pentru lucrul sub tensiune la instalații electrice, iar clești precum Cobra combină strângerea automată pe diametru cu o singură mișcare de reglare, fără șurub de ajustare separat ca la o cheie reglabilă clasică. Peste 60% din producție se exportă în peste o sută de țări.
 
 Pentru România, sculele Knipex au sens la electricieni, instalatori și ateliere de mentenanță industrială care au nevoie de clești fiabili pentru uz zilnic intens.`,
     whyChoose: [
       "Peste 140 de ani de fabricație de clești, în aceeași familie fondatoare din 1882",
-      "Peste 900 de variante de clești, fiecare optimizată pentru o singură funcție de lucru",
+      "Peste 900 de variante de clești, în lungimi, tipuri de mâner și finisaje diferite",
       "Scule izolate certificate pentru lucrul sub tensiune până la 1000V",
       "Clești de apă tip Cobra cu reglare automată pe diametru, fără șurub separat",
       "Peste 60% din producție exportată în peste o sută de țări",
     ],
     keyProducts: [
       { name: "Clești combinați și clești pentru electricieni", description: "Gama de bază pentru uz general — clești combinați pentru prindere, îndoire și tăiere, plus clești dedicați electricienilor pentru dezizolare și tăiere de cablu. Construcție forjată, cu articulație de precizie și tăiș tratat termic. Aplicație tipică: instalații electrice și mentenanță generală. Pentru ofertă, clientul trebuie să trimită lungimea dorită și dacă are nevoie de mâner izolat." },
-      { name: "Clești de apă tip Cobra și Alligator", description: "Clești cu deschidere reglabilă automat pe diametrul piesei, fără șurub de reglare separat, folosiți la instalații sanitare și mentenanță industrială. Varianta Alligator are un design mai robust pentru piese mai mari. Pentru comandă, clientul trebuie să trimită lungimea clestelui și diametrul maxim de prindere necesar." },
+      { name: "Clești de apă tip Cobra și Alligator", description: "Clești cu deschidere reglabilă automat pe diametrul piesei, fără șurub de reglare separat, folosiți la instalații sanitare și mentenanță industrială. Varianta Alligator are un design mai robust pentru piese mai mari. Pentru comandă, clientul trebuie să trimită lungimea cleștelui și diametrul maxim de prindere necesar." },
       { name: "Clești de precizie pentru electronică", description: "Familie de clești mici, de precizie, pentru lucrul cu componente electronice — dezizolare fină, tăiere de fire subțiri și prindere în spații restrânse. Vârfuri fine, tratate pentru rezistență la uzură. Aplicație tipică: asamblare și service electronic. Pentru ofertă, clientul trebuie să trimită tipul de operație și lungimea dorită." },
-      { name: "Scule izolate până la 1000V", description: "Variante ale clestilor de bază cu mâner izolat, testate pentru lucrul sub tensiune la instalații electrice de până la 1000V. Izolația e integrată în procesul de fabricație, nu adăugată ulterior. Aplicație tipică: intervenții la tablouri electrice sub tensiune. Pentru comandă, clientul trebuie să confirme tensiunea de lucru și tipul de clește dorit." },
+      { name: "Scule izolate până la 1000V", description: "Variante ale cleștilor de bază cu mâner izolat, testate pentru lucrul sub tensiune la instalații electrice de până la 1000V. Aplicație tipică: intervenții la tablouri electrice sub tensiune. Pentru comandă, clientul trebuie să confirme tensiunea de lucru și tipul de clește dorit." },
     ],
     industries: [
       "Instalații electrice — clești izolați și clești pentru electricieni",
@@ -1133,7 +1133,7 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
       },
       {
         "code": "92 00 02",
-        "description": "Set 5 piese pensete premium din oțel inoxidabil"
+        "description": "Set 5 piese pensete din oțel inoxidabil"
       },
       {
         "code": "92 00 04",
@@ -1176,8 +1176,8 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"KNIPEX Sets Catalog 12/2023","url":"https://web-assets.knipex.com/sites/default/files/2023-12/KNIPEX%20Sets%20Catalog%2012_2023%20Small%20file.pdf","publisher":"Knipex","accessed":"2026-09-26"},
       { title: "Knipex", url: "https://en.wikipedia.org/wiki/Knipex", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -1191,7 +1191,7 @@ Pentru România, sculele Knipex au sens la electricieni, instalatori și atelier
     headquarters: "Sovico (Monza e Brianza), Italia",
     overview: `Beta Utensili este un producător italian de scule de mână și electrice profesionale, fondat în 1923 de Alessandro Ciceri ca mică fabrică de piese din fontă și oțel, cu sediul actual la Sovico. Catalogul depășește 16.000 de referințe și acoperă chei dinamometrice, chei tubulare și combinate, șurubelnițe, clești, ciocane și dălți, unelte pneumatice și electrice — ultimele completate în 2018 prin integrarea BM S.p.A. în grup —, plus mobilier modular pentru ateliere din liniile RSC55, RSC50 2.0 și C45PRO 2.0.
 
-Ce diferențiază Beta de un producător generic de scule e combinația dintre gama largă de scule de mână și serviciile proprii de metrologie — verificarea și etalonarea cheilor dinamometrice și a altor instrumente de măsură —, serviciu pe care mulți concurenți din segmentul de scule profesionale, precum Stahlwille, îl oferă mai limitat sau doar prin terți. Mobilierul modular de atelier din liniile RSC și C45PRO completează oferta cu soluții de organizare pentru scule, nu doar sculele în sine.
+Pe lângă gama largă de scule de mână, Beta oferă servicii de metrologie — etalonarea cheilor dinamometrice, certificarea multimetrelor și a altor instrumente de măsură. Mobilierul modular de atelier din liniile RSC și C45PRO completează oferta cu soluții de organizare pentru scule, nu doar sculele în sine.
 
 Pentru România, gama Beta are sens la ateliere de reparații auto, întreținere industrială și service unde se caută scule de mână robuste pentru uz zilnic, plus, unde e cazul, verificarea periodică a cheilor dinamometrice folosite la cuplurile de strângere critice.`,
     whyChoose: [
@@ -1217,11 +1217,11 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
     productCodes: [
       {
         "code": "605BC/15",
-        "description": "cheie dinamometrică cu cap reversibil, din gama de chei dinamometrice și multiplicatoare"
+        "description": "cheie dinamometrică din gama Beta; parametrii se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "666",
-        "description": "multiplicator de cuplu din gama de chei dinamometrice Beta"
+        "description": "cheie dinamometrică cu declanșare (click) Zero-Reset, pentru strângere pe dreapta"
       },
       {
         "code": "910A",
@@ -1229,15 +1229,15 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
       },
       {
         "code": "920A",
-        "description": "cheie de manevră, variantă A din gama de chei de manevră"
+        "description": "cheie tubulară de mână cu atașament pătrat de 1/2 inchi și gură hexagonală, cromată"
       },
       {
         "code": "920B",
-        "description": "cheie de manevră, variantă B din aceeași gamă"
+        "description": "cod din gama de chei tubulare Beta; parametrii se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "920PE",
-        "description": "cheie de manevră, variantă PE, cu mâner ergonomic"
+        "description": "cheie tubulară de mână cu cap hexagonal și atașament pătrat de 1/2 inchi, cromată, cu inserții brunate"
       },
       {
         "code": "42",
@@ -1263,15 +1263,15 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
     faq: [
       {
         "q": "Ce diferență este între liniile de mobilier de atelier Beta RSC55 și C45PRO 2.0?",
-        "a": "RSC55 face parte din linia „Racing Modular System”, cu un design orientat spre personalizare vizuală și configurare modulară a sertarelor și dulapurilor. C45PRO 2.0 este linia profesională standard, gândită pentru robustețe și utilizare intensivă zilnică în ateliere, cu accent pe funcționalitate mai degrabă decât pe elementele de design. Ambele linii dispun de configurator 3D pentru personalizarea configurației finale."
+        "a": "RSC55 face parte din linia „Racing Modular System”, cu un design orientat spre personalizare vizuală și configurare modulară a sertarelor și dulapurilor. C45PRO 2.0 este linia profesională standard, gândită pentru robustețe și utilizare intensivă zilnică în ateliere, cu accent pe funcționalitate mai degrabă decât pe elementele de design."
       },
       {
-        "q": "Ce este multiplicatorul de cuplu Beta 666?",
-        "a": "Modelul 666 este un multiplicator de cuplu folosit împreună cu o cheie dinamometrică pentru a atinge valori de strângere mult peste capacitatea manuală normală, util la asamblări industriale grele, precum flanșe sau șuruburi de fundație. Face parte din gama de chei dinamometrice și multiplicatoare Beta, alături de modele precum 605BC/15."
+        "q": "Ce este cheia dinamometrică Beta 666?",
+        "a": "Modelul 666 este o cheie dinamometrică cu declanșare (click) și mecanism Zero-Reset, pentru strângere pe dreapta. Plaja de cuplu și atașamentul se confirmă pe cod, din documentația Beta."
       },
       {
-        "q": "Ce diferență este între cheile de manevră Beta 920A, 920B și 920PE?",
-        "a": "Cele trei variante aparțin aceleiași familii de chei de manevră, diferența constând în principal în forma mânerului și în opțiunile ergonomice: 920PE adaugă un mâner cu înveliș confortabil pentru utilizare prelungită, în timp ce 920A și 920B acoperă configurații de bază ale aceleiași game. Alegerea depinde de preferința utilizatorului și de tipul de lucrare efectuată."
+        "q": "Ce diferență este între cheile tubulare Beta 920A, 920B și 920PE?",
+        "a": "920A și 920PE sunt chei tubulare de mână cu atașament pătrat de 1/2 inchi: 920A cu gură hexagonală, cromată, iar 920PE cu cap hexagonal și inserții brunate. Pentru 920B confirmăm caracteristicile pe cod, din documentația Beta."
       },
       {
         "q": "Livrați scule Beta Utensili în România?",
@@ -1284,8 +1284,8 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Beta Tools — Homepage","url":"https://www.beta-tools.com/en_INT/","publisher":"Beta Utensili","accessed":"2026-09-25"},
       { title: "Beta Utensili — Professional Tools", url: "https://www.beta-tools.com", publisher: "Beta Utensili S.p.A.", accessed: "2026-09-22" },
@@ -1297,14 +1297,14 @@ Pentru România, gama Beta are sens la ateliere de reparații auto, întreținer
     name: "PCB Piezotronics",
     founded: 1967,
     headquarters: "Depew, New York, SUA",
-    overview: `PCB Piezotronics este un producător american de senzori de vibrații, presiune, forță și șoc, fondat în august 1967 și cu sediul la Depew, în statul New York. Gama acoperă accelerometre piezoelectrice de uz general, accelerometre miniatură, variante pentru temperaturi înalte și accelerometre ICP® cu electronică de condiționare integrată, alături de traductoare de presiune, senzori de forță și celule de sarcină. Putem oferta senzori individuali sau seturi cu condiționatoare de semnal asociate.
+    overview: `PCB Piezotronics este un producător american de senzori de vibrații, presiune, forță și șoc, fondat în 1967 și cu sediul la Depew, în statul New York. Gama acoperă accelerometre piezoelectrice de uz general, accelerometre miniatură, variante pentru temperaturi înalte și accelerometre ICP® cu electronică de condiționare integrată, alături de traductoare de presiune, senzori de forță și celule de sarcină. Putem oferta senzori individuali sau seturi cu condiționatoare de semnal asociate.
 
-PCB face parte din grupul Amphenol, ajuns aici pe un traseu de achiziții — PCB Group a fost preluat de MTS Systems Corporation în 2016, iar MTS a intrat ulterior în portofoliul Amphenol —, ceea ce dă acces la o rețea de producție și distribuție mai mare decât la un producător independent de senzori, comparabilă ca acoperire cu ce oferă SKF pe segmentul de monitorizare a vibrațiilor pentru mentenanță predictivă. Tehnologia ICP® integrează electronica de condiționare direct în corpul senzorului, ceea ce simplifică instalarea față de un accelerometru clasic cu amplificator extern separat.
+PCB face parte din grupul Amphenol, ajuns aici pe un traseu de achiziții — PCB Group a fost preluat de MTS Systems Corporation în 2016, iar MTS a intrat ulterior în portofoliul Amphenol —; achiziția Amphenol–MTS a fost finalizată în 2021. Tehnologia ICP® integrează electronica de condiționare direct în corpul senzorului, ceea ce simplifică instalarea față de un accelerometru clasic cu amplificator extern separat.
 
 Pentru România, senzorii PCB au sens la programele de mentenanță predictivă din industrie — monitorizarea vibrațiilor pe rulmenți și motoare, teste de laborator sau linii unde se cere măsurarea precisă a forței sau presiunii.`,
     whyChoose: [
       "Tehnologie ICP® cu electronică de condiționare integrată direct în senzor, fără amplificator extern",
-      "Parte din grupul Amphenol, cu acces la rețea extinsă de producție și distribuție",
+      "Parte din grupul Amphenol din 2021",
       "Gamă largă — accelerometre, traductoare de presiune, celule de sarcină și traductoare de cuplu",
       "Variante de accelerometre pentru temperaturi înalte, potrivite pentru monitorizare pe utilaje fierbinți",
       "Fondat în 1967, cu decenii de experiență în măsurarea vibrațiilor industriale",
@@ -1326,11 +1326,11 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
     productCodes: [
       {
         "code": "352A7X",
-        "description": "Accelerometru piezoelectric miniatural pentru măsurare pe un singur ax"
+        "description": "Accelerometru PCB Piezotronics; parametrii se confirmă pe cod, din fișa tehnică a producătorului"
       },
       {
         "code": "356A4X",
-        "description": "Accelerometru triaxial miniatural pentru măsurare simultană pe trei axe"
+        "description": "Accelerometru PCB Piezotronics; parametrii se confirmă pe cod, din fișa tehnică a producătorului"
       },
       {
         "code": "604B31",
@@ -1358,7 +1358,7 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
       },
       {
         "code": "629A11",
-        "description": "Accelerometru ICP triaxial cu conector integral și cablu poliuretan"
+        "description": "Accelerometru ICP triaxial cu cablu poliuretan integral de 10 ft, cu terminale libere"
       },
       {
         "code": "629A61",
@@ -1376,7 +1376,7 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
       },
       {
         "q": "Ce este varianta EX629A11A din gama PCB Piezotronics?",
-        "a": "EX629A11A este versiunea certificată ATEX și CSA a accelerometrului triaxial 629A11, destinată instalării în zone cu atmosferă potențial explozivă. Are aceleași caracteristici de bază ca modelul standard, dar trece prin certificări suplimentare pentru siguranță intrinsecă, necesare în rafinării, platforme petroliere sau alte medii clasificate ca periculoase."
+        "a": "EX629A11A este versiunea certificată ATEX și CSA a accelerometrului triaxial 629A11, destinată instalării în zone cu atmosferă potențial explozivă. Fișa tehnică a producătorului indică pentru acest model certificările CSA (C-US) și ATEX."
       },
       {
         "q": "Ce parametri sunt necesari pentru o ofertă de accelerometre PCB Piezotronics?",
@@ -1387,14 +1387,14 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
         "a": "Accelerometrele PCB Piezotronics ajung la noi pe bază de comandă transmisă către producător, cu un termen mediu de 1–4 săptămâni, gama nefiind ținută pe raft din cauza numărului mare de variante de sensibilitate și montaj."
       },
       {
-        "q": "Ce este accelerometrul triaxial miniatural 356A4X de la PCB Piezotronics?",
-        "a": "356A4X este un accelerometru piezoelectric miniatural care măsoară simultan vibrațiile pe trei axe perpendiculare, util atunci când spațiul de montaj pe echipament este limitat, dar sunt necesare date complete de vibrație. Este folosit adesea în teste de laborator sau monitorizare de proces unde dimensiunea senzorului contează."
+        "q": "Ce este accelerometrul 356A4X de la PCB Piezotronics?",
+        "a": "356A4X este un cod de accelerometru PCB Piezotronics; configurația exactă (număr de axe, sensibilitate, montaj) se confirmă pe cod, din fișa tehnică a producătorului."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Accelerometers – Sensors for Test & Measurement","url":"https://www.pcb.com/sensors-for-test-measurement/accelerometers","publisher":"PCB Piezotronics","accessed":"2026-09-26"},
       {"title":"Industrial ICP Triaxial Accelerometers – Data Sheet","url":"https://www.pcb.com/ContentStore/mktg/IMI_Downloads/Triaxial%20Accelerometer%20Data%20Sheet.pdf","publisher":"PCB Piezotronics","accessed":"2026-09-26"},
@@ -1407,21 +1407,21 @@ Pentru România, senzorii PCB au sens la programele de mentenanță predictivă 
     name: "BD Sensors",
     founded: 1994,
     headquarters: "Thierstein, Germania",
-    overview: `BD Sensors este un producător german de traductoare electronice de presiune și nivel hidrostatic, cu sediul la Thierstein, în nordul Bavariei, fondat în 1994 ca afacere de familie aflată acum la a treia generație. Gama acoperă traductoare de presiune relativă și absolută în variante analogice și digitale (IO-Link, RS 485 Modbus, I2C), până la 800 bar, plus sonde de nivel hidrostatic scufundate (Tauchsonden) și sonde cu filet (Einschraubsonden). Putem oferta traductoare individuale sau seturi complete pentru monitorizarea unui rezervor sau a unei linii de proces.
+    overview: `BD Sensors este un producător german de traductoare electronice de presiune și nivel hidrostatic, cu sediul la Thierstein, în nordul Bavariei, fondat în 1994. Gama acoperă traductoare de presiune relativă și absolută în variante analogice și digitale (IO-Link, RS 485 Modbus, I2C), plus sonde de nivel hidrostatic scufundate (Tauchsonden) și sonde cu filet (Einschraubsonden). Putem oferta traductoare individuale sau seturi complete pentru monitorizarea unui rezervor sau a unei linii de proces.
 
-Diferența tehnică vine din laboratorul propriu de calibrare pentru presiune, acreditat DAkkS (organismul german de acreditare), pentru game de până la 800 bar — un nivel de trasabilitate metrologică pe care mulți concurenți de talia WIKA îl oferă doar pentru o parte din gamă sau prin parteneri externi. Sondele de nivel hidrostatic cu senzor ceramic, precum seria LMK 808, măsoară nivelul indirect, prin presiunea coloanei de lichid, soluție mai simplă mecanic decât un traductor cu plutitor la rezervoare adânci.
+Diferența tehnică vine din laboratorul propriu de calibrare pentru presiune, acreditat DAkkS (organismul german de acreditare), care poate calibra presiuni relative și absolute de până la 5.000 bar. Sondele de nivel hidrostatic cu senzor ceramic, precum seria LMK 808, măsoară nivelul indirect, prin presiunea coloanei de lichid, soluție mai simplă mecanic decât un traductor cu plutitor la rezervoare adânci.
 
 Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei și instalațiile industriale unde e nevoie de monitorizare de presiune sau nivel cu ieșire digitală, integrabilă direct în sistemul de automatizare existent.`,
     whyChoose: [
-      "Laborator propriu de calibrare presiune, acreditat DAkkS, pentru game de până la 800 bar",
+      "Laborator propriu de calibrare presiune, acreditat DAkkS, pentru presiuni de până la 5.000 bar",
       "Traductoare cu ieșire digitală IO-Link, RS 485 Modbus sau I2C, pentru integrare directă",
-      "Companie de familie la a treia generație, cu producție păstrată în Germania",
+      "Companie cu sediul la Thierstein, în Germania",
       "Sonde de nivel hidrostatic cu senzor ceramic, pentru măsurare indirectă prin presiunea coloanei de lichid",
       "Gamă atât pentru presiune relativă și absolută, cât și pentru nivel hidrostatic, din același producător",
     ],
     keyProducts: [
-      { name: "Traductoare de presiune analogice și digitale", description: "Traductoare de presiune relativă și absolută, cu ieșiri analogice clasice (4-20mA, 0-10V) sau digitale prin IO-Link, RS 485 Modbus sau I2C, pentru game de măsură până la 800 bar. Modelul DMK 387 e dedicat valorilor mici de presiune. Folosite la monitorizarea presiunii în instalații industriale sau de proces. Pentru ofertă, clientul trebuie să trimită plaja de presiune, tipul de ieșire și fluidul măsurat." },
-      { name: "Sonde de nivel hidrostatic scufundate (Tauchsonden)", description: "Sonde de nivel cu senzor ceramic, scufundate în lichidul din rezervor sau puț, care măsoară nivelul indirect prin presiunea coloanei de lichid. Modelul LMK 808 e o variantă separabilă, cu cablu detașabil pentru mentenanță mai simplă. Aplicație tipică: monitorizarea nivelului în rezervoare de apă sau stații de epurare. Pentru comandă, clientul trebuie să trimită adâncimea de măsurat și lungimea de cablu necesară." },
+      { name: "Traductoare de presiune analogice și digitale", description: "Traductoare de presiune relativă și absolută, cu ieșiri analogice clasice (4-20mA, 0-10V) sau digitale prin IO-Link, RS 485 Modbus sau I2C, pentru game de măsură care depind de model. Modelul DMK 387 e dedicat valorilor mici de presiune. Folosite la monitorizarea presiunii în instalații industriale sau de proces. Pentru ofertă, clientul trebuie să trimită plaja de presiune, tipul de ieșire și fluidul măsurat." },
+      { name: "Sonde de nivel hidrostatic scufundate (Tauchsonden)", description: "Sonde de nivel cu senzor ceramic, scufundate în lichidul din rezervor sau puț, care măsoară nivelul indirect prin presiunea coloanei de lichid. Modelul LMK 808 face parte din gama de sonde de nivel; parametrii se confirmă pe cod, din fișa tehnică. Aplicație tipică: monitorizarea nivelului în rezervoare de apă sau stații de epurare. Pentru comandă, clientul trebuie să trimită adâncimea de măsurat și lungimea de cablu necesară." },
       { name: "Sonde cu filet (Einschraubsonden)", description: "Sonde de nivel sau presiune montate direct prin filet pe peretele sau capacul rezervorului, potrivite acolo unde o sondă scufundată cu cablu nu e practică. Se folosesc la rezervoare presurizate sau instalații unde montajul trebuie să fie etanș prin filet. Pentru ofertă, clientul trebuie să trimită tipul de filet necesar și plaja de măsură dorită." },
     ],
     industries: [
@@ -1433,7 +1433,7 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
       "Protecția mediului — monitorizare nivel în stații de epurare",
     ],
     certifications: [
-      "Laborator de calibrare presiune acreditat DAkkS, pentru game de până la 800 bar",
+      "Laborator de calibrare presiune acreditat DAkkS, pentru presiuni de până la 5.000 bar",
     ],
     infinitrade: `Gama de traductoare BD Sensors o cunoaștem din surse publice ale producătorului, fără date proprii de stoc pe modelele individuale. Aducem traductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de model și tip de ieșire. Pentru o ofertă corectă avem nevoie de plaja de măsură necesară, tipul de ieșire (analogică sau digitală, cu protocolul dorit) și, la sonde, adâncimea sau lungimea de cablu. Nu promitem disponibilitate permanentă din stoc pe niciun model.`,
     limitation: "Nu putem confirma certificatul de calibrare individual pentru fiecare traductor fără să-l solicităm punctual de la producător pentru lotul comandat.",
@@ -1502,15 +1502,15 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
     faq: [
       {
         "q": "Ce diferență este între traductoarele BD Sensors DMP și DMK?",
-        "a": "Seria DMP folosește o celulă de măsură cu element metalic, de regulă oțel inoxidabil, potrivită pentru presiuni mari și medii agresive. Seria DMK se bazează pe o celulă ceramică, mai rezistentă la coroziune și la vârfuri de presiune, dar de regulă limitată la intervale mai joase, precum DMK 351 sau DMK 458, între 0...40 mbar și 0...20 bar."
+        "a": "Seria DMP folosește o celulă de măsură cu element metalic, de regulă oțel inoxidabil, potrivită pentru presiuni mari și medii agresive. Seria DMK se bazează pe o celulă ceramică, mai rezistentă la coroziune și la vârfuri de presiune, cu game de măsură diferite în funcție de model, care se confirmă pe cod, din fișa tehnică."
       },
       {
         "q": "Ce interval de presiune acoperă traductorul BD Sensors DMP 334?",
-        "a": "DMP 334 acoperă un interval de la 0...600 bar până la 0...2200 bar, fiind una dintre cele mai robuste variante din gama DMP, destinată aplicațiilor cu presiuni foarte ridicate, precum presele hidraulice sau echipamentele de testare industrială. Pentru presiuni mai joase, gama DMP oferă variante precum DMP 320 sau DMP 331, cu intervale începând de la 100 mbar."
+        "a": "DMP 334 acoperă un interval de la 0...600 bar până la 0...2200 bar, fiind varianta din gama DMP destinată presiunilor foarte ridicate. Pentru presiuni mai joase, gama DMP oferă variante precum DMP 320 sau DMP 331, cu intervale începând de la 100 mbar."
       },
       {
         "q": "Ce este traductorul BD Sensors DMK 387?",
-        "a": "DMK 387 este un traductor de presiune dedicat măsurării presiunilor mici din sisteme și înălțimilor de umplere din rezervoare, cu interval între 0...100 mbar și 0...40 bar. Folosește o celulă ceramică, potrivită pentru medii unde rezistența la coroziune contează mai mult decât presiunea maximă suportată."
+        "a": "DMK 387 este un traductor de presiune dedicat măsurării presiunilor mici din sisteme și înălțimilor de umplere din rezervoare. Folosește o celulă ceramică, potrivită pentru medii unde rezistența la coroziune contează mai mult decât presiunea maximă suportată."
       },
       {
         "q": "Livrați traductoare BD Sensors în România?",
@@ -1523,8 +1523,8 @@ Pentru România, traductoarele BD Sensors au sens la stațiile de tratare a apei
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Pressure Transmitter","url":"https://www.bdsensors.de/en/pressure/pressure-transmitter","publisher":"BD Sensors","accessed":"2026-09-25"},
       {"title":"BD Sensors — Homepage","url":"https://www.bdsensors.de/en/","publisher":"BD Sensors","accessed":"2026-09-25"},

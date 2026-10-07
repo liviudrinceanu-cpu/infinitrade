@@ -6,25 +6,25 @@ export const brandContentBatch156 = {
     headquarters: "Everett, Washington, SUA",
     overview: `Fluke Process Instruments este divizia grupului Fluke dedicată termometriei industriale fără contact, cu sediu pentru piața americană la Everett, Washington, SUA, și birou pentru Europa, Orientul Mijlociu și Africa la Cambridge, Marea Britanie. Gama acoperă pirometre infraroșu punctuale, camere termice de proces, sisteme de imagistică acustică pentru detectarea scurgerilor și sisteme portabile de profilare termică pentru cuptoare, linii de tratament termic și procese de lipire prin refluare. Din acest portofoliu putem oferta pirometre fixe, camere de linie și seturi de profilare termică pentru fabrici unde temperatura de proces decide calitatea produsului finit.
 
-Portofoliul e organizat pe trei linii: pirometrele Endurance și Thermalert 4.0 pentru monitorizare continuă, familia Raytek Compact (CI, CM, GP, MI3) și pirometrul cu două culori Raytek Marathon MM pentru suprafețe reflectorizante, plus pirometrul Ircon Modline 7 pentru metale și sticlă. Camerele termice ThermoView TV30 și TV40, alături de linescanner-ul MP și de sistemul de imagistică a mantalei de cuptor CS400, acoperă supravegherea vizuală a proceselor. Sistemele de profilare termică Datapaq (Furnace Tracker, Oven Tracker XL2, Reflow Tracker, Food Tracker, Solar Tracker, Kiln Tracker) trec un traseu de senzori chiar prin cuptor sau prin linia de lipire, înregistrând profilul real de temperatură resimțit de produs, nu doar temperatura din incintă.
+Portofoliul e organizat pe trei linii: pirometrele Endurance și Thermalert 4.0 pentru monitorizare continuă, familia Raytek Compact (CI, CM, GP, MI3) și pirometrul Raytek Marathon MM cu emisivitate reglabilă, plus pirometrul Ircon Modline 7 pentru metale și sticlă. Camerele termice ThermoView TV30 și TV40, alături de linescanner-ul MP și de sistemul de imagistică a mantalei de cuptor CS400, acoperă supravegherea vizuală a proceselor. Sistemele de profilare termică Datapaq (Furnace Tracker, Oven Tracker XL2, Reflow Tracker, Food Tracker, Solar Tracker, Kiln Tracker) trec un traseu de senzori chiar prin cuptor sau prin linia de lipire, înregistrând profilul real de temperatură resimțit de produs, nu doar temperatura din incintă.
 
 Pentru fabrici din România cu cuptoare de ardere, linii de tratament termic al metalelor sau linii SMT de lipire prin refluare, aceste sisteme ajută la validarea profilului termic real și la depistarea zonelor de cuptor care ies din parametri, fără oprirea producției pentru verificări manuale repetate.`,
     whyChoose: [
       "Profilare termică reală în interiorul cuptorului — sistemele Datapaq urmăresc temperatura resimțită de produs pe tot parcursul procesului.",
       "Acoperire largă de aplicații — de la pirometre punctuale la camere de linie și imagistică acustică pentru scurgeri de gaz.",
-      "Pirometru cu două culori Raytek Marathon MM — citește corect temperatura pe suprafețe metalice reflectorizante, unde un pirometru standard dă erori.",
-      "Prezență directă în Europa — birou la Cambridge, Marea Britanie, pentru suport comercial pe continent.",
-      "Parte din grupul Fluke — acces la o rețea consolidată de suport tehnic și documentație.",
+      "Pirometru Raytek Marathon MM — emisivitate reglabilă de la 0,10 la 1,15, cu răspuns spectral diferit în funcție de model.",
+      "Birou regional pentru Europa, Orientul Mijlociu și Africa la Cambridge, Marea Britanie.",
+      "Divizie a grupului Fluke.",
     ],
     keyProducts: [
       { name: "Pirometre Infraroșu Endurance și Thermalert 4.0", description: "Pirometre punctuale pentru montaj fix, destinate monitorizării continue a temperaturii pe linii de producție cu acces limitat la produs. Vin în variante pentru medii industriale dure, cu ieșire analogică sau digitală spre sistemul de automatizare al liniei." },
-      { name: "Familia Raytek Compact și Marathon MM", description: "Pirometre compacte cu obiectiv fix (CI, CM, GP, MI3) pentru aplicații generale și pirometrul cu două culori Marathon MM, care corectează automat citirea pe suprafețe metalice reflectorizante sau parțial acoperite de fum și abur." },
-      { name: "Camere Termice ThermoView și Linescanner MP", description: "Camere termice de proces TV30 și TV40, plus linescanner-ul infraroșu MP, pentru supravegherea vizuală a distribuției de temperatură pe benzi continue de sticlă, metal sau hârtie, cu alarme pe zone." },
+      { name: "Familia Raytek Compact și Marathon MM", description: "Pirometre compacte cu obiectiv fix (CI, CM, GP, MI3) pentru aplicații generale și pirometrul Marathon MM, cu emisivitate reglabilă, ieșiri analogice și digitale simultane și focalizare variabilă." },
+      { name: "Camere Termice ThermoView și Linescanner MP", description: "Camere termice de proces TV30 și TV40, plus linescanner-ul infraroșu MP, pentru supravegherea vizuală a distribuției de temperatură pe benzi continue de sticlă, metal sau hârtie, cu praguri de alarmă configurabile." },
       { name: "Sisteme de Profilare Termică Datapaq", description: "Seturi portabile de senzori și logger care trec prin cuptor odată cu produsul (Furnace Tracker, Oven Tracker XL2, Reflow Tracker, Food Tracker, Solar Tracker, Kiln Tracker), pentru profilul termic real resimțit în interior, nu doar temperatura setată la panou." },
     ],
     industries: [
       "Metale și tratament termic — profilare a temperaturii în cuptoare de recoacere și călire",
-      "Sticlă — supraveghere cu linescanner pe linii float și de formare",
+      "Sticlă — supraveghere cu linescanner la procese de călire, curbare și recoacere",
       "Electronică — profilare termică pe linii de lipire prin refluare (SMT)",
       "Ceramică și cărămidă — imagistică a mantalei cuptorului rotativ (CS400)",
       "Energie solară — profilare termică pentru linii de fabricație a celulelor fotovoltaice",
@@ -41,10 +41,10 @@ Pentru fabrici din România cu cuptoare de ardere, linii de tratament termic al 
       { code: "Endurance Series", description: "pirometru fix pentru monitorizare continuă de temperatură" },
       { code: "Thermalert 4.0", description: "senzor infraroșu de temperatură pentru control de proces" },
       { code: "Raytek Compact CI", description: "pirometru compact, uz general" },
-      { code: "Raytek Compact CM", description: "pirometru compact cu afișaj digital" },
+      { code: "Raytek Compact CM", description: "pirometru compact cu interfață digitală RS232 și emisivitate reglabilă" },
       { code: "Raytek Compact GP", description: "pirometru compact, senzor de uz general" },
-      { code: "Raytek Compact MI3", description: "pirometru compact cu opțiune fibră optică" },
-      { code: "Raytek Marathon MM", description: "pirometru cu două culori, pentru suprafețe reflectorizante" },
+      { code: "Raytek Compact MI3", description: "pirometru compact cu cap de măsură miniatural și electronică separată" },
+      { code: "Raytek Marathon MM", description: "pirometru punctual cu emisivitate reglabilă" },
       { code: "Ircon Modline 7", description: "pirometru pentru metale și sticlă" },
       { code: "Raytek Raynger 3i Plus", description: "termometru infraroșu portabil pentru verificări punctuale" },
       { code: "Datapaq Furnace Tracker", description: "sistem de profilare termică pentru cuptoare" },
@@ -56,14 +56,14 @@ Pentru fabrici din România cu cuptoare de ardere, linii de tratament termic al 
     ],
     faq: [
       { q: "Ce produce Fluke Process Instruments?", a: "Fluke Process Instruments produce pirometre infraroșu, camere termice de proces și sisteme portabile de profilare termică pentru cuptoare industriale, linii de tratament termic, sticlă și lipire prin refluare. Gama acoperă atât monitorizare punctuală continuă, cât și imagistică pe linie sau profilare internă cu senzori care trec prin cuptor odată cu produsul." },
-      { q: "Cum aleg un pirometru pentru suprafețe metalice reflectorizante?", a: "Pentru metale lucioase sau parțial acoperite de oxizi, pirometrul cu două culori Raytek Marathon MM corectează automat eroarea de emisivitate, spre deosebire de un pirometru cu o singură bandă spectrală, care poate citi greșit pe astfel de suprafețe." },
+      { q: "Cum aleg un pirometru pentru suprafețe metalice reflectorizante?", a: "Pentru metale lucioase, emisivitatea suprafeței influențează puternic citirea; pirometrul Raytek Marathon MM permite reglarea emisivității între 0,10 și 1,15, iar valoarea corectă se stabilește în funcție de materialul măsurat. Trimiteți-ne materialul și domeniul de temperatură pentru a confirma modelul potrivit." },
       { q: "Ce face un sistem Datapaq față de un termocuplu montat pe linie?", a: "Sistemul Datapaq trece prin cuptor sau linia de lipire odată cu produsul, înregistrând profilul termic real resimțit intern, nu doar temperatura setată la panoul de comandă — util pentru validarea unui proces de tratament termic sau de lipire prin refluare." },
       { q: "Livrați echipamente Fluke Process Instruments în România și în cât timp?", a: "Aducem pirometrele și sistemele Datapaq la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului; nu ținem această gamă pe raft, pentru că variantele de temperatură și interfață diferă mult de la un proiect la altul." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Contact Us", url: "https://www.flukeprocessinstruments.com/en-us/about-us/contact-us", publisher: "Fluke Process Instruments", accessed: "2026-09-26" },
       { title: "Fluke Process Instruments — Home", url: "https://www.flukeprocessinstruments.com/", publisher: "Fluke Process Instruments", accessed: "2026-09-26" },
@@ -74,25 +74,25 @@ Pentru fabrici din România cu cuptoare de ardere, linii de tratament termic al 
     headquarters: "Korbach, Germania",
     overview: `KoCoS este un producător german de aparate de măsură și testare electrică, cu sediul la Korbach, Germania. Compania acoperă două direcții distincte: metrologie electrică — sisteme pentru testarea întreruptoarelor, măsurarea rezistenței de contact, testarea releelor de protecție, analiza calității energiei și înregistrarea defectelor în rețea — și metrologie optică, pentru inspecția plachetelor de siliciu și măsurarea convertoarelor catalitice auto. Din gama de metrologie electrică putem oferta sisteme pentru laboratoare PRAM și operatori de energie din România.
 
-Sistemul ARTES testează relee de protecție multi-fază, ACTAS analizează comportamentul întreruptoarelor de medie și înaltă tensiune, iar PROMET măsoară rezistența de contact a întreruptoarelor și a înfășurărilor transformatoarelor. Pentru calitatea energiei și defectele de rețea, EPPE analizează parametrii de calitate ai tensiunii, iar SHERLOG înregistrează digital evenimentele de defect. Sursele programabile EPOS alimentează testele de releu, iar sistemele METES verifică precizia contoarelor de energie. Combinația de instrumente electrice și optice sub același brand e neobișnuită pe piața de testare — majoritatea concurenților acoperă doar unul dintre cele două domenii.
+Sistemul ARTES testează relee de protecție multi-fază, ACTAS analizează comportamentul întreruptoarelor de medie și înaltă tensiune, iar PROMET măsoară rezistența de contact a întreruptoarelor și a înfășurărilor transformatoarelor. Pentru calitatea energiei și defectele de rețea, EPPE analizează parametrii de calitate ai tensiunii, iar SHERLOG înregistrează digital evenimentele de defect. Sursele EPOS sunt surse de curent alternativ și continuu pentru alimentarea și testarea motoarelor și a bobinelor de declanșare ale aparatelor de comutație, iar sistemele METES sunt sisteme portabile de testare a contoarelor de energie.
 
 Pentru piața din România, gama electrică KoCoS interesează laboratoarele de testare a releelor de protecție (PRAM), operatorii de distribuție care verifică precizia contoarelor și service-urile de mentenanță a stațiilor electrice care au nevoie de un sistem portabil pentru testarea întreruptoarelor pe teren.`,
     whyChoose: [
-      "Acoperire dublă neobișnuită — instrumente pentru rețele electrice și pentru inspecție optică în producția de semiconductori, sub același brand.",
+      "Acoperire dublă — instrumente de metrologie electrică pentru rețele și de metrologie optică, sub același brand.",
       "Sistem ARTES pentru relee de protecție — testare multi-fază, folosit în laboratoare PRAM și de operatorii de rețea.",
       "Analizor de defecte SHERLOG — înregistrare digitală a evenimentelor de rețea, utilă la ancheta post-avarie.",
-      "Producător german cu sediul la Korbach — inginerie și fabricație concentrate într-o singură locație.",
+      "Producător german cu sediul la Korbach.",
     ],
     keyProducts: [
       { name: "ARTES — Testare Relee de Protecție", description: "Sistem multi-fază pentru verificarea timpilor de declanșare și a pragurilor de protecție ale releelor din stațiile electrice, folosit la punerea în funcțiune și la verificările periodice din laboratoarele PRAM." },
       { name: "ACTAS — Analiză Întreruptoare de Putere", description: "Sistem pentru testarea dinamică a întreruptoarelor de medie și înaltă tensiune, măsurând timpii de deschidere și închidere ai contactelor la manevră." },
       { name: "EPPE și SHERLOG — Calitate Energie și Defecte", description: "EPPE analizează parametrii de calitate ai tensiunii din rețea, iar SHERLOG înregistrează digital evenimentele de defect, util pentru ancheta post-avarie a operatorilor de distribuție." },
-      { name: "METES și EPOS — Testare Contoare și Surse", description: "METES verifică precizia contoarelor de energie, iar sursele programabile EPOS alimentează testele de relee și de instrumente de protecție cu semnale de curent și tensiune configurabile." },
+      { name: "METES și EPOS — Testare Contoare și Surse", description: "METES sunt sisteme portabile de testare a contoarelor de energie, iar sursele EPOS furnizează curent alternativ și continuu pentru alimentarea și testarea motoarelor și a bobinelor de declanșare ale aparatelor de comutație." },
     ],
     industries: [
       "Distribuție energie electrică — testare relee de protecție și întreruptoare de medie/înaltă tensiune",
       "Laboratoare PRAM — verificarea periodică a echipamentelor de protecție",
-      "Producție semiconductori — inspecție optică a plachetelor de siliciu (WATOM, INDEC)",
+      "Producție semiconductori — măsurarea profilului marginii plachetelor de siliciu (WATOM)",
       "Industria auto — măsurarea convertoarelor catalitice (OMCAT)",
       "Operatori de contorizare — verificarea preciziei contoarelor de energie (METES)",
     ],
@@ -104,11 +104,11 @@ Pentru piața din România, gama electrică KoCoS interesează laboratoarele de 
       { code: "ARTES", description: "sistem de testare relee de protecție, multi-fază" },
       { code: "EPPE", description: "analizor de calitate a energiei electrice" },
       { code: "SHERLOG", description: "înregistrator digital de defecte pentru rețele electrice" },
-      { code: "EPOS", description: "sursă programabilă pentru testarea releelor de protecție" },
+      { code: "EPOS", description: "surse de curent alternativ și continuu pentru alimentarea și testarea motoarelor și a bobinelor de declanșare ale aparatelor de comutație" },
       { code: "METES", description: "sistem de testare a contoarelor de energie" },
       { code: "WATOM", description: "sistem de măsurare a profilului marginii plachetei" },
-      { code: "LOTOS", description: "sistem de măsurare și inspecție optică 3D" },
-      { code: "INDEC", description: "sistem de inspecție optică în vid pentru plachete" },
+      { code: "LOTOS", description: "sistem optic de măsurare a contururilor exterioare și interioare ale obiectelor măsurate" },
+      { code: "INDEC", description: "sistem de inspecție în linie, fără contact, pentru capace și închideri, în procesul de producție" },
       { code: "OMCAT", description: "sistem de măsurare a convertoarelor catalitice auto" },
     ],
     faq: [
@@ -119,8 +119,8 @@ Pentru piața din România, gama electrică KoCoS interesează laboratoarele de 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "KoCoS — Home", url: "https://www.kocos.com/", publisher: "KoCoS Messtechnik", accessed: "2026-09-26" },
       { title: "Company", url: "https://www.kocos.com/company", publisher: "KoCoS Messtechnik", accessed: "2026-09-26" },
@@ -129,16 +129,16 @@ Pentru piața din România, gama electrică KoCoS interesează laboratoarele de 
   oros: {
     name: "Oros",
     headquarters: "Montbonnot-Saint-Martin, Franța",
-    certifications: ["ISO 9001:2015 — proiectare, fabricație și calibrare proprii"],
+    certifications: ["ISO 9001:2015 — fabricație și calibrare, conform declarației producătorului"],
     overview: `Oros este un producător francez de analizoare de vibrații și zgomot, cu sediul la Montbonnot-Saint-Martin, lângă Grenoble. Gama acoperă analizoare portabile și de banc cu 4 până la 32 de canale native, extensibile prin sincronizare până la 1.000 de canale, plus platforma software NVGate pentru analiză spectrală, urmărire de ordine, echilibrare de rotor și analiză modală. Din acest portofoliu putem oferta analizoare pentru laboratoare de vibrații și pentru mentenanța predictivă a mașinilor rotative.
 
-Analizorul de buzunar O4, cu 4 canale și conexiune USB, deservește măsurători rapide de teren, în timp ce familia Teamwork OR35/OR36/OR38 (10, 16 și respectiv 32 de canale native) acoperă teste de laborator și de producție unde e nevoie de sincronizare pe mai multe puncte. Platforma NVGate rulează pe toate instrumentele și oferă module pentru analiză FFT în bandă îngustă, analiză pe 1/n octave, urmărire de ordine, deformații operaționale (ODS), analiză modală și echilibrare de rotor — module care la alți producători vin adesea ca sisteme software separate.
+Analizorul de buzunar O4, cu 4 canale și conexiune USB, deservește măsurători rapide de teren, în timp ce familia Teamwork OR35/OR36/OR38 (10, 16 și respectiv 32 de canale native) acoperă teste de laborator și de producție unde e nevoie de sincronizare pe mai multe puncte. Platforma NVGate rulează pe toate instrumentele și oferă module pentru analiză FFT în bandă îngustă, analiză pe 1/n octave, urmărire de ordine, deformații operaționale (ODS), analiză modală și echilibrare de rotor.
 
-Pentru fabrici din România cu mașini rotative critice — compresoare, turbine, ventilatoare industriale — analizoarele Oros ajută la diagnosticarea vibrațiilor și la echilibrarea rotoarelor pe teren, iar în laboratoarele de acustică, la măsurarea puterii și calității sunetului pentru certificarea produselor.`,
+Pentru fabrici din România cu mașini rotative critice — compresoare, turbine, ventilatoare industriale — analizoarele Oros ajută la diagnosticarea vibrațiilor și la echilibrarea rotoarelor pe teren, iar în laboratoarele de acustică, la măsurarea puterii acustice.`,
     whyChoose: [
       "Scalabilitate de la 4 la 1.000 de canale — același software NVGate, de la analizorul portabil O4 la sisteme de producție OR38.",
-      "Module de analiză completă în platforma software — FFT, urmărire de ordine, echilibrare de rotor și analiză modală, fără licențe separate pentru fiecare funcție.",
-      "Certificare ISO 9001:2015 — proiectare, fabricație și calibrare realizate în aceeași unitate din Franța.",
+      "Module de analiză completă în platforma software — FFT, urmărire de ordine, echilibrare de rotor și analiză modală, activate după nevoile proiectului.",
+      "Certificare ISO 9001:2015 — conform declarației producătorului.",
       "Analizor portabil O4 cu conexiune USB — potrivit pentru măsurători rapide de teren, fără echipament suplimentar de alimentare.",
     ],
     keyProducts: [
@@ -161,14 +161,14 @@ Pentru fabrici din România cu mașini rotative critice — compresoare, turbine
       { code: "OR36", description: "analizor/înregistrator Teamwork cu 16 canale" },
       { code: "OR38", description: "analizor/înregistrator Teamwork cu 32 de canale" },
       { code: "NVGate", description: "platformă software de analiză vibrații și zgomot" },
-      { code: "NVGate Reader", description: "aplicație gratuită pentru vizualizarea datelor înregistrate" },
+      { code: "NVGate Reader", description: "aplicație pentru vizualizarea datelor înregistrate" },
       { code: "Modul FFT", description: "analiză spectrală în bandă îngustă" },
       { code: "Modul Order Tracking", description: "urmărire de ordine pentru mașini rotative" },
       { code: "Modul Analiză Modală", description: "determinarea modurilor proprii de vibrație ale structurii" },
       { code: "Modul ODS", description: "analiză a deformațiilor operaționale ale structurii" },
       { code: "Modul Echilibrare Rotor", description: "echilibrare de rotor pe unul sau mai multe planuri" },
       { code: "Modul 1/n Octave", description: "analiză acustică pe benzi de octavă" },
-      { code: "Modul Putere și Calitate Sunet", description: "măsurarea puterii acustice și a calității sunetului" },
+      { code: "Modul Putere Acustică", description: "măsurarea puterii acustice" },
     ],
     faq: [
       { q: "Ce produce Oros?", a: "Oros produce analizoare portabile și de laborator pentru vibrații și zgomot, cu 4 până la 32 de canale native, extensibile prin sincronizare la instalații mai mari, plus platforma software NVGate pentru analiză spectrală, urmărire de ordine și echilibrare de rotor." },
@@ -178,8 +178,8 @@ Pentru fabrici din România cu mașini rotative critice — compresoare, turbine
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "OROS — Products", url: "https://www.oros.com/products/", publisher: "OROS", accessed: "2026-09-26" },
       { title: "OROS Group - Sound & Vibration measurement and analysis", url: "https://www.oros.com/oros-group-sound-vibration-measurement-and-analysis/", publisher: "OROS", accessed: "2026-09-26" },
@@ -189,7 +189,7 @@ Pentru fabrici din România cu mașini rotative critice — compresoare, turbine
     name: "Teledyne LeCroy",
     founded: 1964,
     headquarters: "Chestnut Ridge, New York, SUA",
-    certifications: ["ISO 9001:2015 — proiectare, fabricație și service pentru osciloscoape și digitizoare"],
+    certifications: ["ISO 9001 — conform declarației producătorului"],
     overview: `Teledyne LeCroy este un producător american de osciloscoape și echipamente electronice de test, fondat în 1964 ca LeCroy Research Systems și integrat ulterior în grupul Teledyne Technologies, cu sediul la Chestnut Ridge, statul New York. Gama acoperă osciloscoape de la bandă medie până la 65 GHz, analizoare de protocol pentru PCIe, USB și Bluetooth, precum și instrumente de achiziție modulară de date. Din acest portofoliu putem oferta osciloscoape de laborator și analizoare de protocol pentru dezvoltare și testare electronică.
 
 Osciloscoapele de 12 biți din familiile HDO6000B, WaveSurfer 4000HD și WaveRunner 8000HD acoperă benzi de la 200 MHz la 2 GHz, cu rezoluție verticală superioară osciloscoapelor clasice de 8 biți din familia WaveRunner 9000. La partea de vârf, seria WaveMaster 8000HD ajunge până la 65 GHz, iar sistemul modular LabMaster 10 Zi-A poate fi configurat cu 4 până la 80 de canale pentru aplicații de cercetare. Pentru analiza semnalelor rapide, analizoarele Summit M64 (PCIe/NVMe/CXL), Frontline X700 (Bluetooth/Wi-Fi) și Voyager M480x (USB4) completează gama de test digital.
@@ -197,22 +197,22 @@ Osciloscoapele de 12 biți din familiile HDO6000B, WaveSurfer 4000HD și WaveRun
 Pentru laboratoare de dezvoltare electronică și linii de testare din România, osciloscoapele de 12 biți sunt utile la depanarea semnalelor cu zgomot redus, iar analizoarele de protocol la validarea interfețelor de mare viteză din echipamente auto, telecom sau centre de date.`,
     whyChoose: [
       "Rezoluție de 12 biți pe familiile HDO și WaveRunner HD — vede detalii de semnal invizibile pe un osciloscop clasic de 8 biți.",
-      "Bandă de până la 65 GHz — seria WaveMaster 8000HD acoperă cele mai rapide semnale digitale actuale.",
+      "Bandă de până la 65 GHz — seria WaveMaster 8000HD acoperă semnale digitale foarte rapide.",
       "Sistem modular LabMaster 10 Zi-A — configurabil de la 4 la 80 de canale, pentru instalații de cercetare mari.",
-      "Certificare ISO 9001:2015 — pentru proiectarea și fabricația osciloscoapelor și digitizoarelor.",
-      "Parte din grupul Teledyne Technologies — acces la o rețea globală de service și distribuție.",
+      "Certificare ISO 9001 — conform declarației producătorului.",
+      "Parte din grupul Teledyne Technologies.",
     ],
     keyProducts: [
       { name: "Osciloscoape 12 biți HDO și WaveSurfer HD", description: "Familiile HDO6000B, HDO4000A și WaveSurfer 4000HD acoperă benzi de la 200 MHz la 1 GHz, cu rezoluție de 12 biți, utile la vizualizarea semnalelor mici suprapuse peste unele mari." },
       { name: "WaveRunner 8000HD și WaveRunner 9000", description: "WaveRunner 8000HD (12 biți, 350 MHz - 2 GHz) și WaveRunner 9000 (8 biți, 500 MHz - 4 GHz) acoperă teste generale de laborator, cu diferență de rezoluție verticală între cele două familii." },
       { name: "WaveMaster 8000HD și LabMaster 10 Zi-A", description: "WaveMaster 8000HD ajunge la 65 GHz pentru semnale foarte rapide, iar sistemul modular LabMaster 10 Zi-A se configurează cu 4 până la 80 de canale pentru aplicații de cercetare avansată." },
-      { name: "Analizoare de Protocol Summit, Frontline și Voyager", description: "Summit M64 analizează trafic PCIe/NVMe/CXL, Frontline X700 acoperă Bluetooth și Wi-Fi, iar Voyager M480x testează interfețe USB4 la 80 Gb/s, pentru validare de produse electronice." },
+      { name: "Analizoare de Protocol Summit, Frontline și Voyager", description: "Summit M64 analizează trafic PCIe/NVMe/CXL, Frontline X700 acoperă Bluetooth și Wi-Fi, iar Voyager M480x testează interfețe USB4, pentru validare de produse electronice." },
     ],
     industries: [
       "Centre de date — testare interfețe PCIe/NVMe/CXL de mare viteză",
       "Automotive — validare protocoale de comunicație și electronice de bord",
       "Telecomunicații — analiză protocoale Bluetooth, Wi-Fi și USB4",
-      "Aerospațial și apărare — Teledyne LeCroy: testare semnale digitale de mare viteză",
+      "Aerospațial și apărare — testare semnale digitale de mare viteză (Teledyne Lecroy)",
       "Cercetare și educație — osciloscoape de laborator pentru dezvoltare de circuite",
     ],
     infinitrade: `Informațiile despre gama Teledyne LeCroy provin din surse publice ale producătorului; nu deținem date proprii de stoc pentru osciloscoapele și analizoarele din acest portofoliu. Aducem la comandă modelele din familiile WaveSurfer, WaveRunner, HDO și analizoarele de protocol, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută. Nu ținem această gamă pe raft — fiecare osciloscop se configurează pe bandă, număr de canale și opțiuni software de analiză. Pentru o ofertă corectă, trimiteți-ne banda de frecvență necesară, numărul de canale și protocolul de test pe care trebuie să-l acopere instrumentul.`,
@@ -234,9 +234,9 @@ Pentru laboratoare de dezvoltare electronică și linii de testare din România,
       { code: "T3DSO700HD", description: "osciloscop 12 biți, 70 - 200 MHz" },
       { code: "MDA 8000HD", description: "analizor motoare de acționare, 350 MHz - 2 GHz" },
       { code: "Summit M64", description: "analizor de protocol PCIe/NVMe/CXL" },
-      { code: "Frontline X700", description: "analizor de protocol Bluetooth, Wi-Fi, Matter" },
-      { code: "Voyager M480x", description: "analizor de protocol USB4, 80 Gb/s" },
-      { code: "Xena Z1608 Edun", description: "generator de trafic Ethernet pentru testare rețea" },
+      { code: "Frontline X700", description: "analizor de protocol Bluetooth și Wi-Fi" },
+      { code: "Voyager M480x", description: "analizor de protocol USB4" },
+      
     ],
     faq: [
       { q: "Ce produce Teledyne LeCroy?", a: "Teledyne LeCroy produce osciloscoape de la bandă medie până la 65 GHz, analizoare de protocol pentru PCIe, USB și Bluetooth, plus instrumente de achiziție modulară de date, pentru dezvoltare și testare electronică de mare viteză." },
@@ -246,8 +246,8 @@ Pentru laboratoare de dezvoltare electronică și linii de testare din România,
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Teledyne LeCroy — Oscilloscopes", url: "https://teledynelecroy.com/oscilloscope/", publisher: "Teledyne LeCroy", accessed: "2026-09-26" },
       { title: "About Us", url: "https://store.teledynelecroy.com/pages/about-us", publisher: "Teledyne LeCroy", accessed: "2026-09-26" },
@@ -258,7 +258,7 @@ Pentru laboratoare de dezvoltare electronică și linii de testare din România,
     name: "Beamex",
     founded: 1975,
     headquarters: "Pietarsaari, Finlanda",
-    overview: `Beamex este un producător finlandez de calibratoare, cu sediul la Pietarsaari și o istorie de 50 de ani în domeniul calibrării, de la înființarea din 1975. Gama acoperă calibratoare de teren multifuncționale, calibratoare de temperatură cu bloc uscat, pompe și controlere de presiune, soluții de calibrare de atelier și software de gestiune a calibrărilor. Din acest portofoliu putem oferta calibratoare pentru laboratoare de metrologie și pentru echipele de mentenanță din instalații de proces.
+    overview: `Beamex este un producător finlandez de calibratoare, cu sediul la Pietarsaari și o istorie de peste 50 de ani în domeniul calibrării, de la înființarea din 1975. Gama acoperă calibratoare de teren multifuncționale, calibratoare de temperatură cu bloc uscat, pompe și controlere de presiune, soluții de calibrare de atelier și software de gestiune a calibrărilor. Din acest portofoliu putem oferta calibratoare pentru laboratoare de metrologie și pentru echipele de mentenanță din instalații de proces.
 
 Calibratorul de teren MC6 combină presiune, temperatură și semnale electrice într-un singur instrument, iar varianta MC6-Ex e certificată intrinsec sigură (ATEX, IECEx) pentru zone cu risc de explozie. MC6-T adaugă un bloc uscat de temperatură integrat, util la calibrarea traductoarelor de temperatură direct pe teren. Pentru presiune, pompele portabile ePG (electrică, -0,85 până la 20 bar) și seria PG (până la 700 bar), plus controlerul automat POC8, acoperă game largi fără a schimba instrumentul de referință. În atelier, soluția CENTRiCAL și calibratorul de panou MC6-WS automatizează testele repetitive, iar software-ul CMX sau LOGiCAL gestionează programările și rapoartele de calibrare.
 
@@ -267,12 +267,12 @@ Pentru instalații industriale din România — rafinării, fabrici farmaceutice
       "Calibrator multifuncțional MC6 — presiune, temperatură și semnale electrice într-un singur instrument de teren.",
       "Variantă intrinsec sigură MC6-Ex — certificată ATEX și IECEx, pentru zone cu risc de explozie.",
       "Acoperire largă de presiune — de la vacuum până la 700 bar, cu pompe și controlere dedicate.",
-      "Istorie de 50 de ani în calibrare — producător specializat exclusiv pe acest segment, din 1975.",
+      "Istorie de peste 50 de ani în calibrare — producător de calibratoare din 1975.",
       "Software de gestiune CMX/LOGiCAL — programează calibrări și generează rapoarte trasabile pentru audit.",
     ],
     keyProducts: [
       { name: "MC6 și MC6-Ex — Calibratoare Multifuncționale de Teren", description: "MC6 combină presiune, temperatură și semnale electrice într-un singur instrument portabil, iar MC6-Ex este varianta certificată intrinsec sigură (ATEX, IECEx) pentru calibrări în zone clasificate cu risc de explozie." },
-      { name: "MC6-T — Calibrator cu Bloc de Temperatură Integrat", description: "Combină un dry block de temperatură cu un calibrator multifuncțional, pentru verificarea traductoarelor de temperatură direct pe teren, fără echipament suplimentar de referință." },
+      { name: "MC6-T — Calibrator cu Bloc de Temperatură Integrat", description: "Combină un dry block de temperatură cu un calibrator multifuncțional, pentru verificarea traductoarelor de temperatură direct pe teren." },
       { name: "Pompe și Controlere de Presiune ePG, PG, POC8", description: "Pompa electrică ePG acoperă de la -0,85 la 20 bar, seria manuală PG merge până la 700 bar, iar controlerul automat POC8 reglează presiunea de la vacuum până la 210 bar." },
       { name: "CENTRiCAL și Software CMX/LOGiCAL", description: "Soluția CENTRiCAL automatizează calibrarea de atelier, iar software-ul CMX sau LOGiCAL programează calibrările periodice și generează rapoarte trasabile pentru audit de calitate." },
     ],
@@ -298,7 +298,7 @@ Pentru instalații industriale din România — rafinării, fabrici farmaceutice
       { code: "FB/MB", description: "bloc uscat de temperatură, variantă de teren sau metrologică" },
       { code: "bMobile", description: "aplicație mobilă pentru calibrări de teren" },
       { code: "CMX", description: "software de gestiune a calibrărilor și rapoartelor" },
-      { code: "LOGiCAL", description: "software de management al calibrărilor, variantă simplificată" },
+      { code: "LOGiCAL", description: "software de management al calibrărilor" },
     ],
     faq: [
       { q: "Ce produce Beamex?", a: "Beamex produce calibratoare de teren și de atelier pentru presiune, temperatură și semnale electrice, plus software de gestiune a programărilor și certificatelor de calibrare, pentru laboratoare de metrologie și echipe de mentenanță industrială." },
@@ -308,8 +308,8 @@ Pentru instalații industriale din România — rafinării, fabrici farmaceutice
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Beamex — Home", url: "https://www.beamex.com/", publisher: "Beamex", accessed: "2026-09-26" },
       { title: "Calibrators", url: "https://www.beamex.com/calibrators/", publisher: "Beamex", accessed: "2026-09-26" },
@@ -371,8 +371,8 @@ Pentru laboratoare universitare și linii de testare electronică din România, 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Tektronix — Home", url: "https://www.tek.com/", publisher: "Tektronix", accessed: "2026-09-26" },
       { title: "Oscilloscopes", url: "https://www.tek.com/en/oscilloscopes", publisher: "Tektronix", accessed: "2026-09-26" },
@@ -386,7 +386,7 @@ Pentru laboratoare universitare și linii de testare electronică din România, 
     headquarters: "Königswinter, Germania",
     overview: `ZERA este un producător german de sisteme pentru testarea contoarelor electrice și a transformatoarelor de măsură, cu sediul la Königswinter. Compania a apărut în 1968 dintr-un centru de etalonare și reparații de contoare înființat încă din 1920, iar astăzi acoperă sisteme staționare și portabile de testare pentru contoare de curent alternativ și continuu, testare a transformatoarelor de curent și tensiune, și sisteme de testare pentru stații de încărcare electrică. Din acest portofoliu putem oferta sisteme portabile de testare pentru laboratoare de metrologie și operatori de rețea.
 
-Gama de testare a contoarelor merge de la sistemele portabile MT30, MT310 și MT320 până la sistemele staționare de mare precizie MTS340 și MTS380, iar pentru curent continuu, familiile MTS710/750/780 și STM6000/STM4000 acoperă contoare și sisteme de energie DC. Pentru transformatoarele de măsură, sistemele ITTS testează transformatoare de curent și tensiune, iar seriile WM1000/WM3000 și ESCB/ESVB completează gama de referințe și surse de test. Pentru mobilitatea electrică, familia EMOB (EMOB80, EMOB200, EMOB500) testează stații de încărcare AC și DC, inclusiv simularea unui vehicul electric la încărcare.
+Gama de testare a contoarelor merge de la sistemele portabile MT30, MT310 și MT320 până la sistemele staționare de mare precizie MTS340 și MTS380, iar pentru curent continuu, familiile MTS710/750/780 acoperă contoare și sisteme de energie DC; STM6000 și STM4000 sunt sisteme digitale de măsură pentru testarea contoarelor de curent alternativ și a comunicației. Pentru transformatoarele de măsură, sistemele ITTS testează transformatoare de curent și tensiune. Pentru mobilitatea electrică, familia EMOB (EMOB80, EMOB200, EMOB500) testează stații de încărcare AC și DC, inclusiv simularea unui vehicul electric la încărcare.
 
 Pentru operatorii de distribuție și laboratoarele de metrologie din România care verifică periodic contoare de energie sau transformatoare de măsură, sistemele portabile ZERA (MT30, MT310, MT320) acoperă testele de teren, iar sistemele staționare MTS acoperă verificarea la scară în laborator.`,
     whyChoose: [
@@ -397,9 +397,9 @@ Pentru operatorii de distribuție și laboratoarele de metrologie din România c
       "Prezență în peste 70 de țări — rețea de subsidiare și parteneri pentru suport tehnic.",
     ],
     keyProducts: [
-      { name: "MT30/MT310/MT320 — Sisteme Portabile de Testare Contoare", description: "Sisteme de teren pentru verificarea contoarelor de energie deja montate în instalație, cu variante de precizie și de complexitate crescătoare de la MT30 la MT320." },
+      { name: "MT30/MT310/MT320 — Sisteme Portabile de Testare Contoare", description: "Sisteme de teren pentru verificarea contoarelor de energie deja montate în instalație, cu variante portabile din familia MT." },
       { name: "MTS340/MTS380 — Sisteme Staționare de Precizie", description: "Bancuri staționare de laborator pentru testarea contoarelor de energie înainte de livrare, cu precizie ridicată pentru verificarea la scară a producției." },
-      { name: "MTS710/750/780 și STM6000/STM4000 — Testare DC", description: "Sisteme staționare pentru testarea contoarelor și a surselor de energie de curent continuu, folosite la producătorii de contoare DC și în laboratoare de metrologie." },
+      { name: "MTS710/750/780 — Testare DC", description: "Sisteme staționare pentru testarea contoarelor de curent continuu, cu surse de curent și tensiune continuă integrate; domeniile exacte se confirmă pe cod, din documentația ZERA." },
       { name: "ITTS și EMOB — Transformatoare de Măsură și Stații de Încărcare", description: "Sistemele ITTS testează transformatoare de curent și de tensiune înainte de punerea în funcțiune, iar familia EMOB (80-500 A) testează stații de încărcare electrică, simulând un vehicul la încărcare." },
     ],
     industries: [
@@ -412,23 +412,23 @@ Pentru operatorii de distribuție și laboratoarele de metrologie din România c
     infinitrade: `Sistemele ZERA le cunoaștem din surse publice ale producătorului, fără date proprii de stoc pe această gamă de testare. Aducem la comandă sistemele portabile MT30/MT310/MT320 sau sistemele staționare MTS, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Nu ținem această gamă pe raft — fiecare sistem se configurează pe tipul de contor sau transformator testat și pe protocoalele de comunicație necesare. Pentru o ofertă corectă, spuneți-ne ce testați (contoare AC/DC, transformatoare de măsură, stații de încărcare) și ce precizie de referință aveți nevoie.`,
     limitation: "Nu putem confirma acreditarea vreunui laborator sau etalonarea proprie pentru sistemele ZERA din această gamă.",
     productCodes: [
-      { code: "MT30", description: "sistem portabil de testare contoare, variantă compactă" },
+      { code: "MT30", description: "sistem portabil de testare contoare" },
       { code: "MT310", description: "sistem portabil de testare contoare electrice" },
-      { code: "MT320", description: "sistem portabil de testare contoare, variantă extinsă" },
-      { code: "MT310s2", description: "sistem portabil de testare contoare, generație nouă" },
-      { code: "MT320s2", description: "sistem portabil de testare contoare, generație nouă extinsă" },
-      { code: "MTS140", description: "sistem staționar de testare contoare, gamă de intrare" },
+      { code: "MT320", description: "sistem portabil de testare contoare" },
+      { code: "MT310s2", description: "sistem portabil de testare contoare" },
+      { code: "MT320s2", description: "sistem portabil de testare contoare" },
+      { code: "MTS140", description: "sistem staționar de testare contoare" },
       { code: "MTS310", description: "sistem staționar de testare contoare electrice" },
-      { code: "MTS320", description: "sistem staționar de testare contoare, precizie ridicată" },
-      { code: "MTS340", description: "sistem staționar de testare contoare, gamă medie" },
-      { code: "MTS380", description: "sistem staționar de testare contoare, precizie de vârf" },
+      { code: "MTS320", description: "sistem staționar de testare contoare trifazate" },
+      { code: "MTS340", description: "sistem staționar de testare contoare" },
+      { code: "MTS380", description: "sistem staționar de testare contoare" },
       { code: "MTS710", description: "sistem staționar de testare contoare de curent continuu" },
-      { code: "MTS750", description: "sistem staționar de testare contoare DC, gamă extinsă" },
-      { code: "MTS780", description: "sistem staționar de testare contoare DC, precizie ridicată" },
-      { code: "STM6000", description: "sistem staționar de testare surse de energie DC" },
-      { code: "STM4000", description: "sistem staționar de testare surse de energie DC, gamă medie" },
+      { code: "MTS750", description: "sistem staționar de testare contoare DC" },
+      { code: "MTS780", description: "sistem staționar de testare contoare DC, curent până la 1000 A" },
+      { code: "STM6000", description: "sistem digital de măsură pentru testarea contoarelor AC și a comunicației, nivel premium" },
+      { code: "STM4000", description: "sistem digital de măsură pentru testarea contoarelor AC și a comunicației" },
       { code: "MT500", description: "sursă portabilă pentru testarea contoarelor" },
-      { code: "MT400", description: "sursă portabilă pentru testarea contoarelor, variantă compactă" },
+      { code: "MT400", description: "sursă portabilă pentru testarea contoarelor" },
       { code: "EMOB80", description: "sistem de testare stații de încărcare electrică, 80A" },
       { code: "EMOB200", description: "sistem de testare stații de încărcare electrică, 200A" },
       { code: "EMOB500", description: "sistem de testare stații de încărcare electrică, 500A" },
@@ -441,8 +441,8 @@ Pentru operatorii de distribuție și laboratoarele de metrologie din România c
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ZERA — Home", url: "https://www.zera.de/", publisher: "ZERA GmbH", accessed: "2026-09-26" },
       { title: "Company", url: "https://www.zera.de/en/company/", publisher: "ZERA GmbH", accessed: "2026-09-26" },

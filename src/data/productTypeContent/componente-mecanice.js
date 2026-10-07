@@ -288,7 +288,7 @@ export const productTypes = [
       },
       {
         "q": "Cât de des trebuie înlocuite garniturile și simeringurile industriale?",
-        "a": "Nu există un interval universal valabil, deoarece durata depinde de material, temperatură, presiune și turație; cea mai bună practică este înlocuirea la fiecare revizie majoră a echipamentului, nu doar la apariția unei scurgeri vizibile, pentru a evita deteriorarea altor componente din jur."
+        "a": "Nu există un interval universal valabil, deoarece durata depinde de material, temperatură, presiune și turație; se recomandă înlocuirea la fiecare revizie majoră a echipamentului, nu doar la apariția unei scurgeri vizibile, pentru a evita deteriorarea altor componente din jur."
       }
     ],
     "relatedTypes": [
@@ -401,7 +401,7 @@ export const productTypes = [
       },
       {
         "criterion": "Tipul de îmbinare a capetelor benzii",
-        "detail": "Vulcanizarea la cald oferă cea mai bună rezistență și durată de viață, vulcanizarea la rece e mai rapidă la montaj pe teren, iar clema mecanică e cea mai simplă, dar cu rezistență mai mică și punct slab vizibil la fiecare trecere."
+        "detail": "Vulcanizarea la cald oferă rezistență și durată de viață superioare, vulcanizarea la rece e mai rapidă la montaj pe teren, iar clema mecanică e cea mai simplă, dar cu rezistență mai mică și punct slab vizibil la fiecare trecere."
       }
     ],
     "whatToSend": [

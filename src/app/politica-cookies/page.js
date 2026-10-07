@@ -5,13 +5,13 @@ import styles from '../legal.module.css';
 
 export const metadata = {
   title: 'Politica Cookies',
-  description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor tale.',
+  description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor dumneavoastră.',
   alternates: {
     canonical: `${config.site.url}/politica-cookies`,
   },
   openGraph: {
     title: 'Politica Cookies | Infinitrade Romania',
-    description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor tale.',
+    description: 'Informații despre utilizarea cookie-urilor pe acest site. Tipuri de cookies, scopuri și modul de gestionare a preferințelor dumneavoastră.',
     url: `${config.site.url}/politica-cookies`,
     siteName: 'Infinitrade Romania',
     locale: 'ro_RO',

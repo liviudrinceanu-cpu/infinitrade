@@ -385,7 +385,7 @@ export const productTypes = [
     "howToChoose": [
       {
         "criterion": "Procedeul de sudură potrivit (MMA, MIG/MAG, TIG)",
-        "detail": "Alegerea depinde de materialul sudat, de grosime și de calitatea cusăturii dorite; TIG oferă cea mai bună calitate, dar productivitate mai mică decât MIG/MAG la producție de serie."
+        "detail": "Alegerea depinde de materialul sudat, de grosime și de calitatea cusăturii dorite; TIG oferă o calitate superioară, dar productivitate mai mică decât MIG/MAG la producție de serie."
       },
       {
         "criterion": "Curentul maxim și factorul de funcționare",

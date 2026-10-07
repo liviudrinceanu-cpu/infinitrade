@@ -2,11 +2,9 @@
 
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
 import styles from './login.module.css';
 
 export default function LoginPage() {
-  const router = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -24,14 +22,15 @@ export default function LoginPage() {
         redirect: false,
       });
 
-      if (result?.error) {
+      if (!result || result.error || result.ok === false) {
         setError('Email sau parolă incorecte');
         setLoading(false);
         return;
       }
 
-      router.push('/admin');
-      router.refresh();
+      // v34.3: încărcare completă, ca serverul să primească imediat
+      // cookie-ul de sesiune (navigarea client putea rămâne blocată).
+      window.location.assign('/admin');
     } catch (err) {
       setError('A apărut o eroare. Te rugăm să încerci din nou.');
       setLoading(false);

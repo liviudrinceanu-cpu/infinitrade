@@ -5,7 +5,7 @@ export const brandContentBatch51 = {
     name: "Heidenhain",
     overview: `Heidenhain este un producător german de sisteme de măsurare de precizie și comenzi numerice, cu peste 135 de ani de activitate în domeniul poziționării exacte. Gama include encodere liniare, encodere unghiulare, encodere rotative, rezolvere și comenzi CNC complete, folosite acolo unde mișcarea unei axe trebuie citită sau controlată la nivel de micron. Putem oferta din gama Heidenhain atât traductoare de poziție pentru retrofit de mașini-unelte, cât și comenzi CNC integrate pentru mașini noi.
 
-Heidenhain acoperă tot lanțul de măsurare: scale liniare deschise (seriile LC, LS, LIC) sau închise, encodere unghiulare (RCN, ROC, ROD) și comenzi CNC proprii (TNC7, TNC640, TNC320), fără să depindă de traductoare terțe. Pe segmentul comenzilor CNC concurează cu Siemens și Fanuc, iar la encoderele de precizie cu Renishaw, mai ales pe rezoluția sub-micronică pentru mașini-unelte și echipamente de semiconductori.
+Heidenhain acoperă tot lanțul de măsurare: scale liniare închise (seriile LC, LS) sau deschise (seriile LIC, LIDA), encodere unghiulare (RCN, ROC, ROD) și comenzi CNC proprii (TNC7, TNC640, TNC320), fără să depindă de traductoare terțe. Pe segmentul comenzilor CNC concurează cu Siemens și Fanuc, iar la encoderele de precizie cu Renishaw, mai ales pe rezoluția sub-micronică pentru mașini-unelte și echipamente de semiconductori.
 
 Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri de strunguri și freze CNC și la comenzi numerice complete pentru mașini noi. Relevant mai ales pentru ateliere de mecanică fină și integratori care au nevoie de precizie certificată.`,
     whyChoose: [
@@ -30,7 +30,7 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
     ],
     certifications: ["ISO 9001", "ISO 14001", "ISO/IEC 27001:2022", "ISO 45001"],
     infinitrade: `Pentru Heidenhain lucrăm din surse publice ale producătorului și din canale de distribuție din UE — nu dispunem de stoc propriu și spunem direct ce putem și ce nu putem confirma înainte de ofertare. Aducem la comandă encodere, palpoare și componente de comandă numerică prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și disponibilitatea la producător. Pentru o ofertă corectă, clientul trebuie să ne trimită codul complet al produsului (dacă îl are de pe traductorul existent) sau, în lipsa lui, tipul mașinii, lungimea de măsurare sau diametrul de montaj și interfața electrică dorită. Nu promitem disponibilitate permanentă din stoc pentru niciun model — fiecare cerere se verifică individual la producător înainte de a confirma termenul de livrare.`,
-    limitation: "Nu putem confirma programarea sau punerea în funcțiune software a comenzilor CNC TNC — aceasta rămâne în sarcina integratorului de mașină sau a service-ului autorizat de producător.",
+    limitation: "Nu putem confirma programarea sau punerea în funcțiune software a comenzilor CNC TNC — aceasta rămâne în sarcina integratorului de mașină sau a service-ului producătorului.",
     productCodes: [
       {
         "code": "LC 100",
@@ -90,7 +90,7 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
       },
       {
         "code": "ROC 2000",
-        "description": "Encoder unghiular incremental cu rulment integrat"
+        "description": "Encoder unghiular cu rulment integrat"
       },
       {
         "code": "ROD 200",
@@ -129,8 +129,8 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"HEIDENHAIN - Products","url":"https://www.heidenhain.com/products","publisher":"DR. JOHANNES HEIDENHAIN GmbH","accessed":"2026-09-25"},
       { title: "HEIDENHAIN — Home", url: "https://www.heidenhain.com", publisher: "Dr. Johannes Heidenhain GmbH", accessed: "2026-09-22" },
@@ -143,11 +143,11 @@ Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri 
     headquarters: "Bietigheim-Bissingen, Germania",
     overview: `SUCO Robert Scheuffele este un producător german de presostate și senzori de presiune pentru aplicații hidraulice și pneumatice, cu sediul la Bietigheim-Bissingen, lângă Stuttgart. Compania produce presostate mecanice, presostate și transmițătoare electronice de presiune, senzori de presiune și, complementar, ambreiaje și frâne centrifugale. Putem oferta din gama SUCO componente de monitorizare a presiunii pentru instalații hidraulice, pneumatice și pentru aplicații mobile.
 
-Punctul forte al SUCO este experiența îndelungată în monitorizarea presiunii — peste 80 de ani de fabricație dedicată acestui segment, spre deosebire de producători generaliști de senzori care acoperă multe alte tipuri de măsurare. Gama acoperă atât variante mecanice simple, robuste, cât și transmițătoare electronice pentru integrare în sisteme de automatizare. În categoria presostatelor și senzorilor de presiune, SUCO se compară cu IFM, ale cărui game acoperă un spectru similar de aplicații industriale și mobile.
+Punctul forte al SUCO este experiența îndelungată în monitorizarea presiunii — peste 80 de ani de experiență în fabricație, potrivit producătorului. Gama acoperă atât variante mecanice simple, robuste, cât și transmițătoare electronice pentru integrare în sisteme de automatizare. În categoria presostatelor și senzorilor de presiune, SUCO se compară cu IFM, ale cărui game acoperă un spectru similar de aplicații industriale și mobile.
 
 Pentru piața din România, SUCO este relevant pentru instalații hidraulice mobile (utilaje agricole, utilaje de construcții), stații de energie regenerabilă și linii de producție unde presiunea trebuie monitorizată constant, cu componente robuste, ușor de înlocuit la mentenanță.`,
     whyChoose: [
-      "Peste 80 de ani de specializare exclusivă pe monitorizarea presiunii, nu producător generalist de senzori",
+      "Peste 80 de ani de experiență în fabricație, potrivit producătorului",
       "Gamă completă — presostate mecanice, presostate și transmițătoare electronice, senzori de presiune",
       "Certificare ISO 9001:2015, recertificată recent, pentru managementul calității în fabricație",
       "Variante certificate ATEX pentru zone cu risc de explozie",
@@ -163,7 +163,7 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
       "Hidraulică și pneumatică industrială — monitorizarea presiunii în circuite de forță",
       "Utilaje agricole — presostate pentru sisteme hidraulice mobile",
       "Utilaje de construcții — protecția la suprapresiune a circuitelor hidraulice",
-      "Energie regenerabilă — monitorizarea presiunii în instalații eoliene și hidrogen",
+      "Energie regenerabilă și hidrogen — monitorizarea presiunii în instalații",
       "Medicină — componente de presiune pentru echipamente specializate"
     ],
     certifications: ["ISO 9001:2015", "ATEX (pentru variantele destinate zonelor cu risc de explozie)"],
@@ -226,11 +226,11 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     faq: [
       {
         "q": "Ce diferență este între un presostat SUCO hex 24 și unul hex 27?",
-        "a": "Diferența constă în mărimea cheii de montaj și, implicit, în gabaritul carcasei: hex 24 este varianta mai compactă, potrivită pentru spații înguste, în timp ce hex 27 permite un contact comutator (CO) și, în anumite variante, presiuni de lucru mai mari. Alegerea depinde de spațiul disponibil pe echipament și de tipul de contact electric necesar în circuit."
+        "a": "Diferența constă în mărimea cheii de montaj (hex 24 sau hex 27) și în gama de variante: potrivit producătorului, seria hex 24 este oferită cu contact NC/NO, iar seria hex 27 cu contact comutator (CO). Alegerea depinde de spațiul disponibil pe echipament și de tipul de contact electric necesar în circuit."
       },
       {
         "q": "Ce este seria ATEX 0342/0343 de la SUCO?",
-        "a": "Seria ATEX 0342/0343 este gama de presostate SUCO certificate pentru utilizare în zone cu risc de explozie, cu conector integrat și construcție adaptată cerințelor de siguranță din industria de proces. Se folosește acolo unde echipamentul standard nu poate fi montat din motive de certificare, cum ar fi instalațiile din industria chimică sau petrolieră."
+        "a": "Seria ATEX 0342/0343 este gama de presostate SUCO certificate pentru utilizare în zone cu risc de explozie, cu conector integrat și construcție adaptată cerințelor de siguranță din industria de proces. Se folosește în zone cu atmosferă potențial explozivă, unde echipamentul trebuie să fie certificat pentru acest tip de utilizare."
       },
       {
         "q": "Livrați presostate SUCO în România?",
@@ -239,8 +239,8 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"SUCO - Mechanical Pressure Switches","url":"https://www.suco.de/en/pressure-monitoring/mechanical-pressure-switches","publisher":"SUCO Robert Scheuffele GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "SUCO — Home", url: "https://www.suco.de", publisher: "SUCO Robert Scheuffele GmbH & Co. KG", accessed: "2026-09-22" },
@@ -254,21 +254,21 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     headquarters: "Koblenz, Germania",
     overview: `Stabilus este un producător german de arcuri cu gaz, amortizoare hidraulice și sisteme electrice de acționare liniară, cu sediul la Koblenz, unde compania a fost înființată în 1934. Gama acoperă arcuri cu gaz nezăvorâte (Lift-O-Mat), arcuri cu gaz blocabile (Bloc-O-Lift, Kombi-Lift), amortizoare de mișcare și vibrații (Stab-O-Shoc) și sisteme electromecanice de acționare (Industrial Powerise). Putem oferta din gama Stabilus componente de control al mișcării pentru mașini industriale, mobilier tehnic și echipamente medicale.
 
-Ce diferențiază Stabilus e acoperirea completă a controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat, „probabil cel mai de succes arc cu gaz din lume, după cum îl descrie producătorul") până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică sincronizabilă până la patru unități, cu forțe active de până la 5 kN la seria IPR40. În segmentul arcurilor cu gaz industriale, Stabilus concurează cu ACE Stoßdämpfer și cu Suspa.
+Ce diferențiază Stabilus e acoperirea completă a controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat) până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică, cu funcționare sincronă a până la patru unități la varianta IPR35 Smart și forțe de până la 5 kN la seria IPR40. În segmentul arcurilor cu gaz industriale, Stabilus concurează cu ACE Stoßdämpfer și cu Suspa.
 
 Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, echipamente medicale (paturi de spital, mese de operație) și mașini industriale care au nevoie de arcuri cu gaz sau amortizoare de schimb, precum și pentru integratorii care proiectează capace, uși de acces sau panouri de service ce trebuie susținute sau amortizate controlat.`,
     whyChoose: [
-      "Lift-O-Mat — gamă de arcuri cu gaz nezăvorâte disponibile, potrivit producătorului, în aproape orice mărime și forță",
+      "Lift-O-Mat — gamă de arcuri cu gaz nezăvorâte, cu variante cu amortizare hidraulică și cu compensare de temperatură",
       "Bloc-O-Lift oferă blocare atât elastică, cât și rigidă, montabilă în orice poziție, pentru aplicații medicale și de mobilier",
       "Gama Stab-O-Shoc acoperă atât amortizoare de poziție, cât și amortizoare de vibrații, pentru sarcini joase și înalte",
-      "Industrial Powerise aduce acționare electrică sincronă până la patru unități, cu limitator de curs integrat la seria IPR40",
+      "Industrial Powerise: varianta IPR35 Smart permite funcționarea sincronă a până la patru unități, iar seria IPR40 are limitatoare de cursă integrate",
       "Peste 90 de ani de la înființarea la Koblenz, în 1934, cu unități de producție în nouă țări prin grupul Stabilus"
     ],
     keyProducts: [
       { name: "Arcuri cu gaz Lift-O-Mat", description: "Arcuri cu gaz nezăvorâte, pentru susținerea controlată a capacelor, ușilor și panourilor de acces, cu amortizare hidraulică sau prin tehnologie „groove-in-the-tube\" și compensare de temperatură. Disponibile într-o gamă largă de forțe și lungimi. Aplicații: capote și portbagaje auto, uși tehnice, panouri de mentenanță industrială. Pentru ofertă, clientul indică forța necesară, cursa și tipul de capete de prindere." },
       { name: "Arcuri cu gaz blocabile Bloc-O-Lift / Kombi-Lift", description: "Arcuri cu gaz cu blocare elastică sau rigidă, unde poziția trebuie fixată ferm — paturi de spital, mese de operație, scaune rotative, mese de rulotă. Varianta cu ulei oferă forță de blocare mai mare decât cea elastică. Kombi-Lift combină funcțiile arcului blocabil și ale celui nezăvorât, printr-un canal special în tubul de presiune care permite blocarea selectivă pe cursă, de exemplu la hayoanele vehiculelor înalte. Pentru ofertă, clientul precizează forța de blocare, orientarea de montaj și tipul de eliberare." },
-      { name: "Amortizoare Stab-O-Shoc", description: "Amortizoare hidraulice de mișcare, oprire și vibrații, în serii pentru sarcini joase (HD 15, GD 15) și înalte (HD 24/29, GD 24/29), cu variante dependente de poziție sau cu forță de extensie (SP). Protejează la închiderea/deschiderea bruscă a capacelor. Aplicație: amortizarea capacelor grele pe utilaje și vehicule comerciale. Pentru ofertă, clientul indică sarcina, orientarea de montaj și nevoia de funcție de vibrații." },
-      { name: "Sisteme electrice Industrial Powerise", description: "Sisteme electromecanice de acționare liniară, familia IPR35 și IPR40, cu control extern sau integrat (Smart), pas de șurub 2-30 mm și forțe active de până la 5 kN la IPR40. Varianta Smart sincronizează până la patru unități prin CAN bus, cu conformitate EN ISO 13849-1. Pentru clapete și sisteme de deplasare unde arcul cu gaz nu oferă control suficient de poziție. Pentru ofertă, clientul precizează forța, cursa și nevoia de sincronizare." }
+      { name: "Amortizoare Stab-O-Shoc", description: "Amortizoare hidraulice de mișcare, oprire și vibrații, în serii pentru sarcini joase (HD 15, GD 15) și înalte (HD 24/29, GD 24/29), cu variante dependente sau independente de poziția de montaj, unele cu piston separator. Protejează la închiderea/deschiderea bruscă a capacelor. Aplicație: amortizarea capacelor grele pe utilaje și vehicule comerciale. Pentru ofertă, clientul indică sarcina, orientarea de montaj și nevoia de funcție de vibrații." },
+      { name: "Sisteme electrice Industrial Powerise", description: "Sisteme electromecanice de acționare liniară, familia IPR35 și IPR40, cu control extern sau integrat (Smart) și forțe de până la 2,5 kN la IPR35 și până la 5 kN la IPR40. Varianta IPR35 Smart permite funcționarea sincronă a până la patru unități, iar IPR40 Smart are control intern și conformitate EN ISO 13849-1; comunicația CAN bus este indicată de producător ca disponibilă ulterior. Pentru clapete și sisteme de deplasare unde arcul cu gaz nu oferă control suficient de poziție. Pentru ofertă, clientul precizează forța, cursa și nevoia de sincronizare." }
     ],
     industries: [
       "Auto și vehicule comerciale — arcuri cu gaz pentru capote, portbagaje, uși laterale",
@@ -278,7 +278,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       "Feroviar și energie regenerabilă — amortizoare de vibrații, de exemplu pentru pantografe și module solare"
     ],
     infinitrade: `La Stabilus mergem strict pe ce publică producătorul — nu avem date proprii de stoc și spunem clar ce putem confirma din gamă. Aducem arcuri cu gaz, amortizoare și sisteme Powerise prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, clientul trimite codul de pe arcul existent (dacă e piesă de schimb) sau forța, cursa și tipul de capete de prindere pentru o aplicație nouă. Nu promitem disponibilitate permanentă din stoc — fiecare configurație se verifică individual înainte de confirmare.`,
-    limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare CAN bus) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
+    limitation: "Nu putem confirma configurarea electronică a sistemelor Industrial Powerise Smart (parametrizare electronică) — aceasta rămâne în sarcina integratorului sau a service-ului tehnic al producătorului.",
     productCodes: [
       {
         "code": "LIFT-O-MAT PTL",
@@ -290,7 +290,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       },
       {
         "code": "INTER-STOP",
-        "description": "Arc cu gaz cu valvă integrată pentru oprire în orice poziție"
+        "description": "Arc cu gaz din familia Lift-O-Mat, cu oprire în mai multe poziții"
       },
       {
         "code": "HYDRO-LIFT",
@@ -306,7 +306,7 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
       },
       {
         "code": "STAB-O-SHOC GD 15 SP",
-        "description": "Amortizor fără cursă liberă, funcționează în ambele direcții"
+        "description": "Variantă SP a seriei GD 15; detaliile constructive se confirmă pe cod, din documentația Stabilus"
       },
       {
         "code": "STAB-O-SHOC HD 24/29",
@@ -353,8 +353,8 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Stabilus - Lift-O-Mat Gas Springs","url":"https://www.stabilus.com/products/gas-springs/lift-o-mat","publisher":"Stabilus","accessed":"2026-09-25"},
       {"title":"Stabilus - Stab-O-Shoc Hydraulic Dampers","url":"https://www.stabilus.com/products/hydraulic-dampers/stab-o-shoc","publisher":"Stabilus","accessed":"2026-09-25"},
@@ -367,22 +367,22 @@ Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, ec
 
   bollhoff: {
     name: "Böllhoff",
-    overview: `Böllhoff este un producător german de organe de fixare speciale și tehnologii de îmbinare, cu operațiuni globale organizate sub conceptul propriu „360° joining technology". Gama acoperă elemente de fixare (fasteners), tehnologie de asamblare și soluții de logistică pentru componente mici (Kanban, ambalaj ecopack), inclusiv produse proprii precum inserturile filetate SPREDLOC® pentru materiale ușoare. Putem oferta din gama Böllhoff componente de asamblare și soluții de aprovizionare pentru linii de producție.
+    overview: `Böllhoff este un producător german de organe de fixare speciale și tehnologii de îmbinare, cu operațiuni globale organizate sub conceptul propriu „360° joining technology". Gama acoperă elemente de fixare, tehnologie de asamblare și soluții de logistică pentru componente mici (Kanban, C-Parts Management), inclusiv produse proprii precum sistemul de ancorare prin expandare SPREDLOC®, accesibil dintr-o singură parte. Putem oferta din gama Böllhoff componente de asamblare și soluții de aprovizionare pentru linii de producție.
 
-Ce diferențiază Böllhoff de un simplu furnizor de șuruburi este abordarea integrată: compania nu vinde doar organul de fixare, ci și logistica de aprovizionare a acestuia direct la postul de lucru, prin sisteme Kanban și ambalaj ecopack dimensionat pentru consum direct în producție. SPREDLOC® e un exemplu de produs de nișă — un insert care oferă rezistență mare la smulgere în materiale ușoare (plastic, aluminiu), unde un filet tăiat direct în material nu ar rezista la solicitări repetate. Compania dispune și de un laborator de testare acreditat pentru verificarea performanței conexiunilor.
+Ce diferențiază Böllhoff de un simplu furnizor de șuruburi este abordarea integrată: compania nu vinde doar organul de fixare, ci și logistica de aprovizionare a acestuia direct la postul de lucru, prin sisteme Kanban și managementul pieselor mici de asamblare (C-Parts Management). SPREDLOC® e un exemplu de produs de nișă — un sistem de ancorare prin expandare, accesibil dintr-o singură parte, pentru situațiile în care partea opusă a piesei nu poate fi atinsă la montaj. Compania dispune și de un laborator de testare acreditat pentru verificarea performanței conexiunilor.
 
 Pentru România, Böllhoff e relevant pentru producătorii din automotive, construcția de mașini și industria feroviară care au nevoie fie de organe de fixare speciale pentru aplicații solicitante, fie de reorganizarea aprovizionării cu piese mici de asamblare printr-un sistem Kanban structurat.`,
     whyChoose: [
       "Abordare integrată — nu doar organe de fixare, ci și logistică Kanban pentru aprovizionarea directă la postul de lucru",
-      "SPREDLOC® oferă rezistență mare la smulgere în materiale ușoare, unde filetarea directă a materialului nu ar rezista",
+      "SPREDLOC® oferă ancorare prin expandare, accesibilă dintr-o singură parte a îmbinării",
       "Laborator de testare acreditat pentru verificarea performanței conexiunilor de îmbinare",
       "Prezență în nouă sectoare industriale diferite, de la automotive la agricultură și electrocasnice",
-      "Ambalaj ecopack dimensionat pentru consum direct în producție, fără manipulare suplimentară"
+      "Servicii de management al pieselor mici de asamblare (C-Parts Management)"
     ],
     keyProducts: [
       { name: "Organe de fixare speciale (fasteners)", description: "Gamă de elemente de fixare dezvoltate pentru aplicații unde un șurub sau o piuliță standard nu oferă performanța necesară — rezistență la vibrații, la smulgere sau la coroziune. Folosite în asamblări unde demontarea/remontarea repetată sau solicitarea mecanică ridicată impun o soluție dedicată. Pentru ofertă, clientul trebuie să trimită desenul tehnic al asamblării sau codul organului de fixare existent, plus materialul componentelor de îmbinat." },
-      { name: "SPREDLOC® — inserturi filetate pentru materiale ușoare", description: "Insert filetat conceput pentru montaj în materiale ușoare (plastic, aluminiu, materiale compozite), unde oferă rezistență mare la smulgere comparativ cu un filet tăiat direct în material. Se folosește acolo unde componenta trebuie demontată și remontată de mai multe ori fără pierderea filetului. Aplicație tipică: carcase din plastic sau aluminiu în construcția de mașini și electrocasnice. Pentru ofertă, clientul precizează materialul componentei-gazdă și diametrul filetului necesar." },
-      { name: "Soluții Kanban și C-Parts Management", description: "Sistem de aprovizionare cu piese mici de asamblare (șuruburi, piulițe, elemente de fixare) direct la postul de lucru, cu ambalaj ecopack dimensionat pentru consum imediat, fără manipulare intermediară în depozit. Reduce timpul petrecut de operatori cu gestiunea stocului de componente mici. Pentru ofertă, clientul descrie procesul de producție actual și tipurile de piese mici folosite frecvent." }
+      { name: "SPREDLOC® — ancorare prin expandare, accesibilă dintr-o singură parte", description: "Sistem de ancorare prin expandare, accesibil dintr-o singură parte, folosit atunci când partea opusă a îmbinării nu poate fi atinsă la montaj. Pentru ofertă, clientul precizează materialul componentei-gazdă și diametrul filetului necesar." },
+      { name: "Soluții Kanban și C-Parts Management", description: "Sistem de aprovizionare cu piese mici de asamblare (șuruburi, piulițe, elemente de fixare) direct la postul de lucru. Reduce timpul petrecut de operatori cu gestiunea stocului de componente mici. Pentru ofertă, clientul descrie procesul de producție actual și tipurile de piese mici folosite frecvent." }
     ],
     industries: [
       "Automotive — organe de fixare pentru asamblări solicitate mecanic",
@@ -502,13 +502,13 @@ Pentru România, Böllhoff e relevant pentru producătorii din automotive, const
       },
       {
         "q": "Livrați elemente de fixare Böllhoff în România?",
-        "a": "Da, elementele de fixare Böllhoff se comandă din gama oficială, cu un termen estimat de 1–4 săptămâni, fără gamă ținută pe raft, având în vedere numărul foarte mare de variante și dimensiuni. Pentru o ofertă corectă avem nevoie de materialul de bază, grosimea piesei și sarcina pe care trebuie să o preia îmbinarea."
+        "a": "Da, elementele de fixare Böllhoff se comandă din gama producătorului, cu un termen estimat de 1–4 săptămâni, fără gamă ținută pe raft, având în vedere numărul foarte mare de variante și dimensiuni. Pentru o ofertă corectă avem nevoie de materialul de bază, grosimea piesei și sarcina pe care trebuie să o preia îmbinarea."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Böllhoff - Special Fasteners","url":"https://www.boellhoff.com/gb-en/products/special-fasteners/","publisher":"Böllhoff Group","accessed":"2026-09-25"},
       { title: "Böllhoff — Home (Germany)", url: "https://www.boellhoff.com/", publisher: "Böllhoff Verbindungstechnik GmbH", accessed: "2026-09-22" },
@@ -526,7 +526,7 @@ Ce diferențiază Gerb e combinarea a patru familii de produse complementare: el
 
 Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotative grele (turbine, generatoare, compresoare), pentru consolidări structurale în zone seismice și pentru instalații unde vibrațiile transmise la structură trebuie reduse sub un prag impus de proiect.`,
     whyChoose: [
-      "Peste un secol de specializare exclusivă în izolare antivibrații și fundații dinamice, de la inventarea Spring-Viscodamper®",
+      "Peste un secol de experiență în izolare antivibrații și fundații dinamice, din 1908",
       "Gamă completă — arcuri elastice, amortizoare vâscoase, mase acordate și material poliuretanic Novodamp®",
       "Aplicații speciale de protecție seismică și izolare microseismică, nu doar amortizare industrială standard",
       "Peste 600 de angajați și subsidiare în mai multe țări, cu inginerie proprie pentru soluții personalizate de proiect",
@@ -534,7 +534,7 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
     ],
     keyProducts: [
       { name: "Elemente elastice cu arc din oțel", description: "Arcuri elicoidale din oțel, folosite ca suport elastic sub mașini rotative sau fundații, pentru reducerea transmiterii vibrațiilor către structura clădirii. Se combină adesea cu amortizoare vâscoase pentru controlul complet al mișcării. Aplicație tipică: fundații de turbine, generatoare și compresoare mari, unde vibrația netratată ar afecta structura sau echipamentele învecinate. Pentru ofertă, clientul trebuie să trimită datele mașinii (masă, frecvență de lucru) și cerințele de izolare ale proiectului." },
-      { name: "Viscodampers® — amortizoare vâscoase", description: "Amortizoare vâscoase care completează arcurile elastice, disipând energia vibrațiilor în loc să o transmită mai departe structurii. Gerb este inventatorul conceptului Spring-Viscodamper®, folosit sub mii de mașini și structuri la nivel mondial. Aplicație tipică: combinat cu arcurile elicoidale, la fundațiile de echipamente rotative grele. Pentru ofertă, clientul trebuie să trimită specificațiile tehnice ale mașinii și cerințele de amortizare din proiectul de structură." },
+      { name: "Viscodampers® — amortizoare vâscoase", description: "Amortizoare vâscoase care completează arcurile elastice, disipând energia vibrațiilor în loc să o transmită mai departe structurii. Gerb oferă combinații personalizate de arcuri elicoidale și amortizoare vâscoase. Aplicație tipică: combinat cu arcurile elicoidale, la fundațiile de echipamente rotative grele. Pentru ofertă, clientul trebuie să trimită specificațiile tehnice ale mașinii și cerințele de amortizare din proiectul de structură." },
       { name: "Tuned Mass Dampers (mase acordate)", description: "Sisteme de mase acordate, proiectate să reducă oscilațiile structurilor la o frecvență specifică — folosite la poduri, turnuri, planșee sau structuri industriale susceptibile la vibrații induse de vânt, trafic sau echipamente. Fiecare sistem se dimensionează pe frecvența proprie a structurii țintă. Pentru ofertă, clientul trebuie să furnizeze datele dinamice ale structurii (frecvență proprie, amplitudine măsurată sau calculată)." },
       { name: "Novodamp® — material poliuretanic pentru izolare", description: "Material poliuretanic închis-celular, folosit pentru izolarea vibrațiilor la clădiri și căi ferate, cu instrument propriu de proiectare online (Novodamp® Designer) pentru dimensionare rapidă. Aplicație tipică: izolarea planșeelor sau a traseelor de cale ferată de vibrațiile transmise structurii adiacente. Pentru ofertă, clientul trebuie să indice tipul de aplicație (clădire sau cale ferată) și sarcina statică estimată." }
     ],
@@ -605,8 +605,8 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"GERB - Product Groups","url":"https://www.gerb.com/productgroups","publisher":"GERB Schwingungsisolierungen","accessed":"2026-09-25"},
       {"title":"GERB - Helical Steel Spring Elements","url":"https://www.gerb.com/helical-steel-spring-elements/","publisher":"GERB Schwingungsisolierungen","accessed":"2026-09-25"},
@@ -619,7 +619,7 @@ Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotativ
   rafi: {
     name: "RAFI",
     headquarters: "Berg/Ravensburg, Germania",
-    overview: `RAFI este un producător german de componente pentru interfețe om-mașină (HMI) — butoane, taste tactile și module complete de panou — cu sediul la Berg, lângă Ravensburg. Gama include platforme HMI complete (FLEXSCAPE, GLASSCAPE, JOYSCAPE), joystick-uri industriale, taste tactile (MICON, RACON) și componente de control (RAFIX, LUMOTAST). Putem oferta din gama RAFI componente de panou de comandă pentru mașini industriale, utilaje agricole și echipamente medicale.
+    overview: `RAFI este un producător german de componente pentru interfețe om-mașină (HMI) — butoane, taste tactile și module complete de panou — cu sediul la Berg, lângă Ravensburg. Gama include platforme HMI complete (FLEXSCAPE, GLASSCAPE, JOYSCAPE), joystick-uri industriale, microcomutatoare (MICON, RACON) și componente pentru aplicații încorporate (RAFIX, LUMOTAST). Putem oferta din gama RAFI componente de panou de comandă pentru mașini industriale, utilaje agricole și echipamente medicale.
 
 Ce diferențiază RAFI e acoperirea de la componenta individuală (buton, tastă) până la modulul HMI complet, cu variante tactile pe sticlă (GLASSCAPE) și joystick-uri de precizie pentru control de mișcare (JOYSCAPE). Compania oferă și servicii proprii de producție electronică (EMS), ceea ce permite integrarea comenzii cu electronica de acționare într-un singur furnizor. În segmentul componentelor pentru panouri de comandă, RAFI se compară cu Schneider Electric, ale cărui game de butoane și module de comandă acoperă aplicații similare.
 
@@ -634,8 +634,8 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     keyProducts: [
       { name: "Platforme HMI FLEXSCAPE și GLASSCAPE", description: "Module HMI complete pentru panouri de comandă, cu variantă mecanică flexibilă (FLEXSCAPE) și variantă cu suprafață tactilă pe sticlă (GLASSCAPE), pentru afișare și control integrat. Folosite acolo unde panoul trebuie să combine afișajul cu comanda tactilă, rezistent la praf și umiditate. Aplicație tipică: cabine de utilaje agricole și de construcții. Pentru ofertă, clientul trebuie să trimită dimensiunea panoului dorită și funcțiile de control necesare." },
       { name: "Joystick-uri industriale JOYSCAPE și Steering Stick", description: "Joystick-uri de precizie pentru control de mișcare pe utilaje industriale și mobile, cu variante liniare sau multi-axă. Se folosesc pentru comanda brațelor hidraulice, a sistemelor de direcție sau a echipamentelor de manipulare. Aplicație tipică: cabine de utilaje de construcții și agricole. Pentru ofertă, clientul trebuie să indice numărul de axe de control și tipul de semnal electric necesar." },
-      { name: "Taste tactile MICON și RACON", description: "Taste tactile pentru montaj pe panouri de comandă, disponibile în variante iluminate sau neiluminate, rezistente la utilizare intensivă. Folosite pentru comenzi individuale (pornire/oprire, selecție mod) pe panouri industriale. Aplicație tipică: butoane de comandă pe panouri de mașini industriale. Pentru ofertă, clientul trebuie să trimită codul tastei existente sau specificațiile de montaj (diametru, iluminare, culoare)." },
-      { name: "Componente RAFIX și LUMOTAST", description: "Familii de componente de control cu montaj standardizat (RAFIX) și taste iluminate (LUMOTAST), pentru completarea panourilor de comandă cu elemente de semnalizare vizuală. Aplicație tipică: panouri unde funcția activă trebuie semnalizată luminos operatorului. Pentru ofertă, clientul trebuie să trimită codul componentei sau tipul de montaj și tensiunea de iluminare dorită." }
+      { name: "Microcomutatoare MICON și RACON", description: "Microcomutatoare destinate montajului direct pe plăci electronice (PCB), conform producătorului. Pentru ofertă, clientul trebuie să trimită codul componentei existente sau specificațiile de montaj." },
+      { name: "Componente RAFIX și LUMOTAST", description: "Familii de componente RAFI pentru aplicații încorporate: RAFIX, cu montaj direct pe placa electronică, și LUMOTAST, cu integrare simplă în aplicație, conform producătorului. Pentru ofertă, clientul trebuie să trimită codul componentei sau tipul de montaj dorit." }
     ],
     industries: [
       "Utilaje agricole — panouri HMI pentru cabine de tractoare și combine",
@@ -653,7 +653,7 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       },
       {
         "code": "GLASSCAPE",
-        "description": "platformă HMI cu suprafață din sticlă, aspect premium"
+        "description": "platformă HMI cu suprafață din sticlă"
       },
       {
         "code": "JOYSCAPE",
@@ -697,15 +697,15 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       },
       {
         "code": "LUMOTAST",
-        "description": "taste luminoase pentru panouri de comandă"
+        "description": "familie de componente RAFI pentru aplicații încorporate"
       },
       {
         "code": "RAFIX",
-        "description": "sistem modular de montaj pentru comutatoare și lămpi de semnalizare"
+        "description": "familie de componente pentru aplicații încorporate, montabile direct pe placa electronică"
       },
       {
         "code": "RAMO",
-        "description": "familie de comutatoare rotative RAFI"
+        "description": "familie RAFI cu interfață mecanică M12 și protocol IO-Link, pentru automatizare descentralizată"
       },
       {
         "code": "Signal Lamps",
@@ -713,11 +713,11 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
       },
       {
         "code": "MICON",
-        "description": "taste tactile miniaturale pentru control de precizie"
+        "description": "microcomutatoare pentru montaj direct pe plăci electronice"
       },
       {
         "code": "RACON",
-        "description": "taste tactile robuste pentru medii industriale dure"
+        "description": "microcomutatoare pentru montaj direct pe plăci electronice"
       },
       {
         "code": "M12",
@@ -727,7 +727,7 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     faq: [
       {
         "q": "Ce este platforma HMI FLEXSCAPE de la RAFI?",
-        "a": "FLEXSCAPE este platforma modulară de operare RAFI, gândită pentru a combina taste, encodere și ecrane tactile într-un singur panou de comandă configurabil. Producătorul o construiește astfel încât elementele individuale, de la taste luminoase LUMOTAST până la encodere rotative, să poată fi combinate după nevoile aplicației finale. Se regăsește adesea în utilaje de construcții și mașini agricole, acolo unde operatorul are nevoie de control intuitiv într-un spațiu redus."
+        "a": "FLEXSCAPE este platforma modulară de operare RAFI, gândită pentru a combina taste, encodere și ecrane tactile într-un singur panou de comandă configurabil. Producătorul o construiește astfel încât elementele individuale, de la taste până la encodere rotative, să poată fi combinate după nevoile aplicației finale. Se regăsește adesea în utilaje de construcții și mașini agricole, acolo unde operatorul are nevoie de control intuitiv într-un spațiu redus."
       },
       {
         "q": "Ce diferență este între JOYSCAPE și Steering Stick la RAFI?",
@@ -738,14 +738,14 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
         "a": "Da, componentele RAFI ajung la noi abia după ce lansați comanda, iar timpul obișnuit de așteptare este de 1–4 săptămâni, întrucât gama nu stă pe raft în depozit. Pentru o ofertă corectă avem nevoie de familia de produs dorită, FLEXSCAPE, GLASSCAPE sau o componentă individuală precum RAFIX ori LUMOTAST, plus aplicația exactă în care va fi montată."
       },
       {
-        "q": "Ce sunt tastele tactile MICON și RACON de la RAFI?",
-        "a": "MICON este familia de taste tactile miniaturale RAFI, gândită pentru panouri compacte unde spațiul disponibil este limitat, în timp ce RACON este varianta robustă, construită pentru medii industriale dure, cu expunere la praf, vibrații sau umiditate. Alegerea între cele două depinde de condițiile de mediu din aplicație și de densitatea de taste necesară pe panoul de comandă."
+        "q": "Ce sunt microcomutatoarele MICON și RACON de la RAFI?",
+        "a": "MICON și RACON sunt familii de microcomutatoare RAFI destinate montajului direct pe plăci electronice (PCB). Diferențele dintre cele două familii se confirmă pe codul componentei, din documentația producătorului."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"RAFI - Products","url":"https://www.rafi-group.com/en/","publisher":"RAFI GmbH & Co. KG","accessed":"2026-09-25"},
       { title: "RAFI Group — Home", url: "https://www.rafi-group.com/en/", publisher: "RAFI GmbH & Co. KG", accessed: "2026-09-22" },
@@ -757,21 +757,21 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     name: "CJC",
     overview: `CJC (C.C.Jensen) este un producător danez de sisteme de filtrare offline pentru uleiuri industriale, cu peste 70 de ani de activitate în protecția aprovizionării cu ulei a echipamentelor. Gama acoperă filtrare fină pentru îndepărtarea particulelor, unități de îndepărtare a apei, unități de îndepărtare a vernicelui (produșilor de oxidare) și unități de îndepărtare a acidității din uleiuri hidraulice, de transmisie, turbină, ungere motor, transformator și combustibil diesel. Putem oferta din gama CJC unități de filtrare offline pentru instalații hidraulice și de lubrifiere.
 
-Ce diferențiază CJC e specializarea strictă pe filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient. În filtrarea fină offline, CJC se compară cu Hydac Filtration, care oferă o gamă similară de soluții de condiționare a uleiului.
+Ce diferențiază CJC e orientarea spre filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient. În filtrarea fină offline, CJC se compară cu Hydac Filtration, care oferă o gamă similară de soluții de condiționare a uleiului.
 
 Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine industriale și eoliene, transformatoare de putere și nave, unde prelungirea duratei de viață a uleiului și reducerea opririlor pentru schimb de ulei justifică investiția într-un circuit de filtrare offline dedicat.`,
     whyChoose: [
-      "Peste 70 de ani de specializare exclusivă pe filtrarea offline a uleiurilor industriale",
+      "Peste 70 de ani de experiență în filtrarea uleiurilor industriale",
       "Gamă completă de contaminanți tratați — particule solide, apă, vernice (produși de oxidare) și aciditate",
       "Compatibil cu o gamă largă de uleiuri: hidraulic, transmisie, turbină, transformator, combustibil diesel și uleiuri biologice",
       "Principiu de recirculare lentă offline, care nu perturbă circuitul principal de presiune al instalației",
-      "Aplicații dovedite în marină, minerit, energie eoliană și industrie grea"
+      "Sectoare deservite, conform producătorului: marină și offshore, minerit și ciment, producție de energie, energie eoliană și industrie"
     ],
     keyProducts: [
       { name: "Unități de filtrare fină (îndepărtarea particulelor)", description: "Unități de filtrare offline dedicate îndepărtării particulelor solide din ulei, montate în circuit separat de recirculare lentă, în paralel cu sistemul hidraulic sau de ungere principal. Reduc uzura componentelor sensibile (supape, rulmenți) cauzată de contaminarea cu particule. Aplicație tipică: circuite hidraulice industriale și sisteme de ungere a turbinelor. Pentru ofertă, clientul trebuie să trimită tipul de ulei, volumul rezervorului și gradul de contaminare estimat." },
-      { name: "Unități de îndepărtare a apei", description: "Unități dedicate extragerii apei dizolvate sau libere din ulei, contaminant care accelerează oxidarea și coroziunea componentelor metalice. Folosite acolo unde umiditatea din mediu sau condensul pătrunde în rezervorul de ulei. Aplicație tipică: instalații hidraulice expuse la variații de temperatură sau umiditate ridicată. Pentru ofertă, clientul trebuie să indice tipul de ulei și nivelul de apă detectat prin analiză." },
+      { name: "Unități de îndepărtare a apei", description: "Unități dedicate îndepărtării apei din ulei (prin absorbție în filtrele fine sau prin separarea apei libere în separatoarele-filtru), contaminant care accelerează oxidarea și coroziunea componentelor metalice. Folosite acolo unde umiditatea din mediu sau condensul pătrunde în rezervorul de ulei. Aplicație tipică: instalații hidraulice expuse la variații de temperatură sau umiditate ridicată. Pentru ofertă, clientul trebuie să indice tipul de ulei și nivelul de apă detectat prin analiză." },
       { name: "Unități de îndepărtare a vernicelui", description: "Unități pentru îndepărtarea produșilor de oxidare (varnish) care se depun pe suprafețele interne ale sistemelor hidraulice și de ungere, cauzând blocarea supapelor și reducerea eficienței schimbului termic. Aplicație tipică: sisteme de ungere a turbinelor industriale unde depunerile de vernice afectează fiabilitatea. Pentru ofertă, clientul trebuie să trimită rezultatele unei analize de ulei sau tipul de simptome observate (blocare supape, colmatare filtre)." },
-      { name: "Unități de îndepărtare a acidității", description: "Unități care reduc aciditatea uleiului cauzată de degradarea termică sau oxidativă, prelungind durata de viață utilă a uleiului și protejând componentele metalice de coroziune. Aplicație tipică: uleiuri de transformator și uleiuri industriale supuse la temperaturi ridicate de lucru. Pentru ofertă, clientul trebuie să trimită tipul de ulei și valoarea acidității măsurate (dacă disponibilă)." }
+      { name: "Unități de îndepărtare a acidității", description: "Unități care reduc aciditatea uleiului cauzată de degradarea termică sau oxidativă, prelungind durata de viață utilă a uleiului și protejând componentele metalice de coroziune. Aplicație tipică: uleiuri de transformator și uleiuri de comandă ale turbinelor. Pentru ofertă, clientul trebuie să trimită tipul de ulei și valoarea acidității măsurate (dacă disponibilă)." }
     ],
     industries: [
       "Marină și offshore — filtrare offline pentru combustibil și ulei de ungere",
@@ -817,7 +817,7 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
       },
       {
         "code": "Varnish Removal Units",
-        "description": "unități pentru îndepărtarea depunerilor de lac din ulei"
+        "description": "unități pentru îndepărtarea vernicelui (produșilor de oxidare) din ulei"
       },
       {
         "code": "Removing Acidity Units",
@@ -831,21 +831,21 @@ Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine indu
     faq: [
       {
         "q": "Ce este unitatea CJC HDU 27/108?",
-        "a": "HDU 27/108 este unitatea de filtrare fină din gama CJC dedicată sistemelor hidraulice, de ungere și de răcire de dimensiuni mari, acolo unde volumul de ulei procesat este ridicat. Funcționează prin trecerea uleiului printr-un cartuș filtrant fin, care reține particulele solide fără a afecta aditivii din ulei. Se alege în funcție de debitul instalației și de nivelul de contaminare estimat al sistemului."
+        "a": "HDU 27/108 este unitatea de filtrare fină din gama CJC dedicată sistemelor hidraulice, de ungere și de răcire de dimensiuni mari, acolo unde volumul de ulei procesat este ridicat. Funcționează prin trecerea uleiului printr-un cartuș filtrant fin, care reține particulele solide din ulei. Se alege în funcție de debitul instalației și de nivelul de contaminare estimat al sistemului."
       },
       {
-        "q": "Ce diferență este între unitățile CJC pentru apă și cele pentru lac?",
-        "a": "Unitățile de îndepărtare a apei extrag umiditatea liberă și dizolvată din ulei, prevenind coroziunea și degradarea aditivilor, în timp ce unitățile pentru lac rețin depunerile fine care se formează prin oxidarea uleiului în timp. Cele două tipuri se aleg în funcție de problema dominantă identificată în analiza uleiului din sistemul hidraulic sau de ungere."
+        "q": "Ce diferență este între unitățile CJC pentru apă și cele pentru vernice?",
+        "a": "Unitățile de îndepărtare a apei elimină apa din ulei, prevenind coroziunea, în timp ce unitățile pentru vernice rețin depunerile fine care se formează prin oxidarea uleiului în timp. Cele două tipuri se aleg în funcție de problema dominantă identificată în analiza uleiului din sistemul hidraulic sau de ungere."
       },
       {
         "q": "Livrați unități de filtrare CJC în România?",
-        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 1 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau lac, debitul sistemului și volumul total de ulei din instalație."
+        "a": "Da, procurăm unitățile CJC exclusiv pe bază de comandă fermă, cu un timp de așteptare tipic între 1 și 4 săptămâni, fiindcă nu avem exemplare expuse din această gamă. Pentru o ofertă corectă spuneți-ne tipul de contaminant vizat, apă, particule sau vernice, debitul sistemului și volumul total de ulei din instalație."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"C.C.JENSEN Oil Filtration for Reliable Operations","url":"https://www.ccjensen.com/","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},
       {"title":"CJC Particle Removal Units | Oil Filtration Systems","url":"https://www.ccjensen.com/products-and-services/products/particle-removal-units","publisher":"C.C.Jensen A/S","accessed":"2026-09-25"},
@@ -880,7 +880,7 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       "Tehnologie medicală — instalații de vid pentru echipamente specializate"
     ],
     infinitrade: `Pentru Pfeiffer Vacuum nu avem date proprii de stoc și lucrăm din surse publice ale producătorului atunci când pregătim o ofertă, mai ales pentru că modelul potrivit depinde de parametrii exacți de proces. Aducem pompe și componente de vid Pfeiffer Vacuum prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru o ofertă corectă, clientul trebuie să trimită codul modelului existent (dacă e vorba de o piesă de schimb) sau, pentru o instalație nouă, presiunea de lucru țintă, volumul incintei de vidat și tipul de gaz vehiculat. Nu promitem disponibilitate permanentă din stoc pentru gama Pfeiffer Vacuum — fiecare cerere se verifică individual la producător înainte de confirmarea termenului.`,
-    limitation: "Nu am putut confirma de pe site numele exacte ale seriilor de pompe turbomoleculare și paramentrii lor tehnici (debit de pompare, vid limită) — pentru configurația exactă recomandăm consultarea directă a documentației tehnice a producătorului înainte de comandă.",
+    limitation: "Seriile exacte de pompe turbomoleculare și parametrii lor tehnici (debit de pompare, vid limită) se confirmă pe codul modelului, din documentația tehnică a producătorului, înainte de comandă.",
     productCodes: [
       {
         "code": "HiPace 80",
@@ -896,11 +896,11 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       },
       {
         "code": "HiPace 300 M",
-        "description": "pompă turbomoleculară cu levitație magnetică pe 5 axe"
+        "description": "pompă turbomoleculară cu rulment magnetic activ"
       },
       {
         "code": "HiScroll",
-        "description": "pompă cu șurub tip scroll, funcționare fără ulei"
+        "description": "pompă de tip scroll, funcționare fără ulei"
       },
       {
         "code": "HiScroll 18",
@@ -912,7 +912,7 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       },
       {
         "code": "HiCube 700 H Pro",
-        "description": "stație de pompare cu flanșă DN 160 CF-F"
+        "description": "stație de pompare turbomoleculară, gamă Pro"
       },
       {
         "code": "HiCube Neo",
@@ -920,27 +920,27 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
       },
       {
         "code": "MVP 010-3 DC",
-        "description": "pompă cu diafragmă, alimentare 24 V DC"
+        "description": "pompă cu diafragmă"
       }
     ],
     faq: [
       {
         "q": "Ce este pompa Pfeiffer Vacuum HiPace 300 M?",
-        "a": "HiPace 300 M este pompa turbomoleculară din gama Pfeiffer Vacuum care folosește levitație magnetică pe cinci axe în locul rulmenților clasici, eliminând contactul mecanic dintre rotor și stator. Această construcție reduce vibrațiile transmise camerei de vid și prelungește intervalul dintre operațiile de mentenanță, fiind potrivită pentru aplicații de cercetare sau procese sensibile la particule generate prin uzură mecanică."
+        "a": "HiPace 300 M este pompa turbomoleculară din gama Pfeiffer Vacuum care folosește un sistem de rulment magnetic activ, în care rotorul este susținut prin levitație, fără contact sau uzură mecanică. Această construcție este potrivită pentru aplicații de cercetare sau procese sensibile la particule generate prin uzură mecanică."
       },
       {
         "q": "Ce diferență este între o stație HiCube Pro și una HiCube Neo de la Pfeiffer Vacuum?",
-        "a": "HiCube Pro este generația consacrată de stații de pompare turbomoleculară, construită în jurul unei pompe HiPace și a unei pompe de preveid tip scroll, precum HiScroll. HiCube Neo este generația mai recentă a aceleiași idei, cu îmbunătățiri de control și integrare electronică, gândită pentru laboratoare care doresc o interfață mai modernă de operare fără a schimba principiul de funcționare al stației."
+        "a": "HiCube Pro este generația consacrată de stații de pompare turbomoleculară, construită în jurul unei pompe HiPace și a unei pompe de preveid uscate sau cu etanșare cu ulei. HiCube Neo este o generație mai nouă din aceeași familie de stații de pompare; diferențele exacte de control și interfață se confirmă pe codul modelului, din documentația producătorului."
       },
       {
         "q": "Livrați pompe Pfeiffer Vacuum în România?",
-        "a": "Da, pompele Pfeiffer Vacuum se comandă punctual din fabrică, sosind de obicei în 1–4 săptămâni, deoarece magazinul nostru nu expune fizic această gamă pe rafturi. Pentru o ofertă corectă avem nevoie de presiunea finală necesară, debitul de pompare dorit și tipul de aplicație, cercetare, semiconductori sau industrie generală."
+        "a": "Da, pompele Pfeiffer Vacuum se comandă punctual din fabrică, sosind de obicei în 1–4 săptămâni, deoarece nu păstrăm această gamă în stoc propriu. Pentru o ofertă corectă avem nevoie de presiunea finală necesară, debitul de pompare dorit și tipul de aplicație, cercetare, semiconductori sau industrie generală."
       }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Turbopumps - Pfeiffer Vacuum","url":"https://www.pfeiffer-vacuum.com/en/products/vacuum-generation/turbopumps/","publisher":"Pfeiffer Vacuum GmbH","accessed":"2026-09-25"},
       {"title":"Products - Pfeiffer Vacuum","url":"https://www.pfeiffer-vacuum.com/en/products/","publisher":"Pfeiffer Vacuum GmbH","accessed":"2026-09-25"},
@@ -962,7 +962,7 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
       "Gamă completă de sudură — MIG/MAG, TIG și tăiere cu plasmă, cu control digital la seriile invertor",
       "Gamma Drive Pro oferă curent de pornire de până la 4500A pentru vehicule grele și utilaje industriale",
       "Sisteme dedicate de reparații prin tragere (Smart Repair, RivPro) pentru caroserii auto",
-      "Peste 60 de ani de fabricație continuă în Italia, cu filiale în opt țări",
+      "Peste 60 de ani de activitate în domeniul sudurii, din 1963",
       "Variante pulsate de sudură TIG/MIG (XD Pulse) pentru table subțiri și oțeluri speciale"
     ],
     keyProducts: [
@@ -994,7 +994,7 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
       },
       {
         "code": "Linear 530 HD",
-        "description": "sudură MIG/MAG din seria Linear i, capacitate HD"
+        "description": "model din gama Telwin; procedeul și parametrii se confirmă pe fișa tehnică a modelului"
       },
       {
         "code": "Technomig 241 Wave",
@@ -1060,7 +1060,7 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
       },
       {
         "q": "Livrați echipamente de sudură Telwin în România?",
-        "a": "Da, echipamentele Telwin se procură la cerere direct din catalogul producătorului, termenul uzual fiind de 1–4 săptămâni, gama nefiind păstrată permanent în showroom. Pentru o ofertă corectă avem nevoie de procedeul de sudare dorit, grosimea materialului și dacă echipamentul va fi folosit trifazat sau monofazat."
+        "a": "Da, echipamentele Telwin se procură la cerere direct din catalogul producătorului, termenul uzual fiind de 1–4 săptămâni, gama nefiind păstrată în stoc propriu. Pentru o ofertă corectă avem nevoie de procedeul de sudare dorit, grosimea materialului și dacă echipamentul va fi folosit trifazat sau monofazat."
       },
       {
         "q": "Ce este sistemul de încălzire Inductor 6000 Aqua de la Telwin?",
@@ -1069,8 +1069,8 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Telwin - Welding Machines","url":"https://www.telwin.com/en/products/welding-machines","publisher":"Telwin S.p.A.","accessed":"2026-09-25"},
       {"title":"Telwin - Products","url":"https://www.telwin.com/en/products","publisher":"Telwin S.p.A.","accessed":"2026-09-25"},
@@ -1084,11 +1084,11 @@ Pentru România, Telwin e relevant pentru ateliere de sudură industrială, serv
     headquarters: "Barletta, Italia",
     overview: `Cofra este un producător italian de încălțăminte de protecție a muncii, cu sediul la Barletta. Gama acoperă mai multe linii de cizme și pantofi de protecție — de la modele ușoare din poliuretan/TPU (Light Boots) până la modele cu tehnologie de amortizare cu azot în talpă (Nitrogenium) și cizme antisăgeată (Chain Bole Boot) — alături de mănuși, echipament de protecție respiratorie, căști și dispozitive anticădere. Putem oferta din gama Cofra echipament individual de protecție pentru personalul din producție și mentenanță.
 
-Ce diferențiază Cofra e varietatea liniilor dedicate unor cerințe specifice de confort și protecție — Light Boots pentru flexibilitate și greutate redusă, Aggressive pentru reducerea oboselii la ore lungi de purtare, Lightech (linie nouă) pentru combinația ușurință-rezistență, și Nitrogenium cu tehnologie de amortizare în talpă pentru locuri de muncă unde impactul repetat pe suprafețe dure oboseste piciorul. În segmentul echipamentului de protecție individuală, Cofra se compară cu MSA Safety, ale cărui game acoperă aplicații similare de siguranță industrială.
+Ce diferențiază Cofra e varietatea liniilor dedicate unor cerințe specifice de confort și protecție — Light Boots pentru flexibilitate și greutate redusă, Aggressive pentru reducerea oboselii la ore lungi de purtare, Lightech (linie nouă) pentru combinația ușurință-rezistență, și Nitrogenium cu tehnologie de amortizare în talpă pentru locuri de muncă unde impactul repetat pe suprafețe dure obosește piciorul. În segmentul echipamentului de protecție individuală, Cofra se compară cu MSA Safety, ale cărui game acoperă aplicații similare de siguranță industrială.
 
 Pentru România, Cofra e relevantă pentru companii din producție industrială, construcții și logistică ce trebuie să echipeze personalul cu încălțăminte de protecție certificată, potrivită pentru ore lungi de purtare sau pentru medii cu risc de impact sau perforare.`,
     whyChoose: [
-      "Gamă largă de linii dedicate — de la modele ușoare din poliuretan/TPU până la cizme antisăgeată certificate",
+      "Gamă largă de linii dedicate — de la modele ușoare din poliuretan/TPU până la cizme cu protecție la tăierea cu drujba",
       "Nitrogenium aduce tehnologie de amortizare cu azot în talpă pentru reducerea oboselii la purtare îndelungată",
       "Certificare ISO 9001, verificată de organismul independent Bureau Veritas",
       "Portofoliu extins de echipament individual de protecție — mănuși, protecție respiratorie, căști, dispozitive anticădere",
@@ -1097,12 +1097,12 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
     keyProducts: [
       { name: "Linia Light Boots", description: "Cizme de protecție din poliuretan/TPU, cu accent pe flexibilitate și greutate redusă, pentru purtare confortabilă pe durata unui schimb complet de lucru. Aplicație tipică: producție industrială și logistică, unde mobilitatea contează la fel de mult ca protecția. Pentru ofertă, clientul trebuie să trimită mărimile necesare și clasa de protecție cerută (protecție la impact, perforare etc.)." },
       { name: "Linia Nitrogenium", description: "Cizme de protecție cu tehnologie de amortizare bazată pe azot integrat în talpă, concepute pentru reducerea oboselii piciorului la locuri de muncă cu impact repetat pe suprafețe dure. Aplicație tipică: linii de producție cu personal care stă în picioare ore întregi pe pardoseală de beton sau metal. Pentru ofertă, clientul trebuie să precizeze mărimile și cerințele de certificare specifice locului de muncă." },
-      { name: "Linia Chain Bole Boot", description: "Cizme de protecție antisăgeată (anti-perforare), destinate mediilor cu risc de accidentare prin obiecte ascuțite pe sol. Aplicație tipică: șantiere de construcții și zone de depozitare cu materiale metalice sau resturi de construcție. Pentru ofertă, clientul trebuie să trimită mărimile necesare și nivelul de protecție la perforare cerut." },
+      { name: "Linia Chain Bole Boot", description: "Încălțăminte cu protecție la tăierea cu drujba, pentru personalul care lucrează cu fierăstraie mecanice. Pentru ofertă, clientul trebuie să trimită mărimile necesare și nivelul de protecție cerut." },
       { name: "Linia Aggressive și Lightech", description: "Linii de încălțăminte de protecție orientate spre confort pe termen lung — Aggressive pentru reducerea oboselii la purtare îndelungată, Lightech (linie nouă) pentru combinația greutate redusă-rezistență. Aplicație tipică: personal de producție și mentenanță cu program lung pe teren. Pentru ofertă, clientul trebuie să trimită mărimile necesare și clasa de protecție cerută pentru mediul de lucru." }
     ],
     industries: [
       "Producție industrială — încălțăminte de protecție pentru personal de linie",
-      "Construcții — cizme antisăgeată pentru șantiere",
+      "Construcții — încălțăminte de protecție pentru șantiere",
       "Logistică și depozitare — încălțăminte ușoară pentru mobilitate ridicată",
       "Mentenanță industrială — protecție pentru ore lungi de purtare pe suprafețe dure"
     ],
@@ -1194,7 +1194,7 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
     faq: [
       {
         "q": "Ce înseamnă clasificarea S3S la încălțămintea Cofra?",
-        "a": "Clasificarea S3S arată nivelul de protecție conform standardului european pentru încălțăminte de siguranță: bombeu rezistent la impact, talpă antiperforație și rezistență la apă a feței exterioare, plus talpă cu striații pentru aderență. Modele Cofra precum Vantrek ESD S3S sau Templet ESD S3S adaugă și proprietăți antistatice ESD, utile în medii unde acumularea de electricitate statică trebuie controlată, cum ar fi liniile de asamblare electronică."
+        "a": "Clasificarea S3S este definită de standardul european pentru încălțăminte de siguranță (EN ISO 20345); cerințele exacte se confirmă pe fișa fiecărui model. Modele Cofra precum Vantrek ESD S3S sau Templet ESD S3S adaugă și proprietăți antistatice ESD, utile în medii unde acumularea de electricitate statică trebuie controlată, cum ar fi liniile de asamblare electronică."
       },
       {
         "q": "Ce diferență este între o încălțăminte Cofra ESD și una fără ESD?",
@@ -1211,8 +1211,8 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Cofra","url":"https://cofra.it/en/","publisher":"Cofra S.r.l.","accessed":"2026-09-25"},
       { title: "Cofra — Home", url: "https://cofra.it", publisher: "Cofra S.r.l.", accessed: "2026-09-22" },
@@ -1222,15 +1222,15 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
 
   renishaw: {
     name: "Renishaw",
-    overview: `Renishaw este un producător britanic de sisteme de măsurare, palpare CMM și encodere de poziționare, cu activitate globală în metrologie de precizie. Gama include palpoare tactile și de scanare pentru mașini de măsurat în coordonate (CMM), retrofit-uri și software CMM, sistemul de măsurare Equator™, precum și encodere optice deschise și închise (seria Fortis), encodere inductive (seria Astria), encodere magnetice și encodere laser interferometrice. Putem oferta din gama Renishaw palpoare CMM și encodere de poziționare pentru mașini-unelte și echipamente de metrologie.
+    overview: `Renishaw este un producător britanic de sisteme de măsurare, palpare CMM și encodere de poziționare, cu activitate globală în metrologie de precizie. Gama include palpoare tactile și de scanare pentru mașini de măsurat în coordonate (CMM), retrofit-uri și software CMM, sistemul de măsurare Equator™, precum și encodere optice deschise și închise (seria Fortis), encodere magnetice și encodere laser interferometrice. Putem oferta din gama Renishaw palpoare CMM și encodere de poziționare pentru mașini-unelte și echipamente de metrologie.
 
-Ce diferențiază Renishaw e combinarea metrologiei de contact (palpoare CMM) cu poziționarea de precizie (encodere) sub același brand — companii concurente acoperă de regulă doar unul dintre cele două domenii. Seria Fortis aduce encodere optice închise, rezistente la mediul industrial, iar seria Astria acoperă encoderele inductive, o tehnologie alternativă la cea optică pentru medii cu contaminare ridicată. În segmentul metrologiei industriale, Renishaw se compară cu Mitutoyo, ale cărui game de palpoare și instrumente de măsurare acoperă aplicații similare.
+Ce diferențiază Renishaw e combinarea metrologiei de contact (palpoare CMM) cu poziționarea de precizie (encodere) sub același brand — companii concurente acoperă de regulă doar unul dintre cele două domenii. Seria Fortis aduce encodere optice închise, rezistente la mediul industrial. În segmentul metrologiei industriale, Renishaw se compară cu Mitutoyo, ale cărui game de palpoare și instrumente de măsurare acoperă aplicații similare.
 
 Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producători de mașini-unelte care fac retrofit de CMM-uri și pentru fabricile din automotive și aerospațial care au nevoie de sisteme de măsurare integrate direct pe linia de producție, nu doar în laborator.`,
     whyChoose: [
       "Acoperă atât metrologia de contact (palpoare CMM), cât și poziționarea de precizie (encodere), sub același brand",
       "Sistemul Equator™ oferă o alternativă de măsurare rapidă pentru controlul dimensional pe linia de producție",
-      "Encodere inductive (seria Astria) — alternativă robustă la cele optice pentru medii cu contaminare ridicată",
+      "Gamă de encodere pentru poziționare de precizie, alături de palpoarele CMM",
       "Retrofit-uri și software proprii pentru CMM-uri existente, nu doar echipamente noi",
       "Prezență în industrii cu cerințe stricte de precizie: aerospațial, automotive, tehnologie medicală"
     ],
@@ -1238,7 +1238,7 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
       { name: "Palpoare CMM — touch-trigger și scanning probes", description: "Palpoare pentru mașini de măsurat în coordonate, în variante cu declanșare la atingere (touch-trigger) sau cu scanare continuă a suprafeței, pentru verificarea dimensională a pieselor. Folosite în laboratoare de metrologie și pe linii de control al calității. Aplicație tipică: verificarea toleranțelor dimensionale ale pieselor prelucrate. Pentru ofertă, clientul trebuie să trimită modelul mașinii CMM existente și tipul de palpor compatibil necesar." },
       { name: "Sistem de măsurare Equator™", description: "Sistem de măsurare comparativă (gauging), conceput ca alternativă mai rapidă la CMM-ul clasic pentru controlul dimensional repetitiv pe linia de producție, cu reconfigurare rapidă pentru piese diferite. Aplicație tipică: control de calitate în producție de serie, unde viteza de măsurare contează la fel de mult ca precizia. Pentru ofertă, clientul trebuie să descrie piesa de măsurat și toleranțele impuse." },
       { name: "Encodere optice închise — seria Fortis", description: "Encodere optice cu carcasă închisă, rezistente la praf și lichide de răcire, pentru montaj pe axele mașinilor-unelte în medii industriale dure. Aplicație tipică: retrofit de axe pe mașini-unelte unde encoderele deschise nu ar rezista la mediul de lucru. Pentru ofertă, clientul trebuie să trimită lungimea de măsurare necesară și gradul de protecție cerut de mediul de lucru." },
-      { name: "Encodere inductive — seria Astria", description: "Encodere bazate pe principiul inductiv, alternativă la tehnologia optică, mai tolerante la contaminare cu praf, ulei sau umezeală. Aplicație tipică: axe de mașini-unelte în medii cu contaminare ridicată, unde encoderele optice ar necesita curățare frecventă. Pentru ofertă, clientul trebuie să trimită tipul de montaj și lungimea de măsurare necesară." }
+      { name: "Encodere — seria Astria", description: "Gamă de encodere de poziționare Renishaw; tipul constructiv și specificațiile exacte se confirmă pe fișa tehnică a modelului. Pentru ofertă, clientul trebuie să trimită tipul de montaj și lungimea de măsurare necesară." }
     ],
     industries: [
       "Aerospațial — verificare dimensională de precizie pentru componente critice",
@@ -1252,7 +1252,7 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
     productCodes: [
       {
         "code": "TP20",
-        "description": "palpator cu schimbare de module pentru mașini-unelte CNC"
+        "description": "palpator cu declanșare la atingere și schimbare de module, pentru mașini de măsurat în coordonate (CMM)"
       },
       {
         "code": "TP200",
@@ -1302,11 +1302,11 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
     faq: [
       {
         "q": "Ce diferență este între palpatorii Renishaw RMP400 și OMP400?",
-        "a": "RMP400 transmite semnalul de declanșare prin radio, ceea ce îi oferă o rază de operare de până la 15 metri și îl face potrivit pentru mașini mari sau celule cu mai multe posturi de lucru. OMP400 folosește transmisie optică cu infraroșu, cu o rază mai redusă, de până la 5 metri, dar cu un cost tipic mai scăzut. Ambele au diametrul de 40 mm și repetabilitate unidirecțională de 0,25 µm."
+        "a": "RMP400 transmite semnalul de declanșare prin radio, ceea ce îi oferă o rază de operare de până la 15 metri și îl face potrivit pentru mașini mari sau celule cu mai multe posturi de lucru. OMP400 folosește transmisie optică cu infraroșu, cu o rază mai redusă, de până la 5 metri. Ambele au diametrul de 40 mm și repetabilitate unidirecțională de 0,25 µm."
       },
       {
         "q": "Ce este capul de palpare PH20 de la Renishaw?",
-        "a": "PH20 este un cap de palpare motorizat Renishaw care integrează palpatorul TP20 și permite reorientarea rapidă a direcției de palpare fără mișcarea axelor mașinii-unelte, reducând timpul de măsurare a pieselor complexe. Este folosit tipic pe centre de prelucrare unde se cere măsurare frecventă a pieselor direct pe mașină, între operațiile de prelucrare, fără a demonta piesa de pe masă."
+        "a": "PH20 este un cap de palpare Renishaw cu 5 axe, cu palpator TP20 integrat, destinat mașinilor de măsurat în coordonate (CMM). Permite reorientarea rapidă a direcției de palpare, reducând timpul de măsurare a pieselor complexe."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de palpatoare Renishaw?",
@@ -1319,8 +1319,8 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Renishaw: TP20","url":"https://www.renishaw.com/en/tp20--6670","publisher":"Renishaw plc","accessed":"2026-09-25"},
       {"title":"Renishaw: High-accuracy touch probes for CNC machines","url":"https://www.renishaw.com/en/omp400-high-accuracy-machine-probe--6089","publisher":"Renishaw plc","accessed":"2026-09-25"},
@@ -1335,13 +1335,13 @@ Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producăt
     headquarters: "Graz, Austria",
     overview: `Anton Paar este un producător austriac de instrumente de măsurare și analiză pentru laborator și industrie, cu sediul la Graz, fondat în 1922 de lăcătușul Anton Paar. Gama acoperă densimetre portabile și de proces (DMA 35, EasyDens), reometre modulare (seria MCR), viscozimetre, analizoare de granulometrie, spectrometre Raman, analizoare termice și sisteme de digestie cu microunde. Putem oferta din gama Anton Paar instrumente de măsurare a densității și viscozității pentru laboratoare industriale.
 
-Ce diferențiază Anton Paar e acoperirea completă a analizei de proces pentru fluide — de la densimetre portabile de teren (DMA 35) până la senzori inline montați direct pe linia de producție pentru măsurarea continuă a densității, concentrației și CO₂ dizolvat, plus reometre modulare (seria MCR 303/503) pentru caracterizarea completă a comportamentului reologic al materialelor. Compania e prezentă în peste 110 țări. În segmentul instrumentelor de analiză de proces, Anton Paar se compară cu Mettler Toledo, ale cărui game de instrumente de laborator și senzori de proces acoperă aplicații similare.
+Ce diferențiază Anton Paar e acoperirea completă a analizei de proces pentru fluide — de la densimetre portabile de teren (DMA 35) până la senzori inline montați direct pe linia de producție pentru măsurarea continuă a densității, concentrației și CO₂ dizolvat, plus reometre modulare (seria MCR 303/503) pentru caracterizarea completă a comportamentului reologic al materialelor. Compania este prezentă în 110 de țări, potrivit producătorului. În segmentul instrumentelor de analiză de proces, Anton Paar se compară cu Mettler Toledo, ale cărui game de instrumente de laborator și senzori de proces acoperă aplicații similare.
 
 Pentru România, Anton Paar e relevant pentru laboratoare de control al calității din industria alimentară, producători de polimeri, rafinării și producători de baterii litiu-ion care au nevoie de instrumente precise de măsurare a densității, concentrației sau proprietăților reologice, fie punctual în laborator, fie continuu pe linia de producție.`,
     whyChoose: [
       "Acoperire completă — de la densimetre portabile de teren până la senzori inline montați direct pe linia de producție",
       "Reometre modulare seria MCR (303/503/503 Power) pentru caracterizare reologică completă a materialelor",
-      "Prezență în peste 110 țări, cu suport tehnic pentru integritatea datelor și conformitate",
+      "Prezență în 110 de țări, cu rețea globală de vânzări și service",
       "Fondată în 1922, cu peste un secol de specializare pe măsurare de precizie",
       "Aplicabilitate largă — de la analiza alimentelor la producția de baterii litiu-ion"
     ],
@@ -1383,7 +1383,7 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
       },
       {
         "code": "EasyDens",
-        "description": "densimetru inteligent, conectare prin telefon mobil"
+        "description": "densimetru inteligent (Smart Density Meter)"
       },
       {
         "code": "Ultratap",
@@ -1437,7 +1437,7 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
     faq: [
       {
         "q": "Ce este densimetrul Anton Paar EasyDens?",
-        "a": "EasyDens este densimetrul inteligent al Anton Paar, gândit pentru măsurători rapide de densitate direct la locul de producție, cu transferul rezultatelor către un telefon mobil printr-o aplicație dedicată. Este folosit frecvent în industria băuturilor, unde operatorii verifică densitatea unui lichid fără a avea nevoie de un laborator complet echipat, păstrând totuși un nivel de precizie potrivit pentru controlul de proces curent."
+        "a": "EasyDens este densimetrul inteligent al Anton Paar, gândit pentru măsurători rapide de densitate direct la locul de producție. Detaliile de conectivitate, domeniile de măsurare și precizia se confirmă din documentația producătorului, pe codul modelului."
       },
       {
         "q": "Ce diferență este între reometrele Anton Paar MCR 503 și MCR 703?",
@@ -1445,7 +1445,7 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
       },
       {
         "q": "Livrați instrumente Anton Paar în România?",
-        "a": "Da, instrumentele Anton Paar sunt comandate individual pentru fiecare client, sosirea lor durând în mod normal 1–4 săptămâni, gama nefiind ținută în magazin. Pentru o ofertă corectă avem nevoie de tipul de măsurătoare dorită, densitate, vâscozitate sau comportament reologic, și de domeniul de temperatură sau presiune de lucru."
+        "a": "Da, instrumentele Anton Paar sunt comandate individual pentru fiecare client, sosirea lor durând în mod normal 1–4 săptămâni, gama nefiind păstrată în stoc propriu. Pentru o ofertă corectă avem nevoie de tipul de măsurătoare dorită, densitate, vâscozitate sau comportament reologic, și de domeniul de temperatură sau presiune de lucru."
       },
       {
         "q": "Ce este picnometrul Ultrapyc de la Anton Paar?",
@@ -1454,8 +1454,8 @@ Pentru România, Anton Paar e relevant pentru laboratoare de control al calită�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Anton Paar - Products","url":"https://www.anton-paar.com/corp-en/products/","publisher":"Anton Paar GmbH","accessed":"2026-09-25"},
       {"title":"Density meters - Anton Paar","url":"https://www.anton-paar.com/corp-en/products/group/density-meters/","publisher":"Anton Paar GmbH","accessed":"2026-09-25"},

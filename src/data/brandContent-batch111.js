@@ -3,11 +3,11 @@
 export const brandContentBatch111 = {
   elmag: {
     name: "Elmag",
-    overview: `Elmag este un producător austriac de echipamente pentru ateliere industriale, cu o gamă organizată pe cinci direcții tehnice: aer comprimat, sudură, prelucrarea metalului, prelucrarea pietrei și generatoare de curent. Oferta trece de la compresoare cu piston și cu șurub până la aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat, strunguri și generatoare pe benzină sau diesel. Pentru un atelier din România, gama Elmag înseamnă mai multe tipuri de echipamente de bază dintr-o singură sursă.
+    overview: `Elmag este un furnizor de echipamente pentru ateliere industriale, prezent în Austria prin ELMAG Österreich, cu o gamă organizată pe cinci direcții tehnice: aer comprimat, sudură, prelucrarea metalului, prelucrarea pietrei și generatoare de curent. Oferta trece de la compresoare cu piston și cu șurub până la aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat, strunguri și generatoare pe benzină sau diesel. Pentru un atelier din România, gama Elmag înseamnă mai multe tipuri de echipamente de bază dintr-o singură sursă.
 
-Catalogul e larg pe fiecare linie: la aer comprimat include compresoare insonorizate pentru hale sensibile la zgomot, uscătoare frigorifice și prin adsorbție, rezervoare de aer și zeci de scule pneumatice, de la ciocane de spart la șurubelnițe. La sudură, paleta acoperă invertoare MIG/MAG și WIG/TIG, surse cu electrod pentru șantier, instalații de tăiere cu plasmă și sisteme de aspirație a fumului. Zona de metal adaugă mașini de găurit-frezat și strunguri, iar zona de curent, generatoare și stații portabile cu acumulator.
+Catalogul e larg pe fiecare linie: la aer comprimat include compresoare insonorizate pentru hale sensibile la zgomot, uscătoare frigorifice și prin adsorbție, rezervoare de aer și scule pneumatice, de la ciocane de spart la chei cu impact. La sudură, paleta acoperă invertoare MIG/MAG și WIG/TIG, surse cu electrod pentru șantier, instalații de tăiere cu plasmă și sisteme de aspirație a fumului. Zona de metal adaugă mașini de găurit-frezat și strunguri, iar zona de curent, generatoare și stații portabile cu acumulator.
 
-Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală mică are nevoie simultan de aer comprimat, o sursă de sudură și o mașină de bază de prelucrat metal, fără mai mulți furnizori pentru echipamente din aceeași categorie de preț. Configurația se stabilește după aplicația concretă de la fața locului.`,
+Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală mică are nevoie simultan de aer comprimat, o sursă de sudură și o mașină de bază de prelucrat metal, fără mai mulți furnizori. Configurația se stabilește după aplicația concretă de la fața locului.`,
     whyChoose: [
       "Catalog pe cinci direcții tehnice — aer comprimat, sudură, prelucrare metal, prelucrare piatră, curent — de la un singur furnizor austriac",
       "Compresoare cu piston și cu șurub, inclusiv variante insonorizate pentru hale cu cerințe de zgomot redus",
@@ -46,15 +46,15 @@ Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală
       { code: "Powerstations", description: "Stații de curent portabile cu acumulator" },
     ],
     faq: [
-      { q: "Ce echipamente produce Elmag?", a: "Elmag produce echipamente de atelier industrial din Austria — compresoare cu piston și cu șurub, aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat și strunjire, plus generatoare de curent pe benzină sau diesel. Gama e organizată pe direcții tehnice clare, ceea ce ajută la acoperirea mai multor nevoi de atelier dintr-o singură sursă." },
+      { q: "Ce echipamente produce Elmag?", a: "Elmag oferă echipamente de atelier industrial prin ELMAG Österreich — compresoare cu piston și cu șurub, aparate de sudură MIG/MAG, WIG/TIG și cu electrod învelit, mașini de găurit, găurit-frezat și strunjire, plus generatoare de curent pe benzină sau diesel. Gama e organizată pe direcții tehnice clare, ceea ce ajută la acoperirea mai multor nevoi de atelier dintr-o singură sursă." },
       { q: "Cum aleg un compresor potrivit pentru atelierul meu?", a: "Alegerea pornește de la debitul de aer necesar în litri pe minut și presiunea de lucru a sculelor pneumatice folosite. Pentru consum intermitent, un compresor cu piston e suficient; pentru funcționare continuă, recomandăm un model cu șurub, eventual insonorizat dacă zgomotul contează în hală. Trimiteți-ne aceste date pentru o propunere corectă." },
       { q: "Livrați echipamente Elmag în România și cât durează?", a: "Da, aducem echipamente Elmag la comandă prin canale de aprovizionare din Austria și UE, cu un termen orientativ de 1–4 săptămâni, în funcție de model și de disponibilitatea confirmată de producător. Termenul exact se stabilește după ce identificăm modelul potrivit pentru aplicația dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă de sudură Elmag?", a: "Pentru o ofertă corectă la aparatele de sudură Elmag, trimiteți tipul de material sudat (oțel, inox, aluminiu), grosimea tablei, procesul dorit — MIG/MAG, WIG/TIG sau electrod învelit — și tipul de curent electric disponibil la punctul de lucru. Cu aceste informații putem propune modelul potrivit din gamă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ELMAG – Kompressoren, Schweißgeräte, Werkstatttechnik", url: "https://www.elmag.at", publisher: "Elmag GmbH", accessed: "2026-09-25" },
       { title: "Druckluft – Kompressoren, Trockner, Druckluftwerkzeuge", url: "https://www.elmag.at/de/druckluft", publisher: "Elmag GmbH", accessed: "2026-09-25" },
@@ -64,7 +64,7 @@ Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală
     name: "GESIPA",
     overview: `GESIPA este un producător german specializat în tehnologie de nituire — nituri oarbe, piulițe nit oarbe și mașinile de montare necesare pentru ambele, de la scule manuale până la unelte cu acumulator pentru producție de serie. Marca face parte din SFS Group, iar dezvoltarea sistemelor de nituire rămâne concentrată sub numele GESIPA. Pentru o linie de asamblare din România, gama înseamnă acces la un sistem complet — nitul, piulița și scula de montare — gândit să funcționeze împreună.
 
-Seria AccuBird Pro livrează o forță de tragere de până la 13.000 N pentru nituri curente, iar iBird Pro Gold Edition ajunge la 20.000 N pentru nituri structurale mai groase, ambele cu acumulatoare compatibile cu sistemul CAS (Cordless Alliance System). Pe consumabile, familia PolyGrip acoperă niturile din aluminiu și inox pentru uz general, MEGA GRIP e din oțel pentru găuri ușor supradimensionate, iar PolyBulb formează un cap de refulare mai mare, potrivit pentru materiale fragile.
+Seria AccuBird Pro livrează o forță de tragere de până la 13.000 N pentru nituri curente, iar iBird Pro Gold Edition ajunge la 20.000 N pentru nituri structurale mai groase, ambele cu acumulatoare compatibile cu sistemul CAS (Cordless Alliance System). Pe consumabile, familia PolyGrip acoperă niturile din aluminiu și inox pentru uz general, MEGA GRIP e din oțel pentru găuri ușor supradimensionate, iar PolyBulb este varianta din aluminiu/oțel cu cap bombat.
 
 Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier de tâmplărie metalică folosește constant nituri oarbe și are nevoie atât de consumabile curente, cât și de scule de montare fiabile pe termen lung.`,
     whyChoose: [
@@ -74,9 +74,9 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
       "Parte din SFS Group, cu certificare ISO 9001, ISO 14001 și IATF 16949 pentru fabricație",
     ],
     keyProducts: [
-      { name: "Scule de nituit cu acumulator (AccuBird, iBird Pro)", description: "Familia de scule cu acumulator GESIPA acoperă de la AccuBird (10.000 N) până la AccuBird Pro (13.000 N) și iBird Pro Gold Edition, care ajunge la 20.000 N pentru nituri structurale mai groase. Toate funcționează pe baterii compatibile CAS, cu curse de sculă de 20 sau 25 mm. Pentru ofertă, avem nevoie de diametrul și materialul nitului folosit predominant." },
-      { name: "Nituri oarbe PolyGrip și MEGA GRIP", description: "PolyGrip e seria de nituri oarbe pentru uz general, în aluminiu/inox, cap bombat, diametre de 3,2–4 mm. MEGA GRIP, din oțel/oțel, acoperă diametre de 4,8 și 6,4 mm, construită pentru găuri ușor supradimensionate. Ambele se montează cu aceleași scule GESIPA, ceea ce simplifică schimbarea diametrului de nit pe linie." },
-      { name: "Piulițe nit oarbe și nituri speciale", description: "Piulițele nit oarbe rezolvă asamblări în materiale subțiri unde un nit clasic nu oferă filet interior. PolyBulb formează un cap de refulare mai mare pentru materiale fragile, iar SolarGrip e gândită pentru structuri de fixare din instalațiile fotovoltaice. Pentru ofertă, spuneți-ne materialul găurit și grosimea totală a pachetului de strâns." },
+      { name: "Scule de nituit cu acumulator (AccuBird, iBird Pro)", description: "Familia de scule cu acumulator GESIPA acoperă de la AccuBird (10.000 N) până la AccuBird Pro (13.000 N) și iBird Pro Gold Edition, care ajunge la 20.000 N pentru nituri structurale mai groase. Modelele AccuBird Pro și iBird Pro funcționează pe baterii compatibile CAS (cu excepția modelului AccuBird); cursa sculei este de 20 mm la AccuBird și de 25 mm la AccuBird Pro și iBird Pro. Pentru ofertă, avem nevoie de diametrul și materialul nitului folosit predominant." },
+      { name: "Nituri oarbe PolyGrip și MEGA GRIP", description: "PolyGrip e seria de nituri oarbe pentru uz general, în aluminiu/inox, cu cap bombat; conform producătorului, un nit PolyGrip poate înlocui până la cinci dimensiuni de nituri standard DIN. MEGA GRIP, din oțel/oțel, acoperă diametre de 4,8 și 6,4 mm, construită pentru găuri ușor supradimensionate. Ambele se montează cu aceleași scule GESIPA, ceea ce simplifică schimbarea diametrului de nit pe linie." },
+      { name: "Piulițe nit oarbe și nituri speciale", description: "Piulițele nit oarbe rezolvă asamblări în materiale subțiri unde un nit clasic nu oferă filet interior. PolyBulb este varianta din aluminiu/oțel cu cap bombat, iar SolarGrip e gândită pentru structuri de fixare din instalațiile fotovoltaice. Pentru ofertă, spuneți-ne materialul găurit și grosimea totală a pachetului de strâns." },
     ],
     industries: [
       "Industria auto și a furnizorilor auto — asamblare caroserii din tablă și aluminiu",
@@ -86,36 +86,36 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
       "Vehicule comerciale și utilaje — asamblare caroserii și panouri",
     ],
     certifications: ["ISO 9001 — management al calității de fabricație", "ISO 14001 — management de mediu", "ISO 45001 — sănătate și securitate ocupațională", "IATF 16949 — standard specific industriei auto"],
-    infinitrade: `Pentru GESIPA lucrăm cu informațiile publicate de producător și de grupul SFS, fiind transparenți cu privire la ce putem și ce nu putem confirma din datele tehnice ale fiecărei scule. Aducem sculele de nituit și consumabilele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru cantități mai mari sau modele mai puțin curente. Pentru o ofertă corectă, spuneți-ne diametrul și materialul nitului, tipul de sculă dorit și volumul aproximativ pe lună. Fiecare comandă se confirmă în avans cu producătorul, fără o cantitate fixă rezervată dinainte pentru fiecare cod.`,
+    infinitrade: `Pentru GESIPA lucrăm cu informațiile publicate de producător și de grupul SFS, fiind transparenți cu privire la ce putem și ce nu putem confirma din datele tehnice ale fiecărei scule. Aducem sculele de nituit și consumabilele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă, spuneți-ne diametrul și materialul nitului, tipul de sculă dorit și volumul aproximativ pe lună. Fiecare comandă se confirmă în avans cu producătorul, fără o cantitate fixă rezervată dinainte pentru fiecare cod.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui cod de nit sau piuliță în cantități mici fără o verificare punctuală la producător.",
     productCodes: [
       { code: "AccuBird", description: "Sculă de nituit cu acumulator, forță de tragere 10.000 N" },
       { code: "AccuBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
-      { code: "iBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
+      { code: "iBird Pro", description: "Sculă de nituit cu acumulator, forță de tragere 20.000 N" },
       { code: "iBird Pro Gold Edition", description: "Sculă de nituit cu acumulator, forță maximă 20.000 N" },
-      { code: "iBird Pro CL", description: "Sculă de nituit cu acumulator pentru cicluri lungi" },
+      { code: "iBird Pro CL", description: "Sculă de nituit cu acumulator, forță de tragere 13.000 N" },
       { code: "iBird Pro CL Gold Edition", description: "Sculă de nituit cu acumulator, forță 20.000 N" },
       { code: "PowerBird", description: "Sculă de nituit cu acumulator din gama profesională" },
       { code: "Birdie", description: "Sculă de nituit compactă pentru montaj curent" },
       { code: "PolyGrip", description: "Nit orb aluminiu/inox cu cap bombat, uz general" },
       { code: "MEGA GRIP", description: "Nit orb oțel/oțel pentru găuri supradimensionate" },
-      { code: "PolyBulb", description: "Nit orb aluminiu/oțel cu cap de refulare extins" },
-      { code: "e-FAST PolyGrip", description: "Nit orb pentru montaj rapid într-un singur pas" },
-      { code: "UniversalGrip", description: "Nit orb universal pentru materiale mixte" },
-      { code: "CAP", description: "Nit orb cu cap plat pentru suprafețe aliniate" },
-      { code: "G-BULB", description: "Nit orb cu cap de refulare mărit pentru materiale fragile" },
+      { code: "PolyBulb", description: "Nit orb aluminiu/oțel cu cap bombat" },
+      { code: "e-FAST PolyGrip", description: "Nit orb izolant electric, pentru tablouri de comandă" },
+      { code: "UniversalGrip", description: "Nit orb din gama GESIPA, disponibil și în variante etanșe la aer și apă" },
+      { code: "CAP", description: "Nit orb din gama GESIPA, disponibil și în variante etanșe la aer și apă" },
+      { code: "G-BULB", description: "Nit orb din gama GESIPA, varianta G-BULB" },
       { code: "SolarGrip", description: "Nit orb pentru structuri de fixare fotovoltaice" },
     ],
     faq: [
       { q: "Ce produce GESIPA?", a: "GESIPA produce nituri oarbe, piulițe nit oarbe și mașinile de montare necesare pentru ambele — de la scule manuale simple până la unelte cu acumulator pentru producție de serie. Marca face parte din SFS Group și e cunoscută pentru sistemele cu acumulator din familiile AccuBird și iBird Pro." },
       { q: "Cum aleg o sculă de nituit GESIPA potrivită?", a: "Alegerea depinde de forța de tragere necesară pentru diametrul de nit folosit și de volumul montat zilnic. Pentru nituri curente, o sculă din familia AccuBird e suficientă; pentru nituri structurale mai groase, recomandăm iBird Pro Gold Edition, cu forță de tragere de 20.000 N." },
-      { q: "Ce diferență e între PolyGrip și MEGA GRIP de la GESIPA?", a: "PolyGrip e din aluminiu/inox, cu cap bombat, gândit pentru uz general în diametre de 3,2–4 mm. MEGA GRIP e din oțel/oțel, în diametre de 4,8 și 6,4 mm, și rezistă mai bine la găuri ușor supradimensionate sau la strângeri cu toleranță mai mare." },
-      { q: "Livrați scule și nituri GESIPA în România?", a: "Da, aducem sculele de nituit și consumabilele GESIPA la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru cantități mai mari. Pentru cantități mici de nituri curente termenul poate fi mai scurt." },
+      { q: "Ce diferență e între PolyGrip și MEGA GRIP de la GESIPA?", a: "PolyGrip e din aluminiu/inox, cu cap bombat, gândit pentru uz general; conform producătorului, poate înlocui până la cinci dimensiuni de nituri standard DIN. MEGA GRIP e din oțel/oțel, în diametre de 4,8 și 6,4 mm, și rezistă mai bine la găuri ușor supradimensionate sau la strângeri cu toleranță mai mare." },
+      { q: "Livrați scule și nituri GESIPA în România?", a: "Da, aducem sculele de nituit și consumabilele GESIPA la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni, în funcție de produs și cantitate." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "GESIPA – Blind Rivets, Blind Rivet Nuts and Setting Tools", url: "https://www.gesipa.com", publisher: "GESIPA Blindniettechnik GmbH", accessed: "2026-09-25" },
       { title: "Battery-Powered Riveting Tools", url: "https://www.gesipa.com/products/battery-powered-riveting-tools/", publisher: "GESIPA Blindniettechnik GmbH", accessed: "2026-09-25" },
@@ -124,20 +124,20 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
   },
   heytec: {
     name: "Heytec",
-    overview: `Heytec este marca de scule de mână orientată spre preț a grupului german Heyco, alături de linia premium Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii. Pentru un atelier din România, Heytec e o alternativă mai accesibilă la seriile premium ale grupului.
+    overview: `Heytec este marca de scule de mână orientată spre preț a grupului german Heyco, alături de linia Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii. Pentru un atelier din România, Heytec e o alternativă mai accesibilă la celelalte serii ale grupului.
 
-Ca poziționare, Heytec se situează în aceeași categorie de scule pentru profesioniști ca Stahlwille, dar mizează pe un raport preț-calitate orientat spre bugete mai atente, nu pe segmentul premium. Programul include chei dinamometrice pentru cuplu controlat, seturi de chei tubulare cu prelungitoare, și sortimente complete montate în cutii tip L-Boxx sau trolii de atelier modulare, gândite să fie transportate direct la locul de lucru. Scule pentru instalații sanitare și electricieni completează gama.
+Ca poziționare, producătorul prezintă Heytec ca program pentru meseriași și pasionați de bricolaj atenți la calitate și la preț. Programul include chei dinamometrice pentru cuplu controlat, seturi de chei tubulare cu prelungitoare, și sortimente complete montate în cutii tip L-Boxx sau trolii de atelier modulare, gândite să fie transportate direct la locul de lucru. Scule pentru instalații sanitare și electricieni completează gama.
 
-Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortiment complet de scule de mână, fără bugetul unei linii premium, dar cu organizare clară pe categorii.`,
+Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortiment complet de scule de mână, cu organizare clară pe categorii.`,
     whyChoose: [
       "Program de scule complet — chei fixe, inelare, tubulare, dinamometrice, clești — pentru ateliere de mentenanță",
-      "Poziționare preț-conștientă în aceeași categorie cu mărci precum Stahlwille, fără segmentul cel mai scump",
+      "Program de scule orientat spre meseriași atenți la calitate și la preț",
       "Sortimente montate în cutii L-Boxx sau trolii de atelier modulare, gândite pentru transport",
-      "Parte din grupul german Heyco, cu acces la aceeași rețea de producție ca linia premium",
+      "Parte din grupul german Heyco, alături de linia Heyco și seria Heynen",
     ],
     keyProducts: [
       { name: "Chei fixe, inelare și seturi de chei tubulare", description: "Programul Heytec include chei fixe cu deschidere unică sau dublă, chei inelare și combinate, alături de seturi complete de chei tubulare cu clichet, prelungitoare și capete articulate. Sunt disponibile individual sau în sortimente montate în cutii de plastic sau metalice. Alegerea sortimentului depinde de gama de dimensiuni de șurub folosită frecvent în atelier." },
-      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Fiind parte dintr-un program mai accesibil ca preț decât linia premium a grupului, sunt o opțiune pentru control de cuplu fără investiția într-o sculă de vârf. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
+      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Fiind parte dintr-un program mai accesibil ca preț decât alte linii ale grupului, sunt o opțiune pentru control de cuplu fără investiția într-o sculă de vârf. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
       { name: "Sortimente în cutii L-Boxx și trolii de atelier", description: "Heytec oferă sortimente complete montate în cutii tip L-Boxx, cutii metalice sau trolii cu sertare modulare, gândite pentru service-uri auto și echipe mobile de intervenție. Fiecare sortiment grupează sculele cele mai folosite pentru un tip de lucrare — electrică, sanitară sau mecanică. Configurația se stabilește după tipul de intervenții și numărul de tehnicieni din echipă." },
     ],
     industries: [
@@ -163,15 +163,15 @@ Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortimen
       { code: "Werkstattwagen-Sortimente", description: "Sortimente montate în trolii de atelier modulare" },
     ],
     faq: [
-      { q: "Ce produce Heytec?", a: "Heytec produce scule de mână pentru meseriași și ateliere — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe — organizate în sortimente cu sau fără cutii de depozitare. Marca face parte din grupul german Heyco, alături de linia premium Heyco și seria Heynen." },
-      { q: "Prin ce se diferențiază Heytec de Stahlwille?", a: "Heytec se poziționează în aceeași categorie de scule profesionale ca Stahlwille, dar cu un preț mai accesibil, fără segmentul premium al pieței. Programul acoperă aceleași tipuri de bază — chei, chei tubulare, chei dinamometrice — dar orientate spre bugete de atelier mai atente la cost." },
+      { q: "Ce produce Heytec?", a: "Heytec produce scule de mână pentru meseriași și ateliere — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe — organizate în sortimente cu sau fără cutii de depozitare. Marca face parte din grupul german Heyco, alături de linia Heyco și seria Heynen." },
+      { q: "Prin ce se diferențiază Heytec de Stahlwille?", a: "Programul Heytec acoperă tipurile de bază — chei, chei tubulare, chei dinamometrice — și se adresează, potrivit producătorului, meseriașilor și pasionaților de bricolaj atenți la calitate și la preț." },
       { q: "Cum aleg un sortiment potrivit pentru atelierul meu?", a: "Alegerea depinde de tipul de intervenții frecvente — mecanice, electrice sau sanitare — și de numărul de tehnicieni care folosesc sculele simultan. Sortimentele montate în cutii L-Boxx sau trolii modulare sunt utile pentru echipe mobile, în timp ce sortimentele fixe sunt potrivite pentru un post de lucru staționar." },
       { q: "Livrați scule Heytec în România?", a: "Da, aducem sculele și sortimentele Heytec la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sortimente complete. Pentru referințe individuale curente, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "HEYTEC – Werkzeuge für Handwerk und Do-it-yourself", url: "https://heyco-qualitaetswerkzeuge.de/de", publisher: "HEYCO Qualitätswerkzeuge GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "Heytec – Produktprogramm", url: "https://heyco-qualitaetswerkzeuge.de/de/heytec/produkte.html", publisher: "HEYCO Qualitätswerkzeuge GmbH & Co. KG", accessed: "2026-09-25" },
@@ -182,7 +182,7 @@ Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortimen
     headquarters: "Ascheberg-Herbern, Germania",
     overview: `Jokari este un producător german specializat în scule de dezizolare și dezmantelare pentru cabluri electrice, cu sediul la Ascheberg-Herbern. Gama acoperă cuțite pentru cabluri, clești de dezizolare, demantelatoare și instrumente de micro-precizie pentru fire subțiri, toate fabricate integral în Germania. Pentru un atelier de confecționare cabluri din România, Jokari înseamnă scule dedicate pentru fiecare diametru de cablu, nu unelte universale adaptate la nevoie.
 
-Precizia sculelor se vede în calibrare: cuțitele din seria SECURA (No. 16, No. 27, No. 28H, No. 28G) sunt calibrate pentru diametre exacte de cablu rotund, de la 4 la 35 mm, cu o lamă ce taie doar manteaua exterioară. Clești precum Super 4 Pro sau SECURA 2K acoperă conductori individuali de la 0,2 la 6 mm², iar seria Sensor Mini e gândită pentru cabluri de senzori subțiri. Pentru lucru de mare precizie, gama PWS-PLUS și versiunile ESD-PLUS acoperă conductori de la 0,12 mm în sus.
+Precizia sculelor se vede în calibrare: cuțitele din seria SECURA (No. 16, No. 27, No. 28H, No. 28G) sunt calibrate pentru diametre exacte de cablu rotund, de la 4 la 28 mm, cu o lamă ce taie doar manteaua exterioară. Clești precum Super 4 Pro sau SECURA 2K acoperă conductori individuali de la 0,2 la 6 mm², iar seria Sensor Mini e gândită pentru cabluri de senzori subțiri. Pentru lucru de mare precizie, gama PWS-PLUS și versiunile ESD-PLUS acoperă conductori, litze și fire cu diametrul de 0,12–0,40 mm.
 
 Pentru România, sculele Jokari au sens în telecomunicații, energie și confecționare cabluri industriale, acolo unde dezizolarea cu un cuțit universal riscă să taie izolația firelor interioare.`,
     whyChoose: [
@@ -194,7 +194,7 @@ Pentru România, sculele Jokari au sens în telecomunicații, energie și confec
     keyProducts: [
       { name: "Cuțite pentru cabluri seria SECURA", description: "Seria SECURA (No. 16, No. 27, No. 28H, No. 28G) e calibrată pentru diametre exacte de cablu rotund, între 4 și 28 mm, în funcție de model. Lama taie doar manteaua exterioară, oprindu-se la adâncimea setată. Completează gama System 4-70, gândit pentru cabluri rotunde între 8 și 35 mm. Pentru ofertă, e nevoie de diametrul exact al cablului lucrat cel mai des." },
       { name: "Clești de dezizolare pentru conductori individuali", description: "Clești precum Super 4 Pro și SECURA 2K acoperă conductori individuali de secțiune 0,2–6,0 mm², cu reglaj automat de adâncime. Modelul No. 6-16² extinde plaja până la 16 mm², pentru cabluri industriale mai groase. Sunt scule gândite pentru instalatori electricieni și linii de confecționare cabluri. Alegerea depinde de secțiunea conductorului lucrat cel mai frecvent." },
-      { name: "Instrumente de micro-precizie PWS-PLUS și ESD-PLUS", description: "Gama de micro-precizie acoperă conductori foarte subțiri, de la 0,12 mm diametru, folosiți în electronica de precizie și cablarea de senzori. PWS-PLUS e varianta standard, ESD-PLUS adaugă un tratament disipativ electrostatic. Completează categoria seriile Sensor Special și Sensor Mini, pentru cabluri de senzor de 3,2–7 mm. Pentru ofertă, spuneți-ne diametrul firului." },
+      { name: "Instrumente de micro-precizie PWS-PLUS și ESD-PLUS", description: "Gama de micro-precizie acoperă conductori foarte subțiri, cu diametrul de 0,12–0,40 mm, folosiți în electronica de precizie și cablarea de senzori. PWS-PLUS e varianta standard, ESD-PLUS adaugă un tratament disipativ electrostatic. Completează categoria seriile Sensor Special și Sensor Mini, pentru cabluri de senzor de 3,2–7 mm. Pentru ofertă, spuneți-ne diametrul firului." },
     ],
     industries: [
       "Telecomunicații — dezizolare cabluri de date cu manta rotundă",
@@ -218,8 +218,8 @@ Pentru România, sculele Jokari au sens în telecomunicații, energie și confec
       { code: "Sensor Mini", description: "Clește pentru cabluri de senzor, diametru 3,2–4,4 mm" },
       { code: "SECURA No. 15", description: "Demantelator pentru cabluri rotunde, diametru 8–13 mm" },
       { code: "Universal No. 12", description: "Demantelator universal, cabluri rotunde 8–13 mm" },
-      { code: "Strip No. 14", description: "Demantelator pentru cabluri rotunde sau plate" },
-      { code: "PWS-PLUS", description: "Instrument de micro-precizie pentru fire de la 0,12 mm" },
+      { code: "Strip No. 14", description: "Demantelator pentru cabluri rotunde, diametru 4–13 mm" },
+      { code: "PWS-PLUS", description: "Instrument de micro-precizie pentru conductori și fire de 0,12–0,40 mm diametru" },
       { code: "ESD-PLUS", description: "Versiune disipativă electrostatic a instrumentelor de micro-precizie" },
     ],
     faq: [
@@ -230,8 +230,8 @@ Pentru România, sculele Jokari au sens în telecomunicații, energie și confec
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "JOKARI – Kabelwerkzeuge Made in Germany", url: "https://www.jokari.de", publisher: "JOKARI GmbH", accessed: "2026-09-25" },
       { title: "Produkte – Kabelmesser, Abisolierzangen, Entmanteler", url: "https://www.jokari.de/produkte", publisher: "JOKARI GmbH", accessed: "2026-09-25" },
@@ -240,21 +240,21 @@ Pentru România, sculele Jokari au sens în telecomunicații, energie și confec
   klauke: {
     name: "Klauke",
     headquarters: "Remscheid, Germania",
-    overview: `Klauke este un producător german de scule de sertizare și tăiere pentru cabluri electrice, cu sediul la Remscheid și o istorie de peste un secol în tehnologia conexiunilor electrice. Astăzi face parte din portofoliul Emerson Professional Tools, dar dezvoltarea sculelor hidraulice și a conectorilor rămâne concentrată sub numele Klauke. Gama acoperă clești de sertizat mecanici și hidraulici, scule de tăiere și o linie largă de papuci și mufe din cupru.
+    overview: `Klauke este un producător german de scule de sertizare și tăiere pentru cabluri electrice, cu sediul la Remscheid și o istorie de peste un secol în tehnologia conexiunilor electrice. Astăzi face parte din portofoliul Emerson Professional Tools. Gama acoperă clești de sertizat mecanici și hidraulici, scule de tăiere și o linie largă de papuci și mufe din cupru.
 
 Sculele sunt segmentate pe surse de forță: cele acționate manual acoperă secțiuni mici pentru lucru ocazional, sculele akku-hidraulice preiau presarea la secțiuni medii și mari fără pompă manuală, iar sculele hidraulice manuale rămân opțiunea pentru șantiere fără acces la încărcare. Seria Orange Line e certificată VDE conform GS-ET-23, iar papucii și mufele respectă standardele DIN 46228, 46234, 46235 și 46267.
 
 Pentru România, sculele Klauke au sens în energie regenerabilă, centre de date și construcția tablourilor electrice, acolo unde sertizarea corectă influențează direct siguranța instalației.`,
     whyChoose: [
       "Peste un secol de experiență declarată în tehnologia conexiunilor electrice, sub portofoliul Emerson Professional Tools",
-      "Serie Orange Line certificată VDE conform GS-ET-23, relevantă pentru lucrul pe instalații sub tensiune",
+      "Serie Orange Line certificată VDE conform GS-ET-23, menționată explicit pe site-ul producătorului",
       "Trei surse de forță disponibile — manuală, hidraulică manuală și akku-hidraulică — pentru volume diferite",
-      "Papuci și mufe conforme DIN 46228, 46234, 46235 și 46267, compatibile cu alte componente de pe piață",
+      "Papuci și mufe conforme DIN 46228, 46234, 46235 și 46267, conform informațiilor producătorului",
     ],
     keyProducts: [
-      { name: "Scule akku-hidraulice de sertizare", description: "Sculele akku-hidraulice Klauke înlocuiesc pompa manuală cu un motor pe acumulator, care generează presiunea de sertizare la apăsarea unui buton. Sunt gândite pentru secțiuni medii și mari de cablu. Fac parte din seria Orange Line, certificată VDE conform GS-ET-23. Pentru ofertă, e nevoie de secțiunea maximă de cablu și de tipul de matriță necesar." },
+      { name: "Scule akku-hidraulice de sertizare", description: "Sculele akku-hidraulice Klauke înlocuiesc pompa manuală cu un motor pe acumulator, care generează presiunea de sertizare la apăsarea unui buton. Sunt gândite pentru secțiuni medii și mari de cablu. Gama include și variante din seria Orange Line, certificată VDE conform GS-ET-23. Pentru ofertă, e nevoie de secțiunea maximă de cablu și de tipul de matriță necesar." },
       { name: "Scule hidraulice manuale de sertizare și tăiere", description: "Pentru șantiere fără acces facil la încărcare, gama include scule hidraulice cu pompă integrată, atât pentru sertizare cât și pentru tăierea cablurilor de secțiune mare. Sunt mai grele decât variantele akku, dar independente de sursa de energie electrică. Alegerea depinde de operația predominantă — montaj de conexiuni noi sau intervenție pe cabluri existente." },
-      { name: "Papuci și mufe de cablu din cupru", description: "Gama de papuci și mufe acoperă conexiuni din cupru conform DIN 46228 pentru capete de fir, DIN 46234 și 46235 pentru papuci tubulari, și DIN 46267 pentru mufe de îmbinare. Compatibilitatea cu standardele DIN permite combinarea cu scule de sertizare de la alți producători. Pentru ofertă, spuneți-ne secțiunea de cablu și tipul de conexiune necesar." },
+      { name: "Papuci și mufe de cablu din cupru", description: "Gama de papuci și mufe acoperă conexiuni din cupru conform DIN 46228 pentru capete de fir, DIN 46234 și 46235 pentru papuci tubulari, și DIN 46267 pentru mufe de îmbinare. Compatibilitatea dintre papuci, mufe și scule de sertizare se confirmă pe modelul concret. Pentru ofertă, spuneți-ne secțiunea de cablu și tipul de conexiune necesar." },
     ],
     industries: [
       "Energie regenerabilă — sertizare conexiuni în parcuri solare și eoliene",
@@ -277,19 +277,19 @@ Pentru România, sculele Klauke au sens în energie regenerabilă, centre de dat
       { code: "Rohrkabelschuhe und Verbinder Cu", description: "Papuci tubulari și conectori din cupru" },
       { code: "Presskabelschuhe DIN Cu", description: "Papuci de sertizat conform DIN pentru cabluri din cupru" },
       { code: "Aderendhülsen", description: "Manșoane de capăt de fir pentru conductori flexibili" },
-      { code: "Micro", description: "Serie de scule compacte pentru secțiuni mici de cablu" },
+      { code: "Micro", description: "Serie Klauke prezentată ca noutate pe site-ul producătorului; detaliile se confirmă pe model" },
       { code: "Next Generation", description: "Generație recentă de scule de sertizare Klauke" },
     ],
     faq: [
       { q: "Ce produce Klauke?", a: "Klauke produce scule de sertizare și de tăiere pentru cabluri electrice, plus papuci și mufe de cablu din cupru conforme DIN. Compania are sediul la Remscheid, în Germania, și face parte din portofoliul Emerson Professional Tools." },
       { q: "Ce diferență e între sculele akku-hidraulice și cele hidraulice manuale Klauke?", a: "Sculele akku-hidraulice au motor pe acumulator, care generează presiunea de sertizare automat, potrivite pentru volum mare de lucru. Sculele hidraulice manuale au pompă acționată de mână, mai grele, dar independente de o sursă de încărcare, utile pe șantiere izolate sau în intervenții de urgență." },
-      { q: "Ce înseamnă certificarea VDE la sculele Klauke seria Orange Line?", a: "Certificarea VDE conform GS-ET-23 confirmă testarea sculei de un institut german independent pentru siguranța electrică, relevantă la lucrul pe instalații sub tensiune. Seria Orange Line are această certificare menționată explicit pe site-ul producătorului." },
+      { q: "Ce înseamnă certificarea VDE la sculele Klauke seria Orange Line?", a: "Producătorul indică pentru seria Orange Line certificarea VDE conform GS-ET-23; cerințele exacte ale standardului se verifică în documentația Klauke pentru modelul ales. Seria Orange Line are această certificare menționată explicit pe site-ul producătorului." },
       { q: "Livrați scule și papuci Klauke în România?", a: "Da, aducem sculele de sertizare, papucii și mufele Klauke la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru scule complete. Pentru papuci și mufe standard, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Klauke – Presswerkzeuge und Verbindungstechnik", url: "https://www.klauke.com", publisher: "Klauke (Emerson)", accessed: "2026-09-25" },
       { title: "Akkuhydraulische Presswerkzeuge", url: "https://www.klauke.com/de/de/akkuhydraulische-presswerkzeuge", publisher: "Klauke (Emerson)", accessed: "2026-09-25" },
@@ -298,30 +298,30 @@ Pentru România, sculele Klauke au sens în energie regenerabilă, centre de dat
   rennsteig: {
     name: "Rennsteig",
     headquarters: "Steinbach-Hallenberg, Germania",
-    overview: `Rennsteig Werkzeuge este un producător german de scule pentru confecționarea cablurilor și pentru construcții, cu sediul la Steinbach-Hallenberg, în Turingia. Gama pentru cabluri acoperă foarfeci, clești de dezizolare, soluții de sertizare cu sistem cu patru fălci și scule pentru fibră optică, iar linia de construcții include dălți, scule de spart și clești pentru țevi. Pentru un atelier de confecționare cabluri din România, Rennsteig acoperă fiecare etapă a montajului unui cablu.
+    overview: `Rennsteig Werkzeuge este un producător german de scule pentru confecționarea cablurilor și pentru construcții, cu sediul la Steinbach-Hallenberg, în Turingia. Gama pentru cabluri acoperă foarfeci, clești de dezizolare, soluții de sertizare 4/8 amprente (Vierdorn) și scule pentru fibră optică, iar linia de construcții include dălți, scule de spart și clești pentru țevi. Pentru un atelier de confecționare cabluri din România, Rennsteig acoperă fiecare etapă a montajului unui cablu.
 
-Foarfecile de cablu taie manteaua fără să deformeze conductorii interiori, cleștii de dezizolare sunt calibrați pe secțiune, iar soluțiile de sertizare cu sistem Vierdorn presează uniform manșonul pe toată circumferința, nu doar pe două laturi ca la un clește simplu. Toate sculele sunt testate GS, standardul german de siguranță. Linia de construcții adaugă dălți pentru demolări controlate și clești pentru inele de siguranță.
+Foarfecile de cablu taie manteaua fără să deformeze conductorii interiori, cleștii de dezizolare sunt calibrați pe secțiune, iar soluțiile de sertizare 4/8 amprente (Vierdorn) sunt destinate contactelor, pe secțiuni de la AWG 28 la AWG 6. Informațiile despre marcajul GS și conformitatea cu DIN se confirmă pe modelul ales, din documentația Rennsteig. Linia de construcții adaugă dălți pentru demolări controlate și clești pentru inele de siguranță.
 
 Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru automotive și energie fotovoltaică, dar și în construcții și mentenanță mecanică.`,
     whyChoose: [
-      "Sisteme de sertizare cu patru fălci (Vierdorn), care presează uniform manșonul pe toată circumferința",
-      "Scule testate GS, standardul german de siguranță pentru scule de mână folosite profesional",
+      "Sisteme de sertizare 4/8 amprente (Vierdorn) pentru contacte, de la AWG 28 la AWG 6",
+      "Informații despre marcajul GS și conformitatea cu DIN, confirmate pe model din documentația producătorului",
       "Acoperire completă a lanțului de confecționare cablu — foarfecă, dezizolare, sertizare — de la un producător",
       "Gamă separată pentru construcții — dălți, scule de spart, clești pentru țevi și inele de siguranță",
     ],
     keyProducts: [
-      { name: "Foarfeci de cablu și clești de dezizolare", description: "Foarfecile de cablu taie manteaua exterioară fără să deformeze conductorii interiori, iar cleștii de dezizolare sunt calibrați pe secțiune pentru a evita tăierea firelor de cupru. Sunt scule de bază pentru orice atelier de confecționare cabluri, folosite înainte de sertizare. Toate trec prin testare GS. Pentru ofertă, e nevoie de diametrul cablului lucrat cel mai des." },
-      { name: "Soluții de sertizare cu sistem Vierdorn", description: "Sistemul de sertizare cu patru fălci presează manșonul de capăt de fir uniform pe toată circumferința, spre deosebire de un clește simplu cu două fălci. Rezultatul e o conexiune mai fiabilă electric, relevantă în automotive, unde vibrațiile pot slăbi în timp o sertizare neuniformă. Pentru ofertă, spuneți-ne secțiunea de conductor și tipul de manșon folosit." },
+      { name: "Foarfeci de cablu și clești de dezizolare", description: "Foarfecile de cablu taie manteaua exterioară fără să deformeze conductorii interiori, iar cleștii de dezizolare sunt calibrați pe secțiune pentru a evita tăierea firelor de cupru. Sunt scule de bază pentru orice atelier de confecționare cabluri, folosite înainte de sertizare. Pentru ofertă, e nevoie de diametrul cablului lucrat cel mai des." },
+      { name: "Soluții de sertizare cu sistem Vierdorn", description: "Sistemul 4/8 amprente (Vierdorn) sertizează contacte industriale, de aviație și strunjite, pe secțiuni de la AWG 28 la AWG 6 (aprox. 0,03–10 mm²), cu scule manuale, digitale sau hidraulice. Pentru manșoanele de capăt de fir, Rennsteig are o categorie separată de soluții. Pentru ofertă, spuneți-ne secțiunea de conductor și tipul de manșon folosit." },
       { name: "Scule pentru construcții — dălți și clești pentru țevi", description: "Linia de construcții include dălți pentru zidărie și beton, scule de spart pentru demolări controlate, rangi, plus clești pentru țevi și pentru inele de siguranță folosiți în mentenanța mecanică. Sunt scule robuste, gândite pentru uz intensiv pe șantier. Alegerea depinde de tipul de material lucrat și de frecvența de utilizare." },
     ],
     industries: [
-      "Automotive — confecționare cabluri de bord cu sertizare uniformă",
+      "Automotive — confecționare de cabluri",
       "Energie fotovoltaică — cablare structuri și conectori de sistem",
       "Electro și electronică — dezizolare și sertizare pentru cablaj industrial",
       "Construcții — dălți, scule de spart și clești pentru montaj",
       "Mentenanță mecanică — clești pentru inele de siguranță și țevi",
     ],
-    certifications: ["GS — testare de siguranță pentru scule de mână conform standardului german"],
+    certifications: ["GS — marcaj de siguranță menționat de producător; aplicabilitatea se confirmă pe model"],
     infinitrade: `Pentru Rennsteig lucrăm cu informațiile publicate de producător pe site-ul oficial, fără date proprii despre stocul fiecărei referințe din catalog. Aducem sculele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sculele de sertizare specializate și, uneori, mai scurt pentru foarfecile și cleștii de bază. Pentru o ofertă corectă, spuneți-ne tipul de operație, secțiunea de cablu lucrată și dacă aveți nevoie de matrițe specifice pentru sistemul Vierdorn. Nu putem confirma o cantitate fixă disponibilă pentru fiecare cod.`,
     limitation: "Nu putem confirma compatibilitatea exactă dintre matrițele Rennsteig și manșoanele altor producători fără o verificare punctuală.",
     productCodes: [
@@ -329,7 +329,7 @@ Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru
       { code: "Abisolierzangen", description: "Clești de dezizolare calibrați pe secțiune de cablu" },
       { code: "Aderendhülsen-Lösungen", description: "Soluții de sertizare pentru manșoane de capăt de fir" },
       { code: "Crimp-System-Lösungen", description: "Sisteme de sertizare pentru conectori și terminale" },
-      { code: "Vierdorn-Lösungen", description: "Sertizare cu patru fălci pentru presare uniformă" },
+      { code: "Vierdorn-Lösungen", description: "Sertizare cu 4/8 amprente (Vierdorn) pentru contacte" },
       { code: "Lichtwellenleiter-Werkzeuge", description: "Scule pentru pregătirea și montajul fibrei optice" },
       { code: "Montagewerkzeuge", description: "Scule de montaj pentru confecționare cabluri" },
       { code: "Schlagwerkzeuge", description: "Scule de lovit pentru construcții și demolări controlate" },
@@ -340,15 +340,15 @@ Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru
       { code: "Sicherungsringwerkzeuge", description: "Clești pentru montarea și demontarea inelelor de siguranță" },
     ],
     faq: [
-      { q: "Ce produce Rennsteig?", a: "Rennsteig produce scule pentru confecționarea cablurilor — foarfeci, clești de dezizolare, sisteme de sertizare cu patru fălci — și o linie separată de scule pentru construcții, precum dălți și clești pentru țevi. Compania are sediul la Steinbach-Hallenberg, în Germania." },
-      { q: "Ce avantaj are sistemul de sertizare Vierdorn de la Rennsteig?", a: "Sistemul cu patru fălci presează manșonul de capăt de fir uniform pe toată circumferința, spre deosebire de un clește simplu cu două fălci. Rezultatul e o conexiune mai fiabilă electric, relevantă mai ales în automotive, unde vibrațiile pot slăbi o sertizare neuniformă în timp." },
-      { q: "Sunt sculele Rennsteig testate pentru siguranță?", a: "Da, sculele de mână Rennsteig sunt testate GS, standardul german de siguranță pentru scule folosite profesional. Această testare acoperă atât foarfecile și cleștii de dezizolare, cât și sculele de construcții din gamă." },
+      { q: "Ce produce Rennsteig?", a: "Rennsteig produce scule pentru confecționarea cablurilor — foarfeci, clești de dezizolare, sisteme de sertizare 4/8 amprente (Vierdorn) — și o linie separată de scule pentru construcții, precum dălți și clești pentru țevi. Compania are sediul la Steinbach-Hallenberg, în Germania." },
+      { q: "Ce avantaj are sistemul de sertizare Vierdorn de la Rennsteig?", a: "Sistemul 4/8 amprente (Vierdorn) este destinat sertizării contactelor industriale, de aviație și strunjite, pe secțiuni de la AWG 28 la AWG 6. Pentru manșoanele de capăt de fir, Rennsteig are o categorie separată de soluții." },
+      { q: "Sunt sculele Rennsteig testate pentru siguranță?", a: "Producătorul menționează conformitatea cu standardele DIN și marcajul GS pentru sculele sale; aplicabilitatea la un model anume o confirmăm din documentația Rennsteig." },
       { q: "Livrați scule Rennsteig în România și în cât timp?", a: "Da, aducem sculele Rennsteig la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sculele de sertizare specializate. Pentru foarfeci și clești de bază, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Rennsteig Werkzeuge – Kabelkonfektion und Bau-Werkzeuge", url: "https://www.rennsteig.com", publisher: "Rennsteig Werkzeuge GmbH", accessed: "2026-09-25" },
       { title: "Produkte – Kabelkonfektion und Industrie-Werkzeuge", url: "https://www.rennsteig.com/produkte", publisher: "Rennsteig Werkzeuge GmbH", accessed: "2026-09-25" },
@@ -357,21 +357,21 @@ Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru
   ruko: {
     name: "Ruko",
     founded: 1974,
-    overview: `RUKO este un producător german de burghie și scule așchietoare pentru prelucrarea metalului, înființat în 1974 și specializat de atunci pe burghie, scule de zencuire și scule de tăiere din HSS. Gama e organizată pe categorii — burghie pentru metal, beton și lemn, mașini și accesorii, lichide de răcire — completată de linia premium ULTIMATECUT. Pentru un atelier mecanic din România, RUKO e un furnizor specializat strict pe scule așchietoare.
+    overview: `RUKO este un producător german de burghie și scule așchietoare pentru prelucrarea metalului, înființat în 1974 și specializat de atunci pe burghie, scule de zencuire și scule de tăiere din HSS. Gama e organizată pe categorii — burghie pentru metal, beton și lemn, mașini și accesorii, lichide de răcire — completată de linia ULTIMATECUT. Pentru un atelier mecanic din România, RUKO e un furnizor specializat pe scule pentru prelucrarea metalului.
 
-Linia ULTIMATECUT include modele precum Multidrill, cu vârf Flowstep pentru găurire fără punctare prealabilă, gândite să reducă timpul de ciclu. Kegelsenker 3S e o sculă de zencuire cu trei tăișuri, folosită pentru teșirea găurilor înainte de montaj, iar seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari, unde o burghie clasică ar cere putere excesivă. RUKO completează gama cu lichide de răcire compatibile.
+Linia ULTIMATECUT include modele precum Multidrill, cu vârf Flowstep pentru găurire fără punctare prealabilă. Kegelsenker 3S e o sculă de zencuire conică, prezentată de producător ca rapidă și economă în efort de tăiere, folosită pentru teșirea găurilor înainte de montaj, iar seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari, unde un burghiu clasic ar cere putere mai mare. RUKO completează gama cu lichide de răcire compatibile.
 
 Pentru România, gama RUKO are sens în ateliere mecanice și construcții de mașini, unde durabilitatea burghielor influențează direct costul pe piesă prelucrată.`,
     whyChoose: [
-      "Producător specializat exclusiv pe scule așchietoare din 1974, nu un generalist de scule de mână",
+      "Producător specializat din 1974 pe scule pentru prelucrarea metalului, nu un generalist de scule de mână",
       "Linia ULTIMATECUT cu geometrii Flowstep pentru găurire fără punctare prealabilă",
       "Scule de carotieră HSS PerforMAX pentru găuri de diametru mare, cu putere de antrenare redusă",
       "Gamă completă de lichide de răcire și ungere compatibile cu propriile scule",
     ],
     keyProducts: [
-      { name: "Linia premium ULTIMATECUT", description: "ULTIMATECUT e linia premium RUKO de burghie, cu geometrii de tăiere optimizate pentru viteză și durabilitate mai mare față de un burghiu HSS standard. Variantele Multidrill, cu vârf Flowstep, permit găurirea directă în oțel fără punctare prealabilă. Pentru ofertă, spuneți-ne diametrul găurii, materialul prelucrat și dacă lucrați pe mașină CNC sau manual." },
-      { name: "Scule de zencuire Kegelsenker 3S", description: "Kegelsenker 3S e o sculă de zencuire cu trei tăișuri, folosită pentru teșirea găurilor înainte de montajul cu șuruburi cu cap înecat sau pentru îndepărtarea bavurilor. Cele trei tăișuri distribuie efortul de tăiere mai uniform, ceea ce reduce vibrațiile la prelucrare. Pentru ofertă, precizați unghiul de teșire necesar și diametrul găurii de bază." },
-      { name: "Carotiere Kernbohrer HSS PerforMAX", description: "Seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari în oțel, unde o burghie clasică ar necesita o putere de antrenare mult mai mare. Carota taie doar un inel de material, ceea ce reduce forța necesară și uzura mașinii-unelte. Pentru ofertă, spuneți-ne diametrul și grosimea materialului găurit." },
+      { name: "Linia ULTIMATECUT", description: "ULTIMATECUT e linia RUKO de burghie. Variantele Multidrill, cu vârf Flowstep, permit găurirea directă în oțel fără punctare prealabilă. Pentru ofertă, spuneți-ne diametrul găurii, materialul prelucrat și dacă lucrați pe mașină CNC sau manual." },
+      { name: "Scule de zencuire Kegelsenker 3S", description: "Kegelsenker 3S e o sculă de zencuire conică, folosită pentru teșirea găurilor înainte de montajul cu șuruburi cu cap înecat sau pentru îndepărtarea bavurilor. Producătorul o prezintă ca soluție rapidă și cu efort redus de tăiere pentru zencuiri precise. Pentru ofertă, precizați unghiul de teșire necesar și diametrul găurii de bază." },
+      { name: "Carotiere Kernbohrer HSS PerforMAX", description: "Seria Kernbohrer HSS PerforMAX acoperă găurirea cu carotă pentru diametre mari în oțel, unde un burghiu clasic ar necesita o putere de antrenare mai mare. Carota taie doar un inel de material, ceea ce reduce forța necesară și uzura mașinii-unelte. Pentru ofertă, spuneți-ne diametrul și grosimea materialului găurit." },
     ],
     industries: [
       "Ateliere mecanice — găurire și zencuire curentă în oțel și fontă",
@@ -386,24 +386,24 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       { code: "Metallbohrer", description: "Burghie standard pentru găurirea oțelului și fontei" },
       { code: "Betonbohrer", description: "Burghie pentru găurire în beton și zidărie" },
       { code: "Holzbohrer", description: "Burghie dedicate pentru găurirea lemnului" },
-      { code: "ULTIMATECUT", description: "Linie premium de burghie cu geometrie optimizată" },
+      { code: "ULTIMATECUT", description: "Linie de burghie" },
       { code: "ULTIMATECUT Multidrill", description: "Burghiu cu vârf Flowstep, găurire fără punctare" },
       { code: "ULTIMATECUT Flowstep-Spiralbohrer", description: "Burghiu spiralat cu geometrie de vârf Flowstep" },
-      { code: "Kegelsenker 3S", description: "Sculă de zencuire cu trei tăișuri" },
+      { code: "Kegelsenker 3S", description: "Sculă de zencuire conică" },
       { code: "Kernbohrer HSS PerforMAX", description: "Carotieră HSS pentru găuri de diametru mare" },
-      { code: "Maschinen", description: "Mașini de găurit și accesorii din gama RUKO" },
+      { code: "Maschinen", description: "Mașini și accesorii din gama RUKO" },
       { code: "Kühl- und Schmierstoffe", description: "Lichide de răcire și ungere pentru prelucrare" },
     ],
     faq: [
-      { q: "Ce produce RUKO?", a: "RUKO produce burghie și scule așchietoare pentru prelucrarea metalului — burghie standard, scule de zencuire și carotiere HSS — fiind specializat exclusiv pe această categorie din 1974. Linia premium ULTIMATECUT completează gama cu geometrii de tăiere optimizate." },
+      { q: "Ce produce RUKO?", a: "RUKO produce burghie și scule așchietoare pentru prelucrarea metalului — burghie standard, scule de zencuire și carotiere HSS — fiind specializat din 1974 pe scule pentru prelucrarea metalului. Linia ULTIMATECUT completează gama." },
       { q: "Din ce an există RUKO?", a: "RUKO a fost înființată în 1974 și s-a specializat de atunci pe fabricarea de burghie, scule de zencuire și scule de tăiere din HSS pentru prelucrarea metalului, potrivit informațiilor publicate de companie." },
-      { q: "Ce avantaj au burghiele ULTIMATECUT Multidrill de la RUKO?", a: "Vârful Flowstep al modelelor Multidrill permite găurirea directă în oțel fără punctare prealabilă cu un vârf de centrare, ceea ce reduce timpul de ciclu la producție de serie. Aceeași geometrie apare și la burghiele spiralate din linia Flowstep-Spiralbohrer." },
+      { q: "Ce avantaj au burghiele ULTIMATECUT Multidrill de la RUKO?", a: "Vârful Flowstep al modelelor Multidrill permite găurirea directă în oțel fără punctare prealabilă cu un vârf de centrare — producătorul indică un început de găurire exact, fără alunecare. Aceeași geometrie apare și la burghiele spiralate din linia Flowstep-Spiralbohrer." },
       { q: "Livrați burghie RUKO în România?", a: "Da, aducem burghiele, sculele de zencuire și carotierele RUKO la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru dimensiuni mai puțin curente. Pentru diametre uzuale, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "RUKO – Präzisionswerkzeuge seit 1974", url: "https://www.ruko.de", publisher: "RUKO GmbH Präzisionswerkzeuge", accessed: "2026-09-25" },
       { title: "Produktgruppen – Metallbohrer, ULTIMATECUT, Kegelsenker", url: "https://ruko.de/de/produkte/", publisher: "RUKO GmbH Präzisionswerkzeuge", accessed: "2026-09-25" },
@@ -412,21 +412,21 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
   sola: {
     name: "Sola",
     headquarters: "Götzis, Austria",
-    overview: `SOLA este un producător austriac de nivele cu bulă și instrumente de măsurare pentru construcții, cu sediul la Götzis. Gama de nivele acoperă familii distincte — seria RED, seria AZ cu profil optimizat, seria BIG X pentru precizie și seria AZB — fiecare în mai multe lungimi, alături de nivele digitale, laser și modele de mici dimensiuni. Completează gama telemetre laser, metri pliabili și rulete. Pentru un montator din România, SOLA e un instrument de referință pe șantier.
+    overview: `SOLA este un producător austriac de nivele cu bulă și instrumente de măsurare pentru construcții, cu sediul la Götzis. Gama de nivele acoperă familii distincte — seria RED, seria AZ, seria BIG X și seria AZB — fiecare în mai multe lungimi, alături de nivele digitale, laser și modele de mici dimensiuni. Completează gama telemetre laser, metri pliabili și rulete. Pentru un montator din România, SOLA oferă nivele și instrumente de măsurare pentru lucru pe șantier.
 
-Seria RED (RED 3, BIG RED 3, REDM, BIG REDM) e nivela de bază, robustă, pentru lucru curent; seria AZ (AZ, AZ 3, AZM, AZM 3) adaugă un profil optimizat pentru rigiditate mai mare la lungimi lungi; iar seriile BIG X și AZB completează oferta pentru aplicații de precizie. Variantele numerotate cu „3” au, de regulă, trei fiole în loc de una sau două, pentru citire pe mai multe unghiuri.
+Seria RED (RED 3, BIG RED 3, REDM) are, la RED 3, profil de aluminiu extra-rezistent cu nervuri de întărire (59 × 27 mm) și toleranță de măsurare de 0,30 mm/m. Seria AZ are profil de aluminiu de 50 × 24 mm, cu o fiolă orizontală și una verticală, toleranță de 0,50 mm/m și lungimi de la 40 la 200 cm; seriile BIG X și AZB au aceeași toleranță de 0,50 mm/m. Litera „M” din denumire indică varianta magnetică, iar RED 3 are o fiolă orizontală și două verticale.
 
 Pentru România, nivelele SOLA au sens în construcții civile și industriale și montaj de structuri metalice, oriunde verificarea verticalității e o operație zilnică.`,
     whyChoose: [
-      "Familii distincte de nivele — RED, AZ, BIG X, AZB — pentru aplicații de la lucru curent la precizie",
-      "Variante cu trei fiole (seriile „3”) pentru citire pe mai multe unghiuri fără repoziționare",
+      "Familii distincte de nivele — RED, AZ, BIG X, AZB — în mai multe lungimi",
+      "RED 3 are o fiolă orizontală și două verticale, pentru citire pe orizontală și verticală",
       "Gamă completă de instrumente de măsurare — telemetre laser, metri pliabili, rulete",
       "Nivele digitale și laser cu citire numerică a unghiului pentru montaj de precizie",
     ],
     keyProducts: [
-      { name: "Nivele cu bulă seria RED", description: "Seria RED (RED 3, BIG RED 3, REDM, BIG REDM) e nivela de bază SOLA, pentru lucru curent de șantier — verificarea verticalității pereților sau alinierii elementelor de construcție. Variantele „3” au trei fiole, pentru citire și pe unghiuri intermediare. Pentru ofertă, spuneți-ne lungimea necesară și numărul de fiole dorit." },
-      { name: "Nivele seria AZ cu profil optimizat", description: "Seria AZ (AZ, AZ 3, AZM, AZM 3) folosește un profil de aluminiu optimizat pentru rigiditate mai mare la lungimi lungi, unde o nivelă cu profil standard s-ar putea deforma sub greutate proprie. E potrivită pentru verificarea unor suprafețe extinse — șape, planșee, fațade. Pentru ofertă, precizați lungimea și tipul de suprafață verificată." },
-      { name: "Nivele de precizie BIG X și AZB", description: "Seriile BIG X și AZB completează gama SOLA pentru aplicații unde precizia standard nu e suficientă — montaj de utilaje, aliniere de structuri metalice. Fiecare familie e disponibilă în variante simple și cu trei fiole. Pentru ofertă, spuneți-ne toleranța de precizie cerută și lungimea nivelei necesare." },
+      { name: "Nivele cu bulă seria RED", description: "Seria RED (RED 3, BIG RED 3, REDM) este destinată lucrului pe șantier — verificarea verticalității pereților sau alinierii elementelor de construcție. RED 3 are o fiolă orizontală și două verticale; litera „M” (REDM) indică varianta magnetică. Pentru ofertă, spuneți-ne lungimea necesară și numărul de fiole dorit." },
+      { name: "Nivele seria AZ", description: "Seria AZ folosește un profil de aluminiu de înaltă rezistență (50 × 24 mm), disponibil în lungimi de la 40 la 200 cm. E potrivită pentru verificarea unor suprafețe extinse — șape, planșee, fațade. Pentru ofertă, precizați lungimea și tipul de suprafață verificată." },
+      { name: "Nivele BIG X și AZB", description: "Seriile BIG X și AZB completează gama SOLA cu nivele cu o fiolă orizontală și una verticală, în mai multe lungimi (BIG X: 30–80 cm; AZB: 20–200 cm). Pentru ofertă, spuneți-ne toleranța de precizie cerută și lungimea nivelei necesare." },
     ],
     industries: [
       "Construcții civile — verificarea verticalității pereților și orizontalității",
@@ -440,27 +440,27 @@ Pentru România, nivelele SOLA au sens în construcții civile și industriale �
     productCodes: [
       { code: "RED 3", description: "Nivelă cu bulă, trei fiole, uz curent de șantier" },
       { code: "BIG RED 3", description: "Nivelă cu bulă, format lung, trei fiole" },
-      { code: "REDM", description: "Nivelă cu bulă din seria RED, profil standard" },
-      { code: "BIG REDM", description: "Nivelă cu bulă, format lung din seria RED" },
-      { code: "AZ", description: "Nivelă cu profil optimizat pentru rigiditate la lungimi mari" },
-      { code: "AZ 3", description: "Nivelă seria AZ cu trei fiole" },
-      { code: "AZM", description: "Nivelă seria AZ, variantă cu profil standard" },
-      { code: "AZM 3", description: "Nivelă seria AZ, variantă cu trei fiole" },
-      { code: "BIG X", description: "Nivelă de precizie pentru montaj tehnic" },
-      { code: "BIG X 3", description: "Nivelă de precizie BIG X cu trei fiole" },
-      { code: "AZB", description: "Nivelă de precizie din familia AZB" },
-      { code: "AZB 3", description: "Nivelă de precizie AZB cu trei fiole" },
+      { code: "REDM", description: "Nivelă cu bulă din seria RED, variantă magnetică (litera M)" },
+      { code: "BIG REDM", description: "Nivelă cu bulă din seria RED, variantă magnetică (litera M)" },
+      { code: "AZ", description: "Nivelă cu bulă, profil de aluminiu de înaltă rezistență, 40–200 cm" },
+      
+      { code: "AZM", description: "Nivelă seria AZ, variantă magnetică (litera M)" },
+      
+      { code: "BIG X", description: "Nivelă cu o fiolă orizontală și una verticală, 30–80 cm" },
+      
+      { code: "AZB", description: "Nivelă cu o fiolă orizontală și una verticală, 20–200 cm" },
+      
     ],
     faq: [
       { q: "Ce produce SOLA?", a: "SOLA produce nivele cu bulă și instrumente de măsurare pentru construcții — nivele din seriile RED, AZ, BIG X și AZB, plus telemetre laser, metri pliabili și rulete. Compania are sediul la Götzis, în Austria." },
-      { q: "Ce diferență e între nivelele seria RED și seria AZ?", a: "Seria RED e nivela de bază, robustă, pentru lucru curent de șantier. Seria AZ folosește un profil optimizat pentru rigiditate mai mare la lungimi lungi, potrivit pentru verificarea unor suprafețe extinse unde o nivelă standard s-ar putea deforma ușor sub greutatea proprie." },
-      { q: "Ce înseamnă „3” la finalul denumirii unei nivele SOLA?", a: "Cifra „3” arată că nivela are trei fiole în loc de una sau două, pentru citire pe unghiuri intermediare, nu doar pe orizontală și verticală. Modelele RED 3, AZ 3, BIG X 3 și AZB 3 sunt variantele cu trei fiole din familiile de bază." },
+      { q: "Ce diferență e între nivelele seria RED și seria AZ?", a: "Conform fișelor producătorului, RED 3 are profil extra-rezistent (59 × 27 mm) și toleranță de 0,30 mm/m, iar AZ are profil de 50 × 24 mm, toleranță de 0,50 mm/m și lungimi de la 40 la 200 cm, potrivite pentru verificarea unor suprafețe extinse." },
+      { q: "Ce înseamnă „3” la finalul denumirii unei nivele SOLA?", a: "La modelul RED 3, cifra „3” corespunde celor trei fiole: una orizontală și două verticale. Producătorul nu explică expres denumirea; pentru alte modele, numărul de fiole se confirmă pe fișa produsului." },
       { q: "Livrați nivele SOLA în România?", a: "Da, aducem nivelele și instrumentele de măsurare SOLA la comandă prin canale de aprovizionare din Austria, cu un termen orientativ de 1–4 săptămâni pentru lungimi mai puțin curente. Pentru lungimile standard din seria RED, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "SOLA-Messwerkzeuge – Wasserwaagen und Messtechnik", url: "https://www.sola.at", publisher: "SOLA-Messwerkzeuge GmbH", accessed: "2026-09-25" },
       { title: "Produkte – Wasserwaagen", url: "https://www.sola.at/de/produkte/wasserwaagen-c1616", publisher: "SOLA-Messwerkzeuge GmbH", accessed: "2026-09-25" },
@@ -471,14 +471,14 @@ Pentru România, nivelele SOLA au sens în construcții civile și industriale �
     founded: 1938,
     overview: `TONE este un producător japonez de chei dinamometrice și scule de fixare cu șuruburi industriale, fondat în 1938. Gama acoperă chei dinamometrice mecanice și digitale, chei tubulare de impact, seturi de chei tubulare complete și o linie de scule din titan pentru medii unde greutatea sau proprietățile magnetice ale oțelului nu sunt potrivite. Pentru un service industrial din România, TONE e o alternativă asiatică la mărcile europene de chei dinamometrice.
 
-Ca poziționare, TONE se află în aceeași categorie de chei dinamometrice profesionale ca Norbar, ambele acoperind modele mecanice cu clichet și chei digitale cu citire electronică a cuplului aplicat. Diferența ține de originea geografică — TONE vine din Japonia, cu rețea de distribuție orientată spre Asia, dar prezentă și internațional. Gama de scule din titan e un segment de nișă mai puțin comun la concurență.
+Gama TONE acoperă chei dinamometrice mecanice și digitale, seturi de chei tubulare, scule de impact, scule pneumatice și electrice și o linie de scule din titan, potrivit site-ului producătorului.
 
 Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mentenanță industrială, oriunde strângerea cu cuplu controlat, verificabil, e o cerință documentată.`,
     whyChoose: [
-      "Fondată în 1938, cu aproape un secol de specializare pe scule de strângere cu cuplu controlat",
+      "Fondată în 1938, cu peste 85 de ani de activitate, specializată pe soluții de strângere cu șuruburi și scule dinamometrice",
       "Gamă de chei dinamometrice digitale, cu citire electronică a cuplului, alături de modele mecanice",
       "Linie de scule din titan, utilă acolo unde greutatea sau proprietățile magnetice ale oțelului nu sunt potrivite",
-      "Poziționare similară cu Norbar în segmentul cheilor dinamometrice profesionale",
+      "Gamă de scule pneumatice și electrice pentru strângere, alături de cheile dinamometrice",
     ],
     keyProducts: [
       { name: "Chei dinamometrice mecanice și digitale", description: "Gama TONE acoperă chei mecanice cu clichet, pentru strângere la o valoare fixă de cuplu, și chei digitale, cu afișaj electronic al cuplului în timp real. Variantele digitale sunt utile acolo unde strângerea trebuie documentată pentru trasabilitate. Pentru ofertă, spuneți-ne domeniul de cuplu necesar în Nm și dacă aveți nevoie de înregistrare digitală." },
@@ -500,24 +500,24 @@ Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mente
       { code: "Seturi chei tubulare", description: "Seturi complete cu prelungitoare și capete multiple" },
       { code: "Chei tubulare de impact", description: "Capete tubulare pentru scule pneumatice de impact" },
       { code: "Scule din titan", description: "Chei și scule din titan pentru medii sensibile" },
-      { code: "Impact sockets", description: "Capete tubulare rezistente pentru strângere rapidă" },
-      { code: "Titanium tools", description: "Linie de scule din titan pentru aplicații speciale" },
-      { code: "Tool sets", description: "Seturi complete de scule pentru asamblare" },
-      { code: "Socket wrench sets", description: "Seturi de chei tubulare cu accesorii" },
-      { code: "Digital torque wrenches", description: "Chei dinamometrice digitale cu citire electronică" },
-      { code: "Air tools", description: "Scule pneumatice pentru strângere și desfacere rapidă" },
-      { code: "Electric tools", description: "Scule electrice pentru asamblare industrială" },
+      
+      
+      { code: "Seturi de scule", description: "Seturi complete de scule pentru asamblare" },
+      
+      
+      { code: "Scule pneumatice", description: "Scule pneumatice pentru strângere și desfacere rapidă" },
+      { code: "Scule electrice", description: "Scule electrice pentru asamblare industrială" },
     ],
     faq: [
       { q: "Ce produce TONE?", a: "TONE produce chei dinamometrice, seturi de chei tubulare și scule de fixare cu șuruburi industriale, inclusiv o linie de scule din titan. Compania e din Japonia și a fost fondată în 1938." },
-      { q: "Prin ce se aseamănă TONE cu Norbar?", a: "TONE și Norbar sunt ambele mărci specializate pe chei dinamometrice profesionale, cu game care acoperă modele mecanice și digitale, cu citire electronică a cuplului. Diferența principală ține de originea geografică — TONE e din Japonia, Norbar din Marea Britanie — și de rețeaua de distribuție din spatele fiecărei mărci." },
+      { q: "Ce chei dinamometrice oferă TONE?", a: "TONE, din Japonia, oferă chei dinamometrice mecanice cu clichet și chei digitale cu afișaj electronic al cuplului. Detaliile tehnice ale unui model se confirmă din documentația producătorului." },
       { q: "Când se folosesc sculele din titan de la TONE?", a: "Sculele din titan sunt utile acolo unde o sculă din oțel ar interfera magnetic cu echipamentul din jur sau unde greutatea manipulată repetat contează, de exemplu lucrul pe structuri sensibile la câmpuri magnetice. Pentru aplicații generale de strângere, o cheie din oțel rămâne opțiunea uzuală." },
       { q: "Livrați chei dinamometrice TONE în România?", a: "Da, aducem cheile dinamometrice și sculele TONE la comandă prin canale de aprovizionare, cu un termen orientativ de 1–4 săptămâni, mai lung pentru linia de titan sau pentru modele digitale mai puțin curente." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "TONE Co., Ltd. – Bolt Fastening Equipment", url: "https://www.tonetool.co.jp", publisher: "TONE Co., Ltd.", accessed: "2026-09-25" },
       { title: "TONE – Company Profile", url: "https://www.tonetool.co.jp/en", publisher: "TONE Co., Ltd.", accessed: "2026-09-25" },
@@ -528,19 +528,19 @@ Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mente
     headquarters: "Köngen, Germania",
     overview: `ALMiG este un producător german de compresoare de aer cu șurub pentru aplicații industriale, cu sediul la Köngen; compania marchează pe propriul site „100 Jahre ALMiG” (100 de ani de activitate). Gama acoperă mai multe familii de compresoare cu șurub — F-Drive, COMBI XP, GEAR XP, VARIABLE XP, G-Drive T și V-Drive T, LENTO și SIMPLEXX — alături de compresoare cu piston, turbocompresoare și scroll. Pentru o hală de producție din România, ALMiG e o alternativă germană la mărcile mari de compresoare.
 
-ALMiG concurează direct cu Kaeser în segmentul compresoarelor de aer cu șurub, cu o strategie declarată de standardizare a componentelor — aproximativ 80-90% din piesele unui compresor dintr-o clasă de putere sunt identice între variantele de antrenare. Familiile VARIABLE XP și V-Drive T folosesc antrenare cu turație variabilă, pentru reglarea debitului după consumul real din instalație, în timp ce G-Drive T rămâne varianta cu antrenare directă. LENTO și SIMPLEXX completează gama pentru aplicații unde compactitatea contează mai mult decât reglajul fin.
+ALMiG declară o strategie de standardizare a componentelor — aproximativ 80-90% din piesele unui compresor dintr-o clasă de putere sunt identice între variantele de antrenare. Familiile VARIABLE XP și V-Drive T folosesc antrenare cu turație variabilă, pentru reglarea debitului după consumul real din instalație, în timp ce G-Drive T este o variantă cu angrenaje, cu comprimare în două trepte, pentru puteri de 90–315 kW. LENTO (15–110 kW, cu turație variabilă) și SIMPLEXX (132–275 kW) completează gama cu compresoare cu șurub fără ulei, pentru aplicații care cer aer 100% fără ulei.
 
 Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și farmaceutică, unde aerul comprimat trebuie livrat constant, fără opriri neplanificate.`,
     whyChoose: [
       "Standardizare declarată de componente — 80-90% identice într-o clasă de putere — piese de schimb mai simple",
       "Familii cu turație variabilă (VARIABLE XP, V-Drive T) pentru reglarea debitului după consumul real",
       "Gamă completă — compresoare cu șurub, piston, turbo și scroll — pentru nevoi diferite de debit",
-      "Poziționare directă în aceeași categorie cu Kaeser, în segmentul compresoarelor industriale cu șurub",
+      "Compresoare industriale cu șurub, în familii cu antrenare directă, cu angrenaje și cu turație variabilă",
     ],
     keyProducts: [
       { name: "Compresoare cu turație variabilă (VARIABLE XP, V-Drive T)", description: "Familiile VARIABLE XP și V-Drive T folosesc un motor cu turație variabilă, care ajustează debitul de aer în funcție de consumul real din instalație, în loc să funcționeze constant la capacitate maximă. Avantajul apare acolo unde consumul fluctuează pe parcursul zilei. Pentru ofertă, spuneți-ne debitul de vârf și debitul mediu estimat." },
-      { name: "Compresoare cu antrenare directă (F-Drive, G-Drive T, GEAR XP)", description: "Familiile cu antrenare directă sunt mai simple mecanic decât variantele cu turație variabilă, potrivite pentru instalații cu consum relativ constant. COMBI XP combină compresorul cu un uscător integrat, iar GEAR XP folosește o transmisie cu angrenaje pentru clasele de putere mai mari. Pentru ofertă, precizați puterea necesară în kW." },
-      { name: "Compresoare compacte LENTO și SIMPLEXX", description: "LENTO și SIMPLEXX sunt liniile compacte din gama ALMiG, gândite pentru ateliere mici sau spații cu putere instalată redusă. Sunt variante mai simple de operat, cu mai puține opțiuni de reglaj față de familiile industriale mari. Pentru ofertă, spuneți-ne suprafața atelierului și numărul de puncte de consum de aer." },
+      { name: "Compresoare F-Drive, COMBI XP și G-Drive T", description: "F-Drive (5,5–75 kW) este un compresor cu antrenare directă și turație variabilă; COMBI XP (4–22 kW) combină compresorul, rezervorul de aer și uscătorul frigorific într-o singură unitate, tot cu turație variabilă; G-Drive T (90–315 kW) folosește angrenaje și comprimare în două trepte. Pentru ofertă, precizați puterea necesară în kW." },
+      { name: "Compresoare fără ulei LENTO și SIMPLEXX", description: "LENTO (15–110 kW) și SIMPLEXX (132–275 kW) sunt liniile de compresoare cu șurub fără ulei din gama ALMiG, pentru aplicații care cer aer 100% fără ulei, precum industria farmaceutică, alimentară sau electronică. Pentru ofertă, spuneți-ne debitul necesar, presiunea de lucru și clasa de puritate a aerului." },
     ],
     industries: [
       "Industria auto — aer comprimat pentru linii de asamblare și scule pneumatice",
@@ -552,28 +552,28 @@ Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și
     infinitrade: `Pentru ALMiG lucrăm cu surse publice ale producătorului german, fără date proprii de stoc pentru compresoarele din fiecare familie. Aducem compresoarele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută; compresoarele cu opțiuni speciale de reglaj pot avea un termen mai lung. Pentru o ofertă corectă, spuneți-ne debitul de aer necesar, presiunea de lucru și dacă aveți nevoie de antrenare cu turație variabilă. Nu putem confirma o unitate cu disponibilitate din depozit pentru fiecare configurație.`,
     limitation: "Nu putem confirma consumul specific de energie (kW/m³) pentru fiecare configurație de compresor fără o cerere punctuală la producător.",
     productCodes: [
-      { code: "F-Drive", description: "Compresor cu șurub cu antrenare directă" },
-      { code: "COMBI XP", description: "Compresor cu șurub și uscător integrat" },
+      { code: "F-Drive", description: "Compresor cu șurub cu antrenare directă și turație variabilă, 5,5–75 kW" },
+      { code: "COMBI XP", description: "Compresor cu șurub cu rezervor și uscător frigorific integrate, turație variabilă, 4–22 kW" },
       { code: "GEAR XP", description: "Compresor cu șurub cu transmisie cu angrenaje" },
       { code: "VARIABLE XP", description: "Compresor cu șurub cu turație variabilă" },
-      { code: "G-Drive T", description: "Compresor cu șurub cu antrenare directă, clasă industrială" },
-      { code: "V-Drive T", description: "Compresor cu șurub cu turație variabilă, clasă industrială" },
-      { code: "LENTO", description: "Compresor compact pentru ateliere mici" },
-      { code: "SIMPLEXX", description: "Compresor compact cu operare simplificată" },
+      { code: "G-Drive T", description: "Compresor cu șurub cu angrenaje și comprimare în două trepte, 90–315 kW" },
+      { code: "V-Drive T", description: "Compresor cu șurub cu angrenaje, turație variabilă și comprimare în două trepte, 90–315 kW" },
+      { code: "LENTO", description: "Compresor cu șurub fără ulei, turație variabilă, 15–110 kW" },
+      { code: "SIMPLEXX", description: "Compresor cu șurub fără ulei, în două trepte, 132–275 kW" },
       { code: "Compresoare cu piston", description: "Compresoare cu piston pentru consum intermitent" },
       { code: "Turbocompresoare", description: "Turbocompresoare pentru debite mari fără ulei" },
       { code: "Compresoare scroll", description: "Compresoare scroll pentru aer fără ulei" },
     ],
     faq: [
       { q: "Ce produce ALMiG?", a: "ALMiG produce compresoare de aer cu șurub pentru industrie, în mai multe familii — F-Drive, COMBI XP, GEAR XP, VARIABLE XP — alături de compresoare cu piston, turbocompresoare și compresoare scroll. Compania are sediul la Köngen, în Germania." },
-      { q: "Prin ce se diferențiază ALMiG de Kaeser?", a: "ALMiG și Kaeser concurează în același segment de compresoare industriale cu șurub, ambele oferind familii cu antrenare directă și cu turație variabilă. ALMiG pune accent declarat pe standardizarea componentelor între clasele de putere, ceea ce ar putea simplifica piesele de schimb pe termen lung." },
+      { q: "Ce înseamnă standardizarea componentelor la ALMiG?", a: "ALMiG declară pe site-ul oficial că aproximativ 80–90% din componentele unui compresor dintr-o clasă de putere sunt identice între variante." },
       { q: "Ce avantaj au compresoarele ALMiG cu turație variabilă?", a: "Compresoarele din familiile VARIABLE XP și V-Drive T ajustează debitul de aer produs în funcție de consumul real din instalație, în loc să funcționeze constant la capacitate maximă. Avantajul apare mai ales acolo unde consumul de aer variază pe parcursul zilei, reducând funcționarea în gol." },
       { q: "Livrați compresoare ALMiG în România?", a: "Da, aducem compresoarele ALMiG la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Configurațiile cu opțiuni speciale de reglaj pot avea un termen mai lung." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ALMiG – Advanced Compressed Air Solutions", url: "https://www.almig.de", publisher: "ALMiG Kompressoren GmbH", accessed: "2026-09-25" },
       { title: "Produkte – Kompressoren im Überblick", url: "https://www.almig.de/produkte", publisher: "ALMiG Kompressoren GmbH", accessed: "2026-09-25" },
@@ -586,18 +586,18 @@ Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și
     employees: "peste 230 la nivel global",
     overview: `Friulair este un producător italian de uscătoare de aer comprimat și echipamente pentru tratarea aerului industrial, cu sediul la Cervignano del Friuli și înființat în 1989. Gama acoperă uscătoare frigorifice pentru mai multe plaje de debit, uscătoare cu adsorbție fără căldură și module modulare, alături de filtre, răcitoare posterioare și separatoare apă-ulei. Compania declară peste 230 de angajați la nivel global. Pentru un integrator de instalații de aer comprimat din România, Friulair oferă o gamă completă de tratare a aerului.
 
-Friulair concurează cu Donaldson în segmentul tratării aerului comprimat, cu o gamă de uscătoare frigorifice segmentată pe debit — de la seria FMD, pentru debite mici de 21-1.320 m³/h, până la seria ACT, care acoperă până la 18.000 m³/h — și pe temperatură de intrare, cu familiile AMH și AHT dedicate aerului cu temperatură ridicată. Seriile ACT ES și ACT VS adaugă recuperare termică, respectiv turație variabilă. Pe adsorbție, HDT și HDC completează gama pentru puncte de rouă mai coborâte.
+Friulair oferă o gamă de uscătoare frigorifice segmentată pe debit — de la seria FMD, pentru debite mici de 21-1.320 m³/h, până la seria ACT, care acoperă până la 18.000 m³/h — și pe temperatură de intrare, cu familiile AMH și AHT dedicate aerului cu temperatură ridicată. Seria ACT ES (21–960 m³/h) este varianta cu economie de energie, cu masă termică din aluminiu, iar ACT VS (1.260–17.664 m³/h) are turație variabilă. Pe adsorbție, HDT și HDC completează gama pentru puncte de rouă mai coborâte.
 
 Pentru România, uscătoarele Friulair au sens în industria alimentară și auto, acolo unde aerul comprimat alimentează echipamente sensibile la umiditate.`,
     whyChoose: [
       "Gamă segmentată pe debit și temperatură de intrare — de la FMD (21 m³/h) până la ACT (18.000 m³/h)",
-      "Serii cu recuperare termică (ACT ES) și turație variabilă (ACT VS) pentru consum energetic redus",
+      "Serii cu economie de energie (ACT ES) și turație variabilă (ACT VS) pentru consum energetic redus",
       "Uscătoare cu adsorbție fără căldură (HDT) și module compacte (HDC) pentru puncte de rouă coborâte",
       "Rețea de producție și vânzări pe cinci continente, cu peste 230 de angajați la nivel global",
     ],
     keyProducts: [
       { name: "Uscătoare frigorifice seria FMD și FCT", description: "Seriile FMD și FCT sunt uscătoare frigorifice cu refrigerant R513A, acoperind debite de la 21 m³/h la modelele mici, până la 8.830 m³/h la FCT. Sunt uscătoare standard pentru instalații de aer comprimat obișnuite. Varianta FCT VS adaugă un compresor cu turație variabilă. Pentru ofertă, spuneți-ne debitul de aer al compresorului deservit și punctul de rouă cerut." },
-      { name: "Uscătoare premium seria ACT", description: "Seria ACT acoperă debite de la 21 până la 18.000 m³/h. Varianta ACT ES adaugă recuperare termică directă, iar ACT VS folosește un compresor cu turație variabilă, acoperind 1.260-17.664 m³/h. Alegerea depinde de stabilitatea consumului de aer și de bugetul energetic. Pentru ofertă, precizați debitul instalat al compresorului principal." },
+      { name: "Uscătoare seria ACT", description: "Seria ACT acoperă debite de la 21 până la 18.000 m³/h. Varianta ACT ES (21–960 m³/h) reduce consumul de energie prin oprirea compresorului când masa termică din aluminiu acoperă necesarul, iar ACT VS folosește un compresor cu turație variabilă, acoperind 1.260-17.664 m³/h. Alegerea depinde de stabilitatea consumului de aer și de bugetul energetic. Pentru ofertă, precizați debitul instalat al compresorului principal." },
       { name: "Uscătoare cu adsorbție HDT și HDC", description: "HDT e un uscător cu adsorbție fără căldură, care acoperă debite de la 19 la 9.060 m³/h, pentru puncte de rouă mai coborâte decât poate oferi un uscător frigorific. HDC e varianta modulară, pentru debite mai mici, de la 5 la 300 m³/h. Pentru ofertă, spuneți-ne punctul de rouă cerut și debitul de aer disponibil." },
     ],
     industries: [
@@ -611,28 +611,28 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
     limitation: "Nu putem confirma consumul energetic specific (kWh/m³) pentru fiecare model fără fișa tehnică punctuală de la producător.",
     productCodes: [
       { code: "FMD", description: "Uscător frigorific, debit 21–1.320 m³/h" },
-      { code: "ACT", description: "Uscător frigorific premium, debit 21–18.000 m³/h" },
-      { code: "ACT ES", description: "Uscător frigorific cu recuperare termică directă" },
+      { code: "ACT", description: "Uscător frigorific, debit 21–18.000 m³/h" },
+      { code: "ACT ES", description: "Uscător frigorific cu economie de energie (masă termică din aluminiu), 21–960 m³/h" },
       { code: "ACT VS", description: "Uscător frigorific cu turație variabilă, 1.260–17.664 m³/h" },
       { code: "FCT", description: "Uscător frigorific cu refrigerant R513A, până la 8.830 m³/h" },
       { code: "FCT VS", description: "Uscător frigorific cu turație variabilă și refrigerant R513A" },
       { code: "AMH", description: "Uscător frigorific pentru temperatură ridicată la intrare" },
-      { code: "AHT", description: "Uscător frigorific premium pentru temperatură ridicată la intrare" },
-      { code: "PLH", description: "Uscător frigorific de înaltă presiune, până la 6.060 m³/h" },
+      { code: "AHT", description: "Uscător frigorific pentru temperatură ridicată la intrare" },
+      { code: "PLH", description: "Uscător frigorific, debit 25–6.060 m³/h" },
       { code: "PCD", description: "Uscător frigorific cu temperatură de ieșire redusă" },
       { code: "HDT", description: "Uscător cu adsorbție fără căldură, 19–9.060 m³/h" },
       { code: "HDC", description: "Uscător cu adsorbție modular, 5–300 m³/h" },
     ],
     faq: [
       { q: "Ce produce Friulair?", a: "Friulair produce uscătoare de aer comprimat — frigorifice și cu adsorbție — plus filtre, separatoare și drenuri de condensat. Compania e din Italia, cu sediul la Cervignano del Friuli, și a fost înființată în 1989." },
-      { q: "Prin ce se diferențiază Friulair de Donaldson?", a: "Friulair și Donaldson concurează în același segment de tratare a aerului comprimat industrial, ambele cu game largi de uscătoare frigorifice și cu adsorbție. Friulair segmentează gama pe debit și pe temperatura aerului la intrare, cu familii dedicate precum AMH și AHT pentru temperaturi ridicate." },
+      { q: "Cum este segmentată gama de uscătoare Friulair?", a: "Friulair segmentează gama pe debit și pe temperatura aerului la intrare, cu familii dedicate precum AMH (până la +90 °C) și AHT (până la +100 °C) pentru aer cu temperatură ridicată." },
       { q: "Ce uscător Friulair aleg pentru un punct de rouă foarte coborât?", a: "Pentru un punct de rouă mai coborât decât poate oferi un uscător frigorific, seriile cu adsorbție HDT sau HDC sunt opțiunea potrivită — HDT pentru debite mai mari, HDC pentru instalații compacte. Un uscător frigorific standard din seria FCT sau ACT rămâne suficient pentru majoritatea aplicațiilor curente." },
       { q: "Livrați uscătoare Friulair în România?", a: "Da, aducem uscătoarele Friulair la comandă prin canale de aprovizionare din Italia, cu un termen orientativ de 1–4 săptămâni, mai lung pentru debite mari sau configurații speciale. Termenul exact se confirmă după stabilirea debitului și a punctului de rouă cerut." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Friulair – Compressed Air Treatment Solutions", url: "https://www.friulair.com", publisher: "Friulair S.p.A.", accessed: "2026-09-25" },
       { title: "Dryers – Compressed Air Dryer Ranges", url: "https://www.friulair.com/en/compressed-air/dryers/", publisher: "Friulair S.p.A.", accessed: "2026-09-25" },
@@ -643,14 +643,14 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
     founded: 1966,
     overview: `Pneumatech este un producător de echipamente pentru tratarea aerului comprimat și generarea de gaze industriale, înființat în 1966 și integrat astăzi în grupul Atlas Copco. Gama acoperă uscătoare prin refrigerare, adsorbție și membrană, filtre de linie și de proces, generatoare de azot și de oxigen, alături de echipamente de măsurare precum senzori de debit și detectoare de scurgeri. Pentru o hală de producție din România, Pneumatech oferă acces la tratarea aerului și generarea de gaze din aceeași gamă.
 
-Spre deosebire de un simplu furnizor de uscătoare, Pneumatech acoperă și generarea de gaze pe amplasament — azot prin separare cu membrană sau prin adsorbție, pentru aplicații de la ambalare până la tăierea cu laser, unde puritatea gazului influențează calitatea tăieturii. Gama de generatoare de oxigen completează oferta pentru procese care au nevoie de o concentrație ridicată de oxigen fără butelii. În segmentul de tratare a aerului, compania concurează cu Donaldson prin filtre dimensionate pentru diverse clase de puritate.
+Spre deosebire de un simplu furnizor de uscătoare, Pneumatech acoperă și generarea de gaze pe amplasament — azot prin separare cu membrană sau prin adsorbție, pentru aplicații de la ambalare până la tăierea cu laser, unde puritatea gazului influențează calitatea tăieturii. Gama de generatoare de oxigen completează oferta pentru procese care au nevoie de o concentrație ridicată de oxigen fără butelii. În segmentul de tratare a aerului, compania oferă filtre de linie și de proces pentru diverse clase de puritate.
 
 Pentru România, gama Pneumatech are sens în farmaceutică și industria auto, sectoare care au nevoie de aer și gaze de calitate certificată prin specificație.`,
     whyChoose: [
       "Gamă combinată de tratare a aerului și generare de gaze — azot, oxigen — nu doar uscătoare individuale",
       "Generatoare de azot pe mai multe tehnologii — PSA, membrană, înaltă presiune — pentru aplicații diferite",
       "Echipamente de măsurare integrate — senzori de debit, detectoare de scurgeri, analizoare de gaze",
-      "Parte din grupul Atlas Copco, cu acces la o rețea internațională mai largă de suport tehnic",
+      "Parte din grupul Atlas Copco, potrivit site-ului producătorului",
     ],
     keyProducts: [
       { name: "Uscătoare de aer comprimat (refrigerare, adsorbție, membrană)", description: "Gama de uscătoare acoperă trei tehnologii — refrigerare, pentru puncte de rouă moderate, adsorbție, pentru puncte de rouă foarte coborâte, și membrană, pentru debite mici și instalații compacte. Alegerea depinde de punctul de rouă cerut de aplicație. Pentru ofertă, spuneți-ne debitul de aer, punctul de rouă necesar și tehnologia compresorului deservit." },
@@ -688,8 +688,8 @@ Pentru România, gama Pneumatech are sens în farmaceutică și industria auto, 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [{ date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Pneumatech – Pure Air. Pure Gas.", url: "https://www.pneumatech.com", publisher: "Pneumatech (Atlas Copco Group)", accessed: "2026-09-25" },
       { title: "Products – On-Site Gas Generation and Compressed Air Treatment", url: "https://www.pneumatech.com/en/products", publisher: "Pneumatech (Atlas Copco Group)", accessed: "2026-09-25" },

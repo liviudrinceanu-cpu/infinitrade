@@ -289,7 +289,7 @@ export const productTypes = [
       },
       {
         "q": "Ce trebuie trimis pentru o ofertă de elemente filtrante?",
-        "a": "Codul complet de pe elementul existent este cea mai rapidă cale de identificare; în lipsa lui, marca și modelul echipamentului, fluidul filtrat și dimensiunile aproximative sunt suficiente. La comandă primești și termenul de livrare, orientativ 1–4 săptămâni, în funcție de producător și de model."
+        "a": "Codul complet de pe elementul existent este cea mai rapidă cale de identificare; în lipsa lui, marca și modelul echipamentului, fluidul filtrat și dimensiunile aproximative sunt suficiente. La comandă primiți și termenul de livrare, orientativ 1–4 săptămâni, în funcție de producător și de model."
       },
       {
         "q": "Se poate folosi un element filtrant echivalent, de la alt producător decât cel al carcasei?",

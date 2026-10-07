@@ -5,21 +5,21 @@ export const brandContentBatch106 = {
     name: "Mac Valves",
     founded: 1948,
     headquarters: "Wixom, Michigan, SUA",
-    overview: `Mac Valves este un producător american de valve pneumatice cu sediul la Wixom, Michigan, activ din 1948 în automatizarea industrială. Compania proiectează valve de comutare cu acționare directă (3 și 4 căi), fără elemente pilot intermediare, pentru circuite unde viteza de răspuns și fiabilitatea contează mai mult decât presiunea brută de lucru. Din gama Mac Valves putem oferta seriile de valve mici și mari, familia Bullet Valve și modulele pentru colectarea prafului.
+    overview: `Mac Valves este un producător american de valve pneumatice cu sediul la Wixom, Michigan, activ din 1948 în automatizarea industrială. Compania proiectează valve de comutare cu solenoid (3 și 4 căi), în variante cu acționare directă și pilotate, pentru circuite unde viteza de răspuns și fiabilitatea contează mai mult decât presiunea brută de lucru. Din gama Mac Valves putem oferta seriile de valve mici și mari, familia Bullet Valve și modulele pentru colectarea prafului.
 
-Ce diferențiază tehnic Mac Valves e principiul de comutare cu solenoid de ridicare direct pe supapă, brevetat sub numele Bullet Valve, care elimină frecarea unui sertar glisant clasic și reduce uzura la cicluri intense. Gama acoperă valori de Cv de la 0,03 la peste 60, cu porturi de la M3 și #10-32 până la 2½″, deci acoperă atât microdozarea cât și circuitele industriale de forță. În categoria valvelor de comutare rapidă, Mac Valves concurează direct cu gama Festo de valve directionale, diferența fiind accentul pus pe construcția fără piese care se blochează în timp.
+Ce diferențiază tehnic Mac Valves e principiul de comutare cu solenoid de ridicare direct pe supapă, brevetat sub numele Bullet Valve, cu supapă și armătură integrate și puține piese în mișcare. Gama acoperă valori maxime de Cv de la 0,03 până la 60, cu porturi de la M3 și #10-32 până la 2½″, deci acoperă atât microdozarea cât și circuitele industriale de forță.
 
 Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie de ambalare, o stație de vopsire sau un sistem de colectare a prafului cere valve cu viață lungă de ciclu și variante certificate pentru zone cu risc de explozie.`,
     whyChoose: [
-      "Comutare cu acționare directă pe solenoid, fără sertar glisant expus la uzură ciclică ridicată",
-      "Gamă largă de Cv, de la 0,03 pentru microdozare până la peste 60 pentru linii de forță",
-      "Variante certificate pentru zone Ex, utile în vopsitorii, mori și instalații cu praf combustibil",
+      "Valvele Bullet Valve au solenoid de ridicare, supapă/armătură integrată și puține piese",
+      "Gamă largă de Cv maxim, de la 0,03 până la 60",
+      "Variante pentru locații periculoase la anumite serii (de exemplu valve impuls cu pilot de purjare la distanță); disponibilitatea se confirmă pe seria exactă",
       "Peste 100 de brevete proprii acumulate în tehnologia de comutare pneumatică",
       "Module Pulse Valve dedicate curățării filtrelor din sistemele de colectare a prafului industrial",
       "Platformă de comunicație pe bus MI/O-67 pentru integrarea în linii automatizate moderne"
     ],
     keyProducts: [
-      { name: "Valve 3 Căi Seria 35/36", description: "Valve compacte de comutare cu 3 căi, cu porturi de la M5 la 1/4″ și Cv până la 1,2, gândite pentru microactuatoare pneumatice și celule de lucru dense unde spațiul de montaj e limitat." },
+      { name: "Valve 3 Căi Seria 35/36", description: "Valve compacte de comutare cu 3 căi, cu acționare directă (seria 35: Cv maxim 0,17, port 1/8″), gândite pentru microactuatoare pneumatice și celule de lucru dense unde spațiul de montaj e limitat." },
       { name: "Valve 4 Căi Seria 44/45", description: "Valve de comutare pe 4 căi pentru cilindri cu dublă acțiune, cu porturi de la M3 la 1/4″, potrivite pentru celule robotizate și mașini de asamblare cu cicluri rapide de comutare." },
       { name: "Bullet Valve BV10/BV14", description: "Valve cu solenoid de ridicare direct pe supapă, fără sertar glisant, recomandate acolo unde durata de viață la cicluri intense contează mai mult decât presiunea maximă admisă." },
       { name: "Valve ISO01/ISO02", description: "Valve construite după interfața ISO 5599, cu Cv între 0,43 și 6,1 și porturi de la 1/8″ la 3/4″, ușor de integrat pe platforme deja montate cu valve de alt producător." },
@@ -27,34 +27,34 @@ Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie d
     ],
     industries: [
       "Automotive — comutare pneumatică pe linii de asamblare și vopsire",
-      "Prelucrarea alimentelor — valve cu specificație de spălare IP67",
+      "Prelucrarea alimentelor — valve pentru linii de procesare",
       "Ambalare — cicluri rapide de comutare pe mașini de umplere și etichetare",
       "Colectare praf industrial — module Pulse Valve pentru curățarea filtrelor",
       "Manipulare materiale — actuatoare pneumatice pe benzi și macarale ușoare",
       "Materiale plastice — comutare pe forme de injecție și extrudere"
     ],
     certifications: [
-      "Omologări pentru zone cu risc de explozie (ATEX, UL, CSA, FM)",
+      "Certificări disponibile pe anumite serii (de exemplu UL, CSA, CE); se confirmă pentru seria exactă",
       "Marcaj CE pentru piața europeană"
     ],
     infinitrade: `Furnizăm valve Mac Valves pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seriile standard de comutare le aducem la comandă prin canale de aprovizionare din SUA sau prin rețeaua europeană a producătorului, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru garnituri și accesorii de montaj compatibile putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți codul complet al seriei existente sau, la o instalație nouă, tipul de acționare, valoarea Cv necesară și dimensiunea porturilor. Nu ținem gama Mac Valves pe raft; fiecare comandă pornește de la confirmarea producătorului.`,
     limitation: "Nu putem confirma disponibilitatea variantelor certificate Ex pentru fiecare serie fără seria exactă cerută de aplicație.",
     productCodes: [
-      { code: "Seria 35", description: "Valvă 3 căi mică, Cv până la 1,2, porturi 1/8″-1/4″" },
+      { code: "Seria 35", description: "Valvă 3 căi cu acționare directă, Cv maxim 0,17, port 1/8″" },
       { code: "Seria 36L", description: "Variantă compactă a valvei 3 căi seria 36" },
       { code: "Seria 100", description: "Valvă 3 căi de comutare rapidă, gabarit redus" },
       { code: "Seria 1100", description: "Valvă 3 căi pentru aplicații de microdozare" },
-      { code: "Seria 52", description: "Valvă 3 căi de gabarit mare, Cv până la 60" },
-      { code: "Seria 68", description: "Valvă 3 căi mare, porturi până la 2½″" },
+      { code: "Seria 52", description: "Valvă 3 căi pilot-operată cu sertar echilibrat, Cv maxim 1,5, porturi 1/8″-1/4″" },
+      { code: "Seria 68", description: "Valvă 3 căi de gabarit mare" },
       { code: "Seria 24", description: "Valvă 4 căi mică, porturi M3 și M5" },
       { code: "Seria 44", description: "Valvă 4 căi standard pentru cilindri dublă acțiune" },
       { code: "Seria 400", description: "Valvă 4 căi de comutare pentru linii de asamblare" },
       { code: "Seria 900", description: "Valvă 4 căi, familie extinsă de porturi" },
       { code: "Seria 1600", description: "Valvă 4 căi compactă, Cv redus" },
       { code: "Seria 82", description: "Valvă 4 căi de gabarit mare" },
-      { code: "Seria 800", description: "Valvă 4 căi mare, porturi până la 2½″" },
+      { code: "Seria 800", description: "Valvă 4 căi de gabarit mare" },
       { code: "Seria 2700", description: "Valvă 4 căi de forță pentru cilindri mari" },
-      { code: "Seria 6600", description: "Valvă 4 căi de gabarit mare, Cv până la 60" },
+      { code: "Seria 6600", description: "Valvă 4 căi de gabarit mare" },
       { code: "Bullet Valve BV10", description: "Valvă cu solenoid de ridicare direct, port 1/8″" },
       { code: "Bullet Valve BV14", description: "Valvă cu solenoid de ridicare direct, port 1/4″" },
       { code: "Bullet Valve BV21", description: "Valvă cu solenoid de ridicare, Cv până la 0,60" },
@@ -67,14 +67,14 @@ Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie d
     faq: [
       { q: "Ce produce Mac Valves?", a: "Mac Valves fabrică valve pneumatice de comutare cu acționare directă, pe 3 și 4 căi, plus module Pulse Valve pentru curățarea filtrelor din instalațiile de colectare a prafului. Gama acoperă Cv de la 0,03 până la peste 60, cu porturi de la M3 până la 2½″." },
       { q: "Cum aleg o valvă Mac Valves după cod?", a: "Porniți de la codul seriei de pe eticheta valvei existente sau de pe schema pneumatică a instalației; codul indică numărul de căi, gabaritul portului și tipul de acționare. Dacă înlocuiți o valvă, trimiteți-ne fotografia etichetei și dimensiunea portului." },
-      { q: "Ce echivalent Mac Valves are o valvă directională Festo?", a: "Echivalența depinde de numărul de căi, valoarea Cv și dimensiunea portului, nu doar de gabaritul fizic; vă putem propune o serie Mac Valves apropiată dacă transmiteți parametrii valvei Festo existente." },
+      { q: "Ce echivalent Mac Valves are o valvă direcțională Festo?", a: "Echivalența depinde de numărul de căi, valoarea Cv și dimensiunea portului, nu doar de gabaritul fizic; vă putem propune o serie Mac Valves apropiată dacă transmiteți parametrii valvei Festo existente." },
       { q: "Livrați valve Mac Valves în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a producătorului; termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea seriei și a disponibilității la fabrică." },
       { q: "Ce trebuie să trimit pentru o ofertă de valve Mac Valves?", a: "Codul complet al seriei existente sau, pentru o instalație nouă, numărul de căi necesar, valoarea Cv, dimensiunea porturilor și dacă aplicația cere certificare pentru zonă cu risc de explozie." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "MAC Valves — Home", url: "https://macvalves.com/", publisher: "MAC Valves, Inc.", accessed: "2026-09-25" },
       { title: "MAC Valves — About", url: "https://macvalves.com/about/", publisher: "MAC Valves, Inc.", accessed: "2026-09-25" },
@@ -87,20 +87,20 @@ Pentru integratorii din România, Mac Valves e o opțiune atunci când o linie d
     founded: 1921,
     overview: `Ross Controls este un producător american activ din 1921 în domeniul componentelor pneumatice de siguranță — valve destinate izolării energiei, evacuării controlate a aerului comprimat și opririi sigure a preselor și liniilor automate din fabrici. Din gama Ross putem oferta valve duble pentru controlul preselor, valve de blocare pentru izolare energetică și sisteme de preparare a aerului comprimat (filtre, regulatoare, lubrificatoare).
 
-Punctul tehnic forte al Ross e conceptul de valvă dublă monitorizată, unde două elemente de comutare independente trebuie să confirme fiecare cursă înainte ca presa sau mașina să pornească un nou ciclu — o soluție folosită acolo unde o valvă simplă directională, cum oferă și alți producători din piața pneumaticii industriale, nu acoperă cerințele de siguranță funcțională. Gama include și valve cu interfață standardizată ISO 5599 și ANSI, plus module de blocare/etichetare (lockout) pentru mentenanța în siguranță a liniilor de producție.
+Punctul tehnic forte al Ross e conceptul de valvă dublă monitorizată, unde două elemente de comutare independente trebuie să confirme fiecare cursă înainte ca presa sau mașina să pornească un nou ciclu — o soluție folosită acolo unde o valvă simplă direcțională, cum oferă și alți producători din piața pneumaticii industriale, nu acoperă cerințele de siguranță funcțională. Gama include și valve cu interfață standardizată ISO 5599 și ANSI, plus module de blocare/etichetare (lockout) pentru mentenanța în siguranță a liniilor de producție.
 
 Pentru fabricile din România cu prese mecanice, linii de ambalat sau celule robotizate care trec printr-un audit de siguranță a mașinilor, Ross Controls acoperă componentele pneumatice cerute de standardele de izolare a energiei și de oprire de urgență.`,
     whyChoose: [
       "Valve duble monitorizate pentru control de presă, cu confirmare independentă a fiecărei curse",
       "Sisteme de izolare a energiei pneumatice pentru proceduri de lockout/tagout la mentenanță",
       "Interfețe standardizate ISO 5599 și ANSI, compatibile cu manifolduri deja instalate",
-      "Gamă largă de temperatură, de la aplicații vacuum până la temperaturi ridicate de proces",
-      "Module de diagnoză pentru valvele proporționale de control al presiunii",
+      "Valve pentru domenii de presiune de la vid până la 145 psig (de exemplu seria W66)",
+      "Valve cu poppet tolerant la impurități și comutator de poziție integrat pentru monitorizare (seria SV27)",
       "Servicii de audit de conformitate și evaluare a riscului pentru mașini existente"
     ],
     keyProducts: [
       { name: "Valve Duble DM2/DM1", description: "Valve duble pentru control de presă, cu monitorizare independentă a fiecărui element de comutare; opresc alimentarea cu aer dacă unul dintre cele două elemente nu confirmă poziția corectă, folosite la prese mecanice și de ștanțare." },
-      { name: "Valve Directionale SV27", description: "Valve pilot-operate cu interfață standardizată, disponibile în variante cu monitorizare externă și cu supape de reținere redundante, pentru circuite unde o singură cale de comutare nu e suficientă din motive de siguranță." },
+      { name: "Valve SV27 (PO Check 2/2)", description: "Valve 2/2 pilot-operate de tip check (PO Check), pentru menținerea sarcinii, cu comutator de poziție integrat pentru monitorizare, cu porturi de 1/2″ și 3/4″." },
       { name: "Valve ISO/ANSI Seria W", description: "Familie de valve construite după interfețele ISO 15407, ISO 5599 și ANSI, pentru integrare pe manifolduri deja montate cu componente de alt producător, fără schimbarea plăcii de bază." },
       { name: "Module Lockout Seria 27", description: "Valve de blocare cu funcție de pornire lentă (soft-start), folosite în procedurile de izolare a energiei pneumatice înainte de intervențiile de mentenanță pe linii automate." }
     ],
@@ -114,38 +114,38 @@ Pentru fabricile din România cu prese mecanice, linii de ambalat sau celule rob
     infinitrade: `Aducem valve Ross Controls pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Valvele duble și modulele de izolare a energiei le comandăm prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei. Pentru garnituri și accesorii de montaj uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria exactă de pe eticheta valvei existente sau, la o instalație nouă, de tipul de aplicație (control presă, izolare energie) și dimensiunea porturilor. Nu ținem gama Ross Controls pe raft; comanda pornește de la confirmarea producătorului.`,
     limitation: "Nu putem confirma echivalența funcțională exactă cu o valvă de siguranță deja instalată fără fișa tehnică a acesteia.",
     productCodes: [
-      { code: "DM2C", description: "Valvă dublă monitorizată pentru control de presă" },
+      { code: "DM2C", description: "Valvă dublă redundantă de evacuare sigură (safe exhaust), cu monitorizare dinamică internă" },
       { code: "DM1 Series C", description: "Valvă dublă cu monitorizare pentru siguranța preselor" },
-      { code: "M35 Series", description: "Valvă dublă pentru control clutch/brake pe prese" },
+      { code: "M35 Series", description: "Valvă dublă cu monitorizare externă prin senzor" },
       { code: "CC4 Series", description: "Valvă dublă cu configurație compactă de montaj" },
       { code: "RSE Series", description: "Valvă dublă pentru evacuare sigură a aerului" },
       { code: "CrossMirror CM26", description: "Valvă dublă cu arhitectură redundantă de comutare" },
-      { code: "SV27 Series", description: "Valvă directională pilot-operate, seria 27" },
-      { code: "Classic 21 Series", description: "Valvă pentru temperaturi joase și înalte" },
-      { code: "Classic 27 Series", description: "Valvă standard pentru temperaturi obișnuite de lucru" },
+      { code: "SV27 Series", description: "Valvă 2/2 pilot-operată de tip check (PO Check), pentru menținerea sarcinii" },
+      { code: "Classic 21 Series", description: "Valvă din seria Classic 21" },
+      { code: "Classic 27 Series", description: "Valvă din seria Classic 27" },
       { code: "W66 Series", description: "Valvă cu interfață ISO 15407" },
       { code: "W60/W64 Series", description: "Valvă cu interfață ISO 5599-1" },
       { code: "W65 Series", description: "Valvă cu interfață ISO 5599-2" },
       { code: "W70/W74 Series", description: "Valvă cu interfață ANSI" },
-      { code: "80/84 Series", description: "Valvă cu interfață SAE" },
-      { code: "MD3 Series", description: "Valvă directională de gabarit mediu" },
-      { code: "MD4 Series", description: "Valvă directională de gabarit mare" },
+      { code: "80/84 Series", description: "Valvă din seriile 80/84" },
+      { code: "MD3 Series", description: "Valvă direcțională de gabarit mediu" },
+      { code: "MD4 Series", description: "Valvă direcțională de gabarit mare" },
       { code: "Bantam Series", description: "Valvă miniaturală de comutare" },
       { code: "ADMA", description: "Manifold de distribuție a aerului comprimat" },
-      { code: "D20 Series", description: "Valvă automată cu interfață NAMUR" },
-      { code: "ECO DN08", description: "Valvă 2/2 căi cu acționare directă, port DN08" }
+      { code: "D20 Series", description: "Valvă din seria D20" },
+      { code: "ECO DN08", description: "Valvă din seria ECO (DN08)" }
     ],
     faq: [
       { q: "Ce produce Ross Controls?", a: "Ross Controls fabrică valve pneumatice de siguranță — în principal valve duble monitorizate pentru control de presă și module pentru izolarea energiei la mentenanță — plus valve directionale cu interfețe standardizate ISO și ANSI." },
-      { q: "Cum aleg o valvă dublă Ross Controls după serie?", a: "Verificați codul de pe eticheta valvei existente (de exemplu DM2C, M35 sau SV27) și confirmarea de la producător privind aplicația de siguranță — control de presă sau izolare de energie — pentru care a fost proiectată." },
+      { q: "Cum aleg o valvă dublă Ross Controls după serie?", a: "Verificați codul de pe eticheta valvei existente (de exemplu DM2C sau M35) și confirmarea de la producător privind aplicația de siguranță — control de presă sau izolare de energie — pentru care a fost proiectată." },
       { q: "Ce echivalent Ross Controls are o valvă de siguranță deja instalată?", a: "Depinde de tipul de monitorizare cerut (internă sau externă) și de dimensiunea porturilor; trimiteți fișa tehnică sau fotografia etichetei valvei existente ca să vă propunem seria Ross Controls potrivită." },
       { q: "Livrați valve Ross Controls în România și în cât timp?", a: "Da, aducem valvele Ross Controls la comandă, prin canale de aprovizionare din SUA; termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității la producător." },
       { q: "Ce informații trebuie să trimit pentru ofertă la Ross Controls?", a: "Seria valvei existente de pe etichetă sau, pentru un proiect nou, tipul de aplicație de siguranță (control de presă sau izolare de energie), dimensiunea porturilor și dacă e nevoie de monitorizare externă a comutării." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ROSS Controls — Home", url: "https://www.rosscontrols.com/", publisher: "ROSS Controls", accessed: "2026-09-25" },
       { title: "ROSS Controls — Categories", url: "https://www.rosscontrols.com/en/categories", publisher: "ROSS Controls", accessed: "2026-09-25" },
@@ -159,21 +159,21 @@ Pentru fabricile din România cu prese mecanice, linii de ambalat sau celule rob
     headquarters: "Reggio Emilia, Italia",
     overview: `Comet este un producător italian de pompe cu piston de înaltă presiune, cu sediul la Reggio Emilia, activ din 1959. Compania acoperă trei zone de aplicație — agricultură, curățenie profesională și industrie — cu pompe triplex și cu piston axial pentru echipamente de spălat sub presiune, mașini de curățat drumuri și instalații de pulverizare. Din gama Comet putem oferta seriile de pompe triplex folosite pe hidrocurățitoare industriale.
 
-Tehnic, Comet produce pompe triplex cu trei pistoane în linie, o soluție care oferă debit mai uniform decât o pompă axială, precum și variante K (cu reducție prin curea sau angrenaj) pentru cuplare directă la motoare termice sau electrice. În categoria pompelor de înaltă presiune pentru spălare industrială, Comet se regăsește alături de producători precum Annovi Reverberi, diferența venind din numărul mare de variante dedicate fiecărei aplicații — de la seria LW pentru echipamente ușoare până la seria TW 700 pentru utilaje de gabarit mare.
+Tehnic, Comet produce pompe triplex și pompe cu piston axial, în mai multe serii, unele cu sufixul K în denumire; parametrii fiecărei serii se confirmă din documentația producătorului.
 
 Pentru service-urile auto, fermele și firmele de curățenie industrială din România, gama Comet acoperă atât pompele de schimb pentru hidrocurățitoare existente, cât și unități noi pentru instalații de spălare sau pulverizare agricolă.`,
     whyChoose: [
-      "Pompe triplex cu debit uniform, potrivite pentru cicluri lungi de funcționare continuă",
-      "Variante K cu reducție integrată, pentru cuplare directă la motoare termice sau electrice",
+      "Pompe triplex pentru echipamente de spălare sub presiune, în mai multe serii",
+      "Serii cu sufixul K în gamă (de exemplu ZW-K, LW-K, EWD-K), identificabile pe codul de pe plăcuță",
       "Gamă dedicată separat pentru agricultură, curățenie profesională și aplicații industriale",
-      "Familie extinsă de dimensiuni, de la seria LW ușoară până la TW 700 de gabarit mare",
+      "Familie extinsă de serii triplex, de la LW până la TW 700",
       "Prezență confirmată în aplicații marine, municipale și de stingere a incendiilor"
     ],
     keyProducts: [
-      { name: "Pompe Triplex Seria TW", description: "Pompe cu trei pistoane în linie pentru hidrocurățitoare industriale de gabarit mediu și mare, cu variante TW 500 și TW 700 dedicate echipamentelor de putere ridicată folosite în spălarea industrială și curățarea drumurilor." },
-      { name: "Pompe Triplex Seria ZW/ZW-K", description: "Pompe triplex de gabarit compact, disponibile în variantă K cu reducție prin curea sau angrenaj pentru cuplare directă la motor, folosite frecvent pe echipamente mobile de spălare sub presiune." },
-      { name: "Pompe Triplex Seria LW/LW-K", description: "Pompe triplex ușoare, potrivite pentru hidrocurățitoare portabile și echipamente de curățenie profesională unde greutatea totală a mașinii contează pentru manevrabilitate." },
-      { name: "Pompe Triplex Seria BWD-K/DWD-K/AWD-K", description: "Familie de pompe triplex cu reducție integrată, folosite ca unități de bază pentru mașini de spălat auto și instalații de curățare industrială montate fix." }
+      { name: "Pompe Triplex Seria TW", description: "Pompe cu trei pistoane în linie pentru hidrocurățitoare industriale de gabarit mediu și mare, cu variantele TW 500 și TW 700 în gamă." },
+      { name: "Pompe Triplex Seria ZW/ZW-K", description: "Pompe triplex din seriile ZW și ZW-K; parametrii se confirmă pe codul exact de pe plăcuță." },
+      { name: "Pompe Triplex Seria LW/LW-K", description: "Pompe triplex din seriile LW și LW-K, pentru echipamente de spălare sub presiune; parametrii se confirmă pe codul exact." },
+      { name: "Pompe Triplex Seria BWD-K/DWD-K/AWD-K", description: "Familie de pompe triplex (BWD-K, DWD-K, AWD-K); parametrii se confirmă pe codul exact." }
     ],
     industries: [
       "Spălătorii auto — pompe de presiune pentru sisteme fixe de curățare",
@@ -186,33 +186,33 @@ Pentru service-urile auto, fermele și firmele de curățenie industrială din R
     infinitrade: `Furnizăm pompe Comet pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Pompele triplex complete le aducem la comandă din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea seriei; pentru garnituri, supape și seturi de reparație uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți codul seriei de pe eticheta pompei existente sau, la o instalație nouă, debitul și presiunea de lucru dorite. Nu ținem gama Comet pe raft; unitățile complete ajung la comandă, pe baza seriei confirmate.`,
     limitation: "Nu putem confirma parametrii exacți de presiune și debit pentru fiecare variantă fără seria completă de pe eticheta pompei.",
     productCodes: [
-      { code: "BWD-K", description: "Pompă triplex cu reducție, unitate de bază fixă" },
-      { code: "DWD-K", description: "Pompă triplex cu reducție prin angrenaj" },
-      { code: "AWD-K", description: "Pompă triplex cu reducție, montaj industrial" },
-      { code: "LW", description: "Pompă triplex ușoară pentru echipamente portabile" },
-      { code: "LW-K", description: "Pompă triplex ușoară cu reducție integrată" },
+      { code: "BWD-K", description: "Pompă triplex din seria BWD-K" },
+      { code: "DWD-K", description: "Pompă triplex din seria DWD-K" },
+      { code: "AWD-K", description: "Pompă triplex din seria AWD-K" },
+      { code: "LW", description: "Pompă triplex din seria LW" },
+      { code: "LW-K", description: "Pompă triplex din seria LW-K" },
       { code: "EWD", description: "Pompă triplex pentru hidrocurățitoare de gabarit mediu" },
-      { code: "EWD-K", description: "Pompă triplex EWD cu reducție prin curea" },
+      { code: "EWD-K", description: "Pompă triplex din seria EWD-K" },
       { code: "ZW", description: "Pompă triplex compactă de uz general" },
-      { code: "ZW-K", description: "Pompă triplex ZW cu reducție integrată" },
+      { code: "ZW-K", description: "Pompă triplex din seria ZW-K" },
       { code: "FW2", description: "Pompă triplex pentru echipamente de spălare mobile" },
       { code: "RW", description: "Pompă triplex de gabarit mediu-mare" },
       { code: "TW", description: "Pompă triplex standard pentru uz industrial" },
       { code: "TW 500", description: "Pompă triplex de putere ridicată" },
       { code: "TW 700", description: "Pompă triplex de gabarit mare, putere ridicată" },
-      { code: "ETW", description: "Pompă triplex electrică pentru instalații fixe" }
+      { code: "ETW", description: "Pompă triplex din seria ETW" }
     ],
     faq: [
       { q: "Ce produce Comet?", a: "Comet fabrică pompe cu piston de înaltă presiune, în principal pompe triplex, pentru echipamente de spălare industrială, mașini de curățat drumuri, instalații de pulverizare agricolă și sisteme fixe de spălătorie auto." },
-      { q: "Cum aleg o pompă Comet după cod de serie?", a: "Verificați codul de pe plăcuța pompei existente (de exemplu ZW-K sau TW 500); codul indică gabaritul și dacă are reducție integrată. Dacă pompa e montată pe o mașină, transmiteți și modelul mașinii complete." },
+      { q: "Cum aleg o pompă Comet după cod de serie?", a: "Verificați codul de pe plăcuța pompei existente (de exemplu ZW-K sau TW 500); codul identifică seria pompei. Dacă pompa e montată pe o mașină, transmiteți și modelul mașinii complete." },
       { q: "Ce echivalent Comet are o pompă triplex de altă marcă?", a: "Echivalența depinde de debit, presiunea de lucru și turația de antrenare, nu doar de gabaritul fizic al pompei; trimiteți plăcuța pompei existente ca să vă propunem seria Comet potrivită." },
       { q: "Livrați pompe Comet în România și cât durează?", a: "Da, aducem pompele Comet la comandă din Italia; termenul orientativ e de 1–4 săptămâni, în funcție de disponibilitatea seriei exacte confirmate de producător și de complexitatea configurației cerute." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Comet?", a: "Codul seriei existente sau, pentru o instalație nouă, debitul necesar în litri pe minut, presiunea de lucru dorită și tipul de antrenare — motor termic sau electric." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Comet Spa — Home", url: "https://www.comet-spa.com/", publisher: "Comet S.p.A.", accessed: "2026-09-25" },
       { title: "Comet Spa — Industrial", url: "https://www.comet-spa.com/industrial/", publisher: "Comet S.p.A.", accessed: "2026-09-25" },
@@ -222,28 +222,28 @@ Pentru service-urile auto, fermele și firmele de curățenie industrială din R
 
   'annovi-reverberi': {
     name: "Annovi Reverberi",
-    overview: `Annovi Reverberi este un producător italian de pompe cu piston și diafragmă de înaltă presiune, cu game dedicate atât utilizatorilor profesioniști cât și instalațiilor industriale fixe. Din site-ul oficial reiese o gamă structurată pe segmente — agricultură, curățenie profesională și industrie — cu pompe capabile de presiuni de la câteva zeci de bar până la 1.000 bar la seria de vârf. Din gama Annovi Reverberi putem oferta pompele destinate hidrocurățitoarelor industriale și echipamentelor agricole de pulverizare.
+    overview: `Annovi Reverberi este un producător italian de pompe cu piston și cu diafragmă, cu game dedicate atât utilizatorilor profesioniști cât și instalațiilor industriale fixe. Din site-ul oficial reiese o gamă structurată pe segmente — agricultură, curățenie profesională și industrie — cu pompe capabile de presiuni de la câteva zeci de bar până la 1.000 bar la seria de vârf. Din gama Annovi Reverberi putem oferta pompele destinate hidrocurățitoarelor industriale și echipamentelor agricole de pulverizare.
 
-Tehnic, gama include pompa 538, cotată la 400 bar, seria CR pentru presiuni de până la 1.000 bar, familia JR/JRA/JRS pentru hidrocurățitoare compacte (cu variante JR-M și JRA-M dedicate pulverizării fine sub formă de ceață) și seria STP-I din oțel inoxidabil AISI 420, pentru medii corozive din curățenia industrială, construcții sau sectorul marin. În segmentul pompelor de presiune pentru spălare, Annovi Reverberi se regăsește în aceeași categorie tehnică cu Comet, diferența fiind accentul pus pe variantele inox și pe presiunile foarte ridicate ale seriei CR.
+Tehnic, gama include pompa 538, cotată la 400 bar, seria CR pentru presiuni de până la 1.000 bar, familia JR/JRA/JRS pentru hidrocurățitoare compacte (cu variante JR-M și JRA-M dedicate pulverizării fine sub formă de ceață) și seria STP-I cu cap din oțel inoxidabil AISI 420, pentru presiuni de până la 500 bar.
 
 Pentru service-urile de echipamente de spălat și fermele din România care lucrează cu pulverizatoare, gama Annovi Reverberi acoperă atât piesele de schimb pentru pompe existente, cât și unități complete noi.`,
     whyChoose: [
       "Presiuni de lucru de la nivel profesional până la 1.000 bar la seria CR",
-      "Variantă inox AISI 420 pentru medii corozive din construcții și sectorul marin",
+      "Variantă cu cap din oțel inoxidabil AISI 420, pentru presiuni de până la 500 bar",
       "Familie compactă JR/JRA/JRS cu variante dedicate pulverizării fine tip ceață",
       "Gamă separată pentru agricultură, cu pompe de presiune joasă pentru chimicale",
       "Structură de produs clară pe segmente de aplicație, ușor de mapat pe nevoia clientului"
     ],
     keyProducts: [
-      { name: "Pompa 538", description: "Pompă cu piston de 400 bar, poziționată de producător ca soluție de referință pentru echipamente de curățare de putere medie-mare, cu debit tipic de 20-40 litri pe minut la 1.450 rpm." },
-      { name: "Seria CR", description: "Pompă cu piston pentru presiuni de până la 1.000 bar, dedicată aplicațiilor industriale unde o pompă standard de curățare nu ajunge la presiunea necesară pentru decapare sau curățare grea." },
-      { name: "Familia JR/JRA/JRS", description: "Pompe compacte pentru hidrocurățitoare, cu variante JR-M și JRA-M destinate pulverizării fine de tip ceață și opțiuni de cuplare directă la motor electric sau termic." },
-      { name: "Seria STP-I Inox", description: "Pompă construită din oțel inoxidabil AISI 420, pentru presiuni de până la 500 bar, gândită pentru curățare industrială, construcții, sectorul marin și procese cu risc de coroziune." }
+      { name: "Pompa 538", description: "Pompă cu piston de 400 bar, cu debit de 20-40 litri pe minut la 1.450 rpm." },
+      { name: "Seria CR", description: "Pompă cu piston pentru presiuni de până la 1.000 bar, pentru aplicații industriale de presiune foarte ridicată." },
+      { name: "Familia JR/JRA/JRS", description: "Pompe compacte pentru hidrocurățitoare, cu variante JR-M și JRA-M destinate pulverizării fine de tip ceață." },
+      { name: "Seria STP-I Inox", description: "Pompă cu cap din oțel inoxidabil AISI 420, pentru presiuni de până la 500 bar." }
     ],
     industries: [
       "Curățenie industrială — pompe de presiune pentru decapare și degresare",
       "Construcții — echipamente de spălare pentru utilaje și suprafețe de șantier",
-      "Sector marin — pompe inox pentru medii cu expunere la sare",
+      "Sector marin — pompe cu cap din oțel inoxidabil",
       "Agricultură — pulverizatoare de presiune joasă pentru tratamente chimice",
       "Spălătorii auto — unități de presiune pentru sisteme fixe de spălare"
     ],
@@ -253,25 +253,25 @@ Pentru service-urile de echipamente de spălat și fermele din România care luc
       { code: "538", description: "Pompă cu piston, 400 bar, debit 20-40 l/min" },
       { code: "CR", description: "Pompă cu piston, presiune de până la 1.000 bar" },
       { code: "JK Premium", description: "Pompă cu piston, gamă de eficiență ridicată" },
-      { code: "STP-I", description: "Pompă inox AISI 420, până la 500 bar" },
+      { code: "STP-I", description: "Pompă cu cap inox AISI 420, până la 500 bar" },
       { code: "JR", description: "Pompă compactă pentru hidrocurățitoare" },
-      { code: "JRA", description: "Variantă a pompei JR pentru presiune adaptată" },
-      { code: "JRS", description: "Variantă compactă din familia JR" },
+      { code: "JRA", description: "Pompă din familia JR, pentru hidrocurățitoare compacte" },
+      { code: "JRS", description: "Pompă din familia JR, pentru hidrocurățitoare compacte" },
       { code: "JR-M", description: "Pompă JR pentru pulverizare fină tip ceață" },
       { code: "JRA-M", description: "Pompă JRA pentru pulverizare fină tip ceață" },
       { code: "AR Low Pressure", description: "Pompă de presiune joasă pentru chimicale agricole" }
     ],
     faq: [
-      { q: "Ce produce Annovi Reverberi?", a: "Annovi Reverberi fabrică pompe cu piston și diafragmă de înaltă presiune, cu game separate pentru agricultură, curățenie profesională și industrie, de la seria 538 la 400 bar până la seria CR de 1.000 bar." },
-      { q: "Cum aleg o pompă Annovi Reverberi după cod?", a: "Verificați codul de pe plăcuța pompei existente, de exemplu JR, STP-I sau CR; codul indică materialul de construcție și presiunea maximă de lucru. Pentru echipamente montate, transmiteți și modelul mașinii." },
-      { q: "Ce echivalent are seria JR de la Annovi Reverberi?", a: "Depinde de presiunea și debitul instalației existente; familia JR/JRA/JRS acoperă mai multe trepte de presiune, iar varianta M e dedicată pulverizării fine. Trimiteți plăcuța pompei ca să identificăm varianta potrivită." },
+      { q: "Ce produce Annovi Reverberi?", a: "Annovi Reverberi fabrică pompe cu piston și cu diafragmă, cu game separate pentru agricultură, curățenie profesională și industrie, de la seria 538 la 400 bar până la seria CR de 1.000 bar." },
+      { q: "Cum aleg o pompă Annovi Reverberi după cod?", a: "Verificați codul de pe plăcuța pompei existente, de exemplu JR, STP-I sau CR; codul identifică seria pompei. Pentru echipamente montate, transmiteți și modelul mașinii." },
+      { q: "Ce echivalent are seria JR de la Annovi Reverberi?", a: "Depinde de presiunea și debitul instalației existente; familia JR/JRA/JRS este destinată hidrocurățitoarelor compacte, iar varianta M e dedicată pulverizării fine. Trimiteți plăcuța pompei ca să identificăm varianta potrivită." },
       { q: "Livrați pompe Annovi Reverberi în România și cât durează?", a: "Da, aducem pompele Annovi Reverberi la comandă din Italia; termenul orientativ e de 1–4 săptămâni, în funcție de confirmarea seriei exacte și a disponibilității acesteia la producător." },
       { q: "Ce trebuie să trimit pentru ofertă la Annovi Reverberi?", a: "Codul pompei existente sau, pentru un proiect nou, presiunea de lucru necesară în bar, debitul dorit în litri pe minut și dacă aplicația cere variantă inox." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Annovi Reverberi — Home", url: "https://www.annovireverberi.it/en/", publisher: "Annovi Reverberi S.p.A.", accessed: "2026-09-25" },
       { title: "Annovi Reverberi — Industry", url: "https://www.annovireverberi.it/en/industry/", publisher: "Annovi Reverberi S.p.A.", accessed: "2026-09-25" },
@@ -285,20 +285,20 @@ Pentru service-urile de echipamente de spălat și fermele din România care luc
     headquarters: "Izmir, Turcia",
     overview: `Kastaș este un producător turc de etanșări hidraulice și pneumatice, cu sediul lângă Izmir, activ din 1981 în tehnologia de sigilare pentru fluide sub presiune. Compania produce simeringuri de tijă, garnituri de piston, O-ringuri și elemente de ștergere pentru cilindri hidraulici, cu filiale în Germania (din 2009) și Italia (din 2022). Din gama Kastaș putem oferta seturile de etanșare pentru cilindri hidraulici uzați în utilaje mobile și staționare.
 
-Tehnic, Kastaș oferă mai multe familii de garnituri de piston (seriile K17, K19, K49, K518 și altele) și de tijă (XT200, FR200, K35, K38), fiecare cu profil și material optimizate pentru presiune de lucru și cursă. În categoria etanșărilor pentru cilindri hidraulici mobili, Kastaș se compară tehnic cu gama Freudenberg, diferența venind din numărul mare de variante compacte (seria K5xx) dedicate spațiilor de montaj reduse din utilajele moderne.
+Tehnic, Kastaș oferă mai multe familii de garnituri de piston (seriile K17, K19, K49, K518 și altele) și de tijă (XT200, FR200, K35, K38), fiecare cu profil și material optimizate pentru presiune de lucru și cursă.
 
-Pentru atelierele de reparații hidraulice și producătorii de utilaje din România, gama Kastaș acoperă înlocuirea garniturilor uzate pe cilindri existenți, cu profil compatibil cu majoritatea standardelor internaționale de canal.`,
+Pentru atelierele de reparații hidraulice și producătorii de utilaje din România, gama Kastaș acoperă înlocuirea garniturilor uzate pe cilindri existenți, pe baza dimensiunilor canalului cilindrului.`,
     whyChoose: [
       "Peste 40 de ani de experiență în tehnologia de etanșare pentru fluide sub presiune",
-      "Certificare ISO 9001 și IATF 16949 pentru procesele de fabricație",
+      "Certificare ISO 9001 (obținută în 1997) pentru procesele de fabricație",
       "Familie extinsă de garnituri de piston, de la profile standard la variante compacte",
       "Filiale în Germania și Italia pentru suport tehnic mai aproape de piața europeană",
-      "Materiale variate (TPU, poliuretan) alese în funcție de presiune și temperatură de lucru"
+      "Garnituri din poliuretan termoplastic (TPU) în seria K49"
     ],
     keyProducts: [
-      { name: "Garnituri de Tijă Seria XT200/FR200", description: "Garnituri de etanșare a tijei cilindrului hidraulic, cu profil dublu de ștergere, folosite la utilaje de construcții și mașini agricole expuse la praf și contaminare externă." },
+      { name: "Garnituri de Tijă Seria XT200/FR200", description: "Garnituri de tijă pentru cilindri hidraulici: XT200 rezistentă la extruziune, FR200 cu frecare redusă." },
       { name: "Garnituri de Piston Seria K17/K19", description: "Garnituri de piston cu acțiune dublă, în variante standard și de înaltă performanță (K17X), pentru cilindri hidraulici din prese și utilaje de mobilitate cu cerințe de etanșare la presiuni ridicate." },
-      { name: "Garnituri de Piston Seria K49/K518", description: "Garnituri din poliuretan termoplastic (TPU) pentru performanță ridicată, cu varianta compactă K518X dedicată cilindrilor cu spațiu de montaj redus." },
+      { name: "Garnituri de Piston Seria K49/K518", description: "Garnituri de piston: K49 (TPU, poliuretan termoplastic), K518 compactă și K518X compactă de înaltă performanță." },
       { name: "O-ringuri și Elemente de Ștergere", description: "Elemente statice de etanșare și inele de ștergere pentru protejarea tijei cilindrului împotriva prafului și umidității, disponibile în mai multe compuși elastomerici." }
     ],
     industries: [
@@ -311,13 +311,13 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
     ],
     certifications: [
       "ISO 9001",
-      "IATF 16949 (standard pentru industria auto)"
+      "TS 16949:2002 (standard pentru industria auto), obținut în 2009"
     ],
     infinitrade: `Furnizăm garnituri Kastaș pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Seturile de etanșare standard le aducem la comandă din Turcia sau prin filiala europeană a producătorului, cu termen orientativ de 1–4 săptămâni; pentru profile uzuale de O-ring putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de diametrul tijei sau pistonului, cursa cilindrului și codul garniturii existente, dacă îl aveți. Nu ținem gama Kastaș pe raft; seturile complete ajung la comandă, pe baza dimensiunilor transmise.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui profil de garnitură cu un cilindru existent fără desenul canalului sau codul original.",
     productCodes: [
-      { code: "XT200", description: "Garnitură de tijă, profil dublu de ștergere" },
-      { code: "FR200", description: "Garnitură de tijă pentru cilindri hidraulici" },
+      { code: "XT200", description: "Garnitură de tijă rezistentă la extruziune" },
+      { code: "FR200", description: "Garnitură de tijă cu frecare redusă" },
       { code: "K35", description: "Garnitură de tijă, profil standard" },
       { code: "K38", description: "Garnitură de tijă, variantă alternativă" },
       { code: "K17", description: "Garnitură de piston, profil de bază" },
@@ -331,8 +331,8 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
       { code: "K18", description: "Garnitură de piston compactă" },
       { code: "K20", description: "Garnitură de piston compactă" },
       { code: "K46", description: "Garnitură de piston compactă" },
-      { code: "K48", description: "Garnitură de piston de tip heavy-duty" },
-      { code: "XT300", description: "Garnitură de tijă, variantă din familia XT" }
+      { code: "K48", description: "Garnitură de piston pentru sarcini grele" },
+      { code: "XT300", description: "Garnitură de tijă" }
     ],
     faq: [
       { q: "Ce produce Kastaș?", a: "Kastaș fabrică garnituri hidraulice și pneumatice — garnituri de tijă, garnituri de piston, O-ringuri și elemente de ștergere — pentru cilindri folosiți în utilaje de construcții, mașini agricole și prese industriale." },
@@ -343,8 +343,8 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Kastaș — Home", url: "https://www.kastas.com/en", publisher: "Kastaș Sealing Technologies", accessed: "2026-09-25" },
       { title: "Kastaș — About Us", url: "https://www.kastas.com/en/about-us", publisher: "Kastaș Sealing Technologies", accessed: "2026-09-25" },
@@ -355,23 +355,23 @@ Pentru atelierele de reparații hidraulice și producătorii de utilaje din Rom�
   'airpot': {
     name: "Airpot",
     headquarters: "Norwalk, Connecticut, SUA",
-    overview: `Airpot este un producător american din Norwalk, Connecticut, specializat în cilindri pneumatici cu frecare redusă și dashpot-uri de precizie, tehnologie apărută încă din anii 1950. Compania produce cilindri din familia Airpel cu piston de grafit lustruit în cămașă de sticlă, fără garnituri elastomerice care să introducă frecare variabilă, plus seturi piston-cilindru și senzori de poziție. Din gama Airpot putem oferta cilindrii Airpel și seturile piston-cilindru pentru aplicații de control fin al mișcării.
+    overview: `Airpot este un producător american din Norwalk, Connecticut, specializat în cilindri pneumatici cu frecare redusă și dashpot-uri de precizie, tehnologie apărută încă din anii 1950. Compania produce cilindri din familia Airpel cu piston de grafit lustruit în cămașă de sticlă, fără garnituri elastomerice care să introducă frecare variabilă, plus seturi piston-cilindru și senzori pentru grippere de precizie. Din gama Airpot putem oferta cilindrii Airpel și seturile piston-cilindru pentru aplicații de control fin al mișcării.
 
-Tehnic, absența garniturilor de etanșare clasice înseamnă că forța de frecare rămâne constantă pe toată cursa, ceea ce contează în amortizarea mișcării, dozarea de precizie sau poziționarea repetabilă — zone unde un cilindru pneumatic standard, cu garnituri O-ring, introduce variații de frecare greu de compensat în control. Gama acoperă diametre de la câțiva milimetri (seria 2K56) până la peste 44 mm (seria 2K444), cu variante single și double-acting în familiile E, M, MP și MAB.
+Tehnic, absența garniturilor de etanșare clasice înseamnă frecare redusă, ceea ce contează în amortizarea mișcării, dozarea de precizie sau poziționarea repetabilă. Gama acoperă diametre de la câțiva milimetri (seria 2K56) până la peste 44 mm (seria 2K444), cu variante single și double-acting în familiile E, M, MP și MAB.
 
 Pentru producătorii români de echipamente de laborator, dispozitive medicale sau bancuri de testare care au nevoie de amortizare fină sau de o cursă fără joc, gama Airpot acoperă componentele de control al mișcării la scară mică.`,
     whyChoose: [
-      "Frecare constantă pe toată cursa, fără garnituri elastomerice care introduc variații",
+      "Frecare redusă, cu piston de grafit în cilindru de sticlă, fără garnituri elastomerice",
       "Gamă de diametre de la câțiva milimetri până la peste 44 mm în familia 2K",
       "Variante single și double-acting în seriile E, M, MP și MAB",
       "Certificare ISO 9001 pentru procesele de fabricație",
-      "Senzori de poziție integrabili direct pe seturile piston-cilindru"
+      "Cilindrii Airpel Plus (seria MP) acceptă opțional magnet de piston și pistă pentru senzori"
     ],
     keyProducts: [
       { name: "Cilindri Airpel Seria M", description: "Cilindri pneumatici cu frecare redusă, disponibili în diametre M9, M16, M24 și M32, cu variante single și double-acting, folosiți pentru amortizare fină și poziționare de precizie în echipamente de laborator." },
       { name: "Cilindri Airpel Seria MP", description: "Cilindri pneumatici cu extindere pe aer (air-extend), în diametre de la MP5 la MP44, potriviți pentru aplicații compacte unde spațiul de montaj nu permite un cilindru standard cu arc de revenire." },
       { name: "Seturi Piston-Cilindru 2K/2KS", description: "Seturi piston-cilindru cu joc controlat, în diametre de la 2K56 (5,59 mm) la 2K444 (44,4 mm), pentru integrare directă în dispozitive proprii de dozare, amortizare sau actuare pneumatică." },
-      { name: "Senzori de Poziție GTP/GTN", description: "Senzori de poziție pentru montaj pe cilindrii Airpel, cu ieșiri de tip PNP și NPN, folosiți pentru confirmarea capătului de cursă în aplicații automatizate." }
+      { name: "Senzori GTP/GTN", description: "Senzori de proximitate cu ieșire PNP (GTP) sau NPN (GTN); GTP-1 este destinat gripperului de precizie G8-18-S." }
     ],
     industries: [
       "Dispozitive medicale — amortizare fină și dozare de precizie",
@@ -404,20 +404,20 @@ Pentru producătorii români de echipamente de laborator, dispozitive medicale s
       { code: "MP44", description: "Cilindru Airpel air-extend, diametru maxim" },
       { code: "MAB9", description: "Cilindru Airpel air-extend, seria MAB" },
       { code: "MAB32", description: "Cilindru Airpel air-extend, seria MAB, diametru mare" },
-      { code: "GTP-1", description: "Senzor de poziție, ieșire PNP" },
-      { code: "GTN-1", description: "Senzor de poziție, ieșire NPN" }
+      { code: "GTP-1", description: "Senzor de proximitate, ieșire PNP, pentru gripperul de precizie G8-18-S" },
+      { code: "GTN-1", description: "Senzor de proximitate, ieșire NPN" }
     ],
     faq: [
-      { q: "Ce produce Airpot?", a: "Airpot fabrică cilindri pneumatici cu frecare redusă (familia Airpel), seturi piston-cilindru fără garnituri elastomerice și senzori de poziție, folosite pentru amortizare fină și poziționare de precizie." },
-      { q: "Cum aleg un cilindru Airpot după cod?", a: "Codul indică familia (E, M, MP sau MAB) și diametrul în zecimi de milimetru sau sutimi de inch; aveți nevoie și de cursa necesară și de tipul de acționare, single sau double-acting." },
+      { q: "Ce produce Airpot?", a: "Airpot fabrică cilindri pneumatici cu frecare redusă (familia Airpel), seturi piston-cilindru fără garnituri elastomerice și senzori pentru grippere de precizie, folosite pentru amortizare fină și poziționare de precizie." },
+      { q: "Cum aleg un cilindru Airpot după cod?", a: "Codul indică familia (E, M, MP sau MAB) și diametrul nominal; aveți nevoie și de cursa necesară și de tipul de acționare, single sau double-acting." },
       { q: "Ce echivalent Airpot are un dashpot pneumatic standard?", a: "Depinde de diametrul cerut și de forța de frecare admisă pe toată cursa; un cilindru Airpel din familia 2K sau M poate înlocui un dashpot clasic dacă transmiteți diametrul și lungimea de cursă." },
       { q: "Livrați cilindri Airpot în România și cât durează?", a: "Da, aducem componentele Airpot la comandă din SUA; termenul orientativ e de 1–4 săptămâni, în funcție de diametrul și configurația confirmate cu producătorul, plus timpul de transport." },
       { q: "Ce trebuie să trimit pentru ofertă la Airpot?", a: "Diametrul dorit, cursa necesară, tipul de acționare (single sau double-acting), materialul de contact cu fluidul de lucru și, dacă aplicația o cere, necesitatea unui senzor de poziție integrat." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Airpot Corporation — Home", url: "https://www.airpot.com/", publisher: "Airpot Corporation", accessed: "2026-09-25" },
       { title: "Airpot — Product Sitemap", url: "https://www.airpot.com/product-sitemap.xml", publisher: "Airpot Corporation", accessed: "2026-09-25" }
@@ -429,7 +429,7 @@ Pentru producătorii români de echipamente de laborator, dispozitive medicale s
     headquarters: "Neusäß, Germania",
     overview: `Dictator este un producător german cu sediul la Neusäß, lângă Augsburg, specializat în amortizoare hidraulice și arcuri cu gaz pentru uși, porți și sisteme de protecție împotriva incendiului. Compania acoperă tehnologia de amortizare (amortizoare de capăt de cursă, amortizoare radiale, limitatoare de deschidere) și tehnologia arcurilor cu gaz (de compresie, de tracțiune, blocabile), plus sisteme de reținere a ușilor rezistente la foc. Din gama Dictator putem oferta amortizoarele de ușă și arcurile cu gaz pentru automatizări industriale de uși și porți.
 
-Tehnic, gama de amortizoare Dictator acoperă atât montajul fix (amortizor cu montaj rigid, pentru viteză controlată pe toată cursa) cât și amortizoarele de capăt de cursă, folosite doar în ultima porțiune a mișcării unei uși sau porți grele. Sistemele de reținere a ușilor rezistente la foc respectă standardul DIN EN 14637, relevant pentru clădirile care trebuie să mențină ușile deschise în funcționare normală și să le închidă automat la incendiu — o cerință tot mai des întâlnită și pe piața din România la clădirile publice și industriale.
+Tehnic, gama de amortizoare Dictator acoperă atât montajul fix (amortizor cu montaj rigid, pentru viteză controlată pe toată cursa) cât și amortizoarele de capăt de cursă, folosite doar în ultima porțiune a mișcării unei uși sau porți grele. Sistemele de reținere a ușilor rezistente la foc respectă standardul DIN EN 14637, relevant pentru clădirile care trebuie să mențină ușile deschise în funcționare normală și să le închidă automat la incendiu.
 
 Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din România, gama Dictator acoperă componentele de amortizare și de reținere controlată, fără a intra pe segmentul motoarelor de acționare complete.`,
     whyChoose: [
@@ -453,7 +453,7 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
       "Mobilier și echipamente industriale — arcuri cu gaz pentru capace și panouri"
     ],
     certifications: [
-      "DIN EN 14637 — sisteme de reținere a ușilor rezistente la foc"
+      "Standard de referință pentru sistemele de reținere a ușilor rezistente la foc: DIN EN 14637 (conformitatea pe model se confirmă din documentația producătorului)"
     ],
     infinitrade: `Furnizăm componente Dictator pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Amortizoarele și arcurile cu gaz standard le aducem la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea dimensiunilor; pentru accesorii de montaj uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de aplicație (ușă, poartă, capac), cursa necesară și greutatea elementului de mișcat. Nu ținem gama Dictator pe raft; comanda pornește de la confirmarea specificațiilor tehnice.`,
     limitation: "Nu putem confirma coduri exacte de model pentru amortizoare sau arcuri cu gaz, deoarece pagina publică listează doar familiile de produs, nu nomenclatura completă.",
@@ -464,7 +464,7 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
       { code: "Amortizor radial", description: "Amortizare pentru mișcări de rotație sau glisare" },
       { code: "Amortizor de ușă", description: "Închidere lină și silențioasă a ușilor batante" },
       { code: "Arc cu gaz de compresie", description: "Susține și amortizează mișcarea de deschidere" },
-      { code: "Arc cu gaz cu siguranță la introducere", description: "Prevenirea prinderii degetelor la închidere" },
+      { code: "Arc cu gaz cu siguranță la introducere", description: "Variantă de arc cu gaz cu siguranță la introducere (Einschubsicherung); funcția exactă se confirmă din documentația producătorului" },
       { code: "Arc cu gaz cu piston separator", description: "Separă camerele de gaz și ulei în interiorul arcului" },
       { code: "Arc cu gaz de tracțiune", description: "Tragere controlată pentru panouri și capace" },
       { code: "Arc cu gaz blocabil", description: "Blocare în poziție intermediară la comandă" },
@@ -480,8 +480,8 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "DICTATOR — Home", url: "https://www.dictator.de/en/", publisher: "DICTATOR Technik GmbH & Co. KG", accessed: "2026-09-25" },
       { title: "DICTATOR — Product Overview", url: "https://www.dictator.de/en/produktuebersicht/", publisher: "DICTATOR Technik GmbH & Co. KG", accessed: "2026-09-25" },
@@ -493,35 +493,35 @@ Pentru instalatorii de uși automate, lifturi și sisteme antiefracție din Rom�
     name: "Meclube",
     founded: 1998,
     headquarters: "Gonzaga, Mantua, Italia",
-    overview: `Meclube este un producător italian de echipamente de lubrifiere centralizată, cu sediul la Gonzaga, lângă Mantua, activ din 1998. Compania proiectează sisteme de distribuție a uleiului și a unsorii, pompe de gresare, echipamente electrice pentru distribuirea combustibilului și dispozitive pentru antigel și lichid de parbriz, toate fabricate integral în Italia. Din gama Meclube putem oferta echipamentele de gresare centralizată și pompele de distribuție pentru ateliere și flote de utilaje.
+    overview: `Meclube este un producător italian de echipamente de lubrifiere, cu sediul la Gonzaga, lângă Mantua, activ din 1998. Compania proiectează sisteme de distribuție a uleiului și a unsorii, pompe de gresare, echipamente electrice pentru distribuirea combustibilului și dispozitive pentru antigel și lichid de parbriz, toate fabricate integral în Italia. Din gama Meclube putem oferta echipamentele de gresare și pompele de distribuție pentru ateliere și flote de utilaje.
 
-Tehnic, gama se împarte în echipamente de lubrifiere (distribuție ulei, distribuție unsoare, pompe pneumatice cu diafragmă, mosoare cu furtun și pulverizatoare de presiune) și echipamente electrice pentru diesel, benzină și AdBlue, folosite în stațiile proprii de alimentare ale flotelor de utilaje. Seria Workshop Master reunește echipamente compacte pentru atelierele mici și mijlocii care nu au nevoie de o instalație fixă de lubrifiere pe toată hala.
+Tehnic, gama se împarte în echipamente de lubrifiere (distribuție ulei, distribuție unsoare, pompe pneumatice cu diafragmă, mosoare cu furtun și pulverizatoare de presiune) și echipamente electrice pentru diesel, benzină și AdBlue, folosite în stațiile proprii de alimentare ale flotelor de utilaje. Meclube include în ofertă și linia Workshop Master; configurațiile se confirmă din documentația producătorului.
 
 Pentru service-urile auto, fermele mecanizate și firmele de închiriat utilaje din România, gama Meclube acoperă atât echipamentele mobile de gresare, cât și stațiile fixe de distribuție pentru flote proprii de vehicule și utilaje.`,
     whyChoose: [
       "Fabricație integral italiană, cu producție proprie pentru toate liniile de echipamente",
       "Gamă separată pentru distribuția uleiului, a unsorii și a combustibilului",
-      "Serie Workshop Master pentru ateliere mici și mijlocii fără instalație fixă",
+      "Linie Workshop Master în ofertă, pentru ateliere",
       "Pompe pneumatice cu diafragmă pentru fluide vâscoase din lubrifiere",
       "Echipamente electrice dedicate diesel, benzină și AdBlue pentru stații proprii de alimentare"
     ],
     keyProducts: [
-      { name: "Sisteme de Distribuție a Unsorii", description: "Echipamente pentru gresarea centralizată sau mobilă a utilajelor, cu pompe și pistoale de aplicare pentru unsoare, folosite în ateliere de întreținere a flotelor de vehicule și utilaje grele." },
+      { name: "Sisteme de Distribuție a Unsorii", description: "Echipamente pentru distribuția unsorii, cu pompe și pistoale de aplicare, folosite în ateliere de întreținere a flotelor de vehicule și utilaje grele." },
       { name: "Sisteme de Distribuție a Uleiului", description: "Echipamente pentru distribuirea uleiurilor de motor și hidraulice din rezervoare centrale, cu pistoale dozatoare, pentru ateliere care schimbă des ulei la mai multe vehicule pe zi." },
-      { name: "Pompe Pneumatice cu Diafragmă", description: "Pompe acționate cu aer comprimat, potrivite pentru transferul fluidelor vâscoase precum uleiurile grele sau lichidele antigel, fără riscul de supraîncălzire al unei pompe electrice la funcționare continuă." },
+      { name: "Pompe Pneumatice cu Diafragmă", description: "Pompe acționate cu aer comprimat, potrivite pentru transferul fluidelor vâscoase precum uleiurile grele sau lichidele antigel." },
       { name: "Echipamente Electrice Diesel/AdBlue", description: "Pompe și console de distribuție pentru motorină și AdBlue, folosite în stațiile proprii de alimentare ale flotelor de camioane și utilaje agricole sau de construcții." }
     ],
     industries: [
       "Automotive — gresare și distribuție ulei în ateliere de service",
       "Agricultură — întreținerea utilajelor și distribuție combustibil pe fermă",
-      "Construcții și terasamente — gresare centralizată pentru utilaje grele",
-      "Industrial — stații fixe de lubrifiere pentru linii de producție",
+      "Construcții și terasamente — echipamente de gresare pentru utilaje grele",
+      "Industrial — echipamente de lubrifiere pentru ateliere de întreținere",
       "Minerit — echipamente de distribuție a unsorii pentru utilaje de mare capacitate"
     ],
     infinitrade: `Aducem echipamente Meclube pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile de gresare și distribuție le comandăm din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru furtunuri, pistoale și accesorii uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți tipul de fluid distribuit (unsoare, ulei, AdBlue), capacitatea rezervorului dorită și dacă echipamentul e fix sau mobil. Nu ținem gama Meclube pe raft; comanda pornește de la configurația confirmată.`,
     limitation: "Nu putem confirma coduri exacte de model pentru echipamentele Meclube, deoarece pagina publică prezintă familii de produs, nu o listă completă de coduri.",
     productCodes: [
-      { code: "Distribuție unsoare", description: "Sisteme pentru gresarea centralizată sau mobilă" },
+      { code: "Distribuție unsoare", description: "Echipamente pentru distribuția unsorii" },
       { code: "Distribuție ulei", description: "Echipamente pentru dozarea uleiurilor de motor" },
       { code: "Pompe pneumatice cu diafragmă", description: "Transfer fluide vâscoase acționat cu aer comprimat" },
       { code: "Mosoare cu furtun", description: "Derulare controlată a furtunului de distribuție" },
@@ -532,19 +532,19 @@ Pentru service-urile auto, fermele mecanizate și firmele de închiriat utilaje 
       { code: "Echipamente Diesel", description: "Console și pompe pentru distribuția motorinei" },
       { code: "Echipamente Benzină", description: "Console și pompe pentru distribuția benzinei" },
       { code: "Echipamente AdBlue", description: "Distribuție soluție AdBlue pentru camioane" },
-      { code: "Workshop Master", description: "Echipamente compacte pentru ateliere mici" }
+      { code: "Workshop Master", description: "Linie de echipamente pentru ateliere" }
     ],
     faq: [
-      { q: "Ce produce Meclube?", a: "Meclube fabrică echipamente de lubrifiere centralizată — sisteme de distribuție a uleiului și unsorii, pompe pneumatice cu diafragmă — și echipamente electrice pentru distribuirea diesel, benzină și AdBlue, toate produse în Italia." },
-      { q: "Cum aleg un echipament Meclube pentru atelierul meu?", a: "Depinde de fluidul distribuit (ulei, unsoare, AdBlue), de numărul de puncte de alimentare și de spațiul disponibil; pentru ateliere mici, seria Workshop Master oferă configurații compacte fără instalație fixă." },
+      { q: "Ce produce Meclube?", a: "Meclube fabrică echipamente de lubrifiere — sisteme de distribuție a uleiului și unsorii, pompe pneumatice cu diafragmă — și echipamente electrice pentru distribuirea diesel, benzină și AdBlue, toate produse în Italia." },
+      { q: "Cum aleg un echipament Meclube pentru atelierul meu?", a: "Depinde de fluidul distribuit (ulei, unsoare, AdBlue), de numărul de puncte de alimentare și de spațiul disponibil; pentru ateliere, linia Workshop Master poate fi o opțiune; configurația se confirmă înainte de ofertă." },
       { q: "Ce diferență e între seriile de distribuție ulei și unsoare Meclube?", a: "Sistemele de ulei folosesc pistoale dozatoare pentru fluide mai puțin vâscoase, în timp ce cele de unsoare au pompe și accesorii dimensionate pentru vâscozitate mare, la presiuni mai ridicate de aplicare." },
       { q: "Livrați echipamente Meclube în România și cât durează?", a: "Da, la comandă din Italia; termenul orientativ e de 1–4 săptămâni, în funcție de configurația confirmată — capacitate rezervor, tip de pompă și accesorii de aplicare." },
       { q: "Ce trebuie să trimit pentru ofertă la Meclube?", a: "Tipul de fluid distribuit (unsoare, ulei, AdBlue), capacitatea rezervorului dorită, numărul de posturi de lucru necesare și dacă echipamentul trebuie să fie fix, montat pe perete, sau mobil pe roți." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Meclube — Home", url: "https://www.meclube.com/en/", publisher: "Meclube S.r.l.", accessed: "2026-09-25" },
       { title: "Meclube — Company", url: "https://meclube.com/en/company", publisher: "Meclube S.r.l.", accessed: "2026-09-25" },
@@ -556,27 +556,27 @@ Pentru service-urile auto, fermele mecanizate și firmele de închiriat utilaje 
     name: "Sunfab",
     founded: 1925,
     headquarters: "Hudiksvall, Suedia",
-    overview: `Sunfab este un producător suedez de pompe și motoare hidraulice tip gerotor, cu sediul la Hudiksvall, companie de familie activă din 1925. Producția se face în fabrica proprie din Hudiksvall, cu filiale în Germania, Franța, Marea Britanie, Spania, SUA și Malaysia. Din gama Sunfab putem oferta pompele cu flux simplu și dublu, plus motoarele hidraulice, folosite pe echipamente de hidraulică mobilă.
+    overview: `Sunfab este un producător suedez de pompe și motoare hidraulice, cu sediul la Hudiksvall, companie de familie activă din 1925. Producția se face în fabrica proprie din Hudiksvall, cu filiale în Germania, Franța, Marea Britanie, Spania, SUA și Malaysia. Din gama Sunfab putem oferta pompele cu flux simplu și dublu, plus motoarele hidraulice, folosite pe echipamente de hidraulică mobilă.
 
-Tehnic, gama acoperă pompe cu flux simplu (seriile SAP/SAPT și SCP), pompe cu flux dublu (SCPD și SLPD) și pompe cu flux variabil (SVH), fiecare disponibilă cu interfețe de montaj DIN, SAE sau ISO, plus varianta agricolă marcată Agri pentru condiții de lucru cu impurități mai mari. Completează gama motoarele hidraulice SCM și SAM. În categoria pompelor tip gerotor pentru hidraulica mobilă, Sunfab se compară tehnic cu gama Casappa, diferența venind din numărul mare de combinații de interfețe de montaj disponibile pentru fiecare serie de bază.
+Tehnic, gama acoperă pompe cu flux simplu (seriile SAP/SAPT și SCP), pompe cu flux dublu (SCPD și SLPD) și pompe cu flux variabil (SVH), cu interfețe de montaj DIN, SAE sau ISO, în funcție de serie, plus varianta marcată Agri (SCP 084-130 DIN Agri). Completează gama motoarele hidraulice SCM și SAM.
 
 Pentru producătorii români de utilaje agricole, macarale mobile și echipamente de construcții, gama Sunfab acoperă atât pompele de schimb pentru instalații existente, cât și unități noi configurate pe interfața de montaj a echipamentului.`,
     whyChoose: [
       "Companie de familie cu producție proprie continuă din 1925 la Hudiksvall",
       "Gamă completă de pompe cu flux simplu, dublu și variabil, plus motoare hidraulice",
-      "Interfețe de montaj multiple (DIN, SAE, ISO) pentru fiecare serie de bază",
-      "Variantă Agri dedicată condițiilor de lucru cu impurități mai mari",
+      "Interfețe de montaj multiple (DIN, SAE, ISO, M2), în funcție de serie",
+      "Variantă marcată Agri în gamă (SCP 084-130 DIN Agri)",
       "Rețea de filiale proprii în șase țări pentru suport tehnic mai aproape de client"
     ],
     keyProducts: [
-      { name: "Pompe Flux Simplu Seria SAP/SAPT", description: "Pompe hidraulice tip gerotor cu flux simplu, disponibile cu interfețe DIN sau SAE, pentru circuite hidraulice de bază pe utilaje mobile precum remorci, macarale mici și echipamente agricole." },
-      { name: "Pompe Flux Simplu Seria SCP", description: "Pompe cu flux simplu, inclusiv varianta Agri optimizată pentru condiții de lucru cu impurități mai mari, disponibile cu interfețe DIN, SAE sau ISO în funcție de pompa sau motorul de antrenare existent." },
+      { name: "Pompe Flux Simplu Seria SAP/SAPT", description: "Pompe hidraulice cu flux simplu, disponibile cu interfețe DIN sau SAE, pentru circuite hidraulice de bază pe utilaje mobile precum remorci, macarale mici și echipamente agricole." },
+      { name: "Pompe Flux Simplu Seria SCP", description: "Pompe cu flux simplu, inclusiv varianta marcată Agri, disponibile cu interfețe DIN, SAE sau ISO în funcție de pompa sau motorul de antrenare existent." },
       { name: "Pompe Flux Dublu Seria SCPD/SLPD", description: "Pompe cu două ieșiri de debit independente, folosite acolo unde un singur circuit hidraulic trebuie să alimenteze simultan două funcții cu debite diferite, cu variantă by-pass și opțiune SAVTEC." },
-      { name: "Motoare Hidraulice Seria SCM/SAM", description: "Motoare hidraulice tip gerotor pentru acționarea directă a componentelor rotative de pe utilaje mobile, cu interfețe de montaj ISO, SAE sau M2, în funcție de cuplajul mecanic existent." }
+      { name: "Motoare Hidraulice Seria SCM/SAM", description: "Motoare hidraulice pentru acționarea directă a componentelor rotative de pe utilaje mobile, cu interfețe de montaj ISO, SAE sau M2, în funcție de cuplajul mecanic existent." }
     ],
     industries: [
       "Hidraulică mobilă — pompe și motoare pentru remorci și echipamente tractate",
-      "Agricultură — pompe cu variantă Agri pentru condiții de lucru cu praf și impurități",
+      "Agricultură — pompe cu variantă Agri",
       "Vehicule comerciale — pompe hidraulice pentru sisteme auxiliare de ridicare",
       "Echipamente de construcții — motoare hidraulice pentru acționări rotative",
       "Macarale mobile — pompe de bază pentru circuite hidraulice de ridicare"
@@ -603,16 +603,16 @@ Pentru producătorii români de utilaje agricole, macarale mobile și echipament
       { code: "SAM 010-130 DIN", description: "Motor hidraulic, interfață DIN" }
     ],
     faq: [
-      { q: "Ce produce Sunfab?", a: "Sunfab fabrică pompe și motoare hidraulice tip gerotor pentru hidraulica mobilă, cu game de flux simplu, flux dublu și flux variabil, folosite pe utilaje agricole, macarale mobile și vehicule comerciale." },
+      { q: "Ce produce Sunfab?", a: "Sunfab fabrică pompe și motoare hidraulice pentru hidraulica mobilă, cu game de flux simplu, flux dublu și flux variabil, folosite pe utilaje agricole, macarale mobile și vehicule comerciale." },
       { q: "Cum aleg o pompă Sunfab după cod?", a: "Codul complet (de exemplu SCP 012-130 ISO) indică seria, cilindreea și interfața de montaj; dacă înlocuiți o pompă existentă, transmiteți codul de pe plăcuță sau, dacă lipsește, interfața de montaj și sensul de rotație." },
-      { q: "Ce echivalent are seria SCPD de la Sunfab?", a: "Depinde de debitele necesare pe fiecare din cele două ieșiri și de interfața de montaj a pompei existente; familia SCPD/SLPD acoperă mai multe combinații de debit, cu variantă by-pass acolo unde e nevoie de protecție la suprapresiune." },
+      { q: "Ce echivalent are seria SCPD de la Sunfab?", a: "Depinde de debitele necesare pe fiecare din cele două ieșiri și de interfața de montaj a pompei existente; familia SCPD/SLPD acoperă mai multe combinații de debit, cu variantă by-pass." },
       { q: "Livrați pompe Sunfab în România și cât durează?", a: "Da, la comandă din Suedia sau prin filiala europeană a producătorului; termenul orientativ e de 1–4 săptămâni, în funcție de codul confirmat și de disponibilitatea la fabrică." },
       { q: "Ce trebuie să trimit pentru ofertă la Sunfab?", a: "Codul complet al pompei sau motorului existent sau, pentru o instalație nouă, interfața de montaj dorită (DIN, SAE sau ISO), cilindreea necesară și sensul de rotație." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Sunfab Hydraulics — Home", url: "https://www.sunfab.com/", publisher: "Sunfab Hydraulics AB", accessed: "2026-09-25" },
       { title: "Sunfab — About Us", url: "https://www.sunfab.com/about-us/", publisher: "Sunfab Hydraulics AB", accessed: "2026-09-25" },

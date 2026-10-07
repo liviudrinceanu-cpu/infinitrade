@@ -7,7 +7,7 @@ export const brandContentBatch83 = {
     headquarters: "Viena, Austria",
     overview: `Kraus & Naimer este un producător austriac de comutatoare cu came și întrerupătoare de sarcină, cu sediul la Viena, activ din 1907, când firma a pornit dintr-un subsol vienez. Compania a introdus în 1948 primul comutator cu came în design modular, principiu pe care încă îl folosește pentru majoritatea gamei actuale. Astăzi produce comutatoare rotative pentru pornirea, oprirea, inversarea și comutarea circuitelor electrice din tablouri, mașini-unelte, motoare și instalații fotovoltaice, cu șase fabrici și birouri de vânzări pe mai multe continente.
 
-Gama e organizată pe familii de comutatoare: seria de bază C, seriile CA și CA4 pentru control și sarcină la curenți de 10-32A, seriile CG, CH și CHR pentru puteri medii, seria CAD ca referință de catalog și seria L pentru întrerupătoare de sarcină la curenți mari, între 350A și 2400A. Concurează pe segmentul de comutatoare industriale cu producători precum Schneider Electric, diferențierea fiind construcția modulară care permite configurare pe fiecare poziție și pol.
+Gama e organizată pe familii de comutatoare: seria de bază C, seriile CA și CA4 pentru control și sarcină la curenți de 10-32A, seriile CG, CH și CHR pentru puteri medii, seria CAD, listată în catalogul producătorului și seria L pentru întrerupătoare de sarcină la curenți mari, între 350A și 2400A.
 
 Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la comutatoare robuste pentru tablouri de comandă, panouri de distribuție și sisteme fotovoltaice, acolo unde fiabilitatea mecanică a contactelor pe termen lung contează mai mult decât prețul de achiziție.`,
     whyChoose: [
@@ -15,11 +15,11 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
       "Gamă completă de curenți nominali, de la comutatoare mici de control până la întrerupătoare de sarcină de 2400A",
       "Contacte placate cu aur la seria CA4-1, pentru semnale de joasă tensiune în medii solicitante",
       "Comutatoare dedicate pentru sisteme fotovoltaice, cu deconectoare de curent continuu",
-      "Producție proprie în șase fabrici, cu piese de schimb și configurații personalizate disponibile"
+      "Producție proprie în șase fabrici, pe patru continente"
     ],
     keyProducts: [
-      { name: "Comutatoare de Control și Sarcină Seria CA", description: "Comutatoare cu came pentru pornirea și inversarea motoarelor, cu terminale rezistente la atingere, curenți nominali între 10A și 32A. Varianta CA4 și CA4-1 adaugă contacte placate cu aur pentru circuite de semnal de joasă tensiune, unde oxidarea contactelor obișnuite ar cauza erori de comutare. Montaj pe panou sau pe ușă de tablou, cu came interschimbabile pentru diverse scheme de comutare." },
-      { name: "Comutatoare Seria CG/CH/CHR", description: "Familie de comutatoare cu came pentru puteri medii, curenți nominali între 10A și 25A, folosite pentru comutarea manuală a motoarelor, selecția treptelor de viteză sau comutarea circuitelor de măsură. Construcție compactă, cu posibilitate de montare în serie pentru scheme cu mai multe funcții pe același ax de acționare." },
+      { name: "Comutatoare de Control și Sarcină Seria CA", description: "Comutatoare cu came pentru pornirea și inversarea motoarelor, cu terminale rezistente la atingere, curenți nominali între 10A și 32A. Varianta CA4-1 adaugă contacte placate cu aur pentru circuite de semnal de joasă tensiune, unde oxidarea contactelor obișnuite ar cauza erori de comutare. Montaj pe panou sau pe ușă de tablou, cu came interschimbabile pentru diverse scheme de comutare." },
+      { name: "Comutatoare Seria CG/CH/CHR", description: "Familie de comutatoare cu came pentru puteri medii, cu curenți nominali care depind de serie și model (îi confirmăm pe cod, din documentația producătorului), folosite pentru comutarea manuală a motoarelor, selecția treptelor de viteză sau comutarea circuitelor de măsură. Construcție compactă, cu posibilitate de montare în serie pentru scheme cu mai multe funcții pe același ax de acționare." },
       { name: "Întrerupătoare de Sarcină Seria L", description: "Întrerupătoare off-load pentru curenți mari, de la 350A până la 2400A, folosite ca principale organe de separare în tablouri de distribuție și panouri de forță. Concepute pentru manevrare sub sarcină redusă sau ca separator vizibil înainte de intervenții de mentenanță pe circuite de putere." }
     ],
     industries: [
@@ -33,15 +33,15 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
     productCodes: [
       { code: "Seria C", description: "comutator cu came de bază, design modular" },
       { code: "Seria CA", description: "comutator de control și sarcină, 10-32A" },
-      { code: "CA4", description: "comutator de joasă tensiune, contacte placate" },
+      { code: "CA4", description: "comutator cu came din familia CA" },
       { code: "CA4-1", description: "variantă CA4 cu contacte aurite" },
-      { code: "Seria CG", description: "comutator cu came, putere medie, 10-25A" },
+      { code: "Seria CG", description: "comutator cu came, putere medie" },
       { code: "Seria CH", description: "comutator cu came, putere medie" },
       { code: "Seria CHR", description: "comutator cu came, variantă CH" },
-      { code: "CAD", description: "comutator de referință din catalog" },
+      { code: "CAD", description: "comutator cu came, serie din catalogul producătorului" },
       { code: "Seria L", description: "întrerupător de sarcină off-load, 350-2400A" },
-      { code: "Seria KG", description: "comutator principal (main switch)" },
-      { code: "Seria KF", description: "comutator de mentenanță și siguranță" }
+      
+      
     ],
     faq: [
       { q: "Ce produce Kraus & Naimer?", a: "Kraus & Naimer produce comutatoare cu came și întrerupătoare de sarcină pentru tablouri electrice, mașini-unelte și instalații fotovoltaice, cu o gamă de curenți de la câțiva amperi până la 2400A. Compania austriacă folosește un design modular introdus în 1948, care permite configurarea contactelor pe fiecare poziție și pol." },
@@ -50,8 +50,8 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
       { q: "Ce trebuie să trimit pentru o ofertă de comutator Kraus & Naimer?", a: "Pentru o ofertă corectă trimiteți seria dorită (de exemplu CA sau L), curentul nominal, numărul de poli, tipul de montaj (panou sau ușă tablou) și, dacă înlocuiți un comutator existent, codul complet de pe eticheta lui." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Control and Load Switches", url: "https://www.krausnaimer.com/other_countries/products/control-and-load-switches", publisher: "Kraus & Naimer", accessed: "2026-09-25" },
       { title: "History", url: "https://www.krausnaimer.com/pl_en/about-us/history", publisher: "Kraus & Naimer", accessed: "2026-09-25" },
@@ -63,7 +63,7 @@ Pentru instalații industriale din România, Kraus & Naimer înseamnă acces la 
     founded: 1947,
     overview: `Patlite este un producător japonez de dispozitive de semnalizare vizuală și sonoră, activ din 1947, pornit de la invenția unui singur micromotor. Astăzi compania fabrică turnuri de semnalizare (signal towers), girofaruri, buzzere și dispozitive de notificare pentru linii de producție, birouri și șantiere, cu peste 1000 de angajați și filiale deschise succesiv în SUA, Singapore, China, Germania, Franța, Coreea, Italia, Taiwan, Thailanda, Spania, Mexic și Marea Britanie.
 
-Gama de turnuri de semnalizare acoperă diametre de la 40 la 60 mm: seria LR4 cu control I/O simplu, LR5 și LR6 cu moduri de funcționare continuă, intermitentă și alarmă, și LA6, un turn "smart" cu 21 de culori configurabile. Seriile NHB și NHV adaugă conectivitate Ethernet și, la NHV, anunțuri vocale integrate — funcții pe care concurenți precum Werma sau Banner Engineering le oferă în game similare de turnuri de rețea. Girofarurile din seria NE ajung la niveluri sonore de 88 dB și clase de protecție IP65-IP67.
+Gama de turnuri de semnalizare acoperă diametre de la 40 la 60 mm: seria LR4 cu control I/O simplu, LR5 și LR6 cu moduri de funcționare continuă, intermitentă și alarmă, și LA6, un turn "smart" cu 21 de culori configurabile. Seriile NHB și NHV adaugă conectivitate Ethernet și, la NHV, anunțuri vocale integrate. Girofarurile din seria NE ajung la niveluri sonore de 88 dB și clase de protecție IP65-IP67.
 
 Pentru fabrici și linii de asamblare din România, Patlite înseamnă semnalizare vizuală și sonoră a stărilor de mașină (funcționare, alarmă, oprire), utilă în special acolo unde se cere integrare cu automate PLC prin Ethernet sau IO-Link.`,
     whyChoose: [
@@ -114,8 +114,8 @@ Pentru fabrici și linii de asamblare din România, Patlite înseamnă semnaliza
       { q: "Ce trebuie să trimit pentru ofertă la un turn de semnalizare Patlite?", a: "Trimiteți diametrul dorit, tensiunea de alimentare, numărul de module de culoare, tipul de montaj și, dacă e nevoie de integrare cu automatul de proces, tipul de conectivitate (Ethernet, IO-Link) pentru a primi o ofertă corectă." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Product", url: "https://www.patlite.com/product/", publisher: "Patlite Corporation", accessed: "2026-09-25" },
       { title: "Company Outline", url: "https://www.patlite.com/company/outline.html", publisher: "Patlite Corporation", accessed: "2026-09-25" }
@@ -139,7 +139,7 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
     ],
     keyProducts: [
       { name: "Presetupe Seria blueglobe", description: "Familia de bază de presetupe pentru cabluri, cu variante pentru compatibilitate electromagnetică (TRI EMC), design igienic pentru industria alimentară (CLEAN Plus) și temperaturi extreme (HT, -55°C până la +200°C). Corp din alamă nichelată, inox sau PVDF, cu inserții de etanșare din elastomeri termoplastici sau silicon, alese în funcție de mediul de lucru. Clase de protecție până la IP68/IP69." },
-      { name: "Presetupe cu Protecție la Foc UNI Dicht", description: "Presetupe cu certificare de protecție la foc, folosite frecvent în industria feroviară și în instalații unde propagarea flăcării prin traseul de cabluri trebuie oprită la nivelul peretelui de trecere. Disponibile cu mai multe inserții de etanșare pentru introducerea simultană a mai multor cabluri prin același orificiu, reducând numărul de presetupe necesare pe un panou." },
+      { name: "Presetupe cu Protecție la Foc UNI Dicht", description: "Presetupe cu certificare de protecție la foc, folosite frecvent în industria feroviară și în instalații unde propagarea flăcării prin traseul de cabluri trebuie oprită la nivelul peretelui de trecere. Detaliile constructive (inserții, număr de cabluri) se confirmă pe cod, din documentația producătorului." },
       { name: "Presetupe cu Protecție la Îndoire UNI Flex", description: "Variantă de presetupă cu arc din oțel inoxidabil pentru protecție la îndoire a cablului la ieșirea din carcasă, prevenind ruperea izolației prin flexare repetată. Utilă pe echipamente mobile sau cu vibrații, unde cablul e supus la mișcare constantă la punctul de intrare în dulapul electric." },
       { name: "Presetupe Antiex LevelEx", description: "Variantă de presetupă concepută pentru zone cu pericol de explozie, folosită la echipamente electrice montate în medii Ex. Se integrează cu aceleași game de inserții de etanșare ca presetupele standard, adaptate cerințelor suplimentare de etanșeitate impuse de certificarea antiex." }
     ],
@@ -161,7 +161,7 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
       { code: "UNI Dicht", description: "presetupă cu protecție la foc" },
       { code: "UNI Flex", description: "presetupă cu protecție la îndoire, arc inox" },
       { code: "UNI Clamping", description: "presetupă cu bridă de fixare, până la 500N" },
-      { code: "UNI flange", description: "presetupă tip flanșă, variantă divizibilă" },
+      { code: "UNI flange", description: "presetupă tip flanșă" },
       { code: "LevelEx", description: "presetupă pentru zone cu pericol de explozie" }
     ],
     faq: [
@@ -171,8 +171,8 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
       { q: "Ce clasă de protecție au presetupele Pflitsch?", a: "Producătorul confirmă clase de protecție până la IP68 și IP69, ultima însemnând etanșeitate completă la praf și rezistență la curățare cu jet de apă fierbinte sub presiune, potrivite pentru medii industriale exigente." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Cable Gland", url: "https://www.pflitsch.de/en/cable-gland/", publisher: "Pflitsch GmbH", accessed: "2026-09-25" },
       { title: "Company", url: "https://www.pflitsch.de/en/company/", publisher: "Pflitsch GmbH", accessed: "2026-09-25" },
@@ -183,13 +183,13 @@ Pentru instalații industriale din România, Pflitsch înseamnă presetupe pentr
     name: "R. STAHL",
     founded: 1876,
     headquarters: "Waldenburg, Germania",
-    overview: `R. STAHL este un producător german de echipamente electrice pentru zone cu pericol de explozie, cu sediul la Waldenburg. Firma a fost fondată în 1876 ca fabrică mecanică pentru mașini de tricotaj, a trecut prin sisteme de ridicare și macarale, iar din 1954 s-a reorientat integral spre protecția antiex, domeniu în care operează astăzi șapte fabrici și peste 50 de locații la nivel mondial. Gama acoperă corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de automatizare certificate pentru zone Ex.
+    overview: `R. STAHL este un producător german de echipamente electrice pentru zone cu pericol de explozie, cu sediul la Waldenburg. Firma a fost fondată în 1876 ca atelier mecanic (aparate casnice și mașini textile), a produs ulterior lifturi și macarale (divizia a fost vândută în 2005), iar din 1954 și-a dezvoltat activitatea de protecție antiex, domeniu în care operează astăzi șapte unități de producție și peste 50 de locații la nivel mondial. Gama acoperă corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de automatizare certificate pentru zone Ex.
 
-La iluminat, seriile EXLUX (liniare, 6002/4 și 6402/4) și ToughLUX (L402/4, L402/6) sunt principalele game pentru hale industriale, completate de proiectoare seria 6125/2 și 6525 și lămpi portabile seria 6141/6148/6149. Pentru control și semnalizare, R. STAHL oferă cutii de joncțiune seria 8118 și 8150, motoare cu pornire seria 8220 și dispozitive de semnalizare YODALEX 3, concurând pe acest segment cu Pepperl+Fuchs. Pentru rețelele industriale din zone Ex, gama IT include operatoare HMI ORCA, SHARK și MANTA.
+La iluminat, seriile EXLUX (liniare, 6002/4 și 6402/4) și ToughLUX (L402/4, L402/6) sunt principalele game pentru hale industriale, completate de proiectoare seria 6125/2 și 6525 și lămpi portabile seria 6141/6148/6149. Pentru control și semnalizare, R. STAHL oferă cutii de joncțiune seria 8118 și 8150, unități de comandă a motoarelor seria 8220 și dispozitive de semnalizare YODALEX 3. Pentru rețelele industriale din zone Ex, gama IT include operatoare HMI ORCA, SHARK și MANTA.
 
 Pentru rafinării, platforme offshore și instalații chimice din România, R. STAHL înseamnă echipamente certificate ATEX/IECEx pentru iluminat, control și conectare, acolo unde un echipament standard nu poate fi montat legal în zona clasificată.`,
     whyChoose: [
-      "Peste 150 de ani de fabricație, din care șapte decenii dedicate integral protecției antiex",
+      "Peste 150 de ani de istorie industrială, cu activitate în protecția antiex din 1954",
       "Gamă completă pentru zone Ex — iluminat, cutii de control, conectori și sisteme HMI",
       "Certificări ATEX și IECEx pe majoritatea familiilor de produse",
       "Corpuri de iluminat LED cu variante pentru zone cu risc ridicat de explozie și pentru maritim",
@@ -198,7 +198,7 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
     keyProducts: [
       { name: "Corpuri de Iluminat EXLUX", description: "Corpuri de iluminat liniare LED certificate pentru zone Ex, seriile 6002/4 și 6402/4, folosite pentru iluminatul general al halelor industriale și platformelor cu risc de explozie. Completate de varianta de urgență EXLUX 6009/4 și 6409/4, cu funcție de iluminat de siguranță în caz de pană de curent. Montaj suspendat sau pe structură, cu grad de protecție IP ridicat pentru medii cu praf sau gaze inflamabile." },
       { name: "Corpuri de Iluminat ToughLUX", description: "Familie de corpuri de iluminat robuste, seriile L402/4 și L402/6, pentru aplicații industriale grele în zone clasificate Ex. Construcție rezistentă la impact și vibrații, potrivită pentru medii de procesare unde iluminatul e expus la șocuri mecanice sau condiții climatice dure, cum sunt platformele petroliere sau instalațiile chimice exterioare." },
-      { name: "Cutii de Conexiuni și Control Seria 8xxx", description: "Cutii de joncțiune și terminale seriile 8118, 8146 și 8150, din oțel inoxidabil sau poliester armat cu fibră de sticlă, pentru cablarea și distribuția semnalelor în zone Ex. Completate de dispozitive de control seriile 8040 și motoare cu pornire seria 8220, folosite pentru comanda pompelor și utilajelor din instalații clasificate." },
+      { name: "Cutii de Conexiuni și Control Seria 8xxx", description: "Cutii de joncțiune și terminale seriile 8118, 8146 și 8150, din oțel inoxidabil sau poliester armat cu fibră de sticlă, pentru cablarea și distribuția semnalelor în zone Ex. Completate de dispozitive de control seriile 8040 și unități de comandă a motoarelor seria 8220, folosite pentru comanda pompelor și utilajelor din instalații clasificate." },
       { name: "Sisteme de Semnalizare YODALEX 3", description: "Sisteme de semnalizare vizuală și sonoră certificate pentru zone Ex, folosite ca alarme de proces sau avertizoare de urgență pe platforme industriale. Se completează cu luminile de navigație TRANBERG, seria TEF, pentru aplicații maritime și offshore unde semnalizarea trebuie să reziste la mediul marin coroziv." }
     ],
     industries: [
@@ -228,21 +228,21 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
       { code: "8146", description: "cutie de joncțiune/terminal" },
       { code: "8150", description: "cutie de terminale, zonă Ex" },
       { code: "8040", description: "dispozitiv de control pentru zone Ex" },
-      { code: "8220", description: "motor cu pornire pentru zone Ex" },
+      { code: "8220", description: "unitate de comandă a motoarelor pentru zone Ex" },
       { code: "8537", description: "comutator de siguranță" },
       { code: "8595 miniCON", description: "conector pentru zone Ex" },
       { code: "8570", description: "priză/fișă industrială pentru zone Ex" },
       { code: "YODALEX 3", description: "sistem de semnalizare vizuală/sonoră" }
     ],
     faq: [
-      { q: "Ce produce R. STAHL?", a: "R. STAHL produce echipamente electrice certificate pentru zone cu pericol de explozie: corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de semnalizare. Compania germană, fondată în 1876, s-a specializat în protecție antiex din 1954." },
+      { q: "Ce produce R. STAHL?", a: "R. STAHL produce echipamente electrice certificate pentru zone cu pericol de explozie: corpuri de iluminat, cutii de conexiuni și control, conectori și sisteme de semnalizare. Compania germană, fondată în 1876, are un departament dedicat protecției antiex din 1954." },
       { q: "Cum aleg un echipament R. STAHL după clasificarea zonei Ex?", a: "Alegerea depinde de grupul de gaz și categoria zonei clasificate, plus tensiunea și tipul de montaj pentru corpurile de iluminat, respectiv curentul comutat pentru cutiile de control. Trimiteți-ne clasificarea zonei pentru identificarea seriei certificate potrivite." },
       { q: "Ce certificări au echipamentele R. STAHL?", a: "Producătorul menționează certificări ATEX și IECEx pentru majoritatea gamei de echipamente pentru zone Ex, standarde recunoscute internațional pentru protecție antiex în instalații industriale. Certificarea exactă diferă de la o serie la alta, motiv pentru care verificăm fișa tehnică înainte de a confirma o ofertă pentru zona dumneavoastră clasificată." },
       { q: "Livrați R. STAHL în România și cât durează?", a: "Da, furnizăm echipamente R. STAHL la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de seria și certificarea exactă cerută de proiectul dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://r-stahl.com/en/global/products/", publisher: "R. STAHL", accessed: "2026-09-25" },
       { title: "Company History", url: "https://r-stahl.com/en/global/corporate/about-us/company-history/", publisher: "R. STAHL", accessed: "2026-09-25" },
@@ -255,15 +255,15 @@ Pentru rafinării, platforme offshore și instalații chimice din România, R. S
     headquarters: "Berlin, Germania",
     overview: `REO este un producător german de componente pentru electronica de putere — droselii, transformatoare, rezistențe de frânare și filtre EMC — cu sediul la Berlin, unde firma Haase & REO a fost fondată la 17 august 1925. Compania operează patru locații în Germania și zece birouri la nivel mondial, cu Berlinul ca centru de competență pentru inductori și transformatoare. Gama e organizată pe familii tehnice: droselii de rețea și de motor, filtre EMC monofazate și trifazate, transformatoare toroidale și de izolare, rezistențe de frânare și traductoare de curent.
 
-Familia REOVIB acoperă controlere pentru tehnologia de transport vibrator — variatoare de frecvență seria MFS, regulatoare de unghi de fază SMART și controlere programabile RTS/MTS — folosite pentru alimentarea vibratoare a materialelor în linii de producție. REOTRON SMP oferă surse de comutare în curent continuu pentru aplicații industriale, iar seria REOWAVE aduce filtre pasive care reduc consumul energetic al sistemelor de acționare cu până la 30%, conform datelor publicate de producător. REO concurează pe segmentul de droselii și filtre EMC cu nume precum Schaffner sau Block.
+Familia REOVIB acoperă controlere pentru tehnologia de transport vibrator — variatoare de frecvență seria MFS, regulatoare de unghi de fază SMART și controlere programabile RTS/MTS — folosite pentru alimentarea vibratoare a materialelor în linii de producție. REOTRON SMP oferă surse de comutare în curent continuu pentru aplicații industriale, iar seria REOWAVE aduce filtre pasive care reduc consumul energetic al sistemelor de acționare cu până la 30%, conform datelor publicate de producător. 
 
 Pentru instalații cu variatoare de turație și sisteme UPS din România, REO înseamnă componente de filtrare și protecție a rețelei electrice acolo unde armonicele sau perturbațiile EMC ar afecta funcționarea corectă a echipamentelor din tablou.`,
     whyChoose: [
       "Peste un secol de fabricație de droselii și transformatoare, cu Berlinul drept centru de competență al grupului",
       "Gamă completă pentru electronica de putere — droselii, filtre EMC, transformatoare și rezistențe de frânare",
-      "Filtrele REOWAVE passive reduc consumul energetic al sistemelor de acționare, conform testelor producătorului",
+      "Filtrele REOWAVE pasive pot reduce consumul energetic al sistemelor de acționare, conform datelor publicate de producător",
       "Controlere REOVIB dedicate tehnologiei de transport vibrator, cu variatoare de frecvență și regulatoare de fază",
-      "Patru locații de producție în Germania, cu capacitate de proiecte inginerești personalizate"
+      "Patru locații în Germania și zece birouri la nivel mondial"
     ],
     keyProducts: [
       { name: "Droselii de Rețea și de Motor", description: "Droselii pentru limitarea curentului de scurtcircuit și filtrarea armonicelor generate de variatoarele de turație, disponibile în variante de rețea, motor și circuit intermediar. Include și droselii cu răcire lichidă pentru aplicații de putere ridicată, unde răcirea cu aer nu ar fi suficientă. Montate între rețeaua electrică sau motor și variatorul de frecvență, pentru protejarea echipamentului și reducerea perturbațiilor EMC." },
@@ -297,13 +297,13 @@ Pentru instalații cu variatoare de turație și sisteme UPS din România, REO �
     ],
     faq: [
       { q: "Ce produce REO?", a: "REO produce droselii, transformatoare, filtre EMC și rezistențe de frânare pentru electronica de putere — variatoare de turație, sisteme UPS și echipamente de tracțiune feroviară. Compania germană, fondată în 1925 la Berlin, oferă și controlere REOVIB pentru tehnologia de transport vibrator." },
-      { q: "Cum aleg o drosel sau un filtru EMC REO?", a: "Alegerea depinde de curentul nominal, tensiunea de lucru și tipul de rețea (monofazată sau trifazată) a instalației unde se montează componenta. Trimiteți-ne parametrii electrici ai variatorului sau sursei UPS pentru identificarea variantei potrivite din gama REO." },
+      { q: "Cum aleg un drosel sau un filtru EMC REO?", a: "Alegerea depinde de curentul nominal, tensiunea de lucru și tipul de rețea (monofazată sau trifazată) a instalației unde se montează componenta. Trimiteți-ne parametrii electrici ai variatorului sau sursei UPS pentru identificarea variantei potrivite din gama REO." },
       { q: "Ce face filtrul REOWAVE passive?", a: "REOWAVE passive este un filtru pasiv de armonice montat la intrarea sistemelor de acționare electrică, care corectează forma de undă a curentului absorbit din rețea. Producătorul indică o reducere a consumului energetic de până la 30% la sistemele echipate cu acest filtru." },
       { q: "Livrați REO în România și cât durează?", a: "Da, aducem componente REO la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia tehnică și parametrii electrici solicitați pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://www.reo.de/en/products", publisher: "REO AG", accessed: "2026-09-25" },
       { title: "Homepage", url: "https://www.reo.de/en/", publisher: "REO AG", accessed: "2026-09-25" }
@@ -315,7 +315,7 @@ Pentru instalații cu variatoare de turație și sisteme UPS din România, REO �
     headquarters: "Kakogawa, Japonia",
     overview: `TLV este un producător japonez de capcane de abur și echipamente pentru managementul aburului industrial, înființat în 1950 sub numele Fujiwara Manufacturing și relansat ca TLV Co., Ltd. în 1972. Compania a introdus în 1955 capcana termodinamică A3, iar în 1972 prima capcană cu control de temperatură din lume, iar din 1983, prin TLV International, a construit o rețea globală de filiale în Europa, Asia și America. Gama actuală acoperă capcane de abur, stații de reducere a presiunii, pompe de recuperare condensat și instrumentație pentru sisteme de abur.
 
-Familia Free Float® cuprinde capcane cu plutitor pentru presiune joasă, medie și înaltă, plus variante dedicate liniilor principale de abur, iar ThermoDyne A3N și PowerDyne sunt capcane termodinamice cu disc, folosite pentru drenarea condensatului din conducte și echipamente termice. PowerTrap combină o pompă mecanică cu o capcană integrată, utilă acolo unde condensatul trebuie ridicat împotriva unei contrapresiuni. Pe segmentul de gestiune a aburului, TLV concurează cu Spirax Sarco Thermal, ambele oferind și servicii de audit al pierderilor de abur din instalație.
+Familia Free Float® cuprinde capcane cu plutitor pentru presiune joasă, medie și înaltă, plus variante dedicate liniilor principale de abur, iar ThermoDyne A3N și PowerDyne sunt capcane termodinamice cu disc, folosite pentru drenarea condensatului din conducte și echipamente termice. PowerTrap combină o pompă mecanică cu o capcană integrată, utilă acolo unde condensatul trebuie ridicat împotriva unei contrapresiuni. TLV oferă și servicii de audit al capcanelor de abur din instalație (Steam Trap Survey).
 
 Pentru instalații cu cazane și rețele de abur din România — industrie alimentară, chimică sau termoficare — TLV înseamnă capcane și componente pentru reducerea pierderilor de abur și recuperarea eficientă a condensatului.`,
     whyChoose: [
@@ -326,7 +326,7 @@ Pentru instalații cu cazane și rețele de abur din România — industrie alim
       "Rețea internațională de filiale din 1983, cu suport tehnic dedicat sistemelor de abur"
     ],
     keyProducts: [
-      { name: "Capcane de Abur Free Float®", description: "Familie de capcane de abur cu plutitor, disponibile pentru presiune joasă, medie și înaltă, plus variante dedicate liniilor principale de distribuție a aburului. Drenează continuu condensatul format în conducte și echipamente termice, fără a permite scăparea aburului viu, ceea ce reduce pierderile energetice ale instalației. Construcție din oțel inoxidabil, potrivită pentru presiuni și temperaturi de proces variate." },
+      { name: "Capcane de Abur Free Float®", description: "Familie de capcane de abur cu plutitor, disponibile pentru presiune joasă, medie și înaltă, plus variante dedicate liniilor principale de distribuție a aburului. Drenează continuu condensatul format în conducte și echipamente termice, fără a permite scăparea aburului viu, ceea ce reduce pierderile energetice ale instalației. Presiunea maximă de lucru depinde de model: până la 2,1 MPa (suprapresiune) la versiunea pentru presiune joasă și până la 12 MPa la versiunea pentru presiune medie/înaltă, conform producătorului; materialul corpului se confirmă pe cod." },
       { name: "Capcane Termodinamice ThermoDyne/PowerDyne", description: "Capcane cu disc, seria ThermoDyne A3N și PowerDyne, pentru drenaj rapid de condensat din conducte de abur, cu construcție compactă și număr redus de piese mobile. Potrivite pentru linii principale de abur și puncte de drenaj unde spațiul de montaj e limitat sau unde se cere o capcană robustă, cu întreținere minimă." },
       { name: "PowerTrap — Pompă cu Capcană Integrată", description: "Sistem care combină o pompă mecanică acționată cu abur sau aer comprimat și o capcană de abur integrată, folosit pentru evacuarea condensatului din puncte joase ale instalației unde presiunea disponibilă nu permite drenajul gravitațional simplu. Elimină nevoia unei pompe electrice separate în zone unde alimentarea electrică e greu de asigurat." },
       { name: "Stații de Reducere Presiune (PRV)", description: "Ventile de reducere a presiunii pentru abur, aer comprimat sau vid, folosite pentru adaptarea presiunii de distribuție la cerințele fiecărui consumator din instalație. Disponibile și în variante cu control electro-pneumatic pentru reglaj automat, integrabile în sisteme de monitorizare centralizată a rețelei de abur." }
@@ -339,7 +339,7 @@ Pentru instalații cu cazane și rețele de abur din România — industrie alim
       "Logistică industrială — instalații cu abur pentru încălzire spații și procese"
     ],
     infinitrade: `Aducem capcane de abur și echipamente TLV la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de seria și presiunea de lucru solicitate. Nu avem date proprii de stoc pentru fiecare variantă de presiune și material — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea exactă la fiecare cerere. Pentru o ofertă corectă, trimiteți-ne presiunea de lucru a instalației, debitul de condensat estimat și tipul de conexiune (filetată sau flanșată). Nu promitem disponibilitate din depozit pentru capcanele de abur sau componentele aferente.`,
-    limitation: "Nu putem confirma serviciile de audit al pierderilor de abur sau monitorizarea SSRM oferite direct de producător în alte piețe.",
+    limitation: "Nu putem confirma serviciile de audit al capcanelor de abur și programele de optimizare a sistemelor de abur oferite direct de producător în alte piețe.",
     productCodes: [
       { code: "Free Float® Low Pressure", description: "capcană cu plutitor, presiune joasă" },
       { code: "Free Float® Medium Pressure", description: "capcană cu plutitor, presiune medie" },
@@ -351,18 +351,18 @@ Pentru instalații cu cazane și rețele de abur din România — industrie alim
       { code: "PRV", description: "ventil de reducere presiune abur/aer/vid" },
       { code: "Multi-Control Valve", description: "ventil de control multiplu pentru abur" },
       { code: "Electro-Pneumatic Control Valve", description: "ventil de control cu acționare electro-pneumatică" },
-      { code: "Vacuumizer", description: "sistem de creare vid cu abur" },
+      { code: "Vacuumizer", description: "sistem care folosește abur în vid pentru încălzire și răcire sub 100 °C" },
       { code: "SteamAqua", description: "încălzitor instant de apă cu abur" }
     ],
     faq: [
       { q: "Ce produce TLV?", a: "TLV produce capcane de abur, stații de reducere a presiunii, pompe de recuperare condensat și instrumentație pentru sisteme de abur industrial. Compania japoneză, activă din 1950, e specializată exclusiv în managementul aburului și oferă game pentru presiune joasă, medie și înaltă." },
       { q: "Cum aleg o capcană de abur TLV după serie?", a: "Alegerea ține de presiunea de lucru a instalației (joasă, medie sau înaltă), de debitul de condensat de evacuat și de tipul aplicației — linie principală, punct de drenaj sau echipament termic. Trimiteți-ne acești parametri pentru identificarea seriei Free Float® sau termodinamice potrivite." },
-      { q: "Ce echivalent are seria Free Float® de la TLV?", a: "Free Float® e echivalentul capcanelor cu plutitor oferite și de alți producători de echipamente pentru abur, precum Spirax Sarco, diferența fiind în construcția internă și materialele folosite. Pentru o comparație exactă, avem nevoie de presiunea și debitul instalației dumneavoastră." },
+      { q: "Ce echivalent are seria Free Float® de la TLV?", a: "Free Float® este denumirea TLV pentru capcanele sale de abur cu plutitor sferic. Pentru a identifica un înlocuitor într-o instalație existentă, avem nevoie de marca și codul capcanei actuale, de presiunea de lucru și de debitul de condensat." },
       { q: "Livrați TLV în România și cât durează?", a: "Da, aducem capcane de abur și componente TLV la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de seria și presiunea de lucru solicitate. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://www.tlv.com/products", publisher: "TLV Co., Ltd.", accessed: "2026-09-25" },
       { title: "History", url: "https://www.tlv.com/corporate/history", publisher: "TLV Co., Ltd.", accessed: "2026-09-25" },
@@ -372,9 +372,9 @@ Pentru instalații cu cazane și rețele de abur din România — industrie alim
   absolent: {
     name: "Absolent",
     headquarters: "Lidköping, Suedia",
-    overview: `Absolent este un producător suedez de filtre pentru ceață de ulei, fum de ulei și praf industrial, cu sediul la Lidköping. Compania fabrică patru familii de filtrare care acoperă majoritatea surselor de emisii din prelucrarea metalelor: A•mist pentru ceață de ulei, A•smoke pentru fum de ulei, A•dust pentru praf și fum de proces, și A•line ca variantă montată direct pe mașina-unealtă. Gama e completă cu accesorii de tip A•control și A•monitor pentru comanda și monitorizarea instalației de filtrare.
+    overview: `Absolent este un producător suedez de filtre pentru ceață de ulei, fum de ulei și praf industrial, cu sediul la Lidköping. Compania fabrică patru familii de filtrare care acoperă majoritatea surselor de emisii din prelucrarea metalelor: A•mist pentru ceață de ulei, A•smoke pentru fum de ulei, A•dust pentru praf și fum de proces, și A•line, tot pentru fum de ulei. Gama e completă cu accesorii de tip A•control și A•monitor pentru comanda și monitorizarea instalației de filtrare.
 
-Fiecare familie e disponibilă în multiple mărimi de debit de aer, notate în codul de model — de exemplu A•mist 6C, 10C și 80C, sau A•erity 20-20 și 320-70, unde cifrele indică treapta de debit și presiune. Seria AE acoperă debite mari, de la AE20-150 până la AE320-250-2, pentru linii de producție cu mai multe mașini conectate la aceeași unitate de filtrare centralizată. Pe segmentul de filtrare a ceții de ulei, Absolent concurează cu producători precum Filtermist sau Bofa, diferența fiind gama largă de trepte de debit disponibile din fabrică.
+Fiecare familie e disponibilă în multiple mărimi de debit de aer, notate în codul de model — de exemplu A•mist 6C, 10C și 80C, sau A•erity 20-20 și 320-70, unde cifrele din cod identifică modelul din gamă. Seria AE acoperă debite mari, de la AE20-150 până la AE320-250-2, pentru linii de producție cu mai multe mașini conectate la aceeași unitate de filtrare centralizată. Pe segmentul de filtrare a ceții de ulei, Absolent concurează cu producători precum Filtermist sau Bofa.
 
 Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent înseamnă filtrare centralizată sau la mașină a ceții de ulei și fumului generat de sculele așchietoare, unde calitatea aerului din hală trebuie ținută sub control.`,
     whyChoose: [
@@ -382,7 +382,7 @@ Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent �
       "Game largi de debit de aer, de la unități mici A•mist până la instalații centralizate seria AE",
       "Certificări de management ISO 9001, ISO 14001 și ISO 45001 pentru calitate, mediu și siguranță",
       "Soluții de monitorizare A•control și A•monitor pentru urmărirea stării filtrelor",
-      "Catalog de produse actualizat anual, cu specificații tehnice publice pentru fiecare model"
+      "Catalog de produse publicat online de producător, cu specificații tehnice pentru modele"
     ],
     keyProducts: [
       { name: "Filtre de Ceață de Ulei Seria A•mist", description: "Filtre pentru ceața de ulei generată la prelucrarea mecanică și rectificare, disponibile în variante de debit precum A•mist 6C, 10C și 80C. Montaj centralizat sau apropiat de mașină, cu etaje de filtrare mecanică ce rețin picăturile fine de ulei din aerul evacuat înainte de a fi recirculat sau evacuat în atmosferă. Reduce depunerile de ulei pe suprafețele din hală și expunerea operatorilor la aerosoli." },
@@ -394,7 +394,7 @@ Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent �
       "Prelucrare mecanică și rectificare — filtrare ceață și fum de ulei",
       "Formare și presare metale — extracție fum de proces",
       "Turnare în matriță — filtrare emisii la temperatură ridicată",
-      "Industria alimentară — filtrare aer la procese cu ulei vegetal",
+      "Industria alimentară — filtrare fum de ulei din procese alimentare",
       "Prelucrare cauciuc și mase plastice — extracție fum și particule"
     ],
     certifications: [
@@ -433,8 +433,8 @@ Pentru ateliere de prelucrare mecanică și rectificare din România, Absolent �
       { q: "Livrați filtre Absolent în România și cât durează?", a: "Da, aducem filtre Absolent la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia și treapta de debit alese pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://absolent.com/products/", publisher: "Absolent AB", accessed: "2026-09-25" },
       { title: "Homepage", url: "https://www.absolent.com/", publisher: "Absolent AB", accessed: "2026-09-25" },
@@ -466,7 +466,7 @@ Pentru sisteme de irigații, stații de pompare și instalații industriale cu a
       "Irigații agricole — filtrare apă din surse de suprafață sau foraje",
       "Peisagistică și spații verzi — filtrare apă pentru sisteme de irigare",
       "Industrie — filtrare apă de răcire și apă de proces",
-      "Acvacultură și procesare alimentară — filtrare apă potabilă pentru animale"
+      "Apă potabilă și apă de proces — filtrare pentru aplicații cu cerințe de calitate a apei"
     ],
     infinitrade: `Aducem filtre Amiad la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tehnologia și diametrul solicitate. Nu ținem pe raft întreaga gamă de diametre și tehnologii de filtrare — informația despre modele provine din surse publice ale producătorului, verificată de noi la fiecare cerere înainte de ofertă. Pentru o ofertă corectă, trimiteți-ne debitul necesar, diametrul conductei, calitatea apei sursă (nisip, alge, particule) și dacă preferați filtrare cu disc, ecran sau microfibră. Nu promitem disponibilitate din depozit pentru niciun model — valabil pentru toată gama Amiad.`,
     limitation: "Nu putem confirma dimensionarea completă a stației de filtrare pentru debite mari, calculată de obicei împreună cu un proiectant de irigații sau instalații industriale.",
@@ -484,8 +484,8 @@ Pentru sisteme de irigații, stații de pompare și instalații industriale cu a
       { code: "Omega", description: "filtru automat cu ecran industrial" },
       { code: "SAF-X", description: "filtru automat cu ecran, variantă" },
       { code: "Filtomat M100-MG", description: "filtru automat cu ecran, model M100" },
-      { code: "AGF Pro", description: "filtru automat cu ecran, uz agricol" },
-      { code: "DVF", description: "filtru cu ecran, variantă de debit" },
+      { code: "AGF Pro", description: "filtru din gama Amiad pentru irigații" },
+      { code: "DVF", description: "filtru cu strat filtrant (multi-media), uz industrial" },
       { code: "AMF", description: "filtru cu microfibră, finețe ridicată" }
     ],
     faq: [
@@ -495,8 +495,8 @@ Pentru sisteme de irigații, stații de pompare și instalații industriale cu a
       { q: "Livrați filtre Amiad în România și cât durează?", a: "Da, aducem filtre Amiad la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tehnologia și diametrul solicitate pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Homepage", url: "https://amiad.com", publisher: "Amiad Water Systems", accessed: "2026-09-25" },
       { title: "About Us", url: "https://amiad.com/about-us/", publisher: "Amiad Water Systems", accessed: "2026-09-25" }
@@ -506,7 +506,7 @@ Pentru sisteme de irigații, stații de pompare și instalații industriale cu a
     name: "BEKO Technologies",
     founded: 1982,
     headquarters: "Neuss, Germania",
-    overview: `BEKO Technologies este un producător german de echipamente pentru tratarea aerului comprimat, cu sediul la Neuss, activ din 1982. Gama acoperă uscătoare cu adsorbție, uscătoare frigorifice, uscătoare cu membrană, filtre de aer comprimat, purjoare de condensat și separatoare ulei-apă, plus soluții de monitorizare digitală a calității aerului comprimat prin platforma CALMS. Compania deservește sectoare unde puritatea aerului comprimat e critică pentru proces, de la automotive la industria farmaceutică.
+    overview: `BEKO Technologies este un producător german de echipamente pentru tratarea aerului comprimat, cu sediul la Neuss, activ din 1982. Gama acoperă uscătoare cu adsorbție, uscătoare frigorifice, uscătoare cu membrană, filtre de aer comprimat, purjoare de condensat și separatoare ulei-apă, plus platforma CALMS (Compressed Air Logistics Management System, sistem de gestionare logistică a aerului comprimat) pentru monitorizarea și gestionarea sistemului de aer comprimat. Compania deservește sectoare unde puritatea aerului comprimat e critică pentru proces, de la automotive la industria farmaceutică.
 
 Familia DRYPOINT acoperă mai multe tehnologii de uscare: ACC, ACM, AC HP și ADZ pentru adsorbție, RA III pentru uscare frigorifică cu economie de energie, și M plus/M eco control pentru uscare cu membrană, folosită la debite mici sau puncte de consum izolate. Filtrele CLEARPOINT ajung la presiuni de lucru de până la 50 bar, iar purjoarele de condensat BEKOMAT elimină automat apa acumulată în rețea, prevenind pătrunderea ei în echipamentele pneumatice. Pentru separarea emulsiilor ulei-apă din condensat, gama include atât separatoare active (QWIK PURE), cât și pasive (OEWAMAT).
 
@@ -516,10 +516,10 @@ Pentru linii de producție și ateliere cu compresoare din România, BEKO Techno
       "Filtre CLEARPOINT pentru presiuni de lucru de până la 50 bar",
       "Purjoare BEKOMAT cu funcționare automată, fără pierderi de aer comprimat la evacuare",
       "Separatoare ulei-apă active și pasive, pentru conformarea cu normele de evacuare a condensatului",
-      "Platformă CALMS pentru monitorizarea digitală a calității aerului comprimat din instalație"
+      "Platformă CALMS pentru monitorizarea și gestionarea digitală a sistemului de aer comprimat din instalație"
     ],
     keyProducts: [
-      { name: "Uscătoare cu Adsorbție DRYPOINT", description: "Familie de uscătoare cu adsorbție pentru puncte de rouă scăzute, cu variantele ACC (uscare la cald cu recuperare), ACM (uscare la rece), AC HP pentru presiuni ridicate și ADZ. Reduc conținutul de umiditate din aerul comprimat sub pragul necesar pentru instalații pneumatice sensibile, unde condensul ar putea îngheța sau ar afecta calitatea procesului." },
+      { name: "Uscătoare cu Adsorbție DRYPOINT", description: "Familie de uscătoare cu adsorbție pentru puncte de rouă scăzute, cu variantele ACC (regenerare la rece, fără încălzire, cu punct de rouă de –40 °C la debit nominal), ACM, AC HP pentru presiuni ridicate și ADZ. Reduc conținutul de umiditate din aerul comprimat sub pragul necesar pentru instalații pneumatice sensibile, unde condensul ar putea îngheța sau ar afecta calitatea procesului." },
       { name: "Uscător Frigorific DRYPOINT RA III", description: "Uscător frigorific cu funcționare economică din punct de vedere energetic, folosit pentru aplicații standard de aer comprimat unde nu e nevoie de punct de rouă foarte scăzut. Reprezintă soluția tipică pentru compresoare industriale generale, unde costul de operare pe termen lung contează la fel de mult ca performanța de uscare." },
       { name: "Filtre de Înaltă Presiune CLEARPOINT", description: "Filtre pentru aer comprimat, capabile să lucreze la presiuni de până la 50 bar, folosite pentru reținerea particulelor solide și a aerosolilor de ulei din rețeaua de aer comprimat. Disponibile și în variante sterile pentru aplicații din industria alimentară sau farmaceutică, unde puritatea aerului de proces trebuie certificată." },
       { name: "Purjoare de Condensat BEKOMAT", description: "Purjoare automate de condensat, care evacuează apa acumulată în rezervoarele de aer comprimat sau la punctele joase ale rețelei fără pierderi de aer comprimat, spre deosebire de purjoarele cu robinet manual sau temporizator simplu. Se completează cu separatoarele ulei-apă QWIK PURE (active) și OEWAMAT (pasive) pentru tratarea condensatului evacuat înainte de deversare." }
@@ -534,12 +534,12 @@ Pentru linii de producție și ateliere cu compresoare din România, BEKO Techno
     infinitrade: `Aducem echipamente BEKO Technologies la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia și debitul de aer comprimat solicitate. Nu ținem pe raft toate variantele de debit și presiune — informația despre gamă provine din surse publice ale producătorului, verificată de noi înainte de fiecare ofertă. Pentru o ofertă corectă, trimiteți-ne debitul de aer comprimat al compresorului, presiunea de lucru și punctul de rouă necesar pentru procesul dumneavoastră. Nu promitem disponibilitate din depozit pentru echipamentele din gama de uscare sau filtrare.`,
     limitation: "Nu putem confirma configurarea software a platformei de monitorizare CALMS pentru integrare cu sistemele SCADA existente ale clientului.",
     productCodes: [
-      { code: "DRYPOINT ACC", description: "uscător cu adsorbție, recuperare de căldură" },
-      { code: "DRYPOINT ACM", description: "uscător cu adsorbție la rece" },
+      { code: "DRYPOINT ACC", description: "uscător cu adsorbție, regenerare la rece" },
+      { code: "DRYPOINT ACM", description: "uscător cu adsorbție" },
       { code: "DRYPOINT HL", description: "uscător cu adsorbție, variantă" },
       { code: "DRYPOINT AC HP", description: "uscător cu adsorbție, presiune ridicată" },
-      { code: "DRYPOINT ADZ", description: "uscător cu adsorbție, variantă compactă" },
-      { code: "EVERDRY", description: "uscător cu adsorbție, gamă economică" },
+      { code: "DRYPOINT ADZ", description: "uscător cu adsorbție" },
+      { code: "EVERDRY", description: "uscător cu adsorbție" },
       { code: "DRYPOINT RA III", description: "uscător frigorific, eficiență energetică" },
       { code: "DRYPOINT M plus", description: "uscător cu membrană" },
       { code: "DRYPOINT M eco control", description: "uscător cu membrană, control economic" },
@@ -551,14 +551,14 @@ Pentru linii de producție și ateliere cu compresoare din România, BEKO Techno
       { code: "CALMS", description: "platformă de monitorizare aer comprimat" }
     ],
     faq: [
-      { q: "Ce produce BEKO Technologies?", a: "BEKO Technologies produce uscătoare de aer comprimat (cu adsorbție, frigorifice și cu membrană), filtre, purjoare de condensat și separatoare ulei-apă. Compania germană, activă din 1982, oferă și platforma CALMS pentru monitorizarea digitală a calității aerului comprimat." },
+      { q: "Ce produce BEKO Technologies?", a: "BEKO Technologies produce uscătoare de aer comprimat (cu adsorbție, frigorifice și cu membrană), filtre, purjoare de condensat și separatoare ulei-apă. Compania germană, activă din 1982, oferă și platforma CALMS pentru monitorizarea și gestionarea digitală a sistemului de aer comprimat." },
       { q: "Cum aleg un uscător BEKO Technologies după serie?", a: "Alegerea depinde de debitul compresorului, presiunea de lucru și punctul de rouă necesar procesului: adsorbția (DRYPOINT ACC/ACM) oferă cele mai scăzute puncte de rouă, uscarea frigorifică (RA III) e soluția economică standard, iar membrana (M plus) e potrivită pentru debite mici." },
       { q: "Ce face un purjor BEKOMAT?", a: "BEKOMAT evacuează automat condensatul acumulat în rețeaua de aer comprimat, fără pierderi de aer în timpul purjării, spre deosebire de robinetele manuale sau temporizate. Se folosește la rezervoare, filtre și puncte joase ale rețelei pneumatice." },
       { q: "Livrați BEKO Technologies în România și cât durează?", a: "Da, aducem echipamente BEKO Technologies la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia și debitul de aer comprimat solicitate pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products", url: "https://www.beko-technologies.com/en-en/products/", publisher: "BEKO Technologies GmbH", accessed: "2026-09-25" },
       { title: "Homepage", url: "https://www.beko-technologies.com/", publisher: "BEKO Technologies GmbH", accessed: "2026-09-25" }
@@ -569,18 +569,18 @@ Pentru linii de producție și ateliere cu compresoare din România, BEKO Techno
     headquarters: "Offingen, Germania",
     overview: `BWF Envirotec este un producător german de saci filtranți și medii filtrante pentru desprăfuire industrială, parte a grupului BWF, cu sediul la Offingen. Grupul are o istorie de peste 130 de ani, iar divizia Envirotec s-a specializat pe filtrarea gaz-solid și solid-lichid pentru instalații industriale mari, de la centrale electrice la cimentării. Gama include saci filtranți, filtre plisate din materialul propriu ComPleat®, filtre cartuș și membrane pentru praf fin.
 
-Materialele de bază sunt pâsla acicular (needle felt) și țesătura din fibră de sticlă, alese în funcție de temperatura gazului filtrat și de tipul de particule. Produsul PM-Tec® aduce o membrană laminată din ePTFE pentru captarea prafului fin, cu eficiență de filtrare superioară filtrelor clasice din pâslă. Pentru gaze fierbinți, gama include cartușe cu manșon de tip V-collar sau T-collar, folosite la temperaturi ridicate unde materialele textile obișnuite nu ar rezista. BWF Envirotec concurează pe segmentul de medii filtrante industriale cu producători precum Clarcor sau Donaldson.
+Materialele de bază sunt pâsla aciculară (needle felt) și țesătura din fibră de sticlă, alese în funcție de temperatura gazului filtrat și de tipul de particule. Produsul PM-Tec® aduce o membrană laminată din ePTFE pentru captarea prafului fin, cu eficiență de filtrare superioară filtrelor clasice din pâslă. Pentru gaze fierbinți, gama include cartușe cu manșon de tip V-collar sau T-collar, folosite la temperaturi ridicate unde materialele textile obișnuite nu ar rezista. BWF Envirotec concurează pe segmentul de medii filtrante industriale cu producători precum Clarcor sau Donaldson.
 
 Pentru instalații de desprăfuire din industria cimentului, siderurgie sau incinerare din România, BWF Envirotec înseamnă saci și medii filtrante dimensionate pe temperatura și compoziția gazului de proces, nu module standard generice.`,
     whyChoose: [
       "Peste un secol de experiență a grupului BWF în producția de materiale filtrante industriale",
       "Membrana proprie PM-Tec® din ePTFE, pentru captarea prafului fin la eficiență ridicată",
-      "Materiale filtrante adaptate la temperatură — pâslă acicular sau fibră de sticlă",
+      "Materiale filtrante adaptate la temperatură — pâslă aciculară sau fibră de sticlă",
       "Cartușe pentru gaze fierbinți cu manșon V-collar sau T-collar, pentru temperaturi ridicate",
       "Filtre plisate ComPleat® pentru suprafață de filtrare mărită în același gabarit"
     ],
     keyProducts: [
-      { name: "Saci Filtranți (Filter Bags)", description: "Saci filtranți din pâslă acicular sau țesătură de fibră de sticlă, dimensionați pe temperatura și compoziția gazului de proces, pentru instalații de desprăfuire industrială. Alegerea materialului depinde de temperatura maximă a gazului și de prezența componentelor chimice agresive, precum acizii din gazele de ardere." },
+      { name: "Saci Filtranți (Filter Bags)", description: "Saci filtranți din pâslă aciculară sau țesătură de fibră de sticlă, dimensionați pe temperatura și compoziția gazului de proces, pentru instalații de desprăfuire industrială. Alegerea materialului depinde de temperatura maximă a gazului și de prezența componentelor chimice agresive, precum acizii din gazele de ardere." },
       { name: "Filtre Plisate ComPleat®", description: "Filtre plisate fabricate din materialul propriu ComPleat®, cu suprafață de filtrare mărită față de un sac filtrant clasic de aceleași dimensiuni exterioare. Utile acolo unde spațiul disponibil pentru instalația de filtrare e limitat, dar debitul de gaz de filtrat rămâne ridicat." },
       { name: "Membrană PM-Tec® pentru Praf Fin", description: "Membrană laminată din ePTFE, aplicată pe medii filtrante clasice pentru a crește eficiența de captare a particulelor fine, sub pragul reținut de un filtru textil obișnuit. Recomandată pentru instalații cu cerințe stricte de emisii de praf fin la coșul de evacuare." },
       { name: "Cartușe pentru Gaze Fierbinți", description: "Cartușe filtrante cu manșon de etanșare tip V-collar sau T-collar, concepute pentru filtrarea gazelor la temperaturi ridicate, unde materialele textile standard și-ar pierde rezistența mecanică. Folosite tipic la instalații de incinerare sau procese metalurgice cu emisii calde." }
@@ -595,7 +595,7 @@ Pentru instalații de desprăfuire din industria cimentului, siderurgie sau inci
     infinitrade: `Aducem saci și medii filtrante BWF Envirotec la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de material și dimensiunea cerută. Fără date proprii de stoc pentru fiecare combinație de material, dimensiune și temperatură — lucrăm din surse publice ale producătorului și confirmăm parametrii exacți înainte de a face o ofertă. Pentru o ofertă corectă, trimiteți-ne temperatura gazului de proces, compoziția chimică a emisiilor și dimensiunile actualilor saci sau cartușe filtrante din instalație. Nu promitem disponibilitate din depozit pentru niciun tip de mediu filtrant.`,
     limitation: "Nu putem confirma proiectarea completă a instalației de desprăfuire, calculată de obicei împreună cu un integrator specializat în filtrare industrială.",
     productCodes: [
-      { code: "Saci filtranți pâslă acicular", description: "material filtrant standard, temperaturi medii" },
+      { code: "Saci filtranți pâslă aciculară", description: "material filtrant standard, temperaturi medii" },
       { code: "Saci filtranți fibră de sticlă", description: "material filtrant temperaturi ridicate" },
       { code: "ComPleat® filtru plisat", description: "suprafață de filtrare mărită, gabarit redus" },
       { code: "PM-Tec®", description: "membrană ePTFE pentru praf fin" },
@@ -604,18 +604,18 @@ Pentru instalații de desprăfuire din industria cimentului, siderurgie sau inci
       { code: "Filtre cu manșon T-collar", description: "cartușe gaze fierbinți, etanșare T" },
       { code: "Filtre HVAC", description: "filtre pentru ventilație generală și custom" },
       { code: "Țesături filtrante solid-lichid", description: "filtrare pentru separare solid-lichid" },
-      { code: "Coliere suport (supporting cages)", description: "accesoriu susținere sac filtrant" },
-      { code: "Pudră de etanșare (leakage powder)", description: "accesoriu etanșare puncte de montaj" }
+      { code: "Colivii de susținere (supporting cages)", description: "accesoriu susținere sac filtrant" },
+      { code: "Pudră pentru testarea scurgerilor (leakage powder)", description: "material de testare a etanșeității instalației" }
     ],
     faq: [
       { q: "Ce produce BWF Envirotec?", a: "BWF Envirotec produce saci filtranți, filtre plisate și medii filtrante pentru desprăfuirea instalațiilor industriale mari — centrale electrice, cimentării, oțelării și instalații de incinerare. Compania face parte din grupul german BWF, cu sediul la Offingen." },
-      { q: "Cum aleg un sac filtrant BWF Envirotec după material?", a: "Alegerea materialului (pâslă acicular sau fibră de sticlă) depinde de temperatura maximă a gazului de proces și de prezența componentelor chimice agresive. Trimiteți-ne temperatura și compoziția emisiilor pentru identificarea materialului potrivit." },
+      { q: "Cum aleg un sac filtrant BWF Envirotec după material?", a: "Alegerea materialului (pâslă aciculară sau fibră de sticlă) depinde de temperatura maximă a gazului de proces și de prezența componentelor chimice agresive. Trimiteți-ne temperatura și compoziția emisiilor pentru identificarea materialului potrivit." },
       { q: "Ce este membrana PM-Tec® de la BWF Envirotec?", a: "PM-Tec® este o membrană laminată din ePTFE aplicată pe medii filtrante clasice, care crește eficiența de captare a particulelor fine de praf peste ce reține un filtru textil standard, utilă acolo unde limitele de emisii sunt stricte." },
       { q: "Livrați BWF Envirotec în România și cât durează?", a: "Da, aducem saci și medii filtrante BWF Envirotec la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de material și dimensiunile solicitate pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Envirotec Products", url: "https://bwf-group.com/en/envirotec/products/", publisher: "BWF Group", accessed: "2026-09-25" },
       { title: "Envirotec Homepage", url: "https://bwf-group.com/en/envirotec/", publisher: "BWF Group", accessed: "2026-09-25" }
@@ -634,7 +634,7 @@ Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice di
       "Peste 65 de ani de experiență dedicată exclusiv separării magnetice și detecției metalelor",
       "Gamă completă pentru materiale feroase, neferoase și oțel inoxidabil slab magnetic",
       "Separatoare cu curenți turbionari pentru recuperarea aluminiului și cuprului din fluxuri de reciclare",
-      "Detectoare de metale seria Performer, inclusiv variante certificate pentru industria alimentară",
+      "Detectoare de metale seria Performer, inclusiv variante pentru industria alimentară (Performer Hygiene Elite)",
       "Două sedii de producție — Newton (SUA) și Redditch (Marea Britanie) — pentru acoperire globală"
     ],
     keyProducts: [
@@ -653,7 +653,7 @@ Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice di
     infinitrade: `Aducem separatoare magnetice și detectoare de metale Bunting la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul de echipament și dimensiunile solicitate. Nu avem date proprii de stoc pentru fiecare model și dimensiune — informația despre gamă provine din surse publice ale producătorului, verificată de noi înainte de fiecare ofertă. Pentru o ofertă corectă, trimiteți-ne lățimea benzii transportoare sau a conductei, tipul de material (feros, neferos sau alimentar) și debitul de proces. Nu promitem disponibilitate din depozit pentru echipamentele din gama de separare magnetică.`,
     limitation: "Nu putem confirma dimensionarea sistemelor complete de separare pentru instalații de reciclare la scară mare, calculate individual de producător.",
     productCodes: [
-      { code: "ElectroMax Overband Magnet", description: "separator electromagnetic suspendat, răcire aeriană" },
+      { code: "ElectroMax Overband Magnet", description: "separator electromagnetic suspendat" },
       { code: "HFS Food Drawer Magnet", description: "magnet tip sertar, industrie alimentară" },
       { code: "Drum Magnet", description: "magnet cu tambur, separare continuă" },
       { code: "Center Flow Magnet", description: "magnet inline, sisteme pneumatice/gravitaționale" },
@@ -679,8 +679,8 @@ Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice di
       { q: "Livrați Bunting Magnetics în România și cât durează?", a: "Da, aducem separatoare magnetice și detectoare de metale Bunting la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul de echipament și dimensiunile solicitate pentru linia dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Homepage", url: "https://www.buntingmagnetics.com/", publisher: "Bunting Magnetics Co.", accessed: "2026-09-25" },
       { title: "Catalogs", url: "https://buntingmagnetics.com/catalogs", publisher: "Bunting Magnetics Co.", accessed: "2026-09-25" },
@@ -690,16 +690,16 @@ Pentru linii de reciclare, procesare alimentară și prelucrare mase plastice di
   'buhler-technologies': {
     name: "Bühler Technologies",
     headquarters: "Ratingen, Germania",
-    overview: `Bühler Technologies este un producător german de componente pentru analiza gazelor și controlul fluidelor hidraulice, cu sediul la Ratingen și peste 50 de ani de activitate. Compania e organizată pe două divizii: Analysentechnik, pentru sisteme de prelevare și condiționare a gazului de măsură, și Fluidcontrol, pentru monitorizarea și răcirea uleiurilor hidraulice și de ungere. Prezența acoperă peste 50 de țări, cu filiale în Franța, Italia, SUA, China, India și Japonia.
+    overview: `Bühler Technologies este un producător german de componente pentru analiza gazelor și controlul fluidelor hidraulice, cu sediul la Ratingen și peste 50 de ani de activitate. Compania e organizată pe două divizii: Analysentechnik, pentru sisteme de prelevare și condiționare a gazului de măsură, și Fluidcontrol, pentru monitorizarea și răcirea uleiurilor hidraulice și de ungere. Prezența acoperă peste 50 de țări, cu birouri de vânzări proprii în Franța, SUA și China și cu agenți și distribuitori în alte piețe.
 
-Pe partea de analiză a gazelor, gama include sonde de prelevare (sample gas probes), filtre și pompe de gaz de măsură, plus răcitoare de gaz de măsură în variante electrice, cu apă sau precoolere, folosite pentru condiționarea probei înainte de analizor. Pentru sistemele hidraulice, divizia Fluidcontrol oferă monitorizare de nivel, temperatură și presiune direct în rezervor, senzori de calitate a uleiului și răcitoare ulei-apă sau ulei-aer. Bühler concurează pe segmentul de monitorizare a fluidelor hidraulice cu producători precum Hydac sau parker, diferența fiind portofoliul dublu, de analiză a gazelor și control de fluide, sub aceeași marcă.
+Pe partea de analiză a gazelor, gama include sonde de prelevare (sample gas probes), filtre și pompe de gaz de măsură, plus răcitoare de gaz de măsură în variante electrice, cu apă sau precoolere, folosite pentru condiționarea probei înainte de analizor. Pentru sistemele hidraulice, divizia Fluidcontrol oferă monitorizare de nivel, temperatură și presiune direct în rezervor, senzori de calitate a uleiului și răcitoare ulei-apă sau ulei-aer. Bühler concurează pe segmentul de monitorizare a fluidelor hidraulice cu producători precum Hydac sau Parker, diferența fiind portofoliul dublu, de analiză a gazelor și control de fluide, sub aceeași marcă.
 
 Pentru instalații industriale cu sisteme hidraulice și stații de analiză a emisiilor din România, Bühler Technologies înseamnă componente pentru monitorizarea stării uleiului și pentru pregătirea corectă a probei de gaz înainte de măsurătoare.`,
     whyChoose: [
       "Peste 50 de ani de experiență pe două domenii complementare — analiza gazelor și controlul fluidelor",
       "Certificare ISO 9001:2015 și management de calitate certificat ATEX pentru zone cu risc de explozie",
       "Senzori de calitate a uleiului pentru monitorizarea continuă a stării fluidului hidraulic",
-      "Rețea de filiale în peste 50 de țări, pentru suport tehnic aproape de instalația clientului",
+      "Prezență în peste 50 de țări, prin birouri proprii și distribuitori, pentru suport tehnic aproape de instalația clientului",
       "Compatibilitate IO-Link pentru integrarea senzorilor în sisteme de automatizare moderne"
     ],
     keyProducts: [
@@ -711,7 +711,7 @@ Pentru instalații industriale cu sisteme hidraulice și stații de analiză a e
     industries: [
       "Monitorizarea emisiilor — condiționare probă de gaz pentru analizoare",
       "Sisteme hidraulice industriale — monitorizare nivel, temperatură și calitate ulei",
-      "Energie — răcire ulei pentru turbine și transformatoare",
+      "Energie — monitorizare și răcire ulei în sisteme hidraulice și de ungere",
       "Prelucrarea metalelor — răcire ulei hidraulic pentru prese și mașini-unelte",
       "Chimie și petrochimie — analiză gaze de proces în zone cu risc de explozie"
     ],
@@ -745,8 +745,8 @@ Pentru instalații industriale cu sisteme hidraulice și stații de analiză a e
       { q: "Livrați Bühler Technologies în România și cât durează?", a: "Da, aducem componente Bühler Technologies la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de familia și configurația tehnică solicitate pentru instalația dumneavoastră. Nu ținem această gamă pe raft." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Homepage EN", url: "https://www.buehler-technologies.com/en/", publisher: "Bühler Technologies GmbH", accessed: "2026-09-25" },
       { title: "Homepage", url: "https://www.buehler-technologies.com/", publisher: "Bühler Technologies GmbH", accessed: "2026-09-25" }

@@ -3,14 +3,14 @@
 export const brandContentBatch143 = {
   'tranter': {
     name: "Tranter",
-    overview: `Tranter este un producător american de schimbătoare de căldură, cu activitate globală prin filiale și rețele de service pe mai multe continente. Gama de bază acoperă trei principii constructive: Superchanger® cu plăci gasketate și cadru demontabil, NovusBloc® cu plăci integral sudate în bloc, și Supermax® cu plăci sudate montate într-o carcasă tip shell-and-plate. Din această gamă putem oferta pentru instalații industriale, energetice și HVAC din România, unde fluidul sau presiunea de lucru depășesc ce acoperă o pompă sau un schimbător standard cu garnituri.
+    overview: `Tranter este un producător american de schimbătoare de căldură, cu activitate globală prin filiale și rețele de service pe mai multe continente. Gama de bază acoperă trei principii constructive: Superchanger® cu plăci gasketate și cadru demontabil, NovusBloc® cu plăci integral sudate în bloc, și Supermax® cu plăci sudate montate într-o carcasă tip shell-and-plate. Din această gamă putem oferta pentru instalații industriale, energetice și HVAC din România, unde fluidul sau presiunea de lucru depășesc ce acoperă un schimbător standard cu garnituri.
 
 Diferența dintre cele trei familii ține de presiune, temperatură și tipul de fluid. NovusBloc® acoperă un interval de proiectare de la -50°C la 350°C, cu presiuni de până la 42 bar și suprafețe de transfer de la 6,6 până la 865 m² pe set, în plăci din inox 316L, 254 SMO sau C-276. Supermax® merge mai departe pe presiune — până la 130 bar la varianta integral sudată și 70 bar la varianta demontabilă — și pe temperatură, între -196°C și 540°C, fiind gândit pentru fluide criogenice sau termice extreme. Seria Superchanger® rămâne varianta gasketată clasică, cu subfamilii GT pentru presiuni mai mari, GX pentru debite dezechilibrate și GD cu placă dublă pentru fluide care nu trebuie amestecate.
 
 Pentru un integrator din energie, petrochimie sau district heating din România, Tranter înseamnă acces la trei principii constructive diferite sub același producător, utile atunci când un proiect trece de la o aplicație standard la una cu presiune sau temperatură ridicată fără schimbarea furnizorului.`,
     whyChoose: [
       "Trei principii constructive sub un singur producător — gasketat, sudat în bloc și shell-and-plate — pentru a acoperi game largi de presiune și temperatură",
-      "NovusBloc® acoperă interval de proiectare de la -50°C la 350°C, util la fluide criogenice și termice deopotrivă",
+      "NovusBloc® acoperă un interval de proiectare de la -50°C la 350°C, pentru fluide reci și calde deopotrivă",
       "Supermax® ajunge la 130 bar în varianta sudată, pentru procese unde un schimbător gasketat nu rezistă",
       "Subfamilii Superchanger® dedicate — GT pentru presiune, GX pentru debite dezechilibrate, GD cu placă dublă anti-amestec",
       "Materiale de placă variate — inox 316L, 254 SMO, C-276 — alese după compatibilitatea chimică a fluidului",
@@ -45,14 +45,14 @@ Pentru un integrator din energie, petrochimie sau district heating din România,
     ],
     faq: [
       { q: "Ce fel de schimbătoare de căldură produce Tranter?", a: "Tranter, producător american, fabrică trei familii de schimbătoare: Superchanger® cu plăci gasketate și cadru demontabil, NovusBloc® cu plăci sudate în bloc, și Supermax® cu plăci sudate în carcasă shell-and-plate. Alegerea între ele depinde de presiunea, temperatura și fluidul din proces." },
-      { q: "Cum aleg între NovusBloc și Supermax de la Tranter?", a: "NovusBloc® acoperă -50°C până la 350°C și 42 bar, potrivit pentru majoritatea proceselor industriale. Supermax® merge la presiuni de până la 130 bar și temperaturi între -196°C și 540°C, pentru aplicații criogenice sau termice extreme unde NovusBloc nu ajunge." },
+      { q: "Cum aleg între NovusBloc și Supermax de la Tranter?", a: "NovusBloc® acoperă -50°C până la 350°C și 42 bar. Supermax® merge la presiuni de până la 130 bar și temperaturi între -196°C și 540°C, pentru aplicații criogenice sau termice extreme unde NovusBloc nu ajunge." },
       { q: "Livrați schimbătoare Tranter în România și cât durează?", a: "Da, la comandă, prin import — nu ținem această gamă pe raft. Termenul orientativ este de 1–4 săptămâni, în funcție de familia aleasă, de configurația cerută și de confirmarea producătorului american." },
       { q: "Ce trebuie să trimit pentru o ofertă de schimbător Tranter?", a: "Fluidele de pe ambele circuite, debitul, presiunea și temperatura de lucru, plus preferința de familie constructivă dacă proiectul o cere. Cu aceste date verificăm la producător configurația potrivită înainte de a pregăti oferta." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Tranter — Heat Exchanger Manufacturer", url: "https://www.tranter.com/", publisher: "Tranter Inc.", accessed: "2026-09-26" },
       { title: "NovusBloc Welded Plate Heat Exchangers", url: "https://www.tranter.com/heat-exchangers/welded-plate/", publisher: "Tranter Inc.", accessed: "2026-09-26" },
@@ -66,15 +66,15 @@ Pentru un integrator din energie, petrochimie sau district heating din România,
     headquarters: "Bretten, Germania",
     overview: `API Schmidt-Bretten este un producător german de schimbătoare de căldură cu plăci, cu sediul la Bretten, activ din 1879, când a pornit de la un brevet propriu de răcitor. Gama actuală se construiește în jurul mărcii SIGMA: SIGMA pentru varianta gasketată clasică, SIGMADUAL pentru cea semi-sudată, SIGMASHELL pentru configurația plăci-și-carcasă, și SIGMAWIG pentru varianta integral sudată. Din această gamă putem oferta pentru procese industriale și energetice din România acolo unde fiabilitatea termică pe termen lung contează mai mult decât costul inițial.
 
-Seria SIGMA gasketată acoperă un interval de temperatură între -29°C și 200°C, presiuni de la vid până la 25 bar și debite volumice de peste 4.500 m³/h, cu conexiuni de până la DN500 — parametri suficienți pentru majoritatea circuitelor de proces industrial. SIGMASHELL urcă suprafața de transfer până la 700 m², fiind varianta fără garnituri pentru presiuni mai ridicate, iar SIGMAWIG este descrisă de producător drept cea mai compactă și robustă soluție de transfer termic din portofoliu. Compania rămâne un nume de referință în segmentul schimbătoarelor de plăci european, alături de alți producători germani specializați în aceeași categorie.
+Seria SIGMA gasketată acoperă un interval de temperatură între -29°C și 200°C, presiuni de la vid până la 25 bar și debite volumice de peste 4.500 m³/h, cu conexiuni de până la DN500 — parametri suficienți pentru majoritatea circuitelor de proces industrial. SIGMASHELL urcă suprafața de transfer până la 700 m², fiind varianta fără garnituri pentru presiuni mai ridicate, iar SIGMAWIG este descrisă de producător drept cea mai compactă și robustă soluție de transfer termic din portofoliu.
 
-Pentru un integrator din industria alimentară, chimică sau energetică din România, API Schmidt-Bretten înseamnă acces la patru principii constructive sub aceeași marcă, cu peste un secol de experiență în spatele designului de placă.`,
+Pentru un integrator din industria alimentară, chimică sau energetică din România, API Schmidt-Bretten înseamnă acces la patru principii constructive sub aceeași marcă, cu peste 140 de ani de activitate de la brevetul din 1879.`,
     whyChoose: [
       "Patru variante constructive sub marca SIGMA — gasketată, semi-sudată, plăci-și-carcasă și integral sudată — pentru fiecare nivel de presiune",
       "SIGMA gasketată acoperă -29°C până la 200°C și presiuni de la vid până la 25 bar, cu debite de peste 4.500 m³/h",
       "SIGMASHELL urcă suprafața de transfer până la 700 m² într-o construcție fără garnituri",
-      "Peste un secol de experiență în designul de plăci, de la brevetul original din 1879",
-      "Producție concentrată la Bretten, Germania, cu operațiuni de suport pe trei continente",
+      "Peste 140 de ani de activitate, de la brevetul de răcitor din 1879",
+      "Sediu la Bretten, Germania, în cadrul API Heat Transfer Group, cu prezență pe trei continente (Europa, Asia și America)",
     ],
     keyProducts: [
       { name: "SIGMA (schimbător gasketat)", description: "Schimbător cu plăci gasketate clasic, cu plăci ondulate montate între o placă fixă și una mobilă de presiune. Interval de temperatură -29°C până la 200°C, presiune de la vid până la 25 bar, debit volumic de peste 4.500 m³/h, conexiuni de până la DN500. Potrivit pentru procese industriale unde întreținerea periodică prin deschiderea pachetului de plăci este acceptabilă." },
@@ -88,7 +88,7 @@ Pentru un integrator din industria alimentară, chimică sau energetică din Rom
       "Energie și producție electrică — răcire de proces și recuperare de căldură",
       "Piețe industriale generale — fiabilitate de proces pe termen lung cu suport tehnic dedicat",
     ],
-    certifications: ["ISO 9001:2015 — sistem de management al calității", "ASME Certificate of Authorization — fabricație conform standardului american pentru echipamente sub presiune", "Directiva PED 2014/68/UE, Module H1 și H — conformitate europeană pentru echipamente sub presiune"],
+    certifications: ["Certificările și conformitatea cu directiva PED pentru echipamente sub presiune se confirmă pe proiect, din documentația producătorului"],
     infinitrade: `Furnizăm schimbătoare API Schmidt-Bretten din gama SIGMA la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de varianta constructivă aleasă și de confirmarea producătorului german. Datele tehnice de mai sus provin din surse publice ale producătorului, nu din documentație internă — spunem clar unde se oprește ce putem confirma și unde e nevoie de fișa tehnică a proiectului. Pentru ofertă trimiteți fluidul vehiculat, debitul și presiunea de lucru, temperatura de intrare/ieșire și varianta preferată dintre SIGMA, SIGMADUAL, SIGMASHELL sau SIGMAWIG. Nu ținem această gamă pe raft; fiecare configurație se dimensionează și se confirmă înainte de comandă.`,
     limitation: "Nu putem confirma existența unei rețele de service local în România a producătorului sau disponibilitatea imediată a plăcilor de schimb pentru fiecare variantă SIGMA.",
     productCodes: [
@@ -113,8 +113,8 @@ Pentru un integrator din industria alimentară, chimică sau energetică din Rom
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "API Schmidt-Bretten — Home", url: "https://www.apischmidt-bretten.de/en/", publisher: "API Schmidt-Bretten GmbH & Co. KG", accessed: "2026-09-26" },
       { title: "SIGMA Gasketed Plate Heat Exchanger", url: "https://www.apischmidt-bretten.de/en/sigma-gasketed-plate-heat-exchanger/", publisher: "API Schmidt-Bretten GmbH & Co. KG", accessed: "2026-09-26" },
@@ -126,7 +126,7 @@ Pentru un integrator din industria alimentară, chimică sau energetică din Rom
     headquarters: "Poole, Marea Britanie",
     overview: `HRS Heat Exchangers este un producător britanic de schimbătoare de căldură tubulare, cu sediul la Poole și fabrici de producție inclusiv în Spania, activ din 1981. Gama acoperă schimbătoare cu tub dublu (Double Tube), multitubulare (Multitube), cu spațiu inelar (Annular Space) și cu suprafață răzuită (Scraped Surface), plus sisteme complete de pasteurizare, evaporare și tratare a apelor uzate. Din această gamă putem oferta pentru instalații din industria alimentară, tratarea apelor și energie regenerabilă din România.
 
-Ce diferențiază HRS este acoperirea fluidelor dificile: seria Scraped Surface, cu variantele reciprocante Unicus și rotative R, e gândită pentru produse vâscoase, cu particule sau care depun crustă pe suprafața de schimb, unde un schimbător cu plăci clasic s-ar înfunda rapid. Seriile Double Tube (DTA pentru variante igienice, DTI industrială, DTIR cu tuburi demontabile) și Multitube (C, K, K-CIP cu curățare în circuit, MI sanitară, MR cu tuburi demontabile) acoperă transferul termic clasic pentru lichide vâscoase sau cu conținut solid moderat. Concurența pe acest segment vine din producători tubulari specializați, dar HRS rămâne un nume cu portofoliu larg de configurații pentru fluide dificile.
+Ce diferențiază HRS este acoperirea fluidelor dificile: seria Scraped Surface, cu variantele reciprocante Unicus și rotative R, e gândită pentru produse vâscoase, cu particule sau care depun crustă pe suprafața de schimb, unde un schimbător cu plăci clasic s-ar înfunda rapid. Seriile Double Tube (DTA pentru variante igienice, DTI industrială, DTIR cu tuburi demontabile) și Multitube (C, K, K-CIP cu curățare în circuit, MI sanitară, MR cu tuburi demontabile) acoperă transferul termic clasic pentru lichide vâscoase sau cu conținut solid moderat.
 
 Pentru un integrator din biogaz, industria alimentară sau tratarea nămolurilor din România, HRS înseamnă acces la scheme constructive alternative acolo unde un schimbător cu plăci sau tubular standard nu face față vâscozității sau conținutului solid al fluidului.`,
     whyChoose: [
@@ -140,11 +140,11 @@ Pentru un integrator din biogaz, industria alimentară sau tratarea nămolurilor
       { name: "Double Tube — seriile DTA/DTI/DTIR", description: "Schimbătoare cu tub dublu, în variantă igienică (DTA), industrială (DTI) sau cu tuburi demontabile pentru curățare mecanică (DTIR). Construcție cu tub interior prin care circulă produsul și tub exterior pentru agentul termic, potrivită pentru fluide vâscoase sau cu particule mici care ar bloca un schimbător cu plăci." },
       { name: "Multitube — seriile C/K/K-CIP/MI/MR", description: "Familie multitubulară cu variante pentru aplicații sanitare (MI), industriale (C, K) sau cu curățare în circuit fără demontare (K-CIP), plus varianta cu tuburi demontabile (MR) pentru intervenții mecanice. Folosită la pasteurizare, răcire sau încălzire de produse alimentare și industriale vâscoase." },
       { name: "Scraped Surface — seriile Unicus și R", description: "Schimbătoare cu suprafață răzuită, în variantă reciprocantă (Unicus, pentru mediu și food) sau rotativă (R, cu variantă heavy-duty RHD), gândite pentru produse foarte vâscoase, cu particule sau predispuse la depunere pe suprafața de transfer. Un răzuitor mecanic curăță continuu peretele de schimb, menținând eficiența termică." },
-      { name: "Annular Space — seriile AS 3 și AS 4", description: "Configurație cu spațiu inelar între tuburi concentrice, disponibilă în variantă cu trei (AS 3) sau patru tuburi (AS 4), pentru produse cu vâscozitate ridicată care circulă în stratul subțire dintre tuburi, o alternativă la tubul dublu clasic la debite mai mari." },
+      { name: "Annular Space — seriile AS 3 și AS 4", description: "Configurație cu spațiu inelar între tuburi concentrice, disponibilă în variantă cu trei (AS 3) sau patru tuburi (AS 4), conform gamei publicate de producător; detaliile de aplicare se confirmă din documentația HRS." },
     ],
     industries: [
       "Industria alimentară — pasteurizare și răcire de produse vâscoase cu particule",
-      "Biogaz și anaerobă — deshidratare digestat cu seria BDS și schimbătoare tubulare",
+      "Biogaz și anaerobă — dezumidificarea biogazului cu sistemul BDS și schimbătoare tubulare",
       "Tratarea apelor uzate — transfer termic pe nămol cu Scraped Surface",
       "Produse farmaceutice — variante sanitare din seriile Multitube și Double Tube",
       "Chimie industrială — fluide vâscoase sau corozive în configurație tubulară",
@@ -176,8 +176,8 @@ Pentru un integrator din biogaz, industria alimentară sau tratarea nămolurilor
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "HRS Heat Exchangers — Home", url: "https://www.hrs-heatexchangers.com/", publisher: "HRS Heat Exchangers Ltd", accessed: "2026-09-26" },
       { title: "Heat Exchangers — Product Range", url: "https://www.hrs-heatexchangers.com/heat-exchangers/", publisher: "HRS Heat Exchangers Ltd", accessed: "2026-09-26" },
@@ -189,18 +189,18 @@ Pentru un integrator din biogaz, industria alimentară sau tratarea nămolurilor
     headquarters: "Finlanda",
     overview: `Vahterus este un producător finlandez specializat exclusiv în schimbătoare de căldură de tip Plate & Shell (PSHE) — plăci circulare sudate montate într-o carcasă cilindrică, fără garnituri expuse fluidului. Compania se prezintă pe site-ul propriu ca inventatorul acestei construcții, cu peste trei decenii de dezvoltare a tehnologiei. Gama include variante integral sudate, deschise pentru inspecție (openable), tip kettle pentru evaporare, și configurații combinate cu separator sau cu mai multe condensatoare. Din această gamă putem oferta pentru procese industriale, energie și refrigerare din România acolo unde absența garniturilor contează pentru siguranța instalației.
 
-Construcția Plate & Shell elimină garniturile dintre plăci — plăcile circulare sunt sudate direct între ele, iar pachetul e introdus într-o carcasă sudată — ceea ce reduce riscul de scurgere la interfața dintre plăci comparativ cu un schimbător gasketat clasic. Varianta openable păstrează totuși un capac demontabil pentru inspecția interioară periodică, un compromis între siguranța sudurii și posibilitatea de verificare vizuală. Variantele kettle și cu separator sunt gândite pentru evaporare și schimbări de fază, unde geometria cilindrică a carcasei ajută la separarea gaz-lichid. Pe segmentul PSHE, Vahterus concurează cu alți producători scandinavi și central-europeni de schimbătoare fără garnituri.
+Construcția Plate & Shell elimină garniturile dintre plăci — plăcile circulare sunt sudate direct între ele, iar pachetul e introdus într-o carcasă sudată — ceea ce reduce riscul de scurgere la interfața dintre plăci comparativ cu un schimbător gasketat clasic. În varianta openable, pachetul de plăci de tip casetă poate fi scos din carcasa cu flanșe și șuruburi, pentru inspecție sau curățare mecanică. Variantele kettle și cu separator sunt gândite pentru evaporare și schimbări de fază, unde geometria cilindrică a carcasei ajută la separarea gaz-lichid.
 
 Pentru un integrator din energie, chimie sau refrigerare industrială din România, Vahterus înseamnă o alternativă fără garnituri la schimbătoarele cu plăci clasice, acolo unde etanșeitatea pe termen lung contează mai mult decât costul inițial.`,
     whyChoose: [
       "Construcție Plate & Shell fără garnituri între plăci — plăcile circulare sunt sudate direct, nu presate cu etanșare elastomerică",
-      "Variantă openable cu capac demontabil, pentru inspecție vizuală periodică fără sacrificarea sudurii dintre plăci",
+      "Variantă openable, cu pachet de plăci de tip casetă care poate fi scos din carcasă pentru inspecție sau curățare mecanică",
       "Configurații dedicate evaporării — tip kettle și cu separator integrat pentru schimbări de fază",
       "Peste trei decenii de dezvoltare exclusivă pe această construcție, potrivit informațiilor publicate de producător",
     ],
     keyProducts: [
       { name: "PSHE Fully Welded (integral sudat)", description: "Configurația de bază Vahterus, cu plăci circulare sudate între ele și carcasă complet sudată, fără garnituri expuse fluidului pe niciun circuit. Recomandată acolo unde riscul de scurgere trebuie minimizat, chiar cu prețul unui acces mai limitat pentru inspecția internă directă." },
-      { name: "PSHE Openable (deschis pentru inspecție)", description: "Variantă cu capac demontabil pe una dintre extremitățile carcasei, care permite inspecția vizuală a pachetului de plăci fără a compromite sudura dintre plăci. Util în industrii unde reglementările cer verificare periodică a suprafeței interioare de schimb." },
+      { name: "PSHE Openable (deschis pentru inspecție)", description: "Variantă cu carcasă prinsă cu flanșe și șuruburi, din care pachetul de plăci de tip casetă poate fi scos pentru inspecție sau curățare mecanică, ceea ce reduce timpul de oprire a procesului." },
       { name: "PSHE Kettle Type Evaporator", description: "Configurație dedicată evaporării, cu geometria carcasei gândită pentru separarea fazei gazoase de cea lichidă direct în corpul schimbătorului, reducând nevoia de echipamente separate de separare în aval." },
       { name: "PSHE cu Separator / Multi-Condenser", description: "Configurații combinate care integrează un separator gaz-lichid sau mai multe trepte de condensare în același corp de schimbător, pentru procese cu schimbare de fază pe mai multe niveluri de presiune sau temperatură." },
     ],
@@ -208,32 +208,32 @@ Pentru un integrator din energie, chimie sau refrigerare industrială din Român
       "Energie — recuperare de căldură și cicluri termice la temperaturi ridicate",
       "Refrigerare industrială — condensare și evaporare cu agenți frigorifici naturali",
       "Chimie și procesare — fluide unde etanșeitatea fără garnituri reduce riscul de scurgere",
-      "Marină — răcire de proces în spații cu acces limitat la echipamente mari",
+      "Marină — unul dintre sectoarele servite de producător",
     ],
     infinitrade: `Furnizăm schimbătoare Vahterus la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de configurația aleasă și de confirmarea producătorului finlandez. Informația tehnică disponibilă public pe site-ul Vahterus este limitată la nivel de configurație constructivă, fără fișe de parametri publicate integral — spunem clar acest lucru înainte de a pregăti orice ofertă. Pentru dimensionare avem nevoie de fluidele de pe ambele circuite, debitul, presiunea și temperaturile de lucru, plus tipul de configurație preferat (integral sudat, openable sau kettle) dacă procesul implică evaporare. Nu ținem această gamă pe raft; fiecare unitate se dimensionează direct cu producătorul.`,
     limitation: "Nu putem confirma valorile exacte de presiune, temperatură sau suprafață de transfer pentru fiecare configurație PSHE fără fișa tehnică dedicată, obținută direct de la producătorul finlandez pentru proiectul specific.",
     productCodes: [
       { code: "PSHE Fully Welded", description: "plăci sudate integral, fără garnituri expuse fluidului" },
-      { code: "PSHE Openable", description: "capac demontabil pentru inspecție vizuală internă" },
+      { code: "PSHE Openable", description: "pachet de plăci demontabil din carcasă, pentru inspecție și curățare mecanică" },
       { code: "PSHE Kettle Type Evaporator", description: "configurație dedicată evaporării, cu separare de fază" },
       { code: "PSHE Exhaust Gas Economizer", description: "configurație pentru recuperare de căldură din gaze de eșapament" },
       { code: "PSHE & Separator System", description: "schimbător combinat cu separator gaz-lichid integrat" },
       { code: "PSHE Multi-Condenser", description: "configurație cu mai multe trepte de condensare în același corp" },
       { code: "PSHE Construction (design de bază)", description: "plăci circulare sudate, montate în carcasă cilindrică" },
-      { code: "PSHE pentru Oil & Gas", description: "variantă orientată spre aplicații din industria petrolieră" },
+      
       { code: "PSHE pentru refrigerare industrială", description: "configurație pentru condensare cu agenți frigorifici naturali" },
       { code: "PSHE pentru energie", description: "configurație pentru recuperare de căldură în cicluri termice" },
     ],
     faq: [
       { q: "Ce fel de schimbătoare produce Vahterus?", a: "Vahterus, producător finlandez, fabrică exclusiv schimbătoare Plate & Shell (PSHE) — plăci circulare sudate montate într-o carcasă cilindrică, fără garnituri expuse fluidului, în configurații integral sudate, openable sau tip kettle pentru evaporare." },
-      { q: "Ce diferență e între varianta Fully Welded și Openable la Vahterus?", a: "Varianta Fully Welded are întreaga carcasă sudată, fără acces direct în interior. Varianta Openable păstrează un capac demontabil pe o extremitate, pentru inspecție vizuală periodică, fără să afecteze sudura dintre plăcile propriu-zise." },
+      { q: "Ce diferență e între varianta Fully Welded și Openable la Vahterus?", a: "Varianta Fully Welded are întreaga carcasă sudată, fără acces direct în interior. În varianta Openable, pachetul de plăci poate fi scos din carcasă, pentru inspecție sau curățare mecanică." },
       { q: "Livrați schimbătoare Vahterus în România?", a: "Da, la comandă, prin import din Finlanda sau canale UE — nu ținem această gamă pe raft. Termenul orientativ este de 1–4 săptămâni, în funcție de configurația aleasă și de confirmarea producătorului." },
       { q: "Ce trebuie să trimit pentru o ofertă de schimbător Vahterus?", a: "Fluidele de pe ambele circuite, debitul, presiunea și temperaturile de lucru, plus tipul de configurație dorit (integral sudat, openable sau kettle pentru evaporare), ca să pregătim cererea de dimensionare la producător." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Vahterus — Plate & Shell Heat Exchanger", url: "https://vahterus.com/", publisher: "Vahterus Oy", accessed: "2026-09-26" },
       { title: "Technology — Plate & Shell Heat Exchanger Types", url: "https://vahterus.com/technology/", publisher: "Vahterus Oy", accessed: "2026-09-26" },
@@ -245,14 +245,14 @@ Pentru un integrator din energie, chimie sau refrigerare industrială din Român
     headquarters: "Japonia",
     overview: `Hisaka Works este un producător japonez cu activitate în patru segmente — schimbătoare de căldură, inginerie de proces pentru alimente, pentru produse farmaceutice și pentru vopsire, plus un segment de robinete. Pe partea de schimbătoare de căldură, compania japoneză a publicat pe site-ul propriu documentație de instalare și mentenanță pentru un număr mare de serii cu plăci, printre care UX, EX, LX, GX, SX, RX, FX, CX, WX și DXC. Din segmentul de schimbătoare putem oferta pentru procese industriale din România, cu mențiunea clară că producătorul e din Japonia, nu din Europa.
 
-Diferența Hisaka față de producătorii europeni de schimbătoare cu plăci vine din portofoliul foarte extins de serii, fiecare cu manual dedicat de montare a garniturilor, semn al unei istorii lungi de reproiectări succesive ale plăcii de bază. Compania acoperă și segmente conexe — inginerie de proces alimentar și farmaceutic — ceea ce sugerează o expertiză aplicată dincolo de schimbătorul individual, spre linia completă de proces. Pe segmentul schimbătoarelor cu plăci, Hisaka concurează cu producători europeni și americani specializați în aceeași categorie de echipament.
+Diferența Hisaka față de producătorii europeni de schimbătoare cu plăci vine din portofoliul foarte extins de serii, fiecare cu manual dedicat de montare a garniturilor. Compania acoperă și segmente conexe — inginerie de proces alimentar și farmaceutic.
 
 Pentru un integrator din industria alimentară sau chimică din România, Hisaka înseamnă acces la o gamă japoneză de schimbătoare cu plăci, utilă mai ales la retehnologizarea unei instalații existente cu echipament Hisaka, unde identificarea corectă a seriei contează pentru garniturile de schimb.`,
     whyChoose: [
       "Portofoliu foarte extins de serii de schimbătoare cu plăci — UX, EX, LX, GX, SX, RX, FX, CX, WX, DXC — pentru multiple game de dimensiune",
       "Manuale dedicate de montare a garniturilor pentru fiecare serie, publicate direct de producător",
       "Prezență și în inginerie de proces alimentar și farmaceutic, dincolo de schimbătorul individual",
-      "Producător japonez cu activitate globală, util pentru retehnologizarea instalațiilor existente cu echipament Hisaka",
+      "Producător japonez, util pentru retehnologizarea instalațiilor existente cu echipament Hisaka",
     ],
     keyProducts: [
       { name: "Seriile UX / EX / LX", description: "Familii de schimbătoare cu plăci gasketate din portofoliul Hisaka, fiecare cu manual propriu de montare a garniturilor publicat de producător. Alegerea între ele depinde de dimensiunea plăcii și de aplicația industrială, conform documentației tehnice disponibile pe site-ul Hisaka." },
@@ -289,8 +289,8 @@ Pentru un integrator din industria alimentară sau chimică din România, Hisaka
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "HISAKA WORKS, LTD. — Corporate Site", url: "https://www.hisaka.co.jp/english/", publisher: "Hisaka Works, Ltd.", accessed: "2026-09-26" },
       { title: "Heat Exchanger Segment", url: "https://www.hisaka.co.jp/english/phe/", publisher: "Hisaka Works, Ltd.", accessed: "2026-09-26" },
@@ -300,9 +300,9 @@ Pentru un integrator din industria alimentară sau chimică din România, Hisaka
   'thermowave': {
     name: "Thermowave",
     headquarters: "Berga, Germania",
-    overview: `Thermowave este un producător german de schimbătoare de căldură cu plăci, cu sediul la Berga, orientat în special spre sectorul energetic, refrigerare și HVAC. Gama se împarte în trei familii constructive: plăci gasketate (Gedichtete Plattenwärmetauscher), semi-sudate (Semi-verschweißter Plattenwärmetauscher) și cu pereți dubli (Doppelwandige Plattenwärmetauscher), completate de liniile de produs thermolineVARIO, thermolinePLUS și thermolineECO. Din această gamă putem oferta pentru instalații energetice și de răcire industrială din România.
+    overview: `Thermowave este un producător german de schimbătoare de căldură cu plăci, cu sediul la Berga, orientat în special spre sectorul energetic, refrigerare și HVAC. Gama se împarte în trei familii constructive: plăci gasketate, semi-sudate și cu pereți dubli, completate de liniile de produs thermolineVARIO, thermolinePLUS și thermolineECO. Din această gamă putem oferta pentru instalații energetice și de răcire industrială din România.
 
-Linia thermolinePLUS e gândită special pentru presiuni ridicate cu agenți frigorifici naturali precum CO2, cu presiuni de lucru pe partea modulelor de până la 63 bar — un nivel peste ce acoperă un schimbător gasketat standard. Linia thermolineVARIO oferă flexibilitate de configurare, cu tipuri de cadru Standard, Two-in-one, Tandem sau Multisection, adaptabile la cerințe diferite de proces fără schimbarea familiei de bază. Linia thermolineECO, standardizată ca sistem modular, e orientată spre livrare rapidă pentru aplicații fără cerințe speciale de presiune. Compania se poziționează alături de alți producători germani de schimbătoare cu plăci pentru energie și HVAC.
+Linia thermolinePLUS e gândită special pentru presiuni ridicate cu agenți frigorifici naturali precum CO2, cu presiuni de lucru pe partea modulelor de până la 63 bar — un nivel peste ce acoperă un schimbător gasketat standard. Linia thermolineVARIO oferă flexibilitate de configurare, cu tipuri de cadru Standard, Two-in-one, Tandem sau Multisection, adaptabile la cerințe diferite de proces fără schimbarea familiei de bază. Linia thermolineECO, standardizată ca sistem modular, e orientată spre livrare rapidă pentru aplicații fără cerințe speciale de presiune.
 
 Pentru un integrator din energie, refrigerare industrială sau HVAC din România, Thermowave înseamnă acces la o linie dedicată de presiune ridicată pentru agenți naturali, alături de variante standard mai flexibile pentru restul aplicațiilor.`,
     whyChoose: [
@@ -315,14 +315,14 @@ Pentru un integrator din energie, refrigerare industrială sau HVAC din România
       { name: "thermolinePLUS", description: "Linie de schimbătoare cu plăci pentru presiuni ridicate, cu presiune de lucru pe partea modulelor de până la 63 bar, orientată spre aplicații de răcire industrială cu refrigeranți naturali precum CO2 sau amoniac. Recomandată acolo unde o linie standard gasketată nu acoperă presiunea cerută de proces." },
       { name: "thermolineVARIO", description: "Linie flexibilă de schimbătoare cu plăci, cu tipuri de cadru configurabile — Standard, Two-in-one, Tandem și Multisection — și variante de material de etanșare (NBR, EPDM), adaptabile la cerințe diferite de proces fără a schimba familia de bază a produsului." },
       { name: "thermolineECO", description: "Sistem modular standardizat de schimbătoare cu plăci, gândit pentru livrare rapidă la aplicații fără cerințe speciale de presiune sau configurație, cu opțiuni limitate de racorduri și etanșare pentru a simplifica alegerea și configurarea." },
-      { name: "Schimbătoare cu pereți dubli (Doppelwandig)", description: "Variantă cu plăci duble, care permite detectarea vizuală a unei scurgeri dacă un strat este deteriorat, fără amestecarea celor două fluide. Folosită acolo unde separarea sigură între circuite este o cerință de proces sau de reglementare." },
+      { name: "Schimbătoare cu pereți dubli", description: "Variantă cu plăci duble, care permite detectarea vizuală a unei scurgeri dacă un strat este deteriorat, fără amestecarea celor două fluide. Folosită acolo unde separarea sigură între circuite este o cerință de proces sau de reglementare." },
     ],
     industries: [
-      "Energie — producție, distribuție și conversie de energie, inclusiv preîncălzire condensat de turbină",
+      "Energie — producție, distribuție și conversie de energie",
       "Refrigerare industrială — thermolinePLUS pentru presiuni ridicate cu agenți naturali",
       "HVAC — separare hidraulică între circuite primare și secundare de climatizare",
       "Industria alimentară și băuturi — procese termice cu cerințe de siguranță pe separarea fluidelor",
-      "Petrol și gaze — răcire de proces în operațiuni industriale",
+      "Inginerie de proces — transfer termic în instalații industriale",
     ],
     infinitrade: `Furnizăm schimbătoare Thermowave la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de linia aleasă (thermolineVARIO, thermolinePLUS sau thermolineECO) și de confirmarea producătorului german. Informațiile publice de pe site-ul Thermowave nu includ un catalog complet de parametri per model, așa că spunem clar de fiecare dată ce am confirmat din sursă și ce urmează să verificăm direct cu producătorul. Pentru ofertă avem nevoie de fluidul vehiculat, presiunea și temperatura de lucru, plus dacă aplicația implică agenți frigorifici naturali, unde thermolinePLUS devine varianta relevantă. Nu ținem această gamă pe raft; fiecare configurație se stabilește la comandă.`,
     limitation: "Nu putem confirma suprafața de transfer sau numărul de plăci pentru o configurație anume fără trecerea prin configuratorul sau echipa tehnică a producătorului german.",
@@ -330,9 +330,9 @@ Pentru un integrator din energie, refrigerare industrială sau HVAC din România
       { code: "thermolineVARIO", description: "linie flexibilă, cadre Standard, Two-in-one, Tandem, Multisection" },
       { code: "thermolinePLUS", description: "linie de presiune ridicată, până la 63 bar, agenți naturali" },
       { code: "thermolineECO", description: "sistem modular standardizat, livrare rapidă" },
-      { code: "Gedichteter Plattenwärmetauscher", description: "schimbător cu plăci gasketate, familie de bază" },
-      { code: "Semi-verschweißter Plattenwärmetauscher", description: "schimbător cu plăci semi-sudate prin laser" },
-      { code: "Doppelwandiger Plattenwärmetauscher", description: "schimbător cu pereți dubli, detecție vizuală a scurgerii" },
+      { code: "Schimbător cu plăci gasketate", description: "schimbător cu plăci gasketate, familie de bază" },
+      { code: "Schimbător cu plăci semi-sudate", description: "schimbător cu plăci semi-sudate prin laser" },
+      { code: "Schimbător cu pereți dubli", description: "schimbător cu pereți dubli, detecție vizuală a scurgerii" },
       { code: "thermolineVARIO Two-in-one", description: "variantă de cadru cu două secțiuni în aceeași unitate" },
       { code: "thermolineVARIO Tandem", description: "variantă de cadru cu montaj în tandem" },
       { code: "thermolineVARIO Multisection", description: "variantă de cadru cu mai multe secțiuni configurabile" },
@@ -346,8 +346,8 @@ Pentru un integrator din energie, refrigerare industrială sau HVAC din România
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Thermowave — Plattenwärmetauscher für die Energiebranche", url: "https://www.thermowave.de/en/", publisher: "thermowave GmbH", accessed: "2026-09-26" },
       { title: "thermolineVARIO — Produkte", url: "https://www.thermowave.de/produkte/thermolinevario/", publisher: "thermowave GmbH", accessed: "2026-09-26" },
@@ -358,9 +358,9 @@ Pentru un integrator din energie, refrigerare industrială sau HVAC din România
     name: "Cipriani",
     founded: 1987,
     headquarters: "Pescantina, Italia",
-    overview: `Cipriani PHE este un producător italian de schimbătoare de căldură cu plăci, cu sediul la Pescantina, în provincia Verona, activ din 1987. Compania se prezintă drept primul producător italian de schimbătoare cu plăci și produce peste 9.000 de unități și 150.000 de plăci pe an. Gama acoperă schimbătoare cu plăci gasketate, cu pereți dubli (double-wall), configurația 2-1-1 și schimbătoare brazate, cu conexiuni de la DN32 (1"¼) până la DN200 (8"). Din această gamă putem oferta pentru instalații HVAC, energie și procesare din România.
+    overview: `Cipriani PHE este un producător italian de schimbătoare de căldură cu plăci, cu sediul la Pescantina, în provincia Verona, activ din 1987. Compania produce peste 9.000 de unități și 150.000 de plăci pe an. Gama acoperă schimbătoare cu plăci gasketate, cu pereți dubli (double-wall) și schimbătoare brazate, cu conexiuni de la DN32 (1"¼) până la DN200 (8"). Din această gamă putem oferta pentru instalații HVAC, energie și procesare din România.
 
-Parametrii publicați de producător pentru gama gasketată acoperă presiuni de până la 25 bar și temperaturi de până la 160°C, cu debite de până la 800 m³/h, iar gama brazată separată ajunge la 200°C și 16 bar la temperatura maximă, cu conexiuni de la 3/4" la 2". Cipriani deservește 11 sectoare declarate pe site, de la district heating și cooling până la industria marină și centre de date, semn al unei game destinate mai degrabă flexibilității de configurare decât unei singure nișe. Pe segmentul plăcilor gasketate italiene, Cipriani concurează cu alți producători europeni specializați în aceeași categorie.
+Parametrii publicați de producător pentru gama gasketată acoperă presiuni de până la 25 bar și temperaturi de până la 160°C, cu debite de până la 800 m³/h, iar gama brazată separată ajunge la 200°C și 16 bar la temperatura maximă, cu conexiuni de la 3/4" la 2". Cipriani deservește 11 sectoare declarate pe site, de la district heating și cooling până la industria marină și centre de date, semn al unei game destinate mai degrabă flexibilității de configurare decât unei singure nișe.
 
 Pentru un integrator din HVAC, energie sau procesare industrială din România, Cipriani înseamnă acces la o gamă italiană completă, de la unități brazate compacte până la configurații inspectabile cu pereți dubli pentru siguranță suplimentară pe separarea fluidelor.`,
     whyChoose: [
@@ -372,8 +372,8 @@ Pentru un integrator din HVAC, energie sau procesare industrială din România, 
     ],
     keyProducts: [
       { name: "Schimbătoare gasketate (plăci și cadru)", description: "Familia de bază de schimbătoare cu plăci gasketate Cipriani, cu conexiuni de la DN32 (1\"¼) până la DN200 (8\"), presiuni de până la 25 bar și temperaturi de până la 160°C, debite de până la 800 m³/h. Potrivite pentru instalații HVAC și industriale cu nevoie de curățare periodică prin deschiderea pachetului de plăci." },
-      { name: "Schimbătoare cu pereți dubli (double-wall)", description: "Configurație cu plăci duble, care permite vizualizarea unei eventuale scurgeri între cele două fluide fără amestecarea lor, disponibilă și în configurația 2-1-1 pentru circuite suplimentare. Folosită acolo unde separarea sigură între agentul termic și fluidul de proces este o cerință explicită." },
-      { name: "Schimbătoare brazate", description: "Gamă separată de schimbătoare compacte, cu plăci brazate, cu peste 25 de modele disponibile prin magazinul online al producătorului, temperaturi de până la 200°C și presiuni de până la 16 bar la temperatura maximă, conexiuni de la 3/4\" la 2\". Potrivite pentru instalații cu spațiu redus, fără nevoia de întreținere prin deschidere." },
+      { name: "Schimbătoare cu pereți dubli (double-wall)", description: "Configurație cu plăci duble, care permite vizualizarea unei eventuale scurgeri între cele două fluide fără amestecarea lor. Folosită acolo unde separarea sigură între agentul termic și fluidul de proces este o cerință explicită." },
+      { name: "Schimbătoare brazate", description: "Gamă separată de schimbătoare compacte, cu plăci brazate, cu 14 modele standard prezentate în magazinul online al producătorului, temperaturi de până la 200°C și presiuni de până la 16 bar la temperatura maximă, conexiuni de la 3/4\" la 2\". Potrivite pentru instalații cu spațiu redus, fără nevoia de întreținere prin deschidere." },
     ],
     industries: [
       "HVAC — climatizare și separare hidraulică pentru clădiri comerciale și industriale",
@@ -392,7 +392,7 @@ Pentru un integrator din HVAC, energie sau procesare industrială din România, 
       { code: "DN100", description: "schimbător gasketat, conexiune 4\", gamă de bază industrială" },
       { code: "DN150", description: "schimbător gasketat, conexiune 6\", gamă de bază pentru debite mari" },
       { code: "DN200", description: "schimbător gasketat, conexiune 8\", capătul superior al gamei gasketate" },
-      { code: "2-1-1", description: "configurație double-wall (pereți dubli), circuit suplimentar de siguranță" },
+      
       { code: "SE 020+21", description: "schimbător brazat, suprafață de schimb 0,42 m²" },
       { code: "SE 040+41", description: "schimbător brazat, suprafață de schimb 1,64 m²" },
       { code: "SE 080+41", description: "schimbător brazat, suprafață de schimb 3,24 m²" },
@@ -406,8 +406,8 @@ Pentru un integrator din HVAC, energie sau procesare industrială din România, 
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Cipriani PHE — Plate Heat Exchangers", url: "https://www.cipriani-phe.com/en/", publisher: "Cipriani PHE S.r.l.", accessed: "2026-09-26" },
       { title: "Heat Exchangers", url: "https://www.cipriani-phe.com/en/heat-exchangers/", publisher: "Cipriani PHE S.r.l.", accessed: "2026-09-26" },

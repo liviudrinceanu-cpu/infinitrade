@@ -4,11 +4,11 @@ export const brandContentBatch59 = {
   bermad: {
     name: "Bermad",
     founded: 1965,
-    overview: `Bermad este un producător israelian de robineți hidraulici de control, activ din 1965, specializat în vane care gestionează presiunea, debitul și nivelul apei fără intervenție electrică directă. Gama standard cuprinde seriile 100, 200, 300, 400 și 700, alături de robineți deluge pentru stingere și sisteme de contorizare EFM. Pentru piața din România putem oferta robineți de control pentru irigații, distribuție de apă și protecție la incendiu.
+    overview: `Bermad este un producător israelian de robineți hidraulici de control, activ din 1965, specializat în vane care gestionează presiunea, debitul și nivelul apei fără intervenție electrică directă. Gama standard cuprinde mai multe serii (de exemplu 100, 200, 400 și 700), alături de robineți deluge pentru stingere și sisteme de contorizare EFM. Pentru piața din România putem oferta robineți de control pentru irigații, distribuție de apă și protecție la incendiu.
 
-Spre deosebire de valvele cu acționare electrică, robineții Bermad funcționează pe principiul hidraulic — presiunea din conductă, transmisă printr-un circuit de pilotare, deschide sau închide diafragma principală, ceea ce reduce nevoia de alimentare electrică la punctul de montaj. Seria 700 acoperă diametre mari pentru aplicații municipale, iar seria 400 rămâne varianta cea mai folosită pentru control de presiune și nivel. Concurează direct cu Dorot, celălalt brand israelian de valve hidraulice prezent în portofoliul nostru, diferența ținând de arhitectura internă a diafragmei și de gama de accesorii electronice disponibile.
+Spre deosebire de valvele cu acționare electrică, robineții Bermad funcționează pe principiul hidraulic — presiunea din conductă, transmisă printr-un circuit de pilotare, deschide sau închide diafragma principală, ceea ce reduce nevoia de alimentare electrică la punctul de montaj. Seria potrivită, diametrele disponibile și aplicațiile se stabilesc pe cod, din documentația producătorului. Concurează direct cu Dorot, celălalt brand israelian de valve hidraulice prezent în portofoliul nostru, alegerea depinzând de specificațiile proiectului.
 
-Pentru instalații de irigații agricole, stații de pompare și rețele de distribuție a apei din România, robineții Bermad sunt o opțiune verificată acolo unde proiectantul cere control hidraulic fără automatizare complexă, cu mentenanță simplă și piese de schimb standardizate pe diafragmă și pilot.`,
+Pentru instalații de irigații agricole, stații de pompare și rețele de distribuție a apei din România, robineții Bermad sunt o opțiune acolo unde proiectantul cere control hidraulic fără automatizare complexă.`,
     whyChoose: [
       "Control hidraulic fără alimentare electrică — diafragma se acționează prin presiunea din propria conductă",
       "Gamă largă de diametre, de la robineți mici de irigații până la seria 700 pentru rețele municipale",
@@ -17,7 +17,7 @@ Pentru instalații de irigații agricole, stații de pompare și rețele de dist
     ],
     keyProducts: [
       { name: "Seria 700 pentru Rețele Mari", description: "Robineți hidraulici de diametru mare, cu variante Sigma și electronică (700E), destinați rețelelor municipale de distribuție a apei și stațiilor de pompare cu debite ridicate." },
-      { name: "Seria 400 pentru Control de Presiune și Nivel", description: "Robinet hidraulic pilotat, cu variante 400E (comandă electrică a pilotului) și 400Y (deluge), pentru reducerea sau susținerea presiunii și controlul nivelului în rezervoare." },
+      { name: "Seria 400 pentru Control de Presiune și Nivel", description: "Robinet hidraulic pilotat, cu variante dedicate, pentru reducerea sau susținerea presiunii și controlul nivelului în rezervoare." },
       { name: "Robineți Deluge și Sisteme de Contorizare EFM", description: "Robineți deluge pentru declanșarea sistemelor de stingere cu apă și contoare electromagnetice de debit (EFM) pentru monitorizarea consumului în rețelele de apă." },
     ],
     industries: [
@@ -32,31 +32,31 @@ Pentru instalații de irigații agricole, stații de pompare și rețele de dist
     limitation: "Nu putem confirma configurația electronică sau soft-ul de telemetrie pentru variantele conectate ale seriei 700E fără o cerere punctuală trimisă către producător.",
     productCodes: [
       { code: "100 Series", description: "Robinet hidraulic de bază, diafragmă standard" },
-      { code: "100-DC Series", description: "Variantă cu comandă dublu-cameră pentru control fin" },
+      { code: "100-DC Series", description: "Serie din gama Bermad; aplicația se confirmă pe cod" },
       { code: "200 Series", description: "Seria de control standard pentru presiune și debit" },
-      { code: "350 Series", description: "Seria de control intermediară între 200 și 400" },
+      { code: "350 Series", description: "Serie din gama Bermad; aplicația se confirmă pe cod" },
       { code: "400 Series", description: "Robinet pilotat pentru control de presiune și nivel" },
-      { code: "400E Series", description: "Variantă cu pilot acționat electric al seriei 400" },
-      { code: "400Y Series", description: "Variantă deluge a seriei 400 pentru stingere" },
+      { code: "400E Series", description: "Variantă a seriei 400" },
+      { code: "400Y Series", description: "Variantă a seriei 400" },
       { code: "700 Large Size Series", description: "Robineți de diametru mare pentru rețele municipale" },
       { code: "700 Sigma Series", description: "Variantă Sigma a seriei 700 pentru rețele mari" },
       { code: "700E Series", description: "Variantă electronică a seriei 700" },
-      { code: "800 Series", description: "Seria de înaltă presiune pentru aplicații industriale" },
-      { code: "900 Series", description: "Seria de hidrometre pentru măsurarea debitului" },
+      { code: "800 Series", description: "Serie din gama Bermad; aplicația se confirmă pe cod" },
+      { code: "900 Series", description: "Serie din gama Bermad; aplicația se confirmă pe cod" },
       { code: "PRV Series", description: "Robineți de reducere a presiunii" },
       { code: "EFM Series", description: "Contor electromagnetic de debit pentru rețele de apă" },
-      { code: "1000 ES/EN", description: "Serie de control pentru aplicații speciale" },
+      { code: "1000 ES/EN", description: "Serie din gama Bermad; aplicația se confirmă pe cod" },
     ],
     faq: [
       { q: "Ce produce Bermad?", a: "Bermad produce robineți hidraulici de control pentru presiune, debit, nivel și protecție la incendiu, plus contoare electromagnetice de debit, folosiți în irigații, distribuția apei și instalații industriale." },
-      { q: "Cum aleg seria potrivită de robineți Bermad pentru un proiect de irigații?", a: "Alegerea depinde de diametrul conductei, presiunea de lucru și funcția dorită — reducere, susținere sau control de nivel; seriile 200-400 acoperă majoritatea aplicațiilor standard, iar seria 700 e rezervată diametrelor mari din rețelele municipale." },
-      { q: "Ce diferență există între robineții Bermad și cei Dorot?", a: "Ambele branduri sunt israeliene și folosesc principiul hidraulic pilotat, dar diferă prin arhitectura internă a diafragmei și prin gama de opțiuni electronice; alegerea corectă depinde de specificațiile exacte cerute de proiect, verificate direct cu producătorul." },
+      { q: "Cum aleg seria potrivită de robineți Bermad pentru un proiect de irigații?", a: "Alegerea depinde de diametrul conductei, presiunea de lucru și funcția dorită — reducere, susținere sau control de nivel; seria potrivită se stabilește pe baza specificațiilor proiectului, confirmate din documentația producătorului." },
+      { q: "Ce diferență există între robineții Bermad și cei Dorot?", a: "Ambele branduri sunt israeliene și folosesc principiul hidraulic pilotat, dar gamele, pilotele și accesoriile diferă; alegerea corectă depinde de specificațiile exacte cerute de proiect, verificate direct cu producătorul." },
       { q: "Livrați robineți Bermad în România și cât durează?", a: "Da — aducem robineții Bermad prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, care depinde de diametrul cerut și de confirmarea fabricii israeliene." },
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Bermad — Water Control Solutions", url: "https://www.bermad.com", publisher: "Bermad", accessed: "2026-09-22" },
       { title: "Bermad Product Range — Water Control Solutions", url: "https://www.bermad.com/water-control-solutions/products/", publisher: "Bermad", accessed: "2026-09-22" },
@@ -68,9 +68,9 @@ Pentru instalații de irigații agricole, stații de pompare și rețele de dist
     founded: 1946,
     overview: `Dorot este un producător israelian de valve hidraulice de control, activ din 1946, specializat în robineți pilotați care folosesc presiunea apei din rețea ca sursă de acționare, fără alimentare electrică externă. Gama de bază cuprinde Seria 100 (Gal Valve, cu diafragmă cu etanșare directă), Seria 300 (valve pilotate cu corp din fontă ductilă și scaun din inox înlocuibil) și controlerul ConDor pentru automatizarea robineților existenți. Pentru România putem oferta valve de control pentru rețele de apă, irigații, stații de pompare și protecție la incendiu.
 
-Seria 300 este declinată pe funcții de control, fiecare cu propriul sufix de model: reducere de presiune (PR, PRM), susținere de presiune (PS), limitare de debit (FR), control de nivel cu plutitor sau electric (FL, AL, FLEL), comandă electrică de la distanță (EL, EC), funcții pentru stații de pompare (CV, BC, QR, DW, NS) și variante pentru stingere (deluge, monitor). Corpul din fontă ductilă și scaunul din inox sunt argumentele producătorului pentru durabilitate la eroziune și etanșare fără picurare. Ca principiu, Dorot se compară direct cu Bermad, celălalt brand israelian de valve hidraulice pilotate prezent pe site, diferența fiind arhitectura pilotului și platforma proprie de automatizare.
+Seria 300 este declinată pe funcții de control, fiecare cu propriul sufix de model: reducere de presiune (PR, PRM), susținere de presiune (PS), limitare de debit (FR), control de nivel cu plutitor sau electric (FL, AL, FLEL), comandă electrică de la distanță (EL, EC), funcții pentru stații de pompare (CV, BC, QR, DW, NS). Corpul din fontă ductilă și scaunul din inox sunt argumentele producătorului pentru durabilitate la eroziune și etanșare fără picurare. Ca principiu, Dorot se compară direct cu Bermad, celălalt brand israelian de valve hidraulice pilotate prezent pe site, alegerea depinzând de funcția cerută și de specificațiile proiectului.
 
-Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și proiectanții de stații de pompare din România, Dorot are sens acolo unde proiectul cere control hidraulic robust, cu piese de schimb pe diafragmă și pilot disponibile pe termen lung.`,
+Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și proiectanții de stații de pompare din România, Dorot are sens acolo unde proiectul cere control hidraulic robust.`,
     whyChoose: [
       "Robineți pilotați hidraulic, acționați de presiunea apei din rețea, fără alimentare electrică externă la valvă",
       "Seria 300 cu corp din fontă ductilă și scaun din inox înlocuibil, pentru rezistență la eroziune și etanșare fără picurare",
@@ -80,23 +80,23 @@ Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și
     ],
     keyProducts: [
       { name: "Seria 100 — Gal Valve", description: "Valvă hidraulică cu diafragmă cu etanșare directă, descrisă de producător pentru lichide naturale, apă de mare și efluenți industriali, cu selecție de materiale, acoperiri și tipuri de diafragmă. Se comandă cu pilotul Dorot potrivit funcției (reducere, susținere, nivel) și cu indicarea fluidului și a diametrului conductei." },
-      { name: "Seria 300 — valve pilotate metalice", description: "Valve de control cu corp din fontă ductilă și scaun din inox înlocuibil, oferite în modele pe funcție: PR/PRM reducere de presiune, PS susținere, FR limitare de debit, FL/AL/FLEL control de nivel, EL/EC comandă electrică, CV/BC/QR/DW/NS pentru stații de pompare și variante deluge/monitor pentru incendiu. Pentru ofertă trimiteți funcția, diametrul și presiunile de intrare/ieșire." },
-      { name: "ConDor", description: "Controler de valvă descris de producător ca unic, destinat automatizării robineților hidraulici din rețele de irigații și distribuție a apei, cu accent pe managementul presiunii și reducerea pierderilor. Se ofertează împreună cu valva compatibilă și cu descrierea aplicației." },
+      { name: "Seria 300 — valve pilotate metalice", description: "Valve de control cu corp din fontă ductilă și scaun din inox înlocuibil, oferite în modele pe funcție: PR/PRM reducere de presiune, PS susținere, FR limitare de debit, FL/AL/FLEL control de nivel, EL/EC comandă electrică, CV/BC/QR/DW/NS pentru stații de pompare. Pentru ofertă trimiteți funcția, diametrul și presiunile de intrare/ieșire." },
+      { name: "ConDor", description: "Controler de valvă, destinat automatizării robineților hidraulici din rețele de irigații și distribuție a apei, cu accent pe managementul presiunii și reducerea pierderilor. Se ofertează împreună cu valva compatibilă și cu descrierea aplicației." },
     ],
     industries: [
       "Alimentare cu apă — managementul presiunii și prevenirea pierderilor pe rețelele municipale",
       "Irigații — valve de control pentru picurare, aspersiune, sere și spații verzi",
       "Stații de pompare — valve de control al pompei, anti-lovitură de berbec, reținere",
       "Tratarea și filtrarea apei — control de debit și nivel în stații",
-      "Protecție la incendiu — valve deluge și monitor",
+      "Protecție la incendiu — aplicații de confirmat cu producătorul",
       "Clădiri înalte — reducere de presiune pe coloane",
     ],
-    infinitrade: `Informațiile despre Dorot din această pagină provin din surse publice ale producătorului; nu avem date proprii despre stocul disponibil la un moment dat. Valvele ajung la comandă prin lanțul de aprovizionare european, cu un interval orientativ de 1–4 săptămâni, care depinde de diametrul cerut și de răspunsul fabricii israeliene. Pentru ofertă avem nevoie de diametrul nominal, presiunea de lucru și funcția dorită a robinetului (reducere, susținere, nivel sau automatizare ConDor). Nu menținem această gamă pe raft pe această gamă.`,
+    infinitrade: `Informațiile despre Dorot din această pagină provin din surse publice ale producătorului; nu avem date proprii despre stocul disponibil la un moment dat. Valvele ajung la comandă prin lanțul de aprovizionare european, cu un interval orientativ de 1–4 săptămâni, care depinde de diametrul cerut și de răspunsul fabricii israeliene. Pentru ofertă avem nevoie de diametrul nominal, presiunea de lucru și funcția dorită a robinetului (reducere, susținere, nivel sau automatizare ConDor). Nu menținem această gamă pe raft.`,
     limitation: "Nu putem confirma din surse publice diametrele, presiunile nominale și materialele exacte disponibile pe fiecare model Dorot; acestea se verifică punctual la producător pentru fiecare ofertă.",
     productCodes: [
       { code: "Series 100 (Gal Valve)", description: "Valvă hidraulică cu diafragmă cu etanșare directă" },
       { code: "Series 300", description: "Valvă pilotată, corp fontă ductilă, scaun inox" },
-      { code: "Series 500", description: "Valvă hidraulică de control pilotată metalică" },
+      { code: "Series 500", description: "Serie Dorot de valve hidraulice; detaliile se confirmă pe cod" },
       { code: "300-PR", description: "Model Seria 300 cu reducere de presiune" },
       { code: "300-PRM", description: "Reducere de presiune cu modulare (variante T2, FM, HyMod)" },
       { code: "300-PS", description: "Model Seria 300 cu susținere de presiune" },
@@ -109,22 +109,22 @@ Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și
       { code: "300-BC", description: "Valvă de control al pompei (booster control)" },
       { code: "300-QR", description: "Valvă cu funcție de eliberare rapidă a presiunii" },
       { code: "300-DI", description: "Model cu funcție de control diferențial" },
-      { code: "300-RE", description: "Valvă de descărcare de presiune" },
-      { code: "Deluge Valve (300)", description: "Valvă deluge pentru protecție la incendiu" },
-      { code: "Monitor Valve (300)", description: "Valvă monitor pentru sisteme de stingere" },
+      { code: "300-RE", description: "Valvă de anticipare a șocului hidraulic (surge-anticipating)" },
+      { code: "Deluge Valve (300)", description: "Variantă pentru protecție la incendiu, de confirmat cu producătorul" },
+      { code: "Monitor Valve (300)", description: "Variantă pentru sisteme de stingere, de confirmat cu producătorul" },
       { code: "Spare parts 300 Series", description: "Piese de schimb dedicate Seriei 300" },
       { code: "ConDor", description: "Controler de valvă pentru automatizare" },
     ],
     faq: [
-      { q: "Ce produce Dorot?", a: "Dorot produce valve hidraulice de control pilotate pentru rețele de apă, irigații, stații de pompare, tratare-filtrare și protecție la incendiu, cu gama Seria 100 (Gal Valve), Seria 300 și Seria 500, plus controlerul ConDor pentru automatizare. Compania este activă din 1946." },
+      { q: "Ce produce Dorot?", a: "Dorot produce valve hidraulice de control pilotate pentru rețele de apă, irigații, stații de pompare, tratare-filtrare și protecție la incendiu, cu gama Seria 100 (Gal Valve) și Seria 300, plus controlerul ConDor pentru automatizare. Compania este activă din 1946." },
       { q: "Cum citesc codul unei valve Dorot Seria 300?", a: "Sufixul de după numărul seriei indică funcția de control: PR reducere de presiune, PS susținere, FR limitare de debit, FL sau AL control de nivel, EL comandă electrică, CV reținere, BC control de pompă. Pentru ofertă trimiteți codul complet împreună cu diametrul și presiunile de lucru." },
-      { q: "Ce diferență e între Dorot și Bermad?", a: "Ambele sunt branduri israeliene de valve hidraulice pilotate, dar diferă prin arhitectura pilotului și prin sistemele de automatizare proprii; alegerea corectă depinde de funcția cerută, de diametru și de compatibilitatea cu piesele deja folosite în rețea." },
-      { q: "Livrați valve Dorot în România și în cât timp?", a: "Da, robineții Dorot ajung la comandă prin lanțul de aprovizionare european, cu un termen orientativ de 1–4 săptămâni, în funcție de model, diametru și de confirmarea producătorului; nu ținem această gamă pe disponibilitate imediată garantată." },
+      { q: "Ce diferență e între Dorot și Bermad?", a: "Ambele sunt branduri israeliene de valve hidraulice pilotate, dar gamele și accesoriile diferă; alegerea corectă depinde de funcția cerută, de diametru și de compatibilitatea cu piesele deja folosite în rețea." },
+      { q: "Livrați valve Dorot în România și în cât timp?", a: "Da, robineții Dorot ajung la comandă prin lanțul de aprovizionare european, cu un termen orientativ de 1–4 săptămâni, în funcție de model, diametru și de confirmarea producătorului; nu ținem această gamă pe disponibilitate imediată." },
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Dorot — Hydraulic Control Valves", url: "https://www.dorot.com", publisher: "Dorot", accessed: "2026-09-22" },
       { title: "DOROT S300 Series – Hydraulic Control Valves", url: "https://www.dorot.com/products-solutions/hydraulic-control-valves/metal-pilot-operated-valves/300-series", publisher: "Dorot", accessed: "2026-09-22" },
@@ -138,42 +138,42 @@ Pentru operatorii de apă, fermele cu irigații prin picurare sau aspersiune și
     headquarters: "Arzignano, Italia",
     overview: `Marelli Motori este un producător italian de motoare electrice și generatoare industriale, cu sediul la Arzignano, lângă Verona, parte din grupul britanic Langley Holdings din 2019. Gama acoperă motoare de inducție de uz industrial, generatoare sincrone pentru cogenerare și centrale hidro, precum și regulatoare automate de tensiune (AVR) pentru controlul generatoarelor. Pentru România putem oferta motoare și generatoare Marelli pentru aplicații de producție de energie și industrie grea.
 
-Puterea acoperită de gama Marelli merge până la aproximativ 13 MW, la tensiuni de până la 15 kV, cu unități care ajung la 50 de tone — dimensiuni tipice pentru generatoarele folosite în hidrocentrale și instalații de cogenerare. Seriile de generatoare MJB și MJH sunt completate de regulatoare de tensiune digitale D-Vo și E-Vo, plus modele mai vechi precum MGC I sau Mark XX, folosite pentru controlul excitației. Pe segmentul motoarelor industriale, seria APF IE4 acoperă cerințele de eficiență energetică actuale, poziționând Marelli alături de Leroy-Somer și Brook Crompton, celelalte branduri de motoare electrice din portofoliul nostru.
+Puterea acoperită de gama Marelli merge până la aproximativ 13 MW, la tensiuni de până la 15 kV, cu unități care ajung la 50 de tone — dimensiuni tipice pentru generatoarele folosite în hidrocentrale și instalații de cogenerare. Seriile de generatoare MJB și MJH sunt completate de regulatoare de tensiune digitale D-Vo și E-Vo, plus alte modele de regulatoare, precum MGC I sau Mark XX. Pe segmentul motoarelor industriale, Marelli Motori oferă și seria APF, ale cărei caracteristici (inclusiv clasa de eficiență) se confirmă pe cod, din documentația producătorului.
 
 Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale din România care au nevoie de generatoare sincrone sau motoare de inducție cu eficiență ridicată, gama Marelli oferă o alternativă verificată în peste un secol de prezență în sectorul marin și energetic.`,
     whyChoose: [
       "Gamă de putere extinsă — motoare și generatoare de la unități mici până la aproximativ 13 MW, 15 kV",
-      "Regulatoare de tensiune proprii (AVR) — de la modele analogice Mark XX la variante digitale D-Vo/E-Vo",
+      "Regulatoare de tensiune proprii (AVR) — inclusiv variante digitale D-Vo/E-Vo",
       "Peste un secol de experiență în aplicații marine, alături de expertiză în cogenerare și hidroenergie",
-      "Parte din grupul Langley Holdings — acces la inginerie și rețea de service la nivel de grup",
+      "Parte din grupul Langley Holdings din mai 2019",
     ],
     keyProducts: [
-      { name: "Motoare Industriale Seria APF IE4", description: "Motoare de inducție trifazate cu clasă de eficiență IE4, pentru acționări industriale generale unde randamentul energetic este cerut explicit de proiect." },
-      { name: "Generatoare Sincrone MJB/MJH", description: "Generatoare sincrone pentru cogenerare, hidroenergie și producție de energie, cu puteri care ajung până la aproximativ 13 MW și tensiuni de până la 15 kV." },
-      { name: "Regulatoare de Tensiune D-Vo/E-Vo", description: "Regulatoare automate de tensiune digitale pentru controlul excitației generatoarelor sincrone, succesoare ale modelelor Mark XX și MGC I." },
+      { name: "Motoare Industriale Seria APF", description: "Motoare industriale din seria APF, pentru acționări industriale generale; tipul constructiv și clasa de eficiență se confirmă pe cod, din documentația Marelli Motori." },
+      { name: "Generatoare Sincrone MJB/MJH", description: "Generatoare sincrone pentru cogenerare, producție de energie și Oil&Gas, cu puteri de până la 12.500 kVA (seriile MJB/MJH)." },
+      { name: "Regulatoare de Tensiune D-Vo/E-Vo", description: "Regulatoare automate de tensiune digitale pentru controlul excitației generatoarelor sincrone." },
     ],
     industries: [
       "Cogenerare — generatoare sincrone pentru producție combinată de energie și căldură",
-      "Hidroenergie — generatoare pentru hidrocentrale mici și mijlocii",
+      "Producție de energie — generatoare pentru instalații de generare a energiei",
       "Petrol și gaze — motoare și generatoare pentru platforme și stații",
       "Marină — motoare și generatoare cu peste un secol de aplicații",
-      "Industrie generală — motoare de inducție seria APF IE4",
+      "Industrie generală — motoare industriale seria APF",
     ],
-    certifications: ["ATEX — Marelli: variante certificate pentru zone cu risc de explozie"],
-    infinitrade: `Pentru Marelli Motori lucrăm cu ce putem și ce nu putem confirma din materialele publice ale producătorului, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și generatoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de lucru, turația și aplicația (motor sau generator, cogenerare, hidro sau marină). Nu putem promite un termen mai scurt decât cel confirmat de fabrică la momentul comenzii.`,
+    certifications: ["ATEX — disponibilitatea variantelor pentru zone cu risc de explozie se confirmă pe cod, din documentația producătorului (Marelli)"],
+    infinitrade: `Pentru Marelli Motori lucrăm pe baza materialelor publice ale producătorului, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și generatoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru o ofertă corectă avem nevoie de puterea necesară, tensiunea de lucru, turația și aplicația (motor sau generator, cogenerare, hidro sau marină). Nu putem promite un termen mai scurt decât cel confirmat de fabrică la momentul comenzii.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului de punere în funcțiune pentru generatoarele de putere mare fără o cerere transmisă direct producătorului.",
     productCodes: [
-      { code: "APF IE4", description: "Motor de inducție trifazat, clasă eficiență IE4" },
+      { code: "APF", description: "Motor industrial seria APF, date tehnice pe cod" },
       { code: "MXB-E", description: "Generator sincron pentru producție de energie" },
-      { code: "MJB", description: "Generator sincron pentru cogenerare și hidroenergie" },
+      { code: "MJB", description: "Generator sincron pentru cogenerare și producție de energie" },
       { code: "MJH", description: "Generator sincron pentru aplicații de putere mare" },
-      { code: "MGC I", description: "Regulator de tensiune (AVR), model analogic" },
+      { code: "MGC I", description: "Regulator de tensiune (AVR)" },
       { code: "MEC 20", description: "Regulator de tensiune (AVR) pentru generatoare" },
       { code: "MEC 100", description: "Regulator de tensiune (AVR), variantă extinsă" },
-      { code: "Mark VX", description: "Regulator automat de tensiune" },
-      { code: "Mark XX", description: "Regulator automat de tensiune, model consacrat" },
+      { code: "Mark VX", description: "Regulator automat de tensiune analogic" },
+      { code: "Mark XX", description: "Regulator automat de tensiune analogic" },
       { code: "D-Vo", description: "Regulator de tensiune digital" },
-      { code: "E-Vo", description: "Regulator de tensiune digital, generație recentă" },
+      { code: "E-Vo", description: "Regulator de tensiune digital" },
     ],
     faq: [
       { q: "Ce produce Marelli Motori?", a: "Marelli Motori produce motoare electrice de inducție și generatoare sincrone pentru energie, cogenerare și aplicații marine, alături de regulatoare automate de tensiune pentru controlul excitației generatoarelor." },
@@ -183,8 +183,8 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Marelli Motori — Official Website", url: "https://www.marellimotori.com", publisher: "Marelli Motori", accessed: "2026-09-22" },
       { title: "Marelli Motori — Downloads / Product Catalogues", url: "https://www.marellimotori.com/downloads/", publisher: "Marelli Motori", accessed: "2026-09-22" },
@@ -193,21 +193,21 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
 
   brook: {
     name: "Brook Crompton",
-    overview: `Brook Crompton este un producător britanic de motoare electrice industriale, cu o istorie de peste un secol în domeniu, specializat în motoare de uz general și motoare certificate ATEX pentru zone cu risc de explozie. Gama acoperă motoare din aluminiu și fontă din seria W Premium, motoare antiex NEMA și variante ATEX EExd, EExde și EEx nA. Pentru România putem oferta motoare Brook Crompton pentru acționarea pompelor, ventilatoarelor și compresoarelor în medii industriale, inclusiv zone clasificate.
+    overview: `Brook Crompton este un producător de motoare electrice industriale, cu o istorie de peste un secol în domeniu, specializat în motoare de uz general și motoare certificate ATEX pentru zone cu risc de explozie. Gama acoperă motoare din aluminiu și fontă din seria W Premium, motoare antiex NEMA și variante ATEX EExd, EExde și EEx nA. Pentru România putem oferta motoare Brook Crompton pentru acționarea pompelor, ventilatoarelor și compresoarelor în medii industriale, inclusiv zone clasificate.
 
-Seria W Premium este disponibilă atât în variantă NEMA cât și IEC, în construcție de aluminiu (mai ușoară, pentru puteri mici-medii) sau fontă (pentru sarcini industriale grele). Motoarele antiex NEMA acoperă cadre de la 140T până la 320T și mai mari, iar variantele ATEX EExd sunt certificate pentru Zona 1, grupele IIA și IIB, în timp ce EExde adaugă și grupa IIC pentru cea mai severă clasificare. Pe segmentul motoarelor certificate pentru zone explozive, Brook Crompton concurează cu Baldor și cu Marelli Motori, celelalte branduri de motoare industriale din gama noastră.
+Seria W Premium este disponibilă atât în variantă NEMA cât și IEC, în construcție de aluminiu (mai ușoară, pentru puteri mici-medii) sau fontă (pentru sarcini industriale grele). Motoarele antiex NEMA acoperă cadre de la 140T până la 250T și de la 280T în sus, iar variantele ATEX EExd sunt certificate pentru Zona 1, grupele IIA și IIB, în timp ce EExde adaugă și grupa IIC pentru cea mai severă clasificare. Pe segmentul motoarelor certificate pentru zone explozive, Brook Crompton concurează cu Baldor și cu Marelli Motori, celelalte branduri de motoare industriale din gama noastră.
 
 Pentru instalații din minerit, tratarea apei, procesare industrială și producție unde echipamentul trebuie să funcționeze în zone cu risc de explozie sau în condiții de sarcină grea, motoarele Brook Crompton sunt o opțiune de luat în calcul alături de celelalte branduri certificate ATEX din portofoliu.`,
     whyChoose: [
-      "Gamă certificată ATEX completă — EExd (Zona 1, IIA/IIB), EExde (adaugă IIC) și EEx nA (Zona 2)",
+      "Motoare certificate ATEX — EExd (Zona 1, IIA/IIB), EExde (adaugă IIC) și EEx nA (Zona 2)",
       "Variante NEMA și IEC în aceeași familie W Premium, în construcție din aluminiu sau fontă",
-      "Motoare antiex NEMA pe cadre de la 140T până la 320T și peste, pentru sarcini industriale grele",
-      "Peste un secol de experiență britanică în motoare electrice pentru minerit și procesare industrială",
+      "Motoare antiex NEMA pe cadre de la 140T până la 250T și de la 280T în sus, pentru sarcini industriale grele",
+      "Peste un secol de experiență în motoare electrice pentru minerit și procesare industrială",
     ],
     keyProducts: [
       { name: "Seria W Premium (Aluminiu și Fontă)", description: "Motoare electrice de uz general, disponibile în variante NEMA și IEC, cu carcasă din aluminiu pentru puteri mici-medii sau din fontă pentru sarcini industriale grele." },
       { name: "Motoare ATEX EExd/EExde", description: "Motoare certificate pentru Zona 1 cu risc de explozie, grupele de gaz IIA și IIB (EExd) sau IIA, IIB și IIC (EExde), pentru medii industriale periculoase." },
-      { name: "Motoare Antiex NEMA", description: "Motoare explosion-proof pe cadre de la 140T la 320T și mai mari, pentru aplicații industriale nord-americane cu risc de explozie." },
+      { name: "Motoare Antiex NEMA", description: "Motoare antiex pe cadre de la 140T la 250T și de la 280T în sus, pentru aplicații industriale nord-americane cu risc de explozie." },
     ],
     industries: [
       "Minerit — motoare pentru benzi transportoare și ventilație",
@@ -223,26 +223,26 @@ Pentru instalații din minerit, tratarea apei, procesare industrială și produc
       { code: "W Premium Aluminum (IEC)", description: "Motor uz general, carcasă aluminiu, standard IEC" },
       { code: "W Premium Cast Iron (NEMA)", description: "Motor uz general, carcasă fontă, standard NEMA" },
       { code: "W Premium Cast Iron (IEC)", description: "Motor uz general, carcasă fontă, standard IEC" },
-      { code: "NEMA Explosion Proof (140-280T)", description: "Motor antiex NEMA, cadre 140-280T" },
-      { code: "NEMA Explosion Proof (320T+)", description: "Motor antiex NEMA, cadre 320T și peste" },
+      { code: "NEMA Explosion Proof (140-250T)", description: "Motor antiex NEMA, cadre 140-250T" },
+      { code: "NEMA Explosion Proof (280T+)", description: "Motor antiex NEMA, cadre 280T și peste" },
       { code: "ATEX EExd", description: "Motor certificat Zona 1, grupele IIA/IIB" },
       { code: "ATEX EExde", description: "Motor certificat Zona 1, grupele IIA/IIB/IIC" },
       { code: "ATEX EEx nA", description: "Motor certificat Zona 2, grupa II T3" },
       { code: "PE III Premium Aluminum", description: "Motor eficiență ridicată, carcasă aluminiu" },
       { code: "PE III Premium Cast Iron", description: "Motor eficiență ridicată, carcasă fontă" },
-      { code: "Close Coupled JM/JP", description: "Motor cuplat direct la pompă, 30-75HP" },
+      { code: "Close Coupled JM/JP", description: "Motor cuplat direct la pompă, cu carcasă din aluminiu până la 30 HP (cai putere) și din fontă de la 40 la 75 HP" },
       { code: "Witton Kramer Brakes", description: "Frână electromagnetică pentru motoare" },
     ],
     faq: [
       { q: "Ce produce Brook Crompton?", a: "Brook Crompton produce motoare electrice industriale de uz general și motoare certificate ATEX pentru zone cu risc de explozie, în variante NEMA și IEC, din aluminiu sau fontă." },
       { q: "Cum aleg un motor Brook Crompton pentru o zonă cu risc de explozie?", a: "Alegerea depinde de zona de clasificare (1 sau 2) și de grupa de gaz; seriile EExd și EExde acoperă Zona 1, iar EEx nA acoperă Zona 2, dar confirmarea finală se face cu datele exacte ale instalației." },
-      { q: "Ce diferență e între motoarele Brook Crompton și cele Baldor?", a: "Ambele branduri produc motoare antiex certificate, dar diferă prin standardele acoperite (ATEX european la Brook Crompton, în principal NEMA la Baldor) și prin gama de cadre disponibile — verificăm împreună cerințele exacte ale proiectului." },
+      { q: "Ce diferență e între motoarele Brook Crompton și cele Baldor?", a: "Ambele branduri produc motoare antiex certificate, dar diferă prin gama de cadre, certificări și opțiuni disponibile — verificăm împreună cerințele exacte ale proiectului." },
       { q: "Livrați motoare Brook Crompton în România?", a: "Da, motoarele Brook Crompton ajung la comandă prin canale de aprovizionare europene, într-un termen orientativ de 1–4 săptămâni, care depinde de certificarea, puterea și cadrul mecanic alese pentru proiect." },
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Brook Crompton — Official Website", url: "https://www.brookcrompton.com", publisher: "Brook Crompton", accessed: "2026-09-22" },
       { title: "Brook Crompton — Products", url: "https://www.brookcrompton.com/products/", publisher: "Brook Crompton", accessed: "2026-09-22" },
@@ -262,11 +262,11 @@ Pentru linii de transport, depozite automatizate, instalații din industria alim
       "Sisteme integrate LogiDrive — motor, reductor și variator de frecvență optimizate ca o singură unitate",
       "Gamă completă de reductoare — elicoidale in-line, ax paralel, conice-elicoidale și melcate",
       "Variatoare descentralizate NORDAC ON, montate direct pe motor, pentru cablare simplificată",
-      "Rețea de peste 48 de filiale în 36 de țări pentru piese și suport tehnic",
+      "Rețea de 48 de filiale în 36 de țări pentru piese și suport tehnic",
     ],
     keyProducts: [
       { name: "Reductoare UNICASE", description: "Reductoare cu carcasă monobloc, în construcții elicoidale in-line, cu ax paralel sau conice-elicoidale, pentru acționarea benzilor transportoare și a utilajelor industriale." },
-      { name: "Unități MAXXDRIVE", description: "Reductoare industriale de mare capacitate, pentru sarcini grele în minerit, ciment și manipulare materiale în vrac, configurabile pe puterea și cuplul cerute de aplicație." },
+      { name: "Unități MAXXDRIVE", description: "Reductoare industriale de mare capacitate, pentru aplicații industriale grele, configurabile după cerințele aplicației." },
       { name: "Variatoare NORDAC PRO/ON", description: "Variatoare de frecvență centralizate (NORDAC PRO SK 500P) sau descentralizate (NORDAC ON), pentru controlul motoarelor în aplicații de logistică și producție." },
     ],
     industries: [
@@ -291,19 +291,19 @@ Pentru linii de transport, depozite automatizate, instalații din industria alim
       { code: "NORDAC ON", description: "Variator de frecvență descentralizat, montat pe motor" },
       { code: "LogiDrive", description: "Sistem integrat motor-reductor-variator pentru transportoare" },
       { code: "UNICASE", description: "Carcasă monobloc pentru reductoarele NORD" },
-      { code: "Motoare Asincrone IE5+", description: "Motor de inducție cu eficiență ridicată" },
+      { code: "Motoare IE5+", description: "Motor cu clasă de eficiență IE5+" },
       { code: "Motoare ATEX", description: "Motor antiex pentru zone cu risc de explozie" },
     ],
     faq: [
       { q: "Ce produce NORD Drivesystems?", a: "NORD produce motoare electrice, reductoare și variatoare de frecvență pentru acționări industriale, integrate uneori într-o singură unitate prin conceptul LogiDrive, destinat în special liniilor de transport." },
-      { q: "Cum aleg reductorul NORD potrivit pentru o bandă transportoare?", a: "Alegerea depinde de puterea motorului, turația de ieșire dorită și cuplul necesar; reductoarele UNICASE acoperă majoritatea aplicațiilor standard, iar MAXXDRIVE e rezervat sarcinilor grele din minerit sau ciment." },
+      { q: "Cum aleg reductorul NORD potrivit pentru o bandă transportoare?", a: "Alegerea depinde de puterea motorului, turația de ieșire dorită și cuplul necesar; reductoarele UNICASE acoperă majoritatea aplicațiilor standard, iar MAXXDRIVE este destinat aplicațiilor industriale grele." },
       { q: "Ce echivalent are variatorul NORDAC ON de la Lenze?", a: "Ambele branduri oferă variatoare descentralizate montate direct pe motor, dar parametrii de configurare și gama de puteri diferă, așa că verificăm cerințele exacte ale aplicației înainte de a recomanda o variantă." },
       { q: "Livrați sisteme NORD în România și în cât timp?", a: "Sistemele NORD se aduc prin canale de aprovizionare din UE, la comandă, cu un interval orientativ de 1–4 săptămâni, stabilit în funcție de configurația aleasă." },
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "NORD Drivesystems — Official Website", url: "https://www.nord.com", publisher: "NORD Drivesystems", accessed: "2026-09-22" },
       { title: "NORD Drivesystems — A North German Company with Tradition", url: "https://www.nord.com/en/nord-group/current-events/news-archive/articles/nord-head-quarters-bargteheide.jsp", publisher: "NORD Drivesystems", accessed: "2026-09-22" },
@@ -314,19 +314,19 @@ Pentru linii de transport, depozite automatizate, instalații din industria alim
     name: "Leroy-Somer",
     founded: 1919,
     headquarters: "Angoulême, Franța",
-    overview: `Leroy-Somer este un producător francez de motoare electrice, alternatoare și variatoare, cu sediul la Angoulême, activ din 1919 și integrat astăzi în grupul japonez Nidec. Gama acoperă motoare de inducție trifazate, motoare sincrone cu magneți permanenți, motoare cu frână, motoreductoare din familiile Compabloc și Orthobloc, servomotoare Unimotor hd și variatoare de curent alternativ și continuu. Pentru România putem oferta motoare și motoreductoare Leroy-Somer pentru acționări industriale generale.
+    overview: `Leroy-Somer este un producător francez de motoare electrice, alternatoare și variatoare, cu sediul la Angoulême, activ din 1919 și integrat astăzi în grupul japonez Nidec. Gama acoperă motoare de inducție trifazate, motoare sincrone, motoare cu frână, motoreductoare din familiile Compabloc și Orthobloc, servomotoare Unimotor hd și variatoare de curent alternativ și continuu. Pentru România putem oferta motoare și motoreductoare Leroy-Somer pentru acționări industriale generale.
 
-Motoarele sincrone din seriile FLSHRM, LSHRM și PLSHRM sunt gândite pentru aplicații unde eficiența energetică ridicată contează mai mult decât costul inițial, iar motoreductoarele Compabloc (helical cu ieșire axială), Multibloc/Minibloc (melc-roată) și Orthobloc (conic-elicoidal ortogonal) acoperă majoritatea configurațiilor mecanice cerute în producție. Variatorul DC Mentor MP rămâne o opțiune pentru acționările clasice de curent continuu, iar starterele electronice Digistart D4/D5 înlocuiesc pornirea directă la motoare de putere mai mare. Ca gamă completă de acționări, Leroy-Somer se compară cu NORD Drivesystems, celălalt brand de sisteme de acționare din portofoliu.
+Motoarele sincrone din seriile FLSHRM, LSHRM și PLSHRM fac parte din gama de motoare sincrone a producătorului, iar motoreductoarele Compabloc (helical cu ieșire axială), Multibloc/Minibloc (melc-roată) și Orthobloc (conic-elicoidal ortogonal) acoperă majoritatea configurațiilor mecanice cerute în producție. Variatorul DC Mentor MP rămâne o opțiune pentru acționările clasice de curent continuu, iar starterele electronice Digistart D4/D5 înlocuiesc pornirea directă la motoare de putere mai mare. Ca gamă completă de acționări, Leroy-Somer se compară cu NORD Drivesystems, celălalt brand de sisteme de acționare din portofoliu.
 
 Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente din industria alimentară din România, gama Leroy-Somer oferă o alternativă completă motor-reductor-variator, utilă mai ales acolo unde proiectul cere motoare sincrone de eficiență ridicată sau motoreductoare compacte.`,
     whyChoose: [
       "Gamă completă motor-reductor-variator — de la motoare de inducție la motoreductoare Compabloc/Orthobloc și variatoare AC/DC",
-      "Motoare sincrone cu magneți permanenți (FLSHRM, LSHRM, PLSHRM) pentru eficiență energetică ridicată",
+      "Motoare sincrone (FLSHRM, LSHRM, PLSHRM) din gama producătorului",
       "Peste un secol de experiență franceză în motoare și alternatoare industriale, din 1919",
       "Parte din grupul Nidec — acces la o rețea globală de inginerie și piese de schimb",
     ],
     keyProducts: [
-      { name: "Motoare Sincrone FLSHRM/LSHRM/PLSHRM", description: "Motoare sincrone cu magneți permanenți, pentru acționări industriale unde eficiența energetică ridicată justifică investiția inițială mai mare față de motoarele de inducție clasice." },
+      { name: "Motoare Sincrone FLSHRM/LSHRM/PLSHRM", description: "Motoare sincrone din gama producătorului, pentru acționări industriale; caracteristicile și clasa de eficiență se confirmă pe cod." },
       { name: "Motoreductoare Compabloc/Multibloc/Orthobloc", description: "Familie de motoreductoare cu configurații elicoidale, melc-roată sau conic-elicoidale, pentru acționarea benzilor transportoare, mixerelor și utilajelor de producție." },
       { name: "Variatoare și Startere Mentor MP / Digistart", description: "Variator de curent continuu Mentor MP și startere electronice Digistart D4/D5, pentru controlul pornirii și turației motoarelor industriale de diverse puteri." },
     ],
@@ -338,11 +338,11 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
       "Petrol și gaze — motoare sincrone pentru aplicații de eficiență ridicată",
       "Marină — motoare și alternatoare pentru echipamente de bord",
     ],
-    infinitrade: `Pentru Leroy-Somer facem distincția clară între ce putem și ce nu putem confirma — informațiile despre gamă vin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem o disponibilitate imediată garantată pe această gamă.`,
+    infinitrade: `Pentru Leroy-Somer informațiile despre gamă provin din materialele publice ale producătorului și ale grupului Nidec, fără vizibilitate proprie asupra stocului din fabrică. Motoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de puterea motorului, turația, tipul de montaj și, dacă e cazul, seria de reductor sau variator dorită. Nu promitem disponibilitate imediată pe această gamă.`,
     limitation: "Configurarea avansată a variatoarelor Leroy-Somer pentru aplicații speciale necesită o verificare tehnică directă la producător, pe care nu o putem face în locul lui.",
     productCodes: [
-      { code: "FLSHRM", description: "Motor sincron cu magneți permanenți, eficiență ridicată" },
-      { code: "LSHRM", description: "Motor sincron cu magneți permanenți" },
+      { code: "FLSHRM", description: "Motor sincron" },
+      { code: "LSHRM", description: "Motor sincron" },
       { code: "PLSHRM", description: "Variantă a motorului sincron LSHRM" },
       { code: "FCPL", description: "Motor cu frână integrată" },
       { code: "FCR", description: "Motor cu frână, variantă constructivă" },
@@ -351,8 +351,8 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
       { code: "Compabloc", description: "Motoreductor elicoidal cu ieșire axială" },
       { code: "Multibloc", description: "Motoreductor cu roată melcată, dimensiuni standard" },
       { code: "Minibloc", description: "Motoreductor cu roată melcată, dimensiuni reduse" },
-      { code: "Manubloc", description: "Motoreductor elicoidal cu ieșire paralelă" },
-      { code: "Poulibloc", description: "Motoreductor elicoidal, variantă de montaj" },
+      { code: "Manubloc", description: "Motoreductor din gama Leroy-Somer; configurația se confirmă pe cod" },
+      { code: "Poulibloc", description: "Motoreductor din gama Leroy-Somer; configurația se confirmă pe cod" },
       { code: "Orthobloc", description: "Motoreductor conic-elicoidal cu ieșire ortogonală" },
       { code: "Unimotor hd", description: "Servomotor pentru acționări de precizie" },
       { code: "Mentor MP", description: "Variator de curent continuu" },
@@ -367,8 +367,8 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Leroy-Somer — About Us", url: "https://acim.nidec.com/motors/leroy-somer/about-us/leroy-somer", publisher: "Leroy-Somer (Nidec)", accessed: "2026-09-22" },
       { title: "Leroy-Somer — Products", url: "https://acim.nidec.com/motors/leroy-somer/products", publisher: "Leroy-Somer (Nidec)", accessed: "2026-09-22" },
@@ -382,7 +382,7 @@ Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente
     headquarters: "Milwaukee, Wisconsin, SUA",
     overview: `Regal Rexnord este un grup american de motoare electrice și sisteme de transmisie mecanică, cu sediul la Milwaukee, Wisconsin, format în octombrie 2021 prin fuziunea Regal Beloit cu Rexnord Process & Motion Control. Portofoliul reunește branduri precum Marathon și Leeson pentru motoare electrice, Browning și Falk pentru transmisii mecanice, și Rexnord pentru lanțuri și cuplaje industriale. Pentru România putem oferta motoare și componente de transmisie din aceste branduri, în funcție de disponibilitatea la producător.
 
-Structura de grup înseamnă că gama Regal Rexnord nu e o singură linie de produse, ci o colecție de branduri specializate: Marathon și Leeson acoperă motoare electrice de uz general, Falk oferă reductoare industriale grele (inclusiv seria Quadrive), Sealmaster și McGill produc rulmenți, iar Warner Electric și Stromag acoperă cuplaje și frâne electromagnetice. Pe segmentul motoarelor electrice, Regal Rexnord concurează direct cu Baldor și cu TECO, celelalte branduri de motoare din portofoliul nostru.
+Structura de grup înseamnă că gama Regal Rexnord nu e o singură linie de produse, ci o colecție de branduri specializate: Marathon și Leeson acoperă motoare electrice de uz general, Falk oferă reductoare industriale grele (inclusiv seria Quadrive), Sealmaster și McGill produc rulmenți, iar Warner Electric și Stromag acoperă cuplaje și frâne electromagnetice. Baldor și TECO sunt alte branduri de motoare electrice prezentate pe site-ul nostru.
 
 Pentru instalații industriale din România care folosesc deja echipamente Marathon, Leeson, Browning sau Rexnord, putem identifica reperul exact și verifica disponibilitatea la producător, util mai ales la înlocuirea componentelor dintr-o linie existentă.`,
     whyChoose: [
@@ -430,8 +430,8 @@ Pentru instalații industriale din România care folosesc deja echipamente Marat
     ],
     evidenceClass: "transactional",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Regal Rexnord — Official Website", url: "https://www.regalrexnord.com", publisher: "Regal Rexnord", accessed: "2026-09-22" },
       { title: "Regal Rexnord — Brands", url: "https://www.regalrexnord.com/Brands", publisher: "Regal Rexnord", accessed: "2026-09-22" },
@@ -445,19 +445,19 @@ Pentru instalații industriale din România care folosesc deja echipamente Marat
     headquarters: "Fort Smith, Arkansas, SUA",
     overview: `Baldor este un producător american de motoare electrice, fondat în 1920 și integrat astăzi în ABB, cu sediul la Fort Smith, Arkansas. Gama acoperă motoare NEMA de uz general, motoare antiex, motoare pentru pompe, motoare marine, motoare rezistente la spălare (washdown) și servomotoare din familia BSM. Pentru România putem oferta motoare Baldor pentru acționări industriale unde standardul NEMA este cerut explicit de proiect.
 
-Portofoliul include motoare de scop general, motoare cu destinație specifică (Definite Purpose), motoare cu antrenare directă, motoare pentru medii cu risc de explozie și motoare severe duty pentru condiții dure — printre care seria XT. Servomotoarele BSM sunt împărțite în familiile C-Series, B-Series și N-Series, plus variante din oțel inoxidabil pentru medii igienice. Pe motoare mari, Baldor oferă și variante sincrone și de inducție de putere ridicată. Ca brand de motoare NEMA integrat într-un grup mare, Baldor se compară cu TECO și cu Regal Rexnord, celelalte branduri de motoare din portofoliul nostru.
+Portofoliul include motoare de scop general, motoare cu destinație specifică (Definite Purpose), motoare cu antrenare directă, motoare pentru medii cu risc de explozie și motoare severe duty pentru condiții dure — printre care seria XT. Servomotoarele BSM sunt împărțite în familiile C-Series, B-Series și N-Series. Pe motoare mari, Baldor oferă și variante sincrone și de inducție de putere ridicată. Ca brand de motoare NEMA integrat într-un grup mare, Baldor se compară cu TECO și cu Regal Rexnord, celelalte branduri de motoare din portofoliul nostru.
 
 Pentru instalații HVAC, industria alimentară, ciment, minerit și stații de tratare a apei din România care folosesc deja standardul NEMA, motoarele Baldor rămân o opțiune verificată, mai ales la înlocuirea unui motor existent cu specificații identice.`,
     whyChoose: [
       "Standard NEMA consacrat — peste un secol de experiență americană în motoare electrice, din 1920",
       "Gamă largă de destinații specifice — pompe, marine, washdown, severe duty, HVAC",
-      "Servomotoare BSM în trei familii (C, B, N) plus variante din oțel inoxidabil",
+      "Servomotoare BSM în trei familii (C, B, N)",
       "Conformitate marină ABS, USCG și standard IEEE 45 pentru motoarele destinate navelor",
     ],
     keyProducts: [
       { name: "Motoare NEMA de Uz General și Severe Duty", description: "Motoare electrice standard NEMA pentru acționări industriale generale, plus variante severe duty (inclusiv seria XT) pentru condiții de sarcină și mediu dure." },
       { name: "Motoare cu Destinație Specifică (Pompe, Marine, Washdown)", description: "Motoare dedicate — pentru pompe, aplicații marine cu conformitate ABS/USCG, sau washdown pentru industria alimentară — fiecare cu construcție adaptată mediului de lucru." },
-      { name: "Servomotoare BSM (C/B/N-Series)", description: "Servomotoare AC brushless pentru acționări de precizie, în familiile C-Series, B-Series și N-Series, inclusiv variante din oțel inoxidabil." },
+      { name: "Servomotoare BSM (C/B/N-Series)", description: "Servomotoare AC brushless pentru acționări de precizie, în familiile C-Series, B-Series și N-Series." },
     ],
     industries: [
       "HVAC — motoare de uz general și severe duty",
@@ -466,7 +466,7 @@ Pentru instalații HVAC, industria alimentară, ciment, minerit și stații de t
       "Apă și ape uzate — motoare pentru pompe",
       "Marină — motoare cu conformitate ABS/USCG/IEEE 45",
     ],
-    certifications: ["Conformitate NEMA", "IEC 60034-18-41 (motoare EC Titanium)", "ABS, USCG, IEEE 45 (aplicații marine)"],
+    certifications: ["Conformitate NEMA", "ABS, USCG, IEEE 45 (aplicații marine)"],
     infinitrade: `Pentru Baldor lucrăm fără date proprii de stoc — ce prezentăm aici vine din materialele publice ale producătorului și ale ABB Motors and Mechanical. Motoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și destinație. Pentru ofertă avem nevoie de codul motorului existent (dacă e o înlocuire) sau de puterea, turația, cadrul mecanic și destinația specifică (pompă, marine, washdown etc.). Nu ținem această gamă pe raft.`,
     limitation: "Nu putem confirma echivalența exactă cu un motor Baldor mai vechi fără codul de pe plăcuța motorului sau documentația tehnică originală.",
     productCodes: [
@@ -497,8 +497,8 @@ Pentru instalații HVAC, industria alimentară, ciment, minerit și stații de t
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Baldor — Official Website (ABB)", url: "https://www.baldor.com", publisher: "Baldor / ABB Motors and Mechanical", accessed: "2026-09-22" },
       { title: "Baldor Electric Company", url: "https://en.wikipedia.org/wiki/Baldor_Electric_Company", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -509,11 +509,11 @@ Pentru instalații HVAC, industria alimentară, ciment, minerit și stații de t
     name: "TECO",
     founded: 1956,
     headquarters: "Taipei, Taiwan",
-    overview: `TECO Electric & Machinery este un producător taiwanez de motoare electrice industriale, fondat în 1956, cu sediul la Taipei. Prin joint-venture-ul TECO-Westinghouse din SUA, gama acoperă motoare monofazate și trifazate în construcție deschisă (ODP) sau total închisă (TEFC), motoare de medie tensiune și motoare verticale cu ax gol sau plin. Pentru România putem oferta motoare TECO pentru acționări industriale generale și aplicații de medie tensiune.
+    overview: `TECO Electric & Machinery este un producător taiwanez de motoare electrice industriale, fondat în 1956, cu sediul la Taipei. Prin filiala sa din SUA, TECO-Westinghouse Motor Company, gama acoperă motoare monofazate și trifazate în construcție deschisă (ODP) sau total închisă (TEFC), motoare de medie tensiune și motoare verticale cu ax gol sau plin. Pentru România putem oferta motoare TECO pentru acționări industriale generale și aplicații de medie tensiune.
 
-Pe lângă motoarele de serie, TECO-Westinghouse produce și motoare custom — de inducție, sincrone sau de curent continuu — plus variatoare de frecvență de joasă și medie tensiune, softstartere și transformatoare. Compania a extins recent oferta cu soluții pentru stocarea energiei în baterii, recuperare de căldură și încărcătoare pentru vehicule electrice. Ca brand asiatic de motoare industriale, TECO se compară cu Baldor și cu Marelli Motori, celelalte branduri de motoare de pe piața globală prezente în portofoliul nostru.
+Pe lângă motoarele de serie, TECO-Westinghouse produce și motoare custom — de inducție, sincrone sau de curent continuu — plus variatoare de frecvență de joasă și medie tensiune, softstartere și transformatoare. Oferta include și soluții pentru stocarea energiei în baterii, recuperare de căldură și încărcătoare pentru vehicule electrice. Ca brand asiatic de motoare industriale, TECO se compară cu Baldor și cu Marelli Motori, celelalte branduri de motoare de pe piața globală prezente în portofoliul nostru.
 
-Pentru instalații din petrol și gaze, petrochimie, minerit și stații de tratare a apei din România care au nevoie de motoare de medie tensiune sau de variante ODP/TEFC standard, gama TECO oferă o alternativă asiatică verificată în aplicații industriale grele.`,
+Pentru instalații din petrol și gaze, petrochimie, minerit și stații de tratare a apei din România care au nevoie de motoare de medie tensiune sau de variante ODP/TEFC standard, gama TECO acoperă motoare ODP/TEFC standard și de medie tensiune.`,
     whyChoose: [
       "Gamă completă ODP/TEFC — de la motoare monofazate mici la motoare de medie tensiune",
       "Motoare verticale cu ax gol sau plin, pentru pompe și aplicații speciale de montaj",
@@ -552,15 +552,15 @@ Pentru instalații din petrol și gaze, petrochimie, minerit și stații de trat
       { code: "Battery Energy Storage Systems", description: "Sistem de stocare a energiei în baterii" },
     ],
     faq: [
-      { q: "Ce produce TECO?", a: "TECO produce motoare electrice industriale standard și de medie tensiune, în construcție ODP sau TEFC, plus motoare custom, variatoare de frecvență și softstartere prin joint-venture-ul TECO-Westinghouse." },
+      { q: "Ce produce TECO?", a: "TECO produce motoare electrice industriale standard și de medie tensiune, în construcție ODP sau TEFC, plus motoare custom, variatoare de frecvență și softstartere prin filiala sa din SUA, TECO-Westinghouse Motor Company." },
       { q: "Cum aleg un motor TECO ODP sau TEFC?", a: "Alegerea depinde de mediul de instalare — ODP pentru spații curate și ventilate, TEFC pentru medii cu praf sau umiditate; puterea și turația se confirmă apoi cu datele exacte ale aplicației." },
       { q: "Ce echivalent are un motor TECO de medie tensiune la Baldor?", a: "Ambele branduri oferă motoare industriale de putere mare, dar gamele de tensiune și cadrele constructive diferă, așa că verificăm parametrii exacți ai aplicației înainte de a propune un echivalent." },
       { q: "Livrați motoare TECO în România și cât durează?", a: "Motoarele TECO se aduc prin canale de aprovizionare din UE, la comandă, cu un termen orientativ de 1–4 săptămâni, stabilit după puterea și tensiunea alese." },
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "TECO-Westinghouse — Products", url: "https://www.tecowestinghouse.com", publisher: "TECO-Westinghouse", accessed: "2026-09-22" },
       { title: "TECO Electric and Machinery", url: "https://en.wikipedia.org/wiki/TECO_Electric_and_Machinery", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -573,7 +573,7 @@ Pentru instalații din petrol și gaze, petrochimie, minerit și stații de trat
     headquarters: "Kitakyushu, Japonia",
     overview: `Yaskawa este un producător japonez de servomotoare, convertizoare de frecvență și roboți industriali, fondat în 1915, cu sediul la Kitakyushu. Gama de acționări acoperă servomotoarele Sigma-7 și Sigma-X pentru poziționare de precizie, convertizoarele de frecvență din familiile GA700, A1000 și V1000, plus roboții industriali MOTOMAN pentru sudură, manipulare și paletizare. Pentru România putem oferta convertizoare și servomotoare Yaskawa pentru automatizarea liniilor de producție.
 
-Convertizoarele de frecvență Yaskawa sunt segmentate pe aplicație — GA700 pentru control vectorial complex, A1000 pentru aplicații industriale generale, V1000 pentru instalare compactă și J1000 pentru instalare simplă, iar L1000V e dedicat aplicațiilor de ridicare. Roboții MOTOMAN acoperă atât brațe industriale clasice cât și seria colaborativă NHC, gândită pentru lucrul alături de operatori umani fără gard de protecție. Ca brand de acționări și automatizare, Yaskawa se compară cu Lenze și cu NORD Drivesystems, celelalte branduri de variatoare din portofoliu.
+Convertizoarele de frecvență Yaskawa sunt segmentate pe aplicație — GA700 pentru acționări industriale, A1000 pentru aplicații industriale generale, V1000 pentru instalare compactă și J1000 pentru instalare simplă, iar aplicația fiecărei serii o confirmăm pe cod, din documentația Yaskawa. Roboții MOTOMAN acoperă atât brațe industriale clasice cât și seria colaborativă NHC, gândită pentru lucrul alături de operatori umani, cu condiția unei evaluări de risc a aplicației. Ca brand de acționări și automatizare, Yaskawa se compară cu Lenze și cu NORD Drivesystems, celelalte branduri de variatoare din portofoliu.
 
 Pentru linii de producție automatizate, aplicații de sudură robotizată, ambalare și manipulare din industria auto sau alimentară din România, gama Yaskawa oferă o combinație de servomotoare, variatoare și roboți care poate fi integrată ca sistem complet, de la punctul de comandă până la execuția mecanică pe linie.`,
     whyChoose: [
@@ -585,15 +585,15 @@ Pentru linii de producție automatizate, aplicații de sudură robotizată, amba
     ],
     keyProducts: [
       { name: "Servomotoare Sigma-7/Sigma-X", description: "Servomotoare de precizie pentru poziționare rapidă, disponibile în variante rotative, direct drive și liniare, pentru automatizări industriale complexe." },
-      { name: "Convertizoare de Frecvență GA700/A1000/V1000", description: "Familie de convertizoare de frecvență segmentate pe aplicație — control vectorial complex (GA700), uz industrial general (A1000) sau instalare compactă (V1000)." },
-      { name: "Roboți Industriali MOTOMAN", description: "Roboți pentru sudură, manipulare și paletizare, plus seria colaborativă NHC, proiectată pentru lucrul alături de operatori fără gard de protecție." },
+      { name: "Convertizoare de Frecvență GA700/A1000/V1000", description: "Familie de convertizoare de frecvență segmentate pe aplicație — acționări industriale (GA700), uz industrial general (A1000) sau instalare compactă (V1000)." },
+      { name: "Roboți Industriali MOTOMAN", description: "Roboți pentru sudură, manipulare și paletizare, plus seria colaborativă NHC, proiectată pentru lucrul alături de operatori, cu condiția unei evaluări de risc a aplicației." },
     ],
     industries: [
       "Automotive — roboți de sudură și manipulare MOTOMAN",
       "Industria alimentară — convertizoare și roboți de ambalare",
       "Prelucrarea metalelor — convertizoare pentru mașini-unelte",
       "Energie regenerabilă — convertizoare pentru aplicații industriale",
-      "Macarale și ridicare — convertizor dedicat L1000V",
+      
       "Semiconductori — servomotoare de precizie pentru echipamente de producție",
     ],
     infinitrade: `Informațiile despre Yaskawa provin din surse publice ale producătorului, fără date proprii despre stocul din depozitele europene ale grupului. Servomotoarele, convertizoarele și roboții ajung la comandă prin canale de aprovizionare din UE, într-un interval orientativ de 1–4 săptămâni, în funcție de model și configurație. Pentru ofertă avem nevoie de puterea/turația necesară, aplicația vizată (poziționare, variație de turație sau robotizare) și, dacă e cazul, tipul de comunicație industrială cerut. Nu putem promite o cantitate disponibilă pe stoc pentru niciun articol din această gamă.`,
@@ -601,29 +601,29 @@ Pentru linii de producție automatizate, aplicații de sudură robotizată, amba
     productCodes: [
       { code: "Sigma-7", description: "Servomotor de precizie, generație 7" },
       { code: "Sigma-X", description: "Servomotor de precizie, generație recentă" },
-      { code: "GA700", description: "Convertizor de frecvență, control vectorial complex" },
+      { code: "GA700", description: "Convertizor de frecvență Yaskawa, serie GA" },
       { code: "A1000", description: "Convertizor de frecvență industrial general" },
       { code: "V1000", description: "Convertizor de frecvență compact" },
       { code: "J1000", description: "Convertizor de frecvență, instalare simplă" },
-      { code: "L1000V", description: "Convertizor de frecvență pentru aplicații de ridicare" },
-      { code: "HV600", description: "Convertizor de frecvență de înaltă tensiune" },
+      { code: "L1000V", description: "Convertizor de frecvență Yaskawa; aplicația se confirmă pe cod" },
+      { code: "HV600", description: "Convertizor de frecvență pentru aplicații HVAC (ventilatoare și pompe)" },
       { code: "MOTOMAN", description: "Robot industrial pentru sudură și manipulare" },
       { code: "NHC Series", description: "Robot colaborativ pentru lucrul alături de operatori" },
       { code: "PLC Micro", description: "Controler logic programabil, gamă compactă" },
-      { code: "SLIO", description: "Sistem de automatizare modular" },
+      { code: "SLIO", description: "Sistem modular de intrări/ieșiri descentralizate" },
       { code: "MP3000iec", description: "Controler de mișcare pentru automatizări complexe" },
-      { code: "iCube Control", description: "Platformă de control pentru mașini-unelte" },
+      { code: "iCube Control", description: "Controler Yaskawa din gama Machine Controller" },
     ],
     faq: [
       { q: "Ce produce Yaskawa?", a: "Yaskawa produce servomotoare de precizie, convertizoare de frecvență și roboți industriali MOTOMAN, folosiți în automatizarea liniilor de producție din automotive, industria alimentară și prelucrarea metalelor, printre alte domenii industriale." },
-      { q: "Cum aleg convertizorul Yaskawa potrivit pentru o aplicație industrială?", a: "Alegerea depinde de tipul aplicației — control vectorial complex pentru GA700, uz general pentru A1000, instalare compactă pentru V1000 sau J1000 — iar puterea exactă se confirmă cu datele motorului acționat." },
+      { q: "Cum aleg convertizorul Yaskawa potrivit pentru o aplicație industrială?", a: "Alegerea depinde de tipul aplicației — uz industrial pentru GA700, uz general pentru A1000, instalare compactă pentru V1000 sau J1000 — iar puterea exactă se confirmă cu datele motorului acționat." },
       { q: "Ce echivalent are un servomotor Sigma-7 de la Yaskawa?", a: "Servomotoare de precizie similare există și la alte branduri de automatizare din portofoliu, dar interfața de comunicație și parametrii de control diferă, așa că verificăm cerințele exacte ale aplicației." },
       { q: "Livrați echipamente Yaskawa în România și cât durează?", a: "Da, servomotoarele, convertizoarele și roboții Yaskawa ajung la comandă prin canale de aprovizionare din UE, într-un interval orientativ de 1–4 săptămâni, în funcție de modelul și configurația exactă cerute." },
     ],
     evidenceClass: "zero-evidence",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Yaskawa Europe — Official Website", url: "https://www.yaskawa.eu.com", publisher: "Yaskawa Europe GmbH", accessed: "2026-09-22" },
       { title: "Yaskawa Electric Corporation", url: "https://en.wikipedia.org/wiki/Yaskawa_Electric_Corporation", publisher: "Wikipedia", accessed: "2026-09-22" },
@@ -648,7 +648,7 @@ Pentru linii de ambalare, industria textilă, logistică de depozit și echipame
     ],
     keyProducts: [
       { name: "Variatoare MOTEC i550/i650", description: "Variatoare de frecvență montate direct pe motor, pentru reducerea cablajului din dulapul electric, disponibile în variante pentru aplicații standard și de control avansat." },
-      { name: "Motoare Sincrone de Eficiență Ridicată", description: "Motoare sincrone cu magneți permanenți, pentru acționări unde eficiența energetică este cerută explicit de proiect, în locul motoarelor de inducție clasice." },
+      { name: "Motoare Sincrone de Eficiență Ridicată", description: "Motoare sincrone Lenze; seria și clasa de eficiență se confirmă pe cod, din documentația producătorului." },
       { name: "Motoreductoare Trifazate și Servo", description: "Motoreductoare trifazate pentru acționări generale și motoreductoare servo pentru aplicații de poziționare precisă, integrate cu gama de reductoare Lenze." },
     ],
     industries: [
@@ -664,7 +664,7 @@ Pentru linii de ambalare, industria textilă, logistică de depozit și echipame
     productCodes: [
       { code: "MOTEC i550", description: "Variator montat pe motor, aplicații standard" },
       { code: "MOTEC i650", description: "Variator montat pe motor, control avansat" },
-      { code: "Motoare Sincrone IE5", description: "Motor sincron de eficiență ridicată" },
+      { code: "Motoare sincrone", description: "Motor sincron de eficiență ridicată" },
       { code: "Three-Phase Geared Motors", description: "Motoreductor trifazat pentru acționări generale" },
       { code: "Geared Servo Motors", description: "Motoreductor servo pentru poziționare precisă" },
       { code: "Gearboxes", description: "Reductor Lenze pentru acționări industriale" },
@@ -683,8 +683,8 @@ Pentru linii de ambalare, industria textilă, logistică de depozit și echipame
     ],
     evidenceClass: "gsc-only",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Lenze — Official Website", url: "https://www.lenze.com/en-us/", publisher: "Lenze", accessed: "2026-09-22" },
       { title: "Lenze — Products", url: "https://www.lenze.com/en-us/products", publisher: "Lenze", accessed: "2026-09-22" },

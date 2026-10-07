@@ -9,7 +9,7 @@ export const brandContentBatch65 = {
 
 Ce diferențiază Werma este modularitatea reală a seriei KombiSIGN — clientul combină până la cinci nivele de culoare pe același soclu — și existența unor variante preconfigurate precum RST 56 sau KOMPAKT 37, gata de comandat fără a mai alege fiecare componentă separat. Seria eSIGN merge mai departe, cu semnalizare electronică pe segmente și integrare PROFINET pentru linii care raportează starea echipamentului către un sistem central. Pentru medii curate, CleanSIGN oferă o carcasă închisă potrivită camerelor albe și industriei alimentare.
 
-Pentru fabricile din România, Werma are sens acolo unde vrei semnalizare vizuală standardizată pe mai multe linii, ușor de recunoscut de orice operator nou, sau unde regulamentul intern de siguranță cere semnalizare acustică suplimentară la avarie.`,
+Pentru fabricile din România, Werma are sens acolo unde se dorește semnalizare vizuală standardizată pe mai multe linii, ușor de recunoscut de orice operator nou, sau unde regulamentul intern de siguranță cere semnalizare acustică suplimentară la avarie.`,
     whyChoose: [
       "Coloane modulare KombiSIGN cu până la cinci nivele de culoare combinabile pe același soclu, alese de client la comandă.",
       "Variante preconfigurate RST 56 și KOMPAKT 37, gata de montaj, utile când timpul de instalare contează mai mult decât personalizarea.",
@@ -18,8 +18,8 @@ Pentru fabricile din România, Werma are sens acolo unde vrei semnalizare vizual
     ],
     keyProducts: [
       { name: "Coloane Luminoase Seria KombiSIGN", description: "Coloane de semnalizare modulare, disponibile în variantele KombiSIGN 71, KombiSIGN 72 și KombiSIGN 40, cu până la cinci nivele de culoare combinate pe același soclu, în execuție ClassicLOOK sau DesignLOOK. Fiecare nivel poate fi montat cu lumină continuă, intermitentă sau strobe, iar unele module includ și un buzzer integrat. Clientul stabilește la comandă numărul de nivele, culorile și tensiunea de alimentare." },
-      { name: "Coloane Preconfigurate RST 56 și KOMPAKT 37", description: "Variante de coloane luminoase gata configurate din fabrică, cu 2 până la 5 trepte de culoare la RST 56 și 1 până la 5 trepte la KOMPAKT 37, livrate ca ansamblu unic fără a mai alege module separate. Utile acolo unde proiectul cere montaj rapid pe mai multe linii identice." },
-      { name: "Serie eSIGN", description: "Coloană de semnalizare cu segmente electronice, disponibilă cu 9 sau 15 segmente, care înlocuiește modulele fizice separate cu un singur corp programabil electronic. Varianta cu PROFINET permite conectarea coloanei direct la rețeaua de automatizare a liniei, pentru raportare de stare în timp real către un sistem central de monitorizare." },
+      { name: "Coloane Preconfigurate RST 56 și KOMPAKT 37", description: "Variante de coloane luminoase gata configurate din fabrică, cu număr de trepte de culoare confirmat pe cod, din documentația producătorului, livrate ca ansamblu unic fără a mai alege module separate. Utile acolo unde proiectul cere montaj rapid pe mai multe linii identice." },
+      { name: "Serie eSIGN", description: "Coloană de semnalizare cu segmente electronice, care înlocuiește modulele fizice separate cu un singur corp programabil electronic; numărul de segmente se confirmă pe cod, din documentația producătorului. Varianta cu PROFINET permite conectarea coloanei direct la rețeaua de automatizare a liniei, pentru raportare de stare în timp real către un sistem central de monitorizare." },
       { name: "CleanSIGN", description: "Coloană de semnalizare cu carcasă complet închisă, gândită pentru camere curate și industria alimentară, unde suprafețele trebuie să fie ușor de dezinfectat și fără zone în care se pot acumula praf sau reziduuri." }
     ],
     industries: [
@@ -29,31 +29,31 @@ Pentru fabricile din România, Werma are sens acolo unde vrei semnalizare vizual
       "Automatizări și integrare de sisteme — coloane eSIGN cu raportare PROFINET către SCADA",
       "Mentenanță industrială — semnalizare de avarie pentru intervenție rapidă la utilaje critice"
     ],
-    infinitrade: `Pentru Werma lucrăm din surse publice ale producătorului și din cataloagele disponibile pe site-ul oficial — nu avem disponibilitate imediată propriu și nu putem confirma disponibilitatea unei configurații anume fără să verificăm în prealabil la producător. Aducem coloanele luminoase și modulele de semnalizare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de varianta aleasă și de stocul de la fabrică. Pentru ofertă avem nevoie de seria dorită (KombiSIGN, eSIGN, RST 56 etc.), numărul de niveluri de culoare, tensiunea de alimentare și, dacă e cazul, cerința de integrare PROFINET. Nu promitem disponibilitate din depozit pe nicio variantă.`,
+    infinitrade: `Pentru Werma lucrăm din surse publice ale producătorului și din cataloagele disponibile pe site-ul oficial — nu deținem stoc propriu și nu putem confirma disponibilitatea unei configurații anume fără să verificăm în prealabil la producător. Aducem coloanele luminoase și modulele de semnalizare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de varianta aleasă și de stocul de la fabrică. Pentru ofertă avem nevoie de seria dorită (KombiSIGN, eSIGN, RST 56 etc.), numărul de niveluri de culoare, tensiunea de alimentare și, dacă e cazul, cerința de integrare PROFINET. Nu promitem disponibilitate din depozit pe nicio variantă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unei configurații de culori sau integrarea software cu un anumit PLC fără verificare prealabilă la producător.",
     productCodes: [
       { code: "KombiSIGN 71", description: "coloană modulară cu până la 5 nivele de culoare" },
-      { code: "KombiSIGN 72", description: "coloană modulară, variantă industry standard" },
-      { code: "KombiSIGN 40", description: "coloană modulară compactă, până la 5 trepte" },
-      { code: "RST 56", description: "coloană preconfigurată, 2-5 trepte de culoare" },
-      { code: "KOMPAKT 37", description: "coloană preconfigurată, 1-5 trepte, montaj rapid" },
-      { code: "deSIGN 42", description: "coloană preconfigurată cu carcasă inox" },
+      { code: "KombiSIGN 72", description: "coloană modulară" },
+      { code: "KombiSIGN 40", description: "coloană modulară compactă" },
+      { code: "RST 56", description: "coloană preconfigurată" },
+      { code: "KOMPAKT 37", description: "coloană preconfigurată, gata de montaj" },
+      { code: "deSIGN 42", description: "coloană preconfigurată" },
       { code: "CleanSIGN", description: "coloană închisă pentru camere curate și industria alimentară" },
-      { code: "FlatSIGN", description: "coloană cu carcasă plată, semicirculară" },
-      { code: "VarioSIGN", description: "coloană cu iluminare a întregului corp" },
-      { code: "eSIGN", description: "coloană electronică cu 9 sau 15 segmente" },
+      { code: "FlatSIGN", description: "serie de coloane de semnalizare Werma; detalii pe cod" },
+      { code: "VarioSIGN", description: "serie de coloane de semnalizare Werma; detalii pe cod" },
+      { code: "eSIGN", description: "coloană electronică cu segmente" },
       { code: "MC55 High", description: "beacon de instalare cu dom înalt pentru vizibilitate" }
     ],
     faq: [
       { q: "Ce produce Werma?", a: "Werma produce coloane luminoase, girofaruri, sirene și combinații optico-acustice pentru semnalizarea stării mașinilor și proceselor industriale. Gama include coloane modulare precum KombiSIGN, variante preconfigurate ca RST 56 sau KOMPAKT 37 și coloana electronică eSIGN, cu opțiune de integrare PROFINET pentru raportare către un sistem de automatizare." },
-      { q: "Cum aleg o coloană Werma potrivită pentru linia mea?", a: "Alegerea pornește de la numărul de stări pe care vrei să le semnalizezi — de obicei 2 până la 5 culori — și de la tensiunea de alimentare disponibilă la panou. Dacă ai nevoie de montaj rapid pe mai multe linii identice, o variantă preconfigurată ca RST 56 e mai simplă decât o coloană modulară cu module separate." },
+      { q: "Cum aleg o coloană Werma potrivită pentru linia dumneavoastră?", a: "Alegerea pornește de la numărul de stări pe care doriți să le semnalizați — de obicei 2 până la 5 culori — și de la tensiunea de alimentare disponibilă la panou. Dacă aveți nevoie de montaj rapid pe mai multe linii identice, o variantă preconfigurată ca RST 56 e mai simplă decât o coloană modulară cu module separate." },
       { q: "Ce diferență e între KombiSIGN și eSIGN?", a: "KombiSIGN este o coloană modulară clasică, cu module fizice separate pentru fiecare culoare, în timp ce eSIGN folosește un singur corp cu segmente electronice programabile, disponibil și cu integrare PROFINET pentru raportare directă către sistemul de automatizare al liniei." },
       { q: "Livrați produse Werma în România și cât durează?", a: "Da, aducem coloanele și modulele Werma la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de varianta aleasă și de disponibilitatea la producător. Nu promitem disponibilitate din depozit pe nicio configurație." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "WERMA – Homepage", url: "https://www.werma.com/en/", publisher: "WERMA Signaltechnik GmbH + Co. KG", accessed: "2026-09-22" },
       { title: "Signal Towers – WERMA", url: "https://www.werma.com/en/products/signal-towers/", publisher: "WERMA Signaltechnik GmbH + Co. KG", accessed: "2026-09-22" },
@@ -64,7 +64,7 @@ Pentru fabricile din România, Werma are sens acolo unde vrei semnalizare vizual
     name: "Wiska",
     overview: `Wiska este un producător german de componente electrice de instalare pentru medii industriale și navale, cu peste un secol de activitate în spate. Gama acoperă doze de conexiuni și presetupe de cablu, materiale de instalare pentru industrie și electricitate, prize și fișe pentru containere reefer și platforme CEE, corpuri de iluminat pentru exterior și sisteme CCTV rezistente la mediul industrial. Pentru piața din România putem oferta atât presetupele și dozele de serie folosite curent pe șantiere și în hale, cât și componentele mai specializate pentru nave și platforme.
 
-Ce ține Wiska relevant în instalațiile industriale și navale este gama largă de sisteme de trecere a cablului prin perete — de la presetupe individuale la sisteme complete precum SPRINT sau CLIXX, cu membrane care asigură etanșarea fără a mai monta câte o presetupă pentru fiecare cablu. Seria TriShot acoperă intrări de cablu cu etanșare rapidă, iar ESKV 75 e o variantă dedicată de doză de conexiuni. Compania are și o linie de prize CEE și socluri reefer pentru containere frigorifice, plus corpuri de iluminat și camere CCTV pentru zone dure, folosite frecvent pe nave și platforme offshore.
+Ce ține Wiska relevant în instalațiile industriale și navale este gama largă de sisteme de trecere a cablului prin perete — de la presetupe individuale la sisteme complete precum SPRINT sau CLIXX, cu membrane care asigură etanșarea fără a mai monta câte o presetupă pentru fiecare cablu. Seria TriShot și ESKV 75 sunt listate de producător în categoria intrărilor de cablu. Compania are și o linie de prize CEE și socluri reefer pentru containere frigorifice, plus corpuri de iluminat și camere CCTV pentru zone dure, folosite frecvent pe nave și platforme offshore.
 
 Pentru instalatorii din România, Wiska are sens acolo unde etanșarea la apă și praf a trecerilor de cablu contează — tablouri electrice de exterior, hale cu spălare industrială sau instalații navale — și unde cablurile de diametre diferite fac incomodă montarea presetupelor una câte una.`,
     whyChoose: [
@@ -72,12 +72,12 @@ Pentru instalatorii din România, Wiska are sens acolo unde etanșarea la apă �
       "Gamă dedicată pentru șantiere navale, cu prize CEE și socluri reefer pentru containere frigorifice.",
       "Peste un secol de experiență în componente de instalare pentru industrie și electricitate.",
       "Linie proprie de corpuri de iluminat și camere CCTV rezistente, potrivite mediilor industriale dure.",
-      "Serie TriShot de intrări de cablu cu montaj rapid, fără scule speciale."
+      "Serie TriShot de intrări de cablu, disponibilă în variante metrice."
     ],
     keyProducts: [
-      { name: "Sisteme de Trecere a Cablului SPRINT și CLIXX", description: "Sisteme de trecere multiplă a cablului prin perete sau panou, cu membrane elastomerice care se etanșează în jurul fiecărui cablu individual, fără a mai fi nevoie de o presetupă separată pentru fiecare diametru. SPRINT este sistemul de bază pentru montaj în panouri, iar CLIXX adaugă un cadru cu clemă de fixare rapidă și descărcare de tracțiune integrată. Soluția reduce numărul de găuri necesare într-un panou și timpul de montaj la instalații cu cabluri multiple de diametre diferite." },
-      { name: "Intrări de Cablu Seria TriShot", description: "Presetupe de cablu cu etanșare rapidă, gândite pentru montaj fără scule specializate, folosite la intrarea cablurilor în cutii de conexiuni și tablouri electrice industriale. Corpul presetupei include o garnitură care se adaptează la diametrul cablului, ceea ce simplifică stocul de consumabile la un montator care lucrează cu cabluri de diametre variate. Seria completează doza de conexiuni ESKV 75, folosită la joncțiuni de cablu în instalații industriale." },
-      { name: "Prize și Socluri Reefer & CEE", description: "Gamă de prize și socluri industriale conform standardului CEE, alături de soclurile dedicate containerelor reefer (frigorifice) folosite în transportul maritim și terminale portuare. Construcția rezistă la manipulare intensă, apă sărată și variații mari de temperatură. Se folosesc pentru alimentarea containerelor pe navă sau în port și pentru conexiuni electrice temporare pe șantiere." },
+      { name: "Sisteme de Trecere a Cablului SPRINT și CLIXX", description: "Sisteme de trecere multiplă a cablului prin perete sau panou, cu membrane elastomerice care se etanșează în jurul fiecărui cablu individual, fără a mai fi nevoie de o presetupă separată pentru fiecare diametru. CLIXX este o intrare de cablu cu membrană și descărcare de tracțiune. Soluția reduce numărul de găuri necesare într-un panou și timpul de montaj la instalații cu cabluri multiple de diametre diferite." },
+      { name: "Intrări de Cablu Seria TriShot", description: "Intrări de cablu din seria TriShot, disponibile în variante metrice, pentru intrarea cablurilor în cutii de conexiuni și tablouri electrice industriale. Detaliile constructive și diametrele de cablu acoperite se confirmă pe cod, din documentația producătorului." },
+      { name: "Prize și Socluri Reefer & CEE", description: "Gamă de prize și socluri industriale conform standardului CEE, alături de soclurile dedicate containerelor reefer (frigorifice) folosite în transportul maritim și terminale portuare. Caracteristicile constructive se confirmă pe cod, din documentația producătorului. Se folosesc pentru alimentarea containerelor pe navă sau în port și pentru conexiuni electrice temporare pe șantiere." },
       { name: "Corpuri de Iluminat și Sisteme CCTV", description: "Corpuri de iluminat cu proiectoare și lămpi de căutare pentru exterior, alături de camere CCTV rezistente, inclusiv variante antiex și Full HD, pentru supraveghere în zone industriale și navale. Sunt construite pentru montaj pe punte sau în hale unde iluminatul obișnuit nu rezistă la vibrații, umezeală sau spălare cu jet de apă." }
     ],
     industries: [
@@ -91,28 +91,28 @@ Pentru instalatorii din România, Wiska are sens acolo unde etanșarea la apă �
     limitation: "Nu putem confirma din surse proprii compatibilitatea exactă a unei presetupe cu un cablu de fabricație terță fără o verificare punctuală la producător.",
     productCodes: [
       { code: "SPRINT System", description: "sistem de trecere multiplă a cablului prin panou" },
-      { code: "CLIXX", description: "membrane cablu cu clemă și descărcare de tracțiune" },
-      { code: "TriShot", description: "intrare de cablu cu etanșare rapidă, fără scule" },
-      { code: "ESKV 75", description: "doză de conexiuni pentru instalații industriale" },
-      { code: "Cable Glands", description: "presetupe de cablu, familie de bază" },
-      { code: "Cable Entry Systems", description: "sisteme de trecere a cablului prin perete" },
-      { code: "Railway", description: "componente de cablu pentru aplicații feroviare" },
-      { code: "Installation Material Industry", description: "doze și materiale de instalare pentru industrie" },
-      { code: "Installation Material Shipbuilding", description: "materiale de instalare pentru construcții navale" },
-      { code: "Reefer & CEE Sockets", description: "socluri pentru containere frigorifice și prize CEE" },
-      { code: "Lighting", description: "corpuri de iluminat exterior pentru mediul industrial" },
+      { code: "CLIXX", description: "intrări de cablu cu membrană și descărcare de tracțiune" },
+      { code: "TriShot", description: "intrare de cablu, variante metrice" },
+      { code: "ESKV 75", description: "intrare de cablu, listată în categoria Cable entries" },
+      { code: "Presetupe de cablu", description: "presetupe de cablu, familie de bază" },
+      { code: "Sisteme de trecere a cablului", description: "sisteme de trecere a cablului prin perete" },
+      { code: "Feroviar", description: "componente de cablu pentru aplicații feroviare" },
+      { code: "Material de instalare pentru industrie", description: "doze și materiale de instalare pentru industrie" },
+      { code: "Material de instalare pentru construcții navale", description: "materiale de instalare pentru construcții navale" },
+      { code: "Socluri reefer și prize CEE", description: "socluri pentru containere frigorifice și prize CEE" },
+      { code: "Iluminat", description: "corpuri de iluminat exterior pentru mediul industrial" },
       { code: "CCTV", description: "camere de supraveghere rezistente, variante antiex" }
     ],
     faq: [
       { q: "Ce produce Wiska?", a: "Wiska produce componente electrice de instalare pentru medii industriale și navale: presetupe și sisteme de trecere a cablului (SPRINT, CLIXX, TriShot), doze de conexiuni, prize CEE și socluri pentru containere reefer, plus corpuri de iluminat exterior și camere CCTV rezistente." },
-      { q: "Ce diferență este între SPRINT și CLIXX la Wiska?", a: "SPRINT este sistemul de bază pentru trecerea mai multor cabluri printr-un singur panou, cu membrane etanșe pentru fiecare diametru. CLIXX adaugă un cadru cu clemă de fixare rapidă și descărcare de tracțiune, util acolo unde cablurile sunt supuse la mișcare sau vibrații." },
-      { q: "Ce sunt soclurile reefer de la Wiska?", a: "Soclurile reefer sunt prize industriale dedicate alimentării containerelor frigorifice folosite în transportul maritim, construite pentru manipulare intensă, apă sărată și variații mari de temperatură specifice porturilor și navelor." },
+      { q: "Ce diferență este între SPRINT și CLIXX la Wiska?", a: "SPRINT este sistemul de bază pentru trecerea mai multor cabluri printr-un singur panou, cu membrane etanșe pentru fiecare diametru. CLIXX este o intrare de cablu cu membrană și descărcare de tracțiune." },
+      { q: "Ce sunt soclurile reefer de la Wiska?", a: "Soclurile reefer sunt prize industriale dedicate alimentării containerelor frigorifice folosite în transportul maritim, dedicate alimentării containerelor frigorifice în porturi și pe nave." },
       { q: "Livrați produse Wiska în România și în cât timp?", a: "Da, aducem componentele Wiska la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de referință și de disponibilitatea la producător. Nu promitem disponibilitate din depozit." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "WISKA – Homepage", url: "https://www.wiska.com/", publisher: "WISKA Hoppmann GmbH", accessed: "2026-09-22" },
       { title: "Cable Entries – WISKA", url: "https://www.wiska.com/en/30/cat/2/cable-entries/", publisher: "WISKA Hoppmann GmbH", accessed: "2026-09-22" }
@@ -136,7 +136,7 @@ Pentru instalațiile din România, Camfil are sens la retehnologizarea sistemelo
     keyProducts: [
       { name: "Filtre Sac de Ventilație Generală (Hi-Flo, City-Flo, Cam-Flo ES XLT)", description: "Filtre sac pentru ventilație generală, cu eficiențe de la M6 până la F9 sau clase ePM1-ePM10, folosite ca filtre de schimb pe centrale de tratare a aerului. Hi-Flo este orientat spre eficiență energetică ridicată, City-Flo combină reținerea de particule cu un strat pentru poluanți gazoși, iar Cam-Flo ES XLT folosește media sintetică avansată pentru clasa ePM1. Se aleg în funcție de eficiența cerută de proiect și de debitul de aer al centralei existente." },
       { name: "Filtre Compacte (Opakfil, Opakair, CityCarb, Airopac)", description: "Filtre compacte cu rame din carton sau cutie metalică, folosite unde spațiul de montaj e limitat, dar e nevoie de suprafață mare de filtrare. Opakfil și Opakair ating eficiențe M6-F9, cu Opakair box-type dimensionat pentru debite de până la 6.000 m³/h, iar CityCarb adaugă un strat de cărbune pentru poluanți gazoși urbani." },
-      { name: "Filtre Panou și Prefiltre (30/30, AeroPleat, EcoPleat, CamMet)", description: "Filtre plisate pentru panouri, folosite ca prefiltre sau filtre finale la eficiențe joase spre medii — seria 30/30 și AeroPleat pentru prefiltrare economică ISO Coarse, EcoPleat pentru eficiențe ePM1, iar CamMet este un filtru de grăsime lavabil, potrivit hotelor de bucătărie industrială." },
+      { name: "Filtre Panou și Prefiltre (30/30, AeroPleat, EcoPleat, CamMet)", description: "Filtre plisate pentru panouri, folosite ca prefiltre sau filtre finale la eficiențe joase spre medii — seria 30/30 (ePM10 50%) și AeroPleat (ISO Coarse 65%) pentru prefiltrare economică, EcoPleat pentru eficiențe ePM1, iar CamMet este un filtru de grăsime lavabil, potrivit hotelor de bucătărie industrială." },
       { name: "Filtre EPA, HEPA, ULPA și Molecular", description: "Filtre de înaltă eficiență pentru camere curate, testate conform EN 1822 și ISO 29463, alături de filtre moleculare pentru compuși organici volatili, testate conform ISO 10121. Se folosesc în industria farmaceutică, electronică și laboratoare, acolo unde procesul cere o clasă de puritate a aerului certificată." }
     ],
     industries: [      "Clădiri comerciale și birouri — filtre de ventilație generală pentru calitatea aerului interior",
@@ -153,7 +153,7 @@ Pentru instalațiile din România, Camfil are sens la retehnologizarea sistemelo
       { code: "Cam-Flo ES XLT", description: "filtru sac cu media sintetică, clasă ePM1" },
       { code: "Standard-Flo", description: "filtru sac ePM10-ePM1, uz general" },
       { code: "Basic-Flo", description: "filtru sac de bază, până la ePM2.5" },
-      { code: "Hi-Cap", description: "filtru prefiltru/exhaustare, clasă ISO Coarse-G4" },
+      { code: "Hi-Cap", description: "prefiltru cu media sintetică, clasă ISO Coarse (G4)" },
       { code: "Opakfil", description: "filtru compact cu ramă header, M6-F9" },
       { code: "CityCarb", description: "filtru compact cu strat de cărbune, M6-F7" },
       { code: "Airopac Traditional HF", description: "filtru compact suprafață mare, M6-F9" },
@@ -174,8 +174,8 @@ Pentru instalațiile din România, Camfil are sens la retehnologizarea sistemelo
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Camfil Products", url: "https://www.camfil.com/en/products", publisher: "Camfil AB", accessed: "2026-09-22" },
       { title: "General Ventilation Filters – Camfil", url: "https://www.camfil.com/en/products/general-ventilation-filters", publisher: "Camfil AB", accessed: "2026-09-22" }
@@ -186,18 +186,18 @@ Pentru instalațiile din România, Camfil are sens la retehnologizarea sistemelo
     headquarters: "Nashville, SUA",
     overview: `Fleetguard este marca de filtrare pentru echipamente grele a Atmus Filtration Technologies, companie americană cu sediul la Nashville, desprinsă din Cummins Filtration. Gama acoperă filtre de aer, ulei, combustibil, hidraulice și lichide de răcire pentru camioane, autobuze, utilaje agricole, echipamente de construcții și minerit, motoare marine și grupuri de generare de energie. Pentru piața din România putem oferta filtrele de schimb pentru flote de camioane și utilaje grele, pornind de la codul exact solicitat de client.
 
-Fleetguard construiește pe tehnologii proprii de media filtrantă — NanoNet pentru filtrele de combustibil, gândită să rețină particule fine fără să crească rapid pierderea de presiune, și NanoForce pentru filtrele de aer de motor. Codurile din gamă acoperă atât filtre primare cât și seturi kit, de la referințe de aer precum AF25627NF sau AF25454NF, la filtre de ulei cu cartuș precum LF16453 și LF17822, filtre de combustibil kit precum FK11008NN și filtre hidraulice cu cartuș sintetic precum HF29230. Un concurent direct pe segmentul de filtrare pentru echipamente grele este Donaldson, cu game paralele de filtre de aer și combustibil.
+Fleetguard construiește pe tehnologii proprii de media filtrantă — NanoNet, întâlnită la filtre de combustibil și de ulei (de exemplu FK11008NN), și NanoForce, întâlnită la filtrele de aer primare (de exemplu AF25627NF). Codurile din gamă acoperă atât filtre primare cât și seturi kit, de la referințe de aer precum AF25627NF sau AF25454NF, la filtre de ulei cu cartuș precum LF16453 și LF17822, filtre de combustibil kit precum FK11008NN și filtre hidraulice cu cartuș sintetic precum HF29230. Un concurent direct pe segmentul de filtrare pentru echipamente grele este Donaldson, cu game paralele de filtre de aer și combustibil.
 
-Pentru service-urile și flotele din România, Fleetguard înseamnă acces la filtre de schimb pentru motoare Cummins și alte mărci de echipamente grele, utile la revizii periodice sau la înlocuirea unui filtru original scump și greu de găsit local.`,
+Pentru service-urile și flotele din România, Fleetguard înseamnă acces la filtre de schimb pentru echipamente grele, utile la revizii periodice; compatibilitatea se confirmă pe codul exact al filtrului sau al echipamentului.`,
     whyChoose: [
-      "Media filtrantă proprie NanoNet pentru combustibil și NanoForce pentru aer, gândite pentru retenție fină fără colmatare rapidă.",
+      "Denumiri proprii de media filtrantă ale producătorului: NanoNet (combustibil, ulei) și NanoForce (aer).",
       "Acoperire largă pe echipamente grele — camioane, utilaje agricole, construcții, minerit, marin și generare de energie.",
       "Portofoliu de peste 64.000 de coduri de produs, conform informațiilor publicate de producător.",
-      "Compatibilitate directă cu motoare Cummins, frecvente în flotele de camioane și utilaje din România."
+      "Compatibilitatea fiecărui cod se confirmă înainte de ofertă, pe baza codului filtrului vechi sau a datelor echipamentului."
     ],
     keyProducts: [
       { name: "Filtre de Aer NanoForce (AF25627NF, AF25454NF)", description: "Filtre de aer primare pentru motoare de camioane și utilaje grele, construite cu media NanoForce pentru reținerea particulelor fine din aerul de admisie. Codurile AF25627NF și AF25454NF sunt referințe primare din gama NanoForce, folosite la revizii periodice pentru a proteja motorul de praf și particule abrazive care ar accelera uzura camerei de ardere." },
-      { name: "Filtre de Ulei și Combustibil (LF16453, LF17822, FK11008NN, FK11025)", description: "Filtre de ulei cu cartuș, precum LF16453 și LF17822, folosite la schimburile periodice de ulei pentru motoare diesel de echipamente grele, alături de kituri de filtre de combustibil cu media NanoNet, precum FK11008NN și FK11025, care rețin apa și particulele fine din motorină înainte să ajungă la injectoare." },
+      { name: "Filtre de Ulei și Combustibil (LF16453, LF17822, FK11008NN, FK11025)", description: "Filtre de ulei cu cartuș, precum LF16453 și LF17822, folosite la schimburile periodice de ulei pentru motoare diesel de echipamente grele, alături de kituri de filtre de combustibil, precum FK11008NN (cu media NanoNet) și FK11025, pentru protecția injectoarelor de contaminanți." },
       { name: "Filtre Hidraulice (HF29230, HF29216)", description: "Filtre hidraulice cu cartuș din media sintetică, precum HF29230 și HF29216, folosite pe circuitele hidraulice ale utilajelor de construcții și echipamentelor grele pentru a proteja pompele și supapele de contaminare cu particule fine." }
     ],
     industries: [
@@ -228,13 +228,13 @@ Pentru service-urile și flotele din România, Fleetguard înseamnă acces la fi
     faq: [
       { q: "Ce produce Fleetguard?", a: "Fleetguard produce filtre de aer, ulei, combustibil și hidraulice pentru camioane, utilaje agricole, echipamente de construcții, minerit, motoare marine și grupuri electrogene. Marca aparține companiei americane Atmus Filtration Technologies, cu sediul la Nashville." },
       { q: "Cum aleg filtrul Fleetguard corect pentru utilajul meu?", a: "Cel mai sigur reper este codul filtrului vechi montat pe echipament sau codul din cartea tehnică a motorului. Trimiteți-ne acest cod și cantitatea necesară, iar noi verificăm referința Fleetguard echivalentă înainte de a face oferta." },
-      { q: "Ce înseamnă NanoNet și NanoForce la filtrele Fleetguard?", a: "Sunt denumirile media filtrante proprii ale producătorului — NanoNet pentru filtrele de combustibil, gândită să rețină particule fine și apă fără să colmateze rapid, și NanoForce pentru filtrele de aer de motor, cu retenție ridicată la praf fin." },
+      { q: "Ce înseamnă NanoNet și NanoForce la filtrele Fleetguard?", a: "Sunt denumirile media filtrante proprii ale producătorului — NanoNet, folosită la filtre de combustibil și de ulei, pentru reținerea contaminanților fini, și NanoForce, folosită la filtrele de aer primare ale motorului. Performanțele exacte ale fiecărui cod se confirmă din documentația producătorului." },
       { q: "Livrați filtre Fleetguard în România și cât durează?", a: "Da, aducem filtrele Fleetguard la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de cod și cantitate. Nu promitem disponibilitate din depozit pe niciun cod." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fleetguard – Homepage", url: "https://www.fleetguard.com/", publisher: "Atmus Filtration Technologies", accessed: "2026-09-22" },
       { title: "Atmus Filtration Technologies – Homepage", url: "https://www.atmus.com", publisher: "Atmus Filtration Technologies", accessed: "2026-09-22" }
@@ -244,18 +244,18 @@ Pentru service-urile și flotele din România, Fleetguard înseamnă acces la fi
     name: "Flottweg",
     overview: `Flottweg este un producător german de decantoare centrifugale, separatoare și prese cu bandă pentru separarea solid-lichid și lichid-lichid, cu activitate de câteva decenii în inginerie de proces. Gama acoperă decantoare din seriile C, X și Z, decantoare speciale Tricanter pentru separare în trei faze, Sedicanter și Sorticanter pentru aplicații dedicate, separatoare cu talere pentru două sau trei faze și prese cu bandă pentru deshidratare de nămol. Pentru piața din România putem oferta atât echipamente complete, cât și piese de uzură pentru instalații deja montate.
 
-Ce diferențiază gama Flottweg este acoperirea largă de tehnologii de separare sub același producător — decantor centrifugal clasic pentru nămol și suspensii, Tricanter pentru separarea simultană a două faze lichide și una solidă (de exemplu ulei-apă-solide), și separator cu talere pentru capacități mari de debit la faze pur lichide. Modelul FW400 este cea mai recentă generație de decantor de înaltă performanță din portofoliu, iar sistemul Sedicanter este construit special pentru sedimentare fină, acolo unde particulele sunt prea mici pentru un decantor standard.
+Ce diferențiază gama Flottweg este acoperirea largă de tehnologii de separare sub același producător — decantor centrifugal clasic pentru nămol și suspensii, Tricanter pentru separarea simultană a două faze lichide și una solidă (de exemplu ulei-apă-solide), și separator cu talere pentru capacități mari de debit la faze pur lichide. Modelul FW400 este un decantor de înaltă performanță pentru o gamă largă de aplicații industriale, iar sistemul Sedicanter este construit pentru solide moi, pastoase sau ușor curgătoare, greu de procesat într-un decantor standard.
 
 Pentru instalațiile din România, Flottweg are sens la stațiile de epurare, în industria alimentară pentru separarea uleiurilor sau la procesarea nămolului industrial, acolo unde o centrifugă simplă nu separă suficient de fin fazele implicate.`,
     whyChoose: [
       "Gamă completă de tehnologii de separare — decantor clasic, Tricanter trei faze și separator cu talere — sub un singur producător.",
-      "Sistem Sedicanter dedicat sedimentării fine, pentru particule prea mici pentru un decantor standard.",
-      "Decantor FW400, generație recentă de echipament de înaltă performanță din portofoliul producătorului.",
+      "Sistem Sedicanter dedicat solidelor moi, pastoase sau ușor curgătoare, greu de procesat într-un decantor standard.",
+      "Decantor FW400, decantor de înaltă performanță pentru o gamă largă de aplicații industriale.",
       "Prezență globală cu birouri pe mai multe continente, utilă pentru piese de schimb și suport tehnic pe termen lung."
     ],
     keyProducts: [
-      { name: "Decantoare Centrifugale Seriile C, X, Z și FW400", description: "Decantoare centrifugale cu ax orizontal, folosite pentru separarea solid-lichid din nămoluri, suspensii industriale și produse alimentare vâscoase. Seriile C, X și Z acoperă game diferite de capacitate și aplicație, iar FW400 este generația cea mai recentă de decantor de înaltă performanță din portofoliu. Alegerea între serii se face în funcție de debitul necesar și de conținutul de solide al amestecului de separat." },
-      { name: "Tricanter, Sedicanter și Sorticanter", description: "Echipamente de separare specializate: Tricanter separă simultan două faze lichide nemiscibile și o fază solidă (de exemplu ulei, apă și impurități solide), Sedicanter este optimizat pentru sedimentare fină la particule foarte mici, iar Sorticanter separă fracții solide după densitate. Sunt soluții pentru procese unde un decantor clasic în două faze nu oferă separarea cerută." },
+      { name: "Decantoare Centrifugale Seriile C, X, Z și FW400", description: "Decantoare centrifugale cu ax orizontal, folosite pentru separarea solid-lichid din nămoluri, suspensii industriale și produse alimentare vâscoase. Seriile C, X și Z acoperă game diferite de capacitate și aplicație, iar FW400 este un decantor de înaltă performanță pentru o gamă largă de aplicații industriale. Alegerea între serii se face în funcție de debitul necesar și de conținutul de solide al amestecului de separat." },
+      { name: "Tricanter, Sedicanter și Sorticanter", description: "Echipamente de separare specializate: Tricanter separă simultan două faze lichide nemiscibile și o fază solidă (de exemplu ulei, apă și impurități solide), Sedicanter este conceput pentru solide moi, pastoase sau ușor curgătoare, iar Sorticanter separă fracții solide după densitate. Sunt soluții pentru procese unde un decantor clasic în două faze nu oferă separarea cerută." },
       { name: "Separatoare cu Talere (2-Phase, 3-Phase, Nozzle Separator)", description: "Separatoare centrifugale cu talere, pentru debite mari de lichid, disponibile în variante cu două faze (separare lichid-solid) sau trei faze (separare a două lichide și o fază solidă). Varianta Nozzle Separator este folosită și în industria amidonului, pentru separare continuă cu evacuare a solidelor prin duze." }
     ],
     industries: [
@@ -268,14 +268,14 @@ Pentru instalațiile din România, Flottweg are sens la stațiile de epurare, î
     infinitrade: `Ne raportăm la Flottweg pe baza informațiilor publicate de producător — fără date proprii de stoc pe echipament și fără să confirmăm un debit sau o capacitate exactă înainte de a verifica seria potrivită procesului dumneavoastră. Aducem decantoare, separatoare și piese de uzură la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru piese, mai lung pentru echipamente complete, în funcție de configurație. Pentru ofertă avem nevoie de tipul de amestec de separat, debitul aproximativ și conținutul de solide, plus seria echipamentului dacă știți deja. Nu promitem disponibilitate din depozit și nu putem oferi configurare software proprietară fără implicarea producătorului.`,
     limitation: "Nu putem asigura configurarea software proprietară a unui decantor Flottweg sau intervenții în perioada de garanție a producătorului fără implicarea directă a acestuia.",
     productCodes: [
-      { code: "FW400", description: "decantor centrifugal de generație recentă, înaltă performanță" },
+      { code: "FW400", description: "decantor centrifugal de înaltă performanță" },
       { code: "C-Series", description: "serie de decantoare centrifugale" },
       { code: "X-Series", description: "serie de decantoare centrifugale" },
       { code: "Z-Series", description: "serie de decantoare centrifugale" },
       { code: "OSE Decanter", description: "decantor centrifugal pentru aplicații specifice" },
       { code: "HTS Decanter", description: "decantor centrifugal, gamă dedicată" },
       { code: "Tricanter", description: "decantor pentru separare în trei faze" },
-      { code: "Sedicanter", description: "decantor pentru sedimentare fină" },
+      { code: "Sedicanter", description: "decantor pentru solide moi sau ușor curgătoare" },
       { code: "Sorticanter", description: "decantor pentru sortare după densitate" },
       { code: "Belt Press", description: "presă cu bandă pentru deshidratare nămol" },
       { code: "2-Phase Separator", description: "separator cu talere, două faze" },
@@ -285,13 +285,13 @@ Pentru instalațiile din România, Flottweg are sens la stațiile de epurare, î
     faq: [
       { q: "Ce produce Flottweg?", a: "Flottweg produce decantoare centrifugale, separatoare cu talere și prese cu bandă pentru separarea solid-lichid și lichid-lichid, folosite în tratarea apelor uzate, industria alimentară, chimie și procesarea nămolului industrial." },
       { q: "Ce diferență este între un decantor Flottweg și un Tricanter?", a: "Un decantor centrifugal clasic separă o fază solidă de una lichidă, în timp ce Tricanter separă simultan o fază solidă și două faze lichide nemiscibile, de exemplu ulei, apă și impurități — util unde procesul produce trei componente distincte în același amestec." },
-      { q: "Cum aleg decantorul Flottweg potrivit pentru instalația mea?", a: "Alegerea depinde de debitul de procesat, conținutul de solide din amestec și de câte faze trebuie separate. Pentru particule foarte fine se ia în calcul Sedicanter, iar pentru separare în trei faze, un Tricanter; pentru un decantor standard, seriile C, X sau Z acoperă majoritatea aplicațiilor industriale." },
+      { q: "Cum aleg decantorul Flottweg potrivit pentru instalația mea?", a: "Alegerea depinde de debitul de procesat, conținutul de solide din amestec și de câte faze trebuie separate. Pentru solide moi, pastoase sau ușor curgătoare se ia în calcul Sedicanter, iar pentru separare în trei faze, un Tricanter; pentru un decantor standard, alegerea între seriile C, X și Z se face în funcție de aplicație, cu datele producătorului." },
       { q: "Livrați echipamente Flottweg în România și cât durează?", a: "Da, aducem decantoare, separatoare și piese de uzură Flottweg la comandă, prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni pentru piese de schimb și poate fi mai lung pentru echipamente complete, în funcție de configurație și confirmarea producătorului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Flottweg Products", url: "https://www.flottweg.com/en/products/", publisher: "Flottweg SE", accessed: "2026-09-22" },
       { title: "Flottweg – Homepage", url: "https://www.flottweg.com/en/", publisher: "Flottweg SE", accessed: "2026-09-22" }
@@ -351,8 +351,8 @@ Pentru fabricile din România, Nederman are sens la posturile de sudură, atelie
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Nederman Group – Homepage", url: "https://www.nedermangroup.com/en", publisher: "Nederman Group", accessed: "2026-09-22" },
       { title: "Products – Nederman", url: "https://www.nederman.com/en/products", publisher: "Nederman Group", accessed: "2026-09-22" }
@@ -362,18 +362,18 @@ Pentru fabricile din România, Nederman are sens la posturile de sudură, atelie
     name: "Franklin Electric",
     overview: `Franklin Electric este un producător american de motoare submersibile și pompe pentru sisteme de apă, cu gamă dedicată fântânilor rezidențiale și aplicațiilor de mare capacitate. Site-ul de produse pentru apă acoperă pompe submersibile pentru fântâni, turbine submersibile și cu ax vertical, motoare submersibile cu cutii de control asociate, pompe de suprafață și centrifugale, sisteme de presurizare a apei, pompe pentru ape uzate (sump, efluent, tocătoare) și sisteme pentru manipularea solidelor. Pentru piața din România putem oferta motoare submersibile și pompe de fântână din gama de bază, pornind de la seria și diametrul cerute.
 
-În gama de pompe submersibile pentru fântâni, seria 3200 și Series V acoperă pompe de 4 inch pentru uz rezidențial, disponibile în variante FPS sau J-Class, în timp ce TRI-SEAL este seria orientată spre etanșare și durabilitate, cu variantă High Capacity de 4 și 6 inch pentru debite mai mari. Pentru extracție petrolieră artificială, gama include și seria ESP dedicată. Un concurent cunoscut pe segmentul de pompe pentru sisteme de apă este Grundfos, cu care Franklin Electric se suprapune pe zona pompelor submersibile și de presurizare.
+În gama de pompe submersibile pentru fântâni, seria 3200 și Series V acoperă pompe de 4 inch pentru uz rezidențial, disponibile în variante FPS sau J-Class, în timp ce TRI-SEAL este o serie de pompe de 4 inch, cu variantă High Capacity de 4 și 6 inch. Pentru extracție petrolieră artificială, gama include și seria ESP dedicată. Un concurent cunoscut pe segmentul de pompe pentru sisteme de apă este Grundfos, cu care Franklin Electric se suprapune pe zona pompelor submersibile și de presurizare.
 
 Pentru instalatorii și fermele din România, Franklin Electric are sens la înlocuirea unui motor submersibil ars sau la echiparea unei fântâni noi, acolo unde diametrul coloanei de foraj și debitul necesar stabilesc direct seria potrivită.`,
     whyChoose: [
       "Gamă largă de motoare submersibile de 4 și 6 inch, compatibile cu pompe de fântână de diverse capacități.",
-      "Serie TRI-SEAL orientată spre etanșare și durabilitate, cu variantă de capacitate mare pe 6 inch.",
+      "Serie TRI-SEAL, cu variantă High Capacity disponibilă în 4 și 6 inch.",
       "Acoperire completă de la pompe rezidențiale de fântână la sisteme de presurizare și pompe pentru ape uzate.",
       "Componente compatibile cu instalații existente, utile la înlocuirea unui motor sau a unei pompe uzate."
     ],
     keyProducts: [
       { name: "Pompe Submersibile de Fântână Seriile 3200 și Series V", description: "Pompe submersibile de 4 inch pentru fântâni rezidențiale, disponibile în variante FPS și J-Class, folosite la alimentarea cu apă a gospodăriilor individuale de la sonde de mică și medie adâncime. Seria 3200 și Series V acoperă capacități uzuale pentru locuințe, iar alegerea între variante depinde de debitul dorit și de adâncimea sondei." },
-      { name: "Serie TRI-SEAL și TRI-SEAL High Capacity", description: "Pompe submersibile de 4 și, la varianta High Capacity, 6 inch, orientate spre etanșare îmbunătățită și durabilitate în funcționare continuă. Varianta High Capacity este dimensionată pentru debite mai mari, potrivite fântânilor de irigație sau alimentărilor cu consum ridicat, față de seriile de bază rezidențiale." },
+      { name: "Serie TRI-SEAL și TRI-SEAL High Capacity", description: "Pompe submersibile de 4 inch și, la varianta High Capacity, de 4 sau 6 inch. Varianta High Capacity face parte din gama de capacitate mare, față de seriile rezidențiale de bază; debitele și aplicațiile se confirmă pe model, din documentația Franklin Electric." },
       { name: "Motoare Submersibile și Cutii de Control", description: "Motoare submersibile compatibile cu pompele din gama de fântână, împreună cu cutiile de control aferente, folosite atât la echiparea unei instalații noi, cât și la înlocuirea unui motor ars pe o pompă existentă. Alegerea corectă depinde de puterea motorului, tensiunea de alimentare și diametrul coloanei de foraj." }
     ],
     industries: [
@@ -382,12 +382,12 @@ Pentru instalatorii și fermele din România, Franklin Electric are sens la înl
       "Extracție petrolieră — pompe seria ESP pentru ridicare artificială",
       "Gestionarea apelor uzate — pompe sump, efluent și tocătoare"
     ],
-    infinitrade: `Ne bazăm pe informațiile publice de pe site-ul de produse pentru apă al Franklin Electric — fără date proprii de stoc pe serie și fără să confirmăm în avans un debit exact fără verificare la producător. Aducem pompe submersibile, motoare și cutii de control la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și disponibilitate. Pentru ofertă avem nevoie de diametrul coloanei de foraj, adâncimea sondei, debitul dorit și, dacă e cazul, seria pompei existente care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie — valabil pentru toată gama Leybold.`,
+    infinitrade: `Ne bazăm pe informațiile publice de pe site-ul de produse pentru apă al Franklin Electric — fără date proprii de stoc pe serie și fără să confirmăm în avans un debit exact fără verificare la producător. Aducem pompe submersibile, motoare și cutii de control la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și disponibilitate. Pentru ofertă avem nevoie de diametrul coloanei de foraj, adâncimea sondei, debitul dorit și, dacă e cazul, seria pompei existente care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui motor cu o pompă de altă marcă fără codurile complete ale ambelor componente.",
     productCodes: [
       { code: "3200 Series", description: "pompă submersibilă de fântână, 4 inch" },
       { code: "Series V", description: "pompă submersibilă de fântână, 4 inch" },
-      { code: "TRI-SEAL", description: "pompă submersibilă, etanșare îmbunătățită, 4 inch" },
+      { code: "TRI-SEAL", description: "pompă submersibilă, 4 inch" },
       { code: "TRI-SEAL High Capacity", description: "pompă submersibilă de capacitate mare, 4-6 inch" },
       { code: "FS Series", description: "pompă submersibilă de fântână, 4 inch" },
       { code: "ESP Series", description: "pompă pentru ridicare artificială petrolieră" },
@@ -405,8 +405,8 @@ Pentru instalatorii și fermele din România, Franklin Electric are sens la înl
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Franklin Water – Products", url: "https://www.franklinwater.com/products", publisher: "Franklin Electric Co., Inc.", accessed: "2026-09-22" },
       { title: "Submersible Well Pumps – Franklin Water", url: "https://www.franklinwater.com/products/submersible-well-pumps", publisher: "Franklin Electric Co., Inc.", accessed: "2026-09-22" }
@@ -431,7 +431,7 @@ Pentru instalațiile din România, Leybold are sens la linii de ambalare în atm
     keyProducts: [
       { name: "Pompe cu Paletă Rotativă TRIVAC și SOGEVAC", description: "Pompe de vid cu ulei, cu paletă rotativă, în variante cu două trepte (TRIVAC B, TRIVAC L) pentru vid mai profund sau o singură treaptă (SOGEVAC B, BI/DI, FP) pentru aplicații generale industriale și de instrumente analitice. Sunt pompele de bază din gama Leybold, folosite la ambalare, uscare și susținerea altor pompe de vid înalt." },
       { name: "Pompe Uscate Industriale (DRYVAC, CLAWVAC, SCREWLINE, LEYVAC)", description: "Pompe de vid fără ulei, cu șurub (DRYVAC, SCREWLINE SP, LEYVAC, NOVADRY) sau cu gheare (CLAWVAC B, CLAWVAC CPi B), folosite unde procesul nu tolerează contaminarea cu ulei — semiconductori, industria alimentară (variantă DRYVAC FP-r) sau procese chimice. Se aleg în funcție de debitul de pompare și de nivelul de vid final necesar." },
-      { name: "Suflante Roots RUVAC", description: "Suflante Roots, disponibile în execuție etanșă (RUVAC WH/WHU), cu motor standard (WA/WAU) sau cu motor înecat (WS/WSU), montate în serie cu o pompă de bază pentru a mări debitul efectiv de pompare la presiuni joase. Se folosesc la instalații industriale de vid unde timpul de pompare la vid profund contează." },
+      { name: "Suflante Roots RUVAC", description: "Suflante Roots, disponibile în execuție etanșă (RUVAC WH/WHU), cu motor standard (WA/WAU) sau cu motor cu cămașă etanșă (WS/WSU), montate în serie cu o pompă de bază pentru a mări debitul efectiv de pompare la presiuni joase. Se folosesc la instalații industriale de vid unde timpul de pompare la vid profund contează." },
       { name: "Pompe Turbomoleculare TURBOVAC", description: "Pompe turbomoleculare pentru vid înalt și ultra-înalt, în variantă mecanică clasică (TURBOVAC i) sau cu levitație magnetică (TURBOVAC MAG), folosite în cercetare, semiconductori și instrumente analitice unde e nevoie de un vid curat, fără contaminare cu ulei." },
       { name: "Pompe Mici Uscate DIVAC, ECODRY și SCROLLVAC", description: "Pompe compacte fără ulei pentru laborator și aplicații de mică capacitate: DIVAC cu diafragmă, ECODRY plus cu tehnologie roots multistadială, și SCROLLVAC plus cu tehnologie scroll. Sunt alternative curate la pompele cu inel de lichid sau cu paletă pentru instrumente de laborator și linii mici de ambalare." }
     ],
@@ -441,7 +441,7 @@ Pentru instalațiile din România, Leybold are sens la linii de ambalare în atm
       "Cercetare și instrumente analitice — pompe turbomoleculare TURBOVAC",
       "Energie și baterii litiu-ion — vidare pentru fabricația celulelor"
     ],
-    infinitrade: `Pentru Leybold pornim de la informațiile publice de pe site-ul producătorului — fără date proprii de stoc pe model și fără să confirmăm un nivel de vid final fără să verificăm aplicația exactă. Aducem pompe de vid, suflante Roots și pompe turbomoleculare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurație. Pentru ofertă avem nevoie de debitul de pompare necesar, presiunea finală dorită și tipul de proces (curat sau cu vapori/particule), plus seria dacă o cunoașteți deja. Nu promitem disponibilitate din depozit pe nicio serie — valabil pentru toată gama Barksdale.`,
+    infinitrade: `Pentru Leybold pornim de la informațiile publice de pe site-ul producătorului — fără date proprii de stoc pe model și fără să confirmăm un nivel de vid final fără să verificăm aplicația exactă. Aducem pompe de vid, suflante Roots și pompe turbomoleculare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurație. Pentru ofertă avem nevoie de debitul de pompare necesar, presiunea finală dorită și tipul de proces (curat sau cu vapori/particule), plus seria dacă o cunoașteți deja. Nu promitem disponibilitate din depozit pe nicio serie.`,
     limitation: "Nu putem asigura service în perioada de garanție a producătorului sau calibrarea certificată a instrumentelor de măsurare a vidului fără implicarea directă a Leybold.",
     productCodes: [
       { code: "TRIVAC B", description: "pompă cu paletă rotativă, două trepte" },
@@ -473,8 +473,8 @@ Pentru instalațiile din România, Leybold are sens la linii de ambalare în atm
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Leybold – Homepage", url: "https://www.leybold.com", publisher: "Leybold GmbH", accessed: "2026-09-22" },
       { title: "About Us – Leybold", url: "https://www.leybold.com/en/about-us", publisher: "Leybold GmbH", accessed: "2026-09-22" }
@@ -485,7 +485,7 @@ Pentru instalațiile din România, Leybold are sens la linii de ambalare în atm
     headquarters: "San Pietro di Legnago, Italia",
     overview: `Madas este un producător italian de robinetărie de siguranță și reglare pentru gaz, cu sediul la San Pietro di Legnago, în provincia Verona. Gama acoperă electrovalve normal închise și normal deschise pentru gaz, valve de blocare la suprapresiune și subpresiune (OPSO/UPSO), valve de siguranță și de relief, regulatoare de presiune pentru gaz, filtre de gaz și de combustibil lichid, valve de blocare pentru combustibil și baterii de gaz (gas trains) complete. Pentru piața din România putem oferta componente individuale din aceste familii, pentru centrale termice și instalații industriale pe gaz.
 
-Ce diferențiază Madas este acoperirea completă a lanțului de siguranță pe o instalație de gaz — de la valva de blocare automată la suprapresiune sau subpresiune, prin regulatorul de presiune, până la filtrul de gaz care protejează restul instalației de impurități. Regulatoarele de presiune sunt împărțite pe game în funcție de presiunea de intrare, de la instalații cu presiune joasă (P1 sub 2 bar) la game cu presiune de intrare de până la 5 bar, iar dimensiunile de racord acoperite merg de la 1/4 inch la conexiuni DN 150. Un concurent cunoscut pe segmentul de robinetărie industrială pentru gaz este Bürkert, cu care Madas se suprapune pe zona valvelor de siguranță.
+Ce diferențiază Madas este acoperirea completă a lanțului de siguranță pe o instalație de gaz — de la valva de blocare automată la suprapresiune sau subpresiune, prin regulatorul de presiune, până la filtrul de gaz care protejează restul instalației de impurități. Regulatoarele de presiune sunt împărțite pe game în funcție de presiunea de intrare, de la instalații cu presiune joasă (P1 maxim 2 bar) la game cu presiune de intrare de până la 5 bar, iar valvele de siguranță sunt disponibile cu racorduri de la 1/4 inch (DN 8) până la 6 inch (DN 150). Un concurent cunoscut pe segmentul de robinetărie industrială pentru gaz este Bürkert, cu care Madas se suprapune pe zona valvelor de siguranță.
 
 Pentru instalatorii din România, Madas are sens la centrale termice industriale, arzătoare pe gaz și stații de reglare-măsurare, acolo unde normele de siguranță cer blocare automată a alimentării cu gaz în caz de suprapresiune, subpresiune sau depășire de temperatură.`,
     whyChoose: [
@@ -530,8 +530,8 @@ Pentru instalatorii din România, Madas are sens la centrale termice industriale
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Safety Valves for Gas – Madas", url: "https://www.madas.it/en/safety-valves-for-gas", publisher: "Madas S.r.l.", accessed: "2026-09-22" },
       { title: "Madas – Home", url: "https://www.madas.it/en/home", publisher: "Madas S.r.l.", accessed: "2026-09-22" }
@@ -553,7 +553,7 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
     ],
     keyProducts: [
       { name: "Comutatoare Mecanice de Presiune Joasă (E1S, E1H, D1S, D2S, MSPS)", description: "Comutatoare mecanice de presiune pentru domeniul de joasă presiune, până la aproximativ 500 psi, disponibile în execuție cu piston (E1S, E1H – seria Econ-O-Trol) sau cu diafragmă (D1S, D2S, D1H, D2H, D3H), plus varianta compactă MSPS pentru aplicații generale. Se folosesc la monitorizarea sau oprirea automată a compresoarelor, pompelor și instalațiilor hidraulice la depășirea unui prag de presiune setat." },
-      { name: "Comutatoare Mecanice de Presiune Înaltă (Seriile 8000, 9000, 7000)", description: "Comutatoare mecanice pentru domeniul de presiune înaltă, de la 500 până la 18.000 psi — Seria 8000 este un comutator compact pentru presiuni de până la 18.000 psi, Seria 9000 are dimensiuni reduse (1,2 x 1,2 x 3,8 inch), iar Seria 7000, în construcție inox/alamă, acoperă până la 3.000 psi. Se aleg în funcție de presiunea maximă de lucru și de spațiul de montaj disponibil pe echipament." },
+      { name: "Comutatoare Mecanice de Presiune Înaltă (Seriile 8000, 9000, 7000)", description: "Comutatoare mecanice pentru domeniul de presiune înaltă, de la 500 până la 18.000 psi — Seria 8000 este un comutator compact, cu diafragmă sau piston, pentru presiuni maxime de lucru de până la 600 bar (8.700 psi), Seria 9000 este un comutator compact cu piston, pentru presiuni de până la 500 bar (7.250 psi), iar Seria 7000, cu racord din inox, acoperă până la 6.000 psi. Se aleg în funcție de presiunea maximă de lucru și de spațiul de montaj disponibil pe echipament." },
       { name: "Comutatoare cu Tub Bourdon (B1S, B2S, B1T, B2T, B1X, B2X)", description: "Comutatoare mecanice cu tub Bourdon, pentru presiuni de lucru de până la 18.000 psi, disponibile în execuție standard (B1S, B2S), cu bloc terminal (B1T, B2T) sau antiex pentru zone cu risc de explozie (B1X, B2X). Sunt potrivite acolo unde precizia de comutare trebuie menținută pe o plajă largă de presiune." },
       { name: "Traductoare și Transmițătoare Electronice de Presiune", description: "Traductoare și transmițătoare electronice de presiune, care convertesc variația de presiune într-un semnal electric pentru monitorizare și control automat, inclusiv variante dedicate pentru presiune de hidrogen. Multe modele din gama recentă oferă conectivitate IIoT prin IO-Link, pentru integrare directă în sisteme de monitorizare digitală a proceselor." }
     ],
@@ -564,7 +564,7 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
       "Marină — instrumentație de presiune și nivel rezistentă la mediul naval",
       "Agricultură și construcții — comutatoare de presiune pentru hidraulică mobilă"
     ],
-    infinitrade: `Pentru Barksdale ne raportăm la cataloagele publice ale producătorului — fără date proprii de stoc pe serie și fără să confirmăm un prag de presiune exact fără verificare prealabilă. Aducem comutatoare, traductoare și transmițătoare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și execuție (standard sau antiex). Pentru ofertă avem nevoie de plaja de presiune sau temperatură necesară, tipul de racord, execuția cerută (standard, antiex) și, dacă e cazul, codul comutatorului existent care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie — valabil pentru toată gama Speroni.`,
+    infinitrade: `Pentru Barksdale ne raportăm la cataloagele publice ale producătorului — fără date proprii de stoc pe serie și fără să confirmăm un prag de presiune exact fără verificare prealabilă. Aducem comutatoare, traductoare și transmițătoare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și execuție (standard sau antiex). Pentru ofertă avem nevoie de plaja de presiune sau temperatură necesară, tipul de racord, execuția cerută (standard, antiex) și, dacă e cazul, codul comutatorului existent care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie.`,
     limitation: "Nu putem confirma certificarea ATEX/antiex completă a unei configurații specifice fără fișa tehnică exactă a modelului solicitat.",
     productCodes: [
       { code: "E1S", description: "comutator de presiune Econ-O-Trol, joasă presiune" },
@@ -575,32 +575,32 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
       { code: "D1H", description: "comutator de presiune cu diafragmă, ajustabil" },
       { code: "D1X", description: "comutator de presiune antiex, diafragmă" },
       { code: "D2X", description: "comutator de presiune antiex, diafragmă" },
-      { code: "Series 8000", description: "comutator mecanic compact, până la 18.000 psi" },
+      { code: "Series 8000", description: "comutator mecanic compact, până la 600 bar (8.700 psi)" },
       { code: "Series 9000", description: "comutator mecanic compact, dimensiuni reduse" },
       { code: "Series 9048", description: "comutator cu piston sigilat, uz industrial" },
-      { code: "C9612", description: "comutator cu piston, indicator vizual" },
-      { code: "C9622", description: "comutator cu piston, indicator vizual" },
+      { code: "C9612", description: "comutator cu piston sigilat" },
+      { code: "C9622", description: "comutator cu piston sigilat" },
       { code: "B1S", description: "comutator cu tub Bourdon, standard" },
       { code: "B2S", description: "comutator cu tub Bourdon, standard" },
       { code: "B1X", description: "comutator cu tub Bourdon, antiex" },
       { code: "B2X", description: "comutator cu tub Bourdon, antiex" },
-      { code: "Series 7000", description: "comutator inox/alamă, până la 3000 psi" },
+      { code: "Series 7000", description: "comutator compact, racord inox, până la 6000 psi" },
       { code: "CSK", description: "comutator compact, 20-120 până la 1000-3000 psi" },
       { code: "CSM", description: "comutator compact, 30-120 până la 2000-5000 psi" },
       { code: "P1H", description: "comutator cu piston, tehnologie Dia-Seal" },
-      { code: "KLK", description: "comutator standard european, 1-40 bar" },
+      { code: "KLK", description: "comutator standard european, cu piston, 30-400 bar" },
       { code: "KLM", description: "comutator standard european, 1-40 bar" }
     ],
     faq: [
       { q: "Ce produce Barksdale?", a: "Barksdale produce comutatoare, traductoare și transmițătoare de presiune, temperatură, nivel și debit pentru echipamente industriale, plus, sub marca Dynalco, senzori de turație. Sunt folosite pentru monitorizare și oprire automată la depășirea unui prag de proces." },
-      { q: "Cum aleg un comutator de presiune Barksdale potrivit?", a: "Alegerea depinde de plaja de presiune de lucru și de mediul de instalare. Pentru presiuni joase se folosesc serii precum E1S sau D1S, pentru presiuni înalte până la 18.000 psi seriile 8000, 9000 sau B1S/B2S cu tub Bourdon, iar pentru zone cu risc de explozie, variantele X." },
+      { q: "Cum aleg un comutator de presiune Barksdale potrivit?", a: "Alegerea depinde de plaja de presiune de lucru și de mediul de instalare. Pentru presiuni joase se folosesc serii precum E1S sau D1S, pentru presiuni înalte seriile 8000 sau 9000, iar pentru presiuni de până la 18.000 psi seria B1S/B2S cu tub Bourdon, iar pentru zone cu risc de explozie, variantele X." },
       { q: "Ce echivalent are un traductor WIKA la Barksdale?", a: "Echivalența se stabilește pe baza plajei de presiune, tipului de semnal de ieșire și racordului mecanic, nu doar după denumirea comercială. Trimiteți fișa tehnică sau codul complet al traductorului WIKA actual pentru o comparație corectă." },
       { q: "Livrați comutatoare Barksdale în România și cât durează?", a: "Da, aducem comutatoare, traductoare și transmițătoare Barksdale la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de serie. Niciun cod nu vine cu promisiunea disponibilității din depozit." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Barksdale Products", url: "https://www.barksdale.com/products", publisher: "Barksdale Inc.", accessed: "2026-09-22" },
       { title: "Mechanical Pressure Switches – Barksdale", url: "https://www.barksdale.com/products/pressure/mechanical-pressure-switches", publisher: "Barksdale Inc.", accessed: "2026-09-22" }
@@ -612,18 +612,18 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
     founded: 1943,
     overview: `Metrohm este un producător elvețian de instrumente de analiză chimică, cu sediul la Herisau și activitate din 1943. Gama acoperă titratoare potențiometrice manuale și automate, titrare Karl Fischer pentru determinarea conținutului de apă, cromatografie ionică, spectrometre NIR și Raman, analizoare de proces pentru linii industriale, potențiostate și galvanostate pentru electrochimie, măsurare pH/ioni și sisteme de automatizare a probelor de laborator. Pentru piața din România putem oferta titratoare și module aferente din gama de laborator, pornind de la aplicația de analiză dorită.
 
-Ce diferențiază Metrohm este platforma modulară OMNIS, care unifică titrarea potențiometrică și cromatografia ionică sub aceeași arhitectură de control, alături de linii dedicate — Titrando pentru titrare automată integrabilă în rețea, Ti-Touch pentru titrare compactă de rutină și Eco Titrator ca variantă de bază la preț mai accesibil. Pe partea de cromatografie ionică, 930 Compact IC Flex acoperă analiza de rutină, iar 940 Professional IC Vario oferă configurare aproape nelimitată pentru laboratoare cu cerințe variate. Un concurent cunoscut pe segmentul instrumentelor de laborator pentru proces este Mettler Toledo, cu care Metrohm se suprapune pe zona titrării și analizei electrochimice.
+Ce diferențiază Metrohm este platforma modulară OMNIS, care unifică titrarea potențiometrică și cromatografia ionică sub aceeași arhitectură de control, alături de linii dedicate — Titrando pentru titrare automată integrabilă în rețea, Ti-Touch pentru titrare compactă de rutină și Eco Titrator ca variantă de bază. Pe partea de cromatografie ionică, 930 Compact IC Flex acoperă analiza de rutină, iar 940 Professional IC Vario oferă configurare aproape nelimitată pentru laboratoare cu cerințe variate. Un concurent cunoscut pe segmentul instrumentelor de laborator pentru proces este Mettler Toledo, cu care Metrohm se suprapune pe zona titrării și analizei electrochimice.
 
 Pentru laboratoarele și liniile de proces din România, Metrohm are sens la controlul calității apei, analiza conținutului de umiditate din materii prime sau produse, și monitorizarea electrochimică a proceselor din petrochimie, energie sau tratarea apei.`,
     whyChoose: [
       "Platformă modulară OMNIS, care unifică titrarea și cromatografia ionică sub aceeași arhitectură de control.",
       "Gamă completă de titrare Karl Fischer, volumetrică și coulometrică, pentru determinarea conținutului de apă.",
-      "Producție proprie a componentelor cheie — hardware, plăci electronice, senzori și coloane — conform informațiilor producătorului.",
+      "Instrumente pentru analiză chimică de laborator și de proces — titrare, cromatografie ionică, spectroscopie și electrochimie.",
       "Instrumente dedicate procesului industrial (analizoare inline/online/atline), nu doar pentru laborator."
     ],
     keyProducts: [
-      { name: "Titratoare Potențiometrice (Titrando, Ti-Touch, Eco Titrator, OMNIS)", description: "Titratoare potențiometrice pentru determinări de concentrație, aciditate sau bazicitate, de la varianta compactă Ti-Touch (inclusiv modelul 916 Ti-Touch) pentru rutină de laborator, la Titrando pentru integrare într-o rețea automatizată de titrare, și platforma modulară OMNIS pentru laboratoare cu volum mare de probe. Eco Titrator este varianta de bază, orientată spre cost redus fără a renunța la precizia specifică mărcii." },
-      { name: "Cromatografie Ionică (930 Compact IC Flex, 940 Professional IC Vario, OMNIS IC, Eco IC)", description: "Sisteme de cromatografie ionică pentru analiza anionilor, cationilor și substanțelor polare din probe de apă sau proces. 930 Compact IC Flex este un sistem cu un singur canal pentru analiză de rutină, 940 Professional IC Vario oferă configurare extinsă pentru laboratoare cu cerințe variate, iar Eco IC este varianta de intrare în gamă la preț mai accesibil." },
+      { name: "Titratoare Potențiometrice (Titrando, Ti-Touch, Eco Titrator, OMNIS)", description: "Titratoare potențiometrice pentru determinări de concentrație, aciditate sau bazicitate, de la varianta compactă Ti-Touch (inclusiv modelul 916 Ti-Touch) pentru rutină de laborator, la Titrando pentru integrare într-o rețea automatizată de titrare, și platforma modulară OMNIS pentru laboratoare cu volum mare de probe. Eco Titrator este varianta de bază din gama de titratoare." },
+      { name: "Cromatografie Ionică (930 Compact IC Flex, 940 Professional IC Vario, OMNIS IC, Eco IC)", description: "Sisteme de cromatografie ionică pentru analiza anionilor, cationilor și substanțelor polare din probe de apă sau proces. 930 Compact IC Flex este un sistem cu un singur canal pentru analiză de rutină, 940 Professional IC Vario oferă configurare extinsă pentru laboratoare cu cerințe variate, iar Eco IC este varianta de intrare în gama de cromatografie ionică." },
       { name: "Titrare Karl Fischer și Automatizare de Laborator", description: "Instrumente de titrare Karl Fischer, volumetrică sau coulometrică, pentru determinarea precisă a conținutului de apă din materii prime, produse finite sau solvenți. Gama include și module de automatizare a pregătirii probelor, precum 858 Professional Sample Processor și 889 IC Sample Center, pentru laboratoare cu volum ridicat de eșantioane." }
     ],
     industries: [
@@ -641,7 +641,7 @@ Pentru laboratoarele și liniile de proces din România, Metrohm are sens la con
       { code: "Titrando", description: "titrator potențiometric integrabil în rețea" },
       { code: "Ti-Touch", description: "titrator compact pentru rutină de laborator" },
       { code: "916 Ti-Touch", description: "titrator compact, model de referință" },
-      { code: "848 Titrino plus", description: "titrator potențiometric automatizat" },
+      
       { code: "1115 Optrode", description: "electrod optic pentru titrare" },
       { code: "Eco Titrator", description: "titrator potențiometric de bază" },
       { code: "940 Professional IC Vario", description: "cromatograf ionic configurabil" },
@@ -658,8 +658,8 @@ Pentru laboratoarele și liniile de proces din România, Metrohm are sens la con
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products – Metrohm", url: "https://www.metrohm.com/en_us/products.html", publisher: "Metrohm AG", accessed: "2026-09-22" },
       { title: "Titration – Metrohm", url: "https://www.metrohm.com/en_us/products/titration.html", publisher: "Metrohm AG", accessed: "2026-09-22" },
@@ -684,7 +684,7 @@ Pentru gospodăriile și fermele din România, Speroni are sens la alimentarea c
     ],
     keyProducts: [
       { name: "Pompe de Suprafață Seriile KPM, CAM, CM, CFM", description: "Pompe de suprafață pentru uz rezidențial și industrial — KPM este o pompă volumetrică pentru debite mici (până la 50 l/min) la înălțimi de pompare de până la 55 m, CAM este o pompă autoamorsantă din fontă cu debit de până la 220 l/min, iar CM și CFM sunt pompe centrifugale din alamă, cu debite de până la 350, respectiv 700 l/min, folosite în agricultură și industrie." },
-      { name: "Pompe de Irigație Seria CBM", description: "Pompe centrifugale de irigație, cu debite de până la 1.800 l/min la o înălțime de pompare de 26,5 m, dimensionate pentru sisteme de udare de suprafață mai mare, ferme și sere. Se montează de obicei la sursa de apă (puț, canal, bazin) și alimentează direct rețeaua de irigație prin picurare sau aspersiune." },
+      { name: "Pompe de Irigație Seria CBM", description: "Pompe centrifugale de irigație, cu debite de la 350 până la 1.800 l/min și înălțimi de pompare de 15–26,5 m, în funcție de model, dimensionate pentru sisteme de udare de suprafață mai mare, ferme și sere. Se montează de obicei la sursa de apă (puț, canal, bazin) și alimentează direct rețeaua de irigație prin picurare sau aspersiune." },
       { name: "Pompe Submersibile pentru Apă Murdară Seria SK", description: "Pompe submersibile pentru apă murdară, disponibile în mai multe modele — de la SK 27-30 la SK 90-100-120-140 — cu debite de la 550 până la 2.450 l/min și înălțimi de pompare de la 19 până la 48,5 m, în funcție de model. Se folosesc la evacuarea apei din bazine, subsoluri inundate sau stații de pompare a apelor uzate." },
       { name: "Pompe Submersibile de Capacitate Mare Seria SQ", description: "Pompe submersibile de capacitate mare, din familia SQ (inclusiv SQ 15/85, SQ-V, SQ 150), cu debite de la 1.000 până la 5.000 l/min și înălțimi de pompare de până la aproape 35 m. Sunt dimensionate pentru aplicații industriale sau agricole cu necesar mare de debit, unde o pompă submersibilă standard nu ar face față volumului de apă." }
     ],
@@ -730,8 +730,8 @@ Pentru gospodăriile și fermele din România, Speroni are sens la alimentarea c
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [ { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Products – Speroni", url: "https://www.speroni.it/en/products/", publisher: "Speroni S.p.A.", accessed: "2026-09-22" },
       { title: "Submersible Pumps – Speroni", url: "https://www.speroni.it/en/products/submersible-pumps/", publisher: "Speroni S.p.A.", accessed: "2026-09-22" }

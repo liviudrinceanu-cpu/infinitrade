@@ -12,10 +12,10 @@ Ce diferențiază gama Bando e diversitatea de construcții pentru aceeași func
 Pentru un atelier sau o linie de producție din România, Bando are sens acolo unde echivalentul exact de profil sau lungime contează mai mult decât marca — la înlocuiri de curele uzate pe utilaje mai vechi sau la proiecte unde clientul cere explicit o alternativă la Gates.`,
     whyChoose: [
       "Gamă foarte largă de profile — de la curele trapezoidale clasice la poli-V și sincrone, acoperind majoritatea aplicațiilor industriale",
-      "Variantă din poliuretan Bancollan — rezistență mai bună la ulei și temperatură decât cauciucul clasic",
+      "Variantă din poliuretan Bancollan — curele pentru uz industrial, cu accent pe eficiența energetică",
       "Profile dințate HTD 8M/14M pentru cuplu ridicat — alternativă directă la seriile sincrone concurente",
-      "Serii agricole dedicate — RED-S II și W800, gândite pentru vibrații și șocuri specifice utilajelor de câmp",
-      "Alternativă documentată la Gates — util când clientul cere un echivalent de la alt producător"
+      "Serii agricole dedicate — RED-S II și W800, pentru utilaje agricole",
+      "Echivalențele față de alte mărci se stabilesc pe baza dimensiunilor curelei existente"
     ],
     keyProducts: [
       { name: "Curele Trapezoidale Clasice și Crestate (Power Ace, Classical V-Belts)", description: "Curele de uz general pentru transmisii industriale, disponibile în variantă țesută clasică sau crestată (raw edge cogged) pentru randament mai bun la unghiuri mici de înfășurare. Aplicație tipică: ventilatoare, pompe, compresoare, benzi transportoare ușoare." },
@@ -27,14 +27,14 @@ Pentru un atelier sau o linie de producție din România, Bando are sens acolo u
       "Industrie generală — transmisii pentru ventilatoare, pompe, compresoare",
       "Automotive aftermarket — curele de înlocuire pentru accesorii auto",
       "Agricultură — curele pentru combine și utilaje de recoltat",
-      "Producție de echipamente mici — scutere, ATV-uri, utilaje cu variator"
+      "Producție de echipamente mici — scutere și utilaje cu variator"
     ],
     infinitrade: `Aducem curele Bando prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de profil și lungime. Nu avem date proprii de stoc pentru curelele Bando, așa că lucrăm strict cu ce publică producătorul pe seriile lui — pentru o ofertă corectă avem nevoie de codul de profil sau lungimea exterioară, lățimea și, dacă e vorba de o curea dințată, pasul dinților. Nu promitem o gamă permanent disponibilă pe raft; fiecare comandă se confirmă cu furnizorul înainte de a da un termen ferm clientului. Pentru echipamente vechi unde eticheta originală s-a șters, putem ajuta la identificare pe baza dimensiunilor măsurate direct pe curea.`,
     limitation: "Nu putem confirma echivalențe exacte între codurile Bando și cele ale altor producători fără măsurătorile trimise de client.",
     productCodes: [
       { code: "Power Ace V-Belts", description: "Curele trapezoidale industriale de uz general" },
       { code: "Classical V-Belts", description: "Curele clasice țesute, variantă raw edge cogged disponibilă" },
-      { code: "Bancollan V-Belts", description: "Curele trapezoidale din poliuretan, rezistente la ulei" },
+      { code: "Bancollan V-Belts", description: "Curele trapezoidale din poliuretan, pentru eficiență energetică" },
       { code: "Banflex V-Belts", description: "Curele trapezoidale standard, cu variantă Scrum bandată" },
       { code: "V-Belts RPF", description: "Curele trapezoidale pentru piața de schimb auto" },
       { code: "Banded V-Belts RPFJ", description: "Curele bandate pentru accesorii camioane și autobuze" },
@@ -52,14 +52,14 @@ Pentru un atelier sau o linie de producție din România, Bando are sens acolo u
     ],
     faq: [
       { q: "Ce produce Bando?", a: "Bando este un producător japonez de curele de transmisie — trapezoidale, dințate sincrone, poli-V și variator — pentru industrie, agricultură și piața de schimb auto. Gama e organizată pe familii de profile, fiecare cu variante de construcție (țesută, crestată, poliuretan) potrivite unor sarcini și temperaturi diferite." },
-      { q: "Cum aleg o curea Bando după cod?", a: "Ai nevoie de tipul de profil (clasic, dințat sau poli-V), lățimea sau pasul dinților și lungimea exterioară, măsurate de pe curea sau din documentația utilajului. Fără aceste date nu putem confirma un echivalent corect din gama Bando." },
+      { q: "Cum aleg o curea Bando după cod?", a: "Aveți nevoie de tipul de profil (clasic, dințat sau poli-V), lățimea sau pasul dinților și lungimea exterioară, măsurate de pe curea sau din documentația utilajului. Fără aceste date nu putem confirma un echivalent corect din gama Bando." },
       { q: "Ce echivalent are Bando pentru curelele Gates?", a: "Bando produce familii comparabile pe fiecare tip de profil — trapezoidale clasice, dințate HTD și poli-V — dar echivalența exactă între codurile celor două mărci trebuie verificată punctual, pe baza dimensiunilor curelei existente, nu presupusă din denumire." },
       { q: "Livrați curele Bando în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru profilul și lungimea solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de curele Bando?", a: "Codul de pe curea existentă (dacă mai este lizibil), tipul de profil, lățimea, lungimea exterioară și, pentru curele dințate, pasul dinților. Cu cât informația e mai completă, cu atât confirmarea de la producător vine mai rapid." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bando Europe – About Bando", url: "https://bando.de/en/about-bando/", publisher: "Bando Europe GmbH", accessed: "2026-09-23" },
       { title: "Bando Europe – Product Overview", url: "https://bando.de/en/product/", publisher: "Bando Europe GmbH", accessed: "2026-09-23" },
@@ -68,7 +68,7 @@ Pentru un atelier sau o linie de producție din România, Bando are sens acolo u
   camloc: {
     name: "Camloc",
     headquarters: "Leicester, Marea Britanie",
-    overview: `Camloc Motion Control este un producător britanic din Leicester, specializat de peste 25 de ani în arcuri cu gaz și amortizoare hidraulice pentru capote, trape și panouri de acces. Gama pleacă de la arcuri cu forță fixă folosite la susținerea capotelor și capacelor, trece prin variante cu blocare în poziție și ajunge la arcuri cu forță reglabilă, unde utilizatorul poate regla suportul chiar cu arcul montat. Pentru clienți din România putem oferta atât arcurile standard, cât și tijele telescopice de sprijin pentru panouri mai ușoare.
+    overview: `Camloc Motion Control este un producător britanic din Leicester, specializat de peste 30 de ani în arcuri cu gaz și amortizoare hidraulice pentru capote, trape și panouri de acces. Gama pleacă de la arcuri cu forță fixă folosite la susținerea capotelor și capacelor, trece prin variante cu blocare în poziție și ajunge la arcuri cu forță reglabilă, unde utilizatorul poate regla suportul chiar cu arcul montat. Pentru clienți din România putem oferta atât arcurile standard, cât și tijele telescopice de sprijin pentru panouri mai ușoare.
 
 Ce ține gama Camloc utilă e varietatea de moduri de blocare: seria Econoloc blochează automat la extensie completă, fără tije de siguranță separate, iar seria Stop & Stay permite susținerea unei greutăți contrabalansate în orice punct de pe cursă, nu doar la capăt. Pentru medii corozive sau spălare frecventă, compania oferă tije din inox 316L. Concurează cu alți producători britanici și continentali de arcuri cu gaz pentru aplicații industriale și de transport.
 
@@ -83,14 +83,14 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
     keyProducts: [
       { name: "Arcuri cu Gaz Forță Fixă (Swift & Sure)", description: "Arc cu gaz cu forță de compresie fixă, disponibil într-o gamă largă de dimensiuni, cu diverse tipuri de terminații și console de montaj. Aplicație tipică: susținerea capotelor auto, capacelor de utilaje și panourilor de acces industriale." },
       { name: "Arcuri cu Gaz cu Blocare (Econoloc, Stop & Stay)", description: "Familie de arcuri care blochează mecanic panoul într-o poziție — Econoloc la extensia completă, Stop & Stay în orice punct al cursei, pentru susținerea unei greutăți contrabalansate în siguranță." },
-      { name: "Arcuri cu Forță Reglabilă (VARI-LIFT)", description: "Arc cu gaz conceput pentru a fi degazat și reîncărcat în poziție, astfel încât forța de susținere poate fi ajustată chiar cu arcul montat pe echipament, fără schimbarea completă a componentei." },
+      { name: "Arcuri cu Forță Reglabilă (VARI-LIFT)", description: "Arc cu gaz livrat la forță maximă, din care se eliberează treptat gaz prin supapa VARI-LIFT, cu un instrument, până la forța dorită; reglajul se poate face cu arcul montat pe echipament (domeniu 400–2.500 N, tuburi de 15, 18, 23 și 28 mm)." },
       { name: "Amortizoare și Tije de Sprijin (Cam-Shoc, Cam-Stay)", description: "Cam-Shoc este un amortizor hidraulic autonom, fără întreținere, care preia energia cinetică la închiderea rapidă a capacelor; Cam-Stay e o tijă telescopică multi-pozițională acționată manual, pentru panouri ușoare." }
     ],
     industries: [
-      "Automotive — capote și capace pentru caroserii și utilaje",
-      "Agricultură — trape și panouri de acces la utilaje de câmp",
+      "Aerospațial și industrie — capote, capace și panouri de acces",
+      "Vehicule speciale — trape și panouri de acces",
       "Feroviar și apărare — aplicații de amortizare a șocurilor",
-      "Mobilier tehnic — capace de birouri, dulapuri și incinte industriale"
+      "Semnalistică și brațe pentru monitoare — susținere cu arcuri cu gaz"
     ],
     infinitrade: `Spunem clar ce putem și ce nu putem confirma despre gama Camloc înainte de a trimite o ofertă: aducem arcurile și amortizoarele prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de greutatea panoului, unghiul de deschidere, distanța dintre punctele de prindere și, dacă e cazul, mediul de lucru (umiditate, spălare). Nu ținem o gamă completă pe stoc și nu promitem disponibilitate permanentă pentru fiecare cod — fiecare comandă se confirmă cu furnizorul înainte de termenul final. Pentru aplicații critice de siguranță recomandăm verificarea calculului de forță împreună cu departamentul tehnic al clientului.`,
     limitation: "Nu putem confirma valorile exacte de forță (N) pentru fiecare cod fără fișa tehnică solicitată direct de la producător.",
@@ -102,7 +102,7 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
       { code: "Cam-Shoc", description: "Amortizor hidraulic autonom, fără întreținere" },
       { code: "Cam-Stay", description: "Tijă telescopică multi-pozițională, acționare manuală" },
       { code: "Blocklifts", description: "Arc cu gaz cu supapă de blocare pe cursă" },
-      { code: "Hydraulic Lift", description: "Ajustare hidro-mecanică pentru aplicații medicale" },
+      { code: "Hydraulic Lift", description: "Variantă de arc cu gaz Camloc; detaliile se confirmă din documentația producătorului" },
       { code: "Stainless Steel Rods 316L", description: "Tije din inox pentru medii corozive" },
       { code: "End Fittings", description: "Terminații pentru montaj în nylon, oțel sau inox" },
       { code: "Mounting Brackets", description: "Console și pini de fixare pentru arcuri cu gaz" },
@@ -115,8 +115,8 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
       { q: "Ce trebuie să trimit pentru o ofertă Camloc?", a: "Greutatea și dimensiunile panoului, unghiul de deschidere, distanța dintre punctele de fixare și mediul de lucru, dacă implică umiditate sau spălare frecventă, pentru a alege materialul tijei potrivit." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Camloc Motion Control – Home", url: "https://www.camloc.com", publisher: "Camloc Motion Control Ltd", accessed: "2026-09-23" },
       { title: "Camloc Motion Control – About Us", url: "https://www.camloc.com/about-us", publisher: "Camloc Motion Control Ltd", accessed: "2026-09-23" },
@@ -126,22 +126,22 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
     name: "mayr®",
     founded: 1897,
     headquarters: "Mauerstetten, Germania",
-    overview: `Chr. Mayr, cunoscut pe piață sub marca mayr®, este un producător german din Mauerstetten, activ din 1897 în frâne de siguranță și cuplaje de protecție la suprasarcină. Gama ROBA-stop acoperă frâne electromagnetice pentru oprirea și menținerea în poziție a axelor, de la variante compacte silențioase până la modele duble pentru siguranță redundantă, iar familia EAS și ROBA slip hub oferă limitatoare de cuplu care decuplează mecanic la suprasarcină. Pentru România putem oferta atât frânele de siguranță standard, cât și cuplajele elastice din seria ROBA DS.
+    overview: `Chr. Mayr, cunoscut pe piață sub marca mayr®, este un producător german din Mauerstetten, fondat în 1897 ca atelier de dulgherie și dezvoltat ulterior în producția de componente de transmisie: frâne de siguranță, limitatoare de cuplu și cuplaje. Gama ROBA-stop acoperă frâne electromagnetice pentru oprirea și menținerea în poziție a axelor, de la variante compacte silențioase până la modele duble pentru siguranță redundantă, iar familia EAS și ROBA slip hub oferă limitatoare de cuplu care decuplează mecanic la suprasarcină. Pentru România putem oferta atât frânele de siguranță standard, cât și cuplajele elastice din seria ROBA DS.
 
-Ce diferențiază mayr® în categoria lui e combinația dintre frâne de siguranță cu eliberare electromagnetică și limitatoare de cuplu cu decuplare mecanică, ambele critice acolo unde o cădere de tensiune sau o suprasarcină bruscă ar putea produce un accident sau o defecțiune costisitoare. Seria ROBA DS Aluminum ajunge la turații de până la 32.000 rpm, iar limitatoarele EAS acoperă game diferite de cuplu prin variante Sp, Sm, Zr, HT și reverse. Concurează cu alți producători germani de componente de siguranță pentru transmisii mecanice.
+Ce diferențiază mayr® în categoria lui e combinația dintre frâne de siguranță cu eliberare electromagnetică și limitatoare de cuplu cu decuplare mecanică, ambele critice acolo unde o cădere de tensiune sau o suprasarcină bruscă ar putea produce un accident sau o defecțiune costisitoare. Cuplajul ROBA DS Aluminum tip 9120 este destinat traductoarelor de cuplu, iar limitatoarele EAS acoperă game diferite de cuplu prin variante Sp, Sm, Zr, HT și reverse. Concurează cu alți producători germani de componente de siguranță pentru transmisii mecanice.
 
 Pentru instalații din România — elevatoare, macarale, mașini-unelte sau linii cu risc de suprasarcină — mayr® înseamnă acces la componente de siguranță gândite să oprească axul chiar și fără alimentare electrică, nu doar să-l încetinească.`,
     whyChoose: [
       "Frâne de siguranță cu eliberare electromagnetică — opresc axul chiar la pierderea alimentării, esențial pe elevatoare și macarale",
       "Gamă largă de limitatoare de cuplu EAS — variante Sp, Sm, Zr, HT și reverse pentru praguri diferite de suprasarcină",
-      "Cuplaje ROBA DS pentru turații mari — varianta din aluminiu suportă până la 32.000 rpm",
-      "Peste un secol de rafinare a designului — de la primele frâne electromagnetice la seriile actuale silențioase",
+      "Cuplaje ROBA DS — varianta din aluminiu tip 9120 este destinată traductoarelor de cuplu",
+      "Companie germană fondată în 1897, specializată astăzi în componente de transmisie",
       "Acoperire largă de aplicații — de la roboți și mașini-unelte la turbine eoliene și instalații navale"
     ],
     keyProducts: [
       { name: "Frâne de Siguranță ROBA-stop", description: "Familie de frâne electromagnetice pentru oprirea și menținerea în poziție a axelor, cu variante silențioase (silenzio), duble pentru siguranță redundantă (twinstop, duplostop) și pentru montaj pe scenă (stage). Aplicație tipică: elevatoare, escalatoare, roboți industriali, macarale." },
       { name: "Limitatoare de Cuplu EAS și ROBA slip hub", description: "Cuplaje de protecție care decuplează mecanic transmisia la depășirea unui cuplu prestabilit, disponibile în variante EAS-compact, Sp, Sm, Zr, HT și reverse. Protejează motorul și transmisia de suprasarcini bruște pe linii de producție și utilaje agricole." },
-      { name: "Cuplaje Elastice ROBA DS / ES", description: "Cuplaje pentru transmisii servo și industriale, disponibile în variantă din oțel pentru sarcini grele și din aluminiu pentru turații ridicate, până la 32.000 rpm la tipul 9120. Recomandate pentru compensarea dezalinierilor pe axe motor-reductor." },
+      { name: "Cuplaje Elastice ROBA DS / ES", description: "Cuplaje pentru transmisii servo și industriale, disponibile în variantă din oțel și din aluminiu; tipul 9120 este destinat traductoarelor de cuplu. Turația maximă se confirmă pe cod, din documentația mayr. Recomandate pentru compensarea dezalinierilor pe axe motor-reductor." },
       { name: "Cuplaje Magnetice și Frâne Magnetice", description: "Soluții fără contact mecanic direct pentru transmiterea cuplului sau frânarea axului, utile în medii unde etanșarea completă a carcasei contează, precum echipamente de dozare sau linii chimice." }
     ],
     industries: [
@@ -155,12 +155,12 @@ Pentru instalații din România — elevatoare, macarale, mașini-unelte sau lin
     limitation: "Nu putem confirma configurația software sau parametrizarea electronică a variantelor mayr® cu monitorizare integrată fără specificațiile trimise de client.",
     productCodes: [
       { code: "ROBA-stop silenzio", description: "Frână de siguranță electromagnetică, variantă silențioasă" },
-      { code: "ROBA diskstop", description: "Frână de siguranță cu disc pentru oprire de urgență" },
+      { code: "ROBA diskstop", description: "Frână de siguranță pentru lifturi și tehnică de scenă" },
       { code: "ROBA twinstop", description: "Frână de siguranță dublă pentru redundanță" },
       { code: "ROBA-stop stage", description: "Frână de siguranță pentru aplicații de tehnică de scenă" },
-      { code: "ROBA secustop", description: "Frână de siguranță pentru axe verticale" },
+      { code: "ROBA secustop", description: "Frână de siguranță pentru lifturi și tehnică de scenă" },
       { code: "ROBA duplostop", description: "Frână de siguranță cu două circuite independente" },
-      { code: "ROBA topstop", description: "Frână de siguranță compactă montată pe motor" },
+      { code: "ROBA topstop", description: "Frână de siguranță industrială" },
       { code: "ROBA-stop S", description: "Frână de siguranță, variantă standard" },
       { code: "ROBA-stop M", description: "Frână de siguranță, variantă seria M" },
       { code: "ROBA servostop", description: "Frână de siguranță pentru servomotoare" },
@@ -171,23 +171,23 @@ Pentru instalații din România — elevatoare, macarale, mașini-unelte sau lin
       { code: "EAS HTL", description: "Limitator de cuplu, variantă cuplu ridicat" },
       { code: "EAS Sp/Sm/Zr", description: "Familie de limitatoare de cuplu, variante multiple" },
       { code: "EAS HT", description: "Limitator de cuplu pentru sarcini mari" },
-      { code: "EAS reverse", description: "Limitator de cuplu cu resetare automată" },
-      { code: "ROBA contitorque", description: "Limitator de cuplu cu monitorizare continuă" },
+      { code: "EAS reverse", description: "Limitator de cuplu (cuplaj de suprasarcină)" },
+      { code: "ROBA contitorque", description: "Cuplaj limitator de cuplu, decuplează intrarea de ieșire la suprasarcină" },
       { code: "ROBA DS", description: "Cuplaj elastic pentru transmisii servo și industriale" },
-      { code: "ROBA DS Aluminum Type 9120", description: "Cuplaj elastic din aluminiu, până la 32.000 rpm" },
-      { code: "ROBA drive-checker", description: "Cuplaj cu monitorizare a stării de funcționare" },
+      { code: "ROBA DS Aluminum Type 9120", description: "Cuplaj din aluminiu pentru traductoare de cuplu" },
+      { code: "ROBA drive-checker", description: "Cuplaj de arbore fără joc, cu compensarea dezalinierilor" },
       { code: "ROBA ES", description: "Cuplaj elastic pentru transmisii industriale" },
     ],
     faq: [
       { q: "Ce produce Chr. Mayr sub marca mayr®?", a: "Chr. Mayr produce frâne de siguranță electromagnetice, limitatoare de cuplu pentru protecție la suprasarcină și cuplaje elastice pentru transmisii mecanice, folosite pe elevatoare, mașini-unelte, robotică și energie eoliană." },
-      { q: "Cum aleg o frână ROBA-stop după cod?", a: "Ai nevoie de diametrul axului, cuplul de frânare necesar, tensiunea de alimentare și dacă aplicația cere o variantă silențioasă sau dublă pentru redundanță. Codul exact se confirmă apoi cu documentația tehnică a producătorului." },
+      { q: "Cum aleg o frână ROBA-stop după cod?", a: "Aveți nevoie de diametrul axului, cuplul de frânare necesar, tensiunea de alimentare și dacă aplicația cere o variantă silențioasă sau dublă pentru redundanță. Codul exact se confirmă apoi cu documentația tehnică a producătorului." },
       { q: "Ce echivalent are seria EAS de la mayr® pentru alte limitatoare de cuplu?", a: "EAS acoperă o gamă de variante (Sp, Sm, Zr, HT, reverse) pentru praguri diferite de cuplu; echivalența cu alte mărci se stabilește pe baza cuplului de decuplare și a dimensiunilor axului, nu doar din denumire." },
       { q: "Livrați produse mayr® în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul și configurația solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă mayr®?", a: "Seria dorită (frână, limitator de cuplu sau cuplaj), diametrul axului, cuplul necesar și tensiunea de alimentare, dacă e cazul, pentru ca oferta să corespundă exact configurației utilajului." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "mayr® Power Transmission – Home", url: "https://www.mayr.com/en", publisher: "Chr. Mayr GmbH + Co. KG", accessed: "2026-09-23" },
       { title: "mayr® Power Transmission – Company", url: "https://www.mayr.com/en/company", publisher: "Chr. Mayr GmbH + Co. KG", accessed: "2026-09-23" },
@@ -198,21 +198,21 @@ Pentru instalații din România — elevatoare, macarale, mașini-unelte sau lin
     headquarters: "St. Joseph, Michigan, SUA",
     overview: `Colson Group este un producător american de rotile și roți industriale, cu sediul în St. Joseph, Michigan, organizat pe mai multe branduri interne — Colson, Shepherd, Albion, Jarvis și Manner. Gama acoperă rotile ușoare pentru mobilier și echipamente de birou, rotile medii pentru cărucioare și rafturi, și rotile grele de tip kingpinless pentru manipulare industrială, plus linii dedicate mediului medical și cargo aerian. Pentru clienți din România putem oferta atât rotilele de uz general, cât și variantele speciale, cu roți din inox sau construcție forjată dintr-o bucată.
 
-Ce diferențiază Colson Group e organizarea pe branduri specializate pe segment de sarcină: Albion acoperă practic toată plaja medie și grea, de la 500 la peste 1250 kg pe unitate, cu variante kingpinless (fără bolț central) care rezistă mai bine la impact lateral decât construcția clasică cu furcă și bolț. Seriile Manner și Medcaster sunt gândite specific pentru paturi de spital și tărgi, cu roți duble și design igienic. Compania e prezentă pe segmente similare cu alți producători mari de rotile industriale nord-americani și europeni.
+Ce diferențiază Colson Group e organizarea pe branduri specializate pe segment de sarcină: Albion acoperă plaja medie și grea, de la 500 la peste 1250 lb (aprox. 227 la peste 567 kg) pe unitate, cu variante kingpinless (fără bolț central). Seriile Manner și Medcaster sunt gândite specific pentru paturi de spital și tărgi, cu roți duble și design igienic. Compania e prezentă pe segmente similare cu alți producători mari de rotile industriale nord-americani și europeni.
 
 Pentru un producător de echipamente sau un integrator din România, Colson Group are sens la linii de asamblare, cărucioare de spital sau echipamente pentru cargo aerian, unde sarcina pe rotilă și tipul de podea trebuie calculate, nu presupuse.`,
     whyChoose: [
-      "Acoperire completă pe sarcină — de la rotile ușoare de birou la variante grele kingpinless peste 1250 kg",
-      "Construcție kingpinless la seriile Albion — rezistență mai bună la impact lateral decât rotila clasică cu bolț",
+      "Acoperire largă pe sarcină — de la rotile ușoare la variante grele kingpinless peste 1250 lb (aprox. 567 kg)",
+      "Construcție kingpinless (fără bolț central) la seriile grele Albion",
       "Linii medicale dedicate — Manner și Medcaster, gândite pentru igienă și manevrare silențioasă pe paturi și tărgi",
-      "Variante pentru cargo aerian — Mobra și seria 03, cu bracket integrat pentru montaj inversat",
-      "Materiale pentru medii dure — inox 304 la seria Jarvis S30, pentru spălare frecventă"
+      "Variante pentru cargo aerian — seriile Mobra și 03",
+      "Materiale pentru medii dure — inox la seria Jarvis S30, pentru spălare frecventă"
     ],
     keyProducts: [
-      { name: "Rotile Ușoare și Medii (Colson 2/4, Shepherd Regent/00, Jarvis 30/S30)", description: "Rotile pentru sarcini de până la 500-1250 kg pe unitate, cu variante zincate, din oțel tratat termic sau din inox 304 pentru medii cu spălare frecventă. Aplicație tipică: mobilier tehnic, cărucioare, echipamente de birou și instituționale." },
-      { name: "Rotile Grele Kingpinless (Seria Albion 110-700)", description: "Rotile fără bolț central, cu furcă din oțel laser-tăiat sau forjat dintr-o bucată la variantele 600 și 700, pentru sarcini peste 1250 kg și condiții de impact ridicat. Recomandate pe cărucioare industriale grele și echipamente de manipulare." },
-      { name: "Rotile Medicale (Manner Twist/Tango, Medcaster Softech, NG Series)", description: "Rotile cu roți duble și design igienic pentru paturi de spital, tărgi și echipamente medicale mobile, disponibile în variantă corozivă-liberă și cu sisteme de blocare centralizată pentru siguranța pacientului." },
-      { name: "Rotile Speciale (Heatwave, Mobra Air Cargo, Seria 03)", description: "Rotile pentru temperaturi extreme (Heatwave) sau pentru manipulare de containere în cargo aerian, cu bracket integrat pentru montaj inversat pe suprafețe de rulare specifice terminalelor aeroportuare." }
+      { name: "Rotile Ușoare și Medii (Colson 2/4, Shepherd Regent/00, Jarvis 30/S30)", description: "Rotile pentru sarcini de până la 1250 lb (aprox. 567 kg) pe unitate, cu variante zincate, din oțel tratat termic sau din inox pentru medii cu spălare frecventă. Aplicație tipică: mobilier tehnic, cărucioare, echipamente de birou și instituționale." },
+      { name: "Rotile Grele Kingpinless (Seria Albion 110-700)", description: "Rotile fără bolț central (kingpinless), în construcții din oțel tratat termic, laser-tăiat sau forjat dintr-o bucată, în funcție de serie, pentru sarcini peste 1250 lb (aprox. 567 kg). Construcția fiecărei serii se confirmă pe cod, din documentația Albion. Recomandate pe cărucioare industriale grele și echipamente de manipulare." },
+      { name: "Rotile Medicale (Manner Twist/Tango, Medcaster Softech, NG Series)", description: "Rotile cu roți duble și design igienic pentru paturi de spital, tărgi și echipamente medicale mobile, pentru echipamente medicale mobile; configurațiile disponibile se confirmă din documentația producătorului." },
+      { name: "Rotile Speciale (Heatwave, Mobra Air Cargo, Seria 03)", description: "Rotile pentru temperaturi extreme (Heatwave) sau pentru manipulare de containere în cargo aerian, pentru aplicații de cargo aerian." }
     ],
     industries: [
       "Sănătate — cărucioare, paturi și echipamente medicale mobile",
@@ -228,7 +228,7 @@ Pentru un producător de echipamente sau un integrator din România, Colson Grou
       { code: "Colson 2 Series", description: "Rotilă cu swivel neted, ușoară-medie sarcină" },
       { code: "Shepherd 00 Series", description: "Rotilă cu profil jos și capacitate mare" },
       { code: "Jarvis 30 Series", description: "Rotilă din oțel cu placare anticorozivă" },
-      { code: "Jarvis S30 Series", description: "Rotilă din inox 304, rezistentă la spălare" },
+      { code: "Jarvis S30 Series", description: "Rotilă din inox, rezistentă la spălare" },
       { code: "Colson 4 Series", description: "Rotilă cu profil îngust, oțel zincat" },
       { code: "Colson D4 Stainless Series", description: "Rotilă din inox pentru medii corozive" },
       { code: "Albion 18 Series", description: "Rotilă medie, rulmenți etanși, funcționare silențioasă" },
@@ -238,27 +238,27 @@ Pentru un producător de echipamente sau un integrator din România, Colson Grou
       { code: "Albion 310 Series", description: "Rotilă grea kingpinless, oțel tratat termic" },
       { code: "Albion 410 Series", description: "Rotilă grea kingpinless, furcă laser-tăiată" },
       { code: "Albion 600 Series", description: "Rotilă forjată dintr-o bucată, sarcină mare" },
-      { code: "Albion 700 Series", description: "Rotilă forjată dintr-o bucată, durabilitate maximă" },
-      { code: "Albion 141 Series", description: "Rotilă kingpinless cu amortizare pe arc de poliuretan" },
+      { code: "Albion 700 Series", description: "Rotilă kingpinless, construcție forjată" },
+      { code: "Albion 141 Series", description: "Rotilă kingpinless cu amortizare pe arc" },
       { code: "Manner Twist", description: "Rotilă medicală dublă, capacitate mare" },
       { code: "Manner Tango", description: "Rotilă medicală igienică, personalizabilă" },
       { code: "Medcaster Softech Series", description: "Rotilă medicală dublă, sarcină ridicată" },
-      { code: "NG Series", description: "Rotilă din nailon cu fibră de sticlă" },
+      { code: "NG Series", description: "Rotilă pentru echipamente medicale" },
       { code: "Heatwave High-Temp Series", description: "Rotilă pentru rezistență la căldură extremă" },
-      { code: "Mobra Air Cargo Series", description: "Rotilă cu bracket integrat pentru cargo aerian" },
-      { code: "03 Air Cargo Series", description: "Rotilă pentru montaj inversat în cargo aerian" },
-      { code: "Shepherd Glass Handling Series", description: "Rotilă cu roți din neopren pentru medii cu debris" },
+      { code: "Mobra Air Cargo Series", description: "Rotilă pentru cargo aerian" },
+      { code: "03 Air Cargo Series", description: "Rotilă pentru cargo aerian" },
+      { code: "Shepherd Glass Handling Series", description: "Rotilă pentru manipularea sticlei" },
     ],
     faq: [
       { q: "Ce produce Colson Group?", a: "Colson Group produce rotile și roți industriale pe mai multe branduri interne — Colson, Albion, Shepherd, Jarvis, Manner — acoperind aplicații de la mobilier ușor la manipulare industrială grea și echipamente medicale." },
       { q: "Cum aleg o rotilă Colson Group după serie?", a: "Trebuie să cunoști sarcina pe rotilă, diametrul roții, tipul de furcă (fixă sau pivotantă) și suprafața de rulare. Seriile Albion acoperă sarcinile mari, iar Colson și Shepherd pe cele ușoare-medii." },
-      { q: "Ce diferență e între seriile Albion 110 și 600 de la Colson Group?", a: "Albion 110 folosește o furcă din oțel tratat termic, potrivită pentru sarcini mari standard, în timp ce Albion 600 are construcție forjată dintr-o bucată, pentru condiții de impact și uzură mai severe." },
+      { q: "Ce diferență e între seriile Albion 110 și 600 de la Colson Group?", a: "Albion 110 și Albion 600 sunt rotile grele kingpinless, pentru sarcini de peste 1250 lb (aprox. 567 kg); construcția fiecărei serii (tratată termic, laser-tăiată sau forjată) se confirmă din documentația Albion." },
       { q: "Livrați rotile Colson Group în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea disponibilității primită de la producător pentru acel model exact." },
       { q: "Ce trebuie să trimit pentru o ofertă Colson Group?", a: "Sarcina pe rotilă, diametrul roții dorit, tipul de furcă și tipul de suprafață pe care va rula rotilă, plus mențiunea dacă aplicația e medicală sau necesită inox." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Colson Group – Home", url: "https://www.colsongroup.com/", publisher: "Colson Group", accessed: "2026-09-23" },
       { title: "Colson Group – Casters", url: "https://www.colsongroup.com/products/casters/", publisher: "Colson Group", accessed: "2026-09-23" },
@@ -269,20 +269,20 @@ Pentru un producător de echipamente sau un integrator din România, Colson Grou
     founded: 1860,
     overview: `David Brown Santasalo este un producător de reductoare industriale de mare putere, format în 2016 din fuziunea britanicului David Brown, activ din 1860, cu finlandezul Santasalo. Compania proiectează reductoare industriale la comandă, nu dintr-un catalog fix, plus servicii complete de reparație, instalare, inspecție și optimizare pentru reductoare existente, indiferent de marcă sau vechime. Pentru clienți din România putem discuta atât proiecte de reductoare noi, cât și servicii de mentenanță pe reductoare deja instalate în fabrică.
 
-Ce diferențiază David Brown Santasalo e abordarea pe proiect: fiecare reductor e dimensionat pentru aplicația exactă a clientului — putere, cuplu, raport de transmisie și mediu de lucru — nu ales dintr-o listă de modele standard. Serviciul DBS Transform folosește scanare 3D pentru a recrea planurile unui reductor vechi ale cărui documentații s-au pierdut, iar sistemele GearWatch monitorizează starea uleiului și a vibrațiilor pe reductoare aflate deja în funcțiune. Compania concurează cu alți producători mari de reductoare industriale pentru procese grele, precum Bonfiglioli pe segmentul industrial.
+Ce diferențiază David Brown Santasalo e abordarea pe proiect: fiecare reductor e dimensionat pentru aplicația exactă a clientului — putere, cuplu, raport de transmisie și mediu de lucru — nu ales dintr-o listă de modele standard. Serviciul DBS Transform folosește tehnologie de scanare 3D pentru a înlocui componentele rotative ale reductoarelor altor producători cu unități DBS de înaltă performanță, iar sistemele GearWatch monitorizează starea uleiului și a vibrațiilor pe reductoare aflate deja în funcțiune. Compania concurează cu alți producători mari de reductoare industriale pentru procese grele, precum Bonfiglioli pe segmentul industrial.
 
 Pentru instalații mari din România — ciment, minerit, energie sau metalurgie — David Brown Santasalo are sens acolo unde un reductor standard de catalog nu acoperă puterea sau cuplul cerut, sau unde reductorul existent trebuie reparat sau monitorizat, nu neapărat înlocuit.`,
     whyChoose: [
       "Proiectare la comandă pentru fiecare aplicație — puterea, cuplul și raportul de transmisie se calculează pe cazul concret",
       "Servicii complete pe reductoare existente — reparație, instalare, inspecție și optimizare, indiferent de marca originală",
-      "DBS Transform recreează documentația — scanare 3D pentru reductoare vechi fără planuri disponibile",
+      "DBS Transform — scanare 3D pentru înlocuirea componentelor rotative ale reductoarelor altor producători",
       "GearWatch pentru monitorizare continuă — urmărește starea uleiului și a vibrațiilor pentru a anticipa defecțiuni",
-      "Moștenire dublă, britanică și finlandeză — peste 160 de ani combinați de inginerie în transmisii mecanice"
+      "Moștenire britanică și finlandeză — David Brown fabrică angrenaje din 1860"
     ],
     keyProducts: [
       { name: "Reductoare Industriale la Comandă (New Gear Systems)", description: "Reductoare proiectate specific pentru aplicația clientului, dimensionate pe putere, cuplu și raport de transmisie cerute de proces, nu selectate dintr-un catalog standard. Aplicație tipică: linii de ciment, minerit, energie și metalurgie unde reductoarele standard nu acoperă cerințele." },
       { name: "Servicii de Reparație și Optimizare Reductoare", description: "Reparație, instalare, inspecție și optimizare pentru reductoare industriale existente, indiferent de producătorul original, cu scopul de a prelungi durata de viață sau a crește performanța fără înlocuire completă." },
-      { name: "DBS Transform (Scanare 3D pentru Reconstrucție)", description: "Serviciu de scanare tridimensională a reductoarelor vechi pentru a recrea planuri și documentație tehnică pierdută, util atunci când un reductor funcțional nu mai are desene disponibile pentru piese de schimb." },
+      { name: "DBS Transform (Scanare 3D)", description: "Serviciu care folosește scanare 3D pentru a înlocui componentele rotative ale reductoarelor altor producători cu unități DBS de înaltă performanță." },
       { name: "GearWatch (Monitorizare Stare Reductor)", description: "Familie de sisteme de monitorizare a condiției reductoarelor, cu variante pentru analiza uleiului și a vibrațiilor, disponibile în niveluri Standard, Pro și Easy, pentru detectarea din timp a uzurii sau defecțiunilor." }
     ],
     industries: [
@@ -292,7 +292,7 @@ Pentru instalații mari din România — ciment, minerit, energie sau metalurgie
       "Energie — reductoare pentru generatoare și instalații de proces",
       "Hârtie și celuloză — reductoare pentru linii de producție continuă"
     ],
-    infinitrade: `Pentru David Brown Santasalo lucrăm doar cu informațiile publice ale producătorului — fără date proprii de stoc, pentru că fiecare reductor din această gamă e practic un proiect individual, nu o piesă de catalog. Discutăm cererea cu producătorul și confirmăm un termen orientativ, în general de la 1–4 săptămâni pentru piese și servicii standard, urmând ca proiectele complet noi să primească un calendar dedicat direct de la echipa tehnică a David Brown Santasalo. Pentru o cerere inițială avem nevoie de puterea necesară, cuplul, raportul de transmisie dorit și, dacă e vorba de un reductor existent, de tipul și seria mașinii pe care e montat.`,
+    infinitrade: `Pentru David Brown Santasalo lucrăm doar cu informațiile publice ale producătorului — fără date proprii de stoc, pentru că fiecare reductor din această gamă e practic un proiect individual, nu o piesă de catalog. Discutăm cererea cu producătorul și confirmăm termenul pentru fiecare piesă sau serviciu; pentru sisteme complexe și proiecte complet noi, termenul depășește de regulă 4 săptămâni și se stabilește direct cu echipa tehnică a David Brown Santasalo. Pentru o cerere inițială avem nevoie de puterea necesară, cuplul, raportul de transmisie dorit și, dacă e vorba de un reductor existent, de tipul și seria mașinii pe care e montat.`,
     limitation: "Nu putem confirma termene sau costuri pentru proiecte de reductoare complet noi fără o discuție tehnică directă cu producătorul.",
     productCodes: [
       { code: "New Gear Systems", description: "Reductor industrial proiectat la comandă pe aplicație" },
@@ -301,7 +301,7 @@ Pentru instalații mari din România — ciment, minerit, energie sau metalurgie
       { code: "Gearbox Inspection", description: "Serviciu de inspecție tehnică pentru reductoare în funcțiune" },
       { code: "Gearbox Upgrade", description: "Serviciu de optimizare a performanței reductoarelor existente" },
       { code: "Spare Gear Units", description: "Reductoare de schimb pentru linii industriale grele" },
-      { code: "DBS Transform", description: "Scanare 3D pentru reconstrucția planurilor unui reductor vechi" },
+      { code: "DBS Transform", description: "Scanare 3D pentru înlocuirea componentelor rotative ale reductoarelor altor producători" },
       { code: "GearWatch Oil Monitoring", description: "Monitorizare a stării uleiului din reductor" },
       { code: "GearWatch Vibration", description: "Monitorizare a vibrațiilor pentru detectarea uzurii" },
       { code: "GearWatch Vibration Easy", description: "Variantă simplificată de monitorizare a vibrațiilor" },
@@ -312,12 +312,12 @@ Pentru instalații mari din România — ciment, minerit, energie sau metalurgie
       { q: "Ce produce David Brown Santasalo?", a: "David Brown Santasalo proiectează și fabrică reductoare industriale de mare putere la comandă, plus servicii de reparație, instalare, inspecție și monitorizare pentru reductoare deja instalate, indiferent de producătorul original." },
       { q: "Cum aleg un reductor David Brown Santasalo pentru aplicația mea?", a: "Nu se alege dintr-un catalog fix — trebuie stabilite puterea necesară, cuplul, raportul de transmisie și condițiile de mediu, iar producătorul dimensionează reductorul specific pentru acel proces industrial." },
       { q: "Ce echivalent are David Brown Santasalo pentru reductoarele Bonfiglioli?", a: "Cele două companii acoperă segmente apropiate de reductoare industriale de mare putere, dar echivalența depinde de puterea, cuplul și geometria de montaj cerute — nu există o corespondență directă cod la cod între mărci." },
-      { q: "Livrați reductoare David Brown Santasalo în România și cât durează?", a: "Pentru piese și servicii standard, termenul orientativ e de 1–4 săptămâni la comandă; proiectele complet noi de reductoare primesc un calendar stabilit direct cu echipa tehnică a producătorului, în funcție de complexitate." },
+      { q: "Livrați reductoare David Brown Santasalo în România și cât durează?", a: "Termenul se confirmă pentru fiecare piesă sau serviciu; pentru sisteme complexe și proiecte noi de reductoare, termenul depășește de regulă 4 săptămâni și se stabilește direct cu echipa tehnică a producătorului." },
       { q: "Ce trebuie să trimit pentru o cerere David Brown Santasalo?", a: "Puterea și cuplul necesare, raportul de transmisie dorit, tipul de aplicație și, dacă e vorba de un reductor existent care trebuie reparat sau monitorizat, seria și producătorul original al acestuia." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "David Brown Santasalo – Home", url: "https://www.dbsantasalo.com", publisher: "David Brown Santasalo", accessed: "2026-09-23" },
       { title: "David Brown Santasalo – Our Story", url: "https://www.dbsantasalo.com/about/our-story", publisher: "David Brown Santasalo", accessed: "2026-09-23" },
@@ -329,14 +329,14 @@ Pentru instalații mari din România — ciment, minerit, energie sau metalurgie
     headquarters: "Enns, Austria",
     overview: `Eisenbeiss este un producător austriac de reductoare speciale, fondat în 1911 la Linz-Ebelsberg și mutat în 1928 la Enns, unde funcționează și azi ca afacere de familie. Gama e organizată pe aplicații foarte specifice: reductoare pentru extrudere de mase plastice, reductoare pentru turbine și generatoare, reductoare pentru oțelării și laminoare, și reductoare speciale pentru telecabine, teleschiuri și instalații de dragare. Pentru clienți din România putem discuta reductoare pentru linii de extrudere sau echipamente de ridicat pe cablu.
 
-Ce diferențiază Eisenbeiss e specializarea pe nișe unde un reductor standard de catalog nu funcționează: reductoare gemene sau paralele pentru extrudere co-rotativă sau contra-rotativă, reductoare cu roți dințate de mare viteză pentru turbine Kaplan sau Pelton, și reductoare de mare cuplu pentru macarale de turnare (ladle turret) sau linii de turnare continuă din siderurgie. Compania concurează cu alți producători europeni de reductoare speciale, precum Bonfiglioli pe segmentul industrial general.
+Ce diferențiază Eisenbeiss e specializarea pe nișe unde un reductor standard de catalog nu funcționează: reductoare gemene sau paralele pentru extrudere co-rotativă sau contra-rotativă, reductoare cu roți dințate pentru turbine Kaplan, PIT, bulb și cu flux deschis, și reductoare de mare cuplu pentru macarale de turnare (ladle turret) sau linii de turnare continuă din siderurgie. Compania concurează cu alți producători europeni de reductoare speciale, precum Bonfiglioli pe segmentul industrial general.
 
 Pentru instalații din România cu aplicații neobișnuite — linii de extrudere, mini-hidrocentrale, instalații pe cablu sau echipamente de dragare — Eisenbeiss are sens acolo unde geometria sau cuplul cerut ies din plaja unui reductor de serie mare.`,
     whyChoose: [
       "Specializare pe aplicații neobișnuite — extrudere, turbine, dragare și instalații pe cablu, nu doar transmisii generale",
       "Peste un secol de experiență de familie — companie austriacă independentă din 1911, cu know-how transmis intern",
       "Gearcontrol pentru monitorizare — sisteme dedicate de urmărire a uleiului și stării reductorului",
-      "Acoperire completă în siderurgie — de la turnare continuă la laminoare de tablă subțire și macarale de turnare",
+      "Aplicații în siderurgie — de la turnare continuă și laminoare la rece la macarale de turnare",
       "Soluții dedicate pentru energie regenerabilă — reductoare pentru turbine Kaplan și sisteme cu flux deschis"
     ],
     keyProducts: [
@@ -352,7 +352,7 @@ Pentru instalații din România cu aplicații neobișnuite — linii de extruder
       "Transport pe cablu — telecabine și instalații de schi",
       "Dragare — reductoare pentru pompe și distribuitoare"
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru reductoarele Eisenbeiss și lucrăm cu ce publică producătorul pe fiecare categorie de aplicație. Aducem reductoare Eisenbeiss la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru piese și componente confirmate, urmând ca proiectele complet noi să primească un calendar tehnic separat. Pentru o cerere avem nevoie de aplicația exactă (extrudere, turbină, laminor, telecabină sau dragare), puterea instalată și raportul de transmisie dorit. Nu promitem disponibilitate imediată pe fiecare configurație — fiecare comandă se verifică punctual cu producătorul înainte de a stabili un termen ferm.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru reductoarele Eisenbeiss și lucrăm cu ce publică producătorul pe fiecare categorie de aplicație. Aducem reductoare Eisenbeiss la comandă, prin canale de aprovizionare din UE, cu termen confirmat individual: de regulă 1–4 săptămâni pentru piese și componente, iar reductoarele complete și proiectele noi depășesc de regulă 4 săptămâni și primesc un calendar tehnic separat. Pentru o cerere avem nevoie de aplicația exactă (extrudere, turbină, laminor, telecabină sau dragare), puterea instalată și raportul de transmisie dorit. Nu promitem disponibilitate imediată pe fiecare configurație — fiecare comandă se verifică punctual cu producătorul înainte de a stabili un termen ferm.`,
     limitation: "Nu putem confirma parametrii exacți (cuplu, raport) pentru un reductor Eisenbeiss anume fără specificațiile aplicației trimise de client.",
     productCodes: [
       { code: "Parallel Co-Rotating Gear Systems", description: "Reductor paralel co-rotativ pentru linii de extrudere" },
@@ -382,12 +382,12 @@ Pentru instalații din România cu aplicații neobișnuite — linii de extruder
       { q: "Ce produce Eisenbeiss?", a: "Eisenbeiss produce reductoare speciale pentru aplicații specifice — extrudere de mase plastice, turbine și generatoare, oțelării și laminoare, telecabine și instalații de dragare — nu reductoare standard de catalog general." },
       { q: "Cum aleg un reductor Eisenbeiss după aplicație?", a: "Trebuie precizată aplicația exactă (tip de extruder, turbină, laminor sau instalație pe cablu), puterea instalată și raportul de transmisie dorit; producătorul confirmă apoi configurația potrivită din gama sa specializată." },
       { q: "Ce echivalent are Eisenbeiss pentru reductoarele Bonfiglioli?", a: "Eisenbeiss acoperă mai degrabă nișe speciale — extrudere, turbine, telecabine — decât gama generală industrială a Bonfiglioli; o echivalență directă se stabilește doar pornind de la aplicația și parametrii tehnici concreți." },
-      { q: "Livrați reductoare Eisenbeiss în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru configurații confirmate de producător; proiectele noi complexe pot necesita un calendar tehnic separat." },
+      { q: "Livrați reductoare Eisenbeiss în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen confirmat individual de producător; reductoarele complete și proiectele noi complexe depășesc de regulă 4 săptămâni și primesc un calendar tehnic separat." },
       { q: "Ce trebuie să trimit pentru o ofertă Eisenbeiss?", a: "Tipul de aplicație (extrudere, turbină, laminor, telecabină sau dragare), puterea instalată, raportul de transmisie dorit și, dacă există, seria reductorului existent care trebuie înlocuit sau reparat." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Eisenbeiss – Gearboxes", url: "https://www.eisenbeiss.com/en/gearboxes/", publisher: "Eisenbeiss GmbH", accessed: "2026-09-23" },
       { title: "Eisenbeiss – About Us", url: "https://www.eisenbeiss.com/en/company/about-us/", publisher: "Eisenbeiss GmbH", accessed: "2026-09-23" },
@@ -397,26 +397,26 @@ Pentru instalații din România cu aplicații neobișnuite — linii de extruder
     name: "Fabreeka",
     founded: 1918,
     headquarters: "Stoughton, Massachusetts, SUA",
-    overview: `Fabreeka International este un producător american din Stoughton, Massachusetts, activ din 1918 în izolare antivibrații, amortizare de șoc și rulouri termice structurale pentru echipamente grele. Gama acoperă tampoane de izolare din material textil comprimat sau cauciuc cu fibre orientate aleator, lagăre de dilatare pentru structuri și poduri, nivelatoare de mașini și izolatoare pneumatice cu burduf de aer, plus panouri termice structurale sub marca Fabreeka-TIM. Pentru clienți din România putem oferta atât tampoanele de izolare standard, cât și componentele pentru fundații de mașini grele.
+    overview: `Fabreeka International este un producător american din Stoughton, Massachusetts, activ din 1918 în izolare antivibrații, amortizare de șoc și elemente structurale de întrerupere a punții termice (thermal breaks) pentru echipamente grele. Gama acoperă tampoane de izolare din material textil comprimat sau cauciuc cu fibre orientate aleator, lagăre de dilatare pentru structuri și poduri, nivelatoare de mașini și izolatoare pneumatice cu burduf de aer, plus panouri termice structurale sub marca Fabreeka-TIM. Pentru clienți din România putem oferta atât tampoanele de izolare standard, cât și componentele pentru fundații de mașini grele.
 
-Ce diferențiază Fabreeka e plaja largă de soluții pentru aceeași problemă — controlul vibrațiilor și șocurilor — de la un tampon simplu de cauciuc comprimat (DIMFAB) până la izolatoare pneumatice cu burduf de aer (Fabsorb, RLA) pentru echipamente de precizie unde vibrațiile trebuie eliminate aproape complet. Rulourile termice Fabreeka-TIM reduc transferul de căldură prin structuri metalice la joncțiuni de balcoane sau fațade, un rol diferit de restul gamei axate pe vibrații mecanice. Compania are peste un secol de experiență documentată în acest domeniu de nișă.
+Ce diferențiază Fabreeka e plaja largă de soluții pentru aceeași problemă — controlul vibrațiilor și șocurilor — de la un tampon de cauciuc nervurat (DIMFAB) până la izolatoare pneumatice cu burduf de aer (Fabsorb, RLA) pentru echipamente de precizie sensibile la vibrații. Elementele de întrerupere a punții termice Fabreeka-TIM reduc transferul de căldură prin structuri metalice la joncțiuni de balcoane sau fațade, un rol diferit de restul gamei axate pe vibrații mecanice. Compania are peste un secol de experiență documentată în acest domeniu de nișă.
 
 Pentru instalații industriale sau proiecte de construcții din România, Fabreeka are sens la fundații de mașini grele, poduri și structuri cu rosturi de dilatare, sau la fațade unde punțile termice prin oțel trebuie reduse.`,
     whyChoose: [
       "Certificare ISO 9001:2015 — proces de fabricație documentat pentru componente critice de izolare",
       "Gamă completă pe controlul vibrațiilor — de la tampoane simple la izolatoare pneumatice de precizie",
-      "Rulouri termice structurale Fabreeka-TIM — reduc puntea termică la joncțiuni metalice din construcții",
+      "Elemente structurale de întrerupere a punții termice Fabreeka-TIM — reduc puntea termică la joncțiuni metalice din construcții",
       "Conformitate REACH și RoHS — relevantă pentru proiecte cu cerințe europene de mediu",
       "Peste un secol de experiență în domeniu de nișă — izolare antivibrații și amortizare de șoc"
     ],
     keyProducts: [
       { name: "Tampoane de Izolare Antivibrații (Preformed Fabric Pad, Fabcel, DIMFAB)", description: "Tampoane din material textil comprimat sau cauciuc cu fibre orientate aleator, pentru izolarea vibrațiilor la mașini industriale și structuri. Aplicație tipică: fundații de prese, compresoare și echipamente grele cu vibrații joase-medii." },
-      { name: "Rulouri Termice Structurale (Fabreeka-TIM)", description: "Panouri structurale care reduc transferul de căldură prin elemente metalice continue, precum balcoane sau console de fațadă, disponibile în variante pentru sarcini mari și variante RF și LT pentru sarcini ușoare." },
-      { name: "Lagăre de Dilatare și Nivelatoare (Expansion Bearings, Fabcel Levelers)", description: "Lagăre pentru structuri și poduri care permit mișcarea controlată la dilatare termică, plus nivelatoare pentru poziționarea precisă a mașinilor grele pe fundație, fără șuruburi de ancorare suplimentare." },
-      { name: "Izolatoare Pneumatice (Fabsorb, PLM, RLA)", description: "Izolatoare cu burduf de aer sau membrană, pentru echipamente de precizie unde vibrațiile trebuie reduse aproape la zero, precum echipamente de măsurare sau linii de asamblare sensibile." }
+      { name: "Întreruperi Structurale de Punte Termică (Fabreeka-TIM)", description: "Panouri structurale care reduc transferul de căldură prin elemente metalice continue, precum balcoane sau console de fațadă, disponibile în variante pentru sarcini mari și variante RF și LT pentru sarcini ușoare." },
+      { name: "Lagăre de Dilatare și Nivelatoare (Expansion Bearings, Fabcel Levelers)", description: "Lagăre pentru structuri și poduri care permit mișcarea controlată la dilatare termică, plus nivelatoare pentru poziționarea mașinilor grele pe fundație." },
+      { name: "Izolatoare Pneumatice (Fabsorb, PLM, RLA)", description: "Izolatoare cu burduf de aer sau membrană, pentru echipamente de precizie sensibile la vibrații." }
     ],
     industries: [
-      "Construcții — rulouri termice pentru fațade și balcoane",
+      "Construcții — întreruperi de punte termică pentru fațade și balcoane",
       "Energie — izolare antivibrații pentru echipamente de generare",
       "Echipamente grele și mașini industriale — fundații și amortizare de șoc",
       "Echipamente de precizie — izolatoare pneumatice pentru vibrații minime",
@@ -450,13 +450,13 @@ Pentru instalații industriale sau proiecte de construcții din România, Fabree
     faq: [
       { q: "Ce produce Fabreeka?", a: "Fabreeka produce sisteme de izolare antivibrații, amortizare de șoc, lagăre de dilatare și rulouri termice structurale, folosite atât în construcții, la fațade și poduri, cât și la fundații de mașini industriale grele." },
       { q: "Cum aleg un produs Fabreeka după aplicație?", a: "Trebuie stabilit dacă problema e structurală (dilatare, punte termică) sau mecanică (vibrații de mașină), apoi sarcina pe punct de sprijin sau frecvența vibrației, pentru a alege între tampoane, izolatoare pneumatice sau rulouri termice." },
-      { q: "Ce diferență e între Fabsorb și DIMFAB de la Fabreeka?", a: "Fabsorb este un izolator pneumatic cu membrană de aer, potrivit pentru vibrații foarte fine la echipamente de precizie, în timp ce DIMFAB este un material de cauciuc nervurat, distribuit, pentru izolare generală la mașini industriale." },
+      { q: "Ce diferență e între Fabsorb și DIMFAB de la Fabreeka?", a: "Fabsorb este un izolator pneumatic cu membrană de aer, potrivit pentru echipamente sensibile la vibrații, în timp ce DIMFAB este un material de cauciuc nervurat, distribuit, pentru izolare generală la mașini industriale." },
       { q: "Livrați produse Fabreeka în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE sau direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de produsul și cantitatea confirmate de producător." },
       { q: "Ce trebuie să trimit pentru o ofertă Fabreeka?", a: "Tipul de aplicație (structurală sau mecanică), sarcina sau frecvența de vibrație implicată și dimensiunile disponibile pentru montaj, pentru a alege produsul potrivit din gama Fabreeka." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fabreeka International – Products", url: "https://www.fabreeka.com/products/", publisher: "Fabreeka International", accessed: "2026-09-23" },
       { title: "Fabreeka International – Company", url: "https://www.fabreeka.com/company/", publisher: "Fabreeka International", accessed: "2026-09-23" },
@@ -467,15 +467,15 @@ Pentru instalații industriale sau proiecte de construcții din România, Fabree
     headquarters: "Drachten, Olanda",
     overview: `Fenner Dunlop este un producător de benzi transportoare grele, cu sediul regional european la Drachten, Olanda, și parte din grupul Michelin. Gama acoperă benzi multiply pentru transport general (Superfort, Dunloflex), benzi rezistente la impact pentru concasoare (UsFlex, Trioflex), benzi cu cablu de oțel pentru distanțe și tensiuni mari (Steelcord, Ferroflex) și benzi profilate pentru transport înclinat (Chevron, Fishbone, Multiprof). Pentru clienți din România putem oferta atât benzi standard de uz general, cât și benzi speciale rezistente la temperatură sau la produse chimice.
 
-Ce diferențiază Fenner Dunlop e acoperirea completă pe tipuri de solicitare: de la benzi ușoare pentru pachete și materiale individuale (Slider) până la benzi cu cabluri de oțel pentru transportoare de câțiva kilometri lungime, plus sisteme de monitorizare a stării benzii în timp real (Rip Ranger, Eagle Eye) care detectează rupturi longitudinale înainte să oprească linia. Compania a fost printre primii producători mari de benzi transportoare care au obținut conformitate REACH pentru materialele folosite. Concurează cu alți mari producători de benzi industriale pentru minerit și industrie grea.
+Ce diferențiază Fenner Dunlop e acoperirea completă pe tipuri de solicitare: de la benzi ușoare pentru pachete și materiale individuale (Slider) până la benzi cu cabluri de oțel pentru transportoare de mare lungime, plus sisteme de monitorizare a stării benzii (Rip Ranger, Eagle Eye), ale căror detalii le confirmăm din documentația producătorului. Conform producătorului, materialele folosite respectă reglementarea REACH. Concurează cu alți mari producători de benzi industriale pentru minerit și industrie grea.
 
 Pentru instalații din România — cariere, mine, fabrici de ciment sau linii de reciclare — Fenner Dunlop are sens acolo unde durata de viață a benzii sub sarcină și rezistența la impact contează mai mult decât prețul de achiziție inițial.`,
     whyChoose: [
       "Gamă completă pe tip de solicitare — de la benzi ușoare pentru pachete la benzi cu cablu de oțel pentru distanțe mari",
-      "Rezistență la impact dovedită — seriile UsFlex și Trioflex, gândite pentru concasoare primare și secundare",
-      "Monitorizare activă a benzii — Rip Ranger și Eagle Eye detectează rupturi longitudinale în timp real",
-      "Conformitate REACH pe materiale — printre primii producători mari de benzi transportoare certificați astfel",
-      "Parte din grupul Michelin — acces la resurse de cercetare și rețea globală de service"
+      "Benzi rezistente la impact — UsFlex, gândită pentru concasoare primare și secundare, și Trioflex, pentru servicii medii până la grele",
+      "Sisteme de monitorizare a benzii — Rip Ranger și Eagle Eye, cu detalii confirmate din documentația producătorului",
+      "Conformitate REACH pe materiale, conform declarației producătorului",
+      "Parte din grupul Michelin — acces la expertiza de cercetare și dezvoltare a grupului"
     ],
     keyProducts: [
       { name: "Benzi Multiply de Uz General (Superfort, Dunloflex)", description: "Benzi transportoare cu structură multiply pentru transport de materiale în vrac în condiții ușoare până la medii-grele, cu variante rezistente la căldură (Deltahete, Betahete) pentru aplicații cu temperaturi ridicate ale materialului transportat." },
@@ -488,7 +488,7 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
       "Ciment și cariere — benzi multiply și cu cablu de oțel",
       "Reciclare — benzi rezistente la sfâșiere pentru materiale neomogene",
       "Agricultură — benzi pentru prese de balotat și utilaje de recoltat",
-      "Chimie și zahăr — benzi cu compoziții rezistente specifice procesului"
+      "Chimie — benzi rezistente la produse chimice, precum Ferroflex"
     ],
     infinitrade: `Aducem benzi Fenner Dunlop la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de lățime, lungime și tipul de întăritură cerut. Fără date proprii de stoc pentru această gamă, ne bazăm pe confirmarea disponibilității direct de la producător pentru fiecare comandă. Pentru o ofertă corectă avem nevoie de lățimea benzii, tipul de material transportat, unghiul de înclinare al transportorului și, dacă e cazul, cerințe speciale de temperatură sau rezistență chimică. Nu promitem o gamă completă disponibilă permanent — fiecare configurație se verifică punctual înainte de a stabili termenul final cu clientul.`,
     limitation: "Nu putem confirma clasa exactă de rezistență la sfâșiere sau tensiunea de rupere pentru o bandă anume fără fișa tehnică cerută producătorului.",
@@ -500,7 +500,7 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
       { code: "Fenner Dunlop UsFlex", description: "Bandă rezistentă la impact pentru concasoare" },
       { code: "Trioflex", description: "Bandă cu concept minim de pliuri, servicii grele" },
       { code: "Steelcord", description: "Bandă cu cabluri de oțel pentru distanțe mari" },
-      { code: "Ferroflex", description: "Bandă cu fibră de oțel pentru transmisie de putere" },
+      { code: "Ferroflex", description: "Bandă cu cabluri longitudinale de oțel, prin care se transmite puterea" },
       { code: "Chevron", description: "Bandă profilată pentru transport pe pantă" },
       { code: "Fishbone", description: "Bandă profilată cu elongație redusă" },
       { code: "Rufftop", description: "Bandă profilată cu construcție din fibră EP" },
@@ -514,20 +514,20 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
       { code: "Dunlopipe", description: "Bandă tip conveior tubular (pipe conveyor)" },
       { code: "Dunlomat", description: "Covor de cauciuc pentru pardoseli agricole" },
       { code: "Dunlosheet", description: "Foaie de cauciuc rezistentă la sfâșiere" },
-      { code: "Rip Ranger", description: "Sistem de alertă la ruptură longitudinală a benzii" },
-      { code: "Eagle Eye", description: "Sistem avansat de monitorizare a benzii cu cablu de oțel" },
+      { code: "Rip Ranger", description: "Sistem de monitorizare a stării benzii" },
+      { code: "Eagle Eye", description: "Sistem de monitorizare a stării benzii" },
       { code: "Starglide", description: "Bandă pentru trotuare rulante și transport pasageri" },
     ],
     faq: [
       { q: "Ce produce Fenner Dunlop?", a: "Fenner Dunlop produce benzi transportoare grele — multiply, cu cablu de oțel și profilate — plus sisteme de monitorizare a stării benzii, pentru minerit, ciment, agricultură și reciclare." },
-      { q: "Cum aleg o bandă Fenner Dunlop după aplicație?", a: "Trebuie stabilite lățimea, tipul de material transportat, unghiul de înclinare și tensiunea necesară; benzile UsFlex și Trioflex se aleg pentru impact la concasoare, iar Steelcord pentru distanțe și tensiuni mari." },
+      { q: "Cum aleg o bandă Fenner Dunlop după aplicație?", a: "Trebuie stabilite lățimea, tipul de material transportat, unghiul de înclinare și tensiunea necesară; banda UsFlex se alege pentru concasoare, iar Trioflex pentru servicii medii până la grele, iar Steelcord pentru distanțe și tensiuni mari." },
       { q: "Ce echivalent are Fenner Dunlop pentru benzile cu cablu de oțel ale altor mărci?", a: "Seria Steelcord acoperă segmentul de benzi cu cabluri longitudinale de oțel pentru distanțe mari, dar echivalența cu alte mărci se stabilește pe baza tensiunii de rupere și lățimii benzii, nu doar din denumire." },
       { q: "Livrați benzi Fenner Dunlop în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de lățimea, lungimea și tipul de întăritură confirmate de producător." },
       { q: "Ce trebuie să trimit pentru o ofertă Fenner Dunlop?", a: "Lățimea benzii, tipul de material transportat, lungimea totală a transportorului, unghiul de înclinare și eventuale cerințe speciale de temperatură sau rezistență chimică specifice procesului tehnologic." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Fenner Dunlop EMEA – Home", url: "https://www.fennerdunlopemea.com/", publisher: "Fenner Dunlop", accessed: "2026-09-23" },
       { title: "Fenner Dunlop EMEA – Conveyor Belts", url: "https://www.fennerdunlopemea.com/conveyor-belts/", publisher: "Fenner Dunlop", accessed: "2026-09-23" },
@@ -536,21 +536,21 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
   "franke-gmbh": {
     name: "Franke GmbH",
     headquarters: "Aalen, Germania",
-    overview: `Franke GmbH este un producător german din Aalen, specializat în lagăre cu inele din sârmă, inele de rotație (slewing rings) și ghidaje liniare cu profil. Gama de lagăre acoperă seriile LEL, LER, LEW și LSA cu inele din sârmă călită, inelele de rotație merg de la seria LVA la LVW în funcție de tipul de sarcină, iar mesele rotative LTA și LTB completează oferta alături de sistemul de antrenare directă LTD. Pentru clienți din România putem oferta atât lagăre individuale de schimb, cât și ghidaje liniare complete din seria FD.
+    overview: `Franke GmbH este un producător german din Aalen, specializat în lagăre cu inele din sârmă, inele de rotație (slewing rings) și ghidaje liniare cu profil. Gama de lagăre acoperă seriile LEL, LER, LEW și LSA cu inele din sârmă călită, inelele de rotație merg de la seria LVA la LVW, din oțel sau aluminiu, cu bile sau cu role, iar mesele rotative LTA și LTB completează oferta alături de sistemul de antrenare directă LTD. Pentru clienți din România putem oferta atât lagăre individuale de schimb, cât și ghidaje liniare complete din seria FD.
 
-Ce diferențiază Franke e principiul constructiv cu inele din sârmă călită în locul căilor de rulare frezate direct în inelul lagărului — o soluție care reduce jocul și permite o precizie mai mare la diametre mari, comparativ cu construcțiile clasice de rulmenți de rotație. Pe segmentul ghidajelor liniare, compania concurează cu producători precum THK, oferind atât șine de profil cu cărucioare (seria FD de la A la I), cât și perechi de șine cu papuci cu role pentru sarcini mai mari. Certificările ISO 9001 și ISO 14001 confirmă un proces de fabricație și management de mediu documentat.
+Ce diferențiază Franke e principiul constructiv cu inele din sârmă călită în locul căilor de rulare frezate direct în inelul lagărului — o soluție creată pentru construcții compacte, cu economie de spațiu. Pe segmentul ghidajelor liniare, compania concurează cu producători precum THK, oferind atât șine de profil cu cărucioare (seria FD de la A la I), cât și perechi de șine cu papuci cu role pentru sarcini mai mari. Certificările ISO 9001 și ISO 14001 confirmă un proces de fabricație și management de mediu documentat.
 
 Pentru echipamente de precizie din România — mașini de testat materiale, roboți, utilaje textile sau echipamente de ambalare — Franke are sens acolo unde jocul mecanic redus și repetabilitatea poziționării contează mai mult decât costul unui lagăr standard.`,
     whyChoose: [
-      "Inele din sârmă călită — principiu constructiv cu joc redus, diferit de căile de rulare frezate clasic",
-      "Gamă largă de inele de rotație — de la seria LVA la LVW, pentru sarcini axiale, radiale și momente combinate",
+      "Inele din sârmă călită — principiu constructiv compact, cu economie de spațiu, diferit de căile de rulare frezate clasic",
+      "Gamă de inele de rotație — de la seria LVA la LVW, din oțel sau aluminiu",
       "Ghidaje liniare cu profil complete — seria FD acoperă atât șine cu cărucioare, cât și perechi cu papuci cu role",
       "Certificare dublă ISO 9001 și ISO 14001 — calitate și management de mediu documentate",
       "Aplicații de precizie — folosite în robotică, testare de materiale și semiconductori, unde jocul mecanic contează"
     ],
     keyProducts: [
-      { name: "Lagăre cu Inele din Sârmă (Seriile LEL, LER, LEW, LSA)", description: "Lagăre construite cu inele din sârmă călită montate în caneluri, în locul căilor de rulare frezate clasic, pentru joc redus și montaj compact. Aplicație tipică: axe de robot, mese rotative de precizie și echipamente de automatizare." },
-      { name: "Inele de Rotație / Slewing Rings (Seriile LVA-LVW)", description: "Familie de rulmenți de rotație de mare diametru, pentru sarcini axiale, radiale sau momente de răsturnare, cu variante notate LVA până la LVW în funcție de configurația de sarcină. Folosite la platforme rotative, macarale mici și echipamente de manipulare." },
+      { name: "Lagăre cu Inele din Sârmă (Seriile LEL, LER, LEW, LSA)", description: "Lagăre construite cu inele din sârmă călită montate în caneluri, în locul căilor de rulare frezate clasic, pentru montaj compact. Aplicație tipică: axe de robot, mese rotative de precizie și echipamente de automatizare." },
+      { name: "Inele de Rotație / Slewing Rings (Seriile LVA-LVW)", description: "Familie de inele de rotație din oțel sau aluminiu, cu bile sau cu role, notate LVA până la LVW." },
       { name: "Mese Rotative și Antrenare Directă (LTA, LTB, LTD)", description: "Mese rotative complete cu rulment integrat, disponibile în variantă standard (LTA, LTB) sau cu antrenare directă fără reductor mecanic (LTD), pentru poziționare de precizie în mașini-unelte și linii de testare." },
       { name: "Ghidaje Liniare cu Profil (Seria FD)", description: "Șine de profil cu cărucioare cu role (tipurile FDA până la FDI) sau perechi de șine cu papuci cu role, pentru mișcare liniară de precizie pe axe lungi, folosite în mașini de ambalare și linii de intralogistică." }
     ],
@@ -564,39 +564,39 @@ Pentru echipamente de precizie din România — mașini de testat materiale, rob
     infinitrade: `Furnizăm lagăre și ghidaje Franke pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem componente Franke la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de seria și dimensiunea solicitate. Pentru o ofertă corectă avem nevoie de tipul de componentă (lagăr, inel de rotație, masă rotativă sau ghidaj liniar), diametrul sau lungimea de curse și tipul de sarcină dominantă — axială, radială sau moment de răsturnare. Disponibilitatea fiecărui cod din gamă se verifică punctual la producător, nu presupunem stoc, înainte de a stabili termenul final cu clientul.`,
     limitation: "Nu putem confirma capacitățile de sarcină exacte pentru o combinație anume de diametru și configurație fără fișa tehnică a modelului solicitat.",
     productCodes: [
-      { code: "LEL", description: "Lagăr cu inele din sârmă, tip de bază" },
-      { code: "LER", description: "Lagăr cu inele din sârmă, variantă cu role" },
-      { code: "LEW", description: "Lagăr cu inele din sârmă, variantă compactă" },
-      { code: "LSA", description: "Lagăr cu inele din sârmă pentru sarcini axiale" },
-      { code: "LVA", description: "Inel de rotație, configurație de bază" },
-      { code: "LVB", description: "Inel de rotație pentru sarcini radiale" },
-      { code: "LVC", description: "Inel de rotație, variantă cu momente combinate" },
-      { code: "LVD", description: "Inel de rotație pentru diametre mari" },
-      { code: "LVE", description: "Inel de rotație, variantă cu gearing extern" },
-      { code: "LVG", description: "Inel de rotație cu angrenare internă" },
-      { code: "LVW", description: "Inel de rotație, variantă ungeared" },
-      { code: "LTA", description: "Masă rotativă cu rulment integrat" },
-      { code: "LTB", description: "Masă rotativă, variantă de precizie" },
+      { code: "LEL", description: "Lagăr cu inele din sârmă, cu căi de rulare rectificate" },
+      { code: "LER", description: "Lagăr cu inele din sârmă, cu căi de rulare profilate" },
+      { code: "LEW", description: "Lagăr cu inele din sârmă, cu căi de rulare profilate" },
+      { code: "LSA", description: "Lagăr subțire cu inele din sârmă și căi de rulare profilate" },
+      { code: "LVA", description: "Inel de rotație din oțel, cu bile" },
+      { code: "LVB", description: "Inel de rotație din aluminiu, cu bile" },
+      { code: "LVC", description: "Inel de rotație din oțel, cu bile" },
+      { code: "LVD", description: "Inel de rotație din oțel, cu bile" },
+      { code: "LVE", description: "Inel de rotație din aluminiu, cu bile" },
+      { code: "LVG", description: "Inel de rotație din aluminiu, cu role" },
+      { code: "LVW", description: "Inel de rotație din aluminiu, cu role" },
+      { code: "LTA", description: "Masă rotativă cu transmisie melcată" },
+      { code: "LTB", description: "Masă rotativă cu transmisie melcată" },
       { code: "LTD", description: "Masă rotativă cu antrenare directă" },
-      { code: "FDA", description: "Șină de profil cu cărucior, tip A" },
-      { code: "FDB", description: "Șină de profil cu cărucior, tip B" },
-      { code: "FDC", description: "Șină de profil cu cărucior, tip C" },
-      { code: "FDD", description: "Șină de profil cu cărucior, tip D" },
-      { code: "FDE", description: "Șină de profil cu cărucior, tip E" },
-      { code: "FDG", description: "Șină de profil cu cărucior, tip G" },
-      { code: "FDH", description: "Șină de profil cu cărucior, tip H" },
-      { code: "FDI", description: "Șină de profil cu cărucior, tip I" },
+      { code: "FDA", description: "Ghidaj liniar FD, execuție standard, cu rulmenți cu ace" },
+      { code: "FDB", description: "Ghidaj liniar FD, execuție economică" },
+      { code: "FDC", description: "Ghidaj liniar FD, rezistent la coroziune" },
+      { code: "FDD", description: "Ghidaj liniar FD, nemagnetic" },
+      { code: "FDE", description: "Ghidaj liniar FD, fără lubrifiant" },
+      { code: "FDG", description: "Ghidaj liniar FD, rezistent la coroziune, execuție economică" },
+      { code: "FDH", description: "Ghidaj liniar FD, foarte dinamic" },
+      { code: "FDI", description: "Ghidaj liniar FD, compatibil cu vidul" },
     ],
     faq: [
       { q: "Ce produce Franke GmbH?", a: "Franke GmbH produce lagăre cu inele din sârmă, inele de rotație de diverse configurații, mese rotative și ghidaje liniare cu profil, folosite în robotică, testare de materiale, semiconductori și automatizare industrială." },
-      { q: "Cum aleg un lagăr Franke după cod?", a: "Trebuie precizat tipul de sarcină dominantă (axială, radială sau moment de răsturnare), diametrul de montaj și spațiul disponibil; seriile LEL-LSA acoperă lagărele cu sârmă, iar LVA-LVW inelele de rotație de diametru mare." },
+      { q: "Cum aleg un lagăr Franke după cod?", a: "Trebuie precizat tipul de sarcină dominantă (axială, radială sau moment de răsturnare), diametrul de montaj și spațiul disponibil; seriile LEL-LSA acoperă lagărele cu sârmă, iar LVA-LVW inelele de rotație din oțel sau aluminiu." },
       { q: "Ce echivalent are Franke GmbH pentru ghidajele liniare THK?", a: "Seria FD de la Franke acoperă ghidaje liniare cu profil comparabile ca funcție cu gama THK, dar echivalența exactă între modele se stabilește pe baza dimensiunilor șinei și capacității de sarcină a căruciorului, nu din denumirea seriei." },
       { q: "Livrați produse Franke GmbH în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria, dimensiunea și configurația de sarcină confirmate de producător pentru comanda respectivă." },
       { q: "Ce trebuie să trimit pentru o ofertă Franke GmbH?", a: "Tipul de componentă dorită, diametrul sau lungimea de cursă, tipul de sarcină dominantă și, dacă e vorba de un ghidaj liniar, lungimea șinei și numărul de cărucioare necesare." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Franke GmbH – Bearing Products", url: "https://www.franke-gmbh.com/bearings/products/", publisher: "Franke GmbH", accessed: "2026-09-23" },
       { title: "Franke GmbH – Company", url: "https://www.franke-gmbh.com/company/franke/", publisher: "Franke GmbH", accessed: "2026-09-23" },
@@ -605,22 +605,22 @@ Pentru echipamente de precizie din România — mașini de testat materiale, rob
   frenzelit: {
     name: "Frenzelit",
     headquarters: "Bad Berneck, Germania",
-    overview: `Frenzelit este un producător german independent, deținut de familie, cu sediul la Bad Berneck, specializat în garnituri, materiale de izolare termică și compensatoare pentru industrie. Gama de garnituri include seriile novapress cu tehnologie de cod digital pentru trasabilitate și novaphit cu suprafață anti-adezivă, iar materialele de izolare acoperă de la isoTHERM S rezistent până la 1100°C, la izolații acustice și electrice precum novamica. Pentru clienți din România putem oferta atât garnituri fibroase standard, cât și materiale de izolare pentru temperaturi ridicate.
+    overview: `Frenzelit este un producător german independent, deținut de familie, cu sediul la Bad Berneck, specializat în garnituri, materiale de izolare termică și compensatoare pentru industrie. Gama de garnituri include seriile novapress și novaphit, aceasta din urmă cu tehnologia XP, cu proprietăți anti-adezive, iar materialele de izolare acoperă de la isoTHERM S, care rezistă pe termen scurt până la 1100°C, la izolații acustice și electrice precum novamica. Pentru clienți din România putem oferta atât garnituri fibroase standard, cât și materiale de izolare pentru temperaturi ridicate.
 
-Ce diferențiază Frenzelit e diversitatea de materiale compozite dezvoltate pentru nișe foarte specifice — de la thermoREFLEX, o teacă din fibre aramidice pentru protecția componentelor de înaltă tensiune la vehicule electrice, la hicoTEC, o gamă de materiale compozite folosită inclusiv ca purtător de plachete (wafer carrier) în producția de semiconductori în cameră curată. Compania concurează cu alți producători germani de garnituri industriale, precum Klinger, pe segmentul de etanșări pentru chimie și petrochimie.
+Ce diferențiază Frenzelit e diversitatea de materiale compozite dezvoltate pentru nișe foarte specifice — de la thermoREFLEX, o teacă de protecție din țesătură aramidică pentru vehicule electrice, la hicoTEC, o gamă de materiale compozite cu variante precum filme încălzitoare ultrasubțiri (TP), filme compozite (CF) și carbon nețesut pentru celule de combustie (NE). Compania concurează cu alți producători germani de garnituri industriale, precum Klinger, pe segmentul de etanșări pentru chimie și petrochimie.
 
 Pentru instalații industriale din România — chimie, energie, siderurgie sau construcție de mașini — Frenzelit are sens acolo unde temperatura de lucru sau compatibilitatea chimică depășesc plaja unei garnituri sau izolații generice.`,
     whyChoose: [
-      "Trasabilitate digitală pe garnituri — seria novapress folosește tehnologie de cod pentru identificare Industrie 4.0",
+      "Garnituri pentru etanșarea flanșelor — seriile novapress și novaphit",
       "Rezistență termică ridicată — isoTHERM S suportă temperaturi de scurtă durată de până la 1100°C",
-      "Materiale dedicate electromobilității — thermoREFLEX protejează componente de înaltă tensiune la vehicule electrice",
-      "hicoTEC pentru medii de cameră curată — folosit ca purtător de plachete în producția de semiconductori",
+      "Materiale dedicate electromobilității — thermoREFLEX este o teacă de protecție din țesătură aramidică pentru vehicule electrice",
+      "Gama hicoTEC — filme încălzitoare (TP), filme compozite (CF) și carbon nețesut pentru celule de combustie (NE)",
       "Independență de familie de peste un secol — companie germană cu producție proprie, nu doar distribuție"
     ],
     keyProducts: [
-      { name: "Garnituri Fibroase și Grafitate (novapress, novaphit)", description: "Garnituri pentru etanșarea flanșelor industriale, cu variante novapress 850 și 880 dotate cu tehnologie de cod pentru trasabilitate, și novaphit cu tehnologie de suprafață anti-adezivă care reduce riscul de scurgere la inspecție." },
+      { name: "Garnituri Fibroase și Grafitate (novapress, novaphit)", description: "Garnituri pentru etanșarea flanșelor industriale, cu variantele novapress 850 și 880, și novaphit cu tehnologia XP, ale cărei proprietăți anti-adezive economisesc timp la inspecții și la repornirea instalațiilor." },
       { name: "Materiale de Izolare Termică (isoTHERM, isoGLAS)", description: "Materiale din fibre de sticlă speciale sau compozite multistrat pentru izolare termică și protecție la foc, cu variante pentru temperaturi de scurtă durată de până la 1100°C și variante 3D pentru scuturi termice auto." },
-      { name: "Materiale Compozite hicoTEC", description: "Portofoliu de materiale compozite de înaltă performanță, cu variante pentru aplicații termice (TP), pentru construcții și pentru medii de cameră curată din producția de semiconductori (CF), unde puritatea materialului e critică." },
+      { name: "Materiale Compozite hicoTEC", description: "Portofoliu de materiale compozite, cu variantele hicoTEC TP (filme încălzitoare ultrasubțiri, pentru clădiri sau pentru încălzirea obiectelor și a matrițelor), hicoTEC CF (film compozit din termoplastice armate cu fibre lungi) și hicoTEC NE (carbon nețesut pentru celule de combustie)." },
       { name: "Izolație Electrică novamica", description: "Familie de produse pe bază de mică flogopit, folosite pentru izolare electrică în componente unde rezistența la temperatură și proprietățile dielectrice trebuie combinate." }
     ],
     industries: [
@@ -628,21 +628,21 @@ Pentru instalații industriale din România — chimie, energie, siderurgie sau 
       "Energie — izolare termică pentru instalații și centrale",
       "Siderurgie și aluminiu — garnituri și izolații pentru temperaturi ridicate",
       "Auto și electromobilitate — protecție termică pentru componente de înaltă tensiune",
-      "Semiconductori — materiale compozite pentru medii de cameră curată"
+      "Celule de combustie — carbon nețesut hicoTEC NE"
     ],
     infinitrade: `Ce putem și ce nu putem confirma pentru Frenzelit ține strict de ce publică producătorul: nu avem date proprii de stoc pentru garnituri, izolații sau compensatoare din această gamă. Aducem produse Frenzelit la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de material și dimensiune. Pentru o ofertă corectă avem nevoie de tipul de aplicație (garnitură, izolație sau compensator), temperatura și presiunea de lucru și dimensiunile flanșei sau componentei. Nu promitem o gamă completă disponibilă imediat — fiecare comandă se verifică punctual cu furnizorul înainte de termenul final dat clientului.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui material pentru un fluid de proces anume fără fișa de siguranță trimisă de client.",
     productCodes: [
-      { code: "novapress 850", description: "Garnitură fibroasă cu tehnologie de cod pentru trasabilitate" },
-      { code: "novapress 880", description: "Garnitură fibroasă, variantă cu cod digital" },
+      { code: "novapress 850", description: "Garnitură din gama novapress" },
+      { code: "novapress 880", description: "Garnitură din gama novapress" },
       { code: "novaphit XP", description: "Garnitură grafitată cu suprafață anti-adezivă" },
-      { code: "thermoREFLEX", description: "Teacă din fibre aramidice pentru protecție termică auto" },
-      { code: "multilam 300", description: "Laminat PTFE pentru compensatoare, uz alimentar" },
+      { code: "thermoREFLEX", description: "Teacă de protecție din țesătură aramidică pentru vehicule electrice" },
+      { code: "multilam 300", description: "Material laminat multilam 300" },
       { code: "hicoTEC TP", description: "Material compozit pentru aplicații termice" },
       { code: "hicoTEC TP pentru clădiri", description: "Material compozit termic pentru construcții" },
-      { code: "hicoTEC CF", description: "Material compozit pentru medii de cameră curată" },
-      { code: "hicoTEC NE", description: "Variantă din gama de materiale compozite hicoTEC" },
-      { code: "isoTHERM S", description: "Izolație din fibre de sticlă, rezistentă până la 1100°C" },
+      { code: "hicoTEC CF", description: "Film compozit din termoplastice armate cu fibre lungi" },
+      { code: "hicoTEC NE", description: "Carbon nețesut pentru celule de combustie" },
+      { code: "isoTHERM S", description: "Izolație din fibre de sticlă, rezistentă pe termen scurt până la 1100°C" },
       { code: "isoGLAS FTI", description: "Material compozit multistrat cu strat intumescent" },
       { code: "isoTHERM SG", description: "Piesă 3D pentru scut termic auto" },
       { code: "isoTHERM", description: "Material nețesut pentru izolare acustică" },
@@ -651,15 +651,15 @@ Pentru instalații industriale din România — chimie, energie, siderurgie sau 
       { code: "novamica", description: "Material pe bază de mică pentru izolare electrică" },
     ],
     faq: [
-      { q: "Ce produce Frenzelit?", a: "Frenzelit produce garnituri industriale, materiale de izolare termică și acustică, compensatoare și materiale compozite speciale (hicoTEC), folosite în chimie, energie, siderurgie, auto și producția de semiconductori." },
-      { q: "Cum aleg o garnitură Frenzelit după aplicație?", a: "Ai nevoie de temperatura și presiunea de lucru, tipul de fluid și dimensiunile flanșei; seriile novapress se aleg pentru trasabilitate digitală, iar novaphit pentru suprafețe unde inspecția vizuală trebuie să fie ușoară." },
+      { q: "Ce produce Frenzelit?", a: "Frenzelit produce garnituri industriale, materiale de izolare termică și acustică, compensatoare și materiale compozite speciale (hicoTEC), folosite în chimie, energie, siderurgie și auto." },
+      { q: "Cum aleg o garnitură Frenzelit după aplicație?", a: "Sunt necesare temperatura și presiunea de lucru, tipul de fluid și dimensiunile flanșei; novapress și novaphit sunt garnituri pentru etanșarea flanșelor, iar novaphit cu tehnologia XP economisește timp la inspecții și la repornirea instalațiilor." },
       { q: "Ce echivalent are Frenzelit pentru garniturile Klinger?", a: "Ambele companii produc garnituri fibroase și grafitate pentru chimie și petrochimie, dar echivalența exactă depinde de temperatura, presiunea și compatibilitatea chimică cerute, nu doar de denumirea seriei." },
       { q: "Livrați produse Frenzelit în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de materialul, dimensiunea și complexitatea comenzii confirmate direct de producător." },
       { q: "Ce trebuie să trimit pentru o ofertă Frenzelit?", a: "Tipul de produs dorit (garnitură, izolație sau compensator), temperatura și presiunea de lucru, tipul de fluid sau mediu și dimensiunile componentei pe care se montează." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Frenzelit – Home", url: "https://www.frenzelit.com", publisher: "Frenzelit GmbH", accessed: "2026-09-23" },
       { title: "Frenzelit – Insulation Products", url: "https://www.frenzelit.com/en/products/insulation/", publisher: "Frenzelit GmbH", accessed: "2026-09-23" },
@@ -670,24 +670,24 @@ Pentru instalații industriale din România — chimie, energie, siderurgie sau 
     headquarters: "Tiverton, Marea Britanie",
     overview: `HepcoMotion este un producător britanic din Tiverton, Devon, cu peste 50 de ani de experiență în sisteme de ghidare liniară cu profil V și în sisteme de traversare pe șine curbe. Gama include ghidaje liniare cu role în V (GV3, SL2, HDS2), sisteme cu bile (DualVee, UtiliTrak, LoPro), șine curbe și inele de ghidare (PRT2, HDRT, 1-Trak) și sisteme de traversare acționate (DTS, DTS2, GFX). Pentru clienți din România putem oferta atât ghidaje liniare drepte standard, cât și sisteme curbe pentru trasee circulare.
 
-Ce diferențiază HepcoMotion e principiul ghidajului cu role în profil V, care distribuie sarcina pe o suprafață de rulare mai mare decât un cărucior clasic cu bile pe șină rectificată, un avantaj în medii cu praf sau contaminare unde precizia unei șine cu bile s-ar degrada rapid. Seriile PRT2 și HDRT permit realizarea de trasee curbe complete — inele, segmente și sisteme de traversare — fără a asambla mai multe tronsoane drepte. Compania concurează cu THK pe segmentul ghidajelor liniare industriale.
+Ce diferențiază HepcoMotion e principiul ghidajului cu role în profil V, în care rolele profilate rulează pe șine cu profil complementar. Seriile PRT2 și HDRT permit realizarea de trasee curbe complete — inele, segmente și sisteme de traversare — fără a asambla mai multe tronsoane drepte. Compania concurează cu THK pe segmentul ghidajelor liniare industriale.
 
-Pentru linii de producție din România cu medii dure — industrie alimentară, cosmetice sau manipulare de materiale — HepcoMotion are sens acolo unde praful, umiditatea sau contaminarea ar afecta un ghidaj liniar clasic cu bile.`,
+Pentru linii de producție din România cu medii dure — industrie alimentară, cosmetice sau manipulare de materiale — HepcoMotion are sens acolo unde aplicația cere un ghidaj cu role în profil V; seria potrivită se confirmă pe baza condițiilor de lucru.`,
     whyChoose: [
-      "Ghidaj cu role în profil V — distribuie sarcina pe o suprafață mai mare, rezistent la praf și contaminare",
+      "Ghidaj cu role în profil V — role profilate care rulează pe șine cu profil complementar",
       "Trasee curbe complete — seriile PRT2 și HDRT oferă inele și segmente, nu doar tronsoane drepte",
       "Sisteme de traversare acționate — DTS, DTS2 și GFX pentru mișcare motorizată de-a lungul șinei",
       "Actuatoare liniare integrate — seriile DLS, PDU2 și HDCS pentru poziționare directă fără proiectare suplimentară",
       "Peste 50 de ani de specializare — focus continuu pe ghidare liniară și sisteme de traversare"
     ],
     keyProducts: [
-      { name: "Ghidaje Liniare cu Role în V (GV3, SL2, HDS2)", description: "Sisteme de ghidare cu role profilate în V care rulează pe șine cu profil complementar, rezistente la praf și contaminare, cu variantă din inox (SL2) și variantă de mare capacitate (HDS2) pentru sarcini grele." },
+      { name: "Ghidaje Liniare cu Role în V (GV3, SL2, HDS2)", description: "Sisteme de ghidare cu role profilate în V care rulează pe șine cu profil complementar, cu variantă din inox (SL2) și variantă de mare capacitate (HDS2) pentru sarcini grele." },
       { name: "Sisteme cu Bile (DualVee, UtiliTrak, LoPro)", description: "Ghidaje liniare cu role pe bile în configurație V, pentru mișcare de precizie cu frecare redusă, disponibile în variantă compactă (UtiliTrak) sau cu profil jos (LoPro) pentru spații limitate." },
-      { name: "Șine Curbe și Sisteme de Traversare (PRT2, HDRT, 1-Trak)", description: "Ghidaje curbe, inele și segmente de precizie pentru trasee circulare sau ovale, plus sistemul inovator 1-Trak pentru linii de producție cu traseu continuu, fără îmbinări multiple." },
+      { name: "Șine Curbe și Sisteme de Traversare (PRT2, HDRT, 1-Trak)", description: "Ghidaje curbe, inele și segmente de precizie pentru trasee circulare sau ovale, plus sistemul modular 1-Trak pentru trasee de ghidare." },
       { name: "Sisteme de Traversare Acționate (DTS, DTS2, GFX)", description: "Sisteme de traversare motorizate de-a lungul șinei, cu variantă de mare viteză (DTS2) și configurații multiple de ghidare (GFX) pentru integrare cu sisteme de transport liniar precum Beckhoff XTS." }
     ],
     industries: [
-      "Industrie alimentară și cosmetice — ghidaje rezistente la spălare și contaminare",
+      "Industrie alimentară și cosmetice — ghidaje din oțel inoxidabil (seria SL2) pentru medii speciale",
       "Automatizare industrială — sisteme de traversare pentru linii de producție",
       "Manipulare de materiale — actuatoare liniare pentru poziționare de sarcini",
       "Robotică — module de transfer pentru unități robotizate"
@@ -697,7 +697,7 @@ Pentru linii de producție din România cu medii dure — industrie alimentară,
     productCodes: [
       { code: "GV3", description: "Ghidaj liniar cu role în profil V, seria de bază" },
       { code: "Simple Select", description: "Ghidaj liniar cu role, variantă simplificată" },
-      { code: "SL2", description: "Ghidaj liniar din inox, rezistent la spălare" },
+      { code: "SL2", description: "Ghidaj liniar din oțel inoxidabil, pentru medii speciale" },
       { code: "HDS2", description: "Ghidaj liniar de mare capacitate, sarcini grele" },
       { code: "HLG/MLG", description: "Șină de ghidare liniară, variantă grea și medie" },
       { code: "DualVee", description: "Sistem de ghidare cu role pe bile în V" },
@@ -706,8 +706,8 @@ Pentru linii de producție din România cu medii dure — industrie alimentară,
       { code: "Mini-Rail", description: "Ghidaj liniar miniatural de precizie" },
       { code: "PRT2", description: "Ghidaj curbat de precizie, inele și segmente" },
       { code: "HDRT", description: "Inel de ghidare de mare capacitate" },
-      { code: "1-Trak", description: "Sistem de traseu continuu fără îmbinări multiple" },
-      { code: "MHD", description: "Sistem de traseu pentru a 7-a axă" },
+      { code: "1-Trak", description: "Sistem modular de traseu" },
+      { code: "MHD", description: "Sistem cu role de traseu pentru sarcini foarte grele" },
       { code: "DTS+", description: "Sistem de traversare acționat de înaltă performanță" },
       { code: "DTS", description: "Sistem de traversare acționat cu curea" },
       { code: "DTS2", description: "Sistem de traversare acționat de mare viteză" },
@@ -724,14 +724,14 @@ Pentru linii de producție din România cu medii dure — industrie alimentară,
     ],
     faq: [
       { q: "Ce produce HepcoMotion?", a: "HepcoMotion produce ghidaje liniare cu role în profil V, sisteme cu bile, șine curbe și sisteme de traversare acționate, plus actuatoare liniare, folosite în automatizare, manipulare de materiale și industrie alimentară." },
-      { q: "Cum aleg un ghidaj HepcoMotion după aplicație?", a: "Trebuie stabilite sarcina de deplasat, mediul de lucru (praf, umiditate, spălare) și dacă traseul e drept sau curb; seria SL2 se alege pentru spălare frecventă, iar PRT2 pentru trasee circulare." },
+      { q: "Cum aleg un ghidaj HepcoMotion după aplicație?", a: "Trebuie stabilite sarcina de deplasat, mediul de lucru (praf, umiditate, spălare) și dacă traseul e drept sau curb; seria SL2 (din oțel inoxidabil) se alege pentru medii speciale, iar PRT2 pentru trasee circulare." },
       { q: "Ce echivalent are HepcoMotion pentru ghidajele liniare THK?", a: "HepcoMotion se bazează pe principiul rolelor în profil V, diferit constructiv de ghidajele cu bile pe șină rectificată ale THK; echivalența funcțională se stabilește pe baza sarcinii și mediului de lucru, nu din denumirea seriei." },
       { q: "Livrați produse HepcoMotion în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria, lungimea și accesoriile de montaj confirmate de producător pentru configurația cerută." },
       { q: "Ce trebuie să trimit pentru o ofertă HepcoMotion?", a: "Tipul de sistem dorit (ghidaj drept, curbă sau sistem de traversare acționat), lungimea sau raza traseului, sarcina de deplasat și mediul de lucru al aplicației, inclusiv expunerea la praf sau umiditate." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "HepcoMotion – Home", url: "https://www.hepcomotion.com/", publisher: "HepcoMotion", accessed: "2026-09-23" },
       { title: "HepcoMotion – Products", url: "https://www.hepcomotion.com/products/", publisher: "HepcoMotion", accessed: "2026-09-23" },
@@ -754,8 +754,8 @@ Pentru echipamente de poziționare din România — sisteme solare cu urmărire,
       "Linie dedicată energiei regenerabile — rulmenți de rotație pentru turbine eoliene onshore și offshore"
     ],
     keyProducts: [
-      { name: "Rulmenți de Rotație cu Bile", description: "Rulmenți de rotație cu bile de 12 până la 80 mm diametru, în configurație cu unul sau două rânduri și geometrie de rulare în patru puncte, pentru sarcini axiale și radiale combinate. Aplicație tipică: platforme rotative și echipamente de manipulare de mărime medie." },
-      { name: "Rulmenți de Rotație cu Role", description: "Rulmenți cu role de 10 până la 100 mm diametru, în configurație cu unul, două sau trei rânduri, pentru capacități de sarcină mai mari decât variantele cu bile, la aceleași dimensiuni de gabarit." },
+      { name: "Rulmenți de Rotație cu Bile", description: "Rulmenți de rotație cu bile având diametrul bilei de 12 până la 80 mm, în configurație cu unul sau două rânduri și geometrie de rulare în patru puncte, pentru sarcini axiale și radiale combinate. Aplicație tipică: platforme rotative și echipamente de manipulare de mărime medie." },
+      { name: "Rulmenți de Rotație cu Role", description: "Rulmenți cu role având diametrul rolei de 10 până la 100 mm, în configurație cu unul, două sau trei rânduri." },
       { name: "Slew Drive-uri Seria WD (Melc-Roată)", description: "Slew drive-uri cu angrenare melc-roată pentru raport de transmisie mare și turații mici de 1-3 rpm, cu diametre de rulare de la 156 la 725 mm și momente de basculare de până la peste 1000 kNm, în funcție de variantă." },
       { name: "Slew Drive-uri Seria SP (Pinion)", description: "Slew drive-uri cu angrenare prin pinion pentru turații mai mari decât seria WD, cu diametre de rulare de la 229 la peste 1400 mm și momente de basculare de până la peste 1500 kNm la varianta open solution." }
     ],
@@ -775,9 +775,9 @@ Pentru echipamente de poziționare din România — sisteme solare cu urmărire,
       { code: "SP-I", description: "Slew drive pe pinion, diametru 229-1091 mm" },
       { code: "SP-H", description: "Slew drive pe pinion, diametru 455-955 mm" },
       { code: "SP-H open solution", description: "Slew drive pe pinion, moment de basculare foarte mare" },
-      { code: "Rulmenți de Rotație cu Bile", description: "Rulment de rotație cu bile, diametru 12-80 mm bilă" },
-      { code: "Rulmenți de Rotație cu Role", description: "Rulment de rotație cu role, diametru 10-100 mm rolă" },
-      { code: "Rulmenți de Rotație Combinați Bile-Role", description: "Rulment combinat pentru sarcini mixte axiale-radiale" },
+      { code: "Rulmenți de Rotație cu Bile", description: "Rulment de rotație cu bile, diametrul bilei 12-80 mm" },
+      { code: "Rulmenți de Rotație cu Role", description: "Rulment de rotație cu role, diametrul rolei 10-100 mm" },
+      { code: "Rulmenți de Rotație Combinați Bile-Role", description: "Rulment combinat bile-role, conceput pentru forță axială dominantă și sarcini radiale sau momente reduse" },
       { code: "Rulmenți Eolieni", description: "Serie de rulmenți de rotație pentru turbine eoliene" },
     ],
     faq: [
@@ -788,8 +788,8 @@ Pentru echipamente de poziționare din România — sisteme solare cu urmărire,
       { q: "Ce trebuie să trimit pentru o ofertă IMO?", a: "Diametrul de rulare necesar, tipul de angrenare dorit (externă, internă sau fără dantură), momentul de basculare sau sarcina estimată și turația de lucru a aplicației finale." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "IMO – Slew Drives", url: "https://www.imo.de/en/products-services/slew-drives", publisher: "IMO Holding GmbH", accessed: "2026-09-23" },
       { title: "IMO – Slewing Rings for Industry", url: "https://www.imo.de/en/products-services/slewing-rings-for-industry", publisher: "IMO Holding GmbH", accessed: "2026-09-23" },
@@ -799,16 +799,16 @@ Pentru echipamente de poziționare din România — sisteme solare cu urmărire,
     name: "IMS Gear",
     founded: 1863,
     headquarters: "Donaueschingen, Germania",
-    overview: `IMS Gear este un producător german din Donaueschingen, în Pădurea Neagră, cu o istorie de peste 160 de ani în angrenaje și reductoare planetare de precizie. Gama e organizată pe familia IMS, cu diametre notate numeric — de la IMS.22 la IMS.88 pentru reductoare planetare compacte, până la seriile IMS.100, 105, 120, 250, 700 și 1000 pentru cupluri și diametre mai mari. Pentru clienți din România putem oferta reductoare planetare din gama IMS pentru echipamente electrice și electrocasnice mari.
+    overview: `IMS Gear este un producător german din Donaueschingen, în Pădurea Neagră, cu o istorie de peste 160 de ani în angrenaje și reductoare planetare de precizie. Reductoarele planetare sunt notate cu codul IMS urmat de un număr de serie; seriile și datele tehnice se confirmă pe cod, din documentația producătorului. Pentru clienți din România putem oferta reductoare planetare din gama IMS pentru echipamente electrice și electrocasnice mari.
 
-Ce diferențiază IMS Gear e varianta de material folosită la angrenaje: compania a dezvoltat familia de plastice tehnice IMSamid, special formulate pentru dinți de angrenaj, ceea ce permite componente hibride metal-plastic mai ușoare și mai silențioase decât angrenajele integral metalice. Fiecare diametru de bază (de exemplu IMS.42) vine în mai multe variante de performanță — eco pentru cost redus, pro pentru performanță standard și promax/proln pentru cuplu mai mare sau zgomot redus. Compania produce la scară mare, cu unități de producție și în afara Germaniei.
+Ce diferențiază IMS Gear e varianta de material folosită la angrenaje: compania a dezvoltat familia de plastice tehnice IMSamid, special formulate pentru dinți de angrenaj, pentru combinații metal-plastic care urmăresc un echilibru între performanță, zgomot, durată de viață și cost. Reductoarele sunt oferite pe mai multe diametre de bază, în variante de performanță; semnificația și parametrii fiecărei variante se confirmă pe cod, din documentația producătorului. Compania are unități de producție și în afara Germaniei (SUA, Mexic, China, Japonia, Croația, Coreea de Sud).
 
-Pentru echipamente din România cu cerințe de zgomot redus sau greutate mică — sisteme auto electrice, echipamente medicale portabile sau electrocasnice — IMS Gear are sens acolo unde un angrenaj metalic clasic ar fi prea greu sau prea zgomotos.`,
+Pentru echipamente din România din domeniile electrocasnice, tehnica clădirilor, agricultură, logistică sau mobilitate individuală, IMS Gear are sens acolo unde cerințele de zgomot, greutate și cost justifică un angrenaj din plastic tehnic sau hibrid; alegerea se confirmă pe cod.`,
     whyChoose: [
       "Peste 160 de ani de specializare — una dintre companiile consacrate în angrenaje și reductoare planetare",
       "Plastice tehnice proprii IMSamid — angrenaje hibride metal-plastic, mai ușoare și mai silențioase",
-      "Gamă modulară pe diametru — de la IMS.22 la IMS.1000, cu variante eco, pro și promax pe fiecare",
-      "Producție la scară internațională — capacități în afara Germaniei, pentru volume mari",
+      "Gamă de reductoare planetare cu mai multe serii și variante de performanță, confirmate pe cod",
+      "Producție în mai multe țări — unități în afara Germaniei (SUA, Mexic, China, Japonia, Croația, Coreea de Sud)",
       "Aplicabilitate largă — de la electrocasnice la automotive și e-mobilitate"
     ],
     keyProducts: [
@@ -820,7 +820,7 @@ Pentru echipamente din România cu cerințe de zgomot redus sau greutate mică �
     industries: [
       "Automotive și e-mobilitate — reductoare planetare pentru sisteme electrice auto",
       "Electrocasnice — angrenaje compacte pentru aparatură de bucătărie și îngrijire",
-      "Medical — reductoare de precizie pentru echipamente portabile",
+      "Mobilitate individuală — angrenaje pentru acționări electrice",
       "Automatizare de clădiri — angrenaje pentru sisteme de acționare",
       "Agricultură și logistică — reductoare planetare pentru echipamente de capacitate mare"
     ],
@@ -844,15 +844,15 @@ Pentru echipamente din România cu cerințe de zgomot redus sau greutate mică �
       { code: "IMSamid", description: "Plastic tehnic pentru dinți de angrenaj hibrid" },
     ],
     faq: [
-      { q: "Ce produce IMS Gear?", a: "IMS Gear produce reductoare planetare de precizie, în game de diametre de la IMS.22 la IMS.1000, plus plastice tehnice proprii pentru angrenaje hibride metal-plastic, folosite în auto, electrocasnice, medical și automatizare." },
-      { q: "Cum aleg un reductor IMS Gear după cod?", a: "Trebuie stabilit diametrul necesar (de exemplu IMS.42) și varianta de performanță dorită — eco pentru cost redus, pro pentru cuplu standard, promax sau proln pentru cuplu mare sau zgomot redus." },
-      { q: "Ce înseamnă variantele eco, pro și promax la IMS Gear?", a: "Sunt niveluri de performanță pe același diametru de bază: eco vizează costul redus, pro oferă cuplu standard, iar promax și proln adaugă cuplu mai mare, respectiv zgomot redus, pentru aplicații mai pretențioase." },
+      { q: "Ce produce IMS Gear?", a: "IMS Gear produce reductoare planetare și angrenaje, plus plastice tehnice proprii pentru angrenaje hibride metal-plastic, folosite în auto, electrocasnice, medical și automatizare." },
+      { q: "Cum aleg un reductor IMS Gear după cod?", a: "Trebuie stabilit diametrul necesar (de exemplu IMS.42) și varianta de performanță dorită; parametrii fiecărei variante se confirmă din documentația producătorului." },
+      { q: "Ce înseamnă variantele eco, pro și promax la IMS Gear?", a: "Sunt denumiri de variante de performanță pe același diametru de bază; semnificația exactă și cuplul fiecărei variante se confirmă pe cod, din documentația producătorului." },
       { q: "Livrați reductoare IMS Gear în România și cât durează?", a: "Da, la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametrul, varianta și cantitatea confirmate direct de producător pentru comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă IMS Gear?", a: "Diametrul reductorului dorit, varianta de performanță (eco, pro, promax sau proln), cuplul necesar, turația de lucru și aplicația exactă în care va fi montat reductorul." }
     ],
     evidenceClass: "market-signal-intl",
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "IMS Gear – Company", url: "https://www.imsgear.com/en/company", publisher: "IMS Gear SE & Co. KGaA", accessed: "2026-09-23" },
       { title: "IMS Gear – Competences", url: "https://www.imsgear.com/en/competences", publisher: "IMS Gear SE & Co. KGaA", accessed: "2026-09-23" },

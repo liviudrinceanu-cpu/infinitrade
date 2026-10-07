@@ -1259,11 +1259,11 @@ Pentru a verifica cerințele de reglementare aplicabile echipamentului dumneavoa
   {
     id: 16,
     slug: "knipex-vs-wera-vs-gedore-scule-de-mana",
-    title: "Knipex vs. Wera vs. Gedore: ce scule de mână alegi?",
+    title: "Knipex vs. Wera vs. Gedore: ce scule de mână alegeți?",
     shortTitle: "Knipex vs Wera vs Gedore",
     excerpt: "Comparăm gamele Knipex, Wera și Gedore de scule de mână profesionale: clești, șurubelnițe și chei, pe criterii tehnice verificate din surse oficiale, fără prețuri.",
     content: `
-Dacă alegi între Knipex, Wera și Gedore pentru scule de mână profesionale, răspunsul scurt depinde de operație. Pentru clești specializați pe o singură funcție (sertizare, tăiere țeavă, dezizolare electricieni), Knipex are cea mai adâncă gamă documentată public. Pentru șurubelnițe cu lamă interschimbabilă, chei self-setting și un număr mare de profile de antrenare, Wera acoperă cel mai larg spectru. Pentru un ecosistem complet de scule de înșurubare, clești, chei tubulare și scule de cuplu sub un singur brand, Gedore rămâne opțiunea de referință. Alegerea finală depinde de aplicație, de standardul cerut (VDE, DIN) și de compatibilitatea cu sculele deja folosite în atelier.
+Dacă alegeți între Knipex, Wera și Gedore pentru scule de mână profesionale, răspunsul scurt depinde de operație. Pentru clești specializați pe o singură funcție (sertizare, tăiere țeavă, dezizolare electricieni), Knipex are cea mai adâncă gamă documentată public. Pentru șurubelnițe cu lamă interschimbabilă, chei self-setting și un număr mare de profile de antrenare, Wera acoperă cel mai larg spectru. Pentru un ecosistem complet de scule de înșurubare, clești, chei tubulare și scule de cuplu sub un singur brand, Gedore rămâne opțiunea de referință. Alegerea finală depinde de aplicație, de standardul cerut (VDE, DIN) și de compatibilitatea cu sculele deja folosite în atelier.
 
 ## Ce compară acest ghid
 
@@ -1305,12 +1305,12 @@ Pentru cine are sens: pentru ateliere care au nevoie de o gamă completă, de la
 | Capacitate/parametru documentat | sertizare până la 16 mm² (conductor unic) | peste 25 profile de antrenare acoperite | nespecificat în sursă |
 | Protecție ESD | nespecificat în sursă | da, la șurubelnițele de precizie | nespecificat în sursă |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
 - **Instalație nouă la panou electric**: clești de sertizat Knipex pentru papuci de cablu, completați cu șurubelnițe VDE de la Wera sau seturi Gedore cu certificare VDE pentru lucrul sub tensiune.
-- **Înlocuire 1:1 a unui clește uzat**: verifici seria exactă din gama existentă (de exemplu linia de clești electronici sau NexStrip la Knipex) și comanzi codul de tip echivalent.
+- **Înlocuire 1:1 a unui clește uzat**: verificați seria exactă din gama existentă (de exemplu linia de clești electronici sau NexStrip la Knipex) și comandați codul de tip echivalent.
 - **Ecosistem existent de biți și chei**: dacă atelierul folosește deja sistemul Kraftform de la Wera, extinzi cu aceleași profile pentru compatibilitate directă.
-- **Mediu cu cerințe de izolare electrică**: alegi variantele cu certificare VDE documentată: Wera pentru șurubelnițe izolate, Gedore pentru seturi izolate; pentru medii speciale (de exemplu ATEX) cerem confirmare scrisă direct de la producător înainte de comandă, informația nu apare detaliat pe paginile publice consultate.
+- **Mediu cu cerințe de izolare electrică**: alegeți variantele cu certificare VDE documentată: Wera pentru șurubelnițe izolate, Gedore pentru seturi izolate; pentru medii speciale (de exemplu ATEX) cerem confirmare scrisă direct de la producător înainte de comandă, informația nu apare detaliat pe paginile publice consultate.
 - **Buget de mentenanță pe termen lung**: o gamă completă sub un singur brand, precum Gedore, cu scule de înșurubare, clești și chei tubulare, simplifică aprovizionarea și codurile de comandă.
 
 ## Ce trebuie să trimiți pentru o ofertă
@@ -1350,11 +1350,11 @@ Informațiile de mai sus provin din documentația publică a producătorilor Kni
   {
     id: 17,
     slug: "gewiss-vs-schneider-vs-hager-aparataj-tablouri",
-    title: "Gewiss vs. Schneider Electric vs. Hager: ce aparataj alegi?",
+    title: "Gewiss vs. Schneider Electric vs. Hager: ce aparataj alegeți?",
     shortTitle: "Gewiss vs Schneider vs Hager",
     excerpt: "Comparăm gamele Gewiss, Schneider Electric și Hager de întreruptoare automate, diferențiale și tablouri de distribuție, pe criterii tehnice din surse oficiale.",
     content: `
-Dacă alegi între Gewiss, Schneider Electric și Hager pentru aparataj modular și tablouri de distribuție, răspunsul scurt depinde de context. Gewiss publică cea mai detaliată documentație tehnică din cele trei, cu game complete de întreruptoare automate, diferențiale și tablouri până la curenți mari (familia QDX). Hager acoperă bine tablourile de distribuție rezidențiale și comerciale, prin gamele Invicta și Orion, plus întreruptoare automate și diferențiale cu configurații clare de poli. Schneider Electric este relevant mai ales acolo unde există deja un ecosistem Acti9 sau Resi9 montat, pentru compatibilitate directă cu instalația existentă. Pentru o instalație complet nouă, fără aparataj preexistent, gama Gewiss oferă cele mai multe date tehnice verificabile public la data acestui ghid.
+Dacă alegeți între Gewiss, Schneider Electric și Hager pentru aparataj modular și tablouri de distribuție, răspunsul scurt depinde de context. Gewiss publică cea mai detaliată documentație tehnică din cele trei, cu game complete de întreruptoare automate, diferențiale și tablouri până la curenți mari (familia QDX). Hager acoperă bine tablourile de distribuție rezidențiale și comerciale, prin gamele Invicta și Orion, plus întreruptoare automate și diferențiale cu configurații clare de poli. Schneider Electric este relevant mai ales acolo unde există deja un ecosistem Acti9 sau Resi9 montat, pentru compatibilitate directă cu instalația existentă. Pentru o instalație complet nouă, fără aparataj preexistent, gama Gewiss oferă cele mai multe date tehnice verificabile public la data acestui ghid.
 
 ## Ce compară acest ghid
 
@@ -1398,12 +1398,12 @@ Pentru cine are sens: pentru proiecte rezidențiale și comerciale unde tabloul 
 | Tablouri capacitate mare | QDX 4000 H, până la 4000 A | Resi9 MP | Invicta |
 | Carcase exterior | QDX 1600 H / 630 H (IP55), QDX 630 L (IP43) | nespecificat în sursă | Orion, poliester |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
 - **Instalație nouă industrială, cu curenți mari**: gama QDX de la Gewiss, cu panouri documentate până la 4000 A și clase IP55/IP43 confirmate pe site.
 - **Înlocuire 1:1 într-un tablou cu aparataj Schneider deja montat**: rămâi pe Acti9 iC40 sau Resi9 MP pentru compatibilitate mecanică directă cu ce există deja.
 - **Ecosistem existent Hager, cu tablouri Invicta sau carcase Orion**: continui cu Hager, pentru accesorii și module compatibile din aceeași gamă.
-- **Mediu ATEX**: niciunul dintre cele trei site-uri oficiale verificate acum nu prezintă o gamă dedicată ATEX pentru aparatajul modular sau tablourile discutate aici; pentru un astfel de proiect trimite-ne parametrii zonei și cerem confirmare scrisă direct de la producător înainte de ofertare.
+- **Mediu ATEX**: niciunul dintre cele trei site-uri oficiale nu prezintă o gamă dedicată ATEX pentru aparatajul modular sau tablourile discutate aici; pentru un astfel de proiect trimiteți-ne parametrii zonei și cerem confirmare scrisă direct de la producător înainte de ofertare.
 - **Buget de mentenanță redus, tablou rezidențial nou**: Hager sau Gewiss, cu alegerea făcută în funcție de gama de accesorii deja folosită de electricianul care execută lucrarea.
 
 ## Ce trebuie să trimiți pentru o ofertă
@@ -1424,12 +1424,12 @@ Din documentația verificată acum, Gewiss publică cele mai detaliate plaje pen
 Depinde de producătorul tabloului și de certificarea lui de compatibilitate. Documentele oficiale consultate acum nu conțin o listă de compatibilitate încrucișată între Gewiss, Schneider Electric și Hager, așa că recomandăm verificarea cu fișa tehnică a tabloului înainte de a combina game diferite.
 
 ### Care gamă e disponibilă pentru curenți mari, la tablouri industriale?
-Gewiss prezintă public familia QDX, cu QDX 4000 H ca panou primar documentat până la 4000 A și cu QDX 1600 H, QDX 630 H și QDX 630 L pentru clase IP55, respectiv IP43. Pentru Schneider Electric și Hager, paginile oficiale verificate acum nu au oferit cifre echivalente de curent pentru tablouri de această capacitate.
+Gewiss prezintă public familia QDX, cu QDX 4000 H ca panou primar documentat până la 4000 A și cu QDX 1600 H, QDX 630 H și QDX 630 L pentru clase IP55, respectiv IP43. Pentru Schneider Electric și Hager, paginile oficiale nu au oferit cifre echivalente de curent pentru tablouri de această capacitate.
 
 ### Cum aleg sensibilitatea corectă a unui diferențial?
-Sensibilitatea (Idn) depinde de aplicație: 30 mA pentru protecția persoanelor, 300 mA pentru protecția la incendiu, cu variante speciale, precum 10 mA până la 3 A la gama 90 RCD de la Gewiss. Trimite-ne tipul de circuit protejat și tipul de sarcină, iar noi îți recomandăm gama și sensibilitatea potrivite.
+Sensibilitatea (Idn) depinde de aplicație: 30 mA pentru protecția persoanelor, 300 mA pentru protecția la incendiu, cu variante speciale, precum 10 mA până la 3 A la gama 90 RCD de la Gewiss. Trimiteți-ne tipul de circuit protejat și tipul de sarcină, iar noi vă recomandăm gama și sensibilitatea potrivite.
 
-Informațiile de mai sus provin din documentația publică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde pagina oficială nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
+Informațiile de mai sus provin din documentația publică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde pagina oficială nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft toată gama, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1445,9 +1445,9 @@ Informațiile de mai sus provin din documentația publică a producătorilor Gew
   {
     id: 18,
     slug: "grundfos-vs-wilo-vs-dab-pompe",
-    title: "Grundfos, Wilo sau DAB: ce pompă alegi pentru clădiri și industrie?",
+    title: "Grundfos, Wilo sau DAB: ce pompă alegeți pentru clădiri și industrie?",
     shortTitle: "Grundfos vs Wilo vs DAB",
-    excerpt: "Comparăm gamele oficiale Grundfos, Wilo și DAB de pompe de circulație, presurizare și centrifuge: serii reale, parametri din surse și când alegi fiecare brand.",
+    excerpt: "Comparăm gamele oficiale Grundfos, Wilo și DAB de pompe de circulație, presurizare și centrifuge: serii reale, parametri din surse și când alegeți fiecare brand.",
     content: `
 Pentru circulație în clădiri rezidențiale și comerciale mici, Grundfos ALPHA sau Wilo Stratos PICO/MAXO acoperă majoritatea aplicațiilor de încălzire și climatizare, iar DAB Evosta este alternativa echivalentă ca poziționare. Pentru presurizare cu mai multe pompe montate în paralel, Grundfos Hydro MPC și DAB NKVE sunt gândite pentru clădiri cu consum variabil. Pentru pompare centrifugă industrială, Grundfos CM/CME, Wilo CronoNorm-NLG și DAB seria Euro acoperă arhitecturi apropiate. Alegerea finală depinde de gama de debit și înălțime de pompare necesară, de ecosistemul de control deja instalat și de racordurile existente.
 
@@ -1489,7 +1489,7 @@ DAB pornește de la circulatoare electronice: **Evosta**, cu variantele **Evosta
 | Modularitate presurizare (nr. pompe) | Hydro MPC (set multi-pompă) | nespecificat în sursă | NKVE (1, 2, 3 sau 4 pompe) |
 | Aplicație recirculare/încălzire specifică | COMFORT (recirculare ACM case uni-/bifamiliale) | nespecificat în sursă | eVOPLUS (cazane, radiatoare, pardoseală, solar) |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
 Pentru o instalație nouă, rezidențială sau comercială mică, unde nu există un brand impus, oricare dintre ALPHA, Stratos PICO/MAXO sau Evosta acoperă circulația standard; alegerea se poate face după ecosistemul de control preferat.
 
@@ -1499,7 +1499,7 @@ Pentru presurizare în clădiri cu consum variabil, precum blocuri cu mai multe 
 
 Pentru un ecosistem existent Grundfos, Wilo sau DAB, cu telecomandă sau integrare în sistemul de management al clădirii, rămânerea pe același brand evită integrări suplimentare de control.
 
-Pentru mediu ATEX sau alte zone cu risc, din paginile citite acum nu am confirmat variante ATEX explicite pentru niciunul dintre cele trei branduri, așa că recomandăm verificarea directă cu producătorul înainte de a alege o soluție.
+Pentru mediu ATEX sau alte zone cu risc, din paginile oficiale nu am confirmat variante ATEX explicite pentru niciunul dintre cele trei branduri, așa că recomandăm verificarea directă cu producătorul înainte de a alege o soluție.
 
 ## Ce trebuie să trimiți pentru o ofertă
 
@@ -1522,7 +1522,7 @@ Ambele sunt grupuri de presurizare cu mai multe pompe montate în paralel. NKVE 
 
 ### Ce trimit dacă nu știu ce serie am montată în prezent?
 
-Trimite-ne o fotografie cu plăcuța de identificare a pompei, cu codul de tip și debitul/înălțimea de pe etichetă, plus racordul actual. Pe baza acestora putem identifica o serie echivalentă din gama Grundfos, Wilo sau DAB și pregătim o ofertă orientativă.
+Trimiteți-ne o fotografie cu plăcuța de identificare a pompei, cu codul de tip și debitul/înălțimea de pe etichetă, plus racordul actual. Pe baza acestora putem identifica o serie echivalentă din gama Grundfos, Wilo sau DAB și pregătim o ofertă orientativă.
 
 ### Aceste game se folosesc și în instalații industriale, nu doar rezidențiale?
 
@@ -1544,11 +1544,11 @@ Informațiile de mai sus provin din documentația publică a producătorilor, ve
   {
     id: 19,
     slug: "danfoss-vs-abb-vs-siemens-convertizoare-frecventa",
-    title: "Danfoss, ABB sau Siemens: ce convertizor de frecvență alegi?",
+    title: "Danfoss, ABB sau Siemens: ce convertizor de frecvență alegeți?",
     shortTitle: "Danfoss vs ABB vs Siemens",
-    excerpt: "Comparăm familiile Danfoss VLT/VACON, ABB ACS580 și Siemens SINAMICS: game, puteri publicate și clase IP, ca să alegi convertizorul potrivit aplicației tale.",
+    excerpt: "Comparăm familiile Danfoss VLT/VACON, ABB ACS580 și Siemens SINAMICS: game, puteri publicate și clase IP, ca să alegeți convertizorul potrivit aplicației dumneavoastră.",
     content: `
-Pentru o instalație nouă de uz general, gama ABB ACS580 acoperă un interval de putere clar publicat (0,75 până la 500 kW) și variante de carcasă distincte (IP21, IP55, IP42), ușor de preselectat direct din sursa oficială. Danfoss organizează convertizoarele în patru familii curente: iC7, VLT, VACON și iC2, plus o linie separată VLT și VACON legacy, utilă la înlocuirea unui echipament vechi. Siemens promovează familia SINAMICS, cu seria G120X vizibilă pe pagina oficială, dar fără puteri sau clase IP publicate în paginile citite acum. Alegerea depinde de puterea motorului, de ecosistemul de automatizare deja instalat și de datele tehnice disponibile public pentru codul de tip vizat.
+Pentru o instalație nouă de uz general, gama ABB ACS580 acoperă un interval de putere clar publicat (0,75 până la 500 kW) și variante de carcasă distincte (IP21, IP55, IP42), ușor de preselectat direct din sursa oficială. Danfoss organizează convertizoarele în patru familii curente: iC7, VLT, VACON și iC2, plus o linie separată VLT și VACON legacy, utilă la înlocuirea unui echipament vechi. Siemens promovează familia SINAMICS, cu seria G120X vizibilă pe pagina oficială, dar fără puteri sau clase IP publicate în paginile oficiale. Alegerea depinde de puterea motorului, de ecosistemul de automatizare deja instalat și de datele tehnice disponibile public pentru codul de tip vizat.
 
 ## Ce compară acest ghid
 
@@ -1569,11 +1569,11 @@ Danfoss grupează convertizoarele de joasă tensiune în familii curente: iC7 dr
 
 ## ABB: ce oferă concret
 
-ABB își structurează convertizoarele de joasă tensiune pe destinație de aplicație: General Purpose, Machinery, Industrial, HVACR, Water and Wastewater și Servo drives, cu o gamă declarată pe ansamblul portofoliului între 0,18 și 5600 kW. Din familia General Purpose, seria ACS580 acoperă 0,75 până la 500 kW și vine în variante de carcasă diferite: ACS580-01 cu IP21, IP55 și UL Type 12, ACS580-04 în IP00 pentru montaj în dulap electric, respectiv ACS580-07 în IP42 ca variantă standard. Pagina oficială menționează și disponibilitatea unor dispozitive de siguranță funcțională alături de convertizoare, fără să detalieze pe pagina generală funcțiile exacte de siguranță. Are sens pentru: aplicații generale de pompe, ventilatoare sau benzi transportoare unde puterea se încadrează direct în 0,75 până la 500 kW; proiecte unde preferi un singur producător pentru mai multe segmente (general, mașini, HVAC, apă); montaje unde carcasa IP55 sau UL Type 12 contează pentru instalare în afara dulapului electric. [ABB](/brand/abb) are, din sursele citite acum, cea mai detaliată defalcare publică de puteri și clase IP.
+ABB își structurează convertizoarele de joasă tensiune pe destinație de aplicație: General Purpose, Machinery, Industrial, HVACR, Water and Wastewater și Servo drives, cu o gamă declarată pe ansamblul portofoliului între 0,18 și 5600 kW. Din familia General Purpose, seria ACS580 acoperă 0,75 până la 500 kW și vine în variante de carcasă diferite: ACS580-01 cu IP21, IP55 și UL Type 12, ACS580-04 în IP00 pentru montaj în dulap electric, respectiv ACS580-07 în IP42 ca variantă standard. Pagina oficială menționează și disponibilitatea unor dispozitive de siguranță funcțională alături de convertizoare, fără să detalieze pe pagina generală funcțiile exacte de siguranță. Are sens pentru: aplicații generale de pompe, ventilatoare sau benzi transportoare unde puterea se încadrează direct în 0,75 până la 500 kW; proiecte unde preferați un singur producător pentru mai multe segmente (general, mașini, HVAC, apă); montaje unde carcasa IP55 sau UL Type 12 contează pentru instalare în afara dulapului electric. [ABB](/brand/abb) are, conform surselor oficiale, cea mai detaliată defalcare publică de puteri și clase IP.
 
 ## Siemens: ce oferă concret
 
-Siemens grupează convertizoarele de joasă tensiune sub familia SINAMICS. Pe pagina oficială de produse a diviziei de acționări apare denumită explicit seria SINAMICS G120X, alături de instrumentul DriveSim Designer, folosit pentru a simula digital comportamentul convertizoarelor SINAMICS înainte de instalarea fizică. Pagina generală citită acum nu publică puteri, tensiuni sau clase de protecție IP pentru G120X sau alte serii din familie, așa că o comparație numerică directă cu Danfoss sau ABB rămâne, pentru moment, nesusținută de sursă. Reținem cu certitudine: familia SINAMICS este linia curentă de convertizoare de joasă tensiune a Siemens, iar G120X este una dintre seriile ei active pentru acționări industriale. Are sens pentru: companii cu automatizare Siemens deja instalată (PLC, HMI, TIA Portal), unde integrarea unui convertizor SINAMICS simplifică punerea în funcțiune; echipe care preferă să simuleze digital drive-ul, cu DriveSim Designer, înainte de comandă. Pentru [Siemens](/brand/siemens), puterea și tensiunea exactă necesare proiectului tău trebuie confirmate direct cu producătorul, pentru că pagina generală nu le publică.
+Siemens grupează convertizoarele de joasă tensiune sub familia SINAMICS. Pe pagina oficială de produse a diviziei de acționări apare denumită explicit seria SINAMICS G120X, alături de instrumentul DriveSim Designer, folosit pentru a simula digital comportamentul convertizoarelor SINAMICS înainte de instalarea fizică. Pagina generală nu publică puteri, tensiuni sau clase de protecție IP pentru G120X sau alte serii din familie, așa că o comparație numerică directă cu Danfoss sau ABB rămâne, pentru moment, nesusținută de sursă. Reținem cu certitudine: familia SINAMICS este linia curentă de convertizoare de joasă tensiune a Siemens, iar G120X este una dintre seriile ei active pentru acționări industriale. Are sens pentru: companii cu automatizare Siemens deja instalată (PLC, HMI, TIA Portal), unde integrarea unui convertizor SINAMICS simplifică punerea în funcțiune; echipe care preferă să simuleze digital drive-ul, cu DriveSim Designer, înainte de comandă. Pentru [Siemens](/brand/siemens), puterea și tensiunea exactă necesare proiectului dumneavoastră trebuie confirmate direct cu producătorul, pentru că pagina generală nu le publică.
 
 ## Tabel comparativ
 
@@ -1586,13 +1586,13 @@ Siemens grupează convertizoarele de joasă tensiune sub familia SINAMICS. Pe pa
 | Instrumente de inginerie menționate | nespecificat în sursă | dispozitive de siguranță funcțională, fără detaliu | DriveSim Designer, simulare digitală |
 | Suport dedicat pentru echipament vechi | linie separată VLT/VACON legacy | nespecificat în sursă | nespecificat în sursă |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
-- Instalație nouă, fără istoric de brand: pornești analiza de la ABB ACS580 dacă puterea motorului se încadrează în 0,75 până la 500 kW, pentru că ai deja clase IP publicate care simplifică alegerea carcasei.
+- Instalație nouă, fără istoric de brand: porniți analiza de la ABB ACS580 dacă puterea motorului se încadrează în 0,75 până la 500 kW, pentru că aveți deja clase IP publicate care simplifică alegerea carcasei.
 - Înlocuire 1:1 a unui convertizor vechi: dacă unitatea existentă este VLT sau VACON, rămâi pe Danfoss; segmentul legacy există special pentru continuitate cu instalația deja montată.
 - Ecosistem de automatizare existent: dacă fabrica rulează deja PLC și HMI Siemens pe TIA Portal, un convertizor SINAMICS reduce timpul de integrare, chiar dacă puterea exactă trebuie confirmată separat.
-- Mediu ATEX sau zonă clasificată: niciuna dintre paginile citite acum nu confirmă certificare ATEX pentru familiile discutate; pentru zone clasificate cerem confirmare scrisă pe codul de tip exact, înainte de orice ofertă.
-- Buget de mentenanță pe termen lung: dacă vrei o singură familie care acoperă mai multe destinații (pompe, benzi, HVAC, apă) cu piese comune, segmentarea ABB pe General Purpose, Machinery și HVACR simplifică stocul de piese de schimb al clientului.
+- Mediu ATEX sau zonă clasificată: niciuna dintre paginile oficiale nu confirmă certificare ATEX pentru familiile discutate; pentru zone clasificate cerem confirmare scrisă pe codul de tip exact, înainte de orice ofertă.
+- Buget de mentenanță pe termen lung: dacă doriți o singură familie care acoperă mai multe destinații (pompe, benzi, HVAC, apă) cu piese comune, segmentarea ABB pe General Purpose, Machinery și HVACR simplifică stocul de piese de schimb al clientului.
 
 ## Ce trebuie să trimiți pentru o ofertă
 
@@ -1605,10 +1605,10 @@ Siemens grupează convertizoarele de joasă tensiune sub familia SINAMICS. Pe pa
 ## Întrebări frecvente
 
 ### Care producător publică cel mai detaliat interval de puteri?
-Din paginile citite acum, ABB publică cel mai detaliat interval: 0,75 până la 500 kW pentru seria ACS580 și 0,18 până la 5600 kW pe întreg portofoliul de joasă tensiune. Pentru Danfoss și Siemens, paginile generale citite nu detaliază puteri exacte per familie, așa că recomandăm cererea fișei tehnice a modelului vizat înainte de decizie.
+Conform paginilor oficiale, ABB publică cel mai detaliat interval: 0,75 până la 500 kW pentru seria ACS580 și 0,18 până la 5600 kW pe întreg portofoliul de joasă tensiune. Pentru Danfoss și Siemens, paginile generale nu detaliază puteri exacte per familie, așa că recomandăm cererea fișei tehnice a modelului vizat înainte de decizie.
 
 ### Pot înlocui un convertizor Danfoss vechi cu unul din familia curentă?
-Danfoss menține o linie separată de VLT și VACON legacy tocmai pentru continuitate cu instalații mai vechi. În practică, verifici mai întâi codul de tip al unității existente, apoi confirmăm împreună cu producătorul compatibilitatea exactă înainte de a trimite oferta.
+Danfoss menține o linie separată de VLT și VACON legacy tocmai pentru continuitate cu instalații mai vechi. În practică, verificați mai întâi codul de tip al unității existente, apoi confirmăm împreună cu producătorul compatibilitatea exactă înainte de a trimite oferta.
 
 ### Ce înseamnă clasele IP menționate la ABB ACS580?
 Pe pagina oficială apar IP21 și IP55 pentru varianta ACS580-01, inclusiv UL Type 12, IP00 pentru ACS580-04 destinată montajului în dulap electric și IP42 ca variantă standard pentru ACS580-07. Alegerea între ele depinde de locul de montaj: dulap închis sau spațiu mai expus prafului și umezelii.
@@ -1616,7 +1616,7 @@ Pe pagina oficială apar IP21 și IP55 pentru varianta ACS580-01, inclusiv UL Ty
 ### De ce nu apar prețuri sau termene exacte de livrare în acest ghid?
 Pentru că informațiile de mai sus provin din documentația publică a producătorilor, nu din stocul propriu. Convertizoarele din acest ghid nu se țin, în general, pe raft; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, după confirmarea codului de tip exact.
 
-Informațiile provin din documentația publică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar pe paginile citite acum (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre acești producători.
+Informațiile provin din documentația publică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar pe paginile oficiale (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni; nu ținem pe raft toată gama.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1632,11 +1632,11 @@ Informațiile provin din documentația publică a producătorilor, verificată l
   {
     id: 20,
     slug: "wika-vs-endress-hauser-vs-keller-masurare-presiune",
-    title: "WIKA, Endress+Hauser sau Keller: ce traductor de presiune alegi?",
+    title: "WIKA, Endress+Hauser sau Keller: ce traductor de presiune alegeți?",
     shortTitle: "WIKA vs E+H vs Keller",
-    excerpt: "Comparăm manometrele WIKA, transmițătoarele Endress+Hauser și traductoarele Keller: game reale, plaje de măsurare, clase de acuratețe și când alegi fiecare brand.",
+    excerpt: "Comparăm manometrele WIKA, transmițătoarele Endress+Hauser și traductoarele Keller: game reale, plaje de măsurare, clase de acuratețe și când alegeți fiecare brand.",
     content: `
-Dacă trebuie să alegi un instrument de măsurare a presiunii, răspunsul scurt depinde de tipul aplicației. Pentru manometre mecanice robuste și instrumente de calibrare de precizie, WIKA are game dedicate, de la manometre Bourdon clasice până la calibratoare digitale. Pentru transmițătoare electronice inteligente, cu acuratețe ridicată și integrare digitală în automatizare (HART, PROFIBUS, Fieldbus, IO-Link), Endress+Hauser oferă seriile cele mai bine documentate public. Pentru traductoare piezorezistive compacte, gândite pentru integrare OEM și pentru măsurarea nivelului hidrostatic, Keller acoperă o gamă de categorii dedicate. Alegerea corectă ține de tipul de semnal necesar, clasa de acuratețe cerută și mediul de proces.
+Dacă trebuie să alegeți un instrument de măsurare a presiunii, răspunsul scurt depinde de tipul aplicației. Pentru manometre mecanice robuste și instrumente de calibrare de precizie, WIKA are game dedicate, de la manometre Bourdon clasice până la calibratoare digitale. Pentru transmițătoare electronice inteligente, cu acuratețe ridicată și integrare digitală în automatizare (HART, PROFIBUS, Fieldbus, IO-Link), Endress+Hauser oferă seriile cele mai bine documentate public. Pentru traductoare piezorezistive compacte, gândite pentru integrare OEM și pentru măsurarea nivelului hidrostatic, Keller acoperă o gamă de categorii dedicate. Alegerea corectă ține de tipul de semnal necesar, clasa de acuratețe cerută și mediul de proces.
 
 ## Ce compară acest ghid
 
@@ -1666,9 +1666,9 @@ Keller își structurează site-ul public pe categorii clare: traductoare de pre
 | Game conexe menționate | senzori de presiune, transmițătoare de proces, presostate, sisteme cu membrană | Cerabar, Deltabar, Ceraphant, Deltapilot, Waterpilot | traductoare, transmițătoare, sonde de nivel, dataloggere, soluții wireless |
 | Sediu/producție menționat(ă) | nespecificat în sursă | nespecificat în sursă | Winterthur, Elveția |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
-Pentru o **instalație nouă cu automatizare digitală avansată**, unde ai nevoie de HART, PROFIBUS PA sau FOUNDATION Fieldbus și de diagnoză proprie a instrumentului, seriile Cerabar și Deltabar de la Endress+Hauser acoperă acest scenariu conform documentației citite. Pentru **înlocuirea 1:1 a unui manometru mecanic existent**, cu aceleași dimensiuni nominale și racorduri uzuale, modelele WIKA 232.50 sau 233.50 (NS 63/100/160) sunt un punct de plecare direct. Dacă ai deja un **ecosistem existent de calibrare** bazat pe etaloane portabile și software dedicat, CPG1500 de la WIKA se integrează prin Bluetooth cu WIKA-Cal fără a schimba fluxul de lucru. Pentru un **mediu ATEX**, varianta intrinsic sigură a CPG1500 de la WIKA sau familiile Cerabar/Deltabar de la Endress+Hauser, pentru care producătorul menționează certificare ATEX, sunt punctele de verificat întâi cu codul de tip exact. Pentru un **proiect OEM sau de nivel hidrostatic**, unde ai nevoie de un traductor compact, adaptabil la o carcasă proprie, categoriile de traductoare Keller sunt gândite explicit pentru acest tip de integrare.
+Pentru o **instalație nouă cu automatizare digitală avansată**, unde aveți nevoie de HART, PROFIBUS PA sau FOUNDATION Fieldbus și de diagnoză proprie a instrumentului, seriile Cerabar și Deltabar de la Endress+Hauser acoperă acest scenariu conform documentației producătorului. Pentru **înlocuirea 1:1 a unui manometru mecanic existent**, cu aceleași dimensiuni nominale și racorduri uzuale, modelele WIKA 232.50 sau 233.50 (NS 63/100/160) sunt un punct de plecare direct. Dacă aveți deja un **ecosistem existent de calibrare** bazat pe etaloane portabile și software dedicat, CPG1500 de la WIKA se integrează prin Bluetooth cu WIKA-Cal fără a schimba fluxul de lucru. Pentru un **mediu ATEX**, varianta intrinsic sigură a CPG1500 de la WIKA sau familiile Cerabar/Deltabar de la Endress+Hauser, pentru care producătorul menționează certificare ATEX, sunt punctele de verificat întâi cu codul de tip exact. Pentru un **proiect OEM sau de nivel hidrostatic**, unde aveți nevoie de un traductor compact, adaptabil la o carcasă proprie, categoriile de traductoare Keller sunt gândite explicit pentru acest tip de integrare.
 
 ## Ce trebuie să trimiți pentru o ofertă
 
@@ -1686,7 +1686,7 @@ Pentru o **instalație nouă cu automatizare digitală avansată**, unde ai nevo
 
 Pentru un manometru mecanic clasic, cu carcasă din inox și dimensiuni nominale standard, seriile WIKA 232.50 (carcasă uscată) sau 233.50 (carcasă umplută cu lichid, pentru vibrații) sunt documentate public cu plaje de la 0...0,6 până la 0...1.600 bar și conformitate cu EN 837-1.
 
-### Ce brand oferă cea mai bună integrare digitală în automatizare?
+### Ce brand oferă integrare digitală în automatizare?
 
 Din documentația citită, Endress+Hauser are portofoliul cel mai detaliat pe partea de comunicare digitală, cu HART, IO-Link, FOUNDATION Fieldbus H1 și PROFIBUS PA disponibile pe familiile Cerabar și Deltabar, plus opțiuni cu diagnoză proprie a instrumentului.
 
@@ -1696,9 +1696,9 @@ Paginile generale de produs citite pentru Keller descriu categoriile (traductoar
 
 ### Pot folosi un manometru digital și pentru calibrare pe teren?
 
-Da, dacă alegi un instrument gândit pentru asta: CPG1500 de la WIKA este descris ca manometru digital de precizie, cu clase de acuratețe de până la 0,025% din domeniul de măsurare, funcție de logger și conectivitate Bluetooth cu software-ul WIKA-Cal, potrivit pentru calibrări on-site.
+Da, dacă alegeți un instrument gândit pentru asta: CPG1500 de la WIKA este descris ca manometru digital de precizie, cu clase de acuratețe de până la 0,025% din domeniul de măsurare, funcție de logger și conectivitate Bluetooth cu software-ul WIKA-Cal, potrivit pentru calibrări on-site.
 
-Informațiile de mai sus provin din documentația publică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 1–4 săptămâni; nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre producători.
+Informațiile de mai sus provin din documentația publică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 1–4 săptămâni; nu ținem pe raft toată gama.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1714,7 +1714,7 @@ Informațiile de mai sus provin din documentația publică a producătorilor, ci
   {
     id: 21,
     slug: "festo-vs-smc-vs-camozzi-pneumatica",
-    title: "Festo, SMC sau Camozzi: ce alegi la cilindri și distribuitoare?",
+    title: "Festo, SMC sau Camozzi: ce alegeți la cilindri și distribuitoare?",
     shortTitle: "Festo vs SMC vs Camozzi",
     excerpt: "Comparăm cilindri, distribuitoare și unități de tratare a aerului de la Festo, SMC și Camozzi: game reale, parametri din surse și scenarii de alegere.",
     content: `
@@ -1735,7 +1735,7 @@ Nu comparăm prețuri, stocuri sau termene de livrare, informații care nu apar 
 
 ## Festo: ce oferă concret
 
-Festo publică documentație tehnică detaliată pentru seria de cilindri standardizați **DSBC**, construită conform ISO 15552. Gama citită acum acoperă diametre de 32, 40, 50, 63 și 80 mm, cu curse disponibile între 20 și 500 mm, în trepte standardizate. Tubul cilindrului este din profil de aluminiu anodizat, iar capacele sunt din aluminiu turnat și acoperit; amortizarea se face pneumatic, fie reglabilă la ambele capete (varianta PPV), fie autoreglabilă (PPS).
+Festo publică documentație tehnică detaliată pentru seria de cilindri standardizați **DSBC**, construită conform ISO 15552. Gama acoperă diametre de 32, 40, 50, 63 și 80 mm, cu curse disponibile între 20 și 500 mm, în trepte standardizate. Tubul cilindrului este din profil de aluminiu anodizat, iar capacele sunt din aluminiu turnat și acoperit; amortizarea se face pneumatic, fie reglabilă la ambele capete (varianta PPV), fie autoreglabilă (PPS).
 
 Pentru distribuție, Festo documentează terminalele de valve **VUVG** și **VTUG**, disponibile în lățimi constructive de 10, 14 și 18 mm, cu configurații de la 3/2 căi până la 5/3 căi. Debitul crește de la 130-330 l/min la mărimea 10, până la 800-1200 l/min la mărimea 18, iar presiunea de lucru admisă merge de la 1,5 la 10 bar, cu variantă de vid documentată până la -0,9 bar. Comanda electrică standard citită în sursă este pe 24 V c.c.
 
@@ -1743,7 +1743,7 @@ DSBC și VUVG/VTUG au sens pentru linii unde se cere conformitate ISO 15552 clar
 
 ## SMC: ce oferă concret
 
-Din documentația tehnică citită acum, seria de cilindri compacți **CQ2** de la SMC acoperă diametre de la 12 la 100 mm, cu curse standard între 5 și 100 mm, variabile în funcție de diametru. Presiunea maximă de lucru admisă este de 1,0 MPa (aproximativ 10 bar), cu un minim de 0,1 MPa, iar presiunea de probă ajunge la 1,5 MPa. Cilindrul poate fi montat pe partea tijei, pe partea capului sau prin orificii de trecere, iar porturile de admisie variază de la M5x0,8 la 3/8", în funcție de diametru.
+Conform documentației tehnice, seria de cilindri compacți **CQ2** de la SMC acoperă diametre de la 12 la 100 mm, cu curse standard între 5 și 100 mm, variabile în funcție de diametru. Presiunea maximă de lucru admisă este de 1,0 MPa (aproximativ 10 bar), cu un minim de 0,1 MPa, iar presiunea de probă ajunge la 1,5 MPa. Cilindrul poate fi montat pe partea tijei, pe partea capului sau prin orificii de trecere, iar porturile de admisie variază de la M5x0,8 la 3/8", în funcție de diametru.
 
 Pagina oficială de prezentare a gamei SMC listează, pe lângă actuatoare (cilindri liniari, ghidați, rotativi, fără tijă), categorii de distribuitoare (pilotate, cu acționare directă, pneumatice, mecanice) și echipamente de linie de aer (filtre, regulatoare, lubrifiatoare, uscătoare), fără parametri numerici confirmați acum pentru o serie anume de distribuitor.
 
@@ -1770,7 +1770,7 @@ Seria 62/63 are sens ca alternativă directă la un cilindru ISO deja montat, ia
 | Presiune de lucru distribuitoare | 1,5-10 bar | nespecificat în sursă | nespecificat în sursă |
 | Tratare aer documentată | nespecificat în sursă | nespecificat în sursă | Seria MX (FRL), G3/8-G1 |
 
-## Când alegi fiecare brand
+## Când alegeți fiecare brand
 
 Pentru o instalație nouă cu cerință explicită de cilindru ISO 15552, Festo **DSBC** sau Camozzi **Seria 62/63** sunt documentate direct pe acest standard, cu Camozzi acoperind și diametre mai mari (125 mm) și curse mai lungi (2500 mm) în Seria 63.
 
@@ -1780,7 +1780,7 @@ Pentru spațiu de montaj redus sau un cilindru de dimensiune mică, seria **CQ2*
 
 Pentru un ecosistem existent cu distribuitoare Festo, terminalele **VUVG/VTUG** sunt documentate modular, cu variante de lățime și configurație de căi; integrarea într-o instalație deja pe echipamente Festo e mai directă.
 
-Pentru mediu ATEX sau alte zone cu cerințe speciale de siguranță, din paginile citite acum nu am confirmat parametrii de certificare pentru niciunul dintre cele trei branduri, așa că verificăm direct cu producătorul înainte de a propune o serie.
+Pentru mediu ATEX sau alte zone cu cerințe speciale de siguranță, din paginile oficiale nu am confirmat parametrii de certificare pentru niciunul dintre cele trei branduri, așa că verificăm direct cu producătorul înainte de a propune o serie.
 
 ## Ce trebuie să trimiți pentru o ofertă
 
@@ -1809,7 +1809,7 @@ Terminalele **VUVG/VTUG** de la Festo documentează comandă standard pe 24 V c.
 
 Componentele pneumatice de la Festo, SMC și Camozzi nu se țin în stoc pentru toată gama; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, în funcție de serie și disponibilitatea la producător.
 
-Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC și Camozzi, citită la data de 23 septembrie 2026; parametrii exacți pot varia între variantele de execuție și trebuie confirmați pe codul de tip complet înainte de comandă. Lucrăm cu gama acestor producători și putem oferta cilindri, distribuitoare și unități de tratare a aerului din seriile menționate, dar nu ținem pe raft toată gama și nu suntem distribuitor autorizat al niciunuia dintre ei; aducem produsele la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni.
+Informațiile de mai sus provin din documentația tehnică publică a Festo, SMC și Camozzi, citită la data de 23 septembrie 2026; parametrii exacți pot varia între variantele de execuție și trebuie confirmați pe codul de tip complet înainte de comandă. Lucrăm cu gama acestor producători și putem oferta cilindri, distribuitoare și unități de tratare a aerului din seriile menționate, dar nu ținem pe raft toată gama; aducem produsele la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",

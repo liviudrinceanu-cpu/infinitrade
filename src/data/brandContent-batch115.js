@@ -6,7 +6,7 @@ export const brandContentBatch115 = {
     headquarters: "Attendorn, Germania",
     overview: `Viega este un producător german de sisteme pentru instalații de apă, încălzire și scurgere, cu sediul la Attendorn, în landul Renania de Nord-Westfalia. Din portofoliul de peste 17.000 de produse, gama acoperă tehnologie de presare pentru conducte, sisteme de perete prefabricat cu rezervor de clătire încastrat, componente de scurgere și armături vizibile pentru baie, plus soluții pentru instalațiile de apă de la bordul navelor. Pentru piața din România putem oferta din liniile de presare și din gama de amenajare a băii cu plăci de clătire fără atingere.
 
-Ce diferențiază tehnic Viega e combinația dintre îmbinarea prin presare și un indicator vizual de siguranță integrat în fitinguri: o îmbinare nepresată rămâne detectabilă la proba de presiune, înainte ca instalația să fie pusă în funcțiune, ceea ce reduce riscul unei scurgeri ascunse în perete. Gama de perete prefabricat combină structura de montaj cu tehnologia de clătire într-un singur element, gândit pentru băi cu spațiu limitat. Liniile industriale și navale completează oferta acolo unde conductele trebuie să reziste la vibrații.
+Ce diferențiază tehnic Viega e combinația dintre îmbinarea prin presare și un indicator vizual de siguranță integrat în fitinguri: o îmbinare nepresată rămâne detectabilă la proba de presiune, înainte ca instalația să fie pusă în funcțiune, ceea ce reduce riscul unei scurgeri ascunse în perete. Gama de perete prefabricat combină structura de montaj cu tehnologia de clătire într-un singur element, gândit pentru băi cu spațiu limitat. Liniile industriale și navale completează oferta pentru aplicații industriale și navale.
 
 Pentru instalatorii din România, Viega înseamnă un sistem de presare unitar pentru clădiri rezidențiale și comerciale, cu piese compatibile între liniile de apă rece, apă caldă și încălzire, util atât la renovări cât și la proiecte noi.`,
     whyChoose: [
@@ -18,7 +18,7 @@ Pentru instalatorii din România, Viega înseamnă un sistem de presare unitar p
     keyProducts: [
       {
         name: "Sistem de Presare Profipress",
-        description: "Tehnologie de îmbinare prin presare pentru conducte de cupru și oțel inoxidabil, folosită în distribuția de apă rece, apă caldă și în circuite de încălzire pentru clădiri rezidențiale și comerciale. Fitingurile includ un indicator de siguranță care lasă vizibilă la proba de presiune orice îmbinare nepresată din greșeală, înainte ca instalația să fie acoperită. Avantajul practic e viteza de montaj față de sudură sau lipire, fără flacără deschisă pe șantier, util și în renovări."
+        description: "Tehnologie de îmbinare prin presare pentru conducte metalice, folosită în distribuția de apă rece, apă caldă și în circuite de încălzire pentru clădiri rezidențiale și comerciale. Fitingurile includ un indicator de siguranță care lasă vizibilă la proba de presiune orice îmbinare nepresată din greșeală, înainte ca instalația să fie acoperită. Avantajul practic e viteza de montaj față de sudură sau lipire, fără flacără deschisă pe șantier, util și în renovări."
       },
       {
         name: "Armături Viega Visign",
@@ -30,7 +30,7 @@ Pentru instalatorii din România, Viega înseamnă un sistem de presare unitar p
       },
       {
         name: "Viega Marine Systems",
-        description: "Linie de conducte și fitinguri dedicată instalațiilor de apă potabilă, sanitare și de răcire de la bordul navelor comerciale și al platformelor offshore. Sistemele sunt gândite pentru spațiul de montaj restrâns din compartimentele tehnice ale unei nave și pentru expunerea la vibrații permanente din funcționarea motoarelor. Componentele preiau principiul de îmbinare prin presare din gama terestră, adaptat la cerințele construcțiilor navale."
+        description: "Linie de conducte și fitinguri dedicată instalațiilor de la bordul navelor. Detaliile tehnice ale liniei navale se confirmă pe cod, din documentația producătorului."
       }
     ],
     industries: [
@@ -56,7 +56,6 @@ Pentru instalatorii din România, Viega înseamnă un sistem de presare unitar p
       { code: "Tehnologie de presare Viega", description: "familie de fitinguri presate pentru instalații" },
       { code: "Încălzire și răcire prin radiație", description: "circuite pentru încălzire de pardoseală și tavan" },
       { code: "Aplicații industriale Viega", description: "sisteme de conducte adaptate la mediul industrial" },
-      { code: "Linie internațională de produse Viega", description: "variante de produs adaptate pieței locale" }
     ],
     faq: [
       { q: "Ce produce Viega?", a: "Viega este un producător german de sisteme pentru instalații de apă, încălzire și scurgere: fitinguri de presare pentru cupru și inox, structuri de perete prefabricat cu clătire încastrată, armături vizibile de baie și conducte dedicate instalațiilor navale. Portofoliul depășește 17.000 de produse, gândite să funcționeze împreună în aceeași clădire, de la distribuția de apă până la finisajul vizibil din baie." },
@@ -67,8 +66,8 @@ Pentru instalatorii din România, Viega înseamnă un sistem de presare unitar p
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Viega — Homepage", url: "https://www.viega.com/en/homepage.html", publisher: "Viega", accessed: "2026-09-26" },
       { title: "Viega — Competences", url: "https://www.viega.com/en/competences.html", publisher: "Viega", accessed: "2026-09-26" },

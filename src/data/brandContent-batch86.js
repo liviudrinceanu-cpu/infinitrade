@@ -4,7 +4,7 @@ export const brandContentBatch86 = {
   hidrostal: {
     name: "Hidrostal",
     headquarters: "Neunkirch, Elveția",
-    overview: `Hidrostal este un producător elvețian de pompe, cu sediul la Neunkirch, cunoscut pentru rotorul elicoidal (impeller în formă de șurub) folosit la pompele pentru ape uzate și nămoluri cu conținut mare de solide. Gama standard cuprinde opt familii constructive: pompe cu voltă pentru aspirație finală, pompe compacte, pompe submersibile, pompe imersibile, pompe cu cadru de rulment, pompe cu difuzor axial, pompe cu coloană axială și turbine verticale, la care se adaugă mixerele și aeratoarele HidroMix. Pentru piața din România putem oferta din toată această gamă, pe bază de cerere tehnică punctuală transmisă de client.
+    overview: `Hidrostal este un producător elvețian de pompe, cu sediul la Neunkirch, cunoscut pentru rotorul elicoidal (impeller în formă de șurub) folosit la pompele pentru ape uzate și nămoluri cu conținut mare de solide. Gama standard cuprinde opt familii constructive: pompe cu voltă pentru aspirație finală, pompe compacte, pompe submersibile, pompe imersibile, pompe cu cadru de rulment, pompe cu difuzor axial, pompe cu coloană axială și turbine verticale, la care se adaugă sistemul HidroMix de mixare externă a rezervoarelor. Pentru piața din România putem oferta din toată această gamă, pe bază de cerere tehnică punctuală transmisă de client.
 
 Diferența față de o pompă centrifugă clasică stă în forma elicei: canalul deschis, continuu, lasă solidele lungi și fibroase (textile, folii, rădăcini) să treacă fără să se înfășoare pe rotor — fenomenul care blochează frecvent pompele cu paletă radială în stațiile de epurare. Hidrostal declară peste 500 de variante constructive standard, combinabile cu circa 40 de tipuri de motoare sau cadre de rulment, inclusiv motoarele submersibile proprii din familia TUMA. Pe segmentul pompelor submersibile pentru ape uzate, gama se compară direct cu Flygt de la Xylem.
 
@@ -15,13 +15,13 @@ Pentru un operator de apă sau un integrator de stații de pompare din România,
       "Motoare submersibile proprii TUMA, integrate direct în corpul pompei",
       "Montaj flexibil — submersibil, imersibil, cu cadru de rulment sau uscat cu voltă",
       "Sistem mobil SuperBetsy pentru pompare temporară la avarii sau lucrări punctuale",
-      "Linie separată HidroMix de mixere și aeratoare pentru bazine de nămol"
+      "Sistem HidroMix de mixare externă, cu pompă cu rotor elicoidal montată în afara rezervorului, pentru rezervoare de nămol"
     ],
     keyProducts: [
       { name: "Pompe cu Voltă pentru Aspirație Finală", description: "Montaj uscat, cu aspirație finală, cuplare directă sau prin transmisie la motor electric standard. Rotorul elicoidal permite trecerea solidelor fără colmatare, indicată pentru stații de pompare cu acces facil la sala pompelor și mentenanță programată." },
       { name: "Pompe Submersibile", description: "Montaj submersibil cu motor TUMA integrat în corpul pompei, gândite pentru cămine de pompare ape uzate și stații de epurare unde nu există sală tehnică dedicată. Cablul și carcasa sunt etanșate pentru funcționare permanentă în lichid." },
       { name: "Pompe cu Cadru de Rulment", description: "Variantă pentru montaj uscat, cu rulmenți externi și transmisie prin cuplaj sau curea către motor, folosită acolo unde submersia nu este posibilă sau accesul pentru mentenanță trebuie să rămână simplu." },
-      { name: "HidroMix — Mixere și Aeratoare", description: "Linie de mixere și aeratoare submersibile pentru omogenizarea și aerarea bazinelor de nămol activ, complementară pompelor de transfer din aceeași gamă." }
+      { name: "HidroMix — Mixare Externă a Rezervoarelor", description: "Sistem de mixare externă pentru digestoare și rezervoare de nămol: o pompă cu rotor elicoidal Hidrostal, montată în afara rezervorului, aspiră nămolul și îl readuce prin ajutaje, fără structuri metalice în interiorul rezervorului." }
     ],
     industries: [
       "Ape uzate — pompare nămol activ și influent brut în stații de epurare",
@@ -40,14 +40,14 @@ Pentru un operator de apă sau un integrator de stații de pompare din România,
       { code: "Axial Diffuser Pumps", description: "debite mari la înălțimi de pompare reduse" },
       { code: "Axial Column Pump", description: "pompă cu coloană axială pentru stații de drenaj și irigații" },
       { code: "Vertical Turbine Pumps", description: "turbină verticală pentru puțuri și bazine adânci" },
-      { code: "HidroMix", description: "mixere și aeratoare submersibile pentru bazine de nămol" },
+      { code: "HidroMix", description: "sistem de mixare externă cu pompă cu rotor elicoidal, pentru rezervoare de nămol" },
       { code: "SuperBetsy", description: "sistem mobil de pompare independent pentru intervenții temporare" },
-      { code: "PreroClean", description: "sistem compact pentru stații mici de epurare" },
-      { code: "Prerostal", description: "sistem de pretratare și pompare pentru stații mici" },
+      { code: "PreroClean", description: "put de pompare autocurățitor, pentru îndepărtarea solidelor plutitoare și sedimentate" },
+      { code: "Prerostal", description: "bazin de aspirație (wet-well) autocurățitor, cu pompă cu rotor elicoidal Hidrostal" },
       { code: "Floating Pump System", description: "sistem de pompare plutitor pentru bazine și lacuri" }
     ],
     faq: [
-      { q: "Ce produce Hidrostal?", a: "Hidrostal produce pompe cu rotor elicoidal (impeller în formă de șurub) pentru ape uzate, nămoluri și fluide cu conținut mare de solide, alături de mixere și aeratoare submersibile din linia HidroMix. Gama acoperă montaj uscat, submersibil, imersibil sau cu cadru de rulment, în peste 500 de variante constructive standard, potrivite pentru stații de epurare, canalizări cu deșeuri solide și șantiere de epuizare." },
+      { q: "Ce produce Hidrostal?", a: "Hidrostal produce pompe cu rotor elicoidal (impeller în formă de șurub) pentru ape uzate, nămoluri și fluide cu conținut mare de solide, alături de sistemul de mixare externă HidroMix. Gama acoperă montaj uscat, submersibil, imersibil sau cu cadru de rulment, în peste 500 de variante constructive standard, potrivite pentru stații de epurare, canalizări cu deșeuri solide și șantiere de epuizare." },
       { q: "Cum aleg o pompă Hidrostal pentru o stație cu mult nisip și textile?", a: "Alegerea pornește de la debitul și înălțimea de pompare necesare, plus tipul de solide din fluid — pentru textile și fibre lungi, rotorul elicoidal Hidrostal e gândit special ca să evite înfășurarea pe elice. Nisipul abraziv cere materiale rezistente la uzură pe carcasă și rotor, aspect care se stabilește punctual cu producătorul." },
       { q: "Ce echivalent are Hidrostal pentru o pompă Flygt existentă?", a: "Nu publicăm un tabel de echivalență directă, dar principiul de funcționare e comparabil pe segmentul pompelor submersibile pentru ape uzate. Pentru o înlocuire corectă avem nevoie de curba de debit-înălțime a pompei existente și de tipul fluidului, ca să găsim varianta Hidrostal cu parametri apropiați." },
       { q: "Livrați pompe Hidrostal în România și cât durează?", a: "Da, aducem pompe Hidrostal la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea variantei constructive la producător. Nu promitem disponibilitate din depozit, dat fiind numărul mare de combinații disponibile." },
@@ -55,8 +55,8 @@ Pentru un operator de apă sau un integrator de stații de pompare din România,
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Hidrostal: Pioneers in Pump Technology", url: "https://www.hidrostal.com/", publisher: "Hidrostal AG", accessed: "2026-09-25" },
       { title: "Hidrostal pumps l clog-free operation, wide range of applications, 500 standard designs", url: "https://www.hidrostal.com/products.php", publisher: "Hidrostal AG", accessed: "2026-09-25" },
@@ -65,7 +65,7 @@ Pentru un operator de apă sau un integrator de stații de pompare din România,
   micropump: {
     name: "Micropump",
     headquarters: "Vancouver, Washington, SUA",
-    overview: `Micropump este un producător american de pompe cu roți dințate de precizie, cu sediul la Vancouver, Washington, parte din grupul italian CEME. Compania se descrie drept inventatoarea pompei cu roți dințate acționate magnetic, fără etanșare dinamică pe arbore, folosită acolo unde scurgerea sau contaminarea fluidului nu sunt acceptabile. Gama principală include seriile externe cu roți dințate GA, GAH, GB, GC, GD, GJ, GLH, GMH, GNH, GJR și GAF, plus seria centrifugă CA. Pentru piața din România putem oferta din această gamă pe bază de parametri de debit și presiune transmiși de client.
+    overview: `Micropump este un producător american de pompe cu roți dințate de precizie, cu sediul la Vancouver, Washington, parte din grupul italian CEME. Compania a fost fondată de inventatorul pompei cu roți dințate cu cuplare magnetică, soluție fără etanșare dinamică pe arbore, folosită acolo unde scurgerea sau contaminarea fluidului nu sunt acceptabile. Gama principală include seriile externe cu roți dințate GA, GAH, GB, GC, GD, GJ, GLH, GMH, GNH, GJR și GAF, plus seria centrifugă CA. Pentru piața din România putem oferta din această gamă pe bază de parametri de debit și presiune transmiși de client.
 
 Ce diferențiază Micropump e combinația dintre deplasament pozitiv foarte mic (de la 0,017 ml/rotație la seria GA) și cuplare magnetică, ceea ce dă un debit constant, repetabil, la presiuni de sistem de până la 345 bar pentru variantele de înaltă presiune GAH. Seria CA, centrifugă, acoperă turații de până la 6.000 rpm și presiuni de sistem de până la 14 bar, pentru aplicații unde precizia debitului contează mai puțin decât viteza de circulație. Pe segmentul pompelor de precizie miniaturale, gama se compară cu Iwaki.
 
@@ -73,15 +73,15 @@ Pentru un integrator OEM din România, Micropump are sens la dozarea precisă de
     whyChoose: [
       "Cuplare magnetică fără etanșare dinamică pe arbore — fără scurgeri și fără contaminare a fluidului pompat",
       "Deplasament foarte mic per rotație (de la 0,017 ml/rev) pentru dozare de precizie la volume reduse",
-      "Variante de înaltă presiune (GAH, GLH, GMH, GNH) până la 345 bar presiune de sistem",
+      "Varianta de înaltă presiune GAH, până la 345 bar presiune de sistem (GLH, GMH și GNH — până la 103 bar)",
       "Seria centrifugă CA pentru debite mai mari, la turații de până la 6.000 rpm",
-      "Acces la rețeaua tehnică a grupului CEME pentru suport de aplicație"
+      "Parte din grupul CEME"
     ],
     keyProducts: [
       { name: "Seria GA / GAH", description: "Pompe cu roți dințate externe, deplasament de 0,017 până la 0,092 ml/rotație, cu presiune diferențială maximă de 5,2 bar. Varianta GAH păstrează același deplasament dar urcă presiunea de sistem la 345 bar, pentru dozare de precizie la presiuni ridicate în echipamente analitice sau de laborator." },
       { name: "Seria GB / GC / GD", description: "Familie de deplasament mediu, între 0,26 și 3,48 ml/rotație, cu presiuni de sistem între 21 și 103 bar în funcție de model. Folosite pentru circuite de răcire, dozare aditivi și transfer de fluide vâscoase în echipamente OEM." },
       { name: "Seria GJ / GLH / GMH / GNH", description: "Pompe de capacitate mai mare, până la 24,5 ml/rotație la GNH, cu presiuni de sistem de până la 103 bar. GJR este varianta rezistentă la fluide abrazive din aceeași familie constructivă." },
-      { name: "Seria Centrifugă CA", description: "Pompă centrifugă cu tehnologie de cuplare dinamică, turație recomandată de până la 6.000 rpm și presiune de sistem maximă de 14 bar, pentru circulația de fluide la debite mai mari decât permit seriile cu roți dințate." }
+      { name: "Seria Centrifugă CA", description: "Pompă centrifugă cu antrenare magnetică, turație recomandată de până la 6.000 rpm și presiune de sistem maximă de 14 bar, pentru circulația de fluide la debite mai mari decât permit seriile cu roți dințate." }
     ],
     industries: [
       "Imprimerie textilă și ceramică — dozare cerneluri de precizie",
@@ -115,8 +115,8 @@ Pentru un integrator OEM din România, Micropump are sens la dozarea precisă de
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Micropump — Fluid handling technology company overview", url: "https://www.micropump.com", publisher: "Micropump, Inc.", accessed: "2026-09-25" },
       { title: "Micropump Series — Pump products", url: "https://micropump.com/products/pumps", publisher: "Micropump, Inc.", accessed: "2026-09-25" },
@@ -127,21 +127,21 @@ Pentru un integrator OEM din România, Micropump are sens la dozarea precisă de
     headquarters: "Ransbach-Baumbach, Germania",
     overview: `Munsch Chemie-Pumpen este un producător german de pompe centrifuge din material plastic, cu sediul la Ransbach-Baumbach, specializat pe transportul mediilor agresive și abrazive care ar coroda o pompă metalică. Gama orizontală cuprinde seriile NPC+ (universală), NPC Mammut (debite peste 1.000 m³/h) și NP, la care se adaugă variantele cu cuplaj magnetic CM+ și ECM+ pentru fluide periculoase pentru mediu sau sănătate. Seriile verticale TPC, TPC-M și TNP-KL completează oferta. Pentru piața din România putem oferta din această gamă, pe bază de fluidul procesat și parametrii tehnici ceruți de aplicație.
 
-Elementul care diferențiază Munsch e materialul: toate părțile udate sunt din plastic (nu doar căptușite), soluție aleasă acolo unde metalul, chiar și inoxul sau aliajele speciale, ar ceda în timp la acid, bază concentrată sau soluție de sărare. Seria TNP-KL, de exemplu, acoperă un domeniu de debit de la 2 la 700 m³/h cu toate componentele umede din plastic solid. Variantele cu cuplaj magnetic CM+ elimină etanșarea mecanică pentru fluide unde o scurgere ar fi inacceptabilă. Pe segmentul pompelor de proces chimic din plastic, gama se compară cu Netzsch.
+Elementul care diferențiază Munsch e materialul: părțile în contact cu fluidul sunt din materiale plastice (PP, PVDF, PE-UHMW sau PFA, în funcție de serie), soluție aleasă acolo unde metalul, chiar și inoxul sau aliajele speciale, ar ceda în timp la acid, bază concentrată sau soluție de sărare. Seria TNP-KL, de exemplu, acoperă un domeniu de debit de la 2 la 700 m³/h cu toate componentele umede din plastic solid. Variantele cu cuplaj magnetic CM+ elimină etanșarea mecanică pentru fluide unde o scurgere ar fi inacceptabilă. 
 
 Pentru un inginer de proces din industria chimică sau de tratare a suprafețelor metalice din România, Munsch are sens la fluidele care distrug rapid garniturile și carcasele metalice — băi de decapare, soluții de galvanizare, acizi concentrați — unde durata de viață a unei pompe metalice ar fi prea scurtă.`,
     whyChoose: [
-      "Toate componentele udate din plastic solid, nu doar căptușite, pentru rezistență completă la coroziune",
+      "Părți în contact cu fluidul din materiale plastice (PP, PVDF, PE-UHMW sau PFA, în funcție de serie), pentru rezistență la coroziune",
       "Variante cu cuplaj magnetic CM+ și ECM+, fără etanșare mecanică pentru fluide periculoase",
       "Seria NPC Mammut acoperă debite de peste 1.000 m³/h în condiții extreme de proces",
       "Seria verticală TNP-KL acoperă un domeniu larg de debit, de la 2 la 700 m³/h",
       "Variante close-coupled (CS-B, NP-B, CM-B) pentru montaj compact fără cadru de rulment separat"
     ],
     keyProducts: [
-      { name: "Seria NPC+", description: "Pompă centrifugă orizontală cu etanșare mecanică, descrisă de producător ca soluție universală pentru condiții de proces corozive și abrazive. Toate componentele udate sunt din plastic solid, potrivite pentru un spectru larg de fluide chimice de concentrație variabilă." },
+      { name: "Seria NPC+", description: "Pompă centrifugă orizontală cu etanșare mecanică, descrisă de producător ca soluție universală pentru condiții de proces corozive și abrazive. Componentele în contact cu fluidul sunt din materiale plastice, potrivite pentru un spectru larg de fluide chimice; materialul exact îl confirmăm pe baza fluidului și a concentrației." },
       { name: "Seria NPC Mammut", description: "Variantă de capacitate mare din aceeași familie NPC, pentru debite de peste 1.000 m³/h în condiții de proces extreme, acolo unde volumul mare de fluid trebuie transportat fără compromisuri de material." },
       { name: "Seriile CM+ / ECM+", description: "Pompe orizontale cu cuplaj magnetic, fără etanșare mecanică pe arbore, pentru pomparea în siguranță a fluidelor cu risc pentru mediu sau sănătate. ECM+ este varianta economică pentru aplicații standard, iar CM+ acoperă cerințe mai stricte de etanșeitate." },
-      { name: "Seria Verticală TNP-KL", description: "Pompă verticală tip cantilever, cu toate părțile umede din plastic solid, acoperind un domeniu de debit de la 2 la 700 m³/h, folosită pentru fluide corozive cu conținut ridicat de solide." }
+      { name: "Seria Verticală TNP-KL", description: "Pompă centrifugă verticală cu carcasă spirală, cu toate părțile umede din plastic (PP, PE-UHMW sau PVDF), cu domeniu de debit de la 2 la 700 m³/h, folosită pentru fluide corozive sau abrazive, inclusiv ape uzate încărcate cu solide." }
     ],
     industries: [
       "Chimie de proces — transfer acizi și baze concentrate",
@@ -166,16 +166,16 @@ Pentru un inginer de proces din industria chimică sau de tratare a suprafețelo
       { code: "TNP-series", description: "familie verticală close-coupled" }
     ],
     faq: [
-      { q: "Ce produce Munsch Chemie-Pumpen?", a: "Munsch produce pompe centrifuge orizontale și verticale realizate integral din plastic solid, pentru medii chimice agresive și abrazive care ar coroda rapid o pompă metalică. Gama include variante cu etanșare mecanică și variante cu cuplaj magnetic fără etanșare dinamică." },
+      { q: "Ce produce Munsch Chemie-Pumpen?", a: "Munsch produce pompe centrifuge orizontale și verticale cu părțile în contact cu fluidul din materiale plastice, pentru medii chimice agresive și abrazive care ar coroda rapid o pompă metalică. Gama include variante cu etanșare mecanică și variante cu cuplaj magnetic fără etanșare dinamică." },
       { q: "Cum aleg o pompă Munsch Chemie-Pumpen pentru un acid concentrat?", a: "Alegerea depinde de tipul acidului, concentrația și temperatura de lucru, care determină compatibilitatea materialului plastic. Pentru fluide cu risc ridicat pentru sănătate sau mediu, varianta cu cuplaj magnetic CM+ elimină riscul de scurgere pe etanșarea arborelui." },
       { q: "Livrați pompe Munsch în România?", a: "Da, aducem pompe Munsch la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni în funcție de configurația de material și etanșare. Fiecare unitate se configurează pe fluidul specific, nu ținem variante generice pe stoc." },
-      { q: "Ce echivalent are Munsch față de o pompă Netzsch existentă?", a: "Nu publicăm un tabel de echivalență directă între branduri, dar ambele acoperă segmentul pompelor de proces chimic. Pentru o comparație corectă avem nevoie de fluidul pompat, debitul, presiunea de refulare și materialul actual al pompei pe care vreți să o înlocuiți." },
+      { q: "Ce echivalent are Munsch pentru o pompă din plastic existentă, de altă marcă?", a: "Nu publicăm un tabel de echivalență directă între branduri. Pentru o comparație corectă avem nevoie de fluidul pompat, debitul, presiunea de refulare și materialul actual al pompei pe care vreți să o înlocuiți." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Munsch?", a: "Trimiteți tipul fluidului, concentrația, temperatura de lucru și debitul necesar. Aceste date determină seria potrivită (NPC+, CM+ sau TNP-KL) și tipul de plastic compatibil cu fluidul dumneavoastră." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "MUNSCH Chemie-Pumpen GmbH — Hersteller von Kunststoffpumpen", url: "https://www.munsch.de", publisher: "MUNSCH Chemie-Pumpen GmbH", accessed: "2026-09-25" },
       { title: "MUNSCH — Products", url: "https://www.munsch.de/en/products/", publisher: "MUNSCH Chemie-Pumpen GmbH", accessed: "2026-09-25" },
@@ -183,9 +183,9 @@ Pentru un inginer de proces din industria chimică sau de tratare a suprafețelo
   },
   "neptune-chemical-pump": {
     name: "Neptune Chemical Pump",
-    overview: `Neptune Chemical Pump este un producător american de pompe dozatoare, parte din grupul PSG/Dover Corporation, cu aproape 60 de ani de activitate în domeniu. Gama principală de pompe hidraulice cu diafragmă cuprinde seriile 500-A, 500-D, 500-E, 500-S și 500-VS, la care se adaugă seria 560 și perechea 5005/5003 pentru debite mici, plus seriile mecanice MP7000 și MP7100 și seria electronică PZ. Pentru piața din România putem oferta din această gamă pe bază de debit și presiune necesare.
+    overview: `Neptune Chemical Pump este un producător american de pompe dozatoare, parte din grupul PSG/Dover Corporation, cu aproape 60 de ani de activitate în domeniu. Gama principală de pompe hidraulice cu diafragmă cuprinde seriile 500-A, 500-D, 500-E, 500-S și 500-VS, la care se adaugă seria 560 și perechea 5005/5003, plus seriile mecanice MP7000 și MP7100 și seria electronică PZ. Pentru piața din România putem oferta din această gamă pe bază de debit și presiune necesare.
 
-Diferența dintre seriile 500 stă în combinația debit-presiune: seria 500-A merge de la 0,80 la 18,0 galoane pe oră la 1.100 psi, în timp ce 500-D (configurație duplex) urcă la 68,0 galoane pe oră la 3.000 psi, iar 500-VS (înaltă vâscozitate) acoperă până la 58 de galoane pe oră la 900 psi. Toate sunt disponibile în oțel inoxidabil 316, PVC, Kynar sau alte materiale, în funcție de compatibilitatea chimică cerută de fluidul dozat. Pe segmentul pompelor dozatoare industriale, gama se compară cu ProMinent.
+Diferența dintre seriile 500 stă în combinația debit-presiune: seria 500-A merge de la 0,80 la 18,0 galoane pe oră la 1.100 psi, în timp ce 500-D (configurație duplex) urcă la 68,0 galoane pe oră la 3.000 psi, iar 500-VS (înaltă vâscozitate) acoperă până la 58 de galoane pe oră la 900 psi. Majoritatea sunt disponibile în oțel inoxidabil 316, PVC, Kynar sau alte materiale (500-VS doar în inox 316), în funcție de compatibilitatea chimică cerută de fluidul dozat. Pe segmentul pompelor dozatoare industriale, gama se compară cu ProMinent.
 
 Pentru un operator de tratare a apei sau un integrator de proces din România, Neptune are sens la dozarea chimică de precizie — coagulanți, dezinfectanți, corectori de pH — unde presiunea de refulare mare (până la 3.000 psi la seria 500-D) și materialul compatibil cu fluidul contează mai mult decât debitul total.`,
     whyChoose: [
@@ -218,12 +218,12 @@ Pentru un operator de tratare a apei sau un integrator de proces din România, N
       { code: "500-S Series", description: "0,80–34,0 gph, presiune max. 3.000 psi" },
       { code: "500-VS Series", description: "vâscozitate ridicată, până la 58 gph" },
       { code: "560 Series", description: "40,0–188,0 gph, presiune max. 350 psi" },
-      { code: "5005 Series", description: "pompă hidraulică de debit redus" },
-      { code: "5003 Series", description: "pompă hidraulică de debit redus" },
+      { code: "5005 Series", description: "pompă dozatoare hidraulică" },
+      { code: "5003 Series", description: "pompă dozatoare hidraulică" },
       { code: "600 Series", description: "pompă hidraulică pentru dozare industrială" },
-      { code: "6000 Series", description: "variantă de capacitate a seriei 600" },
+      { code: "6000 Series", description: "pompă dozatoare hidraulică" },
       { code: "MP7000 Series", description: "pompă dozatoare cu acționare mecanică" },
-      { code: "MP7100 Series", description: "pompă dozatoare mecanică, variantă extinsă" },
+      { code: "MP7100 Series", description: "pompă dozatoare mecanică cu diafragmă" },
       { code: "PZ Series", description: "pompă dozatoare cu acționare electronică" }
     ],
     faq: [
@@ -234,8 +234,8 @@ Pentru un operator de tratare a apei sau un integrator de proces din România, N
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Chemical Metering Pumps & Feed Systems | Neptune | PSG", url: "https://www.psgdover.com/neptune", publisher: "PSG / Dover Corporation", accessed: "2026-09-25" },
       { title: "Hydraulic Metering Pump - 500 | Neptune", url: "https://www.psgdover.com/neptune/products/metering-pumps/hydraulic-diaphragm-pumps/500-series", publisher: "PSG / Dover Corporation", accessed: "2026-09-25" },
@@ -258,8 +258,8 @@ Pentru un operator de tratare a apei sau un integrator de proces chimic din Rom�
       "Parte din grupul IDEX Corporation, cu acces la rețeaua globală de piese și suport"
     ],
     keyProducts: [
-      { name: "Pompe cu Diafragmă PulsaPro / Pulsa / Pulsatron", description: "Familie de pompe dozatoare acționate hidraulic sau prin solenoid, pentru dozare chimică de precizie în tratarea apei și procese industriale. PulsaPro acoperă aplicații de fiabilitate ridicată, iar Pulsatron este linia orientată spre aplicații municipale și industriale generale." },
-      { name: "Pompe cu Roți Dințate Eclipse / IsoChem", description: "Pompe rotative cu roți dințate pentru transferul de fluide vâscoase la debit constant, fără pulsații semnificative. IsoChem este construită pentru compatibilitate chimică extinsă, iar Eclipse Pro adaugă opțiuni suplimentare de etanșare pentru fluide agresive." },
+      { name: "Pompe cu Diafragmă PulsaPro / Pulsa / Pulsatron", description: "Familie de pompe dozatoare cu diafragmă, acționate hidraulic (PulsaPro, Pulsa, Pulsar) sau prin solenoid (Pulsatron), pentru dozare chimică de precizie în tratarea apei și procese industriale." },
+      { name: "Pompe cu Roți Dințate Eclipse / IsoChem", description: "Pompe rotative cu roți dințate pentru transferul de fluide vâscoase la debit constant, fără pulsații semnificative. Gama include modelele Eclipse, Eclipse Pro, ECO și IsoChem; caracteristicile fiecărui model le confirmăm pe cod, din documentația Pulsafeeder." },
       { name: "Pompe Peristaltice Mec-O-Matic / Periflo", description: "Pompe cu tub flexibil, potrivite pentru fluide abrazive, cu conținut de solide sau sensibile la forfecare, unde fluidul nu intră în contact cu piesele mecanice interne, doar cu tubul de pompare." },
       { name: "Pompe Centrifuge Eastern Centrichem / IsoChem Centrifugal", description: "Pompe centrifuge de proces pentru transfer de fluide chimice la debit mare și presiune moderată, complementare liniilor de dozare de precizie din restul gamei." }
     ],
@@ -277,15 +277,15 @@ Pentru un operator de tratare a apei sau un integrator de proces chimic din Rom�
       { code: "PulsaPro", description: "pompă cu diafragmă hidraulică, fiabilitate ridicată" },
       { code: "Pulsa Series", description: "pompă dozatoare cu diafragmă hidraulică" },
       { code: "Pulsar", description: "pompă dozatoare cu diafragmă, gamă industrială" },
-      { code: "NextStep", description: "pompă dozatoare cu diafragmă, control digital" },
-      { code: "Pulsatron", description: "pompă dozatoare cu solenoid, aplicații municipale" },
-      { code: "Blackline", description: "pompă dozatoare economică cu solenoid" },
-      { code: "GreenLine", description: "pompă dozatoare cu solenoid, gamă compactă" },
+      { code: "NextStep", description: "pompă dozatoare cu diafragmă, acționare electronică cu motor pas cu pas" },
+      { code: "Pulsatron", description: "pompă dozatoare cu diafragmă, acționare cu solenoid" },
+      { code: "Blackline", description: "pompă dozatoare cu diafragmă, acționare mecanică" },
+      { code: "GreenLine", description: "pompă dozatoare cu diafragmă, acționare mecanică" },
       { code: "Chem-Tech", description: "pompă dozatoare cu diafragmă mecanică" },
       { code: "Eclipse", description: "pompă rotativă cu roți dințate" },
-      { code: "Eclipse Pro", description: "roți dințate, opțiuni extinse de etanșare" },
+      { code: "Eclipse Pro", description: "pompă rotativă cu roți dințate" },
       { code: "ECO", description: "pompă rotativă cu roți dințate, gamă economică" },
-      { code: "IsoChem", description: "roți dințate, compatibilitate chimică extinsă" },
+      { code: "IsoChem", description: "pompă rotativă cu roți dințate" },
       { code: "Mec-O-Matic", description: "pompă peristaltică pentru fluide abrazive" },
       { code: "Periflo", description: "pompă peristaltică, gamă industrială" },
       { code: "Eastern Centrichem", description: "pompă centrifugă de proces chimic" },
@@ -300,8 +300,8 @@ Pentru un operator de tratare a apei sau un integrator de proces chimic din Rom�
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     certifications: [ "ISO 9001 — declarată de producător pentru facilitățile de fabricație" ],
     sources: [
       { title: "Pulsafeeder — Delivering the Chemistry", url: "https://pulsafeeder.com", publisher: "Pulsafeeder, Inc. (IDEX Corporation)", accessed: "2026-09-25" },
@@ -313,20 +313,20 @@ Pentru un operator de tratare a apei sau un integrator de proces chimic din Rom�
     founded: 1957,
     overview: `Richter Chemie-Technik este un producător german de pompe și armături căptușite cu fluoroplastic, activ din 1957, specializat pe echipamente pentru chimia de bază, specială și fină. Gama de pompe centrifuge cuprinde seriile MNK (heavy duty cu antrenare magnetică), MPB (chimică periferică cu antrenare magnetică), QMD (căptușeală integrală din fluoroplastic), RMI/RMA (performanță medie) și SCK (etanșare mecanică). La acestea se adaugă o gamă largă de robinete cu bilă și fluture căptușite: BVA, KA-N, KK, KN/KNA, KNR/KNAR, TE/F, NKS/NKL. Pentru piața din România putem oferta din această gamă, în funcție de fluidul de proces și parametrii tehnici indicați de client.
 
-Ce diferențiază Richter e căptușeala integrală cu fluoroplastic (PFA/PTFE) atât la pompe, cât și la armături, soluție folosită acolo unde fluidul e prea coroziv chiar și pentru oțelurile speciale sau aliajele nobile — acizi concentrați, cloruri, soluții oxidante. Seria de robinete fluture NKS/NKL păstrează aceeași filozofie de căptușeală completă. Producătorul declară conformitate cu standardul EN 17955 pentru aplicații SIL, conformitate FDA și certificare TA-Luft pentru emisii. Pe segmentul pompelor și armăturilor căptușite cu plastic, gama se compară cu Netzsch.
+Ce diferențiază Richter e căptușeala integrală cu fluoroplastic (PFA/PTFE) atât la pompe, cât și la armături, soluție folosită acolo unde fluidul e prea coroziv chiar și pentru oțelurile speciale sau aliajele nobile — acizi concentrați, cloruri, soluții oxidante. Seria de robinete fluture NKS/NKL păstrează aceeași filozofie de căptușeală completă. Pentru armături, producătorul declară un portofoliu certificat conform EN 17955 pentru aplicații SIL, iar pentru armăturile PFA-L conformitate FDA și certificare TA-Luft pentru emisii. 
 
 Pentru un inginer de proces din chimia fină sau farmaceutică din România, Richter are sens la fluidele foarte corozive sau la aplicațiile unde puritatea produsului contează la fel de mult ca rezistența chimică — căptușeala din fluoroplastic nu cedează particule metalice în fluidul de proces.`,
     whyChoose: [
       "Căptușeală integrală din fluoroplastic (PFA/PTFE) la pompe și armături, pentru fluide extrem de corozive",
       "Variante cu antrenare magnetică (MNK, MPB) fără etanșare dinamică pe arbore",
-      "Conformitate declarată cu EN 17955 pentru aplicații de siguranță (SIL)",
-      "Certificare TA-Luft pentru limitarea emisiilor la echipamentele de proces",
+      "Portofoliu de armături certificat conform EN 17955 pentru aplicații de siguranță (SIL)",
+      "Certificare TA-Luft pentru armăturile PFA-L, pentru limitarea emisiilor",
       "Gamă largă de robinete cu bilă și fluture căptușite, complementară pompelor din același brand"
     ],
     keyProducts: [
       { name: "Pompe Centrifuge cu Antrenare Magnetică MNK / MPB", description: "MNK este varianta heavy duty pentru condiții de proces solicitante, iar MPB acoperă aplicații chimice periferice, ambele fără etanșare mecanică pe arbore, cu carcasă și rotor căptușite din fluoroplastic pentru rezistență la coroziune completă." },
       { name: "Pompă cu Căptușeală Integrală QMD", description: "Pompă centrifugă cu căptușeală completă din fluoroplastic pe toate componentele umede, pentru fluide unde chiar și un contact minim cu metalul de bază ar fi inacceptabil pentru calitatea produsului sau durata de viață a pompei." },
-      { name: "Pompe de Proces RMI / RMA", description: "Familie de pompe centrifuge pentru performanță medie, folosite pe scară largă în instalații chimice unde cerințele de rezistență chimică sunt ridicate, dar fără nevoia de antrenare magnetică specială." },
+      { name: "Pompe de Proces RMI / RMA", description: "Familie de pompe centrifuge cu antrenare magnetică, de performanță medie, folosite în instalații chimice unde cerințele de rezistență chimică sunt ridicate." },
       { name: "Robinete cu Bilă și Fluture Căptușite", description: "Gama BVA, KK, KN/KNA pentru robinete cu bilă în standard ASME/ANSI sau ISO/DIN, respectiv NKS/NKL pentru robinete fluture, toate cu căptușeală din PFA sau PTFE, complementare pompelor din aceeași linie de proces." }
     ],
     industries: [
@@ -337,8 +337,8 @@ Pentru un inginer de proces din chimia fină sau farmaceutică din România, Ric
       "Industria hârtiei — transfer soluții de albire și tratare"
     ],
     certifications: [
-      "EN 17955 — conformitate declarată pentru aplicații SIL",
-      "TA-Luft — certificare pentru limitarea emisiilor",
+      "EN 17955 — portofoliu de armături certificat pentru aplicații SIL",
+      "TA-Luft — certificare pentru armăturile PFA-L, pentru limitarea emisiilor",
     ],
     infinitrade: `Pentru Richter, ce putem confirma vine din pagina de produse a producătorului: seriile de pompe MNK, MPB, QMD, RMI/RMA, SCK și robinetele căptușite BVA, KK, KN/KNA, NKS/NKL, fără date proprii de stoc pentru fiecare configurație de căptușeală. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de căptușeală și dimensiunea cerută. Nu ținem această gamă pe raft — fiecare pompă sau robinet se alege pe baza fluidului exact și a condițiilor de proces. Pentru ofertă, trimiteți fluidul, concentrația, temperatura de lucru și diametrul nominal necesar.`,
     limitation: "Nu putem confirma parametrii de debit și presiune pentru fiecare model, deoarece pagina de produse listează denumirile seriilor fără fișe tehnice publice complete.",
@@ -346,28 +346,28 @@ Pentru un inginer de proces din chimia fină sau farmaceutică din România, Ric
       { code: "MNK", description: "pompă heavy duty cu antrenare magnetică" },
       { code: "MPB", description: "pompă chimică periferică, antrenare magnetică" },
       { code: "QMD", description: "pompă cu căptușeală integrală din fluoroplastic" },
-      { code: "RMI/RMA", description: "pompă de proces, performanță medie" },
+      { code: "RMI/RMA", description: "pompă de proces cu antrenare magnetică, performanță medie" },
       { code: "SCK", description: "pompă centrifugă cu etanșare mecanică" },
       { code: "BVA", description: "robinet cu bilă, standard ASME/ANSI" },
       { code: "KA-N", description: "robinet cu bilă, drenaj inferior" },
       { code: "KK", description: "robinet cu bilă compact ISO/DIN" },
       { code: "KN/KNA", description: "robinet cu bilă flanșat, ISO/DIN și ASME/ANSI" },
       { code: "KNR/KNAR", description: "robinet cu bilă pentru sarcini de control" },
-      { code: "TE/F", description: "robinet de picior" },
+      { code: "TE/F", description: "robinet de fund de rezervor" },
       { code: "NKS/NKL", description: "robinet fluture căptușit PFA/PTFE" },
       { code: "NKS-T/F", description: "robinet fluture stil wafer" }
     ],
     faq: [
       { q: "Ce produce Richter Chemie-Technik?", a: "Richter produce pompe centrifuge și armături (robinete cu bilă și fluture) căptușite cu fluoroplastic PFA sau PTFE, pentru fluide chimice extrem de corozive din chimia de bază, specială și fină. Unele pompe folosesc antrenare magnetică pentru a elimina etanșarea dinamică pe arbore." },
       { q: "Cum aleg o pompă Richter pentru un acid foarte coroziv?", a: "Pentru coroziune extremă, seria QMD cu căptușeală integrală din fluoroplastic sau varianta cu antrenare magnetică MNK sunt punctul de plecare, în funcție de dacă aveți nevoie și de eliminarea completă a etanșării dinamice. Alegerea finală depinde de concentrația acidului și temperatura de lucru." },
-      { q: "Ce certificări are Richter Chemie-Technik?", a: "Producătorul declară conformitate cu EN 17955 pentru aplicații de siguranță (SIL) și certificare TA-Luft pentru limitarea emisiilor la echipamentele de proces, relevante pentru instalații chimice cu cerințe stricte de mediu." },
+      { q: "Ce certificări are Richter Chemie-Technik?", a: "Producătorul declară pentru armăturile sale un portofoliu certificat conform EN 17955 pentru aplicații de siguranță (SIL) și, pentru armăturile PFA-L, certificare TA-Luft pentru limitarea emisiilor, relevante pentru instalații chimice cu cerințe stricte de mediu." },
       { q: "Livrați echipamente Richter în România?", a: "Da, livrăm pompe și armături Richter la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de căptușeală și dimensiune. Nu ținem această gamă pe raft, fiecare configurație fiind specifică fluidului de proces." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă sau robinet Richter?", a: "Trimiteți fluidul de proces, concentrația, temperatura de lucru și diametrul nominal necesar pentru robinete, respectiv debitul și presiunea pentru pompe. Cu aceste date recomandăm seria potrivită din gama Richter." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "RICHTER Chemie-Technik GmbH — Home", url: "https://www.richter-ct.com", publisher: "RICHTER Chemie-Technik GmbH", accessed: "2026-09-25" },
       { title: "RICHTER — Products", url: "https://www.richter-ct.com/en/products", publisher: "RICHTER Chemie-Technik GmbH", accessed: "2026-09-25" },
@@ -388,10 +388,10 @@ Pentru un integrator de instalații petrochimice sau energetice din România, Ru
       "Centru de instruire tehnică propriu la Witten, Germania"
     ],
     keyProducts: [
-      { name: "Pompe Overhung API — Seria SCE", description: "Pompe centrifuge de tip overhung, proiectate conform standardelor API, pentru procese grele din rafinării și industria petrolieră. Variantele SCE-L și SCE-M acoperă cerințe specifice de debit ridicat, respectiv antrenare dedicată." },
+      { name: "Pompe Overhung API — Seria SCE", description: "Pompe centrifuge de tip overhung, proiectate conform standardelor API, pentru procese grele din rafinării și industria petrolieră. Varianta SCE-L este destinată înălțimilor mari de pompare la debit mic (HHLF, high head low flow), iar SCE-M este varianta cu antrenare magnetică." },
       { name: "Pompe de Proces ISO — Seria CRP", description: "Pompe centrifuge conforme standardului ISO pentru piața industrială europeană, cu variante CRP-M și CRP-M-CC cu antrenare magnetică, fără etanșare dinamică, pentru pomparea în siguranță a fluidelor cu risc de mediu." },
-      { name: "Pompe Vertical In-Line IIL / IVP", description: "Pompe verticale compacte, montate direct pe conductă, pentru instalații cu spațiu limitat la sol. Varianta IVP-CC adaugă opțiuni de cuplaj pentru cerințe specifice de antrenare." },
-      { name: "Pompe Reciprocante RDP", description: "Pompe cu piston, în configurație triplex sau quintuplex, folosite în sisteme hidraulice de decocare pentru curățarea cuptoarelor de proces din rafinării." }
+      { name: "Pompe Vertical In-Line IIL / IVP", description: "Pompe verticale compacte, montate direct pe conductă, pentru instalații cu spațiu limitat la sol. Varianta IVP-CC este construită cu motor etanș (canned motor)." },
+      { name: "Pompe Reciprocante RDP", description: "Pompe cu piston (reciprocante), folosite în sisteme hidraulice de decocare, adică de tăiere a cocsului, în rafinării." }
     ],
     industries: [
       "Petrol și gaze — inclusiv aplicații offshore",
@@ -410,20 +410,20 @@ Pentru un integrator de instalații petrochimice sau energetice din România, Ru
     productCodes: [
       { code: "CPO", description: "pompă de proces ANSI, tip overhung" },
       { code: "CPP", description: "pompă de proces ANSI, tip overhung" },
-      { code: "CPP-L", description: "variantă CPP de debit mai mare" },
+      { code: "CPP-L", description: "variantă a seriei CPP, pompă de proces ANSI" },
       { code: "CRP", description: "pompă de proces ISO, tip overhung" },
       { code: "CRP-M", description: "pompă cu antrenare magnetică, standard ISO" },
-      { code: "CRP-M-CC", description: "antrenare magnetică, variantă compactă" },
+      { code: "CRP-M-CC", description: "pompă de proces fără etanșare, cu motor etanș (canned motor)" },
       { code: "GSD", description: "pompă de uz general" },
       { code: "GWP", description: "pompă autoamorsantă de uz general" },
       { code: "IIL", description: "pompă verticală in-line" },
       { code: "IVP", description: "pompă verticală in-line" },
-      { code: "IVP-CC", description: "verticală in-line, variantă compactă" },
+      { code: "IVP-CC", description: "verticală in-line, cu motor etanș (canned motor)" },
       { code: "IPP", description: "pompă de proces industrial" },
       { code: "PS", description: "pompă cu aspirație finală" },
       { code: "SCE", description: "pompă de proces API" },
-      { code: "SCE-L", description: "variantă SCE de debit mare" },
-      { code: "SCE-M", description: "variantă SCE cu antrenare dedicată" },
+      { code: "SCE-L", description: "variantă SCE pentru înălțime mare și debit mic (HHLF)" },
+      { code: "SCE-M", description: "variantă SCE cu antrenare magnetică" },
       { code: "ZW", description: "pompă centrifugă cu rulmenți pe ambele părți" },
       { code: "RDP", description: "pompă reciprocantă pentru decocare" }
     ],
@@ -436,8 +436,8 @@ Pentru un integrator de instalații petrochimice sau energetice din România, Ru
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Ruhrpumpen — Pumps and Pumping Systems", url: "https://www.ruhrpumpen.com", publisher: "Ruhrpumpen Group", accessed: "2026-09-25" },
       { title: "Ruhrpumpen — Products / Overhung Pumps", url: "https://www.ruhrpumpen.com/en-us/products/overhung-pumps", publisher: "Ruhrpumpen Group", accessed: "2026-09-25" },
@@ -446,7 +446,7 @@ Pentru un integrator de instalații petrochimice sau energetice din România, Ru
   "spp-pumps": {
     name: "SPP Pumps",
     headquarters: "Coleford, Marea Britanie",
-    overview: `SPP Pumps este un producător britanic de pompe centrifuge industriale, cu sediul la Coleford, Gloucestershire, cu o istorie declarată de peste 150 de ani în domeniu. Gama include pompe API 610 (OH2-HZC, OH3-ETLS, OH5-ETL, VS4-TAZN), pompe de proces industrial (XF300/XF400, ACE, KFL10X, Q-Series), pompe de incendiu (Hydraflow Range) și pompe verticale/submersibile pentru foraje (Pleuger Industries, seriile Unistream, Eurostream, Instream, Aquastream, Hydrostream, Thrustream). Pentru piața din România putem oferta din această gamă, în funcție de fluidul vehiculat și parametrii de proces ai instalației.
+    overview: `SPP Pumps este un producător britanic de pompe centrifuge industriale, cu sediul la Coleford, Gloucestershire, cu 150 de ani de experiență declarați în domeniu. Gama include pompe API 610 (OH2-HZC, OH3-ETLS, OH5-ETL, VS4-TAZN), pompe pentru drenaj (XF300/XF400, ACE, KFL10X, Q-Series), pompe de incendiu (Hydraflow Range) și pompe submersibile pentru foraje (Pleuger Industries) și pompe centrifuge standard (seriile Unistream, Eurostream, Instream, Aquastream, Hydrostream, Thrustream). Pentru piața din România putem oferta din această gamă, în funcție de fluidul vehiculat și parametrii de proces ai instalației.
 
 Ce diferențiază SPP Pumps e acoperirea simultană a segmentelor de proces industrial și de protecție la incendiu sub același brand, plus gama Pleuger de pompe submersibile pentru foraje adânci. Seriile OH2, OH3 și OH5 urmează standardul API 610, relevant pentru rafinării și platforme industriale grele, în timp ce gama Hydraflow acoperă cerințele de debit constant pentru sisteme de stins incendiu. Pe segmentul pompelor centrifuge industriale, gama se compară cu KSB.
 
@@ -455,14 +455,14 @@ Pentru un integrator de instalații industriale sau de protecție la incendiu di
       "Acoperă simultan procesul industrial API 610 și sistemele de pompare pentru incendiu",
       "Gama Pleuger Industries pentru pompe submersibile la foraje și puțuri adânci",
       "Seriile OH2, OH3 și OH5 proiectate conform standardului API 610",
-      "Portofoliu extins de pompe verticale (Unistream, Eurostream, Instream) pentru diverse aplicații de foraj",
-      "Peste 150 de ani de activitate declarați în fabricația de pompe centrifuge"
+      "Portofoliu extins de pompe centrifuge standard (Unistream, Eurostream, Instream, Aquastream, Hydrostream, Thrustream)",
+      "150 de ani de experiență declarați în domeniul pompelor"
     ],
     keyProducts: [
-      { name: "Pompe API 610 — Seriile OH2-HZC / OH3-ETLS / OH5-ETL", description: "Familie de pompe centrifuge de proces, proiectate conform standardului API 610, pentru rafinării și instalații petrochimice. OH2 e configurația de bază, OH3 adaugă cerințe extinse de etanșare, iar OH5 acoperă aplicații de proces cu cerințe mai stricte de fiabilitate." },
-      { name: "Pompe de Proces Industrial XF / ACE / Q-Series", description: "Gamă de pompe centrifuge pentru procese industriale generale, cu variante XF300 și XF400 pentru debite diferite, complementate de seriile ACE și Q-Series pentru aplicații standard de transfer de fluide." },
+      { name: "Pompe API 610 — Seriile OH2-HZC / OH3-ETLS / OH5-ETL", description: "Familie de pompe centrifuge de proces, proiectate conform standardului API 610, pentru rafinării și instalații petrochimice. OH2 este o configurație orizontală overhung, OH3 este o configurație verticală in-line cu cuplaj flexibil, iar OH5 este tot o configurație verticală in-line, conform tipurilor API 610." },
+      { name: "Pompe de Drenaj XF / ACE / Q-Series", description: "Gamă de soluții pentru drenaj (dewatering), cu variantele XF300 și XF400, completate de seriile ACE, Q-Series și KFL10X." },
       { name: "Sisteme de Pompare pentru Incendiu Hydraflow", description: "Pompe și sisteme complete pentru protecție la incendiu, gândite pentru debit constant și fiabilitate ridicată la activare, folosite în clădiri industriale, centre de date și instalații care cer conformitate cu normele de siguranță la incendiu." },
-      { name: "Pompe Submersibile Pleuger Industries", description: "Gamă de pompe submersibile pentru foraje adânci și aplicații de tip deep well, booster și bottom intake, complementară seriilor verticale Unistream, Eurostream și Instream pentru alimentare cu apă din surse subterane." }
+      { name: "Pompe Submersibile Pleuger Industries", description: "Gamă de pompe submersibile pentru foraje adânci și aplicații de tip deep well, booster și bottom intake." }
     ],
     industries: [
       "Protecție la incendiu — sisteme de pompare certificate pentru debit constant",
@@ -476,33 +476,33 @@ Pentru un integrator de instalații industriale sau de protecție la incendiu di
     infinitrade: `Pentru SPP Pumps, informațiile despre familiile OH2/OH3/OH5, XF, Hydraflow și Pleuger vin din pagina de produse a producătorului, fără date proprii de stoc pentru fiecare configurație. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul cerut (API 610 sau altul) și de configurația de proiect. Nu ținem această gamă pe raft — fiecare pompă de proces sau sistem de incendiu se dimensionează pe specificația exactă a instalației. Pentru ofertă, trimiteți fluidul, debitul, presiunea necesară și standardul de proiectare cerut de proiect.`,
     limitation: "Nu putem confirma parametrii tehnici numerici (debit, presiune) pentru fiecare serie, deoarece pagina de produse nu publică fișe tehnice complete pentru toate modelele.",
     productCodes: [
-      { code: "OH2-HZC", description: "pompă de proces API 610, configurație de bază" },
-      { code: "OH3-ETLS", description: "pompă de proces API 610, etanșare extinsă" },
-      { code: "OH5-ETL", description: "pompă de proces API 610, fiabilitate ridicată" },
+      { code: "OH2-HZC", description: "pompă de proces API 610, tip OH2" },
+      { code: "OH3-ETLS", description: "pompă de proces API 610, verticală in-line (OH3)" },
+      { code: "OH5-ETL", description: "pompă de proces API 610, tip OH5" },
       { code: "VS4-TAZN", description: "pompă verticală API 610" },
-      { code: "XF300", description: "pompă de proces industrial" },
-      { code: "XF400", description: "pompă de proces industrial, debit mai mare" },
-      { code: "ACE", description: "pompă centrifugă de uz general" },
-      { code: "Q-Series", description: "pompă centrifugă pentru procese standard" },
+      { code: "XF300", description: "pompă pentru drenaj" },
+      { code: "XF400", description: "pompă pentru drenaj" },
+      { code: "ACE", description: "pompă pentru drenaj" },
+      { code: "Q-Series", description: "pompă pentru drenaj" },
       { code: "Hydraflow Range", description: "sisteme de pompare pentru incendiu" },
       { code: "RKB", description: "pompă centrifugă industrială" },
       { code: "Pleuger Deep Well", description: "pompă submersibilă pentru foraje adânci" },
-      { code: "Unistream", description: "pompă verticală submersibilă" },
-      { code: "Eurostream", description: "pompă verticală submersibilă" },
-      { code: "Aquastream", description: "pompă verticală submersibilă pentru apă" },
+      { code: "Unistream", description: "pompă centrifugă standard" },
+      { code: "Eurostream", description: "pompă centrifugă standard" },
+      { code: "Aquastream", description: "pompă centrifugă standard" },
       { code: "Vertical Turbine Pump", description: "pompă turbină verticală, flux axial/mixt" }
     ],
     faq: [
-      { q: "Ce produce SPP Pumps?", a: "SPP Pumps produce pompe centrifuge de proces conforme API 610, sisteme de pompare pentru protecție la incendiu (Hydraflow) și pompe submersibile pentru foraje adânci prin gama Pleuger Industries. Este un brand britanic cu peste 150 de ani de activitate declarați." },
-      { q: "Cum aleg o pompă SPP Pumps API 610?", a: "Alegerea între OH2, OH3 și OH5 depinde de cerințele de fiabilitate și etanșare ale proiectului: OH2 acoperă configurația de bază, OH3 adaugă opțiuni extinse de etanșare, iar OH5 e gândită pentru aplicații cu cerințe mai stricte. Debitul și presiunea necesare rămân criteriile principale." },
+      { q: "Ce produce SPP Pumps?", a: "SPP Pumps produce pompe centrifuge de proces conforme API 610, sisteme de pompare pentru protecție la incendiu (Hydraflow) și pompe submersibile pentru foraje adânci prin gama Pleuger Industries. Este un brand britanic cu 150 de ani de experiență declarați." },
+      { q: "Cum aleg o pompă SPP Pumps API 610?", a: "Alegerea între OH2, OH3 și OH5 depinde în primul rând de configurația cerută de instalație (OH2 orizontală overhung, OH3 și OH5 verticale in-line) și de standardul proiectului. Debitul și presiunea necesare rămân criteriile principale." },
       { q: "Livrați pompe SPP Pumps în România?", a: "Da, aducem pompe SPP Pumps la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul cerut și configurația proiectului. Nu ținem această gamă pe raft pentru toate seriile disponibile." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă SPP Pumps?", a: "Trimiteți fluidul de proces, debitul, presiunea de refulare necesară și standardul de proiectare cerut (de exemplu API 610). Pentru sisteme de incendiu, precizați și normativul de siguranță aplicabil clădirii." } ,
       { q: "Ce este gama Pleuger de la SPP Pumps?", a: "Pleuger Industries este linia de pompe submersibile a SPP Pumps pentru foraje adânci, cu variante deep well, booster, bottom intake și flood, folosite pentru alimentare cu apă din surse subterane sau aplicații industriale cu adâncime mare de pompare." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SPP Pumps — Home", url: "https://www.spppumps.com", publisher: "SPP Pumps Limited", accessed: "2026-09-25" },
       { title: "SPP Pumps — Products", url: "https://www.spppumps.com/products/", publisher: "SPP Pumps Limited", accessed: "2026-09-25" },
@@ -512,29 +512,29 @@ Pentru un integrator de instalații industriale sau de protecție la incendiu di
     name: "Sundyne",
     overview: `Sundyne este un producător american de pompe centrifuge integral angrenate (integrally geared), folosite pentru debite mici și înălțimi de pompare mari în procese industriale. Gama principală de antrenare directă cuprinde modelele LMV 801, LMV 801CS, LMV 801S, LMV 802, LMV 803Lr și LMV 806, la care se adaugă familiile Sunflo (grad industrial), ANSIMAG (magnetice fără etanșare), HMD Kontro (antrenare magnetică) și Marelli (heavy duty API 610). Pentru piața din România putem oferta din această gamă pe bază de debit, presiune și fluid de proces.
 
-Ce diferențiază Sundyne e principiul integral angrenat: rotorul se învârte la turație mult mai mare decât motorul de antrenare, printr-un angrenaj intern, ceea ce permite înălțimi de pompare mari cu un singur etaj, într-un corp mai compact decât o pompă multietajată clasică. Modelul LMV 801 acoperă debite de până la 380 gpm (86 m³/h) și înălțimi de până la 720 ft (220 m), cu putere maximă de 100 CP, iar LMV 803Lr, varianta cu NPSH ultra-redus, ajunge la 800 gpm (244 m³/h) și 1.030 ft (314 m). Producătorul declară conformitate cu API, ANSI/ASME și ISO. Pe segmentul pompelor integral angrenate de mare turație, gama se compară cu Sulzer.
+Ce diferențiază Sundyne este oferta a două configurații constructive: pompe integral angrenate (cu angrenaj intern, pentru debite mici și înălțimi de pompare mari) și pompe cu antrenare directă, fără angrenaj, în execuție verticală in-line, monoetajată (API 610 OH3/OH5), din care face parte familia LMV. Modelul LMV 801 acoperă debite de până la 380 gpm (86 m³/h) și înălțimi de până la 720 ft (220 m), cu putere maximă de 100 CP, iar LMV 803Lr, varianta cu NPSH ultra-redus, ajunge la 800 gpm (182 m³/h) și 1.030 ft (314 m). Pompele cu antrenare directă sunt prezentate de producător ca fiind conforme API 610, iar variantele magnetice fără etanșare ca API 685. Pe segmentul pompelor integral angrenate de mare turație, gama se compară cu Sulzer.
 
-Pentru un integrator de instalații petrochimice sau de energie din România, Sundyne are sens la aplicații cu înălțime de pompare mare și debit relativ mic — recircularea de reflux, transferul de hidrocarburi ușoare sau fluide criogenice — unde o pompă multietajată clasică ar fi mai voluminoasă.`,
+Pentru un integrator de instalații petrochimice sau de energie din România, Sundyne are sens la aplicații cu înălțime de pompare mare și debit relativ mic — recircularea de reflux, circuitele de fund de coloană sau alte fluide de proces din rafinării și instalații chimice — unde o pompă multietajată clasică ar fi mai voluminoasă.`,
     whyChoose: [
-      "Principiu integral angrenat — turație de rotor mult mai mare decât motorul, pentru înălțimi de pompare mari într-un corp compact",
+      "Două configurații constructive — integral angrenată (cu angrenaj intern) și cu antrenare directă (fără angrenaj), pentru debite mici și înălțimi de pompare mari",
       "Modelul LMV 803Lr, cu NPSH ultra-redus, acoperă debite de până la 800 gpm și 1.030 ft înălțime",
       "Variante magnetice fără etanșare (ANSIMAG, LMV 801S conform API 685) pentru fluide periculoase",
       "Familia Marelli heavy duty conformă API 610 pentru procese industriale grele",
-      "Conformitate declarată cu standardele API, ANSI/ASME și ISO"
+      "Conformitate API 610 și API 685, conform producătorului, în funcție de familie"
     ],
     keyProducts: [
-      { name: "Pompe Direct Drive LMV 801 / 801CS / 801S", description: "Familie de pompe integral angrenate cu antrenare directă, debit de până la 380 gpm (86 m³/h) și înălțime de până la 720 ft (220 m). Varianta 801CS are etanșare tip cartridge, iar 801S e certificată API 685 pentru cuplaj magnetic fără etanșare mecanică." },
-      { name: "Pompe Direct Drive LMV 802 / 806", description: "Variante de capacitate mai mică din familia LMV: 802 acoperă până la 150 gpm (27 m³/h) și 210 ft înălțime, iar 806 ajunge la 380 gpm cu 760 ft înălțime de pompare, ambele cu puteri maxime între 50 și 75 CP." },
-      { name: "Pompe LMV 803Lr — NPSH Ultra-Redus", description: "Variantă de capacitate mare din familia LMV, cu debit de până la 800 gpm (244 m³/h) și înălțime de până la 1.030 ft (314 m), gândită pentru aplicații unde presiunea de aspirație disponibilă e limitată." },
-      { name: "Pompe ANSIMAG și HMD Kontro", description: "Linii de pompe centrifuge cu antrenare magnetică, fără etanșare dinamică pe arbore, pentru pomparea în siguranță a fluidelor periculoase sau greu de etanșat convențional, complementare familiei integral angrenate LMV." }
+      { name: "Pompe Direct Drive LMV 801 / 801CS / 801S", description: "Familie de pompe centrifuge cu antrenare directă (fără angrenaj intern), debit de până la 380 gpm (86 m³/h) și înălțime de până la 720 ft (220 m). Varianta 801CS are etanșare tip cartridge, iar 801S e certificată API 685 pentru cuplaj magnetic fără etanșare mecanică." },
+      { name: "Pompe Direct Drive LMV 802 / 806", description: "Variante de capacitate mai mică din familia LMV: 802 acoperă până la 150 gpm (34 m³/h) și 210 ft (64 m) înălțime, iar 806 ajunge la 380 gpm cu 760 ft înălțime de pompare, ambele cu puteri maxime între 50 și 75 CP." },
+      { name: "Pompe LMV 803Lr — NPSH Ultra-Redus", description: "Variantă de capacitate mare din familia LMV, cu debit de până la 800 gpm (182 m³/h) și înălțime de până la 1.030 ft (314 m), gândită pentru aplicații unde presiunea de aspirație disponibilă e limitată." },
+      { name: "Pompe ANSIMAG și HMD Kontro", description: "Linii de pompe centrifuge cu antrenare magnetică, fără etanșare dinamică pe arbore, pentru pomparea în siguranță a fluidelor periculoase sau greu de etanșat convențional, complementare familiei LMV cu antrenare directă." }
     ],
     industries: [
       "Energie și petrochimie — recirculare reflux și transfer hidrocarburi",
       "Prelucrare chimică — transfer fluide de proces la înălțime mare de pompare",
       "Hidrogen și captura carbonului — aplicații emergente de proces",
       "Combustibili regenerabili — transfer fluide în instalații noi de producție",
-      "Producție de amoniac — transfer fluide de proces la presiune ridicată",
-      "Centre de date — circuite de răcire cu cerințe de fiabilitate ridicată"
+      "Prelucrare hidrocarburi — circulație de fund de coloană și apă acidă",
+      "Rafinare — circuite de proces cu cerințe de fiabilitate ridicată"
     ],
     infinitrade: `Pentru Sundyne, parametrii de debit și înălțime pentru familia LMV vin direct din pagina de produse a producătorului, fără date proprii de stoc pentru variantele de material și etanșare. Aducem pompele Sundyne la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurația de etanșare cerută. Nu ținem această gamă pe raft — fiecare pompă integral angrenată se configurează pe debitul, înălțimea și fluidul exact al aplicației. Pentru ofertă, trimiteți debitul necesar, înălțimea de pompare, fluidul și dacă aveți nevoie de variantă magnetică fără etanșare.`,
     limitation: "Nu putem confirma parametrii tehnici pentru familiile Sunflo, ANSIMAG, HMD Kontro și Marelli la nivelul de detaliu disponibil pentru seria LMV.",
@@ -557,13 +557,13 @@ Pentru un integrator de instalații petrochimice sau de energie din România, Su
       { q: "Cum aleg o pompă Sundyne din familia LMV?", a: "Pornind de la debitul și înălțimea de pompare necesare: LMV 802 acoperă debite mici (până la 150 gpm), LMV 801 și 806 debite medii cu înălțimi mari, iar LMV 803Lr e varianta de capacitate mare cu NPSH ultra-redus, pentru aplicații cu presiune de aspirație limitată." },
       { q: "Livrați pompe Sundyne în România?", a: "Da, aducem pompe Sundyne la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și etanșarea cerută. Nu ținem această gamă pe raft pentru gama LMV sau familiile magnetice." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Sundyne?", a: "Trimiteți debitul necesar, înălțimea de pompare, fluidul de proces și dacă aplicația cere o variantă cu cuplaj magnetic fără etanșare mecanică. Cu aceste date recomandăm modelul potrivit din familia LMV sau liniile magnetice." } ,
-      { q: "Ce înseamnă o pompă integral angrenată la Sundyne?", a: "Este principiul din spatele familiei LMV: rotorul se învârte la turație mult mai mare decât motorul de antrenare, printr-un angrenaj intern, ceea ce permite înălțimi de pompare mari la debite mici, într-un corp mai compact decât o pompă multietajată clasică." }
+      { q: "Ce înseamnă o pompă integral angrenată la Sundyne?", a: "Este o pompă în care un angrenaj intern face ca rotorul să se învârtă la turație mai mare decât motorul, ceea ce permite înălțimi de pompare mari la debite mici. Familia LMV descrisă pe această pagină este însă cu antrenare directă, fără angrenaj integrat." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
-    certifications: [ "Conformitate declarată cu API, ANSI/ASME și ISO, în funcție de familia de produs" ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    certifications: [ "Conformitate API 610 și API 685, în funcție de familia de produs, conform producătorului" ],
     sources: [
       { title: "Sundyne — Home", url: "https://www.sundyne.com", publisher: "Sundyne LLC", accessed: "2026-09-25" },
       { title: "Sundyne — Direct Drive Pumps / Products", url: "https://www.sundyne.com/products/", publisher: "Sundyne LLC", accessed: "2026-09-25" },
@@ -585,7 +585,7 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
       "Gamă completă pentru tratarea apei — turnuri de răcire, cazane, osmoză inversă, piscine"
     ],
     keyProducts: [
-      { name: "Seria IX", description: "Pompă dozatoare cu diafragmă acționată de motor, control digital, cu debit de la 0,02 gph până la 80 gph (300 l/h) și presiune maximă de 247 psi. Folosită pentru dozare de precizie corelată cu controlere externe de proces." },
+      { name: "Seria IX", description: "Pompă dozatoare cu diafragmă acționată de motor, control digital, cu debit de până la 80 gph (300 l/h) și presiune maximă de 247 psi. Parametrii exacți se confirmă pe cod, din documentația Walchem." },
       { name: "Seriile EWP / EWN / EHE", description: "Pompe cu solenoid pentru dozare chimică standard: EWP și EWN acoperă până la 6,7 gph la presiuni de 290–300 psi, iar EHE ajunge la 20 gph cu un turndown de 1800:1, potrivit pentru variații mari de debit în același sistem." },
       { name: "Seriile LK / LKN", description: "Pompe dozatoare cu acționare mecanică, pentru debite mai mari: LK acoperă până la 856 gph (3.240 l/h) la 220 psi, iar LKN până la 114 gph la 225 psi, potrivite pentru sisteme de tratare a apei la scară mai mare." },
       { name: "Controlere Intuition-9 / Intuition-6", description: "Controlere de tratare a apei care măsoară pH, ORP sau conductivitate și comandă direct pompa de dozare conectată, folosite pentru automatizarea dozării chimice în turnuri de răcire și cazane." }
@@ -608,8 +608,8 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
       { code: "EHE Series", description: "turndown 1800:1, până la 20 gph" },
       { code: "LK Series", description: "mecanică, până la 856 gph, 220 psi" },
       { code: "LKN Series", description: "mecanică, până la 114 gph, 225 psi" },
-      { code: "EH-HV Series", description: "vâscozitate ridicată, până la 20.000 cps" },
-      { code: "HRP Series", description: "pompă OEM, 12/24 VDC" },
+      { code: "EH-HV Series", description: "vâscozitate ridicată, 2,3–8 gph, până la 73 psi" },
+      { code: "HRP Series", description: "pompă pentru aplicații OEM" },
       { code: "Intuition-9", description: "controler de tratare a apei, multi-parametru" },
       { code: "Intuition-6", description: "controler de tratare a apei" }
     ],
@@ -622,8 +622,8 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Walchem (Iwaki America) — Home", url: "https://www.walchem.com", publisher: "Walchem, Iwaki America Inc.", accessed: "2026-09-25" },
       { title: "Walchem — Metering Pumps", url: "https://www.walchem.com/metering-pumps/", publisher: "Walchem, Iwaki America Inc.", accessed: "2026-09-25" },
@@ -632,7 +632,7 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
   "wanner-engineering": {
     name: "Wanner Engineering",
     headquarters: "Minneapolis, Minnesota, SUA",
-    overview: `Wanner Engineering este un producător american de pompe cu membrană hidraulic echilibrată, seal-less, sub brandul Hydra-Cell, cu sediul la Minneapolis, Minnesota și peste 50 de ani de activitate declarați. Gama acoperă modele mici (F20/G20, M03/G03, D04/G04, D10/G10, D12/G12), medii (D15/G15, D17/G17, H25/G25, D35/G35, D66/G66) și de capacitate mare (T100, T200, Q155, Q330, MT8), cu submodele de presiune diferite pentru fiecare, ca la G10-M4H sau G10-M2M. Pentru piața din România putem oferta din această gamă, pornind de la debitul și presiunea de lucru cerute de aplicație.
+    overview: `Wanner Engineering este un producător american de pompe cu membrană hidraulic echilibrată, seal-less, sub brandul Hydra-Cell, cu sediul la Minneapolis, Minnesota și peste 50 de ani de activitate declarați. Gama acoperă modele mici (F20/G20, M03/G03, D04/G04, D10/G10, D12/G12), medii (D15/G15, D17/G17, H25/G25, D35/G35, D66/G66) și de capacitate mare (T100, T200, Q155, Q330), la care se adaugă modelul de dozare MT8, cu submodele de presiune diferite pentru fiecare, ca la G10-M4H sau G10-M2M. Pentru piața din România putem oferta din această gamă, pornind de la debitul și presiunea de lucru cerute de aplicație.
 
 Ce diferențiază Hydra-Cell e principiul seal-less: membranele hidraulic echilibrate elimină etanșarea dinamică pe piston, ceea ce reduce riscul de scurgere la fluide corozive, abrazive sau vâscoase. Modelul G10-M4H, de exemplu, ajunge la 1.500 psig (103 barg) la 193 gph, în timp ce G10-M2M urcă debitul la 388 gph la o presiune mai moderată de 725 psig. Producătorul declară conformitate cu API 674 și API 675. Pe segmentul pompelor cu membrană de mare presiune, gama se compară cu Wilden.
 
@@ -645,16 +645,16 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
       "Peste 50 de ani de activitate declarați în fabricația de pompe seal-less"
     ],
     keyProducts: [
-      { name: "Seria G10 / D10", description: "Pompă Hydra-Cell de capacitate medie, cu submodele de presiune diferite: G10-M4H ajunge la 1.500 psig (103 barg) la 193 gph, iar G10-M2M la 725 psig (50 barg) și 388 gph. Folosită pentru dozare și transfer de fluide corozive sau abrazive." },
+      { name: "Seria G10 / D10", description: "Pompă Hydra-Cell din seria G de debit mic, cu submodele de presiune diferite: G10-M4H ajunge la 1.500 psig (103 barg) la 193 gph, iar G10-M2M la 725 psig (50 barg) și 388 gph. Folosită pentru dozare și transfer de fluide corozive sau abrazive." },
       { name: "Seriile Mici G03 / G04 / G12", description: "Pompe Hydra-Cell de debit mic, pentru dozare de precizie sau transfer la scară redusă, cu aceleași principii seal-less ca restul gamei, potrivite pentru aplicații OEM sau de laborator industrial." },
       { name: "Seriile Mari T100 / T200 / Q330", description: "Pompe Hydra-Cell de capacitate mare, pentru transfer de volume mari de fluid la presiune ridicată, disponibile în variante de presiune joasă, medie și înaltă, pentru aplicații petrochimice și industriale grele." },
-      { name: "Seria MT8", description: "Pompă Hydra-Cell din gama de capacitate mare, cu variante de presiune joasă și medie, folosită în aplicații industriale unde debitul mare trebuie combinat cu fiabilitate pe termen lung a etanșării seal-less." }
+      { name: "Seria MT8", description: "Pompă Hydra-Cell din gama de dozare și control electronic, cu variante de presiune joasă și medie, disponibilă și în execuție pentru zone cu risc de explozie (ATEX), conform listei producătorului." }
     ],
     industries: [
       "Petrochimie — transfer fluide corozive și abrazive",
       "Tratarea apei — dozare și transfer chimicale de proces",
       "Inginerie chimică — pompare fluide vâscoase la presiune ridicată",
-      "Curățare industrială — sisteme de spălare la presiune (parts washing)",
+      "Curățare industrială — sisteme de spălare la presiune",
       "Descalcifiere — sisteme de îndepărtare a depunerilor de calcar"
     ],
     certifications: [ "API 674", "API 675" ],
@@ -665,12 +665,12 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
       { code: "G10-M2M", description: "388 gph, presiune max. 725 psig" },
       { code: "G10-M4L", description: "193 gph, presiune max. 290 psig" },
       { code: "G10-M2L", description: "388 gph, presiune max. 290 psig" },
-      { code: "D10/G10", description: "familie de bază, capacitate medie" },
+      { code: "D10/G10", description: "familie de bază, seria G de debit mic" },
       { code: "T100", description: "familie de capacitate mare" },
       { code: "T200", description: "familie de capacitate mare" },
       { code: "Q155", description: "familie de capacitate mare" },
       { code: "Q330", description: "familie de capacitate mare" },
-      { code: "MT8", description: "familie de capacitate mare, presiune joasă/medie" },
+      { code: "MT8", description: "familie de dozare, presiune joasă/medie" },
       { code: "D04/G04", description: "familie de debit mic" },
       { code: "D12/G12", description: "familie de debit mic-mediu" },
       { code: "D15/G15", description: "familie de capacitate medie" },
@@ -679,15 +679,15 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
     ],
     faq: [
       { q: "Ce produce Wanner Engineering?", a: "Wanner Engineering produce pompe cu membrană hidraulic echilibrată, seal-less, sub brandul Hydra-Cell, pentru transferul și dozarea fluidelor corozive, abrazive sau vâscoase. Gama acoperă de la debite mici de laborator până la capacități mari industriale." },
-      { q: "Cum aleg o pompă Wanner Engineering Hydra-Cell după presiune?", a: "Fiecare bază constructivă (de exemplu G10) are submodele de presiune diferite: pentru presiuni mari alegeți varianta H (high), pentru presiuni medii varianta M, iar pentru presiuni joase varianta L. Debitul rămâne relativ constant între variantele de presiune ale aceleiași baze." },
+      { q: "Cum aleg o pompă Wanner Engineering Hydra-Cell după presiune?", a: "Fiecare bază constructivă (de exemplu G10) are submodele cu presiune și debit diferite: G10-M4H ajunge la 1.500 psig (103 barg) la 193 gph, G10-M2M la 725 psig (50 barg) la 388 gph, iar G10-M4L și G10-M2L la 290 psig (20 barg). Combinația dintre debit și presiune se confirmă pe cod, din documentația producătorului." },
       { q: "Livrați pompe Wanner Hydra-Cell în România?", a: "Da, aducem pompe Wanner Engineering la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și presiunea cerută. Nu ținem această gamă pe raft pentru toate submodelele disponibile." },
       { q: "Ce certificări are gama Hydra-Cell de la Wanner?", a: "Producătorul declară conformitate cu standardele API 674 și API 675, relevante pentru pompe volumetrice folosite în industria de proces și petrochimie, unde achizitorii cer adesea dovada acestei conformități." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Wanner?", a: "Trimiteți fluidul pompat, debitul și presiunea necesară, plus dacă aplicația cere capete hidraulice metalice sau nemetalice. Cu aceste date recomandăm baza constructivă și submodelul de presiune potrivit din gama Hydra-Cell." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Wanner Engineering — Hydra-Cell Pumps", url: "https://wannerpumps.com", publisher: "Wanner Engineering, Inc.", accessed: "2026-09-25" },
       { title: "G10 Dosing (Metric) — Wanner Pumps", url: "https://wannerpumps.com/en-gb/pumps/g10-dosing/", publisher: "Wanner Engineering, Inc.", accessed: "2026-09-25" },
@@ -697,7 +697,7 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
     name: "Bardiani Valvole",
     headquarters: "Fornovo di Taro, Italia",
     founded: 1981,
-    overview: `Bardiani Valvole este un producător italian de valve igienice din inox, cu sediul la Fornovo di Taro, activ din 1981, producție integral realizată în Italia. Gama cuprinde valve cu scaun simplu, valve cu dublu scaun (mixproof), valve de înaltă presiune (până la 150 bar), valve fluture, valve cu bilă (inclusiv modelul VVS, cu conexiuni DN10 la DN100 și presiune de lucru de 25–100 bar pe circuitul principal), valve de reglare și soluții pentru sisteme de pigging. Pentru piața din România putem oferta din această gamă pe bază de diametru și presiune necesare.
+    overview: `Bardiani Valvole este un producător italian de valve igienice din inox, cu sediul la Fornovo di Taro, activ din 1981, producție integral realizată în Italia. Gama cuprinde valve cu scaun simplu, valve cu dublu scaun (mixproof), valve de înaltă presiune, valve fluture, valve cu bilă (inclusiv modelul VVS, cu conexiuni DN10 la DN100 și presiune de lucru de 25–100 bar pe circuitul principal), valve de reglare și soluții pentru sisteme de pigging. Pentru piața din România putem oferta din această gamă pe bază de diametru și presiune necesare.
 
 Ce diferențiază Bardiani e combinația dintre precizia constructivă a valvelor cu bilă (bila cu orificiu intern permite trecerea produsului fără restricții) și acoperirea completă a categoriilor sanitare — de la izolare simplă până la mixproof pentru linii cu produse diferite în paralel. Valva VVS, de exemplu, oferă variante cu două sau trei căi, cu garnituri FKM sau PTFE și certificare ATEX pentru zone cu risc de explozie. Pe segmentul valvelor igienice din inox, gama se compară cu Inoxpa.
 
@@ -706,13 +706,13 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
       "Producție integral realizată în Italia, cu peste 40 de ani de activitate declarați",
       "Valva VVS oferă variante cu două și trei căi, cu certificare ATEX pentru zone cu risc de explozie",
       "Gamă completă de valve mixproof pentru separarea strictă a circuitelor de produs",
-      "Valve de înaltă presiune, până la 150 bar, pentru aplicații speciale de proces",
+      "Valve de înaltă presiune pentru aplicații speciale de proces; presiunea maximă depinde de model și se confirmă pe cod",
       "Garnituri disponibile în FKM și PTFE, pentru compatibilitate chimică extinsă"
     ],
     keyProducts: [
       { name: "Valve cu Bilă VVS", description: "Valvă manuală cu bilă de precizie, cu orificiu intern care permite trecerea produsului fără restricții, potrivită pentru lichide vâscoase și cu particule în suspensie. Conexiuni DN10 până la DN100 (1/2\" la 4\"), presiune de lucru de 25–100 bar pentru varianta cu două căi și 16–40 bar pentru cea cu trei căi, garnituri FKM sau PTFE, certificare ATEX." },
       { name: "Valve cu Dublu Scaun (Mixproof)", description: "Valve cu două scaune independente, folosite pentru a separa strict două circuite de produs diferite pe aceeași linie, esențiale în instalații unde produsele nu trebuie să se amestece nici accidental, la schimbarea rețetei sau la curățare." },
-      { name: "Valve de Înaltă Presiune", description: "Familie de valve dedicate aplicațiilor de proces la presiuni ridicate, până la 150 bar, folosite acolo unde valvele sanitare standard nu ating presiunea de lucru necesară." },
+      { name: "Valve de Înaltă Presiune", description: "Familie de valve dedicate aplicațiilor de proces la presiuni ridicate, folosite acolo unde valvele sanitare standard nu ating presiunea de lucru necesară; presiunea maximă depinde de model." },
       { name: "Valve Fluture și Valve cu Scaun Simplu", description: "Gamă de bază pentru izolare și control de debit pe linii sanitare, complementară valvelor mixproof și de înaltă presiune, pentru aplicații unde separarea strictă a circuitelor nu e necesară." }
     ],
     industries: [
@@ -729,7 +729,7 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
     productCodes: [
       { code: "Single Seat Valves", description: "valve cu scaun simplu, izolare și control debit" },
       { code: "Double Seat / Mixproof Valves", description: "separare strictă a două circuite de produs" },
-      { code: "High Pressure Valves", description: "aplicații de proces, până la 150 bar" },
+      { code: "High Pressure Valves", description: "aplicații de proces la presiuni ridicate" },
       { code: "Butterfly Valves", description: "valve fluture pentru izolare sanitară" },
       { code: "Ball Valves", description: "valve cu bilă pentru trecere fără restricții" },
       { code: "Regulating Valves", description: "valve de reglare a debitului de proces" },
@@ -748,8 +748,8 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Bardiani Valvole — Home", url: "https://www.bardiani.com/en/", publisher: "Bardiani Valvole S.p.A.", accessed: "2026-09-25" },
       { title: "VVS - Bardiani Valvole", url: "https://www.bardiani.com/en/prodotto/vvs-en/", publisher: "Bardiani Valvole S.p.A.", accessed: "2026-09-25" },
@@ -763,9 +763,9 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
 
 Ce diferențiază Definox e combinația dintre gama largă de configurații de corp (L, T, TL) pentru aceeași familie de valve și acoperirea completă a fluxului de proces sanitar — de la izolare simplă (DCX3) până la deviere (DCX4), eșantionare (PEX1, PEAX) și injecție de produs (Starwheel, Starmanifold). Valvele VEOX și VEOX FC asigură separarea mixproof între circuite de produs diferite, inclusiv la fundul rezervoarelor. Pe segmentul valvelor sanitare din inox, gama se compară cu Inoxpa.
 
-Pentru un integrator de linii de procesare din industria alimentară, farmaceutică sau cosmetică din România, Definox are sens la instalațiile cu flux complex de produs — schimbări frecvente de rețetă, eșantionare pe linie, injecție de aditivi — unde o singură familie de corpuri de valvă acoperă mai multe funcții prin schimbarea capului de acționare.`,
+Pentru un integrator de linii de procesare din industria alimentară, farmaceutică sau cosmetică din România, Definox are sens la instalațiile cu flux complex de produs — schimbări frecvente de rețetă, eșantionare pe linie, injecție de aditivi — unde gama oferă valve de izolare, deviere, mixproof și eșantionare, plus sisteme de pigging și injecție.`,
     whyChoose: [
-      "Familie unică de corpuri de valvă (L, T, TL) pentru izolare, deviere și eșantionare",
+      "Configurații de corp L, T și TL pentru valvele de izolare (DCX3) și deviere (DCX4)",
       "Valve mixproof VEOX și VEOX FC pentru separarea strictă a circuitelor de produs",
       "Sisteme complete de pigging (Starmotion) pentru golirea conductelor fără pierderi de produs",
       "Sisteme de injecție Starwheel și Starmanifold pentru adăugarea de aditivi pe linie",
@@ -773,7 +773,7 @@ Pentru un integrator de linii de procesare din industria alimentară, farmaceuti
     ],
     keyProducts: [
       { name: "Valve de Izolare și Deviere DCX3 / DCX4", description: "DCX3 este valva de izolare de bază, disponibilă în configurații de corp L sau T, iar DCX4 adaugă funcția de deviere a fluxului, cu configurație de corp TL, pentru linii unde produsul trebuie direcționat între mai multe circuite." },
-      { name: "Valve Mixproof VEOX / VEOX FC", description: "Valve cu dublu scaun pentru separarea strictă a două circuite de produs diferite, cu varianta VEOX FC dedicată montajului la fundul rezervoarelor (tank bottom), pentru golirea completă fără contaminare încrucișată." },
+      { name: "Valve Mixproof VEOX / VEOX FC", description: "Valve cu dublu scaun pentru separarea strictă a două circuite de produs diferite, cu varianta VEOX FC dedicată montajului la fundul rezervoarelor, pentru golirea completă fără contaminare încrucișată." },
       { name: "Valve de Eșantionare PEX1 / PEAX", description: "Valve pentru prelevarea de probe direct de pe linia de proces, PEX1 fiind varianta manuală cu conexiune sudată pe perete, folosite pentru controlul calității produsului fără oprirea fluxului principal." },
       { name: "Sisteme de Pigging și Injecție Starmotion / Starwheel", description: "Starmotion e soluția de golire a conductelor cu pig, pentru recuperarea produsului rămas și reducerea pierderilor, iar Starwheel și Starmanifold sunt sisteme de injecție pentru introducerea controlată de aditivi pe linia de proces." }
     ],
@@ -793,13 +793,13 @@ Pentru un integrator de linii de procesare din industria alimentară, farmaceuti
       { code: "VEOX", description: "valvă mixproof, configurație de bază" },
       { code: "VEOX FC", description: "valvă mixproof pentru montaj la fundul rezervorului" },
       { code: "PEX1", description: "valvă de eșantionare manuală, conexiune sudată" },
-      { code: "PEAX", description: "valvă de eșantionare, familie extinsă" },
+      { code: "PEAX", description: "valvă de eșantionare pentru fluide cu vâscozități diferite" },
       { code: "Sorio", description: "cap de control și semnalizare pentru valve" },
       { code: "Starmotion", description: "sistem de pigging pentru golirea conductelor" },
       { code: "Starwheel", description: "sistem de injecție de aditivi pe linie" },
       { code: "Starmanifold", description: "sistem de injecție, variantă multi-punct" },
-      { code: "DPX Gen2", description: "valvă fluture manuală" },
-      { code: "NEOS", description: "valvă cu etanșare dublă" }
+      { code: "DPX Gen2", description: "valvă din gama Definox; detaliile se confirmă pe cod, din documentația producătorului" },
+      { code: "NEOS", description: "valvă din gama Definox; detaliile se confirmă pe cod, din documentația producătorului" }
     ],
     faq: [
       { q: "Ce produce Definox?", a: "Definox produce valve sanitare din inox pentru industria alimentară, farmaceutică și cosmetică: valve de izolare și deviere (DCX3, DCX4), valve mixproof (VEOX), valve de eșantionare (PEX1, PEAX) și sisteme de pigging și injecție (Starmotion, Starwheel)." },
@@ -810,8 +810,8 @@ Pentru un integrator de linii de procesare din industria alimentară, farmaceuti
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-25",
-    changelog: [ { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Definox — Home", url: "https://www.definox.com/en/", publisher: "Definox SAS", accessed: "2026-09-25" },
       { title: "Definox — Products", url: "https://www.definox.com/en/products/", publisher: "Definox SAS", accessed: "2026-09-25" },

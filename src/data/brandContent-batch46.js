@@ -6,13 +6,12 @@ export const brandContentBatch46 = {
     founded: 1993,
     overview: `ICP DAS este un producător taiwanez de echipamente pentru automatizare industrială și achiziție de date, activ din 1993. Compania proiectează module I/O distribuite, controlere programabile de automatizare (PAC) și plăci de achiziție de date, gândite pentru integratorii de sisteme și proiectanții de automatizări care au nevoie de puncte de măsură sau comandă răspândite pe o instalație. Din gama ICP DAS putem oferta module de intrare/ieșire la distanță, controlere industriale, panouri HMI și convertoare de comunicație, montate în tablouri electrice sau direct lângă utilaj.
 
-Punctul forte al ICP DAS e acoperirea largă de protocoale: module I/O disponibile cu interfețe RS-485, Ethernet, USB, fieldbus și wireless, plus convertoare dedicate între aceste protocoale, utile la extinderea unei rețele industriale existente fără să o înlocuiești complet. Controlerele PAC vin în variante Windows, Linux, WinCE, MiniOS7 sau ROM-DOS, alese după mediul de dezvoltare al integratorului și după cerințele de fiabilitate ale aplicației. Compania a obținut recent certificarea ISO/IEC 27001:2022 pentru managementul securității informației, un aspect din ce în ce mai cerut la rețelele industriale conectate în rețeaua IT a fabricii.
+Punctul forte al ICP DAS e acoperirea largă de protocoale: module I/O disponibile cu interfețe RS-485, Ethernet, USB, fieldbus și wireless, plus convertoare dedicate între aceste protocoale, utile la extinderea unei rețele industriale existente fără să o înlocuiești complet. Controlerele PAC vin în variante Windows, Linux, WinCE, MiniOS7 sau ROM-DOS, alese după mediul de dezvoltare al integratorului și după cerințele de fiabilitate ale aplicației.
 
 Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au nevoie de puncte I/O distribuite ieftine și robuste, fără un PLC complet la fiecare stație. Le recomandăm pentru extinderea sistemelor SCADA, monitorizare de la distanță și proiecte de tip smart building sau smart factory.`,
     whyChoose: [
       "Module I/O disponibile pe RS-485, Ethernet, USB, fieldbus și wireless, ușor de integrat în rețele existente",
       "Controlere PAC pe cinci sisteme de operare (Windows, Linux, WinCE, MiniOS7, ROM-DOS), alese după nevoile proiectului",
-      "Certificare ISO/IEC 27001:2022 pentru securitatea informației, relevantă la conectarea în rețele IT industriale",
       "Panel PC și HMI industriale din aceeași gamă, pentru vizualizare locală fără echipamente suplimentare",
       "Contoare de putere și concentratoare de date, integrabile în același sistem SCADA ca modulele I/O"
     ],
@@ -30,7 +29,7 @@ Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au n
       "Infrastructură IoT — noduri de achiziție de date pentru rețele de senzori",
       "Extinderea sistemelor SCADA — module I/O suplimentare fără schimbarea arhitecturii existente"
     ],
-    certifications: ["ISO/IEC 27001:2022 — managementul securității informației"],
+    certifications: [],
     infinitrade: `Lucrăm din surse publice ale producătorului taiwanez și spunem clar ce putem și ce nu putem confirma înainte să trimitem o ofertă pentru module ICP DAS. Aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de codul exact al modulului sau al controlerului, protocolul de comunicație folosit în instalație și, dacă e cazul, sistemul de operare pe care rulează aplicația dumneavoastră. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă — verificăm disponibilitatea reală la fiecare cerere primită.`,
     limitation: "Nu putem confirma suport tehnic în limba română pentru configurarea software-ului ICP DAS (ISaGRAF, Win-GRAF), care rămâne responsabilitatea integratorului de sistem.",
     productCodes: [
@@ -102,7 +101,7 @@ Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au n
       },
       {
         "q": "Livrați module I/O ICP DAS în România la comandă?",
-        "a": "Da, aducem la comandă module de intrare/ieșire distribuite, controlere programabile și panouri HMI din portofoliul ICP DAS, pe baza codului exact solicitat. Nu ținem această gamă pe raft, iar termenul orientativ de aprovizionare publicat este de aproximativ două până la patru săptămâni. Este util să precizați tipul de rețea folosit, RS-485, Ethernet sau fieldbus, pentru compatibilitate corectă."
+        "a": "Da, aducem la comandă module de intrare/ieșire distribuite, controlere programabile și panouri HMI din portofoliul ICP DAS, pe baza codului exact solicitat. Nu ținem această gamă pe raft; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Icp Das). Este util să precizați tipul de rețea folosit, RS-485, Ethernet sau fieldbus, pentru compatibilitate corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un modul ICP DAS?",
@@ -115,8 +114,8 @@ Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au n
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"ICP DAS – Products","url":"https://www.icpdas.com/en/product/index.php","publisher":"ICP DAS","accessed":"2026-09-25"},
       { title: "ICP DAS - pagina principală", url: "https://www.icpdas.com/", publisher: "ICP DAS Co., Ltd.", accessed: "2026-09-22" },
@@ -131,15 +130,14 @@ Pentru piața din România, modulele ICP DAS sunt utile integratorilor care au n
     headquarters: "Valsamoggia, Italia",
     overview: `SITI este un producător italian de reductoare, variatoare mecanice și motoare electrice, fondat în 1967 la Casalecchio di Reno și mutat ulterior la Valsamoggia, lângă Bologna. Gama acoperă reductoare cu melc, reductoare cu roți dințate, reductoare epicicloidale și variatoare mecanice de turație, folosite la acționarea benzilor transportoare, mixerelor și liniilor de ambalare. Din portofoliul SITI putem oferta atât unități individuale de schimb, cât și motoreductoare complete pentru instalații noi.
 
-SITI concurează direct cu Bonfiglioli pe segmentul reductoarelor industriale de uz general, cu o gamă structurată pe familii de produse: seriile I-MI, U-MU și MD pentru reductoare cu melc, seriile NHL, BH, RP2, R, SR, PD și PL pentru reductoare cu roți dințate, seria NRG pentru reductoare epicicloidale și seria K-MK pentru variatoare mecanice. Compania deține certificare ISO 9001:2015 pentru managementul calității și certificare ATEX conform directivei 2014/34/UE pentru unitățile montate în zone cu risc de explozie.
+SITI are o gamă structurată pe familii de produse: seriile I-MI, U-MU și MD pentru reductoare cu melc, seriile NHL, BH, RP2, R, SR, PD și PL pentru reductoare cu roți dințate, seria NRG pentru reductoare epicicloidale și seria K-MK pentru variatoare mecanice. Compania deține certificare ISO 9001:2015 pentru managementul calității și certificare ATEX conform directivei 2014/34/UE pentru unitățile montate în zone cu risc de explozie.
 
-Pentru instalațiile din România, reductoarele SITI sunt o alternativă la mărcile germane consacrate, potrivite pentru linii de ambalare, spălătorii auto, stații de epurare sau utilaje din industria alimentară, acolo unde raportul preț-fiabilitate contează mai mult decât un nume anume de brand.`,
+Pentru instalațiile din România, reductoarele SITI sunt potrivite pentru linii de ambalare, spălătorii auto, stații de epurare sau utilaje din industria alimentară.`,
     whyChoose: [
       "Gamă completă de reductoare — melc, roți dințate, epicicloidale și variatoare mecanice, sub același producător",
       "Certificare ATEX 2014/34/UE pentru unități montate în zone cu risc de explozie",
       "Certificare ISO 9001:2015 pentru managementul calității în proiectare și fabricație",
-      "Peste 55 de ani de experiență în transmisii mecanice de putere",
-      "Alternativă la Bonfiglioli pentru proiecte unde contează raportul preț-fiabilitate"
+      "Peste 55 de ani de experiență în transmisii mecanice de putere"
     ],
     keyProducts: [
       { name: "Reductoare cu Melc Seriile I-MI, U-MU și MD", description: "Reductoare cu roată melcată pentru raporturi mari de reducere într-un gabarit compact, folosite la acționarea benzilor transportoare, mixerelor și utilajelor de ambalare unde spațiul de montaj e limitat. Seriile diferă prin gabarit și cuplu maxim admis, cu opțiuni de montaj în orice poziție. Disponibile cu ax de intrare direct sau cu motor electric atașat, pentru linii care nu au nevoie de un motoreductor separat." },
@@ -183,7 +181,7 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
       },
       {
         "code": "RP2",
-        "description": "Reductor cu roți dințate din seria RP2, montaj coaxial"
+        "description": "Reductor cu montaj pe axul mașinii acționate (pendular), din familia RP"
       },
       {
         "code": "Seria R",
@@ -211,19 +209,19 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
       },
       {
         "code": "ACW 50",
-        "description": "Reductor din secțiunea specifică ACW 50 a gamei SITI"
+        "description": "Serie din catalogul SITI; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "ICE",
-        "description": "Reductor din secțiunea specifică ICE a gamei SITI"
+        "description": "Serie din catalogul SITI; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "OT-MOT 56",
-        "description": "Reductor din secțiunea specifică OT-MOT 56 a gamei SITI"
+        "description": "Serie din catalogul SITI; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "MCF 90",
-        "description": "Reductor din secțiunea specifică MCF 90 a gamei SITI"
+        "description": "Serie din catalogul SITI; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "HFP",
@@ -237,11 +235,11 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
     faq: [
       {
         "q": "Ce diferență este între reductoarele SITI seria NHL și seria BH?",
-        "a": "Seria NHL folosește roți dințate elicoidale montate pe mai multe trepte, potrivite pentru rapoarte de reducere mari la gabarit redus. Seria BH are o construcție diferită a carcasei, orientată spre aplicații unde montajul și accesul la întreținere contează mai mult decât raportul maxim disponibil. Alegerea corectă ține de spațiul de montaj și de cuplul cerut de aplicația industrială."
+        "a": "Diferențele dintre seriile NHL și BH (raporturi de reducere, gabarit, cuplu) se confirmă pe cod, din catalogul SITI. Alegerea corectă ține de spațiul de montaj și de cuplul cerut de aplicația industrială."
       },
       {
         "q": "Livrați reductoare SITI Riduttori în România la comandă?",
-        "a": "Da, aducem la comandă reductoare melcate, cu roți dințate sau epicicloidale din gama SITI, pornind de la codul exact al seriei dorite. Nu avem raft propriu pentru această gamă, iar termenul orientativ comunicat public de producător este de câteva săptămâni, între două și șase. Este util să precizați cuplul necesar, raportul de reducere și tipul de montaj dorit."
+        "a": "Da, aducem la comandă reductoare melcate, cu roți dințate sau epicicloidale din gama SITI, pornind de la codul exact al seriei dorite. Nu avem raft propriu pentru această gamă; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Siti). Este util să precizați cuplul necesar, raportul de reducere și tipul de montaj dorit."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă la un reductor SITI?",
@@ -254,8 +252,8 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"SITI Riduttori – Products","url":"https://www.sitiriduttori.it/en/products/","publisher":"SITI","accessed":"2026-09-25"},
       { title: "SITI Riduttori - pagina principală", url: "https://www.sitiriduttori.it", publisher: "SITI S.p.A.", accessed: "2026-09-22" },
@@ -270,30 +268,30 @@ Pentru instalațiile din România, reductoarele SITI sunt o alternativă la măr
     headquarters: "Cavaria con Premezzo, Italia",
     overview: `Chiaravalli Group este un producător italian de componente mecanice de transmisie, fondat în 1952 de Silvio Chiaravalli, cu sediul la Cavaria con Premezzo, între Milano și Varese. Grupul produce roți dințate, lanțuri, reductoare epicicloidale și componente pentru transmisii mecanice, organizate pe divizii dedicate: industrială, componente speciale, alimentară, motociclete și mișcare liniară. Din gama Chiaravalli putem oferta piese individuale de transmisie sau ansambluri complete pentru linii de producție.
 
-Chiaravalli concurează cu Bonfiglioli pe segmentul componentelor de transmisie standard, dar se diferențiază prin structura pe divizii: Special Components Division produce cuțitele RASSPE pentru feliatoare din industria alimentară, Food Division fabrică coroane și pinioane sub marca CHT pentru utilaje alimentare, iar Chiaravalli Linear Center acoperă reductoare epicicloidale și module de mișcare liniară pentru automatizări. Grupul dispune de peste 35.000 mp de spații de producție și 30.000 mp de logistică în Italia, ceea ce îi permite să livreze atât componente de catalog, cât și piese realizate la comandă.
+Chiaravalli este structurat pe divizii: Food Division include gama de cuțite RASSPE pentru feliatoare din industria alimentară, iar Chiaravalli Linear Center acoperă reductoare epicicloidale și module de mișcare liniară pentru automatizări. Grupul dispune de peste 35.000 mp de spații de producție și 30.000 mp de logistică în Italia, ceea ce îi permite să livreze atât componente de catalog, cât și piese realizate la comandă.
 
-Pentru clienții din România, Chiaravalli e util în special pentru piese de schimb la linii de tăiere și feliere din industria alimentară, unde marca RASSPE și componentele CHT sunt greu de înlocuit cu alternative generice, dar și pentru transmisii mecanice standard la benzi transportoare.`,
+Pentru clienții din România, Chiaravalli e util în special pentru piese de schimb la linii de tăiere și feliere din industria alimentară, unde potrivirea exactă cu modelul utilajului este esențială, dar și pentru transmisii mecanice standard la benzi transportoare.`,
     whyChoose: [
       "Structură pe divizii specializate — industrială, componente speciale, alimentară, motociclete, mișcare liniară",
-      "Marca RASSPE de cuțite pentru feliatoare, greu de substituit cu alternative generice",
+      "Marca RASSPE de cuțite pentru feliatoare, din divizia alimentară",
       "Peste 35.000 mp de producție proprie în Italia, pentru livrare atât din catalog, cât și la comandă",
       "Peste 70 de ani de experiență în componente de transmisie mecanică",
-      "Gama de lanțuri industriale XRC, compatibilă cu majoritatea transmisiilor existente"
+      "Gama de lanțuri industriale XRC, marcă a grupului lansată în 2024"
     ],
     keyProducts: [
-      { name: "Roți Dințate și Lanțuri Industriale (gama XRC)", description: "Roți dințate și lanțuri de transmisie pentru acționări mecanice standard, folosite la benzi transportoare, elevatoare și utilaje unde mișcarea se transmite prin lanț în loc de curea sau cuplaj direct. Gama XRC de lanțuri e gândită ca înlocuitor direct pentru transmisiile existente, fără modificarea restului acționării." },
-      { name: "Cuțite pentru Feliatoare RASSPE", description: "Cuțite circulare și accesorii pentru feliatoare din industria alimentară, produse de divizia de componente speciale a grupului. Sunt piese de uzură care trebuie înlocuite periodic pe utilajele de feliat, iar potrivirea exactă cu modelul de feliatoare contează pentru calitatea tăierii și siguranța operatorului." },
-      { name: "Coroane și Pinioane Alimentare CHT", description: "Coroane și pinioane pentru utilaje din industria alimentară, produse sub marca CHT a diviziei alimentare a grupului, gândite pentru contact cu produse alimentare și pentru curățare frecventă în linia de procesare. Se montează pe transportoare și mecanisme de indexare din liniile de ambalare și procesare." },
+      { name: "Roți Dințate și Lanțuri Industriale (gama XRC)", description: "Roți dințate și lanțuri de transmisie pentru acționări mecanice standard, folosite la benzi transportoare, elevatoare și utilaje unde mișcarea se transmite prin lanț în loc de curea sau cuplaj direct. Compatibilitatea cu transmisia existentă se confirmă pe cod, din documentația producătorului." },
+      { name: "Cuțite pentru Feliatoare RASSPE", description: "Cuțite circulare și accesorii pentru feliatoare din industria alimentară, din divizia alimentară (Food Division) a grupului. Sunt piese de uzură care trebuie înlocuite periodic pe utilajele de feliat, iar potrivirea exactă cu modelul de feliatoare contează pentru calitatea tăierii și siguranța operatorului." },
+      { name: "Coroane și Pinioane", description: "Coroane și pinioane pentru transmisii cu lanț; gama exactă și destinația se confirmă pe cod, din documentația producătorului." },
       { name: "Reductoare Epicicloidale Chiaravalli Linear Center", description: "Reductoare epicicloidale și module de mișcare liniară pentru aplicații de automatizare, produse de divizia dedicată mișcării liniare a grupului. Folosite la poziționarea axelor din mașini de producție unde e nevoie de precizie și joc unghiular redus." },
       { name: "Șuruburi de Ridicare și Motoreductoare", description: "Șuruburi de ridicare mecanice și motoreductoare pentru sisteme de poziționare verticală sau înclinată, montate în ansambluri de sincronizare pe mai multe puncte de ridicare. Utile la platforme de lucru, mese de poziționare și utilaje care necesită ridicare controlată mecanic, fără sisteme hidraulice." }
     ],
     industries: [
-      "Industria alimentară — cuțite RASSPE pentru feliatoare și coroane CHT pentru utilaje de procesare",
+      "Industria alimentară — cuțite RASSPE pentru feliatoare",
       "Transmisii industriale generale — roți dințate și lanțuri pentru benzi transportoare",
       "Automatizări — reductoare epicicloidale pentru module de poziționare liniară",
       "Industria motocicletelor — componente de transmisie produse de divizia dedicată"
     ],
-    infinitrade: `Informațiile despre Chiaravalli vin din surse publice ale producătorului italian; nu avem date proprii despre stocul componentelor la nivel local. Aducem piesele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru piese RASSPE sau CHT avem nevoie de codul exact de pe piesa veche sau de desenul tehnic al utilajului pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și verificăm disponibilitatea reală înainte de a confirma comanda către client.`,
+    infinitrade: `Informațiile despre Chiaravalli vin din surse publice ale producătorului italian; nu avem date proprii despre stocul componentelor la nivel local. Aducem piesele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru piese RASSPE avem nevoie de codul exact de pe piesa veche sau de desenul tehnic al utilajului pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și verificăm disponibilitatea reală înainte de a confirma comanda către client.`,
     limitation: "Nu putem confirma disponibilitatea locală pentru piese de schimb foarte vechi din gama RASSPE, care necesită verificare directă cu fabrica din Italia.",
     productCodes: [
       {
@@ -368,7 +366,7 @@ Pentru clienții din România, Chiaravalli e util în special pentru piese de sc
       },
       {
         "q": "Livrați componente de transmisie Chiaravalli Group în România?",
-        "a": "Da, aducem la comandă roți dințate, lanțuri, reductoare și componente din gama Chiaravalli Group, pe baza codului sau denumirii exacte solicitate. Nu ținem această gamă pe raft, iar orientarea de aprovizionare comunicată public de producător este de aproximativ două până la patru săptămâni. Este util să precizați aplicația exactă, industrială sau pentru motociclete, pentru identificare corectă."
+        "a": "Da, aducem la comandă roți dințate, lanțuri, reductoare și componente din gama Chiaravalli Group, pe baza codului sau denumirii exacte solicitate. Nu ținem această gamă pe raft; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Este util să precizați aplicația exactă, industrială sau pentru motociclete, pentru identificare corectă."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un reductor Chiaravalli?",
@@ -376,13 +374,13 @@ Pentru clienții din România, Chiaravalli e util în special pentru piese de sc
       },
       {
         "q": "Ce este gama RASSPE de la Chiaravalli Group?",
-        "a": "RASSPE este gama de cuțite pentru feliatoare din divizia alimentară a Chiaravalli Group, folosită la echipamente de tăiere din industria cărnii și a produselor procesate. Cuțitele sunt fabricate pentru a menține tăișul pe perioade lungi de funcționare continuă în condiții de igienă strictă. Alegerea modelului potrivit depinde de tipul feliatorului și de produsul tăiat."
+        "a": "RASSPE este gama de cuțite pentru feliatoare din divizia alimentară a Chiaravalli Group, pentru feliatoare din industria alimentară. Alegerea modelului potrivit depinde de tipul feliatorului și de produsul tăiat."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Chiaravalli Group – Company","url":"https://www.chiaravalli.com/en/group/","publisher":"Chiaravalli Group","accessed":"2026-09-25"},
       {"title":"Chiaravalli Group – Products","url":"https://www.chiaravalli.com/en/products/","publisher":"Chiaravalli Group","accessed":"2026-09-25"},
@@ -396,20 +394,20 @@ Pentru clienții din România, Chiaravalli e util în special pentru piese de sc
     founded: 1933,
     overview: `Schurter este un producător elvețian de componente electronice pentru protecția circuitelor și interfața om-mașină, activ din 1933. Compania fabrică siguranțe fuzibile, prize și mufe pentru aparatură electrică, comutatoare iluminate, conectori și ecrane tactile, folosite în echipamente industriale, medicale și auto. Din gama Schurter putem oferta atât componente individuale pentru producători de echipamente, cât și module de filtrare EMC pentru tablouri electrice.
 
-Schurter concurează cu Mersen pe segmentul siguranțelor fuzibile, cu o gamă care merge de la siguranțe SMD miniaturale, precum chip fuse-ul din seria USL 0603, până la siguranțe dedicate vehiculelor electrice, seriile ALO și ADO. Pe partea de interfață om-mașină, compania produce comutatoare iluminate din linia Metal Line MSM și conectori din plastic pe bază vegetală, seriile Green Line 6100 și 6600. Gama include și ecrane tactile capacitive (PCAP) și rezistive, plus filtre și inductanțe EMC din seria DKIV pentru reducerea perturbațiilor electromagnetice din tablourile electrice.
+Schurter are o gamă de siguranțe care merge de la siguranțe SMD miniaturale, precum chip fuse-ul din seria USL 0603, până la siguranțe dedicate vehiculelor electrice, seriile ALO și ADO. Pe partea de interfață om-mașină, compania produce comutatoare iluminate din linia Metal Line MSM și conectori din plastic pe bază vegetală, seriile Green Line 6100 și 6600. Gama include și ecrane tactile capacitive (PCAP) și rezistive, plus filtre și inductanțe EMC din seria DKIV pentru reducerea perturbațiilor electromagnetice din tablourile electrice.
 
 Pentru instalațiile electrice și panourile de comandă din România, componentele Schurter contează acolo unde certificarea și trasabilitatea sunt importante — echipamente medicale, stații de încărcare pentru vehicule electrice sau utilaje industriale care trebuie să respecte standarde stricte de compatibilitate electromagnetică.`,
     whyChoose: [
       "Companie elvețiană activă din 1933, cu gamă completă de la siguranțe fuzibile la ecrane tactile",
       "Siguranțe dedicate vehiculelor electrice (seriile ALO și ADO), relevante pentru infrastructura de încărcare",
       "Conectori din plastic pe bază vegetală (Green Line), pentru proiecte cu cerințe de sustenabilitate",
-      "Certificare ISO 14001 din 1996, pentru managementul de mediu în fabricație",
+      "Certificare ISO 14001 pentru managementul de mediu",
       "Filtre EMC din seria DKIV pentru reducerea perturbațiilor electromagnetice în tablouri electrice"
     ],
     keyProducts: [
       { name: "Siguranțe Fuzibile (seriile USL, ALO, ADO)", description: "Siguranțe fuzibile miniaturale de tip chip, precum seria USL 0603 pentru montaj SMD pe placa electronică, alături de siguranțe dedicate vehiculelor electrice din seriile ALO și ADO. Alegerea seriei depinde de curentul nominal necesar și de spațiul de montaj disponibil pe placă sau în tabloul electric. Folosite pentru protecția circuitelor la supracurent în echipamente electronice și electrice." },
       { name: "Comutatoare Iluminate Metal Line MSM", description: "Comutatoare cu iluminare integrată din linia Metal Line MSM, cu carcasă metalică pentru panouri de comandă industriale unde contează rezistența mecanică și vizibilitatea stării comutatorului. Se montează în panouri frontale ale utilajelor, cu semnalizare luminoasă pentru starea pornit/oprit." },
-      { name: "Conectori Green Line 6100/6600", description: "Conectori din plastic pe bază vegetală, seriile 6100 și 6600, gândiți ca variantă cu amprentă de mediu mai mică față de conectorii din plastic petrochimic clasic, păstrând aceleași caracteristici electrice. Utili pentru proiecte cu cerințe explicite de sustenabilitate în lanțul de aprovizionare." },
+      { name: "Conectori Green Line 6100/6600", description: "Conectori din plastic pe bază vegetală, seriile 6100 și 6600, cu datele electrice date de seria aleasă, confirmate pe cod din fișa Schurter. Utili pentru proiecte cu cerințe explicite de sustenabilitate în lanțul de aprovizionare." },
       { name: "Ecrane Tactile PCAP și Rezistive", description: "Ecrane tactile capacitive proiectate (PCAP) și rezistive, pentru panouri de operare industriale unde interfața trebuie să funcționeze fiabil în condiții de praf, umiditate sau utilizare cu mănuși. Se integrează în HMI-uri industriale ca alternativă la butoane fizice." },
       { name: "Filtre EMC Seria DKIV", description: "Filtre și inductanțe EMC din seria DKIV, montate la intrarea de alimentare a echipamentelor pentru reducerea perturbațiilor electromagnetice transmise în rețea. Relevante pentru echipamente care trebuie să respecte limite stricte de compatibilitate electromagnetică sau care funcționează lângă aparatură sensibilă la interferențe." }
     ],
@@ -420,7 +418,7 @@ Pentru instalațiile electrice și panourile de comandă din România, component
       "Feroviar — componente electrice conforme cu standardele din domeniu",
       "Avionică și spațiu — componente pentru aplicații cu cerințe ridicate de fiabilitate"
     ],
-    certifications: ["ISO 14001 — management de mediu, din 1996"],
+    certifications: ["ISO 14001 — management de mediu"],
     infinitrade: `Nu deținem date proprii de stoc pentru componentele Schurter — lucrăm din informațiile publice ale producătorului elvețian și le verificăm înainte de fiecare ofertă. Componentele Schurter le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni după confirmare. Pentru o ofertă corectă, trimiteți codul exact al siguranței sau comutatorului, tensiunea și curentul nominal din schema electrică a utilajului. Nu promitem disponibilitate permanentă pentru referințele mai puțin uzuale din gamă și confirmăm stocul real la furnizor înainte de a răspunde clientului.`,
     limitation: "Nu putem confirma echivalențe tehnice exacte între seriile Schurter și componentele altor producători fără schema electrică a clientului.",
     productCodes: [
@@ -442,7 +440,7 @@ Pentru instalațiile electrice și panourile de comandă din România, component
       },
       {
         "code": "4763",
-        "description": "Priză de aparat combinată tip F și J pentru distribuție flexibilă de energie"
+        "description": "Priză de aparat din gama Schurter; tipul și datele tehnice se confirmă pe cod, din fișa producătorului"
       },
       {
         "code": "6100-3",
@@ -470,7 +468,7 @@ Pentru instalațiile electrice și panourile de comandă din România, component
       },
       {
         "code": "6080",
-        "description": "Conector din familia Green Line pentru echipamente industriale"
+        "description": "Conector Schurter; familia și datele tehnice se confirmă pe cod, din fișa producătorului"
       },
       {
         "code": "MSM Metal Line",
@@ -500,15 +498,15 @@ Pentru instalațiile electrice și panourile de comandă din România, component
     faq: [
       {
         "q": "Ce diferență este între siguranțele Schurter ALO și ADO pentru vehicule electrice?",
-        "a": "ALO acoperă tensiuni de până la 1000 V curent continuu și curenți de până la 900 A, fiind gândită pentru bateriile de mare capacitate ale vehiculelor electrice. ADO se adresează unui interval mai restrâns, între 15 și 63 A, cu un maxim de 40 A la 1000 V curent continuu, potrivit pentru circuite auxiliare. Alegerea corectă depinde de curentul nominal al circuitului protejat și de spațiul de montaj disponibil în tabloul electric."
+        "a": "ALO acoperă tensiuni de până la 1000 V curent continuu și curenți de până la 900 A, fiind gândită pentru bateriile de mare capacitate ale vehiculelor electrice. ADO se adresează unui interval mai restrâns, între 15 și 63 A, cu un maxim de 40 A la 1000 V curent continuu. Alegerea corectă depinde de curentul nominal al circuitului protejat și de spațiul de montaj disponibil în tabloul electric."
       },
       {
         "q": "Ce este conectorul Green Line de la Schurter?",
-        "a": "Green Line este o familie de conectori Schurter fabricați dintr-un plastic cu conținut vegetal, gândită să reducă amprenta de material a echipamentelor industriale. Seriile 6100, 6102 și 6600 diferă prin numărul de poli și modul de montaj, de la trei la cinci contacte. Performanța electrică rămâne comparabilă cu variantele din plastic convențional, astfel încât înlocuirea într-un proiect existent se face fără modificări majore ale schemei electrice."
+        "a": "Green Line este o familie de conectori Schurter fabricați dintr-un plastic cu conținut vegetal, gândită să reducă amprenta de material a echipamentelor industriale. Seriile 6100, 6102 și 6600 diferă prin numărul de poli și modul de montaj, de la trei la cinci contacte. Datele electrice și compatibilitatea cu un proiect existent se confirmă pe cod, din fișa tehnică Schurter."
       },
       {
         "q": "Livrați componente Schurter în România?",
-        "a": "Da, aducem la comandă siguranțele, comutatoarele și conectorii Schurter pornind de la codul exact indicat de client, fără să ținem această gamă pe raft. Orientarea de livrare publicată de producător este de două până la patru săptămâni. Recomandăm trimiterea codului complet de pe ambalaj sau din schema electrică pentru a evita confuzia între variante apropiate ale aceleiași familii."
+        "a": "Da, aducem la comandă siguranțele, comutatoarele și conectorii Schurter pornind de la codul exact indicat de client, fără să ținem această gamă pe raft. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Schurter). Recomandăm trimiterea codului complet de pe ambalaj sau din schema electrică pentru a evita confuzia între variante apropiate ale aceleiași familii."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de conector Green Line?",
@@ -517,8 +515,8 @@ Pentru instalațiile electrice și panourile de comandă din România, component
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Schurter – Products","url":"https://www.schurter.com/en/products","publisher":"Schurter","accessed":"2026-09-25"},
       { title: "SCHURTER - pagina principală", url: "https://www.schurter.com/", publisher: "SCHURTER Holding AG", accessed: "2026-09-22" },
@@ -531,7 +529,7 @@ Pentru instalațiile electrice și panourile de comandă din România, component
     founded: 1947,
     overview: `EAO este un producător elvețian de interfețe om-mașină, companie de familie activă din 1947, care astăzi comercializează prin filiale regionale în mai multe țări, inclusiv Statele Unite. Fabrică butoane de comandă, selectoare, comutatoare cu cheie, indicatoare luminoase, tastaturi, joystick-uri și soluții de încărcare pentru panouri de comandă industriale și vehicule. Din gama EAO putem oferta componente individuale pentru integratori de tablouri electrice sau seturi complete de comandă pentru un panou nou, gândit de la zero.
 
-EAO concurează cu Schneider Electric pe segmentul butoanelor și selectoarelor de comandă industrială, dar are o nișă puternică pe echipamente cu cerințe mecanice ridicate: seria 09 acoperă tastaturi robuste, joystick-uri și controlere rotative cu protecție IP6K9K, potrivite pentru spălare sub presiune sau medii cu praf abraziv, seria 82 acoperă butoane rezistente la vandalism pentru spații publice sau industriale nesupravegheate, iar seria 84 oferă butoane moderne cu opțiuni de iluminare pentru panouri industriale curente. Compania deține certificare ISO 9001:2015 pentru sistemul de management al calității.
+Din gama EAO fac parte seria 09, cu tastaturi robuste cu protecție IP6K9K, potrivite pentru spălare sub presiune sau medii cu praf abraziv, precum și joystick-uri și controlere rotative cu grade proprii de protecție (de exemplu IP6K5 sau IP6K7 la joystick-uri), seria 82 acoperă butoane rezistente la vandalism pentru spații publice sau industriale nesupravegheate, iar seria 84 oferă butoane moderne cu opțiuni de iluminare pentru panouri industriale curente. Compania deține certificare ISO 9001:2015 pentru sistemul de management al calității.
 
 Pentru piața din România, componentele EAO sunt relevante la construcția de panouri de comandă pentru vehicule feroviare, autobuze, camioane și vehicule speciale (pompieri, salvare, gunoiere), dar și la utilaje industriale unde butoanele trebuie să reziste la spălare, vibrații sau utilizare intensă.`,
     whyChoose: [
@@ -542,11 +540,11 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       "Portofoliu larg de peste 15 serii numerotate, pentru aproape orice tip de panou de comandă"
     ],
     keyProducts: [
-      { name: "Tastaturi și Joystick-uri Seria 09", description: "Tastaturi, joystick-uri și controlere rotative cu protecție IP6K9K, gândite pentru medii unde panoul de comandă e spălat sub presiune sau expus la praf abraziv — utilaje agricole, vehicule speciale sau linii de procesare alimentară. Rezistă la vibrații și șocuri mecanice repetate, fiind o alegere pentru cabine de mașini și utilaje mobile." },
+      { name: "Tastaturi și Joystick-uri Seria 09", description: "Tastaturi robuste cu protecție IP6K9K, alături de joystick-uri (IP6K5 sau IP6K7 frontal) și controlere rotative, gândite pentru vehicule grele și speciale, unde panoul de comandă poate fi spălat sub presiune sau expus la praf abraziv. Rezistă la vibrații și șocuri mecanice repetate, fiind o alegere pentru cabine de mașini și utilaje mobile." },
       { name: "Butoane Rezistente la Vandalism Seria 82", description: "Butoane de comandă cu carcasă întărită, rezistentă la lovituri și încercări de forțare, folosite în panouri de comandă din spații publice sau zone industriale nesupravegheate — automate de plată, terminale de acces, echipamente exterioare. Construcția reduce riscul de defectare la utilizare abuzivă sau vandalism." },
       { name: "Butoane Iluminate Seria 84", description: "Butoane moderne cu opțiuni de iluminare integrată, pentru panouri de comandă industriale unde starea funcției trebuie semnalizată vizual operatorului. Se montează în tablouri de comandă standard, cu opțiuni multiple de culoare a iluminării pentru diferențierea funcțiilor pe panou." },
       { name: "Comutatoare cu Cheie și Selectoare", description: "Comutatoare cu cheie, selectoare rotative și potențiometre pentru panouri unde accesul la o funcție trebuie restricționat sau unde operatorul trebuie să aleagă între mai multe moduri de funcționare. Compatibile cu restul componentelor EAO din același panou, pentru un aspect unitar al interfeței." },
-      { name: "Soluții de Încărcare pentru Vehicule", description: "Componente pentru sisteme de încărcare montate pe vehicule feroviare, autobuze și camioane, parte din portofoliul EAO dedicat transportului. Gândite să reziste la condițiile specifice ale mediului feroviar și auto — vibrații constante, variații de temperatură și umiditate." }
+      { name: "Soluții de Încărcare pentru Vehicule", description: "Module și prize de încărcare pentru dispozitive mobile (telefoane, tablete, laptopuri) în vehicule, parte din gama EAO Charging Solutions; variantele exacte se confirmă pe cod, din documentația producătorului." }
     ],
     industries: [
       "Feroviar — panouri de comandă pentru vehicule și infrastructură feroviară",
@@ -593,7 +591,7 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       },
       {
         "code": "Series 31",
-        "description": "Sisteme de operare pentru sarcini grele"
+        "description": "Serie EAO; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Series 45",
@@ -605,7 +603,7 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       },
       {
         "code": "Series 51",
-        "description": "Comutatoare compacte cu semnal sonor pentru avertizare"
+        "description": "Serie EAO; datele tehnice se confirmă pe cod, din documentația producătorului"
       },
       {
         "code": "Series 56",
@@ -613,21 +611,21 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       },
       {
         "code": "Series 82",
-        "description": "Butoane rezistente la vandalism, cu variante de selector și cheie"
+        "description": "Butoane rezistente la vandalism"
       },
       {
         "code": "Series 84",
-        "description": "Butoane iluminate cu variante de cablare pentru oprire de urgență"
+        "description": "Butoane iluminate"
       },
       {
         "code": "Series 92",
-        "description": "Soluții HMI din gama premium EAO"
+        "description": "Soluții HMI din gama EAO"
       }
     ],
     faq: [
       {
         "q": "Ce diferență este între butoanele EAO seria 82 și seria 84?",
-        "a": "Seria 82 este construită pentru medii dure, cu o carcasă robustă rezistentă la vandalism și variante de selector sau cheie adăugate recent. Seria 84 pune accent pe aspectul modern și pe iluminare, fiind potrivită pentru panouri de comandă vizibile, cu opțiuni de cablare pentru butoane de oprire de urgență. Alegerea depinde de gradul de expunere la șocuri mecanice și de importanța semnalizării luminoase în aplicație."
+        "a": "Seria 82 este construită pentru medii dure, cu o carcasă robustă rezistentă la vandalism. Seria 84 pune accent pe aspectul modern și pe iluminare, fiind potrivită pentru panouri de comandă vizibile. Alegerea depinde de gradul de expunere la șocuri mecanice și de importanța semnalizării luminoase în aplicație."
       },
       {
         "q": "Ce oferă seria 09 de la EAO pentru cabine de vehicule?",
@@ -635,7 +633,7 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
       },
       {
         "q": "Livrați comutatoare EAO în România?",
-        "a": "Da, comandăm pentru dumneavoastră butoanele, selectoarele și joystick-urile EAO direct din portofoliul producătorului, întrucât nu păstrăm această gamă în stoc propriu. Termenul obișnuit indicat public de producător se situează între două și patru săptămâni. Este util să transmiteți diametrul de montaj și culoarea dorită a iluminării pentru identificarea rapidă a variantei corecte."
+        "a": "Da, comandăm pentru dumneavoastră butoanele, selectoarele și joystick-urile EAO direct din portofoliul producătorului, întrucât nu păstrăm această gamă în stoc propriu. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Eao). Este util să transmiteți diametrul de montaj și culoarea dorită a iluminării pentru identificarea rapidă a variantei corecte."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de buton iluminat EAO?",
@@ -644,8 +642,8 @@ Pentru piața din România, componentele EAO sunt relevante la construcția de p
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"EAO – Products","url":"https://www.eao.com/en/products","publisher":"EAO","accessed":"2026-09-25"},
       { title: "EAO - pagina principală", url: "https://www.eao.com/", publisher: "EAO Group", accessed: "2026-09-22" },
@@ -666,14 +664,14 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
     whyChoose: [
       "Gamă foarte largă — de la dedurizare casnică până la apă pentru injecție în industria farmaceutică",
       "Aproximativ 6.500 de angajați la nivel global, cu prezență în mai multe segmente de piață",
-      "Soluții de mineralizare a apei (Pearl Water), utile unde gustul și compoziția apei tratate contează",
+      "Apă dedurizată „Pearl Water” pentru dus și bazin și soluții de apă mineralizată cu magneziu pentru băut, utile unde calitatea apei tratate contează",
       "Tehnologii de membrană aplicabile și la celule de combustibil, dincolo de tratarea clasică a apei",
       "Sediu central în Austria, cu peste trei decenii de activitate în domeniul apei"
     ],
     keyProducts: [
       { name: "Sisteme de Dedurizare a Apei", description: "Dedurizatoare pentru reducerea durității apei prin schimb ionic, folosite atât în instalații casnice, cât și în clădiri comerciale unde apa dură ar afecta boilere, țevi sau echipamente de spălare. Reduc depunerile de calcar și prelungesc durata de viață a instalațiilor termice și sanitare din clădire." },
       { name: "Filtrare și Osmoză Inversă pentru Apă Potabilă", description: "Sisteme de filtrare sub chiuvetă și unități de osmoză inversă pentru apă potabilă, cu cartușe de filtru înlocuibile periodic. Folosite acolo unde apa de la rețea are nevoie de o etapă suplimentară de purificare înainte de consum, în clădiri de birouri, hoteluri sau spații comerciale." },
-      { name: "Sisteme Pearl Water de Mineralizare", description: "Sisteme de mineralizare a apei tratate, care ajustează compoziția minerală după filtrare pentru un gust mai bun al apei potabile. Se montează după etapa de filtrare sau osmoză inversă, în instalații unde calitatea percepută a apei de la robinet contează pentru utilizatorii finali." },
+      { name: "Sisteme de Mineralizare a Apei", description: "Sisteme de mineralizare a apei tratate, care ajustează compoziția minerală după filtrare pentru un gust mai bun al apei potabile. Se montează după etapa de filtrare sau osmoză inversă, în instalații unde calitatea percepută a apei de la robinet contează pentru utilizatorii finali." },
       { name: "Apă pentru Injecție (WFI) și Soluții Farma", description: "Sisteme pentru producerea de apă pentru injecție și apă de proces cu puritate ridicată, folosite în industria farmaceutică și biotehnologică unde standardele de calitate a apei sunt strict reglementate. Aplicație de nișă, diferită tehnic de sistemele de apă potabilă din portofoliul general BWT." }
     ],
     industries: [
@@ -692,11 +690,11 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
       },
       {
         "code": "Perla One",
-        "description": "Variantă monocolonă a sistemului de dedurizare Perla"
+        "description": "Variantă a sistemului de dedurizare bicolonă Perla"
       },
       {
         "code": "Perla Hybrid",
-        "description": "Sistem de dedurizare combinat cu protecție anticorozivă suplimentară"
+        "description": "Variantă a gamei Perla; caracteristicile le confirmăm din documentația BWT"
       },
       {
         "code": "Perla Seta",
@@ -734,7 +732,7 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
     faq: [
       {
         "q": "Ce este sistemul BWT Perla și cu ce diferă de Perla One?",
-        "a": "BWT Perla este un sistem de dedurizare cu două coloane de schimb ionic, care asigură apă dedurizată în mod continuu chiar și în timpul regenerării unei coloane. Perla One folosește o singură coloană, fiind o variantă mai compactă pentru gospodării cu consum mai redus de apă. Diferența principală constă în debitul de vârf susținut și în spațiul de montaj necesar pentru instalare."
+        "a": "BWT Perla este un sistem de dedurizare cu două coloane de schimb ionic, care asigură apă dedurizată în mod continuu chiar și în timpul regenerării unei coloane. Perla One face parte din aceeași gamă de dedurizatoare cu două coloane; diferențele de debit de vârf și de spațiu de montaj le confirmăm din fișa tehnică a modelului."
       },
       {
         "q": "Ce este OSMOTRON de la BWT și pentru ce se folosește?",
@@ -742,17 +740,17 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
       },
       {
         "q": "Livrați echipamente BWT în România?",
-        "a": "Da, procurăm la cerere sistemele de dedurizare și echipamentele pentru apă purificată BWT, fără un stoc constituit anticipat pentru această gamă. Producătorul indică public un termen orientativ de două până la patru săptămâni pentru disponibilitate. Recomandăm menționarea durității apei locale și a debitului necesar pentru dimensionarea corectă a sistemului."
+        "a": "Da, procurăm la cerere sistemele de dedurizare și echipamentele pentru apă purificată BWT, fără un stoc constituit anticipat pentru această gamă. Termenul orientativ este de 1–4 săptămâni, în funcție de model. Recomandăm menționarea durității apei locale și a debitului necesar pentru dimensionarea corectă a sistemului."
       },
       {
         "q": "Ce trebuie să comunic pentru o ofertă de sistem de dedurizare BWT?",
-        "a": "Este importantă duritatea apei sursă, exprimată în grade germane sau franceze, numărul de persoane din gospodărie și debitul de vârf necesar la robinete. Pentru clădiri comerciale contează și programul de consum, deoarece influențează alegerea între o variantă monocolonă sau bicolonă precum Perla sau Perla One. Spațiul disponibil pentru montaj și presiunea din rețea completează datele necesare unei oferte corecte."
+        "a": "Este importantă duritatea apei sursă, exprimată în grade germane sau franceze, numărul de persoane din gospodărie și debitul de vârf necesar la robinete. Pentru clădiri comerciale contează și programul de consum, deoarece influențează alegerea modelului din gama Perla. Spațiul disponibil pentru montaj și presiunea din rețea completează datele necesare unei oferte corecte."
       }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"BWT – Business Divisions","url":"https://www.bwt.com/en/business-divisions/","publisher":"BWT","accessed":"2026-09-25"},
       {"title":"BWT Perla – Shop","url":"https://www.bwt.com/en/shop/BWT-Perla/125686699","publisher":"BWT","accessed":"2026-09-25"},
@@ -768,7 +766,7 @@ Pentru clienții din România, BWT are sens la instalații care combină nevoia 
 
 Ca subsidiară Arkema, Bostik beneficiază de infrastructura de cercetare și distribuție a unui grup chimic mare, ceea ce îi permite să acopere atât aplicații industriale de asamblare, cât și segmente conexe precum construcțiile sau ambalajele. Pentru un integrator sau un producător care are nevoie de adezivi structurali sau de etanșare, Bostik e o opțiune de luat în calcul alături de alți producători chimici europeni, mai ales unde contează suportul tehnic pentru alegerea formulei potrivite fluidului sau materialului de asamblat.
 
-Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamblare industrială și la aplicații de etanșare unde specificația tehnică a clientului cere un anumit tip de adeziv (poliuretanic, epoxidic, hot-melt) mai degrabă decât o soluție generică de la orice furnizor.`,
+Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamblare industrială și la aplicații de etanșare unde specificația tehnică a clientului cere un anumit tip de adeziv (de exemplu cianoacrilat, anaerob sau acrilic activat UV) mai degrabă decât o soluție generică de la orice furnizor.`,
     whyChoose: [
       "Parte a grupului chimic Arkema din 2015, cu acces la infrastructura de cercetare a grupului",
       "Istorie de peste un secol în industria adezivilor, provenită din compania americană originală",
@@ -787,7 +785,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
       "Producția de bunuri durabile — asamblare de componente în electrocasnice și mobilier"
     ],
     infinitrade: `Nu avem surse proprii de stoc pentru Bostik — verificăm doar ce apare public despre gamă și despre grupul Arkema înainte să răspundem unei cereri. Aducem adezivii la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de materialele care trebuie asamblate sau etanșate, condițiile de temperatură și umiditate din aplicație și cantitatea necesară. Nu promitem disponibilitate permanentă din stoc pentru nicio referință din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul final.`,
-    limitation: "Nu putem confirma fișa tehnică exactă și compatibilitatea chimică pentru fiecare referință Bostik fără acces direct la site-ul oficial al producătorului la momentul cererii.",
+    limitation: "Nu putem confirma compatibilitatea chimică pentru fiecare referință Bostik fără fișa tehnică a producătorului pentru codul respectiv.",
     productCodes: [
       {
         "code": "Born2Bond Pre-Bonding Cleaner",
@@ -881,7 +879,7 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
       },
       {
         "q": "Livrați adezivi Bostik în România?",
-        "a": "Da, obținem la comandă adezivii Born2Bond și seriile anaerobe Bostik, deoarece nu menținem un stoc constituit din această gamă. Timpul uzual publicat de producător pentru această gamă este de două până la patru săptămâni. Fișa tehnică de siguranță a produsului ajută la confirmarea compatibilității cu materialele de îmbinat."
+        "a": "Da, obținem la comandă adezivii Born2Bond și seriile anaerobe Bostik, deoarece nu menținem un stoc constituit din această gamă. Termenul obișnuit este de 1–4 săptămâni la comandă. Fișa tehnică a produsului ajută la confirmarea compatibilității cu materialele de îmbinat."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de adeziv structural Bostik?",
@@ -890,8 +888,8 @@ Pentru clienții din România, adezivii Bostik sunt relevanți la linii de asamb
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Born2Bond – Products","url":"https://born2bond.bostik.com/en/products/search","publisher":"Bostik","accessed":"2026-09-25"},
       {"title":"Bostik Engineering Adhesives – Product Catalogue 2025","url":"https://born2bond.bostik.com/storage/bostik-engineering-adhesives-product-catalogue-2025.pdf","publisher":"Bostik","accessed":"2026-09-25"},
@@ -940,7 +938,7 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       },
       {
         "code": "ASCP",
-        "description": "Pompă centrifugală submersibilă pentru medii solicitante"
+        "description": "Pompă centrifugală submersibilă"
       },
       {
         "code": "HP43",
@@ -972,7 +970,7 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       },
       {
         "code": "CVP",
-        "description": "Pompă verticală tip voltă, pentru transportul betonului"
+        "description": "Pompă verticală cu carcasă în voluta din beton (concrete volute pump)"
       },
       {
         "code": "SAT/CAT",
@@ -986,11 +984,11 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       },
       {
         "q": "Pentru ce aplicații este folosită pompa Andritz HP43?",
-        "a": "HP43 este o pompă de înaltă presiune destinată proceselor industriale unde este nevoie de presiune ridicată la debite relativ constante, de exemplu în alimentarea cazanelor sau în anumite etape ale procesării celulozei. Construcția urmărește o durată lungă de funcționare între revizii, cu componente dimensionate pentru sarcini mecanice ridicate. Datele exacte de presiune și debit se confirmă din fișa tehnică publicată de Andritz pentru fiecare variantă."
+        "a": "HP43 este o pompă de înaltă presiune din gama de pompe centrifugale Andritz. Aplicațiile, presiunea și debitul se confirmă pe cod, din documentația producătorului. Datele exacte de presiune și debit se confirmă din fișa tehnică publicată de Andritz pentru fiecare variantă."
       },
       {
         "q": "Livrați pompe Andritz în România?",
-        "a": "Da, comandăm pompele Andritz direct la producător pentru fiecare client, întrucât gama nu se regăsește pe stocul nostru curent. Intervalul anunțat public de producător pentru livrare este, în mod obișnuit, de două până la patru săptămâni. Este util să precizați debitul, înălțimea de pompare și tipul de lichid vehiculat pentru identificarea variantei potrivite."
+        "a": "Da, comandăm pompele Andritz direct la producător pentru fiecare client, întrucât gama nu se regăsește pe stocul nostru curent. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Pentru sistemele proiectate la comandă, termenul se stabilește punctual. Este util să precizați debitul, înălțimea de pompare și tipul de lichid vehiculat pentru identificarea variantei potrivite."
       },
       {
         "q": "Ce trebuie să comunic pentru o ofertă de pompă centrifugală Andritz?",
@@ -999,8 +997,8 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"ANDRITZ Pumps – Centrifugal Pumps","url":"https://www.andritz.com/pumps-en/products/centrifugal-pumps","publisher":"ANDRITZ","accessed":"2026-09-25"},
       { title: "ANDRITZ - pagina principală", url: "https://www.andritz.com", publisher: "Andritz AG", accessed: "2026-09-22" },
@@ -1014,19 +1012,19 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
     headquarters: "Dover, Marea Britanie",
     overview: `Megger este un producător britanic de instrumente de testare electrică, cu rădăcini din 1889 și sediul la Dover. Compania fabrică testere de izolație, sisteme de testare a cablurilor, testere multifuncționale, testere de motoare și sisteme pentru testarea transformatoarelor, folosite de electricieni și ingineri de mentenanță pentru verificarea instalațiilor electrice. Din gama Megger putem oferta atât aparate portabile pentru electricieni, cât și sisteme mai complexe pentru utilități și industrie.
 
-Megger concurează cu Fluke pe segmentul aparatelor de testare electrică, dar are o poziție puternică specific pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT5252, MIT10252 și MIT15252, un sistem de testare a cablurilor de tip VLF Sine la 37 kV, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă peste 50 de categorii de produse pentru testare și diagnosticare electrică.
+Megger concurează cu Fluke pe segmentul aparatelor de testare electrică, dar are o poziție puternică specific pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT5252, MIT10252 și MIT15252, un sistem de testare a cablurilor de tip VLF Sine, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă instrumente portabile, sisteme de testare a cablurilor, motoarelor și transformatoarelor.
 
 Pentru piața din România, aparatele Megger sunt relevante pentru firme de mentenanță electrică, distribuitori de energie și electricieni autorizați care au nevoie de teste de izolație, teste de cablu sau verificări periodice ale instalațiilor conform normelor tehnice.`,
     whyChoose: [
       "Nume devenit termen generic pentru testerul de izolație în domeniul electric",
       "Gamă de testere de izolație pe mai multe game de tensiune (MIT5252, MIT10252, MIT15252)",
-      "Sistem de testare cabluri VLF Sine la 37 kV, pentru verificarea cablurilor de medie tensiune",
+      "Sistem de testare cabluri VLF Sine, pentru verificarea cablurilor de medie tensiune",
       "Sistem dedicat TRAX pentru testarea transformatoarelor din stații electrice",
-      "Peste 50 de categorii de produse pentru testare și diagnosticare electrică"
+      "Gamă de produse pentru testare și diagnosticare electrică, de la aparate portabile la sisteme pentru utilități"
     ],
     keyProducts: [
-      { name: "Testere de Izolație MIT5252 / MIT10252 / MIT15252", description: "Testere de izolație portabile, cu tensiuni de test diferite pentru fiecare model din serie, folosite la verificarea rezistenței de izolație a cablurilor și instalațiilor electrice înainte de punere sub tensiune sau la mentenanța periodică. Instrumentul standard pentru electricieni și ingineri de mentenanță la testarea izolației motoarelor, cablurilor și echipamentelor electrice." },
-      { name: "Sistem de Testare Cabluri VLF Sine 37 kV", description: "Sistem de testare a cablurilor de medie tensiune cu semnal de foarte joasă frecvență (VLF) la 37 kV, folosit pentru verificarea integrității izolației cablurilor îngropate sau montate, fără să fie nevoie de tensiunea de test de curent alternativ standard. Util la recepția cablurilor noi sau la diagnosticarea defectelor pe cabluri existente." },
+      { name: "Testere de Izolație MIT5252 / MIT10252 / MIT15252", description: "Testere de izolație portabile, cu tensiuni de test diferite pentru fiecare model din serie, folosite la verificarea rezistenței de izolație a cablurilor și instalațiilor electrice înainte de punere sub tensiune sau la mentenanța periodică. Instrument folosit de electricieni și ingineri de mentenanță la testarea izolației motoarelor, cablurilor și echipamentelor electrice." },
+      { name: "Sistem de Testare Cabluri VLF Sine", description: "Sistem de testare a cablurilor de medie tensiune cu semnal de foarte joasă frecvență (VLF), folosit pentru verificarea integrității izolației cablurilor îngropate sau montate, fără să fie nevoie de tensiunea de test de curent alternativ standard. Util la recepția cablurilor noi sau la diagnosticarea defectelor pe cabluri existente." },
       { name: "Tester Multifuncțional MFT-X1", description: "Tester multifuncțional pentru verificarea instalațiilor electrice — continuitate, rezistență de izolație, impedanță de buclă și alte teste cerute la recepția sau verificarea periodică a unei instalații electrice. Instrument de bază pentru electricieni autorizați care fac verificări conform normelor tehnice." },
       { name: "Tester de Motoare ADX", description: "Tester dedicat pentru diagnosticarea motoarelor electrice, folosit la mentenanța preventivă pentru identificarea problemelor de izolație sau de bobinaj înainte ca acestea să ducă la defectarea motorului. Relevant pentru facilități cu motoare electrice critice pentru procesul de producție." },
       { name: "Sistem de Testare Transformatoare TRAX", description: "Sistem pentru testarea transformatoarelor de putere și distribuție, folosit de utilități electrice și firme de mentenanță la verificarea periodică a transformatoarelor din stații electrice. Acoperă mai multe tipuri de teste specifice transformatoarelor într-un singur echipament." }
@@ -1038,7 +1036,7 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
       "Transport feroviar — testarea instalațiilor electrice din infrastructura feroviară",
       "Utilități de apă — mentenanța electrică a echipamentelor din stațiile de pompare"
     ],
-    infinitrade: `Nu depăstrăm stoc propriu de aparate Megger; lucrăm din surse publice ale producătorului britanic și confirmăm disponibilitatea reală la fiecare cerere primită. Aducem instrumentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de modelul exact cerut, tensiunea de test necesară și, la sistemele de cablu sau transformator, tipul de echipament testat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă, mai ales la sistemele mai complexe precum TRAX.`,
+    infinitrade: `Nu deținem stoc propriu de aparate Megger; lucrăm din surse publice ale producătorului britanic și confirmăm disponibilitatea reală la fiecare cerere primită. Aducem instrumentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de modelul exact cerut, tensiunea de test necesară și, la sistemele de cablu sau transformator, tipul de echipament testat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă, mai ales la sistemele mai complexe precum TRAX.`,
     limitation: "Nu putem confirma calibrarea sau intervențiile post-vânzare pentru aparatele Megger — acestea rămân în sarcina rețelei de mentenanță a producătorului.",
     productCodes: [
       {
@@ -1117,7 +1115,7 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
       },
       {
         "q": "Livrați echipamente Megger în România?",
-        "a": "Da, aducem testerele și sistemele Megger la cerere, pornind de la codul de model transmis, fără o rezervă proprie ținută pe raft. Producătorul publică un interval orientativ de disponibilitate cuprins între două și patru săptămâni. Recomandăm menționarea tensiunii nominale a echipamentului testat pentru a confirma compatibilitatea variantei alese."
+        "a": "Da, aducem testerele și sistemele Megger la cerere, pornind de la codul de model transmis, fără o rezervă proprie ținută pe raft. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Megger). Recomandăm menționarea tensiunii nominale a echipamentului testat pentru a confirma compatibilitatea variantei alese."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de tester de izolație Megger?",
@@ -1126,8 +1124,8 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Megger – TRAX Multifunction Transformer and Substation Test System","url":"https://www.megger.com/en/products/trax-multifunction-transformer-and-substation-test-system","publisher":"Megger","accessed":"2026-09-25"},
       {"title":"Megger – Products","url":"https://www.megger.com/products","publisher":"Megger","accessed":"2026-09-25"},
@@ -1141,20 +1139,20 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
     founded: 1901,
     overview: `Chicago Pneumatic este un producător de scule pneumatice și electrice industriale, cu originea în 1901, când compania a brevetat unul dintre primele ciocane pneumatice cu o singură supapă. Astăzi marca produce chei dinamometrice, polizoare, mașini de găurit și scule de nituire pentru ateliere și linii de producție. Din gama Chicago Pneumatic putem oferta atât scule manuale pentru ateliere mecanice, cât și echipamente pentru linii industriale de asamblare.
 
-Chicago Pneumatic concurează cu Ingersoll Rand pe segmentul sculelor pneumatice industriale, cu o gamă structurată pe aplicație: seria CP66 de chei dinamometrice pneumatice pentru petrol și gaze, minerit și oțelării, cheia electronică CP89 eTorque cu cuplu reglabil între 2 și 850 Nm, cheile cu acumulator CP86 eBlueTork pentru vehicule grele, polizoarele turbo CP3T30 și seriile CP3550, CP3650 și CP3850 de polizoare unghiulare și mașini de șlefuit, plus mașinile de găurit pistol CP1117 pentru producție industrială.
+Chicago Pneumatic concurează cu Ingersoll Rand pe segmentul sculelor pneumatice industriale, cu o gamă structurată pe aplicație: seria CP66 de chei dinamometrice pneumatice, cheia electronică CP89 eTorque, cheile cu acumulator din seria CP86 (eBlueTork), polizoarele turbo CP3T30 și seriile CP3550, CP3650 și CP3850 de polizoare unghiulare și mașini de șlefuit, plus mașinile de găurit pistol CP1117 pentru producție industrială.
 
 Pentru atelierele și liniile de producție din România, sculele Chicago Pneumatic sunt relevante la operații de strângere controlată cu cuplu precis, șlefuire și găurire în producție de serie, unde fiabilitatea și precizia contează mai mult decât prețul unei scule generice.`,
     whyChoose: [
       "Peste 120 de ani de istorie în sculele pneumatice industriale, din 1901",
-      "Cheia electronică CP89 eTorque cu cuplu reglabil între 2 și 850 Nm",
-      "Chei cu acumulator CP86 eBlueTork, gândite specific pentru vehicule grele",
+      "Cheia electronică CP89 eTorque, cu domeniul de cuplu precizat în fișa tehnică a modelului",
+      "Chei dinamometrice cu acumulator din seria CP86, fără furtun de aer comprimat",
       "Gamă largă de polizoare și mașini de șlefuit pentru diverse aplicații de finisare",
       "Concurează direct cu Ingersoll Rand pe segmentul sculelor pneumatice industriale"
     ],
     keyProducts: [
-      { name: "Chei Dinamometrice Pneumatice Seria CP66", description: "Chei dinamometrice pneumatice pentru strângeri controlate în industria petrolului și gazelor, minerit și oțelării, unde cuplul de strângere trebuie respectat exact pentru siguranța îmbinării. Folosite la asamblarea și mentenanța echipamentelor grele unde o strângere incorectă poate duce la defecțiuni majore." },
-      { name: "Cheie Electronică CP89 eTorque", description: "Cheie dinamometrică electronică cu cuplu reglabil între 2 și 850 Nm, care înregistrează valoarea de strângere aplicată pentru trasabilitate în producție. Utilă în linii de asamblare unde fiecare strângere trebuie documentată pentru controlul calității, în loc să se bazeze doar pe experiența operatorului." },
-      { name: "Chei cu Acumulator CP86 eBlueTork", description: "Chei dinamometrice cu acumulator, fără cablu de aer comprimat, gândite pentru mentenanța vehiculelor grele unde accesul la o sursă de aer comprimat e limitat. Oferă mobilitate mai mare decât o sculă pneumatică clasică, păstrând precizia de strângere necesară." },
+      { name: "Chei Dinamometrice Pneumatice Seria CP66", description: "Chei dinamometrice pneumatice pentru strângeri controlate în aplicații industriale, unde cuplul de strângere trebuie respectat exact pentru siguranța îmbinării. Folosite la asamblarea și mentenanța echipamentelor grele unde o strângere incorectă poate duce la defecțiuni majore." },
+      { name: "Cheie Electronică CP89 eTorque", description: "Cheie dinamometrică electronică cu domeniul de cuplu precizat în fișa tehnică a modelului, care înregistrează valoarea de strângere aplicată pentru trasabilitate în producție. Utilă în linii de asamblare unde fiecare strângere trebuie documentată pentru controlul calității, în loc să se bazeze doar pe experiența operatorului." },
+      { name: "Chei cu Acumulator CP86 eBlueTork", description: "Chei dinamometrice cu acumulator, fără cablu de aer comprimat, utile acolo unde accesul la o sursă de aer comprimat e limitat. Oferă mobilitate mai mare decât o sculă pneumatică clasică, păstrând precizia de strângere necesară." },
       { name: "Polizoare și Mașini de Șlefuit (seriile CP3T30, CP3550, CP3650, CP3850)", description: "Polizoare unghiulare, polizoare cu turbină și mașini de șlefuit pentru finisarea suprafețelor metalice, folosite în ateliere de fabricație și mentenanță industrială. Seriile diferă prin turație, putere și greutate, alese după tipul de material și volumul de lucru al aplicației." },
       { name: "Mașini de Găurit Pistol CP1117", description: "Mașini de găurit pneumatice de tip pistol pentru producție industrială de serie, folosite la găurirea repetitivă a componentelor metalice pe linii de asamblare. Construcție compactă pentru utilizare de durată în producție continuă." }
     ],
@@ -1166,7 +1164,7 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       "Producție industrială de serie — mașini de găurit pistol pentru linii de asamblare"
     ],
     infinitrade: `Pentru sculele Chicago Pneumatic nu avem date proprii de stoc — informațiile despre gamă vin din surse publice ale producătorului. Aducem sculele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă exactă avem nevoie de modelul căutat, cuplul de strângere necesar (la cheile dinamometrice) sau aplicația de șlefuire/găurire vizată. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din gamă și confirmăm disponibilitatea reală înainte de a trimite prețul.`,
-    limitation: "Nu putem confirma service-ul în garanția producătorului pentru sculele Chicago Pneumatic — acesta rămâne în sarcina rețelei autorizate a mărcii.",
+    limitation: "Nu putem confirma service-ul în garanția producătorului pentru sculele Chicago Pneumatic — acesta rămâne în sarcina rețelei de service a producătorului.",
     productCodes: [
       {
         "code": "CP66",
@@ -1218,11 +1216,11 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       },
       {
         "code": "CP5000",
-        "description": "Cheie de impact grea de un țol, pentru service de camioane"
+        "description": "Cheie de impact grea, pentru service de camioane și autobuze"
       },
       {
         "code": "CP7741",
-        "description": "Cheie de impact accesibilă pentru întreținere și schimbat anvelope"
+        "description": "Cheie de impact pentru întreținere și schimbat anvelope"
       },
       {
         "code": "CP8222",
@@ -1238,7 +1236,7 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       },
       {
         "code": "CP6728",
-        "description": "Cheie de impact din compozit premium, certificată pentru medii ATEX"
+        "description": "Cheie de impact din compozit, certificată pentru medii ATEX"
       }
     ],
     faq: [
@@ -1248,11 +1246,11 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
       },
       {
         "q": "Ce este cheia dinamometrică Chicago Pneumatic CP86 eBlueTork?",
-        "a": "CP86 eBlueTork este o cheie dinamometrică pe acumulator, fără furtun de aer conectat, gândită pentru linii de asamblare unde mobilitatea contează mai mult decât alimentarea pneumatică fixă. Oferă control electronic al cuplului aplicat, util acolo unde este nevoie de trasabilitate a strângerilor critice. Autonomia bateriei și cuplul maxim disponibil variază în funcție de model, conform datelor publicate de producător."
+        "a": "CP86 eBlueTork este o cheie dinamometrică pe acumulator, fără furtun de aer conectat, utilă acolo unde mobilitatea contează mai mult decât alimentarea pneumatică fixă. Oferă control electronic al cuplului aplicat, util acolo unde este nevoie de trasabilitate a strângerilor critice. Autonomia bateriei și cuplul maxim disponibil variază în funcție de model, conform datelor publicate de producător."
       },
       {
         "q": "Livrați scule Chicago Pneumatic în România?",
-        "a": "Da, procurăm sculele Chicago Pneumatic la comandă pentru fiecare proiect, deoarece nu constituim un stoc propriu pentru această gamă. Perioada obișnuită menționată public de producător este de două până la patru săptămâni. Menționarea mărimii pătratului de antrenare și a cuplului maxim necesar grăbește identificarea variantei potrivite."
+        "a": "Da, procurăm sculele Chicago Pneumatic la comandă pentru fiecare proiect, deoarece nu constituim un stoc propriu pentru această gamă. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Chicago Pneumatic). Menționarea mărimii pătratului de antrenare și a cuplului maxim necesar grăbește identificarea variantei potrivite."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de cheie de impact Chicago Pneumatic?",
@@ -1261,8 +1259,8 @@ Pentru atelierele și liniile de producție din România, sculele Chicago Pneuma
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Chicago Pneumatic – Products","url":"https://tools.cp.com/en/products","publisher":"Chicago Pneumatic","accessed":"2026-09-25"},
       {"title":"Chicago Pneumatic – Impact Wrenches","url":"https://tools.cp.com/en/products/impactwrenches","publisher":"Chicago Pneumatic","accessed":"2026-09-25"},
@@ -1326,15 +1324,15 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
       },
       {
         "code": "Cond ID",
-        "description": "Accesoriu pentru identificarea punctelor de măsurare pe utilaj"
+        "description": "Accesoriu pentru instrumentele portabile SPM; funcția se confirmă din documentația producătorului"
       },
       {
         "code": "Tachometer and temperature probe",
-        "description": "Sondă combinată pentru turație și temperatură, folosită cu instrumentele portabile"
+        "description": "Sondă pentru instrumentele portabile SPM; funcția se confirmă din documentația producătorului"
       },
       {
         "code": "DuoTech accelerometers",
-        "description": "Accelerometre pentru transmisia semnalului de vibrații către instrumentele SPM"
+        "description": "Accelerometre pentru instrumentele SPM; modelele compatibile se confirmă din documentația producătorului"
       },
       {
         "code": "Accesorii portabile",
@@ -1352,7 +1350,7 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
       },
       {
         "q": "Livrați instrumente SPM Instrument în România?",
-        "a": "Da, comandăm instrumentele portabile SPM Instrument pe măsură ce apar cererile, fără să existe un stoc al nostru pentru gama respectivă. Conform informațiilor publice ale producătorului, intervalul uzual este de două până la patru săptămâni. Recomandăm precizarea aplicației de mentenanță predictivă vizate pentru alegerea instrumentului potrivit."
+        "a": "Da, comandăm instrumentele portabile SPM Instrument pe măsură ce apar cererile, fără să existe un stoc al nostru pentru gama respectivă. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Spm Instrument). Recomandăm precizarea aplicației de mentenanță predictivă vizate pentru alegerea instrumentului potrivit."
       },
       {
         "q": "Ce trebuie să comunic pentru o ofertă de instrument portabil SPM?",
@@ -1361,8 +1359,8 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"SPM Instrument – Portable Instruments","url":"https://www.spminstrument.com/products-and-services/portable-instruments/","publisher":"SPM Instrument","accessed":"2026-09-25"},
       { title: "SPM Instrument - pagina principală", url: "https://www.spminstrument.com", publisher: "SPM Instrument AB", accessed: "2026-09-22" },
@@ -1375,21 +1373,21 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
     headquarters: "Corminboeuf, Elveția",
     overview: `Contrinex este un producător elvețian de senzori industriali, cu sediul la Corminboeuf, specializat pe senzori inductivi, fotoelectrici și sisteme de măsurare inteligente pentru automatizări. Din gama Contrinex putem oferta senzori pentru detectarea prezenței, măsurarea distanței sau poziționarea pieselor pe linii de producție, montate pe utilaje, roboți sau transportoare. Compania acoperă atât aplicații standard de automatizare, cât și medii dificile — sudură, temperaturi extreme, presiune ridicată.
 
-Contrinex concurează cu Turck pe segmentul senzorilor industriali, cu o gamă construită pe variante specializate ale senzorilor inductivi: seriile Weld-Immune, rezistente la interferența generată de sudură, versiuni pentru presiune extra-ridicată de până la 1000 bar, versiuni de temperatură ridicată care rezistă până la 230°C și versiuni rezistente la spălare (washdown) pentru medii cu igienizare frecventă. Pe partea fotoelectrică, gama include senzori cubici C23, cilindrici M18 și M12, variante miniaturale și cu fibră optică. Gama de senzori smart de măsurare (DMS, AMS) oferă plaje de măsurare între 0 și 10 mm, cu ieșire digitală sau analogică.
+Contrinex concurează cu Turck pe segmentul senzorilor industriali, cu o gamă construită pe variante specializate ale senzorilor inductivi: seriile Weld-Immune, rezistente la interferența generată de sudură, versiuni Extra Pressure (până la 200 bar) și High Pressure (până la 1000 bar), versiuni de temperatură ridicată care rezistă până la 230°C și versiuni rezistente la spălare (washdown) pentru medii cu igienizare frecventă. Pe partea fotoelectrică, gama include senzori cubici C23, cilindrici M18 și M12, variante miniaturale și cu fibră optică. Gama de senzori de măsurare (DMS – ieșire digitală, AMS – ieșire analogică) măsoară distanța; plaja de măsurare depinde de model.
 
 Pentru fabricile din România cu linii de automatizare complexă, senzorii Contrinex au sens acolo unde condițiile de mediu sunt dificile pentru un senzor standard — zone de sudură robotizată, presiune ridicată sau spălare frecventă cu apă — și unde un senzor obișnuit s-ar defecta rapid.`,
     whyChoose: [
       "Senzori inductivi rezistenți la interferența de sudură (seria Weld-Immune)",
-      "Variante de presiune extra-ridicată, testate până la 1000 bar",
+      "Variante High Pressure, până la 1000 bar",
       "Variante de temperatură ridicată, funcționale până la 230°C",
-      "Senzori smart de măsurare (DMS, AMS) cu plaje de la 0 la 10 mm",
+      "Senzori de măsurare (DMS – digital, AMS – analogic)",
       "Concurează cu Turck pe segmentul senzorilor industriali pentru automatizări"
     ],
     keyProducts: [
       { name: "Senzori Inductivi Seriile 600/700 Weld-Immune", description: "Senzori inductivi de proximitate, cu variante rezistente la interferența magnetică generată de operațiile de sudură (Weld-Immune) și variante rezistente la depunerea de așchii metalice (Chip-Immune). Folosiți la detectarea prezenței pieselor metalice pe linii de sudură robotizată sau prelucrare mecanică, unde senzorii standard s-ar defecta rapid din cauza mediului agresiv." },
-      { name: "Senzori Inductivi de Presiune și Temperatură Extremă", description: "Variante de senzori inductivi pentru presiune extra-ridicată, testate până la 1000 bar, și variante de temperatură ridicată, funcționale până la 230°C. Folosite în aplicații hidraulice de presiune mare sau în apropierea unor surse de căldură, unde un senzor standard și-ar depăși limitele de funcționare." },
+      { name: "Senzori Inductivi de Presiune și Temperatură Extremă", description: "Variante de senzori inductivi pentru presiune ridicată (Extra Pressure până la 200 bar, High Pressure până la 1000 bar) și variante de temperatură ridicată, funcționale până la 230°C. Folosite în aplicații hidraulice de presiune mare sau în apropierea unor surse de căldură, unde un senzor standard și-ar depăși limitele de funcționare." },
       { name: "Senzori Fotoelectrici C23, M18, M12", description: "Senzori fotoelectrici în carcasă cubică (C23) sau cilindrică (M18, M12), disponibili și în variante miniaturale sau cu fibră optică pentru spații foarte restrânse. Folosiți pentru detectarea prezenței obiectelor, inclusiv obiecte transparente, pe linii de producție și ambalare." },
-      { name: "Senzori Smart de Măsurare DMS și AMS", description: "Senzori inteligenți de măsurare a distanței, cu plaje tipice între 0 și 10 mm, disponibili cu ieșire digitală sau analogică. Folosiți pentru controlul dimensional al pieselor direct pe linia de producție, la aplicații unde o toleranță mică trebuie verificată automat, fără intervenție manuală." }
+      { name: "Senzori Smart de Măsurare DMS și AMS", description: "Senzori de măsurare a distanței, disponibili cu ieșire digitală (DMS) sau analogică (AMS); plaja de măsurare depinde de model. Folosiți pentru controlul dimensional al pieselor direct pe linia de producție, la aplicații unde o toleranță mică trebuie verificată automat, fără intervenție manuală." }
     ],
     industries: [
       "Automatizări complexe — senzori de proximitate pentru roboți și linii flexibile",
@@ -1423,7 +1421,7 @@ Pentru fabricile din România cu linii de automatizare complexă, senzorii Contr
       },
       {
         "code": "Maritime",
-        "description": "Senzori inductivi certificați pentru medii navale și portuare"
+        "description": "Senzori inductivi din gama Maritime, pentru medii maritime"
       },
       {
         "code": "Washdown",
@@ -1477,7 +1475,7 @@ Pentru fabricile din România cu linii de automatizare complexă, senzorii Contr
       },
       {
         "q": "Livrați senzori Contrinex în România?",
-        "a": "Da, aducem senzorii Contrinex la cerere, în funcție de codul solicitat, întrucât gama aceasta nu figurează pe stocul propriu. Orientarea publică de disponibilitate oferită de producător este, de regulă, de două până la patru săptămâni. Recomandăm menționarea distanței de comutare necesare și a mediului de lucru pentru identificarea variantei corecte."
+        "a": "Da, aducem senzorii Contrinex la cerere, în funcție de codul solicitat, întrucât gama aceasta nu figurează pe stocul propriu. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii (Contrinex). Recomandăm menționarea distanței de comutare necesare și a mediului de lucru pentru identificarea variantei corecte."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de senzor inductiv Contrinex?",
@@ -1486,8 +1484,8 @@ Pentru fabricile din România cu linii de automatizare complexă, senzorii Contr
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-22",
-    changelog: [{ date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Contrinex – Inductive Sensors","url":"https://www.contrinex.com/collections/inductive-sensors","publisher":"Contrinex","accessed":"2026-09-25"},
       {"title":"Contrinex – Products","url":"https://www.contrinex.com/products","publisher":"Contrinex","accessed":"2026-09-25"},

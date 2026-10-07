@@ -7,20 +7,20 @@ export const brandContentBatch80 = {
     headquarters: "Oxford, Connecticut, SUA",
     overview: `RBC Bearings este un producător american de rulmenți de precizie inginerați, cu sediul la Oxford, Connecticut, și istorie din 1919. Compania construiește două game distincte: una pentru industrie și una pentru aerospațial și apărare, completate de mărci din grup precum Dodge Industrial, Climax Metal Products, PIC Design și Sargent Aerospace & Defense. Din portofoliul industrial putem oferta rulmenți sferici simpli, rulmenți cu secțiune subțire, cam followere, rulmenți radiali cu ace de tip greu și capete de bielă (rod ends), toate identificabile prin coduri de serie exacte publicate pe site-ul producătorului.
 
-Ce diferențiază RBC în segmentul industrial e acoperirea largă de configurații: cam followerele din familia RBC Roller și HexLube au design cu ungere prelungită, iar rulmenții radiali cu ace din seria SJ (Pitchlign) și seria TJ (TandemRoller) cresc capacitatea de sarcină cu 10-40% față de un rulment radial cu ace clasic, în același gabarit. Rulmenții cu bile din familia NICE acoperă seriile 1600, 7500, 7600, 6900, 3000, 400, 500 și 600, în variante rectificate, semirectificate sau nerectificate — o zonă în care RBC concurează direct cu Timken pentru rulmenți de precizie folosiți în mașini-unelte.
+Ce diferențiază RBC în segmentul industrial e acoperirea largă de configurații: cam followerele din familia RBC Roller și HexLube au design cu ungere prelungită, iar rulmenții radiali cu ace din seria SJ (Pitchlign) și seria TJ (TandemRoller) au același gabarit exterior, iar seria TJ oferă o capacitate de sarcină cu 10-40% mai mare decât seria SJ. Rulmenții cu bile din familia NICE acoperă seriile 1600, 7500, 7600, 6900, 3000, 400, 500 și 600, în variante rectificate, semirectificate sau nerectificate — o zonă în care RBC concurează direct cu Timken pentru rulmenți de precizie folosiți în mașini-unelte.
 
 Pentru piața din România, gama RBC are sens acolo unde toleranțele strânse contează mai mult decât gabaritul standard — linii de mișcare liniară de precizie, mașini-unelte și utilaje unde sarcina radial-axială combinată depășește ce acoperă un rulment obișnuit. Livrarea se face la comandă, prin lanțuri de aprovizionare din SUA sau din depozitele europene ale grupului.`,
     whyChoose: [
       "Game separate pentru industrial și aerospațial, fiecare cu propriile standarde de proiectare și testare",
       "Cam followere RBC Roller și HexLube cu ungere prelungită, pentru intervale mai lungi între relubrifieri",
-      "Seria TJ TandemRoller crește capacitatea radială cu 10-40% față de un rulment cu ace clasic",
+      "Seria TJ TandemRoller crește capacitatea radială cu 10-40% față de seria SJ Pitchlign",
       "Rulmenți sferici simpli în variante standard, cu inel interior extins sau autolubrifiante, pentru dezaliniere mare",
       "Rulmenți cu secțiune subțire NICE, gradați ABEC 1-7, pentru echipamente unde spațiul radial e limitat",
       "Acces la mărcile din grup (Climax, PIC Design) pentru componente de precizie conexe"
     ],
     keyProducts: [
-      { name: "Rulmenți Radiali cu Ace Seria SJ (Pitchlign)", description: "Rulmenți radiali cu ace de tip greu, în gabarite standard, cu diametru exterior între 0,5 și 12,25 inch. Concepuți pentru sarcini radiale mari la turații moderate, în utilaje industriale unde spațiul de montaj e strict impus de gabaritul standardizat al carcasei." },
-      { name: "Rulmenți Radiali cu Ace Seria TJ (TandemRoller)", description: "Design brevetat cu ace dispuse pe două rânduri decalate, care crește capacitatea de sarcină radială cu 10-40% față de seria SJ, în același gabarit exterior. Recomandat acolo unde durabilitatea contează mai mult decât costul de achiziție." },
+      { name: "Rulmenți Radiali cu Ace Seria SJ (Pitchlign)", description: "Rulmenți radiali cu ace de tip greu, în gabarite standard, cu diametru exterior între 1 și 12,25 inch. Concepuți pentru sarcini radiale mari la turații moderate, în utilaje industriale unde spațiul de montaj e strict impus de gabaritul standardizat al carcasei." },
+      { name: "Rulmenți Radiali cu Ace Seria TJ (TandemRoller)", description: "Design TandemRoller® cu ace dispuse în tandem, care crește capacitatea de sarcină radială cu 10-40% față de seria SJ, în același gabarit exterior. Recomandat acolo unde durabilitatea contează mai mult decât costul de achiziție." },
       { name: "Cam Followere (RBC Roller și HexLube)", description: "Cam followere cu tijă filetată, disponibile în variante standard, tip yoke sau cu role cușcă, în gabarite de la 0,5 la 10 inch diametru exterior. Familia HexLube adaugă un canal universal de ungere; RBC Roller vizează durată de funcționare extinsă." },
       { name: "Rulmenți Sferici Simpli", description: "Rulmenți cu inel interior sferic pentru compensarea dezalinierii unghiulare, în variante standard, cu inel interior extins, cu dezaliniere mare, cu contact unghiular sau autolubrifiante. Aplicație tipică: articulații de cilindri hidraulici și brațe oscilante." },
       { name: "Rulmenți cu Secțiune Subțire și Capete de Bielă", description: "Rulmenți cu secțiune subțire radiali, cu contact unghiular sau cu 4 puncte de contact, gradați ABEC 1-7, alături de capete de bielă (rod ends) cu două rânduri autoaliniante conform SAE-AS6039, pentru sisteme de comandă unde jocul axial trebuie minimizat." }
@@ -32,17 +32,17 @@ Pentru piața din România, gama RBC are sens acolo unde toleranțele strânse c
       "Automatizări industriale — cam followere pentru came și ghidaje liniare",
       "Echipamente de manipulare — capete de bielă pentru sisteme de acționare"
     ],
-    infinitrade: `Aducem produse RBC Bearings la comandă, prin canale de aprovizionare care pornesc din SUA și din rețeaua europeană a grupului; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, fără promisiuni de disponibilitate imediată garantată pe loc. Ce putem și ce nu putem confirma ține strict de ce publică producătorul: pentru fiecare cerere avem nevoie de codul complet de serie (ex. seria SJ, TJ sau NICE), diametrul exterior și interior, și aplicația unde va funcționa rulmentul, ca să verificăm disponibilitatea exactă la sursă înainte de a trimite o ofertă fermă. Pentru piese din gama aerospațială, cerem și standardul de referință (AS7949, AS39901 sau AS6039) direct din desenul dumneavoastră.`,
+    infinitrade: `Aducem produse RBC Bearings la comandă, prin canale de aprovizionare care pornesc din SUA și din rețeaua europeană a grupului; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, fără promisiuni de disponibilitate imediată pe loc. Ce putem și ce nu putem confirma ține strict de ce publică producătorul: pentru fiecare cerere avem nevoie de codul complet de serie (ex. seria SJ, TJ sau NICE), diametrul exterior și interior, și aplicația unde va funcționa rulmentul, ca să verificăm disponibilitatea exactă la sursă înainte de a trimite o ofertă fermă. Pentru piese din gama aerospațială, cerem și standardul de referință (AS7949, AS39901 sau AS6039) direct din desenul dumneavoastră.`,
     limitation: "Nu putem confirma stocuri locale pentru codurile din gama aerospațială RBC, unde certificarea și trasabilitatea completă vin exclusiv din SUA.",
     productCodes: [
       { code: "NICE 1600 Series", description: "Rulmenți cu bile de precizie, seria 1600" },
-      { code: "NICE 7500 Series", description: "Rulmenți cu bile cu contact unghiular" },
+      { code: "NICE 7500 Series", description: "Rulmenți cu bile de precizie, variantă rectificată" },
       { code: "NICE 7600 Series", description: "Rulmenți cu bile, variantă rectificată" },
-      { code: "NICE 6900 Series", description: "Rulmenți cu bile cu secțiune îngustă" },
-      { code: "NICE 3000 Series", description: "Rulmenți cu bile miniaturali de precizie" },
-      { code: "NICE 400 Series", description: "Rulmenți cu bile, gabarit standard" },
-      { code: "NICE 500 Series", description: "Rulmenți cu bile, gabarit standard mediu" },
-      { code: "NICE 600 Series", description: "Rulmenți cu bile, gabarit standard mare" },
+      { code: "NICE 6900 Series", description: "Rulmenți cu bile, variantă semirectificată" },
+      { code: "NICE 3000 Series", description: "Rulmenți cu bile, variantă semirectificată" },
+      { code: "NICE 400 Series", description: "Rulmenți cu bile, variantă nerectificată" },
+      { code: "NICE 500 Series", description: "Rulmenți cu bile, variantă nerectificată" },
+      { code: "NICE 600 Series", description: "Rulmenți cu bile, variantă nerectificată" },
       { code: "SJ Series (Pitchlign)", description: "Rulmenți radiali cu ace, tip greu" },
       { code: "TJ Series (TandemRoller)", description: "Rulmenți radiali cu ace, capacitate mărită 10-40%" },
       { code: "RBC Roller Cam Followers", description: "Cam followere cu durată extinsă de funcționare" },
@@ -51,22 +51,22 @@ Pentru piața din România, gama RBC are sens acolo unde toleranțele strânse c
       { code: "Airframe Control Ball Bearings AS7949", description: "Rulmenți de comandă pentru suprafețe de zbor" },
       { code: "Needle Track Rollers AS39901", description: "Role de ghidaj pe șină, tip aerospațial" },
       { code: "Ball Bearing Rod Ends AS6039", description: "Capete de bielă cu două rânduri autoaliniante" },
-      { code: "Heim Rod Ends", description: "Capete de bielă cu insert din alamă" },
+      { code: "Heim Rod Ends", description: "Capete de bielă cu articulație sferică" },
       { code: "Spherical Plain Bearings Standard", description: "Rulmenți sferici simpli, variantă standard" },
       { code: "Plain Bearings High-Misalignment", description: "Rulmenți sferici pentru dezaliniere unghiulară mare" },
       { code: "Thin Section Ball Bearings ABEC 1-7", description: "Rulmenți cu secțiune subțire, grade de precizie" }
     ],
     faq: [
       { q: "Ce produce RBC Bearings?", a: "RBC Bearings produce rulmenți de precizie inginerați pentru industrie și pentru aerospațial-apărare: rulmenți sferici simpli, rulmenți cu secțiune subțire, cam followere, rulmenți radiali cu ace de tip greu și capete de bielă, sub gama proprie și sub mărci precum NICE, Dodge Industrial sau Climax Metal Products." },
-      { q: "Cum aleg rulmentul RBC potrivit după cod?", a: "Pornește de la seria exactă de pe desenul sau eticheta piesei existente (ex. SJ, TJ sau NICE urmat de numărul seriei), apoi confirmă diametrul exterior, interior și lățimea. Pentru aplicații critice, trimite și standardul de referință dacă piesa provine din echipamente aerospațiale sau militare." },
+      { q: "Cum aleg rulmentul RBC potrivit după cod?", a: "Porniți de la seria exactă de pe desenul sau eticheta piesei existente (ex. SJ, TJ sau NICE urmat de numărul seriei), apoi confirmați diametrul exterior, interior și lățimea. Pentru aplicații critice, trimiteți și standardul de referință dacă piesa provine din echipamente aerospațiale sau militare." },
       { q: "Livrați rulmenți RBC Bearings în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din SUA sau din rețeaua europeană a grupului. Termenul orientativ este 1–4 săptămâni, în funcție de disponibilitatea confirmată de producător pentru codul solicitat; nu promitem disponibilitate din depozit pe niciun cod." },
-      { q: "Ce echivalent are seria TJ TandemRoller de la RBC?", a: "TJ TandemRoller e o soluție brevetată RBC cu ace pe două rânduri decalate, în același gabarit exterior ca seria SJ, dar cu 10-40% capacitate radială suplimentară; nu există un echivalent identic la alți producători, dar gabaritul rămâne interschimbabil cu SJ." },
+      { q: "Ce echivalent are seria TJ TandemRoller de la RBC?", a: "TJ TandemRoller e o soluție RBC cu ace dispuse în tandem, în același gabarit exterior ca seria SJ, dar cu 10-40% capacitate radială suplimentară; gabaritul exterior este același cu al seriei SJ; echivalența cu alți producători nu o putem confirma fără documentația acestora." },
       { q: "Ce trebuie să trimit pentru o ofertă de rulmenți RBC?", a: "Codul complet de serie sau desenul piesei, diametrul exterior și interior, lățimea, sarcina de lucru estimată și aplicația (mașină-unealtă, utilaj mobil, echipament aerospațial). Cu aceste date verificăm disponibilitatea la sursă și revenim cu termenul real de livrare." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "RBC Bearings — Corporate site", url: "https://www.rbcbearings.com/", publisher: "RBC Bearings Incorporated", accessed: "2026-09-23" },
       { title: "Industrial Products", url: "https://productinfo.rbcbearings.com/category/industrial", publisher: "RBC Bearings Incorporated", accessed: "2026-09-23" },
@@ -78,11 +78,11 @@ Pentru piața din România, gama RBC are sens acolo unde toleranțele strânse c
     headquarters: "Aalen, Germania",
     overview: `RUD Ketten Rieger & Dietz este un producător german de lanțuri și sisteme de ancorare, cu sediul la Aalen și activitate neîntreruptă din 1875. Gama acoperă patru direcții mari: lanțuri de ridicare și industriale din oțel rotund (călite sau tratate termic), sisteme de ancorare și asigurare a mărfii (puncte de ancorare, chingi, sistemul de identificare RUD BLUE-ID), lanțuri pentru anvelope (lanțuri de zăpadă, lanțuri forestiere) și componente pentru transport și antrenare tehnică.
 
-Ce ține RUD relevant în lanțurile de ridicare e plaja de dimensiuni: de la cea mai mică verigă de lanț industrial, de 3×9 mm, până la un lanț de ridicare de dimensiuni maxime, catalogat de producător la 32×90 mm, toate proiectate conform standardului DIN EN 818-7 pentru echipamente de ridicare motorizate și manuale. Pe segmentul de ancorare a mărfii, RUD concurează cu Tsubaki și cu alți producători de lanțuri industriale japonezi, dar rămâne una dintre puținele mărci care acoperă în paralel și lanțurile pentru anvelope de utilaje forestiere.
+Ce ține RUD relevant în lanțurile de ridicare e plaja de dimensiuni: de la cea mai mică verigă de lanț industrial, de 3×9 mm, până la un lanț de ridicare de dimensiuni maxime, catalogat de producător la 32×90 mm, toate proiectate conform standardului DIN EN 818-7 pentru echipamente de ridicare motorizate și manuale. Pe segmentul de ancorare a mărfii, RUD concurează cu Tsubaki și cu alți producători de lanțuri industriale japonezi, iar gama sa include în paralel și lanțurile pentru anvelope de utilaje forestiere.
 
 Pentru piața din România, RUD are sens la ridicare grea în construcții și industrie, la ancorarea mărfii pe platforme de transport și la utilaje forestiere care circulă pe teren accidentat — segmente unde un lanț necertificat sau fără marcaj de trasabilitate nu poate fi folosit legal.`,
     whyChoose: [
-      "Peste 150 de ani de fabricație continuă a lanțurilor din oțel rotund, cu tratament termic propriu",
+      "Din 1875, producător de lanțuri din oțel rotund",
       "Plajă de dimensiuni de la 3×9 mm până la 32×90 mm pentru lanțuri de ridicare",
       "Conformitate cu DIN EN 818-7 pentru echipamente de ridicare motorizate și manuale",
       "Sistem propriu de identificare și trasabilitate a lanțurilor (RUD BLUE-ID)",
@@ -103,14 +103,14 @@ Pentru piața din România, RUD are sens la ridicare grea în construcții și i
       "Industria alimentară — lanțuri din inox pentru medii cu cerințe igienice",
       "Turnătorii — lanțuri rezistente la temperaturi ridicate pentru manipulare"
     ],
-    infinitrade: `Furnizăm lanțuri și sisteme de ancorare RUD la comandă, aduse prin rețeaua de distribuție europeană a producătorului german; orientativ, termenul e de 1–4 săptămâni, fără disponibilitate imediată garantată pe vreo dimensiune anume. Informația pe care o publicăm vine din surse publice ale producătorului, nu din evidențe proprii de stoc, așa că verificăm disponibilitatea exactă înainte de fiecare confirmare de comandă. Pentru o ofertă corectă avem nevoie de dimensiunea lanțului (grosime × pas), gradul de rezistență, lungimea totală și aplicația — ridicare, ancorare marfă sau montaj pe utilaj forestier — pentru că fiecare categorie are certificări și accesorii diferite.`,
+    infinitrade: `Furnizăm lanțuri și sisteme de ancorare RUD la comandă, aduse prin rețeaua de distribuție europeană a producătorului german; orientativ, termenul e de 1–4 săptămâni, fără disponibilitate imediată pe vreo dimensiune anume. Informația pe care o publicăm vine din surse publice ale producătorului, nu din evidențe proprii de stoc, așa că verificăm disponibilitatea exactă înainte de fiecare confirmare de comandă. Pentru o ofertă corectă avem nevoie de dimensiunea lanțului (grosime × pas), gradul de rezistență, lungimea totală și aplicația — ridicare, ancorare marfă sau montaj pe utilaj forestier — pentru că fiecare categorie are certificări și accesorii diferite.`,
     limitation: "Nu putem confirma disponibilitatea locală a certificatelor de încercare individuale (test certificate) pentru fiecare lanț RUD; acestea se solicită separat, direct la producător, pentru fiecare lot.",
     productCodes: [
       { code: "Rundstahlketten gehärtet", description: "Lanțuri din oțel rotund călit, pentru ridicare" },
       { code: "Rundstahlketten vergütet", description: "Lanțuri din oțel rotund tratat termic" },
       { code: "Edelstahlketten", description: "Lanțuri de ridicare din oțel inoxidabil" },
       { code: "Gussketten", description: "Lanțuri pentru turnătorii, rezistente la căldură" },
-      { code: "D-Profil-Ketten", description: "Lanțuri cu profil D pentru transportoare" },
+      { code: "D-Profil-Ketten", description: "Lanțuri cu profil D, din gama lanțurilor de ridicare" },
       { code: "Anschlagpunkte", description: "Puncte de ancorare filetate sau sudate" },
       { code: "Anschlagmittel", description: "Accesorii de prindere pentru sarcini suspendate" },
       { code: "Zurrpunkte", description: "Puncte fixe de ancorare a mărfii" },
@@ -124,15 +124,15 @@ Pentru piața din România, RUD are sens la ridicare grea în construcții și i
     ],
     faq: [
       { q: "Ce produce RUD Ketten?", a: "RUD produce lanțuri de ridicare din oțel rotund, sisteme de ancorare pentru sarcini suspendate și pentru marfă pe platforme de transport, lanțuri pentru anvelope de utilaje forestiere și de zăpadă, plus componente pentru transport și antrenare tehnică." },
-      { q: "Cum aleg un lanț RUD după dimensiune?", a: "Pornește de la grosimea și pasul verigii (ex. 8×24 mm), apoi verifică gradul de rezistență necesar și standardul aplicabil — DIN EN 818-7 pentru ridicare. Aplicația (macara, ancorare marfă, utilaj forestier) determină și tipul de accesorii compatibile." },
+      { q: "Cum aleg un lanț RUD după dimensiune?", a: "Porniți de la grosimea și pasul verigii (ex. 8×24 mm), apoi verificați gradul de rezistență necesar și standardul aplicabil — DIN EN 818-7 pentru ridicare. Aplicația (macara, ancorare marfă, utilaj forestier) determină și tipul de accesorii compatibile." },
       { q: "Livrați lanțuri RUD Ketten în România și cât durează?", a: "Da, la comandă, prin rețeaua de distribuție europeană a producătorului. Termenul orientativ este 1–4 săptămâni, în funcție de dimensiune și de confirmarea de stoc primită de la producător; nu ținem pe raft propriu pentru toate dimensiunile." },
       { q: "Ce diferență e între lanțurile de ridicare și cele de ancorare marfă RUD?", a: "Lanțurile de ridicare (Rundstahlketten) sunt certificate pentru sarcini suspendate pe verticală conform DIN EN 818-7, în timp ce sistemele de ancorare marfă (Zurrpunkte, Zurrmittel) sunt gândite pentru fixarea încărcăturii pe platforme, cu solicitări predominant orizontale." },
-      { q: "Ce trebuie să trimit pentru o ofertă de lanțuri RUD Ketten?", a: "Dimensiunea lanțului, lungimea sau numărul de zale, gradul de rezistență și aplicația exactă. Pentru sisteme de ancorare marfă, trimite și tipul vehiculului sau al platformei, ca să recomandăm configurația corectă de puncte de ancorare." }
+      { q: "Ce trebuie să trimit pentru o ofertă de lanțuri RUD Ketten?", a: "Dimensiunea lanțului, lungimea sau numărul de zale, gradul de rezistență și aplicația exactă. Pentru sisteme de ancorare marfă, trimiteți și tipul vehiculului sau al platformei, ca să recomandăm configurația corectă de puncte de ancorare." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "RUD.com — corporate site", url: "https://www.rud.com/", publisher: "RUD Ketten Rieger & Dietz GmbH u. Co. KG", accessed: "2026-09-23" },
       { title: "Hoist Chains — RUD", url: "https://hoistchains.rud.com/", publisher: "RUD Ketten Rieger & Dietz GmbH u. Co. KG", accessed: "2026-09-23" },
@@ -141,7 +141,7 @@ Pentru piața din România, RUD are sens la ridicare grea în construcții și i
   'reggiana-riduttori': {
     name: "Reggiana Riduttori",
     headquarters: "San Polo d'Enza, Italia",
-    overview: `Reggiana Riduttori este un producător italian de reductoare planetare, motoreductoare și roți de antrenare electrice, cu sediul la San Polo d'Enza, lângă Reggio Emilia. Gama de bază, Serie 2000, acoperă reductoare planetare liniare și unghiulare, completată de Plus Series pentru configurații suplimentare, Combined V-Series pentru reductoare combinate și W-Series pentru trolii de ridicare pe macarale. Producătorul include în portofoliu și linia Berma, dedicată aplicațiilor specifice, plus frâne cu lamele, angrenaje cilindrice (helical gears) și roți dințate.
+    overview: `Reggiana Riduttori este un producător italian de reductoare planetare, motoreductoare și roți de antrenare electrice, cu sediul la San Polo d'Enza, lângă Reggio Emilia. Gama de bază, Serie 2000, acoperă reductoare planetare liniare și unghiulare, completată de Plus Series pentru configurații suplimentare, Combined V-Series pentru reductoare combinate și W-Series pentru trolii de ridicare pe macarale. Producătorul include în portofoliu și linia Berma, dedicată aplicațiilor specifice, plus frâne cu lamele, angrenaje cilindrice (helical gears).
 
 Ce diferențiază Reggiana Riduttori e orientarea spre utilaje mobile grele — macarale, echipamente miniere, instalații marine și offshore — unde compania concurează cu Bonfiglioli pe segmentul de reductoare planetare pentru mecanisme de rotație și translație. Gama E-Drives adaugă roți de antrenare electrice, o direcție relativ nouă pentru producătorii tradiționali de reductoare planetare mecanice, orientată spre utilaje care trec la acționare electrică.
 
@@ -180,20 +180,20 @@ Pentru piața din România, Reggiana Riduttori are sens la mecanismele de rotaț
       { code: "Berma Line", description: "Linie de produse pentru aplicații specifice" },
       { code: "Brakes", description: "Frâne cu lamele pentru mecanisme de rotație" },
       { code: "Helical Gears", description: "Angrenaje cilindrice pentru transmisii auxiliare" },
-      { code: "Wheel Gears", description: "Angrenaje pentru roți de antrenare mobile" },
-      { code: "Slewing Drives", description: "Reductoare dedicate mecanismelor de rotație" }
+      { code: "Wheel Gears", description: "Reductoare pentru roți de antrenare" },
+      
     ],
     faq: [
       { q: "Ce produce Reggiana Riduttori?", a: "Reggiana Riduttori produce reductoare planetare pentru mecanisme de rotație și translație, reductoare dedicate troliilor de ridicare, roți de antrenare electrice și frâne cu lamele, orientate în special spre macarale, utilaje mobile grele și aplicații marine." },
-      { q: "Cum aleg un reductor Reggiana Riduttori după serie?", a: "Pornește de la aplicație: Seria 2000 acoperă translația și rotația generală, W-Series e dedicată troliilor, iar Combined V-Series intervine când e nevoie de un raport de transmisie mai mare decât oferă un singur etaj planetar. Confirmă apoi cuplul de ieșire cerut." },
+      { q: "Cum aleg un reductor Reggiana Riduttori după serie?", a: "Porniți de la aplicație: Seria 2000 acoperă translația și rotația generală, W-Series e dedicată troliilor, iar Combined V-Series intervine când e nevoie de un raport de transmisie mai mare decât oferă un singur etaj planetar. Confirmați apoi cuplul de ieșire cerut." },
       { q: "Livrați reductoare Reggiana Riduttori în România și cât durează?", a: "Da, la comandă, prin canalele de aprovizionare din Italia ale producătorului. Termenul orientativ este 1–4 săptămâni, în funcție de configurația și raportul de transmisie solicitate; nu promitem disponibilitate din depozit pentru toate variantele." },
       { q: "Ce echivalent are gama Reggiana Riduttori la Bonfiglioli?", a: "Ambii producători oferă reductoare planetare pentru mecanisme de rotație și translație pe macarale și utilaje mobile, dar gamele nu sunt interschimbabile direct — fiecare cod are propriul raport de transmisie și interfață de montaj, verificate separat la ofertare." },
       { q: "Ce trebuie să trimit pentru o ofertă de reductoare Reggiana Riduttori?", a: "Seria dorită (2000, Plus, V sau W), cuplul de ieșire sau raportul de transmisie necesar, turația de intrare și tipul de montaj pe utilaj. Cu aceste date verificăm configurația disponibilă direct la producător." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Reggiana Riduttori — corporate site", url: "https://reggianariduttori.com", publisher: "Reggiana Riduttori S.p.A.", accessed: "2026-09-23" },
       { title: "Serie Prodotti — sitemap", url: "https://reggianariduttori.com/serie-prodotti-sitemap.xml", publisher: "Reggiana Riduttori S.p.A.", accessed: "2026-09-23" },
@@ -230,7 +230,7 @@ Pentru piața din România, gama Regina are sens atât în service-uri și distr
       "Petrol și gaze — lanțuri industriale speciale pentru echipamente de câmp",
       "Producție industrială generală — lanțuri cu role standard ISO"
     ],
-    infinitrade: `Furnizăm lanțuri Regina Catene Calibrate la comandă, prin distribuția europeană a producătorului italian; orientativ, termenul e de 1–4 săptămâni, fără stoc garantat permanent pe fiecare cod de lanț moto sau industrial. Ne bazăm exclusiv pe informațiile publice disponibile pe site-ul producătorului, nu pe evidențe proprii, așa că verificăm codul exact înainte de a confirma oferta. Pentru lanțuri de motociclete avem nevoie de codul complet (ex. seria și pasul, precum 520 RX3), iar pentru aplicații industriale sau de transport, de pasul lanțului, numărul de zale și aplicația — linie de îmbuteliere, transport sau echipament petrolier.`,
+    infinitrade: `Furnizăm lanțuri Regina Catene Calibrate la comandă, prin distribuția europeană a producătorului italian; orientativ, termenul e de 1–4 săptămâni, fără stoc permanent pe fiecare cod de lanț moto sau industrial. Ne bazăm exclusiv pe informațiile publice disponibile pe site-ul producătorului, nu pe evidențe proprii, așa că verificăm codul exact înainte de a confirma oferta. Pentru lanțuri de motociclete avem nevoie de codul complet (ex. seria și pasul, precum 520 RX3), iar pentru aplicații industriale sau de transport, de pasul lanțului, numărul de zale și aplicația — linie de îmbuteliere, transport sau echipament petrolier.`,
     limitation: "Nu putem confirma echivalențe exacte între codurile Regina și codurile altor producători de lanțuri moto; recomandăm verificarea pasului și a numărului de zale direct pe lanțul existent.",
     productCodes: [
       { code: "135 ZRP", description: "Lanț moto sport, pas 520" },
@@ -239,16 +239,16 @@ Pentru piața din România, gama Regina are sens atât în service-uri și distr
       { code: "135 ZRT", description: "Lanț moto touring, pas 520" },
       { code: "137 ZRT", description: "Lanț moto touring, pas 525" },
       { code: "136 ZRT", description: "Lanț moto touring, pas 530" },
-      { code: "135 RT", description: "Lanț moto uz stradal, pas 520" },
+      { code: "135 RT", description: "Lanț moto urban, pas 520" },
       { code: "136 RT", description: "Lanț moto uz stradal, pas 530" },
       { code: "137 RT", description: "Lanț moto uz stradal, pas 525" },
       { code: "135 RX3", description: "Lanț moto cross/supermotard, pas 520" },
       { code: "126 RX3", description: "Lanț moto cross/supermotard, pas 428" },
       { code: "124 RX3", description: "Lanț moto cross/supermotard, pas 420" },
-      { code: "135 RH2", description: "Lanț moto uz general, pas 520" },
-      { code: "126 RH2", description: "Lanț moto uz general, pas 428" },
-      { code: "124 RH2", description: "Lanț moto uz general, pas 420" },
-      { code: "90 RH2", description: "Lanț moto uz general, pas 415" },
+      { code: "135 RH2", description: "Lanț moto cross/supermotard, pas 520" },
+      { code: "126 RH2", description: "Lanț moto cross/supermotard, pas 428" },
+      { code: "124 RH2", description: "Lanț moto cross/supermotard, pas 420" },
+      { code: "90 RH2", description: "Lanț moto cross/supermotard, pas 415" },
       { code: "135 ZSE", description: "Lanț moto enduro, pas 520" },
       { code: "126 ZSE", description: "Lanț moto enduro, pas 428" },
       { code: "137 ZRE", description: "Lanț moto adventure, pas 525" },
@@ -258,19 +258,18 @@ Pentru piața din România, gama Regina are sens atât în service-uri și distr
       { code: "90 ORO", description: "Lanț moto urban, pas 415" },
       { code: "Matveyor Modular Belts", description: "Bandă modulară din plastic pentru transport" },
       { code: "e-F.A.S.T.", description: "Sistem pentru linii de îmbuteliere rapidă" },
-      { code: "FliteTop", description: "Lanț de transport cu placă superioară plată" }
-    ],
+          ],
     faq: [
       { q: "Ce produce Regina Catene Calibrate?", a: "Regina produce lanțuri cu role pentru trei piețe: lanțuri de motociclete în zeci de serii (sport, touring, cross, enduro), lanțuri și benzi modulare de transport pentru industrie și ambalare, și lanțuri industriale speciale, inclusiv pentru echipamente din câmpurile petroliere." },
-      { q: "Cum aleg un lanț de motocicletă Regina după cod?", a: "Verifică pasul lanțului existent (415, 420, 428, 520, 525 sau 530) și numărul de zale, apoi alege seria potrivită tipului de utilizare: ZRP/ZRP2 pentru sport, ZRT/RT pentru touring, RX3/RH2 pentru cross, ZSE pentru enduro. Codul complet apare de obicei pe eticheta lanțului original." },
+      { q: "Cum aleg un lanț de motocicletă Regina după cod?", a: "Verificați pasul lanțului existent (415, 420, 428, 520, 525 sau 530) și numărul de zale, apoi alegeți seria potrivită tipului de utilizare: ZRP/ZRP2 pentru sport, ZRT/RT pentru touring, RX3/RH2 pentru cross, ZSE pentru enduro. Codul complet apare de obicei pe eticheta lanțului original." },
       { q: "Livrați lanțuri Regina Catene Calibrate în România și cât durează?", a: "Da, la comandă, prin distribuția europeană a producătorului italian. Termenul orientativ este 1–4 săptămâni, în funcție de codul și cantitatea solicitate; nu ținem această gamă pe raft pentru toate seriile de lanțuri moto sau industriale." },
       { q: "Ce este sistemul Matveyor de la Regina?", a: "Matveyor este gama de benzi modulare din plastic a Regina, folosită ca alternativă la lanțurile de transport metalice clasice în linii de ambalare și manipulare, unde greutatea redusă și igiena contează mai mult decât rezistența mecanică a oțelului." },
       { q: "Ce trebuie să trimit pentru o ofertă de lanțuri Regina?", a: "Pentru moto: codul complet sau pasul și numărul de zale de pe lanțul original. Pentru industrial sau transport: pasul lanțului, tipul de atașament (dacă există) și aplicația exactă — linie de îmbuteliere, transport sau echipament de câmp petrolier." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Regina Chain — corporate site", url: "https://www.reginachain.net/", publisher: "Regina Catene Calibrate S.p.A.", accessed: "2026-09-23" },
       { title: "Motorcycle Professional Line", url: "https://www.reginachain.net/business-unit/motorcycle/professional/", publisher: "Regina Catene Calibrate S.p.A.", accessed: "2026-09-23" },
@@ -324,15 +323,15 @@ Pentru piața din România, Rollix are sens la mecanismele de rotație ale macar
     ],
     faq: [
       { q: "Ce produce Rollix?", a: "Rollix produce inele de rotație (slewing rings) cu bile sau cu role, în configurații standard, ușoare, cu role încrucișate sau de precizie, cu diametre de la 100 mm la 6.200 mm, cu sau fără angrenaj integrat, pentru macarale, turbine eoliene și utilaje grele." },
-      { q: "Cum aleg un inel de rotație Rollix după aplicație?", a: "Pentru sarcini moderate și diametre mici-medii, seria standard cu bile acoperă majoritatea cazurilor. Pentru rigiditate mare la sarcini combinate alege role încrucișate; pentru greutate redusă, Light Series; pentru precizie de poziționare, seria dedicată de precizie." },
+      { q: "Cum aleg un inel de rotație Rollix după aplicație?", a: "Pentru sarcini moderate și diametre mici-medii, seria standard cu bile acoperă majoritatea cazurilor. Pentru rigiditate mare la sarcini combinate alegeți role încrucișate; pentru greutate redusă, Light Series; pentru precizie de poziționare, seria dedicată de precizie." },
       { q: "Livrați inele de rotație Rollix în România și cât durează?", a: "Da, la comandă, prin canalele de aprovizionare ale grupului Defontaine din Franța. Termenul orientativ este 1–4 săptămâni, în funcție de diametru și configurație; nu promitem disponibilitate din depozit pentru dimensiunile mai puțin cerute." },
       { q: "Ce echivalent are Rollix la Rothe Erde?", a: "Ambii producători fabrică inele de rotație de mari dimensiuni pentru energie eoliană și utilaje grele, cu game tehnice comparabile ca principiu, dar codurile și diametrele exacte nu sunt interschimbabile direct — fiecare configurație se verifică separat la comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă de inele Rollix?", a: "Diametrul interior sau exterior al inelului, tipul de sarcină dominantă, dacă e necesar angrenaj (exterior, interior sau fără), materialul dorit și aplicația finală (macara, turbină eoliană, utilaj forestier). Cu aceste date verificăm configurația potrivită la producător." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [ { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Rollix — Defontaine Group", url: "https://www.defontaine.com/en/defontaine-group/rollix/", publisher: "Defontaine Group", accessed: "2026-09-23" },
       { title: "Slewing Rings — Products", url: "https://www.defontaine.com/en/product/slewing-rings/", publisher: "Defontaine Group", accessed: "2026-09-23" },

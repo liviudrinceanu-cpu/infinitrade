@@ -5,9 +5,9 @@ export const brandContentBatch124 = {
     name: "Castel",
     founded: 1961,
     headquarters: "Roncello (MB), Italia",
-    overview: `Castel este un producător italian de componente pentru instalații de refrigerare și climatizare, în proprietate 100% familială, cu fabrica principală lângă Milano. Gama acoperă supape de expansiune termostatice și electronice, electrovalve solenoid, dispozitive de siguranță, supape de reținere, regulatoare de presiune, sisteme de control al uleiului, robinete cu închidere filetată, amortizoare de vibrații și accesorii precum bobine, conectori, filtre deshidratoare și fitinguri din alamă. Pentru piața din România, Castel înseamnă acces la o gamă completă de componente de circuit frigorific fără să fie nevoie de un singur furnizor pentru fiecare piesă în parte.
+    overview: `Castel este un producător italian de componente pentru instalații de refrigerare și climatizare, în proprietate 100% familială, cu fabrica principală lângă Milano. Gama acoperă supape de expansiune termostatice și electronice, electrovalve solenoid, dispozitive de siguranță, supape de reținere, regulatoare de presiune, sisteme de control al uleiului, robinete cu închidere filetată, amortizoare de vibrații și accesorii precum bobine, conectori, filtre deshidratoare și fitinguri din alamă. Pentru piața din România, Castel înseamnă acces la o gamă completă de componente de circuit frigorific, fără să fie nevoie de câte un furnizor pentru fiecare piesă în parte.
 
-Producătorul își organizează electrovalvele în trei linii cu logică diferită de compatibilitate: linia Classic pentru refrigeranți din grupa de siguranță A1, linia Polyhedra pentru cea mai largă compatibilitate cu refrigeranți A1, A2L și A3 conform ASHRAE 34-2022, și linia GoGreen dedicată special refrigerantului R744 (CO2). Conexiunile acoperă atât variante filetate (flare, NPT, FPT), cât și brazate (ODS/ODF, ODM, IDS, W), pentru compatibilitate cu instalații existente pe cupru sau oțel. Alegerea liniei corecte contează pentru compatibilitatea chimică pe termen lung a garniturilor și pentru conformitatea cu noul regulament F-Gas.
+Producătorul își organizează electrovalvele în trei linii cu logică diferită de compatibilitate: linia Classic pentru refrigeranți din grupa de siguranță A1, linia Polyhedra pentru compatibilitate cu refrigeranți A1, A2L și A3 conform ASHRAE 34-2022, și linia GoGreen dedicată special refrigerantului R744 (CO2). Conexiunile acoperă atât variante filetate (flare, NPT, FPT), cât și brazate (ODS/ODF, ODM, IDS, W), pentru compatibilitate cu instalații existente pe cupru sau oțel. Alegerea liniei corecte contează pentru compatibilitatea chimică pe termen lung a garniturilor și pentru conformitatea cu noul regulament F-Gas.
 
 Pentru un inginer de service, diferența dintre liniile Castel arată direct ce refrigerant poate trece prin componentă fără riscul deteriorării garniturilor interne, relevant la instalațiile care migrează spre refrigeranți cu potențial de încălzire globală redus.`,
     whyChoose: [
@@ -35,16 +35,16 @@ Pentru un inginer de service, diferența dintre liniile Castel arată direct ce 
       "ISO 14001:2015 — management de mediu",
       "Conformitate PED 2014/68/UE pentru echipamente sub presiune"
     ],
-    infinitrade: `Pentru Castel lucrăm cu ce putem și ce nu putem confirma din fișele tehnice publicate de producător, fără promisiuni de disponibilitate din depozit pe vreun cod anume. Nu ținem gama pe raft, dar putem aduce la comandă supape de expansiune, electrovalve, dispozitive de siguranță sau accesorii Castel prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul exact al piesei sau, dacă nu-l aveți, de tipul de refrigerant din instalație, presiunea de lucru și tipul de conexiune (filetată sau brazată). Recomandăm verificarea liniei corecte (Classic, Polyhedra sau GoGreen) înainte de comandă, pentru compatibilitatea garniturilor cu refrigerantul folosit.`,
+    infinitrade: `Pentru Castel pornim de la fișele tehnice publicate de producător și spunem clar ce putem și ce nu putem confirma, fără promisiuni de disponibilitate din depozit pe vreun cod anume. Nu ținem gama pe raft, dar putem aduce la comandă supape de expansiune, electrovalve, dispozitive de siguranță sau accesorii Castel prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul exact al piesei sau, dacă nu-l aveți, de tipul de refrigerant din instalație, presiunea de lucru și tipul de conexiune (filetată sau brazată). Recomandăm verificarea liniei corecte (Classic, Polyhedra sau GoGreen) înainte de comandă, pentru compatibilitatea garniturilor cu refrigerantul folosit.`,
     limitation: "Nu putem confirma echivalența automată între o piesă Castel dintr-o linie și una dintr-o altă linie a aceleiași familii fără verificarea codului exact de compatibilitate cu refrigerantul din instalație.",
     productCodes: [
       { code: "1098N/9A6", description: "electrovalvă normal închisă, linia Polyhedra" },
       { code: "1028N/2S.E", description: "electrovalvă normal închisă, linia Polyhedra" },
       { code: "1068N/M12S", description: "electrovalvă normal închisă, linia Polyhedra" },
       { code: "1437E/3S070", description: "electrovalvă pentru CO2, linia GoGreen" },
-      { code: "1028/2S", description: "electrovalvă linia Classic, 1/4\" ODS, PS 45 bar" },
-      { code: "1098N/6S", description: "electrovalvă linia Polyhedra, 3/4\" ODS, PS 50 bar" },
-      { code: "3061/2C", description: "supapă de siguranță linia Classic, 1/4\"NPT x G3/8\", PS 70 bar" },
+      { code: "1028/2S", description: "electrovalvă linia Classic, 1/4\" ODS" },
+      { code: "1098N/6S", description: "electrovalvă linia Polyhedra, 3/4\" ODS" },
+      { code: "3061/2C", description: "supapă de siguranță linia Classic, 1/4\"NPT x G3/8\"" },
       { code: "9320/RA6", description: "bobină pentru electrovalvă, tip HF3, 220-230V 50/60Hz" },
       { code: "Gama Expansion Valve", description: "familie de supape de expansiune termostatice și electronice" },
       { code: "Gama Safety Devices", description: "familie de dispozitive de siguranță pentru circuite frigorifice" },
@@ -54,14 +54,14 @@ Pentru un inginer de service, diferența dintre liniile Castel arată direct ce 
     faq: [
       { q: "Ce produce Castel?", a: "Castel produce componente pentru instalații de refrigerare și climatizare: supape de expansiune, electrovalve solenoid, dispozitive de siguranță, supape de reținere, regulatoare de presiune și accesorii precum bobine, filtre deshidratoare și fitinguri din alamă, organizate pe trei linii de compatibilitate cu refrigeranți." },
       { q: "Ce înseamnă liniile Classic, Polyhedra și GoGreen la Castel?", a: "Classic acoperă refrigeranți din grupa A1, Polyhedra este compatibilă cu o gamă mai largă de refrigeranți A1, A2L și A3, iar GoGreen este linia dedicată exclusiv refrigerantului CO2 (R744), care lucrează la presiuni mult mai mari." },
-      { q: "Cum aleg o electrovalvă Castel după cod?", a: "Codul, de exemplu 1098N/9A6, indică seria, diametrul de conexiune și materialul; cel mai sigur e să transmiteți codul exact de pe piesa veche sau, dacă nu-l aveți, tipul de refrigerant și diametrul conductei." },
+      { q: "Cum aleg o electrovalvă Castel după cod?", a: "Codul, de exemplu 1098N/9A6, identifică exact modelul; cel mai sigur e să transmiteți codul exact de pe piesa veche sau, dacă nu-l aveți, tipul de refrigerant și diametrul conductei." },
       { q: "Livrați robineți Castel în România și cât durează?", a: "Aducem la comandă componente Castel prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea codului cerut la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de supapă Castel?", a: "Cel mai rapid e codul exact de pe piesa existentă; în lipsa lui, avem nevoie de tipul de refrigerant, presiunea de lucru a instalației și tipul de conexiune, filetată sau brazată." }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Castel — Home", url: "https://castel.it/en/", publisher: "Castel Spa", accessed: "2026-09-26" },
       { title: "Castel General Catalogue 2024", url: "https://castel.it/wp-content/uploads/2021/07/Castel_General_2024.pdf", publisher: "Castel Spa", accessed: "2026-09-26" }
@@ -70,9 +70,9 @@ Pentru un inginer de service, diferența dintre liniile Castel arată direct ce 
   ares: {
     name: "ARES",
     headquarters: "Adana, Turcia",
-    overview: `ARES este un producător turc de schimbătoare de căldură cu plăci, cu peste 30 de ani de activitate și o gamă de unsprezece serii diferite, de la modele standard chevron până la construcții sudate integral pentru presiuni ridicate. Compania acoperă practic toate variantele constructive folosite în industrie: cu garnituri demontabile, cu plăci duble pentru izolarea totală a celor două fluide, cu plăci lipite (brazate) pentru sisteme compacte fără garnituri, cu construcție semi-sudată sau complet sudată pentru fluide agresive, și carcasă-și-plăci pentru presiuni și temperaturi ridicate.
+    overview: `ARES este un producător turc de schimbătoare de căldură cu plăci, cu aproximativ 30 de ani de activitate și o gamă de unsprezece serii diferite, de la modele standard chevron până la construcții sudate integral pentru presiuni ridicate. Compania acoperă practic toate variantele constructive folosite în industrie: cu garnituri demontabile, cu plăci duble pentru izolarea totală a celor două fluide, cu plăci lipite (brazate) pentru sisteme compacte fără garnituri, cu construcție semi-sudată sau complet sudată pentru fluide agresive, și carcasă-și-plăci pentru presiuni și temperaturi ridicate.
 
-În aceeași categorie de schimbătoare cu plăci concurează branduri precum SWEP, cunoscute mai ales pentru modelele brazate compacte; ARES se diferențiază prin numărul mare de variante constructive disponibile sub același brand — de la seria AWG cu flux liber pentru fluide vâscoase sau cu particule, până la seria FP dedicată special industriei alimentare și lactatelor. Seriile ABR (brazată), AFW (complet sudată), ASP (carcasă și plăci) și AWB (bloc sudat) acoperă cerințele de presiune și temperatură mai ridicate decât o construcție clasică cu garnituri.
+În aceeași categorie de schimbătoare cu plăci concurează branduri precum SWEP, cunoscute mai ales pentru modelele brazate compacte; ARES se diferențiază prin numărul mare de variante constructive disponibile sub același brand — de la seria AWG cu flux liber pentru fluide vâscoase sau cu particule, până la seria FP dedicată special industriei alimentare și lactatelor. Seriile ABR (brazată), AFW (complet sudată), ASP (carcasă și plăci) și AWB (bloc sudat) completează gama cu construcții brazate, sudate sau de tip carcasă și plăci; limitele de presiune și temperatură se confirmă pe model, din documentația producătorului.
 
 Pentru piața din România, ARES înseamnă o alternativă pentru instalații HVAC, procese industriale sau linii alimentare unde clientul are nevoie de o soluție compactă de transfer termic fără să schimbe furnizorul în funcție de tipul constructiv cerut.`,
     whyChoose: [
@@ -80,20 +80,20 @@ Pentru piața din România, ARES înseamnă o alternativă pentru instalații HV
       "Certificări ISO 9001, ISO 14001 și ISO 45001 pentru calitate, mediu și sănătate ocupațională",
       "Modul CE H și certificare EAC pentru conformitate la nivel european și euroasiatic",
       "Seria FP dedicată industriei alimentare și lactatelor, separat de gama industrială generală",
-      "Serii brazate și sudate (ABR, AFW, AWB) pentru aplicații cu presiuni și temperaturi peste limita construcției clasice cu garnituri"
+      "Serii brazate și sudate (ABR, AFW, AWB) pentru aplicații în care o construcție cu garnituri nu este potrivită; limitele se confirmă pe model"
     ],
     keyProducts: [
       { name: "Schimbătoare de Căldură Seria A (Chevron Standard)", description: "Seria A folosește modele chevron standard, potrivite pentru o gamă largă de aplicații, de la HVAC până la petrol și gaze, conform informațiilor publicate de producător. Construcția cu plăci detașabile permite curățarea mecanică și înlocuirea garniturilor sau plăcilor individuale fără schimbarea întregului schimbător, ceea ce reduce costul de mentenanță pe termen lung pentru instalațiile cu fluide relativ curate." },
-      { name: "Schimbătoare cu Flux Liber Seria AWG", description: "Seria AWG este construită special pentru fluide vâscoase sau cu conținut de particule, unde o placă chevron standard s-ar înfunda rapid; canalele cu flux liber permit trecerea fluidului fără puncte de blocaj. Este o soluție tipică pentru industrii cu fluide dificile, precum tratarea apelor uzate sau anumite procese din industria alimentară grea." },
+      { name: "Schimbătoare cu Flux Liber Seria AWG", description: "Seria AWG este construită special pentru fluide vâscoase sau cu conținut de particule, unde o placă chevron standard s-ar înfunda rapid; canalele cu flux liber permit trecerea fluidului fără puncte de blocaj. Este o soluție tipică pentru industrii cu fluide dificile, precum cele cu particule în suspensie sau vâscozitate ridicată." },
       { name: "Schimbătoare Brazate Seria ABR", description: "Seria ABR (Brazed) este o construcție sudată prin lipire, fără garnituri, ceea ce elimină riscul de scurgere la garnitură și reduce gabaritul comparativ cu o construcție clasică cu plăci detașabile. Este potrivită pentru instalații compacte, cum ar fi pompele de căldură sau unitățile HVAC de dimensiuni reduse, unde spațiul de montaj este limitat." },
-      { name: "Schimbătoare Carcasă și Plăci Seria ASP", description: "Seria ASP (Shell & Plate) combină o carcasă exterioară cu un pachet de plăci sudate în interior, o construcție folosită acolo unde presiunile sau temperaturile de lucru depășesc limitele unei construcții clasice cu garnituri. Este o alegere tipică pentru procese industriale grele sau aplicații din industria energetică." }
+      { name: "Schimbătoare Carcasă și Plăci Seria ASP", description: "Seria ASP (Shell & Plate) combină o carcasă exterioară cu un pachet de plăci sudate în interior, o construcție cu pachet de plăci sudate; domeniul de presiune și temperatură depinde de model și se confirmă pe cod, din documentația producătorului." }
     ],
     industries: [
       "HVAC — răcire și încălzire cu seria A standard sau seria ABR brazată pentru unități compacte",
       "Industrie alimentară și lactate — seria FP dedicată acestor aplicații",
-      "Petrol și gaze — seria A și seria ASP pentru presiuni ridicate",
-      "Tratarea apelor uzate — seria AWG cu flux liber pentru fluide cu particule",
-      "Industrie chimică — serii sudate (AFW, AWB) pentru fluide agresive",
+      "Petrol și gaze — seria A",
+      "Fluide cu particule sau vâscoase — seria AWG cu flux liber",
+      "Industrie chimică — serii sudate (AFW, AWB)",
       "Marină — schimbătoare compacte pentru circuite de răcire la bordul navelor"
     ],
     certifications: [
@@ -120,15 +120,15 @@ Pentru piața din România, ARES înseamnă o alternativă pentru instalații HV
     ],
     faq: [
       { q: "Ce produce ARES?", a: "ARES produce schimbătoare de căldură cu plăci în unsprezece variante constructive: chevron standard, flux liber, plăci duble, brazate, semi-sudate, complet sudate și carcasă-și-plăci, pentru aplicații de la HVAC la industria alimentară și petrochimie." },
-      { q: "Cum aleg între seriile ABR și ASP de la ARES?", a: "ABR este o construcție brazată, compactă, potrivită pentru unități HVAC mici; ASP combină o carcasă cu plăci sudate interior și e gândită pentru presiuni și temperaturi mai ridicate decât poate suporta o construcție brazată standard." },
+      { q: "Cum aleg între seriile ABR și ASP de la ARES?", a: "ABR este o construcție brazată, compactă, potrivită pentru unități HVAC mici; ASP combină o carcasă cu plăci sudate interior; limitele de presiune și temperatură se confirmă pe model, din documentația producătorului." },
       { q: "Ce diferență e între seria AWG și seria standard A la ARES?", a: "Seria standard A folosește plăci chevron obișnuite, potrivite pentru fluide relativ curate; AWG are canale cu flux liber, gândite pentru fluide vâscoase sau cu particule în suspensie, care ar înfunda o placă chevron clasică." },
       { q: "Livrați schimbătoare de căldură ARES în România și cât durează?", a: "Aducem la comandă modele ARES din seria potrivită aplicației prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de schimbător de căldură ARES?", a: "Avem nevoie de fluidele implicate, debitul, temperaturile de intrare și ieșire și presiunea maximă de lucru; dacă fluidul conține particule sau are vâscozitate ridicată, menționați acest lucru pentru alegerea seriei corecte." }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "ARES Plate Heat Exchanger — Home", url: "https://www.aresphe.com/", publisher: "ARES Plate Heat Exchanger", accessed: "2026-09-26" },
       { title: "A-Series — ARES Plate Heat Exchanger", url: "https://www.aresphe.com/products/a-series/", publisher: "ARES Plate Heat Exchanger", accessed: "2026-09-26" },
@@ -178,7 +178,7 @@ Pentru piața din România, Sonflow oferă o alternativă la schimbătoarele cla
       { code: "SFB25 TL/TM/TK", description: "brazat, 25 bar, -100 la 185°C, max 101 plăci" },
       { code: "SFB31 TL", description: "brazat, 40 bar, -100 la 185°C, max 101 plăci" },
       { code: "SFB32 TL/TM/TK", description: "brazat, 40 bar, -100 la 185°C, max 151 plăci" },
-      { code: "SFB51 TL/TM/TK", description: "brazat, 16-25 bar, max 201 plăci" },
+      { code: "SFB51 TL/TM/TK", description: "brazat, max 201 plăci" },
       { code: "SFB61 TL/TXL/TM/TK", description: "brazat, 25 bar, max 201 plăci" },
       { code: "SFB81 TL/TM/TK", description: "brazat, 25 bar, max 271 plăci" },
       { code: "SFB101 TL/TM/TK", description: "brazat, 25 bar, max 271 plăci" },
@@ -201,8 +201,8 @@ Pentru piața din România, Sonflow oferă o alternativă la schimbătoarele cla
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "About SonFlow", url: "https://sonflow.eu/about-sonflow", publisher: "SonFlow", accessed: "2026-09-26" },
       { title: "Brazed Plate Heat Exchangers — SonFlow", url: "https://sonflow.eu/plate-heat-exchangers/brazed-heat-exchangers", publisher: "SonFlow", accessed: "2026-09-26" },
@@ -215,14 +215,14 @@ Pentru piața din România, Sonflow oferă o alternativă la schimbătoarele cla
     headquarters: "Lituania",
     overview: `SNOL este un producător lituanian de cuptoare și etuve pentru laborator și industrie, cu o gamă declarată de peste 150 de produse standard. Producătorul împarte gama în două ramuri: echipamente pentru laborator (etuve de uscare, cuptoare cu mufă, cuptoare cu cameră ceramică, cuptoare de calcinare, cuptoare tubulare, incubatoare) și echipamente pentru industrie (etuve și cuptoare de cameră, unele cu vatră detașabilă sau tip walk-in pentru piese mari). Fiecare model e denumit după volumul camerei de lucru în litri și temperatura maximă în grade Celsius, de exemplu SNOL 30/1300 pentru un volum de 30 litri și temperatură maximă 1300°C.
 
-Plaja de temperaturi acoperă de la 200°C pentru unele etuve până la 1600°C la cuptoarele cu cameră din seria de laborator, iar volumele merg de la sub un litru la modelele mici de precizie până la 700 de litri la etuvele industriale mari. Fiecare model are un cod suplimentar de configurație (de exemplu LSF01, LSN11, LHM01, LSC01) care indică varianta de control și de construcție a camerei de încălzire. Această granularitate permite alegerea exactă a echipamentului după volumul de probă și temperatura de proces necesară, fără a supradimensiona instalația.
+Plaja de temperaturi acoperă de la 200°C pentru unele etuve până la 1600°C la cuptoarele cu cameră din seria de laborator, iar volumele merg de la sub un litru la modelele mici de precizie până la 700 de litri la etuvele de laborator de mare capacitate. Majoritatea modelelor au un cod suplimentar de configurație (de exemplu LSF01, LSN11, LHM01, LSC01) care indică varianta de control și de construcție a camerei de încălzire. Această granularitate permite alegerea exactă a echipamentului după volumul de probă și temperatura de proces necesară, fără a supradimensiona instalația.
 
 Pentru piața din România, SNOL înseamnă acces la echipamente de tratament termic pentru laboratoare de analiză, control al calității sau producție de mici serii, acolo unde volumul de probă și temperatura de lucru variază de la un proiect la altul.`,
     whyChoose: [
       "Peste 150 de modele standard, denumite după volumul camerei (litri) și temperatura maximă (°C)",
       "Plajă de temperatură de la 200°C la 1600°C în funcție de seria aleasă",
-      "Volume de lucru de la sub un litru la modelele de precizie până la 700 de litri la etuvele industriale",
-      "Cod de configurație distinct pe fiecare model (ex. LSF01, LHM01) pentru varianta de control și construcție"
+      "Volume de lucru de la sub un litru la modelele de precizie până la 700 de litri la etuvele de laborator de mare capacitate",
+      "Cod de configurație la majoritatea modelelor (ex. LSF01, LHM01), pentru varianta de control și construcție"
     ],
     keyProducts: [
       { name: "Etuve de Laborator", description: "Etuvele SNOL pentru laborator acoperă temperaturi între 200°C și 550°C, cu volume de la 3 la 700 de litri, conform listei de modele publicate de producător. Sunt folosite pentru uscare, încălzire, testare termică și îmbătrânire accelerată a materialelor. Codul de model indică atât volumul cât și temperatura maximă, de exemplu SNOL 220/300 pentru 220 litri și 300°C." },
@@ -271,8 +271,8 @@ Pentru piața din România, SNOL înseamnă acces la echipamente de tratament te
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "SNOL — Home", url: "https://snol.com/", publisher: "SNOL", accessed: "2026-09-26" },
       { title: "Ovens for Laboratories — SNOL", url: "https://snol.com/products/ovens-for-labaratories/", publisher: "SNOL", accessed: "2026-09-26" },
@@ -281,27 +281,27 @@ Pentru piața din România, SNOL înseamnă acces la echipamente de tratament te
   },
   coremo: {
     name: "Coremo",
-    overview: `Coremo este un producător italian de frâne și ambreiaje industriale, cu soluții de acționare pneumatică, hidraulică și manuală. Gama include frâne cu etrier (cu disc), cuplaje de transmisie, unități hidraulice de putere, amplificatoare de presiune, senzori și console de comandă pentru frânare. Compania acoperă atât aplicații mobile cât și staționare, cu forțe de frânare de la sub 1 kN la modelele mici de laborator sau testare până la peste 37 kN la seriile grele.
+    overview: `Coremo este un producător italian de frâne industriale și cuplaje de transmisie, cu soluții de acționare pneumatică, hidraulică și manuală. Gama include frâne cu etrier (cu disc), cuplaje de transmisie, unități hidraulice de putere, amplificatoare de presiune, senzori și console de montaj pentru frâne. Compania acoperă atât aplicații mobile cât și staționare, cu forțe de frânare de la sub 1 kN la modelele mici de laborator sau testare până la peste 37 kN la seriile grele.
 
-Frânele cu etrier Coremo sunt organizate în serii denumite cu litere (A, B, C, D, E, EL, F, G, GL, MPA, MPB), fiecare acoperind un interval propriu de forță de frânare, disponibile atât în variantă acționată de fluid (aer sau ulei), cât și în variantă cu arc, care frânează automat la lipsa presiunii — o cerință tipică de siguranță pentru macarale, benzi transportoare sau utilaje miniere. Codul „N" din denumire (de exemplu F 3N) marchează varianta cu arc, iar codurile compuse (de exemplu A 1-2N) indică o frână cu acționare dublă, combinând un etaj de acționare normal cu unul de siguranță.
+Frânele cu etrier Coremo sunt organizate în serii denumite cu litere (A, B, C, D, E, EL, F, G, GL, MPA, MPB), fiecare acoperind un interval propriu de forță de frânare, disponibile atât în variantă acționată de fluid (aer sau ulei), cât și în variantă cu arc, care frânează automat la lipsa presiunii — o cerință tipică de siguranță pentru macarale, benzi transportoare sau utilaje miniere. Codul „N" din denumire (de exemplu F 3N) marchează varianta cu arc, iar producătorul oferă și variante cu acționare dublă, a căror configurație se confirmă pe codul complet.
 
 Pentru piața din România, Coremo înseamnă acces la frâne industriale de siguranță pentru aplicații unde oprirea automată la pierderea presiunii este o cerință de proiectare, nu o opțiune — tipic în minerit, energie și manipularea materialelor pe cablu.`,
     whyChoose: [
       "Serii de frâne cu etrier acoperind forțe de frânare de la sub 1 kN la peste 37 kN",
       "Variante acționate de fluid (aer sau ulei) și variante cu arc, cu frânare automată la lipsa presiunii",
-      "Coduri compuse pentru frâne cu acționare dublă (normal plus siguranță) pe aceeași unitate",
+      "Variante cu acționare dublă, alături de cele acționate cu aer și cu arc",
       "Game separate pentru acționare pneumatică și hidraulică, sub același brand"
     ],
     keyProducts: [
-      { name: "Frâne cu Etrier Acționate Hidraulic Seriile A, F, D, G", description: "Frânele hidraulice cu etrier Coremo, precum modelele A 3 ID sau F 3N ID, acoperă forțe de frânare între aproximativ 6,7 și 17 kN, conform datelor publicate de producător, în variante acționate de ulei sau cu arc pentru siguranță. Codul „ID” din denumire indică montajul specific pe disc; sunt folosite la utilaje industriale unde acționarea hidraulică e deja prezentă în sistem." },
-      { name: "Frâne cu Etrier Acționate Pneumatic, Game Multiple", description: "Gama pneumatică e mult mai largă, cu serii de la MPA și MPB (forțe mici, sub 4 kN) până la E și EL (peste 20 kN), fiecare disponibilă în variantă acționată de aer, cu arc sau cu acționare dublă. Alegerea seriei depinde de forța de frânare necesară și de presiunea de aer disponibilă pe echipament." },
-      { name: "Frâne Hidraulice Directe și Console de Comandă", description: "Frânele hidraulice directe completează gama de etrier pentru aplicații unde presiunea de ulei acționează direct asupra discului, fără elemente pneumatice intermediare. Consolele de comandă și senzorii asociați permit integrarea frânei într-un sistem de control mai amplu, cu semnalizare a stării de frânare." },
-      { name: "Discuri de Frână și Ambreiaje", description: "Discurile de frână din fontă sau oțel completează seturile de etrier, dimensionate pentru fiecare serie de frână din gamă. Cuplajele de transmisie și ambreiajele pneumatice permit decuplarea controlată a unui arbore de transmisie, utile la utilaje cu mai multe moduri de operare." }
+      { name: "Frâne cu Etrier Acționate Hidraulic Seriile A, F, D, G", description: "Frânele hidraulice cu etrier Coremo, precum modelele A 3 ID sau F 3N ID, acoperă forțe de frânare între aproximativ 6,7 și 17 kN, conform datelor publicate de producător, în variante acționate de ulei sau cu arc pentru siguranță. Sunt folosite la utilaje industriale unde acționarea hidraulică e deja prezentă în sistem." },
+      { name: "Frâne cu Etrier Acționate Pneumatic, Game Multiple", description: "Gama pneumatică e mult mai largă, cu serii de la MPA și MPB (forțe mici, până la aproximativ 4 kN) până la E și EL (peste 20 kN), fiecare disponibilă în variantă acționată de aer, cu arc sau cu acționare dublă. Alegerea seriei depinde de forța de frânare necesară și de presiunea de aer disponibilă pe echipament." },
+      { name: "Console de Montaj și Senzori", description: "Consolele de montaj (brackets) și senzorii fac parte din gama de componente complementare publicată de producător; compatibilitatea se confirmă pe codul frânei." },
+      { name: "Discuri de Frână și Cuplaje de Transmisie", description: "Discurile de frână și cuplajele de transmisie fac parte din gama publicată de producător; materialul și dimensiunile se confirmă pe codul frânei sau al discului." }
     ],
     industries: [
       "Petrol și gaze — frâne de siguranță cu acționare cu arc pentru instalații de foraj",
       "Minerit — frâne cu forță mare pentru benzi transportoare și utilaje de extracție",
-      "Energie — frâne pentru turbine eoliene și echipamente de ridicat",
+      "Energie — frâne industriale pentru aplicații din domeniul energetic",
       "Cabluri și manipulare pe cablu — frâne de siguranță cu oprire automată la lipsa presiunii"
     ],
     infinitrade: `Pentru Coremo nu avem date proprii de stoc și pornim mereu de la fișele tehnice publicate de producător pentru fiecare serie de frână. Nu ținem gama pe raft, dar putem aduce la comandă o frână Coremo din seria potrivită, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de forța de frânare necesară, tipul de acționare disponibil pe utilaj (aer sau ulei), și dacă aplicația cere frânare automată la lipsa presiunii (varianta cu arc). Nu confirmăm un termen mai rapid decât cel comunicat de producător pentru seria și codul exact alese.`,
@@ -329,7 +329,7 @@ Pentru piața din România, Coremo înseamnă acces la frâne industriale de sig
       { code: "EL 4N-BP", description: "frână pneumatică cu etrier, variantă EL cu arc" }
     ],
     faq: [
-      { q: "Ce produce Coremo?", a: "Coremo produce frâne și ambreiaje industriale cu acționare pneumatică, hidraulică sau manuală: frâne cu etrier pe disc, frâne hidraulice directe, cuplaje de transmisie, unități hidraulice de putere și console de comandă." },
+      { q: "Ce produce Coremo?", a: "Coremo produce frâne industriale și cuplaje de transmisie cu acționare pneumatică, hidraulică sau manuală: frâne cu etrier pe disc, frâne hidraulice directe, cuplaje de transmisie, unități hidraulice de putere și console de comandă." },
       { q: "Ce diferență e între variantele cu și fără litera N la frânele Coremo?", a: "Litera N marchează varianta cu arc, care frânează automat când presiunea de aer sau ulei scade sau dispare, o funcție de siguranță; variantele fără N sunt acționate direct de fluid și rămân deblocate în lipsa presiunii." },
       { q: "Cum aleg între o frână cu acționare pneumatică și una hidraulică de la Coremo?", a: "Alegerea depinde de tipul de energie deja disponibil pe utilaj: dacă echipamentul are deja un circuit de aer comprimat, o frână pneumatică e mai simplu de integrat; dacă are un circuit hidraulic, o frână hidraulică evită un compresor suplimentar." },
       { q: "Livrați frâne Coremo în România și cât durează?", a: "Aducem la comandă frâne Coremo din seria potrivită aplicației, prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii de către producător." },
@@ -337,8 +337,8 @@ Pentru piața din România, Coremo înseamnă acces la frâne industriale de sig
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Coremo — Home", url: "https://coremo.com/en/", publisher: "Coremo", accessed: "2026-09-26" },
       { title: "Hydraulic Caliper Brakes — Coremo", url: "https://coremo.com/en/products-range/hydraulic-calyper-brakes/", publisher: "Coremo", accessed: "2026-09-26" },
@@ -351,7 +351,7 @@ Pentru piața din România, Coremo înseamnă acces la frâne industriale de sig
     headquarters: "Provaglio d'Iseo (Brescia), Italia",
     overview: `OMFB este un producător italian de componente hidraulice, cu patru fabrici în Italia și opt filiale în alte țări, activ din 1950 în domeniul pompelor, prizelor de putere și sistemelor hidraulice pentru vehicule și utilaje mobile. Gama acoperă pompe cu pistoane cu debit variabil (seria PPV), pompe cu roți dințate în peste zece serii diferite (de la NPLA la NPGH), motoare cu pistoane cu ax înclinat (seria HPM), valve direcționale proporționale, prize de putere (PTO) și o divizie separată de rezervoare de ulei și combustibil.
 
-În aceeași categorie de componente hidraulice mobile concurează branduri precum Bondioli & Pavesi; OMFB acoperă o gamă mai amplă de pompe cu roți dințate decât un producător axat exclusiv pe prize de putere, cu serii dedicate pe trepte de duritate a aplicației — NPLA și NPLU pentru sarcini ușoare, NPH și LTMH pentru sarcini medii-grele, și NPGH pentru sarcini grele, cu cilindree de la 6 la 150 cm³/rotație în funcție de serie. Pompele cu pistoane seria PPV, cu variante SAE-C de 60, 90 și 110 cm³/rotație, sunt gândite pentru sisteme cu debit variabil, unde presiunea și debitul se ajustează automat după sarcina de lucru.
+OMFB oferă pompe cu roți dințate în serii dedicate pe trepte de duritate a aplicației — NPLA pentru sarcini ușoare, NPLU și NPLH pentru sarcini medii, NPH și LTMH pentru sarcini medii-grele, și NPGH pentru sarcini grele, cu cilindree de la 6 la 150 cm³/rotație în funcție de serie. Pompele cu pistoane seria PPV, cu variante SAE-C de 60, 90 și 110 cm³/rotație, sunt gândite pentru sisteme cu debit variabil, unde presiunea și debitul se ajustează automat după sarcina de lucru.
 
 Pentru piața din România, OMFB înseamnă acces la o gamă amplă de pompe și prize de putere pentru echipamente montate pe camion, utilaje agricole sau de construcții, acoperind atât sisteme cu debit fix cât și cu debit variabil.`,
     whyChoose: [
@@ -364,7 +364,7 @@ Pentru piața din România, OMFB înseamnă acces la o gamă amplă de pompe și
     keyProducts: [
       { name: "Pompe cu Pistoane cu Debit Variabil Seria PPV", description: "Seria PPV, disponibilă în variante SAE-C de 60, 90 și 110 cm³/rotație conform cataloagelor publicate de producător, ajustează automat debitul livrat în funcție de presiunea din sistem, ceea ce reduce consumul de energie comparativ cu o pompă cu debit fix la sarcini variabile. Sunt folosite tipic pe utilaje mobile unde funcțiile hidraulice au cerințe de debit diferite în timpul aceluiași ciclu de lucru." },
       { name: "Pompe cu Roți Dințate, Game Multiple", description: "Gama de pompe cu roți dințate OMFB acoperă mai multe trepte de duritate a aplicației: seriile NPLA, NPLU și NPLH pentru sarcini ușoare și medii, seriile NPH și LTMH pentru sarcini medii-grele, cu modele precum LTMH 90 sau NPH 61, și seria NPGH pentru sarcini grele, cu cilindree de până la 150 cm³/rotație. Alegerea seriei depinde de presiunea de lucru și durata de funcționare continuă cerută." },
-      { name: "Motoare cu Pistoane Seria HPM", description: "Motoarele cu pistoane cu ax înclinat din seria HPM, precum modelul HPM 130, livrează cuplu ridicat la turații reduse, potrivite pentru acționarea directă a unor sarcini grele fără reductor suplimentar. Configurația exactă (flanșă, arbore, sens de rotație) se stabilește din codul complet al modelului." },
+      { name: "Motoare cu Pistoane Seria HPM", description: "Motoarele cu pistoane cu ax înclinat din seria HPM, precum modelul HPM 130, fac parte din divizia de comandă hidraulică de putere a producătorului. Configurația exactă (flanșă, arbore, sens de rotație) se stabilește din codul complet al modelului." },
       { name: "Prize de Putere și Rezervoare", description: "Prizele de putere OMFB se montează pe cutia de viteze și transmit mișcarea către pompă; adaptoarele permit combinații diferite de priză și pompă, după standardul de flanșă (ISO sau SAE). Divizia de rezervoare completează instalația cu tancuri de ulei dimensionate pentru sistemul ales." }
     ],
     industries: [
@@ -401,14 +401,14 @@ Pentru piața din România, OMFB înseamnă acces la o gamă amplă de pompe și
     faq: [
       { q: "Ce produce OMFB?", a: "OMFB produce componente hidraulice pentru vehicule și utilaje mobile: pompe cu pistoane cu debit variabil, pompe cu roți dințate în peste zece serii, motoare cu pistoane, prize de putere și rezervoare de ulei sau combustibil." },
       { q: "Cum aleg o pompă cu pistoane PPV OMFB pentru un utilaj?", a: "Alegerea depinde de cilindreea necesară (60, 90 sau 110 cm³/rotație la seria SAE-C) și de faptul că utilajul are nevoie de debit variabil, adică presiune și debit care se ajustează automat în funcție de sarcina de lucru." },
-      { q: "Ce diferență e între gama de pompe cu roți dințate și cea cu pistoane la OMFB?", a: "Pompele cu roți dințate au debit fix și sunt mai simple și mai ieftin de întreținut, în serii de la sarcină ușoară la grea; pompele cu pistoane din seria PPV au debit variabil, potrivit pentru sisteme cu mai multe funcții hidraulice simultane." },
+      { q: "Ce diferență e între gama de pompe cu roți dințate și cea cu pistoane la OMFB?", a: "Pompele cu roți dințate au debit fix, în serii de la sarcină ușoară la grea; pompele cu pistoane din seria PPV au debit variabil, potrivit pentru sisteme cu mai multe funcții hidraulice simultane." },
       { q: "Livrați pompe hidraulice OMFB în România și cât durează?", a: "Aducem la comandă componente OMFB prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea codului cerut la producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă sau priză de putere OMFB?", a: "Avem nevoie de tipul de componentă căutat, cilindreea sau cuplul necesar, standardul de flanșă (ISO sau SAE) și, pentru priza de putere, marca și modelul cutiei de viteze pe care se montează." }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "OMFB Hydraulics — Home", url: "https://www.omfb.com/en/", publisher: "OMFB S.p.A.", accessed: "2026-09-26" },
       { title: "Variable Displacement Piston Pumps PPV — OMFB", url: "https://www.omfb.com/catalog/en/catalogue/2/variable-displacement-piston-pumps-ppv_60", publisher: "OMFB S.p.A.", accessed: "2026-09-26" },
@@ -419,19 +419,19 @@ Pentru piața din România, OMFB înseamnă acces la o gamă amplă de pompe și
     name: "FOX",
     overview: `FOX produce acumulatoare hidropneumatice folosite pentru compensarea scurgerilor dintr-un circuit hidraulic, absorbția vârfurilor de presiune, amortizarea pulsațiilor generate de pompă și, în anumite configurații, suspensia hidropneumatică a utilajelor mobile. Corpul fiecărui acumulator este din oțel de rezistență ridicată, cu o garanție de doi ani declarată de producător. Gama acoperă trei principii constructive diferite: acumulatoare cu vezică (bladder), cu diafragmă și cu piston, fiecare cu avantaje proprii în funcție de volumul necesar și de rata de răspuns cerută de aplicație.
 
-În aceeași categorie de acumulatoare hidraulice concurează branduri precum Hydac; FOX acoperă toate cele trei principii constructive sub același brand, cu serii precum HBR, HGV și HTRX pentru varianta cu vezică, HSTX și HST pentru varianta cu diafragmă, și HP pentru varianta cu piston, reparabilă. Corpul acumulatoarelor e din oțel de rezistență ridicată, cu partea elastică (vezică, diafragmă sau piston) separând circuitul de fluid de cel de azot, iar seriile F3 și F7 de presostate electromecanice completează gama pentru monitorizarea presiunii din sistem.
+În aceeași categorie de acumulatoare hidraulice concurează branduri precum Hydac; FOX acoperă toate cele trei principii constructive sub același brand, cu serii precum HBR, HGV și HTRX pentru varianta cu vezică, HSTX și HST pentru varianta cu diafragmă, și HP pentru varianta cu piston, reparabilă. Elementul de separare (vezică, diafragmă sau piston) desparte circuitul de fluid de cel de azot, iar seriile F3 și F7 de presostate electromecanice completează gama pentru monitorizarea presiunii din sistem.
 
 Pentru piața din România, FOX înseamnă o alternativă pentru instalații hidraulice unde un acumulator absoarbe vârfurile de presiune sau compensează scurgerile fără intervenția pompei, reducând uzura restului sistemului.`,
     whyChoose: [
       "Trei principii constructive sub același brand — cu vezică, cu diafragmă și cu piston — pentru nevoi diferite de volum și răspuns",
       "Corp din oțel de rezistență ridicată, cu garanție de 2 ani conform producătorului",
-      "Serie de acumulator cu piston reparabilă (HP), pentru mentenanță fără înlocuirea întregului corp",
+      "Serie de acumulator cu piston (HP) în gama FOX",
       "Presostate electromecanice proprii (F3, F7) pentru monitorizarea presiunii din circuitul hidraulic"
     ],
     keyProducts: [
-      { name: "Acumulatoare cu Vezică (Bladder)", description: "Seriile HBR, HGV și HTRX folosesc o vezică elastică din elastomer pentru a separa uleiul hidraulic de perna de azot, cu timp de răspuns rapid la variații bruște de presiune. Sunt tipul cel mai folosit de acumulator hidropneumatic în sisteme mobile și industriale, datorită raportului bun între volum, greutate și viteză de răspuns." },
+      { name: "Acumulatoare cu Vezică (Bladder)", description: "Seriile HBR, HGV și HTRX folosesc o vezică elastică din elastomer pentru a separa uleiul hidraulic de perna de azot, cu timp de răspuns rapid la variații bruște de presiune. Sunt folosite în sisteme mobile și industriale." },
       { name: "Acumulatoare cu Diafragmă", description: "Seriile HSTX și HST folosesc o diafragmă în locul vezicii, o construcție preferată la volume mai mici și la aplicații cu spațiu de montaj limitat, unde un acumulator cu vezică ar fi supradimensionat. Diafragma separă la fel uleiul de perna de azot, cu un răspuns comparabil la variații de presiune." },
-      { name: "Acumulatoare cu Piston Reparabile Seria HP", description: "Seria HP folosește un piston culisant, în loc de un element elastomeric, pentru separarea celor două circuite, cu avantajul că poate fi reparată prin înlocuirea garniturilor pistonului, fără schimbarea întregului corp. Este o soluție folosită la volume mai mari sau la aplicații cu cicluri de presiune frecvente, unde o vezică sau o diafragmă s-ar uza mai rapid." }
+      { name: "Acumulatoare cu Piston Seria HP", description: "Seria HP folosește un piston culisant, în loc de un element elastomeric, pentru separarea celor două circuite, conform informațiilor publicate de producător; volumul și presiunea de lucru se confirmă pe model." }
     ],
     industries: [
       "Prese hidraulice — amortizarea pulsațiilor de presiune generate de pompă",
@@ -447,23 +447,23 @@ Pentru piața din România, FOX înseamnă o alternativă pentru instalații hid
       { code: "HTRX", description: "acumulator cu vezică, variantă de gamă industrială" },
       { code: "HSTX", description: "acumulator cu diafragmă, gamă industrială" },
       { code: "HST", description: "acumulator cu diafragmă" },
-      { code: "HP", description: "acumulator cu piston, execuție reparabilă" },
-      { code: "MPX", description: "acumulator cu diafragmă plată dublă/sandwich din PTFE" },
-      { code: "F3", description: "presostat electromecanic, contacte SPDT" },
-      { code: "F7", description: "presostat electromecanic, contacte SPDT" },
+      { code: "HP", description: "acumulator cu piston" },
+      { code: "MPX", description: "acumulator cu diafragmă" },
+      { code: "F3", description: "presostat electromecanic" },
+      { code: "F7", description: "presostat electromecanic" },
       { code: "SB", description: "bloc de siguranță manual, parte hidraulică" }
     ],
     faq: [
       { q: "Ce produce FOX?", a: "FOX produce acumulatoare hidropneumatice cu vezică, cu diafragmă și cu piston, folosite pentru compensarea scurgerilor, absorbția vârfurilor de presiune și amortizarea pulsațiilor în instalații hidraulice, plus presostate electromecanice pentru monitorizarea presiunii." },
-      { q: "Cum aleg între un acumulator cu vezică și unul cu piston de la FOX?", a: "Acumulatorul cu vezică răspunde mai rapid și e potrivit pentru volume medii, în timp ce varianta cu piston (seria HP) e reparabilă și rezistă mai bine la cicluri frecvente de presiune, fiind preferată la volume mai mari." },
+      { q: "Cum aleg între un acumulator cu vezică și unul cu piston de la FOX?", a: "Acumulatorul cu vezică răspunde mai rapid și e potrivit pentru volume medii, în timp ce varianta cu piston (seria HP) este varianta cu piston, la care volumul și presiunea se confirmă pe model." },
       { q: "Ce rol are un acumulator hidropneumatic FOX într-o instalație hidraulică?", a: "Acumulatorul stochează energie hidraulică sub formă de presiune, compensând scurgerile mici din sistem, absorbind vârfurile bruște de presiune și reducând astfel solicitarea și uzura pompei și a celorlalte componente." },
       { q: "Livrați acumulatoare hidropneumatice FOX în România și cât durează?", a: "Aducem la comandă acumulatoare FOX din seria potrivită aplicației, prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii de către producător." },
       { q: "Ce trebuie să trimit pentru o ofertă de acumulator FOX?", a: "Avem nevoie de principiul constructiv preferat (vezică, diafragmă sau piston), volumul necesar în litri și presiunea maximă de lucru a instalației unde va fi montat acumulatorul." }
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [ { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "FOX — Instruction", url: "https://www.fox.it/inglese/instruction/", publisher: "FOX", accessed: "2026-09-26" },
       { title: "Catalogo accumulatori 2024 — FOX", url: "https://www.fox.it/Sites/615/WebExplorer/Catalogo%20accumulatori%20-%202024.pdf", publisher: "FOX", accessed: "2026-09-26" }

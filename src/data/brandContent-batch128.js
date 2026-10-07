@@ -5,23 +5,23 @@ export const brandContentBatch128 = {
     name: "Ariel Corporation",
     founded: 1966,
     headquarters: "SUA",
-    overview: `Ariel Corporation este un producător american de compresoare de gaz cu piston, cu activitate din 1966, specializat în compresoare separabile pentru gaze industriale. Compania fabrică unități pentru extracția, procesarea, transportul, depozitarea și distribuția gazelor naturale, folosite la sonde, stații de comprimare și instalații de procesare. Gama include linii de compresoare de la câteva sute până la peste 10.000 de cai putere, motiv pentru care Ariel apare frecvent în specificațiile tehnice ale proiectelor petroliere și de gaze din Europa. Pentru piața românească putem oferta compresoare din gama Ariel pentru boost de gaz, recomprimare și aplicații de procesare industrială.
+    overview: `Ariel Corporation este un producător american de compresoare de gaz cu piston, cu activitate din 1966, specializat în compresoare separabile pentru gaze industriale. Compania fabrică unități pentru extracția, procesarea, transportul, depozitarea și distribuția gazelor naturale, folosite la sonde, stații de comprimare și instalații de procesare. Gama include linii de compresoare de la 85 până la 10.000 de cai putere. Pentru piața românească putem oferta compresoare din gama Ariel pentru boost de gaz, recomprimare și aplicații de procesare industrială.
 
-Ce diferențiază Ariel de alți producători de compresoare cu piston este segmentarea clară pe linii de putere: linia mică JG acoperă până la aproximativ 860 de cai putere, linia medie KB ajunge la peste 5.500 de cai putere, iar linia mare KB depășește 10.000 de cai putere la turații de până la 1.800 rpm. Compania a dezvoltat și seria KBH, dedicată compresării hidrogenului pentru aplicații de mobilitate, semn că gama s-a extins dincolo de gazul natural clasic. Pentru un cumpărător industrial, alegerea unui compresor Ariel înseamnă în primul rând potrivirea liniei de putere cu debitul și presiunea cerute de proces.
+Ce diferențiază Ariel de alți producători de compresoare cu piston este segmentarea clară pe linii de putere: linia mică JG acoperă până la aproximativ 860 de cai putere, linia medie ajunge la 5.520 de cai putere, iar linia mare ajunge la 10.000 de cai putere (modelele KBB și KBV, la 900, respectiv 750 rpm). Compania a dezvoltat și seria KBH, dedicată compresării hidrogenului pentru aplicații de mobilitate, semn că gama s-a extins dincolo de gazul natural clasic. Pentru un cumpărător industrial, alegerea unui compresor Ariel înseamnă în primul rând potrivirea liniei de putere cu debitul și presiunea cerute de proces.
 
 Pentru România, compresoarele Ariel au sens acolo unde există deja instalații de procesare gaz, stații de comprimare pentru rețele de transport sau proiecte de hidrogen la scară industrială. Fiind echipamente separabile, motorul de antrenare se alege independent de blocul de compresie, ceea ce ușurează integrarea în instalații existente. Nu recomandăm Ariel pentru aplicații mici, unde compresoarele rotative sunt mai simplu de întreținut.`,
     whyChoose: [
-      "Segmentare clară pe linii de putere — de la aproximativ 170 până la peste 10.000 de cai putere, ceea ce simplifică alegerea unității potrivite procesului",
+      "Segmentare clară pe linii de putere — de la 85 până la 10.000 de cai putere, ceea ce simplifică alegerea unității potrivite procesului",
       "Construcție separabilă — blocul de compresie se cuplează cu un motor de antrenare ales separat, electric sau cu gaz, în funcție de instalație",
-      "Serie dedicată hidrogenului (KBH) — răspunde proiectelor de mobilitate cu hidrogen care apar tot mai des și în Europa",
+      "Serie dedicată hidrogenului (KBH) — este dedicată pieței de mobilitate cu hidrogen",
       "Turații de lucru documentate între 750 și 1.800 rpm, în funcție de linie, utile la dimensionarea fundației și a amortizării vibrațiilor",
-      "Rețea de peste 700 de puncte de distribuitori la nivel mondial, conform informațiilor publicate de producător",
+      "Peste 700 de locații de distribuitori la nivel mondial, conform informațiilor publicate de producător",
     ],
     keyProducts: [
       { name: "Linia Mică JG (JGM, JGP, JG, JGA, JGR)", description: "Compresoare pentru puteri mici și medii, de la aproximativ 170 CP la JGM și JGP, până la 840–860 CP la JGA și JGR, la turații între 1.200 și 1.800 rpm. Este linia întâlnită la stații de recomprimare de capacitate redusă și la instalații de gaz asociat de la sondă, unde spațiul de montaj e limitat." },
       { name: "Linia Medie KB (JGJ, KBE, KBK, KBT)", description: "Acoperă puteri de la 1.860 CP la JGJ, până la 5.520 CP la KBK/KBT, cu KBE la 2.600 CP, la turații de regulă sub 1.800 rpm. Se folosește la stații de comprimare de capacitate medie din instalațiile midstream, unde debitul depășește ce acoperă eficient linia JG." },
       { name: "Linia Mare KB (KBB, KBC, KBD, KBF, KBU, KBV, KBZ)", description: "Modelele mari acoperă puteri de la 2.070 până la 10.000 CP, cu KBB și KBV la pragul maxim de 10.000 CP, la turații joase de 900, respectiv 750 rpm. Sunt destinate stațiilor mari de comprimare din rețelele de transport gaz și instalațiilor de procesare la scară industrială." },
-      { name: "Seria KBH pentru Hidrogen", description: "KBH este linia dedicată compresării hidrogenului pentru aplicații de mobilitate, gândită pentru proiecte unde presiunea și puritatea gazului cer o construcție diferită față de compresoarele clasice de gaz natural. Producătorul o prezintă separat de liniile JG și KB." },
+      { name: "Seria KBH pentru Hidrogen", description: "KBH este un compresor alternativ cu orientare verticală, dedicat pieței de mobilitate cu hidrogen. Producătorul o prezintă separat de liniile JG și KB." },
     ],
     industries: [
       "Petrol și gaze — compresoare de boost pentru gaz asociat direct de la sondă",
@@ -30,7 +30,7 @@ Pentru România, compresoarele Ariel au sens acolo unde există deja instalații
       "Rafinării și petrochimie — compresoare de proces pentru instalații downstream",
     ],
     certifications: ["ISO 9001:2015 — sistem de management al calității pentru proiectare și fabricație"],
-    infinitrade: `Pentru Ariel lucrăm doar cu informațiile publice ale producătorului, fără date proprii de stoc sau de livrare pentru această gamă. Aducem compresoare Ariel la comandă, prin canale de aprovizionare din UE sau import direct din SUA, cu termen 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de complexitatea configurației. Pentru o ofertă corectă avem nevoie de linia și modelul dorit (JG sau KB), debitul și presiunea de lucru, tipul de gaz comprimat și motorul de antrenare ales. Nu promitem disponibilitate din depozit pentru această gamă — fiecare unitate se configurează pe proiect, iar termenele depind de disponibilitatea producătorului.`,
+    infinitrade: `Pentru Ariel lucrăm doar cu informațiile publice ale producătorului, fără date proprii de stoc sau de livrare pentru această gamă. Aducem compresoare Ariel la comandă, prin canale de aprovizionare din UE sau import direct din SUA, cu termen de regulă 1–4 săptămâni pentru componente și peste 4 săptămâni pentru compresoare complete, în funcție de confirmarea producătorului și de complexitatea configurației. Pentru o ofertă corectă avem nevoie de linia și modelul dorit (JG sau KB), debitul și presiunea de lucru, tipul de gaz comprimat și motorul de antrenare ales. Nu promitem disponibilitate din depozit pentru această gamă — fiecare unitate se configurează pe proiect, iar termenele depind de disponibilitatea producătorului.`,
     limitation: "Nu putem confirma existența unei filiale sau a unei rețele proprii de distribuție Ariel în Europa, informație care nu apare pe site-ul producătorului.",
     productCodes: [
       { code: "JGM", description: "compresor mic, aproximativ 170 CP, turație 1.500 rpm" },
@@ -56,16 +56,16 @@ Pentru România, compresoarele Ariel au sens acolo unde există deja instalații
       { code: "KBH", description: "compresor dedicat mobilității cu hidrogen" },
     ],
     faq: [
-      { q: "Ce produce Ariel Corporation?", a: "Ariel Corporation produce compresoare de gaz cu piston, separabile, pentru extracția, procesarea, transportul și distribuția gazelor naturale. Gama acoperă puteri de la aproximativ 170 de cai putere la liniile mici JG, până la 10.000 de cai putere la liniile mari KB, plus o serie dedicată compresării hidrogenului (KBH)." },
+      { q: "Ce produce Ariel Corporation?", a: "Ariel Corporation produce compresoare de gaz cu piston, separabile, pentru extracția, procesarea, transportul și distribuția gazelor naturale. Gama acoperă puteri de la 85 de cai putere la liniile mici JG, până la 10.000 de cai putere la liniile mari, plus o serie dedicată compresării hidrogenului (KBH)." },
       { q: "Cum aleg un compresor Ariel după cod?", a: "Codul indică linia și dimensiunea: JG pentru puteri mici și medii, KB pentru puteri mari. Trebuie să trimiteți debitul de gaz, presiunea de aspirație și refulare, tipul de gaz și motorul de antrenare disponibil, pentru ca oferta să corespundă exact modelului Ariel potrivit procesului dumneavoastră." },
-      { q: "Se poate procura Ariel Corporation în România sau Europa?", a: "Da, aducem compresoare Ariel la comandă, prin canale de aprovizionare din UE sau import direct din SUA. Producătorul menționează o rețea largă de distribuitori la nivel mondial, dar site-ul oficial nu detaliază o filială europeană; termenul orientativ este de 1–4 săptămâni la comandă, în funcție de configurație." },
-      { q: "Livrați compresoare Ariel în România și cât durează?", a: "Livrarea se face la comandă, nu din stoc, cu un termen orientativ de 1–4 săptămâni, în funcție de linia aleasă și de confirmarea producătorului. Pentru unitățile mari din familia KB, configurate pe proiect, termenul poate varia suplimentar în funcție de motorul de antrenare ales." },
+      { q: "Se poate procura Ariel Corporation în România sau Europa?", a: "Da, aducem compresoare Ariel la comandă, prin canale de aprovizionare din UE sau import direct din SUA. Producătorul menționează o rețea largă de distribuitori la nivel mondial, dar site-ul oficial nu detaliază o filială europeană; termenul se confirmă pe fiecare comandă și, pentru compresoare complete, depășește de regulă 4 săptămâni." },
+      { q: "Livrați compresoare Ariel în România și cât durează?", a: "Livrarea se face la comandă, nu din stoc, cu un termen care depinde de linia aleasă și de confirmarea producătorului; pentru compresoare complete, de regulă peste 4 săptămâni. Pentru unitățile mari din familia KB, configurate pe proiect, termenul poate varia suplimentar în funcție de motorul de antrenare ales." },
       { q: "Ce trebuie să trimit pentru o ofertă de compresor Ariel?", a: "Aveți nevoie să precizați linia dorită (JG sau KB), debitul și presiunea de lucru, compoziția gazului comprimat, temperatura de operare și tipul motorului de antrenare — electric sau cu gaz — pentru ca oferta Ariel primită să corespundă exact aplicației dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Ariel Corporation — Homepage", url: "https://www.arielcorp.com", publisher: "Ariel Corporation", accessed: "2026-09-26" },
       { title: "Compressors — Ariel Corporation", url: "https://www.arielcorp.com/compressors", publisher: "Ariel Corporation", accessed: "2026-09-26" },
@@ -86,19 +86,19 @@ Pentru instalațiile românești din chimie, petrochimie sau tratarea apei, modu
       "Serie STA certificată exida pentru IEC 61508, cu SIL 2 pe canal unic și SIL 3 în arhitecturi redundante",
       "Rezoluție de 20 de biți la alarmele de proces, utilă la aplicații unde precizia de declanșare contează",
       "Gamă largă de convertoare HART (HIX, HIT) pentru probleme de impedanță sau tensiune scăzută pe buclă",
-      "Transmițătoare de temperatură programabile (SPA2) cu intrare universală RTD, termocuplu, milivolți sau ohmi",
+      "Alarme programabile cu declanșare la limite (SPA2), cu intrare universală: curent, tensiune, RTD, termocuplu, milivolți sau rezistență",
     ],
     keyProducts: [
-      { name: "Izolatoare de Semnal SIX / FCT", description: "SIX este un izolator/convertor/repetor two-wire cu impedanță de intrare de 50 ohmi, folosit pentru separarea galvanică a buclelor de 4-20mA fără sursă externă de alimentare pe partea de intrare. FCT este varianta four-wire, configurabilă pe teren, cu intrări și ieșiri universale și alimentare pentru transmițător, potrivită acolo unde bucla existentă are deja sursă proprie de tensiune." },
+      { name: "Izolatoare de Semnal SIX / FCT", description: "SIX este un izolator/convertor/repetor two-wire cu impedanță de intrare de 50 ohmi, folosit pentru separarea galvanică a buclelor de 4-20mA fără sursă externă de alimentare pe partea de intrare. FCT este varianta four-wire (alimentată de la rețea), configurabilă pe teren, cu intrări și ieșiri configurabile, care poate alimenta un transmițător two-wire." },
       { name: "Izolatoare Multicanal MIX / MIT", description: "MIX (two-wire) și MIT (four-wire) sunt module multicanal, cu 2 până la 4 canale de izolare pe o singură carcasă DIN, gândite pentru panouri unde spațiul de montaj e limitat și numărul de bucle de izolat e mare. Reduc numărul de module individuale și simplifică cablarea în dulapurile de automatizare." },
-      { name: "Alarmă de Siguranță STA", description: "STA este o alarmă de proces programabilă, certificată exida pentru IEC 61508, cu intrări RTD, termocuplu, ohmi sau milivolți, trei relee SPDT și opțiune de ieșire analogică izolată. Se folosește ca logic solver simplu în sisteme instrumentate de siguranță, cu SIL 2 pe unitate unică și SIL 3 în arhitecturi redundante 1oo2 sau 2oo3." },
-      { name: "Transmițător Programabil SPA2", description: "SPA2 acceptă intrare de la termocuplu, RTD, milivolți sau ohmi, în multiple game și scheme de conectare, și oferă o ieșire analogică izolată plus indicație locală și alarme programabile. Este util acolo unde un singur modul trebuie să acopere mai multe tipuri de senzor de temperatură fără reconfigurare hardware." },
+      { name: "Alarmă de Siguranță STA", description: "STA este o alarmă de proces programabilă, certificată exida pentru IEC 61508, cu intrări RTD, termocuplu, ohmi sau milivolți, trei relee SPDT și opțiune de ieșire analogică izolată. Se folosește ca alarmă de declanșare (trip alarm) în sisteme instrumentate de siguranță, cu SIL 2 pe unitate unică și SIL 3 în arhitecturi redundante 1oo2 sau 2oo3." },
+      { name: "Alarmă Programabilă SPA2", description: "SPA2 este o alarmă programabilă cu declanșare la limite (limit alarm trip), cu intrare universală (curent, tensiune, RTD, termocuplu, milivolți, rezistență), două sau patru relee de alarmă configurabile și afișaj local. Este utilă acolo unde un singur modul trebuie să acopere mai multe tipuri de semnal fără reconfigurare hardware." },
     ],
     industries: [
       "Petrol și gaze — izolare de semnal și alarme de siguranță la instalații de extracție și rafinare",
       "Chimie și petrochimie — separare galvanică a buclelor de proces în zone cu risc de interferență",
       "Tratarea apei — transmițătoare de temperatură și alarme pentru stații de tratare și pompare",
-      "Centre de date și utilități — monitorizare putere AC și semnale de proces",
+      "Energie electrică — semnale de proces și alarme pentru producerea și transportul energiei electrice",
     ],
     certifications: ["Certificare exida pentru IEC 61508 (funcții de siguranță SIL 2/SIL 3) — seria STA/SSX", "Certificare CE (EMC, LVD) pe instrumentele de proces"],
     infinitrade: `Pentru Moore Industries lucrăm strict cu informațiile publice ale producătorului, fără date proprii de stoc pentru această gamă de instrumentație. Aducem module de izolare, convertoare și transmițătoare de temperatură Moore Industries la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de codul exact al modelului (de exemplu SIX, STA sau SPA2), tipul de semnal de intrare și ieșire, tensiunea de alimentare disponibilă și, dacă e cazul, nivelul SIL cerut de proiect. Nu ținem această gamă pe raft pentru aceste module — fiecare comandă se confirmă înainte de livrare.`,
@@ -114,19 +114,19 @@ Pentru instalațiile românești din chimie, petrochimie sau tratarea apei, modu
       { code: "SIY", description: "izolator two-wire programabil prin PC, intrare digitală/analogică" },
       { code: "MIX", description: "izolator multicanal two-wire, 2-4 canale pe carcasă DIN" },
       { code: "MIT", description: "izolator multicanal four-wire, 2-4 canale pe carcasă DIN" },
-      { code: "SPA2", description: "transmițător programabil cu alarmă, intrare universală de temperatură" },
+      { code: "SPA2", description: "alarmă programabilă cu declanșare la limite, intrare universală, 2 sau 4 relee" },
       { code: "STA", description: "alarmă de siguranță SIL 2/3, certificată exida, trei relee" },
     ],
     faq: [
       { q: "Ce produce Moore Industries?", a: "Moore Industries produce instrumentație de proces — izolatoare de semnal, convertoare, transmițătoare de temperatură și alarme de siguranță — folosite pentru a face compatibile buclele de 4-20mA cu sisteme DCS, PLC sau SCADA. Gama include și module certificate SIL 2/SIL 3 pentru sisteme instrumentate de siguranță." },
       { q: "Cum aleg izolatorul potrivit din gama Moore Industries?", a: "Depinde de configurația buclei: two-wire (SIX, MIX, HIX) dacă bucla are deja sursă de tensiune, four-wire (FCT, MIT, HIT) dacă modulul trebuie să alimenteze el însuși transmițătorul. Pentru siguranță funcțională, alegeți seria SSX sau STA, certificate SIL 2/SIL 3." },
-      { q: "Livrați Moore Industries în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului. Nu ținem această gamă pe raft pentru această gamă, pentru că fiecare proiect cere de regulă o combinație specifică de intrare, ieșire și alimentare." },
+      { q: "Livrați Moore Industries în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea producătorului. Nu ținem această gamă pe raft, pentru că fiecare proiect cere de regulă o combinație specifică de intrare, ieșire și alimentare." },
       { q: "Ce trebuie să trimit pentru o ofertă Moore Industries?", a: "Codul modelului dorit, tipul de semnal de intrare și ieșire (curent, tensiune, RTD, termocuplu), tensiunea de alimentare disponibilă și, dacă proiectul cere funcții de siguranță, nivelul SIL solicitat — astfel oferta corespunde exact configurației dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Moore Industries International — Homepage", url: "https://www.miinet.com/", publisher: "Moore Industries International", accessed: "2026-09-26" },
       { title: "Signal Transmitters, Isolators and Converters Line Card", url: "https://www.miinet.com/images/pdf/line-cards/Signal_Transmission_Isolation_and_Conversion_Solutions_Line_Card_Moore_Industries.pdf", publisher: "Moore Industries International", accessed: "2026-09-26" },
@@ -140,14 +140,14 @@ Pentru instalațiile românești din chimie, petrochimie sau tratarea apei, modu
     headquarters: "San Marcos, Texas, SUA",
     overview: `Thermon este un producător american de sisteme de încălzire industrială (heat tracing), cu sediul în Texas și activitate din 1954, inițial ca furnizor de ciment pentru transfer termic. Astăzi compania fabrică benzi de încălzire electrică auto-reglabile, cabluri cu putere constantă, sisteme de control dedicate și soluții de heat tracing cu abur, folosite pentru menținerea temperaturii conductelor, rezervoarelor și echipamentelor industriale. Pentru piața din România putem oferta cabluri de încălzire electrică și controlere din gama Thermon acolo unde procesul cere protecție la îngheț sau menținerea unei temperaturi constante.
 
-Ce diferențiază Thermon e portofoliul larg de familii de cabluri auto-reglabile — de la BSX și DSX pentru aplicații generale, până la HTSX și KSX pentru temperaturi mai ridicate — completat de sisteme de control dedicate precum platforma Genesis și rețeaua TraceNet, care monitorizează sute de circuite dintr-o singură interfață. Producătorul are, spre deosebire de mulți furnizori regionali de heat tracing, fabrici și birouri proprii în mai multe țări europene — Franța, Germania, Olanda, Marea Britanie și Italia — ceea ce înseamnă acces direct la suport tehnic și piese de schimb pe continent, nu doar prin distribuitori terți.
+Ce diferențiază Thermon e portofoliul larg de familii de cabluri auto-reglabile — de la BSX și DSX pentru aplicații generale, până la HTSX și USX pentru temperaturi de expunere mai ridicate — completat de sisteme de control dedicate precum platforma Genesis și rețeaua TraceNet, care monitorizează sute de circuite dintr-o singură interfață. Producătorul are birouri și unități proprii în mai multe țări europene: Franța, Germania, Olanda, Marea Britanie și Italia.
 
 Pentru instalațiile din România, cablurile Thermon au sens la conducte de proces care nu pot îngheța sau trebuie menținute la o temperatură constantă — de la industria chimică la stațiile de tratare a apei. Alegerea cablului corect depinde de temperatura de mentenanță și de zona de risc (Ex sau nu), informații pe care le cerem înainte de a oferta.`,
     whyChoose: [
       "Familie largă de cabluri auto-reglabile (BSX, DSX, HTSX, KSX, VSX-HT) pentru game diferite de temperatură de expunere",
       "Sisteme de control dedicate (Genesis, TraceNet) pentru monitorizarea centralizată a mai multor circuite de încălzire",
-      "Fabrici și birouri proprii în Franța, Germania, Olanda, Marea Britanie și Italia, nu doar distribuitori regionali",
-      "Certificare ISO 9001 pe toate unitățile de producție și certificare IRIS ISO 22163 pentru calitate feroviară",
+      "Birouri și unități proprii în Franța, Germania, Olanda, Marea Britanie și Italia",
+      "Certificare ISO 9001 pe toate unitățile de producție și certificare IRIS ISO 22163 pentru calitate feroviară la Thermon Inc./THS (SUA)",
       "Gamă de cabluri cu putere constantă (seriile FP, HTEK, TEK) pentru trasee foarte lungi sau temperaturi mari",
     ],
     keyProducts: [
@@ -167,14 +167,14 @@ Pentru instalațiile din România, cablurile Thermon au sens la conducte de proc
     limitation: "Nu putem confirma stocuri locale la filialele europene Thermon, doar disponibilitatea generală a familiilor de cabluri publicate pe site.",
     productCodes: [
       { code: "BSX", description: "cablu auto-reglabil, aplicații generale de menținere a temperaturii" },
-      { code: "DSX", description: "cablu auto-reglabil, rezistență chimică sporită pentru medii agresive" },
+      { code: "DSX", description: "cablu auto-reglabil pentru protecția la îngheț a conductelor industriale de diametru mic și mediu, cu putere nominală de 9 și 18 W/m" },
       { code: "HTSX", description: "cablu auto-reglabil pentru temperaturi de expunere ridicate" },
-      { code: "KSX", description: "cablu auto-reglabil, gamă de putere medie-ridicată" },
-      { code: "USX", description: "cablu auto-reglabil de uz general, versiune compactă" },
+      { code: "KSX", description: "cablu auto-reglabil pentru protecție la îngheț în aplicații cu pierderi mari de căldură sau pentru menținerea temperaturii de proces, fără curățare cu abur" },
+      { code: "USX", description: "cablu auto-reglabil pentru aplicații cu temperaturi de expunere foarte ridicate, până la 240°C în expunere continuă" },
       { code: "VSX-HT", description: "cablu auto-reglabil pentru temperaturi înalte de proces" },
-      { code: "DLX", description: "cablu auto-reglabil, variantă cu manta dublă" },
-      { code: "RSX 15-2", description: "cablu auto-reglabil, putere nominală 15 W/picior" },
-      { code: "FLX", description: "cablu auto-reglabil flexibil pentru trasee complexe" },
+      { code: "DLX", description: "cablu auto-reglabil pentru protecția la îngheț a conductelor comerciale de diametru mic și mediu, cu putere nominală de 10 și 20 W/m" },
+      { code: "RSX 15-2", description: "cablu auto-reglabil pentru aplicații cu densitate de putere mai mare decât cea acoperită de gama standard BSX" },
+      
       { code: "HPT", description: "cablu cu putere limitată (power-limiting) pentru trasee lungi" },
       { code: "FP", description: "cablu paralel cu putere constantă pentru trasee lungi" },
       { code: "HTEK", description: "cablu serie cu putere constantă, temperaturi ridicate" },
@@ -191,8 +191,8 @@ Pentru instalațiile din România, cablurile Thermon au sens la conducte de proc
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us — Thermon", url: "https://www.thermon.com/about-us/", publisher: "Thermon Group Holdings", accessed: "2026-09-26" },
       { title: "Self Regulating Heating Cables — Thermon", url: "https://thermon.com/product-categories/heat-trace/electrical-heat-tracing-cables/self-regulating-heating-cables/", publisher: "Thermon Group Holdings", accessed: "2026-09-26" },
@@ -203,23 +203,23 @@ Pentru instalațiile din România, cablurile Thermon au sens la conducte de proc
     name: "Lubriplate",
     founded: 1870,
     headquarters: "Newark, New Jersey, SUA",
-    overview: `Lubriplate este un producător american de lubrifianți industriali, cu sediul în New Jersey și activitate continuă din 1870, ceea ce îl face unul dintre cei mai vechi producători de unsori și uleiuri industriale din SUA. Gama acoperă uleiuri hidraulice, uleiuri pentru compresoare, uleiuri pentru angrenaje, unsori multifuncționale și produse certificate pentru contact incidental cu alimente (NSF H1). Pentru piața din România putem oferta unsori și uleiuri industriale Lubriplate acolo unde echipamentul cere un lubrifiant certificat sau o vâscozitate specifică, greu de găsit la mărcile locale.
+    overview: `Lubriplate este un producător american de lubrifianți industriali, cu sediul în New Jersey și activitate continuă din 1870, ceea ce îl face unul dintre cei mai vechi producători de unsori și uleiuri industriale din SUA. Gama acoperă uleiuri hidraulice, uleiuri pentru compresoare, uleiuri pentru angrenaje, unsori multifuncționale și produse certificate pentru contact incidental cu alimente (NSF H1). Pentru piața din România putem oferta unsori și uleiuri industriale Lubriplate acolo unde echipamentul cere un lubrifiant certificat sau o vâscozitate specifică.
 
-Ce diferențiază Lubriplate e amploarea gamei certificate NSF H1 — peste 100 de produse pentru contact incidental cu alimente — alături de linii sintetice complete pentru compresoare de aer și de gaz natural (seriile AC și 981/989) și uleiuri hidraulice biodegradabile Bio-Synxtreme, cu vâscozități ISO de la 32 la 150. Compania publică peste 450 de produse individuale, organizate pe familii clare de vâscozitate — de exemplu seria APG, de la ISO 75 la ISO 250 — ceea ce ușurează alegerea unui echivalent atunci când specificația OEM cere un anumit interval de vâscozitate.
+Ce diferențiază Lubriplate e amploarea gamei certificate NSF H1 — peste 100 de produse pentru contact incidental cu alimente — alături de linii pentru compresoare de aer și de gaz natural (seriile AC, 981 și 989) și uleiuri hidraulice biodegradabile Bio-Synxtreme HF, pe bază de poliglicoli sintetici, cu vâscozități ISO 32, 46 și 68. Compania publică peste 450 de produse individuale, organizate pe familii — de exemplu seria APG de uleiuri EP pentru angrenaje, în grade SAE de la 75 la 250 — ceea ce ușurează alegerea unui echivalent atunci când specificația OEM cere un anumit interval de vâscozitate.
 
-Pentru instalațiile din industria alimentară sau din chimie, unsorile și uleiurile Lubriplate certificate NSF H1 au sens acolo unde există risc de contact incidental cu produsul finit. Pentru echipamente auto și industriale generale, gama sintetică oferă alternative la mărcile deja cunoscute, la aceleași clase de vâscozitate ISO.`,
+Pentru instalațiile din industria alimentară sau din chimie, unsorile și uleiurile Lubriplate certificate NSF H1 au sens acolo unde există risc de contact incidental cu produsul finit. `,
     whyChoose: [
       "Peste 150 de ani de activitate continuă în fabricarea de unsori și uleiuri industriale, din 1870",
       "Gamă certificată NSF H1 pentru contact incidental cu alimente, relevantă în industria alimentară și farmaceutică",
-      "Familii de vâscozitate clar organizate (seria APG, ISO 75–250), utile la găsirea unui echivalent tehnic",
-      "Uleiuri hidraulice biodegradabile Bio-Synxtreme, cu vâscozități ISO 32, 46, 68 și 150",
+      "Familii de produse clar organizate (seria APG, grade SAE 75–250), utile la găsirea unui echivalent tehnic",
+      "Uleiuri hidraulice biodegradabile Bio-Synxtreme, cu vâscozități ISO 32, 46 și 68",
       "Certificare ISO 9001 și ISO 21469 pentru gama de produse alimentare certificate NSF H1",
     ],
     keyProducts: [
-      { name: "Seria APG (Uleiuri Sintetice pentru Angrenaje)", description: "Seria APG este o gamă de uleiuri sintetice pe bază de poliglicoli pentru angrenaje industriale, disponibilă în vâscozități ISO de la 75 la 250, plus variante multigrad precum 80W-90 și 80W-140 pentru angrenaje auto și industriale. Se alege în funcție de vâscozitatea cerută de reductor sau de cutia de viteze și de temperatura de lucru a instalației." },
+      { name: "Seria APG (Uleiuri EP pentru Angrenaje)", description: "Seria APG este o gamă de uleiuri EP pentru angrenaje auto și industriale, disponibilă în grade SAE de la 75 la 250, plus variante multigrad precum 80W-90 și 80W-140; APG-75, de exemplu, este un ulei pe bază minerală. Se alege în funcție de vâscozitatea cerută de reductor sau de cutia de viteze și de temperatura de lucru a instalației." },
       { name: "Uleiuri pentru Compresoare (981, 989, AC-0…AC-4)", description: "Gama pentru compresoare acoperă atât compresoare de gaz natural (981 Natural Gas Compressor Lube), cât și compresoare sintetice generale (989 Synthetic Compressor Lube) și o serie completă de uleiuri pentru compresoare de aer, notate AC-0 până la AC-4, în funcție de vâscozitate. Alegerea corectă depinde de tipul de compresor (piston sau șurub) și de gazul comprimat." },
-      { name: "Uleiuri Hidraulice Bio-Synxtreme", description: "Bio-Synxtreme este linia de uleiuri hidraulice biodegradabile Lubriplate, disponibilă în vâscozitățile ISO 32, 46 și 68, plus varianta EGO-150 pe bază de ester sintetic pentru cerințe extreme. Sunt gândite pentru echipamente hidraulice care lucrează în apropierea apei sau a solului, unde o scurgere accidentală ar cere un fluid biodegradabil." },
-      { name: "Unsori Multifuncționale și NSF H1", description: "Gama de unsori include produse multifuncționale pe bază de litiu (176 Gear Grease) și unsori biodegradabile (Biobased EP-2), alături de peste 100 de produse certificate NSF H1 pentru contact incidental cu alimente. Alegerea depinde de aplicație (rulmenți, angrenaje deschise, lanțuri) și de necesitatea certificării alimentare." },
+      { name: "Uleiuri Hidraulice Bio-Synxtreme", description: "Bio-Synxtreme este linia de uleiuri hidraulice biodegradabile Lubriplate, disponibilă în vâscozitățile ISO 32, 46 și 68, pe bază de poliglicoli (PAG) sintetici. Sunt gândite pentru echipamente hidraulice care lucrează în apropierea apei sau a solului, unde o scurgere accidentală ar cere un fluid biodegradabil." },
+      { name: "Unsori Multifuncționale și NSF H1", description: "Gama de unsori include o unsoare semifluidă pentru angrenaje deschise (176 Gear Grease, NLGI 00) și unsori biodegradabile (Biobased EP-2), alături de peste 100 de produse certificate NSF H1 pentru contact incidental cu alimente. Alegerea depinde de aplicație (rulmenți, angrenaje deschise, lanțuri) și de necesitatea certificării alimentare." },
     ],
     industries: [
       "Industria alimentară — unsori și uleiuri certificate NSF H1 pentru contact incidental cu alimentul",
@@ -228,19 +228,19 @@ Pentru instalațiile din industria alimentară sau din chimie, unsorile și ulei
       "Industria compresoarelor — uleiuri dedicate pentru compresoare de aer și de gaz natural",
     ],
     certifications: ["ISO 9001 — sistem de management al calității", "NSF H1 — pentru produsele destinate contactului incidental cu alimente", "ISO 21469 — pentru gama certificată NSF H1"],
-    infinitrade: `Pentru Lubriplate lucrăm cu surse publice ale producătorului, fără date proprii de stoc pentru fiecare din cele peste 450 de produse din gamă. Aducem unsori și uleiuri Lubriplate la comandă, prin canale de aprovizionare din UE sau import direct, cu termen orientativ de 1–4 săptămâni, în funcție de produs și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau de vâscozitatea ISO cerută, tipul de echipament (compresor, angrenaj, sistem hidraulic) și, dacă e cazul, cerința de certificare NSF H1. Nu ținem această gamă pe raft din această gamă — fiecare comandă se confirmă cu disponibilitatea producătorului înainte de livrare.`,
+    infinitrade: `Pentru Lubriplate lucrăm cu surse publice ale producătorului, fără date proprii de stoc pentru fiecare din cele peste 450 de produse din gamă. Aducem unsori și uleiuri Lubriplate la comandă, prin canale de aprovizionare din UE sau import direct, cu termen orientativ de 1–4 săptămâni, în funcție de produs și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de codul exact al produsului sau de vâscozitatea ISO cerută, tipul de echipament (compresor, angrenaj, sistem hidraulic) și, dacă e cazul, cerința de certificare NSF H1. Nu ținem această gamă pe raft — fiecare comandă se confirmă cu disponibilitatea producătorului înainte de livrare.`,
     limitation: "Nu putem confirma echivalențe exacte de vâscozitate cu alte mărci fără specificația tehnică a echipamentului dumneavoastră.",
     productCodes: [
-      { code: "APG-75", description: "ulei sintetic pentru angrenaje, vâscozitate ISO 75" },
-      { code: "APG-90", description: "ulei sintetic pentru angrenaje, vâscozitate ISO 90" },
-      { code: "APG-140", description: "ulei sintetic pentru angrenaje, vâscozitate ISO 140" },
-      { code: "APG-250", description: "ulei sintetic pentru angrenaje, vâscozitate ISO 250" },
-      { code: "APG-80W-90", description: "ulei sintetic pentru angrenaje auto, multigrad 80W-90" },
-      { code: "APG-80W-140", description: "ulei sintetic pentru angrenaje auto, multigrad 80W-140" },
+      { code: "APG-75", description: "ulei EP pentru angrenaje, grad SAE 75" },
+      { code: "APG-90", description: "ulei EP pentru angrenaje, grad SAE 90" },
+      { code: "APG-140", description: "ulei EP pentru angrenaje, grad SAE 140" },
+      { code: "APG-250", description: "ulei EP pentru angrenaje, grad SAE 250" },
+      { code: "APG-80W-90", description: "ulei EP pentru angrenaje auto, multigrad 80W-90" },
+      { code: "APG-80W-140", description: "ulei EP pentru angrenaje auto, multigrad 80W-140" },
       { code: "Bio-Synxtreme HF-32", description: "ulei hidraulic biodegradabil, vâscozitate ISO 32" },
       { code: "Bio-Synxtreme HF-46", description: "ulei hidraulic biodegradabil, vâscozitate ISO 46" },
       { code: "Bio-Synxtreme HF-68", description: "ulei hidraulic biodegradabil, vâscozitate ISO 68" },
-      { code: "Bio-Synxtreme EGO-150", description: "ulei hidraulic pe bază de ester, vâscozitate ISO 150" },
+      { code: "Bio-Synxtreme EGO-150", description: "produs din linia Bio-Synxtreme; tipul și vâscozitatea se confirmă din fișa tehnică a producătorului" },
       { code: "981 Natural Gas Compressor Lube", description: "ulei sintetic pentru compresoare de gaz natural" },
       { code: "989 Synthetic Compressor Lube", description: "ulei sintetic universal pentru compresoare" },
       { code: "AC-0", description: "ulei mineral pentru compresoare de aer, vâscozitate joasă" },
@@ -249,20 +249,20 @@ Pentru instalațiile din industria alimentară sau din chimie, unsorile și ulei
       { code: "AC-2A", description: "variantă a uleiului AC-2 pentru compresoare de aer" },
       { code: "AC-3", description: "ulei pentru compresoare de aer, vâscozitate ridicată" },
       { code: "AC-4", description: "ulei pentru compresoare de aer, vâscozitate superioară în serie" },
-      { code: "176 Gear Grease", description: "unsoare pe bază de litiu pentru angrenaje deschise" },
+      { code: "176 Gear Grease", description: "unsoare semifluidă NLGI 00 pentru angrenaje deschise cu lubrifiere centralizată" },
       { code: "Biobased EP-2", description: "unsoare biodegradabilă, aditivată extremă presiune, NLGI 2" },
       { code: "345 Motor Oil SAE 5W-30", description: "ulei sintetic de motor pentru temperaturi joase" },
     ],
     faq: [
-      { q: "Ce produce Lubriplate?", a: "Lubriplate produce unsori și uleiuri industriale — pentru angrenaje, compresoare, sisteme hidraulice și rulmenți — inclusiv o gamă certificată NSF H1 pentru contact incidental cu alimente. Compania are peste 450 de produse organizate pe familii de vâscozitate, precum seria APG." },
+      { q: "Ce produce Lubriplate?", a: "Lubriplate produce unsori și uleiuri industriale — pentru angrenaje, compresoare, sisteme hidraulice și rulmenți — inclusiv o gamă certificată NSF H1 pentru contact incidental cu alimente. Compania are peste 450 de produse organizate pe familii, precum seria APG." },
       { q: "Cum aleg un ulei sau o unsoare echivalentă Lubriplate?", a: "Plecați de la vâscozitatea ISO sau gradul SAE cerut de echipamentul existent și de tipul de aplicație — angrenaj, compresor sau sistem hidraulic. Dacă produsul intră în contact incidental cu alimente, verificați dacă varianta aleasă are certificare NSF H1." },
       { q: "Se poate procura Lubriplate în România sau Europa?", a: "Da, aducem produse Lubriplate la comandă, prin canale de aprovizionare din UE sau import direct din SUA. Site-ul producătorului nu detaliază o filială europeană, așa că termenul orientativ este de 1–4 săptămâni, în funcție de produs și de confirmarea disponibilității." },
       { q: "Ce trebuie să trimit pentru o ofertă Lubriplate?", a: "Codul exact al produsului, dacă îl cunoașteți, sau vâscozitatea ISO/SAE cerută, tipul de echipament și cantitatea necesară. Dacă e vorba de o aplicație alimentară, menționați și cerința de certificare NSF H1, pentru a primi varianta corectă." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us — Lubriplate", url: "https://www.lubriplate.com/About-Us", publisher: "Lubriplate Lubricants Company", accessed: "2026-09-26" },
       { title: "Products — Lubriplate", url: "https://www.lubriplate.com/Products", publisher: "Lubriplate Lubricants Company", accessed: "2026-09-26" },
@@ -274,11 +274,11 @@ Pentru instalațiile din industria alimentară sau din chimie, unsorile și ulei
     headquarters: "Horsham, Pennsylvania, SUA",
     overview: `CRC Industries este un producător american de sprayuri și soluții chimice tehnice, cu sediul în Pennsylvania și activitate din 1958. Gama acoperă curățare și degresare industrială, lubrifianți penetranți, unsori dielectrice, protecție anticoroziune și produse pentru mentenanța sistemelor electrice și auto, sub mărci precum CRC, Sta-Lube, K&W și Evapo-Rust. Pentru piața din România putem oferta sprayuri tehnice CRC pentru curățare electronice, degresare piese și protecție anticoroziune, folosite curent în mentenanța industrială și auto.
 
-Ce diferențiază CRC e portofoliul foarte larg — peste o sută de produse doar în categoria auto/industrial — organizat pe aplicație precisă: curățare contacte electrice (QD Electronic Cleaner), lubrifiant penetrant de forță (Freeze-Off), unsoare dielectrică pentru conectori sau convertor de rugină pentru piese metalice corodate. Compania deține mai multe mărci consacrate — Sta-Lube pentru uleiuri și unsori, K&W pentru tratamente de sistem, Evapo-Rust pentru îndepărtarea ruginii fără abraziune — ceea ce înseamnă mai multe opțiuni tehnice pentru aceeași problemă de mentenanță.
+Ce diferențiază CRC e portofoliul foarte larg — peste 1.300 de produse, conform producătorului — organizat pe aplicație precisă: curățare contacte electrice (QD Electronic Cleaner), lubrifiant penetrant de forță (Freeze-Off), unsoare dielectrică pentru conectori sau convertor de rugină pentru piese metalice corodate. Compania deține mai multe mărci consacrate — Sta-Lube pentru uleiuri și unsori, K&W pentru tratamente de sistem, Evapo-Rust pentru îndepărtarea ruginii fără abraziune — ceea ce înseamnă mai multe opțiuni tehnice pentru aceeași problemă de mentenanță.
 
-Pentru ateliere de mentenanță și linii de producție din România, sprayurile CRC au sens ca alternativă certificată la produsele improvizate de curățare sau degresare, mai ales acolo unde echipamentul electric sau electronic cere un produs specific, non-conductiv sau non-coroziv. Alegerea corectă depinde de materialul de curățat și de tipul de reziduu de îndepărtat.`,
+Pentru ateliere de mentenanță și linii de producție din România, sprayurile CRC au sens ca alternativă la produsele improvizate de curățare sau degresare, mai ales acolo unde echipamentul electric sau electronic cere un produs specific, non-conductiv sau non-coroziv. Alegerea corectă depinde de materialul de curățat și de tipul de reziduu de îndepărtat.`,
     whyChoose: [
-      "Peste un secol combinat de experiență prin mărcile deținute — CRC, Sta-Lube, K&W și Evapo-Rust — fiecare specializată pe o categorie",
+      "Mai multe mărci deținute — CRC, Sta-Lube, K&W și Evapo-Rust — fiecare specializată pe o categorie",
       "Produse dedicate pentru curățare electronice și contacte electrice, formulate să nu fie conductive sau corozive",
       "Gamă de unsori dielectrice și lubrifianți penetranți pentru mentenanță electrică și mecanică",
       "Certificare ISO 9001:2015 pentru sistemul de management al calității",
@@ -288,7 +288,7 @@ Pentru ateliere de mentenanță și linii de producție din România, sprayurile
       { name: "Curățare Electronice și Contacte (QD Electronic Cleaner, Lectra-Motive)", description: "QD Electronic Cleaner și Lectra-Motive sunt sprayuri formulate pentru curățarea rapidă a componentelor electrice și electronice, fără a lăsa reziduu conductiv, potrivite pentru tablouri electrice, motoare și panouri de control. Se evaporă rapid și sunt gândite să nu deterioreze izolația plasticelor din echipamentele electrice." },
       { name: "Lubrifianți Penetranți (Freeze-Off, Ultra Screwloose)", description: "Freeze-Off este un penetrant de forță pentru șuruburi și piulițe blocate de rugină, folosit în mentenanța mecanică generală, iar Ultra Screwloose acoperă aceeași nevoie cu o formulă dedicată pentru piese foarte încleștate. Ambele reduc timpul de intervenție la demontări dificile fără forțarea mecanică a piesei." },
       { name: "Protecție Anticoroziune (Rust Converter, Zinc-It)", description: "Rust Converter transformă rugina existentă într-un strat stabil, pregătit pentru vopsire, în timp ce Zinc-It este o galvanizare la rece, aplicată prin pulverizare, pentru protecția suprafețelor metalice sudate sau zgâriate. Sunt folosite la reparații de structuri metalice și la mentenanța echipamentelor expuse la intemperii." },
-      { name: "Unsoare Dielectrică și Curățare Frâne (Brakleen)", description: "Unsoarea dielectrică CRC protejează conectorii electrici de umezeală și coroziune, fără să blocheze contactul electric, iar gama Brakleen acoperă curățarea pieselor de frână, inclusiv o variantă fără clor pentru instalații cu restricții de mediu. Sunt printre cele mai cerute produse CRC în mentenanța auto." },
+      { name: "Unsoare Dielectrică și Curățare Frâne (Brakleen)", description: "Unsoarea dielectrică CRC protejează conectorii electrici de umezeală și coroziune, fără să blocheze contactul electric, iar gama Brakleen acoperă curățarea pieselor de frână, inclusiv o variantă fără clor pentru instalații cu restricții de mediu." },
     ],
     industries: [
       "Automotive și mentenanță flote — curățare, degresare și protecție anticoroziune pentru piese și sisteme electrice",
@@ -297,7 +297,7 @@ Pentru ateliere de mentenanță și linii de producție din România, sprayurile
       "Chimie și procesare industrială — degresante și soluții de curățare fără clor pentru instalații cu restricții de mediu",
     ],
     certifications: ["ISO 9001:2015 — sistem de management al calității"],
-    infinitrade: `Pentru CRC lucrăm doar cu informațiile publicate de producător, fără date proprii de stoc pentru fiecare produs din gama foarte largă CRC/Sta-Lube/K&W. Aducem sprayuri și soluții tehnice CRC la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de produs și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de denumirea exactă a produsului sau de aplicația concretă (curățare electronice, degresare, anticoroziune), plus cantitatea și ambalajul dorit. Nu ținem această gamă pe raft din această gamă — comenzile se confirmă cu disponibilitatea reală a produsului înainte de livrare.`,
+    infinitrade: `Pentru CRC lucrăm doar cu informațiile publicate de producător, fără date proprii de stoc pentru fiecare produs din gama foarte largă CRC/Sta-Lube/K&W. Aducem sprayuri și soluții tehnice CRC la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de produs și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de denumirea exactă a produsului sau de aplicația concretă (curățare electronice, degresare, anticoroziune), plus cantitatea și ambalajul dorit. Nu ținem această gamă pe raft — comenzile se confirmă cu disponibilitatea reală a produsului înainte de livrare.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante regionale (de exemplu formule specifice normelor SCAQMD din SUA) pentru livrare în Europa.",
     productCodes: [
       { code: "Brakleen Pro-Series", description: "spray curățare piese de frână, uz profesional" },
@@ -312,7 +312,7 @@ Pentru ateliere de mentenanță și linii de producție din România, sprayurile
       { code: "Bulb & Connector Dielectric Grease", description: "unsoare dielectrică pentru conectori și becuri" },
       { code: "Silaramic Brake System Grease", description: "unsoare siliconică pentru componente de frână" },
       { code: "Mass Air Flow Sensor Cleaner", description: "curățare senzor debit aer pentru motor" },
-      { code: "VisiClear Screen Cleaner", description: "curățare ecrane și afișaje electronice" },
+      { code: "VisiClear Screen Cleaner", description: "produs de curățare din gama CRC; destinația exactă se confirmă din fișa produsului" },
       { code: "Lectra-Motive Electric Parts Cleaner", description: "curățare piese electrice fără reziduu conductiv" },
       { code: "Heavy Duty Silicone Lubricant", description: "lubrifiant siliconic industrial, uz general" },
       { code: "Zinc-It Instant Cold Galvanize", description: "galvanizare la rece prin pulverizare" },
@@ -320,13 +320,13 @@ Pentru ateliere de mentenanță și linii de producție din România, sprayurile
     faq: [
       { q: "Ce produce CRC Industries?", a: "CRC Industries produce sprayuri și soluții chimice tehnice — curățare electronice, lubrifianți penetranți, unsori dielectrice și produse anticoroziune — sub mărci precum CRC, Sta-Lube, K&W și Evapo-Rust, folosite în mentenanța industrială și auto." },
       { q: "Cum aleg produsul CRC potrivit pentru curățarea electronicelor?", a: "Pentru componente electrice și electronice folosiți produse formulate special, precum QD Electronic Cleaner sau Lectra-Motive, care nu lasă reziduu conductiv. Evitați degresanții generici, care pot afecta izolația plasticelor sau lăsa depuneri pe contacte." },
-      { q: "Livrați produse CRC Industries în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de produs. Nu ținem această gamă pe raft din gama CRC, pentru că portofoliul are sute de variante specifice de aplicație." },
+      { q: "Livrați produse CRC Industries în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de produs. Nu ținem această gamă pe raft, pentru că portofoliul are peste 1.300 de produse, cu variante specifice de aplicație." },
       { q: "Ce trebuie să trimit pentru o ofertă CRC?", a: "Denumirea exactă a produsului, dacă o cunoașteți, sau aplicația concretă (curățare, degresare, protecție anticoroziune), plus cantitatea și tipul de ambalaj dorit, pentru ca oferta CRC primită să corespundă exact nevoii dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us — CRC Industries", url: "https://www.crcindustries.com/about-us/", publisher: "CRC Industries, Inc.", accessed: "2026-09-26" },
       { title: "CRC Industries — Homepage", url: "https://www.crcindustries.com/", publisher: "CRC Industries, Inc.", accessed: "2026-09-26" },
@@ -338,21 +338,21 @@ Pentru ateliere de mentenanță și linii de producție din România, sprayurile
     headquarters: "SUA",
     overview: `Instron este un producător american de echipamente de testare a materialelor, cu activitate din 1946, specializat în sisteme pentru testarea la tracțiune, compresiune, oboseală și impact. Gama acoperă forțe de la fracțiuni de newton până la 2.000 kN, folosite pentru verificarea proprietăților mecanice ale metalelor, plasticelor, compozitelor și produselor finite. Pentru piața din România putem oferta sisteme de testare universală și accesorii Instron pentru laboratoare de control al calității și centre de cercetare.
 
-Ce diferențiază Instron e segmentarea clară a gamei pe forță și aplicație: seriile 6800 și 3400 acoperă testarea universală electromecanică până la 300 kN, seria 5980 ajunge la 600 kN, iar liniile industriale hidraulice (600DX, HDX, KPX) merg până la 2.000 kN pentru materiale de rezistență ridicată. Pentru teste dinamice și de oboseală, compania oferă sistemele ElectroPuls, cu variante de la 1 la 20 kN, iar pentru impact, familia CEAST — inclusiv seria 9000 pentru testare la pendul — acoperă un domeniu separat de aplicații.
+Ce diferențiază Instron e segmentarea clară a gamei pe forță și aplicație: seriile 6800 și 3400 acoperă testarea universală electromecanică până la 300 kN, seria 5980 ajunge la 600 kN, iar liniile industriale hidraulice (600DX, HDX, KPX) merg până la 2.000 kN pentru materiale de rezistență ridicată. Pentru teste dinamice și de oboseală, compania oferă sistemele ElectroPuls, cu capacitate de până la 20 kN și 130 Nm, iar pentru impact, familia CEAST — inclusiv seria 9000 pentru testare la pendul — acoperă un domeniu separat de aplicații.
 
 Pentru laboratoarele din România — de la producători de componente auto la fabricanți de materiale plastice — echipamentele Instron au sens acolo unde testarea mecanică trebuie documentată conform standardelor ASTM sau ISO. Alegerea sistemului corect depinde de forța maximă necesară și de tipul de test (static, dinamic sau impact).`,
     whyChoose: [
       "Gamă segmentată pe forță, de la câțiva newtoni la 2.000 kN, acoperind testare universală, dinamică și de impact",
-      "Sisteme ElectroPuls pentru testare dinamică și de oboseală, cu forțe între 1 și 20 kN",
+      "Sisteme ElectroPuls pentru testare dinamică și de oboseală, cu forțe de până la 20 kN",
       "Familia CEAST pentru testare la impact, inclusiv seria 9000 de pendule de impact",
-      "Peste 80 de ani de activitate în domeniul testării materialelor, conform informațiilor producătorului",
-      "Prezență internațională confirmată prin versiuni de site în limbile germană, franceză, italiană, spaniolă și portugheză",
+      "Activitate în domeniul testării materialelor din 1946",
+      "Gamă de sisteme pentru testare statică, dinamică și de impact, conform catalogului producătorului",
     ],
     keyProducts: [
       { name: "Sisteme Universale de Testare Seriile 6800 / 3400", description: "Seriile 6800 și 3400 sunt platforme electromecanice pentru testare universală (tracțiune, compresiune, flexiune), cu forțe de la aproximativ 0,02 N până la 300 kN. Seria 6800 oferă funcții avansate, precum poziționare automată și achiziție de date la 5.000 Hz, în timp ce seria 3400 e gândită pentru control de calitate de rutină, cu operare simplificată." },
       { name: "Sistem Universal Seria 5980", description: "Seria 5980 este o platformă electromecanică de tip stativ, cu capacitate de până la 600 kN, folosită pentru materiale care depășesc forța acoperită de seriile 6800/3400 — de exemplu componente structurale sau semifabricate metalice de dimensiuni mai mari." },
       { name: "Sisteme Industriale Hidraulice 600DX / HDX / KPX", description: "Liniile industriale hidraulice ajung până la 2.000 kN, fiind folosite pentru testarea metalelor, compozitelor și betonului la forțe pe care platformele electromecanice nu le pot atinge. Sunt echipamente destinate laboratoarelor de rezistență a materialelor din construcții și industria grea." },
-      { name: "Sisteme Dinamice ElectroPuls și de Impact CEAST", description: "ElectroPuls acoperă testarea dinamică și de oboseală, cu modele de la E1000 (10 kN, doar axial) până la E20000 (20 kN, axial-torsiune), iar familia CEAST, inclusiv seria 9000 de pendule de impact, testează rezistența materialelor la șoc. Cele două linii completează gama Instron dincolo de testarea statică universală." },
+      { name: "Sisteme Dinamice ElectroPuls și de Impact CEAST", description: "ElectroPuls acoperă testarea dinamică și de oboseală, cu modele de la E1000 (doar axial) până la E20000 (20 kN și 130 Nm, axial-torsiune), iar familia CEAST, inclusiv seria 9000 de pendule de impact, testează rezistența materialelor la șoc. Cele două linii completează gama Instron dincolo de testarea statică universală." },
     ],
     industries: [
       "Automotive — testarea mecanică a componentelor și materialelor folosite în producția de vehicule",
@@ -369,9 +369,9 @@ Pentru laboratoarele din România — de la producători de componente auto la f
       { code: "600DX", description: "sistem industrial hidraulic, forță până la 2.000 kN" },
       { code: "HDX", description: "sistem industrial hidraulic pentru materiale de rezistență mare" },
       { code: "KPX", description: "sistem industrial hidraulic pentru testare la forțe ridicate" },
-      { code: "ElectroPuls E1000", description: "sistem dinamic axial, forță până la 10 kN" },
-      { code: "ElectroPuls E3000", description: "sistem dinamic axial-torsiune, 10 kN și rotație" },
-      { code: "ElectroPuls E10000", description: "sistem dinamic axial-torsiune, 10 kN, rotație extinsă" },
+      { code: "ElectroPuls E1000", description: "sistem dinamic axial, compact, complet electric" },
+      { code: "ElectroPuls E3000", description: "sistem dinamic axial-torsiune, complet electric, rotație ±135° sau ±16 rotații" },
+      { code: "ElectroPuls E10000", description: "sistem dinamic axial-torsiune, complet electric, rotație ±135°" },
       { code: "ElectroPuls E20000", description: "sistem dinamic axial-torsiune, forță până la 20 kN" },
       { code: "CEAST 9000 Series", description: "pendul de impact pentru testarea materialelor plastice" },
       { code: "CEAST 9300 Series", description: "sistem de testare la impact prin cădere (droptower)" },
@@ -385,8 +385,8 @@ Pentru laboratoarele din România — de la producători de componente auto la f
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us — Instron", url: "https://www.instron.com/en-us/about-us", publisher: "Instron", accessed: "2026-09-26" },
       { title: "ElectroPuls Systems — Instron", url: "https://www.instron.com/en/products/testing-systems/dynamic-and-fatigue-systems/electropuls-systems/", publisher: "Instron", accessed: "2026-09-26" },
@@ -398,21 +398,21 @@ Pentru laboratoarele din România — de la producători de componente auto la f
     headquarters: "SUA",
     overview: `Chart Industries este un producător american de echipamente criogenice pentru lanțul de gaze lichefiate, cu sediul în SUA și prezență directă și în Europa prin companii precum Chart Ferox (Cehia) și Cryonorm. Gama acoperă rezervoare criogenice, conducte izolate în vid, schimbătoare de căldură din aluminiu brazat și echipamente de lichefiere pentru azot, oxigen, CO2 și hidrogen. Pentru piața din România putem oferta componente criogenice Chart — rezervoare, conducte VJ și accesorii de transfer — pentru instalații de gaze industriale.
 
-Ce diferențiază Chart e acoperirea completă a lanțului criogenic — de la conductele izolate în vid din familia Python VIP, cu pierderi termice de peste 10 ori mai mici decât o conductă izolată clasic, până la schimbătoarele de căldură din aluminiu brazat (BAHX) folosite la separarea și lichefierea gazelor la scară industrială. Compania are subsidiare europene proprii, precum Chart Ferox în Cehia și Cryonorm, ceea ce înseamnă acces la producție și suport tehnic direct pe continent, nu doar prin distribuitori.
+Ce diferențiază Chart e acoperirea completă a lanțului criogenic — de la conductele izolate în vid din familia Python VIP, cu eficiență termică de peste 10 ori mai bună decât a unei conducte izolate cu spumă, până la schimbătoarele de căldură din aluminiu brazat (BAHX) folosite la separarea și lichefierea gazelor la scară industrială. Compania are subsidiare europene proprii, precum Chart Ferox în Cehia și Cryonorm.
 
 Pentru instalațiile românești de gaze industriale sau proiecte de hidrogen, componentele Chart au sens acolo unde temperatura criogenică sau presiunea de lucru depășesc ce pot susține echipamentele standard izolate termic clasic. Alegerea corectă depinde de gazul transportat, temperatura de lucru și presiunea maximă a instalației.`,
     whyChoose: [
       "Acoperire completă a lanțului criogenic — de la rezervoare și conducte izolate în vid, până la schimbătoare de căldură pentru lichefiere",
-      "Subsidiare europene proprii (Chart Ferox — Cehia, Cryonorm), cu producție și suport tehnic direct pe continent",
+      "Subsidiare europene proprii (Chart Ferox — Cehia, Cryonorm)",
       "Conducte izolate în vid seria Python VIP, cu pierderi termice de peste 10 ori mai mici decât izolația clasică cu spumă",
-      "Schimbătoare de căldură din aluminiu brazat cu tehnologie Core-in-Kettle® pentru aplicații de vaporizare",
+      "Schimbătoare de căldură din aluminiu brazat (BAHX) și tehnologia Core-in-Kettle® pentru procese petrochimice și de gaz natural",
       "Gamă de separatoare de fază și supape criogenice (Herose) pentru instalații de stocare la presiune",
     ],
     keyProducts: [
       { name: "Conducte Izolate în Vid Python VIP", description: "Python VIP este familia de conducte izolate în vid pentru transferul de fluide criogenice, cu temperaturi de lucru de până la -320°F (-195,6°C) și presiuni de până la 500 psi (34,5 bar). Producătorul o recomandă pentru instalații petrochimice, alimentare cu CO2 lichid și aplicații unde pierderea termică trebuie minimizată pe distanțe lungi." },
       { name: "Sisteme de Retragere Lichid VJ Liquid Withdrawal", description: "VJ Liquid Withdrawal este soluția Chart pentru transferul lichidului criogenic de calitate, la presiune joasă, direct din rezervoare în vrac sau din sisteme MicroBulk. Se completează cu furtunuri flexibile VIP C-Flex și conexiuni tip bayonet (VIP Bayonet), pentru puncte de transfer temporare sau mobile." },
-      { name: "Separatoare de Fază și Supape Criogenice", description: "Separatoarele de fază Chart sunt vase din inox, izolate în vid, pentru stocarea la presiune atmosferică a azotului lichid, iar APPS 160 este varianta ajustabilă pentru rezervoare de mare presiune. Supapele criogenice tip glob din gama Herose completează instalația pentru controlul debitului la temperaturi extrem de joase." },
-      { name: "Schimbătoare de Căldură din Aluminiu Brazat (BAHX)", description: "Schimbătoarele BAHX sunt esențiale pentru separarea criogenică, lichefierea și purificarea gazelor industriale, cu tehnologia patentată Core-in-Kettle® pentru aplicații de vaporizare, care combină funcția de schimbător și vaporizator într-un singur echipament. Sunt folosite la scară industrială, în instalații de procesare a gazelor." },
+      { name: "Separatoare de Fază și Supape Criogenice", description: "Separatoarele de fază Chart sunt vase din inox, izolate în vid, pentru stocarea la presiune atmosferică a azotului lichid. Supapele criogenice tip glob din gama Herose completează instalația pentru controlul debitului la temperaturi extrem de joase." },
+      { name: "Schimbătoare de Căldură din Aluminiu Brazat (BAHX)", description: "Schimbătoarele BAHX sunt esențiale pentru separarea criogenică, lichefierea și purificarea gazelor industriale, cu tehnologia patentată Core-in-Kettle®, în care un vas exterior găzduiește unul sau mai multe schimbătoare cu plăci și aripioare, pentru procese petrochimice și de gaz natural. Sunt folosite la scară industrială, în instalații de procesare a gazelor." },
     ],
     industries: [
       "Energie și gaze industriale — echipamente pentru lichefierea și stocarea azotului, oxigenului și hidrogenului",
@@ -430,20 +430,20 @@ Pentru instalațiile românești de gaze industriale sau proiecte de hidrogen, c
       { code: "VIP Bayonet", description: "conexiune mecanică rapidă pentru conducte izolate" },
       { code: "VIP Valves Herose", description: "supapă criogenică tip glob pentru instalații de stocare" },
       { code: "Phase Separator", description: "vas inox izolat în vid pentru azot lichid la presiune atmosferică" },
-      { code: "APPS 160", description: "separator de fază ajustabil pentru rezervoare de mare presiune" },
+      { code: "APPS 160", description: "model de separator de fază; parametrii se confirmă din documentația producătorului" },
       { code: "BAHX", description: "schimbător de căldură din aluminiu brazat pentru lichefiere" },
-      { code: "Core-in-Kettle", description: "tehnologie patentată de schimbător-vaporizator combinat" },
+      { code: "Core-in-Kettle", description: "tehnologie patentată: schimbătoare cu plăci și aripioare într-un vas exterior, pentru procese petrochimice și de gaz natural" },
     ],
     faq: [
       { q: "Ce produce Chart Industries?", a: "Chart Industries produce echipamente pentru lanțul criogenic — conducte izolate în vid, separatoare de fază, supape criogenice și schimbătoare de căldură din aluminiu brazat — folosite la stocarea, transferul și lichefierea gazelor industriale precum azotul, oxigenul sau hidrogenul." },
-      { q: "Are Chart Industries prezență în Europa?", a: "Da, Chart are subsidiare proprii în Europa, precum Chart Ferox în Cehia și Cryonorm, cu producție și suport tehnic direct pe continent. Pentru România aducem componente Chart la comandă, prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni." },
+      { q: "Are Chart Industries prezență în Europa?", a: "Da, Chart are subsidiare proprii în Europa, precum Chart Ferox în Cehia și Cryonorm. Pentru România aducem componente Chart la comandă, prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni." },
       { q: "Cum aleg conducta izolată în vid potrivită din gama Chart?", a: "Depinde de gazul transportat, temperatura de lucru și presiunea maximă a instalației: familia Python VIP acoperă majoritatea aplicațiilor petrochimice și de CO2 lichid, iar variantele Engineer to Order se proiectează pentru cerințe speciale." },
       { q: "Ce trebuie să trimit pentru o ofertă de componente Chart?", a: "Gazul transportat, temperatura și presiunea de lucru, lungimea traseului sau volumul rezervorului și tipul de conexiune necesar, pentru ca oferta Chart primită să corespundă exact instalației dumneavoastră." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-09-26",
-    changelog: [{ date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Chart Industries — Homepage", url: "https://www.chartindustries.com/", publisher: "Chart Industries, Inc.", accessed: "2026-09-26" },
       { title: "Vacuum Insulated Pipe — Chart Industries", url: "https://www.chartindustries.com/Products/Vacuum-Insulated-Pipe", publisher: "Chart Industries, Inc.", accessed: "2026-09-26" },

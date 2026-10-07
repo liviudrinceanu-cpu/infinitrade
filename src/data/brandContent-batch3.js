@@ -3,35 +3,35 @@ export const brandContentBatch3 = {
     founded: 1795,
     headquarters: 'Lohr am Main, Germania',
     employees: '31,000+',
-    overview: `Bosch Rexroth este un producător important în hidraulica industrială. Compania Rexroth a fost fondată în 1795, iar în 2001 a fuzionat cu Bosch. Producătorul combină experiența îndelungată în mecanică cu tehnologia modernă Industry 4.0, iar sistemele hidraulice inteligente Rexroth sunt integrate frecvent în linii de producție automatizate.
+    overview: `Bosch Rexroth este un producător important în hidraulica industrială. Rădăcinile companiei Rexroth merg până în 1795, iar în 2001 Mannesmann Rexroth s-a unit cu Bosch Automationstechnik, rezultând Bosch Rexroth. Producătorul combină experiența îndelungată în mecanică cu tehnologia modernă Industry 4.0, iar sistemele hidraulice inteligente Rexroth sunt integrate frecvent în linii de producție automatizate.
 
 Gama de produse e vastă: pompe hidraulice, motoare, cilindri, supape, centrale hidraulice complete, sisteme de mișcare liniară. Multe sunt integrate cu senzori IoT care permit monitorizare în timp real și mentenanță predictivă - sisteme hidraulice Rexroth conectate la cloud pot afișa presiunea, temperatura și uzura fiecărei componente de pe telefon sau computer, conform producătorului.
 
-Investiția inițială într-un sistem Bosch Rexroth este de regulă mai mare decât la alternative mai ieftine, dar costurile totale (mentenanță, timp de nefuncționare, consum energetic) se pot amortiza în timp, conform documentației producătorului. Suportul tehnic Bosch Rexroth în România este disponibil pentru diagnosticare la fața locului.
+ 
 
 Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Furnizăm componente pentru utilaje de construcții, agricole, forestiere — de la excavatoare până la combine. Sistemele Rexroth sunt optimizate pentru eficiență energetică și control precis, esențiale în aplicații unde consumul de combustibil contează.`,
     whyChoose: [
       'Experiență de peste 220 ani în tehnologie hidraulică și mecanică de precizie',
-      'Integrare Industry 4.0 cu IoT și mentenanță predictivă pentru întreaga gamă',
-      'Suport tehnic local în România cu ingineri certificați pentru diagnosticare și mentenanță',
-      'Eficiență energetică ridicată în comparație cu sistemele hidraulice clasice'
+      'Soluții conectate pentru Industry 4.0 (de exemplu CytroPac, CytroBox, ctrlX AUTOMATION), conform paginilor oficiale',
+      'Documentație tehnică publică pentru fiecare cod de produs',
+      'Soluții cu turație variabilă (de exemplu Sytronix) pentru reducerea consumului de energie, conform producătorului'
     ],
     keyProducts: [
       {
         name: 'Pompe și Motoare Hidraulice',
-        description: 'Pompe cu pistoane axiale și radiale, motoare hidraulice pentru aplicații fixe și mobile. Eficiență volumetrică peste 95%, presiuni până la 450 bar. Le aducem la comandă prin canalele noastre de aprovizionare din UE, cu termen confirmat înainte de comandă.'
+        description: 'Pompe cu pistoane axiale și radiale, motoare hidraulice pentru aplicații fixe și mobile. Eficiența volumetrică și presiunile maxime depind de serie și se confirmă din fișa tehnică a codului. Le aducem la comandă prin canalele noastre de aprovizionare din UE, cu termen confirmat înainte de comandă.'
       },
       {
         name: 'Cilindri Hidraulici Industriali',
-        description: 'Cilindri cu tijă, telescopici, cu dublă tijă pentru orice aplicație industrială. Curse până la 12 metri, forțe până la 500 tone. Oferim consultanță tehnică pentru dimensionare corectă și instalare.'
+        description: 'Cilindri cu tijă, telescopici, cu dublă tijă pentru orice aplicație industrială. Cursa și forța maximă depind de modelul de cilindru și se confirmă din documentația producătorului.'
       },
       {
         name: 'Supape și Distribuție Hidraulică',
-        description: 'Supape proporționale, servo-supape, distribuitori, valve de control presiune și debit. Timpul de răspuns sub 20ms pentru controale precise. Integrare cu PLC Siemens, Rockwell, Schneider.'
+        description: 'Supape proporționale, servo-supape, distribuitori, valve de control presiune și debit. Timpul de răspuns și interfețele de control depind de seria de supape și se confirmă din fișa tehnică a codului.'
       },
       {
         name: 'Sisteme de Mișcare Liniară',
-        description: 'Ghidaje liniare cu bile, șuruburi cu bile, actuatoare electro-mecanice. Precizie repetabilitate ±0.01mm, viteze până la 5 m/s. Potrivite pentru mașini-unelte CNC și linii de asamblare automatizate.'
+        description: 'Ghidaje liniare cu bile, șuruburi cu bile, actuatoare electro-mecanice. Precizia de repetabilitate și viteza maximă depind de seria aleasă și se confirmă din fișa tehnică. Potrivite pentru mașini-unelte CNC și linii de asamblare automatizate.'
       }
     ],
     certifications: [
@@ -50,7 +50,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       'Metalurgie și Siderurgie',
       'Mașini-Unelte CNC'
     ],
-    infinitrade: `La Infinitrade nu avem date proprii despre stocurile Bosch Rexroth din fabrică, așa că lucrăm cu ce putem confirma din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Componentele hidraulice din gamele uzuale — pompe, distribuitoare, cilindri standard — pot ajunge din stoc în 24–72 h, ca formulare generală, fără să promitem un anumit produs în stoc; echipamentele speciale sau seriile personalizate se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul de produs sau desenul tehnic, cantitatea și aplicația unde va fi montat echipamentul. Trimite-ne aceste detalii și revenim cu disponibilitate reală și termen confirmat.`,
+    infinitrade: `La InfiniTrade nu avem date proprii despre stocurile Bosch Rexroth din fabrică, așa că lucrăm cu ce putem confirma din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană. Componentele hidraulice din gamele uzuale — pompe, distribuitoare, cilindri standard — pot ajunge din stoc în 24–72 h, ca formulare generală, fără să promitem un anumit produs în stoc; echipamentele speciale sau seriile personalizate se aduc la comandă în 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul de produs sau desenul tehnic, cantitatea și aplicația unde va fi montat echipamentul. Transmiteți-ne aceste detalii și revenim cu disponibilitate reală și termen confirmat.`,
     limitation: 'Nu putem confirma service în perioada de garanție a producătorului și nici configurarea software a sistemelor electro-hidraulice mai complexe din gama Bosch Rexroth.',
     sources: [
       {"title":"Industrial Hydraulics – Product Overview","url":"https://www.boschrexroth.com/en/cz/products/industrial-solutions/industrial-hydraulics/","publisher":"Bosch Rexroth","accessed":"2026-09-22"},
@@ -159,8 +159,8 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -168,16 +168,16 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
   'festo': {
     founded: 1925,
     headquarters: 'Esslingen am Neckar, Germania',
-    employees: '21,000+',
+    employees: 'aproximativ 20.600',
     overview: `Festo este un producător de componente pneumatice și un inovator în automatizarea industrială. Fondată în 1925, compania germană este unul dintre producătorii importanți la nivel global în pneumatică și automatizare electrică. Abordarea Festo este holistică: pe lângă componentă (cilindru, supapă, gripper), producătorul oferă documentație tehnică, software de proiectare, training și suport.
 
-Fiecare cilindru, supapă sau gripper vine, conform producătorului, cu documentație tehnică detaliată, fișe CAD 3D pentru integrare în proiect și configuratoare online pentru simularea sistemului înainte de achiziție. Festo Didactic este programul de training în automatizare al producătorului, recunoscut în industrie.
+Fiecare cilindru, supapă sau gripper vine, conform producătorului, cu documentație tehnică detaliată, fișe CAD 3D pentru integrare în proiect și configuratoare online pentru simularea sistemului înainte de achiziție. Festo Didactic este divizia producătorului dedicată formării tehnice în automatizare.
 
-Inovația este parte din strategia Festo - departamentul "Bionic Learning Network" dezvoltă roboți inspirați din natură (pești robotici, meduze zburătoare, fluturi ultraușori), iar tehnologia din aceste experimente ajunge uneori în produsele industriale. De exemplu, gripperele adaptive bazate pe principiile Festo BionicSoftHand sunt concepute să manipuleze delicat obiecte fragile, precum ouă sau sticle, fără să le deterioreze.
+Inovația este parte din strategia Festo - departamentul "Bionic Learning Network" dezvoltă roboți inspirați din natură (pești robotici, meduze zburătoare, fluturi ultraușori), iar tehnologia din aceste experimente ajunge uneori în produsele industriale.
 
-Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de la miniaturale 6mm până la curse de 2000mm), supape (clasice, proporționale, servo-pneumatice), unități de pregătire aer, grippere pentru robotică, actuatoare electrice, servomotoare, controllere CPX-E și CPA. Tot ce ai nevoie pentru o linie de producție automatizată modernă.`,
+Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de la cilindri rotunzi miniaturali cu alezaj de 8 mm, seria DSNU, până la curse de 2800 mm la seria DSBC), supape (clasice, proporționale, servo-pneumatice), unități de pregătire aer, grippere pentru robotică, actuatoare electrice, servomotoare, terminale electrice modulare CPX-E și terminale de vane CPA.`,
     whyChoose: [
-      'Gamă largă în pneumatică, cu peste 30.000 de variante de cilindri și supape catalogate',
+      'Gamă largă de automatizare, cu aproximativ 36.000 de produse de catalog, conform producătorului',
       'Integrare sisteme pneumatice și electrice pentru automatizare completă',
       'Program de training Festo Didactic pentru formarea inginerilor în automatizare',
       'Configuratoare online și software de proiectare FluidSim pentru simulare sisteme complete'
@@ -185,28 +185,28 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     keyProducts: [
       {
         name: 'Cilindri Pneumatici DSBC, DNCE, ADN',
-        description: 'Cilindri compacți cu magnet, curse 10-2000mm, presiuni 1-10 bar. Montaje multiple (ISO 15552), senzori integrați, amortizare reglabilă. Seriile standard DSBC și DNCE pot fi aduse la comandă prin canalele noastre de aprovizionare din UE.'
+        description: 'Cilindri standardizați DSBC după ISO 15552 și cilindri compacți ADN după ISO 21287, cu amortizare reglabilă sau elastică, în funcție de variantă. De exemplu, DSBC are curse de la 1 la 2800 mm și presiune de lucru de 0,05-10 bar, iar ADN lucrează la 0,6-10 bar. Seriile standard DSBC și DNCE pot fi aduse la comandă prin canalele noastre de aprovizionare din UE.'
       },
       {
         name: 'Supape și Terminale CPV, MPA, VUVG',
-        description: 'Supape bistabile economice, proporționale pentru control debit/presiune, terminale cu IO-Link și diagnosticare. Configurare online și comandă directă din FluidSim. Pot reduce consumul de aer față de supapele clasice, conform producătorului.'
+        description: 'Supape bistabile economice, proporționale pentru control debit/presiune, terminale cu IO-Link și diagnosticare. Configurare online a produselor din catalogul producătorului. Pot reduce consumul de aer față de supapele clasice, conform producătorului.'
       },
       {
         name: 'Grippere și Actuatoare Electrice EGSL, ELGA, EMMT',
-        description: 'Grippere pneumatice paralele și angulare, actuatoare electrice cu șurub cu bile, servomotoare integrate. Controler de mișcare step/servo CMMT-AS. Soluții complete pentru robotică colaborativă și Pick&Place.'
+        description: 'Grippere pneumatice paralele și angulare, actuatoare electrice cu șurub cu bile, servomotoare integrate. Servovariator CMMT-AS pentru servomotoare EMMT-AS (varianta CMMT-ST este pentru motoare pas cu pas). Soluții complete pentru robotică colaborativă și Pick&Place.'
       },
       {
         name: 'Sisteme de Pregătire Aer MS, LF, VPPM',
-        description: 'Filtre, reductoare presiune, lubrifiere, uscătoare membrane. Debitare proporțională cu senzori de debit și presiune integrați. Monitorizare stare filtru și alertă la schimb, pentru reducerea riscului de opriri neplanificate.'
+        description: 'Filtre, reductoare presiune, lubrifiere, uscătoare membrane. Funcțiile de monitorizare și regulatoarele proporționale diferă de la o serie la alta; le confirmăm din fișa tehnică a codului exact.'
       }
     ],
     certifications: [
       'ISO 9001:2015 - Certificat pentru toate facilitățile de producție',
       'ISO 14001:2015 - Management de Mediu',
-      'ISO 50001 - Management Energetic',
+      
       'ATEX - Componente pentru zone explozive Categoria 1, 2, 3',
-      'FDA - Aprobare industrie alimentară și farmaceutică',
-      'Achilles - Calificare furnizor industrie Oil & Gas'
+      
+      
     ],
     industries: [
       'Automotive și Presă Tablă',
@@ -218,7 +218,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       'Chimie și Petrochimie',
       'Water & Wastewater Treatment'
     ],
-    infinitrade: `Pentru Festo nu deținem un stoc propriu care să acopere toate variantele din catalog, așa că spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Ne aprovizionăm prin canale din Uniunea Europeană; ca formulare generală a firmei, componentele din gamele curente pot ajunge din stoc în 24–72 h, fără promisiunea unui produs anume în stoc, iar configurațiile speciale sau seturile complete de automatizare vin la comandă în 1–4 săptămâni. Ca să răspundem corect avem nevoie de codul complet al produsului, cantitatea și, dacă e cazul, aplicația unde va fi montat. Scrie-ne codul Festo sau desenul tehnic și revenim cu un termen real.`,
+    infinitrade: `Pentru Festo nu deținem un stoc propriu care să acopere toate variantele din catalog, așa că spunem clar ce putem și ce nu putem confirma înainte de a pregăti o ofertă. Ne aprovizionăm prin canale din Uniunea Europeană; ca formulare generală a firmei, componentele din gamele curente pot ajunge din stoc în 24–72 h, fără promisiunea unui produs anume în stoc, iar configurațiile speciale sau seturile complete de automatizare vin la comandă în 1–4 săptămâni. Ca să răspundem corect avem nevoie de codul complet al produsului, cantitatea și, dacă e cazul, aplicația unde va fi montat. Transmiteți-ne codul Festo sau desenul tehnic și revenim cu un termen real.`,
     limitation: 'Nu putem confirma stocul permanent pentru toate variantele de cilindri și supape Festo, nici parametrizarea software a controllerelor CPX-E pentru fiecare aplicație în parte.',
     sources: [
       {"title":"Festo Product overview 2025/26","url":"https://media.festo.com/media/4228_documentation.pdf","publisher":"Festo","accessed":"2026-09-22"},
@@ -236,7 +236,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "ESNU",
-        "description": "Cilindru rotund cu amortizare elastică"
+        "description": "Cilindru rotund cu simplu efect, după ISO 6432"
       },
       {
         "code": "DSBC",
@@ -244,7 +244,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "DSBF",
-        "description": "Cilindru standard cu tija dublă"
+        "description": "Cilindru standardizat în varianta Clean Design (protecție anticorozivă sporită, ușor de curățat)"
       },
       {
         "code": "DSBG",
@@ -252,11 +252,11 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "DSNA",
-        "description": "Cilindru rotund cu amortizare pneumatică"
+        "description": "Cilindru standardizat cu filet NPT, conform NFPA"
       },
       {
         "code": "DSNB",
-        "description": "Cilindru rotund, varianta de bază"
+        "description": "Cilindru standardizat cu filet NPT, conform NFPA, cu lagăr lung al tijei din material compozit"
       },
       {
         "code": "ADN",
@@ -264,11 +264,11 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "ADN-S",
-        "description": "Cilindru compact, varianta scurta"
+        "description": "Cilindru compact, varianta scurtă"
       },
       {
         "code": "AEN",
-        "description": "Cilindru compact cu tija filetată"
+        "description": "Cilindru compact cu necesar redus de spațiu de montaj față de cilindrii ISO"
       },
       {
         "code": "AEN-S",
@@ -276,19 +276,19 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "ADN-EL",
-        "description": "Cilindru compact cu senzor electronic de poziție"
+        "description": "Cilindru compact cu blocare în poziție finală, în față sau în spate"
       },
       {
         "code": "CDC",
-        "description": "Cilindru compact cu profil de ghidare"
+        "description": "Cilindru compact în varianta Clean Design (protecție anticorozivă sporită, ușor de curățat)"
       },
       {
         "code": "DZF",
-        "description": "Cilindru plat cu tija dublă"
+        "description": "Cilindru plat cu piston profilat, protejat la rotire"
       },
       {
         "code": "DZH",
-        "description": "Cilindru plat cu tija dublă, varianta rezistentă"
+        "description": "Cilindru plat cu piston profilat, protejat la rotire, potrivit pentru montaj în bloc"
       },
       {
         "code": "EZH",
@@ -300,7 +300,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "code": "DSM",
-        "description": "Actuator rotativ cu pinion și cremalieră"
+        "description": "Actuator rotativ cu paletă (semi-rotativ, dublu efect)"
       },
       {
         "code": "DRRS",
@@ -330,7 +330,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     faq: [
       {
         "q": "Cum citesc codul unui cilindru Festo, de exemplu DSBC?",
-        "a": "Prima literă arată familia constructivă: D pentru cilindru standard cu tijă, iar restul literelor indică varianta, de exemplu SBC pentru seria metrică după ISO 15552. Sufixele suplimentare, precum -S sau -EL, marchează o variantă compactă sau cu senzor electronic încorporat. Confirmarea completă a diametrului și cursei se face din fișa tehnică Festo corespunzătoare codului exact."
+        "a": "DSBC este un cilindru standardizat după ISO 15552. Semnificația literelor și a sufixelor (de exemplu -S sau -EL) o confirmăm din documentația Festo pentru codul exact; ADN-EL, de pildă, este un cilindru compact cu blocare în poziție finală. Confirmarea completă a diametrului și cursei se face din fișa tehnică Festo corespunzătoare codului exact."
       },
       {
         "q": "Livrează Festo componente pneumatice în România la comandă?",
@@ -350,8 +350,8 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -360,23 +360,23 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
     founded: 1907,
     headquarters: 'Göteborg, Suedia',
     employees: '40,000+',
-    overview: `SKF înseamnă rulmenți de încredere de peste 115 ani. Compania suedeză fondată în 1907 la Göteborg este unul dintre cei mai mari producători de rulmenți cu bile și role la nivel global — peste 1 miliard de rulmenți fabricați anual. Dar SKF a evoluat mult dincolo de rulmenți simpli. Astăzi vorbim de soluții complete de mentenanță predictivă, sisteme de lubrifiere automată, etanșări de înaltă performanță, case de rulmenți, sisteme de aliniere arbori.
+    overview: `SKF înseamnă rulmenți de încredere de peste 115 ani. Compania suedeză fondată în 1907 la Göteborg este unul dintre cei mai mari producători de rulmenți cu bile și role la nivel global — cu fabrici pe mai multe continente. Dar SKF a evoluat mult dincolo de rulmenți simpli. Astăzi vorbim de soluții complete de mentenanță predictivă, sisteme de lubrifiere automată, etanșări de înaltă performanță, case de rulmenți, sisteme de aliniere arbori.
 
 Un punct forte al SKF este digitalizarea mentenanței: un rulment defect la un ventilator industrial poate opri întreaga instalație, iar o oprire neplanificată are un cost operațional ridicat. Un senzor de vibrații din gama SKF IMx poate semnala din timp degradarea unui rulment, ceea ce permite planificarea înlocuirii în cadrul unei revizii programate, în loc de o intervenție de urgență.
 
-Rulmenții SKF se folosesc frecvent în energie (turbine eoliene, hidrocentrale), minerit (concasoare, benzi transportoare), ciment (mori, ventilatoare), siderurgie (laminoare, macarale). Diferența față de alternativele mai ieftine se vede în MTBF (Mean Time Between Failures) — un rulment de calitate superioară costă mai mult inițial, dar poate funcționa ani buni în condiții extreme de praf și umiditate, conform documentației producătorului.
+Rulmenții SKF se folosesc frecvent în energie (turbine eoliene, hidrocentrale), minerit (concasoare, benzi transportoare), ciment (mori, ventilatoare), siderurgie (laminoare, macarale). Durata de viață a unui rulment depinde de aplicație, sarcină, ungere și mediu; calculul duratei (L10) se face pe baza documentației producătorului.
 
-Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii), rulmenți cu role (cilindrice, conice, sferice), rulmenți cu ace, rulmenți oscilanti, super-precision bearings pentru mașini-unelte, case de rulmenți SNL și SAF, etanșări mecanice CR și CARB, sisteme lubrifiere Lincoln, sisteme monitorizare IMx și Enlight.`,
+Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii), rulmenți cu role (cilindrice, conice, sferice), rulmenți cu ace, rulmenți oscilanți, rulmenți de super-precizie pentru mașini-unelte, case de rulmenți SNL și SAF, etanșări radiale CR, rulmenți toroidali CARB, sisteme lubrifiere Lincoln, sisteme monitorizare IMx și Enlight.`,
     whyChoose: [
       'Producător cu experiență de 115 ani în rulmenți și peste 40.000 de angajați la nivel global',
-      'Durabilitate superioară — MTBF de 2-3 ori mai mare față de competitori',
+      'Durabilitate — durata de viață depinde de aplicație și se calculează pe baza documentației producătorului',
       'Soluții mentenanță predictivă cu senzori IMx și platformă cloud Enlight',
       'Gamă largă de rulmenți disponibilă prin canalele noastre de aprovizionare din UE'
     ],
     keyProducts: [
       {
         name: 'Rulmenți Radiali și Axiali cu Bile',
-        description: 'Serie 6000-6400 cu bile adânci, butuc cu distanță, contact unghiular. Presiuni statice până la 4,000 MPa, viteze până la 20,000 rpm. Grade de precizie P0, P6, P5, P4 pentru aplicații standard și precision machining. Pentru comenzi urgente verificăm disponibilitatea reală înainte de a confirma termenul.'
+        description: 'Serie 6000-6400 cu bile adânci, contact unghiular. Capacitățile de încărcare și turațiile limită diferă pe dimensiune și se confirmă din fișa producătorului. Grade de precizie P0, P6, P5, P4 pentru aplicații standard și precision machining. Pentru comenzi urgente verificăm disponibilitatea reală înainte de a confirma termenul.'
       },
       {
         name: 'Rulmenți cu Role Conice și Sferice',
@@ -384,11 +384,11 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       },
       {
         name: 'Case de Rulmenți și Sisteme de Etanșare',
-        description: 'Case SNL (split), SAF (flanșă), case SY (Y-bearing) pentru arbori 25-500mm. Etanșări mecanice CR pentru pompe, CARB pentru aplicații heavy-duty. Protecție completă împotriva prafului, apă, contaminanți — essențial în medii industriale dificile.'
+        description: 'Case SNL, SAF și SY; tipul constructiv și diametrele de arbore admise se confirmă pe cod, din documentația SKF. Etanșări radiale CR pentru arbori rotitori; CARB este un rulment toroidal cu role, nu o etanșare. Protecția împotriva prafului, apei și contaminanților depinde de seria aleasă și se confirmă din documentația SKF.'
       },
       {
         name: 'Sisteme Monitorizare și Lubrifiere Automată',
-        description: 'Senzori vibrații wireless IMx-1, IMx-8, platformă cloud SKF Enlight pentru mentenanță predictivă. Sisteme lubrifiere centralizată Lincoln cu controlere PLC. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor, conform producătorului. Instalare și training incluse.'
+        description: 'Senzori vibrații wireless IMx-1, IMx-8, platformă cloud SKF Enlight pentru mentenanță predictivă. Sisteme lubrifiere centralizată Lincoln cu controlere PLC. Poate reduce costurile de mentenanță și crește uptime-ul echipamentelor, conform producătorului. Instalarea și trainingul nu sunt incluse în oferta noastră; pot fi confirmate separat cu producătorul.'
       }
     ],
     certifications: [
@@ -396,7 +396,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       'ISO 14001:2015 - Management de Mediu',
       'ISO 45001:2018 - Sănătate și Securitate',
       'IATF 16949 - Industrie Automotive',
-      'ISO/TS 16949 - Sisteme de Calitate Automotive',
+      
       'API Q1 - Oil & Gas',
       'AS9100 - Industrie Aerospațială'
     ],
@@ -410,7 +410,7 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       'Industrie Naval Marine',
       'Automotive și Mașini-Unelte'
     ],
-    infinitrade: `Pentru rulmenții și sistemele SKF nu avem date proprii de stoc în timp real, deci lucrăm cu informațiile publice disponibile de la producător și cu partenerii noștri de aprovizionare din Uniunea Europeană. Ca formulare generală a firmei, rulmenții din seriile uzuale pot fi aduși din stoc în 24–72 h, fără să garantăm un anumit reper în stoc, iar dimensiunile speciale, casele de rulmenți sau sistemele de monitorizare vin la comandă în 1–4 săptămâni. Pentru un răspuns util avem nevoie de codul complet al rulmentului, cantitatea și, dacă se poate, aplicația — turație, sarcină, mediu de lucru. Trimite-ne aceste detalii și revenim cu un termen verificat.`,
+    infinitrade: `Pentru rulmenții și sistemele SKF nu avem date proprii de stoc în timp real, deci lucrăm cu informațiile publice disponibile de la producător și cu partenerii noștri de aprovizionare din Uniunea Europeană. Ca formulare generală a firmei, rulmenții din seriile uzuale pot fi aduși din stoc în 24–72 h, fără să garantăm un anumit reper în stoc, iar dimensiunile speciale, casele de rulmenți sau sistemele de monitorizare vin la comandă în 1–4 săptămâni. Pentru un răspuns util avem nevoie de codul complet al rulmentului, cantitatea și, dacă se poate, aplicația — turație, sarcină, mediu de lucru. Trimiteți-ne aceste detalii și revenim cu un termen verificat.`,
     limitation: 'Nu putem confirma că toate seriile de rulmenți SKF sunt disponibile din stoc în orice moment, nici recondiționarea sau service-ul în garanția producătorului pentru componentele critice.',
     sources: [
       {"title":"Deep groove ball bearings | SKF","url":"https://www.skf.com/group/products/rolling-bearings/ball-bearings/deep-groove-ball-bearings","publisher":"SKF","accessed":"2026-09-22"},
@@ -453,11 +453,11 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       },
       {
         "code": "618",
-        "description": "Serie de rulmenți cu secțiune subțire, referință unsoare"
+        "description": "Serie de rulmenți rigizi cu bile cu secțiune subțire"
       },
       {
         "code": "619",
-        "description": "Serie de rulmenți cu secțiune extra-subțire, referință unsoare"
+        "description": "Serie de rulmenți rigizi cu bile cu secțiune extra-subțire"
       }
     ],
     faq: [
@@ -479,8 +479,8 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -488,24 +488,24 @@ Gama de produse SKF e vastă: rulmenți radiali cu bile (6000, 6200, 6300 serii)
   'endress-hauser': {
     founded: 1953,
     headquarters: 'Reinach, Elveția',
-    employees: '16,000+',
-    overview: `Endress+Hauser este un reper în măsurarea de proces industrial. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu 16,000 de angajați și prezență în peste 100 de țări. Domeniile de temperatură și presiune depind de fiecare instrument și sunt indicate în fișa sa tehnică.
+    employees: '18,000+',
+    overview: `Endress+Hauser este un producător de instrumente de măsurare pentru procese industriale. Compania elvețiană fondată în 1953 s-a transformat într-o companie cu prezență globală, cu peste 18.000 de angajați în peste 100 de țări. Domeniile de temperatură și presiune depind de fiecare instrument și sunt indicate în fișa sa tehnică.
 
-Un senzor "generic" care dă date eronate poate costa scump: în industria chimică sau farmaceutică, o măsurare greșită de pH poate distruge un batch întreg de produs. Un transmițător Endress+Hauser cu calibrare certificată și compensare automată temperatură costă mai mult, dar reduce semnificativ acest risc. Senzorii de nivel radar din seria FMR se folosesc în aplicații de proces precum rafinăriile; condițiile de utilizare și intervalele de calibrare se stabilesc pe baza documentației producătorului.
+Un senzor "generic" care dă date eronate poate costa scump: în industria chimică sau farmaceutică, o măsurare greșită de pH poate distruge un batch întreg de produs. Alegerea unui instrument potrivit aplicației, verificat și calibrat conform documentației producătorului, reduce acest risc. Senzorii de nivel radar din seria FMR se folosesc în aplicații de proces precum rafinăriile; condițiile de utilizare și intervalele de calibrare se stabilesc pe baza documentației producătorului.
 
-Gama de produse acoperă tot ce înseamnă măsurare în procesul industrial. Nivel: radar ghidat, radar fără contact, ultrasonic, capacitiv, hidrostatic, magnetostrictiv. Debit: electromagnetic, vortex, Coriolis, termic, ultrasonic clamp-on. Presiune: absolute, relative, diferențiale, cu membrana separatoare pentru fluide agresive. Temperatură: termocuple, PT100/PT1000, transmițători montare cap sau direct. Analiză: pH, conductivitate, oxigen dizolvat, turbiditate, spectroscopie NIR.
+Gama de produse cuprinde nivel, debit, presiune, temperatură și analiză a lichidelor. Nivel: radar ghidat, radar fără contact, ultrasonic, capacitiv, hidrostatic, vibronic. Debit: electromagnetic, vortex, Coriolis, termic, ultrasonic clamp-on. Presiune: absolute, relative, diferențiale, cu membrana separatoare pentru fluide agresive. Temperatură: termocuple, PT100/PT1000, transmițători montare cap sau direct. Analiză: pH, conductivitate, oxigen dizolvat, turbiditate, spectroscopie NIR.
 
 Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrumentului, care poate semnala când este nevoie de întreținere. Verificarea cu Heartbeat nu înlocuiește o calibrare certificată, iar condițiile exacte de aplicare se confirmă din documentația producătorului.`,
     whyChoose: [
       'Gamă completă de instrumente de proces; precizia este indicată în fișa tehnică a fiecărui model',
-      'Tehnologie Heartbeat pentru diagnosticare continuă și calibrare în proces',
+      'Tehnologie Heartbeat pentru diagnosticare și verificare a instrumentului în proces',
       'Certificări precum ATEX, IECEx, SIL, FDA și 3-A, disponibile pe anumite modele, conform documentației producătorului',
       'Documentație tehnică publicată de producător pentru fiecare serie'
     ],
     keyProducts: [
       {
         name: 'Senzori și Transmițători de Nivel',
-        description: 'Radar ghidat FMP5x, radar fără contact FMR5x/6x, ultrasonic FMU9x, capacitiv Liquicap, hidrostatic Deltapilot. Aplicații de la un rezervor simplu de apă până la instalații petrochimice complexe cu presiuni înalte și vapori corozivi. Furnizăm cu certificări ATEX și SIL.'
+        description: 'Radar ghidat FMP5x, radar fără contact FMR5x/6x, ultrasonic FMU9x, capacitiv Liquicap, hidrostatic Deltapilot. Aplicații de la un rezervor simplu de apă până la instalații petrochimice complexe cu presiuni înalte și vapori corozivi. Certificările ATEX și SIL sunt disponibile pe anumite modele, conform documentației producătorului.'
       },
       {
         name: 'Debitmetru Electromagnetic și Coriolis',
@@ -554,7 +554,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "code": "Promass U 500",
-        "description": "Debitmetru Coriolis în versiune universală pentru fluide industriale"
+        "description": "Debitmetru Coriolis de unică folosință pentru aplicații biotehnologice și farmaceutice"
       },
       {
         "code": "Promag W 400",
@@ -578,7 +578,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "code": "FLOWSIC900",
-        "description": "Debitmetru ultrasonic pentru măsurarea gazelor industriale"
+        "description": "Debitmetru ultrasonic pentru transferul comercial al gazului natural lichefiat (GNL)"
       },
       {
         "code": "Micropilot FMR10B",
@@ -590,7 +590,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "code": "Micropilot FMR43",
-        "description": "Radar de nivel liber pentru lichide și paste"
+        "description": "Radar de nivel fără contact pentru lichide, în aplicații igienice"
       },
       {
         "code": "Micropilot FMR62B",
@@ -610,7 +610,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "code": "FlexView FMA90",
-        "description": "Afișaj la distanță pentru senzorii de nivel"
+        "description": "Unitate de control cu afișaj pentru senzori de nivel radar, ultrasonici și hidrostatici, cu monitorizare de la distanță"
       },
       {
         "code": "Liquiline CM442",
@@ -638,7 +638,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "code": "Cerabar PMP71B",
-        "description": "Transmițător de presiune ceramic pentru procese industriale"
+        "description": "Transmițător de presiune cu senzor metalic cu membrană sudată, pentru procese industriale"
       },
       {
         "code": "Deltabar PMD78B",
@@ -652,7 +652,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       },
       {
         "q": "Ce echivalent are un radar de nivel Micropilot mai vechi de la Endress Hauser?",
-        "a": "Pentru un Micropilot mai vechi trimitem codul complet de pe eticheta și domeniul de măsurare, iar echivalentul actual se alege după tipul de antenă, presiunea de proces și materialul de contact cu produsul. Seriile FMR43 și FMR62B acoperă majoritatea aplicațiilor cu lichide, în timp ce FMR10B și FMR20B sunt variante compacte pentru rezervoare simple."
+        "a": "Pentru un Micropilot mai vechi trimitem codul complet de pe eticheta și domeniul de măsurare, iar echivalentul actual se alege după tipul de antenă, presiunea de proces și materialul de contact cu produsul. Seria FMR43 este destinată lichidelor în aplicații igienice, iar FMR62B este un radar de 80 GHz pentru lichide, în timp ce FMR10B și FMR20B sunt variante compacte pentru aplicații mai simple."
       },
       {
         "q": "Livrează Endress Hauser echipamente de proces în România?",
@@ -664,8 +664,8 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   },
@@ -674,27 +674,27 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
     founded: 1946,
     headquarters: 'Klingenberg am Main, Germania',
     employees: '11,000+',
-    overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu 11,000 de angajați și 50 de filiale globale, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
+    overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu aproximativ 11.000 de angajați și 45 de filiale și unități de producție la nivel mondial, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
 
-Un punct forte al WIKA este varietatea catalogului. Acesta are peste 50,000 de variante de produse — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
+Un punct forte al WIKA este varietatea catalogului. Acesta cuprinde un număr foarte mare de tipuri de produse și variante — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
 
 Precizia este un domeniu central pentru WIKA, care are propriul laborator de calibrare acreditat DKD/DAkkS în Germania, cu standarde de referință naționale. Pentru aplicații critice în nuclear, aero-spațial, farma, sunt disponibile certificate de calibrare trasabile la standarde naționale — cerință legală în multe industrii; fiecare senzor poate veni cu certificat individual de calibrare și documentație de trasabilitate, conform producătorului.
 
 Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerină, cu membrana separatoare), transmițători presiune (absolute, relative, diferențiale, cu celulă ceramică sau metal), termometre (mecanice bimetalice, digitale, cu termorezistență PT100, cu termocuplu), senzori nivel (hidrostatici, ultrasonic, radar), debitmetru (rotametru, turbină, vortex), accesorii (valve, separatoare, sifonuri, racorduri).`,
     whyChoose: [
-      'Catalog amplu de instrumente de măsurare — peste 50.000 de variante disponibile',
-      'Calibrare certificată trасabilă la standarde naționale pentru aplicații critice',
-      'Aprobare nuclear, farmaceutic, naval, ATEX — produse pentru orice industrie',
+      'Catalog amplu de instrumente de măsurare, cu foarte multe variante constructive',
+      'Calibrare certificată trasabilă la standarde naționale pentru aplicații critice',
+      'Execuții cu aprobări specifice (de exemplu ATEX), în funcție de model; se confirmă pe cod',
       'Gamă largă de instrumente disponibilă prin canalele noastre de aprovizionare din UE'
     ],
     keyProducts: [
       {
         name: 'Manometre Mecanice și cu Glicerină',
-        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane 40-250mm, presiuni -1 la 1600 bar. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Când comanda e urgentă, confirmăm întâi cu WIKA disponibilitatea reală și abia apoi termenul.'
+        description: 'Serie 111, 113, 232.50 cu conexiuni filet NPT/G, cadrane și domenii de presiune în funcție de model, conform fișei tehnice WIKA. Umplere glicerină pentru vibrații, carcasă inox pentru medii corozive, execuție ATEX pentru zone explozive. Când comanda e urgentă, confirmăm întâi cu WIKA disponibilitatea reală și abia apoi termenul.'
       },
       {
         name: 'Transmițători Presiune A-10, S-20, MH-3',
-        description: 'Transmițători inteligenți cu ieșire 4-20mA, HART, Profibus, Modbus. Precizie până la ±0.05% FS, stabilitate pe termen lung ±0.1%/an. Execuții speciale cu membrană separatoare pentru fluide vâscoase, cristalizante, toxice. Montare directă pe proces sau cu racord capillar.'
+        description: 'Transmițători de presiune; semnalele de ieșire, precizia și stabilitatea depind de model și se confirmă din fișa tehnică WIKA (de exemplu PE 81.60 pentru A-10). Execuții speciale cu membrană separatoare pentru fluide vâscoase, cristalizante, toxice. Montare directă pe proces sau cu racord capillar.'
       },
       {
         name: 'Termometre Bimetalice și cu Termocuplu',
@@ -702,7 +702,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         name: 'Laborator Mobil de Calibrare și Echipamente Metrologie',
-        description: 'Pompe presiune pneumatice și hidraulice CPP30, CPA, controller calibrare CPC6050, calibratoare temperatură CTD/CTB. Soluții complete pentru calibrare la fața locului conform ISO 9001, ISO/IEC 17025. Oferim și servicii de calibrare certificată prin laboratorul Infinitrade acreditat Renar.'
+        description: 'Pompe presiune pneumatice și hidraulice CPP30, CPA, controller calibrare CPC6050, calibratoare temperatură CTD/CTB. Soluții complete pentru calibrare la fața locului conform ISO 9001, ISO/IEC 17025. '
       }
     ],
     certifications: [
@@ -712,8 +712,8 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       'IECEx - Certificare internațională Ex',
       'SIL 2 / SIL 3 - Safety Integrity Level',
       'PED 2014/68/EU - Echipamente sub presiune',
-      'FDA 21 CFR Part 11 - Industrie farmaceutică',
-      'ASME U-Stamp - Industrie nuclear',
+      
+      
       'DNV GL - Industrie naval marine',
       '3-A Sanitary - Industrie alimentară'
     ],
@@ -728,7 +728,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       'Mașini-Unelte și Hidraulică',
       'Aeronautică și Aero-Spațial'
     ],
-    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 1–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimite-ne aceste informații și revenim cu o ofertă verificată.`,
+    infinitrade: `La instrumentele WIKA procedăm ca la toate brandurile noastre: spunem ce putem și ce nu putem confirma, fără date proprii de stoc pentru fiecare cod din catalog. Ne aprovizionăm prin canale din Uniunea Europeană; produsele din gama standard — manometre, termometre, transmițătoare uzuale — pot ajunge din stoc în 24–72 h, ca formulare generală a firmei, iar execuțiile speciale sau certificatele de calibrare individuale se aduc la comandă în 1–4 săptămâni. Pentru un calcul de preț și termen avem nevoie de codul produsului, domeniul de măsurare și cantitatea dorită. Trimiteți-ne aceste informații și revenim cu o ofertă verificată.`,
     limitation: 'Nu putem confirma că toate variantele de manometre și transmițătoare WIKA sunt disponibile din stoc în orice moment, nici serviciile de calibrare certificată pentru fiecare tip de instrument din gamă.',
     sources: [
       {"title":"Pressure measurement products","url":"https://www.wika.com/en-en/pressure_measurement.WIKA","publisher":"WIKA","accessed":"2026-09-22"},
@@ -802,7 +802,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "code": "IV31",
-        "description": "Manifold cu 2 cai, versiune compactă"
+        "description": "Manifold cu 2 căi, versiune compactă"
       },
       {
         "code": "IV50",
@@ -810,7 +810,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "code": "IV51",
-        "description": "Manifold cu 5 cai, versiune compactă"
+        "description": "Manifold cu 5 căi, versiune compactă"
       },
       {
         "code": "IVM",
@@ -836,7 +836,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
     faq: [
       {
         "q": "Cum aleg un manometru Wika potrivit pentru vibrații în instalație?",
-        "a": "Pentru puncte cu vibrații sau pulsații de presiune, seria 213.53 cu umplere de glicerină reduce uzura acului indicator și prelungește durata de viață a manometrului Wika. Verificam domeniul de presiune necesar, diametrul carcasei și tipul racordului de proces înainte de a recomanda varianta exactă."
+        "a": "Pentru puncte cu vibrații sau pulsații de presiune, seria 213.53 cu umplere de glicerină reduce uzura acului indicator și prelungește durata de viață a manometrului Wika. Verificăm domeniul de presiune necesar, diametrul carcasei și tipul racordului de proces înainte de a recomanda varianta exactă."
       },
       {
         "q": "Ce diferență este între un manometru Wika cu tub Bourdon și unul cu membrană?",
@@ -844,7 +844,7 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       },
       {
         "q": "Livrează Wika instrumente de măsură în România?",
-        "a": "Da, aducem instrumentele Wika la comandă pe bază informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
+        "a": "Da, aducem instrumentele Wika la comandă pe baza informațiilor publice ale producătorului, fără a ține evidență unui stoc propriu pe site. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și domeniul de presiune cerut, iar pentru variante speciale poate dura mai mult."
       },
       {
         "q": "Ce trebuie să precizez pentru o ofertă de manifold Wika, de exemplu IV30?",
@@ -852,8 +852,8 @@ Gama de produse: manometre mecanice (carcasă oțel, inox, plastic, cu glicerin�
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-09-22',
-    changelog: [
+    lastVerified: '2026-10-05',
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }
     ]
   }

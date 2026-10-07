@@ -7,13 +7,13 @@ export const brandContentBatch73 = {
     headquarters: "Leinfelden-Echterdingen, Germania",
     overview: `EUCHNER este un producător german de sisteme de siguranță pentru mașini industriale, cu sediul la Leinfelden-Echterdingen, lângă Stuttgart, fondat în 1953 ca afacere de familie. Gama include interblocări modulare de uși mobile din familia MGB (Multifunctional Gate Box), sisteme de control al accesului cu cod transponder EKS și CKS, comutatoare de siguranță codate magnetic sau electromecanic, relee de siguranță și dispozitive de oprire de urgență. Pentru clienți din România putem oferta module din aceste familii, plecând de la codul complet de pe eticheta dispozitivului deja montat pe utilaj.
 
-Particularitatea familiei MGB este arhitectura modulară: codul de tip separă funcția de blocare a ușii (L0 fără blocare, L1 cu blocare prin arc, L1H cu modul de mâner, L2 cu blocare prin solenoid) de tipul de conectare electrică, astfel încât varianta potrivită se alege fără a redesena bucla de siguranță a instalației. Modulele ating nivelul de performanță PL e conform EN ISO 13849 și respectă EN ISO 14119, cu conectare prin M12, M23 sau bornă RC18; curentul necesar pentru semnalul de monitorizare a comenzii PLC este de doar 3 mA.
+Particularitatea familiei MGB este arhitectura modulară: codul de tip separă funcția de blocare a ușii (L0 fără blocare, L1 cu blocare prin arc, L1H cu modul de mâner, L2 cu blocare prin solenoid) de tipul de conectare electrică, astfel încât varianta potrivită se alege fără a redesena bucla de siguranță a instalației. Modulele ating nivelul de performanță PL e conform EN ISO 13849 și respectă EN ISO 14119, cu conectare prin M12 sau M23 (RC18); curentul necesar pe intrarea de comandă a blocării este de doar 3 mA.
 
 Pentru fabricile din România, EUCHNER înseamnă acces la module de interblocare verificate pentru linii unde ușile de acces se deschid frecvent — depozite automatizate, celule robotizate, mașini-unelte cu protecție perimetrală. Recomandăm brandul acolo unde proiectul cere un nivel de performanță ridicat al funcției de siguranță și un cod de tip clar, urmăribil pe eticheta echipamentului.`,
     whyChoose: [
       "Arhitectură modulară MGB — funcția de blocare (L0, L1, L1H, L2) și tipul de conectare se aleg independent, fără să schimbi restul instalației",
       "Nivel de performanță ridicat — modulele MGB ating PL e conform EN ISO 13849, potrivit pentru bucle de siguranță cu risc mare",
-      "Conform standardului de interblocare EN ISO 14119, cu opțiuni de conectare M12, M23 sau RC18 după cablarea existentă",
+      "Conform standardului de interblocare EN ISO 14119, cu opțiuni de conectare M12 sau M23 (RC18) după cablarea existentă",
       "Sisteme complementare de acces cu cod — EKS și CKS condiționează pornirea utilajului de prezența unei chei electronice atribuite",
     ],
     keyProducts: [
@@ -23,7 +23,7 @@ Pentru fabricile din România, EUCHNER înseamnă acces la module de interblocar
       },
       {
         name: "EKS / EKS2 / CKS — sisteme de cod transponder",
-        description: "Familie de sisteme de identificare cu cod transponder, care condiționează pornirea unui utilaj de prezența unei chei electronice atribuite unui operator autorizat. EKS și EKS2 acoperă aplicații standard de control al accesului la comenzi, iar CKS este varianta compactă pentru montaj cu spațiu limitat pe panou. Sistemele funcționează independent de familia MGB, dar se pot integra în aceeași buclă de siguranță a mașinii, utile acolo unde un anumit ciclu de lucru trebuie limitat la personal instruit.",
+        description: "Familie de sisteme de identificare cu cod transponder, care condiționează pornirea unui utilaj de prezența unei chei electronice atribuite unui operator autorizat. EKS și EKS2 acoperă aplicații standard de control al accesului la comenzi, iar CKS este un sistem de cod transponder din aceeași familie. Sistemele funcționează independent de familia MGB, dar se pot integra în aceeași buclă de siguranță a mașinii, utile acolo unde un anumit ciclu de lucru trebuie limitat la personal instruit.",
       },
       {
         name: "Comutatoare de siguranță codate magnetic și electromecanic",
@@ -46,14 +46,14 @@ Pentru fabricile din România, EUCHNER înseamnă acces la module de interblocar
       { code: "MGB-L0-APA", description: "Interblocare fără blocare, conectare individuală" },
       { code: "MGB-L1-APA", description: "Blocare prin arc, conectare individuală" },
       { code: "MGB2", description: "Generația nouă de gate box, variante Modular și Classic" },
-      { code: "MGBS", description: "Variantă compactă a familiei Multifunctional Gate Box" },
+      { code: "MGBS", description: "Variantă a familiei Multifunctional Gate Box" },
       { code: "EKS", description: "Sistem de cod transponder pentru control acces" },
       { code: "EKS2", description: "Generația nouă a sistemului de cod EKS" },
-      { code: "CKS", description: "Variantă compactă a sistemului de cod transponder" },
+      { code: "CKS", description: "Sistem de cod transponder din familia EKS" },
       { code: "Comutatoare magnetice codate", description: "Comutatoare de siguranță fără contact, cod magnetic" },
       { code: "Comutatoare electromecanice", description: "Cu sau fără blocare de gardă" },
       { code: "Relee de siguranță", description: "Module de control pentru circuite de siguranță" },
-      { code: "Comutatoare de activare", description: "Enabling switch pentru moduri de operare speciale" },
+      { code: "Comutatoare de activare", description: "Comutatoare de validare (enabling) pentru moduri de operare speciale" },
       { code: "Dispozitive de oprire de urgență", description: "Butoane și corzi de oprire de urgență" },
       { code: "Grilaje și perdele de lumină", description: "Bariere optice de siguranță pentru zone periculoase" },
     ],
@@ -65,8 +65,8 @@ Pentru fabricile din România, EUCHNER înseamnă acces la module de interblocar
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About EUCHNER", url: "https://www.euchner.com/en-us/company/about-euchner", publisher: "EUCHNER GmbH + Co. KG", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.euchner.com/en-us/products/", publisher: "EUCHNER GmbH + Co. KG", accessed: "2026-09-23" },
@@ -104,10 +104,10 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
       },
     ],
     industries: [
-      "Utilaje agricole — tractoare, combine, mașini de furaje",
+      "Utilaje agricole — variantă dedicată off-highway",
       "Sisteme de manipulare a materialelor industriale",
       "Echipamente de automatizare industrială",
-      "Urmărire solară și eoliană — poziționarea panourilor și paletelor",
+      "Automatizare industrială — poziționare cu forță mare",
     ],
     infinitrade: `Comandăm actuatoare LINAK LA36 prin lanțul de furnizori din Uniunea Europeană, cu sosire estimată în 1–4 săptămâni după confirmarea configurației. Ne bazăm pe ce putem și ce nu putem confirma din fișa tehnică publicată de producător: verificăm codul complet de pe eticheta actuatorului existent sau, dacă acesta lipsește, cursa, tensiunea de alimentare și forța necesară pentru aplicație. Nu deținem date proprii despre stocul LINAK la nivel european, așa că fiecare termen depinde de confirmarea configurației exacte la furnizor. Menționați dacă aveți nevoie de interfață de comunicație specială, pentru a verifica varianta LA36 IC potrivită.`,
     limitation: "Nu confirmăm din surse proprii compatibilitatea electronică exactă a interfeței de comunicație cu un sistem de control existent, fără verificarea fișei tehnice curente.",
@@ -116,9 +116,9 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
       { code: "LA36 IC", description: "Variantă cu controler integrat, CANopen, Modbus, PROFINET" },
       { code: "LA36 ATEX/IECEx", description: "Variantă certificată pentru medii cu praf exploziv" },
       { code: "LA36 Off-Highway", description: "Variantă pentru utilaje agricole și off-highway" },
-      { code: "36 120 200 0 A 01 B 6-611H30300NCS000", description: "Exemplu de cod complet: 12V, cursă 200mm" },
+      { code: "36 120 200 0 A 01 B 6-611H30300NCS000", description: "Exemplu de cod complet: 24 V DC, cursă 200 mm" },
       { code: "LA20", description: "Actuator liniar compact inline, gamă LINAK" },
-      { code: "LA76", description: "Actuator liniar din gama industrială LINAK" },
+      { code: "LA76", description: "Actuator liniar LINAK cu motor BLDC" },
       { code: "CAB0367046", description: "Cablu de alimentare, lungimi 1500-10000 mm" },
       { code: "CAB0367049", description: "Cablu de semnal cu 6 pini" },
       { code: "CAB0368543", description: "Cablu de semnal cu 9 pini" },
@@ -131,8 +131,8 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About LINAK", url: "https://www.linak.com/about-linak/", publisher: "LINAK A/S", accessed: "2026-09-23" },
       { title: "Linear actuators — product overview", url: "https://www.linak.com/products/linear-actuators/", publisher: "LINAK A/S", accessed: "2026-09-23" },
@@ -147,16 +147,15 @@ Pentru utilajele agricole și liniile de automatizare din România, LA36 acoper�
     certifications: [
       "ATEX — KTR: variante certificate pentru zone cu risc de explozie",
       "UKEX — protecție la explozie pentru piața din Marea Britanie",
-      "UL Listed — pentru anumite produse din gama de cuplaje",
     ],
-    overview: `KTR Systems este un producător german cu sediul la Rheine, specializat în cuplaje mecanice, limitatoare de cuplu, frâne și componente hidraulice pentru construcția de mașini. Gama de cuplaje elastice ROTEX® rămâne produsul de referință, alături de cuplajele cu flanșă rigidă BoWex® și zeci de alte familii pentru transmisii cu diverse cerințe de flexibilitate, siguranță sau precizie de poziționare. Pentru clienți din România putem aduce cuplaje individuale din aceste familii, pe baza mărimii și a diametrelor de alezaj comunicate.
+    overview: `KTR Systems este un producător german cu sediul la Rheine, specializat în cuplaje mecanice, limitatoare de cuplu, frâne și componente hidraulice pentru construcția de mașini. Gama de cuplaje elastice ROTEX® este familia principală de cuplaje, alături de cuplajele cu flanșă rigidă BoWex® și zeci de alte familii pentru transmisii cu diverse cerințe de flexibilitate, siguranță sau precizie de poziționare. Pentru clienți din România putem aduce cuplaje individuale din aceste familii, pe baza mărimii și a diametrelor de alezaj comunicate.
 
-Portofoliul acoperă practic toate variantele de compensare a dezalinierii dintre arbori: cuplaje elastice cu gheare (ROTEX®), cuplaje cu flanșă rigidă pentru montaj axial (BoWex® FLE-PA), cuplaje fail-safe (POLY-NORM®, ROFLEX®), cuplaje servo fără joc (ROTEX® GS, TOOLFLEX®) și limitatoare de cuplu care protejează echipamentul la suprasarcină (RUFLEX®). Cuplajele ROTEX® acoperă cupluri nominale de la câteva zeci de Nm până la 35.000 Nm, în funcție de varianta constructivă aleasă. La acestea se adaugă gama de frâne hidraulice și electromecanice KTR-STOP și EMB-STOP.
+Portofoliul include mai multe variante de compensare a dezalinierii dintre arbori: cuplaje elastice cu gheare (ROTEX®), cuplaje cu flanșă rigidă pentru montaj axial (BoWex® FLE-PA), cuplaje fail-safe (POLY-NORM®, ROFLEX®), cuplaje servo fără joc (ROTEX® GS, TOOLFLEX®) și limitatoare de cuplu care protejează echipamentul la suprasarcină (RUFLEX®). Cuplajele ROTEX® acoperă cupluri nominale de până la 35.000 Nm, în funcție de varianta constructivă aleasă. La acestea se adaugă gama de frâne hidraulice și electromecanice KTR-STOP și EMB-STOP.
 
-Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje verificate pentru pompe, ventilatoare, motoare diesel și compresoare, acolo unde alinierea perfectă a arborilor nu poate fi garantată din construcție.`,
+Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje verificate pentru pompe, ventilatoare, motoare diesel și compresoare, acolo unde alinierea perfectă a arborilor nu poate fi asigurată din construcție.`,
     whyChoose: [
-      "Gamă foarte largă de cuplaje — de la elastice cu gheare la flanșe rigide, fail-safe sau servo, pentru aproape orice cerință de aliniere",
-      "ROTEX® acoperă cupluri de la câteva zeci de Nm până la 35.000 Nm, în funcție de varianta constructivă",
+      "Gamă variată de cuplaje — de la elastice cu gheare la flanșe rigide, fail-safe sau servo",
+      "ROTEX® acoperă cupluri nominale de până la 35.000 Nm, în funcție de varianta constructivă",
       "Certificări ATEX și UKEX pentru variante destinate zonelor cu risc de explozie",
       "Sisteme de frânare complementare — KTR-STOP hidraulic și EMB-STOP electromecanic pentru aceleași linii de transmisie",
     ],
@@ -167,7 +166,7 @@ Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje v
       },
       {
         name: "BoWex® FLE-PA — cuplaj cu flanșă rigid la torsiune",
-        description: "Cuplaj cu flanșă rigid la torsiune, care compensează dezalinierile apărute din toleranțe de fabricație sau dilatare termică între motor și echipamentul antrenat. Gama acoperă mărimile 48 până la 125, cu alezaje între 13 și 50 mm și cuplu nominal de la 240 Nm până la peste 10.000 Nm la mărimea maximă din gamă. Frecvent folosit la motoare diesel și pompe cu piston. Pentru ofertă, indicați mărimea, diametrul de alezaj pe fiecare parte și flanșa SAE existentă.",
+        description: "Cuplaj cu flanșă rigid la torsiune, care compensează dezalinierile apărute din toleranțe de fabricație sau dilatare termică între motor și echipamentul antrenat. Gama acoperă mărimile 48 până la 125, cu alezaj maxim de la 20 la 50 mm în funcție de mărime și cuplu nominal de la 240 Nm (mărimea 48) până la 4.250 Nm (mărimea 125). Frecvent folosit la motoare diesel și pompe cu piston. Pentru ofertă, indicați mărimea, diametrul de alezaj pe fiecare parte și flanșa SAE existentă.",
       },
       {
         name: "Sisteme de frânare KTR-STOP și EMB-STOP",
@@ -195,9 +194,9 @@ Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje v
       { code: "BoWex FLE-PA 100", description: "Flanșă SAE 10 inch, pompe cu piston" },
       { code: "BoWex FLE-PA T 125", description: "Cuplu nominal-maxim 4.250-10.700 Nm" },
       { code: "POLY-NORM", description: "Cuplaj elastic fail-safe cu elasticitate ridicată" },
-      { code: "ROFLEX", description: "Cuplaj fail-safe cu mecanism redundant" },
+      { code: "ROFLEX", description: "Cuplaj fail-safe" },
       { code: "REVOLEX", description: "Cuplaj flexibil cu bolțuri și bucșe" },
-      { code: "GEARex", description: "Cuplaj dințat rigid, fără joc" },
+      { code: "GEARex", description: "Cuplaj dințat integral din oțel" },
       { code: "RADEX-N", description: "Cuplaj cu lamele de oțel" },
       { code: "MINEX-S", description: "Cuplaj magnetic cu carcasă de izolare" },
       { code: "RUFLEX", description: "Limitator de cuplu cu alunecare presetată" },
@@ -206,15 +205,15 @@ Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje v
       { code: "EMB-STOP", description: "Frână electromecanică, funcție stop-block-turn" },
     ],
     faq: [
-      { q: "Ce produce KTR?", a: "KTR produce cuplaje mecanice pentru transmisii industriale — elastice, cu flanșă rigidă, fail-safe sau fără joc pentru servomotoare — alături de limitatoare de cuplu, sisteme de frânare hidraulică și electromecanică și componente de răcire hidraulică. Gama ROTEX® și BoWex® sunt cele mai cerute familii de cuplaje." },
+      { q: "Ce produce KTR?", a: "KTR produce cuplaje mecanice pentru transmisii industriale — elastice, cu flanșă rigidă, fail-safe sau fără joc pentru servomotoare — alături de limitatoare de cuplu, sisteme de frânare hidraulică și electromecanică și componente de răcire hidraulică. ROTEX® și BoWex® sunt două dintre familiile de cuplaje ale producătorului." },
       { q: "Cum aleg mărimea corectă a unui cuplaj ROTEX?", a: "Precizați mărimea cuplajului existent, de exemplu ROTEX 24, varianta constructivă (Standard, AH, SH, CF/CFN/DF/DFN sau cu inel de strângere) și diametrele celor două capete de arbore care urmează să fie cuplate. Dacă arborii au pene speciale, menționați acest lucru la cerere pentru verificare." },
       { q: "Livrați KTR în România și cât durează?", a: "Da, aducem cuplaje KTR la comandă din rețeaua europeană a producătorului, cu un termen orientativ de 1–4 săptămâni de la confirmare. Termenul exact depinde de mărimea și varianta constructivă cerute, verificate în catalogul curent înainte de ofertă." },
       { q: "Ce nu putem confirma pentru cuplajele KTR?", a: "Documentația publică nu detaliază mărimile exacte disponibile în fiecare variantă și diametrele de alezaj asociate pentru orice combinație; le verificăm din catalogul tehnic al producătorului la fiecare cerere, înainte de a confirma o ofertă fermă." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "KTR Systems — homepage", url: "https://www.ktr.com/en/", publisher: "KTR Systems GmbH", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.ktr.com/en/products/", publisher: "KTR Systems GmbH", accessed: "2026-09-23" },
@@ -228,19 +227,19 @@ Pentru instalațiile industriale din România, KTR înseamnă acces la cuplaje v
     headquarters: "Gernsbach, Germania",
     overview: `burster präzisionsmesstechnik este un producător german cu sediul la Gernsbach, specializat în senzori de forță, cuplu, presiune și deplasare, alături de instrumente de măsură, testare și calibrare. Gama de celule de sarcină acoperă domenii de la câțiva newtoni până la 1 MN, iar senzorii de cuplu merg de la fracțiuni de N·m până la 5.000 N·m, pentru aplicații rotative sau staționare. Pentru clienți din România putem aduce senzori individuali din aceste familii, pe baza codului de model sau a domeniului de măsurare necesar.
 
-Ce diferențiază gama burster e granularitatea: în loc de câteva modele generice, fiecare familie are zeci de variante cu domenii de măsurare apropiate, astfel încât aplicația primește un senzor dimensionat aproape exact pe cerință, nu supradimensionat. Celulele de sarcină din seria 85xx pentru tracțiune și compresiune ajung la clasă de protecție IP67 la domenii mari, iar senzorii de cuplu din seria 86xx acoperă atât montaj rotativ, cât și staționar, cu liniaritate de până la ±0,05% din valoarea de fund de scală.
+Gama burster cuprinde mai multe familii de senzori, fiecare cu mai multe domenii de măsurare; domeniul potrivit se alege pe cod, din documentația producătorului. Celulele de sarcină din seria 85xx pentru tracțiune și compresiune ajung la clasă de protecție IP67 la domenii mari, iar senzorii de cuplu din seria 86xx acoperă atât montaj rotativ, cât și staționar, cu liniaritate de până la ±0,05% din valoarea de fund de scală.
 
 Pentru laboratoare de testare și linii de producție din România, burster înseamnă acces la senzori de precizie pentru bancuri de probă, control de calitate și monitorizarea forțelor de proces, acolo unde toleranțele stricte contează mai mult decât prețul componentei.`,
     whyChoose: [
-      "Granularitate mare a gamei — zeci de domenii de măsurare apropiate, pentru un senzor dimensionat exact pe aplicație",
-      "Precizie ridicată — liniaritate de până la ±0,05% din valoarea de fund de scală la senzorii de cuplu de top",
+      "Mai multe domenii de măsurare pe familie, pentru alegerea senzorului potrivit aplicației",
+      "Precizie ridicată — liniaritate de până la ±0,05% din valoarea de fund de scală la anumiți senzori de cuplu din gamă",
       "Clasă de protecție IP67 la celulele de sarcină cu domeniu mare, potrivite pentru medii industriale cu praf sau umezeală",
       "Acoperă atât forța și cuplul, cât și instrumentele de calibrare aferente, din același producător",
     ],
     keyProducts: [
       {
         name: "Celule de sarcină pentru tracțiune și compresiune",
-        description: "Familie largă de celule de forță, cu domenii de măsurare de la câțiva newtoni (seria 8510-8512) până la 1 MN (seria 8526), acoperind atât solicitări de tracțiune, cât și de compresiune, statice sau dinamice. Semnalul de ieșire tipic este de 1,5 mV/V, iar clasa de protecție ajunge la IP67 pentru domeniile de la 20 kN în sus. Pentru înlocuirea unei celule existente, trimiteți codul complet de pe etichetă sau, dacă lipsește, domeniul de măsurare și tipul de solicitare necesar.",
+        description: "Familie largă de celule de forță, cu domenii de măsurare de la câțiva newtoni (seria 8510-8512) până la 1 MN (seria 8526, doar compresiune), cu modele pentru tracțiune și compresiune (de exemplu seria 8524), statice sau dinamice. Semnalul de ieșire nominal este de 1,5 mV/V la seria 8524 (1 mV/V la 8526), iar la 8524 clasa de protecție ajunge la IP67 pentru domeniile de la 20 kN în sus. Pentru înlocuirea unei celule existente, trimiteți codul complet de pe etichetă sau, dacă lipsește, domeniul de măsurare și tipul de solicitare necesar.",
       },
       {
         name: "Senzori de cuplu rotativi și staționari",
@@ -291,8 +290,8 @@ Pentru laboratoare de testare și linii de producție din România, burster îns
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "burster präzisionsmesstechnik — homepage", url: "https://www.burster.com/en/", publisher: "burster präzisionsmesstechnik GmbH & Co KG", accessed: "2026-09-23" },
       { title: "Load cells — product overview", url: "https://www.burster.com/products/sensors/load-cells", publisher: "burster präzisionsmesstechnik GmbH & Co KG", accessed: "2026-09-23" },
@@ -303,14 +302,14 @@ Pentru laboratoare de testare și linii de producție din România, burster îns
 
   deublin: {
     name: "Deublin",
-    overview: `Deublin este un producător american cu peste 80 de ani de experiență în racorduri rotative și inele colectoare electrice, folosite pentru transferul de fluide către componente aflate în mișcare de rotație. Gama acoperă medii diferite — apă, ulei hidraulic, ulei termic, abur, aer și combinații multimedia — prin serii dedicate fiecărei aplicații, de la unități compacte de capacitate mică (seria 1115) până la modele de foarte înaltă presiune (seria ZAP, până la 1.100 bar). Pentru clienți din România putem aduce racorduri individuale din aceste serii, pe baza codului complet de pe eticheta unității existente.
+    overview: `Deublin este un producător american cu 80 de ani de experiență, conform producătorului în racorduri rotative și inele colectoare electrice, folosite pentru transferul de fluide către componente aflate în mișcare de rotație. Gama acoperă medii diferite — apă, ulei hidraulic, ulei termic, abur, aer și combinații multimedia — prin serii dedicate fiecărei aplicații, de la unități compacte de capacitate mică (seria 1115) până la modele de foarte înaltă presiune (seria ZAP, până la 1.100 bar). Pentru clienți din România putem aduce racorduri individuale din aceste serii, pe baza codului complet de pe eticheta unității existente.
 
-Diferența dintre serii ține de combinația presiune-turație-mediu: seriile de uz general (57, 755, 6200-6400) permit înlocuirea etanșării direct pe mașină, seriile de înaltă presiune (927, AP, D, ZAP) folosesc etanșări echilibrate cu carbură de wolfram pentru turații și presiuni ridicate simultan, iar seriile pentru industria alimentară și farmaceutică (54, 157) sunt construite din oțel inoxidabil 316 pentru rezistență la coroziune. Seria 1115, cea mai des cerută pentru aplicații de capacitate mică, susține până la 34,5 bar pe ulei hidraulic.
+Diferența dintre serii ține de combinația presiune-turație-mediu: seriile de uz general (57, 755, 6200-6400) permit înlocuirea etanșării direct pe mașină, seriile de înaltă presiune (927, AP, D, ZAP) sunt destinate presiunilor ridicate, iar seria AP folosește etanșări echilibrate cu carbură de wolfram, iar seriile pentru industria alimentară și farmaceutică (54, 157) sunt construite din oțel inoxidabil 316 pentru rezistență la coroziune. Seria 1115, destinată aplicațiilor de capacitate mică, susține până la 34,5 bar pe ulei hidraulic.
 
 Pentru echipamentele rotative din industria românească — mașini-unelte, utilaje de proces continuu, linii din industria hârtiei — Deublin acoperă situațiile în care un racord rotativ obișnuit nu rezistă la combinația de presiune, turație și mediu vehiculat.`,
     whyChoose: [
       "Serii dedicate fiecărui mediu — apă, ulei hidraulic, ulei termic, abur, aer și combinații multimedia, fără compromis de etanșare",
-      "Serii de înaltă presiune cu etanșări din carbură de wolfram, până la 1.100 bar la seria ZAP",
+      "Serii de înaltă presiune (seria AP cu etanșări echilibrate din carbură de wolfram), până la 1.100 bar la seria ZAP",
       "Serii din oțel inoxidabil 316 pentru industria alimentară și farmaceutică, rezistente la coroziune",
       "Etanșare ușor de înlocuit direct pe mașină la seriile de uz general, fără demontarea completă a unității",
     ],
@@ -325,12 +324,12 @@ Pentru echipamentele rotative din industria românească — mașini-unelte, uti
       },
       {
         name: "Serii pentru industria alimentară și farmaceutică — 54, 157",
-        description: "Racorduri rotative construite din oțel inoxidabil 316, pentru medii care necesită rezistență la coroziune și conformitate cu cerințe de igienă din industria alimentară și farmaceutică. Seria 54 este dimensionată pentru condiții de apă severe, iar seria 157 acoperă unități mai mici, de 1/2 inch. Se folosesc pe echipamente rotative din linii de procesare unde contactul cu fluidul trebuie să respecte materiale compatibile cu produsul alimentar.",
+        description: "Racorduri rotative construite din oțel inoxidabil 316, pentru medii din industria alimentară, chimică și farmaceutică care necesită rezistență la coroziune. Seria 54 este dimensionată pentru condiții de apă severe, iar seria 157 acoperă unități mai mici, de 1/2 inch. Se folosesc pe echipamente rotative din linii de procesare unde contactul cu fluidul trebuie să respecte materiale compatibile cu produsul alimentar.",
       },
     ],
     industries: [
       "Mașini-unelte — răcire de mare viteză la centre de prelucrare",
-      "Petrol și gaze — racorduri rotative pentru echipamente de foraj și extracție",
+      "Energie regenerabilă și semiconductori — racorduri rotative pentru echipamente de proces",
       "Prelucrare de materiale — industria hârtiei, plasticului, cauciucului și metalului",
       "Industria alimentară și farmaceutică — serii din inox pentru medii igienice",
       "Construcții și agricultură — racorduri pentru utilaje hidraulice rotative",
@@ -341,7 +340,7 @@ Pentru echipamentele rotative din industria românească — mașini-unelte, uti
       { code: "57", description: "Serie de uz general, condiții severe de apă" },
       { code: "755", description: "Monoflux sau duoflux, cu opțiune Extended Life Sealing" },
       { code: "6200-6400", description: "Etanșare înlocuibilă direct pe mașină" },
-      { code: "F Series", description: "Uniune de 5 inch, seal replacement pe mașină" },
+      { code: "F Series", description: "Uniune de 5 inch, etanșare înlocuibilă direct pe mașină" },
       { code: "927", description: "Presiune și turație mari, cuplu de frecare redus" },
       { code: "AP", description: "Etanșare echilibrată cu carbură de wolfram" },
       { code: "D Series", description: "Presiune foarte mare, mișcare angulară" },
@@ -367,8 +366,8 @@ Pentru echipamentele rotative din industria românească — mașini-unelte, uti
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Deublin — homepage", url: "https://www.deublin.com/en", publisher: "Deublin", accessed: "2026-09-23" },
       { title: "Water Rotary Unions", url: "https://www.deublin.com/en/Rotating-Union/Water", publisher: "Deublin", accessed: "2026-09-23" },
@@ -381,23 +380,23 @@ Pentru echipamentele rotative din industria românească — mașini-unelte, uti
     name: "KERN",
     overview: `KERN & SOHN este un producător german de aparatură de cântărire, cu un magazin B2B online destinat companiilor, profesioniștilor independenți și instituțiilor publice. Gama acoperă balanțe de laborator (analitice, de precizie, portabile), cântare industriale (bancă, platformă, paletă, ATEX), cântare medicale și greutăți de calibrare certificate OIML în clase de precizie de la E1 la M3. Pentru clienți din România putem aduce greutăți și balanțe individuale din aceste categorii, pe baza codului de model sau a clasei OIML necesare.
 
-Greutățile etalon din seria 316 sunt reprezentative pentru precizia clasei OIML E2: fiecare cod indică valoarea nominală prin ultima cifră, de la 20 g la codul 316-05 până la 5 kg la codul 316-13, cu toleranțe stricte conform clasei. Pentru precizie mai mare, seriile 303 și 323 acoperă clasa E1, iar dincolo de clasele de laborator (E1, E2), KERN publică și seturi de greutăți industriale în clasele F1, F2, M1, M2 și M3, cu game de valori de la 1 mg până la 2.500 kg în total pe portofoliu.
+Greutățile etalon din seria 316 sunt reprezentative pentru precizia clasei OIML E2: fiecare cod corespunde unei valori nominale fixe, de la 20 g la codul 316-05 până la 5 kg la codul 316-13, cu toleranțe stricte conform clasei. Pentru precizie mai mare, seriile 303 și 323 acoperă clasa E1, iar dincolo de clasele de laborator (E1, E2), KERN publică și seturi de greutăți industriale în clasele F1, F2, M1, M2 și M3, cu game de valori de la 1 mg până la 2.500 kg în total pe portofoliu.
 
 Pentru laboratoare de metrologie și companii cu obligații de verificare periodică a balanțelor din România, KERN acoperă atât instrumentul de cântărire, cât și greutatea etalon necesară pentru calibrarea lui, din același catalog.`,
     whyChoose: [
       "Clase OIML complete — de la E1 (precizie maximă de laborator) până la M3 (industrial), într-un singur catalog",
-      "Cod de tip previzibil — ultima cifră a codului din seria 316 indică direct valoarea nominală a greutății",
-      "Gamă largă de cântărire — de la 1 mg la greutăți etalon, până la platforme industriale de câteva tone",
+      "Cod de tip clar — fiecare cod din seria 316 corespunde unei valori nominale fixe (de exemplu 316-11 este 1 kg)",
+      "Gamă largă de cântărire — greutăți etalon de la 1 mg la 2.500 kg, balanțe de laborator și cântare industriale de platformă",
       "Portofoliu care acoperă atât balanța, cât și greutatea de calibrare aferentă, din același producător",
     ],
     keyProducts: [
       {
         name: "Greutăți etalon individuale seria 316 (OIML E2)",
-        description: "Greutăți etalon individuale, din oțel inoxidabil lustruit, în formă compactă, certificate în clasa de precizie OIML E2. Codul de tip indică valoarea nominală prin cifra finală: 316-05 este 20 g, 316-08 este 200 g, 316-11 este 1 kg, iar 316-13 este 5 kg, fiecare cu toleranța OIML corespunzătoare clasei. Producătorul recomandă și o cutie de depozitare dedicată pentru această clasă de precizie. Pentru ofertă, trimiteți codul cerut sau valoarea nominală și clasa OIML necesară pentru balanța verificată.",
+        description: "Greutăți etalon individuale, din oțel inoxidabil lustruit, în formă compactă, certificate în clasa de precizie OIML E2. Fiecare cod de tip corespunde unei valori nominale: 316-05 este 20 g, 316-08 este 200 g, 316-11 este 1 kg, iar 316-13 este 5 kg, fiecare cu toleranța OIML corespunzătoare clasei. Producătorul recomandă și o cutie de depozitare dedicată pentru această clasă de precizie. Pentru ofertă, trimiteți codul cerut sau valoarea nominală și clasa OIML necesară pentru balanța verificată.",
       },
       {
         name: "Seturi de greutăți OIML E1 seriile 303 și 323",
-        description: "Seturi de greutăți din clasa de precizie OIML E1, cea mai ridicată din portofoliul KERN, disponibile în mai multe configurații de set (seria 303) sau ca variante alternative (seria 323). Folosite pentru calibrarea balanțelor analitice unde toleranțele clasei E2 nu sunt suficiente. Fiecare set vine cu certificat de conformitate și, opțional, cutie de depozitare dedicată. Pentru ofertă, precizați configurația de set dorită sau valorile nominale individuale necesare.",
+        description: "Seturi de greutăți din clasa de precizie OIML E1, cea mai ridicată din portofoliul KERN, disponibile în mai multe configurații de set (seria 303) sau ca variante alternative (seria 323). Folosite pentru calibrarea balanțelor analitice unde toleranțele clasei E2 nu sunt suficiente. Documentația și cutiile de depozitare disponibile se confirmă pe cod, în catalogul producătorului. Pentru ofertă, precizați configurația de set dorită sau valorile nominale individuale necesare.",
       },
       {
         name: "Balanțe de laborator și cântare industriale",
@@ -437,8 +436,8 @@ Pentru laboratoare de metrologie și companii cu obligații de verificare period
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Products overview", url: "https://www.kern-sohn.com/shop/en/products/", publisher: "KERN & SOHN GmbH", accessed: "2026-09-23" },
       { title: "Test weights", url: "https://www.kern-sohn.com/shop/en/products/test-weights/", publisher: "KERN & SOHN GmbH", accessed: "2026-09-23" },
@@ -452,7 +451,7 @@ Pentru laboratoare de metrologie și companii cu obligații de verificare period
     founded: 1919,
     headquarters: "Easton, Pennsylvania, SUA",
     employees: "aproximativ 6.000 la nivel global",
-    overview: `Victaulic este un furnizor american de sisteme mecanice de îmbinare a conductelor, fondat în 1919, cu sediul la Easton, Pennsylvania. Portofoliul cuprinde cuplaje canelate pentru îmbinarea conductelor fără sudură, fitinguri în oțel carbon, inox, cupru, HDPE și PVC/CPVC, robineți de control (fluture, cu bilă, de retenție) și module de echipamente preasamblate precum stații de pompare sau header-e. Pentru clienți din România putem aduce componente individuale din aceste categorii, pe baza dimensiunii nominale și a clasei de presiune necesare.
+    overview: `Victaulic este un furnizor american de sisteme mecanice de îmbinare a conductelor, fondat în 1919, cu sediul la Easton, Pennsylvania. Portofoliul cuprinde cuplaje canelate pentru îmbinarea conductelor fără sudură, fitinguri în oțel carbon, inox, cupru, HDPE și PVC/CPVC, robineți de control (fluture, cu bilă, de retenție) și module de echipamente preasamblate precum stații de pompare sau colectoare. Pentru clienți din România putem aduce componente individuale din aceste categorii, pe baza dimensiunii nominale și a clasei de presiune necesare.
 
 Adaptoarele de flanșă Style 743 și Style 744 ilustrează diferențierea din gamă: Style 743 acoperă domeniul 2-12 inch, rezistă până la 720 psi (50 bar) și se potrivește flanșelor ANSI Clasa 250 și 300, pentru uz general la presiuni ridicate, în timp ce Style 744 este varianta FireLock, listată UL și aprobată FM, gândită specific pentru rețele de sprinklere la maximum 175 psi. Corpul adaptoarelor este din fontă ductilă ASTM A536, iar alegerea între cele două depinde de clasa flanșei de cuplat și de cerința de certificare pentru stingere incendii.
 
@@ -499,7 +498,7 @@ Pentru instalațiile industriale și de protecție la incendiu din România, Vic
       { code: "Adaptoare dielectrice", description: "Izolare electrică între materiale diferite" },
       { code: "Robineți fluture", description: "Categorie de robineți pentru izolare rapidă" },
       { code: "Robineți cu bilă", description: "Categorie de robineți pentru etanșare strânsă" },
-      { code: "Module de echipamente preasamblate", description: "Stații de pompare și header-e preasamblate" },
+      { code: "Module de echipamente preasamblate", description: "Stații de pompare și colectoare preasamblate" },
     ],
     faq: [
       { q: "Ce produce Victaulic?", a: "Victaulic produce sisteme mecanice de îmbinare a conductelor: cuplaje și fitinguri canelate, adaptoare de flanșă, robineți de control și module de echipamente preasamblate, folosite ca alternativă la sudură în instalații industriale, de protecție la incendiu și HVAC." },
@@ -509,8 +508,8 @@ Pentru instalațiile industriale și de protecție la incendiu din România, Vic
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "About Us", url: "https://www.victaulic.com/about-us/", publisher: "Victaulic", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.victaulic.com/products/", publisher: "Victaulic", accessed: "2026-09-23" },
@@ -536,7 +535,7 @@ Pentru utilajele mobile din România — agricultură, construcții, manipulare 
     keyProducts: [
       {
         name: "DFE20 — valvă hidraulică monobloc",
-        description: "Valvă hidraulică monobloc cu comandă solenoidală, folosită pentru a direcționa fluxul de ulei către mai multe circuite ale unui utilaj mobil. Variante cu 3 căi (DFE20/3) și 6 căi (DFE20/6), debit maxim 140 l/min, presiune maximă 200 bar fără drenaj sau 315 bar cu linie de drenaj; racorduri principale G 3/4 sau 1 inch. Pentru ofertă, trimiteți codul complet de pe eticheta valvei sau numărul de căi și tensiunea bobinei necesare.",
+        description: "Valvă hidraulică monobloc cu comandă solenoidală, folosită pentru a direcționa fluxul de ulei către mai multe circuite ale unui utilaj mobil. Variante cu 3 căi (DFE20/3) și 6 căi (DFE20/6), debit maxim 140 l/min, presiune maximă 200 bar fără drenaj sau 315 bar cu linie de drenaj; racorduri principale G 3/4 sau 1 1/16-12 UN (SAE 12). Pentru ofertă, trimiteți codul complet de pe eticheta valvei sau numărul de căi și tensiunea bobinei necesare.",
       },
       {
         name: "Distribuitoare secționale",
@@ -575,8 +574,8 @@ Pentru utilajele mobile din România — agricultură, construcții, manipulare 
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Company", url: "https://www.walvoil.com/company", publisher: "Walvoil S.p.A.", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.walvoil.com/products", publisher: "Walvoil S.p.A.", accessed: "2026-09-23" },
@@ -607,11 +606,11 @@ Pentru fabrici și bucătării profesionale din România cu nevoie de monitoriza
       },
       {
         name: "Dispozitive wireless LoRaWAN — seria MTR și Sky",
-        description: "Transmițătoare wireless bazate pe protocolul LoRaWAN, folosite pentru monitorizarea temperaturii sau altor parametri de proces fără cablare între punctele de măsură. Seria MTR și transmițătoarele Sky trimit datele către stații de bază dedicate, care centralizează informația pentru mai multe puncte simultan. Utile pentru monitorizare distribuită în hale mari sau depozite frigorifice, unde cablarea clasică ar fi costisitoare. Configurația depinde de numărul de puncte de măsură și de distanța față de stația de bază.",
+        description: "Transmițătoare wireless (inclusiv variante LoRaWAN), folosite pentru monitorizarea temperaturii sau altor parametri de proces fără cablare între punctele de măsură. Seria MTR și transmițătoarele Sky trimit datele către stații de bază dedicate, care centralizează informația pentru mai multe puncte simultan. Utile pentru monitorizare distribuită în hale mari sau depozite frigorifice, unde cablarea clasică ar fi costisitoare. Configurația depinde de numărul de puncte de măsură și de distanța față de stația de bază.",
       },
       {
         name: "Afișaje digitale seriile 2000, PM și PME",
-        description: "Familii de afișaje digitale de proces pentru montaj pe panou, care preiau semnalul de la senzori sau transmițătoare și îl arată operatorului direct pe linia de producție. Seria 2000 și seriile PM/PME acoperă formate și game de intrare diferite, alături de seriile 2800, 300, 575F5, FD100 și FD200 pentru aplicații specifice. Alegerea corectă depinde de tipul de semnal de intrare și de formatul de montaj necesar pe panoul existent.",
+        description: "Familii de afișaje digitale de proces, pentru panou sau pentru montaj în câmp, care preiau semnalul de la senzori sau transmițătoare și îl arată operatorului direct pe linia de producție. Seria 2000 și seriile PM/PME sunt afișaje de panou; seriile 2800 și 300 sunt afișaje de câmp compacte, iar 575F5, FD100 și FD200 sunt afișaje de câmp de dimensiuni mari. Alegerea corectă depinde de tipul de semnal de intrare și de formatul de montaj necesar pe panoul existent.",
       },
     ],
     industries: [
@@ -632,7 +631,7 @@ Pentru fabrici și bucătării profesionale din România cu nevoie de monitoriza
       { code: "seria 575F5", description: "Afișaj digital, format dedicat" },
       { code: "seria FD100", description: "Afișaj digital, familie FD" },
       { code: "seria FD200", description: "Afișaj digital, familie FD, format extins" },
-      { code: "MTR series", description: "Transmițător wireless LoRaWAN" },
+      { code: "MTR series", description: "Transmițător wireless din gama Nokeval" },
       { code: "Sky transmitters", description: "Transmițătoare wireless pentru monitorizare" },
       { code: "Stații de bază LoRaWAN", description: "Colectează date de la transmițătoare wireless" },
       { code: "Optris compact", description: "Senzor infraroșu, gamă compactă" },
@@ -647,8 +646,8 @@ Pentru fabrici și bucătării profesionale din România cu nevoie de monitoriza
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Nokeval — homepage", url: "https://www.nokeval.com/", publisher: "Nokeval Oy", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.nokeval.com/products/", publisher: "Nokeval Oy", accessed: "2026-09-23" },
@@ -660,27 +659,27 @@ Pentru fabrici și bucătării profesionale din România cu nevoie de monitoriza
     founded: 1949,
     overview: `OVAL Corporation este un producător japonez de debitmetre industriale, fondat în 1949 odată cu lansarea primului debitmetru volumetric fabricat în Japonia. Gama acoperă șase principii de măsurare — volumetric, Coriolis, vortex, ultrasonic, cu turbină și masic termic — pentru lichide, gaze și abur, alături de instrumente electronice periferice și servicii de calibrare. Pentru clienți din România putem aduce debitmetre individuale din aceste familii, pe baza modelului și a principiului de măsurare necesar.
 
-Seria ULTRA OVAL, cu varianta UF-II, este un debitmetru volumetric cu compensator automat de temperatură și comunicație HART, folosit pentru măsurarea precisă a lichidelor. Pentru debitul masic, ALTIMASS2 Type U aplică principiul Coriolis, potrivit pentru fluide vâscoase sau amestecuri unde densitatea variază. Completează gama MASFLO OVAL2, un debitmetru masic termic pentru gaze, și EXDELTA ST PAF5, un debitmetru vortex pentru abur și gaze la temperaturi ridicate.
+Seria ULTRA OVAL (inclusiv ULTRA UF-II) este un debitmetru volumetric, disponibil opțional cu compensator automat de temperatură și comunicație HART, folosit pentru măsurarea lichidelor. Pentru debitul masic, ALTIMASS2 Type U aplică principiul Coriolis, potrivit pentru fluide vâscoase sau amestecuri unde densitatea variază. Completează gama MASFLO OVAL2, un debitmetru masic termic pentru gaze, și EXDELTA ST PAF5, un debitmetru vortex pentru abur și gaze la temperaturi ridicate.
 
 Pentru rafinării, platforme chimice și utilități din România, OVAL Corporation acoperă situațiile în care principiul de măsurare trebuie ales în funcție de tipul exact de fluid — vâscozitate, conținut de gaz sau temperatură — nu doar de dimensiunea conductei.`,
     whyChoose: [
       "Șase principii de măsurare disponibile — volumetric, Coriolis, vortex, ultrasonic, turbină și masic termic",
-      "Compensare automată de temperatură și comunicație HART la seria ULTRA OVAL",
+      "Compensator automat de temperatură și comunicație HART disponibile opțional la seria ULTRA UF-II",
       "Debitmetru Coriolis ALTIMASS2 pentru fluide vâscoase unde densitatea variază în timp",
       "Peste 75 de ani de fabricație de debitmetre în Japonia, de la primul model volumetric din 1949",
     ],
     keyProducts: [
       {
         name: "ULTRA OVAL / UF-II — debitmetru volumetric",
-        description: "Debitmetru volumetric cu roți ovale, folosit pentru măsurarea precisă a lichidelor curate sau ușor vâscoase. Varianta UF-II adaugă un compensator automat de temperatură și comunicație HART pentru integrarea în sisteme de automatizare. Varianta Types S este versiunea de bază a aceluiași principiu constructiv. Pentru ofertă, precizați diametrul nominal al conductei, tipul de fluid măsurat și dacă este necesară ieșirea HART pentru sistemul de control existent.",
+        description: "Debitmetru volumetric cu roți ovale, folosit pentru măsurarea precisă a lichidelor curate sau ușor vâscoase. Seria ULTRA UF-II este disponibilă opțional cu compensator automat de temperatură și comunicație HART pentru integrarea în sisteme de automatizare. ULTRA OVAL Types S este un model separat, bazat pe același principiu volumetric. Pentru ofertă, precizați diametrul nominal al conductei, tipul de fluid măsurat și dacă este necesară ieșirea HART pentru sistemul de control existent.",
       },
       {
         name: "ALTIMASS2 Type U — debitmetru Coriolis",
-        description: "Debitmetru masic bazat pe principiul Coriolis, care măsoară direct masa fluidului, nu volumul, ceea ce elimină erorile introduse de variația densității cu temperatura sau presiunea. Potrivit pentru fluide vâscoase, emulsii sau amestecuri unde un debitmetru volumetric ar avea erori mari. Tipul U reprezintă configurația de bază a tubului de măsură. Pentru identificarea mărimii corecte, este necesar debitul maxim și minim de proces, plus tipul de fluid vehiculat.",
+        description: "Debitmetru masic bazat pe principiul Coriolis, care măsoară direct masa fluidului, nu volumul, ceea ce elimină erorile introduse de variația densității cu temperatura sau presiunea. Potrivit pentru fluide vâscoase, emulsii sau amestecuri unde un debitmetru volumetric ar avea erori mari. Pentru identificarea mărimii corecte, este necesar debitul maxim și minim de proces, plus tipul de fluid vehiculat.",
       },
       {
         name: "MASFLO OVAL2 și EXDELTA ST PAF5",
-        description: "MASFLO OVAL2, în variantele FHC-FHD, este un debitmetru masic termic pentru gaze, care măsoară direct masa prin principiul de transfer termic, fără a necesita compensare de presiune sau temperatură separată. EXDELTA ST PAF5 este un debitmetru vortex, potrivit pentru abur saturat sau supraîncălzit și gaze la temperaturi ridicate. Alegerea între cele două depinde de tipul de fluid (gaz curat sau abur) și de condițiile de temperatură și presiune din instalație.",
+        description: "MASFLO OVAL2, în variantele FHC-FHD, este un debitmetru masic termic pentru gaze, în execuție antiexplozivă, destinat hidrogenului și majorității gazelor (cu excepția celor puternic corozive), conform producătorului. EXDELTA ST PAF5 este un debitmetru vortex, potrivit pentru lichide, gaze și abur, cu temperaturi de lucru de la -30 până la +300 °C (opțional până la +460 °C), conform producătorului. Alegerea între cele două depinde de tipul de fluid (gaz curat sau abur) și de condițiile de temperatură și presiune din instalație.",
       },
     ],
     industries: [
@@ -692,10 +691,10 @@ Pentru rafinării, platforme chimice și utilități din România, OVAL Corporat
     infinitrade: `Aducem debitmetre OVAL Corporation din gamele volumetrică, Coriolis, vortex și masică termică la comandă prin furnizori din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Ne bazăm pe ce putem și ce nu putem confirma din materialele publice ale producătorului: verificăm modelul cerut sau, dacă nu este cunoscut, principiul de măsurare potrivit fluidului, debitul maxim și minim de proces și dacă este necesară ieșirea HART. Nu deținem date proprii despre stocul OVAL Corporation la furnizorii europeni, așa că fiecare termen se confirmă separat pentru comanda dumneavoastră. Precizați tipul de fluid și condițiile de temperatură/presiune din instalație pentru o ofertă corectă.`,
     limitation: "Nu efectuăm dimensionarea hidraulică a liniei de proces; livrăm debitmetrul OVAL Corporation configurat pe baza datelor de debit confirmate de client.",
     productCodes: [
-      { code: "UC-1", description: "Model de debitmetru din gama OVAL" },
-      { code: "UF-II (ULTRA UF-II)", description: "Volumetric, compensator temperatură, HART" },
+      { code: "UC-1", description: "Debitmetru ultrasonic" },
+      { code: "UF-II (ULTRA UF-II)", description: "Volumetric; opțional cu compensator automat de temperatură și HART" },
       { code: "ULTRA OVAL Types S", description: "Debitmetru volumetric, variantă de bază" },
-      { code: "ALTIMASS2 Type U", description: "Debitmetru Coriolis, configurație de bază" },
+      { code: "ALTIMASS2 Type U", description: "Debitmetru Coriolis" },
       { code: "MASFLO OVAL2 FHC-FHD", description: "Debitmetru masic termic pentru gaze" },
       { code: "EXDELTA ST PAF5", description: "Debitmetru vortex pentru abur și gaze" },
       { code: "Debitmetru volumetric", description: "Categorie de debitmetre cu roți ovale" },
@@ -713,8 +712,8 @@ Pentru rafinării, platforme chimice și utilități din România, OVAL Corporat
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-09-23",
-    changelog: [{ date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-05",
+    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-23", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "Corporate Information", url: "https://www.oval.co.jp/english/company/", publisher: "OVAL Corporation", accessed: "2026-09-23" },
       { title: "Products overview", url: "https://www.oval.co.jp/english/products/", publisher: "OVAL Corporation", accessed: "2026-09-23" },

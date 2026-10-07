@@ -218,7 +218,7 @@ export default function UsBrandsPage() {
             <p className={base.sectionNote}>
               Pentru aceste {hard.length} de branduri nu am identificat, pe site-ul producătorului, o filială sau o rețea de distribuție în Europa.
               Intră totuși ca subcomponente în multe utilaje importate din SUA — relee și temporizatoare, reductoare NEMA, cuplaje, cilindri hidraulici,
-              filtre, termometre și manometre, robineți din plastic, scule. Le aducem la comandă prin import; trimite codul de pe piesă și îți
+              filtre, termometre și manometre, robineți din plastic, scule. Le aducem la comandă prin import; trimiteți codul de pe piesă și vă
               confirmăm dacă putem oferta și în cât timp.
             </p>
             <ul className={`${base.brandList} ${base.compact}`}>
