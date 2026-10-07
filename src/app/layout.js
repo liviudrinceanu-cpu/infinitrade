@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/next';
 import { QuoteCartProvider } from '@/context/QuoteCartContext';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { config } from '@/lib/config';
+import { GOOGLE_BUSINESS_PROFILE_URL } from '@/data/company';
 
 // Dynamically import WebVitals to avoid SSR (client-only component)
 const WebVitals = dynamic(() => import('@/components/WebVitals'), { ssr: false });
@@ -152,6 +153,7 @@ const organizationSchema = {
     'https://www.linkedin.com/company/infinitrade-romania',
     'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
     'https://www.risco.ro/verifica-firma/driatheli-group-cui-26209397',
+    GOOGLE_BUSINESS_PROFILE_URL,
   ],
 }
 
@@ -176,9 +178,11 @@ const localBusinessSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: '45.7833',
-    longitude: '21.2833'
+    latitude: '45.775692',
+    longitude: '21.3000062'
   },
+  hasMap: GOOGLE_BUSINESS_PROFILE_URL,
+  sameAs: [GOOGLE_BUSINESS_PROFILE_URL],
   openingHoursSpecification: {
     '@type': 'OpeningHoursSpecification',
     dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
