@@ -490,7 +490,7 @@ Parker Filtration oferă filtre hidraulice și de lubrifiere testate conform ISO
 
  Parker Filtration este distribuit pentru că oferă un ecosistem complet: filtre pentru o gamă largă de aplicații, accesorii compatibile, echipamente de analiză a fluidului (Icount, Par-Test).`,
     whyChoose: [
-      'Gamă completă filtre pentru hidraulică, pneumatică, proces',
+      'Gama cuprinde filtre pentru hidraulică, pneumatică, proces',
       'Tehnologie Beta-rated cu eficiență validată ISO 16889',
       'Sisteme portabile și staționare de purificare a uleiului hidraulic',
       'Sisteme mobile de purificare ulei offline',
@@ -678,7 +678,7 @@ Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec si
  Gama include senzori, bariere și izolatoare Ex, sisteme RFID și soluții de viziune industrială. Alegerea produsului potrivit depinde de aplicație și de clasificarea zonei, iar noi o confirmăm pe cod, din documentația producătorului.`,
     whyChoose: [
       'Portofoliu amplu de echipamente pentru zone explozive (ATEX/IECEx)',
-      'Gamă completă senzori inductivi/capacitivi/optici IO-Link',
+      'Gama cuprinde senzori inductivi/capacitivi/optici IO-Link',
       'Bariere și izolatoare Ex pentru conectare safe area - hazardous area',
       'Sisteme RFID UHF pentru tracking industrial',
       'Viziune industrială VOS pentru robotică și inspecție calitate',
@@ -1093,7 +1093,7 @@ Tehnologia CLIPLINE stabilește standardul pentru borniere feed-through - contac
 Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germania. Aprobările (de exemplu UL, ATEX, IECEx, aprobări navale) diferă de la un produs la altul și se verifică în fișa fiecărui cod. Software-ul CLIP-PROJECT permite design automatizat panou electric - importă lista fire, software-ul generează layout borniere, liste comenzi, etichete și documentație. Phoenix Contact este distribuit pentru că oferă o gamă largă pentru panoul electric, de la borne simple la cabluri prefabricate.`,
     whyChoose: [
       'Borniere CLIPLINE cu tehnologie push-in pentru conexiune rapidă fără scule',
-      'Gamă completă multi-level terminals pentru economie spațiu (2/3/4 nivele)',
+      'Gama cuprinde multi-level terminals pentru economie spațiu (2/3/4 nivele)',
       'Conectori industriali M8/M12 pentru senzori și fieldbus',
       'Borniere cu aprobări multiple (UL, ATEX, IECEx, navale), conform fișelor producătorului',
       'Software CLIP-PROJECT pentru design automatizat panou electric',
@@ -1235,7 +1235,7 @@ Pilz are 42 de filiale și sucursale în lume și 25 de parteneri comerciali; di
     keyProducts: [
       {
         name: 'Relee safety PNOZ X/S',
-        description: 'Relee de siguranță electromecanic pentru monitorizare funcții safety de bază. PNOZ X - gamă completă pentru emergency stop (1-2 canale), safety gates (cu/fără guard locking), two-hand control, light curtain monitoring. Principiu: arhitectură redundantă dual-channel cu auto-monitoring - dacă un canal eșuează, relay-ul nu permite restart periculos. Output contacts forcibly-guided conform EN 50205 - garantează că NO și NC nu pot fi închise simultan. Nivelul de siguranță (categorie, PL, SIL) diferă pe model și se confirmă din fișa tehnică. PNOZ s (PNOZsigma) - versiuni compacte, de la 12,5 mm lățime, pentru panou dens. Montare șină DIN EN 60715. Conexiune screw terminals sau spring-cage. LED status indicator per canal pentru diagnostic. Reset manual, automatic sau monitored manual conform aplicație. Aplicații: protecție prese, mașini-unelte, roboți, line-uri ambalare. UL, CSA, CE certified; domeniul de temperatură se confirmă din fișa tehnică a modelului. Manual detaliat cu wiring diagrams pentru fiecare aplicație standard. TÜV certified conform toate standardele relevante safety.'
+        description: 'Relee de siguranță electromecanic pentru monitorizare funcții safety de bază. PNOZ X - gamă pentru emergency stop (1-2 canale), safety gates (cu/fără guard locking), two-hand control, light curtain monitoring. Principiu: arhitectură redundantă dual-channel cu auto-monitoring - dacă un canal eșuează, relay-ul nu permite restart periculos. Output contacts forcibly-guided conform EN 50205 - garantează că NO și NC nu pot fi închise simultan. Nivelul de siguranță (categorie, PL, SIL) diferă pe model și se confirmă din fișa tehnică. PNOZ s (PNOZsigma) - versiuni compacte, de la 12,5 mm lățime, pentru panou dens. Montare șină DIN EN 60715. Conexiune screw terminals sau spring-cage. LED status indicator per canal pentru diagnostic. Reset manual, automatic sau monitored manual conform aplicație. Aplicații: protecție prese, mașini-unelte, roboți, line-uri ambalare. UL, CSA, CE certified; domeniul de temperatură se confirmă din fișa tehnică a modelului. Manual detaliat cu wiring diagrams pentru fiecare aplicație standard. TÜV certified conform toate standardele relevante safety.'
       },
       {
         name: 'Controlere safety PNOZmulti 2',

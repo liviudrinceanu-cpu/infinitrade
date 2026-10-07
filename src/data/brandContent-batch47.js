@@ -116,11 +116,11 @@ Pentru piața din România, gama Kontron are sens la integratorii de sisteme și
     name: "Piab",
     overview: `Piab este un producător suedez de echipamente pentru vid industrial, cu produse folosite la ridicarea, fixarea și transportul pieselor sau materialelor în vrac prin depresiune. Gama include pompe de vid și ejectoare, ventuze de aspirație, gripere pentru roboți și sisteme de transport pneumatic prin vid. Din portofoliul Piab putem oferta componente individuale de vid sau ansambluri complete de tip EOAT (end-of-arm tooling), montate direct pe brațul unui robot industrial.
 
-Piab concurează în segmentul componentelor de vid cu Vuototecnica, dar are un accent mai puternic pe automatizare robotică: ventuzele din seria BLFF (diametrele disponibile se confirmă pe cod) sunt gândite pentru flux mare de aer și vid adânc, iar griperul piCOBOT ridică sarcini de până la 35 kg în varianta L High Payload, pentru linii unde robotul manipulează piese grele fără schimbarea principiului de prindere. Pentru materiale în vrac, sistemul piFLOW transportă pulberi și granule prin vid, fără liniile de transport mecanic clasice.
+Piab oferă componente de vid, cu accent pe automatizarea robotică: ventuzele din seria BLFF (diametrele disponibile se confirmă pe cod) sunt gândite pentru flux mare de aer și vid adânc, iar griperul piCOBOT ridică sarcini de până la 35 kg în varianta L High Payload, pentru linii unde robotul manipulează piese grele fără schimbarea principiului de prindere. Pentru materiale în vrac, sistemul piFLOW transportă pulberi și granule prin vid, fără liniile de transport mecanic clasice.
 
 Pentru instalațiile din România, componentele Piab au sens la integratorii de linii robotizate și la proiectele de paletizare sau ambalare unde vidul e mai practic decât o clemă mecanică — mai ales pe piese fragile, poroase sau cu suprafață neregulată, unde o ventuză bine aleasă ține piesa fără s-o deformeze.`,
     whyChoose: [
-      "Gamă completă de vid — de la pompe și ejectoare până la ventuze și gripere robotizate, sub același producător",
+      "Gamă de vid — de la pompe și ejectoare până la ventuze și gripere robotizate, sub același producător",
       "Ventuze BLFF cu flux mare de aer și vid adânc, pentru viteze de ciclu ridicate pe linia de producție",
       "Griperul piCOBOT L High Payload manipulează sarcini de până la 35 kg direct pe brațul robotului",
       "Sistemul piFLOW transportă pulberi și granule prin vid, fără linii de transport mecanic separate",
@@ -222,12 +222,12 @@ Pentru instalațiile din România, componentele Piab au sens la integratorii de 
     headquarters: "Groveland, Massachusetts, SUA",
     overview: `A.W. Chesterton Company este un producător american de etanșări mecanice, presetupe și garnituri pentru pompe, mixere și agitatoare, cu sediul la Groveland, în statul Massachusetts, activ din 1884. Din gama Chesterton putem oferta etanșări mecanice split (montabile fără demontarea completă a pompei), etanșări tip cartridge, etanșări pentru gaze și etanșări pentru medii cu conținut de solide (slurry), plus ambalaje și garnituri clasice pentru presetupe. Compania produce și lubrifianți industriali și acoperiri industriale sub marca ARC.
 
-Chesterton concurează cu Klinger, pe segmentul etanșărilor și garniturilor industriale, dar are un accent mai puternic pe etanșările mecanice pentru pompe rotative, unde split seal-urile sunt gândite special pentru a fi montate fără scoaterea arborelui din lagăre — un avantaj clar la reparațiile în timp scurt de oprire. Anumite produse dețin certificare NSF/ANSI 61, relevantă pentru echipamentele care intră în contact cu apă potabilă.
+Chesterton oferă etanșări și garnituri industriale, cu accent pe etanșările mecanice pentru pompe rotative, unde split seal-urile sunt gândite special pentru a fi montate fără scoaterea arborelui din lagăre — un avantaj clar la reparațiile în timp scurt de oprire. Anumite produse dețin certificare NSF/ANSI 61, relevantă pentru echipamentele care intră în contact cu apă potabilă.
 
 Pentru instalațiile din România, gama Chesterton are sens la stațiile de pompare din energie, chimie și tratarea apei, unde o etanșare montabilă rapid, fără demontarea completă a pompei, reduce timpul de oprire a instalației la o intervenție planificată sau de urgență.`,
     whyChoose: [
       "Etanșări mecanice split, montabile fără demontarea completă a pompei — reduc timpul de oprire la reparații",
-      "Gamă completă de etanșări — split, cartridge, gaze și slurry — pentru medii diferite de proces",
+      "Gamă de etanșări — split, cartridge, gaze și slurry — pentru medii diferite de proces",
       "Certificare NSF/ANSI 61 pentru anumite produse care intră în contact cu apă potabilă",
       "Suport tehnic local în mai multe regiuni ale lumii, conform site-ului producătorului",
       "Peste 140 de ani de experiență în etanșări industriale pentru pompe și mixere"
@@ -360,7 +360,7 @@ Pentru instalațiile din România, gama Chesterton are sens la stațiile de pomp
     headquarters: "Biella, Italia",
     overview: `Chiorino este un producător italian de benzi transportoare și de proces, fondat în 1906 de Lorenzo Chiorino la Biella, în nordul Italiei. Gama acoperă benzi omogene și de transmisie, benzi modulare din plastic, benzi de sincronizare (timing belts), benzi de transmisie de putere și benzi rotunde sau în V din poliuretan. Din portofoliul Chiorino putem oferta atât benzi pentru transportul produselor, cât și benzi de proces pentru operații precum tăierea sau perforarea materialelor.
 
-Chiorino concurează cu Habasit, pe segmentul benzilor transportoare ușoare, cu o rețea de producție și distribuție extinsă pe cinci continente, gândită pentru livrare rapidă și service apropiat de client, indiferent de regiune. Compania menționează explicit politici de etică și responsabilitate corporativă (Code of Ethics), aplicate la nivelul întregului grup.
+Chiorino oferă benzi transportoare ușoare, cu o rețea de producție și distribuție extinsă pe cinci continente, gândită pentru livrare rapidă și service apropiat de client, indiferent de regiune. Compania menționează explicit politici de etică și responsabilitate corporativă (Code of Ethics), aplicate la nivelul întregului grup.
 
 Pentru instalațiile din România, benzile Chiorino au sens în liniile de procesare alimentară, ambalare, logistică internă (intralogistică) și manipulare bagaje în aeroporturi, unde tipul de bandă trebuie ales corect după produsul transportat, viteza liniei și cerințele de igienă ale procesului.`,
     whyChoose: [
@@ -587,7 +587,7 @@ Pentru instalațiile din România, discurile Fike au sens la reactoarele chimice
     name: "Piller",
     overview: `Piller produce sisteme UPS rotative de mare putere și soluții de stocare a energiei, folosite acolo unde o oprire de alimentare de câteva milisecunde poate opri un proces critic. Din gama Piller putem oferta UPS rotative din seria UNIBLOCK, module de putere critică cu volant de inerție (flywheel), UPS statice din seriile M+ și CleanSource, plus sisteme de stabilizare dinamică a puterii sub marca SHIELDX.
 
-Piller concurează cu Eaton, deja prezent pe site-ul nostru, pe segmentul alimentării neîntrerupte de mare putere, dar diferența clară e tehnologia rotativă: seria UNIBLOCK acoperă puteri de la 150 kW până la 50 MW, iar modulele de putere critică cu volant merg de la 225 kW la 2,4 MW, o plajă tipică pentru centrele de date mari sau instalațiile industriale continue. UPS-urile statice din seria M+ și CleanSource acoperă puteri de la 250 la 1.200 kW, pentru aplicații unde un UPS static clasic rămâne soluția potrivită.
+Piller este specializat în alimentare neîntreruptă de mare putere, cu tehnologie rotativă: seria UNIBLOCK acoperă puteri de la 150 kW până la 50 MW, iar modulele de putere critică cu volant merg de la 225 kW la 2,4 MW, o plajă tipică pentru centrele de date mari sau instalațiile industriale continue. UPS-urile statice din seria M+ și CleanSource acoperă puteri de la 250 la 1.200 kW, pentru aplicații unde un UPS static clasic rămâne soluția potrivită.
 
 Pentru instalațiile din România, gama Piller are sens la centrele de date, spitale, instalații bancare și infrastructuri critice unde continuitatea alimentării electrice nu poate depinde doar de un generator diesel cu timp de pornire de câteva secunde.`,
     whyChoose: [
@@ -696,7 +696,7 @@ Pentru instalațiile din România, gama Piller are sens la centrele de date, spi
     headquarters: "Feldkirchen, Germania",
     overview: `Nanotec Electronic GmbH este un producător german de motoare pas cu pas și servomotoare compacte, fondat în 1995 și cu sediul la Feldkirchen, lângă München. Gama acoperă motoare pas cu pas hibrizi în dimensiuni NEMA 6 până la NEMA 42, cu cuplu de la 0,62 până la 2.500 Ncm, plus servomotoare BLDC și actuatori liniari. Din portofoliul Nanotec putem oferta motoare standard, variante plate, cu ax gol, cu protecție IP65 sau cu controller/drive integrat direct pe motor.
 
-Nanotec concurează cu Kollmorgen, deja prezent pe site-ul nostru, pe segmentul motoarelor pentru automatizare de precizie, dar diferența notabilă e tehnologia de control fără senzor (sensorless control), care calculează poziția rotorului fără encoder fizic — util acolo unde spațiul de montaj sau costul unui encoder suplimentar e o problemă. Motoarele hibrizi din gamă acoperă unghiuri de pas standard de 0,9° sau 1,8°, alese după precizia de poziționare necesară.
+Nanotec oferă motoare pentru automatizare de precizie, cu tehnologie de control fără senzor (sensorless control), care calculează poziția rotorului fără encoder fizic — util acolo unde spațiul de montaj sau costul unui encoder suplimentar e o problemă. Motoarele hibrizi din gamă acoperă unghiuri de pas standard de 0,9° sau 1,8°, alese după precizia de poziționare necesară.
 
 Pentru instalațiile din România, motoarele Nanotec au sens la echipamentele de laborator, dispozitivele optice, mașinile-unelte și instrumentele de analiză unde e nevoie de poziționare precisă într-un gabarit compact, fără complexitatea unui servomotor cu encoder extern.`,
     whyChoose: [
@@ -844,7 +844,7 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
       "Platformă de acumulatori 18V pentru sculele fără cablu de putere mare",
       "Parte din grupul TTS Tooltechnic Systems, alături de mărci specializate precum SawStop",
       "Peste 100 de ani de experiență în fabricarea sculelor electrice de precizie",
-      "Gamă completă pentru prelucrarea lemnului — fierăstraie, freze, șlefuitoare — sub un singur producător"
+      "Gamă pentru prelucrarea lemnului — fierăstraie, freze, șlefuitoare — sub un singur producător"
     ],
     keyProducts: [
       { name: "Fierăstraie cu Pătrundere (Tauchsäge)", description: "Fierăstraie circulare cu pătrundere directă în material, ghidate pe șină de precizie, folosite pentru tăieri drepte de lungime mare la panouri de lemn sau mobilier. Compatibile cu sistemul de aspirare a prafului direct de la lama de tăiere." },
@@ -944,9 +944,9 @@ Pentru piața din România, sculele Festool au sens la tâmplăriile profesional
     headquarters: "Morangis, Franța",
     overview: `Facom este un producător francez de scule de mână profesionale, fondat în 1918 de Louis Mosés și cu sediul social actual la Morangis, lângă Paris, din 1970. Din gama Facom putem oferta chei dinamometrice, clești multipoziție (pinces multiprises), carouri de atelier (servantes d'atelier), chei cu deschidere reglabilă și șurubelnițe, folosite în mecanica auto, electricitate și mentenanță industrială. Compania oferă garanție pe viață pentru sculele sale de mână, politică aplicată din 1952.
 
-Facom concurează cu Stahlwille, deja prezent pe site-ul nostru, pe segmentul sculelor de mână profesionale de precizie. Din 2005 marca a intrat în portofoliul grupului american Stanley Black & Decker, care i-a preluat integral activitatea în Franța în 2017, păstrând Facom ca brand distinct de scule profesionale.
+Facom este o marcă de scule de mână profesionale de precizie. Din 2005 marca a intrat în portofoliul grupului american Stanley Black & Decker, care i-a preluat integral activitatea în Franța în 2017, păstrând Facom ca brand distinct de scule profesionale.
 
-Pentru piața din România, sculele Facom au sens la atelierele de mecanică auto, service-urile electrice și echipele de mentenanță industrială care caută scule de mână franceze cu garanție pe viață, ca alternativă la mărcile germane deja consacrate pe piață.`,
+Pentru piața din România, sculele Facom au sens la atelierele de mecanică auto, service-urile electrice și echipele de mentenanță industrială care caută scule de mână franceze cu garanție pe viață.`,
     whyChoose: [
       "Garanție pe viață pentru sculele de mână, politică aplicată constant din 1952",
       "Sediu social la Morangis, lângă Paris, din 1970",
@@ -1193,7 +1193,7 @@ Pentru piața din România, dispozitivele Bessey au sens la atelierele de tâmpl
     headquarters: "Chesterbrook, Pennsylvania, SUA",
     overview: `Vishay Precision Group (VPG) este un producător american de celule de sarcină, traductoare de forță și componente de precizie pentru măsurare, cu sediul la Chesterbrook, în Pennsylvania. Portofoliul e structurat pe mai multe mărci: Micro-Measurements pentru mărci tensometrice (strain gages) și analiza tensiunilor experimentale, VPG Foil Resistors pentru rezistori de precizie ultra-stabili, iar pe segmentul cântăririi industriale, VPG Force Sensors reunește mărcile Tedea-Huntleigh, Revere, Celtron și Sensortronics.
 
-VPG concurează cu HBM, deja prezent pe site-ul nostru, pe segmentul celulelor de sarcină și traductoarelor de precizie, dar cu o gamă mai largă de mărci specializate: BLH Nobel acoperă soluții complete de cântărire pentru procese industriale la scară mare și aplicații offshore, VPG Onboard Weighing (cu submărcile Vulcan Scales și SI Onboard) deservește cântărirea pe vehicule și echipamente off-highway, iar mărcile KELK, Gleeble, DTS și Pacific Instruments acoperă echipamente specializate pentru siderurgie, cercetare de materiale, teste de impact și achiziție de date de înaltă performanță.
+VPG oferă celule de sarcină și traductoare de precizie prin mai multe mărci specializate: BLH Nobel acoperă soluții complete de cântărire pentru procese industriale la scară mare și aplicații offshore, VPG Onboard Weighing (cu submărcile Vulcan Scales și SI Onboard) deservește cântărirea pe vehicule și echipamente off-highway, iar mărcile KELK, Gleeble, DTS și Pacific Instruments acoperă echipamente specializate pentru siderurgie, cercetare de materiale, teste de impact și achiziție de date de înaltă performanță.
 
 Pentru piața din România, celulele de sarcină și traductoarele VPG au sens la platformele de cântărire industrială, sistemele de dozare de precizie și proiectele de instrumentație unde traductorul trebuie ales exact după capacitatea și precizia cerută de proces.`,
     whyChoose: [
@@ -1325,7 +1325,7 @@ Pentru piața din România, celulele de sarcină și traductoarele VPG au sens l
     headquarters: "Wernigerode, Germania",
     overview: `Katronic este un producător german de debitmetre ultrasonice cu montare pe exteriorul conductei (clamp-on), cu sediul la Wernigerode, în regiunea Harz. Din gama Katronic, sub numele de familie KATflow, putem oferta debitmetre fixe pentru o singură linie sau pentru două canale, modele certificate pentru zone cu risc de explozie și debitmetre portabile pentru verificări punctuale sau măsurători temporare, fără a tăia sau perfora conducta.
 
-Katronic concurează cu Krohne, deja prezent pe site-ul nostru, pe segmentul debitmetrelor ultrasonice, dar avantajul principal al montării clamp-on rămâne același la toată gama: măsurarea debitului fără întreruperea procesului și fără modificări la conductă. Gama acoperă modelul KATflow 100 pentru măsurători de flux și energie termică (BTU) pe o singură linie, KATflow 150 cu două canale pentru instalare fixă, KATflow 170 certificat pentru zone Ex 1 și 2, KATflow 180 pentru măsurarea gazelor la orice presiune, și modelele portabile KATflow 200, 210 și 230 pentru verificări rapide sau măsurători în teren.
+Katronic oferă debitmetre ultrasonice, iar avantajul principal al montării clamp-on rămâne același la toată gama: măsurarea debitului fără întreruperea procesului și fără modificări la conductă. Gama acoperă modelul KATflow 100 pentru măsurători de flux și energie termică (BTU) pe o singură linie, KATflow 150 cu două canale pentru instalare fixă, KATflow 170 certificat pentru zone Ex 1 și 2, KATflow 180 pentru măsurarea gazelor la orice presiune, și modelele portabile KATflow 200, 210 și 230 pentru verificări rapide sau măsurători în teren.
 
 Pentru instalațiile din România, debitmetrele Katronic au sens la conductele existente unde tăierea pentru montarea unui debitmetru clasic ar opri procesul, sau la verificări periodice de debit fără echipament permanent instalat.`,
     whyChoose: [

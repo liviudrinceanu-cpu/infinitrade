@@ -142,7 +142,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
     headquarters: "Washington, D.C., SUA",
     overview: `Xylem este un grup american specializat în tehnologii pentru apă, cu sediul la Washington, D.C. Compania reunește mai multe branduri de pompe și echipamente de tratare a apei, printre care Lowara, Flygt și Goulds Water Technology, deja prezente separat în oferta noastră. Pentru piața din România putem oferta și alte linii din portofoliul Xylem, precum pompele de drenaj Godwin sau pompele și schimbătoarele de căldură Bell & Gossett.
 
-Xylem operează în aproximativ 150 de țări și acoperă practic tot ciclul apei: captare, transport, tratare și evacuare. Spre deosebire de un producător cu o singură gamă de pompe, Xylem funcționează ca un grup de branduri specializate — Lowara pentru pompe și acționări destinate alimentării cu apă, apelor uzate, HVAC și protecției la incendiu, Flygt pentru pomparea apelor uzate, Goulds Water Technology pentru aplicații agricole, comerciale și industriale ușoare, iar Godwin pentru pompe autoamorsante de drenaj folosite temporar pe șantiere sau la inundații. Concurează cu Grundfos și cu grupul KSB pe segmentul pompelor municipale și industriale.
+Xylem operează în aproximativ 150 de țări și acoperă practic tot ciclul apei: captare, transport, tratare și evacuare. Xylem funcționează ca un grup de branduri specializate — Lowara pentru pompe și acționări destinate alimentării cu apă, apelor uzate, HVAC și protecției la incendiu, Flygt pentru pomparea apelor uzate, Goulds Water Technology pentru aplicații agricole, comerciale și industriale ușoare, iar Godwin pentru pompe autoamorsante de drenaj folosite temporar pe șantiere sau la inundații.
 
 Pentru clienții din România, avantajul Xylem este acoperirea largă de aplicații sub un singur grup: de la stații de pompare municipale, la dewatering temporar pe șantiere și la echipamente pentru instalații HVAC din clădiri. Rămâne utilă mai ales acolo unde un proiect combină mai multe tipuri de pompare.`,
     whyChoose: [
@@ -268,7 +268,7 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
     headquarters: "San Bonifacio (Verona), Italia",
     overview: `Pedrollo este un producător italian de electropompe, cu sediul la San Bonifacio, lângă Verona, fondat în 1974 de Silvano Pedrollo. Gama acoperă pompe de suprafață cu rotor periferic, pompe autoamorsante, pompe submersibile pentru foraje de 3 până la 6 țoli, seturi de presurizare și panouri de control. Pentru piața din România putem oferta atât pompe individuale, cât și seturi complete de presurizare pentru case, ferme sau instalații de irigații.
 
-Punctul forte al Pedrollo e acoperirea completă a segmentului de pompe de mică și medie putere, cu debite maxime în gamă de până la 2.400 de litri pe minut, în funcție de model, și pompe submersibile disponibile în variante de 3, 4, 5 și 6 țoli pentru foraje de diametre diferite. Materialele constructive variază de la fontă și oțel inoxidabil până la polipropilenă și Noryl, în funcție de agresivitatea apei pompate. În segmentul pompelor de irigații și uz agricol, Pedrollo concurează direct cu DAB, alt brand italian cu gamă asemănătoare de electropompe.
+Pedrollo acoperă segmentul de pompe de mică și medie putere, cu debite maxime în gamă de până la 2.400 de litri pe minut, în funcție de model, și pompe submersibile disponibile în variante de 3, 4, 5 și 6 țoli pentru foraje de diametre diferite. Materialele constructive variază de la fontă și oțel inoxidabil până la polipropilenă și Noryl, în funcție de agresivitatea apei pompate.
 
 Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o opțiune solidă pentru pompele de foraj și pentru seturile de presurizare, folosite la locuințe individuale, ferme mici și sisteme de irigații prin picurare sau aspersiune.`,
     whyChoose: [
@@ -488,7 +488,7 @@ Pentru industria chimică și de procesare din România, Husky rămâne o soluț
     headquarters: "Fontaneto d'Agogna (Novara), Italia",
     overview: `Caleffi este un producător italian de componente pentru instalații hidronice, cu sediul la Fontaneto d'Agogna, în provincia Novara, fondat în 1961. Gama include separatoare hidraulice, dezaeratoare și separatoare de impurități, robineți termostatici pentru radiatoare, robineți de echilibrare și de reducție de presiune, module de amestec și distribuție, precum și fitinguri. Pentru piața din România putem oferta componente pentru instalații de încălzire, răcire și apă sanitară din clădiri rezidențiale și comerciale.
 
-Caleffi produce 13 categorii distincte de componente hidronice, de la separatoarele de aer și impurități, folosite pentru protejarea cazanelor și pompelor de circulație, până la robineții de echilibrare dinamică din gama FlowCal, care mențin debitul constant indiferent de variațiile de presiune din rețea. Spre deosebire de un producător de pompe, Caleffi acoperă partea de reglare, protecție și distribuție a fluidului termic din instalație — segment în care se compară cu Honeywell, prezent și el în oferta noastră cu robineți de control pentru automatizări.
+Caleffi produce 13 categorii distincte de componente hidronice, de la separatoarele de aer și impurități, folosite pentru protejarea cazanelor și pompelor de circulație, până la robineții de echilibrare dinamică din gama FlowCal, care mențin debitul constant indiferent de variațiile de presiune din rețea. Caleffi acoperă partea de reglare, protecție și distribuție a fluidului termic din instalație.
 
 Pentru instalatori și proiectanți de instalații termice din România, Caleffi rămâne o resursă pentru componentele de reglare fină — separatoare, robineți de echilibrare, module de amestec — mai ales la clădiri cu sisteme de încălzire pe mai multe circuite.`,
     whyChoose: [
@@ -726,9 +726,9 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
 
 Bonfiglioli acoperă atât reductoare industriale clasice, cu roți dințate cilindrice sau melcate, cât și cutii de viteze planetare de precizie pentru poziționare fină, folosite în robotică și automatizări. Compania are filiale în numeroase țări, iar disponibilitatea pieselor de schimb se confirmă la momentul ofertei. În segmentul motoreductoarelor industriale, Bonfiglioli se compară cu WEG, alt brand prezent în oferta noastră, dar orientat mai ales spre motoare electrice standard, nu spre reductoare de precizie.
 
-Pentru fabricile din România cu linii de producție, benzi transportoare sau utilaje de manipulare, Bonfiglioli oferă o gamă completă, de la reductorul simplu până la sistemul de acționare cu servomotor și invertor, utilă la retehnologizări sau linii noi.`,
+Pentru fabricile din România cu linii de producție, benzi transportoare sau utilaje de manipulare, Bonfiglioli oferă o gamă de la reductorul simplu până la sistemul de acționare cu servomotor și invertor, utilă la retehnologizări sau linii noi.`,
     whyChoose: [
-      "Gamă completă, de la reductoare industriale clasice până la cutii de viteze planetare de precizie pentru robotică",
+      "Gamă de la reductoare industriale clasice până la cutii de viteze planetare de precizie pentru robotică",
       "Transmisii dedicate pentru macarale și utilaje de foraj (slew drives, winch drives), nu doar reductoare standard",
       "Filiale în numeroase țări, utile pentru accesul la piese de schimb",
       "Prezență internațională prin filiale proprii în mai multe țări",
@@ -1190,7 +1190,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
     headquarters: "Coburg, Germania",
     overview: `Kaeser Kompressoren este un producător german de compresoare, cu sediul la Coburg, fondat în 1919. Gama include compresoare cu șurub rotativ cu răcire cu lichid, cu puteri de la 2,2 la 515 kW, compresoare fără ulei, pompe de vid cu șurub și sisteme de recuperare a căldurii. Pentru piața din România putem oferta compresoare cu șurub pentru aer comprimat industrial, din seriile ASD, BSD și CSD.
 
-Seriile ASD, BSD și CSD/CSDX acoperă împreună un interval de putere de la 18,5 la 110 kW, prezentate de producător ca sursă fiabilă de aer comprimat pentru ateliere și operațiuni industriale. Seriile ASD și CSD/CSDX au management termic electronic, care reglează dinamic temperatura lichidului de răcire, iar variantele T includ uscător refrigerant integrat; variantele SFC folosesc variatoare de turație pentru eficiență la sarcină parțială. Compresoarele mari, de până la 515 kW, completează gama pentru fabrici cu consum ridicat de aer comprimat. Kaeser concurează direct cu Atlas Copco și Ingersoll Rand pe segmentul compresoarelor cu șurub industriale.
+Seriile ASD, BSD și CSD/CSDX acoperă împreună un interval de putere de la 18,5 la 110 kW, prezentate de producător ca sursă fiabilă de aer comprimat pentru ateliere și operațiuni industriale. Seriile ASD și CSD/CSDX au management termic electronic, care reglează dinamic temperatura lichidului de răcire, iar variantele T includ uscător refrigerant integrat; variantele SFC folosesc variatoare de turație pentru eficiență la sarcină parțială. Compresoarele mari, de până la 515 kW, completează gama pentru fabrici cu consum ridicat de aer comprimat.
 
 Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama Kaeser oferă opțiuni de recuperare a căldurii, utile pentru reducerea costului total de operare pe termen lung.`,
     whyChoose: [
@@ -1307,7 +1307,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
     name: "Ingersoll Rand",
     overview: `Ingersoll Rand este un producător american de compresoare și echipamente pneumatice industriale, cu peste 160 de ani de achiziții și inovații, după cum declară producătorul pe site-ul propriu. Gama acoperă compresoare cu piston (o treaptă și două trepte), compresoare cu șurub cu și fără ulei, compresoare centrifugale și compresoare de înaltă presiune pentru industria PET. Pentru piața din România putem oferta compresoare cu șurub din seria R, pentru aer comprimat industrial general.
 
-Seria R de compresoare cu șurub e prezentată de producător ca soluție compactă, potrivită pentru spații de producție variate, iar versiunea Next Generation R-Series adaugă tehnologia V-Shield pentru prevenirea scurgerilor de ulei. Gama SSR completează oferta cu compresoare cu șurub în două trepte, cu injecție de ulei, pentru eficiență energetică mai bună la funcționare continuă. Pe segmentul compresoarelor cu șurub industriale, Ingersoll Rand concurează direct cu Atlas Copco și Kaeser, ambele prezente și ele în oferta noastră.
+Seria R de compresoare cu șurub e prezentată de producător ca soluție compactă, potrivită pentru spații de producție variate, iar versiunea Next Generation R-Series adaugă tehnologia V-Shield pentru prevenirea scurgerilor de ulei. Gama SSR completează oferta cu compresoare cu șurub în două trepte, cu injecție de ulei, pentru eficiență energetică mai bună la funcționare continuă.
 
 Pentru fabricile din România cu nevoie de aer comprimat industrial general, seria R oferă o alternativă cunoscută pe piață, deși pentru parametrii tehnici exacți ai fiecărui model recomandăm confirmarea directă la momentul ofertei.`,
     whyChoose: [

@@ -179,7 +179,7 @@ Renold oferă lanțuri conform standardelor BS/DIN/ANSI (seria 08B până la 32B
 Renold oferă un selector online de lanțuri (Chain Selector), pentru alegerea lanțului potrivit aplicației.`,
     whyChoose: [
       'Peste 140 ani experiență în fabricație lanțuri - know-how britanic consacrat',
-      'Gama completă BS/DIN/ANSI - găsiți orice lanț de transmisie sau transportor',
+      'Gamă BS/DIN/ANSI pentru lanțuri de transmisie și transportoare',
       'Lanțuri Synergy cu durată de viață crescută, conform producătorului',
       'Cuplaje Hi-Tec și Omega rezistente la dezaliniere - compensează erori de montaj',
       'Lanțuri din inox pentru industria alimentară și farmaceutică; conformitatea cu cerințele pentru contactul cu alimentele se confirmă pe cod',
@@ -461,7 +461,7 @@ Gama Rittal acoperă: dulapuri de podea seria TS 8 și VX25 (în mai multe dimen
 
 Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interface conectează sistemele de climatizare, senzori ușă, senzori temperatură/umiditate în rețea și trimite alertele în cloud. Platforma permite monitorizarea mai multor tablouri printr-o interfață web, conform producătorului. Pentru aplicații critice (datacentre, pharma) oferă soluții de răcire și infrastructură IT (RiMatrix).`,
     whyChoose: [
-      'Producător important european de dulapuri electrice, cu gamă completă de sisteme modulare',
+      'Producător european de dulapuri electrice, cu gamă de sisteme modulare',
       'Sistem modular VX25 cu asamblare rapidă, conform producătorului',
       'Climatizare Blue e+ cu eficiență energetică ridicată, conform producătorului',
       'Software gratuit Therm pentru calcul climatizare - dimensionare pe baza puterii disipate',
@@ -584,7 +584,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
     founded: 1903,
     headquarters: 'Milwaukee, Wisconsin, SUA',
     employees: '28000+',
-    overview: `Rockwell Automation este unul dintre producătorii americani importanți din automatizări industriale, cel mai cunoscut pentru brandul Allen-Bradley, larg folosit în multe industrii. Când zici Rockwell te gândești instant la PLC-uri CompactLogix și ControlLogix, variatori de frecvență PowerFlex și panouri HMI PanelView - echipamente gândite pentru funcționare îndelungată în fabrici din toată lumea. Ecosistemul Rockwell este integrat complet: de la senzori și butoane până la SCADA enterprise, totul comunică prin rețeaua EtherNet/IP. Nu trebuie să te chinui cu gateway-uri și conversii de protocol - conectezi totul în aceeași rețea și funcționează out of the box.
+    overview: `Rockwell Automation este un producător american de automatizări industriale, cu brandul Allen-Bradley, folosit în multe industrii. Când zici Rockwell te gândești instant la PLC-uri CompactLogix și ControlLogix, variatori de frecvență PowerFlex și panouri HMI PanelView - echipamente gândite pentru funcționare îndelungată în fabrici din toată lumea. Ecosistemul Rockwell este integrat complet: de la senzori și butoane până la SCADA enterprise, totul comunică prin rețeaua EtherNet/IP. Nu trebuie să te chinui cu gateway-uri și conversii de protocol - conectezi totul în aceeași rețea și funcționează out of the box.
 
 Portofoliul Rockwell acoperă toată piramida automatizării: la nivel câmp au senzori inductivi/capacitivi, fotocelule, encodere seria 842E, butoane și semnalizări luminoase seria 800. La nivel control au PLC-uri de la Micro800 (micro PLC pentru mașini simple) până la ControlLogix (PLC modular scalabil pentru linii complexe) și PAC-uri (controllere avansate cu motion control integrat). Variatorii PowerFlex acoperă o gamă largă de puteri; puterea exactă a fiecărui model se confirmă pe cod. HMI-urile PanelView sunt disponibile în mai multe dimensiuni de ecran, în funcție de serie; software-ul inclus se confirmă pe cod. Pentru safety au gama Guardlogix (PLC-uri safety integrated SIL3) și dispozitive safety (light curtain, safety relay, interlock switches). Software-ul Studio 5000 se folosește pentru programarea controlerelor Logix 5000, inclusiv funcții de motion și safety; compatibilitatea cu fiecare controler se confirmă pe cod. La nivel enterprise au FactoryTalk suite pentru MES, SCADA, historian, analytics - practic ai vizibilitate completă de la senzor până la management dashboard.
 
@@ -593,7 +593,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       'Ecosistem complet integrat EtherNet/IP - de la senzor la SCADA fără conversii protocol',
       'PLC-uri CompactLogix și ControlLogix cu fiabilitate ridicată, conform producătorului',
       'Software Studio 5000 unificat - programare PLC/HMI/motion/safety din aceeași platformă',
-      'Variatori PowerFlex de la 0.2kW la MW - acoperire completă aplicații industriale',
+      'Variatori PowerFlex de la 0.2kW la MW - pentru aplicații industriale',
       'Safety integrat SIL3 (GuardLogix) - conformitate mașini directive 2006/42/EC',
       'Support global și piese de schimb disponibile pe termen lung - investiție protejată'
     ],
@@ -604,7 +604,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       },
       {
         name: 'Variatori de frecvență PowerFlex (525, 755, 755T)',
-        description: `Seria PowerFlex e gama completă de variatori Rockwell pentru motoare asincrone - de la aplicații simple HVAC (PowerFlex 525, putere conform fișei tehnice) până la variatori industriali heavy-duty (PowerFlex 755T, putere conform fișei tehnice). PowerFlex 525 e best-seller-ul pentru pompe, ventilatoare, transportoare - programare simplă prin keypad sau Connected Components Workbench, comunicație Modbus RTU/TCP sau EtherNet/IP. PowerFlex 755 e variator cu control vectorial, frânare regenerativă, filtre EMC integrate, protecție IP20/IP54 - perfect pentru aplicații care cer dinamic rapid (extrudere, laminoare, mixere).  Se integrează în sute de aplicații - configurarea din Studio 5000 e simplă (Add-On Profile detectează automat variatorul și pune la dispoziție parametrii), iar diagnosticul afișează clar erorile și istoricul alarmelor. Nivelul de armonici și funcțiile tehnologiei TotalFORCE se confirmă din documentația producătorului.`
+        description: `Seria PowerFlex e gama de variatori Rockwell pentru motoare asincrone - de la aplicații simple HVAC (PowerFlex 525, putere conform fișei tehnice) până la variatori industriali heavy-duty (PowerFlex 755T, putere conform fișei tehnice). PowerFlex 525 se folosește pentru pompe, ventilatoare, transportoare - programare simplă prin keypad sau Connected Components Workbench, comunicație Modbus RTU/TCP sau EtherNet/IP. PowerFlex 755 e variator cu control vectorial, frânare regenerativă, filtre EMC integrate, protecție IP20/IP54 - perfect pentru aplicații care cer dinamic rapid (extrudere, laminoare, mixere).  Se integrează în sute de aplicații - configurarea din Studio 5000 e simplă (Add-On Profile detectează automat variatorul și pune la dispoziție parametrii), iar diagnosticul afișează clar erorile și istoricul alarmelor. Nivelul de armonici și funcțiile tehnologiei TotalFORCE se confirmă din documentația producătorului.`
       },
       {
         name: 'HMI PanelView și software FactoryTalk View pentru interfață operator',
@@ -898,7 +898,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
     founded: 1920,
     headquarters: 'Viena, Austria',
     
-    overview: `Schrack Technik e un brand austriac cu peste un secol de experiență în componente electrice și automatizări. Deși nu are dimensiunea unor producători precum Siemens sau Schneider, Schrack s-a specializat pe produse pentru instalații electrice industriale și rezidențiale - relee, contactoare, protecții diferențiale, întrerupătoare automate, tablouri prefabricate. Un punct forte al Schrack este gama completă de produse necesare pentru un tablou electric, de la bara colectoare până la ultimul releu auxiliar - practic comenzi de la un singur furnizor, cu compatibilitate testată între produse. Schrack Technik are sediul la Viena, iar în România este prezent din 1998, cu filiale în mai multe orașe, printre care Sibiu.
+    overview: `Schrack Technik e un brand austriac cu peste un secol de experiență în componente electrice și automatizări. Schrack s-a specializat pe produse pentru instalații electrice industriale și rezidențiale - relee, contactoare, protecții diferențiale, întrerupătoare automate, tablouri prefabricate. Schrack oferă produsele necesare pentru un tablou electric, de la bara colectoare până la ultimul releu auxiliar - practic comenzi de la un singur furnizor, cu compatibilitate testată între produse. Schrack Technik are sediul la Viena, iar în România este prezent din 1998, cu filiale în mai multe orașe, printre care Sibiu.
 
 Gama Schrack include: relee industriale (interfață, temporizatoare, monitorizare, safety), contactoare modulare și putere (9A-800A), protecții diferențiale (RCCB, RCBO) și întrerupătoare automate (MCB de la 1A la 125A), aparataj modular pentru tablouri rezidențiale, componente instalații electrice (prize, întrerupătoare, doze), tablouri prefabricate și dulapuri metalice pentru distribuție. Releele Schrack se livrează în variante cu soclu sau pentru montaj pe șină DIN, conform catalogului de relee al producătorului; seria, tipul de bobină și parametrii exacți se confirmă pe cod. Schrack oferă contactoare modulare și de putere; seriile, curenții nominali și durata de viață se confirmă pe cod, din fișa tehnică a producătorului. 
 
@@ -906,7 +906,7 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
     whyChoose: [
       'Brand austriac cu peste 100 ani experiență în componente electrice',
       'Prezență locală în România (filiale, inclusiv la Sibiu), din 1998',
-      'Gama completă pentru tablouri (relee, contactoare, protecții) din aceeași familie de produse',
+      'Gama include produse pentru tablouri (relee, contactoare, protecții) din aceeași familie de produse',
       'Aparataj pentru instalații electrice rezidențiale, comerciale și industriale ușoare, conform gamei publicate de producător',
       'Documentație tehnică completă și certificate conformitate - ușor de integrat în proiecte',
       'Documentație tehnică disponibilă online pe site-ul producătorului'
@@ -922,7 +922,7 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
       },
       {
         name: 'Protecții diferențiale RCCB și întrerupătoare automate MCB',
-        description: `Pentru instalații rezidențiale și comerciale Schrack oferă gama completă de protecții modulare - întrerupătoare automate (MCB de la 1A la 125A, caracteristici B, C, D), protecții diferențiale pure (RCCB 25A-125A, sensibilitate 30mA-300mA), întrerupătoare automate diferențiale combinate (RCBO - protecție supracurent + diferențială în modul). Produsele sunt conforme IEC 61008/61009, au putere de rupere 6kA-10kA (suficient pentru majoritatea instalațiilor), design compact (18mm lățime per pol pentru MCB) și durată mecanică mare (>20000 operații). Se folosesc frecvent în proiecte rezidențiale și comerciale - declanșarea este precisă la curentul nominal, testul diferențialelor (buton T) funcționează conform normei, iar montajul pe șină DIN este rapid. Schrack oferă și tablouri prefabricate cu MCB/RCCB pre-montate - economisești timp la instalare.  `
+        description: `Pentru instalații rezidențiale și comerciale Schrack oferă protecții modulare - întrerupătoare automate (MCB de la 1A la 125A, caracteristici B, C, D), protecții diferențiale pure (RCCB 25A-125A, sensibilitate 30mA-300mA), întrerupătoare automate diferențiale combinate (RCBO - protecție supracurent + diferențială în modul). Produsele sunt conforme IEC 61008/61009, au putere de rupere 6kA-10kA (suficient pentru majoritatea instalațiilor), design compact (18mm lățime per pol pentru MCB) și durată mecanică mare (>20000 operații). Se folosesc frecvent în proiecte rezidențiale și comerciale - declanșarea este precisă la curentul nominal, testul diferențialelor (buton T) funcționează conform normei, iar montajul pe șină DIN este rapid. Schrack oferă și tablouri prefabricate cu MCB/RCCB pre-montate - economisești timp la instalare.  `
       }
     ],
     certifications: [
@@ -955,7 +955,7 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
       { title: 'Schrack Technik – site oficial', url: 'https://www.schrack.com/', publisher: 'Schrack Technik GmbH', accessed: '2026-09-22' },
       { title: 'Schrack Technik – Wikipedia', url: 'https://de.wikipedia.org/wiki/Schrack_Technik', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
-    limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru gama completă Schrack și nici acoperirea directă de service a producătorului.',
+    limitation: 'Nu putem confirma disponibilitate neîntreruptă pentru gama Schrack și nici acoperirea directă de service a producătorului.',
     productCodes: [
       {
         "code": "SNR",
@@ -1052,7 +1052,7 @@ Gama Shell Lubricants industriale include: Shell Tellus (uleiuri hidraulice de l
 Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitatea și funcțiile lor se confirmă direct la producător.   `,
     whyChoose: [
       'Brand global, înființat în 1907',
-      'Gamă completă pentru orice aplicație industrială - de la hidraulic la turbine',
+      'Gamă pentru aplicații industriale - de la hidraulic la turbine',
       'Lubrifianți sintetici (Tellus S4, Omala S4); intervalul de schimb se confirmă din fișa tehnică',
       'Servicii și instrumente digitale pentru lubrifiere, la producător',
       'Aprobări OEM (de exemplu Flender pentru Omala S2 GX) - se confirmă pe gradul ales',
@@ -1069,7 +1069,7 @@ Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitat
       },
       {
         name: 'Shell Gadus S2, S3, S5 - Unsori litiu și polimeri pentru lagăre industriale',
-        description: `Gadus e gama completă de unsori Shell pentru lagăre, ghidaje, lanțuri, articulații. Gama Gadus include unsori S2, S3 și S5; domeniul de temperatură, tipul de îngroșător și intervalul de re-ungere se confirmă din fișa tehnică a produsului ales. Se folosește frecvent la lagăre de ventilatoare de cuptoare (+150°C continuu), excavatoare în zone reci (-30°C iarna) și lagăre expuse ploii sau prafului pe transportoare outdoor. Alte produse Gadus se confirmă pe cod, din documentația Shell.`
+        description: `Gadus e gama de unsori Shell pentru lagăre, ghidaje, lanțuri, articulații. Gama Gadus include unsori S2, S3 și S5; domeniul de temperatură, tipul de îngroșător și intervalul de re-ungere se confirmă din fișa tehnică a produsului ales. Se folosește frecvent la lagăre de ventilatoare de cuptoare (+150°C continuu), excavatoare în zone reci (-30°C iarna) și lagăre expuse ploii sau prafului pe transportoare outdoor. Alte produse Gadus se confirmă pe cod, din documentația Shell.`
       }
     ],
     certifications: [
@@ -1184,7 +1184,7 @@ Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitat
 
 Gama SICK acoperă: senzori fotoelectrici (bariere, reflexie, proximitate; raza de detecție depinde de serie și model), senzori inductivi și capacitivi (detectare metale/non-metale), senzori de distanță (laser, ultrasonic, radar - precizie sub milimetru), encodere incrementale și absolute, scanere laser de siguranță (protecție zone periculoase SIL3/PLe), sisteme de viziune (smart cameras pentru OCR, code reading, measurement), senzori de măsurare (debit, presiune, temperatură, nivel). Seria W4 cuprinde senzori fotoelectrici miniaturizați, pentru mașini compacte; dimensiunile și raza de detecție se confirmă din fișa tehnică a modelului. Senzorii de distanță laser SICK (de exemplu seriile DT și DL) se aleg după domeniul de măsurare și precizia necesare; valorile exacte sunt în fișa tehnică. Scanerele de siguranță microScan3 (nivelul SIL/PL se confirmă din fișa tehnică a modelului) protejează zone periculoase cu câmpuri configurabile - se folosesc frecvent pe AGV-uri pentru navigație sigură și pe roboți colaborativi pentru protecția operatorului. Pentru identificare au cititori cod bare 2D (CLV, Lector) pentru coduri de bare și coduri 2D, inclusiv pe suprafețe dificile; performanța depinde de model și se confirmă din fișa tehnică.
 
-SICK a investit în digitalizare - platforma SICK AppSpace permite programarea senzorilor cu aplicații proprii direct în senzor, fără controler extern, SICK Integration Space oferă configurare simplificată multi-senzor printr-o singură interfață web, comunicații IO-Link asigură parametrizare automată, diagnostic avansat și mentenanță predictivă. Pentru aplicații safety au gama completă certificată - de la bariere optoelectronice (seria C4000) până la controlere safety Flexi Soft care integrează toate dispozitivele de siguranță într-un singur sistem.  Pentru aplicații complexe, vă putem ajuta să identificați din catalogul producătorului varianta potrivită.`,
+SICK a investit în digitalizare - platforma SICK AppSpace permite programarea senzorilor cu aplicații proprii direct în senzor, fără controler extern, SICK Integration Space oferă configurare simplificată multi-senzor printr-o singură interfață web, comunicații IO-Link asigură parametrizare automată, diagnostic avansat și mentenanță predictivă. Pentru aplicații safety au o gamă certificată - de la bariere optoelectronice (seria C4000) până la controlere safety Flexi Soft care integrează toate dispozitivele de siguranță într-un singur sistem.  Pentru aplicații complexe, vă putem ajuta să identificați din catalogul producătorului varianta potrivită.`,
     whyChoose: [
       'Producător german de senzori industriali, înființat în 1946',
       'Gamă largă, de la senzori simpli la sisteme de viziune industrială',
@@ -1323,7 +1323,7 @@ Gama Siemens Electrical include: întrerupătoare automate modulare (seria 5SL m
 Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (TIP) conectează toate echipamentele electrice (întrerupătoare, contactoare, protecții motor) în rețea Profinet/Ethernet și oferă monitorizare consumuri, alarme predictive, istoric evenimente. Au și configurator online Siemens LV Configurator pentru proiectare tablouri - introduceți schemă unifilară și sistemul vă recomandă exact ce componente Siemens să folosiți, calculează secțiuni cabluri, verifică selectivitate protecții. Configurațiile SIVACON pentru aplicații critice se confirmă din documentația producătorului. Disponibilitatea produselor și a suportului local se confirmă la fiecare cerere. `,
     whyChoose: [
       'Brand global cu 175+ ani experiență în tehnologie electrică - know-how german consacrat',
-      'Gamă completă de la MCB la tablouri SIVACON',
+      'Gamă de la MCB la tablouri SIVACON',
       'Contactoare SIRIUS; durata de viață electrică se confirmă din fișa tehnică',
       'Digitalizare avansată (Totally Integrated Power) - monitorizare consumuri și predictive maintenance',
       'Configurator online LV pentru sizing rapid și verificare selectivitate - proiectare simplificată',

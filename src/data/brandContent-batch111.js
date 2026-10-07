@@ -124,7 +124,7 @@ Pentru România, GESIPA are sens acolo unde o linie de asamblare sau un atelier 
   },
   heytec: {
     name: "Heytec",
-    overview: `Heytec este marca de scule de mână orientată spre preț a grupului german Heyco, alături de linia Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii. Pentru un atelier din România, Heytec e o alternativă mai accesibilă la celelalte serii ale grupului.
+    overview: `Heytec este marca de scule de mână a grupului german Heyco, alături de linia Heyco și de seria Heynen din același portofoliu. Programul acoperă categorii de bază pentru meseriași — chei fixe și inelare, seturi de chei tubulare, chei dinamometrice, clești și șurubelnițe, scule pentru instalatori și electricieni — organizate în sortimente cu sau fără cutii.
 
 Ca poziționare, producătorul prezintă Heytec ca program pentru meseriași și pasionați de bricolaj atenți la calitate și la preț. Programul include chei dinamometrice pentru cuplu controlat, seturi de chei tubulare cu prelungitoare, și sortimente complete montate în cutii tip L-Boxx sau trolii de atelier modulare, gândite să fie transportate direct la locul de lucru. Scule pentru instalații sanitare și electricieni completează gama.
 
@@ -137,7 +137,7 @@ Pentru România, Heytec are sens acolo unde un atelier are nevoie de un sortimen
     ],
     keyProducts: [
       { name: "Chei fixe, inelare și seturi de chei tubulare", description: "Programul Heytec include chei fixe cu deschidere unică sau dublă, chei inelare și combinate, alături de seturi complete de chei tubulare cu clichet, prelungitoare și capete articulate. Sunt disponibile individual sau în sortimente montate în cutii de plastic sau metalice. Alegerea sortimentului depinde de gama de dimensiuni de șurub folosită frecvent în atelier." },
-      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Fiind parte dintr-un program mai accesibil ca preț decât alte linii ale grupului, sunt o opțiune pentru control de cuplu fără investiția într-o sculă de vârf. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
+      { name: "Chei dinamometrice Heytec", description: "Cheile dinamometrice din programul Heytec sunt gândite pentru strângeri unde cuplul contează — asamblări mecanice, montaj auto, instalații industriale — și completează sortimentul de chei tubulare. Pentru ofertă, precizați domeniul de cuplu necesar în Nm." },
       { name: "Sortimente în cutii L-Boxx și trolii de atelier", description: "Heytec oferă sortimente complete montate în cutii tip L-Boxx, cutii metalice sau trolii cu sertare modulare, gândite pentru service-uri auto și echipe mobile de intervenție. Fiecare sortiment grupează sculele cele mai folosite pentru un tip de lucrare — electrică, sanitară sau mecanică. Configurația se stabilește după tipul de intervenții și numărul de tehnicieni din echipă." },
     ],
     industries: [
@@ -366,7 +366,7 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       "Producător specializat din 1974 pe scule pentru prelucrarea metalului, nu un generalist de scule de mână",
       "Linia ULTIMATECUT cu geometrii Flowstep pentru găurire fără punctare prealabilă",
       "Scule de carotieră HSS PerforMAX pentru găuri de diametru mare, cu putere de antrenare redusă",
-      "Gamă completă de lichide de răcire și ungere compatibile cu propriile scule",
+      "Gama cuprinde lichide de răcire și ungere compatibile cu propriile scule",
     ],
     keyProducts: [
       { name: "Linia ULTIMATECUT", description: "ULTIMATECUT e linia RUKO de burghie. Variantele Multidrill, cu vârf Flowstep, permit găurirea directă în oțel fără punctare prealabilă. Pentru ofertă, spuneți-ne diametrul găurii, materialul prelucrat și dacă lucrați pe mașină CNC sau manual." },
@@ -420,7 +420,7 @@ Pentru România, nivelele SOLA au sens în construcții civile și industriale �
     whyChoose: [
       "Familii distincte de nivele — RED, AZ, BIG X, AZB — în mai multe lungimi",
       "RED 3 are o fiolă orizontală și două verticale, pentru citire pe orizontală și verticală",
-      "Gamă completă de instrumente de măsurare — telemetre laser, metri pliabili, rulete",
+      "Gama cuprinde instrumente de măsurare — telemetre laser, metri pliabili, rulete",
       "Nivele digitale și laser cu citire numerică a unghiului pentru montaj de precizie",
     ],
     keyProducts: [
@@ -534,7 +534,7 @@ Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și
     whyChoose: [
       "Standardizare declarată de componente — 80-90% identice într-o clasă de putere — piese de schimb mai simple",
       "Familii cu turație variabilă (VARIABLE XP, V-Drive T) pentru reglarea debitului după consumul real",
-      "Gamă completă — compresoare cu șurub, piston, turbo și scroll — pentru nevoi diferite de debit",
+      "Gama cuprinde compresoare cu șurub, piston, turbo și scroll, pentru nevoi diferite de debit",
       "Compresoare industriale cu șurub, în familii cu antrenare directă, cu angrenaje și cu turație variabilă",
     ],
     keyProducts: [
@@ -584,7 +584,7 @@ Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și
     headquarters: "Cervignano del Friuli, Italia",
     founded: 1989,
     employees: "peste 230 la nivel global",
-    overview: `Friulair este un producător italian de uscătoare de aer comprimat și echipamente pentru tratarea aerului industrial, cu sediul la Cervignano del Friuli și înființat în 1989. Gama acoperă uscătoare frigorifice pentru mai multe plaje de debit, uscătoare cu adsorbție fără căldură și module modulare, alături de filtre, răcitoare posterioare și separatoare apă-ulei. Compania declară peste 230 de angajați la nivel global. Pentru un integrator de instalații de aer comprimat din România, Friulair oferă o gamă completă de tratare a aerului.
+    overview: `Friulair este un producător italian de uscătoare de aer comprimat și echipamente pentru tratarea aerului industrial, cu sediul la Cervignano del Friuli și înființat în 1989. Gama acoperă uscătoare frigorifice pentru mai multe plaje de debit, uscătoare cu adsorbție fără căldură și module modulare, alături de filtre, răcitoare posterioare și separatoare apă-ulei. Compania declară peste 230 de angajați la nivel global. Pentru un integrator de instalații de aer comprimat din România, Friulair oferă o gamă de tratare a aerului.
 
 Friulair oferă o gamă de uscătoare frigorifice segmentată pe debit — de la seria FMD, pentru debite mici de 21-1.320 m³/h, până la seria ACT, care acoperă până la 18.000 m³/h — și pe temperatură de intrare, cu familiile AMH și AHT dedicate aerului cu temperatură ridicată. Seria ACT ES (21–960 m³/h) este varianta cu economie de energie, cu masă termică din aluminiu, iar ACT VS (1.260–17.664 m³/h) are turație variabilă. Pe adsorbție, HDT și HDC completează gama pentru puncte de rouă mai coborâte.
 
@@ -643,7 +643,7 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
     founded: 1966,
     overview: `Pneumatech este un producător de echipamente pentru tratarea aerului comprimat și generarea de gaze industriale, înființat în 1966 și integrat astăzi în grupul Atlas Copco. Gama acoperă uscătoare prin refrigerare, adsorbție și membrană, filtre de linie și de proces, generatoare de azot și de oxigen, alături de echipamente de măsurare precum senzori de debit și detectoare de scurgeri. Pentru o hală de producție din România, Pneumatech oferă acces la tratarea aerului și generarea de gaze din aceeași gamă.
 
-Spre deosebire de un simplu furnizor de uscătoare, Pneumatech acoperă și generarea de gaze pe amplasament — azot prin separare cu membrană sau prin adsorbție, pentru aplicații de la ambalare până la tăierea cu laser, unde puritatea gazului influențează calitatea tăieturii. Gama de generatoare de oxigen completează oferta pentru procese care au nevoie de o concentrație ridicată de oxigen fără butelii. În segmentul de tratare a aerului, compania oferă filtre de linie și de proces pentru diverse clase de puritate.
+Pneumatech acoperă și generarea de gaze pe amplasament — azot prin separare cu membrană sau prin adsorbție, pentru aplicații de la ambalare până la tăierea cu laser, unde puritatea gazului influențează calitatea tăieturii. Gama de generatoare de oxigen completează oferta pentru procese care au nevoie de o concentrație ridicată de oxigen fără butelii. În segmentul de tratare a aerului, compania oferă filtre de linie și de proces pentru diverse clase de puritate.
 
 Pentru România, gama Pneumatech are sens în farmaceutică și industria auto, sectoare care au nevoie de aer și gaze de calitate certificată prin specificație.`,
     whyChoose: [

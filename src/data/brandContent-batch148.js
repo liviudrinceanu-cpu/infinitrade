@@ -89,7 +89,7 @@ Pentru instalații din România cu spațiu redus și cerințe de comandă integr
       "Motoare BLDC seria BG, disponibile în mai multe mărimi, cu controler integrat direct în carcasă.",
       "Putere maximă de până la 4000 W, potrivită pentru echipamente compacte, nu pentru acționări industriale grele.",
       "Reductoare planetare PLG cu cuplu continuu de până la 130 Nm și rapoarte de transmisie 4:1–512:1.",
-      "Gamă completă de accesorii — frâne și encodere — pentru completarea motorului fără a schimba furnizorul.",
+      "Gamă de accesorii — frâne și encodere — pentru completarea motorului fără a schimba furnizorul.",
     ],
     keyProducts: [
       {
@@ -369,7 +369,7 @@ Pentru instalații din România unde variatorul trebuie montat direct lângă ut
     name: "Control Techniques",
     overview: `Control Techniques este o marcă britanică de convertizoare de frecvență, parte a grupului japonez Nidec, cu gama găzduită astăzi pe platforma comună Nidec Drives. Portofoliul acoperă de la variatoare de uz general din familia Commander, prin seriile de înaltă performanță Unidrive M600/M700/HS70, până la variatoare specializate pentru lifturi, pompe și HVAC și module de putere de mare capacitate pentru aplicații industriale grele. Pentru clienți din România putem oferta din gama Control Techniques, aleasă pe puterea motorului și tipul de aplicație.
 
-Ce diferențiază gama e amploarea acoperirii de putere sub o singură umbrelă de produs: la un capăt este variatorul compact Commander S pentru aplicații simple, iar la celălalt modulul de putere de 500 kW/700 CP pentru instalații industriale de mare capacitate. Seriile specializate — Elevator Drive E300 pentru lifturi, Pump Drive F600 pentru pompe și HVAC Drive H300 pentru climatizare — au funcții dedicate aplicației, spre deosebire de un variator de uz general configurat generic.
+Gama acoperă puteri sub o singură umbrelă de produs: la un capăt este variatorul compact Commander S pentru aplicații simple, iar la celălalt modulul de putere de 500 kW/700 CP pentru instalații industriale de mare capacitate. Seriile specializate — Elevator Drive E300 pentru lifturi, Pump Drive F600 pentru pompe și HVAC Drive H300 pentru climatizare — au funcții dedicate aplicației, spre deosebire de un variator de uz general configurat generic.
 
 Pentru instalații din România cu cerințe specifice de aplicație — lifturi, stații de pompare, sisteme HVAC de clădire — gama Control Techniques oferă o alternativă cu funcții deja adaptate, spre deosebire de configurarea manuală a unui variator generic.`,
     whyChoose: [

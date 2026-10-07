@@ -688,7 +688,7 @@ Pentru echipele de mentenanță din România, Interflon e relevant acolo unde in
     whyChoose: [
       "Tehnologie MicPol® aplicată consecvent pe toată gama, de la uleiuri hidraulice la unsori industriale",
       "Variante de grad alimentar, certificate NSF, pentru contact accidental cu produsul în industria alimentară",
-      "Gamă completă de vâscozități pentru uleiuri hidraulice (ISO VG 32, 46, 68) și de transmisie (ISO VG 100-680)",
+      "Gamă de vâscozități pentru uleiuri hidraulice (ISO VG 32, 46, 68) și de transmisie (ISO VG 100-680)",
       "Unsori specializate pe condiție de lucru: căldură, apă, temperaturi joase sau presiune înaltă",
       "Prezență globală, cu site-uri locale în peste 40 de țări"
     ],
@@ -804,7 +804,7 @@ Pentru echipele de mentenanță din România, Interflon e relevant acolo unde in
     headquarters: "Valence, Franța",
     overview: `Crouzet este un producător francez de motoare de curent continuu și actuatoare electromecanice, cu sediul la Valence, activ din 1921. Gama de motoare acoperă atât motoare DC cu perii (seriile 32, 42 și 63 mm), cât și motoare brushless cu control de poziție și viteză, folosite în echipamente unde spațiul de montaj e limitat. Putem oferta din gama de motoare DC și actuatoare Crouzet pentru echipamente de automatizare compactă.
 
-Spre deosebire de un producător de motoare industriale de uz general, Crouzet țintește nișe cu cerințe stricte de fiabilitate — aerospațial, feroviar, medical — unde motoarele trebuie certificate conform standardelor specifice acestor industrii. Seriile brushless SMi21 și SMi22 vin cu control programabil de poziție și viteză, cu encoder de până la 4.096 de puncte, iar motoarele brush de 63 mm ating puteri de până la 104 W la tensiuni de până la 120V, cu variante low-noise pentru aplicații sensibile la zgomot.
+Crouzet țintește nișe cu cerințe stricte de fiabilitate — aerospațial, feroviar, medical — unde motoarele trebuie certificate conform standardelor specifice acestor industrii. Seriile brushless SMi21 și SMi22 vin cu control programabil de poziție și viteză, cu encoder de până la 4.096 de puncte, iar motoarele brush de 63 mm ating puteri de până la 104 W la tensiuni de până la 120V, cu variante low-noise pentru aplicații sensibile la zgomot.
 
 Pentru integratorii români de echipamente compacte — mașini medicale, sisteme feroviare de semnalizare sau echipamente industriale de precizie — motoarele Crouzet sunt relevante acolo unde certificarea de fiabilitate contează la fel de mult ca parametrii electrici.`,
     whyChoose: [
@@ -1237,7 +1237,7 @@ Gama HBM/HBK acoperă și instrumentație de sistem — achiziție de date multi
 
 Pentru laboratoarele de testare și liniile de producție din România, produsele HBM sunt relevante la cântărirea industrială de precizie, la testarea structurală a componentelor mecanice și la sistemele de achiziție de date pentru validarea de produs înainte de certificare.`,
     whyChoose: [
-      "Gamă completă de la traductor individual la sistem de achiziție de date multicanal (QuantumX, MGCplus)",
+      "Gamă de la traductor individual la sistem de achiziție de date multicanal (QuantumX, MGCplus)",
       "Fuziune cu Brüel & Kjær (din 2019, sub numele HBK) extinde acoperirea spre acustică și vibrații",
       "Celule de sarcină disponibile în variante single point și beam, pentru cântărire de precizie diversă",
       "Peste 75 de ani de activitate continuă (din 1950) în testare și măsurare",

@@ -9,7 +9,7 @@ Megadyne oferă și soluții fabricate la comandă — curele cu modificări spe
 
 Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică la curelele standard atunci când aplicația cere o curea fabricată special (lungime nestandard, profil dublu, perforații) sau o soluție de transmisie completă, nu doar o curea izolată — util în linii de ambalare și benzi transportoare.`,
     whyChoose: [
-      "Gamă completă de curele — dințate, trapezoidale, plate și multi-canal, sub același producător",
+      "Gamă de curele — dințate, trapezoidale, plate și multi-canal, sub același producător",
       "Fabricație la comandă — profiluri speciale, dinți falși sau perforații pentru transport și sortare",
       "Prezență confirmată în peste 50 de industrii, de la alimentar la robotică și prelucrarea lemnului",
       "Componente metalice de transmisie complementare — roți de curea și sisteme cu lanț din aceeași sursă",
@@ -644,7 +644,7 @@ Klemsan combină clemele de conexiune clasice cu produse electronice și cu o pl
 
 Pentru instalațiile din România, gama de cleme de conexiune și canale de cablu Klemsan e relevantă la construcția și mentenanța tablourilor electrice, iar produsele electronice și platforma IoT pot fi utile pentru monitorizare suplimentară.`,
     whyChoose: [
-      "Gamă completă de cleme de conexiune — șurub, arc, push-in și bolț, sub aceeași marcă",
+      "Gamă de cleme de conexiune — șurub, arc, push-in și bolț, sub aceeași marcă",
       "Canale de cablu în variantele HF și PVC",
       "Linie proprie de produse electronice — relee, senzori, traductoare și transformatoare de curent",
       "Platformă IoT proprie (KIO) pentru monitorizare la distanță a parametrilor electrici",

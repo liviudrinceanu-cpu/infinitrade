@@ -5,13 +5,13 @@ export const brandContentBatch136 = {
     name: "Inductotherm Group",
     founded: 1953,
     headquarters: "Rancocas, New Jersey, SUA",
-    overview: `Inductotherm Group este producătorul american de cuptoare de topire prin inducție și sisteme de încălzire a metalelor, cu sediul la Rancocas, New Jersey, SUA, fondat în 1953. Grupul acoperă tot ce înseamnă topire prin inducție: cuptoare coreless pentru fier, oțel, aluminiu și cupru, cuptoare channel pentru menținerea și supraîncălzirea metalului topit, dar și sisteme de încălzire a barelor și țaglelor înainte de forjare. Din gama americană putem oferta cuptoare de turnătorie, sisteme de încălzire pentru forjare și echipamente conexe de răcire industrială pentru linii de producție metalurgică.
+    overview: `Inductotherm Group este producătorul american de cuptoare de topire prin inducție și sisteme de încălzire a metalelor, cu sediul la Rancocas, New Jersey, SUA, fondat în 1953. Grupul acoperă topirea prin inducție: cuptoare coreless pentru fier, oțel, aluminiu și cupru, cuptoare channel pentru menținerea și supraîncălzirea metalului topit, dar și sisteme de încălzire a barelor și țaglelor înainte de forjare. Din gama americană putem oferta cuptoare de turnătorie, sisteme de încălzire pentru forjare și echipamente conexe de răcire industrială pentru linii de producție metalurgică.
 
 Ce diferențiază Inductotherm de un simplu furnizor de cuptoare este integrarea completă a procesului: sursele de putere VIP, sistemele automate de turnare ARMS și cuptoarele Dura-Line sunt gândite să lucreze împreună, nu ca piese izolate. Compania declară o rețea globală de 18 facilități de producție și 66 de puncte de vânzări și service în 49 de țări; disponibilitatea pieselor de schimb și a asistenței pentru România se confirmă cu producătorul.
 
 Pentru un atelier de turnătorie sau o oțelărie din România care ia în calcul retehnologizarea liniei de topire, Inductotherm înseamnă acces la tehnologie de inducție verificată de decenii, cu documentație tehnică solidă și opțiuni de la cuptoare mici de laborator până la instalații industriale complete.`,
     whyChoose: [
-      "Gamă completă de topire prin inducție — de la cuptoare coreless mici de laborator până la instalații industriale complete pentru turnătorii",
+      "Gamă de topire prin inducție — de la cuptoare coreless mici de laborator până la instalații industriale complete pentru turnătorii",
       "Rețea globală de service — 66 de puncte de vânzări și service în 49 de țări",
       "Certificare ISO 9001:2015 menținută neîntrerupt din 1993",
       "Sisteme integrate — surse de putere, automatizare de turnare și cuptoare gândite să funcționeze împreună",
@@ -100,7 +100,7 @@ Pentru un atelier de turnătorie sau o oțelărie din România care ia în calcu
     headquarters: "Warren, Ohio, SUA",
     overview: `Ajax Tocco Magnethermic este un producător american de echipamente de încălzire și topire prin inducție, cu sediul la Warren, Ohio, SUA, activ din 1916 și membru al grupului Park-Ohio. Compania a primit certificarea ISO 9001 încă din februarie 1997 și acoperă practic tot spectrul de inducție industrială: topire de metale, tratament termic, forjare, brazare și sudare a barelor, țevilor și componentelor metalice. Din gama sa putem oferta surse de putere, sisteme de încălzire pentru forjare și linii de tratament termic pentru bare, țevi și fixatori.
 
-Punctul forte al Ajax Tocco este acoperirea completă a lanțului de procesare termică prin inducție într-un singur furnizor: sursele de putere Autotron și CFC III alimentează atât cuptoare de topire channel și coreless, cât și sisteme dedicate de încălzire pentru forjare precum PowerForge sau PowerZone. Compania declară operațiuni în nouă țări, cu două locații de producție în America de Nord și opt centre regionale de service.
+Ajax Tocco acoperă lanțul de procesare termică prin inducție într-un singur furnizor: sursele de putere Autotron și CFC III alimentează atât cuptoare de topire channel și coreless, cât și sisteme dedicate de încălzire pentru forjare precum PowerForge sau PowerZone. Compania declară operațiuni în nouă țări, cu două locații de producție în America de Nord și opt centre regionale de service.
 
 Pentru un producător din România care lucrează cu bare, țevi sau fixatori metalici și are nevoie de tratament termic uniform, Ajax Tocco înseamnă acces la tehnologie de inducție testată de peste un secol în oțelării, forje și linii de fabricație a elementelor de fixare.`,
     whyChoose: [
@@ -108,7 +108,7 @@ Pentru un producător din România care lucrează cu bare, țevi sau fixatori me
       "Certificare ISO 9001 din 1997, cu proces de fabricație documentat și stabil în timp",
       "Sisteme integrate de la sursa de putere (Autotron, CFC III) până la instalația de proces finală",
       "Operațiuni în nouă țări, cu două locații de producție în America de Nord și opt centre regionale de service",
-      "Gamă dedicată pentru fixatori și componente de bară/țeavă — nu doar echipamente generice de topire"
+      "Gamă dedicată pentru fixatori și componente de bară/țeavă"
     ],
     keyProducts: [
       {
@@ -157,7 +157,7 @@ Pentru un producător din România care lucrează cu bare, țevi sau fixatori me
       { code: "Fastener Manufacturing Heating System", description: "sistem de încălzire dedicat fabricației elementelor de fixare" }
     ],
     faq: [
-      { q: "Ce produce Ajax Tocco Magnethermic?", a: "Ajax Tocco Magnethermic produce echipamente de topire și încălzire prin inducție: cuptoare channel și coreless, sisteme de forjare PowerForge și PowerZone, linii de tratament termic pentru bare, țevi și fixatori, plus surse de putere Autotron și CFC III. Compania e activă din 1916 și acoperă practic tot lanțul de procesare termică prin inducție." },
+      { q: "Ce produce Ajax Tocco Magnethermic?", a: "Ajax Tocco Magnethermic produce echipamente de topire și încălzire prin inducție: cuptoare channel și coreless, sisteme de forjare PowerForge și PowerZone, linii de tratament termic pentru bare, țevi și fixatori, plus surse de putere Autotron și CFC III. Compania e activă din 1916 și acoperă lanțul de procesare termică prin inducție." },
       { q: "Cum aleg sistemul Ajax Tocco Magnethermic potrivit pentru forjarea la cald?", a: "Depinde de secțiunea și materialul semifabricatului, de temperatura țintă înainte de matrițare și de ritmul de producție dorit. PowerForge și PowerZone sunt sistemele de forjare prezentate de producător; alegerea se face pe baza semifabricatului și a ritmului de producție. Trimiteți-ne dimensiunile piesei și materialul, iar noi verificăm configurația la producător." },
       { q: "Se poate procura Ajax Tocco în România sau Europa?", a: "Da, prin import direct din SUA — producătorul nu are o filială dedicată vizibilă pentru România, dar declară operațiuni în nouă țări. Aducem echipamentele la comandă, cu termen de peste 4 săptămâni, în funcție de configurația tehnică, confirmat de fabrică." },
       { q: "Ce echivalent are gama Ajax Tocco pentru topire față de alte branduri de inducție?", a: "Cuptoarele channel și coreless Ajax Tocco acoperă aplicații de topire și menținere; pentru o comparație tehnică avem nevoie de capacitatea, metalul procesat și puterea disponibilă la dumneavoastră." },
@@ -247,7 +247,7 @@ Pentru un producător din România din metalurgia pulberilor sau din prelucrarea
       { code: "Vacuum Sintering Continuous Furnace", description: "cuptor continuu de vid; configurația se confirmă cu producătorul" }
     ],
     faq: [
-      { q: "Ce produce Gasbarre Products?", a: "Gasbarre Products produce prese de compactare a pulberilor metalice (mecanice, hidraulice, electrice și izostatice) și cuptoare de sinterizare sau tratament termic, inclusiv variante sub vid. Compania e specializată în metalurgia pulberilor, cu gamă completă de la presă la cuptorul de sinterizare, sub același brand american." },
+      { q: "Ce produce Gasbarre Products?", a: "Gasbarre Products produce prese de compactare a pulberilor metalice (mecanice, hidraulice, electrice și izostatice) și cuptoare de sinterizare sau tratament termic, inclusiv variante sub vid. Compania e specializată în metalurgia pulberilor, cu gamă de la presă la cuptorul de sinterizare, sub același brand american." },
       { q: "Cum aleg presa Gasbarre Products potrivită pentru piesa mea?", a: "Alegerea depinde de tonajul necesar, de numărul de niveluri ale piesei și de tipul de matriță folosit. Seria Performance acoperă piese simple, Die Set piesele cu matrițe detașabile, iar Multi-Action componentele complexe cu mai multe niveluri. Trimiteți-ne desenul piesei și materialul pentru verificare la producător." },
       { q: "Se poate procura Gasbarre în România sau Europa?", a: "Producătorul nu are rețea de distribuție vizibilă în Europa, deci procurarea se face exclusiv prin import direct din SUA, la comandă. Termenul este de peste 4 săptămâni, în funcție de confirmarea producătorului din Pennsylvania și de complexitatea configurației cerute pentru presă sau cuptor." },
       { q: "Livrați echipamente Gasbarre în România și cât durează?", a: "Livrăm la comandă, nu din stoc, de regulă peste 4 săptămâni, în funcție de tipul de presă sau cuptor și de confirmarea producătorului american. Pentru configurații complexe, cu cuptor de sinterizare inclus, termenul poate fi mai lung și se confirmă înainte de comandă." },
@@ -354,7 +354,7 @@ Pentru un operator din România din turnătorii, reciclare sau procesare de mate
     headquarters: "Neponset, Illinois, SUA",
     overview: `Martin Engineering este un producător american de echipamente pentru manipularea materialelor în vrac pe benzi transportoare, cu sediul la Neponset, Illinois, SUA, activ din 1944. Compania s-a specializat în curățarea benzilor, controlul prafului și vibratoare industriale, cu birouri și în Franța, Germania, Italia, Spania, Turcia și Marea Britanie. Din gama sa putem oferta curățătoare de bandă, sisteme pentru puncte de transfer, tunuri de aer pentru curățarea buncărelor și vibratoare industriale de mai multe tipuri.
 
-Ce diferențiază Martin Engineering de un simplu furnizor de accesorii pentru benzi transportoare este abordarea de sistem complet la punctul de transfer: curățătoarele CleanScrape lucrează împreună cu kiturile modulare pentru puncte de transfer și cu tunurile de aer seria SMART pentru a reduce depunerile și praful generat la descărcarea benzii. Compania concurează cu Flexco sau ASGCO în segmentul de accesorii pentru benzi, dar acoperă și nișe conexe precum vibratoarele pentru vagoane feroviare sau deschizătoarele de vagoane.
+Martin Engineering abordează punctul de transfer ca sistem complet: curățătoarele CleanScrape lucrează împreună cu kiturile modulare pentru puncte de transfer și cu tunurile de aer seria SMART pentru a reduce depunerile și praful generat la descărcarea benzii. Compania acoperă și nișe conexe precum vibratoarele pentru vagoane feroviare sau deschizătoarele de vagoane.
 
 Pentru un operator din România din minerit, ciment sau reciclare care lucrează cu benzi transportoare, Martin Engineering înseamnă acces la echipamente testate de opt decenii pentru reducerea opririlor cauzate de curgerea materialului sau de praf.`,
     whyChoose: [
@@ -437,7 +437,7 @@ Pentru un operator din România din minerit, ciment sau reciclare care lucrează
     headquarters: "Pittsburgh, Pennsylvania, SUA",
     overview: `Kennametal este un producător american de scule de așchiere și componente rezistente la uzură, cu sediul la Pittsburgh, Pennsylvania, SUA, fondat în 1938 de metalurgul Philip M. McKenna pe baza unui aliaj de carbură de tungsten-titan. Astăzi compania operează global, cu aproximativ 10.000 de angajați. Din gama sa putem oferta scule de frezare, găurire, strunjire și filetare, portscule și componente pentru minerit și construcții.
 
-Ce diferențiază Kennametal de un producător generic de scule este acoperirea completă a proceselor de așchiere sub un singur brand: freze solide și indexabile, burghie din carbură solidă și module de găurire, scule de strunjire pentru diametre exterioare și interioare, plus o gamă de scule PCD (diamant policristalin) pentru materiale abrazive. Compania concurează cu Sandvik Coromant sau Iscar în segmentul de scule de așchiere, dar are și divizii dedicate mineritului și construcțiilor, cu sisteme de portscule KM și KM4X compatibile cu mai multe mașini-unelte.
+Kennametal acoperă procesele de așchiere sub un singur brand: freze solide și indexabile, burghie din carbură solidă și module de găurire, scule de strunjire pentru diametre exterioare și interioare, plus o gamă de scule PCD (diamant policristalin) pentru materiale abrazive. Compania are și divizii dedicate mineritului și construcțiilor, cu sisteme de portscule KM și KM4X compatibile cu mai multe mașini-unelte.
 
 Pentru un atelier de prelucrări mecanice sau o companie de construcții din România, Kennametal înseamnă acces la o gamă americană testată în industrie de aproape nouă decenii, cu documentație tehnică pentru fiecare familie de scule.`,
     whyChoose: [
@@ -526,13 +526,13 @@ Pentru un atelier de prelucrări mecanice sau o companie de construcții din Rom
     name: "WesTech Engineering",
     founded: 1973,
     headquarters: "Salt Lake City, Utah, SUA",
-    overview: `WesTech Engineering este un producător american de echipamente pentru tratarea apei și a apelor uzate, cu sediul la Salt Lake City, Utah, SUA, înființat în 1973 de un grup de ingineri californieni, în contextul legislației americane privind calitatea apei de la începutul anilor 1970. Compania a crescut de atunci într-un furnizor cu gamă completă, de la clarificatoare și filtre până la stații complete de tratare, cu certificare ISO 9001. Din portofoliul său putem oferta clarificatoare, sisteme de filtrare, echipamente de îngroșare a nămolului și stații complete de tratare a apei.
+    overview: `WesTech Engineering este un producător american de echipamente pentru tratarea apei și a apelor uzate, cu sediul la Salt Lake City, Utah, SUA, înființat în 1973 de un grup de ingineri californieni, în contextul legislației americane privind calitatea apei de la începutul anilor 1970. Compania a crescut de atunci într-un furnizor cu gamă de la clarificatoare și filtre până la stații complete de tratare, cu certificare ISO 9001. Din portofoliul său putem oferta clarificatoare, sisteme de filtrare, echipamente de îngroșare a nămolului și stații complete de tratare a apei.
 
-Ce diferențiază WesTech de un simplu producător de bazine de decantare este acoperirea completă a fluxului de tratare: clarificatoare precum CONTRAFLO sau SuperSettler, filtre precum CenTROL sau familia SuperDisc/SuperDrum, îngroșătoare de nămol din familia HiFlo sau AltaFlo, dar și stații complete de tratare tip pachet, gata asamblate — Trident, Aquarius sau Water Boy. Compania concurează cu Veolia sau Evoqua în segmentul de echipamente de tratare a apei, cu o gamă de configurații de clarificatoare pentru diverse tipuri de nămol.
+WesTech acoperă fluxul de tratare: clarificatoare precum CONTRAFLO sau SuperSettler, filtre precum CenTROL sau familia SuperDisc/SuperDrum, îngroșătoare de nămol din familia HiFlo sau AltaFlo, dar și stații complete de tratare tip pachet, gata asamblate — Trident, Aquarius sau Water Boy. Compania oferă o gamă de configurații de clarificatoare pentru diverse tipuri de nămol.
 
 Pentru un operator de stație de epurare sau un integrator din România care lucrează pe proiecte de tratare a apei industriale sau municipale, WesTech înseamnă acces la o gamă americană extinsă, cu denumiri de produs specifice fiecărei etape a fluxului de tratare.`,
     whyChoose: [
-      "Gamă completă de tratare a apei — clarificare, filtrare, îngroșare nămol și stații complete tip pachet",
+      "Gamă de tratare a apei — clarificare, filtrare, îngroșare nămol și stații complete tip pachet",
       "Certificare ISO 9001, conform producătorului",
       "Peste cinci decenii de activitate, din 1973, cu rădăcini în legislația americană privind calitatea apei",
       "Zeci de familii de produse denumite distinct, ceea ce facilitează identificarea echipamentului exact necesar",

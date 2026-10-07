@@ -11,7 +11,7 @@ Ce diferențiază tehnic gama e plaja largă de presiuni acoperită: filtrele ba
 
 Pentru piața din România, Schroeder Industries înseamnă acces la filtrare hidraulică de rezervă și de linie pentru utilaje de foraj, echipamente forestiere, stații de reciclare a uleiurilor uzate și instalații industriale cu cerințe stricte de curățenie a fluidului.`,
     whyChoose: [
-      "Gamă completă de filtrare — carcase top-ported, base-ported, spin-on și montate pe rezervor pentru aproape orice configurație hidraulică",
+      "Gamă de filtrare — carcase top-ported, base-ported, spin-on și montate pe rezervor pentru configurații hidraulice diverse",
       "Filtre de înaltă presiune seria NF30, pentru circuite hidraulice solicitate",
       "Elemente filtrante proprii Excellement Z-Media, concepute pentru capacitate mare de reținere a contaminanților fini",
       "Certificare ISO 9001:2015 pentru procesul de proiectare și fabricație a filtrelor",

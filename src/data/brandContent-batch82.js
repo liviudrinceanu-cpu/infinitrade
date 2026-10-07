@@ -7,7 +7,7 @@ export const brandContentBatch82 = {
     headquarters: "Neckarsulm, Germania",
     overview: `binder este un producător german de conectori circulari, cu sediul la Neckarsulm, activ din 1960 în domeniul componentelor electrice pentru automatizare industrială. Gama acoperă conectori miniaturali și subminiaturali pentru senzori și actuatoare (seriile M5, M8, M9, M12), conectori de putere pentru curenți mai mari (seriile PBC15, B23, M25, RD24, RD30) și variante gândite pentru mediul medical. Pentru un integrator din România, binder înseamnă acces la conectori standardizați pentru cablarea senzorilor și supapelor din linii de producție, roboți și echipamente de testare.
 
-Ce diferențiază binder de concurenți precum TE Connectivity este concentrarea aproape exclusivă pe conectorii circulari standardizați pentru automatizare, cu variante de codare mecanică (A, B, D, K, L, S, T, X) care evită conectarea greșită a cablurilor pe linia de producție. Gama merge de la conectorul subminiatural M5, folosit acolo unde spațiul de montaj e foarte redus, până la conectori M18 sau de putere de tip 7/8 pentru sarcini mai mari de curent. Variantele IP40 sunt gândite pentru montaj în dulapuri electrice, iar cele IP67/IP69K pentru mediul de hală, cu spălare sub presiune.
+Gama binder este concentrată aproape exclusiv pe conectorii circulari standardizați pentru automatizare, cu variante de codare mecanică (A, B, D, K, L, S, T, X) care evită conectarea greșită a cablurilor pe linia de producție. Gama merge de la conectorul subminiatural M5, folosit acolo unde spațiul de montaj e foarte redus, până la conectori M18 sau de putere de tip 7/8 pentru sarcini mai mari de curent. Variantele IP40 sunt gândite pentru montaj în dulapuri electrice, iar cele IP67/IP69K pentru mediul de hală, cu spălare sub presiune.
 
 Pentru România, binder are sens acolo unde deja există echipamente cablate cu conectori M8/M12 și trebuie completată sau reparată instalația cu piese compatibile — linii de asamblare, celule robotizate, bancuri de testare. Nu recomandăm binder pentru proiecte unde clientul cere alt sistem de codare deja instalat pe echipament.`,
     whyChoose: [
@@ -77,7 +77,7 @@ Ce diferențiază Block este acoperirea largă — de la transformatorul clasic 
 Pentru piața din România, Block are sens la retehnologizarea tablourilor electrice unde trebuie înlocuit un transformator de comandă defect sau adăugat un filtru EMC pentru un variator de turație nou montat, precum și în proiecte de automatizare unde alimentarea de 24V trebuie separată galvanic de rețea.`,
     whyChoose: [
       "Circa 85 de ani de istorie în fabricația de transformatoare și componente de alimentare electrică pentru industrie",
-      "Gamă completă, de la transformatoare de comandă și siguranță, până la autotransformatoare și transformatoare toroidale",
+      "Gamă de la transformatoare de comandă și siguranță, până la autotransformatoare și transformatoare toroidale",
       "Filtre EMC și de armonici dedicate variatoarelor de turație, pentru reducerea perturbațiilor în rețeaua electrică",
       "Posibilitatea de produse personalizate (custom-made), utilă pentru cerințe electrice nestandard",
       "Module de redundanță și surse UPS pentru alimentări unde întreruperea nu este acceptabilă"
@@ -136,7 +136,7 @@ Pentru piața din România, Block are sens la retehnologizarea tablourilor elect
     headquarters: "Paris, Franța",
     overview: `Citel este un producător francez specializat exclusiv în descărcătoare de supratensiune (SPD), cu sediul la Paris. Gama acoperă protecția instalațiilor de curent alternativ și continuu, a sistemelor fotovoltaice, a iluminatului LED, a liniilor de telecomunicații și date, precum și a turbinelor eoliene. Pentru un proiect electric din România, Citel oferă o soluție dedicată acolo unde tabloul electric, invertorul fotovoltaic sau echipamentul de telecomunicații trebuie protejat împotriva supratensiunilor cauzate de trăsnet sau comutații din rețea.
 
-Spre deosebire de producători generaliști de aparataj electric care includ SPD-uri într-o gamă mai largă, Citel se concentrează integral pe protecția la supratensiune, cu clase de protecție de tip 1, tip 2 și combinații tip 1+2+3 în funcție de poziția în instalație. Gama pentru fotovoltaic (seria DPVN) acoperă cerințele specifice ale invertoarelor de curent continuu, iar seria DACN1 integrează și un contor de evenimente, util pentru mentenanța preventivă a instalației.
+Citel se concentrează integral pe protecția la supratensiune, cu clase de protecție de tip 1, tip 2 și combinații tip 1+2+3 în funcție de poziția în instalație. Gama pentru fotovoltaic (seria DPVN) acoperă cerințele specifice ale invertoarelor de curent continuu, iar seria DACN1 integrează și un contor de evenimente, util pentru mentenanța preventivă a instalației.
 
 Pentru România, Citel are sens la echiparea tablourilor electrice noi cu protecție la supratensiune, la instalațiile fotovoltaice care cer protecție DC dedicată și la site-urile de radiocomunicații expuse la trăsnet.`,
     whyChoose: [
@@ -412,7 +412,7 @@ Pentru România, Disano Illuminazione are sens la iluminatul de hală industrial
     ],
     overview: `Escha este un producător german de conectori și tehnologie de carcase industriale cu grade ridicate de protecție, cu sediul la Halver. Gama acoperă conectori pentru senzori și actuatoare, conectori compatibili DEUTSCH pentru automatizare mobilă, conectori pentru supape, conectori cu montaj pe teren în variante M8, M12, M23 și RJ45, precum și conectori M12 Push-Pull cu blocare fără scule. Pentru o linie de producție sau un utilaj mobil din România, Escha acoperă cablarea senzorilor și a echipamentelor de automatizare care lucrează în medii cu praf, umezeală sau vibrații.
 
-Spre deosebire de producători mai generaliști de conectori industriali, Escha are o linie dedicată automatizării mobile, cu conectori compatibili DEUTSCH pentru utilaje agricole și de construcții, alături de conectori certificați specific pentru transportul feroviar (conform EN 45545-2 și EN 50155) și pentru industria de autobuze (ECE R118). Seria M12 Push-Pull permite conectarea și deconectarea rapidă fără unelte, un avantaj în aplicații unde senzorii se schimbă frecvent.
+Escha are o linie dedicată automatizării mobile, cu conectori compatibili DEUTSCH pentru utilaje agricole și de construcții, alături de conectori certificați specific pentru transportul feroviar (conform EN 45545-2 și EN 50155) și pentru industria de autobuze (ECE R118). Seria M12 Push-Pull permite conectarea și deconectarea rapidă fără unelte, un avantaj în aplicații unde senzorii se schimbă frecvent.
 
 Pentru România, Escha are sens la utilaje mobile (agricole, construcții), la linii de producție cu senzori M8/M12 și la proiecte de material rulant feroviar unde se cer conectori certificați pentru mediul de bord.`,
     whyChoose: [
@@ -548,7 +548,7 @@ Ce diferențiază HD Hyundai Electric este experiența la nivel de tensiune foar
 Pentru România, HD Hyundai Electric are sens la proiecte de infrastructură energetică de anvergură — stații de transformare, extinderi de rețea sau sisteme de stocare a energiei — nu pentru achiziții punctuale de componente mici.`,
     whyChoose: [
       "Producător cu capacitate proprie de fabricație a transformatoarelor de foarte înaltă tensiune, inclusiv la nivelul de 765 kV",
-      "Gamă completă de echipamente electrice grele — transformatoare, stații GIS, întrerupătoare, motoare și generatoare",
+      "Gamă de echipamente electrice grele — transformatoare, stații GIS, întrerupătoare, motoare și generatoare",
       "Linie dedicată sistemelor de stocare a energiei (BESS), relevantă pentru proiecte de rețea și regenerabile",
       "Marca de produse ecologice GREENTRIC, lansată în 2021"
     ],
@@ -658,7 +658,7 @@ Pentru România, HPS are sens la proiecte industriale cu sarcini neliniare impor
     headquarters: "Xiamen, China",
     overview: `Hongfa este un producător chinez de componente electrice, cu sediul la Xiamen, specializat în relee electromagnetice pentru echipamente de automatizare. Gama acoperă numeroase serii de relee — relee de putere, relee industriale, relee auto, relee de curent continuu de înaltă tensiune (HVDC), relee de semnal și relee latching — alături de module electronice, conectori, condensatoare film și senzori de curent. Pentru un tablou de automatizare din România, Hongfa acoperă comutarea circuitelor de comandă și de putere mai mică.
 
-Spre deosebire de producători europeni consacrați de relee, Hongfa are un catalog foarte extins, cu modele dedicate atât aplicațiilor casnice (relee pentru electrocasnice), cât și industriale. Seria HF177F oferă o capacitate de comutare de până la 40A la 277VAC, iar HF165F este dimensionat special pentru invertoare fotovoltaice și sisteme UPS, cu o capacitate de 35A. HF10F acoperă aplicații industriale cu configurații de contact 2C sau 3C.
+Hongfa are un catalog extins, cu modele dedicate atât aplicațiilor casnice (relee pentru electrocasnice), cât și industriale. Seria HF177F oferă o capacitate de comutare de până la 40A la 277VAC, iar HF165F este dimensionat special pentru invertoare fotovoltaice și sisteme UPS, cu o capacitate de 35A. HF10F acoperă aplicații industriale cu configurații de contact 2C sau 3C.
 
 Pentru România, Hongfa are sens la retehnologizarea tablourilor de automatizare unde se cere un releu compatibil cu un model existent sau la proiecte cu volum mare unde costul pe unitate contează.`,
     whyChoose: [

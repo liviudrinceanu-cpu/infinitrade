@@ -91,7 +91,7 @@ Seria MVSI, linia de referință a producătorului, atinge valori de forță cen
 
 Pentru instalațiile din România cu buncăre de descărcare, site vibrante sau linii de dozare a materialelor în vrac, gama Italvibras oferă o alegere între acționare mecanică prin motovibrator rotativ și acționare electromagnetică, în funcție de material și de precizia de dozare necesară.`,
     whyChoose: [
-      "Gamă completă de acționare vibrantă: motovibratoare rotative pe picior sau flanșă, oscilatoare mecanice și vibratoare electromagnetice, sub același producător",
+      "Gamă de acționare vibrantă: motovibratoare rotative pe picior sau flanșă, oscilatoare mecanice și vibratoare electromagnetice, sub același producător",
       "Seria MVSI atinge forțe centrifuge de până la 30.500 kgf la modelele mari, conform datelor publicate pe pagina producătorului",
       "Variante MTF-E și MVSI-E cu siguranță sporită („sicurezza aumentata”), pentru medii cu risc de explozie",
       "Vibratoare electromagnetice seria VE cu alimentare pe interval larg, de la 105V la 600V, pentru instalații cu tensiuni diferite",

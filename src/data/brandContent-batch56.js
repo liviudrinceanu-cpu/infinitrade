@@ -5,7 +5,7 @@ export const brandContentBatch56 = {
     name: "ITT Goulds",
     overview: `ITT Goulds Pumps este divizia de pompe industriale a grupului american ITT Inc., specializată în pompe centrifuge de proces pentru rafinării, platforme chimice, minerit și industria energetică. Gama include pompe de proces din familia 3196 (ANSI B73.1) și 3796, pompe verticale de tip turbină din seria VIT/VIC/VIDS pentru foraje adânci și puțuri industriale, și pompe cu carcasă despicată din seria HS pentru debite mari. Pentru piața din România putem oferta atât unități complete, cât și piese de schimb pentru instalațiile deja existente cu pompe Goulds.
 
-Important de reținut: ITT Goulds Pumps, producătorul pompelor industriale grele API 610, este o companie distinctă de Goulds Water Technology, brandul de pompe rezidențiale și comerciale rămas la Xylem după separarea din 2011 a diviziei de apă a ITT. Seria 3196, construită după standardul ANSI B73.1, este o pompă de proces folosită pe scară largă în industrie, cu variante i-FRAME pentru mentenanță rapidă, LF pentru debite mici și HT pentru fluide fierbinți. Concurează cu Flowserve și cu KSB pe segmentul pompelor de proces pentru rafinării și petrochimie.
+Important de reținut: ITT Goulds Pumps, producătorul pompelor industriale grele API 610, este o companie distinctă de Goulds Water Technology, brandul de pompe rezidențiale și comerciale rămas la Xylem după separarea din 2011 a diviziei de apă a ITT. Seria 3196, construită după standardul ANSI B73.1, este o pompă de proces folosită pe scară largă în industrie, cu variante i-FRAME pentru mentenanță rapidă, LF pentru debite mici și HT pentru fluide fierbinți.
 
 Pentru inginerii și mentenanții din România care operează instalații cu pompe Goulds mai vechi, aducem la comandă piese de schimb și unități de înlocuire, utile mai ales la rafinării, platforme chimice și stații de pompare industrială unde standardul API 610 este obligatoriu.`,
     whyChoose: [
@@ -73,12 +73,12 @@ Pentru inginerii și mentenanții din România care operează instalații cu pom
     name: "SPX Flow",
     overview: `SPX FLOW este un grup american de inginerie a proceselor, cu branduri specializate pentru industria alimentară, lactate și farmaceutică — printre care APV, Waukesha Cherry-Burrell, Bran+Luebbe, LIGHTNIN și Plenty. Gama acoperă schimbătoare de căldură cu plăci, omogenizatoare, sisteme de pasteurizare și UHT, pompe și valve igienice, mixere industriale și sisteme de filtrare cu membrană. Pentru piața din România putem oferta echipamente și piese din aceste linii, cu excepția Johnson Pump, prezent separat în oferta noastră.
 
-Spre deosebire de un producător cu o singură gamă, SPX FLOW funcționează ca un grup de branduri specializate: APV a inventat primul schimbător de căldură cu plăci comercial în 1923 și rămâne referință în industria lactatelor, Waukesha Cherry-Burrell acoperă pompele igienice cu lob rotativ pentru alimente vâscoase, iar LIGHTNIN e cunoscut pentru mixere industriale de proces. Concurează cu Alfa Laval și cu GEA pe segmentul echipamentelor de procesare alimentară și farmaceutică.
+SPX FLOW funcționează ca un grup de branduri specializate: APV a inventat primul schimbător de căldură cu plăci comercial în 1923 și rămâne prezent în industria lactatelor, Waukesha Cherry-Burrell acoperă pompele igienice cu lob rotativ pentru alimente vâscoase, iar LIGHTNIN e cunoscut pentru mixere industriale de proces.
 
 Pentru fabricile de lactate, băuturi sau produse farmaceutice din România, avantajul SPX FLOW este acoperirea mai multor tipuri de echipamente sub un singur grup — de la schimbul de căldură până la mixare și pompare igienică — utilă mai ales la linii de producție care combină aceste procese.`,
     whyChoose: [
       "Portofoliu de branduri specializate — APV, Waukesha Cherry-Burrell, Bran+Luebbe, LIGHTNIN — fiecare optimizat pentru un tip de proces distinct",
-      "APV a inventat schimbătorul de căldură cu plăci comercial în 1923, tehnologie de referință în industria lactatelor",
+      "APV a inventat schimbătorul de căldură cu plăci comercial în 1923, tehnologie prezentă în industria lactatelor",
       "Waukesha Cherry-Burrell acoperă pompe și echipamente igienice pentru transferul produselor vâscoase din industria alimentară",
       "LIGHTNIN oferă sisteme de amestecare și agitare industrială pentru chimie și farmaceutică, configurate pe măsura vasului",
       "Sisteme complete de pasteurizare și UHT, utile la linii de producție lactate și băuturi cu debite mari"
@@ -208,9 +208,9 @@ Pentru industria chimică, alimentară sau farmaceutică din România, Tapflo î
 
 Din 2022, Calpeda face parte din Wateralia, un holding industrial deținut de Ambienta, fond european specializat în sustenabilitate. Gama este organizată pe familii, printre care pompe centrifuge cu impeler simplu sau dublu, multietajate, autoamorsante, periferice, pentru piscine și submersibile, plus E-IDOS, pompe cu electronică integrată; seriile exacte se identifică din cataloagele 50 Hz și 60 Hz ale producătorului. Pe segmentul rezidențial și de presurizare, Calpeda se compară frecvent cu DAB și cu Pedrollo, ambele branduri italiene cu structură de gamă asemănătoare.
 
-Pentru instalatorii din România, Calpeda înseamnă o gamă completă italiană, de la pompa de puț până la stația de presurizare, utilă la clădiri rezidențiale, ferme sau instalații de irigații unde structura pieselor de schimb trebuie să rămână simplă pe termen lung.`,
+Pentru instalatorii din România, Calpeda înseamnă o gamă italiană, de la pompa de puț până la stația de presurizare, utilă la clădiri rezidențiale, ferme sau instalații de irigații unde structura pieselor de schimb trebuie să rămână simplă pe termen lung.`,
     whyChoose: [
-      "Gamă completă italiană — de la pompe centrifuge de bază până la pompe submersibile pentru foraje și stații de presurizare",
+      "Gamă italiană — de la pompe centrifuge de bază până la pompe submersibile pentru foraje și stații de presurizare",
       "Seria E-IDOS integrează electronică de control și turație variabilă direct pe pompă, fără tablou extern",
       "Variante pentru fluide agresive, a căror disponibilitate se confirmă din catalogul producătorului",
       "Parte din grupul Wateralia; Calpeda declară 14 filiale la nivel mondial, plus o rețea de parteneri și centre de service",
@@ -742,7 +742,7 @@ Pentru stațiile de tratare a apei, laboratoarele și liniile de producție din 
       "Variantă nemetalică MDT pentru medii corozive și variantă metalică MP; limitele de temperatură și presiune se confirmă pe cod",
       "Pompe de dozare acționate de motor sau electromagnetic, pentru reglarea fină a debitului în procese chimice",
       "Fabricație japoneză din 1956, specializată explicit pe manipularea chimicalelor, nu pe pompare generală",
-      "Gamă completă de pompe cu burduf pneumatic și cu deplasament rotativ pentru fluide vâscoase sau sensibile"
+      "Gamă de pompe cu burduf pneumatic și cu deplasament rotativ pentru fluide vâscoase sau sensibile"
     ],
     keyProducts: [
       { name: "Pompe cu Antrenare Magnetică Seria MDT", description: "Pompe turbină cu antrenare magnetică din materiale nemetalice, fără etanșare mecanică expusă, pentru transfer de chimicale corozive fără risc de scurgere la arborele pompei. Clientul trebuie să transmită tipul de chimical, debitul necesar și temperatura de lucru." },

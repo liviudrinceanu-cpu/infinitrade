@@ -46,7 +46,7 @@ Pentru piața din România, gama are sens la operatorii de termoficare, la centr
       { code: "Boiler Mounting Valve", description: "montaj de izolare pentru cazane industriale" }
     ],
     faq: [
-      { q: "Ce produce Hopkinsons?", a: "Hopkinsons fabrică robinete industriale de izolare și control, cel mai cunoscut fiind robinetul paralel cu glisieră folosit pe liniile de abur și apă de alimentare din centrale electrice și instalații nucleare. Gama include și robinete cu pană, cu scaun și de drenaj." },
+      { q: "Ce produce Hopkinsons?", a: "Hopkinsons fabrică robinete industriale de izolare și control, printre care robinetul paralel cu glisieră folosit pe liniile de abur și apă de alimentare din centrale electrice și instalații nucleare. Gama include și robinete cu pană, cu scaun și de drenaj." },
       { q: "Cum aleg varianta potrivită de robinet Hopkinsons pentru o linie de abur?", a: "Trebuie stabilite diametrul nominal, clasa de presiune, materialul corpului și tipul de etanșare cerut de proces; pentru o înlocuire, cea mai sigură metodă e să trimiteți datele de pe plăcuța robinetului existent, ca să identificăm echivalentul corect din gamă." },
       { q: "Ce diferență există între robinetul paralel simplu și cel venturi la Hopkinsons?", a: "Varianta venturi are corpul îngustat, ceea ce reduce greutatea și pierderea de sarcină la diametre mari, în timp ce varianta cu alezaj plin păstrează secțiunea de trecere completă pentru debite maxime fără restricție." },
       { q: "Livrați robinete Hopkinsons în România și cât durează?", a: "Aducem robinete Hopkinsons la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de disponibilitatea fabricii și de complexitatea produsului solicitat." },
@@ -629,7 +629,7 @@ Pentru un inginer de instalații din România, gama Stenflex are sens la retehno
       "Peste 50 de ani de inginerie germană specializată pe compensatori și racorduri elastice",
       "Soluții descrise de producător drept «tehnologie fără întreținere», pentru montaj de lungă durată",
       "Acoperire dedicată aplicațiilor navale, unde vibrațiile motoarelor cer compensatori robuști",
-      "Gamă completă de accesorii — articulații rotative, furtunuri industriale, conectori din cauciuc"
+      "Gamă de accesorii — articulații rotative, furtunuri industriale, conectori din cauciuc"
     ],
     keyProducts: [
       { name: "Compensatori din Cauciuc (Gummi-Kompensatoren)", description: "Compensatori elastici din cauciuc pentru absorbția vibrațiilor, a dilatărilor termice și a dezalinierilor ușoare pe conducte industriale, de HVAC sau navale, unde presiunile de lucru nu depășesc plaja tipică a materialului elastomeric." },

@@ -7,7 +7,7 @@ export const brandContentBatch113 = {
     headquarters: "Lünen, Germania",
     overview: `SIBA este un producător german de fuzibile electrice, cu sediul la Lünen, în Renania de Nord-Westfalia, activ din 1946. Compania este axată exclusiv pe fuzibile și are astăzi un portofoliu care acoperă protecția de la joasă tensiune până la aplicații de înaltă tensiune și semiconductori de putere. Pentru piața din România putem oferta din gama SIBA fuzibile de joasă tensiune seria NH, fuzibile de înaltă tensiune HH și fuzibile ultra-rapide UltraRapid® pentru protecția semiconductoarelor.
 
-Ce diferențiază SIBA e specializarea exclusivă pe fuzibile, spre deosebire de producători generaliști de aparataj electric. Gama UltraRapid ajunge la o capacitate de rupere de până la 260 kA la 1500 V curent continuu, utilă pentru sistemele mari de stocare a energiei (BESS) și fotovoltaice, cu variante URZ, URB, URM și URE. Fuzibilele de înaltă tensiune HH acoperă rețele de 3,6-36 kV cu capacități de rupere între 40 și peste 100 kA.
+SIBA este specializat exclusiv pe fuzibile. Gama UltraRapid ajunge la o capacitate de rupere de până la 260 kA la 1500 V curent continuu, utilă pentru sistemele mari de stocare a energiei (BESS) și fotovoltaice, cu variante URZ, URB, URM și URE. Fuzibilele de înaltă tensiune HH acoperă rețele de 3,6-36 kV cu capacități de rupere între 40 și peste 100 kA.
 
 Pentru instalațiile industriale din România, gama SIBA are sens acolo unde proiectantul cere explicit un fuzibil compatibil cu un tablou sau echipament importat cu fuzibile SIBA montate din fabrică, la retehnologizări de stații de medie tensiune sau la proiecte de stocare a energiei unde protecția bateriilor trebuie dimensionată precis pe curent continuu.`,
     whyChoose: [

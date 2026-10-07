@@ -89,7 +89,7 @@ Compresoarele cu șurub rotativ acoperă puteri de la 5 la 400 CP, cu seria QGD 
 
 Pentru piața din România, Quincy înseamnă acces la compresoare industriale robuste pentru linii de producție și ateliere unde compresorul funcționează aproape continuu, iar clientul caută fie o unitate nouă, fie piese de schimb după codul de serie existent.`,
     whyChoose: [
-      "Gama completă sub un singur producător — piston, șurub rotativ, fără ulei și pompe de vid",
+      "Gamă sub un singur producător — piston, șurub rotativ, fără ulei și pompe de vid",
       "Fabrica certificată ISO 9001, cu control de proces documentat pentru seriile industriale",
       "Seria QSI acoperă până la 400 CP pentru sarcini industriale continue de mare capacitate",
       "Variante fără ulei (QOF, WIS) pentru procese unde contaminarea aerului nu este acceptabilă",

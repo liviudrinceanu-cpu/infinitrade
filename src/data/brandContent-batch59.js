@@ -6,7 +6,7 @@ export const brandContentBatch59 = {
     founded: 1965,
     overview: `Bermad este un producător israelian de robineți hidraulici de control, activ din 1965, specializat în vane care gestionează presiunea, debitul și nivelul apei fără intervenție electrică directă. Gama standard cuprinde mai multe serii (de exemplu 100, 200, 400 și 700), alături de robineți deluge pentru stingere și sisteme de contorizare EFM. Pentru piața din România putem oferta robineți de control pentru irigații, distribuție de apă și protecție la incendiu.
 
-Spre deosebire de valvele cu acționare electrică, robineții Bermad funcționează pe principiul hidraulic — presiunea din conductă, transmisă printr-un circuit de pilotare, deschide sau închide diafragma principală, ceea ce reduce nevoia de alimentare electrică la punctul de montaj. Seria potrivită, diametrele disponibile și aplicațiile se stabilesc pe cod, din documentația producătorului. Concurează direct cu Dorot, celălalt brand israelian de valve hidraulice prezent în portofoliul nostru, alegerea depinzând de specificațiile proiectului.
+Spre deosebire de valvele cu acționare electrică, robineții Bermad funcționează pe principiul hidraulic — presiunea din conductă, transmisă printr-un circuit de pilotare, deschide sau închide diafragma principală, ceea ce reduce nevoia de alimentare electrică la punctul de montaj. Seria potrivită, diametrele disponibile și aplicațiile se stabilesc pe cod, din documentația producătorului.
 
 Pentru instalații de irigații agricole, stații de pompare și rețele de distribuție a apei din România, robineții Bermad sunt o opțiune acolo unde proiectantul cere control hidraulic fără automatizare complexă.`,
     whyChoose: [
@@ -195,7 +195,7 @@ Pentru centrale de cogenerare, hidrocentrale mici și instalații industriale di
     name: "Brook Crompton",
     overview: `Brook Crompton este un producător de motoare electrice industriale, cu o istorie de peste un secol în domeniu, specializat în motoare de uz general și motoare certificate ATEX pentru zone cu risc de explozie. Gama acoperă motoare din aluminiu și fontă din seria W Premium, motoare antiex NEMA și variante ATEX EExd, EExde și EEx nA. Pentru România putem oferta motoare Brook Crompton pentru acționarea pompelor, ventilatoarelor și compresoarelor în medii industriale, inclusiv zone clasificate.
 
-Seria W Premium este disponibilă atât în variantă NEMA cât și IEC, în construcție de aluminiu (mai ușoară, pentru puteri mici-medii) sau fontă (pentru sarcini industriale grele). Motoarele antiex NEMA acoperă cadre de la 140T până la 250T și de la 280T în sus, iar variantele ATEX EExd sunt certificate pentru Zona 1, grupele IIA și IIB, în timp ce EExde adaugă și grupa IIC pentru cea mai severă clasificare. Pe segmentul motoarelor certificate pentru zone explozive, Brook Crompton concurează cu Baldor și cu Marelli Motori, celelalte branduri de motoare industriale din gama noastră.
+Seria W Premium este disponibilă atât în variantă NEMA cât și IEC, în construcție de aluminiu (mai ușoară, pentru puteri mici-medii) sau fontă (pentru sarcini industriale grele). Motoarele antiex NEMA acoperă cadre de la 140T până la 250T și de la 280T în sus, iar variantele ATEX EExd sunt certificate pentru Zona 1, grupele IIA și IIB, în timp ce EExde adaugă și grupa IIC pentru cea mai severă clasificare.
 
 Pentru instalații din minerit, tratarea apei, procesare industrială și producție unde echipamentul trebuie să funcționeze în zone cu risc de explozie sau în condiții de sarcină grea, motoarele Brook Crompton sunt o opțiune de luat în calcul alături de celelalte branduri certificate ATEX din portofoliu.`,
     whyChoose: [
@@ -255,12 +255,12 @@ Pentru instalații din minerit, tratarea apei, procesare industrială și produc
     headquarters: "Bargteheide, Germania",
     overview: `NORD Drivesystems este un producător german de sisteme de acționare — motoare electrice, reductoare și variatoare de frecvență — cu sediul la Bargteheide, lângă Hamburg, activ din 1965. Gama include reductoare UNICASE cu roți dințate elicoidale, unități MAXXDRIVE pentru sarcini industriale mari, motoreductoare melcate și variatoare NORDAC din familiile PRO și ON. Pentru România putem oferta sisteme complete motor-reductor-variator pentru logistică internă, industria alimentară și manipularea materialelor în vrac.
 
-Conceptul LogiDrive combină motorul, reductorul și variatorul de frecvență într-o singură unitate optimizată pentru transportoare, reducând numărul de componente de dimensionat separat. Reductoarele acoperă construcții elicoidale in-line, cu ax paralel și conice-elicoidale, iar variatorul NORDAC PRO SK 500P este destinat aplicațiilor complexe, în timp ce NORDAC ON e gândit pentru montaj descentralizat direct pe motor. Pe segmentul acționărilor industriale complete, NORD concurează cu Lenze, celălalt brand german de sisteme de acționare din portofoliul nostru.
+Conceptul LogiDrive combină motorul, reductorul și variatorul de frecvență într-o singură unitate optimizată pentru transportoare, reducând numărul de componente de dimensionat separat. Reductoarele acoperă construcții elicoidale in-line, cu ax paralel și conice-elicoidale, iar variatorul NORDAC PRO SK 500P este destinat aplicațiilor complexe, în timp ce NORDAC ON e gândit pentru montaj descentralizat direct pe motor.
 
 Pentru linii de transport, depozite automatizate, instalații din industria alimentară și stații de tratare a apelor uzate din România, sistemele NORD sunt o opțiune de urmărit atunci când proiectul cere un motor, un reductor și un variator dimensionate ca ansamblu, nu ca piese separate.`,
     whyChoose: [
       "Sisteme integrate LogiDrive — motor, reductor și variator de frecvență optimizate ca o singură unitate",
-      "Gamă completă de reductoare — elicoidale in-line, ax paralel, conice-elicoidale și melcate",
+      "Gamă de reductoare — elicoidale in-line, ax paralel, conice-elicoidale și melcate",
       "Variatoare descentralizate NORDAC ON, montate direct pe motor, pentru cablare simplificată",
       "Rețea de 48 de filiale în 36 de țări pentru piese și suport tehnic",
     ],
@@ -316,11 +316,11 @@ Pentru linii de transport, depozite automatizate, instalații din industria alim
     headquarters: "Angoulême, Franța",
     overview: `Leroy-Somer este un producător francez de motoare electrice, alternatoare și variatoare, cu sediul la Angoulême, activ din 1919 și integrat astăzi în grupul japonez Nidec. Gama acoperă motoare de inducție trifazate, motoare sincrone, motoare cu frână, motoreductoare din familiile Compabloc și Orthobloc, servomotoare Unimotor hd și variatoare de curent alternativ și continuu. Pentru România putem oferta motoare și motoreductoare Leroy-Somer pentru acționări industriale generale.
 
-Motoarele sincrone din seriile FLSHRM, LSHRM și PLSHRM fac parte din gama de motoare sincrone a producătorului, iar motoreductoarele Compabloc (helical cu ieșire axială), Multibloc/Minibloc (melc-roată) și Orthobloc (conic-elicoidal ortogonal) acoperă majoritatea configurațiilor mecanice cerute în producție. Variatorul DC Mentor MP rămâne o opțiune pentru acționările clasice de curent continuu, iar starterele electronice Digistart D4/D5 înlocuiesc pornirea directă la motoare de putere mai mare. Ca gamă completă de acționări, Leroy-Somer se compară cu NORD Drivesystems, celălalt brand de sisteme de acționare din portofoliu.
+Motoarele sincrone din seriile FLSHRM, LSHRM și PLSHRM fac parte din gama de motoare sincrone a producătorului, iar motoreductoarele Compabloc (helical cu ieșire axială), Multibloc/Minibloc (melc-roată) și Orthobloc (conic-elicoidal ortogonal) acoperă majoritatea configurațiilor mecanice cerute în producție. Variatorul DC Mentor MP rămâne o opțiune pentru acționările clasice de curent continuu, iar starterele electronice Digistart D4/D5 înlocuiesc pornirea directă la motoare de putere mai mare.
 
 Pentru linii de producție, sisteme de ridicat, instalații HVAC și echipamente din industria alimentară din România, gama Leroy-Somer oferă o alternativă completă motor-reductor-variator, utilă mai ales acolo unde proiectul cere motoare sincrone de eficiență ridicată sau motoreductoare compacte.`,
     whyChoose: [
-      "Gamă completă motor-reductor-variator — de la motoare de inducție la motoreductoare Compabloc/Orthobloc și variatoare AC/DC",
+      "Gamă motor-reductor-variator — de la motoare de inducție la motoreductoare Compabloc/Orthobloc și variatoare AC/DC",
       "Motoare sincrone (FLSHRM, LSHRM, PLSHRM) din gama producătorului",
       "Peste un secol de experiență franceză în motoare și alternatoare industriale, din 1919",
       "Parte din grupul Nidec — acces la o rețea globală de inginerie și piese de schimb",
@@ -515,7 +515,7 @@ Pe lângă motoarele de serie, TECO-Westinghouse produce și motoare custom — 
 
 Pentru instalații din petrol și gaze, petrochimie, minerit și stații de tratare a apei din România care au nevoie de motoare de medie tensiune sau de variante ODP/TEFC standard, gama TECO acoperă motoare ODP/TEFC standard și de medie tensiune.`,
     whyChoose: [
-      "Gamă completă ODP/TEFC — de la motoare monofazate mici la motoare de medie tensiune",
+      "Gamă ODP/TEFC — de la motoare monofazate mici la motoare de medie tensiune",
       "Motoare verticale cu ax gol sau plin, pentru pompe și aplicații speciale de montaj",
       "Motoare custom de inducție, sincrone și curent continuu, alături de variatoare de joasă și medie tensiune",
       "Extindere spre soluții energetice — stocare în baterii, recuperare de căldură, încărcătoare EV",
@@ -642,7 +642,7 @@ Pentru linii de ambalare, industria textilă, logistică de depozit și echipame
     whyChoose: [
       "Variatoare MOTEC montate direct pe motor — cablaj redus în dulapul electric",
       "Motoare sincrone de eficiență ridicată pentru aplicații unde consumul energetic contează explicit",
-      "Gamă completă motor-reductor-servo pentru aplicații de poziționare și transport",
+      "Gamă motor-reductor-servo pentru aplicații de poziționare și transport",
       "Peste 75 de ani de experiență germană în acționări industriale, din 1947",
       "Software propriu de dimensionare (EASY System Designer) pentru alegerea rapidă a combinației motor-reductor-variator",
     ],

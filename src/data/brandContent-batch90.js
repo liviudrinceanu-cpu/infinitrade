@@ -5,11 +5,11 @@ export const brandContentBatch90 = {
     name: "XP Power",
     overview: `XP Power e un proiectant și producător de electronică de putere, specializat pe surse de alimentare AC-DC și convertoare DC-DC pentru echipamente industriale, medicale și de telecomunicații. Gama standard acoperă surse AC-DC de la 3 W până la 100 kW, plus module de înaltă tensiune și filtre EMI pentru integrare în echipamente OEM. Pentru piața din România putem oferta module din cataloagele curente, pe bază de cod de produs sau specificație tehnică transmisă de client.
 
-Ce diferențiază compania e acoperirea largă de topologii într-un singur producător: de la surse AC-DC de bază cu montaj pe șasiu sau placă, la convertoare DC-DC pentru aplicații medicale, până la surse de înaltă tensiune de zeci de kV pentru spectrometrie de masă și sisteme de radiație. Seriile medicale respectă cerințe stricte de curent de scurgere și izolație, cerute în echipamente de diagnostic conectate la pacient.
+Gama companiei cuprinde mai multe topologii într-un singur producător: de la surse AC-DC de bază cu montaj pe șasiu sau placă, la convertoare DC-DC pentru aplicații medicale, până la surse de înaltă tensiune de zeci de kV pentru spectrometrie de masă și sisteme de radiație. Seriile medicale respectă cerințe stricte de curent de scurgere și izolație, cerute în echipamente de diagnostic conectate la pacient.
 
 În România, integratorii de echipamente medicale, de automatizare industrială și de măsurare aleg astfel de module când au nevoie de un singur furnizor pentru mai multe topologii de alimentare într-un proiect, fără să combine mai mulți producători mici pentru fiecare tensiune de ieșire.`,
     whyChoose: [
-      "Acoperire completă de topologii — AC-DC, DC-DC, înaltă tensiune și filtre EMI de la un singur producător",
+      "Acoperire de topologii — AC-DC, DC-DC, înaltă tensiune și filtre EMI de la un singur producător",
       "Serii de convertoare DC-DC medicale, de exemplu HBM150 de 150 W",
       "Module de înaltă tensiune dedicate spectrometriei de masă și aplicațiilor cu radiație",
       "Formate compacte pentru montaj pe șasiu, placă sau șină DIN, ușor de integrat în panouri existente"
@@ -134,7 +134,7 @@ Ce diferențiază Chromalox e acoperirea de la cablul de încălzire cu auto-reg
 
 În România, integratorii din energie, chimie și industria alimentară aleg astfel de echipamente pentru protecția la îngheț a conductelor, menținerea vâscozității fluidelor grele și încălzirea de proces în instalații unde temperatura trebuie controlată punctual, nu doar la nivel de clădire.`,
     whyChoose: [
-      "Gamă completă de cabluri heat trace, de la auto-reglare pentru temperaturi joase la mineral-izolate pentru temperaturi ridicate",
+      "Gamă de cabluri heat trace, de la auto-reglare pentru temperaturi joase la mineral-izolate pentru temperaturi ridicate",
       "Rezistențe de imersie și cartuș pentru încălzirea directă a fluidelor de proces, nu doar a traseelor",
       "Peste un secol de activitate în termotehnologie industrială, ; compania face parte din grupul Spirax",
       "Controale și sisteme de monitorizare dedicate pentru circuitele de heat trace, separate de restul instalației electrice"
@@ -194,9 +194,9 @@ Ce diferențiază Chromalox e acoperirea de la cablul de încălzire cu auto-reg
 
 Tehnic, HOMA acoperă o plajă largă de trecere liberă — de la 35–50 mm la pompele TCV/TCM și 50–70 mm la seria TP, potrivite pentru ape uzate cu solide grosiere și fibre, până la sute de milimetri la pompele mari cu rotor multicanal din seria K(X), folosite la stații municipale cu debite de peste 2.000 m³/h. Pompele cu mecanism de tăiere rezolvă problema textilelor și reziduurilor fibroase care blochează rotoarele clasice, o problemă tot mai frecventă în rețelele de canalizare actuale.
 
-Pentru instalatorii și operatorii de stații de pompare din România, HOMA înseamnă acces la o gamă completă, de la pompa de drenaj pentru o casă unifamilială până la echipamentul pentru o stație municipală, cu piese de schimb și accesorii de control disponibile pentru fiecare familie de produs.`,
+Pentru instalatorii și operatorii de stații de pompare din România, HOMA înseamnă acces la o gamă care merge de la pompa de drenaj pentru o casă unifamilială până la echipamentul pentru o stație municipală, cu piese de schimb și accesorii de control disponibile pentru fiecare familie de produs.`,
     whyChoose: [
-      "Gamă completă de la pompe de drenaj domestice la echipamente pentru stații municipale de mare capacitate",
+      "Gamă de la pompe de drenaj domestice la echipamente pentru stații municipale de mare capacitate",
       "Pompe cu mecanism de tăiere dedicate reziduurilor fibroase, o problemă frecventă în canalizările actuale",
       "Variante din inox pentru medii mai agresive, pe lângă gama standard din fontă",
       "Certificare ISO 9001:2015"
@@ -544,7 +544,7 @@ Tehnic, gama Professional acoperă cupluri de la 130 la 1.500 N·m cu acuratețe
 
 Pentru service-urile industriale și liniile de asamblare din România, cheile Norbar sunt relevante acolo unde specificația tehnică a echipamentului cere o valoare de cuplu documentată, nu doar o strângere „la sentiment" — de la mentenanța de conducte și flanșe, până la asamblarea de componente critice din energie și transport.`,
     whyChoose: [
-      "Gamă completă de la chei manuale de precizie la scule electronice cu înregistrare de cuplu",
+      "Gamă de la chei manuale de precizie la scule electronice cu înregistrare de cuplu",
       "Acuratețe de ±3% la gama Professional, conform datelor producătorului",
       "Chei non-magnetice pentru medii sensibile la câmpuri magnetice",
       "Chei pentru electrozi cu cupluri de până la 3.200 N·m, pentru aplicații metalurgice specializate"
@@ -599,7 +599,7 @@ Tehnic, gama de microfoane acoperă variante free-field, pressure-field și diff
 
 Pentru laboratoarele de testare, producătorii auto și companiile de energie eoliană din România, instrumentele Brüel & Kjær sunt relevante pentru măsurători de zgomot, control al calității acustice a produselor și monitorizare a vibrațiilor pe echipamente rotative critice.`,
     whyChoose: [
-      "Gamă completă de microfoane de măsurare, pentru câmp liber, presiune sau câmp difuz",
+      "Gamă de microfoane de măsurare, pentru câmp liber, presiune sau câmp difuz",
       "Sisteme de achiziție multi-canal LAN-XI și Fusion-LN pentru analize complexe de sunet și vibrații",
       "Accelerometre CCLD (IEPE) cu cablare simplificată față de variantele cu sarcină electrică",
       "Sisteme dedicate de testare acustică pentru linii de producție (End-of-Line)"

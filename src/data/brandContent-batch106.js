@@ -563,7 +563,7 @@ Tehnic, gama acoperă pompe cu flux simplu (seriile SAP/SAPT și SCP), pompe cu 
 Pentru producătorii români de utilaje agricole, macarale mobile și echipamente de construcții, gama Sunfab acoperă atât pompele de schimb pentru instalații existente, cât și unități noi configurate pe interfața de montaj a echipamentului.`,
     whyChoose: [
       "Companie de familie cu producție proprie continuă din 1925 la Hudiksvall",
-      "Gamă completă de pompe cu flux simplu, dublu și variabil, plus motoare hidraulice",
+      "Gama cuprinde pompe cu flux simplu, dublu și variabil, plus motoare hidraulice",
       "Interfețe de montaj multiple (DIN, SAE, ISO, M2), în funcție de serie",
       "Variantă marcată Agri în gamă (SCP 084-130 DIN Agri)",
       "Rețea de filiale proprii în șase țări pentru suport tehnic mai aproape de client"

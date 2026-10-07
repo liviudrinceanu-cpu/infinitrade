@@ -322,7 +322,7 @@ Ce diferențiază Perle este acoperirea completă a nevoilor de conectare a unor
 
 Pentru instalațiile din România, echipamentele Perle au sens acolo unde trebuie conectat un echipament serial vechi la o rețea Ethernet, unde distanța de cablu depășește limitele normale de cupru, sau unde un site izolat are nevoie de conectivitate celulară de rezervă pentru monitorizare de la distanță.`,
     whyChoose: [
-      "Gamă completă pentru conectarea echipamentelor seriale mai vechi la rețele Ethernet moderne",
+      "Gamă pentru conectarea echipamentelor seriale mai vechi la rețele Ethernet moderne",
       "Console servers IOLAN pentru administrare out-of-band a echipamentelor de rețea",
       "Switch-uri industriale Ethernet pentru medii dure, cu specificații confirmate pe cod din fișa tehnică",
       "Routere celulare 5G/LTE pentru conectivitate de rezervă la site-uri izolate",

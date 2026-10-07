@@ -13,7 +13,7 @@ Infinitrade poate oferta la comandă echipamente din gama industrială Schneider
     whyChoose: [
       'Platformă unificată EcoStruxure pentru automatizare completă și management energetic inteligent',
       'Istorie de aproape 200 de ani în inginerie electrică și automatizări industriale',
-      'Gama completă de la distribuție electrică la PLCs, HMIs, variatori și sisteme de monitorizare',
+      'Gama cuprinde distribuție electrică, PLCs, HMIs, variatori și sisteme de monitorizare',
       'Focus pe sustenabilitate și eficiență energetică',
     ],
     keyProducts: [
@@ -315,7 +315,7 @@ Ce face pompele Becker speciale? Lipsa totală de ulei în camera de compresie. 
 
 Gama lor este largă: de la pompe mici de vid (seria U) pentru mese de vid și printing, la suflante mari cu canale laterale (seria SV) pentru aerare și transport pneumatic, până la compresoare oil-free pentru aer comprimat curat. Aplicația lor principală este industria ambalajelor — termoformare, flowpack, blister packaging — acolo unde e nevoie de vid rapid, repetat și curat. Nivelul de zgomot depinde de model și se confirmă din fișa tehnică.
 
-Infinitrade furnizează gama completă Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Disponibilitatea la producător pentru modelele cerute frecvent se verifică direct, iar configurațiile specifice se aduc la comandă. Pentru aplicații cu vid sau aer comprimat curat fără ulei, Becker este un brand de luat în considerare — costă ceva în plus față de opțiunile mai ieftine, dar fiabilitatea pe termen lung este un argument frecvent citat de producător.`,
+Infinitrade furnizează echipamente Becker pentru industriile românești: de la pompe de vid pentru CNC-uri și mese de vid, la suflante pentru stații de epurare și compresoare oil-free pentru food & pharma. Disponibilitatea la producător pentru modelele cerute frecvent se verifică direct, iar configurațiile specifice se aduc la comandă. Pentru aplicații cu vid sau aer comprimat curat fără ulei, Becker este un brand de luat în considerare — fiabilitatea pe termen lung este un argument frecvent citat de producător.`,
     whyChoose: [
       'Tehnologie oil-free cu palete din carbon — vid și aer comprimat fără contaminare cu ulei',
       'Fiabilitate ridicată cu întreținere minimă — schimbi paletele o dată la câțiva ani și atât',
@@ -510,7 +510,7 @@ Infinitrade poate oferi la comandă soluții Donaldson pentru calitatea aerului 
     whyChoose: [
       'Producător specializat în filtrare industrială, cu fișe tehnice publicate pentru fiecare filtru',
       'Colectoare de praf Torit — utilizate pe scară largă pentru captarea fumului de sudură și a rumegușului',
-      'Gamă completă de la filtre compacte pentru mașini individuale la sisteme centralizate pentru hale',
+      'Gamă de la filtre compacte pentru mașini individuale la sisteme centralizate pentru hale',
       'Conformitatea cu normele de sănătate și siguranță în muncă se verifică pe fișa tehnică a fiecărui echipament',
     ],
     keyProducts: [

@@ -14,7 +14,7 @@ Pentru beneficiarii din România, gama Baltur are sens acolo unde cazanele indus
       "Plajă largă de putere pe aceeași platformă — de la arzătoare mici de 130 kW până la unități industriale de 20 MW",
       "Emisii reduse — seria TBG SLX ME declară NOx sub 50 mg/kWh la arderea gazului",
       "Control electronic al combustiei cu invertor pe seria mixtă TBML ME V, util la sarcini variabile de proces",
-      "Gamă completă de generare termică — de la arzător la cazan, modul termic și pompă de căldură, din același producător",
+      "Gamă de generare termică — de la arzător la cazan, modul termic și pompă de căldură, din același producător",
       "Prezență veche pe piață — peste șapte decenii de fabricație continuă de arzătoare industriale în Italia"
     ],
     keyProducts: [
@@ -386,7 +386,7 @@ Pentru producătorii de utilaje agricole, de construcții și industriale din Ro
       "Gamă fină de trepte de debit și presiune pe familia de valve solenoid RPE, de la 20 la 140 l/min",
       "Valve pilotate de mare debit (seria RNEH) pentru circuite hidraulice de putere, până la 600 l/min",
       "Valve modulare tip cartuș (SD1E/SD2E/SD3E) pentru integrare compactă în blocuri hidraulice proiectate de client",
-      "Gamă completă de filtrare hidraulică — aspirație, retur, presiune și înaltă presiune din același producător",
+      "Gamă de filtrare hidraulică — aspirație, retur, presiune și înaltă presiune din același producător",
       "Acoperire pe utilaje mobile — tractoare, pulverizatoare și utilaje de construcții, conform aplicațiilor listate de producător"
     ],
     keyProducts: [

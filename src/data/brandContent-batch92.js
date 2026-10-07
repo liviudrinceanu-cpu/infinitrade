@@ -8,7 +8,7 @@ export const brandContentBatch92 = {
     headquarters: "Erie, Pennsylvania, SUA",
     overview: `Finish Thompson este un producător american de pompe ermetice, cu sediul la Erie, Pennsylvania, înființat în 1951 pentru transferul fluidelor corozive fără scurgeri la nivelul etanșării mecanice. Gama include pompe sigilate magnetic din plastic (seriile DB și SP), pompe ANSI fără etanșare (seria UCR), pompe verticale (seriile AK și AV) și pompe pentru butoaie (seriile EF, PF, TT). Pentru piața din România putem oferta majoritatea acestor familii, configurate pe fluidul și debitul cerut de client.
 
-Ce diferențiază Finish Thompson e alegerea materialului pompei: polipropilenă sau PVDF la seriile din plastic (DB, SP), respectiv fontă ductilă cu căptușeală ETFE la seria ANSI UCR. Motorul magnetic elimină etanșarea rotativă, sursa cea mai frecventă de scurgeri la pompele centrifugale clasice pentru chimicale. În segmentul pompelor ermetice din plastic, brandul se compară direct cu Iwaki, dar pune accent pe gama de pompe pentru butoaie și tancuri IBC, mai puțin prezentă la concurență. Seriile UCR și UCP acoperă și varianta ANSI, cu flanșe compatibile pompelor centrifugale metalice deja instalate.
+Ce diferențiază Finish Thompson e alegerea materialului pompei: polipropilenă sau PVDF la seriile din plastic (DB, SP), respectiv fontă ductilă cu căptușeală ETFE la seria ANSI UCR. Motorul magnetic elimină etanșarea rotativă, sursa cea mai frecventă de scurgeri la pompele centrifugale clasice pentru chimicale. Brandul pune accent pe gama de pompe pentru butoaie și tancuri IBC. Seriile UCR și UCP acoperă și varianta ANSI, cu flanșe compatibile pompelor centrifugale metalice deja instalate.
 
 Pentru inginerii din stațiile de tratare chimică, galvanizare sau producție de îngrășăminte, gama Finish Thompson e o soluție când o pompă centrifugală din inox nu rezistă mediului coroziv. E utilă și la transferul temporar din butoaie sau IBC-uri, unde o pompă ușor de curățat între loturi scurtează timpii de mentenanță.`,
     whyChoose: [
@@ -78,12 +78,12 @@ Pentru inginerii din stațiile de tratare chimică, galvanizare sau producție d
     headquarters: "Montecchio Emilia, Reggio Emilia, Italia",
     overview: `CSF Inox e un producător italian de pompe din oțel inoxidabil, cu sediul la Montecchio Emilia, lângă Reggio Emilia, specializat în echipamente pentru industria alimentară, a băuturilor și farmaceutică. Gama acoperă pompe centrifuge sanitare seriile CN și CSP, pompe volumetrice cu rotor progresiv seriile MC și MA, și pompe cu șurub dublu seria TS. Pentru piața din România putem oferta majoritatea acestor familii, configurate pe produsul vehiculat și pe cerințele de igienizare CIP/SIP.
 
-Punctul forte al gamei e construcția integral din inox alimentar, cu suprafețe șlefuite și conexiuni clamp sau filetate compatibile cu liniile de producție existente. Gama centrifugă cuprinde 11 serii (CN, CSP, CSK, CS, CSA, CP, CL-CLC, CV, CSM, CR, CSD), în timp ce pompele volumetrice cu rotor progresiv (MC, MI, MCR) gestionează creme, sosuri sau paste fără să le degradeze structura. În segmentul pompelor sanitare din inox, CSF Inox se compară cu Fristam Pumpen, dar acoperă și zona pompelor pneumatice și a mixerelor, mai puțin prezentă la concurență.
+Punctul forte al gamei e construcția integral din inox alimentar, cu suprafețe șlefuite și conexiuni clamp sau filetate compatibile cu liniile de producție existente. Gama centrifugă cuprinde 11 serii (CN, CSP, CSK, CS, CSA, CP, CL-CLC, CV, CSM, CR, CSD), în timp ce pompele volumetrice cu rotor progresiv (MC, MI, MCR) gestionează creme, sosuri sau paste fără să le degradeze structura. Gama CSF Inox acoperă și zona pompelor pneumatice și a mixerelor.
 
 Pentru o linie de îmbuteliere, o brutărie industrială sau o fabrică de cosmetice din România, gama CSF Inox acoperă atât transferul produselor curate, cât și pomparea pastelor vâscoase, cu piese de schimb identificabile ușor după codul de serie.`,
     whyChoose: [
       "Pompe din oțel inoxidabil pentru industria alimentară, a băuturilor, farmaceutică și cosmetică",
-      "Gamă completă de tehnologii — centrifuge, cu rotor progresiv, cu șurub dublu și pneumatice sub același brand",
+      "Gamă de tehnologii — centrifuge, cu rotor progresiv, cu șurub dublu și pneumatice sub același brand",
       "Certificări ATEX, 3A și EHEDG afișate de producător pe paginile seriilor; le confirmăm pe cod, din fișa tehnică",
       "Tipul de conexiune (clamp sau filetată) se alege și se confirmă pe cod, din fișa tehnică",
       "Piese de uzură (rotoare, statoare) pentru pompele cu rotor progresiv; disponibilitatea se confirmă pe cod",
@@ -157,7 +157,7 @@ Pentru o linie de îmbuteliere, o brutărie industrială sau o fabrică de cosme
 
 Bominox a pornit de la modele ștanțate simple (SIMPLEX, STAMP) și a adăugat treptat variante certificate ATEX pentru zone cu risc de explozie și variante igienice EHEDG pentru industria lactatelor și a băuturilor. Compania a obținut certificarea de sistem de calitate ISO 9001 în 2002, după mai multe generații de produse brevetate.
 
-Pentru o cramă, o fabrică de brânzeturi sau o linie de îmbuteliere din România, gama Bominox oferă o alternativă la mărcile mai mari de pompe sanitare, cu piese de schimb identificabile ușor după codul modelului.`,
+Pentru o cramă, o fabrică de brânzeturi sau o linie de îmbuteliere din România, gama Bominox oferă pompe sanitare, cu piese de schimb identificabile ușor după codul modelului.`,
     whyChoose: [
       "Istoric din 1978 în pompe centrifuge din inox — generații succesive de modele brevetate",
       "Certificare ISO 9001 din 2002 — sistem de management al calității verificat pentru fabricație",
@@ -301,7 +301,7 @@ Zehnder Pumpen acoperă atât evacuarea apelor uzate, cât și alimentarea cu ap
 
 Pentru un instalator sau un antreprenor din România care lucrează la subsoluri fără scurgere gravitațională spre canalizare, gama Zehnder Pumpen acoperă atât stațiile individuale (Kompaktboy, Gerios), cât și stațiile prefabricate pentru instalații mai mari (FPS Basis).`,
     whyChoose: [
-      "Gamă completă pentru evacuare și alimentare cu apă — de la stații de ridicare la pompe de puț adânc",
+      "Gamă pentru evacuare și alimentare cu apă — de la stații de ridicare la pompe de puț adânc",
       "Stații de pompare prefabricate FPS Basis — livrate cu pompe, conducte, comandă și capac de cămin",
       "Separatoare de grăsimi în variante îngropate sau de suprafață — pentru bucătării comerciale",
       "Sisteme de comandă (Steuerungen) din aceeași gamă",
@@ -434,7 +434,7 @@ Bombas Hasa a construit gama pornind de la pompele submersibile de bază pentru 
 
 Pentru un antreprenor de construcții sau un instalator din România care are nevoie de o pompă submersibilă sau de o stație de pompare pentru ape reziduale, gama Bombas Hasa acoperă atât aplicațiile simple, cât și instalațiile mai complexe cu automatizare inclusă.`,
     whyChoose: [
-      "Gamă completă de pompe submersibile — de la ape curate la ape încărcate cu solide",
+      "Gamă de pompe submersibile — de la ape curate la ape încărcate cu solide",
       "Stații de pompare pentru ape reziduale — componența se confirmă pe cod",
       "Grupuri de presiune — pentru rețele de apă din clădiri",
       "Marcă a companiei Hidráulica Alsina, S.A.",

@@ -5,7 +5,7 @@ export const brandContentBatch159 = {
     name: "Tempo Communications",
     overview: `Tempo Communications este un producător american de aparate portabile pentru testarea și trasarea rețelelor de cablu, fibră optică și cupru. Gama acoperă reflectometre optice (OTDR), localizatoare vizuale de defecte de fibră, seturi de sudură și clivare, generatoare și sonde de ton pentru trasarea circuitelor, plus localizatoare de cabluri și robinete îngropate. Putem oferta din această gamă aparatele cerute curent de tehnicienii de rețea, echipele de mentenanță telecom și instalatorii de sisteme de irigații.
 
-Spre deosebire de producătorii axați exclusiv pe fibră optică, Tempo acoperă tot lanțul de testare al unei instalații — de la identificarea unei fibre active cu un identificator dedicat, la localizarea unui cablu de cupru îngropat cu un generator și o sondă de ton, până la sudarea și verificarea unei joncțiuni de fibră cu un aparat de fuziune. Gama de localizatoare subterane merge de la seturi simple de tonuri și sonde, folosite la trasarea unui singur cablu, până la localizatoare avansate capabile să urmărească trasee mai lungi și robinete de irigație îngropate.
+Tempo acoperă lanțul de testare al unei instalații — de la identificarea unei fibre active cu un identificator dedicat, la localizarea unui cablu de cupru îngropat cu un generator și o sondă de ton, până la sudarea și verificarea unei joncțiuni de fibră cu un aparat de fuziune. Gama de localizatoare subterane merge de la seturi simple de tonuri și sonde, folosite la trasarea unui singur cablu, până la localizatoare avansate capabile să urmărească trasee mai lungi și robinete de irigație îngropate.
 
 Pentru un electrician sau un tehnician de telecomunicații din România care lucrează atât pe cupru cât și pe fibră, gama Tempo înseamnă un singur furnizor pentru aparatele de trasare de cabluri, kiturile de tonuri și aparatele de fibră folosite la punerea în funcțiune și depanarea rețelelor de date, CATV sau irigații.`,
     whyChoose: [
@@ -139,7 +139,7 @@ Metrix a intrat în grupul Chauvin Arnoux în 1997, iar gama sa cuprinde instrum
 
 Pentru un electrician autorizat sau o echipă de mentenanță din România, gama Metrix acoperă verificările curente dintr-un tablou electric sau dintr-o instalație industrială — continuitate, izolație, curent prin pensă — cu aparate gândite pentru lucrul zilnic pe teren, nu pentru bancul de laborator.`,
     whyChoose: [
-      "Gamă completă de control universal — multimetre, pense ampermetrice și testere de continuitate",
+      "Gamă de control universal — multimetre, pense ampermetrice și testere de continuitate",
       "Testere dedicate siguranței electrice — controlere de instalații, megohmetre cu test de descărcătoare de supratensiune",
       "Pense multimetru bi-afișaj TRMS — citire simultană a două mărimi electrice pe teren",
       "Parte a grupului francez Chauvin Arnoux, cu peste un secol de istorie",
@@ -198,7 +198,7 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
       "Tehnologie TERPS proprie — senzori rezonanți gândiți pentru stabilitate și acuratețe pe termen lung",
       "Calibrator portabil DPI610E — acoperă domenii de la vid la 1000 bar, cu variantă intrinsec sigură",
       "Calibrator modular DPI620G — combină presiunea cu măsurători electrice într-un singur aparat",
-      "Gamă completă de la senzor la calibrator — pentru laboratoare de metrologie și instrumentație de proces",
+      "Gamă de la senzor la calibrator — pentru laboratoare de metrologie și instrumentație de proces",
       "Parte a grupului Crane Co.",
     ],
     keyProducts: [
@@ -247,7 +247,7 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
 
   chroma: {
     name: "Chroma ATE",
-    overview: `Chroma ATE este un producător taiwanez de instrumentație de testare de precizie, cu game care acoperă surse de alimentare AC/DC programabile, sarcini electronice, sisteme de testare a bateriilor și aparate de testare a siguranței electrice — hipot testere, testere de rezistență de împământare și analizoare de siguranță electrică. Compania concurează în segmentul de siguranță electrică cu branduri precum BK Precision. Putem oferta din gama Chroma aparatele de testare electrică folosite curent în laboratoarele de conformitate și în producția industrială.
+    overview: `Chroma ATE este un producător taiwanez de instrumentație de testare de precizie, cu game care acoperă surse de alimentare AC/DC programabile, sarcini electronice, sisteme de testare a bateriilor și aparate de testare a siguranței electrice — hipot testere, testere de rezistență de împământare și analizoare de siguranță electrică. Putem oferta din gama Chroma aparatele de testare electrică folosite curent în laboratoarele de conformitate și în producția industrială.
 
 Gama de siguranță electrică e organizată pe niveluri de complexitate: de la analizoare 3-în-1 (tensiune alternativă, tensiune continuă, rezistență de izolație) din seria 19052/19053/19054, la hipot analizoare de tensiune mare, de până la 10 kV AC și 20 kV DC, din seria 19056/19057, până la testere de rezistență de împământare dedicate, precum modelul 19572, capabile de curenți de test de până la 45 A. Pe partea de alimentare, seriile de surse AC programabile 61500 și 61600 acoperă puteri de la 500 VA până la 90 kVA, iar sistemele regenerative din seria 61800 ajung la zeci de kVA pentru testare de rețea.
 
@@ -306,13 +306,13 @@ Pentru un laborator de conformitate electrică sau un producător industrial din
 
   janitza: {
     name: "Janitza",
-    overview: `Janitza este un producător german de analizoare de energie și rețea, fondat în 1986 și cu sediul la Lahnau, Hessa. Gama cuprinde analizoare de calitate a energiei electrice, analizoare de rețea multifuncționale și module de monitorizare a curentului diferențial, folosite pentru transparența fluxurilor de energie într-o instalație. Compania concurează în acest segment cu branduri precum Camille Bauer. Putem oferta din gama Janitza aparatele de măsură cerute curent de proiectanții și mentenanța instalațiilor electrice din România.
+    overview: `Janitza este un producător german de analizoare de energie și rețea, fondat în 1986 și cu sediul la Lahnau, Hessa. Gama cuprinde analizoare de calitate a energiei electrice, analizoare de rețea multifuncționale și module de monitorizare a curentului diferențial, folosite pentru transparența fluxurilor de energie într-o instalație. Putem oferta din gama Janitza aparatele de măsură cerute curent de proiectanții și mentenanța instalațiilor electrice din România.
 
 Familia UMG e organizată pe niveluri de complexitate: de la analizoare de energie compacte, precum UMG 103-CBM, la analizoare de rețea multifuncționale și modulare, precum UMG 96RM sau UMG 604-PRO, până la analizoare certificate de calitate a energiei din clasa A, precum UMG 512-PRO, folosite acolo unde măsurătorile trebuie să respecte standardele de calitate a energiei aplicabile racordării la rețea. Modulele opționale, precum cel de monitorizare a curentului diferențial rezidual, extind funcțiile unor analizoare de bază; compatibilitatea se confirmă pe cod, din documentația Janitza.
 
 Pentru un proiectant de instalații electrice, o secție de mentenanță sau un operator de infrastructură din România, gama Janitza acoperă atât monitorizarea de bază a consumului, cât și analiza avansată a calității energiei, cerută adesea de instalațiile industriale cu sarcini neliniare sau regenerative.`,
     whyChoose: [
-      "Gamă completă UMG — de la analizoare compacte de energie la clase certificate de calitate a energiei",
+      "Gamă UMG — de la analizoare compacte de energie la clase certificate de calitate a energiei",
       "Module opționale de monitorizare a curentului diferențial rezidual — compatibilitate confirmată pe cod",
       "Producție germană — companie fondată în 1986, cu sediul la Lahnau, Hessa",
       "Software de vizualizare GridVis — completează analizoarele pentru analiza datelor pe termen lung",
@@ -362,13 +362,13 @@ Pentru un proiectant de instalații electrice, o secție de mentenanță sau un 
 
   'vanguard-instruments': {
     name: "Vanguard Instruments",
-    overview: `Vanguard Instruments este un producător american de aparate de diagnostic pentru echipamentele de stație electrică, parte a familiei de branduri Doble Engineering, cu sediul la Ontario, California. Gama acoperă testarea transformatoarelor (raport de transformare, rezistență de înfășurare, curent de excitație), testarea întreruptoarelor și testarea relelor de protecție. Compania concurează în acest segment cu branduri precum DV Power. Putem oferta din gama Vanguard aparatele folosite curent de laboratoarele de testare a echipamentelor de înaltă tensiune din România.
+    overview: `Vanguard Instruments este un producător american de aparate de diagnostic pentru echipamentele de stație electrică, parte a familiei de branduri Doble Engineering, cu sediul la Ontario, California. Gama acoperă testarea transformatoarelor (raport de transformare, rezistență de înfășurare, curent de excitație), testarea întreruptoarelor și testarea relelor de protecție. Putem oferta din gama Vanguard aparatele folosite curent de laboratoarele de testare a echipamentelor de înaltă tensiune din România.
 
 Portofoliul e structurat pe tipul de echipament testat: testere de raport de transformare (TTR) din seriile TRF și ATRT, micro-ohmmetre pentru rezistența de înfășurare din seriile TRM și Auto-Ohm, testerele pentru transformatoare de curent din seria EZCT, și aparate dedicate testării întreruptoarelor — analizoare de timp de comutare, precum DigiTMR S2, și testere de întrerupătoare cu vid, precum VBT-75 S2. Pentru protecție există un injector primar de curent, PCI-600, folosit la verificarea funcționării releelor și a circuitelor de protecție.
 
 Pentru un laborator PRAM sau o echipă de mentenanță a stațiilor electrice din România, gama Vanguard acoperă testarea transformatoarelor, a întreruptoarelor și a circuitelor de protecție; producătorul este certificat ISO 9001:2015 și are servicii de etalonare în laborator acreditate ISO/IEC 17025:2017.`,
     whyChoose: [
-      "Gamă completă pentru diagnosticul stațiilor electrice — transformatoare, întreruptoare, relee de protecție",
+      "Gamă pentru diagnosticul stațiilor electrice — transformatoare, întreruptoare, relee de protecție",
       "Testere de raport de transformare TTR — seriile TRF și ATRT pentru verificarea transformatoarelor",
       "Micro-ohmmetre dedicate — seriile TRM și Auto-Ohm pentru rezistența de înfășurare și de contact",
       "Producător certificat ISO 9001:2015, cu servicii de etalonare în laborator acreditate ISO/IEC 17025:2017",

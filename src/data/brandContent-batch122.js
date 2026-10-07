@@ -11,7 +11,7 @@ Ce diferențiază seria MD600 e reducerea volumului cu 38% față de generația 
 
 Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns și proiectul cere control vectorial de bază sau servomotoare pentru linii de ambalare, prelucrare a lemnului ori manipulare de materiale, unde compatibilitatea Modbus RTU prin RS485 simplifică integrarea cu automatele deja instalate.`,
     whyChoose: [
-      "Gamă completă de la convertizor de frecvență la servodrive și PLC, într-un singur ecosistem de comunicație Modbus RTU",
+      "Gamă de la convertizor de frecvență la servodrive și PLC, într-un singur ecosistem de comunicație Modbus RTU",
       "Seria MD600 reduce volumul cu 38% față de generația anterioară, util în tablouri electrice cu spațiu limitat",
       "Control vectorial fără senzor pe MD310, cu comutare între mai multe motoare pentru linii cu schimbare frecventă de sarcină",
       "Servodrivere SV660 în variante de putere distincte, de la miniaturale la modele pentru axe mai încărcate",
@@ -71,7 +71,7 @@ Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns �
   'salami': {
     name: "Salami",
     headquarters: "Italia",
-    overview: `Salami este un producător italian de componente hidraulice pentru utilaje mobile, cu o gamă organizată pe corp de fontă și corp de aluminiu pentru pompe și motoare cu roți dințate, completată de divizoare de debit, valve monobloc, valve electroproporționale și sisteme de telecomandă electronică. Seriile 2PGE și 2MGE folosesc corp din fontă pentru aplicații cu solicitare mai mare, iar seriile 1,5PE și 2,5PB au corp din aluminiu, mai ușor, pentru montaje unde greutatea contează. Pentru o companie din România, Salami înseamnă o sursă de componente hidraulice modulare pentru remorci, utilaje agricole și echipamente de manipulare, alternativă la mărcile consacrate din segmentul de pompe cu roți dințate.
+    overview: `Salami este un producător italian de componente hidraulice pentru utilaje mobile, cu o gamă organizată pe corp de fontă și corp de aluminiu pentru pompe și motoare cu roți dințate, completată de divizoare de debit, valve monobloc, valve electroproporționale și sisteme de telecomandă electronică. Seriile 2PGE și 2MGE folosesc corp din fontă pentru aplicații cu solicitare mai mare, iar seriile 1,5PE și 2,5PB au corp din aluminiu, mai ușor, pentru montaje unde greutatea contează. Pentru o companie din România, Salami înseamnă o sursă de componente hidraulice modulare pentru remorci, utilaje agricole și echipamente de manipulare.
 
 Seria PG330 cuprinde pompe reversibile cu drenaj intern și eliberare de tip camion, conform denumirii producătorului; detaliile de funcționare se confirmă pe cod, din fișa producătorului. Divizoarele de debit cu corp din aluminiu completează oferta pentru instalații care trebuie să alimenteze simultan mai mulți consumatori hidraulici la debite proporționale, iar valvele electroproporționale permit un control mai fin al vitezei de lucru decât o valvă on-off clasică — zonă în care Salami se compară cu gama Casappa de componente pentru mobile.
 

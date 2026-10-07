@@ -85,7 +85,7 @@ Pentru clienții din România, SENSY are sens la macarale și utilaje de ridicar
       "Load pin-uri disponibile în variante subacvatice, redundante sau wireless, pentru aplicații unde accesul la senzor e limitat",
       "Traductoare de referință calibrate după ISO 376, EN 12390-4 și ASTM E74, potrivite pentru etalonare metrologică",
       "Certificări CE, ATEX și IECEx pentru montaj în zone cu risc de explozie",
-      "Fabricație în Belgia, cu gamă completă de la senzor la afișajul și limitatorul de sarcină asociat"
+      "Fabricație în Belgia, cu gamă de la senzor la afișajul și limitatorul de sarcină asociat"
     ],
     keyProducts: [
       {
@@ -158,7 +158,7 @@ Pentru clienții din România, SOR are sens la instalații petrochimice, stații
       "Variante 1E-Qualified pentru aplicații din energetica nucleară, unde calificarea producătorului contează la fel de mult ca specificația tehnică",
       "Certificări UL, CSA, FM Approved, ATEX și IECEx pentru instalare în zone cu risc de explozie sau incendiu",
       "80 de ani de activitate continuă în instrumentație de proces, din 1946",
-      "Gamă completă de comutatoare de nivel — de la montaj lateral la indicatoare magnetice — pentru rezervoare de proces"
+      "Gamă de comutatoare de nivel — de la montaj lateral la indicatoare magnetice — pentru rezervoare de proces"
     ],
     keyProducts: [
       {
@@ -437,7 +437,7 @@ Pentru clienții din România, Römheld are sens la centre de prelucrare CNC car
     whyChoose: [
       "Menghină concentrică H 4.400 cu precizie de ±0,005 mm, potrivit pentru prelucrare pe 5 axe",
       "Peste 100 de brevete deținute, conform informațiilor publicate de producător, în domeniul fixării și schimbării matrițelor",
-      "Gamă completă pentru schimbarea rapidă a matrițelor — de la rack-uri de depozitare la sisteme push-pull",
+      "Gamă pentru schimbarea rapidă a matrițelor — de la rack-uri de depozitare la sisteme push-pull",
       "Elemente de fixare pivotante (acționate manual, precum B1.8807, sau electric, precum B1.8320) pentru centre de prelucrare",
       "Activitate în fixarea pieselor din anii 1940, cu origini într-o turnătorie de fontă"
     ],
@@ -512,7 +512,7 @@ Pentru clienții din România, EVAPCO are sens la centrale electrice, instalați
       "Turnuri cu ventilator centrifugal și profil redus, pentru montaj interior sau cu restricții de spațiu",
       "Sisteme de tratare a apei proprii (Pass-Protect, Water Saver) integrabile cu turnurile de răcire",
       "Configurație crossflow avansată AXS pentru tiraj indus cu ventilator axial",
-      "Gamă completă de la turnuri de răcire la răcitoare cu circuit închis, sub același producător"
+      "Gamă de la turnuri de răcire la răcitoare cu circuit închis, sub același producător"
     ],
     keyProducts: [
       {
@@ -576,7 +576,7 @@ Ce diferențiază REMBE e acoperirea completă a lanțului de protecție la expl
 
 Pentru clienții din România, REMBE are sens la instalații din industria chimică și petrochimică, silozuri și instalații de procesare a prafurilor combustibile, precum și la proiecte noi de stocare a energiei în baterii unde protecția la explozie trebuie dimensionată pentru riscul specific al containerului.`,
     whyChoose: [
-      "Gamă completă de protecție la explozie — disc de rupere, detentă fără flacără și barieră de decuplare — de la același producător",
+      "Gamă de protecție la explozie — disc de rupere, detentă fără flacără și barieră de decuplare — de la același producător",
       "Variantă Q-Rohr 6T dedicată special prafurilor metalice, un risc greu de acoperit cu echipamente generice",
       "Soluții dedicate containerelor de baterii (BESS), din gama producătorului",
       "Peste 50 de ani de activitate în siguranța de proces, din 1973",

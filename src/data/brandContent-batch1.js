@@ -6,7 +6,7 @@ export const brandContentBatch1 = {
     founded: 1945,
     headquarters: 'Bjerringbro, Danemarca',
     employees: '21,000',
-    overview: `Grundfos este un producător de pompe utilizat în instalații tehnice din clădiri și în stații de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci a devenit unul dintre cei mai mari producători de pompe din lume, cu fabrici și birouri pe mai multe continente.
+    overview: `Grundfos este un producător de pompe utilizat în instalații tehnice din clădiri și în stații de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci are fabrici și birouri pe mai multe continente.
 
 Grundfos s-a remarcat prin investiția în eficiență energetică. Astăzi, dacă intrați pe site-ul lor, găsiți pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
 
@@ -229,7 +229,7 @@ Un alt punct forte al KSB e experiența lor în robinetărie industrială. Nu fa
       'Peste 150 de ani de experiență în industria de pompare — know-how acumulat în mii de aplicații critice pe tot globul',
       'Seria Etanorm: pompe centrifugale cu parametri și dimensiuni principale conform EN 733',
       'Specializare în aplicații extreme: petrochimie, centrale nucleare, minerit, offshore — acolo unde fiabilitatea nu poate fi compromisă',
-      'Gamă completă pompe + robineți + sisteme de control de la același producător',
+      'Gama cuprinde pompe + robineți + sisteme de control de la același producător',
       'Rezistență chimică ridicată: materiale speciale (Alloy C, Hastelloy, Duplex) pentru fluide agresive',
       'Prezență în peste 150 de țări; disponibilitatea service-ului și a pieselor de schimb se confirmă pe cod',
     ],

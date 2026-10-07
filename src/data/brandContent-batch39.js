@@ -121,7 +121,7 @@ Pentru integratorii din România care lucrează cu automate de mai mulți produc
     headquarters: "Halmstad, Suedia",
     overview: `HMS Networks este un producător suedez înființat în 1988 la Halmstad, specializat în conectivitate industrială: face posibilă legarea la rețea a mașinilor, roboților și acționărilor prin trei branduri proprii — Anybus, Ewon și Ixxat. Compania are aproximativ 1.200 de angajați, operează în peste 20 de țări și lucrează cu distribuitori în peste 50 de țări, iar din 2024 grupul include și Red Lion Controls. Putem oferta module de comunicație și gateway-uri de acces la distanță pentru integratori și producători de mașini care au nevoie ca echipamentul lor să vorbească cu rețeaua clientului final.
 
-Anybus conectează dispozitive la rețele Fieldbus sau Industrial Ethernet, prin module încorporate în echipament sau prin gateway-uri externe, inclusiv variante wireless cu Bluetooth, Wi-Fi sau rețea celulară 3G/4G/5G. Ewon acoperă accesul la distanță și telemetria — routere care permit programare, depanare și colectare de date direct de pe mașina instalată la client, cu afișare pe dashboard-uri cu indicatori și alarme. Ixxat se concentrează pe rețele CAN, Industrial Ethernet și siguranță funcțională, cu interfețe încorporate și interfețe PC pentru acces la rețele CAN/LIN. Concurează cu soluții de conectivitate de la producători mari de automatizări, dar rămâne complementară echipamentelor deja instalate, nu un înlocuitor al lor.
+Anybus conectează dispozitive la rețele Fieldbus sau Industrial Ethernet, prin module încorporate în echipament sau prin gateway-uri externe, inclusiv variante wireless cu Bluetooth, Wi-Fi sau rețea celulară 3G/4G/5G. Ewon acoperă accesul la distanță și telemetria — routere care permit programare, depanare și colectare de date direct de pe mașina instalată la client, cu afișare pe dashboard-uri cu indicatori și alarme. Ixxat se concentrează pe rețele CAN, Industrial Ethernet și siguranță funcțională, cu interfețe încorporate și interfețe PC pentru acces la rețele CAN/LIN. Rămâne complementară echipamentelor deja instalate, nu un înlocuitor al lor.
 
 Pentru fabricile din România cu mașini de import care trebuie integrate în rețeaua fabricii sau monitorizate de la distanță de service-ul producătorului extern, gateway-urile HMS reduc timpul de intervenție și numărul de deplasări. Se folosesc frecvent la retrofit-uri, unde mașina veche nu are protocolul de comunicație cerut de sistemul SCADA actual.`,
     whyChoose: [
@@ -408,7 +408,7 @@ Gama Bauer reunește motoreductoare elicoidale, cu montaj pe arbore, conice, mel
 
 Pentru fabricile din România cu linii de transport, macarale sau instalații de manipulare a materialelor, Bauer oferă o gamă unde varianta submersibilă sau cea igienică acoperă situații pe care un motoreductor standard nu le rezolvă fără protecție suplimentară.`,
     whyChoose: [
-      "Gamă completă de tipuri constructive: elicoidal, montaj pe arbore, conic și melcat, din aceeași familie",
+      "Gamă de tipuri constructive: elicoidal, montaj pe arbore, conic și melcat, din aceeași familie",
       "Seria Submersible Solutions cu protecție IP68 rezistă la imersie completă",
       "HiflexDRIVE este disponibilă în variante Standard, Aseptic și din oțel inoxidabil",
       "Decentral Solutions (EtaK 2.0) este oferta de acționare descentralizată a producătorului",
@@ -693,7 +693,7 @@ Gama de joasă tensiune CHINT este listată de producător atât în variante IE
 
 Pentru proiectele din România unde tabloul electric trebuie echipat rapid și la un cost per component competitiv — hale industriale, stații de încărcare EV sau instalații de distribuție secundară — gama CHINT acoperă majoritatea componentelor standard fără a fi legată de un singur brand din tablou.`,
     whyChoose: [
-      "Gamă completă de aparataj de joasă tensiune, de la contactoare la întrerupătoare de aer pentru distribuție principală",
+      "Gamă de aparataj de joasă tensiune, de la contactoare la întrerupătoare de aer pentru distribuție principală",
       "Componente disponibile atât în variantă IEC, cât și UL, pentru proiecte cu cerințe diferite",
       "Serie de medie tensiune (NG7-38) cu certificare ETL pentru piața nord-americană",
       "Transformator UHV de 1000 kV/1000 MVA, testat, în portofoliul aceluiași producător",
@@ -819,7 +819,7 @@ Diferența față de un producător generic de chimie tehnică stă în aprobăr
 Pentru fabricile din România din industria alimentară, energetică sau de procesare, unde mentenanța trebuie să respecte reguli stricte de contact cu produsul finit sau cu instalații de gaz și apă, gama Weicon oferă o alternativă documentată, cu fișe tehnice care indică exact aprobările fiecărui produs.`,
     whyChoose: [
       "Aprobări specifice (NSF, ISEGA, DVGW, LFGB, BAM, WRAS) pentru medii reglementate strict",
-      "Gamă completă de mentenanță tehnică: adezivi, etanșanți, spray-uri, paste de montaj și vaseline",
+      "Gamă de mentenanță tehnică: adezivi, etanșanți, spray-uri, paste de montaj și vaseline",
       "Paste de montaj pentru filete expuse la temperaturi ridicate",
       "Vaseline tehnice cu variante aprobate pentru contact incidental cu alimente",
       "Rețea internațională de filiale, cu istorie de peste 75 de ani în chimie tehnică"
@@ -957,7 +957,7 @@ Pentru fabricile din România din industria alimentară, energetică sau de proc
 
 Addinol are o gamă cu specializare pe nișe tehnice: uleiuri pentru motoare staționare pe biogaz, unde compoziția gazului variază și cere formule de ulei adaptate, și lubrifianți biodegradabili pentru echipamente care lucrează în apropierea apei sau a solului, unde o scurgere de ulei mineral clasic ar avea impact de mediu semnificativ. Producătorul indică peste 650 de produse în gamă, dezvoltate în departament propriu de cercetare-dezvoltare.
 
-Pentru fabricile și flotele din România cu echipamente ce cer aprobări specifice de producător de motor sau cu instalații care rulează pe biogaz, Addinol oferă o alternativă la brandurile de uleiuri consacrate, cu fișe tehnice publice pentru fiecare produs din gamă.`,
+Pentru fabricile și flotele din România cu echipamente ce cer aprobări specifice de producător de motor sau cu instalații care rulează pe biogaz, Addinol oferă fișe tehnice publice pentru fiecare produs din gamă.`,
     whyChoose: [
       "Uleiuri de motor cu aprobări explicite de la Audi, BMW și Mercedes-Benz, verificabile pe fișa tehnică",
       "Gamă dedicată motoarelor pe biogaz, unde compoziția gazului cere formule de ulei adaptate",
@@ -1073,7 +1073,7 @@ Compania este specializată în special pe lanțul gazului natural — de la ext
 
 Pentru operatorii de rețele de gaz și instalatorii de branșamente din România, gama Pietro Fiorentini acoperă atât regulatoare de presiune de branșament, cât și echipamente de contorizare, cu specificații tehnice disponibile public pentru fiecare cod de produs.`,
     whyChoose: [
-      "Gamă completă pe lanțul gazului: regulatoare de presiune, vane, contoare și sisteme de tratare",
+      "Gamă pe lanțul gazului: regulatoare de presiune, vane, contoare și sisteme de tratare",
       "Familii de regulatoare Aperflux, ASX, Dival și Terval acoperă game diferite de presiune și debit",
       "Extindere spre tranziția energetică — compresie biogaz și electrolizoare de hidrogen",
       "Peste 2.400 de angajați și prezență în peste 40 de locații internaționale",
@@ -1254,7 +1254,7 @@ Compania acoperă tot lanțul sudurii: aparate de sudură prin arc electric, mot
 
 Pentru atelierele de fabricație metalică și service-urile de mentenanță din România, gama Lincoln Electric acoperă atât sudura ocazională cu aparate portabile, cât și liniile de producție cu sudură robotizată, fără să fie nevoie de un al doilea furnizor pentru consumabile.`,
     whyChoose: [
-      "Gamă completă, de la invertoare portabile (Invertec) la sudură robotizată de linie",
+      "Gamă, de la invertoare portabile (Invertec) la sudură robotizată de linie",
       "Seria Powertec acoperă sudură MIG/MAG industrială de volum, cu variante de control fin al arcului",
       "Aparate TIG dedicate (CITOTIG) pentru sudură de precizie pe oțel inoxidabil sau aluminiu",
       "Familia Bester face parte din oferta Lincoln Electric",
@@ -1510,7 +1510,7 @@ Pentru electricienii și echipele de mentenanță din România care fac verific�
     headquarters: "Radom, Polonia",
     overview: `Radwag este un producător polonez de balanțe analitice și de precizie, cu sediul la Radom și fabricație integral în Uniunea Europeană. Gama acoperă balanțe analitice din seria XA pentru laborator, balanțe de precizie din seria PS (inclusiv modelul PS 5100.5Y, cu capacitate de 5,1 kg și citire de 1 mg), balanțe speciale WLC X7, analizoare de umiditate, cântare industriale, cântare de control (checkweighers), comparatoare de masă și sisteme automate de cântărire. Putem oferta balanțe individuale sau linii complete de control al greutății.
 
-Radwag concurează cu Kern pe segmentul de balanțe de laborator și industriale, cu o gamă orientată spre aplicații specializate — soluții dedicate industriei farmaceutice și biotehnologice, unde precizia de citire trebuie documentată și trasabilă. Seria PS acoperă un spectru larg de capacități și citiri, de la balanțe de laborator general până la modele pentru sarcini apropiate de câțiva kilograme cu citire la miligram.
+Radwag oferă balanțe de laborator și industriale, cu o gamă orientată spre aplicații specializate — soluții dedicate industriei farmaceutice și biotehnologice, unde precizia de citire trebuie documentată și trasabilă. Seria PS acoperă un spectru larg de capacități și citiri, de la balanțe de laborator general până la modele pentru sarcini apropiate de câțiva kilograme cu citire la miligram.
 
 Pentru laboratoarele și liniile de producție din România care au nevoie de cântărire trasabilă — control de calitate, dozare de rețete sau verificare a preambalatelor — gama Radwag acoperă atât balanțe de banc pentru laborator, cât și sisteme integrate în linia de producție.`,
     whyChoose: [

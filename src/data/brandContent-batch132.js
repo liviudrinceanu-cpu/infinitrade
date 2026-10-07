@@ -356,7 +356,7 @@ Pentru un integrator de echipamente sau un operator de flotă din România, Cumm
 Ce separă T.D. Williamson de un furnizor generic de fitinguri e integrarea completă a lanțului de intervenție: mașinile de tapping seria 660 sau 760 găuresc conducta sub presiune (până la 100 bar la seria 660), fitingurile Stopple permit montarea unui dop temporar de izolare, iar sistemul SmartPlug oferă izolare non-intruzivă certificată ATEX Zone 1. Gama de piguri (X-PIG, Vantage V, Ultra Pig) completează oferta pentru curățarea și inspecția interioară a conductelor. Echipamentele TDW respectă standarde europene relevante, cu certificări suplimentare IECEx și UKCA pentru piața din Regatul Unit.
 Pentru un operator de conducte din România — gaze naturale, produse petroliere sau apă industrială — T.D. Williamson are sens la lucrări de tie-in, izolare pentru reparații sau intervenții de mentenanță fără oprirea completă a instalației, unde o oprire programată ar fi costisitoare sau imposibilă.`,
     whyChoose: [
-      "Gamă completă de mașini de hot-tapping, de la modele mici (T-101) până la unități pentru conducte de diametru foarte mare (T-2460 XXL)",
+      "Gama cuprinde mașini de hot-tapping, de la modele mici (T-101) până la unități pentru conducte de diametru foarte mare (T-2460 XXL)",
       "Sistem SmartPlug cu certificare ATEX Zone 1 (cu certificări conforme IECEx și UKCA)",
       "Certificări suplimentare IECEx și UKCA pentru echipamente destinate pieței europene și britanice",
       "Peste 100 de ani de activitate continuă în intervenții și izolare pe conducte sub presiune",

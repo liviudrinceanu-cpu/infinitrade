@@ -14,7 +14,7 @@ Pentru un operator român din distribuția de gaze sau dintr-o instalație indus
       "Regulatoare BelGAS cu funcții integrate de monitorizare și oprire automată, utile pe linii de gaz cu cerințe de siguranță ridicate",
       "Certificări ISO 9001 și AS9100 menționate pentru divizii care deservesc și industria aerospațială",
       "Prezență declarată în 71 de țări pe 6 continente, cu fabricație proprie în SUA",
-      "Gamă completă de manometre pentru service general, HVAC și medii cu vibrații, sub brandul Marsh Instruments"
+      "Gama cuprinde manometre pentru service general, HVAC și medii cu vibrații, sub brandul Marsh Instruments"
     ],
     keyProducts: [
       { name: "Regulatoare de Gaz Seria 200/300 (BelGAS)", description: "Familie de regulatoare pilotate pentru gaz natural, cu variante non-relieving (P301, P208) și relieving (P302, P209), plus modele cu monitor integrat (P203, P303). F200 și F300 sunt regulatoare de gaz pilotate din seriile respective. Pentru selecție, clientul trebuie să confirme presiunea de intrare, presiunea de ieșire dorită și debitul necesar." },
@@ -159,7 +159,7 @@ Ce diferențiază Koike Aronson e acoperirea capăt-la-capăt a unui atelier de 
 
 Pentru un atelier de construcții metalice sau un fabricant de rezervoare din România, Koike Aronson are sens acolo unde tabla groasă sau piesele de mari dimensiuni trebuie tăiate precis și apoi poziționate pentru sudură fără manipulare manuală — fabricație de utilaje grele, structuri metalice sudate, rezervoare sub presiune.`,
     whyChoose: [
-      "Producător activ din 1918, cu gamă completă de tăiere termică (plasmă, oxi-gaz, laser, jet de apă) și poziționare de sudură",
+      "Producător activ din 1918, cu gamă de tăiere termică (plasmă, oxi-gaz, laser, jet de apă) și poziționare de sudură",
       "Serii de poziționere de la câteva sute de kilograme (LD4) până la modelele mari ale seriei G (G10.000)",
       "Mașini de tăiere cu curenți plasmă de până la 800A pentru table groase (MasterGraph EX2)",
       "Manipulatoare de sudură Cricket-I/Cricket-II pentru rotirea pieselor cilindrice în timpul sudării",
@@ -231,7 +231,7 @@ Pentru un atelier auto sau un operator de flotă din România, Royal Purple are 
       "Gamă segmentată pe tip de utilizare — stradal (HPS), competiție (XPR), kilometraj mare (HMX), diesel (Duralec)",
       "Ulei Max Gear pentru diferențiale și cutii manuale grele, cu vâscozitate 75W-140 pentru sarcini ridicate",
       "Synchromax, fluid de înaltă performanță pentru cutii de viteze manuale",
-      "Gamă completă de aditivi de performanță — curățare injectoare, optimizare octanică, tratament combustibil",
+      "Gama cuprinde aditivi de performanță — curățare injectoare, optimizare octanică, tratament combustibil",
       "Peste 30 de ani de fabricație declarați, cu formule dedicate atât pieței auto, cât și celei comerciale/industriale"
     ],
     keyProducts: [
@@ -297,7 +297,7 @@ Ce diferențiază Thermwood de un producător generic de routere CNC e combinaț
 
 Pentru un fabricant de compozite, un atelier de tâmplărie industrială sau un producător de modele/matrițe din România, Thermwood are sens acolo unde piesele depășesc dimensiunile unui router standard sau unde fabricația aditivă de mari dimensiuni ar reduce timpul de execuție a unei matrițe sau a unui șablon.`,
     whyChoose: [
-      "Gamă completă de routere CNC, de la 3 axe (Model 42-63) la 5 axe (Model 65-90), cu mese de lucru configurabile",
+      "Gama cuprinde routere CNC, de la 3 axe (Model 42-63) la 5 axe (Model 65-90), cu mese de lucru configurabile",
       "Sisteme LSAM pentru fabricație aditivă de mari dimensiuni, în configurații de până la 15 picioare lățime; lungimea depinde de model",
       "Tehnologie CutLayer: model CAD tăiat în straturi din materiale în foi, apoi suprapuse, aliniate și lipite",
       "Spindle-uri de 12-18 HP cu turații de 3.000-24.000 RPM pe seria Model 45",
@@ -362,7 +362,7 @@ Ce diferențiază Gleason în industria mașinilor-unelte e specializarea pe teh
 
 Pentru un fabricant român de transmisii, reductoare sau componente auto, Gleason are sens acolo unde precizia și repetabilitatea danturării contează direct pentru zgomotul și durata de viață a angrenajului — producție de cutii de viteze, reductoare industriale, angrenaje pentru roboți sau componente auto de transmisie.`,
     whyChoose: [
-      "Gamă completă pentru fluxul de producție a angrenajelor — frezare, power skiving, rectificare, testare și inspecție",
+      "Gamă pentru fluxul de producție a angrenajelor — frezare, power skiving, rectificare, testare și inspecție",
       "Serii de mașini power skiving de la 80PS la 800PS, acoperind angrenaje robotice mici până la piese medii-mari",
       "Sisteme de inspecție GMS (475GMS–3000GMS) pentru angrenaje medii și mari; capacitățile exacte se confirmă pe cod",
       "Producție și centre tehnice proprii în Germania și Elveția, cu birouri de vânzări în mai multe țări din Europa",

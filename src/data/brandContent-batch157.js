@@ -408,7 +408,7 @@ Ce diferențiază EXFO este istoricul de peste patru decenii în testarea optic�
 Pentru piața din România, EXFO are sens la operatorii de telecom care instalează sau mențin rețele FTTx și 5G, la contractorii de rețele de fibră și la centrele de date care testează conformitatea legăturilor optice interne.`,
     whyChoose: [
       "Peste patru decenii de activitate în testarea rețelelor de comunicații",
-      "Gamă completă, de la localizatoare de defecte portabile (FLS-170) până la teste de transport 100G (MAX-880/890)",
+      "Gamă de la localizatoare de defecte portabile (FLS-170) până la teste de transport 100G (MAX-880/890)",
       "OTDR dedicat pentru testare submarină (USO-1618)",
       "Testere multi-fibră (FTB Lite 975) care combină OTDR și certificare de pierdere optică pe până la 24 de fibre",
       "Companie fondată în 1985, specializată în testarea rețelelor de fibră optică",

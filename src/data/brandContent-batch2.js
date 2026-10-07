@@ -19,7 +19,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, echipamentele Danfoss c
     whyChoose: [
       'Tehnologie orientată spre eficiență energetică, documentată de producător',
       'Tehnologie daneză precisă pentru control automat în industrie',
-      'Gamă completă: de la supape simple la sisteme integrate de management energetic',
+      'Gamă: de la supape simple la sisteme integrate de management energetic',
       'Durabilitate ridicată, conform specificațiilor producătorului',
       'Aprovizionare prin canale din UE; termenul se confirmă pe cod'
     ],
@@ -334,7 +334,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
     whyChoose: [
       'Producător german specializat în armături industriale, cu materiale și finisaje de calitate',
       'Specializare în industrii grele: chimică, petrochimică, energetică, offshore',
-      'Gamă completă armături PTFE-lined pentru medii agresive (acizi, baze, solvenți)',
+      'Gamă armături PTFE-lined pentru medii agresive (acizi, baze, solvenți)',
       'Certificate și documentație în funcție de execuție, confirmate pe cod din documentația ARI',
       'Aprovizionare prin canale din UE; disponibilitatea se confirmă înainte de ofertă (Ari Armaturen)'
     ],
@@ -494,7 +494,7 @@ Putem oferi pentru piața românească: schimbătoare cu plăci gasketed (demont
       'Producător cu istorie îndelungată în tehnologia schimbătoarelor de căldură cu plăci',
       'Eficiență energetică ridicată, documentată de producător, față de tehnologiile clasice',
       'Design compact – economisește spațiu semnificativ față de schimbătoarele tubulare',
-      'Gamă completă: de la mini schimbătoare brazate până la sisteme industriale mari',
+      'Gamă: de la mini schimbătoare brazate până la sisteme industriale mari',
       'Aprovizionare prin canale din UE; disponibilitatea se confirmă înainte de ofertă'
     ],
     keyProducts: [
@@ -652,10 +652,10 @@ Produsele Parker se folosesc frecvent în toate industriile: în agricultură (c
 Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentrăm pe ceea ce se cere cel mai mult în România: cilindri hidraulici (standard și custom), pompe hidraulice (cu piston, cu palete, cu roți dințate), distribuitoare hidraulice (secționale pentru utilaje mobile, monoblock pentru mașini staționare), furtunuri și fitinguri (joasă până înaltă presiune), filtre (hidraulice, pneumatice, pentru procese), componente pneumatice (cilindri, distribuitoare, FRL-uri). Pentru aplicații speciale (aerospace, sisteme cu presiuni extreme peste 500 bar, temperaturi criogenice) coordonăm cu diviziile specializate Parker pentru aceste cerințe.`,
     whyChoose: [
       'Producător global în tehnologii de mișcare și control – 100+ ani de activitate',
-      'Gamă completă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
+      'Gamă: hidraulică, pneumatică, electromecanică, filtrare – totul de la un brand',
       'Standarde de calitate declarate de producător, de confirmat din documentația fiecărui produs',
       'Prezență globală a producătorului, prin rețea de distribuție și service',
-      'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama completă Parker'
+      'Furnizăm în România prin aprovizionare din UE la produse standard + acces la gama Parker'
     ],
     keyProducts: [
       {

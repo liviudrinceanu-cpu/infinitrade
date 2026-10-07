@@ -6,14 +6,14 @@ export const brandContentBatch43 = {
     headquarters: "Barntrup, Germania",
     overview: `KEB Automation e un producător german cu sediul la Barntrup, specializat în tehnologie de acționare pentru construcția de mașini și instalații: convertizoare de frecvență, motoare, frâne electromagnetice și sisteme de control. Gama COMBIVERT acoperă convertizoarele F6, G6 și S6, alături de module de alimentare și regenerare R6, completate de motoare asincrone, sincrone cu reluctanță și servomotoare din portofoliul propriu. Din gama KEB putem oferta convertizoare de frecvență, motoare și frâne pentru linii de producție, ascensoare industriale și utilaje de manipulare a materialelor.
 
-Spre deosebire de producători axați strict pe convertizorul de frecvență, precum Danfoss, KEB tratează acționarea ca sistem complet: familia de frâne COMBISTOP (cu arc), COMBIPERM (permanentă) și COMBINORM (electromagnetică) completează portofoliul KEB de acționări. Unele variante din gama COMBIVERT F6 au certificare marină menționată explicit pe site, ceea ce le recomandă și pentru echipamente de punte sau propulsie auxiliară. Platforma de control NOA și panourile HMI C6 leagă partea de acționare de automatizare, utilă când clientul vrea un singur furnizor pentru drive și control.
+KEB tratează acționarea ca sistem complet: familia de frâne COMBISTOP (cu arc), COMBIPERM (permanentă) și COMBINORM (electromagnetică) completează portofoliul KEB de acționări. Unele variante din gama COMBIVERT F6 au certificare marină menționată explicit pe site, ceea ce le recomandă și pentru echipamente de punte sau propulsie auxiliară. Platforma de control NOA și panourile HMI C6 leagă partea de acționare de automatizare, utilă când clientul vrea un singur furnizor pentru drive și control.
 
 Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare și convertizoare mai vechi, la ascensoare industriale și la utilaje de manipulare unde motorul și frâna trebuie gândite împreună de la proiectare, nu potrivite din mers. Se pretează și la mentenanța preventivă a sistemelor de acționare deja instalate.`,
     whyChoose: [
       "Sistem integrat motor-frână-convertizor, gândit ca ansamblu unitar, nu componente potrivite ulterior de client",
       "Convertizoare COMBIVERT F6 cu certificare marină menționată explicit, potrivite pentru echipamente de punte",
       "Platformă de control proprie NOA, care leagă acționarea de automatizare într-un singur ecosistem",
-      "Gamă completă de motoare — asincrone, sincrone cu reluctanță și servomotoare — alături de frâne dedicate",
+      "Gamă de motoare — asincrone, sincrone cu reluctanță și servomotoare — alături de frâne dedicate",
     ],
     keyProducts: [
       { name: "Convertizoare de Frecvență COMBIVERT (F6, G6, S6)", description: "Familia de convertizoare de frecvență a KEB, cu variante F6 pentru aplicații generale industriale, G6 pentru aplicații generale de conversie de frecvență și S6 ca servo-convertizor pentru poziționare. Modulele de alimentare și regenerare R6 completează gama pentru sisteme cu mai multe axe. Pentru ofertă, clientul trebuie să transmită puterea motorului acționat, tensiunea de rețea și tipul aplicației (pompă, ventilator, bandă, ascensor)." },
@@ -143,7 +143,7 @@ Tramec se poziționează în aceeași categorie cu Bonfiglioli, oferind mai mult
 Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, linii de ambalare și utilaje agricole sau din industria alimentară unde spațiul de montaj e limitat și se preferă un reductor compact în locul unei cutii de viteze voluminoase. E o soluție potrivită și pentru retrofit-ul acționărilor mai vechi, cu flanșă compatibilă pe motoare standard.`,
     whyChoose: [
       "Gamă largă de serii de reductoare, pentru configurații diferite de montaj",
-      "Gamă completă de principii de reducere — melcat, conic elicoidal, planetar — pentru raporturi diferite pe același gabarit",
+      "Gamă de principii de reducere — melcat, conic elicoidal, planetar — pentru raporturi diferite pe același gabarit",
       "Variante certificate ATEX pentru zone cu risc de explozie, în aceeași arhitectură mecanică de bază",
       "Prezență confirmată în industrii cu cerințe stricte de igienă — farmaceutică și alimentară",
     ],
@@ -266,7 +266,7 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
     name: "Kinex Bearings",
     founded: 1906,
     headquarters: "Bytča, Slovacia",
-    overview: `Kinex Bearings este un producător slovac de rulmenți, cu sediul la Bytča și tradiție de fabricație mecanică și rulmenți din 1906. Gama include rulmenți standard și speciale — cu bile și cu role — plus componente de inginerie pentru aplicații industriale, feroviare, auto și textile. Din portofoliul Kinex putem oferta rulmenți pentru echipamente unde clientul are nevoie de o alternativă la mărcile vest-europene consacrate, la aceleași dimensiuni normalizate.
+    overview: `Kinex Bearings este un producător slovac de rulmenți, cu sediul la Bytča și tradiție de fabricație mecanică și rulmenți din 1906. Gama include rulmenți standard și speciale — cu bile și cu role — plus componente de inginerie pentru aplicații industriale, feroviare, auto și textile. Din portofoliul Kinex putem oferta rulmenți în dimensiuni normalizate.
 
 Rulmenții standard Kinex se fabrică în dimensiuni normalizate; compatibilitatea cu un rulment existent o confirmăm pe cod, din documentația producătorului. Compania are propriu departament de cercetare-dezvoltare, laborator de materiale și control nedistructiv, iar produsele includ rulmenți pentru cutii de osie feroviare. Operează cu un al doilea sediu de producție la Kysucké Nové Mesto și birouri regionale în Asia, ceea ce susține o rețea de distribuție extinsă la nivel internațional.
 
@@ -534,7 +534,7 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
       "Componente autolubrifiante din polimeri proprii, care elimină gresarea periodică pe lagăre și ghidaje",
       "Certificare ISO 9001:2015 a unităților igus din America de Nord, conform site-ului producătorului",
       "Filială proprie în România (igus.ro), cu suport local pentru comenzi și consultanță tehnică",
-      "Gamă completă pentru mișcare — e-chain, chainflex, iglidur, drylin, dryspin — compatibilă între serii",
+      "Gamă pentru mișcare — e-chain, chainflex, iglidur, drylin, dryspin — compatibilă între serii",
     ],
     keyProducts: [
       { name: "Lanțuri port-cablu e-chain și cabluri chainflex", description: "Lanțuri energetice din plastic pentru protejarea cablurilor și furtunurilor în mișcare repetată, cu cabluri interioare testate pentru același ciclu de îndoire ca lanțul. Folosite la axe liniare, roboți și mașini-unelte cu deplasare frecventă. Pentru ofertă, clientul trebuie să indice cursa de mișcare, viteza și accelerația, plus numărul și diametrul cablurilor de trecut prin lanț." },
@@ -758,7 +758,7 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
     headquarters: "Maisach, Germania",
     overview: `OKS Spezialschmierstoffe este un producător german de lubrifianți speciali, cu sediul la Maisach, activ de aproape cinci decenii pe piața de întreținere industrială. Gama cuprinde peste 150 de produse — unsori numerotate (precum OKS 400, 416, 418, 424, 427, 428), uleiuri, paste de montaj, lubrifianți uscați și produse de protecție anticorozivă și curățare. Din portofoliul OKS putem oferta lubrifianți pentru montaj, întreținere și producție, acolo unde clientul are nevoie de o soluție specifică pentru o combinație de materiale sau condiții de temperatură.
 
-Spre deosebire de gamele generaliste de lubrifianți industriali, OKS, marcă de produse a Klüber Lubrication, se adresează segmentului produselor de nișă — fiecare unsoare sau pastă numerotată e formulată pentru o problemă tehnică punctuală: frecare la montaj, protecție anticorozivă temporară, lubrifiere la temperaturi extreme sau compatibilitate cu materiale plastice și elastomeri. Fabricația "Made in Germany" e menționată explicit ca argument de calitate pe site-ul producătorului, alături de o gamă de industrii deservite neobișnuit de largă pentru un producător de lubrifianți speciali.
+OKS, marcă de produse a Klüber Lubrication, se adresează segmentului produselor de nișă — fiecare unsoare sau pastă numerotată e formulată pentru o problemă tehnică punctuală: frecare la montaj, protecție anticorozivă temporară, lubrifiere la temperaturi extreme sau compatibilitate cu materiale plastice și elastomeri. Fabricația "Made in Germany" e menționată explicit ca argument de calitate pe site-ul producătorului, alături de o gamă variată de industrii deservite.
 
 Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor industriale, la montajul componentelor mecanice sensibile la frecare și la protecția anticorozivă temporară a pieselor depozitate sau transportate, mai ales în ateliere de întreținere care lucrează cu mai multe tipuri de materiale.`,
     whyChoose: [
@@ -898,7 +898,7 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
     headquarters: "Sachseln, Elveția",
     overview: `Maxon este un producător elvețian de micromotoare, cu sediul la Sachseln, activ din 1961 în domeniul acționărilor electrice de precizie. Gama acoperă motoare DC cu perii, motoare BLDC fără perii, reductoare (gearheads), senzori și sisteme de control asociate, formând sisteme de acționare mecatronică complete. Din portofoliul Maxon putem oferta micromotoare pentru echipamente unde precizia mișcării și durata de viață contează mai mult decât costul unitar al motorului.
 
-Compania concurează cu Kollmorgen pe segmentul acționărilor de precizie pentru robotică și echipamente medicale, diferența fiind orientarea Maxon spre motoare de dimensiuni mici și foarte mici, integrate în sisteme unde spațiul e limitat — instrumente chirurgicale, implanturi active, drone sau vehicule spațiale. Motoarele BLDC completează gama motoarelor DC cu perii acolo unde durata de viață și turația mai mare contează. Compania menține producție și suport tehnic pe mai multe continente; disponibilitatea pieselor de schimb se confirmă pe cod, din documentația maxon.
+Maxon oferă acționări de precizie pentru robotică și echipamente medicale, cu orientare spre motoare de dimensiuni mici și foarte mici, integrate în sisteme unde spațiul e limitat — instrumente chirurgicale, implanturi active, drone sau vehicule spațiale. Motoarele BLDC completează gama motoarelor DC cu perii acolo unde durata de viață și turația mai mare contează. Compania menține producție și suport tehnic pe mai multe continente; disponibilitatea pieselor de schimb se confirmă pe cod, din documentația maxon.
 
 Pentru România, gama Maxon are sens la echipamente de laborator, aparatură medicală, robotică industrială și sisteme de automatizare de precizie unde clientul are nevoie de un motor mic, fiabil, cu parametri de turație și cuplu bine documentați de producător.`,
     whyChoose: [
@@ -1011,7 +1011,7 @@ Compania acoperă o plajă tehnică largă, de la discuri de rectificare vitrifi
 Pentru România, gama Tyrolit are sens în construcții, industria auto și cea a rulmenților, acolo unde debitarea și rectificarea de precizie fac parte din procesul de fabricație și unde certificarea de siguranță a discului contează la fel de mult ca performanța de așchiere.`,
     whyChoose: [
       "Certificări TÜV Austria și OSA, menționate pe site-ul producătorului",
-      "Gamă completă de lianți abrazivi — rășină, vitrificat, metalic — pentru aplicații diferite",
+      "Gamă de lianți abrazivi — rășină, vitrificat, metalic — pentru aplicații diferite",
       "Serie dedicată CBN (GENIS 2 CF) pentru rectificare de precizie pe materiale dure",
       "Discuri specializate pentru carburi și ceramice tehnice (SOLOTEC), nu doar pentru oțel",
     ],

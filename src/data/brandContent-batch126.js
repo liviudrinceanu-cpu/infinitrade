@@ -10,7 +10,7 @@ Ce diferențiază Masoneilan e acoperirea servicii-severe: seria 49000 V-LOG red
 
 Pentru un integrator din România, Masoneilan e util mai ales la retehnologizarea buclelor de reglare din rafinării și platforme petrochimice unde robinetul existent poartă deja un cod din această nomenclatură și trebuie identificat echivalentul exact.`,
     whyChoose: [
-      "Gamă completă pe o singură marcă — robinete liniare, rotative, poziționere și actuatoare, fără a combina furnizori diferiți",
+      "Gamă pe o singură marcă — robinete liniare, rotative, poziționere și actuatoare, fără a combina furnizori diferiți",
       "Servicii severe acoperite — seriile V-LOG și SteamForm tratează cavitația și zgomotul la căderi mari de presiune",
       "Domeniu larg de dimensiuni — de la 3/4\" pe robinetele mici până la 36\" pe seriile pentru servicii severe",
       "Clase de presiune ridicate — ANSI 150 până la 2500 pe majoritatea seriilor de control",
@@ -149,7 +149,7 @@ Pentru rafinării, platforme petrochimice și depozite de combustibil din Român
     whyChoose: [
       "Etanșare bubble-tight repetabilă — tehnologia pilot-operated menține închiderea etanșă aproape de presiunea de setare",
       "Dimensiuni conform API 526 — pe seriile 200, 400, 500 și 800, compatibile cu înlocuirea supapelor existente de aceeași clasă",
-      "Gamă completă pentru protecția tancurilor — supape presiune-vacuum și opritoare de flacără sub aceeași marcă",
+      "Gamă pentru protecția tancurilor — supape presiune-vacuum și opritoare de flacără sub aceeași marcă",
       "Origine americană cu peste 75 de ani de fabricație — companie înființată în 1947 la Houston",
     ],
     keyProducts: [

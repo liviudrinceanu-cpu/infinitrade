@@ -5,7 +5,7 @@ export const brandContentBatch51 = {
     name: "Heidenhain",
     overview: `Heidenhain este un producător german de sisteme de măsurare de precizie și comenzi numerice, cu peste 135 de ani de activitate în domeniul poziționării exacte. Gama include encodere liniare, encodere unghiulare, encodere rotative, rezolvere și comenzi CNC complete, folosite acolo unde mișcarea unei axe trebuie citită sau controlată la nivel de micron. Putem oferta din gama Heidenhain atât traductoare de poziție pentru retrofit de mașini-unelte, cât și comenzi CNC integrate pentru mașini noi.
 
-Heidenhain acoperă tot lanțul de măsurare: scale liniare închise (seriile LC, LS) sau deschise (seriile LIC, LIDA), encodere unghiulare (RCN, ROC, ROD) și comenzi CNC proprii (TNC7, TNC640, TNC320), fără să depindă de traductoare terțe. Pe segmentul comenzilor CNC concurează cu Siemens și Fanuc, iar la encoderele de precizie cu Renishaw, mai ales pe rezoluția sub-micronică pentru mașini-unelte și echipamente de semiconductori.
+Heidenhain acoperă tot lanțul de măsurare: scale liniare închise (seriile LC, LS) sau deschise (seriile LIC, LIDA), encodere unghiulare (RCN, ROC, ROD) și comenzi CNC proprii (TNC7, TNC640, TNC320), fără să depindă de traductoare terțe.
 
 Pentru România, Heidenhain înseamnă acces la traductoare pentru retrofit-uri de strunguri și freze CNC și la comenzi numerice complete pentru mașini noi. Relevant mai ales pentru ateliere de mecanică fină și integratori care au nevoie de precizie certificată.`,
     whyChoose: [
@@ -148,7 +148,7 @@ Punctul forte al SUCO este experiența îndelungată în monitorizarea presiunii
 Pentru piața din România, SUCO este relevant pentru instalații hidraulice mobile (utilaje agricole, utilaje de construcții), stații de energie regenerabilă și linii de producție unde presiunea trebuie monitorizată constant, cu componente robuste, ușor de înlocuit la mentenanță.`,
     whyChoose: [
       "Peste 80 de ani de experiență în fabricație, potrivit producătorului",
-      "Gamă completă — presostate mecanice, presostate și transmițătoare electronice, senzori de presiune",
+      "Gamă — presostate mecanice, presostate și transmițătoare electronice, senzori de presiune",
       "Certificare ISO 9001:2015, recertificată recent, pentru managementul calității în fabricație",
       "Variante certificate ATEX pentru zone cu risc de explozie",
       "Produse folosite atât în hidraulică/pneumatică industrială, cât și în aplicații mobile (agricultură, construcții)"
@@ -254,7 +254,7 @@ Pentru piața din România, SUCO este relevant pentru instalații hidraulice mob
     headquarters: "Koblenz, Germania",
     overview: `Stabilus este un producător german de arcuri cu gaz, amortizoare hidraulice și sisteme electrice de acționare liniară, cu sediul la Koblenz, unde compania a fost înființată în 1934. Gama acoperă arcuri cu gaz nezăvorâte (Lift-O-Mat), arcuri cu gaz blocabile (Bloc-O-Lift, Kombi-Lift), amortizoare de mișcare și vibrații (Stab-O-Shoc) și sisteme electromecanice de acționare (Industrial Powerise). Putem oferta din gama Stabilus componente de control al mișcării pentru mașini industriale, mobilier tehnic și echipamente medicale.
 
-Ce diferențiază Stabilus e acoperirea completă a controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat) până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică, cu funcționare sincronă a până la patru unități la varianta IPR35 Smart și forțe de până la 5 kN la seria IPR40. În segmentul arcurilor cu gaz industriale, Stabilus concurează cu ACE Stoßdämpfer și cu Suspa.
+Ce diferențiază Stabilus e acoperirea controlului mișcării — de la simpla susținere a unui capac (Lift-O-Mat) până la blocare rigidă în orice poziție (Bloc-O-Lift) și amortizare dedicată de vibrații (gama Stab-O-Shoc, seriile HD și GD, cu variante pentru sarcini joase și înalte). Sistemele Industrial Powerise (familia IPR35/IPR40) aduc acționare electrică, cu funcționare sincronă a până la patru unități la varianta IPR35 Smart și forțe de până la 5 kN la seria IPR40.
 
 Pentru România, Stabilus e relevant pentru producătorii de mobilier tehnic, echipamente medicale (paturi de spital, mese de operație) și mașini industriale care au nevoie de arcuri cu gaz sau amortizoare de schimb, precum și pentru integratorii care proiectează capace, uși de acces sau panouri de service ce trebuie susținute sau amortizate controlat.`,
     whyChoose: [
@@ -527,7 +527,7 @@ Ce diferențiază Gerb e combinarea a patru familii de produse complementare: el
 Pentru România, Gerb e relevant pentru proiecte de fundații de mașini rotative grele (turbine, generatoare, compresoare), pentru consolidări structurale în zone seismice și pentru instalații unde vibrațiile transmise la structură trebuie reduse sub un prag impus de proiect.`,
     whyChoose: [
       "Peste un secol de experiență în izolare antivibrații și fundații dinamice, din 1908",
-      "Gamă completă — arcuri elastice, amortizoare vâscoase, mase acordate și material poliuretanic Novodamp®",
+      "Gamă — arcuri elastice, amortizoare vâscoase, mase acordate și material poliuretanic Novodamp®",
       "Aplicații speciale de protecție seismică și izolare microseismică, nu doar amortizare industrială standard",
       "Peste 600 de angajați și subsidiare în mai multe țări, cu inginerie proprie pentru soluții personalizate de proiect",
       "Unelte proprii de proiectare (Novodamp® Designer) pentru dimensionarea rapidă a soluției"
@@ -757,12 +757,12 @@ Pentru România, RAFI e relevant pentru producătorii de utilaje agricole, echip
     name: "CJC",
     overview: `CJC (C.C.Jensen) este un producător danez de sisteme de filtrare offline pentru uleiuri industriale, cu peste 70 de ani de activitate în protecția aprovizionării cu ulei a echipamentelor. Gama acoperă filtrare fină pentru îndepărtarea particulelor, unități de îndepărtare a apei, unități de îndepărtare a vernicelui (produșilor de oxidare) și unități de îndepărtare a acidității din uleiuri hidraulice, de transmisie, turbină, ungere motor, transformator și combustibil diesel. Putem oferta din gama CJC unități de filtrare offline pentru instalații hidraulice și de lubrifiere.
 
-Ce diferențiază CJC e orientarea spre filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient. În filtrarea fină offline, CJC se compară cu Hydac Filtration, care oferă o gamă similară de soluții de condiționare a uleiului.
+Ce diferențiază CJC e orientarea spre filtrarea offline — un circuit separat de recirculare lentă a uleiului prin unități dedicate, montat în paralel cu sistemul principal, spre deosebire de filtrarea online integrată direct pe linia de presiune. Acest principiu permite îndepărtarea nu doar a particulelor solide, ci și a apei, a produșilor de oxidare (varnish) și a acidității, contaminanți pe care o filtrare online standard nu îi tratează eficient.
 
 Pentru România, CJC e relevant pentru instalații hidraulice mari, turbine industriale și eoliene, transformatoare de putere și nave, unde prelungirea duratei de viață a uleiului și reducerea opririlor pentru schimb de ulei justifică investiția într-un circuit de filtrare offline dedicat.`,
     whyChoose: [
       "Peste 70 de ani de experiență în filtrarea uleiurilor industriale",
-      "Gamă completă de contaminanți tratați — particule solide, apă, vernice (produși de oxidare) și aciditate",
+      "Contaminanți tratați — particule solide, apă, vernice (produși de oxidare) și aciditate",
       "Compatibil cu o gamă largă de uleiuri: hidraulic, transmisie, turbină, transformator, combustibil diesel și uleiuri biologice",
       "Principiu de recirculare lentă offline, care nu perturbă circuitul principal de presiune al instalației",
       "Sectoare deservite, conform producătorului: marină și offshore, minerit și ciment, producție de energie, energie eoliană și industrie"
@@ -955,11 +955,11 @@ Pentru România, Pfeiffer Vacuum e relevant pentru laboratoare de cercetare, uni
     headquarters: "Villaverla, Italia",
     overview: `Telwin este un producător italian de aparate de sudură, sisteme de tăiere cu plasmă, încărcătoare de baterii și dispozitive de pornire, cu sediul la Villaverla, în provincia Vicenza. Compania are peste 60 de ani de activitate în acest domeniu. Gama include sudură MIG/MAG (seria Supermig i), sudură TIG (seria Superior TIG), tăiere cu plasmă (Plasma XT, Superior Plasma) și încărcătoare/dispozitive de pornire (Gamma Drive Pro, T-Charge, Alpine). Putem oferta din gama Telwin aparate de sudură și încărcătoare pentru service industrial și auto.
 
-Ce diferențiază Telwin e acoperirea completă a lanțului de reparații auto și industriale — de la sudura propriu-zisă (MIG/MAG, TIG, plasmă) până la sistemele de reparații prin tragere (Smart Repair, Battery PullForce, RivPro) și încărcătoarele de baterii de mare curent (Gamma Drive Pro, până la 4500A). Gama de invertoare (seriile „i") aduce control digital al parametrilor de sudură, cu variante pulsate pentru table subțiri sau oțeluri speciale (505i XD Pulse). Telwin concurează în acest segment cu producători precum Lincoln Electric și Fronius pe sudură industrială, dar are o poziție distinctă pe segmentul de încărcătoare și dispozitive de pornire pentru service auto.
+Ce diferențiază Telwin e acoperirea lanțului de reparații auto și industriale — de la sudura propriu-zisă (MIG/MAG, TIG, plasmă) până la sistemele de reparații prin tragere (Smart Repair, Battery PullForce, RivPro) și încărcătoarele de baterii de mare curent (Gamma Drive Pro, până la 4500A). Gama de invertoare (seriile „i") aduce control digital al parametrilor de sudură, cu variante pulsate pentru table subțiri sau oțeluri speciale (505i XD Pulse).
 
 Pentru România, Telwin e relevant pentru ateliere de sudură industrială, service-uri auto și unități de mentenanță care au nevoie fie de echipamente de sudură portabile, fie de încărcătoare/boostere de mare capacitate pentru flote de vehicule sau utilaje.`,
     whyChoose: [
-      "Gamă completă de sudură — MIG/MAG, TIG și tăiere cu plasmă, cu control digital la seriile invertor",
+      "Gamă de sudură — MIG/MAG, TIG și tăiere cu plasmă, cu control digital la seriile invertor",
       "Gamma Drive Pro oferă curent de pornire de până la 4500A pentru vehicule grele și utilaje industriale",
       "Sisteme dedicate de reparații prin tragere (Smart Repair, RivPro) pentru caroserii auto",
       "Peste 60 de ani de activitate în domeniul sudurii, din 1963",
@@ -1224,7 +1224,7 @@ Pentru România, Cofra e relevantă pentru companii din producție industrială,
     name: "Renishaw",
     overview: `Renishaw este un producător britanic de sisteme de măsurare, palpare CMM și encodere de poziționare, cu activitate globală în metrologie de precizie. Gama include palpoare tactile și de scanare pentru mașini de măsurat în coordonate (CMM), retrofit-uri și software CMM, sistemul de măsurare Equator™, precum și encodere optice deschise și închise (seria Fortis), encodere magnetice și encodere laser interferometrice. Putem oferta din gama Renishaw palpoare CMM și encodere de poziționare pentru mașini-unelte și echipamente de metrologie.
 
-Ce diferențiază Renishaw e combinarea metrologiei de contact (palpoare CMM) cu poziționarea de precizie (encodere) sub același brand — companii concurente acoperă de regulă doar unul dintre cele două domenii. Seria Fortis aduce encodere optice închise, rezistente la mediul industrial. În segmentul metrologiei industriale, Renishaw se compară cu Mitutoyo, ale cărui game de palpoare și instrumente de măsurare acoperă aplicații similare.
+Ce diferențiază Renishaw e combinarea metrologiei de contact (palpoare CMM) cu poziționarea de precizie (encodere) sub același brand. Seria Fortis aduce encodere optice închise, rezistente la mediul industrial.
 
 Pentru România, Renishaw e relevant pentru laboratoare de metrologie, producători de mașini-unelte care fac retrofit de CMM-uri și pentru fabricile din automotive și aerospațial care au nevoie de sisteme de măsurare integrate direct pe linia de producție, nu doar în laborator.`,
     whyChoose: [

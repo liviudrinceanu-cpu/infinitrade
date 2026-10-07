@@ -11,7 +11,7 @@ Ce diferențiază FAR e organizarea foarte clară a gamei pe familii de catalog 
 
 Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoare și valve de zonă compatibile cu sisteme de încălzire în pardoseală sau cu radiatoare clasice. Piesele se pretează la lucrări de întreținere curentă și la completarea instalațiilor existente cu racorduri PRESSFAR.`,
     whyChoose: [
-      "Gamă completă de la centrala termică până la corpul de încălzire, organizată pe familii clare de catalog",
+      "Gamă de la centrala termică până la corpul de încălzire, organizată pe familii clare de catalog",
       "Racorduri PRESSFAR pentru îmbinări rapide, fără sudură, utile la retrofit și la extinderi de instalație",
       "Colectoare disponibile cu atașamente Eurokonus sau cap plat, compatibile cu mai multe tipuri de robinete termostatice",
       "Componente dedicate și pentru sisteme cu energie regenerabilă, nu doar pentru încălzire clasică pe combustibil",
@@ -193,7 +193,7 @@ Pentru instalatorii din România, Pettinaroli are sens la proiecte HVAC cu echil
     headquarters: "Lumezzane, Italia",
     overview: `Itap e un producător italian din Lumezzane, provincia Brescia, cu o gamă de aproximativ 400 de articole de robinetărie, fitinguri și colectoare pentru instalații sanitare și de încălzire. Compania produce intern, cu linii proprii de transfer și asamblare automatizată, ceea ce îi permite să acopere volum mare de comenzi pentru distribuitori din peste o sută de țări. Pentru piața din România putem oferta din gama Itap valve cu bilă, robinete de distribuție, fitinguri pentru țevi multistrat sau PEX și colectoare de distribuție.
 
-Itap concurează cu Giacomini pe segmentul de robinetărie pentru încălzire și instalații sanitare, ambele firme având familii extinse de valve și fitinguri. Gama Itap acoperă de la valve cu clapă și robinete până la fitinguri compatibile cu mai multe tipuri de țeavă (multistrat, PEX, polibutilenă, cupru, polietilenă). Gama de colectoare vine în variante din inox sau alamă nichelată, în funcție de cerințele instalației.
+Gama Itap acoperă de la valve cu clapă și robinete până la fitinguri compatibile cu mai multe tipuri de țeavă (multistrat, PEX, polibutilenă, cupru, polietilenă). Gama de colectoare vine în variante din inox sau alamă nichelată, în funcție de cerințele instalației.
 
 Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum mare de fitinguri standard sau colectoare pentru mai multe tipuri de țeavă.`,
     whyChoose: [
@@ -319,7 +319,7 @@ Pentru instalatori din România, RBM are sens la lucrări de mentenanță și pu
     headquarters: "Pont-à-Mousson, Franța",
     overview: `Saint-Gobain PAM e producătorul de conducte și robinetărie din fontă ductilă al grupului francez Saint-Gobain, cu sediul la Pont-à-Mousson, în nord-estul Franței. Gama acoperă rețelele de apă în ansamblu — conducte pentru apă potabilă, canalizare și soluri agresive, robinetărie de secționare și control, plus soluții de acces stradal precum capace de cămin și grătare. Pentru piața din România putem oferta din gama PAM robinete fluture, vane cu opercul și conducte din fontă ductilă pentru rețele de apă și canalizare.
 
-Saint-Gobain PAM concurează cu VAG pe segmentul de robinetărie pentru rețele de apă, ambele firme având game largi de vane și valve fluture pentru operatorii de utilități. Ce diferențiază PAM e integrarea între conducte și robinetărie sub aceeași marcă — seriile de conducte Natural și Optimal pentru apă potabilă, Integral și Biogan pentru canalizare, completate de robinetărie fluture EUROSTOP și WAFER sau vane cu opercul EURO 20, gândite să funcționeze împreună într-o rețea de fontă ductilă.
+Saint-Gobain PAM integrează conductele și robinetăria sub aceeași marcă — seriile de conducte Natural și Optimal pentru apă potabilă, Integral și Biogan pentru canalizare, completate de robinetărie fluture EUROSTOP și WAFER sau vane cu opercul EURO 20, gândite să funcționeze împreună într-o rețea de fontă ductilă.
 
 Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiecte de extindere sau reabilitare a rețelelor de apă potabilă și canalizare, unde compatibilitatea între conducte și robinetărie contează pentru durata de viață a întregii rețele.`,
     whyChoose: [
@@ -384,7 +384,7 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
     founded: 1469,
     overview: `Düker e un producător german de armături și fitinguri din fontă ductilă pentru rețele de apă, cu rădăcini documentate din 1469 în zona Unterfranken din Bavaria. Gama acoperă vane de izolare, clapete, hidranți și fitinguri cu flanșe sau mufe pentru rețele de apă potabilă și canalizare, plus sisteme de scurgere din fontă pentru clădiri — conducte SML și MLK-protec pentru coloane de canalizare interioară. Pentru piața din România putem oferta din gama Düker vane de izolare, hidranți și fitinguri din fontă ductilă pentru rețele de apă.
 
-Düker concurează cu VAG pe segmentul de armături pentru rețele de apă, ambele firme având game largi de vane și hidranți pentru operatorii de utilități. Ce diferențiază Düker e prezența pe două piețe conexe — armăturile de rețea și sistemele de scurgere din fontă pentru clădiri, unde producătorul propune seriile SML și Düker NH pentru coloane de canalizare interioară. Producătorul menționează garanție de 10 ani pe liniile Flow Control și Drainage.
+Düker este prezent pe două piețe conexe — armăturile de rețea și sistemele de scurgere din fontă pentru clădiri, unde producătorul propune seriile SML și Düker NH pentru coloane de canalizare interioară. Producătorul menționează garanție de 10 ani pe liniile Flow Control și Drainage.
 
 Pentru operatorii de apă și antreprenorii din România, Düker are sens la proiecte de extindere a rețelelor de apă potabilă cu vane și hidranți, sau la clădiri unde se cere o coloană de canalizare din fontă silențioasă și rezistentă la foc.`,
     whyChoose: [
@@ -447,7 +447,7 @@ Pentru operatorii de apă și antreprenorii din România, Düker are sens la pro
     headquarters: "Altdorf, Germania",
     overview: `SIPOS Aktorik e un producător german de actuatoare electrice pentru robineți industriali, cu sediul la Altdorf, lângă Nürnberg. Gama acoperă actuatoare rotative și liniare pentru controlul vanelor, clapetelor și robinetelor cu bilă în instalații industriale, cu module de comunicație pentru integrare în sisteme de automatizare. Pentru piața din România putem oferta din gama SIPOS actuatoare din familia SEVEN și module de control compatibile cu protocoale industriale uzuale.
 
-SIPOS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, ambele firme având game de produse organizate pe generații succesive. Familia SEVEN (2SA7, 2SA78, 2SQ7) reprezintă generația curentă de actuatoare SIPOS, cu varianta HiMod pentru aplicații cu cerințe ridicate de precizie a reglării, completată de familiile ECOTRON (acționare deschis-închis și poziționare simplă) și PROFITRON. Modulele de control M7636, M7637 și M76348 permit integrarea actuatoarelor în bucle de automatizare existente.
+Familia SEVEN (2SA7, 2SA78, 2SQ7) reprezintă generația curentă de actuatoare SIPOS, cu varianta HiMod pentru aplicații cu cerințe ridicate de precizie a reglării, completată de familiile ECOTRON (acționare deschis-închis și poziționare simplă) și PROFITRON. Modulele de control M7636, M7637 și M76348 permit integrarea actuatoarelor în bucle de automatizare existente.
 
 Pentru operatorii industriali din România, SIPOS are sens la instalații unde robineții trebuie acționați electric de la distanță — stații de tratare a apei, rețele de gaz sau linii de proces — și unde integrarea cu un sistem de automatizare existent contează.`,
     whyChoose: [
@@ -504,14 +504,14 @@ Pentru operatorii industriali din România, SIPOS are sens la instalații unde r
     headquarters: "Prešov, Slovacia",
     overview: `Regada e un producător slovac de actuatoare electrice și pneumatice pentru robineți industriali, cu sediul la Prešov și activitate din 1998, continuând o tradiție de producție din anii 1960. Gama acoperă actuatoare part-turn din seria SP, pentru acționarea vanelor fluture, cu bilă, poartă sau glob, plus actuatoare pneumatice și supape solenoid pentru automatizarea circuitelor de aer comprimat. Pentru piața din România putem oferta din gama Regada actuatoare electrice din seria SP și supape solenoid pentru automatizare industrială.
 
-Regada concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar acoperă o plajă de cuplu mai mică — de la 4 Nm la seria SP 0, până la 575 Nm la SP 2.4-Ex, orientată spre robineți de dimensiuni mici și medii. Seria SPR, cu variante precum SPR 0PA-M, adaugă funcția Rematic pentru poziționare proporțională, utilă la reglarea debitului, nu doar la deschidere sau închidere completă. Variantele Ex din gamă sunt gândite pentru zone cu risc de explozie.
+Regada produce actuatoare electrice pentru robineți industriali, cu o plajă de cuplu de la 4 Nm la seria SP 0, până la 575 Nm la SP 2.4-Ex, orientată spre robineți de dimensiuni mici și medii. Seria SPR, cu variante precum SPR 0PA-M, adaugă funcția Rematic pentru poziționare proporțională, utilă la reglarea debitului, nu doar la deschidere sau închidere completă. Variantele Ex din gamă sunt gândite pentru zone cu risc de explozie.
 
 Pentru operatorii industriali din România, Regada are sens la automatizarea robineților de dimensiuni mici și medii din instalații de proces, rețele de gaz sau stații de tratare, mai ales unde bugetul nu justifică un actuator de cuplu foarte mare.`,
     whyChoose: [
       "Plajă de cuplu de la 4 la peste 500 Nm, acoperind robineți de dimensiuni mici și medii",
       "Variante Ex disponibile la mai multe modele, pentru zone cu risc de explozie",
       "Seria SPR cu funcție Rematic pentru poziționare proporțională, nu doar deschidere/închidere completă",
-      "Gamă completă de supape solenoid și actuatoare pneumatice pentru automatizare pe aer comprimat",
+      "Gamă de supape solenoid și actuatoare pneumatice pentru automatizare pe aer comprimat",
     ],
     keyProducts: [
       { name: "Actuatoare Electrice Seria SP", description: "Seria SP acoperă actuatoare electrice part-turn cu cuplu de la 4 Nm (SP 0) până la 575 Nm (SP 2.4-Ex), pentru acționarea robineților fluture, cu bilă, poartă sau glob. Variantele -M au funcție de poziționare modulantă, iar cele -Ex sunt gândite pentru zone cu risc de explozie. Alegerea modelului depinde de cuplul necesar la robinet și de clasificarea zonei de montaj." },
@@ -564,13 +564,13 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
     headquarters: "Troisdorf, Germania",
     overview: `ARIS Stellantriebe e un producător german de actuatoare electrice și componente pentru controlul gazului, cu sediul la Troisdorf, lângă Köln, și peste 50 de ani de activitate. Din mai 2025, compania face parte din grupul britanic Kinetrol. Gama acoperă actuatoare electrice pentru robineți industriali — familiile Nano S, Tensor S, ExTensor M și PICO — plus componente complete pentru stații de reglare a gazului. Pentru piața din România putem oferta din gama ARIS actuatoare electrice și componente pentru sisteme de control al gazului.
 
-ARIS concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar are o nișă suplimentară în componentele pentru controlul gazului — regulatoare de presiune, supape de siguranță, filtre de gaz și debitmetre tip Quantometer, integrabile într-o stație completă de reglare. Familia Nano S e gândită pentru aplicații compacte cu grad de protecție IP66/IP67, iar ExTensor M adaugă protecție la explozie pentru zone clasificate ATEX. Actuatoarele pneumatice provin din gama Kinetrol, grupul din care face parte ARIS, cu cuplu de până la peste 40.000 Nm la variantele mari.
+ARIS produce actuatoare electrice pentru robineți industriali și, în plus, componente pentru controlul gazului — regulatoare de presiune, supape de siguranță, filtre de gaz și debitmetre tip Quantometer, integrabile într-o stație completă de reglare. Familia Nano S e gândită pentru aplicații compacte cu grad de protecție IP66/IP67, iar ExTensor M adaugă protecție la explozie pentru zone clasificate ATEX. Actuatoarele pneumatice provin din gama Kinetrol, grupul din care face parte ARIS, cu cuplu de până la peste 40.000 Nm la variantele mari.
 
 Pentru operatorii industriali din România, ARIS are sens la automatizarea robineților în stații de reglare a gazului sau la instalații din chimie și rafinării, unde certificarea ATEX și componentele complete de măsurare-siguranță contează la recepția proiectului.`,
     whyChoose: [
       "Certificări ISO 9001:2015, ATEX și IECEx pentru actuatoare destinate zonelor cu risc de explozie",
       "Grad de protecție IP66/IP67 la familiile Nano S și Tensor S, pentru montaj în exterior",
-      "Gamă completă pentru stații de reglare a gazului — regulatoare, filtre, supape de siguranță, debitmetre",
+      "Gamă pentru stații de reglare a gazului — regulatoare, filtre, supape de siguranță, debitmetre",
       "Actuatoare pneumatice Kinetrol cu cuplu de până la peste 40.000 Nm",
       "Parte din grupul britanic Kinetrol din 2025",
     ],
@@ -629,7 +629,7 @@ Pentru operatorii industriali din România, ARIS are sens la automatizarea robin
     headquarters: "Viena, Austria",
     overview: `Schiebel Antriebstechnik e un producător austriac de actuatoare electrice pentru robineți industriali, cu sediul la Viena și peste 60 de ani de activitate în dezvoltarea și producția de actuatoare electrice. Gama de bază, seria CM, acoperă trei dimensiuni de cuplu — CM 03, CM 06 și CM 12 — completate de seria AB, prezentată de producător ca gamă tradițională și robustă. Pentru piața din România putem oferta din gama Schiebel actuatoare CM și AB, cu sau fără funcție failsafe.
 
-Schiebel concurează cu Auma pe segmentul de actuatoare electrice pentru robineți industriali, dar oferă funcția failsafe — o siguranță mecanică independentă de alimentarea electrică, prin care robinetul ajunge într-o poziție predefinită în mai puțin de o secundă la pierderea curentului. Seria FS (Failsafe) este disponibilă pe dimensiunile CM 03, 06 și 12. Unitatea de control Smartcon, cu firmware FW-1600, adaugă diagnosticare avansată și protocoale de comunicație industrială peste actuatorul de bază.
+Schiebel produce actuatoare electrice pentru robineți industriali și oferă funcția failsafe — o siguranță mecanică independentă de alimentarea electrică, prin care robinetul ajunge într-o poziție predefinită în mai puțin de o secundă la pierderea curentului. Seria FS (Failsafe) este disponibilă pe dimensiunile CM 03, 06 și 12. Unitatea de control Smartcon, cu firmware FW-1600, adaugă diagnosticare avansată și protocoale de comunicație industrială peste actuatorul de bază.
 
 Pentru operatorii industriali din România, Schiebel are sens la robineți unde siguranța la cădere de tensiune contează — stații de gaz, instalații de proces sau linii unde o poziție greșită a vanei la o pană de curent ar fi periculoasă.`,
     whyChoose: [

@@ -11,7 +11,7 @@ Benzile modulare din plastic din gama Habasit rezistă la impact, abraziune și 
 Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândite pentru funcționare continuă, consum energetic redus, întreținere simplă. Gama include benzi certificate FDA pentru industria alimentară, benzi antistatice pentru electronică, benzi cu profil ridicat pentru transportul în pantă, plus componente complementare - lanțuri de acționare, ghidaje laterale, componente de transfer.`,
     whyChoose: [
       'Benzi modulare durabile - structură din plastic de înaltă rezistență, reparații pe loc fără oprire completă linie',
-      'Gamă completă aplicații - de la transferuri strânse (Micropitch) până la curbe (benzi de rază), peste 150 de stiluri conform producătorului',
+      'Gamă aplicații - de la transferuri strânse (Micropitch) până la curbe (benzi de rază), peste 150 de stiluri conform producătorului',
       'Rezistență chimică - materialul benzii se alege în funcție de mediu; compatibilitatea se confirmă pe cod',
       'Certificate contact alimentar - benzi FDA/EU conforme pentru procesare carne, lactate, băuturi, panificație',
       'Fricțiune și consum energetic - depind de materialul și de tipul benzii; se discută pe baza aplicației',
@@ -209,7 +209,7 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
       },
       {
         name: 'Tablouri Distribuție Universale',
-        description: 'Carcase din oțel zincat sau ABS ignifug pentru montaj aparataj modular. Gama completă: tablouri încastrate (flush-mount) pentru apartamente, tablouri aparente (surface-mount) pentru spații tehnice, tablouri IP65 pentru exterior sau medii umede. Capacitățile (număr de module) se confirmă din catalogul producătorului pentru fiecare cod. Design inteligent: ușă transparentă pentru verificare vizuală fără deschidere, etichete inscriptibile pentru circuite, șine de legare la pământ, spații pentru contoare și automatizări. Preamblaj fabrică - cleme principale instalate, șine montate, reducere drastică timp instalare. Rezistența la foc a carcaselor se confirmă din documentația codului.'
+        description: 'Carcase din oțel zincat sau ABS ignifug pentru montaj aparataj modular. Gama include: tablouri încastrate (flush-mount) pentru apartamente, tablouri aparente (surface-mount) pentru spații tehnice, tablouri IP65 pentru exterior sau medii umede. Capacitățile (număr de module) se confirmă din catalogul producătorului pentru fiecare cod. Design inteligent: ușă transparentă pentru verificare vizuală fără deschidere, etichete inscriptibile pentru circuite, șine de legare la pământ, spații pentru contoare și automatizări. Preamblaj fabrică - cleme principale instalate, șine montate, reducere drastică timp instalare. Rezistența la foc a carcaselor se confirmă din documentația codului.'
       },
       {
         name: 'Contoare Energie Digitale',
@@ -655,7 +655,7 @@ Hengst este atât furnizor OEM pentru producători de echipamente, cât și furn
       'Eficiență de filtrare - gradul de filtrare depinde de elementul ales și se confirmă din fișa tehnică',
       'Durată viață extinsă - capacitate reținere mare, intervaluri de schimb prelungite față de filtrele standard, conform producătorului',
       'Rezistență mecanică - presiunea maximă depinde de tipul elementului și al carcasei; se confirmă din fișa tehnică',
-      'Gamă completă - filtre pentru ulei motor, ulei hidraulic, combustibil diesel, aer comprimat, separatoare apă',
+      'Gamă - filtre pentru ulei motor, ulei hidraulic, combustibil diesel, aer comprimat, separatoare apă',
       'Compatibilitate - se confirmă pe baza codului OEM al filtrului original și a fișei tehnice Hengst',
       'Standarde de testare - ISO 4548 și ISO 16889; documentația se confirmă din fișele tehnice ale producătorului'
     ],
@@ -967,7 +967,7 @@ Portofoliul acoperă toate tipurile de gaze periculoase: combustibile (metan, pr
     whyChoose: [
       'Tehnologii de senzori adaptate gazului: catalitici, electro-chimici și în infraroșu; durata de viață a senzorilor depinde de model',
       'Documentație SIL pentru anumite modele (de exemplu XNX, SIL 2 conform IEC 61508); se confirmă pe cod',
-      'Gamă completă - detectoare fixe, portabile (single-gas și multigaz) și transmițătoare',
+      'Gamă - detectoare fixe, portabile (single-gas și multigaz) și transmițătoare',
       'Algoritmi inteligenți - compensare temperatura/umiditate automată, auto-calibrare, diagnostic preventiv senzori',
       'Comunicații industriale - 4-20mA, Modbus RTU/TCP, HART, wireless mesh pentru zone dificile',
       'Service global - calibrare certificată, înlocuire senzori originali, rapoarte conformitate reglementări'
@@ -1096,7 +1096,7 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
       'Protecție certificată - toate EPI-urile testate conform EN standards, marcaje clare nivel protecție',
       'Materiale - fibre tehnice, alese în funcție de model',
       'Confort ridicat - design ergonomic, materiale respirante, greutăți reduse pentru utilizare prelungită',
-      'Gamă completă - protecție cap până picioare (head-to-toe), soluții coordonate pentru fiecare industrie',
+      'Gamă - protecție cap până picioare (head-to-toe), soluții coordonate pentru fiecare industrie',
       'Durabilitate - rezistența la uzură și numărul de spălări depind de model; se confirmă din fișa tehnică',
       'Gamă documentată - fiecare model are fișă tehnică și marcaje de conformitate; evaluarea de riscuri rămâne responsabilitatea angajatorului'
     ],

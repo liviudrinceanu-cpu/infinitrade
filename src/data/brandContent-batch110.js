@@ -77,7 +77,7 @@ Pentru piața din România, Molydal are sens la linii de producție care cer un 
       "Uleiuri hidraulice de grad alimentar seria Hydro AL, cu aprobare NSF H1 pe fișa produsului (de exemplu Hydro 46 AL)",
       "Degresanți fără solvenți, potriviți pentru ateliere care limitează expunerea la vapori organici",
       "Peste 60 de ani de activitate în lubrifianți industriali, conform prezentării producătorului",
-      "Gamă completă de la unsori la fluide de prelucrare a metalului, sub un singur brand"
+      "Gamă de la unsori la fluide de prelucrare a metalului, sub un singur brand"
     ],
     keyProducts: [
       { name: "Unsori Seria AGL/AL", description: "Familia de unsori Molydal pentru temperaturi ridicate și condiții severe, cu variante precum AGL 75 AL și AGL 80 AL de grad alimentar, precum AGL 75 AL (sintetică) și AGL 80 AL (albă, fără MOSH/MOAH). Completează gama unsoarea sintetică AL SI 55. Pentru ofertă avem nevoie de temperatura maximă de lucru a lagărului sau angrenajului și de intervalul de relubrifiere dorit." },
@@ -214,7 +214,7 @@ Pentru piața din România, Molyslip are sens la utilaje cu rulmenți expuși la
     founded: 1914,
     overview: `Pressol este un producător german de tehnică de ungere și echipamente de atelier, activ din 1914, conform site-ului propriu. Gama acoperă pompe de gresat manuale și cu aer comprimat, recipiente și rezervoare pentru lubrifianți și combustibili, sisteme de gestiune a motorinei și a uleiului, precum și echipamente pentru soluția AdBlue. Din portofoliul Pressol putem oferta pompe de ungere manuale, recipiente pentru transfer de lubrifianți și echipamente de dozare pentru ateliere auto și industriale.
 
-Ce diferențiază Pressol de un simplu furnizor de recipiente este integrarea sistemelor de management — motorina, uleiul și AdBlue-ul sunt tratate ca fluxuri gestionate, cu sisteme dedicate de urmărire a consumului (DMS pentru motorină, ÖMS pentru ulei), nu doar cu rezervoare pasive. Compania menționează pe site producția a milioane de piese anual, cu un catalog amplu de referințe pentru tehnica de ungere și de atelier. Ca profil, Pressol e mai degrabă un partener complementar în echipamente de atelier, alături de branduri de scule și lubrifianți, decât un concurent direct pe o singură categorie.
+Pressol integrează sisteme de management — motorina, uleiul și AdBlue-ul sunt tratate ca fluxuri gestionate, cu sisteme dedicate de urmărire a consumului (DMS pentru motorină, ÖMS pentru ulei). Compania menționează pe site producția a milioane de piese anual, cu un catalog amplu de referințe pentru tehnica de ungere și de atelier. Ca profil, Pressol este un partener complementar în echipamente de atelier, alături de branduri de scule și lubrifianți.
 
 Pentru piața din România, Pressol are sens la ateliere auto și service-uri industriale care vor pompe de gresat fiabile, recipiente etanșe pentru transferul lubrifianților sau un sistem simplu de gestiune a consumului de motorină și AdBlue.`,
     whyChoose: [
@@ -271,7 +271,7 @@ Pentru piața din România, Pressol are sens la ateliere auto și service-uri in
     headquarters: "Durham, Carolina de Nord, SUA",
     overview: `SCIGRIP este un producător american de adezivi structurali metacrilici (MMA), cu sediul la Durham, Carolina de Nord, și facilități de producție în Statele Unite și Regatul Unit. Gama acoperă adezivi pentru asamblări marine, feroviare, auto și industriale, plus adezivi acrilici cu conținut redus de compuși organici volatili. Din portofoliul SCIGRIP putem oferta adezivi structurali pentru metal, plastic și compozite, potriviți acolo unde sudura sau șuruburile nu sunt o opțiune practică.
 
-Ce diferențiază adezivii SCIGRIP e segmentarea pe timp de priză și tip de substrat: seria SG100 e gândită pentru structuri mici cu timp de lucru de 12–18 sau 35–45 de minute, în funcție de variantă, seria SG230HV pentru structuri mari cu timp de lucru de până la 70 de minute, iar seria SG3000 pentru asamblarea metalelor galvanizate fără primer sau pregătire prealabilă a suprafeței. Adezivii cu VOC redus (SG42, SG46C) răspund la cerințe de mediu tot mai stricte în ateliere. Ca profil tehnic, SCIGRIP e mai degrabă complementar unei game de lubrifianți și adezivi industriali decât un concurent direct pe categoria de unsori.
+Adezivii SCIGRIP sunt segmentați pe timp de priză și tip de substrat: seria SG100 e gândită pentru structuri mici cu timp de lucru de 12–18 sau 35–45 de minute, în funcție de variantă, seria SG230HV pentru structuri mari cu timp de lucru de până la 70 de minute, iar seria SG3000 pentru asamblarea metalelor galvanizate fără primer sau pregătire prealabilă a suprafeței. Adezivii cu VOC redus (SG42, SG46C) răspund la cerințe de mediu tot mai stricte în ateliere. Ca profil tehnic, SCIGRIP este complementar unei game de lubrifianți și adezivi industriali.
 
 Pentru piața din România, SCIGRIP are sens la asamblarea compozitelor din construcția de ambarcațiuni, la panouri din materiale mixte pentru vehicule sau la structuri metalice unde sudura ar deforma piesa sau nu e permisă de proiectant.`,
     whyChoose: [
@@ -517,7 +517,7 @@ Pentru piața din România, Alco Valves are sens la panouri de instrumentație p
     headquarters: "Settala, Milano, Italia",
     overview: `BESA este un producător italian de supape de siguranță industriale, cu sediul la Settala, lângă Milano, activ din 1946. Gama acoperă supape cu conexiuni filetate, flanșate și de înaltă presiune, plus variante conforme standardului american API 526 și supape căptușite cu PFA pentru medii corozive. Din portofoliul BESA putem oferta supape de siguranță pentru presiuni de la 0,2 până la 400 de bar, în materiale de la fontă la oțel inoxidabil.
 
-Ce diferențiază gama BESA e acoperirea largă de standarde și certificări — seriile 250 și 260 ating 160, respectiv 400 de bar, seriile 280 și 290 respectă API 526 pentru piața americană, iar seria 271 e căptușită cu PFA și burduf din PTFE pentru fluide agresive chimic. Certificările includ PED, ATEX și aprobări de la societăți de clasificare navală precum RINA, DNV, LR și ABS. Ca profil, BESA e complementar unei game de robineți industriali — supapele de siguranță completează, nu concurează, robineții de închidere sau control.
+Gama BESA acoperă mai multe standarde și certificări — seriile 250 și 260 ating 160, respectiv 400 de bar, seriile 280 și 290 respectă API 526 pentru piața americană, iar seria 271 e căptușită cu PFA și burduf din PTFE pentru fluide agresive chimic. Certificările includ PED, ATEX și aprobări de la societăți de clasificare navală precum RINA, DNV, LR și ABS. Ca profil, BESA e complementar unei game de robineți industriali — supapele de siguranță completează robineții de închidere sau control.
 
 Pentru piața din România, BESA are sens la instalații sub presiune care cer supape de siguranță certificate PED, la nave care cer aprobări de clasificare navală sau la linii chimice cu fluide corozive care necesită căptușeală PFA.`,
     whyChoose: [

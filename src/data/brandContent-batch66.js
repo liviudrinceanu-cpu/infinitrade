@@ -77,7 +77,7 @@ Ce diferențiază oferta Hutchinson pentru industria generală este acoperirea l
 Pentru instalațiile industriale din România, relevanța Hutchinson stă în componentele de etanșare și anti-vibrație pentru echipamente rotative sau vibratorii — motoare, compresoare, benzi transportoare — acolo unde vibrația sau uzura garniturii afectează direct durata de viață a utilajului.`,
     whyChoose: [
       "Mărci proprii consacrate — Vibraflot® și Ardamp® pentru anti-vibrație, Axoflex® pentru cuplaje elastice",
-      "Gamă completă de garnituri — O-ring, garnituri dinamice, garnituri rotative de arbore, garnituri sferice",
+      "Gamă de garnituri — O-ring, garnituri dinamice, garnituri rotative de arbore, garnituri sferice",
       "Curele de transmisie cu nervuri Poly V, alternativă la curelele trapezoidale clasice pentru anumite aplicații",
       "Acoperire pe numeroase sectoare industriale, de la agricultură și construcții la feroviar și energie",
       "Furtunuri specializate de răcire cu aer și de frânare pentru echipamente mobile"
@@ -485,7 +485,7 @@ Ce diferențiază Piusi în categoria echipamentelor de transfer fluide este aco
 
 Pentru operatorii din România cu flote proprii sau depozite de combustibil — transport, agricultură, construcții sau minerit — gama Piusi acoperă atât alimentarea simplă la butoi sau rezervor, cât și stații complete de auto-servire cu monitorizare a consumului pe vehicul.`,
     whyChoose: [
-      "Gamă completă — de la pompe manuale la dispensere de flotă cu monitorizare cloud (CUBE B.Smart)",
+      "Gamă — de la pompe manuale la dispensere de flotă cu monitorizare cloud (CUBE B.Smart)",
       "Unități Self Service HD pentru alimentarea flotelor, cu debit confirmat pe model din documentația producătorului",
       "Pompe dedicate AdBlue® (BiPump 12/24V) separate de liniile de combustibil, pentru evitarea contaminării",
       "Certificări TÜV pentru management al calității, mediu și sănătate-securitate în muncă",

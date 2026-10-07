@@ -202,7 +202,7 @@ Seria RD oferă rapoarte de transmisie între 5:1 și 100:1, cu distanțe între
 Pentru retehnologizări din industria minieră, chimică sau alimentară din România, unde un reductor existent trebuie înlocuit fără modificarea bazei de montaj, ghidurile de interschimbabilitate Winsmith reduc timpul de selecție a piesei corecte.`,
     whyChoose: [
       "Ghiduri de interschimbabilitate publicate pentru Baldor, Boston, Dodge, Grove, Hub City și Morse",
-      "Gamă completă de tehnologii — melc unghiular, elicoidal in-line, conic-elicoidal și planetar",
+      "Gamă de tehnologii — melc unghiular, elicoidal in-line, conic-elicoidal și planetar",
       "Rapoarte de reducere de până la 50.000:1 la seria planetară 021HM",
       "Eficiență de până la 97% la reductoarele unghiulare din seria RD",
       "Variante din aluminiu turnat (ALRN, ALSQ) pentru instalații unde greutatea contează",
@@ -269,7 +269,7 @@ Pentru instalații de pompare din chimie, alimentar sau tratarea apei din Român
       "Nouă mărimi într-o singură familie constructivă, de la 6,5 CP la peste 900 CP la 100 rpm",
       "Cuplare fără contact metal-pe-metal, prin insert elastomeric interschimbabil pe mărime",
       "Variantă PM90, cu alezaj maxim de 1 1/8 inci și insert nitrilic standard",
-      "Gamă completă de accesorii hidraulice conexe — suporturi de pompă, manifolduri, rezervoare",
+      "Gamă de accesorii hidraulice conexe — suporturi de pompă, manifolduri, rezervoare",
       "Activ din 1956, cu sediul în Alpena, Michigan",
     ],
     keyProducts: [
@@ -393,7 +393,7 @@ Pentru echipamente agricole, industriale sau de construcții din România, cilin
       "Peste 70 de ani de experiență în proiectarea și fabricarea cilindrilor hidraulici",
       "Șapte familii de cilindri cu tije de tracțiune, de la varianta standard la rephasing și uz greu",
       "Cilindri cu senzor de poziție integrat (PDB, PDH) pentru monitorizare electronică a cursei",
-      "Trei unități de producție în Kansas, pentru gama completă de cilindri și componente hidraulice",
+      "Trei unități de producție în Kansas, pentru gama de cilindri și componente hidraulice",
       "Gamă conexă de valve, pompe cu roți dințate și filtre hidraulice",
     ],
     keyProducts: [

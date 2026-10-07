@@ -517,7 +517,7 @@ Gama tehnică e organizată pe categorii clare: sisteme de conducere a cablurilo
 
 Pentru piața din România, gama are sens la proiecte de instalații electrice industriale sau comerciale unde aveți nevoie de jgheaburi de cabluri dimensionate corect, de protecție la supratensiune pentru echipamente sensibile sau de sisteme de protecție la foc pentru trasee de cabluri prin zone cu risc.`,
     whyChoose: [
-      "Gamă completă pentru instalații electrice: jgheaburi de cabluri, protecție la supratensiune, protecție la foc",
+      "Gamă pentru instalații electrice: jgheaburi de cabluri, protecție la supratensiune, protecție la foc",
       "Sisteme de conducere a cablurilor dimensionate pentru diverse tipuri de trasee industriale",
       "Soluții dedicate de protecție la foc pentru trasee de cabluri prin zone compartimentate",
       "Acoperire pe fotovoltaic, centre de date și infrastructură, nu doar clădiri civile clasice",
@@ -636,7 +636,7 @@ LS Electric produce echipamente de comutație de joasă tensiune, contactoare ș
 
 Pentru piața din România, LS Electric are sens la tablouri electrice și panouri de automatizare unde proiectul cere echipamente de joasă tensiune cu parametri electrici confirmați din documentația producătorului, pentru proiecte de retehnologizare sau construcție nouă de instalații industriale.`,
     whyChoose: [
-      "Gamă completă pentru tablouri electrice: întrerupătoare, contactoare, invertoare și transformatoare",
+      "Gamă pentru tablouri electrice: întrerupătoare, contactoare, invertoare și transformatoare",
       "Parte din grupul LS, cu afiliate dedicate pentru sisteme de stocare a energiei (LS Energy Solutions)",
       "Istoric de peste 50 de ani în echipamente electrice de putere, din 1974 până azi",
       "Extindere spre sisteme de stocare a energiei, relevantă pentru proiecte de energie regenerabilă",
@@ -1108,7 +1108,7 @@ Gama tehnică acoperă seria Powermax, pentru tăiere portabilă și automatizat
 
 Pentru piața din România, Hypertherm are sens la ateliere de fabricație metalică, construcții navale sau centre de servicii oțel unde tăierea cu plasmă trebuie să fie precisă și repetabilă, iar consumabilele originale (electrozi, duze) fac diferența pentru calitatea tăieturii pe termen lung.`,
     whyChoose: [
-      "Gamă completă, de la sisteme portabile Powermax până la sisteme automatizate de mare capacitate MAXPRO200",
+      "Gamă de la sisteme portabile Powermax până la sisteme automatizate de mare capacitate MAXPRO200",
       "Tehnologie X-Definition în seria XPR, pentru tăieturi de precizie la curenți de la 170 A în sus",
       "Software CAM propriu (ProNest) pentru optimizarea imbricării pieselor pe tablă",
       "Comenzi CNC din familia EDGE Connect, integrate cu sistemele de tăiere ale producătorului",

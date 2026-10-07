@@ -80,7 +80,7 @@ Pentru piața din România, Guide Sensmart înseamnă acces la camere de termovi
     whyChoose: [
       "Rezoluții de până la 1280×1024 pixeli în seria PT II",
       "Sensibilitate termică (NETD) sub 15 mK pe majoritatea seriilor, utilă la detectarea unor diferențe fine de temperatură",
-      "Gamă completă, de la camere de buzunar EasIR până la camere megapixel PT II, pentru aplicații diferite",
+      "Gamă de la camere de buzunar EasIR până la camere megapixel PT II, pentru aplicații diferite",
       "Cameră acustică FA611S pentru localizarea scurgerilor de aer comprimat și gaz, utilă în audituri energetice industriale",
       "Cameră de gaz PV400 pentru vizualizarea scurgerilor de gaze industriale",
     ],

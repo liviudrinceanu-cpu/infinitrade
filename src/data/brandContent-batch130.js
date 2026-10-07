@@ -86,7 +86,7 @@ Pentru un integrator de automatizare din România, gama Bimba are sens la stați
       "Familia Flat-1 cu profil ultra-compact pentru montaje unde spațiul radial e limitat",
       "Cilindri seria TA (tie rod) cu dimensiuni conforme NFPA, interschimbabili ca gabarit cu alte mărci de pe aceeași normă",
       "Parte din grupul internațional IMI plc",
-      "Gamă completă de accesorii pneumatice: regulatoare, filtre, valve, manifolduri, senzori",
+      "Gama cuprinde accesorii pneumatice: regulatoare, filtre, valve, manifolduri, senzori",
     ],
     keyProducts: [
       { name: "Cilindri Pneumatici Original Line", description: "Cilindri pneumatici standard, cu profil compact, disponibili în variante cu tijă simplă sau dublă, folosiți pentru mișcare liniară de bază în stații de asamblare și manipulare. Reprezintă linia de produs originală a companiei." },

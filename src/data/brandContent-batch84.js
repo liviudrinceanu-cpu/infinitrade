@@ -11,7 +11,7 @@ Ce diferențiază gama Eriez este acoperirea mai multor etape ale unui flux de p
 
 Pentru instalațiile din România, Eriez înseamnă acces la echipamente de protecție a utilajelor din aval — mori, concasoare, benzi transportoare — împotriva metalului tramp, și la sisteme de control al calității prin detectare de metal sau inspecție cu raze X, utile în minerit, reciclare și procesare alimentară.`,
     whyChoose: [
-      "Gamă completă de separare magnetică, de la magneți suspendați până la separatoare cu role din pământuri rare pentru metal feros fin",
+      "Gamă de separare magnetică, de la magneți suspendați până la separatoare cu role din pământuri rare pentru metal feros fin",
       "Peste opt decenii de experiență în tehnologii de separare, din 1942, cu portofoliu extins pentru protecția utilajelor din aval",
       "Linie proprie de detectare electronică a metalelor și inspecție cu raze X pentru verificarea produsului finit înainte de ambalare",
       "Echipamente și pentru flotație, reciclarea metalelor și reciclarea fluidelor industriale, nu doar separare magnetică de bază",
@@ -72,7 +72,7 @@ Ce diferențiază Goudsmit este acoperirea completă a lanțului de separare mag
 
 Pentru instalațiile din România, Goudsmit înseamnă acces la separatoare magnetice de la un producător certificat ISO 9001 și ISO 14001, pentru protecția utilajelor din alimentar, reciclare, chimie și prelucrarea metalelor, plus sisteme de ridicare magnetică și instrumente de măsurare a câmpului magnetic pentru verificarea periodică a echipamentelor deja instalate.`,
     whyChoose: [
-      "Gamă completă de la magneți permanenți din neodim sau ferită până la separatoare industriale complete, sub același producător",
+      "Gamă de la magneți permanenți din neodim sau ferită până la separatoare industriale complete, sub același producător",
       "Producător certificat ISO 9001 și ISO 14001, relevant pentru achiziții industriale cu cerințe de calitate",
       "Seria Cleanflow acoperă variante statice și rotative, manuale sau automate, pentru materiale în cădere liberă",
       "Separatoare cu curenți turbionari EddyXpert și EddyFines pentru recuperarea metalelor neferoase din deșeuri, nu doar fier",
@@ -584,7 +584,7 @@ Ampco oferă pompe sanitare pentru industria alimentară, a băuturilor, chimic�
 Pentru instalații din România, Ampco Pumps înseamnă acces la pompe sanitare de la un producător certificat ISO 9001:2015, pentru industria alimentară, lactate, băuturi și producție de bere artizanală, acolo unde curățarea CIP și igiena echipamentului contează la fel de mult ca performanța hidraulică.`,
     whyChoose: [
       "Producător american din 1948, cu certificare ISO 9001:2015, cu pompe sanitare, marine și industriale în portofoliu",
-      "Gamă completă — volumetrică cu lobi (ZP), centrifugă (AC, H, L, M) și șurub dublu (SLH)",
+      "Gamă — volumetrică cu lobi (ZP), centrifugă (AC, H, L, M) și șurub dublu (SLH)",
       "Serie dedicată berăriilor artizanale (CB+), nu doar pompe generice adaptate pentru alimentar",
       "Pompe sanitare pentru industriile alimentară, a băuturilor, chimică și farmaceutică",
       "Portofoliu extins dincolo de pompe — mixere, omogenizatoare, sisteme de descărcare a butoaielor",

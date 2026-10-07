@@ -318,7 +318,7 @@ Pentru instalații din HVAC, manipulare materiale sau industria alimentară din 
       { code: "Motori con accoppiamento diretto", description: "motoare cu cuplaj direct pentru ascensoare" }
     ],
     faq: [
-      { q: "Ce clase de eficiență acoperă gama Lafert?", a: "Lafert acoperă tot spectrul, de la motoare asincrone IE2 și IE3 până la motoare sincrone cu magneți permanenți IE4 și IE5, ultima fiind clasa de eficiență ultra-premium pentru funcționare continuă." },
+      { q: "Ce clase de eficiență acoperă gama Lafert?", a: "Gama Lafert include motoare asincrone IE2 și IE3 și motoare sincrone cu magneți permanenți IE4 și IE5, ultima fiind clasa de eficiență ultra-premium pentru funcționare continuă." },
       { q: "Ce este pachetul HP Combi de la Lafert?", a: "HP Combi este un ansamblu integrat care combină motorul cu variatorul de frecvență într-o singură unitate, reducând spațiul de montaj și simplificând cablarea față de componentele cumpărate și instalate separat." },
       { q: "Livrați motoare Lafert în România și cât durează?", a: "Aducem motoare Lafert la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de seria și clasa de eficiență solicitate." },
       { q: "Ce trebuie să trimit pentru o ofertă de motor Lafert?", a: "Precizați clasa de eficiență dorită (de la IE2 la IE5), puterea în kW, tensiunea de alimentare și dacă aveți nevoie de un motor simplu sau de un pachet integrat motor-variator." },
@@ -539,7 +539,7 @@ Pentru instalații din industrie, ambalare sau manipulare materiale din România
       "Peste 60 de ani de activitate în construcția de reductoare și motoreductoare"
     ],
     keyProducts: [
-      { name: "Reductoare melcate RS-RT", description: "Reductoare melcate, soluția clasică și cea mai răspândită din gamă, pentru rapoarte de reducere mari într-un gabarit compact, cu variante RS și RT după configurația constructivă." },
+      { name: "Reductoare melcate RS-RT", description: "Reductoare melcate, soluția clasică din gamă, pentru rapoarte de reducere mari într-un gabarit compact, cu variante RS și RT după configurația constructivă." },
       { name: "Reductoare planetare RG", description: "Reductoare planetare cu joc unghiular redus, pentru aplicații care cer poziționare precisă și rigiditate mecanică ridicată, superioare reductoarelor melcate din acest punct de vedere." },
       { name: "Reductoare unghiulare RV", description: "Reductoare unghiulare cu roți conice și elicoidale în trei trepte, pentru transmisii la 90 de grade unde e nevoie de raport de reducere mare și randament mai bun decât la melcat." },
       { name: "Variatoare de viteză VR-VS", description: "Variatoare mecanice de viteză, în variantă cu fricțiune uscată (VR) sau planetară (VS), pentru reglarea turației de ieșire fără electronică de control suplimentară." }

@@ -7,7 +7,7 @@ export const brandContentBatch45 = {
     headquarters: "Osaka, Japonia",
     overview: `IDEC este un producător japonez cu sediul la Osaka, prezent din 1945 în automatizările de talie mică pentru panourile de comandă industriale. Gama de bază cuprinde relee, butoane de comandă și lămpi de semnalizare, controlere programabile compacte, panouri HMI cu ecran tactil și senzori de siguranță, toate gândite pentru montaj direct pe fața tabloului electric. Din portofoliul IDEC putem oferta componentele curente de panou — de la butonul de pornire/oprire până la interfața om-mașină pentru operatorul de linie.
 
-Spre deosebire de producătorii care acoperă tot spectrul de automatizare industrială grea, IDEC rămâne concentrat pe componentele de interfață om-mașină și pe siguranța mașinilor. Panourile HMI din seriile FT2J și HG2J vin cu ecran tactil capacitiv multi-touch, iar scannerul de siguranță SE2L este construit pentru medii industriale dure, cu zone de detecție reconfigurabile pentru protecția operatorului lângă utilaj.
+IDEC este concentrat pe componentele de interfață om-mașină și pe siguranța mașinilor. Panourile HMI din seriile FT2J și HG2J vin cu ecran tactil capacitiv multi-touch, iar scannerul de siguranță SE2L este construit pentru medii industriale dure, cu zone de detecție reconfigurabile pentru protecția operatorului lângă utilaj.
 
 Pentru piața din România, IDEC are sens acolo unde se retehnologizează un panou de comandă existent sau se construiește unul nou și se caută componente compacte, ușor de integrat, pentru butoane, semnalizare și interfața cu operatorul — fără să fie nevoie de un automat programabil complex pentru fiecare stație de lucru.`,
     whyChoose: [
@@ -460,7 +460,7 @@ ETI se poziționează pe segmentul de protecții electrice modulare alături de 
 
 Pentru piața din România, ETI are sens la tablourile electrice noi sau modernizate din instalațiile fotovoltaice, stațiile de stocare cu baterii și infrastructura de încărcare EV, unde protecțiile trebuie dimensionate specific pentru curent continuu de tensiune mare, nu doar pentru circuitele clasice de curent alternativ.`,
     whyChoose: [
-      "Gamă completă de protecții modulare — siguranțe, întrerupătoare, descărcătoare și contactoare — de la un singur producător",
+      "Gamă de protecții modulare — siguranțe, întrerupătoare, descărcătoare și contactoare — de la un singur producător",
       "Siguranțe și descărcătoare certificate pentru instalații fotovoltaice de curent continuu până la 1.500V",
       "Siguranțe speciale pentru protecția sistemelor cu baterii și a infrastructurii de e-mobilitate",
       "Producător european de echipamente electrice de joasă tensiune, cu sediul la Izlake, Slovenia",
@@ -584,7 +584,7 @@ Pentru instalațiile din România, Ecoflam are sens la centralele termice indust
       "Producător specializat exclusiv pe tehnologii de combustie, integrat într-un grup mare din echipamente termice (Ariston)",
       "Game separate pentru gaz (BLU), combustibil lichid (OILFLAM) și combustibil greu (MAXFLAM)",
       "Parte a grupului Ariston, divizia de tehnologii de combustie",
-      "Poziționare de nișă în arzătoare, nu în gama completă de echipamente termice, ceea ce înseamnă focus tehnic pe combustie"
+      "Poziționare de nișă în arzătoare, ceea ce înseamnă focus tehnic pe combustie"
     ],
     keyProducts: [
       { name: "Arzătoare pe combustibil greu seria MAXFLAM", description: "Arzătoare pentru combustibil greu, destinate cazanelor și generatoarelor de căldură industriale; de exemplu, MAXFLAM 30 AB funcționează în două trepte, între 205 și 410 kW. Se aleg în funcție de puterea termică necesară a cazanului și tipul de combustibil disponibil la locul de instalare. Pentru ofertă, clientul trebuie să trimită puterea termică a cazanului (kW) și tipul exact de gaz utilizat." },
@@ -956,18 +956,18 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
     headquarters: "Horjul, Slovenia",
     overview: `Metrel este un producător sloven de aparate pentru testarea și verificarea instalațiilor electrice, cu sediul la Horjul, lângă Ljubljana. Gama acoperă testere multifuncționale pentru instalații electrice, analizoare de calitate a energiei, testere PAT pentru echipamente portabile și testere dedicate echipamentelor medicale, alături de multimetre digitale, clești ampermetrici și camere termice. Din portofoliul Metrel putem oferta aparate de testare pentru electricienii autorizați și laboratoarele de verificări periodice, în funcție de tipul de instalație verificat.
 
-Seria EurotestXD (model MI 3155) și EurotestXC (MI 3152) sunt testere multifuncționale pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitate, curent de defect, impedanță de buclă — iar seria EurotestEASI (MI 3107) acoperă verificările de bază la un preț de intrare mai accesibil. Produsele sunt construite pentru conformitate cu seria de standarde IEC 61557 pentru testarea instalațiilor electrice.
+Seria EurotestXD (model MI 3155) și EurotestXC (MI 3152) sunt testere multifuncționale pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitate, curent de defect, impedanță de buclă — iar seria EurotestEASI (MI 3107) acoperă verificările de bază. Produsele sunt construite pentru conformitate cu seria de standarde IEC 61557 pentru testarea instalațiilor electrice.
 
 Pentru piața din România, Metrel are sens la firmele de electricieni autorizați ANRE și laboratoarele de verificări periodice PRAM, unde aparatul de testare trebuie să acopere toate probele cerute de normativul de verificare a instalațiilor electrice.`,
     whyChoose: [
-      "Gamă completă de testere pentru instalații electrice — de la verificarea de bază la analiza calității energiei",
+      "Gamă de testere pentru instalații electrice — de la verificarea de bază la analiza calității energiei",
       "Testere multifuncționale EurotestXD/XC pentru toate probele cerute la recepția și verificarea periodică a instalațiilor",
       "Produse construite pentru conformitate cu seria de standarde IEC 61557 privind testarea instalațiilor electrice",
       "Testere PAT dedicate pentru verificarea periodică a echipamentelor electrice portabile"
     ],
     keyProducts: [
       { name: "Tester multifuncțional EurotestXD (MI 3155)", description: "Tester multifuncțional de vârf al gamei pentru verificarea completă a instalațiilor electrice — rezistență de izolație, continuitatea legăturii de protecție, impedanța buclei de defect, curentul de declanșare al protecțiilor diferențiale — cu memorare a rezultatelor pentru raportul de verificare. Se folosește la recepția instalațiilor noi și la verificările periodice impuse de normativele electrice. Pentru ofertă, clientul trebuie să confirme dacă are nevoie de accesorii suplimentare (sonde, adaptoare) pe lângă unitatea de bază." },
-      { name: "Tester multifuncțional EurotestEASI Touch (MI 3107)", description: "Tester multifuncțional cu ecran tactil pentru verificările de bază ale instalațiilor electrice, gândit ca variantă mai accesibilă pentru electricienii care nu au nevoie de toate funcțiile testerelor de vârf ale gamei. Acoperă probele uzuale de rezistență de izolație, continuitate și curent de declanșare diferențial. Clientul trebuie să precizeze standardul de verificare aplicabil (de exemplu, instalații casnice sau industriale)." },
+      { name: "Tester multifuncțional EurotestEASI Touch (MI 3107)", description: "Tester multifuncțional cu ecran tactil pentru verificările de bază ale instalațiilor electrice, gândit pentru electricienii care nu au nevoie de toate funcțiile celorlalte testere ale gamei. Acoperă probele uzuale de rezistență de izolație, continuitate și curent de declanșare diferențial. Clientul trebuie să precizeze standardul de verificare aplicabil (de exemplu, instalații casnice sau industriale)." },
       { name: "Analizor de calitate a energiei Power Master (MI 2892/MI 2992)", description: "Analizor de calitate a energiei electrice pentru măsurarea armonicilor, dezechilibrului de fază și a altor parametri ai rețelei, folosit la depanarea problemelor de calitate a energiei în instalații industriale sau comerciale. Se folosește tipic acolo unde apar defecțiuni repetate de echipamente sau consum anormal de energie fără o cauză evidentă. Pentru ofertă, clientul trebuie să precizeze tipul de rețea (monofazată/trifazată) și durata de monitorizare dorită." },
       { name: "Tester PAT OmegaEE XD (MI 3365)", description: "Tester pentru verificarea periodică a siguranței echipamentelor electrice portabile (PAT), folosit de firmele de mentenanță și service pentru a documenta conformitatea sculelor electrice, prelungitoarelor și aparaturii mobile dintr-o companie. Se folosește la verificările periodice cerute de politicile interne de sănătate și securitate în muncă. Clientul trebuie să precizeze numărul aproximativ de echipamente de testat pe ciclu de verificare." }
     ],

@@ -77,7 +77,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       },
       {
         "code": "AM300",
-        "description": "senzor de calitate a aerului, gamă completă de parametri"
+        "description": "senzor de calitate a aerului, cu mai mulți parametri"
       },
       {
         "code": "EM300-TH",
@@ -992,7 +992,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       "Se compară cu MSA Safety pe segmentul echipamentului complet de protecție pentru cap",
       "Recunoaștere AEO (Authorised Economic Operator — operator economic autorizat), indicată de producător",
       "Protecție respiratorie conformă NIOSH, alături de standardele europene uzuale pentru filtre",
-      "Gamă completă — cap, respirator, ochi, auz, lucru la înălțime — de la un singur producător",
+      "Gamă — cap, respirator, ochi, auz, lucru la înălțime — de la un singur producător",
     ],
     keyProducts: [
       { name: "Căști de Protecție Industrială (EN 397)", description: "Căști de protecție pentru cap, certificate conform standardului european EN 397, folosite pe șantiere de construcții și în industria grea pentru protecție la impact și cădere de obiecte. Sunt disponibile cu accesorii montabile — vizieră, antifoane, lampă frontală — pentru adaptare la riscurile specifice locului de muncă. Materialul carcasei rezistă la variații de temperatură uzuale de șantier. Pentru comandă avem nevoie de mărimea capului și de accesoriile necesare (vizieră, antifoane)." },
@@ -1212,7 +1212,7 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       "Se compară cu WIKA pe segmentul manometrelor, traductoarelor și termometrelor industriale",
       "Garnituri cu diafragmă pentru izolarea manometrului de fluide vâscoase, corozive sau cu particule",
       "Traductoare de presiune cu ieșire electrică standard pentru integrare în sisteme de automatizare",
-      "Gamă completă de instrumente de testare și calibrare pentru verificarea proprie a echipamentelor montate",
+      "Gamă de instrumente de testare și calibrare pentru verificarea proprie a echipamentelor montate",
     ],
     keyProducts: [
       { name: "Manometre Industriale Mecanice", description: "Manometre cu citire directă, mecanice, folosite pentru afișarea locală a presiunii pe conducte, rezervoare sau echipamente sub presiune. Sunt disponibile în variante rezistente la vibrații și șocuri de presiune, relevante la compresoare sau pompe cu funcționare intermitentă. Domeniul de măsură se alege în funcție de presiunea maximă de lucru, nu de presiunea nominală a instalației. Pentru ofertă avem nevoie de domeniul de presiune, tipul de racord și materialul de contact cu fluidul." },

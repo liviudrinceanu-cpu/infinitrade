@@ -169,7 +169,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
     founded: 1907,
     headquarters: 'Göteborg, Suedia',
     employees: '44,000+',
-    overview: `SKF e renumit pentru rulmenți, dar puțină lume știe că suedezii au și una dintre cele mai sofisticate divizii de sisteme de ungere din industrie. SKF Lubrication Systems produce de la simple pompe manuale de gresat până la sisteme complet automatizate care monitorizează, dozează și distribuie lubrifiant către sute de puncte simultan, în funcție de temperatură, viteză, sarcină. E diferența dintre a unge "cam o dată pe lună când ne gândim" și a avea un program precis, controlat electronic, care maximizează durata de viață a echipamentelor și minimizează consumul de lubrifiant.
+    overview: `SKF produce rulmenți, dar suedezii au și o divizie de sisteme de ungere. SKF Lubrication Systems produce de la simple pompe manuale de gresat până la sisteme complet automatizate care monitorizează, dozează și distribuie lubrifiant către sute de puncte simultan, în funcție de temperatură, viteză, sarcină. E diferența dintre a unge "cam o dată pe lună când ne gândim" și a avea un program precis, controlat electronic, care maximizează durata de viață a echipamentelor și minimizează consumul de lubrifiant.
 
 Se montează sisteme SKF Lincoln pe linii de producție unde ungerea manuală era imposibilă (zone fierbinți, înalte, periculoase), cu scopul de a reduce defecțiunile la rulmenți și consumul de unsoare, datorită dozării precise, și de a îmbunătăți timpul de funcționare. Sistemele progresive SKF distribuie cantități exacte de lubrifiant la fiecare punct în ordine secvențială, cu feedback vizual și electric că fiecare ciclu s-a completat corect. Controlerele electronice SKF pot monitoriza presiunea, numărul de cicluri și starea sistemului; funcțiile exacte se confirmă pe model.
 
@@ -526,7 +526,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       'Economii energetice - sistemele Spirax urmăresc reducerea consumului de combustibil prin eliminarea pierderilor de abur, conform producătorului',
       'Fiabilitate și durabilitate ridicate - produse proiectate pentru funcționare îndelungată în condiții grele, conform producătorului',
       'Suport tehnic - documentație, training și servicii oferite de producător, conform condițiilor acestuia',
-      'Gamă completă de soluții - de la generare abur până la utilizare și recuperare condens, totul de la un singur furnizor',
+      'Gamă de soluții - de la generare abur până la utilizare și recuperare condens, totul de la un singur furnizor',
       'Certificări complete - PED, ATEX, FDA, 3-A sanitary pentru aplicații critice'
     ],
 
@@ -710,7 +710,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
 
 Cheile dinamometrice Stahlwille se remarcă prin: mecanism intern robust din oțel forjat (nu turnat), calibrare în fabrică cu echipamente metrologice trasabile PTB (Physikalisch-Technische Bundesanstalt - institutul național metrologic german), clicking mechanism precis și repeatabilitate în limitele specificate de producător chiar și după zeci de mii de cicluri.
 
-Dar Stahlwille nu e doar dinamometrice - au gamă completă de tubulare industriale (seturi organizate în cutii), chei inelare și combinate (OPEN-BOX cu design deschidere 15° pentru unghi mic de lucru), torx-uri și hex cu tratament special anti-slipping, biți pentru înșurubătoare cu impact. Totul ambalat în cutii metalice sau polymer de înaltă rezistență, cu seriale individuale pentru calibrare și verificare periodică. Investiție pentru decenii, nu consumabile de o dată.`,
+Dar Stahlwille nu e doar dinamometrice - au o gamă de tubulare industriale (seturi organizate în cutii), chei inelare și combinate (OPEN-BOX cu design deschidere 15° pentru unghi mic de lucru), torx-uri și hex cu tratament special anti-slipping, biți pentru înșurubătoare cu impact. Totul ambalat în cutii metalice sau polymer de înaltă rezistență, cu seriale individuale pentru calibrare și verificare periodică. Investiție pentru decenii, nu consumabile de o dată.`,
 
     whyChoose: [
       'Precizie metrologică germană - toleranțe strânse, calibrare trasabilă, certificate individuale pentru fiecare instrument',
@@ -876,7 +876,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul in
       },
       {
         name: 'Conectori Board-to-Board și Wire-to-Board',
-        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH: headere PCB cu carcasă (shrouded) pe pas de 2,54 mm, cu retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama completă: 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
+        description: `Conectorii TE pentru interconectare plăci PCB (board-to-board) și cabluri către plăci (wire-to-board) sunt esențiali în electronice moderne. Seria Micro-MaTch pentru wire-to-board high-density: pitch 1.27mm, 4-40 pini, IDC termination (Insulation Displacement Contact) pentru montaj rapid fără solder, retention clips pentru fixing robust pe PCB. Curent 1A/pin, tensiune rating 125V AC. Aplicații: aparatură medicală, telecom, industrial control. Seria AMP-LATCH: headere PCB cu carcasă (shrouded) pe pas de 2,54 mm, cu retenție mecanică prin latch. Contacte aurite 3-50 microinches pentru rezistență la coroziune în medii umede sau saline. Rezistență la vibrații conform USCAR-2 automotive standard. Seria AMPMODU pentru aplicații generale: pitch 2.54mm sau 1.27mm, straight/right-angle, PCB through-hole sau SMT. Variante cu polarizare mecanică pentru prevenire inversare polaritate. Gama include 2-100 pini per conector, shrouded/unshrouded, locking/non-locking. Aplicații: industrial automation, consumer electronics, automotive infotainment, IoT devices.`
       }
     ],
 
@@ -1442,7 +1442,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       },
       {
         "q": "Livrați rulmenți Timken în România?",
-        "a": "Da, comandăm rulmenți Timken pornind de la fișele publice de produs ale producătorului, fără evidențe interne de stoc pe gama completă. Perioada uzuală este de 1–4 săptămâni de la confirmarea comenzii, în funcție de dimensiune și de disponibilitatea la fabrică. Codul exact al rulmentului trebuie confirmat înainte de comandă."
+        "a": "Da, comandăm rulmenți Timken pornind de la fișele publice de produs ale producătorului, fără evidențe interne de stoc pe această gamă. Perioada uzuală este de 1–4 săptămâni de la confirmarea comenzii, în funcție de dimensiune și de disponibilitatea la fabrică. Codul exact al rulmentului trebuie confirmat înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rulment conic Timken?",
@@ -1473,7 +1473,7 @@ Dar Trane nu oferă doar echipamente - oferă și servicii de energy audit, buil
       'Eficiență energetică ridicată - IPLV (Integrated Part Load Value) bun datorită VSD și multiple stagii',
       'Fiabilitate și durată de viață lungă - MTBF ridicat, conform producătorului, contracte de service disponibile pe termen lung',
       'Automatizare inteligentă - platforma Tracer pentru control, monitoring și optimizare clădiri',
-      'Gamă completă HVAC - de la chillere până la AHU, fan-coils, VRF, pompe căldură într-un ecosistem unificat',
+      'Gamă HVAC - de la chillere până la AHU, fan-coils, VRF, pompe căldură într-un ecosistem unificat',
       'Service și suport global - Trane România cu ingineri și tehnicieni locali pentru rapiditate intervențiilor'
     ],
 
@@ -1605,7 +1605,7 @@ Dar Trane nu oferă doar echipamente - oferă și servicii de energy audit, buil
       },
       {
         "q": "Livrați echipamente Trane în România?",
-        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru gama completă. Pentru chillere termenele sunt de regulă peste 4 săptămâni, iar pentru unitățile rooftop de regulă 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate; codul unității trebuie confirmat înaintea plasării comenzii."
+        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru această gamă. Pentru chillere termenele sunt de regulă peste 4 săptămâni, iar pentru unitățile rooftop de regulă 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate; codul unității trebuie confirmat înaintea plasării comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rooftop Trane Voyager?",
