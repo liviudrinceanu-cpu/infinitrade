@@ -23,7 +23,7 @@ export const brandSeoMeta = {
   },
   "ace-controls": {
     title: "ACE Controls România – amortizoare industriale | Infinitrade",
-    description: "Amortizoare industriale MC5–MC600, autocompensante SC33 și SC45, arcuri cu gaz și frâne rotative ACE, produse în Germania. Precizați cursa și energia.",
+    description: "Amortizoare industriale MC5–MC600, autocompensante SC33 și SC45, arcuri cu gaz și frâne rotative ACE, grupul Stabilus. Precizați cursa și energia.",
   },
   "additel": {
     title: "Additel România – calibratoare de presiune | Infinitrade",
@@ -31,7 +31,7 @@ export const brandSeoMeta = {
   },
   "afriso": {
     title: "Afriso România – manometre și termometre | Infinitrade",
-    description: "Manometre, termometre, analizoare de gaze de ardere EUROLYZER S1 și contoare Afriso (Güglingen, din 1869). Din stoc în 24–72 h; scrieți tipul aparatului.",
+    description: "Manometre, termometre, analizoare de gaze de ardere EUROLYZER S1 și contoare Afriso (din 1869, azi la Güglingen). Din stoc în 24–72 h; scrieți tipul.",
   },
   "aim-tti": {
     title: "Aim-TTi România – surse de alimentare DC | Infinitrade",
@@ -155,7 +155,7 @@ export const brandSeoMeta = {
   },
   "brinkmann": {
     title: "Brinkmann România – pompe de imersie | Infinitrade",
-    description: "Pompe de imersie pentru lichide de răcire la mașini-unelte, seriile TB, TA și TE, Brinkmann (Werdohl, din 1950). Trimiteți codul pompei.",
+    description: "Pompe de imersie pentru lichide de răcire la mașini-unelte, seriile TB, TA și TE, Brinkmann (Werdohl, Germania). Trimiteți codul pompei.",
   },
   "brook": {
     title: "Brook Crompton România – motoare ATEX | Infinitrade",
@@ -167,7 +167,7 @@ export const brandSeoMeta = {
   },
   "bucher-hydraulics": {
     title: "Bucher Hydraulics România – pompe hidraulice | Infinitrade",
-    description: "Pompe cu roți dințate interioare QX, pompe cu pistoane axiale AX, valve direcționale și grupuri hidraulice Bucher (Elveția, din 1923). Trimiteți codul.",
+    description: "Pompe cu roți dințate interioare QX, pompe cu pistoane axiale AX și valve direcționale Bucher Hydraulics (grupul elvețian Bucher Industries).",
   },
   "burkert": {
     title: "Bürkert România – electrovalve și debitmetre | Infinitrade",
@@ -195,7 +195,7 @@ export const brandSeoMeta = {
   },
   "ceccato": {
     title: "Ceccato România – compresoare cu șurub | Infinitrade",
-    description: "Compresoare cu șurub seria DRF și DRA–DRC, compresoare cu piston și fără ulei Ceccato (Robassomero, lângă Torino, din 1936). Ofertă pe cod, cu termen.",
+    description: "Compresoare cu șurub seria DRF și DRA–DRC, compresoare cu piston și fără ulei Ceccato (Vicenza, din 1936), grupul Atlas Copco. Ofertă pe cod, cu termen.",
   },
   "ceme": {
     title: "CEME România – electrovalve | Infinitrade",
@@ -215,7 +215,7 @@ export const brandSeoMeta = {
   },
   "cimberio": {
     title: "Cimberio România – robineți cu bilă din alamă | Infinitrade",
-    description: "Robineți cu bilă CimPress 1220NL, valve de echilibrare termostatică 778 și robineți de gaz Cimberio (Novara, din 1927). Trimiteți codul robinetului.",
+    description: "Robineți cu bilă CimPress 1220NL, valve de echilibrare termostatică 778 și robineți de gaz Cimberio (Novara, din 1957). Trimiteți codul robinetului.",
   },
   "clint": {
     title: "Clint România – chillere industriale | Infinitrade",
@@ -223,7 +223,7 @@ export const brandSeoMeta = {
   },
   "comark": {
     title: "Comark România – termometre și data loggere | Infinitrade",
-    description: "Termometre industriale, sonde interschimbabile și data loggere Diligence Comark (Norwich, din 1961). Pentru sonde din stoc, 24–72 h; cereți ofertă.",
+    description: "Termometre industriale, sonde interschimbabile și data loggere Diligence Comark (Marea Britanie, din 1961). Pentru sonde din stoc, 24–72 h; cereți ofertă.",
   },
   "control-techniques": {
     title: "Control Techniques România – convertizoare de frecvență",
@@ -239,7 +239,7 @@ export const brandSeoMeta = {
   },
   "daikin": {
     title: "Daikin România – VRV și chillere industriale | Infinitrade",
-    description: "Sisteme VRV IV, chillere EWA-TZ, Sky Air și unități de tratare aer Daikin (Osaka, din 1924). Echipamentele vin la comandă, de regulă în 1–4 săptămâni.",
+    description: "Sisteme VRV, chillere EWAD-TZ și EWAH-TZ, Sky Air și unități de tratare aer Daikin (Osaka, din 1924). La comandă, de regulă în 1–4 săptămâni.",
   },
   "danfoss": {
     title: "Danfoss România – supape și convertizoare VLT | Infinitrade",
@@ -299,7 +299,7 @@ export const brandSeoMeta = {
   },
   "ebro-electronic": {
     title: "ebro România – dataloggere de temperatură | Infinitrade",
-    description: "Dataloggere EBI 20, EBI 11 și EBI 300 și termometre portabile TLC ebro (Weilheim), din portofoliul Xylem Analytics. Stocul se livrează în 24–72 h.",
+    description: "Dataloggere EBI 20, EBI 11 și EBI 300 și termometre portabile TLC ebro (Ingolstadt), din portofoliul Xylem Analytics. Stocul se livrează în 24–72 h.",
   },
   "electroprecizia": {
     title: "Electroprecizia România – motoare electrice | Infinitrade",
@@ -323,11 +323,11 @@ export const brandSeoMeta = {
   },
   "end": {
     title: "END-Armaturen România – robineți cu bilă | Infinitrade",
-    description: "Robineți cu bilă din inox și alamă, fluture și pentru manifold (Bad Oeynhausen, din 1985). Dacă sunt în stoc, 24–72 h; precizați diametrul și materialul.",
+    description: "Robineți cu bilă din inox și alamă, fluture și pentru manifold (Bad Oeynhausen, Germania). Dacă sunt în stoc, 24–72 h; precizați diametrul și materialul.",
   },
   "enersys": {
     title: "EnerSys România – baterii industriale | Infinitrade",
-    description: "Baterii NexSys și IRONCLAD pentru manipulare, rezervă PowerSafe și DataSafe (Reading, SUA, din 1999). Pentru termen, trimiteți tensiunea și capacitatea.",
+    description: "Baterii NexSys și IRONCLAD pentru manipulare, rezervă PowerSafe și DataSafe (Reading, SUA). Pentru termen, trimiteți tensiunea și capacitatea.",
   },
   "esab": {
     title: "ESAB România – aparate de sudură și tăiere | Infinitrade",
@@ -359,7 +359,7 @@ export const brandSeoMeta = {
   },
   "festo": {
     title: "Festo România – pneumatică și automatizări | Infinitrade",
-    description: "Cilindri pneumatici DSBC și DNCE, terminale de valve CPV și MPA, unități de pregătire a aerului Festo (Esslingen, din 1925). Livrăm din stoc, în 24–72 h.",
+    description: "Cilindri pneumatici DSBC și DNC, terminale de valve CPV și MPA, unități de pregătire a aerului Festo (Esslingen, din 1925). Livrăm din stoc, în 24–72 h.",
   },
   "finder": {
     title: "Finder România – relee și temporizatoare | Infinitrade",
@@ -411,7 +411,7 @@ export const brandSeoMeta = {
   },
   "gestra": {
     title: "GESTRA România – oale de condens | Infinitrade",
-    description: "Oale de condens UNA cu plutitor și MK cu membrană, senzori de nivel NRG (Bremen, din 1885). Din stoc în 24–72 h, altfel la comandă. Trimiteți tipul.",
+    description: "Oale de condens UNA cu plutitor și MK cu membrană, senzori de nivel NRG (Bremen, din 1902). Din stoc în 24–72 h, altfel la comandă. Trimiteți tipul.",
   },
   "goudsmit-magnetics": {
     title: "Goudsmit Magnetics România – separatoare magnetice",
@@ -455,7 +455,7 @@ export const brandSeoMeta = {
   },
   "hoerbiger": {
     title: "Hoerbiger România – valve pentru compresoare | Infinitrade",
-    description: "Valve XP, CP și HPV pentru compresoare cu piston, plus control HydroCOM, de la Hoerbiger (Viena, din 1896). La comandă; ofertă pe codul valvei.",
+    description: "Valve XP, CP și HPV pentru compresoare cu piston, plus control HydroCOM, de la Hoerbiger, grup cu origini în 1895. La comandă; ofertă pe codul valvei.",
   },
   "honeywell": {
     title: "Honeywell România – transmițătoare SmartLine | Infinitrade",
@@ -463,7 +463,7 @@ export const brandSeoMeta = {
   },
   "honeywell-safety": {
     title: "Honeywell Safety România – protecția muncii | Infinitrade",
-    description: "Mănuși rezistente la tăiere, ochelari Uvex Genesis și harnașamente anti-cădere Miller Titan. Mănușile și ochelarii din stoc: 24–72 h; precizați mărimea.",
+    description: "Ochelari Uvex Genesis, harnașamente Miller Titan și mănuși anti-tăiere din gama Honeywell Safety, preluată în 2025 de PIP. Precizați mărimea.",
   },
   "hsd": {
     title: "HSD România – electrospindle pentru mașini CNC | Infinitrade",
@@ -527,7 +527,7 @@ export const brandSeoMeta = {
   },
   "kaeser": {
     title: "Kaeser România – compresoare cu șurub | Infinitrade",
-    description: "Compresoare cu șurub CSD și CSDX de 18,5–110 kW, modele până la 515 kW și pompe de vid Kaeser (Coburg, din 1919). Termenul vine cu oferta; cereți ofertă.",
+    description: "Compresoare cu șurub CSD și CSDX de 18,5–110 kW și pompe de vid Kaeser (Coburg, din 1919). Cereți ofertă pe cod, cu termen inclus.",
   },
   "karcher-industrial": {
     title: "Kärcher România – aspiratoare industriale | Infinitrade",
@@ -563,7 +563,7 @@ export const brandSeoMeta = {
   },
   "kewtech": {
     title: "Kewtech România – testere electrice | Infinitrade",
-    description: "Testere multifuncționale KT63DL–KT66EVA, testere PAT SMARTPAT și clești ampermetrici Kewtech, producător britanic din 2004. Din stoc, în 24–72 h.",
+    description: "Testere multifuncționale KT63DL–KT66EVA, testere PAT SMARTPAT și clești ampermetrici Kewtech, producător britanic. Din stoc, în 24–72 h.",
   },
   "klaus-union": {
     title: "Klaus Union România – pompe cu cuplaj magnetic | Infinitrade",
@@ -631,7 +631,7 @@ export const brandSeoMeta = {
   },
   "megger": {
     title: "Megger România – testere de izolație | Infinitrade",
-    description: "Testere de izolație MIT5252, tester multifuncțional MFT-X1 și sisteme TRAX pentru transformatoare Megger (Dover, din 1889). Livrare 24–72 h când e în stoc.",
+    description: "Testere de izolație MIT525 și MIT1025, tester multifuncțional MFT-X1 și sisteme TRAX pentru transformatoare Megger (Dover, din 1889). Din stoc în 24–72 h.",
   },
   "metal-work": {
     title: "Metal Work România – cilindri pneumatici | Infinitrade",
@@ -731,7 +731,7 @@ export const brandSeoMeta = {
   },
   "pressol": {
     title: "Pressol România – pompe de gresat și ungere | Infinitrade",
-    description: "Pompe de gresat, recipiente pentru lubrifianți și echipamente AdBlue Pressol, producător german din 1914. Precizați echipamentul; termen în ofertă.",
+    description: "Pompe de gresat, recipiente pentru lubrifianți și echipamente AdBlue Pressol, producător german. Precizați echipamentul; termen în ofertă.",
   },
   "prosoft-technology": {
     title: "ProSoft Technology România – gateway-uri industriale",
@@ -899,7 +899,7 @@ export const brandSeoMeta = {
   },
   "thomson-industries": {
     title: "Thomson România – ghidaje și actuatoare | Infinitrade",
-    description: "Actuatoare Electrak XD și HD, ghidaje Ball Bushing și RoundRail, coloane de ridicare Thomson (Downers Grove). Scrieți-ne cursa și sarcina.",
+    description: "Actuatoare Electrak XD și HD, ghidaje Ball Bushing și RoundRail, coloane de ridicare Thomson. Scrieți-ne cursa și sarcina.",
   },
   "toray-membrane": {
     title: "Toray Membrane România – membrane de osmoză inversă",
@@ -919,7 +919,7 @@ export const brandSeoMeta = {
   },
   "univer": {
     title: "Univer România – cilindri și electrovalve | Infinitrade",
-    description: "Cilindri ISO 15552 seria L, ovali OV, electrovalve poppet AG și grupuri de tratare a aerului Univer (Bione, din 1971). Livrare la comandă, 1–4 săptămâni.",
+    description: "Cilindri ISO 15552 seria L, ovali OV, electrovalve poppet AG și grupuri de tratare a aerului Univer (Italia, din 1971). Livrare la comandă, 1–4 săptămâni.",
   },
   "vem": {
     title: "VEM România – motoare electrice antiexplozive | Infinitrade",
@@ -963,6 +963,6 @@ export const brandSeoMeta = {
   },
   "zkl": {
     title: "ZKL România – rulmenți cu bile și role | Infinitrade",
-    description: "Rulmenți radiali cu bile, oscilanți, cu role cilindrice și conice, rulmenți despicați sau izolați electric ZKL (ceh, din 1921). Scrieți-ne seria.",
+    description: "Rulmenți radiali cu bile, oscilanți, cu role cilindrice și conice, rulmenți despicați sau izolați electric ZKL, producător ceh. Scrieți-ne seria.",
   },
 };
