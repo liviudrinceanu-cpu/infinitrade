@@ -1173,61 +1173,48 @@ Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar �
     founded: '',
     headquarters: 'SUA (gama de filtrare hidraulică Vickers, divizie Eaton)',
     employees: '92,000+ (Eaton Corporation)',
-    overview: `Eaton a vândut în 2021 afacerea de hidraulică (pompe, motoare, valve, cilindri) către Danfoss. Gama pe care Eaton o publică în prezent sub numele Vickers este cea de filtrare hidraulică: filtre de retur, filtre de presiune, filtre spin-on, sorburi de aspirație și breathere, conform catalogului Vickers Filtration. Descrierile de mai jos pentru pompe, motoare, valve și cilindri provin din istoricul brandurilor Vickers și Char-Lynn; parametrii tehnici se confirmă pe cod, din documentația producătorului actual al fiecărei game.
+    overview: `Eaton a vândut în 2021 afacerea de hidraulică (pompe, motoare, valve, cilindri) către Danfoss, așa că aceste produse nu mai fac parte din gama Eaton. Eaton a păstrat filtrarea hidraulică, publicată în continuare sub numele Vickers: filtre de retur, filtre de presiune, filtre spin-on, sorburi de aspirație și breathere, conform catalogului Vickers Filtration.
 
-Pompele Vickers PVH sunt pompe cu pistoane cu cilindree variabilă, iar motoarele Char-Lynn sunt motoare hidraulice orbitale cu cuplu ridicat la turație mică. Eficiența, presiunea și cuplul depind de model și se confirmă pe cod.
-
-Valvele electrohidraulice proporționale permit comanda poziției și vitezei cilindrilor; timpul de răspuns, histerezisul și repetabilitatea depind de model și se confirmă pe cod. Când construiți o mașină care trebuie să funcționeze 10,000 ore pe an în condiții grele, când precizia hidraulică face diferența între profit și pierdere, alegeți Eaton Hydraulics.`,
+Pentru aceste familii de filtrare, parametrii tehnici (debit, presiune, grad de filtrare, elemente filtrante compatibile) diferă de la un cod la altul și se confirmă pe cod, din documentația Eaton. Pentru pompe, motoare, valve și cilindri hidraulici vechi marca Vickers sau Char-Lynn, documentația și piesele se solicită de la producătorul actual al fiecărei game.`,
     whyChoose: [
-      'Pompe Vickers PVH cu cilindree variabilă - Parametrii (presiune, eficiență, comandă) depind de model și se confirmă pe cod',
-      'Motoare Char-Lynn orbitale - Cuplu ridicat la turație mică; cilindreea și cuplul depind de model și se confirmă pe cod',
-      'Valve proporționale - Timpul de răspuns și tipul de comandă electronică depind de model și se confirmă pe cod',
-      'Tehnologie Load Sensing - Pompele cu load sensing furnizează debitul cerut de sarcină; economia de energie depinde de instalație',
-      'Filtrare hidraulică Vickers - Filtre de retur, de presiune, spin-on, sorburi de aspirație și breathere, conform catalogului Vickers Filtration',
+      'Filtre de retur - montate pe conducta de retur sau pe rezervor; debitul și gradul de filtrare depind de model și se confirmă pe cod',
+      'Filtre de presiune - protejează componentele din aval; presiunea maximă depinde de serie și se confirmă pe cod',
+      'Filtre spin-on - variantă compactă cu cartuș înșurubat; debitul depinde de model și se confirmă pe cod',
+      'Sorburi de aspirație și breathere - protecția aspirației pompei și a aerului admis în rezervor, conform catalogului Vickers Filtration',
       'Certificările depind de produs și se confirmă pe cod, din documentația producătorului'
     ],
     keyProducts: [
       {
-        name: 'Pompe cu pistoane Vickers PVH',
-        description: `Pompele Vickers PVH sunt pompe cu pistoane axiale cu cilindree variabilă pentru hidraulică industrială și mobilă. Gama de cilindree, presiunea, turația, tipurile de comandă și intervalele de service depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
+        name: 'Filtre hidraulice de retur',
+        description: `Filtrele de retur (de exemplu HV3R și HF4RT în catalogul Vickers Filtration) se montează pe conducta de retur sau pe rezervor. Debitul maxim, gradul de filtrare, indicatorul de colmatare și elementele filtrante compatibile diferă de la un model la altul; le confirmăm pe cod, din documentația Eaton.`
       },
       {
-        name: 'Motoare Hidraulice Char-Lynn Orbitale',
-        description: `Motoarele Char-Lynn sunt motoare hidraulice orbitale (gerotor) cu cuplu mare la turație mică. Cilindreea, cuplul, presiunea, turația maximă și intervalele de mentenanță depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
+        name: 'Filtre hidraulice de presiune',
+        description: `Filtrele de presiune (familiile HF2P, HF3P, HF4P, MF2P și ECF din catalogul Vickers Filtration) se montează în circuit pentru protejarea componentelor din aval. Presiunea maximă, debitul și gradul de filtrare diferă după serie și model; le confirmăm pe cod, din documentația Eaton.`
       },
       {
-        name: 'Valve proporționale electrohidraulice CMA',
-        description: `Valvele CMA sunt valve direcționale proporționale pentru hidraulica mobilă. Numărul de secțiuni, debitul, presiunea și tensiunea bobinelor depind de model și se confirmă pe cod, din documentația producătorului actual al gamei.`
+        name: 'Filtre spin-on',
+        description: `Filtrele spin-on (de exemplu OFRS 15 și HS22) au cartuș înșurubat pe un cap de montare. Debitul, presiunea de lucru și cartușul de schimb diferă după model; le confirmăm pe cod, din documentația Eaton.`
       },
       {
-        name: 'Cilindri Hidraulici Seria Welded/Tie-Rod',
-        description: `Cilindrii hidraulici sunt disponibili în versiuni sudate (pentru aplicații mobile grele) și cu tiranți (pentru aplicații industriale fixe). Diametrele, cursele, presiunile, garniturile și opțiunile se confirmă pe cod, din documentația producătorului actual al gamei.`
+        name: 'Sorburi de aspirație și breathere',
+        description: `Sorburile de aspirație (de exemplu OF3) protejează aspirația pompei, iar breatherele (BR110, BR210, MBR110, MBR120) filtrează aerul admis în rezervor. Dimensiunile, gradul de filtrare și variantele pentru utilaje mobile diferă după cod; le confirmăm din documentația Eaton.`
       }
     ],
     certifications: [
-      'ISO 9001:2015 - Management calitate producție',
-      'ISO 4406 - Standard de curățenie hidraulică',
-      'ISO 4401 - Mounting interface pentru valve hidraulice',
-      'CE Marking - Conformitate directivă mașini',
-      'Certificările depind de produs și se confirmă pe cod',
-      'SAE Standards - Conectori hidraulici și montare pompe',
-      'NFPA T3.5.1 - Standard cilindri hidraulici SUA',
-      'RoHS - Componente fără substanțe periculoase'
+      'ISO 4406 - Standard de curățenie hidraulică (referință pentru nivelul de contaminare al fluidului)',
+      'Certificările depind de produs și se confirmă pe cod'
     ],
     industries: [
       'Construcții și utilaje de șantier',
       'Agricultură - tractoare și combine',
-      'Silvicultură și forestier',
       'Miniere și cariere',
-      'Waste management - compactoare',
       'Industria siderurgică - laminoare',
       'Mașini-unelte și prese',
-      'Energie regenerabilă - eoliene',
-      'Naval și offshore',
-      'Aviație - sisteme hidraulice aeronave'
+      'Naval și offshore'
     ],
-    infinitrade: `Nu putem confirma stocul exact pentru fiecare componentă Eaton Hydraulics și lucrăm din informațiile publice ale producătorului atunci când descriem pompele Vickers, motoarele Char-Lynn, valvele și cilindrii din gamă. Aducem componentele hidraulice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru pompe mari sau configurații speciale de valve. Pentru o ofertă, trimiteți-ne parametrii circuitului hidraulic (debit, presiune, cursă) sau codul exact al piesei - revenim cu preț și termen de livrare confirmat.`,
-    limitation: 'Nu efectuăm noi reparații sau recondiționare a pompelor și motoarelor hidraulice Eaton - service-ul rămâne în sarcina producătorului sau a unui atelier specializat.',
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare cod de filtrare Eaton și lucrăm din informațiile publice ale producătorului atunci când descriem filtrele de retur, de presiune, spin-on, sorburile și breatherele din gamă. Aducem filtrele la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru configurații speciale. Pentru o ofertă, trimiteți-ne codul exact al filtrului sau al elementului filtrant, ori parametrii circuitului hidraulic (debit, presiune), și revenim cu preț și termen de livrare confirmat.`,
+    limitation: 'Nu furnizăm pompe, motoare, valve sau cilindri hidraulici sub marca Eaton - afacerea de hidraulică a fost vândută către Danfoss în 2021; filtrarea Vickers a rămas la Eaton.',
     sources: [
       {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},
       {"title":"Products | Eaton","url":"https://www.eaton.com/us/en-us/products.html","publisher":"Eaton","accessed":"2026-09-22"},
@@ -1311,8 +1298,8 @@ Valvele electrohidraulice proporționale permit comanda poziției și vitezei ci
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-10-05',
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-08',
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am înlocuit produsele de hidraulică (pompe Vickers PVH, motoare Char-Lynn, valve CMA, cilindri), trecute la Danfoss în 2021, cu familiile de filtrare Eaton (retur, presiune, spin-on, sorburi și breathere).' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'emerson': {

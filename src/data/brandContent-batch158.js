@@ -3,8 +3,8 @@
 export const brandContentBatch158 = {
   'ebro-electronic': {
     name: "ebro",
-    headquarters: "Weilheim, Germania",
-    overview: `ebro este marca germană de aparate de măsură portabile și dataloggere din portofoliul Xylem Analytics Germany, cu sediul la Weilheim, Germania. Compania produce termometre digitale de proces, dataloggere pentru temperatură, umiditate și presiune, senzori dedicați și software pentru evaluarea datelor înregistrate. Gama EBI acoperă loggere de unică folosință pentru lanțul frigorific, dar și sisteme multicanal pentru validarea proceselor termice din producția alimentară și farmaceutică, iar seria TLC de termometre portabile e gândită pentru citiri rapide la linia de producție. Din portofoliul ebro putem oferta atât dataloggerele din familia EBI, cât și termometrele digitale TLC pentru control de calitate.
+    headquarters: "Ingolstadt, Germania",
+    overview: `ebro este marca germană de aparate de măsură portabile și dataloggere din portofoliul Xylem Analytics Germany, cu sediul la Ingolstadt, Germania. Compania produce termometre digitale de proces, dataloggere pentru temperatură, umiditate și presiune, senzori dedicați și software pentru evaluarea datelor înregistrate. Gama EBI acoperă loggere de unică folosință pentru lanțul frigorific, dar și sisteme multicanal pentru validarea proceselor termice din producția alimentară și farmaceutică, iar seria TLC de termometre portabile e gândită pentru citiri rapide la linia de producție. Din portofoliul ebro putem oferta atât dataloggerele din familia EBI, cât și termometrele digitale TLC pentru control de calitate.
 
 Ce diferențiază ebro e integrarea strânsă între hardware și softul de evaluare: loggerele EBI 300 salvează datele direct în format PDF, citibil fără licență suplimentară, ceea ce simplifică arhivarea rapoartelor HACCP. Seria EBI 20 și EBI 12 acoperă variante compacte de monitorizare punctuală, iar EBI 100 și EBI 25 sunt orientate spre trasabilitatea transportului rece. TLC 750i combină sonda pliabilă cu un senzor infraroșu într-un singur corp, util acolo unde un inspector verifică rapid mai multe puncte. 
 
@@ -48,16 +48,17 @@ Pentru piața din România, ebro are sens la unități de procesare alimentară,
       { code: "AG 751", description: "Husă de protecție pentru termometrul TLC 750i" },
     ],
     faq: [
-      { q: "Ce produce ebro?", a: "ebro fabrică dataloggere pentru temperatură, umiditate și presiune (gama EBI) și termometre portabile de proces (gama TLC), destinate monitorizării și documentării condițiilor termice în alimentar, farmaceutic și logistică frigorifică. Compania face parte din grupul Xylem Analytics Germany și are sediul la Weilheim." },
+      { q: "Ce produce ebro?", a: "ebro fabrică dataloggere pentru temperatură, umiditate și presiune (gama EBI) și termometre portabile de proces (gama TLC), destinate monitorizării și documentării condițiilor termice în alimentar, farmaceutic și logistică frigorifică. Compania face parte din grupul Xylem Analytics Germany și are sediul la Ingolstadt." },
       { q: "Cum aleg un datalogger ebro potrivit pentru transport frigorific?", a: "Pentru trasabilitatea unui transport frigorific, familia EBI 300 oferă export direct al raportului în PDF, ușor de arhivat fără software dedicat; EBI 100 sau EBI 25-T acoperă nevoi mai simple, cu descărcare periodică. Alegerea depinde de durata cursei, numărul de citiri necesare și dacă raportul trebuie predat automat clientului final." },
       { q: "Livrați aparate ebro în România și cât durează?", a: "Aducem instrumentele ebro la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru codul solicitat. Nu ținem această gamă pe raft, pentru că portofoliul acoperă multe variante de senzor și memorie." },
       { q: "Ce trebuie să trimit pentru o ofertă de termometru TLC de la ebro?", a: "Trimiteți codul exact al modelului (de exemplu TLC 750i sau TLC 1598), aplicația de măsurat — suprafață, penetrare sau ambele — și cantitatea dorită. Dacă aveți nevoie de accesorii precum husa AG 751, menționați-le separat în cerere." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: sediul ebro este Ingolstadt, nu Weilheim.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      { title: 'ebro Electronic – Company (istoric)', url: 'https://www.ebro.com/en/company', publisher: 'ebro Electronic', accessed: '2026-10-08' },
       { title: "ebro - Hersteller von professionellen Messgeräten", url: "https://www.ebro.com/", publisher: "ebro (Xylem Analytics Germany)", accessed: "2026-09-26" },
       { title: "Data loggers for measuring temperature, pressure and humidity", url: "https://shop.ebro.com/en/product-type/data-loggers/", publisher: "ebro (Xylem Analytics Germany)", accessed: "2026-09-26" },
       { title: "Imprint", url: "https://www.ebro.com/en/imprint/", publisher: "Xylem Analytics Germany Sales GmbH & Co. KG", accessed: "2026-09-26" },

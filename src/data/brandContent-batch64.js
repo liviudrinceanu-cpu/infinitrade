@@ -317,14 +317,13 @@ Pentru instalațiile din România, gama Ringfeder e relevantă acolo unde o pan�
   },
   zkl: {
     name: "ZKL",
-    founded: 1921,
-    overview: `ZKL Group este un producător ceh de rulmenți, cu activitate din 1921, care acoperă rulmenți cu bile (rânduri simple și duble cu contact unghiular, rulmenți în patru puncte, oscilanți, axiali), rulmenți cu role (cilindrici, oscilanți, conici, axiali) și rulmenți speciali (hibrizi, izolați electric, despicați). Gama include și rulmenți dedicați industriei feroviare și energiei eoliene, plus soluția VOLPROTEQ pentru rulmenți izolați electric. Pentru piața din România, ZKL înseamnă o alternativă central-europeană de aprovizionare cu rulmenți standard și speciali.
+    overview: `ZKL Group este un producător ceh de rulmenți, care acoperă rulmenți cu bile (rânduri simple și duble cu contact unghiular, rulmenți în patru puncte, oscilanți, axiali), rulmenți cu role (cilindrici, oscilanți, conici, axiali) și rulmenți speciali (hibrizi, izolați electric, despicați). Gama include și rulmenți dedicați industriei feroviare și energiei eoliene, plus soluția VOLPROTEQ pentru rulmenți izolați electric. Pentru piața din România, ZKL înseamnă o alternativă central-europeană de aprovizionare cu rulmenți standard și speciali.
 
 ZKL este un producător axat pe rulmentul ca produs, cu o gamă tehnică amplă de rulmenți standard și speciali. Rulmenții speciali despicați permit montajul fără demontarea completă a arborelui, util la reductoare mari sau ventilatoare industriale unde oprirea prelungită a liniei costă mai mult decât rulmentul în sine.
 
 Pentru instalațiile din România, gama ZKL e relevantă la mentenanța utilajelor care folosesc rulmenți standard sau speciali; compatibilitatea dimensională se confirmă pe cod sau pe cotele rulmentului existent.`,
     whyChoose: [
-      "Producător cu activitate din 1921 în fabricația de rulmenți, cu gamă tehnică amplă",
+      "Producător ceh de rulmenți, cu gamă tehnică amplă",
       "Rulmenți speciali despicați pentru montaj fără demontarea completă a arborelui",
       "Rulmenți dedicați industriei feroviare și turbinelor eoliene, sub aceeași marcă",
       "Rulmenți izolați electric și hibrizi pentru aplicații cu curenți de arbore",
@@ -376,8 +375,8 @@ Pentru instalațiile din România, gama ZKL e relevantă la mentenanța utilajel
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat anul 1921, neconfirmat.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       { title: "ZKL Group – Official Website", url: "https://www.zkl.cz/en/", publisher: "ZKL Group", accessed: "2026-09-22" },
       { title: "Ball Bearings – ZKL", url: "https://www.zkl.cz/en/produkty/kulickova-loziska", publisher: "ZKL Group", accessed: "2026-09-22" },

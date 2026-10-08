@@ -554,9 +554,9 @@ Pentru instalatorii industriali din România, TTV înseamnă robineți fluture c
 
   'cimberio': {
     name: "Cimberio",
-    founded: 1927,
+    founded: 1957,
     headquarters: "San Maurizio d'Opaglio (Novara), Italia",
-    overview: `Cimberio este un producător italian de armături termohidraulice, cu sediul la San Maurizio d'Opaglio, în provincia Novara, activ din 1927, cu tradiție de fabricație a robinetelor din alamă. Gama acoperă robineți cu bilă din seria CimPress, valve de sertar, valve de echilibrare termostatică, valve de reținere, strainere/filtre și componente pentru distribuția gazului și a apei. Pentru piața din România putem oferta armături individuale din gamă, la comandă.
+    overview: `Cimberio este un producător italian de armături termohidraulice, cu sediul la San Maurizio d'Opaglio, în provincia Novara, înființat în 1957, cu tradiție de fabricație a robinetelor din alamă. Gama acoperă robineți cu bilă din seria CimPress, valve de sertar, valve de echilibrare termostatică, valve de reținere, strainere/filtre și componente pentru distribuția gazului și a apei. Pentru piața din România putem oferta armături individuale din gamă, la comandă.
 
 Ce diferențiază Cimberio e sistemul propriu de conectare CimPress, care permite montajul robinetului prin presare, fără lipire sau filetare, folosit atât la robinetele cu bilă full-port (1220NL), cât și la variantele compatibile cu sisteme de altă marcă, precum NIBCO Press (1220NLN) sau PEX (1223NL). Gama de valve de echilibrare termostatică (seria 778) combină funcția de reglare cu robinete de izolare integrate, pentru instalații de încălzire și climatizare. În segmentul armăturilor termohidraulice, Cimberio se compară cu Caleffi și cu Watts, ambele branduri deja prezente în oferta noastră.
 
@@ -566,7 +566,7 @@ Pentru instalatorii din România, Cimberio înseamnă un sistem de conectare pri
       "Compatibilitate cu sisteme de presare de alte mărci, precum NIBCO Press, prin varianta 1220NLN",
       "Valve de echilibrare termostatică din seria 778, cu robinet de izolare integrat",
       "Kituri complete pentru încălzitoare instantanee de apă (tankless), cu robinete incluse",
-      "Producător cu o istorie de aproape un secol în San Maurizio d'Opaglio"
+      "Producător italian de armături cu sediul în San Maurizio d'Opaglio (provincia Novara), înființat în 1957"
     ],
     keyProducts: [
       { name: "Robineți cu bilă CimPress (1220NL, 1220NLN, 1223NL)", description: "Robineți cu bilă full-port cu montaj prin presare, în variantă standard CimPress (1220NL), compatibilă cu sisteme NIBCO Press (1220NLN) sau cu adaptor pentru țeavă PEX (1223NL), fără plumb, pentru instalații de apă potabilă. Sistemul de presare elimină lipirea sau filetarea la montaj, reducând timpul de lucru pe șantier. Clientul trebuie să indice diametrul conductei și tipul de sistem de presare folosit." },
@@ -608,9 +608,10 @@ Pentru instalatorii din România, Cimberio înseamnă un sistem de conectare pri
     ],
     evidenceClass: "history-only",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: Cimberio S.p.A. a fost înființată în 1957; 1927 este anul unui parteneriat anterior (Fortis-Cimberio-Gioira).' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      { title: 'Cimberio – Company', url: 'https://www.cimberio.com/en/company/', publisher: 'Cimberio', accessed: '2026-10-08' },
       { title: "Cimberio - Home", url: "https://www.cimberio.com/en/", publisher: "Cimberio", accessed: "2026-09-22" },
       { title: "Ball Valves | Cimberio Valve US", url: "https://cimberiovalve.us/ball-valves/", publisher: "Cimberio Valve US", accessed: "2026-09-22" }
     ],

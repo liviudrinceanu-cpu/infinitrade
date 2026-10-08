@@ -904,7 +904,6 @@ Pentru industria din România, gama Elmo Rietschle acoperă o nișă foarte prac
 
   end: {
     name: "END-Armaturen",
-    founded: 1985,
     headquarters: "Bad Oeynhausen, Germania",
     overview: `END-Armaturen este un producător german de armături industriale (robineți cu bilă, fluture, cu sertar, electrovalve, armături de reglare și supape de siguranță), folosite în alimentarea cu apă, petrol și gaze, industria chimică și petrochimică, farmacie, energie și protecția mediului. 
 
@@ -1034,8 +1033,8 @@ Pentru un integrator sau un operator de instalații din România, gama END-Armat
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat anul înființării (1985), neconfirmat pe o sursă oficială.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }]
   },
 
   fisher: {

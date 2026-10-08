@@ -129,8 +129,8 @@ Pentru un utilizator din România, gama BOGE acoperă atât atelierul mic cu un 
   'ceccato': {
     name: "Ceccato",
     founded: 1936,
-    headquarters: "Robassomero, Italia",
-    overview: `Ceccato Aria Compressa fabrică compresoare de aer la Robassomero, lângă Torino, sub umbrela grupului MultiAir International, de 90 de ani. Gama include compresoare cu șurub cu turație fixă și variabilă (seriile CSM, CSA, DRA, DRB, DRC, DRD, DRE, DRF), variante cu motor cu magnet permanent pentru eficiență la sarcină parțială, compresoare cu piston pentru uz profesional sau ocazional și linii fără ulei (CleanAir, SpiralAir, WIS) pentru aplicații sensibile la contaminare.
+    headquarters: "Montecchio Maggiore (Vicenza), Italia",
+    overview: `Ceccato Aria Compressa fabrică compresoare de aer, are sediul la Montecchio Maggiore, în provincia Vicenza, și face parte din grupul Atlas Copco din 1998. Firma a fost înființată în 1936 în satul Alte (Vicenza). Gama include compresoare cu șurub cu turație fixă și variabilă (seriile CSM, CSA, DRA, DRB, DRC, DRD, DRE, DRF), variante cu motor cu magnet permanent pentru eficiență la sarcină parțială, compresoare cu piston pentru uz profesional sau ocazional și linii fără ulei (CleanAir, SpiralAir, WIS) pentru aplicații sensibile la contaminare.
 
 Diferența clară în gamă e ecartul de putere acoperit pe fiecare familie: DRA și DPM pornesc de la câțiva kW, iar seria DRF ajunge la peste 300 HP pe variantele mari cu turație variabilă IVR. Compresoarele cu șurub se completează cu accesorii proprii (uscătoare, filtre, boostere de presiune bstAIR) în aceeași ofertă. Controlerele ECOntrol+ și ECOntrol6 gestionează parametrii de funcționare și pot conecta mai multe unități în cascadă.
 
@@ -140,7 +140,7 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
       "Variante cu motor cu magnet permanent (IVR PM) pentru eficiență energetică la sarcină variabilă",
       "Linii fără ulei CleanAir, SpiralAir și WIS pentru aplicații unde contaminarea aerului nu e acceptată",
       "Accesorii integrate în aceeași ofertă — uscătoare, filtre, boostere bstAIR — fără furnizori separați",
-      "Companie italiană cu sediul la Robassomero, înființată în 1936, parte din grupul MultiAir International",
+      "Companie italiană cu sediul la Montecchio Maggiore (Vicenza), înființată în 1936, parte din grupul Atlas Copco din 1998",
     ],
     keyProducts: [
       { name: "Compresoare cu Șurub Seria DRF", description: "Seria de vârf pentru consum industrial mare de aer comprimat, cu variante de putere între 151 și 420 HP, disponibile atât cu turație fixă cât și cu turație variabilă (IVR) și cu motor cu magnet permanent (IVR PM) pentru eficiență la sarcină parțială. Recomandată pentru hale cu funcționare continuă pe mai multe schimburi. Controlul electronic ajustează turația la cererea reală de aer, reducând consumul comparativ cu o unitate cu turație fixă supradimensionată." },
@@ -180,11 +180,13 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: sediul este Montecchio Maggiore (Vicenza), grupul este Atlas Copco; am eliminat localitatea și grupul indicate anterior, neconfirmate.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
-      { title: "Ceccato - Rotary Screw Compressors", url: "https://www.ceccato.com/en-international/air-compressor-products/rotary-screw-compressor", publisher: "Ceccato Aria Compressa (MultiAir International)", accessed: "2026-09-26" },
-      { title: "Ceccato - About Us", url: "https://www.ceccato.com/en-international/about-us", publisher: "Ceccato Aria Compressa (MultiAir International)", accessed: "2026-09-26" },
+      { title: 'Ceccato – Our history', url: 'https://www.ceccato.com/en-ie/about-us/our-history', publisher: 'Ceccato Aria Compressa', accessed: '2026-10-08' },
+      { title: 'Ceccato – Atlas Copco Group', url: 'https://atlascopcogroup.com/en/about-us/brands/ceccato', publisher: 'Atlas Copco Group', accessed: '2026-10-08' },
+      { title: "Ceccato - Rotary Screw Compressors", url: "https://www.ceccato.com/en-international/air-compressor-products/rotary-screw-compressor", publisher: "Ceccato Aria Compressa", accessed: "2026-09-26" },
+      { title: "Ceccato - About Us", url: "https://www.ceccato.com/en-international/about-us", publisher: "Ceccato Aria Compressa", accessed: "2026-09-26" },
     ],
   },
   'nicotra-gebhardt': {

@@ -77,9 +77,9 @@ Pentru o platformă industrială sau un centru de date din România, segmentul a
 
   enersys: {
     name: "EnerSys",
-    founded: 1999,
+    founded: 2000,
     headquarters: "Reading, Pennsylvania, SUA",
-    overview: `EnerSys este un producător american de baterii industriale și sisteme de alimentare de rezervă, cu sediul în Reading, Pennsylvania, format în 1999 și extins ulterior prin preluarea diviziei de baterii industriale Yuasa și fuziunea cu Hawker Group. Din portofoliu putem oferta baterii pentru echipamente de manipulare a materialelor, sisteme UPS de interior și exterior și încărcătoare industriale, sub mărci proprii precum NexSys, Odyssey, PowerSafe, DataSafe și Hawker. Compania menționează pe site certificări ISO pentru procesele de fabricație.
+    overview: `EnerSys este un producător american de baterii industriale și sisteme de alimentare de rezervă, cu sediul în Reading, Pennsylvania, format la sfârșitul anului 2000 și extins ulterior prin preluarea diviziei de baterii industriale Yuasa și fuziunea cu Hawker Group. Din portofoliu putem oferta baterii pentru echipamente de manipulare a materialelor, sisteme UPS de interior și exterior și încărcătoare industriale, sub mărci proprii precum NexSys, Odyssey, PowerSafe, DataSafe și Hawker. Compania menționează pe site certificări ISO pentru procesele de fabricație.
 
 Ce diferențiază gama EnerSys de un furnizor generic de acumulatori e varietatea de tehnologii sub aceeași umbrelă corporativă: bateriile motive power din familiile NexSys și IRONCLAD acoperă stivuitoare și echipamente AGV, seria Odyssey se adresează aplicațiilor cu curenți de pornire mari, iar liniile de rezervă PowerSafe, DataSafe și Genesis țintesc centrele de date și rețelele de telecomunicații. Încărcătoarele proprii Synova și IMPAQ completează oferta pentru mentenanța flotelor de baterii industriale.
 
@@ -132,9 +132,10 @@ Pentru un operator de depozit sau un centru de date din România, gama EnerSys a
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: compania actuală s-a format la sfârșitul anului 2000, conform paginii „About us” EnerSys.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      { title: 'EnerSys – About us', url: 'https://www.enersys.com/en-gb/careers/about-us/', publisher: 'EnerSys', accessed: '2026-10-08' },
       { title: "EnerSys — Home", url: "https://www.enersys.com", publisher: "EnerSys", accessed: "2026-09-26" },
       { title: "EnerSys — Wireless Charger for Automated Guided Vehicles", url: "https://www.enersys.com/en/industries/logistics-warehousing/automated-guided-vehicles/wireless-charger/", publisher: "EnerSys", accessed: "2026-09-26" },
       { title: "EnerSys", url: "https://en.wikipedia.org/wiki/EnerSys", publisher: "Wikipedia", accessed: "2026-09-26" },

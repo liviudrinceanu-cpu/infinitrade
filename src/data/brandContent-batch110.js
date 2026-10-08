@@ -211,14 +211,13 @@ Pentru piața din România, Molyslip are sens la utilaje cu rulmenți expuși la
   },
   pressol: {
     name: "Pressol",
-    founded: 1914,
-    overview: `Pressol este un producător german de tehnică de ungere și echipamente de atelier, activ din 1914, conform site-ului propriu. Gama acoperă pompe de gresat manuale și cu aer comprimat, recipiente și rezervoare pentru lubrifianți și combustibili, sisteme de gestiune a motorinei și a uleiului, precum și echipamente pentru soluția AdBlue. Din portofoliul Pressol putem oferta pompe de ungere manuale, recipiente pentru transfer de lubrifianți și echipamente de dozare pentru ateliere auto și industriale.
+    overview: `Pressol este un producător german de tehnică de ungere și echipamente de atelier. Gama acoperă pompe de gresat manuale și cu aer comprimat, recipiente și rezervoare pentru lubrifianți și combustibili, sisteme de gestiune a motorinei și a uleiului, precum și echipamente pentru soluția AdBlue. Din portofoliul Pressol putem oferta pompe de ungere manuale, recipiente pentru transfer de lubrifianți și echipamente de dozare pentru ateliere auto și industriale.
 
 Pressol integrează sisteme de management — motorina, uleiul și AdBlue-ul sunt tratate ca fluxuri gestionate, cu sisteme dedicate de urmărire a consumului (DMS pentru motorină, ÖMS pentru ulei). Compania menționează pe site producția a milioane de piese anual, cu un catalog amplu de referințe pentru tehnica de ungere și de atelier. Ca profil, Pressol este un partener complementar în echipamente de atelier, alături de branduri de scule și lubrifianți.
 
 Pentru piața din România, Pressol are sens la ateliere auto și service-uri industriale care vor pompe de gresat fiabile, recipiente etanșe pentru transferul lubrifianților sau un sistem simplu de gestiune a consumului de motorină și AdBlue.`,
     whyChoose: [
-      "Peste un secol de activitate în tehnica de ungere, din 1914, conform prezentării producătorului",
+      "Producător german de tehnică de ungere și echipamente de atelier",
       "Sisteme dedicate de gestiune a consumului de motorină (DMS) și ulei (ÖMS), nu doar rezervoare pasive",
       "Gamă amplă de pompe de gresat, de la variante cu o mână la modele cu aer comprimat",
       "Certificare ISO 9001:2015 pentru procesele de fabricație, menționată pe site",
@@ -259,8 +258,8 @@ Pentru piața din România, Pressol are sens la ateliere auto și service-uri in
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat anul 1914 (anul invenției pompei de ungere, nu al firmei).' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pressol — Schmier- und Werkstatttechnik", url: "https://www.pressol.com", publisher: "Pressol Maschinenfabrik", accessed: "2026-09-25" },
       { title: "Pressol — Product Categories", url: "https://www.pressol.com/en/", publisher: "Pressol Maschinenfabrik", accessed: "2026-09-25" }

@@ -1087,7 +1087,7 @@ Portofoliul acoperă toate tipurile de gaze periculoase: combustibile (metan, pr
     founded: 1885,
     headquarters: 'Charlotte, North Carolina, SUA',
     employees: '8000+ (divizia Safety)',
-    overview: `Gama de echipamente de protecție individuală asociată mărcii Honeywell Safety Products (mărci precum Uvex, Miller, North și Howard Leight, prezentate acum sub PIP Global Safety, conform paginii Honeywell; Honeywell a anunțat în noiembrie 2024 intenția de a vinde afacerea PPE către Protective Industrial Products) acoperă diverse riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță.
+    overview: `Gama de echipamente de protecție individuală asociată mărcii Honeywell Safety Products (mărci precum Uvex, Miller, North și Howard Leight; Honeywell a încheiat în mai 2025 vânzarea afacerii de echipamente de protecție individuală către Protective Industrial Products (PIP), iar aceste mărci aparțin acum PIP) acoperă diverse riscuri industriale - de la mănuși rezistente la tăiere și perforare până la ochelari de protecție și măști respiratorii, de la harnașamente anti-cădere până la încălțăminte de siguranță.
 
 Gama de mănuși acoperă toate nivelurile de protecție: rezistență la tăiere (niveluri A-F conform EN 388:2016; scara A1-A9 aparține standardului ANSI/ISEA 105), rezistență la căldură (în funcție de model), rezistență chimică (nitril, neopren, viton pentru diverse substanțe), protecție antivibratorie conform ISO 10819. Materialele Spectra și Kevlar oferă protecție ridicată cu dexteritate bună - mănuși subțiri care permit manipulare precisă.
 
@@ -1220,8 +1220,8 @@ Pentru protecție respiratorie, gama include măști filtrante FFP1/FFP2/FFP3 pe
       }
     ],
     evidenceClass: 'gsc-only',
-    lastVerified: '2026-10-05',
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
+    lastVerified: '2026-10-08',
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: vânzarea afacerii de echipamente de protecție individuală către PIP s-a încheiat în mai 2025; mărcile Uvex, Miller, North și Howard Leight aparțin acum PIP.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am verificat anul înființării și sediul Honeywell Safety și am corectat datele greșite, conform surselor citate.' }
     ]
   },

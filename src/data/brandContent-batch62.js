@@ -712,9 +712,7 @@ Pentru aplicații din petrol și gaze, siderurgie, minerit sau ridicare grea din
   },
   hoerbiger: {
     name: "Hoerbiger",
-    founded: 1896,
-    headquarters: "Viena, Austria",
-    overview: `Hoerbiger este un grup austriac fondat în 1896, cu sediul la Viena, producător de componente pentru compresoare cu piston, sisteme de control al fluxului și mișcării și echipamente pentru industria hidrogenului. Gama pentru compresoare acoperă valve cu plăci profilate (XP, CP, CPs), valve inelare de presiune ridicată (HPV), valve din materiale nemetalice (CT, CS) și valve inelare profilate (CE), completată de sisteme de control al capacității (HydroCOM, eHydroCOM), lubrifiere digitală (XperLUBE) și panouri de control al emisiilor (ECP). Pentru piața din România putem oferta în principal din gama de valve pentru compresoare cu piston, cea mai relevantă pentru mentenanța instalațiilor de proces existente.
+    overview: `Hoerbiger este un grup industrial cu origini din 1895 (brevetul pentru supapa cu plăci de oțel, conform istoricului de pe site-ul propriu), producător de componente pentru compresoare cu piston, sisteme de control al fluxului și mișcării și echipamente pentru industria hidrogenului. Gama pentru compresoare acoperă valve cu plăci profilate (XP, CP, CPs), valve inelare de presiune ridicată (HPV), valve din materiale nemetalice (CT, CS) și valve inelare profilate (CE), completată de sisteme de control al capacității (HydroCOM, eHydroCOM), lubrifiere digitală (XperLUBE) și panouri de control al emisiilor (ECP). Pentru piața din România putem oferta în principal din gama de valve pentru compresoare cu piston, cea mai relevantă pentru mentenanța instalațiilor de proces existente.
 
 Ce diferențiază Hoerbiger în categoria valvelor de compresor este acoperirea foarte largă de tehnologii de control al capacității — de la sisteme hidraulice clasice de tip HydroCOM până la variante complet electrice (eHydroCOM) și sisteme de reglare a volumului mort (eVCP), toate din același producător. Pe partea de automatizare, producătorul oferă și actuatoare electrohidraulice (TriVAX) și valve piezoelectrice (P8/P20, P9, P13, Tecno, LasGAR, LasGAM), ale căror funcții se confirmă din documentația producătorului. 
 
@@ -724,7 +722,7 @@ Pentru operatorii de instalații industriale, rafinării și stații de compreso
       "Sisteme de control al capacității în variantă hidraulică (HydroCOM) și complet electrică (eHydroCOM)",
       "Reglare electronică a volumului mort (eVCP) pentru optimizarea funcționării compresorului fără intervenție mecanică",
       "Valve piezoelectrice de precizie, conform documentației producătorului",
-      "Peste un secol de activitate, cu istorie din 1896, conform prezentării de pe site-ul propriu"
+      "Peste un secol de activitate, cu origini din 1895, conform istoricului de pe site-ul propriu"
     ],
     keyProducts: [
       { name: "Valve pentru Compresoare cu Piston (XP/CP/CPs/HPV/CT/CE/CS)", description: "Familie de valve cu plăci profilate metalice (XP, CP, CPs), valve inelare de presiune ridicată (HPV), valve nemetalice cu plăci (CT) și valve nemetalice de joasă presiune (CS) și valve inelare profilate (CE), pentru compresoare cu piston din industria de proces. Clientul trebuie să precizeze modelul compresorului și presiunea de lucru a treptei vizate." },
@@ -765,7 +763,7 @@ Pentru operatorii de instalații industriale, rafinării și stații de compreso
       { code: "LasGAM", description: "mixer piezoelectric de gaz pentru tăiere laser" }
     ],
     faq: [
-      { q: "Ce produce Hoerbiger?", a: "Hoerbiger produce valve pentru compresoare cu piston, sisteme de control al capacității compresorului, lubrifiere digitală și valve piezoelectrice de precizie pentru automatizare și tăiere laser. Este un grup austriac fondat în 1896, cu gamă orientată spre industria de proces și industria hidrogenului." },
+      { q: "Ce produce Hoerbiger?", a: "Hoerbiger produce valve pentru compresoare cu piston, sisteme de control al capacității compresorului, lubrifiere digitală și valve piezoelectrice de precizie pentru automatizare și tăiere laser. Este un grup industrial cu origini din 1895, cu gamă orientată spre industria de proces și industria hidrogenului." },
       { q: "Cum aleg o valvă Hoerbiger după cod?", a: "Codul indică tipul de construcție: XP, CP și CPs sunt valve cu plăci profilate metalice, HPV este pentru presiune ridicată, iar CT este o variantă nemetalică cu plăci, iar CS o variantă nemetalică pentru presiune joasă. Alegerea exactă depinde de modelul compresorului și de presiunea treptei vizate." },
       { q: "Ce echivalent are un sistem de control Hoerbiger HydroCOM față de Festo?", a: "HydroCOM de la Hoerbiger este un sistem dedicat controlului capacității compresoarelor cu piston, iar o echivalență directă cu produse Festo nu o putem confirma; alegerea se face în funcție de tipul exact de compresor și de gama de reglare dorită." },
       { q: "Livrați valve Hoerbiger în România și cât durează?", a: "Aducem valve pentru compresoare, componente de lubrifiere și valve piezoelectrice Hoerbiger la comandă, prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de disponibilitatea codului la producător." },
@@ -773,9 +771,10 @@ Pentru operatorii de instalații industriale, rafinării și stații de compreso
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: originea grupului este 1895 (nu 1896); am eliminat sediul „Viena” și anul înființării din fișă, deoarece sediul actual al grupului nu este confirmat pe site-ul oficial.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      { title: 'HOERBIGER – Origin (istoric)', url: 'https://bettertomorrow.hoerbiger.com/en/origin.html', publisher: 'HOERBIGER', accessed: '2026-10-08' },
       { title: "HOERBIGER — official site", url: "https://www.hoerbiger.com", publisher: "HOERBIGER Holding AG", accessed: "2026-09-22" },
       { title: "Compression Division", url: "https://www.hoerbiger.com/en/compression.html", publisher: "HOERBIGER Holding AG", accessed: "2026-09-22" }
     ]
