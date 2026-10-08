@@ -564,9 +564,8 @@ Sistemul X20 are arhitectură modulară în trei părți (bloc de borne, modul e
 
   'bucher-hydraulics': {
     founded: 1923,
-    headquarters: 'Elveția',
     employees: 'aproximativ 3000',
-    overview: `Bucher Hydraulics produce sisteme hidraulice complete de peste 100 de ani - de la pompe și motoare până la valve, cilindri și electronice de control. Compania a fost înființată în 1923 și are 12 locații de producție la nivel mondial. Producătorul are fabrici în Elveția, Germania, SUA, China și India.
+    overview: `Bucher Hydraulics, parte a grupului Bucher Industries, produce sisteme hidraulice complete de peste 100 de ani - de la pompe și motoare până la valve, cilindri și electronice de control. Originile merg până în 1923, când a fost înființată firma Johann Bucher Guyer în zona Klettgau (Germania), iar astăzi are 12 locații de producție la nivel mondial. Producătorul are fabrici în Elveția, Germania, SUA, China și India.
 
 Pompele seria QX sunt pompe cu roți dințate interioare, descrise de producător ca soluții universale („all-rounders”) pentru presiuni de până la 400 bar; seria AX cuprinde pompe cu pistoane axiale. Gama include valve direcționale, valve cartridge, valve stivuibile, valve de menținere a sarcinii și valve cu răspuns rapid, precum și grupuri hidraulice (power units) în șapte familii.
 
@@ -623,6 +622,7 @@ Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibil
     infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24–72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
     limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea pentru fiecare cod.',
     sources: [
+      { title: 'Bucher Hydraulics – History', url: 'https://www.bucherhydraulics.com/en/company/history', publisher: 'Bucher Hydraulics', accessed: '2026-10-08' },
       {"title":"Pumps","url":"https://www.bucherhydraulics.com/en/products/pumps-and-motors/pumps/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
       {"title":"Products","url":"https://www.bucherhydraulics.com/en/products/","publisher":"Bucher Hydraulics AG","accessed":"2026-09-22"},
       { title: 'Locations', url: 'https://www.bucherhydraulics.com/en/company/locations/', publisher: 'Bucher Hydraulics', accessed: '2026-09-22' },
@@ -697,8 +697,8 @@ Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibil
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-10-05',
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
+    lastVerified: '2026-10-08',
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat „Elveția” ca sediu și am precizat originea din 1923 (Klettgau, Germania) și apartenența la Bucher Industries.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: '2026-09-22', note: 'Am adăugat surse oficiale și modul de livrare.' }]
   },
 
   'burkert-sensors': {

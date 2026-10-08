@@ -420,8 +420,7 @@ Pentru un producător de cărucioare de manipulare, echipamente de logistică sa
   },
   'thomson-industries': {
     name: "Thomson Industries",
-    headquarters: "Downers Grove, Illinois, SUA",
-    overview: `Thomson Industries este un producător american de componente pentru mișcare mecanică liniară, cu sediul la Downers Grove, Illinois. Gama acoperă rulmenți liniari (Ball Bushing), ghidaje pe șină profilată, arbori RoundRail, șuruburi cu bile și șuruburi trapezoidale, caneluri cu bile, și o familie largă de actuatoare liniare electrice sub marca Electrak — de la variante compacte (Electrak 050) la modele de mare capacitate (Electrak XD, cu sarcini de până la 25.000 N și curse de până la 1.200 mm). Pentru România putem oferta din gama de actuatoare liniare electrice și ghidaje pe șină profilată pentru automatizare industrială.
+    overview: `Thomson Industries este un producător american de componente pentru mișcare mecanică liniară, cu activitate în automatizări industriale. Gama acoperă rulmenți liniari (Ball Bushing), ghidaje pe șină profilată, arbori RoundRail, șuruburi cu bile și șuruburi trapezoidale, caneluri cu bile, și o familie largă de actuatoare liniare electrice sub marca Electrak — de la variante compacte (Electrak 050) la modele de mare capacitate (Electrak XD, cu sarcini de până la 25.000 N și curse de până la 1.200 mm). Pentru România putem oferta din gama de actuatoare liniare electrice și ghidaje pe șină profilată pentru automatizare industrială.
 
 Ce diferențiază Thomson e portofoliul de actuatoare Electrak organizat pe clase de sarcină și duty cycle — XD pentru sarcini mari cu duty cycle de până la 100%, HD pentru variante smart cu comunicare CAN bus și frânare dinamică, MD și LL pentru sarcini medii și ușoare — plus divizia Delevan pentru bile de precizie, resolvere și componente magnetice. Compania se compară cu SKF și Rexroth pe segmentul ghidajelor liniare și actuatoarelor electrice, cu certificări ISO, AS și conformitate REACH și RoHS.
 
@@ -478,7 +477,7 @@ Pentru un integrator de linii de automatizare, echipamente de manipulare a mater
       { code: "Rotary Actuator DGB", description: "model Thomson; specificațiile se confirmă din documentația producătorului" },
     ],
     faq: [
-      { q: "Ce produce Thomson Industries?", a: "Thomson fabrică actuatoare liniare electrice (familia Electrak), rulmenți și ghidaje liniare (Ball Bushing, RoundRail), șuruburi cu bile și trapezoidale, și coloane de ridicare electrice. Compania americană, cu sediul la Downers Grove, Illinois, deservește automatizarea industrială, agricultura și echipamentele medicale." },
+      { q: "Ce produce Thomson Industries?", a: "Thomson fabrică actuatoare liniare electrice (familia Electrak), rulmenți și ghidaje liniare (Ball Bushing, RoundRail), șuruburi cu bile și trapezoidale, și coloane de ridicare electrice. Compania americană deservește automatizarea industrială, agricultura și echipamentele medicale." },
       { q: "Cum aleg un actuator Thomson Industries din familia Electrak?", a: "Trebuie să știți sarcina maximă necesară, cursa dorită, viteza de lucru și duty cycle-ul aplicației (cât de des va funcționa actuatorul). Familia Electrak e organizată pe clase — XD pentru sarcini mari, HD pentru variante smart cu comunicare CAN bus, MD și LL pentru sarcini medii și ușoare." },
       { q: "Livrați actuatoare Thomson în România și cât durează?", a: "Livrăm actuatoare Thomson Industries la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de modelul Electrak ales. Nu ținem pe raft actuatoare pentru livrare imediată, așa că verificăm disponibilitatea exactă după ce primim sarcina și cursa necesară." },
       { q: "Ce echivalent are un cilindru hidraulic la Thomson Electrak?", a: "Actuatoarele Electrak XD și HD sunt gândite special ca alternativă la cilindrii hidraulici, cu sarcini de până la 25.000 N și control de poziție electric, fără nevoie de ulei hidraulic sau pompă. Echivalența exactă depinde de forța, cursa și viteza cilindrului actual — trimiteți-ne aceste date pentru verificare." },
@@ -486,8 +485,8 @@ Pentru un integrator de linii de automatizare, echipamente de manipulare a mater
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat orașul Downers Grove, neconfirmat.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Thomson Industries - Motion Control Solutions", url: "https://www.thomsonlinear.com/", publisher: "Thomson Industries, Inc.", accessed: "2026-09-25" },
       { title: "Linear Actuators - Thomson", url: "https://www.thomsonlinear.com/en/products/linear-actuators", publisher: "Thomson Industries, Inc.", accessed: "2026-09-25" },

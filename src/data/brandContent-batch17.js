@@ -137,7 +137,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil sau alte materiale, în
 
   gestra: {
     name: "GESTRA",
-    founded: 1885,
+    founded: 1902,
     headquarters: "Bremen, Germania",
     overview: `GESTRA este un producător german specializat în gestionarea aburului și a condensului în instalații industriale, cu sediul la Bremen. De peste un secol, compania dezvoltă echipamente pentru trei funcții esențiale ale unei centrale termice sau ale unei rețele de abur: evacuarea condensului fără pierderi de abur viu, controlul nivelului de apă din cazane, și tratarea apei de alimentare prin sisteme de golire continuă și discontinuă. Conform site-ului oficial GESTRA, compania face parte în prezent din grupul Spirax; anterior a aparținut grupului Flowserve.
 
@@ -188,6 +188,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale pot ajunge în 24–72 h dacă sunt în stoc la noi sau la furnizor, altfel în 1–4 săptămâni la comandă; sistemele complete de control de nivel sau de golire sunt sisteme complexe, cu termene de regulă peste 4 săptămâni.",
     limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA.",
     sources: [
+      { title: 'Company history | GESTRA', url: 'https://www.gestra.com/about-us/history', publisher: 'GESTRA', accessed: '2026-10-08' },
       {"title":"Steam Traps | GESTRA | USA","url":"https://www.gestra.com/global/en-US/products/steam-traps","publisher":"GESTRA","accessed":"2026-09-23"},
       { title: "Welcome to GESTRA | Engineering steam performance", url: "https://www.gestra.com", publisher: "GESTRA GmbH (Flowserve)", accessed: "2026-09-22" },
       { title: "GESTRA – site oficial (EN)", url: "https://www.gestra.com/en", publisher: "GESTRA GmbH (Flowserve)", accessed: "2026-09-22" }
@@ -253,8 +254,8 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       }
     ],
     evidenceClass: "transactional",
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: anul înființării GESTRA este 1902 (Bremen), conform istoricului de pe site-ul producătorului.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },

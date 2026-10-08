@@ -26,7 +26,7 @@ Protecția auditivă 3M Peltor și dopurile EAR sunt destinate mediilor zgomotoa
         description: `Seria SecureFit (SF400, SF600, SF2000) cuprinde ochelari de protecție cu brațe ergonomice. Clasele de protecție (impact, zgârieturi, abur), tratamentele lentilelor, greutatea și câmpul vizual diferă de la un model la altul; le confirmăm pe cod, din fișa tehnică 3M.`
       },
       {
-        name: '3M Peltor Căști Antibătaie X-Series',
+        name: '3M Peltor Căști Antifonice X-Series',
         description: `Gama Peltor X cuprinde căști antifonice de diferite niveluri de atenuare. Atenuarea (SNR și valorile pe frecvențe), greutatea și standardele aplicabile (EN 352-1) diferă de la un model la altul; le confirmăm pe cod, din fișa tehnică 3M.`
       },
       {
@@ -133,8 +133,8 @@ Protecția auditivă 3M Peltor și dopurile EAR sunt destinate mediilor zgomotoa
       }
     ],
     evidenceClass: 'transactional',
-    lastVerified: '2026-10-05',
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
+    lastVerified: '2026-10-08',
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: denumirea gamei Peltor X-Series este „căști antifonice” (protecție auditivă), nu „antibătaie”.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: '2026-09-22', note: 'Am adăugat surse oficiale; am precizat modul de livrare; am corectat sediul 3M Safety, conform surselor citate.' },
     ],
   },

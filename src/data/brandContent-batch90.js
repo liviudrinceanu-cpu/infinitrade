@@ -713,8 +713,7 @@ Pentru administratorii de facilități și clădiri de birouri din România, sis
   flintec: {
     name: "Flintec",
     founded: 1968,
-    headquarters: "Hudson, Massachusetts, SUA",
-    overview: `Flintec e un producător de celule de sarcină și senzori de forță, fondat în 1968 de ingineri suedezi, cu sediu global la Hudson, Massachusetts, și fabricație proprie în Sri Lanka din 1996. Gama acoperă celule de sarcină de compresie, tracțiune, punct unic și grindă planară, plus senzori de forță miniaturali pentru aplicații de test și măsurare. Pentru piața din România putem oferta celule de sarcină Flintec pe baza capacității și clasei de precizie cerute de aplicație.
+    overview: `Flintec e un producător de celule de sarcină și senzori de forță, fondat în 1968 de ingineri suedezi, cu fabricație proprie în Sri Lanka din 1996. Gama acoperă celule de sarcină de compresie, tracțiune, punct unic și grindă planară, plus senzori de forță miniaturali pentru aplicații de test și măsurare. Pentru piața din România putem oferta celule de sarcină Flintec pe baza capacității și clasei de precizie cerute de aplicație.
 
 Ce diferențiază Flintec e amploarea catalogului: zeci de familii de celule de sarcină acoperă practic orice tip de montaj — de la RC1/RC3 pentru compresie clasică, la PC-seria de punct unic pentru cântare comerciale, până la seria UB/UT pentru tracțiune. Conform producătorului, producția anuală este de aproximativ un milion de senzori și cinci milioane de mărci tensometrice. Compania oferă și electronică dedicată pentru celule de sarcină, pentru integrare completă a sistemului de cântărire.
 
@@ -769,8 +768,8 @@ Pentru integratorii de sisteme de cântărire din România — de la cântare in
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat sediul „Hudson, Massachusetts”, care este adresa filialei din SUA (Flintec Inc.), nu sediul grupului.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Flintec — Sitemap", url: "https://www.flintec.com/sitemap", publisher: "Flintec", accessed: "2026-09-25" },
       { title: "Flintec — About", url: "https://www.flintec.com/about", publisher: "Flintec", accessed: "2026-09-25" }

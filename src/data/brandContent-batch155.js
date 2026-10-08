@@ -252,8 +252,7 @@ Pentru piața locală, instrumentele Softing IT Networks au sens la firmele de i
   comark: {
     name: "Comark",
     founded: 1961,
-    headquarters: "Norwich, Norfolk, Marea Britanie",
-    overview: `Comark Instruments este un producător britanic de termometre digitale, sonde de temperatură și data loggere wireless, fondat în 1961 și cu sediul la Norwich, Norfolk, Marea Britanie. Din 2007 face parte din Fluke Corporation. Gama acoperă termometre de buzunar și industriale (seriile C22, C28, PDQ400), sonde interschimbabile pentru penetrare, suprafață, aer și imersie, plus data loggere wireless Diligence pentru temperatură și umiditate. Pentru România putem oferta din aceste familii pentru control de temperatură în lanțul alimentar și laboratoare.
+    overview: `Comark Instruments este un producător britanic de termometre digitale, sonde de temperatură și data loggere wireless, fondat în 1961. Din 2007 face parte din Fluke Corporation. Gama acoperă termometre de buzunar și industriale (seriile C22, C28, PDQ400), sonde interschimbabile pentru penetrare, suprafață, aer și imersie, plus data loggere wireless Diligence pentru temperatură și umiditate. Pentru România putem oferta din aceste familii pentru control de temperatură în lanțul alimentar și laboratoare.
 
 Ce diferențiază Comark e varietatea de sonde interschimbabile — sute de combinații de tip de senzor (Type K, Type T, PT100, thermistor), lungime și conector pentru aproape orice aplicație de măsurare a temperaturii. Data loggerele Diligence WiFi transmit automat citirile către un sistem central, utile la documentarea monitorizării temperaturii în sisteme HACCP din industria alimentară, categorie în care Comark se regăsește alături de branduri precum Testo.
 
@@ -312,8 +311,8 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
       { q: "Livrați termometre Comark în România și cât durează?", a: "Da, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația de sonde. Confirmăm termenul exact după ce ne trimiteți aplicația și domeniul de temperatură necesar." }
     ],
     evidenceClass: "market-signal-ro",
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat orașul Norwich, neconfirmat pe site-ul oficial.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Comark Instruments – About Us", url: "https://www.comarkinstruments.net/about-us/", publisher: "Comark Instruments", accessed: "2026-09-26" },
       { title: "Comark – US Product Range Catalog", url: "https://www.comarkinstruments.net/assets/uploads/2017/04/20534-1-US-Product-Range-Catalog-web.pdf", publisher: "Comark Instruments", accessed: "2026-09-26" }

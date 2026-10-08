@@ -1011,18 +1011,18 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
     headquarters: "Dover, Marea Britanie",
     overview: `Megger este un producător britanic de instrumente de testare electrică, cu rădăcini din 1889 și sediul la Dover. Compania fabrică testere de izolație, sisteme de testare a cablurilor, testere multifuncționale, testere de motoare și sisteme pentru testarea transformatoarelor, folosite de electricieni și ingineri de mentenanță pentru verificarea instalațiilor electrice. Din gama Megger putem oferta atât aparate portabile pentru electricieni, cât și sisteme mai complexe pentru utilități și industrie.
 
-Megger oferă aparate de testare electrică, cu accent pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT5252, MIT10252 și MIT15252, un sistem de testare a cablurilor de tip VLF Sine, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă instrumente portabile, sisteme de testare a cablurilor, motoarelor și transformatoarelor.
+Megger oferă aparate de testare electrică, cu accent pe testarea izolației — numele companiei a devenit chiar termen generic pentru testerul de izolație în engleza tehnică. Gama include testere de izolație precum MIT525 și MIT1025, un sistem de testare a cablurilor de tip VLF Sine, testerul multifuncțional MFT-X1, testerul de motoare ADX și sistemul TRAX pentru testarea transformatoarelor. Portofoliul acoperă instrumente portabile, sisteme de testare a cablurilor, motoarelor și transformatoarelor.
 
 Pentru piața din România, aparatele Megger sunt relevante pentru firme de mentenanță electrică, distribuitori de energie și electricieni autorizați care au nevoie de teste de izolație, teste de cablu sau verificări periodice ale instalațiilor conform normelor tehnice.`,
     whyChoose: [
       "Nume devenit termen generic pentru testerul de izolație în domeniul electric",
-      "Gamă de testere de izolație pe mai multe game de tensiune (MIT5252, MIT10252, MIT15252)",
+      "Gamă de testere de izolație pe mai multe game de tensiune (MIT525, MIT1025)",
       "Sistem de testare cabluri VLF Sine, pentru verificarea cablurilor de medie tensiune",
       "Sistem dedicat TRAX pentru testarea transformatoarelor din stații electrice",
       "Gamă de produse pentru testare și diagnosticare electrică, de la aparate portabile la sisteme pentru utilități"
     ],
     keyProducts: [
-      { name: "Testere de Izolație MIT5252 / MIT10252 / MIT15252", description: "Testere de izolație portabile, cu tensiuni de test diferite pentru fiecare model din serie, folosite la verificarea rezistenței de izolație a cablurilor și instalațiilor electrice înainte de punere sub tensiune sau la mentenanța periodică. Instrument folosit de electricieni și ingineri de mentenanță la testarea izolației motoarelor, cablurilor și echipamentelor electrice." },
+      { name: "Testere de Izolație MIT525 / MIT1025", description: "Testere de izolație portabile, cu tensiuni de test diferite pentru fiecare model din serie, folosite la verificarea rezistenței de izolație a cablurilor și instalațiilor electrice înainte de punere sub tensiune sau la mentenanța periodică. Instrument folosit de electricieni și ingineri de mentenanță la testarea izolației motoarelor, cablurilor și echipamentelor electrice." },
       { name: "Sistem de Testare Cabluri VLF Sine", description: "Sistem de testare a cablurilor de medie tensiune cu semnal de foarte joasă frecvență (VLF), folosit pentru verificarea integrității izolației cablurilor îngropate sau montate, fără să fie nevoie de tensiunea de test de curent alternativ standard. Util la recepția cablurilor noi sau la diagnosticarea defectelor pe cabluri existente." },
       { name: "Tester Multifuncțional MFT-X1", description: "Tester multifuncțional pentru verificarea instalațiilor electrice — continuitate, rezistență de izolație, impedanță de buclă și alte teste cerute la recepția sau verificarea periodică a unei instalații electrice. Instrument de bază pentru electricieni autorizați care fac verificări conform normelor tehnice." },
       { name: "Tester de Motoare ADX", description: "Tester dedicat pentru diagnosticarea motoarelor electrice, folosit la mentenanța preventivă pentru identificarea problemelor de izolație sau de bobinaj înainte ca acestea să ducă la defectarea motorului. Relevant pentru facilități cu motoare electrice critice pentru procesul de producție." },
@@ -1123,8 +1123,8 @@ Pentru piața din România, aparatele Megger sunt relevante pentru firme de ment
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: denumirile modelelor de testere de izolație sunt MIT525 și MIT1025.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" }],
     sources: [
       {"title":"Megger – TRAX Multifunction Transformer and Substation Test System","url":"https://www.megger.com/en/products/trax-multifunction-transformer-and-substation-test-system","publisher":"Megger","accessed":"2026-09-25"},
       {"title":"Megger – Products","url":"https://www.megger.com/products","publisher":"Megger","accessed":"2026-09-25"},

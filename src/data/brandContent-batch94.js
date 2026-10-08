@@ -443,8 +443,8 @@ Pentru un integrator din industrie sau din sectorul de apă din România, gama F
   univer: {
     name: "Univer",
     founded: 1971,
-    headquarters: "Bione (Brescia), Italia",
-    overview: `Univer este un producător italian de componente pneumatice, cu sediul la Bione, în provincia Brescia, activ din 1971 și cu o unitate de producție suplimentară la Milano. Gama acoperă electrovalve cu sertar și cu supapă (poppet), cilindri pneumatici standard și speciali, grupuri de tratare a aerului și accesorii de automatizare. Pentru piața din România putem oferta din gama Univer pentru linii de automatizare pneumatică.
+    headquarters: "Italia",
+    overview: `Univer este un producător italian de componente pneumatice, activ din 1971. Gama acoperă electrovalve cu sertar și cu supapă (poppet), cilindri pneumatici standard și speciali, grupuri de tratare a aerului și accesorii de automatizare. Pentru piața din România putem oferta din gama Univer pentru linii de automatizare pneumatică.
 
 Ce diferențiază Univer e segmentul High-Tech al gamei: cilindri telescopici seria RT, cu 2 sau 3 trepte de extindere, cilindri ovali seria OV cu alezaj între 18 și 80 mm pentru montaje compacte și cuplate, și unități de blocare seria L1-N pentru fixarea tijei în poziție. Electrovalvele poppet seria AG, cu porturi de la G1/8 la G1 1/2, sunt gândite pentru aplicații de vid, cu variantă servoasistată disponibilă. Gama include și cilindri pneumatici standard seria L; detaliile constructive se confirmă din catalogul producătorului. În categoria automatizării pneumatice, Univer se compară cu Camozzi, ambele oferind game complete de cilindri, electrovalve și accesorii pentru linii de producție automatizate.
 
@@ -484,15 +484,15 @@ Pentru un integrator de linii automatizate din România, gama Univer are sens ac
       { code: "Accesorii Pneumatice Univer", description: "racorduri și accesorii pentru sisteme cu aer comprimat" },
     ],
     faq: [
-      { q: "Ce produce Univer?", a: "Univer fabrică electrovalve pneumatice, cilindri standard și speciali (telescopici, ovali), unități de blocare și grupuri de tratare a aerului, cu sediul la Bione, Brescia, Italia, activ din 1971." },
+      { q: "Ce produce Univer?", a: "Univer fabrică electrovalve pneumatice, cilindri standard și speciali (telescopici, ovali), unități de blocare și grupuri de tratare a aerului, producător italian activ din 1971." },
       { q: "Cum aleg cilindrul pneumatic Univer potrivit pentru linia mea?", a: "Aveți nevoie de cursa necesară, alezajul, presiunea de lucru și spațiul disponibil pentru montaj. Pentru spații reduse cu curse mari, seria telescopică RT ocupă mai puțin decât un cilindru standard retras complet." },
       { q: "Ce este seria AG de electrovalve Univer?", a: "AG este seria de electrovalve poppet Univer pentru aplicații de vid, cu porturi de la G1/8 la G1 1/2 și variantă servoasistată disponibilă." },
       { q: "Livrați componente Univer în România și cât durează?", a: "Da, aducem electrovalve, cilindri și accesorii Univer la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Termenul exact depinde de serie și de configurația exactă cerută." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
-    lastVerified: "2026-10-05",
-    changelog: [{ date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-08",
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat localitatea Bione, neconfirmată.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-25", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Pneumatic Automation - Univer Group", url: "https://www.univer-group.com/en/univer-pneumatic-automation.php", publisher: "Univer S.p.A.", accessed: "2026-09-25" },
       { title: "AG Series - Poppet Valves - Univer Group", url: "https://www.univer-group.com/en/valves/poppet-valves/info-ag.php", publisher: "Univer S.p.A.", accessed: "2026-09-25" },
