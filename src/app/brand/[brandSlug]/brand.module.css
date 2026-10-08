@@ -994,3 +994,63 @@
 .faqQuestion { font-size: 18px; font-weight: 600; color: #0f172a; margin: 0 0 8px; }
 .faqAnswer { margin: 0; color: #334155; line-height: 1.6; }
 @media (max-width: 640px) { .codesTable th, .codesTable td { padding: 8px 10px; font-size: 14px; } .faqItem { padding: 14px 16px; } .faqQuestion { font-size: 16px; } }
+
+/* v40: tipuri de echipamente ca listă scurtă (link spre pagina tipului + adăugare la cerere) */
+.typeChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.typeChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 6px 6px 16px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-700);
+  max-width: 100%;
+}
+
+.typeChip a {
+  color: var(--gray-700);
+  text-decoration: none;
+}
+
+.typeChip a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.typeChipBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--gray-200);
+  border-radius: 6px;
+  background: white;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.typeChipBtn:hover {
+  border-color: var(--primary);
+}
+
+.typeChipBtn.inCart {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}

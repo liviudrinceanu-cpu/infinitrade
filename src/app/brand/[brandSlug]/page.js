@@ -9,6 +9,7 @@ import { getPrimaryForDuplicate } from '@/data/duplicateBrands';
 import { getRelatedBrandsByCategory } from '@/data/brandView';
 import { getSeriesForBrand } from '@/data/series/_index';
 import { brandSeoMeta } from '@/data/brandSeoMeta';
+import { hasProductTypePage } from '@/data/productTypeContent/_index';
 
 // Generate static params for all brand pages (simple slugs)
 export async function generateStaticParams() {
@@ -148,7 +149,7 @@ export default async function BrandPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: safeJsonLd(jsonLd) }}
       />
-      <BrandPageClient brand={brand} primaryDuplicate={(() => { const p = getPrimaryForDuplicate(brand.simpleSlug); const pb = p && getBrandByAnySlug(p); return pb ? { slug: pb.simpleSlug, name: pb.name } : null; })()} relatedByCategory={getRelatedBrandsByCategory(brand)} brandContent={content} seriesPages={getSeriesForBrand(brand.simpleSlug)} />
+      <BrandPageClient brand={brand} primaryDuplicate={(() => { const p = getPrimaryForDuplicate(brand.simpleSlug); const pb = p && getBrandByAnySlug(p); return pb ? { slug: pb.simpleSlug, name: pb.name } : null; })()} relatedByCategory={getRelatedBrandsByCategory(brand)} brandContent={content} seriesPages={getSeriesForBrand(brand.simpleSlug)} typePages={brand.categories.flatMap((c) => (c.productTypes || []).filter((t) => hasProductTypePage(c.slug, t.slug)).map((t) => `${c.slug}/${t.slug}`))} />
     </>
   );
 }
