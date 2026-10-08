@@ -8,6 +8,7 @@ import BrandPageClient from './BrandPageClient';
 import { getPrimaryForDuplicate } from '@/data/duplicateBrands';
 import { getRelatedBrandsByCategory } from '@/data/brandView';
 import { getSeriesForBrand } from '@/data/series/_index';
+import { brandSeoMeta } from '@/data/brandSeoMeta';
 
 // Generate static params for all brand pages (simple slugs)
 export async function generateStaticParams() {
@@ -86,6 +87,14 @@ export async function generateMetadata({ params }) {
   }
   let description = cut ? `${lead}: ${cut}.${tail}` : `${lead}.${tail}`;
   if (description.length < 110) description += ' Ofertă pe cod de produs, la comandă sau din stoc.';
+
+  // v39: brandurile cu afișări în Google (GSC, pozițiile 4–20) au titlu și
+  // descriere scrise manual, după căutările reale; restul păstrează generatorul.
+  const seo = brandSeoMeta[brand.simpleSlug];
+  if (seo) {
+    title.absolute = seo.title;
+    description = seo.description;
+  }
 
   return {
     title,

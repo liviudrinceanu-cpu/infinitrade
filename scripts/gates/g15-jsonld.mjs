@@ -55,7 +55,9 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import ts from '/opt/node-tools/node_modules/typescript/lib/typescript.js';
+// Pe Mac din node_modules al proiectului; în clona cloud din /opt/node-tools.
+const ts = (await import('typescript').catch(() =>
+  import('/opt/node-tools/node_modules/typescript/lib/typescript.js'))).default;
 import { makeFinding } from './_lib/report.mjs';
 
 const KNOWN_TEMPLATES = [
