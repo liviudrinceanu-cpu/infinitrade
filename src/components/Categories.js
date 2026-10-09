@@ -109,7 +109,7 @@ export default function Categories() {
                     {/* CTA + Add Button */}
                     <div className={styles.cardActions}>
                       <div className={styles.cardCta}>
-                        <span>Explorează</span>
+                        <span>Vedeți categoria</span>
                         <ArrowRight size={18} />
                       </div>
                       <button

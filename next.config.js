@@ -191,6 +191,9 @@ const nextConfig = {
       { source: '/karcher-masini-maturat-aspirat-post-conducere/:path*', destination: '/brand/karcher-industrial', permanent: true },
       { source: '/karcher-masini-maturat-aspirat-post-conducere', destination: '/brand/karcher-industrial', permanent: true },
       { source: '/ari-armaturen-romania', destination: '/brand/ari-armaturen', permanent: true },
+      // v45: URL-uri vechi raportate de Search Console ca 5xx (azi 404)
+      { source: '/kern-sohn-pentru-chimie-microscoape-refractometre-balante-analitice-canta', destination: '/brand/kern', permanent: true },
+      { source: '/uscator-rufe-industrial-uscator-rufe-profesional-:model', destination: '/', permanent: true },
       { source: '/imbracaminte-de-protectie', destination: '/echipamente-auxiliare/protectie-munca', permanent: true },
       { source: '/manusi-de-protectie', destination: '/echipamente-auxiliare/protectie-munca', permanent: true },
 

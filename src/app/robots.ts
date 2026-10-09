@@ -4,7 +4,8 @@ import { config } from '@/lib/config';
 const DISALLOW = [
   '/admin/',
   '/api/',
-  '/_next/',
+  // v45: /_next/ nu se mai blochează — Google trebuie să încarce CSS/JS ca să
+  // randeze paginile (Search Console raporta 44 de fișiere /_next/static blocate).
   '/private/',
   '/download/',
 ];
