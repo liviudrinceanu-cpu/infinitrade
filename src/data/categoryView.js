@@ -6,12 +6,14 @@
 // convention: never import this module from a client component.
 //
 // Ordering rules are unchanged from v11/v12 (D-2026-09-22 C): featured, then
-// brands with a sourced content page, then Romanian search demand (ordering
-// only, never a rendered figure), then name.
+// brands with a sourced content page, then Google impressions of the brand page
+// (Search Console, v44 — src/data/gscBrandImpressions.js), then Romanian search
+// demand (ordering only, never a rendered figure), then name.
 
 import { allCategoriesUnified } from './allBrandsIndex';
 import { hasBrandContent } from './brandContent';
 import { getBrandDemand } from './brandDemand';
+import { getGscBrandImpressions } from './gscBrandImpressions';
 import { getBrandsForProductType } from './brandCategoryLinks';
 import { getUsBrandsForCategory } from './usBrands';
 import { getCategoryFaq } from './categoryFaq';
@@ -38,9 +40,9 @@ export function buildCategoryView(category) {
   const ranked = [...(category.brands || [])]
     .map((b) => {
       const simpleSlug = toSimpleSlug(b.slug);
-      return { name: b.name, simpleSlug, description: b.description || '', featured: Boolean(b.featured), hasContent: hasBrandContent(simpleSlug), demand: getBrandDemand(simpleSlug) };
+      return { name: b.name, simpleSlug, description: b.description || '', featured: Boolean(b.featured), hasContent: hasBrandContent(simpleSlug), demand: getBrandDemand(simpleSlug), gsc: getGscBrandImpressions(simpleSlug) };
     })
-    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
+    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.gsc - a.gsc) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
 
   const rankBySlug = new Map(ranked.map((b, i) => [b.simpleSlug, i]));
   const nameBySlug = new Map(ranked.map((b) => [b.simpleSlug, b.name]));
@@ -57,7 +59,7 @@ export function buildCategoryView(category) {
     brandCount: ranked.length,
     featuredNames: ranked.filter((b) => b.featured).slice(0, 5).map((b) => b.name),
     // Cards carry the description; the A–Z list needs only name/slug/flag.
-    topBrands: ranked.slice(0, TOP_CARDS).map(({ demand, ...b }) => b),
+    topBrands: ranked.slice(0, TOP_CARDS).map(({ demand, gsc, ...b }) => b),
     azBrands: ranked.map((b) => ({ name: b.name, simpleSlug: b.simpleSlug, hasContent: b.hasContent })),
     typeBrands,
     usBrands: getUsBrandsForCategory(category.slug).map((b) => ({ simpleSlug: b.simpleSlug, name: b.name, hasContent: Boolean(b.hasContent), euAvailability: b.euAvailability || null })),

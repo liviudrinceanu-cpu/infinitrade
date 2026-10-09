@@ -9,6 +9,7 @@ import { allCategoriesUnified, getBrandByAnySlug, isBrandNoindex } from '@/data/
 import { getBrandsForProductType } from '@/data/brandCategoryLinks';
 import { getBrandsWithContent } from '@/data/brandContent';
 import { getBrandDemand } from '@/data/brandDemand';
+import { getGscBrandImpressions } from '@/data/gscBrandImpressions';
 import { productTypeIndex, getProductTypeContent, getProductTypesForCategory } from '@/data/productTypeContent/_index';
 import base from '../../brand/brand-index.module.css';
 import styles from './type.module.css';
@@ -51,9 +52,10 @@ function rankedBrandsForType(typeSlug) {
       hasContent: contentSlugs.has(b.simpleSlug),
       indexed: !isBrandNoindex(b.simpleSlug, contentSlugs),
       demand: getBrandDemand(b.simpleSlug),
+      gsc: getGscBrandImpressions(b.simpleSlug),
       featured: Boolean(b.featured),
     }))
-    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
+    .sort((a, b) => (Number(b.featured) - Number(a.featured)) || (Number(b.hasContent) - Number(a.hasContent)) || (b.gsc - a.gsc) || (b.demand - a.demand) || a.name.localeCompare(b.name, 'ro'));
 }
 
 const trim = (s, n) => (s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…');
