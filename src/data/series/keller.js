@@ -117,7 +117,7 @@ export const series = [
     "oneLine": "Manometre digitale KELLER (LEO1, LEO2, LEO3, LEO Ultimate) pentru service, testare și calibrare.",
     "lifecycle": "activ",
     "lifecycleNote": "Pe keller-pressure.com sunt active paginile LEO1, LEO2, LEO3 și LEO Ultimate, iar fișa tehnică LEO2 are ediția 06/2025. Adresa paginii LEO5 de pe site-ul producătorului redirecționează în prezent către LEO Ultimate, deci LEO5 nu mai apare ca pagină proprie de produs.",
-    "intro": "Seria LEO reunește manometrele digitale KELLER cu element de măsură piezorezistiv și afișaj LCD, destinate service-ului, testării și calibrării. LEO1 și LEO2 funcționează cu o baterie CR2430 și afișează presiunea împreună cu valoarea minimă sau maximă de la ultima resetare. LEO3 adaugă ieșire 4...20 mA, prin a cărei buclă este alimentat, și interfață RS485. LEO Ultimate este instrumentul de referință al producătorului, cu interfețe USB și Bluetooth și carcasă metalică IP67.\n\nOferta o pregătim pe baza identificării exacte a manometrului. Vă rugăm să ne trimiteți denumirea modelului (LEO1, LEO2, LEO2-Ei, LEO3 sau Ultimate; la LEO5 ne ajută o fotografie a plăcuței), intervalul de presiune în bar, tipul de racord și, dacă este cazul, dacă instrumentul lucrează în zonă cu pericol de explozie. Verificăm configurația în documentația curentă a producătorului înainte de ofertă. Termenul este de regulă de 1–4 săptămâni la comandă, iar din stoc propriu sau extern, când există, 24–72 h.",
+    "intro": "Seria LEO reunește manometrele digitale KELLER cu element de măsură piezorezistiv și afișaj LCD, destinate service-ului, testării și calibrării. LEO1 și LEO2 funcționează cu o baterie CR2430 și afișează presiunea împreună cu valoarea minimă sau maximă de la ultima resetare. LEO3 adaugă ieșire 4...20 mA, prin a cărei buclă este alimentat, și interfață RS485. LEO Ultimate este instrument de referință de înaltă precizie, cu interfețe USB și Bluetooth și carcasă metalică IP67.\n\nOferta o pregătim pe baza identificării exacte a manometrului. Vă rugăm să ne trimiteți denumirea modelului (LEO1, LEO2, LEO2-Ei, LEO3 sau Ultimate; la LEO5 ne ajută o fotografie a plăcuței), intervalul de presiune în bar, tipul de racord și, dacă este cazul, dacă instrumentul lucrează în zonă cu pericol de explozie. Verificăm configurația în documentația curentă a producătorului înainte de ofertă. Termenul este de regulă de 1–4 săptămâni la comandă, iar din stoc propriu sau extern, când există, 24–72 h.",
     "models": [
       {
         "code": "LEO1",
@@ -189,7 +189,6 @@ export const series = [
     "applications": [
       "service și mentenanță industrială",
       "calibrare și testare",
-      "verificarea instalațiilor de presiune",
       "integrare în sisteme de magistrală (LEO3)"
     ],
     "accessories": [

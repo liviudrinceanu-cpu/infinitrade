@@ -107,7 +107,7 @@ export const series = [
       },
       {
         "q": "Care este diferența dintre variantele AR, FC și FCM?",
-        "a": "Conform cărții de date din 2024, AR este varianta standard cu releu de alarmă și intrare analogică, FC adaugă FlowControl, iar FCM adaugă și măsurarea integrată a debitului. Generația DDA-C folosește codurile AR-C și FCM-C."
+        "a": "Conform cărții de date din 2024, AR este varianta standard DDA, FC adaugă FlowControl, iar FCM adaugă și măsurarea integrată a debitului. Generația DDA-C folosește codurile AR-C și FCM-C."
       }
     ],
     "limitation": "Cererea noastră este pe codul „SMART Digital DDA 7.5-16 PV/V/C”, fără variantă de control. Combinația completă de cod cu PV/V/C pentru mărimea 7.5-16 nu apare în tabelele de gamă standard citite (acolo apar PP/V/C, PVC/V/C și PV/T/C pentru 7.5-16, iar PV/V/C pentru 12-10, 17-7 și 30-4 în generația DDA-C); tabelul de selecție permite configurarea capului PVDF, dar nu am confirmat disponibilitatea exactă. Paginile web Grundfos de produs nu au putut fi citite integral (conținut încărcat dinamic), deci cifrele provin din cărțile de date oficiale. Nu am confirmat statutul de producție al variantei DDA fără -C.",
