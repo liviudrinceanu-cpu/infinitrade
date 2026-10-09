@@ -107,6 +107,143 @@ export const series = [
       }
     ],
     "dateModified": "2026-09-23"
+  },
+  {
+    "brand": "keller",
+    "demandBrandKey": "keller",
+    "family": "senzori/instrumentație",
+    "slug": "leo",
+    "name": "Seria LEO",
+    "oneLine": "Manometre digitale KELLER (LEO1, LEO2, LEO3, LEO Ultimate) pentru service, testare și calibrare.",
+    "lifecycle": "activ",
+    "lifecycleNote": "Pe keller-pressure.com sunt active paginile LEO1, LEO2, LEO3 și LEO Ultimate, iar fișa tehnică LEO2 are ediția 06/2025. Adresa paginii LEO5 de pe site-ul producătorului redirecționează în prezent către LEO Ultimate, deci LEO5 nu mai apare ca pagină proprie de produs.",
+    "intro": "Seria LEO reunește manometrele digitale KELLER cu element de măsură piezorezistiv și afișaj LCD, destinate service-ului, testării și calibrării. LEO1 și LEO2 funcționează cu o baterie CR2430 și afișează presiunea împreună cu valoarea minimă sau maximă de la ultima resetare. LEO3 adaugă ieșire 4...20 mA, prin a cărei buclă este alimentat, și interfață RS485. LEO Ultimate este instrument de referință de înaltă precizie, cu interfețe USB și Bluetooth și carcasă metalică IP67.\n\nOferta o pregătim pe baza identificării exacte a manometrului. Vă rugăm să ne trimiteți denumirea modelului (LEO1, LEO2, LEO2-Ei, LEO3 sau Ultimate; la LEO5 ne ajută o fotografie a plăcuței), intervalul de presiune în bar, tipul de racord și, dacă este cazul, dacă instrumentul lucrează în zonă cu pericol de explozie. Verificăm configurația în documentația curentă a producătorului înainte de ofertă. Termenul este de regulă de 1–4 săptămâni la comandă, iar din stoc propriu sau extern, când există, 24–72 h.",
+    "models": [
+      {
+        "code": "LEO1",
+        "note": "−1...3 până la 0...1000 bar, ±0,1 %FS, înregistrare de vârf, fără interfață"
+      },
+      {
+        "code": "LEO2",
+        "note": "0...4 până la 0...700 bar, ±0,1 %FS, fără interfață, baterie CR2430"
+      },
+      {
+        "code": "LEO2-Ei",
+        "note": "variantă cu securitate intrinsecă a LEO2, pentru atmosfere potențial explozive (menționată în fișa tehnică)"
+      },
+      {
+        "code": "LEO3",
+        "note": "−1...3 până la 0...1000 bar, ieșire 4...20 mA și RS485"
+      },
+      {
+        "code": "LEO Ultimate",
+        "note": "−1...1 până la 0...1000 bar, ±0,05 %FS, USB și Bluetooth, IP67"
+      },
+      {
+        "code": "LEO5",
+        "note": "denumire cerută frecvent; pagina producătorului redirecționează către LEO Ultimate, specificațiile se confirmă pe instrumentul existent"
+      }
+    ],
+    "specs": [
+      {
+        "label": "Interval de presiune LEO2",
+        "value": "0...4 – 0...700",
+        "unit": "bar"
+      },
+      {
+        "label": "Interval de presiune LEO1 și LEO3",
+        "value": "−1...3 – 0...1000",
+        "unit": "bar"
+      },
+      {
+        "label": "Precizie LEO1, LEO2, LEO3",
+        "value": "±0,1",
+        "unit": "%FS"
+      },
+      {
+        "label": "Bandă totală de eroare LEO1, LEO2, LEO3",
+        "value": "±0,2",
+        "unit": "%FS la 0...50 °C"
+      },
+      {
+        "label": "Precizie LEO Ultimate",
+        "value": "±0,05 (opțional ±0,01)",
+        "unit": "%FS"
+      },
+      {
+        "label": "Alimentare",
+        "value": "CR2430 (LEO1, LEO2); buclă 4...20 mA (LEO3)",
+        "unit": ""
+      },
+      {
+        "label": "Interfețe",
+        "value": "LEO3: RS485 și 4...20 mA; LEO Ultimate: USB 2.0 și Bluetooth BLE",
+        "unit": ""
+      },
+      {
+        "label": "Autonomie baterie LEO2",
+        "value": "până la 1000",
+        "unit": "ore"
+      }
+    ],
+    "applications": [
+      "service și mentenanță industrială",
+      "calibrare și testare",
+      "integrare în sisteme de magistrală (LEO3)"
+    ],
+    "accessories": [
+      "software PressureSuite Desktop",
+      "convertor K-114 (listat la LEO3)",
+      "adaptor rotativ (LEO2)"
+    ],
+    "faq": [
+      {
+        "q": "Ce trebuie să trimit pentru o ofertă la un manometru LEO?",
+        "a": "Denumirea modelului de pe instrument (LEO1, LEO2, LEO3, LEO Ultimate), intervalul de presiune în bar și tipul de racord. Dacă aveți LEO5 sau un cod din care nu reiese configurația, o fotografie a plăcuței ne permite să identificăm instrumentul."
+      },
+      {
+        "q": "Pot înlocui un LEO5?",
+        "a": "Pagina LEO5 de pe site-ul producătorului redirecționează către LEO Ultimate. Nu avem o fișă oficială actuală pentru LEO5, așa că echivalența funcțională și domeniul de presiune se confirmă pe baza datelor instrumentului existent înainte de ofertă."
+      },
+      {
+        "q": "Există variantă pentru zone cu pericol de explozie?",
+        "a": "Fișa tehnică LEO2 menționează varianta cu securitate intrinsecă LEO2-Ei. Pentru ea se admite doar bateria CR2430 de la Renata. Încadrarea exactă o verificăm în documentația producătorului."
+      }
+    ],
+    "limitation": "Nu am confirmat din surse oficiale specificațiile actuale ale LEO5 și nici codurile de comandă complete (conexiune de proces, variante). Pe paginile LEO1 și LEO3 nu sunt fișe tehnice descărcabile; fișa citită integral este cea a LEO2.",
+    "sources": [
+      {
+        "title": "LEO2",
+        "url": "https://keller-pressure.com/en/products/digital-pressure-gauges/digital-pressure-gauges/leo2",
+        "publisher": "KELLER Pressure",
+        "accessed": "2026-10-09"
+      },
+      {
+        "title": "LEO2 – datasheet, ediția 06/2025",
+        "url": "https://download.keller-pressure.com/api/download/hLx49dxhQdRUgmE3SZP7N/en/latest.pdf",
+        "publisher": "KELLER Pressure",
+        "accessed": "2026-10-09"
+      },
+      {
+        "title": "LEO1",
+        "url": "https://keller-pressure.com/en/products/digital-pressure-gauges/digital-pressure-gauges/leo1",
+        "publisher": "KELLER Pressure",
+        "accessed": "2026-10-09"
+      },
+      {
+        "title": "LEO3",
+        "url": "https://keller-pressure.com/en/products/digital-pressure-gauges/digital-pressure-gauges/leo3",
+        "publisher": "KELLER Pressure",
+        "accessed": "2026-10-09"
+      },
+      {
+        "title": "LEO Ultimate",
+        "url": "https://keller-pressure.com/en/products/digital-pressure-gauges/digital-pressure-gauges/leo-ultimate",
+        "publisher": "KELLER Pressure",
+        "accessed": "2026-10-09"
+      }
+    ],
+    "dateModified": "2026-10-09"
   }
 ];
 export default series;

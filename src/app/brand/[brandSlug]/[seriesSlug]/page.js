@@ -43,8 +43,15 @@ export async function generateMetadata({ params }) {
     `${displayName} | Infinitrade`,
     displayName,
   ].find((t) => t.length <= 65) || displayName;
-  const description0 = `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiteți pentru o ofertă. Cereți ofertă.`;
-  const description = description0.length <= 158 ? description0 : description0.slice(0, 157).replace(/[\s,;:–-]+\S*$/, '') + '…';
+  // v41: fără text tăiat cu „…” — se renunță întâi la fraza de mijloc, apoi la îndemn.
+  const descriptionVariants = [
+    `${s.oneLine} Coduri de tip, parametri din documentația ${brand.name} și ce trebuie să trimiteți pentru o ofertă. Cereți ofertă.`,
+    `${s.oneLine} Coduri de tip și parametri din documentația ${brand.name}. Cereți ofertă.`,
+    `${s.oneLine} Cereți ofertă pe cod.`,
+    s.oneLine,
+  ];
+  const description = descriptionVariants.find((d) => d.length <= 158)
+    || s.oneLine.slice(0, 157).replace(/[\s,;:–-]+\S*$/, '') + '…';
   const url = `${config.site.url}/brand/${brandSlug}/${seriesSlug}`;
   return {
     title: { absolute: title },
