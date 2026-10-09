@@ -40,6 +40,7 @@ export default function CerereDetaliiPage() {
   const [saving, setSaving] = useState(false);
   const [newNote, setNewNote] = useState('');
   const [showNoteForm, setShowNoteForm] = useState(false);
+  const [actionError, setActionError] = useState('');
 
   useEffect(() => {
     fetchRequest();
@@ -78,10 +79,35 @@ export default function CerereDetaliiPage() {
       });
 
       if (res.ok) {
+        setActionError('');
         fetchRequest();
+      } else {
+        setActionError('Statusul nu a putut fi salvat. Reîncărcați pagina și încercați din nou.');
       }
     } catch (error) {
       console.error('Failed to update status:', error);
+      setActionError('Statusul nu a putut fi salvat. Verificați conexiunea.');
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  // v50: ștergere definitivă (doar ADMIN, verificat și pe server), cu confirmare.
+  const handleDelete = async () => {
+    if (!confirm('Ștergeți definitiv această cerere și comunicările ei? Acțiunea nu poate fi anulată.')) return;
+    setSaving(true);
+    try {
+      const res = await fetch(`/api/admin/cereri/${params.id}`, { method: 'DELETE' });
+      if (res.ok) {
+        router.push('/admin/cereri');
+        return;
+      }
+      setActionError(res.status === 401
+        ? 'Doar un administrator poate șterge cereri.'
+        : 'Cererea nu a putut fi ștearsă. Încercați din nou.');
+    } catch (error) {
+      console.error('Failed to delete request:', error);
+      setActionError('Cererea nu a putut fi ștearsă. Verificați conexiunea.');
     } finally {
       setSaving(false);
     }
@@ -413,6 +439,16 @@ export default function CerereDetaliiPage() {
                 Sună Client
               </a>
             )}
+
+            {actionError && <p className={styles.actionError} role="alert">{actionError}</p>}
+
+            <div className={styles.actionDivider}></div>
+            <button type="button" onClick={handleDelete} disabled={saving} className={styles.deleteBtn}>
+              Ștergeți cererea
+            </button>
+            <p className={styles.deleteHint}>
+              Pentru cereri de test sau spam. O cerere reală închisă se marchează „Finalizată” sau „Anulată”.
+            </p>
           </section>
 
           {/* Estimates */}
