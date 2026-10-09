@@ -1,7 +1,8 @@
 import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
-import { csrfProtection } from '@/lib/csrf';
+import { csrfProtection, validateContentType } from '@/lib/csrf';
+import { isValidId } from '@/lib/ids';
 
 // Force dynamic rendering (uses auth headers)
 export const dynamic = 'force-dynamic';
@@ -92,5 +93,38 @@ export async function GET(request) {
       { error: 'Eroare la încărcarea datelor', requests: [], total: 0, page: 1, totalPages: 0 },
       { status: 500 }
     );
+  }
+}
+
+// v51: ștergere în bloc din listă — body { ids: string[] } (1–100 de ID-uri
+// cuid/UUID). Doar ADMIN; comunicările se șterg în cascadă (schema Prisma).
+const MAX_BULK_DELETE = 100;
+
+export async function DELETE(request) {
+  try {
+    const csrfError = csrfProtection(request);
+    if (csrfError) return csrfError;
+
+    const contentTypeResult = validateContentType(request);
+    if (!contentTypeResult.valid) {
+      return NextResponse.json({ error: contentTypeResult.error }, { status: 400 });
+    }
+
+    const session = await auth();
+    if (!session || session.user.role !== 'ADMIN') {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const body = await request.json().catch(() => null);
+    const ids = Array.isArray(body?.ids) ? [...new Set(body.ids)] : [];
+    if (ids.length === 0 || ids.length > MAX_BULK_DELETE || !ids.every(isValidId)) {
+      return NextResponse.json({ error: `Trimiteți între 1 și ${MAX_BULK_DELETE} ID-uri valide.` }, { status: 400 });
+    }
+
+    const result = await prisma.quoteRequest.deleteMany({ where: { id: { in: ids } } });
+    return NextResponse.json({ success: true, deleted: result.count });
+  } catch (error) {
+    console.error('Error bulk-deleting quote requests:', error);
+    return NextResponse.json({ error: 'Cererile nu au putut fi șterse.' }, { status: 500 });
   }
 }
