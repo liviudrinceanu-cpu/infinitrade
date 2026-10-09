@@ -2,6 +2,7 @@ import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
+import { isValidId } from '@/lib/ids';
 
 // Valid status values (must match Prisma enum)
 const VALID_STATUSES = ['NEW', 'IN_PROGRESS', 'QUOTE_SENT', 'COMPLETED', 'CANCELLED'];
@@ -75,8 +76,8 @@ export async function PUT(request, { params }) {
 
     const { id } = await params;
 
-    // Validate ID format (UUID)
-    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+    // Validate ID format (cuid sau UUID)
+    if (!id || !isValidId(id)) {
       return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
     }
 
@@ -187,8 +188,8 @@ export async function DELETE(request, { params }) {
 
     const { id } = await params;
 
-    // Validate ID format (UUID)
-    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+    // Validate ID format (cuid sau UUID)
+    if (!id || !isValidId(id)) {
       return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
     }
 

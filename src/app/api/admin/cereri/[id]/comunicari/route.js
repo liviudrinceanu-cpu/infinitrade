@@ -2,6 +2,7 @@ import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
+import { isValidId } from '@/lib/ids';
 
 // Valid communication types (must match Prisma CommType enum)
 const VALID_TYPES = ['NOTE', 'EMAIL_SENT', 'CALL', 'STATUS_CHANGE'];
@@ -30,8 +31,8 @@ export async function POST(request, { params }) {
 
     const { id } = await params;
 
-    // Validate ID format (UUID)
-    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+    // Validate ID format (cuid sau UUID)
+    if (!id || !isValidId(id)) {
       return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
     }
 
@@ -122,8 +123,8 @@ export async function GET(request, { params }) {
 
     const { id } = await params;
 
-    // Validate ID format (UUID)
-    if (!id || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id)) {
+    // Validate ID format (cuid sau UUID)
+    if (!id || !isValidId(id)) {
       return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
     }
 

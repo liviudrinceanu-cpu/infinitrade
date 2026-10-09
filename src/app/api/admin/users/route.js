@@ -4,12 +4,12 @@ import { NextResponse } from 'next/server';
 import bcrypt from 'bcryptjs';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 import { checkName, checkEmail, passwordProblems } from '@/lib/formValidation';
+import { isValidId } from '@/lib/ids';
 
 // Valid roles (must match Prisma enum)
 const VALID_ROLES = ['ADMIN', 'SALES'];
 
 // UUID regex pattern for ID validation
-const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 // v33: regula parolei vine din src/lib/formValidation.js (aceeași în pagină).
 const validatePassword = passwordProblems;
@@ -149,7 +149,7 @@ export async function DELETE(request) {
     }
 
     // Validate ID format (UUID)
-    if (!UUID_PATTERN.test(id)) {
+    if (!isValidId(id)) {
       return NextResponse.json({ error: 'Identificatorul utilizatorului nu este valid.' }, { status: 400 });
     }
 
