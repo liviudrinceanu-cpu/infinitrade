@@ -34,7 +34,7 @@ const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcin
   || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 1–4 săptămâni din fabrică (raritățile și sistemele complexe pot dura mai mult; termenul exact îl confirmăm în ofertă).';
 const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
 
-export default function BrandPageClient({ brand, primaryDuplicate = null, relatedByCategory = {}, brandContent, seriesPages = [] }) {
+export default function BrandPageClient({ brand, primaryDuplicate = null, relatedByCategory = {}, brandContent, seriesPages = [], typePages = [] }) {
   // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
   // element, and hiding it until hydration pushed LCP past 2.5 s on mobile.
   const [heroRef] = useIntersectionObserver();
@@ -241,32 +241,17 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
           </section>
         )}
 
-        {/* B-02 - Ce avem pe stoc de la <Brand>? - never omitted: the honest
-            sourcing statement is a fact the manufacturer's own site does not
-            carry (decisions-coverage-aeo.md §A4.3). Real stock.tsv-backed
-            facts are F3-03/F4's job (ownFact field, not yet on this data
-            model); until then this renders the registry sourcing statement
-            verbatim, brand name interpolated. */}
+        {/* B-02 + B-03 - Ce avem pe stoc și cât durează livrarea la <Brand>?
+            v40: comasate într-un singur paragraf (înainte, două secțiuni cu
+            patru fraze identice pe toate paginile de brand). Termenele rămân
+            cele din src/data/leadTimes.js, nicio promisiune per brand. */}
         <section className={styles.aboutSection}>
           <div className={styles.container}>
-            <h2 className={styles.richSectionTitle}>Ce avem pe stoc de la {brand.name}?</h2>
+            <h2 className={styles.richSectionTitle}>Ce avem pe stoc de la {brand.name} și cât durează livrarea?</h2>
             <p className={styles.sectionLead}>
-              {brandContent?.ownFact || SOURCING_STATEMENT.replace(/<Brand>/g, brand.name)}
-            </p>
-          </div>
-        </section>
-
-        {/* B-03 - Cât durează livrarea la <Brand>? - both standing lead
-            times, never a brand-specific promise, never a number outside
-            entityFacts.leadTimePhrases. */}
-        <section className={styles.aboutSection}>
-          <div className={styles.container}>
-            <h2 className={styles.richSectionTitle}>Cât durează livrarea la {brand.name}?</h2>
-            {/* v17 (D-2026-09-26): same three-tier wording as the category
-                pages (src/data/leadTimes.js, owner decision). */}
-            <p className={styles.sectionLead}>
-              Pentru produsele {brand.name}: {CATEGORY_LEAD_TIME.stock.charAt(0).toLowerCase() + CATEGORY_LEAD_TIME.stock.slice(1)}{' '}
-              {CATEGORY_LEAD_TIME.factory} {CATEGORY_LEAD_TIME.special}
+              {brandContent?.ownFact
+                ? <>{brandContent.ownFact} {CATEGORY_LEAD_TIME.factory}</>
+                : <>Livrăm {brand.name} în 24–72 h când reperul e în stocul nostru sau în stoc extern; la comandă, de regulă 1–4 săptămâni, iar sistemele complexe pot depăși 4 săptămâni. Termenul exact îl confirmăm în ofertă.</>}
             </p>
           </div>
         </section>
@@ -312,55 +297,43 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
         {/* Rich Brand Content (when available) OR Generic About */}
         {brandContent ? (
           <>
-            {/* B-06 - Ce tipuri de echipamente are <Brand>? */}
+            {/* B-06 - Ce tipuri de echipamente are <Brand>? v40: listă scurtă,
+                fără descrierile tipurilor (identice pe toate brandurile din
+                categorie); fiecare tip duce la pagina lui, când există, și se
+                poate adăuga la cerere. */}
             {productTypes.length > 0 && (
-              <section className={styles.productsSection} ref={productsRef}>
+              <section className={styles.industriesSection} ref={productsRef}>
                 <div className={styles.container}>
-                  <div className={styles.sectionHeader}>
-                    <h2>Ce tipuri de echipamente are {brand.name}?</h2>
-                    <p>
-                      Gama {brand.name} din categoria {category.name.toLowerCase()} cuprinde {productTypes.length}{' '}
-                      tipuri de echipamente. Selectați produsele de care aveți nevoie și solicitați oferta.
-                    </p>
-                  </div>
-                  <div className={styles.productsGrid}>
-                    {productTypes.map((type, index) => (
-                      <div
-                        key={type.slug}
-                        className={`${styles.productCard} animate-fade-up animate-delay-${Math.min(Math.floor(index * 0.5) + 1, 6)} ${productsVisible ? 'is-visible' : ''}`}
-                      >
-                        <div className={styles.productCardContent}>
-                          <h3>{type.name}</h3>
-                          <p>{type.description}</p>
-                          <div className={styles.applications}>
-                            {(type.applications || []).slice(0, 3).map(app => (
-                              <span key={app} className={styles.appTag}>{app}</span>
-                            ))}
-                          </div>
-                        </div>
-                        <div className={styles.productCardActions}>
+                  {/* Tipurile sunt ale categoriei, nu neapărat ale mărcii: titlul nu
+                      afirmă că {brand.name} produce fiecare tip. */}
+                  <h2 className={styles.richSectionTitle}>Ce tipuri de echipamente cuprinde categoria {category.name.toLowerCase()}?</h2>
+                  <ul className={styles.typeChips}>
+                    {productTypes.map((type) => {
+                      const cartName = `${type.name} ${brand.name}`;
+                      const inCart = isInCart(cartName);
+                      return (
+                        <li key={type.slug} className={styles.typeChip}>
+                          {typePages.includes(`${category.slug}/${type.slug}`)
+                            ? <Link href={`/${category.slug}/${type.slug}`}>{type.name}</Link>
+                            : <span>{type.name}</span>}
                           <button
                             type="button"
-                            aria-label={isInCart(`${type.name} ${brand.name}`) ? `${type.name} ${brand.name} este în cerere` : `Adăugați ${type.name} ${brand.name} la cerere`}
-                            title={isInCart(`${type.name} ${brand.name}`) ? 'În cerere' : 'Adăugați la cerere'}
-                            className={`${styles.addBtn} ${isInCart(`${type.name} ${brand.name}`) ? styles.inCart : ''} ${addedAnimation === `${type.name} ${brand.name}` ? styles.adding : ''}`}
+                            aria-label={inCart ? `${cartName} este în cerere` : `Adăugați ${cartName} la cerere`}
+                            title={inCart ? 'În cerere' : 'Adăugați la cerere'}
+                            className={`${styles.typeChipBtn} ${inCart ? styles.inCart : ''}`}
                             onClick={() => handleAddToCart({
                               type: 'product',
-                              name: `${type.name} ${brand.name}`,
+                              name: cartName,
                               category: category.name,
                               url: `/${category.slug}#${type.slug}`
                             })}
                           >
-                            {isInCart(`${type.name} ${brand.name}`) ? (
-                              <Check size={18} />
-                            ) : (
-                              <Plus size={18} />
-                            )}
+                            {inCart ? <Check size={14} /> : <Plus size={14} />}
                           </button>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </section>
             )}
@@ -409,9 +382,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                 <div className={styles.container}>
                   <h2 className={styles.richSectionTitle}>Ce coduri și serii {brand.name} sunt cerute frecvent?</h2>
                   <p className={styles.sectionLead}>
-                    Denumiri de serie și coduri de tip {brand.name} preluate din catalogul public al producătorului,
-                    ca reper pentru identificare — nu o listă de stoc. Trimiteți-ne codul complet de pe plăcuța
-                    echipamentului și primiți ofertă pentru modelul exact sau pentru un echivalent.
+                    Din catalogul public {brand.name}, ca reper de identificare, nu ca listă de stoc.
                   </p>
                   <div className={styles.codesTableWrap}>
                     <table className={styles.codesTable}>
@@ -642,36 +613,10 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <h2>Ce servicii oferim pentru echipamentele {brand.name}?</h2>
-              <p>Vânzare, piese de schimb și suport tehnic pentru echipamentele {brand.name}.</p>
-            </div>
-            <div className={styles.servicesGrid}>
-              <div className={styles.serviceCard}>
-                <h3>Vânzare echipamente</h3>
-                <ul className={styles.serviceList}>
-                  <li><Check size={16} /> Produse originale</li>
-                  <li><Check size={16} /> Consultanță tehnică la selecție</li>
-                  <li><Check size={16} /> Ofertă pe cod de produs</li>
-                  <li><Check size={16} /> Documentele producătorului</li>
-                </ul>
-              </div>
-              <div className={styles.serviceCard}>
-                <h3>Piese de schimb</h3>
-                <ul className={styles.serviceList}>
-                  <li><Check size={16} /> Piese originale</li>
-                  <li><Check size={16} /> Kituri de revizie</li>
-                  <li><Check size={16} /> Livrare din stoc sau la comandă</li>
-                  <li><Check size={16} /> Verificarea compatibilității pe cod</li>
-                </ul>
-              </div>
-              <div className={styles.serviceCard}>
-                <h3>Suport tehnic</h3>
-                <ul className={styles.serviceList}>
-                  <li><Check size={16} /> Dimensionare</li>
-                  <li><Check size={16} /> Documentație tehnică</li>
-                  <li><Check size={16} /> Identificare după plăcuță</li>
-                  <li><Check size={16} /> Recomandări din manualul producătorului</li>
-                </ul>
-              </div>
+              <p>
+                Echipamente noi, piese de schimb și kituri de revizie {brand.name}, cu verificarea
+                compatibilității pe codul de pe plăcuță și documentele producătorului.
+              </p>
             </div>
           </div>
         </section>
@@ -718,14 +663,14 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
         <section className={styles.updatedSection}>
           <div className={styles.container}>
             {Array.isArray(brandContent?.changelog) && brandContent.changelog.length > 0 && (
-              <h2 className={styles.richSectionTitle}>Ce s-a schimbat pe pagina {brand.name}?</h2>
+              <h2 className={styles.richSectionTitle}>Ce s-a schimbat ultima dată pe pagina {brand.name}?</h2>
             )}
             <p className={styles.updatedLine}>
               <strong>Actualizat:</strong> {updatedDate}
             </p>
             {Array.isArray(brandContent?.changelog) && brandContent.changelog.length > 0 && (
               <ul className={styles.serviceList}>
-                {brandContent.changelog.map((entry, i) => (
+                {brandContent.changelog.slice(0, 1).map((entry, i) => (
                   <li key={i} className={styles.changelogNote}>
                     {entry.date && <strong>{entry.date}: </strong>}
                     {entry.note}
