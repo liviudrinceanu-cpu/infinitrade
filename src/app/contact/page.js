@@ -506,6 +506,17 @@ export default function ContactPage() {
                       {isLoading ? 'Se trimite...' : 'Trimiteți cererea'}
                       {!isLoading && <Send size={18} />}
                     </button>
+
+                    {/* v49: promisiunea de răspuns lângă buton și nota de informare
+                        GDPR (art. 13) — fără bifă: datele se folosesc pentru
+                        cererea de ofertă (art. 6 alin. 1 lit. b). */}
+                    <p className={styles.formNote}>
+                      Vă răspundem de regulă în aceeași zi lucrătoare sau în următoarea.
+                    </p>
+                    <p className={styles.formNote}>
+                      Folosim datele din formular doar pentru a vă răspunde și pentru oferta solicitată.
+                      Detalii în <Link href="/politica-confidentialitate">Politica de confidențialitate</Link>.
+                    </p>
                   </form>
                 ) : (
                   <div className={styles.successMessage}>
