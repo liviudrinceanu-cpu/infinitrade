@@ -448,8 +448,8 @@ export default function Header() {
                           url: result.url
                         });
                       }}
-                      title="Adaugă la cerere ofertă"
-                      aria-label={`Adaugă ${result.name} la cerere ofertă`}
+                      title="Adăugați la cererea de ofertă"
+                      aria-label={`Adăugați ${result.name} la cererea de ofertă`}
                     >
                       <Plus size={16} />
                     </button>
@@ -517,7 +517,7 @@ export default function Header() {
                         className={styles.cartSubmit}
                         onClick={() => setIsCartOpen(false)}
                       >
-                        Trimite Cererea
+                        Trimiteți cererea
                       </Link>
                     </div>
                   </>

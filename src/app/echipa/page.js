@@ -130,7 +130,7 @@ export default function EchipaPage() {
             </p>
             <div className={styles.ctaButtons}>
               <Link href="/contact" className={styles.primaryBtn}>
-                Trimite cererea
+                Trimiteți cererea
               </Link>
               <a href="tel:+40371232404" className={styles.secondaryBtn}>
                 +40 371 232 404

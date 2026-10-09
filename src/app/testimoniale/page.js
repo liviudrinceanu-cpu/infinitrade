@@ -200,7 +200,7 @@ export default function TestimonialePage() {
             <p>Scrieți-ne industria, echipamentul și, dacă e cazul, procedura SEAP; revenim cu ce vă putem pune la dispoziție.</p>
             <div className={styles.ctaButtons}>
               <Link href="/contact" className={styles.ctaPrimary}>
-                Cere o referință
+                Cereți o referință
               </Link>
               <Link href="/studii-de-caz" className={styles.ctaSecondary}>
                 Vezi ghidurile de aplicație

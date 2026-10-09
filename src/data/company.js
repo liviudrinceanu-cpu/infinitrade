@@ -72,9 +72,9 @@ export const footerIndustries = [
 
 export const ctaMessages = {
   hero: 'Solicitați o ofertă personalizată',
-  category: 'Cere Specificații Tehnice',
+  category: 'Cereți specificații tehnice',
   brand: 'Verifică Disponibilitate',
-  contact: 'Contactează Echipa Tehnică'
+  contact: 'Contactați echipa tehnică'
 };
 
 // v32.5 (proprietar, 28.09.2026): fără persoană de contact nominală; companiile

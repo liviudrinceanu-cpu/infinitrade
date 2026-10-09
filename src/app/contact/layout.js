@@ -31,7 +31,7 @@ const contactPageSchema = {
   '@type': 'ContactPage',
   '@id': `${config.site.url}/contact#webpage`,
   name: 'Contact Infinitrade Romania',
-  description: 'Contactează Infinitrade Romania pentru oferte personalizate echipamente industriale.',
+  description: 'Contactați Infinitrade Romania pentru oferte personalizate de echipamente industriale.',
   url: `${config.site.url}/contact`,
   isPartOf: {
     '@id': `${config.site.url}/#website`

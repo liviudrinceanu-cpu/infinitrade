@@ -196,7 +196,7 @@ export default function StudiiDeCazPage() {
                     </div>
 
                     <div className={styles.otherFooter}>
-                      <span>Vezi detalii <ArrowRight size={14} /></span>
+                      <span>Vedeți detalii <ArrowRight size={14} /></span>
                     </div>
                   </Link>
                 ))}

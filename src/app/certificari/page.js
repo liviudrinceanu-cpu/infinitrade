@@ -45,7 +45,7 @@ const certifications = [
     description: 'Suntem operator economic înregistrat în Sistemul Electronic de Achiziții Publice (SEAP / SICAP).',
     details: 'Ofertăm pentru achiziții directe și proceduri publice, inclusiv în proiecte finanțate din fonduri europene sau PNRR. Pentru fiecare ofertă pregătim documentele cerute: declarații de conformitate, fișe tehnice, certificate de garanție ale producătorului.',
     seapFeatures: ['Operator economic înregistrat', 'Documentele producătorului', 'Termen de livrare scris în ofertă'],
-    link: { href: '/ghid-achizitii-seap', text: 'Vezi ghidul complet pentru achiziții SEAP' },
+    link: { href: '/ghid-achizitii-seap', text: 'Vedeți ghidul complet pentru achiziții SEAP' },
   },
   {
     icon: Building2,
