@@ -184,7 +184,7 @@ export default function Footer() {
               </li>
             </ul>
             <Link href="/contact" className={styles.contactCta}>
-              Cere Ofertă
+              Cereți ofertă
               <ArrowUpRight size={16} aria-hidden="true" />
             </Link>
           </div>

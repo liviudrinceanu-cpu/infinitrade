@@ -64,6 +64,10 @@
 
 /* Container */
 .container {
+  /* v42: deasupra stratului decorativ (absolut); pe ecrane ≤ 480 px stratul are
+     fundal plin și acoperea titlul și textul primei secțiuni. */
+  position: relative;
+  z-index: 1;
   max-width: var(--container-wide);
   margin: 0 auto;
   padding: 0 24px;

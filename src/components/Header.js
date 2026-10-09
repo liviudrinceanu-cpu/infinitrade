@@ -335,6 +335,20 @@ export default function Header() {
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
+
+            {/* v42: logo orizontal (ghidul de brand 2026) lângă meniu, doar pe
+                mobil și tabletă; duplicat vizual al linkului spre prima pagină,
+                deci ascuns pentru cititoarele de ecran și din ordinea Tab. */}
+            <Link href="/" className={styles.mobileLogoHorizontal} aria-hidden="true" tabIndex={-1}>
+              <Image
+                src="/logo-horizontal.png"
+                alt=""
+                width={418}
+                height={96}
+                className={styles.mobileLogoHorizontalImage}
+                priority
+              />
+            </Link>
           </div>
 
           {/* Secondary Navigation Row - Centered */}
@@ -512,7 +526,7 @@ export default function Header() {
             </div>
 
             <Link href="/contact" className={styles.ctaButton}>
-              Cere Ofertă
+              Cereți ofertă
               {itemCount > 0 && <span className={styles.ctaBadge} aria-hidden="true">{itemCount}</span>}
             </Link>
           </div>
@@ -631,7 +645,7 @@ export default function Header() {
             onClick={() => setIsMobileMenuOpen(false)}
             tabIndex={isMobileMenuOpen ? 0 : -1}
           >
-            Cere Ofertă
+            Cereți ofertă
           </Link>
         </nav>
       </div>

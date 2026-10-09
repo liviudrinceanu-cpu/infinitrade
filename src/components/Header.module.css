@@ -853,6 +853,15 @@
 }
 
 /* Mobile Menu Button */
+.mobileLogoHorizontal {
+  display: none;
+}
+
+.mobileLogoHorizontalImage {
+  height: 40px;
+  width: auto;
+}
+
 .mobileMenuButton {
   display: none;
   align-items: center;
@@ -987,6 +996,12 @@
     display: flex;
   }
 
+  .mobileLogoHorizontal {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+
   .headerMain {
     padding: 16px 0;
   }
@@ -1037,15 +1052,42 @@
     height: 45px;
   }
   
-  .searchRow {
-    flex-direction: column;
+  /* v42: antet mai scurt pe telefon — căutarea și coșul pe un rând, butonul
+     de ofertă dedesubt (înainte, trei rânduri și ~270 px din ecran). */
+  .headerMain {
+    padding: 10px 0;
     gap: 12px;
   }
-  
+
+  .logoImage {
+    height: 40px;
+  }
+
+  .mobileLogoHorizontalImage {
+    height: 32px;
+  }
+
+  .searchRow {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0 12px;
+  }
+
+  .searchWrapper {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+  }
+
+  .cartButton {
+    width: 44px;
+    height: 44px;
+  }
+
   .ctaButton {
-    width: 100%;
+    flex-basis: 100%;
     justify-content: center;
-    padding: 14px 24px;
+    padding: 11px 20px;
   }
 }
 
