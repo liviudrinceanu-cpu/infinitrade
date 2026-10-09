@@ -445,7 +445,7 @@ export default function CertificariPage() {
                 certificate de conformitate, declarații, fișe tehnice.
               </p>
               <Link href="/contact" className={styles.ctaButton}>
-                Solicită Documente
+                Solicitați documente
               </Link>
             </div>
           </div>

@@ -216,7 +216,7 @@ export default function DesprePage() {
               </p>
               <div className={styles.ctaButtons}>
                 <a href="/contact" className={styles.ctaPrimary}>
-                  Solicită Ofertă
+                  Solicitați ofertă
                 </a>
                 <a href="tel:+40371232404" className={styles.ctaSecondary}>
                   Sună: +40 371 232 404

@@ -259,7 +259,7 @@ export default function StudiiDeCazPage() {
               </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaPrimary}>
-                  Solicită Consultație
+                  Solicitați consultanță
                 </Link>
                 <Link href="/industrii" className={styles.ctaSecondary}>
                   Vezi Industriile Deservite
