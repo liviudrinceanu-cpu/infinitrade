@@ -378,7 +378,7 @@ const advantages = [
   {
     icon: Package,
     title: 'Stocuri Disponibile',
-    description: 'Produse din stoc pentru livrare imediată 24–72 h. Urgențe rezolvate cu transport express.',
+    description: 'Produse din stoc propriu sau extern: livrare în 24–72 h. Pentru urgențe, transportul și termenul se stabilesc în ofertă.',
   },
   {
     icon: Award,
@@ -433,7 +433,7 @@ const seapFaqs = [
   },
   {
     q: 'Livrați pentru proiecte cu fonduri europene sau PNRR?',
-    a: 'Da, avem experiență cu proiecte finanțate din fonduri structurale, POIM, PNRR și alte programe. Cunoaștem cerințele specifice de documentație și trasabilitate. Am livrat pentru modernizări stații epurare, centrale termice, fabrici.',
+    a: 'Da. Pentru proiectele finanțate din fonduri europene sau PNRR pregătim documentele cerute de dosar: declarații de conformitate, fișe tehnice, certificate de origine, după caz. Lista exactă se stabilește din caietul de sarcini.',
   },
   {
     q: 'Puteți ajuta la elaborarea caietului de sarcini?',
@@ -441,7 +441,7 @@ const seapFaqs = [
   },
   {
     q: 'Care este termenul de livrare pentru achiziții publice?',
-    a: 'Produse din stoc: 24–72 h. Produse la comandă: 1–4 săptămâni, în funcție de producător. Pentru urgențe sau termene strânse, găsim soluții alternative sau livrare express.',
+    a: 'Produse din stoc: 24–72 h. Produse la comandă: 1–4 săptămâni, în funcție de producător. Pentru termene strânse, vă propunem în ofertă variantele disponibile (alt cod echivalent, stoc extern) și termenul pentru fiecare.',
   },
 ];
 
@@ -802,8 +802,8 @@ export default function GhidSeapPage() {
                 <div className={styles.documentsBox}>
                   <h3>Fonduri Europene & PNRR</h3>
                   <p>
-                    Avem experiență specifică cu proiecte finanțate din fonduri structurale, POIM și PNRR.
-                    Cunoaștem cerințele suplimentare de documentație și trasabilitate pentru aceste programe.
+                    Pentru proiectele finanțate din fonduri structurale sau PNRR pregătim documentele de
+                    conformitate și trasabilitate cerute de dosar, conform caietului de sarcini.
                   </p>
                   <ul>
                     <li><CheckCircle size={16} /> Modernizări stații epurare</li>

@@ -666,7 +666,7 @@ export default function CategoryClient({ category, view, related = { industries:
                 <li><Check size={16} />{CATEGORY_LEAD_TIME.stock}</li>
                 <li><Check size={16} />{CATEGORY_LEAD_TIME.factory}</li>
                 <li><Check size={16} />{CATEGORY_LEAD_TIME.special}</li>
-                <li><Check size={16} />Livrare în toată România, cu transport internațional express când termenul o cere.</li>
+                <li><Check size={16} />Livrare în toată România; transportul și termenul se stabilesc în ofertă.</li>
               </ul>
             </div>
           </div>
