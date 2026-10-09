@@ -548,3 +548,17 @@
   line-height: 1.45;
   color: #b91c1c; /* contrast ≥ 4,5:1 pe alb (WCAG AA) */
 }
+
+/* v49: notă sub butonul de trimitere (timp de răspuns + informare GDPR) */
+.formNote {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--gray-600);
+  text-align: center;
+}
+
+.formNote a {
+  color: var(--primary);
+  text-decoration: underline;
+}
