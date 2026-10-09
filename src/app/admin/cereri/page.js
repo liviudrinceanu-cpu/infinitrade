@@ -31,6 +31,10 @@ export default function CereriPage() {
   const [statusFilter, setStatusFilter] = useState('');
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+  // v51: selecție pentru ștergere (individuală sau în bloc)
+  const [selected, setSelected] = useState(new Set());
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState('');
 
   useEffect(() => {
     fetchRequests();
@@ -52,6 +56,7 @@ export default function CereriPage() {
 
       if (data.requests) {
         setRequests(data.requests);
+        setSelected(new Set());
         setTotalPages(data.totalPages || 1);
       }
     } catch (error) {
@@ -71,6 +76,51 @@ export default function CereriPage() {
     setPage(1);
   };
 
+
+  const toggleOne = (id) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
+  const allSelected = requests.length > 0 && requests.every((r) => selected.has(r.id));
+  const toggleAll = () => {
+    setSelected(allSelected ? new Set() : new Set(requests.map((r) => r.id)));
+  };
+
+  // Ștergere definitivă — serverul permite doar ADMIN; comunicările se șterg în cascadă.
+  const deleteRequests = async (ids) => {
+    if (ids.length === 0) return;
+    const question = ids.length === 1
+      ? 'Ștergeți definitiv această cerere? Acțiunea nu poate fi anulată.'
+      : `Ștergeți definitiv ${ids.length} cereri? Acțiunea nu poate fi anulată.`;
+    if (!confirm(question)) return;
+    setDeleting(true);
+    setDeleteError('');
+    try {
+      const res = await fetch('/api/admin/cereri', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ids }),
+      });
+      if (!res.ok) {
+        setDeleteError(res.status === 401
+          ? 'Doar un administrator poate șterge cereri.'
+          : 'Cererile nu au putut fi șterse. Încercați din nou.');
+        return;
+      }
+      // Dacă pagina curentă s-a golit, revenim la pagina anterioară.
+      if (ids.length >= requests.length && page > 1) setPage((p) => p - 1);
+      else fetchRequests();
+    } catch (error) {
+      console.error('Failed to delete requests:', error);
+      setDeleteError('Cererile nu au putut fi șterse. Verificați conexiunea.');
+    } finally {
+      setDeleting(false);
+    }
+  };
   return (
     <div>
       <header className={styles.pageHeader}>
@@ -108,9 +158,31 @@ export default function CereriPage() {
           </div>
         ) : requests.length > 0 ? (
           <>
+            <div className={styles.bulkBar}>
+              <span className={styles.bulkCount}>
+                {selected.size > 0 ? `${selected.size} selectate` : 'Bifați cererile pe care vreți să le ștergeți'}
+              </span>
+              <button
+                type="button"
+                className={styles.deleteBtnBulk}
+                onClick={() => deleteRequests([...selected])}
+                disabled={selected.size === 0 || deleting}
+              >
+                {deleting ? 'Se șterge...' : `Ștergeți selectate${selected.size > 0 ? ` (${selected.size})` : ''}`}
+              </button>
+            </div>
+            {deleteError && <p className={styles.bulkError} role="alert">{deleteError}</p>}
             <table className={styles.table}>
               <thead>
                 <tr>
+                  <th className={styles.checkCell}>
+                    <input
+                      type="checkbox"
+                      checked={allSelected}
+                      onChange={toggleAll}
+                      aria-label="Selectați toate cererile de pe această pagină"
+                    />
+                  </th>
                   <th>Client</th>
                   <th>Companie</th>
                   <th>Categorie</th>
@@ -122,7 +194,15 @@ export default function CereriPage() {
               </thead>
               <tbody>
                 {requests.map((request) => (
-                  <tr key={request.id}>
+                  <tr key={request.id} className={selected.has(request.id) ? styles.rowSelected : ''}>
+                    <td className={styles.checkCell}>
+                      <input
+                        type="checkbox"
+                        checked={selected.has(request.id)}
+                        onChange={() => toggleOne(request.id)}
+                        aria-label={`Selectați cererea de la ${request.client.name}`}
+                      />
+                    </td>
                     <td>
                       <div className={styles.clientInfo}>
                         <span className={styles.clientName}>
@@ -162,6 +242,15 @@ export default function CereriPage() {
                           <path d="m9 18 6-6-6-6"/>
                         </svg>
                       </Link>
+                      <button
+                        type="button"
+                        className={styles.deleteBtnRow}
+                        onClick={() => deleteRequests([request.id])}
+                        disabled={deleting}
+                        aria-label={`Ștergeți cererea de la ${request.client.name}`}
+                      >
+                        Ștergeți
+                      </button>
                     </td>
                   </tr>
                 ))}
