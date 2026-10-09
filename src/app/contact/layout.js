@@ -4,13 +4,13 @@ import { safeJsonLd } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata = {
-  title: 'Contact | Solicită Ofertă',
+  title: 'Contact | Solicitați ofertă',
   description: 'Contactați-ne pentru oferte echipamente industriale. Pompe, robineți, motoare. Răspundem de regulă în aceeași zi lucrătoare. Tel: +40 371 232 404',
   alternates: {
     canonical: `${config.site.url}/contact`,
   },
   openGraph: {
-    title: 'Contact Infinitrade Romania | Solicită Ofertă',
+    title: 'Contact Infinitrade Romania | Solicitați ofertă',
     description: 'Contactați-ne pentru oferte de echipamente industriale. Răspundem de regulă în aceeași zi lucrătoare.',
     url: `${config.site.url}/contact`,
     type: 'website',

@@ -351,6 +351,20 @@ p {
   transform: scale(1);
 }
 
+/* v43: pe telefon conținutul nu stă ascuns după animații de intrare — până la
+   încărcarea JavaScript-ului (secunde pe rețea mobilă) sau dacă observatorul
+   nu pornește, formularul de contact și alte secțiuni rămâneau goale. */
+@media (max-width: 768px) {
+  .animate-fade-up,
+  .animate-fade-left,
+  .animate-fade-right,
+  .animate-scale {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* v15: never hide content behind a scroll animation for readers who asked
    for reduced motion (the hook also short-circuits, this is the CSS belt). */
 @media (prefers-reduced-motion: reduce) {

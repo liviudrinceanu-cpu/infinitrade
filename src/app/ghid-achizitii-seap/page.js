@@ -956,7 +956,7 @@ export default function GhidSeapPage() {
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaPrimary}>
                   <Phone size={18} />
-                  Solicită Ofertă SEAP
+                  Solicitați ofertă SEAP
                 </Link>
                 <Link href="/certificari" className={styles.ctaSecondary}>
                   Vezi Certificări

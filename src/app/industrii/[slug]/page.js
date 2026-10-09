@@ -318,7 +318,7 @@ export default async function IndustryPage({ params }) {
               <div className={styles.ctaButtons}>
                 <Link href="/contact" className={styles.ctaButtonPrimary}>
                   <Phone size={18} />
-                  Solicită ofertă
+                  Solicitați ofertă
                 </Link>
                 <Link href="/faq" className={styles.ctaButtonSecondary}>
                   Întrebări frecvente

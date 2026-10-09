@@ -71,7 +71,7 @@ export const footerIndustries = [
 ];
 
 export const ctaMessages = {
-  hero: 'Solicită Ofertă Personalizată',
+  hero: 'Solicitați o ofertă personalizată',
   category: 'Cere Specificații Tehnice',
   brand: 'Verifică Disponibilitate',
   contact: 'Contactează Echipa Tehnică'
