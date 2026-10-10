@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, Check, X, ShoppingCart, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+import ClickToLoadMap from '@/components/ClickToLoadMap';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { companyInfo, GOOGLE_BUSINESS_PROFILE_URL } from '@/data/company';
@@ -644,11 +645,8 @@ export default function ContactPage() {
                 </p>
               </div>
               <div className={styles.mapContainer}>
-                <iframe
+                <ClickToLoadMap
                   src="https://www.google.com/maps?q=Calea+Lugojului+47B,+Ghiroda,+Timis,+Romania&output=embed"
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
                   title="Locația Driatheli Group SRL - Calea Lugojului 47/B, Ghiroda, Timiș"
                 />
               </div>

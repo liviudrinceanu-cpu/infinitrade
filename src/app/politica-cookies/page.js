@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { config } from '@/lib/config';
+import ConsentResetButton from '@/components/ConsentResetButton';
 import styles from '../legal.module.css';
 
 export const metadata = {
@@ -26,7 +27,7 @@ export default function CookiesPage() {
       <main id="main-content" className={styles.main}>
         <div className={styles.container}>
           <h1>Politica de Utilizare a Cookie-urilor</h1>
-          <p className={styles.lastUpdated}>Ultima actualizare: Ianuarie 2026</p>
+          <p className={styles.lastUpdated}>Ultima actualizare: Octombrie 2026</p>
 
           <section>
             <h2>1. Ce sunt Cookie-urile?</h2>
@@ -76,8 +77,9 @@ export default function CookiesPage() {
               cookie-uri. Acestea includ:
             </p>
             <ul>
-              <li><strong>Google Analytics</strong> - pentru analiză statistică</li>
-              <li><strong>Vercel Analytics</strong> - pentru monitorizarea performanței</li>
+              <li><strong>Google Analytics</strong> - pentru analiză statistică; se încarcă doar dacă vă exprimați acordul în fereastra afișată pe site</li>
+              <li><strong>Google Maps</strong> - harta de pe pagina de contact se încarcă doar când apăsați „Afișați harta”; atunci Google poate seta propriile cookie-uri</li>
+              <li><strong>Vercel Web Analytics</strong> - statistici de vizitare agregate, fără cookie-uri</li>
             </ul>
           </section>
 
@@ -97,6 +99,10 @@ export default function CookiesPage() {
             <p>
               <strong>Atenție:</strong> Dezactivarea cookie-urilor poate afecta 
               funcționalitatea site-ului.
+            </p>
+            <p>
+              Acordul pentru cookie-urile de analiză îl puteți schimba oricând:{' '}
+              <ConsentResetButton className={styles.consentButton} />
             </p>
           </section>
 

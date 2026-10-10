@@ -1,8 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google';
-import Script from 'next/script';
 import dynamic from 'next/dynamic';
 import { Analytics } from '@vercel/analytics/next';
+import AnalyticsConsent from '@/components/AnalyticsConsent';
 import { QuoteCartProvider } from '@/context/QuoteCartContext';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { config } from '@/lib/config';
@@ -278,12 +278,7 @@ export default function RootLayout({ children }) {
             /logo-header.png was removed: the Header's next/image with
             `priority` already preloads the optimised version, so the raw PNG
             was a second, competing download. */}
-        {config.analytics.gaId && (
-          <>
-            <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-            <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-          </>
-        )}
+        {/* v53: fără preconnect spre Google înainte de acordul pentru analiză. */}
 
         {/* Inline critical CSS for above-the-fold content */}
         <style dangerouslySetInnerHTML={{ __html: `
@@ -314,29 +309,7 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: safeJsonLd(serviceSchema) }}
         />
 
-        {/* Google Analytics */}
-        {config.analytics.gaId && (
-          <>
-            <Script
-              strategy="afterInteractive"
-              src={`https://www.googletagmanager.com/gtag/js?id=${config.analytics.gaId}`}
-            />
-            <Script
-              id="google-analytics"
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${config.analytics.gaId}', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-              }}
-            />
-          </>
-        )}
+        {/* v53: Google Analytics doar după acord — vezi <AnalyticsConsent> în body. */}
       </head>
       <body>
         <a href="#main-content" className="skip-to-content">
@@ -349,6 +322,7 @@ export default function RootLayout({ children }) {
           </QuoteCartProvider>
         </ErrorBoundary>
         <Analytics />
+        <AnalyticsConsent gaId={config.analytics.gaId} />
       </body>
     </html>
   )
