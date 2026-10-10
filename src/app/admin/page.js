@@ -165,11 +165,11 @@ export default async function AdminDashboard() {
           <table className={styles.table}>
             <thead>
               <tr>
-                <th>Client</th>
-                <th>Categorie</th>
-                <th>Status</th>
-                <th>Data</th>
-                <th>Acțiuni</th>
+                <th scope="col">Client</th>
+                <th scope="col">Categorie</th>
+                <th scope="col">Status</th>
+                <th scope="col">Data</th>
+                <th scope="col">Acțiuni</th>
               </tr>
             </thead>
             <tbody>

@@ -175,7 +175,7 @@ export default function CereriPage() {
             <table className={styles.table}>
               <thead>
                 <tr>
-                  <th className={styles.checkCell}>
+                  <th scope="col" className={styles.checkCell}>
                     <input
                       type="checkbox"
                       checked={allSelected}
@@ -183,13 +183,13 @@ export default function CereriPage() {
                       aria-label="Selectați toate cererile de pe această pagină"
                     />
                   </th>
-                  <th>Client</th>
-                  <th>Companie</th>
-                  <th>Categorie</th>
-                  <th>Status</th>
-                  <th>Asignat</th>
-                  <th>Data</th>
-                  <th>Acțiuni</th>
+                  <th scope="col">Client</th>
+                  <th scope="col">Companie</th>
+                  <th scope="col">Categorie</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Asignat</th>
+                  <th scope="col">Data</th>
+                  <th scope="col">Acțiuni</th>
                 </tr>
               </thead>
               <tbody>

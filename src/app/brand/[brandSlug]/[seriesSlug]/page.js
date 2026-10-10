@@ -131,7 +131,7 @@ export default async function SeriesPage({ params }) {
           <div className={styles.container}>
             <h2>Ce coduri de tip {s.name} cer clienții?</h2>
             <table className={styles.table}>
-              <thead><tr><th>Cod de tip</th><th>Ce înseamnă</th></tr></thead>
+              <thead><tr><th scope="col">Cod de tip</th><th scope="col">Ce înseamnă</th></tr></thead>
               <tbody>
                 {s.models.map((m) => (
                   <tr key={m.code} id={m.code.toLowerCase().replace(/[^a-z0-9]+/g, '-')}><td><code>{m.code}</code></td><td>{m.note}</td></tr>
@@ -146,7 +146,7 @@ export default async function SeriesPage({ params }) {
           <div className={styles.container}>
             <h2>Ce parametri are seria {s.name}?</h2>
             <table className={styles.table}>
-              <thead><tr><th>Parametru</th><th>Valoare</th></tr></thead>
+              <thead><tr><th scope="col">Parametru</th><th scope="col">Valoare</th></tr></thead>
               <tbody>
                 {s.specs.map((sp) => (
                   <tr key={sp.label}><td>{sp.label}</td><td>{sp.value}{sp.unit ? ` ${sp.unit}` : ''}</td></tr>

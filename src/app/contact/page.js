@@ -494,7 +494,7 @@ export default function ContactPage() {
                     </div>
 
                     {error && (
-                      <div className={styles.errorMessage}>
+                      <div className={styles.errorMessage} role="alert">
                         {error}
                       </div>
                     )}
@@ -520,7 +520,7 @@ export default function ContactPage() {
                     </p>
                   </form>
                 ) : (
-                  <div className={styles.successMessage}>
+                  <div className={styles.successMessage} role="status">
                     <div className={styles.successIcon}>
                       <Check size={32} />
                     </div>

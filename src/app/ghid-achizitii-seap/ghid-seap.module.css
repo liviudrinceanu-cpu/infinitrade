@@ -354,7 +354,7 @@
 }
 
 .detailBlock li svg {
-  color: #37c67f;
+  color: #1b7f4f;
   flex-shrink: 0;
 }
 
@@ -404,7 +404,7 @@
   align-items: center;
   gap: 8px;
   font-size: 0.9rem;
-  color: #37c67f;
+  color: #1b7f4f;
   margin-bottom: 16px;
 }
 
@@ -517,7 +517,7 @@
 }
 
 .documentsBox li svg {
-  color: #37c67f;
+  color: #1b7f4f;
 }
 
 /* FAQ Section */

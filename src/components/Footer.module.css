@@ -347,3 +347,12 @@
     font-size: 32px;
   }
 }
+
+/* v59: ținte tactile ≥ 44 px pe mobil (WCAG 2.5.8), fără modificare vizuală */
+@media (max-width: 768px) {
+  .columnLink {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}

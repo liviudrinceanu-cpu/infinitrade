@@ -209,7 +209,7 @@ export default function Header() {
         <div className={styles.headerContent}>
           {/* Row 1: Logo + Navigation */}
           <div className={styles.headerMain}>
-            <Link href="/" className={styles.logo}>
+            <Link prefetch={false} href="/" className={styles.logo}>
               <Image 
                 src="/logo-header.png" 
                 alt="Infinitrade Romania - Distribuitor echipamente industriale. Dăm puls industriei." 
@@ -238,7 +238,7 @@ export default function Header() {
                     onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setActiveDropdown(null); }}
                     onKeyDown={(e) => { if (e.key === 'Escape') setActiveDropdown(null); }}
                   >
-                    <Link
+                    <Link prefetch={false}
                       href={item.href}
                       className={styles.navLink}
                       aria-haspopup={hasDropdown ? 'true' : undefined}
@@ -259,7 +259,7 @@ export default function Header() {
                       >
                         <div className={styles.resourcesGrid}>
                           {item.children.map(child => (
-                            <Link
+                            <Link prefetch={false}
                               key={child.href}
                               href={child.href}
                               className={styles.resourceLink}
@@ -284,19 +284,19 @@ export default function Header() {
                         >
                           <div className={styles.dropdownColumns}>
                             <div className={styles.dropdownMain}>
-                              <h4>{category.name}</h4>
+                              <p className={styles.dropdownTitle}>{category.name}</p>
                               <p>{category.tagline}</p>
                               <span className={styles.dropdownLabel}>Tipuri de produse</span>
                               <ul className={styles.dropdownList}>
                                 {menu.productTypes.map((pt) => (
                                   <li key={pt.slug}>
-                                    <Link href={`/${category.slug}/${pt.slug}`} className={styles.dropdownListLink}>
+                                    <Link prefetch={false} href={`/${category.slug}/${pt.slug}`} className={styles.dropdownListLink}>
                                       {pt.name}
                                     </Link>
                                   </li>
                                 ))}
                               </ul>
-                              <Link href={`/${category.slug}`} className={styles.dropdownCta}>
+                              <Link prefetch={false} href={`/${category.slug}`} className={styles.dropdownCta}>
                                 Vezi toate produsele →
                               </Link>
                             </div>
@@ -304,7 +304,7 @@ export default function Header() {
                               <span className={styles.dropdownLabel}>Branduri principale</span>
                               <div className={styles.brandTags}>
                                 {menu.topBrands.map((brand) => (
-                                  <Link
+                                  <Link prefetch={false}
                                     key={brand.simpleSlug}
                                     href={`/brand/${brand.simpleSlug}`}
                                     className={styles.brandTag}
@@ -313,7 +313,7 @@ export default function Header() {
                                   </Link>
                                 ))}
                               </div>
-                              <Link href={`/${category.slug}#branduri`} className={styles.dropdownAllBrands}>
+                              <Link prefetch={false} href={`/${category.slug}#branduri`} className={styles.dropdownAllBrands}>
                                 {`Toate cele ${menu.brandCount}${menu.brandCount >= 20 ? ' de' : ''} branduri →`}
                               </Link>
                             </div>
@@ -339,14 +339,14 @@ export default function Header() {
             {/* v42: logo orizontal (ghidul de brand 2026) lângă meniu, doar pe
                 mobil și tabletă; duplicat vizual al linkului spre prima pagină,
                 deci ascuns pentru cititoarele de ecran și din ordinea Tab. */}
-            <Link href="/" className={styles.mobileLogoHorizontal} aria-hidden="true" tabIndex={-1}>
+            <Link prefetch={false} href="/" className={styles.mobileLogoHorizontal} aria-hidden="true" tabIndex={-1}>
               <Image
                 src="/logo-horizontal.png"
                 alt=""
                 width={418}
                 height={96}
                 className={styles.mobileLogoHorizontalImage}
-                priority
+                loading="eager"
               />
             </Link>
           </div>
@@ -364,7 +364,7 @@ export default function Header() {
                   onBlur={(e) => { if (!e.currentTarget.contains(e.relatedTarget)) setActiveDropdown(null); }}
                   onKeyDown={(e) => { if (e.key === 'Escape') setActiveDropdown(null); }}
                 >
-                  <Link
+                  <Link prefetch={false}
                     href={item.href}
                     className={`${styles.secondaryNavLink} ${styles.secondaryNavLinkRed}`}
                     aria-haspopup="true"
@@ -376,7 +376,7 @@ export default function Header() {
                   <div className={`${styles.megaMenuDropdown} ${activeDropdown === 'mega' ? styles.dropdownVisible : ''}`}>
                     <div className={styles.megaMenuGrid}>
                       {item.children.map(child => (
-                        <Link
+                        <Link prefetch={false}
                           key={child.href}
                           href={child.href}
                           className={styles.megaMenuCard}
@@ -389,7 +389,7 @@ export default function Header() {
                   </div>
                 </div>
               ) : (
-                <Link key={item.name} href={item.href} className={styles.secondaryNavLink}>
+                <Link prefetch={false} key={item.name} href={item.href} className={styles.secondaryNavLink}>
                   {item.name}
                 </Link>
               )
@@ -477,7 +477,7 @@ export default function Header() {
                 className={`${styles.cartDropdown} ${isCartOpen ? styles.dropdownVisible : ''}`}
               >
                 <div className={styles.cartHeader}>
-                  <h4>Cerere Ofertă ({itemCount})</h4>
+                  <p className={styles.cartTitle}>Cerere Ofertă ({itemCount})</p>
                 </div>
 
                 {cartItems.length === 0 ? (
@@ -512,7 +512,7 @@ export default function Header() {
                       ))}
                     </div>
                     <div className={styles.cartFooter}>
-                      <Link
+                      <Link prefetch={false}
                         href="/contact"
                         className={styles.cartSubmit}
                         onClick={() => setIsCartOpen(false)}
@@ -525,7 +525,7 @@ export default function Header() {
               </div>
             </div>
 
-            <Link href="/contact" className={styles.ctaButton}>
+            <Link prefetch={false} href="/contact" className={styles.ctaButton}>
               Cereți ofertă
               {itemCount > 0 && <span className={styles.ctaBadge} aria-hidden="true">{itemCount}</span>}
             </Link>
@@ -543,7 +543,7 @@ export default function Header() {
           {secondaryNavigation.map((item) => (
             item.isMegaMenu ? (
               <div key={item.name} className={styles.mobileDropdownGroup}>
-                <Link
+                <Link prefetch={false}
                   href={item.href}
                   className={`${styles.mobileNavLink} ${styles.mobileNavLinkRed}`}
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -552,7 +552,7 @@ export default function Header() {
                   {item.name}
                 </Link>
                 {item.children.map(child => (
-                  <Link
+                  <Link prefetch={false}
                     key={child.href}
                     href={child.href}
                     className={styles.mobileSubLink}
@@ -564,7 +564,7 @@ export default function Header() {
                 ))}
               </div>
             ) : (
-              <Link
+              <Link prefetch={false}
                 key={item.name}
                 href={item.href}
                 className={styles.mobileNavLink}
@@ -585,7 +585,7 @@ export default function Header() {
               <div key={item.name} className={styles.mobileDropdownGroup}>
                 <span className={styles.mobileDropdownLabel}>{item.name}</span>
                 {item.children.map(child => (
-                  <Link
+                  <Link prefetch={false}
                     key={child.href}
                     href={child.href}
                     className={styles.mobileNavLink}
@@ -599,7 +599,7 @@ export default function Header() {
             ) : MAIN_CATEGORY_MENUS[item.href] ? (
               /* v11: main category + its product types + top brands on mobile too */
               <div key={item.name} className={styles.mobileDropdownGroup}>
-                <Link
+                <Link prefetch={false}
                   href={item.href}
                   className={styles.mobileNavLink}
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -608,7 +608,7 @@ export default function Header() {
                   {item.name}
                 </Link>
                 {MAIN_CATEGORY_MENUS[item.href].productTypes.map((pt) => (
-                  <Link
+                  <Link prefetch={false}
                     key={pt.slug}
                     href={`${item.href}/${pt.slug}`}
                     className={styles.mobileSubLink}
@@ -618,7 +618,7 @@ export default function Header() {
                     {pt.name}
                   </Link>
                 ))}
-                <Link
+                <Link prefetch={false}
                   href={`${item.href}#branduri`}
                   className={styles.mobileSubLink}
                   onClick={() => setIsMobileMenuOpen(false)}
@@ -628,7 +628,7 @@ export default function Header() {
                 </Link>
               </div>
             ) : (
-              <Link
+              <Link prefetch={false}
                 key={item.name}
                 href={item.href}
                 className={styles.mobileNavLink}
@@ -639,7 +639,7 @@ export default function Header() {
               </Link>
             )
           ))}
-          <Link
+          <Link prefetch={false}
             href="/contact"
             className={styles.mobileCta}
             onClick={() => setIsMobileMenuOpen(false)}

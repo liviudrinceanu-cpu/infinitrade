@@ -42,7 +42,7 @@ export default function Footer() {
             <ul className={styles.columnList}>
               {categories.map((category) => (
                 <li key={category.id}>
-                  <Link href={`/${category.slug}`} className={styles.columnLink}>
+                  <Link prefetch={false} href={`/${category.slug}`} className={styles.columnLink}>
                     {category.name}
                   </Link>
                 </li>
@@ -56,7 +56,7 @@ export default function Footer() {
             <ul className={styles.columnList}>
               {footerIndustries.map((industry) => (
                 <li key={industry.slug}>
-                  <Link href={`/industrii/${industry.slug}`} className={styles.columnLink}>
+                  <Link prefetch={false} href={`/industrii/${industry.slug}`} className={styles.columnLink}>
                     {industry.name}
                   </Link>
                 </li>
@@ -70,23 +70,23 @@ export default function Footer() {
             <ul className={styles.columnList}>
               {CLIENT_CATEGORIES.slice(5, 11).map((cat) => (
                 <li key={cat.slug}>
-                  <Link href={`/${cat.slug}`} className={styles.columnLink}>
+                  <Link prefetch={false} href={`/${cat.slug}`} className={styles.columnLink}>
                     {cat.name}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/echipamente-diverse" className={styles.columnLink}>
+                <Link prefetch={false} href="/echipamente-diverse" className={styles.columnLink}>
                   Vezi toate →
                 </Link>
               </li>
               <li>
-                <Link href="/brand" className={styles.columnLink}>
+                <Link prefetch={false} href="/brand" className={styles.columnLink}>
                   Toate brandurile A–Z
                 </Link>
               </li>
               <li>
-                <Link href="/branduri-sua" className={styles.columnLink}>
+                <Link prefetch={false} href="/branduri-sua" className={styles.columnLink}>
                   Branduri din SUA
                 </Link>
               </li>
@@ -98,57 +98,57 @@ export default function Footer() {
             <h4 className={styles.columnTitle}>Resurse</h4>
             <ul className={styles.columnList}>
               <li>
-                <Link href="/achizitii" className={styles.columnLink}>
+                <Link prefetch={false} href="/achizitii" className={styles.columnLink}>
                   Pentru achiziții
                 </Link>
               </li>
               <li>
-                <Link href="/mentenanta" className={styles.columnLink}>
+                <Link prefetch={false} href="/mentenanta" className={styles.columnLink}>
                   Pentru mentenanță
                 </Link>
               </li>
               <li>
-                <Link href="/proiecte" className={styles.columnLink}>
+                <Link prefetch={false} href="/proiecte" className={styles.columnLink}>
                   Pentru proiecte (CAPEX)
                 </Link>
               </li>
               <li>
-                <Link href="/ghid-achizitii-seap" className={styles.columnLink}>
+                <Link prefetch={false} href="/ghid-achizitii-seap" className={styles.columnLink}>
                   Ghid Achiziții SEAP
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className={styles.columnLink}>
+                <Link prefetch={false} href="/blog" className={styles.columnLink}>
                   Blog Tehnic
                 </Link>
               </li>
               <li>
-                <Link href="/studii-de-caz" className={styles.columnLink}>
+                <Link prefetch={false} href="/studii-de-caz" className={styles.columnLink}>
                   Ghiduri de aplicație
                 </Link>
               </li>
               <li>
-                <Link href="/testimoniale" className={styles.columnLink}>
+                <Link prefetch={false} href="/testimoniale" className={styles.columnLink}>
                   Referințe clienți
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className={styles.columnLink}>
+                <Link prefetch={false} href="/faq" className={styles.columnLink}>
                   Întrebări Frecvente
                 </Link>
               </li>
               <li>
-                <Link href="/certificari" className={styles.columnLink}>
+                <Link prefetch={false} href="/certificari" className={styles.columnLink}>
                   Certificări
                 </Link>
               </li>
               <li>
-                <Link href="/despre-noi" className={styles.columnLink}>
+                <Link prefetch={false} href="/despre-noi" className={styles.columnLink}>
                   Despre Noi
                 </Link>
               </li>
               <li>
-                <Link href="/echipa" className={styles.columnLink}>
+                <Link prefetch={false} href="/echipa" className={styles.columnLink}>
                   Echipa Noastră
                 </Link>
               </li>
@@ -183,7 +183,7 @@ export default function Footer() {
                 </span>
               </li>
             </ul>
-            <Link href="/contact" className={styles.contactCta}>
+            <Link prefetch={false} href="/contact" className={styles.contactCta}>
               Cereți ofertă
               <ArrowUpRight size={16} aria-hidden="true" />
             </Link>
@@ -227,10 +227,10 @@ export default function Footer() {
             </p>
           </div>
           <div className={styles.bottomLinks}>
-            <Link href="/termeni-si-conditii">Termeni și Condiții</Link>
-            <Link href="/politica-confidentialitate">Politica de Confidențialitate</Link>
-            <Link href="/politica-cookies">Politica Cookies</Link>
-            <Link href="/gdpr">GDPR</Link>
+            <Link prefetch={false} href="/termeni-si-conditii">Termeni și Condiții</Link>
+            <Link prefetch={false} href="/politica-confidentialitate">Politica de Confidențialitate</Link>
+            <Link prefetch={false} href="/politica-cookies">Politica Cookies</Link>
+            <Link prefetch={false} href="/gdpr">GDPR</Link>
           </div>
         </div>
       </div>
