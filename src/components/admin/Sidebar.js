@@ -33,6 +33,7 @@ const menuItems = [
   },
   {
     href: '/admin/echipa',
+    adminOnly: true,
     label: 'Echipă',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -45,6 +46,7 @@ const menuItems = [
   },
   {
     href: '/admin/rapoarte',
+    adminOnly: true,
     label: 'Rapoarte',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -73,7 +75,7 @@ export default function Sidebar({ user }) {
       </div>
 
       <nav className={styles.nav}>
-        {menuItems.map((item) => {
+        {menuItems.filter((item) => !item.adminOnly || user?.role === 'ADMIN').map((item) => {
           const isActive = pathname === item.href ||
             (item.href !== '/admin' && pathname.startsWith(item.href));
 

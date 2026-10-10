@@ -1,7 +1,7 @@
 // v27 (D-2026-09-27): atașamentul opțional din formularul de cerere.
 // SERVER-ONLY (Buffer, zlib) — importat doar din src/app/api/contact/route.js.
 //
-// Acceptă: listă Excel (.xlsx/.xls), CSV, PDF, imagini (JPG/PNG/WEBP) — de
+// Acceptă: listă Excel (.xlsx), CSV, PDF, imagini (JPG/PNG/WEBP) — de
 // regulă poza plăcuței de identificare. Tipul se verifică după conținut
 // (semnătura fișierului), nu doar după extensie sau MIME-ul trimis de browser.
 // Limita de 3 MB ține cererea (base64, +33%) sub limita de 4,5 MB a Vercel.
@@ -18,10 +18,10 @@ const KINDS = {
   jpg: { mediaType: 'image/jpeg', test: (b) => b.length > 3 && b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff },
   webp: { mediaType: 'image/webp', test: (b) => b.length > 12 && b.subarray(0, 4).toString('latin1') === 'RIFF' && b.subarray(8, 12).toString('latin1') === 'WEBP' },
   xlsx: { mediaType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', test: (b) => b.length > 4 && b.readUInt32LE(0) === 0x04034b50 },
-  xls: { mediaType: 'application/vnd.ms-excel', test: (b) => b.length > 8 && b.readUInt32LE(0) === 0xe011cfd0 && b.readUInt32LE(4) === 0xe11ab1a1 },
+  // v63 (decizie proprietar): fără .xls (formatul vechi poate conține macro-uri).
   csv: { mediaType: 'text/csv', test: (b) => !b.subarray(0, 8192).includes(0) },
 };
-const EXT_TO_KIND = { pdf: 'pdf', png: 'png', jpg: 'jpg', jpeg: 'jpg', webp: 'webp', xlsx: 'xlsx', xls: 'xls', csv: 'csv' };
+const EXT_TO_KIND = { pdf: 'pdf', png: 'png', jpg: 'jpg', jpeg: 'jpg', webp: 'webp', xlsx: 'xlsx', csv: 'csv' };
 
 export function safeFileName(name) {
   const base = String(name || 'fisier').split(/[\\/]/).pop();

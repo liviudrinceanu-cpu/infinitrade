@@ -6,6 +6,7 @@ import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { FileCheck, Shield, Clock, Truck, Phone, CheckCircle, AlertCircle, ArrowRight, FileText, Award, Building2, Users, Package, Zap, Settings2, Thermometer, Wind, Droplets, Cpu, Gauge, Wrench, Filter, Cog, Plug2, Flame, HardHat } from 'lucide-react';
 import styles from './ghid-seap.module.css';
+import { siteStats } from '@/data/siteStats';
 
 // CPV Codes for each product category
 const cpvCodes = {
@@ -604,7 +605,7 @@ export default function GhidSeapPage() {
                   <span className={styles.statLabel}>Contracte Publice</span>
                 </div>
                 <div className={styles.stat}>
-                  <span className={styles.statValue}>1.200+</span>
+                  <span className={styles.statValue}>{siteStats.brands}</span>
                   <span className={styles.statLabel}>Branduri cu pagină proprie</span>
                 </div>
               </div>

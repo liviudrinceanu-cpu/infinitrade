@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import { prisma } from '@/lib/db';
+import { auth } from '@/lib/auth';
+import { requestScope } from '@/lib/adminAccess';
 import StatsCard from '@/components/admin/StatsCard';
 import StatusBadge from '@/components/admin/StatusBadge';
 import styles from './admin.module.css';
 
-async function getStats() {
+async function getStats(scope = {}) {
   try {
     const now = new Date();
     const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
@@ -19,19 +21,21 @@ async function getStats() {
       previousMonthRequests,
       recentRequests,
     ] = await Promise.all([
-      prisma.quoteRequest.count(),
-      prisma.quoteRequest.count({ where: { status: 'NEW' } }),
-      prisma.quoteRequest.count({ where: { status: 'IN_PROGRESS' } }),
-      prisma.quoteRequest.count({ where: { status: 'COMPLETED' } }),
+      prisma.quoteRequest.count({ where: scope }),
+      prisma.quoteRequest.count({ where: { ...scope, status: 'NEW' } }),
+      prisma.quoteRequest.count({ where: { ...scope, status: 'IN_PROGRESS' } }),
+      prisma.quoteRequest.count({ where: { ...scope, status: 'COMPLETED' } }),
       prisma.quoteRequest.count({
-        where: { createdAt: { gte: thirtyDaysAgo } },
+        where: { ...scope, createdAt: { gte: thirtyDaysAgo } },
       }),
       prisma.quoteRequest.count({
         where: {
+          ...scope,
           createdAt: { gte: sixtyDaysAgo, lt: thirtyDaysAgo },
         },
       }),
       prisma.quoteRequest.findMany({
+        where: scope,
         take: 5,
         orderBy: { createdAt: 'desc' },
         include: {
@@ -79,7 +83,9 @@ function formatDate(date) {
 }
 
 export default async function AdminDashboard() {
-  const stats = await getStats();
+  // v63: SALES vede statisticile doar pentru cererile asignate lui.
+  const session = await auth();
+  const stats = await getStats(requestScope(session));
 
   return (
     <div>

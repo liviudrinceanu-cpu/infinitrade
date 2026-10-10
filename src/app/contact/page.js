@@ -31,7 +31,7 @@ const LEGACY_BRAND_PREFIXES = [
 // v27: atașament opțional (listă Excel/CSV, PDF, poza plăcuței). Limita de
 // 3 MB ține cererea sub limita de 4,5 MB a funcțiilor Vercel (base64 +33%).
 const MAX_FILE_BYTES = 3 * 1024 * 1024;
-const ALLOWED_EXT = ['xlsx', 'xls', 'csv', 'pdf', 'jpg', 'jpeg', 'png', 'webp'];
+const ALLOWED_EXT = ['xlsx', 'csv', 'pdf', 'jpg', 'jpeg', 'png', 'webp'];
 const FILE_ACCEPT = ALLOWED_EXT.map((e) => '.' + e).join(',');
 const ROLE_PLACEHOLDERS = {
   mentenanta: 'Producătorul, codul de pe plăcuță sau codul piesei, ce s-a defectat, cantitatea și dacă oprește producția...',
@@ -84,7 +84,7 @@ export default function ContactPage() {
     if (!f) { setAttachment(null); return; }
     const ext = (f.name.split('.').pop() || '').toLowerCase();
     if (!ALLOWED_EXT.includes(ext)) {
-      setFileError('Tip de fișier neacceptat. Folosiți Excel, CSV, PDF, JPG, PNG sau WEBP.');
+      setFileError('Tip de fișier neacceptat. Folosiți Excel (.xlsx), CSV, PDF, JPG, PNG sau WEBP.');
       e.target.value = '';
       setAttachment(null);
       return;
@@ -473,7 +473,7 @@ export default function ContactPage() {
                         aria-describedby="attachment-help"
                       />
                       <small id="attachment-help" className={styles.categoryHint}>
-                        Listă de repere (Excel, CSV), PDF sau poza plăcuței (JPG, PNG, WEBP), până la 3 MB.
+                        Listă de repere (Excel .xlsx, CSV), PDF sau poza plăcuței (JPG, PNG, WEBP), până la 3 MB.
                         {attachment ? ` Atașat: ${attachment.name}.` : ''}
                       </small>
                       {fileError && <div className={styles.errorMessage} role="alert">{fileError}</div>}
