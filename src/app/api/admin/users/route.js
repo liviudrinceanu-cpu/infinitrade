@@ -5,6 +5,7 @@ import bcrypt from 'bcryptjs';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 import { checkName, checkEmail, passwordProblems } from '@/lib/formValidation';
 import { isValidId } from '@/lib/ids';
+import { isAdmin } from '@/lib/adminAccess';
 
 // Valid roles (must match Prisma enum)
 const VALID_ROLES = ['ADMIN', 'SALES'];
@@ -22,7 +23,9 @@ export async function GET(request) {
       return NextResponse.json({ error: 'Neautorizat: autentificați-vă din nou ca administrator.' }, { status: 401 });
     }
 
+    // v63: SALES vede doar propriul cont (lista completă e doar pentru ADMIN).
     const users = await prisma.user.findMany({
+      where: isAdmin(session) ? {} : { id: session.user.id },
       select: {
         id: true,
         email: true,

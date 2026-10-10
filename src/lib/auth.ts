@@ -33,6 +33,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   trustHost: true,
   session: {
     strategy: 'jwt',
+    // v63 (decizie proprietar): sesiunea de admin expiră după 7 zile (implicit era 30).
+    maxAge: 7 * 24 * 60 * 60,
   },
   pages: {
     signIn: '/admin/login',

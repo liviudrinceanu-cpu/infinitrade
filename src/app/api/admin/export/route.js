@@ -1,6 +1,7 @@
 import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
+import { isAdmin } from '@/lib/adminAccess';
 
 // Force dynamic rendering (uses auth headers)
 export const dynamic = 'force-dynamic';
@@ -11,6 +12,10 @@ export async function GET(request) {
 
     if (!session) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+    // v63: exportul și statisticile complete doar pentru ADMIN.
+    if (!isAdmin(session)) {
+      return NextResponse.json({ error: 'Doar un administrator poate exporta cererile.' }, { status: 403 });
     }
 
     const { searchParams } = new URL(request.url);

@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 import { isValidId } from '@/lib/ids';
+import { isAdmin, requestScope, canAccessRequest } from '@/lib/adminAccess';
 
 // Valid communication types (must match Prisma CommType enum)
 const VALID_TYPES = ['NOTE', 'EMAIL_SENT', 'CALL', 'STATUS_CHANGE'];
@@ -39,10 +40,10 @@ export async function POST(request, { params }) {
     // Verify the quote request exists
     const quoteRequest = await prisma.quoteRequest.findUnique({
       where: { id },
-      select: { id: true }
+      select: { id: true, assignedToId: true }
     });
 
-    if (!quoteRequest) {
+    if (!quoteRequest || !canAccessRequest(session, quoteRequest)) {
       return NextResponse.json({ error: 'Quote request not found' }, { status: 404 });
     }
 
@@ -126,6 +127,12 @@ export async function GET(request, { params }) {
     // Validate ID format (cuid sau UUID)
     if (!id || !isValidId(id)) {
       return NextResponse.json({ error: 'Invalid ID format' }, { status: 400 });
+    }
+
+    // v63: SALES vede comunicările doar pentru cererile asignate lui.
+    const parent = await prisma.quoteRequest.findUnique({ where: { id }, select: { id: true, assignedToId: true } });
+    if (!parent || !canAccessRequest(session, parent)) {
+      return NextResponse.json({ error: 'Not found' }, { status: 404 });
     }
 
     const communications = await prisma.communication.findMany({

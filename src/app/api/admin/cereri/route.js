@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 import { isValidId } from '@/lib/ids';
+import { isAdmin, requestScope, canAccessRequest } from '@/lib/adminAccess';
 
 // Force dynamic rendering (uses auth headers)
 export const dynamic = 'force-dynamic';
@@ -50,7 +51,7 @@ export async function GET(request) {
 
     const skip = (page - 1) * limit;
 
-    const where = {};
+    const where = { ...requestScope(session) };
 
     if (status) {
       where.status = status;

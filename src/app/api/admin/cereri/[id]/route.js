@@ -3,6 +3,7 @@ import { prisma } from '@/lib/db';
 import { NextResponse } from 'next/server';
 import { csrfProtection, validateContentType } from '@/lib/csrf';
 import { isValidId } from '@/lib/ids';
+import { isAdmin, requestScope, canAccessRequest } from '@/lib/adminAccess';
 
 // Valid status values (must match Prisma enum)
 const VALID_STATUSES = ['NEW', 'IN_PROGRESS', 'QUOTE_SENT', 'COMPLETED', 'CANCELLED'];
@@ -45,7 +46,7 @@ export async function GET(request, { params }) {
       },
     });
 
-    if (!quoteRequest) {
+    if (!quoteRequest || !canAccessRequest(session, quoteRequest)) {
       return NextResponse.json({ error: 'Not found' }, { status: 404 });
     }
 
