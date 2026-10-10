@@ -9,7 +9,8 @@ export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
 export default async function Image({ params }) {
-  const category = categories.find(c => c.slug === params.category);
+  const { category: categorySlug } = await params;
+  const category = categories.find(c => c.slug === categorySlug);
 
   if (!category) {
     return new ImageResponse(
