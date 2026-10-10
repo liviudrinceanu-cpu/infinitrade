@@ -163,7 +163,7 @@ Pentru piața din România, Tempco înseamnă acces la rezistențe electrice de 
       "Prelucrarea maselor plastice — rezistențe cast-in pentru cilindri de extrudere"
     ],
     certifications: ["ISO 9001:2015 — management al calității pentru proiectare și fabricație de rezistențe electrice"],
-    infinitrade: `Ce putem și ce nu putem confirma despre Tempco vine strict din documentația tehnică a producătorului. Furnizăm rezistențe electrice și controlere de temperatură din gama Tempco pe bază de cod de model sau parametri tehnici (tensiune, putere, dimensiuni) trimiși de client. Tempco listează doar reprezentanți și distribuitori generici, fără detalii despre acoperirea din Europa; putem aduce gama la comandă prin import din SUA, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu ținem această gamă pe raft și recomandăm confirmarea tensiunii de alimentare înainte de comandă.`,
+    infinitrade: `Ce putem și ce nu putem confirma despre Tempco vine strict din documentația tehnică a producătorului. Furnizăm rezistențe electrice și controlere de temperatură din gama Tempco pe bază de cod de model sau parametri tehnici (tensiune, putere, dimensiuni) trimiși de client. Putem aduce gama la comandă prin import din SUA, termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu ținem această gamă pe raft și recomandăm confirmarea tensiunii de alimentare înainte de comandă.`,
     limitation: "Nu putem confirma disponibilitatea unei rezistențe Tempco fabricate strict la comandă (custom) fără parametrii tehnici compleți trimiși de client.",
     productCodes: [
       { code: "TEC-900", description: "Unitate de afișare a temperaturii (intrare termocuplu sau RTD), format 1/16 DIN" },

@@ -162,7 +162,7 @@ export default function StudiiDeCazPage() {
 
                   <div className={styles.cardFooter}>
                     <span className={styles.readMore}>
-                      Citește ghidul <ArrowRight size={16} />
+                      Citiți ghidul <ArrowRight size={16} />
                     </span>
                   </div>
                 </Link>
@@ -252,7 +252,7 @@ export default function StudiiDeCazPage() {
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaBox}>
-              <h2>Ai un proiect similar?</h2>
+              <h2>Aveți un proiect similar?</h2>
               <p>
                 Trimiteți-ne datele aplicației (fluid, debit, presiune, plăcuța echipamentului existent)
                 și vă răspundem cu o ofertă pe cod de produs.
@@ -262,7 +262,7 @@ export default function StudiiDeCazPage() {
                   Solicitați consultanță
                 </Link>
                 <Link href="/industrii" className={styles.ctaSecondary}>
-                  Vezi Industriile Deservite
+                  Vedeți industriile deservite
                 </Link>
               </div>
             </div>

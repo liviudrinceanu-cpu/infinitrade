@@ -366,7 +366,7 @@ Pentru instalațiile din România cu rezervoare de proces sau depozitare, Drexel
       "Industria alimentară — măsurare de nivel fără contact pentru produse sensibile",
       "Minerit — protecție de nivel în procese cu solide vrac"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma despre gama Drexelbrook rezultă direct din documentația publicată de producător, fără evidențe interne de stoc. Senzorii Drexelbrook îi aducem la comandă prin furnizori din UE, termen orientativ 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de tehnologia de măsurare dorită (RF, ultrasonic, magnetostrictiv sau hidrostatic), tipul de fluid și dacă aplicația necesită certificare de siguranță funcțională. Nu ținem această gamă pe raft și nu putem stabili un termen fix înainte de confirmarea producătorului.`,
+    infinitrade: `Ce putem și ce nu putem confirma despre gama Drexelbrook rezultă direct din documentația tehnică a producătorului, fără evidențe interne de stoc. Senzorii Drexelbrook îi aducem la comandă prin furnizori din UE, termen orientativ 1–4 săptămâni de la confirmarea producătorului. Pentru ofertă avem nevoie de tehnologia de măsurare dorită (RF, ultrasonic, magnetostrictiv sau hidrostatic), tipul de fluid și dacă aplicația necesită certificare de siguranță funcțională. Nu ținem această gamă pe raft și nu putem stabili un termen fix înainte de confirmarea producătorului.`,
     limitation: "Nu putem confirma compatibilitatea exactă cu materiale de proces speciale sau cerințe ATEX specifice fiecărui model; acestea se verifică punctual la producător.",
     productCodes: [
       { code: "Z-Tron IV", description: "Comutator de nivel RF admitanță" },

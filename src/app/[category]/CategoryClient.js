@@ -10,6 +10,7 @@ import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './category.module.css';
 import { validateQuoteForm, QUOTE_FIELDS, PLACEHOLDERS } from '@/lib/formValidation';
+import { deNum } from '@/lib/ro';
 
 // F3-02 - fixed per-category question headings, copied VERBATIM from
 // out/plan-v2/heading-phrasings.md §3.2 (F3-01's input contract). Not
@@ -314,7 +315,7 @@ export default function CategoryClient({ category, view, related = { industries:
   // §3.1): what the category covers, how many brands and product types.
   const ledeSentence = category.description
     ? category.description.split(/\n\s*\n/)[0].match(/^[^.!?]*[.!?]/)?.[0]?.trim() || category.description
-    : `${category.name}: ${brandCount} branduri, ${productTypeCount} tipuri de produse.`;
+    : `${category.name}: ${brandCount} ${deNum(brandCount)}branduri, ${productTypeCount} ${deNum(productTypeCount)}tipuri de produse.`;
 
   return (
     <>
@@ -397,9 +398,9 @@ export default function CategoryClient({ category, view, related = { industries:
           <div className={styles.sectionHeader}>
             <h2>{headings.c01 || `Ce mărci de ${category.name.toLowerCase()} livrăm?`}</h2>
             <p>
-              Livrăm {brandCount} branduri în categoria {category.name.toLowerCase()}
+              Livrăm {brandCount} {deNum(brandCount)}branduri în categoria {category.name.toLowerCase()}
               {featuredNames.length > 0 && (
-                <> — cele mai cerute: {featuredNames.join(', ')}</>
+                <> — printre care: {featuredNames.join(', ')}</>
               )}.
             </p>
           </div>
@@ -443,13 +444,13 @@ export default function CategoryClient({ category, view, related = { industries:
           </div>
           {topBrands.length > MOBILE_CARDS && !showAllCards && (
             <button type="button" className={styles.mobileMore} onClick={() => setShowAllCards(true)}>
-              Arată toate cele {topBrands.length} mărci recomandate
+              Toate cele {topBrands.length} {deNum(topBrands.length)}mărci recomandate
             </button>
           )}
 
           {azBrands.length > topBrands.length && (
             <div className={styles.azWrap} id="toate-marcile">
-              <h3 className={styles.azTitle}>Toate cele {brandCount} de mărci de {category.name.toLowerCase()}, de la A la Z</h3>
+              <h3 className={styles.azTitle}>Toate cele {brandCount} {deNum(brandCount)}mărci de {category.name.toLowerCase()}, de la A la Z</h3>
               <p className={styles.azLead}>
                 Mărcile marcate cu ● au pagină cu game, coduri și surse verificate; celelalte au deocamdată fișa din catalog și pot fi ofertate la comandă.
               </p>
@@ -474,7 +475,7 @@ export default function CategoryClient({ category, view, related = { industries:
               </nav>
               {!azOpen && (
                 <button type="button" className={styles.mobileMore} onClick={() => setAzOpen(true)}>
-                  Deschide lista completă ({brandCount} mărci)
+                  Lista completă ({brandCount} {deNum(brandCount)}mărci)
                 </button>
               )}
               <div className={azOpen ? undefined : styles.azCollapsedMobile}>
@@ -517,7 +518,7 @@ export default function CategoryClient({ category, view, related = { industries:
               </ul>
               {usBrands.length > MOBILE_US_LINKS && !usOpen && (
                 <button type="button" className={styles.mobileMore} onClick={() => setUsOpen(true)}>
-                  Arată toate cele {usBrands.length} branduri din SUA
+                  Toate cele {usBrands.length} {deNum(usBrands.length)}branduri din SUA
                 </button>
               )}
             </div>
@@ -532,7 +533,7 @@ export default function CategoryClient({ category, view, related = { industries:
           <div className={styles.sectionHeader}>
             <h2>{headings.c02 || `Ce tipuri de ${category.name.toLowerCase()} livrăm?`}</h2>
             <p>
-              Categoria {category.name.toLowerCase()} se împarte în {productTypeCount} tipuri de produse.
+              Categoria {category.name.toLowerCase()} se împarte în {productTypeCount} {deNum(productTypeCount)}tipuri de produse.
             </p>
           </div>
 
@@ -622,7 +623,7 @@ export default function CategoryClient({ category, view, related = { industries:
                   <Package size={32} />
                 </div>
                 <h3>{headings.c05 || 'Ce piese de schimb livrăm?'}</h3>
-                <p>Livrăm {category.accessories.length} familii de piese de schimb și consumabile originale pentru mentenanța echipamentelor.</p>
+                <p>Livrăm {category.accessories.length} {deNum(category.accessories.length)}familii de piese de schimb și consumabile originale pentru mentenanța echipamentelor.</p>
                 <ul className={styles.servicesList}>
                   {category.accessories.map((acc) => (
                     <li key={acc}>

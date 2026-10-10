@@ -15,6 +15,7 @@ const equipmentBrandsTotal = new Set(
 ).size;
 import { config } from '@/lib/config';
 import styles from './echipamente.module.css';
+import { deNum } from '@/lib/ro';
 
 export const metadata = {
   openGraph: {
@@ -58,7 +59,7 @@ export default function EchipamenteDiversePage() {
             <h1 className={styles.heroTitle}>Echipamente Industriale</h1>
             <p className={styles.heroDescription}>
               Catalog complet de echipamente industriale: automatizări, senzori, componente hidraulice și pneumatice,
-              echipamente electrice, mecanice, filtre și multe altele. {equipmentBrandsTotal} branduri internaționale.
+              echipamente electrice, mecanice, filtre și multe altele. {equipmentBrandsTotal} {deNum(equipmentBrandsTotal)}branduri internaționale.
             </p>
           </div>
         </section>
@@ -74,7 +75,7 @@ export default function EchipamenteDiversePage() {
                 >
                   <div className={styles.categoryCardHeader} style={{ background: category.gradient }}>
                     <h2 className={styles.categoryName}>{category.name}</h2>
-                    <span className={styles.categoryBrandCount}>{category.brands.length} branduri</span>
+                    <span className={styles.categoryBrandCount}>{category.brands.length} {deNum(category.brands.length)}branduri</span>
                   </div>
                   <div className={styles.categoryCardBody}>
                     <p className={styles.categoryDescription}>{category.tagline}</p>
@@ -84,7 +85,7 @@ export default function EchipamenteDiversePage() {
                       ))}
                     </div>
                     <span className={styles.viewMore}>
-                      Vezi toate produsele &rarr;
+                      Vedeți toate produsele &rarr;
                     </span>
                   </div>
                 </Link>

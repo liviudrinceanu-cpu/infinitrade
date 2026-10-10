@@ -100,7 +100,7 @@ Pentru instalațiile din România cu buncăre de descărcare, site vibrante sau 
     keyProducts: [
       {
         name: "Motovibratoare Seria MVSI",
-        description: "Motovibratoare electrice cu fixare pe picior, linia de referință a producătorului, cu forțe centrifuge care ajung la 30.500 kgf (300 kN) la modelele mari, conform paginii oficiale de produs. Folosite pentru acționarea buncărelor de descărcare, siturilor vibrante și jgheaburilor de transport. Gama include variante suplimentare: MVSI-TS cu capace demontabile, plus MVSI-ACC pentru cuplaj axial și MVSI-E cu siguranță sporită."
+        description: "Motovibratoare electrice cu fixare pe picior, linia de referință a producătorului, cu forțe centrifuge care ajung la 30.500 kgf (300 kN) la modelele mari, conform documentației tehnice. Folosite pentru acționarea buncărelor de descărcare, siturilor vibrante și jgheaburilor de transport. Gama include variante suplimentare: MVSI-TS cu capace demontabile, plus MVSI-ACC pentru cuplaj axial și MVSI-E cu siguranță sporită."
       },
       {
         name: "Motovibratoare Seria MTF",

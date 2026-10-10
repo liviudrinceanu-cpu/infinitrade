@@ -47,8 +47,8 @@ export default function Categories() {
         >
           <h2 className={styles.title}>Categorii de Echipamente Industriale</h2>
           <p className={styles.subtitle}>
-            Explorați gama noastră completă de soluții industriale.
-            De la pompe la motoare, avem tot ce este necesar pentru proiectul dumneavoastră.
+            Explorați categoriile de echipamente industriale.
+            De la pompe la motoare, ofertăm pe cod sau pe listă de echipamente pentru proiectul dumneavoastră.
           </p>
         </div>
 

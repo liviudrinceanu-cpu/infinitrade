@@ -52,7 +52,7 @@ Pentru clienții din România cu linii unde schimbarea unei curele clasice cere 
       { code: "B113", description: "dispozitiv de blocare pe arbore, sarcină extra-grea" }
     ],
     faq: [
-      { q: "Ce este o curea PowerTwist de la Fenner Drives?", a: "PowerTwist e o curea trapezoidală formată din segmente detașabile care se leagă manual, fără scule speciale, ceea ce permite montarea pe fulie fără să demontezi motorul. Vine în secțiunile 3L, A/4L, B/5L și C, sub coduri de catalog precum 0408050." },
+      { q: "Ce este o curea PowerTwist de la Fenner Drives?", a: "PowerTwist e o curea trapezoidală formată din segmente detașabile care se leagă manual, fără scule speciale, ceea ce permite montarea pe fulie fără demontarea motorului. Vine în secțiunile 3L, A/4L, B/5L și C, sub coduri de catalog precum 0408050." },
       { q: "Cum aleg lungimea corectă de curea PowerTwist?", a: "Trebuie confirmată secțiunea (3L, A/4L, B/5L sau C) și lungimea de dezvoltare a curelei, calculată din distanța dintre axe și diametrele fuliilor. Codul exact (de exemplu 0408050) se confirmă pe catalogul producătorului." },
       { q: "La ce ajută o bucșă Trantorque față de o pană clasică?", a: "Bucșa Trantorque strânge piesa pe arbore prin compresie mecanică, fără canal de pană, ceea ce elimină jocul și permite demontarea și remontarea repetată fără uzura canalului. E utilă la role, ventilatoare sau cuplaje montate și demontate frecvent." },
       { q: "Livrați Fenner Drives în România și în cât timp?", a: "Aducem la comandă curele PowerTwist și componente Trantorque sau B-LOC prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de codul exact și confirmarea producătorului." }

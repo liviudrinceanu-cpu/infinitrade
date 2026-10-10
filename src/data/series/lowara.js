@@ -9,7 +9,7 @@ export const series = [
     "name": "e-SHE",
     "oneLine": "Pompă centrifugă monobloc Lowara, corp și rotor din inox AISI 316L, cuplată direct pe arborele motorului.",
     "lifecycle": "activ",
-    "lifecycleNote": "Manualul Lowara pentru e-SHE/e-SHS are ediția 10/2024, iar broșura tehnică ESH aferentă este la revizia G din 11/2024; nu am găsit o notă de retragere din fabricație.",
+    "lifecycleNote": "Manualul Lowara pentru e-SHE/e-SHS are ediția 10/2024, iar broșura tehnică ESH aferentă este la revizia G din 11/2024; nu putem confirma o declarație de retragere din fabricație.",
     "intro": "e-SHE este pompa centrifugă monobloc din gama Lowara ESH, cu corp și rotor din inox AISI 316L, la care rotorul este montat direct pe prelungirea arborelui motorului electric standard IEC (construcție close-coupled). Codul de tip înșiruie diametrul de refulare, diametrul rotorului, puterea motorului, tipul de motor (standard sau cu variator Hydrovar X), numărul de poli și tensiunea; de exemplu ESHE 65-160 corespunde unei pompe de 65 mm refulare cu rotor de 160 mm.\n\nPentru o ofertă avem nevoie de punctul de funcționare dorit (debit și înălțime de pompare), puterea motorului în kW, tensiunea de alimentare și temperatura lichidului vehiculat; codul complet de pe plăcuța pompei existente simplifică identificarea variantei exacte. Aducem pompele la comandă din Uniunea Europeană, în 1–4 săptămâni, fără a garanta disponibilitate din stoc.",
     "models": [
       {

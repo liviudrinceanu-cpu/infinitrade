@@ -203,7 +203,7 @@ export default function TestimonialePage() {
                 Cereți o referință
               </Link>
               <Link href="/studii-de-caz" className={styles.ctaSecondary}>
-                Vezi ghidurile de aplicație
+                Vedeți ghidurile de aplicație
               </Link>
             </div>
           </div>

@@ -138,7 +138,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
     employees: '88,000+',
     overview: `Daikin este unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează clădiri mari, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii controlate în spitale, datacentere și camere curate. Gama include sisteme VRV, chillere, unități de tratare a aerului și soluții de control; unele sisteme folosesc agentul frigorific R-32, conform documentației producătorului.
 
-Tehnologia inverter reduce consumul de energie față de sistemele on/off; pentru chillere, producătorul indică o reducere de până la 25% a consumului de energie, a costurilor de funcționare și a emisiilor de CO2. Datele de eficiență se confirmă pe model, din documentația oficială.
+Tehnologia inverter reduce consumul de energie față de sistemele on/off; pentru chillere, producătorul indică o reducere de până la 25% a consumului de energie, a costurilor de funcționare și a emisiilor de CO2. Datele de eficiență se confirmă pe model, din documentația tehnică.
 
 Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la birouri mici la aeroporturi, de la fabrici la hoteluri de 5 stele. Tehnologia producătorului Heat Recovery permite încălzire și răcire simultană în zone diferite, economisind energie prin recuperarea căldurii reziduale.`,
     whyChoose: [
@@ -156,7 +156,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       },
       {
         name: 'Chillere Răcite cu Aer EWA-TZ',
-        description: `Seria EWA/FD/H/S-TZ este, conform documentației Daikin Europe, o generație de chillere răcite cu aer, cu compresoare cu șurub și inverter, cu agenți frigorifici R-1234ze, R-513A sau R-134a. Producătorul menționează peste 150 de opțiuni de configurare. Capacitățile și variantele se confirmă pe cod, din documentația oficială.`
+        description: `Seria EWA/FD/H/S-TZ este, conform documentației Daikin Europe, o generație de chillere răcite cu aer, cu compresoare cu șurub și inverter, cu agenți frigorifici R-1234ze, R-513A sau R-134a. Producătorul menționează peste 150 de opțiuni de configurare. Capacitățile și variantele se confirmă pe cod, din documentația tehnică.`
       },
       {
         name: 'Unități de Tratare Aer Modulare',
@@ -482,7 +482,7 @@ Gama și specificațiile fiecărui model se confirmă pe cod, din documentația 
       },
       {
         name: 'Polizoare Unghiulare DCG414/418',
-        description: `DCG418 este, conform paginii oficiale DeWalt, un polizor unghiular fără perii pe platforma 60V MAX (FlexVolt), pentru discuri de 4-1/2 și 6 țoli (aproximativ 115 și 150 mm), cu viteză la mers în gol de 9000 rpm, frână care oprește discul în aproximativ 1,5 secunde la discuri standard și sistem E-CLUTCH care oprește motorul la blocare. Specificațiile modelului DCG414 și conținutul kitului se confirmă pe cod, din fișa tehnică oficială.`
+        description: `DCG418 este, conform documentației tehnice DeWalt, un polizor unghiular fără perii pe platforma 60V MAX (FlexVolt), pentru discuri de 4-1/2 și 6 țoli (aproximativ 115 și 150 mm), cu viteză la mers în gol de 9000 rpm, frână care oprește discul în aproximativ 1,5 secunde la discuri standard și sistem E-CLUTCH care oprește motorul la blocare. Specificațiile modelului DCG414 și conținutul kitului se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Ferăstrău Circular DCS578/579',
@@ -587,7 +587,7 @@ Gama și specificațiile fiecărui model se confirmă pe cod, din documentația 
       },
       {
         "q": "Livrați scule DeWalt în România?",
-        "a": "Da, aducem la comandă scule DeWalt pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de configurația setului. Recomandăm confirmarea codului exact al modelului dorit înainte de comandă."
+        "a": "Da, aducem la comandă scule DeWalt pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de configurația setului. Recomandăm confirmarea codului exact al modelului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de sculă electrică DeWalt?",
@@ -623,19 +623,19 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
     keyProducts: [
       {
         name: 'Detector Multi-Gaz Dräger X-am 8000',
-        description: `X-am 8000 este un detector portabil multi-gaz Dräger care măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori (tehnologii CAT, IR, PID și EC), pompă integrată pentru furtunuri de până la 45 m și protecție IP 68, conform documentației producătorului. Autonomia depășește 24 de ore, alarma sonoră este de 100 dB, iar aprobările includ ATEX, IECEx și cCSA pentru Zone 0 / Division 1. Gazele măsurabile și configurația se confirmă pe cod, din documentația oficială.`
+        description: `X-am 8000 este un detector portabil multi-gaz Dräger care măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori (tehnologii CAT, IR, PID și EC), pompă integrată pentru furtunuri de până la 45 m și protecție IP 68, conform documentației producătorului. Autonomia depășește 24 de ore, alarma sonoră este de 100 dB, iar aprobările includ ATEX, IECEx și cCSA pentru Zone 0 / Division 1. Gazele măsurabile și configurația se confirmă pe cod, din documentația tehnică.`
       },
       {
         name: 'Aparat Respirat Dräger PSS 7000',
-        description: `PSS 7000 este un aparat de respirat cu aer comprimat Dräger pentru pompieri și echipe de intervenție industrială. Butelia, greutatea, autonomia, funcțiile mășii și ale sistemului de alarmă PASS și certificările (EN 137) se confirmă pe cod, din documentația oficială a producătorului.`
+        description: `PSS 7000 este un aparat de respirat cu aer comprimat Dräger pentru pompieri și echipe de intervenție industrială. Butelia, greutatea, autonomia, funcțiile mășii și ale sistemului de alarmă PASS și certificările (EN 137) se confirmă pe cod, din documentația tehnică a producătorului.`
       },
       {
         name: 'Sistem Fix Detecție Gaze Dräger Regard 7000',
-        description: `Regard 7000 este un sistem de control pentru detecție fixă de gaz, destinat monitorizării continue în instalații industriale. Numărul de detectoare, ieșirile, comunicațiile, memoria și standardele aplicabile se confirmă pe cod, din documentația oficială a producătorului.`
+        description: `Regard 7000 este un sistem de control pentru detecție fixă de gaz, destinat monitorizării continue în instalații industriale. Numărul de detectoare, ieșirile, comunicațiile, memoria și standardele aplicabile se confirmă pe cod, din documentația tehnică a producătorului.`
       },
       {
         name: 'Detector Portabil Pac 8000 Single Gas',
-        description: `Pac 8000 este un detector portabil Dräger reutilizabil, pentru un singur gaz, destinat monitorizării personale; conform documentației producătorului poate detecta 29 de gaze diferite, are baterie cu autonomie de 2 ani la funcționare continuă, protecție IP 68, greutate de circa 106 g și alarmă sonoră de 90 dB, cu transmisie de date prin Bluetooth. Gazul măsurat și intervalul de calibrare se confirmă pe cod, din documentația oficială.`
+        description: `Pac 8000 este un detector portabil Dräger reutilizabil, pentru un singur gaz, destinat monitorizării personale; conform documentației producătorului poate detecta 29 de gaze diferite, are baterie cu autonomie de 2 ani la funcționare continuă, protecție IP 68, greutate de circa 106 g și alarmă sonoră de 90 dB, cu transmisie de date prin Bluetooth. Gazul măsurat și intervalul de calibrare se confirmă pe cod, din documentația tehnică.`
       }
     ],
     certifications: [
@@ -721,7 +721,7 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
       },
       {
         "q": "Livrați detectoare de gaz Drager în România la comandă?",
-        "a": "Echipamentele Drager sunt procurate individual, după confirmarea specificațiilor din documentația oficială a producătorului, fără un stoc intern menținut constant. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Drager. Pentru un răspuns rapid este util să menționați gazul de detectat și mediul de utilizare, industrial sau intervenție."
+        "a": "Echipamentele Drager sunt procurate individual, după confirmarea specificațiilor din documentația tehnică a producătorului, fără un stoc intern menținut constant. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de model și de disponibilitatea din rețeaua Drager. Pentru un răspuns rapid este util să menționați gazul de detectat și mediul de utilizare, industrial sau intervenție."
       },
       {
         "q": "Ce trebuie să specific pentru o ofertă pentru un detector Drager?",
@@ -1436,7 +1436,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
     faq: [
       {
         "q": "Ce transmitoare de presiune Rosemount oferă Emerson pentru montaj direct pe conductă?",
-        "a": "Pentru montaj direct pe proces, familia Rosemount 3051 include variantele In-Line și Coplanar, alături de configurații dedicate pentru nivel, debit prin element Annubar sau orificiu integral, și o versiune Hygienic pentru industria alimentară. Rosemount 2051 este opțiunea alternativă, cu stabilitate declarată pe termen mai lung, conform paginilor oficiale Emerson."
+        "a": "Pentru montaj direct pe proces, familia Rosemount 3051 include variantele In-Line și Coplanar, alături de configurații dedicate pentru nivel, debit prin element Annubar sau orificiu integral, și o versiune Hygienic pentru industria alimentară. Rosemount 2051 este opțiunea alternativă, cu stabilitate declarată pe termen mai lung, conform documentației tehnice Emerson."
       },
       {
         "q": "Care este diferența dintre valvele Fisher easy-e ED și EWD?",

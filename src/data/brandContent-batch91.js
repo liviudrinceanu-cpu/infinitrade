@@ -29,7 +29,7 @@ Pentru un inginer de mentenanță din România, gama Hansford acoperă atât ret
       "Industria alimentară — puncte de măsură cu acces redus și cerințe de igienă"
     ],
     infinitrade: `Furnizăm senzori de vibrații Hansford pentru puncte de măsură fixe pe lagăre, ventilatoare și pompe, în variante standard sau intrinsec sigure. Lucrăm doar cu informațiile din documentația tehnică a producătorului, fără date proprii de stoc pe cod: nu ținem această gamă pe raft, aducem senzorii la comandă prin canale de aprovizionare din Marea Britanie, cu termen orientativ de 1–4 săptămâni în funcție de configurația exactă cerută. Pentru o ofertă corectă, avem nevoie de codul complet dorit (montaj, ieșire, conector) sau de aplicația exactă și tipul de automatizare la care se conectează senzorul. Nu promitem un termen fix înainte de confirmarea producătorului pentru configurația specifică.`,
-    limitation: "Nu putem confirma parametrii de sensibilitate sau gama de frecvență pentru fiecare variantă de conector, deoarece nu apar detaliați pe paginile publice consultate.",
+    limitation: "Nu putem confirma parametrii de sensibilitate sau gama de frecvență pentru fiecare variantă de conector, deoarece nu apar detaliați în documentația tehnică consultată.",
     productCodes: [
       { code: "HS-420", description: "Accelerometru cu ieșire 4-20mA, montaj în vârf" },
       { code: "HS-421", description: "Ieșire dublă: viteză 4-20mA plus accelerație AC" },
@@ -147,7 +147,7 @@ Pentru integratori din România, Kathrein oferă o alternativă tehnică la mari
       "Sănătate — trasabilitatea echipamentelor și a consumabilelor"
     ],
     infinitrade: `Furnizăm cititoare și antene Kathrein pentru proiecte de identificare RFID în logistică și producție. Nu avem date proprii despre stocul producătorului pe fiecare model: informațiile despre disponibilitate vin direct din confirmarea Kathrein la momentul comenzii. Aducem echipamentele la comandă prin canalele europene ale producătorului, cu termen orientativ de 1–4 săptămâni; nu promitem disponibilitate din depozit pentru variantele Gen4 de vârf. Pentru ofertă, e nevoie de tipul de instalație (poartă, linie, punct fix), dacă preferați antenă integrată sau separată și dacă e necesară conectivitate wireless suplimentară.`,
-    limitation: "Nu putem confirma frecvențele exacte de operare sau distanța de citire pentru fiecare model, deoarece paginile publice consultate nu detaliază acești parametri per variantă.",
+    limitation: "Nu putem confirma frecvențele exacte de operare sau distanța de citire pentru fiecare model, deoarece documentația tehnică consultată nu detaliază acești parametri per variantă.",
     productCodes: [
       { code: "ARU 3500 Gen4", description: "Cititor cu antenă integrată, Linux, protecție IP68" },
       { code: "ARU 3560 Gen4", description: "Cititor cu antenă integrată, conectivitate BLE și Wi-Fi" },
@@ -204,7 +204,7 @@ Pentru rafinării, platforme și centrale din România, gama Metrix acoperă at�
       "Energie — protecția turbinelor cu gaz și a generatoarelor din centrale",
       "Tratarea apei — monitorizarea pompelor mari de proces"
     ],
-    infinitrade: `Furnizăm sisteme de proximitate și monitorizare a vibrațiilor Metrix pentru turbine, compresoare și pompe critice. Sursele noastre sunt paginile publice ale producătorului, fără cifre proprii de disponibilitate pe fiecare cod de sistem. Aducem echipamentele la comandă din SUA, cu termen orientativ de 1–4 săptămâni în funcție de configurația de senzor, cablu și driver aleasă; nu promitem stoc pentru variantele mai puțin cerute. Pentru o ofertă corectă, avem nevoie de tipul de măsurătoare dorit (proximitate sau seismic), lungimea traseului de cablu și dacă sistemul trebuie să îndeplinească cerințe API 670 sau SIL 2.`,
+    infinitrade: `Furnizăm sisteme de proximitate și monitorizare a vibrațiilor Metrix pentru turbine, compresoare și pompe critice. Sursele noastre sunt documentația tehnică a producătorului, fără cifre proprii de disponibilitate pe fiecare cod de sistem. Aducem echipamentele la comandă din SUA, cu termen orientativ de 1–4 săptămâni în funcție de configurația de senzor, cablu și driver aleasă; nu promitem stoc pentru variantele mai puțin cerute. Pentru o ofertă corectă, avem nevoie de tipul de măsurătoare dorit (proximitate sau seismic), lungimea traseului de cablu și dacă sistemul trebuie să îndeplinească cerințe API 670 sau SIL 2.`,
     limitation: "Nu putem confirma compatibilitatea directă cu sisteme de protecție ale altor producători instalate anterior; fiecare integrare se verifică separat la ofertare.",
     productCodes: [
       { code: "MX2033", description: "Driver cu 3 fire pentru sistemul de proximitate, conform API 670" },

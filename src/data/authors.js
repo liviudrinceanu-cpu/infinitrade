@@ -10,7 +10,7 @@ export const authors = [
     id: 'echipa-tehnica',
     name: 'Echipa tehnică Infinitrade',
     role: 'Vânzări și suport tehnic',
-    bio: 'Articolele sunt scrise de echipa care primește cererile de ofertă: vânzări, suport tehnic la selecție și achiziții. Datele tehnice vin din documentația publică a producătorilor.',
+    bio: 'Articolele sunt scrise de echipa care primește cererile de ofertă: vânzări, suport tehnic la selecție și achiziții. Datele tehnice vin din documentația tehnică a producătorilor.',
   },
 ];
 

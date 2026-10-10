@@ -35,7 +35,7 @@ Pentru piața din România, Estun poate fi opțiunea potrivită acolo unde un pr
       
     ],
     infinitrade: `Punem la dispoziție gama Estun de componente de acționare și roboți industriali pentru integratori din România. Ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, fără date proprii despre stocul curent al fiecărui model. Comanda ajunge prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de fabrica din China. Pentru ofertă, spuneți-ne dacă aveți nevoie de o componentă individuală (servomotor, drive, invertor) sau de un robot complet cu accesorii; nu ținem gama Estun pe raft, fiecare comandă se aduce direct din canalul de aprovizionare confirmat de fabrică.`,
-    limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar pe paginile oficiale consultate.",
+    limitation: "Nu putem confirma anul înființării sau numărul de angajați pentru Estun, informații care nu apar în documentația tehnică consultată.",
     productCodes: [
       { code: "ER series", description: "roboți industriali din seria ER" },
       { code: "UNO series", description: "roboți industriali din seria UNO" },
@@ -211,7 +211,7 @@ Pentru un integrator din România, Red Lion are sens acolo unde proiectul combin
     whyChoose: [
       "Un singur software, Crimson, configurează atât HMI-urile, cât și controlerele edge FlexEdge din gamă",
       "Familia FlexEdge include modelele DA50, DA70, DA10D și DA30D, toate configurabile din Crimson",
-      "Modular Controller permite schimbarea configurației de intrări/ieșiri fără să înlocuiești tot controlerul",
+      "Modular Controller permite schimbarea configurației de intrări/ieșiri fără înlocuirea întregului controler",
       "Compania face parte din grupul HMS Networks din 2024",
       "Data Station Plus convertește între protocoale industriale diferite, util la echipamente mai vechi",
     ],

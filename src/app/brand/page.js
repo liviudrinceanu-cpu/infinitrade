@@ -9,6 +9,7 @@ import { getBrandsWithContent } from '@/data/brandContent';
 import { lastModified } from '@/data/lastModified';
 import { Tag } from 'lucide-react';
 import styles from './brand-index.module.css';
+import { deNum } from '@/lib/ro';
 
 // Index A–Z of every brand with its own page (D-2026-09-21, Branduri-500).
 // Plain HTML links, no client JS: this is the crawl path Google and the AI
@@ -99,7 +100,7 @@ export default function BrandIndexPage() {
           </div>
         </section>
 
-        <nav className={styles.letterNav} aria-label="Sari la literă">
+        <nav className={styles.letterNav} aria-label="Salt la literă">
           <div className={styles.container}>
             {groups.map(([letter]) => (
               <a key={letter} href={`#litera-${letter}`}>{letter}</a>
@@ -138,7 +139,7 @@ export default function BrandIndexPage() {
             <div className={styles.container}>
               <h2 className={styles.sectionTitle}>Catalog complet: branduri cu pagina în lucru</h2>
               <p className={styles.sectionNote}>
-                Pentru aceste {catalogOnly.length} de branduri putem primi cereri de ofertă de pe acum; pagina detaliată se publică pe măsură ce verificăm datele producătorului.
+                Pentru aceste {catalogOnly.length} {deNum(catalogOnly.length)}branduri putem primi cereri de ofertă de pe acum; pagina detaliată se publică pe măsură ce verificăm datele producătorului.
               </p>
               {catalogGroups.map(([letter, brands]) => (
                 <div key={letter} className={styles.letterBlock}>

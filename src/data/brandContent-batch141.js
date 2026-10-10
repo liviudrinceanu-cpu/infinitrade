@@ -161,7 +161,7 @@ Pentru un laborator de diagnostic sau un integrator OEM din România, FMI însea
       "Instrumentație analitică — capete de pompă interschimbabile după compatibilitatea fluidului",
     ],
     infinitrade: `Aducem pompe și capete de pompă FMI la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Informațiile tehnice pe care le folosim vin din documentația tehnică a producătorului; nu avem date proprii despre stocul din SUA și spunem clar unde se opresc aceste informații. Pentru ofertă avem nevoie de fluidul dozat, volumul țintă per ciclu, materialul de contact dorit și seria de pompă dorită, ca să identificăm combinația corectă de cap de pompă și unitate. Nu promitem o gamă permanentă pe raft.`,
-    limitation: "Nu putem confirma parametri de precizie sau debit pentru combinații de cap de pompă și fluid care nu apar explicit în documentația publică a producătorului.",
+    limitation: "Nu putem confirma parametri de precizie sau debit pentru combinații de cap de pompă și fluid care nu apar explicit în documentația tehnică a producătorului.",
     productCodes: [
       { code: "FENYX", description: "pompă cu dispens variabil, 1–400 microlitri, dozare fără contact de la 4 microlitri" },
       { code: "FENYX+", description: "pompă cu dispens variabil, 250–1150 microlitri" },

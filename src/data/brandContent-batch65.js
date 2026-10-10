@@ -564,7 +564,7 @@ Pentru instalațiile din România, Barksdale are sens la protecția compresoarel
       "Marină — instrumentație de presiune și nivel rezistentă la mediul naval",
       "Agricultură și construcții — comutatoare de presiune pentru hidraulică mobilă"
     ],
-    infinitrade: `Pentru Barksdale ne raportăm la cataloagele publice ale producătorului — fără date proprii de stoc pe serie și fără să confirmăm un prag de presiune exact fără verificare prealabilă. Aducem comutatoare, traductoare și transmițătoare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și execuție (standard sau antiex). Pentru ofertă avem nevoie de plaja de presiune sau temperatură necesară, tipul de racord, execuția cerută (standard, antiex) și, dacă e cazul, codul comutatorului existent care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie.`,
+    infinitrade: `Pentru Barksdale ne raportăm la documentația tehnică a producătorului — fără date proprii de stoc pe serie și fără să confirmăm un prag de presiune exact fără verificare prealabilă. Aducem comutatoare, traductoare și transmițătoare la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și execuție (standard sau antiex). Pentru ofertă avem nevoie de plaja de presiune sau temperatură necesară, tipul de racord, execuția cerută (standard, antiex) și, dacă e cazul, codul comutatorului existent care se înlocuiește. Nu promitem disponibilitate din depozit pe nicio serie.`,
     limitation: "Nu putem confirma certificarea ATEX/antiex completă a unei configurații specifice fără fișa tehnică exactă a modelului solicitat.",
     productCodes: [
       { code: "E1S", description: "comutator de presiune Econ-O-Trol, joasă presiune" },
@@ -694,7 +694,7 @@ Pentru gospodăriile și fermele din România, Speroni are sens la alimentarea c
       "Industrial — evacuare apă murdară din bazine și stații de pompare",
       "Construcții — epuisment apă din excavații și subsoluri"
     ],
-    infinitrade: `Pentru Speroni ne bazăm pe cataloagele publice ale producătorului — fără date proprii de stoc pe model și fără să confirmăm o disponibilitate anume fără verificare prealabilă. Aducem pompe de suprafață și submersibile Speroni la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și cantitate. Pentru ofertă avem nevoie de debitul necesar, înălțimea de pompare, tipul de apă (curată sau murdară) și adâncimea sursei, dacă e vorba de o pompă submersibilă. Nu promitem disponibilitate din depozit pe nicio serie.`,
+    infinitrade: `Pentru Speroni ne bazăm pe documentația tehnică a producătorului — fără date proprii de stoc pe model și fără să confirmăm o disponibilitate anume fără verificare prealabilă. Aducem pompe de suprafață și submersibile Speroni la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și cantitate. Pentru ofertă avem nevoie de debitul necesar, înălțimea de pompare, tipul de apă (curată sau murdară) și adâncimea sursei, dacă e vorba de o pompă submersibilă. Nu promitem disponibilitate din depozit pe nicio serie.`,
     limitation: "Nu putem confirma din surse proprii compatibilitatea unui panou de comandă existent cu o pompă Speroni de altă generație fără schema electrică completă.",
     productCodes: [
       { code: "KPM", description: "pompă volumetrică, debite mici, uz rezidențial" },

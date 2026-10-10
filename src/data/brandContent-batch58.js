@@ -184,7 +184,7 @@ Pentru proiectanții și instalatorii din România, Oventrop înseamnă module d
       { q: "Ce produce Oventrop?", a: "Oventrop este un producător german de tehnică de reglare pentru încălzire, răcire și apă potabilă — stații compacte, robineți de echilibrare hidronică și robineți cu bilă — activ din 1851." },
       { q: "Cum aleg o stație Oventrop după cod?", a: "Verificați familia potrivită aplicației — Regumat pentru circuit de încălzire, Regudis sau Regumaq X pentru apă caldă menajeră, HydroControl pentru echilibrare — apoi trimiteți-ne debitul de proiect și temperatura agentului termic pentru selecția din gama Oventrop." },
       { q: "Ce echivalent are gama HydroControl de la Oventrop?", a: "HydroControl este robinetul de echilibrare propriu Oventrop; branduri precum Danfoss sau IMI Hydronic au game similare de echilibrare, dar cu scale și coduri proprii, necomparabile direct." },
-      { q: "Livrați produse Oventrop în România și cât durează?", a: "Aducem gama Oventrop la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
+      { q: "Livrați produse Oventrop în România și cât durează?", a: "Aducem gama Oventrop la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității." }
     ],
     evidenceClass: "transactional",
     tier: 3,
@@ -362,7 +362,7 @@ Pentru instalatorii și dezvoltatorii din România, Armatura Kraków înseamnă 
       { q: "Ce produce Armatura Kraków?", a: "Armatura Kraków (KFA Armatura) produce baterii de baie și bucătărie, robineți cu bilă și radiatoare din aluminiu pentru instalații de încălzire, cu sediul la Kraków, activ din 1922." },
       { q: "Cum aleg o baterie Armatura Kraków după cod?", a: "Verificați seria (Moza 316L, Malaga, Logon, Otava sau Duero), apoi codul numeric complet de pe etichetă sau din catalog; trimiteți-ne acest cod pentru a confirma exact varianta de finisaj și configurația de montaj." },
       { q: "Ce echivalent are seria Moza 316L de la Armatura Kraków?", a: "Moza 316L este gama proprie de baterii din inox rezistent la coroziune; alte branduri au game proprii, cu coduri și finisaje diferite, necomparabile direct." },
-      { q: "Livrați produse Armatura Kraków în România și cât durează?", a: "Aducem baterii și radiatoare Armatura Kraków la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea distribuitorului local." }
+      { q: "Livrați produse Armatura Kraków în România și cât durează?", a: "Aducem baterii și radiatoare Armatura Kraków la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea disponibilității." }
     ],
     evidenceClass: "gsc-only",
     tier: 3,

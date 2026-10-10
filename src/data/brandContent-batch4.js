@@ -784,7 +784,7 @@ Infinitrade pune la dispoziție gama de pompe Ebara pentru aplicații industrial
       },
       {
         "q": "Livrați pompe Ebara în România?",
-        "a": "Da, aducem la comandă pompe Ebara pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de materialul dorit. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă pompe Ebara pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de materialul dorit. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Ebara?",

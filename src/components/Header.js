@@ -11,6 +11,7 @@ import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
 import { useQuoteCart } from '@/context/QuoteCartContext';
 import { debounce } from '@/lib/utils';
 import styles from './Header.module.css';
+import { deNum } from '@/lib/ro';
 
 // v16 (D-2026-09-26): the search index (categories, product types, 1 300+
 // brands) is a generated file loaded on the first search keystroke, and the
@@ -297,7 +298,7 @@ export default function Header() {
                                 ))}
                               </ul>
                               <Link prefetch={false} href={`/${category.slug}`} className={styles.dropdownCta}>
-                                Vezi toate produsele →
+                                Vedeți toate produsele →
                               </Link>
                             </div>
                             <div className={styles.dropdownBrandsCol}>
@@ -314,7 +315,7 @@ export default function Header() {
                                 ))}
                               </div>
                               <Link prefetch={false} href={`/${category.slug}#branduri`} className={styles.dropdownAllBrands}>
-                                {`Toate cele ${menu.brandCount}${menu.brandCount >= 20 ? ' de' : ''} branduri →`}
+                                {`Toate cele ${menu.brandCount} ${deNum(menu.brandCount)}branduri →`}
                               </Link>
                             </div>
                           </div>
@@ -624,7 +625,7 @@ export default function Header() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   tabIndex={isMobileMenuOpen ? 0 : -1}
                 >
-                  {`Toate cele ${MAIN_CATEGORY_MENUS[item.href].brandCount}${MAIN_CATEGORY_MENUS[item.href].brandCount >= 20 ? ' de' : ''} branduri`}
+                  {`Toate cele ${MAIN_CATEGORY_MENUS[item.href].brandCount} ${deNum(MAIN_CATEGORY_MENUS[item.href].brandCount)}branduri`}
                 </Link>
               </div>
             ) : (

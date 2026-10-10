@@ -894,7 +894,7 @@ Alegerea tipului de oală depinde de presiunea de lucru, sarcina de condensat (k
 
 Pe piață există mai mulți producători specializați, printre care [Spirax Sarco](/brand/spirax-sarco), [Gestra](/brand/gestra) și [Armstrong](/brand/armstrong), fiecare cu game de oale termodinamice, termostatice, cu plutitor și bimetalice și documentație tehnică proprie.
 
-Vezi și gama de [robineți și armătură industrială](/robineti-industriali) și de [schimbătoare de căldură](/schimbatoare-caldura) pentru optimizarea sistemelor termice cu abur. Pentru monitorizare și control automatizat al parametrilor de proces, consultați secțiunea de [automatizări industriale](/automatizari-industriale).
+Vedeți și gama de [robineți și armătură industrială](/robineti-industriali) și de [schimbătoare de căldură](/schimbatoare-caldura) pentru optimizarea sistemelor termice cu abur. Pentru monitorizare și control automatizat al parametrilor de proces, consultați secțiunea de [automatizări industriale](/automatizari-industriale).
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -962,7 +962,7 @@ Motoarele vechi pot avea o izolație mai puțin rezistentă la solicitările ele
 
 ## Alegerea și instalarea VFD-ului
 
-Puterea nominală a convertizorului trebuie să fie cel puțin egală cu cea a motorului, cu o marjă suplimentară la porniri grele sau vârfuri de sarcină, conform recomandărilor producătorului. Pentru integrare în sisteme de automatizare, se aleg de regulă modele cu comunicație pe magistrală industrială (Profinet, Modbus) — vezi și gama de [automatizări industriale](/automatizari-industriale).
+Puterea nominală a convertizorului trebuie să fie cel puțin egală cu cea a motorului, cu o marjă suplimentară la porniri grele sau vârfuri de sarcină, conform recomandărilor producătorului. Pentru integrare în sisteme de automatizare, se aleg de regulă modele cu comunicație pe magistrală industrială (Profinet, Modbus) — vedeți și gama de [automatizări industriale](/automatizari-industriale).
 
 La instalare, producătorii recomandă în general cablu ecranat între convertizor și motor, cu ecranul legat la pământ la ambele capete, separare față de cablurile de semnal și, la distanțe mari, filtre de ieșire — altfel pot apărea perturbații electromagnetice în instalație. Consultați și gama de [componente electrice industriale](/echipamente-electrice). Setările din fabrică sunt un compromis generic; pentru fiecare aplicație se recomandă ajustarea frecvenței minime/maxime, a timpilor de accelerare/decelerare și a limitelor de curent.
 
@@ -972,7 +972,7 @@ Cerințele europene de ecodesign pentru motoare electrice și convertizoare de f
 
 ## Producători de convertizoare de frecvență
 
-Printre producătorii cu gamă documentată public pentru aplicații industriale se numără [Siemens](/brand/siemens) (seria SINAMICS), [ABB](/brand/abb) (seria ACS) și [Danfoss](/brand/danfoss) (seria VLT, cu game dedicate pompelor și HVAC). Vezi și [comparația Danfoss vs. ABB vs. Siemens pentru convertizoare de frecvență](/blog/danfoss-vs-abb-vs-siemens-convertizoare-frecventa).
+Printre producătorii cu gamă documentată public pentru aplicații industriale se numără [Siemens](/brand/siemens) (seria SINAMICS), [ABB](/brand/abb) (seria ACS) și [Danfoss](/brand/danfoss) (seria VLT, cu game dedicate pompelor și HVAC). Vedeți și [comparația Danfoss vs. ABB vs. Siemens pentru convertizoare de frecvență](/blog/danfoss-vs-abb-vs-siemens-convertizoare-frecventa).
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -1057,7 +1057,7 @@ Un schimbător cu plăci demontabile necesită înlocuirea periodică a garnitur
 
 Alegerea concretă depinde de: tipul de fluide (curate, cu particule, agresive chimic), presiunea și temperatura de lucru, spațiul disponibil, cerințele de certificare ale industriei și disponibilitatea pieselor de schimb pe piața locală. Pentru majoritatea aplicațiilor standard de climatizare sau răcire industrială, ambele game de schimbătoare brazate acoperă cerințele tehnice uzuale; diferența relevantă apare la aplicații speciale (alimentar certificat, presiuni/temperaturi ridicate, configurații personalizate).
 
-Vezi și [ghidul complet pentru schimbătoare de căldură industriale](/blog/ghid-schimbatoare-caldura-industriale) și gama de [schimbătoare cu plăci brazate](/schimbatoare-caldura/schimbatoare-placi-brazate-industriale), [schimbătoare cu plăci demontabile](/schimbatoare-caldura/schimbatoare-placi-demontabile-industriale) și [schimbătoare tubulare](/schimbatoare-caldura/schimbatoare-tubulare-industriale).
+Vedeți și [ghidul complet pentru schimbătoare de căldură industriale](/blog/ghid-schimbatoare-caldura-industriale) și gama de [schimbătoare cu plăci brazate](/schimbatoare-caldura/schimbatoare-placi-brazate-industriale), [schimbătoare cu plăci demontabile](/schimbatoare-caldura/schimbatoare-placi-demontabile-industriale) și [schimbătoare tubulare](/schimbatoare-caldura/schimbatoare-tubulare-industriale).
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -1107,7 +1107,7 @@ Cuplajul dintre pompă și motor compensează dezalinieri mici, nu dezalinieri m
 
 **Semne:** vibrații crescute, încălzire la nivelul cuplajului, uzură neuniformă a garniturilor și rulmenților.
 
-**Recomandare:** alinierea cu laser după fiecare intervenție care implică demontarea grupului pompă-motor. Vezi și [echipamentele de aliniere și măsurare a vibrațiilor](/aparate-masura-testare/termoviziune-vibratii-aliniere).
+**Recomandare:** alinierea cu laser după fiecare intervenție care implică demontarea grupului pompă-motor. Vedeți și [echipamentele de aliniere și măsurare a vibrațiilor](/aparate-masura-testare/termoviziune-vibratii-aliniere).
 
 ## 3. Funcționare în gol
 
@@ -1167,7 +1167,7 @@ Fără un istoric al intervențiilor, este dificil să identificați tipare recu
 
 ## Mentenanța preventivă vs. mentenanța corectivă
 
-Mentenanța preventivă presupune verificări planificate, înainte de apariția defecțiunii; cea corectivă intervine după defectare, de regulă cu impact mai mare asupra producției. Vezi și [ghidul de mentenanță preventivă pentru pompe industriale](/blog/mentenanta-preventiva-pompe-industriale).
+Mentenanța preventivă presupune verificări planificate, înainte de apariția defecțiunii; cea corectivă intervine după defectare, de regulă cu impact mai mare asupra producției. Vedeți și [ghidul de mentenanță preventivă pentru pompe industriale](/blog/mentenanta-preventiva-pompe-industriale).
 
 ## Ce date să trimiteți pentru ofertă
 
@@ -1207,7 +1207,7 @@ Regulamentul stabilește cerințe de ecodesign pentru [motoarele electrice](/mot
 - de la 1 iulie 2021, motoarele trifazate cu puterea nominală între 0,75 kW și 1.000 kW trebuie să corespundă cel puțin clasei de eficiență **IE3**;
 - de la 1 iulie 2023, motoarele trifazate (cu excepția motoarelor de frână, a celor cu protecție la explozie de tip Ex eb și a altor motoare antiexplozive), cu putere între 75 kW și 200 kW și 2, 4 sau 6 poli, trebuie să corespundă cel puțin clasei **IE4**.
 
-**Implicație practică:** la înlocuirea unui motor sau la specificarea unuia nou, pentru puterile și configurațiile acoperite de regulament, clasa de eficiență minimă admisă pe piața UE este superioară celei uzuale acum un deceniu. Pentru aplicații cu sarcină variabilă, [convertizorul de frecvență](/echipamente-electrice/convertizoare-frecventa) rămâne o soluție frecvent folosită pentru ajustarea consumului la necesarul real de proces — vezi [convertizoare de frecvență: când merită investiția](/blog/convertizoare-frecventa-beneficii).
+**Implicație practică:** la înlocuirea unui motor sau la specificarea unuia nou, pentru puterile și configurațiile acoperite de regulament, clasa de eficiență minimă admisă pe piața UE este superioară celei uzuale acum un deceniu. Pentru aplicații cu sarcină variabilă, [convertizorul de frecvență](/echipamente-electrice/convertizoare-frecventa) rămâne o soluție frecvent folosită pentru ajustarea consumului la necesarul real de proces — vedeți [convertizoare de frecvență: când merită investiția](/blog/convertizoare-frecventa-beneficii).
 
 ## Gaze fluorurate cu efect de seră — Regulamentul (UE) 2024/573
 
@@ -1228,7 +1228,7 @@ Intrat în vigoare la 18 iulie 2024, acest regulament extinde cadrul de ecodesig
 
 ## Alte cadre de reglementare relevante
 
-Pe lângă cele trei regulamente de mai sus, echipamentele destinate zonelor cu risc de explozie rămân guvernate de Directiva 2014/34/UE (ATEX) și standardele conexe (seria SR EN 60079) — vezi [ghidul pentru echipamente ATEX](/blog/echipamente-atex-ghid-zone-periculoase). Pentru achizițiile publice, cerințele tehnice din regulamentele de ecodesign se reflectă tot mai frecvent în caietele de sarcini SEAP/SICAP — vezi [ghidul de achiziții SEAP](/ghid-achizitii-seap).
+Pe lângă cele trei regulamente de mai sus, echipamentele destinate zonelor cu risc de explozie rămân guvernate de Directiva 2014/34/UE (ATEX) și standardele conexe (seria SR EN 60079) — vedeți [ghidul pentru echipamente ATEX](/blog/echipamente-atex-ghid-zone-periculoase). Pentru achizițiile publice, cerințele tehnice din regulamentele de ecodesign se reflectă tot mai frecvent în caietele de sarcini SEAP/SICAP — vedeți [ghidul de achiziții SEAP](/ghid-achizitii-seap).
 
 ## Ce înseamnă pentru specificarea unui echipament nou
 
@@ -1267,7 +1267,7 @@ Dacă alegeți între Knipex, Wera și Gedore pentru scule de mână profesional
 
 ## Ce compară acest ghid
 
-Acest ghid compară Knipex, Wera și Gedore pe criterii verificabile din documentația publică a fiecărui producător, fără referire la preț sau disponibilitate pe stoc:
+Acest ghid compară Knipex, Wera și Gedore pe criterii verificabile din documentația tehnică a fiecărui producător, fără referire la preț sau disponibilitate pe stoc:
 
 - **Gama de produse**: seriile și familiile de scule prezentate oficial de producător.
 - **Parametri tehnici**: dimensiuni, capacități de sertizare, profile de antrenare și mecanisme documentate.
@@ -1278,21 +1278,21 @@ Acest ghid compară Knipex, Wera și Gedore pe criterii verificabile din documen
 
 ## Knipex: ce oferă concret
 
-Knipex este specializat pe clești profesionali, cu game dedicate pentru electricieni, sertizare și mecanică de precizie. Din documentația oficială reținem câteva exemple concrete: **KNIPEX NexStrip**, un multi-tool 3-în-1 pentru electricieni care combină tăierea, dezizolarea și sertizarea; **KNIPEX TubiX XL**, un clește-foarfecă pentru tăiat țevi cu mecanism de blocare rapidă QuickLock; și clești automați de sertizat pentru papuci de cablu, cu capacitate de până la 16 mm² pentru conductor unic și până la 2 × 10 mm² pentru conductor dublu. Gama include și clești electronici cu articulație tip cutie, destinați lucrului de precizie în electronică și mecanică fină.
+Knipex este specializat pe clești profesionali, cu game dedicate pentru electricieni, sertizare și mecanică de precizie. Din documentația tehnică reținem câteva exemple concrete: **KNIPEX NexStrip**, un multi-tool 3-în-1 pentru electricieni care combină tăierea, dezizolarea și sertizarea; **KNIPEX TubiX XL**, un clește-foarfecă pentru tăiat țevi cu mecanism de blocare rapidă QuickLock; și clești automați de sertizat pentru papuci de cablu, cu capacitate de până la 16 mm² pentru conductor unic și până la 2 × 10 mm² pentru conductor dublu. Gama include și clești electronici cu articulație tip cutie, destinați lucrului de precizie în electronică și mecanică fină.
 
-Pentru cine are sens: pentru electricieni și tehnicieni care au nevoie de un clește dedicat unei operații precise (sertizare, tăiere țeavă, dezizolare) și preferă un instrument specializat în locul unuia generalist. Vezi gama completă [Knipex](/brand/knipex).
+Pentru cine are sens: pentru electricieni și tehnicieni care au nevoie de un clește dedicat unei operații precise (sertizare, tăiere țeavă, dezizolare) și preferă un instrument specializat în locul unuia generalist. Vedeți pagina [Knipex](/brand/knipex).
 
 ## Wera: ce oferă concret
 
 Wera construiește gama pe câteva familii proprii de șurubelnițe, chei și scule de cuplu. **Kraftform** este seria de șurubelnițe cu lamă interschimbabilă și mâner modular; **Joker** este seria de chei combinate self-setting, cu gură de prindere adaptivă; **Zyklop** acoperă clichetele, în variantele Speed, Mini și Hybrid; **Impaktor** este linia de tubulare și capete rezistente la impact, pentru scule electrice de impact. Pentru cuplu controlat, producătorul prezintă familiile **Click Torque** și **Safe Torque**. Producătorul menționează certificare **VDE** pentru șurubelnițele izolate, destinate lucrului sub tensiune, și protecție **ESD** pentru șurubelnițele de precizie. Gama de profile de antrenare acoperită depășește 25 de tipuri, inclusiv TORX®, hexagon, Phillips și Pozidriv.
 
-Pentru cine are sens: pentru ateliere și tehnicieni care lucrează cu multe profile de șuruburi diferite și au nevoie de un sistem modular de biți și lame interschimbabile, sau de scule izolate VDE pentru electricitate. Vezi gama completă [Wera](/brand/wera).
+Pentru cine are sens: pentru ateliere și tehnicieni care lucrează cu multe profile de șuruburi diferite și au nevoie de un sistem modular de biți și lame interschimbabile, sau de scule izolate VDE pentru electricitate. Vedeți pagina [Wera](/brand/wera).
 
 ## Gedore: ce oferă concret
 
 Gedore structurează gama pe categorii de proces: scule de înșurubare, scule de moment/cuplu, clești, chei tubulare, scule cu biți, plus categorii separate pentru scule de impact, presare și montaj, scule de strângere, seturi și sortimente, scule de mare cuplu, scule de șlefuit și tăiat, și scule speciale auto. Linia **GEDORE red** acoperă segmentul de scule de uz general, iar **GEDORE Torque Solutions** este dedicată aplicațiilor de cuplu ridicat. Producătorul face referire la standardele **DIN** ca reper de calitate pentru gama sa și menționează certificare **VDE** pentru anumite seturi de șurubelnițe destinate lucrului sub tensiune.
 
-Pentru cine are sens: pentru ateliere care au nevoie de o gamă completă, de la clești și chei tubulare până la scule de cuplu ridicat și seturi de sortimente, sub un singur brand. Vezi gama completă [Gedore](/brand/gedore).
+Pentru cine are sens: pentru ateliere care au nevoie de o gamă completă, de la clești și chei tubulare până la scule de cuplu ridicat și seturi de sortimente, sub un singur brand. Vedeți pagina [Gedore](/brand/gedore).
 
 ## Tabel comparativ
 
@@ -1318,12 +1318,12 @@ Pentru cine are sens: pentru ateliere care au nevoie de o gamă completă, de la
 - Codul de tip exact al sculei sau setului, de pe eticheta produsului sau din catalogul producătorului.
 - Parametrii tehnici necesari: dimensiune, capacitate de sertizare sau tăiere, profil de antrenare, cuplu de strângere.
 - Standardul cerut, dacă aplicația este sub tensiune sau într-un mediu reglementat, de exemplu VDE sau DIN.
-- Cantitatea și, dacă este cazul, codul sculei existente pe care o înlocuiești.
+- Cantitatea și, dacă este cazul, codul sculei existente pe care o înlocuiți.
 
 ## Întrebări frecvente
 
 ### Sunt sculele Knipex, Wera și Gedore compatibile între ele?
-Parțial. Profilele de antrenare standardizate, precum hexagon, TORX® sau Phillips, sunt compatibile între mărci. Sistemele proprii de schimbare rapidă a bițiilor funcționează însă optim doar cu accesoriile aceluiași producător. Verifică profilul exact înainte de comandă, mai ales pentru seturi de biți.
+Parțial. Profilele de antrenare standardizate, precum hexagon, TORX® sau Phillips, sunt compatibile între mărci. Sistemele proprii de schimbare rapidă a bițiilor funcționează însă optim doar cu accesoriile aceluiași producător. Verificați profilul exact înainte de comandă, mai ales pentru seturi de biți.
 
 ### Care brand are gama mai largă de clești?
 Din documentația consultată acum, Knipex prezintă cea mai detaliată gamă dedicată exclusiv cleștilor, cu serii specializate pe operație: sertizare, tăiere țeavă, electronică. Gedore și Wera includ și ele clești, dar ca parte a unei game mai largi de scule de înșurubare și cuplu.
@@ -1334,7 +1334,7 @@ VDE este un standard german pentru scule izolate, destinate lucrului lângă sau
 ### Pot cere o ofertă pentru o singură sculă, nu pentru un set întreg?
 Da. Lucrăm cu gama celor trei producători și putem oferta atât bucăți individuale, cât și seturi sau cantități mai mari, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător.
 
-Informațiile de mai sus provin din documentația publică a producătorilor Knipex, Wera și Gedore, citită la data de 23 septembrie 2026. Lucrăm cu gama tuturor celor trei branduri și putem oferta produsele prin canale din UE, cu termen orientativ de 1–4 săptămâni la comandă. Nu ținem pe raft toată gama și nu suntem distribuitor al niciunuia dintre producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
+Informațiile de mai sus provin din documentația tehnică a producătorilor Knipex, Wera și Gedore, citită la data de 23 septembrie 2026. Lucrăm cu gama tuturor celor trei branduri și putem oferta produsele prin canale din UE, cu termen orientativ de 1–4 săptămâni la comandă. Nu ținem pe raft toată gama și nu suntem distribuitor al niciunuia dintre producători, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1358,7 +1358,7 @@ Dacă alegeți între Gewiss, Schneider Electric și Hager pentru aparataj modul
 
 ## Ce compară acest ghid
 
-Acest ghid compară Gewiss, Schneider Electric și Hager pe criterii verificabile din documentația publică a fiecărui producător, fără referire la preț sau disponibilitate pe stoc:
+Acest ghid compară Gewiss, Schneider Electric și Hager pe criterii verificabile din documentația tehnică a fiecărui producător, fără referire la preț sau disponibilitate pe stoc:
 
 - **Gama de produse**: seriile de întreruptoare automate (MCB), diferențiale (RCD/RCCB/RCBO) și tablouri de distribuție prezentate oficial de producător.
 - **Plaje de parametri**: curenți nominali, capacități de rupere (kA), sensibilități (mA) și număr de poli, unde sunt publicate.
@@ -1371,19 +1371,19 @@ Acest ghid compară Gewiss, Schneider Electric și Hager pe criterii verificabil
 
 Gewiss structurează aparatajul modular pe gama **90 MCB Range**, cu trei familii: **MT** (întreruptoare tradiționale, 1–63 A, capacitate de rupere până la 25 kA, conform EN 60898 și EN 60947-2), **MTHP** (performanță ridicată, 20–125 A, tot până la 25 kA) și **MTC** (compact, 2–32 A, până la 10 kA, cu 2 poli pe un singur modul). Toate trei acoperă curbe **B, C și D** și configurații de la 1P la 4P. Pe partea de protecție diferențială, **90 RCD Range** respectă EN 61009-1 și EN 60947-2, cu curenți de la 6 A la 100 A, sensibilități de 30 mA și 300 mA (plus variante speciale de la 10 mA la 3 A) și tipuri AC, A, A[IR], A[S], F și B. Pentru tablouri, familia **QDX** include QDX 4000 H (panouri primare până la 4000 A cu întreruptoare MSX Air), QDX 1600 H și QDX 630 H (IP55) și QDX 630 L (IP43).
 
-Pentru cine are sens: pentru proiecte industriale sau comerciale unde e nevoie de o gamă largă, documentată public, de la aparataj modular până la tablouri de mare capacitate. Vezi gama completă [Gewiss](/brand/gewiss).
+Pentru cine are sens: pentru proiecte industriale sau comerciale unde e nevoie de o gamă largă, documentată public, de la aparataj modular până la tablouri de mare capacitate. Vedeți pagina [Gewiss](/brand/gewiss).
 
 ## Schneider Electric: ce oferă concret
 
 În portofoliul de joasă tensiune al Schneider Electric apar denumite distinct gama de întreruptoare automate modulare **Acti9 iC40**, sistemul de distribuție **Resi9 MP** și familia **Easy Series**, descrisă oficial drept „soluții de protecție și control". Aceste trei game sunt listate explicit în documentația producătorului pentru România, alături de categoria mai largă de produse și sisteme de joasă tensiune, care include întreruptoare automate, comutatoare și prize. La verificarea de acum, documentația consultată nu a oferit cifrele exacte de curent, capacitate de rupere sau sensibilitate pentru Acti9 iC40 sau Resi9 MP; recomandăm cererea fișei tehnice la momentul ofertării, pentru confirmarea parametrilor.
 
-Pentru cine are sens: pentru instalații care au deja montat aparataj Acti9 sau tablouri Resi9 și au nevoie de completare sau extindere compatibilă. Vezi gama completă [Schneider Electric](/brand/schneider-electric).
+Pentru cine are sens: pentru instalații care au deja montat aparataj Acti9 sau tablouri Resi9 și au nevoie de completare sau extindere compatibilă. Vedeți pagina [Schneider Electric](/brand/schneider-electric).
 
 ## Hager: ce oferă concret
 
 Gama **MCB** de la Hager acoperă configurații **1P, 1P+N, 2P, 3P și 4P**. Pe partea de protecție diferențială, Hager oferă atât **RCCB** (întreruptoare diferențiale pure), cât și **RCBO**, descrise oficial ca protejând simultan împotriva curenților de defect la pământ și a supracurenților. Pentru tablouri, Hager separă gama pe **Residential Distribution Boards**, **Commercial Distribution Boards** (de la panelboard-uri până la tablouri TP&N și tablouri de forță și iluminat) și **Outdoor Enclosures**; pentru distribuție comercială extinsă oferă gama **Invicta**, descrisă drept un „ecosistem electric complet pentru o clădire". Carcasele **Orion** sunt din construcție poliesterică, cu cadre și accesorii dedicate montajului exterior.
 
-Pentru cine are sens: pentru proiecte rezidențiale și comerciale unde tabloul trebuie completat cu accesorii modulare dintr-o gamă unitară, de la aparataj până la carcasă. Vezi gama completă [Hager](/brand/hager).
+Pentru cine are sens: pentru proiecte rezidențiale și comerciale unde tabloul trebuie completat cu accesorii modulare dintr-o gamă unitară, de la aparataj până la carcasă. Vedeți pagina [Hager](/brand/hager).
 
 ## Tabel comparativ
 
@@ -1413,7 +1413,7 @@ Pentru cine are sens: pentru proiecte rezidențiale și comerciale unde tabloul 
 - Standardul aplicabil cerut: EN 60898, EN 61009-1 sau EN 60947-2, după caz.
 - Numărul de poli și tensiunea de rețea a instalației.
 - Tipul tabloului sau carcasei: clasa IP necesară, montaj interior sau exterior, numărul de module.
-- Cantitatea și, dacă e cazul, codul aparatajului existent pe care îl înlocuiești.
+- Cantitatea și, dacă e cazul, codul aparatajului existent pe care îl înlocuiți.
 
 ## Întrebări frecvente
 
@@ -1429,7 +1429,7 @@ Gewiss prezintă public familia QDX, cu QDX 4000 H ca panou primar documentat p�
 ### Cum aleg sensibilitatea corectă a unui diferențial?
 Sensibilitatea (Idn) depinde de aplicație: 30 mA pentru protecția persoanelor, 300 mA pentru protecția la incendiu, cu variante speciale, precum 10 mA până la 3 A la gama 90 RCD de la Gewiss. Trimiteți-ne tipul de circuit protejat și tipul de sarcină, iar noi vă recomandăm gama și sensibilitatea potrivite.
 
-Informațiile de mai sus provin din documentația publică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde documentația nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft toată gama, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
+Informațiile de mai sus provin din documentația tehnică a producătorilor Gewiss, Schneider Electric și Hager, citită la data de 23 septembrie 2026; unde documentația nu preciza un parametru, am notat explicit acest lucru. Lucrăm cu gama celor trei branduri și putem oferta produse din ele, aduse la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem pe raft toată gama, așa că recomandăm confirmarea parametrilor exacți direct cu noi înainte de comandă.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1470,7 +1470,7 @@ Grundfos structurează gama pe trei paliere. Pentru circulație, seria **ALPHA**
 
 ## Wilo: ce oferă concret
 
-Wilo acoperă circulația pe niveluri de performanță: **Wilo-Atmos PICO** și **Wilo-Yonos PICO** (inclusiv variantele PICO-D și PICO-Z) sunt circulatoare glandless de bază, iar **Wilo-Stratos PICO** are, conform paginii oficiale, motor EC electronic reglabil continuu, înălțime de pompare nominală de 0,5-4/6/8 m în funcție de racord (G1, G1½, G2), temperatură a fluidului între -10°C și +110°C, presiune maximă de lucru 10 bar, alimentare 1~230V/50Hz și protecție IPX4D; treapta superioară **Wilo-Stratos MAXO** și **Wilo-Yonos MAXO** adaugă variantele duble (-D) și de zonare (-Z). Pentru debite mai mari, gama in-line/monobloc include **Stratos GIGA2.0-I/-D/-B**, **Atmos GIGA-I/-D/-B** și **CronoBloc-BL-E**, alături de **VeroTwin-DP-E**, **VeroTwin-DPL** și **VeroLine-IPL**. Pentru pompare normată industrială, Wilo oferă **CronoNorm-NLG** și seria **GIGA-N/-NHT/-NX**. Gama [Wilo](/brand/wilo) are sens acolo unde e nevoie de trepte fine de performanță în circulație, de la PICO la MAXO, fără schimbarea familiei de montaj.
+Wilo acoperă circulația pe niveluri de performanță: **Wilo-Atmos PICO** și **Wilo-Yonos PICO** (inclusiv variantele PICO-D și PICO-Z) sunt circulatoare glandless de bază, iar **Wilo-Stratos PICO** are, conform documentației tehnice, motor EC electronic reglabil continuu, înălțime de pompare nominală de 0,5-4/6/8 m în funcție de racord (G1, G1½, G2), temperatură a fluidului între -10°C și +110°C, presiune maximă de lucru 10 bar, alimentare 1~230V/50Hz și protecție IPX4D; treapta superioară **Wilo-Stratos MAXO** și **Wilo-Yonos MAXO** adaugă variantele duble (-D) și de zonare (-Z). Pentru debite mai mari, gama in-line/monobloc include **Stratos GIGA2.0-I/-D/-B**, **Atmos GIGA-I/-D/-B** și **CronoBloc-BL-E**, alături de **VeroTwin-DP-E**, **VeroTwin-DPL** și **VeroLine-IPL**. Pentru pompare normată industrială, Wilo oferă **CronoNorm-NLG** și seria **GIGA-N/-NHT/-NX**. Gama [Wilo](/brand/wilo) are sens acolo unde e nevoie de trepte fine de performanță în circulație, de la PICO la MAXO, fără schimbarea familiei de montaj.
 
 ## DAB: ce oferă concret
 
@@ -1503,7 +1503,7 @@ Pentru mediu ATEX sau alte zone cu risc, din documentația consultată nu am con
 
 ## Ce trebuie să trimiți pentru o ofertă
 
-- codul de tip sau seria exactă, dacă înlocuiești o pompă existentă;
+- codul de tip sau seria exactă, dacă înlocuiți o pompă existentă;
 - debitul și înălțimea de pompare necesare, sau punctul de funcționare dorit;
 - temperatura și tipul fluidului vehiculat;
 - presiunea de lucru din instalație și tipul racordului (filet sau flanșă, DN);
@@ -1514,7 +1514,7 @@ Pentru mediu ATEX sau alte zone cu risc, din documentația consultată nu am con
 
 ### Care e diferența dintre Grundfos ALPHA și Wilo Stratos PICO?
 
-Ambele sunt circulatoare electronice cu turație variabilă pentru încălzire și climatizare. Wilo Stratos PICO are, conform paginii oficiale, înălțimi de pompare nominale de 0,5-4/6/8 m și temperatură a fluidului între -10°C și +110°C. Pentru Grundfos ALPHA, sursa consultată confirmă doar turația variabilă și aplicațiile, fără cifrele exacte, așa că recomandăm o cerere de ofertă cu punctul de funcționare dorit.
+Ambele sunt circulatoare electronice cu turație variabilă pentru încălzire și climatizare. Wilo Stratos PICO are, conform documentației tehnice, înălțimi de pompare nominale de 0,5-4/6/8 m și temperatură a fluidului între -10°C și +110°C. Pentru Grundfos ALPHA, sursa consultată confirmă doar turația variabilă și aplicațiile, fără cifrele exacte, așa că recomandăm o cerere de ofertă cu punctul de funcționare dorit.
 
 ### DAB NKVE poate înlocui un set Grundfos Hydro MPC?
 
@@ -1528,7 +1528,7 @@ Trimiteți-ne o fotografie cu plăcuța de identificare a pompei, cu codul de ti
 
 Da. Pe lângă circulatoarele pentru clădiri, toate cele trei branduri au și game de pompe centrifuge sau multietajate — Grundfos CM/CME/LS/TP, Wilo CronoNorm-NLG/VeroLine, DAB Euro/KCV — prezentate oficial pentru aplicații industriale, dar parametrii exacți trebuie verificați pentru fiecare punct de funcționare.
 
-Informațiile de mai sus provin din documentația publică a producătorilor, verificată la data de 23 septembrie 2026; parametrii tehnici exacți pot varia între variantele de racord sau de țară, așa că recomandăm confirmarea codului de tip înainte de comandă. Nu ținem pe raft toată gama Grundfos, Wilo sau DAB — lucrăm cu aceste game și putem oferta echipamente aduse la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Nu suntem distribuitor al niciunuia dintre acești producători; rolul nostru este să identificăm produsul potrivit și să pregătim oferta.
+Informațiile de mai sus provin din documentația tehnică a producătorilor, verificată la data de 23 septembrie 2026; parametrii tehnici exacți pot varia între variantele de racord sau de țară, așa că recomandăm confirmarea codului de tip înainte de comandă. Nu ținem pe raft toată gama Grundfos, Wilo sau DAB — lucrăm cu aceste game și putem oferta echipamente aduse la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Nu suntem distribuitor al niciunuia dintre acești producători; rolul nostru este să identificăm produsul potrivit și să pregătim oferta.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1565,7 +1565,7 @@ Nu comparăm prețuri, termene de livrare în afara intervalului orientativ sau 
 
 ## Danfoss: ce oferă concret
 
-Danfoss grupează convertizoarele de joasă tensiune în familii curente: iC7 drives, VLT drives, VACON drives și iC2 drives, la care se adaugă o categorie separată de VLT și VACON legacy, dedicată continuității pentru instalații mai vechi. Documentația de produs listează aceste familii ca structură a portofoliului, dar nu detaliază la acest nivel puteri, tensiuni sau clase IP exacte per familie; pasul următor pentru un proiect concret este cererea fișei tehnice a modelului, pornind de la codul de tip. Ce reținem sigur din sursă: existența a patru linii curente distincte plus segmentul legacy, semn că Danfoss menține suport și pentru generații mai vechi de unități. Are sens pentru: fabrici cu unități VLT sau VACON deja montate, unde continuitatea de familie simplifică piesele de schimb; proiecte de retehnologizare unde segmentul legacy acoperă un model mai vechi; situații în care alegerea între iC7, VLT, VACON sau iC2 se face ulterior, după clarificarea cerinței tehnice exacte. Vezi gama [Danfoss](/brand/danfoss) pentru context, apoi confirmăm parametrii pe codul de tip.
+Danfoss grupează convertizoarele de joasă tensiune în familii curente: iC7 drives, VLT drives, VACON drives și iC2 drives, la care se adaugă o categorie separată de VLT și VACON legacy, dedicată continuității pentru instalații mai vechi. Documentația de produs listează aceste familii ca structură a portofoliului, dar nu detaliază la acest nivel puteri, tensiuni sau clase IP exacte per familie; pasul următor pentru un proiect concret este cererea fișei tehnice a modelului, pornind de la codul de tip. Ce reținem sigur din sursă: existența a patru linii curente distincte plus segmentul legacy, semn că Danfoss menține suport și pentru generații mai vechi de unități. Are sens pentru: fabrici cu unități VLT sau VACON deja montate, unde continuitatea de familie simplifică piesele de schimb; proiecte de retehnologizare unde segmentul legacy acoperă un model mai vechi; situații în care alegerea între iC7, VLT, VACON sau iC2 se face ulterior, după clarificarea cerinței tehnice exacte. Vedeți pagina [Danfoss](/brand/danfoss) pentru context, apoi confirmăm parametrii pe codul de tip.
 
 ## ABB: ce oferă concret
 
@@ -1614,9 +1614,9 @@ Danfoss menține o linie separată de VLT și VACON legacy tocmai pentru continu
 În documentație apar IP21 și IP55 pentru varianta ACS580-01, inclusiv UL Type 12, IP00 pentru ACS580-04 destinată montajului în dulap electric și IP42 ca variantă standard pentru ACS580-07. Alegerea între ele depinde de locul de montaj: dulap închis sau spațiu mai expus prafului și umezelii.
 
 ### De ce nu apar prețuri sau termene exacte de livrare în acest ghid?
-Pentru că informațiile de mai sus provin din documentația publică a producătorilor, nu din stocul propriu. Convertizoarele din acest ghid nu se țin, în general, pe raft; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, după confirmarea codului de tip exact.
+Pentru că informațiile de mai sus provin din documentația tehnică a producătorilor, nu din stocul propriu. Convertizoarele din acest ghid nu se țin, în general, pe raft; le aducem la comandă prin canale din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni, după confirmarea codului de tip exact.
 
-Informațiile provin din documentația publică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar în documentația generală (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni; nu ținem pe raft toată gama.
+Informațiile provin din documentația tehnică a producătorilor, verificată la 23 septembrie 2026; pentru parametrii care nu apar în documentația generală (puteri sau clase IP la Danfoss și Siemens, certificare ATEX pentru oricare familie), recomandăm confirmarea directă pe codul de tip exact înainte de comandă. Lucrăm cu gama Danfoss, ABB și Siemens și putem oferta echipamentul potrivit, adus la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni; nu ținem pe raft toată gama.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1644,7 +1644,7 @@ Comparăm cele trei branduri pe criterii care contează efectiv la alegerea unui
 
 ## WIKA: ce oferă concret
 
-WIKA are în portofoliul public manometre Bourdon din inox, modelele 232.50 (carcasă uscată) și 233.50 (carcasă umplută cu lichid, pentru vibrații și șocuri dinamice), în dimensiuni nominale NS 63, 100 și 160, cu plaje de scală de la 0...0,6 bar până la 0...1.600 bar, conforme cu EN 837-1 și ASME B40.100, dotate cu dispozitiv de siguranță la suprapresiune (blow-out). Pentru precizie și calibrare, WIKA oferă manometrul digital CPG1500, cu plajă de la 0 până la 10.000 bar, trei clase de acuratețe disponibile (0,1%, 0,05% sau 0,025% din domeniul de măsurare), compensare termică, conectivitate Bluetooth cu software-ul WIKA-Cal, funcție de logger și o versiune intrinsic sigură. Documentația producătorului listează, pe lângă manometre, și senzori de presiune, transmițătoare de proces, presostate și sisteme cu membrană separatoare. Are sens pentru companii care au nevoie atât de manometre mecanice robuste pentru montaj permanent, cât și de un etalon digital portabil pentru calibrare și service. Vezi gama completă la [WIKA](/brand/wika).
+WIKA are în portofoliul public manometre Bourdon din inox, modelele 232.50 (carcasă uscată) și 233.50 (carcasă umplută cu lichid, pentru vibrații și șocuri dinamice), în dimensiuni nominale NS 63, 100 și 160, cu plaje de scală de la 0...0,6 bar până la 0...1.600 bar, conforme cu EN 837-1 și ASME B40.100, dotate cu dispozitiv de siguranță la suprapresiune (blow-out). Pentru precizie și calibrare, WIKA oferă manometrul digital CPG1500, cu plajă de la 0 până la 10.000 bar, trei clase de acuratețe disponibile (0,1%, 0,05% sau 0,025% din domeniul de măsurare), compensare termică, conectivitate Bluetooth cu software-ul WIKA-Cal, funcție de logger și o versiune intrinsic sigură. Documentația producătorului listează, pe lângă manometre, și senzori de presiune, transmițătoare de proces, presostate și sisteme cu membrană separatoare. Are sens pentru companii care au nevoie atât de manometre mecanice robuste pentru montaj permanent, cât și de un etalon digital portabil pentru calibrare și service. Vedeți pagina [WIKA](/brand/wika).
 
 ## Endress+Hauser: ce oferă concret
 
@@ -1652,7 +1652,7 @@ Endress+Hauser structurează oferta de presiune pe familiile Cerabar (presiune a
 
 ## Keller: ce oferă concret
 
-Keller își structurează gama pe categorii clare: traductoare de presiune, transmițătoare de presiune, sonde de nivel, dataloggere, manometre digitale (seria LEO) și soluții wireless, alături de o linie de soluții personalizate. Traductoarele sunt descrise ca traductoare piezorezistive încapsulate, pentru măsurarea presiunii absolute și relative, iar producătorul precizează că pot fi „adaptate și optimizate" în funcție de necesitățile aplicației, deci gândite inclusiv pentru integrare OEM în echipamente proprii. Transmițătoarele sunt descrise ca traductoare completate cu electronică suplimentară, care compensează neliniaritatea și eroarea de temperatură și livrează un semnal standardizat. Producătorul menționează compatibilitate cu aer, apă, combustibili, ulei și gaz ca medii de măsurare, iar sediul și producția sunt la Winterthur, în Elveția. Prezentarea generală nu listează plaje numerice sau clase de acuratețe pentru serii specifice, acestea fiind, aparent, detaliate doar în fișele tehnice per model. Are sens pentru integratori și proiecte care au nevoie de un traductor compact, adaptabil, sau de monitorizare de nivel hidrostatic. Vezi [Keller](/brand/keller).
+Keller își structurează gama pe categorii clare: traductoare de presiune, transmițătoare de presiune, sonde de nivel, dataloggere, manometre digitale (seria LEO) și soluții wireless, alături de o linie de soluții personalizate. Traductoarele sunt descrise ca traductoare piezorezistive încapsulate, pentru măsurarea presiunii absolute și relative, iar producătorul precizează că pot fi „adaptate și optimizate" în funcție de necesitățile aplicației, deci gândite inclusiv pentru integrare OEM în echipamente proprii. Transmițătoarele sunt descrise ca traductoare completate cu electronică suplimentară, care compensează neliniaritatea și eroarea de temperatură și livrează un semnal standardizat. Producătorul menționează compatibilitate cu aer, apă, combustibili, ulei și gaz ca medii de măsurare, iar sediul și producția sunt la Winterthur, în Elveția. Prezentarea generală nu listează plaje numerice sau clase de acuratețe pentru serii specifice, acestea fiind, aparent, detaliate doar în fișele tehnice per model. Are sens pentru integratori și proiecte care au nevoie de un traductor compact, adaptabil, sau de monitorizare de nivel hidrostatic. Vedeți [Keller](/brand/keller).
 
 ## Tabel comparativ
 
@@ -1698,7 +1698,7 @@ Prezentarea generală citită pentru Keller descrie categoriile (traductoare, tr
 
 Da, dacă alegeți un instrument gândit pentru asta: CPG1500 de la WIKA este descris ca manometru digital de precizie, cu clase de acuratețe de până la 0,025% din domeniul de măsurare, funcție de logger și conectivitate Bluetooth cu software-ul WIKA-Cal, potrivit pentru calibrări on-site.
 
-Informațiile de mai sus provin din documentația publică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 1–4 săptămâni; nu ținem pe raft toată gama.
+Informațiile de mai sus provin din documentația tehnică a producătorilor, citită la data menționată în surse. Lucrăm cu gama acestor branduri și putem oferta pe baza codului de tip exact, cu aducere la comandă prin canale din UE, termen orientativ 1–4 săptămâni; nu ținem pe raft toată gama.
 `,
     author: "Echipa Tehnica Infinitrade",
     authorId: "echipa-tehnica",
@@ -1722,7 +1722,7 @@ Pentru cilindri pneumatici conform ISO 15552, Festo (seria **DSBC**) și Camozzi
 
 ## Ce compară acest ghid
 
-Acest ghid compară gamele Festo, SMC și Camozzi de componente pneumatice, cilindri, distribuitoare și unități de tratare a aerului, pe criterii verificabile din documentația oficială a fiecărui producător:
+Acest ghid compară gamele Festo, SMC și Camozzi de componente pneumatice, cilindri, distribuitoare și unități de tratare a aerului, pe criterii verificabile din documentația tehnică a fiecărui producător:
 
 - gama de serii disponibile și tipul constructiv (cilindru ISO, cilindru compact, distribuitor, unitate FRL);
 - plajele de parametri din sursă (diametru, cursă, presiune de lucru, debit);
@@ -1739,7 +1739,7 @@ Festo publică documentație tehnică detaliată pentru seria de cilindri standa
 
 Pentru distribuție, Festo documentează terminalele de valve **VUVG** și **VTUG**, disponibile în lățimi constructive de 10, 14 și 18 mm, cu configurații de la 3/2 căi până la 5/3 căi. Debitul crește de la 130-330 l/min la mărimea 10, până la 800-1200 l/min la mărimea 18, iar presiunea de lucru admisă merge de la 1,5 la 10 bar, cu variantă de vid documentată până la -0,9 bar. Comanda electrică standard citită în sursă este pe 24 V c.c.
 
-DSBC și VUVG/VTUG au sens pentru linii unde se cere conformitate ISO 15552 clară la cilindru și configurare modulară la distribuitor. Vezi gama completă [Festo](/brand/festo).
+DSBC și VUVG/VTUG au sens pentru linii unde se cere conformitate ISO 15552 clară la cilindru și configurare modulară la distribuitor. Vedeți pagina [Festo](/brand/festo).
 
 ## SMC: ce oferă concret
 
@@ -1747,7 +1747,7 @@ Conform documentației tehnice, seria de cilindri compacți **CQ2** de la SMC ac
 
 Documentația gamei SMC listează, pe lângă actuatoare (cilindri liniari, ghidați, rotativi, fără tijă), categorii de distribuitoare (pilotate, cu acționare directă, pneumatice, mecanice) și echipamente de linie de aer (filtre, regulatoare, lubrifiatoare, uscătoare), fără parametri numerici confirmați acum pentru o serie anume de distribuitor.
 
-**CQ2** are sens acolo unde spațiul de montaj este restrâns și diametrul cerut se încadrează sub 100 mm; pentru cilindri cu conformitate ISO 15552 explicită, verificăm împreună o altă serie din gama SMC. Vezi gama completă [SMC](/brand/smc).
+**CQ2** are sens acolo unde spațiul de montaj este restrâns și diametrul cerut se încadrează sub 100 mm; pentru cilindri cu conformitate ISO 15552 explicită, verificăm împreună o altă serie din gama SMC. Vedeți pagina [SMC](/brand/smc).
 
 ## Camozzi: ce oferă concret
 
@@ -1755,7 +1755,7 @@ Camozzi documentează două serii de cilindri conforme ISO 15552, compatibile ș
 
 Pentru tratarea aerului, **Seria MX** acoperă unități FRL (filtru, regulator, lubrifiator) asamblate, cu conexiuni G3/8, G1/2 sau G3/4 pentru modulul MX2 și G3/4 sau G1 pentru MX3, configurabile cu module suplimentare precum robinet de izolare sau supapă de pornire lentă.
 
-Seria 62/63 are sens ca alternativă directă la un cilindru ISO deja montat, iar Seria MX acoperă tratarea aerului din jurul instalației. Vezi gama completă [Camozzi](/brand/camozzi).
+Seria 62/63 are sens ca alternativă directă la un cilindru ISO deja montat, iar Seria MX acoperă tratarea aerului din jurul instalației. Vedeți pagina [Camozzi](/brand/camozzi).
 
 ## Tabel comparativ
 

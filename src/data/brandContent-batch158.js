@@ -142,7 +142,7 @@ Pentru piața din România, Sefelec are sens la fabricanți de componente electr
       "Scanner extern 64-SC pentru testarea în serie a produselor electrice",
       "Familie de aparate de bancă pentru rigiditate dielectrică, hipot și siguranță de joasă tensiune",
       "Testere automate de cabluri SYNOR 5000, cu detectare de defecte direct din linia de fabricație",
-      "Parte din grupul Eaton din 2013, cu o rețea de parteneri specializați în peste 30 de țări",
+      "Parte din grupul Eaton din 2013",
       "Aparate pentru siguranță electrică și izolație, inclusiv miliohmetre pentru aplicații aerospațiale (RCP2A)",
     ],
     keyProducts: [

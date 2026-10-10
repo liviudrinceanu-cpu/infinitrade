@@ -1182,7 +1182,7 @@ Pentru România, gama Klingspor are sens în ateliere de prelucrare metal, șant
       },
       {
         "q": "Livrați produse Klingspor în România?",
-        "a": "Da, aducem la comandă discuri de tăiere, de șlefuire și scule diamantate din gama Klingspor prezentată mai sus, pornind de la catalogul public al producătorului. Aceste repere nu sunt păstrate permanent pe raft, iar termenul uzual de aprovizionare este de 1–4 săptămâni. Pentru o ofertă, precizați dimensiunea discului, materialul prelucrat și cantitatea dorită."
+        "a": "Da, aducem la comandă discuri de tăiere, de șlefuire și scule diamantate din gama Klingspor prezentată mai sus, pornind de la documentația tehnică a producătorului. Aceste repere nu sunt păstrate permanent pe raft, iar termenul uzual de aprovizionare este de 1–4 săptămâni. Pentru o ofertă, precizați dimensiunea discului, materialul prelucrat și cantitatea dorită."
       }
     ],
     evidenceClass: "market-signal-ro",

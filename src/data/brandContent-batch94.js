@@ -526,7 +526,7 @@ Pentru un antreprenor de instalații sau un integrator de sisteme de stingere di
       "Distribuție apă potabilă — variante Lead-Free pentru conformitate de reglementare",
       "Instalații industriale și comerciale — robineți de reținere din bronz pentru linii de proces",
     ],
-    infinitrade: `Furnizăm robineți de reținere, sertar și Lead-Free din gama NIBCO pentru instalații industriale și de protecție la incendiu, aduși la comandă prin canale de aprovizionare din UE. Informațiile din acest text provin din cataloagele publice ale producătorului; nu avem raft propriu pentru acest brand și nu ținem gama pe raft pentru livrare imediată. Termenul orientativ pentru o comandă configurată pe cod, material și conexiune este de 1–4 săptămâni de la confirmare. Pentru ofertă, transmiteți codul exact sau tipul de robinet, dimensiunea, materialul și tipul de conexiune.`,
+    infinitrade: `Furnizăm robineți de reținere, sertar și Lead-Free din gama NIBCO pentru instalații industriale și de protecție la incendiu, aduși la comandă prin canale de aprovizionare din UE. Informațiile din acest text provin din documentația tehnică a producătorului; nu avem raft propriu pentru acest brand și nu ținem gama pe raft pentru livrare imediată. Termenul orientativ pentru o comandă configurată pe cod, material și conexiune este de 1–4 săptămâni de la confirmare. Pentru ofertă, transmiteți codul exact sau tipul de robinet, dimensiunea, materialul și tipul de conexiune.`,
     limitation: "Nu putem confirma echivalența exactă între un cod NIBCO și un produs similar de la alt producător fără verificarea tehnică a fișei complete.",
     productCodes: [
       { code: "F-908-W", description: "robinet de reținere din fontă, protecție la incendiu, flanșat" },

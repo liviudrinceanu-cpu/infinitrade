@@ -111,7 +111,7 @@ export default async function SeriesPage({ params }) {
             <h1>{s.name}</h1>
             <p className={styles.lede}>{s.oneLine}</p>
             <p className={styles.meta}>
-              Stare în catalogul producătorului: <strong>{s.lifecycle}</strong>{s.lifecycleNote ? ` — ${s.lifecycleNote}` : ''} · Actualizat: {s.dateModified}
+              Stare în gama producătorului: <strong>{s.lifecycle}</strong>{s.lifecycleNote ? ` — ${s.lifecycleNote}` : ''} · Actualizat: {s.dateModified}
             </p>
             <div className={styles.ctas}>
               <Link href={`/contact?brand=${encodeURIComponent(brand.name)}&serie=${encodeURIComponent(s.name)}`} className={styles.ctaPrimary}>Cereți ofertă {s.name}</Link>

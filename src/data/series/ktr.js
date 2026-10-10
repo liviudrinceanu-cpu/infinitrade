@@ -9,7 +9,7 @@ export const series = [
     "name": "ROTEX®",
     "oneLine": "Cuplaj elastic torsional cu gheare KTR, din gama ROTEX®, pentru transmisii mecanice industriale.",
     "lifecycle": "activ",
-    "lifecycleNote": "Pagina KTR pentru ROTEX® este activă în catalogul curent de produse; nu am găsit o declarație explicită de retragere din producție.",
+    "lifecycleNote": "Pagina KTR pentru ROTEX® este activă în documentația curentă de produse; nu putem confirma o declarație explicită de retragere din producție.",
     "intro": "ROTEX® este cuplajul elastic torsional cu gheare al KTR, folosit pentru transmiterea cuplului între arbori la mașini industriale. Familia cuprinde mai multe variante constructive: ROTEX standard, cu cuplu nominal până la 35.000 Nm, ROTEX AH până la 12.500 Nm, ROTEX SH până la 4.500 Nm, ROTEX CF/CFN/DF/DFN până la 35.000 Nm, ROTEX BTAN/SBAN până la 12.500 Nm și varianta cu inel de strângere până la 4.500 Nm. Codul de tip trimis de client, de exemplu ROTEX 24, indică mărimea cuplajului din această gamă.\n\nDin gama ROTEX® putem aduce cuplaje noi la comandă din Uniunea Europeană, cu livrare estimată în 1–4 săptămâni. Pentru o ofertă corectă, clientul precizează mărimea cuplajului solicitată, varianta constructivă din lista de mai sus și diametrele celor două capete de arbore care urmează să fie cuplate; confirmăm compatibilitatea din documentația producătorului înainte de a trimite oferta.",
     "models": [
       {

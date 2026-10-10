@@ -117,7 +117,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil sau alte materiale, în
       },
       {
         "q": "Livrați supape de siguranță LESER în România?",
-        "a": "Da, aducem la comandă supape de siguranță LESER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de certificarea necesară. Recomandăm confirmarea presiunii de reglaj înainte de comandă."
+        "a": "Da, aducem la comandă supape de siguranță LESER pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de certificarea necesară. Recomandăm confirmarea presiunii de reglaj înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de supapă de siguranță LESER?",
@@ -246,7 +246,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       },
       {
         "q": "Livrați oale de condens GESTRA în România?",
-        "a": "Da, aducem oalele de condens GESTRA la comandă, pornind strict de la paginile publice de produs ale producătorului; nu păstrăm o gamă proprie pe raft. În mod obișnuit durează 1–4 săptămâni la comandă, funcție de model și de presiunea de lucru specificată. Recomandăm confirmarea codului exact al seriei înainte de comandă."
+        "a": "Da, aducem oalele de condens GESTRA la comandă, pornind strict de la documentația tehnică a producătorului; nu păstrăm o gamă proprie pe raft. În mod obișnuit durează 1–4 săptămâni la comandă, funcție de model și de presiunea de lucru specificată. Recomandăm confirmarea codului exact al seriei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de oală de condens GESTRA?",
@@ -373,7 +373,7 @@ Materialele standard includ fontă ductilă cu acoperiri epoxidice conforme GSK 
       },
       {
         "q": "Livrați vane și hidranți VAG în România?",
-        "a": "Da, aducem la comandă vane și hidranți VAG pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal și de presiunea de lucru. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă vane și hidranți VAG pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal și de presiunea de lucru. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană VAG?",
@@ -540,7 +540,7 @@ Materialele corpului, discului și garniturii depind de model și de mediul vehi
       },
       {
         "q": "Livrați robinete și vane EBRO Armaturen în România?",
-        "a": "Da, aducem la comandă robinete și vane EBRO Armaturen pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă robinete și vane EBRO Armaturen pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet fluture EBRO?",
@@ -708,7 +708,7 @@ Metoda de îmbinare depinde de material și de diametru și se confirmă din doc
       },
       {
         "q": "Livrați robinete și instrumentație de proces Georg Fischer în România?",
-        "a": "Da, produsele Georg Fischer (GF Piping Systems) se aduc la comandă, respectând paginile publice ale producătorului, fără un stoc propriu constituit dinainte. Perioada tipică este de 1–4 săptămâni la comandă, în funcție de tipul robinetului, materialul dorit și acționarea aleasă. Recomandăm confirmarea tipului exact înainte de comandă."
+        "a": "Da, produsele Georg Fischer (GF Piping Systems) se aduc la comandă, respectând documentația tehnică a producătorului, fără un stoc propriu constituit dinainte. Perioada tipică este de 1–4 săptămâni la comandă, în funcție de tipul robinetului, materialul dorit și acționarea aleasă. Recomandăm confirmarea tipului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet Georg Fischer?",
@@ -862,7 +862,7 @@ Materialele acoperă PVDF, PP și PVC pentru robinetele din plastic, și oțel i
       },
       {
         "q": "Livrați robinete GEMÜ în România?",
-        "a": "Da, robinetele GEMÜ ajung la noi prin comandă, plecând de la paginile publice de produs ale producătorului, fără o gamă proprie ținută pe raft. De regulă sunt necesare 1–4 săptămâni la comandă, în funcție de materialul corpului, tipul de acționare și racordul dorit. Recomandăm confirmarea codului exact al modelului înainte de comandă."
+        "a": "Da, robinetele GEMÜ ajung la noi prin comandă, plecând de la documentația tehnică a producătorului, fără o gamă proprie ținută pe raft. De regulă sunt necesare 1–4 săptămâni la comandă, în funcție de materialul corpului, tipul de acționare și racordul dorit. Recomandăm confirmarea codului exact al modelului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet cu membrană GEMÜ?",
@@ -1024,7 +1024,7 @@ Circulatoarele Ecocirc, cu motor cu rotor umed și reglare electronică a turaț
       },
       {
         "q": "Livrați pompe Lowara în România?",
-        "a": "Da, pompele Lowara se aduc la comandă direct pe baza paginilor publice de produs ale producătorului, fără stoc propriu menținut în depozit. Termenul standard este de 1–4 săptămâni la comandă, potrivit modelului și configurației motorului solicitate. Recomandăm confirmarea codului exact al pompei înainte de comandă."
+        "a": "Da, pompele Lowara se aduc la comandă direct pe baza documentației tehnice a producătorului, fără stoc propriu menținut în depozit. Termenul standard este de 1–4 săptămâni la comandă, potrivit modelului și configurației motorului solicitate. Recomandăm confirmarea codului exact al pompei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă submersibilă Lowara?",
@@ -1185,7 +1185,7 @@ Materialele componentelor umede se aleg în funcție de lichidul de răcire și 
       },
       {
         "q": "Livrați pompe Brinkmann în România?",
-        "a": "Da, aducem la comandă pompe Brinkmann pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de lungimea de imersie necesară. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă pompe Brinkmann pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de lungimea de imersie necesară. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă de imersie Brinkmann?",
@@ -1314,7 +1314,7 @@ Materialele acoperă oțel inoxidabil (de exemplu 1.4404/316L) pentru medii coro
       },
       {
         "q": "Livrați reductoare de presiune Mankenberg în România?",
-        "a": "Da, reductoarele de presiune Mankenberg vin la comandă, urmând paginile publice de produs ale producătorului, fără o gamă proprie păstrată pe stoc. Livrarea durează în general 1–4 săptămâni la comandă, în funcție de model și de materialul solicitat pentru corpul valvei. Recomandăm confirmarea codului exact al seriei DM înainte de comandă."
+        "a": "Da, reductoarele de presiune Mankenberg vin la comandă, urmând documentația tehnică a producătorului, fără o gamă proprie păstrată pe stoc. Livrarea durează în general 1–4 săptămâni la comandă, în funcție de model și de materialul solicitat pentru corpul valvei. Recomandăm confirmarea codului exact al seriei DM înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de reductor de presiune Mankenberg?",
@@ -1441,7 +1441,7 @@ Rotorul, fără etanșări dinamice supuse frecării și fără ulei de ungere �
       },
       {
         "q": "Livrați suflante FPZ la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă suflante cu canal lateral din seriile MS, MD, TS sau TD, pe baza modelului confirmat din documentația oficială FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 1–4 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
+        "a": "Da, aducem la comandă suflante cu canal lateral din seriile MS, MD, TS sau TD, pe baza modelului confirmat din documentația tehnică FPZ. Nu păstrăm suflantele FPZ pe stoc propriu; le procurăm punctual, cu un termen tipic de 1–4 săptămâni. Recomandăm transmiterea debitului și presiunii necesare pentru identificarea corectă a modelului."
       },
       {
         "q": "Ce informații sunt necesare pentru o cerere de ofertă la o suflantă FPZ?",
@@ -1749,7 +1749,7 @@ SAMSON produce intern practic toate componentele critice ale unui lanț de regla
       },
       {
         "q": "Livrați robinete de reglare SAMSON în România?",
-        "a": "Da, robinetele și accesoriile SAMSON se aduc la comandă, conform paginilor publice de produs ale producătorului, fără o gamă proprie disponibilă din start. Timpul necesar este de obicei 1–4 săptămâni la comandă, în funcție de tipul robinetului, actuatorul ales și poziționerul solicitat. Recomandăm confirmarea exactă a tipului înainte de comandă."
+        "a": "Da, robinetele și accesoriile SAMSON se aduc la comandă, conform documentației tehnice a producătorului, fără o gamă proprie disponibilă din start. Timpul necesar este de obicei 1–4 săptămâni la comandă, în funcție de tipul robinetului, actuatorul ales și poziționerul solicitat. Recomandăm confirmarea exactă a tipului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet de reglare SAMSON?",
@@ -1904,7 +1904,7 @@ Materialele acoperă de la oțel inoxidabil cu elastomeri standard, până la ex
       },
       {
         "q": "Livrați pompe NETZSCH în România?",
-        "a": "Da, pompele NETZSCH din gama NEMO se aduc la comandă, pe baza paginilor publice de produs ale producătorului, fără o gamă proprie păstrată în depozit. Perioada obișnuită ajunge la 1–4 săptămâni la comandă, în funcție de model și de materialul rotorului sau statorului ales. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, pompele NETZSCH din gama NEMO se aduc la comandă, pe baza documentației tehnice a producătorului, fără o gamă proprie păstrată în depozit. Perioada obișnuită ajunge la 1–4 săptămâni la comandă, în funcție de model și de materialul rotorului sau statorului ales. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă NETZSCH NEMO?",
@@ -2064,7 +2064,7 @@ Această gamă — de la suflanta Roots simplă și robustă, până la turbosuf
       },
       {
         "q": "Livrați suflante Aerzener în România?",
-        "a": "Da, suflantele Aerzener din gama Delta Hybrid se aduc la comandă, respectând paginile publice de produs ale producătorului, fără o gamă proprie ținută în stoc. În general durează 1–4 săptămâni la comandă, în funcție de dimensiunea suflantei și de configurația de acționare aleasă. Recomandăm confirmarea modelului exact înainte de comandă."
+        "a": "Da, suflantele Aerzener din gama Delta Hybrid se aduc la comandă, respectând documentația tehnică a producătorului, fără o gamă proprie ținută în stoc. În general durează 1–4 săptămâni la comandă, în funcție de dimensiunea suflantei și de configurația de acționare aleasă. Recomandăm confirmarea modelului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de suflantă Aerzener Delta Hybrid?",
@@ -2336,7 +2336,7 @@ Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii co
       },
       {
         "q": "Livrați schimbătoare de căldură Kelvion în România?",
-        "a": "Da, aducem la comandă schimbătoare Kelvion pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de puterea termică necesară. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă schimbătoare Kelvion pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de puterea termică necesară. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător de căldură Kelvion?",
@@ -2469,7 +2469,7 @@ Absența garniturilor elimină principalul punct slab al schimbătoarelor cu pl�
       },
       {
         "q": "Livrați schimbătoare de căldură SWEP în România?",
-        "a": "Da, aducem la comandă schimbătoare SWEP pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Pentru SWEP, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă schimbătoare SWEP pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de conexiunile solicitate. Pentru SWEP, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător de căldură SWEP?",
@@ -2604,7 +2604,7 @@ Materialele plăcilor și ale fasciculelor de țevi se aleg pe cod, din document
       },
       {
         "q": "Livrați schimbătoare de căldură Funke în România?",
-        "a": "Da, aducem la comandă schimbătoare Funke pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de puterea termică solicitată. Recomandăm confirmarea seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă schimbătoare Funke pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de puterea termică solicitată. Recomandăm confirmarea seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de schimbător tubular Funke?",

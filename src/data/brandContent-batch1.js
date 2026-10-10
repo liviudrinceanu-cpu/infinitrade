@@ -8,7 +8,7 @@ export const brandContentBatch1 = {
     employees: '21,000',
     overview: `Grundfos este un producător de pompe utilizat în instalații tehnice din clădiri și în stații de pompare. Producătorul danez a fost fondat în 1945 (fix când se termina al Doilea Război Mondial) și de atunci are fabrici și birouri pe mai multe continente.
 
-Grundfos s-a remarcat prin investiția în eficiență energetică. Astăzi, dacă intrați pe site-ul lor, găsiți pompe cu motoare ECM cu consum de curent redus față de echivalentele clasice. Pentru o fabrică care rulează 24/7, asta poate însemna economii relevante la factura de energie.
+Grundfos s-a remarcat prin investiția în eficiență energetică. Pentru o fabrică care rulează 24/7, un consum redus de curent poate însemna economii relevante la factura de energie.
 
 Produsele Grundfos se regăsesc peste tot: de la instalațiile de climatizare din malluri (seriile UPS, Alpha), la stațiile de pompare pentru apă potabilă (seriile SP, CR, NK), până la dozarea precisă de chimicale în rafinării (seriile DME, DDA). Condițiile de lucru admise (pH, temperatură, număr de porniri) depind de model și se confirmă pe cod, din documentația Grundfos.
 
@@ -187,7 +187,7 @@ Un alt punct forte e integrarea digitală. Grundfos a investit masiv în IoT și
       },
       {
         "q": "Ce echivalent Grundfos există pentru un circulator vechi neetichetat?",
-        "a": "Când codul original nu se mai citește, comparăm distanța dintre flanse, diametrul racordului și curba de presiune-debit cu gamele actuale MAGNA sau ALPHA din documentația oficială. Un desen cotat sau câteva fotografii clare ale corpului pompei ajută mult identificarea. Confirmarea finală se face doar după verificarea parametrilor hidraulici reali ai instalației, nu doar după aspectul exterior al pompei."
+        "a": "Când codul original nu se mai citește, comparăm distanța dintre flanse, diametrul racordului și curba de presiune-debit cu gamele actuale MAGNA sau ALPHA din documentația tehnică. Un desen cotat sau câteva fotografii clare ale corpului pompei ajută mult identificarea. Confirmarea finală se face doar după verificarea parametrilor hidraulici reali ai instalației, nu doar după aspectul exterior al pompei."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -374,7 +374,7 @@ Un alt punct forte al KSB e experiența lor în robinetărie industrială. Nu fa
       },
       {
         "q": "Cum găsesc o vană KSB echivalentă pentru o instalație mai veche?",
-        "a": "Comparăm diametrul nominal, presiunea de lucru și tipul de etanșare cu gamele actuale BOA, BOAX sau ISORIA din documentația oficială. Un desen cotat al flanselor și o descriere a mediului vehiculat ajută mult la încadrarea corectă. Confirmarea finală se face după verificarea parametrilor reali ai conductei, nu doar după aspectul general al vanei existente."
+        "a": "Comparăm diametrul nominal, presiunea de lucru și tipul de etanșare cu gamele actuale BOA, BOAX sau ISORIA din documentația tehnică. Un desen cotat al flanselor și o descriere a mediului vehiculat ajută mult la încadrarea corectă. Confirmarea finală se face după verificarea parametrilor reali ai conductei, nu doar după aspectul general al vanei existente."
       }
     ],
     evidenceClass: 'transactional',
@@ -695,7 +695,7 @@ Un alt punct forte Siemens e integrarea completă: puteți avea un sistem automa
     faq: [
       {
         "q": "Cum citesc denumirea unui automat programabil Siemens, de exemplu S7-1500 R/H?",
-        "a": "Familia S7 arată linia de controlere, iar cifrele indică nivelul de performanță: 1200 pentru aplicații mici, 1500 pentru performanță ridicată. Sufixul R/H marchează o variantă redundantă, gândită pentru disponibilitate mare a procesului. Pentru identificarea exactă a modelului și a firmware-ului compatibil verificăm întotdeauna documentația oficială Siemens, nu doar codul scurt de pe eticheta."
+        "a": "Familia S7 arată linia de controlere, iar cifrele indică nivelul de performanță: 1200 pentru aplicații mici, 1500 pentru performanță ridicată. Sufixul R/H marchează o variantă redundantă, gândită pentru disponibilitate mare a procesului. Pentru identificarea exactă a modelului și a firmware-ului compatibil verificăm întotdeauna documentația tehnică Siemens, nu doar codul scurt de pe eticheta."
       },
       {
         "q": "Livrați echipamente Siemens în România la comandă?",

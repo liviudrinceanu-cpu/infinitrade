@@ -291,7 +291,7 @@ Certificatele de calibrare, trasabilitatea și serviciile de recalibrare diferă
       },
       {
         "q": "Livrați produse Mitutoyo în România?",
-        "a": "Da, aducem produsele Mitutoyo la comandă, identificate după seria sau codul indicat în catalogul oficial al producătorului. Fără date proprii de stoc pe site, livrarea durează de regulă 1–4 săptămâni la comandă — depinde de configurația exactă (fălci, protecție IP65, ieșire de date) și de disponibilitatea acelei variante la fabrică."
+        "a": "Da, aducem produsele Mitutoyo la comandă, identificate după seria sau codul indicat în documentația tehnică a producătorului. Fără date proprii de stoc pe site, livrarea durează de regulă 1–4 săptămâni la comandă — depinde de configurația exactă (fălci, protecție IP65, ieșire de date) și de disponibilitatea acelei variante la fabrică."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de instrument Mitutoyo?",
@@ -318,7 +318,7 @@ Certificatele de calibrare, trasabilitatea și serviciile de recalibrare diferă
 
 Gama industrială Mobil e organizată pe aplicații: seria DTE pentru hidraulică cu formule ISO VG 10-680, seria SHC (lubrifianți sintetici) pentru temperaturi extreme, cu domeniul exact în funcție de produs, Mobilith pentru unsori litiu complex și sintetic cu NLGI 0-3, Mobilgear pentru transmisii industriale, Mobil Rarus pentru compresoare cu șurub și palete, Mobilmet pentru operații de așchiere și formarea metalelor. Fiecare serie are zeci de grade și formulări optimizate pentru presiune, temperatură, compatibilitate etanșări, biodegradabilitate.
 
-Producătorul investește în R&D - activități de cercetare și testare; serviciile tehnice (de exemplu analiza uleiului) se stabilesc direct cu producătorul. În industria grea - siderurgie, mining, ciment, hârtie - unde echipamentul lucrează la capacitate ridicată, lubrifierea corectă influențează direct costurile de mentenanță și opririle neplanificate.`,
+Producătorul investește în R&D - activități de cercetare și testare; serviciile tehnice (de exemplu analiza uleiului) se stabilesc prin noi, în ofertă. În industria grea - siderurgie, mining, ciment, hârtie - unde echipamentul lucrează la capacitate ridicată, lubrifierea corectă influențează direct costurile de mentenanță și opririle neplanificate.`,
     whyChoose: [
       'Tehnologie sintetică - gama Mobil SHC; domeniul de temperatură diferă pe produs',
       'Intervale de schimb extinse la unele produse sintetice, conform producătorului; valorile depind de aplicație',
@@ -915,7 +915,7 @@ Ce apreciem e fiabilitatea în mediu industrial dur - gradul de protecție (IP67
       },
       {
         name: 'IMPACT67 Modular I/O System',
-        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablarea și costul de instalare. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Protocoalele, alimentarea și limitele de temperatură și vibrații depind de modul; le confirmăm pe cod, din documentația Murrelektronik. Diagnosticarea (LED-uri de stare, funcții suplimentare) depinde de modul și se confirmă din fișa producătorului. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - conectezi alimentare + Ethernet, configurezi în software PLC, apoi plug senzori/actuatori direct în câmp. '
+        description: 'Sistem I/O distribuit modular IP67 pentru decentralizarea semnalelor în câmp - reduce cablarea și costul de instalare. Module: DI/DO (4/8/16 canale 24VDC), AI (4/8 canale ±10V/4-20mA/RTD/TC), combinații mixte. Protocoalele, alimentarea și limitele de temperatură și vibrații depind de modul; le confirmăm pe cod, din documentația Murrelektronik. Diagnosticarea (LED-uri de stare, funcții suplimentare) depinde de modul și se confirmă din fișa producătorului. Aplicații: mașini modulare (packaging, assembly) unde I/O sunt distribuite fizic, retrofit echipamente vechi fără rewire complet, mobile machinery. Setup rapid - se conectează alimentarea și Ethernet, se configurează în software PLC, apoi senzorii și actuatorii se conectează direct în câmp. '
       },
       {
         name: 'Surse de alimentare Emparro / Evolution 24VDC',
@@ -1252,7 +1252,7 @@ Parametrii fiecărui produs sunt cei din documentația tehnică a producătorulu
       'Gamă pentru sistem pneumatic - cilindri, valve, FRL, actuatoare, control electronic',
       'Tehnologie avansată - valve proporționale, motion control, IO-Link, bus industrial',
       'Durabilitate ridicată - cilindri ISO cu testare extinsă la oboseală, conform producătorului',
-      'Coduri de produs și documentație publicate de producător'
+      'Coduri de produs și documentație tehnică a producătorului'
     ],
     keyProducts: [
       {

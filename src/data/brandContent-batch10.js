@@ -152,7 +152,7 @@ Filtrele Internormen sunt folosite în aplicații hidraulice industriale și mob
       'Rezistență la presiune diferențială - depinde de elementul ales; se confirmă din fișa tehnică',
       'Elemente cu schelet metalic de susținere - rezistența la colaps se confirmă din fișa tehnică',
       'By-pass valve calibrat din fabrică - protecție pompă chiar dacă elementul este înfundat',
-      'Indicatori vizuali și electrici standard - alarmă când elementul trebuie schimbat, nu ghicești'
+      'Indicatori vizuali și electrici standard - alarmă când elementul trebuie schimbat, fără ghicit'
     ],
     keyProducts: [
       {
@@ -280,7 +280,7 @@ Caracteristicile fiecărui tip de siguranță (I²t, caracteristică timp-curent
       'Capacitate de rupere ridicată - valoarea exactă pentru fiecare tip se confirmă din fișa tehnică',
       'Caracteristică I²t - valorile pentru fiecare calibru se iau din documentația producătorului; selectivitatea o stabilește proiectantul',
       'Corp ceramic umplut cu nisip cuarțos pentru stingerea arcului electric',
-      'Indicator mecanic de topire integrat - vezi instant care siguranță a ars fără multimetru',
+      'Indicator mecanic de topire integrat - se vede instant care siguranță a ars, fără multimetru',
       'Contacte argintate - rezistența de contact și pierderile de putere se confirmă din fișa tehnică',
       'Controlul calității - procedurile de testare se confirmă din documentația producătorului'
     ],
@@ -411,7 +411,7 @@ Caracteristicile fiecărui tip de siguranță (I²t, caracteristică timp-curent
       },
       {
         "q": "Cum găsesc echivalentul unei baze de siguranțe NH mai vechi de la Jean Müller?",
-        "a": "Comparăm mărimea NH, distanța dintre borne și tipul de conexiune (placă sau bară colectoare) cu gamele actuale din documentația oficială a producătorului. O fotografie clară a bazei existente, împreună cu mărimea NH scrisă pe corp, este suficientă de obicei pentru identificare. Confirmarea finală se face după verificarea curentului nominal necesar în instalație."
+        "a": "Comparăm mărimea NH, distanța dintre borne și tipul de conexiune (placă sau bară colectoare) cu gamele actuale din documentația tehnică a producătorului. O fotografie clară a bazei existente, împreună cu mărimea NH scrisă pe corp, este suficientă de obicei pentru identificare. Confirmarea finală se face după verificarea curentului nominal necesar în instalație."
       }
     ],
     evidenceClass: 'transactional',
@@ -535,7 +535,7 @@ JUMO oferă senzori, regulatoare și sisteme de automatizare pentru mai multe m�
       },
       {
         "q": "Livrați regulatoare și senzori JUMO în România la comandă?",
-        "a": "Da, procurăm la comandă echipamente din familiile dTRON, IMAGO sau digiLine, pe baza codului confirmat din documentația oficială JUMO. Nu păstrăm în mod curent aceste aparate pe raft; aducem la comandă, cu un termen orientativ de 1–4 săptămâni. Recomandăm transmiterea numărului complet de tip de pe eticheta aparatului existent pentru identificarea corectă a variantei JUMO."
+        "a": "Da, procurăm la comandă echipamente din familiile dTRON, IMAGO sau digiLine, pe baza codului confirmat din documentația tehnică JUMO. Nu păstrăm în mod curent aceste aparate pe raft; aducem la comandă, cu un termen orientativ de 1–4 săptămâni. Recomandăm transmiterea numărului complet de tip de pe eticheta aparatului existent pentru identificarea corectă a variantei JUMO."
       },
       {
         "q": "Ce date sunt utile pentru o ofertă la un senzor JUMO MAERA?",
@@ -558,7 +558,7 @@ JUMO oferă senzori, regulatoare și sisteme de automatizare pentru mai multe m�
     founded: 1935,
     headquarters: 'Winnenden, Germania',
     employees: '14,000+',
-    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială, cu rețea de distribuție internațională. De peste 85 de ani dezvoltă și produce mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Kärcher este cunoscut pentru eficiență, durabilitate și sustenabilitate.
+    overview: `Kärcher este un producător german de echipamente de curățenie profesională și industrială. De peste 85 de ani dezvoltă și produce mașini de spălat cu presiune, aspiratoare industriale, mașini de spălat pardoseli și sisteme complete de curățare pentru fabrici, depozite, parcări, aeroporturi și spații publice. Kärcher este cunoscut pentru eficiență, durabilitate și sustenabilitate.
 
 Gama industrială Kärcher începe de la mașini mobile pentru curățare zilnică și ajunge până la sisteme robotizate complet automatizate care curăță suprafețe mari fără operator. Gama include tehnologii proprii precum iCapsol (folosit la linia CarpetPro, pentru curățarea suprafețelor textile); caracteristicile exacte diferă pe model și se confirmă pe cod. Kärcher produce în mai multe țări, iar durabilitatea și regimul de utilizare recomandat diferă pe model și se confirmă din documentația producătorului.
 
@@ -578,7 +578,7 @@ Kärcher investește constant în cercetare și dezvoltare, cu tehnologii propri
       },
       {
         name: 'Aspiratoare industriale IVR/IVC/NT',
-        description: 'Puterea, capacitatea containerelor și clasele de praf diferă pe model și se confirmă pe cod, din documentația Kärcher. Motoare cu turbină bypass pentru aspirare continuă fără supraîncălzire, filtre HEPA H13 pentru particule fine, containere din inox 30-100 litri cu golire rapidă. Versiuni pentru praf uscat (clasa L/M conform BG Bau), lichide, șpan metalic, cenușă caldă (până 40°C). Sistem de curățare filtru semi-automat sau automat - bat filtrul fără să oprești aspirarea. Accesorii profesionale: furtun antistat 3-7m, perii antistatice pentru ESD, duze înguste pentru mașini CNC. Aspiratoare ATEX pentru pulberi explozive zona 22.'
+        description: 'Puterea, capacitatea containerelor și clasele de praf diferă pe model și se confirmă pe cod, din documentația Kärcher. Motoare cu turbină bypass pentru aspirare continuă fără supraîncălzire, filtre HEPA H13 pentru particule fine, containere din inox 30-100 litri cu golire rapidă. Versiuni pentru praf uscat (clasa L/M conform BG Bau), lichide, șpan metalic, cenușă caldă (până 40°C). Sistem de curățare filtru semi-automat sau automat - bat filtrul fără oprirea aspirării. Accesorii profesionale: furtun antistat 3-7m, perii antistatice pentru ESD, duze înguste pentru mașini CNC. Aspiratoare ATEX pentru pulberi explozive zona 22.'
       },
       {
         name: 'Mașini spălat cu presiune HDS',
@@ -849,7 +849,7 @@ Keller produce traductoare de presiune pentru domenii de la 0,3 până la 1000 b
 
 Portofoliul Klüber cuprinde formulări specializate: unsori sintetice pe bază PFPE sau PAO pentru temperaturi extreme, uleiuri de înaltă performanță pentru reductoare și lagăre, paste de asamblare, lubrifianți solizi MoS2 sau PTFE, fluide de răcire pentru prelucrări metalice. Fiecare produs Klüber este optimizat pentru o aplicație specifică și testat în laborator până la milioane de cicluri sau mii de ore funcționare înainte de lansare comercială.
 
-Klüber oferă suport tehnic prin specialiști proprii; serviciile disponibile (analiză, teste, calculul intervalului de relubrifiere) se stabilesc direct cu producătorul. Klüber furnizează unsori pentru transmisii electrice auto, lagăre industriale, aplicații aerospace și unsori food-grade pentru industria alimentară.`,
+Klüber oferă suport tehnic prin specialiști proprii; serviciile disponibile (analiză, teste, calculul intervalului de relubrifiere) se stabilesc prin noi, în ofertă. Klüber furnizează unsori pentru transmisii electrice auto, lagăre industriale, aplicații aerospace și unsori food-grade pentru industria alimentară.`,
     whyChoose: [
       'Domeniul de temperatură depinde de produs - formulări pentru condiții de temperatură extremă, confirmate pe cod',
       'Formulări sintetice PFPE - rezistență chimică ridicată; compatibilitatea cu oxigenul și cu alte medii se verifică pe fiecare produs',

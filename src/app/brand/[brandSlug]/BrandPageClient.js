@@ -12,6 +12,7 @@ import { getBrandUpdatedDate } from '@/data/lastModified';
 import entityFacts from '@/data/entityFacts.json';
 import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import styles from './brand.module.css';
+import { deNum } from '@/lib/ro';
 
 
 // F3-02 helpers ---------------------------------------------------------
@@ -32,7 +33,7 @@ function firstSentence(text) {
 
 const SOURCING_STATEMENT = entityFacts.boilerplate.find((b) => b.id === 'sourcing-statement')?.template
   || 'Nu avem stoc permanent documentat pentru <Brand>; putem oferta la comandă, termen orientativ 1–4 săptămâni din fabrică (raritățile și sistemele complexe pot dura mai mult; termenul exact îl confirmăm în ofertă).';
-const LEAD_TIME_FROM_STOCK = entityFacts.leadTimePhrases?.[0] || '24–72 h din stoc';
+const LEAD_TIME_FROM_STOCK = '24–72 h din stoc / 1–4 săpt. la comandă';
 
 export default function BrandPageClient({ brand, primaryDuplicate = null, relatedByCategory = {}, brandContent, seriesPages = [], typePages = [] }) {
   // v17: the hero is rendered visible (no scroll-reveal) — it is the LCP
@@ -182,7 +183,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
               <div className={styles.valueProp}>
                 <Truck size={24} />
                 <div>
-                  <p className={styles.valuePropTitle}>Livrare din stoc</p>
+                  <p className={styles.valuePropTitle}>Termen în ofertă</p>
                   <p>{LEAD_TIME_FROM_STOCK}</p>
                 </div>
               </div>
@@ -212,8 +213,8 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
               <h2 className={styles.richSectionTitle}>Ce livrăm din gama {brand.name}?</h2>
               <p className={styles.sectionLead}>
                 {usesKeyProductsTable
-                  ? <>Livrăm {tableCount} familii de produse {brand.name} din categoria {category.name.toLowerCase()}.</>
-                  : <>{brand.name} are {tableCount} tipuri de echipamente listate în categoria {category.name.toLowerCase()}.</>}
+                  ? <>Livrăm {tableCount} {deNum(tableCount)}familii de produse {brand.name} din categoria {category.name.toLowerCase()}.</>
+                  : <>{brand.name} are {tableCount} {deNum(tableCount)}tipuri de echipamente listate în categoria {category.name.toLowerCase()}.</>}
               </p>
               <div className={styles.dataTableWrap}>
                 <table className={styles.dataTable}>
@@ -283,7 +284,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
               <h2 className={styles.richSectionTitle}>Ce piese și consumabile {brand.name} livrăm?</h2>
               <p className={styles.sectionLead}>
                 Pentru echipamentele {brand.name} din categoria {category.name.toLowerCase()} livrăm
-                {' '}{category.accessories.length} familii de piese și consumabile:
+                {' '}{category.accessories.length} {deNum(category.accessories.length)}familii de piese și consumabile:
               </p>
               <div className={styles.industriesTags}>
                 {category.accessories.map((acc, i) => (
@@ -344,7 +345,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                 <div className={styles.container}>
                   <h2 className={styles.richSectionTitle}>Unde se folosesc echipamentele {brand.name}?</h2>
                   <p className={styles.sectionLead}>
-                    Echipamentele {brand.name} se folosesc în {brandContent.industries.length} industrii:
+                    Echipamentele {brand.name} se folosesc în {brandContent.industries.length} {deNum(brandContent.industries.length)}industrii:
                   </p>
                   <div className={styles.industriesTags}>
                     {brandContent.industries.map((industry, i) => (
@@ -382,7 +383,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                 <div className={styles.container}>
                   <h2 className={styles.richSectionTitle}>Ce coduri și serii {brand.name} sunt cerute frecvent?</h2>
                   <p className={styles.sectionLead}>
-                    Din catalogul public {brand.name}, ca reper de identificare, nu ca listă de stoc.
+                    Din documentația tehnică {brand.name}, ca reper de identificare, nu ca listă de stoc.
                   </p>
                   <div className={styles.codesTableWrap}>
                     <table className={styles.codesTable}>
@@ -428,7 +429,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                   <div className={styles.overviewSidebar}>
                     {/* v34: doar câmpurile completate (înainte, 1.000+ pagini afișau
                         „Fondată:” / „Angajați:” goale). */}
-                    {[['Fondată:', brandContent.founded], ['Sediu:', brandContent.headquarters], ['Angajați:', brandContent.employees]]
+                    {[['Fondată:', brandContent.founded], ['Sediu:', brandContent.headquarters]]
                       .filter(([, v]) => v !== undefined && v !== null && String(v).trim() !== '')
                       .map(([label, v]) => (
                         <div key={label} className={styles.factItem}>
@@ -444,7 +445,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                             // v34: eticheta scurtă a certificării (ex. „ISO 9001”, „CE & UKCA”),
                             // nu primul cuvânt („ISO”, „Motoare”, „448”).
                             const label = String(cert).split(/\s[—–-]\s|\s\(|:\s/)[0].trim();
-                            const short = label.length > 28 ? label.slice(0, 28).replace(/\s+\S*$/, '') + '…' : label;
+                            const short = label;
                             return (
                               <span key={i} className={styles.certBadge} title={cert}>
                                 {short}
@@ -529,7 +530,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
                     </div>
                     <div className={styles.statCard}>
                       <span className={styles.statValue}>24–72 h</span>
-                      <span className={styles.statLabel}>Livrare din stoc</span>
+                      <span className={styles.statLabel}>Termen în ofertă (din stoc)</span>
                     </div>
                   </div>
                 </div>
@@ -684,7 +685,7 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
           <div className={styles.container}>
             <h2>Ce alte mărci livrăm din aceeași categorie?</h2>
             <p className={styles.sectionLead}>
-              În categoria {category.name.toLowerCase()} mai livrăm încă {related.count} branduri.
+              În categoria {category.name.toLowerCase()} mai livrăm încă {related.count} {deNum(related.count)}branduri.
             </p>
             <div className={styles.relatedGrid}>
               {relatedBrands

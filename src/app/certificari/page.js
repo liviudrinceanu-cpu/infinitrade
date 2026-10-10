@@ -11,7 +11,7 @@ const verificationLinks = [
   {
     name: 'Registrul Comerțului (ONRC)',
     url: 'https://termene.ro/firma/26209397-DRIATHELI-GROUP-SRL',
-    description: 'Verifică datele oficiale ale companiei',
+    description: 'Verificați datele oficiale ale companiei',
   },
   {
     name: 'Portal SEAP e-Licitație',
@@ -330,7 +330,7 @@ export default function CertificariPage() {
           <div className={styles.container}>
             <div className={styles.sectionHeader}>
               <ExternalLink size={32} className={styles.globeIcon} />
-              <h2>Verifică-ne Independent</h2>
+              <h2>Verificați-ne independent</h2>
               <p>
                 Transparența e importantă. Puteți verifica toate informațiile despre compania noastră
                 în registrele publice oficiale.
@@ -394,7 +394,7 @@ export default function CertificariPage() {
                 <AlertCircle className={styles.checkIcon} size={24} style={{color: '#f59e0b'}} />
                 <div>
                   <h3>Timp de Răspuns</h3>
-                  <p>În funcție de complexitatea solicitării, timpul de răspuns poate varia între 24 și 72 de ore pentru oferte tehnice detaliate. Pentru urgențe, oferim soluții alternative.</p>
+                  <p>Răspundem de regulă în aceeași zi lucrătoare sau în următoarea. Pentru urgențe, oferim soluții alternative.</p>
                 </div>
               </div>
               <div className={styles.qualityCard}>

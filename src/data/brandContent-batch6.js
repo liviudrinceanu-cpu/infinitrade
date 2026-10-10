@@ -308,7 +308,7 @@ Profesioniștii aleg Bosch Professional pentru fiabilitatea documentată de prod
       },
       {
         name: 'GWS 18V-125 SC Brushless Angle Grinder',
-        description: `Polizorul unghiular GWS 18V-125 SC are, conform producătorului, funcții KickBack Control, soft start și Vibration Control, iar conectivitatea Bluetooth se adaugă printr-un modul. Discul are 125 mm; turația și puterea depind de model și se confirmă pe cod. Tehnologie KickBack Control cu accelerometru detectează blocajul discului în 0.1 secunde și oprește instant motorul - previne accidentele severe (polizorul smuls din mâini). Switch-ul cu paletă mare permite controlul cu mănuși groase iarna, iar soft-start-ul Electronic elimină șocul inițial. Conectivitate Toolbox via Bluetooth: setezi nivelul de viteză (până la 6 trepte, cu modulul Bluetooth), restart protection (nu pornește accidental la reconectare baterie), maintenance counter (urmărești orele lucru și forțezi service preventiv).`
+        description: `Polizorul unghiular GWS 18V-125 SC are, conform producătorului, funcții KickBack Control, soft start și Vibration Control, iar conectivitatea Bluetooth se adaugă printr-un modul. Discul are 125 mm; turația și puterea depind de model și se confirmă pe cod. Tehnologie KickBack Control cu accelerometru detectează blocajul discului în 0.1 secunde și oprește instant motorul - previne accidentele severe (polizorul smuls din mâini). Switch-ul cu paletă mare permite controlul cu mănuși groase iarna, iar soft-start-ul Electronic elimină șocul inițial. Conectivitate Toolbox via Bluetooth: se setează nivelul de viteză (până la 6 trepte, cu modulul Bluetooth), restart protection (nu pornește accidental la reconectare baterie), maintenance counter (se urmăresc orele de lucru și se poate forța service preventiv).`
       },
       {
         name: 'GLL 3-80 CG Professional Line Laser',
@@ -569,7 +569,7 @@ Sistemul X20 are arhitectură modulară în trei părți (bloc de borne, modul e
 
 Pompele seria QX sunt pompe cu roți dințate interioare, descrise de producător ca soluții universale („all-rounders”) pentru presiuni de până la 400 bar; seria AX cuprinde pompe cu pistoane axiale. Gama include valve direcționale, valve cartridge, valve stivuibile, valve de menținere a sarcinii și valve cu răspuns rapid, precum și grupuri hidraulice (power units) în șapte familii.
 
-Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibilitatea pieselor și condițiile de service se confirmă direct cu producătorul.`,
+Disponibilitatea pieselor și condițiile de service se confirmă în ofertă.`,
     whyChoose: [
       'Pompe QX cu roți dințate interioare, pentru presiuni de până la 400 bar',
       'Pompe cu roți dințate interioare pentru turații variabile (QXEH, QXEHX) și pentru fluide cu vâscozitate mică (QXV)',
@@ -970,7 +970,7 @@ Specificațiile și compatibilitatea componentelor se confirmă pe cod, din docu
     faq: [
       {
         "q": "Ce înseamnă codul de serie de la Caleffi, de exemplu Seria 145?",
-        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Dimensiunea și tipul de racord se regăsesc în fișa tehnică a fiecărui produs. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică transmisă de dumneavoastră, împreună cu diametrul nominal necesar."
+        "a": "Codul de serie arată familia de produs și varianta constructivă din documentația tehnică a producătorului. Dimensiunea și tipul de racord se regăsesc în fișa tehnică a fiecărui produs. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică transmisă de dumneavoastră, împreună cu diametrul nominal necesar."
       },
       {
         "q": "Ce diferență este între Seria 536 și alte reductoare de presiune?",
@@ -1014,7 +1014,7 @@ Variantele personalizate (cursă, montaj, senzori) se confirmă în ofertă, pe 
       },
       {
         name: 'Series 358 Directional Control Valves',
-        description: `Seria 358 este o electrovalvă 5/2 cu racord G1/8, potrivită pentru comanda cilindrilor cu dublu efect, cu debit nominal de 700 Nl/min, conform catalogului oficial Camozzi (seria 3). Presiunea de lucru este de 2,5-10 bar la varianta monostabilă și de 1,5-10 bar la cea bistabilă. Bobinele sunt disponibile la 24 V c.c., 110 V și 230 V c.a., iar o variantă are certificare ATEX II 2G Ex mb IIC T4 Gb. Variantele pentru montaj pe bază de distribuție se confirmă pe cod, din catalog.`
+        description: `Seria 358 este o electrovalvă 5/2 cu racord G1/8, potrivită pentru comanda cilindrilor cu dublu efect, cu debit nominal de 700 Nl/min, conform documentației tehnice Camozzi (seria 3). Presiunea de lucru este de 2,5-10 bar la varianta monostabilă și de 1,5-10 bar la cea bistabilă. Bobinele sunt disponibile la 24 V c.c., 110 V și 230 V c.a., iar o variantă are certificare ATEX II 2G Ex mb IIC T4 Gb. Variantele pentru montaj pe bază de distribuție se confirmă pe cod, din catalog.`
       },
       {
         name: 'FRL Units',
@@ -1152,7 +1152,7 @@ Variantele personalizate (cursă, montaj, senzori) se confirmă în ofertă, pe 
 
 Gama Carrier de răcitoare (chillere) include modele răcite cu apă (centrifugale, cu șurub și scroll) și răcite cu aer (scroll AquaSnap, cu șurub AquaForce), conform documentației producătorului. Carrier produce răcitoare centrifugale semi-ermetice 19XR, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B; lagărele magnetice fără ulei sunt menționate de producător la modelul 19MV, nu la 19XR.
 
-Datele de eficiență energetică, de mentenanță și de service se confirmă pe model, din documentația oficială Carrier.`,
+Datele de eficiență energetică, de mentenanță și de service se confirmă pe model, din documentația tehnică Carrier.`,
     keyProducts: [
       {
         name: '19XR Semi-Hermetic Centrifugal Chiller',
@@ -1261,7 +1261,7 @@ Datele de eficiență energetică, de mentenanță și de service se confirmă p
       },
       {
         "q": "Livrați echipamente Carrier în România la comandă?",
-        "a": "Comandăm unitățile Carrier pe baza specificațiilor primite de la client, sprijinindu-ne exclusiv pe documentația publică a producătorului, fără depozit propriu de utilaje păstrat în avans. Pentru răcitoare și unități de capacitate mare termenul este, de regulă, peste 4 săptămâni și se confirmă după validarea configurației. Vă recomandăm să ne trimiteți codul echipamentului și capacitatea necesară pentru un răspuns rapid și corect."
+        "a": "Comandăm unitățile Carrier pe baza specificațiilor primite de la client, sprijinindu-ne exclusiv pe documentația tehnică a producătorului, fără depozit propriu de utilaje păstrat în avans. Pentru răcitoare și unități de capacitate mare termenul este, de regulă, peste 4 săptămâni și se confirmă după validarea configurației. Vă recomandăm să ne trimiteți codul echipamentului și capacitatea necesară pentru un răspuns rapid și corect."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un chiller Carrier?",
@@ -1281,7 +1281,7 @@ Datele de eficiență energetică, de mentenanță și de service se confirmă p
 
 Printre produsele producătorului se numără gama Castrol Hysol, fluide de așchiere solubile pentru prelucrarea metalelor feroase, formulate cu aditivi rezistenți la contaminare, conform documentației producătorului.
 
-Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe produs, din documentația oficială Castrol.`,
+Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe produs, din documentația tehnică Castrol.`,
     whyChoose: [
       'Hysol - fluide de așchiere solubile pentru metale feroase (de exemplu Hysol XP 60, 33 FF, 11 FF, MB 50)',
       'Molub-Alloy - unsori, uleiuri și paste cu solide pentru sarcini mari și temperaturi ridicate',

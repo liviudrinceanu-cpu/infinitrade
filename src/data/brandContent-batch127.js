@@ -81,7 +81,7 @@ Pentru piața din România, RIDGID înseamnă scule pentru firme de instalații 
       "Mașini de filetat disponibile pe game diferite de diametru, de la instalații sanitare curente până la conducte mai groase.",
       "Camerele de inspecție SeeSnake găsesc blocaje și fisuri în canalizații fără săpături exploratorii costisitoare.",
       "Mașinile de curățat canale din seria K9 folosesc cabluri FlexShaft interschimbabile pentru diametre diferite de conductă.",
-      "Parte din Emerson; site-ul RIDGID Europe are o căutare a distribuitorilor locali."
+      "Parte din Emerson."
     ],
     keyProducts: [
       { name: "Mașini de filetat țevi (seria 300/535)", description: "Familie de mașini electrice pentru filetat, tăiat și debavurat țevi, de la modelul compact 300 până la unități mai mari precum 1224 și 1215, pentru diametre mai mari de conductă. Modelul 535A adaugă filetare automată pentru volume mai mari de lucru. Alegerea corectă depinde de diametrul maxim de țeavă cerut de proiect și de tipul de filet (NPT, BSPT sau altul) folosit în instalație." },
@@ -120,7 +120,7 @@ Pentru piața din România, RIDGID înseamnă scule pentru firme de instalații 
       { q: "Ce produce RIDGID?", a: "RIDGID fabrică scule pentru instalatori și electricieni: mașini de filetat țevi, scule de presare, camere de inspecție video pentru canalizații și mașini de curățat canale. Marca aparține grupului Emerson și are sediul la Elyria, Ohio." },
       { q: "Cum aleg o sculă de presare RIDGID după cod?", a: "Alegerea depinde de forța necesară (15, 24 sau 32 kN, în funcție de serie) și de diametrul fitingului; trimiteți-ne codul sau dimensiunea fitingului și confirmăm seria potrivită. Trimiteți-ne diametrul și materialul îmbinării pentru recomandarea corectă." },
       { q: "Livrați RIDGID în România și cât durează?", a: "Aducem scule RIDGID la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu ținem gama pe raft, deci disponibilitatea se confirmă individual pentru fiecare model cerut." },
-      { q: "Se poate procura RIDGID în România/Europa?", a: "Da, prin import la comandă; RIDGID are un site dedicat Europei (ridgid.eu) cu funcție de căutare a distribuitorilor locali, Confirmăm disponibilitatea fiecărui model la cerere." },
+      { q: "Se poate procura RIDGID în România/Europa?", a: "Da, prin import la comandă. Confirmăm disponibilitatea fiecărui model la cerere." },
       { q: "Ce trebuie să trimit pentru ofertă RIDGID?", a: "Codul modelului sau, dacă nu îl cunoașteți, diametrul țevii, tipul de îmbinare și operația dorită (filetare, presare, inspecție, desfundare). Cu aceste date verificăm ce variantă din gama RIDGID corespunde lucrării dumneavoastră." }
     ],
     evidenceClass: "market-signal-intl",
@@ -413,7 +413,6 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
       "Familii de pompe dozatoare cu piston și diafragmă, de la mRoy la Primeroyal, pentru debite și presiuni foarte diferite.",
       "Debite de până la 32.980 l/h și presiuni de până la 1.035 bar la variantele metalice.",
       "Seria Proteus oferă control fin al debitului pentru procese chimice sensibile la variații.",
-      "Rețea de distribuție menționată în peste 35 de țări europene, conform informațiilor publicate de producător.",
       "Certificări ISO 9001, ISO 14001 și ISO/TS 29001:2010 pentru facilitățile de producție."
     ],
     keyProducts: [
@@ -428,7 +427,7 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
       "Energie — dozare de chimicale pentru tratarea apei de cazan în centrale",
       "Minerit — dozare de reactivi în procese de flotație și tratare a minereului"
     ],
-    infinitrade: `Milton Roy are sediul în Statele Unite și, potrivit informațiilor publicate de producător, o rețea de distribuție în peste 35 de țări europene, însă fără birou confirmat în România; spunem clar ce putem și ce nu putem confirma despre această prezență pe fiecare piață locală. Aducem la comandă pompe dozatoare din familiile mRoy, Milroyal, Primeroy, Primeroyal, Proteus și Maxroy, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă, trimiteți-ne debitul și presiunea de lucru necesare, plus fluidul dozat. Nu ținem această gamă pe raft; fiecare pompă se configurează pe cererea primită.`,
+    infinitrade: `Milton Roy are sediul în Statele Unite; spunem clar ce putem și ce nu putem confirma pentru fiecare model. Aducem la comandă pompe dozatoare din familiile mRoy, Milroyal, Primeroy, Primeroyal, Proteus și Maxroy, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă, trimiteți-ne debitul și presiunea de lucru necesare, plus fluidul dozat. Nu ținem această gamă pe raft; fiecare pompă se configurează pe cererea primită.`,
     limitation: "Nu putem confirma configurarea electronică avansată (control de proces, comunicație industrială) pentru fiecare model din gamă, aspect care rămâne în sarcina producătorului.",
     productCodes: [
       { code: "mRoy XA", description: "pompă dozatoare cu diafragmă, seria mRoy" },
@@ -456,7 +455,7 @@ Pentru piața din România, Milton Roy înseamnă acces la pompe dozatoare pentr
       { q: "Ce produce Milton Roy?", a: "Milton Roy produce pompe dozatoare cu piston și diafragmă pentru dozarea de precizie a substanțelor chimice și tratarea apei. Compania a fost înființată în SUA în 1936 și este parte din grupul Ingersoll Rand." },
       { q: "Cum aleg o pompă dozatoare Milton Roy după debit?", a: "Alegerea depinde de debitul și presiunea de lucru necesare: familia mRoy pentru dozare generală, Primeroyal pentru debite mai mari industriale, Proteus pentru control fin. Trimiteți-ne acești parametri pentru recomandarea corectă." },
       { q: "Livrați Milton Roy în România și cât durează?", a: "Aducem pompe dozatoare Milton Roy la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport din rețeaua europeană a grupului Ingersoll Rand." },
-      { q: "Se poate procura Milton Roy în România/Europa?", a: "Da, producătorul menționează o rețea de distribuție în peste 35 de țări europene, dar nu am identificat un birou dedicat pentru România; aducem pompele la comandă, cu confirmare directă pentru fiecare proiect." },
+      { q: "Se poate procura Milton Roy în România/Europa?", a: "Da, aducem pompele la comandă, cu confirmare directă pentru fiecare proiect." },
       { q: "Ce trebuie să trimit pentru ofertă de pompe Milton Roy?", a: "Debitul și presiunea de lucru necesare, plus fluidul dozat și materialul dorit pentru capul hidraulic. Cu aceste date verificăm ce familie (mRoy, Milroyal, Primeroyal, Proteus sau Maxroy) corespunde aplicației dumneavoastră." }
     ],
     evidenceClass: "market-signal-intl",

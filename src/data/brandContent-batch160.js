@@ -351,7 +351,7 @@ Pentru piața din România, gama Haefely are sens la producătorii de transforma
       "Generatoare de impuls de tensiune de la 400 kV până la 10.000 kV, pentru laboratoare de certificare de mare putere",
       "Sisteme EMC AXOS 5/8 care combină ESD, EFT/Burst și surge într-un singur echipament",
       "Instrumente specializate de diagnostic — calibratoare de descărcări parțiale, punți tan delta, analizor de răspuns în frecvență",
-      "Parte din grupul Pfiffner, cu personal în India și China și rețea de reprezentanțe și puncte de service locale"
+      "Parte din grupul Pfiffner, cu personal în India și China"
     ],
     keyProducts: [
       { name: "Generatoare de impuls SGVA/SGDA/SGSA", description: "Generatoare de impuls de tensiune pentru teste de trăsnet și comutație, cu SGVA acoperind 400-10.000 kV pe pernă de aer, SGDA 400-3.200 kV pe roți și SGSA 100-1.200 kV într-un format compact pentru laboratoare mai mici." },

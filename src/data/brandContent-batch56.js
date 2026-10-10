@@ -96,7 +96,7 @@ Pentru fabricile de lactate, băuturi sau produse farmaceutice din România, ava
       "Îngrijire personală — omogenizare pentru creme și emulsii",
       "Chimie industrială — mixare de proces și transfer de fluide vâscoase"
     ],
-    infinitrade: `Lucrăm cu gama SPX FLOW — APV, Waukesha Cherry-Burrell, Bran+Luebbe, LIGHTNIN, Plenty — prin canale de aprovizionare din Uniunea Europeană; nu avem date proprii despre stocul fiecărei fabrici din grup și spunem clar ce putem confirma din documentația publică înainte de ofertă. Pentru piese și echipamente individuale, termenul orientativ este de 1–4 săptămâni de la comandă; liniile complete (pasteurizare, UHT) se livrează în peste 4 săptămâni, în funcție de configurație. Pentru Johnson Pump, brand deținut tot de SPX FLOW, aveți pagina dedicată separat. Clientul trebuie să transmită tipul de echipament, debitul sau volumul de proces și aplicația exactă pentru o ofertă corectă.`,
+    infinitrade: `Lucrăm cu gama SPX FLOW — APV, Waukesha Cherry-Burrell, Bran+Luebbe, LIGHTNIN, Plenty — prin canale de aprovizionare din Uniunea Europeană; nu avem date proprii despre stocul fiecărei fabrici din grup și spunem clar ce putem confirma din documentația tehnică înainte de ofertă. Pentru piese și echipamente individuale, termenul orientativ este de 1–4 săptămâni de la comandă; liniile complete (pasteurizare, UHT) se livrează în peste 4 săptămâni, în funcție de configurație. Pentru Johnson Pump, brand deținut tot de SPX FLOW, aveți pagina dedicată separat. Clientul trebuie să transmită tipul de echipament, debitul sau volumul de proces și aplicația exactă pentru o ofertă corectă.`,
     limitation: "Nu putem confirma configurarea automatizării proprii a liniilor SPX FLOW și nu oferim service în perioada de garanție a producătorului.",
     productCodes: [
       { code: "APV", description: "Schimbătoare de căldură cu plăci, tehnologie din 1923" },
@@ -213,7 +213,7 @@ Pentru instalatorii din România, Calpeda înseamnă o gamă italiană, de la po
       "Gamă italiană — de la pompe centrifuge de bază până la pompe submersibile pentru foraje și stații de presurizare",
       "Seria E-IDOS integrează electronică de control și turație variabilă direct pe pompă, fără tablou extern",
       "Variante pentru fluide agresive, a căror disponibilitate se confirmă din catalogul producătorului",
-      "Parte din grupul Wateralia; Calpeda declară 14 filiale la nivel mondial, plus o rețea de parteneri și centre de service",
+      "Parte din grupul Wateralia; Calpeda declară 14 filiale la nivel mondial",
       "Cataloage tehnice publice separate pe frecvență (50Hz/60Hz), utile pentru proiecte de export"
     ],
     keyProducts: [
@@ -229,7 +229,7 @@ Pentru instalatorii din România, Calpeda înseamnă o gamă italiană, de la po
       "Protecție la incendiu — unități de presiune pentru hidranți",
       "Industrie — circulație a apei tehnologice"
     ],
-    infinitrade: `Lucrăm cu gama Calpeda fără date proprii despre stocul fabricii din Vicenza — spunem clar, înainte de ofertă, ce confirmăm din cataloagele publice ale producătorului. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din Uniunea Europeană. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (presurizare, drenaj, irigații), debitul și înălțimea de pompare, plus frecvența rețelei (50Hz sau 60Hz). Nu confirmăm disponibilitate pentru fiecare model Calpeda din gamă.`,
+    infinitrade: `Lucrăm cu gama Calpeda fără date proprii despre stocul fabricii din Vicenza — spunem clar, înainte de ofertă, ce confirmăm din documentația tehnică a producătorului. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din Uniunea Europeană. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (presurizare, drenaj, irigații), debitul și înălțimea de pompare, plus frecvența rețelei (50Hz sau 60Hz). Nu confirmăm disponibilitate pentru fiecare model Calpeda din gamă.`,
     limitation: "Nu putem confirma stocuri locale pentru fiecare model Calpeda și nu oferim configurare software pentru pompele cu electronică integrată fără sprijinul producătorului, obținut de noi la cerere.",
     productCodes: [
       { code: "E-IDOS", description: "Pompă centrifugă cu electronică integrată, turație variabilă" },
@@ -297,7 +297,7 @@ Pentru fermele, stațiile de irigații și instalațiile municipale din România
       "EN 12259-12 — pompe verticale pentru sisteme de stingere a incendiilor",
       "UL448 — standard american pentru pompe de incendiu"
     ],
-    infinitrade: `Aducem pompe și motoare submersibile Caprari la comandă prin canale de aprovizionare din Uniunea Europeană; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma din documentația publică a producătorului italian. Pentru pompele submersibile Caprari termenul orientativ rămâne 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne transmite diametrul forajului sau al conductei, adâncimea apei, debitul dorit și, pentru aplicații de incendiu, certificarea cerută de proiect. Nu confirmăm disponibilitate pentru fiecare diametru Caprari din gamă.`,
+    infinitrade: `Aducem pompe și motoare submersibile Caprari la comandă prin canale de aprovizionare din Uniunea Europeană; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma din documentația tehnică a producătorului italian. Pentru pompele submersibile Caprari termenul orientativ rămâne 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne transmite diametrul forajului sau al conductei, adâncimea apei, debitul dorit și, pentru aplicații de incendiu, certificarea cerută de proiect. Nu confirmăm disponibilitate pentru fiecare diametru Caprari din gamă.`,
     limitation: "Nu putem confirma stocuri locale pentru pompele verticale certificate la incendiu și nu proiectăm stații complete de pompare fără sprijinul producătorului, obținut de noi la cerere.",
     productCodes: [
       { code: "Pompe submersibile 4″", description: "Pompă pentru foraje mici, uz rezidențial" },
@@ -487,7 +487,7 @@ Pentru clădirile din România fără evacuare gravitațională a apelor uzate �
       "Drenaj — evacuare apă din zone inundabile sau șantiere",
       "Comercial — stații de ridicare pentru clădiri fără evacuare gravitațională"
     ],
-    infinitrade: `Furnizăm pompe Jung Pumpen prin canale de aprovizionare din Uniunea Europeană; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma din cataloagele publice ale producătorului, parte a grupului Pentair. Termenul orientativ pentru livrare este de 1–4 săptămâni, calculat de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (drenaj, ridicare, tocare), debitul necesar, înălțimea de pompare și dacă instalația necesită variantă EX sau HE. Nu confirmăm disponibilitate pentru fiecare model Jung Pumpen din gama US.`,
+    infinitrade: `Furnizăm pompe Jung Pumpen prin canale de aprovizionare din Uniunea Europeană; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma din documentația tehnică a producătorului, parte a grupului Pentair. Termenul orientativ pentru livrare este de 1–4 săptămâni, calculat de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (drenaj, ridicare, tocare), debitul necesar, înălțimea de pompare și dacă instalația necesită variantă EX sau HE. Nu confirmăm disponibilitate pentru fiecare model Jung Pumpen din gama US.`,
     limitation: "Nu putem confirma automatizarea proprie pentru stațiile complexe de pompare cu mai multe niveluri și nu efectuăm intervenții în perioada de garanție a producătorului Pentair.",
     productCodes: [
       { code: "U3", description: "Pompă submersibilă pentru apă murdară, uz ocazional" },
@@ -637,7 +637,7 @@ Pentru rafinării, platforme și șantiere navale din România, gama Leistritz a
       "Energie — circuite de ungere pentru turbine și generatoare",
       "Industria auto — pompe de combustibil pentru testare și producție"
     ],
-    infinitrade: `Furnizăm pompe Leistritz fără date proprii despre stocul fabricilor producătorului — lucrăm pe baza documentației publice disponibile pentru fiecare familie (L2, L3, L4, L5, FLEXCORE). Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de familie și de confirmarea producătorului. Pentru o ofertă corectă, clientul ne transmite debitul, presiunea diferențială necesară, vâscozitatea fluidului și aplicația exactă (multifazic, marin, sanitar sau industrial general). Nu confirmăm disponibilitate pentru fiecare variantă Leistritz din gamă.`,
+    infinitrade: `Furnizăm pompe Leistritz fără date proprii despre stocul fabricilor producătorului — lucrăm pe baza documentației tehnice disponibile pentru fiecare familie (L2, L3, L4, L5, FLEXCORE). Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de familie și de confirmarea producătorului. Pentru o ofertă corectă, clientul ne transmite debitul, presiunea diferențială necesară, vâscozitatea fluidului și aplicația exactă (multifazic, marin, sanitar sau industrial general). Nu confirmăm disponibilitate pentru fiecare variantă Leistritz din gamă.`,
     limitation: "Nu putem confirma configurarea sistemelor de control pentru pachetele marine IRON și nu oferim service în perioada de garanție a producătorului.",
     productCodes: [
       { code: "L2", description: "Pompă cu doi rotori, fără angrenaje de sincronizare" },
@@ -758,7 +758,7 @@ Pentru stațiile de tratare a apei, laboratoarele și liniile de producție din 
       "Industria semiconductorilor — transfer de chimicale ultra-pure",
       "Echipamente medicale — dozare de precizie în procese de laborator"
     ],
-    infinitrade: `Furnizăm pompe Iwaki cu antrenare magnetică și pompe de dozare pe baza documentației publice a producătorului japonez; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma despre disponibilitatea fiecărui model. Termenul orientativ pentru livrare este de 1–4 săptămâni, calculat din momentul comenzii. Pentru o ofertă corectă, clientul ne transmite tipul de chimical manipulat, debitul necesar, temperatura de lucru și dacă aplicația cere varianta metalică sau nemetalică. Nu confirmăm disponibilitate pentru fiecare model Iwaki din gamă.`,
+    infinitrade: `Furnizăm pompe Iwaki cu antrenare magnetică și pompe de dozare pe baza documentației tehnice a producătorului japonez; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma despre disponibilitatea fiecărui model. Termenul orientativ pentru livrare este de 1–4 săptămâni, calculat din momentul comenzii. Pentru o ofertă corectă, clientul ne transmite tipul de chimical manipulat, debitul necesar, temperatura de lucru și dacă aplicația cere varianta metalică sau nemetalică. Nu confirmăm disponibilitate pentru fiecare model Iwaki din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a materialelor pentru fiecare fluid fără verificarea directă cu documentația tehnică a producătorului.",
     productCodes: [
       { code: "Magnetic Drive Pumps", description: "Categorie generală de pompe cu antrenare magnetică" },

@@ -10,7 +10,7 @@ export const series = [
     name: 'EUCHNER MGB (Multifunctional Gate Box)',
     oneLine: 'Sistem modular de interblocare cu blocare a ușii EUCHNER, pentru protecția ușilor mobile de acces.',
     lifecycle: 'activ',
-    lifecycleNote: 'Familia MGB rămâne în documentația producătorului alături de generația mai nouă MGB2; nu am găsit o notă explicită de retragere din producție.',
+    lifecycleNote: 'Familia MGB rămâne în documentația producătorului alături de generația mai nouă MGB2; nu putem confirma o declarație explicită de retragere din producție.',
     intro: `Familia EUCHNER MGB (Multifunctional Gate Box) este un sistem modular de interblocare cu blocare a ușii, folosit la protecția ușilor mobile de acces la utilaje. Codul de tip descrie funcția de blocare (L0 fără blocare, L1 blocare prin arc, L1H cu modul de mâner, L2 blocare prin solenoid) și tipul de conectare, de exemplu ARA pentru module conectabile în serie cu alte dispozitive AR.
 
 La o cerere de ofertă aveți nevoie să indicați codul de pe eticheta dispozitivului existent, direcția balamalelor ușii și tipul de conector folosit în instalație. Module MGB ajung la comandă în 1–4 săptămâni prin lanțul de aprovizionare european; nu confirmăm compatibilitatea electronică a variantelor cu magistrală fără verificarea fișei tehnice curente a fiecărui cod.`,

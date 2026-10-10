@@ -77,7 +77,7 @@ export default function Footer() {
               ))}
               <li>
                 <Link prefetch={false} href="/echipamente-diverse" className={styles.columnLink}>
-                  Vezi toate →
+                  Vedeți toate →
                 </Link>
               </li>
               <li>

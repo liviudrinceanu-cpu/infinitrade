@@ -84,8 +84,8 @@ export async function generateMetadata({ params }) {
     `Ofertăm echipamente ${brand.name} în România`,
   ];
   const TAILS = [
-    ' Furnizor SEAP, livrare 24–72 h din stoc.',
-    ' Ofertă pe cod sau plăcuță, livrare 24–72 h din stoc.',
+    ' Furnizor SEAP, livrare 24–72 h când produsul e în stoc.',
+    ' Ofertă pe cod sau plăcuță, livrare 24–72 h când produsul e în stoc.',
     ' Din stoc în 24–72 h, din fabrică în 1–4 săptămâni.',
     ' Documente de conformitate și ofertă pe cod de produs.',
     ' Produse originale, termen de livrare scris în ofertă.',

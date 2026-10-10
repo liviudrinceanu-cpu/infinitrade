@@ -404,7 +404,6 @@ Pentru piața din România, gama UNI-T are sens la ateliere de service, echipe d
       "Camere de termoviziune pentru smartphone — inspecție termică de bază de pe telefonul mobil",
       "Certificări ISO 9001 și ISO 14001 pentru managementul calității și al mediului (Uni T)",
       "Multimetre pe segmente diferite — de la modele de buzunar (seria UT120) până la variante industriale (UT197)",
-      "Rețea de distribuție în peste 80 de țări, cu birouri regionale inclusiv în Europa"
     ],
     keyProducts: [
       { name: "Seria MSO/UPO — Osciloscoape de Performanță", description: "Osciloscoape digitale cu bandă de la 100 MHz (MSO2000X) până la 1–2 GHz (MSO7000X, UPO7000L), pe 4 canale, pentru depanare avansată de circuite și proiectare, folosite acolo unde seriile de bază nu mai oferă rezoluție temporală suficientă." },

@@ -211,7 +211,7 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
       "Siderurgie și industria hârtiei — encodere robuste pe linii cu vibrații constante",
       "Vehicule off-highway — encodere pentru transmisii și sisteme hidraulice",
     ],
-    infinitrade: `Furnizăm encodere și rezolvere Dynapar pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Comandăm unitățile prin canale de aprovizionare din SUA sau din UE, cu termen orientativ de 1–4 săptămâni; pentru cabluri de encoder și conectori uzuali putem verifica variante cu livrare în 24–72 h din stocul unui partener local. Pentru ofertă, transmiteți codul complet al encoderului sau rezolverului, tipul de arbore și interfața electrică necesară. Nu ținem gama Dynapar pe raft; fiecare model ajunge la comandă, pe baza codului transmis.`,
+    infinitrade: `Furnizăm encodere și rezolvere Dynapar pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Comandăm unitățile prin canale de aprovizionare din SUA sau din UE, cu termen orientativ de 1–4 săptămâni; pentru cabluri de encoder și conectori uzuali putem verifica variante cu livrare în 24–72 h din stoc extern. Pentru ofertă, transmiteți codul complet al encoderului sau rezolverului, tipul de arbore și interfața electrică necesară. Nu ținem gama Dynapar pe raft; fiecare model ajunge la comandă, pe baza codului transmis.`,
     limitation: "Nu putem confirma echivalența exactă cu encodere de altă marcă fără compararea directă a fișelor tehnice pentru fiecare aplicație.",
     productCodes: [
       { code: "HS35iQ", description: "encoder incremental cu tehnologie PulseIQ, până la 20.000 ppr" },
@@ -292,7 +292,7 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
       { q: "Ce produce compania Hohner Automation?", a: "Hohner Automation fabrică encodere rotative incrementale și absolute, sisteme de măsurare liniară cu cablu retractabil și potențiometre, din fabrica sa din Spania. Gama acoperă seriile 18, R46, XS1, E58K, Q58 și encoderul programabil PR90, pentru energie eoliană, solară, industrie alimentară și textilă." },
       { q: "Ce este sistemul ENCO-METER de la Hohner?", a: "Este un sistem de măsurare liniară cu cablu retractabil din oțel inoxidabil, disponibil în variantele EM4, EM8 și EM10, pentru curse de până la 10 metri. Se montează fără șină liniară pe utilaj, util unde spațiul sau praful exclud o riglă optică." },
       { q: "Cum aleg encoderul absolut Hohner potrivit?", a: "Trimiteți-ne protocolul de comunicație cerut de automat (SSI sau BiSS), diametrul arborelui și dacă aveți nevoie de ieșire single-turn sau multiturn. Seriile XS1, E58K și Q58 acoperă cerințe diferite de rezoluție și interfață." },
-      { q: "Livrați encodere Hohner Automation în România și cât durează?", a: "Da, aducem encodere Hohner la comandă din Spania, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului. Nu ținem această gamă pe raft, dar putem verifica accesorii de montaj cu livrare mai rapidă din stocul unui partener local." },
+      { q: "Livrați encodere Hohner Automation în România și cât durează?", a: "Da, aducem encodere Hohner la comandă din Spania, cu termen orientativ de 1–4 săptămâni de la confirmarea modelului. Nu ținem această gamă pe raft, dar putem verifica accesorii de montaj cu livrare mai rapidă din stoc extern." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,

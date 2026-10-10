@@ -11,7 +11,7 @@ export const series = [
     name: 'MOVITRAC® MC07B',
     oneLine: 'Convertizor de frecvență standard SEW-EURODRIVE pentru acționarea motoarelor trifazate, din gama MOVITRAC B.',
     lifecycle: 'activ',
-    lifecycleNote: 'Documentația tehnică a producătorului pentru MC07B are ediția 01/2024; nu am găsit o declarație explicită de retragere din producție.',
+    lifecycleNote: 'Documentația tehnică a producătorului pentru MC07B are ediția 01/2024; nu putem confirma o declarație explicită de retragere din producție.',
     intro: `MOVITRAC® MC07B este convertizorul de frecvență standard al SEW-EURODRIVE pentru motoare asincrone trifazate, construit pe două linii de alimentare: monofazat/trifazat 200–240 V AC (0,55–30 kW) și trifazat 380–500 V AC (0,55–75 kW). Codul complet al unui aparat (de exemplu MC07B0005-2A3-4-S0) codifică puterea, tensiunea, filtrul de rețea și varianta de conectare, de aceea la o cerere de ofertă codul de pe eticheta aparatului existent spune tot ce trebuie.
 
 Din gama MC07B putem oferta unități noi la comandă, prin canale de aprovizionare din Uniunea Europeană. Pentru înlocuirea unui aparat defect, clientul trimite codul de tip de pe plăcuță, puterea motorului antrenat și tensiunea de rețea; confirmăm compatibilitatea din documentația producătorului înainte de ofertă.`,

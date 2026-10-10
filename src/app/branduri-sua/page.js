@@ -5,6 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { config } from '@/lib/config';
 import { safeJsonLd } from '@/lib/utils';
 import { allCategoriesUnified } from '@/data/allBrandsIndex';
+import { deNum } from '@/lib/ro';
 import { getUsBrands, US_INDUSTRIES, EU_AVAILABILITY_LABEL } from '@/data/usBrands';
 import { lastModified } from '@/data/lastModified';
 import { Flag } from 'lucide-react';
@@ -26,8 +27,8 @@ const FAQ = (total, hard) => [
     a: `Da. Pe site avem ${total} de branduri cu sediul în SUA, fiecare cu pagină proprie (game, coduri de produs, întrebări frecvente). Le aducem la comandă, prin canalele noastre de aprovizionare din UE sau prin import direct din SUA; pagina fiecărui brand spune exact ce putem și ce nu putem confirma.`,
   },
   {
-    q: 'Cât durează livrarea unui brand american fără distribuție în Europa?',
-    a: `Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport; importurile directe din SUA și execuțiile personalizate pot depăși 4 săptămâni. Pentru ${hard} dintre branduri nu am identificat o rețea de distribuție vizibilă în Europa, deci le aducem la comandă, prin import direct; le marcăm explicit în listă.`,
+    q: 'Cât durează livrarea unui brand american greu de găsit în Europa?',
+    a: `Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport; importurile directe din SUA și execuțiile personalizate pot depăși 4 săptămâni. Pentru ${hard} dintre branduri aducem produsele la comandă, prin import direct; le marcăm explicit în listă.`,
   },
   {
     q: 'Ce trebuie să trimit ca să primesc o ofertă pentru o piesă americană?',
@@ -135,7 +136,7 @@ export default function UsBrandsPage() {
               robineți și actuatoare, pompe, instrumentație de proces, scule și echipamente de testare, hidraulică și pneumatică, motoare, filtre,
               lubrifianți. Le livrăm la comandă — prin canalele noastre de aprovizionare din UE sau prin import
               direct din SUA — de regulă în 1–4 săptămâni, iar importurile directe sau execuțiile personalizate pot depăși 4 săptămâni; nu ținem aceste game pe raft. Prezentarea fiecărui brand spune ce putem oferta,
-              ce coduri am verificat în documentația producătorilor și ce nu putem confirma.
+              ce coduri sunt verificate în documentația producătorilor și ce nu putem confirma.
             </p>
             <dl className={base.counts}>
               <div><dt>Branduri americane cu pagină proprie</dt><dd>{total}</dd></div>
@@ -145,7 +146,7 @@ export default function UsBrandsPage() {
           </div>
         </section>
 
-        <nav className={base.letterNav} aria-label="Sari la secțiune">
+        <nav className={base.letterNav} aria-label="Salt la secțiune">
           <div className={base.container}>
             <a href="#pe-categorii">Pe categorii</a>
             <a href="#pe-industrii">Pe industrii</a>
@@ -159,8 +160,7 @@ export default function UsBrandsPage() {
             <h2 className={base.sectionTitle}>Ce branduri americane livrăm, pe categorii de echipamente?</h2>
             <p className={base.sectionNote}>
               Fiecare categorie de mai jos are propria pagină, cu toate brandurile (americane și europene) și tipurile de produs; aici sunt doar
-              producătorii cu sediul în SUA. Eticheta de lângă nume arată cât de ușor se procură în Europa, așa cum reiese din paginile de
-              distribuție ale producătorului.
+              producătorii cu sediul în SUA. Eticheta de lângă nume arată calea de aprovizionare: prin canalele noastre din UE sau prin import direct, la comandă.
             </p>
             {byCategory.map((cat) => (
               <div key={cat.slug} id={`sua-${cat.slug}`} className={base.letterBlock}>
@@ -216,9 +216,9 @@ export default function UsBrandsPage() {
           <div className={base.container}>
             <h2 className={base.sectionTitle}>Branduri americane greu de găsit în Europa</h2>
             <p className={base.sectionNote}>
-              Pentru aceste {hard.length} de branduri nu am identificat, în documentația producătorului, o filială sau o rețea de distribuție în Europa.
-              Intră totuși ca subcomponente în multe utilaje importate din SUA — relee și temporizatoare, reductoare NEMA, cuplaje, cilindri hidraulici,
-              filtre, termometre și manometre, robineți din plastic, scule. Le aducem la comandă prin import; trimiteți codul de pe piesă și vă
+              Pentru aceste {hard.length} {deNum(hard.length)}branduri aducem produsele la comandă, prin import direct.
+              Intră ca subcomponente în multe utilaje importate din SUA — relee și temporizatoare, reductoare NEMA, cuplaje, cilindri hidraulici,
+              filtre, termometre și manometre, robineți din plastic, scule. Trimiteți codul de pe piesă și vă
               confirmăm dacă putem oferta și în cât timp.
             </p>
             <ul className={`${base.brandList} ${base.compact}`}>

@@ -149,7 +149,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
       },
       {
         "q": "Livrați debitmetre Siemens SITRANS în România?",
-        "a": "Da, aducem la comandă debitmetre SITRANS pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de diametrul nominal necesar. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă debitmetre SITRANS pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de diametrul nominal necesar. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de debitmetru Siemens SITRANS?",
@@ -724,7 +724,7 @@ Dar Stahlwille nu e doar dinamometrice - au o gamă de tubulare industriale (set
     keyProducts: [
       {
         name: 'Chei Dinamometrice - Seria 730/96',
-        description: `Cheile dinamometrice Stahlwille sunt instrumentele de referință pentru strângerea controlată la cuplu specific în aplicații industriale și service. Seria 730 Quick-Release cu mecanism clichet reversibl, cap pătrat 9x12mm (3/8") sau 12.5x12.5mm (1/2"), game de cuplu diferite, în funcție de model (se confirmă pe cod). Precizie ±4% conform ISO 6789-2:2017, calibrare trasabilă PTB, certificat individual inclus. Mecanism click-type: setezi cuplul dorit pe scala gravată, când atingi valoarea cheia "clichează" tactil și auditiv - imposibil să strângi mai mult. Construcție corp din oțel crom-vanadiu forjat, mâner ergonomic bi-material anti-alunecare. Codurile care încep cu 965, de exemplu 96550125, sunt articole mecanice din gama MANOSKOP (96550125 este modelul 730R VDE, izolat conform IEC 60900); variantele electronice se află în gama eClick, iar datele tehnice se confirmă pe cod din catalogul producătorului. Aplicații critice: strângere capete de bielă motor, flanșe presiune înaltă, componente aerospace, turbine eoliene. Intervalul de recalibrare se stabilește conform ISO 6789 și recomandărilor producătorului.`
+        description: `Cheile dinamometrice Stahlwille sunt instrumentele de referință pentru strângerea controlată la cuplu specific în aplicații industriale și service. Seria 730 Quick-Release cu mecanism clichet reversibl, cap pătrat 9x12mm (3/8") sau 12.5x12.5mm (1/2"), game de cuplu diferite, în funcție de model (se confirmă pe cod). Precizie ±4% conform ISO 6789-2:2017, calibrare trasabilă PTB, certificat individual inclus. Mecanism click-type: cuplul dorit se setează pe scala gravată, iar la atingerea valorii cheia "clichează" tactil și auditiv - imposibil să strângi mai mult. Construcție corp din oțel crom-vanadiu forjat, mâner ergonomic bi-material anti-alunecare. Codurile care încep cu 965, de exemplu 96550125, sunt articole mecanice din gama MANOSKOP (96550125 este modelul 730R VDE, izolat conform IEC 60900); variantele electronice se află în gama eClick, iar datele tehnice se confirmă pe cod din catalogul producătorului. Aplicații critice: strângere capete de bielă motor, flanșe presiune înaltă, componente aerospace, turbine eoliene. Intervalul de recalibrare se stabilește conform ISO 6789 și recomandărilor producătorului.`
       },
       {
         name: 'Tubulare Hexagonale și Torx',
@@ -828,7 +828,7 @@ Dar Stahlwille nu e doar dinamometrice - au o gamă de tubulare industriale (set
       },
       {
         "q": "Livrați scule Stahlwille la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă chei dinamometrice și scule din gama MANOSKOP, pe baza codului confirmat din catalogul oficial Stahlwille. Nu avem această gamă în stoc propriu; comandăm scula exactă la producător, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe corpul sculei pentru identificarea corectă a variantei."
+        "a": "Da, aducem la comandă chei dinamometrice și scule din gama MANOSKOP, pe baza codului confirmat din documentația tehnică Stahlwille. Nu avem această gamă în stoc propriu; comandăm scula exactă la producător, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe corpul sculei pentru identificarea corectă a variantei."
       },
       {
         "q": "Ce detalii sunt necesare pentru o ofertă la o cheie dinamometrică Stahlwille?",
@@ -969,7 +969,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul in
       },
       {
         "q": "Livrați conectori TE Connectivity în România?",
-        "a": "Da, aducem la comandă conectori TE Connectivity pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de referință. Recomandăm confirmarea codului complet înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă conectori TE Connectivity pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de referință. Recomandăm confirmarea codului complet înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de conector M12 TE Connectivity?",
@@ -1111,7 +1111,7 @@ Gama Tesa include și rugozimetre portabile pentru măsurarea parametrilor de ru
       },
       {
         "q": "Livrați instrumente de măsură Tesa în România?",
-        "a": "Da, aducem la comandă instrumente de măsură Tesa pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de regulă 1–4 săptămâni de la plasarea comenzii, în funcție de model. Recomandăm confirmarea codului exact al instrumentului dorit înainte de comandă."
+        "a": "Da, aducem la comandă instrumente de măsură Tesa pe baza documentației tehnice a producătorului, fără date proprii de stoc. Livrarea durează de regulă 1–4 săptămâni de la plasarea comenzii, în funcție de model. Recomandăm confirmarea codului exact al instrumentului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de coloană de măsurat Tesa?",
