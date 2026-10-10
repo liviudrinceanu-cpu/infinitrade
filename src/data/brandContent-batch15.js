@@ -61,7 +61,7 @@ Gama SITRANS este largă: SITRANS F (debitimetre cu ultrasunete, electromagnetic
       'HVAC și district heating'
     ],
 
-    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu informațiile publice disponibile ale producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 1–4 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimiteți-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
+    infinitrade: `La Infinitrade aducem instrumentație Siemens SITRANS (debitimetre, traductoare de presiune, senzori de nivel) prin canalele noastre de aprovizionare din Uniunea Europeană. Nu deținem date proprii despre stocul fabricii și lucrăm cu documentația tehnică a producătorului pentru specificații și termene. Ca formulare generală a firmei, livrarea poate fi de 24–72 h din stoc pentru articolele deja pregătite în lanțul nostru sau de 1–4 săptămâni la comandă pentru restul gamei, fără să promitem un anumit cod ca fiind în stoc înainte de confirmare. Pentru o ofertă corectă, trimiteți-ne codul SITRANS, protocolul de comunicare necesar (HART, PROFIBUS, PROFINET) și parametrii de proces. Revenim cu disponibilitate reală și timp de livrare confirmat de furnizor.`,
     sources: [
       {"title":"Flow Measurement","url":"https://www.siemens.com/global/en/products/automation/process-instrumentation/flow-measurement.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Company development | Siemens', url: 'https://www.siemens.com/global/en/company/about/history/company/1847-1865.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
@@ -227,7 +227,7 @@ SKF oferă și unelte manuale de ungere, cartușe pre-umplute, unsori și uleiur
       'Transport (vagoane feroviare, conveioare aeroporturi)'
     ],
 
-    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din surse publice ale producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 1–4 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Vă trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
+    infinitrade: `Furnizăm sisteme de ungere SKF Lincoln și lubrifianți SKF prin canalele de aprovizionare pe care le avem în Uniunea Europeană. Nu avem acces la datele interne de stoc ale fabricii, așa că lucrăm din documentația tehnică a producătorului pentru cataloage și fișe tehnice. Ca formulare generală, reușim uneori livrarea în 24–72 h din stoc pentru componente uzuale ale lanțului nostru, iar pentru restul configurațiilor termenul este de 1–4 săptămâni la comandă, fără garanție implicită pentru un anumit produs. Ca să pregătim o ofertă corectă, avem nevoie de tipul de sistem (progresiv, dual-line, single-line), numărul de puncte de ungere și tipul de lubrifiant folosit. Vă trimitem propunerea tehnică după ce confirmăm disponibilitatea la furnizor.`,
     sources: [
       {"title":"Product catalogue 2025 - Multi-line automatic lubrication systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d1968065a461/pdf_preview_medium/0901d1968065a461_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
       {"title":"Lincoln Spray systems, chain lubrication and specialty systems","url":"https://cdn.skfmediahub.skf.com/api/public/0901d196802d235a/pdf_preview_medium/0901d196802d235a_pdf_preview_medium.pdf","publisher":"SKF","accessed":"2026-09-23"},
@@ -345,7 +345,7 @@ SKF oferă și unelte manuale de ungere, cartușe pre-umplute, unsori și uleiur
       },
       {
         "q": "Livrați sisteme de lubrifiere SKF Lincoln în România?",
-        "a": "Da, aducem pompe și sisteme de ungere SKF Lincoln la comandă, conform cataloagelor publice ale producătorului, fără stoc propriu ținut pe aceste coduri. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de componentă și de configurația pompei. Recomandăm confirmarea codului exact al pompei sau sistemului ales."
+        "a": "Da, aducem pompe și sisteme de ungere SKF Lincoln la comandă, conform documentației tehnice a producătorului, fără stoc propriu ținut pe aceste coduri. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de componentă și de configurația pompei. Recomandăm confirmarea codului exact al pompei sau sistemului ales."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de sistem de ungere automată SKF?",
@@ -373,17 +373,17 @@ SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de
 
     whyChoose: [
       'Gamă extinsă de pneumatică, cu număr mare de modele de bază și variante, conform producătorului',
-      'Durata de viață și fiabilitatea se consultă în cataloagele fiecărei serii',
+      'Durata de viață și fiabilitatea se confirmă pe seria aleasă',
       'Standardizare: cilindri conform ISO 6432 și ISO 15552, cu montaj standardizat',
-      'Configurator online SMC pentru generarea codului de comandă; termenul de livrare îl confirmăm pe cod',
-      'Serii noi publicate periodic de producător, consultabile pe site-ul oficial',
-      'Software de dimensionare și modele CAD 3D puse la dispoziție de producător pe site-ul oficial'
+      'Codul de comandă se stabilește pentru fiecare combinație; termenul de livrare îl confirmăm pe cod',
+      'Serii noi lansate periodic de producător',
+      'Date de dimensionare și modele CAD 3D în documentația producătorului'
     ],
 
     keyProducts: [
       {
         name: 'Cilindri Pneumatici ISO (C85, C96/CP96, C95, CA2)',
-        description: `Cilindrii pneumatici SMC sunt componente de bază în automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți) și C95 (ISO 6431, cu tiranți), cu diametrele disponibile confirmate pe cod, din catalogul SMC; presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Configurator online SMC generează cod comandă instant pentru orice combinație diametru-cursă-montaj.`
+        description: `Cilindrii pneumatici SMC sunt componente de bază în automatizări. Seriile standard ISO ale SMC sunt C85 (ISO 6432, cu corp rotund, diametre 8-25 mm), C96/CP96 (ISO 15552, cu tiranți) și C95 (ISO 6431, cu tiranți), cu diametrele disponibile confirmate pe cod, din catalogul SMC; presiunea maximă de lucru este de 1,0 MPa (10 bar), conform catalogului SMC. Construcție robustă: țeavă aluminiu anodizat dur, piston cu garnituri poliuretan rezistente, tija cromată și rectificată. Viteză ajustabilă prin șuruburi de reglaj debit integrate în capace. Magneți integrați pentru senzori reed sau Hall. Montaj versatil: prin flanșă anterioară/posterioară, prin picioare, prin clemă intermediară, prin filet tijă. Seria CA2 este un cilindru cu tiranți cu diametre de 40, 50, 63, 80 și 100 mm și amortizare pneumatică reglabilă la capete; pentru spațiu redus se folosește seria compactă C55 (ISO 21287, diametre 20-100 mm). Rezistență medie la coroziune standard, variante CG pentru medii agresive (tija inox, garnituri FKM). Certificări ATEX pentru zone Ex. Durată de viață ridicată în condiții normale de funcționare, conform specificațiilor producătorului. Codul de comandă se stabilește pentru fiecare combinație diametru-cursă-montaj.`
       },
       {
         name: 'Valve Electropneumatice (SY, VQ, VQZ)',
@@ -423,7 +423,7 @@ SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de
       'Lemn și mobilă (presare, șlefuire, vopsire)'
     ],
 
-    infinitrade: `Putem oferta componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe cataloagele și configuratorul online publicate de producător pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
+    infinitrade: `Putem oferta componente pneumatice SMC (cilindri, valve electropneumatice, unități FRL, grippere) aduse la comandă prin canalele noastre de aprovizionare din UE. Fără date proprii de stoc la nivel de fabrică, ne bazăm pe documentația tehnică a producătorului pentru coduri și specificații tehnice. Ca formulare generală a firmei, unele articole pot ajunge în 24–72 h din stoc din lanțul nostru, însă majoritatea configurațiilor necesită 1–4 săptămâni la comandă, fără promisiuni pentru un cod anume înainte de verificare. Pentru o cotație corectă trimiteți-ne codul complet SMC sau parametrii aplicației (diametru cilindru, cursă, tip valvă, presiune de lucru). Confirmăm disponibilitatea reală la furnizor înainte să emitem oferta.`,
     sources: [
       {"title":"SMC Corporation Homepage","url":"https://www.smcworld.com/en-jp/","publisher":"SMC Corporation","accessed":"2026-09-22"},
       { title: 'SMC Corporation – site oficial', url: 'https://www.smcworld.com/', publisher: 'SMC Corporation', accessed: '2026-09-22' },
@@ -495,7 +495,7 @@ SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de
       },
       {
         "q": "Livrați cilindri și valve SMC în România?",
-        "a": "Da, aducem la comandă componente SMC pe baza informațiilor publice de pe pagina producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă componente SMC pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de cilindru pneumatic SMC?",
@@ -519,7 +519,7 @@ SMC declară o rețea de aproximativ 400 de birouri de vânzări în peste 80 de
 
 Echipamentele Spirax Sarco se folosesc frecvent în diverse industrii - food processing, textile, chimie, pharma - unde abordarea sistemică e apreciată de utilizatori. Nu e doar un steam trap - se analizează întreaga rețea de abur, se identifică pierderile (leakage la trapele defecte, condensul returnat incomplet, presiunea prea mare unde nu e necesară), și se propun soluții integrate cu economii de combustibil documentate de producător. 
 
-Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele termodinamice TD cu disc din inox super-polizat, proiectate pentru mentenanță redusă pe termen lung conform producătorului, regulatoarele cu pilot care mențin presiunea aproape constantă chiar la variații mari de debit, schimbătoarele plate cu eficiență termică ridicată, conform producătorului. Plus bibliotecă tehnică imensă (manuale, standarde, calculatoare online) și training-uri dedicate pentru ingineri - Spirax Sarco oferă documentație tehnică și training pentru ingineri; condițiile se confirmă la producător.`,
+Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele termodinamice TD cu disc din inox super-polizat, proiectate pentru mentenanță redusă pe termen lung conform producătorului, regulatoarele cu pilot care mențin presiunea aproape constantă chiar la variații mari de debit, schimbătoarele plate cu eficiență termică ridicată, conform producătorului. Spirax Sarco oferă documentație tehnică (manuale, standarde, calcule) și training pentru ingineri; condițiile le confirmăm noi, la cerere.`,
 
     whyChoose: [
       'Expertiză extinsă în tehnologia aburului - peste un secol de activitate și dezvoltare continuă',
@@ -573,7 +573,7 @@ Dar ceea ce îi diferențiază pe britanici e calitatea ingineriei: trapele term
       'Automotive (prelucrare suprafețe, vopsire)'
     ],
 
-    infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la informațiile publice disponibile din documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 1–4 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
+    infinitrade: `Aducem echipamente Spirax Sarco (oale de condens, regulatoare de presiune, schimbătoare de căldură) prin canalele de aprovizionare din spațiul UE cu care lucrăm. Nu putem confirma stocul intern al producătorului, așa că ne raportăm la documentația tehnică Spirax Sarco. Ca regulă generală, unele repere ajung în 24–72 h din stoc atunci când sunt deja în lanțul nostru, iar restul configurațiilor se livrează în 1–4 săptămâni la comandă, fără să garantăm disponibilitatea unui model anume dinainte. Pentru o propunere corectă avem nevoie de presiunea și debitul de abur, temperatura de lucru și tipul aplicației (schimbător, reducție presiune, evacuare condens). Revenim cu termenul confirmat de furnizor și specificațiile complete.`,
     sources: [
       {"title":"Thermodynamic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/thermodynamic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
       {"title":"Float and Thermostatic Steam Traps","url":"https://www.spiraxsarco.com/global/en-US/products/steam-traps/float-and-thermostatic-steam-traps","publisher":"Spirax Sarco","accessed":"2026-09-23"},
@@ -764,7 +764,7 @@ Dar Stahlwille nu e doar dinamometrice - au o gamă de tubulare industriale (set
       'General industrial maintenance (atât fabricație cât și service)'
     ],
 
-    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim informațiile publice din catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 1–4 săptămâni la comandă. Pentru o ofertă utilă, trimiteți-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
+    infinitrade: `Furnizăm scule Stahlwille (chei dinamometrice, tubulare, chei inelare, biți) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu deținem date proprii despre stocul central al producătorului și folosim catalogul Stahlwille pentru coduri și game de cuplu. Ca formulare generală a firmei, anumite articole pot fi livrate în 24–72 h din stoc dacă se află deja în lanțul nostru, iar celelalte configurații ajung în 1–4 săptămâni la comandă. Pentru o ofertă utilă, trimiteți-ne seria dorită, gama de cuplu necesară și tipul de cap (pătrat, inelar, tubular). Confirmăm disponibilitatea reală înainte de a trimite propunerea finală.`,
     sources: [
       {"title":"Stahlwille homepage","url":"https://stahlwille.com/de_de","publisher":"Stahlwille","accessed":"2026-09-26"},
       {"title":"Torque wrench MANOSKOP 730 Quick","url":"https://stahlwille.com/en_us/products/torque-tools/torque-wrenches-mechanical/torque-wrenches-mechanical-for-insert-tools/torque-wrench-manoskopr-730-quick-nm-ftlb/852078","publisher":"Stahlwille","accessed":"2026-09-26"},
@@ -850,14 +850,14 @@ Dar Stahlwille nu e doar dinamometrice - au o gamă de tubulare industriale (set
 
 Produsele TE se folosesc frecvent în proiecte diverse - de la conectori Micro-MaTch pe plăcile PCB în aparatură medicală, până la relee Kilovac în panouri de comandă industriale, până la senzori M12 pe mașini CNC. Produsele sunt proiectate pentru consistență în calitate: materiale precum contacte aurite pentru rezistență la coroziune minimă și izolatoare din polimeri high-performance, plus testare conform standardelor din industrie (cicluri mecanice, șocuri termice, vibrații, rezistență la chimicale).
 
-Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul include conectori circulari M8/M12 pentru senzori industriali, conectori etanși pentru aerospace/defense și senzori MEMS de presiune. Conform producătorului, TE investește în inginerie, cercetare și dezvoltare pentru tehnologii noi, precum conectori de mare viteză pentru datacom. Producătorul oferă pe site biblioteci online cu modele 3D CAD, desene, specificații și note de aplicație.`,
+Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul include conectori circulari M8/M12 pentru senzori industriali, conectori etanși pentru aerospace/defense și senzori MEMS de presiune. Conform producătorului, TE investește în inginerie, cercetare și dezvoltare pentru tehnologii noi, precum conectori de mare viteză pentru datacom. Documentația producătorului include modele 3D CAD, desene, specificații și note de aplicație.`,
 
     whyChoose: [
       'Portofoliu larg de conectori, relee și senzori, de la conectori miniaturizați până la relee industriale',
       'Produse testate conform standardelor aplicabile fiecărei serii, indicate în fișa tehnică',
       'Inovație tehnologică continuă - investiții masive în R&D pentru tehnologii de vârf',
       'Prezență globală a producătorului; disponibilitatea o confirmăm pe cod, la furnizor',
-      'Suport tehnic - documentație, biblioteci CAD și instrumente de selecție online ale producătorului',
+      'Suport tehnic - documentație și date CAD ale producătorului',
       'Certificări și calificări specifice fiecărei serii (de exemplu AEC-Q, UL, CE), conform fișelor tehnice'
     ],
 
@@ -904,7 +904,7 @@ Dar TE nu e doar manufacturing scale - e și inovație continuă. Portofoliul in
       'Marine (conectori waterproof, corrosion-resistant)'
     ],
 
-    infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și informațiile publice disponibile pe platformele TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 1–4 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
+    infinitrade: `Distribuim componente TE Connectivity (conectori industriali, relee, senzori de presiune, conectori board-to-board) aduse la comandă prin canalele de aprovizionare din UE cu care colaborăm. Fără acces la datele interne de stoc ale producătorului, lucrăm cu fișele tehnice și documentația tehnică TE. Ca regulă generală a firmei, unele referințe pot ajunge în 24–72 h din stoc din lanțul nostru, dar majoritatea comenzilor speciale necesită 1–4 săptămâni la comandă, fără garanție pentru o referință anume înainte de confirmare. Pentru o cotație corectă avem nevoie de codul de parte TE, mediul de utilizare și protocolul de comunicare (dacă e cazul). Revenim cu disponibilitate reală și termen confirmat de furnizor.`,
     sources: [
       {"title":"Connectors","url":"https://www.te.com/en/products/connectors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
       {"title":"Pressure Sensors","url":"https://www.te.com/en/products/sensors/pressure-sensors.html","publisher":"TE Connectivity","accessed":"2026-09-22"},
@@ -1046,7 +1046,7 @@ Gama Tesa include și rugozimetre portabile pentru măsurarea parametrilor de ru
       'Laboratoare de metrologie (laboratoare de calibrare)'
     ],
 
-    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe informațiile publice ale producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne comunicați parametrul de măsurat, precizia cerută și domeniul de măsurare. Vă confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
+    infinitrade: `Furnizăm instrumente de măsurare Tesa (comparatoare digitale, rugozimetre, coloane de măsurat) pe care le aducem la comandă prin canalele noastre de aprovizionare din UE. Nu avem surse proprii privind stocul fabricii elvețiene și ne bazăm pe documentația tehnică a producătorului pentru precizie, domeniu de măsurare și accesorii. Ca formulare generală, câteva modele populare pot fi livrate în 24–72 h din stoc dacă sunt deja în lanțul nostru, restul necesitând 1–4 săptămâni la comandă, fără să promitem un model anume ca disponibil dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne comunicați parametrul de măsurat, precizia cerută și domeniul de măsurare. Vă confirmăm disponibilitatea reală și termenul exact înainte de a trimite propunerea.`,
     sources: [
       {"title":"Height Gauges","url":"https://www.tesatechnology.com/en-us/products/height-gauges","publisher":"Tesa Technology","accessed":"2026-09-22"},
       {"title":"Calipers","url":"https://www.tesatechnology.com/en-us/products/calipers","publisher":"Tesa Technology","accessed":"2026-09-22"},
@@ -1189,7 +1189,7 @@ Dar Testo nu e doar hardware - au și ecosistem software complet: aplicația Tes
       'Retail (supermarketuri - monitorizare lăzi frigorifice)'
     ],
 
-    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la informațiile publice din fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spuneți-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
+    infinitrade: `Aducem instrumente de măsurare Testo (analizoare de gaze, camere termografice, data loggere, termo-anemometre) prin canalele de aprovizionare din UE pe care le folosim în mod curent. Nu deținem date proprii despre stocul central german și ne raportăm la fișele tehnice Testo pentru precizie și domeniu de măsurare. Ca formulare generală a firmei, unele modele curente pot ajunge în 24–72 h din stoc atunci când sunt deja pregătite în lanțul nostru, iar restul gamei se livrează în 1–4 săptămâni la comandă. Pentru o cotație utilă, spuneți-ne tipul de măsurătoare (combustie, termografie, temperatură/umiditate) și mediul de utilizare. Confirmăm disponibilitatea reală și termenul exact înainte de a emite oferta finală.`,
     sources: [
       {"title":"Testo - sitemap produse (en-US)","url":"https://www.testo.com/en-US/sitemap/product.xml","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
       {"title":"Testo - pagina oficială","url":"https://www.testo.com/","publisher":"Testo SE & Co. KGaA","accessed":"2026-09-26"},
@@ -1342,7 +1342,7 @@ Dar Timken nu vinde doar componente - oferă engineering services complete: calc
       'Naval (arbori de elice, rulmenți de cârmă)'
     ],
 
-    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu cataloagele tehnice publice ale producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
+    infinitrade: `Furnizăm rulmenți și componente de transmisie Timken (rulmenți conici, rulmenți cu role sferice, reductoare, lanțuri) aduse la comandă prin canalele noastre de aprovizionare din UE. Nu putem confirma stocul intern al fabricii americane, așa că lucrăm cu documentația tehnică a producătorului pentru interschimbabilitate și dimensiuni. Ca regulă generală, dimensiunile uzuale pot ajunge în 24–72 h din stoc dacă sunt deja în lanțul nostru, iar rulmenții mari sau configurațiile speciale necesită 1–4 săptămâni la comandă, fără promisiune pentru o dimensiune anume dinainte de verificare. Pentru o ofertă corectă, vă rugăm să ne transmiteți codul rulmentului existent sau sarcina, viteza și mediul de operare. Revenim cu disponibilitatea reală confirmată de furnizor.`,
     sources: [
       {"title":"Timken Tapered Roller Bearing Catalog","url":"https://www.timken.com/wp-content/uploads/2022/11/Timken-Tapered-Roller-Bearing-Catalog_10481.pdf","publisher":"Timken","accessed":"2026-09-23"},
       { title: 'Advanced Motion Technology Solutions | The Timken Company', url: 'https://www.timken.com/', publisher: 'The Timken Company', accessed: '2026-09-22' },
@@ -1520,7 +1520,7 @@ Dar Trane nu oferă doar echipamente - oferă și servicii de energy audit, buil
       'Food production (zone aseptice, depozite refrigerate)'
     ],
 
-    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe informațiile publice ale producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari sunt sisteme complexe, cu termene de regulă peste 4 săptămâni, confirmate de furnizor pentru fiecare configurație. Pentru un studiu corect trimiteți-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
+    infinitrade: `Aducem echipamente HVAC Trane (chillere, rooftop units, unități de tratare aer, pompe de căldură) prin canalele de aprovizionare din UE cu care lucrăm în mod obișnuit. Nu deținem date proprii despre stocul fabricilor Trane și ne bazăm pe documentația tehnică a producătorului pentru selecție și dimensionare. Ca formulare generală a firmei, unele accesorii sau piese uzuale pot ajunge în 24–72 h din stoc din lanțul nostru, dar echipamentele AHU custom sau chillerele mari sunt sisteme complexe, cu termene de regulă peste 4 săptămâni, confirmate de furnizor pentru fiecare configurație. Pentru un studiu corect trimiteți-ne necesarul termic/frigorific, suprafața sau volumul spațiului și cerințele de calitate a aerului. Revenim cu o propunere tehnică și termenul confirmat de furnizor.`,
     sources: [
       {"title":"CenTraVac Water-cooled Chillers Product Catalog","url":"https://elibrary.tranetechnologies.com/public/commercial-hvac/Literature/Product%20Catalog/CTV-PRC021G-EN_12202024.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
       {"title":"Voyager I Rooftop Units Catalog","url":"https://www.trane.com/content/dam/Trane/Commercial/EMEIA/sales-offices/Turkey/Urunler%20ve%20Sistemler/Product/Voyager%20I-CATALOG-Cooling_Gas%20Fired.pdf","publisher":"Trane Technologies","accessed":"2026-09-23"},
@@ -1605,7 +1605,7 @@ Dar Trane nu oferă doar echipamente - oferă și servicii de energy audit, buil
       },
       {
         "q": "Livrați echipamente Trane în România?",
-        "a": "Da, comandăm chillere și unități rooftop Trane pe baza cataloagelor tehnice publice ale producătorului, fără evidențe proprii de stoc pentru această gamă. Pentru chillere termenele sunt de regulă peste 4 săptămâni, iar pentru unitățile rooftop de regulă 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate; codul unității trebuie confirmat înaintea plasării comenzii."
+        "a": "Da, comandăm chillere și unități rooftop Trane pe baza documentației tehnice a producătorului, fără evidențe proprii de stoc pentru această gamă. Pentru chillere termenele sunt de regulă peste 4 săptămâni, iar pentru unitățile rooftop de regulă 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate; codul unității trebuie confirmat înaintea plasării comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de rooftop Trane Voyager?",

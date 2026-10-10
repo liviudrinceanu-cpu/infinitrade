@@ -10,8 +10,8 @@ export const series = [
     "name": "Bonfiglioli VF/W",
     "oneLine": "Reductoare și motoreductoare melcate Bonfiglioli seriile VF și W, cu cupluri de blocare de la 13 la 7.100 Nm.",
     "lifecycle": "activ",
-    "lifecycleNote": "Pagina Bonfiglioli pentru seria VF/W și catalogul VF-W (ediția R11_6) sunt active pe site-ul producătorului; nu am găsit o declarație de retragere din producție.",
-    "intro": "VF/W este seria Bonfiglioli de reductoare și motoreductoare melcate cu axe în unghi drept. Seria VF cuprinde mărimile 27, 30, 44, 49, 130, 150, 185, 210 și 250, iar seria W mărimile 63, 75, 86 și 110. Catalogul oficial descrie și variantele elicoidal-melcate (VFR, WR) și combinațiile de două trepte (VF/VF, VF/W, W/VF). Pagina producătorului indică cupluri de blocare de la 13 la 7.100 Nm, rapoarte de transmisie de la 7 la 100 pe o treaptă și puteri transmisibile de la 0,04 la 75 kW.\n\nCodul complet al unui reductor se citește din eticheta de pe carcasă și se compune din tipul de reductor, mărime, opțiuni, poziția de montaj și raport, de exemplu structura „W 63 L1 UF1 — 24 S2 — B3” din catalogul producătorului. Pentru ofertă vă rugăm să ne trimiteți codul complet, fotografia plăcuței și, pentru un motoreductor, datele motorului; confirmăm varianta din documentația producătorului înainte de a transmite oferta.",
+    "lifecycleNote": "Documentația Bonfiglioli pentru seria VF/W și catalogul VF-W (ediția R11_6) este curentă; nu am găsit o declarație de retragere din producție.",
+    "intro": "VF/W este seria Bonfiglioli de reductoare și motoreductoare melcate cu axe în unghi drept. Seria VF cuprinde mărimile 27, 30, 44, 49, 130, 150, 185, 210 și 250, iar seria W mărimile 63, 75, 86 și 110. Catalogul oficial descrie și variantele elicoidal-melcate (VFR, WR) și combinațiile de două trepte (VF/VF, VF/W, W/VF). Documentația producătorului indică cupluri de blocare de la 13 la 7.100 Nm, rapoarte de transmisie de la 7 la 100 pe o treaptă și puteri transmisibile de la 0,04 la 75 kW.\n\nCodul complet al unui reductor se citește din eticheta de pe carcasă și se compune din tipul de reductor, mărime, opțiuni, poziția de montaj și raport, de exemplu structura „W 63 L1 UF1 — 24 S2 — B3” din catalogul producătorului. Pentru ofertă vă rugăm să ne trimiteți codul complet, fotografia plăcuței și, pentru un motoreductor, datele motorului; confirmăm varianta din documentația producătorului înainte de a transmite oferta.",
     "models": [
       {
         "code": "VF 27",
@@ -58,7 +58,7 @@ export const series = [
         "unit": ""
       },
       {
-        "label": "Cupluri de blocare (pagina producătorului)",
+        "label": "Cupluri de blocare (documentația producătorului)",
         "value": "13 – 7.100",
         "unit": "Nm"
       },
@@ -109,7 +109,7 @@ export const series = [
         "a": "Pe lângă codul reductorului, datele plăcuței motorului: putere, număr de poli, tensiune și frecvență, mărime și fixare (B5 sau B14), precum și eventuala frână."
       }
     ],
-    "limitation": "Nu am confirmat semnificația fiecărui segment din codurile de cerere (de exemplu „L1F1350 544”) și nici valorile detaliate de cuplu nominal pe rapoarte; acestea se verifică din placa de identificare și din tabelele de selecție ale catalogului. Valorile de cuplu din models[] sunt cuplurile de blocare listate pe pagina producătorului.",
+    "limitation": "Nu am confirmat semnificația fiecărui segment din codurile de cerere (de exemplu „L1F1350 544”) și nici valorile detaliate de cuplu nominal pe rapoarte; acestea se verifică din placa de identificare și din tabelele de selecție ale catalogului. Valorile de cuplu din models[] sunt cuplurile de blocare listate în documentația producătorului.",
     "sources": [
       {
         "title": "VF/W Series – Universal Worm Gearmotors & Units",

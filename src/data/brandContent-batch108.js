@@ -34,7 +34,7 @@ Pentru piața din România, Micromega Dynamics are sens la proiectele unde vibra
       "Conformitate ISO 2631 pentru dozimetrele Vib@Work de expunere la vibrații",
       "Conformitate cu Directiva UE 2002/44/CE privind vibrațiile la locul de muncă",
     ],
-    infinitrade: `Aducem senzori și sisteme Micromega Dynamics pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Pentru accelerometre, înclinometre sau recordere individuale, verificăm mai întâi disponibilitatea prin canalele de aprovizionare europene, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru sisteme complete de monitorizare, cu mai multe canale și integrare cloud, avem nevoie de parametrii aplicației — tipul structurii sau echipamentului, numărul de puncte de măsură și interfața de comunicație dorită — înainte de a transmite o ofertă. Gama Micromega vine la comandă, nu de pe raftul nostru.`,
+    infinitrade: `Aducem senzori și sisteme Micromega Dynamics pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Pentru accelerometre, înclinometre sau recordere individuale, verificăm mai întâi disponibilitatea prin canalele de aprovizionare europene, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru sisteme complete de monitorizare, cu mai multe canale și integrare cloud, avem nevoie de parametrii aplicației — tipul structurii sau echipamentului, numărul de puncte de măsură și interfața de comunicație dorită — înainte de a transmite o ofertă. Gama Micromega vine la comandă, nu de pe raftul nostru.`,
     limitation: "Nu putem confirma timpul de livrare pentru configurațiile personalizate de senzori fără o verificare punctuală la producător.",
     productCodes: [
       { code: "Recovib Tiny S2", description: "recorder wireless de vibrații, autonomie 24h, memorie 8 GB" },
@@ -98,7 +98,7 @@ Pentru România, ICI Caldaie are sens la fabrici și platforme industriale unde 
       "Energie și cogenerare — recuperare căldură din gaze de ardere",
       "Industrie textilă și a hârtiei — abur de proces continuu",
     ],
-    infinitrade: `Vă spunem clar ce putem și ce nu putem confirma despre gama ICI Caldaie: lucrăm cu informațiile tehnice publicate de producător, fără date proprii despre stocul disponibil la un moment dat. Pentru o unitate completă — cazan de abur, apă caldă sau apă supraîncălzită — avem nevoie de presiunea de lucru, debitul sau puterea necesară și combustibilul folosit, ca să identificăm modelul potrivit din gamă. Aducem cazanele la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru arzătoare și accesorii curente putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Nu promitem o capacitate anume înainte de a confirma parametrii instalației dumneavoastră cu producătorul.`,
+    infinitrade: `Vă spunem clar ce putem și ce nu putem confirma despre gama ICI Caldaie: lucrăm cu documentația tehnică a producătorului, fără date proprii despre stocul disponibil la un moment dat. Pentru o unitate completă — cazan de abur, apă caldă sau apă supraîncălzită — avem nevoie de presiunea de lucru, debitul sau puterea necesară și combustibilul folosit, ca să identificăm modelul potrivit din gamă. Aducem cazanele la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru arzătoare și accesorii curente putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Nu promitem o capacitate anume înainte de a confirma parametrii instalației dumneavoastră cu producătorul.`,
     limitation: "Nu putem confirma timpul de execuție pentru un cazan configurat la comandă fără o ofertă tehnică punctuală de la producător.",
     productCodes: [
       { code: "BNX", description: "cazan de abur joasă presiune, 100-3.000 kg/h, 0,5-0,98 bar" },
@@ -163,7 +163,7 @@ Pentru România, Check-All Valve are sens la liniile de proces din industria chi
       "Standard sanitar 3-A pentru seriile de supape destinate industriei alimentare",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
     ],
-    infinitrade: `Despre Check-All Valve lucrăm doar cu informațiile publicate de producător, fără date proprii despre stocul disponibil la un moment dat. Pentru o ofertă avem nevoie de codul seriei (de exemplu U1, F6 sau 3S), dimensiunea conexiunii și presiunea de deschidere dorită a supapei. Aducem supapele Check-All Valve la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmare; pentru garnituri și piese de schimb uzuale verificăm variante cu livrare mai rapidă la partenerii europeni. Nu promitem o presiune de deschidere exactă în afara celei publicate în fișa tehnică a seriei alese.`,
+    infinitrade: `Despre Check-All Valve lucrăm doar cu documentația producătorului, fără date proprii despre stocul disponibil la un moment dat. Pentru o ofertă avem nevoie de codul seriei (de exemplu U1, F6 sau 3S), dimensiunea conexiunii și presiunea de deschidere dorită a supapei. Aducem supapele Check-All Valve la comandă prin canale de aprovizionare din SUA, cu termen orientativ de 1–4 săptămâni de la confirmare; pentru garnituri și piese de schimb uzuale verificăm variante cu livrare mai rapidă la partenerii europeni. Nu promitem o presiune de deschidere exactă în afara celei din fișa tehnică a seriei alese.`,
     limitation: "Nu putem confirma echivalența exactă cu o supapă deja montată fără codul complet de pe eticheta originală sau desenul tehnic al liniei.",
     productCodes: [
       { code: "3S", description: "supapă sanitară cu inserție, standard 3-A" },
@@ -232,9 +232,9 @@ Pentru România, Bollé Safety are sens la fabrici, șantiere și ateliere de su
       "Operațiuni tactice și de urgență — echipamente balistice de protecție a ochilor",
     ],
     certifications: [
-      "ISO 9001 — certificare de calitate, menționată pe site-ul producătorului",
+      "ISO 9001 — certificare de calitate, menționată în documentația producătorului",
     ],
-    infinitrade: `Despre Bollé Safety nu avem date proprii de stoc; lucrăm cu informațiile publicate de producător pentru fiecare serie de ochelari sau goggle-uri. Pentru o ofertă avem nevoie de modelul exact (de exemplu RUSH+ 2.0, STKS 420 sau X1000), tipul de lentilă dorit și, dacă e cazul, cerința de purtare peste ochelari de vedere. Aducem echipamentele Bollé Safety la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni; pentru modelele curente din seria RUSH+ putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem o culoare sau variantă de lentilă anume înainte de confirmarea disponibilității la producător.`,
+    infinitrade: `Despre Bollé Safety nu avem date proprii de stoc; lucrăm cu documentația producătorului pentru fiecare serie de ochelari sau goggle-uri. Pentru o ofertă avem nevoie de modelul exact (de exemplu RUSH+ 2.0, STKS 420 sau X1000), tipul de lentilă dorit și, dacă e cazul, cerința de purtare peste ochelari de vedere. Aducem echipamentele Bollé Safety la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni; pentru modelele curente din seria RUSH+ putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem o culoare sau variantă de lentilă anume înainte de confirmarea disponibilității la producător.`,
     limitation: "Nu putem confirma certificarea la un standard specific de impact (EN166, EN172 etc.) pentru fiecare model fără fișa tehnică punctuală a variantei alese.",
     productCodes: [
       { code: "RUSH+ 2.0", description: "ochelari de protecție cu lentile fumurii" },
@@ -291,7 +291,7 @@ Pentru România, Stanley are sens la echipe de construcții, tâmplărie și men
       "Depozitare și logistică — cuțite utilitare pentru deschiderea ambalajelor",
       "Întreținere generală — scule de mână de rezervă pentru ateliere mixte",
     ],
-    infinitrade: `Pentru Stanley nu ținem produse pe raft; lucrăm cu informațiile publicate de producător despre fiecare cod de sculă din gamă. Pentru o ofertă avem nevoie de codul exact al produsului (de exemplu STHT10721 sau MR77C) sau, dacă nu-l cunoașteți, de tipul de sculă și aplicația dorită. Aducem sculele Stanley la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni; pentru codurile curente din gama de cuțite utilitare putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem un anumit accesoriu inclus în afara celui menționat explicit în fișa tehnică a codului comandat.`,
+    infinitrade: `Pentru Stanley nu ținem produse pe raft; lucrăm cu documentația producătorului despre fiecare cod de sculă din gamă. Pentru o ofertă avem nevoie de codul exact al produsului (de exemplu STHT10721 sau MR77C) sau, dacă nu-l cunoașteți, de tipul de sculă și aplicația dorită. Aducem sculele Stanley la comandă prin canale de aprovizionare europene, cu termen orientativ de 1–4 săptămâni; pentru codurile curente din gama de cuțite utilitare putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem un anumit accesoriu inclus în afara celui menționat explicit în fișa tehnică a codului comandat.`,
     limitation: "Nu putem confirma disponibilitatea unui cod exact de pe piața locală fără verificare punctuală la producător, mai ales pentru modelele mai vechi din gamă.",
     productCodes: [
       { code: "FMHT10621-0", description: "cuțit utilitar pliabil cu lamă retractabilă, două lame de rezervă în mâner" },
@@ -360,7 +360,7 @@ Pentru România, Wiha are sens la electricieni, tehnicieni de mentenanță și e
     certifications: [
       "VDE — șurubelnițe izolate testate conform standardului IEC pentru lucrul lângă piese sub tensiune",
     ],
-    infinitrade: `Gama Wiha o descriem strict din surse publice ale producătorului, fără informații proprii despre stocul disponibil la un moment dat. Pentru o ofertă avem nevoie de seria dorită (SoftFinish, VDE, slimVario etc.), tipul de vârf și, dacă e cazul, lungimea mânerului. Aducem sculele Wiha la comandă prin canale de aprovizionare din Germania, cu termen orientativ de 1–4 săptămâni; pentru șurubelnițele curente din seria SoftFinish sau VDE putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem o combinație exactă de vârfuri pentru sistemul slimVario în afara celei publicate în catalogul producătorului.`,
+    infinitrade: `Gama Wiha o descriem strict din documentația tehnică a producătorului, fără informații proprii despre stocul disponibil la un moment dat. Pentru o ofertă avem nevoie de seria dorită (SoftFinish, VDE, slimVario etc.), tipul de vârf și, dacă e cazul, lungimea mânerului. Aducem sculele Wiha la comandă prin canale de aprovizionare din Germania, cu termen orientativ de 1–4 săptămâni; pentru șurubelnițele curente din seria SoftFinish sau VDE putem verifica și opțiuni cu livrare în 24–72 h din stocul unui partener din UE. Nu promitem o combinație exactă de vârfuri pentru sistemul slimVario în afara celei din catalogul producătorului.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui vârf slimVario cu un mâner mai vechi din gamă fără verificare punctuală la producător.",
     productCodes: [
       { code: "SoftFinish", description: "șurubelnițe mecanice cu mâner ergonomic pentru șurubelnit intensiv" },
@@ -373,7 +373,7 @@ Pentru România, Wiha are sens la electricieni, tehnicieni de mentenanță și e
       { code: "speedE", description: "șurubelnițe electrice cu baterie pentru șurubelnit repetitiv" },
       { code: "speedE II", description: "variantă electrică standard din gama speedE" },
       { code: "speedE PocketDrive", description: "șurubelnițe electrice compacte pentru spații restrânse" },
-      { code: "ProBuddy Evo", description: "produs din gama profesională Wiha, distins cu German Design Award 2026 (conform site-ului producătorului)" },
+      { code: "ProBuddy Evo", description: "produs din gama profesională Wiha, distins cu German Design Award 2026 (conform documentației producătorului)" },
     ],
     faq: [
       { q: "Ce produce Wiha?", a: "Wiha produce scule de mână de precizie pentru electricieni și tehnicieni de mentenanță — șurubelnițe mecanice și electrice, clești, chei și seturi modulare de vârfuri interschimbabile. Gama include și scule complet izolate certificate VDE, pentru lucrul în apropierea instalațiilor electrice sub tensiune." },
@@ -421,7 +421,7 @@ Pentru România, Elap are sens la retehnologizarea mașinilor-unelte, liniilor d
       "Industria textilă — encodere pentru motoare de antrenare",
       "Manipulare industrială — traductoare cu fir pentru curse lungi",
     ],
-    infinitrade: `Despre Elap spunem doar ce putem confirma din sursele oficiale ale producătorului, fără date proprii de disponibilitate pentru fiecare model. Pentru o ofertă avem nevoie de tipul de encoder (absolut sau incremental), rezoluția dorită, diametrul arborelui și interfața de ieșire cerută de automat. Aducem produsele Elap la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru modelele standard din gama incrementală putem verifica și opțiuni cu livrare mai rapidă la partenerii din UE. Nu promitem o rezoluție anume în afara celei publicate în fișa tehnică a modelului ales.`,
+    infinitrade: `Despre Elap spunem doar ce putem confirma din documentația tehnică a producătorului, fără date proprii de disponibilitate pentru fiecare model. Pentru o ofertă avem nevoie de tipul de encoder (absolut sau incremental), rezoluția dorită, diametrul arborelui și interfața de ieșire cerută de automat. Aducem produsele Elap la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru modelele standard din gama incrementală putem verifica și opțiuni cu livrare mai rapidă la partenerii din UE. Nu promitem o rezoluție anume în afara celei din fișa tehnică a modelului ales.`,
     limitation: "Nu putem confirma echivalența exactă cu un encoder deja montat fără codul complet de pe eticheta veche sau desenul mecanic al axei.",
     productCodes: [
       { code: "Absolute Encoders (single-turn)", description: "encoder absolut single-turn, ieșire digitală de poziție" },
@@ -490,7 +490,7 @@ Pentru România, Eltra are sens la retehnologizarea motoarelor electrice, liniil
       "CE/UKCA — conformitate pentru piața europeană și britanică",
       "UL/CSA — certificare pentru piața nord-americană",
     ],
-    infinitrade: `Informațiile publice disponibile despre Eltra vin direct de pe site-ul producătorului; nu avem date proprii despre stocul fiecărui model din gamă. Pentru o ofertă avem nevoie de tipul de encoder (incremental sau absolut), diametrul arborelui, interfața de ieșire și, dacă e cazul, cerința de certificare ATEX. Aducem encoderele Eltra la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru modelele standard din gama incrementală verificăm și opțiuni cu livrare mai rapidă la partenerii din UE. Nu promitem o interfață digitală anume în afara celei disponibile pentru modelul ales din catalog.`,
+    infinitrade: `Informațiile despre Eltra vin din documentația tehnică a producătorului; nu avem date proprii despre stocul fiecărui model din gamă. Pentru o ofertă avem nevoie de tipul de encoder (incremental sau absolut), diametrul arborelui, interfața de ieșire și, dacă e cazul, cerința de certificare ATEX. Aducem encoderele Eltra la comandă prin canale de aprovizionare din Italia, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru modelele standard din gama incrementală verificăm și opțiuni cu livrare mai rapidă la partenerii din UE. Nu promitem o interfață digitală anume în afara celei disponibile pentru modelul ales din catalog.`,
     limitation: "Pentru un encoder deja montat, nu putem confirma varianta exactă de arbore sau interfață fără codul complet sau planul mecanic al axei.",
     productCodes: [
       { code: "EAI 76 M", description: "produs din gama Eltra; tipul și parametrii se confirmă pe cod" },

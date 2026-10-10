@@ -1303,7 +1303,7 @@ Rezistența la flexiune, domeniul de temperatură și rezistența la uleiuri, ch
       'Domeniul de temperatură diferă pe serie - se confirmă pe cod, din catalogul Lapp',
       'Certificare UL/CSA/CE - conformitate globală pentru export mașini',
       'Gamă largă de referințe standard - disponibilitatea și termenul se confirmă pe cod',
-      'Instrumente online ale producătorului pentru identificarea codului exact',
+      'Asistență la identificarea codului exact',
       'Catalog și fișe tehnice oficiale Lapp pentru alegerea cablului'
     ],
     keyProducts: [

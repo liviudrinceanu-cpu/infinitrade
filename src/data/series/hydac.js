@@ -10,7 +10,7 @@ export const series = [
     "name": "HYDAC HDA 4000 (HDA 4300, 4400, 4700)",
     "oneLine": "Traductoare de presiune relativă HYDAC din familia HDA, cu ieșire 4...20 mA sau 0...10 V, pentru hidraulică și pneumatică.",
     "lifecycle": "activ",
-    "lifecycleNote": "Paginile de produs HYDAC pentru HDA 4300, HDA 4400 și HDA 4700 sunt active în magazinul online al producătorului, iar broșurile HDA 4300 și HDA 4400 poartă ediția 03.24; nu am găsit o declarație de retragere.",
+    "lifecycleNote": "Paginile de produs HYDAC pentru HDA 4300, HDA 4400 și HDA 4700 sunt curente în documentația producătorului, iar broșurile HDA 4300 și HDA 4400 poartă ediția 03.24; nu am găsit o declarație de retragere.",
     "intro": "Familia HDA a producătorului HYDAC ELECTRONIC GMBH grupează traductoare de presiune relativă cu ieșire de 4...20 mA (2 fire) sau 0...10 V (3 fire). Codul începe cu seria: HDA 4300 are celulă de măsură ceramică cu strat gros, pentru domenii de presiune joasă (de la -1...1 bar la 40 bar), HDA 4400 are celulă cu peliculă subțire pe membrană din oțel inoxidabil, pentru domenii de la -1...1 bar până la 2000 bar, iar HDA 4700 este varianta cu acuratețe de 0,25 % tipic. Un cod precum HDA 4345-A-0040-000-F1 se citește astfel: seria 43, racord mecanic 4 (G1/4 A), racord electric 5 (conector EN 175301-803), semnal A (4...20 mA), domeniul 0040 (40 bar), etanșare F (FKM).\n\nOferta o întocmim pe baza codului complet de pe eticheta traductorului existent, inclusiv sufixul (de exemplu F1) și, dacă există, numărul de material HYDAC (de exemplu 014T005631). Dacă eticheta lipsește, aveți nevoie să ne transmiteți domeniul de presiune, semnalul de ieșire, racordul mecanic și electric și materialul etanșării. Termenul este de regulă 24–72 h dacă produsul se află în stoc propriu sau extern, respectiv 1–4 săptămâni la comandă; confirmăm varianta din documentația producătorului înainte de ofertă.",
     "models": [
       {
@@ -60,7 +60,7 @@ export const series = [
         "unit": "% FS"
       },
       {
-        "label": "Acuratețe HDA 4700 (pagina de produs)",
+        "label": "Acuratețe HDA 4700 (prezentarea de produs)",
         "value": "0,25 tipic; 0,50 max",
         "unit": "%"
       },
@@ -106,7 +106,7 @@ export const series = [
         "a": "Codul complet de pe etichetă sau, dacă lipsește, domeniul de presiune, semnalul de ieșire (4...20 mA sau 0...10 V), racordul mecanic și electric, precum și materialul etanșării (FKM sau EPDM)."
       }
     ],
-    "limitation": "Codul HDA 4345-A-0040-000-F1 nu a fost găsit ca pagină de produs individuală pe hydac.com; semnificația sa (40 bar, FKM, ieșire 4...20 mA) este dedusă din cheia de cod a broșurii HDA 4300. Corespondența cu numărul de material 014T005631 nu s-a putut confirma. Specificațiile detaliate provin din broșurile HDA 4300 și HDA 4400; pentru HDA 4700 s-a citit doar pagina de produs. Familia comercială este organizată de producător în serii separate HDA 4300, 4400 și 4700.",
+    "limitation": "Codul HDA 4345-A-0040-000-F1 nu a fost găsit ca fișă de produs individuală în documentația HYDAC; semnificația sa (40 bar, FKM, ieșire 4...20 mA) este dedusă din cheia de cod a broșurii HDA 4300. Corespondența cu numărul de material 014T005631 nu s-a putut confirma. Specificațiile detaliate provin din broșurile HDA 4300 și HDA 4400; pentru HDA 4700 s-a citit doar prezentarea de produs. Familia comercială este organizată de producător în serii separate HDA 4300, 4400 și 4700.",
     "sources": [
       {
         "title": "HDA 4345-A-0001-000-F1 (seria HDA 4300)",

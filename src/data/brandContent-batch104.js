@@ -31,8 +31,8 @@ Pentru piața din România, Wachendorff înseamnă o alternativă la encoderele 
       "Automatizare industrială — feedback de viteză pe benzi transportoare și axe",
       "Mașini de etichetare și ambalare — sincronizare între axe de tăiere și avans",
     ],
-    infinitrade: `Aducem encodere Wachendorff pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Configurațiile complete — diametru, tip de arbore, interfață și rezoluție — le comandăm prin canale de aprovizionare din Germania, cu termen orientativ de 1–4 săptămâni de la confirmare; pentru cabluri și conectori uzuali putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă avem nevoie de codul complet al encoderului existent sau, dacă îl înlocuiți, de diametrul arborelui, tipul de ieșire și numărul de impulsuri necesar. Nu ținem această gamă pe raft; o aducem la comandă.`,
-    limitation: "Nu putem confirma disponibilitatea imediată a fiecărei variante de interfață din configuratorul online fără verificare directă la producător.",
+    infinitrade: `Aducem encodere Wachendorff pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Configurațiile complete — diametru, tip de arbore, interfață și rezoluție — le comandăm prin canale de aprovizionare din Germania, cu termen orientativ de 1–4 săptămâni de la confirmare; pentru cabluri și conectori uzuali putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă avem nevoie de codul complet al encoderului existent sau, dacă îl înlocuiți, de diametrul arborelui, tipul de ieșire și numărul de impulsuri necesar. Nu ținem această gamă pe raft; o aducem la comandă.`,
+    limitation: "Nu putem confirma disponibilitatea imediată a fiecărei variante de interfață din documentația tehnică fără confirmare prealabilă a producătorului.",
     productCodes: [
       { code: "WDGI58B", description: "encoder incremental Ø58 mm, ieșire push-pull sau RS485" },
       { code: "WDGA58B", description: "encoder absolut Ø58 mm, rezoluție single-turn până la 16 biți" },
@@ -90,7 +90,7 @@ Pentru România, SCANCON e o opțiune atunci când aplicația cere o carcasă ce
       "Industria hârtiei — măsurare viteză pe linii de producție",
       "Industria alimentară și băuturi — encodere Stainless Steel rezistente la spălare",
     ],
-    infinitrade: `Furnizăm encodere SCANCON pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard le aducem la comandă din Danemarca, cu termen orientativ de 1–4 săptămâni, iar pentru cabluri și conectori compatibili putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți diametrul carcasei, tipul de arbore, protocolul de comunicație și, dacă aplicația o cere, certificarea Ex-proof sau varianta SubSea necesară. Nu ținem gama SCANCON pe raft; fiecare comandă pornește de la confirmarea producătorului.`,
+    infinitrade: `Furnizăm encodere SCANCON pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard le aducem la comandă din Danemarca, cu termen orientativ de 1–4 săptămâni, iar pentru cabluri și conectori compatibili putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți diametrul carcasei, tipul de arbore, protocolul de comunicație și, dacă aplicația o cere, certificarea Ex-proof sau varianta SubSea necesară. Nu ținem gama SCANCON pe raft; fiecare comandă pornește de la confirmarea producătorului.`,
     limitation: "Nu confirmăm compatibilitatea exactă cu automate programabile mai vechi fără specificațiile complete ale protocolului folosit.",
     productCodes: [
       { code: "SCA36-NA-SSI", description: "encoder absolut mini multiturn SSI, Ø36 mm" },
@@ -211,7 +211,7 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
       "Siderurgie și industria hârtiei — encodere robuste pe linii cu vibrații constante",
       "Vehicule off-highway — encodere pentru transmisii și sisteme hidraulice",
     ],
-    infinitrade: `Furnizăm encodere și rezolvere Dynapar pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Comandăm unitățile prin canale de aprovizionare din SUA sau prin rețeaua europeană a grupului Fortive, cu termen orientativ de 1–4 săptămâni; pentru cabluri de encoder și conectori uzuali putem verifica variante cu livrare în 24–72 h din stocul unui partener local. Pentru ofertă, transmiteți codul complet al encoderului sau rezolverului, tipul de arbore și interfața electrică necesară. Nu ținem gama Dynapar pe raft; fiecare model ajunge la comandă, pe baza codului transmis.`,
+    infinitrade: `Furnizăm encodere și rezolvere Dynapar pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Comandăm unitățile prin canale de aprovizionare din SUA sau din UE, cu termen orientativ de 1–4 săptămâni; pentru cabluri de encoder și conectori uzuali putem verifica variante cu livrare în 24–72 h din stocul unui partener local. Pentru ofertă, transmiteți codul complet al encoderului sau rezolverului, tipul de arbore și interfața electrică necesară. Nu ținem gama Dynapar pe raft; fiecare model ajunge la comandă, pe baza codului transmis.`,
     limitation: "Nu putem confirma echivalența exactă cu encodere de altă marcă fără compararea directă a fișelor tehnice pentru fiecare aplicație.",
     productCodes: [
       { code: "HS35iQ", description: "encoder incremental cu tehnologie PulseIQ, până la 20.000 ppr" },
@@ -231,7 +231,7 @@ Pentru România, Dynapar înseamnă acces la encodere pentru retrofit de servomo
       { q: "Ce produce compania Dynapar?", a: "Dynapar fabrică encodere rotative incrementale și absolute și rezolvere pentru automatizare industrială, aerospațială și vehicule off-highway. Gama include encodere cu arbore plin sau gol, modele fără rulmenți și variante cu protocoale Ethernet industriale, sub tehnologia proprie PulseIQ pentru autodiagnoză." },
       { q: "Ce face tehnologia PulseIQ de la Dynapar?", a: "PulseIQ, integrată în seria HS35iQ, monitorizează în timp real tensiunea de alimentare, temperatura și calitatea semnalului encoderului și transmite avertismente către automat înainte ca o defecțiune să oprească linia de producție." },
       { q: "Cum aleg un rezolver Dynapar pentru servomotorul meu?", a: "Aveți nevoie de tipul de montaj (carcasat sau fără carcasă), diametrul arborelui și, dacă aplicația e specială, cerințele de temperatură sau rezistență la radiații. Rezolverele Dynapar se oferă carcasate sau fără carcasă." },
-      { q: "Livrați encodere Dynapar în România și cât durează?", a: "Da, aducem encodere și rezolvere Dynapar la comandă prin canale din SUA sau din rețeaua europeană a grupului Fortive, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea codului dorit." },
+      { q: "Livrați encodere Dynapar în România și cât durează?", a: "Da, aducem encodere și rezolvere Dynapar la comandă prin canale din SUA sau din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft; termenul exact se confirmă după transmiterea codului dorit." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -273,7 +273,7 @@ Pentru România, Hohner e o opțiune la retrofit de encodere pe macarale, benzi 
       "Textile — sincronizare viteză pe linii de țesut și finisaj",
       "Siderurgie — encodere robuste pe utilaje de laminare",
     ],
-    infinitrade: `Aducem encodere și sisteme de măsurare Hohner Automation pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Spania, cu termen orientativ de 1–4 săptămâni, iar pentru cabluri și accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, aveți nevoie de codul modelului existent sau, la înlocuire, de tipul de ieșire, rezoluție și diametrul arborelui. Nu ținem gama Hohner pe raft; unitățile complete ajung la comandă, direct din Spania.`,
+    infinitrade: `Aducem encodere și sisteme de măsurare Hohner Automation pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Spania, cu termen orientativ de 1–4 săptămâni, iar pentru cabluri și accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, aveți nevoie de codul modelului existent sau, la înlocuire, de tipul de ieșire, rezoluție și diametrul arborelui. Nu ținem gama Hohner pe raft; unitățile complete ajung la comandă, direct din Spania.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu automate mai vechi fără fișa tehnică completă a modelului solicitat.",
     productCodes: [
       { code: "XS1 SSI", description: "encoder absolut single-turn, ieșire SSI" },
@@ -333,7 +333,7 @@ Pentru piața din România, Zollern înseamnă acces la reductoare pentru utilaj
       
       "Energie — reductoare pentru sisteme de acționare industrială",
     ],
-    infinitrade: `Furnizăm reductoare și lagăre Zollern pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru garnituri și accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de reductor sau lagăr, sarcina și turația de lucru, plus aplicația exactă. Nu ținem gama Zollern pe raft; echipamentele complete ajung la comandă, pe baza configurației transmise.`,
+    infinitrade: `Furnizăm reductoare și lagăre Zollern pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru garnituri și accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de tipul de reductor sau lagăr, sarcina și turația de lucru, plus aplicația exactă. Nu ținem gama Zollern pe raft; echipamentele complete ajung la comandă, pe baza configurației transmise.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (raport de reducere, cuplu maxim) pentru fiecare model fără fișa tehnică individuală de la producător.",
     productCodes: [
       { code: "Reductoare Planetare", description: "reductoare de mare putere pentru utilaje industriale grele" },
@@ -393,7 +393,7 @@ Pentru România, Harmonic Drive e relevant la roboți industriali, brațe de man
       "Apărare — sisteme de orientare pentru echipamente militare",
       "Semiconductoare — manipulare de precizie în medii curate",
     ],
-    infinitrade: `Aducem reductoare Harmonic Drive pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru acest brand. Unitățile complete și seturile de componente vin la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea cuplului și raportului de reducere; pentru accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți cuplul necesar, raportul de reducere dorit și diametrul arborelui gol, dacă aplicația îl cere. Nu ținem gama Harmonic Drive pe raft; seturile de componente ajung la comandă, pe baza parametrilor transmiși.`,
+    infinitrade: `Aducem reductoare Harmonic Drive pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile complete și seturile de componente vin la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea cuplului și raportului de reducere; pentru accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți cuplul necesar, raportul de reducere dorit și diametrul arborelui gol, dacă aplicația îl cere. Nu ținem gama Harmonic Drive pe raft; seturile de componente ajung la comandă, pe baza parametrilor transmiși.`,
     limitation: "Nu putem confirma compatibilitatea mecanică exactă cu servomotorul dumneavoastră fără desenul de interfață complet.",
     productCodes: [
       { code: "CSG-2A", description: "set componente strain wave, cuplu 7-6.175 Nm, raport 50-160:1" },
@@ -459,7 +459,7 @@ Pentru piața din România, RENK înseamnă acces la reductoare și lagăre pent
       "Apărare — transmisii pentru vehicule militare tracked",
       "Feroviar — sisteme de transmisie pentru material rulant",
     ],
-    infinitrade: `Furnizăm reductoare, cuplaje și lagăre RENK pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru cuplaje standard și accesorii putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de lucru și tipul de aplicație (mori, extrudere, hidrocentrală, turbină). Nu ținem gama RENK pe raft; echipamentele de mare putere ajung la comandă, pe baza dimensionării.`,
+    infinitrade: `Furnizăm reductoare, cuplaje și lagăre RENK pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru cuplaje standard și accesorii putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de lucru și tipul de aplicație (mori, extrudere, hidrocentrală, turbină). Nu ținem gama RENK pe raft; echipamentele de mare putere ajung la comandă, pe baza dimensionării.`,
     limitation: "Nu putem confirma dimensionarea exactă a unui reductor sau lagăr fără datele complete de sarcină și turație ale instalației.",
     productCodes: [
       { code: "MULTICOM", description: "reductor integral cu mai multe arbori de ieșire" },
@@ -518,7 +518,7 @@ Pentru piața din România, Kumera înseamnă acces la reductoare pentru instala
       "Hârtie și celuloză — reductoare pentru agitatoare de proces",
       "Energie — reductoare pentru instalații de generare",
     ],
-    infinitrade: `Aducem reductoare Kumera pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Fiind în mare parte soluții construite la comandă, termenul de livrare depășește de regulă 4 săptămâni și se confirmă după primirea specificațiilor tehnice; pentru componente și piese de schimb standard putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de intrare și ieșire, plus aplicația exactă. Nu ținem gama Kumera pe raft; fiind soluții construite la comandă, fiecare proiect pornește de la zero.`,
+    infinitrade: `Aducem reductoare Kumera pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Fiind în mare parte soluții construite la comandă, termenul de livrare depășește de regulă 4 săptămâni și se confirmă după primirea specificațiilor tehnice; pentru componente și piese de schimb standard putem verifica opțiuni cu livrare mai rapidă din stocul unui partener european. Pentru ofertă, avem nevoie de puterea instalată, turația de intrare și ieșire, plus aplicația exactă. Nu ținem gama Kumera pe raft; fiind soluții construite la comandă, fiecare proiect pornește de la zero.`,
     limitation: "Nu putem confirma un termen de livrare exact pentru reductoarele construite la comandă fără specificațiile tehnice complete ale proiectului.",
     productCodes: [
       { code: "Reductor Multi-Treaptă Helical-Conic", description: "reductor cu mai multe trepte, angrenaje helicale și conice" },
@@ -574,7 +574,7 @@ Pentru România, Radicon e relevant la retrofit de reductoare pe utilaje mai vec
       "Industria zahărului — reductoare pentru linii de procesare",
       "Petrol și gaze — reductoare pentru echipamente de suprafață",
     ],
-    infinitrade: `Furnizăm reductoare și motoreductoare Radicon pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă prin canale de aprovizionare din Marea Britanie sau SUA, cu termen orientativ de 1–4 săptămâni; pentru cuplaje și accesorii uzuale putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria sau codul de pe eticheta reductorului existent sau, la un proiect nou, de puterea și raportul de reducere necesare. Nu ținem gama Radicon pe raft; unitățile complete ajung la comandă, din Marea Britanie sau SUA.`,
+    infinitrade: `Furnizăm reductoare și motoreductoare Radicon pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile se aduc la comandă prin canale de aprovizionare din Marea Britanie sau SUA, cu termen orientativ de 1–4 săptămâni; pentru cuplaje și accesorii uzuale putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de seria sau codul de pe eticheta reductorului existent sau, la un proiect nou, de puterea și raportul de reducere necesare. Nu ținem gama Radicon pe raft; unitățile complete ajung la comandă, din Marea Britanie sau SUA.`,
     limitation: "Nu putem confirma echivalența exactă cu un reductor David Brown mai vechi fără codul complet de pe placa de identificare a unității.",
     productCodes: [
       { code: "Seria M", description: "motoreductor helical coaxial (Helical Inline)" },
@@ -638,7 +638,7 @@ Pentru piața din România, Benzlers înseamnă acces la reductoare pentru indus
       "Energie eoliană — reductoare pentru turbine eoliene",
       "Zahăr — reductoare pentru linii de procesare",
     ],
-    infinitrade: `Aducem reductoare și cuplaje Benzlers pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Suedia, cu termen orientativ de 1–4 săptămâni, iar pentru cuplaje și accesorii uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți puterea instalată, turația și tipul de aplicație (bobinare, laminare, agitator etc.). Nu ținem gama Benzlers pe raft, iar termenul depinde de disponibilitatea reductorului la fabrica din Suedia.`,
+    infinitrade: `Aducem reductoare și cuplaje Benzlers pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Suedia, cu termen orientativ de 1–4 săptămâni, iar pentru cuplaje și accesorii uzuale putem verifica variante cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, transmiteți puterea instalată, turația și tipul de aplicație (bobinare, laminare, agitator etc.). Nu ținem gama Benzlers pe raft, iar termenul depinde de disponibilitatea reductorului la fabrica din Suedia.`,
     limitation: "Nu putem confirma cuplul maxim exact pentru fiecare model din gamă fără fișa tehnică individuală de la producător.",
     productCodes: [
       { code: "SALA", description: "reductor cu roți melcate, model consacrat de uz general" },
@@ -703,7 +703,7 @@ Pentru piața din România, Tandler e relevant la reductoare conice pentru linii
       "Industria alimentară — reductoare din oțel inoxidabil pentru medii cu spălare frecventă",
       "Automatizare generală — reductoare de suprapunere a turației pentru poziționare fină",
     ],
-    infinitrade: `Furnizăm reductoare Tandler pe baza informațiilor publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de raportul de transmisie dorit, tipul de arbore (plin, gol, flanșat) și, dacă e cazul, cerința de execuție inox. Nu ținem gama Tandler pe raft; reductoarele complete ajung la comandă, pe baza configurației transmise.`,
+    infinitrade: `Furnizăm reductoare Tandler pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru acest brand. Unitățile standard vin la comandă din Germania, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației; pentru accesorii de montaj putem verifica opțiuni cu livrare în 24–72 h din stocul unui partener european. Pentru ofertă, avem nevoie de raportul de transmisie dorit, tipul de arbore (plin, gol, flanșat) și, dacă e cazul, cerința de execuție inox. Nu ținem gama Tandler pe raft; reductoarele complete ajung la comandă, pe baza configurației transmise.`,
     limitation: "Nu putem confirma raportul de transmisie exact pentru fiecare variantă de reductor fără fișa tehnică individuală de la producător.",
     productCodes: [
       { code: "Kegelradgetriebe Standard", description: "reductor conic standard, transmisie la 90°" },

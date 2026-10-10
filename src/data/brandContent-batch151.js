@@ -72,7 +72,7 @@ Pentru un integrator sau un producător din România, Branson înseamnă acces l
     headquarters: "Cary, Illinois, SUA",
     overview: `Durex Industries este un producător american de încălzitoare electrice industriale la comandă, cu sediul la Cary, Illinois, înființat în 1980 și certificat ISO 9001. Gama include încălzitoare cu cartuș, tubulare, de imersie, de circulație, flexibile din silicon sau Kapton și elemente turnate (cast-in), alături de senzori de temperatură cu termocuplu sau RTD. Din acest portofoliu putem oferta rezistențe și senzori pentru instalații de proces din chimie, farma, industria alimentară și energie, produse pe specificația clientului, nu din catalog standard.
 
-Fabrica din Cary are peste 13.000 m² de producție (145.000 sq ft, conform paginii oficiale despre companie), iar gama include încălzitoare de proces și componente de încălzire și senzori. Gama include și încălzitoare pentru echipamente de semiconductori; temperaturile maxime se confirmă pe tipul de încălzitor, din documentația producătorului.
+Fabrica din Cary are peste 13.000 m² de producție (145.000 sq ft, conform documentației companiei), iar gama include încălzitoare de proces și componente de încălzire și senzori. Gama include și încălzitoare pentru echipamente de semiconductori; temperaturile maxime se confirmă pe tipul de încălzitor, din documentația producătorului.
 
 Pentru o companie din România, Durex Industries înseamnă acces la încălzitoare proiectate exact pe geometria echipamentului — cazan, rezervor, cameră de proces — acolo unde o rezistență standard din piață nu se potrivește. E o soluție de luat în calcul pentru retehnologizări sau piese de schimb la instalații termice mai vechi, unde desenul original nu mai există.`,
     whyChoose: [
@@ -164,7 +164,7 @@ Pentru instalații din România care lucrează cu flanșe la presiuni și temper
       "Energie — etanșări pentru flanșe din centrale și instalații de proces termic.",
     ],
     infinitrade: `Flexitallic funcționează cu o rețea de distribuție dincolo de piața americană, conform informațiilor publicate de producător; nu avem date proprii despre un partener direct pentru România, iar informațiile de mai sus vin din surse publice ale producătorului. Aducem garniturile Flexitallic la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport, fără promisiuni de disponibilitate permanentă pe fiecare cod din gamă. Pentru o ofertă corectă, trimiteți-ne dimensiunea și presiunea nominală a flanșei, temperatura de lucru și mediul cu care vine în contact garnitura.`,
-    limitation: "Nu putem confirma un partener sau un depozit cu raft propriu în România sau în regiune, dincolo de rețeaua internațională menționată pe site-ul producătorului.",
+    limitation: "Nu putem confirma un partener sau un depozit cu raft propriu în România sau în regiune, dincolo de rețeaua internațională menționată în documentația producătorului.",
     productCodes: [
       { code: "FLEX DC", description: "garnitură spiralată cu filler interschimbabil" },
       { code: "HPG", description: "garnitură Flexitallic; tipul constructiv se confirmă pe cod, din documentația producătorului" },
@@ -214,7 +214,7 @@ Pentru laboratoare din România — universități, centre de testare, linii de 
       "Curenți extrem de mici — picoampermetrele din seria 6400 și electrometrele sunt destinate măsurării curenților foarte mici.",
       "Caracterizare semiconductori — analizorul 4200A-SCS și sursele-măsură 2600B/2606B, folosite pentru testarea dispozitivelor la nivel de wafer.",
       "Aprovizionare la comandă — modelul exact și termenul se confirmă înainte de ofertă.",
-      "Marcă Tektronix — Keithley face parte din portofoliul Tektronix (tek.com/en/products/keithley).",
+      "Marcă Tektronix — Keithley face parte din portofoliul Tektronix.",
     ],
     keyProducts: [
       { name: "Multimetre digitale de banc", description: "Multimetre de la 5,5 digiți (2110) până la 8,5 digiți (2002), inclusiv 6,5 digiți la modelul 2100, inclusiv variantele grafice DMM6500 și DMM7510/7512 cu afișaj tactil, pentru măsurători de precizie în laborator." },
@@ -297,7 +297,7 @@ Pentru instalații din România aflate în zone clasificate ATEX — depozite de
       "Minerit — corpuri de iluminat robuste pentru zone clasificate din exploatări.",
       "Energie — transformatoare industriale și turnuri de iluminat pentru șantiere și stații.",
     ],
-    infinitrade: `Nu am găsit, pe site-ul Larson Electronics, o pagină dedicată filialelor sau distribuitorilor europeni, ceea ce înseamnă o aprovizionare prin import direct din Statele Unite pentru piața din România. Termenul orientativ pentru o astfel de comandă este de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport, fără alte estimări de taxe sau termene suplimentare. Nu avem date proprii de stoc pentru această gamă. Pentru o ofertă corectă, trimiteți-ne clasificarea zonei (Class/Division sau zonă ATEX), tensiunea de rețea și puterea sau fluxul luminos necesar.`,
+    infinitrade: `Nu am găsit, în documentația Larson Electronics, o pagină dedicată filialelor sau distribuitorilor europeni, ceea ce înseamnă o aprovizionare prin import direct din Statele Unite pentru piața din România. Termenul orientativ pentru o astfel de comandă este de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport, fără alte estimări de taxe sau termene suplimentare. Nu avem date proprii de stoc pentru această gamă. Pentru o ofertă corectă, trimiteți-ne clasificarea zonei (Class/Division sau zonă ATEX), tensiunea de rețea și puterea sau fluxul luminos necesar.`,
     limitation: "Nu putem confirma certificarea ATEX/IECEx exactă pentru fiecare model din gamă fără fișa tehnică a produsului cerut de client.",
     productCodes: [
       { code: "HAL-48-2L-LED-BMSW-D-V2", description: "corp de iluminat LED reglabil, pivotant, pentru offshore" },
@@ -344,7 +344,7 @@ Pentru un laborator sau o linie de proces din România care manipulează acizi, 
       "Gamă largă de aplicații — chimice, industriale, medicale, marine, solare și OEM, plus circuite hidronice.",
       "Variante cu alimentare specială — seria 893, cu motor DC, pentru aplicații alimentate din baterie; tensiunea se confirmă pe cod.",
       "Pompe hidronice dedicate — familia 809-830, gândită pentru circuite de încălzire și climatizare rezidențială sau comercială.",
-      "Zonă de distribuție internațională — pagină dedicată distribuitorilor din afara Americii de Nord pe site-ul producătorului.",
+      "Zonă de distribuție internațională — pagină dedicată distribuitorilor din afara Americii de Nord din documentația producătorului.",
     ],
     keyProducts: [
       { name: "Pompe centrifugale cu cuplaj magnetic seriile 1-10", description: "Pompe centrifugale fără etanșare mecanică, cu transmisie prin cuplaj magnetic, disponibile în mai multe variante constructive și de conexiune, confirmate pe codul exact, pentru chimicale, apă și alte fluide de proces." },
@@ -358,7 +358,7 @@ Pentru un laborator sau o linie de proces din România care manipulează acizi, 
       "Industria alimentară — aplicații cu fluide alimentare, în funcție de varianta de material confirmată pe cod.",
       "Energie — circuite hidronice de încălzire și climatizare în instalații industriale.",
     ],
-    infinitrade: `March Pumps menține pe site o secțiune dedicată distribuitorilor din afara Americii de Nord, dar nu am identificat un partener confirmat pentru România sau Europa de Est; informațiile de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pe această gamă. Aducem pompele March la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă, trimiteți-ne debitul și presiunea necesară, tipul de fluid vehiculat și dacă aveți nevoie de o variantă cu flanșe sau cu conexiune filetată.`,
+    infinitrade: `March Pumps menține în documentația producătorului o secțiune dedicată distribuitorilor din afara Americii de Nord, dar nu am identificat un partener confirmat pentru România sau Europa de Est; informațiile de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pe această gamă. Aducem pompele March la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă, trimiteți-ne debitul și presiunea necesară, tipul de fluid vehiculat și dacă aveți nevoie de o variantă cu flanșe sau cu conexiune filetată.`,
     limitation: "Nu putem confirma disponibilitatea unei anumite variante de material (plastic, inox, PVDF) fără să verificăm codul exact cerut de aplicația chimică a clientului.",
     productCodes: [
       { code: "Series 1", description: "pompă centrifugală cu cuplaj magnetic, model de bază" },

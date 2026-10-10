@@ -49,7 +49,7 @@ Pentru un atelier de turnătorie sau o oțelărie din România care ia în calcu
     certifications: [
       "ISO 9001:2015 — certificare menținută neîntrerupt din 1993"
     ],
-    infinitrade: `Furnizăm echipamente Inductotherm pentru topirea și încălzirea prin inducție a metalelor, pornind de la surse publice ale producătorului — nu avem date proprii de stoc pentru un brand american de această complexitate. Fiind un producător cu sediul în SUA, aducem echipamentele la comandă prin canale de aprovizionare din UE și import direct, cu termen de peste 4 săptămâni, în funcție de configurație, confirmat de fabrică înainte de comanda fermă. Pentru o ofertă corectă avem nevoie de tipul de cuptor sau sistem dorit, capacitatea de topire sau puterea instalată, tipul de metal procesat și eventualele cerințe de automatizare. Nu putem asigura o rezervă continuă din această gamă — fiecare configurație se confirmă la fabrică înainte de comanda fermă.`,
+    infinitrade: `Furnizăm echipamente Inductotherm pentru topirea și încălzirea prin inducție a metalelor, pornind de la documentația tehnică a producătorului — nu avem date proprii de stoc pentru un brand american de această complexitate. Fiind un producător cu sediul în SUA, aducem echipamentele la comandă prin canale de aprovizionare din UE și import direct, cu termen de peste 4 săptămâni, în funcție de configurație, confirmat de fabrică înainte de comanda fermă. Pentru o ofertă corectă avem nevoie de tipul de cuptor sau sistem dorit, capacitatea de topire sau puterea instalată, tipul de metal procesat și eventualele cerințe de automatizare. Nu putem asigura o rezervă continuă din această gamă — fiecare configurație se confirmă la fabrică înainte de comanda fermă.`,
     limitation: "Nu putem confirma disponibilitatea unei filiale sau a unui centru de service Inductotherm în România sau în Europa de Est, dincolo de rețeaua globală declarată de producător.",
     productCodes: [
       { code: "Vacuum Induction Melting Furnace", description: "cuptor de topire prin inducție sub vid, pentru aliaje sensibile la oxidare" },
@@ -138,7 +138,7 @@ Pentru un producător din România care lucrează cu bare, țevi sau fixatori me
     certifications: [
       "ISO 9001 — certificare obținută în februarie 1997"
     ],
-    infinitrade: `Aducem echipamente Ajax Tocco Magnethermic pornind exclusiv din surse publice ale producătorului, fără date proprii de stoc pentru instalații de inducție de această complexitate. Producătorul are sediul în SUA, iar noi le aducem la comandă prin canale de aprovizionare din UE și import direct, cu termen de peste 4 săptămâni, în funcție de tipul de sistem, confirmat de fabrica americană. Pentru o ofertă avem nevoie de aplicația exactă (topire, forjare sau tratament termic), materialul și dimensiunile pieselor procesate, plus puterea electrică disponibilă în hală. Nu avem o rezervă continuă pentru echipamente de această anvergură — fiecare proiect se confirmă în prealabil cu producătorul.`,
+    infinitrade: `Aducem echipamente Ajax Tocco Magnethermic pornind exclusiv din documentația tehnică a producătorului, fără date proprii de stoc pentru instalații de inducție de această complexitate. Producătorul are sediul în SUA, iar noi le aducem la comandă prin canale de aprovizionare din UE și import direct, cu termen de peste 4 săptămâni, în funcție de tipul de sistem, confirmat de fabrica americană. Pentru o ofertă avem nevoie de aplicația exactă (topire, forjare sau tratament termic), materialul și dimensiunile pieselor procesate, plus puterea electrică disponibilă în hală. Nu avem o rezervă continuă pentru echipamente de această anvergură — fiecare proiect se confirmă în prealabil cu producătorul.`,
     limitation: "Nu putem confirma existența unui reprezentant sau centru de service Ajax Tocco dedicat pieței din România, dincolo de operațiunile din nouă țări declarate de producător.",
     productCodes: [
       { code: "Autotron", description: "sursă de putere pentru sisteme de inducție industrială" },
@@ -179,12 +179,12 @@ Pentru un producător din România care lucrează cu bare, țevi sau fixatori me
     headquarters: "DuBois, Pennsylvania, SUA",
     overview: `Gasbarre Products este un producător american de prese de compactare a pulberilor metalice și de cuptoare de procesare termică, cu sediul la DuBois, Pennsylvania, SUA, înființat în 1973. Prin achiziții făcute între 1989 și 2012, compania a ajuns un furnizor complet pentru metalurgia pulberilor, cu peste 200 de angajați și șapte locații de producție. Din gama sa putem oferta prese mecanice, hidraulice și electrice de compactare, prese izostatice și cuptoare de sinterizare sau tratament termic sub vid.
 
-Ce diferențiază Gasbarre de un simplu producător de prese este integrarea proceselor conexe: pe lângă presele Performance, Die Set și Multi-Action, oferă și echipamente de compactare la cald precum sistemul TOPS, dozatoare de tip Fluidized Fill Shoe și unitatea de sinter-hardening HyperCooler. Compania acoperă și segmentul de cuptoare de sinterizare — de la modele cu bandă continuă la vid multizonă — sub același brand; site-ul producătorului menționează conformitatea cu standardele ISO 9001 sau ISO 17025.
+Ce diferențiază Gasbarre de un simplu producător de prese este integrarea proceselor conexe: pe lângă presele Performance, Die Set și Multi-Action, oferă și echipamente de compactare la cald precum sistemul TOPS, dozatoare de tip Fluidized Fill Shoe și unitatea de sinter-hardening HyperCooler. Compania acoperă și segmentul de cuptoare de sinterizare — de la modele cu bandă continuă la vid multizonă — sub același brand; documentația producătorului menționează conformitatea cu standardele ISO 9001 sau ISO 17025.
 
 Pentru un producător din România din metalurgia pulberilor sau din prelucrarea prin sinterizare a componentelor, Gasbarre înseamnă acces la o gamă americană completă, de la presă până la cuptorul de sinterizare, sub controlul de calitate al aceluiași furnizor.`,
     whyChoose: [
       "Furnizor complet pentru metalurgia pulberilor — prese de compactare și cuptoare de sinterizare sub același brand",
-      "Conformitate declarată cu standardele ISO 9001 sau ISO 17025, conform site-ului producătorului",
+      "Conformitate declarată cu standardele ISO 9001 sau ISO 17025, conform documentației producătorului",
       "Gamă largă de prese: mecanice, hidraulice, electrice și izostatice, inclusiv prese hidraulice de la 15 la 1.200 de tone",
       "Șapte locații de producție și peste 200 de angajați, rezultat al unor achiziții strategice între 1989 și 2012",
       "Echipamente conexe pentru procesul complet — lubrifiere matriță, alimentare pulbere și sinter-hardening"
@@ -218,7 +218,7 @@ Pentru un producător din România din metalurgia pulberilor sau din prelucrarea
       "ISO 9001 — standard menționat de producător; certificatul se confirmă cu fabrica",
       "ISO 17025 — standard menționat de producător; detaliile acreditării se confirmă cu fabrica"
     ],
-    infinitrade: `Pentru Gasbarre lucrăm exclusiv din surse publice ale producătorului, fără date proprii de stoc — e un brand american specializat, fără rețea de distribuție vizibilă în Europa. Aducem presele și cuptoarele la comandă prin import direct, cu termen de peste 4 săptămâni, în funcție de confirmarea producătorului și de complexitatea configurației cerute. Pentru o ofertă avem nevoie de tipul de piesă compactată, tonajul sau forța de compactare dorită, materialul procesat și dacă aveți nevoie și de cuptorul de sinterizare aferent. Nu ținem o rezervă fixă pentru echipamente configurate pe comandă — fiecare proiect trece prin confirmarea fabricii din Pennsylvania.`,
+    infinitrade: `Pentru Gasbarre lucrăm exclusiv din documentația tehnică a producătorului, fără date proprii de stoc — e un brand american specializat, fără rețea de distribuție vizibilă în Europa. Aducem presele și cuptoarele la comandă prin import direct, cu termen de peste 4 săptămâni, în funcție de confirmarea producătorului și de complexitatea configurației cerute. Pentru o ofertă avem nevoie de tipul de piesă compactată, tonajul sau forța de compactare dorită, materialul procesat și dacă aveți nevoie și de cuptorul de sinterizare aferent. Nu ținem o rezervă fixă pentru echipamente configurate pe comandă — fiecare proiect trece prin confirmarea fabricii din Pennsylvania.`,
     limitation: "Nu avem confirmare despre existența unui birou propriu al producătorului în Europa; procurarea se face exclusiv prin import direct din SUA, la comandă.",
     productCodes: [
       { code: "Performance Series Press", description: "presă mecanică de compactare pentru piese single sau multi-nivel" },
@@ -275,7 +275,7 @@ Pentru un operator din România din turnătorii, reciclare sau procesare de mate
     whyChoose: [
       "Echipamente vibratoare pentru turnătorii, minerit, reciclare și procesare în vrac, cu suport global declarat de producător",
       "Familie de soluții brevetate — VIBRA-DRUM, DE-STONER, FINGER-SCREEN — pentru aplicații specifice, nu doar echipament generic",
-      "Sisteme de calitate ISO referite pe site-ul producătorului",
+      "Sisteme de calitate ISO referite în documentația producătorului",
       "Acoperire largă de industrii — turnătorii, minerit, reciclare, procesare în vrac și prelucrare lemn",
       "Gamă de alimentatoare vibratoare pre-inginerite (Quick-Ship), oferite de producător ca variante standard"
     ],
@@ -305,9 +305,9 @@ Pentru un operator din România din turnătorii, reciclare sau procesare de mate
       "Prelucrare lemn — echipamente pentru lemn, compost și cânepă; activatorul/alimentatorul UN-COALER este disponibil și pentru aplicații cu lemn"
     ],
     certifications: [
-      "Sisteme de calitate ISO — referite pe site-ul producătorului; certificatul se confirmă cu fabrica"
+      "Sisteme de calitate ISO — referite în documentația producătorului; certificatul se confirmă cu fabrica"
     ],
-    infinitrade: `Aducem echipamente General Kinematics pe baza informațiilor publice disponibile ale producătorului, fără date proprii de stoc pentru instalații vibratoare configurate pe comandă. Fiind un producător cu sediul în SUA, fără o filială europeană confirmată pe pagina oficială, aducem echipamentele la comandă prin import direct, cu termen de peste 4 săptămâni, în funcție de configurație, confirmat de fabrica din Illinois (instalații dimensionate individual). Pentru o ofertă avem nevoie de tipul de material procesat, debitul dorit și aplicația exactă — turnătorie, minerit, reciclare sau procesare în vrac. Nu avem o rezervă fixă pentru echipamente vibratoare, fiindcă fiecare instalație e dimensionată separat.`,
+    infinitrade: `Aducem echipamente General Kinematics pe baza documentației producătorului, fără date proprii de stoc pentru instalații vibratoare configurate pe comandă. Fiind un producător cu sediul în SUA, fără o filială europeană confirmată în documentația producătorului, aducem echipamentele la comandă prin import direct, cu termen de peste 4 săptămâni, în funcție de configurație, confirmat de fabrica din Illinois (instalații dimensionate individual). Pentru o ofertă avem nevoie de tipul de material procesat, debitul dorit și aplicația exactă — turnătorie, minerit, reciclare sau procesare în vrac. Nu avem o rezervă fixă pentru echipamente vibratoare, fiindcă fiecare instalație e dimensionată separat.`,
     limitation: "Nu putem confirma o rețea de distribuție sau un birou General Kinematics dedicat pieței europene, dincolo de suportul global menționat de producător.",
     productCodes: [
       { code: "VIBRA-DRUM", description: "tambur rotativ vibrator pentru răcire nisip de turnătorie" },
@@ -334,7 +334,7 @@ Pentru un operator din România din turnătorii, reciclare sau procesare de mate
     faq: [
       { q: "Ce produce General Kinematics?", a: "General Kinematics produce echipamente vibratoare pentru manipularea materialelor în vrac — transportoare, alimentatoare, site de clasificare și echipamente rotative precum tamburul VIBRA-DRUM. Gama e folosită în turnătorii, minerit, reciclare și procesare de materiale în vrac, cu aplicații în turnătorii, minerit, reciclare și procesare în vrac." },
       { q: "Cum aleg alimentatorul vibrator General Kinematics potrivit?", a: "Alegerea depinde de materialul transportat, de debitul dorit și de aplicația specifică — minerit, turnătorie sau reciclare. Familia PARA-MOUNT acoperă majoritatea aplicațiilor grele, iar gama Quick-Ship oferă modele pre-inginerite. Trimiteți-ne caracteristicile materialului pentru verificare la producător." },
-      { q: "Se poate procura General Kinematics în România sau Europa?", a: "Da, prin import direct din SUA — nu am găsit pe site o filială europeană dedicată, dar producătorul menționează suport global. Aducem echipamentele la comandă, cu termen de peste 4 săptămâni, în funcție de configurația tehnică cerută." },
+      { q: "Se poate procura General Kinematics în România sau Europa?", a: "Da, prin import direct din SUA — nu am găsit în documentația producătorului o filială europeană dedicată, dar producătorul menționează suport global. Aducem echipamentele la comandă, cu termen de peste 4 săptămâni, în funcție de configurația tehnică cerută." },
       { q: "Ce echivalent are VIBRA-DRUM pentru procesarea nisipului de turnătorie?", a: "VIBRA-DRUM e un tambur rotativ vibrator specific General Kinematics, folosit pentru răcirea și separarea nisipului de turnătorie; alte branduri oferă tamburi rotativi similari, dar cu principii de acționare diferite. Pentru o comparație tehnică exactă avem nevoie de debitul și temperatura materialului procesat la dumneavoastră." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipament General Kinematics?", a: "Trimiteți tipul de material procesat, debitul necesar, aplicația exactă — turnătorie, minerit, reciclare sau procesare în vrac — și spațiul disponibil pentru montaj. Cu aceste date verificăm împreună cu producătorul configurația potrivită și termenul realist de livrare." }
     ],
@@ -390,9 +390,9 @@ Pentru un operator din România din minerit, ciment sau reciclare care lucrează
       "Energie (centrale pe cărbune) — control praf pe benzile de alimentare cu combustibil"
     ],
     certifications: [
-      "ISO 9001 — certificări menționate de producător pe site-ul propriu"
+      "ISO 9001 — certificări menționate de producător"
     ],
-    infinitrade: `Lucrăm cu gama Martin Engineering pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru accesorii configurate pe lățimea și viteza fiecărei benzi transportoare. Producătorul are sediul în SUA, dar și birouri europene, ceea ce simplifică aprovizionarea; aducem componentele la comandă, cu termen orientativ 1–4 săptămâni la comandă, în funcție de configurație și de confirmarea disponibilității. Pentru o ofertă avem nevoie de lățimea benzii, viteza de rulare, tipul de material transportat și punctul exact unde apare problema (transfer, descărcare, buncăr). Nu ținem o rezervă fixă din aceste componente — fiecare set de curățătoare sau lame se configurează pe banda dumneavoastră.`,
+    infinitrade: `Lucrăm cu gama Martin Engineering pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru accesorii configurate pe lățimea și viteza fiecărei benzi transportoare. Producătorul are sediul în SUA, dar și birouri europene, ceea ce simplifică aprovizionarea; aducem componentele la comandă, cu termen orientativ 1–4 săptămâni la comandă, în funcție de configurație și de confirmarea disponibilității. Pentru o ofertă avem nevoie de lățimea benzii, viteza de rulare, tipul de material transportat și punctul exact unde apare problema (transfer, descărcare, buncăr). Nu ținem o rezervă fixă din aceste componente — fiecare set de curățătoare sau lame se configurează pe banda dumneavoastră.`,
     limitation: "Nu putem confirma dacă biroul european Martin Engineering acoperă direct și piața din România sau dacă livrarea se face exclusiv prin import din SUA pentru anumite componente.",
     productCodes: [
       { code: "CleanScrape Primary Cleaner", description: "curățător primar de bandă pentru materiale lipicioase" },
@@ -477,7 +477,7 @@ Pentru un atelier de prelucrări mecanice sau o companie de construcții din Rom
       "Construcții — sisteme de reabilitare drumuri și foraj pentru fundații",
       "Aerospațial — scule PCD pentru materiale abrazive și compozite"
     ],
-    infinitrade: `Lucrăm cu gama Kennametal pornind din surse publice ale producătorului, fără date proprii de stoc pentru un catalog atât de larg de scule și componente. Fiind un brand american, aducem sculele și componentele la comandă prin canale de aprovizionare din UE și import direct, cu termen orientativ 1–4 săptămâni la comandă, în funcție de disponibilitatea codului cerut. Pentru o ofertă avem nevoie de codul exact al sculei sau al portsculei, materialul prelucrat și mașina-unealtă pe care se montează. Nu ținem această gamă pe raft; verificăm disponibilitatea fiecărui cod la confirmarea comenzii cu producătorul.`,
+    infinitrade: `Lucrăm cu gama Kennametal pornind din documentația tehnică a producătorului, fără date proprii de stoc pentru un catalog atât de larg de scule și componente. Fiind un brand american, aducem sculele și componentele la comandă prin canale de aprovizionare din UE și import direct, cu termen orientativ 1–4 săptămâni la comandă, în funcție de disponibilitatea codului cerut. Pentru o ofertă avem nevoie de codul exact al sculei sau al portsculei, materialul prelucrat și mașina-unealtă pe care se montează. Nu ținem această gamă pe raft; verificăm disponibilitatea fiecărui cod la confirmarea comenzii cu producătorul.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărui cod din catalogul Kennametal pentru piața europeană — unele referințe pot fi specifice pieței nord-americane și necesită verificare suplimentară la producător.",
     productCodes: [
       { code: "Solid End Milling Tool", description: "freză solidă monobloc pentru operații de frezare de precizie" },
@@ -564,9 +564,9 @@ Pentru un operator de stație de epurare sau un integrator din România care luc
       "Energie electrică — tratare apă de proces pentru centrale și instalații industriale"
     ],
     certifications: [
-      "ISO 9001 — certificare menționată de producător pe site-ul propriu"
+      "ISO 9001 — certificare menționată de producător"
     ],
-    infinitrade: `Aducem echipamente WesTech Engineering pornind exclusiv din surse publice ale producătorului, fără date proprii de stoc pentru instalații de tratare a apei configurate proiect cu proiect. Nu am identificat pe site o rețea de distribuție proprie în Europa, așa că aducem echipamentele la comandă prin import direct din SUA, cu termen orientativ 1–4 săptămâni la comandă, în funcție de configurația cerută și de confirmarea producătorului. Pentru o ofertă avem nevoie de debitul de apă tratat, tipul de aplicație (potabilă, uzată, industrială) și etapa exactă din flux — clarificare, filtrare, îngroșare sau stație completă. Nu ținem o rezervă fixă din această gamă — fiecare echipament se configurează pe parametrii proiectului dumneavoastră.`,
+    infinitrade: `Aducem echipamente WesTech Engineering pornind exclusiv din documentația tehnică a producătorului, fără date proprii de stoc pentru instalații de tratare a apei configurate proiect cu proiect. Nu am identificat în documentația producătorului o rețea de distribuție proprie în Europa, așa că aducem echipamentele la comandă prin import direct din SUA, cu termen orientativ 1–4 săptămâni la comandă, în funcție de configurația cerută și de confirmarea producătorului. Pentru o ofertă avem nevoie de debitul de apă tratat, tipul de aplicație (potabilă, uzată, industrială) și etapa exactă din flux — clarificare, filtrare, îngroșare sau stație completă. Nu ținem o rezervă fixă din această gamă — fiecare echipament se configurează pe parametrii proiectului dumneavoastră.`,
     limitation: "Nu putem confirma o filială proprie a producătorului pentru piața din România sau Europa; aprovizionarea se bazează exclusiv pe import direct din SUA, la comandă.",
     productCodes: [
       { code: "CONTRAFLO Solids Contact Clarifier", description: "clarificator cu contact al solidelor pentru coagulare-floculare" },
@@ -595,7 +595,7 @@ Pentru un operator de stație de epurare sau un integrator din România care luc
     faq: [
       { q: "Ce produce WesTech Engineering?", a: "WesTech Engineering produce echipamente pentru tratarea apei potabile și a apelor uzate — clarificatoare, filtre, îngroșătoare de nămol, sisteme de tratare biologică și stații complete de tratare tip pachet. Gama acoperă atât aplicații municipale, cât și procese industriale din minerit, chimie sau energie." },
       { q: "Cum aleg clarificatorul WesTech potrivit pentru instalația mea?", a: "Alegerea depinde de debitul de apă tratat, de tipul de nămol generat și de spațiul disponibil pentru montaj. CONTRAFLO e potrivit pentru coagulare-floculare clasică, SuperSettler economisește spațiu prin plăci înclinate, iar R5 DAF separă grăsimi și solide ușoare. Trimiteți-ne debitul și tipul de apă pentru verificare." },
-      { q: "Se poate procura WesTech Engineering în România sau Europa?", a: "Da, prin import direct din SUA — nu am identificat pe site o rețea de distribuție proprie în Europa, deci aducem echipamentele la comandă, cu termen orientativ 1–4 săptămâni, în funcție de configurația tehnică cerută și de confirmarea producătorului din Utah." },
+      { q: "Se poate procura WesTech Engineering în România sau Europa?", a: "Da, prin import direct din SUA — nu am identificat în documentația producătorului o rețea de distribuție proprie în Europa, deci aducem echipamentele la comandă, cu termen orientativ 1–4 săptămâni, în funcție de configurația tehnică cerută și de confirmarea producătorului din Utah." },
       { q: "Livrați stații de tratare WesTech în România și cât durează?", a: "Livrăm la comandă, nu din stoc, cu termen orientativ 1–4 săptămâni, în funcție de tipul de stație (Trident, Aquarius, Water Boy) și de confirmarea producătorului american. Pentru configurații complexe, cu mai multe etape de tratare, termenul poate fi mai lung și se confirmă înainte de comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipament WesTech?", a: "Trimiteți debitul de apă tratat, tipul de aplicație (potabilă, uzată, industrială), etapa exactă din flux (clarificare, filtrare, îngroșare) și dacă aveți nevoie de o stație completă tip pachet. Cu aceste date verificăm împreună cu producătorul configurația potrivită." }
     ],

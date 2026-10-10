@@ -40,7 +40,7 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
       "ATEX — certificare disponibilă pe anumite modele (de exemplu OLCT 80); se confirmă pe model",
       "IECEx — de confirmat pe model, din documentația producătorului"
     ],
-    infinitrade: `Lucrăm cu gama Teledyne Gas and Flame Detection pornind de la seriile OLCT, MX și GasSurveyor, pe baza informațiilor din surse publice ale producătorului — spunem direct ce putem și ce nu putem confirma dincolo de site-ul oficial. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft și nu promitem disponibilitate din depozit. Pentru ofertă, avem nevoie de codul exact al detectorului, zona de certificare a instalației și protocolul de comunicație folosit.`,
+    infinitrade: `Lucrăm cu gama Teledyne Gas and Flame Detection pornind de la seriile OLCT, MX și GasSurveyor, pe baza informațiilor din surse publice ale producătorului — spunem direct ce putem și ce nu putem confirma dincolo de documentația producătorului. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft și nu promitem disponibilitate din depozit. Pentru ofertă, avem nevoie de codul exact al detectorului, zona de certificare a instalației și protocolul de comunicație folosit.`,
     limitation: "Nu putem confirma disponibilitatea fiecărui model pe piața din România și nu oferim service în garanția producătorului fără acordul acestuia.",
     productCodes: [
       { code: "OLCT-10", description: "Detector fix de gaz toxic și combustibil, familia OLCT" },
@@ -70,7 +70,7 @@ Pentru instalațiile din România cu risc de explozie sau intoxicare — rafină
       { code: "Multiflame 40", description: "Detector optic de flacără, familia Multiflame" }
     ],
     faq: [
-      { q: "Ce produce Teledyne Gas and Flame Detection?", a: "Teledyne Gas and Flame Detection fabrică detectoare fixe și portabile de gaz toxic sau combustibil, controlere de centralizare din seria MX și detectoare optice de flacără din familiile SpyGlass și DF-TV7, conform informațiilor publicate pe site-ul oficial al producătorului." },
+      { q: "Ce produce Teledyne Gas and Flame Detection?", a: "Teledyne Gas and Flame Detection fabrică detectoare fixe și portabile de gaz toxic sau combustibil, controlere de centralizare din seria MX și detectoare optice de flacără din familiile SpyGlass și DF-TV7, conform informațiilor din documentația tehnică a producătorului." },
       { q: "Cum aleg un detector din familia OLCT?", a: "Alegerea depinde de tipul de gaz de detectat, plaja de concentrație urmărită și zona de certificare a instalației (ATEX sau IECEx); trimiteți-ne aceste date, plus codul exact dacă îl cunoașteți, ca să identificăm varianta potrivită din familia OLCT." },
       { q: "De ce să aleg Teledyne Gas and Flame Detection pentru un proiect de detecție de gaz?", a: "Pentru că acoperă gaz toxic, gaz combustibil și flacără sub aceeași marcă, cu certificare ATEX pe anumite modele (de confirmat pe cod), ceea ce simplifică integrarea și mentenanța comparativ cu combinarea unor producători diferiți pentru fiecare tip de risc." },
       { q: "Ce controler MX aleg pentru o instalație cu multe puncte de detecție?", a: "Seria MX cuprinde de la controlere cu un singur canal (MX-16) până la modele multi-canal (MX-62, MX-256); numărul de detectoare de centralizat și distanța dintre ele decid varianta potrivită, iar aceste detalii trebuie confirmate înainte de ofertă." },
@@ -112,7 +112,7 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
       },
       {
         name: "Q-Control — Sistem de Control pentru Pompele Quattroflow",
-        description: "Accesoriu electronic pentru reglarea debitului pompelor Quattroflow, integrabil în automatizarea unei linii de bioprocesare. Caracteristicile se confirmă direct la producător. Compatibilitatea exactă cu fiecare model se confirmă direct la producător."
+        description: "Accesoriu electronic pentru reglarea debitului pompelor Quattroflow, integrabil în automatizarea unei linii de bioprocesare. Caracteristicile le verificăm noi în documentația producătorului. Compatibilitatea exactă cu fiecare model o verificăm noi în documentația producătorului."
       }
     ],
     industries: [
@@ -127,7 +127,7 @@ Pentru laboratoare din România care lucrează în filtrare tangențială, croma
       "Certificare 3.1 — piese din inox, cu documentare a rugozității suprafeței",
       "ATEX — variantă disponibilă pentru zone cu risc de explozie (QF10kMU)"
     ],
-    infinitrade: `Furnizăm pompe Quattroflow pentru bioprocesare pe baza informațiilor publicate de producător — fără date proprii de stoc, spunem clar ce confirmă site-ul oficial și ce rămâne de verificat direct cu fabrica. Aducem la comandă, prin canale de aprovizionare din UE, atât variantele cu cameră de unică folosință, cât și cele cu cameră reutilizabilă din inox, cu termen orientativ de 1–4 săptămâni de la confirmare; nu promitem disponibilitate din depozit pentru niciun model. Pentru ofertă, avem nevoie de debitul de lucru dorit, tipul de cameră preferat (unică folosință sau inox) și dacă instalația necesită certificare ATEX. Pentru accesoriul Q-Control, verificăm compatibilitatea cu modelul de pompă înainte de a oferta.`,
+    infinitrade: `Furnizăm pompe Quattroflow pentru bioprocesare pe baza informațiilor publicate de producător — fără date proprii de stoc, spunem clar ce confirmă documentația producătorului și ce rămâne de verificat direct cu fabrica. Aducem la comandă, prin canale de aprovizionare din UE, atât variantele cu cameră de unică folosință, cât și cele cu cameră reutilizabilă din inox, cu termen orientativ de 1–4 săptămâni de la confirmare; nu promitem disponibilitate din depozit pentru niciun model. Pentru ofertă, avem nevoie de debitul de lucru dorit, tipul de cameră preferat (unică folosință sau inox) și dacă instalația necesită certificare ATEX. Pentru accesoriul Q-Control, verificăm compatibilitatea cu modelul de pompă înainte de a oferta.`,
     limitation: "Nu putem confirma valabilitatea certificărilor USP sau FDA pentru fiecare lot de elastomeri fără documentația transmisă separat de producător la fiecare comandă.",
     productCodes: [
       { code: "QF30SU", description: "Pompă cu cameră de unică folosință, debit redus" },
@@ -207,7 +207,7 @@ Pentru stații de tratare a apei sau linii de producție din România unde e nev
     certifications: [
       "API 675 — standard pentru pompe dozatoare, respectat de seria cu revenire forțată"
     ],
-    infinitrade: `Lucrăm cu gama Doseuro de pompe și sisteme de dozare pornind de la informațiile publice ale producătorului, disponibile acum pe site-ul grupului FPZ — spunem clar ce putem și ce nu putem confirma dincolo de fișele tehnice publicate. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare; nu ținem această gamă pe raft și nu promitem disponibilitate din depozit. Pentru ofertă, avem nevoie de fluidul dozat (compoziție, concentrație, densitate), debitul și presiunea de dozare dorite și dacă instalația cere conformitate API 675. Pentru unitățile complete de dozare, precizați și capacitatea rezervorului necesară.`,
+    infinitrade: `Lucrăm cu gama Doseuro de pompe și sisteme de dozare pornind de la informațiile publice ale producătorului, din documentația grupului FPZ — spunem clar ce putem și ce nu putem confirma dincolo de fișele tehnice publicate. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare; nu ținem această gamă pe raft și nu promitem disponibilitate din depozit. Pentru ofertă, avem nevoie de fluidul dozat (compoziție, concentrație, densitate), debitul și presiunea de dozare dorite și dacă instalația cere conformitate API 675. Pentru unitățile complete de dozare, precizați și capacitatea rezervorului necesară.`,
     limitation: "Nu putem confirma disponibilitatea imediată a pieselor de schimb pentru modelele Doseuro mai vechi, dinainte de integrarea în grupul FPZ, fără verificare directă la producător.",
     productCodes: [
       { code: "SR Diafragmă Mecanică", description: "Pompă cu revenire pe arc, diafragmă mecanică, uz general" },

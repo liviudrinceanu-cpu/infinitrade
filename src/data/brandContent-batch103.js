@@ -29,7 +29,7 @@ Pentru piața din România, Power Electronics are sens acolo unde un proiect com
       "Centre de date — convertizoare dedicate infrastructurii critice",
       "Mobilitate electrică — echipamente de încărcare pentru flote"
     ],
-    infinitrade: `Pentru Power Electronics lucrăm pe bază de comandă: preluăm cerința tehnică (putere, tensiune, tip de aplicație), o transmitem prin canalele de aprovizionare din UE și confirmăm termenul exact după răspunsul producătorului sau al distribuției regionale, orientativ 1–4 săptămâni. Datele tehnice de mai sus vin din surse publice ale producătorului, nu din fișe interne de stoc, așa că orice parametru electric fin (curent nominal, randament la sarcină parțială) se confirmă din documentația tehnică a modelului exact cerut. Nu promitem disponibilitate din depozit pentru această gamă — fiecare proiect se configurează pe aplicația reală. Clientul trebuie să trimită puterea și tensiunea motorului sau a instalației, tipul de sarcină și, dacă e cazul, cerințele de comunicare cu automatul existent.`,
+    infinitrade: `Pentru Power Electronics lucrăm pe bază de comandă: preluăm cerința tehnică (putere, tensiune, tip de aplicație), o transmitem prin canalele de aprovizionare din UE și confirmăm termenul exact după răspunsul producătorului sau al distribuției regionale, orientativ 1–4 săptămâni. Datele tehnice de mai sus vin din documentația tehnică a producătorului, nu din fișe interne de stoc, așa că orice parametru electric fin (curent nominal, randament la sarcină parțială) se confirmă din documentația tehnică a modelului exact cerut. Nu promitem disponibilitate din depozit pentru această gamă — fiecare proiect se configurează pe aplicația reală. Clientul trebuie să trimită puterea și tensiunea motorului sau a instalației, tipul de sarcină și, dacă e cazul, cerințele de comunicare cu automatul existent.`,
     limitation: "Nu putem confirma configurarea software proprietară a convertizoarelor Power Electronics fără acces direct la instalația și proiectul clientului.",
     productCodes: [
       { code: "SD150", description: "convertizor de frecvență joasă tensiune, gamă compactă" },
@@ -218,7 +218,7 @@ Pentru piața din România, gama are sens la utilaje vechi cu motoare DC încă 
       "Lifturi, poduri rulante și macarale — regenerare de energie la frânare",
       "Printare și industria cablurilor — acționarea liniilor de producție"
     ],
-    infinitrade: `Informațiile publice disponibile despre Sprint Electric vin direct de pe site-ul producătorului; parametrii electrici fini se confirmă din fișa tehnică a modelului. Aducem regulatoare Sprint Electric prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru retehnologizarea unui utilaj cu motor DC existent avem nevoie de puterea și tensiunea de armătură a motorului, tipul de aplicație și dacă instalația actuală cere funcții suplimentare de comunicare digitală. Nu promitem disponibilitate din depozit pentru această gamă de nișă — fiecare regulator se selectează pe motorul real al clientului, nu pe o listă generică de echivalențe.`,
+    infinitrade: `Informațiile despre Sprint Electric provin din documentația producătorului; parametrii electrici fini se confirmă din fișa tehnică a modelului. Aducem regulatoare Sprint Electric prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru retehnologizarea unui utilaj cu motor DC existent avem nevoie de puterea și tensiunea de armătură a motorului, tipul de aplicație și dacă instalația actuală cere funcții suplimentare de comunicare digitală. Nu promitem disponibilitate din depozit pentru această gamă de nișă — fiecare regulator se selectează pe motorul real al clientului, nu pe o listă generică de echivalențe.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unui regulator Sprint Electric cu un motor deja instalat fără datele de pe placa acestuia.",
     productCodes: [
       { code: "Generis", description: "drive de regenerare pentru motoare AC cu inel colector" },
@@ -405,7 +405,7 @@ Pentru piața din România, gama Exlar are sens la utilaje din industria aliment
       "Apărare terestră și navală — actuatoare electromecanice pentru sisteme robuste"
     ],
     infinitrade: `Nu avem date proprii despre stocul Exlar și lucrăm după cataloagele publicate de Curtiss-Wright pentru fiecare familie de actuatoare. Aducem actuatoare Exlar prin canale de aprovizionare din UE sau SUA, cu un termen care depinde de familia și configurația exactă cerute, orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de forța sau cuplul necesar, cursa de lucru, tipul de mișcare și protocolul de comunicare al automatului existent. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator se selectează pe aplicația reală, nu pe un cod generic.`,
-    limitation: "Nu putem confirma alte sub-game de actuatoare Exlar dincolo de familiile listate public pe pagina Curtiss-Wright.",
+    limitation: "Nu putem confirma alte sub-game de actuatoare Exlar dincolo de familiile listate de Curtiss-Wright.",
     productCodes: [
       { code: "FTX Series", description: "actuator liniar universal cu șurub cu role" },
       { code: "FTP Series", description: "actuator liniar universal, gama FT" },
@@ -465,7 +465,7 @@ Pentru piața din România, Servomech are sens la platforme de ridicare, mese de
       "Automatizare industrială — actuatoare liniare pentru linii de producție",
       "Testare și bancuri de probă — poziționare controlată electric"
     ],
-    infinitrade: `Ce putem și ce nu putem confirma despre Servomech ține strict de informațiile publicate pe site-ul producătorului, iar parametrii de sarcină sau viteză se confirmă din catalogul modelului. Aducem actuatoare și martinete Servomech prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de forța sau sarcina de ridicat, cursa de lucru, viteza dorită și dacă aplicația cere autoblocare la oprirea alimentării — caz în care se recomandă varianta cu șurub trapezoidal. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator sau martinet se dimensionează pe instalația reală a clientului.`,
+    infinitrade: `Ce putem și ce nu putem confirma despre Servomech ține strict de documentația producătorului, iar parametrii de sarcină sau viteză se confirmă din catalogul modelului. Aducem actuatoare și martinete Servomech prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de forța sau sarcina de ridicat, cursa de lucru, viteza dorită și dacă aplicația cere autoblocare la oprirea alimentării — caz în care se recomandă varianta cu șurub trapezoidal. Nu promitem disponibilitate din depozit pentru această gamă — fiecare actuator sau martinet se dimensionează pe instalația reală a clientului.`,
     limitation: "Nu putem confirma capacitatea de sarcină exactă a fiecărui martinet Servomech fără codul complet de model transmis de client.",
     productCodes: [
       { code: "ATL", description: "actuator liniar cu șurub trapezoidal" },
@@ -494,7 +494,7 @@ Pentru piața din România, Servomech are sens la platforme de ridicare, mese de
       { q: "Cum aleg între un martinet Servomech cu șurub cu bile și unul cu șurub trapezoidal?", a: "Șurubul cu bile oferă viteză și randament mai mari, potrivit la cicluri repetate; șurubul trapezoidal e mai lent, dar se autoblochează la oprirea alimentării, un avantaj de siguranță la sarcini suspendate. Alegerea depinde de aplicație și de cerințele de siguranță." },
       { q: "Livrați actuatoare Servomech în România și cât durează?", a: "Da, aducem la comandă actuatoare și martinete Servomech prin canale de aprovizionare din UE. Durata depinde de seria aleasă și de configurația exactă a comenzii, orientativ 1–4 săptămâni de la confirmare." },
       { q: "Ce trebuie să trimit pentru o ofertă de martinet Servomech?", a: "Trimiteți sarcina de ridicat, cursa verticală necesară, numărul de martinete sincronizate (dacă e cazul) și dacă aplicația cere autoblocare la oprirea alimentării electrice. Aceste date permit selecția corectă între seriile MA și SJ." },
-      { q: "De când activează Servomech pe piața actuatoarelor liniare?", a: "Servomech activează din 1989 în domeniul actuatoarelor liniare electromecanice și al martinetelor mecanice, conform informațiilor publicate pe site-ul producătorului, cu sediul de producție la Anzola dell'Emilia, lângă Bologna." }
+      { q: "De când activează Servomech pe piața actuatoarelor liniare?", a: "Servomech activează din 1989 în domeniul actuatoarelor liniare electromecanice și al martinetelor mecanice, conform documentației producătorului, cu sediul de producție la Anzola dell'Emilia, lângă Bologna." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -534,7 +534,7 @@ Pentru piața din România, Haacon are sens la operatori de logistică și trans
       "Vehicule comerciale — sisteme de susținere și cuplare pentru flote"
     ],
     infinitrade: `Informațiile disponibile despre gama Haacon provin direct din materialele publicate de producător, fără date proprii de stoc pentru această marcă. Aducem echipamente Haacon prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă la un troliu sau suport de sprijin avem nevoie de sarcina de susținut, cursa de reglaj necesară și tipul de vehicul sau container pe care se montează echipamentul. Nu promitem disponibilitate din depozit pentru această gamă — fiecare echipament se selectează pe aplicația reală transmisă de client, nu pe o listă generică de modele.`,
-    limitation: "Nu putem confirma sarcinile maxime exacte ale fiecărui model Haacon fără fișa tehnică descărcată de pe site-ul producătorului pentru varianta cerută.",
+    limitation: "Nu putem confirma sarcinile maxime exacte ale fiecărui model Haacon fără fișa tehnică a producătorului pentru varianta cerută.",
     productCodes: [
       { code: "Containerrollen", description: "set de role pentru manevrarea containerelor" },
       { code: "Nivelliervorrichtungen", description: "dispozitive de nivelare pentru containere" },

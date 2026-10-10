@@ -5,7 +5,7 @@ export const brandContentBatch122 = {
     name: "Inovance",
     founded: 2003,
     headquarters: "Shenzhen, China",
-    overview: `Inovance este un producător chinez de automatizări industriale, cu sediul la Shenzhen, care a pornit în 2003 ca fabricant de convertizoare de frecvență și s-a extins ulterior spre servodrivere, controlere programabile și motoare electrice pentru mașini industriale. Gama actuală acoperă convertizoare de uz general din seriile MD290, MD500, MD520, MD580 și MD600, servodrivere standard din seria SV660 și controlere logice programabile din familiile AC700 și AC800. Pentru un integrator din România, Inovance înseamnă o alternativă de preț la mărcile europene consacrate de acționări electrice, cu documentație tehnică publicată direct de producător.
+    overview: `Inovance este un producător chinez de automatizări industriale, cu sediul la Shenzhen, care a pornit în 2003 ca fabricant de convertizoare de frecvență și s-a extins ulterior spre servodrivere, controlere programabile și motoare electrice pentru mașini industriale. Gama actuală acoperă convertizoare de uz general din seriile MD290, MD500, MD520, MD580 și MD600, servodrivere standard din seria SV660 și controlere logice programabile din familiile AC700 și AC800. Pentru un integrator din România, Inovance înseamnă o alternativă de preț la mărcile europene consacrate de acționări electrice, cu documentație tehnică a producătorului.
 
 Ce diferențiază seria MD600 e reducerea volumului cu 38% față de generația anterioară, prin răcire cu cameră de vapori, terminale cu presare și două porturi de rețea, gândită pentru linii din industria cristalelor de siliciu, bateriilor cu litiu, prelucrării lemnului, logisticii, alimentar-băuturi, cablurilor și ambalajelor. MD310 rămâne varianta compactă cu control vectorial fără senzor, cu comutare între mai multe motoare și funcție de oscilație pentru bobinarea fusurilor în textile și fibre chimice. Pe segmentul de servodrivere, seria SV660 vine în variante de putere diferite pentru axe de poziționare, categorie de servodrivere standard pentru poziționare.
 
@@ -20,8 +20,8 @@ Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns �
     keyProducts: [
       { name: "Convertizoare de Frecvență Seria MD600", description: "Convertizor compact de uz general, cu răcire prin cameră de vapori și volum redus cu 38% față de generația anterioară. Terminale cu presare și două porturi de rețea. Aplicații confirmate de producător: cristale de siliciu, baterii cu litiu, prelucrarea lemnului, logistică, alimentar-băuturi, cabluri, mașini-unelte și ambalaje — util unde spațiul din tabloul electric e strâns." },
       { name: "Convertizoare de Frecvență Seria MD310", description: "Convertizor compact cu control vectorial fără senzor pentru motoare asincrone, cu comunicație Modbus RTU prin port RS485 de serie și opțiune de extindere I/O și CAN. Suportă comutarea între mai multe motoare și controlul a până la patru motoare după un program orar. Funcția de oscilație e gândită pentru bobinarea fusurilor în textile și fibre chimice." },
-      { name: "Servodrivere Seria SV660", description: "Familie de servoamplificatoare standard, cu variante de putere de la miniaturale la modele pentru sarcini mai mari, gândite pentru axe de poziționare în mașini-unelte și linii de asamblare automatizate. Compatibile cu motoare servo dedicate din aceeași gamă, cu manual de instalare publicat direct de producător." },
-      { name: "Automate Programabile AC700 / AC800", description: "Familii de controlere logice programabile din portofoliul Inovance, folosite alături de convertizoarele MD și servodriverele SV660 pentru control centralizat de linie, cu documentație tehnică publicată de producător pentru integratori." }
+      { name: "Servodrivere Seria SV660", description: "Familie de servoamplificatoare standard, cu variante de putere de la miniaturale la modele pentru sarcini mai mari, gândite pentru axe de poziționare în mașini-unelte și linii de asamblare automatizate. Compatibile cu motoare servo dedicate din aceeași gamă, cu manual de instalare al producătorului." },
+      { name: "Automate Programabile AC700 / AC800", description: "Familii de controlere logice programabile din portofoliul Inovance, folosite alături de convertizoarele MD și servodriverele SV660 pentru control centralizat de linie, cu documentație tehnică a producătorului pentru integratori." }
     ],
     industries: [
       "Prelucrarea lemnului — control de turație pentru mașini de debitat și șlefuit",
@@ -31,7 +31,7 @@ Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns �
       "Fabricarea cablurilor — acționare pentru linii de tras și bobinat",
       "Mașini-unelte — servodrivere pentru axe de poziționare"
     ],
-    infinitrade: `Aducem convertizoarele și servodriverele Inovance la comandă prin canale de distribuție din Uniunea Europeană; nu avem date proprii de stoc pentru această gamă, ci lucrăm cu informațiile publice ale producătorului privind seriile disponibile. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de confirmarea variantei exacte de putere și de opțiunile de comunicație cerute de proiect. Pentru ofertă, clientul trebuie să ne trimită puterea motorului, tensiunea de alimentare și tipul de control dorit — vectorial simplu sau cu senzor — ca să identificăm codul potrivit din gama MD sau SV660.`,
+    infinitrade: `Aducem convertizoarele și servodriverele Inovance la comandă prin canale de distribuție din Uniunea Europeană; nu avem date proprii de stoc pentru această gamă, ci lucrăm cu documentația tehnică a producătorului privind seriile disponibile. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de confirmarea variantei exacte de putere și de opțiunile de comunicație cerute de proiect. Pentru ofertă, clientul trebuie să ne trimită puterea motorului, tensiunea de alimentare și tipul de control dorit — vectorial simplu sau cu senzor — ca să identificăm codul potrivit din gama MD sau SV660.`,
     limitation: "Nu putem confirma compatibilitatea firmware între versiunile mai vechi de HMI Inovance și seriile noi de convertizoare fără o verificare punctuală la producător.",
     productCodes: [
       { code: "MD310", description: "Convertizor compact, control vectorial fără senzor, Modbus RTU" },
@@ -51,7 +51,7 @@ Pentru România, Inovance are sens acolo unde bugetul de investiție e strâns �
       { code: "SV660FT026I-FS-INT", description: "Servoamplificator din seria SV660" }
     ],
     faq: [
-      { q: "Ce produce Inovance?", a: "Inovance este un producător chinez de automatizări industriale — convertizoare de frecvență, servodrivere și controlere programabile pentru mașini și linii de producție. Gama include seriile MD (convertizoare) și SV660 (servodrivere), plus familii de PLC precum AC700 și AC800, toate documentate public de producător pentru integratori." },
+      { q: "Ce produce Inovance?", a: "Inovance este un producător chinez de automatizări industriale — convertizoare de frecvență, servodrivere și controlere programabile pentru mașini și linii de producție. Gama include seriile MD (convertizoare) și SV660 (servodrivere), plus familii de PLC precum AC700 și AC800, toate cu documentație a producătorului pentru integratori." },
       { q: "Cum aleg un convertizor Inovance după cod?", a: "Codul de model Inovance indică seria — MD310, MD500, MD600 etc. — iar la servodrivere, codul indică treapta de putere, conform documentației producătorului. Pentru oferta corectă, trimiteți puterea motorului, tensiunea de rețea și tipul de control necesar." },
       { q: "Ce echivalent are seria MD600 de la Inovance?", a: "MD600 este convertizorul compact de uz general al Inovance, poziționat ca alternativă de preț la convertizoarele europene consacrate din aceeași clasă de putere. Echivalența exactă de model depinde de aplicație, așa că trimiteți parametrii motorului pentru o comparație punctuală." },
       { q: "Livrați produse Inovance în România și cât durează?", a: "Da, aducem la comandă prin canale de distribuție din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru varianta exactă de convertizor sau servodrive solicitată." },
@@ -96,8 +96,8 @@ Pentru piața din România, gama Salami are sens la utilaje agricole, remorci ba
       "Construcții — motoare hidraulice pentru echipamente compacte de șantier",
       "Utilaje mobile — componente hidraulice alese pe cod, din documentația Salami"
     ],
-    infinitrade: `Furnizăm gama Salami de pompe, motoare și valve hidraulice pentru utilaje mobile prin canale de aprovizionare din Uniunea Europeană; nu ținem această gamă pe raft, ci o aducem la comandă pe baza informațiilor publice ale producătorului despre serii și corpuri disponibile. Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de varianta exactă — corp fontă sau aluminiu, cilindree și sens de rotație. Pentru ofertă, clientul trebuie să ne trimită codul seriei dacă îl are, sau tipul de prindere, cilindreea aproximativă și sensul de rotație necesar.`,
-    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare variantă din gamă fără fișa tehnică punctuală de la producător, întrucât pagina publică listează doar familiile de produs.",
+    infinitrade: `Furnizăm gama Salami de pompe, motoare și valve hidraulice pentru utilaje mobile prin canale de aprovizionare din Uniunea Europeană; nu ținem această gamă pe raft, ci o aducem la comandă pe baza documentației tehnice a producătorului despre serii și corpuri disponibile. Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de varianta exactă — corp fontă sau aluminiu, cilindree și sens de rotație. Pentru ofertă, clientul trebuie să ne trimită codul seriei dacă îl are, sau tipul de prindere, cilindreea aproximativă și sensul de rotație necesar.`,
+    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare variantă din gamă fără fișa tehnică punctuală a producătorului, întrucât documentația generală listează doar familiile de produs.",
     productCodes: [
       { code: "2PGE", description: "Pompă cu roți dințate, corp din fontă" },
       { code: "2MGE", description: "Motor cu roți dințate, corp din fontă" },
@@ -155,7 +155,7 @@ Pentru piața din România, gama Stäubli Fluid Connectors are sens la instalaț
       "Feroviar — cuple din gama RBE (varianta RBE/TM)",
       "Motorsport — cuple SPH/BA compacte, cuplare rapidă"
     ],
-    infinitrade: `Aducem cuplele Stäubli Fluid Connectors la comandă prin canale de aprovizionare din Uniunea Europeană; ce putem și ce nu putem confirma ține de seria exactă cerută — pentru presiuni foarte înalte (THL) sau variantele RBE/TM nucleare, confirmarea de disponibilitate vine direct de la producător. Termenul orientativ e de 1–4 săptămâni la comandă. Pentru ofertă, clientul trebuie să ne trimită seria dorită (RBE, SPX, CBX, HPX, THL etc.), presiunea de lucru a circuitului și diametrul nominal necesar.`,
+    infinitrade: `Aducem cuplele Stäubli Fluid Connectors la comandă prin canale de aprovizionare din Uniunea Europeană; ce putem și ce nu putem confirma ține de seria exactă cerută — pentru presiuni foarte înalte (THL) sau variantele RBE/TM nucleare, confirmarea de disponibilitate o obținem noi la comandă. Termenul orientativ e de 1–4 săptămâni la comandă. Pentru ofertă, clientul trebuie să ne trimită seria dorită (RBE, SPX, CBX, HPX, THL etc.), presiunea de lucru a circuitului și diametrul nominal necesar.`,
     limitation: "Nu putem confirma termenele de livrare pentru variantele RBE/TM fără o solicitare punctuală la producător.",
     productCodes: [
       { code: "RBE", description: "Cuplă modulară pentru toate fluidele și gazele, 450 bar" },
@@ -216,7 +216,7 @@ Pentru piața din România, gama Vaccon are sens la linii de ambalare, manipular
       "Industria alimentară — prindere de ambalaje și produse ușoare",
       "Ambalare — cicluri rapide de vid/eliberare pe linii de împachetare"
     ],
-    infinitrade: `Furnizăm generatoarele de vid Vaccon prin canale de aprovizionare din Uniunea Europeană; nu avem date proprii de stoc pentru această gamă, ci lucrăm cu informațiile publice ale producătorului privind seriile J, I-MPVG și DF. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de varianta exactă solicitată. Pentru ofertă, clientul trebuie să ne trimită nivelul de vid necesar, dimensiunea piesei manipulate și spațiul disponibil pe capul de prindere, ca să recomandăm generatorul potrivit din gamă.`,
+    infinitrade: `Furnizăm generatoarele de vid Vaccon prin canale de aprovizionare din Uniunea Europeană; nu avem date proprii de stoc pentru această gamă, ci lucrăm cu documentația tehnică a producătorului privind seriile J, I-MPVG și DF. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de varianta exactă solicitată. Pentru ofertă, clientul trebuie să ne trimită nivelul de vid necesar, dimensiunea piesei manipulate și spațiul disponibil pe capul de prindere, ca să recomandăm generatorul potrivit din gamă.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante de conexiune (filet, racord rapid) pentru toate codurile din familia JS fără o verificare punctuală la producător.",
     productCodes: [
       { code: "I-MPVG", description: "Generator inline din plastic" },
@@ -252,7 +252,7 @@ Pentru piața din România, gama Vaccon are sens la linii de ambalare, manipular
     founded: 1874,
     overview: `Crosby este un producător american de supape de siguranță și decompresie, cu o istorie de peste 150 de ani în protecția la suprapresiune, azi parte a diviziei Final Control a Emerson. Gama acoperă supape cu acțiune directă din seria J pentru petrol și gaze, seria H pentru aplicații de abur în industria energetică, gama OMNI-TRIM pentru protecție la suprapresiune în rafinării, instalații chimice și energetică, și variante cu diafragmă echilibrată precum JDS-E. Pentru un integrator din România, Crosby înseamnă acces la o gamă de supape de siguranță consacrată în rafinării și platforme petrochimice, comparabilă ca poziționare cu gama Leser.
 
-Seria J include mai multe stiluri constructive — JOS-E, JBS-E, JLT și JBSBP-E — toate supape cu arc cu acțiune directă, gândite pentru medii gazoase, lichide, cu abur sau multifazice, cu documentație tehnică publicată separat pentru fiecare stil. Seria H, cu variantele HSJ și HCI, e destinată aplicațiilor de siguranță pe cazane și circuite de abur din centrale electrice, cu limite extinse recent la 500 bar și 648°C pentru variantele de înaltă performanță. OMNI-TRIM este gama Crosby de supape de siguranță prezentată de Emerson pentru rafinării, instalații chimice și energetică.
+Seria J include mai multe stiluri constructive — JOS-E, JBS-E, JLT și JBSBP-E — toate supape cu arc cu acțiune directă, gândite pentru medii gazoase, lichide, cu abur sau multifazice, cu documentație tehnică separată pentru fiecare stil. Seria H, cu variantele HSJ și HCI, e destinată aplicațiilor de siguranță pe cazane și circuite de abur din centrale electrice, cu limite extinse recent la 500 bar și 648°C pentru variantele de înaltă performanță. OMNI-TRIM este gama Crosby de supape de siguranță prezentată de Emerson pentru rafinării, instalații chimice și energetică.
 
 Pentru piața din România, gama Crosby are sens la rafinării, platforme petrochimice și centrale electrice unde proiectul cere o supapă de siguranță certificată, cu istoric lung de testare în instalații reale, nu doar o valvă de decompresie generică.`,
     whyChoose: [
@@ -263,7 +263,7 @@ Pentru piața din România, gama Crosby are sens la rafinării, platforme petroc
       "Parte din divizia Final Control a Emerson"
     ],
     keyProducts: [
-      { name: "Supape de Siguranță Seria J (JOS-E, JBS-E, JLT, JBSBP-E)", description: "Supape de siguranță cu arc și acțiune directă, în mai multe stiluri constructive, pentru protecția la suprapresiune în petrol și gaze — extracție, rafinare și transport. Fiecare stil are documentație tehnică proprie publicată de producător, cu variante pentru medii gazoase, lichide sau multifazice." },
+      { name: "Supape de Siguranță Seria J (JOS-E, JBS-E, JLT, JBSBP-E)", description: "Supape de siguranță cu arc și acțiune directă, în mai multe stiluri constructive, pentru protecția la suprapresiune în petrol și gaze — extracție, rafinare și transport. Fiecare stil are documentație tehnică proprie a producătorului, cu variante pentru medii gazoase, lichide sau multifazice." },
       { name: "Supape de Siguranță Seria H (HSJ, HCI)", description: "Supape cu arc și acțiune directă, destinate aplicațiilor de abur din industria energetică — cazane și circuite de siguranță în centrale electrice. Limitele gamei au fost extinse recent la 500 bar și 648°C, conform Emerson." },
       { name: "Sistem OMNI-TRIM", description: "Gamă de supape de siguranță pentru protecție la suprapresiune, prezentată de Emerson pentru rafinării, instalații chimice și energetică." },
       { name: "Supapă cu Diafragmă Echilibrată JDS-E", description: "Variantă recentă a gamei Crosby, cu diafragmă echilibrată în locul burdufului clasic, pentru aplicații unde contrapresiunea variabilă din sistem ar afecta presiunea de deschidere a unei supape convenționale." }
@@ -274,7 +274,7 @@ Pentru piața din România, gama Crosby are sens la rafinării, platforme petroc
       "Energie convențională — supape de siguranță pentru circuite de abur",
       "Energie nucleară — supape de siguranță pentru centrale electrice"
     ],
-    infinitrade: `Aducem supapele de siguranță Crosby la comandă prin canale de aprovizionare din Uniunea Europeană; fără date proprii de stoc pentru această gamă, lucrăm cu fișele tehnice publice ale producătorului pentru fiecare stil de supapă. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de stilul exact solicitat și de eventuala certificare cerută de proiect. Pentru ofertă, clientul trebuie să ne trimită presiunea de deschidere necesară, fluidul vehiculat, temperatura de lucru și dimensiunea racordului.`,
+    infinitrade: `Aducem supapele de siguranță Crosby la comandă prin canale de aprovizionare din Uniunea Europeană; fără date proprii de stoc pentru această gamă, lucrăm cu fișele tehnice ale producătorului pentru fiecare stil de supapă. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de stilul exact solicitat și de eventuala certificare cerută de proiect. Pentru ofertă, clientul trebuie să ne trimită presiunea de deschidere necesară, fluidul vehiculat, temperatura de lucru și dimensiunea racordului.`,
     limitation: "Nu putem confirma termenul de livrare pentru variantele cu certificare specială (nucleară sau ASME dedicată) fără o verificare punctuală la producător, întrucât acestea urmează un flux de aprobare separat.",
     productCodes: [
       { code: "J-Series", description: "Familie de supape de siguranță cu acțiune directă" },
@@ -334,7 +334,7 @@ Pentru piața din România, gama Snap-on are sens la ateliere de service auto, l
       "Transport greu și flote — scule pentru mentenanță de vehicule comerciale",
       "Reparații de caroserie — chei combinate pentru acces în spații strânse"
     ],
-    infinitrade: `Aducem sculele Snap-on la comandă prin canale de distribuție din Uniunea Europeană; informația de disponibilitate pe care o dăm clientului vine din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de codul exact solicitat. Pentru ofertă, clientul trebuie să ne trimită codul de model dacă îl are, sau tipul de sculă, treapta de cuplu necesară și antrenarea (1/4", 3/8", 1/2" etc.) dorită.`,
+    infinitrade: `Aducem sculele Snap-on la comandă prin canale de distribuție din Uniunea Europeană; informația de disponibilitate pe care o dăm clientului vine din documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare cod. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de codul exact solicitat. Pentru ofertă, clientul trebuie să ne trimită codul de model dacă îl are, sau tipul de sculă, treapta de cuplu necesară și antrenarea (1/4", 3/8", 1/2" etc.) dorită.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărui cod din gama Flank Drive Plus pe toate dimensiunile metrice și SAE fără o verificare punctuală la producător.",
     productCodes: [
       { code: "QD150", description: "Cheie dinamometrică clichet, 10-50 in.lb" },
@@ -392,7 +392,7 @@ Pentru piața din România, gama Nadella-Durbal are sens la utilaje agricole, ec
       { name: "Capete Articulate Durbal — Linia Classic (BEFN)", description: "Capete articulate cu întreținere necesară, din linia clasică Durbal, pentru aplicații cu rotație unghiulară sub sarcină în utilaje agricole și inginerie mecanică generală, unde relubrifierea periodică e acceptabilă în programul de mentenanță." },
       { name: "Capete Articulate Durbal — Linia Premium (BRTM VR, BRTF VR)", description: "Capete articulate cu rulment cu role, din linia premium Durbal; sarcina admisă și dezalinierea unghiulară se confirmă pe cod, din catalogul producătorului." },
       { name: "Capete Articulate Durbal Fără Întreținere (BEMA ALU)", description: "Variantă ușoară din aluminiu a capetelor articulate Durbal, fără întreținere, pentru aplicații unde greutatea componentei contează la fel de mult ca funcția de preluare a dezalinierii unghiulare." },
-      { name: "Sisteme Circulare AXNR și Module Liniare Nadella", description: "Sisteme circulare și module liniare din gama Nadella, pentru axe de poziționare și mișcare de rotație în automatizări industriale, documentate prin cataloage tehnice publicate separat de producător." }
+      { name: "Sisteme Circulare AXNR și Module Liniare Nadella", description: "Sisteme circulare și module liniare din gama Nadella, pentru axe de poziționare și mișcare de rotație în automatizări industriale, documentate prin cataloage tehnice separate ale producătorului." }
     ],
     industries: [
       "Tehnologie agricolă — capete articulate pentru utilaje purtate și articulații mobile",
@@ -400,7 +400,7 @@ Pentru piața din România, gama Nadella-Durbal are sens la utilaje agricole, ec
       "Inginerie mecanică generală — componente de mișcare liniară și rotativă",
       "Mașini speciale de ambalare — inclusiv echipamente de ambalat țigări"
     ],
-    infinitrade: `Aducem componentele Nadella și Durbal la comandă prin canale de distribuție din Uniunea Europeană; nu deținem date proprii de stoc pentru această gamă, ci lucrăm cu cataloagele tehnice publice ale producătorului pentru identificarea codului corect. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de linia solicitată (classic, premium sau fără întreținere). Pentru ofertă, clientul trebuie să ne trimită tipul de articulație necesar, sarcina aproximativă și dacă aplicația cere variantă fără întreținere.`,
+    infinitrade: `Aducem componentele Nadella și Durbal la comandă prin canale de distribuție din Uniunea Europeană; nu deținem date proprii de stoc pentru această gamă, ci lucrăm cu cataloagele tehnice ale producătorului pentru identificarea codului corect. Termenul orientativ e de 1–4 săptămâni la comandă, în funcție de linia solicitată (classic, premium sau fără întreținere). Pentru ofertă, clientul trebuie să ne trimită tipul de articulație necesar, sarcina aproximativă și dacă aplicația cere variantă fără întreținere.`,
     limitation: "Nu putem confirma echivalența exactă de montaj între un cap articulat Durbal și un model deja instalat de altă marcă fără dimensiunile complete ale piesei existente.",
     productCodes: [
       { code: "DURBAL BEMA ALU", description: "Cap articulat fără întreținere, corp din aluminiu" },

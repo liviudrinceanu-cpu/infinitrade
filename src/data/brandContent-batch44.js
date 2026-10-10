@@ -31,7 +31,7 @@ Pentru un integrator sau o hală de producție din România, INVT este o gamă d
       "Industria textilă — bobinatoare și linii cu cerințe de cuplu constant",
       "Metalurgie și transport feroviar — aplicații industriale grele menționate de producător"
     ],
-    infinitrade: `Lucrăm din surse publice ale producătorului și din fișele tehnice publicate de INVT, fără date proprii de stoc pentru gama chineză de convertizoare. Aducem convertizoarele INVT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, tensiunea de alimentare, tipul de sarcină și, dacă e cazul, cerințele de comunicație (Modbus, encoder). Nu promitem disponibilitate permanentă din stoc pentru nicio serie GD, iar pentru aplicațiile critice recomandăm verificarea compatibilității înainte de comandă.`,
+    infinitrade: `Lucrăm din documentația tehnică a producătorului și din fișele tehnice publicate de INVT, fără date proprii de stoc pentru gama chineză de convertizoare. Aducem convertizoarele INVT la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de puterea motorului, tensiunea de alimentare, tipul de sarcină și, dacă e cazul, cerințele de comunicație (Modbus, encoder). Nu promitem disponibilitate permanentă din stoc pentru nicio serie GD, iar pentru aplicațiile critice recomandăm verificarea compatibilității înainte de comandă.`,
     limitation: "Nu putem confirma disponibilitatea service-ului local în garanție al producătorului și nici stocul permanent pentru seriile dedicate (GD100-PV, GD350-19), care se aduc strict la comandă.",
     productCodes: [
       {
@@ -151,7 +151,7 @@ Pentru instalatorii și proiectanții din România, cuplajele Straub sunt utile 
       "Industrie generală — conducte de proces unde sudura nu e permisă sau practică"
     ],
     infinitrade: `Spunem clar ce putem și ce nu putem confirma: parametrii tehnici pentru cuplajele Straub vin din catalogul oficial al producătorului elvețian, iar disponibilitatea exactă a fiecărui diametru o verificăm abia la cerere, fără date proprii de stoc. Aducem cuplaje Straub la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de diametrul exterior real al conductei, materialul acesteia și presiunea de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate diametrele din gamă, mai ales pentru cele mari, de peste 400 mm.`,
-    limitation: "Nu putem confirma stocul permanent pentru diametrele mari (peste 400 mm) și nici configurațiile speciale pentru medii chimice agresive, care necesită verificare directă cu producătorul.",
+    limitation: "Nu putem confirma stocul permanent pentru diametrele mari (peste 400 mm) și nici configurațiile speciale pentru medii chimice agresive, care necesită confirmare prealabilă a producătorului.",
     productCodes: [
       {
         "code": "STRAUB-GRIP",
@@ -209,7 +209,7 @@ Pentru instalatorii și proiectanții din România, cuplajele Straub sunt utile 
       },
       {
         "q": "Livrați cuplaje STRAUB în România?",
-        "a": "Da, aducem la comandă cuplaje din gamele STRAUB-GRIP, STRAUB-METAL-GRIP sau STRAUB-FLEX, pornind de la diametrul exact al conductei existente. Această gamă de cuplaje nu se află pe stocul propriu; o aducem la comandă, iar timpul obișnuit așteptat este de două până la patru săptămâni, conform informațiilor publice ale producătorului. Recomandăm transmiterea diametrului exterior măsurat direct pe conductă, deoarece multe variante acoperă intervale apropiate de diametru."
+        "a": "Da, aducem la comandă cuplaje din gamele STRAUB-GRIP, STRAUB-METAL-GRIP sau STRAUB-FLEX, pornind de la diametrul exact al conductei existente. Această gamă de cuplaje nu se află pe stocul propriu; o aducem la comandă, iar timpul obișnuit așteptat este de două până la patru săptămâni, conform documentației tehnice a producătorului. Recomandăm transmiterea diametrului exterior măsurat direct pe conductă, deoarece multe variante acoperă intervale apropiate de diametru."
       },
       {
         "q": "Ce informații sunt necesare pentru o ofertă de cuplaj STRAUB?",
@@ -254,7 +254,7 @@ Pentru integratorii români de linii automatizate, componentele Güdel sunt rele
       "Transport feroviar — aplicații feroviare menționate de producător",
       "Manufactură generală — extinderea razei de acțiune a roboților pe linii de producție"
     ],
-    infinitrade: `Nu deținem date proprii despre stocul componentelor Güdel; ne bazăm pe informațiile publice disponibile pe site-ul producătorului elvețian pentru parametrii tehnici ai fiecărei serii. Aducem la comandă axe liniare, cremaliere și reductoare Güdel prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de sarcina utilă, cursele necesare pe fiecare axă și, pentru reductoare, cuplul și turația de lucru. Nu promitem disponibilitate permanentă din stoc — majoritatea componentelor Güdel se fabrică sau se configurează la comandă, în funcție de proiect.`,
+    infinitrade: `Nu deținem date proprii despre stocul componentelor Güdel; ne bazăm pe documentația tehnică a producătorului elvețian pentru parametrii tehnici ai fiecărei serii. Aducem la comandă axe liniare, cremaliere și reductoare Güdel prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de sarcina utilă, cursele necesare pe fiecare axă și, pentru reductoare, cuplul și turația de lucru. Nu promitem disponibilitate permanentă din stoc — majoritatea componentelor Güdel se fabrică sau se configurează la comandă, în funcție de proiect.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru sistemele TrackMotion configurate pe proiect, nici integrarea software proprietară a controlerelor de mișcare Güdel.",
     productCodes: [
       {
@@ -582,7 +582,7 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
       "Gamă de generatoare de abur de joasă presiune (LVP) și de presiune medie (HVP, 3GN)",
       "Capacități de la 1.500 până la 25.000 kg abur/oră, acoperind fabrici mici și medii",
       "Funcționare pe gaz sau motorină, cu flexibilitate la combustibilul disponibil pe amplasament",
-      "Grup cu statut de Authorised Economic Operator (AEO - Operator Economic Autorizat), conform site-ului Ferroli Group",
+      "Grup cu statut de Authorised Economic Operator (AEO - Operator Economic Autorizat), conform documentației Ferroli Group",
       "Grup cu peste 70 de ani de experiență în echipamente termice (din 1955)"
     ],
     keyProducts: [
@@ -596,7 +596,7 @@ Pentru fabricile din România cu proces continuu — industrie alimentară, text
       "Industria farmaceutică — abur pentru procese tehnologice",
       "Automotive — abur de proces pentru linii de producție"
     ],
-    infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din surse publice ale producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
+    infinitrade: `Nu ținem produse Ferroli pe stoc propriu; informațiile despre gama de generatoare de abur vin din documentația tehnică a producătorului italian. Aducem generatoare VAPOPREX la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru echipamente de capacitate mare, termenul poate fi mai lung, se confirmă punctual. Pentru o ofertă corectă avem nevoie de capacitatea de abur necesară (kg/h), presiunea de lucru și tipul de combustibil disponibil pe amplasament. Nu promitem disponibilitate permanentă din stoc pentru niciuna dintre variantele VAPOPREX.`,
     limitation: "Nu putem confirma termenul de livrare pentru generatoare de abur de capacitate mare configurate special și nici service-ul în garanția producătorului pentru instalarea și punerea în funcțiune.",
     productCodes: [
       {
@@ -935,7 +935,7 @@ Pentru laboratoarele de testare și producătorii de electronice din România, R
       "Broadcast și media — echipamente de măsură pentru transmisii radio-TV",
       "Cybersecurity și infrastructură critică — soluții de securitate a comunicațiilor menționate de producător"
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru aparatura Rohde & Schwarz; ne bazăm pe informațiile publice disponibile pe site-ul producătorului german pentru a identifica seria potrivită. Aducem aparatura Rohde & Schwarz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (osciloscop, analizor de spectru, testare EMC), domeniul de frecvență necesar și, dacă e cazul, standardul de certificare vizat. Nu promitem disponibilitate permanentă din stoc, mai ales pentru instrumentele configurate cu opțiuni software specifice.`,
+    infinitrade: `Nu avem date proprii de stoc pentru aparatura Rohde & Schwarz; ne bazăm pe documentația tehnică a producătorului german pentru a identifica seria potrivită. Aducem aparatura Rohde & Schwarz la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (osciloscop, analizor de spectru, testare EMC), domeniul de frecvență necesar și, dacă e cazul, standardul de certificare vizat. Nu promitem disponibilitate permanentă din stoc, mai ales pentru instrumentele configurate cu opțiuni software specifice.`,
     limitation: "Nu putem confirma calibrarea metrologică acreditată local și nici configurarea software avansată a instrumentelor pentru aplicații de testare specifice clientului.",
     productCodes: [
       {
@@ -1041,7 +1041,7 @@ Pentru echipele de mentenanță din România, camerele FLIR sunt relevante la in
       "Centre de date — monitorizare continuă a punctelor critice de temperatură",
       "Siguranță publică și transporturi — aplicații de imagistică termică"
     ],
-    infinitrade: `Fără date proprii de stoc pentru camerele FLIR — verificăm disponibilitatea la fiecare cerere, pe baza informațiilor publice ale producătorului. Aducem camerele FLIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (inspecție portabilă, detecție gaze sau monitorizare fixă), rezoluția termică necesară și domeniul de temperatură de măsurat. Nu promitem disponibilitate permanentă din stoc pentru modelele din seriile mai specializate, precum cele de detecție a gazelor.`,
+    infinitrade: `Fără date proprii de stoc pentru camerele FLIR — verificăm disponibilitatea la fiecare cerere, pe baza documentației tehnice a producătorului. Aducem camerele FLIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de aplicația exactă (inspecție portabilă, detecție gaze sau monitorizare fixă), rezoluția termică necesară și domeniul de temperatură de măsurat. Nu promitem disponibilitate permanentă din stoc pentru modelele din seriile mai specializate, precum cele de detecție a gazelor.`,
     limitation: "Nu putem confirma calibrarea metrologică locală și nici service-ul în garanția producătorului pentru camerele de termoviziune FLIR aduse prin canale de aprovizionare din UE.",
     productCodes: [
       {
@@ -1150,8 +1150,8 @@ Pentru instalațiile industriale de risc ridicat din România — depozite de co
       "Depozitare combustibili — acoperire rapidă a suprafețelor mari de stocare",
       "Chimie industrială — detecție de gaze pe instalații de proces"
     ],
-    infinitrade: `Nu deținem surse proprii de stoc pentru detectoarele Spectrex; lucrăm din surse publice ale producătorului, parte azi din portofoliul Emerson. Aducem detectoarele Spectrex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de risc de acoperit (flacără sau gaz), dimensiunea și configurația zonei protejate. Nu promitem disponibilitate permanentă din stoc — sistemele de detecție cu rază deschisă se configurează de regulă pe proiect, în funcție de amplasament.`,
-    limitation: "Nu putem confirma certificările specifice de zonă explozivă (ATEX, FM, CSA) pentru fiecare model fără verificare directă cu producătorul și nici punerea în funcțiune pe amplasament.",
+    infinitrade: `Nu deținem surse proprii de stoc pentru detectoarele Spectrex; lucrăm din documentația tehnică a producătorului, parte azi din portofoliul Emerson. Aducem detectoarele Spectrex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de risc de acoperit (flacără sau gaz), dimensiunea și configurația zonei protejate. Nu promitem disponibilitate permanentă din stoc — sistemele de detecție cu rază deschisă se configurează de regulă pe proiect, în funcție de amplasament.`,
+    limitation: "Nu putem confirma certificările specifice de zonă explozivă (ATEX, FM, CSA) pentru fiecare model fără confirmare prealabilă a producătorului și nici punerea în funcțiune pe amplasament.",
     productCodes: [
       {
         "code": "20/20Q",

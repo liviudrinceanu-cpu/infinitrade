@@ -9,7 +9,7 @@ export const series = [
     "name": "Seria 21Y",
     "oneLine": "Traductor de presiune piezorezistiv KELLER, fără etanșare internă, pentru medii industriale dure.",
     "lifecycle": "activ",
-    "lifecycleNote": "Fișa tehnică a producătorului pentru seria 21Y are ediția din martie 2025, iar pagina de produs de pe keller-pressure.com este activă, fără mențiune de retragere.",
+    "lifecycleNote": "Fișa tehnică a producătorului pentru seria 21Y are ediția din martie 2025, iar documentația de produs este activă, fără mențiune de retragere.",
     "intro": "Seria 21Y cuprinde traductoare de presiune piezorezistive KELLER construite fără etanșare internă a elementului de măsură, ceea ce le face rezistente la medii dure și la șocuri termice. Domeniul de măsură acoperă intervalul 0...2,5 până la 0...1000 bar, cu ieșire în curent (4...20 mA) sau în tensiune (0...10 V ori 0,5...4,5 V). Codul complet al unui traductor, de exemplu PAA-21Y 81555.11, indică prefixul de tip (PA pentru presiune relativă, PAA pentru presiune absolută), seria 21Y și numărul de comandă al configurației exacte de interval, semnal și racord.\n\nTraductoarele din seria 21Y le aducem la comandă din Uniunea Europeană, în 1–4 săptămâni, fără stoc din depozit propriu și fără preț afișat public. Pentru o ofertă corectă, clientul trimite codul complet de pe eticheta traductorului existent, de exemplu PA-21Y / 50BAR / 81555.11, intervalul de presiune necesar și tipul de racord electric dorit. Confirmăm compatibilitatea în documentația curentă a producătorului înainte de a trimite oferta.",
     "models": [
       {
@@ -116,7 +116,7 @@ export const series = [
     "name": "Seria LEO",
     "oneLine": "Manometre digitale KELLER (LEO1, LEO2, LEO3, LEO Ultimate) pentru service, testare și calibrare.",
     "lifecycle": "activ",
-    "lifecycleNote": "Pe keller-pressure.com sunt active paginile LEO1, LEO2, LEO3 și LEO Ultimate, iar fișa tehnică LEO2 are ediția 06/2025. Adresa paginii LEO5 de pe site-ul producătorului redirecționează în prezent către LEO Ultimate, deci LEO5 nu mai apare ca pagină proprie de produs.",
+    "lifecycleNote": "În documentația producătorului sunt active LEO1, LEO2, LEO3 și LEO Ultimate, iar fișa tehnică LEO2 are ediția 06/2025. Documentația producătorului pentru LEO5 trimite în prezent la LEO Ultimate, deci LEO5 nu mai apare ca produs separat.",
     "intro": "Seria LEO reunește manometrele digitale KELLER cu element de măsură piezorezistiv și afișaj LCD, destinate service-ului, testării și calibrării. LEO1 și LEO2 funcționează cu o baterie CR2430 și afișează presiunea împreună cu valoarea minimă sau maximă de la ultima resetare. LEO3 adaugă ieșire 4...20 mA, prin a cărei buclă este alimentat, și interfață RS485. LEO Ultimate este instrument de referință de înaltă precizie, cu interfețe USB și Bluetooth și carcasă metalică IP67.\n\nOferta o pregătim pe baza identificării exacte a manometrului. Vă rugăm să ne trimiteți denumirea modelului (LEO1, LEO2, LEO2-Ei, LEO3 sau Ultimate; la LEO5 ne ajută o fotografie a plăcuței), intervalul de presiune în bar, tipul de racord și, dacă este cazul, dacă instrumentul lucrează în zonă cu pericol de explozie. Verificăm configurația în documentația curentă a producătorului înainte de ofertă. Termenul este de regulă de 1–4 săptămâni la comandă, iar din stoc propriu sau extern, când există, 24–72 h.",
     "models": [
       {
@@ -141,7 +141,7 @@ export const series = [
       },
       {
         "code": "LEO5",
-        "note": "denumire cerută frecvent; pagina producătorului redirecționează către LEO Ultimate, specificațiile se confirmă pe instrumentul existent"
+        "note": "denumire cerută frecvent; documentația producătorului trimite la LEO Ultimate, specificațiile se confirmă pe instrumentul existent"
       }
     ],
     "specs": [
@@ -203,14 +203,14 @@ export const series = [
       },
       {
         "q": "Pot înlocui un LEO5?",
-        "a": "Pagina LEO5 de pe site-ul producătorului redirecționează către LEO Ultimate. Nu avem o fișă oficială actuală pentru LEO5, așa că echivalența funcțională și domeniul de presiune se confirmă pe baza datelor instrumentului existent înainte de ofertă."
+        "a": "Documentația producătorului pentru LEO5 trimite la LEO Ultimate. Nu avem o fișă oficială actuală pentru LEO5, așa că echivalența funcțională și domeniul de presiune se confirmă pe baza datelor instrumentului existent înainte de ofertă."
       },
       {
         "q": "Există variantă pentru zone cu pericol de explozie?",
         "a": "Fișa tehnică LEO2 menționează varianta cu securitate intrinsecă LEO2-Ei. Pentru ea se admite doar bateria CR2430 de la Renata. Încadrarea exactă o verificăm în documentația producătorului."
       }
     ],
-    "limitation": "Nu am confirmat din surse oficiale specificațiile actuale ale LEO5 și nici codurile de comandă complete (conexiune de proces, variante). Pe paginile LEO1 și LEO3 nu sunt fișe tehnice descărcabile; fișa citită integral este cea a LEO2.",
+    "limitation": "Nu am confirmat din documentația producătorului specificațiile actuale ale LEO5 și nici codurile de comandă complete (conexiune de proces, variante). Pentru LEO1 și LEO3 nu am avut fișe tehnice; fișa citită integral este cea a LEO2.",
     "sources": [
       {
         "title": "LEO2",

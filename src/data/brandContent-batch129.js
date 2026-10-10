@@ -147,7 +147,7 @@ Pentru piața din România, Quincy înseamnă acces la compresoare industriale r
     ],
     faq: [
       { q: "Ce produce Quincy Compressor?", a: "Quincy Compressor produce compresoare de aer cu piston și cu șurub rotativ, compresoare fără ulei și pompe de vid, plus compresoare de gaz natural, pentru aplicații industriale unde echipamentul funcționează aproape continuu. Fabrica are certificare ISO 9001." },
-      { q: "Se poate procura Quincy Compressor în România sau Europa?", a: "Nu am găsit pe site-ul producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem compresoarele Quincy din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
+      { q: "Se poate procura Quincy Compressor în România sau Europa?", a: "Nu am găsit în documentația producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem compresoarele Quincy din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Ce diferență este între seria QGD și seria QSI?", a: "QGD acoperă 15-125 CP în configurație cu angrenaj pentru consum industrial general, în timp ce QSI este linia de la 50 la 400 CP, gândită pentru sarcini industriale mai grele și funcționare continuă pe schimburi multiple." },
       { q: "Ce trebuie să trimit pentru o ofertă de compresor Quincy?", a: "Trimiteți codul de serie de pe plăcuța compresorului, puterea în CP, presiunea de lucru necesară și, dacă înlocuiți o unitate existentă, tipul de antrenare (curea sau directă). Cu aceste date verificăm echivalentul disponibil pentru comandă." },
     ],
@@ -305,7 +305,7 @@ Pentru piața din România, ATI înseamnă acces la scule robotice pentru brațe
     ],
     faq: [
       { q: "Ce produce ATI Industrial Automation?", a: "ATI Industrial Automation produce scule și accesorii pentru roboți industriali — schimbătoare automate și manuale de scule, senzori de forță și cuplu multi-axiali și unelte de îndepărtare de material, folosite în special în linii de asamblare, sudură și prelucrare automatizată." },
-      { q: "Se poate procura ATI Industrial Automation în România sau Europa?", a: "Nu am identificat pe site-ul producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem schimbătoarele de scule și senzorii ATI din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
+      { q: "Se poate procura ATI Industrial Automation în România sau Europa?", a: "Nu am identificat în documentația producătorului o rețea de distribuție proprie descrisă pentru Europa; aducem schimbătoarele de scule și senzorii ATI din gama pe care o putem oferi la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Cum aleg un schimbător de scule ATI după cod?", a: "Codul de model (de exemplu QC-50 sau QC-110) indică direct clasa de capacitate de sarcină; îl transmiteți împreună cu tipul de robot pe care se montează, iar noi verificăm compatibilitatea mecanică înainte de a confirma oferta." },
       { q: "Ce senzori de forță și cuplu oferă ATI?", a: "ATI produce senzori de la seria Nano, pentru aplicații de precizie fină cu forțe de ordinul sutelor de newtoni, până la seria Omega, cu modele care depășesc 80 kN, plus seria Axia cu interfață simplificată pentru brațe colaborative." },
     ],
@@ -475,7 +475,7 @@ Pentru piața din România, Hobart Brothers înseamnă acces la materiale de sud
     ],
     faq: [
       { q: "Ce produce Hobart Brothers?", a: "Hobart Brothers produce materiale consumabile de sudură — sârmă MIG de aluminiu, electrozi înveliți, sârmă tubulară cu flux și metal-core, sârmă inox și materiale de hardfacing — folosite în fabricație grea, construcții navale și reparații de echipamente industriale." },
-      { q: "Se poate procura Hobart Brothers în România sau Europa?", a: "Nu am găsit pe site o rețea de distribuție proprie descrisă pentru România; le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
+      { q: "Se poate procura Hobart Brothers în România sau Europa?", a: "Nu avem date despre o rețea de distribuție proprie în România; le aducem la comandă prin canale de aprovizionare din UE, termen orientativ 1–4 săptămâni." },
       { q: "Cum aleg un electrod Hoballoy după clasificare?", a: "Clasificarea AWS (de exemplu 8018C3 sau 11018M) indică rezistență mecanică și compatibilitatea chimică cu oțelul de bază; o transmiteți împreună cu diametrul dorit, iar noi verificăm disponibilitatea exactă pentru comandă." },
       { q: "Ce trebuie să trimit pentru o ofertă de sârmă sau electrozi Hobart Brothers?", a: "Trimiteți clasificarea AWS sau denumirea de produs exactă (de exemplu MaxalMIG 5183), diametrul sârmei sau al electrodului și cantitatea necesară; verificăm împreună cu producătorul disponibilitatea pentru comandă." },
     ],

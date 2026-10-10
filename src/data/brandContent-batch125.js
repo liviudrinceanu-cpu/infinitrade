@@ -1,5 +1,5 @@
 // Batch 125 - Branduri-500 val 8 (sept. 2026): HIWIN.
-// Sursa faptelor: site-ul oficial al producătorului (hiwin.de), accesate la data din `sources[].accessed`.
+// Sursa faptelor: documentația producătorului (hiwin.de), accesate la data din `sources[].accessed`.
 export const brandContentBatch125 = {
   hiwin: {
     name: "HIWIN",

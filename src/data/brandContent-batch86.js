@@ -29,8 +29,8 @@ Pentru un operator de apă sau un integrator de stații de pompare din România,
       "Industrie generală — transfer fluide cu conținut solid",
       "Industria alimentară — transfer reziduuri și nămol din procesare"
     ],
-    infinitrade: `Pentru Hidrostal lucrăm din surse publice ale producătorului: gama de rotoare elicoidale și variantele de montaj de mai sus sunt cele afișate pe site-ul oficial, fără date proprii de stoc pentru piesele componente. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la producător — nu ținem pe raft variante permanente, pentru că numărul de combinații standard este foarte mare. Ca să pregătim o ofertă corectă, avem nevoie de debitul și înălțimea de pompare necesare, tipul de fluid (ape uzate, nămol, apă industrială) și dacă instalația impune montaj submersibil sau uscat.`,
-    limitation: "Nu putem confirma stocul unei variante anume din cele peste 500 de combinații standard înainte de a verifica disponibilitatea direct la producător.",
+    infinitrade: `Pentru Hidrostal lucrăm din documentația tehnică a producătorului: gama de rotoare elicoidale și variantele de montaj de mai sus sunt cele din documentația producătorului, fără date proprii de stoc pentru piesele componente. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea disponibilității la producător — nu ținem pe raft variante permanente, pentru că numărul de combinații standard este foarte mare. Ca să pregătim o ofertă corectă, avem nevoie de debitul și înălțimea de pompare necesare, tipul de fluid (ape uzate, nămol, apă industrială) și dacă instalația impune montaj submersibil sau uscat.`,
+    limitation: "Nu putem confirma stocul unei variante anume din cele peste 500 de combinații standard înainte de a verifica noi disponibilitatea la comandă.",
     productCodes: [
       { code: "End Suction Volute Pumps", description: "montaj uscat, aspirație finală, cuplare la motor electric" },
       { code: "Compact Pumps", description: "variantă compactă pentru spații reduse de montaj" },
@@ -91,7 +91,7 @@ Pentru un integrator OEM din România, Micropump are sens la dozarea precisă de
       "Tehnologie celule de combustibil — circulație fluide de proces",
       "Extracție botanică — transfer solvenți la volume controlate"
     ],
-    infinitrade: `Pentru Micropump lucrăm cu informațiile publice disponibile pe site-ul producătorului: seriile GA-GNH și CA de mai sus, cu deplasamentele și presiunile listate acolo, fără date proprii de stoc pentru fiecare variantă de capăt și material. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni la comandă — nu ținem produse pe raft, dat fiind numărul mare de combinații de materiale și racorduri. Pentru ofertă avem nevoie de fluidul pompat, debitul și presiunea diferențială necesare, plus tipul de acționare dorit (motor CC, CA sau cuplare directă).`,
+    infinitrade: `Pentru Micropump lucrăm cu documentația tehnică a producătorului: seriile GA-GNH și CA de mai sus, cu deplasamentele și presiunile listate acolo, fără date proprii de stoc pentru fiecare variantă de capăt și material. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni la comandă — nu ținem produse pe raft, dat fiind numărul mare de combinații de materiale și racorduri. Pentru ofertă avem nevoie de fluidul pompat, debitul și presiunea diferențială necesare, plus tipul de acționare dorit (motor CC, CA sau cuplare directă).`,
     limitation: "Nu putem confirma disponibilitatea unei combinații exacte de material și racord înainte de verificare directă la producător.",
     productCodes: [
       { code: "GA Series", description: "0,017–0,092 ml/rotație, presiune diferențială max. 5,2 bar" },
@@ -209,7 +209,7 @@ Pentru un operator de tratare a apei sau un integrator de proces din România, N
       "Petrol și gaze — dozare inhibitori de coroziune",
       "Minerit — dozare reactivi de flotație"
     ],
-    infinitrade: `Ce putem confirma pentru Neptune vine din pagina de produs a producătorului: seriile 500-A, 500-D, 500-E, 500-S, 500-VS și 560, cu debitele și presiunile listate acolo, fără date proprii de stoc pentru fiecare material de construcție. Aducem pompele Neptune la comandă prin canale de aprovizionare din UE sau SUA, termen orientativ 1–4 săptămâni în funcție de configurația exactă de material și presiune. Nu ținem această gamă pe raft, pentru că fiecare aplicație chimică cere o combinație specifică de material și cap de dozare. Pentru ofertă avem nevoie de fluidul dozat, debitul și presiunea de refulare necesare.`,
+    infinitrade: `Ce putem confirma pentru Neptune vine din documentația producătorului: seriile 500-A, 500-D, 500-E, 500-S, 500-VS și 560, cu debitele și presiunile listate acolo, fără date proprii de stoc pentru fiecare material de construcție. Aducem pompele Neptune la comandă prin canale de aprovizionare din UE sau SUA, termen orientativ 1–4 săptămâni în funcție de configurația exactă de material și presiune. Nu ținem această gamă pe raft, pentru că fiecare aplicație chimică cere o combinație specifică de material și cap de dozare. Pentru ofertă avem nevoie de fluidul dozat, debitul și presiunea de refulare necesare.`,
     limitation: "Nu putem confirma disponibilitatea unei combinații exacte de material și accesorii înainte de verificare directă la producător.",
     productCodes: [
       { code: "500-A Series", description: "0,80–18,0 gph, presiune max. 1.100 psi" },
@@ -271,8 +271,8 @@ Pentru un operator de tratare a apei sau un integrator de proces chimic din Rom�
       "Agricultură — dozare soluții nutritive",
       "Apă potabilă rezidențială — dozare clor și corectori de pH"
     ],
-    infinitrade: `Pentru Pulsafeeder, informațiile despre cele patru tehnologii de pompare și certificarea ISO 9001 vin direct din surse publice ale producătorului, fără date proprii de stoc pentru variantele de material și capacitate. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de tehnologia și materialul ales. Nu ținem această gamă pe raft pentru toate cele patru familii de produse — fiecare aplicație se configurează pe fluid, debit și presiune. Pentru ofertă, spuneți-ne fluidul pompat, debitul necesar și dacă preferați dozare de precizie sau transfer continuu.`,
-    limitation: "Nu putem confirma din surse publice parametrii tehnici exacți (debit, presiune) pentru fiecare submodel din cele patru familii de produse.",
+    infinitrade: `Pentru Pulsafeeder, informațiile despre cele patru tehnologii de pompare și certificarea ISO 9001 vin direct din documentația tehnică a producătorului, fără date proprii de stoc pentru variantele de material și capacitate. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de tehnologia și materialul ales. Nu ținem această gamă pe raft pentru toate cele patru familii de produse — fiecare aplicație se configurează pe fluid, debit și presiune. Pentru ofertă, spuneți-ne fluidul pompat, debitul necesar și dacă preferați dozare de precizie sau transfer continuu.`,
+    limitation: "Nu putem confirma din documentația producătorului parametrii tehnici exacți (debit, presiune) pentru fiecare submodel din cele patru familii de produse.",
     productCodes: [
       { code: "PulsaPro", description: "pompă cu diafragmă hidraulică, fiabilitate ridicată" },
       { code: "Pulsa Series", description: "pompă dozatoare cu diafragmă hidraulică" },
@@ -340,8 +340,8 @@ Pentru un inginer de proces din chimia fină sau farmaceutică din România, Ric
       "EN 17955 — portofoliu de armături certificat pentru aplicații SIL",
       "TA-Luft — certificare pentru armăturile PFA-L, pentru limitarea emisiilor",
     ],
-    infinitrade: `Pentru Richter, ce putem confirma vine din pagina de produse a producătorului: seriile de pompe MNK, MPB, QMD, RMI/RMA, SCK și robinetele căptușite BVA, KK, KN/KNA, NKS/NKL, fără date proprii de stoc pentru fiecare configurație de căptușeală. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de căptușeală și dimensiunea cerută. Nu ținem această gamă pe raft — fiecare pompă sau robinet se alege pe baza fluidului exact și a condițiilor de proces. Pentru ofertă, trimiteți fluidul, concentrația, temperatura de lucru și diametrul nominal necesar.`,
-    limitation: "Nu putem confirma parametrii de debit și presiune pentru fiecare model, deoarece pagina de produse listează denumirile seriilor fără fișe tehnice publice complete.",
+    infinitrade: `Pentru Richter, ce putem confirma vine din documentația producătorului: seriile de pompe MNK, MPB, QMD, RMI/RMA, SCK și robinetele căptușite BVA, KK, KN/KNA, NKS/NKL, fără date proprii de stoc pentru fiecare configurație de căptușeală. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de căptușeală și dimensiunea cerută. Nu ținem această gamă pe raft — fiecare pompă sau robinet se alege pe baza fluidului exact și a condițiilor de proces. Pentru ofertă, trimiteți fluidul, concentrația, temperatura de lucru și diametrul nominal necesar.`,
+    limitation: "Nu putem confirma parametrii de debit și presiune pentru fiecare model, deoarece documentația producătorului listează denumirile seriilor fără fișe tehnice complete.",
     productCodes: [
       { code: "MNK", description: "pompă heavy duty cu antrenare magnetică" },
       { code: "MPB", description: "pompă chimică periferică, antrenare magnetică" },
@@ -405,8 +405,8 @@ Pentru un integrator de instalații petrochimice sau energetice din România, Ru
       "Conformitate declarată cu standardele API pentru pompele din familiile overhung și between-bearing",
       "Conformitate declarată cu ANSI, ISO, Hydraulic Institute, UL și FM, în funcție de familia de produs",
     ],
-    infinitrade: `Pentru Ruhrpumpen lucrăm cu ce arată pagina de produse a producătorului: familiile overhung (CPO, CPP, SCE), between-bearing (ZW), verticale (IIL, IVP) și reciprocante (RDP), fără date proprii de stoc pentru piese și configurații. Aprovizionarea se face la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul de proiectare (API, ANSI sau ISO) cerut de proiect. Nu promitem disponibilitate din depozit — fiecare pompă de proces se configurează pe fluid, debit, presiune și standardul aplicabil instalației. Pentru ofertă, trimiteți fluidul, debitul, presiunea de refulare și standardul de proiectare cerut de specificația proiectului.`,
-    limitation: "Nu putem confirma parametrii tehnici detaliați (debit, presiune, temperatură) pentru fiecare model, deoarece fișele tehnice complete nu sunt publice pe pagina de produse.",
+    infinitrade: `Pentru Ruhrpumpen lucrăm cu ce arată documentația producătorului: familiile overhung (CPO, CPP, SCE), between-bearing (ZW), verticale (IIL, IVP) și reciprocante (RDP), fără date proprii de stoc pentru piese și configurații. Aprovizionarea se face la comandă prin canale din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul de proiectare (API, ANSI sau ISO) cerut de proiect. Nu promitem disponibilitate din depozit — fiecare pompă de proces se configurează pe fluid, debit, presiune și standardul aplicabil instalației. Pentru ofertă, trimiteți fluidul, debitul, presiunea de refulare și standardul de proiectare cerut de specificația proiectului.`,
+    limitation: "Nu putem confirma parametrii tehnici detaliați (debit, presiune, temperatură) pentru fiecare model, deoarece fișele tehnice complete nu apar în documentația consultată.",
     productCodes: [
       { code: "CPO", description: "pompă de proces ANSI, tip overhung" },
       { code: "CPP", description: "pompă de proces ANSI, tip overhung" },
@@ -473,8 +473,8 @@ Pentru un integrator de instalații industriale sau de protecție la incendiu di
       "Drenaj — evacuare apă la scară mare",
       "Răcire transformatoare — circuite dedicate de răcire"
     ],
-    infinitrade: `Pentru SPP Pumps, informațiile despre familiile OH2/OH3/OH5, XF, Hydraflow și Pleuger vin din pagina de produse a producătorului, fără date proprii de stoc pentru fiecare configurație. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul cerut (API 610 sau altul) și de configurația de proiect. Nu ținem această gamă pe raft — fiecare pompă de proces sau sistem de incendiu se dimensionează pe specificația exactă a instalației. Pentru ofertă, trimiteți fluidul, debitul, presiunea necesară și standardul de proiectare cerut de proiect.`,
-    limitation: "Nu putem confirma parametrii tehnici numerici (debit, presiune) pentru fiecare serie, deoarece pagina de produse nu publică fișe tehnice complete pentru toate modelele.",
+    infinitrade: `Pentru SPP Pumps, informațiile despre familiile OH2/OH3/OH5, XF, Hydraflow și Pleuger vin din documentația producătorului, fără date proprii de stoc pentru fiecare configurație. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de standardul cerut (API 610 sau altul) și de configurația de proiect. Nu ținem această gamă pe raft — fiecare pompă de proces sau sistem de incendiu se dimensionează pe specificația exactă a instalației. Pentru ofertă, trimiteți fluidul, debitul, presiunea necesară și standardul de proiectare cerut de proiect.`,
+    limitation: "Nu putem confirma parametrii tehnici numerici (debit, presiune) pentru fiecare serie, deoarece documentația producătorului nu publică fișe tehnice complete pentru toate modelele.",
     productCodes: [
       { code: "OH2-HZC", description: "pompă de proces API 610, tip OH2" },
       { code: "OH3-ETLS", description: "pompă de proces API 610, verticală in-line (OH3)" },
@@ -536,7 +536,7 @@ Pentru un integrator de instalații petrochimice sau de energie din România, Su
       "Prelucrare hidrocarburi — circulație de fund de coloană și apă acidă",
       "Rafinare — circuite de proces cu cerințe de fiabilitate ridicată"
     ],
-    infinitrade: `Pentru Sundyne, parametrii de debit și înălțime pentru familia LMV vin direct din pagina de produse a producătorului, fără date proprii de stoc pentru variantele de material și etanșare. Aducem pompele Sundyne la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurația de etanșare cerută. Nu ținem această gamă pe raft — fiecare pompă integral angrenată se configurează pe debitul, înălțimea și fluidul exact al aplicației. Pentru ofertă, trimiteți debitul necesar, înălțimea de pompare, fluidul și dacă aveți nevoie de variantă magnetică fără etanșare.`,
+    infinitrade: `Pentru Sundyne, parametrii de debit și înălțime pentru familia LMV vin direct din documentația producătorului, fără date proprii de stoc pentru variantele de material și etanșare. Aducem pompele Sundyne la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurația de etanșare cerută. Nu ținem această gamă pe raft — fiecare pompă integral angrenată se configurează pe debitul, înălțimea și fluidul exact al aplicației. Pentru ofertă, trimiteți debitul necesar, înălțimea de pompare, fluidul și dacă aveți nevoie de variantă magnetică fără etanșare.`,
     limitation: "Nu putem confirma parametrii tehnici pentru familiile Sunflo, ANSIMAG, HMD Kontro și Marelli la nivelul de detaliu disponibil pentru seria LMV.",
     productCodes: [
       { code: "LMV 801", description: "debit până la 380 gpm, înălțime până la 720 ft" },
@@ -557,7 +557,7 @@ Pentru un integrator de instalații petrochimice sau de energie din România, Su
       { q: "Cum aleg o pompă Sundyne din familia LMV?", a: "Pornind de la debitul și înălțimea de pompare necesare: LMV 802 acoperă debite mici (până la 150 gpm), LMV 801 și 806 debite medii cu înălțimi mari, iar LMV 803Lr e varianta de capacitate mare cu NPSH ultra-redus, pentru aplicații cu presiune de aspirație limitată." },
       { q: "Livrați pompe Sundyne în România?", a: "Da, aducem pompe Sundyne la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și etanșarea cerută. Nu ținem această gamă pe raft pentru gama LMV sau familiile magnetice." },
       { q: "Ce trebuie să trimit pentru o ofertă de pompă Sundyne?", a: "Trimiteți debitul necesar, înălțimea de pompare, fluidul de proces și dacă aplicația cere o variantă cu cuplaj magnetic fără etanșare mecanică. Cu aceste date recomandăm modelul potrivit din familia LMV sau liniile magnetice." } ,
-      { q: "Ce înseamnă o pompă integral angrenată la Sundyne?", a: "Este o pompă în care un angrenaj intern face ca rotorul să se învârtă la turație mai mare decât motorul, ceea ce permite înălțimi de pompare mari la debite mici. Familia LMV descrisă pe această pagină este însă cu antrenare directă, fără angrenaj integrat." }
+      { q: "Ce înseamnă o pompă integral angrenată la Sundyne?", a: "Este o pompă în care un angrenaj intern face ca rotorul să se învârtă la turație mai mare decât motorul, ceea ce permite înălțimi de pompare mari la debite mici. Familia LMV descrisă mai sus este însă cu antrenare directă, fără angrenaj integrat." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -599,7 +599,7 @@ Pentru un operator de turnuri de răcire, cazane sau sisteme de osmoză inversă
       "Tratamentul suprafețelor metalice — dozare chimicale de proces"
     ],
     certifications: [ "ISO 9001" ],
-    infinitrade: `Pentru Walchem, seriile IX, EWP/EWN/EHE, LK/LKN și controlerele Intuition sunt cele publicate pe site-ul producătorului, fără date proprii de stoc pentru fiecare configurație electrică și de capăt hidraulic. Aducem produsele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și tensiunea de alimentare cerută. Nu ținem această gamă pe raft — fiecare pompă sau controler se configurează pe aplicația exactă de tratare a apei. Pentru ofertă, trimiteți fluidul dozat, debitul necesar și dacă aveți nevoie de control electronic corelat cu o măsurătoare de proces.`,
+    infinitrade: `Pentru Walchem, seriile IX, EWP/EWN/EHE, LK/LKN și controlerele Intuition sunt cele din documentația producătorului, fără date proprii de stoc pentru fiecare configurație electrică și de capăt hidraulic. Aducem produsele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de model și tensiunea de alimentare cerută. Nu ținem această gamă pe raft — fiecare pompă sau controler se configurează pe aplicația exactă de tratare a apei. Pentru ofertă, trimiteți fluidul dozat, debitul necesar și dacă aveți nevoie de control electronic corelat cu o măsurătoare de proces.`,
     limitation: "Nu putem confirma disponibilitatea unei configurații electrice sau de material specifice înainte de verificare directă la producător.",
     productCodes: [
       { code: "IX Series", description: "control digital, până la 300 l/h, 247 psi" },
@@ -658,7 +658,7 @@ Pentru un integrator de instalații petrochimice sau de tratare a apei din Româ
       "Descalcifiere — sisteme de îndepărtare a depunerilor de calcar"
     ],
     certifications: [ "API 674", "API 675" ],
-    infinitrade: `Pentru Wanner Engineering, submodelele G10 și restul familiei Hydra-Cell sunt cele publicate pe site-ul producătorului, fără date proprii de stoc pentru fiecare cap hidraulic și material. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de modelul și presiunea de lucru cerute. Nu ținem această gamă pe raft — fiecare pompă Hydra-Cell se configurează pe fluid, debit și presiune. Pentru ofertă, trimiteți fluidul pompat, debitul și presiunea necesară, plus dacă aplicația cere capete metalice sau nemetalice.`,
+    infinitrade: `Pentru Wanner Engineering, submodelele G10 și restul familiei Hydra-Cell sunt cele din documentația producătorului, fără date proprii de stoc pentru fiecare cap hidraulic și material. Aducem pompele la comandă prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni, în funcție de modelul și presiunea de lucru cerute. Nu ținem această gamă pe raft — fiecare pompă Hydra-Cell se configurează pe fluid, debit și presiune. Pentru ofertă, trimiteți fluidul pompat, debitul și presiunea necesară, plus dacă aplicația cere capete metalice sau nemetalice.`,
     limitation: "Nu putem confirma disponibilitatea unei combinații exacte de cap hidraulic și material pentru fiecare submodel fără verificare directă la producător.",
     productCodes: [
       { code: "G10-M4H", description: "193 gph, presiune max. 1.500 psig" },
@@ -724,8 +724,8 @@ Pentru un integrator de linii de procesare din industria alimentară, a băuturi
       "Chimie și cosmetică — transfer produse cu cerințe sanitare"
     ],
     certifications: [ "ATEX — declarată pentru variante de valve destinate zonelor cu risc de explozie" ],
-    infinitrade: `Pentru Bardiani Valvole, categoriile de valve și parametrii modelului VVS vin din pagina de produse a producătorului, fără date proprii de stoc pentru fiecare diametru și garnitură. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametrul, presiunea și garnitura cerute de aplicație. Nu ținem această gamă pe raft — fiecare valvă se alege pe baza produsului procesat și a cerințelor de igienizare ale liniei. Pentru ofertă, trimiteți diametrul conexiunii, presiunea de lucru și dacă instalația cere separare mixproof între circuite.`,
-    limitation: "Nu putem confirma parametrii tehnici compleți pentru fiecare familie de valve în afara modelului VVS, documentat direct pe pagina de produs.",
+    infinitrade: `Pentru Bardiani Valvole, categoriile de valve și parametrii modelului VVS vin din documentația producătorului, fără date proprii de stoc pentru fiecare diametru și garnitură. Livrăm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de diametrul, presiunea și garnitura cerute de aplicație. Nu ținem această gamă pe raft — fiecare valvă se alege pe baza produsului procesat și a cerințelor de igienizare ale liniei. Pentru ofertă, trimiteți diametrul conexiunii, presiunea de lucru și dacă instalația cere separare mixproof între circuite.`,
+    limitation: "Nu putem confirma parametrii tehnici compleți pentru fiecare familie de valve în afara modelului VVS, documentat în fișa de produs.",
     productCodes: [
       { code: "Single Seat Valves", description: "valve cu scaun simplu, izolare și control debit" },
       { code: "Double Seat / Mixproof Valves", description: "separare strictă a două circuite de produs" },
@@ -785,8 +785,8 @@ Pentru un integrator de linii de procesare din industria alimentară, farmaceuti
       "Cosmetică — transfer și injecție de aditivi",
       "Produse de curățenie — procesare fluide cu cerințe sanitare"
     ],
-    infinitrade: `Pentru Definox, familiile DCX3/DCX4, VEOX, PEX1/PEAX și sistemele Starmotion/Starwheel sunt cele publicate pe pagina de produse a producătorului, fără date proprii de stoc pentru fiecare configurație de corp și diametru. Aducem valvele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația de corp și diametrul cerut. Nu ținem pe raft toate variantele — fiecare valvă se alege pe baza fluxului de proces și a produsului procesat. Pentru ofertă, trimiteți diametrul conexiunii, configurația de corp necesară (izolare, deviere sau eșantionare) și produsul procesat.`,
-    limitation: "Nu putem confirma parametrii tehnici numerici de presiune și temperatură pentru fiecare familie, deoarece pagina de produse nu publică fișe tehnice complete pentru toate configurațiile.",
+    infinitrade: `Pentru Definox, familiile DCX3/DCX4, VEOX, PEX1/PEAX și sistemele Starmotion/Starwheel sunt cele din documentația producătorului, fără date proprii de stoc pentru fiecare configurație de corp și diametru. Aducem valvele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația de corp și diametrul cerut. Nu ținem pe raft toate variantele — fiecare valvă se alege pe baza fluxului de proces și a produsului procesat. Pentru ofertă, trimiteți diametrul conexiunii, configurația de corp necesară (izolare, deviere sau eșantionare) și produsul procesat.`,
+    limitation: "Nu putem confirma parametrii tehnici numerici de presiune și temperatură pentru fiecare familie, deoarece documentația producătorului nu publică fișe tehnice complete pentru toate configurațiile.",
     productCodes: [
       { code: "DCX3", description: "valvă de izolare, configurație corp L sau T" },
       { code: "DCX4", description: "valvă de deviere, configurație corp TL" },

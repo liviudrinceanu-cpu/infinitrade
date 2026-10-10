@@ -5,7 +5,7 @@ export const brandContentBatch141 = {
     name: "Jomar Valve",
     founded: 1966,
     headquarters: "Warren, Michigan, SUA",
-    overview: `Jomar Valve este un producător american de robineți cu bilă și robineți fluture, cu sediul la Warren, Michigan, activ din 1966. Producătorul indică pe site o platformă de robineți cu bilă certificată UL, CSA, FM și NSF. Gama include robineți cu bilă din alamă și bronz fără plumb, robineți din inox și oțel carbon, robineți pentru gaz natural și robineți fluture, plus actuatoare electrice și pneumatice. Din această gamă putem oferta pentru instalații industriale de apă și gaz din România.
+    overview: `Jomar Valve este un producător american de robineți cu bilă și robineți fluture, cu sediul la Warren, Michigan, activ din 1966. Producătorul indică o platformă de robineți cu bilă certificată UL, CSA, FM și NSF. Gama include robineți cu bilă din alamă și bronz fără plumb, robineți din inox și oțel carbon, robineți pentru gaz natural și robineți fluture, plus actuatoare electrice și pneumatice. Din această gamă putem oferta pentru instalații industriale de apă și gaz din România.
 
 Diferența tehnică vine din varietatea materialelor și conexiunilor: aceleași corpuri de robinet se regăsesc în variante filetate, cu lipire sau cu conexiune press, cu mâner standard, cu blocare sau cu izolare termică, la presiuni de lucru de până la 600 WOG/CWP la seriile de bilă din alamă și bronz. Robineții pentru gaz natural au corp și sferă dedicate mediului gazos, iar seriile din inox și oțel carbon acoperă aplicații industriale unde alama nu rezistă chimic. 
 
@@ -28,7 +28,7 @@ Pentru un integrator sau un instalator din România, Jomar Valve înseamnă acce
       "Retehnologizări industriale — înlocuirea robineților vechi cu variante certificate multi-standard",
     ],
     certifications: ["UL — certificare de produs", "CSA — standard canadian de siguranță", "FM Approved — agrement pentru protecție la incendiu", "NSF/ANSI 61 — conformitate pentru contact cu apă potabilă"],
-    infinitrade: `Aducem robineți Jomar Valve la comandă, prin import din SUA, cu termen orientativ 1–4 săptămâni în funcție de confirmarea disponibilității la producător și de transport. Lucrăm doar cu informațiile publice de pe site-ul Jomar Valve — nu avem date proprii de stoc și spunem direct ce putem și ce nu putem confirma pentru fiecare cod. Clientul trebuie să ne trimită codul exact de pe robinetul existent sau din documentația de proiect (serie, dimensiune, tip de conexiune, material) ca să verificăm disponibilitatea și să pregătim o ofertă. Nu promitem o gamă permanentă pe raft; fiecare comandă se confirmă în avans cu producătorul.`,
+    infinitrade: `Aducem robineți Jomar Valve la comandă, prin import din SUA, cu termen orientativ 1–4 săptămâni în funcție de confirmarea disponibilității la producător și de transport. Lucrăm doar cu documentația tehnică Jomar Valve — nu avem date proprii de stoc și spunem direct ce putem și ce nu putem confirma pentru fiecare cod. Clientul trebuie să ne trimită codul exact de pe robinetul existent sau din documentația de proiect (serie, dimensiune, tip de conexiune, material) ca să verificăm disponibilitatea și să pregătim o ofertă. Nu promitem o gamă permanentă pe raft; fiecare comandă se confirmă în avans cu producătorul.`,
     limitation: "Nu putem confirma disponibilitatea locală în Europa a producătorului sau termene de livrare mai scurte decât cele orientative comunicate mai sus.",
     productCodes: [
       { code: "T-200CSSG", description: "robinet cu bilă bronz fără plumb, filetat, full port, 600 CWP" },
@@ -93,7 +93,7 @@ Pentru un integrator din chimie, tratarea apei sau industria alimentară, Plast-
       "Dozare chimică — supape de reținere și degazare pentru linii de injecție a reactivilor",
     ],
     certifications: ["ISO 9001:2015 — sistem de management al calității", "Conformitate CE — pentru piața europeană"],
-    infinitrade: `Furnizăm robineți și supape Plast-O-Matic la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Ce putem și ce nu putem confirma ținem separat: preluăm datele tehnice direct de pe site-ul producătorului, fără informații proprii despre stocul din SUA. Pentru ofertă avem nevoie de fluidul vehiculat, concentrația și temperatura de lucru, dimensiunea conexiunii și tipul de acționare (manual, pneumatic sau electric CAFE), ca să confirmăm compatibilitatea materialului înainte de comandă. Nu ținem această gamă pe raft; fiecare piesă se comandă după confirmarea compatibilității chimice.`,
+    infinitrade: `Furnizăm robineți și supape Plast-O-Matic la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Ce putem și ce nu putem confirma ținem separat: preluăm datele tehnice din documentația producătorului, fără informații proprii despre stocul din SUA. Pentru ofertă avem nevoie de fluidul vehiculat, concentrația și temperatura de lucru, dimensiunea conexiunii și tipul de acționare (manual, pneumatic sau electric CAFE), ca să confirmăm compatibilitatea materialului înainte de comandă. Nu ținem această gamă pe raft; fiecare piesă se comandă după confirmarea compatibilității chimice.`,
     limitation: "Nu putem confirma echivalențe exacte de material pentru amestecuri chimice complexe fără fișa de compatibilitate a producătorului pentru fluidul specific al clientului.",
     productCodes: [
       { code: "MBV", description: "robinet cu bilă manual din termoplastic pentru linii chimice" },
@@ -160,7 +160,7 @@ Pentru un laborator de diagnostic sau un integrator OEM din România, FMI însea
       "Biotehnologie — dozare de precizie pentru procese de laborator",
       "Instrumentație analitică — capete de pompă interschimbabile după compatibilitatea fluidului",
     ],
-    infinitrade: `Aducem pompe și capete de pompă FMI la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Informațiile tehnice pe care le folosim vin din surse publice ale producătorului; nu avem date proprii despre stocul din SUA și spunem clar unde se opresc aceste informații. Pentru ofertă avem nevoie de fluidul dozat, volumul țintă per ciclu, materialul de contact dorit și seria de pompă dorită, ca să identificăm combinația corectă de cap de pompă și unitate. Nu promitem o gamă permanentă pe raft.`,
+    infinitrade: `Aducem pompe și capete de pompă FMI la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Informațiile tehnice pe care le folosim vin din documentația tehnică a producătorului; nu avem date proprii despre stocul din SUA și spunem clar unde se opresc aceste informații. Pentru ofertă avem nevoie de fluidul dozat, volumul țintă per ciclu, materialul de contact dorit și seria de pompă dorită, ca să identificăm combinația corectă de cap de pompă și unitate. Nu promitem o gamă permanentă pe raft.`,
     limitation: "Nu putem confirma parametri de precizie sau debit pentru combinații de cap de pompă și fluid care nu apar explicit în documentația publică a producătorului.",
     productCodes: [
       { code: "FENYX", description: "pompă cu dispens variabil, 1–400 microlitri, dozare fără contact de la 4 microlitri" },
@@ -223,7 +223,7 @@ Pentru un integrator electric din România, Hubbell înseamnă acces la componen
       "Industrial — întrerupătoare de deconectare pentru izolarea circuitelor la intervenții",
       "Construcții și șantiere — prize portabile pentru instalații temporare",
     ],
-    infinitrade: `Furnizăm componente electrice Hubbell la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Ne bazăm exclusiv pe informațiile publice disponibile pe site-ul Hubbell; nu avem date proprii despre stocul din SUA sau Canada. Pentru ofertă avem nevoie de codul de catalog exact sau, în lipsa lui, de amperaj, tensiune și tipul de conexiune dorit, ca să identificăm componenta corectă din portofoliul foarte extins al grupului. Nu ținem această gamă pe raft; fiecare comandă se confirmă în avans cu producătorul.`,
+    infinitrade: `Furnizăm componente electrice Hubbell la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Ne bazăm exclusiv pe documentația tehnică Hubbell; nu avem date proprii despre stocul din SUA sau Canada. Pentru ofertă avem nevoie de codul de catalog exact sau, în lipsa lui, de amperaj, tensiune și tipul de conexiune dorit, ca să identificăm componenta corectă din portofoliul foarte extins al grupului. Nu ținem această gamă pe raft; fiecare comandă se confirmă în avans cu producătorul.`,
     limitation: "Nu putem confirma echivalențe între diviziile Hubbell fără codul de catalog exact, dat fiind portofoliul foarte extins al grupului.",
     productCodes: [
       { code: "HBL3000", description: "dispozitiv Straight Blade; descrierea exactă se confirmă pe codul de catalog" },
@@ -240,7 +240,7 @@ Pentru un integrator electric din România, Hubbell înseamnă acces la componen
     faq: [
       { q: "Ce produce Hubbell Incorporated?", a: "Hubbell Incorporated produce echipamente electrice în patru categorii de produse: dispozitive de date și comunicații, echipamente electrice și electronice, iluminat industrial și soluții pentru utilități. Gama practică include prize și fișe industriale, conectori, tablouri și componente de legare la pământ. Compania are sediul în Connecticut, SUA, și este activă din 1888." },
       { q: "Cum aleg componenta potrivită din gama Hubbell Incorporated după cod?", a: "Codul HBL indică familia și parametrii — de exemplu HBL332B4W arată 32 A, 125 V, 2 poli. Fără cod exact, avem nevoie de amperaj, tensiune, tipul de conexiune (IEC sau standard nord-american) și mediul de montaj, ca să identificăm componenta din portofoliul producătorului." },
-      { q: "Se poate procura Hubbell în România sau Europa?", a: "Da, dar Hubbell listează prezență internațională directă doar în Canada, Mexic și Brazilia, fără birou european menționat pe site. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de confirmare și transport." },
+      { q: "Se poate procura Hubbell în România sau Europa?", a: "Da, dar Hubbell listează prezență internațională directă doar în Canada, Mexic și Brazilia, fără birou european menționat de producător. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de confirmare și transport." },
       { q: "Ce trebuie să trimit pentru o ofertă de componente Hubbell?", a: "Codul de catalog exact, dacă îl aveți, sau amperajul, tensiunea și tipul de conexiune necesar. Pentru prize și fișe industriale contează și clasificarea de protecție (IP) cerută de mediul de montaj, ca să confirmăm varianta corectă la producător." },
     ],
     evidenceClass: "market-signal-intl",
@@ -279,7 +279,7 @@ Pentru un integrator industrial din România, EXAIR înseamnă acces la echipame
       "Semiconductori — eliminatoare statice pentru controlul electricității statice pe linii sensibile",
       "Automatizare industrială — amplificatoare de aer și transportoare pneumatice Line Vac",
     ],
-    infinitrade: `Aducem echipamente EXAIR la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Fără date proprii de stoc, ne bazăm pe cataloagele publice ale EXAIR pentru coduri și parametri tehnici, iar unde informația lipsește spunem clar acest lucru. Pentru ofertă avem nevoie de aplicația țintă (uscare, răcire, curățare, transport de material), dimensiunea zonei de lucru și mediul (standard, coroziv sau alimentar), ca să recomandăm modelul și materialul potrivite din gamă. Nu promitem o gamă permanentă pe raft.`,
+    infinitrade: `Aducem echipamente EXAIR la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Fără date proprii de stoc, ne bazăm pe documentația tehnică EXAIR pentru coduri și parametri tehnici, iar unde informația lipsește spunem clar acest lucru. Pentru ofertă avem nevoie de aplicația țintă (uscare, răcire, curățare, transport de material), dimensiunea zonei de lucru și mediul (standard, coroziv sau alimentar), ca să recomandăm modelul și materialul potrivite din gamă. Nu promitem o gamă permanentă pe raft.`,
     limitation: "Nu putem confirma niveluri exacte de zgomot sau debit pentru configurații personalizate care nu apar în lista de prețuri publică a producătorului.",
     productCodes: [
       { code: "110006", description: "Super Air Knife, 6 țoli, aluminiu" },
@@ -301,7 +301,7 @@ Pentru un integrator industrial din România, EXAIR înseamnă acces la echipame
     faq: [
       { q: "Ce produce EXAIR Corporation?", a: "EXAIR Corporation fabrică echipamente pneumatice pentru optimizarea aerului comprimat: cuțite de aer, amplificatoare, tuburi vortex, pistoale de aer conforme OSHA, duze de pulverizare și eliminatoare statice. Compania are sediul în Ohio, SUA, și este activă din 1983, cu fabricație integral americană." },
       { q: "Cum aleg cuțitul de aer potrivit din gama EXAIR Corporation după cod?", a: "Codul indică lungimea în țoli și materialul — de exemplu 110012SS este un Super Air Knife de 12 țoli din inox. Trimiteți-ne lungimea zonei de uscare/curățare și mediul de lucru (standard, coroziv sau alimentar), ca să identificăm modelul și materialul corecte din catalog." },
-      { q: "Se poate procura EXAIR în România sau Europa?", a: "Da, la comandă — site-ul EXAIR menționează un email dedicat comenzilor internaționale; nu avem informații confirmate despre o rețea de distribuție europeană. Aducem echipamentele la comandă, cu termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport." },
+      { q: "Se poate procura EXAIR în România sau Europa?", a: "Da, la comandă — nu avem informații confirmate despre o rețea de distribuție europeană. Aducem echipamentele la comandă, cu termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport." },
       { q: "Ce trebuie să trimit pentru o ofertă EXAIR?", a: "Aplicația țintă (uscare, răcire, transport, eliminare statică), dimensiunea zonei de lucru și mediul (standard, coroziv sau alimentar). Pentru duzele de pulverizare avem nevoie și de debitul dorit în galoane pe minut, ca să recomandăm modelul potrivit." },
     ],
     evidenceClass: "market-signal-intl",
@@ -340,7 +340,7 @@ Pentru un integrator din construcții, marină sau laboratoare din România, Spe
       "Laboratoare — sisteme de drenaj chimic rezistent din PVC/CPVC",
     ],
     certifications: ["ISO 9001 — sistem de management al calității pentru fabricația de fitinguri și robineți"],
-    infinitrade: `Furnizăm fitinguri și robineți Spears Manufacturing la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Informațiile despre serii și dimensiuni vin din surse publice ale producătorului; nu deținem date proprii despre stocul din SUA. Pentru ofertă avem nevoie de seria dorită (FlameGuard, EverTUFF, OceanTUFF sau Schedule 40/80 standard), dimensiunea și materialul (PVC sau CPVC), ca să confirmăm disponibilitatea la producător. Nu ținem produse pe raft în așteptarea unei comenzi.`,
+    infinitrade: `Furnizăm fitinguri și robineți Spears Manufacturing la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Informațiile despre serii și dimensiuni vin din documentația tehnică a producătorului; nu deținem date proprii despre stocul din SUA. Pentru ofertă avem nevoie de seria dorită (FlameGuard, EverTUFF, OceanTUFF sau Schedule 40/80 standard), dimensiunea și materialul (PVC sau CPVC), ca să confirmăm disponibilitatea la producător. Nu ținem produse pe raft în așteptarea unei comenzi.`,
     limitation: "Nu putem confirma presiuni nominale exacte pe fiecare dimensiune fără fișa tehnică specifică a seriei cerute de client.",
     productCodes: [
       { code: "FG90S", description: "cot la 90 de grade FlameGuard CPVC pentru sprinklere" },
@@ -401,7 +401,7 @@ Pentru un integrator din HVAC, refrigerare sau instalații industriale din Româ
     ],
     certifications: ["NSF/ANSI 372 și 61 — conformitate pentru contact cu apă potabilă"],
     infinitrade: `Aducem termometre și manometre Weiss Instruments la comandă, prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni în funcție de confirmarea producătorului și de transport. Datele tehnice pe care le folosim sunt cele publicate de producător; nu avem informații proprii despre stocul din SUA. Pentru ofertă avem nevoie de tipul instrumentului (termometru sau manometru), dimensiunea cadranului, plaja de temperatură sau presiune și tipul de montaj, ca să confirmăm codul potrivit din gamă. Nu ținem această gamă pe raft în așteptarea unei comenzi.`,
-    limitation: "Nu putem confirma disponibilitatea unei plaje exacte de temperatură sau presiune pentru o combinație care nu apare în cataloagele publice ale producătorului.",
+    limitation: "Nu putem confirma disponibilitatea unei plaje exacte de temperatură sau presiune pentru o combinație care nu apare în documentația tehnică a producătorului.",
     productCodes: [
       { code: "3BM", description: "termometru bimetalic 3 țoli, montaj în unghi (varianta dreaptă este 3BMS)" },
       { code: "3RBM", description: "termometru bimetalic 3 țoli, cu recalibrare" },

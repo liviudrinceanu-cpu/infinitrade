@@ -13,7 +13,7 @@ Pentru instalatorii din România, Rosenberg înseamnă acces la componente de la
     whyChoose: [
       "Gamă EC și AC — debite de până la 60.000 m³/h, cu motoare EC sau AC integrate în ventilator",
       "Dimensiuni conform seriilor de numere normate R20 (DIN 323 la palete curbate înapoi, DIN 232 la palete curbate înainte), conform producătorului",
-      "Certificare DIN EN ISO 9001 a companiei, conform site-ului producătorului",
+      "Certificare DIN EN ISO 9001 a companiei, conform documentației producătorului",
       "Plug fan-uri cu reglaj EC continuu — seria GKHB susține control 5-100% fără trepte, util la debite variabile în timp real",
       "Retrofit ECFanGrid pentru AHU vechi — motoare noi montate pe structura existentă, fără înlocuirea întregii unități de climatizare"
     ],
@@ -31,7 +31,7 @@ Pentru instalatorii din România, Rosenberg înseamnă acces la componente de la
       "Transport feroviar — ventilatoare axiale pentru tehnica feroviară",
       "Camere curate — plug fan-uri pentru instalații de tratare a aerului și camere curate"
     ],
-    infinitrade: `Spunem cinstit: lucrăm cu informațiile publice de pe site-ul Rosenberg și nu avem date proprii de stoc pentru gama lor de ventilatoare. Pentru componente OEM (axiale, centrifugale, plug fan-uri) și pentru ventilatoare de canal sau de acoperiș din gama TBE, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Ca să pregătim o ofertă corectă avem nevoie de codul de tip exact (de exemplu AKFG, GKHB, EHA), diametrul de rotor și, dacă e cazul, tensiunea de alimentare sau tipul de comandă EC/AC. Nu promitem disponibilitate din depozit pe nicio serie — fiecare comandă se confirmă în avans cu producătorul înainte de a intra în termenul de livrare.`,
+    infinitrade: `Spunem cinstit: lucrăm cu documentația tehnică Rosenberg și nu avem date proprii de stoc pentru gama lor de ventilatoare. Pentru componente OEM (axiale, centrifugale, plug fan-uri) și pentru ventilatoare de canal sau de acoperiș din gama TBE, aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea producătorului. Ca să pregătim o ofertă corectă avem nevoie de codul de tip exact (de exemplu AKFG, GKHB, EHA), diametrul de rotor și, dacă e cazul, tensiunea de alimentare sau tipul de comandă EC/AC. Nu promitem disponibilitate din depozit pe nicio serie — fiecare comandă se confirmă în avans cu producătorul înainte de a intra în termenul de livrare.`,
     limitation: "Nu putem confirma service în perioada de garanție a producătorului și nici configurarea software a controlerelor EC proprietare — acestea rămân în sarcina rețelei tehnice Rosenberg.",
     productCodes: [
       { code: "AKFG", description: "ventilator axial EC, debit până la 32.000 m³/h, diametru 500-1000 mm" },
@@ -283,7 +283,7 @@ Pentru fabricile din România cu linii de extrudare, injecție sau reciclare a p
 
 Portofoliul de ventilatoare acoperă variante axiale pentru alimentare critică cu aer, centrifugale pentru curenți de aer contaminat sau la temperatură ridicată, și turbo fans pentru presiuni mari. Familia Spencer acoperă suflante monoetajate cu debit de până la 50.000 ICFM și presiune de 3,5 PSIG, respectiv multietajate cu diametre de carcasă între 14 și 88 țoli, capabile de până la 25.000 ICFM sau 15 inch Hg vacuum. Suflantele volumetrice tip Roots completează gama la presiune joasă-medie.
 
-Pentru instalațiile industriale din România, Howden înseamnă acces la un portofoliu larg de ventilatoare, suflante și compresoare (divizia de ventilatoare axiale, Howden Axial Fans ApS, deține certificări ISO 9001, ISO 14001 și ISO 45001), cu mențiunea că disponibilitatea exactă pe fiecare familie se confirmă direct cu rețeaua producătorului la momentul comenzii.`,
+Pentru instalațiile industriale din România, Howden înseamnă acces la un portofoliu larg de ventilatoare, suflante și compresoare (divizia de ventilatoare axiale, Howden Axial Fans ApS, deține certificări ISO 9001, ISO 14001 și ISO 45001), cu mențiunea că disponibilitatea exactă pe fiecare familie se confirmă cu fabrica la momentul comenzii.`,
     whyChoose: [
       "Portofoliu multi-brand sub Howden — Spencer, HV-TURBO, Turblex și Kühnle Kopp Kausch acoperă diverse tipuri de suflante și compresoare",
       "Suflante multietajate de mare capacitate — diametre de carcasă între 14 și 88 țoli, până la 25.000 ICFM",
@@ -305,7 +305,7 @@ Pentru instalațiile industriale din România, Howden înseamnă acces la un por
       "Ciment și sticlă — ventilatoare industriale rezistente la temperatură",
       "Valorificare energetică a deșeurilor — turbine cu abur de capacitate medie"
     ],
-    infinitrade: `Recunoaștem limita: nu putem confirma disponibilitatea reală a fiecărei game Howden, ci doar ce arată sursele publice ale producătorului. Pentru ventilatoare industriale, suflante centrifugale sau cu lobi din portofoliul Howden aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă; compresoarele, turbinele cu abur și schimbătoarele de căldură sunt sisteme complexe, cu termen de regulă peste 4 săptămâni, confirmat de producător. Pentru o ofertă corectă avem nevoie de brandul și familia de produs (de exemplu suflantă Spencer monoetajată sau ventilator axial), debitul și presiunea necesare aplicației. Nu ținem această gamă pe raft pe nicio familie Howden — fiecare comandă pornește cu o verificare directă la rețeaua producătorului.`,
+    infinitrade: `Recunoaștem limita: nu putem confirma disponibilitatea reală a fiecărei game Howden, ci doar ce arată sursele publice ale producătorului. Pentru ventilatoare industriale, suflante centrifugale sau cu lobi din portofoliul Howden aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă; compresoarele, turbinele cu abur și schimbătoarele de căldură sunt sisteme complexe, cu termen de regulă peste 4 săptămâni, confirmat de producător. Pentru o ofertă corectă avem nevoie de brandul și familia de produs (de exemplu suflantă Spencer monoetajată sau ventilator axial), debitul și presiunea necesare aplicației. Nu ținem această gamă pe raft pe nicio familie Howden — fiecare comandă pornește cu o verificare a disponibilității din fabrică.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (debit, presiune, putere) pentru fiecare model din portofoliul Howden, informația publică fiind organizată pe branduri și categorii, nu pe fișe tehnice individuale de model.",
     productCodes: [
       { code: "Tuf-Lite", description: "ventilator axial industrial Howden" },

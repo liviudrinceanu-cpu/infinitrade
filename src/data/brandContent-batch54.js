@@ -27,7 +27,7 @@ Pentru piața din România, gama are sens acolo unde un tablou trebuie completat
       "Sisteme de control acces — senzori de proximitate pentru bariere și porți",
       "Climatizare — contoare de energie pentru monitorizarea consumului pe echipamente",
     ],
-    infinitrade: `Pentru Carlo Gavazzi lucrăm din surse publice ale producătorului și din ce am putut verifica direct pe site — nu avem date proprii de stoc pentru această gamă. Aducem senzori, relee statice și contoare de energie la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, parametrii funcționali: tipul senzorului, curentul de sarcină al releului sau tipul de rețea pentru contor. Nu putem confirma disponibilitate permanentă din stoc pentru toate referințele din catalog.`,
+    infinitrade: `Pentru Carlo Gavazzi lucrăm din surse publice ale producătorului și din ce am putut verifica în documentația producătorului — nu avem date proprii de stoc pentru această gamă. Aducem senzori, relee statice și contoare de energie la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, parametrii funcționali: tipul senzorului, curentul de sarcină al releului sau tipul de rețea pentru contor. Nu putem confirma disponibilitate permanentă din stoc pentru toate referințele din catalog.`,
     limitation: "Nu putem confirma service sau calibrare în garanția producătorului pentru relee și contoare — acestea rămân în sarcina rețelei Carlo Gavazzi.",
     productCodes: [
       {
@@ -135,7 +135,7 @@ Pentru România, gama Anver are sens la liniile unde piesele nu pot fi apucate c
       "Industria alimentară — ventuze dedicate pentru produse ambalate",
       "Automatizare de producție — integrare în celule robotizate de paletizare",
     ],
-    infinitrade: `Pentru Anver ne bazăm pe informațiile publice disponibile pe site-ul producătorului — nu avem date proprii despre stocul din depozitele americane. Aducem ventuze, componente de vid și sisteme de ridicare la comandă, prin canale de aprovizionare din UE sau direct din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă utilă, clientul trebuie să ne trimită greutatea și materialul piesei manipulate, dimensiunile acesteia și, dacă există deja un sistem, codul componentei de înlocuit. Nu promitem disponibilitate permanentă din stoc pentru toate referințele din catalogul american.`,
+    infinitrade: `Pentru Anver ne bazăm pe documentația tehnică a producătorului — nu avem date proprii despre stocul din depozitele americane. Aducem ventuze, componente de vid și sisteme de ridicare la comandă, prin canale de aprovizionare din UE sau direct din SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă utilă, clientul trebuie să ne trimită greutatea și materialul piesei manipulate, dimensiunile acesteia și, dacă există deja un sistem, codul componentei de înlocuit. Nu promitem disponibilitate permanentă din stoc pentru toate referințele din catalogul american.`,
     limitation: "Nu putem confirma termene scurte de livrare pentru piese fabricate la comandă în SUA sau pentru configurații ergonomice speciale (VT/VB/VM).",
     productCodes: [
       {
@@ -259,7 +259,7 @@ Pentru România, gama Tente are sens la echipamente mobile din spitale, cărucio
       "Comerț și retail — cărucioare de vânzare și echipamente mobile pentru magazine",
       "Tehnologie de curățenie — roți pentru mașini de curățat pardoseli",
     ],
-    infinitrade: `Pentru Tente lucrăm din informațiile publice disponibile pe site-ul producătorului — nu avem date proprii despre stocul din depozitele europene ale grupului. Aducem roți industriale, seria E-Drive și soluții pentru echipamente medicale la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul dorit, tipul de montaj (cu furcă, cu placă) și dacă echipamentul are cerințe speciale de igienă sau mediu coroziv. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă din catalog.`,
+    infinitrade: `Pentru Tente lucrăm din documentația tehnică a producătorului — nu avem date proprii despre stocul din depozitele europene ale grupului. Aducem roți industriale, seria E-Drive și soluții pentru echipamente medicale la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul dorit, tipul de montaj (cu furcă, cu placă) și dacă echipamentul are cerințe speciale de igienă sau mediu coroziv. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă din catalog.`,
     limitation: "Nu putem confirma configurarea sau punerea în funcțiune a sistemelor motorizate E-Drive — aceasta rămâne, de regulă, în sarcina integratorului echipamentului final.",
     productCodes: [
       {
@@ -401,7 +401,7 @@ Pentru România, gama Blickle are sens la cărucioare de manipulare, linii de pr
       "Igienă și medicină — roți compatibile cu spălarea frecventă a echipamentelor",
       "Echipamente mobile — cărucioare de curățenie și mentenanță industrială",
     ],
-    infinitrade: `Pentru Blickle ne bazăm pe informațiile publice de pe site-ul producătorului — fără date proprii de stoc pentru gama completă de produse. Aducem roți standard și componente ErgoMove la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii; pentru referințele frecvent cerute, termenul poate fi mai scurt, dar nu îl putem promite fără confirmare punctuală. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul, tipul de bandaj dorit și tipul de montaj (furcă simplă sau dublă). Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă de bandaj din catalog.`,
+    infinitrade: `Pentru Blickle ne bazăm pe documentația tehnică a producătorului — fără date proprii de stoc pentru gama completă de produse. Aducem roți standard și componente ErgoMove la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii; pentru referințele frecvent cerute, termenul poate fi mai scurt, dar nu îl putem promite fără confirmare punctuală. Pentru o ofertă corectă, clientul trebuie să ne trimită sarcina pe roată, diametrul, tipul de bandaj dorit și tipul de montaj (furcă simplă sau dublă). Nu putem confirma disponibilitate permanentă din stoc pentru fiecare variantă de bandaj din catalog.`,
     limitation: "Nu putem confirma configurarea electronică a sistemului ErgoMove sau integrarea lui în cărucioare cu control motorizat existent — aceasta rămâne în sarcina integratorului.",
     productCodes: [
       {
@@ -499,7 +499,7 @@ Pentru România, gama Spinea are sens la integratorii de roboți industriali, pr
       "Seria DriveSpin combină reductorul și servomotorul într-o singură unitate compactă, cu montaj direct în structura robotului",
       "Variante cu arbore gol (Hollowshaft) pentru trecerea cablurilor sau conductelor prin centrul articulației",
       "Soluții dedicate pentru AGV și AMR, unde greutatea și gabaritul reductorului contează la fel de mult ca precizia",
-      "Configurator online pentru selecția rapidă a reductorului potrivit pe baza sarcinii și vitezei aplicației",
+      "Selecția reductorului potrivit pe baza sarcinii și vitezei aplicației",
     ],
     keyProducts: [
       { name: "Reductoare cicloidale TwinSpin", description: "Reductoare cu joc unghiular redus și rigiditate mare, în serii cu carcasă cilindrică (T, W), flanșată (E), cu arbore gol (H), dimensiuni mini (M) sau sistem inovator de rulmenți principali (G), plus varianta ușoară JustSpin (J). Se folosesc la articulațiile roboților industriali și colaborativi, unde poziționarea repetabilă contează mai mult decât raportul brut de reducție. Pentru ofertă, clientul trebuie să precizeze seria dorită, cuplul de lucru necesar și tipul de montaj (cu sau fără arbore gol)." },
@@ -513,7 +513,7 @@ Pentru România, gama Spinea are sens la integratorii de roboți industriali, pr
       "Medical — echipamente robotizate de precizie pentru sală de operație",
       "Apărare și securitate — sisteme de orientare și pivotare de precizie",
     ],
-    infinitrade: `Pentru Spinea ne bazăm pe descrierile publice ale gamei de pe site-ul producătorului — fără date proprii de stoc, întrucât fiecare reductor se alege pe baza aplicației concrete. Aducem reductoare TwinSpin și actuatoare DriveSpin la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită cuplul de lucru necesar, turația, gabaritul disponibil în structura echipamentului și dacă are nevoie de arbore gol pentru trecerea cablurilor. Nu putem confirma disponibilitate permanentă din stoc pentru variante configurate special.`,
+    infinitrade: `Pentru Spinea ne bazăm pe descrierile ale gamei din documentația tehnică a producătorului — fără date proprii de stoc, întrucât fiecare reductor se alege pe baza aplicației concrete. Aducem reductoare TwinSpin și actuatoare DriveSpin la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită cuplul de lucru necesar, turația, gabaritul disponibil în structura echipamentului și dacă are nevoie de arbore gol pentru trecerea cablurilor. Nu putem confirma disponibilitate permanentă din stoc pentru variante configurate special.`,
     limitation: "Nu putem confirma punerea în funcțiune sau programarea controlerului robotului care folosește reductorul — aceasta rămâne în sarcina integratorului de automatizare.",
     productCodes: [
       {
@@ -950,7 +950,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
       "Mecanică și metalurgie — unelte de putere mare din gama M18",
       "Echipamente de șantier — echipamente MX FUEL cu acumulator, în locul celor cu motor termic",
     ],
-    infinitrade: `Pentru Milwaukee Tool ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii despre stocul de la nivel de distribuție. Aducem scule M12, M18 și accesorii PACKOUT la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al sculei sau setului dorit și, dacă e cazul, capacitatea acumulatorilor necesară. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare referință din gama M18 sau MX FUEL.`,
+    infinitrade: `Pentru Milwaukee Tool ne bazăm pe documentația tehnică a producătorului — nu avem date proprii despre stocul de la nivel de distribuție. Aducem scule M12, M18 și accesorii PACKOUT la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al sculei sau setului dorit și, dacă e cazul, capacitatea acumulatorilor necesară. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare referință din gama M18 sau MX FUEL.`,
     limitation: "Nu putem confirma service în garanția producătorului pentru scule electrice — acesta rămâne în sarcina rețelei oficiale Milwaukee Tool / Techtronic Industries.",
     productCodes: [
       {
@@ -1037,7 +1037,7 @@ Pentru România, gama Milwaukee are sens la echipe de instalații electrice, san
     faq: [
       {
         "q": "Ce este sistemul PACKOUT de la Milwaukee?",
-        "a": "PACKOUT este sistemul modular de depozitare Milwaukee format din cutii, sertare, organizatoare și accesorii care se cuplează între ele printr-o amprentă standardizată. Modulele se pot stivui, transporta pe cărucior sau monta pe rack de perete ori de vehicul, păstrând aceeași formă de bază indiferent de configurație. Gama include cutii de scule, sertare cu unul până la patru compartimente, organizatoare cu recipiente interioare și lăzi deschise pentru materiale voluminoase, așa cum apar documentate pe site-ul producătorului."
+        "a": "PACKOUT este sistemul modular de depozitare Milwaukee format din cutii, sertare, organizatoare și accesorii care se cuplează între ele printr-o amprentă standardizată. Modulele se pot stivui, transporta pe cărucior sau monta pe rack de perete ori de vehicul, păstrând aceeași formă de bază indiferent de configurație. Gama include cutii de scule, sertare cu unul până la patru compartimente, organizatoare cu recipiente interioare și lăzi deschise pentru materiale voluminoase, așa cum apar documentate în documentația producătorului."
       },
       {
         "q": "Ce diferență este între M18 și M12 la Milwaukee?",
@@ -1090,7 +1090,7 @@ Pentru România, gama Baur are sens la operatorii de rețele electrice de distri
       "Firme de service electric — echipamente mobile pentru intervenții pe teren",
       "Laboratoare de testare electrică — instrumente de diagnosticare a cablurilor",
     ],
-    infinitrade: `Pentru Baur ne bazăm pe informațiile publice de pe site-ul producătorului — fără date proprii de stoc pentru echipamentele de testare. Aducem sisteme de localizare a defectelor și instrumente de testare a uleiului izolant la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită tensiunea nominală a cablurilor deservite, tipul de aplicație (localizare defect, testare izolație, testare ulei) și dacă echipamentul trebuie să fie mobil sau de laborator. Nu putem confirma disponibilitate permanentă din stoc pentru echipamentele configurate special.`,
+    infinitrade: `Pentru Baur ne bazăm pe documentația tehnică a producătorului — fără date proprii de stoc pentru echipamentele de testare. Aducem sisteme de localizare a defectelor și instrumente de testare a uleiului izolant la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită tensiunea nominală a cablurilor deservite, tipul de aplicație (localizare defect, testare izolație, testare ulei) și dacă echipamentul trebuie să fie mobil sau de laborator. Nu putem confirma disponibilitate permanentă din stoc pentru echipamentele configurate special.`,
     limitation: "Nu putem confirma calibrarea periodică sau service-ul în garanția producătorului pentru echipamentele de testare — acestea rămân în sarcina rețelei tehnice Baur.",
     productCodes: [
       {
@@ -1230,7 +1230,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       "Tâmplărie și amenajări interioare — accesorii de tăiere și fixare",
       "Instalații electrice — accesorii de găurire pentru montaj cabluri și tuburi",
     ],
-    infinitrade: `Pentru Irwin Tools ne bazăm pe informațiile disponibile pe site-ul producătorului — fără date proprii de stoc pentru gama completă de scule și accesorii. Aducem clești VISE-GRIP®, cleme și lame de fierăstrău la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, dimensiunea și tipul sculei dorite (fălci drepte, curbate, pentru țeavă). Nu avem confirmare de disponibilitate permanentă din stoc pentru toate referințele din catalog.`,
+    infinitrade: `Pentru Irwin Tools ne bazăm pe documentația tehnică a producătorului — fără date proprii de stoc pentru gama completă de scule și accesorii. Aducem clești VISE-GRIP®, cleme și lame de fierăstrău la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al produsului sau, dacă nu îl are, dimensiunea și tipul sculei dorite (fălci drepte, curbate, pentru țeavă). Nu avem confirmare de disponibilitate permanentă din stoc pentru toate referințele din catalog.`,
     limitation: "Nu putem confirma disponibilitatea unor referințe mai vechi sau retrase din catalogul curent — gama activă poate diferi de cea listată în materiale mai vechi.",
     productCodes: [
       {
@@ -1321,7 +1321,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
     faq: [
       {
         "q": "Ce înseamnă codul unei cleme IRWIN precum IRHT83500?",
-        "a": "Codurile IRWIN combină de regulă un prefix de familie, cum este IRHT pentru clemele QUICK-GRIP, cu un număr care identifică varianta de lungime sau capacitate din gama respectivă. Astfel, IRHT83500 și IRHT83501 sunt aceeași familie de cleme hibride, dar cu lungimi diferite ale barei. Pentru confirmare exactă, verificați întotdeauna codul complet de pe eticheta produsului sau din catalogul oficial al producătorului."
+        "a": "Codurile IRWIN combină de regulă un prefix de familie, cum este IRHT pentru clemele QUICK-GRIP, cu un număr care identifică varianta de lungime sau capacitate din gama respectivă. Astfel, IRHT83500 și IRHT83501 sunt aceeași familie de cleme hibride, dar cu lungimi diferite ale barei. Pentru confirmare exactă, verificați întotdeauna codul complet de pe eticheta produsului sau transmiteți-ne codul, iar noi îl verificăm în documentația producătorului."
       },
       {
         "q": "Care e diferența dintre clemele SL300 și XP600?",
@@ -1375,7 +1375,7 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
       "Camere de congelare comercială — detectoare de gaz pentru spații închise",
       "Service instalații HVAC — instrumente portabile de diagnosticare",
     ],
-    infinitrade: `Pentru Bacharach ne bazăm pe informațiile publice de pe site-ul producătorului — fără date proprii de stoc pentru detectoare și analizoare. Aducem detectoarele MGS-400, analizoarele PCA 400 și componentele platformei Parasense la comandă, prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de agent frigorific sau combustibil monitorizat, numărul de zone sau puncte de măsură și dacă instalația necesită integrare cu un sistem central. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă.`,
+    infinitrade: `Pentru Bacharach ne bazăm pe documentația tehnică a producătorului — fără date proprii de stoc pentru detectoare și analizoare. Aducem detectoarele MGS-400, analizoarele PCA 400 și componentele platformei Parasense la comandă, prin canale de aprovizionare din UE sau SUA, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de agent frigorific sau combustibil monitorizat, numărul de zone sau puncte de măsură și dacă instalația necesită integrare cu un sistem central. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă.`,
     limitation: "Nu putem confirma calibrarea periodică sau certificarea metrologică locală a instrumentelor de măsură — aceasta se stabilește separat, conform cerințelor legale din România.",
     productCodes: [
       {

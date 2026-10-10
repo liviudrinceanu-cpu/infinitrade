@@ -28,7 +28,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       "Agricultură — monitorizare irigație și condiții de mediu pe teren întins",
       "Depozite și hale de producție — senzori de temperatură și distanță fără cablare",
     ],
-    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din surse publice ale producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
+    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din documentația tehnică a producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
     limitation: "Nu putem confirma acoperirea exactă a rețelei LoRaWAN publice din România și nici disponibilitatea locală de configurare a platformei cloud Milesight.",
     productCodes: [
       {
@@ -155,7 +155,7 @@ Pentru fabricile din România, DESTACO are sens la liniile de sudură auto, celu
       "Prelucrare metalică — strângere piese pe mese de mașini-unelte",
       "Electronice — poziționare de precizie la asamblarea componentelor mici",
     ],
-    infinitrade: `La comenzi pentru clemele, griperele sau indexatoarele DESTACO trecem prin canalele de aprovizionare din Uniunea Europeană; orientativ, o comandă durează 1–4 săptămâni până la livrare. Brandul nu are la noi disponibilitate permanentă din stoc, motiv pentru care avem nevoie de seria exactă, dimensiunea și cursa mecanismului înainte să pregătim o ofertă. Menționăm transparent ce putem și ce nu putem confirma: conținutul tehnic de mai sus se bazează pe surse publice ale producătorului DESTACO, fără acces intern la stocurile reale ale rețelei Stabilus.`,
+    infinitrade: `La comenzi pentru clemele, griperele sau indexatoarele DESTACO trecem prin canalele de aprovizionare din Uniunea Europeană; orientativ, o comandă durează 1–4 săptămâni până la livrare. Brandul nu are la noi disponibilitate permanentă din stoc, motiv pentru care avem nevoie de seria exactă, dimensiunea și cursa mecanismului înainte să pregătim o ofertă. Menționăm transparent ce putem și ce nu putem confirma: conținutul tehnic de mai sus se bazează pe documentația tehnică a producătorului DESTACO, fără acces intern la stocurile reale ale rețelei Stabilus.`,
     limitation: "Nu putem confirma disponibilitatea locală de service în garanție pentru componentele electrice eRDH, care necesită de regulă intervenție prin rețeaua Stabilus.",
     productCodes: [
       {
@@ -254,7 +254,7 @@ Pentru instalațiile din România, iwis are sens la liniile de ambalare și tran
       "Ciment și agregate — lanțuri rezistente la abraziune și praf",
       "Agricultură — transmisii pentru utilaje de recoltat și procesat",
     ],
-    infinitrade: `Comenzile pentru lanțuri și componente iwis intră pe fluxul nostru obișnuit de aprovizionare din Uniunea Europeană, cu un termen de livrare orientativ de 1–4 săptămâni. Fără date proprii despre stocurile reale ale producătorului, vă rugăm să ne trimiteți pasul lanțului, numărul de zale și tipul de bucșă (standard sau b.dry) — abia atunci putem confirma disponibilitatea și termenul exact. Restul informațiilor tehnice de mai sus provin din surse publice ale producătorului iwis, accesate direct pe site-ul oficial.`,
+    infinitrade: `Comenzile pentru lanțuri și componente iwis intră pe fluxul nostru obișnuit de aprovizionare din Uniunea Europeană, cu un termen de livrare orientativ de 1–4 săptămâni. Fără date proprii despre stocurile reale ale producătorului, vă rugăm să ne trimiteți pasul lanțului, numărul de zale și tipul de bucșă (standard sau b.dry) — abia atunci putem confirma disponibilitatea și termenul exact. Restul informațiilor tehnice de mai sus provin din documentația tehnică a producătorului iwis.`,
     limitation: "Nu putem confirma echivalența exactă între pasul lanțurilor iwis și cel al lanțurilor deja montate pe utilajul dumneavoastră fără codul complet de comandă.",
     productCodes: [
       {
@@ -362,7 +362,7 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
       "Logistică și ambalaje — ghidaje pentru sisteme de manipulare",
       "Industria alimentară — rulmenți pentru echipamente de procesare",
     ],
-    infinitrade: `Ghidajele liniare și rulmenții IKO ajung la client prin canale de aprovizionare europene, la un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma spunem direct: nu avem disponibilitate permanentă din stoc pentru acest brand, iar datele tehnice folosite mai sus provin din surse publice ale producătorului IKO/Nippon Thompson. Pentru o ofertă corectă avem nevoie de codul complet al produsului — seria, dimensiunea și clasa de precizie cerută.`,
+    infinitrade: `Ghidajele liniare și rulmenții IKO ajung la client prin canale de aprovizionare europene, la un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Ce putem și ce nu putem confirma spunem direct: nu avem disponibilitate permanentă din stoc pentru acest brand, iar datele tehnice folosite mai sus provin din documentația tehnică a producătorului IKO/Nippon Thompson. Pentru o ofertă corectă avem nevoie de codul complet al produsului — seria, dimensiunea și clasa de precizie cerută.`,
     limitation: "Nu putem confirma echivalența directă între clasa de precizie IKO și cea a ghidajelor deja montate pe mașina dumneavoastră fără codul complet de produs.",
     productCodes: [
       {
@@ -443,7 +443,7 @@ Pentru echipamentele din România, IKO are sens la retehnologizarea mașinilor-u
     name: "Kipp",
     overview: `KIPP este un producător german de elemente standard de mașini și tehnologie de strângere/fixare, cu producție "Made in Germany" și distribuție prin subsidiare regionale, inclusiv în America de Nord. Gama acoperă mânere ajustabile, sisteme de fixare rapidă, arcuri cu gaz și dispozitive de acționare pneumatică sau hidraulică. Din portofoliu putem oferta mânere reglabile din liniile FEATUREgrip și NATUREgrip, elemente de indexare și sisteme de strângere rapidă pentru dispozitive și fixturi.
 
-KIPP se compară cu Norelem pe segmentul elementelor standard de mașini — ambele oferă cataloage largi de mânere, bolțuri de indexare, șuruburi cu cap striat și componente de fixare gata de montat, gândite să scurteze timpul de proiectare a dispozitivelor și fixturilor. Producătorul declară certificare ISO 9001 pentru managementul calității și ISO 14001:2015 pentru managementul de mediu, plus mențiunea „TÜV Service tested”, afișată pe site-ul producătorului.
+KIPP se compară cu Norelem pe segmentul elementelor standard de mașini — ambele oferă cataloage largi de mânere, bolțuri de indexare, șuruburi cu cap striat și componente de fixare gata de montat, gândite să scurteze timpul de proiectare a dispozitivelor și fixturilor. Producătorul declară certificare ISO 9001 pentru managementul calității și ISO 14001:2015 pentru managementul de mediu, plus mențiunea „TÜV Service tested”, afișată în documentația producătorului.
 
 Pentru ateliere și linii de producție din România, KIPP are sens la proiectarea de dispozitive, fixturi și mașini speciale, acolo unde elementele standard (mânere, bolțuri, sisteme de fixare rapidă) reduc timpul de fabricație față de piese executate custom. Compatibilitatea cu standardele DIN uzuale ușurează integrarea în proiecte existente.`,
     whyChoose: [
@@ -466,7 +466,7 @@ Pentru ateliere și linii de producție din România, KIPP are sens la proiectar
       "Construcții de instalații — bolțuri de indexare și componente de reglaj",
       "Metalurgie — arcuri cu gaz pentru dispozitive grele",
     ],
-    infinitrade: `Pentru elementele standard și sistemele de fixare KIPP, comanda trece prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Informațiile publicate aici vin din surse publice ale producătorului KIPP, fără date proprii despre stocurile reale ale distribuției. Vă rugăm să ne trimiteți codul de catalog exact, inclusiv dimensiunea și materialul, pentru o ofertă pe care o putem confirma punctual.`,
+    infinitrade: `Pentru elementele standard și sistemele de fixare KIPP, comanda trece prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Informațiile din această pagină vin din documentația tehnică a producătorului KIPP, fără date proprii despre stocurile reale ale distribuției. Vă rugăm să ne trimiteți codul de catalog exact, inclusiv dimensiunea și materialul, pentru o ofertă pe care o putem confirma punctual.`,
     limitation: "Nu putem confirma disponibilitatea locală de configurare CAD personalizată pentru elementele KIPP, serviciu oferit de regulă direct de producător.",
     productCodes: [
       {
@@ -568,8 +568,8 @@ Pentru instalațiile industriale din România, segmentul relevant din gama Prysm
       "Construcții — cabluri electrice pentru clădiri și infrastructură",
       "Telecomunicații — fibră optică și cabluri de rețea pentru centre de date",
     ],
-    infinitrade: `Cablurile Prysmian relevante pentru instalații industriale se aduc la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Nu avem disponibilitate permanentă din stoc pentru acest brand — secțiunea cablului, tipul de izolație și lungimea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele tehnice de mai sus provin din surse publice ale producătorului Prysmian, fără acces la stocurile reale ale distribuitorilor regionali.`,
-    limitation: "Nu putem confirma disponibilitatea locală a variantelor de cabluri submarine sau de înaltă tensiune HVDC, rezervate proiectelor mari coordonate direct cu producătorul.",
+    infinitrade: `Cablurile Prysmian relevante pentru instalații industriale se aduc la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni. Nu avem disponibilitate permanentă din stoc pentru acest brand — secțiunea cablului, tipul de izolație și lungimea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele tehnice de mai sus provin din documentația tehnică a producătorului Prysmian, fără acces la stocurile reale ale distribuitorilor regionali.`,
+    limitation: "Nu putem confirma disponibilitatea locală a variantelor de cabluri submarine sau de înaltă tensiune HVDC, rezervate proiectelor mari coordonate cu producătorul.",
     productCodes: [
       {
         "code": "Sirocco",
@@ -684,7 +684,7 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
       "Industria alimentară — pretratare mecanică a apei înainte de alte trepte",
       "Sisteme colective — filtrare și dezinfecție UV pentru clădiri cu surse proprii",
     ],
-    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 1–4 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din surse publice ale producătorului Cintropur/Airwatec.`,
+    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 1–4 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din documentația tehnică a producătorului Cintropur/Airwatec.`,
     limitation: "Nu putem confirma compatibilitatea exactă a cartușelor de schimb cu instalații mai vechi Cintropur fără modelul precis al carcasei.",
     productCodes: [
       {
@@ -796,7 +796,7 @@ Pentru industria din România, Argal are sens la manipularea de acizi, vopsele, 
       "Cosmetice și farmaceutice — transfer de fluide sensibile la contaminare",
       "Aplicații offshore — pompele MISTRAL, în variante din inox sau polietilenă",
     ],
-    infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită direct cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din surse publice ale producătorului Argal.`,
+    infinitrade: `Pompele Argal ajung la client prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Nu deținem disponibilitate permanentă din stoc pentru acest brand, deci avem nevoie de fluidul pompat, debitul dorit și materialul de contact pentru a stabili configurația potrivită cu producătorul. Ce putem și ce nu putem confirma: conținutul tehnic de mai sus vine din documentația tehnică a producătorului Argal.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a membranelor Argal cu fiecare fluid specific fără fișa de securitate a produsului dumneavoastră.",
     productCodes: [
       {
@@ -895,7 +895,7 @@ Pentru atelierele și constructorii metalici din România, ESAB are sens la sudu
       "Petrochimie — sudură conducte și rezervoare rezistente la coroziune",
       "Mentenanță industrială — hardfacing pentru piese supuse abraziunii",
     ],
-    infinitrade: `Echipamentele și consumabilele ESAB se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Fără date proprii despre stocurile reale ale producătorului sau ale distribuitorilor regionali, avem nevoie de codul exact al modelului — sau, pentru consumabile, de diametrul sârmei și tipul de gaz de protecție — pentru o ofertă verificabilă. Informațiile din această pagină provin din surse publice ale producătorului ESAB, accesate direct pe site-ul oficial.`,
+    infinitrade: `Echipamentele și consumabilele ESAB se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Fără date proprii despre stocurile reale ale producătorului sau ale distribuitorilor regionali, avem nevoie de codul exact al modelului — sau, pentru consumabile, de diametrul sârmei și tipul de gaz de protecție — pentru o ofertă verificabilă. Informațiile din această pagină provin din documentația tehnică a producătorului ESAB.`,
     limitation: "Nu putem confirma echivalența directă între consumabilul ESAB și cel deja calificat în procedura dumneavoastră de sudare (WPS) fără verificarea codului exact.",
     productCodes: [
       {
@@ -1006,7 +1006,7 @@ Pentru șantierele și fabricile din România, JSP are sens la echiparea complet
       "Industrie grea — protecție respiratorie pentru medii cu praf sau particule",
       "Management de trafic rutier — bariere și semnalizare pentru șantiere",
     ],
-    infinitrade: `Comenzile pentru echipamentul de protecție JSP trec prin canale de aprovizionare din Uniunea Europeană, la un termen orientativ de 1–4 săptămâni. Marca nu are la noi disponibilitate permanentă din stoc, iar mărimea, standardul cerut (EN 397 sau EN 12492) și cantitatea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele de mai sus provin din surse publice ale producătorului JSP.`,
+    infinitrade: `Comenzile pentru echipamentul de protecție JSP trec prin canale de aprovizionare din Uniunea Europeană, la un termen orientativ de 1–4 săptămâni. Marca nu are la noi disponibilitate permanentă din stoc, iar mărimea, standardul cerut (EN 397 sau EN 12492) și cantitatea trebuie confirmate înainte de ofertă. Ce putem și ce nu putem confirma: datele de mai sus provin din documentația tehnică a producătorului JSP.`,
     limitation: "Nu putem confirma clasa de filtru respirator potrivită pentru contaminantul dumneavoastră specific fără fișa de securitate a substanței din mediul de lucru.",
     productCodes: [
       {
@@ -1109,7 +1109,7 @@ Pentru producătorii din România cu control dimensional propriu, gama Hexagon M
       "Electronice — măsurare de precizie a componentelor mici",
       "Industrie grea — inspecție piese turnate sau sudate de dimensiuni mari",
     ],
-    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul este de 1–4 săptămâni pentru componente și software, iar sistemele complexe (de exemplu CMM complete) depășesc de regulă 4 săptămâni și se configurează punctual direct cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din surse publice ale producătorului, respectiv Hexagon AB.`,
+    infinitrade: `Sistemele de metrologie Hexagon Manufacturing Intelligence se aduc la comandă prin canale de aprovizionare din Uniunea Europeană; orientativ, termenul este de 1–4 săptămâni pentru componente și software, iar sistemele complexe (de exemplu CMM complete) depășesc de regulă 4 săptămâni și se configurează punctual cu producătorul. Fără date proprii despre stocurile reale ale acestui brand, avem nevoie de aplicația exactă — dimensiunea piesei, toleranța cerută — pentru a direcționa corect cererea dumneavoastră. Informațiile tehnice de mai sus provin din documentația tehnică a producătorului, respectiv Hexagon AB.`,
     limitation: "Nu putem confirma compatibilitatea software-ului de metrologie cu formatele CAD proprii ale clientului fără o verificare punctuală.",
     productCodes: [
       {

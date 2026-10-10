@@ -30,7 +30,7 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
       "Foraj și minerit — motoare de mare putere pentru utilaje de teren dificil",
       "Mediu — echipamente pentru colectare și procesare unde tracțiunea variabilă contează",
     ],
-    infinitrade: `Aducem motoare hidraulice și componente de transmisie hidrostatică Poclain Hydraulics la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea seriei și a configurației. Ne bazăm exclusiv pe informațiile publice disponibile pe site-ul producătorului pentru identificarea familiei potrivite, fără date proprii despre stocul curent al vreunui cod anume. Pentru o ofertă corectă avem nevoie de cuplul necesar, turația de lucru, presiunea de sistem și tipul de montaj (roată, șenilă, mecanism de rotire). Nu promitem disponibilitate permanentă pentru o serie anume — fiecare cerere se verifică punctual la producător.`,
+    infinitrade: `Aducem motoare hidraulice și componente de transmisie hidrostatică Poclain Hydraulics la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea seriei și a configurației. Ne bazăm exclusiv pe documentația tehnică a producătorului pentru identificarea familiei potrivite, fără date proprii despre stocul curent al vreunui cod anume. Pentru o ofertă corectă avem nevoie de cuplul necesar, turația de lucru, presiunea de sistem și tipul de montaj (roată, șenilă, mecanism de rotire). Nu promitem disponibilitate permanentă pentru o serie anume — fiecare cerere se verifică punctual la producător.`,
     limitation: "Nu confirmăm stoc pentru un cod Poclain anume și nu oferim service în garanția producătorului.",
     productCodes: [
       { code: "MK", description: "Motor hidraulic compact, pentru spații de montaj reduse" },
@@ -65,7 +65,7 @@ Pentru piața din România, gama Poclain are sens la utilaje agricole, de constr
   walterscheid: {
     name: "Walterscheid",
     headquarters: "Lohmar, Germania",
-    overview: `Walterscheid este un producător german de transmisii cardanice (Gelenkwellen) și sisteme de atașare pentru tractoare, cu sediul la Lohmar. Din 2023 face parte din Comer Industries, grup descris pe propriul site drept furnizor global de soluții de transmisie conectate și inteligente. Gama Walterscheid acoperă arbori cardanici compleți și pe jumătăți, cuple de diverse tipuri (cu bolțuri radiale, cu came, cu bolț de forfecare, cu fricțiune, de tip roată liberă, cu joc rotativ), sisteme de atașare pentru tractor (brațe superioare și inferioare, sisteme de stabilizare) și tehnică de remorcare cu cuple cu bilă și bolț.
+    overview: `Walterscheid este un producător german de transmisii cardanice (Gelenkwellen) și sisteme de atașare pentru tractoare, cu sediul la Lohmar. Din 2023 face parte din Comer Industries, grup descris în materialele proprii drept furnizor global de soluții de transmisie conectate și inteligente. Gama Walterscheid acoperă arbori cardanici compleți și pe jumătăți, cuple de diverse tipuri (cu bolțuri radiale, cu came, cu bolț de forfecare, cu fricțiune, de tip roată liberă, cu joc rotativ), sisteme de atașare pentru tractor (brațe superioare și inferioare, sisteme de stabilizare) și tehnică de remorcare cu cuple cu bilă și bolț.
 
 Ce diferențiază Walterscheid de alți producători de transmisii cardanice este acoperirea completă a lanțului mecanic dintre tractor și utilajul acționat: de la sistemul ULTRA.PLUS la cutiile de viteze ICVD®, produse de Walterscheid Getriebe GmbH. Arborii cardanici sunt proiectați conform standardului EN 12965:2019, relevant pentru siguranța transmisiei principale de putere la utilajele agricole.
 
@@ -128,14 +128,14 @@ Pentru România, gama Walterscheid are sens la ferme și service-uri de utilaje 
     headquarters: "Güglingen, Germania",
     overview: `Weber-Hydraulik este un producător german de cilindri hidraulici cu peste 85 de ani de activitate, cu sediul la Güglingen și fabrici suplimentare la Reichenau, Wörth an der Isar (Germania), Losenstein (Austria) și Wykroty (Polonia). Gama de cilindri acoperă aplicații de șasiu, suspensie, direcție și tensionare pentru utilaje mobile — de la combine forestiere la macarale mobile și utilaje de deszăpezire. Fiecare model este identificat printr-un cod propriu de tip HZ, asociat unei aplicații specifice.
 
-Ce diferențiază Weber-Hydraulik este specializarea pe cilindri dedicați fiecărui tip de utilaj mobil, nu doar cilindri hidraulici generici: cilindri de direcție pentru tractoare, încărcătoare frontale, autobasculante și macarale mobile, cilindri de suspensie cu acumulator de piston integrat pentru mașini de stropit câmpuri, cilindri de tensionare a lanțului pentru mașini de bătătorit zăpadă și cilindri de ajustare a ecartamentului pentru macarale pe șenile. Pe site-ul propriu, compania menționează ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX (securitatea informației în industria auto).
+Ce diferențiază Weber-Hydraulik este specializarea pe cilindri dedicați fiecărui tip de utilaj mobil, nu doar cilindri hidraulici generici: cilindri de direcție pentru tractoare, încărcătoare frontale, autobasculante și macarale mobile, cilindri de suspensie cu acumulator de piston integrat pentru mașini de stropit câmpuri, cilindri de tensionare a lanțului pentru mașini de bătătorit zăpadă și cilindri de ajustare a ecartamentului pentru macarale pe șenile. În materialele proprii, compania menționează ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX (securitatea informației în industria auto).
 
 Pentru România, gama Weber-Hydraulik are sens la producătorii și service-urile de utilaje agricole, forestiere și de construcții care au nevoie de un cilindru de schimb identificat după codul original al utilajului.`,
     whyChoose: [
       "Peste 85 de ani de experiență în proiectarea de cilindri hidraulici pentru utilaje mobile",
       "Cilindri dedicați pe aplicație — direcție, suspensie, tensionare — nu doar cilindri generici",
       "Rețea de producție în Germania, Austria și Polonia, cu acoperire pentru mai multe segmente de utilaje",
-      "ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX, menționate pe site-ul producătorului",
+      "ISO/SAE 21434 (securitate cibernetică în vehiculele rutiere) și TISAX, menționate în documentația producătorului",
       "Cod de tip propriu (seria HZ) pentru fiecare model, util la identificarea piesei de schimb",
     ],
     keyProducts: [
@@ -216,7 +216,7 @@ Pentru România, gama Zimmer Group are sens la integratorii de linii de automati
       "Life science — gripere de precizie pentru aplicații de laborator",
       "Electronică — manipulare componente mici cu gripere centrice",
     ],
-    infinitrade: `Furnizăm gripere, amortizoare și module de strângere Zimmer Group la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Ne bazăm pe informațiile publice de pe site-ul Zimmer Group pentru identificarea seriei potrivite și nu deținem date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de forța de prindere sau energia de amortizare necesară, cursa sau diametrul piesei manipulate și tipul de montaj pe robot sau axă. Disponibilitatea fiecărui cod din gamă se verifică punctual la producător, fără promisiune de disponibilitate imediată.`,
+    infinitrade: `Furnizăm gripere, amortizoare și module de strângere Zimmer Group la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni în funcție de confirmarea codului la producător. Ne bazăm pe documentația Zimmer Group pentru identificarea seriei potrivite și nu deținem date proprii despre stocul curent al vreunui model. Pentru o ofertă corectă avem nevoie de forța de prindere sau energia de amortizare necesară, cursa sau diametrul piesei manipulate și tipul de montaj pe robot sau axă. Disponibilitatea fiecărui cod din gamă se verifică punctual la producător, fără promisiune de disponibilitate imediată.`,
     limitation: "Nu confirmăm stoc pentru un cod Zimmer Group anume și nu configurăm software-ul propriu de control al griperelor.",
     productCodes: [
       { code: "GEH6000IL", description: "Gripper paralel cu două bacuri" },

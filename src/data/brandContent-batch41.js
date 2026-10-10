@@ -34,7 +34,7 @@ Pentru România, Siko are sens la retehnologizarea mașinilor-unelte, la utilaje
       "PLd (ISO 13849) — nivel de performanță pentru integrare în oprirea de urgență"
     ],
     infinitrade: `Aducem gama Siko din surse de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma ține de configurație: trimiteți codul de pe eticheta senzorului actual sau parametrii aplicației (cursă, rezoluție, protocol). Nu ținem disponibilitate permanentă din stoc pentru toate variantele.`,
-    limitation: "Nu putem confirma disponibilitatea imediată din stoc pentru variantele cu certificare de siguranță funcțională, care se comandă de regulă direct de la producător.",
+    limitation: "Nu putem confirma disponibilitatea imediată din stoc pentru variantele cu certificare de siguranță funcțională, care se comandă de regulă din fabrică.",
     productCodes: [
       {
         "code": "MagLine incremental linear",
@@ -248,7 +248,7 @@ Pentru piața din România, gama de convertizoare Fuji Electric are sens la rete
     headquarters: "Austria",
     overview: `NKE Austria este un producător austriac de rulmenți, specializat atât în rulmenți standard cu bile și role, cât și în soluții personalizate pentru clienți industriali. Compania declară o rețea de peste 240 de parteneri comerciali în peste 60 de țări. Din gama NKE putem oferta rulmenți pentru aplicații industriale generale.
 
-NKE declară o politică de calitate strictă și utilizarea de echipamente avansate de testare și măsurare. Site-ul oficial nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
+NKE declară o politică de calitate strictă și utilizarea de echipamente avansate de testare și măsurare. Documentația producătorului nu detaliază public parametrii tehnici exacți (sarcini dinamice, viteze limită) pentru fiecare serie, motiv pentru care recomandăm confirmarea directă a codului de rulment cu fișa tehnică a producătorului înainte de comandă. Compania e menționată în context cu grupul internațional FERSA din industria rulmenților.
 
 Pentru România, NKE are sens ca alternativă de aprovizionare pentru rulmenți standard la mentenanța utilajelor industriale.`,
     whyChoose: [
@@ -677,7 +677,7 @@ Pentru România, gama Amphenol are sens la echipamente industriale unde conector
       },
       {
         "q": "Livrați conectori Amphenol în România?",
-        "a": "Da, aducem la comandă conectori solari, conectori pentru eMobility și accesorii din gama Amphenol Industrial prezentată mai sus, pornind de la fișele tehnice publicate de producător pe site-ul oficial. Nu păstrăm aceste repere pe stoc propriu; intervalul obișnuit este de 1–4 săptămâni de la plasarea comenzii. Pentru o ofertă, indicați tipul conectorului, tensiunea de lucru și secțiunea cablului."
+        "a": "Da, aducem la comandă conectori solari, conectori pentru eMobility și accesorii din gama Amphenol Industrial prezentată mai sus, pornind de la fișele tehnice publicate de producător în documentația producătorului. Nu păstrăm aceste repere pe stoc propriu; intervalul obișnuit este de 1–4 săptămâni de la plasarea comenzii. Pentru o ofertă, indicați tipul conectorului, tensiunea de lucru și secțiunea cablului."
       }
     ],
     evidenceClass: "market-signal-ro",

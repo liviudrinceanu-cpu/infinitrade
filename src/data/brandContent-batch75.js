@@ -28,7 +28,7 @@ Pentru integratorii din România, ADLINK are sens acolo unde un sistem de contro
       "Sănătate — echipamente medicale cu cerințe de fiabilitate ridicată",
       "Logistică și retail — terminale și gateway-uri pentru colectarea datelor"
     ],
-    infinitrade: `Aducem module și sisteme ADLINK din gama publicată de producător, prin canale de aprovizionare din UE, la comandă. Lucrăm din surse publice ale producătorului pentru specificații — nu avem date proprii despre disponibilitatea imediată a fiecărui cod de model, așa că termenul orientativ rămâne 1–4 săptămâni de la confirmarea comenzii, în funcție de configurația exactă cerută. Pentru o ofertă corectă avem nevoie de codul complet al modulului sau sistemului, procesorul dorit și eventualele interfețe suplimentare. Nu promitem stoc pe niciunul dintre coduri până la confirmarea explicită a producătorului.`,
+    infinitrade: `Aducem module și sisteme ADLINK din gama producătorului, prin canale de aprovizionare din UE, la comandă. Lucrăm din documentația tehnică a producătorului pentru specificații — nu avem date proprii despre disponibilitatea imediată a fiecărui cod de model, așa că termenul orientativ rămâne 1–4 săptămâni de la confirmarea comenzii, în funcție de configurația exactă cerută. Pentru o ofertă corectă avem nevoie de codul complet al modulului sau sistemului, procesorul dorit și eventualele interfețe suplimentare. Nu promitem stoc pe niciunul dintre coduri până la confirmarea explicită a producătorului.`,
     limitation: "Nu putem confirma disponibilitatea imediată sau termenele exacte de livrare pentru module configurate special, acestea depinzând de producător la momentul comenzii.",
     productCodes: [
       { code: "COM-HPC", description: "modul Computer-on-Module de generație nouă, tip Server sau Client" },
@@ -156,7 +156,7 @@ Pentru instalațiile din România, motoarele JVL au sens acolo unde spațiul din
       "Mese rotative și module de poziționare — motoare integrate pentru mișcări repetitive",
       "Linii existente — completare cu motoare cu protocoale de comunicație compatibile"
     ],
-    infinitrade: `Aducem motoare JVL Industri Elektronik din gamele MAC și MIS prin canale de aprovizionare din UE, la comandă. Informațiile publice disponibile pe site-ul producătorului nu acoperă stocul curent pe fiecare cod, așa că lucrăm cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de puterea și modulul de comunicare cerute. Pentru ofertă avem nevoie de puterea sau cuplul necesar, tipul de comunicare din linie (Ethernet, IO-Link, CANopen) și dacă aveți nevoie de buclă închisă de poziție. Nu promitem disponibilitate imediată pe niciun model din gamă.`,
+    infinitrade: `Aducem motoare JVL Industri Elektronik din gamele MAC și MIS prin canale de aprovizionare din UE, la comandă. Documentația producătorului nu acoperă stocul curent pe fiecare cod, așa că lucrăm cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de puterea și modulul de comunicare cerute. Pentru ofertă avem nevoie de puterea sau cuplul necesar, tipul de comunicare din linie (Ethernet, IO-Link, CANopen) și dacă aveți nevoie de buclă închisă de poziție. Nu promitem disponibilitate imediată pe niciun model din gamă.`,
     limitation: "Nu putem confirma stocul curent al producătorului pentru un model MAC sau MIS anume, disponibilitatea fiind stabilită la momentul comenzii.",
     productCodes: [
       { code: "MAC050", description: "servomotor integrat de 46 W" },
@@ -216,7 +216,7 @@ Pentru instalațiile din România, Opto 22 are sens acolo unde se dorește o pla
       "Achiziție de date — integrare directă cu baze de date și platforme cloud",
       "Digitalizare (IIoT) — conectarea echipamentelor existente la sisteme de analiză"
     ],
-    infinitrade: `Furnizăm controlere și module I/O Opto 22 prin canale de aprovizionare din UE, la comandă. Nu avem date proprii despre stocul curent al fiecărui cod — verificăm disponibilitatea direct la producător după confirmarea configurației, cu un termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de numărul de puncte I/O necesare, tipul de semnal (digital, analogic, termocuplu) și dacă aplicația cere un controler groov EPIC complet sau doar module I/O groov RIO. Nu promitem disponibilitate din depozit pe niciun model din gamă — valabil pentru toată gama Opto 22.`,
+    infinitrade: `Furnizăm controlere și module I/O Opto 22 prin canale de aprovizionare din UE, la comandă. Nu avem date proprii despre stocul curent al fiecărui cod — verificăm noi disponibilitatea după confirmarea configurației, cu un termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de numărul de puncte I/O necesare, tipul de semnal (digital, analogic, termocuplu) și dacă aplicația cere un controler groov EPIC complet sau doar module I/O groov RIO. Nu promitem disponibilitate din depozit pe niciun model din gamă — valabil pentru toată gama Opto 22.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model I/O legacy (G1, G4, Optomux) anume, aceasta depinzând de stocul producătorului la momentul comenzii.",
     productCodes: [
       { code: "groov EPIC", description: "controler industrial programabil edge cu I/O integrat" },
@@ -253,7 +253,7 @@ Pentru instalațiile din România, Opto 22 are sens acolo unde se dorește o pla
 
   'posital-fraba': {
     name: "POSITAL FRABA",
-    overview: `POSITAL FRABA este un producător german de encodere absolute, encodere incrementale, inclinometre și senzori liniari, parte din grupul internațional FRABA, cu peste 60 de ani de experiență în senzori de poziție și mișcare declarați pe site-ul propriu. Gama IXARC de encodere absolute fără baterie este linia principală a companiei, disponibilă cu numeroase interfețe de comunicație diferite. Pentru piața din România putem oferta encodere din gama publicată a producătorului, la comandă.
+    overview: `POSITAL FRABA este un producător german de encodere absolute, encodere incrementale, inclinometre și senzori liniari, parte din grupul internațional FRABA, cu peste 60 de ani de experiență în senzori de poziție și mișcare declarați. Gama IXARC de encodere absolute fără baterie este linia principală a companiei, disponibilă cu numeroase interfețe de comunicație diferite. Pentru piața din România putem oferta encodere din gama producătorului, la comandă.
 
 Ce diferențiază POSITAL este tehnologia fără baterie (Wiegand) pentru menținerea poziției multitură chiar și fără alimentare, combinată cu o gamă foarte largă de interfețe — de la ieșiri analogice și SSI, până la fieldbus-uri clasice (CANopen, Profibus, Modbus RTU) și Ethernet industrial (Profinet, EtherNet/IP, EtherCAT). Compania oferă și variante certificate ATEX pentru zone 1/21 și 2/22, relevante pentru medii cu risc de explozie.
 
@@ -340,7 +340,7 @@ Pentru instalațiile din România, echipamentele Perle au sens acolo unde trebui
       "Monitorizare de la distanță — routere celulare pentru site-uri izolate",
       "Infrastructură IoT — extensoare și convertoare media pentru rețele întinse"
     ],
-    infinitrade: `Furnizăm echipamente Perle Systems din gamele IOLAN, IDS și seria de routere celulare prin canale de aprovizionare din UE, la comandă. Ce putem și ce nu putem confirma ține de stocul curent al fiecărui model — verificăm disponibilitatea direct cu producătorul, cu un termen orientativ de 1–4 săptămâni de la comanda confirmată. Pentru ofertă avem nevoie de numărul de porturi necesare, tipul de conexiune (serial, Ethernet, celular) și mediul de instalare (interior, industrial, exterior). Nu promitem disponibilitate din depozit pentru niciun model din gamă — valabil pentru toată gama Perle Systems.`,
+    infinitrade: `Furnizăm echipamente Perle Systems din gamele IOLAN, IDS și seria de routere celulare prin canale de aprovizionare din UE, la comandă. Ce putem și ce nu putem confirma ține de stocul curent al fiecărui model — verificăm disponibilitatea cu producătorul, cu un termen orientativ de 1–4 săptămâni de la comanda confirmată. Pentru ofertă avem nevoie de numărul de porturi necesare, tipul de conexiune (serial, Ethernet, celular) și mediul de instalare (interior, industrial, exterior). Nu promitem disponibilitate din depozit pentru niciun model din gamă — valabil pentru toată gama Perle Systems.`,
     limitation: "Nu putem confirma acoperirea rețelelor celulare locale pentru routerele 5G/LTE, aceasta depinzând de operatorul de telefonie mobil ales de client.",
     productCodes: [
       { code: "IOLAN", description: "serie de console servers pentru management out-of-band" },

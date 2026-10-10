@@ -106,7 +106,7 @@ Pentru o linie de îmbuteliere, o brutărie industrială sau o fabrică de cosme
       "3A Sanitary Standards — pentru echipamente în contact cu alimente",
       "EHEDG — proiectare igienică verificată pentru pompele sanitare",
     ],
-    infinitrade: `Lucrăm cu gama CSF Inox pe baza informațiilor publice de pe site-ul producătorului italian; nu avem date proprii despre disponibilitatea din fabrica de la Montecchio Emilia. Aducem pompele centrifuge și volumetrice prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de seria și materialele cerute. Pentru piesele de uzură ale pompelor cu rotor progresiv — rotoare și statoare — verificăm disponibilitatea la fiecare cerere, fără să promitem un termen fix. Pentru ofertă avem nevoie de produsul vehiculat, vâscozitatea aproximativă, temperatura de lucru și tipul de conexiune dorit.`,
+    infinitrade: `Lucrăm cu gama CSF Inox pe baza documentației tehnică a producătorului; nu avem date proprii despre disponibilitatea din fabrica de la Montecchio Emilia. Aducem pompele centrifuge și volumetrice prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de seria și materialele cerute. Pentru piesele de uzură ale pompelor cu rotor progresiv — rotoare și statoare — verificăm disponibilitatea la fiecare cerere, fără să promitem un termen fix. Pentru ofertă avem nevoie de produsul vehiculat, vâscozitatea aproximativă, temperatura de lucru și tipul de conexiune dorit.`,
     limitation: "Nu putem confirma certificarea CIP/SIP completă pentru fiecare model individual fără fișa tehnică a producătorului pentru configurația exactă cerută.",
     productCodes: [
       { code: "CN", description: "pompă centrifugă sanitară, seria CN" },
@@ -183,7 +183,7 @@ Pentru o cramă, o fabrică de brânzeturi sau o linie de îmbuteliere din Româ
       "ATEX — variantă disponibilă pe modelul SOLID-ATEX",
       "EHEDG — certificare indicată de producător pentru modelul LACTIC",
     ],
-    infinitrade: `Ce știm despre Bominox vine din istoricul publicat pe site-ul producătorului spaniol; despre disponibilitatea din fabrica de la Girona nu avem date proprii. Aducem pompele Bominox prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Pentru ofertă, trimiteți-ne produsul vehiculat, debitul și înălțimea de pompare necesară, plus dacă aveți nevoie de certificare ATEX sau EHEDG. Nu promitem un termen fix pentru fiecare model, pentru că disponibilitatea variază de la o serie la alta.`,
+    infinitrade: `Ce știm despre Bominox vine din istoricul publicat în documentația producătorului; despre disponibilitatea din fabrica de la Girona nu avem date proprii. Aducem pompele Bominox prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Pentru ofertă, trimiteți-ne produsul vehiculat, debitul și înălțimea de pompare necesară, plus dacă aveți nevoie de certificare ATEX sau EHEDG. Nu promitem un termen fix pentru fiecare model, pentru că disponibilitatea variază de la o serie la alta.`,
     limitation: "Nu putem confirma echivalența exactă cu o pompă instalată deja de alt brand fără fișa tehnică a modelului actual.",
     productCodes: [
       { code: "SIMPLEX-M", description: "pompă centrifugă ștanțată, model de bază" },
@@ -320,7 +320,7 @@ Pentru un instalator sau un antreprenor din România care lucrează la subsoluri
       "Agricultură — pompe de puț adânc și sisteme de recolectare a apei de ploaie",
       "Industrie mică — pompe submersibile pentru ape cu conținut solid",
     ],
-    infinitrade: `Ce putem confirma despre Zehnder Pumpen vine din cataloagele publice de pe site-ul producătorului german; despre disponibilitatea din fabrica din Saxonia nu avem date proprii. Aducem stațiile de ridicare și pompele submersibile prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Pentru piesele de schimb curente — plutitoare, cabluri, accesorii de montaj — confirmăm disponibilitatea și termenul la fiecare cerere. Pentru ofertă avem nevoie de tipul de apă vehiculată, menajeră sau fecaloidă, debitul estimat și înălțimea de pompare până la rețeaua de canalizare.`,
+    infinitrade: `Ce putem confirma despre Zehnder Pumpen vine din cataloagele tehnice ale producătorului; despre disponibilitatea din fabrica din Saxonia nu avem date proprii. Aducem stațiile de ridicare și pompele submersibile prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Pentru piesele de schimb curente — plutitoare, cabluri, accesorii de montaj — confirmăm disponibilitatea și termenul la fiecare cerere. Pentru ofertă avem nevoie de tipul de apă vehiculată, menajeră sau fecaloidă, debitul estimat și înălțimea de pompare până la rețeaua de canalizare.`,
     limitation: "Nu putem confirma compatibilitatea unei stații de ridicare cu o instalație existentă fără planul de canalizare și înălțimea exactă de refulare necesară.",
     productCodes: [
       { code: "Kompaktboy", description: "stație de ridicare individuală pentru ape uzate menajere" },
@@ -393,7 +393,7 @@ Pentru un proiect de irigații, o fermă solară sau o clădire cu cerințe de p
       "FM Approved — pompe de stingere a incendiilor",
       "UL Listed — pompe de stingere a incendiilor",
     ],
-    infinitrade: `Ce putem confirma despre Bombas Ideal vine din site-ul și cataloagele publice ale producătorului spaniol; despre disponibilitatea din fabrica de la Massalfassar nu avem date proprii. Aducem pompele submersibile, verticale și grupurile de presurizare prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru sistemele de stingere a incendiilor certificate FM/UL, confirmăm disponibilitatea exactă la producător înainte de a promite un termen. Pentru ofertă avem nevoie de aplicație, irigații, presurizare sau incendiu, debitul necesar și presiunea de lucru.`,
+    infinitrade: `Ce putem confirma despre Bombas Ideal vine din cataloagele tehnice ale producătorului spaniol; despre disponibilitatea din fabrica de la Massalfassar nu avem date proprii. Aducem pompele submersibile, verticale și grupurile de presurizare prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru sistemele de stingere a incendiilor certificate FM/UL, confirmăm disponibilitatea exactă la producător înainte de a promite un termen. Pentru ofertă avem nevoie de aplicație, irigații, presurizare sau incendiu, debitul necesar și presiunea de lucru.`,
     limitation: "Nu putem confirma disponibilitatea imediată a documentației FM/UL tradusă pentru fiecare proiect fără solicitare directă la producător.",
     productCodes: [
       { code: "SDX", description: "pompă submersibilă de 10 inch pentru puțuri adânci" },
@@ -453,7 +453,7 @@ Pentru un antreprenor de construcții sau un instalator din România care are ne
       "Protecție la incendiu — echipamente de pompare pentru sisteme de stingere",
       "Piscine — pompe și sisteme de încălzire dedicate",
     ],
-    infinitrade: `Informațiile despre Bombas Hasa provin din site-ul public al producătorului spaniol; despre disponibilitatea din fabrica de la La Llagosta nu avem date proprii. Aducem pompele submersibile și grupurile de presiune prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Termenul exact îl confirmăm după verificarea disponibilității la producător, pentru fiecare model. Pentru ofertă avem nevoie de tipul de apă vehiculată, debitul necesar și adâncimea de instalare sau presiunea de lucru dorită.`,
+    infinitrade: `Informațiile despre Bombas Hasa provin din documentația tehnică a producătorului spaniol; despre disponibilitatea din fabrica de la La Llagosta nu avem date proprii. Aducem pompele submersibile și grupurile de presiune prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Termenul exact îl confirmăm după verificarea disponibilității la producător, pentru fiecare model. Pentru ofertă avem nevoie de tipul de apă vehiculată, debitul necesar și adâncimea de instalare sau presiunea de lucru dorită.`,
     limitation: "Nu putem confirma automat compatibilitatea unei stații de pompare cu instalația existentă fără planul tehnic al clientului.",
     productCodes: [
       { code: "Bombas Sumergibles Aguas Limpias", description: "pompă submersibilă pentru apă curată, fără solide" },
@@ -513,7 +513,7 @@ Pentru o stație de tratare a apei, o piscină publică sau o linie de curățen
       "Auto — dozare chimicale în spălătorii auto",
       "Industrie generală — dozare reactivi în procese de tratare",
     ],
-    infinitrade: `Ce putem confirma despre Injecta vine din site-ul public al producătorului italian; despre disponibilitatea din fabrica de la Rieti nu avem date proprii. Aducem pompele dozatoare electromagnetice, cu piston și peristaltice prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru piese de uzură — capete de pompă, membrane, furtunuri peristaltice — verificăm disponibilitatea la fiecare cerere. Pentru ofertă avem nevoie de substanța dozată, debitul necesar și presiunea de refulare din instalație.`,
+    infinitrade: `Ce putem confirma despre Injecta vine din documentația tehnică a producătorului italian; despre disponibilitatea din fabrica de la Rieti nu avem date proprii. Aducem pompele dozatoare electromagnetice, cu piston și peristaltice prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru piese de uzură — capete de pompă, membrane, furtunuri peristaltice — verificăm disponibilitatea la fiecare cerere. Pentru ofertă avem nevoie de substanța dozată, debitul necesar și presiunea de refulare din instalație.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a unui cap de pompă cu o substanță specifică fără fișa de siguranță a produsului dozat.",
     productCodes: [
       { code: "Gea R BL", description: "pompă dozatoare electromagnetică, cap PVDF, până la 20 bar" },

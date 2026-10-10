@@ -14,7 +14,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
       "Gamă unitară, de la circulatoare de încălzire până la stații complete de presurizare, utilă pentru proiecte cu cerințe mixte",
       "EsyBox POP este un sistem compact all-in-one (pompă, variator de turație și senzori de presiune integrați), fără presostat extern separat",
       "Aplicația DNA (DAB Navigator Application) a producătorului ajută la alegerea rapidă a modelului pe baza debitului și presiunii cerute de instalație",
-      "Cataloage tehnice separate pentru pompe multietajate, centrifuge electronice, submersibile și pentru stingere incendii, cu specificații publice",
+      "Cataloage tehnice separate pentru pompe multietajate, centrifuge electronice, submersibile și pentru stingere incendii, cu specificații tehnice",
       "Producător cu sediul în Italia și unități de producție în mai multe țări; disponibilitatea pieselor de schimb se confirmă pe cod"
     ],
     keyProducts: [
@@ -31,7 +31,7 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
       "Protecție la incendiu — grupuri de pompare pentru hidranți și sprinklere"
     ],
     infinitrade: `Lucrăm cu gama DAB prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici italiene: spunem clar, înainte de ofertă, ce putem confirma din cataloagele producătorului și ce rămâne de verificat punctual. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (circulație, presurizare, drenaj), debitul și înălțimea de pompare necesare, plus diametrul racordurilor existente. Nu confirmăm disponibilitate pentru fiecare model din gamă și recomandăm verificarea termenului exact la momentul comenzii.`,
-    limitation: "Nu putem confirma stocuri locale pentru fiecare model DAB și nu oferim configurare software pentru sistemele electronice de presurizare fără suport direct de la producător.",
+    limitation: "Nu putem confirma stocuri locale pentru fiecare model DAB și nu oferim configurare software pentru sistemele electronice de presurizare fără suport de specialitate dedicat.",
     productCodes: [
       {
         "code": "NOVA 180/200/300/600",
@@ -113,11 +113,11 @@ Pentru instalatori și proiectanți din România, DAB înseamnă o gamă unitar�
       },
       {
         "q": "Ce este sistemul EsyBox Pop de la DAB?",
-        "a": "EsyBox Pop este un sistem electronic de presurizare compact, cu debit de 3,9 m³/h și înălțime de pompare de 32 m, potrivit pentru case unifamiliale sau aplicații rezidențiale mici. Include control electronic al presiunii și protecție la funcționare în gol, conform fișei tehnice publicate de producător."
+        "a": "EsyBox Pop este un sistem electronic de presurizare compact, cu debit de 3,9 m³/h și înălțime de pompare de 32 m, potrivit pentru case unifamiliale sau aplicații rezidențiale mici. Include control electronic al presiunii și protecție la funcționare în gol, conform fișei tehnice a producătorului."
       },
       {
         "q": "Livrați pompe DAB în România?",
-        "a": "Da, aducem la comandă modele din gamele Nova, Feka, Drenag și Evosta prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste pompe pe raft ca stoc propriu. Termenul uzual este de 1–4 săptămâni, în funcție de model și disponibilitate. Pentru o ofertă, trimiteți debitul necesar, înălțimea de pompare și tipul de fluid vehiculat."
+        "a": "Da, aducem la comandă modele din gamele Nova, Feka, Drenag și Evosta prezentate mai sus, conform cataloagelor producătorului; nu păstrăm aceste pompe pe raft ca stoc propriu. Termenul uzual este de 1–4 săptămâni, în funcție de model și disponibilitate. Pentru o ofertă, trimiteți debitul necesar, înălțimea de pompare și tipul de fluid vehiculat."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de pompă DAB Feka Grinder?",
@@ -165,8 +165,8 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
       "Agricultură și acvacultură — pompare și monitorizare a calității apei",
       "Industrie și energie — tratare apă de proces cu Wedeco"
     ],
-    infinitrade: `Aducem echipamente Xylem la comandă din Uniunea Europeană, fără date proprii despre stocul fiecărui depozit al producătorului — lucrăm doar cu ce confirmă paginile oficiale ale grupului la momentul ofertei. Pentru gamele Lowara, Flygt și Goulds, deja prezente separat în oferta noastră, redirecționăm către paginile lor dedicate; pentru Godwin, Bell & Gossett, Wedeco sau YSI aducem echipamente sau piese la comandă, cu un termen orientativ de 1–4 săptămâni. Clientul trebuie să ne transmită aplicația exactă, debitul, presiunea sau parametrii de măsurat, după caz. Nu confirmăm disponibilitate imediată pentru fiecare referință din portofoliul Xylem.`,
-    limitation: "Nu putem confirma configurarea sau service-ul pentru brandurile Lowara, Flygt și Goulds, care au pagină proprie pe site, și nu avem evidență proprie de disponibilitate pentru niciun brand din portofoliul Xylem.",
+    infinitrade: `Aducem echipamente Xylem la comandă din Uniunea Europeană, fără date proprii despre stocul fiecărui depozit al producătorului — lucrăm doar cu ce confirmă documentația grupului la momentul ofertei. Pentru gamele Lowara, Flygt și Goulds, deja prezente separat în oferta noastră, redirecționăm către paginile lor dedicate; pentru Godwin, Bell & Gossett, Wedeco sau YSI aducem echipamente sau piese la comandă, cu un termen orientativ de 1–4 săptămâni. Clientul trebuie să ne transmită aplicația exactă, debitul, presiunea sau parametrii de măsurat, după caz. Nu confirmăm disponibilitate imediată pentru fiecare referință din portofoliul Xylem.`,
+    limitation: "Nu putem confirma configurarea sau service-ul pentru brandurile Lowara, Flygt și Goulds, care sunt prezentate separat, și nu avem evidență proprie de disponibilitate pentru niciun brand din portofoliul Xylem.",
     productCodes: [
       {
         "code": "Godwin",
@@ -240,7 +240,7 @@ Pentru clienții din România, avantajul Xylem este acoperirea largă de aplica�
       },
       {
         "q": "Livrați echipamente Xylem în România?",
-        "a": "Da, aducem la comandă echipamente din portofoliul Xylem pe baza paginilor publice ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de marcă și de model. Recomandăm precizarea mărcii și seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă echipamente din portofoliul Xylem pe baza documentației producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de marcă și de model. Recomandăm precizarea mărcii și seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă din portofoliul Xylem?",
@@ -290,7 +290,7 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
       "Comercial — drenaj și evacuare ape uzate din subsoluri",
       "Piscine — recirculare a apei"
     ],
-    infinitrade: `Pompele Pedrollo ajung la comandă prin distribuitori din Uniunea Europeană, fără date proprii despre stocul fabricii din San Bonifacio — spunem punctual ce putem confirma din cataloagele publice ale producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de partenerul din UE prin care aducem produsul. Pentru o ofertă corectă avem nevoie de diametrul forajului sau al conductei, adâncimea de aspirație și debitul dorit. Nu confirmăm disponibilitate imediată pentru fiecare model din gamă și recomandăm verificarea termenului exact înainte de plasarea comenzii.`,
+    infinitrade: `Pompele Pedrollo ajung la comandă prin canalele noastre de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fabricii din San Bonifacio — spunem punctual ce putem confirma din catalogul producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de partenerul din UE prin care aducem produsul. Pentru o ofertă corectă avem nevoie de diametrul forajului sau al conductei, adâncimea de aspirație și debitul dorit. Nu confirmăm disponibilitate imediată pentru fiecare model din gamă și recomandăm verificarea termenului exact înainte de plasarea comenzii.`,
     limitation: "Nu oferim service în perioada de garanție a producătorului și nu putem confirma disponibilitatea pe piața locală italiană a fiecărui model din gamă.",
     productCodes: [
       {
@@ -353,7 +353,7 @@ Pentru fermieri, instalatori și distribuitori din România, Pedrollo rămâne o
       },
       {
         "q": "Livrați pompe Pedrollo în România?",
-        "a": "Da, aducem la comandă pompe Pedrollo pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. De regulă, livrarea durează 1–4 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă pompe Pedrollo pe baza documentației de produs a producătorului, fără date proprii de stoc. De regulă, livrarea durează 1–4 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă Pedrollo?",
@@ -403,7 +403,7 @@ Pentru industria chimică și de procesare din România, Husky rămâne o soluț
       "Automotive — sisteme de lubrifiere automată în linii de producție",
       "Alimentară — transfer de fluide vâscoase în variante compatibile cu igiena alimentară"
     ],
-    infinitrade: `Echipamentele Graco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre disponibilitatea imediată a fiecărui model din seria Husky. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru parametrii de debit și compatibilitate chimică, iar termenul orientativ de livrare la comandă este de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de fluid transportat, vâscozitatea aproximativă și dacă e necesară certificarea ATEX. Nu putem confirma stocuri locale pentru fiecare variantă de etanșare sau material de contact cu fluidul.`,
+    infinitrade: `Echipamentele Graco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre disponibilitatea imediată a fiecărui model din seria Husky. Ne bazăm pe cataloagele tehnice ale producătorului pentru parametrii de debit și compatibilitate chimică, iar termenul orientativ de livrare la comandă este de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de tipul de fluid transportat, vâscozitatea aproximativă și dacă e necesară certificarea ATEX. Nu putem confirma stocuri locale pentru fiecare variantă de etanșare sau material de contact cu fluidul.`,
     limitation: "Nu oferim configurare software pentru sistemele electronice de dozare Graco și nu putem confirma disponibilitatea imediată a fiecărei variante de etanșare din gamă.",
     productCodes: [
       {
@@ -510,7 +510,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
       "Industrial — separare aer și impurități pe circuite de apă tehnologică",
       "Instalații publice — module de distribuție pentru sisteme cu zone multiple"
     ],
-    infinitrade: `Componentele Caleffi le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul din Fontaneto d'Agogna — lucrăm cu ce confirmă cataloagele publice ale producătorului. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de tipul instalației, diametrul racordurilor și debitul de proiectare al circuitului vizat. Nu confirmăm disponibilitate imediată pentru fiecare cod de produs din cele 13 categorii ale gamei.`,
+    infinitrade: `Componentele Caleffi le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul din Fontaneto d'Agogna — lucrăm cu ce confirmă catalogul producătorului. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de tipul instalației, diametrul racordurilor și debitul de proiectare al circuitului vizat. Nu confirmăm disponibilitate imediată pentru fiecare cod de produs din cele 13 categorii ale gamei.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei variante de robinet din gama Caleffi și nu oferim proiectare de instalație, doar componentele individuale.",
     productCodes: [
       {
@@ -569,7 +569,7 @@ Pentru instalatori și proiectanți de instalații termice din România, Caleffi
       },
       {
         "q": "Livrați robinete și separatoare Caleffi în România?",
-        "a": "Da, aducem la comandă produse Caleffi pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de diametrul necesar. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă produse Caleffi pe baza documentației de produs a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de diametrul necesar. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de separator hidraulic Caleffi?",
@@ -618,8 +618,8 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
       "Chimie — control de proces cu transmitere certificate SIL",
       "Tratare apă și energie — instrumentare pentru stații de proces"
     ],
-    infinitrade: `Instrumentele Honeywell Process Solutions le aducem la comandă prin distribuție europeană, fără date proprii despre stocul fiecărei uzine a producătorului — ne bazăm pe fișele tehnice publice pentru parametrii fiecărui transmiter. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de certificările solicitate (SIL, ATEX). Pentru o ofertă corectă avem nevoie de tipul de măsurătoare (presiune sau temperatură), domeniul de proces și dacă instalația necesită certificare pentru zone explozive. Nu confirmăm disponibilitate imediată pentru variantele cu certificări speciale.`,
-    limitation: "Nu oferim configurare sau punere în funcțiune pentru sistemul Experion PKS, care necesită suport tehnic direct de la producător.",
+    infinitrade: `Instrumentele Honeywell Process Solutions le aducem la comandă prin distribuție europeană, fără date proprii despre stocul fiecărei uzine a producătorului — ne bazăm pe fișele tehnice ale producătorului pentru parametrii fiecărui transmiter. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de certificările solicitate (SIL, ATEX). Pentru o ofertă corectă avem nevoie de tipul de măsurătoare (presiune sau temperatură), domeniul de proces și dacă instalația necesită certificare pentru zone explozive. Nu confirmăm disponibilitate imediată pentru variantele cu certificări speciale.`,
+    limitation: "Nu oferim configurare sau punere în funcțiune pentru sistemul Experion PKS, care necesită un integrator de sistem.",
     productCodes: [
       {
         "code": "SmartLine STF700",
@@ -697,7 +697,7 @@ Pentru instalații industriale din România — rafinării, chimie, tratare apă
       },
       {
         "q": "Livrați transmitere Honeywell SmartLine în România?",
-        "a": "Da, aducem la comandă transmitere din familiile SmartLine ST700, ST800 și STT prezentate mai sus, conform fișelor tehnice publice ale producătorului; nu păstrăm aceste instrumente pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model. Pentru o ofertă corectă, precizați tipul de măsurare, intervalul și semnalul de ieșire dorit."
+        "a": "Da, aducem la comandă transmitere din familiile SmartLine ST700, ST800 și STT prezentate mai sus, conform fișelor tehnice ale producătorului; nu păstrăm aceste instrumente pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model. Pentru o ofertă corectă, precizați tipul de măsurare, intervalul și semnalul de ieșire dorit."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de transmiter de presiune SmartLine?",
@@ -748,7 +748,7 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
       "Tratare ape uzate — agitatoare și pompe acționate prin reductor",
       "Metale și lemn — linii de prelucrare cu acționare electrică"
     ],
-    infinitrade: `Motoreductoarele Bonfiglioli ajung la comandă prin filialele europene ale grupului, fără date proprii despre stocul din Calderara di Reno — spunem clar ce putem confirma din configuratoarele publice ale producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de configurația exactă (raport de reducere, montaj, motor asociat). Pentru o ofertă corectă avem nevoie de puterea motorului, turația de intrare și ieșire, cuplul de sarcină și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru configurațiile speciale sau pentru cutiile planetare de precizie ridicată.`,
+    infinitrade: `Motoreductoarele Bonfiglioli ajung la comandă prin filialele europene ale grupului, fără date proprii despre stocul din Calderara di Reno — spunem clar ce putem confirma din documentația tehnică a producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de configurația exactă (raport de reducere, montaj, motor asociat). Pentru o ofertă corectă avem nevoie de puterea motorului, turația de intrare și ieșire, cuplul de sarcină și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru configurațiile speciale sau pentru cutiile planetare de precizie ridicată.`,
     limitation: "Nu oferim proiectare de sistem de acționare completă și nu putem confirma stocuri locale pentru configurațiile speciale de reductor.",
     productCodes: [
       {
@@ -831,7 +831,7 @@ Pentru fabricile din România cu linii de producție, benzi transportoare sau ut
       },
       {
         "q": "Livrați reductoare și invertoare Bonfiglioli în România?",
-        "a": "Da, aducem la comandă modele din seriile 300M, HDP, A, F și Active Cube prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste echipamente pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de mărime și disponibilitatea din fabrică. Pentru o ofertă, transmiteți cuplul sau puterea necesară și tipul de montaj."
+        "a": "Da, aducem la comandă modele din seriile 300M, HDP, A, F și Active Cube prezentate mai sus, conform cataloagelor producătorului; nu păstrăm aceste echipamente pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de mărime și disponibilitatea din fabrică. Pentru o ofertă, transmiteți cuplul sau puterea necesară și tipul de montaj."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de motoreductor Bonfiglioli?",
@@ -878,7 +878,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
       "Petrol și gaze offshore — motoare pentru condiții dure de mediu",
       "Industrie generală — motoare standard pentru benzi transportoare și ventilatoare"
     ],
-    infinitrade: `Motoarele WEG le aducem la comandă prin rețeaua europeană a producătorului brazilian, fără date proprii despre stocul fabricilor din Brazilia — lucrăm cu ce confirmă cataloagele publice ale producătorului la momentul ofertei. Termenul orientativ de livrare este de 1–4 săptămâni, în funcție de puterea și configurația motorului cerute. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru motoarele de medie tensiune sau pentru configurațiile speciale precum Hydroduty.`,
+    infinitrade: `Motoarele WEG le aducem la comandă prin canalele noastre de aprovizionare din UE, fără date proprii despre stocul fabricilor din Brazilia — lucrăm cu ce confirmă catalogul producătorului la momentul ofertei. Termenul orientativ de livrare este de 1–4 săptămâni, în funcție de puterea și configurația motorului cerute. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și tipul de montaj dorit. Nu confirmăm disponibilitate imediată pentru motoarele de medie tensiune sau pentru configurațiile speciale precum Hydroduty.`,
     limitation: "Nu putem confirma disponibilitatea locală a motoarelor de medie tensiune și nu oferim configurare software WEG Pump Genius fără suport tehnic direct.",
     productCodes: [
       {
@@ -945,7 +945,7 @@ Pentru fabricile și fermele din România care folosesc motoare electrice pe sca
       },
       {
         "q": "Ce este motorul WEG W22Xd?",
-        "a": "W22Xd este un motor antiexploziv certificat ATEX, gândit pentru zonele 1 și 2 cu prezență de gaze inflamabile, respectând clasa de eficiență IE2. Se folosește în industria chimică, petrochimică sau în stații de tratare unde riscul de explozie impune motoare special construite. Confirmăm grupa de gaz și clasa de temperatură din fișa tehnică oficială înainte de comandă."
+        "a": "W22Xd este un motor antiexploziv certificat ATEX, gândit pentru zonele 1 și 2 cu prezență de gaze inflamabile, respectând clasa de eficiență IE2. Se folosește în industria chimică, petrochimică sau în stații de tratare unde riscul de explozie impune motoare special construite. Confirmăm grupa de gaz și clasa de temperatură din fișa tehnică înainte de comandă."
       }
     ],
     evidenceClass: "transactional",
@@ -1055,7 +1055,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       },
       {
         "q": "Livrați motoare electrice Nidec în România?",
-        "a": "Da, aducem la comandă motoare Nidec pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de putere și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă motoare Nidec pe baza documentației de produs a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de putere și de configurație. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de motor electric Nidec?",
@@ -1106,7 +1106,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       "Construcții și minerit — aer comprimat pentru utilaje și foraj",
       "Electronică și semiconductori — aer comprimat de înaltă puritate"
     ],
-    infinitrade: `Compresoarele Atlas Copco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici — spunem clar ce putem confirma din fișele tehnice publice ale seriei GA. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător integrat, variator de turație). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere aer fără ulei. Nu confirmăm disponibilitate imediată pentru fiecare variantă de putere sau pentru compresoarele de gaz de proces.`,
+    infinitrade: `Compresoarele Atlas Copco le aducem la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici — spunem clar ce putem confirma din fișele tehnice ale seriei GA. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător integrat, variator de turație). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere aer fără ulei. Nu confirmăm disponibilitate imediată pentru fiecare variantă de putere sau pentru compresoarele de gaz de proces.`,
     limitation: "Nu oferim proiectare de rețea de aer comprimat completă și nu putem confirma stocuri locale pentru fiecare variantă de putere din gama GA.",
     productCodes: [
       {
@@ -1161,7 +1161,7 @@ Pentru fabricile din România cu instalații de aer comprimat industrial, gama G
       },
       {
         "q": "Livrați compresoare Atlas Copco în România?",
-        "a": "Da, aducem la comandă compresoare Atlas Copco pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Livrarea durează de obicei 1–4 săptămâni de la comandă, în funcție de model și de accesoriile alese. Recomandăm confirmarea puterii necesare înainte de comandă."
+        "a": "Da, aducem la comandă compresoare Atlas Copco pe baza documentației de produs a producătorului, fără date proprii de stoc. Livrarea durează de obicei 1–4 săptămâni de la comandă, în funcție de model și de accesoriile alese. Recomandăm confirmarea puterii necesare înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de compresor Atlas Copco GA?",
@@ -1213,7 +1213,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
       "Farmaceutică — aer comprimat de calitate controlată",
       "Tratarea apei — suflante și compresoare pentru aerare"
     ],
-    infinitrade: `Compresoarele Kaeser ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul din Coburg — lucrăm cu ce confirmă cataloagele tehnice publice ale seriilor ASD, BSD și CSD. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător, variator de turație, recuperare de căldură). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere recuperare de căldură. Nu confirmăm disponibilitate imediată pentru compresoarele de putere mare.`,
+    infinitrade: `Compresoarele Kaeser ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul din Coburg — lucrăm cu ce confirmă cataloagele tehnice ale seriilor ASD, BSD și CSD. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de putere și de opțiunile alese (uscător, variator de turație, recuperare de căldură). Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și dacă instalația cere recuperare de căldură. Nu confirmăm disponibilitate imediată pentru compresoarele de putere mare.`,
     limitation: "Nu oferim proiectare de sistem de recuperare a căldurii și nu putem confirma stocuri locale pentru compresoarele de peste 110 kW.",
     productCodes: [
       {
@@ -1280,7 +1280,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
       },
       {
         "q": "Livrați compresoare Kaeser în România?",
-        "a": "Da, aducem la comandă compresoare Kaeser pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Așteptați un termen de livrare de 1–4 săptămâni de la comandă, în funcție de model și de dotările alese. Recomandăm confirmarea puterii necesare înainte de comandă."
+        "a": "Da, aducem la comandă compresoare Kaeser pe baza documentației de produs a producătorului, fără date proprii de stoc. Așteptați un termen de livrare de 1–4 săptămâni de la comandă, în funcție de model și de dotările alese. Recomandăm confirmarea puterii necesare înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de compresor Kaeser?",
@@ -1305,7 +1305,7 @@ Pentru fabricile din România cu consum mediu spre mare de aer comprimat, gama K
 
   'ingersoll-rand': {
     name: "Ingersoll Rand",
-    overview: `Ingersoll Rand este un producător american de compresoare și echipamente pneumatice industriale, cu peste 160 de ani de achiziții și inovații, după cum declară producătorul pe site-ul propriu. Gama acoperă compresoare cu piston (o treaptă și două trepte), compresoare cu șurub cu și fără ulei, compresoare centrifugale și compresoare de înaltă presiune pentru industria PET. Pentru piața din România putem oferta compresoare cu șurub din seria R, pentru aer comprimat industrial general.
+    overview: `Ingersoll Rand este un producător american de compresoare și echipamente pneumatice industriale, cu peste 160 de ani de achiziții și inovații, după cum declară producătorul. Gama acoperă compresoare cu piston (o treaptă și două trepte), compresoare cu șurub cu și fără ulei, compresoare centrifugale și compresoare de înaltă presiune pentru industria PET. Pentru piața din România putem oferta compresoare cu șurub din seria R, pentru aer comprimat industrial general.
 
 Seria R de compresoare cu șurub e prezentată de producător ca soluție compactă, potrivită pentru spații de producție variate, iar versiunea Next Generation R-Series adaugă tehnologia V-Shield pentru prevenirea scurgerilor de ulei. Gama SSR completează oferta cu compresoare cu șurub în două trepte, cu injecție de ulei, pentru eficiență energetică mai bună la funcționare continuă.
 
@@ -1327,7 +1327,7 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
       "Industria PET — compresoare de înaltă presiune pentru suflarea preformelor",
       "Industrie generală — aer comprimat pentru utilaje și instalații de proces"
     ],
-    infinitrade: `Compresoarele Ingersoll Rand le aducem la comandă prin canale din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici a grupului — spunem din capul locului ce putem confirma din informațiile publice ale producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și tipul de compresor dorit (cu sau fără ulei). Nu confirmăm disponibilitate imediată și nici parametrii tehnici exacți fără verificare directă la producător.`,
+    infinitrade: `Compresoarele Ingersoll Rand le aducem la comandă prin canale din Uniunea Europeană, fără date proprii despre stocul fiecărei fabrici a grupului — spunem din capul locului ce putem confirma din documentația tehnică a producătorului. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din UE. Pentru o ofertă corectă avem nevoie de consumul de aer necesar, presiunea de lucru și tipul de compresor dorit (cu sau fără ulei). Nu confirmăm disponibilitate imediată și nici parametrii tehnici exacți fără verificare directă la producător.`,
     limitation: "Parametrii tehnici detaliați (putere, presiune, debit) diferă de la un model la altul din seria R și se confirmă la momentul ofertei, pe baza documentației producătorului.",
     productCodes: [
       {
@@ -1398,7 +1398,7 @@ Pentru fabricile din România cu nevoie de aer comprimat industrial general, ser
       },
       {
         "q": "Livrați compresoare Ingersoll Rand în România?",
-        "a": "Da, aducem la comandă modele din seriile R, NG R-Series, RS, Evolution, UP6 și SSR prezentate mai sus, conform paginilor tehnice publice ale producătorului; nu păstrăm aceste compresoare pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de model. Pentru o ofertă, transmiteți puterea necesară, presiunea de lucru și tipul de aplicație."
+        "a": "Da, aducem la comandă modele din seriile R, NG R-Series, RS, Evolution, UP6 și SSR prezentate mai sus, conform documentației tehnice a producătorului; nu păstrăm aceste compresoare pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de model. Pentru o ofertă, transmiteți puterea necesară, presiunea de lucru și tipul de aplicație."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de compresor cu șurub?",
@@ -1432,7 +1432,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       "Filtre de combustibil pentru utilaje mobile — excavatoare, încărcătoare pe roți — nu doar pentru automobile",
       "Filtre de habitaclu CareMetix cu tehnologie S5, cu spectru de filtrare mai larg decât varianta standard",
       "Filtre dedicate soluției de uree (AdBlue) pentru sistemele SCR de reducere a emisiilor diesel",
-      "Producător cu 127 de locații de producție la nivel global, conform site-ului Mahle"
+      "Producător cu 127 de locații de producție la nivel global, conform documentației Mahle"
     ],
     keyProducts: [
       { name: "Filtre de ulei", description: "Filtre pentru protejarea lagărelor și componentelor mobile ale motorului prin reținerea impurităților din uleiul de ungere, disponibile pentru motoare pe benzină, diesel și pentru motoare mici sau de motociclete. Clientul trebuie să transmită modelul exact al motorului sau codul original al filtrului pentru identificarea corectă." },
@@ -1447,7 +1447,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       "Agricultură — filtre pentru utilaje agricole cu motor diesel",
       "Automotive aftermarket — filtre de schimb pentru service-uri auto"
     ],
-    infinitrade: `Filtrele Mahle ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul fiecărei uzine — lucrăm cu ce confirmă cataloagele publice ale producătorului pentru identificarea filtrului corect. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de tipul de filtru și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de modelul motorului sau al utilajului, codul original al filtrului dacă e cunoscut și cantitatea necesară. Nu confirmăm disponibilitate imediată pentru fiecare cod de filtru din gama Mahle.`,
+    infinitrade: `Filtrele Mahle ajung la comandă prin distribuția europeană a producătorului german, fără date proprii despre stocul fiecărei uzine — lucrăm cu ce confirmă catalogul producătorului pentru identificarea filtrului corect. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de tipul de filtru și de cantitatea comandată. Pentru o ofertă corectă avem nevoie de modelul motorului sau al utilajului, codul original al filtrului dacă e cunoscut și cantitatea necesară. Nu confirmăm disponibilitate imediată pentru fiecare cod de filtru din gama Mahle.`,
     limitation: "Nu putem confirma echivalențe exacte cu codurile altor producători de filtre și recomandăm verificarea codului original înainte de comandă.",
     productCodes: [
       {
@@ -1546,7 +1546,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "q": "Cum găsesc codul corect de filtru Mahle pentru motocicleta mea?",
-        "a": "Codul depinde de marcă, model și an de fabricație; catalogul Mahle pentru powersports listează coduri precum LX pentru filtre de aer, OC/OX pentru ulei și KL pentru combustibil, fiecare acoperind mai multe aplicații. Recomandăm verificarea codului exact în catalogul tehnic public al producătorului sau prin numărul de identificare al vehiculului, înainte de a plasa comanda."
+        "a": "Codul depinde de marcă, model și an de fabricație; catalogul Mahle pentru powersports listează coduri precum LX pentru filtre de aer, OC/OX pentru ulei și KL pentru combustibil, fiecare acoperind mai multe aplicații. Recomandăm verificarea codului exact în catalogul tehnic al producătorului sau prin numărul de identificare al vehiculului, înainte de a plasa comanda."
       },
       {
         "q": "Ce este tehnologia CareMetix de la filtrele de habitaclu Mahle?",
@@ -1554,7 +1554,7 @@ Pentru service-uri și flote de utilaje din România, Mahle rămâne o sursă pe
       },
       {
         "q": "Livrați filtre Mahle în România?",
-        "a": "Da, aducem la comandă filtre din gamele LX, OC, OX, KL și CareMetix prezentate mai sus, conform cataloagelor publice ale producătorului; nu păstrăm aceste filtre pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de cod și disponibilitate. Pentru o comandă corectă, transmiteți codul exact sau datele complete ale vehiculului."
+        "a": "Da, aducem la comandă filtre din gamele LX, OC, OX, KL și CareMetix prezentate mai sus, conform cataloagelor producătorului; nu păstrăm aceste filtre pe raft ca stoc propriu. Termenul obișnuit este de 1–4 săptămâni, în funcție de cod și disponibilitate. Pentru o comandă corectă, transmiteți codul exact sau datele complete ale vehiculului."
       },
       {
         "q": "Ce este unitatea Mahle ATX pentru transmisii automate?",

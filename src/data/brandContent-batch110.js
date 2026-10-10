@@ -14,7 +14,7 @@ Ce diferențiază JAX de un producător generalist de lubrifianți este segmenta
 Pentru piața din România, JAX are sens acolo unde auditurile alimentare sau farmaceutice cer lubrifianți certificați NSF, sau unde echipamentele funcționează la temperaturi peste ce tolerează un ulei mineral standard — linii de ambalare, compresoare de aer și gaz, utilaje din industria băuturilor.`,
     whyChoose: [
       "Gamă segmentată pe aplicație — linii separate pentru industria alimentară, biodegradabile și pelicule uscate, nu un singur ulei universal",
-      "Certificare ISO 9001:2015 pentru procesul de fabricație, verificabilă direct pe site-ul producătorului",
+      "Certificare ISO 9001:2015 pentru procesul de fabricație, verificabilă din documentația producătorului",
       "Membru ILMA și NLGI, asociații de profil pentru industria lubrifianților și a unsorilor",
       "Unsori și uleiuri de grad alimentar NSF, potrivite pentru linii cu contact incidental cu produsul",
       "Produse catalogate pe categorii clare — uleiuri, unsori, aerosoli, pelicule uscate, solvenți"
@@ -32,7 +32,7 @@ Pentru piața din România, JAX are sens acolo unde auditurile alimentare sau fa
       "Minerit și construcții — lubrifianți pentru utilaje grele"
     ],
     certifications: ["ISO 9001:2015 — sistem de management al calității"],
-    infinitrade: `Pentru gama JAX lucrăm din surse publice ale producătorului, fără date proprii de stoc pe teritoriul României — spunem clar ce am confirmat pe site și ce rămâne de verificat direct cu fabrica la momentul comenzii. Aducem produsele JAX prin canale de aprovizionare din SUA sau UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător. Pentru ofertă, avem nevoie de codul exact al produsului sau al seriei, cantitatea estimată anual și, pentru variantele alimentare, confirmarea cerinței de certificare NSF. Nu facem promisiuni de disponibilitate constantă pe niciun produs din gamă.`,
+    infinitrade: `Pentru gama JAX lucrăm din surse publice ale producătorului, fără date proprii de stoc pe teritoriul României — spunem clar ce am confirmat în documentația producătorului și ce rămâne de verificat cu fabrica la momentul comenzii. Aducem produsele JAX prin canale de aprovizionare din SUA sau UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător. Pentru ofertă, avem nevoie de codul exact al produsului sau al seriei, cantitatea estimată anual și, pentru variantele alimentare, confirmarea cerinței de certificare NSF. Nu facem promisiuni de disponibilitate constantă pe niciun produs din gamă.`,
     limitation: "Nu confirmăm timpi exacți de livrare pentru variantele de aerosoli, care depind de reglementările de transport pentru produse presurizate.",
     productCodes: [
       { code: "Compresyn HFC", description: "Ulei sintetic (POE) pentru compresoare de climatizare și refrigerare, cu agenți frigorifici HFC" },
@@ -51,7 +51,7 @@ Pentru piața din România, JAX are sens acolo unde auditurile alimentare sau fa
       
     ],
     faq: [
-      { q: "Ce produce JAX?", a: "JAX fabrică lubrifianți industriali americani — uleiuri, unsori, aerosoli, pelicule uscate și degresanți — cu linii dedicate industriei alimentare, aplicațiilor marine și echipamentelor la temperaturi extreme, conform informațiilor publicate pe site-ul producătorului." },
+      { q: "Ce produce JAX?", a: "JAX fabrică lubrifianți industriali americani — uleiuri, unsori, aerosoli, pelicule uscate și degresanți — cu linii dedicate industriei alimentare, aplicațiilor marine și echipamentelor la temperaturi extreme, conform informațiilor din documentația producătorului." },
       { q: "Ce înseamnă certificarea NSF la unsorile JAX?", a: "NSF H1 arată că lubrifiantul poate fi folosit în zone unde există risc de contact incidental cu alimentul, fără să pună în pericol siguranța produsului — relevant pentru seria Halo-Guard FG și pentru uleiul hidraulic Pyro-Flow FG ISO 46 din gama JAX." },
       { q: "Cât durează livrarea pentru un lubrifiant JAX în România?", a: "Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de disponibilitatea produsului la producător și de ruta de aprovizionare din SUA sau UE; nu putem confirma un termen fix înainte de verificarea codului exact." },
       { q: "Ce trebuie să trimit pentru o ofertă de lubrifiant JAX?", a: "Codul exact al produsului sau al seriei, cantitatea estimată anual, temperatura de lucru a echipamentului și, pentru variantele alimentare, confirmarea cerinței de certificare NSF H1 înainte de a pregăti oferta." }
@@ -91,7 +91,7 @@ Pentru piața din România, Molydal are sens la linii de producție care cer un 
       "Energie — lubrifianți și degresanți pentru echipamente industriale",
       "Industria auto — lubrifianți de întreținere pentru linii de asamblare"
     ],
-    infinitrade: `Pentru Molydal ne bazăm pe informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul din fabrica franceză. Aducem lubrifianții Molydal prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de familia de produs și de confirmarea producătorului. Pentru ofertă, avem nevoie de codul exact al unsorii sau uleiului, cantitatea estimată și, pentru variantele alimentare, cerința de certificare NSF. Nu facem promisiuni de disponibilitate constantă pentru niciun produs din gamă — verificăm fiecare comandă direct cu fabrica.`,
+    infinitrade: `Pentru Molydal ne bazăm pe informațiile din documentația tehnică a producătorului, fără date proprii despre stocul din fabrica franceză. Aducem lubrifianții Molydal prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de familia de produs și de confirmarea producătorului. Pentru ofertă, avem nevoie de codul exact al unsorii sau uleiului, cantitatea estimată și, pentru variantele alimentare, cerința de certificare NSF. Nu facem promisiuni de disponibilitate constantă pentru niciun produs din gamă — verificăm fiecare comandă direct cu fabrica.`,
     limitation: "Nu putem confirma certificări specifice la nivel de companie dincolo de mențiunile generice PMUC și NSF de pe unele fișe de produs.",
     productCodes: [
       { code: "AGL 65 AL", description: "Unsoare EP, cu aprobare pentru contact alimentar accidental" },
@@ -123,7 +123,7 @@ Pentru piața din România, Molydal are sens la linii de producție care cer un 
       { code: "SOLESTER 77", description: "Emulsie de răcire pentru operații de prelucrare a metalului" }
     ],
     faq: [
-      { q: "Ce produce Molydal?", a: "Molydal este un producător francez de lubrifianți industriali — unsori, degresanți, fluide de prelucrare a metalului și uleiuri hidraulice, inclusiv variante de grad alimentar, conform informațiilor publicate pe site-ul companiei." },
+      { q: "Ce produce Molydal?", a: "Molydal este un producător francez de lubrifianți industriali — unsori, degresanți, fluide de prelucrare a metalului și uleiuri hidraulice, inclusiv variante de grad alimentar, conform informațiilor din documentația producătorului." },
       { q: "Ce înseamnă seria Hydro AL de la Molydal?", a: "Hydro AL este gama de uleiuri hidraulice de grad alimentar a Molydal, disponibilă în clasele de vâscozitate ISO 32, 46 și 68, menționată de producător ca fiind conformă cerințelor de calitate pentru industria alimentară." },
       { q: "Cum aleg unsoarea Molydal potrivită după cod?", a: "Codul indică familia tehnică — AGL pentru temperaturi înalte, LCH/TGV pentru viteze mari, MULTI pentru uz general — și trebuie corelat cu temperatura de lucru și sarcina mecanică a lagărului sau angrenajului dumneavoastră." },
       { q: "Livrați produse Molydal în România și cât durează?", a: "Aducem produsele Molydal la comandă prin canale din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de familia de produs și de confirmarea disponibilității la producător." }
@@ -166,7 +166,7 @@ Pentru piața din România, Molyslip are sens la utilaje cu rulmenți expuși la
     ],
     certifications: ["NSF — pentru variantele alimentare Arvina FM2 și FX2", "WRAS — pentru unsoarea siliconică Arvina SG3"],
     infinitrade: `Pentru Molyslip nu avem, la acest brand, date proprii despre stocul din fabrica britanică — informațiile de mai sus vin din materialele publicate de producător. Aducem produsele Molyslip prin canale de aprovizionare din Regatul Unit sau Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de varianta cerută. Pentru ofertă, trimiteți denumirea exactă a produsului (ex. Arvina EP2, Copaslip), temperatura de lucru și, dacă e cazul, cerința de certificare NSF sau WRAS. Nu facem promisiuni de disponibilitate constantă pe nicio variantă din gamă.`,
-    limitation: "Nu putem confirma anul exact al fondării companiei, doar mențiunea generică de peste 85 de ani de activitate de pe site-ul producătorului.",
+    limitation: "Nu putem confirma anul exact al fondării companiei, doar mențiunea generică de peste 85 de ani de activitate din documentația producătorului.",
     productCodes: [
       { code: "Copaslip", description: "Compus anti-gripaj cu particule de cupru pentru asamblări filetate" },
       { code: "Alumslip", description: "Compus anti-gripaj pe bază de aluminiu" },
@@ -213,14 +213,14 @@ Pentru piața din România, Molyslip are sens la utilaje cu rulmenți expuși la
     name: "Pressol",
     overview: `Pressol este un producător german de tehnică de ungere și echipamente de atelier. Gama acoperă pompe de gresat manuale și cu aer comprimat, recipiente și rezervoare pentru lubrifianți și combustibili, sisteme de gestiune a motorinei și a uleiului, precum și echipamente pentru soluția AdBlue. Din portofoliul Pressol putem oferta pompe de ungere manuale, recipiente pentru transfer de lubrifianți și echipamente de dozare pentru ateliere auto și industriale.
 
-Pressol integrează sisteme de management — motorina, uleiul și AdBlue-ul sunt tratate ca fluxuri gestionate, cu sisteme dedicate de urmărire a consumului (DMS pentru motorină, ÖMS pentru ulei). Compania menționează pe site producția a milioane de piese anual, cu un catalog amplu de referințe pentru tehnica de ungere și de atelier. Ca profil, Pressol este un partener complementar în echipamente de atelier, alături de branduri de scule și lubrifianți.
+Pressol integrează sisteme de management — motorina, uleiul și AdBlue-ul sunt tratate ca fluxuri gestionate, cu sisteme dedicate de urmărire a consumului (DMS pentru motorină, ÖMS pentru ulei). Compania menționează în documentația proprie producția a milioane de piese anual, cu un catalog amplu de referințe pentru tehnica de ungere și de atelier. Ca profil, Pressol este un partener complementar în echipamente de atelier, alături de branduri de scule și lubrifianți.
 
 Pentru piața din România, Pressol are sens la ateliere auto și service-uri industriale care vor pompe de gresat fiabile, recipiente etanșe pentru transferul lubrifianților sau un sistem simplu de gestiune a consumului de motorină și AdBlue.`,
     whyChoose: [
       "Producător german de tehnică de ungere și echipamente de atelier",
       "Sisteme dedicate de gestiune a consumului de motorină (DMS) și ulei (ÖMS), nu doar rezervoare pasive",
       "Gamă amplă de pompe de gresat, de la variante cu o mână la modele cu aer comprimat",
-      "Certificare ISO 9001:2015 pentru procesele de fabricație, menționată pe site",
+      "Certificare ISO 9001:2015 pentru procesele de fabricație, menționată în documentația producătorului",
       "Echipamente dedicate pentru AdBlue, separate de linia de combustibili tradiționali"
     ],
     keyProducts: [
@@ -237,7 +237,7 @@ Pentru piața din România, Pressol are sens la ateliere auto și service-uri in
     ],
     certifications: ["ISO 9001:2015 — sistem de management al calității", "ISO 14001:2015 — sistem de management de mediu"],
     infinitrade: `Pentru gama Pressol lucrăm din surse publice ale producătorului, fără date proprii despre stocul din fabrica germană. Aducem pompele de gresat, recipientele și sistemele de management Pressol prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de configurație. Pentru ofertă, avem nevoie de tipul de echipament dorit (pompă, recipient, sistem de management), capacitatea necesară și fluidul manipulat. Nu facem promisiuni de disponibilitate constantă pentru nicio referință din catalogul producătorului.`,
-    limitation: "Nu putem confirma coduri de model exacte pentru fiecare pompă sau recipient din catalogul Pressol, doar categoriile și familiile publicate pe site.",
+    limitation: "Nu putem confirma coduri de model exacte pentru fiecare pompă sau recipient din catalogul Pressol, doar categoriile și familiile din documentația producătorului.",
     productCodes: [
       { code: "Schmiertechnik (Lubrication Equipment)", description: "Categorie de pompe și echipamente de ungere manuale" },
       { code: "Werkstatttechnik (Garage Technology)", description: "Categorie de echipamente și dispozitive pentru ateliere auto" },
@@ -252,7 +252,7 @@ Pentru piața din România, Pressol are sens la ateliere auto și service-uri in
       { code: "Fettpresse - două mâini", description: "Pompă de gresat cu acționare manuală, două mâini" }
     ],
     faq: [
-      { q: "Ce produce Pressol?", a: "Pressol fabrică echipamente pentru tehnica de ungere și ateliere — pompe de gresat, recipiente pentru lubrifianți și combustibili, sisteme de gestiune a motorinei, uleiului și AdBlue, conform categoriilor publicate pe site-ul producătorului german." },
+      { q: "Ce produce Pressol?", a: "Pressol fabrică echipamente pentru tehnica de ungere și ateliere — pompe de gresat, recipiente pentru lubrifianți și combustibili, sisteme de gestiune a motorinei, uleiului și AdBlue, conform categoriilor din documentația producătorului." },
       { q: "Ce este sistemul DMS de la Pressol?", a: "Dieselmanagementsystem (DMS) este sistemul Pressol de gestiune a motorinei; funcțiile exacte și modul de integrare cu rezervoarele și pompele se confirmă pe baza documentației producătorului." },
       { q: "Livrați echipamente Pressol în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de tipul de pompă, recipient sau sistem de management solicitat." }
     ],
@@ -293,8 +293,8 @@ Pentru piața din România, SCIGRIP are sens la asamblarea compozitelor din cons
       "Vehicule off-highway — structuri asamblate fără sudură"
     ],
     certifications: ["GREENGUARD Gold — pentru emisii reduse în spații ocupate", "UL Recognized Component — pentru anumite produse din gamă"],
-    infinitrade: `Pentru SCIGRIP lucrăm din informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul din fabricile din SUA sau Regatul Unit. Aducem adezivii SCIGRIP prin canale de aprovizionare din Uniunea Europeană sau direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de serie și cantitate. Pentru ofertă, avem nevoie de materialele de îmbinat, timpul de lucru dorit și, dacă e cazul, cerința de tratament termic ulterior. Nu facem promisiuni de disponibilitate constantă pentru nicio serie din gamă.`,
-    limitation: "Compania a fost înființată în 2011, conform paginii „About us” a producătorului; nu putem confirma parametri tehnici dincolo de cei publicați pe site.",
+    infinitrade: `Pentru SCIGRIP lucrăm din informațiile din documentația tehnică a producătorului, fără date proprii despre stocul din fabricile din SUA sau Regatul Unit. Aducem adezivii SCIGRIP prin canale de aprovizionare din Uniunea Europeană sau direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de serie și cantitate. Pentru ofertă, avem nevoie de materialele de îmbinat, timpul de lucru dorit și, dacă e cazul, cerința de tratament termic ulterior. Nu facem promisiuni de disponibilitate constantă pentru nicio serie din gamă.`,
+    limitation: "Compania a fost înființată în 2011, conform prezentării producătorului; nu putem confirma parametri tehnici dincolo de cei din documentația producătorului.",
     productCodes: [
       { code: "SG100", description: "Adeziv MMA rezistent la UV pentru structuri mici" },
       { code: "SG200", description: "Adeziv MMA pentru structuri mici, timp de lucru variabil" },
@@ -311,7 +311,7 @@ Pentru piața din România, SCIGRIP are sens la asamblarea compozitelor din cons
       { code: "MP100", description: "Primer metalic pentru pregătirea suprafețelor înainte de lipire" }
     ],
     faq: [
-      { q: "Ce produce SCIGRIP?", a: "SCIGRIP fabrică adezivi structurali metacrilici (MMA) pentru asamblări marine, feroviare, auto și industriale, cu facilități de producție în SUA și Regatul Unit, conform site-ului producătorului." },
+      { q: "Ce produce SCIGRIP?", a: "SCIGRIP fabrică adezivi structurali metacrilici (MMA) pentru asamblări marine, feroviare, auto și industriale, cu facilități de producție în SUA și Regatul Unit, conform documentației producătorului." },
       { q: "Cum aleg adezivul SCIGRIP potrivit după cod?", a: "Codul indică familia și timpul de lucru — SG100/SG200 pentru structuri mici, SG230HV pentru structuri mari, SG3000 pentru metale galvanizate fără primer — alegerea finală depinde de materialele îmbinate și ritmul de asamblare." },
       { q: "Are SCIGRIP adezivi fără primer pentru metal galvanizat?", a: "Da, seria SG3000 este formulată special pentru asamblarea metalelor galvanizate și zincate fără primer sau pregătire prealabilă a suprafeței, cu timp de lucru de 6–15 minute, conform descrierii producătorului." },
       { q: "Livrați adezivi SCIGRIP în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană sau direct din SUA, cu termen orientativ de 1–4 săptămâni, în funcție de seria și cantitatea solicitate." }
@@ -327,17 +327,17 @@ Pentru piața din România, SCIGRIP are sens la asamblarea compozitelor din cons
   },
   "ac-motoren": {
     name: "AC Motoren",
-    overview: `AC Motoren este un producător german de motoare electrice standard IEC, cu game de joasă și înaltă tensiune, motoare monofazate, motoare cu comutare de poli și variante antiexplozive. Conform site-ului propriu, compania acoperă clasele de eficiență energetică IE2, IE3, IE4 și IE5. Din gama AC Motoren putem oferta motoare trifazate standard, motoare cu frână integrată și motoare pentru zone cu risc de explozie, pentru aplicații industriale cu cerințe variate de eficiență.
+    overview: `AC Motoren este un producător german de motoare electrice standard IEC, cu game de joasă și înaltă tensiune, motoare monofazate, motoare cu comutare de poli și variante antiexplozive. Conform documentației producătorului, compania acoperă clasele de eficiență energetică IE2, IE3, IE4 și IE5. Din gama AC Motoren putem oferta motoare trifazate standard, motoare cu frână integrată și motoare pentru zone cu risc de explozie, pentru aplicații industriale cu cerințe variate de eficiență.
 
 Ce diferențiază AC Motoren e acoperirea întregii plaje de clase de eficiență, de la IE2 la IE5. Dimensiunile de montaj și gradul de protecție ale fiecărui motor se confirmă pe cod, din fișa tehnică a producătorului. 
 
 Pentru piața din România, AC Motoren are sens la retehnologizări unde clientul vrea o clasă de eficiență superioară (IE4/IE5), cu verificarea dimensiunilor de montaj pe cod, sau la aplicații cu risc de explozie care cer motoare certificate corespunzător.`,
     whyChoose: [
-      "Acoperă clasele de eficiență IE2, IE3, IE4 și IE5, conform site-ului producătorului",
+      "Acoperă clasele de eficiență IE2, IE3, IE4 și IE5, conform documentației producătorului",
       "Dimensiunile de montaj și datele tehnice se confirmă pe cod, din fișa tehnică a producătorului",
-      "Gamă de joasă și înaltă tensiune, plus motoare monofazate, conform site-ului producătorului",
+      "Gamă de joasă și înaltă tensiune, plus motoare monofazate, conform documentației producătorului",
       "Motoare antiexplozive disponibile pentru zone cu risc, alături de gama standard industrială",
-      "Motoare cu comutare de poli și motoare cu frână, alături de gama standard, conform site-ului producătorului"
+      "Motoare cu comutare de poli și motoare cu frână, alături de gama standard, conform documentației producătorului"
     ],
     keyProducts: [
       { name: "Seria ACM 100 L", description: "Familie de motoare asincrone trifazate AC Motoren în carcasă mărimea 100. Puterea, turația, clasa de eficiență, gradul de protecție și tipul de montare se confirmă pe cod, din fișa tehnică a producătorului. Pentru ofertă, precizați puterea necesară, turația, clasa de eficiență dorită și tipul de montare." },
@@ -352,7 +352,7 @@ Pentru piața din România, AC Motoren are sens la retehnologizări unde clientu
       "Apă și apă uzată — motoare pentru pompe de proces"
     ],
     infinitrade: `Pentru AC Motoren lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru gama de motoare electrice. Aducem motoarele AC Motoren prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de puterea și clasa de eficiență solicitate. Pentru ofertă, avem nevoie de puterea necesară (kW), turația, tensiunea de alimentare, dimensiunea de montare și dacă aplicația necesită certificare antiexplozivă. Nu facem promisiuni de disponibilitate constantă pentru nicio putere sau turație din gamă.`,
-    limitation: "Nu putem confirma anul fondării sau sediul exact al companiei, informații care nu apar explicit pe paginile citate ale producătorului.",
+    limitation: "Nu putem confirma anul fondării sau sediul exact al companiei, informații care nu apar explicit în documentația producătorului.",
     productCodes: [
       { code: "ACM 100 L 2/PHE", description: "Motor trifazat din seria ACM 100 L, variantă PHE; parametrii se confirmă din fișa tehnică" },
       { code: "ACM 100 L 6/PHE", description: "Motor trifazat din seria ACM 100 L, variantă PHE; parametrii se confirmă din fișa tehnică" },
@@ -366,7 +366,7 @@ Pentru piața din România, AC Motoren are sens la retehnologizări unde clientu
       { code: "Bremsmotoren", description: "Familia de motoare cu frână integrată" }
     ],
     faq: [
-      { q: "Ce produce AC Motoren?", a: "AC Motoren fabrică motoare electrice standard IEC — de joasă și înaltă tensiune, monofazate, cu comutare de poli și antiexplozive — în clasele de eficiență IE2 până la IE5, conform site-ului producătorului german." },
+      { q: "Ce produce AC Motoren?", a: "AC Motoren fabrică motoare electrice standard IEC — de joasă și înaltă tensiune, monofazate, cu comutare de poli și antiexplozive — în clasele de eficiență IE2 până la IE5, conform documentației producătorului german." },
       { q: "Ce înseamnă sufixele PHE și SPE la motoarele AC Motoren?", a: "Sufixele PHE și SPE fac parte din codul de tip al motoarelor AC Motoren; semnificația exactă a abrevierilor și clasa de eficiență corespunzătoare le confirmăm pe cod, din fișa tehnică a producătorului." },
       { q: "Livrați motoare AC Motoren în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de puterea, turația și clasa de eficiență solicitate." }
     ],
@@ -392,7 +392,7 @@ Pentru piața din România, ICM Motori are sens la linii de ambalare, mașini te
       "Motoare de alunecare seria SC/SCN, cu putere aproape constantă într-un interval stabilit de variație a turației",
       "Motoare de cuplu constant seria C/CF pentru tensiune constantă la înfășurare și derulare",
       "Seria compactă R pentru montaje cu spațiu redus, alături de gama standard",
-      "Peste 60 de ani de activitate în motoare electrice, din 1965, conform site-ului producătorului",
+      "Peste 60 de ani de activitate în motoare electrice, din 1965, conform documentației producătorului",
       "Clase de eficiență IE2 și IE3 disponibile pe gama de motoare trifazate standard"
     ],
     keyProducts: [
@@ -428,7 +428,7 @@ Pentru piața din România, ICM Motori are sens la linii de ambalare, mașini te
       { code: "Motoare pentru Invertor", description: "Motoare adaptate pentru alimentare prin convertizor de frecvență" }
     ],
     faq: [
-      { q: "Ce produce ICM Motori?", a: "ICM Motori fabrică motoare electrice asincrone standard și speciale — trifazate, monofazate, de alunecare și de cuplu constant — din 1965, la Opera, lângă Milano, conform site-ului producătorului." },
+      { q: "Ce produce ICM Motori?", a: "ICM Motori fabrică motoare electrice asincrone standard și speciale — trifazate, monofazate, de alunecare și de cuplu constant — din 1965, la Opera, lângă Milano, conform documentației producătorului." },
       { q: "Ce este un motor de alunecare ICM Motori?", a: "Este un motor din seria SC/SCN, cu rotor în scurtcircuit de rezistență ridicată, care oferă putere aproape constantă într-un interval stabilit de variație a turației, folosit la mașini de bobinat cabluri, fire sau benzi adezive." },
       { q: "Cum aleg motorul ICM Motori potrivit după serie?", a: "Seria indică principiul de funcționare — SC/SCN pentru reglare de turație, C/CF pentru cuplu constant la derulare, R pentru gabarit redus — iar alegerea finală depinde de puterea, turația și tipul de sarcină antrenată." },
       { q: "Livrați motoare ICM Motori în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de seria, puterea și turația solicitate de proiectul dumneavoastră." }
@@ -472,7 +472,7 @@ Pentru piața din România, Alco Valves are sens la panouri de instrumentație p
     ],
     certifications: ["ISO 9001 — din 2007", "BS5750 — acreditare din 1982"],
     infinitrade: `Pentru Alco Valves nu deținem date proprii despre stocul global al grupului britanic — informațiile provin din materialele publicate de producător. Aducem robineții Alco, HI-TEK și Sabre prin canale de aprovizionare din Regatul Unit sau Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model și certificare cerută. Pentru ofertă, avem nevoie de brandul dorit (Alco, HI-TEK sau Sabre), presiunea de lucru, diametrul conexiunii și fluidul din instalație. Nu facem promisiuni de disponibilitate constantă pentru niciun model din gamă.`,
-    limitation: "Nu putem confirma dimensiunile exacte de conexiune pentru fiecare model din seriile Sabre, doar categoriile generale publicate pe site.",
+    limitation: "Nu putem confirma dimensiunile exacte de conexiune pentru fiecare model din seriile Sabre, doar categoriile generale din documentația producătorului.",
     productCodes: [
       { code: "A Series Ball Valve", description: "Robinet cu bilă dintr-o singură bucată, din bară plină (bar stock)" },
       { code: "UN-V Series Needle Valve", description: "Robinet cu ac, scaun metal-pe-metal, etanșare fără scurgeri" },
@@ -496,7 +496,7 @@ Pentru piața din România, Alco Valves are sens la panouri de instrumentație p
       { code: "Sabre Manifold Systems", description: "Sisteme de manifold cu 2, 3 sau 5 robineți" }
     ],
     faq: [
-      { q: "Ce produce Alco Valves?", a: "Alco Valves este un grup britanic care produce robineți de instrumentație (brandul Alco), robineți de înaltă presiune și subsea (HI-TEK) și robineți manuali de proces (Sabre), conform site-ului propriu." },
+      { q: "Ce produce Alco Valves?", a: "Alco Valves este un grup britanic care produce robineți de instrumentație (brandul Alco), robineți de înaltă presiune și subsea (HI-TEK) și robineți manuali de proces (Sabre), conform documentației producătorului." },
       { q: "Ce robineți Alco Valves sunt destinați aplicațiilor subsea?", a: "Gama HI-TEK Subsea include robineți cu bilă flotantă, cu ac, de reținere și montați pe trunion, proiectați pentru instalare la adâncimi de până la 3.000 de metri, conform informațiilor producătorului." },
       { q: "Ce înseamnă RTG la robineții Alco Valves?", a: "RTG (ready to go) marchează robineții preasamblați, gata de montare directă pe panoul de instrumentație, precum seriile UB și PB Ball Valve sau manifoldurile DBB-N și DBB-B." },
       { q: "Livrați robineți Alco Valves în România?", a: "Da, la comandă, prin canale de aprovizionare din Regatul Unit sau Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de brandul, modelul și certificarea solicitate." }
@@ -540,7 +540,7 @@ Pentru piața din România, BESA are sens la instalații sub presiune care cer s
     ],
     certifications: ["PED — pentru echipamente sub presiune", "ATEX — pentru zone cu risc de explozie", "API 526 — pentru seriile 280 și 290"],
     infinitrade: `Pentru BESA nu avem, pentru acest brand, date proprii despre stocul din fabrica italiană — descrierile de mai sus vin din materialele publicate de producător. Aducem supapele BESA prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de serie, presiune și certificare cerută. Pentru ofertă, avem nevoie de seria dorită, diametrul conexiunii, presiunea de tarare și standardul de certificare aplicabil proiectului (PED, ATEX, API 526). Nu facem promisiuni de disponibilitate constantă pentru nicio serie de supape din gamă.`,
-    limitation: "Nu putem confirma timpii de fabricație pentru variante custom sau certificările pe navă specifice fiecărui proiect, doar seriile standard publicate pe site.",
+    limitation: "Nu putem confirma timpii de fabricație pentru variante custom sau certificările pe navă specifice fiecărui proiect, doar seriile standard din documentația producătorului.",
     productCodes: [
       { code: "Seria 130", description: "Supapă de siguranță flanșată, DN 15–150, 0,2–40 bar" },
       { code: "Seria 139", description: "Supapă de siguranță cu conexiuni filetate" },
@@ -554,7 +554,7 @@ Pentru piața din România, BESA are sens la instalații sub presiune care cer s
       { code: "Seria 290", description: "Supapă API 526 cu inel de reglaj, până la 300 bar" }
     ],
     faq: [
-      { q: "Ce produce BESA?", a: "BESA fabrică supape de siguranță industriale — cu conexiuni filetate, flanșate, de înaltă presiune și conforme API 526 — la fabrica din Settala, lângă Milano, conform site-ului producătorului." },
+      { q: "Ce produce BESA?", a: "BESA fabrică supape de siguranță industriale — cu conexiuni filetate, flanșate, de înaltă presiune și conforme API 526 — la fabrica din Settala, lângă Milano, conform documentației producătorului." },
       { q: "Ce serie BESA respectă standardul API 526?", a: "Seriile 280 și 290 sunt conforme standardului american API 526, cu conexiuni de la DN 1 la DN 8 inch la intrare și presiuni de până la 300 de bar, conform datelor publicate de producător." },
       { q: "Ce echivalent are seria 271 de la BESA pentru fluide corozive?", a: "Seria 271 este varianta căptușită cu PFA și burduf din PTFE, gândită special pentru fluide chimic agresive la presiuni de 0,8–10 bar, acolo unde o supapă metalică standard s-ar coroda." },
       { q: "Livrați supape BESA în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de seria, presiunea și certificarea solicitate pentru proiectul dumneavoastră." }
@@ -596,7 +596,7 @@ Pentru piața din România, C.K Tools are sens la echipe de electricieni și teh
       "Automotive — accesorii pentru scule electrice și depozitare"
     ],
     infinitrade: `Pentru gama C.K Tools ținem să spunem deschis ce putem și ce nu putem confirma — informațiile de mai sus vin din materialele publicate de producătorul britanic. Aducem sculele C.K Tools prin canale de aprovizionare din Regatul Unit sau Uniunea Europeană, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de produs și cantitate. Pentru ofertă, avem nevoie de denumirea exactă a produsului sau categoriei (clește, dezizolator, cameră de inspecție), lungimea sau dimensiunea necesară și, pentru scule VDE, tensiunea de lucru. Nu facem promisiuni de disponibilitate constantă pe nicio referință din gamă.`,
-    limitation: "Nu putem confirma coduri de catalog exacte pentru fiecare produs din categoriile C.K Classic și C.K Magma, doar denumirile de familie și câteva produse specifice publicate pe site.",
+    limitation: "Nu putem confirma coduri de catalog exacte pentru fiecare produs din categoriile C.K Classic și C.K Magma, doar denumirile de familie și câteva produse specifice din documentația producătorului.",
     productCodes: [
       { code: "Redline VDE Cable Cutter 160mm", description: "Clește de tăiat cabluri certificat VDE, lungime 160 mm" },
       { code: "MightyScope Inspection Camera", description: "Cameră de inspecție portabilă pentru spații greu accesibile" },
@@ -620,7 +620,7 @@ Pentru piața din România, C.K Tools are sens la echipe de electricieni și teh
       { code: "Wire Strippers", description: "Dezizolatoare manuale de sârmă și cablu" }
     ],
     faq: [
-      { q: "Ce produce C.K Tools?", a: "C.K Tools fabrică scule de mână pentru electricieni și tehnicieni — clești VDE, dezizolatoare, camere de inspecție și chei tubulare — sub liniile C.K Classic și C.K Magma, conform site-ului producătorului britanic." },
+      { q: "Ce produce C.K Tools?", a: "C.K Tools fabrică scule de mână pentru electricieni și tehnicieni — clești VDE, dezizolatoare, camere de inspecție și chei tubulare — sub liniile C.K Classic și C.K Magma, conform documentației producătorului britanic." },
       { q: "Sunt cleștii C.K Tools certificați pentru lucrul sub tensiune?", a: "Da, seria Redline include clești de tăiat cabluri certificate VDE, precum modelul de 160 mm, gândite pentru lucrul sub tensiune la instalații electrice." },
       { q: "Ce este camera MightyScope de la C.K Tools?", a: "MightyScope este camera de inspecție portabilă a C.K Tools, folosită pentru vizualizarea spațiilor greu accesibile — tablouri electrice, conducte sau spații tehnice înguste — fără demontarea echipamentului." },
       { q: "Livrați scule C.K Tools în România?", a: "Da, la comandă, prin canale de aprovizionare din Regatul Unit sau Uniunea Europeană, cu termen orientativ de 1–4 săptămâni, în funcție de produsul și cantitatea solicitate." }

@@ -39,7 +39,7 @@ Pentru piața locală, gama are sens la producătorii și integratorii de echipa
     ],
     infinitrade: `Pentru Hanning Elektro-Werke lucrăm strict din surse publice ale producătorului: paginile de produs pe diviziile hamotic și haflowtic, fără date proprii de stoc pentru un brand pe care nu l-am mai comercializat până acum. Aducem motoarele și pompele la comandă, prin canale de aprovizionare din spațiul UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de disponibilitatea la fabrica producătorului. Pentru o ofertă corectă, clientul trebuie să ne trimită codul exact al motorului sau pompei (ex. 307, DPO 20), tensiunea de alimentare și, dacă e cazul, desenul de montaj al echipamentului în care se integrează. Pentru Hanning Elektro-Werke nu promitem disponibilitate din depozit pe niciun cod din gamă.`,
     limitation:
-      "Nu putem confirma coduri de model pentru diviziile haventic (ventilatoare) și hatronic (electronică de control), pentru care site-ul producătorului nu publică denumiri de produs.",
+      "Nu putem confirma coduri de model pentru diviziile haventic (ventilatoare) și hatronic (electronică de control), pentru care documentația producătorului nu publică denumiri de produs.",
     productCodes: [
       { code: "301", description: "Acționare uși/porți industriale, până la 7,5 kW, 2/4/6 poli" },
       { code: "304", description: "Motor fără carcasă pentru aplicații în ulei, până la 5,5 kW" },
@@ -132,7 +132,7 @@ Pentru instalații din România cu motoare de peste 75 kW — mine, ciment, oțe
       "Porturi — acționări pentru echipamente de manipulare marfă",
       "Energie — generatoare și grupuri rotative de conversie",
     ],
-    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce publică oficial producătorul pe site — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
+    infinitrade: `Pentru motoarele Menzel Elektromotoren mergem doar pe ce indică oficial producătorul — plaje de putere, tensiune și scheme de răcire — fără date proprii de stoc, întrucât brandul nu a mai fost comercializat de noi. La un motor de peste 75 kW, aducerea la comandă e regula, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea specificațiilor la fabrica din Hennigsdorf; la puteri foarte mari, termenul real se stabilește abia după ce producătorul confirmă disponibilitatea. Pentru ofertă avem nevoie de puterea nominală, tensiunea de alimentare, schema de răcire dorită (IC) și tipul de rotor (scurtcircuit sau inele colectoare). Nu promitem disponibilitate din depozit pentru niciun cod din gamă — motoarele de această clasă se produc, de regulă, la comandă fermă.`,
     limitation:
       "Nu putem confirma disponibilitatea unor variante constructive foarte specifice (de exemplu combinații rare între schema de răcire și execuția antiex), care la Menzel se stabilesc individual, proiect cu proiect.",
     productCodes: [
@@ -224,7 +224,7 @@ Pentru piața din România, Elprom Harmanli are sens la producătorii de macaral
       "Construcții — motoare pentru betoniere",
       "Industria generală — motoare AT pentru pompe, ventilatoare și benzi transportoare",
     ],
-    infinitrade: `La Elprom Harmanli nu avem date proprii de stoc, fiind un brand nou pentru noi — lucrăm cu ce confirmă producătorul pe paginile oficiale de produs, pentru fiecare familie de motor în parte. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, valabil atât pentru gama AT standard, cât și pentru variantele speciale de macara sau pompă submersibilă. Pentru ofertă, clientul trebuie să precizeze familia de motor (AT, macara, submersibil, PM), puterea, mărimea de carcasă dacă o cunoaște și tensiunea de alimentare. Nu ținem aceste motoare pe stoc; disponibilitatea reală se confirmă după verificarea la fabrica din Harmanli sau Plovdiv.`,
+    infinitrade: `La Elprom Harmanli nu avem date proprii de stoc, fiind un brand nou pentru noi — lucrăm cu ce confirmă documentația tehnică a producătorului, pentru fiecare familie de motor în parte. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, valabil atât pentru gama AT standard, cât și pentru variantele speciale de macara sau pompă submersibilă. Pentru ofertă, clientul trebuie să precizeze familia de motor (AT, macara, submersibil, PM), puterea, mărimea de carcasă dacă o cunoaște și tensiunea de alimentare. Nu ținem aceste motoare pe stoc; disponibilitatea reală se confirmă după verificarea la fabrica din Harmanli sau Plovdiv.`,
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă pentru fiecare combinație de putere și turație, pentru care producătorul publică doar cataloage descărcabile, nu tabele pe pagina web.",
     productCodes: [
@@ -286,7 +286,7 @@ Dincolo de motorul standard, Electro Adda produce o gamă amplă de variante con
 
 Pentru instalații din România — de exemplu generatoare pentru turbine eoliene și hidro sau aplicații navale — Electro Adda are sens acolo unde e nevoie de o variantă constructivă specifică (antiex, cu frână, răcită cu apă) pe un motor de putere medie, nu neapărat de puterea maximă disponibilă în catalog.`,
     whyChoose: [
-      "Variante constructive multiple documentate pe site, de la motorul standard la generator eolian sau motor pentru role transportoare",
+      "Variante constructive multiple documentate în documentația producătorului, de la motorul standard la generator eolian sau motor pentru role transportoare",
       "Variante antideflagrante ATEX; alte certificări se confirmă pe cod, din documentația producătorului",
       "Producție anuală declarată de producător: peste 110.000 de motoare livrate pe an",
       "Serie CS cu carcasă din oțel pentru puteri de până la 1.600 kW, dincolo de plaja tipică a motorului de aluminiu",
@@ -317,7 +317,7 @@ Pentru instalații din România — de exemplu generatoare pentru turbine eolien
       "Marină — motoare cu variante constructive pentru mediul naval",
       "Industrie generală — motoare standard seria C pentru acționări industriale",
     ],
-    infinitrade: `Pentru Electro Adda mergem pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru seria C din aluminiu; pentru seria CS din oțel, termenul depășește de regulă 4 săptămâni. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
+    infinitrade: `Pentru Electro Adda mergem pe documentația tehnică a producătorului, fără date proprii de stoc, brandul nefiind încă în portofoliul nostru curent. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru seria C din aluminiu; pentru seria CS din oțel, termenul depășește de regulă 4 săptămâni. Pentru ofertă, clientul trebuie să indice seria dorită (C, CS, CR, FE etc.), puterea, mărimea de carcasă și, dacă e cazul, cerința de certificare (ATEX, marin). Nu promitem disponibilitate din depozit — la puterile mari din seria CS, producția se face de regulă la comandă fermă, confirmată de fabrica din Italia.`,
     limitation:
       "Nu putem confirma codurile exacte de mărime de carcasă pentru fiecare putere din seria C sau CS, pentru care producătorul trimite spre catalogul descărcabil, nu spre un tabel pe pagina web.",
     productCodes: [
@@ -376,7 +376,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
       "Gamă dedicată mediului marin — motoare cu frână pentru medii marine și offshore",
       "Motoare de medie tensiune disponibile pentru instalații care depășesc plaja motorului standard de joasă tensiune",
       "Motoare EC, cu control inteligent și design compact, conform producătorului",
-      "Prezență în Danemarca (Hadsten, Frederikshavn) și în China (Ningbo), conform site-ului producătorului",
+      "Prezență în Danemarca (Hadsten, Frederikshavn) și în China (Ningbo), conform documentației producătorului",
     ],
     keyProducts: [
       {
@@ -404,7 +404,7 @@ Pentru instalații din România cu cerințe stricte de eficiență energetică s
     ],
     infinitrade: `La Hoyer Motors nu avem încă experiență proprie de livrare, așa că mergem exclusiv pe ce publică oficial producătorul despre clasele de eficiență și gamele disponibile, fără date proprii de stoc. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea clasei de eficiență și a puterii cerute. Pentru ofertă, clientul trebuie să precizeze clasa de eficiență dorită (IE1-IE4 sau PM IE5), puterea, tensiunea și, dacă e cazul, cerința de execuție marină sau antiex. Nu ținem această gamă pe raft; disponibilitatea reală se confirmă după verificarea la fabrica din Danemarca.`,
     limitation:
-      "Nu putem confirma parametrii tehnici exacți (putere, turație, tensiune) pentru fiecare model din gamă, pentru care site-ul producătorului nu publică un tabel tehnic detaliat, ci trimite spre fișe descărcabile separate.",
+      "Nu putem confirma parametrii tehnici exacți (putere, turație, tensiune) pentru fiecare model din gamă, pentru care documentația producătorului nu publică un tabel tehnic detaliat, ci trimite spre fișe descărcabile separate.",
     productCodes: [
       { code: "IE1 Electric Motors", description: "Clasă de eficiență standard, pentru aplicații generale" },
       { code: "IE2 Electric Motors", description: "Clasă de eficiență ridicată, soluție cost-eficientă" },
@@ -485,7 +485,7 @@ Pentru integratori din România care caută un singur furnizor pentru motor, inv
       "Energie solară — invertoare NEO-SOLAR pentru aplicații fotovoltaice",
       "Zone cu risc de explozie — motoare certificate ATEX/IECEx și invertoare certificate ATEX",
     ],
-    infinitrade: `Pentru Motive lucrăm cu informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand, pe care nu l-am mai comercializat până acum. Aducem la comandă motoare, invertoare și reductoare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației cerute. Pentru ofertă, clientul trebuie să precizeze dacă are nevoie de motor, invertor, reductor sau de un set complet, familia dorită (DELPHI, NEO/NANO, ROBUS etc.) și, dacă aplicația o cere, certificarea ATEX/IECEx. Nu promitem disponibilitate din depozit pe niciuna dintre familii — configurațiile complete se confirmă, de regulă, direct cu fabrica din Italia.`,
+    infinitrade: `Pentru Motive lucrăm cu documentația tehnică a producătorului, fără date proprii de stoc pentru acest brand, pe care nu l-am mai comercializat până acum. Aducem la comandă motoare, invertoare și reductoare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea configurației cerute. Pentru ofertă, clientul trebuie să precizeze dacă are nevoie de motor, invertor, reductor sau de un set complet, familia dorită (DELPHI, NEO/NANO, ROBUS etc.) și, dacă aplicația o cere, certificarea ATEX/IECEx. Nu promitem disponibilitate din depozit pe niciuna dintre familii — configurațiile complete se confirmă, de regulă, direct cu fabrica din Italia.`,
     limitation:
       "Nu putem confirma parametrii tehnici exacți (putere, cuplu, raport de reducere) pentru fiecare mărime din familiile de reductoare, pentru care producătorul publică fișe tehnice separate, necitate integral aici.",
     productCodes: [
@@ -581,7 +581,7 @@ Pentru instalații din România — centrale electrice, fabrici de ciment, rafin
     ],
     infinitrade: `Pentru VYBO Electric nu avem date proprii de stoc — mergem pe informația publicată de producător despre plajele de putere și tensiune pentru fiecare serie, fiind un brand nou în oferta noastră. Aducem motoarele la comandă, prin canale de aprovizionare din UE, cu un termen de regulă peste 4 săptămâni, stabilit după confirmarea seriei și a puterii cerute; la puterile foarte mari din seria H27R, termenul real se stabilește după confirmarea disponibilității la fabrica din Slovacia. Pentru ofertă, clientul trebuie să trimită seria (H17RL, 3LC, H17R, H27R etc.), puterea, tensiunea de alimentare și tipul de rotor (scurtcircuit sau inele colectoare). Nu ținem această gamă pe raft; aducem la comandă fiecare motor confirmat de producător.`,
     limitation:
-      "Nu putem confirma anul înființării companiei, informație pe care site-ul oficial nu o publică explicit, și nici parametrii tehnici exacți pentru fiecare mărime intermediară din seriile de medie și înaltă tensiune.",
+      "Nu putem confirma anul înființării companiei, informație pe care documentația producătorului nu o precizează explicit, și nici parametrii tehnici exacți pentru fiecare mărime intermediară din seriile de medie și înaltă tensiune.",
     productCodes: [
       { code: "H17RL", description: "Motor joasă tensiune, 132-2.500 kW, 400V/690V, IC411/IC416" },
       { code: "3LC", description: "Motor joasă tensiune, 11-400 kW, cadru IEC" },

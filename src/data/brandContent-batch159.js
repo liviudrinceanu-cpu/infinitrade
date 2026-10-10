@@ -232,7 +232,7 @@ Pentru un laborator de metrologie sau o echipă de mentenanță industrială din
       { q: "Ce fel de aparate produce Druck?", a: "Druck produce calibratoare de presiune portabile și de bancă, calibratoare multifuncționale care combină presiunea cu mărimi electrice, precum și senzori de presiune de proces, folosiți în metrologie industrială, petrol și gaze, energie și aerospațial." },
       { q: "Cum aleg un calibrator Druck după domeniul de presiune?", a: "Pentru domenii largi, de la vid la 1000 bar, și pentru lucru de teren se potrivește DPI610E; dacă aplicația necesită și măsurători electrice pe lângă presiune, varianta modulară DPI620G acoperă ambele. Pentru zone cu risc de explozie există varianta DPI610E-IS." },
       { q: "Livrați echipamente Druck în România?", a: "Aducem la comandă calibratoare și senzori Druck prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Nu promitem disponibilitate din depozit, iar fiecare model se verifică separat înainte de confirmare." },
-      { q: "Emiteți certificat de etalonare pentru un calibrator Druck?", a: "Nu emitem noi certificate de etalonare; acestea se pot obține la cerere direct de la producător sau de la un laborator acreditat, separat de livrarea aparatului." },
+      { q: "Emiteți certificat de etalonare pentru un calibrator Druck?", a: "Nu emitem noi certificate de etalonare; acestea se pot obține de la un laborator acreditat, separat de livrarea aparatului." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -372,7 +372,7 @@ Pentru un laborator PRAM sau o echipă de mentenanță a stațiilor electrice di
       "Testere de raport de transformare TTR — seriile TRF și ATRT pentru verificarea transformatoarelor",
       "Micro-ohmmetre dedicate — seriile TRM și Auto-Ohm pentru rezistența de înfășurare și de contact",
       "Producător certificat ISO 9001:2015, cu servicii de etalonare în laborator acreditate ISO/IEC 17025:2017",
-      "Parte a grupului Doble Engineering, conform site-ului producătorului",
+      "Parte a grupului Doble Engineering, conform documentației producătorului",
     ],
     keyProducts: [
       { name: "Testere de Raport de Transformare Seriile TRF/ATRT", description: "Aparate pentru măsurarea raportului de transformare (TTR) la transformatoare de putere și de distribuție, folosite la recepția și verificarea periodică a transformatoarelor din stațiile electrice. Seria ATRT include variante automatizate pentru testare rapidă a mai multor prize ale transformatorului." },

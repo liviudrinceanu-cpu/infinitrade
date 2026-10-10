@@ -30,7 +30,7 @@ Pentru piața din România, Moxa are sens acolo unde rețeaua trebuie să rezist
       "Marină — echipamente de rețea certificate DNV GL pentru nave și platforme"
     ],
     certifications: ["IEC 61850-3 — pentru echipamente de rețea în substații electrice", "IEEE 1613 — imunitate electromagnetică pentru medii de substație", "EN 50155 — pentru echipamente electronice montate pe vehicule feroviare", "ATEX — modele Moxa certificate pentru zone cu risc de explozie (pe cod)"],
-    infinitrade: `Pentru Moxa lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii de stoc pe fiecare cod — vă spunem clar ce putem și ce nu putem confirma înainte de a trimite o ofertă. Aducem echipamentele de rețea Moxa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model. Ca să pregătim o ofertă corectă, trimiteți-ne codul exact al produsului sau, dacă nu îl aveți, numărul de porturi și interfața dorită, certificările necesare și cantitatea.`,
+    infinitrade: `Pentru Moxa lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe fiecare cod — vă spunem clar ce putem și ce nu putem confirma înainte de a trimite o ofertă. Aducem echipamentele de rețea Moxa la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model. Ca să pregătim o ofertă corectă, trimiteți-ne codul exact al produsului sau, dacă nu îl aveți, numărul de porturi și interfața dorită, certificările necesare și cantitatea.`,
     limitation: "Nu confirmăm disponibilitatea în timp real a fiecărui cod Moxa și nu oferim configurare software proprietară pentru switch-uri gestionate.",
     productCodes: [
       {
@@ -141,7 +141,7 @@ Pentru piața din România, Hydroline are sens la retehnologizarea utilajelor de
       "Agricultură — cilindri de basculare și direcție pentru tractoare și combine",
       "Mentenanță industrială — înlocuirea cilindrilor uzați cu variante proiectate pe aceeași cursă și interfață"
     ],
-    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din informațiile publice ale producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen de regulă peste 4 săptămâni de la confirmarea specificațiilor tehnice, fiind un produs proiectat individual, fără stoc permanent. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
+    infinitrade: `La Hydroline nu avem date proprii de stoc, pentru că fiecare cilindru e proiectat pe comandă — lucrăm din documentația tehnică a producătorului și din ce ne confirmă direct fabrica pentru fiecare proiect. Aducem cilindri Hydroline la comandă prin canale de aprovizionare din UE, cu termen de regulă peste 4 săptămâni de la confirmarea specificațiilor tehnice, fiind un produs proiectat individual, fără stoc permanent. Pentru o ofertă utilizabilă avem nevoie de desenul tehnic sau, minimal, de cursă, diametru, presiune de lucru și tipul de fixare al cilindrului. Nu lucrăm cu prețuri de listă publice — fiecare cilindru se cotează după specificație.`,
     limitation: "Nu putem confirma termene de livrare exacte înainte ca fabrica să valideze desenul tehnic al cilindrului cerut, fiind vorba de un produs proiectat individual, nu de un cod de catalog fix.",
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -182,7 +182,7 @@ Pentru piața din România, Aignep are sens la linii de asamblare, mașini-unelt
       "Instalații sanitare — fitinguri moștenite din activitatea originală a companiei",
       "Procesare fluide — valve din linia Fluidity pentru distribuție de lichide sau gaze"
     ],
-    infinitrade: `Pentru Aignep, informațiile publice disponibile pe site-ul producătorului sunt principala noastră sursă — nu avem date proprii de stoc pentru fiecare cod din gama de fitinguri și valve. Aducem componentele Aignep la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru toate diametrele și variantele. Pentru o ofertă rapidă, trimiteți-ne codul exact al fitingului sau valvei, sau, dacă nu-l aveți, diametrul tubului, tipul de filet și presiunea de lucru. Nu publicăm prețuri fără verificare punctuală la furnizor, iar pentru cantități mari confirmăm disponibilitatea înainte de a promite un termen.`,
+    infinitrade: `Pentru Aignep, documentația tehnică a producătorului sunt principala noastră sursă — nu avem date proprii de stoc pentru fiecare cod din gama de fitinguri și valve. Aducem componentele Aignep la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru toate diametrele și variantele. Pentru o ofertă rapidă, trimiteți-ne codul exact al fitingului sau valvei, sau, dacă nu-l aveți, diametrul tubului, tipul de filet și presiunea de lucru. Nu publicăm prețuri fără verificare punctuală la furnizor, iar pentru cantități mari confirmăm disponibilitatea înainte de a promite un termen.`,
     limitation: "Nu putem confirma compatibilitatea exactă între toate variantele de fitinguri Aignep și componente de la alți producători fără specificațiile tehnice complete ale instalației clientului.",
     productCodes: [
       {
@@ -307,7 +307,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       "Echipamente de laborator și medical — elemente de operare cu design ergonomic recunoscut",
       "Mentenanță industrială — piese de schimb standardizate pentru mânere și elemente de fixare"
     ],
-    infinitrade: `Pentru Elesa+Ganter nu avem date proprii de stoc pe fiecare cod din catalog — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea specifică înainte de a oferta. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru întreaga gamă de mânere și elemente standard. Pentru o ofertă rapidă, trimiteți codul de catalog al piesei sau, dacă nu-l știți, tipul de element (mâner, buton, element de indexare), dimensiunea filetului și materialul preferat. Nu publicăm prețuri fără o verificare punctuală la furnizor.`,
+    infinitrade: `Pentru Elesa+Ganter nu avem date proprii de stoc pe fiecare cod din catalog — lucrăm din documentația tehnică a producătorului și confirmăm disponibilitatea specifică înainte de a oferta. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru întreaga gamă de mânere și elemente standard. Pentru o ofertă rapidă, trimiteți codul de catalog al piesei sau, dacă nu-l știți, tipul de element (mâner, buton, element de indexare), dimensiunea filetului și materialul preferat. Nu publicăm prețuri fără o verificare punctuală la furnizor.`,
     limitation: "Nu putem confirma disponibilitatea unei variante de culoare sau finisaj anume din catalogul Elesa+Ganter fără o interogare punctuală la furnizor, gama fiind foarte extinsă.",
     productCodes: [
       {
@@ -366,7 +366,7 @@ Pentru piața din România, gama are sens la proiectarea de mașini și echipame
       },
       {
         "q": "Livrați repere Elesa+Ganter în România la comandă?",
-        "a": "Reperele Elesa+Ganter ajung la noi prin comandă dedicată, plecând de la codul GN confirmat cu clientul; nu avem această gamă pe raft, iar termenul este de obicei 1–4 săptămâni. Ne bazăm pe cataloagele tehnice publice ale producătorului pentru identificarea variantei exacte de dimensiune și material. Un desen cotat sau codul complet de pe piesa existentă grăbește mult procesul."
+        "a": "Reperele Elesa+Ganter ajung la noi prin comandă dedicată, plecând de la codul GN confirmat cu clientul; nu avem această gamă pe raft, iar termenul este de obicei 1–4 săptămâni. Ne bazăm pe documentația tehnică a producătorului pentru identificarea variantei exacte de dimensiune și material. Un desen cotat sau codul complet de pe piesa existentă grăbește mult procesul."
       },
       {
         "q": "Ce diferență este între un element de indexare și o clemă de fixare Elesa+Ganter?",
@@ -418,7 +418,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde aveți nevoie de arcu
       "Construcții și electronice — arcuri standard pentru mecanisme și conectori"
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu", "ISO 13485:2016 — pentru producția de componente destinate dispozitivelor medicale"],
-    infinitrade: `Pentru Lesjöfors nu deținem date proprii de stoc pentru fiecare cod de arc din catalog — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea exactă o verificăm punctual, la cerere. Aducem arcurile Lesjöfors la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare dimensiune. Pentru o ofertă corectă, trimiteți desenul tehnic al arcului sau, minimal, diametrul sârmei, numărul de spire, cursa și forța necesară. Nu lucrăm cu prețuri publice fixe — fiecare comandă se cotează pe baza specificației tehnice primite.`,
+    infinitrade: `Pentru Lesjöfors nu deținem date proprii de stoc pentru fiecare cod de arc din catalog — informațiile tehnice provin din documentația tehnică a producătorului, iar disponibilitatea exactă o verificăm punctual, la cerere. Aducem arcurile Lesjöfors la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare dimensiune. Pentru o ofertă corectă, trimiteți desenul tehnic al arcului sau, minimal, diametrul sârmei, numărul de spire, cursa și forța necesară. Nu lucrăm cu prețuri publice fixe — fiecare comandă se cotează pe baza specificației tehnice primite.`,
     limitation: "Nu putem confirma un termen de livrare pentru un arc complet nou-proiectat înainte ca fabrica să valideze fezabilitatea tehnică a desenului trimis de client.",
     productCodes: [
       {
@@ -485,7 +485,7 @@ Pentru piața din România, Lesjöfors are sens acolo unde aveți nevoie de arcu
       },
       {
         "q": "Aduceți la comandă arcuri Lesjöfors în România?",
-        "a": "Arcurile Lesjöfors din gamele indicate se procură la comandă, potrivit informațiilor publice ale producătorului; nu avem raft propriu pentru această categorie, timpul fiind de 1–4 săptămâni. Pentru identificare, ne bazăm pe parametrii tehnici transmiși de client, nu pe un cod comercial unic, deoarece multe arcuri sunt realizate pe dimensiuni specifice aplicației."
+        "a": "Arcurile Lesjöfors din gamele indicate se procură la comandă, potrivit documentației tehnice a producătorului; nu avem raft propriu pentru această categorie, timpul fiind de 1–4 săptămâni. Pentru identificare, ne bazăm pe parametrii tehnici transmiși de client, nu pe un cod comercial unic, deoarece multe arcuri sunt realizate pe dimensiuni specifice aplicației."
       },
       {
         "q": "Ce diferență este între arcurile cu gaz NitroSprings și cele clasice de compresie Lesjöfors?",
@@ -536,7 +536,7 @@ Pentru piața din România, gama are sens la proiecte de instalații electrice i
       "Industria alimentară și a băuturilor — trasee de cabluri rezistente la mediile de producție",
       "Infrastructură generală — jgheaburi și sisteme de conducere a cablurilor pentru clădiri comerciale"
     ],
-    infinitrade: `Pentru OBO Bettermann nu avem date proprii de stoc pentru fiecare cod din gamă — informațiile despre produse provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare comandă. Aducem produsele OBO Bettermann la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toate dimensiunile de jgheab sau tipurile de descărcător. Pentru o ofertă rapidă, trimiteți codul exact al produsului sau, dacă nu-l aveți, tipul de sistem (jgheab, descărcător, protecție la foc), dimensiunile necesare și lungimea traseului. Nu publicăm prețuri fără verificare la furnizor.`,
+    infinitrade: `Pentru OBO Bettermann nu avem date proprii de stoc pentru fiecare cod din gamă — informațiile despre produse provin din documentația tehnică a producătorului, iar disponibilitatea o verificăm punctual pentru fiecare comandă. Aducem produsele OBO Bettermann la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toate dimensiunile de jgheab sau tipurile de descărcător. Pentru o ofertă rapidă, trimiteți codul exact al produsului sau, dacă nu-l aveți, tipul de sistem (jgheab, descărcător, protecție la foc), dimensiunile necesare și lungimea traseului. Nu publicăm prețuri fără verificare la furnizor.`,
     limitation: "Nu proiectăm scheme complete de protecție la trăsnet sau supratensiune pentru clădiri — livrăm componentele OBO Bettermann conform unui proiect deja stabilit de un inginer autorizat.",
     productCodes: [
       {
@@ -654,7 +654,7 @@ Pentru piața din România, LS Electric are sens la tablouri electrice și panou
       "Construcții — tablouri electrice pentru clădiri comerciale și industriale",
       "Industria producătoare — echipamente de comutație pentru linii de producție"
     ],
-    infinitrade: `Pentru LS Electric lucrăm din surse publice ale producătorului, fără date proprii de stoc pe fiecare cod de întrerupător sau invertor — vă spunem clar ce putem și ce nu putem confirma la momentul cererii. Aducem echipamentele LS Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toată gama. Pentru o ofertă corectă, trimiteți codul exact al produsului sau, dacă nu-l aveți, curentul nominal, tensiunea de lucru și tipul de echipament necesar (întrerupător, contactor, invertor). Nu publicăm prețuri fără o verificare punctuală de disponibilitate.`,
+    infinitrade: `Pentru LS Electric lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe fiecare cod de întrerupător sau invertor — vă spunem clar ce putem și ce nu putem confirma la momentul cererii. Aducem echipamentele LS Electric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru toată gama. Pentru o ofertă corectă, trimiteți codul exact al produsului sau, dacă nu-l aveți, curentul nominal, tensiunea de lucru și tipul de echipament necesar (întrerupător, contactor, invertor). Nu publicăm prețuri fără o verificare punctuală de disponibilitate.`,
     limitation: "Nu confirmăm compatibilitatea directă a echipamentelor LS Electric cu tablouri deja proiectate pentru alt producător fără o verificare tehnică punctuală a schemei electrice.",
     productCodes: [
       {
@@ -771,7 +771,7 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
       "Mentenanță mașini-unelte — înlocuirea electrospindle-urilor uzate pe echipamente existente"
     ],
     certifications: ["ISO 9001:2015 — deținută din 1996", "ISO 14001:2015 — management de mediu", "ISO 45001:2018 — sănătate și securitate ocupațională"],
-    infinitrade: `Pentru HSD nu avem date proprii de stoc pe fiecare model de electrospindle — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea exactă se confirmă punctual, per comandă. Aducem electrospindle-uri HSD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă corectă, trimiteți-ne modelul exact al electrospindle-ului sau, dacă nu-l cunoașteți, mașina pe care se montează și aplicația (metal, compozit, automotive). Nu publicăm prețuri fără o verificare punctuală de disponibilitate la furnizor.`,
+    infinitrade: `Pentru HSD nu avem date proprii de stoc pe fiecare model de electrospindle — informațiile tehnice provin din documentația tehnică a producătorului, iar disponibilitatea exactă se confirmă punctual, per comandă. Aducem electrospindle-uri HSD la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea specificațiilor, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă corectă, trimiteți-ne modelul exact al electrospindle-ului sau, dacă nu-l cunoașteți, mașina pe care se montează și aplicația (metal, compozit, automotive). Nu publicăm prețuri fără o verificare punctuală de disponibilitate la furnizor.`,
     limitation: "Nu oferim service în perioada de garanție a producătorului pentru electrospindle-urile HSD — acesta rămâne în sarcina producătorului și a centrelor sale de service.",
     productCodes: [
       {
@@ -830,7 +830,7 @@ Pentru piața din România, HSD are sens la retehnologizarea sau completarea uno
       },
       {
         "q": "Livrați electrospindele HSD în România?",
-        "a": "Da, aducem la comandă electrospindelele HSD prezentate în paginile de produs; livrarea ajunge de regulă la 1–4 săptămâni de la confirmarea comenzii, în funcție de complexitatea electrospindelului. Nu ținem aceste componente pe raft, iar informațiile despre coduri provin direct de pe site-ul oficial al producătorului, fără date interne despre stoc. Vă rugăm să trimiteți codul exact al electrospindelului și seria mașinii pe care va fi montat."
+        "a": "Da, aducem la comandă electrospindelele HSD prezentate în paginile de produs; livrarea ajunge de regulă la 1–4 săptămâni de la confirmarea comenzii, în funcție de complexitatea electrospindelului. Nu ținem aceste componente pe raft, iar informațiile despre coduri provin din documentația producătorului, fără date interne despre stoc. Vă rugăm să trimiteți codul exact al electrospindelului și seria mașinii pe care va fi montat."
       },
       {
         "q": "Ce înseamnă sufixul DS la modelul HST610 DS?",
@@ -877,8 +877,8 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       "Tâmplărie — scule electrice pentru prelucrarea lemnului",
       "Mentenanță industrială — scule portabile pentru intervenții de întreținere"
     ],
-    infinitrade: `Pentru Metabo nu avem date proprii de stoc pe fiecare cod de sculă — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sculele Metabo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model și capacitate de acumulator. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă, puterea sau capacitatea acumulatorului dorită și aplicația (metal, construcții, lemn). Nu publicăm prețuri fără verificare punctuală de disponibilitate.`,
-    limitation: "Nu oferim service în garanția producătorului pentru sculele Metabo — intervențiile acoperite de garanție se rezolvă prin rețeaua de service a producătorului din România.",
+    infinitrade: `Pentru Metabo nu avem date proprii de stoc pe fiecare cod de sculă — lucrăm din documentația tehnică a producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sculele Metabo la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model și capacitate de acumulator. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă, puterea sau capacitatea acumulatorului dorită și aplicația (metal, construcții, lemn). Nu publicăm prețuri fără verificare punctuală de disponibilitate.`,
+    limitation: "Nu oferim service în garanția producătorului pentru sculele Metabo — pentru intervențiile acoperite de garanție vă rugăm să ne transmiteți cererea, iar noi vă îndrumăm.",
     productCodes: [
       {
         "code": "BS 18 LTX-3 BL Q I Metal – 603180840",
@@ -956,7 +956,7 @@ Pentru piața din România, Metabo are sens la echipe de construcții, ateliere 
       },
       {
         "q": "Livrați scule Metabo cu acumulator în România?",
-        "a": "Da, aducem la comandă modelele Metabo prezentate mai sus; durata de așteptare acoperă de obicei 1–4 săptămâni, în funcție de configurația exactă aleasă. Nu ținem aceste scule pe raft; codurile și descrierile provin din paginile publice de produs ale Metabo, fără evidențe proprii despre disponibilitate. Când trimiteți cererea de ofertă, spuneți-ne dacă doriți varianta cu acumulator și încărcător sau doar corpul mașinii."
+        "a": "Da, aducem la comandă modelele Metabo prezentate mai sus; durata de așteptare acoperă de obicei 1–4 săptămâni, în funcție de configurația exactă aleasă. Nu ținem aceste scule pe raft; codurile și descrierile provin din documentația Metabo, fără evidențe proprii despre disponibilitate. Când trimiteți cererea de ofertă, spuneți-ne dacă doriți varianta cu acumulator și încărcător sau doar corpul mașinii."
       },
       {
         "q": "Ce reprezintă numărul de articol de lângă fiecare model Metabo?",
@@ -1004,7 +1004,7 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
       "Construcții — scule de mână pentru echipe de instalații electrice pe șantier",
       "Industrial și mentenanță (MRO) — scule durabile pentru intervenții repetate"
     ],
-    infinitrade: `Pentru Klein Tools nu avem date proprii de stoc pe fiecare cod de sculă — informațiile despre gamă provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere. Aducem scule Klein Tools la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă și aplicația (tăiere, dezizolare, seturi complete). Prețul îl stabilim abia după ce confirmăm la furnizor disponibilitatea exactă a modelului cerut.`,
+    infinitrade: `Pentru Klein Tools nu avem date proprii de stoc pe fiecare cod de sculă — informațiile despre gamă provin din documentația tehnică a producătorului, iar disponibilitatea o confirmăm la cerere. Aducem scule Klein Tools la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare model. Pentru o ofertă rapidă, trimiteți codul exact al sculei sau, dacă nu-l aveți, tipul de sculă și aplicația (tăiere, dezizolare, seturi complete). Prețul îl stabilim abia după ce confirmăm la furnizor disponibilitatea exactă a modelului cerut.`,
     limitation: "Nu confirmăm existența unei rețele de service a producătorului Klein Tools în România — scule cu defect de fabricație se tratează prin politica de garanție, verificată punctual la comandă.",
     productCodes: [
       {
@@ -1079,7 +1079,7 @@ Pentru piața din România, Klein Tools are sens la echipe de electricieni, firm
       },
       {
         "q": "Livrați scule Klein Tools în România?",
-        "a": "Da, aducem la comandă modelele Klein Tools listate mai sus; termenul standard este de 1–4 săptămâni, stabilit după verificarea stocului la producător. Nu ținem aceste scule pe raft; codurile provin din catalogul public de pe site-ul oficial Klein Tools, fără date proprii despre stoc. Recomandăm menționarea codului exact la solicitarea de ofertă, deoarece diferențele dintre variante pot fi subtile."
+        "a": "Da, aducem la comandă modelele Klein Tools listate mai sus; termenul standard este de 1–4 săptămâni, stabilit după verificarea disponibilității. Nu ținem aceste scule pe raft; codurile provin din catalogul Klein Tools, fără date proprii despre stoc. Recomandăm menționarea codului exact la solicitarea de ofertă, deoarece diferențele dintre variante pot fi subtile."
       },
       {
         "q": "Ce înseamnă codul J20009NE250 la un clește Klein Tools?",
@@ -1127,7 +1127,7 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
       "Centre de servicii oțel — tăiere automatizată pentru volume mari de tablă",
       "Structuri metalice — fabricarea elementelor de construcție din oțel"
     ],
-    infinitrade: `Pentru Hypertherm nu avem date proprii de stoc pe fiecare cod de consumabil sau sistem — lucrăm din surse publice ale producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sisteme și consumabile Hypertherm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru sisteme complete, fără disponibilitate permanentă din stoc pentru fiecare cod. Pentru o ofertă rapidă, trimiteți codul exact al piesei sau, dacă nu-l aveți, modelul sistemului de tăiere deținut și grosimea materialului tăiat. Prețul final se comunică doar după verificarea disponibilității reale a codului la furnizor.`,
+    infinitrade: `Pentru Hypertherm nu avem date proprii de stoc pe fiecare cod de consumabil sau sistem — lucrăm din documentația tehnică a producătorului și confirmăm disponibilitatea la furnizor înainte de a oferta. Aducem sisteme și consumabile Hypertherm la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru sisteme complete, fără disponibilitate permanentă din stoc pentru fiecare cod. Pentru o ofertă rapidă, trimiteți codul exact al piesei sau, dacă nu-l aveți, modelul sistemului de tăiere deținut și grosimea materialului tăiat. Prețul final se comunică doar după verificarea disponibilității reale a codului la furnizor.`,
     limitation: "Nu oferim configurare software proprietară pentru comenzile CNC EDGE Connect sau integrarea completă a sistemului de tăiere pe o linie automatizată — aceasta rămâne în sarcina integratorului de sistem.",
     productCodes: [
       {
@@ -1194,7 +1194,7 @@ Pentru piața din România, Hypertherm are sens la ateliere de fabricație metal
       },
       {
         "q": "Livrați sisteme de tăiere cu plasmă Hypertherm în România?",
-        "a": "Da, aducem la comandă sistemele Hypertherm menționate mai sus; livrarea se întinde, în majoritatea cazurilor, pe 1–4 săptămâni, potrivit configurației sistemului comandat. Nu ținem aceste echipamente pe raft; descrierile modelelor se bazează pe pagina publică de produse a producătorului, fără evidențe proprii despre stocurile disponibile. Spuneți-ne grosimea și tipul de material pe care doriți să îl tăiați, pentru o ofertă corectă."
+        "a": "Da, aducem la comandă sistemele Hypertherm menționate mai sus; livrarea se întinde, în majoritatea cazurilor, pe 1–4 săptămâni, potrivit configurației sistemului comandat. Nu ținem aceste echipamente pe raft; descrierile modelelor se bazează pe documentația producătorului, fără evidențe proprii despre stocurile disponibile. Spuneți-ne grosimea și tipul de material pe care doriți să îl tăiați, pentru o ofertă corectă."
       },
       {
         "q": "Ce este sistemul MAXPRO200 de la Hypertherm?",
@@ -1241,8 +1241,8 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       "Automatizare de proces — integrarea datelor de nivel în sisteme centrale de gestiune"
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu", "ISO 45001 — sănătate și securitate ocupațională", "ATEX Quality Assurance — pentru echipamente în zone cu risc de explozie"],
-    infinitrade: `Pentru FAFNIR nu avem date proprii de stoc pe fiecare senzor sau sistem din gamă — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Aducem echipamentele FAFNIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model de senzor. Pentru o ofertă corectă, trimiteți tipul de rezervor, adâncimea sau înălțimea acestuia și fluidul monitorizat, sau codul exact al senzorului dacă îl cunoașteți. Prețul final îl transmitem după ce verificăm punctual la furnizor stocul disponibil pentru senzorul cerut.`,
-    limitation: "Nu oferim integrarea software completă a sistemelor FAFNIR cu platforme terțe de gestiune a stocurilor — aceasta necesită suport tehnic direct de la producător pentru fiecare caz.",
+    infinitrade: `Pentru FAFNIR nu avem date proprii de stoc pe fiecare senzor sau sistem din gamă — informațiile tehnice provin din documentația tehnică a producătorului, iar disponibilitatea o confirmăm punctual la furnizor. Aducem echipamentele FAFNIR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, fără disponibilitate permanentă din stoc pentru fiecare model de senzor. Pentru o ofertă corectă, trimiteți tipul de rezervor, adâncimea sau înălțimea acestuia și fluidul monitorizat, sau codul exact al senzorului dacă îl cunoașteți. Prețul final îl transmitem după ce verificăm punctual la furnizor stocul disponibil pentru senzorul cerut.`,
+    limitation: "Nu oferim integrarea software completă a sistemelor FAFNIR cu platforme terțe de gestiune a stocurilor — aceasta necesită suport tehnic specializat din partea producătorului pentru fiecare caz.",
     productCodes: [
       {
         "code": "VISY-X",
@@ -1300,7 +1300,7 @@ Pentru piața din România, FAFNIR are sens la stații de distribuție carburan�
       },
       {
         "q": "Livrați echipamente FAFNIR de monitorizare a rezervoarelor în România?",
-        "a": "Da, aducem la comandă echipamentele FAFNIR prezentate mai sus; de la confirmarea comenzii trec în mod uzual 1–4 săptămâni, în funcție de complexitatea sistemului ales. Nu ținem aceste sisteme pe raft; informațiile despre produse provin de pe pagina oficială a producătorului, fără date proprii despre disponibilitate. Spuneți-ne tipul rezervorului și dacă aveți nevoie și de senzori de scurgere, atunci când cereți o ofertă."
+        "a": "Da, aducem la comandă echipamentele FAFNIR prezentate mai sus; de la confirmarea comenzii trec în mod uzual 1–4 săptămâni, în funcție de complexitatea sistemului ales. Nu ținem aceste sisteme pe raft; informațiile despre produse provin din documentația producătorului, fără date proprii despre disponibilitate. Spuneți-ne tipul rezervorului și dacă aveți nevoie și de senzori de scurgere, atunci când cereți o ofertă."
       },
       {
         "q": "Ce rol are sistemul VAPORIX în stațiile de carburant?",
@@ -1346,7 +1346,7 @@ Pentru piața din România, INOR are sens la instalații de proces din chimie, p
       "Piețe OEM — transmițătoare digitale pentru integrare în echipamente terțe"
     ],
     certifications: ["ATEX — se confirmă pe model, din fișa tehnică", "SIL — se confirmă pe model, din fișa tehnică", "Compatibil HART 7", "Certificat FM — pentru piețele SUA și Canada"],
-    infinitrade: `Pentru INOR nu avem date proprii de stoc pe fiecare model de transmițător — informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o confirmăm la cerere, per comandă. Aducem transmițătoarele INOR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare variantă. Pentru o ofertă corectă, trimiteți codul exact al transmițătorului sau, dacă nu-l aveți, tipul de senzor conectat, dacă aveți nevoie de conectivitate NFC sau Bluetooth și certificările necesare pentru zona de instalare. Comunicăm prețul doar după ce confirmăm la furnizor disponibilitatea exactă a transmițătorului cerut.`,
+    infinitrade: `Pentru INOR nu avem date proprii de stoc pe fiecare model de transmițător — informațiile tehnice provin din documentația tehnică a producătorului, iar disponibilitatea o confirmăm la cerere, per comandă. Aducem transmițătoarele INOR la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, fără disponibilitate permanentă din stoc pentru fiecare variantă. Pentru o ofertă corectă, trimiteți codul exact al transmițătorului sau, dacă nu-l aveți, tipul de senzor conectat, dacă aveți nevoie de conectivitate NFC sau Bluetooth și certificările necesare pentru zona de instalare. Comunicăm prețul doar după ce confirmăm la furnizor disponibilitatea exactă a transmițătorului cerut.`,
     limitation: "Nu confirmăm compatibilitatea directă a transmițătoarelor INOR cu sisteme SCADA deja instalate fără o verificare tehnică punctuală a protocolului de comunicare folosit.",
     productCodes: [
       {

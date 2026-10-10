@@ -18,7 +18,7 @@ Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robus
     keyProducts: [
       {
         name: "Pompe Submersibile pentru Nămol Seria KMUD",
-        description: "Pompe submersibile pentru nămol, disponibile în mai multe puteri, la turația de 1750 rpm, conform fișelor tehnice publicate de producător. Construcția submersibilă permite montarea directă în bazine de decantare sau cămine de pompare, fără o cameră tehnică separată. Turația joasă de 1750 rpm favorizează debite mari la o uzură mai redusă a componentelor umede, utilă în aplicații municipale continue."
+        description: "Pompe submersibile pentru nămol, disponibile în mai multe puteri, la turația de 1750 rpm, conform fișelor tehnice ale producătorului. Construcția submersibilă permite montarea directă în bazine de decantare sau cămine de pompare, fără o cameră tehnică separată. Turația joasă de 1750 rpm favorizează debite mari la o uzură mai redusă a componentelor umede, utilă în aplicații municipale continue."
       },
       {
         name: "Pompe Submersibile Ușoare pentru Nămol Seria KAG",
@@ -30,7 +30,7 @@ Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robus
       },
       {
         name: "Pompe de Epuisment Seria AHS",
-        description: "Seria AHS acoperă pompele submersibile de epuisment de capacitate mică, de la 0,5 la 2 CP, la 3450 rpm, cu racord de refulare de 2 țoli, conform fișei tehnice publicate de producător. Sunt gândite pentru golirea apei limpezi sau ușor încărcate din excavații, subsoluri sau bazine de colectare temporară de șantier, acolo unde seriile de nămol ar fi supradimensionate."
+        description: "Seria AHS acoperă pompele submersibile de epuisment de capacitate mică, de la 0,5 la 2 CP, la 3450 rpm, cu racord de refulare de 2 țoli, conform fișei tehnice a producătorului. Sunt gândite pentru golirea apei limpezi sau ușor încărcate din excavații, subsoluri sau bazine de colectare temporară de șantier, acolo unde seriile de nămol ar fi supradimensionate."
       }
     ],
     industries: [
@@ -40,8 +40,8 @@ Pentru piața din România, Barmesa înseamnă acces la pompe submersibile robus
       "Marină — pompe submersibile pentru santinele și bazine de colectare",
       "Irigații — pompare din bazine cu conținut de sedimente"
     ],
-    infinitrade: `Pentru Barmesa Pumps lucrăm cu ce putem și ce nu putem confirma din fișele tehnice publicate de producător: nu ținem aceste serii pe raft, dar putem aduce la comandă modele din gama KMUD, KAG, BSE/HLDS sau AHS prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de aplicație (nămol, solide sau epuisment), debitul și înălțimea de pompare estimate, diametrul racordului de refulare și tensiunea de alimentare disponibilă pe șantier. Nu promitem disponibilitate din depozit pentru aceste pompe și nu confirmăm termene mai scurte decât cele agreate cu furnizorul la momentul comenzii.`,
-    limitation: "Nu putem confirma disponibilitatea pe stoc a niciunui model Barmesa în afara comenzilor plasate explicit la producător sau la distribuitorul din UE cu care lucrăm.",
+    infinitrade: `Pentru Barmesa Pumps lucrăm cu ce putem și ce nu putem confirma din fișele tehnice ale producătorului: nu ținem aceste serii pe raft, dar putem aduce la comandă modele din gama KMUD, KAG, BSE/HLDS sau AHS prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de aplicație (nămol, solide sau epuisment), debitul și înălțimea de pompare estimate, diametrul racordului de refulare și tensiunea de alimentare disponibilă pe șantier. Nu promitem disponibilitate din depozit pentru aceste pompe și nu confirmăm termene mai scurte decât cele agreate cu furnizorul la momentul comenzii.`,
+    limitation: "Nu putem confirma disponibilitatea pe stoc a niciunui model Barmesa în afara comenzilor plasate explicit de către noi, prin canalele noastre de aprovizionare din UE.",
     productCodes: [
       { code: "4KMUD803", description: "pompă submersibilă pentru nămol, 8 CP, 1750 rpm" },
       { code: "4KMUD804", description: "pompă submersibilă pentru nămol, 8 CP, 1750 rpm" },
@@ -95,15 +95,15 @@ Pentru piața din România, Matra înseamnă acces la o gamă italiană largă d
     keyProducts: [
       {
         name: "Grupuri de Presurizare Seriile DP/DPV și MAGIKA",
-        description: "Seriile DP/DPV și MAGIKA acoperă necesarul de presurizare a apei pentru clădiri civile și comerciale, cu fișe tehnice de eficiență publicate separat pentru fiecare serie, conform paginii oficiale a producătorului. Sunt gândite pentru montaj în centrale termice sau camere tehnice, asigurând presiune constantă la robineți indiferent de variația consumului din clădire. Configurația exactă a grupului — număr de pompe, rezervor și automatizare — se stabilește în funcție de numărul de apartamente sau de punctele de consum ale clădirii deservite."
+        description: "Seriile DP/DPV și MAGIKA acoperă necesarul de presurizare a apei pentru clădiri civile și comerciale, cu fișe tehnice de eficiență separate pentru fiecare serie, conform documentației producătorului. Sunt gândite pentru montaj în centrale termice sau camere tehnice, asigurând presiune constantă la robineți indiferent de variația consumului din clădire. Configurația exactă a grupului — număr de pompe, rezervor și automatizare — se stabilește în funcție de numărul de apartamente sau de punctele de consum ale clădirii deservite."
       },
       {
         name: "Electropompe Submersibile Seria Sommerse",
-        description: "Seria Sommerse cuprinde electropompele submersibile ale Matra, listate ca o categorie distinctă de produs pe site-ul producătorului, destinate transferului de apă din puțuri, bazine de colectare sau subsoluri inundate. Construcția submersibilă elimină nevoia unei încăperi tehnice separate, motorul fiind răcit de lichidul vehiculat. Sunt o alternativă la o pompă de suprafață cu aspirație, acolo unde nivelul apei coboară sub cota de amorsare a unei pompe montate deasupra sursei."
+        description: "Seria Sommerse cuprinde electropompele submersibile ale Matra, listate ca o categorie distinctă de produs în documentația producătorului, destinate transferului de apă din puțuri, bazine de colectare sau subsoluri inundate. Construcția submersibilă elimină nevoia unei încăperi tehnice separate, motorul fiind răcit de lichidul vehiculat. Sunt o alternativă la o pompă de suprafață cu aspirație, acolo unde nivelul apei coboară sub cota de amorsare a unei pompe montate deasupra sursei."
       },
       {
         name: "Electropompe Autoamorsante Seria Autoadescanti",
-        description: "Familia Autoadescanti reunește pompele autoamorsante ale Matra, capabile să reia amorsarea fără intervenție manuală după golirea parțială a corpului de pompă, conform categoriei publicate pe site-ul producătorului. Sunt potrivite pentru instalații unde sursa de apă nu este montată sub nivelul pompei sau unde apar întreruperi frecvente de alimentare. Această capacitate reduce nevoia de supraveghere constantă la punerea în funcțiune după o oprire."
+        description: "Familia Autoadescanti reunește pompele autoamorsante ale Matra, capabile să reia amorsarea fără intervenție manuală după golirea parțială a corpului de pompă, conform categoriei din documentația producătorului. Sunt potrivite pentru instalații unde sursa de apă nu este montată sub nivelul pompei sau unde apar întreruperi frecvente de alimentare. Această capacitate reduce nevoia de supraveghere constantă la punerea în funcțiune după o oprire."
       },
       {
         name: "Pompe cu Rotor Vortex Seria VORTINOX/S",
@@ -117,7 +117,7 @@ Pentru piața din România, Matra înseamnă acces la o gamă italiană largă d
       "HVAC — pompe de circulație",
       "Utilități locale — transfer apă cu conținut moderat de solide, seria VORTINOX/S"
     ],
-    infinitrade: `Pentru gama Matra lucrăm din surse publice ale producătorului: nu avem raft propriu pentru aceste electropompe, dar le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă avem nevoie de aplicație (presurizare, transfer submersibil, autoamorsare sau stingere incendiu), debitul și presiunea necesare și tensiunea de alimentare disponibilă. Pentru grupurile de presurizare complexe, cu automatizare și rezervor, recomandăm confirmarea configurației exacte direct cu producătorul înainte de finalizarea ofertei, mai ales la proiecte cu mai multe puncte de consum.`,
+    infinitrade: `Pentru gama Matra lucrăm din documentația tehnică a producătorului: nu avem raft propriu pentru aceste electropompe, dar le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă avem nevoie de aplicație (presurizare, transfer submersibil, autoamorsare sau stingere incendiu), debitul și presiunea necesare și tensiunea de alimentare disponibilă. Pentru grupurile de presurizare complexe, cu automatizare și rezervor, confirmăm noi configurația exactă cu producătorul înainte de finalizarea ofertei, mai ales la proiecte cu mai multe puncte de consum.`,
     limitation: "Nu confirmăm configurația automatizărilor pentru grupurile de presurizare complexe fără o verificare punctuală cu producătorul, la fiecare proiect în parte.",
     productCodes: [
       { code: "Serie DTR", description: "familie de electropompe Matra; detalii pe cod" },
@@ -166,19 +166,19 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
     keyProducts: [
       {
         name: "Pompe de Drenaj Subsol Seriile 230/240/250",
-        description: "Seriile 230, 240 și 250 acoperă pompele de drenaj de subsol de capacitate mică, de la 1/4 la 1/3 CP, cu racord de refulare de 1½ țoli, conform fișelor tehnice publicate de producător. Seria 230 are variante 231, 233 și 237, ultima cu întrerupător de nivel propriu. Seria 250 are carcasă din fontă cu acoperire de pulbere; materialele celorlalte serii se confirmă pe cod. Rotorul este de tip vortex, pentru bazine de colectare rezidențiale."
+        description: "Seriile 230, 240 și 250 acoperă pompele de drenaj de subsol de capacitate mică, de la 1/4 la 1/3 CP, cu racord de refulare de 1½ țoli, conform fișelor tehnice ale producătorului. Seria 230 are variante 231, 233 și 237, ultima cu întrerupător de nivel propriu. Seria 250 are carcasă din fontă cu acoperire de pulbere; materialele celorlalte serii se confirmă pe cod. Rotorul este de tip vortex, pentru bazine de colectare rezidențiale."
       },
       {
         name: "Pompe de Efluent Seriile 280/290",
-        description: "Seria 280 este o pompă submersibilă de efluent și subsol de 1/2 CP, cu carcasă dintr-o singură piesă de fontă și racord de refulare de 1½ țoli, conform fișei tehnice publicate; datele seriei 290 se confirmă pe cod. Seria 280 are variante 281, 283 și 287. Sunt destinate sistemelor de tip STEP, câmpurilor de infiltrare (mound) și transferului de lichid rezidual."
+        description: "Seria 280 este o pompă submersibilă de efluent și subsol de 1/2 CP, cu carcasă dintr-o singură piesă de fontă și racord de refulare de 1½ țoli, conform fișei tehnice a producătorului; datele seriei 290 se confirmă pe cod. Seria 280 are variante 281, 283 și 287. Sunt destinate sistemelor de tip STEP, câmpurilor de infiltrare (mound) și transferului de lichid rezidual."
       },
       {
         name: "Pompe de Canalizare Submersibile Seriile LE50/LE100",
-        description: "Seriile LE50 și LE100 sunt pompe submersibile de canalizare de 1/2 și, respectiv, 1 CP; seria LE100 are racord de refulare de 2 sau 3 țoli și trecere de solide de până la 2 țoli, conform fișei publicate de producător. Construcția este din fontă grea cu acoperire epoxidică, cu șuruburi din inox și cordon de alimentare cu conectare rapidă, pentru pomparea apei menajere spre o rețea sau o fosă amplasată mai sus."
+        description: "Seriile LE50 și LE100 sunt pompe submersibile de canalizare de 1/2 și, respectiv, 1 CP; seria LE100 are racord de refulare de 2 sau 3 țoli și trecere de solide de până la 2 țoli, conform fișei producătorului. Construcția este din fontă grea cu acoperire epoxidică, cu șuruburi din inox și cordon de alimentare cu conectare rapidă, pentru pomparea apei menajere spre o rețea sau o fosă amplasată mai sus."
       },
       {
         name: "Pompă Tocătoare Seria LGV07/LGH07",
-        description: "Seria LGV07/LGH07 este pompa tocătoare de 7,5 CP din gama Liberty Pumps, gândită pentru situații unde reziduurile trebuie mărunțite înainte de refulare pe o distanță mai mare sau printr-un racord de diametru mic, conform fișei tehnice publicate. Este o treaptă peste seriile simple de canalizare, pentru instalații unde gravitatea nu ajunge la rețeaua de canalizare și e nevoie de refulare sub presiune pe o conductă de secțiune redusă."
+        description: "Seria LGV07/LGH07 este pompa tocătoare de 7,5 CP din gama Liberty Pumps, gândită pentru situații unde reziduurile trebuie mărunțite înainte de refulare pe o distanță mai mare sau printr-un racord de diametru mic, conform fișei tehnice a producătorului. Este o treaptă peste seriile simple de canalizare, pentru instalații unde gravitatea nu ajunge la rețeaua de canalizare și e nevoie de refulare sub presiune pe o conductă de secțiune redusă."
       }
     ],
     industries: [
@@ -188,7 +188,7 @@ Pentru piața din România, Liberty Pumps înseamnă acces la pompe submersibile
       "Administrare imobile — panouri de control simplex și duplex pentru stații de pompare",
       "Retrofit rezidențial — sisteme de rezervă cu pompă pe baterie Model 441"
     ],
-    infinitrade: `Pentru Liberty Pumps mergem pe informațiile publice disponibile pe site-ul producătorului: fără date proprii de stoc, putem aduce la comandă modele din seriile de drenaj, efluent, canalizare sau tocare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de aplicație (subsol, efluent, canalizare sau tocare), racordul de refulare necesar, capacitatea de trecere a solidelor și tensiunea de alimentare disponibilă. Nu ținem aceste pompe pe raft în România și nu confirmăm un termen mai scurt decât cel comunicat de producător la momentul comenzii.`,
+    infinitrade: `Pentru Liberty Pumps mergem în documentația tehnică a producătorului: fără date proprii de stoc, putem aduce la comandă modele din seriile de drenaj, efluent, canalizare sau tocare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de aplicație (subsol, efluent, canalizare sau tocare), racordul de refulare necesar, capacitatea de trecere a solidelor și tensiunea de alimentare disponibilă. Nu ținem aceste pompe pe raft în România și nu confirmăm un termen mai scurt decât cel comunicat de producător la momentul comenzii.`,
     limitation: "Nu putem confirma compatibilitatea panourilor de control SX/AE cu instalații electrice existente fără o verificare punctuală a schemei electrice a clientului.",
     productCodes: [
       { code: "230-Series", description: "pompă de drenaj subsol, 1/3 CP, refulare 1½ țoli" },
@@ -251,7 +251,7 @@ Pentru piața din România, Belman înseamnă acces la compensatoare metalice pe
       },
       {
         name: "Compensatoare cu Inele de Consolidare (Ring Reinforced)",
-        description: "Compensatoarele cu inele de consolidare adaugă elemente de rigidizare pe circumferința burdufului, pentru a prelua presiuni mai mari fără a mări grosimea peretelui metalic, conform gamei publicate de Belman. Sunt o alternativă la un burduf simplu acolo unde presiunea de lucru depășește limita constructivă a unui compensator standard de aceleași dimensiuni."
+        description: "Compensatoarele cu inele de consolidare adaugă elemente de rigidizare pe circumferința burdufului, pentru a prelua presiuni mai mari fără a mări grosimea peretelui metalic, conform gamei Belman. Sunt o alternativă la un burduf simplu acolo unde presiunea de lucru depășește limita constructivă a unui compensator standard de aceleași dimensiuni."
       },
       {
         name: "Furtunuri Metalice Flexibile",
@@ -265,7 +265,7 @@ Pentru piața din România, Belman înseamnă acces la compensatoare metalice pe
       "Industrie criogenică — compensatoare pentru temperaturi de până la -256°C",
       "Siderurgie — burdufuri pentru conducte expuse la variații termice mari"
     ],
-    infinitrade: `Lucrăm cu Belman din surse publice ale producătorului, fără date proprii de stoc pentru aceste compensatoare: le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul constructiv și de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul conductei, presiunea și temperatura de lucru, tipul de mișcare de preluat (axială, laterală, angulară sau combinată) și fluidul vehiculat, pentru alegerea materialului burdufului. Nu promitem un compensator standard „de pe raft” pentru dimensiuni mari sau condiții extreme — majoritatea sunt proiectate pe caz, la cererea clientului final.`,
+    infinitrade: `Lucrăm cu Belman din documentația tehnică a producătorului, fără date proprii de stoc pentru aceste compensatoare: le putem aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare, în funcție de tipul constructiv și de dimensiune. Pentru o ofertă corectă avem nevoie de diametrul conductei, presiunea și temperatura de lucru, tipul de mișcare de preluat (axială, laterală, angulară sau combinată) și fluidul vehiculat, pentru alegerea materialului burdufului. Nu promitem un compensator standard „de pe raft” pentru dimensiuni mari sau condiții extreme — majoritatea sunt proiectate pe caz, la cererea clientului final.`,
     limitation: "Nu putem confirma un termen de livrare exact pentru compensatoarele proiectate special pe dimensiuni sau presiuni ieșite din gama standard, fără o ofertă tehnică prealabilă de la producător.",
     productCodes: [
       { code: "Axial", description: "compensator pentru dilatare longitudinală a conductei" },

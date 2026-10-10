@@ -34,7 +34,7 @@ Pentru un integrator sau un atelier de asamblare din România, Spirol înseamnă
       "AS 9100 — calitate pentru aerospațial",
       "Nadcap (AC7108, AC7116) — procese speciale"
     ],
-    infinitrade: `Aducem organe de asamblare Spirol prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de reperul cerut. Lucrăm doar cu ce putem verifica din sursele publice ale producătorului — nu avem date proprii de stoc pentru acest brand și nu ținem pe raft repere Spirol în mod curent. Pentru o ofertă corectă avem nevoie de codul de reper (sau diametrul și lungimea, dacă selectați dintr-o familie ISO), materialul componentelor asamblate și cantitatea anuală estimată.`,
+    infinitrade: `Aducem organe de asamblare Spirol prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de reperul cerut. Lucrăm doar cu ce putem verifica din documentația tehnică a producătorului — nu avem date proprii de stoc pentru acest brand și nu ținem pe raft repere Spirol în mod curent. Pentru o ofertă corectă avem nevoie de codul de reper (sau diametrul și lungimea, dacă selectați dintr-o familie ISO), materialul componentelor asamblate și cantitatea anuală estimată.`,
     limitation: "Nu putem confirma disponibilitatea sau termenul de livrare pentru echipamentele de instalare (prese PMX, CR, HM) fără o cerere punctuală către producător.",
     productCodes: [
       { code: "Coiled Spring Pin Standard Duty", description: "știft spiralat standard, elasticitate radială controlată" },
@@ -104,7 +104,7 @@ Pentru un integrator de mașini-unelte sau echipamente de metrologie din Români
     certifications: [
       "EN 9100 — calitate pentru aplicații aerospațiale",
     ],
-    infinitrade: `Furnizăm șuruburi cu bile Steinmeyer prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația exactă (cursă, tip de piuliță, clasă de precizie) și de confirmarea producătorului. Ca la orice brand nou pentru noi, ne bazăm pe informațiile publice disponibile pe site-ul Steinmeyer și spunem clar: nu avem date proprii de stoc și nu ținem pe raft șuruburi Steinmeyer pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul nominal, cursa utilă, tipul de piuliță (simplă sau dublă) și clasa de precizie cerută de aplicație. Pentru configurații aerospațiale sau cu cerințe speciale de certificare, termenul se confirmă punctual cu producătorul înainte de a-ți transmite oferta finală.`,
+    infinitrade: `Furnizăm șuruburi cu bile Steinmeyer prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația exactă (cursă, tip de piuliță, clasă de precizie) și de confirmarea producătorului. Ca la orice brand nou pentru noi, ne bazăm pe documentația tehnică Steinmeyer și spunem clar: nu avem date proprii de stoc și nu ținem pe raft șuruburi Steinmeyer pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul nominal, cursa utilă, tipul de piuliță (simplă sau dublă) și clasa de precizie cerută de aplicație. Pentru configurații aerospațiale sau cu cerințe speciale de certificare, termenul se confirmă punctual cu producătorul înainte de a-ți transmite oferta finală.`,
     limitation: "Nu putem confirma clasele de precizie disponibile pentru fiecare diametru fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Miniature Ball Screw 1214", description: "șurub cu bile miniatural, piuliță cilindrică" },
@@ -166,7 +166,7 @@ Pentru un producător de mobilier, electrocasnice sau caroserii de vehicule come
       "Tehnologie medicală — coloane de reglare pentru echipamente ajustabile",
       "Mașini-unelte — panouri de acces cu arcuri cu gaz blocabile"
     ],
-    infinitrade: `Aducem arcuri cu gaz și coloane de reglare Suspa prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fără date proprii de stoc pentru acest brand — lucrăm cu informațiile publice disponibile pe site-ul Suspa și nu ținem pe raft repere din gama 16-1 până la 16-6 pentru livrare imediată. Avem nevoie de forța de extensie dorită, cursa utilă, tipul de prindere (bilă sau furcă) și, dacă e cazul, tipul de blocare cerut.`,
+    infinitrade: `Aducem arcuri cu gaz și coloane de reglare Suspa prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fără date proprii de stoc pentru acest brand — lucrăm cu documentația tehnică Suspa și nu ținem pe raft repere din gama 16-1 până la 16-6 pentru livrare imediată. Avem nevoie de forța de extensie dorită, cursa utilă, tipul de prindere (bilă sau furcă) și, dacă e cazul, tipul de blocare cerut.`,
     limitation: "Nu putem confirma configurațiile custom de arcuri cu gaz (forțe sau curse non-standard) fără o cerere tehnică punctuală către producător.",
     productCodes: [
       { code: "Gas Spring Type 16-1", description: "arc cu gaz, tub 15 mm, forță 60-350 N" },
@@ -236,7 +236,7 @@ Pentru un integrator de mașini-unelte, echipamente semiconductoare sau sisteme 
       "ISO 14001:2015 — management de mediu",
       "ISO 45001:2018 — sănătate și securitate ocupațională",
     ],
-    infinitrade: `Furnizăm componente de mișcare liniară TBI Motion prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma ține strict de ce vedem pe site-ul oficial — nu avem date proprii de stoc pentru TBI Motion și nu ținem pe raft repere din gamă pentru livrare imediată. Avem nevoie de tipul de circulație a bilelor dorit (tub de retur sau deflector), diametrul nominal, pasul și cursa utilă, plus lățimea șinei dacă vorbim de ghidaje liniare.`,
+    infinitrade: `Furnizăm componente de mișcare liniară TBI Motion prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma ține strict de ce reiese din documentația producătorului — nu avem date proprii de stoc pentru TBI Motion și nu ținem pe raft repere din gamă pentru livrare imediată. Avem nevoie de tipul de circulație a bilelor dorit (tub de retur sau deflector), diametrul nominal, pasul și cursa utilă, plus lățimea șinei dacă vorbim de ghidaje liniare.`,
     limitation: "Nu putem confirma clasele de precizie și opțiunile de precomprimare disponibile pentru fiecare lățime de șină fără o cerere tehnică punctuală.",
     productCodes: [
       { code: "Linear Guide SR Series", description: "ghidaj liniar inteligent, sarcină egală pe direcții" },
@@ -284,7 +284,7 @@ Pentru un integrator de mașini-unelte, echipamente semiconductoare sau sisteme 
 
 Ce diferențiază Teadit e gama largă de produse de etanșare: împachetări de presetupă, foi de garnitură și junturi de expansiune. Grupul deține peste 20 de brevete și e prezent în peste 50 de țări, cu aplicații de la rafinării la instalații nucleare. În categoria garniturilor industriale, Teadit se compară cu Klinger, poziționându-se pe segmentul garniturilor de etanșare pentru flanșe și presetupe unde rezistența chimică și termică trebuie combinate.
 
-Pentru un integrator de instalații petrochimice, stații de tratare a apei sau echipamente din industria zahărului din România, Teadit înseamnă acces la garnituri specializate pentru medii agresive, cu documentație tehnică de compatibilitate chimică disponibilă direct de la producător.`,
+Pentru un integrator de instalații petrochimice, stații de tratare a apei sau echipamente din industria zahărului din România, Teadit înseamnă acces la garnituri specializate pentru medii agresive, cu documentație tehnică de compatibilitate chimică a producătorului.`,
     whyChoose: [
       "Șase fabrici pe trei continente, cu peste 20 de brevete în domeniul etanșărilor industriale",
       "Gamă combinată de împachetări de presetupă din fibră de carbon/grafit și foi de garnitură, pentru aplicații diferite",
@@ -306,7 +306,7 @@ Pentru un integrator de instalații petrochimice, stații de tratare a apei sau 
       "Industria hârtiei și celulozei — garnituri rezistente la medii corozive",
       "Offshore — garnituri pentru echipamente expuse la medii saline"
     ],
-    infinitrade: `Aducem garnituri și junturi de expansiune Teadit prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de garnitură și de confirmarea producătorului. Nu avem date proprii de stoc pentru acest brand — ne bazăm pe surse publice ale producătorului și nu ținem pe raft garnituri Teadit pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul flanșei, presiunea și temperatura de lucru, și fluidul vehiculat, ca să putem verifica compatibilitatea chimică a materialului garniturii. Pentru garniturile din familia Sealpak destinate industriei zahărului, menționează tipul exact de echipament rotativ pentru o selecție corectă a variantei.`,
+    infinitrade: `Aducem garnituri și junturi de expansiune Teadit prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de garnitură și de confirmarea producătorului. Nu avem date proprii de stoc pentru acest brand — ne bazăm pe documentația tehnică a producătorului și nu ținem pe raft garnituri Teadit pentru livrare imediată. Pentru o ofertă corectă avem nevoie de diametrul flanșei, presiunea și temperatura de lucru, și fluidul vehiculat, ca să putem verifica compatibilitatea chimică a materialului garniturii. Pentru garniturile din familia Sealpak destinate industriei zahărului, menționează tipul exact de echipament rotativ pentru o selecție corectă a variantei.`,
     limitation: "Nu putem confirma disponibilitatea locală a fiecărei grosimi sau variante de garnitură fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Style 2000", description: "garnitură fibră de carbon, temperatură ridicată" },
@@ -379,7 +379,7 @@ Pentru un producător de cărucioare de manipulare, echipamente de logistică sa
       "ISO 45001 — sănătate și securitate ocupațională",
       "AEO (Authorized Economic Operator) — statut vamal facilitat",
     ],
-    infinitrade: `Furnizăm rotile industriale Tellure Rota prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de rotilă și de confirmarea producătorului. Fără date proprii de stoc pentru acest brand — lucrăm cu informațiile publice disponibile pe site-ul Tellure Rota și nu ținem pe raft rotile din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de sarcina pe rotilă, diametrul dorit, tipul de suport (fix sau pivotant) și condițiile de mediu (temperatură, umiditate, cerințe ESD sau antiderapante). Pentru configurațiile pentru AGV-uri sau roboți mobili, confirmăm disponibilitatea exactă cu producătorul înainte de ofertă.`,
+    infinitrade: `Furnizăm rotile industriale Tellure Rota prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de rotilă și de confirmarea producătorului. Fără date proprii de stoc pentru acest brand — lucrăm cu documentația tehnică Tellure Rota și nu ținem pe raft rotile din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de sarcina pe rotilă, diametrul dorit, tipul de suport (fix sau pivotant) și condițiile de mediu (temperatură, umiditate, cerințe ESD sau antiderapante). Pentru configurațiile pentru AGV-uri sau roboți mobili, confirmăm disponibilitatea exactă cu producătorul înainte de ofertă.`,
     limitation: "Nu putem confirma diametrele și materialele de bandaj disponibile pentru fiecare tip de suport fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Bracket SL", description: "suport rotilă ușor, capacitate ~130 daN" },
@@ -424,7 +424,7 @@ Pentru un producător de cărucioare de manipulare, echipamente de logistică sa
 
 Ce diferențiază Thomson e portofoliul de actuatoare Electrak organizat pe clase de sarcină și duty cycle — XD pentru sarcini mari cu duty cycle de până la 100%, HD pentru variante smart cu comunicare CAN bus și frânare dinamică, MD și LL pentru sarcini medii și ușoare — plus divizia Delevan pentru bile de precizie, resolvere și componente magnetice. Compania se compară cu SKF și Rexroth pe segmentul ghidajelor liniare și actuatoarelor electrice, cu certificări ISO, AS și conformitate REACH și RoHS.
 
-Pentru un integrator de linii de automatizare, echipamente de manipulare a materialelor sau utilaje mobile din România, Thomson înseamnă acces la actuatoare electrice care înlocuiesc cilindrii hidraulici sau pneumatici acolo unde controlul de poziție precis și eliminarea uleiului hidraulic contează, cu instrumente de dimensionare (calculatoare de inginerie, modele CAD) disponibile direct de la producător.`,
+Pentru un integrator de linii de automatizare, echipamente de manipulare a materialelor sau utilaje mobile din România, Thomson înseamnă acces la actuatoare electrice care înlocuiesc cilindrii hidraulici sau pneumatici acolo unde controlul de poziție precis și eliminarea uleiului hidraulic contează, cu instrumente de dimensionare (calculatoare de inginerie, modele CAD) puse la dispoziție de producător.`,
     whyChoose: [
       "Familie Electrak organizată pe clase de sarcină, de la XD (până la 25.000 N) la LL (sarcini ușoare)",
       "Actuator Electrak HD cu comunicare CAN bus și frânare dinamică integrată, pentru control smart",
@@ -451,7 +451,7 @@ Pentru un integrator de linii de automatizare, echipamente de manipulare a mater
       "REACH — conformitate privind substanțele chimice",
       "RoHS — restricția substanțelor periculoase",
     ],
-    infinitrade: `Aducem componente de mișcare liniară Thomson (actuatoare Electrak, ghidaje Ball Bushing, coloane de ridicare) prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile vin din surse publice ale producătorului, iar noi nu ținem pe raft actuatoare Thomson pentru livrare imediată. Avem nevoie de sarcina maximă, cursa dorită, viteza de lucru și, pentru variantele smart (HD), protocolul de comunicare folosit în sistemul de control.`,
+    infinitrade: `Aducem componente de mișcare liniară Thomson (actuatoare Electrak, ghidaje Ball Bushing, coloane de ridicare) prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile vin din documentația tehnică a producătorului, iar noi nu ținem pe raft actuatoare Thomson pentru livrare imediată. Avem nevoie de sarcina maximă, cursa dorită, viteza de lucru și, pentru variantele smart (HD), protocolul de comunicare folosit în sistemul de control.`,
     limitation: "Nu putem confirma tensiunile de alimentare și protocoalele de comunicare disponibile pentru fiecare model Electrak fără o cerere tehnică punctuală.",
     productCodes: [
       { code: "Electrak XD", description: "actuator liniar heavy-duty, sarcină până la 25.000 N" },
@@ -522,7 +522,7 @@ Pentru un integrator de linii de asamblare, echipamente de sudură sau utilaje d
       "Semiconductori — actuatoare electrice de poziționare",
       "Manipularea materialelor — cilindri rodless pentru transfer de piese"
     ],
-    infinitrade: `Furnizăm actuatoare liniare și frâne Tolomatic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Ce putem și ce nu putem confirma ține de informațiile publicate pe site-ul producătorului — nu avem date proprii de stoc pentru Tolomatic și nu ținem pe raft actuatoare din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de tipul de acționare dorit (pneumatică sau electrică), sarcina și cursa necesară, viteza de lucru și, pentru variantele ServoWeld, forța de sudură cerută. Pentru frânele cu etrier, transmite-ne cuplul de frânare necesar și diametrul discului pentru selecția corectă.`,
+    infinitrade: `Furnizăm actuatoare liniare și frâne Tolomatic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Ce putem și ce nu putem confirma ține de informațiile din documentația producătorului — nu avem date proprii de stoc pentru Tolomatic și nu ținem pe raft actuatoare din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de tipul de acționare dorit (pneumatică sau electrică), sarcina și cursa necesară, viteza de lucru și, pentru variantele ServoWeld, forța de sudură cerută. Pentru frânele cu etrier, transmite-ne cuplul de frânare necesar și diametrul discului pentru selecția corectă.`,
     limitation: "Nu putem confirma opțiunile de control electronic (drivere, protocoale de comunicare) disponibile pentru fiecare actuator electric fără o cerere tehnică punctuală.",
     productCodes: [
       { code: "BC2", description: "cilindru rodless pneumatic tip bandă" },
@@ -598,7 +598,7 @@ Pentru un integrator de echipamente de manipulare a materialelor, AGV-uri sau ut
       "Industria alimentară și băuturi — ambreiaje pentru linii cu cicluri frecvente",
       "Robotică — limitatoare de cuplu pentru protecția transmisiei"
     ],
-    infinitrade: `Aducem frâne și ambreiaje electromagnetice Warner Electric prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Nu avem date proprii de stoc pentru acest brand — informațiile despre game vin din surse publice ale producătorului și nu ținem pe raft frâne sau ambreiaje Warner Electric pentru livrare imediată. Pentru o ofertă corectă avem nevoie de cuplul necesar (de frânare sau de transmisie), tensiunea de alimentare disponibilă și frecvența de cuplare-decuplare a aplicației. Pentru frâna QuietLift sau limitatoarele de cuplu, transmite-ne parametrii mecanismului de tracțiune, respectiv cuplul maxim admis de lanțul cinematic, pentru o selecție corectă.`,
+    infinitrade: `Aducem frâne și ambreiaje electromagnetice Warner Electric prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de model și de confirmarea producătorului. Nu avem date proprii de stoc pentru acest brand — informațiile despre game vin din documentația tehnică a producătorului și nu ținem pe raft frâne sau ambreiaje Warner Electric pentru livrare imediată. Pentru o ofertă corectă avem nevoie de cuplul necesar (de frânare sau de transmisie), tensiunea de alimentare disponibilă și frecvența de cuplare-decuplare a aplicației. Pentru frâna QuietLift sau limitatoarele de cuplu, transmite-ne parametrii mecanismului de tracțiune, respectiv cuplul maxim admis de lanțul cinematic, pentru o selecție corectă.`,
     limitation: "Nu putem confirma disponibilitatea locală și termenele pentru variantele hidraulice sau pneumatice de ambreiaje/frâne fără o cerere tehnică punctuală.",
     productCodes: [
       { code: "1EB", description: "frână electromagnetică power-release" },
@@ -675,7 +675,7 @@ Pentru un producător de echipamente de ambalare sau sisteme de transport din Ro
       "Utilaje agricole — lanțuri cu role standard DIN/ISO",
       "Echipamente de ridicare — sistemul Marathon Lift"
     ],
-    infinitrade: `Furnizăm lanțuri industriale Wippermann prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de lanț și de confirmarea producătorului. Fără date proprii de stoc pentru acest brand — ne bazăm pe informațiile publice disponibile pe site-ul Wippermann și nu ținem pe raft lanțuri din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de standardul de referință (DIN 8187, DIN 8188 sau ISO 606), pasul lanțului, numărul de zale și tipul de simplu/dublu/triplu, plus mediul de lucru dacă e nevoie de o variantă rezistentă la coroziune (de exemplu Marathon RF din inox, Triathlon KS). Pentru sistemul Marathon Lift, vă rugăm să ne transmiteți sarcina și normele de siguranță aplicabile.`,
+    infinitrade: `Furnizăm lanțuri industriale Wippermann prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de tipul de lanț și de confirmarea producătorului. Fără date proprii de stoc pentru acest brand — ne bazăm pe documentația tehnică Wippermann și nu ținem pe raft lanțuri din gamă pentru livrare imediată. Pentru o ofertă corectă avem nevoie de standardul de referință (DIN 8187, DIN 8188 sau ISO 606), pasul lanțului, numărul de zale și tipul de simplu/dublu/triplu, plus mediul de lucru dacă e nevoie de o variantă rezistentă la coroziune (de exemplu Marathon RF din inox, Triathlon KS). Pentru sistemul Marathon Lift, vă rugăm să ne transmiteți sarcina și normele de siguranță aplicabile.`,
     limitation: "Nu putem confirma lungimile standard din stoc ale producătorului pentru fiecare pas de lanț fără o cerere tehnică punctuală.",
     productCodes: [
       { code: "Biathlon", description: "lanț cu role standard, uz general industrial" },
@@ -721,7 +721,7 @@ Pentru un producător de echipamente de ambalare sau sisteme de transport din Ro
 
 Ce diferențiază BS&B e acoperirea completă a tipurilor constructive de discuri de rupere — reverse-buckling, forward-acting și grafit (Saf-t-Graf) — plus introducerea recentă (2025) a discurilor cu formă obround ORB și OFA. Compania se prezintă ca unul dintre pionierii discurilor de rupere, cu conformitate la standardele ASME Section VIII și marcaj CE. Se compară cu Fike și Continental Disc pe segmentul dispozitivelor de protecție la suprapresiune.
 
-Pentru un integrator de instalații petrochimice, rezervoare de stocare sau sisteme de baterii (BESS) din România, BS&B înseamnă acces la dispozitive de siguranță critice pentru protecția la suprapresiune, cu documentație de selecție (tabele KR & MNFA) disponibilă direct de la producător pentru dimensionarea corectă a discului.`,
+Pentru un integrator de instalații petrochimice, rezervoare de stocare sau sisteme de baterii (BESS) din România, BS&B înseamnă acces la dispozitive de siguranță critice pentru protecția la suprapresiune, cu documentație de selecție (tabele KR & MNFA) a producătorului, pentru dimensionarea corectă a discului.`,
     whyChoose: [
       "Gamă de discuri de rupere — reverse-buckling, forward-acting, grafit și variante sanitare",
       "Discuri dedicate pentru rezervoare cu presiune joasă (Eco-Saf) și aplicații cu vid (Vac-Saf)",
@@ -747,8 +747,8 @@ Pentru un integrator de instalații petrochimice, rezervoare de stocare sau sist
       "ASME Section VIII — proiectare echipamente sub presiune",
       "Marcaj CE — conformitate europeană pentru echipamente sub presiune",
     ],
-    infinitrade: `Aducem discuri de rupere BS&B prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile despre gamă vin din surse publice ale producătorului, iar noi nu ținem pe raft discuri BS&B pentru livrare imediată, fiindcă fiecare disc se dimensionează pe presiunea și fluidul aplicației. Avem nevoie de presiunea de rupere necesară, diametrul nominal, temperatura de lucru și fluidul de proces, pentru compatibilitate chimică.`,
-    limitation: "Nu putem confirma dimensionarea finală a unui disc de rupere pentru un caz specific — aceasta necesită calcul de inginerie de proces, dincolo de datele publice de catalog.",
+    infinitrade: `Aducem discuri de rupere BS&B prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu avem date proprii de stoc pentru acest brand — informațiile despre gamă vin din documentația tehnică a producătorului, iar noi nu ținem pe raft discuri BS&B pentru livrare imediată, fiindcă fiecare disc se dimensionează pe presiunea și fluidul aplicației. Avem nevoie de presiunea de rupere necesară, diametrul nominal, temperatura de lucru și fluidul de proces, pentru compatibilitate chimică.`,
+    limitation: "Nu putem confirma dimensionarea finală a unui disc de rupere pentru un caz specific — aceasta necesită calcul de inginerie de proces, dincolo de datele de catalog.",
     productCodes: [
       { code: "Sure-Saf (CSI)", description: "disc de rupere reverse-buckling, design fail-safe" },
       { code: "Sta-Saf (SRD)", description: "disc de rupere reverse-buckling, performanță ridicată" },
@@ -789,7 +789,7 @@ Pentru un integrator de instalații petrochimice, rezervoare de stocare sau sist
 
 Ce diferențiază Witzenmann e plaja largă de temperatură acoperită de furtunurile metalice HYDRA (de la -270°C la +600°C), utilă atât pentru aplicații criogenice cât și pentru circuite cu ulei termic, plus compensatoarele universale care absorb simultan mișcări axiale, laterale și angulare printr-un tub central neancorat între două burdufuri. Compania susține o „politică de calitate zero defecte” în producție. Se compară cu alți producători de compensatoare metalice pe segmentul instalațiilor industriale de conducte și HVAC.
 
-Pentru un integrator de instalații petrochimice, centrale electrice sau sisteme de climatizare din România, Witzenmann înseamnă acces la elemente de compensare a dilatării termice și vibrațiilor din conducte, cu documentație tehnică (software FLEXPERTE) disponibilă direct de la producător pentru dimensionarea corectă.`,
+Pentru un integrator de instalații petrochimice, centrale electrice sau sisteme de climatizare din România, Witzenmann înseamnă acces la elemente de compensare a dilatării termice și vibrațiilor din conducte, cu documentație tehnică (software FLEXPERTE) a producătorului, pentru dimensionarea corectă.`,
     whyChoose: [
       "Furtunuri metalice HYDRA cu plajă de temperatură între -270°C și +600°C, de la criogenie la ulei termic",
       "Compensatoare universale cu tub central neancorat, pentru absorbția simultană a mișcărilor axiale, laterale și angulare",
@@ -811,7 +811,7 @@ Pentru un integrator de instalații petrochimice, centrale electrice sau sisteme
       "Industrie de proces — furtunuri metalice pentru temperaturi extreme",
       "Instalații sanitare și HVAC — compensatoare pentru apă și încălzire"
     ],
-    infinitrade: `Furnizăm compensatoare, furtunuri și burdufuri metalice Witzenmann prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma se limitează la informațiile publicate pe site-ul Witzenmann — nu avem date proprii de stoc și nu ținem pe raft compensatoare sau furtunuri metalice pentru livrare imediată. Avem nevoie de diametrul nominal, presiunea de lucru, temperatura fluidului vehiculat și tipul de mișcare de compensat (axială, laterală, angulară sau combinată).`,
+    infinitrade: `Furnizăm compensatoare, furtunuri și burdufuri metalice Witzenmann prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ce putem și ce nu putem confirma se limitează la informațiile din documentația Witzenmann — nu avem date proprii de stoc și nu ținem pe raft compensatoare sau furtunuri metalice pentru livrare imediată. Avem nevoie de diametrul nominal, presiunea de lucru, temperatura fluidului vehiculat și tipul de mișcare de compensat (axială, laterală, angulară sau combinată).`,
     limitation: "Nu putem dimensiona un compensator pentru o instalație specifică fără calculul de mișcare și presiune făcut de inginerul de proiect al clientului.",
     productCodes: [
       { code: "HYDRA Corrugated Hose", description: "furtun metalic ondulat, DN 6-300" },
@@ -874,7 +874,7 @@ Pentru un integrator de linii de producție, utilaje industriale sau echipamente
       "Inginerie mecanică și automatizare — girofaruri și sirene pentru avarii",
       "Zone cu risc de explozie — echipamente certificate Ex Proof/ATEX"
     ],
-    infinitrade: `Aducem dispozitive de semnalizare Auer Signal prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fără date proprii de stoc pentru acest brand — informațiile despre game vin din surse publice ale producătorului, iar noi nu ținem pe raft coloane sau sirene Auer Signal pentru livrare imediată. Avem nevoie de tensiunea de alimentare, numărul și culorile modulelor dorite (pentru coloane), respectiv nivelul de zgomot ambiant (pentru sirene). Dacă aplicația necesită certificare ATEX, menționați acest lucru de la început.`,
+    infinitrade: `Aducem dispozitive de semnalizare Auer Signal prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Fără date proprii de stoc pentru acest brand — informațiile despre game vin din documentația tehnică a producătorului, iar noi nu ținem pe raft coloane sau sirene Auer Signal pentru livrare imediată. Avem nevoie de tensiunea de alimentare, numărul și culorile modulelor dorite (pentru coloane), respectiv nivelul de zgomot ambiant (pentru sirene). Dacă aplicația necesită certificare ATEX, menționați acest lucru de la început.`,
     limitation: "Nu putem confirma disponibilitatea și termenul pentru variantele certificate ATEX fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Smart Signaling 50", description: "platformă de semnalizare" },

@@ -9,7 +9,7 @@ export const series = [
     "name": "Seria 1115",
     "oneLine": "Racord rotativ Deublin seria 1115, pentru aer, ulei hidraulic sau vid, la aplicații de capacitate mică.",
     "lifecycle": "activ",
-    "lifecycleNote": "Mai multe coduri din seria 1115 rămân listate ca produse curente pe deublin.com, iar seria apare explicit în ghidul de service al producătorului pentru unități aflate în exploatare.",
+    "lifecycleNote": "Mai multe coduri din seria 1115 rămân listate ca produse curente în documentația producătorului, iar seria apare explicit în ghidul de service al producătorului pentru unități aflate în exploatare.",
     "intro": "Seria 1115 este o familie de racorduri rotative Deublin cu design monoflux, autosusținute, folosite pentru transferul de aer, ulei hidraulic sau vid către componente rotative de mică capacitate. Etanșarea mecanică echilibrată, disponibilă în variante carbon-grafit/oțel călit sau carbon-grafit/carbură de siliciu, susține presiuni de până la 34,5 bar pe ulei hidraulic. Codul complet al unei unități, de exemplu 1115-000-001, indică tipul de racord rotor (UNF, NPT sau metric) și tipul de racord de alimentare de pe partea fixă.\n\nRacordurile din seria 1115 le aducem la comandă din Uniunea Europeană, în 1–4 săptămâni, fără stoc din depozit propriu și fără preț public. Pentru ofertă, clientul trimite codul complet de pe eticheta racordului existent, de exemplu 1115-181-556, sau, dacă acesta lipsește, tipul de racord rotor și de alimentare, presiunea de lucru și mediul vehiculat. Confirmăm compatibilitatea în cataloagele curente ale producătorului înainte de a trimite oferta.",
     "models": [
       {

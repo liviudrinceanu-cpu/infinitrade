@@ -31,7 +31,7 @@ Tehnologia de bază este senzorul de oxigen cu zirconiu din seria OXITEC 5000, c
       "Rafinării și petrochimie — analiză de gaz în zone ATEX",
       "Silozuri — monitorizarea atmosferei din siloz"
     ],
-    infinitrade: `Pentru ENOTEC lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru analizoarele sau sondele din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât unitățile OXITEC și COMTEC individuale, cât și sistemele complete cu sondă de prelevare — termen orientativ 1–4 săptămâni de la confirmarea comenzii, în funcție de configurație și de disponibilitatea la producător. Pentru ofertă avem nevoie de gazul măsurat, temperatura și presiunea din punctul de montaj și dacă zona necesită certificare ATEX. Nu promitem disponibilitate din depozit pentru nicio serie — valabil pentru toată gama ENOTEC.`,
+    infinitrade: `Pentru ENOTEC lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru analizoarele sau sondele din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât unitățile OXITEC și COMTEC individuale, cât și sistemele complete cu sondă de prelevare — termen orientativ 1–4 săptămâni de la confirmarea comenzii, în funcție de configurație și de disponibilitatea la producător. Pentru ofertă avem nevoie de gazul măsurat, temperatura și presiunea din punctul de montaj și dacă zona necesită certificare ATEX. Nu promitem disponibilitate din depozit pentru nicio serie — valabil pentru toată gama ENOTEC.`,
     limitation: "Nu confirmăm compatibilitatea electronică a analizoarelor ENOTEC cu sisteme SCADA terțe și nu oferim service în perioada de garanție a producătorului.",
     productCodes: [
       { code: "OXITEC 5000", description: "analizor de oxigen cu senzor de zirconiu, montaj in-situ" },
@@ -88,7 +88,7 @@ Pentru instalațiile din România, ESI Technology are sens acolo unde aplicația
       "Aerospațial — fabricație sub certificarea de calitate AS9100D",
       "Industria alimentară — traductoare igienice cu diafragmă la proces"
     ],
-    infinitrade: `La ESI Technology mergem strict pe informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru vreo serie de traductoare. Aducem la comandă, prin canale de aprovizionare din UE, atât variantele generale (GS4200), cât și seriile speciale — hidrogen, subacvatice sau igienice — cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de configurație. Pentru ofertă avem nevoie de gama de presiune, fluidul măsurat, tipul de ieșire electrică și, dacă e cazul, certificarea cerută. Nu ținem această gamă pe raft pe nicio serie — valabil pentru toată gama ESI Technology.`,
+    infinitrade: `La ESI Technology mergem strict pe documentația tehnică a producătorului, fără date proprii de stoc pentru vreo serie de traductoare. Aducem la comandă, prin canale de aprovizionare din UE, atât variantele generale (GS4200), cât și seriile speciale — hidrogen, subacvatice sau igienice — cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de configurație. Pentru ofertă avem nevoie de gama de presiune, fluidul măsurat, tipul de ieșire electrică și, dacă e cazul, certificarea cerută. Nu ținem această gamă pe raft pe nicio serie — valabil pentru toată gama ESI Technology.`,
     limitation: "Nu confirmăm compatibilitatea unui traductor ESI Technology cu un sistem SCADA sau PLC anume fără verificare prealabilă a semnalului de ieșire la producător.",
     productCodes: [
       { code: "GS4200", description: "traductor de presiune de uz general" },
@@ -160,7 +160,7 @@ Pentru echipele de mentenanță din România, Esders are sens la verificarea per
       "Rețele subterane de gaz — localizare scurgeri cu detector laser portabil",
       
     ],
-    infinitrade: `Pentru Esders nu avem date proprii de stoc — lucrăm cu informațiile publice de pe site-ul producătorului pentru fiecare aparat din familia TONI. Aducem la comandă, prin canale de aprovizionare din UE, manometrele digitale, detectoarele de gaz și debitmetrele de pierderi, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model. Pentru o ofertă corectă avem nevoie de tipul de test cerut (presiune, metan, agent frigorific) și plaja de presiune sau concentrație necesară. Nu promitem disponibilitate imediată pentru niciun model din gamă — valabil pentru toată gama Esders.`,
+    infinitrade: `Pentru Esders nu avem date proprii de stoc — lucrăm cu documentația tehnică a producătorului pentru fiecare aparat din familia TONI. Aducem la comandă, prin canale de aprovizionare din UE, manometrele digitale, detectoarele de gaz și debitmetrele de pierderi, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model. Pentru o ofertă corectă avem nevoie de tipul de test cerut (presiune, metan, agent frigorific) și plaja de presiune sau concentrație necesară. Nu promitem disponibilitate imediată pentru niciun model din gamă — valabil pentru toată gama Esders.`,
     limitation: "Nu confirmăm calibrarea metrologică pe teritoriul României a aparatelor Esders și nici compatibilitatea software cu platforme de documentare terțe.",
     productCodes: [
       { code: "TONI GasTest CH4", description: "detector portabil de metan, prag 10.000 ppm" },
@@ -221,7 +221,7 @@ Pentru instalațiile industriale din România, Fantinelli are sens acolo unde ma
       "Instalații cu abur și ulei termic — separatoare rezistente până la 350°C",
       "Procese industriale generale — manometre cu tub Bourdon pentru citire directă"
     ],
-    infinitrade: `Pentru Fantinelli lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru manometre sau separatoare. Aducem la comandă, prin canale de aprovizionare din UE, atât manometrele de serie SP, cât și separatoarele de fluid din seria FP, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model și de disponibilitatea la fabrică. Pentru ofertă avem nevoie de diametrul instrumentului, plaja de presiune, temperatura fluidului de proces și tipul de conexiune. Nu promitem disponibilitate din depozit pentru nicio serie — valabil pentru toată gama Fantinelli.`,
+    infinitrade: `Pentru Fantinelli lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru manometre sau separatoare. Aducem la comandă, prin canale de aprovizionare din UE, atât manometrele de serie SP, cât și separatoarele de fluid din seria FP, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model și de disponibilitatea la fabrică. Pentru ofertă avem nevoie de diametrul instrumentului, plaja de presiune, temperatura fluidului de proces și tipul de conexiune. Nu promitem disponibilitate din depozit pentru nicio serie — valabil pentru toată gama Fantinelli.`,
     limitation: "Nu confirmăm compatibilitatea chimică exactă a unui separator Fantinelli cu un fluid de proces neobișnuit fără verificare prealabilă la producător.",
     productCodes: [
       { code: "SP 408", description: "manometru cu tub Bourdon, DN 100/150, până la 1000 bar" },
@@ -286,7 +286,7 @@ Pentru operatorii de apă și mediu din România, HT Hydrotechnik are sens la mo
       "Gestionarea resurselor de apă — colectare de date pe termen lung prin telemetrie",
       "Cercetare și consultanță de mediu — măsurători punctuale de nivel și conductivitate"
     ],
-    infinitrade: `Pentru HT Hydrotechnik nu avem date proprii de stoc — ne bazăm pe informațiile publice de pe site-ul producătorului pentru fiecare instrument din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât sondele portabile, cât și dataloggerele și sistemele de telemetrie, cu termen orientativ 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de adâncimea forajului, parametrii de măsurat și dacă aveți nevoie de transmisie automată a datelor prin telemetrie. Nu promitem disponibilitate din depozit pentru niciun model.`,
+    infinitrade: `Pentru HT Hydrotechnik nu avem date proprii de stoc — ne bazăm pe documentația tehnică a producătorului pentru fiecare instrument din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât sondele portabile, cât și dataloggerele și sistemele de telemetrie, cu termen orientativ 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de adâncimea forajului, parametrii de măsurat și dacă aveți nevoie de transmisie automată a datelor prin telemetrie. Nu promitem disponibilitate din depozit pentru niciun model.`,
     limitation: "Nu confirmăm acoperirea rețelei LTE la locația exactă a forajului și nici integrarea platformei HT Analytics cu alte sisteme SCADA fără verificare prealabilă.",
     productCodes: [
       { code: "Kabellichtlot", description: "sondă portabilă de nivel apă" },
@@ -347,7 +347,7 @@ Pentru fabricile din România, KEM Küppers are sens la dozarea precisă de adez
       "Producție de baterii electrice — dozare adeziv la procesul de asamblare",
       "Industria chimică — injecție chimică la presiune ridicată (VFF, FlowPod)"
     ],
-    infinitrade: `Pentru KEM Küppers lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru debitmetrele din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât seria TCM Classic, cât și variantele Pro sau de înaltă presiune, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model. Pentru ofertă avem nevoie de debitul maxim de proces, tipul de fluid, presiunea de linie și tipul de ieșire electrică dorit. Nu promitem disponibilitate din depozit pentru nicio serie.`,
+    infinitrade: `Pentru KEM Küppers lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru debitmetrele din gamă. Aducem la comandă, prin canale de aprovizionare din UE, atât seria TCM Classic, cât și variantele Pro sau de înaltă presiune, cu termen orientativ 1–4 săptămâni de la confirmare, în funcție de model. Pentru ofertă avem nevoie de debitul maxim de proces, tipul de fluid, presiunea de linie și tipul de ieșire electrică dorit. Nu promitem disponibilitate din depozit pentru nicio serie.`,
     limitation: "Nu confirmăm compatibilitatea electronică exactă a unui debitmetru KEM Küppers cu un automat programabil anume fără verificarea semnalului de ieșire la producător.",
     productCodes: [
       { code: "TCM 0325", description: "debitmetru masic, seria TCM Classic; debitul nominal se confirmă din documentația producătorului" },
