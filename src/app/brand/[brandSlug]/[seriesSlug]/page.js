@@ -185,12 +185,7 @@ export default async function SeriesPage({ params }) {
           <div className={styles.container}>
             <h2>Ce nu putem furniza pentru {s.name}?</h2>
             <p className={styles.prose}>{s.limitation}</p>
-            <h2>De unde sunt datele din pagină?</h2>
-            <ol className={styles.sources}>
-              {s.sources.map((src) => (
-                <li key={src.url}><a href={src.url} rel="nofollow noopener" target="_blank">{src.title}</a> — {src.publisher}, accesat {src.accessed}</li>
-              ))}
-            </ol>
+            {/* v54: fără lista de surse cu linkuri spre producător (decizie proprietar). */}
             {siblings.length > 0 && (
               <>
                 <h3>Alte serii {brand.name} documentate</h3>

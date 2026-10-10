@@ -23,19 +23,9 @@
 // via `getBrandUpdatedDate()` instead of reading `lastModified.brands`
 // directly, so it stays identical to the visible "Actualizat:" line.
 import { getBrandUpdatedDate } from '@/data/lastModified';
-import { EXTENSION_BY_SLUG } from '@/data/brandsExtension';
 
-// D-2026-09-22: `sameAs` for the Brand node = the manufacturer's official
-// site (brandsExtension.officialUrl for the +726 brands; for the 283 base
-// brands the origin of the first cited manufacturer source). Never a
-// distributor/marketplace URL — sources[] are official sites by contract.
-function officialSameAs(brand, brandContent) {
-  const ext = EXTENSION_BY_SLUG[brand.simpleSlug];
-  if (ext && /^https?:\/\//.test(ext.officialUrl || '')) return ext.officialUrl;
-  const first = Array.isArray(brandContent?.sources) ? brandContent.sources.find((x) => /^https?:\/\//.test(x?.url || '')) : null;
-  if (!first) return null;
-  try { return new URL(first.url).origin + '/'; } catch { return null; }
-}
+// v54 (decizie proprietar, 10.10.2026): fără `sameAs` spre site-ul producătorului —
+// site-ul nu trimite clienții la producători, nici prin datele structurate.
 
 export function buildBrandJsonLd(brand, config, brandContent) {
   const primaryCategory = brand.categories[0];
@@ -46,12 +36,10 @@ export function buildBrandJsonLd(brand, config, brandContent) {
     }))
   );
 
-  const sameAs = officialSameAs(brand, brandContent);
   const brandNode = {
     '@type': 'Brand',
     '@id': `${config.site.url}/brand/${brand.simpleSlug}#brand`,
     name: brand.name,
-    ...(sameAs ? { sameAs: [sameAs] } : {}),
   };
   const faq = Array.isArray(brandContent?.faq) ? brandContent.faq.filter((f) => f && f.q && f.a) : [];
   const codes = Array.isArray(brandContent?.productCodes) ? brandContent.productCodes.filter((c) => c && c.code) : [];
