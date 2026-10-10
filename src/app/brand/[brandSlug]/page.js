@@ -7,6 +7,7 @@ import { buildBrandJsonLd } from '@/lib/schema/brand';
 import BrandPageClient from './BrandPageClient';
 import { getPrimaryForDuplicate } from '@/data/duplicateBrands';
 import { getRelatedBrandsByCategory } from '@/data/brandView';
+import { getProductTypesForBrand } from '@/data/brandCategoryLinks';
 import { getSeriesForBrand } from '@/data/series/_index';
 import { brandSeoMeta } from '@/data/brandSeoMeta';
 import { hasProductTypePage } from '@/data/productTypeContent/_index';
@@ -56,7 +57,14 @@ export async function generateMetadata({ params }) {
   const dupOf = getPrimaryForDuplicate(brand.simpleSlug);
   // v58 (audit): același model ca titlurile scrise manual (v39) pentru toate
   // celelalte branduri — „{Brand} România – {categoria} | Infinitrade”.
-  const shortCategory = CATEGORY_SHORT[brand.categories[0]?.name] || String(brand.categories[0]?.name || '').toLowerCase();
+  // v60: la brandurile din mai multe categorii, categoria cu cele mai multe tipuri
+  // de produse ale brandului (nu prima din listă: „Siemens – robineți” era greșit).
+  const ownTypes = new Set(getProductTypesForBrand(brand.simpleSlug));
+  const bestCategory = brand.categories.reduce((best, c) => {
+    const n = (c.productTypes || []).filter((t) => ownTypes.has(t.slug)).length;
+    return n > best.n ? { c, n } : best;
+  }, { c: brand.categories[0], n: -1 }).c;
+  const shortCategory = CATEGORY_SHORT[bestCategory?.name] || String(bestCategory?.name || '').toLowerCase();
   const titleVariants = [
     ...(dupOf ? [`${brand.name} (${brand.categories[0].name}) | Infinitrade`, `${brand.name} (${brand.categories[0].name})`] : []),
     `${brand.name} România – ${shortCategory} | Infinitrade`,
