@@ -72,7 +72,7 @@ export default function ConfidentialitatePage() {
             <ul>
               <li>Răspunderea la solicitările de ofertă</li>
               <li>Întocmirea documentelor comerciale (oferte, facturi, contracte)</li>
-              <li>Comunicarea privind produsele și serviciile noastre</li>
+              <li>Comunicarea cu dumneavoastră legată de cererea de ofertă și de comandă</li>
               <li>Îmbunătățirea serviciilor oferite</li>
               <li>Analiza automată a cererilor de ofertă, pentru a stabili ordinea și persoana care vă răspunde (vezi secțiunea 9)</li>
               <li>Prevenirea trimiterilor automate abuzive (spam) prin formular</li>
@@ -87,7 +87,7 @@ export default function ConfidentialitatePage() {
               <li><strong>Cererea de ofertă</strong> și comunicarea legată de ea: demersuri făcute la cererea dumneavoastră înainte de încheierea unui contract și executarea contractului (Art. 6(1)(b) GDPR)</li>
               <li><strong>Analiza automată a cererii, statisticile de vizitare și protecția anti-spam</strong>: interesul nostru legitim de a răspunde rapid și de a ne proteja site-ul (Art. 6(1)(f) GDPR)</li>
               <li><strong>Documentele contabile</strong>: obligația legală (Art. 6(1)(c) GDPR)</li>
-              <li><strong>Cookie-urile de analiză (Google Analytics) și comunicările comerciale</strong>, dacă le folosim: consimțământul dumneavoastră (Art. 6(1)(a) GDPR), pe care îl puteți retrage oricând</li>
+              <li><strong>Cookie-urile de analiză (Google Analytics)</strong>, dacă le activăm: consimțământul dumneavoastră (Art. 6(1)(a) GDPR), pe care îl puteți retrage oricând</li>
             </ul>
           </section>
 
@@ -134,11 +134,15 @@ export default function ConfidentialitatePage() {
             <ul>
               <li><strong>Vercel Inc.</strong> (SUA) — găzduirea site-ului și statistici de vizitare agregate, fără cookie-uri terțe;</li>
               <li><strong>Supabase</strong> (Supabase Pte. Ltd. și Supabase, Inc.) — baza de date în care se salvează cererile de ofertă;</li>
-              <li><strong>Plus Five Five, Inc. („Resend”)</strong> (SUA) — trimiterea cererii pe e-mail către echipa noastră;</li>
+              <li><strong>Plus Five Five, Inc. („Resend”)</strong> (SUA) — trimiterea cererii pe e-mail către echipa noastră (nu și către dumneavoastră);</li>
               <li><strong>Anthropic, PBC</strong> (SUA) — analiza automată a cererii (rezumat, produse identificate, prioritate). Rezultatul e folosit doar intern, pentru ordinea în care răspundem; nu se iau decizii automate cu efecte juridice asupra dumneavoastră. Datele nu sunt folosite pentru antrenarea modelelor;</li>
               <li><strong>Upstash, Inc.</strong> (SUA) — limitarea numărului de trimiteri pe adresă IP (protecție anti-spam);</li>
               <li><strong>Google LLC</strong> (SUA) — harta de pe pagina de contact, încărcată doar când apăsați „Afișați harta”, și Google Analytics, doar dacă vă exprimați acordul.</li>
             </ul>
+            <p>
+              Nu trimitem e-mailuri automate, newslettere sau mesaje promoționale: e-mailul generat de
+              formular ajunge doar la echipa noastră, iar răspunsul vi-l trimite direct un coleg de la vânzări.
+            </p>
             <p>
               Nu vindem datele și nu le transmitem în scop de publicitate. Le putem comunica autorităților
               doar când legea o cere.
