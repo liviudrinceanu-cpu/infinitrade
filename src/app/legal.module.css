@@ -107,3 +107,14 @@
     font-size: 28px;
   }
 }
+
+/* v53: buton „Modificați acordul pentru cookie-urile de analiză” */
+.consentButton {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--primary);
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
