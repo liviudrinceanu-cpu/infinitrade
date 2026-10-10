@@ -160,13 +160,12 @@ export function rateLimitSync(identifier, maxRequests = 5, windowMs = 15 * 60 * 
  * Extract client IP from request headers
  */
 export function getClientIP(request) {
-  // Vercel/Cloudflare headers
+  // v58 (audit securitate): doar antetele setate de Vercel (le suprascrie pe cele
+  // trimise de client). `cf-connecting-ip` era luat primul, dar site-ul nu stă în
+  // spatele Cloudflare, deci clientul îl putea falsifica și ocoli limitarea.
   const forwarded = request.headers.get('x-forwarded-for');
   const realIP = request.headers.get('x-real-ip');
-  const cfConnecting = request.headers.get('cf-connecting-ip');
 
-  // Priority: CF > Real IP > Forwarded (first IP)
-  if (cfConnecting) return cfConnecting;
   if (realIP) return realIP;
   if (forwarded) return forwarded.split(',')[0].trim();
 

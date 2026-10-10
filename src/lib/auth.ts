@@ -10,11 +10,13 @@ const LOCKOUT_DURATION = 15 * 60 * 1000; // 15 minutes
 
 // v19 (audit R1): a bcrypt hash of a random string, compared when the user
 // does not exist so the response time does not reveal which e-mails exist.
-const DUMMY_HASH = '$2b$10$C6/6U66wcyu9kf/xLPihoeLdtNKXwuY6RWWR3rvTv2LRf.iGN3M62';
+// v58: același cost (12) ca parolele reale, altfel timpul diferă tot.
+const DUMMY_HASH = '$2b$12$75tiDMvkOclYxKQU.vag6ugEgZowml.AhsjZR/DfDlgL3eOZY.JGG';
 const MAX_LOGIN_ATTEMPTS_PER_IP = 20;
 
 async function checkLoginRateLimit(email: string, ip?: string | null): Promise<{ allowed: boolean; remainingTime?: number }> {
-  const result = await rateLimit(`login:${email}`, MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION);
+  // v58: cheia de blocare pe e-mail normalizat (altfel „Admin@…” și „admin@…” erau contoare separate).
+  const result = await rateLimit(`login:${email.trim().toLowerCase()}`, MAX_LOGIN_ATTEMPTS, LOCKOUT_DURATION);
   // v19: also limit per client IP, so many e-mails from one source are throttled.
   const ipResult = ip ? await rateLimit(`login-ip:${ip}`, MAX_LOGIN_ATTEMPTS_PER_IP, LOCKOUT_DURATION) : { allowed: true };
 

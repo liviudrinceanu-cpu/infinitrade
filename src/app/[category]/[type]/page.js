@@ -74,7 +74,16 @@ export async function generateMetadata({ params }) {
     `${content.name} | Infinitrade`,
     content.name,
   ].find((t) => t.length <= 65);
-  const description = trim(`${content.lede} ${brands.length ? `Branduri pe care le livrăm în România: ${brands.slice(0, 4).map((b) => b.name).join(', ')}.` : ''} Cereți ofertă cu codul produsului.`, 158);
+  // v58 (audit): fără descrieri tăiate cu „…” — cea mai lungă variantă întreagă care încape.
+  const firstSentence = (content.lede.match(/^[^.!?]*[.!?]/) || [content.lede])[0].trim();
+  const brandList = brands.slice(0, 4).map((b) => b.name).join(', ');
+  const description = (content.metaDescription && content.metaDescription.length <= 158 ? content.metaDescription : null) || [
+    `${content.lede} ${brands.length ? `Branduri pe care le livrăm în România: ${brandList}.` : ''} Cereți ofertă cu codul produsului.`,
+    `${firstSentence} ${brands.length ? `Branduri livrate în România: ${brandList}.` : ''} Cereți ofertă cu codul produsului.`,
+    `${firstSentence} ${brands.length ? `Branduri: ${brands.slice(0, 3).map((b) => b.name).join(', ')}.` : ''} Cereți ofertă.`,
+    `${firstSentence} Cereți ofertă cu codul produsului.`,
+    firstSentence,
+  ].map((d) => d.replace(/\s+/g, ' ').trim()).find((d) => d.length <= 158) || trim(firstSentence, 158);
   return {
     title: { absolute: title },
     description,

@@ -44,7 +44,7 @@ export const roles = {
     icon: 'FileCheck',
     metaTitle: 'Pentru achiziții: documente de furnizor',
     metaDescription:
-      'Pentru departamentele de achiziții: date de firmă verificabile, documente pentru înscrierea ca furnizor, RO e-Factura, SEAP, termene de livrare scrise în ofertă.',
+      'Pentru achiziții: date de firmă verificabile, documente pentru înscrierea ca furnizor, RO e-Factura, SEAP și termenul de livrare scris în ofertă.',
     h1: 'Pentru departamentul de achiziții',
     lead: `Infinitrade Romania (Driatheli Group SRL) furnizează echipamente industriale și piese de schimb din 2009, cu depozit în Ghiroda (Timiș) și ${siteStats.brands} de branduri cu pagină proprie. Pe această pagină găsiți datele de firmă, documentele pentru înscrierea ca furnizor și condițiile în care lucrăm, ca să ne puteți verifica înainte de primul contact.`,
     facts: [
