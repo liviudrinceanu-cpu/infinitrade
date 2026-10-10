@@ -11,7 +11,7 @@ export const series = [
     "name": "LINAK LA36",
     "oneLine": "Actuator liniar electric de mare forță LINAK, pentru utilaje industriale și agricole grele.",
     "lifecycle": "activ",
-    "lifecycleNote": "Fișa tehnică LA36 publicată de LINAK este disponibilă curent pe site-ul producătorului, fără nicio mențiune de retragere din fabricație.",
+    "lifecycleNote": "Fișa tehnică LA36 publicată de LINAK este curentă în documentația producătorului, fără nicio mențiune de retragere din fabricație.",
     "intro": "LA36 este un actuator liniar electric din gama LINAK pentru sarcini grele, construit pentru a înlocui soluții hidraulice în utilaje industriale și agricole. Cursa disponibilă merge de la 100 la 1200 mm, iar forța maximă ajunge la 6800 N, cu viteze de până la 160 mm/s în funcție de raportul de transmisie ales. Actuatorul se comandă pe bază de cod de configurare (de exemplu 36 120 200 0 A 01 B 6-611H30300NCS000), unde fiecare grup de cifre și litere descrie cursa, tensiunea, raportul de reducție, tipul de feedback și conectica.\n\nExistă variante LA36 cu interfață simplă LINAK I/O, varianta LA36 IC cu controler integrat (CANopen, Modbus, PROFINET și alte protocoale industriale) și variante speciale ATEX/IECEx sau pentru echipamente off-highway. Pentru o ofertă de înlocuire, clientul trimite codul complet de pe eticheta actuatorului existent sau, dacă lipsește, cursa, tensiunea de alimentare și forța necesară; aducem actuatorul la comandă din Uniunea Europeană, în 1–4 săptămâni.",
     "models": [
       {

@@ -13,7 +13,7 @@ Pentru un integrator român de cântare industriale sau echipamente agricole, Ze
     whyChoose: [
       "Catalog de peste 1.000 de tipuri standardizate de celule de sarcină, de la 20 de grame la 1.000 de tone",
       "Producție proprie de benzi tensometrice (strain gauges), inclusiv varianta BB rezistentă la 250°C",
-      "Peste 60.000 de celule de sarcină în stoc la producător, în Europa, conform site-ului oficial",
+      "Peste 60.000 de celule de sarcină în stoc la producător, în Europa, conform documentației producătorului",
       "Serii dedicate pentru nișe speciale: BM8H pentru mașini agricole, 1B-S pentru sigilare sterilă",
       "Peste 280 de ingineri pentru produse personalizate, conform producătorului",
     ],
@@ -30,7 +30,7 @@ Pentru un integrator român de cântare industriale sau echipamente agricole, Ze
       "Medical — senzori miniaturali pentru dispozitive și echipamente de laborator",
       "Energie — module de cântărire pentru echipamente de producție și mentenanță",
     ],
-    infinitrade: `Aducem celule de sarcină și senzori Zemic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor standard. Pentru acest brand nou pentru noi ne bazăm pe informațiile publice de pe site-ul producătorului — nu avem date proprii de stoc și nu ținem pe raft celule Zemic pentru livrare imediată. Pentru o ofertă corectă avem nevoie de codul seriei sau capacitatea nominală dorită, clasa de precizie și tipul de montaj (compresie, tracțiune sau grindă de forfecare). Pentru proiecte de cântărire cu mai multe celule montate pe aceeași platformă, vă recomandăm să ne transmiteți și schema de montaj, pentru a verifica compatibilitatea dintre celule.`,
+    infinitrade: `Aducem celule de sarcină și senzori Zemic prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea seriilor standard. Pentru acest brand nou pentru noi ne bazăm pe informațiile din documentația producătorului — nu avem date proprii de stoc și nu ținem pe raft celule Zemic pentru livrare imediată. Pentru o ofertă corectă avem nevoie de codul seriei sau capacitatea nominală dorită, clasa de precizie și tipul de montaj (compresie, tracțiune sau grindă de forfecare). Pentru proiecte de cântărire cu mai multe celule montate pe aceeași platformă, vă recomandăm să ne transmiteți și schema de montaj, pentru a verifica compatibilitatea dintre celule.`,
     limitation: "Nu putem confirma disponibilitatea imediată a fiecărei clase de precizie OIML pentru toate capacitățile din gamă fără o cerere punctuală către producător.",
     productCodes: [
       { code: "L6T", description: "celulă de sarcină pentru cântare comerciale, montaj tip punte" },
@@ -167,7 +167,7 @@ Pentru un integrator sau o rafinărie din România, Houttuin înseamnă acces la
     certifications: [
       "ISO 9001 — calitate certificată pe fluxul de proiectare–fabricație",
     ],
-    infinitrade: `Furnizăm pompe cu șurub Houttuin prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea configurațiilor. Pentru acest brand ne ghidăm strict după informațiile publice de pe site-ul CIRCOR/Houttuin — nu deținem date proprii de stoc și nu ținem pompe Houttuin pe raft pentru livrare rapidă. Pentru o ofertă corectă avem nevoie de seria dorită (Lube Oil, 236, 249 sau Multiphase), vâscozitatea și temperatura fluidului, presiunea de refulare necesară și, pentru aplicațiile multifazice, compoziția amestecului. Pentru piese de schimb (rotoare, etanșări), termenul se confirmă separat, în funcție de disponibilitatea la producător.`,
+    infinitrade: `Furnizăm pompe cu șurub Houttuin prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru majoritatea configurațiilor. Pentru acest brand ne ghidăm strict după documentația tehnică CIRCOR/Houttuin — nu deținem date proprii de stoc și nu ținem pompe Houttuin pe raft pentru livrare rapidă. Pentru o ofertă corectă avem nevoie de seria dorită (Lube Oil, 236, 249 sau Multiphase), vâscozitatea și temperatura fluidului, presiunea de refulare necesară și, pentru aplicațiile multifazice, compoziția amestecului. Pentru piese de schimb (rotoare, etanșări), termenul se confirmă separat, în funcție de disponibilitatea la producător.`,
     limitation: "Nu putem confirma termenele de livrare pentru piesele de schimb sau pentru configurațiile speciale ale seriei Friction Heater Pump fără o cerere tehnică punctuală transmisă producătorului.",
     productCodes: [
       { code: "Houttuin Lube Oil Series (HTN LO)", description: "pompe cu șurub pentru ulei de ungere și fluide curate" },
@@ -225,7 +225,7 @@ Pentru un fermier, o asociație de utilități sau un dezvoltator de proiecte ru
       "Proiecte umanitare și ONG-uri — surse de apă independente de rețea",
       "Piscine — pompe solare pentru circulația apei",
     ],
-    infinitrade: `Aducem sisteme de pompare solară Lorentz prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația aleasă. Ca la orice brand nou pentru noi, lucrăm cu informațiile publice disponibile pe site-ul producătorului — nu ținem pe raft propriu de pompe Lorentz și nu promitem disponibilitate imediată pentru niciun model. Pentru o ofertă corectă avem nevoie de adâncimea sursei de apă, debitul zilnic dorit, înălțimea totală de pompare și dacă instalația va fi conectată doar la panouri solare sau într-o configurație hibridă. Pentru proiectele de irigații de amploare, recomandăm să ne trimiți și profilul de consum pe parcursul zilei, ca să dimensionăm corect sistemul fotovoltaic.`,
+    infinitrade: `Aducem sisteme de pompare solară Lorentz prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni, în funcție de configurația aleasă. Ca la orice brand nou pentru noi, lucrăm cu informațiile din documentația tehnică a producătorului — nu ținem pe raft propriu de pompe Lorentz și nu promitem disponibilitate imediată pentru niciun model. Pentru o ofertă corectă avem nevoie de adâncimea sursei de apă, debitul zilnic dorit, înălțimea totală de pompare și dacă instalația va fi conectată doar la panouri solare sau într-o configurație hibridă. Pentru proiectele de irigații de amploare, recomandăm să ne trimiți și profilul de consum pe parcursul zilei, ca să dimensionăm corect sistemul fotovoltaic.`,
     limitation: "Nu putem confirma disponibilitatea locală a serviciilor de proiectare a sistemului fotovoltaic asociat pompei, dincolo de recomandările tehnice publicate de producător.",
     productCodes: [
       { code: "PS2", description: "sistem de pompare solară pentru aplicații mici și medii" },
@@ -281,7 +281,7 @@ Pentru o stație de epurare, o fermă zootehnică sau un operator de instalație
       "Agricultură și zootehnie — pompe și mixere pentru gunoi de grajd și dejecții",
       "Industria piscicolă — pompă cu cuțit și instalație de ensilare PowerEnsiler",
     ],
-    infinitrade: `Aducem pompe tocătoare și mixere Landia prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru configurațiile standard. Ne bazăm pe informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru acest brand, și nu ținem echipamente Landia pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de tipul de material pompat sau amestecat (nămol, dejecții, substrat de biogaz), volumul bazinului sau digestorului și dacă preferați o variantă submersibilă sau montată uscat. Pentru sistemele GasMix sau BioChop, transmiteți și tipul de substrat procesat, pentru a verifica dimensionarea corectă.`,
+    infinitrade: `Aducem pompe tocătoare și mixere Landia prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni pentru configurațiile standard. Ne bazăm pe informațiile din documentația producătorului, fără date proprii de stoc pentru acest brand, și nu ținem echipamente Landia pe raft pentru livrare imediată. Pentru o ofertă corectă avem nevoie de tipul de material pompat sau amestecat (nămol, dejecții, substrat de biogaz), volumul bazinului sau digestorului și dacă preferați o variantă submersibilă sau montată uscat. Pentru sistemele GasMix sau BioChop, transmiteți și tipul de substrat procesat, pentru a verifica dimensionarea corectă.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de uzură (cuțite, rotoare) pentru fiecare model fără o cerere punctuală transmisă producătorului.",
     productCodes: [
       { code: "Neddykket Chopperpumpe", description: "pompă tocătoare submersibilă, cuțit integrat pe rotor" },

@@ -267,7 +267,7 @@ Pentru fabricile din România cu echipamente rotative solicitate — reductoare,
       "Mașini-unelte — susținerea axelor de poziționare cu șurub cu bile",
       "Climatizare industrială — rulmenți pentru compresoare și ventilatoare"
     ],
-    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu păstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din surse publice ale producătorului, accesate pe site-ul producătorului; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
+    infinitrade: `Pentru rulmenții NACHI aducem produsul la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — nu păstrăm stoc propriu și nu promitem disponibilitate permanentă pentru fiecare cod. Ca să dăm o ofertă corectă avem nevoie de codul exact al rulmentului sau, dacă nu-l cunoașteți, de diametrul interior, exterior, lățimea și tipul de sarcină (radială, axială sau combinată) al aplicației. Datele din acest text provin din documentația producătorului; pentru compatibilitate exactă cu un arbore existent, recomandăm verificarea desenului tehnic al mașinii înainte de comandă.`,
     limitation: "Nu putem confirma echivalența exactă cu un cod concurent fără verificare punctuală și nu ținem disponibilitate permanentă din stoc pentru mărimile mai puțin uzuale din gamă.",
     productCodes: [
       {
@@ -624,7 +624,7 @@ Pentru fabricile românești cu proces continuu — chimie, industria clorului, 
       "Autorități locale — centrale termice pentru clădiri publice și rețele urbane",
       "Producție cu consum mare de energie — cogenerare electrică și termică simultană"
     ],
-    infinitrade: `Nu deținem stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice despre gama Vitomax provin din site-ul producătorului; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
+    infinitrade: `Nu deținem stoc propriu de cazane Viessmann — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, valabil pentru unități configurate pe proiect. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil disponibil pe amplasament și dacă instalația actuală funcționează cu apă caldă sau abur. Informațiile publice despre gama Vitomax provin din documentația producătorului; pentru un proiect de retehnologizare recomandăm o discuție tehnică prealabilă, pentru că dimensionarea corectă depinde de profilul real de consum al fabricii, nu doar de puterea instalată actuală.`,
     limitation: "Nu putem confirma termene de livrare mai scurte pentru unități configurate special pe proiect și nu oferim service în garanția producătorului pentru instalații puse în funcțiune de alt furnizor.",
     productCodes: [
       {
@@ -763,7 +763,7 @@ Pentru fabricile și șantierele industriale din România, gama Sika acoperă at
       "Infrastructură — consolidarea structurilor de beton cu fibre de carbon",
       "Logistică și depozitare — membrane de acoperiș pentru hale mari"
     ],
-    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă pentru cantitățile care depășesc stocul curent de la distribuitorii locali. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România.`,
+    infinitrade: `Furnizăm produse Sika prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă pentru cantitățile care depășesc stocul curent din piață. Nu avem date proprii despre stocul disponibil la un moment dat în depozitele din România — verificăm punctual disponibilitatea înainte de a confirma o cantitate și un termen. Pentru o ofertă corectă avem nevoie de suprafața sau volumul lucrării, tipul de substrat și condițiile de expunere (chimică, mecanică, termică) ale aplicației. Informațiile despre gamă provin din surse publice ale producătorului și din prezentarea Sika România.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unor cantități mari fără verificare la depozitul local și nu oferim consultanță de aplicare pe șantier ca serviciu separat.",
     productCodes: [
       {
@@ -889,7 +889,7 @@ Pentru instalațiile din România cu axe de poziționare simple sau medii — be
       "Industria alimentară — dozatoare și mese rotative cu poziționare repetabilă"
     ],
     certifications: ["ISO 9001 — management al calității", "ISO 14001 — management de mediu"],
-    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din site-ul producătorului, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
+    infinitrade: `Nu păstrăm stoc propriu de motoare Oriental Motor — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de tipul de mișcare dorită (poziționare sau rotație continuă), cuplul necesar, viteza de lucru și dacă aplicația cere feedback de poziție prin encoder. Fără date proprii de stoc pentru această gamă, verificăm disponibilitatea la fiecare cerere înainte de a confirma un termen ferm. Informațiile tehnice generale provin din documentația producătorului, iar pentru dimensionarea exactă a motorului recomandăm o discuție tehnică prealabilă.`,
     limitation: "Nu oferim programarea controlerelor motoarelor ca serviciu.",
     productCodes: [
       {
@@ -1036,7 +1036,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       },
       {
         "code": "uvex i-works",
-        "description": "Instrumente digitale de servicii oferite de uvex, prezentate pe site-ul producătorului"
+        "description": "Instrumente digitale de servicii oferite de uvex, prezentate în documentația producătorului"
       },
       {
         "code": "uvex UV-400",
@@ -1101,7 +1101,7 @@ Pentru laboratoarele de proiectare electronică și centrele de testare din Rom�
       "Automotive — validare de electronică de putere și sisteme de încărcare EV",
       "Centre de date — testare de infrastructură de rețea de mare viteză"
     ],
-    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Disponibilitatea depinde de producător la momentul comenzii, de aceea nu promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din site-ul producătorului.`,
+    infinitrade: `Nu păstrăm stoc propriu de osciloscoape Keysight — le aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de banda de frecvență necesară, numărul de canale (analogice și digitale) și dacă aplicația cere funcții suplimentare precum analiza de protocol. Disponibilitatea depinde de producător la momentul comenzii, de aceea nu promitem un termen mai scurt decât cel orientativ. Parametrii tehnici din acest text provin din documentația producătorului.`,
     limitation: "Nu putem confirma configurația software exactă (licențe, opțiuni de analiză) fără o discuție tehnică prealabilă și nu oferim calibrare metrologică ca serviciu propriu.",
     productCodes: [
       {
@@ -1223,7 +1223,7 @@ Pentru fabricile din România cu linii de detecție și sortare — ambalare, co
       "Electronică — senzori optici miniaturali pentru piese mici",
       "Prelucrarea metalelor — senzori inelari pentru piese cilindrice pe linie"
     ],
-    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din site-ul producătorului, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
+    infinitrade: `Aducem senzori di-soric la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de tipul de material detectat, distanța de detecție necesară și tipul de montaj (pe linie, în tub sau pe ghidaj). Nu deținem produse pe stoc propriu pentru această gamă și nu promitem o cantitate disponibilă imediat — verificăm la fiecare cerere înainte de confirmare. Informațiile tehnice din acest text provin din documentația producătorului, iar pentru un caz special de montaj recomandăm discutarea aplicației exacte înainte de a alege modelul.`,
     limitation: "Nu putem confirma compatibilitatea electrică exactă cu un controler existent fără fișa tehnică a instalației și nu oferim programarea software-ului de viziune ca serviciu separat.",
     productCodes: [
       {

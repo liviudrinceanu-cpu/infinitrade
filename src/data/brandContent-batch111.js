@@ -26,7 +26,7 @@ Pentru România, gama e utilă acolo unde un atelier de mentenanță sau o hală
       "Confecții metalice — tăiere tablă și sudură MIG/MAG",
       "Service auto și ateliere mecanice — scule pneumatice de atelier",
     ],
-    infinitrade: `Pentru Elmag lucrăm după surse publice ale producătorului, disponibile pe site-ul oficial — aducem echipamentele la comandă prin canale de aprovizionare din Austria și UE, cu un termen orientativ de 1–4 săptămâni, în funcție de model. Ce vă cerem pentru o ofertă corectă: categoria de mașină, parametrii de bază — debit de aer, curent de sudare, diametru de găurire — și dacă echipamentul e pentru uz continuu sau intermitent. Fiecare comandă se confirmă în avans cu fabrica; nu putem oferi o cantitate fixă, disponibilă oricând, pentru fiecare model din gamă.`,
+    infinitrade: `Pentru Elmag lucrăm după surse publice ale producătorului, din documentația tehnică — aducem echipamentele la comandă prin canale de aprovizionare din Austria și UE, cu un termen orientativ de 1–4 săptămâni, în funcție de model. Ce vă cerem pentru o ofertă corectă: categoria de mașină, parametrii de bază — debit de aer, curent de sudare, diametru de găurire — și dacă echipamentul e pentru uz continuu sau intermitent. Fiecare comandă se confirmă în avans cu fabrica; nu putem oferi o cantitate fixă, disponibilă oricând, pentru fiecare model din gamă.`,
     limitation: "Nu putem confirma parametrii tehnici exacți — debit, presiune, curent de sudare — pentru fiecare model fără o cerere punctuală la producător.",
     productCodes: [
       { code: "Kolben-Kompressoren", description: "Compresoare cu piston pentru consum intermitent de aer" },
@@ -203,7 +203,7 @@ Pentru România, sculele Jokari au sens în telecomunicații, energie și confec
       "Electronică — instrumente de micro-precizie pentru fire subțiri",
       "Confecționare cabluri industriale — scule dedicate pe diametru de cablu",
     ],
-    infinitrade: `Pentru Jokari mergem strict pe informațiile publice disponibile pe site-ul producătorului, fără date tehnice adăugate din alte surse. Aducem sculele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru referințe mai puțin curente; pentru cuțitele și cleștii din seriile de bază, termenul poate fi mai scurt. Pentru o ofertă corectă, spuneți-ne diametrul exact al cablului sau secțiunea conductorului lucrat, tipul de manta și dacă aveți nevoie de protecție ESD. Nu putem confirma disponibilitatea exactă pentru fiecare referință fără o interogare punctuală la producător.`,
+    infinitrade: `Pentru Jokari mergem strict pe documentația tehnică a producătorului, fără date tehnice adăugate din alte surse. Aducem sculele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru referințe mai puțin curente; pentru cuțitele și cleștii din seriile de bază, termenul poate fi mai scurt. Pentru o ofertă corectă, spuneți-ne diametrul exact al cablului sau secțiunea conductorului lucrat, tipul de manta și dacă aveți nevoie de protecție ESD. Nu putem confirma disponibilitatea exactă pentru fiecare referință fără o interogare punctuală la producător.`,
     limitation: "Nu putem confirma disponibilitatea exactă pentru fiecare referință individuală din gama Jokari fără o interogare punctuală la producător.",
     productCodes: [
       { code: "System 4-70", description: "Cuțit pentru cabluri rotunde, diametru 8–35 mm" },
@@ -247,7 +247,7 @@ Sculele sunt segmentate pe surse de forță: cele acționate manual acoperă sec
 Pentru România, sculele Klauke au sens în energie regenerabilă, centre de date și construcția tablourilor electrice, acolo unde sertizarea corectă influențează direct siguranța instalației.`,
     whyChoose: [
       "Peste un secol de experiență declarată în tehnologia conexiunilor electrice, sub portofoliul Emerson Professional Tools",
-      "Serie Orange Line certificată VDE conform GS-ET-23, menționată explicit pe site-ul producătorului",
+      "Serie Orange Line certificată VDE conform GS-ET-23, menționată explicit din documentația producătorului",
       "Trei surse de forță disponibile — manuală, hidraulică manuală și akku-hidraulică — pentru volume diferite",
       "Papuci și mufe conforme DIN 46228, 46234, 46235 și 46267, conform informațiilor producătorului",
     ],
@@ -277,13 +277,13 @@ Pentru România, sculele Klauke au sens în energie regenerabilă, centre de dat
       { code: "Rohrkabelschuhe und Verbinder Cu", description: "Papuci tubulari și conectori din cupru" },
       { code: "Presskabelschuhe DIN Cu", description: "Papuci de sertizat conform DIN pentru cabluri din cupru" },
       { code: "Aderendhülsen", description: "Manșoane de capăt de fir pentru conductori flexibili" },
-      { code: "Micro", description: "Serie Klauke prezentată ca noutate pe site-ul producătorului; detaliile se confirmă pe model" },
+      { code: "Micro", description: "Serie Klauke prezentată de producător ca noutate; detaliile se confirmă pe model" },
       { code: "Next Generation", description: "Generație recentă de scule de sertizare Klauke" },
     ],
     faq: [
       { q: "Ce produce Klauke?", a: "Klauke produce scule de sertizare și de tăiere pentru cabluri electrice, plus papuci și mufe de cablu din cupru conforme DIN. Compania are sediul la Remscheid, în Germania, și face parte din portofoliul Emerson Professional Tools." },
       { q: "Ce diferență e între sculele akku-hidraulice și cele hidraulice manuale Klauke?", a: "Sculele akku-hidraulice au motor pe acumulator, care generează presiunea de sertizare automat, potrivite pentru volum mare de lucru. Sculele hidraulice manuale au pompă acționată de mână, mai grele, dar independente de o sursă de încărcare, utile pe șantiere izolate sau în intervenții de urgență." },
-      { q: "Ce înseamnă certificarea VDE la sculele Klauke seria Orange Line?", a: "Producătorul indică pentru seria Orange Line certificarea VDE conform GS-ET-23; cerințele exacte ale standardului se verifică în documentația Klauke pentru modelul ales. Seria Orange Line are această certificare menționată explicit pe site-ul producătorului." },
+      { q: "Ce înseamnă certificarea VDE la sculele Klauke seria Orange Line?", a: "Producătorul indică pentru seria Orange Line certificarea VDE conform GS-ET-23; cerințele exacte ale standardului se verifică în documentația Klauke pentru modelul ales. Seria Orange Line are această certificare menționată explicit din documentația producătorului." },
       { q: "Livrați scule și papuci Klauke în România?", a: "Da, aducem sculele de sertizare, papucii și mufele Klauke la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru scule complete. Pentru papuci și mufe standard, termenul poate fi mai scurt." },
     ],
     evidenceClass: "market-signal-ro",
@@ -322,7 +322,7 @@ Pentru România, sculele Rennsteig au sens în confecționarea de cabluri pentru
       "Mentenanță mecanică — clești pentru inele de siguranță și țevi",
     ],
     certifications: ["GS — marcaj de siguranță menționat de producător; aplicabilitatea se confirmă pe model"],
-    infinitrade: `Pentru Rennsteig lucrăm cu informațiile publicate de producător pe site-ul oficial, fără date proprii despre stocul fiecărei referințe din catalog. Aducem sculele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sculele de sertizare specializate și, uneori, mai scurt pentru foarfecile și cleștii de bază. Pentru o ofertă corectă, spuneți-ne tipul de operație, secțiunea de cablu lucrată și dacă aveți nevoie de matrițe specifice pentru sistemul Vierdorn. Nu putem confirma o cantitate fixă disponibilă pentru fiecare cod.`,
+    infinitrade: `Pentru Rennsteig lucrăm cu documentația tehnică a producătorului, fără date proprii despre stocul fiecărei referințe din catalog. Aducem sculele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru sculele de sertizare specializate și, uneori, mai scurt pentru foarfecile și cleștii de bază. Pentru o ofertă corectă, spuneți-ne tipul de operație, secțiunea de cablu lucrată și dacă aveți nevoie de matrițe specifice pentru sistemul Vierdorn. Nu putem confirma o cantitate fixă disponibilă pentru fiecare cod.`,
     limitation: "Nu putem confirma compatibilitatea exactă dintre matrițele Rennsteig și manșoanele altor producători fără o verificare punctuală.",
     productCodes: [
       { code: "Kabelscheren", description: "Foarfeci pentru tăierea mantalei cablurilor electrice" },
@@ -380,7 +380,7 @@ Pentru România, gama RUKO are sens în ateliere mecanice și construcții de ma
       "Producție de serie mică — găurire rapidă cu geometrii Flowstep",
       "Tâmplărie și prelucrarea lemnului — burghie dedicate pentru lemn",
     ],
-    infinitrade: `Pentru RUKO lucrăm cu informațiile publice ale producătorului german, fără a completa cu parametri tehnici care nu sunt confirmați pe site. Aducem burghiele, sculele de zencuire și carotierele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru dimensiuni mai puțin curente; pentru diametre uzuale din linia standard, termenul poate fi mai scurt. Pentru o ofertă corectă, spuneți-ne materialul prelucrat, diametrul găurii necesare și dacă lucrați pe mașină manuală sau CNC. Nu putem confirma o unitate cu disponibilitate din depozit pentru fiecare diametru.`,
+    infinitrade: `Pentru RUKO lucrăm cu informațiile publice ale producătorului german, fără a completa cu parametri tehnici care nu sunt confirmați în documentația producătorului. Aducem burghiele, sculele de zencuire și carotierele la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni pentru dimensiuni mai puțin curente; pentru diametre uzuale din linia standard, termenul poate fi mai scurt. Pentru o ofertă corectă, spuneți-ne materialul prelucrat, diametrul găurii necesare și dacă lucrați pe mașină manuală sau CNC. Nu putem confirma o unitate cu disponibilitate din depozit pentru fiecare diametru.`,
     limitation: "Nu putem confirma parametrii de tăiere recomandați (viteză, avans) pentru fiecare combinație material-diametru fără o cerere punctuală.",
     productCodes: [
       { code: "Metallbohrer", description: "Burghie standard pentru găurirea oțelului și fontei" },
@@ -471,7 +471,7 @@ Pentru România, nivelele SOLA au sens în construcții civile și industriale �
     founded: 1938,
     overview: `TONE este un producător japonez de chei dinamometrice și scule de fixare cu șuruburi industriale, fondat în 1938. Gama acoperă chei dinamometrice mecanice și digitale, chei tubulare de impact, seturi de chei tubulare complete și o linie de scule din titan pentru medii unde greutatea sau proprietățile magnetice ale oțelului nu sunt potrivite. Pentru un service industrial din România, TONE e o alternativă asiatică la mărcile europene de chei dinamometrice.
 
-Gama TONE acoperă chei dinamometrice mecanice și digitale, seturi de chei tubulare, scule de impact, scule pneumatice și electrice și o linie de scule din titan, potrivit site-ului producătorului.
+Gama TONE acoperă chei dinamometrice mecanice și digitale, seturi de chei tubulare, scule de impact, scule pneumatice și electrice și o linie de scule din titan, potrivit documentației producătorului.
 
 Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mentenanță industrială, oriunde strângerea cu cuplu controlat, verificabil, e o cerință documentată.`,
     whyChoose: [
@@ -492,7 +492,7 @@ Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mente
       "Infrastructură și structuri metalice — strângere controlată la buloane",
       "Aplicații cu cerințe magnetice speciale — scule din titan pentru medii sensibile",
     ],
-    infinitrade: `Pentru TONE ne bazăm pe informațiile publicate pe site-ul oficial al producătorului japonez, fiind onești despre ce putem și ce nu putem confirma pentru fiecare model din gamă. Aducem cheile dinamometrice, seturile de chei tubulare și sculele din titan la comandă prin canale de aprovizionare, cu un termen orientativ de 1–4 săptămâni, mai lung pentru linia de titan sau modele digitale mai puțin curente. Pentru o ofertă corectă, spuneți-ne domeniul de cuplu necesar, tipul de cheie și dimensiunile de cap dorite. Nu putem confirma o cantitate rezervată dinainte pentru fiecare model.`,
+    infinitrade: `Pentru TONE ne bazăm pe documentația tehnică a producătorului, fiind onești despre ce putem și ce nu putem confirma pentru fiecare model din gamă. Aducem cheile dinamometrice, seturile de chei tubulare și sculele din titan la comandă prin canale de aprovizionare, cu un termen orientativ de 1–4 săptămâni, mai lung pentru linia de titan sau modele digitale mai puțin curente. Pentru o ofertă corectă, spuneți-ne domeniul de cuplu necesar, tipul de cheie și dimensiunile de cap dorite. Nu putem confirma o cantitate rezervată dinainte pentru fiecare model.`,
     limitation: "Nu putem confirma certificările specifice de calibrare pentru fiecare cheie dinamometrică individuală fără documentația punctuală a lotului.",
     productCodes: [
       { code: "Chei dinamometrice mecanice", description: "Chei cu clichet pentru strângere la cuplu fix" },
@@ -526,7 +526,7 @@ Pentru România, cheile dinamometrice TONE au sens în asamblarea auto și mente
   almig: {
     name: "Almig",
     headquarters: "Köngen, Germania",
-    overview: `ALMiG este un producător german de compresoare de aer cu șurub pentru aplicații industriale, cu sediul la Köngen; compania marchează pe propriul site „100 Jahre ALMiG” (100 de ani de activitate). Gama acoperă mai multe familii de compresoare cu șurub — F-Drive, COMBI XP, GEAR XP, VARIABLE XP, G-Drive T și V-Drive T, LENTO și SIMPLEXX — alături de compresoare cu piston, turbocompresoare și scroll. Pentru o hală de producție din România, ALMiG e o alternativă germană la mărcile mari de compresoare.
+    overview: `ALMiG este un producător german de compresoare de aer cu șurub pentru aplicații industriale, cu sediul la Köngen; compania marchează în materialele proprii „100 Jahre ALMiG” (100 de ani de activitate). Gama acoperă mai multe familii de compresoare cu șurub — F-Drive, COMBI XP, GEAR XP, VARIABLE XP, G-Drive T și V-Drive T, LENTO și SIMPLEXX — alături de compresoare cu piston, turbocompresoare și scroll. Pentru o hală de producție din România, ALMiG e o alternativă germană la mărcile mari de compresoare.
 
 ALMiG declară o strategie de standardizare a componentelor — aproximativ 80-90% din piesele unui compresor dintr-o clasă de putere sunt identice între variantele de antrenare. Familiile VARIABLE XP și V-Drive T folosesc antrenare cu turație variabilă, pentru reglarea debitului după consumul real din instalație, în timp ce G-Drive T este o variantă cu angrenaje, cu comprimare în două trepte, pentru puteri de 90–315 kW. LENTO (15–110 kW, cu turație variabilă) și SIMPLEXX (132–275 kW) completează gama cu compresoare cu șurub fără ulei, pentru aplicații care cer aer 100% fără ulei.
 
@@ -566,7 +566,7 @@ Pentru România, compresoarele ALMiG au sens în industria auto, alimentară și
     ],
     faq: [
       { q: "Ce produce ALMiG?", a: "ALMiG produce compresoare de aer cu șurub pentru industrie, în mai multe familii — F-Drive, COMBI XP, GEAR XP, VARIABLE XP — alături de compresoare cu piston, turbocompresoare și compresoare scroll. Compania are sediul la Köngen, în Germania." },
-      { q: "Ce înseamnă standardizarea componentelor la ALMiG?", a: "ALMiG declară pe site-ul oficial că aproximativ 80–90% din componentele unui compresor dintr-o clasă de putere sunt identice între variante." },
+      { q: "Ce înseamnă standardizarea componentelor la ALMiG?", a: "ALMiG declară în materialele proprii că aproximativ 80–90% din componentele unui compresor dintr-o clasă de putere sunt identice între variante." },
       { q: "Ce avantaj au compresoarele ALMiG cu turație variabilă?", a: "Compresoarele din familiile VARIABLE XP și V-Drive T ajustează debitul de aer produs în funcție de consumul real din instalație, în loc să funcționeze constant la capacitate maximă. Avantajul apare mai ales acolo unde consumul de aer variază pe parcursul zilei, reducând funcționarea în gol." },
       { q: "Livrați compresoare ALMiG în România?", a: "Da, aducem compresoarele ALMiG la comandă prin canale de aprovizionare din Germania, cu un termen orientativ de 1–4 săptămâni, în funcție de puterea și configurația cerută. Configurațiile cu opțiuni speciale de reglaj pot avea un termen mai lung." },
     ],
@@ -607,7 +607,7 @@ Pentru România, uscătoarele Friulair au sens în industria alimentară și aut
       "Prelucrarea metalului — aer comprimat uscat pentru scule și vopsire",
       "Instalații generale industriale — tratarea aerului pentru echipamente sensibile",
     ],
-    infinitrade: `Pentru Friulair pornim de la informațiile publice disponibile pe site-ul producătorului italian, fără date proprii despre stocul fiecărei serii de uscătoare. Aducem uscătoarele și accesoriile la comandă prin canale de aprovizionare din Italia, cu un termen orientativ de 1–4 săptămâni, mai lung pentru debite mari sau configurații speciale. Pentru o ofertă corectă, spuneți-ne debitul de aer al compresorului deservit, punctul de rouă cerut și dacă instalația are consum constant sau fluctuant. Nu putem confirma o unitate cu disponibilitate din depozit pentru fiecare debit din gamă.`,
+    infinitrade: `Pentru Friulair pornim de la documentația tehnică a producătorului, fără date proprii despre stocul fiecărei serii de uscătoare. Aducem uscătoarele și accesoriile la comandă prin canale de aprovizionare din Italia, cu un termen orientativ de 1–4 săptămâni, mai lung pentru debite mari sau configurații speciale. Pentru o ofertă corectă, spuneți-ne debitul de aer al compresorului deservit, punctul de rouă cerut și dacă instalația are consum constant sau fluctuant. Nu putem confirma o unitate cu disponibilitate din depozit pentru fiecare debit din gamă.`,
     limitation: "Nu putem confirma consumul energetic specific (kWh/m³) pentru fiecare model fără fișa tehnică punctuală de la producător.",
     productCodes: [
       { code: "FMD", description: "Uscător frigorific, debit 21–1.320 m³/h" },
@@ -650,7 +650,7 @@ Pentru România, gama Pneumatech are sens în farmaceutică și industria auto, 
       "Gamă combinată de tratare a aerului și generare de gaze — azot, oxigen — nu doar uscătoare individuale",
       "Generatoare de azot pe mai multe tehnologii — PSA, membrană, înaltă presiune — pentru aplicații diferite",
       "Echipamente de măsurare integrate — senzori de debit, detectoare de scurgeri, analizoare de gaze",
-      "Parte din grupul Atlas Copco, potrivit site-ului producătorului",
+      "Parte din grupul Atlas Copco, potrivit documentației producătorului",
     ],
     keyProducts: [
       { name: "Uscătoare de aer comprimat (refrigerare, adsorbție, membrană)", description: "Gama de uscătoare acoperă trei tehnologii — refrigerare, pentru puncte de rouă moderate, adsorbție, pentru puncte de rouă foarte coborâte, și membrană, pentru debite mici și instalații compacte. Alegerea depinde de punctul de rouă cerut de aplicație. Pentru ofertă, spuneți-ne debitul de aer, punctul de rouă necesar și tehnologia compresorului deservit." },

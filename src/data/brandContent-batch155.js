@@ -94,7 +94,7 @@ Pentru piața locală, sistemele Easy-Laser au sens la revizii planificate de po
       "Petrol și gaze — aliniere în zone cu risc de explozie (XT550 Shaft EX)",
       "Industria cherestelei — geometrie de linie la instalațiile de debitare (XT980)"
     ],
-    infinitrade: `Putem oferta sisteme Easy-Laser de aliniere arbori și măsurare geometrică prin canale de aprovizionare din Suedia, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația aleasă. Lucrăm din informațiile publice disponibile pe site-ul producătorului pentru a confirma seria potrivită sarcinii dumneavoastră — tip de utilaj, distanța dintre lagăre, acces la arbore. Nu ținem echipamente laser de aliniere pe raft propriu; fiecare configurație de senzori și suport se comandă punctual. Pentru o ofertă, trimiteți-ne tipul utilajului de aliniat, distanța aproximativă între puncte de măsură și dacă lucrați în zonă cu risc de explozie.`,
+    infinitrade: `Putem oferta sisteme Easy-Laser de aliniere arbori și măsurare geometrică prin canale de aprovizionare din Suedia, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația aleasă. Lucrăm din documentația tehnică a producătorului pentru a confirma seria potrivită sarcinii dumneavoastră — tip de utilaj, distanța dintre lagăre, acces la arbore. Nu ținem echipamente laser de aliniere pe raft propriu; fiecare configurație de senzori și suport se comandă punctual. Pentru o ofertă, trimiteți-ne tipul utilajului de aliniat, distanța aproximativă între puncte de măsură și dacă lucrați în zonă cu risc de explozie.`,
     limitation: "Nu putem confirma instruirea operatorilor sau calibrarea proprie a senzorilor laser, care rămân în sarcina producătorului sau a unui laborator acreditat.",
     productCodes: [
       { code: "XT770 Shaft+GEO", description: "Sistem de aliniere arbori cu măsurare geometrică integrată, montaje complexe" },
@@ -154,7 +154,7 @@ Pentru piața din România, gama Fluke Networks are sens la integratorii de reț
       "Operatori telecom — localizare defecte pe linii de cupru cu reflectometrie TDR"
     ],
     infinitrade: `Furnizăm aparate Fluke Networks pentru certificare și testare de cablare prin canale externe de aprovizionare, la comandă, cu termen orientativ de 1–4 săptămâni în funcție de configurația de module aleasă. Nu avem raft propriu pentru fiecare model din gamă; verificăm din surse publice ale producătorului ce modul sau kit corespunde categoriei de cablare pe care o certificați. Pentru o ofertă, spuneți-ne ce standard de cablare certificați, câte porturi sau fire aveți de testat și dacă porniți de la o platformă Versiv existentă sau adăugați module noi.`,
-    limitation: "Nu oferim instruire de certificare pentru operatori și nu confirmăm compatibilitatea retroactivă cu module Versiv mai vechi decât cele listate curent pe site-ul producătorului.",
+    limitation: "Nu oferim instruire de certificare pentru operatori și nu confirmăm compatibilitatea retroactivă cu module Versiv mai vechi decât cele listate curent din documentația producătorului.",
     productCodes: [
       { code: "DSX-602 CableAnalyzer", description: "Certificator autonom de cablu cupru, categoriile 3–6A" },
       { code: "DSX CableAnalyzer", description: "Familie de certificatoare cablu cupru cu module interschimbabile" },
@@ -312,7 +312,7 @@ Pentru piața din România, gama Comark are sens la unitățile de procesare ali
     ],
     evidenceClass: "market-signal-ro",
     lastVerified: "2026-10-08",
-    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat orașul Norwich, neconfirmat pe site-ul oficial.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: am eliminat orașul Norwich, neconfirmat din documentația producătorului.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-26", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
       { title: "Comark Instruments – About Us", url: "https://www.comarkinstruments.net/about-us/", publisher: "Comark Instruments", accessed: "2026-09-26" },
       { title: "Comark – US Product Range Catalog", url: "https://www.comarkinstruments.net/assets/uploads/2017/04/20534-1-US-Product-Range-Catalog-web.pdf", publisher: "Comark Instruments", accessed: "2026-09-26" }

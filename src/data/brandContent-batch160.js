@@ -14,7 +14,7 @@ Pentru piața din România, gama Associated Research are sens la producătorii �
       "Aparate multifuncție — OMNIA II combină hipot, rezistență de izolație, ground bond și functional run într-un singur șasiu",
       "Multiplexor SC6540 — extinde testarea la 16 canale independente, util pe linii de producție cu volum mare",
       "Activ din 1936, cu aproape nouă decenii de experiență în testarea siguranței electrice, conform producătorului",
-      "Software WithStand® pentru înregistrarea, urmărirea și stocarea datelor de test, conform site-ului producătorului"
+      "Software WithStand® pentru înregistrarea, urmărirea și stocarea datelor de test, conform documentației producătorului"
     ],
     keyProducts: [
       { name: "Seria Hypot", description: "Testere AC/DC hipot de bază, până la 5 kVAC/20 mA sau 6 kVDC/7,5 mA, cu opțiune de rezistență de izolație integrată. Potrivite pentru verificarea rutină a rigidității dielectrice pe linii de asamblare unde nu e nevoie de tensiuni foarte mari." },
@@ -98,7 +98,7 @@ Pentru piața din România, gama Doble are sens la utilitățile de energie, ope
       "Producători de transformatoare — testare finală înainte de livrare",
       "Laboratoare de diagnostic electric — analize de gaze dizolvate și descărcări parțiale"
     ],
-    infinitrade: `Aducem echipamente Doble pentru operatorii de rețea și laboratoarele de diagnostic din România care fac mentenanță predictivă pe transformatoare, întrerupătoare și cabluri de înaltă tensiune. Gama nu se află pe stocul nostru; o aducem la comandă din surse europene, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Informațiile despre serii și parametri provin direct de pe site-ul producătorului — nu deținem date proprii despre termenele reale de fabricație sau despre stocul central Doble. Pentru o ofertă avem nevoie de tipul de test dorit (DGA, tan delta, izolație, micro-ohm), tensiunea nominală a echipamentului testat și, dacă e cazul, modelul exact identificat pe placa producătorului.`,
+    infinitrade: `Aducem echipamente Doble pentru operatorii de rețea și laboratoarele de diagnostic din România care fac mentenanță predictivă pe transformatoare, întrerupătoare și cabluri de înaltă tensiune. Gama nu se află pe stocul nostru; o aducem la comandă din surse europene, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de model. Informațiile despre serii și parametri provin din documentația producătorului — nu deținem date proprii despre termenele reale de fabricație sau despre stocul central Doble. Pentru o ofertă avem nevoie de tipul de test dorit (DGA, tan delta, izolație, micro-ohm), tensiunea nominală a echipamentului testat și, dacă e cazul, modelul exact identificat pe placa producătorului.`,
     limitation: "Nu oferim servicii de calibrare sau etalonare proprii pentru aceste instrumente; certificatele de etalonare rămân la cerere, de la producător sau un laborator acreditat.",
     productCodes: [
       { code: "Calisto R9", description: "monitor de gaze dizolvate (DGA)" },
@@ -147,7 +147,7 @@ Pentru piața din România, gama Hikmicro are sens la echipele de mentenanță e
     whyChoose: [
       "Gamă largă de camere termice portabile, de la seria Mini, compactă, de atașat la telefon, până la seria SP de rezoluție ridicată",
       "Camera acustică AI56 pentru localizarea scăpărilor de gaz și a descărcărilor parțiale fără contact",
-      "Certificări de sistem de management QMS, EMS și OHSMS, declarate pe site-ul producătorului",
+      "Certificări de sistem de management QMS, EMS și OHSMS, declarate în documentația producătorului",
       "Investiție declarată de peste 15% din venituri în cercetare și dezvoltare",
       "Aplicații software dedicate (HIKMICRO Viewer pentru telefon, HIKMICRO Analyzer pentru PC) pentru raportare rapidă din teren"
     ],
@@ -164,7 +164,7 @@ Pentru piața din România, gama Hikmicro are sens la echipele de mentenanță e
       "HVAC — verificare izolații și scurgeri termice",
       "Utilități — monitorizare echipamente de rețea electrică"
     ],
-    infinitrade: `Putem aduce camere Hikmicro pentru echipele de mentenanță electrică și industrială din România care vor un instrument de termoviziune pentru inspecții de rutină. Nu avem raft propriu pe această gamă; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Datele de mai sus vin din informațiile publice disponibile pe site-ul producătorului — nu avem cifre proprii despre volumele de vânzări sau despre stocul central Hikmicro. Pentru o ofertă corectă avem nevoie de aplicația dorită (electric, mecanic, construcții), rezoluția termică minimă necesară și dacă e nevoie de funcția de imagistică acustică.`,
+    infinitrade: `Putem aduce camere Hikmicro pentru echipele de mentenanță electrică și industrială din România care vor un instrument de termoviziune pentru inspecții de rutină. Nu avem raft propriu pe această gamă; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Datele de mai sus vin din informațiile din documentația tehnică a producătorului — nu avem cifre proprii despre volumele de vânzări sau despre stocul central Hikmicro. Pentru o ofertă corectă avem nevoie de aplicația dorită (electric, mecanic, construcții), rezoluția termică minimă necesară și dacă e nevoie de funcția de imagistică acustică.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui model specific și nu oferim etalonare proprie a senzorilor termici.",
     productCodes: [
       { code: "Mini2", description: "cameră termică de buzunar, model de bază" },
@@ -210,7 +210,7 @@ Pentru piața din România, gama AMETEK Programmable Power are sens la laboratoa
       "Patru mărci integrate (Sorensen, Elgar, California Instruments, VTI Instruments), fiecare specializată pe o nișă de testare",
       "Seria Asterion combină surse AC și DC de înaltă performanță într-o singură platformă, de la 800 VA la 480 kVA",
       "Sisteme CTS de compliance la cheie pentru teste de imunitate electromagnetică",
-      "Divizie a grupului AMETEK, cu asistență tehnică, servicii de etalonare și centre de service, conform site-ului producătorului"
+      "Divizie a grupului AMETEK, cu asistență tehnică, servicii de etalonare și centre de service, conform documentației producătorului"
     ],
     keyProducts: [
       { name: "Seria Asterion AC/DC", description: "Surse programabile de înaltă performanță, de la 800 VA până la 480 kVA pentru varianta AC, cu variante DC pentru bancă, modular și rack. Folosite pentru simularea rețelei electrice sau alimentarea de precizie a echipamentelor testate." },
@@ -225,7 +225,7 @@ Pentru piața din România, gama AMETEK Programmable Power are sens la laboratoa
       "Cercetare-dezvoltare și testare de compatibilitate electromagnetică (EMC) — surse programabile de laborator",
       "Semiconductori — teste funcționale cu surse programabile de precizie"
     ],
-    infinitrade: `Aducem echipamente AMETEK Programmable Power pentru laboratoarele din România care testează surse de alimentare, echipamente electronice sau baterii. Gama nu se află pe stocul propriu; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru modelele standard; sistemele complexe sau configurate la comandă, peste 4 săptămâni. Ce putem și ce nu putem confirma ține strict de informațiile publicate pe site-ul producătorului — nu avem acces la stocul central al fabricii din San Diego. Pentru o ofertă avem nevoie de tipul de sursă (AC, DC, sarcină electronică), puterea și tensiunea necesară și, dacă e cazul, standardul de compliance vizat.`,
+    infinitrade: `Aducem echipamente AMETEK Programmable Power pentru laboratoarele din România care testează surse de alimentare, echipamente electronice sau baterii. Gama nu se află pe stocul propriu; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru modelele standard; sistemele complexe sau configurate la comandă, peste 4 săptămâni. Ce putem și ce nu putem confirma ține strict de informațiile din documentația producătorului — nu avem acces la stocul central al fabricii din San Diego. Pentru o ofertă avem nevoie de tipul de sursă (AC, DC, sarcină electronică), puterea și tensiunea necesară și, dacă e cazul, standardul de compliance vizat.`,
     limitation: "Nu putem confirma termenele exacte de producție pentru sistemele configurate la comandă și nu oferim etalonare proprie a echipamentelor.",
     productCodes: [
       { code: "Asterion AC", description: "sursă AC programabilă, 800 VA - 480 kVA" },
@@ -366,7 +366,7 @@ Pentru piața din România, gama Haefely are sens la producătorii de transforma
       "Operatori de rețea — diagnostic transformatoare și cabluri în exploatare",
       "Institute de cercetare — teste de impuls pentru studiul supratensiunilor"
     ],
-    infinitrade: `Aducem echipamente Haefely pentru laboratoarele de testare la înaltă tensiune și EMC din România, precum și pentru producătorii de transformatoare și cabluri care au nevoie de teste dielectrice de certificare. Gama nu e pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru instrumentele standard; generatoarele de impuls și sistemele complexe de testare la înaltă tensiune, peste 4 săptămâni. Informația publică disponibilă pe site-ul producătorului stă la baza celor de mai sus — nu avem date proprii despre stocul central Haefely sau termenele reale de fabricație pentru sisteme complexe. Pentru o ofertă avem nevoie de tipul de test (impuls, DC, AC, EMC), tensiunea maximă necesară și standardul de referință al testului.`,
+    infinitrade: `Aducem echipamente Haefely pentru laboratoarele de testare la înaltă tensiune și EMC din România, precum și pentru producătorii de transformatoare și cabluri care au nevoie de teste dielectrice de certificare. Gama nu e pe stoc; o aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă pentru instrumentele standard; generatoarele de impuls și sistemele complexe de testare la înaltă tensiune, peste 4 săptămâni. Informația publică disponibilă în documentația producătorului stă la baza celor de mai sus — nu avem date proprii despre stocul central Haefely sau termenele reale de fabricație pentru sisteme complexe. Pentru o ofertă avem nevoie de tipul de test (impuls, DC, AC, EMC), tensiunea maximă necesară și standardul de referință al testului.`,
     limitation: "Nu oferim etalonare proprie a instrumentelor; certificatele de etalonare rămân la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "SGVA", description: "generator impuls tensiune, 400-10.000 kV" },

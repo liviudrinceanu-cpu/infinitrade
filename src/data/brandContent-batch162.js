@@ -96,7 +96,7 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
       "Mentenanță industrială — inspecție termică a tablourilor și echipamentelor",
       "Laboratoare PRAM — teste de izolație, continuitate și RCD",
     ],
-    infinitrade: `Furnizăm aparatele Sonel de testare a instalațiilor electrice și de termoviziune plecând strict din informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pentru această gamă. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea din partea fabricii poloneze. Pentru o ofertă corectă, un laborator PRAM sau un electrician trebuie să ne spună ce teste dorește să acopere cu aparatul (izolație, RCD, buclă, termoviziune) și dacă are nevoie de accesorii specifice, precum sonde sau clești. Nu promitem disponibilitate din depozit pentru niciun model din gamă, întrucât configurațiile variază de la un client la altul.`,
+    infinitrade: `Furnizăm aparatele Sonel de testare a instalațiilor electrice și de termoviziune plecând strict din informațiile din documentația tehnică a producătorului, fără date proprii de stoc pentru această gamă. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea din partea fabricii poloneze. Pentru o ofertă corectă, un laborator PRAM sau un electrician trebuie să ne spună ce teste dorește să acopere cu aparatul (izolație, RCD, buclă, termoviziune) și dacă are nevoie de accesorii specifice, precum sonde sau clești. Nu promitem disponibilitate din depozit pentru niciun model din gamă, întrucât configurațiile variază de la un client la altul.`,
     limitation: "Nu putem confirma stocul unei anumite variante de accesorii sau software de raportare înainte de verificarea cu distribuția europeană a producătorului.",
     productCodes: [
       { code: "MPI-540", description: "Multifuncțional instalații electrice: izolație, RCD, buclă" },
@@ -105,7 +105,7 @@ Pentru instalatorii și laboratoarele PRAM din România, Sonel are sens acolo un
       { code: "CMM-60", description: "Multimetru industrial; detaliile se confirmă pe cod" },
       { code: "KT-510", description: "Cameră de termoviziune industrială" },
       { code: "KT-525", description: "Cameră de termoviziune, gamă medie" },
-      { code: "KT-650", description: "Cameră de termoviziune 640×480 px, NETD 40 mK; pagina producătorului o marchează ca model retras, disponibilitatea se confirmă" },
+      { code: "KT-650", description: "Cameră de termoviziune 640×480 px, NETD 40 mK; documentația producătorului îl marchează ca model retras, disponibilitatea se confirmă" },
       { code: "MIC-15K1", description: "Analizor de calitate a izolației" },
       { code: "EVSE-100", description: "Analizor multifuncțional pentru stații de încărcare EV" },
       { code: "PQM-750", description: "Analizor de calitate a energiei electrice" },
@@ -146,7 +146,7 @@ Pentru piața din România, gama Raytech are sens la laboratoarele de încercăr
       "Detecție automată a grupei de conexiuni — TR-MARK III elimină verificarea manuală a vectorului de fază",
       "Sisteme multifuncționale ATOS — combină mai multe teste într-un singur aparat, cu multiplexare automată",
       "Extensie de măsurare trifazată T-REX — completează aparatele monofazate de raport pentru teste complete pe cele trei faze",
-      "Garanție standard de 2 ani, conform site-ului producătorului"
+      "Garanție standard de 2 ani, conform documentației producătorului"
     ],
     keyProducts: [
       { name: "Seria WR — Măsurare Rezistență Înfășurare", description: "Aparate portabile pentru măsurarea rezistenței înfășurărilor de transformator, cu variante de la 15 A (WR14) până la 100 A (WR100-13R), pe 2 sau 3 canale simultan, alimentate cu baterie sau de la rețea, pentru teste rapide de recepție sau revizie." },
@@ -225,7 +225,7 @@ Pentru piața din România, gama Dostmann are sens la laboratoarele de control a
       "Laboratoare de metrologie — termometre de referință și calibrare",
       "Logistică frigorifică — dataloggere pentru transport și depozitare",
     ],
-    infinitrade: `Furnizăm gama Dostmann de termometre de precizie, dataloggere și calibratoare pornind de la informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul curent al fiecărui model. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea din partea fabricii germane. Pentru o ofertă corectă, clientul trebuie să ne trimită domeniul de temperatură necesar, tipul de senzor dorit (contact, infraroșu sau termocuplu) și dacă are nevoie de certificat de calibrare la livrare. Certificatele de etalonare, atunci când sunt cerute, se obțin la cerere direct de la producător sau de la laboratorul acreditat al acestuia, nu emise de noi.`,
+    infinitrade: `Furnizăm gama Dostmann de termometre de precizie, dataloggere și calibratoare pornind de la informațiile din documentația tehnică a producătorului, fără date proprii despre stocul curent al fiecărui model. Aducem echipamentele la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și de confirmarea din partea fabricii germane. Pentru o ofertă corectă, clientul trebuie să ne trimită domeniul de temperatură necesar, tipul de senzor dorit (contact, infraroșu sau termocuplu) și dacă are nevoie de certificat de calibrare la livrare. Certificatele de etalonare, atunci când sunt cerute, se obțin de la un laborator acreditat, nu sunt emise de noi.`,
     limitation: "Nu putem confirma direct programul de livrare pentru certificate de calibrare acreditate DAkkS emise de laboratorul propriu al producătorului, acesta stabilindu-se separat, la cerere.",
     productCodes: [
       { code: "P795", description: "Termometru de precizie, 2× Pt100, ±0,015 °C" },

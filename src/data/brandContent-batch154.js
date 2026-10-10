@@ -30,7 +30,7 @@ Are sens pentru integratori de cablare structurată, echipe de mentenanță IT �
       "Rețele industriale — testarea legăturilor Ethernet industrial în medii de producție",
       "Telecomunicații — calificarea legăturilor de acces și distribuție în proiecte de rețea",
     ],
-    infinitrade: `Putem oferta gama Trend Networks de certificatoare și testere de cablu prin canale de aprovizionare din UE, pe baza informațiilor publice ale producătorului despre familiile de produse curente — fără date proprii de stoc pentru aceste aparate. Pentru o ofertă, aveți nevoie de modelul exact (de exemplu LanTEK IV sau SignalTEK QT) și configurația dorită (accesorii, adaptoare de test, licențe software). Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de disponibilitatea confirmată de producător; nu promitem disponibilitate din depozit pentru această gamă.`,
+    infinitrade: `Putem oferta gama Trend Networks de certificatoare și testere de cablu prin canale de aprovizionare din UE, pe baza documentației tehnice a producătorului despre familiile de produse curente — fără date proprii de stoc pentru aceste aparate. Pentru o ofertă, aveți nevoie de modelul exact (de exemplu LanTEK IV sau SignalTEK QT) și configurația dorită (accesorii, adaptoare de test, licențe software). Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de disponibilitatea confirmată de producător; nu promitem disponibilitate din depozit pentru această gamă.`,
     limitation: "Nu putem confirma intervențiile de service în garanție pentru aparatele Trend Networks, care rămân în sarcina producătorului.",
     productCodes: [
       { code: "LanTEK IV", description: "Certificator de cablu cupru/fibră, până la categoria 8" },
@@ -96,7 +96,7 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
       "Protecția mediului — instrumente pentru calitatea aerului și a apei",
     ],
     certifications: [ "ISO 9001:2015 — certificare a procesului de fabricație declarată de producător" ],
-    infinitrade: `Furnizăm instrumente Extech din categoriile electrice, de temperatură/umiditate și de calitate a aerului, pe baza informațiilor publice ale producătorului despre gama curentă — fără date proprii de stoc pentru aceste modele. Pentru o ofertă corectă, avem nevoie de codul exact al modelului (de exemplu MA63 sau RHT20) și cantitatea dorită. Aducem aparatele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, și nu promitem disponibilitate permanentă pentru fiecare model din catalog.`,
+    infinitrade: `Furnizăm instrumente Extech din categoriile electrice, de temperatură/umiditate și de calitate a aerului, pe baza documentației tehnice a producătorului despre gama curentă — fără date proprii de stoc pentru aceste modele. Pentru o ofertă corectă, avem nevoie de codul exact al modelului (de exemplu MA63 sau RHT20) și cantitatea dorită. Aducem aparatele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, și nu promitem disponibilitate permanentă pentru fiecare model din catalog.`,
     limitation: "Nu putem confirma accesoriile specifice fiecărui model (sonde, adaptoare) dincolo de ce apare explicit în descrierea publicată de producător.",
     productCodes: [
       { code: "MA120", description: "Clește ampermetric mini AC/DC 200A cu detector tensiune" },
@@ -123,7 +123,7 @@ Are sens pentru service-uri electrice, echipe HVAC și laboratoare de teren din 
       { q: "Cum aleg un clește ampermetric Extech după cod?", a: "Verificați domeniul de curent necesar — de exemplu MA63 acoperă până la 60A, iar PQ2071 sau 380976-K acoperă până la 1000A pe instalații trifazate — și dacă aveți nevoie de detector de tensiune fără contact." },
       { q: "Livrați instrumente Extech în România și cât durează?", a: "Aducem aparatele Extech la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului pentru modelul cerut." },
       { q: "Ce trebuie să trimit pentru o ofertă de instrumente Extech?", a: "Codul exact al modelului, de exemplu RHT20 sau DM220, cantitatea dorită și, dacă e cazul, accesoriile suplimentare necesare; pe baza acestor informații pregătim o ofertă corectă pentru modelul Extech ales." },
-      { q: "Ce certificare are fabricația Extech?", a: "Producătorul declară certificare ISO 9001:2015 pentru procesul de fabricație; nu avem date proprii suplimentare despre linia de producție dincolo de informația publicată pe site-ul Extech." },
+      { q: "Ce certificare are fabricația Extech?", a: "Producătorul declară certificare ISO 9001:2015 pentru procesul de fabricație; nu avem date proprii suplimentare despre linia de producție dincolo de documentația Extech." },
     ],
     evidenceClass: "market-signal-ro",
     tier: 3,
@@ -166,7 +166,7 @@ Are sens pentru laboratoare de metrologie, distribuitori de energie electrică �
       "Institute naționale de metrologie — verificare la cel mai înalt nivel de acuratețe",
     ],
     certifications: [  ],
-    infinitrade: `Putem oferta standardele de referință și bancurile de testare Radian Research pe baza informațiilor publice de pe site-ul producătorului — fără date proprii de stoc pentru aceste echipamente specializate. Pentru o ofertă, aveți nevoie de modelul exact (de exemplu RX-30 sau WECO 4150X) și de aplicația de testare vizată: monofazat, trifazat sau bancuri de volum. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni; pentru sisteme complexe, termenul poate depinde de configurația cerută de laborator.`,
+    infinitrade: `Putem oferta standardele de referință și bancurile de testare Radian Research pe baza documentației tehnice a producătorului — fără date proprii de stoc pentru aceste echipamente specializate. Pentru o ofertă, aveți nevoie de modelul exact (de exemplu RX-30 sau WECO 4150X) și de aplicația de testare vizată: monofazat, trifazat sau bancuri de volum. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni; pentru sisteme complexe, termenul poate depinde de configurația cerută de laborator.`,
     limitation: "Nu oferim servicii proprii de etalonare pentru aceste standarde; certificatele de etalonare rămân disponibile la cerere de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "WECO 4050X", description: "Banc automat de testare contoare de energie" },
@@ -236,7 +236,7 @@ Are sens pentru laboratoare de cercetare, echipe de mentenanță industrială ș
     ],
     certifications: [ "DAkkS — laborator de calibrare acreditat conform ISO/IEC 17025 pentru temperatură, presiune, umiditate și mărimi electrice" ],
     infinitrade: `Furnizăm instrumentele de măsură și dataloggerele ALMEMO din gama Ahlborn pe baza informațiilor publicate de producător — nu avem date proprii de stoc pentru aceste aparate. Pentru o ofertă, aveți nevoie de modelul de bază dorit (de exemplu ALMEMO 710 sau seria 2690) și de tipurile de conectori sau senzori necesare pentru aplicația dumneavoastră. Aducem aparatele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni la comandă.`,
-    limitation: "Nu putem confirma disponibilitatea fiecărui tip de conector sau senzor din portofoliul ALMEMO dincolo de ce apare pe site-ul producătorului la momentul ofertării.",
+    limitation: "Nu putem confirma disponibilitatea fiecărui tip de conector sau senzor din portofoliul ALMEMO dincolo de ce apare în documentația producătorului la momentul ofertării.",
     productCodes: [
       { code: "ALMEMO 510 TG8", description: "Instrument central cu până la 100 de intrări" },
       { code: "ALMEMO 2450", description: "Instrument de măsură compact, 1 canal" },
@@ -303,7 +303,7 @@ Are sens pentru laboratoare de înaltă tensiune, producători de echipamente el
       "Laboratoare de înaltă tensiune — teste de tip și de rutină conform standardelor din domeniu",
       "Mentenanță de rețea — localizarea defectelor pe cabluri de medie tensiune",
     ],
-    infinitrade: `Putem oferta sistemele de testare de înaltă tensiune Hipotronics pe baza informațiilor publice ale producătorului — fără date proprii de stoc pentru aceste echipamente specializate. Pentru o ofertă, avem nevoie de tensiunea și curentul de test cerute (de exemplu 60–300 kV DC pentru seria 8000 sau 100 kV pentru testerul portabil 100HVT-DI) și de aplicația vizată. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de configurația cerută.`,
+    infinitrade: `Putem oferta sistemele de testare de înaltă tensiune Hipotronics pe baza documentației tehnice a producătorului — fără date proprii de stoc pentru aceste echipamente specializate. Pentru o ofertă, avem nevoie de tensiunea și curentul de test cerute (de exemplu 60–300 kV DC pentru seria 8000 sau 100 kV pentru testerul portabil 100HVT-DI) și de aplicația vizată. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de configurația cerută.`,
     limitation: "Nu oferim noi servicii de etalonare pentru aceste sisteme; certificatele de etalonare rămân disponibile la cerere de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "8060PL", description: "Modul cascadabil DC, 60 kV/16 mA" },
@@ -429,7 +429,7 @@ Are sens pentru oțelării, turnătorii de aluminiu, fabrici de sticlă și cent
       "Operațiuni petrochimice — măsurare termică fără contact în medii dure",
     ],
     certifications: [ "ISO 17025 — laboratoare de calibrare acreditate" ],
-    infinitrade: `Furnizăm pirometrele, camerele termice și analizoarele de emisii Land Instruments pe baza informațiilor publice ale producătorului — fără date proprii de stoc pentru aceste echipamente. Pentru o ofertă, avem nevoie de aplicația exactă (materialul măsurat, domeniul de temperatură, distanța de la senzor la țintă) pentru a identifica modelul SPOT+ sau camera termică potrivită. Livrarea se face la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni.`,
+    infinitrade: `Furnizăm pirometrele, camerele termice și analizoarele de emisii Land Instruments pe baza documentației tehnice a producătorului — fără date proprii de stoc pentru aceste echipamente. Pentru o ofertă, avem nevoie de aplicația exactă (materialul măsurat, domeniul de temperatură, distanța de la senzor la țintă) pentru a identifica modelul SPOT+ sau camera termică potrivită. Livrarea se face la comandă, prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni.`,
     limitation: "Nu putem confirma integrarea software specifică (SPOTPro, ImagePro) cu sisteme SCADA terțe fără o cerere tehnică punctuală trimisă către producător.",
     productCodes: [
       { code: "SPOT+ AL", description: "Pirometru dedicat producției de aluminiu" },

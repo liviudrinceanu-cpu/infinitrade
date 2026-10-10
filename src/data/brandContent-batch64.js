@@ -30,7 +30,7 @@ Pentru instalațiile din România, Megadyne înseamnă o alternativă tehnică l
       "Prelucrarea lemnului — transmisii cu curele trapezoidale bandate",
       "Robotică — curele dințate de poziționare precisă",
     ],
-    infinitrade: `Pentru Megadyne lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru gama italiană de curele — informațiile despre profiluri și dimensiuni provin din catalogul oficial. Aducem la comandă curele dințate, trapezoidale, plate și multi-canal prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă corectă, trimiteți profilul curelei, dimensiunea sau codul de pe cureaua existentă și, dacă e cazul, distanța între axe. Nu promitem disponibilitate din depozit pentru variantele fabricate la comandă (perforații, dinți falși, lungimi nestandard).`,
+    infinitrade: `Pentru Megadyne lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru gama italiană de curele — informațiile despre profiluri și dimensiuni provin din catalogul oficial. Aducem la comandă curele dințate, trapezoidale, plate și multi-canal prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă corectă, trimiteți profilul curelei, dimensiunea sau codul de pe cureaua existentă și, dacă e cazul, distanța între axe. Nu promitem disponibilitate din depozit pentru variantele fabricate la comandă (perforații, dinți falși, lungimi nestandard).`,
     limitation: "Nu putem confirma disponibilitatea imediată a curelelor fabricate la comandă (perforații, dinți falși, capete sudate) fără specificațiile tehnice complete trimise de client.",
     productCodes: [
       { code: "Rubber Endless Timing Belt", description: "Curea dințată din cauciuc, fără sfârșit, transmisie sincronă" },
@@ -89,7 +89,7 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
       "Aviație — componente ușoare din materiale compozite",
       "Micro-mobilitate — arcuri și componente pentru vehicule electrice ușoare",
     ],
-    infinitrade: `Pentru Mubea nu deținem date proprii despre stocuri — lucrăm cu informațiile publice disponibile pe site-ul producătorului pentru a identifica gama potrivită de arcuri sau componente. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — valabil pentru toată gama Mubea. Pentru arcurile industriale, trimiteți dimensiunile (diametru, înălțime liberă, număr de spire) și sarcina de lucru; pentru componentele auto, codul OE sau modelul vehiculului. Nu promitem disponibilitate din depozit, iar unele componente auto se livrează doar producătorilor originali.`,
+    infinitrade: `Pentru Mubea nu deținem date proprii despre stocuri — lucrăm cu documentația tehnică a producătorului pentru a identifica gama potrivită de arcuri sau componente. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — valabil pentru toată gama Mubea. Pentru arcurile industriale, trimiteți dimensiunile (diametru, înălțime liberă, număr de spire) și sarcina de lucru; pentru componentele auto, codul OE sau modelul vehiculului. Nu promitem disponibilitate din depozit, iar unele componente auto se livrează doar producătorilor originali.`,
     limitation: "Nu putem confirma disponibilitatea componentelor auto Mubea destinate exclusiv producătorilor originali de vehicule, unde livrarea depinde de contracte directe, nu de canalul de aprovizionare pe piesele industriale.",
     productCodes: [
       { code: "Coil Spring Systems", description: "Arcuri elicoidale pentru sisteme de suspensie auto" },
@@ -127,7 +127,7 @@ Pentru clienții din România, gama industrială (arcuri disc, arcuri de compres
   pewag: {
     name: "pewag",
     headquarters: "Austria",
-    overview: `pewag este un producător austriac de lanțuri industriale, cu o gamă care acoperă lanțuri de ridicare de gradele 10, 12 și 12 Plus, lanțuri antiderapante pentru autoturisme, utilaje comerciale, tractoare și excavatoare, echipamente pentru silvicultură, sisteme de transport cu lanț și sprocheți, lanțuri de protecție pentru anvelope în minerit și accesorii de ridicare. Producătorul are site-uri regionale, iar documentația este disponibilă pe site-ul oficial.
+    overview: `pewag este un producător austriac de lanțuri industriale, cu o gamă care acoperă lanțuri de ridicare de gradele 10, 12 și 12 Plus, lanțuri antiderapante pentru autoturisme, utilaje comerciale, tractoare și excavatoare, echipamente pentru silvicultură, sisteme de transport cu lanț și sprocheți, lanțuri de protecție pentru anvelope în minerit și accesorii de ridicare.
 
 pewag se concentrează pe lanțurile de ridicare și tracțiune, cu gama G12 Plus poziționată ca succesor al generației G8 la seturile de chingi cu lanț. Seria include mai multe configurații de seturi de ridicare, fiecare cu propriul cod.
 
@@ -152,7 +152,7 @@ Pentru instalațiile din România, gama pewag e relevantă mai ales pentru ridic
       "Transport — lanțuri antiderapante pentru vehicule comerciale și tractoare",
       
     ],
-    infinitrade: `Pentru pewag folosim doar informația publică disponibilă pe site-ul producătorului, fără date proprii de stoc pentru lanțurile austriece de ridicare sau silvicultură. Aducem la comandă seturi de lanț grad 10, 12 sau 12 Plus, precum și accesorii de ridicare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți sarcina de lucru necesară (WLL), numărul de brațe al setului de ridicare și diametrul lanțului dacă îl cunoașteți. Nu promitem disponibilitate din depozit pentru configurațiile speciale.`,
+    infinitrade: `Pentru pewag folosim doar documentația tehnică a producătorului, fără date proprii de stoc pentru lanțurile austriece de ridicare sau silvicultură. Aducem la comandă seturi de lanț grad 10, 12 sau 12 Plus, precum și accesorii de ridicare, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți sarcina de lucru necesară (WLL), numărul de brațe al setului de ridicare și diametrul lanțului dacă îl cunoașteți. Nu promitem disponibilitate din depozit pentru configurațiile speciale.`,
     limitation: "Nu putem confirma sau recertifica seturi de ridicare pewag deja aflate în exploatare — verificarea periodică obligatorie rămâne responsabilitatea unui organism de inspecție autorizat.",
     productCodes: [
       { code: "AS G12 Plus", description: "Cod din gama G12 Plus; configurația se confirmă din documentația producătorului" },
@@ -342,7 +342,7 @@ Pentru instalațiile din România, gama ZKL e relevantă la mentenanța utilajel
       "Minerit — rulmenți rezistenți la șoc și contaminare",
       "Agricultură — rulmenți pentru utilaje cu mentenanță redusă",
     ],
-    infinitrade: `Pentru ZKL informația disponibilă public pe site-ul producătorului acoperă gamele de rulmenți, dar nu deținem date proprii despre stocul pe fiecare cotă dimensională. Aducem la comandă rulmenți ZKL prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru ofertă, trimiteți codul complet al rulmentului sau, în lipsa lui, diametrul interior, diametrul exterior și lățimea. Nu promitem disponibilitate din depozit pentru toate cotele — unele dimensiuni se confirmă doar la comandă fermă.`,
+    infinitrade: `Pentru ZKL documentația tehnică a producătorului acoperă gamele de rulmenți, dar nu deținem date proprii despre stocul pe fiecare cotă dimensională. Aducem la comandă rulmenți ZKL prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru ofertă, trimiteți codul complet al rulmentului sau, în lipsa lui, diametrul interior, diametrul exterior și lățimea. Nu promitem disponibilitate din depozit pentru toate cotele — unele dimensiuni se confirmă doar la comandă fermă.`,
     limitation: "Nu putem confirma echivalența exactă între un rulment ZKL și un cod dimensional similar de la alt producător fără verificarea toleranțelor și a clasei de precizie din desenul tehnic al aplicației.",
     productCodes: [
       { code: "Rulmenți radiali cu bile, rând simplu", description: "Rulment cu bile, rând simplu, sarcini radiale" },
@@ -661,7 +661,7 @@ Pentru instalațiile din România, gama de cleme de conexiune și canale de cabl
       "Transport feroviar — canale de cablu fără halogen pentru siguranță la incendiu",
       "Automatizări industriale — cleme de conexiune și accesorii pentru panouri de comandă",
     ],
-    infinitrade: `Pentru Klemsan lucrăm cu informația publică disponibilă pe site-ul producătorului, fără date proprii de stoc pentru fiecare serie de cleme sau canale de cablu. Furnizăm produse Klemsan prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți tipul de clemă dorit, secțiunea de cablu și numărul de poli, respectiv dimensiunea canalului de cablu dacă e cazul. Nu promitem disponibilitate din depozit pentru toate variantele din gama electronică sau IoT.`,
+    infinitrade: `Pentru Klemsan lucrăm cu documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare serie de cleme sau canale de cablu. Furnizăm produse Klemsan prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la comandă. Pentru ofertă, trimiteți tipul de clemă dorit, secțiunea de cablu și numărul de poli, respectiv dimensiunea canalului de cablu dacă e cazul. Nu promitem disponibilitate din depozit pentru toate variantele din gama electronică sau IoT.`,
     limitation: "Nu putem configura sau integra platforma IoT KIO într-un sistem SCADA existent fără specificațiile complete de comunicație ale instalației clientului.",
     productCodes: [
       { code: "PRD Series", description: "Cleme de conexiune, seria PRD" },
@@ -709,7 +709,7 @@ Pentru instalațiile din România, gama Relpol e relevantă la mentenanța panou
       "Relee de monitorizare RPN pentru supravegherea tensiunii și a fazelor",
       "Relee statice RSR pentru comutare fără componente mecanice, în aplicații cu cicluri intense",
       "Relee de interfață PI și SIR pentru izolare galvanică între circuite de comandă",
-      "Certificare ISO menționată pe site-ul producătorului",
+      "Certificare ISO menționată de producător",
     ],
     keyProducts: [
       { name: "Relee Electromagnetice Seriile R și RM", description: "Relee electromagnetice din seriile R (R50A și R90A, de putere; R2B, R3B și R4B, bistabile industriale) și RM (RM84, RM85, RM87), pentru panouri de automatizare." },

@@ -270,7 +270,7 @@ export const categoryFaqs = {
     },
     {
       q: 'Cât durează livrarea componentelor mecanice și a pieselor de schimb?',
-      a: 'Pentru rulmenți, curele și garnituri în dimensiunile cele mai cerute - SKF, FAG, Gates - termenul e 24–72 h, direct din stocul Infinitrade. Componentele mai rare, cuplajele speciale sau lanțurile cu dimensiuni neuzuale au termen de 1–4 săptămâni, fiind comandate direct de la producător. Pentru opriri de producție cauzate de o piesă defectă, tratăm cererea ca urgență și verificăm imediat toate variantele compatibile disponibile.',
+      a: 'Pentru rulmenți, curele și garnituri în dimensiunile cele mai cerute - SKF, FAG, Gates - termenul e 24–72 h, direct din stocul Infinitrade. Componentele mai rare, cuplajele speciale sau lanțurile cu dimensiuni neuzuale au termen de 1–4 săptămâni, fiind comandate din fabrică. Pentru opriri de producție cauzate de o piesă defectă, tratăm cererea ca urgență și verificăm imediat toate variantele compatibile disponibile.',
     },
   ],
 

@@ -29,7 +29,7 @@ Pentru instalatori din România, FAR are sens acolo unde proiectul cere colectoa
       "Instalatori și proiectanți HVAC — completarea instalației de la centrală până la radiator",
     ],
     infinitrade: `Pentru gama FAR lucrăm din surse publice ale producătorului și din canalele de distribuție B2B din UE. Nu ținem această gamă pe raft; aducem la comandă valvele, colectoarele și racordurile PRESSFAR pe baza codului de catalog transmis de client, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de disponibilitatea la producător. Pentru o ofertă corectă avem nevoie de codul de catalog FAR (familiile P01-P14 din lista de mai jos), diametrul racordului și, la colectoare, numărul de căi. Nu confirmăm certificări sau parametri tehnici care nu apar explicit în catalogul producătorului.`,
-    limitation: "Nu confirmăm coduri de produs individuale mai fine decât familiile de catalog publicate de FAR, așa că orice comandă necesită verificarea prealabilă a codului exact la producător.",
+    limitation: "Nu confirmăm coduri de produs individuale mai fine decât familiile de catalog publicate de FAR, așa că orice comandă necesită verificarea prealabilă a codului exact.",
     productCodes: [
       { code: "P01 – Centrala termică", description: "componente de racordare pentru centrala termică, cf. catalogului FAR" },
       { code: "P02 – Energie regenerabilă", description: "componente pentru instalații cu energie regenerabilă" },
@@ -87,7 +87,7 @@ Pentru instalatorii din România, Giacomini are sens la proiecte rezidențiale c
       "Distribuție apă și gaz — componente pentru rețele interioare de clădire",
       "Energie regenerabilă — accesorii de conectare pentru pompe de căldură",
     ],
-    infinitrade: `Pentru Giacomini lucrăm din informațiile publice disponibile pe site-ul producătorului și din rețeaua noastră de aprovizionare din UE, fără date proprii de stoc pentru această gamă. Aducem la comandă colectoare, kituri de racordare fan-coil, separatoare de aer și robinetărie de protecție la incendiu, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul exact al produsului (de exemplu R588, R280KC sau A730), diametrul de racordare și, la colectoare, numărul de circuite. Nu putem confirma parametri pe care nu i-am identificat clar în sursele citate.`,
+    infinitrade: `Pentru Giacomini lucrăm din informațiile din documentația tehnică a producătorului și din rețeaua noastră de aprovizionare din UE, fără date proprii de stoc pentru această gamă. Aducem la comandă colectoare, kituri de racordare fan-coil, separatoare de aer și robinetărie de protecție la incendiu, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de codul exact al produsului (de exemplu R588, R280KC sau A730), diametrul de racordare și, la colectoare, numărul de circuite. Nu putem confirma parametri pe care nu i-am identificat clar în sursele citate.`,
     limitation: "Nu confirmăm parametri tehnici (debite, presiuni exacte) pentru codurile Giacomini care nu sunt detaliate în fișele tehnice publice ale producătorului.",
     productCodes: [
       { code: "R595-1", description: "accesoriu pentru colector, conform catalogului producătorului" },
@@ -214,7 +214,7 @@ Pentru instalatori din România, Itap are sens acolo unde proiectul cere volum m
       "Încălzire rezidențială — colectoare de distribuție inox sau alamă nichelată",
       "Sisteme solare termice — accesorii de conectare pentru panouri și boilere",
     ],
-    infinitrade: `Pentru Itap lucrăm din informațiile publice de pe site-ul producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă valve, fitinguri și colectoare prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul exact de piesă (valvă, fiting sau colector), diametrul și materialul țevii cu care se cuplează. Nu putem confirma o certificare specifică pe cod dacă nu apare explicit menționată de producător.`,
+    infinitrade: `Pentru Itap lucrăm din informațiile din documentația producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă valve, fitinguri și colectoare prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul exact de piesă (valvă, fiting sau colector), diametrul și materialul țevii cu care se cuplează. Nu putem confirma o certificare specifică pe cod dacă nu apare explicit menționată de producător.`,
     limitation: "Nu confirmăm coduri numerice individuale de catalog Itap, pentru că paginile publice consultate prezintă familiile de produse fără codurile exacte de model.",
     productCodes: [
       { code: "Valve cu clapă", description: "familie de valve de reținere pentru instalații sanitare și de încălzire" },
@@ -274,7 +274,7 @@ Pentru instalatori din România, RBM are sens la lucrări de mentenanță și pu
       "Clădiri rezidențiale multietajate — echilibrare hidraulică pe circuite multiple",
       "Instalatori și service tehnic — accesorii de întreținere pentru cazane și pompe",
     ],
-    infinitrade: `Pentru RBM lucrăm din informațiile publice de pe site-ul producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă filtre defangatoare, unități de amestec și separatoare hidraulice prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de numărul de serie RBM (de exemplu 3195 sau 3070.A), diametrul de racordare și, la unitățile de amestec, debitul necesar pe circuitul secundar. Fiecare cod se confirmă înainte de comandă direct cu sursa noastră de aprovizionare.`,
+    infinitrade: `Pentru RBM lucrăm din informațiile din documentația producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă filtre defangatoare, unități de amestec și separatoare hidraulice prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de numărul de serie RBM (de exemplu 3195 sau 3070.A), diametrul de racordare și, la unitățile de amestec, debitul necesar pe circuitul secundar. Fiecare cod se confirmă înainte de comandă direct cu sursa noastră de aprovizionare.`,
     limitation: "Nu confirmăm sediul central sau anul fondării RBM, pentru că paginile publice consultate nu le menționează explicit.",
     productCodes: [
       { code: "MG1 – Series 3070.A", description: "filtru defangator magnetic sub-cazan" },
@@ -324,7 +324,7 @@ Saint-Gobain PAM integrează conductele și robinetăria sub aceeași marcă —
 Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiecte de extindere sau reabilitare a rețelelor de apă potabilă și canalizare, unde compatibilitatea între conducte și robinetărie contează pentru durata de viață a întregii rețele.`,
     whyChoose: [
       "Gamă integrată de conducte și robinetărie din fontă ductilă, gândite să funcționeze împreună în rețea",
-      "Marca NF (AFNOR Certification) pe o parte din produse, conform site-ului producătorului",
+      "Marca NF (AFNOR Certification) pe o parte din produse, conform documentației producătorului",
       "Soluții de acces stradal — capace de cămin și grătare (PAMREX, KORUM, URBAMAX, GATIC, SELECTA)",
       "Peste 1.500 de referințe în catalog, cu game separate pentru apă potabilă, canalizare și soluri agresive",
     ],
@@ -342,7 +342,7 @@ Pentru operatorii de apă și antreprenorii din România, PAM are sens la proiec
       "Rețele de apă — conducte și vane din fontă ductilă pentru transportul apei",
     ],
     infinitrade: `Pentru Saint-Gobain PAM lucrăm din informațiile publice ale producătorului; nu avem date proprii de stoc pentru această gamă. Aducem la comandă robinete fluture, vane cu opercul și conducte din fontă ductilă prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul de produs, diametrul nominal (DN) și clasa de presiune (PN) necesare pentru proiect. O certificare apare în ofertă doar dacă figurează explicit în documentația publică a producătorului pentru codul respectiv.`,
-    limitation: "Nu confirmăm anul exact de fondare al Saint-Gobain PAM, pentru că pagina consultată menționează doar o vechime aproximativă, fără dată explicită.",
+    limitation: "Nu confirmăm anul exact de fondare al Saint-Gobain PAM, pentru că documentația consultată menționează doar o vechime aproximativă, fără dată explicită.",
     productCodes: [
       { code: "EUROSTOP", description: "gamă de robinete fluture" },
       { code: "WAFER", description: "robinet fluture cu montaj între flanșe" },
@@ -405,8 +405,8 @@ Pentru operatorii de apă și antreprenorii din România, Düker are sens la pro
       "Stații de pompare apă uzată — componente pentru sisteme de tip STRATE",
       "Protecție la incendiu — hidranți pentru rețele de stingere",
     ],
-    infinitrade: `Pentru Düker lucrăm din informațiile publice ale producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă vane, hidranți și fitinguri din fontă ductilă prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul de componentă, diametrul nominal (DN) și clasa de presiune (PN) ale rețelei. Adresa exactă a sediului sau alte detalii de firmă le confirmăm doar dacă apar explicit pe site-ul producătorului.`,
-    limitation: "Nu confirmăm orașul exact al sediului central Düker, pentru că pagina consultată menționează doar regiunea istorică Unterfranken, fără adresa actuală.",
+    infinitrade: `Pentru Düker lucrăm din informațiile publice ale producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă vane, hidranți și fitinguri din fontă ductilă prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de tipul de componentă, diametrul nominal (DN) și clasa de presiune (PN) ale rețelei. Adresa exactă a sediului sau alte detalii de firmă le confirmăm doar dacă apar explicit în documentația producătorului.`,
+    limitation: "Nu confirmăm orașul exact al sediului central Düker, pentru că documentația consultată menționează doar regiunea istorică Unterfranken, fără adresa actuală.",
     productCodes: [
       { code: "Absperrschieber", description: "vană de izolare din fontă ductilă pentru rețele de apă" },
       { code: "Absperrklappen", description: "clapetă de izolare pentru conducte de diametru mare" },
@@ -469,7 +469,7 @@ Pentru operatorii industriali din România, SIPOS are sens la instalații unde r
       "Petrochimie — actuatoare pentru robineți în medii cu cerințe stricte de siguranță",
     ],
     infinitrade: `Pentru SIPOS lucrăm din informațiile publice ale producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă actuatoare din familia SEVEN și module de control prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de codul actuatorului, tipul de robinet pe care se montează (cu pană, clapetă sau bilă) și protocolul de comunicație necesar. Cuplul și alți parametri tehnici îi confirmăm doar dacă apar în fișele publice ale producătorului.`,
-    limitation: "Nu confirmăm parametrii de cuplu și tensiune pentru fiecare model SIPOS, pentru că pagina de produse consultată nu îi detaliază per variantă.",
+    limitation: "Nu confirmăm parametrii de cuplu și tensiune pentru fiecare model SIPOS, pentru că documentația consultată nu îi detaliază per variantă.",
     productCodes: [
       { code: "ECOTRON", description: "actuator electric din gama de bază SIPOS" },
       { code: "HiMod", description: "variantă de actuator pentru reglare modulantă de precizie" },
@@ -527,7 +527,7 @@ Pentru operatorii industriali din România, Regada are sens la automatizarea rob
       "Aplicații navale — actuatoare pentru robineți, conform informațiilor producătorului",
     ],
     infinitrade: `Pentru Regada lucrăm din informațiile publice ale producătorului; nu deținem date proprii de stoc pentru această gamă. Aducem la comandă actuatoare electrice din seria SP, actuatoare pneumatice și supape solenoid prin canalele noastre de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertă avem nevoie de cuplul necesar la robinet, clasificarea zonei (normală sau Ex) și tipul de semnal de comandă dorit. Parametrii suplimentari pe care nu i-am identificat în documentația publică nu apar în ofertă.`,
-    limitation: "Nu confirmăm timpii de acționare sau gradul de protecție IP pentru fiecare model din seria SP, pentru că pagina de catalog consultată nu îi detaliază per variantă.",
+    limitation: "Nu confirmăm timpii de acționare sau gradul de protecție IP pentru fiecare model din seria SP, pentru că documentația consultată nu îi detaliază per variantă.",
     productCodes: [
       { code: "SP 0", description: "actuator electric part-turn, cuplu 4–40 Nm" },
       { code: "SP 0-M", description: "variantă modulantă a actuatorului SP 0" },

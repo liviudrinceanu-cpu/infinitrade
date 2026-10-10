@@ -27,7 +27,7 @@ Pentru un inginer de proiect din România, Bopp & Reuther are sens acolo unde sp
       "Rafinării — evacuare controlată de presiune pe instalații cu temperaturi ridicate",
       "Industrie de proces — protecție generală a echipamentelor sub presiune",
     ],
-    infinitrade: `Pentru Bopp & Reuther lucrăm strict pe baza specificației tehnice trimise de client — presiune de deschidere, debit de evacuare necesar, fluidul vehiculat și temperatura de lucru — și verificăm oferta cu sursele publice ale producătorului înainte de a confirma orice detaliu. Nu ținem produse pe stoc propriu pentru acest brand: comandăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Clientul trebuie să ne trimită schema P&ID sau cel puțin presiunea de proiectare a instalației, ca să evităm o alegere greșită de treaptă din seria Si. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele agreate cu producătorul.`,
+    infinitrade: `Pentru Bopp & Reuther lucrăm strict pe baza specificației tehnice trimise de client — presiune de deschidere, debit de evacuare necesar, fluidul vehiculat și temperatura de lucru — și verificăm oferta cu documentația tehnică a producătorului înainte de a confirma orice detaliu. Nu ținem produse pe stoc propriu pentru acest brand: comandăm prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Clientul trebuie să ne trimită schema P&ID sau cel puțin presiunea de proiectare a instalației, ca să evităm o alegere greșită de treaptă din seria Si. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele agreate cu producătorul.`,
     limitation: "Nu putem confirma disponibilitatea unei anumite trepte din seria Si fără presiunea de proiectare și debitul de evacuare cerute explicit de client.",
     productCodes: [
       { code: "Si C1", description: "supapă de siguranță din familia Regular Flow" },
@@ -45,7 +45,7 @@ Pentru un inginer de proiect din România, Bopp & Reuther are sens acolo unde sp
       { q: "Ce produce Bopp & Reuther?", a: "Bopp & Reuther fabrică supape de siguranță pentru protecția la suprapresiune a cazanelor, reactoarelor și conductelor din energie și petrochimie. Gama include seria Si, cu modele în familiile Regular Flow, High Flow și Pressure Relief, și seria SV dedicată aburului principal din centrale. Marca funcționează azi ca parte a portofoliului IMI plc." },
       { q: "Cum aleg treapta corectă din seria Si de la Bopp & Reuther?", a: "Alegerea se face pe baza debitului de evacuare cerut și a presiunii de deschidere a instalației: modelele Si C1 și Si 2 fac parte din familia Regular Flow, iar Si 4, Si 6 și Si 9 din familiile pentru debite mari. Trimiteți-ne presiunea de proiectare și fluidul vehiculat pentru a confirma varianta potrivită." },
       { q: "Livrați supape Bopp & Reuther în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ este de 1–4 săptămâni, în funcție de confirmarea producătorului și de treapta aleasă din serie. Nu ținem aceste valve pe stoc propriu, așa că termenul depinde de disponibilitatea reală la fabrică." },
-      { q: "Ce trebuie să trimit pentru o ofertă de valvă Bopp & Reuther?", a: "Aveți nevoie de presiunea de deschidere cerută, debitul de evacuare, fluidul vehiculat (abur, gaz sau lichid) și temperatura maximă de lucru. Cu aceste date verificăm oferta față de sursele publice ale producătorului și confirmăm seria potrivită, Si sau SV." },
+      { q: "Ce trebuie să trimit pentru o ofertă de valvă Bopp & Reuther?", a: "Aveți nevoie de presiunea de deschidere cerută, debitul de evacuare, fluidul vehiculat (abur, gaz sau lichid) și temperatura maximă de lucru. Cu aceste date verificăm oferta față de documentația tehnică a producătorului și confirmăm seria potrivită, Si sau SV." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
@@ -85,7 +85,7 @@ Pentru instalatori și proiectanți din România, Circutor are sens la retehnolo
       "Companii de distribuție a energiei electrice — analiză de rețea și raportare",
       "Mobilitate electrică — stații de încărcare și management al încărcării",
     ],
-    infinitrade: `Pentru Circutor spunem clar ce putem și ce nu putem confirma: lucrăm din cataloagele publice ale producătorului și nu avem raft propriu pentru toată gama. Analizoarele de rețea și componentele de protecție uzuale (transformatoare de curent, relee CBS) pot fi aduse prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la comandă; pentru proiecte cu platformă software integrată (PowerStudio, controlere IoT) e nevoie de o discuție tehnică prealabilă. Trimiteți-ne parametrii instalației — tensiune, curent nominal, numărul de circuite monitorizate — ca să vă recomandăm modelul potrivit. Nu promitem termene mai scurte decât cele confirmate de producător.`,
+    infinitrade: `Pentru Circutor spunem clar ce putem și ce nu putem confirma: lucrăm din catalogul producătorului și nu avem raft propriu pentru toată gama. Analizoarele de rețea și componentele de protecție uzuale (transformatoare de curent, relee CBS) pot fi aduse prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la comandă; pentru proiecte cu platformă software integrată (PowerStudio, controlere IoT) e nevoie de o discuție tehnică prealabilă. Trimiteți-ne parametrii instalației — tensiune, curent nominal, numărul de circuite monitorizate — ca să vă recomandăm modelul potrivit. Nu promitem termene mai scurte decât cele confirmate de producător.`,
     limitation: "Nu configurăm software-ul PowerStudio SCADA la distanță și nu confirmăm integrarea cu sisteme terțe de automatizare fără o discuție tehnică prealabilă.",
     productCodes: [
       { code: "CVM-A1600", description: "analizor de calitate a energiei pentru tablouri de distribuție" },
@@ -148,7 +148,7 @@ Pentru piața românească, Santerno are relevanță la retehnologizarea stații
       "Industrii cu motoare de mare putere — pornire controlată prin soft startere",
       "Industrie de proces — electronică de putere pentru acționări industriale",
     ],
-    infinitrade: `Pentru Santerno mergem exclusiv pe informația publică disponibilă la producător, întrucât nu avem un istoric propriu de livrări pe acest brand în România. Invertoarele de medie tensiune și soft starterele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru dimensionarea corectă avem nevoie de puterea motorului, tensiunea de rețea și tipul de aplicație (pompare, ventilație, compresor). Nu ținem produse pe stoc propriu și nu promitem un termen mai scurt decât cel confirmat de fabrică.`,
+    infinitrade: `Pentru Santerno mergem exclusiv pe documentația tehnică a producătorului, întrucât nu avem un istoric propriu de livrări pe acest brand în România. Invertoarele de medie tensiune și soft starterele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de puterea și configurația cerută. Pentru dimensionarea corectă avem nevoie de puterea motorului, tensiunea de rețea și tipul de aplicație (pompare, ventilație, compresor). Nu ținem produse pe stoc propriu și nu promitem un termen mai scurt decât cel confirmat de fabrică.`,
     limitation: "Nu confirmăm integrarea sistemului TG2000 BESS cu instalații fotovoltaice existente fără o evaluare tehnică prealabilă a proiectului.",
     productCodes: [
       { code: "Iris Blue Plus", description: "invertor pentru controlul pompelor în aplicații din sectorul apei" },
@@ -166,7 +166,7 @@ Pentru piața românească, Santerno are relevanță la retehnologizarea stații
       { q: "Ce produce Santerno?", a: "Santerno fabrică invertoare pentru controlul motoarelor industriale, convertoare pentru instalații fotovoltaice și sisteme de stocare a energiei (BESS). Compania are sediul la Castel Guelfo, lângă Bologna, și peste 12 GW de capacitate instalată la nivel mondial." },
       { q: "Ce invertor Santerno se potrivește pentru un motor de mare putere?", a: "Pentru motoare sincrone sau asincrone de putere mare se folosesc seriile de medie tensiune Sinus MV-X sau Sinus Penta, alegerea depinzând de puterea instalată și de tensiunea rețelei disponibile. Trimiteți-ne datele motorului pentru a confirma varianta potrivită." },
       { q: "Livrați echipamente Santerno în România?", a: "Da, la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ 1–4 săptămâni în funcție de configurația cerută. Nu ținem invertoare Santerno pe stoc propriu, așa că termenul depinde de disponibilitatea la producător." },
-      { q: "Ce trebuie să trimit pentru o ofertă de invertor Santerno?", a: "Puterea și tensiunea nominală a motorului, tipul aplicației (pompare, ventilație, compresor) și dacă aveți nevoie de soft starter sau doar de invertor. Cu aceste informații verificăm oferta pe baza informației publice disponibile la producător." },
+      { q: "Ce trebuie să trimit pentru o ofertă de invertor Santerno?", a: "Puterea și tensiunea nominală a motorului, tipul aplicației (pompare, ventilație, compresor) și dacă aveți nevoie de soft starter sau doar de invertor. Cu aceste informații verificăm oferta pe baza documentației tehnice a producătorului." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 4,
@@ -182,7 +182,7 @@ Pentru piața românească, Santerno are relevanță la retehnologizarea stații
     name: "Elecon",
     overview: `Elecon (Elecon Engineering) este un producător de reductoare și transmisii mecanice de putere din India, cu operațiuni europene derulate prin marca Radicon, preluată în 2010. Grupul acoperă reductoare industriale, cuplaje, șuruburi de ridicare și alte transmisii mecanice de putere, folosite în industrii precum ciment, minerit sau energie.
 
-Partea de transmisii mecanice include reductoare melcate compacte (Junior, Mid Worm Gear), reductoare planetare, reductoare pentru turbine eoliene și cutii de viteze speciale cu cuplu de ieșire de peste 6 milioane Nm pentru aplicații industriale extreme. Gama de cuplaje (Elflex, Elign, HFC-A) și șuruburile de ridicare Benzlers completează oferta pentru linii de producție unde precizia de aliniere contează la fel de mult ca rezistența mecanică. Producția Radicon e certificată ISO 9001 și ISO 14001, iar rețeaua de distribuție acoperă mai multe continente.
+Partea de transmisii mecanice include reductoare melcate compacte (Junior, Mid Worm Gear), reductoare planetare, reductoare pentru turbine eoliene și cutii de viteze speciale cu cuplu de ieșire de peste 6 milioane Nm pentru aplicații industriale extreme. Gama de cuplaje (Elflex, Elign, HFC-A) și șuruburile de ridicare Benzlers completează oferta pentru linii de producție unde precizia de aliniere contează la fel de mult ca rezistența mecanică. Producția Radicon e certificată ISO 9001 și ISO 14001, iar distribuția acoperă mai multe continente.
 
 Pentru un inginer mecanic din România, Elecon/Radicon are sens acolo unde e nevoie de un reductor cu cuplu neobișnuit de mare sau de o soluție de transmisie realizată la comandă.`,
     whyChoose: [
@@ -205,7 +205,7 @@ Pentru un inginer mecanic din România, Elecon/Radicon are sens acolo unde e nev
       "Marină — reductoare pentru aplicații navale",
       "Hârtie și celuloză, oțel, alimente și băuturi — transmisii de putere pentru linii de producție",
     ],
-    infinitrade: `Pentru Elecon lucrăm cu marca europeană Radicon, prin care grupul își distribuie reductoarele și cuplajele în Europa; nu deținem date proprii de stoc pentru acest brand și verificăm fiecare cerere față de catalogul oficial. Reductoarele standard și cuplajele se pot aduce la comandă în 1–4 săptămâni prin canale de aprovizionare din UE; pentru cutiile de viteze speciale, cu cuplu foarte mare, termenul depinde de proiectarea individuală cerută de aplicație. Trimiteți-ne cuplul necesar, raportul de transmisie și tipul de sarcină (constantă sau cu șocuri) pentru o ofertă corectă. Nu promitem disponibilitate din depozit pentru niciun reper din gamă.`,
+    infinitrade: `Pentru Elecon lucrăm cu marca europeană Radicon, prin care grupul își distribuie reductoarele și cuplajele în Europa; nu deținem date proprii de stoc pentru acest brand și verificăm fiecare cerere față de catalogul producătorului. Reductoarele standard și cuplajele se pot aduce la comandă în 1–4 săptămâni prin canale de aprovizionare din UE; pentru cutiile de viteze speciale, cu cuplu foarte mare, termenul depinde de proiectarea individuală cerută de aplicație. Trimiteți-ne cuplul necesar, raportul de transmisie și tipul de sarcină (constantă sau cu șocuri) pentru o ofertă corectă. Nu promitem disponibilitate din depozit pentru niciun reper din gamă.`,
     limitation: "Nu confirmăm termene de livrare pentru reductoarele speciale cu cuplu peste 6 milioane Nm fără o cerere de proiectare individuală transmisă producătorului.",
     productCodes: [
       { code: "HFC-A", description: "cuplaj pentru transmisii industriale" },
@@ -267,7 +267,7 @@ Pentru România, March Pump are sens la instalații de laborator, tratarea chimi
       "Solar — pompe cu motor DC pentru instalații alimentate fotovoltaic",
       "Integratori OEM — pompe compacte pentru echipamente de proces",
     ],
-    infinitrade: `La March Pump nu avem date proprii de livrări pentru piața din România, așa că orice ofertă se verifică față de catalogul oficial al producătorului înainte de confirmare. Pompele din seriile numerotate se pot aduce la comandă în 1–4 săptămâni prin canale de aprovizionare din UE sau SUA, în funcție de model. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, debitul dorit și dacă aplicația cere variantă submersibilă sau cu motor DC. Nu ținem pe raft propriu pe această gamă și nu confirmăm termene mai scurte decât cele agreate cu producătorul.`,
+    infinitrade: `La March Pump nu avem date proprii de livrări pentru piața din România, așa că orice ofertă se verifică față de catalogul producătorului înainte de confirmare. Pompele din seriile numerotate se pot aduce la comandă în 1–4 săptămâni prin canale de aprovizionare din UE sau SUA, în funcție de model. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, debitul dorit și dacă aplicația cere variantă submersibilă sau cu motor DC. Nu ținem pe raft propriu pe această gamă și nu confirmăm termene mai scurte decât cele agreate cu producătorul.`,
     limitation: "Nu confirmăm compatibilitatea chimică exactă a unui fluid neobișnuit cu materialul pompei fără o verificare prealabilă la producător.",
     productCodes: [
       { code: "Seria 1", description: "pompă centrifugă micro, cuplaj magnetic, debit foarte redus" },
@@ -331,7 +331,7 @@ Pentru o companie din România, Savino Barbera are sens acolo unde alternativa m
       "Naval — pompare de apă de mare și fluide agresive",
       "Metalurgie — bazine de decapare și linii de tratament chimic",
     ],
-    infinitrade: `Pentru Savino Barbera lucrăm doar cu surse publice ale producătorului, întrucât nu avem un istoric de livrări proprii pe acest brand în România. Pompele și agitatoarele din plastic se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, concentrația chimică și temperatura de lucru, ca să recomandăm materialul potrivit (PP, PVC sau PVDF). Nu avem raft propriu pentru această gamă și nu confirmăm un interval mai scurt decât cel agreat cu producătorul italian.`,
+    infinitrade: `Pentru Savino Barbera lucrăm doar cu documentația tehnică a producătorului, întrucât nu avem un istoric de livrări proprii pe acest brand în România. Pompele și agitatoarele din plastic se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, concentrația chimică și temperatura de lucru, ca să recomandăm materialul potrivit (PP, PVC sau PVDF). Nu avem raft propriu pentru această gamă și nu confirmăm un interval mai scurt decât cel agreat cu producătorul italian.`,
     limitation: "Nu confirmăm rezistența chimică a unui material la o concentrație sau temperatură neobișnuită fără o verificare prealabilă la producător.",
     productCodes: [
       { code: "AS", description: "pompă verticală, gamă standard din plastic" },
@@ -395,7 +395,7 @@ Pentru un utilizator din România, Ponndorf are sens la dozarea de precizie a li
       "Ceramică și porțelan — transfer de suspensii abrazive",
       "Inginerie mecanică și industria auto — fluide de proces vâscoase",
     ],
-    infinitrade: `Pentru Ponndorf nu deținem date proprii de livrări în România și verificăm fiecare cerere direct pe baza cataloagelor oficiale ale producătorului. Pompele peristaltice se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de seria aleasă. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, vâscozitatea aproximativă și dacă aplicația cere funcționare uscată sau umedă. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele agreate cu fabrica.`,
+    infinitrade: `Pentru Ponndorf nu deținem date proprii de livrări în România și verificăm fiecare cerere direct pe baza cataloagelor producătorului. Pompele peristaltice se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de seria aleasă. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, vâscozitatea aproximativă și dacă aplicația cere funcționare uscată sau umedă. Nu promitem disponibilitate din depozit și nu confirmăm termene mai scurte decât cele agreate cu fabrica.`,
     limitation: "Nu confirmăm durata de viață a furtunului pentru un fluid abraziv specific fără o testare sau o recomandare directă din partea producătorului.",
     productCodes: [
       { code: "P_classic", description: "pompă peristaltică cu funcționare uscată, gamă de bază" },
@@ -455,7 +455,7 @@ Pentru piața românească, Fluimac are sens la linii unde e nevoie de o pompă 
       "Vopsele și coating-uri — pompare de produse inflamabile în zone cu risc de explozie",
       "Textile și galvanică — transfer de lichide de proces",
     ],
-    infinitrade: `La Fluimac nu avem date proprii despre livrări anterioare în România, așa că lucrăm direct din cataloagele oficiale ale producătorului pentru orice confirmare tehnică. Pompele din gama Phoenix și cele de dozare se aduc la comandă prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, dacă zona are risc de explozie (ATEX) și dacă aplicația e alimentară sau industrială generală. Nu ținem gama pe un stoc propriu și nu promitem un interval mai scurt decât cel confirmat de fabrică.`,
+    infinitrade: `La Fluimac nu avem date proprii despre livrări anterioare în România, așa că lucrăm direct din cataloagele producătorului pentru orice confirmare tehnică. Pompele din gama Phoenix și cele de dozare se aduc la comandă prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, dacă zona are risc de explozie (ATEX) și dacă aplicația e alimentară sau industrială generală. Nu ținem gama pe un stoc propriu și nu promitem un interval mai scurt decât cel confirmat de fabrică.`,
     limitation: "Nu confirmăm compatibilitatea diafragmei cu un solvent neobișnuit fără o verificare prealabilă la producător.",
     productCodes: [
       { code: "Phoenix ATEX", description: "pompă cu diafragmă certificată pentru zone cu risc de explozie" },
@@ -517,7 +517,7 @@ Pentru o companie din România, Dellmeco are sens acolo unde AODD-ul clasic treb
       "Chimie și petrochimie — pompe AODD din plastic pentru chimicale generale",
       "Minerit și energie — pompe metalice pentru medii solicitante",
     ],
-    infinitrade: `Pentru Dellmeco spunem clar ce putem și ce nu putem confirma: lucrăm din informația publică a producătorului, fără un istoric propriu de livrări pe acest brand în România. Pompele AODD și DME se aduc la comandă prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, dacă aplicația cere conformitate sanitară (3A, hygienic) și dacă preferați varianta pneumatică sau electro-mecanică. Nu ținem produse pe stoc propriu și nu promitem termene mai scurte decât cele agreate cu fabrica.`,
+    infinitrade: `Pentru Dellmeco spunem clar ce putem și ce nu putem confirma: lucrăm din documentația tehnică a producătorului, fără un istoric propriu de livrări pe acest brand în România. Pompele AODD și DME se aduc la comandă prin canale de aprovizionare din UE, orientativ în 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de fluidul vehiculat, dacă aplicația cere conformitate sanitară (3A, hygienic) și dacă preferați varianta pneumatică sau electro-mecanică. Nu ținem produse pe stoc propriu și nu promitem termene mai scurte decât cele agreate cu fabrica.`,
     limitation: "Nu confirmăm echivalența exactă între o pompă AODD și varianta electro-mecanică DME fără o discuție tehnică prealabilă despre aplicație.",
     productCodes: [
       { code: "Plastic Series", description: "pompe AODD cu corp din polipropilenă sau PVDF" },
@@ -578,7 +578,7 @@ Pentru un proiect din România, Kirloskar Brothers are sens acolo unde e nevoie 
       "Construcții și infrastructură — presurizare HVAC și epuisment pe șantiere",
       "Agricultură — pompe pentru irigații",
     ],
-    infinitrade: `Pentru Kirloskar Brothers nu avem un istoric propriu de livrări în România și lucrăm din informațiile publice disponibile la producător pentru orice confirmare de model sau standard. Pompele din gama industrială și de proces se pot aduce la comandă prin canale de aprovizionare din UE sau direct din India, orientativ în 1–4 săptămâni, în funcție de model. Pentru o ofertă corectă avem nevoie de debitul necesar, presiunea de refulare și dacă aplicația cere conformitate API. Nu ținem această gamă pe stoc propriu și nu promitem termene mai scurte decât cele confirmate de fabrică.`,
+    infinitrade: `Pentru Kirloskar Brothers nu avem un istoric propriu de livrări în România și lucrăm din documentația tehnică a producătorului pentru orice confirmare de model sau standard. Pompele din gama industrială și de proces se pot aduce la comandă prin canale de aprovizionare din UE sau direct din India, orientativ în 1–4 săptămâni, în funcție de model. Pentru o ofertă corectă avem nevoie de debitul necesar, presiunea de refulare și dacă aplicația cere conformitate API. Nu ținem această gamă pe stoc propriu și nu promitem termene mai scurte decât cele confirmate de fabrică.`,
     limitation: "Nu confirmăm conformitatea unui model specific cu un standard API exact fără documentația tehnică transmisă direct de producător pentru acel proiect.",
     productCodes: [
       { code: "JOS Ultra", description: "pompă submersibilă pentru puț deschis (openwell)" },

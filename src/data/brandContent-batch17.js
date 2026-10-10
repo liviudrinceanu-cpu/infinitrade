@@ -139,7 +139,7 @@ Corpurile se execută din oțel carbon, oțel inoxidabil sau alte materiale, în
     name: "GESTRA",
     founded: 1902,
     headquarters: "Bremen, Germania",
-    overview: `GESTRA este un producător german specializat în gestionarea aburului și a condensului în instalații industriale, cu sediul la Bremen. De peste un secol, compania dezvoltă echipamente pentru trei funcții esențiale ale unei centrale termice sau ale unei rețele de abur: evacuarea condensului fără pierderi de abur viu, controlul nivelului de apă din cazane, și tratarea apei de alimentare prin sisteme de golire continuă și discontinuă. Conform site-ului oficial GESTRA, compania face parte în prezent din grupul Spirax; anterior a aparținut grupului Flowserve.
+    overview: `GESTRA este un producător german specializat în gestionarea aburului și a condensului în instalații industriale, cu sediul la Bremen. De peste un secol, compania dezvoltă echipamente pentru trei funcții esențiale ale unei centrale termice sau ale unei rețele de abur: evacuarea condensului fără pierderi de abur viu, controlul nivelului de apă din cazane, și tratarea apei de alimentare prin sisteme de golire continuă și discontinuă. Conform documentației GESTRA, compania face parte în prezent din grupul Spirax; anterior a aparținut grupului Flowserve.
 
 Oalele de condens GESTRA acoperă toate principiile de funcționare uzuale — cu plutitor (seria UNA, pentru schimbătoare de căldură și sisteme în vid, cu presiuni de lucru reduse), termodinamice (seria DK, compacte, pentru variații mici de sarcină), cu membrană (seria MK, pentru abur saturat) și bimetalice (seria BK, pentru abur saturat și supraîncălzit). Pentru controlul nivelului din cazane, senzorii de conductivitate din seria NRG și sistemele de reglare asociate asigură protecție împotriva funcționării fără apă, un risc major de avarie pentru orice cazan de abur. Sistemele de golire continuă și discontinuă (blowdown) elimină nămolul și sărurile acumulate în cazan, prelungind durata de viață a instalației și reducând consumul de tratamente chimice.
 
@@ -149,7 +149,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       "Fiabilitate dovedită pe termen lung — echipamente care rulează zeci de ani în centrale termice cu program de funcționare continuu",
       "Monitorizare digitală disponibilă — senzori care semnalează din timp o oală de condens defectă, înainte să apară pierderi mari de abur",
       "Acoperire largă de presiuni și temperaturi — de la instalații de presiune joasă până la abur supraîncălzit, în funcție de seria aleasă",
-      "Apartenența la grupul Spirax, conform site-ului oficial GESTRA",
+      "Apartenența la grupul Spirax, conform documentației GESTRA",
       "Reducere directă a costurilor de operare — recuperarea condensului și a energiei termice asociate scade consumul de combustibil"
     ],
     keyProducts: [
@@ -186,7 +186,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
       "TÜV — verificare independentă a componentelor critice de siguranță"
     ],
     infinitrade: "Aducem echipamente GESTRA pentru gestionarea aburului și condensului — oale de condens cu plutitor și termodinamice, senzori de nivel NRG și sisteme de golire continuă și discontinuă — către centrale termice și fabrici de proces din România, prin canale de aprovizionare din Uniunea Europeană. Nu deținem cifre proprii despre stocul fabricii și verificăm fiecare model potrivit în informațiile publice disponibile ale producătorului. Pentru identificarea corectă a oalei compatibile, trimiteți-ne debitul de condens, presiunea de lucru și modelul montat deja pe conductă, dacă îl cunoașteți. Oalele de condens și piesele de uzură uzuale pot ajunge în 24–72 h dacă sunt în stoc la noi sau la furnizor, altfel în 1–4 săptămâni la comandă; sistemele complete de control de nivel sau de golire sunt sisteme complexe, cu termene de regulă peste 4 săptămâni.",
-    limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea recomandăm contactarea rețelei GESTRA.",
+    limitation: "Nu putem confirma configurarea software a monitorizării digitale sau service în garanția producătorului — pentru acestea vă rugăm să ne transmiteți cerința, iar noi o verificăm și revenim cu răspunsul.",
     sources: [
       { title: 'Company history | GESTRA', url: 'https://www.gestra.com/about-us/history', publisher: 'GESTRA', accessed: '2026-10-08' },
       {"title":"Steam Traps | GESTRA | USA","url":"https://www.gestra.com/global/en-US/products/steam-traps","publisher":"GESTRA","accessed":"2026-09-23"},
@@ -255,7 +255,7 @@ Ce diferențiază GESTRA este abordarea de sistem: nu vinde doar o oală de cond
     ],
     evidenceClass: "transactional",
     lastVerified: "2026-10-08",
-    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: anul înființării GESTRA este 1902 (Bremen), conform istoricului de pe site-ul producătorului.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
+    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: anul înființării GESTRA este 1902 (Bremen), conform istoricului din documentația producătorului.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' }, 
       { date: "2026-09-22", note: "Am adăugat surse oficiale și modul de livrare." }
     ]
   },
@@ -2224,14 +2224,14 @@ Carcasele standard sunt din fontă, cu variante din oțel inoxidabil (RBS INOX) 
 
 Schimbătoarele cu plăci și garnituri, din seriile moștenite de la GEA, folosesc plăci ondulate din oțel inoxidabil sau titan, strânse între ele cu garnituri elastomerice, pentru transfer termic eficient între două fluide fără amestecarea lor — soluția de referință pentru pasteurizare, răcire de proces și recuperare de căldură unde accesul pentru curățare periodică este important. Schimbătoarele tubulare rezolvă aplicațiile cu presiuni și temperaturi mai ridicate decât pot gestiona plăcile cu garnituri, fiind construite din fascicule de țevi montate într-o carcasă cilindrică. Pentru răcirea cu aer, gama de aerotermice și baterii cu țevi cu aripioare elimină nevoia de apă de răcire, o soluție tot mai căutată în zone cu resurse de apă limitate.
 
-Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii corozive sau cu cerințe stricte de igienă, iar dimensionarea se face pe baza datelor termice specifice fiecărei aplicații — debite, temperaturi de intrare/ieșire, pierderea de presiune admisă. Kelvion are o rețea globală de vânzări, service și producție, cu 48 de locații în 24 de țări, potrivit site-ului oficial. Schimbătoarele Kelvion se regăsesc în industria energetică, chimică, alimentară, marină și HVAC industrial, oriunde transferul eficient de căldură între două fluide este o cerință de proces.`,
+Materialele acoperă oțel inoxidabil, titan și aliaje speciale pentru medii corozive sau cu cerințe stricte de igienă, iar dimensionarea se face pe baza datelor termice specifice fiecărei aplicații — debite, temperaturi de intrare/ieșire, pierderea de presiune admisă. Kelvion are o rețea globală de vânzări, service și producție, cu 48 de locații în 24 de țări, potrivit documentației producătorului. Schimbătoarele Kelvion se regăsesc în industria energetică, chimică, alimentară, marină și HVAC industrial, oriunde transferul eficient de căldură între două fluide este o cerință de proces.`,
     whyChoose: [
       "Portofoliu complet de tehnologii — plăci cu garnituri, tubulare, aer și evaporative, de la un singur furnizor",
       "Provine din divizia de schimbătoare de căldură a GEA Group",
       "Piese de schimb — plăci și garnituri, identificate pe baza plăcuței de fabricație",
       "Materiale pentru medii dificile — oțel inoxidabil, titan și aliaje speciale pentru coroziune sau cerințe de igienă",
       "Soluții fără consum de apă — aerotermice și baterii cu aripioare pentru zone cu resurse de apă limitate",
-      "Rețea globală de vânzări, service și producție — 48 de locații în 24 de țări, potrivit site-ului oficial"
+      "Rețea globală de vânzări, service și producție — 48 de locații în 24 de țări, potrivit documentației producătorului"
     ],
     keyProducts: [
       {

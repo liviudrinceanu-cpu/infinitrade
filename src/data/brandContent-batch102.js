@@ -28,7 +28,7 @@ Pentru România, gama are sens la șantierele navale, la operatorii de nave și 
       "Rețele electrice industriale de medie tensiune — motoare MV pentru sarcini mari",
       "Industrie generală — antrenare pompe, ventilatoare și compresoare cu motoare IE3/IE4"
     ],
-    infinitrade: `Pentru Hoyer Motors nu avem date proprii de stoc — lucrăm din surse publice ale producătorului și din cataloagele tehnice de pe site-ul oficial. Aducem la comandă motoare din gamele IE1-IE4, PM/IE5, EX și motoarele cu frână, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare, mărimea carcasei IEC și, dacă e cazul, zona de clasificare Ex. Nu promitem disponibilitate din depozit pe această gamă — fiecare comandă se confirmă cu producătorul înainte de emiterea ofertei finale.`,
+    infinitrade: `Pentru Hoyer Motors nu avem date proprii de stoc — lucrăm din documentația tehnică a producătorului și din cataloagele tehnice ale producătorului. Aducem la comandă motoare din gamele IE1-IE4, PM/IE5, EX și motoarele cu frână, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare, mărimea carcasei IEC și, dacă e cazul, zona de clasificare Ex. Nu promitem disponibilitate din depozit pe această gamă — fiecare comandă se confirmă cu producătorul înainte de emiterea ofertei finale.`,
     limitation: "Nu putem confirma disponibilitatea locală a service-ului post-vânzare al producătorului pentru clienții din România.",
     productCodes: [
       { code: "IE1", description: "Clasă de eficiență standard, din gama producătorului" },
@@ -84,7 +84,7 @@ Pentru clienții din România, gama are sens acolo unde motorul de catalog stand
       "Chimie și petrochimie — motoare antiexplozive ATEX pentru zone cu risc",
       "Aplicații cu cerințe energetice ridicate — motoare brushless iMotor de eficiență IE4"
     ],
-    infinitrade: `Pentru Seipee nu ținem produse pe raft — lucrăm din surse publice ale producătorului și aducem la comandă motoarele din gamele JM-GM, JMD-GMD, iMotor și variantele ATEX sau din inox, prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de configurația aleasă și de confirmarea fabricii din Campogalliano. Pentru o ofertă corectă avem nevoie de puterea, turația, mărimea de carcasă și, dacă e cazul, zona de clasificare Ex sau cerința de rezistență la coroziune. Nu promitem un termen fix înainte de confirmarea producătorului, mai ales pentru configurațiile personalizate.`,
+    infinitrade: `Pentru Seipee nu ținem produse pe raft — lucrăm din documentația tehnică a producătorului și aducem la comandă motoarele din gamele JM-GM, JMD-GMD, iMotor și variantele ATEX sau din inox, prin canale de aprovizionare din UE. Termenul orientativ este de 1–4 săptămâni la comandă, în funcție de configurația aleasă și de confirmarea fabricii din Campogalliano. Pentru o ofertă corectă avem nevoie de puterea, turația, mărimea de carcasă și, dacă e cazul, zona de clasificare Ex sau cerința de rezistență la coroziune. Nu promitem un termen fix înainte de confirmarea producătorului, mai ales pentru configurațiile personalizate.`,
     limitation: "Nu putem confirma un an de fondare exact sau o listă completă de certificări pentru Seipee.",
     productCodes: [
       { code: "JM", description: "Motor asincron trifazat, carcasă aluminiu, mărimi 56-160" },
@@ -143,8 +143,8 @@ Pentru clienții din România, gama are sens la instalațiile industriale unde m
       "Apă și ape uzate — motoare pentru stații de pompare",
       "Energie și utilități — motoare de medie tensiune pentru instalații mari"
     ],
-    infinitrade: `Pentru Toshiba International Corporation nu avem date proprii de stoc — ne bazăm pe informațiile publice de pe site-ul producătorului pentru a identifica varianta potrivită. Aducem la comandă motoare Severe Duty, motoare de joasă și medie tensiune și variatoare din gama AS3, S15 sau T300MV2, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertare avem nevoie de puterea, turația, tensiunea de alimentare și tipul de mediu de funcționare. Nu ținem această gamă pe raft — fiecare comandă depinde de confirmarea disponibilității la producător.`,
-    limitation: "Nu putem confirma orașul sediului sau anul fondării diviziei nord-americane din sursele publice consultate.",
+    infinitrade: `Pentru Toshiba International Corporation nu avem date proprii de stoc — ne bazăm pe documentația tehnică a producătorului pentru a identifica varianta potrivită. Aducem la comandă motoare Severe Duty, motoare de joasă și medie tensiune și variatoare din gama AS3, S15 sau T300MV2, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru ofertare avem nevoie de puterea, turația, tensiunea de alimentare și tipul de mediu de funcționare. Nu ținem această gamă pe raft — fiecare comandă depinde de confirmarea disponibilității la producător.`,
+    limitation: "Nu putem confirma orașul sediului sau anul fondării diviziei nord-americane din documentația consultată.",
     productCodes: [
       { code: "EQP Global", description: "Platformă de motoare industriale de uz general și serviciu sever" },
       { code: "840", description: "Motor de joasă tensiune de uz general din gama EQP Global" },
@@ -194,7 +194,7 @@ Pentru clienții din România, gama are sens la echipamente de mică putere cu c
       "Motoare brushless CC (BLDC) pentru aplicații care cer durată de viață lungă.",
       "Bază de peste 100.000 de configurații posibile, pentru comenzi personalizate de motor.",
       "Reductoare de viteză disponibile separat sau integrate cu motorul, cu raport de reducere ales în funcție de aplicație.",
-      "Producător specializat pe motoare și motoreductoare de fracțiune HP, cu peste 4.200 de produse active în baza de date de pe site."
+      "Producător specializat pe motoare și motoreductoare de fracțiune HP, cu peste 4.200 de produse active în baza de date a producătorului."
     ],
     keyProducts: [
       { name: "Motoare și Motoreductoare de Curent Continuu", description: "Acoperă tensiuni standard de 12, 24, 90, 115, 130 și 180 V, ca motor simplu sau ca motoreductor cu raport de reducere ales de client. Recomandate pentru aplicații alimentate de la baterie sau surse CC industriale. Construcția permite personalizare pe arbore, flanșă și rulment. Pentru ofertare avem nevoie de tensiune, turație și raportul de reducere." },
@@ -208,8 +208,8 @@ Pentru clienții din România, gama are sens la echipamente de mică putere cu c
       "Spălătorii auto — motoare pentru sisteme de spălare și uscare",
       "Panificație industrială — motoare pentru linii de producție de mică putere"
     ],
-    infinitrade: `Pentru Groschopp nu avem date proprii de stoc — informațiile despre gamă vin din surse publice ale producătorului. Aducem la comandă motoare și motoreductoare CC, CA și BLDC, prin canale de aprovizionare din SUA și UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de configurația aleasă. Pentru o ofertă corectă avem nevoie de tensiunea de alimentare, turația dorită, cuplul necesar și, dacă se cere motoreductor, raportul de reducere. Nu ținem această gamă pe raft — fiind un producător axat pe configurații personalizate, fiecare comandă depinde de confirmarea specificației cu fabrica.`,
-    limitation: "Nu putem confirma certificări specifice sau numere de model exacte — site-ul prezintă gama pe categorii și tensiuni, fără catalog public de coduri.",
+    infinitrade: `Pentru Groschopp nu avem date proprii de stoc — informațiile despre gamă vin din documentația tehnică a producătorului. Aducem la comandă motoare și motoreductoare CC, CA și BLDC, prin canale de aprovizionare din SUA și UE, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de configurația aleasă. Pentru o ofertă corectă avem nevoie de tensiunea de alimentare, turația dorită, cuplul necesar și, dacă se cere motoreductor, raportul de reducere. Nu ținem această gamă pe raft — fiind un producător axat pe configurații personalizate, fiecare comandă depinde de confirmarea specificației cu fabrica.`,
+    limitation: "Nu putem confirma certificări specifice sau numere de model exacte — documentația prezintă gama pe categorii și tensiuni, fără catalog de coduri.",
     productCodes: [
       { code: "Motor CC 12V", description: "Motor de curent continuu de fracțiune HP, alimentare 12V" },
       { code: "Motor CC 24V", description: "Motor de curent continuu de fracțiune HP, alimentare 24V" },
@@ -269,8 +269,8 @@ Pentru clienții din România, gama are sens la echipamente de ambalare și auto
       "Automatizări industriale — motoare și motoreductoare pentru bandă și dozare",
       "Echipamente alimentare — motoare cu protecție la spălare IP-69K"
     ],
-    infinitrade: `Pentru Bodine Electric nu ținem produse pe raft — informațiile despre gamă vin din surse publice ale producătorului. Aducem la comandă motoare și motoreductoare CC, CA și brushless, prin canale de aprovizionare din SUA și UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tensiunea de alimentare, turația și cuplul necesar la arbore, tipul de montaj (ax paralel sau unghi drept) și, dacă e cazul, gradul de protecție IP cerut. Nu promitem un termen fix înainte de confirmarea configurației exacte cu fabrica.`,
-    limitation: "Nu putem confirma anul fondării Bodine Electric sau o listă completă de certificări din sursele publice consultate.",
+    infinitrade: `Pentru Bodine Electric nu ținem produse pe raft — informațiile despre gamă vin din documentația tehnică a producătorului. Aducem la comandă motoare și motoreductoare CC, CA și brushless, prin canale de aprovizionare din SUA și UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de tensiunea de alimentare, turația și cuplul necesar la arbore, tipul de montaj (ax paralel sau unghi drept) și, dacă e cazul, gradul de protecție IP cerut. Nu promitem un termen fix înainte de confirmarea configurației exacte cu fabrica.`,
+    limitation: "Nu putem confirma anul fondării Bodine Electric sau o listă completă de certificări din documentația consultată.",
     productCodes: [
       { code: "DC Motors", description: "Motor de curent continuu de fracțiune HP" },
       { code: "DC Parallel Shaft Gearmotors", description: "Motoreductor CC cu ax paralel" },
@@ -330,7 +330,7 @@ Pentru clienții din România, gama are sens la operatorii portuari, șantierele
       "Energie eoliană offshore — motoare pentru instalare structuri marine",
       "Laboratoare de testare industrială — dinamometre CA pentru bancuri de probă"
     ],
-    infinitrade: `Pentru Wölfer Motoren nu avem date proprii de stoc — informațiile despre gamă vin din surse publice ale producătorului german. Aducem la comandă motoare de ridicare, motoare navale și dinamometre, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, adaptat la faptul că multe motoare din această gamă sunt construite la comandă, nu ținute pe raft. Pentru o ofertă corectă avem nevoie de puterea, turația, profilul de sarcină al aplicației și mediul de instalare. Nu promitem un termen fix înainte de confirmarea specificației cu fabrica din Osnabrück.`,
+    infinitrade: `Pentru Wölfer Motoren nu avem date proprii de stoc — informațiile despre gamă vin din documentația tehnică a producătorului german. Aducem la comandă motoare de ridicare, motoare navale și dinamometre, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă, adaptat la faptul că multe motoare din această gamă sunt construite la comandă, nu ținute pe raft. Pentru o ofertă corectă avem nevoie de puterea, turația, profilul de sarcină al aplicației și mediul de instalare. Nu promitem un termen fix înainte de confirmarea specificației cu fabrica din Osnabrück.`,
     limitation: "Nu putem confirma disponibilitatea unui service local în România; suportul tehnic se confirmă cu producătorul din Germania.",
     productCodes: [
       { code: "Motoare Ship-to-Shore", description: "Motor pentru macarale de descărcare containere în port" },
@@ -387,8 +387,8 @@ Pentru clienții din România, gama are sens la stațiile de sortare din industr
       "Prefabricate din beton — pokere și vibratoare de înaltă frecvență pentru consolidare",
       "Industrie petrochimică — variante antiexplozive Exe și Exd"
     ],
-    infinitrade: `Pentru OLI Vibrators nu avem date proprii de stoc — lucrăm din surse publice ale producătorului italian. Aducem la comandă vibromotoare electrice, vibratoare pneumatice și vibratoare pentru beton, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de forța centrifugă necesară sau presiunea de aer disponibilă, tipul de instalație (buncăr, sită, cofraj) și, dacă e cazul, cerința de protecție Ex sau construcție din inox. Nu ținem această gamă pe raft — fiecare comandă se confirmă cu producătorul înainte de ofertare.`,
-    limitation: "Nu putem confirma orașul sediului sau anul fondării OLI — site-ul menționează doar țara și rețeaua globală de filiale.",
+    infinitrade: `Pentru OLI Vibrators nu avem date proprii de stoc — lucrăm din documentația tehnică a producătorului italian. Aducem la comandă vibromotoare electrice, vibratoare pneumatice și vibratoare pentru beton, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de forța centrifugă necesară sau presiunea de aer disponibilă, tipul de instalație (buncăr, sită, cofraj) și, dacă e cazul, cerința de protecție Ex sau construcție din inox. Nu ținem această gamă pe raft — fiecare comandă se confirmă cu producătorul înainte de ofertare.`,
+    limitation: "Nu putem confirma orașul sediului sau anul fondării OLI — documentația menționează doar țara și rețeaua globală de filiale.",
     productCodes: [
       { code: "MVE Standard", description: "Vibromotor electric de uz general pentru buncăre și site" },
       { code: "MVE-Exe", description: "Vibromotor cu siguranță mărită pentru zone cu risc" },
@@ -454,8 +454,8 @@ Pentru clienții din România, gama are sens la stațiile de pompare cu motoare 
       "Petrol și gaze — softstartere și relee de protecție pentru instalații de proces",
       "Marină și offshore — softstartere certificate pentru mediul naval"
     ],
-    infinitrade: `Pentru Solcon-IGEL nu ținem evidențe proprii de stoc — ne bazăm pe surse publice ale producătorului pentru configurarea corectă a ofertei. Aducem la comandă softstartere de joasă și medie tensiune, sisteme de control termic și relee de protecție, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de puterea motorului controlat, tensiunea rețelei și numărul de porniri pe oră cerut de aplicație. Nu ținem această gamă pe raft — fiecare comandă se confirmă cu producătorul înainte de ofertă.`,
-    limitation: "Nu putem confirma orașul sediului sau anul fondării Solcon-IGEL din sursele publice consultate.",
+    infinitrade: `Pentru Solcon-IGEL nu ținem evidențe proprii de stoc — ne bazăm pe documentația tehnică a producătorului pentru configurarea corectă a ofertei. Aducem la comandă softstartere de joasă și medie tensiune, sisteme de control termic și relee de protecție, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de puterea motorului controlat, tensiunea rețelei și numărul de porniri pe oră cerut de aplicație. Nu ținem această gamă pe raft — fiecare comandă se confirmă cu producătorul înainte de ofertă.`,
+    limitation: "Nu putem confirma orașul sediului sau anul fondării Solcon-IGEL din documentația consultată.",
     productCodes: [
       { code: "iSTART", description: "Softstarter digital de bază pentru pornire lină" },
       { code: "RVS-DN", description: "Softstarter de joasă tensiune pentru uz greu" },
@@ -518,8 +518,8 @@ Pentru clienții din România, gama are sens la stațiile de pompare a apei, la 
       "Petrol și gaze — control de pornire pentru motoare de proces",
       "Energie — variatoare de medie tensiune pentru centrale electrice"
     ],
-    infinitrade: `Pentru Benshaw nu avem date proprii de stoc — ne ghidăm după surse publice ale producătorului pentru a alege varianta corectă de softstarter sau variator. Aducem la comandă softstartere EMX4 și MVRNX, precum și variatoare H2 și MVH2, prin canale de aprovizionare din UE și SUA, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de puterea motorului controlat, tensiunea rețelei (joasă sau medie tensiune) și tipul de aplicație. Nu promitem un termen fix înainte de confirmarea configurației exacte cu producătorul.`,
-    limitation: "Nu putem confirma anul fondării Benshaw — site-ul menționează doar peste 40 de ani de activitate.",
+    infinitrade: `Pentru Benshaw nu avem date proprii de stoc — ne ghidăm după documentația tehnică a producătorului pentru a alege varianta corectă de softstarter sau variator. Aducem la comandă softstartere EMX4 și MVRNX, precum și variatoare H2 și MVH2, prin canale de aprovizionare din UE și SUA, cu termen orientativ de 1–4 săptămâni la comandă. Pentru o ofertă corectă avem nevoie de puterea motorului controlat, tensiunea rețelei (joasă sau medie tensiune) și tipul de aplicație. Nu promitem un termen fix înainte de confirmarea configurației exacte cu producătorul.`,
+    limitation: "Nu putem confirma anul fondării Benshaw — documentația menționează doar peste 40 de ani de activitate.",
     productCodes: [
       { code: "EMX4", description: "Softstarter de joasă tensiune pentru motoare trifazate" },
       { code: "MVRNX", description: "Softstarter de medie tensiune cu monitorizare wireless" },

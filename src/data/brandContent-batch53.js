@@ -20,7 +20,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
     keyProducts: [
       {
         name: "Bariere Fotoelectrice și Cortine de Lumină de Siguranță",
-        description: "Senzori optoelectronici montați la punctele de acces ale unei mașini sau la perimetrul unei linii, care opresc automat echipamentul când fasciculul e întrerupt de un operator sau de un obiect. Se integrează cu controlerele de siguranță din aceeași gamă pentru a forma un circuit complet de oprire de urgență. Site-ul producătorului nu detaliază pe pagina generală distanțele de detecție sau clasele de siguranță (categorie, PL) pentru fiecare model; pentru o ofertă corectă avem nevoie de înălțimea zonei de protejat, distanța minimă de montaj și categoria de siguranță cerută de analiza de risc a mașinii."
+        description: "Senzori optoelectronici montați la punctele de acces ale unei mașini sau la perimetrul unei linii, care opresc automat echipamentul când fasciculul e întrerupt de un operator sau de un obiect. Se integrează cu controlerele de siguranță din aceeași gamă pentru a forma un circuit complet de oprire de urgență. Documentația generală a producătorului nu detaliază distanțele de detecție sau clasele de siguranță (categorie, PL) pentru fiecare model; pentru o ofertă corectă avem nevoie de înălțimea zonei de protejat, distanța minimă de montaj și categoria de siguranță cerută de analiza de risc a mașinii."
       },
       {
         name: "Controlere și Interfețe de Siguranță",
@@ -28,7 +28,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         name: "Cortine de Măsurare Optică",
-        description: "Spre deosebire de cortinele de siguranță, care opresc mașina, această gamă servește la măsurare și poziționare — detectarea prezenței sau poziției unei piese pe o linie, fără funcție de oprire de urgență. Parametrii exacți de rezoluție nu apar pe pagina generală a producătorului, așa că avem nevoie de aplicația concretă pentru a recomanda modelul potrivit."
+        description: "Spre deosebire de cortinele de siguranță, care opresc mașina, această gamă servește la măsurare și poziționare — detectarea prezenței sau poziției unei piese pe o linie, fără funcție de oprire de urgență. Parametrii exacți de rezoluție nu apar în documentația generală a producătorului, așa că avem nevoie de aplicația concretă pentru a recomanda modelul potrivit."
       }
     ],
     industries: [
@@ -96,7 +96,7 @@ Pentru un integrator sau un utilizator final din România care proiectează prot
       },
       {
         "q": "Livrați echipamente de siguranță ReeR în România?",
-        "a": "Da, dispozitivele ReeR se comandă punctual din catalogul oficial, cu un termen estimat de 1–4 săptămâni, pentru că nu ținem această gamă de siguranță pe raft din cauza numărului mare de lungimi și rezoluții disponibile. Pentru o ofertă avem nevoie de înălțimea de protecție necesară, rezoluția de detecție și distanța de siguranță calculată pentru aplicația dumneavoastră."
+        "a": "Da, dispozitivele ReeR se comandă punctual din catalogul producătorului, cu un termen estimat de 1–4 săptămâni, pentru că nu ținem această gamă de siguranță pe raft din cauza numărului mare de lungimi și rezoluții disponibile. Pentru o ofertă avem nevoie de înălțimea de protecție necesară, rezoluția de detecție și distanța de siguranță calculată pentru aplicația dumneavoastră."
       },
       {
         "q": "Ce rol are seria Safelock SLK de la ReeR?",
@@ -530,7 +530,7 @@ Pentru mentenanța industrială din România, gama Nord-Lock are sens mai ales l
       },
       {
         name: "Sistem de Tensionare Superbolt",
-        description: "Sistem alternativ la strângerea clasică cu cheie dinamometrică a șuruburilor mari, folosit la flanșe și asamblări grele unde cuplul necesar ar fi greu de aplicat uniform manual. Ca și la șaibele Nord-Lock, pagina generală a grupului nu oferă parametri tehnici expliciți; pentru o ofertă avem nevoie de diametrul șurubului existent și de aplicația — flanșă, cuplaj, fundație — unde se montează sistemul."
+        description: "Sistem alternativ la strângerea clasică cu cheie dinamometrică a șuruburilor mari, folosit la flanșe și asamblări grele unde cuplul necesar ar fi greu de aplicat uniform manual. Ca și la șaibele Nord-Lock, documentația generală a grupului nu oferă parametri tehnici expliciți; pentru o ofertă avem nevoie de diametrul șurubului existent și de aplicația — flanșă, cuplaj, fundație — unde se montează sistemul."
       },
       {
         name: "Sistem Hidraulic Boltight",
@@ -1124,7 +1124,7 @@ Pentru ateliere de sudură și confecții metalice din România, gama EWM are se
       },
       {
         "q": "Livrează EWM aparate de sudură pentru clienți din România?",
-        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig sau Picotig, pe baza denumirii complete confirmate din documentația oficială EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea publicată de EWM, cu un termen obișnuit de 1–4 săptămâni."
+        "a": "Da, comandăm pentru client aparate din gamele XQ, Picomig sau Picotig, pe baza denumirii complete confirmate din documentația EWM. Gama nu se află pe raftul nostru; comanda pornește de la disponibilitatea confirmată de EWM, cu un termen obișnuit de 1–4 săptămâni."
       },
       {
         "q": "Ce detalii sunt utile pentru o ofertă la un aparat de sudură EWM?",
@@ -1186,7 +1186,7 @@ Pentru service-uri mobile și ateliere de sudură din România, seria Minarc e r
       "Apărare — echipamente de sudură pentru mentenanță specializată",
       "Producție de serie — sudură robotizată cu AX MIG Welder"
     ],
-    infinitrade: `Pentru Kemppi ne bazăm pe informația de pe site-ul producătorului, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
+    infinitrade: `Pentru Kemppi ne bazăm pe informația din documentația tehnică a producătorului, fără acces la stocul lor real din Lahti. Punem la dispoziție aparatele de sudură Kemppi la comandă, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de procedeul dorit — MIG/MAG sau TIG —, curentul de sudură necesar și dacă aparatul e pentru uz portabil sau pentru integrare robotizată. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din gamă, mai ales pentru sistemele robotizate configurate pe proiect.`,
     limitation: "Nu putem confirma configurația software sau parametrii de sudură presetați pentru sistemele robotizate Kemppi fără specificația tehnică a liniei clientului.",
     productCodes: [
       {
@@ -1314,7 +1314,7 @@ Pentru laboratoare de service, control calitate sau linii de testare din Români
       "Automotive — teste de conversie a puterii pentru componente electrice",
       "Laboratoare de service — instrumentație de bancă pentru diagnoză și reparații"
     ],
-    infinitrade: `Pentru GW Instek lucrăm cu categoriile de produse publicate pe site-ul producătorului, fără date proprii despre stocul din Taiwan sau despre termenele lor reale de fabricație. Aducem instrumentele GW Instek la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de modelul exact sau, dacă nu-l cunoașteți, de parametrii de test necesari — tensiune, curent, bandă de frecvență. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din acest catalog extins de instrumentație.`,
+    infinitrade: `Pentru GW Instek lucrăm cu categoriile de produse din documentația producătorului, fără date proprii despre stocul din Taiwan sau despre termenele lor reale de fabricație. Aducem instrumentele GW Instek la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de modelul exact sau, dacă nu-l cunoașteți, de parametrii de test necesari — tensiune, curent, bandă de frecvență. Nu putem confirma disponibilitate permanentă din stoc pentru fiecare model din acest catalog extins de instrumentație.`,
     limitation: "Nu putem confirma calibrarea sau certificatul de etalonare pentru un instrument GW Instek adus prin comandă, dincolo de ce oferă producătorul standard.",
     productCodes: [
       {
@@ -1453,7 +1453,7 @@ Pentru centre de date, ferme eoliene sau instalații industriale din România un
       "Centre de date — monitorizare umiditate și servicii de mentenanță dedicate",
       "Industrie de proces — senzori de umiditate, punct de rouă și CO2"
     ],
-    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs de pe site-ul producătorului, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
+    infinitrade: `Pentru Vaisala lucrăm cu fișele de produs din documentația tehnică a producătorului, fără date proprii despre stocul din Vantaa. Aducem senzori și instrumente Vaisala la comandă, prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, avem nevoie de aplicația exactă — proces industrial, mediu exterior, zonă cu risc de explozie — și de parametrul măsurat: umiditate, punct de rouă, CO2 sau vânt. Nu promitem disponibilitate permanentă din stoc pentru fiecare senzor din acest portofoliu amplu de instrumentație.`,
     limitation: "Nu putem confirma certificarea ATEX sau alte aprobări de zonă explozivă pentru un model Vaisala fără fișa tehnică specifică a variantei comandate.",
     productCodes: [
       {

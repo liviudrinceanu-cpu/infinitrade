@@ -52,7 +52,7 @@ ProMinent oferă și sisteme de dezinfecție, stații de neutralizare și alte e
       'Textile și vopsitorii',
       'Agricultură și irigații (fertilizare automată)'
     ],
-    infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24–72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Vă ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația dumneavoastră.`,
+    infinitrade: `La InfiniTrade aducem pompele dozatoare ProMinent și accesoriile aferente pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare model. Ca formulă generală a firmei, produsele deja pregătite pot ajunge în 24–72 h, iar seriile Gamma, Smart Digital sau Bellozon comandate special durează 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne codul pompei sau al controlerului, debitul și presiunea necesară și aplicația (apă potabilă, industrial, pharma); nu publicăm prețuri, fiecare cerere primește cotație individuală. Vă ajutăm la alegerea variantei potrivite și la organizarea transportului către instalația dumneavoastră.`,
     sources: [
       {"title":"ProMinent Product Catalogue 2020 Vol. 1 — Metering Pumps (pompe dozatoare)","url":"https://www.prominent.com/resources/Catalogue/English/9300/Metering-Pumps-Components-ProMinent-Product-Catalogue-2020-Volume-1.pdf","publisher":"ProMinent","accessed":"2026-09-22"},
       { title: 'ProMinent – site oficial', url: 'https://www.prominent.com/en', publisher: 'ProMinent GmbH', accessed: '2026-09-22' },
@@ -152,7 +152,7 @@ ProMinent oferă și sisteme de dezinfecție, stații de neutralizare și alte e
       },
       {
         "q": "Livrați pompe dozatoare ProMinent în România?",
-        "a": "Da, aducem la comandă pompe ProMinent pe baza cataloagelor publice ale producătorului, fără gama pe raft permanent. Livrarea se încadrează de regulă în 1–4 săptămâni de la comandă, în funcție de model și de accesoriile solicitate. Recomandăm confirmarea seriei exacte înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă pompe ProMinent pe baza documentației tehnice a producătorului, fără gama pe raft permanent. Livrarea se încadrează de regulă în 1–4 săptămâni de la comandă, în funcție de model și de accesoriile solicitate. Recomandăm confirmarea seriei exacte înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă ProMinent?",
@@ -176,7 +176,7 @@ ProMinent oferă și sisteme de dezinfecție, stații de neutralizare și alte e
 
 Renold oferă lanțuri conform standardelor BS/DIN/ANSI (seria 08B până la 32B pentru transmisie, seria heavy-duty pentru transportoare, lanțuri din inox pentru industria alimentară și farmaceutică). Au și lanțuri speciale: Synergy (rezistență ridicată la uzură și oboseală), lanțuri cu atașamente pentru transportoare, lanțuri cu pas lung pentru aplicații cu viteză mică și cuplu mare. Pe lângă lanțuri, cuplajele Renold (Hi-Tec, Omega) sunt folosite peste tot în industrie pentru conectarea axelor cu compensare dezaliniere. Renold oferă și roți dințate (pinioane) pentru lanțurile de transmisie. Gama Renold se adresează aplicațiilor de transmisie mecanică din industrie, de exemplu linii de îmbuteliere, cimentării sau minerit.
 
-Renold oferă un selector online de lanțuri (Chain Selector), pentru alegerea lanțului potrivit aplicației.`,
+Alegerea lanțului potrivit se face în funcție de aplicație, pe baza datelor de sarcină și viteză.`,
     whyChoose: [
       'Peste 140 ani experiență în fabricație lanțuri - know-how britanic consacrat',
       'Gamă BS/DIN/ANSI pentru lanțuri de transmisie și transportoare',
@@ -355,7 +355,7 @@ Soluțiile de monitorizare disponibile se confirmă din documentația producăto
       'HVAC și utilități (ventilatoare industriale, pompe)',
       'Food & beverage (linii producție, transportoare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din surse publice ale producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24–72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 1–4 săptămâni. Trimiteți-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Vă ajutăm să identificați echivalentul potrivit chiar dacă nu aveți codul exact Rexnord.`,
+    infinitrade: `Prin InfiniTrade comandăm lagăre Link-Belt, cuplaje Omega/Addax și lanțuri Rex de la Regal Rexnord pentru clienții industriali din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile despre gamă provin din documentația tehnică a producătorului, fără acces la date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, reperele deja pregătite ajung în 24–72 h, iar cele comandate special (lagăre custom, cuplaje pentru momente mari) durează 1–4 săptămâni. Trimiteți-ne codul piesei sau desenul tehnic, sarcina și turația aplicației pentru o cotație corectă; nu publicăm prețuri fixe, fiecare cerere e evaluată individual. Vă ajutăm să identificați echivalentul potrivit chiar dacă nu aveți codul exact Rexnord.`,
     sources: [
       {"title":"PB22400 Link-Belt Pillow Block Spherical Roller Bearings","url":"https://www.rexnord.com/products/bearings/link-belt-spherical-roller-bearings/solid-housed-pillow-blocks/pb22400","publisher":"Rexnord","accessed":"2026-09-22"},
       {"title":"Couplings - Process & Motion Control","url":"https://www.rexnord.com/products-services/process-motion-control/couplings","publisher":"Rexnord","accessed":"2026-09-22"},
@@ -366,7 +366,7 @@ Soluțiile de monitorizare disponibile se confirmă din documentația producăto
     productCodes: [
       {
         "code": "PB22400",
-        "description": "Lagăr Link-Belt cu carcasă solidă, pillow block (marcat ca retras din producție pe pagina oficială; disponibilitatea se confirmă)"
+        "description": "Lagăr Link-Belt cu carcasă solidă, pillow block (marcat ca retras din producție în documentația producătorului; disponibilitatea se confirmă)"
       },
       {
         "code": "PB22500",
@@ -455,7 +455,7 @@ Soluțiile de monitorizare disponibile se confirmă din documentația producăto
     founded: 1961,
     headquarters: 'Herborn, Germania',
     employees: '12000+',
-    overview: `Rittal este unul dintre producătorii importanți din Europa în domeniul dulapurilor electrice și al soluțiilor de climatizare pentru tablouri. Producătorul a contribuit la standardizarea dulapurilor modulare și nu vinde doar tablou gol - oferă sistem complet modular cu uși, panouri laterale, plăci montaj, bare colectoare, organizare cabluri, sisteme de răcire active și pasive, monitorizare digitală. Configuratorul online Rittal Therm calculează, pe baza puterii disipate și a temperaturii ambiante, sistemul de climatizare necesar.
+    overview: `Rittal este unul dintre producătorii importanți din Europa în domeniul dulapurilor electrice și al soluțiilor de climatizare pentru tablouri. Producătorul a contribuit la standardizarea dulapurilor modulare și nu vinde doar tablou gol - oferă sistem complet modular cu uși, panouri laterale, plăci montaj, bare colectoare, organizare cabluri, sisteme de răcire active și pasive, monitorizare digitală. Sistemul de climatizare necesar se dimensionează pe baza puterii disipate și a temperaturii ambiante.
 
 Gama Rittal acoperă: dulapuri de podea seria TS 8 și VX25 (în mai multe dimensiuni, de la dulapuri mici la panouri industriale mari), dulapuri montaj perete (compact pentru instalații mici), rack-uri IT seria VX IT (19 inch pentru servere și networking), sisteme de climatizare (unități tavan Blue e+, chiller-uri lichid, heat exchanger), sisteme de distribuție energie (PDU, busbar), organizare cabluri și management accesorii. Seria VX25 este sistemul modular de dulapuri al producătorului, cu sistem de asamblare rapidă, ușă reversibilă stânga/dreapta și grad de protecție până la IP55, conform producătorului. Pentru IT și datacentre au seria TS IT cu PDU integrate, monitorizare consumuri, cable management optimizat pentru servere 1U-4U. Sistemele de climatizare Blue e+ sunt unități de climatizare cu eficiență energetică ridicată, conform producătorului, utilizate pe tablouri în care electronicele disipă multă căldură (variatoare de frecvență, PLC-uri mari, servere industriale). Rittal oferă, conform producătorului, software pentru calculul necesarului de climatizare și instrumente digitale de configurare, în parteneriat cu Eplan.
 
@@ -465,7 +465,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
       'Sistem modular VX25 cu asamblare rapidă, conform producătorului',
       'Climatizare Blue e+ cu eficiență energetică ridicată, conform producătorului',
       'Software gratuit Therm pentru calcul climatizare - dimensionare pe baza puterii disipate',
-      'Compatibilitate Eplan și configurator 3D - proiectare rapidă și precisă',
+      'Compatibilitate Eplan și date 3D - proiectare rapidă și precisă',
       'IoT monitoring pentru tablouri - alertele instant și management centralizat'
     ],
     keyProducts: [
@@ -564,7 +564,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
       },
       {
         "q": "Livrați dulapuri și sisteme de climatizare Rittal în România?",
-        "a": "Da, aducem la comandă dulapuri și sisteme de climatizare Rittal pe baza informațiilor publice ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Recomandăm precizarea seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă dulapuri și sisteme de climatizare Rittal pe baza documentației tehnice a producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de configurație. Recomandăm precizarea seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de dulap Rittal VX25?",
@@ -588,7 +588,7 @@ Producătorul a investit în digitalizare și IoT - platforma Rittal IoT Interfa
 
 Portofoliul Rockwell acoperă toată piramida automatizării: la nivel câmp au senzori inductivi/capacitivi, fotocelule, encodere seria 842E, butoane și semnalizări luminoase seria 800. La nivel control au PLC-uri de la Micro800 (micro PLC pentru mașini simple) până la ControlLogix (PLC modular scalabil pentru linii complexe) și PAC-uri (controllere avansate cu motion control integrat). Variatorii PowerFlex acoperă o gamă largă de puteri; puterea exactă a fiecărui model se confirmă pe cod. HMI-urile PanelView sunt disponibile în mai multe dimensiuni de ecran, în funcție de serie; software-ul inclus se confirmă pe cod. Pentru safety au gama Guardlogix (PLC-uri safety integrated SIL3) și dispozitive safety (light curtain, safety relay, interlock switches). Software-ul Studio 5000 se folosește pentru programarea controlerelor Logix 5000, inclusiv funcții de motion și safety; compatibilitatea cu fiecare controler se confirmă pe cod. La nivel enterprise au FactoryTalk suite pentru MES, SCADA, historian, analytics - practic ai vizibilitate completă de la senzor până la management dashboard.
 
-Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics trimite date din producție în cloud (Azure), rulează algoritmi machine learning pentru predictive maintenance și vă raportează anomalii înainte să se transforme în downtime. Oferă și Connected Services - inginerii Rockwell se conectează remote la instalația dumneavoastră, fac diagnostic, update firmware, optimizare performanță. Pentru aplicații critice (pharma, food) au soluții validate conform FDA 21 CFR Part 11 și GAMP5. Rockwell Automation oferă cursuri și documentație prin site-ul producătorului; asistența locală se confirmă la fiecare cerere. Dacă construiți automatizare industrială și doriți ecosistem complet interoperabil cu suport pe termen lung, Allen-Bradley este o opțiune de încredere.`,
+Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics trimite date din producție în cloud (Azure), rulează algoritmi machine learning pentru predictive maintenance și vă raportează anomalii înainte să se transforme în downtime. Oferă și Connected Services - inginerii Rockwell se conectează remote la instalația dumneavoastră, fac diagnostic, update firmware, optimizare performanță. Pentru aplicații critice (pharma, food) au soluții validate conform FDA 21 CFR Part 11 și GAMP5. Rockwell Automation oferă cursuri și documentație tehnică; asistența locală se confirmă la fiecare cerere. Dacă construiți automatizare industrială și doriți ecosistem complet interoperabil cu suport pe termen lung, Allen-Bradley este o opțiune de încredere.`,
     whyChoose: [
       'Ecosistem complet integrat EtherNet/IP - de la senzor la SCADA fără conversii protocol',
       'PLC-uri CompactLogix și ControlLogix cu fiabilitate ridicată, conform producătorului',
@@ -639,7 +639,7 @@ Rockwell a investit masiv în IIoT și cloud - platforma FactoryTalk Analytics t
       'Energie (centrale electrice, renewable)',
       'Water/wastewater (stații pompare, tratare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe informațiile publice disponibile de la producător, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24–72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, trimiteți-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Vă ajutăm să identificați componenta potrivită din gama Allen-Bradley.`,
+    infinitrade: `Prin InfiniTrade comandăm echipamente Rockwell Automation (Allen-Bradley) - PLC-uri CompactLogix/ControlLogix, variatoare PowerFlex, HMI PanelView - pentru industria din România, prin canale de aprovizionare din Uniunea Europeană. Ne bazăm pe documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare referință. Ca formulă generală a firmei, articolele deja pregătite ajung în 24–72 h, iar configurațiile complexe (șasiuri ControlLogix complete, variatoare mari, sisteme safety) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, trimiteți-ne codul complet al produsului, cantitatea și, dacă e cazul, schema aplicației; nu publicăm prețuri, fiecare comandă e evaluată separat. Vă ajutăm să identificați componenta potrivită din gama Allen-Bradley.`,
     sources: [
       {"title":"Programmable Controllers","url":"https://www.rockwellautomation.com/en-us/products/hardware/allen-bradley/programmable-controllers.html","publisher":"Rockwell Automation","accessed":"2026-09-22"},
       { title: 'Rockwell Automation – About Us', url: 'https://www.rockwellautomation.com/en-us/company/about-us.html', publisher: 'Rockwell Automation, Inc.', accessed: '2026-09-22' },
@@ -790,7 +790,7 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
       'Pulp & paper (role procesare, transportoare)',
       'Infrastructură (tuneluri, poduri, autostrăzi - control traffic)'
     ],
-    infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din surse publice ale producătorului și din cataloagele tehnice oficiale, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24–72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 1–4 săptămâni la comandă. Pentru o ofertă corectă, transmiteți-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră vă ajută la alegerea modelului potrivit pentru aplicația dumneavoastră.`,
+    infinitrade: `La InfiniTrade aducem echipamente Schneider Electric din divizia industrială - PLC-uri Modicon, variatoare Altivar, HMI Harmony - pentru clienții din România, prin canale de aprovizionare din Uniunea Europeană. Lucrăm din documentația tehnică a producătorului, fără date proprii despre stocul fiecărui model. Ca formulă generală a firmei, produsele deja pregătite se livrează în 24–72 h, iar configurațiile speciale (redundanță M580, Altivar Process, sisteme Tesys island) durează 1–4 săptămâni la comandă. Pentru o ofertă corectă, transmiteți-ne referința produsului, puterea necesară și tipul de comunicație folosit; nu afișăm prețuri fixe, fiecare cerere primește cotație individuală. Echipa noastră vă ajută la alegerea modelului potrivit pentru aplicația dumneavoastră.`,
     sources: [
       {"title":"Altivar soft starters and variable speed drives for industry","url":"https://www.se.com/us/en/work/products/master-ranges/altivar/","publisher":"Schneider Electric","accessed":"2026-09-23"},
       { title: 'Schneider Electric – Company Profile', url: 'https://www.se.com/ww/en/about-us/company-profile/', publisher: 'Schneider Electric SE', accessed: '2026-09-22' },
@@ -902,14 +902,14 @@ Schneider a investit masiv în IIoT și cloud computing - platforma EcoStruxure 
 
 Gama Schrack include: relee industriale (interfață, temporizatoare, monitorizare, safety), contactoare modulare și putere (9A-800A), protecții diferențiale (RCCB, RCBO) și întrerupătoare automate (MCB de la 1A la 125A), aparataj modular pentru tablouri rezidențiale, componente instalații electrice (prize, întrerupătoare, doze), tablouri prefabricate și dulapuri metalice pentru distribuție. Releele Schrack se livrează în variante cu soclu sau pentru montaj pe șină DIN, conform catalogului de relee al producătorului; seria, tipul de bobină și parametrii exacți se confirmă pe cod. Schrack oferă contactoare modulare și de putere; seriile, curenții nominali și durata de viață se confirmă pe cod, din fișa tehnică a producătorului. 
 
-Documentația tehnică (fișe tehnice, certificate, declarații de conformitate) este disponibilă pe site-ul producătorului. Produsele Schrack se adresează firmelor de instalații electrice, integratorilor și constructorilor de tablouri. Disponibilitatea și termenul de livrare se confirmă pe cod, la fiecare cerere.`,
+Documentația tehnică (fișe tehnice, certificate, declarații de conformitate) este emisă de producător. Produsele Schrack se adresează firmelor de instalații electrice, integratorilor și constructorilor de tablouri. Disponibilitatea și termenul de livrare se confirmă pe cod, la fiecare cerere.`,
     whyChoose: [
       'Brand austriac cu peste 100 ani experiență în componente electrice',
       'Prezență locală în România (filiale, inclusiv la Sibiu), din 1998',
       'Gama include produse pentru tablouri (relee, contactoare, protecții) din aceeași familie de produse',
       'Aparataj pentru instalații electrice rezidențiale, comerciale și industriale ușoare, conform gamei publicate de producător',
       'Documentație tehnică completă și certificate conformitate - ușor de integrat în proiecte',
-      'Documentație tehnică disponibilă online pe site-ul producătorului'
+      'Documentație tehnică emisă de producător'
     ],
     keyProducts: [
       {
@@ -949,7 +949,7 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
       'Industria alimentară (fabrici mici, brutării, patiserii)',
       'Service auto și ateliere mecanice'
     ],
-    infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24–72 h, iar comenzile mari sau produsele mai puțin uzuale durează 1–4 săptămâni. Pentru o cotație corectă, spuneți-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Vă ajutăm la alegerea variantei potrivite pentru tabloul dumneavoastră electric.`,
+    infinitrade: `Prin InfiniTrade furnizăm componente electrice Schrack - relee LZX, contactoare LST, protecții modulare - pentru instalatori și integratori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din această pagină provin din documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, articolele deja pregătite ajung în 24–72 h, iar comenzile mari sau produsele mai puțin uzuale durează 1–4 săptămâni. Pentru o cotație corectă, spuneți-ne codul produsului, cantitatea și tensiunea de lucru necesară; nu publicăm prețuri de listă, fiecare comandă primește ofertă separată. Vă ajutăm la alegerea variantei potrivite pentru tabloul dumneavoastră electric.`,
     sources: [
       {"title":"Relay Catalogue","url":"https://image.schrack.com/produktkataloge/w_k-relay-e9.pdf","publisher":"Schrack Technik","accessed":"2026-09-23"},
       { title: 'Schrack Technik – site oficial', url: 'https://www.schrack.com/', publisher: 'Schrack Technik GmbH', accessed: '2026-09-22' },
@@ -1045,11 +1045,11 @@ Documentația tehnică (fișe tehnice, certificate, declarații de conformitate)
     founded: 1907,
     headquarters: 'Londra, Marea Britanie (Shell plc)',
     employees: '80000+ (Shell global)',
-    overview: `Shell este unul dintre producătorii importanți de lubrifianți industriali la nivel mondial - când zici Shell Tellus (hidraulic), Shell Omala (angrenaje), Shell Gadus (unsori) vorbești despre produse recunoscute în industrie de zeci de ani. Aprobările de la producătorii de echipamente se confirmă pe fișa tehnică a fiecărui produs; serviciile de lubrifiere ale Shell se confirmă direct la producător. 
+    overview: `Shell este unul dintre producătorii importanți de lubrifianți industriali la nivel mondial - când zici Shell Tellus (hidraulic), Shell Omala (angrenaje), Shell Gadus (unsori) vorbești despre produse recunoscute în industrie de zeci de ani. Aprobările de la producătorii de echipamente se confirmă pe fișa tehnică a fiecărui produs; serviciile de lubrifiere ale Shell se confirmă de noi, la cerere. 
 
 Gama Shell Lubricants industriale include: Shell Tellus (uleiuri hidraulice de la HLP 32 până la HLP 100, sintetice pentru temperaturi extreme), Shell Omala (uleiuri angrenaje industriale de la ISO 68 până la 680, cu aditivi EP pentru presiune extremă), Shell Gadus (unsori pe bază litiu, calciu, polimeri - pentru lagăre, ghidaje, lanțuri), Shell Turbo (uleiuri turbine cu gaze și abur), Shell Diala (uleiuri transformatoare electrice), Shell Mysella (uleiuri compresoare cu gaz natural), Shell Rimula (uleiuri motoare diesel heavy-duty pentru utilaje). Seria Tellus S2 este gama de uleiuri hidraulice minerale; intervalul de schimb se stabilește conform fișei tehnice și recomandărilor producătorului utilajului. Omala S4 este gama sintetică pentru angrenaje; domeniul de temperatură, intervalul de schimb și eficiența energetică se confirmă din fișa tehnică a gradului ales. Gadus S5 este gama de unsori pentru sarcini mari și condiții dificile; domeniul de temperatură se confirmă din fișa tehnică a produsului ales.
 
-Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitatea și funcțiile lor se confirmă direct la producător.   `,
+Shell oferă servicii și instrumente digitale pentru lubrifiere; disponibilitatea și funcțiile lor se confirmă de noi, la cerere.   `,
     whyChoose: [
       'Brand global, înființat în 1907',
       'Gamă pentru aplicații industriale - de la hidraulic la turbine',
@@ -1235,7 +1235,7 @@ SICK a investit în digitalizare - platforma SICK AppSpace permite programarea s
       'Steel și metale (profiling, measurement, temperature)',
       'Energie regenerabilă (monitoring turbine eoliene, panouri solare)'
     ],
-    infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din surse publice ale producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali se livrează în 24–72 h din stocul nostru sau din stoc extern, atunci când sunt disponibili, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, transmiteți-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Vă ajutăm să identificați senzorul potrivit chiar dacă nu aveți codul exact SICK.`,
+    infinitrade: `Prin InfiniTrade comandăm senzori și sisteme SICK - fotoelectrici, laser, scannere de siguranță - pentru automatizări industriale din România, prin canale de aprovizionare din Uniunea Europeană. Datele tehnice de mai sus provin din documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare cod. Ca formulă generală a firmei, senzorii uzuali se livrează în 24–72 h din stocul nostru sau din stoc extern, atunci când sunt disponibili, iar echipamentele complexe (scannere safety, camere inteligente) comandate din fabrică durează 1–4 săptămâni. Pentru o cotație corectă, transmiteți-ne codul senzorului, aplicația și mediul de lucru (temperatură, praf, umiditate); nu afișăm prețuri fixe, fiecare cerere e evaluată individual. Vă ajutăm să identificați senzorul potrivit chiar dacă nu aveți codul exact SICK.`,
     sources: [
       {"title":"SICK - sitemap oficial de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/PRODUCT-en-USD-us.xml","publisher":"SICK AG","accessed":"2026-09-26"},
       {"title":"SICK - sitemap categorii de produse (US/EN)","url":"https://www.sick.com/us/en/sitemaps/CATEGORY-en-USD-us-0.xml","publisher":"SICK AG","accessed":"2026-09-26"},
@@ -1292,7 +1292,7 @@ SICK a investit în digitalizare - platforma SICK AppSpace permite programarea s
     faq: [
       {
         "q": "Ce înseamnă codul de tip la encoderele SICK, de exemplu A3M60?",
-        "a": "Codul indică familia și seria produsului: A3M60 este un encoder absolut multitură cu ieșire pe magistrală industrială, iar restul denumirii diferențiază rezoluția și tipul de interfață. Pentru montaj pe axul unei mașini se verifică diametrul arborelui și protocolul de comunicație cerut de automatizarea existentă, detalii disponibile în fișele tehnice publicate de producător pe pagina oficială."
+        "a": "Codul indică familia și seria produsului: A3M60 este un encoder absolut multitură cu ieșire pe magistrală industrială, iar restul denumirii diferențiază rezoluția și tipul de interfață. Pentru montaj pe axul unei mașini se verifică diametrul arborelui și protocolul de comunicație cerut de automatizarea existentă, detalii disponibile în fișele tehnice publicate de producător."
       },
       {
         "q": "Livrează SICK senzori și encodere în România?",
@@ -1320,13 +1320,13 @@ SICK a investit în digitalizare - platforma SICK AppSpace permite programarea s
 
 Gama Siemens Electrical include: întrerupătoare automate modulare (seria 5SL miniature circuit breakers 1-125A, caracteristici B/C/D), protecții diferențiale (seria 5SM RCCB 25-125A, sensibilitate 10mA-300mA), întrerupătoare automate diferențiale combinate (seria 5SU RCBO), întrerupătoare compacte (seria 3VA 160-1600A pentru aplicații industriale), contactoare putere seria SIRIUS 3RT, protecții motor seria 3RV (0.1-100A cu protecție termică și magnetică), relee auxiliare seria 3RH, soft-startere seria 3RW, aparataj modular (buton, semnalizări, comutatoare seria 3SB/3SU), tablouri prefabricate SIVACON S4/S8 cu busbar și modularitate completă. Seria 5SL se folosește în instalații rezidențiale și comerciale - putere de rupere 6kA/10kA (suficient pentru majoritatea rețelelor), design compact (1 modul per pol), durată mecanică >20000 operații, certificate conform IEC 60898. Contactoarele SIRIUS 3RT se aleg după puterea motorului și tensiunea bobinei; durata de viață electrică și accesoriile disponibile se confirmă din fișa tehnică a modelului.
 
-Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (TIP) conectează toate echipamentele electrice (întrerupătoare, contactoare, protecții motor) în rețea Profinet/Ethernet și oferă monitorizare consumuri, alarme predictive, istoric evenimente. Au și configurator online Siemens LV Configurator pentru proiectare tablouri - introduceți schemă unifilară și sistemul vă recomandă exact ce componente Siemens să folosiți, calculează secțiuni cabluri, verifică selectivitate protecții. Configurațiile SIVACON pentru aplicații critice se confirmă din documentația producătorului. Disponibilitatea produselor și a suportului local se confirmă la fiecare cerere. `,
+Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (TIP) conectează toate echipamentele electrice (întrerupătoare, contactoare, protecții motor) în rețea Profinet/Ethernet și oferă monitorizare consumuri, alarme predictive, istoric evenimente. Pentru proiectarea tablourilor, componentele, secțiunile de cabluri și selectivitatea protecțiilor se stabilesc pe baza schemei unifilare. Configurațiile SIVACON pentru aplicații critice se confirmă din documentația producătorului. Disponibilitatea produselor și a suportului local se confirmă la fiecare cerere. `,
     whyChoose: [
       'Brand global cu 175+ ani experiență în tehnologie electrică - know-how german consacrat',
       'Gamă de la MCB la tablouri SIVACON',
       'Contactoare SIRIUS; durata de viață electrică se confirmă din fișa tehnică',
       'Digitalizare avansată (Totally Integrated Power) - monitorizare consumuri și predictive maintenance',
-      'Configurator online LV pentru sizing rapid și verificare selectivitate - proiectare simplificată',
+      'Dimensionare și verificare a selectivității pe baza schemei unifilare - proiectare simplificată',
       'Disponibilitatea și suportul local se confirmă la fiecare cerere'
     ],
     keyProducts: [
@@ -1344,7 +1344,7 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       },
       {
         name: 'Tablouri prefabricate SIVACON S4/S8 cu modularitate și busbar integrat',
-        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistemul pentru aplicații mari; curentul barelor, protecția la arc intern și opțiunile de integrare se confirmă din documentația producătorului. Sunt folosite frecvent în fabrici mari, spitale, datacentre - calitatea construcției este ridicată (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea este ridicată (puteți adăuga compartimente sau schimba configurația fără modificări structurale) . Siemens oferă și configurator 3D online - proiectați tabloul virtual, vedeți cum arată, primiți listă completă componente. `
+        description: `Pentru distribuție energie în industrie, clădiri comerciale, datacentre Siemens oferă sistemul modular SIVACON - tablouri prefabricate cu busbar (bare colectoare) integrat, compartimente modulare pentru montaj aparataj, grad protecție IP30-IP54, certificare type-tested conform IEC 61439. SIVACON S4 e soluția pentru tablouri mici-medii - design flexibil cu compartimente retractabile (withdrawable) pentru mentenanță fără oprire instalație, bare colectoare cupru sau aluminiu, opțiuni comunicație digitală pentru monitorizare. SIVACON S8 e sistemul pentru aplicații mari; curentul barelor, protecția la arc intern și opțiunile de integrare se confirmă din documentația producătorului. Sunt folosite frecvent în fabrici mari, spitale, datacentre - calitatea construcției este ridicată (vopsea rezistentă, uși cu închidere precisă, compartimentare clară), flexibilitatea este ridicată (puteți adăuga compartimente sau schimba configurația fără modificări structurale) . Tabloul se poate proiecta pe baza listei complete de componente, stabilite împreună cu noi. `
       }
     ],
     certifications: [
@@ -1373,13 +1373,13 @@ Siemens a investit masiv în digitalizare - platforma Totally Integrated Power (
       'Water/wastewater (stații pompare, tratare)',
       'Transport (trenuri, metrou, tramvaie - sisteme tracțiune)'
     ],
-    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din surse publice ale producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24–72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Vă ajutăm la verificarea selectivității protecțiilor pentru tabloul dumneavoastră.`,
+    infinitrade: `La InfiniTrade furnizăm echipamente electrice Siemens - întrerupătoare 5SL, contactoare SIRIUS, protecții motor 3RV, tablouri SIVACON - pentru instalatori din România, prin canale de aprovizionare din Uniunea Europeană. Informațiile din fișa de brand provin din documentația tehnică a producătorului, fără date proprii despre stocul fiecărei referințe. Ca formulă generală a firmei, componentele uzuale deja pregătite ajung în 24–72 h, iar tablourile SIVACON sau configurațiile complexe comandate din fabrică durează 1–4 săptămâni. Pentru o ofertă corectă, trimiteți-ne curentul nominal, caracteristica dorită (B/C/D) și schema unifilară dacă există; nu publicăm prețuri de listă, fiecare comandă primește cotație separată. Vă ajutăm la verificarea selectivității protecțiilor pentru tabloul dumneavoastră.`,
     sources: [
       {"title":"Industrial Controls","url":"https://www.siemens.com/global/en/products/automation/industrial-controls.html","publisher":"Siemens","accessed":"2026-09-22"},
       { title: 'Siemens AG – About', url: 'https://www.siemens.com/global/en/company/about.html', publisher: 'Siemens AG', accessed: '2026-09-22' },
       { title: 'Siemens – Wikipedia', url: 'https://en.wikipedia.org/wiki/Siemens', publisher: 'Wikipedia', accessed: '2026-09-22' }
     ],
-    limitation: 'Nu putem confirma configurarea software (LV Configurator, TIP) ca serviciu inclus, nici stocul permanent pentru toate seriile SIVACON.',
+    limitation: 'Nu putem confirma configurarea software (TIP) ca serviciu inclus, nici stocul permanent pentru toate seriile SIVACON.',
     productCodes: [
       {
         "code": "3RV2",

@@ -319,7 +319,7 @@ Optibelt face parte din grupul Arntz Optibelt Group, cu sediul la Höxter. `,
       },
       {
         "q": "Livrați curele Optibelt în România?",
-        "a": "Da, curelele Optibelt se aduc la comandă, pe baza codului de profil și a lungimii găsite în catalogul de produse al producătorului. Nu avem un stoc propriu afișat pe site; ca durată orientativă, socotiți 1–4 săptămâni la comandă, în funcție de profilul exact și lungimea cerută pentru transmisia dumneavoastră."
+        "a": "Da, curelele Optibelt se aduc la comandă, pe baza codului de profil și a lungimii găsite în catalogul de produse al producătorului. Nu avem stoc propriu; ca durată orientativă, socotiți 1–4 săptămâni la comandă, în funcție de profilul exact și lungimea cerută pentru transmisia dumneavoastră."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de curea Optibelt?",
@@ -348,7 +348,7 @@ Pall oferă membrane și medii filtrante pentru filtrare, separare și purificar
     whyChoose: [
       'Portofoliu amplu de filtrare pentru aplicații critice (farma, semiconductori)',
       'Membrane Supor din polietersulfonă, în grade de reținere de 0,2 și 0,45 microni',
-      'Documentație tehnică publicată de producător pentru fiecare familie de produse',
+      'Documentație tehnică a producătorului pentru fiecare familie de produse',
       'Elemente filtrante Ultipor III pentru hidraulică și lubrifiere, cu rapoarte Beta declarate de producător',
       'Suport tehnic și validare pentru industrii reglementate',
       'Parte din Danaher - resurse și inovație susținută'
@@ -463,7 +463,7 @@ Pall oferă membrane și medii filtrante pentru filtrare, separare și purificar
       },
       {
         "q": "Livrați filtre Pall în România?",
-        "a": "Da, elementele filtrante Pall ajung la comandă, identificate după codul complet (lungime, cod de reținere, tip adaptor) din fișele tehnice ale producătorului. Fără stoc propriu afișat pe site, termenul orientativ este 1–4 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei la producător."
+        "a": "Da, elementele filtrante Pall ajung la comandă, identificate după codul complet (lungime, cod de reținere, tip adaptor) din fișele tehnice ale producătorului. Fără stoc propriu, termenul orientativ este 1–4 săptămâni la comandă, în funcție de disponibilitatea exactă a variantei la producător."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de element filtrant Pall?",
@@ -682,7 +682,7 @@ Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec si
       'Bariere și izolatoare Ex pentru conectare safe area - hazardous area',
       'Sisteme RFID UHF pentru tracking industrial',
       'Viziune industrială VOS pentru robotică și inspecție calitate',
-      'Documentație tehnică publicată de producător'
+      'Documentație tehnică a producătorului'
     ],
     keyProducts: [
       {
@@ -783,7 +783,7 @@ Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec si
       },
       {
         "q": "Livrați senzori Pepperl+Fuchs în România?",
-        "a": "Da, aducem la comandă senzori Pepperl+Fuchs pe baza informațiilor publice de pe pagina producătorului, fără gama pe raft permanent. Livrarea se face de regulă în 1–4 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact al senzorului înainte de comandă, pentru evitarea neconcordanțelor de montaj."
+        "a": "Da, aducem la comandă senzori Pepperl+Fuchs pe baza informațiilor din documentația tehnică a producătorului, fără gama pe raft permanent. Livrarea se face de regulă în 1–4 săptămâni de la comandă, în funcție de model. Recomandăm confirmarea codului exact al senzorului înainte de comandă, pentru evitarea neconcordanțelor de montaj."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de senzor inductiv Pepperl+Fuchs?",
@@ -927,7 +927,7 @@ Gama Permatex acoperă toate nevoile de mentenanță: etanșanți RTV siliconici
       },
       {
         "q": "Livrați produse Permatex în România?",
-        "a": "Da, aducem la comandă produse Permatex pe baza listei publice de pe pagina producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de produs și de cantitatea solicitată. Vă rugăm să confirmați denumirea exactă a produsului dorit înainte de comandă."
+        "a": "Da, aducem la comandă produse Permatex pe baza listei de produse din documentația producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de produs și de cantitatea solicitată. Vă rugăm să confirmați denumirea exactă a produsului dorit înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o comandă de garnituri lichide Permatex?",
@@ -1114,7 +1114,7 @@ Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germa
       },
       {
         name: 'Sisteme etichetare Thermofox',
-        description: 'Printer termic industrial pentru markare borniere, cabluri, panouri. Tehnologie thermal transfer - ribbon consumabil produce text rezistent UV, solvenți, abraziune.  Software Marking System - importă lista terminale din CAD, generează automat etichete conform standard. Suportă coduri: barcode 1D/2D, QR codes, DataMatrix pentru tracking asset. Material etichete: polyester, polyamide, polyolefin - rezistență temperatură -40°C până +150°C. Lățimi tape 6-50mm. Adhesive permanent sau removable. Pre-cut labels sau continuous tape. Aplicații: markare borniere Phoenix Contact (snap-on carriers), cable markers (wrap-around sau flag), panel labels, warning labels. Modelele de imprimante de marcare și caracteristicile lor se confirmă din documentația Phoenix Contact. Software gratuit download - design custom layouts, logo companie, fonts variable. Database connection pentru markare automată din bill of materials. '
+        description: 'Printer termic industrial pentru markare borniere, cabluri, panouri. Tehnologie thermal transfer - ribbon consumabil produce text rezistent UV, solvenți, abraziune.  Software Marking System - importă lista terminale din CAD, generează automat etichete conform standard. Suportă coduri: barcode 1D/2D, QR codes, DataMatrix pentru tracking asset. Material etichete: polyester, polyamide, polyolefin - rezistență temperatură -40°C până +150°C. Lățimi tape 6-50mm. Adhesive permanent sau removable. Pre-cut labels sau continuous tape. Aplicații: markare borniere Phoenix Contact (snap-on carriers), cable markers (wrap-around sau flag), panel labels, warning labels. Modelele de imprimante de marcare și caracteristicile lor se confirmă din documentația Phoenix Contact. Software gratuit - design custom layouts, logo companie, fonts variable. Database connection pentru markare automată din bill of materials. '
       }
     ],
     certifications: [
@@ -1223,7 +1223,7 @@ Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germa
 
 Tehnologia PNOZ acoperă toate funcțiile de siguranță: monitorizare emergency stop, safety gate monitoring cu guard locking, two-hand control, speed/standstill monitoring, light curtain evaluation. PSENcode sisteme codificate pentru protecție acces previne defeat simplu. PSENopt light curtains, disponibile în variante Type 2, Type 3 și Type 4, pentru protecția degetelor, a mâinilor sau a corpului. SafetyEYE este un sistem sigur de cameră pentru supravegherea spațiului în 3D. PNOZmulti 2 combină logica safety programabilă cu I/O integrate într-o singură unitate configurabilă prin software. PLC PSS4000 oferă logică safety SIL3 integrată cu automation standard într-o platformă unică.
 
-Pilz are 42 de filiale și sucursale în lume și 25 de parteneri comerciali; disponibilitatea suportului local și a instruirilor se confirmă la producător. Certificările și nivelurile de siguranță (PL, SIL) diferă pe model și se confirmă din fișa tehnică. Pilz oferă software de configurare pentru senzori (PSENopt Configurator, PSENscan Configurator). Documentația tehnică a componentelor Pilz este publicată de producător.`,
+Pilz are 42 de filiale și sucursale în lume și 25 de parteneri comerciali; disponibilitatea suportului local și a instruirilor se confirmă la producător. Certificările și nivelurile de siguranță (PL, SIL) diferă pe model și se confirmă din fișa tehnică. Pilz oferă software de configurare pentru senzori (PSENopt Configurator, PSENscan Configurator). Documentația tehnică a componentelor Pilz este cea a producătorului.`,
     whyChoose: [
       'Peste 75 de ani de experiență în safety automation',
       'Relee safety PNOZ; nivelul de siguranță (PL/SIL) diferă pe model și se confirmă din fișa tehnică',

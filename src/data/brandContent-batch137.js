@@ -9,7 +9,7 @@ export const brandContentBatch137 = {
 
 Ce diferențiază gama Aqua-Aerobic e integrarea mai multor etape de tratare într-un singur echipament sau bazin: reactorul AquaSBR desfășoară toate fazele tratării biologice — umplere, reacție, decantare, evacuare — într-un singur bazin, fără bazin separat de decantare secundară. Aeratorul de suprafață Aqua-Jet are, conform producătorului, peste 130.000 de unități instalate la nivel mondial, totalizând peste 2,4 milioane de cai putere, ceea ce arată o platformă mecanică rafinată de-a lungul mai multor generații de produs. Sistemul AquaNereda folosește nămol granular aerob, o tehnologie mai compactă decât nămolul activat clasic, utilă acolo unde spațiul de construcție e limitat.
 
-Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens acolo unde bazinele existente trebuie modernizate fără extindere de teren sau unde apar cerințe noi de calitate la evacuare. Aqua-Aerobic nu are pagină de distribuitori europeni vizibilă public pe site, așa că aducem echipamentele la comandă, prin import direct din SUA.`,
+Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens acolo unde bazinele existente trebuie modernizate fără extindere de teren sau unde apar cerințe noi de calitate la evacuare. Aqua-Aerobic nu avem date despre distribuitori europeni ai producătorului, așa că aducem echipamentele la comandă, prin import direct din SUA.`,
     whyChoose: [
       "Reactorul AquaSBR tratează apa uzată în întregime într-un singur bazin, fără decantoare secundare separate, ceea ce simplifică schema stației.",
       "Aeratorul Aqua-Jet are un istoric de peste 130.000 de unități instalate, un indiciu de maturitate mecanică a designului.",
@@ -49,7 +49,7 @@ Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens
     faq: [
       { q: "Ce produce Aqua-Aerobic Systems?", a: "Aqua-Aerobic Systems produce echipamente de aerare, mixare, filtrare și tratare biologică pentru stații de epurare municipale și industriale, printre care reactoare secvențiale AquaSBR, aeratoare de suprafață Aqua-Jet și sisteme cu nămol granular aerob AquaNereda. Compania are sediul în Illinois, SUA, și este activă din 1969 în acest domeniu." },
       { q: "Cum aleg reactorul AquaSBR potrivit pentru stația mea?", a: "Alegerea unui reactor AquaSBR pornește de la debitul zilnic de tratat și de la parametrii ceruți la evacuare (azot, fosfor, CBO5), pe care producătorul îi folosește pentru a dimensiona volumul bazinului și ciclul de operare. Recomandăm să trimiteți aceste date pentru a solicita o configurație Aqua-Aerobic." },
-      { q: "Se poate procura Aqua-Aerobic în România sau Europa?", a: "Da, la comandă: Aqua-Aerobic nu publică pe site-ul propriu o rețea de distribuție vizibilă în Europa, așa că aducem echipamentele prin import direct din SUA, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport." },
+      { q: "Se poate procura Aqua-Aerobic în România sau Europa?", a: "Da, la comandă: Aqua-Aerobic nu menționează în documentația proprie o rețea de distribuție vizibilă în Europa, așa că aducem echipamentele prin import direct din SUA, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport." },
       { q: "Ce trebuie să trimit pentru o ofertă de echipament Aqua-Aerobic?", a: "Pentru o ofertă corectă trimiteți debitul de apă uzată de tratat, calitatea cerută la evacuare, dimensiunile bazinelor existente (dacă e o modernizare) și eventualele constrângeri de spațiu. Pe baza acestor date solicităm producătorului o configurație și un termen orientativ de livrare." }
     ],
     evidenceClass: "market-signal-intl",
@@ -70,7 +70,7 @@ Pentru operatorii de stații de epurare din România, gama Aqua-Aerobic are sens
 
 În sitarea de la intrarea în stație, sita Aqua Guard® acoperă lățimi de canal standard între 0,3 și 2,7 metri și debite de până la 100 MGD (aproximativ 379.000 m³/zi) printr-o singură unitate, conform datelor publicate de producător. Filtrul continuu DynaSand® funcționează prin spălarea continuă a nisipului, fără oprirea filtrării pentru cicluri de backwash, spre deosebire de filtrele clasice cu nisip. Seria Hycor® acoperă echipamente de sitare rotativă și de deshidratare a nămolului, utile ca etapă intermediară între sitarea grosieră și tratarea biologică.
 
-Pentru un operator din România, gama Parkson are sens la modernizarea etapei de sitare dintr-o stație existentă sau la adăugarea unui filtru DynaSand pentru șlefuirea finală a efluentului. Parkson nu are, din câte am putut verifica pe site-ul propriu, un birou propriu sau o rețea de distribuție vizibilă în Europa, așa că aducem echipamentele la comandă, prin import din SUA.`,
+Pentru un operator din România, gama Parkson are sens la modernizarea etapei de sitare dintr-o stație existentă sau la adăugarea unui filtru DynaSand pentru șlefuirea finală a efluentului. Parkson nu are, din câte am putut verifica în documentația producătorului, un birou propriu sau o rețea de distribuție vizibilă în Europa, așa că aducem echipamentele la comandă, prin import din SUA.`,
     whyChoose: [
       "Sita Aqua Guard® acoperă debite de până la 100 MGD printr-o singură unitate, util la stații mari sau la extinderi de capacitate.",
       "Filtrul DynaSand® spală nisipul continuu, fără oprirea filtrării pentru cicluri de backwash, spre deosebire de filtrele clasice cu nisip.",
@@ -91,7 +91,7 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
       "Minerit — separare solide și clarificare a apelor din procesarea minereului"
     ],
     
-    infinitrade: `Pentru gama Parkson lucrăm strict cu informațiile publice disponibile pe site-ul producătorului, fără date proprii despre stocul acestor echipamente americane. Aducem la comandă site rotative Aqua Guard®, filtre DynaSand® sau echipamente Hycor® pentru linia de solide, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită lățimea canalului existent sau debitul de proiectat, tipul de solide din apa brută și, pentru filtrare, calitatea cerută la evacuare. Nu promitem disponibilitate din depozit pentru niciunul dintre aceste echipamente, fiecare unitate fiind configurată pe proiect.`,
+    infinitrade: `Pentru gama Parkson lucrăm strict cu informațiile din documentația tehnică a producătorului, fără date proprii despre stocul acestor echipamente americane. Aducem la comandă site rotative Aqua Guard®, filtre DynaSand® sau echipamente Hycor® pentru linia de solide, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită lățimea canalului existent sau debitul de proiectat, tipul de solide din apa brută și, pentru filtrare, calitatea cerută la evacuare. Nu promitem disponibilitate din depozit pentru niciunul dintre aceste echipamente, fiecare unitate fiind configurată pe proiect.`,
     limitation: "Nu putem confirma un birou Parkson în Europa pentru intervenții de service în perioada de garanție a producătorului.",
     productCodes: [
       { code: "Aqua Caiman® Vertical", description: "sită articulată verticală montată în canal pentru solide grosiere" },
@@ -119,7 +119,7 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
       { q: "Ce produce Parkson Corporation?", a: "Parkson Corporation produce echipamente pentru stații de epurare — sitare la intrarea în stație, aerare, tratare biologică, clarificare și filtrare terțiară — sub mărci precum Aqua Guard®, DynaSand® și Hycor®. Compania are sediul la Fort Lauderdale, Florida, și este activă din 1960." },
       { q: "Cum aleg o sită Aqua Guard potrivită pentru canalul meu?", a: "Alegerea depinde de lățimea canalului existent, de debitul maxim de apă brută și de dimensiunea solidelor de reținut, exprimată prin deschiderea elementului de filtrare (1–30 mm). Trimiteți aceste date pentru a solicita o configurație Aqua Guard de la producător." },
       { q: "Ce echivalent are un filtru DynaSand față de un filtru clasic cu nisip?", a: "Filtrul DynaSand® înlocuiește un filtru clasic cu nisip prin spălare continuă a mediului filtrant, fără oprirea procesului pentru backwash periodic, ceea ce reduce numărul de bazine paralele necesare pentru menținerea filtrării continue la debit constant." },
-      { q: "Se poate procura Parkson în România?", a: "Da, la comandă: nu am găsit pe site-ul Parkson o rețea de distribuție sau un birou propriu în Europa, așa că echipamentele se aduc prin import din SUA, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului." }
+      { q: "Se poate procura Parkson în România?", a: "Da, la comandă: nu avem informații despre o rețea de distribuție sau un birou propriu în Europa, așa că echipamentele se aduc prin import din SUA, cu un termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -137,9 +137,9 @@ Pentru un operator din România, gama Parkson are sens la modernizarea etapei de
     headquarters: "Lenexa, Kansas, SUA",
     overview: `Smith & Loveless este un producător american de stații de pompare și echipamente de epurare, cu sediul la Lenexa, Kansas, fondat în 1946. Gama include stații compacte de ridicare a apei uzate, sisteme de îndepărtare a gritului cu vortex, bioreactoare cu membrană și stații subterane de pompare pentru aplicații municipale, industriale și miniere. Pentru piața din România putem oferta din gama PISTA® pentru îndepărtarea gritului și din celelalte linii ale producătorului.
 
-Ce diferențiază Smith & Loveless e concentrarea pe echipamente compacte, gata dimensionate, mai degrabă decât pe componente individuale: sistemul de grit PISTA® folosește un vortex controlat mecanic pentru a separa nisipul din apa uzată înainte de tratarea biologică, cu pompe dedicate PISTA® TURBO™ care ating, conform producătorului, debite de până la 500 GPM (aproximativ 32 l/s) la puteri sub 40 CP. Stațiile subterane CAPSULAR® ajung, potrivit site-ului, la debite de până la 20.000 GPM pentru aplicații de pompare la scară mare. Bioreactorul cu membrană TITAN MBR™ combină tratarea biologică cu filtrarea prin membrană într-un singur echipament compact.
+Ce diferențiază Smith & Loveless e concentrarea pe echipamente compacte, gata dimensionate, mai degrabă decât pe componente individuale: sistemul de grit PISTA® folosește un vortex controlat mecanic pentru a separa nisipul din apa uzată înainte de tratarea biologică, cu pompe dedicate PISTA® TURBO™ care ating, conform producătorului, debite de până la 500 GPM (aproximativ 32 l/s) la puteri sub 40 CP. Stațiile subterane CAPSULAR® ajung, conform documentației producătorului, la debite de până la 20.000 GPM pentru aplicații de pompare la scară mare. Bioreactorul cu membrană TITAN MBR™ combină tratarea biologică cu filtrarea prin membrană într-un singur echipament compact.
 
-Pentru un operator din România, sistemele Smith & Loveless au sens la stații mici și medii unde spațiul disponibil e limitat și unde se caută un echipament gata dimensionat, nu o construcție civilă separată pentru fiecare treaptă. Din câte am putut vedea pe site-ul propriu, Smith & Loveless nu are birou propriu sau rețea de distribuție vizibilă în Europa; aducem echipamentele prin import direct din SUA.`,
+Pentru un operator din România, sistemele Smith & Loveless au sens la stații mici și medii unde spațiul disponibil e limitat și unde se caută un echipament gata dimensionat, nu o construcție civilă separată pentru fiecare treaptă. Din câte am putut vedea în documentația producătorului, Smith & Loveless nu are birou propriu sau rețea de distribuție vizibilă în Europa; aducem echipamentele prin import direct din SUA.`,
     whyChoose: [
       "Pompele PISTA® TURBO™ pentru grit ating, conform producătorului, debite de până la 500 GPM la puteri sub 40 CP.",
       "Stațiile subterane CAPSULAR® sunt o linie de stații de pompare a producătorului; debitele depind de configurație și se confirmă din documentația S&L.",
@@ -158,7 +158,7 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
       "Industrial — stații de pompare pentru ape uzate de proces"
     ],
     
-    infinitrade: `Despre gama Smith & Loveless spunem clar ce putem și ce nu putem confirma: ne bazăm exclusiv pe informațiile publicate pe site-ul producătorului, fără date proprii de stoc pentru aceste echipamente americane. Aducem sisteme PISTA®, CAPSULAR® sau TITAN MBR™ prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul stației, dimensiunile disponibile și, pentru grit, cantitatea estimată de nisip din influent. Nu promitem disponibilitate din depozit pentru niciun echipament din această gamă.`,
+    infinitrade: `Despre gama Smith & Loveless spunem clar ce putem și ce nu putem confirma: ne bazăm exclusiv pe informațiile din documentația producătorului, fără date proprii de stoc pentru aceste echipamente americane. Aducem sisteme PISTA®, CAPSULAR® sau TITAN MBR™ prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul stației, dimensiunile disponibile și, pentru grit, cantitatea estimată de nisip din influent. Nu promitem disponibilitate din depozit pentru niciun echipament din această gamă.`,
     limitation: "Nu putem confirma prezența unui birou sau reprezentant Smith & Loveless în Europa pentru intervenții rapide de service.",
     productCodes: [
       { code: "PISTA®", description: "sistem cu vortex pentru separarea gritului din apa uzată" },
@@ -180,7 +180,7 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
     faq: [
       { q: "Ce produce Smith & Loveless?", a: "Smith & Loveless produce stații compacte de pompare a apei uzate, sisteme de îndepărtare a gritului cu vortex (PISTA®), bioreactoare cu membrană (TITAN MBR™) și stații subterane de pompare (CAPSULAR®). Compania are sediul la Lenexa, Kansas, și este activă din 1946." },
       { q: "Cum aleg o pompă PISTA® TURBO™ pentru grit?", a: "Alegerea depinde de debitul de apă uzată de tratat și de cantitatea estimată de nisip din influent, parametri pe care producătorul îi folosește pentru a dimensiona pompa între 4 și 6 țoli, cu debite de până la 500 GPM. Trimiteți aceste date pentru o configurație." },
-      { q: "Se poate procura Smith & Loveless în România sau Europa?", a: "Da, la comandă: din câte am putut vedea pe site-ul propriu, Smith & Loveless nu are birou sau distribuție proprie în Europa, așa că aducem echipamentele prin import direct din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de transport." },
+      { q: "Se poate procura Smith & Loveless în România sau Europa?", a: "Da, la comandă: din câte am putut vedea în documentația producătorului, Smith & Loveless nu are birou sau distribuție proprie în Europa, așa că aducem echipamentele prin import direct din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de transport." },
       { q: "Ce înseamnă o stație subterană CAPSULAR® față de o stație clasică?", a: "O stație CAPSULAR® păstrează echipamentele electrice și mecanice într-o cameră uscată, cu acces la mentenanță fără a intra în spațiul umed al stației, spre deosebire de o stație clasică unde tehnicianul lucrează direct lângă apa uzată pompată." }
     ],
     evidenceClass: "market-signal-intl",
@@ -201,13 +201,13 @@ Pentru un operator din România, sistemele Smith & Loveless au sens la stații m
 
 Ce diferențiază EDI e varietatea de membrane oferite pentru același tip de difuzor: gama FlexAir® Pro vine cu membrane EPDM, EPDM cu strat protector (Armor-Coated™), silicon sau poliuretan standard și de temperatură înaltă, alese în funcție de compoziția apei uzate. Difuzoarele disc au diametre de 9 și 12 țoli, iar difuzoarele tubulare din seria T-Series™ vin în diametre de 62 și 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător. Conform producătorului, difuzoarele EDI au fost instalate în peste 8.000 de sisteme de aerare, în peste 100 de țări.
 
-Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membranelor uzate dintr-un sistem existent de aerare cu bule fine sau la un proiect nou unde apa uzată are o compoziție chimică ce impune un tip specific de membrană. EDI menționează instalări în peste 100 de țări, dar nu am găsit pe site o pagină dedicată distribuitorilor din Europa, așa că aducem componentele la comandă, prin import din SUA.`,
+Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membranelor uzate dintr-un sistem existent de aerare cu bule fine sau la un proiect nou unde apa uzată are o compoziție chimică ce impune un tip specific de membrană. EDI menționează instalări în peste 100 de țări, dar nu avem date despre distribuitori europeni ai producătorului, așa că aducem componentele la comandă, prin import din SUA.`,
     whyChoose: [
       "Membranele FlexAir® Pro sunt disponibile în EPDM, EPDM cu strat protector, silicon sau poliuretan, alese după compoziția chimică a apei uzate.",
       "Difuzoarele disc FlexAir® vin în diametre de 9 și 12 țoli, pentru diferite densități de instalare în bazin.",
       "Difuzoarele tubulare T-Series™ au diametre de 62 și 91 mm și lungimi standard între 250 și 1.000 mm.",
       "Gama CoarsAir™ cu bule mari acoperă mai multe configurații pentru aplicații unde bulele fine s-ar înfunda.",
-      "Conform site-ului propriu, difuzoarele EDI au fost instalate în peste 8.000 de sisteme de aerare, în peste 100 de țări."
+      "Conform documentației producătorului, difuzoarele EDI au fost instalate în peste 8.000 de sisteme de aerare, în peste 100 de țări."
     ],
     keyProducts: [
       { name: "Difuzoare cu Bule Fine FlexAir® Pro", description: "Difuzoare cu bule fine în variante disc, tub și panel, cu membrane disponibile în EPDM, EPDM cu strat protector Armor-Coated™, silicon sau poliuretan standard și de temperatură înaltă. Discurile au diametre de 9 sau 12 țoli, iar tuburile din seria T-Series™ vin în diametre de 62 sau 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător. Se montează pe grătare fixe sau pe configurații retractabile ModuleAir™." },
@@ -222,7 +222,7 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
       "Industria băuturilor (vin, bere) — aerare pentru apele reziduale de fabricație"
     ],
     
-    infinitrade: `Pentru gama EDI ne bazăm pe informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pentru difuzoarele și membranele americane din acest portofoliu. Aducem la comandă difuzoare FlexAir® sau CoarsAir™, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită tipul de difuzor existent (dacă e o înlocuire de membrane), debitul de aer necesar și compoziția chimică a apei uzate. Nu promitem disponibilitate din depozit pentru membrane sau difuzoare, fiecare comandă fiind confirmată în prealabil cu producătorul.`,
+    infinitrade: `Pentru gama EDI ne bazăm pe informațiile din documentația tehnică a producătorului, fără date proprii de stoc pentru difuzoarele și membranele americane din acest portofoliu. Aducem la comandă difuzoare FlexAir® sau CoarsAir™, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului. Pentru o ofertă, clientul trebuie să trimită tipul de difuzor existent (dacă e o înlocuire de membrane), debitul de aer necesar și compoziția chimică a apei uzate. Nu promitem disponibilitate din depozit pentru membrane sau difuzoare, fiecare comandă fiind confirmată în prealabil cu producătorul.`,
     limitation: "Nu putem confirma o filială EDI în Europa pentru suport tehnic local sau intervenții rapide de service.",
     productCodes: [
       { code: "FlexAir® Pro Tube", description: "difuzor tubular fin cu diametre de 62 sau 91 mm" },
@@ -243,7 +243,7 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
       { q: "Ce produce EDI?", a: "EDI produce difuzoare cu bule fine și cu bule mari pentru aerarea biologică a apelor uzate, sub mărcile FlexAir® și CoarsAir™, plus servicii de instalare și mentenanță SiteWorks™. Compania are sediul la Columbia, Missouri, și este activă din 1975." },
       { q: "Cum aleg membrana potrivită pentru difuzoarele FlexAir?", a: "Alegerea membranei FlexAir depinde de compoziția chimică a apei uzate și de temperatura de operare: EPDM este materialul de bază pentru instalațiile municipale; EPDM cu strat protector (Armor-Coated™), poliuretan (inclusiv de temperatură înaltă) și silicon sunt alte opțiuni oferite, iar alegerea se confirmă din documentația producătorului. Trimiteți parametrii apei tratate pentru o recomandare." },
       { q: "Ce diametru au difuzoarele disc FlexAir?", a: "Difuzoarele disc din gama FlexAir® Pro au diametre de 9 sau 12 țoli, iar difuzoarele tubulare din seria T-Series™ vin în diametre de 62 sau 91 mm, cu lungimi standard între 250 și 1.000 mm, conform datelor publicate de producător." },
-      { q: "Livrați difuzoare EDI în România și cât durează?", a: "Da, la comandă: aducem difuzoare EDI prin import din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu am găsit pe site-ul propriu o pagină dedicată distribuitorilor europeni." }
+      { q: "Livrați difuzoare EDI în România și cât durează?", a: "Da, la comandă: aducem difuzoare EDI prin import din SUA, cu un termen orientativ de 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Nu avem date despre distribuitori europeni ai producătorului." }
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
@@ -262,7 +262,7 @@ Pentru un operator din România, difuzoarele EDI au sens la înlocuirea membrane
 
 Ce diferențiază pompele Vaughan e mecanismul de tocare montat direct pe rotor, care taie materialele fibroase, textile sau plastice înainte ca acestea să treacă prin corpul pompei, reducând riscul de înfundare. Gama de pompe tocătoare (seriile HE, PE, S și SE) acoperă racorduri de refulare între 3 și 16 țoli, cu debite publicate de producător de până la 13.000 galoane pe minut (aproximativ 3.000 m³/h). Sistemul Rotamix folosește jeturi hidraulice orientabile pentru amestecarea nămolului direct în bazin, fără agitatoare mecanice interne.
 
-Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul conține materiale fibroase, textile sau deșeuri solide care înfundă frecvent o pompă centrifugală clasică, de exemplu la stații cu rețea de canalizare mixtă. Din câte am putut vedea pe site-ul propriu, Vaughan nu are birou propriu sau rețea de distribuție vizibilă în Europa, așa că aducem pompele prin import din SUA, la comandă.`,
+Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul conține materiale fibroase, textile sau deșeuri solide care înfundă frecvent o pompă centrifugală clasică, de exemplu la stații cu rețea de canalizare mixtă. Din câte am putut vedea în documentația producătorului, Vaughan nu are birou propriu sau rețea de distribuție vizibilă în Europa, așa că aducem pompele prin import din SUA, la comandă.`,
     whyChoose: [
       "Mecanismul de tocare montat pe rotor taie materialele fibroase și plastice înainte de trecerea prin corpul pompei, reducând riscul de înfundare.",
       "Gama de pompe acoperă racorduri de refulare între 3 și 16 țoli, cu debite publicate de până la 13.000 GPM.",
@@ -282,7 +282,7 @@ Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul con
       "Industrial — pompare fluide cu conținut de grăsimi și uleiuri"
     ],
     
-    infinitrade: `Pentru pompele Vaughan nu deținem date proprii de stoc; ne bazăm pe informațiile publicate de producător pe site-ul propriu. Vaughan nu are rețea de distribuție vizibilă în Europa, așa că aducem pompele tocătoare și sistemele Rotamix prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul de pompat, tipul de solide din fluid și dimensiunea racordului de refulare dorit. Nu promitem disponibilitate din depozit pentru aceste pompe, fiecare unitate fiind construită la comandă, conform configurației cerute.`,
+    infinitrade: `Pentru pompele Vaughan nu deținem date proprii de stoc; ne bazăm pe informațiile din documentația producătorului. Vaughan nu are rețea de distribuție vizibilă în Europa, așa că aducem pompele tocătoare și sistemele Rotamix prin import direct din SUA, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de transport. Pentru o ofertă corectă avem nevoie de debitul de pompat, tipul de solide din fluid și dimensiunea racordului de refulare dorit. Nu promitem disponibilitate din depozit pentru aceste pompe, fiecare unitate fiind construită la comandă, conform configurației cerute.`,
     limitation: "Nu putem confirma o rețea de distribuție sau birou tehnic Vaughan în Europa pentru piese de schimb rapide.",
     productCodes: [
       { code: "HE-Series 3\"-6\"", description: "pompă tocătoare orizontală, racord 3-6 țoli" },
@@ -322,7 +322,7 @@ Pentru un operator din România, pompele Vaughan au sens acolo unde nămolul con
 
 Ce diferențiază Calgon Carbon e portofoliul larg de tipuri de cărbune activ, adaptate pe aplicație: FILTRASORB® e gândit pentru tratarea apei municipale și industriale, CENTAUR® pentru tratare combinată apă și aer, cu proprietăți catalitice suplimentare, iar HGR® pentru îndepărtarea mercurului din fluxurile de aer. Compania afirmă că deține peste 240 de brevete și că produsele sale sunt folosite în peste 700 de aplicații de piață distincte. Sistemele de schimb ionic ISEP® completează gama pentru aplicații unde cărbunele activ singur nu ajunge la nivelul de purificare cerut.
 
-Pentru un operator din România, cărbunele activ Calgon Carbon are sens la filtrele cu cărbune activ granular din stațiile de tratare a apei potabile sau la sisteme de dezodorizare a aerului din stații de epurare. Calgon Carbon are, conform site-ului, birouri și facilități de producție la nivel global, ceea ce sugerează o procurare relativ mai simplă decât la alte branduri exclusiv americane.`,
+Pentru un operator din România, cărbunele activ Calgon Carbon are sens la filtrele cu cărbune activ granular din stațiile de tratare a apei potabile sau la sisteme de dezodorizare a aerului din stații de epurare. Calgon Carbon are, conform documentației producătorului, birouri și facilități de producție la nivel global, ceea ce sugerează o procurare relativ mai simplă decât la alte branduri exclusiv americane.`,
     whyChoose: [
       "Gama FILTRASORB® e gândită pentru tratarea apei municipale și industriale prin filtrare cu cărbune activ granular.",
       "Cărbunele CENTAUR® are proprietăți catalitice suplimentare față de cărbunele activ standard, util la tratare combinată apă-aer.",
@@ -389,7 +389,7 @@ Pentru un operator din România, programele Nalco Water au sens la instalații c
       "Platforma 3D TRASAR™ ajustează automat dozarea chimicalelor în funcție de parametrii citiți în timp real, nu pe un program fix.",
       "Platforma 3D TRASAR™ este oferită în programe separate pentru cazane și pentru apă de răcire.",
       "Tehnologia acoperă și răcirea directă a componentelor electronice (direct-to-chip) folosită în centrele de date.",
-      "Monitorizarea e susținută de un centru de operare continuu, Ecolab Global Intelligence Center, conform site-ului producătorului.",
+      "Monitorizarea e susținută de un centru de operare continuu, Ecolab Global Intelligence Center, conform documentației producătorului.",
       "Fiind parte din grupul Ecolab, cu birouri în Europa, procurarea programelor Nalco Water e relativ directă."
     ],
     keyProducts: [
@@ -403,7 +403,7 @@ Pentru un operator din România, programele Nalco Water au sens la instalații c
       "Industria alimentară și a băuturilor — tratarea apei folosite în procesare",
       "Centre de date — răcire directă a componentelor electronice (direct-to-chip)"
     ],
-    infinitrade: `Despre programele Nalco Water lucrăm cu informațiile publicate de Ecolab pe site-ul propriu, fără date proprii despre disponibilitatea locală a fiecărui produs chimic. Fiind parte dintr-un grup cu prezență în Europa, aducem programe 3D TRASAR™ prin canalele de aprovizionare ale grupului, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de tipul de instalație. Pentru o propunere corectă avem nevoie de tipul de echipament tratat (cazan, turn de răcire sau circuit direct-to-chip), debitul de apă și parametrii de calitate actuali. Nu promitem disponibilitate din depozit de chimicale, fiecare program fiind configurat pe instalația clientului.`,
+    infinitrade: `Despre programele Nalco Water lucrăm cu informațiile din documentația Ecolab, fără date proprii despre disponibilitatea locală a fiecărui produs chimic. Fiind parte dintr-un grup cu prezență în Europa, aducem programe 3D TRASAR™ prin canalele de aprovizionare ale grupului, cu termen orientativ de 1–4 săptămâni la comandă, în funcție de confirmarea producătorului și de tipul de instalație. Pentru o propunere corectă avem nevoie de tipul de echipament tratat (cazan, turn de răcire sau circuit direct-to-chip), debitul de apă și parametrii de calitate actuali. Nu promitem disponibilitate din depozit de chimicale, fiecare program fiind configurat pe instalația clientului.`,
     limitation: "Nu putem confirma disponibilitatea unui tehnician Nalco Water local în România pentru punerea în funcțiune a sistemului de monitorizare.",
     productCodes: [
       { code: "3D TRASAR™ for Boilers", description: "program de tratare și monitorizare pentru cazane industriale" },

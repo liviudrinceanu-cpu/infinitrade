@@ -42,7 +42,7 @@ Pentru instalații din chimie, tratarea suprafețelor sau epurarea apei din Rom�
       "Transport și depozitare lichide — accesorii IBC pentru cisterne și containere",
       "Industria alimentară — robinete din plastic pe linii de proces"
     ],
-    infinitrade: `Furnizăm robineți și accesorii Safi din plastic pentru linii unde un robinet metalic obișnuit s-ar degrada din cauza fluidului vehiculat. Spunem deschis ce putem și ce nu putem confirma: descrierile de mai sus vin din surse publice ale producătorului, nu din teste proprii pe fiecare familie de material. Robineții SAFI nu stau pe raftul nostru — îi aducem la comandă din UE, orientativ în 1–4 săptămâni. Pentru ofertă, clientul trebuie să trimită fluidul vehiculat, diametrul nominal și presiunea de lucru — pe baza acestora recomandăm materialul potrivit din gama Safi, fără a promite raft propriu.`,
+    infinitrade: `Furnizăm robineți și accesorii Safi din plastic pentru linii unde un robinet metalic obișnuit s-ar degrada din cauza fluidului vehiculat. Spunem deschis ce putem și ce nu putem confirma: descrierile de mai sus vin din documentația tehnică a producătorului, nu din teste proprii pe fiecare familie de material. Robineții SAFI nu stau pe raftul nostru — îi aducem la comandă din UE, orientativ în 1–4 săptămâni. Pentru ofertă, clientul trebuie să trimită fluidul vehiculat, diametrul nominal și presiunea de lucru — pe baza acestora recomandăm materialul potrivit din gama Safi, fără a promite raft propriu.`,
     limitation: "Nu putem confirma disponibilitatea fiecărei combinații material-diametru din gama Safi fără o cerere punctuală trimisă către producător.",
     productCodes: [
       { code: "Ball valve", description: "robinet cu bilă din plastic, pentru izolare pe linie" },
@@ -92,7 +92,7 @@ Seria MVSI, linia de referință a producătorului, atinge valori de forță cen
 Pentru instalațiile din România cu buncăre de descărcare, site vibrante sau linii de dozare a materialelor în vrac, gama Italvibras oferă o alegere între acționare mecanică prin motovibrator rotativ și acționare electromagnetică, în funcție de material și de precizia de dozare necesară.`,
     whyChoose: [
       "Gamă de acționare vibrantă: motovibratoare rotative pe picior sau flanșă, oscilatoare mecanice și vibratoare electromagnetice, sub același producător",
-      "Seria MVSI atinge forțe centrifuge de până la 30.500 kgf la modelele mari, conform datelor publicate pe pagina producătorului",
+      "Seria MVSI atinge forțe centrifuge de până la 30.500 kgf la modelele mari, conform datelor din documentația producătorului",
       "Variante MTF-E și MVSI-E cu siguranță sporită („sicurezza aumentata”), pentru medii cu risc de explozie",
       "Vibratoare electromagnetice seria VE cu alimentare pe interval larg, de la 105V la 600V, pentru instalații cu tensiuni diferite",
       "Producător italian de echipamente de vibrare industrială, cu gamă structurată pe tip de fixare și principiu de acționare"
@@ -122,7 +122,7 @@ Pentru instalațiile din România cu buncăre de descărcare, site vibrante sau 
       "Chimie — transportul vibrant al pulberilor și granulelor din siloz",
       "Metalurgie — acționarea jgheaburilor de transport pentru materiale în vrac"
     ],
-    infinitrade: `Furnizăm motovibratoare Italvibras pentru buncăre, site vibrante și linii de dozare a materialelor în vrac, din seriile MVSI, MTF, VE și ITV. Precizăm din start ce putem și ce nu putem confirma: parametrii tehnici de mai sus vin din surse publice ale producătorului, nu din măsurători proprii pe fiecare model. Nu ținem gama Italvibras pe raft; aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să trimită forța centrifugă sau capacitatea de dozare necesară, tipul de fixare dorit și tensiunea de alimentare disponibilă la punctul de montaj.`,
+    infinitrade: `Furnizăm motovibratoare Italvibras pentru buncăre, site vibrante și linii de dozare a materialelor în vrac, din seriile MVSI, MTF, VE și ITV. Precizăm din start ce putem și ce nu putem confirma: parametrii tehnici de mai sus vin din documentația tehnică a producătorului, nu din măsurători proprii pe fiecare model. Nu ținem gama Italvibras pe raft; aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să trimită forța centrifugă sau capacitatea de dozare necesară, tipul de fixare dorit și tensiunea de alimentare disponibilă la punctul de montaj.`,
     limitation: "Nu putem confirma disponibilitatea unui model exact din variantele MVSI-ACC sau MVSI-E fără o cerere punctuală transmisă către producător.",
     productCodes: [
       { code: "MVSI", description: "motovibrator electric cu fixare pe picior, seria de bază" },

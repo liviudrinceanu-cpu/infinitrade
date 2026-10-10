@@ -41,7 +41,7 @@ Pentru un integrator sau proiectant din România, Onda înseamnă acces la schem
       "Industria alimentară — variante inox AISI 304/316 pentru medii cu cerințe de igienă",
       "Procese industriale — condensare și evaporare la puteri mari",
     ],
-    infinitrade: `Furnizăm schimbătoare Onda pentru instalații de climatizare industrială și refrigerare, din surse publice ale producătorului, fără date proprii de stoc pe această gamă. Aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea fabricii. Pentru o ofertă corectă, clientul trebuie să ne trimită seria dorită (de exemplu FLV, GLV sau C S&T), puterea necesară, agentul frigorific folosit și temperaturile de lucru. Pentru Onda nu promitem disponibilitate din depozit pe niciun model din gamă.`,
+    infinitrade: `Furnizăm schimbătoare Onda pentru instalații de climatizare industrială și refrigerare, din documentația tehnică a producătorului, fără date proprii de stoc pe această gamă. Aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de confirmarea fabricii. Pentru o ofertă corectă, clientul trebuie să ne trimită seria dorită (de exemplu FLV, GLV sau C S&T), puterea necesară, agentul frigorific folosit și temperaturile de lucru. Pentru Onda nu promitem disponibilitate din depozit pe niciun model din gamă.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pentru modele mai vechi, ieșite din producția curentă, și nu oferim configurare software pentru unitățile cu control electronic integrat.",
     productCodes: [
       { code: "E / EG / ED", description: "Evaporatoare cu aer, seria de bază, 1–180 kW" },
@@ -125,7 +125,7 @@ Pentru un proiectant sau instalator din România, Fiorini înseamnă acces la sc
       "Instalații industriale cu recuperare de căldură — schimbătoare brazate pe circuite compacte",
     ],
     certifications: ["ISO 9001", "ISO 14001", "OHSAS 18001", "CE — PED (Pressure Equipment Directive / Directiva Echipamente sub Presiune)"],
-    infinitrade: `Furnizăm schimbătoare și sisteme hidronice Fiorini pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de seria dorită (K, F sau P), puterea sau debitul necesar, presiunea și temperatura de lucru, plus tipul de fluid din circuit. Nu ținem această gamă pe stoc — fiecare schimbător se configurează pe comandă.`,
+    infinitrade: `Furnizăm schimbătoare și sisteme hidronice Fiorini pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurația cerută. Pentru o ofertă corectă avem nevoie de seria dorită (K, F sau P), puterea sau debitul necesar, presiunea și temperatura de lucru, plus tipul de fluid din circuit. Nu ținem această gamă pe stoc — fiecare schimbător se configurează pe comandă.`,
     limitation: "Nu putem confirma configurarea software a sistemelor de control și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
       { code: "Series K", description: "Schimbător cu plăci cu garnituri, 1 kW–300 MW" },
@@ -202,8 +202,8 @@ Pentru piața din România, LU-VE înseamnă acces la răcitoare și condensatoa
       "Energie — răcirea genseturilor și a transformatoarelor de putere",
       "Climatizare — baterii de schimb termic pentru instalații de aer condiționat",
     ],
-    infinitrade: `Furnizăm răcitoare și condensatoare LU-VE pe baza informațiilor publice ale producătorului, fără date proprii de stoc. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și varianta cerută. Pentru ofertă avem nevoie de codul exact de model (de exemplu Vantage FHC sau Giant F), agentul frigorific folosit, puterea de răcire și tensiunea ventilatoarelor. Nu ținem această gamă pe raft — fiecare comandă se confirmă la producător.`,
-    limitation: "Nu putem confirma disponibilitatea unui configurator online pentru dimensionare și nici service-ul în garanția producătorului pentru unități instalate direct de client.",
+    infinitrade: `Furnizăm răcitoare și condensatoare LU-VE pe baza documentației tehnice a producătorului, fără date proprii de stoc. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de familia și varianta cerută. Pentru ofertă avem nevoie de codul exact de model (de exemplu Vantage FHC sau Giant F), agentul frigorific folosit, puterea de răcire și tensiunea ventilatoarelor. Nu ținem această gamă pe raft — fiecare comandă se confirmă la producător.`,
+    limitation: "Nu putem confirma disponibilitatea unui instrument de dimensionare și nici service-ul în garanția producătorului pentru unități instalate direct de client.",
     productCodes: [
       { code: "Defender CD", description: "Răcitor de aer cubic, cameră frigorifică standard" },
       { code: "Defender CRD", description: "Răcitor de aer cubic, familia Defender" },
@@ -284,7 +284,7 @@ Pentru piața din România, Güntner înseamnă acces la echipamente de răcire 
       "Energie — răcirea proceselor industriale și a centralelor",
     ],
     certifications: ["NSF — certificare pentru echipamente în contact cu produse alimentare (menționată pentru gama de răcitoare de aer)"],
-    infinitrade: `Furnizăm echipamente Güntner pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurație. Pentru ofertă avem nevoie de seria dorită (de exemplu Cubic COMPACT sau V-shape VARIO), puterea de răcire, agentul frigorific și temperatura de proiectare. Nu ținem această gamă pe stoc — fiecare unitate se confirmă la fabrică înainte de termenul final.`,
+    infinitrade: `Furnizăm echipamente Güntner pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de model și configurație. Pentru ofertă avem nevoie de seria dorită (de exemplu Cubic COMPACT sau V-shape VARIO), puterea de răcire, agentul frigorific și temperatura de proiectare. Nu ținem această gamă pe stoc — fiecare unitate se confirmă la fabrică înainte de termenul final.`,
     limitation: "Nu putem confirma configurarea la distanță a platformei de control aicore™ și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
       { code: "Cubic COMPACT (GACC)", description: "Răcitor aer, 2–69 kW pe CO₂, 2–82 kW HFC" },
@@ -368,7 +368,7 @@ Pentru piața din România, Thermofin înseamnă acces la vaporizatoare și cond
       "Sport și agrement — patinoare și pârtii de schi interioare",
       "Centre de date — răcire cu Rückkühler și soluții adiabate",
     ],
-    infinitrade: `Furnizăm schimbătoare Thermofin pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de tipul de unitate (vaporizator, condensator sau răcitor cu apă), agentul de lucru, puterea și orientarea dorită (orizontală, verticală sau în V). Nu ținem această gamă pe stoc — fiecare unitate se confirmă la fabrica din Reichenbach.`,
+    infinitrade: `Furnizăm schimbătoare Thermofin pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație. Pentru ofertă avem nevoie de tipul de unitate (vaporizator, condensator sau răcitor cu apă), agentul de lucru, puterea și orientarea dorită (orizontală, verticală sau în V). Nu ținem această gamă pe stoc — fiecare unitate se confirmă la fabrica din Reichenbach.`,
     limitation: "Nu putem confirma parametrii de zgomot pentru fiecare configurație în parte și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
       { code: "Deckenluftkühler", description: "Vaporizator de tavan pentru camere frigorifice" },
@@ -425,7 +425,7 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
       "Certificări DNV, ASME Secțiunea VIII Div. 1 și ATEX, relevante pentru instalații navale și offshore",
       "Centrale hidraulice complete cu monitorizare de fluid 4.0, integrabile cu mentenanța predictivă",
       "Pompe cu șurub asamblate în parteneriat cu Settima, integrate în centralele hidraulice",
-      "Filiale în SUA (Perrysburg, Ohio) și Cehia (Písek), conform site-ului producătorului",
+      "Filiale în SUA (Perrysburg, Ohio) și Cehia (Písek), conform documentației producătorului",
     ],
     keyProducts: [
       {
@@ -453,7 +453,7 @@ Pentru piața din România, Universal Hydraulik înseamnă acces la componente d
       "Energie — sisteme hidraulice pentru centrale și echipamente de proces",
     ],
     certifications: ["DNV (Det Norske Veritas) — omologare tip pentru schimbătoare de căldură", "ASME Secțiunea VIII Div. 1", "ISO 14001:2015", "ATEX", "Bureau Veritas"],
-    infinitrade: `Furnizăm componente Universal Hydraulik pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație și certificare cerută. Pentru ofertă avem nevoie de tipul de schimbător sau pompă, presiunea și temperatura de lucru, certificarea cerută (ASME, DNV, ATEX) și fluidul folosit. Nu ținem această gamă pe stoc — fiecare comandă se confirmă la fabrica din Neu-Anspach.`,
+    infinitrade: `Furnizăm componente Universal Hydraulik pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de configurație și certificare cerută. Pentru ofertă avem nevoie de tipul de schimbător sau pompă, presiunea și temperatura de lucru, certificarea cerută (ASME, DNV, ATEX) și fluidul folosit. Nu ținem această gamă pe stoc — fiecare comandă se confirmă la fabrica din Neu-Anspach.`,
     limitation: "Nu putem confirma service-ul în perioada de garanție a producătorului și nici configurarea sistemelor proprii de monitorizare a fluidului 4.0.",
     productCodes: [
       { code: "Hydraulic Power Unit", description: "Centrală hidraulică completă" },
@@ -532,7 +532,7 @@ Pentru piața din România, ASA Hydraulik înseamnă acces la răcitoare ulei-ae
       "Manipulare materiale — răcitoare pentru stivuitoare și macarale hidraulice",
     ],
     certifications: ["ISO 9001", "ISO 45001", "ISO 14001"],
-    infinitrade: `Furnizăm răcitoare ASA Hydraulik pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Pentru ofertă avem nevoie de seria dorită (de exemplu LowLine, H-Cube sau AHP), debitul și puterea de răcire necesară, tipul de montaj și tensiunea motorului. Nu ținem această gamă pe stoc — fiecare comandă se confirmă la producător.`,
+    infinitrade: `Furnizăm răcitoare ASA Hydraulik pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru această gamă. Aducem la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de serie și configurație. Pentru ofertă avem nevoie de seria dorită (de exemplu LowLine, H-Cube sau AHP), debitul și puterea de răcire necesară, tipul de montaj și tensiunea motorului. Nu ținem această gamă pe stoc — fiecare comandă se confirmă la producător.`,
     limitation: "Nu putem confirma disponibilitatea manualului tehnic complet pentru fiecare serie și nici service-ul în perioada de garanție a producătorului.",
     productCodes: [
       { code: "LowLine", description: "Răcitor ulei-aer, serie standard modulară" },

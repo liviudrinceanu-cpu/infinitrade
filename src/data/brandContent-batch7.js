@@ -3,13 +3,13 @@ export const brandContentBatch7 = {
     founded: '1871',
     headquarters: 'Hanovra, Germania',
     employees: '190,000+',
-    overview: `De peste 150 de ani, Continental nu înseamnă doar anvelope - divizia de Curele de Transmisie (ContiTech) oferă soluții pentru transferul puterii în industrie. Gama include curele trapezoidale (V), curele dințate (din cauciuc și din poliuretan), curele Multi-V și curele plate Polyflat, conform site-ului producătorului.
+    overview: `De peste 150 de ani, Continental nu înseamnă doar anvelope - divizia de Curele de Transmisie (ContiTech) oferă soluții pentru transferul puterii în industrie. Gama include curele trapezoidale (V), curele dințate (din cauciuc și din poliuretan), curele Multi-V și curele plate Polyflat, conform documentației producătorului.
 
 Datele tehnice (domeniu de temperatură, turații, lungimi disponibile) diferă de la o familie de curele la alta și se confirmă pe cod, din documentația ContiTech.
 
 Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, pompe industriale, ventilatoare, compresoare, echipamente agricole și linii de producție. `,
     whyChoose: [
-      'Gamă ContiTech - curele trapezoidale, dințate, Multi-V și plate, conform site-ului producătorului',
+      'Gamă ContiTech - curele trapezoidale, dințate, Multi-V și plate, conform documentației producătorului',
       'Variante performante - pentru Conti SilentSync producătorul indică o creștere a puterii transmise de până la 80%',
       'Gamă de profile - De la curele V clasice (SPZ, SPA, SPB, SPC) la curele dințate (HTD, AT, T) și curele plate speciale',
       'Domeniu de temperatură - depinde de familia de curele și se confirmă pe cod',
@@ -23,11 +23,11 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       },
       {
         name: 'Curele Dințate (Synchronous Belts)',
-        description: `Continental oferă curele dințate din cauciuc și din poliuretan pentru transmisii sincrone, de la aplicații casnice până la cele grele, conform site-ului ContiTech. Profilele (pasul), armătura, turațiile admise și limitele de temperatură diferă pe familie și se confirmă pe cod, din documentația producătorului.`
+        description: `Continental oferă curele dințate din cauciuc și din poliuretan pentru transmisii sincrone, de la aplicații casnice până la cele grele, conform documentației ContiTech. Profilele (pasul), armătura, turațiile admise și limitele de temperatură diferă pe familie și se confirmă pe cod, din documentația producătorului.`
       },
       {
         name: 'Curele V-Ribbed Poly-V',
-        description: `Curelele Multi-V (Poly-V) sunt destinate transmisiilor cu roți de diametru mic, în care alunecarea este permisă, conform site-ului producătorului. Profilul, lungimea și datele tehnice se confirmă pe cod, din documentația ContiTech.`
+        description: `Curelele Multi-V (Poly-V) sunt destinate transmisiilor cu roți de diametru mic, în care alunecarea este permisă, conform documentației producătorului. Profilul, lungimea și datele tehnice se confirmă pe cod, din documentația ContiTech.`
       },
       {
         name: 'Curele Plate pentru Aplicații Speciale',
@@ -41,7 +41,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       'RoHS - Produse fără substanțe periculoase',
       'REACH - Conformitate substanțe chimice UE',
       'Conformitate alimentară - se confirmă pe tipul de curea, din fișa tehnică',
-      'Variante antistatice - de exemplu Conti Synchrochain Supreme, conform site-ului producătorului',
+      'Variante antistatice - de exemplu Conti Synchrochain Supreme, conform documentației producătorului',
       'Testare independentă - se confirmă pe produs, din documentație'
     ],
     industries: [
@@ -56,7 +56,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
       'Transport și logistică',
       'Industria auto - producție componente'
     ],
-    infinitrade: `Lucrăm din surse publice ale producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24–72 h pentru comenzile onorate din aprovizionarea curentă și cu 1–4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimiteți-ne codul de profil și lungimea exactă necesară, iar noi revenim cu oferta și termenul confirmat.`,
+    infinitrade: `Lucrăm din documentația tehnică a producătorului și spunem clar ce putem și ce nu putem confirma despre stocul curent de curele Continental. Nu avem date proprii despre ce anume se află pe stoc la un moment dat, dar aducem gama de curele V, dințate și Poly-V la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, lucrăm cu 24–72 h pentru comenzile onorate din aprovizionarea curentă și cu 1–4 săptămâni la comandă pentru restul gamei. Pentru o ofertă corectă, trimiteți-ne codul de profil și lungimea exactă necesară, iar noi revenim cu oferta și termenul confirmat.`,
     limitation: 'Nu putem confirma operațiuni de vulcanizare la cald sau jonctionare pe loc pentru curele speciale - livrăm produsul, nu service-ul de montaj.',
     sources: [
       {"title":"Drive Belts – Power Transmission Industrial Applications","url":"https://www.continental-industry.com/en/solutions/power-transmission/industrial-applications/drive-belts","publisher":"Continental AG (ContiTech)","accessed":"2026-09-22"},
@@ -136,7 +136,7 @@ Curelele de transmisie Continental se folosesc frecvent la mașini de ambalare, 
     founded: '1924',
     headquarters: 'Osaka, Japonia',
     employees: '88,000+',
-    overview: `Daikin este unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează clădiri mari, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii controlate în spitale, datacentere și camere curate. Gama include sisteme VRV, chillere, unități de tratare a aerului și soluții de control; unele sisteme folosesc agentul frigorific R-32, conform site-ului producătorului.
+    overview: `Daikin este unul dintre producătorii majori la nivel mondial în climatizare industrială și comercială, cu 100 de ani de experiență în tehnologie de refrigerare. Daikin înseamnă sisteme VRV (Variable Refrigerant Volume) care echipează clădiri mari, chillere industriale care răcesc fabrici întregi și unități de tratare a aerului care creează medii controlate în spitale, datacentere și camere curate. Gama include sisteme VRV, chillere, unități de tratare a aerului și soluții de control; unele sisteme folosesc agentul frigorific R-32, conform documentației producătorului.
 
 Tehnologia inverter reduce consumul de energie față de sistemele on/off; pentru chillere, producătorul indică o reducere de până la 25% a consumului de energie, a costurilor de funcționare și a emisiilor de CO2. Datele de eficiență se confirmă pe model, din documentația oficială.
 
@@ -147,7 +147,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       'Funcționare la temperaturi exterioare scăzute - limitele de funcționare se confirmă pe model',
       'Control și monitorizare - Daikin Cloud Service permite administrarea la distanță și monitorizarea consumului; protocoalele BMS se confirmă pe model',
       'Verificare în fabrică - chillerele sunt testate în fabrică, conform politicii „zero defect” a producătorului',
-      'Documentație - cataloage de produs publicate de producător (de exemplu cataloagele VRV pentru profesioniști)'
+      'Documentație - cataloage de produs ale producătorului (de exemplu cataloagele VRV pentru profesioniști)'
     ],
     keyProducts: [
       {
@@ -156,11 +156,11 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       },
       {
         name: 'Chillere Răcite cu Aer EWA-TZ',
-        description: `Seria EWA/FD/H/S-TZ este, conform site-ului Daikin Europe, o generație de chillere răcite cu aer, cu compresoare cu șurub și inverter, cu agenți frigorifici R-1234ze, R-513A sau R-134a. Producătorul menționează peste 150 de opțiuni de configurare. Capacitățile și variantele se confirmă pe cod, din documentația oficială.`
+        description: `Seria EWA/FD/H/S-TZ este, conform documentației Daikin Europe, o generație de chillere răcite cu aer, cu compresoare cu șurub și inverter, cu agenți frigorifici R-1234ze, R-513A sau R-134a. Producătorul menționează peste 150 de opțiuni de configurare. Capacitățile și variantele se confirmă pe cod, din documentația oficială.`
       },
       {
         name: 'Unități de Tratare Aer Modulare',
-        description: `Daikin oferă unități de tratare a aerului modulare; site-ul producătorului prezintă seriile Modular R (cu roată de recuperare a căldurii, până la 25.000 m³/h, 10 mărimi) și Modular P (cu schimbător cu plăci, până la 20.000 m³/h, 10 mărimi), pentru montaj în interior sau în exterior. Seria exactă, debitul, clasa de etanșeitate și ventilatoarele se confirmă pe cod, din documentația producătorului.`
+        description: `Daikin oferă unități de tratare a aerului modulare; documentația producătorului prezintă seriile Modular R (cu roată de recuperare a căldurii, până la 25.000 m³/h, 10 mărimi) și Modular P (cu schimbător cu plăci, până la 20.000 m³/h, 10 mărimi), pentru montaj în interior sau în exterior. Seria exactă, debitul, clasa de etanșeitate și ventilatoarele se confirmă pe cod, din documentația producătorului.`
       },
       {
         name: 'Sisteme Sky Air',
@@ -189,7 +189,7 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
       'Aeroporturi și stații',
       'Industria farmaceutică'
     ],
-    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe informațiile publice ale producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru unitățile standard; pentru sisteme complexe și proiecte mari termenul depășește, de regulă, 4 săptămâni. Pentru o ofertă, trimiteți-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea la furnizor și revenim cu oferta și termenul.`,
+    infinitrade: `Nu avem date proprii de stoc pentru echipamentele Daikin și ne bazăm pe documentația tehnică a producătorului atunci când descriem gama VRV, chillere și unități de tratare a aerului. Aducem sistemele Daikin la comandă prin canale de aprovizionare din Uniunea Europeană, iar ca reper general al firmei termenele cu care lucrăm sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru unitățile standard; pentru sisteme complexe și proiecte mari termenul depășește, de regulă, 4 săptămâni. Pentru o ofertă, trimiteți-ne codul modelului, capacitatea necesară (kW) și adresa proiectului, iar noi verificăm disponibilitatea la furnizor și revenim cu oferta și termenul.`,
     limitation: 'Nu oferim configurare software BMS sau punere în funcțiune a sistemelor VRV - acestea rămân în sarcina instalatorului autorizat sau a producătorului.',
     sources: [
       {"title":"Product Group Overview – Daikin Europe","url":"https://www.daikin.eu/en_us/product-group.html","publisher":"Daikin Industries","accessed":"2026-09-22"},
@@ -297,18 +297,18 @@ Sistemele VRV se regăsesc în numeroase instalații la nivel mondial - de la bi
     founded: '1910',
     headquarters: 'Neumarkt, Germania',
     employees: '2,000+',
-    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. DEHN este o companie germană de familie, specializată în protecție împotriva trăsnetului și legare la pământ, protecție la supratensiuni și echipament de securitate pentru lucrări electrice, conform site-ului producătorului.
+    overview: `De peste 110 ani, DEHN protejează clădiri, instalații industriale și rețele electrice împotriva trăsnetului și supratensiunilor. DEHN este o companie germană de familie, specializată în protecție împotriva trăsnetului și legare la pământ, protecție la supratensiuni și echipament de securitate pentru lucrări electrice, conform documentației producătorului.
 
-Gama de descărcătoare DEHN folosește, printre altele, varistoare și eclatoare; de exemplu, DEHNguard S ... VA combină un varistor cu un eclator, fără curent de fugă permanent, conform site-ului producătorului. Produsele DEHN protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacentere și fabrici.
+Gama de descărcătoare DEHN folosește, printre altele, varistoare și eclatoare; de exemplu, DEHNguard S ... VA combină un varistor cu un eclator, fără curent de fugă permanent, conform documentației producătorului. Produsele DEHN protejează turbine eoliene, stații fotovoltaice, rețele telecom, datacentere și fabrici.
 
 Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instalații fotovoltaice) și datele lor tehnice se confirmă pe cod, din documentația DEHN.`,
     whyChoose: [
-      'Descărcătoare Tip 2 - gama DEHNguard (modular, S, SE CI, ACI, VA), conform site-ului DEHN',
+      'Descărcătoare Tip 2 - gama DEHNguard (modular, S, SE CI, ACI, VA), conform documentației DEHN',
       'Protecție pentru instalații fotovoltaice - variante DEHNguard și DEHNcube PV',
       'Semnalizare - variante cu indicare timpurie a uzurii (DEHNguard SE H ... FM)',
       'Siguranță de rezervă integrată - DEHNguard SE CI, pentru rețele de 400/690 V',
       'Deconectare și monitorizare - DEHNcord, cu dispozitiv de deconectare și monitorizare',
-      'Documentație - gamele sunt publicate pe site-ul DEHN; certificările se confirmă pe cod'
+      'Documentație - gamele sunt descrise în documentația DEHN; certificările se confirmă pe cod'
     ],
     keyProducts: [
       {
@@ -317,7 +317,7 @@ Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instala�
       },
       {
         name: 'Protecție Tip 2 DEHNguard Modular',
-        description: `DEHNguard modular este, conform site-ului DEHN, un descărcător modular multipolar Tip 2, cu design funcțional pentru instalații de consum. Există variante cu contact de semnalizare și cu tehnologie ACI (Advanced Circuit Interruption). Curentul nominal de descărcare, nivelul de protecție și configurațiile de rețea se confirmă pe cod.`
+        description: `DEHNguard modular este, conform documentației DEHN, un descărcător modular multipolar Tip 2, cu design funcțional pentru instalații de consum. Există variante cu contact de semnalizare și cu tehnologie ACI (Advanced Circuit Interruption). Curentul nominal de descărcare, nivelul de protecție și configurațiile de rețea se confirmă pe cod.`
       },
       {
         name: 'Protecție Linii Date/Semnal DEHNrail',
@@ -350,7 +350,7 @@ Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instala�
       'Industria alimentară',
       'Utilități (apă, canalizare, energie)'
     ],
-    infinitrade: `Folosim informațiile publice disponibile de la DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimiteți-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
+    infinitrade: `Folosim documentația tehnică DEHN, fără date proprii de stoc pe care să le promitem pentru descărcătoare sau paratrăsnete. Aducem gama DEHN de protecție la supratensiuni la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul produselor sau configurațiilor speciale. Pentru o ofertă corectă, trimiteți-ne codul exact al produsului (de exemplu DEHNguard sau DEHNventil), tensiunea nominală a rețelei și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru întreaga gamă DEHN și nici service în garanția producătorului pentru paratrăsnete active.',
     sources: [
       {"title":"Type 2 Surge Arresters","url":"https://www.dehn-international.com/store/h/en-DE/H680/type-2-surge-arresters","publisher":"DEHN","accessed":"2026-09-23"},
@@ -466,7 +466,7 @@ Variantele pentru zone speciale (atmosfere explozive, rețele medicale, instala�
 
 Sistemul de baterii XR FlexVolt comută automat între 20V MAX (18V nominal) pentru scule mai mici și 60V MAX (54V nominal) pentru scule mari, conform producătorului. Înseamnă că un instalator poate avea toată trusa alimentată de același tip de acumulator - de la șurubelniță impact la ferăstrău pendular, de la polizor la lanternă.
 
-Gama și specificațiile fiecărui model se confirmă pe cod, din paginile oficiale ale producătorului.`,
+Gama și specificațiile fiecărui model se confirmă pe cod, din documentația tehnică a producătorului.`,
     whyChoose: [
       'Motoare brushless - disponibile pe numeroase modele din gamă, fără perii de cărbune',
       'Sistem de baterii FlexVolt - baterie compatibilă cu scule 20V MAX (18V nominal) și 60V MAX (54V nominal), conform producătorului',
@@ -515,7 +515,7 @@ Gama și specificațiile fiecărui model se confirmă pe cod, din paginile ofici
       'Demolări și renovări',
       'Producție componente industriale'
     ],
-    infinitrade: `Pentru DeWalt lucrăm din surse publice ale producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimiteți-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii), iar noi revenim cu oferta și termenul confirmat.`,
+    infinitrade: `Pentru DeWalt lucrăm din documentația tehnică a producătorului, fără date proprii despre stocul intern al fiecărui model de sculă. Aducem sculele DeWalt (bormasini, polizoare, ferăstraie, seturi cu baterii) la comandă prin canale de aprovizionare din Uniunea Europeană. Ca reper general al firmei, termenele uzuale sunt 24–72 h pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau pentru accesorii mai puțin comune. Pentru o ofertă, trimiteți-ne codul exact al modelului (de exemplu DCD996 sau DCG414) și configurația dorită (baterii, valiză, accesorii), iar noi revenim cu oferta și termenul confirmat.`,
     limitation: 'Nu putem confirma acoperirea service-ului în garanția producătorului pentru fiecare model DeWalt - livrăm scula conform comenzii, nu intervenția de service.',
     sources: [
       {"title":"Power Tools","url":"https://www.dewalt.com/products/power-tools","publisher":"DeWalt","accessed":"2026-09-22"},
@@ -613,8 +613,8 @@ Specificațiile detectoarelor (durata de viață a senzorilor, nivelul alarmei, 
 
 Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri și echipe de intervenție; configurația (butelie, autonomie, mască) se confirmă pe cod, din documentația producătorului.`,
     whyChoose: [
-      'Gamă de detectoare - detectoare portabile și sisteme fixe pentru detecția gazelor, conform site-ului producătorului',
-      'Detector multi-gaz X-am 8000 - măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori, conform site-ului producătorului',
+      'Gamă de detectoare - detectoare portabile și sisteme fixe pentru detecția gazelor, conform documentației producătorului',
+      'Detector multi-gaz X-am 8000 - măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori, conform documentației producătorului',
       'Calibrare - intervalul de calibrare și durata de viață a senzorilor depind de tip și se confirmă pe cod',
       'Certificări ATEX/IECEx - disponibile pe anumite modele; se confirmă pe cod',
       'Calibrare și service - efectuate de producător sau de un centru de service terț; noi livrăm echipamentul, nu intervenția de service',
@@ -623,7 +623,7 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
     keyProducts: [
       {
         name: 'Detector Multi-Gaz Dräger X-am 8000',
-        description: `X-am 8000 este un detector portabil multi-gaz Dräger care măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori (tehnologii CAT, IR, PID și EC), pompă integrată pentru furtunuri de până la 45 m și protecție IP 68, conform site-ului producătorului. Autonomia depășește 24 de ore, alarma sonoră este de 100 dB, iar aprobările includ ATEX, IECEx și cCSA pentru Zone 0 / Division 1. Gazele măsurabile și configurația se confirmă pe cod, din documentația oficială.`
+        description: `X-am 8000 este un detector portabil multi-gaz Dräger care măsoară până la 7 gaze și vapori toxici sau inflamabili, plus oxigen, cu 5 porturi de senzori (tehnologii CAT, IR, PID și EC), pompă integrată pentru furtunuri de până la 45 m și protecție IP 68, conform documentației producătorului. Autonomia depășește 24 de ore, alarma sonoră este de 100 dB, iar aprobările includ ATEX, IECEx și cCSA pentru Zone 0 / Division 1. Gazele măsurabile și configurația se confirmă pe cod, din documentația oficială.`
       },
       {
         name: 'Aparat Respirat Dräger PSS 7000',
@@ -635,7 +635,7 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
       },
       {
         name: 'Detector Portabil Pac 8000 Single Gas',
-        description: `Pac 8000 este un detector portabil Dräger reutilizabil, pentru un singur gaz, destinat monitorizării personale; conform site-ului producătorului poate detecta 29 de gaze diferite, are baterie cu autonomie de 2 ani la funcționare continuă, protecție IP 68, greutate de circa 106 g și alarmă sonoră de 90 dB, cu transmisie de date prin Bluetooth. Gazul măsurat și intervalul de calibrare se confirmă pe cod, din documentația oficială.`
+        description: `Pac 8000 este un detector portabil Dräger reutilizabil, pentru un singur gaz, destinat monitorizării personale; conform documentației producătorului poate detecta 29 de gaze diferite, are baterie cu autonomie de 2 ani la funcționare continuă, protecție IP 68, greutate de circa 106 g și alarmă sonoră de 90 dB, cu transmisie de date prin Bluetooth. Gazul măsurat și intervalul de calibrare se confirmă pe cod, din documentația oficială.`
       }
     ],
     certifications: [
@@ -660,7 +660,7 @@ Gama Dräger include aparate de respirat cu aer comprimat (SCBA) pentru pompieri
       'Spații confinate și rezervoare',
       'Producție energie (centrale)'
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după informațiile publice ale producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimiteți-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru gama Dräger și ne ghidăm după documentația tehnică a producătorului atunci când descriem detectoarele de gaz și aparatele de respirat. Aducem produsele Dräger la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau echipamente speciale. Pentru o ofertă, trimiteți-ne codul exact al produsului (de exemplu X-am 8000 sau Pac 8000), gazele de detectat și cantitatea necesară, iar noi revenim cu oferta și termenul de livrare confirmat.`,
     limitation: 'Nu efectuăm noi calibrarea sau service-ul în garanția producătorului pentru aparatele de respirat sau detectoarele Dräger.',
     sources: [
       {"title":"Industrial Gas Detectors – Draeger Safety","url":"https://www.draeger.com/en-us_us/Safety/Gas-Detectors","publisher":"Drägerwerk AG & Co. KGaA","accessed":"2026-09-22"},
@@ -748,7 +748,7 @@ Manometrele Dwyer se regăsesc peste tot: de la măsurare presiune în conducte 
       'Gamă pentru HVAC - Manometre, presostate și transmițătoare pentru sisteme de ventilație și climatizare; protocoalele de comunicație depind de model',
       'Aplicații de proces - Materialele, certificările și domeniul de temperatură se confirmă pe cod, din documentația Dwyer',
       'Disponibilitate confirmată la fiecare comandă - Termenul se stabilește pe codul exact, conform politicii de livrare a firmei',
-      'Documentație tehnică - Cataloage și fișe tehnice publicate de producător pe site-ul oficial'
+      'Documentație tehnică - Cataloage și fișe tehnice ale producătorului'
     ],
     keyProducts: [
       {
@@ -883,7 +883,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       'UPS dublă conversie online - Protecție pentru echipamente IT critice; la 9PX eficiența este de până la 94% în mod online și până la 98% în mod de înaltă eficiență (HE, High Efficiency), în funcție de model',
       'Integrare digitală IoT - Toate echipamentele comunicare Modbus RTU/TCP, Ethernet/IP, Profinet pentru industrie 4.0',
       'Certificări și standarde internaționale - IEC, UL, CSA; certificările exacte depind de produs și se confirmă pe cod',
-      'Documentație tehnică și fișe de date disponibile online pe site-ul producătorului'
+      'Documentație tehnică și fișe de date ale producătorului'
     ],
     keyProducts: [
       {
@@ -925,7 +925,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       'Industria alimentară',
       'OEM - constructori de mașini'
     ],
-    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe surse publice ale producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimiteți-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu avem verificare proprie a stocului pentru fiecare referință Eaton și ne bazăm pe documentația tehnică a producătorului atunci când descriem întrerupătoarele, contactoarele, UPS-urile și drive-urile din gamă. Aducem echipamentele Eaton la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau configurații de tablou. Pentru o ofertă, trimiteți-ne codul exact al produsului, curentul nominal sau puterea necesară și schema unifilară dacă există - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare software sau punere în funcțiune pentru drive-urile și UPS-urile Eaton - acestea rămân la instalator sau la producător.',
     sources: [
       {"title":"Electrical Circuit Protection – Product Overview","url":"https://www.eaton.com/us/en-us/products/electrical-circuit-protection.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1002,7 +1002,7 @@ Eaton produce în fabrici din Europa, America și Asia, cu controale calitate st
       },
       {
         "q": "Livrați echipamente electrice Eaton în România la comandă?",
-        "a": "Componentele Eaton sunt aduse pe bază de comandă fermă, plecând de la cataloagele oficiale ale producătorului, fără un depozit propriu constituit dinainte. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de familie de produs și de cantitate. Pentru o ofertă rapidă recomandăm să transmiteți curentul nominal, tensiunea de lucru și tipul de tablou în care se montează echipamentul."
+        "a": "Componentele Eaton sunt aduse pe bază de comandă fermă, plecând de la documentația tehnică a producătorului, fără un depozit propriu constituit dinainte. Termenul obișnuit este 1–4 săptămâni la comandă, în funcție de familie de produs și de cantitate. Pentru o ofertă rapidă recomandăm să transmiteți curentul nominal, tensiunea de lucru și tipul de tablou în care se montează echipamentul."
       },
       {
         "q": "Ce date trebuie să trimit pentru o ofertă pentru un întrerupător Eaton?",
@@ -1071,7 +1071,7 @@ Eaton Filtration oferă soluții de filtrare pentru industrii precum alimentar �
       'Rafinării petrol',
       'Industria cosmetică'
     ],
-    infinitrade: `Pentru divizia Eaton Filtration lucrăm din surse publice ale producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimiteți-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Pentru divizia Eaton Filtration lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe corpurile de filtru sau pe consumabile. Aducem filtrele cu sac, cu cartuș, automate sau magnetice la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru corpuri sau configurații mai mari. Pentru o ofertă, trimiteți-ne debitul de proces, finețea de filtrare necesară și materialul de contact cu lichidul - revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu putem garanta disponibilitate continuă pentru sacii și cartușele consumabile din gama Eaton Filtration, doar termenul de aducere la comandă.',
     sources: [
       {"title":"Filtration Products Catalog – Eaton","url":"https://www.eaton.com/us/en-us/catalog/filtration.html","publisher":"Eaton Corporation plc","accessed":"2026-09-22"},
@@ -1213,7 +1213,7 @@ Pentru aceste familii de filtrare, parametrii tehnici (debit, presiune, grad de 
       'Mașini-unelte și prese',
       'Naval și offshore'
     ],
-    infinitrade: `Nu putem confirma stocul exact pentru fiecare cod de filtrare Eaton și lucrăm din informațiile publice ale producătorului atunci când descriem filtrele de retur, de presiune, spin-on, sorburile și breatherele din gamă. Aducem filtrele la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru configurații speciale. Pentru o ofertă, trimiteți-ne codul exact al filtrului sau al elementului filtrant, ori parametrii circuitului hidraulic (debit, presiune), și revenim cu preț și termen de livrare confirmat.`,
+    infinitrade: `Nu putem confirma stocul exact pentru fiecare cod de filtrare Eaton și lucrăm din documentația tehnică a producătorului atunci când descriem filtrele de retur, de presiune, spin-on, sorburile și breatherele din gamă. Aducem filtrele la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru configurații speciale. Pentru o ofertă, trimiteți-ne codul exact al filtrului sau al elementului filtrant, ori parametrii circuitului hidraulic (debit, presiune), și revenim cu preț și termen de livrare confirmat.`,
     limitation: 'Nu furnizăm pompe, motoare, valve sau cilindri hidraulici sub marca Eaton - afacerea de hidraulică a fost vândută către Danfoss în 2021; filtrarea Vickers a rămas la Eaton.',
     sources: [
       {"title":"Vickers Filtration Master Catalogue","url":"https://www.eaton.com/content/dam/eaton/products/filtration-solutions/filter-systems-and-strainers/filters-and-strainers/hydraulic-lubrication-filters/vickers/Eaton-Vickers-Brochure-US-LowRes.pdf","publisher":"Eaton","accessed":"2026-09-22"},
@@ -1294,7 +1294,7 @@ Pentru aceste familii de filtrare, parametrii tehnici (debit, presiune, grad de 
       },
       {
         "q": "Livrați filtre Eaton Vickers în România?",
-        "a": "Da, aducem la comandă coduri Eaton Vickers pe baza informațiilor publice din catalogul Vickers Filtration al producătorului, fără a ține stoc propriu permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de disponibilitatea codului exact și de confirmarea specificațiilor tehnice cerute de aplicația dumneavoastră hidraulică."
+        "a": "Da, aducem la comandă coduri Eaton Vickers pe baza catalogului Vickers Filtration, fără a ține stoc propriu permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de disponibilitatea codului exact și de confirmarea specificațiilor tehnice cerute de aplicația dumneavoastră hidraulică."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -1358,7 +1358,7 @@ Sistemul DeltaV DCS este un sistem avansat de control de proces: redundanță co
       'Științele vieții - biotehnologie',
       'Metalurgie - siderurgie'
     ],
-    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim informațiile publice disponibile de la producător atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, vă rugăm să ne transmiteți datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului; revenim cu ofertă și termen de livrare confirmat.`,
+    infinitrade: `Pentru instrumentele Emerson nu avem date proprii de stoc, ci folosim documentația tehnică a producătorului atunci când descriem transmițătoarele Rosemount, valvele Fisher și sistemele DeltaV. Aducem echipamentele Emerson la comandă prin canale de aprovizionare din Uniunea Europeană, cu 24–72 h ca reper general al firmei pentru comenzile onorate din aprovizionarea curentă și 1–4 săptămâni la comandă pentru restul gamei sau proiecte mai mari. Pentru o ofertă, vă rugăm să ne transmiteți datele de proces (fluid, presiune, temperatură, debit) sau codul exact al instrumentului; revenim cu ofertă și termen de livrare confirmat.`,
     limitation: 'Nu oferim configurare sau programare software pentru sistemele DeltaV sau valvele Fisher - acestea rămân în sarcina integratorului sau a producătorului.',
     sources: [
       {"title":"Fisher easy-e ED Control Valve","url":"https://www.emerson.com/en/final-control/products/fisher-ed","publisher":"Emerson","accessed":"2026-09-22"},

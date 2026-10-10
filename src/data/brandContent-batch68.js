@@ -300,7 +300,7 @@ Pentru laboratoarele și liniile de producție din România, gama Rigol are sens
       "Electronică auto — testarea semnalelor din module electronice",
       "Internet of Things — dezvoltare și depanare de module de comunicație"
     ],
-    infinitrade: `Fără date proprii de stoc pentru Rigol, ne ghidăm după informațiile disponibile public pe site-ul producătorului atunci când confirmăm o configurație. Pentru Rigol, livrarea la comandă prin distribuție europeană durează de regulă 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de tipul de instrument (osciloscop, generator, analizor de spectru) și parametrii cheie — bandă de frecvență, număr de canale, opțiuni software necesare. Nu promitem disponibilitate din depozit pe nicio serie, disponibilitatea variind în funcție de model.`,
+    infinitrade: `Fără date proprii de stoc pentru Rigol, ne ghidăm după informațiile din documentația tehnică a producătorului atunci când confirmăm o configurație. Pentru Rigol, livrarea la comandă prin distribuție europeană durează de regulă 1–4 săptămâni de la confirmare. Pentru ofertă avem nevoie de tipul de instrument (osciloscop, generator, analizor de spectru) și parametrii cheie — bandă de frecvență, număr de canale, opțiuni software necesare. Nu promitem disponibilitate din depozit pe nicio serie, disponibilitatea variind în funcție de model.`,
     limitation: "Nu putem confirma disponibilitatea imediată a opțiunilor software activabile ulterior (decodare de protocol, memorie extinsă); acestea se verifică punctual la comandă.",
     productCodes: [
       { code: "DS80000", description: "Osciloscop digital, bandă 13 GHz" },

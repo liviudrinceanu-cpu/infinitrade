@@ -14,7 +14,7 @@ Pentru piața din România, Ellab are sens la calificarea și validarea periodic
       "Memorie internă de până la 120.000 de puncte de date per logger, utilă la cicluri lungi fără descărcare",
       "Software ValSuite compatibil FDA 21 CFR Part 11, cu jurnal de audit și semnătură electronică",
       "Gamă separată pentru liofilizare (LyoPro) și pentru monitorizare wireless în laborator și depozitare (IceSpy), nu doar validare termică generală",
-      "Certificări de laborator de calibrare ISO 17025 și UKAS menționate pe site",
+      "Certificări de laborator de calibrare ISO 17025 și UKAS menționate",
     ],
     keyProducts: [
       { name: "TrackSense Pro", description: "Familia principală de dataloggere wireless pentru validare termică, cu senzori interschimbabili pentru temperatură, umiditate, presiune, CO₂ sau conductivitate. Plaja de temperatură ajunge la -80°C…+400°C, iar memoria internă stochează până la 120.000 de puncte de date. Dataloggerele TrackSense folosesc software-ul ValSuite pentru descărcare și raportare." },
@@ -29,7 +29,7 @@ Pentru piața din România, Ellab are sens la calificarea și validarea periodic
       "Biotehnologie — monitorizarea condițiilor din laborator și din spațiile de depozitare",
       "Laboratoare — calibrare de instrumente de proces termic",
     ],
-    infinitrade: `Ce redăm despre Ellab vine din surse publice ale producătorului; nu avem date proprii de stoc pentru dataloggerele și software-ul din gama de validare. Aducem echipamentele Ellab la comandă, prin canale de aprovizionare din piața europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii; nu ținem această gamă pe raft. Pentru o ofertă avem nevoie de familia exactă de logger (TrackSense Pro sau LyoPro), de tipul de senzor dorit și de aplicația de validare vizată. Nu promitem un termen fix înainte de confirmarea producătorului și nu oferim noi servicii de calibrare acreditată pentru aceste aparate.`,
+    infinitrade: `Ce redăm despre Ellab vine din documentația tehnică a producătorului; nu avem date proprii de stoc pentru dataloggerele și software-ul din gama de validare. Aducem echipamentele Ellab la comandă, prin canale de aprovizionare din piața europeană, cu un termen orientativ de 1–4 săptămâni de la confirmarea comenzii; nu ținem această gamă pe raft. Pentru o ofertă avem nevoie de familia exactă de logger (TrackSense Pro sau LyoPro), de tipul de senzor dorit și de aplicația de validare vizată. Nu promitem un termen fix înainte de confirmarea producătorului și nu oferim noi servicii de calibrare acreditată pentru aceste aparate.`,
     limitation: "Nu putem confirma prezența unei filiale sau a unui centru de service Ellab dedicat în România.",
     productCodes: [
       { code: "TrackSense Pro", description: "logger wireless de validare termică, senzor interschimbabil" },
@@ -90,7 +90,7 @@ Pentru piața din România, Vitrek are sens la laboratoarele de testare electros
       "Semiconductori — teraohmmetre pentru măsurarea rezistenței de izolație",
       "Laboratoare de testare electrosecuritate — analizoare de putere și testere hipot",
     ],
-    infinitrade: `Datele despre Vitrek provin exclusiv din surse publice ale producătorului, fără date proprii despre stocul aparatelor din gama hipot, analizoare de putere sau echilibrare rotoare. Livrăm aparatele Vitrek, GaGe și MTI Instruments la comandă, prin canale de aprovizionare din SUA, cu un termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft. Pentru ofertă avem nevoie de seria exactă a aparatului, de tensiunea sau curentul de test necesare și de eventualele accesorii (sonde, cabluri) cerute de aplicație. Configurarea software-ului de automatizare a testelor rămâne responsabilitatea producătorului sau a integratorului de linie.`,
+    infinitrade: `Datele despre Vitrek provin exclusiv din documentația tehnică a producătorului, fără date proprii despre stocul aparatelor din gama hipot, analizoare de putere sau echilibrare rotoare. Livrăm aparatele Vitrek, GaGe și MTI Instruments la comandă, prin canale de aprovizionare din SUA, cu un termen orientativ de 1–4 săptămâni; nu ținem această gamă pe raft. Pentru ofertă avem nevoie de seria exactă a aparatului, de tensiunea sau curentul de test necesare și de eventualele accesorii (sonde, cabluri) cerute de aplicație. Configurarea software-ului de automatizare a testelor rămâne responsabilitatea producătorului sau a integratorului de linie.`,
     limitation: "Nu putem confirma configurarea sau integrarea software-ului QT Insite pe linii de producție existente.",
     productCodes: [
       { code: "95X Series", description: "tester hipot AC/DC, 6-30 kV, curent test 200 mA" },
@@ -154,7 +154,7 @@ Pentru piața din România, sursele Delta Elektronika au sens în laboratoarele 
       "Industrie electronică — testare de componente și module de putere",
       "Educație — laboratoare de inginerie electrică și electrotehnică",
     ],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre sursele Delta Elektronika: parametrii tehnici vin din site-ul producătorului, nu din teste proprii de laborator, și nu avem date proprii de stoc pentru această gamă. Aducem sursele Delta Elektronika la comandă, prin canale de aprovizionare din Țările de Jos, cu un termen orientativ de 1–4 săptămâni de la confirmare; nu ținem gama pe raft. Pentru ofertă avem nevoie de familia dorită (ES sau SM), de tensiunea și curentul de ieșire necesare și de eventuala cerință de funcționare bidirecțională sau Master/Slave.`,
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre sursele Delta Elektronika: parametrii tehnici vin din documentația tehnică a producătorului, nu din teste proprii de laborator, și nu avem date proprii de stoc pentru această gamă. Aducem sursele Delta Elektronika la comandă, prin canale de aprovizionare din Țările de Jos, cu un termen orientativ de 1–4 săptămâni de la confirmare; nu ținem gama pe raft. Pentru ofertă avem nevoie de familia dorită (ES sau SM), de tensiunea și curentul de ieșire necesare și de eventuala cerință de funcționare bidirecțională sau Master/Slave.`,
     limitation: "Nu putem confirma certificări specifice (ISO, CE) pentru gama Delta Elektronika, nemenționate explicit pe paginile de produs citite.",
     productCodes: [
       { code: "ES015-10", description: "sursă laborator, 0-15V, 0-10A" },
@@ -224,7 +224,7 @@ Pentru piața din România, ETS-Lindgren are sens la laboratoarele de testare EM
       "Sănătate — ecranare RF pentru săli de rezonanță magnetică",
       "Utilități și infrastructuri critice — protecție la interferențe electromagnetice",
     ],
-    infinitrade: `Informațiile publice disponibile despre ETS-Lindgren vin de pe site-ul producătorului; nu confirmăm date suplimentare din surse proprii pentru camerele, antenele sau absorbanții din gamă. Livrăm echipamentele ETS-Lindgren la comandă, prin canale de aprovizionare din SUA sau din filialele europene ale grupului ESCO Technologies, cu un termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de tipul de echipament (antenă, absorbant, sistem de ecranare), banda de frecvență vizată și standardul de testare aplicat. Instalarea și calificarea camerei anecoice rămân responsabilitatea producătorului sau a unui integrator specializat.`,
+    infinitrade: `Informațiile despre ETS-Lindgren vin din documentația tehnică a producătorului; nu confirmăm date suplimentare din surse proprii pentru camerele, antenele sau absorbanții din gamă. Livrăm echipamentele ETS-Lindgren la comandă, prin canale de aprovizionare din SUA sau din filialele europene ale grupului ESCO Technologies, cu un termen orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de tipul de echipament (antenă, absorbant, sistem de ecranare), banda de frecvență vizată și standardul de testare aplicat. Instalarea și calificarea camerei anecoice rămân responsabilitatea producătorului sau a unui integrator specializat.`,
     limitation: "Nu putem confirma proiectarea sau instalarea completă a unei camere anecoice — livrăm componentele din gamă, nu integrarea la cheie.",
     productCodes: [
       { code: "3102 Conical Log Spiral", description: "antenă bandă largă pentru măsurători EMC" },
@@ -295,7 +295,7 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
       "Cale ferată — testare de anduranță și confort de rulare",
       "Industrial — măsurători de vibrații și zgomot pe utilaje grele",
     ],
-    infinitrade: `Ce scriem despre Dewesoft se bazează pe surse publice ale producătorului, fără cifre proprii despre stocul de sisteme SIRIUS, KRYPTON sau OBSIDIAN. Aducem echipamentele Dewesoft la comandă, prin canale de aprovizionare din Slovenia și din rețeaua europeană a producătorului, cu un termen orientativ de 1–4 săptămâni; nu ținem gama pe raft. Pentru ofertă avem nevoie de familia dorită (SIRIUS, KRYPTON, OBSIDIAN sau SBOX), de numărul de canale necesare și de tipul de senzor conectat. Nu confirmăm noi configurarea software-ului DewesoftX pentru proiecte de măsurare complexe — aceasta rămâne în sarcina producătorului sau a integratorului.`,
+    infinitrade: `Ce scriem despre Dewesoft se bazează pe documentația tehnică a producătorului, fără cifre proprii despre stocul de sisteme SIRIUS, KRYPTON sau OBSIDIAN. Aducem echipamentele Dewesoft la comandă, prin canale de aprovizionare din Slovenia și din UE, cu un termen orientativ de 1–4 săptămâni; nu ținem gama pe raft. Pentru ofertă avem nevoie de familia dorită (SIRIUS, KRYPTON, OBSIDIAN sau SBOX), de numărul de canale necesare și de tipul de senzor conectat. Nu confirmăm noi configurarea software-ului DewesoftX pentru proiecte de măsurare complexe — aceasta rămâne în sarcina producătorului sau a integratorului.`,
     limitation: "Nu putem confirma disponibilitatea locală a suportului tehnic gratuit oferit global de producător pentru configurarea software-ului.",
     productCodes: [
       { code: "SIRIUS Modular", description: "sistem DAQ modular, configurație flexibilă" },
@@ -323,7 +323,7 @@ Pentru piața din România, Dewesoft are sens la testarea de anduranță auto ș
       { q: "Ce produce Dewesoft?", a: "Dewesoft produce sisteme de achiziție de date și software de măsurare, fondat în 2000 la Trbovlje, Slovenia. Gama include familia modulară SIRIUS, sistemele robuste KRYPTON, loggerul de sine stătător OBSIDIAN și software-ul DewesoftX inclus fără cost suplimentar." },
       { q: "Cum aleg un sistem Dewesoft după serie?", a: "Porniți de la mediul de testare: SIRIUS pentru laborator sau bancuri de test, KRYPTON pentru montaj direct pe vehicul în condiții dure, OBSIDIAN pentru înregistrare autonomă de lungă durată. Apoi verificați numărul de canale și tipul de senzor necesar aplicației." },
       { q: "Ce echivalent are gama SIRIUS de la Dewesoft față de Oros?", a: "Ambele mărci acoperă achiziția de date multicanal pentru testare industrială și de vehicule; diferența practică ține de arhitectura ADC folosită și de domeniul dinamic per canal, parametri care se compară direct din fișele tehnice ale fiecărui model." },
-      { q: "Livrați Dewesoft în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Slovenia și din rețeaua europeană a producătorului; termenul orientativ este de 1–4 săptămâni, în funcție de configurația de canale solicitată." },
+      { q: "Livrați Dewesoft în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din Slovenia și din UE; termenul orientativ este de 1–4 săptămâni, în funcție de configurația de canale solicitată." },
       { q: "Ce trebuie să trimit pentru o ofertă Dewesoft?", a: "Familia dorită (SIRIUS, KRYPTON, OBSIDIAN sau SBOX), numărul de canale de măsură necesare, tipul de senzori conectați și mediul de utilizare (laborator sau teren, cu condiții dure sau nu)." },
     ],
     evidenceClass: "market-signal-ro",
@@ -366,7 +366,7 @@ Pentru piața din România, sistemele Fixturlaser/Acoem au sens la mentenanța p
       "Sisteme de pompare — aliniere pentru pompe sprinkler și stații de pompare",
       "Industrial general — mentenanță predictivă pe mașini rotative",
     ],
-    infinitrade: `Pentru Fixturlaser nu deținem date proprii despre stocul aparatelor de aliniere; informațiile tehnice provin din materialele publicate de Acoem, compania care comercializează astăzi produsele sub această marcă. Aducem instrumentele Fixturlaser/Acoem la comandă, prin canale de aprovizionare europene, cu un termen orientativ de 1–4 săptămâni de la confirmare; nu ținem gama pe raft. Pentru ofertă avem nevoie de modelul dorit (AT-100 până la AT-400, EXO sau RT-300), de tipul de mașină rotativă vizată și de eventuala cerință de certificare pentru zone cu risc de explozie.`,
+    infinitrade: `Pentru Fixturlaser nu deținem date proprii despre stocul aparatelor de aliniere; informațiile tehnice provin din documentația Acoem, compania care comercializează astăzi produsele sub această marcă. Aducem instrumentele Fixturlaser/Acoem la comandă, prin canale de aprovizionare europene, cu un termen orientativ de 1–4 săptămâni de la confirmare; nu ținem gama pe raft. Pentru ofertă avem nevoie de modelul dorit (AT-100 până la AT-400, EXO sau RT-300), de tipul de mașină rotativă vizată și de eventuala cerință de certificare pentru zone cu risc de explozie.`,
     limitation: "Nu putem confirma acreditarea sau disponibilitatea locală a instruirii de operare pentru aceste instrumente în România.",
     productCodes: [
       { code: "AT-100", description: "instrument de aliniere axe, gamă de bază" },
@@ -426,8 +426,8 @@ Pentru piața din România, EXFO are sens la operatorii de telecom care instalea
       "Contractori de rețele — instalare și punere în funcțiune de cabluri de fibră",
       "Producători de echipamente de rețea — testare la nivel de fabricație",
     ],
-    infinitrade: `Despre EXFO folosim doar informațiile publice disponibile în materialele producătorului, fără date proprii de stoc pentru echipamentele de testare optică. Aducem aparatele EXFO la comandă, prin canale de aprovizionare din America de Nord sau din rețeaua europeană a producătorului, cu un termen orientativ de 1–4 săptămâni; nu ținem aceste aparate pe raft. Pentru ofertă avem nevoie de tipul de test necesar (OTDR, certificare de pierdere optică, testare de transport) și de banda/capacitatea de rețea vizată (de exemplu 10G, 100G).`,
-    limitation: "Nu putem confirma disponibilitatea locală a serviciilor de calibrare acreditată pentru echipamentele EXFO — acestea rămân la producător sau la un laborator acreditat terț.",
+    infinitrade: `Despre EXFO folosim doar documentația tehnică a producătorului, fără date proprii de stoc pentru echipamentele de testare optică. Aducem aparatele EXFO la comandă, prin canale de aprovizionare din America de Nord sau din UE, cu un termen orientativ de 1–4 săptămâni; nu ținem aceste aparate pe raft. Pentru ofertă avem nevoie de tipul de test necesar (OTDR, certificare de pierdere optică, testare de transport) și de banda/capacitatea de rețea vizată (de exemplu 10G, 100G).`,
+    limitation: "Nu putem confirma disponibilitatea locală a serviciilor de calibrare acreditată pentru echipamentele EXFO — acestea se asigură printr-un laborator acreditat terț.",
     productCodes: [
       { code: "FOT-900", description: "prima unitate portabilă de testare pierdere optică, 1992" },
       { code: "USO-1618", description: "OTDR pentru testare cabluri submarine" },
@@ -444,7 +444,7 @@ Pentru piața din România, EXFO are sens la operatorii de telecom care instalea
       { q: "Ce produce EXFO?", a: "EXFO produce echipamente pentru testarea, monitorizarea și analiza rețelelor de fibră optică, fondată în 1985 în Quebec, Canada. Gama acoperă OTDR-uri de câmp, testere Ethernet/transport de mare capacitate, localizatoare de defecte și echipamente de laborator pentru fabricanți de rețele." },
       { q: "Cum aleg un OTDR EXFO după model?", a: "Pentru rețele metropolitane sau de lungă distanță alegeți din familia FTB/FTBx, pentru testare submarină alegeți USO-1618, iar pentru verificări rapide de teren, un localizator vizual precum FLS-170 e suficient înainte de un test OTDR complet." },
       { q: "Ce echivalent are gama de câmp EXFO față de Trend Networks?", a: "Ambele mărci produc echipamente portabile de testare pentru instalatori și tehnicieni de rețea; EXFO acoperă și segmentul de testare de mare capacitate (100G, protocol), în timp ce alegerea între ele depinde de tipul exact de test necesar proiectului." },
-      { q: "Livrați EXFO în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din America de Nord sau din rețeaua europeană a producătorului; termenul orientativ este de 1–4 săptămâni, în funcție de modelul solicitat." },
+      { q: "Livrați EXFO în România și cât durează?", a: "Da, la comandă, prin canale de aprovizionare din America de Nord sau din UE; termenul orientativ este de 1–4 săptămâni, în funcție de modelul solicitat." },
       { q: "Ce trebuie să trimit pentru o ofertă EXFO?", a: "Tipul de test necesar (OTDR, certificare de pierdere optică, testare de transport Ethernet), capacitatea de rețea vizată și dacă echipamentul e pentru instalare de teren sau pentru laborator/fabricație." },
     ],
     evidenceClass: "market-signal-ro",

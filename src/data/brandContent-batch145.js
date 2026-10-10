@@ -28,7 +28,7 @@ Pentru piața din România, gama e relevantă la liniile de ambalare și la sta�
       "Ambalare și tipar — transport pneumatic și manipulare foi",
       "Reciclare și plastic — transport pneumatic de granule și deșeuri",
     ],
-    infinitrade: `Pentru Elmo Rietschle lucrăm din surse publice ale producătorului și prin canale de aprovizionare din Uniunea Europeană — nu ținem această gamă pe raft, aducem la comandă. Termenul orientativ pentru o pompă sau suflantă configurată pe aplicație e de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii europene. Pentru o ofertă corectă avem nevoie de: tipul de aplicație (vid continuu sau intermitent), presiunea sau debitul necesar, dacă procesul tolerează urme de ulei și tensiunea de alimentare disponibilă. Nu promitem disponibilitate din depozit pe niciun model din gamă, dar putem verifica disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
+    infinitrade: `Pentru Elmo Rietschle lucrăm din documentația tehnică a producătorului și prin canale de aprovizionare din Uniunea Europeană — nu ținem această gamă pe raft, aducem la comandă. Termenul orientativ pentru o pompă sau suflantă configurată pe aplicație e de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de stocul fabricii europene. Pentru o ofertă corectă avem nevoie de: tipul de aplicație (vid continuu sau intermitent), presiunea sau debitul necesar, dacă procesul tolerează urme de ulei și tensiunea de alimentare disponibilă. Nu promitem disponibilitate din depozit pe niciun model din gamă, dar putem verifica disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
     limitation: "Nu putem confirma disponibilitatea pieselor de schimb pentru modelele mai vechi, scoase din producția curentă, fără o verificare punctuală la producător.",
     productCodes: [
       { code: "VLU 62/122", description: "Pompă cu gheare, mărimile 62 și 122" },
@@ -97,7 +97,7 @@ Pentru un utilizator din România, gama BOGE acoperă atât atelierul mic cu un 
       "Metal și electronică — aer comprimat pentru scule pneumatice și linii de asamblare",
       "Industrie de proces — aer pentru automatizări și instrumentație pneumatică",
     ],
-    infinitrade: `Lucrăm cu gama BOGE din surse publice ale producătorului, fără date proprii de stoc pe niciuna dintre serii. Aducem compresoarele la comandă prin canale de aprovizionare din spațiul UE, cu un termen orientativ de 1–4 săptămâni, în funcție de serie și de configurația cerută (putere, presiune de lucru, variantă lubrifiată sau fără ulei). Pentru o ofertă corectă avem nevoie de: consumul de aer estimat al instalației (l/min sau m³/min), presiunea de lucru necesară, dacă procesul cere aer fără ulei și spațiul disponibil pentru montaj. Nu ținem această gamă pe raft pe nicio serie BOGE, dar putem verifica rapid disponibilitatea la producător înainte de confirmarea comenzii.`,
+    infinitrade: `Lucrăm cu gama BOGE din documentația tehnică a producătorului, fără date proprii de stoc pe niciuna dintre serii. Aducem compresoarele la comandă prin canale de aprovizionare din spațiul UE, cu un termen orientativ de 1–4 săptămâni, în funcție de serie și de configurația cerută (putere, presiune de lucru, variantă lubrifiată sau fără ulei). Pentru o ofertă corectă avem nevoie de: consumul de aer estimat al instalației (l/min sau m³/min), presiunea de lucru necesară, dacă procesul cere aer fără ulei și spațiul disponibil pentru montaj. Nu ținem această gamă pe raft pe nicio serie BOGE, dar putem verifica rapid disponibilitatea la producător înainte de confirmarea comenzii.`,
     limitation: "Nu putem confirma service în perioada de garanție a producătorului sau configurarea electronică avansată a variantelor cu control de viteză, fără implicarea directă a BOGE.",
     productCodes: [
       { code: "C series", description: "Compresor cu șurub, până la 22 kW" },
@@ -155,7 +155,7 @@ Pentru un atelier auto sau o hală de producție din România, gama Ceccato acop
       "Prelucrarea lemnului — aer comprimat pentru scule și linii de finisare",
       "Textile și materiale plastice — aer comprimat pentru linii de producție continuă",
     ],
-    infinitrade: `Pentru Ceccato mergem pe informația publică disponibilă de la producător, fără date proprii de stoc pentru niciuna dintre seriile de compresoare. Aducem echipamentele la comandă prin canale de aprovizionare din spațiul european, cu un termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de configurația de putere. Ca să pregătim o ofertă corectă avem nevoie de: consumul de aer al instalației, presiunea de lucru necesară, dacă procesul cere aer fără ulei și tipul de motor preferat (turație fixă sau variabilă). Nu ținem această gamă pe raft pe gama Ceccato, dar verificăm disponibilitatea curentă la producător înainte de a stabili termenul final cu clientul.`,
+    infinitrade: `Pentru Ceccato mergem pe documentația tehnică a producătorului, fără date proprii de stoc pentru niciuna dintre seriile de compresoare. Aducem echipamentele la comandă prin canale de aprovizionare din spațiul european, cu un termen orientativ de 1–4 săptămâni, în funcție de seria aleasă și de configurația de putere. Ca să pregătim o ofertă corectă avem nevoie de: consumul de aer al instalației, presiunea de lucru necesară, dacă procesul cere aer fără ulei și tipul de motor preferat (turație fixă sau variabilă). Nu ținem această gamă pe raft pe gama Ceccato, dar verificăm disponibilitatea curentă la producător înainte de a stabili termenul final cu clientul.`,
     limitation: "Nu putem confirma configurarea software a controlerelor ECOntrol+ și ECOntrol6 pentru integrare în cascadă, fără suport direct din partea producătorului.",
     productCodes: [
       { code: "DRF 151-220 HP", description: "Compresor cu șurub, turație fixă, gamă mare de putere" },
@@ -216,7 +216,7 @@ Pentru piața din România, gama e relevantă la retrofitul de centrale de venti
       "Industria alimentară — ventilatoare pentru linii de procesare",
       "Evacuare fum — ventilatoare centrifugale certificate pentru situații de urgență",
     ],
-    infinitrade: `Pentru Nicotra Gebhardt lucrăm din surse publice ale producătorului, fără date proprii de stoc pentru gama de ventilatoare. Aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de dimensiunea de racordare cerută. Pentru o ofertă corectă avem nevoie de: dimensiunea carcasei sau a racordului existent (dacă e o înlocuire), debitul și presiunea necesare, temperatura aerului vehiculat și tipul de motor preferat (EC sau asincron). Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
+    infinitrade: `Pentru Nicotra Gebhardt lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru gama de ventilatoare. Aducem echipamentele la comandă prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de dimensiunea de racordare cerută. Pentru o ofertă corectă avem nevoie de: dimensiunea carcasei sau a racordului existent (dacă e o înlocuire), debitul și presiunea necesare, temperatura aerului vehiculat și tipul de motor preferat (EC sau asincron). Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma un termen ferm clientului.`,
     limitation: "Nu putem confirma configurarea software a instrumentului ProSelecta pentru integrare în sisteme de automatizare terțe, fără suport direct din partea producătorului.",
     productCodes: [
       { code: "DDMP", description: "Ventilator centrifugal, antrenare directă, motor EC" },
@@ -254,7 +254,7 @@ Pentru piața din România, gama e relevantă la retrofitul de centrale de venti
   'casals': {
     name: "Casals",
     headquarters: "Sant Joan de les Abadesses, Spania",
-    overview: `Casals fabrică ventilatoare industriale și de ventilație tehnică pentru clădiri la Sant Joan de les Abadesses, în provincia Girona, Spania, cu o a doua unitate de producție la Ripoll și cu peste un secol de activitate în domeniu, conform istoricului publicat de companie. Gama acoperă ventilatoare axiale (seriile HB, HC, HM, HI, HH-2, HMA, HCA), tablouri de comandă pentru ventilația parcărilor subterane (PARKGUARD), unități de recuperare de căldură (ORMEN EC) și ventilatoare industriale de mare debit la viteză redusă (AERONIKA HVLS).
+    overview: `Casals fabrică ventilatoare industriale și de ventilație tehnică pentru clădiri la Sant Joan de les Abadesses, în provincia Girona, Spania, cu o a doua unitate de producție la Ripoll și cu peste un secol de activitate în domeniu, conform istoricului companiei. Gama acoperă ventilatoare axiale (seriile HB, HC, HM, HI, HH-2, HMA, HCA), tablouri de comandă pentru ventilația parcărilor subterane (PARKGUARD), unități de recuperare de căldură (ORMEN EC) și ventilatoare industriale de mare debit la viteză redusă (AERONIKA HVLS).
 
 Ce diferențiază catalogul e acoperirea dublă, tehnică și rezidențială, sub același brand: pe partea industrială, seria HC are palete cu pas variabil, pentru ajustarea debitului fără schimbare de motor; pe partea rezidențială, ERELIS și unitățile EC completează gama cu motoare de eficiență ridicată. Compania face parte din grupul italian Vortice.
 
@@ -278,7 +278,7 @@ Pentru piața din România, gama e relevantă la parcările subterane unde se ce
       "Agricultură — ventilatoare de mare debit pentru spații cu plafon înalt",
       "Locuințe colective — unități de recuperare de căldură pentru ventilație rezidențială",
     ],
-    infinitrade: `Pentru Casals plecăm de la informația publică a producătorului, fără date proprii de stoc pentru gama de ventilatoare industriale sau rezidențiale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și din rețeaua europeană a grupului Vortice, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (ventilație industrială, parcare, rezidențial), debitul de aer necesar, dimensiunea disponibilă pentru montaj și dacă se cere certificare pentru evacuare fum. Nu ținem această gamă pe raft, dar putem verifica disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
+    infinitrade: `Pentru Casals plecăm de la documentația tehnică a producătorului, fără date proprii de stoc pentru gama de ventilatoare industriale sau rezidențiale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (ventilație industrială, parcare, rezidențial), debitul de aer necesar, dimensiunea disponibilă pentru montaj și dacă se cere certificare pentru evacuare fum. Nu ținem această gamă pe raft, dar putem verifica disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
     limitation: "Nu putem confirma configurarea sistemelor PARKGUARD pentru integrare cu instalația de detecție a incendiului existentă, fără o evaluare tehnică punctuală la fața locului.",
     productCodes: [
       { code: "HBA", description: "Ventilator axial" },
@@ -301,7 +301,7 @@ Pentru piața din România, gama e relevantă la parcările subterane unde se ce
     faq: [
       { q: "Ce produce Casals?", a: "Casals produce ventilatoare axiale industriale, sisteme de ventilație pentru parcări subterane cu funcție de evacuare fum, ventilatoare de mare debit la viteză redusă (HVLS) și unități de recuperare de căldură pentru ventilație rezidențială. Compania face parte din grupul italian Vortice." },
       { q: "Cum aleg un ventilator Casals după cod?", a: "Seria HC este un ventilator axial industrial cu carcasă scurtă și palete cu pas variabil, HH-2 are motor extern pe curea, iar HJEM este o variantă de perete pentru ventilație generală. Alegerea finală depinde de debitul necesar și de spațiul de montaj disponibil." },
-      { q: "Livrați ventilatoare Casals în România și cât durează?", a: "Pentru instalațiile Casals, orientativ trec 1–4 săptămâni de la comanda fermă până la livrare, prin rețeaua spaniolă și europeană a grupului Vortice. Nu promitem un termen fix înainte de a verifica stocul curent la fabrică, mai ales pentru sistemele configurate pe proiect, cum sunt cele pentru parcări subterane." },
+      { q: "Livrați ventilatoare Casals în România și cât durează?", a: "Pentru instalațiile Casals, orientativ trec 1–4 săptămâni de la comanda fermă până la livrare, prin canalele noastre de aprovizionare din Spania și din UE. Nu promitem un termen fix înainte de a verifica stocul curent la fabrică, mai ales pentru sistemele configurate pe proiect, cum sunt cele pentru parcări subterane." },
       { q: "Ce trebuie să trimit pentru o ofertă de ventilație Casals pentru o parcare subterană?", a: "Suprafața și volumul parcării, numărul de niveluri, dacă există deja instalație de detecție a incendiului și cerințele normative locale pentru evacuare fum. Cu aceste date putem propune o configurație de bază din gama PARKGUARD pentru evaluare tehnică ulterioară." },
     ],
     evidenceClass: "market-signal-intl",
@@ -319,7 +319,7 @@ Pentru piața din România, gama e relevantă la parcările subterane unde se ce
       "ISO 9001:2015 — management al calității, certificat de Bureau Veritas",
       "ISO 14001 — management de mediu, certificat de Bureau Veritas",
     ],
-    overview: `Sodeca produce ventilatoare industriale și sisteme de evacuare fum din Spania, cu 8 centre de producție proprii și filiale comerciale pe cinci continente, conform datelor publicate de companie. Gama acoperă ventilatoare centrifugale canalizabile (SVE, SVE/PLUS, NEOLINEO, NEOSILENT), ventilatoare centrifugale directe sau pe curea pentru presiuni joase-medii-înalte (CBD, CBX, CDXR, CMR, CA), ventilatoare pentru evacuare fum la temperaturi de 300-400°C (CJTHT) și sisteme de presurizare a scărilor de evacuare (KIT BOXPDS).
+    overview: `Sodeca produce ventilatoare industriale și sisteme de evacuare fum din Spania, cu 8 centre de producție proprii și filiale comerciale pe cinci continente, conform datelor companiei. Gama acoperă ventilatoare centrifugale canalizabile (SVE, SVE/PLUS, NEOLINEO, NEOSILENT), ventilatoare centrifugale directe sau pe curea pentru presiuni joase-medii-înalte (CBD, CBX, CDXR, CMR, CA), ventilatoare pentru evacuare fum la temperaturi de 300-400°C (CJTHT) și sisteme de presurizare a scărilor de evacuare (KIT BOXPDS).
 
 Ce diferențiază gama e disponibilitatea parametrilor exacți pe fiecare model: de exemplu varianta SVE/PLUS-100/L funcționează la 1800 rot/min și livrează 290 m³/h, iar SVE/PLUS-400/H ajunge la 2310 m³/h la 1350 rot/min, ambele cu izolație fonoabsorbantă de 40 mm. Pe partea centrifugală directă, un model CBD-2525-4M de 3/4 CP livrează 3600 m³/h la 1310 rot/min. Sodeca e certificată ISO 9001:2015 și ISO 14001 de Bureau Veritas.
 
@@ -328,7 +328,7 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
       "Parametri tehnici publicați pe model (debit, turație, nivel de zgomot), nu doar pe familie de produse",
       "Certificare ISO 9001:2015 și ISO 14001 de la Bureau Veritas",
       "Serie dedicată pentru evacuare fum la 300-400°C timp de minimum 2 ore (CJTHT)",
-      "8 centre de producție proprii și 13 filiale pe cinci continente, conform datelor publicate de companie",
+      "8 centre de producție proprii și 13 filiale pe cinci continente, conform datelor companiei",
       "Game separate pentru presiune medie (CMP, CMR) și înaltă (CA), pentru dimensionare precisă",
     ],
     keyProducts: [
@@ -343,7 +343,7 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
       "Parcări — evacuare fum și ventilație de rutină",
       "Medii cu risc de explozie — ventilatoare ATEX pentru zone clasificate",
     ],
-    infinitrade: `Lucrăm cu gama Sodeca pe baza informațiilor publice ale producătorului, fără date proprii de stoc pentru modelele din catalog. Aducem ventilatoarele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a producătorului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: debitul de aer necesar (m³/h), presiunea statică disponibilă, dacă aplicația e de evacuare fum (cu temperatura și durata cerute de normativ) și dimensiunea de racordare la conductă. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
+    infinitrade: `Lucrăm cu gama Sodeca pe baza documentației tehnice a producătorului, fără date proprii de stoc pentru modelele din catalog. Aducem ventilatoarele la comandă prin canale de aprovizionare din Spania și din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: debitul de aer necesar (m³/h), presiunea statică disponibilă, dacă aplicația e de evacuare fum (cu temperatura și durata cerute de normativ) și dimensiunea de racordare la conductă. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul.`,
     limitation: "Nu putem confirma proiectarea sistemului de securitate la incendiu al clădirii sau avizarea ISU pentru instalația de evacuare fum, responsabilitate care rămâne a proiectantului de specialitate.",
     productCodes: [
       { code: "SVE", description: "Ventilator centrifugal canalizabil, izolație acustică" },
@@ -386,7 +386,7 @@ Pentru piața din România, gama e relevantă la sistemele de evacuare fum din s
   'soler-palau': {
     name: "Soler & Palau",
     founded: 1951,
-    overview: `Soler & Palau (S&P) produce ventilatoare pentru ventilație rezidențială și industrială din Spania, fondată în 1951 de Eduard Soler și Josep Palau și crescută de atunci într-un grup cu centre de producție în Europa, America și Asia și prezență în peste 90 de țări, conform istoricului publicat de companie. Gama acoperă ventilatoare de tubulatură cu flux mixt (seria TD-SILENT), ventilatoare cilindrice canalizabile (TET), ventilatoare centrifugale directe (CRMT) sau pe curea (CBP) și ventilatoare de acoperiș (CRVB).
+    overview: `Soler & Palau (S&P) produce ventilatoare pentru ventilație rezidențială și industrială din Spania, fondată în 1951 de Eduard Soler și Josep Palau și crescută de atunci într-un grup cu centre de producție în Europa, America și Asia și prezență în peste 90 de țări, conform istoricului companiei. Gama acoperă ventilatoare de tubulatură cu flux mixt (seria TD-SILENT), ventilatoare cilindrice canalizabile (TET), ventilatoare centrifugale directe (CRMT) sau pe curea (CBP) și ventilatoare de acoperiș (CRVB).
 
 Ce diferențiază catalogul S&P e completarea liniei rezidențiale cu o gamă industrială extinsă — de exemplu DFM-TR (plug fan pentru cuptoare), KA-P-TR, FC-N, FC-P — construite pentru aplicații industriale. Compania deține peste 180 de brevete și modele industriale, conform propriilor date, semn al investiției continue în cercetare pe partea aerodinamică și acustică.
 
@@ -410,8 +410,8 @@ Pentru piața din România, gama TD-SILENT e relevantă la ventilația canalizat
       "Industrie de proces — ventilatoare pentru vehicularea aerului cald",
       "Acoperișuri tehnice — extracție de aer cu ventilatoare de tip CRVB",
     ],
-    infinitrade: `Pentru Soler & Palau plecăm de la informația publică disponibilă la producător, fără date proprii de stoc pentru gama de ventilatoare rezidențiale sau industriale. Aducem echipamentele la comandă prin canale de aprovizionare din Spania și rețeaua europeană a grupului, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (rezidențial, comercial sau proces industrial), debitul de aer necesar, lungimea traseului de tubulatură (pentru seria TD-SILENT) și temperatura aerului vehiculat pentru aplicațiile industriale. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul (Soler Palau).`,
-    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare dimensiune din seria TD-SILENT fără consultarea directă a configuratorului producătorului, disponibil doar cu acces la platforma proprie.",
+    infinitrade: `Pentru Soler & Palau plecăm de la documentația tehnică a producătorului, fără date proprii de stoc pentru gama de ventilatoare rezidențiale sau industriale. Echipamentele vin la comandă, prin canalele noastre de aprovizionare din Spania și din UE; termenul orientativ e de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă avem nevoie de: aplicația (rezidențial, comercial sau proces industrial), debitul de aer necesar, lungimea traseului de tubulatură (pentru seria TD-SILENT) și temperatura aerului vehiculat pentru aplicațiile industriale. Nu ținem această gamă pe raft; verificăm disponibilitatea curentă la producător înainte de a confirma termenul cu clientul (Soler Palau).`,
+    limitation: "Nu putem confirma parametrii exacți de debit și presiune pentru fiecare dimensiune din seria TD-SILENT fără o verificare în documentația tehnică a producătorului.",
     productCodes: [
       { code: "TD-SILENT", description: "Ventilator de tubulatură flux mixt, silențios" },
       { code: "TET", description: "Ventilator cilindric canalizabil" },
@@ -435,7 +435,7 @@ Pentru piața din România, gama TD-SILENT e relevantă la ventilația canalizat
       { q: "Ce produce Soler & Palau?", a: "Soler & Palau produce ventilatoare de tubulatură pentru locuințe și birouri (TD-SILENT), ventilatoare centrifugale pentru clădiri comerciale și o gamă industrială separată pentru cuptoare și procese termice. Compania a fost fondată în 1951 și are astăzi centre de producție în Europa, America și Asia." },
       { q: "Cum aleg un ventilator Soler & Palau pentru o baie fără fereastră?", a: "Pentru ventilație canalizată silențioasă, seria TD-SILENT oferă mai multe mărimi, alese după debitul necesar (calculat de obicei din volumul încăperii) și după lungimea traseului de tubulatură până la exterior. Un traseu mai lung sau cu mai multe coturi cere un model cu presiune disponibilă mai mare." },
       { q: "Ce diferență e între seriile CRMT și CBP de la Soler & Palau?", a: "CRMT are antrenare directă, motorul fiind montat pe axul rotorului, în timp ce CBP folosește transmisie prin curea, ceea ce permite ajustarea turației prin schimbarea raportului de transmisie. CBP e util când punctul de lucru real diferă de calculul inițial al proiectantului." },
-      { q: "Livrați ventilatoare Soler & Palau în România și în cât timp?", a: "Aducem la comandă prin canale de aprovizionare din Spania și rețeaua europeană a grupului, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, verificăm disponibilitatea curentă la producător înainte de confirmarea termenului final către client." },
+      { q: "Livrați ventilatoare Soler & Palau în România și în cât timp?", a: "Aducem la comandă prin canale de aprovizionare din Spania și din UE, cu termen orientativ de 1–4 săptămâni. Nu ținem această gamă pe raft, verificăm disponibilitatea curentă la producător înainte de confirmarea termenului final către client." },
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,

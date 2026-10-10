@@ -29,7 +29,7 @@ Pentru piața din România, IDEC are sens acolo unde se retehnologizează un pan
       "Logistică și AGV/AMR — componente de interfață și siguranță pentru vehicule autonome",
       "Echipamente de producție — panouri HMI pentru operare locală"
     ],
-    infinitrade: `Pentru IDEC lucrăm din surse publice ale producătorului, fără date proprii de stoc — aducem componentele la comandă prin rețele de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru butoane, relee și lămpi, clientul trebuie să ne trimită codul de pe etichetă sau, dacă nu îl are, tensiunea de lucru și funcția din schema electrică. Pentru panourile HMI, avem nevoie de dimensiunea ecranului și dacă e necesară varianta cu PLC integrat. Nu promitem disponibilitate permanentă din stoc pe niciun cod IDEC.`,
+    infinitrade: `Pentru IDEC lucrăm din documentația tehnică a producătorului, fără date proprii de stoc — aducem componentele la comandă prin rețele de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru butoane, relee și lămpi, clientul trebuie să ne trimită codul de pe etichetă sau, dacă nu îl are, tensiunea de lucru și funcția din schema electrică. Pentru panourile HMI, avem nevoie de dimensiunea ecranului și dacă e necesară varianta cu PLC integrat. Nu promitem disponibilitate permanentă din stoc pe niciun cod IDEC.`,
     limitation: "Nu putem confirma existența unei rețele proprii de intervenție tehnică IDEC în România și nu configurăm programele PLC integrate în panourile HMI din gama FT2J.",
     productCodes: [
       {
@@ -142,7 +142,7 @@ Pentru instalațiile din România, STM înseamnă acces la reductoare de uz gene
       "Ambalare și procesare — variatoare mecanice pentru reglarea vitezei liniei",
       "Construcții de utilaje — reductoare standardizate integrate în echipamente OEM"
     ],
-    infinitrade: `Pe STM lucrăm cu informațiile publice de pe site-ul producătorului — nu dispunem de stoc propriu pe această gamă și spunem deschis ce putem și ce nu putem confirma până la verificarea punctuală a codului cerut. Reductoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul constructiv dorit (R, U, RR, CR sau altul), raportul de reducere, puterea motorului și poziția de montaj pe utilaj. Nu promitem disponibilitate permanentă din stoc și nu confirmăm disponibilitatea unui cod anume fără să o verificăm în prealabil la sursă.`,
+    infinitrade: `Pe STM lucrăm cu documentația tehnică a producătorului — nu dispunem de stoc propriu pe această gamă și spunem deschis ce putem și ce nu putem confirma până la verificarea punctuală a codului cerut. Reductoarele și motoreductoarele se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul constructiv dorit (R, U, RR, CR sau altul), raportul de reducere, puterea motorului și poziția de montaj pe utilaj. Nu promitem disponibilitate permanentă din stoc și nu confirmăm disponibilitatea unui cod anume fără să o verificăm în prealabil la sursă.`,
     limitation: "Nu putem confirma disponibilitatea imediată a unui reductor STM anume fără verificare punctuală la sursă și nu oferim service de recondiționare pentru unități STM aflate deja în exploatare.",
     productCodes: [
       {
@@ -250,7 +250,7 @@ Pentru piața din România, Comer Industries are sens la utilajele agricole de m
       "Energie regenerabilă — componente de transmisie pentru turbine eoliene",
       "Mentenanță industrială — înlocuire de reductoare și componente de transmisie uzate"
     ],
-    infinitrade: `Pentru Comer Industries lucrăm strict din informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe această gamă — spunem clar ce putem și ce nu putem confirma pentru fiecare cerere în parte. Componentele de transmisie se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o identificare corectă, clientul trebuie să ne trimită tipul și modelul utilajului pe care se montează componenta, plus orice cod sau referință vizibilă pe piesa existentă. Nu promitem disponibilitate permanentă din stoc pe niciun cod Comer Industries și nu confirmăm compatibilitatea unei componente fără verificare punctuală.`,
+    infinitrade: `Pentru Comer Industries lucrăm strict din documentația tehnică a producătorului, fără date proprii de stoc pe această gamă — spunem clar ce putem și ce nu putem confirma pentru fiecare cerere în parte. Componentele de transmisie se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o identificare corectă, clientul trebuie să ne trimită tipul și modelul utilajului pe care se montează componenta, plus orice cod sau referință vizibilă pe piesa existentă. Nu promitem disponibilitate permanentă din stoc pe niciun cod Comer Industries și nu confirmăm compatibilitatea unei componente fără verificare punctuală.`,
     limitation: "Nu putem confirma anul exact al fondării companiei sau orașul precis al sediului central din surse publice, iar pentru componentele de transmisie personalizate pe un utilaj anume identificarea corectă necesită codul de pe placa constructorului.",
     productCodes: [
       {
@@ -357,7 +357,7 @@ Pentru instalațiile din România, Socomec are sens la sălile de servere, staț
       "Clădiri comerciale — comutare și protecție a tablourilor electrice principale",
       "Infrastructură energetică — monitorizare și eficiență a consumului electric"
     ],
-    infinitrade: `Pe Socomec lucrăm din surse publice ale producătorului și de pe pagina locală în limba română, fără date proprii de stoc pentru unitățile UPS sau echipamentele de comutare. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă pe un UPS, clientul trebuie să ne trimită puterea sarcinii critice în kVA, autonomia dorită și tipul de baterie preferat (plumb sau litiu-ion); pentru echipamente de comutare, curentul nominal și tensiunea de lucru din tablou. Nu promitem disponibilitate permanentă din stoc și nu confirmăm un termen mai scurt fără verificare punctuală la furnizor.`,
+    infinitrade: `Pe Socomec lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru unitățile UPS sau echipamentele de comutare. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă pe un UPS, clientul trebuie să ne trimită puterea sarcinii critice în kVA, autonomia dorită și tipul de baterie preferat (plumb sau litiu-ion); pentru echipamente de comutare, curentul nominal și tensiunea de lucru din tablou. Nu promitem disponibilitate permanentă din stoc și nu confirmăm un termen mai scurt fără verificare punctuală la furnizor.`,
     limitation: "Nu oferim configurarea software a sistemelor de monitorizare Socomec și nu putem confirma o listă completă de certificări specifice fiecărui model de UPS din surse publice.",
     productCodes: [
       {
@@ -464,7 +464,7 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
       "Siguranțe și descărcătoare certificate pentru instalații fotovoltaice de curent continuu până la 1.500V",
       "Siguranțe speciale pentru protecția sistemelor cu baterii și a infrastructurii de e-mobilitate",
       "Producător european de echipamente electrice de joasă tensiune, cu sediul la Izlake, Slovenia",
-      "Informații despre produse publicate și în limba română, pe site-ul local etigroup.ro"
+      "Informații despre produse disponibile și în limba română"
     ],
     keyProducts: [
       { name: "Siguranțe automate seria ASTI", description: "Siguranțe automate modulare pentru protecția circuitelor de curent alternativ din tablourile de distribuție, cu curbe de declanșare pentru diverse tipuri de sarcină. Sunt componenta standard de protecție la supracurent pentru circuitele de iluminat, prize și utilaje mici dintr-o instalație electrică. Pentru ofertă, clientul trebuie să trimită curentul nominal necesar și curba de declanșare cerută de proiectul electric." },
@@ -479,8 +479,8 @@ Pentru piața din România, ETI are sens la tablourile electrice noi sau moderni
       "Instalații electrice industriale — siguranțe, separatoare și contactoare pentru tablouri",
       "Clădiri comerciale și rezidențiale — protecții modulare pentru tablourile de distribuție"
     ],
-    infinitrade: `Pentru ETI lucrăm din informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pe această gamă. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru siguranțe și descărcătoare, clientul trebuie să ne trimită curentul nominal, tensiunea de lucru (AC sau DC) și, la instalațiile fotovoltaice, tensiunea maximă a sistemului. Nu promitem disponibilitate permanentă din stoc pe niciun cod ETI și nu confirmăm un termen mai scurt fără o verificare punctuală la furnizor.`,
-    limitation: "Nu putem confirma anul exact al fondării companiei din surse oficiale și nu oferim configurarea software a stațiilor de încărcare ETICHARGE.",
+    infinitrade: `Pentru ETI lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe această gamă. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru siguranțe și descărcătoare, clientul trebuie să ne trimită curentul nominal, tensiunea de lucru (AC sau DC) și, la instalațiile fotovoltaice, tensiunea maximă a sistemului. Nu promitem disponibilitate permanentă din stoc pe niciun cod ETI și nu confirmăm un termen mai scurt fără o verificare punctuală la furnizor.`,
+    limitation: "Nu putem confirma anul exact al fondării companiei din documentația producătorului și nu oferim configurarea software a stațiilor de încărcare ETICHARGE.",
     productCodes: [
       {
         "code": "ASTI",
@@ -719,7 +719,7 @@ Pentru piața din România, FUCHS are sens la mentenanța preventivă a echipame
       "Construcții de utilaje — lubrifianți pentru prelucrări mecanice și asamblare",
       "Transport și logistică — unsori pentru lagăre expuse la sarcini variabile"
     ],
-    infinitrade: `Pe FUCHS lucrăm din informațiile publice ale producătorului, inclusiv pagina locală în limba română, fără date proprii de stoc pe fiecare cod de produs. Uleiurile și unsorile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru cantități mici de produse curente, verificăm punctual dacă există disponibilitate mai rapidă la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită linia de produs sau codul exact, cantitatea necesară și, dacă nu cunoaște codul, aplicația (tip echipament, temperatură de lucru, sarcină). Nu promitem disponibilitate permanentă din stoc și nu facem recomandări tehnice fără aceste date.`,
+    infinitrade: `Pe FUCHS lucrăm din documentația tehnică a producătorului, inclusiv varianta în limba română, fără date proprii de stoc pe fiecare cod de produs. Uleiurile și unsorile se aduc la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare — pentru cantități mici de produse curente, verificăm punctual dacă există disponibilitate mai rapidă la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită linia de produs sau codul exact, cantitatea necesară și, dacă nu cunoaște codul, aplicația (tip echipament, temperatură de lucru, sarcină). Nu promitem disponibilitate permanentă din stoc și nu facem recomandări tehnice fără aceste date.`,
     limitation: "Nu oferim consultanță de analiză a uleiului uzat (tribologie) și nu putem confirma o listă completă de certificări specifice fiecărei linii de produs din sursele publice accesate.",
     productCodes: [
       {
@@ -850,7 +850,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       "Turnuri de răcire industriale — tratament chimic automat al apei de răcire",
       "Spălătorii comerciale — pompe dozatoare pentru detergenți și soluții de spălare"
     ],
-    infinitrade: `Pe SEKO lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pentru pompele și panourile din gamă. Pompele și panourile SEKO le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită debitul necesar, presiunea de refulare, substanța chimică dozată și, dacă are deja o pompă instalată, modelul acesteia. Nu promitem disponibilitate permanentă din stoc pe niciun model SEKO și nu confirmăm compatibilitatea chimică a unui cap de pompă fără verificare punctuală la producător.`,
+    infinitrade: `Pe SEKO lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pentru pompele și panourile din gamă. Pompele și panourile SEKO le aducem la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită debitul necesar, presiunea de refulare, substanța chimică dozată și, dacă are deja o pompă instalată, modelul acesteia. Nu promitem disponibilitate permanentă din stoc pe niciun model SEKO și nu confirmăm compatibilitatea chimică a unui cap de pompă fără verificare punctuală la producător.`,
     limitation: "Nu oferim programarea de la distanță a panourilor Kontrol sau Pooldose.",
     productCodes: [
       {
@@ -933,7 +933,7 @@ Pentru piața din România, SEKO are sens la stațiile de tratare a apei, turnur
       },
       {
         "q": "Livrați echipamente SEKO în România?",
-        "a": "Echipamentele SEKO se comandă direct de la producător, cu un interval tipic de 1–4 săptămâni până la sosire; gama nu este ținută pe raft, întrucât fiecare familie de pompe are numeroase variante de debit."
+        "a": "Echipamentele SEKO se comandă din fabrică, cu un interval tipic de 1–4 săptămâni până la sosire; gama nu este ținută pe raft, întrucât fiecare familie de pompe are numeroase variante de debit."
       },
       {
         "q": "Ce rol are panoul Kontrol 42 de la SEKO?",
@@ -978,7 +978,7 @@ Pentru piața din România, Metrel are sens la firmele de electricieni autoriza�
       "Sănătate — testere dedicate pentru echipamente medicale",
       "Infrastructură de transport și e-mobilitate — testare instalații și stații de încărcare"
     ],
-    infinitrade: `Pe Metrel lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe aparatele din gamă. Aducem testerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită modelul dorit sau, dacă nu îl cunoaște, tipul de verificări pe care vrea să le facă (instalații electrice, PAT, calitate a energiei) și normativul aplicabil. Nu promitem disponibilitate permanentă din stoc pe niciun model Metrel și nu oferim calibrarea sau etalonarea aparatelor deja aflate în dotarea clientului.`,
+    infinitrade: `Pe Metrel lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe aparatele din gamă. Aducem testerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul trebuie să ne trimită modelul dorit sau, dacă nu îl cunoaște, tipul de verificări pe care vrea să le facă (instalații electrice, PAT, calitate a energiei) și normativul aplicabil. Nu promitem disponibilitate permanentă din stoc pe niciun model Metrel și nu oferim calibrarea sau etalonarea aparatelor deja aflate în dotarea clientului.`,
     limitation: "Nu efectuăm noi înșine calibrarea sau etalonarea metrologică a aparatelor Metrel.",
     productCodes: [
       {
@@ -1097,7 +1097,7 @@ Pentru piața din România, Delta Plus are sens la firmele de construcții, ener
       "Petrol, gaze și minerit — echipament de protecție pentru medii cu risc ridicat",
       "Transport și logistică — echipament de vizibilitate ridicată pentru personal"
     ],
-    infinitrade: `Pe Delta Plus lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe fiecare referință de produs. Echipamentul se aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru cantități mari, verificăm punctual disponibilitatea pe mărimi la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de EIP necesar, mărimile pentru fiecare persoană și riscurile identificate la locul de muncă. Nu promitem disponibilitate permanentă din stoc pe nicio referință Delta Plus și nu facem evaluarea de risc a locului de muncă în locul clientului.`,
+    infinitrade: `Pe Delta Plus lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe fiecare referință de produs. Echipamentul se aduce la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii — pentru cantități mari, verificăm punctual disponibilitatea pe mărimi la furnizor. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de EIP necesar, mărimile pentru fiecare persoană și riscurile identificate la locul de muncă. Nu promitem disponibilitate permanentă din stoc pe nicio referință Delta Plus și nu facem evaluarea de risc a locului de muncă în locul clientului.`,
     limitation: "Nu efectuăm evaluarea de risc la locul de muncă pentru alegerea EIP-ului potrivit.",
     productCodes: [
       {
@@ -1206,7 +1206,7 @@ Pentru piața din România, Sewerin are sens la operatorii de rețele de gaz și
       "Utilități municipale — inspecție periodică a rețelelor de gaz și apă",
       "Contractori de mentenanță a rețelelor — echipamente pentru intervenții de localizare"
     ],
-    infinitrade: `Pe Sewerin lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe aparatele din gamă. Aparatele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de detecție necesară (gaz sau apă), tipul de rețea inspectată și, dacă are deja un aparat, modelul acestuia pentru compatibilitate de accesorii. Nu promitem disponibilitate permanentă din stoc pe niciun model Sewerin și nu efectuăm noi înșine calibrarea metrologică a aparatelor.`,
+    infinitrade: `Pe Sewerin lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe aparatele din gamă. Aparatele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul de detecție necesară (gaz sau apă), tipul de rețea inspectată și, dacă are deja un aparat, modelul acestuia pentru compatibilitate de accesorii. Nu promitem disponibilitate permanentă din stoc pe niciun model Sewerin și nu efectuăm noi înșine calibrarea metrologică a aparatelor.`,
     limitation: "Nu efectuăm calibrarea metrologică a aparatelor Sewerin și nu putem confirma o listă completă a certificărilor specifice fiecărui model din sursele publice accesate.",
     productCodes: [
       {
@@ -1325,7 +1325,7 @@ Pentru piața din România, Crowcon are sens la instalațiile din petrol și gaz
       "Industria alimentară și băuturi — detecție de agenți frigorifici la instalațiile de răcire",
       "Marină — monitorizare a atmosferei în spații închise la bordul navelor"
     ],
-    infinitrade: `Pe Crowcon lucrăm din informațiile publice ale producătorului, fără date proprii de stoc pe detectoarele din gamă. Detectoarele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul sau tipurile de gaze de detectat, dacă are nevoie de detector portabil sau fix și clasificarea zonei de instalare (dacă e cazul, zonă cu risc de explozie). Nu promitem disponibilitate permanentă din stoc pe niciun model Crowcon și nu efectuăm noi înșine calibrarea periodică a senzorilor.`,
+    infinitrade: `Pe Crowcon lucrăm din documentația tehnică a producătorului, fără date proprii de stoc pe detectoarele din gamă. Detectoarele ajung la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne trimită tipul sau tipurile de gaze de detectat, dacă are nevoie de detector portabil sau fix și clasificarea zonei de instalare (dacă e cazul, zonă cu risc de explozie). Nu promitem disponibilitate permanentă din stoc pe niciun model Crowcon și nu efectuăm noi înșine calibrarea periodică a senzorilor.`,
     limitation: "Nu efectuăm calibrarea periodică a senzorilor Crowcon.",
     productCodes: [
       {

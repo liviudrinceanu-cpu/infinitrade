@@ -31,7 +31,7 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
       "Termografie industrială — etalonarea camerelor de termoviziune cu surse de corp negru",
     ],
     certifications: ["ISO 9001 (AFAQ) — sistem de management al calității", "Acreditări COFRAC pe temperatură, electricitate-magnetism și timp-frecvență pentru laboratorul propriu"],
-    infinitrade: `Pentru AOIP lucrăm doar cu surse publice ale producătorului; nu avem confirmare proprie despre ritmul de producție din Franța, doar ce arată site-ul oficial. Putem aduce la comandă instrumente din seriile CALYS, OM, MilliK/MicroK și din familiile de surse de corp negru, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, trimiteți codul exact al modelului, domeniul de măsură necesar și, dacă e cazul, cerința de certificat de etalonare.`,
+    infinitrade: `Pentru AOIP lucrăm doar cu documentația tehnică a producătorului; nu avem confirmare proprie despre ritmul de producție din Franța, doar ce arată documentația producătorului. Putem aduce la comandă instrumente din seriile CALYS, OM, MilliK/MicroK și din familiile de surse de corp negru, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, trimiteți codul exact al modelului, domeniul de măsură necesar și, dacă e cazul, cerința de certificat de etalonare.`,
     limitation: "Nu emitem noi certificate de etalonare acreditate pentru instrumentele AOIP — acestea se obțin, la cerere, de la producător sau de la un laborator acreditat.",
     productCodes: [
       { code: "CALYS 150", description: "Calibrator multifuncțional de câmp cu documentare și termometru integrat" },
@@ -81,7 +81,7 @@ Pentru România, gama AOIP e relevantă pentru laboratoare de metrologie, echipe
   },
   "c-logic": {
     name: "C-Logic",
-    overview: `C-Logic e o marcă de instrumente electrice de test pentru electricieni și utilizatori casnici, cu game de testere de tensiune, detectoare de cabluri și multimetre digitale. Site-ul producătorului listează instrumente de măsură (multimetre C-LOGIC 3200, 55 și 520, clește ampermetric C-LOGIC 8730), testere de tensiune (C-LOGIC 25, 35, 350) și o gamă separată de detectoare/trasoare de cabluri (seria C-LOGIC 380), alături de instrumente pentru economisirea energiei (temporizatoare, control al iluminatului).
+    overview: `C-Logic e o marcă de instrumente electrice de test pentru electricieni și utilizatori casnici, cu game de testere de tensiune, detectoare de cabluri și multimetre digitale. Documentația producătorului listează instrumente de măsură (multimetre C-LOGIC 3200, 55 și 520, clește ampermetric C-LOGIC 8730), testere de tensiune (C-LOGIC 25, 35, 350) și o gamă separată de detectoare/trasoare de cabluri (seria C-LOGIC 380), alături de instrumente pentru economisirea energiei (temporizatoare, control al iluminatului).
 
 Diferența față de multimetrele generaliste stă în concentrarea pe unelte de verificare rapidă pentru electricieni — testere de tensiune, trasoare de cabluri și instrumente de măsură a mediului grupate sub aceeași marcă, alături de accesorii de instalare precum benzile de tragere a cablurilor. 
 
@@ -104,8 +104,8 @@ Pentru piața din România, C-Logic înseamnă acces la unelte de test electric 
       "Construcții — localizarea traseelor de cablu ascunse înainte de renovare",
       "Electricieni profesioniști — unelte de test zilnic de bază",
     ],
-    infinitrade: `Pentru C-Logic ne bazăm exclusiv pe informația publică disponibilă pe site-ul producătorului, fără date proprii despre volumul din spatele gamei. Putem aduce la comandă multimetre, clești ampermetrici, testere de tensiune și detectoare de cabluri din gama C-Logic, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, aveți nevoie să transmiteți codul exact al modelului dorit și cantitatea.`,
-    limitation: "Nu putem confirma sediul central sau anul înființării mărcii C-Logic din informațiile publicate pe site-ul oficial.",
+    infinitrade: `Pentru C-Logic ne bazăm exclusiv pe documentația tehnică a producătorului, fără date proprii despre volumul din spatele gamei. Putem aduce la comandă multimetre, clești ampermetrici, testere de tensiune și detectoare de cabluri din gama C-Logic, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, aveți nevoie să transmiteți codul exact al modelului dorit și cantitatea.`,
+    limitation: "Nu putem confirma sediul central sau anul înființării mărcii C-Logic din documentația producătorului.",
     productCodes: [
       { code: "C-LOGIC 3200", description: "Multimetru digital de mână pentru măsurători electrice de bază" },
       { code: "C-LOGIC 55", description: "Multimetru digital compact" },
@@ -168,8 +168,8 @@ Pentru România, gama EuroSMC se adresează laboratoarelor de încercări și ec
       "Centrale electrice — verificare periodică a sistemelor de protecție prin relee",
     ],
     certifications: ["ISO 9001 — sistem de management al calității", "Marcaj CE pe toate produsele"],
-    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre EuroSMC: descriem gama exact așa cum apare pe site-ul producătorului din Madrid, fără informații interne despre ritmul de fabricație. Putem aduce la comandă echipamente din seriile Quasar, Mentor-12, PME și PRIME, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți tipul de relee sau întreruptoare testate și numărul de canale necesare.`,
-    limitation: "Nu oferim etalonare sau service în garanția producătorului pentru echipamentele EuroSMC — certificatele de calibrare se obțin, la cerere, de la producător sau un laborator acreditat.",
+    infinitrade: `Spunem clar ce putem și ce nu putem confirma despre EuroSMC: descriem gama exact așa cum apare în documentația producătorului din Madrid, fără informații interne despre ritmul de fabricație. Putem aduce la comandă echipamente din seriile Quasar, Mentor-12, PME și PRIME, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți tipul de relee sau întreruptoare testate și numărul de canale necesare.`,
+    limitation: "Nu oferim etalonare sau service în garanția producătorului pentru echipamentele EuroSMC — certificatele de calibrare se obțin la cerere, prin noi, sau de la un laborator acreditat.",
     productCodes: [
       { code: "Quasar", description: "Tester trifazat portabil 300V/60A, 19 kg" },
       { code: "Quasar-C", description: "Variantă a seriei Quasar; caracteristicile se confirmă pe cod, din documentația producătorului" },
@@ -235,8 +235,8 @@ Pentru România, gama se adresează laboratoarelor de testare din automotive, fe
       "Cercetare și dezvoltare — bancuri de testare programabile pentru laboratoare",
       "Producție și automatizare — testare de serie a modulelor electronice",
     ],
-    infinitrade: `Pentru Hoecherl & Hackl folosim doar informația disponibilă public pe site-ul producătorului din Konzell, fără date interne despre producția din Germania. Putem aduce la comandă sarcini electronice din seriile TRL, PLI, HES, ACL, PMLA și surse Cortex/Titan, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți puterea, tensiunea și curentul de test necesare, plus numărul de canale dorit.`,
-    limitation: "Nu oferim configurare software proprietară sau service în garanția producătorului pentru sarcinile Hoecherl & Hackl — acestea rămân în sarcina producătorului sau a unui integrator specializat.",
+    infinitrade: `Pentru Hoecherl & Hackl folosim doar documentația tehnică a producătorului din Konzell, fără date interne despre producția din Germania. Putem aduce la comandă sarcini electronice din seriile TRL, PLI, HES, ACL, PMLA și surse Cortex/Titan, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți puterea, tensiunea și curentul de test necesare, plus numărul de canale dorit.`,
+    limitation: "Nu oferim configurare software proprietară sau service în garanția producătorului pentru sarcinile Hoecherl & Hackl — acestea nu fac parte din oferta noastră.",
     productCodes: [
       { code: "TRL Series", description: "Sarcină DC mobilă regenerativă, 1000 W, până la 1200 V, 60 A" },
       { code: "PLA Series", description: "Sarcină DC mică, 200-1500 W, până la 800 V, 120 A" },
@@ -292,8 +292,8 @@ Pentru România, Multimetrix înseamnă acces la multimetre certificate CAT III/
       "Diagnoză pe teren — înregistrare de măsurători cu multimetrele grafice",
       "Industrie — verificări rapide de semnal cu funcție de osciloscop integrat",
     ],
-    infinitrade: `Nu deținem date proprii despre volumele Multimetrix din Franța, ci descriem gama exact așa cum o prezintă Chauvin Arnoux pe site-ul oficial. Putem aduce la comandă multimetre din seriile CA 5273/5275/5277, CA 5292/5293, HandScope CA 922/942 și modelele portabile CA 702/703, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți codul exact al modelului și dacă aveți nevoie de accesorii (clește, sonde de temperatură).`,
-    limitation: "Nu putem confirma o certificare specifică ISO pentru marca Multimetrix separat de grupul Chauvin Arnoux, deoarece pagina de brand nu o menționează explicit.",
+    infinitrade: `Nu deținem date proprii despre volumele Multimetrix din Franța, ci descriem gama exact așa cum o prezintă Chauvin Arnoux în documentația sa tehnică. Putem aduce la comandă multimetre din seriile CA 5273/5275/5277, CA 5292/5293, HandScope CA 922/942 și modelele portabile CA 702/703, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți codul exact al modelului și dacă aveți nevoie de accesorii (clește, sonde de temperatură).`,
+    limitation: "Nu putem confirma o certificare specifică ISO pentru marca Multimetrix separat de grupul Chauvin Arnoux, deoarece documentația consultată nu o menționează explicit.",
     productCodes: [
       { code: "CA 5292", description: "Multimetru grafic TRMS, 100.000 puncte, IP67, CAT IV" },
       { code: "CA 5293", description: "Multimetru grafic TRMS, înregistrare 30.000 măsurători, CAT IV" },
@@ -355,7 +355,7 @@ Pentru România, gama Pfiffner e relevantă pentru operatorii de rețea și util
       "Energie regenerabilă — instrumentație de măsură pentru parcuri eoliene și solare conectate la rețea",
       "Căi ferate — transformatoare de măsură pentru instalații de tracțiune",
     ],
-    infinitrade: `Descriem gama Pfiffner strict din ce arată site-ul grupului; nu ținem produse pe raft, aducem la comandă transformatoare de măsură, seturi CITAS/VITAS și echipamente de testare din portofoliul Pfiffner, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți clasa de tensiune, clasa de precizie necesară și mediul de instalare al transformatorului.`,
+    infinitrade: `Descriem gama Pfiffner strict din ce arată documentația grupului; nu ținem produse pe raft, aducem la comandă transformatoare de măsură, seturi CITAS/VITAS și echipamente de testare din portofoliul Pfiffner, prin canale de aprovizionare din Uniunea Europeană, cu termen orientativ de 1–4 săptămâni. Pentru ofertă, trimiteți clasa de tensiune, clasa de precizie necesară și mediul de instalare al transformatorului.`,
     limitation: "Nu oferim etalonare sau service de punere în funcțiune pentru echipamentele Pfiffner — acestea rămân în sarcina producătorului sau a unui integrator certificat de rețea.",
     productCodes: [
       { code: "2771 CITAS", description: "Set de analiză pentru transformatoare de curent instalate" },

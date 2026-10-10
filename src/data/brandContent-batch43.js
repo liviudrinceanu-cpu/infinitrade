@@ -6,7 +6,7 @@ export const brandContentBatch43 = {
     headquarters: "Barntrup, Germania",
     overview: `KEB Automation e un producător german cu sediul la Barntrup, specializat în tehnologie de acționare pentru construcția de mașini și instalații: convertizoare de frecvență, motoare, frâne electromagnetice și sisteme de control. Gama COMBIVERT acoperă convertizoarele F6, G6 și S6, alături de module de alimentare și regenerare R6, completate de motoare asincrone, sincrone cu reluctanță și servomotoare din portofoliul propriu. Din gama KEB putem oferta convertizoare de frecvență, motoare și frâne pentru linii de producție, ascensoare industriale și utilaje de manipulare a materialelor.
 
-KEB tratează acționarea ca sistem complet: familia de frâne COMBISTOP (cu arc), COMBIPERM (permanentă) și COMBINORM (electromagnetică) completează portofoliul KEB de acționări. Unele variante din gama COMBIVERT F6 au certificare marină menționată explicit pe site, ceea ce le recomandă și pentru echipamente de punte sau propulsie auxiliară. Platforma de control NOA și panourile HMI C6 leagă partea de acționare de automatizare, utilă când clientul vrea un singur furnizor pentru drive și control.
+KEB tratează acționarea ca sistem complet: familia de frâne COMBISTOP (cu arc), COMBIPERM (permanentă) și COMBINORM (electromagnetică) completează portofoliul KEB de acționări. Unele variante din gama COMBIVERT F6 au certificare marină menționată explicit de producător, ceea ce le recomandă și pentru echipamente de punte sau propulsie auxiliară. Platforma de control NOA și panourile HMI C6 leagă partea de acționare de automatizare, utilă când clientul vrea un singur furnizor pentru drive și control.
 
 Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare și convertizoare mai vechi, la ascensoare industriale și la utilaje de manipulare unde motorul și frâna trebuie gândite împreună de la proiectare, nu potrivite din mers. Se pretează și la mentenanța preventivă a sistemelor de acționare deja instalate.`,
     whyChoose: [
@@ -27,7 +27,7 @@ Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare
       "Ambalare și industrie alimentară — convertizoare pentru linii de producție",
       "Prelucrarea maselor plastice — acționări pentru extrudere și injecție",
     ],
-    infinitrade: `Lucrăm cu informațiile publice disponibile pe site-ul producătorului pentru gama KEB și nu avem date proprii de stoc pentru convertizoare, motoare sau frâne din acest portofoliu. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, clientul trebuie să ne trimită codul exact al convertizorului sau motorului, puterea și tensiunea de alimentare, plus aplicația vizată — informații fără de care nu putem confirma disponibilitatea la producător. Nu promitem disponibilitate permanentă din stoc pentru niciun cod din gamă.`,
+    infinitrade: `Lucrăm cu documentația tehnică a producătorului pentru gama KEB și nu avem date proprii de stoc pentru convertizoare, motoare sau frâne din acest portofoliu. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmarea comenzii. Pentru ofertă, clientul trebuie să ne trimită codul exact al convertizorului sau motorului, puterea și tensiunea de alimentare, plus aplicația vizată — informații fără de care nu putem confirma disponibilitatea la producător. Nu promitem disponibilitate permanentă din stoc pentru niciun cod din gamă.`,
     limitation: "Nu putem confirma service în garanția producătorului sau configurarea software-ului proprietar COMBIVERT fără implicarea directă a KEB.",
     productCodes: [
       {
@@ -114,7 +114,7 @@ Pentru piața din România, KEB are sens la retehnologizarea liniilor cu motoare
       },
       {
         "q": "Livrați convertizoare de frecvență KEB în România?",
-        "a": "Da, produsele KEB Automation ajung la clienți prin comandă, plecând de la cataloagele publice ale producătorului, întrucât nu ținem această gamă pe raft. De regulă sunt necesare 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de opțiunile de comunicație alese. Recomandăm verificarea codului exact COMBIVERT înainte de a trimite cererea de ofertă."
+        "a": "Da, produsele KEB Automation ajung la clienți prin comandă, plecând de la documentația tehnică a producătorului, întrucât nu ținem această gamă pe raft. De regulă sunt necesare 1–4 săptămâni de la confirmarea comenzii, în funcție de model și de opțiunile de comunicație alese. Recomandăm verificarea codului exact COMBIVERT înainte de a trimite cererea de ofertă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de convertizor KEB?",
@@ -159,7 +159,7 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
       "Industrie generală — reductoare pentru acționări industriale",
       "Zone cu risc de explozie — variante certificate ATEX",
     ],
-    infinitrade: `Ce scriem despre Tramec vine din surse publice ale producătorului, verificate direct pe site-ul companiei; nu dispunem de stoc propriu și nu deținem date interne despre disponibilitatea fiecărui model. Aducem reductoarele la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de raportul de reducere, cuplul de ieșire, tipul de montaj și, dacă e cazul, cerința ATEX. Stocul permanent nu e ceva ce putem asigura pentru variantele planetare de precizie, configurate de regulă la cerere.`,
+    infinitrade: `Ce scriem despre Tramec vine din documentația tehnică a producătorului; nu dispunem de stoc propriu și nu deținem date interne despre disponibilitatea fiecărui model. Aducem reductoarele la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de raportul de reducere, cuplul de ieșire, tipul de montaj și, dacă e cazul, cerința ATEX. Stocul permanent nu e ceva ce putem asigura pentru variantele planetare de precizie, configurate de regulă la cerere.`,
     limitation: "Nu putem confirma termene de livrare pentru variantele ATEX cu configurație specială, care depind de disponibilitatea la fabrica din Italia.",
     productCodes: [
       {
@@ -270,7 +270,7 @@ Pentru instalațiile din România, gama Tramec are sens la benzi transportoare, 
 
 Rulmenții standard Kinex se fabrică în dimensiuni normalizate; compatibilitatea cu un rulment existent o confirmăm pe cod, din documentația producătorului. Compania are propriu departament de cercetare-dezvoltare, laborator de materiale și control nedistructiv, iar produsele includ rulmenți pentru cutii de osie feroviare. Operează cu un al doilea sediu de producție la Kysucké Nové Mesto și birouri regionale în Asia, ceea ce susține o rețea de distribuție extinsă la nivel internațional.
 
-Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pentru rulmenți uzați pe utilaje mai vechi, la mentenanța preventivă a liniilor de producție și la proiecte unde compatibilitatea dimensională cu rulmentul original contează mai mult decât marca. Site-ul producătorului listează România printre țările cu distribuție confirmată.`,
+Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pentru rulmenți uzați pe utilaje mai vechi, la mentenanța preventivă a liniilor de producție și la proiecte unde compatibilitatea dimensională cu rulmentul original contează mai mult decât marca. Documentația producătorului include România printre țările cu distribuție confirmată.`,
     whyChoose: [
       "Rulmenți în dimensiuni normalizate; compatibilitatea cu un rulment existent se confirmă pe cod",
       "Rulmenți pentru industria feroviară, inclusiv pentru cutii de osie",
@@ -292,7 +292,7 @@ Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pe
     certifications: [
       "Certificările se confirmă din documentația producătorului, la cerere",
     ],
-    infinitrade: `Facem oferta pe baza informațiilor publice disponibile pe site-ul Kinex, fără date proprii de stoc pentru codurile din gama lor de rulmenți. Aducem rulmenții la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă rapidă, clientul trebuie să ne trimită codul rulmentului existent sau dimensiunile exacte (diametru interior, exterior, lățime) și, dacă e relevant, aplicația feroviară sau industrială vizată. Nu promitem disponibilitate permanentă din stoc pentru dimensiunile mai puțin uzuale.`,
+    infinitrade: `Facem oferta pe baza documentației tehnice Kinex, fără date proprii de stoc pentru codurile din gama lor de rulmenți. Aducem rulmenții la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă rapidă, clientul trebuie să ne trimită codul rulmentului existent sau dimensiunile exacte (diametru interior, exterior, lățime) și, dacă e relevant, aplicația feroviară sau industrială vizată. Nu promitem disponibilitate permanentă din stoc pentru dimensiunile mai puțin uzuale.`,
     limitation: "Nu putem confirma disponibilitatea imediată a componentelor de inginerie fabricate la cerere pentru clienți OEM, care depind de programul de producție al fabricii.",
     productCodes: [
       {
@@ -411,14 +411,14 @@ Pentru România, Kinex are sens acolo unde se caută o soluție de înlocuire pe
     founded: 1944,
     overview: `Traco Power este un producător elvețian de convertizoare DC/DC și surse de alimentare AC/DC compacte, activ din 1944. Gama include regulatoare de comutație de tip POL din seria TSR (variantele 2N și 3N), convertizoare DC/DC din seria TMR (modelul 3WIR), convertizoarele THM 20 și TEN 50. Din portofoliul Traco Power putem oferta module de alimentare pentru echipamente electronice unde spațiul pe placă e limitat și fiabilitatea contează mai mult decât prețul componentei.
 
-Traco Power nu se adresează convertizoarelor de frecvență de putere mare, ci surselor și convertizoarelor DC/DC mici și medii, montate direct pe placa de circuit. Compania menționează pe site un rating Dun & Bradstreet la cel mai înalt nivel de calitate, folosit ca indicator de stabilitate financiară pentru clienți industriali. Aplicațiile evidențiate ca "success stories" includ vehicule de competiție și mașini hibride, unde greutatea și fiabilitatea sursei de alimentare sunt critice.
+Traco Power nu se adresează convertizoarelor de frecvență de putere mare, ci surselor și convertizoarelor DC/DC mici și medii, montate direct pe placa de circuit. Compania menționează un rating Dun & Bradstreet la cel mai înalt nivel de calitate, folosit ca indicator de stabilitate financiară pentru clienți industriali. Aplicațiile evidențiate ca "success stories" includ vehicule de competiție și mașini hibride, unde greutatea și fiabilitatea sursei de alimentare sunt critice.
 
 Pentru piața din România, gama Traco Power are sens la echipamente electronice industriale, panouri de automatizare și sisteme cu alimentare redundantă, acolo unde clientul are nevoie de o sursă compactă, certificată, fără să proiecteze el însuși un convertizor de la zero.`,
     whyChoose: [
       "Module compacte, montabile direct pe placă, pentru spații reduse în echipamente electronice",
       "Serii dedicate pentru izolare galvanică (TMR, THM) și pentru reglare de tip POL (TSR), acoperind nevoi diferite de alimentare",
       "Aplicații documentate în motorsport și vehicule hibride, unde fiabilitatea sursei e critică",
-      "Rating de stabilitate financiară Dun & Bradstreet la cel mai înalt nivel, menționat explicit pe site",
+      "Rating de stabilitate financiară Dun & Bradstreet la cel mai înalt nivel, menționat explicit de producător",
     ],
     keyProducts: [
       { name: "Regulatoare POL Seria TSR (2N / 3N)", description: "Regulatoare de comutație de tip point-of-load, pentru curenți mici și medii, montate direct lângă consumatorul de pe placă pentru a reduce pierderile pe traseu. Variantele 2N și 3N acoperă game de curent diferite. Pentru ofertă, clientul trebuie să indice tensiunea de intrare, tensiunea de ieșire dorită și curentul maxim necesar." },
@@ -431,8 +431,8 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
       "Vehicule solare — convertizoare DC/DC, de exemplu în proiecte de competiție",
       "Electronice industriale — alimentare izolată pentru sisteme cu tensiuni multiple",
     ],
-    infinitrade: `Informațiile despre Traco Power din această pagină provin din surse publice ale producătorului; nu deținem date proprii de stoc pentru modulele din gama TSR, TMR, THM sau TEN. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de tensiunea de intrare, tensiunea de ieșire, puterea sau curentul necesar și, dacă e cazul, cerința de izolare galvanică. Nu promitem disponibilitate permanentă din stoc pentru variantele cu tensiuni de intrare speciale.`,
-    limitation: "Nu putem confirma sediul exact al producătorului sau certificările tehnice complete ale fiecărei serii, informații care nu apar clar pe paginile accesate.",
+    infinitrade: `Informațiile despre Traco Power din această pagină provin din documentația tehnică a producătorului; nu deținem date proprii de stoc pentru modulele din gama TSR, TMR, THM sau TEN. Aducem produsele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, avem nevoie de tensiunea de intrare, tensiunea de ieșire, puterea sau curentul necesar și, dacă e cazul, cerința de izolare galvanică. Nu promitem disponibilitate permanentă din stoc pentru variantele cu tensiuni de intrare speciale.`,
+    limitation: "Nu putem confirma sediul exact al producătorului sau certificările tehnice complete ale fiecărei serii, informații care nu apare clar în documentația consultată.",
     productCodes: [
       {
         "code": "TSR 1",
@@ -502,7 +502,7 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
       },
       {
         "q": "Livrați convertizoare Traco Power în România?",
-        "a": "Convertizoarele și sursele Traco Power se procură direct de la producător, la comandă, într-un termen orientativ de 1–4 săptămâni, întrucât nu ținem pe raft o gamă atât de variată de puteri și tensiuni de intrare."
+        "a": "Convertizoarele și sursele Traco Power se procură din fabrică, la comandă, într-un termen orientativ de 1–4 săptămâni, întrucât nu ținem pe raft o gamă atât de variată de puteri și tensiuni de intrare."
       },
       {
         "q": "Ce este convertizorul THM 10 din portofoliul Traco Power?",
@@ -529,11 +529,11 @@ Pentru piața din România, gama Traco Power are sens la echipamente electronice
 
 Diferența față de rulmenții și lanțurile metalice clasice stă în materialul de bază: polimerii proprii igus sunt formulați pentru autolubrifiere, ceea ce elimină nevoia de gresare periodică și reduce zgomotul de funcționare. Compania are 4.600 de angajați la nivel global și activează în numeroase sectoare industriale, între care automatizare și robotică, alimentar și băuturi, energie regenerabilă și medical. Lanțurile port-cablu e-chain sunt gândite pentru mișcare repetată de mare viteză, iar cablurile chainflex din interior sunt testate pentru același ciclu de îndoire.
 
-Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, axe liniare, mașini-unelte și utilaje cu mișcare repetitivă, unde lubrifierea tradițională e greu de întreținut sau nedorită din motive de igienă a procesului — de exemplu în industria alimentară sau farmaceutică.`,
+Pentru România, igus are filială proprie și are sens la roboți, axe liniare, mașini-unelte și utilaje cu mișcare repetitivă, unde lubrifierea tradițională e greu de întreținut sau nedorită din motive de igienă a procesului — de exemplu în industria alimentară sau farmaceutică.`,
     whyChoose: [
       "Componente autolubrifiante din polimeri proprii, care elimină gresarea periodică pe lagăre și ghidaje",
-      "Certificare ISO 9001:2015 a unităților igus din America de Nord, conform site-ului producătorului",
-      "Filială proprie în România (igus.ro), cu suport local pentru comenzi și consultanță tehnică",
+      "Certificare ISO 9001:2015 a unităților igus din America de Nord, conform documentației producătorului",
+      "Filială proprie în România , cu suport local pentru comenzi și consultanță tehnică",
       "Gamă pentru mișcare — e-chain, chainflex, iglidur, drylin, dryspin — compatibilă între serii",
     ],
     keyProducts: [
@@ -551,7 +551,7 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
     certifications: [
       "ISO 9001:2015 — sistem de management al calității (unitățile igus din America de Nord)",
     ],
-    infinitrade: `Datele despre igus prezentate aici vin din surse publice ale producătorului și din filiala română a companiei; nu dispunem de stoc propriu pentru codurile din gamele chainflex, iglidur sau drylin. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru configurare corectă, clientul trebuie să ne trimită parametrii mecanici ai aplicației — cursă, sarcină, viteză, mediu de lucru — pentru ca sistemul indicat să corespundă solicitării reale. Nu promitem disponibilitate permanentă din stoc pentru toate lungimile și diametrele din catalog.`,
+    infinitrade: `Datele despre igus prezentate aici vin din documentația tehnică a producătorului și din filiala română a companiei; nu dispunem de stoc propriu pentru codurile din gamele chainflex, iglidur sau drylin. Aducem componentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru configurare corectă, clientul trebuie să ne trimită parametrii mecanici ai aplicației — cursă, sarcină, viteză, mediu de lucru — pentru ca sistemul indicat să corespundă solicitării reale. Nu promitem disponibilitate permanentă din stoc pentru toate lungimile și diametrele din catalog.`,
     limitation: "Nu putem confirma configurarea sistemelor de monitorizare digitală (senzori de uzură conectați) fără implicarea directă a igus.",
     productCodes: [
       {
@@ -606,7 +606,7 @@ Pentru România, igus are filială proprie (igus.ro) și are sens la roboți, ax
       },
       {
         "q": "Livrați produse Igus în România?",
-        "a": "Da, componentele Igus se aduc la comandă, pe baza cataloagelor publice ale producătorului, fără o gamă proprie păstrată în stoc. Termenul obișnuit este de 1–4 săptămâni, în funcție de familia de produs și de configurația exactă solicitată. Recomandăm confirmarea denumirii complete a seriei înainte de a plasa comanda."
+        "a": "Da, componentele Igus se aduc la comandă, pe baza documentației tehnice a producătorului, fără o gamă proprie păstrată în stoc. Termenul obișnuit este de 1–4 săptămâni, în funcție de familia de produs și de configurația exactă solicitată. Recomandăm confirmarea denumirii complete a seriei înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de lanț port-cablu Igus?",
@@ -651,8 +651,8 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
       "Rezidențial colectiv — generatoare termice murale în condensare",
       "Retrofit termic — înlocuirea centralelor vechi cu soluții modulare",
     ],
-    infinitrade: `Nu deținem date proprii de stoc pentru arzătoarele și generatoarele termice Riello; informațiile din această pagină provin din site-ul producătorului, inclusiv secțiunea dedicată pieței din România. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil sau de instalație și cazanul pe care se montează arzătorul. Nu promitem disponibilitate permanentă din stoc pentru toate variantele din gama industrială.`,
-    limitation: "Nu putem confirma punerea în funcțiune sau service-ul în garanția producătorului, care rămân în sarcina rețelei tehnice proprii Riello.",
+    infinitrade: `Nu deținem date proprii de stoc pentru arzătoarele și generatoarele termice Riello; informațiile din această pagină provin din documentația producătorului, inclusiv cea dedicată pieței din România. Aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă avem nevoie de puterea termică necesară, tipul de combustibil sau de instalație și cazanul pe care se montează arzătorul. Nu promitem disponibilitate permanentă din stoc pentru toate variantele din gama industrială.`,
+    limitation: "Nu putem confirma punerea în funcțiune sau service-ul în garanția producătorului, care nu fac parte din oferta noastră.",
     productCodes: [
       {
         "code": "RS 25÷35",
@@ -758,12 +758,12 @@ Pentru instalatorii și proiectanții din România, Riello are sens la înlocuir
     headquarters: "Maisach, Germania",
     overview: `OKS Spezialschmierstoffe este un producător german de lubrifianți speciali, cu sediul la Maisach, activ de aproape cinci decenii pe piața de întreținere industrială. Gama cuprinde peste 150 de produse — unsori numerotate (precum OKS 400, 416, 418, 424, 427, 428), uleiuri, paste de montaj, lubrifianți uscați și produse de protecție anticorozivă și curățare. Din portofoliul OKS putem oferta lubrifianți pentru montaj, întreținere și producție, acolo unde clientul are nevoie de o soluție specifică pentru o combinație de materiale sau condiții de temperatură.
 
-OKS, marcă de produse a Klüber Lubrication, se adresează segmentului produselor de nișă — fiecare unsoare sau pastă numerotată e formulată pentru o problemă tehnică punctuală: frecare la montaj, protecție anticorozivă temporară, lubrifiere la temperaturi extreme sau compatibilitate cu materiale plastice și elastomeri. Fabricația "Made in Germany" e menționată explicit ca argument de calitate pe site-ul producătorului, alături de o gamă variată de industrii deservite.
+OKS, marcă de produse a Klüber Lubrication, se adresează segmentului produselor de nișă — fiecare unsoare sau pastă numerotată e formulată pentru o problemă tehnică punctuală: frecare la montaj, protecție anticorozivă temporară, lubrifiere la temperaturi extreme sau compatibilitate cu materiale plastice și elastomeri. Fabricația "Made in Germany" e menționată explicit de producător ca argument de calitate, alături de o gamă variată de industrii deservite.
 
 Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor industriale, la montajul componentelor mecanice sensibile la frecare și la protecția anticorozivă temporară a pieselor depozitate sau transportate, mai ales în ateliere de întreținere care lucrează cu mai multe tipuri de materiale.`,
     whyChoose: [
       "Peste 150 de produse numerotate, fiecare formulat pentru o problemă tehnică specifică, nu o gamă generalistă",
-      "Fabricație declarată explicit ca fiind realizată în Germania, pe site-ul producătorului",
+      "Fabricație declarată explicit ca fiind realizată în Germania, conform producătorului",
       "Acoperire neobișnuit de largă de industrii — de la feroviar la prelucrarea alimentelor",
       "Game separate pentru montaj, întreținere curentă și protecție anticorozivă temporară",
     ],
@@ -779,7 +779,7 @@ Pentru România, gama OKS are sens la mentenanța preventivă a utilajelor indus
       "Industria sticlei — lubrifianți rezistenți la temperaturi ridicate",
       "Construcții navale — protecție anticorozivă pentru componente metalice",
     ],
-    infinitrade: `Informația despre OKS din această pagină e disponibilă public pe site-ul producătorului și pe cel al echipei locale din România; nu dispunem de stoc propriu pentru codurile numerotate din gama de unsori sau paste. Ca la orice comandă din import, livrarea se face prin canale de aprovizionare din UE și durează în mod orientativ 1–4 săptămâni din momentul confirmării. Pentru o ofertă potrivită, clientul trebuie să ne spună componenta de lubrifiat, materialele în contact și intervalul de temperatură de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 150 de coduri din gamă.`,
+    infinitrade: `Informația despre OKS din această pagină provine din documentația producătorului; nu dispunem de stoc propriu pentru codurile numerotate din gama de unsori sau paste. Ca la orice comandă din import, livrarea se face prin canale de aprovizionare din UE și durează în mod orientativ 1–4 săptămâni din momentul confirmării. Pentru o ofertă potrivită, clientul trebuie să ne spună componenta de lubrifiat, materialele în contact și intervalul de temperatură de lucru. Nu promitem disponibilitate permanentă din stoc pentru toate cele peste 150 de coduri din gamă.`,
     limitation: "Nu putem confirma compatibilitatea chimică exactă a fiecărui produs cu elastomeri sau plastice specifice fără fișa tehnică a produsului respectiv.",
     productCodes: [
       {
@@ -919,7 +919,7 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
       "Robotică — acționări de precizie pentru brațe și module mobile",
       "Mobilitate electrică — componente pentru vehicule electrice mici",
     ],
-    infinitrade: `Prezentăm aici informații publice ale producătorului Maxon; nu deținem date proprii de stoc pentru motoarele DC, BLDC sau reductoarele din gama lor. Comanda ajunge prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni până la livrare. Pentru o configurare corectă, clientul trebuie să ne transmită tensiunea de alimentare, turația și cuplul necesare, plus spațiul de montaj disponibil. Nu promitem disponibilitate permanentă din stoc pentru variantele de motor cu dimensiuni foarte mici, folosite frecvent în aplicații medicale.`,
+    infinitrade: `Prezentăm aici informații din documentația producătorului Maxon; nu deținem date proprii de stoc pentru motoarele DC, BLDC sau reductoarele din gama lor. Comanda ajunge prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni până la livrare. Pentru o configurare corectă, clientul trebuie să ne transmită tensiunea de alimentare, turația și cuplul necesare, plus spațiul de montaj disponibil. Nu promitem disponibilitate permanentă din stoc pentru variantele de motor cu dimensiuni foarte mici, folosite frecvent în aplicații medicale.`,
     limitation: "Nu putem confirma configurarea electronică a sistemelor de control asociate motoarelor BLDC fără specificațiile complete ale aplicației clientului.",
     productCodes: [
       {
@@ -982,7 +982,7 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
       },
       {
         "q": "Livrați motoare Maxon în România?",
-        "a": "Da, motoarele Maxon se aduc la comandă, în baza cataloagelor publice ale producătorului, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 1–4 săptămâni, în funcție de model și de eventualele opțiuni de encoder sau reductor atașate. Recomandăm confirmarea diametrului și a puterii exacte înainte de comandă."
+        "a": "Da, motoarele Maxon se aduc la comandă, în baza documentației tehnice a producătorului, fără un stoc propriu constituit pentru această marcă. Perioada obișnuită este de 1–4 săptămâni, în funcție de model și de eventualele opțiuni de encoder sau reductor atașate. Recomandăm confirmarea diametrului și a puterii exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de motor Maxon?",
@@ -1006,11 +1006,11 @@ Pentru România, gama Maxon are sens la echipamente de laborator, aparatură med
     headquarters: "Schwaz, Austria",
     overview: `Tyrolit este un producător austriac de scule abrazive, co-fondat în 1919 de Daniel Swarovski, cu sediul la Schwaz din anul 1950. Gama acoperă discuri de debitare (seriile SECUR, SECUR EASY CUT, SECUR SUPER THIN; scule diamantate FOCUR-SA și FOCUR-EXTRA pentru piese turnate), discuri de polizare pe rășină (CENTURIA), discuri vitrificate pentru rectificare interioară (COLUMBIA) și discuri de rectificare fără vârfuri (seria CSS). Din gama Tyrolit putem oferta discuri abrazive și diamantate pentru debitare, polizare și rectificare, acolo unde clientul procesează metal, piatră sau materiale ceramice.
 
-Compania acoperă o plajă tehnică largă, de la discuri de rectificare vitrificate cu nucleu compozit din CBN (seria GENIS 2 CF) până la discuri pentru rectificare de suprafață și creep-feed (STRATO ULTRA, VIPER ULTRA) și discuri dedicate carburilor și ceramicelor tehnice (SOLOTEC). Pe site-ul producătorului sunt menționate certificările TÜV Austria și OSA. Cu peste 4.000 de angajați la nivel global, compania menține producție pe mai multe tipuri de lianți abrazivi (rășină, vitrificat, metalic).
+Compania acoperă o plajă tehnică largă, de la discuri de rectificare vitrificate cu nucleu compozit din CBN (seria GENIS 2 CF) până la discuri pentru rectificare de suprafață și creep-feed (STRATO ULTRA, VIPER ULTRA) și discuri dedicate carburilor și ceramicelor tehnice (SOLOTEC). Producătorul menționează certificările TÜV Austria și OSA. Cu peste 4.000 de angajați la nivel global, compania menține producție pe mai multe tipuri de lianți abrazivi (rășină, vitrificat, metalic).
 
 Pentru România, gama Tyrolit are sens în construcții, industria auto și cea a rulmenților, acolo unde debitarea și rectificarea de precizie fac parte din procesul de fabricație și unde certificarea de siguranță a discului contează la fel de mult ca performanța de așchiere.`,
     whyChoose: [
-      "Certificări TÜV Austria și OSA, menționate pe site-ul producătorului",
+      "Certificări TÜV Austria și OSA, menționate de producător",
       "Gamă de lianți abrazivi — rășină, vitrificat, metalic — pentru aplicații diferite",
       "Serie dedicată CBN (GENIS 2 CF) pentru rectificare de precizie pe materiale dure",
       "Discuri specializate pentru carburi și ceramice tehnice (SOLOTEC), nu doar pentru oțel",
@@ -1029,9 +1029,9 @@ Pentru România, gama Tyrolit are sens în construcții, industria auto și cea 
     ],
     certifications: [
       "TÜV Austria — certificare de siguranță pentru scule abrazive rotative",
-      "OSA — menționat pe site-ul producătorului",
+      "OSA — menționat de producător",
     ],
-    infinitrade: `Ce publicăm despre Tyrolit vine din surse publice ale producătorului; nu avem date proprii de stoc pentru discurile din seriile SECUR, CENTURIA, COLUMBIA sau CSS. Aducem discurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne transmită diametrul discului, materialul procesat și mașina pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru variantele de precizie cu nucleu CBN.`,
+    infinitrade: `Ce publicăm despre Tyrolit vine din documentația tehnică a producătorului; nu avem date proprii de stoc pentru discurile din seriile SECUR, CENTURIA, COLUMBIA sau CSS. Aducem discurile la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă corectă, clientul trebuie să ne transmită diametrul discului, materialul procesat și mașina pe care se montează. Nu promitem disponibilitate permanentă din stoc pentru variantele de precizie cu nucleu CBN.`,
     limitation: "Nu putem confirma parametrii tehnici exacți (turație maximă, grosime) pentru fiecare variantă de disc fără fișa tehnică specifică a codului comandat.",
     productCodes: [
       {
@@ -1163,7 +1163,7 @@ Pentru România, gama Hioki are sens la laboratoare de metrologie electrică, me
       "Producție de electronice — inspecție plăci cu sondă mobilă",
       "Energie — monitorizare curent și tensiune în stații și substații",
     ],
-    infinitrade: `Datele despre Hioki din această pagină provin din surse publice ale producătorului; nu deținem stoc propriu pentru instrumentele din gama lor de măsurare. Livrarea se organizează prin canale de aprovizionare din UE, iar termenul obișnuit până la sosirea comenzii e de 1–4 săptămâni. Pentru o ofertă potrivită, clientul trebuie să ne indice mărimea măsurată (curent, tensiune, izolație), plaja de măsurare necesară și dacă are nevoie de calibrare cu certificat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din catalogul producătorului.`,
+    infinitrade: `Datele despre Hioki din această pagină provin din documentația tehnică a producătorului; nu deținem stoc propriu pentru instrumentele din gama lor de măsurare. Livrarea se organizează prin canale de aprovizionare din UE, iar termenul obișnuit până la sosirea comenzii e de 1–4 săptămâni. Pentru o ofertă potrivită, clientul trebuie să ne indice mărimea măsurată (curent, tensiune, izolație), plaja de măsurare necesară și dacă are nevoie de calibrare cu certificat. Nu promitem disponibilitate permanentă din stoc pentru toate modelele din catalogul producătorului.`,
     limitation: "Nu putem confirma calibrarea cu certificat acreditat RENAR pentru instrumentele Hioki, serviciu care depinde de laboratoare terțe specializate.",
     productCodes: [
       {
@@ -1238,7 +1238,7 @@ Pentru România, gama Hioki are sens la laboratoare de metrologie electrică, me
       },
       {
         "q": "Livrați instrumente Hioki în România?",
-        "a": "Da, instrumentele Hioki se aduc la comandă, pornind de la cataloagele publice ale producătorului, fără o gamă proprie ținută pe stoc. De regulă este nevoie de 1–4 săptămâni, în funcție de model și de accesoriile solicitate (sonde, cabluri sau software). Confirmați codul exact al modelului Hioki înainte de a comanda."
+        "a": "Da, instrumentele Hioki se aduc la comandă, pornind de la documentația tehnică a producătorului, fără o gamă proprie ținută pe stoc. De regulă este nevoie de 1–4 săptămâni, în funcție de model și de accesoriile solicitate (sonde, cabluri sau software). Confirmați codul exact al modelului Hioki înainte de a comanda."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de instrument de măsură Hioki?",
@@ -1286,8 +1286,8 @@ Pentru România, gama Trafag are sens la echipamente hidraulice industriale, mat
     certifications: [
       "ISO 17025 — laborator de calibrare acreditat SCS",
     ],
-    infinitrade: `Ce publicăm despre Trafag e disponibil public pe site-ul producătorului; nu deținem stoc propriu pentru senzorii din seriile de presiune, temperatură sau densitate gaz. Senzorii ajung la comandă printr-un lanț de aprovizionare din UE, iar termenul de așteptare orientativ e de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită plaja de măsurare necesară, mediul de lucru și tipul de ieșire electrică dorit. Nu promitem disponibilitate permanentă din stoc pentru variantele feroviare sau pentru hidrogen, cu producție la cerere.`,
-    limitation: "Nu putem confirma anul fondării companiei sau numărul exact de angajați, informații care nu apar clar pe paginile accesate.",
+    infinitrade: `Ce publicăm despre Trafag provine din documentația producătorului; nu deținem stoc propriu pentru senzorii din seriile de presiune, temperatură sau densitate gaz. Senzorii ajung la comandă printr-un lanț de aprovizionare din UE, iar termenul de așteptare orientativ e de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită plaja de măsurare necesară, mediul de lucru și tipul de ieșire electrică dorit. Nu promitem disponibilitate permanentă din stoc pentru variantele feroviare sau pentru hidrogen, cu producție la cerere.`,
+    limitation: "Nu putem confirma anul fondării companiei sau numărul exact de angajați, informații care nu apare clar în documentația consultată.",
     productCodes: [
       {
         "code": "NAI 8273",
@@ -1418,7 +1418,7 @@ Pentru România, gama Hach are sens la stații de tratare a apei potabile și uz
       "Industria farmaceutică — analiza apei folosite în producție",
       "Energie și petrochimie — monitorizare parametri de proces",
     ],
-    infinitrade: `Informațiile despre Hach din această pagină vin din surse publice ale producătorului; nu avem date proprii de stoc pentru instrumentele sau reactivii din gama lor. Instrumentele și reactivii ajung la noi prin canale de aprovizionare din UE, cu un termen de așteptare orientativ de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită parametrii de analizat, plaja de concentrație așteptată și dacă are nevoie de monitorizare on-line sau doar de instrument de laborator. Nu promitem disponibilitate permanentă din stoc pentru reactivii cu termen de valabilitate limitat.`,
+    infinitrade: `Informațiile despre Hach din această pagină vin din documentația tehnică a producătorului; nu avem date proprii de stoc pentru instrumentele sau reactivii din gama lor. Instrumentele și reactivii ajung la noi prin canale de aprovizionare din UE, cu un termen de așteptare orientativ de 1–4 săptămâni. Pentru o ofertă corectă, clientul trebuie să ne transmită parametrii de analizat, plaja de concentrație așteptată și dacă are nevoie de monitorizare on-line sau doar de instrument de laborator. Nu promitem disponibilitate permanentă din stoc pentru reactivii cu termen de valabilitate limitat.`,
     limitation: "Nu putem confirma disponibilitatea imediată a reactivilor TNTPlus cu termen de valabilitate scurt, care depinde de rotația stocului la nivel european.",
     productCodes: [
       {

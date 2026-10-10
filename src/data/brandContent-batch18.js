@@ -947,7 +947,7 @@ Pentru un integrator sau un operator de instalații din România, gama END-Armat
     certifications: [
       "ISO 9001 — management al calității pentru fabricație de armături speciale",
       "PED 2014/68/UE — conformitate pentru echipamente sub presiune",
-      "ATEX — menționat de producător pe site; modelele certificate se confirmă pe cod",
+      "ATEX — în documentația producătorului; modelele certificate se confirmă pe cod",
       "DVGW și marcaj CE — afișate de producător; modelele certificate se confirmă pe cod"
     ],
     infinitrade: `Robineții cu bilă și fluture END-Armaturen îi comandăm prin canale de aprovizionare din UE, pe baza surselor publice ale producătorului — fără date proprii despre stocul de fabrică. Termenul standard e de 1–4 săptămâni la comandă; doar pentru accesorii uzuale de instrumentație putem oferi 24–72 h din stoc, ca formulare generală, fără garanția unui produs anume disponibil. Avem nevoie de fluidul de proces, temperatura minimă și maximă de lucru, presiunea nominală și clasa de etanșare cerută, ca să transmitem specificația corectă spre configurare. Nu discutăm preț înainte de a primi aceste date tehnice complete.`,
@@ -1021,7 +1021,7 @@ Pentru un integrator sau un operator de instalații din România, gama END-Armat
       },
       {
         "q": "Livrați vane END-Armaturen în România?",
-        "a": "Da, aducem la comandă vane END-Armaturen pe baza magazinului online public al producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal, materialul de etanșare și tipul de capete de racordare. Recomandăm confirmarea exactă a codului articolului înainte de comandă."
+        "a": "Da, aducem la comandă vane END-Armaturen pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal, materialul de etanșare și tipul de capete de racordare. Recomandăm confirmarea exactă a codului articolului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană END-Armaturen?",

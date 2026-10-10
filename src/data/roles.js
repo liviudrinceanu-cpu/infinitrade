@@ -194,7 +194,7 @@ export const roles = {
         title: 'Urgențe',
         items: [
           `Dacă o defecțiune oprește producția, sunați-ne la ${phone} (${'luni–vineri, 08:00–16:30'}) și spuneți de la început că este o urgență.`,
-          'Vă spunem termenul realist: din stocul nostru din Ghiroda, din stoc extern sau direct de la producător, cu transportul potrivit.',
+          'Vă spunem termenul realist: din stocul nostru din Ghiroda, din stoc extern sau din fabrică, la comandă, cu transportul potrivit.',
         ],
       },
     ],

@@ -89,7 +89,7 @@ export const series = [
       },
       {
         "q": "Ce nu putem confirma pentru această serie?",
-        "a": "Nu confirmăm disponibilitate din stoc și nu oferim prețuri pe pagina de serie; verificăm de fiecare dată codul complet în fișa tehnică curentă a producătorului înainte de a trimite o ofertă fermă, mai ales pentru domenii de presiune apropiate de limitele carcasei."
+        "a": "Nu confirmăm disponibilitate din stoc și nu oferim prețuri în prezentarea seriei; verificăm de fiecare dată codul complet în fișa tehnică curentă a producătorului înainte de a trimite o ofertă fermă, mai ales pentru domenii de presiune apropiate de limitele carcasei."
       }
     ],
     "limitation": "Nu confirmăm din surse proprii dacă un cod de comandă mai vechi este încă fabricat identic, ci verificăm fiecare cerere în fișa tehnică curentă a producătorului.",
@@ -117,7 +117,7 @@ export const series = [
     "name": "WIKA CPG1500",
     "oneLine": "Manometru digital de precizie WIKA pentru etalonări la fața locului și control de presiune.",
     "lifecycle": "activ",
-    "lifecycleNote": "Fișa tehnică de pe site-ul producătorului (CT 10.51) nu conține nicio mențiune de retragere din producție pentru CPG1500.",
+    "lifecycleNote": "Fișa tehnică a producătorului (CT 10.51) nu conține nicio mențiune de retragere din producție pentru CPG1500.",
     "intro": "WIKA CPG1500 este un manometru digital de precizie care preia simplitatea unui manometru analogic clasic și precizia unui calibrator digital, folosit pentru etalonări la fața locului, lucrări de service și verificarea presiunii în industria petrolului și gazelor. Codul complet de comandă descrie, în ordine, versiunea aparatului, protecția antiex, unitatea de măsură, tipul de presiune, domeniul de măsurare, racordul de proces și clasa de precizie (0,025%, 0,05% sau 0,1% din span), de aceea eticheta unui aparat existent conține deja toate detaliile necesare unei cereri de ofertă.\n\nDin gama CPG1500 putem aduce la comandă unități noi din Uniunea Europeană, în 1–4 săptămâni. Pentru o ofertă corectă, clientul trimite domeniul de presiune dorit, clasa de precizie necesară, tipul de racord de proces și dacă este nevoie de varianta pentru zone cu risc de explozie; confirmăm compatibilitatea în fișa tehnică curentă a producătorului înainte de a trimite oferta.",
     "models": [
       {

@@ -96,7 +96,7 @@ Pentru piața din România, reductoarele Nabtesco au sens la mentenanța roboți
       "Vehicule ghidate automat — actuatoare pentru unitățile de tracțiune",
       "Automatizări industriale — axe secundare cu actuatoare compacte seria AF",
     ],
-    infinitrade: `La Nabtesco lucrăm cu fișele tehnice publice din cataloagele văzute pe site, fără date proprii despre stocul acestor reductoare la producător. Comanda pleacă spre Japonia, iar reductorul ajunge la noi într-un interval orientativ de 1–4 săptămâni; nu deținem această gamă pe raft, o procurăm pe măsură ce apare cererea. Pentru ofertă, cel mai util e codul exact de pe plăcuța reductorului — RV-20E sau RS-260A, de exemplu —, raportul de transmisie și, dacă se poate, o fotografie cu montajul pe robot sau pe mașină, care ne ajută să confirmăm rapid varianta echivalentă. Verificăm disponibilitatea la producător înainte de a stabili un termen ferm cu clientul, fără promisiuni de disponibilitate din depozit.`,
+    infinitrade: `La Nabtesco lucrăm cu fișele tehnice publice din cataloagele producătorului, fără date proprii despre stocul acestor reductoare la producător. Comanda pleacă spre Japonia, iar reductorul ajunge la noi într-un interval orientativ de 1–4 săptămâni; nu deținem această gamă pe raft, o procurăm pe măsură ce apare cererea. Pentru ofertă, cel mai util e codul exact de pe plăcuța reductorului — RV-20E sau RS-260A, de exemplu —, raportul de transmisie și, dacă se poate, o fotografie cu montajul pe robot sau pe mașină, care ne ajută să confirmăm rapid varianta echivalentă. Verificăm disponibilitatea la producător înainte de a stabili un termen ferm cu clientul, fără promisiuni de disponibilitate din depozit.`,
     limitation: "Nu putem confirma programarea unui service specializat pe robot direct de la Nabtesco pentru instalațiile din România.",
     productCodes: [
       { code: "RV-6E", description: "reductor cicloidal RV, cuplu nominal circa 58 N·m, motor 250W" },
@@ -149,7 +149,7 @@ Pentru piața din România, gama acoperă atât înlocuirea unui motoreductor de
       "Seria S, recomandată explicit pentru pompe, ventilatoare și suflante, se potrivește pentru aplicații de pompare, ventilație și suflare",
       "Seria TA, gândită pentru cariere și mine, arată o construcție dimensionată pentru funcționare continuă în medii dure",
       "Gamă de motoare electrice și servoacționări din același grup, utilă când proiectul cere motor și reductor de la un singur producător",
-      "Prezența globală a grupului Bonfiglioli, cu 18 fabrici și 24 de filiale conform site-ului producătorului; disponibilitatea pieselor de schimb se confirmă la comandă",
+      "Prezența globală a grupului Bonfiglioli, cu 18 fabrici și 24 de filiale conform documentației producătorului; disponibilitatea pieselor de schimb se confirmă la comandă",
     ],
     keyProducts: [
       { name: "Motoreductoare cu Unghi Drept Seria A", description: "Motoreductor cu roți conice-elicoidale și ieșire perpendiculară pe axul motorului, prezentat de producător prin eficiență ridicată, costuri de mentenanță reduse și o plajă largă de cuplu. Se folosește la benzi transportoare, mixere și utilaje unde motorul trebuie montat lateral față de sarcina acționată, iar pierderile unui angrenaj melcat clasic nu mai sunt acceptabile pe termen lung de funcționare." },
@@ -164,7 +164,7 @@ Pentru piața din România, gama acoperă atât înlocuirea unui motoreductor de
       "Amestecare și mixare — motoreductoare melcate seria VF/W la agitatoare",
       "Energie regenerabilă — acționări pentru instalații de energie regenerabilă",
     ],
-    infinitrade: `Pentru gama Tecnotrans Bonfiglioli lucrăm cu fișele tehnice publice de pe site-ul producătorului, fără date proprii despre stocul din fabricile din Spania sau Italia. Motoreductoarele ajung la noi la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 1–4 săptămâni, iar gama nu stă permanent pe raft. Ca să pregătim o ofertă corectă, avem nevoie de seria dorită — A, VF/W, C, F, S sau TA —, de raportul de transmisie sau turația de ieșire, de puterea motorului și, dacă există, de codul complet de pe plăcuța motoreductorului vechi pe care îl înlocuim. Confirmăm disponibilitatea exactă la fabrică înainte de a stabili un termen ferm împreună cu clientul.`,
+    infinitrade: `Pentru gama Tecnotrans Bonfiglioli lucrăm cu fișele tehnice publice din documentația producătorului, fără date proprii despre stocul din fabricile din Spania sau Italia. Motoreductoarele ajung la noi la comandă, prin canale de aprovizionare din Uniunea Europeană; termenul orientativ e de 1–4 săptămâni, iar gama nu stă permanent pe raft. Ca să pregătim o ofertă corectă, avem nevoie de seria dorită — A, VF/W, C, F, S sau TA —, de raportul de transmisie sau turația de ieșire, de puterea motorului și, dacă există, de codul complet de pe plăcuța motoreductorului vechi pe care îl înlocuim. Confirmăm disponibilitatea exactă la fabrică înainte de a stabili un termen ferm împreună cu clientul.`,
     limitation: "Nu putem confirma configurarea electronică a variantelor cu servoacționare fără acces direct la proiectul clientului.",
     productCodes: [
       { code: "Seria A", description: "motoreductor unghi drept, roți conice-elicoidale, eficiență ridicată" },

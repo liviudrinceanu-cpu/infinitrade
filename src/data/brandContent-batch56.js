@@ -230,7 +230,7 @@ Pentru instalatorii din România, Calpeda înseamnă o gamă italiană, de la po
       "Industrie — circulație a apei tehnologice"
     ],
     infinitrade: `Lucrăm cu gama Calpeda fără date proprii despre stocul fabricii din Vicenza — spunem clar, înainte de ofertă, ce confirmăm din cataloagele publice ale producătorului. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de model și de disponibilitatea la partenerii din Uniunea Europeană. Pentru o ofertă corectă, clientul ne transmite tipul de aplicație (presurizare, drenaj, irigații), debitul și înălțimea de pompare, plus frecvența rețelei (50Hz sau 60Hz). Nu confirmăm disponibilitate pentru fiecare model Calpeda din gamă.`,
-    limitation: "Nu putem confirma stocuri locale pentru fiecare model Calpeda și nu oferim configurare software pentru pompele cu electronică integrată fără suport direct de la producător.",
+    limitation: "Nu putem confirma stocuri locale pentru fiecare model Calpeda și nu oferim configurare software pentru pompele cu electronică integrată fără sprijinul producătorului, obținut de noi la cerere.",
     productCodes: [
       { code: "E-IDOS", description: "Pompă centrifugă cu electronică integrată, turație variabilă" },
       { code: "NM", description: "Pompă centrifugă cu impeler simplu sau dublu" },
@@ -298,7 +298,7 @@ Pentru fermele, stațiile de irigații și instalațiile municipale din România
       "UL448 — standard american pentru pompe de incendiu"
     ],
     infinitrade: `Aducem pompe și motoare submersibile Caprari la comandă prin canale de aprovizionare din Uniunea Europeană; spunem clar, înainte de ofertă, ce putem și ce nu putem confirma din documentația publică a producătorului italian. Pentru pompele submersibile Caprari termenul orientativ rămâne 1–4 săptămâni de la confirmarea comenzii. Pentru o ofertă corectă, clientul ne transmite diametrul forajului sau al conductei, adâncimea apei, debitul dorit și, pentru aplicații de incendiu, certificarea cerută de proiect. Nu confirmăm disponibilitate pentru fiecare diametru Caprari din gamă.`,
-    limitation: "Nu putem confirma stocuri locale pentru pompele verticale certificate la incendiu și nu proiectăm stații complete de pompare fără suport direct de la producător.",
+    limitation: "Nu putem confirma stocuri locale pentru pompele verticale certificate la incendiu și nu proiectăm stații complete de pompare fără sprijinul producătorului, obținut de noi la cerere.",
     productCodes: [
       { code: "Pompe submersibile 4″", description: "Pompă pentru foraje mici, uz rezidențial" },
       { code: "Pompe submersibile 6″", description: "Pompă submersibilă pentru foraje de dimensiune medie" },
@@ -346,7 +346,7 @@ Pentru fermele și stațiile de irigații din România fără racord electric co
       "Seria T, antrenată prin priza de putere a tractorului, utilă la ferme fără alimentare electrică la punctul de pompare",
       "Pompe submersibile de 6 inch cu carcasă exterioară din inox, pentru foraje cu apă corozivă sau nisipoasă",
       "Gamă separată de pompe submersibile electrice pentru ape reflue, distinctă de pompele pentru apă curată",
-      "Sigla de certificare DNV este afișată pe site-ul producătorului"
+      "Sigla de certificare DNV este afișată în documentația producătorului"
     ],
     keyProducts: [
       { name: "Pompe Submersibile pentru Foraje (4″ și 6″)", description: "Pompe submersibile radiale și cu flux mixt, pentru foraje de 4 și 6 inch, cu variantă de carcasă exterioară din inox pentru apă corozivă sau cu conținut de nisip. Pentru selecție avem nevoie de diametrul exact al forajului, adâncimea la care se află apa și debitul dorit." },
@@ -362,7 +362,7 @@ Pentru fermele și stațiile de irigații din România fără racord electric co
       "Petrol și gaze — pompe pentru platforme offshore și minerit"
     ],
     infinitrade: `Furnizăm pompe Rovatti pe baza surselor publice ale producătorului italian, fără date proprii despre stocul fabricii din Fabbrico. Pentru motoare submersibile și piese de schimb curente ținem la dispoziție surse rapide din gama europeană; pentru pompe complete sau seria T antrenată de tractor, aducem la comandă în 1–4 săptămâni. Clientul trebuie să ne transmită diametrul forajului sau tipul de antrenare dorit (electric sau prin tractor), debitul necesar și adâncimea apei. Nu confirmăm disponibilitate pentru fiecare diametru Rovatti din gamă.`,
-    limitation: "Nu putem confirma stocuri locale pentru motoarele submersibile Rovatti și nu oferim proiectare de stații de pompare complete fără suport direct de la producător.",
+    limitation: "Nu putem confirma stocuri locale pentru motoarele submersibile Rovatti și nu oferim proiectare de stații de pompare complete fără sprijinul producătorului, obținut de noi la cerere.",
     productCodes: [
       { code: "Pompe de foraj 4″", description: "Pompă submersibilă pentru puțuri de dimensiune mică" },
       { code: "Pompe de foraj 6″ (carcasă inox)", description: "Pompă submersibilă pentru foraje cu apă corozivă" },
@@ -535,15 +535,15 @@ Pentru clădirile din România fără evacuare gravitațională a apelor uzate �
 
   'tsurumi': {
     name: "Tsurumi",
-    overview: `Tsurumi Manufacturing este un producător japonez de pompe submersibile, cu fabrici în Japonia (Kyoto, Yonago), Taiwan, China și Vietnam. Gama acoperă pompe submersibile pentru drenaj, pompe pentru apă uzată cu solide, pompe cu cuțit tocător seria BN și alte familii prezentate pe site-ul producătorului (LB, KTZ, GPN, HS, LH și altele). Pentru piața din România putem oferta atât pompe complete, cât și piese de uzură pentru instalațiile deja montate.
+    overview: `Tsurumi Manufacturing este un producător japonez de pompe submersibile, cu fabrici în Japonia (Kyoto, Yonago), Taiwan, China și Vietnam. Gama acoperă pompe submersibile pentru drenaj, pompe pentru apă uzată cu solide, pompe cu cuțit tocător seria BN și alte familii prezentate în documentația producătorului (LB, KTZ, GPN, HS, LH și altele). Pentru piața din România putem oferta atât pompe complete, cât și piese de uzură pentru instalațiile deja montate.
 
 Ce diferențiază Tsurumi e numărul mare de familii dedicate unei nișe anume: seria BN, cu cuțit tocător, macină solidele înainte de refulare prin conducte de diametru mic; iar pentru celelalte familii (KTZ, HS, LH și altele), aplicațiile și parametrii se confirmă pe cod, din documentația producătorului. Producția se desfășoară în fabrici din Japonia (Kyoto, Yonago), Taiwan, China (Shanghai) și Vietnam. Pe segmentul pompelor submersibile pentru construcții, Tsurumi se compară cu Grindex și cu Sulzer.
 
 Pentru șantierele și stațiile de epurare din România, gama Tsurumi acoperă atât dewatering-ul temporar pe timpul lucrărilor, cât și pomparea permanentă a apelor uzate cu conținut de nisip sau solide.`,
     whyChoose: [
-      "Familii distincte de pompe submersibile pentru drenaj, nămol, apă abrazivă și tocare, prezentate pe site-ul producătorului",
+      "Familii distincte de pompe submersibile pentru drenaj, nămol, apă abrazivă și tocare, prezentate în documentația producătorului",
       "Seria BN, cu cuțit tocător integrat, macină solidele înainte de refulare prin conducte de diametru mic",
-      "Fabrici în Japonia (Kyoto, Yonago), Taiwan, China (Shanghai) și Vietnam, conform site-ului producătorului",
+      "Fabrici în Japonia (Kyoto, Yonago), Taiwan, China (Shanghai) și Vietnam, conform documentației producătorului",
       "Familii distincte pentru aplicații diferite (drenaj, ape uzate, nămol, tocare); alegerea se face pe cod, din documentația producătorului",
       "Acoperire largă de aplicații — de la construcții și minerit până la controlul inundațiilor"
     ],

@@ -9,7 +9,7 @@ export const series = [
     "name": "RK 86",
     "oneLine": "Clapetă de reținere tip disc, pentru montaj între flanșe, în execuție din oțel crom sau inox.",
     "lifecycle": "activ",
-    "lifecycleNote": "Fișa tehnică și pagina de produs ale producătorului pentru RK 86/RK 86A sunt disponibile curent pe site-ul oficial, fără mențiune de retragere.",
+    "lifecycleNote": "Fișa tehnică și documentația de produs ale producătorului pentru RK 86/RK 86A sunt curente, fără mențiune de retragere.",
     "intro": "RK 86 este seria de clapete de reținere tip disc (wafer) ale Gestra, montate prin strângere între flanșe, disponibilă în mărimi de la DN 15 la DN 200 (DN20 fiind una dintre ele) și trepte de presiune PN 10/16/25/40 sau ASME 125/150/300. Execuția RK 86 are corp din oțel crom (până la DN 100) sau oțel turnat (DN 125–200), iar execuția RK 86A, din oțel inoxidabil pe toată gama, acoperă temperaturi de până la 550°C; corpul autocentrant cu came patentate simplifică montajul.\n\nPentru o ofertă la o clapetă RK 86 avem nevoie de diametrul nominal, treapta de presiune, materialul scaunului (metal, EPDM, FPM sau PTFE) și fluidul vehiculat prin conductă. Clapetele RK 86 se aduc din Uniunea Europeană la comandă, cu un termen de aprovizionare de 1–4 săptămâni, fără informații despre stoc sau preț.",
     "models": [
       {

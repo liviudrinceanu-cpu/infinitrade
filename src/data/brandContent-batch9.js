@@ -170,7 +170,7 @@ Habasit urmărește eficiență ridicată în fiecare aplicație - benzi gândit
       },
       {
         "q": "Livrați benzi transportoare Habasit în România?",
-        "a": "Da, aducem benzi transportoare și module Habasit la comandă din surse publice ale producătorului, fără a menține un stoc propriu permanent; termenul uzual este de 1–4 săptămâni la comandă, în funcție de serie, lățime și disponibilitatea materialului la fabrică."
+        "a": "Da, aducem benzi transportoare și module Habasit la comandă din documentația tehnică a producătorului, fără a menține un stoc propriu permanent; termenul uzual este de 1–4 săptămâni la comandă, în funcție de serie, lățime și disponibilitatea materialului la fabrică."
       },
       {
         "q": "Ce tip de bandă modulară aleg pentru transport pe curbe?",
@@ -200,7 +200,7 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
       'Soluții smart building - contoare energie Modbus, întreruptoare programabile, integrare KNX pentru automatizare clădiri',
       'Calitate industrială - contacte argint, mecanisme termice bimetal calibrate, camere de stingere arc electric',
       'Infrastructură EV charging - tablouri dedicate EVSE, protecții DC, monitorizare energie pentru stații încărcare',
-      'Documentație completă - diagrame unifilare, scheme montaj, calculatoare selecție protecții online'
+      'Documentație completă - diagrame unifilare, scheme montaj, calculatoare selecție protecții'
     ],
     keyProducts: [
       {
@@ -331,7 +331,7 @@ Filosofia Hager e simplitate și fiabilitate. Întrerupătoarele automate au ind
       },
       {
         "q": "Livrați componente Hager pentru tablouri electrice în România?",
-        "a": "Da, aducem întrerupătoare, blocuri diferențiale și accesorii Hager la comandă, pe baza informațiilor publice din cataloagele producătorului, fără a ține stoc propriu constant; timpul obișnuit de aprovizionare este de 1–4 săptămâni la comandă, în funcție de model și cantitate."
+        "a": "Da, aducem întrerupătoare, blocuri diferențiale și accesorii Hager la comandă, pe baza documentației tehnice a producătorului, fără a ține stoc propriu constant; timpul obișnuit de aprovizionare este de 1–4 săptămâni la comandă, în funcție de model și cantitate."
       },
       {
         "q": "La ce folosesc blocurile de protecție diferențială precum BD426?",
@@ -399,7 +399,7 @@ Pentru Industrie 4.0, Harting oferă platforma de calcul industrial MICA, destin
       'Apărare - vehicule militare, sisteme comunicații, echipamente câmp',
       'Logistică - sortare colete, tracking RFID, sisteme warehouse management'
     ],
-    infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe surse publice ale producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 1–4 săptămâni la comandă. Trimiteți-ne codul complet al conectorului sau, dacă nu îl aveți, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu ne angajăm asupra unui termen pentru referințele rar solicitate.`,
+    infinitrade: `Nu avem informații proprii despre stocul exact al fiecărui conector Harting, așa că ne bazăm pe documentația tehnică a producătorului și pe verificarea directă la fiecare cerere primită. Aducem conectorii Han, switch-urile Ethernet industriale și componentele RFID prin canale de aprovizionare din UE. Variantele standard pot fi disponibile în 24–72 h din stoc, iar configurațiile custom (inserții speciale, protecție IP69K) ajung de regulă în 1–4 săptămâni la comandă. Trimiteți-ne codul complet al conectorului sau, dacă nu îl aveți, numărul de pini, tipul de inserție și gradul de protecție necesar, ca să evităm confuziile de compatibilitate. Nu confirmăm prețuri fără o cerere punctuală și nu ne angajăm asupra unui termen pentru referințele rar solicitate.`,
     limitation: `Nu confirmăm disponibilitatea pentru toate combinațiile de inserții Han fără verificare punctuală și nu oferim service în garanția producătorului pentru echipamentele Harting.`,
     sources: [
       {"title":"HARTING Technology Group","url":"https://www.harting.com/en-gb","publisher":"HARTING","accessed":"2026-09-22"},
@@ -500,7 +500,7 @@ Pentru Industrie 4.0, Harting oferă platforma de calcul industrial MICA, destin
       },
       {
         "q": "Livrați conectori industriali Harting pentru automatizări în România?",
-        "a": "Da, aducem conectori și accesorii Harting la comandă, pe baza cataloagelor și fișelor tehnice publice ale producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie, configurația de contacte și cantitatea solicitată."
+        "a": "Da, aducem conectori și accesorii Harting la comandă, pe baza documentației tehnice a producătorului, fără gama pe raft ținut permanent; termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie, configurația de contacte și cantitatea solicitată."
       },
       {
         "q": "Ce este un conector Han-Yellock și când se folosește?",
@@ -627,7 +627,7 @@ Expertiza Helukabel e în aplicații speciale - cabluri care rezistă la -60°C 
       },
       {
         "q": "Livrați cabluri industriale Helukabel în România la comandă?",
-        "a": "Da, aducem cabluri Helukabel la comandă, pe baza fișelor tehnice și cataloagelor publice ale producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de secțiune, lungimea de tăiere și disponibilitatea la fabricant."
+        "a": "Da, aducem cabluri Helukabel la comandă, pe baza fișelor tehnice și documentației tehnice a producătorului, fără a menține stoc propriu constant; termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de secțiune, lungimea de tăiere și disponibilitatea la fabricant."
       },
       {
         "q": "Ce este un cablu HELUKAT și pentru ce se folosește?",
@@ -666,7 +666,7 @@ Hengst este atât furnizor OEM pentru producători de echipamente, cât și furn
       },
       {
         name: 'Filtre Hidraulice Înaltă Presiune',
-        description: 'Filtrare sistemelor hidraulice industriale și mobile - protecție servovalve, proporționale, cilindri de precizie. Media sintetică din fibre sticlă tratate cu rășină fenolică - rezistență chimică completă la uleiuri minerale și sintetice, stabilitate dimensională la temperaturi -40°C/+100°C. Gradele de filtrare și valorile Beta depind de elementul ales și se confirmă din fișa tehnică Hengst. Presiunea maximă depinde de tipul elementului și al carcasei (de exemplu, pagina producătorului indică până la 5 bar pentru cartușele filtrante și pentru elementele de tip 1-20, până la 330 bar pentru elementele din plasă metalică). Indicator vizual/electric de colmatare - schimb preventiv înainte de bypass. Configurații: inline (filet sau flanșă), tank-top (montaj pe rezervor), spin-on pentru aplicații mobile.'
+        description: 'Filtrare sistemelor hidraulice industriale și mobile - protecție servovalve, proporționale, cilindri de precizie. Media sintetică din fibre sticlă tratate cu rășină fenolică - rezistență chimică completă la uleiuri minerale și sintetice, stabilitate dimensională la temperaturi -40°C/+100°C. Gradele de filtrare și valorile Beta depind de elementul ales și se confirmă din fișa tehnică Hengst. Presiunea maximă depinde de tipul elementului și al carcasei (de exemplu, documentația producătorului indică până la 5 bar pentru cartușele filtrante și pentru elementele de tip 1-20, până la 330 bar pentru elementele din plasă metalică). Indicator vizual/electric de colmatare - schimb preventiv înainte de bypass. Configurații: inline (filet sau flanșă), tank-top (montaj pe rezervor), spin-on pentru aplicații mobile.'
       },
       {
         name: 'Separatoare Apă Combustibil',
@@ -695,7 +695,7 @@ Hengst este atât furnizor OEM pentru producători de echipamente, cât și furn
       'Forestry - harvester-e, forwardere, măcinătoare, transportoare',
       'Material handling - stivuitoare, reach stackers, telescopice'
     ],
-    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din surse publice ale producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 1–4 săptămâni la comandă. Pentru identificarea corectă, vă rugăm să ne trimiteți codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației dumneavoastră.`,
+    infinitrade: `Filtrele Hengst (ulei, hidraulice, separatoare apă-combustibil) ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru codul exact cerut - fără date proprii de stoc pentru fiecare cod OEM. Informațiile tehnice provin din documentația tehnică a producătorului, iar disponibilitatea o verificăm punctual pentru fiecare cerere. Codurile mai căutate pot ajunge în 24–72 h din stoc, dar pentru filtrele rare sau seriile speciale termenul e de regulă 1–4 săptămâni la comandă. Pentru identificarea corectă, vă rugăm să ne trimiteți codul echipamentului - motor, generator sau pompă - sau codul OEM al filtrului vechi, plus cantitatea necesară. Nu confirmăm compatibilitatea sau termenul fără să vedem specificațiile complete ale aplicației dumneavoastră.`,
     limitation: `Nu confirmăm compatibilitatea unui filtru Hengst cu un anumit echipament fără codul OEM exact și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Products - Hengst Filtration","url":"https://www.hengst.com/en/products/","publisher":"Hengst Filtration","accessed":"2026-09-22"},
@@ -808,7 +808,7 @@ Hilti investește constant în inovație. `,
       'Scule destinate utilizării profesionale pe șantier; durabilitatea depinde de model și de utilizare',
       'Productivitate - viteza de găurire și autonomia bateriei depind de model; se confirmă din fișa tehnică',
       'Sisteme integrate - scule + accesorii + aspirație + depozitare + management, pentru productivitate ridicată',
-      'Service - condițiile de service și piese originale se stabilesc direct cu producătorul',
+      'Service - condițiile de service și piese originale se stabilesc prin noi, la cerere',
       'Hilti Fleet Management - program al producătorului; disponibilitatea în România se confirmă direct cu Hilti',
       'Aprobări tehnice europene (ETA) și aprobări seismice pentru anumite sisteme de ancorare, conform documentației fiecărui produs'
     ],
@@ -848,7 +848,7 @@ Hilti investește constant în inovație. `,
       'Electricieni - instalații electrice rezidențiale/industriale',
       'Renovări - retrofit clădiri istorice, modernizări'
     ],
-    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe informațiile publice disponibile ale producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, vă rugăm să ne comunicați modelul exact, tensiunea bateriei dacă este cazul și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
+    infinitrade: `Sculele și sistemele de ancoraj Hilti ajung la InfiniTrade prin canale de aprovizionare din UE - fără un stoc propriu care să acopere toată gama, verificăm disponibilitatea înainte de fiecare confirmare. Pentru specificațiile tehnice ne bazăm pe documentația tehnică a producătorului. Accesoriile și consumabilele uzuale (burghie, cartușe de rășină) pot fi livrate în 24–72 h din stoc, iar sculele sau kiturile mai specializate ajung de obicei în 1–4 săptămâni la comandă. Pentru o ofertă corectă, vă rugăm să ne comunicați modelul exact, tensiunea bateriei dacă este cazul și aplicația - tipul de material și diametrul de găurire. Nu emitem prețuri fără o cerere concretă și nu promitem termene fixe pentru modelele rar cerute.`,
     limitation: `Nu oferim service în garanția producătorului pentru sculele Hilti și nu confirmăm stocul exact al fiecărui model fără verificare punctuală.`,
     sources: [
       {"title":"Chemical anchors - Hilti USA","url":"https://www.hilti.com/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135","publisher":"Hilti","accessed":"2026-09-22"},
@@ -1417,7 +1417,7 @@ Producătorul inovează constant - sisteme de monitorizare inteligentă a stări
       'Paper mills - prese, calendre, sisteme acționare (filtrare + separare apă)',
       'Plastic injection - mașini de injecție (protecție valve proporționale)'
     ],
-    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul dumneavoastră. Informațiile despre disponibilitate vin din surse publice ale producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 1–4 săptămâni la comandă. Pentru identificare corectă, vă rugăm să ne comunicați codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
+    infinitrade: `Filtrele și unitățile de filtrare Hydac Filtration ajung la InfiniTrade prin canale de aprovizionare din UE, comandate pentru gradul de filtrare și presiunea cerută de sistemul dumneavoastră. Informațiile despre disponibilitate vin din documentația tehnică a producătorului și din verificarea punctuală pentru fiecare cerere primită. Elementele filtrante uzuale pot fi livrate în 24–72 h din stoc, în timp ce unitățile complete de filtrare offline sau separatoarele de apă ajung de obicei în 1–4 săptămâni la comandă. Pentru identificare corectă, vă rugăm să ne comunicați codul elementului filtrant sau presiunea de lucru, gradul de filtrare dorit și tipul de conexiune necesar. Nu confirmăm termene sau prețuri fără să vedem cerința completă a aplicației.`,
     limitation: `Nu confirmăm stocul pentru fiecare element filtrant Hydac Filtration fără verificare punctuală și nu oferim service în garanția producătorului.`,
     sources: [
       {"title":"Filtration Technology - HYDAC","url":"https://www.hydac.com/shop/en/filtration-technology","publisher":"Hydac","accessed":"2026-09-22"},

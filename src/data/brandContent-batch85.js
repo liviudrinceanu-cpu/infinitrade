@@ -86,7 +86,7 @@ Pentru un operator de stație de epurare sau o instalație de biogaz din Români
       "Marină și offshore — aplicații de pompare industrială la bordul navelor",
       "Protecție civilă — echipamente mobile pentru situații de urgență"
     ],
-    infinitrade: `Aducem pompe cu lobi Börger prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ne bazăm strict pe ce publică producătorul pe site-ul oficial — fără date proprii de stoc și fără promisiuni de disponibilitate imediată pentru niciun model din gamă. Pentru o ofertă avem nevoie de tipul de fluid pompat, conținutul aproximativ de solide sau fibre și debitul dorit. Recomandăm, acolo unde e posibil, și o probă din fluidul real, pentru a evita o alegere greșită de material la nivelul lobilor sau al carcasei.`,
+    infinitrade: `Aducem pompe cu lobi Börger prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Ne bazăm strict pe ce publică producătorul în documentația producătorului — fără date proprii de stoc și fără promisiuni de disponibilitate imediată pentru niciun model din gamă. Pentru o ofertă avem nevoie de tipul de fluid pompat, conținutul aproximativ de solide sau fibre și debitul dorit. Recomandăm, acolo unde e posibil, și o probă din fluidul real, pentru a evita o alegere greșită de material la nivelul lobilor sau al carcasei.`,
     limitation: "Nu putem confirma dimensiunile exacte de racordare pentru o pompă BLUEline Legend mai veche fără seria de fabricație a echipamentului instalat.",
     productCodes: [
       { code: "AN 040", description: "pompă cu lobi, debit max. 20 m3/h" },
@@ -502,7 +502,7 @@ Pentru un producător din industria alimentară, a băuturilor sau farmaceutică
       "Îngrijire personală și cosmetice — transfer produse vâscoase sanitare",
       "Industria cărnii și hranei pentru animale — transfer produse semi-lichide"
     ],
-    infinitrade: `Aducem pompe și mixere Fristam prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu deținem date proprii despre stocul producătorului și nu ținem pompe Fristam pe raft în mod curent — lucrăm cu informațiile publice de pe site-ul oficial. Pentru o ofertă avem nevoie de tipul de fluid transportat, viscozitatea aproximativă, debitul dorit și dacă aplicația impune certificare pentru contact alimentar sau farmaceutic. Recomandăm și precizarea tipului de racorduri folosite în instalația existentă.`,
+    infinitrade: `Aducem pompe și mixere Fristam prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Nu deținem date proprii despre stocul producătorului și nu ținem pompe Fristam pe raft în mod curent — lucrăm cu informațiile din documentația producătorului. Pentru o ofertă avem nevoie de tipul de fluid transportat, viscozitatea aproximativă, debitul dorit și dacă aplicația impune certificare pentru contact alimentar sau farmaceutic. Recomandăm și precizarea tipului de racorduri folosite în instalația existentă.`,
     limitation: "Nu putem confirma echivalența exactă cu o pompă sanitară concurentă instalată deja fără datele tehnice complete ale acesteia.",
     productCodes: [
       { code: "FP", description: "pompă centrifugă sanitară, uz general" },
@@ -617,7 +617,7 @@ Pentru un operator de apă și canalizare sau un antreprenor de construcții din
       "Agricultură — transfer de fluide cu deșeuri agricole în suspensie",
       "Stingere incendii — pompe pentru sisteme de apărare împotriva incendiilor"
     ],
-    infinitrade: `Aducem pompe Gorman-Rupp prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 1–4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — informațiile despre gamă provin exclusiv de pe site-ul oficial al producătorului, iar disponibilitatea exactă se confirmă abia după plasarea comenzii. Pentru o ofertă avem nevoie de dimensiunea racordului dorită, debitul și înălțimea de pompare necesară, plus tipul de solide sau fibre prezente în fluid. Pentru stațiile ReliaSource, recomandăm și transmiterea planului de amplasament.`,
+    infinitrade: `Aducem pompe Gorman-Rupp prin canale de aprovizionare din UE și SUA, la comandă, cu termen orientativ de 1–4 săptămâni. Nu deținem date proprii de stoc pentru acest brand — informațiile despre gamă provin exclusiv din documentația producătorului, iar disponibilitatea exactă se confirmă abia după plasarea comenzii. Pentru o ofertă avem nevoie de dimensiunea racordului dorită, debitul și înălțimea de pompare necesară, plus tipul de solide sau fibre prezente în fluid. Pentru stațiile ReliaSource, recomandăm și transmiterea planului de amplasament.`,
     limitation: "Nu putem confirma configurația electrică exactă a unei stații ReliaSource fără cerințele complete ale rețelei locale de alimentare.",
     productCodes: [
       { code: "Super T Series 2\"", description: "pompă autoamorsantă, racord mic" },

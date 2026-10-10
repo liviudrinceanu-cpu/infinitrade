@@ -619,7 +619,7 @@ Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibil
       'Recycling - Baler, shredder, compactor',
       'Aerial Platforms - Scissor lift, boom lift, truck-mount'
     ],
-    infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24–72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară direct la producător.`,
+    infinitrade: `Pompele, valvele și motoarele Bucher Hydraulics vin la comandă prin canale de aprovizionare din Uniunea Europeană; lucrăm din surse publice ale producătorului, fără date proprii despre stocul fiecărei variante. Termenul obișnuit este de 1–4 săptămâni, iar pentru piese uzuale de schimb putem oferi ocazional 24–72 h din stoc, ca regulă generală, nu ca promisiune pe un cod anume. Trimiteți-ne codul complet sau parametrii tehnici (presiune, debit, tip de montaj) ca să confirmăm compatibilitatea cu utilajul dumneavoastră. Piesele custom sau ieșite din fabricație necesită verificare suplimentară în documentația producătorului, pe baza codului transmis de dumneavoastră.`,
     limitation: 'Nu putem confirma re-lapping sau reparații de precizie pe pompă fără evaluarea directă a piesei și nici disponibilitatea pentru fiecare cod.',
     sources: [
       { title: 'Bucher Hydraulics – History', url: 'https://www.bucherhydraulics.com/en/company/history', publisher: 'Bucher Hydraulics', accessed: '2026-10-08' },
@@ -689,7 +689,7 @@ Producătorul indică 190 de parteneri de vânzări la nivel mondial; disponibil
       },
       {
         "q": "Livrați pompe Bucher Hydraulics în România?",
-        "a": "Pompele și grupurile hidraulice Bucher Hydraulics vin în România strict la comandă, după identificarea variantei corecte în documentația tehnică pe care producătorul elvețian o publică online. Clienții trebuie să se aștepte la un interval de aproximativ 1–4 săptămâni la comandă, în funcție de presiunea de lucru și de tipul de fluid folosit."
+        "a": "Pompele și grupurile hidraulice Bucher Hydraulics vin în România strict la comandă, după identificarea variantei corecte în documentația tehnică a producătorului elvețian. Clienții trebuie să se aștepte la un interval de aproximativ 1–4 săptămâni la comandă, în funcție de presiunea de lucru și de tipul de fluid folosit."
       },
       {
         "q": "Ce diferență este între pompele QX și QXV din gama Bucher?",
@@ -712,7 +712,7 @@ Gama de senzori Bürkert acoperă parametrii uzuali de fluid: debit (thermal mas
 Certificatele de calibrare, interfețele digitale (de exemplu IO-Link, PROFINET, EtherNet/IP) și funcțiile de diagnosticare diferă pe tip de produs și se confirmă pe cod, din documentația producătorului.`,
     whyChoose: [
       'Design igienic - variantele și certificările se confirmă pe cod, din documentația producătorului',
-      'Gamă de senzori - debit, presiune, temperatură și analiză a apei, conform site-ului producătorului',
+      'Gamă de senzori - debit, presiune, temperatură și analiză a apei, conform documentației producătorului',
       'Precizie și calibrare - datele de precizie și certificatele de calibrare se confirmă pe cod',
       'Materiale - variantele pentru fluide agresive se confirmă pe cod, din documentația producătorului',
       'IO-Link + PROFINET - Integrare Industry 4.0, diagnosticare remote',
@@ -721,19 +721,19 @@ Certificatele de calibrare, interfețele digitale (de exemplu IO-Link, PROFINET,
     keyProducts: [
       {
         name: 'Type 8400 Temperature Transmitter',
-        description: `Type 8400 este, conform paginii oficiale Bürkert, un detector de prag și transmițător pentru temperatură, cu afișaj mare, montaj prin înșurubare sau pe perete, cu ieșire 4-20 mA către PLC. Producătorul a anunțat retragerea acestui tip începând cu 1 ianuarie 2025. Pentru măsurarea debitului alegem împreună tipul potrivit, în funcție de fluid și de conexiunea de proces.`
+        description: `Type 8400 este, conform documentației tehnice Bürkert, un detector de prag și transmițător pentru temperatură, cu afișaj mare, montaj prin înșurubare sau pe perete, cu ieșire 4-20 mA către PLC. Producătorul a anunțat retragerea acestui tip începând cu 1 ianuarie 2025. Pentru măsurarea debitului alegem împreună tipul potrivit, în funcție de fluid și de conexiunea de proces.`
       },
       {
         name: 'Type 8701 Mass Flow Meter',
-        description: `Type 8701 este, conform paginii oficiale Bürkert, un debitmetru masic (MFM) pentru gaze, cu senzor termic MEMS, cu domeniu nominal de la 0,010 până la 80 l/min și calibrare pentru două gaze, comutabile de utilizator. Producătorul a retras tipul începând cu 1 iulie 2025; succesorul indicat este Type 8741. Interfețele și variantele se confirmă pe cod, din fișa tehnică.`
+        description: `Type 8701 este, conform documentației tehnice Bürkert, un debitmetru masic (MFM) pentru gaze, cu senzor termic MEMS, cu domeniu nominal de la 0,010 până la 80 l/min și calibrare pentru două gaze, comutabile de utilizator. Producătorul a retras tipul începând cu 1 iulie 2025; succesorul indicat este Type 8741. Interfețele și variantele se confirmă pe cod, din fișa tehnică.`
       },
       {
         name: 'Type 8314 Pressure Transmitter',
-        description: `Type 8314 este, conform paginii oficiale Bürkert, un traductor de presiune OEM cu celulă de măsură ceramică, în execuție cu două fire. Producătorul l-a retras la 31 decembrie 2012, succesorul fiind Type 8316. Domeniile de presiune și variantele se confirmă pe cod, din fișa tehnică a succesorului.`
+        description: `Type 8314 este, conform documentației tehnice Bürkert, un traductor de presiune OEM cu celulă de măsură ceramică, în execuție cu două fire. Producătorul l-a retras la 31 decembrie 2012, succesorul fiind Type 8316. Domeniile de presiune și variantele se confirmă pe cod, din fișa tehnică a succesorului.`
       },
       {
         name: 'Type 8905 Analytical Controller',
-        description: `Type 8905 este, conform paginii oficiale Bürkert, un sistem online de analiză a apei, cu afișaj tactil integrat de 7 inch, modular, care poate măsura până la 8 parametri de calitate a apei (de exemplu pH, clor, conductivitate, potențial redox, turbiditate, temperatură). Alimentarea este de 20-30 V c.c. Configurația și senzorii se confirmă pe cod, din documentația producătorului.`
+        description: `Type 8905 este, conform documentației tehnice Bürkert, un sistem online de analiză a apei, cu afișaj tactil integrat de 7 inch, modular, care poate măsura până la 8 parametri de calitate a apei (de exemplu pH, clor, conductivitate, potențial redox, turbiditate, temperatură). Alimentarea este de 20-30 V c.c. Configurația și senzorii se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -845,25 +845,25 @@ Specificațiile și compatibilitatea componentelor se confirmă pe cod, din docu
       'Separatoare hidraulice - decuplarea circuitului primar de cel secundar',
       'Discaldirt separatoare - Deaeration + magnetic filtration într-o carcasă',
       'Vane de amestec - variante termostatice (MixCal, AngleMix) și digitale (LEGIOMIX evo)',
-      'Documentație tehnică - fișe tehnice publice pe site-ul producătorului',
-      'Fabricat în Italia - patru unități de producție în Italia, conform site-ului producătorului'
+      'Documentație tehnică - fișe tehnice publice în documentația producătorului',
+      'Fabricat în Italia - patru unități de producție în Italia, conform documentației producătorului'
     ],
     keyProducts: [
       {
         name: 'DISCAL Air Separators',
-        description: `DISCAL este, conform site-ului Caleffi, o gamă de separatoare de aer care folosesc tehnologia cu efect de coalescență pentru eliminarea aerului și a microbulelor dizolvate din instalațiile hidronice. Dimensiunile, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică a producătorului.`
+        description: `DISCAL este, conform documentației Caleffi, o gamă de separatoare de aer care folosesc tehnologia cu efect de coalescență pentru eliminarea aerului și a microbulelor dizolvate din instalațiile hidronice. Dimensiunile, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică a producătorului.`
       },
       {
         name: 'Hydraulic Separators',
-        description: `Separatoarele hidraulice Caleffi decuplează hidraulic circuitul primar de cel secundar în instalațiile de încălzire și răcire, conform site-ului producătorului. Debitele, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică oficială.`
+        description: `Separatoarele hidraulice Caleffi decuplează hidraulic circuitul primar de cel secundar în instalațiile de încălzire și răcire, conform documentației producătorului. Debitele, presiunile și racordurile fiecărui model se confirmă pe cod, din fișa tehnică oficială.`
       },
       {
         name: 'Discaldirt Magnetic Separator',
-        description: `Separatoarele DISCALDIRT tratează impuritățile și aerul din instalațiile hidronice, iar DISCALDIRTMAG adaugă separare magnetică pentru impuritățile feroase și neferoase, conform site-ului Caleffi. Valorile tehnice (câmp magnetic, eficiență de separare, racorduri, presiune) se confirmă pe cod, din fișa tehnică a producătorului.`
+        description: `Separatoarele DISCALDIRT tratează impuritățile și aerul din instalațiile hidronice, iar DISCALDIRTMAG adaugă separare magnetică pentru impuritățile feroase și neferoase, conform documentației Caleffi. Valorile tehnice (câmp magnetic, eficiență de separare, racorduri, presiune) se confirmă pe cod, din fișa tehnică a producătorului.`
       },
       {
         name: 'Mixing Valves',
-        description: `Caleffi oferă vane de amestec termostatice (de exemplu MixCal, AngleMix) și digitale (LEGIOMIX evo), conform site-ului producătorului. Seria, coeficientul Kvs, presiunea și temperatura maximă se confirmă pe cod, din fișa tehnică oficială.`
+        description: `Caleffi oferă vane de amestec termostatice (de exemplu MixCal, AngleMix) și digitale (LEGIOMIX evo), conform documentației producătorului. Seria, coeficientul Kvs, presiunea și temperatura maximă se confirmă pe cod, din fișa tehnică oficială.`
       }
     ],
     certifications: [
@@ -970,7 +970,7 @@ Specificațiile și compatibilitatea componentelor se confirmă pe cod, din docu
     faq: [
       {
         "q": "Ce înseamnă codul de serie de la Caleffi, de exemplu Seria 145?",
-        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Dimensiunea și tipul de racord se regăsesc în fișa tehnică a fiecărui produs. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică descărcată de pe site-ul Caleffi, împreună cu diametrul nominal necesar."
+        "a": "Codul de serie arată familia de produs și varianta constructivă din catalogul oficial al producătorului. Dimensiunea și tipul de racord se regăsesc în fișa tehnică a fiecărui produs. Pentru comenzi fără erori recomandăm transmiterea codului complet așa cum apare în fișa tehnică transmisă de dumneavoastră, împreună cu diametrul nominal necesar."
       },
       {
         "q": "Ce diferență este între Seria 536 și alte reductoare de presiune?",
@@ -978,7 +978,7 @@ Specificațiile și compatibilitatea componentelor se confirmă pe cod, din docu
       },
       {
         "q": "Livrați produse Caleffi în România la comandă?",
-        "a": "Da, aducem echipamente Caleffi la comandă pornind de la gama oficială a producătorului, fără să menținem un stoc propriu constituit în avans. Lucrăm după fișele tehnice publice ale Caleffi și după cererea dumneavoastră de ofertă, iar termenul obișnuit este 1–4 săptămâni la comandă, în funcție de disponibilitatea din rețeaua de distribuție a producătorului. Recomandăm includerea codului de serie exact și a cantității în solicitare."
+        "a": "Da, aducem echipamente Caleffi la comandă pornind de la gama oficială a producătorului, fără să menținem un stoc propriu constituit în avans. Lucrăm după fișele tehnice publice ale Caleffi și după cererea dumneavoastră de ofertă, iar termenul obișnuit este 1–4 săptămâni la comandă, în funcție de disponibilitatea la canalele noastre de aprovizionare din UE. Recomandăm includerea codului de serie exact și a cantității în solicitare."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă pentru un separator hidraulic Caleffi?",
@@ -1150,25 +1150,25 @@ Variantele personalizate (cursă, montaj, senzori) se confirmă în ofertă, pe 
     employees: '47000',
     overview: `Carrier este creditat cu inventarea aerului condiționat modern în 1902 și produce, de atunci, soluții HVAC comerciale și industriale la nivel global - de la data centers și spitale până la aeroporturi și fabrici.
 
-Gama Carrier de răcitoare (chillere) include modele răcite cu apă (centrifugale, cu șurub și scroll) și răcite cu aer (scroll AquaSnap, cu șurub AquaForce), conform site-ului producătorului. Carrier produce răcitoare centrifugale semi-ermetice 19XR, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B; lagărele magnetice fără ulei sunt menționate de producător la modelul 19MV, nu la 19XR.
+Gama Carrier de răcitoare (chillere) include modele răcite cu apă (centrifugale, cu șurub și scroll) și răcite cu aer (scroll AquaSnap, cu șurub AquaForce), conform documentației producătorului. Carrier produce răcitoare centrifugale semi-ermetice 19XR, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B; lagărele magnetice fără ulei sunt menționate de producător la modelul 19MV, nu la 19XR.
 
 Datele de eficiență energetică, de mentenanță și de service se confirmă pe model, din documentația oficială Carrier.`,
     keyProducts: [
       {
         name: '19XR Semi-Hermetic Centrifugal Chiller',
-        description: `19XR este un răcitor centrifugal semi-ermetic, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B, conform paginii oficiale Carrier a răcitoarelor răcite cu apă. Eficiența, nivelul de zgomot și certificările depind de configurație și se confirmă pe cod, din documentația producătorului.`
+        description: `19XR este un răcitor centrifugal semi-ermetic, cu capacități de 300-3.400 tone (1.055-11.957 kW) și agenți frigorifici R-513A sau R-515B, conform documentației tehnice Carrier. Eficiența, nivelul de zgomot și certificările depind de configurație și se confirmă pe cod, din documentația producătorului.`
       },
       {
         name: '39M',
-        description: `Datele despre seria 39M nu au putut fi confirmate pe site-ul oficial Carrier; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
+        description: `Datele despre seria 39M nu au putut fi confirmate din documentația producătorului; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
       },
       {
         name: '40RU',
-        description: `Datele despre seria 40RU (capacități, compresoare, încălzire, garanție) nu au putut fi confirmate pe site-ul oficial Carrier; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
+        description: `Datele despre seria 40RU (capacități, compresoare, încălzire, garanție) nu au putut fi confirmate din documentația producătorului; le confirmăm pe cod, din documentația producătorului, înainte de ofertă.`
       },
       {
         name: 'AquaSnap Air-Cooled Chiller',
-        description: `AquaSnap este o serie de răcitoare răcite cu aer, cu compresoare scroll; conform site-ului Carrier, capacitățile sunt de 10-300 tone (35-1.050 kW), cu agent frigorific R-410A sau, la unele modele, R-32. Opțiunile (modul hidraulic, atenuare acustică, free-cooling) și datele de eficiență se confirmă pe cod, din documentația producătorului.`
+        description: `AquaSnap este o serie de răcitoare răcite cu aer, cu compresoare scroll; conform documentației Carrier, capacitățile sunt de 10-300 tone (35-1.050 kW), cu agent frigorific R-410A sau, la unele modele, R-32. Opțiunile (modul hidraulic, atenuare acustică, free-cooling) și datele de eficiență se confirmă pe cod, din documentația producătorului.`
       }
     ],
     certifications: [
@@ -1198,7 +1198,7 @@ Datele de eficiență energetică, de mentenanță și de service se confirmă p
       '30HX - răcitor cu șurub răcit cu apă, 75-265 tone',
       'i-Vu - platformă de control Carrier; funcțiile se confirmă din documentație',
       'SmartVu - soluție Carrier; funcțiile se confirmă din documentație',
-      'R-515B - agent frigorific folosit la modele precum 19MV și 19XR, conform site-ului Carrier'
+      'R-515B - agent frigorific folosit la modele precum 19MV și 19XR, conform documentației Carrier'
     ],
     infinitrade: `Echipamentele Carrier - chillere, unități rooftop, AHU - sunt de regulă proiecte cu configurație individuală, nu articole de stoc; nu avem date proprii de disponibilitate pentru fiecare model. Aducem echipamentele prin canale de aprovizionare din Uniunea Europeană; pentru chillere și unități mari termenul depășește, de regulă, 4 săptămâni, iar pe piesele de schimb uzuale putem asigura, uneori, 24–72 h din stoc. Trimiteți-ne capacitatea necesară, tipul de aplicație și condițiile locului de montaj, ca să pregătim o selecție tehnică potrivită. La sisteme mari, termenul final se confirmă direct cu producătorul, după validarea configurației.`,
     limitation: 'Nu putem confirma disponibilitatea a echipamentelor sau pieselor critice și nici commissioning direct de tehnicieni Carrier fără contract separat.',
@@ -1279,7 +1279,7 @@ Datele de eficiență energetică, de mentenanță și de service se confirmă p
     employees: '7000+',
     overview: `Castrol (parte a grupului BP din 2000) produce lubrifianți industriali și automotive de peste 125 de ani - de la uleiurile minerale clasice până la fluide sintetice high-performance pentru aplicații extreme. Producătorul are fabrici la nivel global și acoperă industrii precum automotive (uleiuri motor, transmisii), metalworking (emulsii de tăiere, uleiuri întregi), hidraulică (fluide HLP, HFC, HFD) și transmisii industriale (uleiuri EP, sintetice PAO/PAG).
 
-Printre produsele producătorului se numără gama Castrol Hysol, fluide de așchiere solubile pentru prelucrarea metalelor feroase, formulate cu aditivi rezistenți la contaminare, conform site-ului producătorului.
+Printre produsele producătorului se numără gama Castrol Hysol, fluide de așchiere solubile pentru prelucrarea metalelor feroase, formulate cu aditivi rezistenți la contaminare, conform documentației producătorului.
 
 Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe produs, din documentația oficială Castrol.`,
     whyChoose: [
@@ -1293,19 +1293,19 @@ Produsele și serviciile asociate (de exemplu analiza uleiului) se confirmă pe 
     keyProducts: [
       {
         name: 'Hysol Soluble Metalworking Fluids',
-        description: `Castrol Hysol este o gamă de fluide de așchiere solubile pentru prelucrarea metalelor feroase; printre variante se numără Hysol XP 60, Hysol 33 FF (descris ca fluid semi-sintetic de înaltă performanță), Hysol 11 FF și Hysol MB 50, conform site-ului producătorului. Concentrația de lucru, valoarea pH și durata de viață a emulsiei depind de produs și se confirmă din fișa tehnică oficială.`
+        description: `Castrol Hysol este o gamă de fluide de așchiere solubile pentru prelucrarea metalelor feroase; printre variante se numără Hysol XP 60, Hysol 33 FF (descris ca fluid semi-sintetic de înaltă performanță), Hysol 11 FF și Hysol MB 50, conform documentației producătorului. Concentrația de lucru, valoarea pH și durata de viață a emulsiei depind de produs și se confirmă din fișa tehnică oficială.`
       },
       {
         name: 'Molub-Alloy Greases, Oils and Pastes',
-        description: `Gama Castrol Molub-Alloy cuprinde unsori, uleiuri și paste care conțin solide microscopice, ce absorb sarcinile mari și cele de șoc și separă suprafețele aflate în frecare, pentru industrii grele și temperaturi ridicate, conform site-ului producătorului. Produsele exacte, temperaturile de lucru și clasa NLGI se confirmă din fișa tehnică oficială.`
+        description: `Gama Castrol Molub-Alloy cuprinde unsori, uleiuri și paste care conțin solide microscopice, ce absorb sarcinile mari și cele de șoc și separă suprafețele aflate în frecare, pentru industrii grele și temperaturi ridicate, conform documentației producătorului. Produsele exacte, temperaturile de lucru și clasa NLGI se confirmă din fișa tehnică oficială.`
       },
       {
         name: 'Optigear Gear Oils',
-        description: `Castrol Optigear este o gamă de uleiuri de transmisie care, conform site-ului producătorului, folosește tehnologia MTF (plastic deformation) pentru a reduce coeficientul de frecare cu până la 60% față de uleiurile standard pentru angrenaje, cu aplicații în generarea de energie și în fabrici. Gradele de vâscozitate se aleg după recomandarea producătorului utilajului și se confirmă din fișa tehnică.`
+        description: `Castrol Optigear este o gamă de uleiuri de transmisie care, conform documentației producătorului, folosește tehnologia MTF (plastic deformation) pentru a reduce coeficientul de frecare cu până la 60% față de uleiurile standard pentru angrenaje, cu aplicații în generarea de energie și în fabrici. Gradele de vâscozitate se aleg după recomandarea producătorului utilajului și se confirmă din fișa tehnică.`
       },
       {
         name: 'Tribol Industrial Lubricants',
-        description: `Castrol Tribol este o gamă de lubrifianți industriali formulați pentru a prelungi durata de funcționare a utilajelor, adaptându-se condițiilor de lucru variabile, conform site-ului producătorului. Produsele și gradele de vâscozitate se confirmă din fișa tehnică oficială.`
+        description: `Castrol Tribol este o gamă de lubrifianți industriali formulați pentru a prelungi durata de funcționare a utilajelor, adaptându-se condițiilor de lucru variabile, conform documentației producătorului. Produsele și gradele de vâscozitate se confirmă din fișa tehnică oficială.`
       }
     ],
     certifications: [

@@ -160,7 +160,7 @@ Pentru integratorii și producătorii din România, gama Basler are sens acolo u
       "Electronice — inspecție plăci și componente de mici dimensiuni",
       "Robotică — ghidare vizuală pentru brațe robotizate"
     ],
-    infinitrade: `Furnizăm camere Basler pornind de la informațiile publice disponibile pe site-ul producătorului, fără date proprii de stoc pentru vreo serie anume. Aducem camerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de model și interfață solicitată. Pentru ofertă avem nevoie de aplicația de vision (inspecție, sortare, măsurare 3D), interfața dorită și rezoluția necesară. Nu ținem această gamă pe raft.`,
+    infinitrade: `Furnizăm camere Basler pornind de la documentația tehnică a producătorului, fără date proprii de stoc pentru vreo serie anume. Aducem camerele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni în funcție de model și interfață solicitată. Pentru ofertă avem nevoie de aplicația de vision (inspecție, sortare, măsurare 3D), interfața dorită și rezoluția necesară. Nu ținem această gamă pe raft.`,
     limitation: "Nu putem confirma integrarea camerei într-un sistem de vision complet (obiectiv, iluminare, software) fără o discuție tehnică prealabilă cu clientul.",
     productCodes: [
       { code: "ace", description: "Cameră area scan, raport preț-performanță echilibrat" },
@@ -425,7 +425,7 @@ Pentru clienții din România, gama Nuova Fima are sens la citirea presiunii pe 
       "Industrie alimentară și farmaceutică — manometre sanitare pentru linii de proces"
     ],
     infinitrade: `Aducem manometre și pressostate Nuova Fima pe baza cataloagelor publice ale producătorului, fără informații proprii despre stocul disponibil pentru fiecare gamă de presiune. Livrarea se face la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; pentru manometrele standard cu tub Bourdon deja circulate în distribuție, termenul poate coborî la 24–72 h, confirmat separat la comandă. Pentru ofertă avem nevoie de plaja de presiune, tipul de fluid (inclusiv dacă e coroziv sau necesită certificare sanitară) și diametrul cadranului dorit. Nu ținem această gamă pe raft pentru toate variantele disponibile.`,
-    limitation: "Nu putem confirma disponibilitatea unei game complete de piese de schimb sau calibrare on-site fără o cerere tehnică prealabilă transmisă producătorului.",
+    limitation: "Nu putem confirma disponibilitatea unei game complete de piese de schimb sau calibrare on-site fără o cerere tehnică prealabilă verificată de noi în documentația producătorului.",
     productCodes: [
       { code: "MSG 22", description: "Manometru înaltă presiune, 2.000-4.000 bar" },
       { code: "MGS 32", description: "Manometru înaltă presiune, cadran 4,5 inch" },

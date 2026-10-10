@@ -156,7 +156,7 @@ Pentru instalațiile din România, reductoarele SITI sunt potrivite pentru linii
       "Ceramică — reductoare pentru liniile de producție a plăcilor ceramice"
     ],
     certifications: ["ISO 9001:2015 — management al calității", "ATEX 2014/34/UE — echipamente pentru zone cu risc de explozie"],
-    infinitrade: `Ce știm despre SITI vine din informațiile publice disponibile pe site-ul producătorului italian, iar ce nu apare acolo nu inventăm în ofertă. Aducem reductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de reductor căutat — melc, roți dințate sau epicicloidal — raportul de transmisie dorit și, dacă e vorba de o înlocuire, plăcuța tehnică a unității existente. Nu ținem disponibilitate permanentă din stoc din nicio serie SITI — fiecare cerere se verifică individual cu furnizorul înainte de confirmare.`,
+    infinitrade: `Ce știm despre SITI vine din documentația tehnică a producătorului, iar ce nu apare acolo nu inventăm în ofertă. Aducem reductoarele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni de la confirmare. Pentru o ofertă precisă trimiteți-ne tipul de reductor căutat — melc, roți dințate sau epicicloidal — raportul de transmisie dorit și, dacă e vorba de o înlocuire, plăcuța tehnică a unității existente. Nu ținem disponibilitate permanentă din stoc din nicio serie SITI — fiecare cerere se verifică individual cu furnizorul înainte de confirmare.`,
     limitation: "Nu putem confirma termene de livrare pentru configurații speciale de reductoare (rapoarte non-standard sau flanșe personalizate), care depind direct de fabrica din Italia.",
     productCodes: [
       {
@@ -987,7 +987,7 @@ Pentru piața din România, echipamentele Andritz sunt relevante la proiecte de 
       },
       {
         "q": "Livrați pompe Andritz în România?",
-        "a": "Da, comandăm pompele Andritz direct la producător pentru fiecare client, întrucât gama nu se regăsește pe stocul nostru curent. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Pentru sistemele proiectate la comandă, termenul se stabilește punctual. Este util să precizați debitul, înălțimea de pompare și tipul de lichid vehiculat pentru identificarea variantei potrivite."
+        "a": "Da, comandăm pompele Andritz din fabrică, la comandă, pentru fiecare client, întrucât gama nu se regăsește pe stocul nostru curent. Termenul orientativ este de 1–4 săptămâni de la confirmarea comenzii. Pentru sistemele proiectate la comandă, termenul se stabilește punctual. Este util să precizați debitul, înălțimea de pompare și tipul de lichid vehiculat pentru identificarea variantei potrivite."
       },
       {
         "q": "Ce trebuie să comunic pentru o ofertă de pompă centrifugală Andritz?",
@@ -1293,7 +1293,7 @@ Pentru fabricile din România cu utilaje rotative critice — mori, compresoare,
       "Marină și offshore — monitorizarea stării echipamentelor rotative de la bordul navelor"
     ],
     infinitrade: `Nu putem confirma stoc propriu pentru sistemele SPM Instrument; ce știm vine din informațiile publice disponibile ale producătorului suedez. Sistemele SPM Instrument le aducem la comandă prin canale de aprovizionare din UE, cu un termen orientativ de 1–4 săptămâni după confirmare. Pentru o ofertă corectă avem nevoie de tipul de utilaj monitorizat, numărul de puncte de măsură vizate și dacă se dorește o soluție portabilă sau un sistem instalat permanent. Nu promitem disponibilitate imediată pentru sistemele online complexe, care se configurează după cerințele fiecărei instalații.`,
-    limitation: "Nu putem confirma configurarea software și integrarea sistemelor online SPM Instrument cu alte platforme de mentenanță — aceasta necesită suport tehnic direct de la producător.",
+    limitation: "Nu putem confirma configurarea software și integrarea sistemelor online SPM Instrument cu alte platforme de mentenanță — aceasta necesită suport tehnic de specialitate, pe care îl obținem la cerere.",
     productCodes: [
       {
         "code": "Leonova Diamond",

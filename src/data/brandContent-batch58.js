@@ -98,7 +98,7 @@ Pentru operatorii de apă și constructorii de rețele din România, Hawle înse
       "Industrie — armături pentru rețele de apă de proces la platforme industriale"
     ],
     infinitrade: `Furnizăm armături Hawle pentru rețele de apă la comandă, prin canale de aprovizionare din Uniunea Europeană; ce putem și ce nu putem confirma ține de disponibilitatea la partenerul de distribuție, nu de un stoc propriu. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de referință și de confirmarea distribuitorului. Pentru o ofertă exactă, clientul trebuie să ne transmită diametrul conductei, materialul acesteia (PEHD, fontă, oțel) și tipul de racord dorit — filetat, cu flanșă sau cu mufă. Nu promitem disponibilitate din depozit pentru fiecare cod din portofoliul de aproximativ 13.000 de coduri de produs.`,
-    limitation: "Nu putem confirma disponibilitate imediată pentru fiecare cod din portofoliul Hawle și nu configurăm sistemul de monitorizare Hawle.live fără suport direct de la producător.",
+    limitation: "Nu putem confirma disponibilitate imediată pentru fiecare cod din portofoliul Hawle și nu configurăm sistemul de monitorizare Hawle.live fără suportul producătorului.",
     productCodes: [
       { code: "2500", description: "Robinet de serviciu cu filet interior" },
       { code: "2810", description: "Robinet ZAK cu ieșire ISO" },
@@ -223,7 +223,7 @@ Pentru instalatorii și proiectanții din România, Watts înseamnă acces la br
       "Infrastructură exterioară — topire a zăpezii pe rampe și trotuare cu SunTouch",
       "Instalații de irigații — prevenitoare de reflux pentru protecția rețelei publice"
     ],
-    infinitrade: `Lucrăm cu gama Watts prin canale de aprovizionare din Uniunea Europeană, cu informațiile publice disponibile pe site-urile mărcilor din grup (Watts, AERCO, FEBCO, BLÜCHER), fără date proprii despre stocul fiecărei fabrici. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de brand și de disponibilitatea la partenerii europeni. Pentru o ofertă corectă, clientul trebuie să ne transmită brandul și seria exactă, diametrul racordului și aplicația (plumbing, prevenire reflux, drenaj sau HVAC). Nu promitem disponibilitate din depozit pentru fiecare referință din portofoliul de branduri Watts.`,
+    infinitrade: `Lucrăm cu gama Watts prin canale de aprovizionare din Uniunea Europeană, cu documentația tehnică a mărcilor din grup (Watts, AERCO, FEBCO, BLÜCHER), fără date proprii despre stocul fiecărei fabrici. Termenul orientativ pentru o comandă este de 1–4 săptămâni, în funcție de brand și de disponibilitatea la partenerii europeni. Pentru o ofertă corectă, clientul trebuie să ne transmită brandul și seria exactă, diametrul racordului și aplicația (plumbing, prevenire reflux, drenaj sau HVAC). Nu promitem disponibilitate din depozit pentru fiecare referință din portofoliul de branduri Watts.`,
     limitation: "Nu putem confirma disponibilitate pentru fiecare brand din portofoliul Watts (AERCO, BLÜCHER, FEBCO, tekmar, SunTouch) și nu oferim configurare software pentru sistemele de control tekmar.",
     productCodes: [
       { code: "Intelliflow", description: "Serie Watts pentru plumbing; detaliile se confirmă pe cod" },
@@ -236,7 +236,7 @@ Pentru instalatorii și proiectanții din România, Watts înseamnă acces la br
       { code: "tekmar", description: "Sisteme de control pentru încălzire și energie regenerabilă" },
       { code: "SunTouch", description: "Sisteme electrice de încălzire și topire a zăpezii" },
       { code: "Lync", description: "Sisteme de încălzire a apei și pompe de căldură" },
-      { code: "Selexit", description: "Configurator online pentru selecția produselor Watts" }
+      { code: "Selexit", description: "Instrument de selecție a produselor Watts" }
     ],
     faq: [
       { q: "Ce produce Watts?", a: "Watts este un grup american de tehnologii pentru apă, cu branduri specializate pe plumbing, prevenirea refluxului, tratarea calității apei, drenaj și echipamente HVAC/apă caldă, printre care AERCO, FEBCO și BLÜCHER." },

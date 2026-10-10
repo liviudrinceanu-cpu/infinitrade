@@ -93,7 +93,7 @@ Pentru un integrator sau un producător de echipamente din România, Camloc are 
       "Semnalistică și brațe pentru monitoare — susținere cu arcuri cu gaz"
     ],
     infinitrade: `Spunem clar ce putem și ce nu putem confirma despre gama Camloc înainte de a trimite o ofertă: aducem arcurile și amortizoarele prin canale de aprovizionare din UE, la comandă, cu termen orientativ de 1–4 săptămâni. Pentru o ofertă corectă avem nevoie de greutatea panoului, unghiul de deschidere, distanța dintre punctele de prindere și, dacă e cazul, mediul de lucru (umiditate, spălare). Nu ținem o gamă completă pe stoc și nu promitem disponibilitate permanentă pentru fiecare cod — fiecare comandă se confirmă cu furnizorul înainte de termenul final. Pentru aplicații critice de siguranță recomandăm verificarea calculului de forță împreună cu departamentul tehnic al clientului.`,
-    limitation: "Nu putem confirma valorile exacte de forță (N) pentru fiecare cod fără fișa tehnică solicitată direct de la producător.",
+    limitation: "Nu putem confirma valorile exacte de forță (N) pentru fiecare cod fără fișa tehnică a codului respectiv.",
     productCodes: [
       { code: "Swift & Sure", description: "Arc cu gaz cu forță fixă, gamă largă de dimensiuni" },
       { code: "Econoloc", description: "Arc cu gaz cu blocare automată la extensie completă" },
@@ -490,7 +490,7 @@ Pentru instalații din România — cariere, mine, fabrici de ciment sau linii d
       "Agricultură — benzi pentru prese de balotat și utilaje de recoltat",
       "Chimie — benzi rezistente la produse chimice, precum Ferroflex"
     ],
-    infinitrade: `Aducem benzi Fenner Dunlop la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de lățime, lungime și tipul de întăritură cerut. Fără date proprii de stoc pentru această gamă, ne bazăm pe confirmarea disponibilității direct de la producător pentru fiecare comandă. Pentru o ofertă corectă avem nevoie de lățimea benzii, tipul de material transportat, unghiul de înclinare al transportorului și, dacă e cazul, cerințe speciale de temperatură sau rezistență chimică. Nu promitem o gamă completă disponibilă permanent — fiecare configurație se verifică punctual înainte de a stabili termenul final cu clientul.`,
+    infinitrade: `Aducem benzi Fenner Dunlop la comandă, prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni, în funcție de lățime, lungime și tipul de întăritură cerut. Fără date proprii de stoc pentru această gamă, confirmăm disponibilitatea din fabrică pentru fiecare comandă. Pentru o ofertă corectă avem nevoie de lățimea benzii, tipul de material transportat, unghiul de înclinare al transportorului și, dacă e cazul, cerințe speciale de temperatură sau rezistență chimică. Nu promitem o gamă completă disponibilă permanent — fiecare configurație se verifică punctual înainte de a stabili termenul final cu clientul.`,
     limitation: "Nu putem confirma clasa exactă de rezistență la sfâșiere sau tensiunea de rupere pentru o bandă anume fără fișa tehnică cerută producătorului.",
     productCodes: [
       { code: "Superfort", description: "Bandă multiply de uz general, durabilitate ridicată" },

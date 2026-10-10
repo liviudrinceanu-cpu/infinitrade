@@ -16,7 +16,7 @@ Pentru instalațiile din România, gama Jakob are sens la utilajele unde cuplaju
       "Variante de siguranță KSD/KSS cu limitator de cuplu, utile la protejarea transmisiei în caz de blocaj",
       "Gamă de elemente de strângere mecanică pentru fixarea pieselor pe mașini-unelte CNC",
       "Componente pentru tehnică de vid — flanșe KF, ISO-K și CF, plus accesorii pentru pompe de vid",
-      "Producție germană continuă din 1971, cu instrument online Coupling Finder pentru selecția rapidă a cuplajului"
+      "Producție germană continuă din 1971, cu selecție rapidă a cuplajului pe baza datelor aplicației"
     ],
     keyProducts: [
       { name: "Cuplaje cu Burduf Metalic Seria KM/KP/KR", description: "Cuplaje standard cu burduf metalic pentru transmisii de precizie, cu cuplu între 20 și 1500 Nm și diametre de ax de la 8 la 85 mm, în funcție de serie. Seria KM acoperă gama de bază, KP oferă o construcție mai compactă, iar KR e destinată cuplurilor mai mari la același diametru de ax. Recomandate la servomotoare și transmisii unde dezalinierea axului trebuie compensată fără joc unghiular." },
@@ -324,7 +324,7 @@ Pentru instalațiile din România, gama Nook Industries are sens la mesele de po
       "ISO 9001 — management al calității",
       "AS9100 — standard de calitate pentru aerospațial"
     ],
-    infinitrade: `Furnizăm sisteme de mișcare liniară Nook Industries la comandă, cu aprovizionare din canale nord-americane și europene, termen orientativ 1–4 săptămâni în funcție de configurație. Ne bazăm pe surse publice ale producătorului pentru descrierea gamei și a parametrilor tehnici, fără date proprii de stoc pentru aceste componente. Pentru ofertă trimiteți cursa necesară, sarcina axială, viteza de deplasare și tipul de montaj — șurub cu bile, cric sau actuator electric. Nu putem oferi o garanție de disponibilitate imediată pentru un model anume, fiecare configurație fiind confirmată direct la producător.`,
+    infinitrade: `Furnizăm sisteme de mișcare liniară Nook Industries la comandă, cu aprovizionare din canale nord-americane și europene, termen orientativ 1–4 săptămâni în funcție de configurație. Ne bazăm pe surse publice ale producătorului pentru descrierea gamei și a parametrilor tehnici, fără date proprii de stoc pentru aceste componente. Pentru ofertă trimiteți cursa necesară, sarcina axială, viteza de deplasare și tipul de montaj — șurub cu bile, cric sau actuator electric. Nu putem oferi o garanție de disponibilitate imediată pentru un model anume, fiecare configurație fiind confirmată din fabrică.`,
     limitation: "Nu putem confirma compatibilitatea directă a unui actuator liniar electric cu un sistem de control existent fără specificațiile electrice complete ale instalației.",
     productCodes: [
       { code: "Ball Screws", description: "Șurub cu bile standard pentru mișcare liniară de precizie" },
