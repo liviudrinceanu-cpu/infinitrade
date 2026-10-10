@@ -621,34 +621,9 @@ export default function BrandPageClient({ brand, primaryDuplicate = null, relate
           </div>
         </section>
 
-        {/* B-13 - De unde sunt datele din pagină? - requires sources[]
-            (F3-03: sources: [{ title, url, publisher, accessed }], see the
-            data contract atop src/data/brandContent.js). Rendering nothing
-            when the array is empty/absent is deliberate: an empty sources
-            section is exactly the class-contract failure §A3 wants surfaced,
-            not something this item should paper over. A visible ordered
-            list, not cards - each item links the manufacturer/standards-body
-            page directly, `rel="nofollow noopener"`, with its accessed date
-            (heading-phrasings.md B-13). */}
-        {Array.isArray(brandContent?.sources) && brandContent.sources.length > 0 && (
-          <section className={styles.aboutSection}>
-            <div className={styles.container}>
-              <h2 className={styles.richSectionTitle}>De unde sunt datele din pagină?</h2>
-              <p className={styles.sectionLead}>
-                Pagina se bazează pe {brandContent.sources.length} surse verificate.
-              </p>
-              <ol className={styles.serviceList}>
-                {brandContent.sources.map((src, i) => (
-                  <li key={i}>
-                    <a href={src.url} rel="nofollow noopener" target="_blank">{src.title}</a>
-                    {src.publisher && <> — {src.publisher}</>}
-                    {src.accessed && <>, accesat {src.accessed}</>}
-                  </li>
-                ))}
-              </ol>
-            </div>
-          </section>
-        )}
+        {/* B-13 scos (v54, decizie proprietar 10.10.2026): fără linkuri spre
+            producători — clientul cere oferta la noi, nu direct la fabrică.
+            sources[] rămâne în date pentru verificări interne (G5, fact-check). */}
 
         {/* B-14 - Ce s-a schimbat pe pagina <Brand>? + "Actualizat: <dată>".
             F3-03: `changelog` is `[{ date, note }]` (data contract atop

@@ -11,6 +11,7 @@ import { Calendar, Clock, User, ArrowLeft, Tag, Share2 } from 'lucide-react';
 import { safeJsonLd } from '@/lib/utils';
 import { sanitizeContentHtml } from '@/lib/sanitize';
 import styles from './article.module.css';
+import { isNeutralPublicUrl } from '@/lib/externalLinks';
 
 export const revalidate = 3600;
 
@@ -374,22 +375,24 @@ export default async function BlogArticlePage({ params }) {
               {renderContent(article.content)}
             </div>
 
-            {/* D-2026-09-23: comparative guides cite the manufacturer pages they
-                were written from (same sources[] contract as brand pages). */}
-            {Array.isArray(article.sources) && article.sources.length > 0 && (
-              <section className={styles.content} aria-labelledby="surse-heading">
-                <h2 id="surse-heading">De unde sunt datele din acest ghid?</h2>
-                <p>Informațiile provin din paginile publice ale producătorilor, citite la data indicată. Nu conțin prețuri sau date de stoc.</p>
-                <ul>
-                  {article.sources.map((src, i) => (
-                    <li key={i}>
-                      <a href={src.url} target="_blank" rel="noopener noreferrer nofollow">{src.title}</a>
-                      {' '}— {src.publisher}, accesat {src.accessed}
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
+            {/* v54: doar sursele publice neutre (legislație, autorități); paginile
+                producătorilor nu se mai afișează ca linkuri (decizie proprietar). */}
+            {(() => {
+              const publicSources = (article.sources || []).filter((src) => isNeutralPublicUrl(src.url));
+              return publicSources.length > 0 && (
+                <section className={styles.content} aria-labelledby="surse-heading">
+                  <h2 id="surse-heading">Ce legislație citează acest ghid?</h2>
+                  <ul>
+                    {publicSources.map((src, i) => (
+                      <li key={i}>
+                        <a href={src.url} target="_blank" rel="noopener noreferrer nofollow">{src.title}</a>
+                        {' '}— {src.publisher}, accesat {src.accessed}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              );
+            })()}
 
             <footer className={styles.footer}>
               <div className={styles.tags}>
