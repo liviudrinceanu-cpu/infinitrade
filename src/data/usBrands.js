@@ -50,9 +50,9 @@ export const US_INDUSTRIES = [
 const INDUSTRY_BY_KEY = Object.fromEntries(US_INDUSTRIES.flatMap((i) => i.keys.map((k) => [k, i.slug])));
 
 export const EU_AVAILABILITY_LABEL = {
-  usoara: 'filială sau distribuție în Europa',
-  medie: 'câțiva distribuitori în Europa',
-  dificila: 'greu de găsit în Europa — import la comandă',
+  usoara: 'aprovizionare prin canale UE',
+  medie: 'aprovizionare la comandă, termen în ofertă',
+  dificila: 'greu de găsit în Europa — import direct la comandă',
 };
 
 // Every US brand on the site, with the extra fields of the US wave when present.

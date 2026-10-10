@@ -74,7 +74,7 @@ export const series = [
       },
       {
         "q": "Ce nu putem confirma pentru această serie?",
-        "a": "Nu confirmăm din surse proprii dacă un cod DHI mai vechi este încă fabricat identic; producătorul indică pe site propriu că seria este în fază de retragere din 2022, în favoarea gamelor DHL și DHE."
+        "a": "Nu confirmăm din surse proprii dacă un cod DHI mai vechi este încă fabricat identic; documentația producătorului indică seria ca fiind în fază de retragere din 2022, în favoarea gamelor DHL și DHE."
       }
     ],
     "limitation": "Nu confirmăm disponibilitatea exactă a unui cod DHI aflat în fază de retragere; verificăm de fiecare dată în documentația curentă a producătorului dacă există un echivalent din gama DHL sau DHE.",

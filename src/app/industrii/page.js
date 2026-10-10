@@ -6,6 +6,7 @@ import { industries } from '@/data/industries';
 import { safeJsonLd } from '@/lib/utils';
 import { ArrowRight, Factory } from 'lucide-react';
 import styles from './industrii.module.css';
+import { deNum } from '@/lib/ro';
 
 export const metadata = {
   title: 'Industrii Deservite | Furnizor SEAP',
@@ -156,7 +157,7 @@ export default function IndustriiPage() {
                     <h2>{industry.name}</h2>
                   </div>
                   <p className={styles.cardDescription}>
-                    {((t, n) => (t.length <= n ? t : t.slice(0, n).replace(/[\s,;:–-]+\S*$/, '').replace(/[\s,;:–-]+$/, '') + '…'))(industry.heroDescription, 150)}
+                    {industry.heroDescription}
                   </p>
                   <div className={styles.cardApplications}>
                     {industry.applications.slice(0, 3).map((app) => (
@@ -164,8 +165,8 @@ export default function IndustriiPage() {
                     ))}
                   </div>
                   <div className={styles.cardStats}>
-                    <span>{industry.equipment.length} tipuri de echipamente</span>
-                    <span>{industry.brands.length} branduri</span>
+                    <span>{industry.equipment.length} {deNum(industry.equipment.length)}tipuri de echipamente</span>
+                    <span>{industry.brands.length} {deNum(industry.brands.length)}branduri</span>
                   </div>
                   <div className={styles.cardFooter}>
                     <span>Vedeți detalii</span>

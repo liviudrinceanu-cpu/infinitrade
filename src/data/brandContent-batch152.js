@@ -167,7 +167,7 @@ Pentru piața din România, TESCOM are sens la laboratoare de analiză, la staț
       "ATEX — pe modelele destinate zonelor cu risc de explozie, precum valva RC-X",
     ],
     infinitrade: `Pentru TESCOM ne bazăm pe fișele tehnice Emerson; nu avem date proprii de stoc pentru această gamă. Regulatoarele și valvele TESCOM ajung la noi la comandă, prin canalele noastre de aprovizionare; nu ținem această gamă pe raft, ci o aducem la comandă, într-un interval orientativ de 1–4 săptămâni. Pentru ofertă avem nevoie de codul exact al seriei — 10-X, 44-2200 sau RC-X, de exemplu —, de presiunile de intrare și ieșire dorite și de materialul compatibil cu fluidul controlat. Nu promitem un termen mai scurt decât cel orientativ și verificăm disponibilitatea reală înainte de confirmarea comenzii.`,
-    limitation: "Nu putem confirma configurarea software sau calibrarea specializată a valvelor TESCOM la fața locului, în afara documentației publice a producătorului.",
+    limitation: "Nu putem confirma configurarea software sau calibrarea specializată a valvelor TESCOM la fața locului, în afara documentației tehnice a producătorului.",
     productCodes: [
       { code: "RC-X", description: "valvă motorizată de control al debitului la injecție chimică" },
       { code: "10-X", description: "regulator miniatural de înaltă puritate, presiune intrare max. 150 psig" },

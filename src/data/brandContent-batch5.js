@@ -259,7 +259,7 @@ Tablourile System pro E power modular permit configurații flexibile - se pot re
       },
       {
         "q": "Livrați disjunctoare ABB în România?",
-        "a": "Da, aducem la comandă disjunctoare ABB pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de curentul nominal și de accesoriile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă disjunctoare ABB pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de curentul nominal și de accesoriile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de disjunctor ABB?",
@@ -435,7 +435,7 @@ Gama Airtac acoperă o ofertă foarte largă de componente: cilindri ISO, compac
       'Gamă: cilindri, valve, FRL, racorduri, actuatoare',
       'Durata de viață depinde de serie și de condițiile de lucru; valorile se confirmă din fișa tehnică Airtac',
       'Declarațiile de conformitate (CE, RoHS, REACH) se confirmă pe cod, din documentația Airtac',
-      'Gamă largă disponibilă prin canale de distribuție din UE, cu termene diferite în funcție de model',
+      'Gamă largă disponibilă prin canale de aprovizionare din UE, cu termene diferite în funcție de model',
     ],
     keyProducts: [
       {
@@ -701,7 +701,7 @@ Anderson-Negele oferă și elemente de conectare igienică: racordul fără spa�
       },
       {
         "q": "Livrați senzori Anderson-Negele în România?",
-        "a": "Da, aducem senzori Anderson-Negele la comandă, conform paginilor publice de produs ale producătorului, fără date proprii despre stocul disponibil. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și de opțiunile de conexiune de proces solicitate. Recomandăm confirmarea codului exact înainte de a trimite comanda fermă către noi."
+        "a": "Da, aducem senzori Anderson-Negele la comandă, conform documentației tehnice a producătorului, fără date proprii despre stocul disponibil. Termenul obișnuit este de 1–4 săptămâni, în funcție de model și de opțiunile de conexiune de proces solicitate. Recomandăm confirmarea codului exact înainte de a trimite comanda fermă către noi."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de senzor de nivel Anderson-Negele?",
@@ -1008,7 +1008,7 @@ Electronica de comandă Atos seria E-ME-AC este un driver electronic în format 
       },
       {
         "q": "Livrați echipamente hidraulice Atos în România?",
-        "a": "Nu ținem valve sau pompe Atos pe raft; fiecare comandă este plasată după confirmarea codului și a specificațiilor din documentația oficială a producătorului italian. Un interval realist pentru primirea mărfii este de 1–4 săptămâni la comandă, în funcție de cât de personalizată este configurația cerută și de volumul de producție curent al fabricii."
+        "a": "Nu ținem valve sau pompe Atos pe raft; fiecare comandă este plasată după confirmarea codului și a specificațiilor din documentația tehnică a producătorului italian. Un interval realist pentru primirea mărfii este de 1–4 săptămâni la comandă, în funcție de cât de personalizată este configurația cerută și de volumul de producție curent al fabricii."
       },
       {
         "q": "Ce diferență este între o pompă și o servopompă în gama Atos?",

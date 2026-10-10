@@ -83,7 +83,7 @@ export default function AuthorBox({ author }) {
           )}
 
           <Link href="/echipa" className={styles.profileLink}>
-            Vezi profilul complet →
+            Vedeți profilul complet →
           </Link>
         </div>
       </div>

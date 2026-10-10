@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 import { categories } from '@/data/products';
 import { HEADER_CATEGORY_MENUS } from '@/data/headerMenus';
+import { deNum } from '@/lib/ro';
 
 export const runtime = 'edge';
 export const alt = 'Infinitrade Romania - Echipamente Industriale';
@@ -160,7 +161,7 @@ export default async function Image({ params }) {
                 fontWeight: 600,
               }}
             >
-              +{category.brands.length - 4} branduri
+              +{category.brands.length - 4} {deNum(category.brands.length - 4)}branduri
             </div>
           )}
         </div>

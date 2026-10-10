@@ -219,7 +219,7 @@ export const roles = {
     ctaTitle: 'Trimiteți codul sau poza plăcuței',
     ctaText: 'Formularul acceptă poze și PDF-uri. Pentru urgențe, sunați-ne.',
     related: [
-      { href: '/brand', label: 'Caută după brand' },
+      { href: '/brand', label: 'Căutați după brand' },
       { href: '/blog/mentenanta-preventiva-pompe-industriale', label: 'Mentenanța preventivă a pompelor' },
       { href: '/blog/garnituri-mecanice-ghid-complet', label: 'Garnituri mecanice: ghid' },
       { href: '/componente-mecanice', label: 'Componente mecanice și rulmenți' },

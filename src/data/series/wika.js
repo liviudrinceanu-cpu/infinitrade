@@ -9,7 +9,7 @@ export const series = [
     "name": "WIKA 232.50 / 233.50",
     "oneLine": "Manometru cu tub Bourdon WIKA, carcasă integral din oțel inoxidabil, pentru industria de proces.",
     "lifecycle": "activ",
-    "lifecycleNote": "Pagina și fișa tehnică PM 02.02 ale producătorului sunt curente; nu am găsit o declarație de retragere din producție pentru 232.50 sau 233.50.",
+    "lifecycleNote": "Pagina și fișa tehnică PM 02.02 ale producătorului sunt curente; nu putem confirma o declarație de retragere din producție pentru 232.50 sau 233.50.",
     "intro": "Seria WIKA 232.50/233.50 este un manometru cu tub Bourdon, cu carcasă complet din oțel inoxidabil, destinat industriei de proces. Modelul 232.50 este varianta neumplută, iar 233.50 are carcasa umplută cu lichid, recomandată acolo unde apar vibrații sau pulsații de presiune. Codul de comandă combină modelul, mărimea carcasei și domeniul de scală, de exemplu 232.50.100 sau 233.50.160, unde ultimele cifre indică mărimea NS 100, respectiv NS 160.\n\nPentru o ofertă ne trimiteți codul complet de pe eticheta manometrului existent sau, dacă lipsește, mărimea carcasei, domeniul de presiune dorit și tipul de racord de proces. Aducem manometre noi la cerere, prin canale de aprovizionare din UE; termenul orientativ este de 1–4 săptămâni. Nu confirmăm stoc sau preț înainte de verificarea codului în documentația producătorului.",
     "models": [
       {

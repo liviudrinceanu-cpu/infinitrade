@@ -160,7 +160,7 @@ Condițiile de lucru admise (temperatură, turație, precizie) depind de rulment
       },
       {
         "q": "Livrați rulmenți FAG în România?",
-        "a": "Da, aducem rulmenții FAG la comandă, pornind de la codurile publicate în documentația oficială Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
+        "a": "Da, aducem rulmenții FAG la comandă, pornind de la codurile publicate în documentația tehnică Schaeffler, fără a deține stoc propriu constant pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de varianta de etanșare și de disponibilitatea la producător a codului exact solicitat."
       }
     ],
     evidenceClass: 'transactional',
@@ -358,7 +358,7 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
     whyChoose: [
       'Durata de viață mecanică și electrică diferă pe serii; valorile exacte le confirmăm din fișa tehnică a codului',
       'Aprobări diferite pe serii, de confirmat din fișa tehnică a codului',
-      'Seria 55 și 65 cu LED indicator stare – vezi imediat dacă releul e activat (fără multimetru)',
+      'Seria 55 și 65 cu LED indicator stare – se vede imediat dacă releul e activat (fără multimetru)',
       'Temporizatoare multifuncționale – o singură serie acoperă mai multe funcții de temporizare',
       'Montaj rapid pe șină DIN, cu cleme detașabile care permit înlocuirea releului fără recablare',
       'Fabricație în Italia cu rețea de distribuție în toată Europa – acces facil la gama de relee și temporizatoare'
@@ -374,11 +374,11 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
       },
       {
         name: 'Relee de interfață Finder seria 38/39',
-        description: 'Relee slim (6.2mm lățime) pentru montaj DIN-rail – soluția perfectă când ai tablou înghesuit și trebuie să bagi multe comenzi. Seria 38 (1 contact 6A), seria 39 (2 contacte 6A). Clemele detașabile permit pre-cablare – pregătești firele pe clemă, apoi clipezi clema pe releu. LED indicator frontal. Bobine pentru toate tensiunile standard. Opțional diodă de protecție integrată pentru comenzi DC (evită back-EMF). Versiuni cu contacte cu arc de aur pentru sarcini sensibile (low-level switching sub 10mA). Temperatura extinsă -40°C până +60°C. Se montează ușor – clip pe șină DIN, fără șurub. Perfect pentru automatizări Siemens, Schneider, ABB (interfață între PLC și sarcini externe).'
+        description: 'Relee slim (6.2mm lățime) pentru montaj DIN-rail – soluția perfectă când ai tablou înghesuit și trebuie să bagi multe comenzi. Seria 38 (1 contact 6A), seria 39 (2 contacte 6A). Clemele detașabile permit pre-cablare – firele se pregătesc pe clemă, apoi clema se clipsează pe releu. LED indicator frontal. Bobine pentru toate tensiunile standard. Opțional diodă de protecție integrată pentru comenzi DC (evită back-EMF). Versiuni cu contacte cu arc de aur pentru sarcini sensibile (low-level switching sub 10mA). Temperatura extinsă -40°C până +60°C. Se montează ușor – clip pe șină DIN, fără șurub. Perfect pentru automatizări Siemens, Schneider, ABB (interfață între PLC și sarcini externe).'
       },
       {
         name: 'Contactoare modulare Finder seria 22',
-        description: 'Contactoare compacte, cu montaj pe șină DIN, 2-4 module lățime. Seria 22.22 (2NO – 2 contacte normal deschise 25A), seria 22.32 (3NO+1NC – 3 contacte NO + 1 contact NC, 25A), seria 22.44 (4NO – 4 contacte normale deschise 25A). Bobină 230V AC standard sau opțional 24V AC/DC. Comandă manuală – selector frontal ON/OFF (forțezi contactele pentru testare sau override). Categorie utilizare AC-1 (sarcini rezistive) și AC-3 (motoare). Durată de viață mecanică 10 milioane operații. Conexiuni prin șurub sau prin cleme detașabile. Bloc de contacte auxiliare se poate adăuga lateral – 2NO+2NC extra pentru semnalizare.'
+        description: 'Contactoare compacte, cu montaj pe șină DIN, 2-4 module lățime. Seria 22.22 (2NO – 2 contacte normal deschise 25A), seria 22.32 (3NO+1NC – 3 contacte NO + 1 contact NC, 25A), seria 22.44 (4NO – 4 contacte normale deschise 25A). Bobină 230V AC standard sau opțional 24V AC/DC. Comandă manuală – selector frontal ON/OFF (contactele se forțează pentru testare sau override). Categorie utilizare AC-1 (sarcini rezistive) și AC-3 (motoare). Durată de viață mecanică 10 milioane operații. Conexiuni prin șurub sau prin cleme detașabile. Bloc de contacte auxiliare se poate adăuga lateral – 2NO+2NC extra pentru semnalizare.'
       }
     ],
     certifications: [
@@ -403,7 +403,7 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
       'Energie regenerabilă – sisteme fotovoltaice, eoliene',
       'Telecomunicații – echipamente BTS, centrale telefonice'
     ],
-    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din cataloagele publice ale producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24–72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 1–4 săptămâni la comandă. Ca să vă dăm un răspuns exact, trimiteți-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
+    infinitrade: `Ce putem și ce nu putem confirma pentru Finder: lucrăm din documentația tehnică a producătorului și nu ținem un stoc propriu documentat pentru fiecare serie de relee sau temporizatoare. Aprovizionarea se face prin canale din Uniunea Europeană – ca formulare generală a firmei, seriile cele mai comune pot fi asigurate în 24–72 h din stoc, restul gamei (contactoare, relee de interfață speciale) urmând fluxul de 1–4 săptămâni la comandă. Ca să vă dăm un răspuns exact, trimiteți-ne codul complet al releului sau temporizatorului (serie, tensiune bobină, tip contact) și cantitatea dorită. Fără aceste informații nu putem confirma disponibilitatea sau termenul de livrare.`,
     limitation: 'Nu putem confirma o legătură contractuală directă cu Finder și nici acoperirea prin stoc propriu a tuturor seriilor de relee și temporizatoare.',
     sources: [
       {"title":"55 Series - Miniature General Purpose Relays 7-10A","url":"https://www.findernet.com/en/worldwide/series/55-series-miniature-general-purpose-relays-7-10a/","publisher":"Finder","accessed":"2026-09-22"},
@@ -473,11 +473,11 @@ Aprobările diferă de la o serie la alta și se confirmă din fișa tehnică a 
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de relee Finder?",
-        "a": "Pentru o ofertă rapidă sunt utile codul complet al tipului dorit (de exemplu 55.34 sau 38 Series), tensiunea bobinei, numărul de contacte și soclul folosit, dacă este cazul din seria 94. Cu aceste detalii putem căuta echivalentul corect în documentația publică a producătorului și estima termenul de livrare."
+        "a": "Pentru o ofertă rapidă sunt utile codul complet al tipului dorit (de exemplu 55.34 sau 38 Series), tensiunea bobinei, numărul de contacte și soclul folosit, dacă este cazul din seria 94. Cu aceste detalii putem căuta echivalentul corect în documentația tehnică a producătorului și estima termenul de livrare."
       },
       {
         "q": "Livrați relee și temporizatoare Finder în România?",
-        "a": "Da, aducem produsele Finder la comandă, pe baza seriilor publicate în documentația oficială a producătorului, fără a menține stoc propriu constant pentru fiecare tip. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tipul exact solicitat, de tensiunea bobinei și de disponibilitatea la fabrica a codului ales."
+        "a": "Da, aducem produsele Finder la comandă, pe baza seriilor publicate în documentația tehnică a producătorului, fără a menține stoc propriu constant pentru fiecare tip. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tipul exact solicitat, de tensiunea bobinei și de disponibilitatea la fabrica a codului ales."
       }
     ],
     evidenceClass: 'transactional',
@@ -498,7 +498,7 @@ Fluke investește masiv în siguranță – multimetrele profesionale sunt înca
       'Acuratețe DC de ±(0,05% + 1) la multimetrul 87V',
       'Protecție CAT IV 600V – rezistă la transienți periculoși în instalații industriale',
       'True-RMS pe toate modelele profesionale – măsoară corect semnale distorsionate și non-sinusoidale',
-      'Garanția diferă în funcție de model (de exemplu, pe viață la 87V, 3 ani la 1587 FC și 375 FC), conform paginilor oficiale',
+      'Garanția diferă în funcție de model (de exemplu, pe viață la 87V, 3 ani la 1587 FC și 375 FC), conform documentației tehnice',
       'Termoviziune cu detector 320x240, extins la 640x480 prin SuperResolution (Ti450 PRO) – imagini clare pentru diagnosticare',
       'Calibrare NIST trasabilă disponibilă prin laboratoare de calibrare, nu pe loc'
     ],
@@ -639,7 +639,7 @@ Fluke investește masiv în siguranță – multimetrele profesionale sunt înca
     faq: [
       {
         "q": "Ce diferență este între multimetrele Fluke 87V și 117?",
-        "a": "Fluke 87V este multimetrul industrial de referință, cu funcții extinse de măsurare și rezoluție ridicată, potrivit pentru diagnoza complexă. Fluke 117 este un model mai compact, gândit pentru electricieni, cu funcție de detecție fără contact a tensiunii și dimensiuni reduse pentru lucrul în tablouri electrice aglomerate, conform paginilor oficiale ale producătorului."
+        "a": "Fluke 87V este multimetrul industrial de referință, cu funcții extinse de măsurare și rezoluție ridicată, potrivit pentru diagnoza complexă. Fluke 117 este un model mai compact, gândit pentru electricieni, cu funcție de detecție fără contact a tensiunii și dimensiuni reduse pentru lucrul în tablouri electrice aglomerate, conform documentației tehnice a producătorului."
       },
       {
         "q": "Ce clește ampermetric Fluke recomandați pentru curenți foarte mari?",
@@ -797,11 +797,11 @@ Gama include benzi cu profile și cu proprietăți speciale (antistatice, ignifu
       },
       {
         "q": "Ce este seria Prolink de la Forbo Siegling?",
-        "a": "Prolink este gama de benzi modulare din plastic cu zale (interlock) produsă de Siegling, gândită pentru rezistență și durabilitate în aplicații industriale solicitante. Materialele, formele modulelor, pasul și tiparele de suprafață pot fi adaptate aplicației, conform informațiilor publicate de Forbo pe paginile oficiale de produs."
+        "a": "Prolink este gama de benzi modulare din plastic cu zale (interlock) produsă de Siegling, gândită pentru rezistență și durabilitate în aplicații industriale solicitante. Materialele, formele modulelor, pasul și tiparele de suprafață pot fi adaptate aplicației, conform informațiilor publicate de Forbo în documentația tehnică."
       },
       {
         "q": "Livrați benzi Forbo Siegling în România?",
-        "a": "Da, aducem benzile Transilon și Prolink la comandă, pornind de la codificarea publică folosită de Forbo Siegling în documentația oficială, fără gama pe raft menținut permanent. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de lățimea benzii, de tipul de acoperire ales și de disponibilitatea la producător."
+        "a": "Da, aducem benzile Transilon și Prolink la comandă, pornind de la codificarea publică folosită de Forbo Siegling în documentația tehnică, fără gama pe raft menținut permanent. Termenul uzual este de 1–4 săptămâni la comandă, în funcție de lățimea benzii, de tipul de acoperire ales și de disponibilitatea la producător."
       }
     ],
     evidenceClass: 'transactional',
@@ -976,11 +976,11 @@ Freudenberg oferă servicii de inginerie și bancuri de testare pentru etanșăr
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de garnituri Freudenberg?",
-        "a": "Pentru o identificare corectă este util codul complet (de exemplu BABSL sau OR-PU), dimensiunile arborelui și ale locașului, materialul preferat și condițiile de temperatură și presiune ale aplicației. Cu aceste date putem căuta echivalentul potrivit în cataloagele publice Freudenberg și estima termenul de aprovizionare pentru garnitura cerută."
+        "a": "Pentru o identificare corectă este util codul complet (de exemplu BABSL sau OR-PU), dimensiunile arborelui și ale locașului, materialul preferat și condițiile de temperatură și presiune ale aplicației. Cu aceste date putem căuta echivalentul potrivit în documentația tehnică Freudenberg și estima termenul de aprovizionare pentru garnitura cerută."
       },
       {
         "q": "Livrați garnituri Freudenberg în România?",
-        "a": "Da, aducem simeringurile și O-ringurile Freudenberg la comandă, pornind de la codurile publicate în catalogul oficial al producătorului, fără a menține stoc propriu în depozit. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de dimensiune, de material și de disponibilitatea codului exact la fabrica producătorului."
+        "a": "Da, aducem simeringurile și O-ringurile Freudenberg la comandă, pornind de la codurile publicate în documentația tehnică a producătorului, fără a menține stoc propriu în depozit. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de dimensiune, de material și de disponibilitatea codului exact la fabrica producătorului."
       }
     ],
     evidenceClass: 'transactional',
@@ -1122,7 +1122,7 @@ Gates produce curele Micro-V pentru transmisii auto, curele sincrone și furtunu
       },
       {
         "q": "Ce este seria MegaSys de la Gates?",
-        "a": "MegaSys este gama de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător pe paginile oficiale de produs."
+        "a": "MegaSys este gama de furtunuri hidraulice Gates, gândită pentru presiuni ridicate și condiții solicitante întâlnite la utilaje de construcții și echipamente industriale grele. Varianta MXT aduce o greutate mai redusă față de furtunurile clasice, facilitând montajul, conform materialelor publicate de producător în documentația tehnică."
       },
       {
         "q": "Ce curea de transmisie Gates recomandați pentru industria alimentară?",
@@ -1144,7 +1144,7 @@ Gates produce curele Micro-V pentru transmisii auto, curele sincrone și furtunu
     employees: '',
     overview: `De peste 100 de ani, Gedore produce scule profesionale de mână pentru industrie, automotive și aviație. Gedore produce scule de mână pentru uz profesional. Gama Gedore include chei fixe/inelate, chei reglabile, tubulare cu antrenare 1/4"/3/8"/1/2"/3/4"/1", șurubelnițe și pensete, ciocane și dornuri, chei dinamometrice, extractoare și scule speciale.
 
-Gedore declară peste 1.000 de scule de mână verificate conform DIN și oferă servicii de calibrare acreditate DAkkS pentru sculele dinamometrice, conform paginii oficiale. Materialele, durităților și rezistențele depind de scula aleasă și se confirmă pe cod.
+Gedore declară peste 1.000 de scule de mână verificate conform DIN și oferă servicii de calibrare acreditate DAkkS pentru sculele dinamometrice, conform documentației tehnice. Materialele, durităților și rezistențele depind de scula aleasă și se confirmă pe cod.
 
 Gedore investește constant în ergonomie – mânerele bi-material reduc oboseala mâinii față de mânere metalice simple, cheile dinamometrice au mecanism clic auditiv+tactil pentru feedback instant la atingerea cuplului. Producătorul dezvoltă și inovații – chei cu antrenare joker (combinare inelată + fixă cu mecanism clichet), tubulare impact pentru cheile pneumatice/electrice (rezistență la șocuri repetate), și sisteme modulare de stocare (organizare eficientă în cărucioare/panouri). Condițiile de garanție ale producătorului se confirmă pe cod.`,
     whyChoose: [
@@ -1170,7 +1170,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       },
       {
         name: 'Truse de scule Gedore red',
-        description: 'Truse de scule Gedore red, livrate în valize sau cărucioare; conținutul, numărul de piese și greutatea depind de codul trusei și se confirmă pe cod. Gedore red este linia pentru uz semi-profesional a producătorului, conform paginii oficiale.'
+        description: 'Truse de scule Gedore red, livrate în valize sau cărucioare; conținutul, numărul de piese și greutatea depind de codul trusei și se confirmă pe cod. Gedore red este linia pentru uz semi-profesional a producătorului, conform documentației tehnice.'
       }
     ],
     certifications: [
@@ -1195,7 +1195,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       'Minerit – mentenanță utilaje miniere (versiuni anti-scânteie)',
       'Producție industrială – linii de asamblare, mentenanță mașini'
     ],
-    infinitrade: `Pentru sculele Gedore ne bazăm pe cataloagele publice ale producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24–72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact spuneți-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care aveți nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
+    infinitrade: `Pentru sculele Gedore ne bazăm pe documentația tehnică a producătorului, fără date proprii de stoc pentru fiecare dimensiune și serie din gamă. Aducem produsele la comandă prin canale de aprovizionare din Uniunea Europeană: ca formulare generală a firmei, dimensiunile de chei și tubulare cele mai cerute pot fi asigurate în 24–72 h din stoc, iar chei dinamometrice, truse complete sau dimensiuni speciale intră pe fluxul de 1–4 săptămâni la comandă. Pentru un răspuns exact spuneți-ne dimensiunea, seria (fixă/inelată/tubulară) și tipul de antrenare de care aveți nevoie. Lipsa acestor detalii ne împiedică să confirmăm disponibilitatea reală sau un termen corect de livrare.`,
     limitation: 'Nu putem confirma acoperirea prin stoc propriu a tuturor seriilor Gedore și nici condițiile exacte ale garanției pe viață a producătorului – acestea se verifică direct cu Gedore.',
     sources: [
       {"title":"Spanners Catalogue 2017","url":"https://us.gedore.com/fileadmin/Kataloge/EN/116_151_05_Spanners_2017_EN.pdf","publisher":"Gedore","accessed":"2026-09-22"},
@@ -1287,7 +1287,7 @@ Gedore investește constant în ergonomie – mânerele bi-material reduc obosea
       },
       {
         "q": "Livrați scule Gedore în România?",
-        "a": "Da, aducem sculele Gedore la comandă, pornind de la seriile publicate în catalogul oficial al producătorului, fără a păstra un stoc propriu pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de dimensiune și de disponibilitatea codului exact la producător."
+        "a": "Da, aducem sculele Gedore la comandă, pornind de la seriile publicate în documentația tehnică a producătorului, fără a păstra un stoc propriu pentru fiecare dimensiune. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de dimensiune și de disponibilitatea codului exact la producător."
       }
     ],
     evidenceClass: 'gsc-only',
@@ -1428,7 +1428,7 @@ Catalogul Grundfos menționează opțiuni de comunicație GENIbus, Modbus RTU/TC
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de pompe dozatoare Grundfos?",
-        "a": "Pentru o ofertă corectă sunt necesare debitul dorit în l/h, presiunea de refulare, tipul de substanță dozată și materialul de contact preferat pentru capul de dozare. Cu aceste date putem identifica familia potrivită, DDA, DDC, DDE, DME sau DMX, în cataloagele publice ale producătorului și estima termenul de livrare pentru comandă."
+        "a": "Pentru o ofertă corectă sunt necesare debitul dorit în l/h, presiunea de refulare, tipul de substanță dozată și materialul de contact preferat pentru capul de dozare. Cu aceste date putem identifica familia potrivită, DDA, DDC, DDE, DME sau DMX, în documentația tehnică a producătorului și estima termenul de livrare pentru comandă."
       },
       {
         "q": "Livrați pompe dozatoare Grundfos în România?",

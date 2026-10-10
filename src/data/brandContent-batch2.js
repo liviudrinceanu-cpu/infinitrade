@@ -197,7 +197,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         name: 'Supape de reglare presiune și temperatură',
-        description: `Supapele Spirax Sarco pentru reducerea presiunii aburului (seria 25P, DP27) sunt mașinării de precizie. Mențin presiunea din aval constantă indiferent de fluctuațiile din amonte – esențial când alimentezi echipamente care au nevoie de presiune stabilă (autoclave, reactoare, schimbătoare). Supapele de control al temperaturii modulează debitul de abur pentru a menține temperatura exactă în procese. Se folosesc frecvent în sisteme de încălzire indirectă, uscătoare industriale, cazane de fierbere. Precizia de reglaj și durabilitatea depind de model și se confirmă din documentația producătorului.`
+        description: `Supapele Spirax Sarco pentru reducerea presiunii aburului (seria 25P, DP27) sunt mașinării de precizie. Mențin presiunea din aval constantă indiferent de fluctuațiile din amonte – esențial când se alimentează echipamente care au nevoie de presiune stabilă (autoclave, reactoare, schimbătoare). Supapele de control al temperaturii modulează debitul de abur pentru a menține temperatura exactă în procese. Se folosesc frecvent în sisteme de încălzire indirectă, uscătoare industriale, cazane de fierbere. Precizia de reglaj și durabilitatea depind de model și se confirmă din documentația producătorului.`
       },
       {
         name: 'Separatoare de condensat și filtre pentru abur',
@@ -304,7 +304,7 @@ Gama Spirax Sarco disponibilă pentru piața românească include: trape de cond
       },
       {
         "q": "Livrați produse Spirax Sarco în România la comandă?",
-        "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din catalogul oficial. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
+        "a": "Da, aducem la comandă purjoare și supape din gamele TD, TDC, TDS sau UTD, după codul confirmat de client din documentația tehnică. Nu ținem această gamă pe raft, informațiile despre disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului exact de pe corpul purjorului existent."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un purjor Spirax Sarco?",
@@ -461,7 +461,7 @@ Aducem la comandă, prin canale de aprovizionare din UE, dimensiunile și materi
       },
       {
         "q": "Livrați produse ARI Armaturen în România la comandă?",
-        "a": "Da, aducem la comandă vane și purjoare din gamele ARI-FABA, ARI-ZETRIX, ARI-SAFE sau ARI-CONA, după codul confirmat de client. Nu avem această gamă pe raft, informațiile despre disponibilitate provin din documentația publică a producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe corpul vanei existente."
+        "a": "Da, aducem la comandă vane și purjoare din gamele ARI-FABA, ARI-ZETRIX, ARI-SAFE sau ARI-CONA, după codul confirmat de client. Nu avem această gamă pe raft, informațiile despre disponibilitate provin din documentația tehnică a producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm transmiterea codului complet de pe corpul vanei existente."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la o vană ARI Armaturen?",
@@ -621,7 +621,7 @@ Putem oferi pentru piața românească: schimbătoare cu plăci gasketed (demont
       },
       {
         "q": "Livrează Alfa Laval schimbătoare de căldură în România la comandă?",
-        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbătorului existent."
+        "a": "Da, aducem la comandă schimbătoare din gamele M3, M6, M15, T6, T10 sau AC, după codul confirmat de client din documentația tehnică. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni. Recomandăm transmiterea codului complet de pe plăcuța schimbătorului existent."
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă la un schimbător Alfa Laval?",
@@ -790,7 +790,7 @@ Gama Parker e foarte largă – zeci de mii de produse – dar noi ne concentră
       },
       {
         "q": "Livrează Parker Hannifin cilindri în România la comandă?",
-        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din catalogul oficial. Pentru Parker Hannifin disponibilitatea o confirmăm punctual, pe baza datelor publice ale producătorului; termenul obișnuit la comandă este 1–4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
+        "a": "Da, aducem la comandă cilindri hidraulici și pneumatici din gamele 2H, 3H, 2A sau XFC, după codul confirmat de client din documentația tehnică. Pentru Parker Hannifin disponibilitatea o confirmăm punctual, pe baza datelor publice ale producătorului; termenul obișnuit la comandă este 1–4 săptămâni. Codul complet de pe eticheta cilindrului grăbește identificarea."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un cilindru Parker?",

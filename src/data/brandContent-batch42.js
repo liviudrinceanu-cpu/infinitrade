@@ -215,7 +215,7 @@ Pentru România, un detaliu contează în plus: grupul Wittenstein are propria f
       },
       {
         "q": "Cum aleg reductorul planetar Wittenstein alpha potrivit pentru un servomotor?",
-        "a": "Pornim de la cuplul nominal și de vârf cerut de aplicație, raportul de transmisie necesar și tipul de montaj al motorului, apoi verificăm compatibilitatea flanșei cu servomotorul existent. Jocul unghiular admis diferențiază gamele: Galaxie G pentru aplicații fără joc, RP+ și TP+ pentru sarcini mari, NP pentru soluții economice. Datele exacte de interfață mecanică se confirmă din cataloagele publice ale producătorului."
+        "a": "Pornim de la cuplul nominal și de vârf cerut de aplicație, raportul de transmisie necesar și tipul de montaj al motorului, apoi verificăm compatibilitatea flanșei cu servomotorul existent. Jocul unghiular admis diferențiază gamele: Galaxie G pentru aplicații fără joc, RP+ și TP+ pentru sarcini mari, NP pentru soluții economice. Datele exacte de interfață mecanică se confirmă din documentația tehnică a producătorului."
       },
       {
         "q": "Livrați reductoare Wittenstein alpha în România?",
@@ -999,7 +999,7 @@ Pentru fabricile din România din automotive, metalurgie, construcții sau chimi
       "Silvicultură — echipament de protecție pentru lucrul cu unelte tăioase",
       "Industria chimică — mănuși și protecție respiratorie rezistente chimic"
     ],
-    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari decât stocul curent al distribuitorilor locali. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu păstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului.`,
+    infinitrade: `Aducem echipament uvex la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni pentru cantități mai mari decât stocul curent disponibil extern. Pentru o ofertă corectă avem nevoie de mărimile necesare, clasele de protecție cerute (de exemplu FFP2 sau S3) și numărul de bucăți per categorie de echipament. Nu păstrăm stoc propriu pentru toată gama și nu promitem disponibilitate permanentă pe fiecare mărime — verificăm punctual înainte de confirmare. Datele despre produse provin din surse publice ale producătorului.`,
     limitation: "Nu putem confirma toate certificările specifice fiecărui produs fără fișa tehnică individuală și nu oferim personalizare cu însemne proprii ca serviciu direct.",
     productCodes: [
       {

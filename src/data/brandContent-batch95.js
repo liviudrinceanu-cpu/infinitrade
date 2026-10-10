@@ -492,7 +492,7 @@ Pentru piața românească, Fluimac are sens la linii unde e nevoie de o pompă 
     name: "Dellmeco",
     founded: 2004,
     headquarters: "Glincz, Polonia",
-    overview: `Dellmeco este un producător polonez de pompe cu diafragmă dublă, înființat în 2004 la Glincz, cu producție integrată sub același acoperiș pentru a răspunde rapid cerințelor pieței. Gama acoperă atât pompele acționate pneumatic (AODD) cât și variante electro-mecanice (DME), distribuite prin parteneri în zeci de țări, de la Australia și Brazilia până la Germania și Statele Unite ale Americii.
+    overview: `Dellmeco este un producător polonez de pompe cu diafragmă dublă, înființat în 2004 la Glincz, cu producție integrată sub același acoperiș pentru a răspunde rapid cerințelor pieței. Gama acoperă atât pompele acționate pneumatic (AODD) cât și variante electro-mecanice (DME).
 
 Portofoliul e segmentat pe materiale și aplicații: seria din plastic pentru uz general, seria igienică pentru alimentar și farmaceutic, seriile metalice din aluminiu sau AISI 316 pentru medii mai solicitante, și o serie SEMI dedicată aplicațiilor de puritate ultra-înaltă din industria semiconductoarelor. Seria 3A Aseptic respectă standardele sanitare 3-A pentru contact direct cu produse alimentare, iar seriile electro-mecanice DMR, DMF, DMU și SXTT-X acoperă diverse capacități pentru pompele DME. Producția e certificată ISO/TÜV pentru sistemul de management al calității.
 

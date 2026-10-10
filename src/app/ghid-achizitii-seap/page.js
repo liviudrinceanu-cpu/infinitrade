@@ -697,7 +697,7 @@ export default function GhidSeapPage() {
                     <p>Branduri: {category.brands.join(', ')}</p>
                   </div>
                   <Link href={`/${category.slug}`} className={styles.categoryLink}>
-                    Vezi Produse <ArrowRight size={16} />
+                    Vedeți produsele <ArrowRight size={16} />
                   </Link>
                 </div>
 
@@ -956,7 +956,7 @@ export default function GhidSeapPage() {
                   Solicitați ofertă SEAP
                 </Link>
                 <Link href="/certificari" className={styles.ctaSecondary}>
-                  Vezi Certificări
+                  Vedeți certificările
                 </Link>
               </div>
               <div className={styles.ctaContact}>

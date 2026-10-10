@@ -988,7 +988,7 @@ Pentru instalații industriale din România cu pompe sau compresoare de putere m
       "Celuloză și hârtie — motoare pentru linii de producție continuă",
       "Industria chimică — motoare pentru pompe și compresoare"
     ],
-    infinitrade: `Motoarele industriale Nidec ajung la comandă prin canale de distribuție din Uniunea Europeană, fără date proprii despre stocul uzinelor producătorului — spunem clar ce putem confirma din documentația publică a seriei TITAN. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de puterea și configurația motorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și standardul de montaj cerut de utilajul acționat. Nu confirmăm disponibilitate imediată pentru motoarele de putere foarte mare sau pentru configurațiile API 547.`,
+    infinitrade: `Motoarele industriale Nidec ajung la comandă prin canale de aprovizionare din Uniunea Europeană, fără date proprii despre stocul uzinelor producătorului — spunem clar ce putem confirma din documentația tehnică a seriei TITAN. Termenul orientativ de livrare la comandă este de 1–4 săptămâni, în funcție de puterea și configurația motorului. Pentru o ofertă corectă avem nevoie de puterea, turația, tensiunea de alimentare și standardul de montaj cerut de utilajul acționat. Nu confirmăm disponibilitate imediată pentru motoarele de putere foarte mare sau pentru configurațiile API 547.`,
     limitation: "Nu putem confirma disponibilitatea locală a motoarelor de putere foarte mare și nu oferim suport pentru integrarea electronică de control asociată.",
     productCodes: [
       {

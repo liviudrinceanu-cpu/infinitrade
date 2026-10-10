@@ -13,6 +13,7 @@ import { getGscBrandImpressions } from '@/data/gscBrandImpressions';
 import { productTypeIndex, getProductTypeContent, getProductTypesForCategory } from '@/data/productTypeContent/_index';
 import base from '../../brand/brand-index.module.css';
 import styles from './type.module.css';
+import { deNum } from '@/lib/ro';
 
 // /[category]/[type] — Branduri-500 v13 (D-2026-09-26, phase D): one selection
 // guide per product type of every category (89 pages). Educational content
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }) {
   const url = `${config.site.url}/${category.slug}/${content.slug}`;
   // Longest title that fits in 65 characters, never cut mid-phrase.
   const title = [
-    `${content.name}: ghid de selecție, ${brands.length} branduri | Infinitrade`,
+    `${content.name}: ghid de selecție, ${brands.length} ${deNum(brands.length)}branduri | Infinitrade`,
     `${content.name}: ghid de selecție | Infinitrade`,
     `${content.name} | Infinitrade`,
     content.name,
@@ -172,7 +173,7 @@ export default async function ProductTypePage({ params }) {
           </div>
         </section>
 
-        <nav className={base.letterNav} aria-label="Sari la secțiune">
+        <nav className={base.letterNav} aria-label="Salt la secțiune">
           <div className={base.container}>
             <a href="#ce-este">Ce este</a>
             <a href="#cum-alegi">Cum alegeți</a>
@@ -213,7 +214,7 @@ export default async function ProductTypePage({ params }) {
             <div className={base.container}>
               <h2 className={base.sectionTitle}>Branduri de {content.shortName} pe care le livrăm în România</h2>
               <p className={base.sectionNote}>
-                {brands.length} {brands.length === 1 ? 'producător' : 'producători'} de pe site {brands.length === 1 ? 'are' : 'au'} acest tip de produs în gamă, conform propriilor cataloage.
+                {brands.length} {deNum(brands.length)}{brands.length === 1 ? 'producător' : 'producători'} de pe site {brands.length === 1 ? 'are' : 'au'} acest tip de produs în gamă, conform propriilor cataloage.
                 Pagina fiecărui brand arată seriile, codurile verificate și ce putem confirma. Toate brandurile din categoria{' '}
                 <Link href={`/${category.slug}#branduri`}>{category.name.toLowerCase()}</Link> sunt în lista A–Z.
               </p>
@@ -229,7 +230,7 @@ export default async function ProductTypePage({ params }) {
               </ul>
               {brands.length > shownBrands.length && (
                 <p className={base.sectionNote} style={{ marginTop: '16px' }}>
-                  Încă {brands.length - shownBrands.length} de branduri pentru acest tip sunt în{' '}
+                  Încă {brands.length - shownBrands.length} {deNum(brands.length - shownBrands.length)}branduri pentru acest tip sunt în{' '}
                   <Link href={`/${category.slug}#branduri`}>lista completă a categoriei</Link>.
                 </p>
               )}

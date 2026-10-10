@@ -12,7 +12,7 @@ Gama de produse e vastă: pompe hidraulice, motoare, cilindri, supape, centrale 
 Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Furnizăm componente pentru utilaje de construcții, agricole, forestiere — de la excavatoare până la combine. Sistemele Rexroth sunt optimizate pentru eficiență energetică și control precis, esențiale în aplicații unde consumul de combustibil contează.`,
     whyChoose: [
       'Experiență de peste 220 ani în tehnologie hidraulică și mecanică de precizie',
-      'Soluții conectate pentru Industry 4.0 (de exemplu CytroPac, CytroBox, ctrlX AUTOMATION), conform paginilor oficiale',
+      'Soluții conectate pentru Industry 4.0 (de exemplu CytroPac, CytroBox, ctrlX AUTOMATION), conform documentației tehnice',
       'Documentație tehnică publică pentru fiecare cod de produs',
       'Soluții cu turație variabilă (de exemplu Sytronix) pentru reducerea consumului de energie, conform producătorului'
     ],
@@ -147,7 +147,7 @@ Hidraulica mobilă este un alt domeniu în care Rexroth are o gamă solidă. Fur
       },
       {
         "q": "Livrează Bosch Rexroth componente hidraulice în România la comandă?",
-        "a": "Da, aducem la comandă grupuri hidraulice, vane și actuatoare din gamele CytroPac, CytroBox, Sytronix sau ABMAXX, după codul confirmat de client din documentația oficială. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă."
+        "a": "Da, aducem la comandă grupuri hidraulice, vane și actuatoare din gamele CytroPac, CytroBox, Sytronix sau ABMAXX, după codul confirmat de client din documentația tehnică. Nu avem această gamă pe raft, informațiile de disponibilitate provin din surse publice ale producătorului, iar termenul obișnuit este de 1–4 săptămâni la comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă la un grup hidraulic Bosch Rexroth?",
@@ -334,7 +334,7 @@ Gama de produse acoperă tot ce înseamnă automatizare: cilindri pneumatici (de
       },
       {
         "q": "Livrează Festo componente pneumatice în România la comandă?",
-        "a": "Da, aducem la comandă cilindri, actuatoare rotative și terminale de vane din gamele DSNU, ADN, DRVS sau VTSA, după codul confirmat de client din catalogul oficial. Componentele Festo le aducem la comandă, pe baza informațiilor publice de disponibilitate ale producătorului, de regulă în 1–4 săptămâni."
+        "a": "Da, aducem la comandă cilindri, actuatoare rotative și terminale de vane din gamele DSNU, ADN, DRVS sau VTSA, după codul confirmat de client din documentația tehnică. Componentele Festo le aducem la comandă, pe baza informațiilor publice de disponibilitate ale producătorului, de regulă în 1–4 săptămâni."
       },
       {
         "q": "Ce date trimit pentru o ofertă la un cilindru Festo?",
@@ -674,7 +674,7 @@ Tehnologia Heartbeat este un sistem de diagnosticare și verificare a instrument
     founded: 1946,
     headquarters: 'Klingenberg am Main, Germania',
     employees: '11,000+',
-    overview: `WIKA e un nume pe care îl vezi peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu aproximativ 11.000 de angajați și 45 de filiale și unități de producție la nivel mondial, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
+    overview: `WIKA e un nume care se întâlnește peste tot în industrie — de la manometre simple pe compresoare până la transmițători de presiune în centrale nucleare. Fondată în 1946 în Germania, compania s-a specializat pe măsurare presiune, temperatură, nivel, debit și calibrare. Cu aproximativ 11.000 de angajați și 45 de filiale și unități de producție la nivel mondial, WIKA e unul dintre principalii producători independenți de instrumente de măsurare. De ce independent contează? Pentru că nu sunt legați de un ecosistem specific de automatizare — produsele WIKA funcționează cu orice PLC, DCS sau SCADA.
 
 Un punct forte al WIKA este varietatea catalogului. Acesta cuprinde un număr foarte mare de tipuri de produse și variante — de la manometre mecanice cu filet 1/4" până la transmițători digitale wireless cu protocol LoRaWAN, acoperind o gamă largă de aplicații industriale.
 

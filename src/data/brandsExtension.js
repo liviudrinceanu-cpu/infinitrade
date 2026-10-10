@@ -11330,7 +11330,7 @@ export const BRANDS_EXTENSION = {
       "name": "Cipriani",
       "slug": "cipriani",
       "country": "Italia",
-      "description": "primul producător italian de schimbătoare de căldură cu plăci",
+      "description": "producător italian de schimbătoare de căldură cu plăci",
       "featured": false,
       "officialUrl": "https://www.cipriani-phe.com/",
       "wave": "2026-09",

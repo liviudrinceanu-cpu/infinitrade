@@ -127,7 +127,7 @@ Portofoliul Trelleborg include o-ring-uri și garnituri de diverse dimensiuni, i
       },
       {
         "q": "Livrați garnituri Trelleborg în România?",
-        "a": "Da, aducem la comandă garnituri Trelleborg pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de material și de dimensiune. Recomandăm confirmarea diametrului exact înainte de comandă."
+        "a": "Da, aducem la comandă garnituri Trelleborg pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de material și de dimensiune. Recomandăm confirmarea diametrului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de garnitură Trelleborg?",
@@ -545,7 +545,7 @@ Gama Vega acoperă mai multe tehnologii de măsurare a nivelului — radar ghida
       },
       {
         "q": "Livrați senzori de nivel VEGA în România?",
-        "a": "Da, aducem la comandă senzori VEGA pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de opțiunile de proces alese. Recomandăm confirmarea variantei exacte înainte de comandă."
+        "a": "Da, aducem la comandă senzori VEGA pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de opțiunile de proces alese. Recomandăm confirmarea variantei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de senzor radar VEGA?",
@@ -1186,7 +1186,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
       },
       {
         name: "Pompe de Recirculare Apă Caldă Wilo-Star-Z (Comfort)",
-        description: "Pompe mici dedicate recirculării continue a apei calde menajer în sistemele cu boiler central — elimină așteptarea la robinet pentru apă caldă, oferind confort instant. Funcționează la turație constantă sau, la variantele Star-Z-3, pe trei trepte de turație selectabile manual, conform paginii oficiale Wilo. Debit mic, racorduri G 1, G 1¼ sau G 1½, corp din bronz, temperatura lichidului până la 65°C (70°C scurt timp), conform paginii oficiale Wilo. Montare pe conducta de recirculare lângă boiler."
+        description: "Pompe mici dedicate recirculării continue a apei calde menajer în sistemele cu boiler central — elimină așteptarea la robinet pentru apă caldă, oferind confort instant. Funcționează la turație constantă sau, la variantele Star-Z-3, pe trei trepte de turație selectabile manual, conform documentației tehnice Wilo. Debit mic, racorduri G 1, G 1¼ sau G 1½, corp din bronz, temperatura lichidului până la 65°C (70°C scurt timp), conform documentației tehnice Wilo. Montare pe conducta de recirculare lângă boiler."
       }
     ],
     certifications: [
@@ -1299,7 +1299,7 @@ Gama Wilo HVAC acoperă toate nevoile — de la pompe mici pentru apartamente (2
     founded: 1945,
     headquarters: "Künzelsau, Germania",
     employees: "83,000+ angajați la nivel global",
-    overview: `Würth este un producător german important în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Când intri într-un atelier auto profesional sau într-o hală de producție bine organizată, vezi rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă, organizare (rack-uri, dispensere, organizatoare) și documentație tehnică. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins într-un furnizor global de consumabile industriale, cu un portofoliu foarte amplu de produse.
+    overview: `Würth este un producător german important în produse chimice tehnice și consumabile pentru industrie, ateliere, și construcții — de la spray-uri lubrifiere și curățare până la adezivi structurali, paste și produse de protecție. Într-un atelier auto profesional sau într-o hală de producție bine organizată se văd rafturi pline cu produse Würth în ambalajele lor roșii distinctive — asta pentru că Würth nu vinde doar chimicale, vinde sistem complet: produse de calitate constantă, organizare (rack-uri, dispensere, organizatoare) și documentație tehnică. Compania a pornit în 1945 ca distribuitor de șuruburi și s-a extins într-un furnizor global de consumabile industriale, cu un portofoliu foarte amplu de produse.
 
 Produsele Würth chimice se folosesc frecvent pe o gamă largă de aplicații — de la spray-uri degresante pentru curățarea pieselor înainte de vopsire, până la adezivi anaerobici pentru fixarea lagărelor, și paste anti-grippare pentru șuruburile din inox (ca să nu se sudeze prin coroziune galvanică).  Ambalajele sunt gândite pentru uz industrial greu — spray-uri cu valve robuste care nu se înfund, tuburi de adeziv cu duze de precizie, bidoane cu pompe dozatoare pentru ateliere.
 
@@ -1418,7 +1418,7 @@ Gama Würth chimice acoperă practic orice nevoie industrială — lubrifiere (s
       },
       {
         "q": "Aduceți produse chimice Würth la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă produse din gamele HHS, WIT sau spray-urile de întreținere, pe baza codului confirmat din catalogul oficial Würth. Nu ținem produsele chimice Würth pe raft în mod permanent; ne bazăm pe documentația tehnică a producătorului, iar termenul de livrare este de regulă 1–4 săptămâni. Este util să ne trimiteți fotografia codului de pe ambalaj."
+        "a": "Da, aducem la comandă produse din gamele HHS, WIT sau spray-urile de întreținere, pe baza codului confirmat din documentația tehnică Würth. Nu ținem produsele chimice Würth pe raft în mod permanent; ne bazăm pe documentația tehnică a producătorului, iar termenul de livrare este de regulă 1–4 săptămâni. Este util să ne trimiteți fotografia codului de pe ambalaj."
       },
       {
         "q": "Ce diferență este între HHS 2000 și HHS 5000 de la Würth?",
@@ -1590,7 +1590,7 @@ Portofoliul Yokogawa acoperă lanțul complet de automatizare de proces — de l
       },
       {
         "q": "Livrați traductoare de presiune Yokogawa în România?",
-        "a": "Da, traductoarele Yokogawa nu se află pe stoc propriu; le aducem la comandă, pe baza paginilor publice de produs ale producătorului, fără evidențe interne de disponibilitate. Termenul uzual variază între 1–4 săptămâni la comandă, în funcție de model, de opțiunile de comunicație și de certificările solicitate. Recomandăm confirmarea exactă a codului înainte de a plasa comanda."
+        "a": "Da, traductoarele Yokogawa nu se află pe stoc propriu; le aducem la comandă, pe baza documentației tehnice a producătorului, fără evidențe interne de disponibilitate. Termenul uzual variază între 1–4 săptămâni la comandă, în funcție de model, de opțiunile de comunicație și de certificările solicitate. Recomandăm confirmarea exactă a codului înainte de a plasa comanda."
       },
       {
         "q": "Ce informații trebuie să trimit pentru o ofertă de traductor Yokogawa?",

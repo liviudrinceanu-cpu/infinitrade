@@ -129,7 +129,7 @@ Completează gama pompele centrifugale din familia NT (conform DIN EN 733/ISO 28
       },
       {
         "q": "Livrați pompe Allweiler în România?",
-        "a": "Da, aducem la comandă pompe Allweiler pe baza paginilor publice de produs ale producătorului CIRCOR, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de materialul de construcție ales. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă pompe Allweiler pe baza documentației tehnice a producătorului CIRCOR, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de materialul de construcție ales. Recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă Allweiler?",
@@ -264,7 +264,7 @@ Pentru o companie de utilități sau un constructor de rețele din România, AVK
       },
       {
         "q": "Livrați vane și hidranți AVK în România?",
-        "a": "Da, aducem la comandă produse AVK pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal, de presiunea de lucru și de materialul de etanșare solicitat. Recomandăm confirmarea exactă a codului înainte de comandă."
+        "a": "Da, aducem la comandă produse AVK pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de diametrul nominal, de presiunea de lucru și de materialul de etanșare solicitat. Recomandăm confirmarea exactă a codului înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană AVK?",
@@ -418,7 +418,7 @@ Pentru un proiectant sau un integrator de sisteme HVAC din România, gama Belimo
       },
       {
         "q": "Livrați actuatoare și robinete Belimo în România?",
-        "a": "Da, aducem la comandă actuatoare și robinete Belimo pe baza documentației publice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de cuplul sau debitul necesar și de tipul de conexiune. Recomandăm confirmarea exactă a codului de model înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă actuatoare și robinete Belimo pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de cuplul sau debitul necesar și de tipul de conexiune. Recomandăm confirmarea exactă a codului de model înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de actuator Belimo?",
@@ -612,7 +612,7 @@ Un avantaj practic pentru un integrator de sisteme este gama proprie de servomot
       },
       {
         "q": "Livrați vane fluture Bray în România?",
-        "a": "Da, aducem la comandă vane fluture Bray pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de diametru și de tipul de acționare dorit. Recomandăm confirmarea exactă a codului seriei înainte de comandă."
+        "a": "Da, aducem la comandă vane fluture Bray pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă, de diametru și de tipul de acționare dorit. Recomandăm confirmarea exactă a codului seriei înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană fluture Bray?",
@@ -749,7 +749,7 @@ Ceea ce face Bürkert relevant pentru integratorii de sisteme e modularitatea: v
       },
       {
         "q": "Livrați electrovalve și senzori Bürkert în România?",
-        "a": "Da, aducem la comandă componente Bürkert pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de configurație. Recomandăm confirmarea codului de tip exact înainte de comandă."
+        "a": "Da, aducem la comandă componente Bürkert pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de tip și de configurație. Recomandăm confirmarea codului de tip exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de electrovalvă Bürkert?",
@@ -886,7 +886,7 @@ Pentru industria din România, gama Elmo Rietschle acoperă o nișă foarte prac
       },
       {
         "q": "Livrați pompe de vid Elmo Rietschle la comandă pentru clienți din România?",
-        "a": "Da, aducem la comandă pompe și suflante din gamele G-BH, VLU, VLR sau BV2, pe baza modelului confirmat din cataloagele oficiale ale producătorului. Nu ținem pompele Elmo Rietschle pe raft; le procurăm de la producător, în aproximativ 1–4 săptămâni. Recomandăm transmiterea codului de pe plăcuța echipamentului pentru identificarea variantei corecte."
+        "a": "Da, aducem la comandă pompe și suflante din gamele G-BH, VLU, VLR sau BV2, pe baza modelului confirmat din documentația tehnică a producătorului. Nu ținem pompele Elmo Rietschle pe raft; le procurăm de la producător, în aproximativ 1–4 săptămâni. Recomandăm transmiterea codului de pe plăcuța echipamentului pentru identificarea variantei corecte."
       },
       {
         "q": "Ce parametri trebuie precizați pentru o ofertă la o pompă de vid Elmo Rietschle?",
@@ -1151,7 +1151,7 @@ Element esențial al oricărei bucle moderne de control, poziționerele digitale
       },
       {
         "q": "Livrați robineți și poziționere Fisher în România?",
-        "a": "Da, aducem la comandă componente Fisher pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă componente Fisher pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de opțiunile solicitate. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de robinet de control Fisher?",
@@ -1430,7 +1430,7 @@ Un segment mai puțin vizibil, dar tehnic foarte solicitant, e gama de robineți
       },
       {
         "q": "Livrați vane KITZ în România?",
-        "a": "Da, aducem la comandă vane KITZ pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie, de materialul corpului și de tipul de scaun solicitat. Recomandăm confirmarea exactă a codului seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă vane KITZ pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de serie, de materialul corpului și de tipul de scaun solicitat. Recomandăm confirmarea exactă a codului seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană KITZ?",
@@ -1575,7 +1575,7 @@ Pentru industria de proces din România — rafinării, centrale termice, indust
       },
       {
         "q": "Livrați garnituri KLINGER în România?",
-        "a": "Da, aducem la comandă garnituri KLINGER pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de material și de dimensiunea flanșei. Recomandăm confirmarea codului exact înainte de comandă."
+        "a": "Da, aducem la comandă garnituri KLINGER pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de material și de dimensiunea flanșei. Recomandăm confirmarea codului exact înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de garnitură KLINGER?",
@@ -1867,7 +1867,7 @@ Legătura strânsă cu Valmet, un furnizor major de tehnologie pentru industria 
       },
       {
         "q": "Livrați vane și actuatoare Neles în România?",
-        "a": "Da, aducem la comandă vane și actuatoare Neles pe baza paginilor publice de produs ale producătorului Valmet, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă și de tipul de poziționer solicitat. Pentru Neles, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă vane și actuatoare Neles pe baza documentației tehnice a producătorului Valmet, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de seria aleasă și de tipul de poziționer solicitat. Pentru Neles, recomandăm confirmarea exactă a seriei înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de vană Neles?",
@@ -2137,7 +2137,7 @@ Pentru procese chimice și industria hârtiei, pompele Sulzer seria AHLSTAR ofer
       },
       {
         "q": "Livrați pompe Sulzer în România?",
-        "a": "Da, aducem la comandă pompe Sulzer pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model, de puterea motorului și de materialul rotorului. Recomandăm confirmarea exactă a tipului de pompă înainte de plasarea comenzii."
+        "a": "Da, aducem la comandă pompe Sulzer pe baza documentației tehnice a producătorului, fără date proprii de stoc. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model, de puterea motorului și de materialul rotorului. Recomandăm confirmarea exactă a tipului de pompă înainte de plasarea comenzii."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă Sulzer?",
@@ -2448,7 +2448,7 @@ Pentru operatorii de stații de epurare, instalații de biogaz și ferme din Rom
       },
       {
         "q": "Livrați pompe și maceratoare Vogelsang în România?",
-        "a": "Da, aducem la comandă echipamente Vogelsang pe baza paginilor publice de produs ale producătorului, fără date proprii de stoc. Timpul de livrare uzual este de 1–4 săptămâni din momentul comenzii, în funcție de model. Recomandăm confirmarea seriei exacte înainte de comandă."
+        "a": "Da, aducem la comandă echipamente Vogelsang pe baza documentației tehnice a producătorului, fără date proprii de stoc. Timpul de livrare uzual este de 1–4 săptămâni din momentul comenzii, în funcție de model. Recomandăm confirmarea seriei exacte înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de pompă cu lobi Vogelsang?",

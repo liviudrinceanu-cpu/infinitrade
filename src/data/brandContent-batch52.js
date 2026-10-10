@@ -28,7 +28,7 @@ Pentru piața din România, Milesight are sens acolo unde monitorizarea la dista
       "Agricultură — monitorizare irigație și condiții de mediu pe teren întins",
       "Depozite și hale de producție — senzori de temperatură și distanță fără cablare",
     ],
-    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din documentația tehnică a producătorului, fără date proprii despre stocuri sau termene de livrare ale distribuitorilor locali.`,
+    infinitrade: `Pentru senzorii și gateway-urile Milesight lucrăm cu gama prin canale de aprovizionare din Uniunea Europeană și aducem produsele la comandă, cu termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că vă rugăm să ne trimiteți codul exact al modelului (de exemplu seria UG, AM sau EM300) și, dacă e cazul, banda de frecvență LoRaWAN folosită în regiunea dumneavoastră. Precizăm ce putem și ce nu putem confirma: informațiile tehnice de mai sus provin din documentația tehnică a producătorului, fără date proprii despre stocuri sau termene de livrare externe.`,
     limitation: "Nu putem confirma acoperirea exactă a rețelei LoRaWAN publice din România și nici disponibilitatea locală de configurare a platformei cloud Milesight.",
     productCodes: [
       {
@@ -684,7 +684,7 @@ Pentru instalațiile din România, Cintropur are sens la surse proprii de apă (
       "Industria alimentară — pretratare mecanică a apei înainte de alte trepte",
       "Sisteme colective — filtrare și dezinfecție UV pentru clădiri cu surse proprii",
     ],
-    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 1–4 săptămâni. Fără date proprii despre stocurile producătorului sau ale distribuitorilor locali, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din documentația tehnică a producătorului Cintropur/Airwatec.`,
+    infinitrade: `Filtrele și sterilizatoarele UV Cintropur intră pe fluxul de aprovizionare din Uniunea Europeană, cu un termen orientativ de livrare de 1–4 săptămâni. Fără date proprii despre stocurile producătorului, avem nevoie de debitul instalației și de modelul exact al carcasei sau lămpii UV ca să pregătim o ofertă. Informațiile de mai sus provin din documentația tehnică a producătorului Cintropur/Airwatec.`,
     limitation: "Nu putem confirma compatibilitatea exactă a cartușelor de schimb cu instalații mai vechi Cintropur fără modelul precis al carcasei.",
     productCodes: [
       {
@@ -1227,7 +1227,7 @@ Pentru instalațiile industriale din România, Ashcroft are sens la măsurarea p
       "Industria alimentară — instrumente igienice pentru linii de proces",
       "HVAC și refrigerare — manometre și senzori pentru sisteme de climatizare",
     ],
-    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Datele tehnice le confirmăm pe cod, din documentația publică a producătorului.`,
+    infinitrade: `Manometrele și traductoarele Ashcroft se aduc la comandă prin canale de aprovizionare din Uniunea Europeană, cu un termen orientativ de 1–4 săptămâni de la confirmare. Nu avem disponibilitate permanentă din stoc pentru acest brand, așa că avem nevoie de domeniul de măsură, tipul de racord și materialul de contact pentru o ofertă corectă. Datele tehnice le confirmăm pe cod, din documentația tehnică a producătorului.`,
     limitation: "Nu putem confirma compatibilitatea materialului de contact cu fluidul dumneavoastră fără specificarea exactă a presiunii, temperaturii și mediului de lucru.",
     productCodes: [
       {

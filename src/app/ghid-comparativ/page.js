@@ -7,6 +7,7 @@ import { allCategoriesUnified } from '@/data/allBrandsIndex';
 import { CATEGORY_LEAD_TIME } from '@/data/leadTimes';
 import { safeJsonLd } from '@/lib/utils';
 import styles from './ghid-comparativ.module.css';
+import { deNum } from '@/lib/ro';
 
 export const metadata = {
   title: 'Ghid Comparativ Branduri Industriale',
@@ -404,7 +405,7 @@ export default function GhidComparativPage() {
               {allCategoriesUnified.map((category) => (
                 <Link key={category.slug} href={`/${category.slug}`} className={styles.categoryCard}>
                   <h3>{category.name}</h3>
-                  <span>{brandCount(category.slug)} branduri</span>
+                  <span>{brandCount(category.slug)} {deNum(brandCount(category.slug))}branduri</span>
                   <span className={styles.arrow} aria-hidden="true">→</span>
                 </Link>
               ))}

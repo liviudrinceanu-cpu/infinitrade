@@ -27,11 +27,11 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare p
       },
       {
         name: 'Senzori viziune FH/FZ Series',
-        description: 'Camere și controlere industriale pentru inspecție vizuală și detectarea defectelor. FH-5050 oferă algoritmi de viziune pre-configurați: citire coduri 1D/2D, OCR, măsurare dimensiuni, detectare culoare, verificare prezență, inspecție defecte. Setup prin FH-Configuration Tool vizual - desenezi zona de interes, setezi praguri, testezi live. Zero cunoștințe de programare necesare. FZ5 este un controler de viziune pentru camere industriale; funcțiile exacte depind de camera și de configurația aleasă. Ieșiri digitale directe sau comunicație Ethernet către PLC. Aplicații tipice: verificare etichete pe sticle, inspecție suduri pe carcase metalice, ghidare roboți pick-and-place. Carcasă IP67 pentru medii industriale dure.'
+        description: 'Camere și controlere industriale pentru inspecție vizuală și detectarea defectelor. FH-5050 oferă algoritmi de viziune pre-configurați: citire coduri 1D/2D, OCR, măsurare dimensiuni, detectare culoare, verificare prezență, inspecție defecte. Setup prin FH-Configuration Tool vizual - zona de interes se desenează, pragurile se setează, testul se rulează live; nu sunt necesare cunoștințe de programare. FZ5 este un controler de viziune pentru camere industriale; funcțiile exacte depind de camera și de configurația aleasă. Ieșiri digitale directe sau comunicație Ethernet către PLC. Aplicații tipice: verificare etichete pe sticle, inspecție suduri pe carcase metalice, ghidare roboți pick-and-place. Carcasă IP67 pentru medii industriale dure.'
       },
       {
         name: 'Roboți colaborativi TM Series',
-        description: 'Roboți cu 6 axe proiectați să lucreze alături de operatori umani fără garduri de protecție. TM5/TM12/TM14/TM20 cu sarcini utile între 4-20kg și rază de acțiune 700-1300mm. Siguranță colaborativă certificată TÜV (ISO 13849-1, ISO 10218-1, ISO/TS 15066), conform producătorului. Programare prin învățare directă - ghidezi brațul manual prin traiectorie, salvezi, replayezi. Interfața TMflow cu blocuri vizuale permite secvențe complexe fără să scrii cod. Grip inteligent cu senzori de forță adaptează presiunea la obiectul manevrat. Camera montată în încheietura mâinii pentru viziune integrată - detectare obiecte, identificare poziție, verificare calitate. Aplicații uzuale: alimentare mașini CNC, asamblare componente, paletizare, testare produse. Greutatea unui TM12 este de aproximativ 33 kg (cu cameră), conform producătorului.'
+        description: 'Roboți cu 6 axe proiectați să lucreze alături de operatori umani fără garduri de protecție. TM5/TM12/TM14/TM20 cu sarcini utile între 4-20kg și rază de acțiune 700-1300mm. Siguranță colaborativă certificată TÜV (ISO 13849-1, ISO 10218-1, ISO/TS 15066), conform producătorului. Programare prin învățare directă - brațul se ghidează manual prin traiectorie, aceasta se salvează și se reia. Interfața TMflow cu blocuri vizuale permite secvențe complexe fără să scrii cod. Grip inteligent cu senzori de forță adaptează presiunea la obiectul manevrat. Camera montată în încheietura mâinii pentru viziune integrată - detectare obiecte, identificare poziție, verificare calitate. Aplicații uzuale: alimentare mașini CNC, asamblare componente, paletizare, testare produse. Greutatea unui TM12 este de aproximativ 33 kg (cu cameră), conform producătorului.'
       }
     ],
     certifications: [
@@ -160,7 +160,7 @@ Din 1933 până azi, Omron a livrat relee, senzori și sisteme de automatizare p
       },
       {
         "q": "Ce trebuie să trimit pentru o ofertă de controler sau servo Omron?",
-        "a": "Cel mai util este codul complet al controlerului sau al perechii motor-drive, dacă îl aveți de pe o mașină existentă, plus numărul de axe controlate și tipul de rețea folosit (EtherCAT, EtherNet/IP). Pentru un proiect nou, precizați puterea motoarelor și cerințele de sincronizare, iar noi identificăm seria Omron potrivită din cataloagele oficiale."
+        "a": "Cel mai util este codul complet al controlerului sau al perechii motor-drive, dacă îl aveți de pe o mașină existentă, plus numărul de axe controlate și tipul de rețea folosit (EtherCAT, EtherNet/IP). Pentru un proiect nou, precizați puterea motoarelor și cerințele de sincronizare, iar noi identificăm seria Omron potrivită din documentația tehnică."
       },
       {
         "q": "Ce înseamnă seria G la servomotoarele Omron?",
@@ -699,7 +699,7 @@ Tehnologia lor Ex (explosion protection) acoperă toate conceptele: intrinsec si
       },
       {
         name: 'Viziune industrială VOS seria 2D/3D',
-        description: 'Sisteme smart camera pentru aplicații robot guidance, quality inspection și measurement. Rezoluția și funcțiile software depind de modelul VOS. Algoritmi pre-configurați: pattern matching, blob analysis, OCR, barcode reading, edge detection, color verification. VOS 3D combină laser line proiector cu cameră 2D pentru scanare 3D - măsurare volum, înălțime, defecte suprafață.  Configurare prin web interface - desenezi zona interes, setezi parametri, testezi live. Zero programming - wizard ghidat. Aplicații: verificare prezență componente pe PCB, OCR expiry date pe ambalaje, măsurare dimensiuni piese turnate, ghidare robot pick-and-place cu corectare poziție. Comunicație Ethernet TCP/IP, Profinet, EtherNet/IP - trimite direct coordonate la robot. Trigger extern sau freerun mode. Iluminare LED integrată sau control stroboscop extern pentru obiecte în mișcare rapidă. Carcasă IP67 pentru medii industriale. Temperatura -10°C până +50°C. Lentile varifocal sau fix-focus în funcție de distanță lucru. Software PC pentru setup avansat și debugging. Training și suport tehnic pentru aplicații complexe.'
+        description: 'Sisteme smart camera pentru aplicații robot guidance, quality inspection și measurement. Rezoluția și funcțiile software depind de modelul VOS. Algoritmi pre-configurați: pattern matching, blob analysis, OCR, barcode reading, edge detection, color verification. VOS 3D combină laser line proiector cu cameră 2D pentru scanare 3D - măsurare volum, înălțime, defecte suprafață.  Configurare prin web interface - zona de interes se desenează, parametrii se setează, testul se rulează live; configurare ghidată, fără programare. Aplicații: verificare prezență componente pe PCB, OCR expiry date pe ambalaje, măsurare dimensiuni piese turnate, ghidare robot pick-and-place cu corectare poziție. Comunicație Ethernet TCP/IP, Profinet, EtherNet/IP - trimite direct coordonate la robot. Trigger extern sau freerun mode. Iluminare LED integrată sau control stroboscop extern pentru obiecte în mișcare rapidă. Carcasă IP67 pentru medii industriale. Temperatura -10°C până +50°C. Lentile varifocal sau fix-focus în funcție de distanță lucru. Software PC pentru setup avansat și debugging. Training și suport tehnic pentru aplicații complexe.'
       }
     ],
     certifications: [
@@ -1065,7 +1065,7 @@ Producătorul este prezent în peste 100 de țări și are 11 facilități de pr
       },
       {
         "q": "Livrați relee și alimentatoare Phoenix în România?",
-        "a": "Da, aducem la comandă componente Phoenix pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de cantitate. Confirmarea codului exact înainte de comandă evită întârzierile de identificare."
+        "a": "Da, aducem la comandă componente Phoenix pe baza documentației tehnice a producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă, în funcție de model și de cantitate. Confirmarea codului exact înainte de comandă evită întârzierile de identificare."
       },
       {
         "q": "Ce trimit pentru o ofertă de relee interfață Phoenix?",
@@ -1198,7 +1198,7 @@ Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germa
       },
       {
         "q": "Livrați conectori și cleme Phoenix Contact în România?",
-        "a": "Da, aducem la comandă conectori și cleme Phoenix Contact pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm indicarea codului complet pentru evitarea confuziilor între variantele foarte apropiate ca denumire."
+        "a": "Da, aducem la comandă conectori și cleme Phoenix Contact pe baza documentației tehnice a producătorului, fără gama pe raft permanent. Termenul obișnuit este de 1–4 săptămâni la comandă. Recomandăm indicarea codului complet pentru evitarea confuziilor între variantele foarte apropiate ca denumire."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de conectori M12 Phoenix Contact?",
@@ -1219,7 +1219,7 @@ Phoenix Contact este un grup internațional cu sediul central la Blomberg, Germa
     founded: 1948,
     headquarters: 'Ostfildern, Germania',
     employees: '2,500+',
-    overview: `Pilz GmbH & Co. KG este un pionier al tehnologiilor de siguranță industrială și a automatizărilor safety. Fondată în 1948, compania a introdus în 1987 releul de siguranță PNOZ pentru circuite de oprire de urgență; sistemul de siguranță liber configurabil PNOZmulti a apărut în 2002. Astăzi Pilz oferă ecosistem complet de automatizare sigură: relee safety, controlere safety PLC, senzori safety (light curtains, door switches, safety laser scanners), sisteme de comandă bimanuală, module safety I/O distribuite. Când proiectezi o mașină conform EN ISO 13849-1 sau IEC 62061 și trebuie să atingi Performance Level PLe sau SIL3, se pot utiliza și componente Pilz, cu certificările indicate de producător pentru fiecare model.
+    overview: `Pilz GmbH & Co. KG este un pionier al tehnologiilor de siguranță industrială și a automatizărilor safety. Fondată în 1948, compania a introdus în 1987 releul de siguranță PNOZ pentru circuite de oprire de urgență; sistemul de siguranță liber configurabil PNOZmulti a apărut în 2002. Astăzi Pilz oferă ecosistem complet de automatizare sigură: relee safety, controlere safety PLC, senzori safety (light curtains, door switches, safety laser scanners), sisteme de comandă bimanuală, module safety I/O distribuite. Când se proiectează o mașină conform EN ISO 13849-1 sau IEC 62061 și trebuie să atingi Performance Level PLe sau SIL3, se pot utiliza și componente Pilz, cu certificările indicate de producător pentru fiecare model.
 
 Tehnologia PNOZ acoperă toate funcțiile de siguranță: monitorizare emergency stop, safety gate monitoring cu guard locking, two-hand control, speed/standstill monitoring, light curtain evaluation. PSENcode sisteme codificate pentru protecție acces previne defeat simplu. PSENopt light curtains, disponibile în variante Type 2, Type 3 și Type 4, pentru protecția degetelor, a mâinilor sau a corpului. SafetyEYE este un sistem sigur de cameră pentru supravegherea spațiului în 3D. PNOZmulti 2 combină logica safety programabilă cu I/O integrate într-o singură unitate configurabilă prin software. PLC PSS4000 oferă logică safety SIL3 integrată cu automation standard într-o platformă unică.
 
@@ -1352,7 +1352,7 @@ Pilz are 42 de filiale și sucursale în lume și 25 de parteneri comerciali; di
       },
       {
         "q": "Livrați relee de siguranță Pilz în România?",
-        "a": "Da, aducem la comandă relee de siguranță Pilz pe baza paginilor publice de produs ale producătorului, fără gama pe raft permanent. Contați pe un termen de livrare de 1–4 săptămâni de la comandă, variabil în funcție de model. Recomandăm confirmarea codului exact al releului existent înainte de comandă."
+        "a": "Da, aducem la comandă relee de siguranță Pilz pe baza documentației tehnice a producătorului, fără gama pe raft permanent. Contați pe un termen de livrare de 1–4 săptămâni de la comandă, variabil în funcție de model. Recomandăm confirmarea codului exact al releului existent înainte de comandă."
       },
       {
         "q": "Ce informații trimit pentru o ofertă de relee Pilz PNOZ?",

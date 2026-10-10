@@ -1356,7 +1356,7 @@ Ce diferențiază Cognex este gama largă de aplicații în care sunt folosite s
       },
       {
         "q": "Livrați cititoare de coduri de bare Cognex DataMan în România?",
-        "a": "Da, procurăm la comandă cititoare fixe din familia DataMan, pe baza referinței confirmate de client din documentația oficială Cognex. Nu păstrăm această gamă pe raft; ne bazăm pe informațiile publicate de Cognex despre disponibilitate, iar livrarea durează în general 1–4 săptămâni. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent, pentru identificarea variantei potrivite."
+        "a": "Da, procurăm la comandă cititoare fixe din familia DataMan, pe baza referinței confirmate de client din documentația tehnică Cognex. Nu păstrăm această gamă pe raft; ne bazăm pe informațiile publicate de Cognex despre disponibilitate, iar livrarea durează în general 1–4 săptămâni. Recomandăm transmiterea codului complet de pe eticheta echipamentului existent, pentru identificarea variantei potrivite."
       },
       {
         "q": "Ce trebuie să includ într-o cerere de ofertă pentru un sistem de vedere Cognex?",

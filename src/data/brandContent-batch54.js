@@ -1287,7 +1287,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "T4D",
-        "description": "Piesă de schimb pentru menghină IRWIN; denumirea exactă se confirmă din catalogul oficial."
+        "description": "Piesă de schimb pentru menghină IRWIN; denumirea exactă se confirmă din documentația tehnică."
       },
       {
         "code": "T5C",
@@ -1295,11 +1295,11 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "226800",
-        "description": "Clemă IRWIN; tipul exact se confirmă din catalogul oficial."
+        "description": "Clemă IRWIN; tipul exact se confirmă din documentația tehnică."
       },
       {
         "code": "IWHT39393S",
-        "description": "Ruletă STRAIT-LINE; lungimea exactă se confirmă din catalogul oficial."
+        "description": "Ruletă STRAIT-LINE; lungimea exactă se confirmă din documentația tehnică."
       },
       {
         "code": "IWHT48443",
@@ -1311,7 +1311,7 @@ Pentru România, gama Irwin are sens la firmele de instalații sanitare și elec
       },
       {
         "code": "IWHT55210",
-        "description": "Rangă IRWIN; dimensiunea și tipul exact se confirmă din catalogul oficial."
+        "description": "Rangă IRWIN; dimensiunea și tipul exact se confirmă din documentația tehnică."
       },
       {
         "code": "IWHT51220",
@@ -1442,7 +1442,7 @@ Pentru România, gama Bacharach are sens la firmele de mentenanță a instalați
       },
       {
         "q": "Livrați instrumente Bacharach în România?",
-        "a": "Instrumentele Bacharach se comandă special, cu un termen uzual de două până la patru săptămâni, fără stoc propriu păstrat pentru această gamă. Durata exactă depinde de model și de disponibilitatea curentă la producător. Codurile și denumirile modelelor provin din paginile publice ale producătorului, nu dintr-o bază proprie de evidență."
+        "a": "Instrumentele Bacharach se comandă special, cu un termen uzual de două până la patru săptămâni, fără stoc propriu păstrat pentru această gamă. Durata exactă depinde de model și de disponibilitatea curentă la producător. Codurile și denumirile modelelor provin din documentația tehnică a producătorului, nu dintr-o bază proprie de evidență."
       }
     ],
     evidenceClass: "market-signal-intl",

@@ -213,7 +213,7 @@ Pentru instalatorii și operatorii de stații de pompare din România, HOMA îns
       "Agricultură și biogaz — transport lichide și nămoluri",
       "Minerit — evacuare ape de infiltrație"
     ],
-    infinitrade: `Pentru pompele HOMA ne bazăm pe cataloagele publice ale producătorului; parametrii exacți de debit și înălțime se verifică pe fișa tehnică a modelului cerut. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; pentru piese de uzură curente (garnituri, rotoare) livrarea poate fi de 24–72 h din stoc, în funcție de disponibilitate. Pentru ofertă avem nevoie de debitul necesar, înălțimea de pompare, tipul de apă uzată (menajeră, industrială, cu fibre) și trecerea liberă minimă cerută. Nu instalăm pompele și nu oferim service în perioada de garanție a producătorului.`,
+    infinitrade: `Pentru pompele HOMA ne bazăm pe documentația tehnică a producătorului; parametrii exacți de debit și înălțime se verifică pe fișa tehnică a modelului cerut. Aducem pompele la comandă prin canale de aprovizionare din UE, cu termen orientativ de 1–4 săptămâni; pentru piese de uzură curente (garnituri, rotoare) livrarea poate fi de 24–72 h din stoc, în funcție de disponibilitate. Pentru ofertă avem nevoie de debitul necesar, înălțimea de pompare, tipul de apă uzată (menajeră, industrială, cu fibre) și trecerea liberă minimă cerută. Nu instalăm pompele și nu oferim service în perioada de garanție a producătorului.`,
     limitation: "Nu oferim instalare sau punere în funcțiune și nu confirmăm compatibilitatea cu softul de selecție HOP.Sel al producătorului fără verificare directă.",
     productCodes: [
       { code: "TP50", description: "Pompă submersibilă fontă, trecere liberă 50–62 mm" },

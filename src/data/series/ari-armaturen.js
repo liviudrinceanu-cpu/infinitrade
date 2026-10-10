@@ -112,7 +112,7 @@ export const series = [
     "name": "PREDEX®",
     "oneLine": "Regulator de suprapresiune ARI, montaj drept, cu servomotor cu membrană, fără energie auxiliară.",
     "lifecycle": "activ",
-    "lifecycleNote": "Fișa tehnică ARI-PREDEX 705001 este curentă în documentația producătorului; nu am identificat o notă de retragere din fabricație.",
+    "lifecycleNote": "Fișa tehnică ARI-PREDEX 705001 este curentă în documentația producătorului; nu putem confirma o declarație de retragere din fabricație.",
     "intro": "ARI-PREDEX este un regulator de suprapresiune (overflow) în montaj drept, acționat de un servomotor cu membrană, care limitează presiunea din amonte fără a folosi energie auxiliară. Codul de comandă combină clasa de presiune și materialul corpului, de exemplu 22.705 pentru PN16 în fontă nodulară sau 65.705 pentru PN40 în inox; domeniul acoperit este DN15–DN150, la PN16, PN25 sau PN40, cu servomotoare din gama UDA40–UDA400 pentru diverse plaje de reglaj.\n\nPentru o ofertă avem nevoie de DN, treapta de presiune (PN), domeniul de presiune dorit pentru reglaj, mediul vehiculat, temperatura de lucru și materialul corpului preferat. Livrarea unui regulator nou se face la comandă din Uniunea Europeană, în 1–4 săptămâni; nu efectuăm noi calculul de dimensionare al servomotorului.",
     "models": [
       {

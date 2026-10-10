@@ -192,7 +192,7 @@ Pentru piața din România, Carr Lane înseamnă acces la componente de fixare s
       "Aerospațial — dispozitive de prindere pentru prelucrare și inspecție de precizie",
     ],
     certifications: ["ISO 9001:2015 — management al calității pentru fabricația proprie"],
-    infinitrade: `Nu avem date proprii de stoc pentru gama Carr Lane; lucrăm din catalogul public al producătorului și din formatul oficial de codificare a pieselor. Carr Lane nu are rețea de distribuție vizibilă în Europa, așa că aducem componentele la comandă prin import, cu termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă avem nevoie de codul complet al piesei (format CL- pentru majoritatea componentelor, cod ANSI pentru bucșele de ghidaj) sau, dacă nu aveți codul, de desenul cu dimensiunile cerute — nu promitem disponibilitate din depozit pentru această gamă.`,
+    infinitrade: `Nu avem date proprii de stoc pentru gama Carr Lane; lucrăm din documentația tehnică a producătorului și din formatul oficial de codificare a pieselor. Carr Lane nu are rețea de distribuție vizibilă în Europa, așa că aducem componentele la comandă prin import, cu termen orientativ 1–4 săptămâni, în funcție de confirmarea producătorului și de transport. Pentru o ofertă avem nevoie de codul complet al piesei (format CL- pentru majoritatea componentelor, cod ANSI pentru bucșele de ghidaj) sau, dacă nu aveți codul, de desenul cu dimensiunile cerute — nu promitem disponibilitate din depozit pentru această gamă.`,
     limitation: "Nu putem confirma echivalența exactă a unui cod Carr Lane cu o piesă deja montată fără desenul tehnic sau codul complet, mai ales la componentele modulare KOSMEK unde configurația variază pe proiect.",
     productCodes: [
       { code: "CL-373-RLT", description: "Bolț rotund de localizare cu șurub de fixare" },
@@ -237,7 +237,6 @@ Pentru piața din România, Jergens înseamnă acces la componente de schimbare 
       "Sistem Ball Lock® cu tije de la 13 la 50 mm, în variante țoli și metrică pe fiecare dimensiune",
       "Certificare AS9100:2016 (sistem de management al calității pentru aerospațial), alături de ISO 9001:2015",
       "Trei unități de afaceri dedicate — fixare, ridicare și elemente de fixare speciale",
-      "Filiale proprii în Asia (Shanghai și India) și reprezentanți cu distribuitori cu stoc în Europa, Canada și America Latină",
     ],
     keyProducts: [
       {
@@ -262,7 +261,7 @@ Pentru piața din România, Jergens înseamnă acces la componente de schimbare 
       "Aerospațial — componente de la un producător certificat AS9100",
     ],
     certifications: ["ISO 9001:2015 — management al calității", "AS9100:2016 — sistem de management al calității pentru aerospațial"],
-    infinitrade: `Nu deținem date proprii de stoc pentru gama Jergens, așa că lucrăm din catalogul public al producătorului pentru fiecare cod transmis. Jergens are reprezentanți și distribuitori cu stoc în Europa, Canada, Asia și America Latină, plus filiale proprii în Shanghai și India; aducem componentele la comandă, cu termen orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă avem nevoie de codul complet al tijei Ball Lock sau al inelului de ridicare (de exemplu 49601 sau 49651) și de diametrul/capacitatea cerută — nu ținem această gamă pe raft.`,
+    infinitrade: `Nu deținem date proprii de stoc pentru gama Jergens, așa că lucrăm din documentația tehnică a producătorului pentru fiecare cod transmis. Aducem componentele la comandă, cu termen orientativ 1–4 săptămâni de la confirmare. Pentru o ofertă avem nevoie de codul complet al tijei Ball Lock sau al inelului de ridicare (de exemplu 49601 sau 49651) și de diametrul/capacitatea cerută — nu ținem această gamă pe raft.`,
     limitation: "Nu putem confirma compatibilitatea exactă a unei tije Ball Lock cu o bucșă receptoare deja montată de alt furnizor fără codul complet sau desenul de interfață, mai ales la configurațiile mixte țoli-metric.",
     productCodes: [
       { code: "49601", description: "Tijă Ball Lock, 20 mm diametru, variantă țoli" },
@@ -283,7 +282,7 @@ Pentru piața din România, Jergens înseamnă acces la componente de schimbare 
     faq: [
       { q: "Ce produce Jergens Inc?", a: "Jergens produce sisteme de fixare modulară (Ball Lock®, Zero Point), inele de ridicare, cleme toggle și componente OEM/MRO precum mânere și știfturi cu arc, folosite mai ales la schimbarea rapidă a paletelor de lucru pe mașini-unelte și la ridicarea controlată a pieselor grele." },
       { q: "Cum aleg o tijă Ball Lock de la Jergens Inc după cod?", a: "Codul numeric (de exemplu 49601) corespunde unei combinații fixe de diametru și variantă țoli sau metrică; transmiteți diametrul de montaj și tipul de filet existent, iar noi identificăm codul echivalent exact din gama Jergens pentru comandă." },
-      { q: "Se poate procura Jergens în România sau Europa?", a: "Da — Jergens are reprezentanți și distribuitori cu stoc în Europa, Canada, Asia și America Latină, potrivit documentației producătorului. Aducem componentele la comandă, cu termen orientativ 1–4 săptămâni." },
+      { q: "Se poate procura Jergens în România sau Europa?", a: "Da — aducem componentele la comandă, cu termen orientativ 1–4 săptămâni." },
       { q: "Ce garanții de calitate oferă Jergens pentru componente aerospațiale?", a: "Jergens deține certificarea AS9100:2016, standardul de management al calității specific industriei aerospațiale, alături de ISO 9001:2015 pentru fabricația generală." },
       { q: "Ce trebuie să trimit pentru o ofertă de sistem Ball Lock Jergens?", a: "Aveți nevoie să trimiteți diametrul tijei sau al bucșei receptoare, varianta țoli sau metrică și numărul de puncte de fixare necesare pe paletă. Cu aceste date verificăm codul exact din gama Jergens înainte de a confirma oferta." },
     ],
@@ -476,7 +475,7 @@ Pentru piața din România, OPW înseamnă acces la echipamente de alimentare ș
       "Petrol și gaze — echipamente de alimentare și siguranță pentru stații de distribuție",
       "Chimie — brațe de încărcare și racorduri rapide pentru transport de substanțe chimice",
     ],
-    infinitrade: `Nu ținem produse OPW pe stoc; lucrăm din catalogul public al producătorului și din liniile dedicate OPW Fluid Transfer Group Europe pentru piața europeană. Fiind un brand cu prezență proprie în Europa, aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de codul cerut și de confirmarea producătorului. Pentru o ofertă avem nevoie de codul exact al pistolului sau al componentei (de exemplu 21A, 21ADB, 7HB), tipul de combustibil sau substanță manipulată și standardul de recuperare de vapori cerut de autorizația stației.`,
+    infinitrade: `Nu ținem produse OPW pe stoc; lucrăm din documentația tehnică a producătorului și din liniile dedicate OPW Fluid Transfer Group Europe pentru piața europeană. Fiind un brand cu prezență proprie în Europa, aducem echipamentele la comandă prin canale de aprovizionare din UE, cu termen orientativ 1–4 săptămâni, în funcție de codul cerut și de confirmarea producătorului. Pentru o ofertă avem nevoie de codul exact al pistolului sau al componentei (de exemplu 21A, 21ADB, 7HB), tipul de combustibil sau substanță manipulată și standardul de recuperare de vapori cerut de autorizația stației.`,
     limitation: "Nu putem confirma conformitatea unei configurații complete de pistol și breakaway cu reglementările locale de mediu ale unei stații fără verificarea directă a documentației tehnice la comandă.",
     productCodes: [
       { code: "21A", description: "Pistol convențional din seria 21" },

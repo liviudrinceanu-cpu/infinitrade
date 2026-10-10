@@ -199,7 +199,7 @@ export default function DesprePage() {
               </div>
             </div>
             <p className="text-xs text-gray-400 mt-8 text-center">
-              Ultima actualizare: Februarie 2026
+              Ultima actualizare: Octombrie 2026
             </p>
           </div>
         </section>
@@ -219,7 +219,7 @@ export default function DesprePage() {
                   Solicitați ofertă
                 </a>
                 <a href="tel:+40371232404" className={styles.ctaSecondary}>
-                  Sună: +40 371 232 404
+                  Sunați: +40 371 232 404
                 </a>
               </div>
             </div>
