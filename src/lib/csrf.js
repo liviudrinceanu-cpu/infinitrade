@@ -64,9 +64,8 @@ export function validateCsrf(request) {
   // Check if origin is allowed
   const isAllowed = ALLOWED_ORIGINS.some(allowed => {
     if (!allowed) return false;
-    // Exact match or subdomain match
-    return requestOrigin === allowed ||
-           requestOrigin.endsWith('.' + new URL(allowed).hostname);
+    // v58: doar potrivire exactă (înainte era acceptat orice subdomeniu *.infinitrade.ro).
+    return requestOrigin === allowed;
   });
 
   if (!isAllowed) {

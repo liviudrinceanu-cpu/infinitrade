@@ -16,7 +16,8 @@ const nextConfig = {
         hostname: 'infinitrade.ro',
       },
     ],
-    formats: ['image/avif', 'image/webp'],
+    // v58 (audit): fără AVIF — advisory Next 14 pe Image Optimization cu AVIF; WebP rămâne.
+    formats: ['image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year cache for optimized images

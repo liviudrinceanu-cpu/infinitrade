@@ -134,7 +134,12 @@ export async function GET(request) {
 
     const escapeCSV = (str) => {
       if (!str) return '';
-      const escaped = str.toString().replace(/"/g, '""');
+      // v58: neutralizează formulele (=, +, -, @, tab, CR) venite din formularul public,
+      // ca să nu se execute când CSV-ul e deschis în Excel/Sheets.
+      let value = str.toString();
+      // Numerele de telefon (+40 …) rămân neatinse: doar cifre, spații, ( ) . - +.
+      if (/^[=+\-@\t\r]/.test(value) && !/^\+?[\d\s().-]+$/.test(value)) value = `'${value}`;
+      const escaped = value.replace(/"/g, '""');
       return escaped.includes(',') || escaped.includes('\n') || escaped.includes('"')
         ? `"${escaped}"`
         : escaped;

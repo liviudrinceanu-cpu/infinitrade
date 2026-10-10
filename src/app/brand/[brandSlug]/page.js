@@ -11,6 +11,26 @@ import { getSeriesForBrand } from '@/data/series/_index';
 import { brandSeoMeta } from '@/data/brandSeoMeta';
 import { hasProductTypePage } from '@/data/productTypeContent/_index';
 
+// v58: etichete scurte de categorie pentru titlul paginii de brand.
+const CATEGORY_SHORT = {
+  'Pompe Industriale': 'pompe industriale',
+  'Robineți Industriali': 'robineți industriali',
+  'Motoare Electrice Industriale': 'motoare electrice',
+  'Schimbătoare de Căldură Industriale': 'schimbătoare de căldură',
+  'Suflante și Ventilatoare Industriale': 'suflante și ventilatoare',
+  'Automatizări Industriale': 'automatizări industriale',
+  'Senzori și Instrumentație': 'senzori și instrumentație',
+  'Componente Hidraulice și Pneumatice': 'hidraulică și pneumatică',
+  'Echipamente Electrice și Automatizare': 'echipamente electrice',
+  'Componente Mecanice și Transmisii': 'componente mecanice',
+  'Filtre și Consumabile Industriale': 'filtre industriale',
+  'Scule și Instrumente de Măsură': 'scule și instrumente',
+  'Echipamente Termice și Climatizare': 'echipamente termice',
+  'Lubrifianți și Chimice Industriale': 'lubrifianți industriali',
+  'Echipamente Auxiliare și Protecție': 'echipamente auxiliare',
+  'Aparate de Măsură și Testare': 'aparate de măsură',
+};
+
 // Generate static params for all brand pages (simple slugs)
 export async function generateStaticParams() {
   return getAllBrandSlugs().map((slug) => ({
@@ -34,14 +54,17 @@ export async function generateMetadata({ params }) {
   // variant that fits), description 110–160 characters (the brand
   // description is trimmed on a word boundary, never mid-word).
   const dupOf = getPrimaryForDuplicate(brand.simpleSlug);
+  // v58 (audit): același model ca titlurile scrise manual (v39) pentru toate
+  // celelalte branduri — „{Brand} România – {categoria} | Infinitrade”.
+  const shortCategory = CATEGORY_SHORT[brand.categories[0]?.name] || String(brand.categories[0]?.name || '').toLowerCase();
   const titleVariants = [
     ...(dupOf ? [`${brand.name} (${brand.categories[0].name}) | Infinitrade`, `${brand.name} (${brand.categories[0].name})`] : []),
-    `${brand.name} | Catalog Produse 2026 | Infinitrade`,
-    `${brand.name} | Catalog 2026 | Infinitrade`,
+    `${brand.name} România – ${shortCategory} | Infinitrade`,
+    `${brand.name} România – ${shortCategory}`,
     `${brand.name} | Infinitrade`,
     brand.name,
   ];
-  const title = { absolute: titleVariants.find((t) => t.length <= 65) || brand.name };
+  const title = { absolute: titleVariants.find((t) => t.length <= 60) || brand.name };
   // v31 (D-2026-09-28): coada și începutul descrierii variază determinist pe
   // brand (aceeași pagină primește mereu aceeași variantă), ca ~1.200 de
   // descrieri să nu repete aceeași frază. Toate variantele sunt fapte
