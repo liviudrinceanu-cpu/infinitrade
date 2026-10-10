@@ -156,7 +156,7 @@
 }
 
 .featureList li svg {
-  color: #37c67f;
+  color: #1b7f4f;
   flex-shrink: 0;
 }
 
@@ -308,7 +308,7 @@
 
 .officialYear {
   font-size: 13px;
-  color: #37c67f;
+  color: #1b7f4f;
   font-weight: 500;
 }
 

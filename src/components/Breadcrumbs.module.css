@@ -99,3 +99,20 @@
     white-space: nowrap;
   }
 }
+
+/* v59: ținte tactile ≥ 44 px pe mobil (WCAG 2.5.8), fără modificare vizuală */
+@media (max-width: 768px) {
+  .link {
+    position: relative;
+  }
+
+  .link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    right: -12px;
+    height: 44px;
+    transform: translateY(-50%);
+  }
+}

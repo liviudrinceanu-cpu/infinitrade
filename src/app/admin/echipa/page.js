@@ -152,11 +152,11 @@ export default function EchipaPage() {
           <table className={styles.table}>
             <thead>
               <tr>
-                <th>Utilizator</th>
-                <th>Rol</th>
-                <th>Cereri asignate</th>
-                <th>Data înregistrării</th>
-                {isAdmin && <th>Acțiuni</th>}
+                <th scope="col">Utilizator</th>
+                <th scope="col">Rol</th>
+                <th scope="col">Cereri asignate</th>
+                <th scope="col">Data înregistrării</th>
+                {isAdmin && <th scope="col">Acțiuni</th>}
               </tr>
             </thead>
             <tbody>

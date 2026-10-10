@@ -180,7 +180,7 @@ function renderContent(content) {
             <thead>
               <tr>
                 {headerRow.map((cell, i) => (
-                  <th key={i}>{cell}</th>
+                  <th scope="col" key={i}>{cell}</th>
                 ))}
               </tr>
             </thead>

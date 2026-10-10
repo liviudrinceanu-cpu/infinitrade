@@ -831,30 +831,30 @@ export default function GhidSeapPage() {
                 <h3 className={styles.prosConsTitle}>Achiziții SEAP</h3>
 
                 <div className={styles.prosSection}>
-                  <h4 style={{color: '#10b981', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                  <h4 style={{color: '#047857', display: 'flex', alignItems: 'center', gap: '8px'}}>
                     <CheckCircle size={20} /> Avantaje SEAP
                   </h4>
                   <ul className={styles.prosList}>
-                    <li><span style={{color: '#10b981'}}>✓</span> Transparență totală și trasabilitate completă</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Prețuri competitive prin licitație deschisă</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Audit trail complet pentru verificări</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Documentație completă conform cerințelor legale</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Protecție împotriva acuzațiilor de favoritism</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Documentație standardizată și verificată</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Transparență totală și trasabilitate completă</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Prețuri competitive prin licitație deschisă</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Audit trail complet pentru verificări</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Documentație completă conform cerințelor legale</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Protecție împotriva acuzațiilor de favoritism</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Documentație standardizată și verificată</li>
                   </ul>
                 </div>
 
                 <div className={styles.consSection}>
-                  <h4 style={{color: '#ef4444', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                  <h4 style={{color: '#b91c1c', display: 'flex', alignItems: 'center', gap: '8px'}}>
                     <AlertCircle size={20} /> Dezavantaje SEAP
                   </h4>
                   <ul className={styles.consList}>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Proces birocratic complex și consumator de timp</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Termene lungi: 30-90 zile de la anunț la livrare</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Documentație voluminoasă (DUAE, certificate, declarații)</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Risc de contestații care prelungesc procesul</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Dificil de modificat specificațiile după publicare</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Costuri administrative pentru pregătire dosar</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Proces birocratic complex și consumator de timp</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Termene lungi: 30-90 zile de la anunț la livrare</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Documentație voluminoasă (DUAE, certificate, declarații)</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Risc de contestații care prelungesc procesul</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Dificil de modificat specificațiile după publicare</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Costuri administrative pentru pregătire dosar</li>
                   </ul>
                 </div>
               </div>
@@ -864,30 +864,30 @@ export default function GhidSeapPage() {
                 <h3 className={styles.prosConsTitle}>Achiziții Directe</h3>
 
                 <div className={styles.prosSection}>
-                  <h4 style={{color: '#10b981', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                  <h4 style={{color: '#047857', display: 'flex', alignItems: 'center', gap: '8px'}}>
                     <CheckCircle size={20} /> Avantaje Direct
                   </h4>
                   <ul className={styles.prosList}>
-                    <li><span style={{color: '#10b981'}}>✓</span> Rapiditate: livrare în 24–72 h pentru reperele din stoc</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Flexibilitate în negociere și specificații</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Relație directă cu furnizorul pentru suport</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Suport tehnic personalizat și consultanță</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Posibilitate modificări în timpul proiectului</li>
-                    <li><span style={{color: '#10b981'}}>✓</span> Proces administrativ minimal</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Rapiditate: livrare în 24–72 h pentru reperele din stoc</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Flexibilitate în negociere și specificații</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Relație directă cu furnizorul pentru suport</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Suport tehnic personalizat și consultanță</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Posibilitate modificări în timpul proiectului</li>
+                    <li><span style={{color: '#047857'}}>✓</span> Proces administrativ minimal</li>
                   </ul>
                 </div>
 
                 <div className={styles.consSection}>
-                  <h4 style={{color: '#ef4444', display: 'flex', alignItems: 'center', gap: '8px'}}>
+                  <h4 style={{color: '#b91c1c', display: 'flex', alignItems: 'center', gap: '8px'}}>
                     <AlertCircle size={20} /> Dezavantaje Direct
                   </h4>
                   <ul className={styles.consList}>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Lipsă transparență publică în proces</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Prețuri potențial mai mari fără competiție</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Fără protecție legală specifică SEAP</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Risc de percepție negativă în audituri</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Mai puține garanții pentru instituții publice</li>
-                    <li><span style={{color: '#ef4444'}}>✗</span> Documentație mai puțin standardizată</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Lipsă transparență publică în proces</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Prețuri potențial mai mari fără competiție</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Fără protecție legală specifică SEAP</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Risc de percepție negativă în audituri</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Mai puține garanții pentru instituții publice</li>
+                    <li><span style={{color: '#b91c1c'}}>✗</span> Documentație mai puțin standardizată</li>
                   </ul>
                 </div>
               </div>
@@ -934,7 +934,7 @@ export default function GhidSeapPage() {
               </blockquote>
               <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
                 <cite style={{fontWeight: '600', color: '#1f2937', fontStyle: 'normal'}}>L.D.</cite>
-                <span style={{color: '#9ca3af'}}>·</span>
+                <span style={{color: '#6b7280'}}>·</span>
                 <span style={{color: '#6b7280', fontSize: '0.875rem'}}>Director General</span>
               </div>
             </div>

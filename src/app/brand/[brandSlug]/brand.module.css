@@ -1054,3 +1054,22 @@
   border-color: var(--primary);
   color: white;
 }
+
+/* v59: ținte tactile ≥ 44 px pe mobil (WCAG 2.5.8), fără modificare vizuală */
+@media (max-width: 768px) {
+  .typeChipBtn,
+  .addBtn {
+    position: relative;
+  }
+
+  .typeChipBtn::after,
+  .addBtn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    transform: translate(-50%, -50%);
+  }
+}
