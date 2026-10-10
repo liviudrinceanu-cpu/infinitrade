@@ -712,6 +712,7 @@ Pentru aplicații din petrol și gaze, siderurgie, minerit sau ridicare grea din
   },
   hoerbiger: {
     name: "Hoerbiger",
+    headquarters: "Zug, Elveția",
     overview: `Hoerbiger este un grup industrial cu origini din 1895 (brevetul pentru supapa cu plăci de oțel, conform istoricului de pe site-ul propriu), producător de componente pentru compresoare cu piston, sisteme de control al fluxului și mișcării și echipamente pentru industria hidrogenului. Gama pentru compresoare acoperă valve cu plăci profilate (XP, CP, CPs), valve inelare de presiune ridicată (HPV), valve din materiale nemetalice (CT, CS) și valve inelare profilate (CE), completată de sisteme de control al capacității (HydroCOM, eHydroCOM), lubrifiere digitală (XperLUBE) și panouri de control al emisiilor (ECP). Pentru piața din România putem oferta în principal din gama de valve pentru compresoare cu piston, cea mai relevantă pentru mentenanța instalațiilor de proces existente.
 
 Ce diferențiază Hoerbiger în categoria valvelor de compresor este acoperirea foarte largă de tehnologii de control al capacității — de la sisteme hidraulice clasice de tip HydroCOM până la variante complet electrice (eHydroCOM) și sisteme de reglare a volumului mort (eVCP), toate din același producător. Pe partea de automatizare, producătorul oferă și actuatoare electrohidraulice (TriVAX) și valve piezoelectrice (P8/P20, P9, P13, Tecno, LasGAR, LasGAM), ale căror funcții se confirmă din documentația producătorului. 
@@ -771,9 +772,11 @@ Pentru operatorii de instalații industriale, rafinării și stații de compreso
     ],
     evidenceClass: "market-signal-intl",
     tier: 3,
-    lastVerified: "2026-10-08",
-    changelog: [{ date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: originea grupului este 1895 (nu 1896); am eliminat sediul „Viena” și anul înființării din fișă, deoarece sediul actual al grupului nu este confirmat pe site-ul oficial.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
+    lastVerified: "2026-10-10",
+    changelog: [{ date: '2026-10-10', note: 'Sediul grupului (Zug, Elveția) readăugat după confirmarea pe site-ul oficial: comunicat de presă din 10.01.2025 („headquartered in Zug, Switzerland”) și pagina de imprint (HOERBIGER Holding AG, Baarerstrasse 18, 6302 Zug).' }, { date: '2026-10-08', note: 'Corecturi după verificare pe sursele oficiale: originea grupului este 1895 (nu 1896); am eliminat sediul „Viena” și anul înființării din fișă, deoarece sediul actual al grupului nu este confirmat pe site-ul oficial.' }, { date: '2026-10-05', note: 'Date tehnice reverificate pe sursele oficiale ale producătorului.' },  { date: "2026-09-22", note: "pagină publicată; date verificate în sursele citate" } ],
     sources: [
+      { title: 'HOERBIGER – Imprint', url: 'https://www.hoerbiger.com/en/footer/imprint.html', publisher: 'HOERBIGER Holding AG', accessed: '2026-10-10' },
+      { title: 'HOERBIGER strengthens its offering for safety and explosion protection (comunicat, 10.01.2025)', url: 'https://www.hoerbiger.com/en/newsroom/press/hoerbiger-strengthens-its-offering-for-safety-and-explosion-protection.html', publisher: 'HOERBIGER', accessed: '2026-10-10' },
       { title: 'HOERBIGER – Origin (istoric)', url: 'https://bettertomorrow.hoerbiger.com/en/origin.html', publisher: 'HOERBIGER', accessed: '2026-10-08' },
       { title: "HOERBIGER — official site", url: "https://www.hoerbiger.com", publisher: "HOERBIGER Holding AG", accessed: "2026-09-22" },
       { title: "Compression Division", url: "https://www.hoerbiger.com/en/compression.html", publisher: "HOERBIGER Holding AG", accessed: "2026-09-22" }
