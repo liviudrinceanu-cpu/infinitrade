@@ -1,6 +1,5 @@
 import './globals.css'
 import { Inter } from 'next/font/google';
-import dynamic from 'next/dynamic';
 import { Analytics } from '@vercel/analytics/next';
 import AnalyticsConsent from '@/components/AnalyticsConsent';
 import { QuoteCartProvider } from '@/context/QuoteCartContext';
@@ -9,7 +8,7 @@ import { config } from '@/lib/config';
 import { GOOGLE_BUSINESS_PROFILE_URL } from '@/data/company';
 
 // Dynamically import WebVitals to avoid SSR (client-only component)
-const WebVitals = dynamic(() => import('@/components/WebVitals'), { ssr: false });
+import WebVitals from '@/components/WebVitalsLoader';
 
 // Optimized font loading - only load latin subset with swap display
 // This prevents FOIT (Flash of Invisible Text) and improves LCP

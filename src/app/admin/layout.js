@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 export default async function AdminLayout({ children }) {
-  const headersList = headers();
+  const headersList = await headers();
   const pathname = headersList.get('x-pathname') || '';
 
   // Login page doesn't need sidebar
